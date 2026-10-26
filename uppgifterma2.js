@@ -54080,5 +54080,246 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "x",
       "x"
     ]
+  },
+  {
+    "id": "1.1235",
+    "kap": 1,
+    "omr": "linjara_representationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "nollställe utanför figuren",
+    "t": "<p>Linjen i figuren går genom punkterna A och B och fortsätter utanför figuren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"En rät linje som går genom punkterna A (1, 5) och B (4, 3) och lutar nedåt. Linjen når inte x-axeln inom figuren.\"><title>En rät linje som går genom punkterna A (1, 5) och B (4, 3) och lutar nedåt. Linjen når inte x-axeln inom figuren.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"26\" x2=\"48.0\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"96.3\" y1=\"26\" x2=\"96.3\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"144.6\" y1=\"26\" x2=\"144.6\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"192.9\" y1=\"26\" x2=\"192.9\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"241.1\" y1=\"26\" x2=\"241.1\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"289.4\" y1=\"26\" x2=\"289.4\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"337.7\" y1=\"26\" x2=\"337.7\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"386.0\" y1=\"26\" x2=\"386.0\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"288.0\" x2=\"386\" y2=\"288.0\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"250.6\" x2=\"386\" y2=\"250.6\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"213.1\" x2=\"386\" y2=\"213.1\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"175.7\" x2=\"386\" y2=\"175.7\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"138.3\" x2=\"386\" y2=\"138.3\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"100.9\" x2=\"386\" y2=\"100.9\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"63.4\" x2=\"386\" y2=\"63.4\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"26.0\" x2=\"386\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"288\" x2=\"394\" y2=\"288\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"48\" y1=\"288\" x2=\"48\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"48.0\" y1=\"75.9\" x2=\"386.0\" y2=\"250.6\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"96.3\" cy=\"100.9\" r=\"5\" fill=\"#c2410c\"/><text x=\"88.3\" y=\"120.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">A</text><circle cx=\"241.1\" cy=\"175.7\" r=\"5\" fill=\"#c2410c\"/><text x=\"233.1\" y=\"195.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">B</text><text x=\"96.3\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><text x=\"144.6\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><text x=\"192.9\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><text x=\"241.1\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><text x=\"289.4\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><text x=\"337.7\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><text x=\"386.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><text x=\"41.0\" y=\"254.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><text x=\"41.0\" y=\"217.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><text x=\"41.0\" y=\"179.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><text x=\"41.0\" y=\"142.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><text x=\"41.0\" y=\"104.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><text x=\"41.0\" y=\"67.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><text x=\"41.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">7</text><text x=\"41.0\" y=\"303.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"398.0\" y=\"293.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"55.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text></svg></span><p>Beräkna var linjen skär x-axeln. Svara exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen bestäms med A och B</p><p>Från A till B ökar x med 3 och y minskar med 2.</p><div class=\"facit-matte\">\\[k=\\frac{3-5}{4-1}=-\\frac23\\]</div></li><li><p class=\"facit-rubrik\">Sätt in punkten A för att få m</p><div class=\"facit-matte\">\\[5=-\\frac23\\cdot1+m\\quad\\Rightarrow\\quad m=\\frac{17}3\\]</div><p>Linjens ekvation är \\(y=-\\frac23x+\\frac{17}3\\).</p></li><li><p class=\"facit-rubrik\">På x-axeln är y = 0</p><div class=\"facit-matte\">\\[\\begin{gathered}-\\frac23x+\\frac{17}3=0\\quad \\Rightarrow 2x=17\\\\\\Rightarrow x=8{,}5\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Linjen skär x-axeln där \\(x=8{,}5\\).</p></div>",
+    "familj": "Räta linjer i grafer",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Bestäm linjens ekvation med hjälp av A och B. Vilket y-värde har en punkt på x-axeln?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8.5,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1236",
+    "kap": 1,
+    "omr": "linjara_representationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "avläsa graf och räkna utanför den",
+    "t": "<p>En pool fylls med vatten. Grafen visar vattendjupet under de första 12 minuterna, och djupet fortsätter att öka på samma sätt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"320\" viewBox=\"0 0 440 320\" role=\"img\" aria-label=\"Grafen visar vattendjupet i centimeter mot tiden i minuter. Linjen börjar på 20 cm och går genom 30 cm vid 4 minuter och 40 cm vid 8 minuter.\"><title>Grafen visar vattendjupet i centimeter mot tiden i minuter. Linjen börjar på 20 cm och går genom 30 cm vid 4 minuter och 40 cm vid 8 minuter.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"26\" x2=\"48.0\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"107.7\" y1=\"26\" x2=\"107.7\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"167.3\" y1=\"26\" x2=\"167.3\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"227.0\" y1=\"26\" x2=\"227.0\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"286.7\" y1=\"26\" x2=\"286.7\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"346.3\" y1=\"26\" x2=\"346.3\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"406.0\" y1=\"26\" x2=\"406.0\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"272.0\" x2=\"406\" y2=\"272.0\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"231.0\" x2=\"406\" y2=\"231.0\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"190.0\" x2=\"406\" y2=\"190.0\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"149.0\" x2=\"406\" y2=\"149.0\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"108.0\" x2=\"406\" y2=\"108.0\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"67.0\" x2=\"406\" y2=\"67.0\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"26.0\" x2=\"406\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"48\" y1=\"272\" x2=\"414\" y2=\"272\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"48\" y1=\"272\" x2=\"48\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"48.0\" y1=\"190.0\" x2=\"406.0\" y2=\"67.0\" stroke=\"#216d87\" stroke-width=\"2.6\"/><text x=\"107.7\" y=\"289.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><text x=\"167.3\" y=\"289.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><text x=\"227.0\" y=\"289.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><text x=\"286.7\" y=\"289.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><text x=\"346.3\" y=\"289.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><text x=\"406.0\" y=\"289.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">12</text><text x=\"41.0\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">10</text><text x=\"41.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">20</text><text x=\"41.0\" y=\"153.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">30</text><text x=\"41.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">40</text><text x=\"41.0\" y=\"71.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">50</text><text x=\"41.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">60</text><text x=\"41.0\" y=\"287.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"227.0\" y=\"310.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">tid (min)</text><text x=\"55.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">djup (cm)</text></svg></span><p>Efter hur många minuter är vattnet 100 cm djupt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av startdjupet och ökningen per minut</p><p>Vid tiden 0 är djupet 20 cm. På 4 minuter ökar djupet från 20 cm till 30 cm.</p><div class=\"facit-matte\">\\[k=\\frac{30-20}{4}=2{,}5\\ \\text{cm/min}\\]</div></li><li><p class=\"facit-rubrik\">Djupet efter t minuter</p><div class=\"facit-matte\">\\[d=2{,}5t+20\\]</div></li><li><p class=\"facit-rubrik\">Djupet ska vara 100 cm</p><div class=\"facit-matte\">\\[\\begin{gathered}2{,}5t+20=100\\quad \\Rightarrow 2{,}5t=80\\\\\\Rightarrow t=32\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 32 minuter.</p></div>",
+    "familj": "Räta linjer i grafer",
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur mycket ökar djupet per minut, och hur djupt var vattnet från början? Ställ sedan upp en ekvation.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 32,
+    "tolerans": 0,
+    "svarEnhet": "min"
+  },
+  {
+    "id": "1.1237",
+    "kap": 1,
+    "omr": "linjara_representationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "fast avgift och pris per person ur en tabell",
+    "t": "<p>Ett bussbolag tar en fast avgift för en resa och dessutom lika mycket för varje person. Tabellen visar vad några resor har kostat.</p><table class=\"data\"><tbody><tr><th>antal personer</th><td>12</td><td>20</td><td>35</td></tr><tr><th>kostnad (kr)</th><td>2 040</td><td>3 160</td><td>5 260</td></tr></tbody></table><p>Hur stor är den fasta avgiften, och vad kostar det per person?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Priset per person är ändringen i kostnad delad med ändringen i antal</p><p>Från 12 till 20 personer ökar kostnaden med 1 120 kr.</p><div class=\"facit-matte\">\\[k=\\frac{3\\,160-2\\,040}{20-12}=\\frac{1\\,120}{8}=140\\ \\text{kr}\\]</div></li><li><p class=\"facit-rubrik\">Den fasta avgiften är det som blir kvar när personerna är betalda</p><div class=\"facit-matte\">\\[\\begin{gathered}2\\,040-12\\cdot140 =2\\,040-1\\,680\\\\=360\\ \\text{kr}\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera med den tredje resan</p><p>\\(360+35\\cdot140=360+4\\,900=5\\,260\\) kr, som i tabellen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den fasta avgiften är 360 kr och det kostar 140 kr per person.</p></div>",
+    "familj": "Från tabell till formel",
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur mycket dyrare blir resan för varje extra person? Använd sedan en av resorna för att få fram den fasta avgiften.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      360,
+      140
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "fast avgift (kr)",
+      "per person (kr)"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
+  },
+  {
+    "id": "1.1238",
+    "kap": 1,
+    "omr": "linjara_representationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "ljuset brinner ner",
+    "t": "<p>Ett stearinljus brinner ner lika mycket varje timme. Efter 2 timmar är det 21 cm långt och efter 5 timmar 12 cm långt. Hur långt var ljuset från början, och hur många timmar brinner det sammanlagt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ljuset blir kortare lika mycket varje timme</p><p>På 3 timmar blir ljuset 9 cm kortare.</p><div class=\"facit-matte\">\\[k=\\frac{12-21}{5-2}=-3\\ \\text{cm/h}\\]</div></li><li><p class=\"facit-rubrik\">Längden från början är m-värdet</p><div class=\"facit-matte\">\\[21=-3\\cdot2+m\\quad\\Rightarrow\\quad m=27\\]</div><p>Längden efter t timmar är \\(L=-3t+27\\).</p></li><li><p class=\"facit-rubrik\">Ljuset har brunnit ut när längden är 0</p><div class=\"facit-matte\">\\[-3t+27=0\\quad\\Rightarrow\\quad t=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ljuset var 27 cm från början och brinner i 9 timmar.</p></div>",
+    "familj": "Växla mellan text, graf och formel",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur mycket kortare blir ljuset per timme? Räkna bakåt till tiden 0 och framåt tills längden är 0.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      27,
+      9
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "längd från början (cm)",
+      "brinntid (h)"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
+  },
+  {
+    "id": "1.1239",
+    "kap": 1,
+    "omr": "linjara_representationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "tolka formeln för ett busskort",
+    "t": "<p>Sambandet \\(y=450-15x\\) beskriver hur mycket pengar (kr) som finns kvar på ett busskort efter \\(x\\) resor. Vilket påstående stämmer? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">m-värdet är det som fanns på kortet från början</p><p>När \\(x=0\\) är \\(y=450\\). Kortet laddades alltså med 450 kr.</p></li><li><p class=\"facit-rubrik\">k-värdet är ändringen per resa</p><p>Varje resa minskar beloppet med 15 kr, så en resa kostar 15 kr.</p></li><li><p class=\"facit-rubrik\">Kortet är tomt när y = 0</p><div class=\"facit-matte\">\\[450-15x=0\\quad\\Rightarrow\\quad x=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 30 resor är kortet tomt.</p></div>",
+    "familj": "Växla mellan text, graf och formel",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vad betyder talet som står ensamt, och vad betyder talet framför x? När är y lika med 0?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Varje resa kostar 450 kr",
+        "ratt": false,
+        "kommentar": "450 är beloppet när x = 0, alltså det som fanns på kortet från början."
+      },
+      {
+        "txt": "Kortet laddades med 15 kr",
+        "ratt": false,
+        "kommentar": "15 är minskningen per resa, alltså vad en resa kostar."
+      },
+      {
+        "txt": "Efter 30 resor är kortet tomt",
+        "ratt": true
+      },
+      {
+        "txt": "Efter 15 resor finns 450 kr kvar",
+        "ratt": false,
+        "kommentar": "Efter 15 resor finns 450 − 15 · 15 = 225 kr kvar."
+      }
+    ]
+  },
+  {
+    "id": "1.1240",
+    "kap": 1,
+    "omr": "linjara_representationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "när tabellfunktionen och formeln är lika",
+    "t": "<p>Tabellen visar några värden för den linjära funktionen \\(f\\).</p><table class=\"data\"><tbody><tr><th>\\(x\\)</th><td>0</td><td>2</td><td>4</td><td>6</td></tr><tr><th>\\(f(x)\\)</th><td>10</td><td>7</td><td>4</td><td>1</td></tr></tbody></table><p>Funktionen \\(g\\) är \\(g(x)=x+1\\). För vilket \\(x\\) är \\(f(x)=g(x)\\)? Svara exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm en formel för f ur tabellen</p><p>När x ökar med 2 minskar f(x) med 3, och \\(f(0)=10\\).</p><div class=\"facit-matte\">\\[f(x)=-1{,}5x+10\\]</div></li><li><p class=\"facit-rubrik\">Sätt uttrycken lika</p><div class=\"facit-matte\">\\[\\begin{gathered}-1{,}5x+10=x+1\\quad \\Rightarrow 9=2{,}5x\\\\\\Rightarrow x=3{,}6\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><p>\\(f(3{,}6)=-5{,}4+10=4{,}6\\) och \\(g(3{,}6)=4{,}6\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3{,}6\\)</p></div>",
+    "familj": "Från tabell till formel",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ta fram en formel för f med hjälp av tabellen. Sätt sedan f(x) lika med g(x).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 3.6,
+    "tolerans": 0
   }
 ];

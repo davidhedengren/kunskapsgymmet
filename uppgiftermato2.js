@@ -11428,8 +11428,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös ekvationen \\(2\\sin^2x+\\sin x-1=0\\)<br>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Sätt \\(u=\\sin x\\), faktorisera andragradsekvationen och välj sedan alla vinklar i intervallet.</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[u=\\sin x\\].</div></div></li><li><div class=\"facit-berakning\"><p>Då</p><div class=\"facit-matte\">\\[2u^2+u-1=(2u-1)(u+1)=0\\].</div></div></li><li><p>Alltså \\(\\sin x=1/2\\) eller \\(\\sin x=-1\\).</p></li><li><div class=\"facit-berakning\"><p>Lösningarna är</p><div class=\"facit-matte\">\\[\\boxed{x=30^\\circ,150^\\circ,270^\\circ}\\].</div></div></li></ol></div>",
+    "t": "<p>Lös ekvationen \\(2\\sin^2x+\\sin x-1=0\\) för \\(0^\\circ\\le x\\lt360^\\circ\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Med \\(u=\\sin x\\) blir det en andragradsekvation</p><div class=\"facit-matte\">\\[2u^2+u-1=0\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera och lös ut sin x</p><div class=\"facit-matte\">\\[\\begin{gathered}(2u-1)(u+1)=0\\quad \\Rightarrow \\sin x=\\frac12\\\\\\text{eller}\\quad \\sin x=-1\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">sin x = ½ i första och andra kvadranten</p><div class=\"facit-matte\">\\[x=30^\\circ,\\qquad x=180^\\circ-30^\\circ=150^\\circ\\]</div></li><li><p class=\"facit-rubrik\">sin x = −1 längst ner på enhetscirkeln</p><div class=\"facit-matte\">\\[x=270^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ,\\ 150^\\circ\\) eller \\(270^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -11447,7 +11447,7 @@ window.BANKMATO2 = [
     ],
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Sätt \\(u=\\sin x\\), lös andragradsekvationen och gå sedan tillbaka till vinklar i intervallet.</p>",
+    "ledtrad": "<p>Sätt \\(u=\\sin x\\) och lös andragradsekvationen. Varje värde på \\(u\\) kan ge en eller två vinklar.</p>",
     "svarFormat": [
       "uttryck",
       "uttryck",
@@ -12196,8 +12196,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös ekvationen</p><p>\\[2\\sin^2x-\\sin x-1=0.\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förenkla ekvationen med de trigonometriska formler som behövs och bestäm först möjliga värden på sinus, cosinus eller tangens.</p></li><li><p>Använd sedan enhetscirkeln och intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=90^\\circ,\\ 210^\\circ,\\ 330^\\circ\\).</p></div>",
+    "t": "<p>Lös ekvationen \\(2\\cos^2x+\\sin x=1\\) för \\(0^\\circ\\le x\\lt360^\\circ\\). Svara exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv cos²x med sinus med trigonometriska ettan</p><div class=\"facit-matte\">\\[2(1-\\sin^2x)+\\sin x=1\\]</div></li><li><p class=\"facit-rubrik\">Samla allt i ena ledet – en andragradsekvation i sin x</p><div class=\"facit-matte\">\\[2\\sin^2x-\\sin x-1=0\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera med \\(u=\\sin x\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}(2u+1)(u-1)=0\\quad \\Rightarrow \\sin x=1\\\\\\text{eller}\\quad \\sin x=-\\frac12\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">sin x = 1 högst upp på enhetscirkeln</p><div class=\"facit-matte\">\\[x=90^\\circ\\]</div></li><li><p class=\"facit-rubrik\">sin x = −½ i tredje och fjärde kvadranten</p><div class=\"facit-matte\">\\[\\begin{gathered}x=180^\\circ+30^\\circ=210^\\circ,\\\\x=360^\\circ-30^\\circ=330^\\circ\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=90^\\circ,\\ 210^\\circ\\) eller \\(330^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -12211,7 +12211,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Ekvationen innehåller både cosinus och sinus. Byt ut \\(\\cos^2x\\) så att bara \\(\\sin x\\) finns kvar.</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -13008,8 +13008,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös ekvationen</p><p>\\[2\\cos^2x+\\cos x-1=0\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li><li><p>Betrakta uttrycket som en andragradsekvation i \\(\\cos x\\):</p></li><li><p>\\[(2\\cos x-1)(\\cos x+1)=0.\\]</p></li><li><p>Alltså \\(\\cos x=1/2\\) eller \\(\\cos x=-1\\).</p></li><li><p>På intervallet fås <strong>\\(x=60^\\circ,180^\\circ,300^\\circ\\)</strong>.</p></li></ol></div>",
+    "t": "<p>Lös ekvationen \\(\\cos x\\,(2\\cos x+1)=1\\) för \\(0^\\circ\\le x\\lt360^\\circ\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Högerledet är 1, inte 0 – multiplicera ut och samla allt i ena ledet</p><div class=\"facit-matte\">\\[2\\cos^2x+\\cos x-1=0\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera som en andragradsekvation i cos x</p><div class=\"facit-matte\">\\[\\begin{gathered}(2\\cos x-1)(\\cos x+1)=0\\\\\\Rightarrow \\cos x=\\frac12\\quad \\text{eller}\\quad \\cos x=-1\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">cos x = ½ i första och fjärde kvadranten</p><div class=\"facit-matte\">\\[x=60^\\circ,\\qquad x=360^\\circ-60^\\circ=300^\\circ\\]</div></li><li><p class=\"facit-rubrik\">cos x = −1 i punkten (−1, 0) på enhetscirkeln</p><div class=\"facit-matte\">\\[x=180^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=60^\\circ,\\ 180^\\circ\\) eller \\(300^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -13023,7 +13023,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Produkten är lika med 1, inte 0, så du kan inte sätta faktorerna lika med noll direkt. Multiplicera först ut.</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -104864,8 +104864,8 @@ window.BANKMATO2 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Lös ekvationen \\(2\\cos^2x-\\cos x-1=0\\) för \\(0^\\circ\\le x\\le360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt \\(t=\\cos x\\): \\(2t^2-t-1=0\\Leftrightarrow(2t+1)(t-1)=0\\).</p></li><li><p>\\(\\cos x=1\\) ger \\(x=0^\\circ\\) och \\(x=360^\\circ\\).</p></li><li><p>\\(\\cos x=-\\frac12\\) ger \\(x=120^\\circ\\) och \\(x=240^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 120^\\circ,\\ 240^\\circ,\\ 360^\\circ\\)</p></div>",
+    "t": "<p>Bestäm alla \\(x\\) i intervallet \\(0^\\circ\\le x\\le360^\\circ\\) som uppfyller \\(2\\cos^2x=\\cos x+1\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla alla termer i ena ledet</p><div class=\"facit-matte\">\\[2\\cos^2x-\\cos x-1=0\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera med \\(t=\\cos x\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}(2t+1)(t-1)=0\\quad \\Rightarrow \\cos x=1\\\\\\text{eller}\\quad \\cos x=-\\frac12\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">cos x = 1 i båda ändpunkterna, eftersom 360° ingår</p><div class=\"facit-matte\">\\[x=0^\\circ,\\qquad x=360^\\circ\\]</div></li><li><p class=\"facit-rubrik\">cos x = −½ i andra och tredje kvadranten</p><div class=\"facit-matte\">\\[\\begin{gathered}x=180^\\circ-60^\\circ=120^\\circ,\\\\x=180^\\circ+60^\\circ=240^\\circ\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 120^\\circ,\\ 240^\\circ\\) och \\(360^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur",
@@ -104874,7 +104874,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Ekvationen är en andragradsekvation i \\(\\cos x\\).</p>",
+    "ledtrad": "<p>Flytta över allt till ena ledet. Vilken andragradsekvation får du om du kallar \\(\\cos x\\) för \\(t\\)? Observera att intervallet innehåller 360°.</p>",
     "spel": true,
     "traningsniva": 4,
     "arbetsinsats": 2,

@@ -193344,7 +193344,7 @@ window.BANK = [
   "typ": "enheter i vardagen",
   "poang": "(1/0/0)",
   "t": "<p>En tunn plastfilm är 75 µm tjock. Hur tjock är filmen i meter? (Svara i m.)</p><span class=\"fig\"><svg style=\"width:100%;max-width:400px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"Plastfilmens tjocklek är 75 mikrometer\"><rect width=\"400\" height=\"220\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><rect x=\"60\" y=\"90\" width=\"240\" height=\"35\" fill=\"#d9edf7\"/><path d=\"M320 90h20m-10 0v35m-10 0h20\"/><text x=\"330\" y=\"65\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">75 µm</text><text x=\"180\" y=\"170\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Plastfilm – förstorad bild</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>En mikrometer är en miljondels meter. Därför är tjockleken 75 · 10⁻⁶ m = 0,000075 m.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000075\\) m.</p></div>",
+  "s": "<div class=\"facit-v2\"><p>Prefixet mikro betyder en miljondel. För att omvandla från mikrometer till meter multiplicerar vi därför med \\(10^{-6}\\).</p>\\[75\\text{ µm}=75\\cdot10^{-6}\\text{ m}\\]\\[=0{,}000075\\text{ m}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000075\\) m.</p></div>",
   "miniräknare": true,
   "geogebra": false,
   "familj": "Prefix och tiopotenser",
@@ -193360,7 +193360,8 @@ window.BANK = [
   ],
   "traningsniva": 1,
   "arbetsinsats": 1,
-  "spel": true
+  "spel": true,
+  "ledtrad": "<p>Vad betyder prefixet mikro? Skriv gärna längden med en tiopotens innan du skriver den i decimalform.</p>"
 },
 {
   "id": "2.322",
@@ -193370,7 +193371,7 @@ window.BANK = [
   "typ": "enheter i vardagen",
   "poang": "(1/0/0)",
   "t": "<p>En rektangulär solpanel är 120 cm lång och 80 cm bred. Hur stor är panelens area i kvadratmeter? (Svara i m².)</p><span class=\"fig\"><svg style=\"width:100%;max-width:400px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"Rektangulär solpanel, 120 gånger 80 centimeter\"><rect width=\"400\" height=\"220\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><rect x=\"90\" y=\"45\" width=\"210\" height=\"140\" fill=\"#d9edf7\"/><text x=\"195\" y=\"27\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">120 cm</text><text x=\"350\" y=\"120\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">80 cm</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Längderna är 1,20 m och 0,80 m. Arean blir 1,20 · 0,80 = 0,96 m².</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}96\\) m².</p></div>",
+  "s": "<div class=\"facit-v2\"><p>Arean är längden gånger bredden. Vi omvandlar först båda längderna till meter.</p>\\[l=\\frac{120}{100}=1{,}20\\text{ m}\\]\\[b=\\frac{80}{100}=0{,}80\\text{ m}\\]<p>Därefter blir arean</p>\\[A=lb=1{,}20\\cdot0{,}80=0{,}96\\text{ m}^2.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}96\\) m².</p></div>",
   "miniräknare": true,
   "geogebra": false,
   "familj": "Area- och volymenheter",
@@ -193386,7 +193387,8 @@ window.BANK = [
   ],
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "spel": true
+  "spel": true,
+  "ledtrad": "<p>Omvandla båda sidlängderna till meter innan du beräknar rektangelns area.</p>"
 },
 {
   "id": "2.323",
@@ -193396,7 +193398,7 @@ window.BANK = [
   "typ": "enheter i vardagen",
   "poang": "(0/1/0)",
   "t": "<p>En pump flyttar 3,6 liter vatten per minut. Hur många kubikcentimeter vatten flyttar den per sekund? (Svara i cm³/s.)</p><span class=\"fig\"><svg style=\"width:100%;max-width:400px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"Pumpens vattenflöde\"><rect width=\"400\" height=\"220\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><rect x=\"35\" y=\"80\" width=\"85\" height=\"65\" rx=\"8\" fill=\"#d9edf7\"/><path d=\"M120 110h210m-15-10 15 10-15 10\"/><text x=\"78\" y=\"120\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Pump</text><text x=\"235\" y=\"75\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">3,6 liter per minut</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>3,6 liter är 3 600 cm³ och en minut är 60 s. Flödet blir 3 600 / 60 = 60 cm³/s.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\) cm³/s.</p></div>",
+  "s": "<div class=\"facit-v2\"><p>En liter motsvarar 1 000 cm³. Pumpen flyttar därför</p>\\[3{,}6\\cdot1000=3600\\text{ cm}^3\\]<p>på en minut. En minut är 60 sekunder. Volymen per sekund blir då</p>\\[q=\\frac{3600\\text{ cm}^3}{60\\text{ s}}=60\\text{ cm}^3/\\text{s}.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\) cm³/s.</p></div>",
   "miniräknare": true,
   "geogebra": false,
   "familj": "Enhetsomvandling",
@@ -193412,7 +193414,8 @@ window.BANK = [
   ],
   "traningsniva": 3,
   "arbetsinsats": 1,
-  "spel": true
+  "spel": true,
+  "ledtrad": "<p>Både volymenheten och tidsenheten ska ändras. Om du vet hur mycket som passerar på en minut, hur får du volymen under en sekund?</p>"
 },
 {
   "id": "2.324",
@@ -193422,7 +193425,7 @@ window.BANK = [
   "typ": "enheter i vardagen",
   "poang": "(1/0/0)",
   "t": "<p>En sensor gör mätningar direkt efter varandra, utan pauser. Varje mätning tar 150 ms. Hur många hela mätningar hinner sensorn göra på 2 minuter? (Svara med ett heltal.)</p><span class=\"fig\"><svg style=\"width:100%;max-width:400px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"Tre på varandra följande mätningar tar 150 millisekunder vardera\"><rect width=\"400\" height=\"220\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><path d=\"M40 130H360M40 110V150M140 110V150M240 110V150M340 110V150\"/><text x=\"90\" y=\"95\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">150 ms</text><text x=\"190\" y=\"95\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">150 ms</text><text x=\"290\" y=\"95\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">150 ms</text><text x=\"200\" y=\"190\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Mätningarna fortsätter i 2 minuter</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Två minuter är 120 s. En mätning tar 0,150 s. Antalet hela mätningar är 120 / 0,150 = 800.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(800\\).</p></div>",
+  "s": "<div class=\"facit-v2\"><p>Antalet mätningar är den tillgängliga tiden dividerad med tiden för en mätning. Båda tiderna måste ha samma enhet.</p>\\[t_{\\text{tot}}=2\\cdot60=120\\text{ s}\\]\\[t_{\\text{mätning}}=150\\cdot10^{-3}=0{,}150\\text{ s}\\]<p>Det ger</p>\\[N=\\frac{120}{0{,}150}=800.\\]<p>Resultatet är ett heltal, så alla 800 mätningar hinner avslutas.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(800\\).</p></div>",
   "miniräknare": true,
   "geogebra": false,
   "familj": "Enhetsomvandling",
@@ -193438,7 +193441,8 @@ window.BANK = [
   ],
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "spel": true
+  "spel": true,
+  "ledtrad": "<p>Skriv den totala tiden och tiden för en mätning i samma enhet. Hur får du sedan antalet mätningar?</p>"
 },
 {
   "id": "2.325",
@@ -193448,7 +193452,7 @@ window.BANK = [
   "typ": "enheter i vardagen",
   "poang": "(0/1/0)",
   "t": "<p>Det faller 12 mm regn på ett plant tak med arean 35 m². Allt vatten samlas i en tank. Hur många liter vatten hamnar i tanken? (Svara i liter.)</p><span class=\"fig\"><svg style=\"width:100%;max-width:400px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"Regn över ett plant tak med arean 35 kvadratmeter\"><rect width=\"400\" height=\"220\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><rect x=\"70\" y=\"100\" width=\"260\" height=\"60\" fill=\"#d9edf7\"/><path d=\"M90 35v40m45-40v40m45-40v40m45-40v40m45-40v40m45-40v40\"/><text x=\"200\" y=\"135\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Tak: 35 m²</text><text x=\"200\" y=\"200\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Regnmängd: 12 mm</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Regnets höjd är 0,012 m. Vattenvolymen blir 35 · 0,012 = 0,42 m³. Det motsvarar 420 liter.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(420\\) liter.</p></div>",
+  "s": "<div class=\"facit-v2\"><p>Vattnet kan ses som ett lager med takets area som basyta och regnmängden som höjd. Volymen är basytans area gånger höjden.</p>\\[h=12\\text{ mm}=0{,}012\\text{ m}\\]\\[V=Ah=35\\cdot0{,}012=0{,}42\\text{ m}^3\\]<p>En kubikmeter motsvarar 1 000 liter:</p>\\[V=0{,}42\\cdot1000=420\\text{ liter}.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(420\\) liter.</p></div>",
   "miniräknare": true,
   "geogebra": false,
   "familj": "Area- och volymenheter",
@@ -193464,7 +193468,8 @@ window.BANK = [
   ],
   "traningsniva": 3,
   "arbetsinsats": 1,
-  "spel": true
+  "spel": true,
+  "ledtrad": "<p>Tänk dig vattnet som ett jämnt lager över hela taket. Vilka mått behöver du för att få lagrets volym?</p>"
 },
 {
   "id": "2.326",
@@ -193474,7 +193479,7 @@ window.BANK = [
   "typ": "enheter i vardagen",
   "poang": "(1/0/0)",
   "t": "<p>En behållare innehåller först 0,6 ml vätska. Efter en påfyllning innehåller den 1,8 ml. Hur många mikroliter har fyllts på? (Svara i µl.)</p><span class=\"fig\"><svg style=\"width:100%;max-width:400px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"Samma behållare före och efter påfyllningen\"><rect width=\"400\" height=\"220\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><path d=\"M60 45v120h80V45M260 45v120h80V45\"/><rect x=\"61\" y=\"135\" width=\"78\" height=\"29\" fill=\"#d9edf7\" stroke=\"none\"/><rect x=\"261\" y=\"75\" width=\"78\" height=\"89\" fill=\"#d9edf7\" stroke=\"none\"/><text x=\"100\" y=\"25\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Före</text><text x=\"300\" y=\"25\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Efter</text><text x=\"100\" y=\"200\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">0,6 ml</text><text x=\"300\" y=\"200\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">1,8 ml</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Volymen ökar med 1,8 − 0,6 = 1,2 ml. Eftersom 1 ml = 1 000 µl har 1 200 µl fyllts på.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(1200\\) µl.</p></div>",
+  "s": "<div class=\"facit-v2\"><p>Det som fyllts på är skillnaden mellan slutvolymen och startvolymen.</p>\\[\\Delta V=1{,}8-0{,}6=1{,}2\\text{ ml}\\]<p>En milliliter är 1 000 mikroliter. Volymökningen blir därför</p>\\[\\Delta V=1{,}2\\cdot1000=1200\\text{ µl}.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(1200\\) µl.</p></div>",
   "miniräknare": true,
   "geogebra": false,
   "familj": "Enhetsomvandling",
@@ -193490,7 +193495,8 @@ window.BANK = [
   ],
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "spel": true
+  "spel": true,
+  "ledtrad": "<p>Börja med skillnaden mellan slutvolym och startvolym. Omvandla sedan ökningen från milliliter till mikroliter.</p>"
 },
 {
   "id": "2.327",

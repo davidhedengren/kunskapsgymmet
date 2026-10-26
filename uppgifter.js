@@ -3362,7 +3362,7 @@ window.BANK = [
         "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "fraga": "Ett A4-ark är 210 mm × 297 mm. Bestäm arean i m² utan avrundning.",
+        "fraga": "Bestäm A4-arkets area i m² utan avrundning.",
         "tolerans": 0
       },
       {
@@ -3427,7 +3427,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En bil drar 0,58 liter bensin per mil. Hur många liter går åt på 100 km? En mil är 10 km.",
+        "fraga": "Hur många liter bensin går åt på 100 km? En mil är 10 km.",
         "s": "<div class=\"facit-v2\"><p>\\[100\\ \\mathrm{km}=10\\ \\mathrm{mil}\\]</p><p>\\[V=10\\cdot0{,}58=5{,}8\\ \\mathrm L\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5.8,
@@ -77700,7 +77700,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En resistor på 330 Ω ansluts till 6,0 V. Bestäm strömmen i A.",
+        "fraga": "Bestäm strömmen i A.",
         "s": "<div class=\"facit-v2\"><p>\\[I=U/R=6{,}0/330\\approx0{,}0182\\ \\mathrm A\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.01818181818181818,
@@ -77851,7 +77851,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett kylskåp har effekten 120 W när kompressorn arbetar. Den arbetar 30 % av tiden. Hur mycket elenergi används under 365 dagar? (Svara i kWh.)",
+        "fraga": "Hur mycket elenergi används under 365 dagar? (Svara i kWh.)",
         "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=0{,}120\\cdot0{,}30\\cdot(365\\cdot24)\\\\&=315{,}36\\ \\mathrm{kWh}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 315.36,
@@ -78945,7 +78945,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett batteri har ems 1,5 V och inre resistans 0,60 Ω. Vilken yttre resistans ger störst effekt i den yttre resistorn? (Svara i Ω.)",
+        "fraga": "Vilken yttre resistans ger störst effekt i den yttre resistorn? (Svara i Ω.)",
         "s": "<div class=\"facit-v2\"><p>Lastens effekt är \\(P_R=\\mathcal E^2R/(R+r)^2\\).</p><p>Eftersom \\((R-r)^2\\ge0\\) gäller \\((R+r)^2\\ge4Rr\\). Därför:</p><p>\\[P_R\\le\\mathcal E^2/(4r)\\]</p><p>Likhet fås när R = r. Effekten är alltså störst vid R = 0,60 Ω.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.6,
@@ -79099,7 +79099,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En lampa ansluts till 1,5 V och drar 50 mA. Bestäm effekten i mW.",
+        "fraga": "Bestäm effekten i mW.",
         "s": "<div class=\"facit-v2\"><p>50 mA = 0,050 A.</p><p>\\[\\begin{aligned}P&=UI\\\\&=1{,}5\\cdot0{,}050\\\\&=0{,}075\\ \\mathrm W\\\\&=75\\ \\mathrm{mW}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 75,
@@ -79117,7 +79117,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En lampa ansluts till 1,5 V och drar 50 mA. Bestäm resistansen i Ω.",
+        "fraga": "Bestäm resistansen i Ω.",
         "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}R&=U/I\\\\&=1{,}5/0{,}050\\\\&=30\\ \\Omega\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 30,
@@ -82135,7 +82135,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En resistor på 470 Ω har strömmen 25 mA. Bestäm spänningen i V.",
+        "fraga": "Bestäm spänningen i V.",
         "s": "<div class=\"facit-v2\"><p>25 mA = 0,025 A.</p><p>\\[U=RI=470\\cdot0{,}025=11{,}75\\ \\mathrm V\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 11.75,
@@ -82231,7 +82231,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En laddare ger 5,0 V och 2,2 A under 80 minuter. Hur mycket energi ger den? (Svara i Wh.)",
+        "fraga": "Hur mycket energi ger laddaren? (Svara i Wh.)",
         "s": "<div class=\"facit-v2\"><p>\\[E=5{,}0\\cdot2{,}2\\cdot(80/60)\\approx14{,}7\\ \\mathrm{Wh}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 14.666666666666666,
@@ -84631,7 +84631,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Till en knutpunkt går 450 mA. Ut går 180 mA, en okänd ström och 120 mA. Bestäm den okända strömmen i mA.",
+        "fraga": "Bestäm strömmen I₂ i mA.",
         "s": "<div class=\"facit-v2\"><p>\\[I_2=450-180-120=150\\ \\mathrm{mA}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 150,
@@ -85550,7 +85550,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En rund koppartråd är 2,5 m lång och har radien 0,50 mm. Resistiviteten är 1,7·10⁻⁸ Ωm. Bestäm resistansen i Ω.",
+        "fraga": "Bestäm trådens resistans i Ω.",
         "s": "<div class=\"facit-v2\"><p>Radien är \\(0{,}50\\ \\mathrm{mm}=5{,}0\\cdot10^{-4}\\ \\mathrm m\\).</p><p>\\[\\begin{aligned}A&=\\pi(5{,}0\\cdot10^{-4})^2\\\\&\\approx7{,}85\\cdot10^{-7}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>\\[\\begin{aligned}R&=\\frac{1{,}7\\cdot10^{-8}\\cdot2{,}5}{A}\\\\&\\approx0{,}0541\\ \\Omega\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.05411268065124442,
@@ -85747,7 +85747,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En lampa är märkt 12 V, 21 W. Bestäm strömmen när lampan ansluts till 12 V. (Svara i A.)",
+        "fraga": "Bestäm strömmen när lampan ansluts till 12 V. (Svara i A.)",
         "s": "<div class=\"facit-v2\"><p>\\[I=P/U=21/12=1{,}75\\ \\mathrm A\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1.75,
@@ -86113,7 +86113,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett batteri har ems 1,5 V och inre resistans 0,250 Ω. Strömmen genom en yttre resistor är 2,0 A. Bestäm den yttre resistansen i Ω.",
+        "fraga": "Bestäm den yttre resistansen i Ω.",
         "s": "<div class=\"facit-v2\"><p>\\[U=1{,}5-0{,}250\\cdot2{,}0=1{,}0\\ \\mathrm V\\]</p><p>\\[R=U/I=1{,}0/2{,}0=0{,}50\\ \\Omega\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.5,
@@ -86131,7 +86131,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Ett batteri har ems 1,5 V och inre resistans 0,250 Ω. Vilken ström ger batterimodellen vid kortslutning? (Svara i A.)",
+        "fraga": "Vilken ström ger batterimodellen vid kortslutning? (Svara i A.)",
         "s": "<div class=\"facit-v2\"><p>\\[I_k=\\mathcal E/r=1{,}5/0{,}250=6{,}0\\ \\mathrm A\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 6,
@@ -87319,7 +87319,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En resistor på 52 Ω ansluts till 230 V. Bestäm strömmen i A.",
+        "fraga": "Bestäm strömmen i A.",
         "s": "<div class=\"facit-v2\"><p>\\[I=U/R=230/52\\approx4{,}42\\ \\mathrm A\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.423076923076923,
@@ -87337,7 +87337,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En resistor på 52 Ω ansluts till 230 V. Bestäm effekten i W.",
+        "fraga": "Bestäm effekten i W.",
         "s": "<div class=\"facit-v2\"><p>\\[P=U^2/R=230^2/52\\approx1017\\ \\mathrm W\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1017.3076923076923,
@@ -87617,7 +87617,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En värmare utvecklar 1 500 W vid 230 V. Bestäm strömmen i A.",
+        "fraga": "Bestäm strömmen i A.",
         "s": "<div class=\"facit-v2\"><p>\\[I=P/U=1500/230\\approx6{,}52\\ \\mathrm A\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 6.521739130434782,
@@ -87635,7 +87635,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En värmare utvecklar 1 500 W vid 230 V. Bestäm resistansen i Ω.",
+        "fraga": "Bestäm resistansen i Ω.",
         "s": "<div class=\"facit-v2\"><p>\\[R=U^2/P=230^2/1500\\approx35{,}3\\ \\Omega\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 35.266666666666666,
@@ -87653,7 +87653,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En värmare utvecklar 1 500 W vid 230 V. Vilken effekt får den vid 115 V om resistansen är densamma? (Svara i W.)",
+        "fraga": "Vilken effekt får den vid 115 V om resistansen är densamma? (Svara i W.)",
         "s": "<div class=\"facit-v2\"><p>Med samma resistans är effekten proportionell mot spänningen i kvadrat.</p><p>\\[P_{\\text{ny}}=1500(115/230)^2=375\\ \\mathrm W\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 375,
@@ -88124,7 +88124,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En tråd har resistansen 12 Ω. En ny tråd av samma material har dubbelt så stor längd och hälften så stor area. Vad blir resistansen i Ω?",
+        "fraga": "Vad blir den nya trådens resistans i Ω?",
         "s": "<div class=\"facit-v2\"><p>Samma material betyder samma resistivitet. Dubbel längd ger faktorn 2 och halv area ger ytterligare faktorn 2.</p><p>\\[R_{\\text{ny}}=12\\cdot\\frac{2}{1/2}=48\\ \\Omega\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 48,
@@ -88142,7 +88142,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En tråd har resistansen 12 Ω. Vilka ändringar kan var för sig ge 6 Ω? Markera alla korrekta alternativ. Övriga storheter är oförändrade.",
+        "fraga": "Vilka ändringar kan var för sig ge 6 Ω? Markera alla korrekta alternativ. Övriga storheter är oförändrade.",
         "s": "<div class=\"facit-v2\"><p>För den ursprungliga tråden kan resistansen halveras genom att halvera längden eller dubbla arean. Ett material med halva resistiviteten ger också halv resistans, om längd och area är samma.</p></div>",
         "svarstyp": "alternativ",
         "rättSvar": [
@@ -88356,7 +88356,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En lampa är märkt 12 V, 24 W. Vilken ström går genom lampan när spänningen över den är 12 V? (Svara i A.)",
+        "fraga": "Vilken ström går genom lampan när spänningen över den är 12 V? (Svara i A.)",
         "s": "<div class=\"facit-v2\"><p>Märkströmmen gäller när spänningen över lampan är 12 V.</p><p>\\[I=P/U=24/12=2{,}0\\ \\mathrm A\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2,
@@ -89554,7 +89554,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett batteri har ems 1,5 V och inre resistans 0,30 Ω. Vilken kortslutningsström ger modellen? (Svara i A.)",
+        "fraga": "Vilken kortslutningsström ger modellen? (Svara i A.)",
         "s": "<div class=\"facit-v2\"><p>\\[I_k=1{,}5/0{,}30=5{,}0\\ \\mathrm A\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5,
@@ -92340,7 +92340,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En resistor har spänningen 6,0 V och strömmen 0,25 A. Bestäm resistansen i Ω.",
+        "fraga": "Bestäm resistansen i Ω.",
         "s": "<div class=\"facit-v2\"><p>\\[R=U/I=6{,}0/0{,}25=24\\ \\Omega\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 24,
@@ -92358,7 +92358,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En resistor har spänningen 6,0 V och strömmen 0,25 A. Bestäm effekten i W.",
+        "fraga": "Bestäm effekten i W.",
         "s": "<div class=\"facit-v2\"><p>\\[P=UI=6{,}0\\cdot0{,}25=1{,}5\\ \\mathrm W\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1.5,
@@ -92458,7 +92458,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett batteri ger laddningen 4,5 kC och energin 42 kJ. Bestäm medelspänningen i V.",
+        "fraga": "Bestäm medelspänningen i V.",
         "s": "<div class=\"facit-v2\"><p>\\[U=E/Q=42000/4500\\approx9{,}33\\ \\mathrm V\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 9.333333333333334,
@@ -94871,7 +94871,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Två resistorer är seriekopplade till 9,0 V. Spänningen över den ena är 3,6 V. Bestäm spänningen över den andra i V.",
+        "fraga": "Spänningen över den ena är 3,6 V. Bestäm spänningen över den andra i V.",
         "s": "<div class=\"facit-v2\"><p>\\[U_2=9{,}0-3{,}6=5{,}4\\ \\mathrm V\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5.4,
@@ -96125,7 +96125,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Strömmen genom batteriet är 0,20 A. Bestäm kretsens totala resistans.",
+        "fraga": "Bestäm kretsens totala resistans.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=\\frac{24}{0{,}20}=120\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\Omega\\).</p></div>",
         "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
         "niva": "E",
@@ -99255,7 +99255,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Ett batteri har ems 4,5 V och inre resistans 1,2 Ω. Två lampor parallellt har ersättningsresistansen 6,0 Ω; tre har 4,0 Ω. Bestäm polspänningen i båda fallen. (Svara i V.)",
+        "fraga": "Två lampor parallellt har ersättningsresistansen 6,0 Ω; tre har 4,0 Ω. Bestäm polspänningen i båda fallen. (Svara i V.)",
         "s": "<div class=\"facit-v2\"><p>Beräkna totalströmmen i varje fall och dra bort det inre spänningsfallet.</p><p>\\[U_2=4{,}5\\cdot6{,}0/(6{,}0+1{,}2)=3{,}75\\ \\mathrm V\\]</p><p>\\[U_3=4{,}5\\cdot4{,}0/(4{,}0+1{,}2)\\approx3{,}46\\ \\mathrm V\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -100259,7 +100259,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En källare på 120 m³ har radonhalten 300 Bq/m³. Hur många sönderfall sker i källarluften per sekund i genomsnitt?",
+        "fraga": "Hur många sönderfall sker i källarluften per sekund i genomsnitt?",
         "s": "<div class=\"facit-v2\"><p>Multiplicera aktiviteten per kubikmeter med rummets volym.</p><p>\\[A=300\\cdot120=36000\\ \\mathrm{Bq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 36000,
@@ -100666,7 +100666,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett jod-131-preparat har startaktiviteten 400 MBq och halveringstiden 8,0 dygn. Bestäm aktiviteten efter 24 dygn i MBq.",
+        "fraga": "Bestäm aktiviteten efter 24 dygn i MBq.",
         "s": "<div class=\"facit-v2\"><p>\\[n=24/8{,}0=3\\]</p><p>\\[A=400\\cdot2^{-3}=50\\ \\mathrm{MBq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 50,
@@ -101541,7 +101541,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Vid ett sönderfall är produkternas sammanlagda vilomassa 0,002815 u lägre än före sönderfallet. Hur mycket energi frigörs i MeV?",
+        "fraga": "Hur mycket energi frigörs i MeV?",
         "s": "<div class=\"facit-v2\"><p>\\[E=0{,}002815\\cdot931{,}5\\]</p><p>\\[E\\approx2{,}62\\ \\mathrm{MeV}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2.6221725,
@@ -103127,7 +103127,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En nuklid har halveringstiden 5 dygn. Bestäm sönderfallskonstanten i s⁻¹.",
+        "fraga": "Bestäm sönderfallskonstanten i s⁻¹.",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=5\\cdot86400\\]</p><p>\\[T\\approx432000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/432000\\]</p><p>\\[\\lambda\\approx1{,}6\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1.6045073624072808e-06,
@@ -103270,7 +103270,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Järnets molmassa är 55,85 g/mol.  Hur många atomer finns i 1,0 g järn?",
+        "fraga": "Hur många atomer finns i 1,0 g järn?",
         "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}n&=m/M\\\\&=1{,}0/55{,}85\\\\&\\approx0{,}01791\\ \\mathrm{mol}\\end{aligned}\\]</p><p>\\[\\begin{aligned}N&=nN_A\\\\&\\approx1{,}078\\cdot10^{22}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1.0782452999104745e+22,
@@ -103419,7 +103419,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En atom av helium-4 har 2 protoner, 2 neutroner och atommassan 4,002603 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. Bestäm massdefekten i u.",
+        "fraga": "Bestäm massdefekten i u.",
         "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=2\\cdot1{,}007825+2\\cdot1{,}008665\\\\&\\approx4{,}032980\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=4{,}03298-4{,}002603\\\\&\\approx0{,}030377\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.030377000000000542,
@@ -106530,7 +106530,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 1 halveringstider.",
+        "fraga": "Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 1 halveringstider.",
         "s": "<div class=\"facit-v2\"><p>\\[t=1\\cdot15=15\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^1\\]</p><p>\\[p\\approx50\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^1\\]</p><p>\\[A\\approx320\\ \\mathrm{Bq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -106567,7 +106567,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 2 halveringstider.",
+        "fraga": "Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 2 halveringstider.",
         "s": "<div class=\"facit-v2\"><p>\\[t=2\\cdot15=30\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^2\\]</p><p>\\[p\\approx25\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^2\\]</p><p>\\[A\\approx160\\ \\mathrm{Bq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -106604,7 +106604,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 3 halveringstider.",
+        "fraga": "Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 3 halveringstider.",
         "s": "<div class=\"facit-v2\"><p>\\[t=3\\cdot15=45\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^3\\]</p><p>\\[p\\approx12{,}5\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^3\\]</p><p>\\[A\\approx80\\ \\mathrm{Bq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -106641,7 +106641,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 4 halveringstider.",
+        "fraga": "Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 4 halveringstider.",
         "s": "<div class=\"facit-v2\"><p>\\[t=4\\cdot15=60\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^4\\]</p><p>\\[p\\approx6{,}25\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^4\\]</p><p>\\[A\\approx40\\ \\mathrm{Bq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -107352,7 +107352,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En banan har aktiviteten 15 Bq från kalium-40. Vad betyder det?",
+        "fraga": "Vad betyder det att bananen har aktiviteten 15 Bq?",
         "s": "<div class=\"facit-v2\"><p>Bq anger antal sönderfall per sekund i genomsnitt.</p></div>",
         "svarstyp": "alternativ",
         "rättSvar": "I genomsnitt sker 15 radioaktiva sönderfall per sekund.",
@@ -107387,7 +107387,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En banan har aktiviteten 15 Bq från kalium-40. Aktiviteten ändras mycket lite på ett år. Hur många sönderfall sker i genomsnitt under ett år? Ett år är 3,156·10⁷ s.",
+        "fraga": "Hur många sönderfall sker i genomsnitt under ett år?",
         "s": "<div class=\"facit-v2\"><p>Multiplicera aktivitet med tid i sekunder.</p><p><div class=\"facit-v2\"><p>\\[N=15\\cdot3{,}156\\cdot10^7\\]</p><p>\\[N\\approx473000000\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 473400000.0,
@@ -109031,7 +109031,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett preparat har aktiviteten 4,0 kBq nu. Halveringstiden är 20 minuter. Vilken aktivitet hade det 60 minuter tidigare? (Svara i kBq.)",
+        "fraga": "Vilken aktivitet hade det 60 minuter tidigare? (Svara i kBq.)",
         "s": "<div class=\"facit-v2\"><p>Bakåt i tiden fördubblas aktiviteten för varje halveringstid.</p><p>\\[60/20=3\\]</p><p>\\[A=4{,}0\\cdot2^3=32\\ \\mathrm{kBq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 32,
@@ -109188,7 +109188,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En kol-12-atom har massan 12,000 u.  Bestäm atomens massa i kg.",
+        "fraga": "Bestäm atomens massa i kg.",
         "s": "<div class=\"facit-v2\"><p>\\[m=12\\cdot1{,}66054\\cdot10^{-27}\\]</p><p>\\[m=1{,}992648\\cdot10^{-26}\\ \\mathrm{kg}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1.992648e-26,
@@ -109348,7 +109348,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Strontium-90 har atomnumret 38. Hur många protoner har kärnan?",
+        "fraga": "Hur många protoner har kärnan?",
         "s": "<div class=\"facit-v2\"><p>Atomnumret är antalet protoner: 38.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 38,
@@ -109585,7 +109585,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En atom av litium-7 har 3 protoner, 4 neutroner och atommassan 7,016003 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. Bestäm massdefekten i u.",
+        "fraga": "Bestäm massdefekten i u.",
         "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=3\\cdot1{,}007825+4\\cdot1{,}008665\\\\&\\approx7{,}058135\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=7{,}058135-7{,}016003\\\\&\\approx0{,}042132\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.042131999999999614,
@@ -109763,7 +109763,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,934936 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. Bestäm massdefekten i u.",
+        "fraga": "Bestäm massdefekten i u.",
         "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=26\\cdot1{,}007825+30\\cdot1{,}008665\\\\&\\approx56{,}463400\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=56{,}4634-55{,}934936\\\\&\\approx0{,}528464\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.5284639999999925,
@@ -110486,7 +110486,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Järn-56 har masstalet 56. Kärnradien uppskattas med r = 1,2·A^(1/3) fm, där A är masstalet. Modellera kärnan som ett klot. Bestäm radien i fm och volymen i m³.<div class=\"fig smal\"><svg width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En klotformad atomkärna med radien r markerad från centrum till kanten\"><circle cx=\"210\" cy=\"110\" r=\"78\" fill=\"#e1edf8\" stroke=\"#315775\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"110\" r=\"3\" fill=\"#315775\"/><line x1=\"210\" y1=\"110\" x2=\"288\" y2=\"110\" stroke=\"#315775\" stroke-width=\"2\"/><text x=\"249\" y=\"98\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243747\">r</text><text x=\"210\" y=\"208\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243747\">atomkärna</text></svg></div>",
+        "fraga": "Bestäm kärnans radie i fm och dess volym i m³.<div class=\"fig smal\"><svg width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En klotformad atomkärna med radien r markerad från centrum till kanten\"><circle cx=\"210\" cy=\"110\" r=\"78\" fill=\"#e1edf8\" stroke=\"#315775\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"110\" r=\"3\" fill=\"#315775\"/><line x1=\"210\" y1=\"110\" x2=\"288\" y2=\"110\" stroke=\"#315775\" stroke-width=\"2\"/><text x=\"249\" y=\"98\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243747\">r</text><text x=\"210\" y=\"208\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243747\">atomkärna</text></svg></div>",
         "s": "<div class=\"facit-v2\"><p>\\[r=1{,}2\\cdot56^{1/3}\\approx4{,}59\\ \\mathrm{fm}\\]</p><p>Radien i meter är cirka 4,59·10⁻¹⁵ m.</p><p>\\[V=4\\pi r^3/3\\approx4{,}05\\cdot10^{-43}\\ \\mathrm{m^3}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -110693,7 +110693,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bly-208 har 82 protoner och 126 neutroner. Hur många fler neutroner än protoner har kärnan?",
+        "fraga": "Hur många fler neutroner än protoner har kärnan?",
         "s": "<div class=\"facit-v2\"><p>\\[126-82=44\\]</p><p>Bly-208 har 44 fler neutroner än protoner.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 44,
@@ -111000,7 +111000,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vid ett sönderfall minskar massan med 0,0056 u. Bestäm frigjord energi i MeV.",
+        "fraga": "Bestäm frigjord energi i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[Q=0{,}0056\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}22\\ \\mathrm{MeV}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5.2164,
@@ -111176,7 +111176,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "D–T-fusion: ²H + ³H → ⁴He + n. Atommassorna är 2,014102 u, 3,016049 u, 4,002603 u och 1,008665 u i samma ordning. Bestäm massminskningen i u och energin i MeV.",
+        "fraga": "Bestäm massminskningen i u och energin i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[m_{före}=5{,}030151\\ \\mathrm u\\]</p><p>\\[m_{efter}=5{,}011268\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}018883\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx17{,}6\\ \\mathrm{MeV}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -111757,7 +111757,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Polonium-210 alfasönderfaller. Atommassorna före och efter är 209,982874 u respektive 205,974465 u och 4,002603 u. Bestäm frigjord energi i MeV.",
+        "fraga": "Bestäm frigjord energi i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[m_{före}=209{,}982874\\ \\mathrm u\\]</p><p>\\[m_{efter}=209{,}977068\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}00580600000001\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}41\\ \\mathrm{MeV}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5.408289000006391,
@@ -111974,7 +111974,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år. Bestäm aktiviteten efter 10 år i kBq.",
+        "fraga": "Bestäm aktiviteten efter 10 år i kBq.",
         "s": "<div class=\"facit-v2\"><p>\\[A=37\\cdot2^{-10/432}\\]</p><p>\\[A\\approx36{,}4\\ \\mathrm{kBq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 36.41106962619364,
@@ -111993,7 +111993,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år. Bestäm aktiviteten efter 100 år i kBq.",
+        "fraga": "Bestäm aktiviteten efter 100 år i kBq.",
         "s": "<div class=\"facit-v2\"><p>\\[A=37\\cdot2^{-100/432}\\]</p><p>\\[A\\approx31{,}5\\ \\mathrm{kBq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 31.515111986810865,
@@ -112301,7 +112301,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En nuklid har halveringstiden 8 dygn. Bestäm sönderfallskonstanten i s⁻¹.",
+        "fraga": "Bestäm sönderfallskonstanten i s⁻¹.",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=8\\cdot86400\\]</p><p>\\[T\\approx691000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/691200\\]</p><p>\\[\\lambda\\approx1\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1.0028171015045505e-06,
@@ -112320,7 +112320,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Ett preparat innehåller 4,2·10¹⁵ radioaktiva kärnor. Sönderfallskonstanten är 1,003·10⁻⁶ s⁻¹. Bestäm aktiviteten i GBq.",
+        "fraga": "Sönderfallskonstanten är 1,003·10⁻⁶ s⁻¹. Bestäm aktiviteten i GBq.",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[A=1{,}003\\cdot10^{-6}\\cdot4{,}2\\cdot10^{15}\\]</p><p>\\[A\\approx4210000000\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=4212600000/10^9\\]</p><p>\\[A\\approx4{,}21\\ \\mathrm{GBq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.2126,
@@ -112471,7 +112471,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Aktiviteten minskar från 800 Bq till 200 Bq på 15 timmar. Bestäm halveringstiden i timmar.",
+        "fraga": "Bestäm halveringstiden i timmar.",
         "s": "<div class=\"facit-v2\"><p>\\[800\\to400\\to200\\]</p><p>\\[T=15/2=7{,}5\\ \\mathrm h\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 7.5,
@@ -112605,7 +112605,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En gammal träbit har 52 % av kol-14-aktiviteten per gram kol i levande trä. Halveringstiden är 5 730 år. Bestäm träbitens ålder.",
+        "fraga": "Bestäm träbitens ålder.",
         "s": "<div class=\"facit-v2\"><p>\\[0{,}52=2^{-t/5730}\\]</p><p>\\[\\ln0{,}52=-(t/5730)\\ln2\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}52)/\\ln2\\]</p><p>\\[t\\approx5410\\ \\mathrm{år}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5405.776382460714,
@@ -113257,7 +113257,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Aktiviteten minskar från 800 Bq till 50 Bq. Med vilken faktor har den minskat?",
+        "fraga": "Med vilken faktor har den minskat?",
         "s": "<div class=\"facit-v2\"><p>\\[800/50=16\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 16,
@@ -113276,7 +113276,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Aktiviteten minskar från 800 Bq till 50 Bq. Hur många halveringstider har gått?",
+        "fraga": "Hur många halveringstider har gått?",
         "s": "<div class=\"facit-v2\"><p>\\[800\\to400\\to200\\to100\\to50\\]</p><p>Fyra halveringar.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4,
@@ -113295,7 +113295,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Aktiviteten minskar från 800 Bq till 50 Bq. Halveringstiden är 20 minuter. Hur lång tid har gått? (Svara i minuter.)",
+        "fraga": "Hur lång tid har gått? (Svara i minuter.)",
         "s": "<div class=\"facit-v2\"><p>Fyra halveringar ger 800 → 400 → 200 → 100 → 50 Bq.</p><p>\\[t=4\\cdot20=80\\ \\mathrm{min}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 80,
@@ -113813,7 +113813,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 3,0 m. (Svara i µSv/h.)",
+        "fraga": "Bestäm dosen per timme på 3,0 m avstånd. (Svara i µSv/h.)",
         "s": "<div class=\"facit-v2\"><p>\\[\\dot H=120(1/3)^2\\]</p><p>\\[\\dot H\\approx13{,}3\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 13.333333333333334,
@@ -113832,7 +113832,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 5,0 µSv/h? (Svara i m.)",
+        "fraga": "På vilket avstånd är dosen per timme 5,0 µSv/h? (Svara i m.)",
         "s": "<div class=\"facit-v2\"><p>\\[5{,}0=120(1/r)^2\\]</p><p>\\[r^2=120/5=24\\]</p><p><div class=\"facit-v2\"><p>\\[r=\\sqrt{24}\\]</p><p>\\[r\\approx4{,}9\\ \\mathrm{m}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.898979485566356,
@@ -114721,7 +114721,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 2,0 m. (Svara i µSv/h.)",
+        "fraga": "Bestäm dosen per timme på 2,0 m avstånd. (Svara i µSv/h.)",
         "s": "<div class=\"facit-v2\"><p>\\[\\dot H=200(1/2)^2\\]</p><p>\\[\\dot H\\approx50\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 50.0,
@@ -114740,7 +114740,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 4,0 m. (Svara i µSv/h.)",
+        "fraga": "Bestäm dosen per timme på 4,0 m avstånd. (Svara i µSv/h.)",
         "s": "<div class=\"facit-v2\"><p>\\[\\dot H=200(1/4)^2\\]</p><p>\\[\\dot H\\approx12{,}5\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 12.5,
@@ -114759,7 +114759,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 8,0 µSv/h? (Svara i m.)",
+        "fraga": "På vilket avstånd är dosen per timme 8,0 µSv/h? (Svara i m.)",
         "s": "<div class=\"facit-v2\"><p>\\[8=200/r^2\\]</p><p>\\[r^2=200/8=25\\]</p><p>\\[r=\\sqrt{25}=5{,}0\\ \\mathrm m\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5,
@@ -114942,7 +114942,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En kropp med massan 70 kg absorberar 0,25 J strålningsenergi. Bestäm absorberad dos i Gy.",
+        "fraga": "Bestäm absorberad dos i Gy.",
         "s": "<div class=\"facit-v2\"><p>\\[D=0{,}25/70\\]</p><p>\\[D\\approx0{,}00357\\ \\mathrm{Gy}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.0035714285714285713,
@@ -118651,7 +118651,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett cellmembran har resistansen 5,0·10⁹ Ω och spänningen 75 mV. Hur stor är strömmen? (Svara i A.)",
+        "fraga": "Hur stor är strömmen? (Svara i A.)",
         "s": "<div class=\"facit-v2\"><p>75 mV = 0,075 V. Ohms lag ger</p><p>\\[\\begin{aligned}I&=U/R\\\\&=\\frac{0{,}075}{5{,}0\\cdot10^9}\\\\&=1{,}5\\cdot10^{-11}\\ \\mathrm A\\end{aligned}\\]</p><p>Det är 15 pA.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1.5e-11,
@@ -127475,7 +127475,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett batteri har ems 6,0 V och inre resistans 0,90 Ω. En yttre resistor på 71 Ω ansluts. Bestäm polspänningen i V.",
+        "fraga": "En yttre resistor på 71 Ω ansluts. Bestäm polspänningen i V.",
         "s": "<div class=\"facit-v2\"><p>\\[I=6{,}0/(71+0{,}90)\\approx0{,}08345\\ \\mathrm A\\]</p><p>\\[U=6{,}0-0{,}90I\\approx5{,}925\\ \\mathrm V\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5.924895688456188,
@@ -127493,7 +127493,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Ett batteri har ems 6,0 V och inre resistans 0,90 Ω. En yttre resistor på 710 Ω ansluts. Bestäm polspänningen i V.",
+        "fraga": "En yttre resistor på 710 Ω ansluts. Bestäm polspänningen i V.",
         "s": "<div class=\"facit-v2\"><p>\\[I=6{,}0/(710+0{,}90)\\approx0{,}008440\\ \\mathrm A\\]</p><p>\\[U=6{,}0-0{,}90I\\approx5{,}992\\ \\mathrm V\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5.992403994935997,
@@ -128006,7 +128006,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett batteri har ems 12,6 V och inre resistans 0,080 Ω. Lampor med sammanlagd resistans 5,00 Ω är anslutna. Bestäm polspänningen i V.",
+        "fraga": "Bestäm polspänningen i V.",
         "s": "<div class=\"facit-v2\"><p>\\[I=12{,}6/(5{,}00+0{,}080)\\approx2{,}480\\ \\mathrm A\\]</p><p>\\[U=5{,}00I\\approx12{,}40\\ \\mathrm V\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 12.401574803149606,
@@ -128024,7 +128024,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Ett batteri har ems 12,6 V och inre resistans 0,080 Ω. Lampor med sammanlagd resistans 5,00 Ω är parallellkopplade med en startmotor. Motorn drar 35 A. Bestäm polspänningen i V.",
+        "fraga": "Lampor med sammanlagd resistans 5,00 Ω är parallellkopplade med en startmotor. Motorn drar 35 A. Bestäm polspänningen i V.",
         "s": "<div class=\"facit-v2\"><p>Lampornas ström är U/5,00. Startmotorn drar dessutom 35 A, så totalströmmen är U/5,00 + 35.</p><p>\\[U=12{,}6-0{,}080(U/5{,}00+35)\\]</p><p>\\[U=12{,}6-0{,}016U-2{,}80\\]</p><p>\\[1{,}016U=9{,}80\\]</p><p>\\[U=9{,}80/1{,}016\\approx9{,}65\\ \\mathrm V\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 9.645669291338583,
@@ -128089,7 +128089,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett batteri har ems 6,0 V och inre resistans 1,2 Ω. Ursprunglig ström är 0,968 A. Den yttre resistansen ändras till 10 Ω. Bestäm kvoten ny ström dividerad med ursprunglig ström.",
+        "fraga": "Ursprunglig ström är 0,968 A. Den yttre resistansen ändras till 10 Ω. Bestäm kvoten ny ström dividerad med ursprunglig ström.",
         "s": "<div class=\"facit-v2\"><p>\\[I_{\\text{ny}}=6{,}0/(10+1{,}2)\\approx0{,}536\\ \\mathrm A\\]</p><p>\\[I_{\\text{ny}}/I_{\\text{gammal}}\\approx0{,}536/0{,}968\\approx0{,}553\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.5534238488783944,
@@ -128107,7 +128107,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Ett batteri har ems 6,0 V och inre resistans 1,2 Ω. Ursprunglig ström är 0,968 A. Den yttre resistansen ändras till 2,5 Ω. Bestäm kvoten ny ström dividerad med ursprunglig ström.",
+        "fraga": "Ursprunglig ström är 0,968 A. Den yttre resistansen ändras till 2,5 Ω. Bestäm kvoten ny ström dividerad med ursprunglig ström.",
         "s": "<div class=\"facit-v2\"><p>\\[I_{\\text{ny}}=6{,}0/(2{,}5+1{,}2)\\approx1{,}622\\ \\mathrm A\\]</p><p>\\[I_{\\text{ny}}/I_{\\text{gammal}}\\approx1{,}622/0{,}968\\approx1{,}68\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1.6752289479562206,
@@ -128208,7 +128208,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett batteris polspänning är 9,0 V utan belastning och 7,6 V med en resistor ansluten. Den inre resistansen är 2,0 Ω. Bestäm den yttre resistansen i Ω.",
+        "fraga": "Bestäm den yttre resistansen i Ω.",
         "s": "<div class=\"facit-v2\"><p>Utan belastning går ingen ström, så ems är 9,0 V.</p><p>\\[I=(9{,}0-7{,}6)/2{,}0=0{,}70\\ \\mathrm A\\]</p><p>\\[R=7{,}6/0{,}70\\approx10{,}86\\ \\Omega\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 10.857142857142858,
@@ -128295,7 +128295,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En torktumlare drar 16 A vid 230 V och används i 45 minuter. Hur mycket energi använder den? (Svara i J.)",
+        "fraga": "Hur mycket energi använder torktumlaren? (Svara i J.)",
         "s": "<div class=\"facit-v2\"><p>45 min = 2 700 s.</p><p>\\[\\begin{aligned}E&=UIt\\\\&=230\\cdot16\\cdot2700\\\\&=9\\,936\\,000\\ \\mathrm J\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 9936000,
@@ -128313,7 +128313,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En dator drar 2,7 A vid 120 V. Hur länge kan den användas med energin 9,9 MJ? (Svara i timmar.)",
+        "fraga": "Hur länge kan datorn användas med energin 9,9 MJ? (Svara i timmar.)",
         "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=UI\\\\&=120\\cdot2{,}7\\\\&=324\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=E/P\\\\&=9{,}9\\cdot10^6/324\\\\&\\approx30\\,556\\ \\mathrm s\\end{aligned}\\]</p><p>\\[t\\approx30\\,556/3600\\approx8{,}49\\ \\mathrm h\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 8.487654320987653,
@@ -129052,7 +129052,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En 3,5 m lång kabel har två runda kopparledare med diametern 1,628 mm vardera. Kopparns resistivitet är 1,7·10⁻⁸ Ωm och strömmen 18 A. Vilken effekt blir värme i kabeln? (Svara i W.)",
+        "fraga": "Vilken effekt blir värme i kabeln? (Svara i W.)",
         "s": "<div class=\"facit-v2\"><p>Strömmen går fram och tillbaka genom två ledare. Total ledarlängd är 7,0 m. Radien är 0,814 mm = 0,000814 m.</p><p>\\[A=\\pi r^2\\approx2{,}08\\cdot10^{-6}\\ \\mathrm{m^2}\\]</p><p>\\[R=\\rho L/A\\approx0{,}0572\\ \\Omega\\]</p><p>\\[P=I^2R=18^2\\cdot R\\approx18{,}5\\ \\mathrm W\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 18.522230698196534,
@@ -129140,7 +129140,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En värmare drar 1,5 A vid 230 V. Bestäm resistansen i Ω.",
+        "fraga": "Bestäm resistansen i Ω.",
         "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}R&=U/I\\\\&=230/1{,}5\\\\&\\approx153\\ \\Omega\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 153.33333333333334,
@@ -129158,7 +129158,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En värmare drar 1,5 A vid 230 V. Den ska värma och smälta 0,72 kg is som är −18 °C. Isens specifika värmekapacitet är 2 100 J/(kg·°C) och smältvärme 334 kJ/kg. All värme går till isen. Hur lång tid behövs för att få vatten vid 0 °C? (Svara i s.)",
+        "fraga": "Hur lång tid behövs för att få vatten vid 0 °C? (Svara i s.)",
         "s": "<div class=\"facit-v2\"><p>Isen måste först värmas till 0 °C och sedan smältas.</p><p>\\[\\begin{aligned}Q_{\\text{värma}}&=mc\\Delta T\\\\&=0{,}72\\cdot2100\\cdot18\\\\&=27\\,216\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q_{\\text{smälta}}&=mL\\\\&=0{,}72\\cdot334\\,000\\\\&=240\\,480\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q&=27\\,216+240\\,480\\\\&=267\\,696\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}P&=UI\\\\&=230\\cdot1{,}5\\\\&=345\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=Q/P\\\\&=267\\,696/345\\\\&\\approx776\\ \\mathrm s\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 775.9304347826087,
@@ -155237,7 +155237,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Fluor-18 beta-plus-sönderfaller till syre-18. De neutrala atommassorna är 18,000938 u och 17,999160 u.   Bestäm frigjord energi i MeV.",
+        "fraga": "Bestäm frigjord energi i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[\\Delta m=18{,}000938-17{,}999160\\]</p><p>\\[\\Delta m=0{,}001778-2\\cdot0{,}000549\\]</p><p><div class=\"facit-v2\"><p>\\[Q=0{,}000680\\cdot931{,}5\\]</p><p>\\[Q\\approx0{,}633\\ \\mathrm{MeV}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.6334200000015012,
@@ -156932,7 +156932,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Naturligt uran innehåller 0,70 % uran-235. Hur många kg naturligt uran innehåller 1,0 g uran-235?",
+        "fraga": "Hur många kg naturligt uran innehåller 1,0 g uran-235?",
         "s": "<div class=\"facit-v2\"><p>\\[m_{235}=0{,}0010\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[m_U=0{,}0010/0{,}0070\\]</p><p>\\[m_U\\approx0{,}143\\ \\mathrm{kg}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.14285714285714285,
@@ -157708,7 +157708,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett preparat har halveringstiden 10 s. Vid tiden 20 s finns i genomsnitt 10 000 radioaktiva kärnor kvar. Hur många fanns från början?",
+        "fraga": "Hur många fanns från början?",
         "s": "<div class=\"facit-v2\"><p>20 s är två halveringstider. Räkna bakåt med två fördubblingar.</p><p>\\[N_0=10000\\cdot2^2=40000\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 40000,
@@ -157727,7 +157727,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Ett preparat har halveringstiden 10 s. Vid tiden 20 s finns i genomsnitt 10 000 radioaktiva kärnor kvar. Hur många väntas vid tiden 40 s?",
+        "fraga": "Hur många väntas vid tiden 40 s?",
         "s": "<div class=\"facit-v2\"><p>Mellan 20 s och 40 s går två halveringstider.</p><p>\\[N=10000/2^2=2500\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2500,
@@ -160257,7 +160257,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett fosfor-32-preparat har startaktiviteten 1,31 MBq och halveringstiden 14,3 dygn. Varje sönderfall sänder ut en betapartikel. Hur många betapartiklar sänds ut under de första 10 dygnen?",
+        "fraga": "Hur många betapartiklar sänds ut under de första 10 dygnen?",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(14{,}3\\cdot86400)\\]</p><p>\\[\\lambda\\approx5{,}61\\cdot10^{-7}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_0=1{,}31\\cdot10^6/\\lambda\\]</p><p>\\[N_0\\approx2{,}34\\cdot10^{12}\\]</p></div></p><p>\\[N_{10}=N_0\\cdot2^{-10/14{,}3}\\]</p><p><div class=\"facit-v2\"><p>\\[\\Delta N=N_0(1-2^{-10/14{,}3})\\]</p><p>\\[\\Delta N\\approx897000000000\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 896960042699.62,
@@ -161035,7 +161035,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En källa har aktiviteten 45 MBq och avger i genomsnitt 850 keV per sönderfall. Bestäm effekten i W. ",
+        "fraga": "Bestäm effekten i W.",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_p=850\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx1{,}36\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=45\\cdot10^6 E_p\\]</p><p>\\[P\\approx6{,}13\\cdot10^{-6}\\ \\mathrm{W}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 6.12765e-06,
@@ -181886,7 +181886,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Reaktionen är ²H + ³H → ⁴He + n. Atommassorna före är 2,0141018 u och 3,0160493 u. Atommassorna efter är 4,0026033 u och 1,0086649 u. Bestäm frigjord energi i MeV.",
+        "fraga": "Bestäm frigjord energi i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[m_{före}=5{,}0301511\\ \\mathrm u\\]</p><p>\\[m_{efter}=5{,}0112682\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0188829\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx17{,}6\\ \\mathrm{MeV}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 17.589232521000344,
@@ -182020,7 +182020,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Reaktionen är ²H + ²H → ³He + n. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160293 u och 1,0086649 u. Bestäm frigjord energi i MeV.",
+        "fraga": "Bestäm frigjord energi i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[m_{före}=4{,}0282036\\ \\mathrm u\\]</p><p>\\[m_{efter}=4{,}0246942\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0035094\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx3{,}27\\ \\mathrm{MeV}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 3.26897100600041,
@@ -182135,7 +182135,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Reaktionen är ²H + ²H → ³H + ¹H. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160493 u och 1,007825 u. Bestäm frigjord energi i MeV.",
+        "fraga": "Bestäm frigjord energi i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[m_{före}=4{,}0282036\\ \\mathrm u\\]</p><p>\\[m_{efter}=4{,}0238743\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0043293\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx4{,}03\\ \\mathrm{MeV}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.0326996570001885,
@@ -182250,7 +182250,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Reaktionen är ⁶Li + ²H → 2 ⁴He. Atommassorna före är 6,0151229 u och 2,0141018 u. Atommassorna efter är 4,0026033 u och 4,0026033 u. Bestäm frigjord energi i MeV.",
+        "fraga": "Bestäm frigjord energi i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[m_{före}=8{,}0292247\\ \\mathrm u\\]</p><p>\\[m_{efter}=8{,}0052066\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0240181\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx22{,}4\\ \\mathrm{MeV}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 22.37261996900097,

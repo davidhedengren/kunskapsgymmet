@@ -4069,7 +4069,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-26-felrapporter-1531-facit-area";
+const BANK_VERSION="2026-10-26-kedja-fy1";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9671,6 +9671,20 @@ function kedjaLararversion(syskon,foralder){
   const delar=fragor.map(somStycke);
   return {intro,delar,kort:delar};
 }
+/* Delkort utan lärarversion som ändå börjar med samma meningar i första stycket, t.ex.
+   "Petra och hennes cykel har sammanlagt massan 72 kg. Backen stiger …" och "… Backen sjunker …".
+   De gemensamma meningarna blir inledning och resten av stycket blir delens fråga. */
+function kedjaGemensammaMeningar(listor,norm){
+  const forsta=listor.map(l=>l[0]||"");
+  if(!forsta.every(b=>/^<p>[\s\S]*<\/p>$/.test(b))) return null;
+  const meningar=forsta.map(b=>b.slice(3,-4).split(/(?<=[.!?])\s+(?=[A-ZÅÄÖ0-9\\])/));
+  let m=0;
+  while(meningar.every(s=>m<s.length-1 && norm(s[m])===norm(meningar[0][m]))) m++;
+  if(m===0) return null;
+  const intro=`<p>${meningar[0].slice(0,m).join(" ")}</p>`;
+  const delar=listor.map((l,i)=>`<p>${meningar[i].slice(m).join(" ")}</p>`+l.slice(1).join(""));
+  return {intro,delar,kort:delar};
+}
 /* Gemensam inledning = de block (stycken, figurer, tabeller) som alla delkort börjar med. */
 function kedjaDelning(syskon,foralder){
   const block=html=>{
@@ -9682,7 +9696,10 @@ function kedjaDelning(syskon,foralder){
   const listor=syskon.map(q=>block(q.t));
   let k=0;
   while(listor.every(l=>k<l.length-1 && norm(l[k])===norm(listor[0][k]))) k++;
-  if(k===0){ const lv=kedjaLararversion(syskon,foralder); if(lv) return lv; }
+  if(k===0){
+    const lv=kedjaLararversion(syskon,foralder)||kedjaGemensammaMeningar(listor,norm);
+    if(lv) return lv;
+  }
   /* "hel": delens text utan den gemensamma inledningen. "kort": dessutom utan de inledande
      block som en tidigare del redan visat (t.ex. när b och c beskriver samma kloss men a har ett
      eget nivå 1-underlag). Den första delen som visas i kedjan använder alltid "hel". */

@@ -116205,6 +116205,256 @@ window.BANKMATO1 = [
   "svarFormat": "numeriskt",
   "tolerans": 1e-09,
   "svarEnhet": "ton"
+},
+{
+  "id": "2.1259",
+  "kap": 2,
+  "omr": "deriveringsregler",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "x-värden där derivatan har ett givet värde",
+  "t": "<p>Funktionen är \\(f(x)=x^3-3x^2+2\\). För vilka \\(x\\) är \\(f'(x)=9\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera term för term</p><div class=\"facit-matte\">\\[f'(x)=3x^2-6x\\]</div><p>Konstanten 2 har derivatan 0.</p></li><li><p class=\"facit-rubrik\">Sätt derivatan lika med 9 och samla allt i ena ledet</p><div class=\"facit-matte\">\\[3x^2-6x=9\\quad\\Rightarrow\\quad x^2-2x-3=0\\]</div></li><li><p class=\"facit-rubrik\">Lös andragradsekvationen</p><div class=\"facit-matte\">\\[x=1\\pm\\sqrt{1+3}=1\\pm2\\]</div><p>Lösningarna är \\(x=3\\) och \\(x=-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\) eller \\(x=-1\\)</p></div>",
+  "familj": "Beräkna derivatans värde",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Derivera först. Då får du en andragradsekvation när du sätter derivatan lika med 9.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    3,
+    -1
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x",
+    "x"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "2.1260",
+  "kap": 2,
+  "omr": "deriveringsregler",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "skriv om en kvot till potenser innan du deriverar",
+  "t": "<p>Funktionen är \\(f(x)=\\dfrac{x^2+4}{\\sqrt x}\\), där \\(x\\gt0\\). Bestäm \\(f'(4)\\). Svara exakt.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela varje term i täljaren med \\(\\sqrt x=x^{1/2}\\)</p><div class=\"facit-matte\">\\[f(x)=\\frac{x^2}{x^{1/2}}+\\frac{4}{x^{1/2}}=x^{3/2}+4x^{-1/2}\\]</div></li><li><p class=\"facit-rubrik\">Derivera med potensregeln</p><div class=\"facit-matte\">\\[f'(x)=\\frac32x^{1/2}-2x^{-3/2}=\\frac32\\sqrt x-\\frac{2}{x\\sqrt x}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=4\\), där \\(\\sqrt4=2\\)</p><div class=\"facit-matte\">\\[f'(4)=\\frac32\\cdot2-\\frac{2}{4\\cdot2}=3-\\frac14=2{,}75\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(4)=2{,}75\\)</p></div>",
+  "familj": "Derivera polynom",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv funktionen som en summa av potenser av x. Då kan du derivera term för term.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.75,
+  "tolerans": 0
+},
+{
+  "id": "2.1261",
+  "kap": 2,
+  "omr": "deriveringsregler",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "punkt där tangenten har en given lutning",
+  "t": "<p>I vilken punkt på kurvan \\(y=x^2-4x+1\\) är tangenten parallell med linjen \\(y=2x+5\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parallella linjer har samma lutning</p><p>Tangentens lutning ska vara 2, alltså samma som linjens k-värde.</p></li><li><p class=\"facit-rubrik\">Tangentens lutning är derivatan</p><div class=\"facit-matte\">\\[y'=2x-4=2\\quad\\Rightarrow\\quad x=3\\]</div></li><li><p class=\"facit-rubrik\">Beräkna y-koordinaten på kurvan</p><div class=\"facit-matte\">\\[y=3^2-4\\cdot3+1=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> I punkten \\((3,\\ -2)\\)</p></div>",
+  "familj": "Beräkna derivatans värde",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilken lutning har linjen \\(y=2x+5\\)? Vilken lutning har tangenten i en punkt på kurvan?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    3,
+    -2
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "x",
+    "y"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "2.1262",
+  "kap": 2,
+  "omr": "deriveringsregler",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "ändringshastighet och när ökningen upphör",
+  "t": "<p>Volymen vatten i en tank är \\(V(t)=200+30t-t^2\\) liter, där \\(t\\) är tiden i minuter och \\(0\\le t\\le30\\).</p><p>a) Hur snabbt ökar volymen när \\(t=5\\)?<br>b) Vid vilken tidpunkt slutar volymen att öka?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ändringshastigheten är derivatan</p><div class=\"facit-matte\">\\[V'(t)=30-2t\\]</div></li><li><p class=\"facit-rubrik\">a) Sätt in \\(t=5\\)</p><div class=\"facit-matte\">\\[V'(5)=30-10=20\\ \\text{liter/min}\\]</div></li><li><p class=\"facit-rubrik\">b) Volymen slutar öka när derivatan är 0</p><div class=\"facit-matte\">\\[30-2t=0\\quad\\Rightarrow\\quad t=15\\]</div><p>Före \\(t=15\\) är derivatan positiv och efter är den negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 20 liter per minut b) Efter 15 minuter.</p></div>",
+  "familj": "Beräkna derivatans värde",
+  "formaga": [
+    "modellering",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hur snabbt volymen ändras ges av derivatan \\(V'(t)\\). Vad är derivatan i det ögonblick då volymen slutar öka?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    20,
+    15
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a) ökning (liter/min)",
+    "b) tid (min)"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "2.1263",
+  "kap": 2,
+  "omr": "deriveringsregler",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "välja funktionen med derivatan noll",
+  "t": "<p>För vilken av funktionerna gäller \\(f'(2)=0\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera varje funktion och sätt in x = 2</p><div class=\"facit-matte\">\\[\\begin{gathered}(x^3-4x)'=3x^2-4\\ \\Rightarrow\\ 8\\\\(x^4-8x)'=4x^3-8\\ \\Rightarrow\\ 24\\end{gathered}\\]</div><div class=\"facit-matte\">\\[\\begin{gathered}(x^3-12x)'=3x^2-12\\ \\Rightarrow\\ 0\\\\(x^2-2x)'=2x-2\\ \\Rightarrow\\ 2\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Bara en derivata blir 0</p><p>Det är \\(f(x)=x^3-12x\\). Där har grafen en vågrät tangent när \\(x=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=x^3-12x\\)</p></div>",
+  "familj": "Beräkna derivatans värde",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Derivera varje alternativ och sätt in \\(x=2\\).</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "f(x) = x³ − 4x",
+      "ratt": false,
+      "kommentar": "f′(x) = 3x² − 4 ger f′(2) = 12 − 4 = 8."
+    },
+    {
+      "txt": "f(x) = x⁴ − 8x",
+      "ratt": false,
+      "kommentar": "f′(x) = 4x³ − 8 ger f′(2) = 32 − 8 = 24."
+    },
+    {
+      "txt": "f(x) = x³ − 12x",
+      "ratt": true
+    },
+    {
+      "txt": "f(x) = x² − 2x",
+      "ratt": false,
+      "kommentar": "f′(x) = 2x − 2 ger f′(2) = 2. Derivatan är 0 när x = 1, inte när x = 2."
+    }
+  ]
+},
+{
+  "id": "2.1264",
+  "kap": 2,
+  "omr": "deriveringsregler",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "förenkla en kvot innan derivering",
+  "t": "<p>Funktionen är \\(f(x)=\\dfrac{x^3-4x}{x^2}\\), där \\(x\\ne0\\). Bestäm \\(f'(2)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela båda termerna i täljaren med \\(x^2\\)</p><div class=\"facit-matte\">\\[f(x)=\\frac{x^3}{x^2}-\\frac{4x}{x^2}=x-4x^{-1}\\]</div></li><li><p class=\"facit-rubrik\">Derivera term för term</p><div class=\"facit-matte\">\\[f'(x)=1+4x^{-2}=1+\\frac{4}{x^2}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(2)=1+\\frac44=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(2)=2\\)</p></div>",
+  "familj": "Derivera polynom",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Man kan inte derivera täljare och nämnare var för sig. Förenkla kvoten till en summa av potenser först.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0
 }
 
 ];

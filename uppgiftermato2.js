@@ -104633,6 +104633,1497 @@ window.BANKMATO2 = [
       "a",
       "b"
     ]
+  },
+  {
+    "id": "1.699",
+    "kap": 1,
+    "omr": "trig_grundekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "1/1/0",
+    "t": "<p>Lös ekvationen \\(\\sin x=\\frac12\\) för alla reella vinklar \\(x\\), angivna i grader.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I ett helt varv är lösningarna \\(30^\\circ\\) och \\(150^\\circ\\).</p></li><li><p>Samma sinusvärden återkommer efter varje helt varv, alltså efter \\(360^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong></p><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\boxed{x=30^\\circ+360^\\circ n\\quad\\text{eller}\\quad x=150^\\circ+360^\\circ n},\\]</p></li><li><p>där \\(n\\) är ett heltal.</p></li></ol></div>",
+    "familj": "Trigonometriska ekvationer med generell lösning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Bestäm först referensvinkeln och vilka kvadranter som ger rätt tecken. Lägg sedan till funktionens period för att skriva alla lösningar och filtrera mot intervallet om ett sådant anges.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "enhetscirkeln_trig",
+      "trig_ekvationer"
+    ],
+    "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
+    "familjTidigare": [
+      "Lösa trigonometriska ekvationer"
+    ],
+    "idTidigare": "mato1 4.71"
+  },
+  {
+    "id": "1.700",
+    "kap": 1,
+    "omr": "trig_grundekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "1/2/0",
+    "t": "<p>Lös \\(\\cos x=-\\frac{\\sqrt3}{2}\\) för alla reella vinklar \\(x\\), angivna i grader.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>På formelbladet är</p><div class=\"facit-matte\">\\[\\cos30^\\circ=\\sqrt3/2\\].</div></div></li><li><p>Cosinus är negativ i andra och tredje kvadranten, så under ett varv får vi \\(150^\\circ\\) och \\(210^\\circ\\).</p></li><li><p>Alla lösningar fås genom att lägga till hela varv:</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=150^\\circ+360^\\circ n\\text{ eller }x=210^\\circ+360^\\circ n}\\), där \\(n\\) är ett heltal.</p></div>",
+    "familj": "Trigonometriska ekvationer med generell lösning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Utgå från referensvinkeln 30°. Cosinus är negativt i andra och tredje kvadranten, och lösningarna upprepas efter ett helt varv.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "enhetscirkeln_trig",
+      "trig_ekvationer"
+    ],
+    "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
+    "familjTidigare": [
+      "Lösa trigonometriska ekvationer"
+    ],
+    "idTidigare": "mato1 4.177"
+  },
+  {
+    "id": "1.701",
+    "kap": 1,
+    "omr": "trig_grundekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "antal lösningar på ett längre intervall",
+    "t": "<p>Hur många lösningar har ekvationen \\(\\sin x=0{,}8\\) i intervallet \\(0^\\circ\\le x\\lt720^\\circ\\)? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Under ett varv finns två lösningar</p><p>\\(\\sin x=0{,}8\\) har en lösning i första kvadranten och en i andra, ungefär 53,1° och 126,9°.</p></li><li><p class=\"facit-rubrik\">Intervallet är två hela varv</p><p>Sinus upprepas var 360:e grad. Varje lösning återkommer därför efter 360°: ungefär 413,1° och 486,9°.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 lösningar.</p></div>",
+    "familj": "Trigonometriska ekvationer med generell lösning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur många lösningar finns det under ett varv? Hur många varv omfattar intervallet?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "2",
+        "ratt": false,
+        "kommentar": "Det gäller för ett varv. Intervallet 0° till 720° är två varv."
+      },
+      {
+        "txt": "1",
+        "ratt": false,
+        "kommentar": "Sinus är positiv i både första och andra kvadranten, så redan ett varv ger två lösningar."
+      },
+      {
+        "txt": "4",
+        "ratt": true
+      },
+      {
+        "txt": "8",
+        "ratt": false,
+        "kommentar": "Två varv med två lösningar per varv ger 4, inte 8."
+      }
+    ],
+    "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
+    "omrTidigare": [
+      "trig_ekvationer"
+    ],
+    "familjTidigare": [
+      "Lösa trigonometriska ekvationer"
+    ],
+    "idTidigare": "mato1 4.583"
+  },
+  {
+    "id": "1.702",
+    "kap": 1,
+    "omr": "trig_grundekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Lös \\(\\cos(2x)=0\\) för \\(0^\\circ\\le x&lt;180^\\circ\\). Vilken är den minsta positiva lösningen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x=90^\\circ+180^\\circ n\\].</div></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[x=45^\\circ+90^\\circ n\\].</div></div></li><li><p>Minsta positiva lösning är 45°.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(45\\)</strong></p></div>",
+    "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 45,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt \\(u=2x\\). Lös först \\(\\cos u=0\\) och översätt sedan lösningarna tillbaka till \\(x\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "enhetscirkeln_trig",
+      "trig_ekvationer"
+    ],
+    "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
+    "familjTidigare": [
+      "Lösa trigonometriska ekvationer"
+    ],
+    "idTidigare": "mato1 4.410"
+  },
+  {
+    "id": "1.703",
+    "kap": 1,
+    "omr": "trig_ekv_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen</p><p>\\[2\\sin^2x=\\sin x\\]</p><p>för \\(0^\\circ\\le x\\le360^\\circ\\). Ange alla lösningar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela inte med \\(\\sin x\\), för då försvinner lösningarna där \\(\\sin x=0\\).</p></li><li><p>Faktorisera i stället:</p><p>\\[2\\sin^2x-\\sin x=0\\;\\Leftrightarrow\\;\\sin x\\,(2\\sin x-1)=0.\\]</p></li><li><p>\\(\\sin x=0\\) ger \\(x=0^\\circ,\\ 180^\\circ,\\ 360^\\circ\\).</p></li><li><p>\\(\\sin x=\\frac12\\) ger \\(x=30^\\circ\\) och \\(x=150^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 30^\\circ,\\ 150^\\circ,\\ 180^\\circ,\\ 360^\\circ\\)</p></div>",
+    "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Flytta över allt till ena sidan och bryt ut \\(\\sin x\\). Glöm inte ändpunkterna i intervallet.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      30,
+      150,
+      180,
+      360
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEnhet": [
+      "°",
+      "°",
+      "°",
+      "°",
+      "°"
+    ],
+    "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
+    "omrTidigare": [
+      "trig_ekvationer"
+    ],
+    "familjTidigare": [
+      "Lösa trigonometriska ekvationer"
+    ],
+    "idTidigare": "mato1 4.476"
+  },
+  {
+    "id": "1.704",
+    "kap": 1,
+    "omr": "trig_ekv_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen \\(2\\cos^2x-\\cos x-1=0\\) för \\(0^\\circ\\le x\\le360^\\circ\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt \\(t=\\cos x\\): \\(2t^2-t-1=0\\Leftrightarrow(2t+1)(t-1)=0\\).</p></li><li><p>\\(\\cos x=1\\) ger \\(x=0^\\circ\\) och \\(x=360^\\circ\\).</p></li><li><p>\\(\\cos x=-\\frac12\\) ger \\(x=120^\\circ\\) och \\(x=240^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 120^\\circ,\\ 240^\\circ,\\ 360^\\circ\\)</p></div>",
+    "familj": "Trigonometriska ekvationer med andragradssubstitution",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ekvationen är en andragradsekvation i \\(\\cos x\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      120,
+      240,
+      360
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEnhet": [
+      "°",
+      "°",
+      "°",
+      "°"
+    ],
+    "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_andragradssubstitution",
+    "omrTidigare": [
+      "trig_ekvationer"
+    ],
+    "familjTidigare": [
+      "Lösa trigonometriska ekvationer"
+    ],
+    "idTidigare": "mato1 4.484"
+  },
+  {
+    "id": "1.705",
+    "kap": 1,
+    "omr": "trig_identiteter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "komplementvinklar och trigonometriska ettan",
+    "t": "<p>Bestäm det exakta värdet av \\(\\sin^2 37^\\circ+\\sin^2 53^\\circ\\) utan räknare.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">53° och 37° är komplementvinklar</p><p>\\(53^\\circ=90^\\circ-37^\\circ\\), och då gäller</p><div class=\"facit-matte\">\\[\\sin53^\\circ=\\sin(90^\\circ-37^\\circ)=\\cos37^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Skriv om summan med cosinus</p><div class=\"facit-matte\">\\[\\begin{gathered}\\sin^2 37^\\circ+\\sin^2 53^\\circ\\\\=\\sin^2 37^\\circ+\\cos^2 37^\\circ\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Trigonometriska ettan ger värdet</p><div class=\"facit-matte\">\\[\\sin^2 v+\\cos^2 v=1\\]</div><p>Det beror på att punkten \\((\\cos v,\\ \\sin v)\\) ligger på enhetscirkeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "familj": "Trigonometriska ettan och identiteter",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur hänger 37° och 53° ihop? Skriv \\(\\sin53^\\circ\\) med hjälp av cosinus.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 0,
+    "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
+    "omrTidigare": [
+      "enhetscirkeln"
+    ],
+    "familjTidigare": [
+      "Symmetri och exakta värden i enhetscirkeln"
+    ],
+    "idTidigare": "mato1 4.573"
+  },
+  {
+    "id": "2.719",
+    "kap": 2,
+    "omr": "sinus_cosinuskurvor",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "den andra lösningen ur grafen",
+    "t": "<p>Figuren visar grafen till \\(y=\\sin x\\) och linjen \\(y=k\\). Linjen skär grafen i två punkter mellan 0° och 360°. Den ena skärningspunkten har \\(x=40^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"290\" viewBox=\"0 0 440 290\" role=\"img\" aria-label=\"Grafen till y = sin x för x från 0 till 360 grader och den vågräta streckade linjen y = k. Linjen skär sinuskurvan i två punkter. Den första punkten har x = 40 grader och är märkt.\"><title>Grafen till y = sin x för x från 0 till 360 grader och den vågräta streckade linjen y = k. Linjen skär sinuskurvan i två punkter. Den första punkten har x = 40 grader och är märkt.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"26\" x2=\"56.0\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"143.5\" y1=\"26\" x2=\"143.5\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"231.0\" y1=\"26\" x2=\"231.0\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"318.5\" y1=\"26\" x2=\"318.5\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"406.0\" y1=\"26\" x2=\"406.0\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"231.2\" x2=\"406\" y2=\"231.2\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"185.6\" x2=\"406\" y2=\"185.6\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"94.4\" x2=\"406\" y2=\"94.4\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"48.8\" x2=\"406\" y2=\"48.8\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"140.0\" x2=\"414\" y2=\"140.0\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"56\" y1=\"254\" x2=\"56\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"56.0\" y1=\"81.4\" x2=\"406.0\" y2=\"81.4\" stroke=\"#8a96a3\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><polyline points=\"56.0,140.0 57.9,136.8 59.9,133.6 61.8,130.5 63.8,127.3 65.7,124.2 67.7,121.0 69.6,117.9 71.6,114.9 73.5,111.8 75.4,108.8 77.4,105.8 79.3,102.9 81.3,100.0 83.2,97.2 85.2,94.4 87.1,91.7 89.1,89.0 91.0,86.4 92.9,83.9 94.9,81.4 96.8,79.0 98.8,76.6 100.7,74.4 102.7,72.2 104.6,70.1 106.6,68.1 108.5,66.2 110.4,64.4 112.4,62.7 114.3,61.0 116.3,59.5 118.2,58.0 120.2,56.7 122.1,55.4 124.1,54.3 126.0,53.3 127.9,52.3 129.9,51.5 131.8,50.8 133.8,50.2 135.7,49.7 137.7,49.3 139.6,49.0 141.6,48.9 143.5,48.8 145.4,48.9 147.4,49.0 149.3,49.3 151.3,49.7 153.2,50.2 155.2,50.8 157.1,51.5 159.1,52.3 161.0,53.3 162.9,54.3 164.9,55.4 166.8,56.7 168.8,58.0 170.7,59.5 172.7,61.0 174.6,62.7 176.6,64.4 178.5,66.2 180.4,68.1 182.4,70.1 184.3,72.2 186.3,74.4 188.2,76.6 190.2,79.0 192.1,81.4 194.1,83.9 196.0,86.4 197.9,89.0 199.9,91.7 201.8,94.4 203.8,97.2 205.7,100.0 207.7,102.9 209.6,105.8 211.6,108.8 213.5,111.8 215.4,114.9 217.4,117.9 219.3,121.0 221.3,124.2 223.2,127.3 225.2,130.5 227.1,133.6 229.1,136.8 231.0,140.0 232.9,143.2 234.9,146.4 236.8,149.5 238.8,152.7 240.7,155.8 242.7,159.0 244.6,162.1 246.6,165.1 248.5,168.2 250.4,171.2 252.4,174.2 254.3,177.1 256.3,180.0 258.2,182.8 260.2,185.6 262.1,188.3 264.1,191.0 266.0,193.6 267.9,196.1 269.9,198.6 271.8,201.0 273.8,203.4 275.7,205.6 277.7,207.8 279.6,209.9 281.6,211.9 283.5,213.8 285.4,215.6 287.4,217.3 289.3,219.0 291.3,220.5 293.2,222.0 295.2,223.3 297.1,224.6 299.1,225.7 301.0,226.7 302.9,227.7 304.9,228.5 306.8,229.2 308.8,229.8 310.7,230.3 312.7,230.7 314.6,231.0 316.6,231.1 318.5,231.2 320.4,231.1 322.4,231.0 324.3,230.7 326.3,230.3 328.2,229.8 330.2,229.2 332.1,228.5 334.1,227.7 336.0,226.7 337.9,225.7 339.9,224.6 341.8,223.3 343.8,222.0 345.7,220.5 347.7,219.0 349.6,217.3 351.6,215.6 353.5,213.8 355.4,211.9 357.4,209.9 359.3,207.8 361.3,205.6 363.2,203.4 365.2,201.0 367.1,198.6 369.1,196.1 371.0,193.6 372.9,191.0 374.9,188.3 376.8,185.6 378.8,182.8 380.7,180.0 382.7,177.1 384.6,174.2 386.6,171.2 388.5,168.2 390.4,165.1 392.4,162.1 394.3,159.0 396.3,155.8 398.2,152.7 400.2,149.5 402.1,146.4 404.1,143.2 406.0,140.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"94.9\" cy=\"81.4\" r=\"5\" fill=\"#c2410c\"/><circle cx=\"192.1\" cy=\"81.4\" r=\"5\" fill=\"#c2410c\"/><text x=\"143.5\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">90°</text><text x=\"231.0\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">180°</text><text x=\"318.5\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">270°</text><text x=\"406.0\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">360°</text><text x=\"49.0\" y=\"235.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><text x=\"49.0\" y=\"189.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−0,5</text><text x=\"49.0\" y=\"98.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0,5</text><text x=\"49.0\" y=\"52.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><text x=\"49.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"418.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"63.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text><text x=\"72.9\" y=\"72.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">40°</text><text x=\"404.0\" y=\"72.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#243447\">y = k</text></svg></span><p>Bestäm x-koordinaten för den andra skärningspunkten och värdet på \\(k\\). (Svara med k med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinuskurvan är symmetrisk kring x = 90° mellan 0° och 180°</p><p>Samma sinusvärde fås för \\(x\\) och för \\(180^\\circ-x\\).</p><div class=\"facit-matte\">\\[x=180^\\circ-40^\\circ=140^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Linjens höjd är sinusvärdet i skärningspunkten</p><div class=\"facit-matte\">\\[k=\\sin40^\\circ\\approx0{,}64\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den andra skärningspunkten har \\(x=140^\\circ\\), och \\(k\\approx0{,}64\\).</p></div>",
+    "familj": "Avläsa sinus- och cosinuskurvor i grafer",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vilken symmetri har sinuskurvan mellan 0° och 180°? k är y-värdet i skärningspunkten.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      140,
+      0.64
+    ],
+    "tolerans": [
+      0,
+      0.005
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "k"
+    ],
+    "svarFormat": [
+      "grader",
+      "numeriskt"
+    ],
+    "omrTidigare": [
+      "trig_ekvationer"
+    ],
+    "familjTidigare": [
+      "Lösa trigonometriska ekvationer"
+    ],
+    "idTidigare": "mato1 4.584"
+  },
+  {
+    "id": "2.720",
+    "kap": 2,
+    "omr": "kurvor_radianer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(\\cos(2x)=\\frac12\\) då \\(0\\le x&lt;\\pi\\).</p><p>Ange alla lösningar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(0\\le2x&lt;2\\pi\\) gäller \\(\\cos(2x)=1/2\\) när</p><p>\\[2x=\\frac{\\pi}{3}\\quad\\text{eller}\\quad2x=\\frac{5\\pi}{3}.\\]</p><p>\\[x=\\frac{\\pi}{6}\\quad\\text{eller}\\quad x=\\frac{5\\pi}{6}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=\\dfrac{\\pi}{6}\\) eller \\(x=\\dfrac{5\\pi}{6}\\)</strong></p></div>",
+    "familj": "Trigonometriska ekvationer i radianer",
+    "geogebra": false,
+    "miniräknare": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/6",
+      "5*pi/6"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "idTidigare": "mato1 4.416",
+    "ledtrad": "<p>Lös först ekvationen för vinkeln \\(u=2x\\) på \\(0\\le u&lt;2\\pi\\), och dividera sedan lösningarna med 2.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "mängd",
+    "svarEtiketter": null,
+    "omrTidigare": [
+      "enhetscirkeln_trig",
+      "trig_ekvationer"
+    ],
+    "familjNyckel": "kurvor_radianer__trigonometriska_ekvationer_i_radianer",
+    "familjTidigare": [
+      "Lösa trigonometriska ekvationer"
+    ]
+  },
+  {
+    "id": "2.721",
+    "kap": 2,
+    "omr": "kurvor_radianer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Lös ekvationen \\(\\sin(x-\\frac{\\pi}{6})=1\\) i intervallet \\(0\\le x\\le\\pi\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Sinus är 1 när vinkeln är \\(\\pi/2+2k\\pi\\).</p></li><li><p>Alltså \\(x-\\pi/6=\\pi/2\\) i intervallet.</p><p>\\[x=\\frac{\\pi}{2}+\\frac{\\pi}{6}=\\frac{2\\pi}{3}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\pi/3\\).</p></div>",
+    "familj": "Trigonometriska ekvationer i radianer",
+    "geogebra": false,
+    "miniräknare": false,
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2*pi/3",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "idTidigare": "mato1 4.417",
+    "ledtrad": "<p>Sinus är 1 när vinkeln är \\(\\pi/2+2k\\pi\\). Sätt \\(x-\\pi/6\\) lika med detta och kontrollera det givna intervallet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "enhetscirkeln_trig",
+      "trig_ekvationer"
+    ],
+    "familjNyckel": "kurvor_radianer__trigonometriska_ekvationer_i_radianer",
+    "familjTidigare": [
+      "Lösa trigonometriska ekvationer"
+    ]
+  },
+  {
+    "id": "2.722",
+    "kap": 2,
+    "omr": "trig_problemlosning_2",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Temperaturen \\(T\\), i °C, modelleras av \\(T(t)=18+7\\sin(\\pi t/12)\\), där \\(t\\) är antalet timmar efter midnatt och \\(0\\le t\\le24\\). Vinkeln anges i radianer.</p><p>Bestäm under vilket tidsintervall temperaturen överstiger 22 °C. Ange intervallets gränser med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Gränstiderna fås när \\(T(t)=22\\), det vill säga \\(\\sin(\\pi t/12)=4/7\\).</p></li><li><p>Rita \\(y=18+7\\sin(\\pi x/12)\\) och \\(y=22\\) för \\(0\\le x\\le24\\), med radianer som vinkelmått. Skärningarna har x-koordinaterna ungefär 2,3233 och 9,6767.</p></li><li><p>Mellan skärningarna ligger temperaturkurvan över linjen. Temperaturen är alltså över 22 °C för \\(2{,}32\\lt t\\lt9{,}68\\), med avrundade gränser. Vid själva gränstiderna är temperaturen exakt 22 °C.</p></li></ol></div>",
+    "familj": "Tidpunkter och intervall i trigonometriska modeller",
+    "geogebra": true,
+    "miniräknare": true,
+    "svarstyp": "text",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Rita temperaturkurvan och den horisontella linjen \\(y=22\\). Var ligger kurvan ovanför linjen?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "familjTidigare": [
+      "Tolka och jämföra funktionsgrafer",
+      "Tolka och jämföra funktioner"
+    ],
+    "familjNyckel": "trig_problemlosning_2__tidpunkter_och_intervall_i_trigonometriska_modeller",
+    "omrTidigare": [
+      "funktioner"
+    ],
+    "idTidigare": "mato1 1.272"
+  },
+  {
+    "id": "2.723",
+    "kap": 2,
+    "omr": "derivatan_sin_cos",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Bestäm största och minsta värde för \\(f(x)=2\\sin x+0{,}15x\\) i intervallet \\(0\\le x\\le10\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=2\\cos x+0{,}15.\\]</p></li><li><p>Lös \\(2\\cos x+0{,}15=0\\) i intervallet och jämför funktionsvärdena i dessa punkter med ändpunkterna.</p></li><li><p>Största värdet är ungefär \\(3{,}184\\) och minsta värdet ungefär \\(-1{,}299\\).</p></li></ol></div>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "text",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Det digitala verktyget används för att hitta derivatan eller lösa derivataekvationen, men den matematiska idén är fortfarande att punkter med horisontell tangent uppstår där f'(x)=0. För växande/avtagande behöver derivatans tecken på intervallen också tolkas.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "derivering_digitalt",
+      "numerisk_derivering"
+    ],
+    "familjTidigare": [
+      "Analysera funktioner med derivata digitalt",
+      "Analysera funktioner med digitalt verktyg"
+    ],
+    "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
+    "idTidigare": "mato1 2.358"
+  },
+  {
+    "id": "2.724",
+    "kap": 2,
+    "omr": "derivatan_sin_cos",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>För funktionen \\(f(x)=0,2 x + \\sin{\\left(x \\right)}\\), bestäm största och minsta värde i intervallet \\(0\\le x\\le 8\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=0{,}2+\\cos x.\\]</p></li><li><p>Lös \\(f^{\\prime}(x)=0\\) i intervallet och jämför med ändpunkterna.</p></li><li><p>Minsta värdet är ungefär \\(-0{,}078\\) vid \\(x\\approx4{,}511\\), och största värdet är ungefär \\(2{,}589\\) vid \\(x=8\\).</p></li></ol></div>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "text",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd verktyget för att bestämma derivata, nollställen eller extrempunkter, men koppla varje digitalt värde till ett matematiskt villkor som \\(f'(x)=0\\) eller ett teckenbyte hos derivatan.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "derivering_digitalt",
+      "numerisk_derivering"
+    ],
+    "familjTidigare": [
+      "Analysera funktioner med derivata digitalt",
+      "Analysera funktioner med digitalt verktyg"
+    ],
+    "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
+    "idTidigare": "mato1 2.365"
+  },
+  {
+    "id": "2.725",
+    "kap": 2,
+    "omr": "derivatan_sin_cos",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>För funktionen \\(f(x)=x^{2} + 3 \\cos{\\left(x \\right)}\\), bestäm största och minsta värde i intervallet \\(-4\\le x\\le 4\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=2x-3\\sin x.\\]</p></li><li><p>Numerisk lösning i intervallet ger kritiska punkter vid \\(x\\approx-1,496,0,1,496\\).</p></li><li><p>Jämförelse med ändpunkterna ger minsta värdet ungefär \\(2{,}462\\) och största värdet ungefär \\(14{,}039\\).</p></li></ol></div>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "text",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd verktyget för att bestämma derivata, nollställen eller extrempunkter, men koppla varje digitalt värde till ett matematiskt villkor som \\(f'(x)=0\\) eller ett teckenbyte hos derivatan.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "derivering_digitalt",
+      "numerisk_derivering"
+    ],
+    "familjTidigare": [
+      "Analysera funktioner med derivata digitalt",
+      "Analysera funktioner med digitalt verktyg"
+    ],
+    "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
+    "idTidigare": "mato1 2.367"
+  },
+  {
+    "id": "2.726",
+    "kap": 2,
+    "omr": "derivatan_sin_cos",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Undersök funktionen \\(f(x)=0{,}25 x + 2 \\sin{\\left(x \\right)}\\) i intervallet \\(0\\le x\\le 12\\). Bestäm de punkter där funktionen har maximi- eller minimipunkt och ange också största och minsta värde i intervallet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=0{,}25+2\\cos x.\\]</p></li><li><p>Lös derivataekvationen numeriskt i intervallet och jämför med ändpunkterna.</p></li><li><p>Minsta värdet är ungefär \\(-0{,}838\\), och största värdet ungefär \\(3{,}979\\).</p></li></ol></div>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "derivering_digitalt",
+      "numerisk_derivering"
+    ],
+    "familjTidigare": [
+      "Analysera funktioner med derivata digitalt",
+      "Analysera funktioner med digitalt verktyg"
+    ],
+    "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
+    "idTidigare": "mato1 2.372"
+  },
+  {
+    "id": "2.727",
+    "kap": 2,
+    "omr": "derivata_sammansatta",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>För \\(f(x)=e^{-x^2}\\), bestäm ungefär var grafen har tangentlutningen \\(-0{,}5\\) för \\(x&gt;0\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=-2xe^{-x^2}.\\]</p></li><li><p>Lös \\(-2xe^{-x^2}=-0,5\\) numeriskt för \\(x&gt;0\\).</p></li><li><p>Det ger två lösningar:</p><p>\\[x\\approx0{,}269\\quad\\text{och}\\quad x\\approx1{,}277.\\]</p></li></ol></div>",
+    "familj": "Derivering med kedjeregeln",
+    "geogebra": true,
+    "miniräknare": true,
+    "svarstyp": "text",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Viktigt steg: En tangent bestäms av två saker: punkten på kurvan och lutningen där. Beräkna därför först punktens y-värde och derivatans värde, och sätt sedan in dem i punkt–riktningsformen för en rät linje.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "derivering_digitalt",
+      "numerisk_derivering"
+    ],
+    "familjTidigare": [
+      "Derivata och tangenter med digitalt verktyg",
+      "Numerisk derivering och tangenter med digitalt verktyg"
+    ],
+    "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
+    "idTidigare": "mato1 2.356"
+  },
+  {
+    "id": "2.728",
+    "kap": 2,
+    "omr": "derivata_sammansatta",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>För funktionen \\(f(x)=\\frac{x}{4} + \\sqrt{x + 4}\\), bestäm största och minsta värde i intervallet \\(-3\\le x\\le 5\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=\\frac14+\\frac{1}{2\\sqrt{x+4}}&gt;0\\]</p></li><li><p>i hela intervallet.</p></li><li><p>Funktionen är därför växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta värdet är \\(f(-3)=1/4\\) och största värdet är \\(f(5)=17/4\\).</p></div>",
+    "familj": "Derivering med kedjeregeln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "text",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd verktyget för att bestämma derivata, nollställen eller extrempunkter, men koppla varje digitalt värde till ett matematiskt villkor som \\(f'(x)=0\\) eller ett teckenbyte hos derivatan.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "omrTidigare": [
+      "derivering_digitalt",
+      "numerisk_derivering"
+    ],
+    "familjTidigare": [
+      "Analysera funktioner med derivata digitalt",
+      "Analysera funktioner med digitalt verktyg"
+    ],
+    "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
+    "idTidigare": "mato1 2.361"
+  },
+  {
+    "id": "2.729",
+    "kap": 2,
+    "omr": "derivata_sammansatta",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>För funktionen \\(f(x)=0,1 x + \\ln{\\left(x + 3 \\right)}\\), bestäm största och minsta värde i intervallet \\(-2{,}5\\le x\\le 6\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=0{,}1+\\frac1{x+3}&gt;0\\]</p></li><li><p>i hela intervallet, så funktionen är växande.</p></li><li><p>Minsta värdet är \\(f(-2,5)\\approx-0{,}943\\) och största värdet är \\(f(6)\\approx2{,}797\\).</p></li></ol></div>",
+    "familj": "Derivering med kedjeregeln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "text",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd verktyget för att bestämma derivata, nollställen eller extrempunkter, men koppla varje digitalt värde till ett matematiskt villkor som \\(f'(x)=0\\) eller ett teckenbyte hos derivatan.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "omrTidigare": [
+      "derivering_digitalt",
+      "numerisk_derivering"
+    ],
+    "familjTidigare": [
+      "Analysera funktioner med derivata digitalt",
+      "Analysera funktioner med digitalt verktyg"
+    ],
+    "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
+    "idTidigare": "mato1 2.366"
+  },
+  {
+    "id": "2.730",
+    "kap": 2,
+    "omr": "derivata_sammansatta",
+    "kurs": [
+      "2c"
+    ],
+    "familj": "Derivering med kedjeregeln",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Figuren visar f′. En ny funktion är \\(h(x)=f(2x)\\), för \\(0\\le x\\le2\\). Vid vilket x-värde växer h snabbast?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 325\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Derivatagraf med maximum vid x=2.\"><title>Derivatagraf med maximum vid x=2.</title><rect width=\"500\" height=\"325\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"65.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M156.25 50V250\" stroke=\"#dbe3eb\"/><text x=\"156.25\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M247.5 50V250\" stroke=\"#dbe3eb\"/><text x=\"247.50\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M338.75 50V250\" stroke=\"#dbe3eb\"/><text x=\"338.75\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M430.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"430.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65 250.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"256.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M65 210.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"216.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M65 130.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"136.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M65 50.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"56.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">5</text><path d=\"M65.0 48V252\" stroke=\"#526777\" stroke-width=\"1.7\"/><path d=\"M63 250.0H435\" stroke=\"#526777\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"307.00\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">x</text><text x=\"65.00\" y=\"29.00\" text-anchor=\"start\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">f′(x)</text><defs><clipPath id=\"clip-dg1239\"><rect x=\"63\" y=\"48\" width=\"370\" height=\"205\"/></clipPath></defs><g clip-path=\"url(#clip-dg1239)\"><polyline points=\"65.00,210.00 247.50,50.00 430.00,210.00\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></g></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Argumentet 2x ger h′(x) = 2f′(2x)</p><p>Kedjeregeln ger h′(x) = 2f′(2x). Faktorn 2 ändrar inte vid vilket argument f′ är störst.</p></li><li><p class=\"facit-rubrik\">Den största lutningen fås när 2x = 2</p><p>Grafen visar att f′ är störst när dess argument är 2. Därför ska 2x = 2, vilket ger x = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x = 1.</strong></p></div>",
+    "ledtrad": "<p>Vilket argument till f′ ger den största lutningen?</p>",
+    "rättSvar": 1,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-9,
+    "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
+    "omrTidigare": [
+      "derivatan_och_grafen"
+    ],
+    "familjTidigare": [
+      "Funktionens graf och derivatans graf"
+    ],
+    "idTidigare": "mato1 3.1239"
+  },
+  {
+    "id": "3.531",
+    "kap": 3,
+    "omr": "produktregeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Undersök funktionen \\(f(x)=\\left(x + 3\\right) e^{- 0{,}2 x}\\) i intervallet \\(0\\le x\\le 12\\). Bestäm de punkter där funktionen har maximi- eller minimipunkt och ange också största och minsta värde i intervallet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=e^{-0{,}2x}\\bigl(0,4-0,2x\\bigr).\\]</p></li><li><p>Derivatan är noll vid \\(x=2\\), som ger en maximipunkt.</p></li><li><p>Jämför även med ändpunkterna.</p></li><li><p>Största värdet är ungefär \\(3{,}352\\) vid \\(x=2\\), och minsta värdet ungefär \\(1{,}361\\) vid \\(x=12\\).</p></li></ol></div>",
+    "familj": "Derivering med produktregeln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "derivering_digitalt",
+      "numerisk_derivering"
+    ],
+    "familjTidigare": [
+      "Analysera funktioner med derivata digitalt",
+      "Analysera funktioner med digitalt verktyg"
+    ],
+    "familjNyckel": "produktregeln__derivering_med_produktregeln",
+    "idTidigare": "mato1 2.368"
+  },
+  {
+    "id": "3.532",
+    "kap": 3,
+    "omr": "produktregeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Undersök funktionen \\(f(x)=\\left(8 - x\\right) \\sqrt{x + 5}\\) i intervallet \\(-4\\le x\\le 7\\). Bestäm de punkter där funktionen har maximi- eller minimipunkt och ange också största och minsta värde i intervallet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=\\frac{-3x-2}{2\\sqrt{x+5}}.\\]</p></li><li><div class=\"facit-berakning\"><p>Den kritiska punkten är</p><div class=\"facit-matte\">\\[x=-2/3\\].</div></div></li><li><p>Jämför med ändpunkterna.</p></li><li><p>Största värdet är ungefär \\(18{,}041\\) vid \\(x=-2/3\\), och minsta värdet är ungefär \\(3{,}464\\) vid \\(x=7\\).</p></li></ol></div>",
+    "familj": "Derivering med produktregeln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "derivering_digitalt",
+      "numerisk_derivering"
+    ],
+    "familjTidigare": [
+      "Analysera funktioner med derivata digitalt",
+      "Analysera funktioner med digitalt verktyg"
+    ],
+    "familjNyckel": "produktregeln__derivering_med_produktregeln",
+    "idTidigare": "mato1 2.370"
+  },
+  {
+    "id": "3.533",
+    "kap": 3,
+    "omr": "produktregeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Halten av ett ämne i blodet modelleras av \\(C(t)=18t e^{-0{,}45t}\\) mg/l för \\(t\\ge0\\). Bestäm när halten är störst och det största värdet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera med produktregeln:</p><p>\\[C'(t)=18e^{-0{,}45t}(1-0,45t).\\]</p></li><li><p>Exponentialfaktorn är positiv, så \\(C'(t)=0\\) när \\(1-0{,}45t=0\\), alltså \\(t\\approx2{,}22\\) h.</p></li><li><p>Derivatan går då från positiv till negativ.</p><p>\\[C(2,22)\\approx14{,}72\\text{ mg/l}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> halten är som störst efter ungefär \\(2{,}22\\) h och är då cirka \\(14{,}72\\) mg/l.</p></div>",
+    "familj": "Derivering med produktregeln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "text",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Använd produktregeln och faktorisera ut exponentialfaktorn, som alltid är positiv.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "derivata_tillampningar",
+      "fler_extremvarde"
+    ],
+    "familjTidigare": [
+      "Tillämpad optimering med derivata",
+      "Optimering i givna modeller"
+    ],
+    "familjNyckel": "produktregeln__derivering_med_produktregeln",
+    "idTidigare": "mato1 3.519"
+  },
+  {
+    "id": "3.534",
+    "kap": 3,
+    "omr": "produktregeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>En modell för trafikflödet är \\(F(v)=4{,}8v e^{-0{,}018v}\\), där \\(v\\) är medelhastigheten i km/h. Bestäm den hastighet som ger störst trafikflöde.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[F^{\\prime}(v)=4{,}8e^{-0{,}018v}(1-0,018v).\\]</p></li><li><div class=\"facit-berakning\"><p>Exponentialfaktorn är positiv, så derivatan är 0 när</p><div class=\"facit-matte\">\\[v=1/0{,}018\\approx55{,}6\\].</div></div></li><li><p>Derivatan byter från positiv till negativ, så detta ger maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär \\(\\boxed{56\\text{ km/h}}\\).</p></div>",
+    "familj": "Derivering med produktregeln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "text",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Derivera med produktregeln och faktorisera ut \\(e^{-0{,}018v}\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "derivata_tillampningar",
+      "problemlosning_derivata"
+    ],
+    "familjTidigare": [
+      "Analysera rörelse och förändringshastighet med derivata",
+      "Rörelse och hastighet"
+    ],
+    "familjNyckel": "produktregeln__derivering_med_produktregeln",
+    "idTidigare": "mato1 3.520"
+  },
+  {
+    "id": "3.535",
+    "kap": 3,
+    "omr": "produktregeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En modell för en läkemedelseffekt är \\(E(t)=12t^2e^{-0{,}5t}\\) för \\(t\\ge0\\). Bestäm när effekten är som störst.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med produktregeln:</p><p>\\[E'(t)=12e^{-0{,}5t}(2t-0,5t^2)=6te^{-0{,}5t}(4-t).\\]</p></li><li><p>För \\(t&gt;0\\) är derivatan positiv före \\(t=4\\) och negativ efter \\(t=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> effekten är som störst vid \\(t=4\\).</p></div>",
+    "familj": "Derivering med produktregeln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Derivera med produktregeln och faktorisera. Exponentialfaktorn är alltid positiv.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "omrTidigare": [
+      "derivata_tillampningar",
+      "problemlosning_derivata"
+    ],
+    "familjTidigare": [
+      "Analysera rörelse och förändringshastighet med derivata",
+      "Rörelse och hastighet"
+    ],
+    "familjNyckel": "produktregeln__derivering_med_produktregeln",
+    "idTidigare": "mato1 3.530"
+  },
+  {
+    "id": "3.536",
+    "kap": 3,
+    "omr": "produktregeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>En läkemedelshalt modelleras av \\(C(t)=20t^2e^{-0{,}6t}\\) för \\(t\\ge0\\). Bestäm när halten är som störst och hur länge halten är större än 15.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Först bestäms maximipunkten.</p></li><li><p>Derivering ger</p><p>\\[C'(t)=20e^{-0{,}6t}(2t-0,6t^2)=4te^{-0{,}6t}(10-3t).\\]</p></li><li><p>För \\(t&gt;0\\) fås maximum vid \\(t=10/3\\approx3{,}33\\), där \\(C(t)\\approx30{,}08\\).</p></li><li><p>För att bestämma hur länge halten är större än 15 löses \\(C(t)=15\\) numeriskt.</p></li><li><p>Lösningarna är ungefär \\(t=1{,}266\\) och \\(t=6{,}934\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> maximum efter cirka \\(3{,}33\\) tidsenheter; halten är större än 15 från ungefär \\(t=1{,}27\\) till \\(t=6{,}93\\), alltså i cirka \\(5{,}67\\) tidsenheter.</p></div>",
+    "familj": "Derivering med produktregeln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "text",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "resonemang",
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera först för att hitta maximum. Lös sedan \\(C(t)=15\\) numeriskt och använd grafens form för att avgöra mellan vilka lösningar \\(C(t)&gt;15\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "derivata_tillampningar",
+      "problemlosning_derivata"
+    ],
+    "familjTidigare": [
+      "Analysera rörelse och förändringshastighet med derivata",
+      "Rörelse och hastighet"
+    ],
+    "familjNyckel": "produktregeln__derivering_med_produktregeln",
+    "idTidigare": "mato1 3.577"
+  },
+  {
+    "id": "4.621",
+    "kap": 4,
+    "omr": "integraler_primitiva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm</p><p>\\[\\int_0^{\\pi}\\sin x\\,dx.\\]</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion till \\(\\sin x\\) är \\(-\\cos x\\).</p><p>\\[\\int_0^{\\pi}\\sin x\\,dx=[-\\cos x]_0^{\\pi}=1-(-1)=\\boxed{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2\\)</strong></p></div>",
+    "familj": "Bestämda integraler med trigonometriska funktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd att \\(( -\\cos x)'=\\sin x\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "integraler",
+      "integralberakning"
+    ],
+    "familjTidigare": [
+      "Integrera trigonometriska funktioner",
+      "Beräkna bestämda integraler"
+    ],
+    "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
+    "idTidigare": "mato1 3.579"
+  },
+  {
+    "id": "4.622",
+    "kap": 4,
+    "omr": "integraler_primitiva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm med tre decimaler</p><p>\\[\\int_0^3 e^{-x}\\cos(x^2)\\,dx.\\]</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralen bestäms numeriskt med ett digitalt verktyg:</p><p>\\[\\int_0^3 e^{-x}\\cos(x^2)\\,dx\\approx\\boxed{0{,}540}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(0{,}54\\)</strong></p></div>",
+    "familj": "Beräkna bestämda integraler",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.54,
+    "tolerans": 0.002,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd ett digitalt verktyg och kontrollera noggrant parenteserna i integranden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "omrTidigare": [
+      "integraler_digitalt",
+      "integralberakning"
+    ],
+    "familjTidigare": [
+      "Beräkna integral digitalt",
+      "Integraler med digitalt verktyg"
+    ],
+    "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
+    "idTidigare": "mato1 3.531"
+  },
+  {
+    "id": "4.623",
+    "kap": 4,
+    "omr": "integraler_primitiva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Studera integranden \\(\\sin(x^2)\\) på \\(0\\le x\\le3\\).</p><p>a) Förutsäg om integralen är positiv eller negativ.</p><p>b) Bestäm sedan med digitalt verktyg</p><p>\\[\\int_0^3\\sin(x^2)\\,dx\\]</p><p>med tre decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De positiva bidragen är sammantaget större än de negativa, så integralvärdet bör vara positivt.</p></li><li><p>Digital beräkning ger</p><p>\\[\\int_0^3\\sin(x^2)\\,dx\\approx0{,}774.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> positiv; \\(0{,}774\\).</p></div>",
+    "familj": "Beräkna bestämda integraler",
+    "geogebra": true,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "positiv",
+      0.774
+    ],
+    "tolerans": [
+      null,
+      0.002
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Skissa eller studera grafen först. Beräkna därefter integralvärdet digitalt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "tecken",
+      "integralvärde"
+    ],
+    "omrTidigare": [
+      "integraler_digitalt",
+      "integralberakning"
+    ],
+    "familjTidigare": [
+      "Förutsäga tecken och beräkna integral numeriskt",
+      "Integraler med digitalt verktyg"
+    ],
+    "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
+    "idTidigare": "mato1 3.532"
+  },
+  {
+    "id": "4.624",
+    "kap": 4,
+    "omr": "integraler_primitiva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm med digitalt verktyg</p><p>\\[\\int_0^4 \\frac{\\sin x}{1+x^2}\\,dx\\]</p><p>med tre decimaler. Avgör också om integralvärdet är positivt eller negativt innan du räknar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafiskt kan man först bedöma att de positiva bidragen dominerar.</p></li><li><p>Numeriskt fås</p><p>\\[\\int_0^4\\frac{\\sin x}{1+x^2}\\,dx\\approx\\boxed{0{,}692}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: tecken: positiv, integralvärde: \\(0{,}692\\)</strong></p></div>",
+    "familj": "Beräkna bestämda integraler",
+    "geogebra": true,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "positiv",
+      0.692
+    ],
+    "tolerans": [
+      null,
+      0.002
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Bedöm först grafens positiva och negativa delar. Använd sedan ett digitalt verktyg för värdet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "tecken",
+      "integralvärde"
+    ],
+    "omrTidigare": [
+      "integraler_digitalt",
+      "integralberakning"
+    ],
+    "familjTidigare": [
+      "Förutsäga tecken och beräkna integral numeriskt",
+      "Integraler med digitalt verktyg"
+    ],
+    "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
+    "idTidigare": "mato1 3.534"
+  },
+  {
+    "id": "4.625",
+    "kap": 4,
+    "omr": "integraler_primitiva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm integralens värde med tre decimaler.</p><p>\\[\\int_{0}^{6} e^{- x} \\sin{\\left(2 x \\right)}\\,dx\\]</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Numerisk beräkning ger ungefär \\(\\boxed{0{,}399}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(0{,}399\\)</strong></p></div>",
+    "familj": "Beräkna bestämda integraler",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.399,
+    "tolerans": 0.001,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna integralen numeriskt och avrunda till tre decimaler.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "omrTidigare": [
+      "integraler_digitalt",
+      "integralberakning"
+    ],
+    "familjTidigare": [
+      "Beräkna integral digitalt",
+      "Integraler med digitalt verktyg"
+    ],
+    "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
+    "idTidigare": "mato1 3.535"
+  },
+  {
+    "id": "4.626",
+    "kap": 4,
+    "omr": "integraler_primitiva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>För integralen</p><p>\\[\\int_0^2\\cos(x^2)\\,dx\\]</p><p>a) Förutsäg om integralvärdet är positivt eller negativt.</p><p>b) Bestäm sedan värdet med digitalt verktyg, med tre decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen har både positiva och negativa delar, men de positiva bidragen dominerar på intervallet.</p></li><li><p>Integralvärdet bör därför vara positivt.</p></li><li><p>Digital beräkning ger</p><p>\\[\\int_0^2\\cos(x^2)\\,dx\\approx\\boxed{0{,}461}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: tecken: positiv, integralvärde: \\(0{,}461\\)</strong></p></div>",
+    "familj": "Beräkna bestämda integraler",
+    "geogebra": true,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "positiv",
+      0.461
+    ],
+    "tolerans": [
+      null,
+      0.002
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Studera först var \\(\\cos(x^2)\\) ligger över respektive under x-axeln. Beräkna därefter integralen numeriskt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "tecken",
+      "integralvärde"
+    ],
+    "omrTidigare": [
+      "integraler_digitalt",
+      "integralberakning"
+    ],
+    "familjTidigare": [
+      "Förutsäga tecken och beräkna integral numeriskt",
+      "Integraler med digitalt verktyg"
+    ],
+    "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
+    "idTidigare": "mato1 3.583"
+  },
+  {
+    "id": "4.627",
+    "kap": 4,
+    "omr": "integraler_primitiva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm värdet av integralen</p><p>\\[\\int_{0}^{5} e^{- 0{,}3 x} \\sin{\\left(x \\right)}\\,dx\\]</p><p>med tre decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beräkna integralen numeriskt:</p><p>\\[\\int_0^5e^{-0{,}3x}\\sin x\\,dx\\approx\\boxed{0{,}918}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(0{,}918\\)</strong></p></div>",
+    "familj": "Beräkna bestämda integraler",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.918,
+    "tolerans": 0.001,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera parenteserna i exponenten och använd gränserna 0 och 5. Avrunda till tre decimaler.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "integraler_digitalt",
+      "integralberakning"
+    ],
+    "familjTidigare": [
+      "Beräkna integral digitalt",
+      "Integraler med digitalt verktyg"
+    ],
+    "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
+    "idTidigare": "mato1 3.585"
+  },
+  {
+    "id": "4.628",
+    "kap": 4,
+    "omr": "areor_mellan_kurvor",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Bestäm den sammanlagda arean mellan \\(y=1+\\sin x\\) och linjen \\(y=1,5\\) för \\(0\\le x\\le7\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"255\" viewBox=\"0 0 390 255\" role=\"img\" aria-label=\"Sinuskurva och horisontell linje\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"217\" stroke=\"#F0EFF2\"/><line x1=\"93.4\" y1=\"22\" x2=\"93.4\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"93.4\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"138.9\" y1=\"22\" x2=\"138.9\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"138.9\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"184.3\" y1=\"22\" x2=\"184.3\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"184.3\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"229.7\" y1=\"22\" x2=\"229.7\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"229.7\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"275.1\" y1=\"22\" x2=\"275.1\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"275.1\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"320.6\" y1=\"22\" x2=\"320.6\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"320.6\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"366.0\" y1=\"22\" x2=\"366.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"366.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">7</text><line x1=\"48\" y1=\"217.0\" x2=\"366\" y2=\"217.0\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"128.4\" x2=\"366\" y2=\"128.4\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"131.4\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"39.7\" x2=\"366\" y2=\"39.7\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"42.7\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"217.0\" x2=\"366\" y2=\"217.0\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"217\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M48.0 128.4 L49.8 124.9 L51.5 121.5 L53.3 118.0 L55.1 114.6 L56.8 111.2 L58.6 107.9 L60.4 104.5 L62.1 101.2 L63.9 98.0 L65.7 94.8 L67.4 91.6 L69.2 88.5 L71.0 85.4 L72.7 82.5 L74.5 79.5 L76.3 76.7 L78.0 73.9 L79.8 71.3 L81.6 68.7 L83.3 66.2 L85.1 63.8 L86.9 61.4 L88.6 59.2 L90.4 57.1 L92.2 55.1 L93.9 53.3 L95.7 51.5 L97.5 49.8 L99.2 48.3 L101.0 46.9 L102.8 45.6 L104.5 44.4 L106.3 43.4 L108.1 42.5 L109.8 41.7 L111.6 41.0 L113.4 40.5 L115.1 40.1 L116.9 39.9 L118.7 39.7 L120.4 39.8 L122.2 39.9 L124.0 40.2 L125.7 40.6 L127.5 41.1 L129.3 41.8 L131.0 42.6 L132.8 43.6 L134.6 44.6 L136.3 45.8 L138.1 47.2 L139.9 48.6 L141.6 50.2 L143.4 51.9 L145.2 53.6 L146.9 55.6 L148.7 57.6 L150.5 59.7 L152.2 61.9 L154.0 64.3 L155.8 66.7 L157.5 69.2 L159.3 71.8 L161.1 74.5 L162.8 77.3 L164.6 80.2 L166.4 83.1 L168.1 86.1 L169.9 89.2 L171.7 92.3 L173.4 95.4 L175.2 98.7 L177.0 101.9 L178.7 105.3 L180.5 108.6 L182.3 112.0 L184.0 115.4 L185.8 118.8 L187.6 122.2 L189.3 125.7 L191.1 129.1 L192.9 132.6 L194.6 136.0 L196.4 139.4 L198.2 142.8 L199.9 146.2 L201.7 149.6 L203.5 152.9 L205.2 156.2 L207.0 159.5 L208.8 162.7 L210.5 165.8 L212.3 168.9 L214.1 171.9 L215.8 174.9 L217.6 177.8 L219.4 180.6 L221.1 183.4 L222.9 186.0 L224.7 188.6 L226.4 191.1 L228.2 193.5 L230.0 195.8 L231.7 198.0 L233.5 200.0 L235.3 202.0 L237.0 203.9 L238.8 205.6 L240.6 207.2 L242.3 208.8 L244.1 210.2 L245.9 211.4 L247.6 212.6 L249.4 213.6 L251.2 214.5 L252.9 215.2 L254.7 215.8 L256.5 216.3 L258.2 216.7 L260.0 216.9 L261.8 217.0 L263.5 217.0 L265.3 216.8 L267.1 216.5 L268.8 216.0 L270.6 215.4 L272.4 214.7 L274.1 213.9 L275.9 212.9 L277.7 211.8 L279.4 210.6 L281.2 209.3 L283.0 207.8 L284.7 206.2 L286.5 204.5 L288.3 202.7 L290.0 200.7 L291.8 198.7 L293.6 196.5 L295.3 194.3 L297.1 191.9 L298.9 189.5 L300.6 186.9 L302.4 184.3 L304.2 181.6 L305.9 178.8 L307.7 175.9 L309.5 173.0 L311.2 170.0 L313.0 166.9 L314.8 163.8 L316.5 160.6 L318.3 157.4 L320.1 154.1 L321.8 150.8 L323.6 147.4 L325.4 144.0 L327.1 140.6 L328.9 137.2 L330.7 133.8 L332.4 130.3 L334.2 126.9 L336.0 123.4 L337.7 120.0 L339.5 116.6 L341.3 113.2 L343.0 109.8 L344.8 106.4 L346.6 103.1 L348.3 99.8 L350.1 96.6 L351.9 93.4 L353.6 90.2 L355.4 87.2 L357.2 84.1 L358.9 81.2 L360.7 78.3 L362.5 75.5 L364.2 72.8 L366.0 70.1\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.4\"/><path d=\"M48.0 84.0 L49.8 84.0 L51.5 84.0 L53.3 84.0 L55.1 84.0 L56.8 84.0 L58.6 84.0 L60.4 84.0 L62.1 84.0 L63.9 84.0 L65.7 84.0 L67.4 84.0 L69.2 84.0 L71.0 84.0 L72.7 84.0 L74.5 84.0 L76.3 84.0 L78.0 84.0 L79.8 84.0 L81.6 84.0 L83.3 84.0 L85.1 84.0 L86.9 84.0 L88.6 84.0 L90.4 84.0 L92.2 84.0 L93.9 84.0 L95.7 84.0 L97.5 84.0 L99.2 84.0 L101.0 84.0 L102.8 84.0 L104.5 84.0 L106.3 84.0 L108.1 84.0 L109.8 84.0 L111.6 84.0 L113.4 84.0 L115.1 84.0 L116.9 84.0 L118.7 84.0 L120.4 84.0 L122.2 84.0 L124.0 84.0 L125.7 84.0 L127.5 84.0 L129.3 84.0 L131.0 84.0 L132.8 84.0 L134.6 84.0 L136.3 84.0 L138.1 84.0 L139.9 84.0 L141.6 84.0 L143.4 84.0 L145.2 84.0 L146.9 84.0 L148.7 84.0 L150.5 84.0 L152.2 84.0 L154.0 84.0 L155.8 84.0 L157.5 84.0 L159.3 84.0 L161.1 84.0 L162.8 84.0 L164.6 84.0 L166.4 84.0 L168.1 84.0 L169.9 84.0 L171.7 84.0 L173.4 84.0 L175.2 84.0 L177.0 84.0 L178.7 84.0 L180.5 84.0 L182.3 84.0 L184.0 84.0 L185.8 84.0 L187.6 84.0 L189.3 84.0 L191.1 84.0 L192.9 84.0 L194.6 84.0 L196.4 84.0 L198.2 84.0 L199.9 84.0 L201.7 84.0 L203.5 84.0 L205.2 84.0 L207.0 84.0 L208.8 84.0 L210.5 84.0 L212.3 84.0 L214.1 84.0 L215.8 84.0 L217.6 84.0 L219.4 84.0 L221.1 84.0 L222.9 84.0 L224.7 84.0 L226.4 84.0 L228.2 84.0 L230.0 84.0 L231.7 84.0 L233.5 84.0 L235.3 84.0 L237.0 84.0 L238.8 84.0 L240.6 84.0 L242.3 84.0 L244.1 84.0 L245.9 84.0 L247.6 84.0 L249.4 84.0 L251.2 84.0 L252.9 84.0 L254.7 84.0 L256.5 84.0 L258.2 84.0 L260.0 84.0 L261.8 84.0 L263.5 84.0 L265.3 84.0 L267.1 84.0 L268.8 84.0 L270.6 84.0 L272.4 84.0 L274.1 84.0 L275.9 84.0 L277.7 84.0 L279.4 84.0 L281.2 84.0 L283.0 84.0 L284.7 84.0 L286.5 84.0 L288.3 84.0 L290.0 84.0 L291.8 84.0 L293.6 84.0 L295.3 84.0 L297.1 84.0 L298.9 84.0 L300.6 84.0 L302.4 84.0 L304.2 84.0 L305.9 84.0 L307.7 84.0 L309.5 84.0 L311.2 84.0 L313.0 84.0 L314.8 84.0 L316.5 84.0 L318.3 84.0 L320.1 84.0 L321.8 84.0 L323.6 84.0 L325.4 84.0 L327.1 84.0 L328.9 84.0 L330.7 84.0 L332.4 84.0 L334.2 84.0 L336.0 84.0 L337.7 84.0 L339.5 84.0 L341.3 84.0 L343.0 84.0 L344.8 84.0 L346.6 84.0 L348.3 84.0 L350.1 84.0 L351.9 84.0 L353.6 84.0 L355.4 84.0 L357.2 84.0 L358.9 84.0 L360.7 84.0 L362.5 84.0 L364.2 84.0 L366.0 84.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/><text x=\"361\" y=\"37\" text-anchor=\"end\" font-size=\"11\" fill=\"#2D70B3\">1+sin x</text><text x=\"361\" y=\"53\" text-anchor=\"end\" font-size=\"11\" fill=\"#B43123\">1,5</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bestäm först skärningarna mellan \\(1+\\sin x\\) och \\(1{,}5\\).</p></li><li><div class=\"facit-berakning\"><p>I intervallet fås ungefär</p><div class=\"facit-matte\">\\[x=0{,}524\\],</div></div></li><li><p>\\(2{,}618\\) och \\(6{,}807\\).</p></li><li><p>Eftersom graferna byter ordning delas området upp vid dessa värden.</p></li><li><p>Den sammanlagda arean blir ungefär \\(\\boxed{4{,}655}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4{,}655\\)</strong></p></div>",
+    "familj": "Area mellan kurvor med integral",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.655,
+    "tolerans": 0.001,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm alla skärningar i intervallet och dela upp arean där graferna byter ordning.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "integraler_digitalt",
+      "integralberakning"
+    ],
+    "familjTidigare": [
+      "Beräkna integraler och area digitalt",
+      "Integraler med digitalt verktyg"
+    ],
+    "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
+    "idTidigare": "mato1 3.538"
+  },
+  {
+    "id": "4.629",
+    "kap": 4,
+    "omr": "integraler_storheter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En farkost har hastigheten \\(v(t)=4+2\\sin(t^2/4)\\) m/s för \\(0\\le t\\le4\\).</p><p>Bestäm sträckan under dessa fyra sekunder. Använd digitalt verktyg.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hastigheten är positiv under hela intervallet, så sträckan är</p><p>\\[s=\\int_0^4\\left(4+2\\sin(t^2/4)\\right)dt\\approx\\boxed{19{,}219\\text{ m}}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(19{,}22\\)</strong></p></div>",
+    "familj": "Sträcka som integral av hastighet",
+    "geogebra": true,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 19.219,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Eftersom hastigheten inte blir negativ behöver du inte dela upp intervallet. Integrera \\(v(t)\\) från 0 till 4.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "omrTidigare": [
+      "integraler_digitalt",
+      "integralberakning"
+    ],
+    "familjTidigare": [
+      "Sträcka från en hastighetsmodell",
+      "Integraler med digitalt verktyg"
+    ],
+    "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
+    "idTidigare": "mato1 3.589"
+  },
+  {
+    "id": "4.630",
+    "kap": 4,
+    "omr": "integraler_storheter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En population förändras med hastigheten \\(N^{\\prime}(t)=40\\sin(\\pi t/6)+25\\) individer per månad. Bestäm hur mycket populationen förändras sammanlagt under de första 12 månaderna.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förändringen är</p><p>\\[\\int_0^{12}\\left(40\\sin(\\pi t/6)+25\\right)dt.\\]</p></li><li><div class=\"facit-berakning\"><p>Sinustermen ger 0 över intervallet, så återstår</p><div class=\"facit-matte\">\\[25\\cdot12=300\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> populationen ökar med 300 individer.</p></div>",
+    "familj": "Tillämpa integraler i modeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Integrera förändringshastigheten från 0 till 12. Sinusdelen bidrar totalt med 0 över två hela perioder.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "integraltillampningar",
+      "integral_tillampningar"
+    ],
+    "familjTidigare": [
+      "Beräkna förändring från hastighet med integral",
+      "Sträcka och förflyttning från hastighet"
+    ],
+    "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
+    "idTidigare": "mato1 3.547"
+  },
+  {
+    "id": "4.631",
+    "kap": 4,
+    "omr": "integraler_storheter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En elbil har effektförbrukningen \\(P(t)=18+4\\sin(\\pi t/3)\\) kW under en sex timmar lång körning. Bestäm den totala energiförbrukningen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Energin fås genom att integrera effekten:</p><p>\\[E=\\int_0^6\\left(18+4\\sin\\frac{\\pi t}{3}\\right)dt.\\]</p></li><li><p>Sinustermen ger 0 över intervallet \\(0\\le t\\le6\\), så</p><p>\\[E=18\\cdot6=\\boxed{108\\text{ kWh}}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(108\\)</strong></p></div>",
+    "familj": "Energi som integral av effekt",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 108,
+    "tolerans": 1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Energi är integral av effekt över tid. Intervallet 0 till 6 motsvarar en hel period för sinustermen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "integraltillampningar",
+      "integral_tillampningar"
+    ],
+    "familjTidigare": [
+      "Tolka och använda integraler i tillämpningar",
+      "Tolka integraler i tillämpningar"
+    ],
+    "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
+    "idTidigare": "mato1 3.548"
+  },
+  {
+    "id": "4.632",
+    "kap": 4,
+    "omr": "integraler_storheter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Nettoflöde till behållare\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#F0EFF2\"/><line x1=\"78.9\" y1=\"18\" x2=\"78.9\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"78.9\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"109.7\" y1=\"18\" x2=\"109.7\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"109.7\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"140.6\" y1=\"18\" x2=\"140.6\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"140.6\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"171.4\" y1=\"18\" x2=\"171.4\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"171.4\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"202.3\" y1=\"18\" x2=\"202.3\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"202.3\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"233.1\" y1=\"18\" x2=\"233.1\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"233.1\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"264.0\" y1=\"18\" x2=\"264.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"264.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">7</text><line x1=\"294.9\" y1=\"18\" x2=\"294.9\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"294.9\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">8</text><line x1=\"325.7\" y1=\"18\" x2=\"325.7\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"325.7\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">9</text><line x1=\"356.6\" y1=\"18\" x2=\"356.6\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"356.6\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">10</text><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"210.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"48\" y1=\"188.1\" x2=\"372\" y2=\"188.1\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"191.1\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-1</text><line x1=\"48\" y1=\"169.2\" x2=\"372\" y2=\"169.2\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"150.3\" x2=\"372\" y2=\"150.3\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"153.3\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"131.4\" x2=\"372\" y2=\"131.4\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"134.4\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"112.5\" x2=\"372\" y2=\"112.5\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"115.5\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"93.6\" x2=\"372\" y2=\"93.6\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"96.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"74.7\" x2=\"372\" y2=\"74.7\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"77.7\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"48\" y1=\"55.8\" x2=\"372\" y2=\"55.8\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"58.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"48\" y1=\"36.9\" x2=\"372\" y2=\"36.9\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"39.9\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">7</text><line x1=\"48\" y1=\"18.0\" x2=\"372\" y2=\"18.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"21.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">8</text><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48\" y1=\"169.2\" x2=\"372\" y2=\"169.2\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M 48.0 112.5 L 49.4 110.5 L 50.7 108.5 L 52.0 106.6 L 53.4 104.6 L 54.8 102.6 L 56.1 100.6 L 57.5 98.7 L 58.8 96.7 L 60.1 94.8 L 61.5 92.9 L 62.9 91.0 L 64.2 89.1 L 65.5 87.2 L 66.9 85.3 L 68.2 83.5 L 69.6 81.7 L 71.0 79.9 L 72.3 78.1 L 73.7 76.3 L 75.0 74.6 L 76.3 72.9 L 77.7 71.2 L 79.0 69.6 L 80.4 68.0 L 81.8 66.4 L 83.1 64.8 L 84.4 63.3 L 85.8 61.8 L 87.2 60.3 L 88.5 58.9 L 89.8 57.5 L 91.2 56.2 L 92.6 54.9 L 93.9 53.6 L 95.2 52.4 L 96.6 51.2 L 97.9 50.1 L 99.3 49.0 L 100.7 47.9 L 102.0 46.9 L 103.3 46.0 L 104.7 45.0 L 106.0 44.2 L 107.4 43.3 L 108.8 42.6 L 110.1 41.8 L 111.5 41.2 L 112.8 40.5 L 114.2 39.9 L 115.5 39.4 L 116.9 38.9 L 118.2 38.5 L 119.6 38.1 L 120.9 37.8 L 122.2 37.5 L 123.6 37.3 L 125.0 37.1 L 126.3 37.0 L 127.6 36.9 L 129.0 36.9 L 130.4 36.9 L 131.7 37.0 L 133.1 37.2 L 134.4 37.4 L 135.8 37.6 L 137.1 37.9 L 138.4 38.2 L 139.8 38.6 L 141.1 39.1 L 142.5 39.6 L 143.8 40.1 L 145.2 40.7 L 146.6 41.4 L 147.9 42.1 L 149.2 42.8 L 150.6 43.6 L 151.9 44.4 L 153.3 45.3 L 154.7 46.3 L 156.0 47.2 L 157.4 48.3 L 158.7 49.3 L 160.1 50.4 L 161.4 51.6 L 162.8 52.8 L 164.1 54.0 L 165.4 55.3 L 166.8 56.6 L 168.1 58.0 L 169.5 59.4 L 170.9 60.8 L 172.2 62.3 L 173.5 63.8 L 174.9 65.3 L 176.2 66.9 L 177.6 68.5 L 178.9 70.1 L 180.3 71.8 L 181.7 73.4 L 183.0 75.2 L 184.3 76.9 L 185.7 78.7 L 187.0 80.4 L 188.4 82.3 L 189.8 84.1 L 191.1 85.9 L 192.5 87.8 L 193.8 89.7 L 195.2 91.6 L 196.5 93.5 L 197.8 95.4 L 199.2 97.4 L 200.6 99.3 L 201.9 101.3 L 203.2 103.2 L 204.6 105.2 L 206.0 107.2 L 207.3 109.2 L 208.6 111.2 L 210.0 113.1 L 211.3 115.1 L 212.7 117.1 L 214.0 119.1 L 215.4 121.1 L 216.8 123.0 L 218.1 125.0 L 219.4 126.9 L 220.8 128.9 L 222.2 130.8 L 223.5 132.7 L 224.9 134.6 L 226.2 136.5 L 227.5 138.4 L 228.9 140.3 L 230.2 142.1 L 231.6 143.9 L 233.0 145.7 L 234.3 147.5 L 235.6 149.2 L 237.0 150.9 L 238.3 152.6 L 239.7 154.3 L 241.1 155.9 L 242.4 157.6 L 243.8 159.1 L 245.1 160.7 L 246.5 162.2 L 247.8 163.7 L 249.2 165.1 L 250.5 166.5 L 251.8 167.9 L 253.2 169.2 L 254.5 170.5 L 255.9 171.8 L 257.2 173.0 L 258.6 174.1 L 259.9 175.3 L 261.3 176.4 L 262.6 177.4 L 264.0 178.4 L 265.4 179.3 L 266.7 180.2 L 268.0 181.1 L 269.4 181.9 L 270.8 182.7 L 272.1 183.4 L 273.5 184.1 L 274.8 184.7 L 276.1 185.2 L 277.5 185.8 L 278.9 186.2 L 280.2 186.6 L 281.6 187.0 L 282.9 187.3 L 284.2 187.6 L 285.6 187.8 L 287.0 187.9 L 288.3 188.0 L 289.6 188.1 L 291.0 188.1 L 292.4 188.0 L 293.7 187.9 L 295.0 187.8 L 296.4 187.6 L 297.8 187.3 L 299.1 187.0 L 300.4 186.6 L 301.8 186.2 L 303.2 185.8 L 304.5 185.3 L 305.8 184.7 L 307.2 184.1 L 308.5 183.4 L 309.9 182.7 L 311.2 181.9 L 312.6 181.1 L 314.0 180.3 L 315.3 179.4 L 316.7 178.4 L 318.0 177.4 L 319.3 176.4 L 320.7 175.3 L 322.1 174.2 L 323.4 173.0 L 324.8 171.8 L 326.1 170.6 L 327.4 169.3 L 328.8 167.9 L 330.1 166.6 L 331.5 165.2 L 332.9 163.7 L 334.2 162.2 L 335.6 160.7 L 336.9 159.2 L 338.2 157.6 L 339.6 156.0 L 340.9 154.4 L 342.3 152.7 L 343.7 151.0 L 345.0 149.3 L 346.3 147.5 L 347.7 145.8 L 349.0 144.0 L 350.4 142.2 L 351.8 140.3 L 353.1 138.5 L 354.5 136.6 L 355.8 134.7 L 357.2 132.8 L 358.5 130.9 L 359.8 129.0 L 361.2 127.0 L 362.6 125.1 L 363.9 123.1 L 365.2 121.1 L 366.6 119.2 L 367.9 117.2 L 369.3 115.2 L 370.6 113.2 L 372.0 111.2\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.6\"/><text x=\"378\" y=\"185.2\" text-anchor=\"end\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"56.0\" y=\"13\" font-size=\"11\" fill=\"#2B2527\">y</text></svg></span><p>En behållare fylls med flödet \\(q_{in}(t)=18+4\\sin(0,6t)\\) liter/minut samtidigt som vatten lämnar behållaren med det konstanta flödet 15 liter/minut. Behållaren innehåller 120 liter från början. Bestäm den största vattenmängden under de första 10 minuterna.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nettoflödet är</p><p>\\[V'(t)=18+4\\sin(0,6t)-15=3+4\\sin(0,6t).\\]</p></li><li><p>Vattenmängden är därför</p><p>\\[V(t)=120+\\int_0^t\\left(3+4\\sin(0,6u)\\right)\\,du.\\]</p></li><li><p>Ett största värde kan inträffa vid en ändpunkt eller där nettoflödet byter från positivt till negativt.</p></li><li><p>Numerisk lösning av \\(3+4\\sin(0,6t)=0\\) på \\(0\\le t\\le10\\) ger bland annat \\(t\\approx6{,}65\\), där tecknet går från \\(+\\) till \\(-\\).</p><p>\\[V(6,65)\\approx151{,}0\\text{ liter}.\\]</p></li><li><p>Jämförelse med ändpunkterna visar att detta är periodens största värde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(151{,}0\\) liter.</p></div>",
+    "familj": "Volym som integral av flöde",
+    "geogebra": true,
+    "miniräknare": true,
+    "svarstyp": "text",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Vattenmängdens derivata är nettoflödet. Leta efter en tidpunkt där nettoflödet går från positivt till negativt och jämför även med ändpunkterna.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "omrTidigare": [
+      "integraltillampningar",
+      "integral_tillampningar"
+    ],
+    "familjTidigare": [
+      "Beräkna ackumulerad mängd från en förändringshastighet",
+      "Sträcka och förflyttning från hastighet"
+    ],
+    "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
+    "idTidigare": "mato1 3.610"
   }
 
 ];

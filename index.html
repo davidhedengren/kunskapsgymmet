@@ -4069,7 +4069,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-26-ma3b-utan-trig";
+const BANK_VERSION="2026-10-26-facit-partiell";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10598,8 +10598,10 @@ function primitivaSvarRatt(anv,facit){
   try{
     const a=nerdamer(tillNerdamer(normalizeMathInput(hogerled(anv))));
     const f=nerdamer(tillNerdamer(normalizeMathInput(hogerled(facit))));
-    const ac=a.variables().filter(v=>/^[A-WYZa-wyz]$/.test(v));
-    const fc=f.variables().filter(v=>/^[A-WYZa-wyz]$/.test(v));
+    // Facit avgör integrationsvariabeln. t i en t-integral är inte en fri konstant.
+    const variabel=f.variables().includes("x")?"x":f.variables().includes("t")?"t":"x";
+    const ac=a.variables().filter(v=>v!==variabel && /^[A-WYZa-wyz]$/.test(v));
+    const fc=f.variables().filter(v=>v!==variabel && /^[A-WYZa-wyz]$/.test(v));
     if(ac.length!==1 || fc.length!==1) return false;
     const bas=f.sub(fc[0],0);
     // simplify() kan felaktigt tappa x i exponentialuttryck. Expandera utan den omskrivningen.
@@ -10868,7 +10870,9 @@ function formatRatt(anv,facit,meta){
           const aa=tillNerdamer(normalizeMathInput(hogerled(a)));
           const ff=tillNerdamer(normalizeMathInput(hogerled(f)));
           const skillnad=nerdamer(`(${aa})-(${ff})`).expand();
-          return skillnad.variables().every(v=>/^[A-WYZa-wyz]$/.test(v));
+          const vars=nerdamer(ff).variables();
+          const variabel=vars.includes("x")?"x":vars.includes("t")?"t":"x";
+          return skillnad.variables().every(v=>v!==variabel && /^[A-WYZa-wyz]$/.test(v));
         }catch(_){ return false; }
       }
       const slutTal=/(?<![\^*\/(])[+-]\s*\d+(?:[.,]\d+)?\s*$/;

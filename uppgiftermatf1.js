@@ -19885,7 +19885,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration två gånger",
     "poang": "0/2/1",
     "t": "<p>Bestäm alla primitiva funktioner till \\(x^2e^{-2x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör den första partiella integrationen</p><p>Välj \\(u=x^2\\) och \\(dv=e^{-2x}\\,dx\\). Då är \\(du=2x\\,dx\\) och \\(v=-\\frac12e^{-2x}\\). Formeln \\(\\int u\\,dv=uv-\\int v\\,du\\) ger</p><div class=\"facit-matte\">\\[\\int x^2e^{-2x}\\,dx=-\\frac12x^2e^{-2x}+\\int xe^{-2x}\\,dx.\\]</div></li><li><p class=\"facit-rubrik\">Integrera den återstående produkten</p><p>Välj nu \\(u=x\\), \\(du=dx\\), \\(dv=e^{-2x}\\,dx\\) och \\(v=-\\frac12e^{-2x}\\):</p><div class=\"facit-matte\">\\[\\int xe^{-2x}\\,dx=-\\frac12xe^{-2x}+\\frac12\\int e^{-2x}\\,dx.\\]</div><div class=\"facit-matte\">\\[=-\\frac12xe^{-2x}-\\frac14e^{-2x}+C.\\]</div></li><li><p class=\"facit-rubrik\">Sätt ihop resultaten</p><div class=\"facit-matte\">\\[\\int x^2e^{-2x}\\,dx=-e^{-2x}\\left(\\frac{x^2}{2}+\\frac{x}{2}+\\frac14\\right)+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom derivering</p><p>Med produktregeln försvinner de extra termerna:</p><div class=\"facit-matte\">\\[\\frac{d}{dx}\\left[-e^{-2x}\\left(\\frac{x^2}{2}+\\frac{x}{2}+\\frac14\\right)\\right]=e^{-2x}\\left(x^2+x+\\frac12-x-\\frac12\\right)=x^2e^{-2x}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-e^{-2x}\\left(\\frac{x^2}{2}+\\frac{x}{2}+\\frac14\\right)+C\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör den första partiella integrationen</p><p>Välj \\(u=x^2\\) och \\(dv=e^{-2x}\\,dx\\). Då är \\(du=2x\\,dx\\) och \\(v=-\\frac12e^{-2x}\\). Formeln \\(\\int u\\,dv=uv-\\int v\\,du\\) ger</p><div class=\"facit-matte\">\\[\\begin{aligned}\\int x^2e^{-2x}\\,dx\\\\=-\\frac12x^2e^{-2x}+\\int xe^{-2x}\\,dx.\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Integrera den återstående produkten</p><p>Välj nu \\(u=x\\), \\(du=dx\\), \\(dv=e^{-2x}\\,dx\\) och \\(v=-\\frac12e^{-2x}\\):</p><div class=\"facit-matte\">\\[\\begin{aligned}\\int xe^{-2x}\\,dx\\\\=-\\frac12xe^{-2x}+\\frac12\\int e^{-2x}\\,dx.\\end{aligned}\\]</div><div class=\"facit-matte\">\\[=-\\frac12xe^{-2x}-\\frac14e^{-2x}+C.\\]</div></li><li><p class=\"facit-rubrik\">Sätt ihop resultaten</p><div class=\"facit-matte\">\\[\\begin{aligned}\\int x^2e^{-2x}\\,dx\\\\=-e^{-2x}\\left(\\frac{x^2}{2}+\\frac{x}{2}+\\frac14\\right)+C.\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom derivering</p><p>Med produktregeln försvinner de extra termerna:</p><div class=\"facit-matte\"><p>Sätt \\(P(x)=x^2/2+x/2+1/4\\). Produktregeln ger</p>\\[\\begin{aligned}(-e^{-2x}P(x))\\prime\\\\=e^{-2x}(2P(x)-P\\prime(x)).\\end{aligned}\\]\\[2P(x)-P\\prime(x)\\]\\[=x^2+x+\\frac12-(x+\\frac12)=x^2.\\]<p>Derivatan är alltså \\(x^2e^{-2x}\\).</p></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-e^{-2x}\\left(\\frac{x^2}{2}+\\frac{x}{2}+\\frac14\\right)+C\\).</p></div>",
     "id": "3.01",
     "miniräknare": true,
     "geogebra": false,
@@ -19909,7 +19909,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration av x e^x",
     "poang": "2/0/0",
     "t": "<p>Bestäm alla primitiva funktioner till \\(xe^x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj faktorer för partiell integration</p><p>Välj \\(u=x\\), så att derivering förenklar faktorn, och \\(dv=e^x\\,dx\\), som är lätt att integrera:</p><div class=\"facit-matte\">\\[du=dx,\\qquad v=e^x.\\]</div></li><li><p class=\"facit-rubrik\">Använd integrationsformeln</p><div class=\"facit-matte\">\\[\\int xe^x\\,dx=xe^x-\\int e^x\\,dx=xe^x-e^x+C.\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera och kontrollera</p><div class=\"facit-matte\">\\[xe^x-e^x=e^x(x-1).\\]</div><div class=\"facit-matte\">\\[\\left(e^x(x-1)\\right)\\prime=e^x(x-1)+e^x=xe^x.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^x(x-1)+C\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj faktorer för partiell integration</p><p>Välj \\(u=x\\), så att derivering förenklar faktorn, och \\(dv=e^x\\,dx\\), som är lätt att integrera:</p><div class=\"facit-matte\">\\[du=dx,\\qquad v=e^x.\\]</div></li><li><p class=\"facit-rubrik\">Använd integrationsformeln</p><div class=\"facit-matte\">\\[\\int xe^x\\,dx=xe^x-\\int e^x\\,dx\\]\\[=xe^x-e^x+C.\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera och kontrollera</p><div class=\"facit-matte\">\\[xe^x-e^x=e^x(x-1).\\]</div><div class=\"facit-matte\">\\[\\begin{aligned}\\left(e^x(x-1)\\right)\\prime\\\\=e^x(x-1)+e^x=xe^x.\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^x(x-1)+C\\).</p></div>",
     "id": "3.02",
     "miniräknare": true,
     "geogebra": false,
@@ -19923,7 +19923,7 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "primitiva",
     "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
-    "traningsniva": 1
+    "traningsniva": 2
   },
   {
     "kap": 3,
@@ -19932,7 +19932,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration logaritm",
     "poang": "0/2/0",
     "t": "<p>Bestäm alla primitiva funktioner till \\(\\ln x\\), där \\(x\\gt0\\).</p>",
-    "s": "<div class=\"facit-v2\"><p>Använd partiell integration med \\(u=\\ln x\\) och \\(dv=dx\\). Då är \\(du=dx/x\\) och \\(v=x\\).</p>\\[\\int\\ln x\\,dx=x\\ln x-\\int1\\,dx.\\]<p><strong>Svar:</strong> \\(F(x)=x\\ln x-x+C\\), där \\(C\\) är en godtycklig konstant. Inga integrationsgränser behövs när vi söker primitiva funktioner.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv logaritmen som en produkt med 1</p><p>Välj \\(u=\\ln x\\) och \\(v\\prime=1\\). Då är \\(u\\prime=1/x\\) och \\(v=x\\), för \\(x>0\\).</p></li><li><p class=\"facit-rubrik\">Produkten i den nya integralen blir 1</p>\\[\\int u v\\prime\\,dx=uv-\\int u\\prime v\\,dx\\]\\[\\int\\ln x\\,dx=x\\ln x-\\int\\frac1x\\cdot x\\,dx\\]\\[=x\\ln x-\\int1\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera konstanten och ta med alla primitiva funktioner</p><p>En primitiv funktion till 1 är x. En godtycklig konstant C ger hela familjen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x\\ln x-x+C\\), för \\(x>0\\).</p></div>",
     "id": "3.03",
     "miniräknare": true,
     "geogebra": false,
@@ -19945,7 +19945,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "primitiva",
-    "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
+    "ledtrad": "<p>Skriv \\(\\ln x\\) som \\(1\\cdot\\ln x\\). Vilken faktor bör deriveras?</p>",
     "traningsniva": 3
   },
   {
@@ -19955,7 +19955,7 @@ window.BANKMATF1 = [
     "typ": "bestämma primitiv funktion med partiell integration",
     "poang": "2/0/0",
     "t": "<p>Bestäm en primitiv funktion till</p><p>\\[f(x)=x\\sin(2x).\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj den del som blir enklare vid derivering som \\(u\\), och resten som \\(dv\\).</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\int u\\,dv=uv-\\int v\\,du\\].</div></div></li><li><p>Efter partiell integration och förenkling fås</p></li></ol><p class=\"facit-svar\"><strong>\\[- \\frac{x \\cos{\\left(2 x \\right)}}{2} + \\frac{\\sin{\\left(2 x \\right)}}{4}.\\]</strong></p><ol class=\"facit-steglista\" role=\"list\"><li><p>En kontroll är att derivatan av uttrycket åter ger \\(x\\sin(2x)\\).</p></li><li><p><strong>Kontroll:</strong> Derivera den framtagna primitiva funktionen; derivatan ska förenklas till den ursprungliga integranden.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera x och integrera sinusfaktorn</p><p>Välj \\(u=x\\), \\(u\\prime=1\\), \\(v\\prime=\\sin(2x)\\) och \\(v=-\\cos(2x)/2\\).</p></li><li><p class=\"facit-rubrik\">Sätt in faktorerna i partiell integration</p>\\[\\int x\\sin(2x)\\,dx\\]\\[=-\\frac{x\\cos(2x)}2+\\frac12\\int\\cos(2x)\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera cosinus och välj en konstant</p><p>Den sista integralen är \\(\\sin(2x)/2\\). Faktoren 1/2 framför den ger därför 1/4. Eftersom en primitiv funktion efterfrågas kan vi välja C = 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-x\\cos(2x)/2+\\sin(2x)/4\\).</p></div>",
     "id": "3.125",
     "miniräknare": true,
     "geogebra": false,
@@ -19967,7 +19967,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
+    "ledtrad": "<p>Låt x deriveras. Vilken faktor behövs när du integrerar \\(\\sin(2x)\\)?</p>",
     "traningsniva": 2,
     "svarFormat": "primitiv"
   },
@@ -19978,7 +19978,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration trigonometrisk funktion",
     "poang": "2/0/0",
     "t": "<p>Bestäm alla primitiva funktioner till \\(x\\cos x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><p>Välj \\(u=x\\) och \\(dv=\\cos x\\,dx\\).</p></li><li><p>Då är \\(du=dx\\) och \\(v=\\sin x\\).</p></li><li><p>\\[\\int x\\cos x\\,dx=x\\sin x-\\int\\sin x\\,dx=x\\sin x+\\cos x+C.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj faktorer så att x försvinner vid derivering</p><p>Med \\(u=x\\) och \\(v\\prime=\\cos x\\) blir \\(u\\prime=1\\) och \\(v=\\sin x\\).</p></li><li><p class=\"facit-rubrik\">Använd partiell integration på produkten</p>\\[\\begin{aligned}\\int x\\cos x\\,dx\\\\=x\\sin x-\\int\\sin x\\,dx\\end{aligned}\\]</li><li><p class=\"facit-rubrik\">Det sista minustecknet ger plus cosinus</p><p>En primitiv funktion till sin x är −cos x. Därför ger subtraktionen \\(-(-\\cos x)=\\cos x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x\\sin x+\\cos x+C\\).</p></div>",
     "id": "3.14",
     "miniräknare": true,
     "geogebra": false,
@@ -19991,8 +19991,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "primitiva",
-    "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
-    "traningsniva": 1
+    "ledtrad": "<p>Derivera x och integrera cos x. Tänk på tecknet när den återstående sinusfunktionen integreras.</p>",
+    "traningsniva": 2
   },
   {
     "kap": 3,
@@ -20001,7 +20001,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration med logaritm",
     "poang": "0/2/0",
     "t": "<p>Bestäm alla primitiva funktioner till \\(x^2\\ln x\\), där \\(x\\gt0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><p>Välj \\(u=\\ln x\\) och \\(dv=x^2dx\\).</p></li><li><p>Då är \\(du=dx/x\\) och \\(v=x^3/3\\).</p></li><li><p>\\[\\int x^2\\ln x\\,dx=\\frac{x^3}{3}\\ln x-\\frac13\\int x^2dx\\]</p></li><li><p>\\[=\\frac{x^3}{3}\\ln x-\\frac{x^3}{9}+C.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera logaritmen och integrera x²</p><p>Välj \\(u=\\ln x\\), \\(u\\prime=1/x\\), \\(v\\prime=x^2\\) och \\(v=x^3/3\\).</p></li><li><p class=\"facit-rubrik\">Förkorta produkten i den nya integralen</p>\\[\\int x^2\\ln x\\,dx\\]\\[=\\frac{x^3\\ln x}{3}-\\int\\frac1x\\cdot\\frac{x^3}3\\,dx\\]\\[=\\frac{x^3\\ln x}{3}-\\frac13\\int x^2\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera potensen med faktorn 1/3 kvar</p>\\[\\frac13\\int x^2\\,dx=\\frac13\\cdot\\frac{x^3}3=\\frac{x^3}9\\]<p>En enda partiell integration räcker; därefter används potensregeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3\\ln x/3-x^3/9+C\\), för \\(x>0\\).</p></div>",
     "id": "3.15",
     "miniräknare": true,
     "geogebra": false,
@@ -20014,7 +20014,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "primitiva",
-    "ledtrad": "<p>Partiell integration behöver göras mer än en gång. Välj först polynomet eller logaritmuttrycket som \\(u\\), så att det förenklas vid derivering, och fortsätt tills den återstående integralen är elementär.</p>",
+    "ledtrad": "<p>Låt logaritmen deriveras och x² integreras. Vad blir produkten i den återstående integralen?</p>",
     "traningsniva": 3
   },
   {
@@ -20024,7 +20024,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration x gånger exponential",
     "poang": "2/0/0",
     "t": "<p>Bestäm alla primitiva funktioner till \\(xe^{2x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><div class=\"facit-berakning\"><p>Välj</p><div class=\"facit-matte\">\\[u=x\\],</div></div></li><li><div class=\"facit-matte\">\\[dv=e^{2x}dx\\].</div></li><li><p>Då \\(du=dx\\) och \\(v=\\frac12e^{2x}\\).</p></li><li><p>\\[\\int xe^{2x}dx=\\frac{x}{2}e^{2x}-\\frac12\\int e^{2x}dx=\\frac{x}{2}e^{2x}-\\frac14e^{2x}+C.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integrera exponentialfunktionen med rätt faktor</p><p>Välj \\(u=x\\), \\(u\\prime=1\\), \\(v\\prime=e^{2x}\\) och \\(v=e^{2x}/2\\).</p></li><li><p class=\"facit-rubrik\">Använd partiell integration och integrera en gång till</p>\\[\\int xe^{2x}\\,dx=\\frac{xe^{2x}}2-\\frac12\\int e^{2x}\\,dx\\]\\[=\\frac{xe^{2x}}2-\\frac12\\cdot\\frac{e^{2x}}2+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=xe^{2x}/2-e^{2x}/4+C\\).</p></div>",
     "id": "3.30",
     "miniräknare": true,
     "geogebra": false,
@@ -20037,7 +20037,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "primitiva",
-    "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
+    "ledtrad": "<p>Välj x som faktorn som deriveras. Kom ihåg den inre derivatan 2 när exponentialfunktionen integreras.</p>",
     "traningsniva": 2
   },
   {
@@ -20047,7 +20047,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration x sin",
     "poang": "2/0/0",
     "t": "<p>Bestäm alla primitiva funktioner till \\(x\\sin x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><div class=\"facit-berakning\"><p>Välj</p><div class=\"facit-matte\">\\[u=x\\],</div></div></li><li><div class=\"facit-matte\">\\[dv=\\sin x\\,dx\\].</div></li><li><div class=\"facit-berakning\"><p>Då</p><div class=\"facit-matte\">\\[v=-\\cos x\\]:</div></div></li><li><p>\\[\\int x\\sin x\\,dx=-x\\cos x+\\int\\cos x\\,dx=-x\\cos x+\\sin x+C.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera x och integrera sin x</p><p>Välj \\(u=x\\), \\(u\\prime=1\\), \\(v\\prime=\\sin x\\) och \\(v=-\\cos x\\).</p></li><li><p class=\"facit-rubrik\">Subtraktionen av v ger en positiv integral</p>\\[\\begin{aligned}\\int x\\sin x\\,dx\\\\=-x\\cos x+\\int\\cos x\\,dx\\end{aligned}\\]</li><li><p class=\"facit-rubrik\">Integrera cosinus och lägg till konstanten</p><p>En primitiv funktion till cos x är sin x. Konstanten C får vara vilket reellt tal som helst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-x\\cos x+\\sin x+C\\).</p></div>",
     "id": "3.31",
     "miniräknare": true,
     "geogebra": false,
@@ -20060,8 +20060,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "primitiva",
-    "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
-    "traningsniva": 1
+    "ledtrad": "<p>Välj x som faktorn som deriveras. En primitiv funktion till sin x har ett minustecken.</p>",
+    "traningsniva": 2
   },
   {
     "kap": 3,
@@ -20070,7 +20070,7 @@ window.BANKMATF1 = [
     "typ": "bestämma primitiv funktion med partiell integration",
     "poang": "0/2/0",
     "t": "<p>Bestäm en primitiv funktion till</p><p>\\[f(x)=x^2e^{2x}.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj den del som blir enklare vid derivering som \\(u\\), och resten som \\(dv\\).</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\int u\\,dv=uv-\\int v\\,du\\].</div></div></li><li><p>Efter partiell integration och förenkling fås</p></li></ol><p class=\"facit-svar\"><strong>\\[\\frac{\\left(2 x^{2} - 2 x + 1\\right) e^{2 x}}{4}.\\]</strong></p><ol class=\"facit-steglista\" role=\"list\"><li><p>En kontroll är att derivatan av uttrycket åter ger \\(x^2e^{2x}\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minska polynomets grad från 2 till 1</p><p>Välj \\(u=x^2\\), \\(u\\prime=2x\\) och \\(v=e^{2x}/2\\).</p>\\[\\int x^2e^{2x}\\,dx=\\frac{x^2e^{2x}}2-J\\]<p>Här är \\(J=\\int xe^{2x}\\,dx\\).</p></li><li><p class=\"facit-rubrik\">Beräkna J genom att derivera x</p><p>Välj nu \\(u=x\\), \\(u\\prime=1\\) och \\(v=e^{2x}/2\\).</p>\\[J=\\frac{xe^{2x}}2-\\frac12\\int e^{2x}\\,dx\\]\\[=\\frac{xe^{2x}}2-\\frac{e^{2x}}4\\]</li><li><p class=\"facit-rubrik\">Subtrahera J och samla exponentialfaktorn</p>\\[F(x)=\\frac{x^2e^{2x}}2-\\frac{xe^{2x}}2+\\frac{e^{2x}}4\\]<p>Vi väljer integrationskonstanten noll eftersom en primitiv funktion räcker.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=e^{2x}(2x^2-2x+1)/4\\).</p></div>",
     "id": "3.132",
     "miniräknare": true,
     "geogebra": false,
@@ -20083,7 +20083,7 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Partiell integration behöver göras mer än en gång. Välj först polynomet eller logaritmuttrycket som \\(u\\), så att det förenklas vid derivering, och fortsätt tills den återstående integralen är elementär.</p>",
+    "ledtrad": "<p>Derivera x² i första omgången. Den återstående produkten med x kräver en andra partiell integration.</p>",
     "traningsniva": 4,
     "svarFormat": "primitiv"
   },
@@ -20094,7 +20094,7 @@ window.BANKMATF1 = [
     "typ": "bestämma primitiv funktion med partiell integration",
     "poang": "0/3/0",
     "t": "<p>Bestäm en primitiv funktion till</p><p>\\[f(x)=x^2\\sin(2x).\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj den del som blir enklare vid derivering som \\(u\\), och resten som \\(dv\\).</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\int u\\,dv=uv-\\int v\\,du\\].</div></div></li><li><p>Efter partiell integration och förenkling fås</p></li></ol><p class=\"facit-svar\"><strong>\\[- \\frac{x^{2} \\cos{\\left(2 x \\right)}}{2} + \\frac{x \\sin{\\left(2 x \\right)}}{2} + \\frac{\\cos{\\left(2 x \\right)}}{4}.\\]</strong></p><ol class=\"facit-steglista\" role=\"list\"><li><p>En kontroll är att derivatan av uttrycket åter ger \\(x^2\\sin(2x)\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den första omgången lämnar x cos(2x)</p><p>Välj \\(u=x^2\\), \\(u\\prime=2x\\) och \\(v=-\\cos(2x)/2\\).</p>\\[\\begin{aligned}\\int x^2\\sin(2x)\\,dx\\\\=-\\frac{x^2\\cos(2x)}2+J\\end{aligned}\\]<p>Här är \\(J=\\int x\\cos(2x)\\,dx\\).</p></li><li><p class=\"facit-rubrik\">Integrera produkten i J partiellt</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=\\sin(2x)/2\\).</p>\\[J=\\frac{x\\sin(2x)}2-\\frac12\\int\\sin(2x)\\,dx\\]\\[=\\frac{x\\sin(2x)}2+\\frac{\\cos(2x)}4\\]</li><li><p class=\"facit-rubrik\">Sätt in J och välj konstanten noll</p><p>De två termerna i J ska adderas till det första resultatet. Vi söker en primitiv funktion, så C = 0 går bra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-x^2\\cos(2x)/2+x\\sin(2x)/2+\\cos(2x)/4\\).</p></div>",
     "id": "3.133",
     "miniräknare": true,
     "geogebra": false,
@@ -20107,7 +20107,7 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Partiell integration behöver göras mer än en gång. Välj först polynomet eller logaritmuttrycket som \\(u\\), så att det förenklas vid derivering, och fortsätt tills den återstående integralen är elementär.</p>",
+    "ledtrad": "<p>Derivera x² och integrera sin(2x). Integrera sedan den nya produkten partiellt en gång till.</p>",
     "traningsniva": 4,
     "svarFormat": "primitiv"
   },
@@ -20118,9 +20118,9 @@ window.BANKMATF1 = [
     "typ": "bestämd integral med partiell integration",
     "poang": "2/0/0",
     "t": "<p>Beräkna \\(\\int_0^1 xe^x\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><p>En primitiv funktion är \\((x-1)e^x\\).</p></li><li><p>Därför</p></li><li><p>\\[\\int_0^1xe^x\\,dx=[(x-1)e^x]_0^1=0-(-1)=1.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm en primitiv funktion till xeˣ</p><p>Med \\(u=x\\), \\(u\\prime=1\\) och \\(v=e^x\\) ger partiell integration</p>\\[\\begin{aligned}F(x)&=xe^x-\\int e^x\\,dx\\\\&=(x-1)e^x.\\end{aligned}\\]</li><li><p class=\"facit-rubrik\">Beräkna värdet vid båda gränserna</p>\\[F(1)=(1-1)e=0\\]\\[F(0)=(0-1)e^0=-1\\]</li><li><p class=\"facit-rubrik\">Subtrahera värdet vid den undre gränsen</p>\\[\\int_0^1xe^x\\,dx=F(1)-F(0)\\]\\[=0-(-1)=1\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Integralen är \\(1\\).</p></div>",
     "id": "3.33",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "numeriskt",
@@ -20131,7 +20131,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm först en primitiv funktion med partiell integration. Sätt därefter in den övre och den undre integrationsgränsen; håll den exakta formen så länge som möjligt.</p>",
+    "ledtrad": "<p>Integrera produkten partiellt med x som faktorn som deriveras. Beräkna sedan F(1)−F(0).</p>",
     "traningsniva": 2
   },
   {
@@ -20141,7 +20141,7 @@ window.BANKMATF1 = [
     "typ": "två steg partiell integration",
     "poang": "0/2/0",
     "t": "<p>Bestäm \\(\\int x^2e^x\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Första partiella integreringen med</p><div class=\"facit-matte\">\\[u=x^2\\],</div></div></li><li><p>\\(dv=e^xdx\\) ger</p></li><li><p>\\[x^2e^x-\\int2xe^xdx.\\]</p></li><li><p>Integrera den återstående integralen partiellt igen:</p></li><li><p>\\[\\int2xe^xdx=2(xe^x-e^x).\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\int x^2e^xdx=e^x(x^2-2x+2)+C.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den första integrationen ger en produkt med x</p><p>Välj \\(u=x^2\\), \\(u\\prime=2x\\) och \\(v=e^x\\).</p>\\[I=\\int x^2e^x\\,dx=x^2e^x-2J\\]<p>Här är \\(J=\\int xe^x\\,dx\\).</p></li><li><p class=\"facit-rubrik\">Beräkna J med en andra partiell integration</p><p>Med \\(u=x\\), \\(u\\prime=1\\) och \\(v=e^x\\) får vi</p>\\[J=xe^x-\\int e^x\\,dx=xe^x-e^x.\\]</li><li><p class=\"facit-rubrik\">Multiplicera hela J med −2</p>\\[I=x^2e^x-2(xe^x-e^x)+C\\]\\[=e^x(x^2-2x+2)+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^x(x^2-2x+2)+C\\).</p></div>",
     "id": "3.34",
     "miniräknare": true,
     "geogebra": false,
@@ -20153,9 +20153,9 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Partiell integration behöver göras mer än en gång. Välj först polynomet eller logaritmuttrycket som \\(u\\), så att det förenklas vid derivering, och fortsätt tills den återstående integralen är elementär.</p>",
-    "traningsniva": 3,
-    "svarFormat": "uttryck"
+    "ledtrad": "<p>Derivera x² i första omgången och x i den andra. Exponentialfunktionen behåller sin form.</p>",
+    "traningsniva": 4,
+    "svarFormat": "primitiva"
   },
   {
     "kap": 3,
@@ -20164,7 +20164,7 @@ window.BANKMATF1 = [
     "typ": "bestämma primitiv funktion med partiell integration",
     "poang": "0/2/0",
     "t": "<p>Bestäm en primitiv funktion till</p><p>\\[f(x)=x\\ln x.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj den del som blir enklare vid derivering som \\(u\\), och resten som \\(dv\\).</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\int u\\,dv=uv-\\int v\\,du\\].</div></div></li><li><p>Efter partiell integration och förenkling fås</p></li></ol><p class=\"facit-svar\"><strong>\\[\\frac{x^{2} \\left(2 \\ln{\\left(x \\right)} - 1\\right)}{4}.\\]</strong></p><ol class=\"facit-steglista\" role=\"list\"><li><p>En kontroll är att derivatan av uttrycket åter ger \\(x\\ln x\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera logaritmen i produkten</p><p>För \\(x>0\\) väljer vi \\(u=\\ln x\\), \\(u\\prime=1/x\\), \\(v\\prime=x\\) och \\(v=x^2/2\\).</p></li><li><p class=\"facit-rubrik\">Förenkla den återstående integralen</p>\\[\\begin{aligned}\\int x\\ln x\\,dx\\\\=\\frac{x^2\\ln x}2-\\frac12\\int x\\,dx\\end{aligned}\\]\\[=\\frac{x^2\\ln x}2-\\frac{x^2}4+C\\]</li><li><p class=\"facit-rubrik\">Välj en av de primitiva funktionerna</p><p>Frågan efterfrågar en primitiv funktion. Vi väljer C = 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^2\\ln x/2-x^2/4\\), för \\(x>0\\).</p></div>",
     "id": "3.135",
     "miniräknare": true,
     "geogebra": false,
@@ -20177,7 +20177,7 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
+    "ledtrad": "<p>Låt ln x deriveras och x integreras. Förenkla den nya integrandens potens.</p>",
     "traningsniva": 3,
     "svarFormat": "primitiv"
   },
@@ -20188,7 +20188,7 @@ window.BANKMATF1 = [
     "typ": "x cos 2x",
     "poang": "2/0/0",
     "t": "<p>Bestäm \\(\\int x\\cos(2x)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><div class=\"facit-berakning\"><p>Välj</p><div class=\"facit-matte\">\\[u=x\\],</div></div></li><li><p>\\(dv=\\cos(2x)dx\\), så \\(v=\\frac12\\sin2x\\):</p></li><li><p>\\[\\int x\\cos2x dx=\\frac{x}{2}\\sin2x+\\frac14\\cos2x+C.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera x och integrera cos(2x)</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=\\sin(2x)/2\\).</p>\\[\\int x\\cos(2x)\\,dx\\]\\[=\\frac{x\\sin(2x)}2-\\frac12\\int\\sin(2x)\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera sinus med rätt tecken och faktor</p><p>En primitiv funktion till \\(\\sin(2x)\\) är \\(-\\cos(2x)/2\\). Multiplikation med −1/2 ger därför \\(+\\cos(2x)/4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\sin(2x)/2+\\cos(2x)/4+C\\).</p></div>",
     "id": "3.55",
     "miniräknare": true,
     "geogebra": false,
@@ -20200,9 +20200,9 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
+    "ledtrad": "<p>Låt x deriveras. Ta hänsyn till faktorn 2 i cosinusfunktionens argument vid båda integreringarna.</p>",
     "traningsniva": 2,
-    "svarFormat": "uttryck"
+    "svarFormat": "primitiva"
   },
   {
     "kap": 3,
@@ -20211,7 +20211,7 @@ window.BANKMATF1 = [
     "typ": "x e minus x",
     "poang": "2/0/0",
     "t": "<p>Bestäm \\(\\int xe^{-x}\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><div class=\"facit-berakning\"><p>Välj</p><div class=\"facit-matte\">\\[u=x\\],</div></div></li><li><div class=\"facit-matte\">\\[dv=e^{-x}dx\\],</div></li><li><div class=\"facit-matte\">\\[v=-e^{-x}\\]:</div></li><li><p>\\[\\int xe^{-x}dx=-xe^{-x}-e^{-x}+C=-(x+1)e^{-x}+C.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integrera exponentialfunktionen med minustecken</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=-e^{-x}\\).</p>\\[\\int xe^{-x}\\,dx=-xe^{-x}+\\int e^{-x}\\,dx\\]</li><li><p class=\"facit-rubrik\">Samla termerna med e⁻ˣ</p>\\[=-xe^{-x}-e^{-x}+C\\]\\[=-(x+1)e^{-x}+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-(x+1)e^{-x}+C\\).</p></div>",
     "id": "3.56",
     "miniräknare": true,
     "geogebra": false,
@@ -20223,8 +20223,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
+    "svarFormat": "primitiva",
+    "ledtrad": "<p>Derivera x. Kontrollera minustecknet i en primitiv funktion till e⁻ˣ.</p>",
     "traningsniva": 2
   },
   {
@@ -20234,9 +20234,9 @@ window.BANKMATF1 = [
     "typ": "x ln x bestämd",
     "poang": "0/2/0",
     "t": "<p>Beräkna \\(\\int_1^e x\\ln x\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><p>Partiell integration ger</p></li><li><p>\\[\\int x\\ln x dx=\\frac{x^2}{2}\\ln x-\\frac{x^2}{4}.\\]</p></li><li><p>Därför</p></li><li><p>\\[\\left[\\frac{x^2}{2}\\ln x-\\frac{x^2}{4}\\right]_1^e=\\frac{e^2}{4}+\\frac14=\\frac{e^2+1}{4}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integrera produkten genom att derivera logaritmen</p><p>Välj \\(u=\\ln x\\), \\(u\\prime=1/x\\) och \\(v=x^2/2\\).</p>\\[F(x)=\\frac{x^2\\ln x}2-\\frac12\\int x\\,dx\\]\\[=\\frac{x^2\\ln x}2-\\frac{x^2}4\\]</li><li><p class=\"facit-rubrik\">Sätt in e och 1 var för sig</p>\\[F(e)=\\frac{e^2}2-\\frac{e^2}4=\\frac{e^2}4\\]\\[F(1)=0-\\frac14=-\\frac14\\]</li><li><p class=\"facit-rubrik\">Subtrahera det negativa värdet vid 1</p>\\[\\int_1^e x\\ln x\\,dx=\\frac{e^2}4-\\left(-\\frac14\\right)\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((e^2+1)/4\\).</p></div>",
     "id": "3.57",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "uttryck",
@@ -20247,7 +20247,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först en primitiv funktion med partiell integration. Sätt därefter in den övre och den undre integrationsgränsen; håll den exakta formen så länge som möjligt.</p>",
+    "ledtrad": "<p>Låt logaritmen deriveras när du bestämmer en primitiv funktion. Vid gränserna gäller ln e = 1 och ln 1 = 0.</p>",
     "traningsniva": 3
   },
   {
@@ -20257,7 +20257,7 @@ window.BANKMATF1 = [
     "typ": "x2 sin x",
     "poang": "0/3/0",
     "t": "<p>Bestäm \\(\\int x^2\\sin x\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><p>Integrera partiellt två gånger:</p></li><li><p>\\[\\int x^2\\sin xdx=-x^2\\cos x+\\int2x\\cos xdx.\\]</p></li><li><p>\\[\\int2x\\cos xdx=2x\\sin x+2\\cos x.\\]</p></li><li><p>Alltså</p></li><li><p><strong>\\(-x^2\\cos x+2x\\sin x+2\\cos x+C\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den första omgången ger x cos x</p><p>Välj \\(u=x^2\\), \\(u\\prime=2x\\) och \\(v=-\\cos x\\).</p>\\[\\begin{aligned}I&=\\int x^2\\sin x\\,dx\\\\&=-x^2\\cos x+2J\\end{aligned}\\]<p>Här är \\(J=\\int x\\cos x\\,dx\\).</p></li><li><p class=\"facit-rubrik\">Beräkna J med en andra partiell integration</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=\\sin x\\).</p>\\[J=x\\sin x-\\int\\sin x\\,dx\\]\\[=x\\sin x+\\cos x\\]</li><li><p class=\"facit-rubrik\">Sätt in hela J och multiplicera med 2</p>\\[\\begin{aligned}I={}&-x^2\\cos x\\\\&+2(x\\sin x+\\cos x)+C\\end{aligned}\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-x^2\\cos x+2x\\sin x+2\\cos x+C\\).</p></div>",
     "id": "3.58",
     "miniräknare": true,
     "geogebra": false,
@@ -20269,8 +20269,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Partiell integration behöver göras mer än en gång. Välj först polynomet eller logaritmuttrycket som \\(u\\), så att det förenklas vid derivering, och fortsätt tills den återstående integralen är elementär.</p>",
+    "svarFormat": "primitiva",
+    "ledtrad": "<p>Derivera x² i första omgången och x i den andra. Håll reda på minustecknet när sinus integreras.</p>",
     "traningsniva": 4
   },
   {
@@ -20280,9 +20280,9 @@ window.BANKMATF1 = [
     "typ": "x cos x bestämd",
     "poang": "2/0/0",
     "t": "<p>Beräkna \\(\\int_0^{\\pi}x\\cos x\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><p>Primitiv funktion är \\(x\\sin x+\\cos x\\).</p></li><li><p>Därför</p></li><li><p>\\[[x\\sin x+\\cos x]_0^{\\pi}=(-1)-(1)=-2.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera x när produkten integreras</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=\\sin x\\).</p>\\[F(x)=x\\sin x-\\int\\sin x\\,dx\\]\\[=x\\sin x+\\cos x\\]</li><li><p class=\"facit-rubrik\">Beräkna värdet vid båda gränserna</p>\\[F(\\pi)=\\pi\\cdot0+(-1)=-1\\]\\[F(0)=0\\cdot0+1=1\\]</li><li><p class=\"facit-rubrik\">Subtrahera den undre gränsens värde</p>\\[\\int_0^\\pi x\\cos x\\,dx=-1-1=-2\\]<p>Detta är en integral med tecken, inte summan av områdenas areor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Integralen är \\(-2\\).</p></div>",
     "id": "3.76",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "numeriskt",
@@ -20293,7 +20293,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm först en primitiv funktion med partiell integration. Sätt därefter in den övre och den undre integrationsgränsen; håll den exakta formen så länge som möjligt.</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion till produkten. Använd sedan sinus- och cosinusvärdena vid 0 och π.</p>",
     "traningsniva": 2
   },
   {
@@ -20303,7 +20303,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration med återkommande integral",
     "poang": "0/1/2",
     "t": "<p>Bestäm</p><p>\\[\\int e^{x}\\sin x\\,dx.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Här blir ingen av faktorerna enklare när man deriverar.</p></li><li><p>Efter två partiella integrationer dyker den ursprungliga integralen upp igen, och då kan man lösa ut den som en obekant.</p></li><li><p>Kalla integralen \\(I\\).</p></li><li><p>Välj \\(u=\\sin x\\) och \\(dv=e^{x}dx\\), så att \\(du=\\cos x\\,dx\\) och \\(v=e^{x}\\):</p></li><li><p>\\[I=e^{x}\\sin x-\\int e^{x}\\cos x\\,dx.\\]</p></li><li><p>Integrera partiellt en gång till, nu med \\(u=\\cos x\\) och \\(dv=e^{x}dx\\):</p></li><li><p>\\[\\int e^{x}\\cos x\\,dx=e^{x}\\cos x+\\int e^{x}\\sin x\\,dx=e^{x}\\cos x+I.\\]</p></li><li><p>Sätt in detta i den första likheten:</p></li><li><p>\\[I=e^{x}\\sin x-\\left(e^{x}\\cos x+I\\right)=e^{x}\\sin x-e^{x}\\cos x-I.\\]</p></li><li><p>Nu står \\(I\\) i båda leden.</p></li><li><p>Addera \\(I\\) till båda sidor:</p></li><li><p>\\[2I=e^{x}(\\sin x-\\cos x).\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\int e^{x}\\sin x\\,dx=\\mathbf{\\frac{e^{x}(\\sin x-\\cos x)}{2}+C}.\\]</p></li><li><p><strong>Kontroll genom derivering:</strong> derivatan av \\(\\tfrac12 e^{x}(\\sin x-\\cos x)\\) blir \\(\\tfrac12 e^{x}(\\sin x-\\cos x)+\\tfrac12 e^{x}(\\cos x+\\sin x)=e^{x}\\sin x\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Koppla sinusintegralen till en cosinusintegral</p><p>Välj \\(u=\\sin x\\), \\(u\\prime=\\cos x\\) och \\(v=e^x\\). Skriv \\(J=\\int e^x\\cos x\\,dx\\).</p>\\[I=e^x\\sin x-J\\]</li><li><p class=\"facit-rubrik\">Integrera J så att I kommer tillbaka</p><p>Välj \\(u=\\cos x\\), \\(u\\prime=-\\sin x\\) och \\(v=e^x\\).</p>\\[J=e^x\\cos x+I\\]</li><li><p class=\"facit-rubrik\">Sätt in J och lös ekvationen för I</p>\\[I=e^x\\sin x-e^x\\cos x-I\\]\\[2I=e^x(\\sin x-\\cos x)\\]<p>Vi har räknat fram en primitiv funktion. Lägg till en godtycklig konstant för hela familjen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^x(\\sin x-\\cos x)/2+C\\).</p></div>",
     "id": "3.81",
     "miniräknare": true,
     "geogebra": false,
@@ -20316,8 +20316,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Kalla integralen \\(I\\). Integrera partiellt två gånger. När \\(I\\) dyker upp igen i högerledet kan du samla alla \\(I\\)-termer i samma led och lösa ut integralen.</p>",
+    "svarFormat": "primitiva",
+    "ledtrad": "<p>Kalla integralen I. Integrera partiellt två gånger och samla sedan I-termerna i samma led.</p>",
     "traningsniva": 5
   },
   {
@@ -20327,7 +20327,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration av logaritm i kvadrat",
     "poang": "0/2/1",
     "t": "<p>Bestäm</p><p>\\[\\int(\\ln x)^2\\,dx,\\qquad x\\gt 0.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Idé:</strong> Precis som för \\(\\int\\ln x\\,dx\\) finns ingen synlig andra faktor.</p></li><li><p>Skriv därför integranden som \\(1\\cdot(\\ln x)^2\\) och låt \\(dv=dx\\).</p></li><li><p>Med \\(u=(\\ln x)^2\\) och \\(dv=dx\\) blir \\(du=\\dfrac{2\\ln x}{x}dx\\) och \\(v=x\\):</p></li><li><p>\\[\\int(\\ln x)^2dx=x(\\ln x)^2-\\int x\\cdot\\frac{2\\ln x}{x}\\,dx=x(\\ln x)^2-2\\int\\ln x\\,dx.\\]</p></li><li><p>Den återstående integralen är känd sedan tidigare:</p></li><li><p>\\[\\int\\ln x\\,dx=x\\ln x-x.\\]</p></li><li><p>Insättning ger</p></li><li><p>\\[x(\\ln x)^2-2(x\\ln x-x)=\\mathbf{x(\\ln x)^2-2x\\ln x+2x+C}.\\]</p></li><li><div class=\"facit-berakning\"><p><strong>Kontroll:</strong> derivering ger</p><div class=\"facit-matte\">\\[(\\ln x)^2+2\\ln x-2\\ln x-2+2=(\\ln x)^2\\].</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera logaritmens kvadrat med kedjeregeln</p><p>Välj \\(u=(\\ln x)^2\\), \\(u\\prime=2\\ln x/x\\) och \\(v=x\\).</p>\\[I=x(\\ln x)^2-2J\\]<p>Här är \\(J=\\int\\ln x\\,dx\\).</p></li><li><p class=\"facit-rubrik\">Integrera den återstående logaritmen</p><p>Med \\(u=\\ln x\\), \\(u\\prime=1/x\\) och \\(v=x\\) får vi</p>\\[\\begin{aligned}J&=x\\ln x-\\int1\\,dx\\\\&=x\\ln x-x.\\end{aligned}\\]</li><li><p class=\"facit-rubrik\">Multiplicera båda termerna i J med −2</p>\\[\\begin{aligned}I={}&x(\\ln x)^2\\\\&-2(x\\ln x-x)+C\\end{aligned}\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x(\\ln x)^2-2x\\ln x+2x+C\\), för \\(x>0\\).</p></div>",
     "id": "3.82",
     "miniräknare": true,
     "geogebra": false,
@@ -20339,8 +20339,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Partiell integration behöver göras mer än en gång. Välj först polynomet eller logaritmuttrycket som \\(u\\), så att det förenklas vid derivering, och fortsätt tills den återstående integralen är elementär.</p>",
+    "svarFormat": "primitiva",
+    "ledtrad": "<p>Skriv uttrycket som 1·(ln x)² och derivera logaritmens kvadrat. Därefter återstår integralen av ln x.</p>",
     "traningsniva": 4
   },
   {
@@ -20350,7 +20350,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration x gånger e upphöjt tre x",
     "poang": "2/0/0",
     "t": "<p>Bestäm</p><p>\\[\\int xe^{3x}\\,dx.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Metod:</strong> Välj \\(u\\) och \\(dv\\) så att deriveringen förenklar ena faktorn och integreringen av den andra är direkt.</p></li><li><div class=\"facit-berakning\"><p>Använd sedan</p><div class=\"facit-matte\">\\[\\int u\\,dv=uv-\\int v\\,du\\].</div></div></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Välj \\(u=x\\) och \\(dv=e^{3x}dx\\).</p></li><li><p>Då är \\(du=dx\\) och \\(v=\\frac13e^{3x}\\).</p></li><li><p>\\[\\int xe^{3x}dx=\\frac{x}{3}e^{3x}-\\frac13\\int e^{3x}dx\\]</p></li><li><p>\\[=\\frac{x}{3}e^{3x}-\\frac19e^{3x}+C.\\]</p></li></ol><p class=\"facit-svar\"><strong>\\[e^{3x}\\left(\\frac{x}{3}-\\frac19\\right)+C.\\]</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Derivera den framtagna primitiva funktionen.</p></li><li><p class=\"facit-not\">Derivatan ska förenklas till den ursprungliga integranden.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera x och integrera e³ˣ</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=e^{3x}/3\\).</p>\\[\\int xe^{3x}\\,dx=\\frac{xe^{3x}}3-\\frac13\\int e^{3x}\\,dx\\]</li><li><p class=\"facit-rubrik\">Behåll båda faktorerna 1/3</p>\\[=\\frac{xe^{3x}}3-\\frac13\\cdot\\frac{e^{3x}}3+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^{3x}(x/3-1/9)+C\\).</p></div>",
     "id": "3.90",
     "miniräknare": true,
     "geogebra": false,
@@ -20362,8 +20362,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
+    "svarFormat": "primitiva",
+    "ledtrad": "<p>Låt x deriveras. En integrering av e³ˣ ger faktorn 1/3, och exponentialfunktionen behöver integreras två gånger.</p>",
     "traningsniva": 2
   },
   {
@@ -20373,7 +20373,7 @@ window.BANKMATF1 = [
     "typ": "bestämma primitiv funktion med partiell integration",
     "poang": "2/0/0",
     "t": "<p>Bestäm \\(\\int x\\cos(3x)\\,dx\\) och kontrollera resultatet genom derivering.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj den del som blir enklare vid derivering som \\(u\\), och resten som \\(dv\\).</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\int u\\,dv=uv-\\int v\\,du\\].</div></div></li><li><p>Efter partiell integration och förenkling fås</p></li></ol><p class=\"facit-svar\"><strong>\\[\\frac{x \\sin{\\left(3 x \\right)}}{3} + \\frac{\\cos{\\left(3 x \\right)}}{9}+C.\\]</strong></p><ol class=\"facit-steglista\" role=\"list\"><li><p>En kontroll är att derivatan av uttrycket åter ger \\(x\\cos(3x)\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integrera produkten genom att derivera x</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=\\sin(3x)/3\\).</p>\\[\\begin{aligned}F(x)={}&\\frac{x\\sin(3x)}3\\\\&-\\frac13\\int\\sin(3x)\\,dx\\end{aligned}\\]\\[=\\frac{x\\sin(3x)}3+\\frac{\\cos(3x)}9+C\\]</li><li><p class=\"facit-rubrik\">Derivera och se att sinustermerna tar ut varandra</p>\\[\\begin{aligned}F\\prime(x)={}&\\frac{\\sin(3x)}3+x\\cos(3x)\\\\&-\\frac{\\sin(3x)}3\\end{aligned}\\]\\[=x\\cos(3x)\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x\\sin(3x)/3+\\cos(3x)/9+C\\). Kontrollen ger den ursprungliga integranden.</p></div>",
     "id": "3.145",
     "miniräknare": true,
     "geogebra": false,
@@ -20386,9 +20386,9 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
+    "ledtrad": "<p>Derivera x och integrera cos(3x). Använd produktregeln när du sedan kontrollerar resultatet.</p>",
     "traningsniva": 2,
-    "svarFormat": "uttryck"
+    "svarFormat": "primitiva"
   },
   {
     "kap": 3,
@@ -20397,7 +20397,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration trigonometrisk",
     "poang": "2/0/0",
     "t": "<p>Bestäm</p><p>\\[\\int x\\sin(3x)\\,dx.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><div class=\"facit-berakning\"><p>Välj</p><div class=\"facit-matte\">\\[u=x\\],</div></div></li><li><div class=\"facit-matte\">\\[dv=\\sin(3x)dx\\].</div></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[v=-\\frac13\\cos(3x)\\].</div></div></li><li><p>\\[\\int x\\sin(3x)dx=-\\frac{x}{3}\\cos(3x)+\\frac13\\int\\cos(3x)dx\\]</p></li><li><p>\\[=\\boxed{-\\frac{x}{3}\\cos(3x)+\\frac19\\sin(3x)+C}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera x och integrera sin(3x)</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=-\\cos(3x)/3\\).</p>\\[\\int x\\sin(3x)\\,dx\\]\\[=-\\frac{x\\cos(3x)}3+\\frac13\\int\\cos(3x)\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera cosinus med ytterligare en faktor 1/3</p>\\[\\begin{aligned}={}&-\\frac{x\\cos(3x)}3\\\\&+\\frac13\\cdot\\frac{\\sin(3x)}3+C\\end{aligned}\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-x\\cos(3x)/3+\\sin(3x)/9+C\\).</p></div>",
     "id": "3.91",
     "miniräknare": true,
     "geogebra": false,
@@ -20409,18 +20409,18 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
+    "svarFormat": "primitiva",
+    "ledtrad": "<p>Derivera x. Kontrollera både tecknet och faktorn 1/3 när sinus- och cosinusfunktionerna integreras.</p>",
     "traningsniva": 2
   },
   {
     "kap": 3,
     "omr": "partiell_integration",
-    "niva": "E",
+    "niva": "C",
     "typ": "integral av logaritm med faktor",
-    "poang": "2/0/0",
+    "poang": "0/2/0",
     "t": "<p>Bestäm \\(\\int\\ln(3x)\\,dx\\) för \\(x>0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><p>Skriv integranden som \\(1\\cdot\\ln(3x)\\).</p></li><li><p>Välj \\(u=\\ln(3x)\\) och \\(dv=dx\\).</p></li><li><p>Då är \\(du=\\frac{1}{x}dx\\) och \\(v=x\\).</p></li><li><p>\\[\\int\\ln(3x)dx=x\\ln(3x)-\\int1\\,dx.\\]</p></li></ol><p class=\"facit-svar\"><strong>\\[x\\ln(3x)-x+C.\\]</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera logaritmen med kedjeregeln</p><p>Välj \\(u=\\ln(3x)\\) och \\(v\\prime=1\\). Då är</p>\\[u\\prime=\\frac{3}{3x}=\\frac1x,\\qquad v=x.\\]</li><li><p class=\"facit-rubrik\">Integranden som återstår är 1</p>\\[\\begin{aligned}\\int\\ln(3x)\\,dx\\\\=x\\ln(3x)-\\int\\frac1x\\cdot x\\,dx\\end{aligned}\\]\\[=x\\ln(3x)-x+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\ln(3x)-x+C\\), för \\(x>0\\).</p></div>",
     "id": "3.92",
     "miniräknare": true,
     "geogebra": false,
@@ -20432,9 +20432,9 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
-    "traningsniva": 2
+    "svarFormat": "primitiva",
+    "ledtrad": "<p>Skriv ln(3x) som en produkt med 1. Vad blir derivatan av ln(3x) när kedjeregeln används?</p>",
+    "traningsniva": 3
   },
   {
     "kap": 3,
@@ -20443,7 +20443,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration x kvadrat cosinus",
     "poang": "0/3/0",
     "t": "<p>Bestäm</p><p>\\[\\int x^2\\cos x\\,dx.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Välj först</p><div class=\"facit-matte\">\\[u=x^2\\],</div></div></li><li><div class=\"facit-matte\">\\[dv=\\cos xdx\\]:</div></li><li><p>\\[\\int x^2\\cos xdx=x^2\\sin x-2\\int x\\sin xdx.\\]</p></li><li><p>Den återstående integralen är</p></li><li><p>\\[\\int x\\sin xdx=-x\\cos x+\\sin x.\\]</p></li><li><p>Därför</p></li></ol><p class=\"facit-svar\"><strong>\\[x^2\\sin x+2x\\cos x-2\\sin x+C.\\]</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera x² och integrera cosinus</p><p>Välj \\(u=x^2\\), \\(u\\prime=2x\\) och \\(v=\\sin x\\).</p>\\[\\begin{aligned}I&=\\int x^2\\cos x\\,dx\\\\&=x^2\\sin x-2J\\end{aligned}\\]<p>Här är \\(J=\\int x\\sin x\\,dx\\).</p></li><li><p class=\"facit-rubrik\">Beräkna J genom en andra partiell integration</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=-\\cos x\\).</p>\\[J=-x\\cos x+\\int\\cos x\\,dx\\]\\[=-x\\cos x+\\sin x\\]</li><li><p class=\"facit-rubrik\">Låt faktorn −2 påverka båda termerna</p>\\[\\begin{aligned}I={}&x^2\\sin x\\\\&-2(-x\\cos x+\\sin x)+C\\end{aligned}\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^2\\sin x+2x\\cos x-2\\sin x+C\\).</p></div>",
     "id": "3.95",
     "miniräknare": true,
     "geogebra": false,
@@ -20455,8 +20455,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Partiell integration behöver göras mer än en gång. Välj först polynomet eller logaritmuttrycket som \\(u\\), så att det förenklas vid derivering, och fortsätt tills den återstående integralen är elementär.</p>",
+    "svarFormat": "primitiva",
+    "ledtrad": "<p>Derivera x² i första omgången. I nästa omgång ska du integrera x sin x.</p>",
     "traningsniva": 4
   },
   {
@@ -20466,7 +20466,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration polynom gånger logaritm",
     "poang": "0/2/0",
     "t": "<p>Bestäm \\(\\int x\\ln(2x)\\,dx\\) för \\(x>0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Metod:</strong> Välj \\(u\\) och \\(dv\\) så att deriveringen förenklar ena faktorn och integreringen av den andra är direkt.</p></li><li><div class=\"facit-berakning\"><p>Använd sedan</p><div class=\"facit-matte\">\\[\\int u\\,dv=uv-\\int v\\,du\\].</div></div></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Välj \\(u=\\ln(2x)\\) och \\(dv=x\\,dx\\).</p></li><li><p>Då är \\(du=\\frac{1}{x}dx\\) och \\(v=\\frac{x^2}{2}\\).</p></li><li><p>\\[\\int x\\ln(2x)dx=\\frac{x^2}{2}\\ln(2x)-\\frac12\\int xdx\\]</p></li></ol><p class=\"facit-svar\"><strong>\\[=\\frac{x^2}{2}\\ln(2x)-\\frac{x^2}{4}+C.\\]</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Derivera den framtagna primitiva funktionen.</p></li><li><p class=\"facit-not\">Derivatan ska förenklas till den ursprungliga integranden.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera logaritmen och integrera x</p><p>Välj \\(u=\\ln(2x)\\) och \\(v\\prime=x\\). Då är \\(u\\prime=2/(2x)=1/x\\) och \\(v=x^2/2\\).</p></li><li><p class=\"facit-rubrik\">Förenkla och integrera den återstående potensen</p>\\[\\int x\\ln(2x)\\,dx\\]\\[=\\frac{x^2\\ln(2x)}2-\\frac12\\int x\\,dx\\]\\[=\\frac{x^2\\ln(2x)}2-\\frac{x^2}4+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^2\\ln(2x)/2-x^2/4+C\\), för \\(x>0\\).</p></div>",
     "id": "3.96",
     "miniräknare": true,
     "geogebra": false,
@@ -20478,8 +20478,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
+    "svarFormat": "primitiva",
+    "ledtrad": "<p>Derivera ln(2x) med kedjeregeln och integrera x. Förenkla produkten i den nya integralen.</p>",
     "traningsniva": 3
   },
   {
@@ -20489,9 +20489,9 @@ window.BANKMATF1 = [
     "typ": "bestämd integral av logaritm i kvadrat",
     "poang": "0/2/1",
     "t": "<p>Beräkna</p><p>\\[\\int_1^e(\\ln x)^2\\,dx.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Välj</p><div class=\"facit-matte\">\\[u=(\\ln x)^2\\],</div></div></li><li><div class=\"facit-matte\">\\[dv=dx\\].</div></li><li><p>Då är \\(du=\\frac{2\\ln x}{x}dx\\) och \\(v=x\\):</p></li><li><p>\\[\\int(\\ln x)^2dx=x(\\ln x)^2-2\\int\\ln xdx.\\]</p></li><li><p>Eftersom \\(\\int\\ln xdx=x\\ln x-x\\) får vi</p></li><li><p>\\[F(x)=x(\\ln x)^2-2x\\ln x+2x.\\]</p></li><li><p>\\[F(e)=e-2e+2e=e,\\qquad F(1)=2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Integralen är \\(e-2\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minska logaritmens exponent med partiell integration</p><p>Välj \\(u=(\\ln x)^2\\), \\(u\\prime=2\\ln x/x\\) och \\(v=x\\).</p>\\[F(x)=x(\\ln x)^2-2\\int\\ln x\\,dx\\]</li><li><p class=\"facit-rubrik\">Beräkna logaritmens primitiva funktion</p><p>Partiell integration med \\(u=\\ln x\\) och \\(v=x\\) ger</p>\\[\\begin{aligned}\\int\\ln x\\,dx&=x\\ln x-\\int1\\,dx\\\\&=x\\ln x-x.\\end{aligned}\\]\\[F(x)=x(\\ln x)^2-2x\\ln x+2x\\]</li><li><p class=\"facit-rubrik\">Sätt in gränserna och ta differensen</p>\\[F(e)=e\\cdot1^2-2e\\cdot1+2e=e\\]\\[F(1)=1\\cdot0^2-2\\cdot1\\cdot0+2=2\\]\\[\\begin{aligned}\\int_1^e(\\ln x)^2\\,dx\\\\=F(e)-F(1)=e-2\\end{aligned}\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e-2\\).</p></div>",
     "id": "3.97",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "uttryck",
@@ -20502,17 +20502,17 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Partiell integration behöver göras mer än en gång. Välj först polynomet eller logaritmuttrycket som \\(u\\), så att det förenklas vid derivering, och fortsätt tills den återstående integralen är elementär.</p>",
+    "ledtrad": "<p>Börja med att derivera (ln x)² och integrera faktorn 1. Integrera därefter ln x och sätt in båda gränserna.</p>",
     "traningsniva": 4
   },
   {
     "kap": 3,
     "omr": "partiell_integration",
-    "niva": "C",
+    "niva": "E",
     "typ": "partiell integration med polynom",
-    "poang": "2/2/0",
+    "poang": "4/0/0",
     "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><ol type=\"a\"><li>\\(\\displaystyle\\int2xe^x\\,dx\\)</li><li>\\(\\displaystyle\\int(x+1)\\sin x\\,dx\\)</li><li>\\(\\displaystyle\\int t\\cos3t\\,dt\\)</li><li>\\(\\displaystyle\\int xe^{-2x}\\,dx\\)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[u=2x\\],</div></li><li><p>\\(v^{\\prime}=e^x\\): \\(2xe^x-\\displaystyle\\int2e^x\\,dx=2xe^x-2e^x+C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2xe^x-2e^x+C\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[u=x+1\\],</div></li><li><p>\\(v^{\\prime}=\\sin x\\): \\(-(x+1)\\cos x+\\displaystyle\\int\\cos x\\,dx=-(x+1)\\cos x+\\sin x+C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-(x+1)\\cos x+\\sin x+C\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[u=t\\],</div></li><li><p>\\(v=\\dfrac{\\sin3t}{3}\\): \\(\\dfrac{t\\sin3t}{3}-\\displaystyle\\int\\dfrac{\\sin3t}{3}\\,dt=\\dfrac{t\\sin3t}{3}+\\dfrac{\\cos3t}{9}+C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{t\\sin3t}{3}+\\dfrac{\\cos3t}{9}+C\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[u=x\\],</div></li><li><p>\\(v=-\\dfrac{e^{-2x}}{2}\\): \\(-\\dfrac{xe^{-2x}}{2}+\\displaystyle\\int\\dfrac{e^{-2x}}{2}\\,dx=-\\dfrac{xe^{-2x}}{2}-\\dfrac{e^{-2x}}{4}+C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac{xe^{-2x}}{2}-\\dfrac{e^{-2x}}{4}+C\\)</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera 2x och integrera eˣ</p><p>Välj \\(u=2x\\), \\(u\\prime=2\\) och \\(v=e^x\\).</p>\\[\\int2xe^x\\,dx=2xe^x-2\\int e^x\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera eˣ och samla termerna</p>\\[=2xe^x-2e^x+C\\]\\[=2(x-1)e^x+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2(x-1)e^x+C\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera x+1 och integrera sinus</p><p>Välj \\(u=x+1\\), \\(u\\prime=1\\) och \\(v=-\\cos x\\).</p>\\[\\int(x+1)\\sin x\\,dx\\]\\[=-(x+1)\\cos x+\\int\\cos x\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera den återstående cosinusfunktionen</p><p>En primitiv funktion till cos x är sin x. Lägg till en godtycklig konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-(x+1)\\cos x+\\sin x+C\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd t som integrationsvariabel</p><p>Välj \\(u=t\\), \\(u\\prime=1\\) och \\(v=\\sin(3t)/3\\).</p>\\[\\int t\\cos(3t)\\,dt\\]\\[=\\frac{t\\sin(3t)}3-\\frac13\\int\\sin(3t)\\,dt\\]</li><li><p class=\"facit-rubrik\">Integrera sinus med rätt tecken</p><p>En primitiv funktion till \\(\\sin(3t)\\) är \\(-\\cos(3t)/3\\). Produkten av de två negativa faktorerna ger plus.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t\\sin(3t)/3+\\cos(3t)/9+C\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera x och integrera exponentialfunktionen</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=-e^{-2x}/2\\).</p>\\[\\int xe^{-2x}\\,dx\\]\\[=-\\frac{xe^{-2x}}2+\\frac12\\int e^{-2x}\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera exponentialfunktionen en gång till</p>\\[=-\\frac{xe^{-2x}}2-\\frac{e^{-2x}}4+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-xe^{-2x}/2-e^{-2x}/4+C\\).</p></div></div></div></div>",
     "id": "3.318",
     "miniräknare": true,
     "geogebra": false,
@@ -20534,12 +20534,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": [
-      "primitiv",
-      "primitiv",
-      "primitiv",
-      "primitiv"
-    ],
+    "svarFormat": ["primitiva", "primitiva", "primitiva", "primitiva"],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
@@ -20549,50 +20544,9 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm alla primitiva funktioner med partiell integration.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "\\(\\displaystyle\\int2xe^x\\,dx\\)",
-        "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><p>\\(\\displaystyle\\int2xe^x\\,dx\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[u=2x\\],</div></li><li><p>\\(v^{\\prime}=e^x\\): \\(2xe^x-\\displaystyle\\int2e^x\\,dx=2xe^x-2e^x+C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2xe^x-2e^x+C\\)</p></div>",
-        "ledtrad": "<p>Låt polynomet vara den faktor som deriveras.</p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2
-      },
-      {
-        "etikett": "b",
-        "fraga": "\\(\\displaystyle\\int(x+1)\\sin x\\,dx\\)",
-        "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><p>\\(\\displaystyle\\int(x+1)\\sin x\\,dx\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[u=x+1\\],</div></li><li><p>\\(v^{\\prime}=\\sin x\\): \\(-(x+1)\\cos x+\\displaystyle\\int\\cos x\\,dx=-(x+1)\\cos x+\\sin x+C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-(x+1)\\cos x+\\sin x+C\\)</p></div>",
-        "ledtrad": "<p>Vilken faktor blir enklare när den deriveras?</p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2
-      },
-      {
-        "etikett": "c",
-        "fraga": "\\(\\displaystyle\\int t\\cos3t\\,dt\\)",
-        "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><p>\\(\\displaystyle\\int t\\cos3t\\,dt\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[u=t\\],</div></li><li><p>\\(v=\\dfrac{\\sin3t}{3}\\): \\(\\dfrac{t\\sin3t}{3}-\\displaystyle\\int\\dfrac{\\sin3t}{3}\\,dt=\\dfrac{t\\sin3t}{3}+\\dfrac{\\cos3t}{9}+C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{t\\sin3t}{3}+\\dfrac{\\cos3t}{9}+C\\)</p></div>",
-        "ledtrad": "<p>En primitiv funktion till \\(\\cos3t\\) är \\(\\dfrac{\\sin3t}{3}\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0",
-        "traningsniva": 3
-      },
-      {
-        "etikett": "d",
-        "fraga": "\\(\\displaystyle\\int xe^{-2x}\\,dx\\)",
-        "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><p>\\(\\displaystyle\\int xe^{-2x}\\,dx\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[u=x\\],</div></li><li><p>\\(v=-\\dfrac{e^{-2x}}{2}\\): \\(-\\dfrac{xe^{-2x}}{2}+\\displaystyle\\int\\dfrac{e^{-2x}}{2}\\,dx=-\\dfrac{xe^{-2x}}{2}-\\dfrac{e^{-2x}}{4}+C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac{xe^{-2x}}{2}-\\dfrac{e^{-2x}}{4}+C\\)</p></div>",
-        "ledtrad": "<p>Integrera exponentialfaktorn och tänk på den inre derivatan.</p>",
-        "niva": "C",
-        "poang": "0/1/0",
-        "traningsniva": 3
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "\\(\\displaystyle\\int2xe^x\\,dx\\)", "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><p>\\(\\displaystyle\\int2xe^x\\,dx\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera 2x och integrera eˣ</p><p>Välj \\(u=2x\\), \\(u\\prime=2\\) och \\(v=e^x\\).</p>\\[\\int2xe^x\\,dx=2xe^x-2\\int e^x\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera eˣ och samla termerna</p>\\[=2xe^x-2e^x+C\\]\\[=2(x-1)e^x+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2(x-1)e^x+C\\).</p></div>", "ledtrad": "<p>Låt 2x vara faktorn som deriveras. Vad blir dess derivata?</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 2}, {"etikett": "b", "fraga": "\\(\\displaystyle\\int(x+1)\\sin x\\,dx\\)", "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><p>\\(\\displaystyle\\int(x+1)\\sin x\\,dx\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera x+1 och integrera sinus</p><p>Välj \\(u=x+1\\), \\(u\\prime=1\\) och \\(v=-\\cos x\\).</p>\\[\\int(x+1)\\sin x\\,dx\\]\\[=-(x+1)\\cos x+\\int\\cos x\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera den återstående cosinusfunktionen</p><p>En primitiv funktion till cos x är sin x. Lägg till en godtycklig konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-(x+1)\\cos x+\\sin x+C\\).</p></div>", "ledtrad": "<p>Låt x+1 deriveras. Kontrollera minustecknet i en primitiv funktion till sin x.</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 2}, {"etikett": "c", "fraga": "\\(\\displaystyle\\int t\\cos3t\\,dt\\)", "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><p>\\(\\displaystyle\\int t\\cos3t\\,dt\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd t som integrationsvariabel</p><p>Välj \\(u=t\\), \\(u\\prime=1\\) och \\(v=\\sin(3t)/3\\).</p>\\[\\int t\\cos(3t)\\,dt\\]\\[=\\frac{t\\sin(3t)}3-\\frac13\\int\\sin(3t)\\,dt\\]</li><li><p class=\"facit-rubrik\">Integrera sinus med rätt tecken</p><p>En primitiv funktion till \\(\\sin(3t)\\) är \\(-\\cos(3t)/3\\). Produkten av de två negativa faktorerna ger plus.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t\\sin(3t)/3+\\cos(3t)/9+C\\).</p></div>", "ledtrad": "<p>Derivera t och integrera cos(3t). Ta hänsyn till den inre derivatan 3.</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 2}, {"etikett": "d", "fraga": "\\(\\displaystyle\\int xe^{-2x}\\,dx\\)", "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><p>\\(\\displaystyle\\int xe^{-2x}\\,dx\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera x och integrera exponentialfunktionen</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=-e^{-2x}/2\\).</p>\\[\\int xe^{-2x}\\,dx\\]\\[=-\\frac{xe^{-2x}}2+\\frac12\\int e^{-2x}\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera exponentialfunktionen en gång till</p>\\[=-\\frac{xe^{-2x}}2-\\frac{e^{-2x}}4+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-xe^{-2x}/2-e^{-2x}/4+C\\).</p></div>", "ledtrad": "<p>Derivera x och integrera e⁻²ˣ. Kontrollera både minustecknet och faktorn 1/2.</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 2}],
     "ledtrad": "<p>\\(\\displaystyle\\int uv^{\\prime}\\,dx=uv-\\int u^{\\prime}v\\,dx\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 2
   },
   {
     "kap": 3,
@@ -20601,7 +20555,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration med logaritm och upprepning",
     "poang": "0/6/2",
     "t": "<p>Bestäm alla primitiva funktioner.</p><ol type=\"a\"><li>\\(\\displaystyle\\int x\\ln x\\,dx\\)</li><li>\\(\\displaystyle\\int x^2\\sin x\\,dx\\)</li><li>\\(\\displaystyle\\int\\dfrac{\\ln x}{x^2}\\,dx\\)</li><li>\\(\\displaystyle\\int e^x\\cos x\\,dx\\)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(\\ln x\\) deriveras: \\(u=\\ln x\\),</p></li><li><div class=\"facit-matte\">\\[v=\\dfrac{x^2}{2}\\].</div></li><li><div class=\"facit-matte\">\\[\\dfrac{x^2\\ln x}{2}-\\displaystyle\\int\\dfrac x2\\,dx=\\dfrac{x^2\\ln x}{2}-\\dfrac{x^2}{4}+C\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x^2\\ln x}{2}-\\dfrac{x^2}{4}+C\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Två partiella integrationer:</p><div class=\"facit-matte\">\\[-x^2\\cos x+\\displaystyle\\int2x\\cos x\\,dx=-x^2\\cos x+2x\\sin x-\\int2\\sin x\\,dx\\].</div></div></li><li><div class=\"facit-matte\">\\[=-x^2\\cos x+2x\\sin x+2\\cos x+C\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-x^2\\cos x+2x\\sin x+2\\cos x+C\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[u=\\ln x\\],</div></li><li><p>\\(v=-\\dfrac1x\\): \\(-\\dfrac{\\ln x}{x}+\\displaystyle\\int\\dfrac{1}{x^2}\\,dx=-\\dfrac{\\ln x}{x}-\\dfrac1x+C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac{\\ln x}{x}-\\dfrac1x+C\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Två partiella integrationer ger samma integral \\(I\\) igen: \\(I=e^x\\sin x+e^x\\cos x-I\\).</p></li><li><div class=\"facit-matte\">\\[2I=e^x(\\sin x+\\cos x)\\iff I=\\dfrac{e^x(\\sin x+\\cos x)}{2}+C\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{e^x(\\sin x+\\cos x)}{2}+C\\)</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera logaritmen i produkten</p><p>För \\(x>0\\) väljer vi \\(u=\\ln x\\), \\(u\\prime=1/x\\) och \\(v=x^2/2\\).</p></li><li><p class=\"facit-rubrik\">Integrera den återstående potensen</p>\\[\\begin{aligned}\\int x\\ln x\\,dx\\\\=\\frac{x^2\\ln x}2-\\frac12\\int x\\,dx\\end{aligned}\\]\\[=\\frac{x^2\\ln x}2-\\frac{x^2}4+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^2\\ln x/2-x^2/4+C\\), för \\(x>0\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den första omgången ger x cos x</p><p>Välj \\(u=x^2\\), \\(u\\prime=2x\\) och \\(v=-\\cos x\\).</p>\\[\\begin{aligned}I&=\\int x^2\\sin x\\,dx\\\\&=-x^2\\cos x+2J\\end{aligned}\\]<p>Här är \\(J=\\int x\\cos x\\,dx\\).</p></li><li><p class=\"facit-rubrik\">Beräkna J med en andra partiell integration</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=\\sin x\\).</p>\\[J=x\\sin x-\\int\\sin x\\,dx\\]\\[=x\\sin x+\\cos x\\]</li><li><p class=\"facit-rubrik\">Sätt in hela J och multiplicera med 2</p>\\[\\begin{aligned}I={}&-x^2\\cos x\\\\&+2(x\\sin x+\\cos x)+C\\end{aligned}\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-x^2\\cos x+2x\\sin x+2\\cos x+C\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integrera x⁻² med potensregeln</p><p>För \\(x>0\\) väljer vi \\(u=\\ln x\\), \\(u\\prime=1/x\\), \\(v\\prime=x^{-2}\\) och \\(v=-1/x\\).</p></li><li><p class=\"facit-rubrik\">Förenkla produkten efter partiell integration</p>\\[\\int\\frac{\\ln x}{x^2}\\,dx=-\\frac{\\ln x}{x}+\\int\\frac1{x^2}\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera x⁻² en gång till</p>\\[\\int x^{-2}\\,dx=-x^{-1}+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\ln x/x-1/x+C\\), för \\(x>0\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Koppla cosinusintegralen till sinusintegralen</p><p>Sätt \\(I=\\int e^x\\cos x\\,dx\\). Välj \\(u=\\cos x\\), \\(u\\prime=-\\sin x\\) och \\(v=e^x\\).</p>\\[I=e^x\\cos x+J\\]<p>Här är \\(J=\\int e^x\\sin x\\,dx\\).</p></li><li><p class=\"facit-rubrik\">Integrera J så att I återkommer</p><p>Med \\(u=\\sin x\\), \\(u\\prime=\\cos x\\) och \\(v=e^x\\) får vi</p>\\[J=e^x\\sin x-I.\\]</li><li><p class=\"facit-rubrik\">Sätt in J och samla I-termerna</p>\\[I=e^x\\cos x+e^x\\sin x-I\\]\\[2I=e^x(\\cos x+\\sin x)\\]<p>Dividera med 2 och lägg till en godtycklig konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^x(\\cos x+\\sin x)/2+C\\).</p></div></div></div></div>",
     "id": "3.319",
     "miniräknare": true,
     "geogebra": false,
@@ -20624,12 +20578,7 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": [
-      "primitiv",
-      "primitiv",
-      "primitiv",
-      "primitiv"
-    ],
+    "svarFormat": ["primitiva", "primitiva", "primitiva", "primitiva"],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
@@ -20639,48 +20588,7 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm alla primitiva funktioner.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "\\(\\displaystyle\\int x\\ln x\\,dx\\)",
-        "t": "<p>Bestäm alla primitiva funktioner.</p><p>\\(\\displaystyle\\int x\\ln x\\,dx\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(\\ln x\\) deriveras: \\(u=\\ln x\\),</p></li><li><div class=\"facit-matte\">\\[v=\\dfrac{x^2}{2}\\].</div></li><li><div class=\"facit-matte\">\\[\\dfrac{x^2\\ln x}{2}-\\displaystyle\\int\\dfrac x2\\,dx=\\dfrac{x^2\\ln x}{2}-\\dfrac{x^2}{4}+C\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x^2\\ln x}{2}-\\dfrac{x^2}{4}+C\\)</p></div>",
-        "ledtrad": "<p>\\(\\ln x\\) blir enklare när den deriveras.</p>",
-        "niva": "C",
-        "poang": "0/1/0",
-        "traningsniva": 3
-      },
-      {
-        "etikett": "b",
-        "fraga": "\\(\\displaystyle\\int x^2\\sin x\\,dx\\)",
-        "t": "<p>Bestäm alla primitiva funktioner.</p><p>\\(\\displaystyle\\int x^2\\sin x\\,dx\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Två partiella integrationer:</p><div class=\"facit-matte\">\\[-x^2\\cos x+\\displaystyle\\int2x\\cos x\\,dx=-x^2\\cos x+2x\\sin x-\\int2\\sin x\\,dx\\].</div></div></li><li><div class=\"facit-matte\">\\[=-x^2\\cos x+2x\\sin x+2\\cos x+C\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-x^2\\cos x+2x\\sin x+2\\cos x+C\\)</p></div>",
-        "ledtrad": "<p>Partiell integration behövs två gånger. Håll ordning på tecknen.</p>",
-        "niva": "C",
-        "poang": "0/2/0",
-        "traningsniva": 4
-      },
-      {
-        "etikett": "c",
-        "fraga": "\\(\\displaystyle\\int\\dfrac{\\ln x}{x^2}\\,dx\\)",
-        "t": "<p>Bestäm alla primitiva funktioner.</p><p>\\(\\displaystyle\\int\\dfrac{\\ln x}{x^2}\\,dx\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[u=\\ln x\\],</div></li><li><p>\\(v=-\\dfrac1x\\): \\(-\\dfrac{\\ln x}{x}+\\displaystyle\\int\\dfrac{1}{x^2}\\,dx=-\\dfrac{\\ln x}{x}-\\dfrac1x+C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac{\\ln x}{x}-\\dfrac1x+C\\)</p></div>",
-        "ledtrad": "<p>Skriv integranden som \\(\\ln x\\cdot x^{-2}\\).</p>",
-        "niva": "C",
-        "poang": "0/2/0",
-        "traningsniva": 4
-      },
-      {
-        "etikett": "d",
-        "fraga": "\\(\\displaystyle\\int e^x\\cos x\\,dx\\)",
-        "t": "<p>Bestäm alla primitiva funktioner.</p><p>\\(\\displaystyle\\int e^x\\cos x\\,dx\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två partiella integrationer ger samma integral \\(I\\) igen: \\(I=e^x\\sin x+e^x\\cos x-I\\).</p></li><li><div class=\"facit-matte\">\\[2I=e^x(\\sin x+\\cos x)\\iff I=\\dfrac{e^x(\\sin x+\\cos x)}{2}+C\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{e^x(\\sin x+\\cos x)}{2}+C\\)</p></div>",
-        "ledtrad": "<p>Integrera partiellt två gånger. Vilken integral dyker upp igen?</p>",
-        "niva": "A",
-        "poang": "0/1/2",
-        "traningsniva": 5
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "\\(\\displaystyle\\int x\\ln x\\,dx\\)", "t": "<p>Bestäm alla primitiva funktioner.</p><p>\\(\\displaystyle\\int x\\ln x\\,dx\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera logaritmen i produkten</p><p>För \\(x>0\\) väljer vi \\(u=\\ln x\\), \\(u\\prime=1/x\\) och \\(v=x^2/2\\).</p></li><li><p class=\"facit-rubrik\">Integrera den återstående potensen</p>\\[\\begin{aligned}\\int x\\ln x\\,dx\\\\=\\frac{x^2\\ln x}2-\\frac12\\int x\\,dx\\end{aligned}\\]\\[=\\frac{x^2\\ln x}2-\\frac{x^2}4+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^2\\ln x/2-x^2/4+C\\), för \\(x>0\\).</p></div>", "ledtrad": "<p>Låt ln x deriveras och x integreras. Förenkla sedan den nya integranden.</p>", "niva": "C", "poang": "0/1/0", "traningsniva": 3}, {"etikett": "b", "fraga": "\\(\\displaystyle\\int x^2\\sin x\\,dx\\)", "t": "<p>Bestäm alla primitiva funktioner.</p><p>\\(\\displaystyle\\int x^2\\sin x\\,dx\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den första omgången ger x cos x</p><p>Välj \\(u=x^2\\), \\(u\\prime=2x\\) och \\(v=-\\cos x\\).</p>\\[\\begin{aligned}I&=\\int x^2\\sin x\\,dx\\\\&=-x^2\\cos x+2J\\end{aligned}\\]<p>Här är \\(J=\\int x\\cos x\\,dx\\).</p></li><li><p class=\"facit-rubrik\">Beräkna J med en andra partiell integration</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=\\sin x\\).</p>\\[J=x\\sin x-\\int\\sin x\\,dx\\]\\[=x\\sin x+\\cos x\\]</li><li><p class=\"facit-rubrik\">Sätt in hela J och multiplicera med 2</p>\\[\\begin{aligned}I={}&-x^2\\cos x\\\\&+2(x\\sin x+\\cos x)+C\\end{aligned}\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-x^2\\cos x+2x\\sin x+2\\cos x+C\\).</p></div>", "ledtrad": "<p>Derivera x² i första omgången och x i den andra. Håll reda på minustecknet när sinus integreras.</p>", "niva": "C", "poang": "0/2/0", "traningsniva": 4}, {"etikett": "c", "fraga": "\\(\\displaystyle\\int\\dfrac{\\ln x}{x^2}\\,dx\\)", "t": "<p>Bestäm alla primitiva funktioner.</p><p>\\(\\displaystyle\\int\\dfrac{\\ln x}{x^2}\\,dx\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integrera x⁻² med potensregeln</p><p>För \\(x>0\\) väljer vi \\(u=\\ln x\\), \\(u\\prime=1/x\\), \\(v\\prime=x^{-2}\\) och \\(v=-1/x\\).</p></li><li><p class=\"facit-rubrik\">Förenkla produkten efter partiell integration</p>\\[\\int\\frac{\\ln x}{x^2}\\,dx=-\\frac{\\ln x}{x}+\\int\\frac1{x^2}\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera x⁻² en gång till</p>\\[\\int x^{-2}\\,dx=-x^{-1}+C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\ln x/x-1/x+C\\), för \\(x>0\\).</p></div>", "ledtrad": "<p>Skriv integranden som ln x · x⁻². Derivera logaritmen och integrera potensen.</p>", "niva": "C", "poang": "0/2/0", "traningsniva": 4}, {"etikett": "d", "fraga": "\\(\\displaystyle\\int e^x\\cos x\\,dx\\)", "t": "<p>Bestäm alla primitiva funktioner.</p><p>\\(\\displaystyle\\int e^x\\cos x\\,dx\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Koppla cosinusintegralen till sinusintegralen</p><p>Sätt \\(I=\\int e^x\\cos x\\,dx\\). Välj \\(u=\\cos x\\), \\(u\\prime=-\\sin x\\) och \\(v=e^x\\).</p>\\[I=e^x\\cos x+J\\]<p>Här är \\(J=\\int e^x\\sin x\\,dx\\).</p></li><li><p class=\"facit-rubrik\">Integrera J så att I återkommer</p><p>Med \\(u=\\sin x\\), \\(u\\prime=\\cos x\\) och \\(v=e^x\\) får vi</p>\\[J=e^x\\sin x-I.\\]</li><li><p class=\"facit-rubrik\">Sätt in J och samla I-termerna</p>\\[I=e^x\\cos x+e^x\\sin x-I\\]\\[2I=e^x(\\cos x+\\sin x)\\]<p>Dividera med 2 och lägg till en godtycklig konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^x(\\cos x+\\sin x)/2+C\\).</p></div>", "ledtrad": "<p>Integrera partiellt två gånger. Samla den återkommande integralen i samma led.</p>", "niva": "A", "poang": "0/1/2", "traningsniva": 5}],
     "ledtrad": "<p>Välj \\(u\\) och \\(v^{\\prime}\\) med omsorg.</p>",
     "traningsniva": 5
   },
@@ -20691,7 +20599,7 @@ window.BANKMATF1 = [
     "typ": "primitiv funktion med villkor",
     "poang": "2/2/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) som uppfyller villkoret.</p><ol type=\"a\"><li>\\(f(x)=(x+2)\\sin x\\) och \\(F(0)=2\\)</li><li>\\(f(x)=2xe^{-x}\\) och \\(F(0)=3\\)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=-(x+2)\\cos x+\\sin x+C\\].</div></li><li><div class=\"facit-matte\">\\[F(0)=-2+C=2\\iff C=4\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-(x+2)\\cos x+\\sin x+4\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=-2xe^{-x}-2e^{-x}+C\\].</div></li><li><div class=\"facit-matte\">\\[F(0)=-2+C=3\\iff C=5\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-2xe^{-x}-2e^{-x}+5\\)</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integrera produkten genom att derivera x+2</p><p>Välj \\(u=x+2\\), \\(u\\prime=1\\) och \\(v=-\\cos x\\).</p>\\[\\begin{aligned}F(x)={}&-(x+2)\\cos x\\\\&+\\int\\cos x\\,dx\\end{aligned}\\]\\[=-(x+2)\\cos x+\\sin x+C\\]</li><li><p class=\"facit-rubrik\">Bestäm konstanten ur F(0) = 2</p>\\[F(0)=-2\\cdot1+0+C=2\\]\\[-2+C=2\\quad\\Rightarrow\\quad C=4\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-(x+2)\\cos x+\\sin x+4\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integrera produkten med rätt minustecken</p><p>Välj \\(u=2x\\), \\(u\\prime=2\\) och \\(v=-e^{-x}\\).</p>\\[F(x)=-2xe^{-x}+2\\int e^{-x}\\,dx\\]\\[=-2xe^{-x}-2e^{-x}+C\\]</li><li><p class=\"facit-rubrik\">Bestäm konstanten ur F(0) = 3</p>\\[F(0)=0-2\\cdot1+C=3\\]\\[-2+C=3\\quad\\Rightarrow\\quad C=5\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-2xe^{-x}-2e^{-x}+5\\).</p></div></div></div></div>",
     "id": "3.320",
     "miniräknare": true,
     "geogebra": false,
@@ -20720,28 +20628,7 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm den primitiva funktion \\(F\\) som uppfyller villkoret.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "\\(f(x)=(x+2)\\sin x\\) och \\(F(0)=2\\)",
-        "t": "<p>Bestäm den primitiva funktion \\(F\\) som uppfyller villkoret.</p><p>\\(f(x)=(x+2)\\sin x\\) och \\(F(0)=2\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=-(x+2)\\cos x+\\sin x+C\\].</div></li><li><div class=\"facit-matte\">\\[F(0)=-2+C=2\\iff C=4\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-(x+2)\\cos x+\\sin x+4\\)</p></div>",
-        "ledtrad": "<p>Bestäm först alla primitiva funktioner och sedan konstanten.</p>",
-        "niva": "C",
-        "poang": "1/1/0",
-        "traningsniva": 3
-      },
-      {
-        "etikett": "b",
-        "fraga": "\\(f(x)=2xe^{-x}\\) och \\(F(0)=3\\)",
-        "t": "<p>Bestäm den primitiva funktion \\(F\\) som uppfyller villkoret.</p><p>\\(f(x)=2xe^{-x}\\) och \\(F(0)=3\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=-2xe^{-x}-2e^{-x}+C\\].</div></li><li><div class=\"facit-matte\">\\[F(0)=-2+C=3\\iff C=5\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-2xe^{-x}-2e^{-x}+5\\)</p></div>",
-        "ledtrad": "<p>Integrera partiellt och sätt in villkoret.</p>",
-        "niva": "C",
-        "poang": "1/1/0",
-        "traningsniva": 3
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "\\(f(x)=(x+2)\\sin x\\) och \\(F(0)=2\\)", "t": "<p>Bestäm den primitiva funktion \\(F\\) som uppfyller villkoret.</p><p>\\(f(x)=(x+2)\\sin x\\) och \\(F(0)=2\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integrera produkten genom att derivera x+2</p><p>Välj \\(u=x+2\\), \\(u\\prime=1\\) och \\(v=-\\cos x\\).</p>\\[\\begin{aligned}F(x)={}&-(x+2)\\cos x\\\\&+\\int\\cos x\\,dx\\end{aligned}\\]\\[=-(x+2)\\cos x+\\sin x+C\\]</li><li><p class=\"facit-rubrik\">Bestäm konstanten ur F(0) = 2</p>\\[F(0)=-2\\cdot1+0+C=2\\]\\[-2+C=2\\quad\\Rightarrow\\quad C=4\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-(x+2)\\cos x+\\sin x+4\\).</p></div>", "ledtrad": "<p>Bestäm först en primitiv funktion med en fri konstant. Sätt sedan in x = 0 i hela uttrycket.</p>", "niva": "C", "poang": "1/1/0", "traningsniva": 3}, {"etikett": "b", "fraga": "\\(f(x)=2xe^{-x}\\) och \\(F(0)=3\\)", "t": "<p>Bestäm den primitiva funktion \\(F\\) som uppfyller villkoret.</p><p>\\(f(x)=2xe^{-x}\\) och \\(F(0)=3\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integrera produkten med rätt minustecken</p><p>Välj \\(u=2x\\), \\(u\\prime=2\\) och \\(v=-e^{-x}\\).</p>\\[F(x)=-2xe^{-x}+2\\int e^{-x}\\,dx\\]\\[=-2xe^{-x}-2e^{-x}+C\\]</li><li><p class=\"facit-rubrik\">Bestäm konstanten ur F(0) = 3</p>\\[F(0)=0-2\\cdot1+C=3\\]\\[-2+C=3\\quad\\Rightarrow\\quad C=5\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-2xe^{-x}-2e^{-x}+5\\).</p></div>", "ledtrad": "<p>Derivera 2x och integrera e⁻ˣ. Använd därefter punktvillkoret för att bestämma konstanten.</p>", "niva": "C", "poang": "1/1/0", "traningsniva": 3}],
     "ledtrad": "<p>Integrera partiellt och bestäm konstanten ur villkoret.</p>",
     "traningsniva": 3
   },
@@ -20752,9 +20639,9 @@ window.BANKMATF1 = [
     "typ": "bestämd integral med partiell integration",
     "poang": "0/4/0",
     "t": "<p>Beräkna integralen exakt.</p><ol type=\"a\"><li>\\(\\displaystyle\\int_0^{\\pi/2}x\\sin2x\\,dx\\)</li><li>\\(\\displaystyle\\int_1^2x^2\\ln x\\,dx\\)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left[-\\dfrac{x\\cos2x}{2}\\right]_0^{\\pi/2}+\\displaystyle\\int_0^{\\pi/2}\\dfrac{\\cos2x}{2}\\,dx=\\dfrac\\pi4+\\left[\\dfrac{\\sin2x}{4}\\right]_0^{\\pi/2}=\\dfrac\\pi4\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac\\pi4\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left[\\dfrac{x^3\\ln x}{3}\\right]_1^2-\\displaystyle\\int_1^2\\dfrac{x^2}{3}\\,dx=\\dfrac{8\\ln2}{3}-\\dfrac79\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{8\\ln2}{3}-\\dfrac79\\approx1{,}071\\)</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm en primitiv funktion med partiell integration</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=-\\cos(2x)/2\\).</p>\\[\\begin{aligned}F(x)={}&-\\frac{x\\cos(2x)}2\\\\&+\\frac12\\int\\cos(2x)\\,dx\\end{aligned}\\]\\[=-\\frac{x\\cos(2x)}2+\\frac{\\sin(2x)}4\\]</li><li><p class=\"facit-rubrik\">Beräkna värdet vid båda gränserna</p>\\[\\begin{aligned}F(\\pi/2)&=-\\frac{(\\pi/2)(-1)}2+0\\\\&=\\frac\\pi4\\end{aligned}\\]\\[F(0)=0+0=0\\]</li><li><p class=\"facit-rubrik\">Ta differensen mellan gränsvärdena</p>\\[\\int_0^{\\pi/2}x\\sin(2x)\\,dx=\\frac\\pi4-0\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\pi/4\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera logaritmen och integrera x²</p><p>Välj \\(u=\\ln x\\), \\(u\\prime=1/x\\) och \\(v=x^3/3\\).</p>\\[F(x)=\\frac{x^3\\ln x}3-\\frac13\\int x^2\\,dx\\]\\[=\\frac{x^3\\ln x}3-\\frac{x^3}9\\]</li><li><p class=\"facit-rubrik\">Sätt in de två integrationsgränserna</p>\\[F(2)=\\frac{8\\ln2}3-\\frac89\\]\\[F(1)=0-\\frac19=-\\frac19\\]</li><li><p class=\"facit-rubrik\">Subtrahera och samla bråken</p>\\[F(2)-F(1)=\\frac{8\\ln2}3-\\frac89+\\frac19\\]\\[=\\frac{8\\ln2}3-\\frac79\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\ln(2)/3-7/9\\).</p></div></div></div></div>",
     "id": "3.321",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "flera_delar",
@@ -20781,28 +20668,7 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Beräkna integralen exakt.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "\\(\\displaystyle\\int_0^{\\pi/2}x\\sin2x\\,dx\\)",
-        "t": "<p>Beräkna integralen exakt.</p><p>\\(\\displaystyle\\int_0^{\\pi/2}x\\sin2x\\,dx\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left[-\\dfrac{x\\cos2x}{2}\\right]_0^{\\pi/2}+\\displaystyle\\int_0^{\\pi/2}\\dfrac{\\cos2x}{2}\\,dx=\\dfrac\\pi4+\\left[\\dfrac{\\sin2x}{4}\\right]_0^{\\pi/2}=\\dfrac\\pi4\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac\\pi4\\)</p></div>",
-        "ledtrad": "<p>Integrera partiellt med \\(u=x\\).</p>",
-        "niva": "C",
-        "poang": "0/2/0",
-        "traningsniva": 3
-      },
-      {
-        "etikett": "b",
-        "fraga": "\\(\\displaystyle\\int_1^2x^2\\ln x\\,dx\\)",
-        "t": "<p>Beräkna integralen exakt.</p><p>\\(\\displaystyle\\int_1^2x^2\\ln x\\,dx\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left[\\dfrac{x^3\\ln x}{3}\\right]_1^2-\\displaystyle\\int_1^2\\dfrac{x^2}{3}\\,dx=\\dfrac{8\\ln2}{3}-\\dfrac79\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{8\\ln2}{3}-\\dfrac79\\approx1{,}071\\)</p></div>",
-        "ledtrad": "<p>Låt \\(\\ln x\\) vara faktorn som deriveras.</p>",
-        "niva": "C",
-        "poang": "0/2/0",
-        "traningsniva": 4
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "\\(\\displaystyle\\int_0^{\\pi/2}x\\sin2x\\,dx\\)", "t": "<p>Beräkna integralen exakt.</p><p>\\(\\displaystyle\\int_0^{\\pi/2}x\\sin2x\\,dx\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm en primitiv funktion med partiell integration</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=-\\cos(2x)/2\\).</p>\\[\\begin{aligned}F(x)={}&-\\frac{x\\cos(2x)}2\\\\&+\\frac12\\int\\cos(2x)\\,dx\\end{aligned}\\]\\[=-\\frac{x\\cos(2x)}2+\\frac{\\sin(2x)}4\\]</li><li><p class=\"facit-rubrik\">Beräkna värdet vid båda gränserna</p>\\[\\begin{aligned}F(\\pi/2)&=-\\frac{(\\pi/2)(-1)}2+0\\\\&=\\frac\\pi4\\end{aligned}\\]\\[F(0)=0+0=0\\]</li><li><p class=\"facit-rubrik\">Ta differensen mellan gränsvärdena</p>\\[\\int_0^{\\pi/2}x\\sin(2x)\\,dx=\\frac\\pi4-0\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\pi/4\\).</p></div>", "ledtrad": "<p>Derivera x och integrera sin(2x). Sätt sedan in π/2 och 0 i den primitiva funktionen.</p>", "niva": "C", "poang": "0/2/0", "traningsniva": 3}, {"etikett": "b", "fraga": "\\(\\displaystyle\\int_1^2x^2\\ln x\\,dx\\)", "t": "<p>Beräkna integralen exakt.</p><p>\\(\\displaystyle\\int_1^2x^2\\ln x\\,dx\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera logaritmen och integrera x²</p><p>Välj \\(u=\\ln x\\), \\(u\\prime=1/x\\) och \\(v=x^3/3\\).</p>\\[F(x)=\\frac{x^3\\ln x}3-\\frac13\\int x^2\\,dx\\]\\[=\\frac{x^3\\ln x}3-\\frac{x^3}9\\]</li><li><p class=\"facit-rubrik\">Sätt in de två integrationsgränserna</p>\\[F(2)=\\frac{8\\ln2}3-\\frac89\\]\\[F(1)=0-\\frac19=-\\frac19\\]</li><li><p class=\"facit-rubrik\">Subtrahera och samla bråken</p>\\[F(2)-F(1)=\\frac{8\\ln2}3-\\frac89+\\frac19\\]\\[=\\frac{8\\ln2}3-\\frac79\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\ln(2)/3-7/9\\).</p></div>", "ledtrad": "<p>Låt ln x deriveras. Beräkna sedan F(2) och F(1) separat innan du subtraherar.</p>", "niva": "C", "poang": "0/2/0", "traningsniva": 4}],
     "ledtrad": "<p>Partiell integration för bestämda integraler: \\(\\left[uv\\right]_a^b-\\int_a^bu^{\\prime}v\\,dx\\).</p>",
     "traningsniva": 4
   },
@@ -56687,8 +56553,8 @@ window.BANKMATF1 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Bestäm alla primitiva funktioner med partiell integration.</p><div class=\"facit-matte\">\\[f(x)=e^{2x}\\sin x\\]</div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Koppla sinusintegralen till cosinusintegralen</p><p>Låt I beteckna integralen av e²ˣ sin x och J integralen av e²ˣ cos x. Partiell integration ger</p><div class=\"facit-matte\">\\[I=\\frac{e^{2x}\\sin x}{2}-\\frac J2\\]</div></li><li><p class=\"facit-rubrik\">Cosinusintegralen leder tillbaka till I</p><p>Gör partiell integration även i J.</p><div class=\"facit-matte\">\\[J=\\frac{e^{2x}\\cos x}{2}+\\frac I2\\]</div></li><li><p class=\"facit-rubrik\">Lös sambandet som innehåller I i båda leden</p><p>Sätt in det andra sambandet i det första och samla I-termerna.</p><div class=\"facit-matte\">\\[\\frac54I=\\frac{e^{2x}\\sin x}{2}-\\frac{e^{2x}\\cos x}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=\\frac{e^{2x}(2\\sin x-\\cos x)}5+C\\).</strong></p></div>",
-    "ledtrad": "<p>Efter två partiella integrationer kommer ursprungsintegralen tillbaka.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Koppla sinusintegralen till cosinusintegralen</p><p>Sätt \\(I=\\int e^{2x}\\sin x\\,dx\\). Välj \\(u=\\sin x\\), \\(u\\prime=\\cos x\\) och \\(v=e^{2x}/2\\).</p>\\[I=\\frac{e^{2x}\\sin x}2-\\frac J2\\]<p>Här är \\(J=\\int e^{2x}\\cos x\\,dx\\).</p></li><li><p class=\"facit-rubrik\">Integrera J så att I kommer tillbaka</p><p>Välj \\(u=\\cos x\\), \\(u\\prime=-\\sin x\\) och \\(v=e^{2x}/2\\).</p>\\[J=\\frac{e^{2x}\\cos x}2+\\frac I2\\]</li><li><p class=\"facit-rubrik\">Sätt in hela uttrycket för J</p>\\[I=\\frac{e^{2x}\\sin x}2-\\frac{e^{2x}\\cos x}4-\\frac I4\\]\\[\\frac54I=\\frac{e^{2x}\\sin x}2-\\frac{e^{2x}\\cos x}4\\]<p>Multiplicera båda leden med 4/5. Lägg sedan till den fria konstanten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=e^{2x}(2\\sin x-\\cos x)/5+C\\).</p></div>",
+    "ledtrad": "<p>Efter två partiella integrationer kommer ursprungsintegralen tillbaka. Sätt in det andra sambandet i det första.</p>",
     "rättSvar": "e^(2*x)*(2*sin(x)-cos(x))/5+C",
     "svarstyp": "text",
     "svarFormat": "primitiva",
@@ -56712,8 +56578,8 @@ window.BANKMATF1 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Beräkna arean av det skuggade området exakt med partiell integration. Kurvan är \\(y=x\\cos x\\) och gränserna är \\(x=0\\) och \\(x=\\pi/2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Området under y=x cos x mellan x=0 och x=pi/2.\"><title>Området under y=x cos x mellan x=0 och x=pi/2.</title><rect width=\"500\" height=\"300\" fill=\"white\" rx=\"10\"/><polygon points=\"65,250 65.00,250.00 68.50,246.86 72.00,243.72 75.50,240.59 79.00,237.46 82.50,234.34 86.00,231.23 89.50,228.14 93.00,225.07 96.50,222.01 100.00,218.97 103.50,215.96 107.00,212.97 110.50,210.01 114.00,207.08 117.50,204.18 121.00,201.31 124.50,198.49 128.00,195.70 131.50,192.95 135.00,190.24 138.50,187.58 142.00,184.97 145.50,182.41 149.00,179.90 152.50,177.44 156.00,175.04 159.50,172.69 163.00,170.41 166.50,168.18 170.00,166.02 173.50,163.93 177.00,161.90 180.50,159.95 184.00,158.06 187.50,156.25 191.00,154.51 194.50,152.85 198.00,151.26 201.50,149.76 205.00,148.34 208.50,147.00 212.00,145.74 215.50,144.57 219.00,143.49 222.50,142.50 226.00,141.60 229.50,140.79 233.00,140.07 236.50,139.45 240.00,138.93 243.50,138.50 247.00,138.17 250.50,137.94 254.00,137.81 257.50,137.78 261.00,137.86 264.50,138.04 268.00,138.32 271.50,138.71 275.00,139.21 278.50,139.81 282.00,140.52 285.50,141.34 289.00,142.27 292.50,143.30 296.00,144.45 299.50,145.71 303.00,147.08 306.50,148.57 310.00,150.16 313.50,151.87 317.00,153.69 320.50,155.62 324.00,157.67 327.50,159.83 331.00,162.11 334.50,164.49 338.00,166.99 341.50,169.61 345.00,172.34 348.50,175.18 352.00,178.13 355.50,181.19 359.00,184.37 362.50,187.66 366.00,191.06 369.50,194.57 373.00,198.20 376.50,201.93 380.00,205.77 383.50,209.72 387.00,213.78 390.50,217.94 394.00,222.21 397.50,226.58 401.00,231.06 404.50,235.65 408.00,240.33 411.50,245.11 415.00,250.00 415,250\" fill=\"#d4e8f7\"/><polyline points=\"65.00,250.00 68.50,246.86 72.00,243.72 75.50,240.59 79.00,237.46 82.50,234.34 86.00,231.23 89.50,228.14 93.00,225.07 96.50,222.01 100.00,218.97 103.50,215.96 107.00,212.97 110.50,210.01 114.00,207.08 117.50,204.18 121.00,201.31 124.50,198.49 128.00,195.70 131.50,192.95 135.00,190.24 138.50,187.58 142.00,184.97 145.50,182.41 149.00,179.90 152.50,177.44 156.00,175.04 159.50,172.69 163.00,170.41 166.50,168.18 170.00,166.02 173.50,163.93 177.00,161.90 180.50,159.95 184.00,158.06 187.50,156.25 191.00,154.51 194.50,152.85 198.00,151.26 201.50,149.76 205.00,148.34 208.50,147.00 212.00,145.74 215.50,144.57 219.00,143.49 222.50,142.50 226.00,141.60 229.50,140.79 233.00,140.07 236.50,139.45 240.00,138.93 243.50,138.50 247.00,138.17 250.50,137.94 254.00,137.81 257.50,137.78 261.00,137.86 264.50,138.04 268.00,138.32 271.50,138.71 275.00,139.21 278.50,139.81 282.00,140.52 285.50,141.34 289.00,142.27 292.50,143.30 296.00,144.45 299.50,145.71 303.00,147.08 306.50,148.57 310.00,150.16 313.50,151.87 317.00,153.69 320.50,155.62 324.00,157.67 327.50,159.83 331.00,162.11 334.50,164.49 338.00,166.99 341.50,169.61 345.00,172.34 348.50,175.18 352.00,178.13 355.50,181.19 359.00,184.37 362.50,187.66 366.00,191.06 369.50,194.57 373.00,198.20 376.50,201.93 380.00,205.77 383.50,209.72 387.00,213.78 390.50,217.94 394.00,222.21 397.50,226.58 401.00,231.06 404.50,235.65 408.00,240.33 411.50,245.11 415.00,250.00\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3\"/><path d=\"M65 35V250H455\" fill=\"none\" stroke=\"#173548\" stroke-width=\"2\"/><text x=\"65\" y=\"278\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#173548\">0</text><text x=\"415\" y=\"278\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#173548\">π/2</text><text x=\"456\" y=\"278\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#173548\">x</text><text x=\"48\" y=\"25\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#173548\">y</text><text x=\"245\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#173548\">y = x cos x</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd en primitiv funktion för den positiva arean</p><p>På intervallet är x cos x ≥ 0. Arean är därför integralen mellan de givna gränserna. Välj u=x och v′=cos x.</p><div class=\"facit-matte\">\\[F(x)=x\\sin x+\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Ta värdet vid π/2 minus värdet vid noll</p><p>Sätt in gränserna.</p><div class=\"facit-matte\">\\[A=\\left(\\frac\\pi2\\cdot1+0\\right)-(0+1)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\frac\\pi2-1\\) areaenheter.</strong></p></div>",
-    "ledtrad": "<p>Bestäm först en primitiv funktion och använd sedan integrationsgränserna.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den skuggade arean är en positiv integral</p><p>För \\(0\\le x\\le\\pi/2\\) är både x och cos x icke-negativa. Arean är därför integralen av x cos x över detta intervall.</p></li><li><p class=\"facit-rubrik\">Derivera x när produkten integreras</p><p>Välj \\(u=x\\), \\(u\\prime=1\\) och \\(v=\\sin x\\).</p>\\[F(x)=x\\sin x-\\int\\sin x\\,dx\\]\\[=x\\sin x+\\cos x\\]</li><li><p class=\"facit-rubrik\">Ta värdet vid π/2 minus värdet vid noll</p>\\[F(\\pi/2)=\\frac\\pi2\\cdot1+0=\\frac\\pi2\\]\\[F(0)=0\\cdot0+1=1\\]\\[A=F(\\pi/2)-F(0)=\\frac\\pi2-1\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\pi/2-1\\) areaenheter.</p></div>",
+    "ledtrad": "<p>Kontrollera funktionens tecken i det skuggade intervallet. Bestäm sedan en primitiv funktion och sätt in gränserna.</p>",
     "rättSvar": "pi/2-1",
     "svarstyp": "text",
     "svarFormat": "uttryck",

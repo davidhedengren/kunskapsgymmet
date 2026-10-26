@@ -23963,9 +23963,9 @@ window.BANKMATF1 = [
     "typ": "bestämma konstant lösning",
     "poang": "2/0/0",
     "t": "<p>Bestäm den konstanta lösningen till differentialekvationen \\(y'=2y-6\\).</p>",
-    "s": "<div class=\"facit-v2\"><p>En konstant lösning har derivatan 0. Därför ska högerledet också vara 0.</p><div class=\"facit-matte\">\\[0=2y-6\\quad\\Rightarrow\\quad y=3.\\]</div><p>Kontroll: derivatan av en konstant är 0, och insättning av värdet ger också 0 i högerledet.</p><p><strong>Svar:</strong> \\(y(x)=3\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt derivatan till noll</p>\\[0=2y-6\\]</li><li><p class=\"facit-rubrik\">Bestäm och kontrollera konstanten</p>\\[2y=6\\quad\\Rightarrow\\quad y=3\\]<p>Derivatan av 3 är 0 och högerledet blir 2·3−6=0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y(x)=3\\).</p></div>",
     "id": "4.326",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
@@ -23977,7 +23977,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vad är derivatan av en konstant funktion?</p>",
+    "ledtrad": "<p>Vad är derivatan av en funktion som har samma värde överallt?</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "diffekv_grunder"
@@ -24065,9 +24065,9 @@ window.BANKMATF1 = [
     "typ": "tolka differentialekvation som lutningsregel",
     "poang": "2/0/0",
     "t": "<p>För differentialekvationen \\(y'=3x^2-4\\), bestäm lösningskurvornas lutning när \\(x=4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Tolka differentialekvationen som en regel för förändringshastigheten.</p></li><li><p>Jämvikter fås genom att sätta derivatan lika med noll, och en föreslagen lösning verifieras genom insättning.</p></li><li><p>Lutningen ges direkt av högerledet:</p></li><li><p>\\[y'=3(4)^2-4=44.\\]</p></li><li><p><strong>Kontroll:</strong> Kontrollera genom att sätta lösningen eller jämviktsvärdet tillbaka i differentialekvationen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in x=4 i uttrycket för lutningen</p>\\[y^{\\prime}=3\\cdot4^2-4\\]\\[=3\\cdot16-4=44\\]</li><li><p class=\"facit-rubrik\">Tolka varför svaret gäller alla lösningskurvor</p><p>Högerledet beror bara på x. Därför har alla lösningskurvor samma lutning 44 när x=4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lutningen är 44.</p></div>",
     "id": "4.328",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
@@ -24079,7 +24079,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Sätt in det givna \\(x\\)-värdet direkt i uttrycket för \\(y'\\).</p>",
+    "ledtrad": "<p>Lutningen är derivatan. Använd det givna x-värdet direkt i högerledet.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "diffekv_grunder"
@@ -24088,28 +24088,34 @@ window.BANKMATF1 = [
   {
     "kap": 4,
     "omr": "vad_ar_diffekv",
-    "niva": "C",
+    "niva": "E",
     "typ": "bestämma flera jämvikter i logistisk differentialekvation",
-    "poang": "0/2/0",
+    "poang": "2/0/0",
     "t": "<p>En modell ges av \\(P'=0{,}20P(1-P/160)\\).</p><p>Bestäm modellens jämviktsnivåer.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Sätt förändringshastigheten lika med noll för att hitta jämvikten.</p></li><li><p>Skriv sedan lösningen som en avvikelse från jämviktsnivån; då blir utvecklingen exponentiell och tecknen blir lättare att tolka.</p></li><li><div class=\"facit-berakning\"><p>Jämvikt innebär</p><div class=\"facit-matte\">\\[P'=0\\]:</div></div></li><li><p>\\[0{,}20P(1-P/160)=0.\\]</p></li><li><p>Alltså \\(P=0\\) eller \\(P=160\\).</p></li><li><p><strong>Kontroll:</strong> Kontrollera genom att sätta lösningen eller jämviktsvärdet tillbaka i differentialekvationen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt förändringshastigheten till noll</p>\\[0{,}20P(1-P/160)=0\\]</li><li><p class=\"facit-rubrik\">Låt en faktor i taget vara noll</p><p>Faktorn 0,20 är inte noll. Därför krävs</p>\\[P=0\\quad\\text{eller}\\quad 1-P/160=0\\]\\[P=0\\quad\\text{eller}\\quad P=160\\]</li><li><p class=\"facit-rubrik\">Kontrollera båda jämvikterna</p><p>Vid P=0 är första faktorn noll. Vid P=160 är parentesen noll. I båda fallen blir P′=0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(P=0\\) och \\(P=160\\).</p></div>",
     "id": "4.329",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Grundläggande analys av differentialekvationer",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [0, 160],
+    "tolerans": [0, 0],
+    "självrättning": [true, true],
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>En jämviktsnivå ger \\(P'=0\\). Sätt därför varje faktor i högerledet lika med noll.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>En jämvikt innebär att populationen inte ändras. Använd nollproduktmetoden på högerledet.</p>",
+    "traningsniva": 2,
     "omrTidigare": [
       "diffekv_grunder"
     ]
+  ,
+    "spel": true
+  ,
+    "svarFormat": ["numeriskt", "numeriskt"]
+  ,
+    "svarsstruktur": "mängd"
   },
   {
     "kap": 4,
@@ -24118,9 +24124,9 @@ window.BANKMATF1 = [
     "typ": "analysera stabilitet från tecknet på derivatan",
     "poang": "0/2/0",
     "t": "<p>För differentialekvationen \\(y'=-3(y-5)\\), avgör om jämvikten \\(y=5\\) är stabil. Motivera utan att lösa differentialekvationen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Jämvikten fås vid</p><div class=\"facit-matte\">\\[y=5\\].</div></div></li><li><p>Om \\(y&gt;5\\) är \\(y-5&gt;0\\), så \\(y'=-3(y-5)&lt;0\\): lösningen rör sig nedåt mot 5.</p></li><li><p>Om \\(y&lt;5\\) är \\(y-5&lt;0\\), så \\(y'&gt;0\\): lösningen rör sig uppåt mot 5.</p></li><li><div class=\"facit-berakning\"><p>Från båda sidor går rörelsen mot</p><div class=\"facit-matte\">\\[y=5\\].</div></div></li><li><p>Jämvikten är därför <strong>stabil</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Undersök en lösning ovanför 5</p><p>Om y är större än 5 är y−5 positivt. Då är −3(y−5) negativt, så y minskar mot 5.</p></li><li><p class=\"facit-rubrik\">Undersök en lösning under 5</p><p>Om y är mindre än 5 är y−5 negativt. Då är y′ positivt, så y ökar mot 5.</p></li><li><p class=\"facit-rubrik\">Sammanfatta rörelsen från båda sidor</p><p>Små avvikelser minskar: lösningarna går tillbaka mot jämvikten när x ökar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja, \\(y=5\\) är en stabil jämvikt.</p></div>",
     "id": "4.330",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "manuell",
@@ -24131,8 +24137,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Undersök tecknet på \\(y'\\) först för \\(y>5\\) och sedan för \\(y<5\\).</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Undersök tecknet på derivatan strax över och strax under jämvikten. Leder förändringen tillbaka mot 5?</p>",
+    "traningsniva": 3,
     "spel": false,
     "omrTidigare": [
       "diffekv_grunder"
@@ -24193,7 +24199,7 @@ window.BANKMATF1 = [
     "typ": "ordning och homogenitet",
     "poang": "2/0/0",
     "t": "<p>Bestäm differentialekvationens ordning och avgör om den är homogen eller inhomogen:</p><p>\\[y''-5y'+6y=4e^x.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Ordning:</strong> Den högsta derivatan som förekommer är \\(y''\\).</p></li><li><p>Ekvationen är därför av andra ordningen.</p></li><li><p><strong>Homogenitet:</strong> En linjär differentialekvation är homogen när högerledet är 0.</p></li><li><p>Här är högerledet \\(4e^x\\neq0\\), så ekvationen är inhomogen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av den högsta derivatan</p><p>y″ är en andraderivata och är den högsta derivatan i ekvationen. Ordningen är därför 2.</p></li><li><p class=\"facit-rubrik\">Undersök det fristående högerledet</p><p>Alla y-termer står till vänster, men högerledet är 4eˣ och inte 0. Den linjära ekvationen är därför inhomogen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Andra ordningen och inhomogen.</p></div>",
     "id": "4.15",
     "miniräknare": true,
     "geogebra": false,
@@ -24202,16 +24208,14 @@ window.BANKMATF1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Ordningen bestäms av den högsta derivatan. Homogenitet avgörs av om det finns ett fristående högerled som inte innehåller \\(y\\) eller dess derivator.</p>",
+    "formaga": ["begrepp"],
+    "ledtrad": "<p>Titta efter den högsta derivatan. Undersök sedan om ett fristående högerled återstår när alla y-termer står till vänster.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "diffekv_grunder"
     ]
+  ,
+    "spel": false
   },
   {
     "kap": 4,
@@ -24221,7 +24225,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "4.46",
     "t": "<p>Vilka av följande är differentialekvationer?</p><p>a) \\(y'=3y\\) &nbsp;&nbsp; b) \\(2x+5=11\\) &nbsp;&nbsp; c) \\(y''+y=0\\) &nbsp;&nbsp; d) \\(f(x)=x^2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En differentialekvation innehåller en okänd funktion och minst en av dess derivator.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(y'=3y\\) är en differentialekvation.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(2x+5=11\\) är en vanlig algebraisk ekvation.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(y''+y=0\\) är en differentialekvation.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f(x)=x^2\\) beskriver en funktion men innehåller ingen derivata.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) och c).</p></div>",
+    "s": "<h4>a)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Identifiera funktionen och derivatan</p><p>Här finns den okända funktionen y och dess derivata y′. Sambandet är därför en differentialekvation.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja.</p></div><h4>b)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Undersök om någon derivata förekommer</p><p>2x+5=11 är en algebraisk ekvation för ett tal x. Den innehåller ingen derivata.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej.</p></div><h4>c)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Känn igen andraderivatan</p><p>y″ är en derivata av den okända funktionen y. En differentialekvation kan innehålla både första och högre derivator.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja.</p></div><h4>d)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skilj en given funktion från en differentialekvation</p><p>f(x)=x² anger direkt vilken funktion f är. Det finns ingen derivata i sambandet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej.</p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Grundläggande analys av differentialekvationer",
@@ -24251,7 +24255,7 @@ window.BANKMATF1 = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [{"etikett": "a", "t": "<p>Är detta en differentialekvation? Svara ja eller nej.</p><div class=\"spel-en-del\">\\(y'=3y\\)</div>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Här förekommer både den okända funktionen \\(y\\) och derivatan \\(y'\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ja.</p></div>", "niva": "E"}, {"etikett": "b", "t": "<p>Är detta en differentialekvation? Svara ja eller nej.</p><div class=\"spel-en-del\">\\(2x+5=11\\)</div>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Detta är en vanlig algebraisk ekvation i \\(x\\); ingen okänd funktion eller derivata förekommer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> nej.</p></div>", "niva": "E"}, {"etikett": "c", "t": "<p>Är detta en differentialekvation? Svara ja eller nej.</p><div class=\"spel-en-del\">\\(y''+y=0\\)</div>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Här förekommer den okända funktionen \\(y\\) och dess andraderivata \\(y''\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ja.</p></div>", "niva": "E"}, {"etikett": "d", "t": "<p>Är detta en differentialekvation? Svara ja eller nej.</p><div class=\"spel-en-del\">\\(f(x)=x^2\\)</div>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Detta definierar en funktion men innehåller ingen derivata, så det är inte en differentialekvation.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> nej.</p></div>", "niva": "E"}],
+    "spelDelar": [{"etikett": "a", "t": "<p>Är detta en differentialekvation? Svara ja eller nej.</p><div class=\"spel-en-del\">\\(y'=3y\\)</div>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Identifiera funktionen och derivatan</p><p>Här finns den okända funktionen y och dess derivata y′. Sambandet är därför en differentialekvation.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja.</p></div>", "niva": "E", "ledtrad": "<p>Vilka symboler beskriver funktionen och dess förändring?</p>", "miniräknare": true, "geogebra": false, "traningsniva": 1}, {"etikett": "b", "t": "<p>Är detta en differentialekvation? Svara ja eller nej.</p><div class=\"spel-en-del\">\\(2x+5=11\\)</div>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Undersök om någon derivata förekommer</p><p>2x+5=11 är en algebraisk ekvation för ett tal x. Den innehåller ingen derivata.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej.</p></div>", "niva": "E", "ledtrad": "<p>Vad skiljer en algebraisk ekvation från en differentialekvation?</p>", "miniräknare": true, "geogebra": false, "traningsniva": 1}, {"etikett": "c", "t": "<p>Är detta en differentialekvation? Svara ja eller nej.</p><div class=\"spel-en-del\">\\(y''+y=0\\)</div>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Känn igen andraderivatan</p><p>y″ är en derivata av den okända funktionen y. En differentialekvation kan innehålla både första och högre derivator.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja.</p></div>", "niva": "E", "ledtrad": "<p>Vad betyder de två primtecknen?</p>", "miniräknare": true, "geogebra": false, "traningsniva": 1}, {"etikett": "d", "t": "<p>Är detta en differentialekvation? Svara ja eller nej.</p><div class=\"spel-en-del\">\\(f(x)=x^2\\)</div>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skilj en given funktion från en differentialekvation</p><p>f(x)=x² anger direkt vilken funktion f är. Det finns ingen derivata i sambandet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej.</p></div>", "niva": "E", "ledtrad": "<p>Innehåller sambandet en derivata eller anger det bara funktionen?</p>", "miniräknare": true, "geogebra": false, "traningsniva": 1}],
     "ledtrad": "<p>En differentialekvation innehåller en okänd funktion och minst en av dess derivator.</p>",
     "traningsniva": 1,
     "omrTidigare": [
@@ -24264,21 +24268,21 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "identifiera beroende variabel",
     "poang": "2/0/0",
-    "t": "<p>I differentialekvationen \\(T'=-0{,}2(T-20)\\), vilken storhet är den beroende variabeln?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Den beroende variabeln är den storhet vars värde förändras och därför deriveras i differentialekvationen.</p></li><li><p>Här står \\(T'\\) i vänsterledet.</p></li><li><p>Det betyder att det är \\(T\\) som förändras med den oberoende variabeln, som i en temperaturmodell normalt är tiden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den beroende variabeln är \\(T\\).</p></div>",
+    "t": "<p>I differentialekvationen \\(T^{\\prime}=-0{,}2(T-20)\\), vilken storhet är den beroende variabeln? Svara med dess bokstav.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Identifiera funktionen vars derivata förekommer</p><p>T′ är derivatan av T. Det är alltså T som beror på den oberoende variabeln, vanligtvis tiden i denna temperaturmodell.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den beroende variabeln är T.</p></div>",
     "id": "4.88",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Grundläggande analys av differentialekvationer",
-    "svarstyp": "val",
+    "svarstyp": "text",
     "rättSvar": "T",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Vilken storhet betraktas som funktion av den oberoende variabeln?</p>",
+    "svarFormat": "kort_text",
+    "ledtrad": "<p>Vilken storhet är det som deriveras i ekvationen?</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "diffekv_grunder"
@@ -24287,11 +24291,11 @@ window.BANKMATF1 = [
   {
     "kap": 4,
     "omr": "vad_ar_diffekv",
-    "niva": "C",
+    "niva": "E",
     "typ": "tolka tecken i Newtons avsvalningslag",
-    "poang": "0/2/0",
+    "poang": "2/0/0",
     "t": "<p>En temperaturmodell skrivs \\(T'=k(T-180)\\). Ett föremål som från början är 20 °C värms i en ugn på 180 °C. Vilket tecken måste \\(k\\) ha? Motivera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När föremålet är kallare än ugnen är \\(T-180&lt;0\\).</p></li><li><p>Samtidigt värms föremålet, alltså är \\(T'&gt;0\\).</p></li><li><p>I \\(T'=k(T-180)\\) måste därför \\(k\\) vara negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k&lt;0\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm tecknet på temperaturskillnaden</p>\\[T-180=20-180\\]\\[=-160\\lt0\\]</li><li><p class=\"facit-rubrik\">Använd att temperaturen stiger</p><p>Uppvärmning betyder T′ &gt; 0. En negativ temperaturskillnad måste alltså multipliceras med ett negativt k för att produkten ska bli positiv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\lt0\\).</p></div>",
     "id": "4.16",
     "miniräknare": true,
     "geogebra": false,
@@ -24305,8 +24309,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Bestäm tecknet på \\(T-180\\) och tecknet på \\(T'\\) i den beskrivna situationen.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Vilket tecken har temperaturskillnaden när föremålet är kallare än ugnen? Vilket tecken har derivatan när föremålet värms?</p>",
+    "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
       "diffekv_grunder"
@@ -24319,7 +24323,7 @@ window.BANKMATF1 = [
     "typ": "jämföra homogen och inhomogen ekvation",
     "poang": "0/2/0",
     "t": "<p>Förklara skillnaden mellan lösningarna till</p><p>\\[y''+4y=0\\]</p><p>och</p><p>\\[y''+4y=8\\cos x.\\]</p><p>Fokusera på vad högerledet gör och hur den allmänna lösningen byggs upp.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I den homogena ekvationen är högerledet noll.</p></li><li><p>Den allmänna lösningen består då bara av den homogena lösningen, här</p></li><li><p>\\[y_h=C_1\\cos2x+C_2\\sin2x.\\]</p></li><li><p>I den inhomogena ekvationen finns dessutom högerledet \\(8\\cos x\\).</p></li><li><p>Den allmänna lösningen får formen \\(y=y_h+y_p\\), där \\(y_p\\) är en partikulärlösning som ger just detta högerled.</p></li><li><div class=\"facit-berakning\"><p>Ett möjligt val är</p><div class=\"facit-matte\">\\[y_p=\\frac83\\cos x\\].</div></div></li><li><p>Skillnaden är alltså att högerledet tillför en bestämd partikulär del till den homogena lösningsfamiljen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ekvationen med högerledet noll</p>\\[r^2+4=0\\quad\\Rightarrow\\quad r=\\pm2i\\]\\[y_h=C_1\\cos2x+C_2\\sin2x\\]</li><li><p class=\"facit-rubrik\">Bestäm en del som ger högerledet 8 cos x</p><p>Pröva yₚ=A cos x. Då är yₚ″=−A cos x.</p>\\[y_p^{\\prime\\prime}+4y_p=3A\\cos x\\]\\[3A=8\\quad\\Rightarrow\\quad A=8/3\\]</li><li><p class=\"facit-rubrik\">Jämför de två lösningsfamiljerna</p><p>Den homogena ekvationen har bara yₕ. Den inhomogena får dessutom en bestämd partikulärdel:</p>\\[y=y_h+\\frac83\\cos x\\]<p>De två fria konstanterna finns kvar i yₕ. Högerledet bestämmer den extra termen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Första familjen är \\(y_h\\); den andra är \\(y_h+(8/3)\\cos x\\).</p></div>",
     "id": "4.44",
     "miniräknare": true,
     "geogebra": false,
@@ -24332,7 +24336,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Jämför först högerleden. Hur ser den allmänna lösningen ut i en homogen respektive inhomogen linjär differentialekvation?</p>",
+    "ledtrad": "<p>Båda ekvationerna har samma homogena del. Vilken extra funktion behövs för att vänsterledet ska bli det andra högerledet?</p>",
     "traningsniva": 3,
     "spel": false,
     "omrTidigare": [
@@ -24371,11 +24375,11 @@ window.BANKMATF1 = [
   {
     "kap": 4,
     "omr": "vad_ar_diffekv",
-    "niva": "C",
+    "niva": "E",
     "typ": "tolka tecken på derivata",
-    "poang": "0/2/0",
+    "poang": "2/0/0",
     "t": "<p>En population modelleras av \\(P'=0{,}02P(500-P)\\). För vilka positiva populationsstorlekar växer respektive minskar populationen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(0\\lt P&lt;500\\) är både \\(P\\) och \\(500-P\\) positiva, så \\(P'&gt;0\\): populationen växer.</p></li><li><p>För \\(P&gt;500\\) är \\(500-P&lt;0\\), så \\(P'&lt;0\\): populationen minskar.</p></li><li><p>Vid \\(P=500\\) är \\(P'=0\\), alltså en jämvikt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Undersök positiva populationer under 500</p><p>När 0 &lt; P &lt; 500 är både P och 500−P positiva. Därför är P′ positivt och populationen växer.</p></li><li><p class=\"facit-rubrik\">Undersök populationer över 500</p><p>När P &gt; 500 är P positivt men 500−P negativt. Då är P′ negativt och populationen minskar.</p></li><li><p class=\"facit-rubrik\">Kontrollera gränsen mellan fallen</p><p>Vid P=500 är P′=0: populationen är konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Växer för \\(0\\lt P\\lt500\\), minskar för \\(P\\gt500\\) och är konstant vid \\(P=500\\).</p></div>",
     "id": "4.66",
     "miniräknare": true,
     "geogebra": false,
@@ -24390,8 +24394,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Gör en teckentabell för faktorerna \\(P\\) och \\(500-P\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Populationen är positiv. Då avgör den andra faktorn om högerledet är positivt eller negativt.</p>",
+    "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
       "diffekv_grunder"
@@ -24404,25 +24408,23 @@ window.BANKMATF1 = [
     "typ": "tecken på tillväxt",
     "poang": "2/0/0",
     "t": "<p>För \\(y'=y(10-y)\\), avgör tecknet på \\(y'\\) när \\(y=4\\) respektive \\(y=12\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Läs differentialekvationen som ett samband för förändringshastigheten.</p></li><li><p>Tecknet på högerledet avgör om lösningen ökar eller minskar i den aktuella situationen.</p></li><li><p>Vid \\(y=4\\): \\(y'=4\\cdot6\\gt0\\), alltså växer lösningen.</p></li><li><p>Vid \\(y=12\\): \\(y'=12\\cdot(-2)\\lt0\\), alltså minskar den.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna tecknet vid y=4</p>\\[y^{\\prime}=4(10-4)=24\\gt0\\]</li><li><p class=\"facit-rubrik\">Beräkna tecknet vid y=12</p>\\[y^{\\prime}=12(10-12)=-24\\lt0\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Positiv vid y=4 och negativ vid y=12.</p></div>",
     "id": "4.90",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "begrepp",
-      "resonemang",
-      "problemlösning"
-    ],
-    "ledtrad": "<p>Sätt in \\(y=4\\) respektive \\(y=12\\) i högerledet och bestäm bara tecknet.</p>",
+    "formaga": ["begrepp", "procedur"],
+    "ledtrad": "<p>Sätt in varje y-värde. Ett positivt högerled betyder positiv derivata.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "diffekv_grunder"
     ]
+  ,
+    "spel": false
   },
   {
     "kap": 4,
@@ -24431,7 +24433,7 @@ window.BANKMATF1 = [
     "typ": "jämviktspunkter logistisk modell",
     "poang": "0/2/0",
     "t": "<p>Bestäm jämviktspunkterna för \\(y'=0{,}01y(200-y)\\) och klassificera dem som stabila eller instabila.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Jämvikter fås genom att sätta \\(y'=0\\): \\(y=0\\) eller \\(y=200\\).</p></li><li><p>För små positiva \\(y\\) är \\(y'&gt;0\\), så lösningar rör sig bort från 0.</p></li><li><p>Därför är \\(y=0\\) instabil.</p></li><li><p>Strax under 200 är \\(y'&gt;0\\) och strax över 200 är \\(y'&lt;0\\).</p></li><li><p>Lösningarna rör sig alltså mot 200 från båda sidor, så \\(y=200\\) är stabil.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm jämvikterna med nollproduktmetoden</p>\\[0{,}01y(200-y)=0\\]\\[y=0\\quad\\text{eller}\\quad y=200\\]</li><li><p class=\"facit-rubrik\">Undersök tecknen på de tre intervallen</p><p>För y &lt; 0 är produkten negativ. För 0 &lt; y &lt; 200 är den positiv. För y &gt; 200 är den negativ.</p></li><li><p class=\"facit-rubrik\">Avgör om lösningarna går mot eller bort från jämvikten</p><p>Nära 0 går lösningarna bort från 0: negativa värden minskar och små positiva värden ökar. Nära 200 ökar värden under 200 och minskar värden över 200.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=0\\) är instabil och \\(y=200\\) är stabil.</p></div>",
     "id": "4.91",
     "miniräknare": true,
     "geogebra": false,
@@ -24445,38 +24447,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "ledtrad": "<p>Sätt först högerledet lika med noll. Avgör sedan tecknet på \\(y'\\) strax på vardera sidan om varje jämvikt.</p>",
-    "traningsniva": 4,
-    "spel": false,
-    "omrTidigare": [
-      "diffekv_grunder"
-    ]
-  },
-  {
-    "kap": 4,
-    "omr": "vad_ar_diffekv",
-    "niva": "A",
-    "typ": "jämvikter och stabilitet i logistisk modell",
-    "poang": "0/1/3",
-    "t": "<span class=\"fig\"><svg width=\"470\" height=\"330\" viewBox=\"0 0 470 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Faslinje för den logistiska modellen med jämvikterna y lika med 0 och y lika med 400 samt pilar som visar riktningen\">\n<rect width=\"470\" height=\"330\" fill=\"white\"/>\n<line x1=\"140\" y1=\"6\" x2=\"140\" y2=\"284\" stroke=\"#ccc\" stroke-width=\"1.6\"/>\n<text x=\"124\" y=\"242\" font-size=\"12.5\" fill=\"#999\" text-anchor=\"end\">0</text><text x=\"124\" y=\"170\" font-size=\"12.5\" fill=\"#999\" text-anchor=\"end\">200</text><text x=\"124\" y=\"98\" font-size=\"12.5\" fill=\"#999\" text-anchor=\"end\">400</text><text x=\"124\" y=\"26\" font-size=\"12.5\" fill=\"#999\" text-anchor=\"end\">600</text><line x1=\"140\" y1=\"276\" x2=\"140\" y2=\"248\" stroke=\"#B23A2E\" stroke-width=\"3\"/><path d=\"M134 238 l6 10 6 -10\" fill=\"none\" stroke=\"#B23A2E\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"230\" x2=\"140\" y2=\"186\" stroke=\"#2E7D52\" stroke-width=\"3\"/><path d=\"M134 196 l6 -10 6 10\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"176\" x2=\"140\" y2=\"147\" stroke=\"#2E7D52\" stroke-width=\"3\"/><path d=\"M134 157 l6 -10 6 10\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"129\" x2=\"140\" y2=\"104\" stroke=\"#2E7D52\" stroke-width=\"3\"/><path d=\"M134 114 l6 -10 6 10\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"35\" x2=\"140\" y2=\"68\" stroke=\"#B23A2E\" stroke-width=\"3\"/><path d=\"M134 58 l6 10 6 -10\" fill=\"none\" stroke=\"#B23A2E\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"75\" x2=\"140\" y2=\"89\" stroke=\"#B23A2E\" stroke-width=\"3\"/><path d=\"M134 79 l6 10 6 -10\" fill=\"none\" stroke=\"#B23A2E\" stroke-width=\"2.6\"/><circle cx=\"140\" cy=\"237\" r=\"9\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"162\" y=\"242\" font-size=\"16\">y = 0</text><circle cx=\"140\" cy=\"93\" r=\"9\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"162\" y=\"98\" font-size=\"16\">y = 400</text>\n<text x=\"260\" y=\"40\" font-size=\"15\" fill=\"#B23A2E\">y&#8242; &lt; 0</text>\n<text x=\"260\" y=\"170\" font-size=\"15\" fill=\"#2E7D52\">y&#8242; &gt; 0</text>\n<text x=\"260\" y=\"267\" font-size=\"15\" fill=\"#B23A2E\">y&#8242; &lt; 0</text>\n<text x=\"140\" y=\"-6\" font-size=\"14\" fill=\"#777\" text-anchor=\"middle\">y</text>\n<text x=\"30\" y=\"318\" font-size=\"14\" fill=\"#777\">Pilarna visar åt vilket håll lösningen rör sig.</text>\n</svg></span><p>En population modelleras av</p><p>\\[P'=0,5\\,P\\left(1-\\frac{P}{400}\\right).\\]</p><ol type=\"a\"><li>Bestäm konstanta lösningarna.</li><li>Avgör för vilka \\(P\\gt0\\) populationen växer respektive minskar.</li><li>Avgör vilka konstanta lösningar som är stabila eller instabila och beskriv vad som händer med en population som startar på \\(P(0)=50\\).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En jämviktslösning är konstant, alltså</p><div class=\"facit-matte\">\\[P'=0\\]:</div></div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}5P\\left(1-\\frac{P}{400}\\right)=0.\\]</div><div class=\"facit-matte\">\\[P=0\\quad\\text{eller}\\quad P=400.\\]</div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Undersök tecknet på högerledet mellan och utanför jämvikterna.</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(0\\lt P\\lt400\\) är \\(P\\gt0\\) och \\(1-\\frac{P}{400}\\gt0\\), så produkten är positiv och <strong>populationen växer</strong>.</p></li><li><p>För \\(P\\gt400\\) är \\(P\\gt0\\) men \\(1-\\frac{P}{400}\\lt0\\), så produkten är negativ och <strong>populationen minskar</strong>.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faslinjen i figuren sammanfattar tecknen.</p></li><li><p>Pilarna pekar bort från \\(P=0\\) och mot \\(P=400\\) från båda hållen.</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>Startar populationen strax ovanför 0 växer den, alltså rör den sig bort från jämvikten: <strong>\\(P=0\\) är instabil</strong>.</p></li><li><p>Kommer populationen underifrån växer den mot 400, och kommer den ovanifrån minskar den mot 400.</p></li><li><p>Lösningarna närmar sig alltså jämvikten från båda håll: <strong>\\(P=400\\) är stabil</strong>.</p></li><li><p>Med \\(P(0)=50\\) ligger startvärdet mellan jämvikterna.</p></li><li><p>Populationen växer därför hela tiden och närmar sig 400 utan att någonsin nå eller passera värdet.</p></li><li><p>Talet 400 är modellens bärkraft.</p></li></ol></div></div>",
-    "id": "4.123",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Grundläggande analys av differentialekvationer",
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp",
-      "modellering",
-      "resonemang",
-      "problemlösning"
-    ],
-    "ledtrad": "<p>Bestäm först var \\(P'=0\\). Gör därefter en teckenanalys av högerledet på intervallen mellan jämvikterna och använd den för att avgöra stabiliteten.</p>",
-    "traningsniva": 5,
+    "ledtrad": "<p>Hitta först var produkten är noll. Jämför sedan derivatans tecken strax på varje sida om dessa värden.</p>",
+    "traningsniva": 3,
     "spel": false,
     "omrTidigare": [
       "diffekv_grunder"
@@ -24486,10 +24458,34 @@ window.BANKMATF1 = [
     "kap": 4,
     "omr": "vad_ar_diffekv",
     "niva": "C",
+    "typ": "jämvikter och stabilitet i logistisk modell",
+    "poang": "2/2/0",
+    "t": "<p>En population modelleras av</p><p>\\[P'=0,5\\,P\\left(1-\\frac{P}{400}\\right).\\]</p><ol type=\"a\"><li>Bestäm konstanta lösningarna.</li><li>Avgör för vilka \\(P\\gt0\\) populationen växer respektive minskar.</li><li>Avgör vilka konstanta lösningar som är stabila eller instabila och beskriv vad som händer med en population som startar på \\(P(0)=50\\).</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Bestäm de konstanta populationerna</p>\\[0{,}5P(1-P/400)=0\\]\\[P=0\\quad\\text{eller}\\quad P=400\\]</li><li><p class=\"facit-rubrik\">b) Undersök när populationen växer och minskar</p><p>För 0 &lt; P &lt; 400 är båda faktorerna positiva: P′ &gt; 0 och populationen växer. För P &gt; 400 är parentesen negativ: P′ &lt; 0 och populationen minskar.</p></li><li><p class=\"facit-rubrik\">c) Följ riktningen nära jämvikterna</p><p>Små positiva populationer växer bort från 0, så P=0 är instabil. Populationer strax under 400 ökar och populationer strax över 400 minskar. Därför är P=400 stabil.</p></li><li><p class=\"facit-rubrik\">Följ populationen som börjar vid 50</p><p>Startvärdet ligger mellan 0 och 400. Populationen växer, men tillväxthastigheten går mot noll när P närmar sig 400. Den närmar sig 400 utan att passera jämviktslösningen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 0 och 400. b) Växer mellan 0 och 400; minskar över 400. c) 0 är instabil, 400 stabil. Från 50 växer populationen mot 400.</p></div><span class=\"fig\"><svg width=\"470\" height=\"330\" viewBox=\"0 0 470 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Faslinje för den logistiska modellen med jämvikterna P lika med 0 och P lika med 400 samt pilar som visar riktningen\">\n<rect width=\"470\" height=\"330\" fill=\"white\"/>\n<line x1=\"140\" y1=\"6\" x2=\"140\" y2=\"284\" stroke=\"#ccc\" stroke-width=\"1.6\"/>\n<text x=\"124\" y=\"242\" font-size=\"12.5\" fill=\"#526173\" text-anchor=\"end\">0</text><text x=\"124\" y=\"170\" font-size=\"12.5\" fill=\"#526173\" text-anchor=\"end\">200</text><text x=\"124\" y=\"98\" font-size=\"12.5\" fill=\"#526173\" text-anchor=\"end\">400</text><text x=\"124\" y=\"26\" font-size=\"12.5\" fill=\"#526173\" text-anchor=\"end\">600</text><line x1=\"140\" y1=\"276\" x2=\"140\" y2=\"248\" stroke=\"#B23A2E\" stroke-width=\"3\"/><path d=\"M134 238 l6 10 6 -10\" fill=\"none\" stroke=\"#B23A2E\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"230\" x2=\"140\" y2=\"186\" stroke=\"#2E7D52\" stroke-width=\"3\"/><path d=\"M134 196 l6 -10 6 10\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"176\" x2=\"140\" y2=\"147\" stroke=\"#2E7D52\" stroke-width=\"3\"/><path d=\"M134 157 l6 -10 6 10\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"129\" x2=\"140\" y2=\"104\" stroke=\"#2E7D52\" stroke-width=\"3\"/><path d=\"M134 114 l6 -10 6 10\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"35\" x2=\"140\" y2=\"68\" stroke=\"#B23A2E\" stroke-width=\"3\"/><path d=\"M134 58 l6 10 6 -10\" fill=\"none\" stroke=\"#B23A2E\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"75\" x2=\"140\" y2=\"89\" stroke=\"#B23A2E\" stroke-width=\"3\"/><path d=\"M134 79 l6 10 6 -10\" fill=\"none\" stroke=\"#B23A2E\" stroke-width=\"2.6\"/><circle cx=\"140\" cy=\"237\" r=\"9\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"162\" y=\"242\" font-size=\"16\">P = 0</text><circle cx=\"140\" cy=\"93\" r=\"9\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"162\" y=\"98\" font-size=\"16\">P = 400</text>\n<text x=\"260\" y=\"40\" font-size=\"15\" fill=\"#B23A2E\">P&#8242; &lt; 0</text>\n<text x=\"260\" y=\"170\" font-size=\"15\" fill=\"#2E7D52\">P&#8242; &gt; 0</text>\n<text x=\"260\" y=\"267\" font-size=\"15\" fill=\"#B23A2E\">P&#8242; &lt; 0</text>\n<text x=\"155\" y=\"20\" font-size=\"14\" fill=\"#777\" text-anchor=\"middle\">P</text>\n<text x=\"30\" y=\"318\" font-size=\"14\" fill=\"#777\">Pilarna visar åt vilket håll lösningen rör sig.</text>\n</svg></span>",
+    "id": "4.123",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Grundläggande analys av differentialekvationer",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": ["procedur", "begrepp", "resonemang"],
+    "ledtrad": "<p>Bestäm först var förändringshastigheten är noll. Gör sedan en teckenanalys och följ riktningen från startvärdet.</p>",
+    "traningsniva": 3,
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
+  },
+  {
+    "kap": 4,
+    "omr": "vad_ar_diffekv",
+    "niva": "E",
     "typ": "analysera jämvikter i logistisk differentialekvation",
-    "poang": "0/2/0",
-    "t": "<p>Modellen \\(P'=0{,}12P(1-P/180)\\) ges.</p><p>Bestäm jämviktsnivåerna och ange tecknet på \\(P'\\) för \\(0\\lt P<180\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Sätt förändringshastigheten lika med noll för att hitta jämvikten.</p></li><li><p>Skriv sedan lösningen som en avvikelse från jämviktsnivån; då blir utvecklingen exponentiell och tecknen blir lättare att tolka.</p></li><li><p>Jämvikt fås när \\(P=0\\) eller \\(1-P/180=0\\), alltså \\(P=0\\) och \\(P=180\\).</p></li><li><p>För \\(0\\lt P&lt;180\\) är båda faktorerna positiva, så \\(P'&gt;0\\).</p></li></ol></div>",
+    "poang": "3/0/0",
+    "t": "<p>Modellen \\(P'=0{,}12P(1-P/180)\\) ges.</p><p>Bestäm jämviktsnivåerna och ange tecknet på \\(P'\\) för \\(0\\lt P\\lt180\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm jämvikterna</p>\\[0{,}12P(1-P/180)=0\\]\\[P=0\\quad\\text{eller}\\quad P=180\\]</li><li><p class=\"facit-rubrik\">Undersök intervallet 0 &lt; P &lt; 180</p><p>P är positivt och P/180 är mindre än 1. Därför är också 1−P/180 positivt. Hela produkten blir positiv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Jämvikter: \\(P=0\\) och \\(P=180\\). För \\(0\\lt P\\lt180\\) är \\(P^{\\prime}\\gt0\\).</p></div>",
     "id": "4.344",
     "miniräknare": true,
     "geogebra": false,
@@ -24502,8 +24498,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Bestäm först jämvikterna. Gör sedan en teckenanalys av \\(P'\\) mellan och utanför dem.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>En jämvikt har derivatan noll. Mellan jämvikterna kan du avgöra tecknet faktor för faktor.</p>",
+    "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
       "diffekv_grunder"
@@ -24516,9 +24512,9 @@ window.BANKMATF1 = [
     "typ": "bestämma konstant lösning",
     "poang": "2/0/0",
     "t": "<p>Bestäm den konstanta lösningen till \\(y'=5-2y\\).</p>",
-    "s": "<div class=\"facit-v2\"><p>En konstant lösning har derivatan 0. Därför ska högerledet också vara 0.</p><div class=\"facit-matte\">\\[0=5-2y\\quad\\Rightarrow\\quad y=2{,}5.\\]</div><p>Kontroll: derivatan av en konstant är 0, och insättning av värdet ger också 0 i högerledet.</p><p><strong>Svar:</strong> \\(y(x)=2{,}5\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd att en konstant har derivatan noll</p>\\[0=5-2y\\]</li><li><p class=\"facit-rubrik\">Lös och kontrollera</p>\\[2y=5\\quad\\Rightarrow\\quad y=2{,}5\\]\\[5-2\\cdot2{,}5=0\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y(x)=2{,}5\\).</p></div>",
     "id": "4.346",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
@@ -24530,8 +24526,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vad är derivatan av en konstant funktion?</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Vilket värde på y gör att förändringshastigheten är noll?</p>",
+    "traningsniva": 1,
     "omrTidigare": [
       "diffekv_grunder"
     ]
@@ -24543,25 +24539,27 @@ window.BANKMATF1 = [
     "typ": "jämviktslösningar",
     "poang": "2/0/0",
     "t": "<p>Bestäm de konstanta lösningarna till</p><p>\\[y'=y(4-y).\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> En konstant lösning ändras inte.</p></li><li><p>Därför måste dess derivata vara noll för alla värden på den oberoende variabeln.</p></li><li><p>Sätt alltså \\(y'=0\\) i differentialekvationen:</p></li><li><p>\\[0=y(4-y).\\]</p></li><li><p>En produkt är noll när någon faktor är noll, vilket ger \\(y=0\\) eller \\(4-y=0\\), alltså \\(y=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> De konstanta lösningarna är \\(y=0\\) och \\(y=4\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt derivatan till noll</p>\\[y(4-y)=0\\]</li><li><p class=\"facit-rubrik\">Använd nollproduktmetoden</p>\\[y=0\\quad\\text{eller}\\quad4-y=0\\]\\[y=0\\quad\\text{eller}\\quad y=4\\]</li><li><p class=\"facit-rubrik\">Kontrollera båda konstantfunktionerna</p><p>Vid både y=0 och y=4 blir en faktor noll. Derivatan och högerledet är alltså båda noll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=0\\) och \\(y=4\\).</p></div>",
     "id": "4.158",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Grundläggande analys av differentialekvationer",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp",
-      "problemlösning"
-    ],
-    "ledtrad": "<p>Läs differentialekvationen som ett samband mellan funktionen och dess förändringshastighet. Bestäm vilken storhet som efterfrågas innan du räknar.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [0, 4],
+    "tolerans": [0, 0],
+    "självrättning": [true, true],
+    "formaga": ["procedur", "begrepp"],
+    "ledtrad": "<p>En konstant lösning har derivatan noll. När kan produkten i högerledet vara noll?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "diffekv_grunder"
     ]
+  ,
+    "spel": true
+  ,
+    "svarFormat": ["numeriskt", "numeriskt"]
+  ,
+    "svarsstruktur": "mängd"
   },
   {
     "kap": 4,
@@ -24570,26 +24568,23 @@ window.BANKMATF1 = [
     "typ": "tolka tecken på förändringshastighet",
     "poang": "2/0/0",
     "t": "<p>En temperaturmodell är</p><p>\\[T'=-0{,}2(T-15).\\]</p><p>Är temperaturen stigande eller sjunkande när \\(T=25\\)? Hur är det när \\(T=10\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Läs differentialekvationen som ett samband för förändringshastigheten.</p></li><li><p>Tecknet på högerledet avgör om lösningen ökar eller minskar i den aktuella situationen.</p></li><li><div class=\"facit-berakning\"><p>När</p><div class=\"facit-matte\">\\[T=25\\]:</div></div></li><li><p>\\[T'=-0{,}2(25-15)=-2\\lt 0,\\]</p></li><li><p>så temperaturen <strong>sjunker</strong>.</p></li><li><div class=\"facit-berakning\"><p>När</p><div class=\"facit-matte\">\\[T=10\\]:</div></div></li><li><p>\\[T'=-0{,}2(10-15)=1\\gt 0,\\]</p></li><li><p>så temperaturen <strong>stiger</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Undersök temperaturen 25</p>\\[T^{\\prime}=-0{,}2(25-15)=-2\\lt0\\]<p>Temperaturen sjunker.</p></li><li><p class=\"facit-rubrik\">Undersök temperaturen 10</p>\\[T^{\\prime}=-0{,}2(10-15)=1\\gt0\\]<p>Temperaturen stiger.</p></li><li><p class=\"facit-rubrik\">Jämför riktningen i båda fallen</p><p>Båda temperaturerna rör sig mot jämvikten 15.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sjunkande vid 25 och stigande vid 10.</p></div>",
     "id": "4.159",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "begrepp",
-      "modellering",
-      "resonemang",
-      "problemlösning"
-    ],
-    "ledtrad": "<p>Sätt in respektive temperatur och läs av tecknet på \\(T'\\).</p>",
+    "formaga": ["begrepp", "procedur"],
+    "ledtrad": "<p>Sätt in temperaturen i högerledet. Derivatans tecken visar om temperaturen stiger eller sjunker.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "diffekv_grunder"
     ]
+  ,
+    "spel": false
   },
   {
     "kap": 4,
@@ -24676,9 +24671,9 @@ window.BANKMATF1 = [
     "typ": "tolka differentialekvation som lutningsregel",
     "poang": "2/0/0",
     "t": "<p>För \\(y'=x^2-3\\), bestäm lösningskurvornas lutning när \\(x=4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Tolka differentialekvationen som en regel för förändringshastigheten.</p></li><li><p>Jämvikter fås genom att sätta derivatan lika med noll, och en föreslagen lösning verifieras genom insättning.</p></li><li><p>Sätt in \\(x=4\\) i högerledet: \\(y'=4^2-3=13\\).</p></li><li><p><strong>Kontroll:</strong> Kontrollera genom att sätta lösningen eller jämviktsvärdet tillbaka i differentialekvationen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd x=4 i differentialekvationen</p>\\[y^{\\prime}=4^2-3=16-3=13\\]</li><li><p class=\"facit-rubrik\">Tolka lutningen</p><p>Alla lösningskurvor har lutningen 13 vid x=4, eftersom högerledet inte beror på y.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lutningen är 13.</p></div>",
     "id": "4.351",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
@@ -24690,8 +24685,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Lutningen i en punkt ges av \\(y'\\). Sätt in \\(x=4\\).</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Derivatan ger lutningen direkt; du behöver inte bestämma hela lösningsfunktionen.</p>",
+    "traningsniva": 1,
     "omrTidigare": [
       "diffekv_grunder"
     ]
@@ -24726,12 +24721,12 @@ window.BANKMATF1 = [
   {
     "kap": 4,
     "omr": "vad_ar_diffekv",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Differentialekvationen är \\(y'=x^2-4\\).</p><p>Bestäm det positiva x-värde där lösningskurvorna har horisontell tangent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> En lösningskurva har horisontell tangent där dess lutning är noll.</p></li><li><p>I en differentialekvation är lutningen just \\(y'\\).</p></li><li><p>Sätt därför högerledet lika med noll:</p></li><li><p>\\[x^2-4=0.\\]</p></li><li><p>Faktorisera: \\((x-2)(x+2)=0\\), så \\(x=2\\) eller \\(x=-2\\).</p></li><li><p>Uppgiften frågar efter det positiva värdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt lutningen till noll</p>\\[x^2-4=0\\quad\\Rightarrow\\quad x^2=4\\]</li><li><p class=\"facit-rubrik\">Välj det positiva x-värdet</p>\\[x=-2\\quad\\text{eller}\\quad x=2\\]<p>Frågan gäller det positiva värdet, alltså x=2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\).</p></div>",
     "id": "4.319",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
@@ -24743,7 +24738,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>En horisontell tangent har lutningen noll. Sätt därför \\(y'=0\\).</p>",
+    "ledtrad": "<p>En horisontell tangent har derivatan noll. Kom ihåg vilket av x-värdena som efterfrågas.</p>",
     "traningsniva": 2,
     "typ": "horisontell tangent från differentialekvation",
     "omrTidigare": [
@@ -24754,21 +24749,21 @@ window.BANKMATF1 = [
     "id": "4.518",
     "kap": 4,
     "omr": "vad_ar_diffekv",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "1/2/0",
     "t": "<p>En population \\(y(t)\\) beskrivs av differentialekvationen \\(y'=y(4-y)\\).</p><p>Bestäm de två konstanta lösningarna och det värde på \\(y\\) där populationen växer snabbast. Lös inte ekvationen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Jämviktslösningar har \\(y'=0\\): \\(y(4-y)=0\\), alltså \\(y=0\\) och \\(y=4\\).</p></li><li><div class=\"facit-berakning\"><p>Tillväxthastigheten är</p><div class=\"facit-matte\">\\[g(y)=4y-y^2\\].</div></div></li><li><p>Det är en parabel i \\(y\\) med maximum mitt mellan nollställena, alltså vid \\(y=2\\).</p></li><li><div class=\"facit-berakning\"><p>Där är</p><div class=\"facit-matte\">\\[y'=4\\].</div></div></li><li><p>För \\(0&lt;y&lt;4\\) är \\(y'&gt;0\\), så populationen växer mot 4, som är bärförmågan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> jämviktslösningarna \\(y=0\\) och \\(y=4\\), snabbast tillväxt vid \\(y=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm de konstanta lösningarna</p>\\[y(4-y)=0\\]\\[y=0\\quad\\text{eller}\\quad y=4\\]</li><li><p class=\"facit-rubrik\">Skriv tillväxthastigheten på kvadratkompletterad form</p>\\[g(y)=4y-y^2\\]\\[=4-(y-2)^2\\]</li><li><p class=\"facit-rubrik\">Skilj populationen från tillväxthastigheten</p><p>En kvadrat är minst 0, så g är störst när y=2. Då är tillväxthastigheten g(2)=4, men frågan söker populationsvärdet 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Konstanta lösningar: 0 och 4. Snabbast tillväxt vid \\(y=2\\).</p></div>",
     "familj": "Grundläggande analys av differentialekvationer",
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Analysera högerledet \\(y(4-y)\\) som en funktion av \\(y\\). När är det 0, och när är det störst?</p>",
+    "ledtrad": "<p>Undersök högerledet som en andragradsfunktion av y. Dess nollställen och maximipunkt svarar på olika delar av frågan.</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "svarstyp": "flera_delar",
     "rättSvar": [
       0,
@@ -24787,6 +24782,8 @@ window.BANKMATF1 = [
     ],
     "svarsstruktur": "ordnad",
     "typ": "jämviktslösningar och största tillväxt"
+  ,
+    "svarFormat": ["numeriskt", "numeriskt", "numeriskt"]
   },
   {
     "kap": 4,
@@ -52006,7 +52003,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "ordningen hos en differentialekvation",
   "t": "<p>Vilken ordning har differentialekvationen \\(y''+3y=x\\)?</p>",
-  "s": "<div class=\"facit-v2\"><p>Den högsta derivatan som förekommer är \\(y''\\), alltså andraderivatan. Ekvationen är av andra ordningen.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Identifiera den högsta derivatan</p><p>y″ är andraderivatan. Ingen högre derivata finns i ekvationen, så ordningen är 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Andra ordningen.</p></div>",
   "familj": "Grundläggande analys av differentialekvationer",
   "formaga": [
     "begrepp"
@@ -52017,7 +52014,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Vilken är den högsta derivatan i ekvationen?</p>",
+  "ledtrad": "<p>Vilken är den högsta derivatan som förekommer?</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 2,
   "tolerans": 0,
@@ -52031,7 +52028,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "känna igen ett riktningsfält",
   "t": "<p>Figuren visar ett riktningsfält. Vilken differentialekvation hör till fältet? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 320\" role=\"img\" aria-label=\"Riktningsfält där lutningen bara beror på x: vågräta streck längs y-axeln, stigande till höger och fallande till vänster.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"16\" x2=\"40.0\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"97.3\" y1=\"16\" x2=\"97.3\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"154.7\" y1=\"16\" x2=\"154.7\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"212.0\" y1=\"16\" x2=\"212.0\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"269.3\" y1=\"16\" x2=\"269.3\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"326.7\" y1=\"16\" x2=\"326.7\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"384.0\" y1=\"16\" x2=\"384.0\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"286.0\" x2=\"384\" y2=\"286.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"241.0\" x2=\"384\" y2=\"241.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"196.0\" x2=\"384\" y2=\"196.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"151.0\" x2=\"384\" y2=\"151.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"106.0\" x2=\"384\" y2=\"106.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"61.0\" x2=\"384\" y2=\"61.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"16.0\" x2=\"384\" y2=\"16.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"151.0\" x2=\"384\" y2=\"151.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"212.0\" y1=\"16\" x2=\"212.0\" y2=\"286\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"40.0\" y=\"167.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"97.3\" y=\"167.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"154.7\" y=\"167.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"269.3\" y=\"167.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"326.7\" y=\"167.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"384.0\" y=\"167.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"206.0\" y=\"290.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"206.0\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"206.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"206.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"206.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"206.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"380\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#172b3a\">x</text><text x=\"218.0\" y=\"28\" font-family=\"Arial,sans-serif\" font-size=\"14\" font-style=\"italic\" fill=\"#172b3a\">y</text><line x1=\"50.5\" y1=\"255.3\" x2=\"58.1\" y2=\"271.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.6\" y1=\"255.7\" x2=\"87.4\" y2=\"271.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.4\" y1=\"256.2\" x2=\"117.0\" y2=\"270.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.9\" y1=\"257.2\" x2=\"146.8\" y2=\"269.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.2\" y1=\"258.9\" x2=\"176.8\" y2=\"268.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.8\" y1=\"261.8\" x2=\"206.5\" y2=\"265.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.5\" y1=\"265.2\" x2=\"235.2\" y2=\"261.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.2\" y1=\"268.1\" x2=\"262.8\" y2=\"258.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.2\" y1=\"269.8\" x2=\"290.1\" y2=\"257.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"307.0\" y1=\"270.8\" x2=\"317.6\" y2=\"256.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.6\" y1=\"271.3\" x2=\"345.4\" y2=\"255.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.9\" y1=\"271.7\" x2=\"373.5\" y2=\"255.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"50.5\" y1=\"232.8\" x2=\"58.1\" y2=\"249.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.6\" y1=\"233.2\" x2=\"87.4\" y2=\"248.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.4\" y1=\"233.7\" x2=\"117.0\" y2=\"248.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.9\" y1=\"234.7\" x2=\"146.8\" y2=\"247.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.2\" y1=\"236.4\" x2=\"176.8\" y2=\"245.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.8\" y1=\"239.3\" x2=\"206.5\" y2=\"242.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.5\" y1=\"242.7\" x2=\"235.2\" y2=\"239.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.2\" y1=\"245.6\" x2=\"262.8\" y2=\"236.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.2\" y1=\"247.3\" x2=\"290.1\" y2=\"234.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"307.0\" y1=\"248.3\" x2=\"317.6\" y2=\"233.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.6\" y1=\"248.8\" x2=\"345.4\" y2=\"233.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.9\" y1=\"249.2\" x2=\"373.5\" y2=\"232.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"50.5\" y1=\"210.3\" x2=\"58.1\" y2=\"226.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.6\" y1=\"210.7\" x2=\"87.4\" y2=\"226.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.4\" y1=\"211.2\" x2=\"117.0\" y2=\"225.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.9\" y1=\"212.2\" x2=\"146.8\" y2=\"224.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.2\" y1=\"213.9\" x2=\"176.8\" y2=\"223.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.8\" y1=\"216.8\" x2=\"206.5\" y2=\"220.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.5\" y1=\"220.2\" x2=\"235.2\" y2=\"216.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.2\" y1=\"223.1\" x2=\"262.8\" y2=\"213.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.2\" y1=\"224.8\" x2=\"290.1\" y2=\"212.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"307.0\" y1=\"225.8\" x2=\"317.6\" y2=\"211.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.6\" y1=\"226.3\" x2=\"345.4\" y2=\"210.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.9\" y1=\"226.7\" x2=\"373.5\" y2=\"210.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"50.5\" y1=\"187.8\" x2=\"58.1\" y2=\"204.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.6\" y1=\"188.2\" x2=\"87.4\" y2=\"203.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.4\" y1=\"188.7\" x2=\"117.0\" y2=\"203.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.9\" y1=\"189.7\" x2=\"146.8\" y2=\"202.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.2\" y1=\"191.4\" x2=\"176.8\" y2=\"200.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.8\" y1=\"194.3\" x2=\"206.5\" y2=\"197.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.5\" y1=\"197.7\" x2=\"235.2\" y2=\"194.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.2\" y1=\"200.6\" x2=\"262.8\" y2=\"191.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.2\" y1=\"202.3\" x2=\"290.1\" y2=\"189.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"307.0\" y1=\"203.3\" x2=\"317.6\" y2=\"188.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.6\" y1=\"203.8\" x2=\"345.4\" y2=\"188.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.9\" y1=\"204.2\" x2=\"373.5\" y2=\"187.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"50.5\" y1=\"165.3\" x2=\"58.1\" y2=\"181.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.6\" y1=\"165.7\" x2=\"87.4\" y2=\"181.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.4\" y1=\"166.2\" x2=\"117.0\" y2=\"180.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.9\" y1=\"167.2\" x2=\"146.8\" y2=\"179.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.2\" y1=\"168.9\" x2=\"176.8\" y2=\"178.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.8\" y1=\"171.8\" x2=\"206.5\" y2=\"175.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.5\" y1=\"175.2\" x2=\"235.2\" y2=\"171.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.2\" y1=\"178.1\" x2=\"262.8\" y2=\"168.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.2\" y1=\"179.8\" x2=\"290.1\" y2=\"167.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"307.0\" y1=\"180.8\" x2=\"317.6\" y2=\"166.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.6\" y1=\"181.3\" x2=\"345.4\" y2=\"165.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.9\" y1=\"181.7\" x2=\"373.5\" y2=\"165.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"50.5\" y1=\"142.8\" x2=\"58.1\" y2=\"159.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.6\" y1=\"143.2\" x2=\"87.4\" y2=\"158.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.4\" y1=\"143.7\" x2=\"117.0\" y2=\"158.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.9\" y1=\"144.7\" x2=\"146.8\" y2=\"157.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.2\" y1=\"146.4\" x2=\"176.8\" y2=\"155.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.8\" y1=\"149.3\" x2=\"206.5\" y2=\"152.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.5\" y1=\"152.7\" x2=\"235.2\" y2=\"149.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.2\" y1=\"155.6\" x2=\"262.8\" y2=\"146.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.2\" y1=\"157.3\" x2=\"290.1\" y2=\"144.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"307.0\" y1=\"158.3\" x2=\"317.6\" y2=\"143.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.6\" y1=\"158.8\" x2=\"345.4\" y2=\"143.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.9\" y1=\"159.2\" x2=\"373.5\" y2=\"142.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"50.5\" y1=\"120.3\" x2=\"58.1\" y2=\"136.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.6\" y1=\"120.7\" x2=\"87.4\" y2=\"136.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.4\" y1=\"121.2\" x2=\"117.0\" y2=\"135.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.9\" y1=\"122.2\" x2=\"146.8\" y2=\"134.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.2\" y1=\"123.9\" x2=\"176.8\" y2=\"133.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.8\" y1=\"126.8\" x2=\"206.5\" y2=\"130.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.5\" y1=\"130.2\" x2=\"235.2\" y2=\"126.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.2\" y1=\"133.1\" x2=\"262.8\" y2=\"123.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.2\" y1=\"134.8\" x2=\"290.1\" y2=\"122.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"307.0\" y1=\"135.8\" x2=\"317.6\" y2=\"121.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.6\" y1=\"136.3\" x2=\"345.4\" y2=\"120.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.9\" y1=\"136.7\" x2=\"373.5\" y2=\"120.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"50.5\" y1=\"97.8\" x2=\"58.1\" y2=\"114.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.6\" y1=\"98.2\" x2=\"87.4\" y2=\"113.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.4\" y1=\"98.7\" x2=\"117.0\" y2=\"113.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.9\" y1=\"99.7\" x2=\"146.8\" y2=\"112.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.2\" y1=\"101.4\" x2=\"176.8\" y2=\"110.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.8\" y1=\"104.3\" x2=\"206.5\" y2=\"107.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.5\" y1=\"107.7\" x2=\"235.2\" y2=\"104.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.2\" y1=\"110.6\" x2=\"262.8\" y2=\"101.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.2\" y1=\"112.3\" x2=\"290.1\" y2=\"99.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"307.0\" y1=\"113.3\" x2=\"317.6\" y2=\"98.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.6\" y1=\"113.8\" x2=\"345.4\" y2=\"98.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.9\" y1=\"114.2\" x2=\"373.5\" y2=\"97.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"50.5\" y1=\"75.3\" x2=\"58.1\" y2=\"91.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.6\" y1=\"75.7\" x2=\"87.4\" y2=\"91.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.4\" y1=\"76.2\" x2=\"117.0\" y2=\"90.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.9\" y1=\"77.2\" x2=\"146.8\" y2=\"89.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.2\" y1=\"78.9\" x2=\"176.8\" y2=\"88.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.8\" y1=\"81.8\" x2=\"206.5\" y2=\"85.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.5\" y1=\"85.2\" x2=\"235.2\" y2=\"81.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.2\" y1=\"88.1\" x2=\"262.8\" y2=\"78.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.2\" y1=\"89.8\" x2=\"290.1\" y2=\"77.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"307.0\" y1=\"90.8\" x2=\"317.6\" y2=\"76.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.6\" y1=\"91.3\" x2=\"345.4\" y2=\"75.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.9\" y1=\"91.7\" x2=\"373.5\" y2=\"75.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"50.5\" y1=\"52.8\" x2=\"58.1\" y2=\"69.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.6\" y1=\"53.2\" x2=\"87.4\" y2=\"68.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.4\" y1=\"53.7\" x2=\"117.0\" y2=\"68.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.9\" y1=\"54.7\" x2=\"146.8\" y2=\"67.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.2\" y1=\"56.4\" x2=\"176.8\" y2=\"65.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.8\" y1=\"59.3\" x2=\"206.5\" y2=\"62.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.5\" y1=\"62.7\" x2=\"235.2\" y2=\"59.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.2\" y1=\"65.6\" x2=\"262.8\" y2=\"56.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.2\" y1=\"67.3\" x2=\"290.1\" y2=\"54.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"307.0\" y1=\"68.3\" x2=\"317.6\" y2=\"53.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.6\" y1=\"68.8\" x2=\"345.4\" y2=\"53.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.9\" y1=\"69.2\" x2=\"373.5\" y2=\"52.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"50.5\" y1=\"30.3\" x2=\"58.1\" y2=\"46.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.6\" y1=\"30.7\" x2=\"87.4\" y2=\"46.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.4\" y1=\"31.2\" x2=\"117.0\" y2=\"45.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.9\" y1=\"32.2\" x2=\"146.8\" y2=\"44.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.2\" y1=\"33.9\" x2=\"176.8\" y2=\"43.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.8\" y1=\"36.8\" x2=\"206.5\" y2=\"40.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.5\" y1=\"40.2\" x2=\"235.2\" y2=\"36.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.2\" y1=\"43.1\" x2=\"262.8\" y2=\"33.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.2\" y1=\"44.8\" x2=\"290.1\" y2=\"32.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"307.0\" y1=\"45.8\" x2=\"317.6\" y2=\"31.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.6\" y1=\"46.3\" x2=\"345.4\" y2=\"30.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.9\" y1=\"46.7\" x2=\"373.5\" y2=\"30.3\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Strecken är lika i varje lodrät kolumn, så lutningen beror bara på \\(x\\). De är vågräta vid \\(x=0\\), stiger för \\(x\\gt0\\) och faller för \\(x\\lt0\\). Det passar \\(y'=x\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Undersök vad lutningen beror på</p><p>I en lodrät kolumn har alla streck samma lutning. Höjden y ändrar alltså inte lutningen; det gör x.</p></li><li><p class=\"facit-rubrik\">Jämför tecknen till vänster och höger</p><p>Vid x=0 är strecken vågräta. Till höger stiger de och till vänster faller de. Det stämmer med y′=x.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y^{\\prime}=x\\).</p></div>",
   "familj": "Riktningsfält och jämvikter",
   "formaga": [
     "begrepp"
@@ -52042,7 +52039,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Ändras lutningen när du går uppåt i fältet, eller bara när du går åt sidan?</p>",
+  "ledtrad": "<p>Jämför streck i samma kolumn och i samma rad. Var är lutningen noll?</p>",
   "svarstyp": "alternativ",
   "rättSvar": null,
   "tolerans": null,
@@ -52077,7 +52074,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "konstant lösning ur riktningsfältet",
   "t": "<p>Figuren visar riktningsfältet till \\(y'=0{,}5(4-y)\\). Bestäm den konstanta lösningen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 320\" role=\"img\" aria-label=\"Riktningsfält där strecken är vågräta längs y = 4, lutar uppåt under och nedåt över den linjen.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"16\" x2=\"40.0\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"97.3\" y1=\"16\" x2=\"97.3\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"154.7\" y1=\"16\" x2=\"154.7\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"212.0\" y1=\"16\" x2=\"212.0\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"269.3\" y1=\"16\" x2=\"269.3\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"326.7\" y1=\"16\" x2=\"326.7\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"384.0\" y1=\"16\" x2=\"384.0\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"286.0\" x2=\"384\" y2=\"286.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"247.4\" x2=\"384\" y2=\"247.4\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"208.9\" x2=\"384\" y2=\"208.9\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"170.3\" x2=\"384\" y2=\"170.3\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"131.7\" x2=\"384\" y2=\"131.7\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"93.1\" x2=\"384\" y2=\"93.1\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"54.6\" x2=\"384\" y2=\"54.6\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"16.0\" x2=\"384\" y2=\"16.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"286.0\" x2=\"384\" y2=\"286.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"16\" x2=\"40.0\" y2=\"286\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"97.3\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"154.7\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"212.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"269.3\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"326.7\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"384.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"34.0\" y=\"251.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"34.0\" y=\"212.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"34.0\" y=\"174.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"34.0\" y=\"135.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"34.0\" y=\"97.1\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"34.0\" y=\"58.6\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"34.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">7</text><text x=\"380\" y=\"280.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#172b3a\">x</text><text x=\"46.0\" y=\"28\" font-family=\"Arial,sans-serif\" font-size=\"14\" font-style=\"italic\" fill=\"#172b3a\">y</text><line x1=\"48.5\" y1=\"273.6\" x2=\"60.2\" y2=\"259.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"77.2\" y1=\"273.6\" x2=\"88.8\" y2=\"259.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"105.8\" y1=\"273.6\" x2=\"117.5\" y2=\"259.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"134.5\" y1=\"273.6\" x2=\"146.2\" y2=\"259.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"163.2\" y1=\"273.6\" x2=\"174.8\" y2=\"259.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"191.8\" y1=\"273.6\" x2=\"203.5\" y2=\"259.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"220.5\" y1=\"273.6\" x2=\"232.2\" y2=\"259.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"249.2\" y1=\"273.6\" x2=\"260.8\" y2=\"259.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.8\" y1=\"273.6\" x2=\"289.5\" y2=\"259.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"306.5\" y1=\"273.6\" x2=\"318.2\" y2=\"259.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"335.2\" y1=\"273.6\" x2=\"346.8\" y2=\"259.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"363.8\" y1=\"273.6\" x2=\"375.5\" y2=\"259.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"48.0\" y1=\"253.8\" x2=\"60.7\" y2=\"241.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"76.7\" y1=\"253.8\" x2=\"89.3\" y2=\"241.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"105.3\" y1=\"253.8\" x2=\"118.0\" y2=\"241.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"134.0\" y1=\"253.8\" x2=\"146.7\" y2=\"241.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"162.7\" y1=\"253.8\" x2=\"175.3\" y2=\"241.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"191.3\" y1=\"253.8\" x2=\"204.0\" y2=\"241.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"220.0\" y1=\"253.8\" x2=\"232.7\" y2=\"241.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"248.7\" y1=\"253.8\" x2=\"261.3\" y2=\"241.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.3\" y1=\"253.8\" x2=\"290.0\" y2=\"241.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"306.0\" y1=\"253.8\" x2=\"318.7\" y2=\"241.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"334.7\" y1=\"253.8\" x2=\"347.3\" y2=\"241.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"363.3\" y1=\"253.8\" x2=\"376.0\" y2=\"241.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"47.4\" y1=\"233.9\" x2=\"61.2\" y2=\"222.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"76.1\" y1=\"233.9\" x2=\"89.9\" y2=\"222.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"104.8\" y1=\"233.9\" x2=\"118.6\" y2=\"222.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.4\" y1=\"233.9\" x2=\"147.2\" y2=\"222.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"162.1\" y1=\"233.9\" x2=\"175.9\" y2=\"222.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"190.8\" y1=\"233.9\" x2=\"204.6\" y2=\"222.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"219.4\" y1=\"233.9\" x2=\"233.2\" y2=\"222.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"248.1\" y1=\"233.9\" x2=\"261.9\" y2=\"222.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"276.8\" y1=\"233.9\" x2=\"290.6\" y2=\"222.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"305.4\" y1=\"233.9\" x2=\"319.2\" y2=\"222.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"334.1\" y1=\"233.9\" x2=\"347.9\" y2=\"222.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"362.8\" y1=\"233.9\" x2=\"376.6\" y2=\"222.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"46.9\" y1=\"213.9\" x2=\"61.8\" y2=\"203.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"75.5\" y1=\"213.9\" x2=\"90.5\" y2=\"203.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"104.2\" y1=\"213.9\" x2=\"119.1\" y2=\"203.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"132.9\" y1=\"213.9\" x2=\"147.8\" y2=\"203.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.5\" y1=\"213.9\" x2=\"176.5\" y2=\"203.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"190.2\" y1=\"213.9\" x2=\"205.1\" y2=\"203.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"218.9\" y1=\"213.9\" x2=\"233.8\" y2=\"203.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.5\" y1=\"213.9\" x2=\"262.5\" y2=\"203.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"276.2\" y1=\"213.9\" x2=\"291.1\" y2=\"203.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"304.9\" y1=\"213.9\" x2=\"319.8\" y2=\"203.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"333.5\" y1=\"213.9\" x2=\"348.5\" y2=\"203.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"362.2\" y1=\"213.9\" x2=\"377.1\" y2=\"203.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"46.3\" y1=\"193.6\" x2=\"62.4\" y2=\"185.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"75.0\" y1=\"193.6\" x2=\"91.0\" y2=\"185.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"103.6\" y1=\"193.6\" x2=\"119.7\" y2=\"185.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"132.3\" y1=\"193.6\" x2=\"148.4\" y2=\"185.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.0\" y1=\"193.6\" x2=\"177.0\" y2=\"185.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"189.6\" y1=\"193.6\" x2=\"205.7\" y2=\"185.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"218.3\" y1=\"193.6\" x2=\"234.4\" y2=\"185.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.0\" y1=\"193.6\" x2=\"263.0\" y2=\"185.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"275.6\" y1=\"193.6\" x2=\"291.7\" y2=\"185.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"304.3\" y1=\"193.6\" x2=\"320.4\" y2=\"185.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"333.0\" y1=\"193.6\" x2=\"349.0\" y2=\"185.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"361.6\" y1=\"193.6\" x2=\"377.7\" y2=\"185.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"45.8\" y1=\"173.2\" x2=\"62.9\" y2=\"167.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"74.5\" y1=\"173.2\" x2=\"91.5\" y2=\"167.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"103.1\" y1=\"173.2\" x2=\"120.2\" y2=\"167.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"131.8\" y1=\"173.2\" x2=\"148.9\" y2=\"167.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"160.5\" y1=\"173.2\" x2=\"177.5\" y2=\"167.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"189.1\" y1=\"173.2\" x2=\"206.2\" y2=\"167.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.8\" y1=\"173.2\" x2=\"234.9\" y2=\"167.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"246.5\" y1=\"173.2\" x2=\"263.5\" y2=\"167.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"275.1\" y1=\"173.2\" x2=\"292.2\" y2=\"167.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"303.8\" y1=\"173.2\" x2=\"320.9\" y2=\"167.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"332.5\" y1=\"173.2\" x2=\"349.5\" y2=\"167.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"361.1\" y1=\"173.2\" x2=\"378.2\" y2=\"167.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"45.5\" y1=\"152.5\" x2=\"63.2\" y2=\"149.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"74.1\" y1=\"152.5\" x2=\"91.9\" y2=\"149.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"102.8\" y1=\"152.5\" x2=\"120.5\" y2=\"149.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"131.5\" y1=\"152.5\" x2=\"149.2\" y2=\"149.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"160.1\" y1=\"152.5\" x2=\"177.9\" y2=\"149.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.8\" y1=\"152.5\" x2=\"206.5\" y2=\"149.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.5\" y1=\"152.5\" x2=\"235.2\" y2=\"149.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"246.1\" y1=\"152.5\" x2=\"263.9\" y2=\"149.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"274.8\" y1=\"152.5\" x2=\"292.5\" y2=\"149.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"303.5\" y1=\"152.5\" x2=\"321.2\" y2=\"149.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"332.1\" y1=\"152.5\" x2=\"349.9\" y2=\"149.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"360.8\" y1=\"152.5\" x2=\"378.5\" y2=\"149.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"45.3\" y1=\"131.7\" x2=\"63.3\" y2=\"131.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"74.0\" y1=\"131.7\" x2=\"92.0\" y2=\"131.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"102.7\" y1=\"131.7\" x2=\"120.7\" y2=\"131.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"131.3\" y1=\"131.7\" x2=\"149.3\" y2=\"131.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"160.0\" y1=\"131.7\" x2=\"178.0\" y2=\"131.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.7\" y1=\"131.7\" x2=\"206.7\" y2=\"131.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.3\" y1=\"131.7\" x2=\"235.3\" y2=\"131.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"246.0\" y1=\"131.7\" x2=\"264.0\" y2=\"131.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"274.7\" y1=\"131.7\" x2=\"292.7\" y2=\"131.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"303.3\" y1=\"131.7\" x2=\"321.3\" y2=\"131.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"332.0\" y1=\"131.7\" x2=\"350.0\" y2=\"131.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"360.7\" y1=\"131.7\" x2=\"378.7\" y2=\"131.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"45.5\" y1=\"110.9\" x2=\"63.2\" y2=\"113.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"74.1\" y1=\"110.9\" x2=\"91.9\" y2=\"113.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"102.8\" y1=\"110.9\" x2=\"120.5\" y2=\"113.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"131.5\" y1=\"110.9\" x2=\"149.2\" y2=\"113.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"160.1\" y1=\"110.9\" x2=\"177.9\" y2=\"113.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.8\" y1=\"110.9\" x2=\"206.5\" y2=\"113.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.5\" y1=\"110.9\" x2=\"235.2\" y2=\"113.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"246.1\" y1=\"110.9\" x2=\"263.9\" y2=\"113.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"274.8\" y1=\"110.9\" x2=\"292.5\" y2=\"113.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"303.5\" y1=\"110.9\" x2=\"321.2\" y2=\"113.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"332.1\" y1=\"110.9\" x2=\"349.9\" y2=\"113.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"360.8\" y1=\"110.9\" x2=\"378.5\" y2=\"113.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"45.8\" y1=\"90.3\" x2=\"62.9\" y2=\"96.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"74.5\" y1=\"90.3\" x2=\"91.5\" y2=\"96.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"103.1\" y1=\"90.3\" x2=\"120.2\" y2=\"96.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"131.8\" y1=\"90.3\" x2=\"148.9\" y2=\"96.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"160.5\" y1=\"90.3\" x2=\"177.5\" y2=\"96.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"189.1\" y1=\"90.3\" x2=\"206.2\" y2=\"96.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.8\" y1=\"90.3\" x2=\"234.9\" y2=\"96.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"246.5\" y1=\"90.3\" x2=\"263.5\" y2=\"96.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"275.1\" y1=\"90.3\" x2=\"292.2\" y2=\"96.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"303.8\" y1=\"90.3\" x2=\"320.9\" y2=\"96.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"332.5\" y1=\"90.3\" x2=\"349.5\" y2=\"96.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"361.1\" y1=\"90.3\" x2=\"378.2\" y2=\"96.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"46.3\" y1=\"69.8\" x2=\"62.4\" y2=\"77.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"75.0\" y1=\"69.8\" x2=\"91.0\" y2=\"77.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"103.6\" y1=\"69.8\" x2=\"119.7\" y2=\"77.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"132.3\" y1=\"69.8\" x2=\"148.4\" y2=\"77.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.0\" y1=\"69.8\" x2=\"177.0\" y2=\"77.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"189.6\" y1=\"69.8\" x2=\"205.7\" y2=\"77.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"218.3\" y1=\"69.8\" x2=\"234.4\" y2=\"77.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.0\" y1=\"69.8\" x2=\"263.0\" y2=\"77.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"275.6\" y1=\"69.8\" x2=\"291.7\" y2=\"77.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"304.3\" y1=\"69.8\" x2=\"320.4\" y2=\"77.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"333.0\" y1=\"69.8\" x2=\"349.0\" y2=\"77.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"361.6\" y1=\"69.8\" x2=\"377.7\" y2=\"77.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"46.9\" y1=\"49.5\" x2=\"61.8\" y2=\"59.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"75.5\" y1=\"49.5\" x2=\"90.5\" y2=\"59.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"104.2\" y1=\"49.5\" x2=\"119.1\" y2=\"59.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"132.9\" y1=\"49.5\" x2=\"147.8\" y2=\"59.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.5\" y1=\"49.5\" x2=\"176.5\" y2=\"59.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"190.2\" y1=\"49.5\" x2=\"205.1\" y2=\"59.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"218.9\" y1=\"49.5\" x2=\"233.8\" y2=\"59.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.5\" y1=\"49.5\" x2=\"262.5\" y2=\"59.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"276.2\" y1=\"49.5\" x2=\"291.1\" y2=\"59.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"304.9\" y1=\"49.5\" x2=\"319.8\" y2=\"59.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"333.5\" y1=\"49.5\" x2=\"348.5\" y2=\"59.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"362.2\" y1=\"49.5\" x2=\"377.1\" y2=\"59.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"47.4\" y1=\"29.5\" x2=\"61.2\" y2=\"41.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"76.1\" y1=\"29.5\" x2=\"89.9\" y2=\"41.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"104.8\" y1=\"29.5\" x2=\"118.6\" y2=\"41.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.4\" y1=\"29.5\" x2=\"147.2\" y2=\"41.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"162.1\" y1=\"29.5\" x2=\"175.9\" y2=\"41.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"190.8\" y1=\"29.5\" x2=\"204.6\" y2=\"41.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"219.4\" y1=\"29.5\" x2=\"233.2\" y2=\"41.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"248.1\" y1=\"29.5\" x2=\"261.9\" y2=\"41.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"276.8\" y1=\"29.5\" x2=\"290.6\" y2=\"41.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"305.4\" y1=\"29.5\" x2=\"319.2\" y2=\"41.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"334.1\" y1=\"29.5\" x2=\"347.9\" y2=\"41.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"362.8\" y1=\"29.5\" x2=\"376.6\" y2=\"41.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>En konstant lösning har \\(y'=0\\): \\(0{,}5(4-y)=0\\) ger \\(y=4\\). I figuren är alla streck vågräta längs \\(y=4\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt derivatan till noll</p>\\[0{,}5(4-y)=0\\]\\[4-y=0\\quad\\Rightarrow\\quad y=4\\]</li><li><p class=\"facit-rubrik\">Kontrollera i riktningsfältet</p><p>Längs y=4 är alla streck vågräta, så en lösning kan vara kvar på den nivån.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y(x)=4\\).</p></div>",
   "familj": "Riktningsfält och jämvikter",
   "formaga": [
     "begrepp",
@@ -52089,7 +52086,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Var är strecken vågräta? Sätt y′ = 0.</p>",
+  "ledtrad": "<p>En konstant lösning har vågräta tangenter. Använd både ekvationen och riktningsfältet.</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 4,
   "tolerans": 0,
@@ -52103,7 +52100,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "lutning när derivatan beror på x och y",
   "t": "<p>För differentialekvationen \\(y'=x+y\\): vilken lutning har lösningskurvan genom punkten \\((1,\\ 2)\\)?</p>",
-  "s": "<div class=\"facit-v2\"><p>Sätt in \\(x=1\\) och \\(y=2\\): \\(y'=1+2=3\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd punkten (1,2)</p>\\[y^{\\prime}=x+y=1+2=3\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lutningen är 3.</p></div>",
   "familj": "Grundläggande analys av differentialekvationer",
   "formaga": [
     "procedur"
@@ -52114,7 +52111,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Sätt in punktens koordinater i högerledet.</p>",
+  "ledtrad": "<p>Lutningen är y′. Sätt in båda koordinaterna i högerledet.</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 3,
   "tolerans": 0,
@@ -52128,7 +52125,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "lösningskurvans beteende i ett riktningsfält",
   "t": "<p>Figuren visar riktningsfältet till \\(y'=0{,}25\\,y(4-y)\\) och lösningskurvan som börjar i \\(y(0)=1\\). Hur beter sig lösningen när \\(x\\) växer? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 320\" role=\"img\" aria-label=\"Riktningsfält med vågräta streck vid y = 0 och y = 4 och en röd lösningskurva som börjar vid y = 1 och planar ut mot y = 4.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"16\" x2=\"40.0\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"74.4\" y1=\"16\" x2=\"74.4\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"108.8\" y1=\"16\" x2=\"108.8\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"143.2\" y1=\"16\" x2=\"143.2\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"177.6\" y1=\"16\" x2=\"177.6\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"212.0\" y1=\"16\" x2=\"212.0\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"246.4\" y1=\"16\" x2=\"246.4\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"280.8\" y1=\"16\" x2=\"280.8\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"315.2\" y1=\"16\" x2=\"315.2\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"349.6\" y1=\"16\" x2=\"349.6\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"384.0\" y1=\"16\" x2=\"384.0\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"286.0\" x2=\"384\" y2=\"286.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"241.0\" x2=\"384\" y2=\"241.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"196.0\" x2=\"384\" y2=\"196.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"151.0\" x2=\"384\" y2=\"151.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"106.0\" x2=\"384\" y2=\"106.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"61.0\" x2=\"384\" y2=\"61.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"16.0\" x2=\"384\" y2=\"16.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"286.0\" x2=\"384\" y2=\"286.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"16\" x2=\"40.0\" y2=\"286\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"74.4\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"108.8\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"143.2\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"177.6\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"212.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"246.4\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"280.8\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><text x=\"315.2\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"349.6\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">9</text><text x=\"384.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"34.0\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"34.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"34.0\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"34.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"34.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"34.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"380\" y=\"280.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#172b3a\">x</text><text x=\"46.0\" y=\"28\" font-family=\"Arial,sans-serif\" font-size=\"14\" font-style=\"italic\" fill=\"#172b3a\">y</text><line x1=\"46.5\" y1=\"268.0\" x2=\"62.1\" y2=\"259.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"75.2\" y1=\"268.0\" x2=\"90.8\" y2=\"259.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"103.9\" y1=\"268.0\" x2=\"119.5\" y2=\"259.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"132.5\" y1=\"268.0\" x2=\"148.1\" y2=\"259.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.2\" y1=\"268.0\" x2=\"176.8\" y2=\"259.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"189.9\" y1=\"268.0\" x2=\"205.5\" y2=\"259.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"218.5\" y1=\"268.0\" x2=\"234.1\" y2=\"259.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.2\" y1=\"268.0\" x2=\"262.8\" y2=\"259.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"275.9\" y1=\"268.0\" x2=\"291.5\" y2=\"259.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"304.5\" y1=\"268.0\" x2=\"320.1\" y2=\"259.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"333.2\" y1=\"268.0\" x2=\"348.8\" y2=\"259.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"361.9\" y1=\"268.0\" x2=\"377.5\" y2=\"259.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"47.9\" y1=\"247.3\" x2=\"60.8\" y2=\"234.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"76.6\" y1=\"247.3\" x2=\"89.4\" y2=\"234.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"105.2\" y1=\"247.3\" x2=\"118.1\" y2=\"234.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.9\" y1=\"247.3\" x2=\"146.8\" y2=\"234.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"162.6\" y1=\"247.3\" x2=\"175.4\" y2=\"234.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"191.2\" y1=\"247.3\" x2=\"204.1\" y2=\"234.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"219.9\" y1=\"247.3\" x2=\"232.8\" y2=\"234.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"248.6\" y1=\"247.3\" x2=\"261.4\" y2=\"234.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.2\" y1=\"247.3\" x2=\"290.1\" y2=\"234.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"305.9\" y1=\"247.3\" x2=\"318.8\" y2=\"234.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"334.6\" y1=\"247.3\" x2=\"347.4\" y2=\"234.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"363.2\" y1=\"247.3\" x2=\"376.1\" y2=\"234.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"48.6\" y1=\"225.5\" x2=\"60.0\" y2=\"211.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"77.3\" y1=\"225.5\" x2=\"88.7\" y2=\"211.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.0\" y1=\"225.5\" x2=\"117.4\" y2=\"211.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"134.6\" y1=\"225.5\" x2=\"146.0\" y2=\"211.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"163.3\" y1=\"225.5\" x2=\"174.7\" y2=\"211.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"192.0\" y1=\"225.5\" x2=\"203.4\" y2=\"211.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"220.6\" y1=\"225.5\" x2=\"232.0\" y2=\"211.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"249.3\" y1=\"225.5\" x2=\"260.7\" y2=\"211.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"278.0\" y1=\"225.5\" x2=\"289.4\" y2=\"211.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"306.6\" y1=\"225.5\" x2=\"318.0\" y2=\"211.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"335.3\" y1=\"225.5\" x2=\"346.7\" y2=\"211.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"364.0\" y1=\"225.5\" x2=\"375.4\" y2=\"211.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"48.9\" y1=\"203.2\" x2=\"59.8\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"77.5\" y1=\"203.2\" x2=\"88.5\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.2\" y1=\"203.2\" x2=\"117.1\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"134.9\" y1=\"203.2\" x2=\"145.8\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"163.5\" y1=\"203.2\" x2=\"174.5\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"192.2\" y1=\"203.2\" x2=\"203.1\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"220.9\" y1=\"203.2\" x2=\"231.8\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"249.5\" y1=\"203.2\" x2=\"260.5\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"278.2\" y1=\"203.2\" x2=\"289.1\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"306.9\" y1=\"203.2\" x2=\"317.8\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"335.5\" y1=\"203.2\" x2=\"346.5\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"364.2\" y1=\"203.2\" x2=\"375.1\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"48.6\" y1=\"180.5\" x2=\"60.0\" y2=\"166.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"77.3\" y1=\"180.5\" x2=\"88.7\" y2=\"166.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.0\" y1=\"180.5\" x2=\"117.4\" y2=\"166.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"134.6\" y1=\"180.5\" x2=\"146.0\" y2=\"166.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"163.3\" y1=\"180.5\" x2=\"174.7\" y2=\"166.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"192.0\" y1=\"180.5\" x2=\"203.4\" y2=\"166.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"220.6\" y1=\"180.5\" x2=\"232.0\" y2=\"166.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"249.3\" y1=\"180.5\" x2=\"260.7\" y2=\"166.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"278.0\" y1=\"180.5\" x2=\"289.4\" y2=\"166.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"306.6\" y1=\"180.5\" x2=\"318.0\" y2=\"166.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"335.3\" y1=\"180.5\" x2=\"346.7\" y2=\"166.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"364.0\" y1=\"180.5\" x2=\"375.4\" y2=\"166.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"47.9\" y1=\"157.3\" x2=\"60.8\" y2=\"144.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"76.6\" y1=\"157.3\" x2=\"89.4\" y2=\"144.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"105.2\" y1=\"157.3\" x2=\"118.1\" y2=\"144.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.9\" y1=\"157.3\" x2=\"146.8\" y2=\"144.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"162.6\" y1=\"157.3\" x2=\"175.4\" y2=\"144.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"191.2\" y1=\"157.3\" x2=\"204.1\" y2=\"144.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"219.9\" y1=\"157.3\" x2=\"232.8\" y2=\"144.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"248.6\" y1=\"157.3\" x2=\"261.4\" y2=\"144.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"277.2\" y1=\"157.3\" x2=\"290.1\" y2=\"144.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"305.9\" y1=\"157.3\" x2=\"318.8\" y2=\"144.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"334.6\" y1=\"157.3\" x2=\"347.4\" y2=\"144.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"363.2\" y1=\"157.3\" x2=\"376.1\" y2=\"144.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"46.5\" y1=\"133.0\" x2=\"62.1\" y2=\"124.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"75.2\" y1=\"133.0\" x2=\"90.8\" y2=\"124.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"103.9\" y1=\"133.0\" x2=\"119.5\" y2=\"124.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"132.5\" y1=\"133.0\" x2=\"148.1\" y2=\"124.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.2\" y1=\"133.0\" x2=\"176.8\" y2=\"124.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"189.9\" y1=\"133.0\" x2=\"205.5\" y2=\"124.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"218.5\" y1=\"133.0\" x2=\"234.1\" y2=\"124.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.2\" y1=\"133.0\" x2=\"262.8\" y2=\"124.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"275.9\" y1=\"133.0\" x2=\"291.5\" y2=\"124.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"304.5\" y1=\"133.0\" x2=\"320.1\" y2=\"124.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"333.2\" y1=\"133.0\" x2=\"348.8\" y2=\"124.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"361.9\" y1=\"133.0\" x2=\"377.5\" y2=\"124.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"45.3\" y1=\"106.0\" x2=\"63.3\" y2=\"106.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"74.0\" y1=\"106.0\" x2=\"92.0\" y2=\"106.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"102.7\" y1=\"106.0\" x2=\"120.7\" y2=\"106.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"131.3\" y1=\"106.0\" x2=\"149.3\" y2=\"106.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"160.0\" y1=\"106.0\" x2=\"178.0\" y2=\"106.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.7\" y1=\"106.0\" x2=\"206.7\" y2=\"106.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.3\" y1=\"106.0\" x2=\"235.3\" y2=\"106.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"246.0\" y1=\"106.0\" x2=\"264.0\" y2=\"106.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"274.7\" y1=\"106.0\" x2=\"292.7\" y2=\"106.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"303.3\" y1=\"106.0\" x2=\"321.3\" y2=\"106.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"332.0\" y1=\"106.0\" x2=\"350.0\" y2=\"106.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"360.7\" y1=\"106.0\" x2=\"378.7\" y2=\"106.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"47.1\" y1=\"78.2\" x2=\"61.6\" y2=\"88.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"75.8\" y1=\"78.2\" x2=\"90.2\" y2=\"88.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"104.4\" y1=\"78.2\" x2=\"118.9\" y2=\"88.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"133.1\" y1=\"78.2\" x2=\"147.6\" y2=\"88.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.8\" y1=\"78.2\" x2=\"176.2\" y2=\"88.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"190.4\" y1=\"78.2\" x2=\"204.9\" y2=\"88.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"219.1\" y1=\"78.2\" x2=\"233.6\" y2=\"88.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.8\" y1=\"78.2\" x2=\"262.2\" y2=\"88.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"276.4\" y1=\"78.2\" x2=\"290.9\" y2=\"88.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"305.1\" y1=\"78.2\" x2=\"319.6\" y2=\"88.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"333.8\" y1=\"78.2\" x2=\"348.2\" y2=\"88.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"362.4\" y1=\"78.2\" x2=\"376.9\" y2=\"88.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"49.6\" y1=\"53.3\" x2=\"59.0\" y2=\"68.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.3\" y1=\"53.3\" x2=\"87.7\" y2=\"68.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"107.0\" y1=\"53.3\" x2=\"116.4\" y2=\"68.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"135.6\" y1=\"53.3\" x2=\"145.0\" y2=\"68.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"164.3\" y1=\"53.3\" x2=\"173.7\" y2=\"68.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"193.0\" y1=\"53.3\" x2=\"202.4\" y2=\"68.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"221.6\" y1=\"53.3\" x2=\"231.0\" y2=\"68.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"250.3\" y1=\"53.3\" x2=\"259.7\" y2=\"68.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"279.0\" y1=\"53.3\" x2=\"288.4\" y2=\"68.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"307.6\" y1=\"53.3\" x2=\"317.0\" y2=\"68.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.3\" y1=\"53.3\" x2=\"345.7\" y2=\"68.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.0\" y1=\"53.3\" x2=\"374.4\" y2=\"68.7\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"51.2\" y1=\"30.1\" x2=\"57.5\" y2=\"46.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"79.9\" y1=\"30.1\" x2=\"86.1\" y2=\"46.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"108.5\" y1=\"30.1\" x2=\"114.8\" y2=\"46.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"137.2\" y1=\"30.1\" x2=\"143.5\" y2=\"46.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"165.9\" y1=\"30.1\" x2=\"172.1\" y2=\"46.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"194.5\" y1=\"30.1\" x2=\"200.8\" y2=\"46.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"223.2\" y1=\"30.1\" x2=\"229.5\" y2=\"46.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"251.9\" y1=\"30.1\" x2=\"258.1\" y2=\"46.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"280.5\" y1=\"30.1\" x2=\"286.8\" y2=\"46.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"309.2\" y1=\"30.1\" x2=\"315.5\" y2=\"46.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"337.9\" y1=\"30.1\" x2=\"344.1\" y2=\"46.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"366.5\" y1=\"30.1\" x2=\"372.8\" y2=\"46.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><polyline points=\"40.0,241.0 40.9,240.2 41.7,239.3 42.6,238.4 43.4,237.6 44.3,236.7 45.2,235.8 46.0,234.9 46.9,234.0 47.7,233.0 48.6,232.1 49.5,231.2 50.3,230.2 51.2,229.2 52.0,228.3 52.9,227.3 53.8,226.3 54.6,225.3 55.5,224.3 56.3,223.3 57.2,222.3 58.1,221.2 58.9,220.2 59.8,219.2 60.6,218.1 61.5,217.0 62.4,216.0 63.2,214.9 64.1,213.8 64.9,212.8 65.8,211.7 66.7,210.6 67.5,209.5 68.4,208.4 69.2,207.3 70.1,206.2 71.0,205.1 71.8,203.9 72.7,202.8 73.5,201.7 74.4,200.6 75.3,199.5 76.1,198.3 77.0,197.2 77.8,196.1 78.7,195.0 79.6,193.9 80.4,192.7 81.3,191.6 82.1,190.5 83.0,189.4 83.9,188.2 84.7,187.1 85.6,186.0 86.4,184.9 87.3,183.8 88.2,182.7 89.0,181.6 89.9,180.5 90.7,179.4 91.6,178.3 92.5,177.2 93.3,176.2 94.2,175.1 95.0,174.0 95.9,173.0 96.8,171.9 97.6,170.9 98.5,169.8 99.3,168.8 100.2,167.8 101.1,166.8 101.9,165.8 102.8,164.8 103.6,163.8 104.5,162.8 105.4,161.8 106.2,160.9 107.1,159.9 107.9,159.0 108.8,158.0 109.7,157.1 110.5,156.2 111.4,155.3 112.2,154.4 113.1,153.5 114.0,152.6 114.8,151.8 115.7,150.9 116.5,150.1 117.4,149.2 118.3,148.4 119.1,147.6 120.0,146.8 120.8,146.0 121.7,145.2 122.6,144.5 123.4,143.7 124.3,143.0 125.1,142.2 126.0,141.5 126.9,140.8 127.7,140.1 128.6,139.4 129.4,138.7 130.3,138.1 131.2,137.4 132.0,136.7 132.9,136.1 133.7,135.5 134.6,134.9 135.5,134.3 136.3,133.7 137.2,133.1 138.0,132.5 138.9,131.9 139.8,131.4 140.6,130.8 141.5,130.3 142.3,129.8 143.2,129.3 144.1,128.8 144.9,128.3 145.8,127.8 146.6,127.3 147.5,126.8 148.4,126.4 149.2,125.9 150.1,125.5 150.9,125.0 151.8,124.6 152.7,124.2 153.5,123.8 154.4,123.4 155.2,123.0 156.1,122.6 157.0,122.2 157.8,121.9 158.7,121.5 159.5,121.1 160.4,120.8 161.3,120.5 162.1,120.1 163.0,119.8 163.8,119.5 164.7,119.2 165.6,118.9 166.4,118.6 167.3,118.3 168.1,118.0 169.0,117.7 169.9,117.4 170.7,117.2 171.6,116.9 172.4,116.6 173.3,116.4 174.2,116.2 175.0,115.9 175.9,115.7 176.7,115.5 177.6,115.2 178.5,115.0 179.3,114.8 180.2,114.6 181.0,114.4 181.9,114.2 182.8,114.0 183.6,113.8 184.5,113.6 185.3,113.4 186.2,113.2 187.1,113.1 187.9,112.9 188.8,112.7 189.6,112.6 190.5,112.4 191.4,112.3 192.2,112.1 193.1,112.0 193.9,111.8 194.8,111.7 195.7,111.5 196.5,111.4 197.4,111.3 198.2,111.1 199.1,111.0 200.0,110.9 200.8,110.8 201.7,110.7 202.5,110.6 203.4,110.4 204.3,110.3 205.1,110.2 206.0,110.1 206.8,110.0 207.7,109.9 208.6,109.8 209.4,109.7 210.3,109.6 211.1,109.6 212.0,109.5 212.9,109.4 213.7,109.3 214.6,109.2 215.4,109.1 216.3,109.1 217.2,109.0 218.0,108.9 218.9,108.8 219.7,108.8 220.6,108.7 221.5,108.6 222.3,108.6 223.2,108.5 224.0,108.4 224.9,108.4 225.8,108.3 226.6,108.3 227.5,108.2 228.3,108.2 229.2,108.1 230.1,108.1 230.9,108.0 231.8,108.0 232.6,107.9 233.5,107.9 234.4,107.8 235.2,107.8 236.1,107.7 236.9,107.7 237.8,107.6 238.7,107.6 239.5,107.6 240.4,107.5 241.2,107.5 242.1,107.4 243.0,107.4 243.8,107.4 244.7,107.3 245.5,107.3 246.4,107.3 247.3,107.2 248.1,107.2 249.0,107.2 249.8,107.2 250.7,107.1 251.6,107.1 252.4,107.1 253.3,107.0 254.1,107.0 255.0,107.0 255.9,107.0 256.7,106.9 257.6,106.9 258.4,106.9 259.3,106.9 260.2,106.9 261.0,106.8 261.9,106.8 262.7,106.8 263.6,106.8 264.5,106.8 265.3,106.7 266.2,106.7 267.0,106.7 267.9,106.7 268.8,106.7 269.6,106.6 270.5,106.6 271.3,106.6 272.2,106.6 273.1,106.6 273.9,106.6 274.8,106.6 275.6,106.5 276.5,106.5 277.4,106.5 278.2,106.5 279.1,106.5 279.9,106.5 280.8,106.5 281.7,106.5 282.5,106.4 283.4,106.4 284.2,106.4 285.1,106.4 286.0,106.4 286.8,106.4 287.7,106.4 288.5,106.4 289.4,106.4 290.3,106.4 291.1,106.3 292.0,106.3 292.8,106.3 293.7,106.3 294.6,106.3 295.4,106.3 296.3,106.3 297.1,106.3 298.0,106.3 298.9,106.3 299.7,106.3 300.6,106.3 301.4,106.3 302.3,106.2 303.2,106.2 304.0,106.2 304.9,106.2 305.7,106.2 306.6,106.2 307.5,106.2 308.3,106.2 309.2,106.2 310.0,106.2 310.9,106.2 311.8,106.2 312.6,106.2 313.5,106.2 314.3,106.2 315.2,106.2 316.1,106.2 316.9,106.2 317.8,106.2 318.6,106.2 319.5,106.1 320.4,106.1 321.2,106.1 322.1,106.1 322.9,106.1 323.8,106.1 324.7,106.1 325.5,106.1 326.4,106.1 327.2,106.1 328.1,106.1 329.0,106.1 329.8,106.1 330.7,106.1 331.5,106.1 332.4,106.1 333.3,106.1 334.1,106.1 335.0,106.1 335.8,106.1 336.7,106.1 337.6,106.1 338.4,106.1 339.3,106.1 340.1,106.1 341.0,106.1 341.9,106.1 342.7,106.1 343.6,106.1 344.4,106.1 345.3,106.1 346.2,106.1 347.0,106.1 347.9,106.1 348.7,106.1 349.6,106.1 350.5,106.1 351.3,106.1 352.2,106.1 353.0,106.1 353.9,106.1 354.8,106.1 355.6,106.1 356.5,106.1 357.3,106.0 358.2,106.0 359.1,106.0 359.9,106.0 360.8,106.0 361.6,106.0 362.5,106.0 363.4,106.0 364.2,106.0 365.1,106.0 365.9,106.0 366.8,106.0 367.7,106.0 368.5,106.0 369.4,106.0 370.2,106.0 371.1,106.0 372.0,106.0 372.8,106.0 373.7,106.0 374.5,106.0 375.4,106.0 376.3,106.0 377.1,106.0 378.0,106.0 378.8,106.0 379.7,106.0 380.6,106.0 381.4,106.0 382.3,106.0 383.1,106.0 384.0,106.0\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2.5\"/><circle cx=\"40.0\" cy=\"241.0\" r=\"4.5\" fill=\"#c8372d\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>För \\(0\\lt y\\lt4\\) är \\(y'\\gt0\\), så lösningen växer. När \\(y\\) närmar sig 4 går \\(y'\\) mot 0, och kurvan planar ut mot \\(y=4\\) utan att passera.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Undersök tecknet från startvärdet 1</p><p>Mellan y=0 och y=4 är båda faktorerna y och 4−y positiva. Därför växer lösningen som börjar vid 1.</p></li><li><p class=\"facit-rubrik\">Undersök vad som händer nära 4</p><p>När y närmar sig 4 går faktorn 4−y mot noll. Lutningen går därför mot noll och kurvan planar ut mot jämvikten y=4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lösningen växer och närmar sig \\(y=4\\).</p></div>",
   "familj": "Riktningsfält och jämvikter",
   "formaga": [
     "begrepp",
@@ -52138,9 +52135,9 @@ window.BANKMATF1 = [
   "geogebra": false,
   "spel": true,
   "självrättning": true,
-  "traningsniva": 3,
+  "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Vilket tecken har y′ mellan 0 och 4? Vad händer när y närmar sig 4?</p>",
+  "ledtrad": "<p>Vilket tecken har produkten mellan jämvikterna? Jämför med hur den ritade kurvan utvecklas.</p>",
   "svarstyp": "alternativ",
   "rättSvar": null,
   "tolerans": null,
@@ -52175,7 +52172,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "stabil jämvikt",
   "t": "<p>Figuren visar riktningsfältet till \\(y'=-2(y-3)\\) och jämviktslinjen \\(y=3\\) (streckad). Är jämvikten stabil? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 320\" role=\"img\" aria-label=\"Riktningsfält där strecken pekar nedåt ovanför y = 3 och uppåt under y = 3. Linjen y = 3 är streckad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"16\" x2=\"40.0\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"108.8\" y1=\"16\" x2=\"108.8\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"177.6\" y1=\"16\" x2=\"177.6\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"246.4\" y1=\"16\" x2=\"246.4\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"315.2\" y1=\"16\" x2=\"315.2\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"384.0\" y1=\"16\" x2=\"384.0\" y2=\"286\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"286.0\" x2=\"384\" y2=\"286.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"241.0\" x2=\"384\" y2=\"241.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"196.0\" x2=\"384\" y2=\"196.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"151.0\" x2=\"384\" y2=\"151.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"106.0\" x2=\"384\" y2=\"106.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"61.0\" x2=\"384\" y2=\"61.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"16.0\" x2=\"384\" y2=\"16.0\" stroke=\"#eef2f6\"/><line x1=\"40\" y1=\"286.0\" x2=\"384\" y2=\"286.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"16\" x2=\"40.0\" y2=\"286\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"108.8\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"177.6\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"246.4\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"315.2\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"384.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"34.0\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"34.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"34.0\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"34.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"34.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"34.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"380\" y=\"280.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"end\" fill=\"#172b3a\">x</text><text x=\"46.0\" y=\"28\" font-family=\"Arial,sans-serif\" font-size=\"14\" font-style=\"italic\" fill=\"#172b3a\">y</text><line x1=\"51.7\" y1=\"272.1\" x2=\"57.0\" y2=\"254.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"80.4\" y1=\"272.1\" x2=\"85.6\" y2=\"254.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"109.0\" y1=\"272.1\" x2=\"114.3\" y2=\"254.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"137.7\" y1=\"272.1\" x2=\"143.0\" y2=\"254.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"166.4\" y1=\"272.1\" x2=\"171.6\" y2=\"254.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"195.0\" y1=\"272.1\" x2=\"200.3\" y2=\"254.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"223.7\" y1=\"272.1\" x2=\"229.0\" y2=\"254.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"252.4\" y1=\"272.1\" x2=\"257.6\" y2=\"254.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"281.0\" y1=\"272.1\" x2=\"286.3\" y2=\"254.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"309.7\" y1=\"272.1\" x2=\"315.0\" y2=\"254.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"338.4\" y1=\"272.1\" x2=\"343.6\" y2=\"254.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"367.0\" y1=\"272.1\" x2=\"372.3\" y2=\"254.9\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"51.1\" y1=\"249.4\" x2=\"57.5\" y2=\"232.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"79.8\" y1=\"249.4\" x2=\"86.2\" y2=\"232.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"108.5\" y1=\"249.4\" x2=\"114.9\" y2=\"232.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"137.1\" y1=\"249.4\" x2=\"143.5\" y2=\"232.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"165.8\" y1=\"249.4\" x2=\"172.2\" y2=\"232.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"194.5\" y1=\"249.4\" x2=\"200.9\" y2=\"232.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"223.1\" y1=\"249.4\" x2=\"229.5\" y2=\"232.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"251.8\" y1=\"249.4\" x2=\"258.2\" y2=\"232.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"280.5\" y1=\"249.4\" x2=\"286.9\" y2=\"232.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"309.1\" y1=\"249.4\" x2=\"315.5\" y2=\"232.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"337.8\" y1=\"249.4\" x2=\"344.2\" y2=\"232.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"366.5\" y1=\"249.4\" x2=\"372.9\" y2=\"232.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"50.2\" y1=\"226.5\" x2=\"58.4\" y2=\"210.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.9\" y1=\"226.5\" x2=\"87.1\" y2=\"210.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"107.6\" y1=\"226.5\" x2=\"115.8\" y2=\"210.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"136.2\" y1=\"226.5\" x2=\"144.4\" y2=\"210.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"164.9\" y1=\"226.5\" x2=\"173.1\" y2=\"210.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"193.6\" y1=\"226.5\" x2=\"201.8\" y2=\"210.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"222.2\" y1=\"226.5\" x2=\"230.4\" y2=\"210.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"250.9\" y1=\"226.5\" x2=\"259.1\" y2=\"210.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"279.6\" y1=\"226.5\" x2=\"287.8\" y2=\"210.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"308.2\" y1=\"226.5\" x2=\"316.4\" y2=\"210.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.9\" y1=\"226.5\" x2=\"345.1\" y2=\"210.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.6\" y1=\"226.5\" x2=\"373.8\" y2=\"210.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"48.9\" y1=\"203.2\" x2=\"59.8\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"77.5\" y1=\"203.2\" x2=\"88.5\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.2\" y1=\"203.2\" x2=\"117.1\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"134.9\" y1=\"203.2\" x2=\"145.8\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"163.5\" y1=\"203.2\" x2=\"174.5\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"192.2\" y1=\"203.2\" x2=\"203.1\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"220.9\" y1=\"203.2\" x2=\"231.8\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"249.5\" y1=\"203.2\" x2=\"260.5\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"278.2\" y1=\"203.2\" x2=\"289.1\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"306.9\" y1=\"203.2\" x2=\"317.8\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"335.5\" y1=\"203.2\" x2=\"346.5\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"364.2\" y1=\"203.2\" x2=\"375.1\" y2=\"188.8\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"46.8\" y1=\"178.4\" x2=\"61.9\" y2=\"168.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"75.5\" y1=\"178.4\" x2=\"90.5\" y2=\"168.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"104.1\" y1=\"178.4\" x2=\"119.2\" y2=\"168.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"132.8\" y1=\"178.4\" x2=\"147.9\" y2=\"168.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.5\" y1=\"178.4\" x2=\"176.5\" y2=\"168.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"190.1\" y1=\"178.4\" x2=\"205.2\" y2=\"168.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"218.8\" y1=\"178.4\" x2=\"233.9\" y2=\"168.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.5\" y1=\"178.4\" x2=\"262.5\" y2=\"168.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"276.1\" y1=\"178.4\" x2=\"291.2\" y2=\"168.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"304.8\" y1=\"178.4\" x2=\"319.9\" y2=\"168.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"333.5\" y1=\"178.4\" x2=\"348.5\" y2=\"168.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"362.1\" y1=\"178.4\" x2=\"377.2\" y2=\"168.6\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"45.3\" y1=\"151.0\" x2=\"63.3\" y2=\"151.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"74.0\" y1=\"151.0\" x2=\"92.0\" y2=\"151.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"102.7\" y1=\"151.0\" x2=\"120.7\" y2=\"151.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"131.3\" y1=\"151.0\" x2=\"149.3\" y2=\"151.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"160.0\" y1=\"151.0\" x2=\"178.0\" y2=\"151.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"188.7\" y1=\"151.0\" x2=\"206.7\" y2=\"151.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"217.3\" y1=\"151.0\" x2=\"235.3\" y2=\"151.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"246.0\" y1=\"151.0\" x2=\"264.0\" y2=\"151.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"274.7\" y1=\"151.0\" x2=\"292.7\" y2=\"151.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"303.3\" y1=\"151.0\" x2=\"321.3\" y2=\"151.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"332.0\" y1=\"151.0\" x2=\"350.0\" y2=\"151.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"360.7\" y1=\"151.0\" x2=\"378.7\" y2=\"151.0\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"46.8\" y1=\"123.6\" x2=\"61.9\" y2=\"133.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"75.5\" y1=\"123.6\" x2=\"90.5\" y2=\"133.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"104.1\" y1=\"123.6\" x2=\"119.2\" y2=\"133.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"132.8\" y1=\"123.6\" x2=\"147.9\" y2=\"133.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"161.5\" y1=\"123.6\" x2=\"176.5\" y2=\"133.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"190.1\" y1=\"123.6\" x2=\"205.2\" y2=\"133.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"218.8\" y1=\"123.6\" x2=\"233.9\" y2=\"133.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"247.5\" y1=\"123.6\" x2=\"262.5\" y2=\"133.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"276.1\" y1=\"123.6\" x2=\"291.2\" y2=\"133.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"304.8\" y1=\"123.6\" x2=\"319.9\" y2=\"133.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"333.5\" y1=\"123.6\" x2=\"348.5\" y2=\"133.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"362.1\" y1=\"123.6\" x2=\"377.2\" y2=\"133.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"48.9\" y1=\"98.8\" x2=\"59.8\" y2=\"113.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"77.5\" y1=\"98.8\" x2=\"88.5\" y2=\"113.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"106.2\" y1=\"98.8\" x2=\"117.1\" y2=\"113.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"134.9\" y1=\"98.8\" x2=\"145.8\" y2=\"113.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"163.5\" y1=\"98.8\" x2=\"174.5\" y2=\"113.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"192.2\" y1=\"98.8\" x2=\"203.1\" y2=\"113.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"220.9\" y1=\"98.8\" x2=\"231.8\" y2=\"113.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"249.5\" y1=\"98.8\" x2=\"260.5\" y2=\"113.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"278.2\" y1=\"98.8\" x2=\"289.1\" y2=\"113.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"306.9\" y1=\"98.8\" x2=\"317.8\" y2=\"113.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"335.5\" y1=\"98.8\" x2=\"346.5\" y2=\"113.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"364.2\" y1=\"98.8\" x2=\"375.1\" y2=\"113.2\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"50.2\" y1=\"75.5\" x2=\"58.4\" y2=\"91.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"78.9\" y1=\"75.5\" x2=\"87.1\" y2=\"91.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"107.6\" y1=\"75.5\" x2=\"115.8\" y2=\"91.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"136.2\" y1=\"75.5\" x2=\"144.4\" y2=\"91.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"164.9\" y1=\"75.5\" x2=\"173.1\" y2=\"91.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"193.6\" y1=\"75.5\" x2=\"201.8\" y2=\"91.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"222.2\" y1=\"75.5\" x2=\"230.4\" y2=\"91.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"250.9\" y1=\"75.5\" x2=\"259.1\" y2=\"91.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"279.6\" y1=\"75.5\" x2=\"287.8\" y2=\"91.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"308.2\" y1=\"75.5\" x2=\"316.4\" y2=\"91.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"336.9\" y1=\"75.5\" x2=\"345.1\" y2=\"91.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"365.6\" y1=\"75.5\" x2=\"373.8\" y2=\"91.5\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"51.1\" y1=\"52.6\" x2=\"57.5\" y2=\"69.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"79.8\" y1=\"52.6\" x2=\"86.2\" y2=\"69.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"108.5\" y1=\"52.6\" x2=\"114.9\" y2=\"69.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"137.1\" y1=\"52.6\" x2=\"143.5\" y2=\"69.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"165.8\" y1=\"52.6\" x2=\"172.2\" y2=\"69.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"194.5\" y1=\"52.6\" x2=\"200.9\" y2=\"69.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"223.1\" y1=\"52.6\" x2=\"229.5\" y2=\"69.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"251.8\" y1=\"52.6\" x2=\"258.2\" y2=\"69.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"280.5\" y1=\"52.6\" x2=\"286.9\" y2=\"69.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"309.1\" y1=\"52.6\" x2=\"315.5\" y2=\"69.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"337.8\" y1=\"52.6\" x2=\"344.2\" y2=\"69.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"366.5\" y1=\"52.6\" x2=\"372.9\" y2=\"69.4\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"51.7\" y1=\"29.9\" x2=\"57.0\" y2=\"47.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"80.4\" y1=\"29.9\" x2=\"85.6\" y2=\"47.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"109.0\" y1=\"29.9\" x2=\"114.3\" y2=\"47.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"137.7\" y1=\"29.9\" x2=\"143.0\" y2=\"47.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"166.4\" y1=\"29.9\" x2=\"171.6\" y2=\"47.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"195.0\" y1=\"29.9\" x2=\"200.3\" y2=\"47.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"223.7\" y1=\"29.9\" x2=\"229.0\" y2=\"47.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"252.4\" y1=\"29.9\" x2=\"257.6\" y2=\"47.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"281.0\" y1=\"29.9\" x2=\"286.3\" y2=\"47.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"309.7\" y1=\"29.9\" x2=\"315.0\" y2=\"47.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"338.4\" y1=\"29.9\" x2=\"343.6\" y2=\"47.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"367.0\" y1=\"29.9\" x2=\"372.3\" y2=\"47.1\" stroke=\"#5b7fa8\" stroke-width=\"1.6\"/><line x1=\"40\" y1=\"151.0\" x2=\"384\" y2=\"151.0\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Över \\(y=3\\) är \\(y'\\lt0\\), så lösningarna sjunker mot 3. Under \\(y=3\\) är \\(y'\\gt0\\), så de stiger mot 3. Lösningar nära 3 dras mot jämvikten, som alltså är stabil.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Undersök lösningar över y=3</p><p>y−3 är positivt, så y′=−2(y−3) är negativt. Lösningarna minskar mot 3.</p></li><li><p class=\"facit-rubrik\">Undersök lösningar under y=3</p><p>y−3 är negativt, så y′ är positivt. Lösningarna ökar mot 3.</p></li><li><p class=\"facit-rubrik\">Sammanfatta stabiliteten</p><p>På båda sidor rör sig lösningarna mot jämvikten när x ökar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja, jämvikten är stabil.</p></div>",
   "familj": "Riktningsfält och jämvikter",
   "formaga": [
     "begrepp",
@@ -52185,9 +52182,9 @@ window.BANKMATF1 = [
   "geogebra": false,
   "spel": true,
   "självrättning": true,
-  "traningsniva": 3,
+  "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Pekar strecken mot linjen eller bort från den, på båda sidor?</p>",
+  "ledtrad": "<p>Vilket tecken har derivatan ovanför respektive under den streckade linjen?</p>",
   "svarstyp": "alternativ",
   "rättSvar": null,
   "tolerans": null,
@@ -52217,7 +52214,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "bestämma konstant så att en funktion är lösning",
   "t": "<p>Funktionen \\(y=x^2\\) är en lösning till \\(xy'=ay\\). Bestäm \\(a\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>\\(y'=2x\\). Insättning: \\(x\\cdot2x=a\\cdot x^2\\), alltså \\(2x^2=ax^2\\) för alla \\(x\\), så \\(a=2\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och sätt in y=x²</p>\\[y^{\\prime}=2x\\]\\[x\\cdot2x=a x^2\\]</li><li><p class=\"facit-rubrik\">Jämför koefficienterna</p><p>2x²=ax² ska gälla för alla x. Vid till exempel x=1 får vi a=2. Med a=2 stämmer likheten även vid alla andra x, inklusive x=0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2\\).</p></div>",
   "familj": "Grundläggande analys av differentialekvationer",
   "formaga": [
     "procedur"
@@ -52228,7 +52225,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Derivera y och sätt in i båda leden.</p>",
+  "ledtrad": "<p>Derivera den givna funktionen och sätt in i båda leden. Likheten ska gälla för alla x.</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 2,
   "tolerans": 0,
@@ -52238,11 +52235,11 @@ window.BANKMATF1 = [
   "id": "4.584",
   "kap": 4,
   "omr": "vad_ar_diffekv",
-  "niva": "C",
-  "poang": "0/1/0",
+  "niva": "E",
+  "poang": "2/0/0",
   "typ": "ställa upp en modell för avsvalning",
   "t": "<p>En kopp te svalnar i ett rum som håller 20 °C. Temperaturen \\(T\\) ändras med en hastighet som är proportionell mot skillnaden mellan \\(T\\) och rumstemperaturen, med proportionalitetskonstanten 0,1 per minut. Vilken differentialekvation beskriver förloppet? (Välj ett alternativ.)</p>",
-  "s": "<div class=\"facit-v2\"><p>Ändringshastigheten är \\(T'\\). Den är proportionell mot \\(T-20\\), och teet svalnar, alltså \\(T'\\lt0\\) när \\(T\\gt20\\). Det ger \\(T'=-0{,}1(T-20)\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beskriv temperaturskillnaden</p><p>Skillnaden mellan teet och rummet är T−20. Ändringshastigheten har storleken 0,1 gånger denna skillnad när teet är varmare.</p></li><li><p class=\"facit-rubrik\">Välj tecknet som ger avsvalning</p><p>När T &gt; 20 ska T′ vara negativt. Därför behövs ett minustecken:</p>\\[T^{\\prime}=-0{,}1(T-20)\\]</li><li><p class=\"facit-rubrik\">Kontrollera jämvikten</p><p>Vid T=20 blir derivatan noll: temperaturen slutar ändras när teet har samma temperatur som rummet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(T^{\\prime}=-0{,}1(T-20)\\).</p></div>",
   "familj": "Grundläggande analys av differentialekvationer",
   "formaga": [
     "modellering",
@@ -52252,9 +52249,9 @@ window.BANKMATF1 = [
   "geogebra": false,
   "spel": true,
   "självrättning": true,
-  "traningsniva": 4,
+  "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Vilket tecken ska T′ ha när teet är varmare än rummet?</p>",
+  "ledtrad": "<p>Hastigheten uttrycks med en derivata. Vilket tecken behövs när teet är varmare än rummet?</p>",
   "svarstyp": "alternativ",
   "rättSvar": null,
   "tolerans": null,

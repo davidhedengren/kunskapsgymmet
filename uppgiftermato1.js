@@ -118524,6 +118524,368 @@ window.BANKMATO1 = [
   "rättSvar": 26.9,
   "tolerans": 0.1,
   "svarEnhet": "cm²"
+},
+{
+  "id": "3.1258",
+  "kap": 3,
+  "omr": "primitiva_villkor",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "läge ur hastighet och startläge",
+  "t": "<p>Ett föremål rör sig längs en linje. Hastigheten är \\(v(t)=6-2t\\) m/s, och vid tiden \\(t=0\\) befinner sig föremålet 4 m från startlinjen, alltså \\(s(0)=4\\). Hur långt från startlinjen är föremålet när \\(t=5\\)? (Svara i meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läget är en primitiv funktion till hastigheten</p><div class=\"facit-matte\">\\[s(t)=6t-t^2+C\\]</div></li><li><p class=\"facit-rubrik\">Startläget bestämmer konstanten</p><div class=\"facit-matte\">\\[s(0)=C=4\\quad\\Rightarrow\\quad s(t)=6t-t^2+4\\]</div></li><li><p class=\"facit-rubrik\">Sätt in t = 5</p><div class=\"facit-matte\">\\[s(5)=30-25+4=9\\]</div><p>Föremålet vände när \\(v(t)=0\\), alltså vid \\(t=3\\), och var då 13 m från linjen. Därefter rörde det sig tillbaka.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9 m från startlinjen.</p></div>",
+  "familj": "Återskapa funktion från derivata",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Läget \\(s(t)\\) har derivatan \\(v(t)\\). Vilken primitiv funktion uppfyller \\(s(0)=4\\)?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9,
+  "tolerans": 0,
+  "svarEnhet": "m"
+},
+{
+  "id": "3.1259",
+  "kap": 3,
+  "omr": "primitiva_villkor",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "funktionsvärde när grafen går genom en given punkt",
+  "t": "<p>För funktionen \\(f\\) gäller \\(f'(x)=3x^2-4x\\), och grafen går genom punkten \\((2,\\ 5)\\). Bestäm \\(f(3)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm alla primitiva funktioner till derivatan</p><div class=\"facit-matte\">\\[f(x)=x^3-2x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Punkten (2, 5) bestämmer C</p><div class=\"facit-matte\">\\[\\begin{gathered}2^3-2\\cdot2^2+C=5\\\\\\Rightarrow 8-8+C=5\\quad \\Rightarrow C=5\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Beräkna funktionsvärdet</p><div class=\"facit-matte\">\\[f(3)=27-18+5=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(3)=14\\)</p></div>",
+  "familj": "Primitiv funktion genom en given punkt",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Ta fram \\(f(x)\\) med en konstant C. Punkten \\((2,\\ 5)\\) ger ett villkor för C.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 14,
+  "tolerans": 0
+},
+{
+  "id": "3.1260",
+  "kap": 3,
+  "omr": "primitiva_villkor",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "derivata med okänd konstant och en given tangent",
+  "t": "<p>För funktionen \\(F\\) gäller \\(F'(x)=3x^2+k\\), där \\(k\\) är en konstant. Tangenten till grafen i punkten där \\(x=1\\) har ekvationen \\(y=5x-2\\). Bestäm \\(F(x)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangentens lutning är derivatan i x = 1</p><div class=\"facit-matte\">\\[F'(1)=3+k=5\\quad\\Rightarrow\\quad k=2\\]</div></li><li><p class=\"facit-rubrik\">Tangeringspunkten ligger både på tangenten och på grafen</p><div class=\"facit-matte\">\\[F(1)=5\\cdot1-2=3\\]</div></li><li><p class=\"facit-rubrik\">Bestäm den primitiva funktionen och konstanten</p><div class=\"facit-matte\">\\[\\begin{gathered}F(x)=x^3+2x+C,\\quad 1+2+C=3\\\\\\Rightarrow C=0\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3+2x\\)</p></div>",
+  "familj": "Återskapa funktion från derivata",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Tangenten ger två upplysningar: lutningen i \\(x=1\\) och funktionsvärdet där.</p>",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "rättSvar": "x^3+2x",
+  "tolerans": null
+},
+{
+  "id": "3.1261",
+  "kap": 3,
+  "omr": "primitiva_villkor",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "volym ur ett flöde och största volymen",
+  "t": "<p>Vatten strömmar in i en tank med flödet \\(r(t)=20-4t\\) liter per minut, där \\(t\\) är tiden i minuter. Från början finns 50 liter i tanken. När är volymen störst, och hur stor är den då? Flödet blir negativt efter en stund, vilket betyder att vatten rinner ut.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymen är en primitiv funktion till flödet</p><div class=\"facit-matte\">\\[\\begin{gathered}V(t)=20t-2t^2+C,\\\\V(0)=50\\ \\Rightarrow\\ C=50\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Volymen slutar öka när flödet är 0</p><div class=\"facit-matte\">\\[20-4t=0\\quad\\Rightarrow\\quad t=5\\]</div><p>Före \\(t=5\\) strömmar vatten in, och efter rinner det ut. Därför är det ett maximum.</p></li><li><p class=\"facit-rubrik\">Volymen vid den tidpunkten</p><div class=\"facit-matte\">\\[V(5)=100-50+50=100\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 5 minuter, då är volymen 100 liter.</p></div>",
+  "familj": "Återskapa funktion från derivata",
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Volymen har flödet som derivata. När slutar volymen att öka?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5,
+    100
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "tid (min)",
+    "volym (liter)"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "3.1262",
+  "kap": 3,
+  "omr": "primitiva_villkor",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "skillnaden mellan två primitiva funktioner",
+  "t": "<p>\\(F\\) och \\(G\\) är två primitiva funktioner till samma funktion \\(f\\). Det gäller att \\(F(0)=2\\) och \\(G(0)=-1\\). Vad gäller för \\(F(5)-G(5)\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två primitiva funktioner till samma funktion skiljer sig med en konstant</p><div class=\"facit-matte\">\\[F(x)-G(x)=C\\ \\text{för alla } x\\]</div><p>Det beror på att \\((F-G)'(x)=f(x)-f(x)=0\\).</p></li><li><p class=\"facit-rubrik\">Konstanten bestäms i x = 0</p><div class=\"facit-matte\">\\[C=F(0)-G(0)=2-(-1)=3\\]</div></li><li><p class=\"facit-rubrik\">Samma skillnad gäller för alla x</p><div class=\"facit-matte\">\\[F(5)-G(5)=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(5)-G(5)=3\\)</p></div>",
+  "familj": "Primitiv funktion genom en given punkt",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vad är derivatan av \\(F(x)-G(x)\\)? Vilken sorts funktion har derivatan 0?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Det beror på vilken funktion f är",
+      "ratt": false,
+      "kommentar": "Skillnaden mellan två primitiva funktioner till samma f är alltid en konstant, oberoende av f."
+    },
+    {
+      "txt": "F(5) − G(5) = 15",
+      "ratt": false,
+      "kommentar": "Skillnaden växer inte med x. Den är konstant och lika stor som i x = 0."
+    },
+    {
+      "txt": "F(5) − G(5) = 3",
+      "ratt": true
+    },
+    {
+      "txt": "F(5) − G(5) = 0",
+      "ratt": false,
+      "kommentar": "F och G är olika primitiva funktioner. De skiljer sig med en konstant, och den är 3 här."
+    }
+  ]
+},
+{
+  "id": "3.1263",
+  "kap": 3,
+  "omr": "storsta_minsta",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "största volym för en öppen låda",
+  "t": "<p>Från en kvadratisk kartongbit med sidan 30 cm klipper man bort en kvadrat med sidan \\(x\\) cm i varje hörn. Sedan viks kanterna upp till en öppen låda.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"310\" height=\"250\" viewBox=\"0 0 310 250\" role=\"img\" aria-label=\"En kvadratisk kartongbit med sidan 30 cm. I varje hörn är en kvadrat med sidan x markerad för att klippas bort. Kanterna viks sedan upp längs de streckade linjerna.\"><title>En kvadratisk kartongbit med sidan 30 cm. I varje hörn är en kvadrat med sidan x markerad för att klippas bort. Kanterna viks sedan upp längs de streckade linjerna.</title><rect x=\"1\" y=\"1\" width=\"308\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"30\" width=\"180\" height=\"180\" fill=\"#eef5f9\" stroke=\"#216d87\" stroke-width=\"2\"/><rect x=\"60\" y=\"30\" width=\"30\" height=\"30\" fill=\"#fdf0e8\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><rect x=\"210\" y=\"30\" width=\"30\" height=\"30\" fill=\"#fdf0e8\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><rect x=\"60\" y=\"180\" width=\"30\" height=\"30\" fill=\"#fdf0e8\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><rect x=\"210\" y=\"180\" width=\"30\" height=\"30\" fill=\"#fdf0e8\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><line x1=\"90.0\" y1=\"60.0\" x2=\"210.0\" y2=\"60.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"90.0\" y1=\"180.0\" x2=\"210.0\" y2=\"180.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"90.0\" y1=\"60.0\" x2=\"90.0\" y2=\"180.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"210.0\" y1=\"60.0\" x2=\"210.0\" y2=\"180.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><text x=\"75.0\" y=\"22.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">x</text><text x=\"52.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">x</text><text x=\"150.0\" y=\"232.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\">30 cm</text></svg></span><p>Lådans volym är \\(V(x)=x(30-2x)^2\\) cm³, där \\(0\\lt x\\lt15\\). För vilket \\(x\\) blir volymen störst, och hur stor är den då?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera ut så att uttrycket kan deriveras term för term</p><div class=\"facit-matte\">\\[\\begin{gathered}V(x) =x(900-120x+4x^2)\\\\=4x^3-120x^2+900x\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Derivatan är 0 i en extrempunkt</p><div class=\"facit-matte\">\\[\\begin{gathered}V'(x)=12x^2-240x+900=0\\\\\\Rightarrow x^2-20x+75=0\\end{gathered}\\]</div><div class=\"facit-matte\">\\[x=10\\pm\\sqrt{100-75}=10\\pm5\\]</div></li><li><p class=\"facit-rubrik\">Bara x = 5 ligger i intervallet</p><p>\\(x=15\\) ger ingen låda. Derivatan är positiv före \\(x=5\\) och negativ efter, så det är ett maximum.</p></li><li><p class=\"facit-rubrik\">Den största volymen</p><div class=\"facit-matte\">\\[V(5)=5\\cdot20^2=2\\,000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Volymen är störst när \\(x=5\\) cm. Då är den 2 000 cm³.</p></div>",
+  "familj": "Största och minsta värde på ett intervall",
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Multiplicera ut \\(V(x)\\) och derivera. Vilka nollställen till derivatan ligger i intervallet?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5,
+    2000
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "x (cm)",
+    "volym (cm³)"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "3.1264",
+  "kap": 3,
+  "omr": "storsta_minsta",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "största värdet antas i en ändpunkt",
+  "t": "<p>Bestäm det största och det minsta värdet av \\(f(x)=x^3-6x^2+9x\\) på intervallet \\(0\\le x\\le5\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hitta derivatans nollställen</p><div class=\"facit-matte\">\\[\\begin{gathered}f'(x) =3x^2-12x+9\\\\=3(x-1)(x-3) =0\\\\\\Rightarrow x=1,\\ x=3\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Beräkna f i nollställena och i intervallets ändpunkter</p><div class=\"facit-matte\">\\[\\begin{gathered}f(0)=0,\\quad f(1)=4,\\quad f(3)=0,\\\\f(5)=20\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Jämför värdena</p><p>Det största värdet är 20 och antas i ändpunkten \\(x=5\\), inte i den lokala maximipunkten. Det minsta värdet är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Största värdet är 20 och minsta värdet är 0.</p></div>",
+  "familj": "Största och minsta värde på ett intervall",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Undersök både derivatans nollställen och intervallets ändpunkter.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    20,
+    0
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "största värde",
+    "minsta värde"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "3.1265",
+  "kap": 3,
+  "omr": "storsta_minsta",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "största area för en hage mot en vägg",
+  "t": "<p>Med 40 m stängsel ska man bygga en rektangulär hage mot en lång vägg. Väggen används som en av sidorna, så stängslet behövs bara på tre sidor.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"210\" viewBox=\"0 0 380 210\" role=\"img\" aria-label=\"En rektangulär hage mot en vägg. Stängslet består av två sidor med längden x och en sida med längden 40 minus 2x mittemot väggen.\"><title>En rektangulär hage mot en vägg. Stängslet består av två sidor med längden x och en sida med längden 40 minus 2x mittemot väggen.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"30\" width=\"300\" height=\"14\" fill=\"#c9ced6\" stroke=\"#243447\" stroke-width=\"1.2\"/><text x=\"190.0\" y=\"25.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">vägg</text><path d=\"M80 44 L80 170 L300 170 L300 44\" fill=\"#eaf5ee\" stroke=\"#2f7d4a\" stroke-width=\"2.6\"/><text x=\"68.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#2f7d4a\" font-weight=\"bold\">x</text><text x=\"312.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">x</text><text x=\"190.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">40 − 2x</text></svg></span><p>Hur stor kan hagens area bli som mest? (Svara i m².)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ställ upp arean som funktion av x</p><p>Sidan mitt emot väggen blir \\(40-2x\\) m.</p><div class=\"facit-matte\">\\[\\begin{gathered}A(x)=x(40-2x)=40x-2x^2,\\\\0\\lt x\\lt20\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Derivatan är 0 där arean är störst</p><div class=\"facit-matte\">\\[A'(x)=40-4x=0\\quad\\Rightarrow\\quad x=10\\]</div><p>Derivatan byter tecken från plus till minus, så det är ett maximum.</p></li><li><p class=\"facit-rubrik\">Beräkna arean</p><div class=\"facit-matte\">\\[A(10)=10\\cdot20=200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Som mest 200 m².</p></div>",
+  "familj": "Extremvärden och värdemängd",
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Kalla de två sidorna vinkelräta mot väggen för x. Hur lång blir då den tredje sidan? Ställ upp arean och derivera.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 200,
+  "tolerans": 0,
+  "svarEnhet": "m²"
+},
+{
+  "id": "3.1266",
+  "kap": 3,
+  "omr": "storsta_minsta",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "var det största värdet kan finnas",
+  "t": "<p>Funktionen \\(f\\) är ett polynom och undersöks på det slutna intervallet \\(a\\le x\\le b\\). Vilket påstående stämmer alltid? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett polynom har ett största värde på ett slutet intervall</p><p>Det antas antingen i en punkt där \\(f'(x)=0\\) eller i en av ändpunkterna \\(a\\) och \\(b\\).</p></li><li><p class=\"facit-rubrik\">Ändpunkterna måste alltid undersökas</p><p>Ett exempel är \\(f(x)=x^3-6x^2+9x\\) på \\(0\\le x\\le5\\). Det största värdet 20 antas i \\(x=5\\), där derivatan inte är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det största värdet antas där \\(f'(x)=0\\) eller i en ändpunkt.</p></div>",
+  "familj": "Största och minsta värde på ett intervall",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Tänk på en funktion som växer på hela intervallet. Var ligger då det största värdet?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Det största värdet antas alltid där f′(x) = 0",
+      "ratt": false,
+      "kommentar": "En växande funktion har sitt största värde i den högra ändpunkten, där derivatan inte behöver vara 0."
+    },
+    {
+      "txt": "Det största värdet antas alltid i en ändpunkt",
+      "ratt": false,
+      "kommentar": "Om funktionen har en maximipunkt inne i intervallet kan värdet där vara störst."
+    },
+    {
+      "txt": "Det största värdet antas där f′(x) = 0 eller i en ändpunkt",
+      "ratt": true
+    },
+    {
+      "txt": "Det finns inget största värde om f′(x) = 0 saknar lösning",
+      "ratt": false,
+      "kommentar": "Då är funktionen växande eller avtagande, och det största värdet finns i en ändpunkt."
+    }
+  ]
 }
 
 ];

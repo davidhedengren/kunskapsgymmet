@@ -116455,6 +116455,242 @@ window.BANKMATO1 = [
   "svarFormat": "numeriskt",
   "rättSvar": 2,
   "tolerans": 0
+},
+{
+  "id": "2.1265",
+  "kap": 2,
+  "omr": "derivata_a_x",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "ökningstakt för en befolkning",
+  "t": "<p>Antalet invånare i en ort beskrivs av \\(P(t)=2\\,400\\cdot1{,}035^t\\), där \\(t\\) är antalet år efter 2020. Hur snabbt ökar antalet invånare år 2030? (Svara i invånare per år med ett heltal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ökningstakten är derivatan. Derivatan av \\(a^t\\) är \\(a^t\\ln a\\)</p><div class=\"facit-matte\">\\[P'(t)=2\\,400\\cdot1{,}035^t\\cdot\\ln1{,}035\\]</div></li><li><p class=\"facit-rubrik\">År 2030 motsvarar \\(t=10\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}P'(10) =2\\,400\\cdot1{,}035^{10}\\cdot\\ln1{,}035\\\\\\approx116{,}5\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 116 invånare per år.</p></div>",
+  "familj": "Derivera a^x",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilket värde på t motsvarar år 2030? Ökningstakten är derivatan, och derivatan av \\(a^t\\) är \\(a^t\\ln a\\).</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 116,
+  "tolerans": 0,
+  "svarEnhet": "invånare/år"
+},
+{
+  "id": "2.1266",
+  "kap": 2,
+  "omr": "derivata_a_x",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "när minskningstakten har ett visst värde",
+  "t": "<p>Mängden av ett läkemedel i blodet är \\(M(t)=40\\cdot0{,}8^t\\) mg, där \\(t\\) är tiden i timmar efter en dos. Efter hur lång tid minskar mängden med 4 mg per timme? (Svara i timmar med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera. Talet \\(\\ln0{,}8\\) är negativt, så derivatan är negativ</p><div class=\"facit-matte\">\\[M'(t)=40\\cdot0{,}8^t\\cdot\\ln0{,}8\\approx-8{,}926\\cdot0{,}8^t\\]</div></li><li><p class=\"facit-rubrik\">En minskning med 4 mg per timme betyder att derivatan är −4</p><div class=\"facit-matte\">\\[\\begin{gathered}40\\cdot\\ln0{,}8\\cdot0{,}8^t=-4\\\\\\Rightarrow 0{,}8^t=\\frac{-4}{40\\ln0{,}8}\\approx0{,}448\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut t med logaritmer</p><div class=\"facit-matte\">\\[t=\\frac{\\ln0{,}448}{\\ln0{,}8}\\approx3{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter ungefär 3,6 timmar.</p></div>",
+  "familj": "Derivera a^x",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilket tecken har derivatan när mängden minskar? Sätt derivatan lika med −4 och lös ekvationen med logaritmer.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3.6,
+  "tolerans": 0.05,
+  "svarEnhet": "h"
+},
+{
+  "id": "2.1267",
+  "kap": 2,
+  "omr": "derivata_a_x",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "tangentens ekvation till en exponentialkurva",
+  "t": "<p>Bestäm ekvationen för tangenten till kurvan \\(y=2^x\\) i punkten där \\(x=3\\). Skriv den på formen \\(y=kx+m\\). (Svara med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangeringspunkten</p><div class=\"facit-matte\">\\[y(3)=2^3=8\\]</div><p>Tangenten går genom punkten \\((3,\\ 8)\\).</p></li><li><p class=\"facit-rubrik\">Tangentens lutning är derivatan i x = 3</p><div class=\"facit-matte\">\\[y'=2^x\\ln2\\quad\\Rightarrow\\quad k=8\\ln2\\approx5{,}55\\]</div></li><li><p class=\"facit-rubrik\">Bestäm m med punkten (3, 8)</p><div class=\"facit-matte\">\\[\\begin{gathered}8=8\\ln2\\cdot3+m\\\\\\Rightarrow m=8-24\\ln2\\approx-8{,}64\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\approx5{,}55x-8{,}64\\)</p></div>",
+  "familj": "Derivera a^x",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm punkten på kurvan och derivatan där. Sätt sedan in punkten i \\(y=kx+m\\).</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5.55,
+    -8.64
+  ],
+  "tolerans": [
+    0.005,
+    0.011
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "k",
+    "m"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "2.1268",
+  "kap": 2,
+  "omr": "derivata_a_x",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "basen som ger en viss lutning i x = 0",
+  "t": "<p>För vilket värde på \\(a\\) har grafen till \\(y=a^x\\) lutningen 2 i punkten där \\(x=0\\)? (Svara med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\) i x = 0</p><div class=\"facit-matte\">\\[\\begin{gathered}y'(x)=a^x\\ln a\\\\\\Rightarrow y'(0)=a^0\\ln a=\\ln a\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lutningen ska vara 2</p><div class=\"facit-matte\">\\[\\ln a=2\\quad\\Rightarrow\\quad a=e^2\\approx7{,}39\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=e^2\\approx7{,}39\\)</p></div>",
+  "familj": "Skriva a^x med basen e",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vad blir \\(a^x\\ln a\\) när \\(x=0\\)? Ställ upp en ekvation för \\(\\ln a\\).</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 7.39,
+  "tolerans": 0.005
+},
+{
+  "id": "2.1269",
+  "kap": 2,
+  "omr": "derivata_a_x",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "derivatan av en exponentialfunktion med negativ exponent",
+  "t": "<p>Vilken är derivatan av \\(f(x)=2^{-x}\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv om med en bas mindre än 1</p><div class=\"facit-matte\">\\[2^{-x}=\\left(\\tfrac12\\right)^x\\]</div></li><li><p class=\"facit-rubrik\">Derivera med regeln för \\(a^x\\)</p><div class=\"facit-matte\">\\[f'(x)=\\left(\\tfrac12\\right)^x\\ln\\tfrac12=2^{-x}\\cdot(-\\ln2)\\]</div></li><li><p class=\"facit-rubrik\">Derivatan är negativ</p><p>Funktionen är avtagande, eftersom \\(\\ln2\\gt0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=-\\ln2\\cdot2^{-x}\\)</p></div>",
+  "familj": "Derivera a^x",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv \\(2^{-x}\\) som \\(a^x\\) med en annan bas a. Är funktionen växande eller avtagande?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "f′(x) = −x · 2^(−x−1)",
+      "ratt": false,
+      "kommentar": "Potensregeln gäller när variabeln står i basen, inte i exponenten."
+    },
+    {
+      "txt": "f′(x) = ln 2 · 2^(−x)",
+      "ratt": false,
+      "kommentar": "Minustecknet i exponenten ger en negativ derivata, eftersom funktionen är avtagande."
+    },
+    {
+      "txt": "f′(x) = −ln 2 · 2^(−x)",
+      "ratt": true
+    },
+    {
+      "txt": "f′(x) = −2^(−x)",
+      "ratt": false,
+      "kommentar": "Faktorn ln 2 saknas. Derivatan av aˣ är aˣ ln a."
+    }
+  ]
+},
+{
+  "id": "2.1270",
+  "kap": 2,
+  "omr": "derivata_a_x",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "ökningstakt jämförd med ökningen under ett år",
+  "t": "<p>Ett sparbelopp är \\(K(t)=10\\,000\\cdot1{,}04^t\\) kr efter \\(t\\) år.</p><p>a) Hur snabbt ökar beloppet när \\(t=5\\)?<br>b) Hur mycket ökar beloppet från \\(t=5\\) till \\(t=6\\)? (Svara i kr med heltal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Ökningstakten i ett ögonblick är derivatan</p><div class=\"facit-matte\">\\[K'(t)=10\\,000\\cdot1{,}04^t\\cdot\\ln1{,}04\\]</div><div class=\"facit-matte\">\\[\\begin{gathered}K'(5) =10\\,000\\cdot1{,}04^5\\cdot\\ln1{,}04\\\\\\approx477\\ \\text{kr/år}\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">b) Ökningen under ett helt år är en differens</p><div class=\"facit-matte\">\\[\\begin{gathered}K(6)-K(5)\\\\\\approx12\\,653{,}19-12\\,166{,}53 \\approx487\\ \\text{kr}\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Varför svaren skiljer sig</p><p>Beloppet växer allt snabbare. Under året ökar därför beloppet lite mer än vad ökningstakten vid \\(t=5\\) anger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) Ungefär 477 kr/år b) Ungefär 487 kr</p></div>",
+  "familj": "Derivera a^x",
+  "formaga": [
+    "begrepp",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>a) gäller ökningstakten i ett visst ögonblick. b) gäller ökningen under ett helt år. Vilken av dem är en derivata?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    477,
+    487
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a) kr/år",
+    "b) kr"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
 }
 
 ];

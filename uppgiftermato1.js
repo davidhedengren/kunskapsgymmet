@@ -117061,7 +117061,7 @@ window.BANKMATO1 = [
   "poang": "0/1/0",
   "typ": "medelkostnad per produkt",
   "t": "<p>Att starta en tillverkning kostar 5 000 kr, och varje produkt kostar sedan 40 kr att tillverka. Medelkostnaden per produkt i kronor är</p><p>\\[M(x)=\\frac{5\\,000+40x}{x},\\]</p><p>där \\(x\\) är antalet produkter. Hur många produkter måste tillverkas för att medelkostnaden ska bli 65 kr?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt medelkostnaden lika med 65</p><div class=\"facit-matte\">\\[\\frac{5\\,000+40x}{x}=65\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med x, som är positivt</p><div class=\"facit-matte\">\\[\\begin{gathered}5\\,000+40x=65x\\quad \\Rightarrow 5\\,000=25x\\\\\\Rightarrow x=200\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[M(200)=\\frac{5\\,000+8\\,000}{200}=65\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 200 produkter.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt medelkostnaden lika med 65</p><div class=\"facit-matte\">\\[\\frac{5\\,000+40x}{x}=65\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med x, som är positivt</p><div class=\"facit-matte\">\\[\\begin{gathered}5\\,000+40x=65x\\quad \\Rightarrow 5\\,000=25x\\\\\\Rightarrow x=200\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">200 produkter ger medelkostnaden 65 kr</p><div class=\"facit-matte\">\\[M(200)=\\frac{5\\,000+8\\,000}{200}=65\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 200 produkter.</p></div>",
   "familj": "Räkna med rationella uttryck",
   "formaga": [
     "modellering",
@@ -117498,6 +117498,207 @@ window.BANKMATO1 = [
       "txt": "f(2) = 5 och f′(2) = 5",
       "ratt": false,
       "kommentar": "Derivatan är tangentens lutning, alltså 3."
+    }
+  ]
+},
+{
+  "id": "3.1252",
+  "kap": 3,
+  "omr": "integral_area",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "area när grafen delvis ligger under x-axeln",
+  "t": "<p>Figuren visar grafen till \\(f(x)=x^2-4\\) för \\(0\\le x\\le3\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"330\" viewBox=\"0 0 400 330\" role=\"img\" aria-label=\"Grafen till y = x² − 4 för x från 0 till 3. Mellan x = 0 och x = 2 ligger kurvan under x-axeln, och mellan x = 2 och x = 3 ligger den över. Båda områdena mellan kurvan och x-axeln är skuggade.\"><title>Grafen till y = x² − 4 för x från 0 till 3. Mellan x = 0 och x = 2 ligger kurvan under x-axeln, och mellan x = 2 och x = 3 ligger den över. Båda områdena mellan kurvan och x-axeln är skuggade.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"24\" x2=\"56.0\" y2=\"294\" stroke=\"#e3e8ee\"/><line x1=\"160.7\" y1=\"24\" x2=\"160.7\" y2=\"294\" stroke=\"#e3e8ee\"/><line x1=\"265.3\" y1=\"24\" x2=\"265.3\" y2=\"294\" stroke=\"#e3e8ee\"/><line x1=\"370.0\" y1=\"24\" x2=\"370.0\" y2=\"294\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"294.0\" x2=\"370\" y2=\"294.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"264.0\" x2=\"370\" y2=\"264.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"234.0\" x2=\"370\" y2=\"234.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"204.0\" x2=\"370\" y2=\"204.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"174.0\" x2=\"370\" y2=\"174.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"144.0\" x2=\"370\" y2=\"144.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"114.0\" x2=\"370\" y2=\"114.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"84.0\" x2=\"370\" y2=\"84.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"54.0\" x2=\"370\" y2=\"54.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"24.0\" x2=\"370\" y2=\"24.0\" stroke=\"#e3e8ee\"/><polygon points=\"56.0,174.0 56.0,294.0 58.1,294.0 60.2,294.0 62.3,293.9 64.4,293.8 66.5,293.7 68.6,293.6 70.7,293.4 72.7,293.2 74.8,293.0 76.9,292.8 79.0,292.5 81.1,292.3 83.2,292.0 85.3,291.6 87.4,291.3 89.5,290.9 91.6,290.5 93.7,290.1 95.8,289.7 97.9,289.2 100.0,288.7 102.1,288.2 104.1,287.7 106.2,287.1 108.3,286.5 110.4,285.9 112.5,285.3 114.6,284.6 116.7,283.9 118.8,283.2 120.9,282.5 123.0,281.7 125.1,280.9 127.2,280.1 129.3,279.3 131.4,278.4 133.5,277.6 135.5,276.7 137.6,275.7 139.7,274.8 141.8,273.8 143.9,272.8 146.0,271.8 148.1,270.8 150.2,269.7 152.3,268.6 154.4,267.5 156.5,266.4 158.6,265.2 160.7,264.0 162.8,262.8 164.9,261.6 166.9,260.3 169.0,259.0 171.1,257.7 173.2,256.4 175.3,255.0 177.4,253.6 179.5,252.2 181.6,250.8 183.7,249.3 185.8,247.9 187.9,246.4 190.0,244.8 192.1,243.3 194.2,241.7 196.3,240.1 198.3,238.5 200.4,236.9 202.5,235.2 204.6,233.5 206.7,231.8 208.8,230.1 210.9,228.3 213.0,226.5 215.1,224.7 217.2,222.9 219.3,221.0 221.4,219.1 223.5,217.2 225.6,215.3 227.7,213.3 229.7,211.3 231.8,209.3 233.9,207.3 236.0,205.2 238.1,203.2 240.2,201.1 242.3,198.9 244.4,196.8 246.5,194.6 248.6,192.4 250.7,190.2 252.8,188.0 254.9,185.7 257.0,183.4 259.1,181.1 261.1,178.8 263.2,176.4 265.3,174.0\" fill=\"#c2410c\" fill-opacity=\"0.18\"/><polygon points=\"265.3,174.0 265.3,174.0 267.4,171.6 269.5,169.2 271.6,166.7 273.7,164.2 275.8,161.7 277.9,159.2 280.0,156.6 282.1,154.0 284.2,151.4 286.3,148.8 288.4,146.1 290.5,143.5 292.5,140.8 294.6,138.0 296.7,135.3 298.8,132.5 300.9,129.7 303.0,126.9 305.1,124.1 307.2,121.2 309.3,118.3 311.4,115.4 313.5,112.5 315.6,109.5 317.7,106.5 319.8,103.5 321.9,100.5 323.9,97.4 326.0,94.3 328.1,91.2 330.2,88.1 332.3,84.9 334.4,81.7 336.5,78.5 338.6,75.3 340.7,72.0 342.8,68.8 344.9,65.5 347.0,62.1 349.1,58.8 351.2,55.4 353.3,52.0 355.3,48.6 357.4,45.2 359.5,41.7 361.6,38.2 363.7,34.7 365.8,31.2 367.9,27.6 370.0,24.0 370.0,174.0\" fill=\"#216d87\" fill-opacity=\"0.18\"/><line x1=\"56\" y1=\"174.0\" x2=\"378\" y2=\"174.0\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"56\" y1=\"294\" x2=\"56\" y2=\"16\" stroke=\"#34495e\" stroke-width=\"1.6\"/><polyline points=\"56.0,294.0 57.0,294.0 58.1,294.0 59.1,294.0 60.2,294.0 61.2,293.9 62.3,293.9 63.3,293.9 64.4,293.8 65.4,293.8 66.5,293.7 67.5,293.6 68.6,293.6 69.6,293.5 70.7,293.4 71.7,293.3 72.7,293.2 73.8,293.1 74.8,293.0 75.9,292.9 76.9,292.8 78.0,292.7 79.0,292.5 80.1,292.4 81.1,292.3 82.2,292.1 83.2,292.0 84.3,291.8 85.3,291.6 86.4,291.5 87.4,291.3 88.4,291.1 89.5,290.9 90.5,290.7 91.6,290.5 92.6,290.3 93.7,290.1 94.7,289.9 95.8,289.7 96.8,289.4 97.9,289.2 98.9,289.0 100.0,288.7 101.0,288.5 102.1,288.2 103.1,287.9 104.1,287.7 105.2,287.4 106.2,287.1 107.3,286.8 108.3,286.5 109.4,286.2 110.4,285.9 111.5,285.6 112.5,285.3 113.6,284.9 114.6,284.6 115.7,284.3 116.7,283.9 117.8,283.6 118.8,283.2 119.8,282.8 120.9,282.5 121.9,282.1 123.0,281.7 124.0,281.3 125.1,280.9 126.1,280.5 127.2,280.1 128.2,279.7 129.3,279.3 130.3,278.9 131.4,278.4 132.4,278.0 133.5,277.6 134.5,277.1 135.5,276.7 136.6,276.2 137.6,275.7 138.7,275.3 139.7,274.8 140.8,274.3 141.8,273.8 142.9,273.3 143.9,272.8 145.0,272.3 146.0,271.8 147.1,271.3 148.1,270.8 149.2,270.2 150.2,269.7 151.2,269.2 152.3,268.6 153.3,268.1 154.4,267.5 155.4,266.9 156.5,266.4 157.5,265.8 158.6,265.2 159.6,264.6 160.7,264.0 161.7,263.4 162.8,262.8 163.8,262.2 164.9,261.6 165.9,260.9 166.9,260.3 168.0,259.7 169.0,259.0 170.1,258.4 171.1,257.7 172.2,257.0 173.2,256.4 174.3,255.7 175.3,255.0 176.4,254.3 177.4,253.6 178.5,252.9 179.5,252.2 180.6,251.5 181.6,250.8 182.6,250.1 183.7,249.3 184.7,248.6 185.8,247.9 186.8,247.1 187.9,246.4 188.9,245.6 190.0,244.8 191.0,244.1 192.1,243.3 193.1,242.5 194.2,241.7 195.2,240.9 196.3,240.1 197.3,239.3 198.3,238.5 199.4,237.7 200.4,236.9 201.5,236.0 202.5,235.2 203.6,234.4 204.6,233.5 205.7,232.7 206.7,231.8 207.8,230.9 208.8,230.1 209.9,229.2 210.9,228.3 212.0,227.4 213.0,226.5 214.0,225.6 215.1,224.7 216.1,223.8 217.2,222.9 218.2,221.9 219.3,221.0 220.3,220.1 221.4,219.1 222.4,218.2 223.5,217.2 224.5,216.2 225.6,215.3 226.6,214.3 227.7,213.3 228.7,212.3 229.7,211.3 230.8,210.3 231.8,209.3 232.9,208.3 233.9,207.3 235.0,206.3 236.0,205.2 237.1,204.2 238.1,203.2 239.2,202.1 240.2,201.1 241.3,200.0 242.3,198.9 243.4,197.9 244.4,196.8 245.4,195.7 246.5,194.6 247.5,193.5 248.6,192.4 249.6,191.3 250.7,190.2 251.7,189.1 252.8,188.0 253.8,186.8 254.9,185.7 255.9,184.6 257.0,183.4 258.0,182.3 259.1,181.1 260.1,179.9 261.1,178.8 262.2,177.6 263.2,176.4 264.3,175.2 265.3,174.0 266.4,172.8 267.4,171.6 268.5,170.4 269.5,169.2 270.6,167.9 271.6,166.7 272.7,165.5 273.7,164.2 274.8,163.0 275.8,161.7 276.8,160.4 277.9,159.2 278.9,157.9 280.0,156.6 281.0,155.3 282.1,154.0 283.1,152.7 284.2,151.4 285.2,150.1 286.3,148.8 287.3,147.5 288.4,146.1 289.4,144.8 290.5,143.5 291.5,142.1 292.5,140.8 293.6,139.4 294.6,138.0 295.7,136.7 296.7,135.3 297.8,133.9 298.8,132.5 299.9,131.1 300.9,129.7 302.0,128.3 303.0,126.9 304.1,125.5 305.1,124.1 306.2,122.6 307.2,121.2 308.2,119.8 309.3,118.3 310.3,116.9 311.4,115.4 312.4,113.9 313.5,112.5 314.5,111.0 315.6,109.5 316.6,108.0 317.7,106.5 318.7,105.0 319.8,103.5 320.8,102.0 321.9,100.5 322.9,98.9 323.9,97.4 325.0,95.9 326.0,94.3 327.1,92.8 328.1,91.2 329.2,89.6 330.2,88.1 331.3,86.5 332.3,84.9 333.4,83.3 334.4,81.7 335.5,80.1 336.5,78.5 337.6,76.9 338.6,75.3 339.6,73.7 340.7,72.0 341.7,70.4 342.8,68.8 343.8,67.1 344.9,65.5 345.9,63.8 347.0,62.1 348.0,60.5 349.1,58.8 350.1,57.1 351.2,55.4 352.2,53.7 353.3,52.0 354.3,50.3 355.3,48.6 356.4,46.9 357.4,45.2 358.5,43.4 359.5,41.7 360.6,40.0 361.6,38.2 362.7,36.5 363.7,34.7 364.8,32.9 365.8,31.2 366.9,29.4 367.9,27.6 369.0,25.8 370.0,24.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><text x=\"160.7\" y=\"311.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><text x=\"265.3\" y=\"311.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><text x=\"370.0\" y=\"311.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><text x=\"49.0\" y=\"298.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−4</text><text x=\"49.0\" y=\"268.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−3</text><text x=\"49.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−2</text><text x=\"49.0\" y=\"208.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><text x=\"49.0\" y=\"148.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><text x=\"49.0\" y=\"118.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><text x=\"49.0\" y=\"88.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><text x=\"49.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><text x=\"49.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><text x=\"49.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"382.0\" y=\"179.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"63.0\" y=\"14.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text></svg></span><p>Bestäm den sammanlagda arean av de skuggade områdena mellan grafen och x-axeln. (Svara exakt.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grafen byter tecken där \\(x^2-4=0\\)</p><p>I intervallet ligger nollstället \\(x=2\\). Mellan 0 och 2 är \\(f(x)\\lt0\\), och mellan 2 och 3 är \\(f(x)\\gt0\\).</p></li><li><p class=\"facit-rubrik\">Integralen från 0 till 2 är negativ, så arean är dess belopp</p><div class=\"facit-matte\">\\[F(x)=\\frac{x^3}{3}-4x\\]</div><div class=\"facit-matte\">\\[\\begin{gathered}\\int_0^2(x^2-4)\\,dx=\\frac83-8=-\\frac{16}{3}\\\\\\Rightarrow A_1=\\frac{16}{3}\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Området från 2 till 3</p><div class=\"facit-matte\">\\[\\begin{gathered}A_2 =\\int_2^3(x^2-4)\\,dx\\\\=(9-12)-\\left(\\frac83-8\\right) =\\frac73\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lägg ihop areorna</p><div class=\"facit-matte\">\\[A=\\frac{16}{3}+\\frac73=\\frac{23}{3}\\]</div><p>Integralen över hela intervallet hade blivit \\(-\\frac{16}{3}+\\frac73=-3\\), och det är inte arean.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{23}{3}\\) areaenheter</p></div>",
+  "familj": "Integral som area under en graf",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Var byter grafen tecken? Beräkna varje del för sig, och räkna arean under x-axeln som positiv.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 7.666666666666667,
+  "tolerans": 0
+},
+{
+  "id": "3.1253",
+  "kap": 3,
+  "omr": "integral_area",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "bestämma övre integrationsgränsen",
+  "t": "<p>Bestäm talet \\(a\\gt1\\) så att \\(\\displaystyle\\int_1^a2x\\,dx=120\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En primitiv funktion till 2x är \\(x^2\\)</p><div class=\"facit-matte\">\\[\\int_1^a2x\\,dx=\\big[x^2\\big]_1^a=a^2-1\\]</div></li><li><p class=\"facit-rubrik\">Sätt integralen lika med 120</p><div class=\"facit-matte\">\\[a^2-1=120\\quad\\Rightarrow\\quad a^2=121\\]</div></li><li><p class=\"facit-rubrik\">Välj lösningen som uppfyller villkoret</p><p>\\(a=\\pm11\\), men \\(a\\) ska vara större än 1, så \\(a=11\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=11\\)</p></div>",
+  "familj": "Integralens egenskaper",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Beräkna integralen med a som övre gräns. Då får du en ekvation i a.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 11,
+  "tolerans": 0
+},
+{
+  "id": "3.1254",
+  "kap": 3,
+  "omr": "integral_area",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "symmetriskt intervall och en udda term",
+  "t": "<p>Bestäm talet \\(a\\gt0\\) så att</p><p>\\[\\int_{-a}^{a}\\left(x^3+5\\right)dx=130.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp integralen i två delar</p><div class=\"facit-matte\">\\[\\int_{-a}^{a}(x^3+5)\\,dx=\\int_{-a}^{a}x^3\\,dx+\\int_{-a}^{a}5\\,dx\\]</div></li><li><p class=\"facit-rubrik\">x³-delen blir 0 över ett symmetriskt intervall</p><div class=\"facit-matte\">\\[\\int_{-a}^{a}x^3\\,dx=\\left[\\frac{x^4}{4}\\right]_{-a}^{a}=\\frac{a^4}{4}-\\frac{a^4}{4}=0\\]</div><p>Arean ovanför och arean under x-axeln är lika stora och tar ut varandra.</p></li><li><p class=\"facit-rubrik\">Den konstanta delen är en rektangel</p><div class=\"facit-matte\">\\[\\int_{-a}^{a}5\\,dx=5\\cdot2a=10a\\]</div></li><li><p class=\"facit-rubrik\">Integralen 10a ska vara 130</p><div class=\"facit-matte\">\\[10a=130\\quad\\Rightarrow\\quad a=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=13\\)</p></div>",
+  "familj": "Integralens egenskaper",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Dela upp integralen. Vad blir integralen av \\(x^3\\) från \\(-a\\) till \\(a\\)?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 13,
+  "tolerans": 0
+},
+{
+  "id": "3.1255",
+  "kap": 3,
+  "omr": "integral_area",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "volym ur ett flöde som minskar",
+  "t": "<p>Vatten rinner ut ur en tank. Flödet är \\(r(t)=12-2t\\) liter per minut, där \\(t\\) är tiden i minuter och \\(0\\le t\\le6\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Flödet r(t) = 12 − 2t liter per minut mot tiden i minuter. Linjen går från 12 vid t = 0 till 0 vid t = 6. Triangeln under linjen är skuggad.\"><title>Flödet r(t) = 12 − 2t liter per minut mot tiden i minuter. Linjen går från 12 vid t = 0 till 0 vid t = 6. Triangeln under linjen är skuggad.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"26\" x2=\"56.0\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"111.0\" y1=\"26\" x2=\"111.0\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"166.0\" y1=\"26\" x2=\"166.0\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"221.0\" y1=\"26\" x2=\"221.0\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"276.0\" y1=\"26\" x2=\"276.0\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"331.0\" y1=\"26\" x2=\"331.0\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"386.0\" y1=\"26\" x2=\"386.0\" y2=\"272\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"272.0\" x2=\"386\" y2=\"272.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"236.9\" x2=\"386\" y2=\"236.9\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"201.7\" x2=\"386\" y2=\"201.7\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"166.6\" x2=\"386\" y2=\"166.6\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"131.4\" x2=\"386\" y2=\"131.4\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"96.3\" x2=\"386\" y2=\"96.3\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"61.1\" x2=\"386\" y2=\"61.1\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"26.0\" x2=\"386\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"272\" x2=\"394\" y2=\"272\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"56\" y1=\"272\" x2=\"56\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><polygon points=\"56.0,272.0 56.0,61.1 386.0,272.0\" fill=\"#c2410c\" fill-opacity=\"0.18\"/><polyline points=\"56.0,61.1 57.1,61.8 58.2,62.5 59.3,63.3 60.4,64.0 61.5,64.7 62.6,65.4 63.7,66.1 64.8,66.8 65.9,67.5 67.0,68.2 68.1,68.9 69.2,69.6 70.3,70.3 71.4,71.0 72.5,71.7 73.6,72.4 74.7,73.1 75.8,73.8 76.9,74.5 78.0,75.2 79.1,75.9 80.2,76.6 81.3,77.3 82.4,78.0 83.5,78.7 84.6,79.4 85.7,80.1 86.8,80.8 87.9,81.5 89.0,82.2 90.1,82.9 91.2,83.6 92.3,84.3 93.4,85.0 94.5,85.7 95.6,86.4 96.7,87.1 97.8,87.9 98.9,88.6 100.0,89.3 101.1,90.0 102.2,90.7 103.3,91.4 104.4,92.1 105.5,92.8 106.6,93.5 107.7,94.2 108.8,94.9 109.9,95.6 111.0,96.3 112.1,97.0 113.2,97.7 114.3,98.4 115.4,99.1 116.5,99.8 117.6,100.5 118.7,101.2 119.8,101.9 120.9,102.6 122.0,103.3 123.1,104.0 124.2,104.7 125.3,105.4 126.4,106.1 127.5,106.8 128.6,107.5 129.7,108.2 130.8,108.9 131.9,109.6 133.0,110.3 134.1,111.0 135.2,111.7 136.3,112.5 137.4,113.2 138.5,113.9 139.6,114.6 140.7,115.3 141.8,116.0 142.9,116.7 144.0,117.4 145.1,118.1 146.2,118.8 147.3,119.5 148.4,120.2 149.5,120.9 150.6,121.6 151.7,122.3 152.8,123.0 153.9,123.7 155.0,124.4 156.1,125.1 157.2,125.8 158.3,126.5 159.4,127.2 160.5,127.9 161.6,128.6 162.7,129.3 163.8,130.0 164.9,130.7 166.0,131.4 167.1,132.1 168.2,132.8 169.3,133.5 170.4,134.2 171.5,134.9 172.6,135.6 173.7,136.3 174.8,137.1 175.9,137.8 177.0,138.5 178.1,139.2 179.2,139.9 180.3,140.6 181.4,141.3 182.5,142.0 183.6,142.7 184.7,143.4 185.8,144.1 186.9,144.8 188.0,145.5 189.1,146.2 190.2,146.9 191.3,147.6 192.4,148.3 193.5,149.0 194.6,149.7 195.7,150.4 196.8,151.1 197.9,151.8 199.0,152.5 200.1,153.2 201.2,153.9 202.3,154.6 203.4,155.3 204.5,156.0 205.6,156.7 206.7,157.4 207.8,158.1 208.9,158.8 210.0,159.5 211.1,160.2 212.2,160.9 213.3,161.7 214.4,162.4 215.5,163.1 216.6,163.8 217.7,164.5 218.8,165.2 219.9,165.9 221.0,166.6 222.1,167.3 223.2,168.0 224.3,168.7 225.4,169.4 226.5,170.1 227.6,170.8 228.7,171.5 229.8,172.2 230.9,172.9 232.0,173.6 233.1,174.3 234.2,175.0 235.3,175.7 236.4,176.4 237.5,177.1 238.6,177.8 239.7,178.5 240.8,179.2 241.9,179.9 243.0,180.6 244.1,181.3 245.2,182.0 246.3,182.7 247.4,183.4 248.5,184.1 249.6,184.8 250.7,185.5 251.8,186.3 252.9,187.0 254.0,187.7 255.1,188.4 256.2,189.1 257.3,189.8 258.4,190.5 259.5,191.2 260.6,191.9 261.7,192.6 262.8,193.3 263.9,194.0 265.0,194.7 266.1,195.4 267.2,196.1 268.3,196.8 269.4,197.5 270.5,198.2 271.6,198.9 272.7,199.6 273.8,200.3 274.9,201.0 276.0,201.7 277.1,202.4 278.2,203.1 279.3,203.8 280.4,204.5 281.5,205.2 282.6,205.9 283.7,206.6 284.8,207.3 285.9,208.0 287.0,208.7 288.1,209.4 289.2,210.1 290.3,210.9 291.4,211.6 292.5,212.3 293.6,213.0 294.7,213.7 295.8,214.4 296.9,215.1 298.0,215.8 299.1,216.5 300.2,217.2 301.3,217.9 302.4,218.6 303.5,219.3 304.6,220.0 305.7,220.7 306.8,221.4 307.9,222.1 309.0,222.8 310.1,223.5 311.2,224.2 312.3,224.9 313.4,225.6 314.5,226.3 315.6,227.0 316.7,227.7 317.8,228.4 318.9,229.1 320.0,229.8 321.1,230.5 322.2,231.2 323.3,231.9 324.4,232.6 325.5,233.3 326.6,234.0 327.7,234.7 328.8,235.5 329.9,236.2 331.0,236.9 332.1,237.6 333.2,238.3 334.3,239.0 335.4,239.7 336.5,240.4 337.6,241.1 338.7,241.8 339.8,242.5 340.9,243.2 342.0,243.9 343.1,244.6 344.2,245.3 345.3,246.0 346.4,246.7 347.5,247.4 348.6,248.1 349.7,248.8 350.8,249.5 351.9,250.2 353.0,250.9 354.1,251.6 355.2,252.3 356.3,253.0 357.4,253.7 358.5,254.4 359.6,255.1 360.7,255.8 361.8,256.5 362.9,257.2 364.0,257.9 365.1,258.6 366.2,259.3 367.3,260.1 368.4,260.8 369.5,261.5 370.6,262.2 371.7,262.9 372.8,263.6 373.9,264.3 375.0,265.0 376.1,265.7 377.2,266.4 378.3,267.1 379.4,267.8 380.5,268.5 381.6,269.2 382.7,269.9 383.8,270.6 384.9,271.3 386.0,272.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><text x=\"111.0\" y=\"289.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><text x=\"166.0\" y=\"289.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><text x=\"221.0\" y=\"289.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><text x=\"276.0\" y=\"289.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><text x=\"331.0\" y=\"289.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><text x=\"386.0\" y=\"289.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><text x=\"49.0\" y=\"240.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><text x=\"49.0\" y=\"205.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><text x=\"49.0\" y=\"170.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><text x=\"49.0\" y=\"135.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">8</text><text x=\"49.0\" y=\"100.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">10</text><text x=\"49.0\" y=\"65.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">12</text><text x=\"49.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">14</text><text x=\"49.0\" y=\"287.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"221.0\" y=\"310.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">tid t (min)</text><text x=\"63.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">flöde (liter/min)</text></svg></span><p>Hur mycket vatten rinner ut under de sex minuterna?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den utrunna mängden är arean under flödesgrafen</p><div class=\"facit-matte\">\\[V=\\int_0^6(12-2t)\\,dt\\]</div></li><li><p class=\"facit-rubrik\">Beräkna integralen</p><div class=\"facit-matte\">\\[\\big[12t-t^2\\big]_0^6=72-36=36\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera med triangelns area</p><div class=\"facit-matte\">\\[\\frac{6\\cdot12}{2}=36\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 36 liter.</p></div>",
+  "familj": "Integral som area under en graf",
+  "formaga": [
+    "modellering",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Flöde gånger tid är volym. Vilken area i figuren motsvarar den utrunna mängden?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 36,
+  "tolerans": 0,
+  "svarEnhet": "liter"
+},
+{
+  "id": "3.1256",
+  "kap": 3,
+  "omr": "integral_area",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "area ovanför x-axeln ur integralen och arean under",
+  "t": "<p>Grafen till \\(f\\) ligger ovanför x-axeln när \\(0\\lt x\\lt2\\) och under x-axeln när \\(2\\lt x\\lt4\\). Området mellan grafen och x-axeln för \\(2\\le x\\le4\\) har arean 3, och</p><p>\\[\\int_0^4f(x)\\,dx=2.\\]</p><p>Bestäm arean av området mellan grafen och x-axeln för \\(0\\le x\\le2\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp integralen vid x = 2</p><div class=\"facit-matte\">\\[\\int_0^4f(x)\\,dx=\\int_0^2f(x)\\,dx+\\int_2^4f(x)\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Området under x-axeln ger ett negativt bidrag</p><div class=\"facit-matte\">\\[\\int_2^4f(x)\\,dx=-3\\]</div></li><li><p class=\"facit-rubrik\">Lös ut den första integralen</p><div class=\"facit-matte\">\\[\\begin{gathered}2=\\int_0^2f(x)\\,dx-3\\\\\\Rightarrow \\int_0^2f(x)\\,dx=5\\end{gathered}\\]</div><p>Grafen ligger ovanför x-axeln där, så arean är 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Arean är 5 areaenheter.</p></div>",
+  "familj": "Integralens egenskaper",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilket tecken får integralen över den del där grafen ligger under x-axeln? Dela upp integralen vid x = 2.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0
+},
+{
+  "id": "3.1257",
+  "kap": 3,
+  "omr": "integral_area",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "jämföra integraler utan att räkna ut dem",
+  "t": "<p>För \\(0\\le x\\le1\\) gäller \\(x^3\\le x^2\\le x\\). Vilket påstående stämmer? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En större funktion ger en större area</p><p>På intervallet ligger grafen till \\(x\\) överst och grafen till \\(x^3\\) underst, och alla är icke-negativa.</p></li><li><p class=\"facit-rubrik\">Kontrollera med primitiva funktioner</p><div class=\"facit-matte\">\\[\\begin{gathered}\\int_0^1x\\,dx=\\frac12,\\quad \\int_0^1x^2\\,dx=\\frac13,\\\\\\int_0^1x^3\\,dx=\\frac14\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\displaystyle\\int_0^1x^3\\,dx\\lt\\int_0^1x^2\\,dx\\lt\\int_0^1x\\,dx\\)</p></div>",
+  "familj": "Integralens egenskaper",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Om en graf ligger över en annan på hela intervallet, vilken har då störst area under sig?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "∫₀¹ x dx < ∫₀¹ x² dx < ∫₀¹ x³ dx",
+      "ratt": false,
+      "kommentar": "Ordningen är omvänd. x ligger överst på intervallet och ger därför störst area."
+    },
+    {
+      "txt": "Alla tre integralerna är lika stora, eftersom intervallet är detsamma",
+      "ratt": false,
+      "kommentar": "Integralerna är 1/2, 1/3 och 1/4."
+    },
+    {
+      "txt": "∫₀¹ x³ dx < ∫₀¹ x² dx < ∫₀¹ x dx",
+      "ratt": true
+    },
+    {
+      "txt": "∫₀¹ x² dx är störst, eftersom x² växer snabbast",
+      "ratt": false,
+      "kommentar": "På intervallet 0 till 1 är x² mindre än x. x² växer snabbare först när x är större än 1."
     }
   ]
 }

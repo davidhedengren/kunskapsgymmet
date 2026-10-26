@@ -8177,58 +8177,6 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.203",
-    "kap": 1,
-    "omr": "forkorta_rationella",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "1/1/0",
-    "t": "<p>Låt \\(f(x)=x^2+x\\). Förenkla</p><p>\\[\\frac{f(f(x))}{f(x)}\\]</p><p>så långt som möjligt och ange vilka x-värden som måste uteslutas.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[u=f(x)=x^2+x\\].</div></div></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[f(f(x))=f(u)=u^2+u=u(u+1)\\].</div></div><p>\\[\\frac{f(f(x))}{f(x)}=\\frac{u(u+1)}{u}=u+1=x^2+x+1.\\]</p></li><li><p>Förkortningen kräver \\(u\\neq0\\).</p></li><li><p>Eftersom \\(x^2+x=x(x+1)\\) måste \\(x\\neq0,-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x^2+x+1}\\), där \\(\\boxed{x\\neq0,-1}\\).</p></div>",
-    "familj": "Förenkla och ange definitionsvillkor",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "x^2+x+1",
-      [
-        0,
-        -1
-      ]
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "svarFormat": [
-      "uttryck",
-      [
-        "numeriskt",
-        "numeriskt"
-      ]
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "förenklat uttryck",
-      "förbjudna x-värden"
-    ],
-    "ledtrad": "<p>Definitionsmängden beskriver tillåtna x-värden, värdemängden möjliga y-värden. Kontrollera särskilt nämnare, rotuttryck och vad grafen faktiskt omfattar.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "rationella_uttryck"
-    ],
-    "familjTidigare": [
-      "Förenkla rationella uttryck och ange definitionsmängd"
-    ]
-  },
-  {
     "id": "1.204",
     "kap": 1,
     "omr": "rakna_rationella",
@@ -92126,45 +92074,6 @@ window.BANKMATO1 = [
     "tolerans": 0.001
   },
   {
-    "id": "1.586",
-    "kap": 1,
-    "omr": "funktioner",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>Låt \\(f(x)=2x+3\\) och \\(g(x)=x^2-1\\).</p><p>Lös ekvationen \\(f(g(x))=g(f(x))\\). Svara exakt eller med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in \\(g(x)=x^2-1\\) i \\(f\\):</p><p>\\[f(g(x))=2(x^2-1)+3.\\]</p><p>\\[f(g(x))=2x^2+1.\\]</p></li><li><p>Sätt sedan in \\(f(x)=2x+3\\) i \\(g\\):</p><p>\\[g(f(x))=(2x+3)^2-1.\\]</p><p>\\[g(f(x))=4x^2+12x+8.\\]</p></li><li><p>De båda värdena är lika när</p><p>\\[2x^2+1=4x^2+12x+8.\\]</p></li><li><p>Samla termerna och dela med 2:</p><p>\\[x^2+6x+3{,}5=0.\\]</p></li><li><p>pq-formeln ger</p><p>\\[x=-3\\pm\\sqrt{9-3{,}5}.\\]</p></li><li><p>Med tre decimaler blir det −0,655 och −5,345. Svaren får anges i valfri ordning; det är sammansättningarna \\(f(g(x))\\) och \\(g(f(x))\\) som skiljer sig åt.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=-3+\\sqrt{5{,}5}\\) eller \\(x=-3-\\sqrt{5{,}5}\\).</strong></p></div>",
-    "familj": "Funktionsvärden",
-    "formaga": [
-      "procedur",
-      "problemlösning"
-    ],
-    "miniräknare": true,
-    "geogebra": false,
-    "självrättning": true,
-    "ledtrad": "<p>Bestäm först de två sammansatta uttrycken. Sätt in hela \\(g(x)\\) där det står \\(x\\) i \\(f\\), och omvänt.</p>",
-    "spel": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      -0.6547921200882851,
-      -5.345207879911715
-    ],
-    "tolerans": [
-      0.0005,
-      0.0005
-    ],
-    "svarEtiketter": [
-      "x",
-      "x"
-    ],
-    "svarsstruktur": "mängd"
-  },
-  {
   "id": "1.560",
   "kap": 1,
   "omr": "polynom",
@@ -110365,35 +110274,6 @@ window.BANKMATO1 = [
   "alternativ": [{"txt": "\\(2\\ln(x-2)\\)", "ratt": false, "kommentar": "x−2 är negativt när x < 2, så denna logaritm är inte definierad."}, {"txt": "\\(\\ln(2-x)\\)", "ratt": false, "kommentar": "Kvadraten i ursprungsuttrycket kräver faktorn två framför logaritmen."}, {"txt": "\\(2\\ln(2-x)\\)", "ratt": true, "kommentar": "2−x är positivt och dess kvadrat är samma som (x−2)²."}, {"txt": "\\(2\\ln x-2\\ln2\\)", "ratt": false, "kommentar": "Detta motsvarar logaritmen av (x/2)², inte av (x−2)²."}]
 },
   {
-  "id": "2.1208",
-  "kap": 2,
-  "omr": "naturliga_logaritmer",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Naturliga logaritmer och ekvationer",
-  "niva": "C",
-  "poang": "0/2/0",
-  "traningsniva": 3,
-  "arbetsinsats": 2,
-  "formaga": [
-    "begrepp",
-    "problemlösning"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>Funktionen är \\(f(x)=\\ln(3x-2)\\). Bestäm det x-värde som uppfyller \\(f(f(x))=0\\). Svara exakt.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det yttre logaritmargumentet ska vara ett</p><p>Börja med den yttre funktionen. ln(3f(x)−2) = 0 betyder att argumentet är 1.</p><div class=\"facit-matte\">\\[3f(x)-2=1\\Rightarrow f(x)=1\\]</div></li><li><p class=\"facit-rubrik\">Bestäm x ur villkoret f(x) = 1</p><p>Lös sedan den inre ekvationen.</p><div class=\"facit-matte\">\\[\\ln(3x-2)=1\\]</div><div class=\"facit-matte\">\\[3x-2=e\\Rightarrow x=\\frac{e+2}{3}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera båda logaritmargumenten</p><p>Vid detta x är det inre argumentet e och det yttre 1. Båda är positiva.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=\\frac{e+2}{3}\\).</strong></p></div>",
-  "ledtrad": "<p>Vilket värde måste f(x) ha för att den yttre funktionen ska ge 0?</p>",
-  "rättSvar": "(e+2)/3",
-  "svarstyp": "uttryck",
-  "svarFormat": "uttryck",
-  "tolerans": null
-},
-  {
   "id": "2.1209",
   "kap": 2,
   "omr": "naturliga_logaritmer",
@@ -110684,35 +110564,6 @@ window.BANKMATO1 = [
     "En lösning",
     "Den andra lösningen"
   ]
-},
-  {
-  "id": "2.1218",
-  "kap": 2,
-  "omr": "naturliga_logaritmer",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Naturliga logaritmer och ekvationer",
-  "niva": "C",
-  "poang": "0/2/0",
-  "traningsniva": 3,
-  "arbetsinsats": 2,
-  "formaga": [
-    "begrepp",
-    "problemlösning"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>Grafen visar \\(f(x)=\\ln(x-a)+b\\). Den lodräta asymptoten är x = 2 och grafen går genom (3, 4). Bestäm grafens nollställe exakt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen till ln(x−a)+b har lodrät asymptot x=2 och går genom (3,4).\"><title>Grafen till ln(x−a)+b har lodrät asymptot x=2 och går genom (3,4).</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M126.66666666666666 50V250\" stroke=\"#d6e1ea\"/><text x=\"126.66666666666666\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M188.33333333333331 50V250\" stroke=\"#d6e1ea\"/><text x=\"188.33333333333331\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M373.3333333333333 50V250\" stroke=\"#d6e1ea\"/><text x=\"373.3333333333333\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−2</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 45V250 M65 200H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"188.486,250.000 188.490,249.375 188.494,248.750 188.498,248.125 188.502,247.500 188.507,246.875 188.511,246.250 188.515,245.625 188.520,245.000 188.525,244.375 188.530,243.750 188.535,243.125 188.540,242.500 188.545,241.875 188.550,241.250 188.556,240.625 188.561,240.000 188.567,239.375 188.573,238.750 188.579,238.125 188.585,237.500 188.592,236.875 188.598,236.250 188.605,235.625 188.612,235.000 188.619,234.375 188.626,233.750 188.634,233.125 188.641,232.500 188.649,231.875 188.657,231.250 188.665,230.625 188.674,230.000 188.682,229.375 188.691,228.750 188.700,228.125 188.709,227.500 188.719,226.875 188.729,226.250 188.739,225.625 188.749,225.000 188.759,224.375 188.770,223.750 188.781,223.125 188.793,222.500 188.804,221.875 188.816,221.250 188.828,220.625 188.841,220.000 188.854,219.375 188.867,218.750 188.880,218.125 188.894,217.500 188.908,216.875 188.923,216.250 188.938,215.625 188.953,215.000 188.969,214.375 188.985,213.750 189.001,213.125 189.018,212.500 189.036,211.875 189.054,211.250 189.072,210.625 189.090,210.000 189.110,209.375 189.129,208.750 189.149,208.125 189.170,207.500 189.191,206.875 189.213,206.250 189.235,205.625 189.258,205.000 189.281,204.375 189.305,203.750 189.330,203.125 189.355,202.500 189.381,201.875 189.408,201.250 189.435,200.625 189.463,200.000 189.491,199.375 189.521,198.750 189.551,198.125 189.582,197.500 189.613,196.875 189.646,196.250 189.679,195.625 189.713,195.000 189.748,194.375 189.784,193.750 189.820,193.125 189.858,192.500 189.897,191.875 189.936,191.250 189.977,190.625 190.018,190.000 190.061,189.375 190.105,188.750 190.150,188.125 190.196,187.500 190.243,186.875 190.291,186.250 190.341,185.625 190.391,185.000 190.443,184.375 190.497,183.750 190.552,183.125 190.608,182.500 190.665,181.875 190.724,181.250 190.785,180.625 190.847,180.000 190.911,179.375 190.976,178.750 191.043,178.125 191.111,177.500 191.182,176.875 191.254,176.250 191.328,175.625 191.404,175.000 191.481,174.375 191.561,173.750 191.643,173.125 191.726,172.500 191.812,171.875 191.900,171.250 191.991,170.625 192.083,170.000 192.178,169.375 192.276,168.750 192.375,168.125 192.478,167.500 192.583,166.875 192.690,166.250 192.800,165.625 192.914,165.000 193.029,164.375 193.148,163.750 193.270,163.125 193.395,162.500 193.523,161.875 193.655,161.250 193.789,160.625 193.928,160.000 194.069,159.375 194.214,158.750 194.363,158.125 194.516,157.500 194.672,156.875 194.833,156.250 194.997,155.625 195.166,155.000 195.339,154.375 195.517,153.750 195.698,153.125 195.885,152.500 196.076,151.875 196.272,151.250 196.473,150.625 196.679,150.000 196.890,149.375 197.107,148.750 197.329,148.125 197.557,147.500 197.790,146.875 198.030,146.250 198.275,145.625 198.527,145.000 198.785,144.375 199.049,143.750 199.321,143.125 199.599,142.500 199.884,141.875 200.176,141.250 200.476,140.625 200.784,140.000 201.099,139.375 201.422,138.750 201.753,138.125 202.093,137.500 202.441,136.875 202.799,136.250 203.165,135.625 203.540,135.000 203.925,134.375 204.320,133.750 204.725,133.125 205.139,132.500 205.565,131.875 206.001,131.250 206.448,130.625 206.907,130.000 207.377,129.375 207.859,128.750 208.354,128.125 208.860,127.500 209.380,126.875 209.913,126.250 210.459,125.625 211.019,125.000 211.594,124.375 212.182,123.750 212.786,123.125 213.405,122.500 214.040,121.875 214.691,121.250 215.358,120.625 216.042,120.000 216.743,119.375 217.463,118.750 218.200,118.125 218.956,117.500 219.731,116.875 220.526,116.250 221.341,115.625 222.177,115.000 223.033,114.375 223.912,113.750 224.813,113.125 225.736,112.500 226.683,111.875 227.654,111.250 228.649,110.625 229.670,110.000 230.716,109.375 231.789,108.750 232.889,108.125 234.017,107.500 235.174,106.875 236.359,106.250 237.575,105.625 238.822,105.000 240.100,104.375 241.410,103.750 242.754,103.125 244.132,102.500 245.544,101.875 246.992,101.250 248.477,100.625 250.000,100.000 251.561,99.375 253.162,98.750 254.803,98.125 256.486,97.500 258.211,96.875 259.980,96.250 261.794,95.625 263.653,95.000 265.560,94.375 267.515,93.750 269.519,93.125 271.575,92.500 273.682,91.875 275.842,91.250 278.058,90.625 280.329,90.000 282.658,89.375 285.046,88.750 287.494,88.125 290.004,87.500 292.578,86.875 295.217,86.250 297.923,85.625 300.697,85.000 303.542,84.375 306.458,83.750 309.449,83.125 312.515,82.500 315.658,81.875 318.882,81.250 322.187,80.625 325.575,80.000 329.049,79.375 332.612,78.750 336.264,78.125 340.009,77.500 343.849,76.875 347.785,76.250 351.822,75.625 355.961,75.000 360.204,74.375 364.555,73.750 369.016,73.125 373.590,72.500 378.280,71.875 383.089,71.250 388.019,70.625 393.074,70.000 398.257,69.375 403.571,68.750 409.020,68.125 414.607,67.500 420.335,66.875 426.208,66.250 432.230,65.625\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"250.0\" cy=\"100.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><path d=\"M188.333 50V250\" stroke=\"#a15320\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><rect x=\"282\" y=\"110\" width=\"56\" height=\"26\" fill=\"white\"/><text x=\"310\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">(3, 4)</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Asymptoten bestämmer förskjutningen a</p><p>Logaritmens argument närmar sig 0 vid asymptoten. Därför är a = 2.</p></li><li><p class=\"facit-rubrik\">Den givna punkten bestämmer höjdförskjutningen b</p><p>Punkten ger ln(3−2)+b = 4. Eftersom ln 1 = 0 är b = 4.</p></li><li><p class=\"facit-rubrik\">Sätt den färdiga funktionen lika med noll</p><p>Sätt funktionsvärdet lika med noll.</p><div class=\"facit-matte\">\\[\\ln(x-2)+4=0\\]</div><div class=\"facit-matte\">\\[x-2=e^{-4}\\Rightarrow x=2+e^{-4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=2+e^{-4}\\).</strong></p></div>",
-  "ledtrad": "<p>Vad berättar asymptoten om a, och punkten om b?</p>",
-  "rättSvar": "2+e^(-4)",
-  "svarstyp": "uttryck",
-  "svarFormat": "uttryck",
-  "tolerans": null
 },
   {
   "id": "2.1219",
@@ -112546,49 +112397,6 @@ window.BANKMATO1 = [
   "alternativ": [{"txt": "Punkten är inget extremställe; funktionen växer på båda sidor.", "ratt": true, "kommentar": "Derivatan är positiv före och efter ett. Funktionen fortsätter växa."}, {"txt": "Punkten är ett minimum eftersom f′ är positiv efter den.", "ratt": false, "kommentar": "För ett minimum behöver funktionen gå från avtagande till växande."}, {"txt": "Eleven har rätt: alla nollställen till derivatan är extremställen.", "ratt": false, "kommentar": "Noll derivata är inte ensamt tillräckligt för ett extremvärde."}, {"txt": "Funktionen är konstant eftersom f′(1) = 0.", "ratt": false, "kommentar": "Derivatan är noll i en enda punkt, inte överallt på ett intervall."}]
 },
   {
-  "id": "1.949",
-  "kap": 1,
-  "omr": "funktioner",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Tolka och jämföra funktioner",
-  "niva": "C",
-  "poang": "0/2/0",
-  "traningsniva": 3,
-  "arbetsinsats": 2,
-  "formaga": [
-    "begrepp",
-    "problemlösning"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>Funktionen f är bara definierad för de fem x-värdena i tabellen. Bestäm alla x som uppfyller \\(f(f(x))=0\\).</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">x</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">f(x)</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">−2</td><td style=\"padding:8px;border:1px solid #8796a5\">−1</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">−1</td><td style=\"padding:8px;border:1px solid #8796a5\">0</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">0</td><td style=\"padding:8px;border:1px solid #8796a5\">2</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">1</td><td style=\"padding:8px;border:1px solid #8796a5\">0</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">2</td><td style=\"padding:8px;border:1px solid #8796a5\">1</td></tr></tbody></table>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det yttre funktionsvärdet ska bli noll</p><p>Yttre f blir noll när dess indata är −1 eller 1. Alltså söker vi de x där f(x) är −1 eller 1.</p></li><li><p class=\"facit-rubrik\">Hitta de x-värden som ger −1 eller 1</p><p>Tabellen ger f(−2) = −1 och f(2) = 1. Därför fungerar x = −2 och x = 2.</p></li><li><p class=\"facit-rubrik\">Kontrollera båda sammansatta funktionsvärdena</p><p>Kontroll: f(f(−2)) = f(−1) = 0 och f(f(2)) = f(1) = 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x = −2 eller x = 2.</strong></p></div>",
-  "ledtrad": "<p>Använd tabellen två gånger, med det första svaret som ny indata.</p>",
-  "rättSvar": [
-    -2,
-    2
-  ],
-  "svarstyp": "flera_delar",
-  "svarFormat": [
-    "uttryck",
-    "uttryck"
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "svarsstruktur": "mängd",
-  "svarEtiketter": [
-    "Ett x-värde",
-    "Det andra x-värdet"
-  ]
-},
-  {
   "id": "1.950",
   "kap": 1,
   "omr": "funktioner",
@@ -112668,35 +112476,6 @@ window.BANKMATO1 = [
   "svarFormat": "text",
   "tolerans": 1e-09,
   "alternativ": [{"txt": "Värdena är lika där båda är definierade, men definitionsmängderna skiljer sig.", "ratt": true, "kommentar": "Förkortningen gäller där f är definierad. Punkten x = 1 är ändå utesluten för f men tillåten för g."}, {"txt": "Funktionerna är helt identiska, även vid x = 1.", "ratt": false, "kommentar": "Vid x = 1 är nämnaren i f noll. En förkortning får inte lägga till den punkten i definitionsmängden."}, {"txt": "f(1) = 0 och g(1) = 1/2.", "ratt": false, "kommentar": "Uttrycket för f ger 0/0 vid x = 1, vilket är odefinierat, inte noll."}, {"txt": "Funktionerna har samma definitionsmängd men olika värden.", "ratt": false, "kommentar": "Efter förkortning har funktionerna samma värden där båda är definierade. Däremot skiljer sig definitionsmängderna."}]
-},
-  {
-  "id": "1.952",
-  "kap": 1,
-  "omr": "funktioner",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Tolka och jämföra funktioner",
-  "niva": "C",
-  "poang": "0/2/0",
-  "traningsniva": 3,
-  "arbetsinsats": 2,
-  "formaga": [
-    "begrepp",
-    "problemlösning"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>Låt f(x) = 2x−3 och g(x) = 5−x. Hur många reella lösningar har ekvationen \\(f(g(x))=g(f(x))\\)?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna båda funktionssammansättningarna</p><p>Sätt in g i f och f i g.</p><div class=\"facit-matte\">\\[\\begin{aligned}f(g(x))&=2(5-x)-3\\\\&=7-2x\\end{aligned}\\]</div><div class=\"facit-matte\">\\[\\begin{aligned}g(f(x))&=5-(2x-3)\\\\&=8-2x\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden är alltid 1</p><p>Uttrycken skiljer sig alltid med 1. Ekvationen skulle ge 7 = 8, vilket är omöjligt.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 0 lösningar.</strong></p></div>",
-  "ledtrad": "<p>Att använda samma två funktioner betyder inte att ordningen är oviktig.</p>",
-  "rättSvar": 0,
-  "svarstyp": "uttryck",
-  "svarFormat": "uttryck",
-  "tolerans": null
 },
   {
   "id": "1.953",
@@ -112886,64 +112665,6 @@ window.BANKMATO1 = [
     "a",
     "b"
   ]
-},
-  {
-  "id": "1.958",
-  "kap": 1,
-  "omr": "funktioner",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Tolka och jämföra funktioner",
-  "niva": "C",
-  "poang": "0/2/0",
-  "traningsniva": 3,
-  "arbetsinsats": 2,
-  "formaga": [
-    "begrepp",
-    "problemlösning"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>För alla reella x gäller</p><div class=\"facit-matte\">\\[f(2x+1)=x^2-2x+4.\\]</div><p>Bestäm ett uttryck för f(x).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ge det inre argumentet ett eget namn</p><p>Kalla indata till f för u. Om u = 2x+1 är x = (u−1)/2.</p></li><li><p class=\"facit-rubrik\">Ersätt x med uttrycket i u</p><p>Sätt in detta i högerledet.</p><div class=\"facit-matte\">\\[f(u)=\\left(\\frac{u-1}{2}\\right)^2-(u-1)+4\\]</div></li><li><p class=\"facit-rubrik\">Utveckla kvadraten och samla termer</p><p>Utveckla och samla termer.</p><div class=\"facit-matte\">\\[f(u)=\\frac{u^2}4-\\frac{3u}2+\\frac{21}4\\]</div></li><li><p class=\"facit-rubrik\">Skriv funktionen med x som variabel</p><p>Variabeln kan sedan kallas x igen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(f(x)=x^2/4-3x/2+21/4\\).</strong></p></div>",
-  "ledtrad": "<p>Skilj variabeln i högerledet från det som matas in i f.</p>",
-  "rättSvar": "x^2/4-3*x/2+21/4",
-  "svarstyp": "uttryck",
-  "svarFormat": "uttryck",
-  "tolerans": null
-},
-  {
-  "id": "1.959",
-  "kap": 1,
-  "omr": "funktioner",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Tolka och jämföra funktioner",
-  "niva": "C",
-  "poang": "0/2/0",
-  "traningsniva": 3,
-  "arbetsinsats": 2,
-  "formaga": [
-    "begrepp",
-    "problemlösning"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>Funktionen f är linjär. För alla reella x gäller \\(f(f(x))=4x+3\\). Dessutom är f(0) &lt; 0. Bestäm f(x).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in en linjär funktion i sig själv</p><p>Skriv f(x) = ax+b. Då blir sammansättningen</p><div class=\"facit-matte\">\\[f(f(x))=a^2x+ab+b\\]</div></li><li><p class=\"facit-rubrik\">Jämför koefficienterna med 4x + 3</p><p>Jämför med 4x+3: a² = 4 och b(a+1) = 3.</p></li><li><p class=\"facit-rubrik\">Villkoret f(0) &lt; 0 väljer den negativa lutningen</p><p>Om a = 2 blir b = 1, vilket strider mot f(0) < 0. Om a = −2 blir b = −3, vilket uppfyller villkoret.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(f(x)=-2x-3\\).</strong></p></div>",
-  "ledtrad": "<p>Skriv först den linjära funktionen med två okända koefficienter.</p>",
-  "rättSvar": "-2*x-3",
-  "svarstyp": "uttryck",
-  "svarFormat": "uttryck",
-  "tolerans": null
 },
   {
   "id": "1.960",

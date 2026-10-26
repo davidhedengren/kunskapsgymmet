@@ -24347,7 +24347,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "4.48",
     "t": "<p>Till differentialekvationen \\(y'=2y\\) hör lösningsfamiljen \\(y=Ce^{2x}\\).</p><p>Vilken lösning fås om \\(y(0)=5\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm först den allmänna lösningen.</p></li><li><p>Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p></li><li><p>Vi använder begynnelsevillkoret i lösningsfamiljen:</p></li><li><p>\\[y(0)=Ce^{0}=C.\\]</p></li><li><p>Eftersom \\(y(0)=5\\) blir \\(C=5\\).</p></li></ol><p class=\"facit-svar\"><strong>Lösningen är \\(y=5e^{2x}\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd startvärdet i den givna familjen</p>\\[5=Ce^{2\\cdot0}=C\\]</li><li><p class=\"facit-rubrik\">Sätt tillbaka C i funktionsuttrycket</p>\\[y=5e^{2x}\\]<p>Vid x=0 blir värdet 5, som villkoret kräver.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=5e^{2x}\\).</p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
@@ -24359,8 +24359,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Sätt \\(x=0\\) i lösningsfamiljen och använd begynnelsevillkoret för att bestämma \\(C\\).</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Vad blir exponentialfaktorn när x=0?</p>",
+    "traningsniva": 1,
     "omrTidigare": [
       "diffekv_grunder"
     ],
@@ -24795,7 +24795,7 @@ window.BANKMATF1 = [
     "typ": "allmän lösning separabel linjär differentialekvation",
     "poang": "1/0/0",
     "t": "<p>Bestäm den allmänna lösningen till \\(y'=3y\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För ekvationen \\(y'=3y\\) söker vi en exponentialfunktion, eftersom derivatan av \\(e^{kx}\\) är proportionell mot funktionen själv.</p></li><li><p>Den allmänna lösningen är <strong>\\(y=Ce^{3x}\\)</strong>, där \\(C\\) är en godtycklig konstant.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Känn igen exponentialekvationen</p><p>I y′=ky är k=3. Lösningarna har därför formen</p>\\[y=Ce^{3x}\\]</li><li><p class=\"facit-rubrik\">Kontrollera att alla C fungerar</p>\\[y^{\\prime}=3Ce^{3x}=3y\\]<p>C är en valfri reell konstant, även 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=Ce^{3x}\\), där C är valfri.</p></div>",
     "id": "4.03",
     "miniräknare": true,
     "geogebra": false,
@@ -24807,8 +24807,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Jämför med standardformen \\(y'=ky\\). Vilket värde har \\(k\\)?</p>",
+    "svarFormat": "diffekv_losning",
+    "ledtrad": "<p>Vilken exponentialfunktion får faktorn 3 när den deriveras?</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "forsta_ordningen"
@@ -24820,11 +24820,11 @@ window.BANKMATF1 = [
   {
     "kap": 4,
     "omr": "homogena_forsta",
-    "niva": "E",
+    "niva": "C",
     "typ": "lösa separabel differentialekvation",
-    "poang": "2/0/0",
+    "poang": "0/2/0",
     "t": "<p>Lös den separabla differentialekvationen \\(y'=3xy\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Samla alla \\(y\\)-termer på ena sidan och alla \\(x\\)-termer på den andra.</p></li><li><p>\\[\\frac{dy}{y}=3x\\,dx.\\]</p></li><li><p>Integrering ger</p></li><li><p>\\[\\ln|y|=\\frac32x^2+C.\\]</p></li><li><p>Konstanten kan absorberas i en ny konstant, så</p></li></ol><p class=\"facit-svar\"><strong>\\[y=Ce^{3x^2/2}.\\]</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Separera när y inte är noll</p>\\[\\frac{dy}{y}=3x\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera båda leden</p>\\[\\ln|y|=\\frac32x^2+K\\]</li><li><p class=\"facit-rubrik\">Skriv exponentialformen och ta med nollösningen</p><p>Exponentiering ger |y|=\\(e^K e^{3x^2/2}\\). Tecknet på y och den positiva faktorn eᴷ samlas i en konstant C.</p>\\[y=Ce^{3x^2/2}\\]<p>Separationen uteslöt y=0. Direkt insättning visar att även den är en lösning, så C får också vara 0.</p></li><li><p class=\"facit-rubrik\">Kontrollera med kedjeregeln</p>\\[y^{\\prime}=Ce^{3x^2/2}\\cdot3x=3xy\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=Ce^{3x^2/2}\\), där C är valfri reell konstant.</p></div>",
     "id": "4.358",
     "miniräknare": true,
     "geogebra": false,
@@ -24836,9 +24836,9 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Separera variablerna så att \\(dy/y\\) hamnar på ena sidan och \\(x\\,dx\\) på den andra.</p>",
+    "ledtrad": "<p>Samla y och dy på ena sidan och x och dx på den andra. Kontrollera även lösningen som kan förloras när du dividerar med y.</p>",
     "traningsniva": 3,
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "omrTidigare": [
       "forsta_ordningen"
     ],
@@ -24854,7 +24854,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "4.50",
     "t": "<p>Lös begynnelsevärdesproblemet</p><p>\\[y'=-0{,}5y,\\qquad y(0)=12.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm först den allmänna lösningen.</p></li><li><p>Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p></li><li><div class=\"facit-berakning\"><p>Den allmänna lösningen är</p><div class=\"facit-matte\">\\[y=Ce^{-0{,}5x}\\].</div></div></li><li><p>Begynnelsevillkoret ger</p></li><li><p>\\[12=y(0)=Ce^0=C.\\]</p></li><li><p>Alltså är <strong>\\(y=12e^{-0{,}5x}\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd koefficienten −0,5 i exponenten</p>\\[y=Ce^{-0{,}5x}\\]</li><li><p class=\"facit-rubrik\">Välj C med startvärdet 12</p>\\[12=Ce^0=C\\]</li><li><p class=\"facit-rubrik\">Kontrollera funktionen</p><p>För y=12e⁻⁰˒⁵ˣ är y(0)=12 och y′=−6e⁻⁰˒⁵ˣ=−0,5y.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=12e^{-0{,}5x}\\).</p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
@@ -24866,7 +24866,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Skriv först den allmänna lösningen \\(y=Ce^{-0{,}5x}\\) och använd därefter \\(y(0)=12\\).</p>",
+    "ledtrad": "<p>Lös först exponentialekvationen. Vid x=0 blir exponentialfaktorn 1.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "forsta_ordningen"
@@ -24913,7 +24913,7 @@ window.BANKMATF1 = [
     "typ": "lösa y prim lika med ky",
     "poang": "2/0/0",
     "t": "<p>Lös \\(y'=-4y\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> När förändringshastigheten är proportionell mot \\(y\\) får lösningen exponentialform.</p></li><li><p>Separera variablerna eller använd standardformen \\(y=Ce^{kx}\\), där koefficienten framför \\(y\\) blir exponentens faktor.</p></li><li><p>För \\(y'=ky\\) är lösningen \\(y=Ce^{kx}\\).</p></li><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[k=-4\\]:</div></div></li><li><p><strong>\\(y=Ce^{-4x}\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd koefficienten −4</p>\\[y=Ce^{-4x}\\]</li><li><p class=\"facit-rubrik\">Kontrollera genom derivering</p>\\[y^{\\prime}=-4Ce^{-4x}=-4y\\]<p>Det gäller för alla reella C, även 0. Om C är negativ närmar sig funktionen noll underifrån.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=Ce^{-4x}\\), där C är valfri.</p></div>",
     "id": "4.67",
     "miniräknare": true,
     "geogebra": false,
@@ -24925,8 +24925,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Jämför med standardformen \\(y'=ky\\). Ett negativt \\(k\\) ger en avtagande exponentialfunktion.</p>",
+    "svarFormat": "diffekv_losning",
+    "ledtrad": "<p>Jämför med y′=ky. Vilket tecken ska exponentens koefficient ha?</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "forsta_ordningen"
@@ -24970,7 +24970,7 @@ window.BANKMATF1 = [
     "typ": "begynnelsevärde exponential",
     "poang": "2/0/0",
     "t": "<p>Lös \\(y'=0{,}3y\\), \\(y(0)=7\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm först den allmänna lösningen.</p></li><li><p>Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p></li><li><div class=\"facit-matte\">\\[y=Ce^{0{,}3x}\\].</div></li><li><div class=\"facit-berakning\"><p>Begynnelsevillkoret ger</p><div class=\"facit-matte\">\\[C=7\\].</div></div></li><li><p>Alltså</p></li><li><p><strong>\\(y=7e^{0{,}3x}\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv lösningsfamiljen för k=0,3</p>\\[y=Ce^{0{,}3x}\\]</li><li><p class=\"facit-rubrik\">Använd y(0)=7</p>\\[7=Ce^0=C\\]</li><li><p class=\"facit-rubrik\">Kontrollera derivatan och startvärdet</p>\\[y^{\\prime}=2{,}1e^{0{,}3x}=0{,}3y\\]\\[y(0)=7\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=7e^{0{,}3x}\\).</p></div>",
     "id": "4.68",
     "miniräknare": true,
     "geogebra": false,
@@ -24983,7 +24983,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Skriv först \\(y=Ce^{0{,}3x}\\) och använd sedan begynnelsevillkoret.</p>",
+    "ledtrad": "<p>Koefficienten i differentialekvationen bestämmer exponenten. Startvärdet bestämmer faktorn framför.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "forsta_ordningen"
@@ -24995,18 +24995,18 @@ window.BANKMATF1 = [
   {
     "kap": 4,
     "omr": "homogena_forsta",
-    "niva": "C",
+    "niva": "E",
     "typ": "bestäm parameter från två värden",
-    "poang": "0/2/0",
+    "poang": "3/0/0",
     "t": "<p>En lösning till \\(y'=ky\\) uppfyller \\(y(0)=12\\) och \\(y(5)=18\\). Bestäm \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> När förändringshastigheten är proportionell mot den aktuella mängden gäller \\(y'=ky\\) och därmed \\(y=y_0e^{kt}\\).</p></li><li><p>Tecknet på \\(k\\) avgör tillväxt eller sönderfall, och givna värden används för att bestämma \\(k\\) eller tiden.</p></li><li><div class=\"facit-matte\">\\[y=12e^{kx}\\].</div></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[x=5\\]:</div></div></li><li><p>\\[18=12e^{5k}\\Rightarrow e^{5k}=1{,}5\\Rightarrow k=\\frac{\\ln1{,}5}{5}\\approx0{,}0811.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Låt startvärdet bestämma C</p>\\[y=Ce^{kx},\\qquad y(0)=C=12\\]</li><li><p class=\"facit-rubrik\">Använd värdet vid x=5</p>\\[18=12e^{5k}\\]\\[e^{5k}=\\frac{18}{12}=1{,}5\\]</li><li><p class=\"facit-rubrik\">Logaritmera och dividera med 5</p>\\[5k=\\ln1{,}5\\]\\[k=\\frac{\\ln1{,}5}{5}\\approx0{,}081093\\]<p>k är positivt, vilket stämmer med att y ökar från 12 till 18.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=\\ln(1{,}5)/5\\approx0{,}0811\\).</p></div>",
     "id": "4.69",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0811,
-    "tolerans": null,
+    "rättSvar": 0.08109302162163287,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -25014,8 +25014,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(y=12e^{kx}\\). Sätt in \\(x=5\\) och \\(y=18\\), och lös sedan ut \\(k\\) med logaritm.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Använd först startvärdet för att bestämma faktorn framför exponentialfunktionen. Det andra värdet ger en ekvation för k.</p>",
+    "traningsniva": 2,
     "omrTidigare": [
       "forsta_ordningen"
     ],
@@ -25030,7 +25030,7 @@ window.BANKMATF1 = [
     "typ": "lösa linjär differentialekvation med konstant jämvikt",
     "poang": "2/0/0",
     "t": "<p>Lös differentialekvationen \\(y'=5-2y\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm först jämviktsvärdet.</p></li><li><p>När \\(y=5/2\\) är \\(y'=0\\).</p></li><li><div class=\"facit-berakning\"><p>Skriv sedan avvikelsen från jämvikten som</p><div class=\"facit-matte\">\\[u=y-5/2\\].</div></div></li><li><p>Då är \\(u'=y'\\) och</p></li><li><p>\\[u'=-2u.\\]</p></li><li><p>Alltså \\(u=Ce^{-2x}\\), så</p></li></ol><p class=\"facit-svar\"><strong>\\[y=\\frac52+Ce^{-2x}.\\]</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hitta den konstanta lösningen</p>\\[0=5-2y\\quad\\Rightarrow\\quad y=\\frac52\\]</li><li><p class=\"facit-rubrik\">Beskriv avvikelsen från 5/2</p><p>Sätt u=y−5/2. Då är u′=y′ och</p>\\[u^{\\prime}=5-2(u+5/2)=-2u\\]\\[u=Ce^{-2x}\\]</li><li><p class=\"facit-rubrik\">Återgå till y</p>\\[y=\\frac52+Ce^{-2x}\\]<p>C får väljas fritt. C=0 ger den konstanta lösningen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=5/2+Ce^{-2x}\\).</p></div>",
     "id": "4.362",
     "miniräknare": true,
     "geogebra": false,
@@ -25043,9 +25043,9 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Bestäm först vilket konstant värde på \\(y\\) som gör \\(y'=0\\). Studera sedan avvikelsen från detta värde.</p>",
+    "ledtrad": "<p>Bestäm först den konstanta lösningen. Vilken differentialekvation gäller för avvikelsen från detta värde?</p>",
     "traningsniva": 2,
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "omrTidigare": [
       "forsta_ordningen"
     ],
@@ -25115,21 +25115,21 @@ window.BANKMATF1 = [
     "typ": "bestäm konstant C",
     "poang": "2/0/0",
     "t": "<p>En lösning till \\(y'=2y\\) är \\(y=Ce^{2x}\\). Bestäm \\(C\\) om \\(y(1)=10\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> Begynnelsevillkoret väljer en enda kurva ur lösningsfamiljen</p><div class=\"facit-matte\">\\[y=Ce^{2x}\\].</div></div></li><li><p>Sätt därför in den punkt som lösningen ska gå genom.</p></li><li><p>\\[10=Ce^{2\\cdot1}=Ce^2.\\]</p></li><li><p>Lös ut konstanten:</p></li><li><p>\\[C=10e^{-2}=\\frac{10}{e^2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C=10/e^2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in x=1 och y=10</p>\\[10=Ce^{2\\cdot1}=Ce^2\\]</li><li><p class=\"facit-rubrik\">Dividera båda leden med e²</p>\\[C=\\frac{10}{e^2}\\approx1{,}35335\\]<p>Insättning ger (10/e²)·e²=10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C=10/e^2\\approx1{,}35\\).</p></div>",
     "id": "4.120",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
-    "svarstyp": "text",
-    "rättSvar": "10/e^2",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.353352832366127,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Sätt in \\(x=1\\) och \\(y=10\\) i \\(y=Ce^{2x}\\), och lös ut \\(C\\).</p>",
-    "traningsniva": 1,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt in den givna punkten och dividera bort exponentialfaktorn.</p>",
+    "traningsniva": 2,
     "omrTidigare": [
       "forsta_ordningen"
     ],
@@ -25144,7 +25144,7 @@ window.BANKMATF1 = [
     "typ": "linjär inhomogen första ordningens differentialekvation med polynom",
     "poang": "0/2/0",
     "t": "<p>Bestäm den allmänna lösningen till \\(y'=3y-x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Bygg lösningen som homogen lösning plus en partikulärlösning.</p></li><li><div class=\"facit-matte\">\\[y'-3y=-x\\].</div></li><li><p>Homogen lösning: \\(Ce^{3x}\\).</p></li><li><p>Sök \\(y_p=ax+b\\): \\(a-3(ax+b)=-x\\), så \\(a=1/3\\),</p></li><li><div class=\"facit-matte\">\\[b=1/9\\].</div></li><li><p><strong>\\(y=Ce^{3x}+\\frac{x}{3}+\\frac19\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ekvationen utan x-termen</p>\\[y_h^{\\prime}=3y_h\\quad\\Rightarrow\\quad y_h=Ce^{3x}\\]</li><li><p class=\"facit-rubrik\">Sätt in en linjär partikulärlösning</p>\\[y_p=ax+b,\\qquad y_p^{\\prime}=a\\]\\[a=3(ax+b)-x\\]\\[a=(3a-1)x+3b\\]</li><li><p class=\"facit-rubrik\">Jämför x-termer och konstanter</p>\\[3a-1=0\\quad\\Rightarrow\\quad a=\\frac13\\]\\[a=3b\\quad\\Rightarrow\\quad b=\\frac19\\]</li><li><p class=\"facit-rubrik\">Addera de två delarna</p>\\[y=Ce^{3x}+\\frac{x}{3}+\\frac19\\]<p>Kontroll: y′=3Ce³ˣ+1/3, vilket också fås av 3y−x.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=Ce^{3x}+x/3+1/9\\).</p></div>",
     "id": "4.09",
     "miniräknare": true,
     "geogebra": false,
@@ -25156,8 +25156,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Lös först den homogena ekvationen. Eftersom högerledet är linjärt kan du söka en partikulärlösning \\(y_p=ax+b\\).</p>",
+    "svarFormat": "diffekv_losning",
+    "ledtrad": "<p>Lös först den homogena ekvationen. Pröva sedan en linjär funktion för den del som orsakas av x-termen.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "forsta_ordningen"
@@ -25173,7 +25173,7 @@ window.BANKMATF1 = [
     "typ": "inhomogen första ordningens differentialekvation med exponentialterm",
     "poang": "1/2/0",
     "t": "<p>Bestäm den allmänna lösningen till \\(y'-2y=e^{3x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Bygg lösningen som homogen lösning plus en partikulärlösning.</p></li><li><div class=\"facit-berakning\"><p>Homogen lösning:</p><div class=\"facit-matte\">\\[y_h=Ce^{2x}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Sök en partikulär lösning</p><div class=\"facit-matte\">\\[y_p=Ae^{3x}\\].</div></div></li><li><p>Då \\(3Ae^{3x}-2Ae^{3x}=e^{3x}\\), så \\(A=1\\).</p></li><li><p><strong>\\(y=Ce^{2x}+e^{3x}\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös den homogena ekvationen</p>\\[y_h^{\\prime}-2y_h=0\\quad\\Rightarrow\\quad y_h=Ce^{2x}\\]</li><li><p class=\"facit-rubrik\">Pröva yₚ=Ae³ˣ och derivera</p>\\[y_p^{\\prime}=3Ae^{3x}\\]\\[y_p^{\\prime}-2y_p=(3A-2A)e^{3x}\\]</li><li><p class=\"facit-rubrik\">Bestäm A från högerledet</p>\\[Ae^{3x}=e^{3x}\\quad\\Rightarrow\\quad A=1\\]</li><li><p class=\"facit-rubrik\">Addera homogen och partikulär lösning</p>\\[y=Ce^{2x}+e^{3x}\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=Ce^{2x}+e^{3x}\\).</p></div>",
     "id": "4.21",
     "miniräknare": true,
     "geogebra": false,
@@ -25185,8 +25185,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Lös först den homogena ekvationen. Eftersom högerledet är \\(e^{3x}\\) kan du pröva \\(y_p=Ae^{3x}\\).</p>",
+    "svarFormat": "diffekv_losning",
+    "ledtrad": "<p>Använd högerledets exponentialform för partikulärlösningen, men låt koefficienten vara okänd tills du satt in den.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "forsta_ordningen"
@@ -25203,7 +25203,7 @@ window.BANKMATF1 = [
     "poang": "3/0/0",
     "id": "4.51",
     "t": "<p>Bestäm den allmänna lösningen till</p><p>\\[y'+2y=6.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vi löser först den homogena ekvationen \\(y'+2y=0\\), som ger</p></li><li><p>\\[y_h=Ce^{-2x}.\\]</p></li><li><div class=\"facit-berakning\"><p>Därefter söker vi en konstant partikulärlösning</p><div class=\"facit-matte\">\\[y_p=A\\].</div></div></li><li><p>Insättning ger</p></li><li><p>\\[0+2A=6\\Rightarrow A=3.\\]</p></li><li><p>Den allmänna lösningen blir då</p></li><li><p><strong>\\(y=Ce^{-2x}+3\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös den homogena ekvationen y′+2y=0</p>\\[y_h=Ce^{-2x}\\]</li><li><p class=\"facit-rubrik\">Bestäm den konstanta partikulärlösningen</p>\\[y_p=A,\\qquad y_p^{\\prime}=0\\]\\[2A=6\\quad\\Rightarrow\\quad A=3\\]</li><li><p class=\"facit-rubrik\">Addera och kontrollera</p>\\[y=Ce^{-2x}+3\\]\\[y^{\\prime}+2y\\]\\[=-2Ce^{-2x}+2(Ce^{-2x}+3)\\]\\[=6\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=Ce^{-2x}+3\\).</p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa inhomogena ekvationer av första ordningen",
@@ -25214,8 +25214,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Lös först \\(y'+2y=0\\). Sök sedan en konstant partikulärlösning.</p>",
+    "svarFormat": "diffekv_losning",
+    "ledtrad": "<p>En konstant funktion kan ge högerledet 6. Lägg till den homogena lösningen för att få alla lösningar.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "forsta_ordningen"
@@ -25291,7 +25291,7 @@ window.BANKMATF1 = [
     "typ": "begynnelsevillkor inhomogen",
     "poang": "2/0/0",
     "t": "<p>Lös \\(y'+2y=10\\), \\(y(0)=1\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv ekvationen på linjär standardform och lös den homogena delen först.</p></li><li><p>Bestäm sedan en partikulär lösning som passar högerledets form; den allmänna lösningen är summan av dessa två delar.</p></li><li><div class=\"facit-berakning\"><p>Allmän lösning:</p><div class=\"facit-matte\">\\[y=Ce^{-2x}+5\\].</div></div></li><li><div class=\"facit-berakning\"><p>Begynnelsevillkoret ger</p><div class=\"facit-matte\">\\[1=C+5\\Rightarrow C=-4\\].</div></div></li><li><p>Därför</p></li><li><p><strong>\\(y=5-4e^{-2x}\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös y′+2y=10 utan startvillkor</p><p>Den konstanta lösningen uppfyller 2A=10, alltså A=5. Den homogena delen är Ce⁻²ˣ.</p>\\[y=5+Ce^{-2x}\\]</li><li><p class=\"facit-rubrik\">Använd y(0)=1</p>\\[1=5+C\\quad\\Rightarrow\\quad C=-4\\]</li><li><p class=\"facit-rubrik\">Kontrollera villkoret</p>\\[y(0)=5-4=1\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=5-4e^{-2x}\\).</p></div>",
     "id": "4.71",
     "miniräknare": true,
     "geogebra": false,
@@ -25304,7 +25304,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Använd sedan \\(y(0)=1\\) för att bestämma konstanten.</p>",
+    "ledtrad": "<p>Bestäm den konstanta lösningen och den homogena delen. Startvärdet väljer sedan en enda funktion.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "forsta_ordningen"
@@ -25348,7 +25348,7 @@ window.BANKMATF1 = [
     "typ": "lös med jämviktsvärde",
     "poang": "2/0/0",
     "t": "<p>Lös \\(y'=8-2y\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> När förändringshastigheten är proportionell mot \\(y\\) får lösningen exponentialform.</p></li><li><p>Separera variablerna eller använd standardformen \\(y=Ce^{kx}\\), där koefficienten framför \\(y\\) blir exponentens faktor.</p></li><li><div class=\"facit-berakning\"><p>Skriv</p><div class=\"facit-matte\">\\[y'+2y=8\\].</div></div></li><li><p>Homogen lösning \\(Ce^{-2x}\\), jämviktsvärde \\(y=4\\).</p></li><li><p>Alltså</p></li><li><p><strong>\\(y=4+Ce^{-2x}\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm jämviktsvärdet</p>\\[0=8-2A\\quad\\Rightarrow\\quad A=4\\]</li><li><p class=\"facit-rubrik\">Lös för avvikelsen från 4</p><p>Om u=y−4 blir u′=−2u. Därför är u=Ce⁻²ˣ.</p>\\[y=4+Ce^{-2x}\\]</li><li><p class=\"facit-rubrik\">Kontrollera att högerledet ger derivatan</p>\\[8-2(4+Ce^{-2x})\\]\\[=-2Ce^{-2x}=y^{\\prime}\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=4+Ce^{-2x}\\).</p></div>",
     "id": "4.94",
     "miniräknare": true,
     "geogebra": false,
@@ -25361,8 +25361,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm jämviktsvärdet genom att sätta \\(y'=0\\), och lägg sedan till den homogena exponentialdelen.</p>",
+    "svarFormat": "diffekv_losning",
+    "ledtrad": "<p>Börja med den konstanta lösningen. Det är avvikelsen från den som följer en homogen exponentialekvation.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "forsta_ordningen"
@@ -25378,7 +25378,7 @@ window.BANKMATF1 = [
     "typ": "initialvärde mot jämvikt",
     "poang": "2/0/0",
     "t": "<p>Lös \\(y'=6-3y\\), \\(y(0)=5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> När förändringshastigheten är proportionell mot \\(y\\) får lösningen exponentialform.</p></li><li><p>Separera variablerna eller använd standardformen \\(y=Ce^{kx}\\), där koefficienten framför \\(y\\) blir exponentens faktor.</p></li><li><div class=\"facit-berakning\"><p>Allmän lösning</p><div class=\"facit-matte\">\\[y=2+Ce^{-3x}\\].</div></div></li><li><p>Villkoret \\(5=2+C\\) ger \\(C=3\\).</p></li><li><p>Alltså</p></li><li><p><strong>\\(y=2+3e^{-3x}\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm jämvikten och lösningsfamiljen</p>\\[0=6-3A\\quad\\Rightarrow\\quad A=2\\]<p>Avvikelsen från 2 följer u′=−3u.</p>\\[y=2+Ce^{-3x}\\]</li><li><p class=\"facit-rubrik\">Välj konstanten med y(0)=5</p>\\[5=2+C\\quad\\Rightarrow\\quad C=3\\]</li><li><p class=\"facit-rubrik\">Kontrollera startvärdet och riktningen</p><p>y(0)=2+3=5. Lösningen minskar mot 2, som stämmer med att y′ är negativt när y är större än 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2+3e^{-3x}\\).</p></div>",
     "id": "4.95",
     "miniräknare": true,
     "geogebra": false,
@@ -25392,7 +25392,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Den allmänna lösningen närmar sig jämviktsvärdet 2. Använd sedan \\(y(0)=5\\) för att bestämma konstanten.</p>",
+    "ledtrad": "<p>Hitta först den konstanta lösningen. Startvärdet bestämmer sedan avvikelsen från den.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "forsta_ordningen"
@@ -25439,7 +25439,7 @@ window.BANKMATF1 = [
     "typ": "linjär första ordningen konstant term",
     "poang": "2/0/0",
     "t": "<p>Lös</p><p>\\[y'-2y=8.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv ekvationen på linjär standardform och lös den homogena delen först.</p></li><li><p>Bestäm sedan en partikulär lösning som passar högerledets form; den allmänna lösningen är summan av dessa två delar.</p></li><li><div class=\"facit-berakning\"><p>Homogen del:</p><div class=\"facit-matte\">\\[y_h=Ce^{2x}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Pröva</p><div class=\"facit-matte\">\\[y_p=A\\]:</div></div></li><li><p>\\[-2A=8\\Rightarrow A=-4.\\]</p></li></ol><p class=\"facit-svar\"><strong>\\[y=Ce^{2x}-4.\\]</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös y′−2y=0</p>\\[y_h=Ce^{2x}\\]</li><li><p class=\"facit-rubrik\">Sätt in en konstant för den andra delen</p>\\[y_p=A\\quad\\Rightarrow\\quad -2A=8\\]\\[A=-4\\]</li><li><p class=\"facit-rubrik\">Sätt ihop lösningen och kontrollera</p>\\[y=Ce^{2x}-4\\]\\[y^{\\prime}-2y\\]\\[=2Ce^{2x}-2(Ce^{2x}-4)=8\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=Ce^{2x}-4\\).</p></div>",
     "id": "4.142",
     "miniräknare": true,
     "geogebra": false,
@@ -25451,8 +25451,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Lös den homogena ekvationen och pröva därefter en konstant partikulärlösning.</p>",
+    "svarFormat": "diffekv_losning",
+    "ledtrad": "<p>Pröva en konstant partikulärlösning. Var noga med minustecknet framför 2y.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "forsta_ordningen"
@@ -25468,7 +25468,7 @@ window.BANKMATF1 = [
     "typ": "första ordningen med jämviktsvärde",
     "poang": "2/0/0",
     "t": "<p>Lös</p><p>\\[y'=0{,}5y-3.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv ekvationen på linjär standardform och lös den homogena delen först.</p></li><li><p>Bestäm sedan en partikulär lösning som passar högerledets form; den allmänna lösningen är summan av dessa två delar.</p></li><li><p>Homogena lösningen är \\(Ce^{0{,}5x}\\).</p></li><li><p>En konstant partikulär lösning uppfyller</p></li><li><p>\\[0=0{,}5A-3\\Rightarrow A=6.\\]</p></li></ol><p class=\"facit-svar\"><strong>\\[y=Ce^{0{,}5x}+6.\\]</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm jämviktsvärdet</p>\\[0=0{,}5A-3\\quad\\Rightarrow\\quad A=6\\]</li><li><p class=\"facit-rubrik\">Lös ekvationen för avvikelsen</p><p>Med u=y−6 får vi u′=0,5u. Därför är u=Ce⁰˒⁵ˣ.</p>\\[y=6+Ce^{0{,}5x}\\]</li><li><p class=\"facit-rubrik\">Tolka den positiva exponenten</p><p>Om C inte är noll växer avståndet från jämvikten när x ökar. Bara C=0 ger en konstant funktion.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=Ce^{0{,}5x}+6\\).</p></div>",
     "id": "4.143",
     "miniräknare": true,
     "geogebra": false,
@@ -25481,8 +25481,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först jämviktsvärdet genom att sätta \\(y'=0\\). Lös sedan den homogena avvikelsen från jämvikten.</p>",
+    "svarFormat": "diffekv_losning",
+    "ledtrad": "<p>Vilket konstant värde gör högerledet noll? Beskriv sedan avvikelsen från det värdet.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "forsta_ordningen"
@@ -25525,7 +25525,7 @@ window.BANKMATF1 = [
     "typ": "inhomogen första ordningen med linjärt högerled",
     "poang": "0/3/0",
     "t": "<p>Lös</p><p>\\[y'=2y+4x-1.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Homogena lösningen är</p><div class=\"facit-matte\">\\[y_h=Ce^{2x}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Eftersom högerledet är linjärt prövar vi</p><div class=\"facit-matte\">\\[y_p=ax+b\\].</div></div></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[y_p'=a\\].</div></div></li><li><p>Insättning:</p></li><li><p>\\[a=2(ax+b)+4x-1.\\]</p></li><li><p>Jämför koefficienter:</p></li><li><p>\\[2a+4=0\\Rightarrow a=-2,\\]</p></li><li><p>\\[a=2b-1\\Rightarrow-2=2b-1\\Rightarrow b=-\\frac12.\\]</p></li></ol><p class=\"facit-svar\"><strong>\\[y=Ce^{2x}-2x-\\frac12.\\]</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös den homogena delen</p>\\[y_h^{\\prime}=2y_h\\quad\\Rightarrow\\quad y_h=Ce^{2x}\\]</li><li><p class=\"facit-rubrik\">Sätt in yₚ=ax+b</p>\\[a=2(ax+b)+4x-1\\]\\[a=(2a+4)x+2b-1\\]</li><li><p class=\"facit-rubrik\">Bestäm a och b var för sig</p>\\[2a+4=0\\quad\\Rightarrow\\quad a=-2\\]\\[-2=2b-1\\quad\\Rightarrow\\quad b=-\\frac12\\]</li><li><p class=\"facit-rubrik\">Addera homogen och partikulär lösning</p>\\[y=Ce^{2x}-2x-\\frac12\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=Ce^{2x}-2x-1/2\\).</p></div>",
     "id": "4.145",
     "miniräknare": true,
     "geogebra": false,
@@ -25537,8 +25537,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Lös först den homogena ekvationen. Sök sedan en partikulärlösning av formen \\(ax+b\\).</p>",
+    "svarFormat": "diffekv_losning",
+    "ledtrad": "<p>Pröva en linjär partikulärlösning och jämför x-termerna respektive konstanterna efter insättning.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "forsta_ordningen"
@@ -27230,20 +27230,20 @@ window.BANKMATF1 = [
     "typ": "begynnelsevärdesproblem för exponentiell differentialekvation",
     "poang": "2/0/0",
     "t": "<p>Lös begynnelsevärdesproblemet \\(y'=y,\\ y(0)=2\\) och bestäm \\(y(1)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Bestäm först den allmänna lösningen.</p></li><li><p>Använd sedan begynnelsevillkoren ett i taget för att bestämma integrationskonstanterna och kontrollera lösningen i båda villkoren.</p></li><li><div class=\"facit-berakning\"><p>Allmän lösning är</p><div class=\"facit-matte\">\\[y=Ce^{x}\\].</div></div></li><li><p>Begynnelsevillkoret ger \\(C=2\\), så \\(y=2e^{x}\\).</p></li><li><p>\\[y(1)=2e^{1}\\approx 5{,}43656.\\]</p></li><li><p><strong>Kontroll:</strong> Kontrollera både differentialekvationen och samtliga begynnelsevillkor.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös y′=y och välj C</p>\\[y=Ce^x,\\qquad 2=Ce^0=C\\]</li><li><p class=\"facit-rubrik\">Beräkna värdet efter ett x-steg</p>\\[y(1)=2e^1=2e\\approx5{,}43656\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y(1)=2e\\approx5{,}44\\).</p></div>",
     "id": "4.396",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "numeriskt",
     "rättSvar": 5.43656365691809,
-    "tolerans": 0.01087312731383618,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Använd startvärdet för att bestämma exponentialfunktionens faktor innan du sätter in x=1.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -27284,26 +27284,26 @@ window.BANKMATF1 = [
   {
     "kap": 4,
     "omr": "inhomogena_forsta",
-    "niva": "C",
+    "niva": "E",
     "typ": "begynnelsevärdesproblem med jämviktsnivå",
-    "poang": "0/2/0",
+    "poang": "3/0/0",
     "t": "<p>Lös \\(y'=-3(y-6),\\ y(0)=10\\) och bestäm \\(y(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Bestäm först den allmänna lösningen.</p></li><li><p>Använd sedan begynnelsevillkoren ett i taget för att bestämma integrationskonstanterna och kontrollera lösningen i båda villkoren.</p></li><li><p>Lösningen när jämvikten är \\(L=6\\) är</p></li><li><p>\\[y=6+Ce^{-3x}.\\]</p></li><li><div class=\"facit-berakning\"><p>Begynnelsevillkoret ger</p><div class=\"facit-matte\">\\[C=4\\].</div></div></li><li><p>Alltså</p></li><li><p>\\[y(2)=6+4e^{-6}\\approx 6{,}00992.\\]</p></li><li><p><strong>Kontroll:</strong> Kontrollera både differentialekvationen och samtliga begynnelsevillkor.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös för avvikelsen från 6</p>\\[y=6+Ce^{-3x}\\]</li><li><p class=\"facit-rubrik\">Bestäm C från y(0)=10</p>\\[10=6+C\\quad\\Rightarrow\\quad C=4\\]</li><li><p class=\"facit-rubrik\">Beräkna y(2) utan mellanavrundning</p>\\[y(2)=6+4e^{-6}\\approx6{,}009915\\]<p>Värdet är lite större än 6, eftersom kurvan närmar sig jämvikten ovanifrån.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y(2)=6+4e^{-6}\\approx6{,}01\\).</p></div>",
     "id": "4.397",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "numeriskt",
     "rättSvar": 6.009915008706665,
-    "tolerans": 0.002,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Avvikelsen från jämviktsvärdet följer en homogen ekvation. Använd startvärdet innan du beräknar y(2).</p>",
+    "traningsniva": 2,
     "omrTidigare": [
       "begynnelsevillkor"
     ],
@@ -27343,31 +27343,39 @@ window.BANKMATF1 = [
   {
     "kap": 4,
     "omr": "homogena_forsta",
-    "niva": "C",
+    "niva": "E",
     "typ": "bestämma parametrar i exponentiell lösning från två villkor",
-    "poang": "0/2/0",
+    "poang": "2/0/0",
     "t": "<p>En lösning har formen \\(y=Ce^{kx}\\). Man vet att \\(y(0)=6\\) och \\(y(1)=12\\).</p><p>Bestäm \\(C\\) och \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Bestäm först den allmänna lösningen.</p></li><li><p>Använd sedan begynnelsevillkoren ett i taget för att bestämma integrationskonstanterna och kontrollera lösningen i båda villkoren.</p></li><li><p>Från \\(y(0)=C=6\\) fås \\(C=6\\).</p></li><li><p>Sedan</p></li><li><p>\\[12=6e^k\\Rightarrow e^k=2\\Rightarrow k=\\ln2.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm C från y(0)=6</p>\\[6=Ce^0=C\\]</li><li><p class=\"facit-rubrik\">Bestäm k från y(1)=12</p>\\[12=6e^k\\]\\[e^k=2\\quad\\Rightarrow\\quad k=\\ln2\\]</li><li><p class=\"facit-rubrik\">Kontrollera båda punkterna</p>\\[y(0)=6,\\qquad y(1)=6e^{\\ln2}=12\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C=6\\) och \\(k=\\ln2\\approx0{,}6931\\).</p></div>",
     "id": "4.399",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [6, 0.6931471805599453],
+    "tolerans": [0, 0],
+    "självrättning": [true, true],
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Börja med punkten där x=0. Använd sedan den andra punkten för att bestämma exponentens koefficient.</p>",
+    "traningsniva": 2,
     "omrTidigare": [
       "begynnelsevillkor"
     ],
     "familjTidigare": [
       "Begynnelsevärdesproblem för differentialekvationer"
     ]
+  ,
+    "spel": true
+  ,
+    "svarFormat": ["numeriskt", "numeriskt"]
+  ,
+    "svarsstruktur": "ordnad"
+  ,
+    "svarEtiketter": ["C", "k"]
   },
   {
     "kap": 4,
@@ -27494,7 +27502,7 @@ window.BANKMATF1 = [
     "typ": "initialvillkor inhomogen första ordningen",
     "poang": "2/0/0",
     "t": "<p>Bestäm den lösning till \\(y'+y=4\\) som uppfyller \\(y(0)=10\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm först den allmänna lösningen.</p></li><li><p>Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p></li><li><div class=\"facit-berakning\"><p>Allmän lösning</p><div class=\"facit-matte\">\\[y=4+Ce^{-x}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Villkoret ger</p><div class=\"facit-matte\">\\[10=4+C\\Rightarrow C=6\\].</div></div></li><li><p>Alltså</p></li><li><p><strong>\\(y=4+6e^{-x}\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm lösningsfamiljen</p><p>Den konstanta lösningen är 4. Den homogena ekvationen y′+y=0 ger Ce⁻ˣ.</p>\\[y=4+Ce^{-x}\\]</li><li><p class=\"facit-rubrik\">Använd startvärdet 10</p>\\[10=4+C\\quad\\Rightarrow\\quad C=6\\]</li><li><p class=\"facit-rubrik\">Kontrollera båda kraven</p><p>y(0)=10 och y′+y=−6e⁻ˣ+4+6e⁻ˣ=4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=4+6e^{-x}\\).</p></div>",
     "id": "4.107",
     "miniräknare": true,
     "geogebra": false,
@@ -27507,7 +27515,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Bestäm den konstanta lösningen till ekvationen. Startvärdet anger hur långt från den lösningen kurvan börjar.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -27583,7 +27591,7 @@ window.BANKMATF1 = [
     "typ": "första ordningens begynnelsevärdesproblem",
     "poang": "2/0/0",
     "t": "<p>Lös begynnelsevärdesproblemet</p><p>\\[y'=2y,\\qquad y(0)=3.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm först den allmänna lösningen.</p></li><li><p>Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p></li><li><p>Den allmänna lösningen till \\(y'=2y\\) är \\(y=Ce^{2x}\\).</p></li><li><p>Begynnelsevillkoret ger</p></li><li><p>\\[3=y(0)=C.\\]</p></li></ol><p class=\"facit-svar\"><strong>\\[y=3e^{2x}.\\]</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv familjen för y′=2y</p>\\[y=Ce^{2x}\\]</li><li><p class=\"facit-rubrik\">Använd startvärdet 3</p>\\[3=Ce^0=C\\]</li><li><p class=\"facit-rubrik\">Kontrollera den valda lösningen</p>\\[y^{\\prime}=6e^{2x}=2y,\\qquad y(0)=3\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=3e^{2x}\\).</p></div>",
     "id": "4.124",
     "miniräknare": true,
     "geogebra": false,
@@ -27596,8 +27604,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilken exponentialfunktion har derivatan två gånger funktionen? Använd sedan startvärdet.</p>",
+    "traningsniva": 2,
     "omrTidigare": [
       "begynnelsevillkor"
     ],
@@ -27612,7 +27620,7 @@ window.BANKMATF1 = [
     "typ": "exponentiellt avtagande begynnelsevärdesproblem",
     "poang": "2/0/0",
     "t": "<p>Lös</p><p>\\[y'=-0{,}5y,\\qquad y(0)=8.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm först den allmänna lösningen.</p></li><li><p>Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p></li><li><div class=\"facit-berakning\"><p>Den allmänna lösningen är</p><div class=\"facit-matte\">\\[y=Ce^{-0{,}5x}\\].</div></div></li><li><p>Av \\(y(0)=8\\) följer \\(C=8\\).</p></li></ol><p class=\"facit-svar\"><strong>\\[y=8e^{-0{,}5x}.\\]</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv familjen med negativ exponent</p>\\[y=Ce^{-0{,}5x}\\]</li><li><p class=\"facit-rubrik\">Välj C så att y(0)=8</p>\\[8=Ce^0=C\\]</li><li><p class=\"facit-rubrik\">Kontrollera koefficienten efter derivering</p>\\[y^{\\prime}=-4e^{-0{,}5x}=-0{,}5y\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=8e^{-0{,}5x}\\).</p></div>",
     "id": "4.125",
     "miniräknare": true,
     "geogebra": false,
@@ -27625,8 +27633,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Lösningen är exponentiell. Startvärdet ger faktorn framför exponentialuttrycket.</p>",
+    "traningsniva": 2,
     "omrTidigare": [
       "begynnelsevillkor"
     ],
@@ -27638,10 +27646,10 @@ window.BANKMATF1 = [
     "id": "4.515",
     "kap": 4,
     "omr": "homogena_forsta",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Mängden kol-14 i ett dött organiskt material minskar enligt \\(y'=-ky\\). Halveringstiden är 5 730 år.</p><p>I ett fynd finns 30 % av den ursprungliga mängden kol-14 kvar. Hur gammalt är fyndet? Avrunda till tiotal år.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Lösningen är</p><div class=\"facit-matte\">\\[y=y_0e^{-kt}\\].</div></div></li><li><p>Halveringstiden ger \\(e^{-5730k}=\\frac12\\), alltså \\(k=\\frac{\\ln2}{5730}\\approx1{,}210\\cdot10^{-4}\\) per år.</p></li><li><p>\\(e^{-kt}=0{,}30\\) ger</p></li><li><p>\\[t=\\frac{\\ln(1/0{,}30)}{k}=5730\\cdot\\frac{\\ln(1/0{,}30)}{\\ln2}\\approx9\\,950\\text{ år}.\\]</p></li><li><p>Rimlighet: 30 % ligger mellan 50 % (en halveringstid) och 25 % (två halveringstider).</p></li><li><p>Åldern ska alltså ligga mellan 5 730 och 11 460 år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 9 950 år</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beskriv den kvarvarande andelen</p>\\[y=y_0e^{-kt},\\qquad \\frac{y}{y_0}=e^{-kt}\\]</li><li><p class=\"facit-rubrik\">Bestäm k från en halvering</p>\\[e^{-5730k}=\\frac12\\]\\[-5730k=\\ln(1/2)=-\\ln2\\]\\[k=\\frac{\\ln2}{5730}\\]</li><li><p class=\"facit-rubrik\">Lös för tiden när 30 procent återstår</p>\\[e^{-kt}=0{,}30\\]\\[t=\\frac{-\\ln0{,}30}{k}\\]\\[=5730\\frac{\\ln(1/0{,}30)}{\\ln2}\\]\\[\\approx9952{,}81\\text{ år}\\]</li><li><p class=\"facit-rubrik\">Avrunda till tiotal och kontrollera storleken</p><p>Det blir 9 950 år. Eftersom 30 % ligger mellan 50 % och 25 % ska åldern ligga mellan en och två halveringstider, alltså mellan 5 730 och 11 460 år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 9 950 år.</p></div>",
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "formaga": [
       "modellering",
@@ -27650,23 +27658,25 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm \\(k\\) ur halveringstiden. Lös sedan \\(e^{-kt}=0{,}30\\).</p>",
+    "ledtrad": "<p>Uttryck den kvarvarande andelen med en exponentialfunktion. Använd halveringstiden för att bestämma k innan du löser ut åldern.</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "svarstyp": "numeriskt",
     "rättSvar": 9952.812854572363,
-    "tolerans": 10,
+    "tolerans": 5,
     "svarEnhet": "år",
     "typ": "kol-14-datering"
+  ,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.516",
     "kap": 4,
     "omr": "homogena_forsta",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös begynnelsevärdesproblemet \\(y'=-0{,}3y\\), \\(y(0)=50\\), och beräkna \\(y(4)\\). Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Lösningen är</p><div class=\"facit-matte\">\\[y=50e^{-0{,}3x}\\].</div></div></li><li><div class=\"facit-matte\">\\[y(4)=50e^{-1{,}2}\\approx15{,}06\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 15,06</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ekvationen och använd y(0)=50</p>\\[y=Ce^{-0{,}3x},\\qquad C=50\\]</li><li><p class=\"facit-rubrik\">Beräkna det efterfrågade värdet</p>\\[y(4)=50e^{-0{,}3\\cdot4}\\]\\[=50e^{-1{,}2}\\approx15{,}05971\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y(4)\\approx15{,}06\\).</p></div>",
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "formaga": [
       "procedur"
@@ -27674,22 +27684,24 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Lösningen till \\(y'=ky\\) är \\(y=Ce^{kx}\\). Bestäm \\(C\\) med begynnelsevärdet.</p>",
+    "ledtrad": "<p>Bestäm faktorn framför exponentialfunktionen med startvärdet. Sätt sedan in x=4 utan att avrunda i förväg.</p>",
     "spel": true,
-    "traningsniva": 3,
+    "traningsniva": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 15.059710595610106,
-    "tolerans": 0.01,
+    "tolerans": 0.005,
     "typ": "begynnelsevärdesproblem y'=ky"
+  ,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.520",
     "kap": 4,
     "omr": "homogena_forsta",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En bakteriekultur växer enligt \\(y'=ky\\) och fördubblas på 20 minuter.</p><p>Bestäm \\(k\\) (per minut, fyra decimaler) och hur lång tid det tar för kulturen att bli 1 000 gånger så stor (minuter, en decimal).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y=y_0e^{kt}\\].</div></li><li><p>Fördubbling på 20 min: \\(e^{20k}=2\\), alltså \\(k=\\frac{\\ln2}{20}\\approx0{,}0347\\) per minut.</p></li><li><p>\\(e^{kt}=1000\\) ger \\(t=\\frac{\\ln1000}{k}=20\\cdot\\frac{\\ln1000}{\\ln2}\\approx199{,}3\\) min.</p></li><li><p>Kontroll: \\(2^{10}=1024\\approx1000\\), alltså ungefär 10 fördubblingar, 200 minuter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}0347\\) per minut och cirka 199,3 minuter</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd en fördubbling på 20 minuter</p>\\[y=y_0e^{kt}\\]\\[2y_0=y_0e^{20k}\\]\\[20k=\\ln2\\quad\\Rightarrow\\quad k=\\frac{\\ln2}{20}\\]\\[k\\approx0{,}0347\\text{ min}^{-1}\\]</li><li><p class=\"facit-rubrik\">Lös för tillväxtfaktorn 1 000</p>\\[e^{kt}=1000\\]\\[t=\\frac{\\ln1000}{\\ln2/20}\\]\\[\\approx199{,}3157\\text{ min}\\]</li><li><p class=\"facit-rubrik\">Kontrollera med antalet fördubblingar</p><p>Tio fördubblingar ger faktorn 2¹⁰=1 024 på 200 minuter. Svaret ska därför ligga strax under 200 minuter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}0347\\) per minut och tiden är cirka 199,3 minuter.</p></div>",
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "formaga": [
       "procedur",
@@ -27698,24 +27710,25 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Lös \\(e^{20k}=2\\). Hur många fördubblingar behövs ungefär för att få 1 000 gånger så mycket?</p>",
+    "ledtrad": "<p>Fördubblingen ger ett samband för k. Behåll det exakta värdet när du räknar ut den längre tiden.</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.03465735902799726,
       199.31568569324173
     ],
-    "tolerans": [
-      0.0001,
-      0.1
-    ],
+    "tolerans": [5e-05, 0.05],
     "svarEtiketter": [
       "k",
       "Tid"
     ],
     "svarsstruktur": "ordnad",
     "typ": "fördubblingstid och tillväxtkonstant"
+  ,
+    "svarFormat": ["numeriskt", "numeriskt"]
+  ,
+    "svarEnhet": ["min^-1", "min"]
   },
   {
     "kap": 4,
@@ -27724,16 +27737,13 @@ window.BANKMATF1 = [
     "typ": "ställa upp och lösa y'=ky",
     "poang": "2/0/0",
     "t": "<p>En bakterieodling växer så att tillväxthastigheten \\(N^{\\prime}(t)\\) bakterier per minut är proportionell mot antalet bakterier \\(N(t)\\). Proportionalitetskonstanten är \\(0{,}05\\ \\text{min}^{-1}\\), och från början finns 1 500 bakterier.</p><ol type=\"a\"><li>Bestäm \\(N(t)\\).</li><li>Hur många bakterier finns efter 7,0 minuter? Avrunda till hundratal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(N^{\\prime}=0{,}05N\\) med \\(N(0)=1\\,500\\) ger \\(N=1\\,500e^{0{,}05t}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(N(t)=1\\,500e^{0{,}05t}\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[N(7)=1\\,500e^{0{,}35}\\approx2\\,129\\approx2\\,100\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 2 100 bakterier</p></li></ol></div>",
+    "s": "<h4>a)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd proportionaliteten i tillväxten</p>\\[N^{\\prime}=0{,}05N\\]\\[N=Ce^{0{,}05t}\\]</li><li><p class=\"facit-rubrik\">Bestäm C från startantalet</p>\\[1500=Ce^0=C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(N(t)=1500e^{0{,}05t}\\).</p></div><h4>b)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd modellen vid t=7</p>\\[N(7)=1500e^{0{,}05\\cdot7}\\]\\[=1500e^{0{,}35}\\approx2128{,}60\\]</li><li><p class=\"facit-rubrik\">Avrunda till närmaste hundratal</p><p>2 128,60 ligger närmare 2 100 än 2 200.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2 100 bakterier.</p></div>",
     "id": "4.554",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "flera_delar",
-    "rättSvar": [
-      "1500*e^(0.05t)",
-      2100
-    ],
+    "rättSvar": ["1500*e^(0.05t)", 2128.6013228898855],
     "tolerans": [
       null,
       50
@@ -27753,54 +27763,33 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En bakterieodling växer så att tillväxthastigheten \\(N^{\\prime}(t)\\) bakterier per minut är proportionell mot antalet bakterier \\(N(t)\\). Proportionalitetskonstanten är \\(0{,}05\\ \\text{min}^{-1}\\), och från början finns 1 500 bakterier.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Bestäm \\(N(t)\\).",
-        "t": "<p>En bakterieodling växer så att tillväxthastigheten \\(N^{\\prime}(t)\\) bakterier per minut är proportionell mot antalet bakterier \\(N(t)\\). Proportionalitetskonstanten är \\(0{,}05\\ \\text{min}^{-1}\\), och från början finns 1 500 bakterier.</p><p>Bestäm \\(N(t)\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(N^{\\prime}=0{,}05N\\) med \\(N(0)=1\\,500\\) ger \\(N=1\\,500e^{0{,}05t}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(N(t)=1\\,500e^{0{,}05t}\\)</p></div>",
-        "ledtrad": "<p>Lösningen till \\(y^{\\prime}=ky\\) är \\(y=Ce^{kt}\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur många bakterier finns efter 7,0 minuter? Avrunda till hundratal.",
-        "t": "<p>En bakterieodling växer så att tillväxthastigheten \\(N^{\\prime}(t)\\) bakterier per minut är proportionell mot antalet bakterier \\(N(t)\\). Proportionalitetskonstanten är \\(0{,}05\\ \\text{min}^{-1}\\), och från början finns 1 500 bakterier.</p><p>Hur många bakterier finns efter 7,0 minuter? Avrunda till hundratal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[N(7)=1\\,500e^{0{,}35}\\approx2\\,129\\approx2\\,100\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 2 100 bakterier</p></div>",
-        "ledtrad": "<p>Lös differentialekvationen och sätt in \\(t=7{,}0\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1
-      }
-    ],
-    "ledtrad": "<p>Ställ upp \\(N^{\\prime}=kN\\).</p>",
-    "traningsniva": 1
+    "spelDelar": [{"etikett": "a", "fraga": "Bestäm \\(N(t)\\).", "t": "<p>En bakterieodling växer så att tillväxthastigheten \\(N^{\\prime}(t)\\) bakterier per minut är proportionell mot antalet bakterier \\(N(t)\\). Proportionalitetskonstanten är \\(0{,}05\\ \\text{min}^{-1}\\), och från början finns 1 500 bakterier.</p><p>Bestäm \\(N(t)\\).</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd proportionaliteten i tillväxten</p>\\[N^{\\prime}=0{,}05N\\]\\[N=Ce^{0{,}05t}\\]</li><li><p class=\"facit-rubrik\">Bestäm C från startantalet</p>\\[1500=Ce^0=C\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(N(t)=1500e^{0{,}05t}\\).</p></div>", "ledtrad": "<p>Vilken typ av funktion har en derivata som är proportionell mot funktionen själv?</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 2}, {"etikett": "b", "fraga": "Modellen är \\(N(t)=1500e^{0{,}05t}\\). Hur många bakterier finns efter 7,0 minuter? Avrunda till hundratal.", "t": "<p>En bakterieodling växer så att tillväxthastigheten \\(N^{\\prime}(t)\\) bakterier per minut är proportionell mot antalet bakterier \\(N(t)\\). Proportionalitetskonstanten är \\(0{,}05\\ \\text{min}^{-1}\\), och från början finns 1 500 bakterier.</p><p>Modellen är \\(N(t)=1500e^{0{,}05t}\\). Hur många bakterier finns efter 7,0 minuter? Avrunda till hundratal.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd modellen vid t=7</p>\\[N(7)=1500e^{0{,}05\\cdot7}\\]\\[=1500e^{0{,}35}\\approx2128{,}60\\]</li><li><p class=\"facit-rubrik\">Avrunda till närmaste hundratal</p><p>2 128,60 ligger närmare 2 100 än 2 200.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2 100 bakterier.</p></div>", "ledtrad": "<p>Sätt in tiden i modellen och avrunda först på slutet.</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 2}],
+    "ledtrad": "<p>Använd proportionaliteten för att skriva differentialekvationen. Startantalet bestämmer konstanten.</p>",
+    "traningsniva": 2
   },
   {
     "kap": 4,
     "omr": "homogena_forsta",
-    "niva": "E",
+    "niva": "C",
     "typ": "bestämma k ur två värden",
-    "poang": "1/1/0",
+    "poang": "0/3/0",
     "t": "<p>När Bertil kommer till sin stuga är det 14 °C inne. Två timmar efter att han börjat elda är det 17 °C. Anta att temperaturen \\(y\\) följer \\(y^{\\prime}=ky\\).</p><p>Hur många timmar efter att han började elda är det 20 °C? Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y=14e^{kt}\\].</div></li><li><div class=\"facit-matte\">\\[17=14e^{2k}\\iff k=\\dfrac12\\ln\\dfrac{17}{14}\\approx0{,}097\\].</div></li><li><div class=\"facit-matte\">\\[20=14e^{kt}\\iff t=\\dfrac{\\ln(20/14)}{k}\\approx3{,}7\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 3,7 timmar</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd den angivna temperaturmodellen</p>\\[y=Ce^{kt},\\qquad C=y(0)=14\\]</li><li><p class=\"facit-rubrik\">Bestäm k från mätningen efter två timmar</p>\\[17=14e^{2k}\\]\\[2k=\\ln(17/14)\\]\\[k=\\frac{\\ln(17/14)}2\\]</li><li><p class=\"facit-rubrik\">Lös för tiden då temperaturen är 20 °C</p>\\[20=14e^{kt}\\]\\[t=\\frac{\\ln(20/14)}{\\ln(17/14)/2}\\]\\[\\approx3{,}6741\\text{ h}\\]<p>Detta är tiden från det att eldningen började, inte ytterligare tid efter mätningen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3,7 timmar efter att eldningen började.</p></div>",
     "id": "4.556",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.7,
-    "tolerans": 0.06,
+    "rättSvar": 3.6741065680166893,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Lös differentialekvationen och bestäm \\(k\\) ur mätningen efter två timmar.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Låt tiden noll vara när Bertil börjar elda. Den andra temperaturmätningen bestämmer k.</p>",
+    "traningsniva": 3,
     "svarEnhet": "h"
   },
   {
@@ -27810,21 +27799,21 @@ window.BANKMATF1 = [
     "typ": "tillväxt ur två mätningar",
     "poang": "1/1/0",
     "t": "<p>En bakterieodling har 200 bakterier, och 8,0 timmar senare har den 500. Anta att tillväxthastigheten hela tiden är proportionell mot antalet bakterier.</p><p>Hur många bakterier finns efter ett dygn?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(y=200e^{kt}\\) med \\(e^{8k}=\\dfrac{500}{200}=2{,}5\\).</p></li><li><div class=\"facit-berakning\"><p>Ett dygn är 24 h:</p><div class=\"facit-matte\">\\[y(24)=200\\left(e^{8k}\\right)^3=200\\cdot2{,}5^3=3\\,125\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 125 bakterier</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna förändringsfaktorn på åtta timmar</p>\\[\\frac{500}{200}=2{,}5\\]</li><li><p class=\"facit-rubrik\">Använd samma faktor under tre perioder</p>\\[24/8=3\\]\\[N(24)=200\\cdot2{,}5^3=3125\\]<p>Efter 8, 16 och 24 timmar ger modellen 500, 1 250 respektive 3 125 bakterier.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 125 bakterier enligt modellen.</p></div>",
     "id": "4.557",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "numeriskt",
     "rättSvar": 3125,
-    "tolerans": 1,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ett dygn är tre perioder om 8 timmar.</p>",
+    "ledtrad": "<p>Vid exponentiell tillväxt ger lika långa tidsintervall samma förändringsfaktor. Hur många åttatimmarsperioder ryms i ett dygn?</p>",
     "traningsniva": 2
   },
   {
@@ -27834,20 +27823,14 @@ window.BANKMATF1 = [
     "typ": "jämföra modell och verklighet",
     "poang": "2/1/0",
     "t": "<p>Antalet lodjur \\(N\\) i ett område antas växa så att \\(N^{\\prime}=kN\\), där \\(t\\) är tiden i år. Vid en första inventering fanns 14 lodjur.</p><ol type=\"a\"><li>Hur många lodjur finns efter 7,0 år om \\(k=0{,}05\\)? Avrunda till heltal.</li><li>Vid en ny inventering efter 7,0 år fanns i stället 122 lodjur. Vilket värde på \\(k\\) motsvarar det? Svara med två decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(N=14e^{0{,}05t}\\) och \\(N(7)=14e^{0{,}35}\\approx20\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 20 lodjur</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[122=14e^{7k}\\iff k=\\dfrac{\\ln(122/14)}{7}\\approx0{,}31\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}31\\ \\text{år}^{-1}\\)</p></li></ol></div>",
+    "s": "<h4>a)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj faktorn med startantalet 14</p>\\[N=Ce^{0{,}05t},\\qquad C=14\\]</li><li><p class=\"facit-rubrik\">Beräkna antalet efter sju år</p>\\[N(7)=14e^{0{,}35}\\approx19{,}87\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 20 lodjur.</p></div><h4>b)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd båda inventeringarna</p>\\[N=14e^{kt}\\]\\[122=14e^{7k}\\]</li><li><p class=\"facit-rubrik\">Förkorta startantalet och logaritmera</p>\\[e^{7k}=122/14\\]\\[7k=\\ln(122/14)\\]\\[k=\\frac{\\ln(122/14)}7\\approx0{,}30928\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}31\\) per år.</p></div>",
     "id": "4.558",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "flera_delar",
-    "rättSvar": [
-      20,
-      0.31
-    ],
-    "tolerans": [
-      0.6,
-      0.006
-    ],
+    "rättSvar": [19.866945680305598, 0.30928053073114253],
+    "tolerans": [0.5, 0.005],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27864,29 +27847,8 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Antalet lodjur \\(N\\) i ett område antas växa så att \\(N^{\\prime}=kN\\), där \\(t\\) är tiden i år. Vid en första inventering fanns 14 lodjur.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur många lodjur finns efter 7,0 år om \\(k=0{,}05\\)? Avrunda till heltal.",
-        "t": "<p>Antalet lodjur \\(N\\) i ett område antas växa så att \\(N^{\\prime}=kN\\), där \\(t\\) är tiden i år. Vid en första inventering fanns 14 lodjur.</p><p>Hur många lodjur finns efter 7,0 år om \\(k=0{,}05\\)? Avrunda till heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(N=14e^{0{,}05t}\\) och \\(N(7)=14e^{0{,}35}\\approx20\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 20 lodjur</p></div>",
-        "ledtrad": "<p>Lösningen till \\(N^{\\prime}=kN\\) är \\(N=N_0e^{kt}\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vid en ny inventering efter 7,0 år fanns 122 lodjur. Vilket värde på \\(k\\) motsvarar det? Svara med två decimaler.",
-        "t": "<p>Antalet lodjur \\(N\\) i ett område antas växa så att \\(N^{\\prime}=kN\\), där \\(t\\) är tiden i år. Vid en första inventering fanns 14 lodjur.</p><p>Vid en ny inventering efter 7,0 år fanns 122 lodjur. Vilket värde på \\(k\\) motsvarar det? Svara med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[122=14e^{7k}\\iff k=\\dfrac{\\ln(122/14)}{7}\\approx0{,}31\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}31\\ \\text{år}^{-1}\\)</p></div>",
-        "ledtrad": "<p>Sätt in \\(t=7\\) och \\(N=122\\) och lös ut \\(k\\).</p>",
-        "niva": "E",
-        "poang": "1/1/0",
-        "traningsniva": 2
-      }
-    ],
-    "ledtrad": "<p>Använd \\(N=N_0e^{kt}\\).</p>",
+    "spelDelar": [{"etikett": "a", "fraga": "Hur många lodjur finns efter 7,0 år om \\(k=0{,}05\\)? Avrunda till heltal.", "t": "<p>Antalet lodjur \\(N\\) i ett område antas växa så att \\(N^{\\prime}=kN\\), där \\(t\\) är tiden i år. Vid en första inventering fanns 14 lodjur.</p><p>Hur många lodjur finns efter 7,0 år om \\(k=0{,}05\\)? Avrunda till heltal.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj faktorn med startantalet 14</p>\\[N=Ce^{0{,}05t},\\qquad C=14\\]</li><li><p class=\"facit-rubrik\">Beräkna antalet efter sju år</p>\\[N(7)=14e^{0{,}35}\\approx19{,}87\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 20 lodjur.</p></div>", "ledtrad": "<p>Bestäm funktionen med det givna k-värdet och startantalet. Sätt sedan in sju år.</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 2}, {"etikett": "b", "fraga": "Vid en ny inventering efter 7,0 år fanns 122 lodjur. Vilket värde på \\(k\\) motsvarar det? Svara med två decimaler.", "t": "<p>Antalet lodjur \\(N\\) i ett område antas växa så att \\(N^{\\prime}=kN\\), där \\(t\\) är tiden i år. Vid en första inventering fanns 14 lodjur.</p><p>Vid en ny inventering efter 7,0 år fanns 122 lodjur. Vilket värde på \\(k\\) motsvarar det? Svara med två decimaler.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd båda inventeringarna</p>\\[N=14e^{kt}\\]\\[122=14e^{7k}\\]</li><li><p class=\"facit-rubrik\">Förkorta startantalet och logaritmera</p>\\[e^{7k}=122/14\\]\\[7k=\\ln(122/14)\\]\\[k=\\frac{\\ln(122/14)}7\\approx0{,}30928\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}31\\) per år.</p></div>", "ledtrad": "<p>Jämför det nya antalet med startantalet. Logaritmera för att lösa ut k.</p>", "niva": "E", "poang": "1/1/0", "traningsniva": 2}],
+    "ledtrad": "<p>Startantalet bestämmer faktorn framför exponentialfunktionen. I den andra delen behöver du också bestämma k.</p>",
     "traningsniva": 2
   },
   {
@@ -27896,22 +27858,24 @@ window.BANKMATF1 = [
     "typ": "bestämma k ur två årtal",
     "poang": "1/1/0",
     "t": "<p>År 1960 fanns bara 20 häckande par sångsvan i Sverige, och år 2008 fanns cirka 4 000 par. Anta att tillväxthastigheten är proportionell mot antalet par, \\(N^{\\prime}=kN\\).</p><p>Bestäm \\(k\\). Svara med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(N=20e^{kt}\\) med \\(t\\) i år efter 1960.</p></li><li><div class=\"facit-matte\">\\[4\\,000=20e^{48k}\\iff k=\\dfrac{\\ln200}{48}\\approx0{,}110\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}110\\ \\text{år}^{-1}\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna tiden från 1960</p>\\[2008-1960=48\\text{ år}\\]\\[N=20e^{kt}\\]</li><li><p class=\"facit-rubrik\">Använd ökningen till 4 000 par</p>\\[4000=20e^{48k}\\]\\[e^{48k}=200\\]</li><li><p class=\"facit-rubrik\">Logaritmera och dividera med 48</p>\\[k=\\frac{\\ln200}{48}\\approx0{,}1103816\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}110\\) per år.</p></div>",
     "id": "4.559",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.11,
-    "tolerans": 0.0006,
+    "rättSvar": 0.11038161180308409,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur många år har gått mellan mätningarna?</p>",
+    "ledtrad": "<p>Beräkna först tidsintervallet mellan inventeringarna. Jämför sedan antalet par med startvärdet.</p>",
     "traningsniva": 2
+  ,
+    "svarEnhet": "år^-1"
   },
   {
     "kap": 4,
@@ -27920,22 +27884,24 @@ window.BANKMATF1 = [
     "typ": "avtagande lufttryck",
     "poang": "1/1/0",
     "t": "<p>Lufttrycket \\(p\\) avtar med höjden \\(x\\) km så att \\(\\dfrac{\\mathrm{d}p}{\\mathrm{d}x}=-kp\\). På höjden 5,50 km är trycket hälften så stort som vid havsytan.</p><p>Bestäm \\(k\\). Svara med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=p_0e^{-kx}\\].</div></li><li><div class=\"facit-matte\">\\[\\dfrac{p_0}{2}=p_0e^{-5{,}50k}\\iff k=\\dfrac{\\ln2}{5{,}50}\\approx0{,}126\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}126\\ \\text{km}^{-1}\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv trycket som funktion av höjden</p>\\[p=p_0e^{-kx}\\]</li><li><p class=\"facit-rubrik\">Använd att trycket halveras på 5,50 km</p>\\[p_0/2=p_0e^{-5{,}50k}\\]\\[1/2=e^{-5{,}50k}\\]</li><li><p class=\"facit-rubrik\">Logaritmera och lös ut k</p>\\[-\\ln2=-5{,}50k\\]\\[k=\\frac{\\ln2}{5{,}50}\\approx0{,}1260268\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}126\\ \\text{km}^{-1}\\).</p></div>",
     "id": "4.560",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.126,
-    "tolerans": 0.0006,
+    "rättSvar": 0.12602676010180824,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Lös ekvationen och använd att trycket halveras på 5,50 km.</p>",
+    "ledtrad": "<p>Använd en exponentialfunktion med negativ exponent. Starttrycket kan förkortas när du använder halveringen.</p>",
     "traningsniva": 2
+  ,
+    "svarEnhet": "km^-1"
   },
   {
     "kap": 4,
@@ -27944,7 +27910,7 @@ window.BANKMATF1 = [
     "typ": "inhomogen första ordningen med begynnelsevillkor",
     "poang": "2/0/0",
     "t": "<p>Lös</p><p>\\[y'=y+4,\\qquad y(0)=2.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm först den allmänna lösningen.</p></li><li><p>Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p></li><li><p>En konstant partikulär lösning fås av \\(0=A+4\\), alltså \\(A=-4\\).</p></li><li><p>Den allmänna lösningen är därför</p></li><li><p>\\[y=Ce^x-4.\\]</p></li><li><p>Begynnelsevillkoret ger \\(2=C-4\\), alltså \\(C=6\\).</p></li></ol><p class=\"facit-svar\"><strong>\\[y=6e^x-4.\\]</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm konstant och homogen lösning</p>\\[0=A+4\\quad\\Rightarrow\\quad A=-4\\]\\[y=Ce^x-4\\]</li><li><p class=\"facit-rubrik\">Använd y(0)=2</p>\\[2=C-4\\quad\\Rightarrow\\quad C=6\\]</li><li><p class=\"facit-rubrik\">Kontrollera startvärdet och ekvationen</p><p>y(0)=6−4=2 och y′=6eˣ=y+4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=6e^x-4\\).</p></div>",
     "id": "4.126",
     "miniräknare": true,
     "geogebra": false,
@@ -27957,7 +27923,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Sök först en konstant lösning. Lägg därefter till den homogena delen och använd startvärdet.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -28120,7 +28086,7 @@ window.BANKMATF1 = [
     "typ": "första ordningen med jämviktsvärde och begynnelsevillkor",
     "poang": "2/0/0",
     "t": "<p>Lös</p><p>\\[y'=3-y,\\qquad y(0)=5.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm först den allmänna lösningen.</p></li><li><p>Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p></li><li><div class=\"facit-berakning\"><p>Skriv ekvationen som</p><div class=\"facit-matte\">\\[y'=-(y-3)\\].</div></div></li><li><p>Den allmänna lösningen är</p></li><li><p>\\[y=3+Ce^{-x}.\\]</p></li><li><p>Begynnelsevillkoret ger \\(5=3+C\\), alltså \\(C=2\\).</p></li></ol><p class=\"facit-svar\"><strong>\\[y=3+2e^{-x}.\\]</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv familjen kring jämvikten 3</p><p>y′=0 ger y=3. Avvikelsen från 3 följer u′=−u.</p>\\[y=3+Ce^{-x}\\]</li><li><p class=\"facit-rubrik\">Använd startvärdet 5</p>\\[5=3+C\\quad\\Rightarrow\\quad C=2\\]</li><li><p class=\"facit-rubrik\">Kontrollera att kurvan minskar mot 3</p>\\[y^{\\prime}=-2e^{-x}=3-y\\]<p>Startvärdet är 3+2=5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=3+2e^{-x}\\).</p></div>",
     "id": "4.168",
     "miniräknare": true,
     "geogebra": false,
@@ -28134,7 +28100,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Utgå från den konstanta lösningen. Startvärdet bestämmer hur stor exponentialdelen är.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -28147,10 +28113,10 @@ window.BANKMATF1 = [
     "id": "4.517",
     "kap": 4,
     "omr": "inhomogena_forsta",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En kopp kaffe som är 90 °C ställs i ett rum som håller 20 °C. Temperaturen \\(T\\) uppfyller \\(T'=-k(T-20)\\). Efter 5 minuter är kaffet 70 °C.</p><p>Efter hur lång tid har kaffet svalnat till 40 °C? Svara i minuter med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lösningen är \\(T=20+70e^{-kt}\\), eftersom skillnaden mot rummet från början är 70 °C.</p></li><li><p>\\(T(5)=70\\) ger \\(70e^{-5k}=50\\), alltså \\(k=\\frac{\\ln1{,}4}{5}\\approx0{,}0673\\) per minut.</p></li><li><p>\\(T=40\\) ger \\(70e^{-kt}=20\\), alltså \\(t=\\frac{\\ln3{,}5}{k}\\approx18{,}6\\) min.</p></li><li><p>Det tar längre tid att svalna de sista graderna, eftersom avsvalningen går långsammare ju mindre skillnaden mot rummet är.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 18,6 minuter</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd startskillnaden mot rummet</p>\\[T=20+Ce^{-kt}\\]\\[90=20+C\\quad\\Rightarrow\\quad C=70\\]</li><li><p class=\"facit-rubrik\">Bestäm k med femminutersmätningen</p>\\[70=20+70e^{-5k}\\]\\[e^{-5k}=50/70=5/7\\]\\[k=\\frac{\\ln(7/5)}5\\]</li><li><p class=\"facit-rubrik\">Lös för tiden till 40 °C</p>\\[40=20+70e^{-kt}\\]\\[e^{-kt}=2/7\\]\\[t=\\frac{\\ln(7/2)}{\\ln(7/5)/5}\\]\\[\\approx18{,}6161\\text{ min}\\]</li><li><p class=\"facit-rubrik\">Tolka tiden</p><p>Tiden räknas från att koppen ställs i rummet. Avsvalningen går långsammare när temperaturskillnaden blir mindre.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 18,6 minuter.</p></div>",
     "familj": "Lösa inhomogena ekvationer av första ordningen",
     "formaga": [
       "modellering",
@@ -28159,23 +28125,25 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Det är skillnaden \\(T-20\\) som minskar exponentiellt. Bestäm \\(k\\) ur mätningen efter 5 minuter.</p>",
+    "ledtrad": "<p>Använd temperaturskillnaden mot rummet. Bestäm k från mätningen efter fem minuter och behåll dess exakta uttryck.</p>",
     "spel": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "svarstyp": "numeriskt",
     "rättSvar": 18.616141722053563,
-    "tolerans": 0.1,
+    "tolerans": 0.05,
     "svarEnhet": "min",
     "typ": "Newtons avsvalningslag"
+  ,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.521",
     "kap": 4,
     "omr": "inhomogena_forsta",
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>En tank innehåller 100 liter rent vatten. Saltlösning med 0,2 kg salt per liter rinner in med 5 liter per minut, och den välblandade vätskan rinner ut med 5 liter per minut.</p><p>Saltmängden \\(y\\) kg uppfyller \\(y'=1-0{,}05y\\), \\(y(0)=0\\). Bestäm vilken saltmängd som nås i längden och när tanken innehåller 15 kg salt. Svara i minuter med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>In: \\(0{,}2\\cdot5=1\\) kg/min.</p></li><li><p>Ut: koncentrationen är \\(\\frac{y}{100}\\) kg/l, så \\(\\frac{y}{100}\\cdot5=0{,}05y\\) kg/min.</p></li><li><p>Det förklarar ekvationen.</p></li><li><div class=\"facit-berakning\"><p>Partikulärlösning: konstant</p><div class=\"facit-matte\">\\[y=20\\].</div></div></li><li><p>Homogen lösning: \\(Ce^{-0{,}05t}\\).</p></li><li><p>Med \\(y(0)=0\\): \\(y=20(1-e^{-0{,}05t})\\).</p></li><li><p>I längden: \\(y\\to20\\) kg, alltså samma koncentration som inflödet.</p></li><li><p>\\(y=15\\) ger \\(e^{-0{,}05t}=0{,}25\\), alltså \\(t=\\frac{\\ln4}{0{,}05}\\approx27{,}7\\) min.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 kg i längden, och 15 kg efter cirka 27,7 minuter</p></div>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>En tank innehåller 100 liter rent vatten. Saltlösning med 0,2 kg salt per liter rinner in med 5 liter per minut, och den välblandade vätskan rinner ut med 5 liter per minut.</p><p>Saltmängden \\(y\\) kg uppfyller \\(y'=1-0{,}05y\\), \\(y(0)=0\\). Bestäm vilken saltmängd som nås i längden och när tanken innehåller 15 kg salt. Ange saltmängden i kg och tiden i minuter med en decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm mängden som nås i längden</p>\\[0=1-0{,}05y\\quad\\Rightarrow\\quad y=20\\text{ kg}\\]<p>Vid 20 kg är koncentrationen 20/100=0,2 kg/l, samma som i inflödet.</p></li><li><p class=\"facit-rubrik\">Välj lösningen som börjar med rent vatten</p>\\[y=20+Ce^{-0{,}05t}\\]\\[0=20+C\\quad\\Rightarrow\\quad C=-20\\]\\[y=20(1-e^{-0{,}05t})\\]</li><li><p class=\"facit-rubrik\">Lös för tiden till 15 kg</p>\\[15=20(1-e^{-0{,}05t})\\]\\[e^{-0{,}05t}=1/4\\]\\[t=\\frac{\\ln4}{0{,}05}\\approx27{,}7259\\text{ min}\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 kg i längden; 15 kg efter cirka 27,7 minuter.</p></div>",
     "familj": "Lösa inhomogena ekvationer av första ordningen",
     "formaga": [
       "modellering",
@@ -28184,24 +28152,25 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Vilket konstant värde gör att \\(y'=0\\)? Lös sedan ekvationen och använd begynnelsevärdet.</p>",
+    "ledtrad": "<p>Vilken saltmängd ger lika stort inflöde och utflöde av salt? Använd därefter startvärdet för lösningen.</p>",
     "spel": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "svarstyp": "flera_delar",
     "rättSvar": [
       20,
       27.72588722239781
     ],
-    "tolerans": [
-      0.01,
-      0.1
-    ],
+    "tolerans": [0, 0.05],
     "svarEtiketter": [
       "Gränsvärde",
       "Tid"
     ],
     "svarsstruktur": "ordnad",
     "typ": "blandningsproblem"
+  ,
+    "svarFormat": ["numeriskt", "numeriskt"]
+  ,
+    "svarEnhet": ["kg", "min"]
   },
   {
     "kap": 4,
@@ -52521,7 +52490,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "konstant lösning ur ekvationen",
   "t": "<p>Figuren visar några lösningar till \\(y^{\\prime}+2y=6\\). En lösning är konstant, \\(y=c\\). Bestäm \\(c\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 320\" role=\"img\" aria-label=\"Fyra lösningskurvor till samma differentialekvation. Två börjar under y = 3 och stiger, två börjar över och sjunker. Alla närmar sig samma vågräta nivå.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"114.0\" y1=\"22\" x2=\"114.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"22\" x2=\"180.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"246.0\" y1=\"22\" x2=\"246.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"312.0\" y1=\"22\" x2=\"312.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"378\" y2=\"278.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"238.6\" x2=\"378\" y2=\"238.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"199.2\" x2=\"378\" y2=\"199.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"159.8\" x2=\"378\" y2=\"159.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"120.5\" x2=\"378\" y2=\"120.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"81.1\" x2=\"378\" y2=\"81.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"41.7\" x2=\"378\" y2=\"41.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"388\" y2=\"278.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,278.0 382,273.0 382,283.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"278\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"390\" y=\"269.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"114.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,5</text><text x=\"180.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"246.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1,5</text><text x=\"312.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"378.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2,5</text><text x=\"42.0\" y=\"242.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"203.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"163.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"42.0\" y=\"124.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"85.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"42.0\" y=\"45.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k4b70dc17\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"256\"/></clipPath><polyline clip-path=\"url(#k4b70dc17)\" points=\"48.0,278.0 48.8,276.5 49.6,275.1 50.5,273.7 51.3,272.2 52.1,270.8 53.0,269.5 53.8,268.1 54.6,266.8 55.4,265.4 56.2,264.1 57.1,262.8 57.9,261.5 58.7,260.3 59.5,259.0 60.4,257.8 61.2,256.6 62.0,255.4 62.9,254.2 63.7,253.0 64.5,251.9 65.3,250.7 66.2,249.6 67.0,248.5 67.8,247.4 68.6,246.3 69.5,245.2 70.3,244.2 71.1,243.1 71.9,242.1 72.8,241.1 73.6,240.0 74.4,239.0 75.2,238.1 76.0,237.1 76.9,236.1 77.7,235.2 78.5,234.2 79.3,233.3 80.2,232.4 81.0,231.5 81.8,230.6 82.7,229.7 83.5,228.9 84.3,228.0 85.1,227.2 85.9,226.3 86.8,225.5 87.6,224.7 88.4,223.9 89.2,223.1 90.1,222.3 90.9,221.5 91.7,220.8 92.6,220.0 93.4,219.3 94.2,218.5 95.0,217.8 95.8,217.1 96.7,216.4 97.5,215.7 98.3,215.0 99.2,214.3 100.0,213.6 100.8,212.9 101.6,212.3 102.4,211.6 103.3,211.0 104.1,210.3 104.9,209.7 105.8,209.1 106.6,208.5 107.4,207.9 108.2,207.3 109.0,206.7 109.9,206.1 110.7,205.5 111.5,205.0 112.4,204.4 113.2,203.9 114.0,203.3 114.8,202.8 115.6,202.2 116.5,201.7 117.3,201.2 118.1,200.7 119.0,200.2 119.8,199.7 120.6,199.2 121.4,198.7 122.2,198.2 123.1,197.7 123.9,197.3 124.7,196.8 125.6,196.3 126.4,195.9 127.2,195.4 128.0,195.0 128.9,194.6 129.7,194.1 130.5,193.7 131.3,193.3 132.2,192.9 133.0,192.5 133.8,192.0 134.6,191.6 135.4,191.3 136.3,190.9 137.1,190.5 137.9,190.1 138.8,189.7 139.6,189.3 140.4,189.0 141.2,188.6 142.1,188.3 142.9,187.9 143.7,187.6 144.5,187.2 145.4,186.9 146.2,186.5 147.0,186.2 147.8,185.9 148.6,185.6 149.5,185.2 150.3,184.9 151.1,184.6 151.9,184.3 152.8,184.0 153.6,183.7 154.4,183.4 155.2,183.1 156.1,182.8 156.9,182.5 157.7,182.3 158.6,182.0 159.4,181.7 160.2,181.4 161.0,181.2 161.9,180.9 162.7,180.6 163.5,180.4 164.3,180.1 165.1,179.9 166.0,179.6 166.8,179.4 167.6,179.1 168.4,178.9 169.3,178.7 170.1,178.4 170.9,178.2 171.8,178.0 172.6,177.7 173.4,177.5 174.2,177.3 175.1,177.1 175.9,176.9 176.7,176.7 177.5,176.4 178.3,176.2 179.2,176.0 180.0,175.8 180.8,175.6 181.6,175.4 182.5,175.2 183.3,175.1 184.1,174.9 185.0,174.7 185.8,174.5 186.6,174.3 187.4,174.1 188.2,174.0 189.1,173.8 189.9,173.6 190.7,173.4 191.5,173.3 192.4,173.1 193.2,172.9 194.0,172.8 194.8,172.6 195.7,172.5 196.5,172.3 197.3,172.1 198.1,172.0 199.0,171.8 199.8,171.7 200.6,171.5 201.5,171.4 202.3,171.3 203.1,171.1 203.9,171.0 204.8,170.8 205.6,170.7 206.4,170.6 207.2,170.4 208.0,170.3 208.9,170.2 209.7,170.0 210.5,169.9 211.3,169.8 212.2,169.7 213.0,169.5 213.8,169.4 214.7,169.3 215.5,169.2 216.3,169.1 217.1,169.0 218.0,168.8 218.8,168.7 219.6,168.6 220.4,168.5 221.2,168.4 222.1,168.3 222.9,168.2 223.7,168.1 224.5,168.0 225.4,167.9 226.2,167.8 227.0,167.7 227.9,167.6 228.7,167.5 229.5,167.4 230.3,167.3 231.1,167.2 232.0,167.1 232.8,167.0 233.6,166.9 234.5,166.9 235.3,166.8 236.1,166.7 236.9,166.6 237.7,166.5 238.6,166.4 239.4,166.3 240.2,166.3 241.0,166.2 241.9,166.1 242.7,166.0 243.5,166.0 244.3,165.9 245.2,165.8 246.0,165.7 246.8,165.7 247.7,165.6 248.5,165.5 249.3,165.4 250.1,165.4 250.9,165.3 251.8,165.2 252.6,165.2 253.4,165.1 254.2,165.0 255.1,165.0 255.9,164.9 256.7,164.8 257.6,164.8 258.4,164.7 259.2,164.7 260.0,164.6 260.9,164.5 261.7,164.5 262.5,164.4 263.3,164.4 264.1,164.3 265.0,164.3 265.8,164.2 266.6,164.1 267.5,164.1 268.3,164.0 269.1,164.0 269.9,163.9 270.8,163.9 271.6,163.8 272.4,163.8 273.2,163.7 274.0,163.7 274.9,163.6 275.7,163.6 276.5,163.6 277.4,163.5 278.2,163.5 279.0,163.4 279.8,163.4 280.6,163.3 281.5,163.3 282.3,163.2 283.1,163.2 284.0,163.2 284.8,163.1 285.6,163.1 286.4,163.0 287.2,163.0 288.1,163.0 288.9,162.9 289.7,162.9 290.5,162.8 291.4,162.8 292.2,162.8 293.0,162.7 293.9,162.7 294.7,162.7 295.5,162.6 296.3,162.6 297.1,162.6 298.0,162.5 298.8,162.5 299.6,162.5 300.5,162.4 301.3,162.4 302.1,162.4 302.9,162.3 303.8,162.3 304.6,162.3 305.4,162.2 306.2,162.2 307.0,162.2 307.9,162.1 308.7,162.1 309.5,162.1 310.4,162.1 311.2,162.0 312.0,162.0 312.8,162.0 313.7,162.0 314.5,161.9 315.3,161.9 316.1,161.9 317.0,161.9 317.8,161.8 318.6,161.8 319.4,161.8 320.2,161.8 321.1,161.7 321.9,161.7 322.7,161.7 323.6,161.7 324.4,161.6 325.2,161.6 326.0,161.6 326.8,161.6 327.7,161.6 328.5,161.5 329.3,161.5 330.2,161.5 331.0,161.5 331.8,161.4 332.6,161.4 333.4,161.4 334.3,161.4 335.1,161.4 335.9,161.4 336.8,161.3 337.6,161.3 338.4,161.3 339.2,161.3 340.1,161.3 340.9,161.2 341.7,161.2 342.5,161.2 343.3,161.2 344.2,161.2 345.0,161.2 345.8,161.1 346.7,161.1 347.5,161.1 348.3,161.1 349.1,161.1 349.9,161.1 350.8,161.0 351.6,161.0 352.4,161.0 353.2,161.0 354.1,161.0 354.9,161.0 355.7,161.0 356.5,160.9 357.4,160.9 358.2,160.9 359.0,160.9 359.8,160.9 360.7,160.9 361.5,160.9 362.3,160.9 363.2,160.8 364.0,160.8 364.8,160.8 365.6,160.8 366.5,160.8 367.3,160.8 368.1,160.8 368.9,160.8 369.8,160.7 370.6,160.7 371.4,160.7 372.2,160.7 373.1,160.7 373.9,160.7 374.7,160.7 375.5,160.7 376.3,160.7 377.2,160.7 378.0,160.6\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polyline clip-path=\"url(#k4b70dc17)\" points=\"48.0,218.9 48.8,218.2 49.6,217.5 50.5,216.7 51.3,216.0 52.1,215.3 53.0,214.7 53.8,214.0 54.6,213.3 55.4,212.6 56.2,212.0 57.1,211.3 57.9,210.7 58.7,210.1 59.5,209.4 60.4,208.8 61.2,208.2 62.0,207.6 62.9,207.0 63.7,206.4 64.5,205.9 65.3,205.3 66.2,204.7 67.0,204.2 67.8,203.6 68.6,203.1 69.5,202.5 70.3,202.0 71.1,201.5 71.9,201.0 72.8,200.4 73.6,199.9 74.4,199.4 75.2,199.0 76.0,198.5 76.9,198.0 77.7,197.5 78.5,197.0 79.3,196.6 80.2,196.1 81.0,195.7 81.8,195.2 82.7,194.8 83.5,194.4 84.3,193.9 85.1,193.5 85.9,193.1 86.8,192.7 87.6,192.3 88.4,191.9 89.2,191.5 90.1,191.1 90.9,190.7 91.7,190.3 92.6,189.9 93.4,189.6 94.2,189.2 95.0,188.8 95.8,188.5 96.7,188.1 97.5,187.8 98.3,187.4 99.2,187.1 100.0,186.7 100.8,186.4 101.6,186.1 102.4,185.7 103.3,185.4 104.1,185.1 104.9,184.8 105.8,184.5 106.6,184.2 107.4,183.9 108.2,183.6 109.0,183.3 109.9,183.0 110.7,182.7 111.5,182.4 112.4,182.1 113.2,181.9 114.0,181.6 114.8,181.3 115.6,181.0 116.5,180.8 117.3,180.5 118.1,180.3 119.0,180.0 119.8,179.8 120.6,179.5 121.4,179.3 122.2,179.0 123.1,178.8 123.9,178.6 124.7,178.3 125.6,178.1 126.4,177.9 127.2,177.6 128.0,177.4 128.9,177.2 129.7,177.0 130.5,176.8 131.3,176.6 132.2,176.4 133.0,176.1 133.8,175.9 134.6,175.7 135.4,175.5 136.3,175.4 137.1,175.2 137.9,175.0 138.8,174.8 139.6,174.6 140.4,174.4 141.2,174.2 142.1,174.1 142.9,173.9 143.7,173.7 144.5,173.5 145.4,173.4 146.2,173.2 147.0,173.0 147.8,172.9 148.6,172.7 149.5,172.5 150.3,172.4 151.1,172.2 151.9,172.1 152.8,171.9 153.6,171.8 154.4,171.6 155.2,171.5 156.1,171.3 156.9,171.2 157.7,171.1 158.6,170.9 159.4,170.8 160.2,170.6 161.0,170.5 161.9,170.4 162.7,170.2 163.5,170.1 164.3,170.0 165.1,169.9 166.0,169.7 166.8,169.6 167.6,169.5 168.4,169.4 169.3,169.3 170.1,169.1 170.9,169.0 171.8,168.9 172.6,168.8 173.4,168.7 174.2,168.6 175.1,168.5 175.9,168.4 176.7,168.3 177.5,168.1 178.3,168.0 179.2,167.9 180.0,167.8 180.8,167.7 181.6,167.6 182.5,167.5 183.3,167.5 184.1,167.4 185.0,167.3 185.8,167.2 186.6,167.1 187.4,167.0 188.2,166.9 189.1,166.8 189.9,166.7 190.7,166.6 191.5,166.6 192.4,166.5 193.2,166.4 194.0,166.3 194.8,166.2 195.7,166.2 196.5,166.1 197.3,166.0 198.1,165.9 199.0,165.8 199.8,165.8 200.6,165.7 201.5,165.6 202.3,165.6 203.1,165.5 203.9,165.4 204.8,165.3 205.6,165.3 206.4,165.2 207.2,165.1 208.0,165.1 208.9,165.0 209.7,164.9 210.5,164.9 211.3,164.8 212.2,164.8 213.0,164.7 213.8,164.6 214.7,164.6 215.5,164.5 216.3,164.5 217.1,164.4 218.0,164.3 218.8,164.3 219.6,164.2 220.4,164.2 221.2,164.1 222.1,164.1 222.9,164.0 223.7,164.0 224.5,163.9 225.4,163.9 226.2,163.8 227.0,163.8 227.9,163.7 228.7,163.7 229.5,163.6 230.3,163.6 231.1,163.5 232.0,163.5 232.8,163.4 233.6,163.4 234.5,163.3 235.3,163.3 236.1,163.3 236.9,163.2 237.7,163.2 238.6,163.1 239.4,163.1 240.2,163.1 241.0,163.0 241.9,163.0 242.7,162.9 243.5,162.9 244.3,162.9 245.2,162.8 246.0,162.8 246.8,162.8 247.7,162.7 248.5,162.7 249.3,162.6 250.1,162.6 250.9,162.6 251.8,162.5 252.6,162.5 253.4,162.5 254.2,162.4 255.1,162.4 255.9,162.4 256.7,162.3 257.6,162.3 258.4,162.3 259.2,162.3 260.0,162.2 260.9,162.2 261.7,162.2 262.5,162.1 263.3,162.1 264.1,162.1 265.0,162.1 265.8,162.0 266.6,162.0 267.5,162.0 268.3,161.9 269.1,161.9 269.9,161.9 270.8,161.9 271.6,161.8 272.4,161.8 273.2,161.8 274.0,161.8 274.9,161.7 275.7,161.7 276.5,161.7 277.4,161.7 278.2,161.7 279.0,161.6 279.8,161.6 280.6,161.6 281.5,161.6 282.3,161.5 283.1,161.5 284.0,161.5 284.8,161.5 285.6,161.5 286.4,161.4 287.2,161.4 288.1,161.4 288.9,161.4 289.7,161.4 290.5,161.3 291.4,161.3 292.2,161.3 293.0,161.3 293.9,161.3 294.7,161.3 295.5,161.2 296.3,161.2 297.1,161.2 298.0,161.2 298.8,161.2 299.6,161.2 300.5,161.1 301.3,161.1 302.1,161.1 302.9,161.1 303.8,161.1 304.6,161.1 305.4,161.0 306.2,161.0 307.0,161.0 307.9,161.0 308.7,161.0 309.5,161.0 310.4,161.0 311.2,160.9 312.0,160.9 312.8,160.9 313.7,160.9 314.5,160.9 315.3,160.9 316.1,160.9 317.0,160.9 317.8,160.8 318.6,160.8 319.4,160.8 320.2,160.8 321.1,160.8 321.9,160.8 322.7,160.8 323.6,160.8 324.4,160.7 325.2,160.7 326.0,160.7 326.8,160.7 327.7,160.7 328.5,160.7 329.3,160.7 330.2,160.7 331.0,160.7 331.8,160.6 332.6,160.6 333.4,160.6 334.3,160.6 335.1,160.6 335.9,160.6 336.8,160.6 337.6,160.6 338.4,160.6 339.2,160.6 340.1,160.6 340.9,160.5 341.7,160.5 342.5,160.5 343.3,160.5 344.2,160.5 345.0,160.5 345.8,160.5 346.7,160.5 347.5,160.5 348.3,160.5 349.1,160.5 349.9,160.5 350.8,160.4 351.6,160.4 352.4,160.4 353.2,160.4 354.1,160.4 354.9,160.4 355.7,160.4 356.5,160.4 357.4,160.4 358.2,160.4 359.0,160.4 359.8,160.4 360.7,160.4 361.5,160.4 362.3,160.4 363.2,160.3 364.0,160.3 364.8,160.3 365.6,160.3 366.5,160.3 367.3,160.3 368.1,160.3 368.9,160.3 369.8,160.3 370.6,160.3 371.4,160.3 372.2,160.3 373.1,160.3 373.9,160.3 374.7,160.3 375.5,160.3 376.3,160.3 377.2,160.2 378.0,160.2\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"3\"/><polyline clip-path=\"url(#k4b70dc17)\" points=\"48.0,100.8 48.8,101.5 49.6,102.2 50.5,102.9 51.3,103.7 52.1,104.3 53.0,105.0 53.8,105.7 54.6,106.4 55.4,107.1 56.2,107.7 57.1,108.4 57.9,109.0 58.7,109.6 59.5,110.3 60.4,110.9 61.2,111.5 62.0,112.1 62.9,112.7 63.7,113.3 64.5,113.8 65.3,114.4 66.2,115.0 67.0,115.5 67.8,116.1 68.6,116.6 69.5,117.2 70.3,117.7 71.1,118.2 71.9,118.7 72.8,119.2 73.6,119.7 74.4,120.2 75.2,120.7 76.0,121.2 76.9,121.7 77.7,122.2 78.5,122.6 79.3,123.1 80.2,123.6 81.0,124.0 81.8,124.5 82.7,124.9 83.5,125.3 84.3,125.8 85.1,126.2 85.9,126.6 86.8,127.0 87.6,127.4 88.4,127.8 89.2,128.2 90.1,128.6 90.9,129.0 91.7,129.4 92.6,129.8 93.4,130.1 94.2,130.5 95.0,130.9 95.8,131.2 96.7,131.6 97.5,131.9 98.3,132.3 99.2,132.6 100.0,133.0 100.8,133.3 101.6,133.6 102.4,134.0 103.3,134.3 104.1,134.6 104.9,134.9 105.8,135.2 106.6,135.5 107.4,135.8 108.2,136.1 109.0,136.4 109.9,136.7 110.7,137.0 111.5,137.3 112.4,137.6 113.2,137.8 114.0,138.1 114.8,138.4 115.6,138.6 116.5,138.9 117.3,139.2 118.1,139.4 119.0,139.7 119.8,139.9 120.6,140.2 121.4,140.4 122.2,140.7 123.1,140.9 123.9,141.1 124.7,141.4 125.6,141.6 126.4,141.8 127.2,142.1 128.0,142.3 128.9,142.5 129.7,142.7 130.5,142.9 131.3,143.1 132.2,143.3 133.0,143.5 133.8,143.7 134.6,143.9 135.4,144.1 136.3,144.3 137.1,144.5 137.9,144.7 138.8,144.9 139.6,145.1 140.4,145.3 141.2,145.5 142.1,145.6 142.9,145.8 143.7,146.0 144.5,146.2 145.4,146.3 146.2,146.5 147.0,146.7 147.8,146.8 148.6,147.0 149.5,147.1 150.3,147.3 151.1,147.5 151.9,147.6 152.8,147.8 153.6,147.9 154.4,148.1 155.2,148.2 156.1,148.4 156.9,148.5 157.7,148.6 158.6,148.8 159.4,148.9 160.2,149.1 161.0,149.2 161.9,149.3 162.7,149.5 163.5,149.6 164.3,149.7 165.1,149.8 166.0,150.0 166.8,150.1 167.6,150.2 168.4,150.3 169.3,150.4 170.1,150.6 170.9,150.7 171.8,150.8 172.6,150.9 173.4,151.0 174.2,151.1 175.1,151.2 175.9,151.3 176.7,151.4 177.5,151.5 178.3,151.6 179.2,151.8 180.0,151.9 180.8,152.0 181.6,152.0 182.5,152.1 183.3,152.2 184.1,152.3 185.0,152.4 185.8,152.5 186.6,152.6 187.4,152.7 188.2,152.8 189.1,152.9 189.9,153.0 190.7,153.1 191.5,153.1 192.4,153.2 193.2,153.3 194.0,153.4 194.8,153.5 195.7,153.5 196.5,153.6 197.3,153.7 198.1,153.8 199.0,153.8 199.8,153.9 200.6,154.0 201.5,154.1 202.3,154.1 203.1,154.2 203.9,154.3 204.8,154.4 205.6,154.4 206.4,154.5 207.2,154.6 208.0,154.6 208.9,154.7 209.7,154.7 210.5,154.8 211.3,154.9 212.2,154.9 213.0,155.0 213.8,155.1 214.7,155.1 215.5,155.2 216.3,155.2 217.1,155.3 218.0,155.3 218.8,155.4 219.6,155.5 220.4,155.5 221.2,155.6 222.1,155.6 222.9,155.7 223.7,155.7 224.5,155.8 225.4,155.8 226.2,155.9 227.0,155.9 227.9,156.0 228.7,156.0 229.5,156.1 230.3,156.1 231.1,156.2 232.0,156.2 232.8,156.3 233.6,156.3 234.5,156.3 235.3,156.4 236.1,156.4 236.9,156.5 237.7,156.5 238.6,156.6 239.4,156.6 240.2,156.6 241.0,156.7 241.9,156.7 242.7,156.8 243.5,156.8 244.3,156.8 245.2,156.9 246.0,156.9 246.8,156.9 247.7,157.0 248.5,157.0 249.3,157.0 250.1,157.1 250.9,157.1 251.8,157.2 252.6,157.2 253.4,157.2 254.2,157.3 255.1,157.3 255.9,157.3 256.7,157.3 257.6,157.4 258.4,157.4 259.2,157.4 260.0,157.5 260.9,157.5 261.7,157.5 262.5,157.6 263.3,157.6 264.1,157.6 265.0,157.6 265.8,157.7 266.6,157.7 267.5,157.7 268.3,157.7 269.1,157.8 269.9,157.8 270.8,157.8 271.6,157.8 272.4,157.9 273.2,157.9 274.0,157.9 274.9,157.9 275.7,158.0 276.5,158.0 277.4,158.0 278.2,158.0 279.0,158.1 279.8,158.1 280.6,158.1 281.5,158.1 282.3,158.1 283.1,158.2 284.0,158.2 284.8,158.2 285.6,158.2 286.4,158.3 287.2,158.3 288.1,158.3 288.9,158.3 289.7,158.3 290.5,158.3 291.4,158.4 292.2,158.4 293.0,158.4 293.9,158.4 294.7,158.4 295.5,158.5 296.3,158.5 297.1,158.5 298.0,158.5 298.8,158.5 299.6,158.5 300.5,158.6 301.3,158.6 302.1,158.6 302.9,158.6 303.8,158.6 304.6,158.6 305.4,158.7 306.2,158.7 307.0,158.7 307.9,158.7 308.7,158.7 309.5,158.7 310.4,158.7 311.2,158.8 312.0,158.8 312.8,158.8 313.7,158.8 314.5,158.8 315.3,158.8 316.1,158.8 317.0,158.8 317.8,158.9 318.6,158.9 319.4,158.9 320.2,158.9 321.1,158.9 321.9,158.9 322.7,158.9 323.6,158.9 324.4,158.9 325.2,159.0 326.0,159.0 326.8,159.0 327.7,159.0 328.5,159.0 329.3,159.0 330.2,159.0 331.0,159.0 331.8,159.0 332.6,159.1 333.4,159.1 334.3,159.1 335.1,159.1 335.9,159.1 336.8,159.1 337.6,159.1 338.4,159.1 339.2,159.1 340.1,159.1 340.9,159.1 341.7,159.2 342.5,159.2 343.3,159.2 344.2,159.2 345.0,159.2 345.8,159.2 346.7,159.2 347.5,159.2 348.3,159.2 349.1,159.2 349.9,159.2 350.8,159.2 351.6,159.3 352.4,159.3 353.2,159.3 354.1,159.3 354.9,159.3 355.7,159.3 356.5,159.3 357.4,159.3 358.2,159.3 359.0,159.3 359.8,159.3 360.7,159.3 361.5,159.3 362.3,159.3 363.2,159.3 364.0,159.4 364.8,159.4 365.6,159.4 366.5,159.4 367.3,159.4 368.1,159.4 368.9,159.4 369.8,159.4 370.6,159.4 371.4,159.4 372.2,159.4 373.1,159.4 373.9,159.4 374.7,159.4 375.5,159.4 376.3,159.4 377.2,159.4 378.0,159.4\" fill=\"none\" stroke=\"#2e9b6f\" stroke-width=\"3\"/><polyline clip-path=\"url(#k4b70dc17)\" points=\"48.0,41.7 48.8,43.2 49.6,44.6 50.5,46.0 51.3,47.5 52.1,48.9 53.0,50.2 53.8,51.6 54.6,52.9 55.4,54.3 56.2,55.6 57.1,56.9 57.9,58.2 58.7,59.4 59.5,60.7 60.4,61.9 61.2,63.1 62.0,64.3 62.9,65.5 63.7,66.7 64.5,67.8 65.3,69.0 66.2,70.1 67.0,71.2 67.8,72.3 68.6,73.4 69.5,74.5 70.3,75.5 71.1,76.6 71.9,77.6 72.8,78.6 73.6,79.6 74.4,80.6 75.2,81.6 76.0,82.6 76.9,83.6 77.7,84.5 78.5,85.4 79.3,86.4 80.2,87.3 81.0,88.2 81.8,89.1 82.7,90.0 83.5,90.8 84.3,91.7 85.1,92.5 85.9,93.4 86.8,94.2 87.6,95.0 88.4,95.8 89.2,96.6 90.1,97.4 90.9,98.2 91.7,98.9 92.6,99.7 93.4,100.4 94.2,101.2 95.0,101.9 95.8,102.6 96.7,103.3 97.5,104.0 98.3,104.7 99.2,105.4 100.0,106.1 100.8,106.8 101.6,107.4 102.4,108.1 103.3,108.7 104.1,109.3 104.9,110.0 105.8,110.6 106.6,111.2 107.4,111.8 108.2,112.4 109.0,113.0 109.9,113.6 110.7,114.2 111.5,114.7 112.4,115.3 113.2,115.8 114.0,116.4 114.8,116.9 115.6,117.5 116.5,118.0 117.3,118.5 118.1,119.0 119.0,119.5 119.8,120.0 120.6,120.5 121.4,121.0 122.2,121.5 123.1,122.0 123.9,122.4 124.7,122.9 125.6,123.4 126.4,123.8 127.2,124.3 128.0,124.7 128.9,125.1 129.7,125.6 130.5,126.0 131.3,126.4 132.2,126.8 133.0,127.2 133.8,127.6 134.6,128.0 135.4,128.4 136.3,128.8 137.1,129.2 137.9,129.6 138.8,130.0 139.6,130.3 140.4,130.7 141.2,131.1 142.1,131.4 142.9,131.8 143.7,132.1 144.5,132.5 145.4,132.8 146.2,133.2 147.0,133.5 147.8,133.8 148.6,134.1 149.5,134.5 150.3,134.8 151.1,135.1 151.9,135.4 152.8,135.7 153.6,136.0 154.4,136.3 155.2,136.6 156.1,136.9 156.9,137.2 157.7,137.4 158.6,137.7 159.4,138.0 160.2,138.3 161.0,138.5 161.9,138.8 162.7,139.1 163.5,139.3 164.3,139.6 165.1,139.8 166.0,140.1 166.8,140.3 167.6,140.6 168.4,140.8 169.3,141.0 170.1,141.3 170.9,141.5 171.8,141.7 172.6,142.0 173.4,142.2 174.2,142.4 175.1,142.6 175.9,142.8 176.7,143.0 177.5,143.2 178.3,143.5 179.2,143.7 180.0,143.9 180.8,144.1 181.6,144.3 182.5,144.4 183.3,144.6 184.1,144.8 185.0,145.0 185.8,145.2 186.6,145.4 187.4,145.6 188.2,145.7 189.1,145.9 189.9,146.1 190.7,146.3 191.5,146.4 192.4,146.6 193.2,146.8 194.0,146.9 194.8,147.1 195.7,147.2 196.5,147.4 197.3,147.5 198.1,147.7 199.0,147.9 199.8,148.0 200.6,148.1 201.5,148.3 202.3,148.4 203.1,148.6 203.9,148.7 204.8,148.9 205.6,149.0 206.4,149.1 207.2,149.3 208.0,149.4 208.9,149.5 209.7,149.7 210.5,149.8 211.3,149.9 212.2,150.0 213.0,150.1 213.8,150.3 214.7,150.4 215.5,150.5 216.3,150.6 217.1,150.7 218.0,150.8 218.8,151.0 219.6,151.1 220.4,151.2 221.2,151.3 222.1,151.4 222.9,151.5 223.7,151.6 224.5,151.7 225.4,151.8 226.2,151.9 227.0,152.0 227.9,152.1 228.7,152.2 229.5,152.3 230.3,152.4 231.1,152.5 232.0,152.6 232.8,152.7 233.6,152.8 234.5,152.8 235.3,152.9 236.1,153.0 236.9,153.1 237.7,153.2 238.6,153.3 239.4,153.3 240.2,153.4 241.0,153.5 241.9,153.6 242.7,153.7 243.5,153.7 244.3,153.8 245.2,153.9 246.0,154.0 246.8,154.0 247.7,154.1 248.5,154.2 249.3,154.3 250.1,154.3 250.9,154.4 251.8,154.5 252.6,154.5 253.4,154.6 254.2,154.7 255.1,154.7 255.9,154.8 256.7,154.8 257.6,154.9 258.4,155.0 259.2,155.0 260.0,155.1 260.9,155.1 261.7,155.2 262.5,155.3 263.3,155.3 264.1,155.4 265.0,155.4 265.8,155.5 266.6,155.5 267.5,155.6 268.3,155.6 269.1,155.7 269.9,155.8 270.8,155.8 271.6,155.9 272.4,155.9 273.2,156.0 274.0,156.0 274.9,156.0 275.7,156.1 276.5,156.1 277.4,156.2 278.2,156.2 279.0,156.3 279.8,156.3 280.6,156.4 281.5,156.4 282.3,156.5 283.1,156.5 284.0,156.5 284.8,156.6 285.6,156.6 286.4,156.7 287.2,156.7 288.1,156.7 288.9,156.8 289.7,156.8 290.5,156.9 291.4,156.9 292.2,156.9 293.0,157.0 293.9,157.0 294.7,157.0 295.5,157.1 296.3,157.1 297.1,157.1 298.0,157.2 298.8,157.2 299.6,157.2 300.5,157.3 301.3,157.3 302.1,157.3 302.9,157.4 303.8,157.4 304.6,157.4 305.4,157.5 306.2,157.5 307.0,157.5 307.9,157.5 308.7,157.6 309.5,157.6 310.4,157.6 311.2,157.7 312.0,157.7 312.8,157.7 313.7,157.7 314.5,157.8 315.3,157.8 316.1,157.8 317.0,157.8 317.8,157.9 318.6,157.9 319.4,157.9 320.2,157.9 321.1,158.0 321.9,158.0 322.7,158.0 323.6,158.0 324.4,158.1 325.2,158.1 326.0,158.1 326.8,158.1 327.7,158.1 328.5,158.2 329.3,158.2 330.2,158.2 331.0,158.2 331.8,158.2 332.6,158.3 333.4,158.3 334.3,158.3 335.1,158.3 335.9,158.3 336.8,158.4 337.6,158.4 338.4,158.4 339.2,158.4 340.1,158.4 340.9,158.4 341.7,158.5 342.5,158.5 343.3,158.5 344.2,158.5 345.0,158.5 345.8,158.5 346.7,158.6 347.5,158.6 348.3,158.6 349.1,158.6 349.9,158.6 350.8,158.6 351.6,158.7 352.4,158.7 353.2,158.7 354.1,158.7 354.9,158.7 355.7,158.7 356.5,158.7 357.4,158.8 358.2,158.8 359.0,158.8 359.8,158.8 360.7,158.8 361.5,158.8 362.3,158.8 363.2,158.8 364.0,158.9 364.8,158.9 365.6,158.9 366.5,158.9 367.3,158.9 368.1,158.9 368.9,158.9 369.8,158.9 370.6,159.0 371.4,159.0 372.2,159.0 373.1,159.0 373.9,159.0 374.7,159.0 375.5,159.0 376.3,159.0 377.2,159.0 378.0,159.1\" fill=\"none\" stroke=\"#9b4fb0\" stroke-width=\"3\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>En konstant funktion har derivatan 0. Insättning: \\(0+2c=6\\), alltså \\(c=3\\).</p><p>Den allmänna lösningen är \\(y=3+Ce^{-2x}\\). Alla lösningar närmar sig den konstanta lösningen \\(y=3\\) när \\(x\\) växer.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt derivatan till noll för y=c</p>\\[0+2c=6\\]\\[c=3\\]</li><li><p class=\"facit-rubrik\">Jämför med nivån som kurvorna närmar sig</p><p>De ritade kurvorna närmar sig y=3. Det stämmer med det beräknade jämviktsvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c=3\\).</p></div>",
   "familj": "Jämviktslösningar, ansatser och grafer",
   "formaga": [
     "begrepp",
@@ -52533,7 +52502,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Vad är derivatan av en konstant?</p>",
+  "ledtrad": "<p>Vilken derivata har en lösning där y inte ändras?</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 3,
   "tolerans": 0,
@@ -52544,10 +52513,10 @@ window.BANKMATF1 = [
   "kap": 4,
   "omr": "inhomogena_forsta",
   "niva": "E",
-  "poang": "1/0/0",
+  "poang": "2/0/0",
   "typ": "partikulärlösning med linjär ansats",
   "t": "<p>Differentialekvationen \\(y^{\\prime}-y=2x\\) har en partikulärlösning av formen \\(y_p=ax+b\\). Bestäm \\(a\\) och \\(b\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>\\(y_p^{\\prime}=a\\). Insättning: \\(a-(ax+b)=2x\\), alltså \\(-ax+(a-b)=2x\\).</p><p>Jämför koefficienterna: \\(-a=2\\) ger \\(a=-2\\), och \\(a-b=0\\) ger \\(b=-2\\). Partikulärlösningen är \\(y_p=-2x-2\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och sätt in den givna ansatsen</p>\\[y_p^{\\prime}=a\\]\\[a-(ax+b)=2x\\]\\[-ax+(a-b)=2x\\]</li><li><p class=\"facit-rubrik\">Jämför x-termer och konstanttermer</p>\\[-a=2\\quad\\Rightarrow\\quad a=-2\\]\\[a-b=0\\quad\\Rightarrow\\quad b=-2\\]</li><li><p class=\"facit-rubrik\">Kontrollera partikulärlösningen</p>\\[-2-(-2x-2)=2x\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-2\\) och \\(b=-2\\).</p></div>",
   "familj": "Jämviktslösningar, ansatser och grafer",
   "formaga": [
     "procedur"
@@ -52559,9 +52528,9 @@ window.BANKMATF1 = [
     true,
     true
   ],
-  "traningsniva": 3,
+  "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Sätt in y = ax + b och jämför x-termer och konstanter på båda sidor.</p>",
+  "ledtrad": "<p>Behåll parentesen när du subtraherar hela ax+b. Jämför sedan koefficienterna.</p>",
   "svarstyp": "flera_delar",
   "rättSvar": [
     -2,
@@ -52589,7 +52558,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "partikulärlösning med exponentiell ansats",
   "t": "<p>Differentialekvationen \\(y^{\\prime}+y=6e^{2x}\\) har en partikulärlösning av formen \\(y_p=Ae^{2x}\\). Bestäm \\(A\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>\\(y_p^{\\prime}=2Ae^{2x}\\). Insättning: \\(2Ae^{2x}+Ae^{2x}=3Ae^{2x}=6e^{2x}\\).</p><p>Alltså \\(3A=6\\) och \\(A=2\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera ansatsen med kedjeregeln</p>\\[y_p^{\\prime}=2Ae^{2x}\\]</li><li><p class=\"facit-rubrik\">Sätt in och jämför med högerledet</p>\\[2Ae^{2x}+Ae^{2x}=6e^{2x}\\]\\[3A=6\\quad\\Rightarrow\\quad A=2\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A=2\\).</p></div>",
   "familj": "Jämviktslösningar, ansatser och grafer",
   "formaga": [
     "procedur"
@@ -52600,7 +52569,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Derivera ansatsen och sätt in. Jämför koefficienterna framför e^(2x).</p>",
+  "ledtrad": "<p>Derivera den givna exponentialansatsen. Jämför sedan faktorerna framför samma exponentialfunktion.</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 2,
   "tolerans": 0,
@@ -52614,7 +52583,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "gränshastighet ur differentialekvation",
   "t": "<p>Hastigheten för en fallskärmshoppare (med utlöst skärm i en enkel modell) uppfyller \\(v^{\\prime}=9{,}8-0{,}5v\\), där \\(v\\) mäts i m/s och \\(t\\) i sekunder. Figuren visar \\(v(t)\\). Vilken gränshastighet närmar sig hopparen? (Svara i m/s.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Fallskärmshopparens hastighet v(t). Den börjar i 0 och stiger allt långsammare mot en gränshastighet strax under 20 m/s.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"77.2\" y1=\"22\" x2=\"77.2\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"106.3\" y1=\"22\" x2=\"106.3\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"135.5\" y1=\"22\" x2=\"135.5\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"164.7\" y1=\"22\" x2=\"164.7\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"193.8\" y1=\"22\" x2=\"193.8\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"252.2\" y1=\"22\" x2=\"252.2\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"281.3\" y1=\"22\" x2=\"281.3\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"310.5\" y1=\"22\" x2=\"310.5\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"339.7\" y1=\"22\" x2=\"339.7\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"368.8\" y1=\"22\" x2=\"368.8\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"398\" y2=\"258.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"210.8\" x2=\"398\" y2=\"210.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"163.6\" x2=\"398\" y2=\"163.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"116.4\" x2=\"398\" y2=\"116.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"69.2\" x2=\"398\" y2=\"69.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"408\" y2=\"258.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,258.0 402,253.0 402,263.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"258\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"249.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">t (s)</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">v (m/s)</text><text x=\"106.3\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"164.7\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"223.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"281.3\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"339.7\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"398.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">12</text><text x=\"42.0\" y=\"214.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"42.0\" y=\"167.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><text x=\"42.0\" y=\"120.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">15</text><text x=\"42.0\" y=\"73.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">20</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">25</text><text x=\"42.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k46f30ca5\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"236\"/></clipPath><polyline clip-path=\"url(#k46f30ca5)\" points=\"48.0,258.0 48.9,255.2 49.8,252.5 50.6,249.9 51.5,247.2 52.4,244.6 53.2,242.1 54.1,239.6 55.0,237.1 55.9,234.6 56.8,232.2 57.6,229.9 58.5,227.5 59.4,225.2 60.2,223.0 61.1,220.7 62.0,218.5 62.9,216.4 63.8,214.2 64.6,212.1 65.5,210.0 66.4,208.0 67.2,206.0 68.1,204.0 69.0,202.1 69.9,200.1 70.8,198.2 71.6,196.4 72.5,194.5 73.4,192.7 74.2,191.0 75.1,189.2 76.0,187.5 76.9,185.8 77.8,184.1 78.6,182.4 79.5,180.8 80.4,179.2 81.2,177.6 82.1,176.1 83.0,174.5 83.9,173.0 84.8,171.5 85.6,170.1 86.5,168.6 87.4,167.2 88.2,165.8 89.1,164.4 90.0,163.0 90.9,161.7 91.8,160.4 92.6,159.1 93.5,157.8 94.4,156.5 95.2,155.3 96.1,154.1 97.0,152.9 97.9,151.7 98.8,150.5 99.6,149.3 100.5,148.2 101.4,147.1 102.2,146.0 103.1,144.9 104.0,143.8 104.9,142.8 105.8,141.7 106.6,140.7 107.5,139.7 108.4,138.7 109.2,137.7 110.1,136.8 111.0,135.8 111.9,134.9 112.8,134.0 113.6,133.0 114.5,132.2 115.4,131.3 116.2,130.4 117.1,129.5 118.0,128.7 118.9,127.9 119.8,127.1 120.6,126.3 121.5,125.5 122.4,124.7 123.2,123.9 124.1,123.1 125.0,122.4 125.9,121.7 126.8,120.9 127.6,120.2 128.5,119.5 129.4,118.8 130.2,118.1 131.1,117.5 132.0,116.8 132.9,116.2 133.8,115.5 134.6,114.9 135.5,114.3 136.4,113.6 137.2,113.0 138.1,112.4 139.0,111.9 139.9,111.3 140.8,110.7 141.6,110.1 142.5,109.6 143.4,109.0 144.2,108.5 145.1,108.0 146.0,107.5 146.9,106.9 147.8,106.4 148.6,105.9 149.5,105.5 150.4,105.0 151.2,104.5 152.1,104.0 153.0,103.6 153.9,103.1 154.8,102.7 155.6,102.2 156.5,101.8 157.4,101.4 158.2,100.9 159.1,100.5 160.0,100.1 160.9,99.7 161.8,99.3 162.6,98.9 163.5,98.5 164.4,98.1 165.2,97.8 166.1,97.4 167.0,97.0 167.9,96.7 168.8,96.3 169.6,96.0 170.5,95.6 171.4,95.3 172.2,95.0 173.1,94.6 174.0,94.3 174.9,94.0 175.8,93.7 176.6,93.4 177.5,93.1 178.4,92.8 179.2,92.5 180.1,92.2 181.0,91.9 181.9,91.6 182.8,91.3 183.6,91.1 184.5,90.8 185.4,90.5 186.2,90.3 187.1,90.0 188.0,89.8 188.9,89.5 189.8,89.3 190.6,89.0 191.5,88.8 192.4,88.5 193.2,88.3 194.1,88.1 195.0,87.9 195.9,87.6 196.8,87.4 197.6,87.2 198.5,87.0 199.4,86.8 200.2,86.6 201.1,86.4 202.0,86.2 202.9,86.0 203.8,85.8 204.6,85.6 205.5,85.4 206.4,85.2 207.2,85.0 208.1,84.9 209.0,84.7 209.9,84.5 210.8,84.3 211.6,84.2 212.5,84.0 213.4,83.8 214.2,83.7 215.1,83.5 216.0,83.4 216.9,83.2 217.8,83.1 218.6,82.9 219.5,82.8 220.4,82.6 221.3,82.5 222.1,82.3 223.0,82.2 223.9,82.1 224.8,81.9 225.6,81.8 226.5,81.7 227.4,81.5 228.2,81.4 229.1,81.3 230.0,81.1 230.9,81.0 231.8,80.9 232.6,80.8 233.5,80.7 234.4,80.6 235.2,80.4 236.1,80.3 237.0,80.2 237.9,80.1 238.8,80.0 239.6,79.9 240.5,79.8 241.4,79.7 242.3,79.6 243.1,79.5 244.0,79.4 244.9,79.3 245.8,79.2 246.6,79.1 247.5,79.0 248.4,78.9 249.3,78.8 250.1,78.8 251.0,78.7 251.9,78.6 252.8,78.5 253.6,78.4 254.5,78.3 255.4,78.3 256.2,78.2 257.1,78.1 258.0,78.0 258.9,78.0 259.8,77.9 260.6,77.8 261.5,77.7 262.4,77.7 263.2,77.6 264.1,77.5 265.0,77.5 265.9,77.4 266.8,77.3 267.6,77.3 268.5,77.2 269.4,77.1 270.2,77.1 271.1,77.0 272.0,77.0 272.9,76.9 273.8,76.8 274.6,76.8 275.5,76.7 276.4,76.7 277.2,76.6 278.1,76.6 279.0,76.5 279.9,76.5 280.8,76.4 281.6,76.3 282.5,76.3 283.4,76.2 284.2,76.2 285.1,76.2 286.0,76.1 286.9,76.1 287.8,76.0 288.6,76.0 289.5,75.9 290.4,75.9 291.2,75.8 292.1,75.8 293.0,75.8 293.9,75.7 294.8,75.7 295.6,75.6 296.5,75.6 297.4,75.6 298.2,75.5 299.1,75.5 300.0,75.4 300.9,75.4 301.8,75.4 302.6,75.3 303.5,75.3 304.4,75.3 305.2,75.2 306.1,75.2 307.0,75.2 307.9,75.1 308.8,75.1 309.6,75.1 310.5,75.0 311.4,75.0 312.2,75.0 313.1,74.9 314.0,74.9 314.9,74.9 315.8,74.9 316.6,74.8 317.5,74.8 318.4,74.8 319.2,74.7 320.1,74.7 321.0,74.7 321.9,74.7 322.8,74.6 323.6,74.6 324.5,74.6 325.4,74.6 326.2,74.5 327.1,74.5 328.0,74.5 328.9,74.5 329.8,74.5 330.6,74.4 331.5,74.4 332.4,74.4 333.2,74.4 334.1,74.3 335.0,74.3 335.9,74.3 336.8,74.3 337.6,74.3 338.5,74.2 339.4,74.2 340.2,74.2 341.1,74.2 342.0,74.2 342.9,74.2 343.8,74.1 344.6,74.1 345.5,74.1 346.4,74.1 347.2,74.1 348.1,74.1 349.0,74.0 349.9,74.0 350.8,74.0 351.6,74.0 352.5,74.0 353.4,74.0 354.2,73.9 355.1,73.9 356.0,73.9 356.9,73.9 357.7,73.9 358.6,73.9 359.5,73.9 360.4,73.9 361.2,73.8 362.1,73.8 363.0,73.8 363.9,73.8 364.7,73.8 365.6,73.8 366.5,73.8 367.4,73.8 368.2,73.7 369.1,73.7 370.0,73.7 370.9,73.7 371.8,73.7 372.6,73.7 373.5,73.7 374.4,73.7 375.2,73.7 376.1,73.6 377.0,73.6 377.9,73.6 378.8,73.6 379.6,73.6 380.5,73.6 381.4,73.6 382.2,73.6 383.1,73.6 384.0,73.6 384.9,73.6 385.8,73.5 386.6,73.5 387.5,73.5 388.4,73.5 389.2,73.5 390.1,73.5 391.0,73.5 391.9,73.5 392.8,73.5 393.6,73.5 394.5,73.5 395.4,73.5 396.2,73.4 397.1,73.4 398.0,73.4\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"295.9\" y=\"102.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">v(t)</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Vid gränshastigheten ändras inte hastigheten längre: \\(v^{\\prime}=0\\). Då är \\(9{,}8-0{,}5v=0\\) och \\(v=19{,}6\\) m/s.</p><p>Det stämmer med grafen, som planar ut strax under 20 m/s.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt förändringen av hastigheten till noll</p>\\[0=9{,}8-0{,}5v\\]</li><li><p class=\"facit-rubrik\">Lös ut gränshastigheten</p>\\[0{,}5v=9{,}8\\]\\[v=\\frac{9{,}8}{0{,}5}=19{,}6\\text{ m/s}\\]</li><li><p class=\"facit-rubrik\">Kontrollera mot grafen</p><p>Kurvan planar ut strax under 20 m/s. Under 19,6 m/s är v′ positivt, och över denna hastighet är v′ negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19,6 m/s.</p></div>",
   "familj": "Jämviktslösningar, ansatser och grafer",
   "formaga": [
     "modellering",
@@ -52626,7 +52595,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Vad är v′ när hastigheten inte ändras längre?</p>",
+  "ledtrad": "<p>Vad händer med v′ när hastigheten närmar sig ett konstant värde?</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 19.6,
   "tolerans": 0,
@@ -52641,7 +52610,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "välja lösningskurva för inhomogen ekvation",
   "t": "<p>Vilken kurva är lösningen till \\(y^{\\prime}=2-y\\), \\(y(0)=4\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" role=\"img\" aria-label=\"Tre kurvor. A börjar i (0, 4) och sjunker mot 2. B börjar i origo och stiger mot 2. C börjar i (0, 4) och sjunker mot 0.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"89.2\" y1=\"22\" x2=\"89.2\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"130.5\" y1=\"22\" x2=\"130.5\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"171.8\" y1=\"22\" x2=\"171.8\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"213.0\" y1=\"22\" x2=\"213.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"254.2\" y1=\"22\" x2=\"254.2\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"295.5\" y1=\"22\" x2=\"295.5\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"336.8\" y1=\"22\" x2=\"336.8\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"378\" y2=\"258.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"210.8\" x2=\"378\" y2=\"210.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"163.6\" x2=\"378\" y2=\"163.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"116.4\" x2=\"378\" y2=\"116.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"69.2\" x2=\"378\" y2=\"69.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"378\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"388\" y2=\"258.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,258.0 382,253.0 382,263.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"258\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"390\" y=\"249.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"130.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"213.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"295.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"378.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"214.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"167.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"120.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"42.0\" y=\"73.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"42.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kfd87bbdb\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"236\"/></clipPath><polyline clip-path=\"url(#kfd87bbdb)\" points=\"48.0,69.2 48.8,70.1 49.6,71.1 50.5,72.0 51.3,72.9 52.1,73.8 53.0,74.7 53.8,75.6 54.6,76.5 55.4,77.3 56.2,78.2 57.1,79.0 57.9,79.9 58.7,80.7 59.5,81.5 60.4,82.3 61.2,83.2 62.0,84.0 62.9,84.8 63.7,85.5 64.5,86.3 65.3,87.1 66.2,87.8 67.0,88.6 67.8,89.3 68.6,90.1 69.5,90.8 70.3,91.5 71.1,92.3 71.9,93.0 72.8,93.7 73.6,94.4 74.4,95.1 75.2,95.7 76.0,96.4 76.9,97.1 77.7,97.7 78.5,98.4 79.3,99.0 80.2,99.7 81.0,100.3 81.8,101.0 82.7,101.6 83.5,102.2 84.3,102.8 85.1,103.4 86.0,104.0 86.8,104.6 87.6,105.2 88.4,105.8 89.2,106.3 90.1,106.9 90.9,107.5 91.7,108.0 92.6,108.6 93.4,109.1 94.2,109.7 95.0,110.2 95.8,110.7 96.7,111.3 97.5,111.8 98.3,112.3 99.2,112.8 100.0,113.3 100.8,113.8 101.6,114.3 102.5,114.8 103.3,115.3 104.1,115.8 104.9,116.3 105.8,116.7 106.6,117.2 107.4,117.7 108.2,118.1 109.0,118.6 109.9,119.0 110.7,119.5 111.5,119.9 112.4,120.3 113.2,120.8 114.0,121.2 114.8,121.6 115.6,122.0 116.5,122.4 117.3,122.8 118.1,123.3 119.0,123.7 119.8,124.1 120.6,124.4 121.4,124.8 122.2,125.2 123.1,125.6 123.9,126.0 124.7,126.4 125.5,126.7 126.4,127.1 127.2,127.5 128.0,127.8 128.8,128.2 129.7,128.5 130.5,128.9 131.3,129.2 132.2,129.6 133.0,129.9 133.8,130.2 134.6,130.6 135.4,130.9 136.3,131.2 137.1,131.5 137.9,131.9 138.8,132.2 139.6,132.5 140.4,132.8 141.2,133.1 142.1,133.4 142.9,133.7 143.7,134.0 144.5,134.3 145.3,134.6 146.2,134.9 147.0,135.2 147.8,135.5 148.6,135.7 149.5,136.0 150.3,136.3 151.1,136.6 151.9,136.8 152.8,137.1 153.6,137.4 154.4,137.6 155.2,137.9 156.1,138.1 156.9,138.4 157.7,138.6 158.6,138.9 159.4,139.1 160.2,139.4 161.0,139.6 161.8,139.9 162.7,140.1 163.5,140.3 164.3,140.6 165.1,140.8 166.0,141.0 166.8,141.2 167.6,141.5 168.4,141.7 169.3,141.9 170.1,142.1 170.9,142.3 171.8,142.5 172.6,142.7 173.4,143.0 174.2,143.2 175.1,143.4 175.9,143.6 176.7,143.8 177.5,144.0 178.3,144.2 179.2,144.3 180.0,144.5 180.8,144.7 181.7,144.9 182.5,145.1 183.3,145.3 184.1,145.5 184.9,145.7 185.8,145.8 186.6,146.0 187.4,146.2 188.2,146.4 189.1,146.5 189.9,146.7 190.7,146.9 191.6,147.0 192.4,147.2 193.2,147.4 194.0,147.5 194.8,147.7 195.7,147.8 196.5,148.0 197.3,148.2 198.2,148.3 199.0,148.5 199.8,148.6 200.6,148.8 201.5,148.9 202.3,149.1 203.1,149.2 203.9,149.3 204.8,149.5 205.6,149.6 206.4,149.8 207.2,149.9 208.0,150.0 208.9,150.2 209.7,150.3 210.5,150.4 211.3,150.6 212.2,150.7 213.0,150.8 213.8,151.0 214.7,151.1 215.5,151.2 216.3,151.3 217.1,151.4 218.0,151.6 218.8,151.7 219.6,151.8 220.4,151.9 221.2,152.0 222.1,152.2 222.9,152.3 223.7,152.4 224.6,152.5 225.4,152.6 226.2,152.7 227.0,152.8 227.9,152.9 228.7,153.0 229.5,153.1 230.3,153.2 231.2,153.3 232.0,153.4 232.8,153.6 233.6,153.7 234.4,153.7 235.3,153.8 236.1,153.9 236.9,154.0 237.7,154.1 238.6,154.2 239.4,154.3 240.2,154.4 241.0,154.5 241.9,154.6 242.7,154.7 243.5,154.8 244.3,154.9 245.2,155.0 246.0,155.0 246.8,155.1 247.7,155.2 248.5,155.3 249.3,155.4 250.1,155.5 250.9,155.5 251.8,155.6 252.6,155.7 253.4,155.8 254.2,155.9 255.1,155.9 255.9,156.0 256.7,156.1 257.6,156.2 258.4,156.2 259.2,156.3 260.0,156.4 260.9,156.4 261.7,156.5 262.5,156.6 263.3,156.7 264.1,156.7 265.0,156.8 265.8,156.9 266.6,156.9 267.5,157.0 268.3,157.1 269.1,157.1 269.9,157.2 270.8,157.3 271.6,157.3 272.4,157.4 273.2,157.4 274.1,157.5 274.9,157.6 275.7,157.6 276.5,157.7 277.4,157.7 278.2,157.8 279.0,157.9 279.8,157.9 280.6,158.0 281.5,158.0 282.3,158.1 283.1,158.1 283.9,158.2 284.8,158.2 285.6,158.3 286.4,158.4 287.2,158.4 288.1,158.5 288.9,158.5 289.7,158.6 290.5,158.6 291.4,158.7 292.2,158.7 293.0,158.8 293.9,158.8 294.7,158.9 295.5,158.9 296.3,158.9 297.1,159.0 298.0,159.0 298.8,159.1 299.6,159.1 300.5,159.2 301.3,159.2 302.1,159.3 302.9,159.3 303.8,159.3 304.6,159.4 305.4,159.4 306.2,159.5 307.1,159.5 307.9,159.6 308.7,159.6 309.5,159.6 310.4,159.7 311.2,159.7 312.0,159.8 312.8,159.8 313.7,159.8 314.5,159.9 315.3,159.9 316.1,159.9 316.9,160.0 317.8,160.0 318.6,160.0 319.4,160.1 320.2,160.1 321.1,160.2 321.9,160.2 322.7,160.2 323.6,160.3 324.4,160.3 325.2,160.3 326.0,160.4 326.8,160.4 327.7,160.4 328.5,160.4 329.3,160.5 330.1,160.5 331.0,160.5 331.8,160.6 332.6,160.6 333.4,160.6 334.3,160.7 335.1,160.7 335.9,160.7 336.8,160.7 337.6,160.8 338.4,160.8 339.2,160.8 340.1,160.9 340.9,160.9 341.7,160.9 342.5,160.9 343.4,161.0 344.2,161.0 345.0,161.0 345.8,161.0 346.7,161.1 347.5,161.1 348.3,161.1 349.1,161.1 349.9,161.2 350.8,161.2 351.6,161.2 352.4,161.2 353.2,161.3 354.1,161.3 354.9,161.3 355.7,161.3 356.6,161.4 357.4,161.4 358.2,161.4 359.0,161.4 359.8,161.4 360.7,161.5 361.5,161.5 362.3,161.5 363.1,161.5 364.0,161.6 364.8,161.6 365.6,161.6 366.4,161.6 367.3,161.6 368.1,161.7 368.9,161.7 369.8,161.7 370.6,161.7 371.4,161.7 372.2,161.7 373.1,161.8 373.9,161.8 374.7,161.8 375.5,161.8 376.4,161.8 377.2,161.9 378.0,161.9\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"130.5\" y=\"102.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">A</text><polyline clip-path=\"url(#kfd87bbdb)\" points=\"48.0,258.0 48.8,257.1 49.6,256.1 50.5,255.2 51.3,254.3 52.1,253.4 53.0,252.5 53.8,251.6 54.6,250.7 55.4,249.9 56.2,249.0 57.1,248.2 57.9,247.3 58.7,246.5 59.5,245.7 60.4,244.9 61.2,244.0 62.0,243.2 62.9,242.4 63.7,241.7 64.5,240.9 65.3,240.1 66.2,239.4 67.0,238.6 67.8,237.9 68.6,237.1 69.5,236.4 70.3,235.7 71.1,234.9 71.9,234.2 72.8,233.5 73.6,232.8 74.4,232.1 75.2,231.5 76.0,230.8 76.9,230.1 77.7,229.5 78.5,228.8 79.3,228.2 80.2,227.5 81.0,226.9 81.8,226.2 82.7,225.6 83.5,225.0 84.3,224.4 85.1,223.8 86.0,223.2 86.8,222.6 87.6,222.0 88.4,221.4 89.2,220.9 90.1,220.3 90.9,219.7 91.7,219.2 92.6,218.6 93.4,218.1 94.2,217.5 95.0,217.0 95.8,216.5 96.7,215.9 97.5,215.4 98.3,214.9 99.2,214.4 100.0,213.9 100.8,213.4 101.6,212.9 102.5,212.4 103.3,211.9 104.1,211.4 104.9,210.9 105.8,210.5 106.6,210.0 107.4,209.5 108.2,209.1 109.0,208.6 109.9,208.2 110.7,207.7 111.5,207.3 112.4,206.9 113.2,206.4 114.0,206.0 114.8,205.6 115.6,205.2 116.5,204.8 117.3,204.4 118.1,203.9 119.0,203.5 119.8,203.1 120.6,202.8 121.4,202.4 122.2,202.0 123.1,201.6 123.9,201.2 124.7,200.8 125.5,200.5 126.4,200.1 127.2,199.7 128.0,199.4 128.8,199.0 129.7,198.7 130.5,198.3 131.3,198.0 132.2,197.6 133.0,197.3 133.8,197.0 134.6,196.6 135.4,196.3 136.3,196.0 137.1,195.7 137.9,195.3 138.8,195.0 139.6,194.7 140.4,194.4 141.2,194.1 142.1,193.8 142.9,193.5 143.7,193.2 144.5,192.9 145.3,192.6 146.2,192.3 147.0,192.0 147.8,191.7 148.6,191.5 149.5,191.2 150.3,190.9 151.1,190.6 151.9,190.4 152.8,190.1 153.6,189.8 154.4,189.6 155.2,189.3 156.1,189.1 156.9,188.8 157.7,188.6 158.6,188.3 159.4,188.1 160.2,187.8 161.0,187.6 161.8,187.3 162.7,187.1 163.5,186.9 164.3,186.6 165.1,186.4 166.0,186.2 166.8,186.0 167.6,185.7 168.4,185.5 169.3,185.3 170.1,185.1 170.9,184.9 171.8,184.7 172.6,184.5 173.4,184.2 174.2,184.0 175.1,183.8 175.9,183.6 176.7,183.4 177.5,183.2 178.3,183.0 179.2,182.9 180.0,182.7 180.8,182.5 181.7,182.3 182.5,182.1 183.3,181.9 184.1,181.7 184.9,181.5 185.8,181.4 186.6,181.2 187.4,181.0 188.2,180.8 189.1,180.7 189.9,180.5 190.7,180.3 191.6,180.2 192.4,180.0 193.2,179.8 194.0,179.7 194.8,179.5 195.7,179.4 196.5,179.2 197.3,179.0 198.2,178.9 199.0,178.7 199.8,178.6 200.6,178.4 201.5,178.3 202.3,178.1 203.1,178.0 203.9,177.9 204.8,177.7 205.6,177.6 206.4,177.4 207.2,177.3 208.0,177.2 208.9,177.0 209.7,176.9 210.5,176.8 211.3,176.6 212.2,176.5 213.0,176.4 213.8,176.2 214.7,176.1 215.5,176.0 216.3,175.9 217.1,175.8 218.0,175.6 218.8,175.5 219.6,175.4 220.4,175.3 221.2,175.2 222.1,175.0 222.9,174.9 223.7,174.8 224.6,174.7 225.4,174.6 226.2,174.5 227.0,174.4 227.9,174.3 228.7,174.2 229.5,174.1 230.3,174.0 231.2,173.9 232.0,173.8 232.8,173.6 233.6,173.5 234.4,173.5 235.3,173.4 236.1,173.3 236.9,173.2 237.7,173.1 238.6,173.0 239.4,172.9 240.2,172.8 241.0,172.7 241.9,172.6 242.7,172.5 243.5,172.4 244.3,172.3 245.2,172.2 246.0,172.2 246.8,172.1 247.7,172.0 248.5,171.9 249.3,171.8 250.1,171.7 250.9,171.7 251.8,171.6 252.6,171.5 253.4,171.4 254.2,171.3 255.1,171.3 255.9,171.2 256.7,171.1 257.6,171.0 258.4,171.0 259.2,170.9 260.0,170.8 260.9,170.8 261.7,170.7 262.5,170.6 263.3,170.5 264.1,170.5 265.0,170.4 265.8,170.3 266.6,170.3 267.5,170.2 268.3,170.1 269.1,170.1 269.9,170.0 270.8,169.9 271.6,169.9 272.4,169.8 273.2,169.8 274.1,169.7 274.9,169.6 275.7,169.6 276.5,169.5 277.4,169.5 278.2,169.4 279.0,169.3 279.8,169.3 280.6,169.2 281.5,169.2 282.3,169.1 283.1,169.1 283.9,169.0 284.8,169.0 285.6,168.9 286.4,168.8 287.2,168.8 288.1,168.7 288.9,168.7 289.7,168.6 290.5,168.6 291.4,168.5 292.2,168.5 293.0,168.4 293.9,168.4 294.7,168.3 295.5,168.3 296.3,168.3 297.1,168.2 298.0,168.2 298.8,168.1 299.6,168.1 300.5,168.0 301.3,168.0 302.1,167.9 302.9,167.9 303.8,167.9 304.6,167.8 305.4,167.8 306.2,167.7 307.1,167.7 307.9,167.6 308.7,167.6 309.5,167.6 310.4,167.5 311.2,167.5 312.0,167.4 312.8,167.4 313.7,167.4 314.5,167.3 315.3,167.3 316.1,167.3 316.9,167.2 317.8,167.2 318.6,167.2 319.4,167.1 320.2,167.1 321.1,167.0 321.9,167.0 322.7,167.0 323.6,166.9 324.4,166.9 325.2,166.9 326.0,166.8 326.8,166.8 327.7,166.8 328.5,166.8 329.3,166.7 330.1,166.7 331.0,166.7 331.8,166.6 332.6,166.6 333.4,166.6 334.3,166.5 335.1,166.5 335.9,166.5 336.8,166.5 337.6,166.4 338.4,166.4 339.2,166.4 340.1,166.3 340.9,166.3 341.7,166.3 342.5,166.3 343.4,166.2 344.2,166.2 345.0,166.2 345.8,166.2 346.7,166.1 347.5,166.1 348.3,166.1 349.1,166.1 349.9,166.0 350.8,166.0 351.6,166.0 352.4,166.0 353.2,165.9 354.1,165.9 354.9,165.9 355.7,165.9 356.6,165.8 357.4,165.8 358.2,165.8 359.0,165.8 359.8,165.8 360.7,165.7 361.5,165.7 362.3,165.7 363.1,165.7 364.0,165.6 364.8,165.6 365.6,165.6 366.4,165.6 367.3,165.6 368.1,165.5 368.9,165.5 369.8,165.5 370.6,165.5 371.4,165.5 372.2,165.5 373.1,165.4 373.9,165.4 374.7,165.4 375.5,165.4 376.4,165.4 377.2,165.3 378.0,165.3\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"3\"/><text x=\"97.5\" y=\"252.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#d9622b\">B</text><polyline clip-path=\"url(#kfd87bbdb)\" points=\"48.0,69.2 48.8,71.1 49.6,72.9 50.5,74.8 51.3,76.6 52.1,78.4 53.0,80.2 53.8,82.0 54.6,83.7 55.4,85.4 56.2,87.2 57.1,88.9 57.9,90.5 58.7,92.2 59.5,93.9 60.4,95.5 61.2,97.1 62.0,98.7 62.9,100.3 63.7,101.9 64.5,103.4 65.3,105.0 66.2,106.5 67.0,108.0 67.8,109.5 68.6,111.0 69.5,112.4 70.3,113.9 71.1,115.3 71.9,116.7 72.8,118.1 73.6,119.5 74.4,120.9 75.2,122.3 76.0,123.6 76.9,125.0 77.7,126.3 78.5,127.6 79.3,128.9 80.2,130.2 81.0,131.4 81.8,132.7 82.7,133.9 83.5,135.2 84.3,136.4 85.1,137.6 86.0,138.8 86.8,140.0 87.6,141.2 88.4,142.3 89.2,143.5 90.1,144.6 90.9,145.8 91.7,146.9 92.6,148.0 93.4,149.1 94.2,150.2 95.0,151.2 95.8,152.3 96.7,153.3 97.5,154.4 98.3,155.4 99.2,156.4 100.0,157.4 100.8,158.4 101.6,159.4 102.5,160.4 103.3,161.4 104.1,162.4 104.9,163.3 105.8,164.2 106.6,165.2 107.4,166.1 108.2,167.0 109.0,167.9 109.9,168.8 110.7,169.7 111.5,170.6 112.4,171.5 113.2,172.3 114.0,173.2 114.8,174.0 115.6,174.8 116.5,175.7 117.3,176.5 118.1,177.3 119.0,178.1 119.8,178.9 120.6,179.7 121.4,180.5 122.2,181.2 123.1,182.0 123.9,182.8 124.7,183.5 125.5,184.2 126.4,185.0 127.2,185.7 128.0,186.4 128.8,187.1 129.7,187.8 130.5,188.5 131.3,189.2 132.2,189.9 133.0,190.6 133.8,191.3 134.6,191.9 135.4,192.6 136.3,193.2 137.1,193.9 137.9,194.5 138.8,195.2 139.6,195.8 140.4,196.4 141.2,197.0 142.1,197.6 142.9,198.2 143.7,198.8 144.5,199.4 145.3,200.0 146.2,200.6 147.0,201.1 147.8,201.7 148.6,202.3 149.5,202.8 150.3,203.4 151.1,203.9 151.9,204.4 152.8,205.0 153.6,205.5 154.4,206.0 155.2,206.5 156.1,207.1 156.9,207.6 157.7,208.1 158.6,208.6 159.4,209.1 160.2,209.5 161.0,210.0 161.8,210.5 162.7,211.0 163.5,211.4 164.3,211.9 165.1,212.4 166.0,212.8 166.8,213.3 167.6,213.7 168.4,214.2 169.3,214.6 170.1,215.0 170.9,215.4 171.8,215.9 172.6,216.3 173.4,216.7 174.2,217.1 175.1,217.5 175.9,217.9 176.7,218.3 177.5,218.7 178.3,219.1 179.2,219.5 180.0,219.9 180.8,220.3 181.7,220.6 182.5,221.0 183.3,221.4 184.1,221.7 184.9,222.1 185.8,222.5 186.6,222.8 187.4,223.2 188.2,223.5 189.1,223.9 189.9,224.2 190.7,224.5 191.6,224.9 192.4,225.2 193.2,225.5 194.0,225.8 194.8,226.2 195.7,226.5 196.5,226.8 197.3,227.1 198.2,227.4 199.0,227.7 199.8,228.0 200.6,228.3 201.5,228.6 202.3,228.9 203.1,229.2 203.9,229.5 204.8,229.8 205.6,230.0 206.4,230.3 207.2,230.6 208.0,230.9 208.9,231.1 209.7,231.4 210.5,231.7 211.3,231.9 212.2,232.2 213.0,232.4 213.8,232.7 214.7,233.0 215.5,233.2 216.3,233.5 217.1,233.7 218.0,233.9 218.8,234.2 219.6,234.4 220.4,234.6 221.2,234.9 222.1,235.1 222.9,235.3 223.7,235.6 224.6,235.8 225.4,236.0 226.2,236.2 227.0,236.4 227.9,236.7 228.7,236.9 229.5,237.1 230.3,237.3 231.2,237.5 232.0,237.7 232.8,237.9 233.6,238.1 234.4,238.3 235.3,238.5 236.1,238.7 236.9,238.9 237.7,239.1 238.6,239.3 239.4,239.4 240.2,239.6 241.0,239.8 241.9,240.0 242.7,240.2 243.5,240.4 244.3,240.5 245.2,240.7 246.0,240.9 246.8,241.0 247.7,241.2 248.5,241.4 249.3,241.5 250.1,241.7 250.9,241.9 251.8,242.0 252.6,242.2 253.4,242.3 254.2,242.5 255.1,242.7 255.9,242.8 256.7,243.0 257.6,243.1 258.4,243.3 259.2,243.4 260.0,243.6 260.9,243.7 261.7,243.8 262.5,244.0 263.3,244.1 264.1,244.3 265.0,244.4 265.8,244.5 266.6,244.7 267.5,244.8 268.3,244.9 269.1,245.1 269.9,245.2 270.8,245.3 271.6,245.4 272.4,245.6 273.2,245.7 274.1,245.8 274.9,245.9 275.7,246.1 276.5,246.2 277.4,246.3 278.2,246.4 279.0,246.5 279.8,246.6 280.6,246.7 281.5,246.9 282.3,247.0 283.1,247.1 283.9,247.2 284.8,247.3 285.6,247.4 286.4,247.5 287.2,247.6 288.1,247.7 288.9,247.8 289.7,247.9 290.5,248.0 291.4,248.1 292.2,248.2 293.0,248.3 293.9,248.4 294.7,248.5 295.5,248.6 296.3,248.7 297.1,248.8 298.0,248.9 298.8,249.0 299.6,249.1 300.5,249.1 301.3,249.2 302.1,249.3 302.9,249.4 303.8,249.5 304.6,249.6 305.4,249.7 306.2,249.7 307.1,249.8 307.9,249.9 308.7,250.0 309.5,250.1 310.4,250.1 311.2,250.2 312.0,250.3 312.8,250.4 313.7,250.5 314.5,250.5 315.3,250.6 316.1,250.7 316.9,250.8 317.8,250.8 318.6,250.9 319.4,251.0 320.2,251.0 321.1,251.1 321.9,251.2 322.7,251.2 323.6,251.3 324.4,251.4 325.2,251.4 326.0,251.5 326.8,251.6 327.7,251.6 328.5,251.7 329.3,251.8 330.1,251.8 331.0,251.9 331.8,251.9 332.6,252.0 333.4,252.1 334.3,252.1 335.1,252.2 335.9,252.2 336.8,252.3 337.6,252.4 338.4,252.4 339.2,252.5 340.1,252.5 340.9,252.6 341.7,252.6 342.5,252.7 343.4,252.7 344.2,252.8 345.0,252.8 345.8,252.9 346.7,252.9 347.5,253.0 348.3,253.0 349.1,253.1 349.9,253.1 350.8,253.2 351.6,253.2 352.4,253.3 353.2,253.3 354.1,253.4 354.9,253.4 355.7,253.5 356.6,253.5 357.4,253.6 358.2,253.6 359.0,253.6 359.8,253.7 360.7,253.7 361.5,253.8 362.3,253.8 363.1,253.9 364.0,253.9 364.8,253.9 365.6,254.0 366.4,254.0 367.3,254.1 368.1,254.1 368.9,254.1 369.8,254.2 370.6,254.2 371.4,254.3 372.2,254.3 373.1,254.3 373.9,254.4 374.7,254.4 375.5,254.4 376.4,254.5 377.2,254.5 378.0,254.5\" fill=\"none\" stroke=\"#2e9b6f\" stroke-width=\"3\"/><text x=\"229.5\" y=\"222.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2e9b6f\">C</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Startpunkten är \\((0,\\,4)\\), så B kan uteslutas. Den konstanta lösningen är \\(y=2\\) (där \\(y^{\\prime}=0\\)), så lösningen ska närma sig 2, inte 0.</p><p>Lösningen är \\(y=2+2e^{-x}\\), kurva A.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd startvärdet för att utesluta B</p><p>Kurvan ska gå genom (0,4). B börjar i (0,0) och kan inte stämma.</p></li><li><p class=\"facit-rubrik\">Bestäm jämviktsnivån</p>\\[0=2-y\\quad\\Rightarrow\\quad y=2\\]<p>A närmar sig 2, medan C närmar sig 0.</p></li><li><p class=\"facit-rubrik\">Kontrollera kurva A med lösningsformeln</p>\\[y=2+Ce^{-x},\\qquad 4=2+C\\]\\[y=2+2e^{-x}\\]<p>Derivatan är −2e⁻ˣ, vilket också är 2−y.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kurva A.</p></div>",
   "familj": "Jämviktslösningar, ansatser och grafer",
   "formaga": [
     "begrepp"
@@ -52652,7 +52621,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Vilken startpunkt ska kurvan ha? Vilken nivå ska den närma sig?</p>",
+  "ledtrad": "<p>Kontrollera både startpunkten och nivån som kurvan närmar sig.</p>",
   "svarstyp": "alternativ",
   "rättSvar": null,
   "tolerans": null,
@@ -52679,10 +52648,10 @@ window.BANKMATF1 = [
   "kap": 4,
   "omr": "inhomogena_forsta",
   "niva": "E",
-  "poang": "1/0/0",
+  "poang": "3/0/0",
   "typ": "när lösningen når ett visst värde",
   "t": "<p>Lös \\(y^{\\prime}=3-y\\), \\(y(0)=0\\), och bestäm när \\(y=2\\). (Svara med två decimaler.)</p>",
-  "s": "<div class=\"facit-v2\"><p>Jämviktslösningen är \\(y=3\\), så den allmänna lösningen är \\(y=3+Ce^{-x}\\). \\(y(0)=0\\) ger \\(C=-3\\), alltså \\(y=3-3e^{-x}\\).</p><p>\\(3-3e^{-x}=2\\) ger \\(e^{-x}=\\dfrac13\\) och \\(x=\\ln3\\approx1{,}10\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm familjen och använd y(0)=0</p>\\[y=3+Ce^{-x}\\]\\[0=3+C\\quad\\Rightarrow\\quad C=-3\\]</li><li><p class=\"facit-rubrik\">Sätt y=2 och isolera exponentialtermen</p>\\[2=3-3e^{-x}\\]\\[3e^{-x}=1\\quad\\Rightarrow\\quad e^{-x}=1/3\\]</li><li><p class=\"facit-rubrik\">Logaritmera för att få x</p>\\[-x=\\ln(1/3)=-\\ln3\\]\\[x=\\ln3\\approx1{,}098612\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx1{,}10\\).</p></div>",
   "familj": "Jämviktslösningar, ansatser och grafer",
   "formaga": [
     "procedur"
@@ -52691,11 +52660,11 @@ window.BANKMATF1 = [
   "geogebra": false,
   "spel": true,
   "självrättning": true,
-  "traningsniva": 3,
+  "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Bestäm först den lösning som uppfyller y(0) = 0.</p>",
+  "ledtrad": "<p>Bestäm först lösningen med det givna startvärdet. Använd sedan det sökta funktionsvärdet för att få en exponentialekvation.</p>",
   "svarstyp": "numeriskt",
-  "rättSvar": 1.1,
+  "rättSvar": 1.0986122886681098,
   "tolerans": 0.005,
   "svarFormat": "numeriskt"
 },
@@ -52707,7 +52676,7 @@ window.BANKMATF1 = [
   "poang": "0/1/0",
   "typ": "bestämma ekvationen ur en lösningskurva",
   "t": "<p>Figuren visar en lösning till \\(y^{\\prime}=ay+b\\). Lösningen börjar i origo, tangenten där går genom \\((1,\\,2)\\), och kurvan närmar sig \\(y=4\\). Bestäm \\(a\\) och \\(b\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"En lösningskurva som börjar i origo och planar ut mot den streckade nivån y = 4. En streckad tangent i origo går genom (1, 2).\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"69.9\" y1=\"22\" x2=\"69.9\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"91.8\" y1=\"22\" x2=\"91.8\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"113.6\" y1=\"22\" x2=\"113.6\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"135.5\" y1=\"22\" x2=\"135.5\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"157.4\" y1=\"22\" x2=\"157.4\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"179.2\" y1=\"22\" x2=\"179.2\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"201.1\" y1=\"22\" x2=\"201.1\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"244.9\" y1=\"22\" x2=\"244.9\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"266.8\" y1=\"22\" x2=\"266.8\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"288.6\" y1=\"22\" x2=\"288.6\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"310.5\" y1=\"22\" x2=\"310.5\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"332.4\" y1=\"22\" x2=\"332.4\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"354.2\" y1=\"22\" x2=\"354.2\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"376.1\" y1=\"22\" x2=\"376.1\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"398\" y2=\"258.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"210.8\" x2=\"398\" y2=\"210.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"163.6\" x2=\"398\" y2=\"163.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"116.4\" x2=\"398\" y2=\"116.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"69.2\" x2=\"398\" y2=\"69.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"408\" y2=\"258.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,258.0 402,253.0 402,263.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"258\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"249.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"91.8\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"135.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"179.2\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"223.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"266.8\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"310.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"354.2\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><text x=\"398.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"42.0\" y=\"214.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"167.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"120.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"42.0\" y=\"73.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"42.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kfd0d4cf8\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"236\"/></clipPath><polyline clip-path=\"url(#kfd0d4cf8)\" points=\"48.0,258.0 48.9,256.1 49.8,254.3 50.6,252.4 51.5,250.6 52.4,248.8 53.2,247.0 54.1,245.2 55.0,243.5 55.9,241.8 56.8,240.0 57.6,238.3 58.5,236.7 59.4,235.0 60.2,233.3 61.1,231.7 62.0,230.1 62.9,228.5 63.8,226.9 64.6,225.3 65.5,223.8 66.4,222.2 67.2,220.7 68.1,219.2 69.0,217.7 69.9,216.2 70.8,214.8 71.6,213.3 72.5,211.9 73.4,210.5 74.2,209.1 75.1,207.7 76.0,206.3 76.9,204.9 77.8,203.6 78.6,202.2 79.5,200.9 80.4,199.6 81.2,198.3 82.1,197.0 83.0,195.8 83.9,194.5 84.8,193.3 85.6,192.0 86.5,190.8 87.4,189.6 88.2,188.4 89.1,187.2 90.0,186.0 90.9,184.9 91.8,183.7 92.6,182.6 93.5,181.4 94.4,180.3 95.2,179.2 96.1,178.1 97.0,177.0 97.9,176.0 98.8,174.9 99.6,173.9 100.5,172.8 101.4,171.8 102.2,170.8 103.1,169.8 104.0,168.8 104.9,167.8 105.8,166.8 106.6,165.8 107.5,164.8 108.4,163.9 109.2,163.0 110.1,162.0 111.0,161.1 111.9,160.2 112.8,159.3 113.6,158.4 114.5,157.5 115.4,156.6 116.2,155.7 117.1,154.9 118.0,154.0 118.9,153.2 119.8,152.4 120.6,151.5 121.5,150.7 122.4,149.9 123.2,149.1 124.1,148.3 125.0,147.5 125.9,146.7 126.8,146.0 127.6,145.2 128.5,144.4 129.4,143.7 130.2,143.0 131.1,142.2 132.0,141.5 132.9,140.8 133.8,140.1 134.6,139.4 135.5,138.7 136.4,138.0 137.2,137.3 138.1,136.6 139.0,135.9 139.9,135.3 140.8,134.6 141.6,134.0 142.5,133.3 143.4,132.7 144.2,132.0 145.1,131.4 146.0,130.8 146.9,130.2 147.8,129.6 148.6,129.0 149.5,128.4 150.4,127.8 151.2,127.2 152.1,126.6 153.0,126.1 153.9,125.5 154.8,124.9 155.6,124.4 156.5,123.8 157.4,123.3 158.2,122.8 159.1,122.2 160.0,121.7 160.9,121.2 161.8,120.7 162.6,120.1 163.5,119.6 164.4,119.1 165.2,118.6 166.1,118.1 167.0,117.7 167.9,117.2 168.8,116.7 169.6,116.2 170.5,115.8 171.4,115.3 172.2,114.8 173.1,114.4 174.0,113.9 174.9,113.5 175.8,113.0 176.6,112.6 177.5,112.2 178.4,111.8 179.2,111.3 180.1,110.9 181.0,110.5 181.9,110.1 182.8,109.7 183.6,109.3 184.5,108.9 185.4,108.5 186.2,108.1 187.1,107.7 188.0,107.3 188.9,106.9 189.8,106.6 190.6,106.2 191.5,105.8 192.4,105.5 193.2,105.1 194.1,104.7 195.0,104.4 195.9,104.0 196.8,103.7 197.6,103.3 198.5,103.0 199.4,102.7 200.2,102.3 201.1,102.0 202.0,101.7 202.9,101.4 203.8,101.0 204.6,100.7 205.5,100.4 206.4,100.1 207.2,99.8 208.1,99.5 209.0,99.2 209.9,98.9 210.8,98.6 211.6,98.3 212.5,98.0 213.4,97.7 214.2,97.4 215.1,97.2 216.0,96.9 216.9,96.6 217.8,96.3 218.6,96.1 219.5,95.8 220.4,95.5 221.2,95.3 222.1,95.0 223.0,94.8 223.9,94.5 224.8,94.2 225.6,94.0 226.5,93.7 227.4,93.5 228.2,93.3 229.1,93.0 230.0,92.8 230.9,92.6 231.8,92.3 232.6,92.1 233.5,91.9 234.4,91.6 235.2,91.4 236.1,91.2 237.0,91.0 237.9,90.8 238.8,90.5 239.6,90.3 240.5,90.1 241.4,89.9 242.3,89.7 243.1,89.5 244.0,89.3 244.9,89.1 245.7,88.9 246.6,88.7 247.5,88.5 248.4,88.3 249.2,88.1 250.1,87.9 251.0,87.8 251.9,87.6 252.8,87.4 253.6,87.2 254.5,87.0 255.4,86.8 256.2,86.7 257.1,86.5 258.0,86.3 258.9,86.2 259.8,86.0 260.6,85.8 261.5,85.7 262.4,85.5 263.2,85.3 264.1,85.2 265.0,85.0 265.9,84.9 266.8,84.7 267.6,84.5 268.5,84.4 269.4,84.2 270.2,84.1 271.1,83.9 272.0,83.8 272.9,83.6 273.8,83.5 274.6,83.4 275.5,83.2 276.4,83.1 277.2,82.9 278.1,82.8 279.0,82.7 279.9,82.5 280.8,82.4 281.6,82.3 282.5,82.1 283.4,82.0 284.2,81.9 285.1,81.8 286.0,81.6 286.9,81.5 287.8,81.4 288.6,81.3 289.5,81.1 290.4,81.0 291.2,80.9 292.1,80.8 293.0,80.7 293.9,80.6 294.8,80.5 295.6,80.3 296.5,80.2 297.4,80.1 298.2,80.0 299.1,79.9 300.0,79.8 300.9,79.7 301.8,79.6 302.6,79.5 303.5,79.4 304.4,79.3 305.2,79.2 306.1,79.1 307.0,79.0 307.9,78.9 308.8,78.8 309.6,78.7 310.5,78.6 311.4,78.5 312.2,78.4 313.1,78.3 314.0,78.2 314.9,78.1 315.8,78.1 316.6,78.0 317.5,77.9 318.4,77.8 319.2,77.7 320.1,77.6 321.0,77.5 321.9,77.5 322.8,77.4 323.6,77.3 324.5,77.2 325.4,77.1 326.2,77.1 327.1,77.0 328.0,76.9 328.9,76.8 329.8,76.7 330.6,76.7 331.5,76.6 332.4,76.5 333.2,76.4 334.1,76.4 335.0,76.3 335.9,76.2 336.8,76.2 337.6,76.1 338.5,76.0 339.4,76.0 340.2,75.9 341.1,75.8 342.0,75.8 342.9,75.7 343.8,75.6 344.6,75.6 345.5,75.5 346.4,75.4 347.2,75.4 348.1,75.3 349.0,75.3 349.9,75.2 350.8,75.1 351.6,75.1 352.5,75.0 353.4,75.0 354.2,74.9 355.1,74.8 356.0,74.8 356.9,74.7 357.8,74.7 358.6,74.6 359.5,74.6 360.4,74.5 361.2,74.5 362.1,74.4 363.0,74.4 363.9,74.3 364.8,74.3 365.6,74.2 366.5,74.2 367.4,74.1 368.2,74.1 369.1,74.0 370.0,74.0 370.9,73.9 371.8,73.9 372.6,73.8 373.5,73.8 374.4,73.7 375.2,73.7 376.1,73.6 377.0,73.6 377.9,73.6 378.8,73.5 379.6,73.5 380.5,73.4 381.4,73.4 382.2,73.3 383.1,73.3 384.0,73.3 384.9,73.2 385.8,73.2 386.6,73.1 387.5,73.1 388.4,73.1 389.2,73.0 390.1,73.0 391.0,72.9 391.9,72.9 392.8,72.9 393.6,72.8 394.5,72.8 395.4,72.8 396.2,72.7 397.1,72.7 398.0,72.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polyline clip-path=\"url(#kfd0d4cf8)\" points=\"48.0,258.0 48.9,256.1 49.8,254.2 50.6,252.3 51.5,250.4 52.4,248.6 53.2,246.7 54.1,244.8 55.0,242.9 55.9,241.0 56.8,239.1 57.6,237.2 58.5,235.3 59.4,233.5 60.2,231.6 61.1,229.7 62.0,227.8 62.9,225.9 63.8,224.0 64.6,222.1 65.5,220.2 66.4,218.4 67.2,216.5 68.1,214.6 69.0,212.7 69.9,210.8 70.8,208.9 71.6,207.0 72.5,205.1 73.4,203.2 74.2,201.4 75.1,199.5 76.0,197.6 76.9,195.7 77.8,193.8 78.6,191.9 79.5,190.0 80.4,188.1 81.2,186.3 82.1,184.4 83.0,182.5 83.9,180.6 84.8,178.7 85.6,176.8 86.5,174.9 87.4,173.0 88.2,171.2 89.1,169.3 90.0,167.4 90.9,165.5 91.8,163.6 92.6,161.7 93.5,159.8 94.4,157.9 95.2,156.0 96.1,154.2 97.0,152.3 97.9,150.4 98.8,148.5 99.6,146.6 100.5,144.7 101.4,142.8 102.2,140.9 103.1,139.1 104.0,137.2 104.9,135.3 105.8,133.4 106.6,131.5 107.5,129.6 108.4,127.7 109.2,125.8 110.1,124.0 111.0,122.1 111.9,120.2 112.8,118.3 113.6,116.4 114.5,114.5 115.4,112.6 116.2,110.7 117.1,108.8 118.0,107.0 118.9,105.1 119.8,103.2 120.6,101.3 121.5,99.4 122.4,97.5 123.2,95.6 124.1,93.7 125.0,91.9 125.9,90.0 126.8,88.1 127.6,86.2 128.5,84.3 129.4,82.4 130.2,80.5 131.1,78.6 132.0,76.8 132.9,74.9 133.8,73.0 134.6,71.1 135.5,69.2 136.4,67.3 137.2,65.4 138.1,63.5 139.0,61.6 139.9,59.8 140.8,57.9 141.6,56.0 142.5,54.1 143.4,52.2 144.2,50.3 145.1,48.4 146.0,46.5 146.9,44.7 147.8,42.8 148.6,40.9 149.5,39.0 150.4,37.1 151.2,35.2 152.1,33.3 153.0,31.4 153.9,29.6 154.8,27.7 155.6,25.8 156.5,23.9 157.4,22.0 158.2,20.1 159.1,18.2 160.0,16.3 160.9,14.4 161.8,12.6 162.6,10.7 163.5,8.8 164.4,6.9 165.2,5.0 166.1,3.1 167.0,1.2 167.9,-0.7 168.8,-2.5 169.6,-4.4 170.5,-6.3 171.4,-8.2 172.2,-10.1 173.1,-12.0 174.0,-13.9 174.9,-15.8 175.8,-17.6 176.6,-19.5 177.5,-21.4 178.4,-23.3 179.2,-25.2 180.1,-27.1 181.0,-29.0 181.9,-30.9 182.8,-32.8 183.6,-34.6 184.5,-36.5 185.4,-38.4 186.2,-40.3 187.1,-42.2 188.0,-44.1 188.9,-46.0 189.8,-47.9 190.6,-49.7 191.5,-51.6 192.4,-53.5 193.2,-55.4 194.1,-57.3 195.0,-59.2 195.9,-61.1 196.8,-63.0 197.6,-64.8 198.5,-66.7 199.4,-68.6 200.2,-70.5 201.1,-72.4 202.0,-74.3 202.9,-76.2 203.8,-78.1 204.6,-80.0 205.5,-81.8 206.4,-83.7 207.2,-85.6 208.1,-87.5 209.0,-89.4 209.9,-91.3 210.8,-93.2 211.6,-95.1 212.5,-96.9 213.4,-98.8 214.2,-100.7 215.1,-102.6 216.0,-104.5 216.9,-106.4 217.8,-108.3 218.6,-110.2 219.5,-112.0 220.4,-113.9 221.2,-115.8 222.1,-117.7 223.0,-119.6 223.9,-121.5 224.8,-123.4 225.6,-125.3 226.5,-127.2 227.4,-129.0 228.2,-130.9 229.1,-132.8 230.0,-134.7 230.9,-136.6 231.8,-138.5 232.6,-140.4 233.5,-142.3 234.4,-144.1 235.2,-146.0 236.1,-147.9 237.0,-149.8 237.9,-151.7 238.8,-153.6 239.6,-155.5 240.5,-157.4 241.4,-159.2 242.3,-161.1 243.1,-163.0 244.0,-164.9 244.9,-166.8 245.7,-168.7 246.6,-170.6 247.5,-172.5 248.4,-174.4 249.2,-176.2 250.1,-178.1 251.0,-180.0 251.9,-181.9 252.8,-183.8 253.6,-185.7 254.5,-187.6 255.4,-189.5 256.2,-191.3 257.1,-193.2 258.0,-195.1 258.9,-197.0 259.8,-198.9 260.6,-200.8 261.5,-202.7 262.4,-204.6 263.2,-206.4 264.1,-208.3 265.0,-210.2 265.9,-212.1 266.8,-214.0 267.6,-214.0 268.5,-214.0 269.4,-214.0 270.2,-214.0 271.1,-214.0 272.0,-214.0 272.9,-214.0 273.8,-214.0 274.6,-214.0 275.5,-214.0 276.4,-214.0 277.2,-214.0 278.1,-214.0 279.0,-214.0 279.9,-214.0 280.8,-214.0 281.6,-214.0 282.5,-214.0 283.4,-214.0 284.2,-214.0 285.1,-214.0 286.0,-214.0 286.9,-214.0 287.8,-214.0 288.6,-214.0 289.5,-214.0 290.4,-214.0 291.2,-214.0 292.1,-214.0 293.0,-214.0 293.9,-214.0 294.8,-214.0 295.6,-214.0 296.5,-214.0 297.4,-214.0 298.2,-214.0 299.1,-214.0 300.0,-214.0 300.9,-214.0 301.8,-214.0 302.6,-214.0 303.5,-214.0 304.4,-214.0 305.2,-214.0 306.1,-214.0 307.0,-214.0 307.9,-214.0 308.8,-214.0 309.6,-214.0 310.5,-214.0 311.4,-214.0 312.2,-214.0 313.1,-214.0 314.0,-214.0 314.9,-214.0 315.8,-214.0 316.6,-214.0 317.5,-214.0 318.4,-214.0 319.2,-214.0 320.1,-214.0 321.0,-214.0 321.9,-214.0 322.8,-214.0 323.6,-214.0 324.5,-214.0 325.4,-214.0 326.2,-214.0 327.1,-214.0 328.0,-214.0 328.9,-214.0 329.8,-214.0 330.6,-214.0 331.5,-214.0 332.4,-214.0 333.2,-214.0 334.1,-214.0 335.0,-214.0 335.9,-214.0 336.8,-214.0 337.6,-214.0 338.5,-214.0 339.4,-214.0 340.2,-214.0 341.1,-214.0 342.0,-214.0 342.9,-214.0 343.8,-214.0 344.6,-214.0 345.5,-214.0 346.4,-214.0 347.2,-214.0 348.1,-214.0 349.0,-214.0 349.9,-214.0 350.8,-214.0 351.6,-214.0 352.5,-214.0 353.4,-214.0 354.2,-214.0 355.1,-214.0 356.0,-214.0 356.9,-214.0 357.8,-214.0 358.6,-214.0 359.5,-214.0 360.4,-214.0 361.2,-214.0 362.1,-214.0 363.0,-214.0 363.9,-214.0 364.8,-214.0 365.6,-214.0 366.5,-214.0 367.4,-214.0 368.2,-214.0 369.1,-214.0 370.0,-214.0 370.9,-214.0 371.8,-214.0 372.6,-214.0 373.5,-214.0 374.4,-214.0 375.2,-214.0 376.1,-214.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><text x=\"52.4\" y=\"48.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#d9622b\">tangent</text><polyline clip-path=\"url(#kfd0d4cf8)\" points=\"48.0,69.2 48.9,69.2 49.8,69.2 50.6,69.2 51.5,69.2 52.4,69.2 53.2,69.2 54.1,69.2 55.0,69.2 55.9,69.2 56.8,69.2 57.6,69.2 58.5,69.2 59.4,69.2 60.2,69.2 61.1,69.2 62.0,69.2 62.9,69.2 63.8,69.2 64.6,69.2 65.5,69.2 66.4,69.2 67.2,69.2 68.1,69.2 69.0,69.2 69.9,69.2 70.8,69.2 71.6,69.2 72.5,69.2 73.4,69.2 74.2,69.2 75.1,69.2 76.0,69.2 76.9,69.2 77.8,69.2 78.6,69.2 79.5,69.2 80.4,69.2 81.2,69.2 82.1,69.2 83.0,69.2 83.9,69.2 84.8,69.2 85.6,69.2 86.5,69.2 87.4,69.2 88.2,69.2 89.1,69.2 90.0,69.2 90.9,69.2 91.8,69.2 92.6,69.2 93.5,69.2 94.4,69.2 95.2,69.2 96.1,69.2 97.0,69.2 97.9,69.2 98.8,69.2 99.6,69.2 100.5,69.2 101.4,69.2 102.2,69.2 103.1,69.2 104.0,69.2 104.9,69.2 105.8,69.2 106.6,69.2 107.5,69.2 108.4,69.2 109.2,69.2 110.1,69.2 111.0,69.2 111.9,69.2 112.8,69.2 113.6,69.2 114.5,69.2 115.4,69.2 116.2,69.2 117.1,69.2 118.0,69.2 118.9,69.2 119.8,69.2 120.6,69.2 121.5,69.2 122.4,69.2 123.2,69.2 124.1,69.2 125.0,69.2 125.9,69.2 126.8,69.2 127.6,69.2 128.5,69.2 129.4,69.2 130.2,69.2 131.1,69.2 132.0,69.2 132.9,69.2 133.8,69.2 134.6,69.2 135.5,69.2 136.4,69.2 137.2,69.2 138.1,69.2 139.0,69.2 139.9,69.2 140.8,69.2 141.6,69.2 142.5,69.2 143.4,69.2 144.2,69.2 145.1,69.2 146.0,69.2 146.9,69.2 147.8,69.2 148.6,69.2 149.5,69.2 150.4,69.2 151.2,69.2 152.1,69.2 153.0,69.2 153.9,69.2 154.8,69.2 155.6,69.2 156.5,69.2 157.4,69.2 158.2,69.2 159.1,69.2 160.0,69.2 160.9,69.2 161.8,69.2 162.6,69.2 163.5,69.2 164.4,69.2 165.2,69.2 166.1,69.2 167.0,69.2 167.9,69.2 168.8,69.2 169.6,69.2 170.5,69.2 171.4,69.2 172.2,69.2 173.1,69.2 174.0,69.2 174.9,69.2 175.8,69.2 176.6,69.2 177.5,69.2 178.4,69.2 179.2,69.2 180.1,69.2 181.0,69.2 181.9,69.2 182.8,69.2 183.6,69.2 184.5,69.2 185.4,69.2 186.2,69.2 187.1,69.2 188.0,69.2 188.9,69.2 189.8,69.2 190.6,69.2 191.5,69.2 192.4,69.2 193.2,69.2 194.1,69.2 195.0,69.2 195.9,69.2 196.8,69.2 197.6,69.2 198.5,69.2 199.4,69.2 200.2,69.2 201.1,69.2 202.0,69.2 202.9,69.2 203.8,69.2 204.6,69.2 205.5,69.2 206.4,69.2 207.2,69.2 208.1,69.2 209.0,69.2 209.9,69.2 210.8,69.2 211.6,69.2 212.5,69.2 213.4,69.2 214.2,69.2 215.1,69.2 216.0,69.2 216.9,69.2 217.8,69.2 218.6,69.2 219.5,69.2 220.4,69.2 221.2,69.2 222.1,69.2 223.0,69.2 223.9,69.2 224.8,69.2 225.6,69.2 226.5,69.2 227.4,69.2 228.2,69.2 229.1,69.2 230.0,69.2 230.9,69.2 231.8,69.2 232.6,69.2 233.5,69.2 234.4,69.2 235.2,69.2 236.1,69.2 237.0,69.2 237.9,69.2 238.8,69.2 239.6,69.2 240.5,69.2 241.4,69.2 242.3,69.2 243.1,69.2 244.0,69.2 244.9,69.2 245.7,69.2 246.6,69.2 247.5,69.2 248.4,69.2 249.2,69.2 250.1,69.2 251.0,69.2 251.9,69.2 252.8,69.2 253.6,69.2 254.5,69.2 255.4,69.2 256.2,69.2 257.1,69.2 258.0,69.2 258.9,69.2 259.8,69.2 260.6,69.2 261.5,69.2 262.4,69.2 263.2,69.2 264.1,69.2 265.0,69.2 265.9,69.2 266.8,69.2 267.6,69.2 268.5,69.2 269.4,69.2 270.2,69.2 271.1,69.2 272.0,69.2 272.9,69.2 273.8,69.2 274.6,69.2 275.5,69.2 276.4,69.2 277.2,69.2 278.1,69.2 279.0,69.2 279.9,69.2 280.8,69.2 281.6,69.2 282.5,69.2 283.4,69.2 284.2,69.2 285.1,69.2 286.0,69.2 286.9,69.2 287.8,69.2 288.6,69.2 289.5,69.2 290.4,69.2 291.2,69.2 292.1,69.2 293.0,69.2 293.9,69.2 294.8,69.2 295.6,69.2 296.5,69.2 297.4,69.2 298.2,69.2 299.1,69.2 300.0,69.2 300.9,69.2 301.8,69.2 302.6,69.2 303.5,69.2 304.4,69.2 305.2,69.2 306.1,69.2 307.0,69.2 307.9,69.2 308.8,69.2 309.6,69.2 310.5,69.2 311.4,69.2 312.2,69.2 313.1,69.2 314.0,69.2 314.9,69.2 315.8,69.2 316.6,69.2 317.5,69.2 318.4,69.2 319.2,69.2 320.1,69.2 321.0,69.2 321.9,69.2 322.8,69.2 323.6,69.2 324.5,69.2 325.4,69.2 326.2,69.2 327.1,69.2 328.0,69.2 328.9,69.2 329.8,69.2 330.6,69.2 331.5,69.2 332.4,69.2 333.2,69.2 334.1,69.2 335.0,69.2 335.9,69.2 336.8,69.2 337.6,69.2 338.5,69.2 339.4,69.2 340.2,69.2 341.1,69.2 342.0,69.2 342.9,69.2 343.8,69.2 344.6,69.2 345.5,69.2 346.4,69.2 347.2,69.2 348.1,69.2 349.0,69.2 349.9,69.2 350.8,69.2 351.6,69.2 352.5,69.2 353.4,69.2 354.2,69.2 355.1,69.2 356.0,69.2 356.9,69.2 357.8,69.2 358.6,69.2 359.5,69.2 360.4,69.2 361.2,69.2 362.1,69.2 363.0,69.2 363.9,69.2 364.8,69.2 365.6,69.2 366.5,69.2 367.4,69.2 368.2,69.2 369.1,69.2 370.0,69.2 370.9,69.2 371.8,69.2 372.6,69.2 373.5,69.2 374.4,69.2 375.2,69.2 376.1,69.2 377.0,69.2 377.9,69.2 378.8,69.2 379.6,69.2 380.5,69.2 381.4,69.2 382.2,69.2 383.1,69.2 384.0,69.2 384.9,69.2 385.8,69.2 386.6,69.2 387.5,69.2 388.4,69.2 389.2,69.2 390.1,69.2 391.0,69.2 391.9,69.2 392.8,69.2 393.6,69.2 394.5,69.2 395.4,69.2 396.2,69.2 397.1,69.2 398.0,69.2\" fill=\"none\" stroke=\"#2e9b6f\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><circle cx=\"91.8\" cy=\"163.6\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Tangentens lutning är 2, så \\(y^{\\prime}(0)=2\\). Med \\(y(0)=0\\) ger ekvationen \\(2=a\\cdot0+b\\), alltså \\(b=2\\).</p><p>Jämviktsnivån \\(y=4\\) har \\(y^{\\prime}=0\\): \\(0=4a+2\\), så \\(a=-0{,}5\\). Ekvationen är \\(y^{\\prime}=-0{,}5y+2\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs tangentens lutning vid origo</p>\\[y^{\\prime}(0)=\\frac{2-0}{1-0}=2\\]</li><li><p class=\"facit-rubrik\">Använd y(0)=0 för att bestämma b</p>\\[2=a\\cdot0+b\\quad\\Rightarrow\\quad b=2\\]</li><li><p class=\"facit-rubrik\">Använd jämviktsnivån för att bestämma a</p>\\[0=4a+2\\]\\[a=-\\frac24=-0{,}5\\]</li><li><p class=\"facit-rubrik\">Kontrollera riktningen mot jämvikten</p><p>y′=−0,5y+2 är positivt under y=4 och noll vid y=4. Det stämmer med den växande kurvan som planar ut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-0{,}5\\) och \\(b=2\\).</p></div>",
   "familj": "Jämviktslösningar, ansatser och grafer",
   "formaga": [
     "problemlösning",
@@ -52720,9 +52689,9 @@ window.BANKMATF1 = [
     true,
     true
   ],
-  "traningsniva": 4,
+  "traningsniva": 3,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Använd två saker: lutningen i origo och nivån där y′ = 0.</p>",
+  "ledtrad": "<p>Tangenten ger derivatan i origo. Jämviktsnivån ger ett annat villkor där derivatan är noll.</p>",
   "svarstyp": "flera_delar",
   "rättSvar": [
     -0.5,
@@ -54053,7 +54022,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "k ur given lösning",
   "t": "<p>Funktionen \\(y=4e^{0{,}3x}\\) är en lösning till \\(y'=ky\\). Vilket värde har \\(k\\)?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera lösningen</p><div class=\"facit-matte\">\\[y'=4\\cdot0{,}3e^{0{,}3x}=0{,}3\\cdot4e^{0{,}3x}=0{,}3y\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=0{,}3\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera exponentialfunktionen</p>\\[y^{\\prime}=4\\cdot0{,}3e^{0{,}3x}\\]</li><li><p class=\"facit-rubrik\">Jämför med ky</p>\\[y^{\\prime}=0{,}3(4e^{0{,}3x})=0{,}3y\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=0{,}3\\).</p></div>",
   "familj": "Tolka y' = ky i grafer och sammanhang",
   "formaga": [
     "begrepp"
@@ -54064,7 +54033,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Lösningarna till y′ = ky har formen Ce^(kx). Vilket tal står framför x i exponenten?</p>",
+  "ledtrad": "<p>Jämför derivatan med hela den givna funktionen. Vilken faktor skiljer dem åt?</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 0.3,
   "tolerans": 0,
@@ -54195,7 +54164,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "andel kvar av läkemedel",
   "t": "<p>Mängden läkemedel \\(y\\) mg i blodet minskar enligt \\(y'=-0{,}25y\\), där \\(t\\) är tiden i timmar. Hur många procent av läkemedlet finns kvar efter 2 timmar? (Svara med en decimal.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lösningen är en exponentialfunktion</p><div class=\"facit-matte\">\\[y=y_0e^{-0{,}25t}\\]</div></li><li><p class=\"facit-rubrik\">Andelen kvar efter 2 h</p><div class=\"facit-matte\">\\[\\frac{y(2)}{y_0}=e^{-0{,}5}\\approx0{,}6065=60{,}65\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60,7 %</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv mängden som funktion av tiden</p>\\[y=y_0e^{-0{,}25t}\\]</li><li><p class=\"facit-rubrik\">Beräkna andelen efter två timmar</p>\\[\\frac{y(2)}{y_0}=e^{-0{,}5}\\approx0{,}606531\\]</li><li><p class=\"facit-rubrik\">Omvandla andelen till procent</p>\\[100e^{-0{,}5}\\approx60{,}6531\\ \\%\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 60,7 %. </p></div>",
   "familj": "Tolka y' = ky i grafer och sammanhang",
   "formaga": [
     "procedur",
@@ -54207,9 +54176,9 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Skriv lösningen som y₀e^(−0,25t) och jämför y(2) med y₀.</p>",
+  "ledtrad": "<p>Använd den exponentiella minskningen och jämför mängden efter två timmar med startmängden.</p>",
   "svarstyp": "numeriskt",
-  "rättSvar": 60.7,
+  "rättSvar": 60.653065971263345,
   "tolerans": 0.05,
   "svarFormat": "numeriskt",
   "svarEnhet": "%"
@@ -54272,7 +54241,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "villkor i annan punkt än x = 0",
   "t": "<p>Lös \\(y'=0{,}5y\\) med \\(y(2)=10\\) och bestäm \\(y(0)\\). (Svara med två decimaler.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Allmän lösning</p><div class=\"facit-matte\">\\[y=Ce^{0{,}5x}\\]</div></li><li><p class=\"facit-rubrik\">Använd villkoret</p><div class=\"facit-matte\">\\[10=Ce^{1}\\ \\Rightarrow\\ C=\\frac{10}{e}\\]</div></li><li><p class=\"facit-rubrik\">Bestäm y(0)</p><div class=\"facit-matte\">\\[y(0)=C=\\frac{10}{e}\\approx3{,}68\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,68</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv lösningsfamiljen för y′=0,5y</p>\\[y=Ce^{0{,}5x}\\]</li><li><p class=\"facit-rubrik\">Använd funktionsvärdet vid x=2</p>\\[10=Ce^{0{,}5\\cdot2}=Ce\\]\\[C=10/e\\]</li><li><p class=\"facit-rubrik\">Beräkna y(0)</p>\\[y(0)=Ce^0=C\\]\\[=10/e\\approx3{,}67879\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y(0)\\approx3{,}68\\).</p></div>",
   "familj": "Lösa y' = ky och begynnelsevärdesproblem",
   "formaga": [
     "procedur"
@@ -54283,9 +54252,9 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Sätt in x = 2 i Ce^(0,5x) för att bestämma C.</p>",
+  "ledtrad": "<p>Använd punkten vid x=2 för att bestämma faktorn framför exponentialfunktionen.</p>",
   "svarstyp": "numeriskt",
-  "rättSvar": 3.68,
+  "rättSvar": 3.6787944117144233,
   "tolerans": 0.005,
   "svarFormat": "numeriskt"
 },
@@ -54297,7 +54266,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "halveringstid ur y′ = −ky",
   "t": "<p>Ett radioaktivt ämne sönderfaller enligt \\(y'=-0{,}1y\\), där \\(t\\) är tiden i dygn. Hur lång tid tar det tills hälften av ämnet finns kvar? (Svara i dygn med en decimal.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ställ upp villkoret</p><div class=\"facit-matte\">\\[y_0e^{-0{,}1t}=0{,}5y_0\\ \\Rightarrow\\ e^{-0{,}1t}=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Lös med logaritm</p><div class=\"facit-matte\">\\[t=\\frac{\\ln0{,}5}{-0{,}1}=\\frac{\\ln2}{0{,}1}\\approx6{,}9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,9 dygn</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv lösningen och halveringsvillkoret</p>\\[y=y_0e^{-0{,}1t}\\]\\[\\frac{y_0}{2}=y_0e^{-0{,}1t}\\]</li><li><p class=\"facit-rubrik\">Förkorta startmängden och logaritmera</p>\\[\\frac12=e^{-0{,}1t}\\]\\[-\\ln2=-0{,}1t\\]</li><li><p class=\"facit-rubrik\">Beräkna halveringstiden</p>\\[t=\\frac{\\ln2}{0{,}1}\\approx6{,}93147\\text{ dygn}\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 6,9 dygn.</p></div>",
   "familj": "Lösa y' = ky och begynnelsevärdesproblem",
   "formaga": [
     "procedur",
@@ -54309,9 +54278,9 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Sätt y₀e^(−0,1t) lika med hälften av y₀.</p>",
+  "ledtrad": "<p>Jämför mängden vid tiden t med startmängden. Vid halvering är kvoten en halv.</p>",
   "svarstyp": "numeriskt",
-  "rättSvar": 6.9,
+  "rättSvar": 6.931471805599452,
   "tolerans": 0.05,
   "svarFormat": "numeriskt",
   "svarEnhet": "dygn"
@@ -54513,7 +54482,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "start i jämviktsläget",
   "t": "<p>Lös \\(y'+2y=10\\) med \\(y(0)=5\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Allmän lösning</p><div class=\"facit-matte\">\\[y=Ce^{-2x}+5\\]</div></li><li><p class=\"facit-rubrik\">Villkoret</p><div class=\"facit-matte\">\\[5=C+5\\ \\Rightarrow\\ C=0\\]</div></li><li><p class=\"facit-rubrik\">Tolka</p><p>Lösningen startar i jämviktsläget och stannar där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=5\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva en konstant lösning med startvärdet</p><p>För y=5 är y′=0.</p>\\[y^{\\prime}+2y=0+2\\cdot5=10\\]</li><li><p class=\"facit-rubrik\">Kontrollera startvillkoret</p><p>Funktionen är 5 även vid x=0. Båda kraven uppfylls: lösningen startar i jämviktsläget och stannar där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=5\\).</p></div>",
   "familj": "Jämviktslösningar, ansatser och grafer",
   "formaga": [
     "begrepp",
@@ -54525,7 +54494,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Bestäm den konstanta lösningen först. Var börjar lösningen?</p>",
+  "ledtrad": "<p>Kan startvärdet också vara en konstant lösning till ekvationen?</p>",
   "svarstyp": "ekvation",
   "rättSvar": "y=5",
   "tolerans": null,
@@ -54539,7 +54508,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "begynnelsevärdesproblem som startar i noll",
   "t": "<p>Lös \\(y'=4-y\\) med \\(y(0)=0\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Allmän lösning</p><p>Skriv \\(y'+y=4\\). Den homogena delen är \\(Ce^{-x}\\) och den konstanta lösningen är \\(4\\).</p><div class=\"facit-matte\">\\[y=Ce^{-x}+4\\]</div></li><li><p class=\"facit-rubrik\">Villkoret</p><div class=\"facit-matte\">\\[0=C+4\\ \\Rightarrow\\ C=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=4-4e^{-x}\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hitta jämvikten och lösningsfamiljen</p>\\[0=4-A\\quad\\Rightarrow\\quad A=4\\]\\[y=4+Ce^{-x}\\]</li><li><p class=\"facit-rubrik\">Använd att kurvan börjar i origo</p>\\[0=4+C\\quad\\Rightarrow\\quad C=-4\\]</li><li><p class=\"facit-rubrik\">Kontrollera startvärdet</p>\\[y(0)=4-4=0\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=4-4e^{-x}\\).</p></div>",
   "familj": "Lösa inhomogena ekvationer av första ordningen",
   "formaga": [
     "procedur"
@@ -54550,7 +54519,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Bestäm den konstanta lösningen och lägg till Ce^(−x).</p>",
+  "ledtrad": "<p>Bestäm först jämvikten. Startvärdet visar hur stor avvikelsen från jämvikten är.</p>",
   "svarstyp": "ekvation",
   "rättSvar": "y=4-4*e^(-x)",
   "tolerans": null,
@@ -54704,7 +54673,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "funktionsvärde ur lösning",
   "t": "<p>Lös \\(y'+2y=6\\) med \\(y(0)=0\\) och bestäm \\(y(1)\\). (Svara med två decimaler.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Allmän lösning</p><div class=\"facit-matte\">\\[y=Ce^{-2x}+3\\]</div></li><li><p class=\"facit-rubrik\">Villkoret</p><div class=\"facit-matte\">\\[0=C+3\\ \\Rightarrow\\ C=-3\\]</div></li><li><p class=\"facit-rubrik\">Beräkna y(1)</p><div class=\"facit-matte\">\\[y(1)=3-3e^{-2}\\approx2{,}59\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,59</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös y′+2y=6 utan startvillkor</p><p>Den konstanta delen uppfyller 2A=6 och är 3. Den homogena delen är Ce⁻²ˣ.</p>\\[y=3+Ce^{-2x}\\]</li><li><p class=\"facit-rubrik\">Använd att y(0)=0</p>\\[0=3+C\\quad\\Rightarrow\\quad C=-3\\]</li><li><p class=\"facit-rubrik\">Beräkna y(1)</p>\\[y(1)=3-3e^{-2}\\approx2{,}593994\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y(1)\\approx2{,}59\\).</p></div>",
   "familj": "Lösa inhomogena ekvationer av första ordningen",
   "formaga": [
     "procedur"
@@ -54715,9 +54684,9 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Bestäm C med villkoret och sätt sedan in x = 1.</p>",
+  "ledtrad": "<p>Bestäm först den konstanta lösningen. Startvillkoret bestämmer exponentialdelen innan du sätter in x=1.</p>",
   "svarstyp": "numeriskt",
-  "rättSvar": 2.59,
+  "rättSvar": 2.593994150290162,
   "tolerans": 0.005,
   "svarFormat": "numeriskt"
 },

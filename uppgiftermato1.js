@@ -116955,6 +116955,282 @@ window.BANKMATO1 = [
     "x",
     "y"
   ]
+},
+{
+  "id": "1.971",
+  "kap": 1,
+  "omr": "rationella_uttryck",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "när uttrycket är noll och när det inte är definierat",
+  "t": "<p>Uttrycket är \\(\\dfrac{x-3}{x^2-4}\\).</p><p>a) För vilket \\(x\\) är uttrycket lika med 0?<br>b) För vilka \\(x\\) är uttrycket inte definierat?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Ett bråk är 0 när täljaren är 0 och nämnaren inte är 0</p><div class=\"facit-matte\">\\[x-3=0\\quad\\Rightarrow\\quad x=3\\]</div><p>Nämnaren är \\(9-4=5\\) när \\(x=3\\), så uttrycket är definierat där.</p></li><li><p class=\"facit-rubrik\">b) Uttrycket är inte definierat där nämnaren är 0</p><div class=\"facit-matte\">\\[x^2-4=0\\quad\\Rightarrow\\quad x=\\pm2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(x=3\\) b) \\(x=-2\\) och \\(x=2\\)</p></div>",
+  "familj": "Definitionsmängd för rationella uttryck",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vad måste vara noll för att hela bråket ska bli noll? Vad får aldrig vara noll?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    3,
+    [
+      -2,
+      2
+    ]
+  ],
+  "tolerans": null,
+  "svarFormat": [
+    "numeriskt",
+    [
+      "numeriskt",
+      "numeriskt"
+    ]
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a) uttrycket är 0",
+    "b) inte definierat"
+  ]
+},
+{
+  "id": "1.972",
+  "kap": 1,
+  "omr": "rationella_uttryck",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "konstant i nämnaren ur ett förbjudet värde",
+  "t": "<p>Uttrycket \\(\\dfrac{x+5}{x^2+4x+c}\\) är inte definierat när \\(x=2\\). Bestäm \\(c\\) och det andra x-värde där uttrycket inte är definierat.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nämnaren är 0 när x = 2</p><div class=\"facit-matte\">\\[2^2+4\\cdot2+c=0\\quad\\Rightarrow\\quad c=-12\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren</p><p>En faktor är \\(x-2\\), eftersom nämnaren är 0 när \\(x=2\\).</p><div class=\"facit-matte\">\\[x^2+4x-12=(x-2)(x+6)\\]</div></li><li><p class=\"facit-rubrik\">Den andra faktorn ger det andra förbjudna värdet</p><div class=\"facit-matte\">\\[x+6=0\\quad\\Rightarrow\\quad x=-6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c=-12\\), och uttrycket är inte heller definierat när \\(x=-6\\).</p></div>",
+  "familj": "Definitionsmängd för rationella uttryck",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Sätt in \\(x=2\\) i nämnaren. Den ska bli 0. Lös sedan andragradsekvationen nämnare = 0.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -12,
+    -6
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "c",
+    "andra x-värdet"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "1.973",
+  "kap": 1,
+  "omr": "rationella_uttryck",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "medelkostnad per produkt",
+  "t": "<p>Att starta en tillverkning kostar 5 000 kr, och varje produkt kostar sedan 40 kr att tillverka. Medelkostnaden per produkt i kronor är</p><p>\\[M(x)=\\frac{5\\,000+40x}{x},\\]</p><p>där \\(x\\) är antalet produkter. Hur många produkter måste tillverkas för att medelkostnaden ska bli 65 kr?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt medelkostnaden lika med 65</p><div class=\"facit-matte\">\\[\\frac{5\\,000+40x}{x}=65\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med x, som är positivt</p><div class=\"facit-matte\">\\[\\begin{gathered}5\\,000+40x=65x\\quad \\Rightarrow 5\\,000=25x\\\\\\Rightarrow x=200\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[M(200)=\\frac{5\\,000+8\\,000}{200}=65\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 200 produkter.</p></div>",
+  "familj": "Räkna med rationella uttryck",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Ställ upp ekvationen \\(M(x)=65\\) och multiplicera bort nämnaren.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 200,
+  "tolerans": 0,
+  "svarEnhet": "produkter"
+},
+{
+  "id": "1.974",
+  "kap": 1,
+  "omr": "rationella_uttryck",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "när ett uttryck är definierat för alla reella x",
+  "t": "<p>Uttrycket \\(\\dfrac{x^2+1}{x^2+a}\\) ska vara definierat för alla reella tal \\(x\\). Vilket påstående stämmer? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uttrycket är definierat om nämnaren aldrig är 0</p><div class=\"facit-matte\">\\[x^2+a\\ne0\\ \\text{för alla } x\\]</div></li><li><p class=\"facit-rubrik\">\\(x^2\\) är aldrig negativt</p><p>Om \\(a\\gt0\\) är \\(x^2+a\\ge a\\gt0\\), och nämnaren är aldrig 0.</p></li><li><p class=\"facit-rubrik\">Om \\(a\\le0\\) finns ett nollställe</p><p>\\(a=0\\) ger nämnaren 0 när \\(x=0\\). Om \\(a\\lt0\\) är nämnaren 0 när \\(x=\\pm\\sqrt{-a}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a\\) måste vara större än 0.</p></div>",
+  "familj": "Definitionsmängd för rationella uttryck",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>När kan \\(x^2+a\\) bli 0? Tänk på att \\(x^2\\) aldrig är negativt.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Det gäller för alla a utom a = 0",
+      "ratt": false,
+      "kommentar": "Med a = −4 är nämnaren 0 när x = ±2."
+    },
+    {
+      "txt": "a måste vara större än eller lika med 0",
+      "ratt": false,
+      "kommentar": "Med a = 0 är nämnaren 0 när x = 0."
+    },
+    {
+      "txt": "a måste vara större än 0",
+      "ratt": true
+    },
+    {
+      "txt": "Det gäller för alla värden på a",
+      "ratt": false,
+      "kommentar": "Med a = −1 är nämnaren 0 när x = ±1."
+    }
+  ]
+},
+{
+  "id": "1.975",
+  "kap": 1,
+  "omr": "rationella_uttryck",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "förbjudna värden i en summa av bråk",
+  "t": "<p>För vilka \\(x\\) är uttrycket \\(\\dfrac{1}{x-1}+\\dfrac{2}{x^2-4x}\\) inte definierat?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hela uttrycket är odefinierat om någon av nämnarna är 0</p><p>Varje nämnare undersöks för sig.</p></li><li><p class=\"facit-rubrik\">Den första nämnaren</p><div class=\"facit-matte\">\\[x-1=0\\quad\\Rightarrow\\quad x=1\\]</div></li><li><p class=\"facit-rubrik\">Den andra nämnaren faktoriseras</p><div class=\"facit-matte\">\\[\\begin{gathered}x^2-4x=x(x-4)=0\\\\\\Rightarrow x=0\\ \\text{eller}\\ x=4\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\), \\(x=1\\) och \\(x=4\\)</p></div>",
+  "familj": "Definitionsmängd för rationella uttryck",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Undersök varje nämnare för sig. Bryt ut x i den andra nämnaren.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0,
+    1,
+    4
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x",
+    "x",
+    "x"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "1.976",
+  "kap": 1,
+  "omr": "rationella_uttryck",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "välja uttryck utifrån definitionsmängden",
+  "t": "<p>Vilket av uttrycken är definierat för alla reella \\(x\\) utom \\(x=0\\) och \\(x=3\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De förbjudna värdena är nollställena till nämnaren</p><p>Nämnaren ska alltså vara 0 precis när \\(x=0\\) och när \\(x=3\\).</p></li><li><p class=\"facit-rubrik\">Faktorisera nämnarna</p><div class=\"facit-matte\">\\[\\begin{gathered}x^2-3x=x(x-3),\\\\x^2+3x=x(x+3),\\\\x^2-9=(x-3)(x+3)\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Bara \\(x^2-3x\\) har nollställena 0 och 3</p><p>Täljaren påverkar inte var uttrycket är definierat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+3}{x^2-3x}\\)</p></div>",
+  "familj": "Definitionsmängd för rationella uttryck",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Faktorisera nämnarna. Vilken nämnare blir 0 precis när \\(x=0\\) och när \\(x=3\\)?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "(x − 3)/(x² + 3x)",
+      "ratt": false,
+      "kommentar": "Nämnaren x(x + 3) är 0 när x = 0 och x = −3."
+    },
+    {
+      "txt": "x/(x² − 9)",
+      "ratt": false,
+      "kommentar": "Nämnaren är 0 när x = 3 och x = −3, inte när x = 0."
+    },
+    {
+      "txt": "(x + 3)/(x² − 3x)",
+      "ratt": true
+    },
+    {
+      "txt": "(x² − 3x)/(x + 1)",
+      "ratt": false,
+      "kommentar": "Här står x² − 3x i täljaren. Uttrycket är bara odefinierat när x = −1."
+    }
+  ]
 }
 
 ];

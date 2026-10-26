@@ -6941,7 +6941,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en allmän term och bestäm vilket index som gör den sammanlagda exponenten av (x) lika med 0.</p>",
+    "ledtrad": "<p>Skriv en allmän term och bestäm vilket index som gör den sammanlagda exponenten av \\(x\\) lika med 0.</p>",
     "traningsniva": 4
   },
   {
@@ -7182,7 +7182,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv den allmänna termen och lös först vilket index som ger rätt exponent på (x).</p>",
+    "ledtrad": "<p>Skriv den allmänna termen och lös först vilket index som ger rätt exponent på \\(x\\).</p>",
     "traningsniva": 4
   },
   {
@@ -7240,7 +7240,7 @@ window.BANKMATF1 = [
         "traningsniva": 3
       }
     ],
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 3
   },
   {
@@ -7367,7 +7367,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 2
   },
   {
@@ -7391,7 +7391,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 3
   },
   {
@@ -7415,7 +7415,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 3
   },
   {
@@ -7439,7 +7439,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 3
   },
   {
@@ -7539,7 +7539,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 4
   },
   {
@@ -7563,7 +7563,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 3
   },
   {
@@ -7613,7 +7613,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 2
   },
   {
@@ -7720,7 +7720,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 3
   },
   {
@@ -7770,7 +7770,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 2
   },
   {
@@ -7794,7 +7794,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 2
   },
   {
@@ -7818,7 +7818,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 2
   },
   {
@@ -7842,7 +7842,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 1
   },
   {
@@ -7866,7 +7866,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 3
   },
   {
@@ -7916,7 +7916,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 3
   },
   {
@@ -7968,7 +7968,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt (k) av en viss typ väljs (k) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
     "traningsniva": 4
   },
   {
@@ -8044,7 +8044,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>(aequiv bpmod n) betyder att (n) delar skillnaden (a-b). Bestäm därför de positiva delarna till skillnaden.</p>",
+    "ledtrad": "<p>\\(a\\equiv b\\pmod n\\) betyder att \\(n\\) delar skillnaden \\(a-b\\). Bestäm därför de positiva delarna till skillnaden.</p>",
     "traningsniva": 3,
     "svarFormat": "mängd",
     "svarsstruktur": "mängd",

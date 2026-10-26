@@ -117920,6 +117920,244 @@ window.BANKMATO1 = [
     "°",
     "°"
   ]
+},
+{
+  "id": "4.573",
+  "kap": 4,
+  "omr": "enhetscirkeln",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "komplementvinklar och trigonometriska ettan",
+  "t": "<p>Bestäm det exakta värdet av \\(\\sin^2 37^\\circ+\\sin^2 53^\\circ\\) utan räknare.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">53° och 37° är komplementvinklar</p><p>\\(53^\\circ=90^\\circ-37^\\circ\\), och då gäller</p><div class=\"facit-matte\">\\[\\sin53^\\circ=\\sin(90^\\circ-37^\\circ)=\\cos37^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Skriv om summan med cosinus</p><div class=\"facit-matte\">\\[\\begin{gathered}\\sin^2 37^\\circ+\\sin^2 53^\\circ\\\\=\\sin^2 37^\\circ+\\cos^2 37^\\circ\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Trigonometriska ettan ger värdet</p><div class=\"facit-matte\">\\[\\sin^2 v+\\cos^2 v=1\\]</div><p>Det beror på att punkten \\((\\cos v,\\ \\sin v)\\) ligger på enhetscirkeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+  "familj": "Symmetri och exakta värden i enhetscirkeln",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hur hänger 37° och 53° ihop? Skriv \\(\\sin53^\\circ\\) med hjälp av cosinus.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1,
+  "tolerans": 0
+},
+{
+  "id": "4.574",
+  "kap": 4,
+  "omr": "enhetscirkeln",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "cosinusvärden ur symmetri",
+  "t": "<p>Det gäller att \\(\\cos40^\\circ\\approx0{,}766\\). Bestäm \\(\\cos140^\\circ\\), \\(\\cos220^\\circ\\) och \\(\\cos320^\\circ\\) med hjälp av enhetscirkeln, utan att räkna ut dem direkt. (Svara med tre decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinus är punktens x-koordinat</p><p>Vinklarna 140°, 220° och 320° ligger symmetriskt med 40° i de andra tre kvadranterna.</p></li><li><p class=\"facit-rubrik\">Spegling i y-axeln ger motsatt x-koordinat</p><div class=\"facit-matte\">\\[\\begin{gathered}\\cos140^\\circ =\\cos(180^\\circ-40^\\circ)\\\\=-\\cos40^\\circ \\approx-0{,}766\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Spegling i origo och i x-axeln</p><div class=\"facit-matte\">\\[\\cos220^\\circ=\\cos(180^\\circ+40^\\circ)\\approx-0{,}766\\]</div><div class=\"facit-matte\">\\[\\cos320^\\circ=\\cos(360^\\circ-40^\\circ)\\approx0{,}766\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos140^\\circ\\approx-0{,}766\\), \\(\\cos220^\\circ\\approx-0{,}766\\) och \\(\\cos320^\\circ\\approx0{,}766\\)</p></div>",
+  "familj": "Symmetri och exakta värden i enhetscirkeln",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Rita vinklarna i enhetscirkeln. I vilka kvadranter är x-koordinaten negativ?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -0.766,
+    -0.766,
+    0.766
+  ],
+  "tolerans": [
+    0.0005,
+    0.0005,
+    0.0005
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "cos 140°",
+    "cos 220°",
+    "cos 320°"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.575",
+  "kap": 4,
+  "omr": "enhetscirkeln",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "y-koordinat och vinkel ur x-koordinaten",
+  "t": "<p>Punkten \\(P\\) ligger på enhetscirkeln i fjärde kvadranten och har x-koordinaten 0,28.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"300\" viewBox=\"0 0 380 300\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P i fjärde kvadranten. En streckad linje går lodrätt från P upp till x-axeln, där x-koordinaten 0,28 är markerad.\"><title>Enhetscirkeln med punkten P i fjärde kvadranten. En streckad linje går lodrätt från P upp till x-axeln, där x-koordinaten 0,28 är markerad.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"55\" y1=\"150\" x2=\"325\" y2=\"150\" stroke=\"#243447\" stroke-width=\"1.6\"/><line x1=\"190\" y1=\"280\" x2=\"190\" y2=\"20\" stroke=\"#243447\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"150\" r=\"110\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.4\"/><line x1=\"190.0\" y1=\"150.0\" x2=\"220.8\" y2=\"255.6\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><line x1=\"220.8\" y1=\"255.6\" x2=\"220.8\" y2=\"150.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><circle cx=\"220.8\" cy=\"255.6\" r=\"5\" fill=\"#c2410c\"/><text x=\"234.8\" y=\"267.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">P</text><text x=\"224.8\" y=\"142.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#243447\">0,28</text><text x=\"322.0\" y=\"142.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">x</text><text x=\"198.0\" y=\"32.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text><text x=\"305.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">1</text><text x=\"182.0\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text></svg></span><p>Bestäm punktens y-koordinat och vinkeln \\(v\\), där \\(0^\\circ\\le v\\lt360^\\circ\\). (Svara med två decimaler och vinkeln med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten ligger på enhetscirkeln, så \\(x^2+y^2=1\\)</p><div class=\"facit-matte\">\\[y^2=1-0{,}28^2=1-0{,}0784=0{,}9216\\]</div></li><li><p class=\"facit-rubrik\">I fjärde kvadranten är y negativ</p><div class=\"facit-matte\">\\[y=-\\sqrt{0{,}9216}=-0{,}96\\]</div></li><li><p class=\"facit-rubrik\">Vinkeln ur cos v = 0,28 i fjärde kvadranten</p><div class=\"facit-matte\">\\[\\begin{gathered}\\cos^{-1}0{,}28\\approx73{,}7^\\circ\\\\\\Rightarrow v=360^\\circ-73{,}7^\\circ\\approx286{,}3^\\circ\\end{gathered}\\]</div><p>Räknaren ger vinkeln i första kvadranten. Spegla den i x-axeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-0{,}96\\) och \\(v\\approx286{,}3^\\circ\\)</p></div>",
+  "familj": "Koordinater och vinklar i enhetscirkeln",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Använd att \\(x^2+y^2=1\\) på enhetscirkeln. Vilket tecken har y i fjärde kvadranten? Räknaren ger en vinkel i första kvadranten.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -0.96,
+    286.3
+  ],
+  "tolerans": [
+    0.005,
+    0.05
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "y",
+    "v"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "grader"
+  ]
+},
+{
+  "id": "4.576",
+  "kap": 4,
+  "omr": "enhetscirkeln",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "exakt värde av ett uttryck med flera vinklar",
+  "t": "<p>Bestäm det exakta värdet av \\(\\sin150^\\circ\\cdot\\cos300^\\circ+\\cos135^\\circ\\cdot\\sin45^\\circ\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm varje värde med enhetscirkeln</p><div class=\"facit-matte\">\\[\\sin150^\\circ=\\frac12,\\qquad \\cos300^\\circ=\\frac12\\]</div><div class=\"facit-matte\">\\[\\cos135^\\circ=-\\frac{\\sqrt2}{2},\\qquad \\sin45^\\circ=\\frac{\\sqrt2}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera parvis</p><div class=\"facit-matte\">\\[\\frac12\\cdot\\frac12=\\frac14\\]</div><div class=\"facit-matte\">\\[-\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt2}{2}=-\\frac24=-\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Addera produkterna</p><div class=\"facit-matte\">\\[\\frac14-\\frac12=-\\frac14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac14\\)</p></div>",
+  "familj": "Symmetri och exakta värden i enhetscirkeln",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm varje sinus- och cosinusvärde exakt med enhetscirkeln. Tänk på tecknen i de olika kvadranterna.</p>",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "rättSvar": "-1/4",
+  "tolerans": null
+},
+{
+  "id": "4.577",
+  "kap": 4,
+  "omr": "enhetscirkeln",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "vinkel som uppfyller två villkor",
+  "t": "<p>För vilken vinkel \\(v\\) mellan 0° och 360° gäller både \\(\\sin v=\\sin50^\\circ\\) och \\(\\cos v=-\\cos50^\\circ\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma sinusvärde betyder samma y-koordinat</p><p>Det gäller för \\(v=50^\\circ\\) och för \\(v=180^\\circ-50^\\circ=130^\\circ\\).</p></li><li><p class=\"facit-rubrik\">Motsatt cosinusvärde betyder speglad x-koordinat</p><p>Bland 50° och 130° är det bara 130° som har negativ x-koordinat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=130^\\circ\\)</p></div>",
+  "familj": "Koordinater och vinklar i enhetscirkeln",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Rita 50° i enhetscirkeln. Vilken punkt har samma y-koordinat men motsatt x-koordinat?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "230°",
+      "ratt": false,
+      "kommentar": "Vid 230° är både x- och y-koordinaten negativa, så sin 230° = −sin 50°."
+    },
+    {
+      "txt": "310°",
+      "ratt": false,
+      "kommentar": "Vid 310° är x-koordinaten positiv, så cos 310° = cos 50°."
+    },
+    {
+      "txt": "130°",
+      "ratt": true
+    },
+    {
+      "txt": "40°",
+      "ratt": false,
+      "kommentar": "sin 40° = cos 50°, inte sin 50°. Dessutom är cos 40° positiv."
+    }
+  ]
+},
+{
+  "id": "4.578",
+  "kap": 4,
+  "omr": "enhetscirkeln",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "cosinus ur sinus i tredje kvadranten",
+  "t": "<p>Vinkeln \\(v\\) ligger i tredje kvadranten, och \\(\\sin v=-0{,}4\\). Bestäm \\(\\cos v\\). (Svara med tre decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd trigonometriska ettan</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\sin^2v=1-0{,}16=0{,}84\\]</div></li><li><p class=\"facit-rubrik\">I tredje kvadranten är cosinus negativ</p><div class=\"facit-matte\">\\[\\cos v=-\\sqrt{0{,}84}\\approx-0{,}917\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos v\\approx-0{,}917\\)</p></div>",
+  "familj": "Koordinater och vinklar i enhetscirkeln",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Använd \\(\\sin^2v+\\cos^2v=1\\). Vilket tecken har x-koordinaten i tredje kvadranten?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -0.917,
+  "tolerans": 0.0005
 }
 
 ];

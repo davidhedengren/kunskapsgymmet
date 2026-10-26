@@ -117701,6 +117701,225 @@ window.BANKMATO1 = [
       "kommentar": "På intervallet 0 till 1 är x² mindre än x. x² växer snabbare först när x är större än 1."
     }
   ]
+},
+{
+  "id": "4.567",
+  "kap": 4,
+  "omr": "areasatsen",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "kostnaden för en triangulär gräsmatta",
+  "t": "<p>En triangulär gräsmatta ska anläggas. Två av sidorna är 14 m och 9 m, och vinkeln mellan dem är 110°.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"250\" viewBox=\"0 0 400 250\" role=\"img\" aria-label=\"En triangel med sidorna 14 m och 9 m. Vinkeln mellan dem är 110 grader.\"><title>En triangel med sidorna 14 m och 9 m. Vinkeln mellan dem är 110 grader.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"110.0,210.0 334.0,210.0 60.7,74.7\" fill=\"#eaf5ee\" stroke=\"#2f7d4a\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"222.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\">14 m</text><text x=\"62.8\" y=\"155.6\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\">9 m</text><path d=\"M136.0,210.0 A26,26 0 0 0 101.1,185.6\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"138.7\" y=\"174.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">110°</text></svg></span><p>Färdig gräsmatta kostar 85 kr per m². Vad kostar gräsmattan? (Svara i hela kronor.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean med areasatsen, eftersom två sidor och vinkeln mellan dem är kända</p><div class=\"facit-matte\">\\[A=\\frac12\\cdot14\\cdot9\\cdot\\sin110^\\circ\\approx59{,}20\\ \\text{m}^2\\]</div></li><li><p class=\"facit-rubrik\">Kostnaden är arean gånger priset per kvadratmeter</p><div class=\"facit-matte\">\\[59{,}20\\cdot85\\approx5\\,032\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 5 032 kr.</p></div>",
+  "familj": "Areasatsen",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilken area-formel kan du använda när du känner två sidor och vinkeln mellan dem? Räkna sedan om arean till kronor.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5032,
+  "tolerans": 10,
+  "svarEnhet": "kr"
+},
+{
+  "id": "4.568",
+  "kap": 4,
+  "omr": "areasatsen",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "area av en regelbunden femhörning i en cirkel",
+  "t": "<p>En regelbunden femhörning är inskriven i en cirkel med radien 5 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"En regelbunden femhörning inskriven i en cirkel. Två radier från mittpunkten till två hörn är ritade, och en av dem är märkt 5 cm.\"><title>En regelbunden femhörning inskriven i en cirkel. Två radier från mittpunkten till två hörn är ritade, och en av dem är märkt 5 cm.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"200\" cy=\"140\" r=\"95\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><polygon points=\"200.0,45.0 290.4,110.6 255.8,216.9 144.2,216.9 109.6,110.6\" fill=\"#eef5f9\" stroke=\"#216d87\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><line x1=\"200.0\" y1=\"140.0\" x2=\"200.0\" y2=\"45.0\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><line x1=\"200.0\" y1=\"140.0\" x2=\"290.4\" y2=\"110.6\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"200\" cy=\"140\" r=\"3.5\" fill=\"#243447\"/><text x=\"238.4\" y=\"109.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\">5 cm</text></svg></span><p>Bestäm femhörningens area. (Svara i cm² med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela femhörningen i fem likadana trianglar från mittpunkten</p><p>Varje triangel har två sidor som är radier, 5 cm, och vinkeln mellan dem är</p><div class=\"facit-matte\">\\[\\frac{360^\\circ}{5}=72^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Arean av en triangel med areasatsen</p><div class=\"facit-matte\">\\[\\frac12\\cdot5\\cdot5\\cdot\\sin72^\\circ\\approx11{,}89\\ \\text{cm}^2\\]</div></li><li><p class=\"facit-rubrik\">Fem trianglar ger hela femhörningen</p><div class=\"facit-matte\">\\[A=5\\cdot\\frac12\\cdot25\\cdot\\sin72^\\circ\\approx59{,}4\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 59,4 cm².</p></div>",
+  "familj": "Areasatsen i sammansatta figurer och omvända problem",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Dela femhörningen i trianglar med ett hörn i mittpunkten. Hur stor är vinkeln vid mittpunkten i varje triangel?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 59.4,
+  "tolerans": 0.05,
+  "svarEnhet": "cm²"
+},
+{
+  "id": "4.569",
+  "kap": 4,
+  "omr": "areasatsen",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "parallellogrammens area ur diagonalerna",
+  "t": "<p>Diagonalerna i en parallellogram är 10 cm och 14 cm långa och skär varandra under vinkeln 60°. Diagonalerna halverar varandra.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"260\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"En parallellogram där diagonalerna är ritade streckade. Diagonalerna halverar varandra. Från skärningspunkten är halva den långa diagonalen 7 cm och halva den korta 5 cm. Vinkeln mellan diagonalerna är 60 grader.\"><title>En parallellogram där diagonalerna är ritade streckade. Diagonalerna halverar varandra. Från skärningspunkten är halva den långa diagonalen 7 cm och halva den korta 5 cm. Vinkeln mellan diagonalerna är 60 grader.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"74.0,130.0 155.0,207.9 326.0,130.0 245.0,52.1\" fill=\"#eef5f9\" stroke=\"#216d87\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><line x1=\"74.0\" y1=\"130.0\" x2=\"326.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"245.0\" y1=\"52.1\" x2=\"155.0\" y2=\"207.9\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><path d=\"M222.0,130.0 A22,22 0 0 0 211.0,110.9\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"231.2\" y=\"117.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">60°</text><text x=\"275.6\" y=\"121.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\">7 cm</text><text x=\"155.5\" y=\"173.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\">5 cm</text></svg></span><p>Bestäm parallellogrammens area. (Svara i cm² med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Diagonalerna delar parallellogrammen i fyra trianglar</p><p>Varje triangel har sidorna 5 cm och 7 cm. Två av trianglarna har vinkeln 60° mellan dem och två har vinkeln 120°.</p></li><li><p class=\"facit-rubrik\">sin 60° och sin 120° är lika stora</p><div class=\"facit-matte\">\\[\\sin120^\\circ=\\sin60^\\circ\\]</div><p>Alla fyra trianglarna har därför samma area.</p></li><li><p class=\"facit-rubrik\">Arean av en triangel och hela parallellogrammen</p><div class=\"facit-matte\">\\[\\frac12\\cdot5\\cdot7\\cdot\\sin60^\\circ\\approx15{,}16\\]</div><div class=\"facit-matte\">\\[A=4\\cdot15{,}16\\approx60{,}6\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 60,6 cm².</p></div>",
+  "familj": "Areasatsen i sammansatta figurer och omvända problem",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Diagonalerna delar figuren i fyra trianglar. Vilka sidor och vinklar har trianglarna?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 60.6,
+  "tolerans": 0.05,
+  "svarEnhet": "cm²"
+},
+{
+  "id": "4.570",
+  "kap": 4,
+  "omr": "areasatsen",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "areaförhållande när en sida delas",
+  "t": "<p>Triangeln \\(ABC\\) har arean 24 cm². Punkten \\(D\\) ligger på sidan \\(AB\\) så att \\(AD:DB=1:2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"250\" viewBox=\"0 0 400 250\" role=\"img\" aria-label=\"Triangeln ABC där punkten D ligger på sidan AB. Sträckan CD delar triangeln i en orange triangel ACD och en blå triangel DBC. AD är en tredjedel av AB.\"><title>Triangeln ABC där punkten D ligger på sidan AB. Sträckan CD delar triangeln i en orange triangel ACD och en blå triangel DBC. AD är en tredjedel av AB.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,210.0 153.3,210.0 150.0,50.0\" fill=\"#fdf0e8\" stroke=\"#c2410c\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><polygon points=\"153.3,210.0 340.0,210.0 150.0,50.0\" fill=\"#eef5f9\" stroke=\"#216d87\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"46.2\" y=\"221.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">A</text><text x=\"354.2\" y=\"219.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">B</text><text x=\"145.5\" y=\"40.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">C</text><text x=\"153.3\" y=\"232.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">D</text></svg></span><p>Bestäm arean av triangeln \\(ACD\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv båda areorna med areasatsen och vinkeln A</p><div class=\"facit-matte\">\\[\\begin{gathered}T_{ACD}=\\frac12\\cdot AD\\cdot AC\\cdot\\sin A,\\\\T_{ABC}=\\frac12\\cdot AB\\cdot AC\\cdot\\sin A\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Allt utom en sida är gemensamt</p><div class=\"facit-matte\">\\[\\frac{T_{ACD}}{T_{ABC}}=\\frac{AD}{AB}=\\frac13\\]</div><p>\\(AD:DB=1:2\\) betyder att AD är en tredjedel av AB.</p></li><li><p class=\"facit-rubrik\">Beräkna arean</p><div class=\"facit-matte\">\\[T_{ACD}=\\frac13\\cdot24=8\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 cm²</p></div>",
+  "familj": "Areasatsen i sammansatta figurer och omvända problem",
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv arean av båda trianglarna med vinkeln A. Vad har de gemensamt, och vad skiljer?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 0,
+  "svarEnhet": "cm²"
+},
+{
+  "id": "4.571",
+  "kap": 4,
+  "omr": "areasatsen",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "jämföra areor med areasatsen",
+  "t": "<p>Vilken av trianglarna har störst area? Två sidor och vinkeln mellan dem anges. (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna varje area med \\(\\tfrac12ab\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}\\tfrac12\\cdot6\\cdot8\\cdot\\sin30^\\circ=12\\\\\\tfrac12\\cdot6\\cdot8\\cdot\\sin150^\\circ=12\\\\\\tfrac12\\cdot5\\cdot9\\cdot\\sin90^\\circ=22{,}5\\\\\\tfrac12\\cdot7\\cdot7\\cdot\\sin60^\\circ\\approx21{,}2\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Trianglarna med 30° och 150° är lika stora</p><p>\\(\\sin150^\\circ=\\sin30^\\circ\\), så den trubbiga vinkeln ger inte större area.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Triangeln med sidorna 5 och 9 och vinkeln 90°.</p></div>",
+  "familj": "Areasatsen",
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Beräkna \\(\\tfrac12ab\\sin v\\) för varje triangel. Vad gäller för \\(\\sin150^\\circ\\) jämfört med \\(\\sin30^\\circ\\)?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Sidorna 6 och 8 med vinkeln 150°",
+      "ratt": false,
+      "kommentar": "sin 150° = sin 30° = 0,5, så arean blir bara 12."
+    },
+    {
+      "txt": "Sidorna 7 och 7 med vinkeln 60°",
+      "ratt": false,
+      "kommentar": "Arean är ungefär 21,2. Det är nära, men 22,5 är större."
+    },
+    {
+      "txt": "Sidorna 5 och 9 med vinkeln 90°",
+      "ratt": true
+    },
+    {
+      "txt": "Sidorna 6 och 8 med vinkeln 30°",
+      "ratt": false,
+      "kommentar": "Arean är 12, alltså samma som med vinkeln 150°."
+    }
+  ]
+},
+{
+  "id": "4.572",
+  "kap": 4,
+  "omr": "areasatsen",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "vinklar som ger halva den största arean",
+  "t": "<p>En triangel har två sidor som är 5 cm och 8 cm. Vinkeln \\(v\\) mellan dem kan ändras. För vilka vinklar blir arean hälften av den största möjliga arean? (Svara i grader.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean är störst när sin v = 1, alltså när v = 90°</p><div class=\"facit-matte\">\\[A_{\\max}=\\frac12\\cdot5\\cdot8\\cdot1=20\\ \\text{cm}^2\\]</div></li><li><p class=\"facit-rubrik\">Arean ska vara 10 cm²</p><div class=\"facit-matte\">\\[\\frac12\\cdot5\\cdot8\\cdot\\sin v=10\\quad\\Rightarrow\\quad\\sin v=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Två vinklar mellan 0° och 180° har sinusvärdet 1/2</p><div class=\"facit-matte\">\\[\\begin{gathered}v=30^\\circ\\quad \\text{eller}\\\\v=180^\\circ-30^\\circ=150^\\circ\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=30^\\circ\\) eller \\(v=150^\\circ\\)</p></div>",
+  "familj": "Areasatsen",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>När är \\(\\sin v\\) som störst? Vilket sinusvärde ger hälften så stor area? Glöm inte den trubbiga vinkeln.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    30,
+    150
+  ],
+  "tolerans": [
+    0.5,
+    0.5
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "v",
+    "v"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "°",
+    "°"
+  ]
 }
 
 ];

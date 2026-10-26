@@ -119164,6 +119164,145 @@ window.BANKMATO1 = [
       "kommentar": "Skillnaden i y-led går mot 0. Man måste dividera med h för att få en lutning."
     }
   ]
+},
+{
+  "id": "4.597",
+  "kap": 4,
+  "omr": "trig_tillampningar",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "area av en fyrhörnig tomt",
+  "t": "<p>En tomt har formen av fyrhörningen \\(ABCD\\) i figuren. Vinkeln vid \\(B\\) är rät.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"260\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"En fyrhörnig tomt ABCD. Vinkeln vid B är rät. AB är 30 m, BC 40 m, CD 35 m och DA 25 m. Diagonalen AC är streckad.\"><title>En fyrhörnig tomt ABCD. Vinkeln vid B är rät. AB är 30 m, BC 40 m, CD 35 m och DA 25 m. Diagonalen AC är streckad.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70.0,89.0 70.0,215.0 238.0,215.0 174.8,82.3\" fill=\"#eaf5ee\" stroke=\"#2f7d4a\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><line x1=\"70.0\" y1=\"89.0\" x2=\"238.0\" y2=\"215.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><polyline points=\"70.0,204.0 81.0,204.0 81.0,215.0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"58.8\" y=\"84.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">A</text><text x=\"59.1\" y=\"230.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">B</text><text x=\"250.6\" y=\"228.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">C</text><text x=\"181.9\" y=\"74.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">D</text><text x=\"46.0\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\">30 m</text><text x=\"154.0\" y=\"234.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\">40 m</text><text x=\"228.1\" y=\"143.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\">35 m</text><text x=\"121.5\" y=\"76.7\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\">25 m</text></svg></span><p>Bestäm tomtens area. (Svara i hela m².)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Diagonalen AC delar tomten i två trianglar</p><p>Triangeln \\(ABC\\) är rätvinklig, så Pythagoras sats ger diagonalen.</p><div class=\"facit-matte\">\\[AC=\\sqrt{30^2+40^2}=50\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Arean av den rätvinkliga triangeln</p><div class=\"facit-matte\">\\[T_1=\\frac{30\\cdot40}{2}=600\\ \\text{m}^2\\]</div></li><li><p class=\"facit-rubrik\">Vinkeln D med cosinussatsen i triangeln ACD</p><div class=\"facit-matte\">\\[\\begin{gathered}\\cos D =\\frac{35^2+25^2-50^2}{2\\cdot35\\cdot25} =\\frac{-650}{1\\,750}\\\\\\approx-0{,}371\\\\\\Rightarrow D\\approx111{,}8^\\circ\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Arean av triangeln ACD med areasatsen</p><div class=\"facit-matte\">\\[T_2=\\frac12\\cdot35\\cdot25\\cdot\\sin111{,}8^\\circ\\approx406\\]</div></li><li><p class=\"facit-rubrik\">Tomtens area är summan av de två trianglarna</p><div class=\"facit-matte\">\\[T=600+406=1\\,006\\ \\text{m}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1 006 m².</p></div>",
+  "familj": "Areor i tillämpningar",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Dela tomten med diagonalen AC. Vilken triangel kan du lösa direkt, och vilken behöver cosinussatsen?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1006,
+  "tolerans": 2,
+  "svarEnhet": "m²"
+},
+{
+  "id": "4.598",
+  "kap": 4,
+  "omr": "trig_tillampningar",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "avstånd till en fyr från en båt",
+  "t": "<p>En båt kör rakt fram. Riktningen mot en fyr bildar vinkeln 30° med kursen. När båten har kört 5,0 km är vinkeln 70°.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"240\" viewBox=\"0 0 400 240\" role=\"img\" aria-label=\"En båt kör rakt fram 5,0 km. I det första läget bildar riktningen mot fyren vinkeln 30 grader med kursen. I det andra läget är vinkeln 70 grader.\"><title>En båt kör rakt fram 5,0 km. I det första läget bildar riktningen mot fyren vinkeln 30 grader med kursen. I det andra läget är vinkeln 70 grader.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20.0\" y1=\"200.0\" x2=\"40.0\" y2=\"200.0\" stroke=\"#243447\" stroke-width=\"2\"/><line x1=\"40.0\" y1=\"200.0\" x2=\"250.0\" y2=\"200.0\" stroke=\"#243447\" stroke-width=\"2\"/><line x1=\"250.0\" y1=\"200.0\" x2=\"390.0\" y2=\"200.0\" stroke=\"#243447\" stroke-width=\"2\"/><polygon points=\"310,200 298,194 298,206\" fill=\"#243447\"/><line x1=\"40.0\" y1=\"200.0\" x2=\"305.9\" y2=\"46.5\" stroke=\"#c2410c\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"250.0\" y1=\"200.0\" x2=\"305.9\" y2=\"46.5\" stroke=\"#c2410c\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><circle cx=\"305.9\" cy=\"46.5\" r=\"6\" fill=\"#2f7d4a\"/><text x=\"315.9\" y=\"40.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">fyr</text><circle cx=\"40\" cy=\"200\" r=\"4.5\" fill=\"#243447\"/><circle cx=\"250\" cy=\"200\" r=\"4.5\" fill=\"#243447\"/><path d=\"M80.0,200.0 A40,40 0 0 0 74.6,180.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"96.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">30°</text><path d=\"M280.0,200.0 A30,30 0 0 0 260.3,171.8\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"289.3\" y=\"177.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">70°</text><text x=\"40.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">först</text><text x=\"250.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">sedan</text><text x=\"145.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">5,0 km</text></svg></span><p>Hur långt från fyren är båten i det andra läget? (Svara i km med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinklarna i triangeln</p><p>Vid det första läget är vinkeln 30°. Vid det andra läget är vinkeln inne i triangeln \\(180^\\circ-70^\\circ=110^\\circ\\).</p><div class=\"facit-matte\">\\[\\text{vid fyren: }180^\\circ-30^\\circ-110^\\circ=40^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sinussatsen: den sökta sidan ligger mitt emot 30°</p><div class=\"facit-matte\">\\[\\frac{x}{\\sin30^\\circ}=\\frac{5{,}0}{\\sin40^\\circ}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut avståndet</p><div class=\"facit-matte\">\\[x=\\frac{5{,}0\\cdot\\sin30^\\circ}{\\sin40^\\circ}\\approx3{,}89\\ \\text{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 3,89 km.</p></div>",
+  "familj": "Avstånd och triangulering",
+  "formaga": [
+    "problemlösning",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Rita triangeln med båtens två lägen och fyren. Vilken vinkel har triangeln vid det andra läget, och vilken vid fyren?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3.89,
+  "tolerans": 0.01,
+  "svarEnhet": "km"
+},
+{
+  "id": "4.599",
+  "kap": 4,
+  "omr": "trig_tillampningar",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "flyghöjd från två observatörer",
+  "t": "<p>Två observatörer \\(A\\) och \\(B\\) står 2,0 km från varandra. Ett flygplan befinner sig rakt ovanför sträckan \\(AB\\). Från \\(A\\) ses planet under höjdvinkeln 35° och från \\(B\\) under 50°.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"240\" viewBox=\"0 0 400 240\" role=\"img\" aria-label=\"Två observatörer A och B står 2,0 km från varandra. Ett flygplan befinner sig ovanför sträckan mellan dem. Höjdvinkeln är 35 grader från A och 50 grader från B. Flyghöjden h är streckad.\"><title>Två observatörer A och B står 2,0 km från varandra. Ett flygplan befinner sig ovanför sträckan mellan dem. Höjdvinkeln är 35 grader från A och 50 grader från B. Flyghöjden h är streckad.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"200.0\" x2=\"350.0\" y2=\"200.0\" stroke=\"#243447\" stroke-width=\"2\"/><line x1=\"50.0\" y1=\"200.0\" x2=\"239.0\" y2=\"67.7\" stroke=\"#c2410c\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"350.0\" y1=\"200.0\" x2=\"239.0\" y2=\"67.7\" stroke=\"#c2410c\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"239.0\" y1=\"67.7\" x2=\"239.0\" y2=\"200.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><polyline points=\"250.0,200.0 250.0,189.0 239.0,189.0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><circle cx=\"239.0\" cy=\"67.7\" r=\"5.5\" fill=\"#216d87\"/><text x=\"249.0\" y=\"61.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">flygplan</text><path d=\"M86.0,200.0 A36,36 0 0 0 79.5,179.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"101.5\" y=\"188.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">35°</text><path d=\"M320.0,200.0 A30,30 0 0 1 330.7,177.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"306.5\" y=\"184.7\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">50°</text><text x=\"50.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">A</text><text x=\"350.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">B</text><text x=\"160.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">2,0 km</text><text x=\"245.0\" y=\"133.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">h</text></svg></span><p>På vilken höjd flyger planet? (Svara i hela meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln vid flygplanet</p><div class=\"facit-matte\">\\[180^\\circ-35^\\circ-50^\\circ=95^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sinussatsen ger avståndet från A till planet</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{AF}{\\sin50^\\circ}=\\frac{2{,}0}{\\sin95^\\circ}\\\\\\Rightarrow AF=\\frac{2{,}0\\sin50^\\circ}{\\sin95^\\circ}\\approx1{,}538\\ \\text{km}\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Höjden är kateten mitt emot 35° i den rätvinkliga triangeln</p><div class=\"facit-matte\">\\[\\begin{gathered}h =AF\\cdot\\sin35^\\circ \\approx1{,}538\\cdot0{,}574\\\\\\approx0{,}882\\ \\text{km}\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 882 m.</p></div>",
+  "familj": "Avstånd och triangulering",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Börja med triangeln ABF och sinussatsen. Höjden får du sedan i en rätvinklig triangel.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 882,
+  "tolerans": 3,
+  "svarEnhet": "m"
+},
+{
+  "id": "4.600",
+  "kap": 4,
+  "omr": "trig_tillampningar",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "välja metod för en okänd sida",
+  "t": "<p>I triangeln \\(ABC\\) är \\(A=40^\\circ\\), \\(B=65^\\circ\\) och sidan \\(AB=100\\) m. Man vill beräkna sidan \\(AC\\). Vilken metod fungerar? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den tredje vinkeln kan beräknas</p><div class=\"facit-matte\">\\[C=180^\\circ-40^\\circ-65^\\circ=75^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sidan AC ligger mitt emot vinkeln B</p><p>Sidan AB ligger mitt emot C. Då kan sinussatsen användas.</p><div class=\"facit-matte\">\\[\\frac{AC}{\\sin65^\\circ}=\\frac{100}{\\sin75^\\circ}\\]</div><div class=\"facit-matte\">\\[AC=\\frac{100\\sin65^\\circ}{\\sin75^\\circ}\\approx93{,}8\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Beräkna C och använd sedan sinussatsen.</p></div>",
+  "familj": "Välja metod",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilka vinklar och sidor känner du, och vilka par av sida och motstående vinkel kan du få fram?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Cosinussatsen direkt",
+      "ratt": false,
+      "kommentar": "Cosinussatsen kräver två kända sidor och vinkeln mellan dem, eller alla tre sidorna. Här är bara en sida känd."
+    },
+    {
+      "txt": "Areasatsen",
+      "ratt": false,
+      "kommentar": "Areasatsen ger en area, och den behöver två sidor. Här är bara en sida känd."
+    },
+    {
+      "txt": "Beräkna vinkeln C och använd sedan sinussatsen",
+      "ratt": true
+    },
+    {
+      "txt": "Pythagoras sats",
+      "ratt": false,
+      "kommentar": "Triangeln är inte rätvinklig. Vinklarna är 40°, 65° och 75°."
+    }
+  ]
 }
 
 ];

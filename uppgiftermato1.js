@@ -119303,6 +119303,402 @@ window.BANKMATO1 = [
       "kommentar": "Triangeln är inte rätvinklig. Vinklarna är 40°, 65° och 75°."
     }
   ]
+},
+{
+  "id": "1.985",
+  "kap": 1,
+  "omr": "algebra_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "skillnaden mellan två kvadrater",
+  "t": "<p>Utveckla och förenkla \\((x+3)^2-(x-3)^2\\) så långt som möjligt.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla båda kvadraterna med kvadreringsreglerna</p><div class=\"facit-matte\">\\[\\begin{gathered}(x+3)^2=x^2+6x+9,\\\\(x-3)^2=x^2-6x+9\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Minustecknet gäller hela den andra parentesen</p><div class=\"facit-matte\">\\[\\begin{gathered}x^2+6x+9-(x^2-6x+9)\\\\=x^2+6x+9-x^2+6x-9\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">\\(x^2\\)-termerna och konstanterna tar ut varandra</p><div class=\"facit-matte\">\\[=12x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12x\\)</p></div>",
+  "familj": "Förenkla, utveckla och räkna med potenser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Utveckla båda parenteserna. Tänk på att minustecknet framför den andra kvadraten byter tecken på alla dess termer.</p>",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "rättSvar": "12x",
+  "tolerans": null
+},
+{
+  "id": "1.986",
+  "kap": 1,
+  "omr": "algebra_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "area som syns runt en matta",
+  "t": "<p>Ett rektangulärt golv har sidorna \\(x+4\\) m och \\(x+1\\) m. På golvet ligger en kvadratisk matta med sidan \\(x\\) m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"330\" height=\"190\" viewBox=\"0 0 330 190\" role=\"img\" aria-label=\"Ett rektangulärt golv med sidorna x + 4 och x + 1 meter. På golvet ligger en kvadratisk matta med sidan x meter.\"><title>Ett rektangulärt golv med sidorna x + 4 och x + 1 meter. På golvet ligger en kvadratisk matta med sidan x meter.</title><rect x=\"1\" y=\"1\" width=\"328\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"20\" width=\"222.0\" height=\"132.0\" fill=\"#eaf5ee\" stroke=\"#2f7d4a\" stroke-width=\"2.4\"/><rect x=\"100.0\" y=\"35.0\" width=\"102.0\" height=\"102.0\" fill=\"#fdf0e8\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><text x=\"151.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">x + 4</text><text x=\"270.0\" y=\"91.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">x + 1</text><text x=\"151.0\" y=\"91.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">x</text></svg></span><p>Skriv ett så enkelt uttryck som möjligt för arean av den del av golvet som inte täcks av mattan.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Golvets area</p><div class=\"facit-matte\">\\[\\begin{gathered}(x+4)(x+1) =x^2+x+4x+4\\\\=x^2+5x+4\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort mattans area</p><div class=\"facit-matte\">\\[x^2+5x+4-x^2=5x+4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x+4\\) m²</p></div>",
+  "familj": "Polynom i figurer och begrepp",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv golvets area och mattans area var för sig. Vad händer med \\(x^2\\)-termen när du tar skillnaden?</p>",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "rättSvar": "5x+4",
+  "tolerans": null
+},
+{
+  "id": "1.987",
+  "kap": 1,
+  "omr": "algebra_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "konstanter ur en utvecklad kvadrat",
+  "t": "<p>Bestäm talen \\(a\\) och \\(b\\) så att \\((x+a)^2=x^2+10x+b\\) för alla \\(x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla vänsterledet</p><div class=\"facit-matte\">\\[(x+a)^2=x^2+2ax+a^2\\]</div></li><li><p class=\"facit-rubrik\">Jämför x-termerna</p><div class=\"facit-matte\">\\[2a=10\\quad\\Rightarrow\\quad a=5\\]</div></li><li><p class=\"facit-rubrik\">Jämför konstanttermerna</p><div class=\"facit-matte\">\\[b=a^2=25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\) och \\(b=25\\)</p></div>",
+  "familj": "Förenkla, utveckla och räkna med potenser",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Utveckla \\((x+a)^2\\). Två polynom är lika för alla x om koefficienterna framför varje potens av x är lika.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5,
+    25
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "1.988",
+  "kap": 1,
+  "omr": "polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "gradtal för produkt och summa",
+  "t": "<p>Polynomet \\(p(x)\\) har grad 3 och polynomet \\(q(x)\\) har grad 2. Vilket gradtal har \\(p(x)\\cdot q(x)\\), och vilket gradtal har \\(p(x)+q(x)\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vid multiplikation adderas de högsta exponenterna</p><p>Den högsta termen i produkten blir \\(ax^3\\cdot bx^2=abx^5\\). Den finns alltid kvar, eftersom ingen annan produkt av termer ger \\(x^5\\).</p><div class=\"facit-matte\">\\[3+2=5\\]</div></li><li><p class=\"facit-rubrik\">Vid addition bestämmer den högsta graden</p><p>\\(q\\) har ingen \\(x^3\\)-term, så \\(x^3\\)-termen från \\(p\\) finns kvar.</p><div class=\"facit-matte\">\\[\\text{grad }3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Produkten har grad 5 och summan har grad 3.</p></div>",
+  "familj": "Polynombegrepp, grad och värden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vad händer med de högsta potenserna av x när du multiplicerar, och när du adderar?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5,
+    3
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "grad p·q",
+    "grad p+q"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "1.989",
+  "kap": 1,
+  "omr": "polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "minsta möjliga gradtal ur en graf",
+  "t": "<p>Figuren visar grafen till ett polynom.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\" role=\"img\" aria-label=\"Grafen till ett polynom. Den skär x-axeln i tre punkter, x = −2, x = 1 och x = 3, och har en maximipunkt och en minimipunkt.\"><title>Grafen till ett polynom. Den skär x-axeln i tre punkter, x = −2, x = 1 och x = 3, och har en maximipunkt och en minimipunkt.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"24\" x2=\"50.0\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"95.7\" y1=\"24\" x2=\"95.7\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"141.4\" y1=\"24\" x2=\"141.4\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"187.1\" y1=\"24\" x2=\"187.1\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"232.9\" y1=\"24\" x2=\"232.9\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"278.6\" y1=\"24\" x2=\"278.6\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"324.3\" y1=\"24\" x2=\"324.3\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"370.0\" y1=\"24\" x2=\"370.0\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"266.0\" x2=\"370\" y2=\"266.0\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"217.6\" x2=\"370\" y2=\"217.6\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"169.2\" x2=\"370\" y2=\"169.2\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"120.8\" x2=\"370\" y2=\"120.8\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"72.4\" x2=\"370\" y2=\"72.4\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"24.0\" x2=\"370\" y2=\"24.0\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"169.2\" x2=\"378\" y2=\"169.2\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"187.1\" y1=\"266\" x2=\"187.1\" y2=\"16\" stroke=\"#34495e\" stroke-width=\"1.6\"/><polyline points=\"76.4,264.1 77.2,259.4 78.0,254.8 78.8,250.2 79.6,245.7 80.4,241.3 81.2,237.0 82.0,232.7 82.8,228.5 83.6,224.3 84.4,220.2 85.2,216.2 86.0,212.3 86.8,208.4 87.6,204.5 88.4,200.8 89.2,197.1 90.0,193.4 90.8,189.8 91.6,186.3 92.4,182.9 93.2,179.5 94.0,176.1 94.8,172.9 95.6,169.7 96.4,166.5 97.2,163.4 98.0,160.4 98.8,157.4 99.6,154.5 100.4,151.6 101.2,148.8 102.0,146.0 102.8,143.3 103.6,140.7 104.4,138.1 105.2,135.6 106.0,133.1 106.8,130.7 107.6,128.3 108.4,126.0 109.2,123.8 110.0,121.6 110.8,119.4 111.6,117.3 112.4,115.3 113.2,113.3 114.0,111.3 114.8,109.4 115.6,107.6 116.4,105.8 117.2,104.0 118.0,102.3 118.8,100.7 119.6,99.1 120.4,97.5 121.2,96.0 122.0,94.5 122.8,93.1 123.6,91.8 124.4,90.4 125.2,89.2 126.0,87.9 126.8,86.7 127.6,85.6 128.4,84.5 129.2,83.4 130.0,82.4 130.8,81.4 131.6,80.5 132.4,79.6 133.2,78.8 134.0,78.0 134.8,77.2 135.6,76.5 136.4,75.8 137.2,75.2 138.0,74.6 138.8,74.0 139.6,73.5 140.4,73.0 141.2,72.5 142.0,72.1 142.8,71.7 143.6,71.4 144.4,71.1 145.2,70.8 146.0,70.6 146.8,70.4 147.6,70.2 148.4,70.1 149.2,70.0 150.0,69.9 150.8,69.9 151.6,69.9 152.4,69.9 153.2,70.0 154.0,70.1 154.8,70.2 155.6,70.4 156.4,70.5 157.2,70.8 158.0,71.0 158.8,71.3 159.6,71.6 160.4,71.9 161.2,72.3 162.0,72.7 162.8,73.1 163.6,73.5 164.4,74.0 165.2,74.5 166.0,75.0 166.8,75.5 167.6,76.1 168.4,76.7 169.2,77.3 170.0,78.0 170.8,78.6 171.6,79.3 172.4,80.0 173.2,80.7 174.0,81.5 174.8,82.3 175.6,83.1 176.4,83.9 177.2,84.7 178.0,85.6 178.8,86.4 179.6,87.3 180.4,88.2 181.2,89.2 182.0,90.1 182.8,91.1 183.6,92.1 184.4,93.1 185.2,94.1 186.0,95.1 186.8,96.1 187.6,97.2 188.4,98.3 189.2,99.4 190.0,100.5 190.8,101.6 191.6,102.7 192.4,103.9 193.2,105.0 194.0,106.2 194.8,107.4 195.6,108.5 196.4,109.7 197.2,111.0 198.0,112.2 198.8,113.4 199.6,114.6 200.4,115.9 201.2,117.1 202.0,118.4 202.8,119.7 203.6,121.0 204.4,122.2 205.2,123.5 206.0,124.8 206.8,126.1 207.6,127.4 208.4,128.7 209.2,130.1 210.0,131.4 210.8,132.7 211.6,134.0 212.4,135.4 213.2,136.7 214.0,138.0 214.8,139.4 215.6,140.7 216.4,142.1 217.2,143.4 218.0,144.7 218.8,146.1 219.6,147.4 220.4,148.8 221.2,150.1 222.0,151.4 222.8,152.8 223.6,154.1 224.4,155.4 225.2,156.8 226.0,158.1 226.8,159.4 227.6,160.7 228.4,162.0 229.2,163.3 230.0,164.6 230.8,165.9 231.6,167.2 232.4,168.5 233.2,169.7 234.0,171.0 234.8,172.3 235.6,173.5 236.4,174.7 237.2,176.0 238.0,177.2 238.8,178.4 239.6,179.6 240.4,180.8 241.2,182.0 242.0,183.1 242.8,184.3 243.6,185.4 244.4,186.6 245.2,187.7 246.0,188.8 246.8,189.9 247.6,190.9 248.4,192.0 249.2,193.1 250.0,194.1 250.8,195.1 251.6,196.1 252.4,197.1 253.2,198.0 254.0,199.0 254.8,199.9 255.6,200.8 256.4,201.7 257.2,202.6 258.0,203.5 258.8,204.3 259.6,205.1 260.4,205.9 261.2,206.7 262.0,207.4 262.8,208.2 263.6,208.9 264.4,209.6 265.2,210.2 266.0,210.9 266.8,211.5 267.6,212.1 268.4,212.6 269.2,213.2 270.0,213.7 270.8,214.2 271.6,214.7 272.4,215.1 273.2,215.5 274.0,215.9 274.8,216.3 275.6,216.6 276.4,216.9 277.2,217.2 278.0,217.4 278.8,217.7 279.6,217.8 280.4,218.0 281.2,218.1 282.0,218.2 282.8,218.3 283.6,218.3 284.4,218.3 285.2,218.3 286.0,218.2 286.8,218.1 287.6,218.0 288.4,217.8 289.2,217.6 290.0,217.4 290.8,217.1 291.6,216.8 292.4,216.5 293.2,216.1 294.0,215.7 294.8,215.3 295.6,214.8 296.4,214.2 297.2,213.7 298.0,213.1 298.8,212.4 299.6,211.7 300.4,211.0 301.2,210.3 302.0,209.5 302.8,208.6 303.6,207.7 304.4,206.8 305.2,205.8 306.0,204.8 306.8,203.8 307.6,202.7 308.4,201.5 309.2,200.3 310.0,199.1 310.8,197.8 311.6,196.5 312.4,195.1 313.2,193.7 314.0,192.3 314.8,190.8 315.6,189.2 316.4,187.6 317.2,186.0 318.0,184.3 318.8,182.5 319.6,180.7 320.4,178.9 321.2,177.0 322.0,175.0 322.8,173.0 323.6,171.0 324.4,168.9 325.2,166.7 326.0,164.5 326.8,162.3 327.6,160.0 328.4,157.6 329.2,155.2 330.0,152.7 330.8,150.2 331.6,147.6 332.4,145.0 333.2,142.3 334.0,139.5 334.8,136.7 335.6,133.9 336.4,131.0 337.2,128.0 338.0,125.0 338.8,121.9 339.6,118.7 340.4,115.5 341.2,112.2 342.0,108.9 342.8,105.5 343.6,102.0 344.4,98.5 345.2,95.0 346.0,91.3 346.8,87.6 347.6,83.9 348.4,80.0 349.2,76.1 350.0,72.2 350.8,68.2 351.6,64.1 352.4,59.9 353.2,55.7 354.0,51.4 354.8,47.1 355.6,42.7 356.4,38.2 357.2,33.7 358.0,29.0 358.8,24.4\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><text x=\"50.0\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−3</text><text x=\"95.7\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−2</text><text x=\"141.4\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><text x=\"232.9\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><text x=\"278.6\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><text x=\"324.3\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><text x=\"370.0\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><text x=\"43.0\" y=\"270.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−4</text><text x=\"43.0\" y=\"221.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−2</text><text x=\"43.0\" y=\"124.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><text x=\"43.0\" y=\"76.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><text x=\"43.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><text x=\"382.0\" y=\"174.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"194.1\" y=\"14.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text></svg></span><p>Vilket är det lägsta gradtal som polynomet kan ha? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna nollställena</p><p>Grafen skär x-axeln i tre punkter: \\(x=-2\\), \\(x=1\\) och \\(x=3\\).</p></li><li><p class=\"facit-rubrik\">Ett polynom av grad n har högst n nollställen</p><p>Tre nollställen kräver minst grad 3. Grafen har också två vändpunkter, och det stämmer med grad 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Grad 3</p></div>",
+  "familj": "Polynom och deras grafer",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hur många gånger skär grafen x-axeln? Hur många nollställen kan ett polynom av grad 2 ha?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Grad 2",
+      "ratt": false,
+      "kommentar": "Ett andragradspolynom har högst två nollställen, men grafen har tre."
+    },
+    {
+      "txt": "Grad 4",
+      "ratt": false,
+      "kommentar": "Grad 4 är möjligt, men frågan gäller det lägsta möjliga gradtalet."
+    },
+    {
+      "txt": "Grad 3",
+      "ratt": true
+    },
+    {
+      "txt": "Grad 1",
+      "ratt": false,
+      "kommentar": "En rät linje skär x-axeln högst en gång."
+    }
+  ]
+},
+{
+  "id": "1.990",
+  "kap": 1,
+  "omr": "polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "konstant ur ett polynomvärde",
+  "t": "<p>Polynomet är \\(p(x)=2x^3-x^2+a\\). Det gäller att \\(p(2)=15\\). Bestäm \\(a\\) och \\(p(-1)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in x = 2</p><div class=\"facit-matte\">\\[\\begin{gathered}2\\cdot8-4+a=15\\quad \\Rightarrow 12+a=15\\\\\\Rightarrow a=3\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Beräkna p(−1). Tänk på tecknen</p><div class=\"facit-matte\">\\[\\begin{gathered}p(-1) =2\\cdot(-1)^3-(-1)^2+3\\\\=-2-1+3 =0\\end{gathered}\\]</div><p>Alltså är \\(x=-1\\) ett nollställe till polynomet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\) och \\(p(-1)=0\\)</p></div>",
+  "familj": "Polynombegrepp, grad och värden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Sätt in \\(x=2\\) och lös ut a. Var noga med tecknen när du sätter in \\(x=-1\\).</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    3,
+    0
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "p(−1)"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "1.991",
+  "kap": 1,
+  "omr": "rationella_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "rationell ekvation med två nämnare",
+  "t": "<p>Lös ekvationen \\(\\dfrac{3}{x-1}=\\dfrac{2}{x+1}\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\((x-1)(x+1)\\)</p><p>Det är tillåtet för \\(x\\ne\\pm1\\).</p><div class=\"facit-matte\">\\[3(x+1)=2(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Lös den linjära ekvationen</p><div class=\"facit-matte\">\\[3x+3=2x-2\\quad\\Rightarrow\\quad x=-5\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att lösningen är tillåten</p><div class=\"facit-matte\">\\[\\frac{3}{-6}=-\\frac12,\\qquad \\frac{2}{-4}=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div>",
+  "familj": "Lösa rationella ekvationer",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Multiplicera bort båda nämnarna. Kontrollera sedan att lösningen inte gör någon nämnare lika med 0.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -5,
+  "tolerans": 0
+},
+{
+  "id": "1.992",
+  "kap": 1,
+  "omr": "rationella_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "falsk rot i en rationell ekvation",
+  "t": "<p>Lös ekvationen \\(\\dfrac{x^2}{x-3}=\\dfrac{9}{x-3}\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(x-3\\)</p><p>Det är tillåtet för \\(x\\ne3\\).</p><div class=\"facit-matte\">\\[x^2=9\\quad\\Rightarrow\\quad x=3\\ \\text{eller}\\ x=-3\\]</div></li><li><p class=\"facit-rubrik\">x = 3 är inte tillåtet</p><p>Med \\(x=3\\) blir nämnaren 0, så det är en falsk rot och ingen lösning.</p></li><li><p class=\"facit-rubrik\">Kontrollera x = −3</p><div class=\"facit-matte\">\\[\\frac{9}{-6}=-\\frac32,\\qquad \\frac{9}{-6}=-\\frac32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div>",
+  "familj": "Lösa rationella ekvationer",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilka x-värden är förbjudna från början? Kontrollera båda lösningarna mot det.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -3,
+  "tolerans": 0
+},
+{
+  "id": "1.993",
+  "kap": 1,
+  "omr": "rationella_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "cykelfart ur tidsskillnad",
+  "t": "<p>En cyklist kör 30 km. Om farten hade varit 5 km/h högre hade resan tagit en timme kortare tid. Vilken fart höll cyklisten? (Svara i km/h.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tiden är sträcka delat med fart</p><div class=\"facit-matte\">\\[\\frac{30}{v}-\\frac{30}{v+5}=1\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med \\(v(v+5)\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}30(v+5)-30v=v(v+5)\\\\\\Rightarrow 150=v^2+5v\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lös andragradsekvationen</p><div class=\"facit-matte\">\\[\\begin{gathered}v^2+5v-150=0\\\\\\Rightarrow v=-\\frac52\\pm\\sqrt{\\frac{25}4+150}=-\\frac52\\pm\\frac{25}2\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Farten måste vara positiv</p><div class=\"facit-matte\">\\[v=10\\]</div><p>Kontroll: 30/10 = 3 h och 30/15 = 2 h, alltså en timme kortare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 km/h</p></div>",
+  "familj": "Rationella uttryck i problemlösning",
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv tiden för båda farterna som bråk. Skillnaden mellan tiderna är 1 timme.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 0,
+  "svarEnhet": "km/h"
+},
+{
+  "id": "1.994",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "division av rationella uttryck",
+  "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{x^2-4}{x+3}\\div\\frac{x-2}{x^2-9}\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\frac{x^2-4}{x+3}\\cdot\\frac{x^2-9}{x-2}\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera med konjugatregeln</p><div class=\"facit-matte\">\\[\\frac{(x-2)(x+2)}{x+3}\\cdot\\frac{(x-3)(x+3)}{x-2}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(x-2\\) och \\(x+3\\)</p><div class=\"facit-matte\">\\[(x+2)(x-3)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((x+2)(x-3)\\), för \\(x\\ne-3,\\ 2,\\ 3\\)</p></div>",
+  "familj": "Dividera rationella uttryck",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Multiplicera med det inverterade bråket och faktorisera alla täljare och nämnare innan du förkortar.</p>",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "rättSvar": "(x+2)(x-3)",
+  "tolerans": null
+},
+{
+  "id": "1.995",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "subtraktion med olika nämnare",
+  "t": "<p>Skriv \\(\\dfrac1x-\\dfrac1{x+2}\\) som ett enda bråk så enkelt som möjligt.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare är produkten av nämnarna</p><div class=\"facit-matte\">\\[\\frac{x+2}{x(x+2)}-\\frac{x}{x(x+2)}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna. Parentesen behövs</p><div class=\"facit-matte\">\\[\\frac{x+2-x}{x(x+2)}=\\frac{2}{x(x+2)}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{2}{x(x+2)}\\)</p></div>",
+  "familj": "Räkna med rationella uttryck",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Förläng båda bråken så att de får samma nämnare.</p>",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "rättSvar": "2/(x(x+2))",
+  "tolerans": null
 }
 
 ];

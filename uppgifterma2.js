@@ -53802,5 +53802,283 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
         "kommentar": "Med c = 10 blir båda ekvationerna y = −2x + 5, alltså samma linje."
       }
     ]
+  },
+  {
+    "id": "2.1217",
+    "kap": 2,
+    "omr": "losningsformel_andragrad",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "rektangelns sidor ur arean",
+    "t": "<p>En rektangel är 3 cm längre än den är bred. Arean är 40 cm².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"190\" viewBox=\"0 0 360 190\" role=\"img\" aria-label=\"En rektangel med arean 40 kvadratcentimeter. Bredden är x och längden är x + 3.\"><title>En rektangel med arean 40 kvadratcentimeter. Bredden är x och längden är x + 3.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"80\" y=\"40\" width=\"200\" height=\"110\" fill=\"#eef5f9\" stroke=\"#216d87\" stroke-width=\"2.5\"/><text x=\"180.0\" y=\"101.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">40 cm²</text><text x=\"180.0\" y=\"174.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">x + 3</text><text x=\"64.0\" y=\"101.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">x</text></svg></span><p>Bestäm rektangelns bredd och längd.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean är bredd gånger längd</p><div class=\"facit-matte\">\\[x(x+3)=40\\]</div></li><li><p class=\"facit-rubrik\">Skriv ekvationen på formen \\(x^2+px+q=0\\)</p><div class=\"facit-matte\">\\[x^2+3x-40=0\\]</div></li><li><p class=\"facit-rubrik\">Lös med pq-formeln, där \\(p=3\\) och \\(q=-40\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}x=-\\frac32\\pm\\sqrt{\\frac94+\\frac{160}4}\\\\=-\\frac32\\pm\\frac{13}2\\end{gathered}\\]</div><p>Lösningarna är \\(x=5\\) och \\(x=-8\\).</p></li><li><p class=\"facit-rubrik\">En sida kan inte vara negativ</p><p>Bredden är 5 cm och längden 5 + 3 = 8 cm. Kontroll: \\(5\\cdot8=40\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bredden är 5 cm och längden 8 cm.</p></div>",
+    "familj": "Lösa med pq-formeln",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Kalla bredden x. Vad blir då längden? Ställ upp en ekvation för arean och tänk på att en sida inte kan vara negativ.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      8
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "bredd (cm)",
+      "längd (cm)"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
+  },
+  {
+    "id": "2.1218",
+    "kap": 2,
+    "omr": "losningsformel_andragrad",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "produkt som är lika med 4",
+    "t": "<p>Lös ekvationen \\((x-1)(x-3)=4\\). Svara exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Högerledet är 4, inte 0, så multiplicera först ut</p><div class=\"facit-matte\">\\[x^2-4x+3=4\\]</div></li><li><p class=\"facit-rubrik\">Samla allt i vänsterledet</p><div class=\"facit-matte\">\\[x^2-4x-1=0\\]</div></li><li><p class=\"facit-rubrik\">Lös med pq-formeln, där \\(p=-4\\) och \\(q=-1\\)</p><div class=\"facit-matte\">\\[x=2\\pm\\sqrt{4+1}=2\\pm\\sqrt5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2+\\sqrt5\\) eller \\(x=2-\\sqrt5\\)</p></div>",
+    "familj": "Lösa med pq-formeln",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Får du sätta varje parentes lika med noll när högerledet är 4? Multiplicera ut och samla allt i ena ledet.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "\\(2+\\sqrt5\\)",
+      "\\(2-\\sqrt5\\)"
+    ],
+    "tolerans": null,
+    "svarsstruktur": "mängd",
+    "antalSvar": 2,
+    "svarEtiketter": [
+      "x",
+      "x"
+    ]
+  },
+  {
+    "id": "2.1219",
+    "kap": 2,
+    "omr": "losningsformel_andragrad",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "konstanten ger exakt en lösning",
+    "t": "<p>Ekvationen \\(x^2+6x+c=0\\) har exakt en lösning. Bestäm \\(c\\) och lösningen \\(x\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv upp pq-formeln med \\(p=6\\) och \\(q=c\\)</p><div class=\"facit-matte\">\\[x=-3\\pm\\sqrt{9-c}\\]</div></li><li><p class=\"facit-rubrik\">Det blir bara en lösning när rotuttrycket är 0</p><p>Om rotuttrycket är 0 ger plus och minus samma värde.</p><div class=\"facit-matte\">\\[9-c=0\\quad\\Rightarrow\\quad c=9\\]</div></li><li><p class=\"facit-rubrik\">Bestäm lösningen</p><div class=\"facit-matte\">\\[x=-3\\pm\\sqrt0=-3\\]</div><p>Kontroll: \\(x^2+6x+9=(x+3)^2\\), som bara är 0 när \\(x=-3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c=9\\) och \\(x=-3\\)</p></div>",
+    "familj": "Lösa med pq-formeln",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Skriv upp pq-formeln med \\(q=c\\). När ger plus och minus framför roten samma värde?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9,
+      -3
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "c",
+      "x"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
+  },
+  {
+    "id": "2.1220",
+    "kap": 2,
+    "omr": "losningsformel_andragrad",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "en lösning är känd",
+    "t": "<p>\\(x=2\\) är en lösning till ekvationen \\(x^2+bx-14=0\\). Bestäm \\(b\\) och ekvationens andra lösning.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En lösning gör vänsterledet lika med 0</p><div class=\"facit-matte\">\\[\\begin{gathered}2^2+2b-14=0\\quad \\Rightarrow 2b=10\\\\\\Rightarrow b=5\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lös hela ekvationen \\(x^2+5x-14=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[\\begin{gathered}x=-\\frac52\\pm\\sqrt{\\frac{25}4+\\frac{56}4}\\\\=-\\frac52\\pm\\frac92\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Den ena lösningen är den kända</p><p>Plustecknet ger \\(x=2\\), och minustecknet ger \\(x=-7\\). Kontroll: \\((-7)^2+5\\cdot(-7)-14=0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=5\\), och den andra lösningen är \\(x=-7\\).</p></div>",
+    "familj": "Lösa med pq-formeln",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Sätt in \\(x=2\\) i ekvationen. Då får du en ekvation där bara \\(b\\) är okänt.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      -7
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "b",
+      "andra lösningen"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
+  },
+  {
+    "id": "2.1221",
+    "kap": 2,
+    "omr": "losningsformel_andragrad",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "fel när pq-formeln används direkt",
+    "t": "<p>En elev löser ekvationen \\(2x^2-8x+6=0\\) så här:</p><p>\\[p=-8,\\ q=6:\\quad x=4\\pm\\sqrt{16-6}=4\\pm\\sqrt{10}\\]</p><p>Vad är felet? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">pq-formeln kräver att koefficienten framför \\(x^2\\) är 1</p><p>Ekvationen har 2 framför \\(x^2\\). Man måste först dela hela ekvationen med 2, annars blir p och q fel.</p></li><li><p class=\"facit-rubrik\">Dela båda leden med 2</p><div class=\"facit-matte\">\\[x^2-4x+3=0\\]</div></li><li><p class=\"facit-rubrik\">Använd pq-formeln med \\(p=-4\\) och \\(q=3\\)</p><div class=\"facit-matte\">\\[x=2\\pm\\sqrt{4-3}=2\\pm1\\]</div><p>Lösningarna är \\(x=1\\) och \\(x=3\\). Kontroll: \\(2\\cdot1-8+6=0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Eleven har inte delat med 2 först. Rätt lösning är \\(x=1\\) eller \\(x=3\\).</p></div>",
+    "familj": "Ekvationer där x²-termen har en koefficient",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vilken form måste ekvationen ha innan man läser av p och q?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Tecknet framför 4 är fel, det ska vara x = −4 ± √10",
+        "ratt": false,
+        "kommentar": "Med p = −8 är −p/2 = 4, så det tecknet följer formeln. Felet ligger tidigare."
+      },
+      {
+        "txt": "Eleven har inte delat ekvationen med 2 innan p och q lästes av",
+        "ratt": true
+      },
+      {
+        "txt": "Under roten ska det stå 64 − 6",
+        "ratt": false,
+        "kommentar": "Med p = −8 är (p/2)² = 16. Felet är att p och q läses av innan ekvationen delas med 2."
+      },
+      {
+        "txt": "Det finns inget fel",
+        "ratt": false,
+        "kommentar": "Sätt in x = 1: 2 − 8 + 6 = 0. Ekvationen har alltså lösningen 1, som eleven inte fick."
+      }
+    ]
+  },
+  {
+    "id": "2.1222",
+    "kap": 2,
+    "omr": "losningsformel_andragrad",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "koefficient framför x² ger bråk",
+    "t": "<p>Lös ekvationen \\(3x^2=2(x+4)\\). Svara exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera ut och samla alla termer i vänsterledet</p><div class=\"facit-matte\">\\[3x^2-2x-8=0\\]</div></li><li><p class=\"facit-rubrik\">Dela med 3 så att \\(x^2\\)-termen får koefficienten 1</p><div class=\"facit-matte\">\\[x^2-\\frac23x-\\frac83=0\\]</div></li><li><p class=\"facit-rubrik\">Lös med pq-formeln, där \\(p=-\\frac23\\) och \\(q=-\\frac83\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}x=\\frac13\\pm\\sqrt{\\frac19+\\frac{24}9}\\\\=\\frac13\\pm\\frac53\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Två lösningar</p><p>\\(x=\\frac63=2\\) och \\(x=-\\frac43\\). Kontroll: \\(3\\cdot2^2=12\\) och \\(2(2+4)=12\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\) eller \\(x=-\\frac43\\)</p></div>",
+    "familj": "Ekvationer där x²-termen har en koefficient",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Samla allt i ena ledet. Vad måste du göra innan du kan använda pq-formeln?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2",
+      "-4/3"
+    ],
+    "tolerans": null,
+    "svarsstruktur": "mängd",
+    "antalSvar": 2,
+    "svarEtiketter": [
+      "x",
+      "x"
+    ]
   }
 ];

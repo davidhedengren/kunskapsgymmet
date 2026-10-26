@@ -13129,7 +13129,6 @@ window.BANKMATO1 = [
     "kap": 1,
     "omr": "absolutbelopp",
     "kurs": [
-      "1b",
       "1c"
     ],
     "niva": "E",
@@ -67867,7 +67866,6 @@ window.BANKMATO1 = [
     "kap": 4,
     "omr": "trig_ekvationer",
     "kurs": [
-      "1b",
       "1c"
     ],
     "niva": "C",
@@ -67911,7 +67909,6 @@ window.BANKMATO1 = [
     "kap": 4,
     "omr": "trig_ekvationer",
     "kurs": [
-      "1b",
       "1c"
     ],
     "niva": "E",
@@ -69345,7 +69342,6 @@ window.BANKMATO1 = [
     "kap": 4,
     "omr": "trig_ekvationer",
     "kurs": [
-      "1b",
       "1c"
     ],
     "niva": "E",
@@ -69522,7 +69518,6 @@ window.BANKMATO1 = [
     "kap": 4,
     "omr": "enhetscirkeln",
     "kurs": [
-      "1b",
       "1c"
     ],
     "niva": "C",
@@ -69859,7 +69854,6 @@ window.BANKMATO1 = [
     "kap": 1,
     "omr": "absolutbelopp",
     "kurs": [
-      "1b",
       "1c"
     ],
     "niva": "E",
@@ -69932,7 +69926,6 @@ window.BANKMATO1 = [
     "kap": 4,
     "omr": "enhetscirkeln",
     "kurs": [
-      "1b",
       "1c"
     ],
     "niva": "E",
@@ -73336,7 +73329,6 @@ window.BANKMATO1 = [
     "kap": 1,
     "omr": "absolutbelopp",
     "kurs": [
-      "1b",
       "1c"
     ],
     "niva": "E",
@@ -89235,8 +89227,7 @@ window.BANKMATO1 = [
     "kap": 4,
     "omr": "trig_ratvinkliga",
     "kurs": [
-      "1c",
-      "1b"
+      "1c"
     ],
     "niva": "E",
     "poang": "2/0/0",
@@ -91841,7 +91832,6 @@ window.BANKMATO1 = [
     "kap": 4,
     "omr": "trig_ratvinkliga",
     "kurs": [
-      "1b",
       "1c"
     ],
     "niva": "E",
@@ -91875,7 +91865,6 @@ window.BANKMATO1 = [
     "kap": 4,
     "omr": "trig_ratvinkliga",
     "kurs": [
-      "1b",
       "1c"
     ],
     "niva": "E",
@@ -91909,7 +91898,6 @@ window.BANKMATO1 = [
     "kap": 4,
     "omr": "trig_ratvinkliga",
     "kurs": [
-      "1b",
       "1c"
     ],
     "niva": "E",
@@ -92082,7 +92070,6 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "svarEnhet": "m",
     "kurs": [
-      "1b",
       "1c"
     ],
     "arbetsinsats": 1,
@@ -92113,7 +92100,6 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "svarEnhet": "km",
     "kurs": [
-      "1b",
       "1c"
     ],
     "arbetsinsats": 1,
@@ -92144,7 +92130,6 @@ window.BANKMATO1 = [
     "traningsniva": 3,
     "svarEnhet": "s",
     "kurs": [
-      "1b",
       "1c"
     ],
     "arbetsinsats": 2,
@@ -92175,7 +92160,6 @@ window.BANKMATO1 = [
     "traningsniva": 4,
     "svarEnhet": "min",
     "kurs": [
-      "1b",
       "1c"
     ],
     "arbetsinsats": 2,
@@ -92205,7 +92189,6 @@ window.BANKMATO1 = [
     "traningsniva": 5,
     "svarEnhet": "m",
     "kurs": [
-      "1b",
       "1c"
     ],
     "arbetsinsats": 3,
@@ -92235,7 +92218,6 @@ window.BANKMATO1 = [
     "traningsniva": 4,
     "svarEnhet": "cm",
     "kurs": [
-      "1b",
       "1c"
     ],
     "arbetsinsats": 2,
@@ -92995,7 +92977,6 @@ window.BANKMATO1 = [
     "kap": 4,
     "omr": "enhetscirkeln",
     "kurs": [
-      "1b",
       "1c"
     ],
     "niva": "E",
@@ -99540,7 +99521,6 @@ window.BANKMATO1 = [
     "omr": "trig_ekvationer",
     "familj": "Lösa trigonometriska ekvationer",
     "kurs": [
-      "1b",
       "1c"
     ],
     "niva": "E",

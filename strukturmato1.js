@@ -105,7 +105,6 @@ window.SPARMATO1 = {
       "1c"
     ],
     "absolutbelopp": [
-      "1b",
       "1c"
     ],
     "funktioner": [
@@ -255,15 +254,12 @@ window.SPARMATO1 = {
   },
   "4": {
     "trig_ratvinkliga": [
-      "1b",
       "1c"
     ],
     "enhetscirkeln": [
-      "1b",
       "1c"
     ],
     "trig_ekvationer": [
-      "1b",
       "1c"
     ],
     "areasatsen": [

@@ -116292,9 +116292,9 @@ window.BANKMATO1 = [
   ],
   "niva": "C",
   "poang": "0/1/0",
-  "typ": "punkt där tangenten har en given lutning",
-  "t": "<p>I vilken punkt på kurvan \\(y=x^2-4x+1\\) är tangenten parallell med linjen \\(y=2x+5\\)?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parallella linjer har samma lutning</p><p>Tangentens lutning ska vara 2, alltså samma som linjens k-värde.</p></li><li><p class=\"facit-rubrik\">Tangentens lutning är derivatan</p><div class=\"facit-matte\">\\[y'=2x-4=2\\quad\\Rightarrow\\quad x=3\\]</div></li><li><p class=\"facit-rubrik\">Beräkna y-koordinaten på kurvan</p><div class=\"facit-matte\">\\[y=3^2-4\\cdot3+1=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> I punkten \\((3,\\ -2)\\)</p></div>",
+  "typ": "punkt där tangenten till en rotkurva har en given lutning",
+  "t": "<p>I vilken punkt på kurvan \\(y=2\\sqrt x\\) är tangenten parallell med linjen \\(y=0{,}5x+3\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parallella linjer har samma lutning</p><p>Tangentens lutning ska vara 0,5, alltså samma som linjens k-värde.</p></li><li><p class=\"facit-rubrik\">Skriv roten som en potens och derivera</p><div class=\"facit-matte\">\\[y=2x^{1/2}\\quad\\Rightarrow\\quad y'=x^{-1/2}=\\frac{1}{\\sqrt x}\\]</div></li><li><p class=\"facit-rubrik\">Sätt derivatan lika med 0,5</p><div class=\"facit-matte\">\\[\\frac{1}{\\sqrt x}=0{,}5\\quad\\Rightarrow\\quad\\sqrt x=2\\]</div><div class=\"facit-matte\">\\[x=2^2=4\\]</div></li><li><p class=\"facit-rubrik\">Beräkna y-koordinaten på kurvan</p><div class=\"facit-matte\">\\[y=2\\sqrt4=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> I punkten \\((4,\\ 4)\\)</p></div>",
   "familj": "Beräkna derivatans värde",
   "formaga": [
     "begrepp",
@@ -116309,11 +116309,11 @@ window.BANKMATO1 = [
   ],
   "traningsniva": 3,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Vilken lutning har linjen \\(y=2x+5\\)? Vilken lutning har tangenten i en punkt på kurvan?</p>",
+  "ledtrad": "<p>Vilken lutning har linjen? Skriv \\(2\\sqrt x\\) som en potens av x innan du deriverar.</p>",
   "svarstyp": "flera_delar",
   "rättSvar": [
-    3,
-    -2
+    4,
+    4
   ],
   "tolerans": [
     0,
@@ -117229,6 +117229,275 @@ window.BANKMATO1 = [
       "txt": "(x² − 3x)/(x + 1)",
       "ratt": false,
       "kommentar": "Här står x² − 3x i täljaren. Uttrycket är bara odefinierat när x = −1."
+    }
+  ]
+},
+{
+  "id": "3.1246",
+  "kap": 3,
+  "omr": "problemlosning_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "när hastigheten är som störst",
+  "t": "<p>En leksaksbil rör sig rakt fram. Efter \\(t\\) sekunder har den kört \\(s(t)=4t^2-t^3\\) meter, där \\(0\\le t\\le2{,}5\\). När är hastigheten som störst, och hur stor är den då? (Svara med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är derivatan av sträckan</p><div class=\"facit-matte\">\\[v(t)=s'(t)=8t-3t^2\\]</div></li><li><p class=\"facit-rubrik\">Hastigheten är störst där dess egen derivata är 0</p><div class=\"facit-matte\">\\[v'(t)=8-6t=0\\quad\\Rightarrow\\quad t=\\frac43\\approx1{,}33\\]</div><p>\\(v(t)\\) är en andragradsfunktion med negativ \\(t^2\\)-term, så det är ett maximum.</p></li><li><p class=\"facit-rubrik\">Beräkna hastigheten vid den tidpunkten</p><div class=\"facit-matte\">\\[\\begin{gathered}v\\left(\\tfrac43\\right) =8\\cdot\\frac43-3\\cdot\\frac{16}{9} =\\frac{32}{3}-\\frac{16}{3}\\\\=\\frac{16}{3} \\approx5{,}33\\ \\text{m/s}\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter ungefär 1,33 s är hastigheten som störst, ungefär 5,33 m/s.</p></div>",
+  "familj": "Rörelse och hastighet",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm först hastigheten \\(v(t)\\). När har en andragradsfunktion sitt största värde?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1.33,
+    5.33
+  ],
+  "tolerans": [
+    0.005,
+    0.005
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "tid (s)",
+    "hastighet (m/s)"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "3.1247",
+  "kap": 3,
+  "omr": "problemlosning_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "uppskatta ett värde med hjälp av derivatan",
+  "t": "<p>Temperaturen \\(T(t)\\) °C ute mäts \\(t\\) timmar efter midnatt. Klockan 06.00 är \\(T(6)=12\\) och \\(T'(6)=-1{,}5\\). Uppskatta temperaturen klockan 08.00, om temperaturen fortsätter att ändras ungefär lika snabbt.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tolka derivatan</p><p>\\(T'(6)=-1{,}5\\) betyder att temperaturen klockan 06.00 sjunker med ungefär 1,5 °C per timme.</p></li><li><p class=\"facit-rubrik\">Från 06.00 till 08.00 går det 2 timmar</p><div class=\"facit-matte\">\\[\\Delta T\\approx-1{,}5\\cdot2=-3\\]</div></li><li><p class=\"facit-rubrik\">Uppskatta temperaturen</p><div class=\"facit-matte\">\\[T(8)\\approx12-3=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 9 °C.</p></div>",
+  "familj": "Tolka derivata i modeller",
+  "formaga": [
+    "modellering",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vad betyder \\(T'(6)=-1{,}5\\) i ord? Hur mycket hinner temperaturen ändras på två timmar?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9,
+  "tolerans": 0,
+  "svarEnhet": "°C"
+},
+{
+  "id": "3.1248",
+  "kap": 3,
+  "omr": "problemlosning_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "skärningspunkten mellan två tangenter",
+  "t": "<p>Kurvan är \\(y=x^2-2x\\). Tangenterna i punkterna där \\(x=3\\) och \\(x=-1\\) skär varandra. Bestäm skärningspunkten.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangenten i x = 3</p><div class=\"facit-matte\">\\[\\begin{gathered}y(3)=3,\\\\y'(x)=2x-2\\ \\Rightarrow\\ y'(3)=4\\end{gathered}\\]</div><div class=\"facit-matte\">\\[y-3=4(x-3)\\quad\\Rightarrow\\quad y=4x-9\\]</div></li><li><p class=\"facit-rubrik\">Tangenten i x = −1</p><div class=\"facit-matte\">\\[y(-1)=3,\\qquad y'(-1)=-4\\]</div><div class=\"facit-matte\">\\[y-3=-4(x+1)\\quad\\Rightarrow\\quad y=-4x-1\\]</div></li><li><p class=\"facit-rubrik\">Sätt tangenternas uttryck lika</p><div class=\"facit-matte\">\\[4x-9=-4x-1\\quad\\Rightarrow\\quad x=1\\]</div><div class=\"facit-matte\">\\[y=4\\cdot1-9=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tangenterna skär varandra i \\((1,\\ -5)\\).</p></div>",
+  "familj": "Tangenter och bevis",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm varje tangents ekvation med punkten och derivatan. Lös sedan ekvationssystemet.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1,
+    -5
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "x",
+    "y"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "3.1249",
+  "kap": 3,
+  "omr": "problemlosning_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "marginalvinst och största vinst",
+  "t": "<p>Vinsten när ett företag säljer \\(x\\) varor är \\(V(x)=-0{,}5x^2+80x-1\\,200\\) kr.</p><p>a) Bestäm \\(V'(50)\\) och tolka svaret.<br>b) Vid vilket antal sålda varor är vinsten störst?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera vinstfunktionen</p><div class=\"facit-matte\">\\[V'(x)=-x+80\\]</div></li><li><p class=\"facit-rubrik\">a) Sätt in x = 50</p><div class=\"facit-matte\">\\[V'(50)=-50+80=30\\]</div><p>När 50 varor säljs ökar vinsten med ungefär 30 kr för varje extra vara.</p></li><li><p class=\"facit-rubrik\">b) Vinsten är störst där derivatan är 0</p><div class=\"facit-matte\">\\[-x+80=0\\quad\\Rightarrow\\quad x=80\\]</div><p>Derivatan är positiv före 80 och negativ efter, så det är ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(V'(50)=30\\): vinsten ökar med ungefär 30 kr per extra vara. b) Vid 80 varor.</p></div>",
+  "familj": "Tolka derivata i modeller",
+  "formaga": [
+    "modellering",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Derivatan anger hur mycket vinsten ändras per extra vara. Var är derivatan 0?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    30,
+    80
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a) V′(50)",
+    "b) antal varor"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "3.1250",
+  "kap": 3,
+  "omr": "problemlosning_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "när en boll stannar och hur långt den har rullat",
+  "t": "<p>En boll rullar uppför en backe. Efter \\(t\\) sekunder har den rullat \\(s(t)=6t-0{,}75t^2\\) meter. När stannar bollen, och hur långt har den rullat då?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bollens hastighet är derivatan av sträckan</p><div class=\"facit-matte\">\\[v(t)=s'(t)=6-1{,}5t\\]</div></li><li><p class=\"facit-rubrik\">Bollen stannar när hastigheten är 0</p><div class=\"facit-matte\">\\[6-1{,}5t=0\\quad\\Rightarrow\\quad t=4\\]</div></li><li><p class=\"facit-rubrik\">Sträckan vid den tidpunkten</p><div class=\"facit-matte\">\\[s(4)=6\\cdot4-0{,}75\\cdot16=24-12=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bollen stannar efter 4 s, när den har rullat 12 m.</p></div>",
+  "familj": "Rörelse och hastighet",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilken hastighet har bollen i det ögonblick den stannar? Hastigheten är derivatan av sträckan.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    4,
+    12
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "tid (s)",
+    "sträcka (m)"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "3.1251",
+  "kap": 3,
+  "omr": "problemlosning_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "funktionsvärde och derivata ur tangentens ekvation",
+  "t": "<p>Tangenten till grafen för funktionen \\(f\\) i punkten där \\(x=2\\) har ekvationen \\(y=3x-1\\). Vilket påstående stämmer? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangentens lutning är derivatan i tangeringspunkten</p><p>Tangentens k-värde är 3, så \\(f'(2)=3\\).</p></li><li><p class=\"facit-rubrik\">Tangenten och grafen har samma y-värde i tangeringspunkten</p><div class=\"facit-matte\">\\[f(2)=3\\cdot2-1=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(2)=5\\) och \\(f'(2)=3\\)</p></div>",
+  "familj": "Tangenter och bevis",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vad har tangenten och grafen gemensamt i tangeringspunkten: punkten, lutningen eller båda?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "f(2) = 3 och f′(2) = 5",
+      "ratt": false,
+      "kommentar": "Värdena är omkastade. Lutningen 3 är f′(2), och f(2) får man genom att sätta in x = 2 i tangentens ekvation."
+    },
+    {
+      "txt": "f(2) = −1 och f′(2) = 3",
+      "ratt": false,
+      "kommentar": "−1 är tangentens m-värde, alltså y-värdet när x = 0, inte när x = 2."
+    },
+    {
+      "txt": "f(2) = 5 och f′(2) = 3",
+      "ratt": true
+    },
+    {
+      "txt": "f(2) = 5 och f′(2) = 5",
+      "ratt": false,
+      "kommentar": "Derivatan är tangentens lutning, alltså 3."
     }
   ]
 }

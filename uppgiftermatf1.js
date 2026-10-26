@@ -21392,17 +21392,14 @@ window.BANKMATF1 = [
     "typ": "linjär approximation kring punkt",
     "poang": "1/1/0",
     "t": "<p>Bestäm en linjär approximation till \\(f(x)=\\sqrt{x}\\) kring \\(x=9\\), och använd den för att uppskatta \\(\\sqrt{9{,}2}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Nära punkten \\(x=a\\) ersätts grafen med sin tangent.</p></li><li><p>Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p></li><li><p>\\(f(9)=3\\) och \\(f'(x)=1/(2\\sqrt{x})\\), så \\(f'(9)=1/6\\).</p></li><li><p>Linjäriseringen är</p></li><li><p>\\[L(x)=3+\\frac16(x-9).\\]</p></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[\\sqrt{9{,}2}\\approx L(9,2)=3+0{,}2/6=\\mathbf{3{,}0333}.\\]</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna tangentpunktens höjd och lutning</p>\\[f(9)=3,\\qquad f^{\\prime}(x)=\\frac1{2\\sqrt x}\\]\\[f^{\\prime}(9)=\\frac1{2\\cdot3}=\\frac16\\]</li><li><p class=\"facit-rubrik\">Skriv linjen genom punkten med denna lutning</p>\\[L(x)=f(9)+f^{\\prime}(9)(x-9)\\]\\[=3+\\frac{x-9}{6}\\]</li><li><p class=\"facit-rubrik\">Sätt in 9,2 i linjen</p>\\[L(9{,}2)=3+\\frac{0{,}2}6=\\frac{91}{30}\\]\\[\\approx3{,}03333\\]<p>Det är tangentens värde som används för uppskattningen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L(x)=3+(x-9)/6\\) och \\(\\sqrt{9{,}2}\\approx3{,}03333\\).</p></div>",
     "id": "3.07",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "text",
-    "rättSvar": [
-      "3+(x-9)/6",
-      3.0333
-    ],
-    "tolerans": null,
+    "rättSvar": ["3+(x-9)/6", 3.033333333333333],
+    "tolerans": [null, 1e-10],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -21417,7 +21414,7 @@ window.BANKMATF1 = [
       "linjär approximation",
       "uppskattning"
     ],
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Bestäm kvadratrotens värde och derivata vid 9. Hur långt från 9 ligger talet som ska uppskattas?</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21426,11 +21423,11 @@ window.BANKMATF1 = [
   {
     "kap": 3,
     "omr": "linjar_approximation",
-    "niva": "A",
+    "niva": "C",
     "typ": "felbedömning för linjär approximation",
-    "poang": "0/1/2",
+    "poang": "0/3/0",
     "t": "<p>Funktionen \\(f(x)=\\ln x\\) approximeras linjärt kring \\(x=1\\). Använd approximationen för att uppskatta \\(\\ln(1,04)\\), och avgör utan räknare om approximationen är för stor eller för liten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(f(x)=\\ln x\\) är \\(f(1)=0\\) och \\(f'(1)=1\\).</p></li><li><p>Tangentlinjen kring \\(x=1\\) blir därför</p></li><li><p>\\[L(x)=0+1(x-1)=x-1.\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\ln(1,04)\\approx L(1,04)=\\mathbf{0{,}04}.\\]</p></li><li><p>Eftersom \\(f''(x)=-1/x^2&lt;0\\) för \\(x&gt;0\\) är grafen konkav.</p></li><li><p>En tangent till en konkav funktion ligger lokalt ovanför grafen, så approximationen är <strong>för stor</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna logaritmens tangent vid 1</p>\\[f(1)=\\ln1=0\\]\\[f^{\\prime}(1)=1\\]\\[L(x)=0+1(x-1)=x-1\\]</li><li><p class=\"facit-rubrik\">Uppskatta logaritmen med tangentlinjen</p>\\[L(1{,}04)=1{,}04-1=0{,}04\\]</li><li><p class=\"facit-rubrik\">Andraderivatan visar att tangenten ligger ovanför</p>\\[f^{\\prime\\prime}(x)=-\\frac1{x^2}<0\\quad(x>0)\\]<p>Lutningen avtar när x ökar. Kurvan böjer därför nedåt, och dess tangent vid 1 ligger ovanför kurvan. Tangentens uppskattning vid 1,04 blir för stor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\ln(1{,}04)\\approx0{,}04\\). Approximationen är för stor.</p></div>",
     "id": "3.08",
     "miniräknare": false,
     "geogebra": false,
@@ -21440,7 +21437,7 @@ window.BANKMATF1 = [
       0.04,
       null
     ],
-    "tolerans": null,
+    "tolerans": [1e-10, null],
     "självrättning": [
       true,
       false
@@ -21459,8 +21456,8 @@ window.BANKMATF1 = [
       "uppskattning",
       "för stor/för liten"
     ],
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 5,
+    "ledtrad": "<p>Bestäm tangenten vid x = 1. Använd sedan andraderivatans tecken för att bedöma om tangenten ligger över eller under kurvan.</p>",
+    "traningsniva": 4,
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -21472,21 +21469,21 @@ window.BANKMATF1 = [
     "typ": "linjär approximation nära känt värde",
     "poang": "2/0/0",
     "t": "<p>Använd en linjär approximation kring \\(x=16\\) för att uppskatta \\(\\sqrt{15{,}8}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet.</p></li><li><p class=\"facit-metod\">I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Låt</p><div class=\"facit-matte\">\\[f(x)=\\sqrt{x}\\].</div></div></li><li><p>Då är \\(f(16)=4\\) och \\(f'(16)=1/(2\\sqrt{16})=1/8\\).</p></li><li><p>Den linjära approximationen är</p></li><li><p>\\[L(x)=4+\\frac{1}{8}(x-16).\\]</p></li><li><div class=\"facit-berakning\"><p>För</p><div class=\"facit-matte\">\\[x=15,8\\]:</div></div></li><li><p>\\[L(15,8)=4+\\frac{1}{8}(-0,2)=\\mathbf{3{,}975}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En linjär approximation ska ligga nära funktionsvärdet när x ligger nära utvecklingspunkten.</p></li><li><p class=\"facit-not\">Jämför gärna tecken och storleksordning.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna värdet och lutningen vid 16</p>\\[f(16)=4\\]\\[f^{\\prime}(16)=\\frac1{2\\sqrt{16}}=\\frac18\\]</li><li><p class=\"facit-rubrik\">Använd den negativa ändringen i x</p>\\[\\Delta x=15{,}8-16=-0{,}2\\]\\[L(15{,}8)=4+\\frac18(-0{,}2)\\]\\[=4-0{,}025=3{,}975\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt{15{,}8}\\approx3{,}975\\).</p></div>",
     "id": "3.18",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "text",
     "rättSvar": 3.975,
-    "tolerans": null,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Använd kvadratrotens värde och derivata vid 16. Ändringen i x är negativ.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21527,20 +21524,20 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "3.26",
     "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"y = √x och tangenten vid x = 16\"><rect width=\"440\" height=\"300\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#173548\"><text x=\"220\" y=\"26\" text-anchor=\"middle\">y = √x och tangenten vid x = 16</text><path d=\"M 58.00 58 V 230 M 58 230.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"58.00\" y=\"253\" text-anchor=\"middle\">12</text><text x=\"48\" y=\"235.00\" text-anchor=\"end\">3,3</text><path d=\"M 140.50 58 V 230 M 58 187.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"140.50\" y=\"253\" text-anchor=\"middle\">14</text><text x=\"48\" y=\"192.00\" text-anchor=\"end\">3,65</text><path d=\"M 223.00 58 V 230 M 58 144.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"223.00\" y=\"253\" text-anchor=\"middle\">16</text><text x=\"48\" y=\"149.00\" text-anchor=\"end\">4</text><path d=\"M 305.50 58 V 230 M 58 101.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"305.50\" y=\"253\" text-anchor=\"middle\">18</text><text x=\"48\" y=\"106.00\" text-anchor=\"end\">4,35</text><path d=\"M 388.00 58 V 230 M 58 58.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"388.00\" y=\"253\" text-anchor=\"middle\">20</text><text x=\"48\" y=\"63.00\" text-anchor=\"end\">4,7</text><path d=\"M 58 58 V 230 H 395\" fill=\"none\" stroke=\"#173548\" stroke-width=\"2\"/><text x=\"411\" y=\"236\">x</text><text x=\"58\" y=\"43\">y</text></g><path d=\"M58.00,209.84 L60.75,208.66 L63.50,207.48 L66.25,206.31 L69.00,205.14 L71.75,203.97 L74.50,202.80 L77.25,201.64 L80.00,200.48 L82.75,199.33 L85.50,198.18 L88.25,197.03 L91.00,195.88 L93.75,194.74 L96.50,193.60 L99.25,192.46 L102.00,191.33 L104.75,190.20 L107.50,189.07 L110.25,187.94 L113.00,186.82 L115.75,185.70 L118.50,184.58 L121.25,183.47 L124.00,182.35 L126.75,181.24 L129.50,180.14 L132.25,179.03 L135.00,177.93 L137.75,176.84 L140.50,175.74 L143.25,174.65 L146.00,173.56 L148.75,172.47 L151.50,171.38 L154.25,170.30 L157.00,169.22 L159.75,168.14 L162.50,167.07 L165.25,165.99 L168.00,164.92 L170.75,163.85 L173.50,162.79 L176.25,161.72 L179.00,160.66 L181.75,159.60 L184.50,158.55 L187.25,157.49 L190.00,156.44 L192.75,155.39 L195.50,154.35 L198.25,153.30 L201.00,152.26 L203.75,151.22 L206.50,150.18 L209.25,149.15 L212.00,148.11 L214.75,147.08 L217.50,146.05 L220.25,145.02 L223.00,144.00 L225.75,142.98 L228.50,141.96 L231.25,140.94 L234.00,139.92 L236.75,138.91 L239.50,137.90 L242.25,136.88 L245.00,135.88 L247.75,134.87 L250.50,133.87 L253.25,132.86 L256.00,131.86 L258.75,130.87 L261.50,129.87 L264.25,128.88 L267.00,127.88 L269.75,126.89 L272.50,125.90 L275.25,124.92 L278.00,123.93 L280.75,122.95 L283.50,121.97 L286.25,120.99 L289.00,120.01 L291.75,119.04 L294.50,118.07 L297.25,117.09 L300.00,116.12 L302.75,115.16 L305.50,114.19 L308.25,113.23 L311.00,112.26 L313.75,111.30 L316.50,110.34 L319.25,109.39 L322.00,108.43 L324.75,107.48 L327.50,106.52 L330.25,105.57 L333.00,104.63 L335.75,103.68 L338.50,102.73 L341.25,101.79 L344.00,100.85 L346.75,99.91 L349.50,98.97 L352.25,98.03 L355.00,97.10 L357.75,96.16 L360.50,95.23 L363.25,94.30 L366.00,93.37 L368.75,92.44 L371.50,91.52 L374.25,90.59 L377.00,89.67 L379.75,88.75 L382.50,87.83 L385.25,86.91 L388.00,85.99\" fill=\"none\" stroke=\"#2463a2\" stroke-width=\"2.5\"/><path d=\"M58.00,205.43 L60.75,204.40 L63.50,203.38 L66.25,202.36 L69.00,201.33 L71.75,200.31 L74.50,199.29 L77.25,198.26 L80.00,197.24 L82.75,196.21 L85.50,195.19 L88.25,194.17 L91.00,193.14 L93.75,192.12 L96.50,191.10 L99.25,190.07 L102.00,189.05 L104.75,188.02 L107.50,187.00 L110.25,185.98 L113.00,184.95 L115.75,183.93 L118.50,182.90 L121.25,181.88 L124.00,180.86 L126.75,179.83 L129.50,178.81 L132.25,177.79 L135.00,176.76 L137.75,175.74 L140.50,174.71 L143.25,173.69 L146.00,172.67 L148.75,171.64 L151.50,170.62 L154.25,169.60 L157.00,168.57 L159.75,167.55 L162.50,166.52 L165.25,165.50 L168.00,164.48 L170.75,163.45 L173.50,162.43 L176.25,161.40 L179.00,160.38 L181.75,159.36 L184.50,158.33 L187.25,157.31 L190.00,156.29 L192.75,155.26 L195.50,154.24 L198.25,153.21 L201.00,152.19 L203.75,151.17 L206.50,150.14 L209.25,149.12 L212.00,148.10 L214.75,147.07 L217.50,146.05 L220.25,145.02 L223.00,144.00 L225.75,142.98 L228.50,141.95 L231.25,140.93 L234.00,139.90 L236.75,138.88 L239.50,137.86 L242.25,136.83 L245.00,135.81 L247.75,134.79 L250.50,133.76 L253.25,132.74 L256.00,131.71 L258.75,130.69 L261.50,129.67 L264.25,128.64 L267.00,127.62 L269.75,126.60 L272.50,125.57 L275.25,124.55 L278.00,123.52 L280.75,122.50 L283.50,121.48 L286.25,120.45 L289.00,119.43 L291.75,118.40 L294.50,117.38 L297.25,116.36 L300.00,115.33 L302.75,114.31 L305.50,113.29 L308.25,112.26 L311.00,111.24 L313.75,110.21 L316.50,109.19 L319.25,108.17 L322.00,107.14 L324.75,106.12 L327.50,105.10 L330.25,104.07 L333.00,103.05 L335.75,102.02 L338.50,101.00 L341.25,99.98 L344.00,98.95 L346.75,97.93 L349.50,96.90 L352.25,95.88 L355.00,94.86 L357.75,93.83 L360.50,92.81 L363.25,91.79 L366.00,90.76 L368.75,89.74 L371.50,88.71 L374.25,87.69 L377.00,86.67 L379.75,85.64 L382.50,84.62 L385.25,83.60 L388.00,82.57\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><circle cx=\"223.00\" cy=\"144.00\" r=\"4\" fill=\"#173548\"/><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"58\" y=\"282\" fill=\"#2463a2\">Kurva</text><text x=\"210\" y=\"282\" fill=\"#a44d25\">Streckad linje: tangent</text></g></svg></span><p>Använd tangentlinjen i \\(x=16\\) för att uppskatta \\(\\sqrt{16{,}3}\\).</p>",
-    "s": "<div class=\"facit-v2\"><p>För \\(f(x)=\\sqrt{x}\\) är \\(f^{\\prime}(x)=1/(2\\sqrt{x})\\). Vid x = 16 är värdet 4 och tangentens lutning 1/8.</p><p>Ökningen i x är \\(16{,}3-16=0{,}3\\), så tangentlinjen ger</p><div class=\"facit-matte\">\\[4+\\frac18\\cdot0{,}3=4{,}0375.\\]</div><p><strong>Svar:</strong> \\(\\sqrt{16{,}3}\\approx4{,}0375\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utgå från tangentpunkten (16, 4)</p><p>För \\(f(x)=\\sqrt x\\) gäller</p>\\[f(16)=4\\]\\[f^{\\prime}(16)=\\frac1{2\\sqrt{16}}=\\frac18.\\]</li><li><p class=\"facit-rubrik\">Lägg tangentens höjdändring till 4</p>\\[\\Delta x=16{,}3-16=0{,}3\\]\\[L(16{,}3)=4+\\frac18\\cdot0{,}3\\]\\[=4+0{,}0375=4{,}0375\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt{16{,}3}\\approx4{,}0375\\).</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 4.0375,
-    "tolerans": 0.0001,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Bestäm lutningen vid x = 16. Multiplicera den med ändringen från 16 till 16,3.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21553,21 +21550,21 @@ window.BANKMATF1 = [
     "typ": "linjär approximation av invers",
     "poang": "2/0/0",
     "t": "<p>Använd linjär approximation kring \\(x=2\\) för att uppskatta \\(1/2{,}04\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Nära punkten \\(x=a\\) ersätts grafen med sin tangent.</p></li><li><p>Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p></li><li><div class=\"facit-berakning\"><p>Låt</p><div class=\"facit-matte\">\\[f(x)=1/x\\].</div></div></li><li><p>Då \\(f(2)=0,5\\) och \\(f'(2)=-1/4\\).</p></li><li><p>Alltså</p></li><li><p>\\[L(2,04)=0{,}5-\\frac14\\cdot0{,}04=0{,}49.\\]</p></li><li><p><strong>\\(1/2{,}04\\approx0{,}49\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna funktionens värde och lutning</p>\\[f(2)=\\frac12,\\qquad f^{\\prime}(x)=-\\frac1{x^2}\\]\\[f^{\\prime}(2)=-\\frac14\\]</li><li><p class=\"facit-rubrik\">Minska värdet eftersom tangentens lutning är negativ</p>\\[L(2{,}04)=\\frac12-\\frac14(2{,}04-2)\\]\\[=0{,}5-0{,}01=0{,}49\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1/2{,}04\\approx0{,}49\\).</p></div>",
     "id": "3.41",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 0.49,
-    "tolerans": 0.01,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Använd f(x) = 1/x. Vilket tecken har derivatan vid x = 2?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21580,20 +21577,20 @@ window.BANKMATF1 = [
     "typ": "linjär approximation med derivata",
     "poang": "2/0/0",
     "t": "<p>Använd linjär approximation kring \\(x=49\\) för att uppskatta \\(\\sqrt{49{,}4}\\). Svara med fyra decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Definiera den storhet som förändras och skriv sambandet mellan storheterna innan du deriverar.</p></li><li><p>Sätt in numeriska värden först efter deriveringen för att behålla sambandet tydligt.</p></li><li><p>För \\(f(x)=\\sqrt x\\) är \\(f'(49)=1/(2\\sqrt{49})\\).</p></li><li><p>Den linjära approximationen är</p></li><li><p>\\[f(49+h)\\approx f(49)+f'(49)h.\\]</p></li><li><p>Med \\(h=0,4\\) fås \\(7{,}02857\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna kvadratrotens värde och lutning vid 49</p>\\[f(49)=7\\]\\[f^{\\prime}(49)=\\frac1{2\\cdot7}=\\frac1{14}\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens värde efter ändringen 0,4</p>\\[L(49{,}4)=7+\\frac{0{,}4}{14}\\]\\[=7{,}028571428\\ldots\\]</li><li><p class=\"facit-rubrik\">Avrunda till fyra decimaler</p><p>Femte decimalen är 7, så fjärde decimalen avrundas uppåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt{49{,}4}\\approx7{,}0286\\) med linjär approximation.</p></div>",
     "id": "3.192",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 7.0285714285714285,
-    "tolerans": 0.0005,
+    "tolerans": 5e-05,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Utgå från √49 och beräkna tangentens lutning där. Avrunda först efter att höjdändringen lagts till.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21606,21 +21603,21 @@ window.BANKMATF1 = [
     "typ": "linjär approximation av kubikrot",
     "poang": "2/0/0",
     "t": "<p>Använd linjär approximation kring \\(x=27\\) för att uppskatta \\(\\sqrt[3]{27,3}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Nära punkten \\(x=a\\) ersätts grafen med sin tangent.</p></li><li><p>Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p></li><li><div class=\"facit-matte\">\\[f(x)=x^{1/3}\\],</div></li><li><p>\\(f(27)=3\\) och \\(f'(27)=1/(3\\cdot27^{2/3})=1/27\\).</p></li><li><p>Därför</p></li><li><p>\\[L(27,3)=3+\\frac{0{,}3}{27}\\approx3{,}0111.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera kubikroten och sätt in 27</p>\\[f(x)=x^{1/3},\\qquad f^{\\prime}(x)=\\frac1{3x^{2/3}}\\]\\[f(27)=3\\]\\[f^{\\prime}(27)=\\frac1{3\\cdot3^2}=\\frac1{27}\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens värde vid 27,3</p>\\[L(27{,}3)=3+\\frac{27{,}3-27}{27}\\]\\[=3+\\frac1{90}=3{,}01111\\ldots\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt[3]{27{,}3}\\approx3{,}01111\\).</p></div>",
     "id": "3.42",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "text",
-    "rättSvar": 3.0111,
-    "tolerans": null,
+    "rättSvar": 3.011111111111111,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Skriv kubikroten som x^(1/3). Använd att 27^(1/3) = 3 när derivatans värde beräknas.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21633,7 +21630,7 @@ window.BANKMATF1 = [
     "typ": "bedöma över- eller underskattning",
     "poang": "0/2/0",
     "t": "<p>En elev använder tangentlinjen till \\(f(x)=\\sqrt{x}\\) vid \\(x=9\\) för att uppskatta \\(\\sqrt{9{,}4}\\). Kommer approximationen att bli något för stor eller något för liten? Motivera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet.</p></li><li><p class=\"facit-metod\">I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(x\\gt0\\) är</p></li><li><p>\\[f''(x)=-\\frac{1}{4x^{3/2}}\\lt0.\\]</p></li><li><p>Grafen är alltså konkav nedåt.</p></li><li><p>En tangent till en konkav nedåt-kurva ligger ovanför grafen nära tangentpunkten.</p></li><li><p>Approximationen blir därför <strong>något för stor</strong>.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Undersök hur lutningen förändras</p>\\[f^{\\prime}(x)=\\frac1{2\\sqrt x}\\]\\[f^{\\prime\\prime}(x)=-\\frac1{4x^{3/2}}<0\\quad(x>0)\\]</li><li><p class=\"facit-rubrik\">Jämför tangentens lutning med kurvans efter x = 9</p><p>Kurvans lutning avtar. Tangenten fortsätter däremot med samma lutning som vid 9. Mellan 9 och 9,4 ökar därför tangentens höjd mer än kurvans höjd.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Approximationen blir för stor, eftersom tangentlinjen ligger ovanför kurvan.</p></div>",
     "id": "3.43",
     "miniräknare": false,
     "geogebra": false,
@@ -21642,10 +21639,8 @@ window.BANKMATF1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "formaga": ["begrepp", "resonemang"],
+    "ledtrad": "<p>Hur ändras kvadratrotens lutning när x ökar? Koppla det till tangentens läge i förhållande till kurvan.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21658,21 +21653,21 @@ window.BANKMATF1 = [
     "typ": "approximation sin nära noll",
     "poang": "2/0/0",
     "t": "<p>Använd linjär approximation kring \\(x=0\\) för att uppskatta \\(\\sin(0,06)\\), där vinkeln mäts i radianer.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Nära punkten \\(x=a\\) ersätts grafen med sin tangent.</p></li><li><p>Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p></li><li><p>För \\(f(x)=\\sin x\\): \\(f(0)=0\\),</p></li><li><div class=\"facit-matte\">\\[f'(0)=1\\].</div></li><li><div class=\"facit-berakning\"><p>Tangenten är</p><div class=\"facit-matte\">\\[L(x)=x\\].</div></div></li><li><p>Därför</p></li><li><p><strong>\\(\\sin0{,}06\\approx0{,}06\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna tangentens höjd och lutning vid noll</p>\\[f(0)=\\sin0=0\\]\\[f^{\\prime}(0)=\\cos0=1\\]</li><li><p class=\"facit-rubrik\">Sätt in vinkeln i tangentlinjen</p>\\[L(x)=0+1(x-0)=x\\]\\[L(0{,}06)=0{,}06\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin(0{,}06)\\approx0{,}06\\).</p></div>",
     "id": "3.63",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 0.06,
-    "tolerans": 0.001,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Bestäm sinusfunktionens värde och derivata vid noll. Vinkeln anges i radianer.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21714,21 +21709,21 @@ window.BANKMATF1 = [
     "typ": "approximation e^x",
     "poang": "2/0/0",
     "t": "<p>Använd linjär approximation kring \\(x=0\\) för att uppskatta \\(e^{0{,}03}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Nära punkten \\(x=a\\) ersätts grafen med sin tangent.</p></li><li><p>Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p></li><li><p>För \\(f(x)=e^x\\) är \\(f(0)=1\\) och \\(f'(0)=1\\).</p></li><li><p>Därför \\(L(x)=1+x\\) och</p></li><li><p><strong>\\(e^{0{,}03}\\approx1{,}03\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna värdet och lutningen vid noll</p><p>Funktionen \\(f(x)=e^x\\) har derivatan \\(f^{\\prime}(x)=e^x\\). Alltså är</p>\\[f(0)=1,\\qquad f^{\\prime}(0)=1.\\]</li><li><p class=\"facit-rubrik\">Sätt in 0,03 i tangentlinjen</p>\\[L(x)=1+1(x-0)=1+x\\]\\[L(0{,}03)=1{,}03\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^{0{,}03}\\approx1{,}03\\).</p></div>",
     "id": "3.64",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 1.03,
-    "tolerans": 0.01,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Vilka värden har eˣ och dess derivata vid x = 0?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21741,7 +21736,7 @@ window.BANKMATF1 = [
     "typ": "bestäm tangentapproximation symboliskt",
     "poang": "0/2/0",
     "t": "<p>Bestäm den linjära approximationen till \\(f(x)=\\ln x\\) kring \\(x=1\\) och använd den för att uppskatta \\(\\ln(1,08)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Nära punkten \\(x=a\\) ersätts grafen med sin tangent.</p></li><li><p>Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p></li><li><div class=\"facit-matte\">\\[f(1)=0\\],</div></li><li><div class=\"facit-matte\">\\[f'(1)=1\\].</div></li><li><p>Alltså</p></li><li><p>\\[L(x)=x-1.\\]</p></li><li><p>\\[\\ln(1,08)\\approx L(1,08)=0{,}08.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna tangentpunktens höjd och lutning</p>\\[f(1)=\\ln1=0\\]\\[f^{\\prime}(1)=\\frac11=1\\]</li><li><p class=\"facit-rubrik\">Skriv tangentlinjen genom (1, 0)</p>\\[L(x)=0+1(x-1)=x-1\\]</li><li><p class=\"facit-rubrik\">Använd linjen för uppskattningen</p>\\[L(1{,}08)=1{,}08-1=0{,}08\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L(x)=x-1\\) och \\(\\ln(1{,}08)\\approx0{,}08\\).</p></div>",
     "id": "3.65",
     "miniräknare": false,
     "geogebra": false,
@@ -21751,7 +21746,7 @@ window.BANKMATF1 = [
       "x-1",
       0.08
     ],
-    "tolerans": null,
+    "tolerans": [null, 1e-10],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -21766,7 +21761,7 @@ window.BANKMATF1 = [
       "linjär approximation",
       "uppskattning"
     ],
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Bestäm funktionsvärdet och lutningen vid x = 1. Sätt sedan in 1,08 i den linje du får.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21779,21 +21774,21 @@ window.BANKMATF1 = [
     "typ": "approximation cos nära noll",
     "poang": "2/0/0",
     "t": "<p>Bestäm den linjära approximationen till \\(\\cos x\\) kring \\(x=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Nära punkten \\(x=a\\) ersätts grafen med sin tangent.</p></li><li><p>Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p></li><li><p>\\(f(0)=1\\) och \\(f'(0)=0\\).</p></li><li><p>Därför är den linjära approximationen <strong>\\(L(x)=1\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna cosinusfunktionens värde och lutning</p>\\[f(0)=\\cos0=1\\]\\[f^{\\prime}(0)=-\\sin0=0\\]</li><li><p class=\"facit-rubrik\">Skriv den vågräta tangentens ekvation</p>\\[L(x)=1+0(x-0)=1\\]<p>Första ordningens approximation kan vara konstant när lutningen är noll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L(x)=1\\).</p></div>",
     "id": "3.78",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
-    "svarstyp": "numeriskt",
-    "rättSvar": 1,
-    "tolerans": 1e-06,
+    "svarstyp": "uttryck",
+    "rättSvar": "1",
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Tangentens lutning är derivatan av cos x vid noll. Vad innebär en tangent med lutningen noll?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21960,20 +21955,20 @@ window.BANKMATF1 = [
     "typ": "linjär approximation med derivata",
     "poang": "2/0/0",
     "t": "<p>Använd linjär approximation kring \\(x=49\\) för att uppskatta \\(\\sqrt{49{,}2}\\). Svara med fyra decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Definiera den storhet som förändras och skriv sambandet mellan storheterna innan du deriverar.</p></li><li><p>Sätt in numeriska värden först efter deriveringen för att behålla sambandet tydligt.</p></li><li><p>För \\(f(x)=\\sqrt x\\) är \\(f'(49)=1/(2\\sqrt{49})\\).</p></li><li><p>Den linjära approximationen är</p></li><li><p>\\[f(49+h)\\approx f(49)+f'(49)h.\\]</p></li><li><p>Med \\(h=0,2\\) fås \\(7{,}01429\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna kvadratrotens värde och lutning vid 49</p>\\[f(49)=7\\]\\[f^{\\prime}(49)=\\frac1{2\\cdot7}=\\frac1{14}\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens värde vid 49,2</p>\\[L(49{,}2)=7+\\frac{0{,}2}{14}\\]\\[=7{,}014285714\\ldots\\]</li><li><p class=\"facit-rubrik\">Avrunda till fyra decimaler</p><p>Femte decimalen är 8, så fjärde decimalen avrundas uppåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt{49{,}2}\\approx7{,}0143\\) med linjär approximation.</p></div>",
     "id": "3.196",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 7.014285714285714,
-    "tolerans": 0.0005,
+    "tolerans": 5e-05,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Beräkna lutningen vid 49 och multiplicera den med 0,2. Behåll alla siffror tills slutsvaret avrundas.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22336,21 +22331,21 @@ window.BANKMATF1 = [
     "typ": "linjär approximation av kvadratrot",
     "poang": "2/0/0",
     "t": "<p>Använd linjär approximation kring \\(x=25\\) för att uppskatta \\(\\sqrt{25{,}4}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled.</p></li><li><p class=\"facit-metod\">Det gör tecken, exponenter och eventuella villkor synliga.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Låt</p><div class=\"facit-matte\">\\[f(x)=\\sqrt x\\].</div></div></li><li><p>Då är</p></li><li><p>\\[f(25)=5,\\qquad f'(25)=\\frac1{2\\sqrt{25}}=\\frac1{10}.\\]</p></li><li><p>Den linjära approximationen ger</p></li><li><p>\\[f(25,4)\\approx5+\\frac1{10}(0,4)=5{,}04.\\]</p></li></ol><p class=\"facit-svar\"><strong>\\(\\sqrt{25{,}4}\\approx5{,}04\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En linjär approximation ska ligga nära funktionsvärdet när x ligger nära utvecklingspunkten.</p></li><li><p class=\"facit-not\">Jämför gärna tecken och storleksordning.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm värdet och lutningen vid 25</p>\\[f(25)=5\\]\\[f^{\\prime}(25)=\\frac1{2\\cdot5}=\\frac1{10}\\]</li><li><p class=\"facit-rubrik\">Lägg till tangentens ökning</p>\\[L(25{,}4)=5+\\frac1{10}(25{,}4-25)\\]\\[=5+0{,}04=5{,}04\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt{25{,}4}\\approx5{,}04\\).</p></div>",
     "id": "3.99",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 5.04,
-    "tolerans": 0.01,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Utgå från kvadratroten ur 25. Tangentens lutning bestäms med derivatan av √x.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22607,20 +22602,20 @@ window.BANKMATF1 = [
     "typ": "linjär approximation av logaritm med figur",
     "poang": "2/0/0",
     "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"y = ln x och tangenten vid x = 1\"><rect width=\"440\" height=\"300\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#173548\"><text x=\"220\" y=\"26\" text-anchor=\"middle\">y = ln x och tangenten vid x = 1</text><path d=\"M 58.00 58 V 230 M 58 230.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"58.00\" y=\"253\" text-anchor=\"middle\">0,6</text><text x=\"48\" y=\"235.00\" text-anchor=\"end\">-0,6</text><path d=\"M 140.50 58 V 230 M 58 187.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"140.50\" y=\"253\" text-anchor=\"middle\">0,8</text><text x=\"48\" y=\"192.00\" text-anchor=\"end\">-0,35</text><path d=\"M 223.00 58 V 230 M 58 144.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"223.00\" y=\"253\" text-anchor=\"middle\">1</text><text x=\"48\" y=\"149.00\" text-anchor=\"end\">-0,1</text><path d=\"M 305.50 58 V 230 M 58 101.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"305.50\" y=\"253\" text-anchor=\"middle\">1,2</text><text x=\"48\" y=\"106.00\" text-anchor=\"end\">0,15</text><path d=\"M 388.00 58 V 230 M 58 58.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"388.00\" y=\"253\" text-anchor=\"middle\">1,4</text><text x=\"48\" y=\"63.00\" text-anchor=\"end\">0,4</text><path d=\"M 58 58 V 230 H 395\" fill=\"none\" stroke=\"#173548\" stroke-width=\"2\"/><text x=\"411\" y=\"236\">x</text><text x=\"58\" y=\"43\">y</text></g><path d=\"M58.00,214.66 L60.75,212.76 L63.50,210.88 L66.25,209.02 L69.00,207.18 L71.75,205.36 L74.50,203.56 L77.25,201.78 L80.00,200.01 L82.75,198.27 L85.50,196.54 L88.25,194.83 L91.00,193.13 L93.75,191.46 L96.50,189.79 L99.25,188.15 L102.00,186.52 L104.75,184.90 L107.50,183.30 L110.25,181.72 L113.00,180.15 L115.75,178.59 L118.50,177.05 L121.25,175.52 L124.00,174.00 L126.75,172.50 L129.50,171.01 L132.25,169.54 L135.00,168.07 L137.75,166.62 L140.50,165.18 L143.25,163.75 L146.00,162.34 L148.75,160.93 L151.50,159.54 L154.25,158.16 L157.00,156.79 L159.75,155.43 L162.50,154.08 L165.25,152.74 L168.00,151.41 L170.75,150.10 L173.50,148.79 L176.25,147.49 L179.00,146.20 L181.75,144.92 L184.50,143.65 L187.25,142.39 L190.00,141.14 L192.75,139.90 L195.50,138.67 L198.25,137.44 L201.00,136.23 L203.75,135.02 L206.50,133.82 L209.25,132.63 L212.00,131.45 L214.75,130.27 L217.50,129.11 L220.25,127.95 L223.00,126.80 L225.75,125.66 L228.50,124.52 L231.25,123.39 L234.00,122.27 L236.75,121.16 L239.50,120.05 L242.25,118.95 L245.00,117.86 L247.75,116.78 L250.50,115.70 L253.25,114.63 L256.00,113.56 L258.75,112.50 L261.50,111.45 L264.25,110.41 L267.00,109.37 L269.75,108.33 L272.50,107.31 L275.25,106.29 L278.00,105.27 L280.75,104.26 L283.50,103.26 L286.25,102.26 L289.00,101.27 L291.75,100.29 L294.50,99.31 L297.25,98.33 L300.00,97.36 L302.75,96.40 L305.50,95.44 L308.25,94.49 L311.00,93.54 L313.75,92.60 L316.50,91.66 L319.25,90.73 L322.00,89.80 L324.75,88.88 L327.50,87.96 L330.25,87.05 L333.00,86.14 L335.75,85.24 L338.50,84.34 L341.25,83.45 L344.00,82.56 L346.75,81.67 L349.50,80.79 L352.25,79.92 L355.00,79.05 L357.75,78.18 L360.50,77.32 L363.25,76.46 L366.00,75.61 L368.75,74.76 L371.50,73.91 L374.25,73.07 L377.00,72.23 L379.75,71.40 L382.50,70.57 L385.25,69.75 L388.00,68.93\" fill=\"none\" stroke=\"#2463a2\" stroke-width=\"2.5\"/><path d=\"M58.00,195.60 L60.75,194.45 L63.50,193.31 L66.25,192.16 L69.00,191.01 L71.75,189.87 L74.50,188.72 L77.25,187.57 L80.00,186.43 L82.75,185.28 L85.50,184.13 L88.25,182.99 L91.00,181.84 L93.75,180.69 L96.50,179.55 L99.25,178.40 L102.00,177.25 L104.75,176.11 L107.50,174.96 L110.25,173.81 L113.00,172.67 L115.75,171.52 L118.50,170.37 L121.25,169.23 L124.00,168.08 L126.75,166.93 L129.50,165.79 L132.25,164.64 L135.00,163.49 L137.75,162.35 L140.50,161.20 L143.25,160.05 L146.00,158.91 L148.75,157.76 L151.50,156.61 L154.25,155.47 L157.00,154.32 L159.75,153.17 L162.50,152.03 L165.25,150.88 L168.00,149.73 L170.75,148.59 L173.50,147.44 L176.25,146.29 L179.00,145.15 L181.75,144.00 L184.50,142.85 L187.25,141.71 L190.00,140.56 L192.75,139.41 L195.50,138.27 L198.25,137.12 L201.00,135.97 L203.75,134.83 L206.50,133.68 L209.25,132.53 L212.00,131.39 L214.75,130.24 L217.50,129.09 L220.25,127.95 L223.00,126.80 L225.75,125.65 L228.50,124.51 L231.25,123.36 L234.00,122.21 L236.75,121.07 L239.50,119.92 L242.25,118.77 L245.00,117.63 L247.75,116.48 L250.50,115.33 L253.25,114.19 L256.00,113.04 L258.75,111.89 L261.50,110.75 L264.25,109.60 L267.00,108.45 L269.75,107.31 L272.50,106.16 L275.25,105.01 L278.00,103.87 L280.75,102.72 L283.50,101.57 L286.25,100.43 L289.00,99.28 L291.75,98.13 L294.50,96.99 L297.25,95.84 L300.00,94.69 L302.75,93.55 L305.50,92.40 L308.25,91.25 L311.00,90.11 L313.75,88.96 L316.50,87.81 L319.25,86.67 L322.00,85.52 L324.75,84.37 L327.50,83.23 L330.25,82.08 L333.00,80.93 L335.75,79.79 L338.50,78.64 L341.25,77.49 L344.00,76.35 L346.75,75.20 L349.50,74.05 L352.25,72.91 L355.00,71.76 L357.75,70.61 L360.50,69.47 L363.25,68.32 L366.00,67.17 L368.75,66.03 L371.50,64.88 L374.25,63.73 L377.00,62.59 L379.75,61.44 L382.50,60.29 L385.25,59.15 L388.00,58.00\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><circle cx=\"223.00\" cy=\"126.80\" r=\"4\" fill=\"#173548\"/><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"58\" y=\"282\" fill=\"#2463a2\">Kurva</text><text x=\"210\" y=\"282\" fill=\"#a44d25\">Streckad linje: tangent</text></g></svg></span><p>Använd tangentlinjen till \\(y=\\ln x\\) vid \\(x=1\\) för att uppskatta \\(\\ln(1,05)\\).</p>",
-    "s": "<div class=\"facit-v2\"><p>För \\(f(x)=\\ln x\\) är \\(f^{\\prime}(x)=1/x\\). Vid x = 1 är värdet 0 och lutningen 1. Tangentlinjen är därför \\(y=x-1\\).</p><div class=\"facit-matte\">\\[\\ln(1{,}05)\\approx1{,}05-1=0{,}05.\\]</div><p><strong>Svar:</strong> 0,05.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm logaritmens tangent vid 1</p>\\[f(1)=0,\\qquad f^{\\prime}(1)=\\frac11=1\\]\\[L(x)=0+1(x-1)=x-1\\]</li><li><p class=\"facit-rubrik\">Sätt in 1,05 i linjen</p>\\[L(1{,}05)=1{,}05-1=0{,}05\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\ln(1{,}05)\\approx0{,}05\\).</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 0.05,
-    "tolerans": 0.001,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Vad är logaritmens värde och lutning vid x = 1? Använd sedan ändringen 0,05.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22661,21 +22656,21 @@ window.BANKMATF1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd linjär approximation kring \\(x_0=4\\) för att uppskatta \\(\\sqrt{4{,}1}\\).</p><p>Du får använda att \\(f(4)=2\\) och \\(f'(4)=0{,}25\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Nära \\(x_0\\) ersätts funktionen med tangentlinjen.</p></li><li><p>\\[L(x)=f(4)+f'(4)(x-4)=2+0{,}25(x-4).\\]</p></li><li><div class=\"facit-berakning\"><p>För</p><div class=\"facit-matte\">\\[x=4,1\\]:</div></div></li><li><p>\\[L(4,1)=2+0{,}25\\cdot0{,}1=2{,}025.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\sqrt{4{,}1}\\approx2{,}025\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd den givna tangentens lutning</p>\\[\\Delta x=4{,}1-4=0{,}1\\]\\[\\Delta y\\approx0{,}25\\cdot0{,}1=0{,}025\\]</li><li><p class=\"facit-rubrik\">Lägg höjdändringen till värdet vid 4</p>\\[L(4{,}1)=2+0{,}025=2{,}025\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt{4{,}1}\\approx2{,}025\\).</p></div>",
     "id": "3.118",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 2.025,
-    "tolerans": 0.001,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Beräkna ändringen från 4 till 4,1. Multiplicera den med den givna lutningen och lägg till startvärdet.</p>",
     "typ": "linjär approximation med givna tangentdata",
     "traningsniva": 1,
     "omrTidigare": [
@@ -22688,21 +22683,21 @@ window.BANKMATF1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd linjär approximation kring \\(x_0=1\\) för att uppskatta \\(\\ln(1,03)\\).</p><p>Du får använda att \\(f(1)=0\\) och \\(f'(1)=1\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den linjära approximationen är</p></li><li><p>\\[L(x)=f(1)+f'(1)(x-1)=x-1.\\]</p></li><li><p>Därför</p></li><li><p>\\[\\ln(1,03)\\approx L(1,03)=0{,}03.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(0{,}03\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna ändringen i x</p>\\[\\Delta x=1{,}03-1=0{,}03\\]</li><li><p class=\"facit-rubrik\">Låt tangentens lutning ge ändringen i y</p>\\[L(1{,}03)=0+1\\cdot0{,}03=0{,}03\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\ln(1{,}03)\\approx0{,}03\\).</p></div>",
     "id": "3.119",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 0.03,
-    "tolerans": 0.001,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Använd den givna lutningen och ändringen från 1 till 1,03.</p>",
     "typ": "linjär approximation med givna tangentdata",
     "traningsniva": 1,
     "omrTidigare": [
@@ -22715,21 +22710,21 @@ window.BANKMATF1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd linjär approximation kring \\(x_0=0\\) för att uppskatta \\(e^{0{,}05}\\).</p><p>Du får använda att \\(f(0)=1\\) och \\(f'(0)=1\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den linjära approximationen är</p></li><li><p>\\[L(x)=f(0)+f'(0)x=1+x.\\]</p></li><li><p>Alltså</p></li><li><p>\\[e^{0{,}05}\\approx L(0,05)=1{,}05.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(1{,}05\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna tangentens höjdändring</p>\\[\\Delta x=0{,}05-0=0{,}05\\]\\[\\Delta y\\approx1\\cdot0{,}05=0{,}05\\]</li><li><p class=\"facit-rubrik\">Addera ändringen till startvärdet 1</p>\\[L(0{,}05)=1+0{,}05=1{,}05\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^{0{,}05}\\approx1{,}05\\).</p></div>",
     "id": "3.120",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 1.05,
-    "tolerans": 0.001,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Tangentens startvärde och lutning är givna. Hur mycket ökar linjens värde när x ökar från 0 till 0,05?</p>",
     "typ": "linjär approximation med givna tangentdata",
     "traningsniva": 1,
     "omrTidigare": [
@@ -47829,14 +47824,14 @@ window.BANKMATF1 = [
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
     "t": "<p>Använd tangentlinjen till \\(f(x)=\\sqrt{x}\\) vid \\(x=36\\) för att uppskatta \\(\\sqrt{36{,}6}\\). Du får använda att \\(f(36)=6\\) och \\(f^{\\prime}(36)=1/12\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"180\" viewBox=\"0 0 420 180\" role=\"img\" aria-label=\"Tangentens utgångspunkt\"><rect width=\"420\" height=\"180\" rx=\"8\" fill=\"white\"/><g fill=\"#173548\" font-family=\"sans-serif\" font-size=\"17\"><text x=\"210\" y=\"30\" text-anchor=\"middle\">Tangentens utgångspunkt</text><text x=\"28\" y=\"68\">x</text><text x=\"392\" y=\"68\" text-anchor=\"end\">36</text><text x=\"28\" y=\"103\">f(x)</text><text x=\"392\" y=\"103\" text-anchor=\"end\">6</text><text x=\"28\" y=\"138\">Lutning</text><text x=\"392\" y=\"138\" text-anchor=\"end\">1/12</text></g></svg></span>",
-    "s": "<div class=\"facit-v2\"><p>Värdet ökar med ungefär lutningen gånger ändringen i x: \\[6+\\frac1{12}\\cdot0{,}6=6{,}05.\\]</p><p><strong>Svar:</strong> 6,05.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna tangentens höjdändring</p>\\[\\Delta x=36{,}6-36=0{,}6\\]\\[\\Delta y\\approx\\frac1{12}\\cdot0{,}6=0{,}05\\]</li><li><p class=\"facit-rubrik\">Lägg ökningen till det kända funktionsvärdet</p>\\[L(36{,}6)=6+0{,}05=6{,}05\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt{36{,}6}\\approx6{,}05\\).</p></div>",
     "id": "3.277",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 6.05,
-    "tolerans": 1e-06,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -47844,7 +47839,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Funktionsvärdets förändring är ungefär lutningen gånger förändringen i x.</p>",
+    "ledtrad": "<p>Multiplicera ändringen i x med den givna lutningen. Lägg sedan till värdet vid x = 36.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -47856,14 +47851,14 @@ window.BANKMATF1 = [
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
     "t": "<p>Vid \\(x=5\\) gäller \\(f(5)=12\\) och \\(f^{\\prime}(5)=-3\\). Använd tangentlinjen där för att uppskatta \\(f(4{,}9)\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"180\" viewBox=\"0 0 420 180\" role=\"img\" aria-label=\"Tangentens utgångspunkt\"><rect width=\"420\" height=\"180\" rx=\"8\" fill=\"white\"/><g fill=\"#173548\" font-family=\"sans-serif\" font-size=\"17\"><text x=\"210\" y=\"30\" text-anchor=\"middle\">Tangentens utgångspunkt</text><text x=\"28\" y=\"68\">x</text><text x=\"392\" y=\"68\" text-anchor=\"end\">5</text><text x=\"28\" y=\"103\">f(x)</text><text x=\"392\" y=\"103\" text-anchor=\"end\">12</text><text x=\"28\" y=\"138\">Lutning</text><text x=\"392\" y=\"138\" text-anchor=\"end\">−3</text></g></svg></span>",
-    "s": "<div class=\"facit-v2\"><p>Ändringen i x är \\(4{,}9-5=-0{,}1\\). Tangenten ger \\[12+(-3)\\cdot(-0{,}1)=12{,}3.\\] När x minskar och lutningen är negativ ökar funktionsvärdet.</p><p><strong>Svar:</strong> 12,3.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna ändringen från 5 till 4,9</p>\\[\\Delta x=4{,}9-5=-0{,}1\\]</li><li><p class=\"facit-rubrik\">Multiplicera med den negativa lutningen</p>\\[\\Delta y\\approx(-3)(-0{,}1)=0{,}3\\]\\[L(4{,}9)=12+0{,}3=12{,}3\\]<p>När x minskar på en linje med negativ lutning ökar linjens höjd.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(4{,}9)\\approx12{,}3\\).</p></div>",
     "id": "3.278",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 12.3,
-    "tolerans": 1e-06,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -47871,7 +47866,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Funktionsvärdets förändring är ungefär lutningen gånger förändringen i x.</p>",
+    "ledtrad": "<p>Både ändringen i x och tangentens lutning är negativa. Vilket tecken får deras produkt?</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -47883,14 +47878,14 @@ window.BANKMATF1 = [
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
     "t": "<p>Använd linjär approximation av \\(\\sqrt[3]{x}\\) kring \\(x=8\\) för att uppskatta \\(\\sqrt[3]{8,3}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> För \\(f(x)=x^{1/3}\\) är \\(f'(x)=1/(3x^{2/3})\\).</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f(8)=2\\) och \\(f'(8)=1/12\\).</p></li><li><p>\\[L(8,3)=2+\\frac{0{,}3}{12}=2{,}025.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,025</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Approximationen ska ligga nära det exakta värdet när \\(x\\) ligger nära utvecklingspunkten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm kubikrotens värde och lutning vid 8</p>\\[f(8)=2,\\qquad f^{\\prime}(x)=\\frac1{3x^{2/3}}\\]\\[f^{\\prime}(8)=\\frac1{3\\cdot2^2}=\\frac1{12}\\]</li><li><p class=\"facit-rubrik\">Sätt in ändringen 0,3 i tangentsambandet</p>\\[L(8{,}3)=2+\\frac{8{,}3-8}{12}\\]\\[=2+0{,}025=2{,}025\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt[3]{8{,}3}\\approx2{,}025\\).</p></div>",
     "id": "3.279",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 2.025,
-    "tolerans": 0.001,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -47898,7 +47893,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "ledtrad": "<p>Skriv kubikroten som x^(1/3) och beräkna derivatan vid 8.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -47910,14 +47905,14 @@ window.BANKMATF1 = [
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
     "t": "<p>Tangentlinjen till \\(y=\\ln x\\) vid \\(x=1\\) är \\(y=x-1\\). Använd den för att uppskatta \\(\\ln(0{,}97)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"y = ln x och tangenten vid x = 1\"><rect width=\"440\" height=\"300\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#173548\"><text x=\"220\" y=\"26\" text-anchor=\"middle\">y = ln x och tangenten vid x = 1</text><path d=\"M 58.00 58 V 230 M 58 230.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"58.00\" y=\"253\" text-anchor=\"middle\">0,8</text><text x=\"48\" y=\"235.00\" text-anchor=\"end\">-0,25</text><path d=\"M 140.50 58 V 230 M 58 187.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"140.50\" y=\"253\" text-anchor=\"middle\">0,9</text><text x=\"48\" y=\"192.00\" text-anchor=\"end\">-0,125</text><path d=\"M 223.00 58 V 230 M 58 144.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"223.00\" y=\"253\" text-anchor=\"middle\">1</text><text x=\"48\" y=\"149.00\" text-anchor=\"end\">0</text><path d=\"M 305.50 58 V 230 M 58 101.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"305.50\" y=\"253\" text-anchor=\"middle\">1,1</text><text x=\"48\" y=\"106.00\" text-anchor=\"end\">0,125</text><path d=\"M 388.00 58 V 230 M 58 58.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"388.00\" y=\"253\" text-anchor=\"middle\">1,2</text><text x=\"48\" y=\"63.00\" text-anchor=\"end\">0,25</text><path d=\"M 58 58 V 230 H 395\" fill=\"none\" stroke=\"#173548\" stroke-width=\"2\"/><text x=\"411\" y=\"236\">x</text><text x=\"58\" y=\"43\">y</text></g><path d=\"M58.00,220.76 L60.75,219.33 L63.50,217.91 L66.25,216.49 L69.00,215.08 L71.75,213.67 L74.50,212.27 L77.25,210.87 L80.00,209.48 L82.75,208.10 L85.50,206.72 L88.25,205.35 L91.00,203.98 L93.75,202.62 L96.50,201.26 L99.25,199.91 L102.00,198.56 L104.75,197.22 L107.50,195.88 L110.25,194.55 L113.00,193.23 L115.75,191.91 L118.50,190.59 L121.25,189.28 L124.00,187.97 L126.75,186.67 L129.50,185.38 L132.25,184.09 L135.00,182.80 L137.75,181.52 L140.50,180.24 L143.25,178.97 L146.00,177.71 L148.75,176.44 L151.50,175.19 L154.25,173.93 L157.00,172.68 L159.75,171.44 L162.50,170.20 L165.25,168.96 L168.00,167.73 L170.75,166.51 L173.50,165.29 L176.25,164.07 L179.00,162.85 L181.75,161.64 L184.50,160.44 L187.25,159.24 L190.00,158.04 L192.75,156.85 L195.50,155.66 L198.25,154.48 L201.00,153.30 L203.75,152.12 L206.50,150.95 L209.25,149.78 L212.00,148.62 L214.75,147.46 L217.50,146.30 L220.25,145.15 L223.00,144.00 L225.75,142.86 L228.50,141.71 L231.25,140.58 L234.00,139.44 L236.75,138.31 L239.50,137.19 L242.25,136.07 L245.00,134.95 L247.75,133.83 L250.50,132.72 L253.25,131.61 L256.00,130.51 L258.75,129.41 L261.50,128.31 L264.25,127.22 L267.00,126.13 L269.75,125.04 L272.50,123.96 L275.25,122.88 L278.00,121.80 L280.75,120.73 L283.50,119.66 L286.25,118.59 L289.00,117.53 L291.75,116.47 L294.50,115.41 L297.25,114.35 L300.00,113.30 L302.75,112.26 L305.50,111.21 L308.25,110.17 L311.00,109.13 L313.75,108.10 L316.50,107.07 L319.25,106.04 L322.00,105.01 L324.75,103.99 L327.50,102.97 L330.25,101.96 L333.00,100.94 L335.75,99.93 L338.50,98.93 L341.25,97.92 L344.00,96.92 L346.75,95.92 L349.50,94.93 L352.25,93.93 L355.00,92.94 L357.75,91.96 L360.50,90.97 L363.25,89.99 L366.00,89.01 L368.75,88.04 L371.50,87.06 L374.25,86.09 L377.00,85.12 L379.75,84.16 L382.50,83.20 L385.25,82.24 L388.00,81.28\" fill=\"none\" stroke=\"#2463a2\" stroke-width=\"2.5\"/><path d=\"M58.00,212.80 L60.75,211.65 L63.50,210.51 L66.25,209.36 L69.00,208.21 L71.75,207.07 L74.50,205.92 L77.25,204.77 L80.00,203.63 L82.75,202.48 L85.50,201.33 L88.25,200.19 L91.00,199.04 L93.75,197.89 L96.50,196.75 L99.25,195.60 L102.00,194.45 L104.75,193.31 L107.50,192.16 L110.25,191.01 L113.00,189.87 L115.75,188.72 L118.50,187.57 L121.25,186.43 L124.00,185.28 L126.75,184.13 L129.50,182.99 L132.25,181.84 L135.00,180.69 L137.75,179.55 L140.50,178.40 L143.25,177.25 L146.00,176.11 L148.75,174.96 L151.50,173.81 L154.25,172.67 L157.00,171.52 L159.75,170.37 L162.50,169.23 L165.25,168.08 L168.00,166.93 L170.75,165.79 L173.50,164.64 L176.25,163.49 L179.00,162.35 L181.75,161.20 L184.50,160.05 L187.25,158.91 L190.00,157.76 L192.75,156.61 L195.50,155.47 L198.25,154.32 L201.00,153.17 L203.75,152.03 L206.50,150.88 L209.25,149.73 L212.00,148.59 L214.75,147.44 L217.50,146.29 L220.25,145.15 L223.00,144.00 L225.75,142.85 L228.50,141.71 L231.25,140.56 L234.00,139.41 L236.75,138.27 L239.50,137.12 L242.25,135.97 L245.00,134.83 L247.75,133.68 L250.50,132.53 L253.25,131.39 L256.00,130.24 L258.75,129.09 L261.50,127.95 L264.25,126.80 L267.00,125.65 L269.75,124.51 L272.50,123.36 L275.25,122.21 L278.00,121.07 L280.75,119.92 L283.50,118.77 L286.25,117.63 L289.00,116.48 L291.75,115.33 L294.50,114.19 L297.25,113.04 L300.00,111.89 L302.75,110.75 L305.50,109.60 L308.25,108.45 L311.00,107.31 L313.75,106.16 L316.50,105.01 L319.25,103.87 L322.00,102.72 L324.75,101.57 L327.50,100.43 L330.25,99.28 L333.00,98.13 L335.75,96.99 L338.50,95.84 L341.25,94.69 L344.00,93.55 L346.75,92.40 L349.50,91.25 L352.25,90.11 L355.00,88.96 L357.75,87.81 L360.50,86.67 L363.25,85.52 L366.00,84.37 L368.75,83.23 L371.50,82.08 L374.25,80.93 L377.00,79.79 L379.75,78.64 L382.50,77.49 L385.25,76.35 L388.00,75.20\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><circle cx=\"223.00\" cy=\"144.00\" r=\"4\" fill=\"#173548\"/><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"58\" y=\"282\" fill=\"#2463a2\">Kurva</text><text x=\"210\" y=\"282\" fill=\"#a44d25\">Streckad linje: tangent</text></g></svg></span>",
-    "s": "<div class=\"facit-v2\"><p>Sätt in \\(x=0{,}97\\) i tangentens ekvation: \\[0{,}97-1=-0{,}03.\\]</p><p><strong>Svar:</strong> -0,03.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd tangentlinjen i stället för logaritmen</p><p>Den givna linjen är \\(L(x)=x-1\\).</p>\\[L(0{,}97)=0{,}97-1=-0{,}03\\]<p>Det negativa värdet är rimligt eftersom logaritmen är negativ när x ligger mellan 0 och 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\ln(0{,}97)\\approx-0{,}03\\).</p></div>",
     "id": "3.280",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": -0.03,
-    "tolerans": 1e-06,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -47925,7 +47920,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Funktionsvärdets förändring är ungefär lutningen gånger förändringen i x.</p>",
+    "ledtrad": "<p>Sätt in 0,97 som x-värde i den givna tangentlinjen.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -47937,14 +47932,14 @@ window.BANKMATF1 = [
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
     "t": "<p>Tangentlinjen till \\(y=e^{-x}\\) vid \\(x=0\\) är \\(y=1-x\\). Använd den för att uppskatta \\(e^{-0{,}04}\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"y = e⁻ˣ och tangenten vid x = 0\"><rect width=\"440\" height=\"300\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#173548\"><text x=\"220\" y=\"26\" text-anchor=\"middle\">y = e⁻ˣ och tangenten vid x = 0</text><path d=\"M 58.00 58 V 230 M 58 230.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"58.00\" y=\"253\" text-anchor=\"middle\">-0,2</text><text x=\"48\" y=\"235.00\" text-anchor=\"end\">0,75</text><path d=\"M 140.50 58 V 230 M 58 187.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"140.50\" y=\"253\" text-anchor=\"middle\">-0,1</text><text x=\"48\" y=\"192.00\" text-anchor=\"end\">0,875</text><path d=\"M 223.00 58 V 230 M 58 144.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"223.00\" y=\"253\" text-anchor=\"middle\">0</text><text x=\"48\" y=\"149.00\" text-anchor=\"end\">1</text><path d=\"M 305.50 58 V 230 M 58 101.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"305.50\" y=\"253\" text-anchor=\"middle\">0,1</text><text x=\"48\" y=\"106.00\" text-anchor=\"end\">1,125</text><path d=\"M 388.00 58 V 230 M 58 58.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"388.00\" y=\"253\" text-anchor=\"middle\">0,2</text><text x=\"48\" y=\"63.00\" text-anchor=\"end\">1,25</text><path d=\"M 58 58 V 230 H 395\" fill=\"none\" stroke=\"#173548\" stroke-width=\"2\"/><text x=\"411\" y=\"236\">x</text><text x=\"58\" y=\"43\">y</text></g><path d=\"M58.00,67.84 L60.75,69.24 L63.50,70.63 L66.25,72.02 L69.00,73.40 L71.75,74.78 L74.50,76.16 L77.25,77.53 L80.00,78.89 L82.75,80.26 L85.50,81.61 L88.25,82.96 L91.00,84.31 L93.75,85.66 L96.50,86.99 L99.25,88.33 L102.00,89.66 L104.75,90.98 L107.50,92.31 L110.25,93.62 L113.00,94.94 L115.75,96.24 L118.50,97.55 L121.25,98.85 L124.00,100.14 L126.75,101.43 L129.50,102.72 L132.25,104.00 L135.00,105.28 L137.75,106.55 L140.50,107.82 L143.25,109.09 L146.00,110.35 L148.75,111.60 L151.50,112.86 L154.25,114.11 L157.00,115.35 L159.75,116.59 L162.50,117.83 L165.25,119.06 L168.00,120.28 L170.75,121.51 L173.50,122.73 L176.25,123.94 L179.00,125.16 L181.75,126.36 L184.50,127.57 L187.25,128.77 L190.00,129.96 L192.75,131.15 L195.50,132.34 L198.25,133.52 L201.00,134.70 L203.75,135.88 L206.50,137.05 L209.25,138.22 L212.00,139.38 L214.75,140.54 L217.50,141.70 L220.25,142.85 L223.00,144.00 L225.75,145.14 L228.50,146.29 L231.25,147.42 L234.00,148.56 L236.75,149.69 L239.50,150.81 L242.25,151.93 L245.00,153.05 L247.75,154.17 L250.50,155.28 L253.25,156.38 L256.00,157.49 L258.75,158.59 L261.50,159.68 L264.25,160.78 L267.00,161.87 L269.75,162.95 L272.50,164.03 L275.25,165.11 L278.00,166.19 L280.75,167.26 L283.50,168.32 L286.25,169.39 L289.00,170.45 L291.75,171.50 L294.50,172.56 L297.25,173.61 L300.00,174.65 L302.75,175.70 L305.50,176.74 L308.25,177.77 L311.00,178.80 L313.75,179.83 L316.50,180.86 L319.25,181.88 L322.00,182.90 L324.75,183.91 L327.50,184.93 L330.25,185.94 L333.00,186.94 L335.75,187.94 L338.50,188.94 L341.25,189.94 L344.00,190.93 L346.75,191.92 L349.50,192.90 L352.25,193.88 L355.00,194.86 L357.75,195.84 L360.50,196.81 L363.25,197.78 L366.00,198.75 L368.75,199.71 L371.50,200.67 L374.25,201.62 L377.00,202.58 L379.75,203.53 L382.50,204.47 L385.25,205.42 L388.00,206.36\" fill=\"none\" stroke=\"#2463a2\" stroke-width=\"2.5\"/><path d=\"M58.00,75.20 L60.75,76.35 L63.50,77.49 L66.25,78.64 L69.00,79.79 L71.75,80.93 L74.50,82.08 L77.25,83.23 L80.00,84.37 L82.75,85.52 L85.50,86.67 L88.25,87.81 L91.00,88.96 L93.75,90.11 L96.50,91.25 L99.25,92.40 L102.00,93.55 L104.75,94.69 L107.50,95.84 L110.25,96.99 L113.00,98.13 L115.75,99.28 L118.50,100.43 L121.25,101.57 L124.00,102.72 L126.75,103.87 L129.50,105.01 L132.25,106.16 L135.00,107.31 L137.75,108.45 L140.50,109.60 L143.25,110.75 L146.00,111.89 L148.75,113.04 L151.50,114.19 L154.25,115.33 L157.00,116.48 L159.75,117.63 L162.50,118.77 L165.25,119.92 L168.00,121.07 L170.75,122.21 L173.50,123.36 L176.25,124.51 L179.00,125.65 L181.75,126.80 L184.50,127.95 L187.25,129.09 L190.00,130.24 L192.75,131.39 L195.50,132.53 L198.25,133.68 L201.00,134.83 L203.75,135.97 L206.50,137.12 L209.25,138.27 L212.00,139.41 L214.75,140.56 L217.50,141.71 L220.25,142.85 L223.00,144.00 L225.75,145.15 L228.50,146.29 L231.25,147.44 L234.00,148.59 L236.75,149.73 L239.50,150.88 L242.25,152.03 L245.00,153.17 L247.75,154.32 L250.50,155.47 L253.25,156.61 L256.00,157.76 L258.75,158.91 L261.50,160.05 L264.25,161.20 L267.00,162.35 L269.75,163.49 L272.50,164.64 L275.25,165.79 L278.00,166.93 L280.75,168.08 L283.50,169.23 L286.25,170.37 L289.00,171.52 L291.75,172.67 L294.50,173.81 L297.25,174.96 L300.00,176.11 L302.75,177.25 L305.50,178.40 L308.25,179.55 L311.00,180.69 L313.75,181.84 L316.50,182.99 L319.25,184.13 L322.00,185.28 L324.75,186.43 L327.50,187.57 L330.25,188.72 L333.00,189.87 L335.75,191.01 L338.50,192.16 L341.25,193.31 L344.00,194.45 L346.75,195.60 L349.50,196.75 L352.25,197.89 L355.00,199.04 L357.75,200.19 L360.50,201.33 L363.25,202.48 L366.00,203.63 L368.75,204.77 L371.50,205.92 L374.25,207.07 L377.00,208.21 L379.75,209.36 L382.50,210.51 L385.25,211.65 L388.00,212.80\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><circle cx=\"223.00\" cy=\"144.00\" r=\"4\" fill=\"#173548\"/><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"58\" y=\"282\" fill=\"#2463a2\">Kurva</text><text x=\"210\" y=\"282\" fill=\"#a44d25\">Streckad linje: tangent</text></g></svg></span>",
-    "s": "<div class=\"facit-v2\"><p>Tangentlinjen ger \\[1-0{,}04=0{,}96.\\]</p><p><strong>Svar:</strong> 0,96.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in x = 0,04 i tangentlinjen</p>\\[L(0{,}04)=1-0{,}04=0{,}96\\]<p>Vi använder positivt x = 0,04; minustecknet finns redan i funktionen e⁻ˣ och i tangentens lutning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^{-0{,}04}\\approx0{,}96\\).</p></div>",
     "id": "3.281",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 0.96,
-    "tolerans": 1e-06,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -47952,7 +47947,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Funktionsvärdets förändring är ungefär lutningen gånger förändringen i x.</p>",
+    "ledtrad": "<p>I uttrycket e^(−0,04) är x = 0,04. Sätt in det i den givna linjen y = 1−x.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -47964,14 +47959,14 @@ window.BANKMATF1 = [
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
     "t": "<p>Använd linjär approximation av \\(1/x\\) kring \\(x=1\\) för att uppskatta \\(1/1{,}02\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> För \\(f(x)=1/x\\) är \\(f(1)=1\\) och \\(f'(1)=-1\\).</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L(x)=1-(x-1)=2-x\\].</div></li><li><div class=\"facit-matte\">\\[L(1,02)=0{,}98\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,98</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Approximationen ska ligga nära det exakta värdet när \\(x\\) ligger nära utvecklingspunkten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna funktionens värde och derivata</p>\\[f(1)=1,\\qquad f^{\\prime}(x)=-\\frac1{x^2}\\]\\[f^{\\prime}(1)=-1\\]</li><li><p class=\"facit-rubrik\">Uppskatta förändringen när x ökar med 0,02</p>\\[L(1{,}02)=1-1(1{,}02-1)\\]\\[=1-0{,}02=0{,}98\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1/1{,}02\\approx0{,}98\\).</p></div>",
     "id": "3.282",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 0.98,
-    "tolerans": 0.001,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -47979,7 +47974,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "ledtrad": "<p>Använd f(x) = 1/x. Bestäm tangentens värde och lutning vid 1.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -47991,22 +47986,22 @@ window.BANKMATF1 = [
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
     "t": "<p>Bestäm lutningen på den linjära approximationen till \\(f(x)=\\sqrt{x}\\) vid \\(x=9\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Lutningen på den linjära approximationen är derivatan i utvecklingspunkten.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=1/(2\\sqrt x)\\].</div></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[f'(9)=1/(2\\cdot3)=1/6\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1/6</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Approximationen ska ligga nära det exakta värdet när \\(x\\) ligger nära utvecklingspunkten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera kvadratroten</p>\\[f(x)=x^{1/2}\\]\\[f^{\\prime}(x)=\\frac1{2\\sqrt x}\\]</li><li><p class=\"facit-rubrik\">Sätt in tangentpunktens x-värde</p>\\[f^{\\prime}(9)=\\frac1{2\\cdot3}=\\frac16\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lutningen är \\(1/6\\).</p></div>",
     "id": "3.283",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
-    "svarstyp": "bråk",
-    "rättSvar": "1/6",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.16666666666666666,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "traningsniva": 1,
-    "svarFormat": "bråk",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tangentens lutning är derivatan av √x vid x = 9.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -48018,14 +48013,14 @@ window.BANKMATF1 = [
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
     "t": "<p>Tangenten till kurvan \\(y=\\ln x\\) vid \\(x=1\\) kan skrivas \\(y=x+c\\).</p><p>Bestäm konstanten \\(c\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> Använd</p><div class=\"facit-matte\">\\[L(x)=f(a)+f'(a)(x-a)\\].</div></div></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(a=1\\): \\(f(1)=0\\),</p></li><li><div class=\"facit-matte\">\\[f'(1)=1\\].</div></li><li><p>\\(L(x)=0+1(x-1)=x-1\\), alltså \\(c=-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> -1</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Approximationen ska ligga nära det exakta värdet när \\(x\\) ligger nära utvecklingspunkten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm punkten som tangenten går genom</p>\\[x=1,\\qquad y=\\ln1=0\\]<p>Tangenten går alltså genom (1, 0).</p></li><li><p class=\"facit-rubrik\">Sätt in punkten i den givna linjens ekvation</p>\\[0=1+c\\quad\\Rightarrow\\quad c=-1\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c=-1\\).</p></div>",
     "id": "3.284",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": -1,
-    "tolerans": 0,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -48033,7 +48028,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Tangenten går genom punkten på kurvan där \\(x=1\\). Sätt in punktens koordinater i \\(y=x+c\\).</p>",
+    "ledtrad": "<p>Tangenten går genom kurvans punkt där x = 1. Sätt in punktens koordinater i y = x+c.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -48042,10 +48037,10 @@ window.BANKMATF1 = [
     "id": "3.286",
     "kap": 3,
     "omr": "linjar_approximation",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p><strong>a)</strong> Använd linjär approximation av \\(f(x)=\\sqrt x\\) kring \\(x=4\\) för att uppskatta \\(\\sqrt{4{,}1}\\). Svara med tre decimaler.</p><p><strong>b)</strong> Felet i approximationen är ungefär proportionellt mot \\(h^2\\), där \\(h\\) är avståndet från 4. Ungefär hur många gånger mindre blir felet om man i stället uppskattar \\(\\sqrt{4{,}01}\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f(4)=2\\) och \\(f'(x)=\\frac1{2\\sqrt x}\\), så \\(f'(4)=\\frac14\\).</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\sqrt{4{,}1}\\approx2+\\frac14\\cdot0{,}1=2{,}025.\\]</p></li><li><p>Det verkliga värdet är \\(2{,}02485\\ldots\\), så felet är cirka \\(1{,}5\\cdot10^{-4}\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(h\\) blir tio gånger mindre, så felet blir ungefär \\(10^2=100\\) gånger mindre.</p></li><li><p>Kontroll: approximationen \\(2{,}0025\\) har felet cirka \\(1{,}6\\cdot10^{-6}\\).</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) 2,025 &nbsp; b) ungefär 100 gånger mindre</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Bestäm tangentens lutning vid 4</p>\\[f(4)=2,\\qquad f^{\\prime}(4)=\\frac1{2\\sqrt4}=\\frac14\\]</li><li><p class=\"facit-rubrik\">a) Beräkna tangentens värde vid 4,1</p>\\[L(4{,}1)=2+\\frac14(4{,}1-4)\\]\\[=2+0{,}025=2{,}025\\]</li><li><p class=\"facit-rubrik\">b) Jämför avstånden från tangentpunkten</p>\\[h_1=4{,}1-4=0{,}1\\]\\[h_2=4{,}01-4=0{,}01\\]</li><li><p class=\"facit-rubrik\">b) Kvadrera förhållandet eftersom felet följer h²</p>\\[\\frac{\\text{fel}_1}{\\text{fel}_2}\\approx\\frac{0{,}1^2}{0{,}01^2}=100\\]<p>Det nya felet är ungefär en hundradel av det första.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(2{,}025\\). b) Felet blir ungefär \\(100\\) gånger mindre.</p></div>",
     "familj": "Linjär approximation med derivata",
     "formaga": [
       "procedur",
@@ -48054,18 +48049,15 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Linjär approximation: \\(f(a+h)\\approx f(a)+f'(a)h\\). Vad händer med \\(h^2\\) när \\(h\\) blir tio gånger mindre?</p>",
+    "ledtrad": "<p>I a används kvadratrotens värde och derivata vid 4. I b ska du jämföra kvadraterna av de två avstånden från 4.</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "svarstyp": "flera_delar",
     "rättSvar": [
       2.025,
       100
     ],
-    "tolerans": [
-      0.0005,
-      5
-    ],
+    "tolerans": [0.0005, 1e-10],
     "svarEtiketter": [
       "a)",
       "b)"
@@ -48076,6 +48068,8 @@ window.BANKMATF1 = [
       null,
       null
     ]
+  ,
+    "svarFormat": ["numeriskt", "numeriskt"]
   },
   {
     "kap": 3,
@@ -48084,7 +48078,7 @@ window.BANKMATF1 = [
     "typ": "tangentapproximation i en punkt",
     "poang": "3/1/0",
     "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><ol type=\"a\"><li>\\(f(x)=x^2\\) kring \\(a=3\\)</li><li>\\(f(x)=x^3-2x+3\\) kring \\(a=2\\)</li><li>\\(f(x)=e^{2x}\\) kring \\(a=0\\)</li><li>\\(f(x)=\\tan x\\) kring \\(a=\\dfrac\\pi4\\)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(3)=9\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2x\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(3)=6\\].</div></li><li><div class=\"facit-matte\">\\[y=9+6(x-3)=6x-9\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=6x-9\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(2)=8-4+3=7\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=3x^2-2\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(2)=10\\].</div></li><li><div class=\"facit-matte\">\\[y=7+10(x-2)=10x-13\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=10x-13\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(0)=1\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2e^{2x}\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(0)=2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+1\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f\\left(\\tfrac\\pi4\\right)=1\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\dfrac{1}{\\cos^2x}\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}\\left(\\tfrac\\pi4\\right)=2\\].</div></li><li><div class=\"facit-matte\">\\[y=1+2\\left(x-\\dfrac\\pi4\\right)=2x+1-\\dfrac\\pi2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+1-\\dfrac\\pi2\\)</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna höjden och lutningen vid 3</p>\\[f(3)=3^2=9\\]\\[f^{\\prime}(x)=2x,\\qquad f^{\\prime}(3)=6\\]</li><li><p class=\"facit-rubrik\">Skriv tangenten och utveckla parentesen</p>\\[y=9+6(x-3)\\]\\[=9+6x-18=6x-9\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=6x-9\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm tangentpunktens höjd</p>\\[f(2)=2^3-2\\cdot2+3=7\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens lutning</p>\\[f^{\\prime}(x)=3x^2-2\\]\\[f^{\\prime}(2)=3\\cdot4-2=10\\]</li><li><p class=\"facit-rubrik\">Skriv linjen på den efterfrågade formen</p>\\[y=7+10(x-2)\\]\\[=7+10x-20=10x-13\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=10x-13\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm värdet och lutningen vid noll</p>\\[f(0)=e^0=1\\]\\[f^{\\prime}(x)=2e^{2x},\\qquad f^{\\prime}(0)=2\\]</li><li><p class=\"facit-rubrik\">Sätt in värdena i tangentens ekvation</p>\\[y=1+2(x-0)=2x+1\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+1\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna funktionens värde vid π/4</p>\\[f(\\pi/4)=\\tan(\\pi/4)=1\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens lutning</p>\\[f^{\\prime}(x)=\\frac1{\\cos^2x}\\]\\[f^{\\prime}(\\pi/4)=\\frac1{(\\sqrt2/2)^2}=2\\]</li><li><p class=\"facit-rubrik\">Skriv linjen genom tangentpunkten</p>\\[y=1+2\\left(x-\\frac\\pi4\\right)\\]\\[=2x+1-\\frac\\pi2\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+1-\\pi/2\\).</p></div></div></div></div>",
     "id": "3.312",
     "miniräknare": false,
     "geogebra": false,
@@ -48121,48 +48115,7 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "\\(f(x)=x^2\\) kring \\(a=3\\)",
-        "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><p>\\(f(x)=x^2\\) kring \\(a=3\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(3)=9\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2x\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(3)=6\\].</div></li><li><div class=\"facit-matte\">\\[y=9+6(x-3)=6x-9\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=6x-9\\)</p></div>",
-        "ledtrad": "<p>Bestäm funktionsvärdet och derivatans värde i punkten.</p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "\\(f(x)=x^3-2x+3\\) kring \\(a=2\\)",
-        "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><p>\\(f(x)=x^3-2x+3\\) kring \\(a=2\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(2)=8-4+3=7\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=3x^2-2\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(2)=10\\].</div></li><li><div class=\"facit-matte\">\\[y=7+10(x-2)=10x-13\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=10x-13\\)</p></div>",
-        "ledtrad": "<p>Använd \\(y=f(a)+f^{\\prime}(a)(x-a)\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2
-      },
-      {
-        "etikett": "c",
-        "fraga": "\\(f(x)=e^{2x}\\) kring \\(a=0\\)",
-        "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><p>\\(f(x)=e^{2x}\\) kring \\(a=0\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(0)=1\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2e^{2x}\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(0)=2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+1\\)</p></div>",
-        "ledtrad": "<p>Glöm inte den inre derivatan.</p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2
-      },
-      {
-        "etikett": "d",
-        "fraga": "\\(f(x)=\\tan x\\) kring \\(a=\\dfrac\\pi4\\)",
-        "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><p>\\(f(x)=\\tan x\\) kring \\(a=\\dfrac\\pi4\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f\\left(\\tfrac\\pi4\\right)=1\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\dfrac{1}{\\cos^2x}\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}\\left(\\tfrac\\pi4\\right)=2\\].</div></li><li><div class=\"facit-matte\">\\[y=1+2\\left(x-\\dfrac\\pi4\\right)=2x+1-\\dfrac\\pi2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+1-\\dfrac\\pi2\\)</p></div>",
-        "ledtrad": "<p>Derivatan av \\(\\tan x\\) är \\(\\dfrac1{\\cos^2x}\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0",
-        "traningsniva": 3
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "\\(f(x)=x^2\\) kring \\(a=3\\)", "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><p>\\(f(x)=x^2\\) kring \\(a=3\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna höjden och lutningen vid 3</p>\\[f(3)=3^2=9\\]\\[f^{\\prime}(x)=2x,\\qquad f^{\\prime}(3)=6\\]</li><li><p class=\"facit-rubrik\">Skriv tangenten och utveckla parentesen</p>\\[y=9+6(x-3)\\]\\[=9+6x-18=6x-9\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=6x-9\\).</p></div>", "ledtrad": "<p>Tangenten går genom (3, f(3)) och har lutningen f′(3).</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 2}, {"etikett": "b", "fraga": "\\(f(x)=x^3-2x+3\\) kring \\(a=2\\)", "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><p>\\(f(x)=x^3-2x+3\\) kring \\(a=2\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm tangentpunktens höjd</p>\\[f(2)=2^3-2\\cdot2+3=7\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens lutning</p>\\[f^{\\prime}(x)=3x^2-2\\]\\[f^{\\prime}(2)=3\\cdot4-2=10\\]</li><li><p class=\"facit-rubrik\">Skriv linjen på den efterfrågade formen</p>\\[y=7+10(x-2)\\]\\[=7+10x-20=10x-13\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=10x-13\\).</p></div>", "ledtrad": "<p>Beräkna först både funktionsvärdet och derivatans värde vid 2.</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 2}, {"etikett": "c", "fraga": "\\(f(x)=e^{2x}\\) kring \\(a=0\\)", "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><p>\\(f(x)=e^{2x}\\) kring \\(a=0\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm värdet och lutningen vid noll</p>\\[f(0)=e^0=1\\]\\[f^{\\prime}(x)=2e^{2x},\\qquad f^{\\prime}(0)=2\\]</li><li><p class=\"facit-rubrik\">Sätt in värdena i tangentens ekvation</p>\\[y=1+2(x-0)=2x+1\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+1\\).</p></div>", "ledtrad": "<p>Glöm inte kedjeregelns faktor 2 när e^(2x) deriveras.</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 2}, {"etikett": "d", "fraga": "\\(f(x)=\\tan x\\) kring \\(a=\\dfrac\\pi4\\)", "t": "<p>Bestäm den linjära approximationen \\(y(x)=f(a)+f^{\\prime}(a)(x-a)\\) av funktionen kring den angivna punkten. Svara på formen \\(y=kx+m\\).</p><p>\\(f(x)=\\tan x\\) kring \\(a=\\dfrac\\pi4\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna funktionens värde vid π/4</p>\\[f(\\pi/4)=\\tan(\\pi/4)=1\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens lutning</p>\\[f^{\\prime}(x)=\\frac1{\\cos^2x}\\]\\[f^{\\prime}(\\pi/4)=\\frac1{(\\sqrt2/2)^2}=2\\]</li><li><p class=\"facit-rubrik\">Skriv linjen genom tangentpunkten</p>\\[y=1+2\\left(x-\\frac\\pi4\\right)\\]\\[=2x+1-\\frac\\pi2\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+1-\\pi/2\\).</p></div>", "ledtrad": "<p>Använd derivatan av tan x och de exakta trigonometriska värdena vid π/4.</p>", "niva": "C", "poang": "0/1/0", "traningsniva": 3}],
     "ledtrad": "<p>Tangentens ekvation är den linjära approximationen.</p>",
     "traningsniva": 3
   },
@@ -48173,20 +48126,14 @@ window.BANKMATF1 = [
     "typ": "välja lämplig punkt",
     "poang": "2/2/0",
     "t": "<p>Använd en linjär approximation kring en lämplig punkt \\(a\\) för att uppskatta värdet utan räknare.</p><ol type=\"a\"><li>\\(f(x)=(1+x)^3\\). Uppskatta \\(f(2{,}1)\\).</li><li>\\(f(x)=\\sqrt[3]{x}\\). Uppskatta \\(\\sqrt[3]{8{,}5}\\). Svara med tre decimaler.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Välj \\(a=2\\): \\(f(2)=27\\),</p></li><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=3(1+x)^2\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(2)=27\\].</div></li><li><div class=\"facit-matte\">\\[f(2{,}1)\\approx27+27\\cdot0{,}1=29{,}7\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 29,7</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Välj \\(a=8\\): \\(f(8)=2\\),</p></li><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\dfrac{1}{3x^{2/3}}\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(8)=\\dfrac1{12}\\].</div></li><li><div class=\"facit-matte\">\\[\\sqrt[3]{8{,}5}\\approx2+\\dfrac{0{,}5}{12}=\\dfrac{49}{24}\\approx2{,}042\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx2{,}042\\)</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj tangentpunkten x = 2</p>\\[f(2)=(1+2)^3=27\\]</li><li><p class=\"facit-rubrik\">Bestäm derivatans värde i samma punkt</p>\\[f^{\\prime}(x)=3(1+x)^2\\]\\[f^{\\prime}(2)=3\\cdot9=27\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens värde vid 2,1</p>\\[L(2{,}1)=27+27(2{,}1-2)\\]\\[=27+2{,}7=29{,}7\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(2{,}1)\\approx29{,}7\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj tangentpunkten x = 8</p>\\[f(8)=2,\\qquad f^{\\prime}(x)=\\frac1{3x^{2/3}}\\]\\[f^{\\prime}(8)=\\frac1{3\\cdot4}=\\frac1{12}\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens värde och avrunda på slutet</p>\\[L(8{,}5)=2+\\frac{0{,}5}{12}=\\frac{49}{24}\\]\\[=2{,}041666\\ldots\\approx2{,}042\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt[3]{8{,}5}\\approx2{,}042\\).</p></div></div></div></div>",
     "id": "3.313",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "flera_delar",
-    "rättSvar": [
-      29.7,
-      2.042
-    ],
-    "tolerans": [
-      0.001,
-      0.0006
-    ],
+    "rättSvar": [29.7, 2.0416666666666665],
+    "tolerans": [1e-10, 0.0005],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -48203,28 +48150,7 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Använd en linjär approximation kring en lämplig punkt \\(a\\) för att uppskatta värdet utan räknare.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "\\(f(x)=(1+x)^3\\). Uppskatta \\(f(2{,}1)\\).",
-        "t": "<p>Använd en linjär approximation kring en lämplig punkt \\(a\\) för att uppskatta värdet utan räknare.</p><p>\\(f(x)=(1+x)^3\\). Uppskatta \\(f(2{,}1)\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Välj \\(a=2\\): \\(f(2)=27\\),</p></li><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=3(1+x)^2\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(2)=27\\].</div></li><li><div class=\"facit-matte\">\\[f(2{,}1)\\approx27+27\\cdot0{,}1=29{,}7\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 29,7</p></div>",
-        "ledtrad": "<p>Välj \\(a\\) så att \\(f(a)\\) och \\(f^{\\prime}(a)\\) är lätta att räkna ut.</p>",
-        "niva": "E",
-        "poang": "1/1/0",
-        "traningsniva": 2
-      },
-      {
-        "etikett": "b",
-        "fraga": "\\(f(x)=\\sqrt[3]{x}\\). Uppskatta \\(\\sqrt[3]{8{,}5}\\). Svara med tre decimaler.",
-        "t": "<p>Använd en linjär approximation kring en lämplig punkt \\(a\\) för att uppskatta värdet utan räknare.</p><p>\\(f(x)=\\sqrt[3]{x}\\). Uppskatta \\(\\sqrt[3]{8{,}5}\\). Svara med tre decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Välj \\(a=8\\): \\(f(8)=2\\),</p></li><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\dfrac{1}{3x^{2/3}}\\],</div></li><li><div class=\"facit-matte\">\\[f^{\\prime}(8)=\\dfrac1{12}\\].</div></li><li><div class=\"facit-matte\">\\[\\sqrt[3]{8{,}5}\\approx2+\\dfrac{0{,}5}{12}=\\dfrac{49}{24}\\approx2{,}042\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx2{,}042\\)</p></div>",
-        "ledtrad": "<p>Vilket tal nära 8,5 har en känd kubikrot?</p>",
-        "niva": "C",
-        "poang": "1/1/0",
-        "traningsniva": 3
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "\\(f(x)=(1+x)^3\\). Uppskatta \\(f(2{,}1)\\).", "t": "<p>Använd en linjär approximation kring en lämplig punkt \\(a\\) för att uppskatta värdet utan räknare.</p><p>\\(f(x)=(1+x)^3\\). Uppskatta \\(f(2{,}1)\\).</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj tangentpunkten x = 2</p>\\[f(2)=(1+2)^3=27\\]</li><li><p class=\"facit-rubrik\">Bestäm derivatans värde i samma punkt</p>\\[f^{\\prime}(x)=3(1+x)^2\\]\\[f^{\\prime}(2)=3\\cdot9=27\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens värde vid 2,1</p>\\[L(2{,}1)=27+27(2{,}1-2)\\]\\[=27+2{,}7=29{,}7\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(2{,}1)\\approx29{,}7\\).</p></div>", "ledtrad": "<p>Välj ett heltal nära 2,1 där både (1+x)³ och derivatan är enkla att beräkna.</p>", "niva": "E", "poang": "1/1/0", "traningsniva": 2}, {"etikett": "b", "fraga": "\\(f(x)=\\sqrt[3]{x}\\). Uppskatta \\(\\sqrt[3]{8{,}5}\\). Svara med tre decimaler.", "t": "<p>Använd en linjär approximation kring en lämplig punkt \\(a\\) för att uppskatta värdet utan räknare.</p><p>\\(f(x)=\\sqrt[3]{x}\\). Uppskatta \\(\\sqrt[3]{8{,}5}\\). Svara med tre decimaler.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj tangentpunkten x = 8</p>\\[f(8)=2,\\qquad f^{\\prime}(x)=\\frac1{3x^{2/3}}\\]\\[f^{\\prime}(8)=\\frac1{3\\cdot4}=\\frac1{12}\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens värde och avrunda på slutet</p>\\[L(8{,}5)=2+\\frac{0{,}5}{12}=\\frac{49}{24}\\]\\[=2{,}041666\\ldots\\approx2{,}042\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt[3]{8{,}5}\\approx2{,}042\\).</p></div>", "ledtrad": "<p>Vilken perfekt kub ligger nära 8,5? Beräkna värdet och derivatan där.</p>", "niva": "C", "poang": "1/1/0", "traningsniva": 3}],
     "ledtrad": "<p>Välj en punkt där funktionen är lätt att beräkna.</p>",
     "traningsniva": 3
   },
@@ -48235,7 +48161,7 @@ window.BANKMATF1 = [
     "typ": "approximationen (1+x)^k ≈ 1+kx",
     "poang": "2/2/0",
     "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><ol type=\"a\"><li>\\(1{,}002^{50}\\)</li><li>\\(0{,}998^{40}\\)</li><li>\\(1{,}004^{-15}\\)</li><li>\\(\\sqrt[3]{1{,}009}\\)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=0{,}002\\],</div></li><li><p>\\(k=50\\): \\(1+50\\cdot0{,}002=1{,}1\\). (Exakt värde \\(\\approx1{,}105\\).)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,1</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=-0{,}002\\],</div></li><li><p>\\(k=40\\): \\(1-0{,}08=0{,}92\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,92</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=0{,}004\\],</div></li><li><p>\\(k=-15\\): \\(1-0{,}06=0{,}94\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,94</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=0{,}009\\],</div></li><li><p>\\(k=\\tfrac13\\): \\(1+0{,}003=1{,}003\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,003</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Identifiera ändringen från 1 och exponenten</p>\\[1{,}002=1+0{,}002\\]\\[x=0{,}002,\\qquad k=50\\]</li><li><p class=\"facit-rubrik\">Använd det givna linjära uttrycket</p>\\[1+kx=1+50\\cdot0{,}002\\]\\[=1+0{,}1=1{,}1\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}002^{50}\\approx1{,}1\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv basen som 1 plus en negativ ändring</p>\\[0{,}998=1-0{,}002\\]\\[x=-0{,}002,\\qquad k=40\\]</li><li><p class=\"facit-rubrik\">Sätt in värdena med rätt tecken</p>\\[1+kx=1+40(-0{,}002)\\]\\[=1-0{,}08=0{,}92\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}998^{40}\\approx0{,}92\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Identifiera ändringen och den negativa exponenten</p>\\[1{,}004=1+0{,}004\\]\\[x=0{,}004,\\qquad k=-15\\]</li><li><p class=\"facit-rubrik\">Beräkna den negativa förändringen</p>\\[1+kx=1-15\\cdot0{,}004\\]\\[=1-0{,}06=0{,}94\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}004^{-15}\\approx0{,}94\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv om roten till en potens</p>\\[\\sqrt[3]{1{,}009}=(1+0{,}009)^{1/3}\\]<p>Alltså är \\(x=0{,}009\\) och \\(k=1/3\\).</p></li><li><p class=\"facit-rubrik\">Använd det givna approximationsuttrycket</p>\\[1+kx=1+\\frac13\\cdot0{,}009\\]\\[=1+0{,}003=1{,}003\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt[3]{1{,}009}\\approx1{,}003\\).</p></div></div></div></div>",
     "id": "3.314",
     "miniräknare": false,
     "geogebra": false,
@@ -48247,12 +48173,7 @@ window.BANKMATF1 = [
       0.94,
       1.003
     ],
-    "tolerans": [
-      0.0001,
-      0.0001,
-      0.0001,
-      1e-05
-    ],
+    "tolerans": [1e-10, 1e-10, 1e-10, 1e-10],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -48273,48 +48194,7 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "\\(1{,}002^{50}\\)",
-        "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><p>\\(1{,}002^{50}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=0{,}002\\],</div></li><li><p>\\(k=50\\): \\(1+50\\cdot0{,}002=1{,}1\\). (Exakt värde \\(\\approx1{,}105\\).)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,1</p></div>",
-        "ledtrad": "<p>Identifiera \\(x\\) och \\(k\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2
-      },
-      {
-        "etikett": "b",
-        "fraga": "\\(0{,}998^{40}\\)",
-        "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><p>\\(0{,}998^{40}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=-0{,}002\\],</div></li><li><p>\\(k=40\\): \\(1-0{,}08=0{,}92\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,92</p></div>",
-        "ledtrad": "<p>Skriv 0,998 som \\(1+x\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2
-      },
-      {
-        "etikett": "c",
-        "fraga": "\\(1{,}004^{-15}\\)",
-        "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><p>\\(1{,}004^{-15}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=0{,}004\\],</div></li><li><p>\\(k=-15\\): \\(1-0{,}06=0{,}94\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,94</p></div>",
-        "ledtrad": "<p>Exponenten kan vara negativ.</p>",
-        "niva": "C",
-        "poang": "0/1/0",
-        "traningsniva": 3
-      },
-      {
-        "etikett": "d",
-        "fraga": "\\(\\sqrt[3]{1{,}009}\\)",
-        "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><p>\\(\\sqrt[3]{1{,}009}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=0{,}009\\],</div></li><li><p>\\(k=\\tfrac13\\): \\(1+0{,}003=1{,}003\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,003</p></div>",
-        "ledtrad": "<p>Skriv kubikroten som en potens.</p>",
-        "niva": "C",
-        "poang": "0/1/0",
-        "traningsniva": 3
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "\\(1{,}002^{50}\\)", "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><p>\\(1{,}002^{50}\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Identifiera ändringen från 1 och exponenten</p>\\[1{,}002=1+0{,}002\\]\\[x=0{,}002,\\qquad k=50\\]</li><li><p class=\"facit-rubrik\">Använd det givna linjära uttrycket</p>\\[1+kx=1+50\\cdot0{,}002\\]\\[=1+0{,}1=1{,}1\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}002^{50}\\approx1{,}1\\).</p></div>", "ledtrad": "<p>Skriv basen som 1 plus en liten ändring. Exponenten är k.</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 2}, {"etikett": "b", "fraga": "\\(0{,}998^{40}\\)", "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><p>\\(0{,}998^{40}\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv basen som 1 plus en negativ ändring</p>\\[0{,}998=1-0{,}002\\]\\[x=-0{,}002,\\qquad k=40\\]</li><li><p class=\"facit-rubrik\">Sätt in värdena med rätt tecken</p>\\[1+kx=1+40(-0{,}002)\\]\\[=1-0{,}08=0{,}92\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}998^{40}\\approx0{,}92\\).</p></div>", "ledtrad": "<p>Basen ligger under 1, så ändringen x är negativ.</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 2}, {"etikett": "c", "fraga": "\\(1{,}004^{-15}\\)", "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><p>\\(1{,}004^{-15}\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Identifiera ändringen och den negativa exponenten</p>\\[1{,}004=1+0{,}004\\]\\[x=0{,}004,\\qquad k=-15\\]</li><li><p class=\"facit-rubrik\">Beräkna den negativa förändringen</p>\\[1+kx=1-15\\cdot0{,}004\\]\\[=1-0{,}06=0{,}94\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}004^{-15}\\approx0{,}94\\).</p></div>", "ledtrad": "<p>Ändringen från 1 är positiv men exponenten är negativ. Vilket tecken får produkten kx?</p>", "niva": "C", "poang": "0/1/0", "traningsniva": 3}, {"etikett": "d", "fraga": "\\(\\sqrt[3]{1{,}009}\\)", "t": "<p>För små \\(x\\) gäller \\((1+x)^k\\approx1+kx\\). Använd det för att uppskatta värdet utan räknare.</p><p>\\(\\sqrt[3]{1{,}009}\\)</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv om roten till en potens</p>\\[\\sqrt[3]{1{,}009}=(1+0{,}009)^{1/3}\\]<p>Alltså är \\(x=0{,}009\\) och \\(k=1/3\\).</p></li><li><p class=\"facit-rubrik\">Använd det givna approximationsuttrycket</p>\\[1+kx=1+\\frac13\\cdot0{,}009\\]\\[=1+0{,}003=1{,}003\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt[3]{1{,}009}\\approx1{,}003\\).</p></div>", "ledtrad": "<p>Skriv kubikroten som en potens med exponenten 1/3.</p>", "niva": "C", "poang": "0/1/0", "traningsniva": 3}],
     "ledtrad": "<p>Linjär approximation av \\((1+x)^k\\) kring \\(x=0\\).</p>",
     "traningsniva": 3
   },
@@ -48325,21 +48205,21 @@ window.BANKMATF1 = [
     "typ": "lösa ekvation med approximation",
     "poang": "0/2/0",
     "t": "<p>Ekvationen \\(e^{x-1}=5x-4{,}5\\) kan inte lösas algebraiskt. Den har en lösning nära \\(x=1\\).</p><p>Ersätt vänsterledet med sin linjära approximation kring \\(x=1\\) och lös den nya ekvationen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kring \\(x=1\\): \\(e^{x-1}\\approx1+(x-1)=x\\).</p></li><li><p>\\(x=5x-4{,}5\\iff x=1{,}125\\). (Räknaren ger \\(x\\approx1{,}127\\).)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx1{,}125\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm tangentens höjd och lutning vid 1</p><p>Sätt \\(f(x)=e^{x-1}\\). Då gäller</p>\\[f(1)=1,\\qquad f^{\\prime}(1)=e^0=1.\\]</li><li><p class=\"facit-rubrik\">Ersätt vänsterledet med tangentlinjen</p>\\[L(x)=1+1(x-1)=x\\]<p>Den nya ekvationen blir</p>\\[x=5x-4{,}5.\\]</li><li><p class=\"facit-rubrik\">Lös den linjära ekvationen</p>\\[4x=4{,}5\\quad\\Rightarrow\\quad x=1{,}125\\]<p>Detta löser den nya linjära ekvationen och är en uppskattning av en lösning till ursprungsekvationen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1{,}125\\) i den linjära ekvationen.</p></div>",
     "id": "3.315",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 1.125,
-    "tolerans": 0.003,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm tangenten till \\(e^{x-1}\\) i \\(x=1\\).</p>",
+    "ledtrad": "<p>Börja med tangentlinjen till vänsterledet vid x = 1. Lös sedan ekvationen med tangentuttrycket i stället för exponentialfunktionen.</p>",
     "traningsniva": 3
   },
   {
@@ -48349,20 +48229,14 @@ window.BANKMATF1 = [
     "typ": "approximation av modell",
     "poang": "2/2/0",
     "t": "<p>Temperaturen \\(T(t)\\) °C under ett dygn ges av \\(T(t)=21+8{,}0\\sin\\dfrac{\\pi(t-8)}{24}\\), där \\(t\\) är timmar efter midnatt.</p><ol type=\"a\"><li>Bestäm \\(T^{\\prime}(6)\\). Svara med två decimaler.</li><li>Använd den linjära approximationen kring \\(t=6\\) för att uppskatta temperaturen klockan 06.15. Svara med en decimal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T^{\\prime}(t)=8{,}0\\cdot\\dfrac{\\pi}{24}\\cos\\dfrac{\\pi(t-8)}{24}\\), så \\(T^{\\prime}(6)=\\dfrac\\pi3\\cos\\left(-\\dfrac\\pi{12}\\right)\\approx1{,}01\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 1,01 °C/h</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T(6)=21+8\\sin\\left(-\\tfrac\\pi{12}\\right)\\approx18{,}93\\) och \\(T^{\\prime}(6)\\approx1{,}01\\).</p></li><li><div class=\"facit-matte\">\\[T(6{,}25)\\approx18{,}93+1{,}01\\cdot0{,}25\\approx19{,}2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 19,2 °C</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera temperaturmodellen med kedjeregeln</p>\\[T^{\\prime}(t)=8\\cdot\\frac\\pi{24}\\cos\\frac{\\pi(t-8)}{24}\\]\\[=\\frac\\pi3\\cos\\frac{\\pi(t-8)}{24}\\]</li><li><p class=\"facit-rubrik\">Sätt in t = 6</p>\\[\\frac{\\pi(6-8)}{24}=-\\frac\\pi{12}\\]\\[T^{\\prime}(6)=\\frac\\pi3\\cos(-\\pi/12)\\]\\[\\approx1{,}01151516\\]</li><li><p class=\"facit-rubrik\">Avrunda och ange förändring per timme</p><p>Derivatan anger hur många grader per timme temperaturen ökar just då.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(T^{\\prime}(6)\\approx1{,}01\\) °C/h.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna temperaturen vid klockan 06.00</p>\\[T(6)=21+8\\sin(-\\pi/12)\\]\\[\\approx18{,}929448\\text{ °C}\\]</li><li><p class=\"facit-rubrik\">Omvandla tiden och använd tangentens lutning</p>\\[\\Delta t=15/60=0{,}25\\text{ h}\\]<p>Lutningen från a används utan mellanavrundning.</p>\\[L(6{,}25)=T(6)+T^{\\prime}(6)\\cdot0{,}25\\]\\[\\approx19{,}182326\\text{ °C}\\]</li><li><p class=\"facit-rubrik\">Avrunda till en decimal</p><p>Andra decimalen är 8. Temperaturen avrundas därför uppåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen uppskattas till \\(19{,}2\\) °C.</p></div></div></div></div>",
     "id": "3.316",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "flera_delar",
-    "rättSvar": [
-      1.0115,
-      19.2
-    ],
-    "tolerans": [
-      0.006,
-      0.06
-    ],
+    "rättSvar": [1.0115151599274625, 19.182326429161698],
+    "tolerans": [0.005, 0.05],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -48379,30 +48253,11 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Temperaturen \\(T(t)\\) °C under ett dygn ges av \\(T(t)=21+8{,}0\\sin\\dfrac{\\pi(t-8)}{24}\\), där \\(t\\) är timmar efter midnatt.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Bestäm \\(T^{\\prime}(6)\\). Svara med två decimaler.",
-        "t": "<p>Temperaturen \\(T(t)\\) °C under ett dygn ges av \\(T(t)=21+8{,}0\\sin\\dfrac{\\pi(t-8)}{24}\\), där \\(t\\) är timmar efter midnatt.</p><p>Bestäm \\(T^{\\prime}(6)\\). Svara med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T^{\\prime}(t)=8{,}0\\cdot\\dfrac{\\pi}{24}\\cos\\dfrac{\\pi(t-8)}{24}\\), så \\(T^{\\prime}(6)=\\dfrac\\pi3\\cos\\left(-\\dfrac\\pi{12}\\right)\\approx1{,}01\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 1,01 °C/h</p></div>",
-        "ledtrad": "<p>Derivera med kedjeregeln.</p>",
-        "niva": "E",
-        "poang": "1/1/0",
-        "traningsniva": 2
-      },
-      {
-        "etikett": "b",
-        "fraga": "Använd den linjära approximationen kring \\(t=6\\) för att uppskatta temperaturen klockan 06.15. Svara med en decimal.",
-        "t": "<p>Temperaturen \\(T(t)\\) °C under ett dygn ges av \\(T(t)=21+8{,}0\\sin\\dfrac{\\pi(t-8)}{24}\\), där \\(t\\) är timmar efter midnatt.</p><p>Använd den linjära approximationen kring \\(t=6\\) för att uppskatta temperaturen klockan 06.15. Svara med en decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T(6)=21+8\\sin\\left(-\\tfrac\\pi{12}\\right)\\approx18{,}93\\) och \\(T^{\\prime}(6)\\approx1{,}01\\).</p></li><li><div class=\"facit-matte\">\\[T(6{,}25)\\approx18{,}93+1{,}01\\cdot0{,}25\\approx19{,}2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 19,2 °C</p></div>",
-        "ledtrad": "<p>06.15 motsvarar \\(t=6{,}25\\).</p>",
-        "niva": "C",
-        "poang": "1/1/0",
-        "traningsniva": 3
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "Bestäm \\(T^{\\prime}(6)\\). Svara med två decimaler.", "t": "<p>Temperaturen \\(T(t)\\) °C under ett dygn ges av \\(T(t)=21+8{,}0\\sin\\dfrac{\\pi(t-8)}{24}\\), där \\(t\\) är timmar efter midnatt.</p><p>Bestäm \\(T^{\\prime}(6)\\). Svara med två decimaler.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera temperaturmodellen med kedjeregeln</p>\\[T^{\\prime}(t)=8\\cdot\\frac\\pi{24}\\cos\\frac{\\pi(t-8)}{24}\\]\\[=\\frac\\pi3\\cos\\frac{\\pi(t-8)}{24}\\]</li><li><p class=\"facit-rubrik\">Sätt in t = 6</p>\\[\\frac{\\pi(6-8)}{24}=-\\frac\\pi{12}\\]\\[T^{\\prime}(6)=\\frac\\pi3\\cos(-\\pi/12)\\]\\[\\approx1{,}01151516\\]</li><li><p class=\"facit-rubrik\">Avrunda och ange förändring per timme</p><p>Derivatan anger hur många grader per timme temperaturen ökar just då.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(T^{\\prime}(6)\\approx1{,}01\\) °C/h.</p></div>", "ledtrad": "<p>Derivera sinus med kedjeregeln. Argumentet ska räknas i radianer.</p>", "niva": "E", "poang": "1/1/0", "traningsniva": 2}, {"etikett": "b", "fraga": "Använd den givna temperaturen och förändringstakten för att uppskatta temperaturen klockan 06.15. Svara i °C med en decimal.", "t": "<p>Klockan 06.00 är temperaturen 18,93 °C. Just då ökar den med 1,01 °C per timme.</p><p>Använd linjär approximation för att uppskatta temperaturen klockan 06.15. Svara i °C med en decimal.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla tiden till samma enhet som lutningen</p>\\[\\Delta t=\\frac{15}{60}=0{,}25\\text{ h}\\]</li><li><p class=\"facit-rubrik\">Använd de givna tangentvärdena</p>\\[\\Delta T\\approx1{,}01\\cdot0{,}25\\]\\[=0{,}2525\\text{ °C}\\]\\[L(6{,}25)\\approx18{,}93+0{,}2525\\]\\[=19{,}1825\\text{ °C}\\]</li><li><p class=\"facit-rubrik\">Avrunda temperaturen till en decimal</p><p>Andra decimalen är 8, så första decimalen avrundas uppåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen uppskattas till \\(19{,}2\\) °C klockan 06.15.</p></div>", "ledtrad": "<p>Omvandla 15 minuter till timmar. Multiplicera tiden med den givna lutningen och addera starttemperaturen.</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 2}],
     "ledtrad": "<p>Den linjära approximationen kring \\(t=6\\) är \\(T(6)+T^{\\prime}(6)(t-6)\\).</p>",
     "traningsniva": 3
+  ,
+    "svarEnhet": ["°C/h", "°C"]
   },
   {
     "kap": 3,
@@ -48411,20 +48266,14 @@ window.BANKMATF1 = [
     "typ": "relativt fel i approximation",
     "poang": "1/3/0",
     "t": "<p>Temperaturen hos en kopp kaffe efter \\(x\\) minuter är \\(T(x)=18+80e^{-0{,}277x}\\) °C.</p><ol type=\"a\"><li>Bestäm den linjära approximationen kring \\(x=0\\). Svara på formen \\(y=kx+m\\).</li><li>Hur stort är det relativa felet i approximationen när \\(x=0{,}50\\)? Svara i procent med en decimal.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T(0)=98\\) och \\(T^{\\prime}(x)=-22{,}16e^{-0{,}277x}\\), så \\(T^{\\prime}(0)=-22{,}16\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=98-22{,}16x\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T(0{,}50)\\approx87{,}65\\) och \\(y(0{,}50)=98-11{,}08=86{,}92\\).</p></li><li><div class=\"facit-berakning\"><p>Relativt fel:</p><div class=\"facit-matte\">\\[\\dfrac{87{,}65-86{,}92}{87{,}65}\\approx0{,}008=0{,}8\\,\\%\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 0,8 %</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna starttemperaturen</p>\\[T(0)=18+80e^0=98\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens lutning</p>\\[T^{\\prime}(x)=-0{,}277\\cdot80e^{-0{,}277x}\\]\\[T^{\\prime}(0)=-22{,}16\\]</li><li><p class=\"facit-rubrik\">Skriv den linjära approximationen</p>\\[L(x)=98-22{,}16(x-0)\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=98-22{,}16x\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna modellens temperatur efter en halv minut</p>\\[T(0{,}50)=18+80e^{-0{,}277\\cdot0{,}50}\\]\\[\\approx87{,}6530601\\text{ °C}\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens uppskattning</p>\\[L(0{,}50)=98-22{,}16\\cdot0{,}50\\]\\[=86{,}92\\text{ °C}\\]</li><li><p class=\"facit-rubrik\">Jämför felet med modellens temperatur</p><p>Låt ε beteckna det relativa felet.</p>\\[\\varepsilon=\\frac{|T(0{,}50)-L(0{,}50)|}{|T(0{,}50)|}\\]\\[\\approx0{,}0083632003\\]<p>Omvandling till procent ger</p>\\[\\varepsilon\\cdot100\\%\\approx0{,}83632\\%.\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det relativa felet är cirka \\(0{,}8\\) %.</p></div></div></div></div>",
     "id": "3.317",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "flera_delar",
-    "rättSvar": [
-      "98-22.16x",
-      0.8
-    ],
-    "tolerans": [
-      null,
-      0.06
-    ],
+    "rättSvar": ["98-22.16x", 0.8363200334137727],
+    "tolerans": [null, 0.05],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -48445,28 +48294,7 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Temperaturen hos en kopp kaffe efter \\(x\\) minuter är \\(T(x)=18+80e^{-0{,}277x}\\) °C.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Bestäm den linjära approximationen kring \\(x=0\\). Svara på formen \\(y=kx+m\\).",
-        "t": "<p>Temperaturen hos en kopp kaffe efter \\(x\\) minuter är \\(T(x)=18+80e^{-0{,}277x}\\) °C.</p><p>Bestäm den linjära approximationen kring \\(x=0\\). Svara på formen \\(y=kx+m\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T(0)=98\\) och \\(T^{\\prime}(x)=-22{,}16e^{-0{,}277x}\\), så \\(T^{\\prime}(0)=-22{,}16\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=98-22{,}16x\\)</p></div>",
-        "ledtrad": "<p>Bestäm \\(T(0)\\) och \\(T^{\\prime}(0)\\).</p>",
-        "niva": "E",
-        "poang": "1/1/0",
-        "traningsniva": 2
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur stort är det relativa felet i approximationen när \\(x=0{,}50\\)? Svara i procent med en decimal.",
-        "t": "<p>Temperaturen hos en kopp kaffe efter \\(x\\) minuter är \\(T(x)=18+80e^{-0{,}277x}\\) °C.</p><p>Den linjära approximationen kring \\(x=0\\) är \\(y=98-22{,}16x\\).</p><p>Hur stort är det relativa felet i approximationen när \\(x=0{,}50\\)? Svara i procent med en decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T(0{,}50)\\approx87{,}65\\) och \\(y(0{,}50)=98-11{,}08=86{,}92\\).</p></li><li><div class=\"facit-berakning\"><p>Relativt fel:</p><div class=\"facit-matte\">\\[\\dfrac{87{,}65-86{,}92}{87{,}65}\\approx0{,}008=0{,}8\\,\\%\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 0,8 %</p></div>",
-        "ledtrad": "<p>Relativt fel = |exakt − approximation| / exakt.</p>",
-        "niva": "C",
-        "poang": "0/2/0",
-        "traningsniva": 3
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "Bestäm den linjära approximationen kring \\(x=0\\). Svara på formen \\(y=kx+m\\).", "t": "<p>Temperaturen hos en kopp kaffe efter \\(x\\) minuter är \\(T(x)=18+80e^{-0{,}277x}\\) °C.</p><p>Bestäm den linjära approximationen kring \\(x=0\\). Svara på formen \\(y=kx+m\\).</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna starttemperaturen</p>\\[T(0)=18+80e^0=98\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens lutning</p>\\[T^{\\prime}(x)=-0{,}277\\cdot80e^{-0{,}277x}\\]\\[T^{\\prime}(0)=-22{,}16\\]</li><li><p class=\"facit-rubrik\">Skriv den linjära approximationen</p>\\[L(x)=98-22{,}16(x-0)\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=98-22{,}16x\\).</p></div>", "ledtrad": "<p>Bestäm kaffets temperatur och temperaturens derivata vid x = 0.</p>", "niva": "E", "poang": "1/1/0", "traningsniva": 2}, {"etikett": "b", "fraga": "Hur stort är det relativa felet i approximationen när \\(x=0{,}50\\)? Svara i procent med en decimal.", "t": "<p>Temperaturen hos en kopp kaffe efter \\(x\\) minuter är \\(T(x)=18+80e^{-0{,}277x}\\) °C.</p><p>Den linjära approximationen kring \\(x=0\\) är \\(y=98-22{,}16x\\).</p><p>Hur stort är det relativa felet i approximationen när \\(x=0{,}50\\)? Svara i procent med en decimal.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna modellens temperatur efter en halv minut</p>\\[T(0{,}50)=18+80e^{-0{,}277\\cdot0{,}50}\\]\\[\\approx87{,}6530601\\text{ °C}\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens uppskattning</p>\\[L(0{,}50)=98-22{,}16\\cdot0{,}50\\]\\[=86{,}92\\text{ °C}\\]</li><li><p class=\"facit-rubrik\">Jämför felet med modellens temperatur</p><p>Låt ε beteckna det relativa felet.</p>\\[\\varepsilon=\\frac{|T(0{,}50)-L(0{,}50)|}{|T(0{,}50)|}\\]\\[\\approx0{,}0083632003\\]<p>Omvandling till procent ger</p>\\[\\varepsilon\\cdot100\\%\\approx0{,}83632\\%.\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det relativa felet är cirka \\(0{,}8\\) %.</p></div>", "ledtrad": "<p>Beräkna modellens temperatur och tangentens temperatur vid samma tid. Dividera skillnadens storlek med modellens temperatur.</p>", "niva": "C", "poang": "0/2/0", "traningsniva": 3}],
     "ledtrad": "<p>Jämför modellen med tangenten.</p>",
     "traningsniva": 3
   },
@@ -51574,21 +51402,21 @@ window.BANKMATF1 = [
     "typ": "linjär approximation av kvadratrot",
     "poang": "1/0/0",
     "t": "<p>En sensor ger signalen 7 V när avståndet är 2 mm. Vid det avståndet ökar signalen med 3 V per millimeter.</p><p>Uppskatta signalen vid 2,1 mm med linjär approximation. Svara i V.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"180\" viewBox=\"0 0 420 180\" role=\"img\" aria-label=\"Sensor vid avståndet 2 mm\"><rect width=\"420\" height=\"180\" rx=\"8\" fill=\"white\"/><g fill=\"#173548\" font-family=\"sans-serif\" font-size=\"17\"><text x=\"210\" y=\"30\" text-anchor=\"middle\">Sensor vid avståndet 2 mm</text><text x=\"28\" y=\"68\">Signal</text><text x=\"392\" y=\"68\" text-anchor=\"end\">7 V</text><text x=\"28\" y=\"103\">Förändring</text><text x=\"392\" y=\"103\" text-anchor=\"end\">3 V/mm</text></g></svg></span>",
-    "s": "<div class=\"facit-v2\"><p>Ändringen i x är 0,1. Därför blir uppskattningen \\[7+3\\cdot0{,}1=7{,}3.\\]</p><p><strong>Svar:</strong> 7,3.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna avståndsändringen</p>\\[\\Delta x=2{,}1-2=0{,}1\\text{ mm}\\]</li><li><p class=\"facit-rubrik\">Beräkna signalens ökning och lägg till startvärdet</p>\\[\\Delta U\\approx3\\cdot0{,}1=0{,}3\\text{ V}\\]\\[U\\approx7+0{,}3=7{,}3\\text{ V}\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Signalen uppskattas till \\(7{,}3\\) V.</p></div>",
     "id": "3.324",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 7.3,
-    "tolerans": 1e-06,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd funktionsvärdet och tangentens lutning vid den givna punkten.</p>",
+    "ledtrad": "<p>Hur mycket ändras avståndet? Multiplicera ändringen med signalens ökning per millimeter.</p>",
     "traningsniva": 1,
     "spel": true,
     "svarEnhet": "V"
@@ -51600,21 +51428,21 @@ window.BANKMATF1 = [
     "typ": "linjär approximation av kvadratrot",
     "poang": "1/0/0",
     "t": "<p>Efter 10 minuter är en soppa 50 °C varm. Just då minskar temperaturen med 2 °C per minut.</p><p>Använd en linjär approximation för att uppskatta temperaturen efter 10,5 minuter. Svara i °C.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"180\" viewBox=\"0 0 420 180\" role=\"img\" aria-label=\"Soppan efter 10 minuter\"><rect width=\"420\" height=\"180\" rx=\"8\" fill=\"white\"/><g fill=\"#173548\" font-family=\"sans-serif\" font-size=\"17\"><text x=\"210\" y=\"30\" text-anchor=\"middle\">Soppan efter 10 minuter</text><text x=\"28\" y=\"68\">Temperatur</text><text x=\"392\" y=\"68\" text-anchor=\"end\">50 °C</text><text x=\"28\" y=\"103\">Temperaturändring</text><text x=\"392\" y=\"103\" text-anchor=\"end\">−2 °C/min</text></g></svg></span>",
-    "s": "<div class=\"facit-v2\"><p>Det går ytterligare 0,5 minuter. Med den aktuella minskningen blir temperaturen ungefär \\[50-2\\cdot0{,}5=49\\text{ °C}.\\]</p><p><strong>Svar:</strong> 49.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna hur mycket mer tid som går</p>\\[\\Delta t=10{,}5-10=0{,}5\\text{ min}\\]</li><li><p class=\"facit-rubrik\">Lägg temperaturändringen till 50 °C</p>\\[\\Delta T\\approx(-2)\\cdot0{,}5=-1\\text{ °C}\\]\\[T\\approx50-1=49\\text{ °C}\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen uppskattas till \\(49\\) °C.</p></div>",
     "id": "3.325",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 49,
-    "tolerans": 1e-06,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd funktionsvärdet och tangentens lutning vid den givna punkten.</p>",
+    "ledtrad": "<p>Temperaturen minskar. Använd en negativ lutning under den ytterligare halva minuten.</p>",
     "traningsniva": 1,
     "spel": true,
     "svarEnhet": "°C"
@@ -51626,21 +51454,21 @@ window.BANKMATF1 = [
     "typ": "linjär approximation av kvadratrot",
     "poang": "0/1/0",
     "t": "<p>En kvadrat har sidan 10 cm. Sidan ökas till 10,2 cm.</p><p>Använd linjär approximation av arean för att uppskatta hur många procent arean ökar. Svara i procent.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"Kvadrat med sidan 10 cm och en streckad större kvadrat med sidan 10,2 cm\"><rect width=\"420\" height=\"220\" fill=\"white\"/><rect x=\"115\" y=\"32\" width=\"150\" height=\"150\" fill=\"#e6eff9\" stroke=\"#2463a2\" stroke-width=\"2\"/><rect x=\"115\" y=\"29\" width=\"153\" height=\"153\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/><g fill=\"#173548\" font-family=\"sans-serif\" font-size=\"16\"><text x=\"190\" y=\"206\" text-anchor=\"middle\">10 cm → 10,2 cm</text><text x=\"295\" y=\"88\">Sidan ökas</text><text x=\"295\" y=\"113\">med 0,2 cm</text></g></svg></span>",
-    "s": "<div class=\"facit-v2\"><p>Arean är \\(A(s)=s^2\\), så \\(A(10)=100\\) och \\(A^{\\prime}(10)=20\\). Areaökningen uppskattas till \\(20\\cdot0{,}2=4\\) cm². Det är \\[\\frac4{100}\\cdot100\\%=4\\%.\\]</p><p><strong>Svar:</strong> 4.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm areans värde och derivata vid sidan 10 cm</p>\\[A(s)=s^2,\\quad A(10)=100\\text{ cm}^2\\]\\[A^{\\prime}(s)=2s,\\quad A^{\\prime}(10)=20\\]</li><li><p class=\"facit-rubrik\">Uppskatta areaökningen</p>\\[\\Delta s=10{,}2-10=0{,}2\\text{ cm}\\]\\[\\Delta A\\approx20\\cdot0{,}2=4\\text{ cm}^2\\]</li><li><p class=\"facit-rubrik\">Jämför ökningen med den ursprungliga arean</p>\\[\\frac{\\Delta A}{A(10)}\\cdot100\\%\\]\\[\\approx\\frac4{100}\\cdot100\\%=4\\%\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Arean ökar med ungefär \\(4\\) %. </p></div>",
     "id": "3.326",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd funktionsvärdet och tangentens lutning vid den givna punkten.</p>",
+    "ledtrad": "<p>Skriv arean som en funktion av sidan. Använd derivatan för att uppskatta areaökningen och jämför med den ursprungliga arean.</p>",
     "traningsniva": 3,
     "spel": true,
     "svarEnhet": "%"
@@ -51652,21 +51480,21 @@ window.BANKMATF1 = [
     "typ": "linjär approximation av kvadratrot",
     "poang": "1/0/0",
     "t": "<p>Vid \\(x=4\\) gäller \\(f(4)=12\\) och \\(f^{\\prime}(4)=0{,}8\\).</p><p>Använd tangentlinjen där för att uppskatta vilket x-värde nära 4 som ger \\(f(x)=12{,}24\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"180\" viewBox=\"0 0 420 180\" role=\"img\" aria-label=\"Tangentens utgångspunkt\"><rect width=\"420\" height=\"180\" rx=\"8\" fill=\"white\"/><g fill=\"#173548\" font-family=\"sans-serif\" font-size=\"17\"><text x=\"210\" y=\"30\" text-anchor=\"middle\">Tangentens utgångspunkt</text><text x=\"28\" y=\"68\">x</text><text x=\"392\" y=\"68\" text-anchor=\"end\">4</text><text x=\"28\" y=\"103\">f(x)</text><text x=\"392\" y=\"103\" text-anchor=\"end\">12</text><text x=\"28\" y=\"138\">Lutning</text><text x=\"392\" y=\"138\" text-anchor=\"end\">0,8</text></g></svg></span>",
-    "s": "<div class=\"facit-v2\"><p>Funktionsvärdet ska öka med \\(12{,}24-12=0{,}24\\). På tangenten kräver det ändringen \\(0{,}24/0{,}8=0{,}3\\) i x. Därför är \\[x\\approx4+0{,}3=4{,}3.\\]</p><p><strong>Svar:</strong> 4,3.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna den önskade höjdändringen</p>\\[\\Delta y=12{,}24-12=0{,}24\\]</li><li><p class=\"facit-rubrik\">Lös ut ändringen i x ur tangentsambandet</p>\\[0{,}8\\Delta x=0{,}24\\]\\[\\Delta x=\\frac{0{,}24}{0{,}8}=0{,}3\\]</li><li><p class=\"facit-rubrik\">Lägg ändringen till tangentpunktens x-värde</p>\\[x\\approx4+0{,}3=4{,}3\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx4{,}3\\).</p></div>",
     "id": "3.327",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 4.3,
-    "tolerans": 1e-06,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd funktionsvärdet och tangentens lutning vid den givna punkten.</p>",
+    "ledtrad": "<p>Funktionsvärdets ändring är känd. Dividera den med lutningen för att hitta ändringen i x.</p>",
     "traningsniva": 2,
     "spel": true
   },
@@ -51674,24 +51502,24 @@ window.BANKMATF1 = [
     "kap": 3,
     "omr": "linjar_approximation",
     "niva": "E",
-    "typ": "linjär approximation av kvadratrot",
+    "typ": "linjär approximation av potensfunktion",
     "poang": "1/0/0",
     "t": "<p>Figuren visar \\(y=x^2\\) och tangentlinjen vid \\(x=2\\).</p><p>Använd tangentlinjen för att uppskatta \\(1{,}95^2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"y = x² och tangenten vid x = 2\"><rect width=\"440\" height=\"300\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#173548\"><text x=\"220\" y=\"26\" text-anchor=\"middle\">y = x² och tangenten vid x = 2</text><path d=\"M 58.00 58 V 230 M 58 230.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"58.00\" y=\"253\" text-anchor=\"middle\">1,5</text><text x=\"48\" y=\"235.00\" text-anchor=\"end\">1,8</text><path d=\"M 140.50 58 V 230 M 58 187.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"140.50\" y=\"253\" text-anchor=\"middle\">1,75</text><text x=\"48\" y=\"192.00\" text-anchor=\"end\">2,925</text><path d=\"M 223.00 58 V 230 M 58 144.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"223.00\" y=\"253\" text-anchor=\"middle\">2</text><text x=\"48\" y=\"149.00\" text-anchor=\"end\">4,05</text><path d=\"M 305.50 58 V 230 M 58 101.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"305.50\" y=\"253\" text-anchor=\"middle\">2,25</text><text x=\"48\" y=\"106.00\" text-anchor=\"end\">5,175</text><path d=\"M 388.00 58 V 230 M 58 58.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"388.00\" y=\"253\" text-anchor=\"middle\">2,5</text><text x=\"48\" y=\"63.00\" text-anchor=\"end\">6,3</text><path d=\"M 58 58 V 230 H 395\" fill=\"none\" stroke=\"#173548\" stroke-width=\"2\"/><text x=\"411\" y=\"236\">x</text><text x=\"58\" y=\"43\">y</text></g><path d=\"M58.00,212.80 L60.75,211.84 L63.50,210.88 L66.25,209.91 L69.00,208.94 L71.75,207.96 L74.50,206.97 L77.25,205.98 L80.00,204.99 L82.75,203.99 L85.50,202.98 L88.25,201.97 L91.00,200.95 L93.75,199.93 L96.50,198.90 L99.25,197.87 L102.00,196.83 L104.75,195.79 L107.50,194.74 L110.25,193.69 L113.00,192.63 L115.75,191.56 L118.50,190.49 L121.25,189.42 L124.00,188.34 L126.75,187.25 L129.50,186.16 L132.25,185.06 L135.00,183.96 L137.75,182.86 L140.50,181.74 L143.25,180.63 L146.00,179.50 L148.75,178.38 L151.50,177.24 L154.25,176.10 L157.00,174.96 L159.75,173.81 L162.50,172.66 L165.25,171.50 L168.00,170.33 L170.75,169.16 L173.50,167.98 L176.25,166.80 L179.00,165.62 L181.75,164.43 L184.50,163.23 L187.25,162.03 L190.00,160.82 L192.75,159.60 L195.50,158.39 L198.25,157.16 L201.00,155.93 L203.75,154.70 L206.50,153.46 L209.25,152.22 L212.00,150.96 L214.75,149.71 L217.50,148.45 L220.25,147.18 L223.00,145.91 L225.75,144.63 L228.50,143.35 L231.25,142.06 L234.00,140.77 L236.75,139.47 L239.50,138.17 L242.25,136.86 L245.00,135.55 L247.75,134.23 L250.50,132.90 L253.25,131.58 L256.00,130.24 L258.75,128.90 L261.50,127.55 L264.25,126.20 L267.00,124.85 L269.75,123.48 L272.50,122.12 L275.25,120.75 L278.00,119.37 L280.75,117.99 L283.50,116.60 L286.25,115.20 L289.00,113.80 L291.75,112.40 L294.50,110.99 L297.25,109.58 L300.00,108.16 L302.75,106.73 L305.50,105.30 L308.25,103.86 L311.00,102.42 L313.75,100.98 L316.50,99.52 L319.25,98.07 L322.00,96.60 L324.75,95.14 L327.50,93.66 L330.25,92.18 L333.00,90.70 L335.75,89.21 L338.50,87.72 L341.25,86.22 L344.00,84.71 L346.75,83.20 L349.50,81.69 L352.25,80.17 L355.00,78.64 L357.75,77.11 L360.50,75.57 L363.25,74.03 L366.00,72.48 L368.75,70.93 L371.50,69.37 L374.25,67.81 L377.00,66.24 L379.75,64.66 L382.50,63.09 L385.25,61.50 L388.00,59.91\" fill=\"none\" stroke=\"#2463a2\" stroke-width=\"2.5\"/><path d=\"M58.00,222.36 L60.75,221.08 L63.50,219.81 L66.25,218.53 L69.00,217.26 L71.75,215.99 L74.50,214.71 L77.25,213.44 L80.00,212.16 L82.75,210.89 L85.50,209.61 L88.25,208.34 L91.00,207.07 L93.75,205.79 L96.50,204.52 L99.25,203.24 L102.00,201.97 L104.75,200.70 L107.50,199.42 L110.25,198.15 L113.00,196.87 L115.75,195.60 L118.50,194.33 L121.25,193.05 L124.00,191.78 L126.75,190.50 L129.50,189.23 L132.25,187.96 L135.00,186.68 L137.75,185.41 L140.50,184.13 L143.25,182.86 L146.00,181.59 L148.75,180.31 L151.50,179.04 L154.25,177.76 L157.00,176.49 L159.75,175.21 L162.50,173.94 L165.25,172.67 L168.00,171.39 L170.75,170.12 L173.50,168.84 L176.25,167.57 L179.00,166.30 L181.75,165.02 L184.50,163.75 L187.25,162.47 L190.00,161.20 L192.75,159.93 L195.50,158.65 L198.25,157.38 L201.00,156.10 L203.75,154.83 L206.50,153.56 L209.25,152.28 L212.00,151.01 L214.75,149.73 L217.50,148.46 L220.25,147.19 L223.00,145.91 L225.75,144.64 L228.50,143.36 L231.25,142.09 L234.00,140.81 L236.75,139.54 L239.50,138.27 L242.25,136.99 L245.00,135.72 L247.75,134.44 L250.50,133.17 L253.25,131.90 L256.00,130.62 L258.75,129.35 L261.50,128.07 L264.25,126.80 L267.00,125.53 L269.75,124.25 L272.50,122.98 L275.25,121.70 L278.00,120.43 L280.75,119.16 L283.50,117.88 L286.25,116.61 L289.00,115.33 L291.75,114.06 L294.50,112.79 L297.25,111.51 L300.00,110.24 L302.75,108.96 L305.50,107.69 L308.25,106.41 L311.00,105.14 L313.75,103.87 L316.50,102.59 L319.25,101.32 L322.00,100.04 L324.75,98.77 L327.50,97.50 L330.25,96.22 L333.00,94.95 L335.75,93.67 L338.50,92.40 L341.25,91.13 L344.00,89.85 L346.75,88.58 L349.50,87.30 L352.25,86.03 L355.00,84.76 L357.75,83.48 L360.50,82.21 L363.25,80.93 L366.00,79.66 L368.75,78.39 L371.50,77.11 L374.25,75.84 L377.00,74.56 L379.75,73.29 L382.50,72.01 L385.25,70.74 L388.00,69.47\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><circle cx=\"223.00\" cy=\"145.91\" r=\"4\" fill=\"#173548\"/><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"58\" y=\"282\" fill=\"#2463a2\">Kurva</text><text x=\"210\" y=\"282\" fill=\"#a44d25\">Streckad linje: tangent</text></g></svg></span>",
-    "s": "<div class=\"facit-v2\"><p>För \\(f(x)=x^2\\) är \\(f^{\\prime}(x)=2x\\). Vid x = 2 är värdet 4 och lutningen 4. Alltså \\[1{,}95^2\\approx4+4(1{,}95-2)=3{,}8.\\]</p><p><strong>Svar:</strong> 3,8.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna höjden och lutningen vid 2</p>\\[f(2)=4,\\qquad f^{\\prime}(2)=2\\cdot2=4\\]</li><li><p class=\"facit-rubrik\">Använd den negativa ändringen i x</p>\\[\\Delta x=1{,}95-2=-0{,}05\\]\\[L(1{,}95)=4+4(-0{,}05)=3{,}8\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}95^2\\approx3{,}8\\) med tangentlinjen.</p></div>",
     "id": "3.328",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 3.8,
-    "tolerans": 1e-06,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd funktionsvärdet och tangentens lutning vid den givna punkten.</p>",
+    "ledtrad": "<p>Tangentens lutning är derivatan av x² vid 2. Tänk på att 1,95 ligger till vänster om 2.</p>",
     "traningsniva": 2,
     "spel": true
   },
@@ -51699,10 +51527,10 @@ window.BANKMATF1 = [
     "kap": 3,
     "omr": "linjar_approximation",
     "niva": "E",
-    "typ": "linjär approximation av kvadratrot",
+    "typ": "linjär approximation av potensfunktion",
     "poang": "2/0/0",
     "t": "<p>En elev använder tangentlinjen till \\(f(x)=x^3\\) vid \\(x=0\\) för att uppskatta \\(f(0{,}2)\\).</p><p>Vad ger den linjära approximationen? Välj ett alternativ.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"y = x³ och tangenten vid x = 0\"><rect width=\"440\" height=\"300\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#173548\"><text x=\"220\" y=\"26\" text-anchor=\"middle\">y = x³ och tangenten vid x = 0</text><path d=\"M 58.00 58 V 230 M 58 230.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"58.00\" y=\"253\" text-anchor=\"middle\">-0,5</text><text x=\"48\" y=\"235.00\" text-anchor=\"end\">-0,15</text><path d=\"M 140.50 58 V 230 M 58 187.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"140.50\" y=\"253\" text-anchor=\"middle\">-0,25</text><text x=\"48\" y=\"192.00\" text-anchor=\"end\">-0,075</text><path d=\"M 223.00 58 V 230 M 58 144.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"223.00\" y=\"253\" text-anchor=\"middle\">0</text><text x=\"48\" y=\"149.00\" text-anchor=\"end\">0</text><path d=\"M 305.50 58 V 230 M 58 101.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"305.50\" y=\"253\" text-anchor=\"middle\">0,25</text><text x=\"48\" y=\"106.00\" text-anchor=\"end\">0,075</text><path d=\"M 388.00 58 V 230 M 58 58.00 H 388\" fill=\"none\" stroke=\"#d6dfe8\"/><text x=\"388.00\" y=\"253\" text-anchor=\"middle\">0,5</text><text x=\"48\" y=\"63.00\" text-anchor=\"end\">0,15</text><path d=\"M 58 58 V 230 H 395\" fill=\"none\" stroke=\"#173548\" stroke-width=\"2\"/><text x=\"411\" y=\"236\">x</text><text x=\"58\" y=\"43\">y</text></g><path d=\"M58.00,215.67 L60.75,212.14 L63.50,208.74 L66.25,205.45 L69.00,202.27 L71.75,199.20 L74.50,196.25 L77.25,193.40 L80.00,190.65 L82.75,188.01 L85.50,185.47 L88.25,183.03 L91.00,180.69 L93.75,178.45 L96.50,176.30 L99.25,174.23 L102.00,172.26 L104.75,170.38 L107.50,168.58 L110.25,166.87 L113.00,165.23 L115.75,163.68 L118.50,162.21 L121.25,160.81 L124.00,159.48 L126.75,158.23 L129.50,157.04 L132.25,155.92 L135.00,154.87 L137.75,153.88 L140.50,152.96 L143.25,152.09 L146.00,151.28 L148.75,150.53 L151.50,149.83 L154.25,149.18 L157.00,148.59 L159.75,148.04 L162.50,147.53 L165.25,147.07 L168.00,146.65 L170.75,146.28 L173.50,145.94 L176.25,145.63 L179.00,145.36 L181.75,145.12 L184.50,144.91 L187.25,144.73 L190.00,144.57 L192.75,144.44 L195.50,144.33 L198.25,144.24 L201.00,144.17 L203.75,144.11 L206.50,144.07 L209.25,144.04 L212.00,144.02 L214.75,144.01 L217.50,144.00 L220.25,144.00 L223.00,144.00 L225.75,144.00 L228.50,144.00 L231.25,143.99 L234.00,143.98 L236.75,143.96 L239.50,143.93 L242.25,143.89 L245.00,143.83 L247.75,143.76 L250.50,143.67 L253.25,143.56 L256.00,143.43 L258.75,143.27 L261.50,143.09 L264.25,142.88 L267.00,142.64 L269.75,142.37 L272.50,142.06 L275.25,141.72 L278.00,141.35 L280.75,140.93 L283.50,140.47 L286.25,139.96 L289.00,139.41 L291.75,138.82 L294.50,138.17 L297.25,137.47 L300.00,136.72 L302.75,135.91 L305.50,135.04 L308.25,134.12 L311.00,133.13 L313.75,132.08 L316.50,130.96 L319.25,129.77 L322.00,128.52 L324.75,127.19 L327.50,125.79 L330.25,124.32 L333.00,122.77 L335.75,121.13 L338.50,119.42 L341.25,117.62 L344.00,115.74 L346.75,113.77 L349.50,111.70 L352.25,109.55 L355.00,107.31 L357.75,104.97 L360.50,102.53 L363.25,99.99 L366.00,97.35 L368.75,94.60 L371.50,91.75 L374.25,88.80 L377.00,85.73 L379.75,82.55 L382.50,79.26 L385.25,75.86 L388.00,72.33\" fill=\"none\" stroke=\"#2463a2\" stroke-width=\"2.5\"/><path d=\"M58.00,144.00 L60.75,144.00 L63.50,144.00 L66.25,144.00 L69.00,144.00 L71.75,144.00 L74.50,144.00 L77.25,144.00 L80.00,144.00 L82.75,144.00 L85.50,144.00 L88.25,144.00 L91.00,144.00 L93.75,144.00 L96.50,144.00 L99.25,144.00 L102.00,144.00 L104.75,144.00 L107.50,144.00 L110.25,144.00 L113.00,144.00 L115.75,144.00 L118.50,144.00 L121.25,144.00 L124.00,144.00 L126.75,144.00 L129.50,144.00 L132.25,144.00 L135.00,144.00 L137.75,144.00 L140.50,144.00 L143.25,144.00 L146.00,144.00 L148.75,144.00 L151.50,144.00 L154.25,144.00 L157.00,144.00 L159.75,144.00 L162.50,144.00 L165.25,144.00 L168.00,144.00 L170.75,144.00 L173.50,144.00 L176.25,144.00 L179.00,144.00 L181.75,144.00 L184.50,144.00 L187.25,144.00 L190.00,144.00 L192.75,144.00 L195.50,144.00 L198.25,144.00 L201.00,144.00 L203.75,144.00 L206.50,144.00 L209.25,144.00 L212.00,144.00 L214.75,144.00 L217.50,144.00 L220.25,144.00 L223.00,144.00 L225.75,144.00 L228.50,144.00 L231.25,144.00 L234.00,144.00 L236.75,144.00 L239.50,144.00 L242.25,144.00 L245.00,144.00 L247.75,144.00 L250.50,144.00 L253.25,144.00 L256.00,144.00 L258.75,144.00 L261.50,144.00 L264.25,144.00 L267.00,144.00 L269.75,144.00 L272.50,144.00 L275.25,144.00 L278.00,144.00 L280.75,144.00 L283.50,144.00 L286.25,144.00 L289.00,144.00 L291.75,144.00 L294.50,144.00 L297.25,144.00 L300.00,144.00 L302.75,144.00 L305.50,144.00 L308.25,144.00 L311.00,144.00 L313.75,144.00 L316.50,144.00 L319.25,144.00 L322.00,144.00 L324.75,144.00 L327.50,144.00 L330.25,144.00 L333.00,144.00 L335.75,144.00 L338.50,144.00 L341.25,144.00 L344.00,144.00 L346.75,144.00 L349.50,144.00 L352.25,144.00 L355.00,144.00 L357.75,144.00 L360.50,144.00 L363.25,144.00 L366.00,144.00 L368.75,144.00 L371.50,144.00 L374.25,144.00 L377.00,144.00 L379.75,144.00 L382.50,144.00 L385.25,144.00 L388.00,144.00\" fill=\"none\" stroke=\"#a44d25\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><circle cx=\"223.00\" cy=\"144.00\" r=\"4\" fill=\"#173548\"/><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"58\" y=\"282\" fill=\"#2463a2\">Kurva</text><text x=\"210\" y=\"282\" fill=\"#a44d25\">Streckad linje: tangent</text></g></svg></span>",
-    "s": "<div class=\"facit-v2\"><p>Vid x = 0 är både \\(f(0)=0\\) och \\(f^{\\prime}(0)=3\\cdot0^2=0\\). Tangenten är alltså x-axeln och ger <strong>0</strong>.</p><p>Det exakta värdet är \\(0{,}2^3=0{,}008\\). Tangenten ger rätt värde och lutning vid 0, men fångar inte kurvans böjning. Att x ligger nära 0 garanterar inte ett litet procentuellt fel.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna värdet och lutningen vid noll</p>\\[f(0)=0^3=0\\]\\[f^{\\prime}(x)=3x^2,\\qquad f^{\\prime}(0)=0\\]</li><li><p class=\"facit-rubrik\">Skriv och använd den vågräta tangenten</p>\\[L(x)=0+0(x-0)=0\\]\\[L(0{,}2)=0\\]</li><li><p class=\"facit-rubrik\">Skilj tangentens värde från funktionens värde</p><p>Funktionens verkliga värde är \\(0{,}2^3=0{,}008\\), men frågan gäller tangentens approximation. Tangenten följer inte kurvans böjning. Nära tangentpunkten kan det absoluta felet vara litet samtidigt som det relativa felet är stort.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den linjära approximationen ger \\(0\\).</p></div>",
     "id": "3.329",
     "miniräknare": false,
     "geogebra": false,
@@ -51715,26 +51543,9 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
+    "ledtrad": "<p>Beräkna både funktionens värde och dess derivata vid noll. Använd sedan tangentens värde vid 0,2.</p>",
     "traningsniva": 2,
-    "alternativ": [
-      {
-        "txt": "0",
-        "ratt": true
-      },
-      {
-        "txt": "0,008",
-        "ratt": false
-      },
-      {
-        "txt": "0,04",
-        "ratt": false
-      },
-      {
-        "txt": "0,12",
-        "ratt": false
-      }
-    ],
+    "alternativ": [{"txt": "0", "ratt": true, "kommentar": "Rätt. Både funktionsvärdet och lutningen är noll vid tangentpunkten, så tangenten är y = 0."}, {"txt": "0,008", "ratt": false, "kommentar": "Detta är funktionens verkliga värde 0,2³, inte tangentens approximation."}, {"txt": "0,04", "ratt": false, "kommentar": "Detta är 0,2². Frågan gäller tangentlinjen till x³ vid noll."}, {"txt": "0,12", "ratt": false, "kommentar": "Detta är derivatans värde 3·0,2² vid 0,2. Tangenten ska i stället bestämmas vid noll."}],
     "spel": true
   },
 {

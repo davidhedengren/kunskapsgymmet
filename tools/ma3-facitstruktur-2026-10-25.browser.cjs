@@ -22,7 +22,13 @@ const special=process.env.REVIEW_CASES_FILE?JSON.parse(fs.readFileSync(process.e
   g.parents=g.tasks;g.tasks=await page.evaluate(tasks=>tasks.flatMap(expandGameTask),g.tasks);
   await page.evaluate(tasks=>{window.reviewBank=tasks;session=null;syncOwner=null;arLarare=false;finishAttempt=r=>{state.answered=true;window.result=r;};window.prepareReview=id=>{state.currentTask=reviewBank.find(q=>q.id===id);state.answered=false;state.solutionShown=false;state.hintVisible=false;state.partIndex=0;state.partResults=[];state.aktivRuta=0;state.altValda=new Set();state.altOrdningId=null;window.result=null;renderTraining();hjalpSynk();};},g.tasks);
   for(const width of [390,1280]){await page.setViewportSize({width,height:1000});for(const q of g.tasks){const key=g.course+':'+q.id;if(process.env.REVIEW_ONLY&&!new RegExp(process.env.REVIEW_ONLY).test(key))continue;
-   if(q.självrättning===false||process.env.REVIEW_RENDER_ONLY){
+   if(Array.isArray(q.självrättning)&&q.självrättning.includes(false)&&!process.env.REVIEW_RENDER_ONLY){
+    // Blandad bedömning: testa endast automatdelen; resonemanget kräver fortfarande lärare/elevbedömning.
+    for(let i=0;i<q.självrättning.length;i++)if(q.självrättning[i])for(const [value,expected] of [[String(q.rättSvar[i]),true],['987654321',false],...(key==='matf1:3.08'?[['1/25',true],['0.039',false],['0.041',false]]:[])]){
+     const r=await page.evaluate(({id,i,value})=>{prepareReview(id);const q=state.currentTask;const fields=[...document.querySelectorAll('input[id^="ans-"],textarea[id^="ans-"]')];fields[i].value=value;return delSvarRatt(fields[i].value,q.rättSvar[i],Array.isArray(q.svarEnhet)?q.svarEnhet[i]:q.svarEnhet,Array.isArray(q.tolerans)?q.tolerans[i]:q.tolerans,q,i,Array.isArray(q.svarFormat)?q.svarFormat[i]:q.svarFormat);},{id:q.id,i,value});
+     if(r!==expected)failures.push({key,width,value,expected,r,mixed:true});checks++;
+    }
+   }else if(q.självrättning===false||process.env.REVIEW_RENDER_ONLY){
     // Manuella uppgifter granskas visuellt; ingen påhittad automatpoäng.
    }else if(q.alternativ){
     for(let mask=1;mask<2**q.alternativ.length;mask++){
@@ -38,8 +44,8 @@ const special=process.env.REVIEW_CASES_FILE?JSON.parse(fs.readFileSync(process.e
     if(key==='mato2:6.07')cases.push([['0.52','2.62'],true],[['0.5','2.6'],true],[['pi/6','5*pi/6'],true],[['5π/6 rad','π/6 rad'],true]);
     if(q.svarsstruktur==='ordnad'&&new Set(correct).size>1)cases.push([[...correct].reverse(),false]);
     if(correct.length===1&&q.svarEnhet&&typeof q.rättSvar==='number')cases.push([[correct[0]+' '+q.svarEnhet],true],[[correct[0]+' kg'],false]);
-    if(correct.length===1&&typeof q.rättSvar==='number'&&!Number.isInteger(q.rättSvar)&&!/(exakt|decimal|värdesiff)/i.test(q.t))cases.push([[q.rättSvar.toFixed(2).replace('.',',')],q.svarFormat!=='decimalform'&&Number(q.rättSvar.toFixed(2))!==0]);
-    if(special[key])for(const[i,inputs]of special[key].entries())for(const value of inputs)cases.push([[value],i===0]);
+    if(correct.length===1&&typeof q.rättSvar==='number'&&!Number.isInteger(q.rättSvar)&&!/(exakt|decimal|värdesiff)/i.test(q.t))cases.push([[(Math.round((q.rättSvar+Number.EPSILON)*100)/100).toFixed(2).replace('.',',')],q.svarFormat!=='decimalform'&&Number((Math.round((q.rättSvar+Number.EPSILON)*100)/100).toFixed(2))!==0]);
+    if(special[key])for(const[i,inputs]of special[key].entries())for(const value of inputs)cases.push([Array.isArray(value)?value:[value],i===0]);
     for(const[values,expected]of cases){const r=await page.evaluate(({id,values})=>{prepareReview(id);const fields=[...document.querySelectorAll('input[id^="ans-"],textarea[id^="ans-"]')];if(fields.length!==values.length)return {fieldCount:fields.length};values.forEach((v,i)=>fields[i].value=v);for(let k=0;k<values.length&&!window.result;k++)checkAnswer();return window.result;},{id:q.id,values});
      if(!Array.isArray(r)||r.every(Boolean)!==expected)failures.push({key,width,values,expected,r});checks++;
     }

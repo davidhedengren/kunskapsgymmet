@@ -54531,5 +54531,234 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "rättSvar": 417,
     "tolerans": 0,
     "svarEnhet": "fåglar"
+  },
+  {
+    "id": "2.1229",
+    "kap": 2,
+    "omr": "kvadratkomplettering",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "kvadratkomplettering med en ytmodell",
+    "t": "<p>Figuren visar \\(x^2+10x\\) som en kvadrat och två rektanglar. I hörnet saknas en bit för att det ska bli en hel kvadrat.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"En kvadrat med sidan x och arean x i kvadrat. Till höger och under den ligger två rektanglar med sidorna 5 och x, var och en med arean 5x. I hörnet saknas en streckad kvadrat med sidan 5.\"><title>En kvadrat med sidan x och arean x i kvadrat. Till höger och under den ligger två rektanglar med sidorna 5 och x, var och en med arean 5x. I hörnet saknas en streckad kvadrat med sidan 5.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"70\" y=\"40\" width=\"120\" height=\"120\" fill=\"#e7f1f7\" stroke=\"#216d87\" stroke-width=\"2\"/><rect x=\"190\" y=\"40\" width=\"60\" height=\"120\" fill=\"#fdf0e8\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"70\" y=\"160\" width=\"120\" height=\"60\" fill=\"#fdf0e8\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"190\" y=\"160\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"130.0\" y=\"106.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">x²</text><text x=\"220.0\" y=\"106.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">5x</text><text x=\"130.0\" y=\"196.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">5x</text><text x=\"220.0\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">?</text><text x=\"130.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">x</text><text x=\"220.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">5</text><text x=\"60.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60.0\" y=\"195.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">5</text></svg></span><p>Använd figuren och skriv \\(x^2+10x+18\\) på formen \\((x+a)^2+b\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De två rektanglarna är tillsammans 10x</p><p>Varje rektangel har sidorna 5 och x, så \\(x^2+10x\\) är kvadraten och två rektanglar \\(5x\\).</p></li><li><p class=\"facit-rubrik\">Biten som saknas är en kvadrat med sidan 5</p><p>Med den biten blir figuren en hel kvadrat med sidan \\(x+5\\).</p><div class=\"facit-matte\">\\[x^2+10x+25=(x+5)^2\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 25 och dra bort 25 igen</p><div class=\"facit-matte\">\\[\\begin{gathered}x^2+10x+18 =(x+5)^2-25+18\\\\=(x+5)^2-7\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((x+5)^2-7\\)</p></div>",
+    "familj": "Skriva på kvadratkompletterad form",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur stor är biten som saknas i hörnet? Om du lägger till den måste du också dra bort lika mycket.</p>",
+    "svarstyp": "uttryck",
+    "svarFormat": "kvadratkompletterat",
+    "rättSvar": "(x+5)^2-7",
+    "tolerans": null
+  },
+  {
+    "id": "2.1230",
+    "kap": 2,
+    "omr": "kvadratkomplettering",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "största värde när x²-termen är negativ",
+    "t": "<p>Funktionen är \\(f(x)=-x^2+4x+1\\). Bestäm funktionens största värde och för vilket \\(x\\) det antas. Använd kvadratkomplettering.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut −1 ur de två första termerna</p><div class=\"facit-matte\">\\[f(x)=-(x^2-4x)+1\\]</div></li><li><p class=\"facit-rubrik\">Kvadratkomplettera inuti parentesen</p><div class=\"facit-matte\">\\[x^2-4x=(x-2)^2-4\\]</div></li><li><p class=\"facit-rubrik\">Sätt in och förenkla. Minustecknet framför parentesen gäller båda termerna</p><div class=\"facit-matte\">\\[\\begin{gathered}f(x) =-\\big((x-2)^2-4\\big)+1\\\\=-(x-2)^2+5\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Kvadraten är aldrig negativ, så \\(-(x-2)^2\\) är högst 0</p><p>Det största värdet är 5, och det antas när \\(x-2=0\\), alltså \\(x=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Största värdet är 5, och det antas när \\(x=2\\).</p></div>",
+    "familj": "Extrempunkt och ekvationer via kvadratkomplettering",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Bryt ut −1 först, så att \\(x^2\\)-termen får koefficienten 1 inne i parentesen. Hur stort kan \\(-(\\ldots)^2\\) bli?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      2
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "största värde",
+      "x"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
+  },
+  {
+    "id": "2.1231",
+    "kap": 2,
+    "omr": "kvadratkomplettering",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "största area för en rektangel med given omkrets",
+    "t": "<p>En rektangel har omkretsen 24 m. Om ena sidan är \\(x\\) m blir arean \\(A(x)=x(12-x)\\) m². Använd kvadratkomplettering för att bestämma den största möjliga arean.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera ut och ordna termerna</p><div class=\"facit-matte\">\\[A(x)=12x-x^2=-(x^2-12x)\\]</div></li><li><p class=\"facit-rubrik\">Kvadratkomplettera \\(x^2-12x\\)</p><div class=\"facit-matte\">\\[x^2-12x=(x-6)^2-36\\]</div></li><li><p class=\"facit-rubrik\">Arean på kvadratkompletterad form</p><div class=\"facit-matte\">\\[\\begin{gathered}A(x) =-\\big((x-6)^2-36\\big)\\\\=-(x-6)^2+36\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Arean är som störst när kvadraten är 0</p><p>När \\(x=6\\) är arean 36 m². Då är båda sidorna 6 m, så rektangeln är en kvadrat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den största arean är 36 m².</p></div>",
+    "familj": "Extrempunkt och ekvationer via kvadratkomplettering",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Skriv arean på formen \\(-(x-a)^2+b\\). Vilket värde på x gör kvadraten lika med 0?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": 0,
+    "svarEnhet": "m²"
+  },
+  {
+    "id": "2.1232",
+    "kap": 2,
+    "omr": "kvadratkomplettering",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "fel i en kvadratkomplettering",
+    "t": "<p>En elev skriver \\[x^2-10x+7=(x-5)^2+7.\\] Vad är felet? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla elevens kvadrat</p><div class=\"facit-matte\">\\[(x-5)^2=x^2-10x+25\\]</div></li><li><p class=\"facit-rubrik\">Kvadraten ger 25 för mycket</p><p>Därför måste 25 dras bort igen. Eleven har glömt det.</p></li><li><p class=\"facit-rubrik\">Rätt kvadratkomplettering</p><div class=\"facit-matte\">\\[\\begin{gathered}x^2-10x+7 =(x-5)^2-25+7\\\\=(x-5)^2-18\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Eleven har inte dragit bort 25. Rätt är \\((x-5)^2-18\\).</p></div>",
+    "familj": "Skriva på kvadratkompletterad form",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Utveckla \\((x-5)^2\\). Blir det samma uttryck som du började med?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Det ska stå (x + 5)² i stället för (x − 5)²",
+        "ratt": false,
+        "kommentar": "Termen −10x kräver (x − 5)², eftersom (x + 5)² ger +10x."
+      },
+      {
+        "txt": "Talet i kvadraten ska vara 10, inte 5",
+        "ratt": false,
+        "kommentar": "Man halverar koefficienten −10, så talet i kvadraten är 5."
+      },
+      {
+        "txt": "Eleven har glömt att dra bort 25, så det ska vara (x − 5)² − 18",
+        "ratt": true
+      },
+      {
+        "txt": "Det finns inget fel",
+        "ratt": false,
+        "kommentar": "(x − 5)² + 7 = x² − 10x + 32, inte x² − 10x + 7."
+      }
+    ]
+  },
+  {
+    "id": "2.1233",
+    "kap": 2,
+    "omr": "kvadratkomplettering",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "b och c ur parabelns minimipunkt",
+    "t": "<p>Grafen visar funktionen \\(f(x)=x^2+bx+c\\). Grafens minimipunkt är markerad.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"340\" viewBox=\"0 0 400 340\" role=\"img\" aria-label=\"Parabeln y = x² + bx + c med minimipunkten (3, 2) markerad. Kurvan går genom (0, 11) och (6, 11).\"><title>Parabeln y = x² + bx + c med minimipunkten (3, 2) markerad. Kurvan går genom (0, 11) och (6, 11).</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"26\" x2=\"56.0\" y2=\"308\" stroke=\"#e3e8ee\"/><line x1=\"107.7\" y1=\"26\" x2=\"107.7\" y2=\"308\" stroke=\"#e3e8ee\"/><line x1=\"159.3\" y1=\"26\" x2=\"159.3\" y2=\"308\" stroke=\"#e3e8ee\"/><line x1=\"211.0\" y1=\"26\" x2=\"211.0\" y2=\"308\" stroke=\"#e3e8ee\"/><line x1=\"262.7\" y1=\"26\" x2=\"262.7\" y2=\"308\" stroke=\"#e3e8ee\"/><line x1=\"314.3\" y1=\"26\" x2=\"314.3\" y2=\"308\" stroke=\"#e3e8ee\"/><line x1=\"366.0\" y1=\"26\" x2=\"366.0\" y2=\"308\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"308.0\" x2=\"366\" y2=\"308.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"284.5\" x2=\"366\" y2=\"284.5\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"261.0\" x2=\"366\" y2=\"261.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"237.5\" x2=\"366\" y2=\"237.5\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"214.0\" x2=\"366\" y2=\"214.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"190.5\" x2=\"366\" y2=\"190.5\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"167.0\" x2=\"366\" y2=\"167.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"143.5\" x2=\"366\" y2=\"143.5\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"120.0\" x2=\"366\" y2=\"120.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"96.5\" x2=\"366\" y2=\"96.5\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"73.0\" x2=\"366\" y2=\"73.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"49.5\" x2=\"366\" y2=\"49.5\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"26.0\" x2=\"366\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"308\" x2=\"374\" y2=\"308\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"56\" y1=\"308\" x2=\"56\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><polyline points=\"56.0,49.5 57.0,52.3 58.1,55.1 59.1,57.9 60.1,60.6 61.2,63.4 62.2,66.1 63.2,68.8 64.3,71.5 65.3,74.1 66.3,76.8 67.4,79.4 68.4,82.0 69.4,84.6 70.5,87.1 71.5,89.7 72.5,92.2 73.6,94.7 74.6,97.2 75.6,99.7 76.7,102.1 77.7,104.6 78.7,107.0 79.8,109.4 80.8,111.8 81.8,114.1 82.9,116.5 83.9,118.8 84.9,121.1 86.0,123.4 87.0,125.6 88.0,127.9 89.1,130.1 90.1,132.3 91.1,134.5 92.2,136.7 93.2,138.8 94.2,141.0 95.3,143.1 96.3,145.2 97.3,147.3 98.4,149.3 99.4,151.4 100.4,153.4 101.5,155.4 102.5,157.4 103.5,159.3 104.6,161.3 105.6,163.2 106.6,165.1 107.7,167.0 108.7,168.9 109.7,170.7 110.8,172.6 111.8,174.4 112.8,176.2 113.9,177.9 114.9,179.7 115.9,181.4 117.0,183.2 118.0,184.9 119.0,186.5 120.1,188.2 121.1,189.9 122.1,191.5 123.2,193.1 124.2,194.7 125.2,196.2 126.3,197.8 127.3,199.3 128.3,200.8 129.4,202.3 130.4,203.8 131.4,205.3 132.5,206.7 133.5,208.1 134.5,209.5 135.6,210.9 136.6,212.3 137.6,213.6 138.7,214.9 139.7,216.2 140.7,217.5 141.8,218.8 142.8,220.1 143.8,221.3 144.9,222.5 145.9,223.7 146.9,224.9 148.0,226.0 149.0,227.2 150.0,228.3 151.1,229.4 152.1,230.5 153.1,231.5 154.2,232.6 155.2,233.6 156.2,234.6 157.3,235.6 158.3,236.6 159.3,237.5 160.4,238.4 161.4,239.3 162.4,240.2 163.5,241.1 164.5,242.0 165.5,242.8 166.6,243.6 167.6,244.4 168.6,245.2 169.7,246.0 170.7,246.7 171.7,247.4 172.8,248.1 173.8,248.8 174.8,249.5 175.9,250.1 176.9,250.8 177.9,251.4 179.0,252.0 180.0,252.5 181.0,253.1 182.1,253.6 183.1,254.1 184.1,254.6 185.2,255.1 186.2,255.6 187.2,256.0 188.3,256.5 189.3,256.9 190.3,257.2 191.4,257.6 192.4,258.0 193.4,258.3 194.5,258.6 195.5,258.9 196.5,259.2 197.6,259.4 198.6,259.6 199.6,259.9 200.7,260.1 201.7,260.2 202.7,260.4 203.8,260.5 204.8,260.7 205.8,260.8 206.9,260.8 207.9,260.9 208.9,261.0 210.0,261.0 211.0,261.0 212.0,261.0 213.1,261.0 214.1,260.9 215.1,260.8 216.2,260.8 217.2,260.7 218.2,260.5 219.3,260.4 220.3,260.2 221.3,260.1 222.4,259.9 223.4,259.6 224.4,259.4 225.5,259.2 226.5,258.9 227.5,258.6 228.6,258.3 229.6,258.0 230.6,257.6 231.7,257.2 232.7,256.9 233.7,256.5 234.8,256.0 235.8,255.6 236.8,255.1 237.9,254.6 238.9,254.1 239.9,253.6 241.0,253.1 242.0,252.5 243.0,252.0 244.1,251.4 245.1,250.8 246.1,250.1 247.2,249.5 248.2,248.8 249.2,248.1 250.3,247.4 251.3,246.7 252.3,246.0 253.4,245.2 254.4,244.4 255.4,243.6 256.5,242.8 257.5,242.0 258.5,241.1 259.6,240.2 260.6,239.3 261.6,238.4 262.7,237.5 263.7,236.6 264.7,235.6 265.8,234.6 266.8,233.6 267.8,232.6 268.9,231.5 269.9,230.5 270.9,229.4 272.0,228.3 273.0,227.2 274.0,226.0 275.1,224.9 276.1,223.7 277.1,222.5 278.2,221.3 279.2,220.1 280.2,218.8 281.3,217.5 282.3,216.2 283.3,214.9 284.4,213.6 285.4,212.3 286.4,210.9 287.5,209.5 288.5,208.1 289.5,206.7 290.6,205.3 291.6,203.8 292.6,202.3 293.7,200.8 294.7,199.3 295.7,197.8 296.8,196.2 297.8,194.7 298.8,193.1 299.9,191.5 300.9,189.9 301.9,188.2 303.0,186.5 304.0,184.9 305.0,183.2 306.1,181.4 307.1,179.7 308.1,177.9 309.2,176.2 310.2,174.4 311.2,172.6 312.3,170.7 313.3,168.9 314.3,167.0 315.4,165.1 316.4,163.2 317.4,161.3 318.5,159.3 319.5,157.4 320.5,155.4 321.6,153.4 322.6,151.4 323.6,149.3 324.7,147.3 325.7,145.2 326.7,143.1 327.8,141.0 328.8,138.8 329.8,136.7 330.9,134.5 331.9,132.3 332.9,130.1 334.0,127.9 335.0,125.6 336.0,123.4 337.1,121.1 338.1,118.8 339.1,116.5 340.2,114.1 341.2,111.8 342.2,109.4 343.3,107.0 344.3,104.6 345.3,102.1 346.4,99.7 347.4,97.2 348.4,94.7 349.5,92.2 350.5,89.7 351.5,87.1 352.6,84.6 353.6,82.0 354.6,79.4 355.7,76.8 356.7,74.1 357.7,71.5 358.8,68.8 359.8,66.1 360.8,63.4 361.9,60.6 362.9,57.9 363.9,55.1 365.0,52.3 366.0,49.5\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"211.0\" cy=\"261.0\" r=\"5\" fill=\"#c2410c\"/><text x=\"107.7\" y=\"325.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><text x=\"159.3\" y=\"325.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><text x=\"211.0\" y=\"325.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><text x=\"262.7\" y=\"325.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><text x=\"314.3\" y=\"325.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><text x=\"366.0\" y=\"325.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><text x=\"49.0\" y=\"288.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><text x=\"49.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><text x=\"49.0\" y=\"241.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><text x=\"49.0\" y=\"218.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><text x=\"49.0\" y=\"194.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><text x=\"49.0\" y=\"171.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><text x=\"49.0\" y=\"147.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">7</text><text x=\"49.0\" y=\"124.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">8</text><text x=\"49.0\" y=\"100.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">9</text><text x=\"49.0\" y=\"77.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">10</text><text x=\"49.0\" y=\"53.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">11</text><text x=\"49.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">12</text><text x=\"49.0\" y=\"323.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"378.0\" y=\"313.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"63.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text></svg></span><p>Bestäm \\(b\\) och \\(c\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av minimipunkten</p><p>Minimipunkten är \\((3,\\ 2)\\).</p></li><li><p class=\"facit-rubrik\">Skriv funktionen på kvadratkompletterad form</p><p>En parabel med koefficienten 1 framför \\(x^2\\) och minimipunkten \\((3,\\ 2)\\) är</p><div class=\"facit-matte\">\\[f(x)=(x-3)^2+2\\]</div></li><li><p class=\"facit-rubrik\">Utveckla och jämför med \\(x^2+bx+c\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}(x-3)^2+2 =x^2-6x+9+2\\\\=x^2-6x+11\\end{gathered}\\]</div><p>Kontroll: \\(f(0)=11\\), som i grafen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=-6\\) och \\(c=11\\)</p></div>",
+    "familj": "Extrempunkt och ekvationer via kvadratkomplettering",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Minimipunkten \\((p,\\ q)\\) ger den kvadratkompletterade formen \\((x-p)^2+q\\). Utveckla den sedan.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -6,
+      11
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
+  },
+  {
+    "id": "2.1234",
+    "kap": 2,
+    "omr": "kvadratkomplettering",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "minsta värdet av en produkt",
+    "t": "<p>Bestäm det minsta värde som uttrycket \\((x-1)(x-5)\\) kan anta.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera ut</p><div class=\"facit-matte\">\\[(x-1)(x-5)=x^2-6x+5\\]</div></li><li><p class=\"facit-rubrik\">Kvadratkomplettera</p><div class=\"facit-matte\">\\[\\begin{gathered}x^2-6x+5 =(x-3)^2-9+5\\\\=(x-3)^2-4\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Kvadraten är som minst 0, när x = 3</p><p>Det minsta värdet är därför −4. Kontroll: \\((3-1)(3-5)=2\\cdot(-2)=-4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det minsta värdet är −4.</p></div>",
+    "familj": "Extrempunkt och ekvationer via kvadratkomplettering",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Multiplicera ut och kvadratkomplettera. Vilket värde har en kvadrat som minst?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": 0
   }
 ];

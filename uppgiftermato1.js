@@ -116691,6 +116691,270 @@ window.BANKMATO1 = [
     "numeriskt",
     "numeriskt"
   ]
+},
+{
+  "id": "1.965",
+  "kap": 1,
+  "omr": "forkorta_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "bryta ut x och känna igen en kvadrat",
+  "t": "<p>Förenkla uttrycket och ange vilka värden på \\(x\\) som inte är tillåtna i originaluttrycket:</p><p>\\[\\frac{x^2+5x}{x^2+10x+25}\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut x i täljaren</p><div class=\"facit-matte\">\\[x^2+5x=x(x+5)\\]</div></li><li><p class=\"facit-rubrik\">Nämnaren är en kvadrat enligt kvadreringsregeln</p><div class=\"facit-matte\">\\[x^2+10x+25=(x+5)^2\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med den gemensamma faktorn \\(x+5\\)</p><div class=\"facit-matte\">\\[\\frac{x(x+5)}{(x+5)^2}=\\frac{x}{x+5}\\]</div></li><li><p class=\"facit-rubrik\">Förbjudet värde i originaluttrycket</p><p>Nämnaren \\((x+5)^2\\) är 0 när \\(x=-5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x}{x+5}\\), och \\(x=-5\\) är inte tillåtet.</p></div>",
+  "familj": "Förkorta rationella uttryck",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bryt ut en gemensam faktor i täljaren. Känner du igen nämnaren som en kvadrat?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "x/(x+5)",
+    [
+      -5
+    ]
+  ],
+  "tolerans": null,
+  "svarFormat": [
+    "uttryck",
+    [
+      "numeriskt"
+    ]
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "förenklat uttryck",
+    "förbjudna x-värden"
+  ]
+},
+{
+  "id": "1.966",
+  "kap": 1,
+  "omr": "forkorta_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "faktorisera en tredjegradstäljare",
+  "t": "<p>Förenkla uttrycket och ange vilka värden på \\(x\\) som inte är tillåtna i originaluttrycket:</p><p>\\[\\frac{x^3-4x^2+4x}{x^2-4}\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut x och använd kvadreringsregeln i täljaren</p><div class=\"facit-matte\">\\[\\begin{gathered}x^3-4x^2+4x =x(x^2-4x+4)\\\\=x(x-2)^2\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Nämnaren faktoriseras med konjugatregeln</p><div class=\"facit-matte\">\\[x^2-4=(x-2)(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(x-2\\)</p><div class=\"facit-matte\">\\[\\frac{x(x-2)^2}{(x-2)(x+2)}=\\frac{x(x-2)}{x+2}\\]</div></li><li><p class=\"facit-rubrik\">Förbjudna värden i originaluttrycket</p><p>Originalets nämnare är 0 när \\(x=2\\) och när \\(x=-2\\). Värdet 2 är förbjudet fast faktorn försvann.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x(x-2)}{x+2}\\), och \\(x=\\pm2\\) är inte tillåtna.</p></div>",
+  "familj": "Förkorta rationella uttryck",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Börja med att bryta ut x i täljaren. Vilka regler känner du igen i det som blir kvar och i nämnaren?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "x(x-2)/(x+2)",
+    [
+      -2,
+      2
+    ]
+  ],
+  "tolerans": null,
+  "svarFormat": [
+    "uttryck",
+    [
+      "numeriskt",
+      "numeriskt"
+    ]
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "förenklat uttryck",
+    "förbjudna x-värden"
+  ]
+},
+{
+  "id": "1.967",
+  "kap": 1,
+  "omr": "forkorta_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "förkorta först och lös sedan en ekvation",
+  "t": "<p>Uttrycket är \\(R(x)=\\dfrac{x^2-x-6}{x^2-9}\\). För vilket \\(x\\) är \\(R(x)=\\dfrac12\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljare och nämnare</p><div class=\"facit-matte\">\\[\\begin{gathered}R(x)=\\frac{(x-3)(x+2)}{(x-3)(x+3)}=\\frac{x+2}{x+3},\\\\x\\ne\\pm3\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Sätt det förkortade uttrycket lika med en halv</p><div class=\"facit-matte\">\\[\\frac{x+2}{x+3}=\\frac12\\quad\\Rightarrow\\quad 2(x+2)=x+3\\]</div></li><li><p class=\"facit-rubrik\">Lös ekvationen och kontrollera att x är tillåtet</p><div class=\"facit-matte\">\\[2x+4=x+3\\quad\\Rightarrow\\quad x=-1\\]</div><p>\\(x=-1\\) är inte ett förbjudet värde. Kontroll: \\(R(-1)=\\dfrac{1+1-6}{1-9}=\\dfrac{-4}{-8}=\\dfrac12\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div>",
+  "familj": "Förkorta rationella uttryck",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Förkorta uttrycket först. Då blir ekvationen enklare att lösa.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -1,
+  "tolerans": 0
+},
+{
+  "id": "1.968",
+  "kap": 1,
+  "omr": "forkorta_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "välja det uttryck som kan förkortas till ett givet",
+  "t": "<p>Vilket av uttrycken är lika med \\(\\dfrac{1}{x+1}\\) för alla \\(x\\) där båda uttrycken är definierade? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera nämnaren med konjugatregeln</p><div class=\"facit-matte\">\\[x^2-1=(x-1)(x+1)\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(x-1\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{x-1}{x^2-1}=\\frac{x-1}{(x-1)(x+1)}=\\frac1{x+1},\\\\x\\ne1\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Varför de andra inte fungerar</p><p>\\(x^2+1\\) kan inte faktoriseras, och \\(\\frac{x+1}{x^2-1}\\) blir \\(\\frac1{x-1}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-1}{x^2-1}\\)</p></div>",
+  "familj": "Förenkla och ange definitionsvillkor",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Faktorisera nämnarna. Vilken täljare tar bort rätt faktor?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "(x + 1)/(x² − 1)",
+      "ratt": false,
+      "kommentar": "Den förkortas till 1/(x − 1), inte 1/(x + 1)."
+    },
+    {
+      "txt": "(x − 1)/(x² + 1)",
+      "ratt": false,
+      "kommentar": "x² + 1 kan inte faktoriseras, så ingenting kan förkortas."
+    },
+    {
+      "txt": "(x − 1)/(x² − 1)",
+      "ratt": true
+    },
+    {
+      "txt": "1/(x² + 1)",
+      "ratt": false,
+      "kommentar": "x² + 1 är inte samma sak som x + 1. Prova x = 1: uttrycken ger 1/2 och 1/2, men x = 2 ger 1/5 och 1/3."
+    }
+  ]
+},
+{
+  "id": "1.969",
+  "kap": 1,
+  "omr": "forkorta_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "förkorta när faktorerna har omvänt tecken",
+  "t": "<p>Förenkla uttrycket och ange vilka värden på \\(x\\) som inte är tillåtna i originaluttrycket:</p><p>\\[\\frac{x^2-6x+9}{9-x^2}\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren med kvadreringsregeln</p><div class=\"facit-matte\">\\[x^2-6x+9=(x-3)^2\\]</div></li><li><p class=\"facit-rubrik\">Skriv nämnaren så att faktorn \\(x-3\\) syns</p><div class=\"facit-matte\">\\[\\begin{gathered}9-x^2 =(3-x)(3+x)\\\\=-(x-3)(x+3)\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(x-3\\)</p><div class=\"facit-matte\">\\[\\frac{(x-3)^2}{-(x-3)(x+3)}=-\\frac{x-3}{x+3}=\\frac{3-x}{x+3}\\]</div></li><li><p class=\"facit-rubrik\">Förbjudna värden i originaluttrycket</p><p>\\(9-x^2=0\\) när \\(x=3\\) och när \\(x=-3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{3-x}{x+3}\\), och \\(x=\\pm3\\) är inte tillåtna.</p></div>",
+  "familj": "Förkorta rationella uttryck",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>\\(3-x\\) och \\(x-3\\) skiljer sig bara åt i tecken. Bryt ut −1 så att samma faktor syns i täljare och nämnare.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "(3-x)/(x+3)",
+    [
+      -3,
+      3
+    ]
+  ],
+  "tolerans": null,
+  "svarFormat": [
+    "uttryck",
+    [
+      "numeriskt",
+      "numeriskt"
+    ]
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "förenklat uttryck",
+    "förbjudna x-värden"
+  ]
+},
+{
+  "id": "1.970",
+  "kap": 1,
+  "omr": "forkorta_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "hålet i grafen till ett rationellt uttryck",
+  "t": "<p>Grafen visar \\(R(x)=\\dfrac{x^2-1}{x-1}\\). Grafen ser ut som en rät linje, men den har ett hål som är för litet för att synas i figuren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"320\" viewBox=\"0 0 400 320\" role=\"img\" aria-label=\"Grafen till R(x) = (x² − 1)/(x − 1) för x från 0 till 5. Den ser ut som en rät linje genom (0, 1) och (5, 6).\"><title>Grafen till R(x) = (x² − 1)/(x − 1) för x från 0 till 5. Den ser ut som en rät linje genom (0, 1) och (5, 6).</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"26\" x2=\"56.0\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"118.0\" y1=\"26\" x2=\"118.0\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"180.0\" y1=\"26\" x2=\"180.0\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"242.0\" y1=\"26\" x2=\"242.0\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"304.0\" y1=\"26\" x2=\"304.0\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"366.0\" y1=\"26\" x2=\"366.0\" y2=\"288\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"288.0\" x2=\"366\" y2=\"288.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"244.3\" x2=\"366\" y2=\"244.3\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"200.7\" x2=\"366\" y2=\"200.7\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"157.0\" x2=\"366\" y2=\"157.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"113.3\" x2=\"366\" y2=\"113.3\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"69.7\" x2=\"366\" y2=\"69.7\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"26.0\" x2=\"366\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"288\" x2=\"374\" y2=\"288\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"56\" y1=\"288\" x2=\"56\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><polyline points=\"56.0,244.3 57.0,243.6 58.1,242.9 59.1,242.2 60.1,241.4 61.2,240.7 62.2,240.0 63.2,239.2 64.3,238.5 65.3,237.8 66.3,237.1 67.4,236.3 68.4,235.6 69.4,234.9 70.5,234.1 71.5,233.4 72.5,232.7 73.6,232.0 74.6,231.2 75.6,230.5 76.7,229.8 77.7,229.1 78.7,228.3 79.8,227.6 80.8,226.9 81.8,226.1 82.9,225.4 83.9,224.7 84.9,224.0 86.0,223.2 87.0,222.5 88.0,221.8 89.1,221.0 90.1,220.3 91.1,219.6 92.2,218.9 93.2,218.1 94.2,217.4 95.3,216.7 96.3,215.9 97.3,215.2 98.4,214.5 99.4,213.8 100.4,213.0 101.5,212.3 102.5,211.6 103.5,210.9 104.6,210.1 105.6,209.4 106.6,208.7 107.7,207.9 108.7,207.2 109.7,206.5 110.8,205.8 111.8,205.0 112.8,204.3 113.9,203.6 114.9,202.8 115.9,202.1 117.0,201.4 118.0,200.7 119.0,199.9 120.1,199.2 121.1,198.5 122.1,197.8 123.2,197.0 124.2,196.3 125.2,195.6 126.3,194.8 127.3,194.1 128.3,193.4 129.4,192.7 130.4,191.9 131.4,191.2 132.5,190.5 133.5,189.8 134.5,189.0 135.6,188.3 136.6,187.6 137.6,186.8 138.7,186.1 139.7,185.4 140.7,184.7 141.8,183.9 142.8,183.2 143.8,182.5 144.9,181.7 145.9,181.0 146.9,180.3 148.0,179.6 149.0,178.8 150.0,178.1 151.1,177.4 152.1,176.7 153.1,175.9 154.2,175.2 155.2,174.5 156.2,173.7 157.3,173.0 158.3,172.3 159.3,171.6 160.4,170.8 161.4,170.1 162.4,169.4 163.5,168.6 164.5,167.9 165.5,167.2 166.6,166.5 167.6,165.7 168.6,165.0 169.7,164.3 170.7,163.6 171.7,162.8 172.8,162.1 173.8,161.4 174.8,160.6 175.9,159.9 176.9,159.2 177.9,158.5 179.0,157.7 180.0,157.0 181.0,156.3 182.1,155.5 183.1,154.8 184.1,154.1 185.2,153.4 186.2,152.6 187.2,151.9 188.3,151.2 189.3,150.4 190.3,149.7 191.4,149.0 192.4,148.3 193.4,147.5 194.5,146.8 195.5,146.1 196.5,145.4 197.6,144.6 198.6,143.9 199.6,143.2 200.7,142.4 201.7,141.7 202.7,141.0 203.8,140.3 204.8,139.5 205.8,138.8 206.9,138.1 207.9,137.3 208.9,136.6 210.0,135.9 211.0,135.2 212.0,134.4 213.1,133.7 214.1,133.0 215.1,132.3 216.2,131.5 217.2,130.8 218.2,130.1 219.3,129.3 220.3,128.6 221.3,127.9 222.4,127.2 223.4,126.4 224.4,125.7 225.5,125.0 226.5,124.2 227.5,123.5 228.6,122.8 229.6,122.1 230.6,121.3 231.7,120.6 232.7,119.9 233.7,119.2 234.8,118.4 235.8,117.7 236.8,117.0 237.9,116.2 238.9,115.5 239.9,114.8 241.0,114.1 242.0,113.3 243.0,112.6 244.1,111.9 245.1,111.2 246.1,110.4 247.2,109.7 248.2,109.0 249.2,108.2 250.3,107.5 251.3,106.8 252.3,106.1 253.4,105.3 254.4,104.6 255.4,103.9 256.5,103.1 257.5,102.4 258.5,101.7 259.6,101.0 260.6,100.2 261.6,99.5 262.7,98.8 263.7,98.1 264.7,97.3 265.8,96.6 266.8,95.9 267.8,95.1 268.9,94.4 269.9,93.7 270.9,93.0 272.0,92.2 273.0,91.5 274.0,90.8 275.1,90.0 276.1,89.3 277.1,88.6 278.2,87.9 279.2,87.1 280.2,86.4 281.3,85.7 282.3,84.9 283.3,84.2 284.4,83.5 285.4,82.8 286.4,82.0 287.5,81.3 288.5,80.6 289.5,79.9 290.6,79.1 291.6,78.4 292.6,77.7 293.7,76.9 294.7,76.2 295.7,75.5 296.8,74.8 297.8,74.0 298.8,73.3 299.9,72.6 300.9,71.8 301.9,71.1 303.0,70.4 304.0,69.7 305.0,68.9 306.1,68.2 307.1,67.5 308.1,66.8 309.2,66.0 310.2,65.3 311.2,64.6 312.3,63.8 313.3,63.1 314.3,62.4 315.4,61.7 316.4,60.9 317.4,60.2 318.5,59.5 319.5,58.8 320.5,58.0 321.6,57.3 322.6,56.6 323.6,55.8 324.7,55.1 325.7,54.4 326.7,53.7 327.8,52.9 328.8,52.2 329.8,51.5 330.9,50.7 331.9,50.0 332.9,49.3 334.0,48.6 335.0,47.8 336.0,47.1 337.1,46.4 338.1,45.7 339.1,44.9 340.2,44.2 341.2,43.5 342.2,42.7 343.3,42.0 344.3,41.3 345.3,40.6 346.4,39.8 347.4,39.1 348.4,38.4 349.5,37.6 350.5,36.9 351.5,36.2 352.6,35.5 353.6,34.7 354.6,34.0 355.7,33.3 356.7,32.6 357.7,31.8 358.8,31.1 359.8,30.4 360.8,29.6 361.9,28.9 362.9,28.2 363.9,27.5 365.0,26.7 366.0,26.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><text x=\"118.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><text x=\"180.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><text x=\"242.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><text x=\"304.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><text x=\"366.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><text x=\"49.0\" y=\"248.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><text x=\"49.0\" y=\"204.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><text x=\"49.0\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><text x=\"49.0\" y=\"117.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><text x=\"49.0\" y=\"73.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><text x=\"49.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><text x=\"49.0\" y=\"303.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"378.0\" y=\"293.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"63.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text></svg></span><p>Vilka koordinater har hålet?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förkorta uttrycket</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{x^2-1}{x-1}=\\frac{(x-1)(x+1)}{x-1}=x+1,\\\\x\\ne1\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Uttrycket är inte definierat där nämnaren är 0</p><p>Grafen är linjen \\(y=x+1\\), men punkten med \\(x=1\\) saknas.</p></li><li><p class=\"facit-rubrik\">Hålets y-koordinat fås ur det förkortade uttrycket</p><div class=\"facit-matte\">\\[y=1+1=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hålet ligger i punkten \\((1,\\ 2)\\).</p></div>",
+  "familj": "Förenkla och ange definitionsvillkor",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>För vilket x är originaluttrycket inte definierat? Vilket värde skulle det förkortade uttrycket ha gett där?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1,
+    2
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "x",
+    "y"
+  ]
 }
 
 ];

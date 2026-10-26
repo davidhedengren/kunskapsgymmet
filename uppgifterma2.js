@@ -53528,5 +53528,279 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "rättSvar": "2/3",
     "tolerans": null,
     "svarFormat": "bråk"
+  },
+  {
+    "id": "1.1229",
+    "kap": 1,
+    "omr": "grafisk_losning_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "ekvationer ur grafen och exakt skärningspunkt",
+    "t": "<p>Linjerna \\(L_1\\) och \\(L_2\\) skär varandra mellan rutpunkterna, så lösningen kan inte läsas av exakt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"340\" viewBox=\"0 0 420 340\" role=\"img\" aria-label=\"Linjen L1 går genom (0, −1) och (2, 3). Linjen L2 går genom (0, 5) och (2, 4). Linjerna skär varandra mellan rutpunkterna.\"><title>Linjen L1 går genom (0, −1) och (2, 3). Linjen L2 går genom (0, 5) och (2, 4). Linjerna skär varandra mellan rutpunkterna.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"44.0\" y1=\"26\" x2=\"44.0\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"101.0\" y1=\"26\" x2=\"101.0\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"158.0\" y1=\"26\" x2=\"158.0\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"215.0\" y1=\"26\" x2=\"215.0\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"272.0\" y1=\"26\" x2=\"272.0\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"329.0\" y1=\"26\" x2=\"329.0\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"386.0\" y1=\"26\" x2=\"386.0\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"310.0\" x2=\"386\" y2=\"310.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"278.4\" x2=\"386\" y2=\"278.4\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"246.9\" x2=\"386\" y2=\"246.9\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"215.3\" x2=\"386\" y2=\"215.3\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"183.8\" x2=\"386\" y2=\"183.8\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"152.2\" x2=\"386\" y2=\"152.2\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"120.7\" x2=\"386\" y2=\"120.7\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"89.1\" x2=\"386\" y2=\"89.1\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"57.6\" x2=\"386\" y2=\"57.6\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"26.0\" x2=\"386\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"246.9\" x2=\"394\" y2=\"246.9\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"44.0\" y1=\"310\" x2=\"44.0\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"44.0\" y1=\"278.4\" x2=\"272.0\" y2=\"26.0\" stroke=\"#216d87\" stroke-width=\"2.6\"/><rect x=\"262.3\" y=\"57.2\" width=\"20.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"266.3\" y=\"70.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">L₁</text><line x1=\"44.0\" y1=\"89.1\" x2=\"386.0\" y2=\"183.8\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><rect x=\"352.9\" y=\"151.8\" width=\"20.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"363.2\" y=\"164.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">L₂</text><rect x=\"95.3\" y=\"252.9\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"101.0\" y=\"262.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><rect x=\"152.3\" y=\"252.9\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"158.0\" y=\"262.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><rect x=\"209.3\" y=\"252.9\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"215.0\" y=\"262.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><rect x=\"266.4\" y=\"252.9\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"272.0\" y=\"262.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><rect x=\"323.4\" y=\"252.9\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"329.0\" y=\"262.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><rect x=\"380.4\" y=\"252.9\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"386.0\" y=\"262.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><rect x=\"21.4\" y=\"304.0\" width=\"16.6\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"314.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−2</text><rect x=\"21.4\" y=\"272.4\" width=\"16.6\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"282.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><rect x=\"26.7\" y=\"209.3\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"219.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><rect x=\"26.7\" y=\"177.8\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"187.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><rect x=\"26.7\" y=\"146.2\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"156.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><rect x=\"26.7\" y=\"114.7\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"124.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><rect x=\"26.7\" y=\"83.1\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"93.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><rect x=\"26.7\" y=\"51.6\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"61.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><rect x=\"26.7\" y=\"20.0\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">7</text><text x=\"398.0\" y=\"251.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"51.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text></svg></span><p>Bestäm linjernas ekvationer med hjälp av grafen. Beräkna sedan ekvationssystemets lösning exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av ekvationen för \\(L_1\\)</p><p>\\(L_1\\) skär y-axeln i −1 och går upp 2 steg för varje steg åt höger.</p><div class=\"facit-matte\">\\[L_1:\\ y=2x-1\\]</div></li><li><p class=\"facit-rubrik\">Läs av ekvationen för \\(L_2\\)</p><p>\\(L_2\\) skär y-axeln i 5 och går ner 1 steg när x ökar 2 steg.</p><div class=\"facit-matte\">\\[L_2:\\ y=-0{,}5x+5\\]</div></li><li><p class=\"facit-rubrik\">Skärningspunkten: sätt uttrycken för y lika</p><div class=\"facit-matte\">\\[2x-1=-0{,}5x+5\\]</div><div class=\"facit-matte\">\\[2{,}5x=6\\quad\\Rightarrow\\quad x=2{,}4\\]</div></li><li><p class=\"facit-rubrik\">Beräkna y och kontrollera i den andra linjen</p><div class=\"facit-matte\">\\[y=2\\cdot2{,}4-1=3{,}8\\]</div><p>Kontroll: \\(-0{,}5\\cdot2{,}4+5=3{,}8\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2{,}4\\) och \\(y=3{,}8\\)</p></div>",
+    "familj": "Tolka grafisk lösning",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Bestäm först m-värde och k-värde för varje linje ur grafen. Sätt sedan uttrycken för y lika.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.4,
+      3.8
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
+  },
+  {
+    "id": "1.1230",
+    "kap": 1,
+    "omr": "grafisk_losning_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "oändligt många lösningar ger både k och m",
+    "t": "<p>Ekvationssystemet \\(\\begin{cases}y=ax+b\\\\6x-2y=4\\end{cases}\\) har oändligt många lösningar. Bestäm \\(a\\) och \\(b\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Oändligt många lösningar betyder att linjerna sammanfaller</p><p>Båda ekvationerna måste beskriva samma linje.</p></li><li><p class=\"facit-rubrik\">Skriv den andra ekvationen på formen y = kx + m</p><div class=\"facit-matte\">\\[\\begin{gathered}6x-2y=4\\quad \\Rightarrow -2y=-6x+4\\\\\\Rightarrow y=3x-2\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Jämför med \\(y=ax+b\\)</p><p>Samma linje betyder samma k-värde och samma m-värde.</p><div class=\"facit-matte\">\\[a=3,\\qquad b=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\) och \\(b=-2\\)</p></div>",
+    "familj": "Tolka grafisk lösning",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur ligger två linjer som har oändligt många gemensamma punkter? Skriv om den andra ekvationen på formen \\(y=kx+m\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      -2
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
+  },
+  {
+    "id": "1.1231",
+    "kap": 1,
+    "omr": "grafisk_losning_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "två vattentankar blir lika fulla",
+    "t": "<p>En tank innehåller 200 liter vatten och töms med 8 liter per minut. Samtidigt fylls en annan tank, som från början innehåller 50 liter, med 4 liter per minut. Grafen visar vattenmängden i tankarna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"340\" viewBox=\"0 0 440 340\" role=\"img\" aria-label=\"Grafen visar vattenmängden i två tankar mot tiden i minuter. Tank 1 börjar på 200 liter och minskar. Tank 2 börjar på 50 liter och ökar. Linjerna skär varandra mellan 10 och 15 minuter.\"><title>Grafen visar vattenmängden i två tankar mot tiden i minuter. Tank 1 börjar på 200 liter och minskar. Tank 2 börjar på 50 liter och ökar. Linjerna skär varandra mellan 10 och 15 minuter.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"44.0\" y1=\"26\" x2=\"44.0\" y2=\"292\" stroke=\"#e3e8ee\"/><line x1=\"116.4\" y1=\"26\" x2=\"116.4\" y2=\"292\" stroke=\"#e3e8ee\"/><line x1=\"188.8\" y1=\"26\" x2=\"188.8\" y2=\"292\" stroke=\"#e3e8ee\"/><line x1=\"261.2\" y1=\"26\" x2=\"261.2\" y2=\"292\" stroke=\"#e3e8ee\"/><line x1=\"333.6\" y1=\"26\" x2=\"333.6\" y2=\"292\" stroke=\"#e3e8ee\"/><line x1=\"406.0\" y1=\"26\" x2=\"406.0\" y2=\"292\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"292.0\" x2=\"406\" y2=\"292.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"258.8\" x2=\"406\" y2=\"258.8\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"225.5\" x2=\"406\" y2=\"225.5\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"192.2\" x2=\"406\" y2=\"192.2\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"159.0\" x2=\"406\" y2=\"159.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"125.8\" x2=\"406\" y2=\"125.8\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"92.5\" x2=\"406\" y2=\"92.5\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"59.2\" x2=\"406\" y2=\"59.2\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"26.0\" x2=\"406\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"292.0\" x2=\"414\" y2=\"292.0\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"44.0\" y1=\"292\" x2=\"44.0\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"44.0\" y1=\"26.0\" x2=\"406.0\" y2=\"292.0\" stroke=\"#216d87\" stroke-width=\"2.6\"/><rect x=\"155.8\" y=\"79.5\" width=\"45.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"159.8\" y=\"92.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">tank 1</text><line x1=\"44.0\" y1=\"225.5\" x2=\"406.0\" y2=\"92.5\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><rect x=\"338.3\" y=\"139.3\" width=\"45.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"342.3\" y=\"152.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">tank 2</text><rect x=\"110.8\" y=\"298.0\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"116.4\" y=\"308.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><rect x=\"180.5\" y=\"298.0\" width=\"16.6\" height=\"14\" fill=\"#fff\"/><text x=\"188.8\" y=\"308.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><rect x=\"252.9\" y=\"298.0\" width=\"16.6\" height=\"14\" fill=\"#fff\"/><text x=\"261.2\" y=\"308.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">15</text><rect x=\"325.3\" y=\"298.0\" width=\"16.6\" height=\"14\" fill=\"#fff\"/><text x=\"333.6\" y=\"308.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">20</text><rect x=\"397.7\" y=\"298.0\" width=\"16.6\" height=\"14\" fill=\"#fff\"/><text x=\"406.0\" y=\"308.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">25</text><rect x=\"21.4\" y=\"252.8\" width=\"16.6\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"262.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">25</text><rect x=\"21.4\" y=\"219.5\" width=\"16.6\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"229.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">50</text><rect x=\"21.4\" y=\"186.2\" width=\"16.6\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"196.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">75</text><rect x=\"16.1\" y=\"153.0\" width=\"21.9\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"163.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">100</text><rect x=\"16.1\" y=\"119.8\" width=\"21.9\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"129.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">125</text><rect x=\"16.1\" y=\"86.5\" width=\"21.9\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"96.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">150</text><rect x=\"16.1\" y=\"53.2\" width=\"21.9\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"63.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">175</text><rect x=\"16.1\" y=\"20.0\" width=\"21.9\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">200</text><text x=\"225.0\" y=\"328.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">t (min)</text><text x=\"51.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">volym (liter)</text></svg></span><p>Ställ upp ett ekvationssystem och beräkna efter hur lång tid tankarna innehåller lika mycket vatten. Hur mycket vatten innehåller de då?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv vattenmängden i varje tank efter t minuter</p><div class=\"facit-matte\">\\[V_1=200-8t,\\qquad V_2=50+4t\\]</div></li><li><p class=\"facit-rubrik\">Tankarna innehåller lika mycket när uttrycken är lika</p><div class=\"facit-matte\">\\[200-8t=50+4t\\]</div><div class=\"facit-matte\">\\[150=12t\\quad\\Rightarrow\\quad t=12{,}5\\]</div></li><li><p class=\"facit-rubrik\">Beräkna vattenmängden och kontrollera</p><div class=\"facit-matte\">\\[V_2=50+4\\cdot12{,}5=100\\]</div><p>Kontroll: \\(200-8\\cdot12{,}5=100\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 12,5 minuter. Då innehåller båda tankarna 100 liter.</p></div>",
+    "familj": "Tolka grafisk lösning",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Skriv vattenmängden i varje tank som ett uttryck i tiden t. När är uttrycken lika?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12.5,
+      100
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "tid (min)",
+      "volym (liter)"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
+  },
+  {
+    "id": "1.1232",
+    "kap": 1,
+    "omr": "grafisk_losning_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "skärningspunkten ligger på x-axeln",
+    "t": "<p>Linjerna \\(y=2x+m\\) och \\(y=-x+8\\) skär varandra i en punkt på x-axeln. Bestäm \\(m\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En punkt på x-axeln har y = 0</p><p>Använd linjen som är helt känd.</p><div class=\"facit-matte\">\\[-x+8=0\\quad\\Rightarrow\\quad x=8\\]</div><p>Skärningspunkten är \\((8,\\ 0)\\).</p></li><li><p class=\"facit-rubrik\">Punkten ligger också på den andra linjen</p><div class=\"facit-matte\">\\[0=2\\cdot8+m\\quad\\Rightarrow\\quad m=-16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(m=-16\\)</p></div>",
+    "familj": "Tolka grafisk lösning",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vilket y-värde har en punkt på x-axeln? Börja med linjen som är helt känd.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -16,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1233",
+    "kap": 1,
+    "omr": "grafisk_losning_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "skärningspunkten ligger utanför figuren",
+    "t": "<p>Ekvationssystemet \\(\\begin{cases}y=0{,}5x+1\\\\y=0{,}6x-1\\end{cases}\\) är ritat i figuren. En elev ser ingen skärningspunkt och säger att systemet saknar lösning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"340\" viewBox=\"0 0 420 340\" role=\"img\" aria-label=\"Linjerna y = 0,5x + 1 och y = 0,6x − 1 ritade för x från 0 till 8. I figuren ser linjerna nästan parallella ut och skär inte varandra.\"><title>Linjerna y = 0,5x + 1 och y = 0,6x − 1 ritade för x från 0 till 8. I figuren ser linjerna nästan parallella ut och skär inte varandra.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"44.0\" y1=\"26\" x2=\"44.0\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"86.8\" y1=\"26\" x2=\"86.8\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"129.5\" y1=\"26\" x2=\"129.5\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"172.2\" y1=\"26\" x2=\"172.2\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"215.0\" y1=\"26\" x2=\"215.0\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"257.8\" y1=\"26\" x2=\"257.8\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"300.5\" y1=\"26\" x2=\"300.5\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"343.2\" y1=\"26\" x2=\"343.2\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"386.0\" y1=\"26\" x2=\"386.0\" y2=\"310\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"310.0\" x2=\"386\" y2=\"310.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"262.7\" x2=\"386\" y2=\"262.7\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"215.3\" x2=\"386\" y2=\"215.3\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"168.0\" x2=\"386\" y2=\"168.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"120.7\" x2=\"386\" y2=\"120.7\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"73.3\" x2=\"386\" y2=\"73.3\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"26.0\" x2=\"386\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"310.0\" x2=\"394\" y2=\"310.0\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"44.0\" y1=\"310\" x2=\"44.0\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"44.0\" y1=\"262.7\" x2=\"386.0\" y2=\"73.3\" stroke=\"#216d87\" stroke-width=\"2.6\"/><rect x=\"57.1\" y=\"126.6\" width=\"83.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"61.1\" y=\"139.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">y = 0,5x + 1</text><line x1=\"115.2\" y1=\"310.0\" x2=\"386.0\" y2=\"130.1\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><rect x=\"297.9\" y=\"216.5\" width=\"83.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"377.4\" y=\"229.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">y = 0,6x − 1</text><rect x=\"81.1\" y=\"316.0\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"86.8\" y=\"326.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><rect x=\"123.8\" y=\"316.0\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"129.5\" y=\"326.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><rect x=\"166.6\" y=\"316.0\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"172.2\" y=\"326.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><rect x=\"209.3\" y=\"316.0\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"215.0\" y=\"326.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><rect x=\"252.1\" y=\"316.0\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"257.8\" y=\"326.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><rect x=\"294.9\" y=\"316.0\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"300.5\" y=\"326.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><rect x=\"337.6\" y=\"316.0\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"343.2\" y=\"326.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><rect x=\"380.4\" y=\"316.0\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"386.0\" y=\"326.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><rect x=\"26.7\" y=\"256.7\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"266.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><rect x=\"26.7\" y=\"209.3\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"219.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><rect x=\"26.7\" y=\"162.0\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><rect x=\"26.7\" y=\"114.7\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"124.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><rect x=\"26.7\" y=\"67.3\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"77.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><rect x=\"26.7\" y=\"20.0\" width=\"11.3\" height=\"14\" fill=\"#fff\"/><text x=\"38.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><text x=\"398.0\" y=\"315.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"51.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text></svg></span><p>Har eleven rätt? Bestäm ekvationssystemets lösning.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Linjer med olika lutning skär alltid varandra</p><p>k-värdena är 0,5 och 0,6. Linjerna är alltså inte parallella, och systemet har exakt en lösning. Skärningspunkten ligger bara utanför figuren.</p></li><li><p class=\"facit-rubrik\">Sätt uttrycken för y lika</p><div class=\"facit-matte\">\\[0{,}5x+1=0{,}6x-1\\]</div><div class=\"facit-matte\">\\[2=0{,}1x\\quad\\Rightarrow\\quad x=20\\]</div></li><li><p class=\"facit-rubrik\">Beräkna y</p><div class=\"facit-matte\">\\[y=0{,}5\\cdot20+1=11\\]</div><p>Kontroll: \\(0{,}6\\cdot20-1=11\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Eleven har fel. Lösningen är \\(x=20\\) och \\(y=11\\).</p></div>",
+    "familj": "Tolka grafisk lösning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Jämför linjernas k-värden. Kan två linjer med olika lutning sakna skärningspunkt?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      11
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
+  },
+  {
+    "id": "1.1234",
+    "kap": 1,
+    "omr": "grafisk_losning_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "parameter avgör antalet lösningar",
+    "t": "<p>Ekvationssystemet \\(\\begin{cases}2x+y=5\\\\4x+2y=c\\end{cases}\\) innehåller talet \\(c\\). Vilket påstående stämmer? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv båda ekvationerna på formen y = kx + m</p><div class=\"facit-matte\">\\[y=-2x+5,\\qquad y=-2x+\\frac{c}{2}\\]</div></li><li><p class=\"facit-rubrik\">Linjerna har samma lutning</p><p>Båda har k-värdet −2. De är alltså parallella eller sammanfaller, och systemet kan aldrig ha exakt en lösning.</p></li><li><p class=\"facit-rubrik\">Linjerna sammanfaller när m-värdena är lika</p><div class=\"facit-matte\">\\[\\frac{c}{2}=5\\quad\\Rightarrow\\quad c=10\\]</div><p>För alla andra värden på \\(c\\) är linjerna parallella, och då saknar systemet lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Om \\(c=10\\) har systemet oändligt många lösningar.</p></div>",
+    "familj": "Tolka grafisk lösning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Skriv båda ekvationerna på formen \\(y=kx+m\\) och jämför k-värden och m-värden.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Systemet har exakt en lösning för alla värden på c",
+        "ratt": false,
+        "kommentar": "Båda linjerna har k-värdet −2, så de kan inte skära varandra i bara en punkt."
+      },
+      {
+        "txt": "Om c = 5 har systemet oändligt många lösningar",
+        "ratt": false,
+        "kommentar": "Med c = 5 blir den andra linjen y = −2x + 2,5. Den är parallell med den första, så lösning saknas."
+      },
+      {
+        "txt": "Om c = 10 har systemet oändligt många lösningar",
+        "ratt": true
+      },
+      {
+        "txt": "Om c = 10 saknar systemet lösning",
+        "ratt": false,
+        "kommentar": "Med c = 10 blir båda ekvationerna y = −2x + 5, alltså samma linje."
+      }
+    ]
   }
 ];

@@ -23990,7 +23990,7 @@ window.BANKMATF1 = [
     "typ": "verifiera given lösning",
     "poang": "2/0/0",
     "t": "<p>Visa att \\(y=4e^{-2x}\\) är en lösning till \\(y'+2y=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Derivera den föreslagna funktionen och sätt in både \\(y\\) och \\(y'\\) i differentialekvationen.</p></li><li><p>\\(y=4e^{-2x}\\) ger \\(y'=-8e^{-2x}\\).</p></li><li><p>Då</p></li><li><p>\\[y'+2y=-8e^{-2x}+8e^{-2x}=0.\\]</p></li><li><p>Vänsterledet blir alltså högerledet för alla \\(x\\).</p></li><li><p>Funktionen är en lösning.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera den föreslagna lösningen</p>\\[y^{\\prime}=4(-2)e^{-2x}=-8e^{-2x}\\]</li><li><p class=\"facit-rubrik\">Sätt in i differentialekvationens vänsterled</p>\\[y^{\\prime}+2y=-8e^{-2x}+2\\cdot4e^{-2x}\\]\\[=-8e^{-2x}+8e^{-2x}=0\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja. Vänsterledet blir 0 för alla x, så \\(y=4e^{-2x}\\) löser ekvationen.</p></div>",
     "id": "4.14",
     "miniräknare": true,
     "geogebra": false,
@@ -23999,11 +23999,9 @@ window.BANKMATF1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Derivera den givna funktionen och kontrollera differentialekvationens vänsterled.</p>",
-    "traningsniva": 1,
+    "formaga": ["procedur", "begrepp"],
+    "ledtrad": "<p>Derivera funktionen med kedjeregeln. Vad blir summan av derivatan och två gånger funktionen?</p>",
+    "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
       "diffekv_grunder"
@@ -24016,7 +24014,7 @@ window.BANKMATF1 = [
     "typ": "verifiera lösningsfamilj till differentialekvation",
     "poang": "2/0/0",
     "t": "<p>Verifiera att \\(y=Ce^{2x}\\) är en lösning till \\(y'=2y\\) för varje konstant \\(C\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Tolka differentialekvationen som en regel för förändringshastigheten.</p></li><li><p>Jämvikter fås genom att sätta derivatan lika med noll, och en föreslagen lösning verifieras genom insättning.</p></li><li><p>Derivera lösningsförslaget:</p></li><li><p>\\[y'=2Ce^{2x}.\\]</p></li><li><div class=\"facit-berakning\"><p>Högerledet i differentialekvationen är</p><div class=\"facit-matte\">\\[2y=2Ce^{2x}\\].</div></div></li><li><p>Vänster- och högerled är lika för alla \\(x\\) och alla \\(C\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera med C som konstant</p>\\[y=Ce^{2x}\\quad\\Rightarrow\\quad y^{\\prime}=2Ce^{2x}\\]</li><li><p class=\"facit-rubrik\">Beräkna högerledet med samma funktion</p>\\[2y=2Ce^{2x}\\]<p>Detta är samma uttryck som derivatan. Vi behövde inte välja något särskilt värde på C; även C=0 fungerar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=Ce^{2x}\\) löser \\(y^{\\prime}=2y\\) för varje konstant C.</p></div>",
     "id": "4.327",
     "miniräknare": true,
     "geogebra": false,
@@ -24029,7 +24027,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Derivera \\(Ce^{2x}\\) och jämför resultatet med \\(2y\\).</p>",
+    "ledtrad": "<p>C är en konstant när du deriverar. Jämför sedan derivatan med högerledet i ekvationen.</p>",
     "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
@@ -24043,7 +24041,7 @@ window.BANKMATF1 = [
     "typ": "verifiera lösning till inhomogen differentialekvation",
     "poang": "2/0/0",
     "t": "<p>Visa att \\(y=2e^x+3\\) är en lösning till</p><p>\\[y''-y=-3.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Derivera den föreslagna funktionen och kontrollera att insättning ger rätt högerled.</p></li><li><p>Derivera: \\(y'=2e^x\\) och \\(y''=2e^x\\).</p></li><li><p>Då</p></li><li><p>\\[y''-y=2e^x-(2e^x+3)=-3.\\]</p></li><li><p>Alltså uppfyller funktionen differentialekvationen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna båda derivatorna</p>\\[y^{\\prime}=2e^x,\\qquad y^{\\prime\\prime}=2e^x\\]<p>Den konstanta termen 3 försvinner vid derivering.</p></li><li><p class=\"facit-rubrik\">Subtrahera hela funktionen</p>\\[y^{\\prime\\prime}-y=2e^x-(2e^x+3)\\]\\[=2e^x-2e^x-3=-3\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja. Vänsterledet blir −3 för alla x, precis som ekvationen kräver.</p></div>",
     "id": "4.36",
     "miniräknare": true,
     "geogebra": false,
@@ -24052,10 +24050,8 @@ window.BANKMATF1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Differentialekvationen innehåller \\(y''\\), så derivera funktionen två gånger före insättning.</p>",
+    "formaga": ["procedur", "begrepp"],
+    "ledtrad": "<p>Derivera två gånger. Behåll parentesen runt hela y-uttrycket när du subtraherar y.</p>",
     "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
@@ -24149,7 +24145,7 @@ window.BANKMATF1 = [
     "typ": "verifiera trigonometrisk lösning",
     "poang": "2/0/0",
     "t": "<p>Visa att \\(y=\\sin3x\\) löser \\(y''+9y=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> För att verifiera en föreslagen lösning räcker det inte att den ser rimlig ut.</p></li><li><p>Derivera så många gånger som differentialekvationen kräver och sätt sedan in \\(y\\),</p></li><li><p>\\(y'\\) och eventuellt \\(y''\\); vänster- och högerled ska då bli identiska.</p></li><li><div class=\"facit-matte\">\\[y'=3\\cos3x\\],</div></li><li><div class=\"facit-matte\">\\[y''=-9\\sin3x\\].</div></li><li><p>Då</p></li><li><p>\\[y''+9y=-9\\sin3x+9\\sin3x=0.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera sinus två gånger</p>\\[y^{\\prime}=3\\cos(3x)\\]\\[y^{\\prime\\prime}=3(-\\sin(3x))\\cdot3\\]\\[=-9\\sin(3x)\\]</li><li><p class=\"facit-rubrik\">Sätt in funktionen och andraderivatan</p>\\[y^{\\prime\\prime}+9y\\]\\[=-9\\sin(3x)+9\\sin(3x)\\]\\[=0\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=\\sin(3x)\\) löser ekvationen för alla x.</p></div>",
     "id": "4.64",
     "miniräknare": true,
     "geogebra": false,
@@ -24158,10 +24154,8 @@ window.BANKMATF1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Derivera \\(\\sin 3x\\) två gånger och sätt in i \\(y''+9y\\).</p>",
+    "formaga": ["procedur", "begrepp"],
+    "ledtrad": "<p>Kedjeregeln ger en faktor 3 vid varje derivering. Vilket tecken får den andra derivatan?</p>",
     "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
@@ -24175,7 +24169,7 @@ window.BANKMATF1 = [
     "typ": "verifiera konstant plus exponential",
     "poang": "2/0/0",
     "t": "<p>Visa att \\(y=4+2e^{-3x}\\) löser \\(y'+3y=12\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> För att verifiera en föreslagen lösning räcker det inte att den ser rimlig ut.</p></li><li><p>Derivera så många gånger som differentialekvationen kräver och sätt sedan in \\(y\\),</p></li><li><p>\\(y'\\) och eventuellt \\(y''\\); vänster- och högerled ska då bli identiska.</p></li><li><div class=\"facit-matte\">\\[y'=-6e^{-3x}\\].</div></li><li><p>Då</p></li><li><p>\\[y'+3y=-6e^{-3x}+12+6e^{-3x}=12.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna derivatan</p>\\[y^{\\prime}=2(-3)e^{-3x}=-6e^{-3x}\\]</li><li><p class=\"facit-rubrik\">Sätt in hela y-uttrycket</p>\\[y^{\\prime}+3y\\]\\[=-6e^{-3x}+3(4+2e^{-3x})\\]\\[=-6e^{-3x}+12+6e^{-3x}=12\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja. Vänsterledet är 12 för alla x.</p></div>",
     "id": "4.89",
     "miniräknare": true,
     "geogebra": false,
@@ -24184,10 +24178,8 @@ window.BANKMATF1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Derivera exponentialtermen och kontrollera sedan om \\(y'+3y\\) verkligen blir 12.</p>",
+    "formaga": ["procedur", "begrepp"],
+    "ledtrad": "<p>Derivera exponentialtermen. Multiplicera sedan båda termerna i y med 3 innan du summerar.</p>",
     "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
@@ -24605,8 +24597,8 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "bestäm differentialekvation från lösningsfamilj",
     "poang": "0/2/0",
-    "t": "<p>En lösningsfamilj ges av</p><p>\\[y=Ce^{-2x}+3.\\]</p><p>Bestäm en första ordningens differentialekvation som har exakt denna lösningsfamilj.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Utgå från lösningsfamiljens form och identifiera vilka karakteristiska rötter eller vilket jämviktsvärde den motsvarar.</p></li><li><p>Bygg därefter en differentialekvation som ger just dessa egenskaper.</p></li><li><p>Flytta först jämviktsvärdet:</p></li><li><p>\\[y-3=Ce^{-2x}.\\]</p></li><li><p>Derivera:</p></li><li><p>\\[y'=-2Ce^{-2x}=-2(y-3).\\]</p></li><li><p>En passande differentialekvation är därför</p></li></ol><p class=\"facit-svar\"><strong>\\[y'=-2(y-3).\\]</strong></p></div>",
+    "t": "<p>En lösningsfamilj ges av</p><p>\\[y=Ce^{-2x}+3.\\]</p><p>Bestäm en differentialekvation av formen \\(y^{\\prime}=ay+b\\), med konstanta a och b, som har exakt denna lösningsfamilj.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Isolera exponentialtermen och derivera</p>\\[y-3=Ce^{-2x}\\]\\[y^{\\prime}=-2Ce^{-2x}\\]</li><li><p class=\"facit-rubrik\">Eliminera konstanten C ur sambandet</p><p>Ersätt Ce⁻²ˣ med y−3:</p>\\[y^{\\prime}=-2(y-3)=-2y+6\\]</li><li><p class=\"facit-rubrik\">Kontrollera att hela lösningsfamiljen blir den givna</p><p>Sätt z=y−3. Ekvationen blir z′=−2z, vars allmänna lösning är z=Ce⁻²ˣ. Därmed får vi precis y=Ce⁻²ˣ+3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\(y^{\\prime}=-2y+6\\), ekvivalent med \\(y^{\\prime}+2y=6\\).</p></div>",
     "id": "4.160",
     "miniräknare": true,
     "geogebra": false,
@@ -24620,7 +24612,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekvation",
-    "ledtrad": "<p>Derivera lösningsfamiljen och försök skriva resultatet med hjälp av \\(y-3\\) i stället för konstanten \\(C\\).</p>",
+    "ledtrad": "<p>Derivera lösningsfamiljen. Hur kan du ersätta exponentialtermen med ett uttryck som innehåller y?</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "diffekv_grunder"
@@ -24629,11 +24621,11 @@ window.BANKMATF1 = [
   {
     "kap": 4,
     "omr": "verifiering",
-    "niva": "C",
+    "niva": "E",
     "typ": "verifiera lösning till dubbelrotsekvation",
-    "poang": "0/2/0",
+    "poang": "3/0/0",
     "t": "<p>Visa genom insättning att \\(y=xe^x\\) löser</p><p>\\[y''-2y'+y=0.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> För att verifiera en föreslagen lösning räcker det inte att den ser rimlig ut.</p></li><li><p>Derivera så många gånger som differentialekvationen kräver och sätt sedan in \\(y\\),</p></li><li><p>\\(y'\\) och eventuellt \\(y''\\); vänster- och högerled ska då bli identiska.</p></li><li><p>Derivera:</p></li><li><p>\\[y'=e^x+xe^x=(x+1)e^x,\\]</p></li><li><p>\\[y''=(x+2)e^x.\\]</p></li><li><p>Insättning ger</p></li><li><p>\\[(x+2)e^x-2(x+1)e^x+xe^x\\]</p></li><li><p>\\[=(x+2-2x-2+x)e^x=0.\\]</p></li><li><p>Alltså är \\(y=xe^x\\) en lösning.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna första derivatan med produktregeln</p>\\[y^{\\prime}=e^x+xe^x=(x+1)e^x\\]</li><li><p class=\"facit-rubrik\">Använd produktregeln en gång till</p>\\[y^{\\prime\\prime}=e^x+(x+1)e^x\\]\\[=(x+2)e^x\\]</li><li><p class=\"facit-rubrik\">Sätt in och samla termerna</p>\\[y^{\\prime\\prime}-2y^{\\prime}+y\\]\\[=(x+2)e^x-2(x+1)e^x+xe^x\\]\\[=[x+2-2(x+1)+x]e^x\\]\\[=(x+2-2x-2+x)e^x=0\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=xe^x\\) löser differentialekvationen för alla x.</p></div>",
     "id": "4.161",
     "miniräknare": true,
     "geogebra": false,
@@ -24642,11 +24634,9 @@ window.BANKMATF1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Beräkna både \\(y'\\) och \\(y''\\) och sätt in i vänsterledet.</p>",
-    "traningsniva": 3,
+    "formaga": ["procedur", "begrepp"],
+    "ledtrad": "<p>Använd produktregeln vid båda deriveringarna. Bryt sedan ut exponentialfaktorn efter insättning.</p>",
+    "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
       "diffekv_grunder"
@@ -24656,11 +24646,11 @@ window.BANKMATF1 = [
     "id": "4.320",
     "kap": 4,
     "omr": "verifiering",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Funktionen \\(y=5e^{-0{,}2x}\\) är en lösning till differentialekvationen \\(y' = ky\\).</p><p>Bestäm \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Utgå från lösningsfamiljens form och identifiera vilka karakteristiska rötter eller vilket jämviktsvärde den motsvarar.</p></li><li><p>Bygg därefter en differentialekvation som ger just dessa egenskaper.</p></li><li><p><strong>Metod:</strong> Derivera lösningen:</p></li><li><p>\\[y'=-0{,}2\\cdot5e^{-0{,}2x}=-0{,}2y\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=-0{,}2\\).</p></div>",
-    "miniräknare": false,
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera funktionen</p>\\[y^{\\prime}=5(-0{,}2)e^{-0{,}2x}\\]\\[=-0{,}2\\,(5e^{-0{,}2x})\\]</li><li><p class=\"facit-rubrik\">Jämför med ky</p>\\[y^{\\prime}=-0{,}2y\\]<p>Faktorn framför y är därför k=−0,2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=-0{,}2\\).</p></div>",
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Verifiera och bestämma differentialekvation från lösning",
     "svarstyp": "numeriskt",
@@ -24672,7 +24662,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Derivera \\(5e^{-0{,}2x}\\) och jämför med formen \\(y'=ky\\).</p>",
+    "ledtrad": "<p>Använd kedjeregeln för exponentialfunktionen. Vilken faktor multipliceras hela y-uttrycket med?</p>",
     "traningsniva": 2,
     "typ": "bestäm proportionalitetskonstant från lösning",
     "omrTidigare": [
@@ -24710,11 +24700,11 @@ window.BANKMATF1 = [
     "id": "4.321",
     "kap": 4,
     "omr": "verifiering",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En funktion uppfyller \\(y'=3y\\) och \\(y(0)=4\\).</p><p>Bestäm \\(y'(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Utgå från lösningsfamiljens form och identifiera vilka karakteristiska rötter eller vilket jämviktsvärde den motsvarar.</p></li><li><p>Bygg därefter en differentialekvation som ger just dessa egenskaper.</p></li><li><p><strong>Metod:</strong> Sätt in startvärdet direkt i differentialekvationen.</p></li><li><p>\\[y'(0)=3y(0)=3\\cdot4=12\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12.</p></div>",
-    "miniräknare": false,
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in startvärdet direkt</p>\\[y^{\\prime}(0)=3y(0)=3\\cdot4=12\\]<p>Du behöver inte bestämma hela funktionen y(x).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y^{\\prime}(0)=12\\).</p></div>",
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Verifiera och bestämma differentialekvation från lösning",
     "svarstyp": "numeriskt",
@@ -24726,7 +24716,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Du behöver inte lösa differentialekvationen. Sätt bara in \\(y(0)=4\\) i \\(y'=3y\\).</p>",
+    "ledtrad": "<p>Differentialekvationen gäller även vid x=0. Använd det givna funktionsvärdet där.</p>",
     "traningsniva": 1,
     "typ": "bestäm momentan förändringshastighet från differentialekvation",
     "omrTidigare": [
@@ -25330,7 +25320,7 @@ window.BANKMATF1 = [
     "typ": "bestäm ekvation från lösningsfamilj",
     "poang": "0/2/0",
     "t": "<p>En differentialekvation har allmän lösning \\(y=Ce^{-5x}+3\\). Ställ upp en differentialekvation av formen \\(y'=ay+b\\) som har denna lösningsfamilj.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Utgå från lösningsfamiljens form och identifiera vilka karakteristiska rötter eller vilket jämviktsvärde den motsvarar.</p></li><li><p>Bygg därefter en differentialekvation som ger just dessa egenskaper.</p></li><li><p>Derivera:</p></li><li><p>\\[y'=-5Ce^{-5x}.\\]</p></li><li><p>Eftersom \\(Ce^{-5x}=y-3\\) får vi</p></li><li><p>\\[y'=-5(y-3)=-5y+15.\\]</p></li><li><p><strong>\\(y'=-5y+15\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och skriv om exponentialtermen</p>\\[y^{\\prime}=-5Ce^{-5x}\\]\\[Ce^{-5x}=y-3\\]</li><li><p class=\"facit-rubrik\">Ersätt exponentialtermen och utveckla parentesen</p>\\[y^{\\prime}=-5(y-3)=-5y+15\\]</li><li><p class=\"facit-rubrik\">Kontrollera lösningsfamiljen</p><p>Ekvationen kan skrivas (y−3)′=−5(y−3). Därför är y−3=Ce⁻⁵ˣ, vilket ger den efterfrågade familjen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y^{\\prime}=-5y+15\\), alltså \\(a=-5\\) och \\(b=15\\).</p></div>",
     "id": "4.72",
     "miniräknare": true,
     "geogebra": false,
@@ -25345,7 +25335,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "diffekvation",
-    "ledtrad": "<p>Derivera lösningsfamiljen och skriv sedan \\(Ce^{-5x}\\) som \\(y-3\\).</p>",
+    "ledtrad": "<p>Derivera familjen och använd ursprungsuttrycket för att få bort C. Skriv sedan svaret på den efterfrågade formen.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "forsta_ordningen"
@@ -25508,7 +25498,7 @@ window.BANKMATF1 = [
     "typ": "kontrollera allmän lösning",
     "poang": "2/0/0",
     "t": "<p>Visa genom insättning att</p><p>\\[y=Ce^{-2x}+5\\]</p><p>är en lösningsfamilj till \\(y'=-2y+10\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> För att verifiera en föreslagen lösning räcker det inte att den ser rimlig ut.</p></li><li><p>Derivera så många gånger som differentialekvationen kräver och sätt sedan in \\(y\\),</p></li><li><p>\\(y'\\) och eventuellt \\(y''\\); vänster- och högerled ska då bli identiska.</p></li><li><p>Derivera:</p></li><li><p>\\[y'=-2Ce^{-2x}.\\]</p></li><li><p>Högerledet blir</p></li><li><p>\\[-2y+10=-2(Ce^{-2x}+5)+10=-2Ce^{-2x}.\\]</p></li><li><p>Vänster- och högerled är lika.</p></li><li><p>Alltså är familjen en lösningsfamilj.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna vänsterledet</p>\\[y^{\\prime}=-2Ce^{-2x}\\]</li><li><p class=\"facit-rubrik\">Beräkna högerledet</p>\\[-2y+10\\]\\[=-2(Ce^{-2x}+5)+10\\]\\[=-2Ce^{-2x}-10+10\\]\\[=-2Ce^{-2x}\\]</li><li><p class=\"facit-rubrik\">Jämför uttrycken för alla C</p><p>Båda leden är −2Ce⁻²ˣ. Likheten gäller för varje x och varje konstant C, även C=0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla funktioner \\(y=Ce^{-2x}+5\\) löser differentialekvationen.</p></div>",
     "id": "4.144",
     "miniräknare": true,
     "geogebra": false,
@@ -25521,7 +25511,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Derivera den föreslagna lösningsfamiljen och jämför \\(y'\\) med högerledet \\(-2y+10\\).</p>",
+    "ledtrad": "<p>Derivera först. Räkna sedan ut högerledet separat med parentes runt hela funktionen.</p>",
     "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
@@ -26314,8 +26304,8 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "bestäm differentialekvation från lösning",
     "poang": "0/2/0",
-    "t": "<p>Ställ upp en homogen differentialekvation med konstantkoefficienter som har lösningsfamiljen \\(y=(C_1+C_2x)e^{4x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Utgå från lösningsfamiljens form och identifiera vilka karakteristiska rötter eller vilket jämviktsvärde den motsvarar.</p></li><li><p>Bygg därefter en differentialekvation som ger just dessa egenskaper.</p></li><li><p>Faktorn \\(x e^{4x}\\) visar att \\(r=4\\) är dubbelrot.</p></li><li><p>Karakteristiska polynomet är</p></li><li><p>\\[(r-4)^2=r^2-8r+16.\\]</p></li><li><p>Alltså exempelvis <strong>\\(y''-8y'+16y=0\\)</strong>.</p></li></ol></div>",
+    "t": "<p>Ställ upp en homogen differentialekvation av andra ordningen med konstanta koefficienter vars allmänna lösning är \\(y=(C_1+C_2x)e^{4x}\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av den karakteristiska dubbelroten</p><p>Lösningsfamiljen innehåller både e⁴ˣ och xe⁴ˣ. Det motsvarar en dubbelrot r=4.</p></li><li><p class=\"facit-rubrik\">Bygg det karakteristiska polynomet</p>\\[(r-4)^2=r^2-8r+16\\]</li><li><p class=\"facit-rubrik\">Översätt polynomet till en differentialekvation</p><p>r² motsvarar y″, r motsvarar y′ och konstanttermen multiplicerar y.</p>\\[y^{\\prime\\prime}-8y^{\\prime}+16y=0\\]<p>Dubbelroten 4 ger den allmänna lösningen (C₁+C₂x)e⁴ˣ, precis som i frågan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\(y^{\\prime\\prime}-8y^{\\prime}+16y=0\\).</p></div>",
     "id": "4.76",
     "miniräknare": true,
     "geogebra": false,
@@ -26330,7 +26320,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "diffekvation",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Vilken typ av karakteristisk rot ger både en exponentialterm och x gånger samma exponentialterm?</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "andra_ordningen"
@@ -26483,8 +26473,8 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "bestäm ekvation från sinuslösning",
     "poang": "0/2/0",
-    "t": "<p>Ställ upp en homogen differentialekvation med konstantkoefficienter vars allmänna lösning är \\(y=e^{2x}(C_1\\cos3x+C_2\\sin3x)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Utgå från lösningsfamiljens form och identifiera vilka karakteristiska rötter eller vilket jämviktsvärde den motsvarar.</p></li><li><p>Bygg därefter en differentialekvation som ger just dessa egenskaper.</p></li><li><p>Rötterna är \\(2\\pm3i\\).</p></li><li><p>Det karakteristiska polynomet är</p></li><li><p>\\[(r-(2+3i))(r-(2-3i))=(r-2)^2+9=r^2-4r+13.\\]</p></li><li><p>Alltså <strong>\\(y''-4y'+13y=0\\)</strong>.</p></li></ol></div>",
+    "t": "<p>Ställ upp en homogen differentialekvation av andra ordningen med konstanta koefficienter vars allmänna lösning är \\(y=e^{2x}(C_1\\cos3x+C_2\\sin3x)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av de två komplexa rötterna</p><p>Faktorn e²ˣ ger realdelen 2. Sinus och cosinus med argumentet 3x ger imaginärdelarna ±3.</p>\\[r=2+3i\\quad\\text{och}\\quad r=2-3i\\]</li><li><p class=\"facit-rubrik\">Multiplicera rotfaktorerna</p>\\[(r-2-3i)(r-2+3i)\\]\\[=(r-2)^2-(3i)^2\\]\\[=(r-2)^2+9=r^2-4r+13\\]</li><li><p class=\"facit-rubrik\">Skriv differentialekvationen</p>\\[y^{\\prime\\prime}-4y^{\\prime}+13y=0\\]<p>Dess två karakteristiska rötter ger exakt den lösningsfamilj som står i frågan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\(y^{\\prime\\prime}-4y^{\\prime}+13y=0\\).</p></div>",
     "id": "4.78",
     "miniräknare": true,
     "geogebra": false,
@@ -26498,7 +26488,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekvation",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Vilken realdel och vilken imaginärdel av de karakteristiska rötterna motsvarar exponentialfaktorn respektive svängningen?</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "andra_ordningen"
@@ -26511,7 +26501,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionerna \\(y=e^{2x}+Ce^{-x}\\), där \\(C\\) är en godtycklig konstant, löser alla differentialekvationen</p><p>\\[y'+y=ae^{2x}.\\]</p><p>Bestäm konstanten \\(a\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y'=2e^{2x}-Ce^{-x}\\].</div></li><li><p>Då är</p></li><li><p>\\[y'+y=2e^{2x}-Ce^{-x}+e^{2x}+Ce^{-x}=3e^{2x}.\\]</p></li><li><p>Termerna med \\(C\\) tar ut varandra.</p></li><li><p>Det måste de göra, eftersom \\(Ce^{-x}\\) är lösningen till den homogena ekvationen \\(y'+y=0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera med C som konstant</p>\\[y^{\\prime}=2e^{2x}-Ce^{-x}\\]</li><li><p class=\"facit-rubrik\">Addera hela funktionen y</p>\\[y^{\\prime}+y\\]\\[=2e^{2x}-Ce^{-x}+e^{2x}+Ce^{-x}\\]\\[=3e^{2x}\\]</li><li><p class=\"facit-rubrik\">Jämför faktorerna framför e²ˣ</p>\\[3e^{2x}=ae^{2x}\\]<p>Exponentialfaktorn är aldrig noll. Division med den ger a=3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\).</p></div>",
     "familj": "Verifiera och bestämma differentialekvation från lösning",
     "formaga": [
       "procedur",
@@ -26520,22 +26510,24 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Derivera \\(y\\) och sätt in i vänster led.</p>",
+    "ledtrad": "<p>Derivera båda exponentialtermerna. Vilka termer tar ut varandra när y adderas?</p>",
     "spel": true,
     "traningsniva": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": null,
+    "tolerans": 0,
     "typ": "bestäm konstant i differentialekvation"
+  ,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.522",
     "kap": 4,
     "omr": "verifiering",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Funktionen \\(y=(C_1+C_2x)e^{2x}\\) löser differentialekvationen \\(y''-4y'+4y=0\\) för alla konstanter.</p><p>Bestäm \\(C_1\\) och \\(C_2\\) så att \\(y(0)=1\\) och \\(y'(0)=3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y(0)=C_1=1\\].</div></li><li><p>\\(y'=C_2e^{2x}+2(C_1+C_2x)e^{2x}\\), så \\(y'(0)=C_2+2C_1=C_2+2=3\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[C_2=1\\].</div></div></li><li><p>Kontroll av att \\(y=(1+x)e^{2x}\\) löser ekvationen: \\(y'=(3+2x)e^{2x}\\),</p></li><li><div class=\"facit-matte\">\\[y''=(8+4x)e^{2x}\\].</div></li><li><div class=\"facit-matte\">\\[(8+4x)-4(3+2x)+4(1+x)=0\\].</div></li><li><p>Det stämmer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C_1=1\\), \\(C_2=1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd funktionsvärdet vid noll</p>\\[y(0)=(C_1+C_2\\cdot0)e^0=C_1\\]\\[C_1=1\\]</li><li><p class=\"facit-rubrik\">Derivera produkten</p>\\[y^{\\prime}=C_2e^{2x}+2(C_1+C_2x)e^{2x}\\]</li><li><p class=\"facit-rubrik\">Använd lutningen vid noll</p>\\[y^{\\prime}(0)=C_2+2C_1=3\\]\\[C_2+2=3\\quad\\Rightarrow\\quad C_2=1\\]</li><li><p class=\"facit-rubrik\">Kontrollera de två villkoren</p><p>Funktionen blir y=(1+x)e²ˣ. Då är y(0)=1 och y′(x)=(3+2x)e²ˣ, så y′(0)=3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C_1=1\\) och \\(C_2=1\\).</p></div>",
     "familj": "Verifiera och bestämma differentialekvation från lösning",
     "formaga": [
       "procedur",
@@ -26544,21 +26536,23 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "självrättning": true,
-    "ledtrad": "<p>Sätt in \\(x=0\\) i \\(y\\) och i \\(y'\\). Derivera med produktregeln.</p>",
+    "ledtrad": "<p>Använd först villkoret för y(0). Derivera sedan produkten för att kunna använda villkoret för y′(0).</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 2,
     "svarstyp": "flera_delar",
     "rättSvar": [
       1,
       1
     ],
-    "tolerans": null,
+    "tolerans": [0, 0],
     "svarEtiketter": [
       "C₁",
       "C₂"
     ],
     "svarsstruktur": "ordnad",
     "typ": "konstanter vid dubbelrot"
+  ,
+    "svarFormat": ["numeriskt", "numeriskt"]
   },
   {
     "kap": 4,
@@ -51812,8 +51806,8 @@ window.BANKMATF1 = [
   "traningsniva": 2,
   "typ": "Alla funktioner \\(y=Ce^{-3x}+2\\) löser \\(y^{\\prime}+3y=a\\)",
   "t": "<p>Alla funktioner \\(y=Ce^{-3x}+2\\) löser \\(y^{\\prime}+3y=a\\). Bestäm \\(a\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Derivering ger \\(y^{\\prime}=-3Ce^{-3x}\\). Vid insättning tar exponentialtermerna ut varandra: \\(y^{\\prime}+3y=6\\). Alltså är \\(a=6\\).</p></div>",
-  "ledtrad": "<p>Derivera och sätt in i vänsterledet.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera funktionen</p>\\[y^{\\prime}=-3Ce^{-3x}\\]</li><li><p class=\"facit-rubrik\">Sätt in i vänsterledet</p>\\[y^{\\prime}+3y\\]\\[=-3Ce^{-3x}+3(Ce^{-3x}+2)\\]\\[=-3Ce^{-3x}+3Ce^{-3x}+6=6\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=6\\).</p></div>",
+  "ledtrad": "<p>Derivera med C som konstant. Multiplicera sedan hela y-uttrycket med 3.</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51837,8 +51831,8 @@ window.BANKMATF1 = [
   "traningsniva": 2,
   "typ": "Funktionen \\(y=5e^{kx}\\) löser \\(y^{\\prime}=4y\\)",
   "t": "<p>Funktionen \\(y=5e^{kx}\\) löser \\(y^{\\prime}=4y\\). Bestäm \\(k\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Insättning ger \\(5ke^{kx}=20e^{kx}\\). Dela med den positiva faktorn \\(5e^{kx}\\): \\(k=4\\).</p></div>",
-  "ledtrad": "<p>Derivera funktionen och jämför med fyra gånger funktionen.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och sätt in</p>\\[y^{\\prime}=5ke^{kx},\\qquad4y=20e^{kx}\\]\\[5ke^{kx}=20e^{kx}\\]</li><li><p class=\"facit-rubrik\">Dividera med en faktor som aldrig är noll</p><p>Eftersom 5eᵏˣ &gt; 0 får vi dividera båda leden med den faktorn.</p>\\[k=4\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=4\\).</p></div>",
+  "ledtrad": "<p>Kedjeregeln ger en faktor k. Jämför med högerledet och förkorta den gemensamma exponentialfaktorn.</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51862,8 +51856,8 @@ window.BANKMATF1 = [
   "traningsniva": 1,
   "typ": "Alla funktioner \\(y=x^2+C\\) löser \\(y^{\\prime}=ax\\)",
   "t": "<p>Alla funktioner \\(y=x^2+C\\) löser \\(y^{\\prime}=ax\\). Bestäm \\(a\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Den konstanta termen har derivatan 0. Därför är \\(y^{\\prime}=2x\\), så \\(a=2\\).</p></div>",
-  "ledtrad": "<p>Vad blir derivatan av en konstant?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och jämför för alla x</p>\\[y^{\\prime}=2x+0=2x\\]<p>Detta ska vara ax för alla x. Koefficienterna måste därför vara lika.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2\\).</p></div>",
+  "ledtrad": "<p>Derivera x² och den konstanta termen var för sig. Jämför sedan koefficienten framför x.</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51882,13 +51876,13 @@ window.BANKMATF1 = [
   "kap": 4,
   "omr": "verifiering",
   "familj": "Verifiera och bestämma differentialekvation från lösning",
-  "niva": "C",
-  "poang": "0/2/0",
-  "traningsniva": 3,
+  "niva": "E",
+  "poang": "2/0/0",
+  "traningsniva": 2,
   "typ": "Alla funktioner \\(y=Ce^x+x\\) löser \\(y^{\\prime}-y=ax+b\\)",
   "t": "<p>Alla funktioner \\(y=Ce^x+x\\) löser \\(y^{\\prime}-y=ax+b\\). Bestäm \\(a\\) och \\(b\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Eftersom \\(y^{\\prime}=Ce^x+1\\) får vi \\(y^{\\prime}-y=1-x\\). Jämförelse med \\(ax+b\\) ger \\(a=-1\\) och \\(b=1\\).</p></div>",
-  "ledtrad": "<p>Derivera, subtrahera y och jämför koefficienterna.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna derivatan</p>\\[y^{\\prime}=Ce^x+1\\]</li><li><p class=\"facit-rubrik\">Subtrahera funktionen och samla termerna</p>\\[y^{\\prime}-y=Ce^x+1-(Ce^x+x)\\]\\[=Ce^x+1-Ce^x-x=-x+1\\]</li><li><p class=\"facit-rubrik\">Jämför med ax+b</p><p>Koefficienten framför x är −1 och konstanttermen är 1. Likheten ska gälla för alla x.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-1\\) och \\(b=1\\).</p></div>",
+  "ledtrad": "<p>Var noga med minustecknet framför hela y när du bildar y′−y.</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51923,8 +51917,8 @@ window.BANKMATF1 = [
   "traningsniva": 1,
   "typ": "En funktion uppfyller \\(y^{\\prime}=2y+1\\) och \\(y(0)=3\\)",
   "t": "<p>En funktion uppfyller \\(y^{\\prime}=2y+1\\) och \\(y(0)=3\\). Bestäm \\(y^{\\prime}(0)\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Sätt in \\(y(0)=3\\) i differentialekvationen. Då blir \\(y^{\\prime}(0)=2\\cdot3+1=7\\). Hela funktionen behöver inte bestämmas.</p></div>",
-  "ledtrad": "<p>Använd det givna funktionsvärdet direkt i differentialekvationen.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna derivatan direkt från sambandet</p>\\[y^{\\prime}(0)=2y(0)+1\\]\\[=2\\cdot3+1=7\\]<p>Hela lösningen y(x) behöver inte bestämmas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y^{\\prime}(0)=7\\).</p></div>",
+  "ledtrad": "<p>Sätt in x=0 i differentialekvationen och använd det givna värdet på y(0).</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51948,8 +51942,8 @@ window.BANKMATF1 = [
   "traningsniva": 3,
   "typ": "Alla funktioner \\(y=(C+Dx)e^x\\) löser \\(y^{\\prime\\prime}+ay^{\\prime}+by=0\\)",
   "t": "<p>Alla funktioner \\(y=(C+Dx)e^x\\) löser \\(y^{\\prime\\prime}+ay^{\\prime}+by=0\\). Bestäm \\(a\\) och \\(b\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Derivatorna är \\(y^{\\prime}=(C+D+Dx)e^x\\) och \\(y^{\\prime\\prime}=(C+2D+Dx)e^x\\). Efter insättning måste koefficienterna för både C och D bli 0.</p>\\[1+a+b=0,\\qquad 2+a=0.\\]<p><strong>Svar:</strong> \\(a=-2\\), \\(b=1\\).</p></div>",
-  "ledtrad": "<p>Derivera två gånger. Likheten ska gälla för alla val av C och D.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera två gånger</p>\\[y^{\\prime}=De^x+(C+Dx)e^x\\]\\[=(C+D+Dx)e^x\\]\\[y^{\\prime\\prime}=De^x+(C+D+Dx)e^x\\]\\[=(C+2D+Dx)e^x\\]</li><li><p class=\"facit-rubrik\">Sätt in och dividera med eˣ</p>\\[C+2D+Dx\\]\\[{}+a(C+D+Dx)\\]\\[{}+b(C+Dx)=0\\]<p>Samla koefficienterna:</p>\\[(1+a+b)(C+Dx)\\]\\[{}+(2+a)D=0\\]</li><li><p class=\"facit-rubrik\">Använd att C och D får väljas fritt</p><p>C=1 och D=0 ger 1+a+b=0. Med det villkoret återstår (2+a)D=0. Eftersom även D=1 ska fungera får vi 2+a=0.</p>\\[a=-2,\\qquad1-2+b=0\\]\\[b=1\\]</li><li><p class=\"facit-rubrik\">Kontrollera hela familjen</p><p>När a=−2 och b=1 är båda koefficienterna i det samlade uttrycket noll. Därför gäller ekvationen för alla C, D och x.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-2\\) och \\(b=1\\).</p></div>",
+  "ledtrad": "<p>Använd produktregeln två gånger. Efter insättning ska uttrycket bli noll oavsett hur C och D väljs.</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51984,8 +51978,8 @@ window.BANKMATF1 = [
   "traningsniva": 2,
   "typ": "Funktionen \\(y=\\cos(kx)\\), där \\(k\\gt0\\), löser \\(y^{\\prime\\prime}+25y=0\\)",
   "t": "<p>Funktionen \\(y=\\cos(kx)\\), där \\(k\\gt0\\), löser \\(y^{\\prime\\prime}+25y=0\\). Bestäm \\(k\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Andraderivatan är \\(-k^2\\cos(kx)\\). Insättning ger \\((25-k^2)\\cos(kx)=0\\) för alla x. Alltså \\(k^2=25\\). Villkoret \\(k\\gt0\\) ger \\(k=5\\).</p></div>",
-  "ledtrad": "<p>Derivera två gånger och jämför faktorn framför cosinus.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera cosinus två gånger</p>\\[y^{\\prime}=-k\\sin(kx)\\]\\[y^{\\prime\\prime}=-k^2\\cos(kx)\\]</li><li><p class=\"facit-rubrik\">Sätt in och jämför koefficienterna</p>\\[y^{\\prime\\prime}+25y=(25-k^2)\\cos(kx)\\]<p>För att detta ska vara noll för alla x måste 25−k²=0. Till exempel är cosinusfaktorn 1 vid x=0.</p></li><li><p class=\"facit-rubrik\">Använd villkoret på k</p>\\[k^2=25\\quad\\Rightarrow\\quad k=\\pm5\\]<p>Eftersom k &gt; 0 väljer vi den positiva roten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=5\\).</p></div>",
+  "ledtrad": "<p>Använd kedjeregeln vid båda deriveringarna. Ekvationen ska gälla för alla x, inte bara där cosinus råkar vara noll.</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -52009,8 +52003,8 @@ window.BANKMATF1 = [
   "traningsniva": 3,
   "typ": "Funktionen \\(y=3e^{-2x}+4\\) löser \\(y^{\\prime}+ay=b\\) för alla x",
   "t": "<p>Funktionen \\(y=3e^{-2x}+4\\) löser \\(y^{\\prime}+ay=b\\) för alla x. Bestäm konstanterna \\(a\\) och \\(b\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Insättning ger \\((-6+3a)e^{-2x}+4a=b\\). Exponentialtermen måste försvinna: \\(-6+3a=0\\), så \\(a=2\\). Då är \\(b=4a=8\\).</p></div>",
-  "ledtrad": "<p>Vänsterledet ska vara konstant för alla x. Vilken term måste därför försvinna?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och sätt in funktionen</p>\\[y^{\\prime}=-6e^{-2x}\\]\\[y^{\\prime}+ay\\]\\[=-6e^{-2x}+a(3e^{-2x}+4)\\]\\[=(-6+3a)e^{-2x}+4a\\]</li><li><p class=\"facit-rubrik\">Ta bort beroendet av x</p><p>Exponentialtermen varierar med x. Dess koefficient måste därför vara noll när hela uttrycket ska vara konstant.</p>\\[-6+3a=0\\quad\\Rightarrow\\quad a=2\\]</li><li><p class=\"facit-rubrik\">Beräkna den återstående konstanten</p>\\[b=4a=4\\cdot2=8\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2\\) och \\(b=8\\).</p></div>",
+  "ledtrad": "<p>Efter insättning ska vänsterledet vara samma konstant för alla x. Vad måste då hända med exponentialtermen?</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -52326,7 +52320,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "välja lösningskurva ur graf",
   "t": "<p>Figuren visar tre kurvor som alla går genom \\((0,\\,2)\\). Vilken av dem kan vara lösningen till \\(y^{\\prime}=-y\\), \\(y(0)=2\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 320\" role=\"img\" aria-label=\"Tre kurvor som alla börjar i (0, 2). A avtar och planar ut mot x-axeln, B växer allt snabbare och C är en rät linje med lutningen 1.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"103.0\" y1=\"22\" x2=\"103.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"158.0\" y1=\"22\" x2=\"158.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"213.0\" y1=\"22\" x2=\"213.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"268.0\" y1=\"22\" x2=\"268.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"323.0\" y1=\"22\" x2=\"323.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"378\" y2=\"278.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"235.3\" x2=\"378\" y2=\"235.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"192.7\" x2=\"378\" y2=\"192.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"150.0\" x2=\"378\" y2=\"150.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"107.3\" x2=\"378\" y2=\"107.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"64.7\" x2=\"378\" y2=\"64.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"378\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"388\" y2=\"278.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,278.0 382,273.0 382,283.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"278\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"390\" y=\"269.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"158.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"268.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"378.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"42.0\" y=\"239.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"196.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"154.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"42.0\" y=\"111.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"68.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k4a2d3613\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"256\"/></clipPath><polyline clip-path=\"url(#k4a2d3613)\" points=\"48.0,192.7 48.8,193.3 49.6,193.9 50.5,194.6 51.3,195.2 52.1,195.8 53.0,196.4 53.8,197.0 54.6,197.6 55.4,198.2 56.2,198.8 57.1,199.4 57.9,200.0 58.7,200.6 59.5,201.2 60.4,201.7 61.2,202.3 62.0,202.9 62.9,203.4 63.7,204.0 64.5,204.6 65.3,205.1 66.2,205.6 67.0,206.2 67.8,206.7 68.6,207.3 69.5,207.8 70.3,208.3 71.1,208.8 71.9,209.3 72.8,209.9 73.6,210.4 74.4,210.9 75.2,211.4 76.0,211.9 76.9,212.4 77.7,212.9 78.5,213.3 79.3,213.8 80.2,214.3 81.0,214.8 81.8,215.3 82.7,215.7 83.5,216.2 84.3,216.7 85.1,217.1 85.9,217.6 86.8,218.0 87.6,218.5 88.4,218.9 89.2,219.4 90.1,219.8 90.9,220.2 91.7,220.7 92.6,221.1 93.4,221.5 94.2,221.9 95.0,222.4 95.8,222.8 96.7,223.2 97.5,223.6 98.3,224.0 99.2,224.4 100.0,224.8 100.8,225.2 101.6,225.6 102.5,226.0 103.3,226.4 104.1,226.8 104.9,227.1 105.8,227.5 106.6,227.9 107.4,228.3 108.2,228.6 109.1,229.0 109.9,229.4 110.7,229.7 111.5,230.1 112.3,230.5 113.2,230.8 114.0,231.2 114.8,231.5 115.6,231.9 116.5,232.2 117.3,232.6 118.1,232.9 119.0,233.2 119.8,233.6 120.6,233.9 121.4,234.2 122.2,234.6 123.1,234.9 123.9,235.2 124.7,235.5 125.5,235.8 126.4,236.2 127.2,236.5 128.0,236.8 128.8,237.1 129.7,237.4 130.5,237.7 131.3,238.0 132.2,238.3 133.0,238.6 133.8,238.9 134.6,239.2 135.4,239.5 136.3,239.8 137.1,240.0 137.9,240.3 138.8,240.6 139.6,240.9 140.4,241.2 141.2,241.4 142.1,241.7 142.9,242.0 143.7,242.2 144.5,242.5 145.3,242.8 146.2,243.0 147.0,243.3 147.8,243.6 148.6,243.8 149.5,244.1 150.3,244.3 151.1,244.6 151.9,244.8 152.8,245.1 153.6,245.3 154.4,245.6 155.2,245.8 156.1,246.1 156.9,246.3 157.7,246.5 158.5,246.8 159.4,247.0 160.2,247.2 161.0,247.5 161.8,247.7 162.7,247.9 163.5,248.1 164.3,248.4 165.1,248.6 166.0,248.8 166.8,249.0 167.6,249.2 168.4,249.5 169.3,249.7 170.1,249.9 170.9,250.1 171.8,250.3 172.6,250.5 173.4,250.7 174.2,250.9 175.1,251.1 175.9,251.3 176.7,251.5 177.5,251.7 178.3,251.9 179.2,252.1 180.0,252.3 180.8,252.5 181.7,252.7 182.5,252.9 183.3,253.1 184.1,253.2 185.0,253.4 185.8,253.6 186.6,253.8 187.4,254.0 188.2,254.2 189.1,254.3 189.9,254.5 190.7,254.7 191.6,254.9 192.4,255.0 193.2,255.2 194.0,255.4 194.8,255.5 195.7,255.7 196.5,255.9 197.3,256.0 198.2,256.2 199.0,256.4 199.8,256.5 200.6,256.7 201.5,256.9 202.3,257.0 203.1,257.2 203.9,257.3 204.8,257.5 205.6,257.6 206.4,257.8 207.2,257.9 208.1,258.1 208.9,258.2 209.7,258.4 210.5,258.5 211.4,258.7 212.2,258.8 213.0,259.0 213.8,259.1 214.7,259.2 215.5,259.4 216.3,259.5 217.1,259.7 218.0,259.8 218.8,259.9 219.6,260.1 220.4,260.2 221.2,260.3 222.1,260.5 222.9,260.6 223.7,260.7 224.6,260.9 225.4,261.0 226.2,261.1 227.0,261.2 227.9,261.4 228.7,261.5 229.5,261.6 230.3,261.7 231.2,261.9 232.0,262.0 232.8,262.1 233.6,262.2 234.5,262.3 235.3,262.4 236.1,262.6 236.9,262.7 237.8,262.8 238.6,262.9 239.4,263.0 240.2,263.1 241.0,263.2 241.9,263.4 242.7,263.5 243.5,263.6 244.3,263.7 245.2,263.8 246.0,263.9 246.8,264.0 247.7,264.1 248.5,264.2 249.3,264.3 250.1,264.4 250.9,264.5 251.8,264.6 252.6,264.7 253.4,264.8 254.2,264.9 255.1,265.0 255.9,265.1 256.7,265.2 257.6,265.3 258.4,265.4 259.2,265.5 260.0,265.6 260.9,265.7 261.7,265.8 262.5,265.9 263.3,265.9 264.1,266.0 265.0,266.1 265.8,266.2 266.6,266.3 267.5,266.4 268.3,266.5 269.1,266.6 269.9,266.7 270.8,266.7 271.6,266.8 272.4,266.9 273.2,267.0 274.1,267.1 274.9,267.2 275.7,267.2 276.5,267.3 277.4,267.4 278.2,267.5 279.0,267.6 279.8,267.6 280.7,267.7 281.5,267.8 282.3,267.9 283.1,267.9 283.9,268.0 284.8,268.1 285.6,268.2 286.4,268.2 287.2,268.3 288.1,268.4 288.9,268.4 289.7,268.5 290.5,268.6 291.4,268.7 292.2,268.7 293.0,268.8 293.9,268.9 294.7,268.9 295.5,269.0 296.3,269.1 297.1,269.1 298.0,269.2 298.8,269.3 299.6,269.3 300.5,269.4 301.3,269.5 302.1,269.5 302.9,269.6 303.8,269.7 304.6,269.7 305.4,269.8 306.2,269.8 307.1,269.9 307.9,270.0 308.7,270.0 309.5,270.1 310.3,270.1 311.2,270.2 312.0,270.3 312.8,270.3 313.7,270.4 314.5,270.4 315.3,270.5 316.1,270.5 316.9,270.6 317.8,270.7 318.6,270.7 319.4,270.8 320.2,270.8 321.1,270.9 321.9,270.9 322.7,271.0 323.6,271.0 324.4,271.1 325.2,271.1 326.0,271.2 326.9,271.2 327.7,271.3 328.5,271.3 329.3,271.4 330.1,271.4 331.0,271.5 331.8,271.5 332.6,271.6 333.5,271.6 334.3,271.7 335.1,271.7 335.9,271.8 336.8,271.8 337.6,271.9 338.4,271.9 339.2,272.0 340.0,272.0 340.9,272.0 341.7,272.1 342.5,272.1 343.4,272.2 344.2,272.2 345.0,272.3 345.8,272.3 346.6,272.4 347.5,272.4 348.3,272.4 349.1,272.5 349.9,272.5 350.8,272.6 351.6,272.6 352.4,272.6 353.2,272.7 354.1,272.7 354.9,272.8 355.7,272.8 356.6,272.8 357.4,272.9 358.2,272.9 359.0,273.0 359.8,273.0 360.7,273.0 361.5,273.1 362.3,273.1 363.2,273.1 364.0,273.2 364.8,273.2 365.6,273.2 366.4,273.3 367.3,273.3 368.1,273.4 368.9,273.4 369.8,273.4 370.6,273.5 371.4,273.5 372.2,273.5 373.1,273.6 373.9,273.6 374.7,273.6 375.5,273.7 376.4,273.7 377.2,273.7 378.0,273.8\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"180.0\" y=\"237.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">A</text><polyline clip-path=\"url(#k4a2d3613)\" points=\"48.0,192.7 48.8,192.0 49.6,191.4 50.5,190.7 51.3,190.1 52.1,189.4 53.0,188.7 53.8,188.1 54.6,187.4 55.4,186.7 56.2,186.0 57.1,185.3 57.9,184.6 58.7,183.9 59.5,183.2 60.4,182.5 61.2,181.8 62.0,181.1 62.9,180.3 63.7,179.6 64.5,178.9 65.3,178.1 66.2,177.4 67.0,176.6 67.8,175.8 68.6,175.1 69.5,174.3 70.3,173.5 71.1,172.7 71.9,171.9 72.8,171.1 73.6,170.3 74.4,169.5 75.2,168.7 76.0,167.9 76.9,167.1 77.7,166.2 78.5,165.4 79.3,164.5 80.2,163.7 81.0,162.8 81.8,161.9 82.7,161.1 83.5,160.2 84.3,159.3 85.1,158.4 85.9,157.5 86.8,156.6 87.6,155.7 88.4,154.8 89.2,153.8 90.1,152.9 90.9,152.0 91.7,151.0 92.6,150.1 93.4,149.1 94.2,148.1 95.0,147.1 95.8,146.2 96.7,145.2 97.5,144.2 98.3,143.2 99.2,142.1 100.0,141.1 100.8,140.1 101.6,139.1 102.5,138.0 103.3,137.0 104.1,135.9 104.9,134.8 105.8,133.7 106.6,132.7 107.4,131.6 108.2,130.5 109.1,129.4 109.9,128.2 110.7,127.1 111.5,126.0 112.3,124.8 113.2,123.7 114.0,122.5 114.8,121.3 115.6,120.2 116.5,119.0 117.3,117.8 118.1,116.6 119.0,115.4 119.8,114.1 120.6,112.9 121.4,111.7 122.2,110.4 123.1,109.1 123.9,107.9 124.7,106.6 125.5,105.3 126.4,104.0 127.2,102.7 128.0,101.4 128.8,100.0 129.7,98.7 130.5,97.3 131.3,96.0 132.2,94.6 133.0,93.2 133.8,91.8 134.6,90.4 135.4,89.0 136.3,87.6 137.1,86.2 137.9,84.7 138.8,83.3 139.6,81.8 140.4,80.3 141.2,78.8 142.1,77.3 142.9,75.8 143.7,74.3 144.5,72.8 145.3,71.2 146.2,69.7 147.0,68.1 147.8,66.5 148.6,64.9 149.5,63.3 150.3,61.7 151.1,60.1 151.9,58.5 152.8,56.8 153.6,55.1 154.4,53.5 155.2,51.8 156.1,50.1 156.9,48.3 157.7,46.6 158.5,44.9 159.4,43.1 160.2,41.4 161.0,39.6 161.8,37.8 162.7,36.0 163.5,34.1 164.3,32.3 165.1,30.5 166.0,28.6 166.8,26.7 167.6,24.8 168.4,22.9 169.3,21.0 170.1,19.1 170.9,17.1 171.8,15.2 172.6,13.2 173.4,11.2 174.2,9.2 175.1,7.2 175.9,5.1 176.7,3.1 177.5,1.0 178.3,-1.1 179.2,-3.2 180.0,-5.3 180.8,-7.4 181.7,-9.6 182.5,-11.8 183.3,-13.9 184.1,-16.1 185.0,-18.4 185.8,-20.6 186.6,-22.8 187.4,-25.1 188.2,-27.4 189.1,-29.7 189.9,-32.0 190.7,-34.3 191.6,-36.7 192.4,-39.1 193.2,-41.4 194.0,-43.8 194.8,-46.3 195.7,-48.7 196.5,-51.2 197.3,-53.6 198.2,-56.1 199.0,-58.7 199.8,-61.2 200.6,-63.7 201.5,-66.3 202.3,-68.9 203.1,-71.5 203.9,-74.2 204.8,-76.8 205.6,-79.5 206.4,-82.2 207.2,-84.9 208.1,-87.6 208.9,-90.4 209.7,-93.1 210.5,-95.9 211.4,-98.7 212.2,-101.6 213.0,-104.4 213.8,-107.3 214.7,-110.2 215.5,-113.1 216.3,-116.1 217.1,-119.1 218.0,-122.0 218.8,-125.1 219.6,-128.1 220.4,-131.1 221.2,-134.2 222.1,-137.3 222.9,-140.5 223.7,-143.6 224.6,-146.8 225.4,-150.0 226.2,-153.2 227.0,-156.4 227.9,-159.7 228.7,-163.0 229.5,-166.3 230.3,-169.7 231.2,-173.0 232.0,-176.4 232.8,-179.9 233.6,-183.3 234.5,-186.8 235.3,-190.3 236.1,-193.8 236.9,-197.4 237.8,-200.9 238.6,-204.5 239.4,-208.2 240.2,-211.8 241.0,-215.5 241.9,-219.2 242.7,-223.0 243.5,-226.8 244.3,-230.6 245.2,-234.0 246.0,-234.0 246.8,-234.0 247.7,-234.0 248.5,-234.0 249.3,-234.0 250.1,-234.0 250.9,-234.0 251.8,-234.0 252.6,-234.0 253.4,-234.0 254.2,-234.0 255.1,-234.0 255.9,-234.0 256.7,-234.0 257.6,-234.0 258.4,-234.0 259.2,-234.0 260.0,-234.0 260.9,-234.0 261.7,-234.0 262.5,-234.0 263.3,-234.0 264.1,-234.0 265.0,-234.0 265.8,-234.0 266.6,-234.0 267.5,-234.0 268.3,-234.0 269.1,-234.0 269.9,-234.0 270.8,-234.0 271.6,-234.0 272.4,-234.0 273.2,-234.0 274.1,-234.0 274.9,-234.0 275.7,-234.0 276.5,-234.0 277.4,-234.0 278.2,-234.0 279.0,-234.0 279.8,-234.0 280.7,-234.0 281.5,-234.0 282.3,-234.0 283.1,-234.0 283.9,-234.0 284.8,-234.0 285.6,-234.0 286.4,-234.0 287.2,-234.0 288.1,-234.0 288.9,-234.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"3\"/><text x=\"97.5\" y=\"56.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#d9622b\">B</text><polyline clip-path=\"url(#k4a2d3613)\" points=\"48.0,192.7 48.8,192.3 49.6,192.0 50.5,191.7 51.3,191.4 52.1,191.1 53.0,190.7 53.8,190.4 54.6,190.1 55.4,189.8 56.2,189.5 57.1,189.1 57.9,188.8 58.7,188.5 59.5,188.2 60.4,187.9 61.2,187.5 62.0,187.2 62.9,186.9 63.7,186.6 64.5,186.3 65.3,185.9 66.2,185.6 67.0,185.3 67.8,185.0 68.6,184.7 69.5,184.3 70.3,184.0 71.1,183.7 71.9,183.4 72.8,183.1 73.6,182.7 74.4,182.4 75.2,182.1 76.0,181.8 76.9,181.5 77.7,181.1 78.5,180.8 79.3,180.5 80.2,180.2 81.0,179.9 81.8,179.5 82.7,179.2 83.5,178.9 84.3,178.6 85.1,178.3 85.9,177.9 86.8,177.6 87.6,177.3 88.4,177.0 89.2,176.7 90.1,176.3 90.9,176.0 91.7,175.7 92.6,175.4 93.4,175.1 94.2,174.7 95.0,174.4 95.8,174.1 96.7,173.8 97.5,173.5 98.3,173.1 99.2,172.8 100.0,172.5 100.8,172.2 101.6,171.9 102.5,171.5 103.3,171.2 104.1,170.9 104.9,170.6 105.8,170.3 106.6,169.9 107.4,169.6 108.2,169.3 109.1,169.0 109.9,168.7 110.7,168.3 111.5,168.0 112.3,167.7 113.2,167.4 114.0,167.1 114.8,166.7 115.6,166.4 116.5,166.1 117.3,165.8 118.1,165.5 119.0,165.1 119.8,164.8 120.6,164.5 121.4,164.2 122.2,163.9 123.1,163.5 123.9,163.2 124.7,162.9 125.5,162.6 126.4,162.3 127.2,161.9 128.0,161.6 128.8,161.3 129.7,161.0 130.5,160.7 131.3,160.3 132.2,160.0 133.0,159.7 133.8,159.4 134.6,159.1 135.4,158.7 136.3,158.4 137.1,158.1 137.9,157.8 138.8,157.5 139.6,157.1 140.4,156.8 141.2,156.5 142.1,156.2 142.9,155.9 143.7,155.5 144.5,155.2 145.3,154.9 146.2,154.6 147.0,154.3 147.8,153.9 148.6,153.6 149.5,153.3 150.3,153.0 151.1,152.7 151.9,152.3 152.8,152.0 153.6,151.7 154.4,151.4 155.2,151.1 156.1,150.7 156.9,150.4 157.7,150.1 158.5,149.8 159.4,149.5 160.2,149.1 161.0,148.8 161.8,148.5 162.7,148.2 163.5,147.9 164.3,147.5 165.1,147.2 166.0,146.9 166.8,146.6 167.6,146.3 168.4,145.9 169.3,145.6 170.1,145.3 170.9,145.0 171.8,144.7 172.6,144.3 173.4,144.0 174.2,143.7 175.1,143.4 175.9,143.1 176.7,142.7 177.5,142.4 178.3,142.1 179.2,141.8 180.0,141.5 180.8,141.1 181.7,140.8 182.5,140.5 183.3,140.2 184.1,139.9 185.0,139.5 185.8,139.2 186.6,138.9 187.4,138.6 188.2,138.3 189.1,137.9 189.9,137.6 190.7,137.3 191.6,137.0 192.4,136.7 193.2,136.3 194.0,136.0 194.8,135.7 195.7,135.4 196.5,135.1 197.3,134.7 198.2,134.4 199.0,134.1 199.8,133.8 200.6,133.5 201.5,133.1 202.3,132.8 203.1,132.5 203.9,132.2 204.8,131.9 205.6,131.5 206.4,131.2 207.2,130.9 208.1,130.6 208.9,130.3 209.7,129.9 210.5,129.6 211.4,129.3 212.2,129.0 213.0,128.7 213.8,128.3 214.7,128.0 215.5,127.7 216.3,127.4 217.1,127.1 218.0,126.7 218.8,126.4 219.6,126.1 220.4,125.8 221.2,125.5 222.1,125.1 222.9,124.8 223.7,124.5 224.6,124.2 225.4,123.9 226.2,123.5 227.0,123.2 227.9,122.9 228.7,122.6 229.5,122.3 230.3,121.9 231.2,121.6 232.0,121.3 232.8,121.0 233.6,120.7 234.5,120.3 235.3,120.0 236.1,119.7 236.9,119.4 237.8,119.1 238.6,118.7 239.4,118.4 240.2,118.1 241.0,117.8 241.9,117.5 242.7,117.1 243.5,116.8 244.3,116.5 245.2,116.2 246.0,115.9 246.8,115.5 247.7,115.2 248.5,114.9 249.3,114.6 250.1,114.3 250.9,113.9 251.8,113.6 252.6,113.3 253.4,113.0 254.2,112.7 255.1,112.3 255.9,112.0 256.7,111.7 257.6,111.4 258.4,111.1 259.2,110.7 260.0,110.4 260.9,110.1 261.7,109.8 262.5,109.5 263.3,109.1 264.1,108.8 265.0,108.5 265.8,108.2 266.6,107.9 267.5,107.5 268.3,107.2 269.1,106.9 269.9,106.6 270.8,106.3 271.6,105.9 272.4,105.6 273.2,105.3 274.1,105.0 274.9,104.7 275.7,104.3 276.5,104.0 277.4,103.7 278.2,103.4 279.0,103.1 279.8,102.7 280.7,102.4 281.5,102.1 282.3,101.8 283.1,101.5 283.9,101.1 284.8,100.8 285.6,100.5 286.4,100.2 287.2,99.9 288.1,99.5 288.9,99.2 289.7,98.9 290.5,98.6 291.4,98.3 292.2,97.9 293.0,97.6 293.9,97.3 294.7,97.0 295.5,96.7 296.3,96.3 297.1,96.0 298.0,95.7 298.8,95.4 299.6,95.1 300.5,94.7 301.3,94.4 302.1,94.1 302.9,93.8 303.8,93.5 304.6,93.1 305.4,92.8 306.2,92.5 307.1,92.2 307.9,91.9 308.7,91.5 309.5,91.2 310.3,90.9 311.2,90.6 312.0,90.3 312.8,89.9 313.7,89.6 314.5,89.3 315.3,89.0 316.1,88.7 316.9,88.3 317.8,88.0 318.6,87.7 319.4,87.4 320.2,87.1 321.1,86.7 321.9,86.4 322.7,86.1 323.6,85.8 324.4,85.5 325.2,85.1 326.0,84.8 326.9,84.5 327.7,84.2 328.5,83.9 329.3,83.5 330.1,83.2 331.0,82.9 331.8,82.6 332.6,82.3 333.5,81.9 334.3,81.6 335.1,81.3 335.9,81.0 336.8,80.7 337.6,80.3 338.4,80.0 339.2,79.7 340.0,79.4 340.9,79.1 341.7,78.7 342.5,78.4 343.4,78.1 344.2,77.8 345.0,77.5 345.8,77.1 346.6,76.8 347.5,76.5 348.3,76.2 349.1,75.9 349.9,75.5 350.8,75.2 351.6,74.9 352.4,74.6 353.2,74.3 354.1,73.9 354.9,73.6 355.7,73.3 356.6,73.0 357.4,72.7 358.2,72.3 359.0,72.0 359.8,71.7 360.7,71.4 361.5,71.1 362.3,70.7 363.2,70.4 364.0,70.1 364.8,69.8 365.6,69.5 366.4,69.1 367.3,68.8 368.1,68.5 368.9,68.2 369.8,67.9 370.6,67.5 371.4,67.2 372.2,66.9 373.1,66.6 373.9,66.3 374.7,65.9 375.5,65.6 376.4,65.3 377.2,65.0 378.0,64.7\" fill=\"none\" stroke=\"#2e9b6f\" stroke-width=\"3\"/><text x=\"334.0\" y=\"100.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2e9b6f\">C</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Differentialekvationen ger \\(y^{\\prime}(0)=-y(0)=-2\\): kurvan ska börja med negativ lutning. Bara A avtar.</p><p>A är \\(y=2e^{-x}\\). Kontroll: \\(y^{\\prime}=-2e^{-x}=-y\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm lutningen i startpunkten</p>\\[y^{\\prime}(0)=-y(0)=-2\\]<p>Alla kurvor går genom (0,2), men bara A har negativ lutning där. B och C ökar och kan därför inte vara lösningen.</p></li><li><p class=\"facit-rubrik\">Kontrollera den valda kurvan</p><p>A är kurvan y=2e⁻ˣ.</p>\\[y^{\\prime}=-2e^{-x}=-y\\]\\[y(0)=2e^0=2\\]<p>Både differentialekvationen och startvillkoret stämmer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kurva A.</p></div>",
   "familj": "Pröva lösningar med grafer och flerval",
   "formaga": [
     "begrepp"
@@ -52337,7 +52331,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Vilken lutning ska kurvan ha i startpunkten enligt ekvationen?</p>",
+  "ledtrad": "<p>Använd startvärdet i differentialekvationen. Ska lösningen först öka eller minska?</p>",
   "svarstyp": "alternativ",
   "rättSvar": null,
   "tolerans": null,
@@ -52364,22 +52358,19 @@ window.BANKMATF1 = [
   "kap": 4,
   "omr": "verifiering",
   "niva": "E",
-  "poang": "1/0/0",
+  "poang": "2/0/0",
   "typ": "konstant ur lösningskurva och tangent",
   "t": "<p>Figuren visar en lösning till \\(y^{\\prime}=k(10-y)\\) och tangenten i startpunkten \\((0,\\,2)\\). Tangenten går också genom \\((1,\\,6)\\). Bestäm \\(k\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 340\" role=\"img\" aria-label=\"En lösningskurva som börjar i (0, 2) och stiger mot 10, och en streckad tangent i startpunkten som går genom (1, 6).\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"77.2\" y1=\"22\" x2=\"77.2\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"106.3\" y1=\"22\" x2=\"106.3\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"135.5\" y1=\"22\" x2=\"135.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"164.7\" y1=\"22\" x2=\"164.7\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"193.8\" y1=\"22\" x2=\"193.8\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"252.2\" y1=\"22\" x2=\"252.2\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"281.3\" y1=\"22\" x2=\"281.3\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"310.5\" y1=\"22\" x2=\"310.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"339.7\" y1=\"22\" x2=\"339.7\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"368.8\" y1=\"22\" x2=\"368.8\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"298.0\" x2=\"398\" y2=\"298.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"275.0\" x2=\"398\" y2=\"275.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"252.0\" x2=\"398\" y2=\"252.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"229.0\" x2=\"398\" y2=\"229.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"206.0\" x2=\"398\" y2=\"206.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"183.0\" x2=\"398\" y2=\"183.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"160.0\" x2=\"398\" y2=\"160.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"137.0\" x2=\"398\" y2=\"137.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"114.0\" x2=\"398\" y2=\"114.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"91.0\" x2=\"398\" y2=\"91.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"68.0\" x2=\"398\" y2=\"68.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"45.0\" x2=\"398\" y2=\"45.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"298.0\" x2=\"408\" y2=\"298.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,298.0 402,293.0 402,303.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"298\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"289.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"106.3\" y=\"315.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"164.7\" y=\"315.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"223.0\" y=\"315.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"281.3\" y=\"315.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"339.7\" y=\"315.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"398.0\" y=\"315.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"256.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"118.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"42.0\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">12</text><text x=\"42.0\" y=\"315.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k7425f4e7\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"276\"/></clipPath><polyline clip-path=\"url(#k7425f4e7)\" points=\"48.0,252.0 48.9,250.6 49.8,249.3 50.6,247.9 51.5,246.6 52.4,245.2 53.2,243.9 54.1,242.6 55.0,241.3 55.9,240.0 56.8,238.7 57.6,237.4 58.5,236.2 59.4,234.9 60.2,233.7 61.1,232.4 62.0,231.2 62.9,230.0 63.8,228.8 64.6,227.6 65.5,226.4 66.4,225.2 67.2,224.0 68.1,222.8 69.0,221.7 69.9,220.5 70.8,219.4 71.6,218.3 72.5,217.1 73.4,216.0 74.2,214.9 75.1,213.8 76.0,212.7 76.9,211.7 77.8,210.6 78.6,209.5 79.5,208.5 80.4,207.4 81.2,206.4 82.1,205.3 83.0,204.3 83.9,203.3 84.8,202.3 85.6,201.3 86.5,200.3 87.4,199.3 88.2,198.3 89.1,197.3 90.0,196.4 90.9,195.4 91.8,194.5 92.6,193.5 93.5,192.6 94.4,191.6 95.2,190.7 96.1,189.8 97.0,188.9 97.9,188.0 98.8,187.1 99.6,186.2 100.5,185.3 101.4,184.4 102.2,183.6 103.1,182.7 104.0,181.9 104.9,181.0 105.8,180.2 106.6,179.3 107.5,178.5 108.4,177.7 109.2,176.8 110.1,176.0 111.0,175.2 111.9,174.4 112.8,173.6 113.6,172.8 114.5,172.1 115.4,171.3 116.2,170.5 117.1,169.7 118.0,169.0 118.9,168.2 119.8,167.5 120.6,166.7 121.5,166.0 122.4,165.3 123.2,164.5 124.1,163.8 125.0,163.1 125.9,162.4 126.8,161.7 127.6,161.0 128.5,160.3 129.4,159.6 130.2,158.9 131.1,158.2 132.0,157.6 132.9,156.9 133.8,156.2 134.6,155.6 135.5,154.9 136.4,154.3 137.2,153.6 138.1,153.0 139.0,152.3 139.9,151.7 140.8,151.1 141.6,150.5 142.5,149.9 143.4,149.2 144.2,148.6 145.1,148.0 146.0,147.4 146.9,146.8 147.8,146.3 148.6,145.7 149.5,145.1 150.4,144.5 151.2,143.9 152.1,143.4 153.0,142.8 153.9,142.2 154.8,141.7 155.6,141.1 156.5,140.6 157.4,140.1 158.2,139.5 159.1,139.0 160.0,138.5 160.9,137.9 161.8,137.4 162.6,136.9 163.5,136.4 164.4,135.9 165.2,135.4 166.1,134.8 167.0,134.3 167.9,133.9 168.8,133.4 169.6,132.9 170.5,132.4 171.4,131.9 172.2,131.4 173.1,131.0 174.0,130.5 174.9,130.0 175.8,129.6 176.6,129.1 177.5,128.6 178.4,128.2 179.2,127.7 180.1,127.3 181.0,126.8 181.9,126.4 182.8,126.0 183.6,125.5 184.5,125.1 185.4,124.7 186.2,124.3 187.1,123.8 188.0,123.4 188.9,123.0 189.8,122.6 190.6,122.2 191.5,121.8 192.4,121.4 193.2,121.0 194.1,120.6 195.0,120.2 195.9,119.8 196.8,119.4 197.6,119.0 198.5,118.6 199.4,118.3 200.2,117.9 201.1,117.5 202.0,117.2 202.9,116.8 203.8,116.4 204.6,116.1 205.5,115.7 206.4,115.3 207.2,115.0 208.1,114.6 209.0,114.3 209.9,113.9 210.8,113.6 211.6,113.3 212.5,112.9 213.4,112.6 214.2,112.3 215.1,111.9 216.0,111.6 216.9,111.3 217.8,110.9 218.6,110.6 219.5,110.3 220.4,110.0 221.3,109.7 222.1,109.4 223.0,109.1 223.9,108.7 224.8,108.4 225.6,108.1 226.5,107.8 227.4,107.5 228.2,107.2 229.1,107.0 230.0,106.7 230.9,106.4 231.8,106.1 232.6,105.8 233.5,105.5 234.4,105.2 235.2,105.0 236.1,104.7 237.0,104.4 237.9,104.1 238.8,103.9 239.6,103.6 240.5,103.3 241.4,103.1 242.3,102.8 243.1,102.6 244.0,102.3 244.9,102.0 245.8,101.8 246.6,101.5 247.5,101.3 248.4,101.0 249.3,100.8 250.1,100.5 251.0,100.3 251.9,100.1 252.8,99.8 253.6,99.6 254.5,99.3 255.4,99.1 256.2,98.9 257.1,98.6 258.0,98.4 258.9,98.2 259.8,98.0 260.6,97.7 261.5,97.5 262.4,97.3 263.2,97.1 264.1,96.9 265.0,96.6 265.9,96.4 266.8,96.2 267.6,96.0 268.5,95.8 269.4,95.6 270.2,95.4 271.1,95.2 272.0,95.0 272.9,94.8 273.8,94.6 274.6,94.4 275.5,94.2 276.4,94.0 277.2,93.8 278.1,93.6 279.0,93.4 279.9,93.2 280.8,93.0 281.6,92.8 282.5,92.7 283.4,92.5 284.2,92.3 285.1,92.1 286.0,91.9 286.9,91.7 287.8,91.6 288.6,91.4 289.5,91.2 290.4,91.0 291.2,90.9 292.1,90.7 293.0,90.5 293.9,90.4 294.8,90.2 295.6,90.0 296.5,89.9 297.4,89.7 298.2,89.5 299.1,89.4 300.0,89.2 300.9,89.1 301.8,88.9 302.6,88.7 303.5,88.6 304.4,88.4 305.2,88.3 306.1,88.1 307.0,88.0 307.9,87.8 308.8,87.7 309.6,87.5 310.5,87.4 311.4,87.2 312.2,87.1 313.1,87.0 314.0,86.8 314.9,86.7 315.8,86.5 316.6,86.4 317.5,86.3 318.4,86.1 319.2,86.0 320.1,85.9 321.0,85.7 321.9,85.6 322.8,85.5 323.6,85.3 324.5,85.2 325.4,85.1 326.2,84.9 327.1,84.8 328.0,84.7 328.9,84.6 329.8,84.4 330.6,84.3 331.5,84.2 332.4,84.1 333.2,84.0 334.1,83.8 335.0,83.7 335.9,83.6 336.8,83.5 337.6,83.4 338.5,83.3 339.4,83.1 340.2,83.0 341.1,82.9 342.0,82.8 342.9,82.7 343.8,82.6 344.6,82.5 345.5,82.4 346.4,82.3 347.2,82.2 348.1,82.0 349.0,81.9 349.9,81.8 350.8,81.7 351.6,81.6 352.5,81.5 353.4,81.4 354.2,81.3 355.1,81.2 356.0,81.1 356.9,81.0 357.7,80.9 358.6,80.8 359.5,80.7 360.4,80.6 361.2,80.6 362.1,80.5 363.0,80.4 363.9,80.3 364.7,80.2 365.6,80.1 366.5,80.0 367.4,79.9 368.2,79.8 369.1,79.7 370.0,79.6 370.9,79.6 371.8,79.5 372.6,79.4 373.5,79.3 374.4,79.2 375.2,79.1 376.1,79.1 377.0,79.0 377.9,78.9 378.8,78.8 379.6,78.7 380.5,78.6 381.4,78.6 382.2,78.5 383.1,78.4 384.0,78.3 384.9,78.3 385.8,78.2 386.6,78.1 387.5,78.0 388.4,77.9 389.2,77.9 390.1,77.8 391.0,77.7 391.9,77.7 392.8,77.6 393.6,77.5 394.5,77.4 395.4,77.4 396.2,77.3 397.1,77.2 398.0,77.2\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"304.7\" y=\"70.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">y(x)</text><polyline clip-path=\"url(#k7425f4e7)\" points=\"48.0,252.0 48.9,250.6 49.8,249.2 50.6,247.9 51.5,246.5 52.4,245.1 53.2,243.7 54.1,242.3 55.0,241.0 55.9,239.6 56.8,238.2 57.6,236.8 58.5,235.4 59.4,234.1 60.2,232.7 61.1,231.3 62.0,229.9 62.9,228.5 63.8,227.2 64.6,225.8 65.5,224.4 66.4,223.0 67.2,221.6 68.1,220.3 69.0,218.9 69.9,217.5 70.8,216.1 71.6,214.7 72.5,213.4 73.4,212.0 74.2,210.6 75.1,209.2 76.0,207.8 76.9,206.5 77.8,205.1 78.6,203.7 79.5,202.3 80.4,200.9 81.2,199.6 82.1,198.2 83.0,196.8 83.9,195.4 84.8,194.0 85.6,192.7 86.5,191.3 87.4,189.9 88.2,188.5 89.1,187.1 90.0,185.8 90.9,184.4 91.8,183.0 92.6,181.6 93.5,180.2 94.4,178.9 95.2,177.5 96.1,176.1 97.0,174.7 97.9,173.3 98.8,172.0 99.6,170.6 100.5,169.2 101.4,167.8 102.2,166.4 103.1,165.1 104.0,163.7 104.9,162.3 105.8,160.9 106.6,159.5 107.5,158.2 108.4,156.8 109.2,155.4 110.1,154.0 111.0,152.6 111.9,151.3 112.8,149.9 113.6,148.5 114.5,147.1 115.4,145.7 116.2,144.4 117.1,143.0 118.0,141.6 118.9,140.2 119.8,138.8 120.6,137.5 121.5,136.1 122.4,134.7 123.2,133.3 124.1,131.9 125.0,130.6 125.9,129.2 126.8,127.8 127.6,126.4 128.5,125.0 129.4,123.7 130.2,122.3 131.1,120.9 132.0,119.5 132.9,118.1 133.8,116.8 134.6,115.4 135.5,114.0 136.4,112.6 137.2,111.2 138.1,109.9 139.0,108.5 139.9,107.1 140.8,105.7 141.6,104.3 142.5,103.0 143.4,101.6 144.2,100.2 145.1,98.8 146.0,97.4 146.9,96.1 147.8,94.7 148.6,93.3 149.5,91.9 150.4,90.5 151.2,89.2 152.1,87.8 153.0,86.4 153.9,85.0 154.8,83.6 155.6,82.3 156.5,80.9 157.4,79.5 158.2,78.1 159.1,76.7 160.0,75.4 160.9,74.0 161.8,72.6 162.6,71.2 163.5,69.8 164.4,68.5 165.2,67.1 166.1,65.7 167.0,64.3 167.9,62.9 168.8,61.6 169.6,60.2 170.5,58.8 171.4,57.4 172.2,56.0 173.1,54.7 174.0,53.3 174.9,51.9 175.8,50.5 176.6,49.1 177.5,47.8 178.4,46.4 179.2,45.0 180.1,43.6 181.0,42.2 181.9,40.9 182.8,39.5 183.6,38.1 184.5,36.7 185.4,35.3 186.2,34.0 187.1,32.6 188.0,31.2 188.9,29.8 189.8,28.4 190.6,27.1 191.5,25.7 192.4,24.3 193.2,22.9 194.1,21.5 195.0,20.2 195.9,18.8 196.8,17.4 197.6,16.0 198.5,14.6 199.4,13.3 200.2,11.9 201.1,10.5 202.0,9.1 202.9,7.7 203.8,6.4 204.6,5.0 205.5,3.6 206.4,2.2 207.2,0.8 208.1,-0.5 209.0,-1.9 209.9,-3.3 210.8,-4.7 211.6,-6.1 212.5,-7.4 213.4,-8.8 214.2,-10.2 215.1,-11.6 216.0,-13.0 216.9,-14.3 217.8,-15.7 218.6,-17.1 219.5,-18.5 220.4,-19.9 221.3,-21.2 222.1,-22.6 223.0,-24.0 223.9,-25.4 224.8,-26.8 225.6,-28.1 226.5,-29.5 227.4,-30.9 228.2,-32.3 229.1,-33.7 230.0,-35.0 230.9,-36.4 231.8,-37.8 232.6,-39.2 233.5,-40.6 234.4,-41.9 235.2,-43.3 236.1,-44.7 237.0,-46.1 237.9,-47.5 238.8,-48.8 239.6,-50.2 240.5,-51.6 241.4,-53.0 242.3,-54.4 243.1,-55.7 244.0,-57.1 244.9,-58.5 245.8,-59.9 246.6,-61.3 247.5,-62.6 248.4,-64.0 249.3,-65.4 250.1,-66.8 251.0,-68.2 251.9,-69.5 252.8,-70.9 253.6,-72.3 254.5,-73.7 255.4,-75.1 256.2,-76.4 257.1,-77.8 258.0,-79.2 258.9,-80.6 259.8,-82.0 260.6,-83.3 261.5,-84.7 262.4,-86.1 263.2,-87.5 264.1,-88.9 265.0,-90.2 265.9,-91.6 266.8,-93.0 267.6,-94.4 268.5,-95.8 269.4,-97.1 270.2,-98.5 271.1,-99.9 272.0,-101.3 272.9,-102.7 273.8,-104.0 274.6,-105.4 275.5,-106.8 276.4,-108.2 277.2,-109.6 278.1,-110.9 279.0,-112.3 279.9,-113.7 280.8,-115.1 281.6,-116.5 282.5,-117.8 283.4,-119.2 284.2,-120.6 285.1,-122.0 286.0,-123.4 286.9,-124.7 287.8,-126.1 288.6,-127.5 289.5,-128.9 290.4,-130.3 291.2,-131.6 292.1,-133.0 293.0,-134.4 293.9,-135.8 294.8,-137.2 295.6,-138.5 296.5,-139.9 297.4,-141.3 298.2,-142.7 299.1,-144.1 300.0,-145.4 300.9,-146.8 301.8,-148.2 302.6,-149.6 303.5,-151.0 304.4,-152.3 305.2,-153.7 306.1,-155.1 307.0,-156.5 307.9,-157.9 308.8,-159.2 309.6,-160.6 310.5,-162.0 311.4,-163.4 312.2,-164.8 313.1,-166.1 314.0,-167.5 314.9,-168.9 315.8,-170.3 316.6,-171.7 317.5,-173.0 318.4,-174.4 319.2,-175.8 320.1,-177.2 321.0,-178.6 321.9,-179.9 322.8,-181.3 323.6,-182.7 324.5,-184.1 325.4,-185.5 326.2,-186.8 327.1,-188.2 328.0,-189.6 328.9,-191.0 329.8,-192.4 330.6,-193.7 331.5,-195.1 332.4,-196.5 333.2,-197.9 334.1,-199.3 335.0,-200.6 335.9,-202.0 336.8,-203.4 337.6,-204.8 338.5,-206.2 339.4,-207.5 340.2,-208.9 341.1,-210.3 342.0,-211.7 342.9,-213.1 343.8,-214.4 344.6,-215.8 345.5,-217.2 346.4,-218.6 347.2,-220.0 348.1,-221.3 349.0,-222.7 349.9,-224.1 350.8,-225.5 351.6,-226.9 352.5,-228.2 353.4,-229.6 354.2,-231.0 355.1,-232.4 356.0,-233.8 356.9,-235.1 357.7,-236.5 358.6,-237.9 359.5,-239.3 360.4,-240.7 361.2,-242.0 362.1,-243.4 363.0,-244.8 363.9,-246.2 364.7,-247.6 365.6,-248.9 366.5,-250.3 367.4,-251.7 368.2,-253.1 369.1,-254.0 370.0,-254.0 370.9,-254.0 371.8,-254.0 372.6,-254.0 373.5,-254.0 374.4,-254.0 375.2,-254.0 376.1,-254.0 377.0,-254.0 377.9,-254.0 378.8,-254.0 379.6,-254.0 380.5,-254.0 381.4,-254.0 382.2,-254.0 383.1,-254.0 384.0,-254.0 384.9,-254.0 385.8,-254.0 386.6,-254.0 387.5,-254.0 388.4,-254.0 389.2,-254.0 390.1,-254.0 391.0,-254.0 391.9,-254.0 392.8,-254.0 393.6,-254.0 394.5,-254.0 395.4,-254.0 396.2,-254.0 397.1,-254.0 398.0,-254.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><text x=\"56.8\" y=\"54.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#d9622b\">tangent</text><circle cx=\"48.0\" cy=\"252.0\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"106.3\" cy=\"160.0\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Tangentens lutning är \\(\\dfrac{6-2}{1-0}=4\\), alltså \\(y^{\\prime}(0)=4\\).</p><p>Insättning i ekvationen: \\(4=k(10-2)=8k\\), så \\(k=0{,}5\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm lutningen i startpunkten</p>\\[y^{\\prime}(0)=\\frac{6-2}{1-0}=4\\]</li><li><p class=\"facit-rubrik\">Sätt in lutningen och funktionsvärdet</p>\\[4=k(10-2)=8k\\]</li><li><p class=\"facit-rubrik\">Lös ekvationen för k</p>\\[k=\\frac48=0{,}5\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=0{,}5\\).</p></div>",
   "familj": "Pröva lösningar med grafer och flerval",
-  "formaga": [
-    "problemlösning",
-    "begrepp"
-  ],
+  "formaga": ["procedur", "begrepp"],
   "miniräknare": true,
   "geogebra": false,
   "spel": true,
   "självrättning": true,
-  "traningsniva": 3,
+  "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Bestäm y′(0) ur tangenten och sätt in y(0) = 2 i ekvationen.</p>",
+  "ledtrad": "<p>Beräkna tangentens lutning från de två markerade punkterna. Använd den som y′(0) i ekvationen.</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 0.5,
   "tolerans": 0,
@@ -52390,10 +52381,10 @@ window.BANKMATF1 = [
   "kap": 4,
   "omr": "verifiering",
   "niva": "E",
-  "poang": "1/0/0",
+  "poang": "2/0/0",
   "typ": "vilka funktioner löser xy′ = 2y",
   "t": "<p>Vilka av funktionerna löser differentialekvationen \\(xy^{\\prime}=2y\\)? (Välj alla som stämmer.)</p>",
-  "s": "<div class=\"facit-v2\"><p>Sätt in och jämför vänsterled och högerled:</p><ul><li>\\(y=x^2\\): \\(x\\cdot2x=2x^2=2y\\). Ja.</li><li>\\(y=3x^2\\): \\(x\\cdot6x=6x^2=2\\cdot3x^2\\). Ja.</li><li>\\(y=x^2+1\\): \\(x\\cdot2x=2x^2\\), men \\(2y=2x^2+2\\). Nej.</li><li>\\(y=x^3\\): \\(x\\cdot3x^2=3x^3\\), men \\(2y=2x^3\\). Nej.</li></ul></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva y=x²</p>\\[y^{\\prime}=2x\\]\\[xy^{\\prime}=2x^2=2y\\]<p>Funktionen löser ekvationen.</p></li><li><p class=\"facit-rubrik\">Pröva y=3x²</p>\\[y^{\\prime}=6x\\]\\[xy^{\\prime}=6x^2=2y\\]<p>Även denna funktion löser ekvationen.</p></li><li><p class=\"facit-rubrik\">Pröva y=x²+1</p>\\[xy^{\\prime}=2x^2,\\qquad2y=2x^2+2\\]<p>Leden skiljer sig med 2. Funktionen löser inte ekvationen.</p></li><li><p class=\"facit-rubrik\">Pröva y=x³</p>\\[xy^{\\prime}=3x^3,\\qquad2y=2x^3\\]<p>Likheten gäller bara vid x=0, inte på ett helt intervall. Funktionen är därför inte en lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=x^2\\) och \\(y=3x^2\\).</p></div>",
   "familj": "Pröva lösningar med grafer och flerval",
   "formaga": [
     "procedur",
@@ -52403,34 +52394,13 @@ window.BANKMATF1 = [
   "geogebra": false,
   "spel": true,
   "självrättning": true,
-  "traningsniva": 3,
+  "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Derivera, multiplicera med x och jämför med 2y.</p>",
+  "ledtrad": "<p>Kontrollera varje funktion genom att derivera och jämföra leden. Likheten måste gälla för alla x.</p>",
   "svarstyp": "alternativ",
   "rättSvar": null,
   "tolerans": null,
-  "alternativ": [
-    {
-      "txt": "\\(y=x^2\\)",
-      "ratt": true,
-      "kommentar": "x·2x = 2x² = 2y."
-    },
-    {
-      "txt": "\\(y=3x^2\\)",
-      "ratt": true,
-      "kommentar": "x·6x = 6x² = 2y."
-    },
-    {
-      "txt": "\\(y=x^2+1\\)",
-      "ratt": false,
-      "kommentar": "VL = 2x² men HL = 2x² + 2."
-    },
-    {
-      "txt": "\\(y=x^3\\)",
-      "ratt": false,
-      "kommentar": "VL = 3x³ men HL = 2x³."
-    }
-  ]
+  "alternativ": [{"txt": "\\(y=x^2\\)", "ratt": true, "kommentar": "x·2x = 2x² = 2y."}, {"txt": "\\(y=3x^2\\)", "ratt": true, "kommentar": "x·6x = 6x² = 2y."}, {"txt": "\\(y=x^2+1\\)", "ratt": false, "kommentar": "VL = 2x² men HL = 2x² + 2."}, {"txt": "\\(y=x^3\\)", "ratt": false, "kommentar": "Leden blir 3x³ och 2x³. De är bara lika vid x=0, inte på ett helt intervall."}]
 },
 {
   "id": "4.588",
@@ -52440,7 +52410,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "vilka funktioner löser y″ = −9y",
   "t": "<p>Vilka av funktionerna löser differentialekvationen \\(y^{\\prime\\prime}=-9y\\)? (Välj alla som stämmer.)</p>",
-  "s": "<div class=\"facit-v2\"><p>\\(y=\\sin3x\\): \\(y^{\\prime\\prime}=-9\\sin3x=-9y\\). Ja. På samma sätt för \\(y=\\cos3x\\).</p><p>\\(y=e^{3x}\\) ger \\(y^{\\prime\\prime}=9e^{3x}=9y\\), fel tecken. \\(y=\\sin9x\\) ger \\(y^{\\prime\\prime}=-81y\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva sinus med argumentet 3x</p>\\[y^{\\prime}=3\\cos(3x)\\]\\[y^{\\prime\\prime}=-9\\sin(3x)=-9y\\]<p>Detta förslag stämmer.</p></li><li><p class=\"facit-rubrik\">Pröva cosinus med argumentet 3x</p>\\[y^{\\prime}=-3\\sin(3x)\\]\\[y^{\\prime\\prime}=-9\\cos(3x)=-9y\\]<p>Även detta förslag stämmer.</p></li><li><p class=\"facit-rubrik\">Pröva exponentialfunktionen</p>\\[y^{\\prime}=3e^{3x},\\qquad y^{\\prime\\prime}=9e^{3x}\\]<p>Det ger 9y, med fel tecken.</p></li><li><p class=\"facit-rubrik\">Pröva sinus med argumentet 9x</p>\\[y^{\\prime}=9\\cos(9x)\\]\\[y^{\\prime\\prime}=-81\\sin(9x)=-81y\\]<p>Här blir faktorn −81, inte −9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=\\sin(3x)\\) och \\(y=\\cos(3x)\\).</p></div>",
   "familj": "Pröva lösningar med grafer och flerval",
   "formaga": [
     "procedur"
@@ -52451,7 +52421,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Derivera två gånger och jämför med −9y.</p>",
+  "ledtrad": "<p>Derivera varje förslag två gånger. Kontrollera både tecknet och faktorn framför den ursprungliga funktionen.</p>",
   "svarstyp": "alternativ",
   "rättSvar": null,
   "tolerans": null,
@@ -52486,7 +52456,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "konstant ur begynnelsevillkor",
   "t": "<p>Alla funktioner \\(y=Ce^{2x}-1\\) löser \\(y^{\\prime}=2y+2\\). Bestäm \\(C\\) så att \\(y(0)=3\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Kontroll: \\(y^{\\prime}=2Ce^{2x}\\) och \\(2y+2=2Ce^{2x}-2+2=2Ce^{2x}\\). Det stämmer för alla \\(C\\).</p><p>\\(y(0)=C-1=3\\) ger \\(C=4\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd startvillkoret</p>\\[y(0)=Ce^0-1=C-1\\]\\[C-1=3\\quad\\Rightarrow\\quad C=4\\]</li><li><p class=\"facit-rubrik\">Kontrollera startvärdet</p>\\[4e^0-1=4-1=3\\]<p>Det är redan givet att familjen löser differentialekvationen. Det som återstod var att välja rätt C.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C=4\\).</p></div>",
   "familj": "Pröva lösningar med grafer och flerval",
   "formaga": [
     "procedur"
@@ -52497,7 +52467,7 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Sätt in x = 0 i lösningen.</p>",
+  "ledtrad": "<p>Vad blir exponentialfaktorn vid x=0? Använd sedan det givna startvärdet.</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 4,
   "tolerans": 0,
@@ -52508,15 +52478,12 @@ window.BANKMATF1 = [
   "kap": 4,
   "omr": "verifiering",
   "niva": "E",
-  "poang": "1/0/0",
+  "poang": "2/0/0",
   "typ": "exponent så att e^(kx) blir en lösning",
   "t": "<p>Bestäm alla värden på \\(k\\) så att \\(y=e^{kx}\\) löser \\(y^{\\prime\\prime}-y^{\\prime}-6y=0\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>\\(y^{\\prime}=ke^{kx}\\) och \\(y^{\\prime\\prime}=k^2e^{kx}\\). Insättning: \\((k^2-k-6)e^{kx}=0\\).</p><p>Eftersom \\(e^{kx}\\ne0\\) måste \\(k^2-k-6=0\\), alltså \\((k-3)(k+2)=0\\): \\(k=3\\) eller \\(k=-2\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna derivatorna</p>\\[y^{\\prime}=ke^{kx},\\qquad y^{\\prime\\prime}=k^2e^{kx}\\]</li><li><p class=\"facit-rubrik\">Sätt in och bryt ut exponentialfaktorn</p>\\[y^{\\prime\\prime}-y^{\\prime}-6y\\]\\[=k^2e^{kx}-ke^{kx}-6e^{kx}\\]\\[=(k^2-k-6)e^{kx}\\]</li><li><p class=\"facit-rubrik\">Lös ekvationen för k</p><p>Eftersom eᵏˣ aldrig är noll måste</p>\\[k^2-k-6=0\\]\\[(k-3)(k+2)=0\\]</li><li><p class=\"facit-rubrik\">Kontrollera båda värdena</p>\\[3^2-3-6=0\\]\\[(-2)^2-(-2)-6=0\\]<p>Båda värdena ger noll för alla x i den ursprungliga differentialekvationen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=-2\\) eller \\(k=3\\).</p></div>",
   "familj": "Pröva lösningar med grafer och flerval",
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
+  "formaga": ["procedur", "begrepp"],
   "miniräknare": true,
   "geogebra": false,
   "spel": true,
@@ -52524,9 +52491,9 @@ window.BANKMATF1 = [
     true,
     true
   ],
-  "traningsniva": 3,
+  "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Sätt in y, y′ och y″ och bryt ut e^(kx).</p>",
+  "ledtrad": "<p>Derivera exponentialfunktionen två gånger. Faktorn eᵏˣ är aldrig noll, vilket gör att du kan förkorta den.</p>",
   "svarstyp": "flera_delar",
   "rättSvar": [
     -2,

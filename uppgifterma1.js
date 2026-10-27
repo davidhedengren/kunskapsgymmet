@@ -6580,7 +6580,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(6+3\\cdot4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6+3\\cdot4=6+12=18\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation görs före addition</p><div class=\"facit-matte\">\\[3\\cdot4=12\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 6</p><div class=\"facit-matte\">\\[6+12=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -6612,7 +6612,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(24-12\\div3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[24-12\\div3=24-4=20\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division görs före subtraktion</p><div class=\"facit-matte\">\\[12\\div3=4\\]</div></li><li><p class=\"facit-rubrik\">Dra bort kvoten från 24</p><div class=\"facit-matte\">\\[24-4=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -6644,7 +6644,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(5\\cdot(7-3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5(7-3)=5\\cdot4=20\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen räknas först</p><div class=\"facit-matte\">\\[7-3=4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med 5</p><div class=\"facit-matte\">\\[5\\cdot4=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -6676,7 +6676,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((18+6)\\div4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(18+6)\\div4=24\\div4=6\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen räknas först</p><div class=\"facit-matte\">\\[18+6=24\\]</div></li><li><p class=\"facit-rubrik\">Dela hela summan med 4</p><div class=\"facit-matte\">\\[24\\div4=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -6708,7 +6708,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(36\\div6+5\\cdot2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[36\\div6+5\\cdot2=6+10=16\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division och multiplikation görs före additionen</p><div class=\"facit-matte\">\\[36\\div6=6,\\qquad 5\\cdot2=10\\]</div></li><li><p class=\"facit-rubrik\">Addera de två resultaten</p><div class=\"facit-matte\">\\[6+10=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -6740,7 +6740,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(7+2\\cdot(9-4)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7+2(9-4)=7+2\\cdot5=17\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen räknas först</p><div class=\"facit-matte\">\\[9-4=5\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera 2 med parentesens värde</p><div class=\"facit-matte\">\\[2\\cdot5=10\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 7 sist</p><div class=\"facit-matte\">\\[7+10=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -6772,7 +6772,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((15-3)\\div2+4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(15-3)\\div2+4=12\\div2+4=10\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen räknas först</p><div class=\"facit-matte\">\\[15-3=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera med 2</p><div class=\"facit-matte\">\\[12\\div2=6\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 4 sist</p><div class=\"facit-matte\">\\[6+4=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -6804,7 +6804,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(30-4\\cdot(2+3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[30-4(2+3)=30-4\\cdot5=10\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen räknas först</p><div class=\"facit-matte\">\\[2+3=5\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera 4 med parentesens värde</p><div class=\"facit-matte\">\\[4\\cdot5=20\\]</div></li><li><p class=\"facit-rubrik\">Dra bort produkten från 30</p><div class=\"facit-matte\">\\[30-20=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -6836,7 +6836,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(8\\cdot3-18\\div6\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8\\cdot3-18\\div6=24-3=21\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation och division görs före subtraktionen</p><div class=\"facit-matte\">\\[8\\cdot3=24,\\qquad 18\\div6=3\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera</p><div class=\"facit-matte\">\\[24-3=21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -6868,7 +6868,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(4+(16-6)\\div5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4+(16-6)\\div5=4+10\\div5=6\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen räknas först</p><div class=\"facit-matte\">\\[16-6=10\\]</div></li><li><p class=\"facit-rubrik\">Bara parentesen divideras med 5</p><div class=\"facit-matte\">\\[10\\div5=2\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 4 sist</p><div class=\"facit-matte\">\\[4+2=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -6900,7 +6900,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Tre likadana paket kostar 12 kr styck. Du får sedan 8 kr rabatt på hela köpet. Vilket uttryck beskriver priset efter rabatten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\(3\\cdot12-8\\).</strong> Först beräknas priset för tre paket: 3 · 12. Rabatten 8 kr gäller hela köpet och dras bort en gång. Priset blir 36 − 8 = 28 kr.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tre paket kostar</p><div class=\"facit-matte\">\\[3\\cdot12=36\\text{ kr}\\]</div></li><li><p class=\"facit-rubrik\">Rabatten dras bort en gång från hela köpet</p><div class=\"facit-matte\">\\[3\\cdot12-8=36-8=28\\text{ kr}\\]</div></li><li><p class=\"facit-rubrik\">Parentesen i 3(12 − 8) vore fel</p><p>Då skulle rabatten dras från varje paket, alltså tre gånger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\cdot12-8\\)</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -6919,7 +6919,24 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med prioriteringsregler"
     ],
-    "alternativ": [{"txt": "\\(3(12-8)\\)", "ratt": false}, {"txt": "\\(3(12+8)\\)", "ratt": false}, {"txt": "\\(12-3\\cdot8\\)", "ratt": false}, {"txt": "\\(3\\cdot12-8\\)", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "\\(3(12-8)\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(3(12+8)\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(12-3\\cdot8\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(3\\cdot12-8\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "0.167",
@@ -6933,7 +6950,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket uttryck betyder ”addera 4 och 2 och dividera sedan 48 med summan”?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\(48\\div(4+2)\\).</strong> Det är hela summan 4 + 2 som ska vara divisor. Därför behövs parentesen i 48 ÷ (4 + 2). Värdet är 8.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">”Med summan” betyder att 4 + 2 är en enda divisor</p><p>Summan måste därför stå inom parentes.</p></li><li><p class=\"facit-rubrik\">Uttrycket och dess värde</p><div class=\"facit-matte\">\\[48\\div(4+2)=48\\div6=8\\]</div></li><li><p class=\"facit-rubrik\">Utan parentes blir det något annat</p><div class=\"facit-matte\">\\[48\\div4+2=12+2=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\div(4+2)\\)</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -6951,7 +6968,24 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna uttryck med parenteser"
     ],
-    "alternativ": [{"txt": "\\(48\\div4+2\\)", "ratt": false}, {"txt": "\\(48\\div(4+2)\\)", "ratt": true}, {"txt": "\\((48+4)\\div2\\)", "ratt": false}, {"txt": "\\(48+4\\div2\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(48\\div4+2\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(48\\div(4+2)\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\((48+4)\\div2\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(48+4\\div2\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "0.168",
@@ -6965,7 +6999,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Två elever beräknar 5 · (12 − 8) + 3 · 2. En börjar med 12 − 8 och en börjar med 3 · 2. Vilken bedömning är riktig?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: Båda starterna fungerar, eftersom delberäkningarna inte beror på varandra.</strong> Parentesen måste vara klar innan den multipliceras med 5. Produkten 3 · 2 är oberoende av den och kan räknas först eller senare. Båda vägarna ger 20 + 6 = 26.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De två delberäkningarna hänger inte ihop</p><p>Parentesen 12 − 8 behövs bara till produkten med 5. Produkten 3 · 2 beror inte på parentesen.</p></li><li><p class=\"facit-rubrik\">Båda ordningarna ger samma värde</p><div class=\"facit-matte\">\\[\\begin{gathered}5\\cdot(12-8)+3\\cdot2 =5\\cdot4+6\\\\=20+6 =26\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Båda starterna fungerar.</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -6984,7 +7018,24 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med prioriteringsregler"
     ],
-    "alternativ": [{"txt": "Båda starterna fungerar, eftersom delberäkningarna inte beror på varandra.", "ratt": true}, {"txt": "Bara första starten fungerar, eftersom ingen produkt får räknas före en parentes.", "ratt": false}, {"txt": "Bara andra starten fungerar, eftersom multiplikation alltid görs före subtraktion.", "ratt": false}, {"txt": "Ingen start fungerar, eftersom additionen mellan termerna måste göras först.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Båda starterna fungerar, eftersom delberäkningarna inte beror på varandra.",
+        "ratt": true
+      },
+      {
+        "txt": "Bara första starten fungerar, eftersom ingen produkt får räknas före en parentes.",
+        "ratt": false
+      },
+      {
+        "txt": "Bara andra starten fungerar, eftersom multiplikation alltid görs före subtraktion.",
+        "ratt": false
+      },
+      {
+        "txt": "Ingen start fungerar, eftersom additionen mellan termerna måste göras först.",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "0.169",
@@ -6998,7 +7049,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I uttrycket \\(60\\div5-2(3+1)\\) har en elev redan beräknat parentesen till 4. Vilket är uttryckets värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter parentesen återstår 60 ÷ 5 − 2 · 4.</p></li><li><p>Divisionen ger 12 och produkten 8.</p></li><li><p>Skillnaden är <strong>4</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in parentesens värde 4</p><div class=\"facit-matte\">\\[60\\div5-2\\cdot4\\]</div></li><li><p class=\"facit-rubrik\">Division och multiplikation görs före subtraktionen</p><div class=\"facit-matte\">\\[60\\div5=12,\\qquad 2\\cdot4=8\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera</p><div class=\"facit-matte\">\\[12-8=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -7030,7 +7081,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Sätt in exakt ett par parenteser i 12 − 6 ÷ 3 + 1. Behåll talens och operationernas ordning och låt parenteserna omsluta hela tal. Hur många olika värden kan uttrycket få? En parentes som inte ändrar värdet är tillåten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De placeringar som ger ett annat värde än originalet är:</p></li><li><p>(12 − 6) ÷ 3 + 1 = 3<br>12 − (6 ÷ 3 + 1) = 9<br>12 − 6 ÷ (3 + 1) = 10,5.</p></li><li><p>Parentes runt 6 ÷ 3, runt 12 − 6 ÷ 3, runt hela uttrycket eller runt ett enskilt tal ändrar inte originalvärdet 11.</p></li><li><p>Dessa tillsammans täcker alla sammanhängande grupper av hela tal.</p></li><li><p>De olika värdena är 3, 9, 10,5 och 11.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 4 värden.</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värdet utan parentes</p><div class=\"facit-matte\">\\[12-6\\div3+1=12-2+1=11\\]</div></li><li><p class=\"facit-rubrik\">Parenteser som ändrar värdet</p><div class=\"facit-matte\">\\[(12-6)\\div3+1=3\\]</div><div class=\"facit-matte\">\\[12-(6\\div3+1)=9\\]</div><div class=\"facit-matte\">\\[12-6\\div(3+1)=10{,}5\\]</div></li><li><p class=\"facit-rubrik\">Övriga placeringar ger 11</p><p>Parenteser runt 6 ÷ 3, runt 12 − 6 ÷ 3 eller runt hela uttrycket ändrar inte räkneordningen.</p></li><li><p class=\"facit-rubrik\">Räkna de olika värdena</p><p>Värdena är 3, 9, 10,5 och 11.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 olika värden.</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -7129,7 +7180,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Placera talen 1, 2, 3 och 4 i rutorna a, b, c och d, ett tal i varje ruta utan upprepning. Vilket är det största värdet av \\(a+b(c-d)\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För att maximera uttrycket vid ett givet a väljer vi c &gt; d och jämför de tre möjliga valen av b.</p></li><li><p>Största värdet för varje a blir:</p></li><li><p>a = 1: 1 + 3(4 − 2) = 7.<br>a = 2: 2 + 3(4 − 1) = 11.<br>a = 3: 3 + 2(4 − 1) = 9.<br>a = 4: 4 + 2(3 − 1) = 8.</p></li><li><p>Därmed är <strong>11</strong> störst.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Valet är a = 2, b = 3, c = 4 och</p><div class=\"facit-matte\">\\[d=1\\]</div></div></li><li><p>Att bara lägga det största talet som faktor b ger inte det största värdet.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorn b och skillnaden c − d ska bli stora</p><p>Men det största talet 4 kan bara användas en gång, så vi jämför olika val.</p></li><li><p class=\"facit-rubrik\">Bästa värdet för varje val av a</p><div class=\"facit-matte\">\\[a=1:\\ 1+3(4-2)=7\\]</div><div class=\"facit-matte\">\\[a=2:\\ 2+3(4-1)=11\\]</div><div class=\"facit-matte\">\\[a=3:\\ 3+2(4-1)=9\\]</div><div class=\"facit-matte\">\\[a=4:\\ 4+2(3-1)=8\\]</div></li><li><p class=\"facit-rubrik\">Välj det största</p><p>Det största värdet får man med a = 2, b = 3, c = 4 och d = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -7195,7 +7246,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((30-6)\\div3+2^3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(30-6)\\div3+2^3=24\\div3+8=16\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen och potensen räknas först</p><div class=\"facit-matte\">\\[30-6=24,\\qquad 2^3=8\\]</div></li><li><p class=\"facit-rubrik\">Dividera med 3</p><div class=\"facit-matte\">\\[24\\div3=8\\]</div></li><li><p class=\"facit-rubrik\">Addera</p><div class=\"facit-matte\">\\[8+8=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -9681,7 +9732,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(18-3\\cdot4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[18-3\\cdot4=18-12=6\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation görs före subtraktion</p><div class=\"facit-matte\">\\[3\\cdot4=12\\]</div></li><li><p class=\"facit-rubrik\">Dra bort produkten från 18</p><div class=\"facit-matte\">\\[18-12=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 6,
@@ -9713,7 +9764,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(42\\div7\\cdot3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[42\\div7\\cdot3=6\\cdot3=18\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division och multiplikation räknas från vänster</p><div class=\"facit-matte\">\\[42\\div7=6\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera sedan med 3</p><div class=\"facit-matte\">\\[6\\cdot3=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 18,
@@ -9745,7 +9796,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(20-7+4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[20-7+4=13+4=17\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addition och subtraktion räknas från vänster</p><div class=\"facit-matte\">\\[20-7=13\\]</div></li><li><p class=\"facit-rubrik\">Lägg sedan till 4</p><div class=\"facit-matte\">\\[13+4=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 17,
@@ -9777,7 +9828,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(2+3^2\\cdot2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2+3^2\\cdot2=2+9\\cdot2=20\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen räknas först</p><div class=\"facit-matte\">\\[3^2=9\\]</div></li><li><p class=\"facit-rubrik\">Sedan multiplikationen</p><div class=\"facit-matte\">\\[9\\cdot2=18\\]</div></li><li><p class=\"facit-rubrik\">Addera 2 sist</p><div class=\"facit-matte\">\\[2+18=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 20,
@@ -9809,7 +9860,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En elev skriver (14 − 6) · 3 + 2 = 8 · 5 = 40. Vilken beskrivning pekar ut det första felet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: Eleven räknar 3 + 2 först, trots att multiplikationen måste beräknas före additionen.</strong> Efter 14 − 6 = 8 ska uttrycket vara 8 · 3 + 2. Produkten är 24, och först därefter adderas 2. Rätt värde är 26.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Efter parentesen återstår 8 · 3 + 2</p><div class=\"facit-matte\">\\[14-6=8\\]</div></li><li><p class=\"facit-rubrik\">Multiplikationen ska göras före additionen</p><div class=\"facit-matte\">\\[8\\cdot3+2=24+2=26\\]</div></li><li><p class=\"facit-rubrik\">Elevens första fel</p><p>Eleven räknar 3 + 2 = 5 före multiplikationen och får därför 8 · 5 = 40.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Eleven räknar 3 + 2 först, trots att multiplikationen måste beräknas före additionen.</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "alternativ",
     "rättSvar": null,
@@ -9824,7 +9875,24 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med prioriteringsregler"
     ],
-    "alternativ": [{"txt": "Eleven räknar 14 − 6 först, trots att multiplikationen måste beräknas före parentesen.", "ratt": false}, {"txt": "Eleven räknar 8 · 5 sist, trots att multiplikationen måste beräknas före parentesen.", "ratt": false}, {"txt": "Eleven räknar 3 + 2 först, trots att multiplikationen måste beräknas före additionen.", "ratt": true}, {"txt": "Eleven räknar 14 − 6 först, trots att additionen måste beräknas före subtraktionen.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Eleven räknar 14 − 6 först, trots att multiplikationen måste beräknas före parentesen.",
+        "ratt": false
+      },
+      {
+        "txt": "Eleven räknar 8 · 5 sist, trots att multiplikationen måste beräknas före parentesen.",
+        "ratt": false
+      },
+      {
+        "txt": "Eleven räknar 3 + 2 först, trots att multiplikationen måste beräknas före additionen.",
+        "ratt": true
+      },
+      {
+        "txt": "Eleven räknar 14 − 6 först, trots att additionen måste beräknas före subtraktionen.",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "0.257",
@@ -9842,7 +9910,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken skrivning med divisionstecken har samma betydelse som \\(\\frac{18+6}{7-3}\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\((18+6)\\div(7-3)\\).</strong> Bråkstrecket grupperar både hela täljaren och hela nämnaren. Med divisionstecken måste båda grupperna få parenteser.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bråkstrecket grupperar hela täljaren och hela nämnaren</p><p>Täljaren är 18 + 6 och nämnaren 7 − 3.</p></li><li><p class=\"facit-rubrik\">Med divisionstecken behövs två parenteser</p><div class=\"facit-matte\">\\[(18+6)\\div(7-3)=24\\div4=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((18+6)\\div(7-3)\\)</p></div>",
     "familj": "Parenteser och räknetecken",
     "svarstyp": "alternativ",
     "rättSvar": null,
@@ -9856,7 +9924,24 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna uttryck med parenteser"
     ],
-    "alternativ": [{"txt": "\\(18+6\\div7-3\\)", "ratt": false}, {"txt": "\\((18+6)\\div(7-3)\\)", "ratt": true}, {"txt": "\\(18+6\\div(7-3)\\)", "ratt": false}, {"txt": "\\((18+6)\\div7-3\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(18+6\\div7-3\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\((18+6)\\div(7-3)\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(18+6\\div(7-3)\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\((18+6)\\div7-3\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "0.258",
@@ -9874,7 +9959,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(5+30\\div3\\cdot2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5+30\\div3\\cdot2=5+10\\cdot2=25\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division och multiplikation räknas från vänster</p><div class=\"facit-matte\">\\[30\\div3=10,\\qquad 10\\cdot2=20\\]</div></li><li><p class=\"facit-rubrik\">Addera 5 sist</p><div class=\"facit-matte\">\\[5+20=25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 25,
@@ -9906,7 +9991,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket uttryck betyder ”kvadrera summan av 6 och 4 och dividera resultatet med 20”?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\((6+4)^2\\div20\\).</strong> Hela summan 6 + 4 ska vara bas i potensen. Först därefter divideras kvadraten med 20. Värdet är 100 ÷ 20 = 5.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">”Kvadrera summan” betyder att hela summan är bas</p><div class=\"facit-matte\">\\[(6+4)^2=10^2=100\\]</div></li><li><p class=\"facit-rubrik\">Dividera sedan med 20</p><div class=\"facit-matte\">\\[100\\div20=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((6+4)^2\\div20\\)</p></div>",
     "familj": "Parenteser och räknetecken",
     "svarstyp": "alternativ",
     "rättSvar": null,
@@ -9920,7 +10005,24 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna uttryck med parenteser"
     ],
-    "alternativ": [{"txt": "\\((6+4\\div20)^2\\)", "ratt": false}, {"txt": "\\((6^2+4)\\div20\\)", "ratt": false}, {"txt": "\\(6+4^2\\div20\\)", "ratt": false}, {"txt": "\\((6+4)^2\\div20\\)", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "\\((6+4\\div20)^2\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\((6^2+4)\\div20\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(6+4^2\\div20\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\((6+4)^2\\div20\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "0.260",
@@ -9938,7 +10040,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(64\\div2^3+7\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[64\\div2^3+7=64\\div8+7=15\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen räknas först</p><div class=\"facit-matte\">\\[2^3=8\\]</div></li><li><p class=\"facit-rubrik\">Dividera 64 med potensens värde</p><div class=\"facit-matte\">\\[64\\div8=8\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 7</p><div class=\"facit-matte\">\\[8+7=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 15,
@@ -9970,7 +10072,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(3{,}5+1{,}5\\cdot4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3{,}5+1{,}5\\cdot4=3{,}5+6=9{,}5\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation görs före addition, även med decimaltal</p><div class=\"facit-matte\">\\[1{,}5\\cdot4=6\\]</div></li><li><p class=\"facit-rubrik\">Addera</p><div class=\"facit-matte\">\\[3{,}5+6=9{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9,5</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 9.5,
@@ -10002,7 +10104,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((8{,}4-2{,}4)\\div3+1\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(8{,}4-2{,}4)\\div3+1=6\\div3+1=3\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen räknas först</p><div class=\"facit-matte\">\\[8{,}4-2{,}4=6\\]</div></li><li><p class=\"facit-rubrik\">Dividera med 3</p><div class=\"facit-matte\">\\[6\\div3=2\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 1</p><div class=\"facit-matte\">\\[2+1=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
@@ -10034,7 +10136,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\frac{18+6}{7-3}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{18+6}{7-3}=\\frac{24}{4}=6\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna täljaren och nämnaren var för sig</p><div class=\"facit-matte\">\\[18+6=24,\\qquad 7-3=4\\]</div></li><li><p class=\"facit-rubrik\">Dividera</p><div class=\"facit-matte\">\\[\\frac{24}{4}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 6,
@@ -10066,7 +10168,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket uttryck får värdet 0?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\(20-(3+2)\\cdot4\\).</strong> I \\(20-(3+2)\\cdot4\\) blir parentesen 5 och produkten 20, så 20 − 20 = 0. \\((20-3+2)\\cdot4\\) ger 76, \\(20-3+2\\cdot4\\) ger 25 och \\(20-3+2-4\\) ger 15.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva det rätta uttrycket</p><div class=\"facit-matte\">\\[\\begin{gathered}20-(3+2)\\cdot4 =20-5\\cdot4\\\\=20-20 =0\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">De andra uttrycken blir inte 0</p><div class=\"facit-matte\">\\[\\begin{gathered}(20-3+2)\\cdot4=76,\\\\20-3+2\\cdot4=25,\\\\20-3+2-4=15\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20-(3+2)\\cdot4\\)</p></div>",
     "familj": "Parenteser och räknetecken",
     "svarstyp": "alternativ",
     "rättSvar": null,
@@ -10080,7 +10182,24 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna uttryck med parenteser"
     ],
-    "alternativ": [{"txt": "\\((20-3+2)\\cdot4\\)", "ratt": false}, {"txt": "\\(20-3+2\\cdot4\\)", "ratt": false}, {"txt": "\\(20-(3+2)\\cdot4\\)", "ratt": true}, {"txt": "\\(20-3+2-4\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\((20-3+2)\\cdot4\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(20-3+2\\cdot4\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(20-(3+2)\\cdot4\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(20-3+2-4\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "0.265",
@@ -10098,7 +10217,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(2\\cdot\\bigl(3+(8-5)\\bigr)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8-5=3\\]</div></li><li><div class=\"facit-matte\">\\[3+3=6\\]</div></li><li><div class=\"facit-matte\">\\[2\\cdot6=12\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Börja med den innersta parentesen</p><div class=\"facit-matte\">\\[8-5=3\\]</div></li><li><p class=\"facit-rubrik\">Räkna sedan den yttre parentesen</p><div class=\"facit-matte\">\\[3+3=6\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med 2</p><div class=\"facit-matte\">\\[2\\cdot6=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 12,
@@ -10130,7 +10249,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(36\\div\\bigl(2\\cdot(3+3)\\bigr)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3+3=6\\]</div></li><li><div class=\"facit-matte\">\\[2\\cdot6=12\\]</div></li><li><div class=\"facit-matte\">\\[36\\div12=3\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Börja med den innersta parentesen</p><div class=\"facit-matte\">\\[3+3=6\\]</div></li><li><p class=\"facit-rubrik\">Räkna sedan den yttre parentesen</p><div class=\"facit-matte\">\\[2\\cdot6=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera 36 med hela den yttre parentesen</p><div class=\"facit-matte\">\\[36\\div12=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
@@ -10162,7 +10281,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket uttryck har störst värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\((6+2)\\cdot5\\).</strong> \\(6+2\\cdot5\\) ger 6 + 10 = 16. \\((6+2)\\cdot5\\) ger 8 · 5 = 40. I \\((6+2)\\cdot5\\) multipliceras även 6 med 5.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I första uttrycket multipliceras bara 2 med 5</p><div class=\"facit-matte\">\\[6+2\\cdot5=6+10=16\\]</div></li><li><p class=\"facit-rubrik\">I andra uttrycket multipliceras hela summan</p><div class=\"facit-matte\">\\[(6+2)\\cdot5=8\\cdot5=40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((6+2)\\cdot5\\)</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "alternativ",
     "rättSvar": null,
@@ -10176,7 +10295,16 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med prioriteringsregler"
     ],
-    "alternativ": [{"txt": "\\(6+2\\cdot5\\)", "ratt": false}, {"txt": "\\((6+2)\\cdot5\\)", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "\\(6+2\\cdot5\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\((6+2)\\cdot5\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "0.268",
@@ -10194,7 +10322,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken del ska beräknas först i \\(14-2\\cdot3^2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\(3^2\\).</strong> Potensen 3² har högre prioritet än multiplikationen. Hela uttrycket får sedan värdet 14 − 2 · 9 = −4.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potenser räknas före multiplikation</p><p>Potensen \\(3^2\\) gäller bara trean och räknas först.</p></li><li><p class=\"facit-rubrik\">Hela uttrycket</p><div class=\"facit-matte\">\\[14-2\\cdot3^2=14-2\\cdot9=14-18=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3^2\\)</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "alternativ",
     "rättSvar": null,
@@ -10208,7 +10336,20 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med prioriteringsregler"
     ],
-    "alternativ": [{"txt": "\\(3^2\\)", "ratt": true}, {"txt": "\\(2\\cdot3\\)", "ratt": false}, {"txt": "\\(14-2\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(3^2\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(2\\cdot3\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(14-2\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "0.269",
@@ -10226,7 +10367,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En elev räknar \\(12-4\\cdot2=(12-4)\\cdot2=16\\). Vilket fel gör eleven?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: Eleven gör subtraktionen före multiplikationen utan stöd av en parentes.</strong> Den första likheten är fel: eleven har lagt till en parentes som ändrar värdet. Ursprungligen ska multiplikationen göras först: 12 − 8 = 4.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den riktiga räkneordningen</p><div class=\"facit-matte\">\\[12-4\\cdot2=12-8=4\\]</div></li><li><p class=\"facit-rubrik\">Elevens parentes ändrar uttrycket</p><div class=\"facit-matte\">\\[(12-4)\\cdot2=8\\cdot2=16\\]</div><p>Eleven räknar subtraktionen först, men det finns ingen parentes i uppgiften som säger det.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Eleven gör subtraktionen före multiplikationen utan stöd av en parentes.</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "alternativ",
     "rättSvar": null,
@@ -10241,7 +10382,20 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med prioriteringsregler"
     ],
-    "alternativ": [{"txt": "Eleven gör subtraktionen före multiplikationen utan stöd av en parentes.", "ratt": true}, {"txt": "Eleven gör multiplikationen före subtraktionen utan stöd av en parentes.", "ratt": false}, {"txt": "Eleven gör om faktorn 4 till −4 utan stöd av ett minustecken.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Eleven gör subtraktionen före multiplikationen utan stöd av en parentes.",
+        "ratt": true
+      },
+      {
+        "txt": "Eleven gör multiplikationen före subtraktionen utan stöd av en parentes.",
+        "ratt": false
+      },
+      {
+        "txt": "Eleven gör om faktorn 4 till −4 utan stöd av ett minustecken.",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "0.270",
@@ -10259,7 +10413,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken parentesplacering gör att värdet blir 16?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\((3+5)\\cdot2\\).</strong> \\((3+5)\\cdot2\\) ger 8 · 2 = 16. \\(3+(5\\cdot2)\\) och \\((3+5\\cdot2)\\) ger båda 3 + 10 = 13; deras parenteser ändrar inte den ursprungliga räkneordningen.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värdet utan parentes</p><div class=\"facit-matte\">\\[3+5\\cdot2=3+10=13\\]</div></li><li><p class=\"facit-rubrik\">Summan måste räknas före multiplikationen</p><div class=\"facit-matte\">\\[(3+5)\\cdot2=8\\cdot2=16\\]</div></li><li><p class=\"facit-rubrik\">De andra parenteserna ändrar inget</p><p>\\(3+(5\\cdot2)\\) och \\((3+5\\cdot2)\\) ger fortfarande 13.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((3+5)\\cdot2\\)</p></div>",
     "familj": "Parenteser och räknetecken",
     "svarstyp": "alternativ",
     "rättSvar": null,
@@ -10273,7 +10427,20 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna uttryck med parenteser"
     ],
-    "alternativ": [{"txt": "\\((3+5)\\cdot2\\)", "ratt": true}, {"txt": "\\(3+(5\\cdot2)\\)", "ratt": false}, {"txt": "\\((3+5\\cdot2)\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\((3+5)\\cdot2\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(3+(5\\cdot2)\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\((3+5\\cdot2)\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "0.271",
@@ -10291,7 +10458,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket tal ska stå i rutan för att likheten ska stämma?</p><p>\\[4+\\square\\cdot3=19\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4+\\square\\cdot3=19\\Rightarrow\\square\\cdot3=15\\Rightarrow\\square=5\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Produkten måste vara det som saknas till 19</p><div class=\"facit-matte\">\\[\\square\\cdot3=19-4=15\\]</div></li><li><p class=\"facit-rubrik\">Vilket tal gånger 3 blir 15?</p><div class=\"facit-matte\">\\[\\square=15\\div3=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll</p><div class=\"facit-matte\">\\[4+5\\cdot3=4+15=19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 5,
@@ -10324,7 +10491,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket tal ska stå i rutan?</p><p>\\[(\\square+2)\\cdot4=28\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(\\square+2)\\cdot4=28\\Rightarrow\\square+2=7\\Rightarrow\\square=5\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Upphäv multiplikationen med 4</p><div class=\"facit-matte\">\\[\\square+2=28\\div4=7\\]</div></li><li><p class=\"facit-rubrik\">Upphäv additionen med 2</p><div class=\"facit-matte\">\\[\\square=7-2=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll</p><div class=\"facit-matte\">\\[(5+2)\\cdot4=7\\cdot4=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 5,
@@ -10357,7 +10524,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(50-18\\div3+2^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[50-18\\div3+2^2=50-6+4=48\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division och potens räknas först</p><div class=\"facit-matte\">\\[18\\div3=6,\\qquad 2^2=4\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[50-6+4=44+4=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 48</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 48,
@@ -10455,7 +10622,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((20-8)\\div2^2+5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(20-8)\\div2^2+5=12\\div4+5=8\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen och potensen räknas först</p><div class=\"facit-matte\">\\[20-8=12,\\qquad 2^2=4\\]</div></li><li><p class=\"facit-rubrik\">Dividera</p><div class=\"facit-matte\">\\[12\\div4=3\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 5</p><div class=\"facit-matte\">\\[3+5=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 8,
@@ -10520,7 +10687,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Starta med 6, addera 4, multiplicera resultatet med 3 och subtrahera till sist 5. Vilket uttryck beskriver beräkningen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\((6+4)\\cdot3-5\\).</strong> Orden ”multiplicera resultatet” betyder att hela summan 6 + 4 multipliceras med 3. Därefter dras 5 bort. Värdet är 25.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">”Multiplicera resultatet” betyder hela summan</p><p>Summan 6 + 4 måste stå inom parentes innan den multipliceras med 3.</p></li><li><p class=\"facit-rubrik\">Uttrycket och dess värde</p><div class=\"facit-matte\">\\[\\begin{gathered}(6+4)\\cdot3-5 =10\\cdot3-5 =30-5\\\\=25\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((6+4)\\cdot3-5\\)</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "alternativ",
     "rättSvar": null,
@@ -10534,7 +10701,24 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med prioriteringsregler"
     ],
-    "alternativ": [{"txt": "\\(6+4\\cdot3-5\\)", "ratt": false}, {"txt": "\\((6+4)(3-5)\\)", "ratt": false}, {"txt": "\\(6+4(3-5)\\)", "ratt": false}, {"txt": "\\((6+4)\\cdot3-5\\)", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "\\(6+4\\cdot3-5\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\((6+4)(3-5)\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(6+4(3-5)\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\((6+4)\\cdot3-5\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "0.279",
@@ -10552,7 +10736,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket uttryck betyder ”subtrahera 2 från 5 och kvadrera sedan resultatet”?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\((5-2)^2\\).</strong> Hela skillnaden 5 − 2 ska upphöjas till 2. Den behöver därför stå inom parentes. Värdet är 3² = 9.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hela skillnaden ska kvadreras</p><p>Därför behöver 5 − 2 stå inom parentes.</p></li><li><p class=\"facit-rubrik\">Uttrycket och dess värde</p><div class=\"facit-matte\">\\[(5-2)^2=3^2=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((5-2)^2\\)</p></div>",
     "familj": "Parenteser och räknetecken",
     "svarstyp": "alternativ",
     "rättSvar": null,
@@ -10566,7 +10750,20 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna uttryck med parenteser"
     ],
-    "alternativ": [{"txt": "\\(5-2^2\\)", "ratt": false}, {"txt": "\\((5-2)^2\\)", "ratt": true}, {"txt": "\\(5^2-2\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(5-2^2\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\((5-2)^2\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(5^2-2\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "0.280",
@@ -10584,7 +10781,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket uttryck har störst värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\(24\\div6\\cdot2\\).</strong> I \\(24\\div6\\cdot2\\) räknas division och multiplikation från vänster: 24 ÷ 6 · 2 = 8. I \\(24\\div(6\\cdot2)\\) är hela produkten divisor: 24 ÷ 12 = 2.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan parentes räknas från vänster</p><div class=\"facit-matte\">\\[24\\div6\\cdot2=4\\cdot2=8\\]</div></li><li><p class=\"facit-rubrik\">Med parentes är hela produkten divisor</p><div class=\"facit-matte\">\\[24\\div(6\\cdot2)=24\\div12=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\div6\\cdot2\\)</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "alternativ",
     "rättSvar": null,
@@ -10598,7 +10795,16 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med prioriteringsregler"
     ],
-    "alternativ": [{"txt": "\\(24\\div6\\cdot2\\)", "ratt": true}, {"txt": "\\(24\\div(6\\cdot2)\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(24\\div6\\cdot2\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(24\\div(6\\cdot2)\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "0.281",
@@ -10616,7 +10822,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I vilken ordning ska räkneoperationerna utföras i \\(3+2\\cdot(7-4)^2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: parentes → potens → multiplikation → addition.</strong> Parentesens värde 3 är bas för potensen 3² = 9. Sedan räknas 2 · 9 = 18 och sist 3 + 18 = 21.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först</p><div class=\"facit-matte\">\\[7-4=3\\]</div></li><li><p class=\"facit-rubrik\">Sedan potensen</p><div class=\"facit-matte\">\\[3^2=9\\]</div></li><li><p class=\"facit-rubrik\">Sedan multiplikationen</p><div class=\"facit-matte\">\\[2\\cdot9=18\\]</div></li><li><p class=\"facit-rubrik\">Additionen sist</p><div class=\"facit-matte\">\\[3+18=21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> parentes → potens → multiplikation → addition</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "alternativ",
     "rättSvar": null,
@@ -10630,7 +10836,20 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med prioriteringsregler"
     ],
-    "alternativ": [{"txt": "multiplikation → parentes → potens → addition", "ratt": false}, {"txt": "potens → parentes → addition → multiplikation", "ratt": false}, {"txt": "parentes → potens → multiplikation → addition", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "multiplikation → parentes → potens → addition",
+        "ratt": false
+      },
+      {
+        "txt": "potens → parentes → addition → multiplikation",
+        "ratt": false
+      },
+      {
+        "txt": "parentes → potens → multiplikation → addition",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "0.282",
@@ -10648,7 +10867,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(3\\cdot\\bigl(8-2\\cdot(5-3)\\bigr)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5-3=2\\]</div></li><li><div class=\"facit-matte\">\\[8-2\\cdot2=8-4=4\\]</div></li><li><div class=\"facit-matte\">\\[3\\cdot4=12\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Börja med den innersta parentesen</p><div class=\"facit-matte\">\\[5-3=2\\]</div></li><li><p class=\"facit-rubrik\">I den yttre parentesen görs multiplikationen före subtraktionen</p><div class=\"facit-matte\">\\[8-2\\cdot2=8-4=4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med 3</p><div class=\"facit-matte\">\\[3\\cdot4=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
     "familj": "Parenteser och räknetecken",
     "svarstyp": "numeriskt",
     "rättSvar": 12,
@@ -10680,7 +10899,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\frac{24-(6+2)}{4}+3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{24-(6+2)}{4}+3=\\frac{16}{4}+3=7\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen i täljaren räknas först</p><div class=\"facit-matte\">\\[6+2=8\\]</div></li><li><p class=\"facit-rubrik\">Räkna hela täljaren</p><div class=\"facit-matte\">\\[24-8=16\\]</div></li><li><p class=\"facit-rubrik\">Dividera med 4 och lägg till 3</p><div class=\"facit-matte\">\\[\\frac{16}{4}+3=4+3=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
     "familj": "Parenteser och räknetecken",
     "svarstyp": "numeriskt",
     "rättSvar": 7,
@@ -10712,7 +10931,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(2^3(7-4)-5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2^3(7-4)-5=8\\cdot3-5=19\\]</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen och parentesen räknas först</p><div class=\"facit-matte\">\\[2^3=8,\\qquad 7-4=3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera</p><div class=\"facit-matte\">\\[8\\cdot3=24\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 5</p><div class=\"facit-matte\">\\[24-5=19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19</p></div>",
     "familj": "Parenteser och räknetecken",
     "svarstyp": "numeriskt",
     "rättSvar": 19,
@@ -10810,7 +11029,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken omskrivning av 60 ÷ 3 · 5 bevarar värdet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\((60\\div3)\\cdot5\\).</strong> Division och multiplikation har samma prioritet. Från vänster blir det (60 ÷ 3) · 5 = 100. \\(60\\div(3\\cdot5)\\) ger 4, \\((60\\cdot3)\\div5\\) ger 36 och \\(60\\div(3+5)\\) ger 7,5.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division och multiplikation har samma prioritet</p><p>De räknas från vänster, så divisionen kommer först.</p></li><li><p class=\"facit-rubrik\">Värdet</p><div class=\"facit-matte\">\\[(60\\div3)\\cdot5=20\\cdot5=100\\]</div></li><li><p class=\"facit-rubrik\">De andra omskrivningarna ger andra värden</p><div class=\"facit-matte\">\\[\\begin{gathered}60\\div(3\\cdot5)=4,\\quad (60\\cdot3)\\div5=36,\\\\60\\div(3+5)=7{,}5\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((60\\div3)\\cdot5\\)</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "alternativ",
     "rättSvar": null,
@@ -10824,7 +11043,24 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med prioriteringsregler"
     ],
-    "alternativ": [{"txt": "\\(60\\div(3\\cdot5)\\)", "ratt": false}, {"txt": "\\((60\\div3)\\cdot5\\)", "ratt": true}, {"txt": "\\((60\\cdot3)\\div5\\)", "ratt": false}, {"txt": "\\(60\\div(3+5)\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(60\\div(3\\cdot5)\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\((60\\div3)\\cdot5\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\((60\\cdot3)\\div5\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(60\\div(3+5)\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "0.288",
@@ -10908,7 +11144,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((4{,}8+1{,}2)\\div(0{,}5\\cdot3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Täljaren är 6 och divisorn är 1,5.</p></li><li><p>Eftersom 1,5 · 4 = 6 är kvoten <strong>4</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna de två parenteserna var för sig</p><div class=\"facit-matte\">\\[4{,}8+1{,}2=6,\\qquad 0{,}5\\cdot3=1{,}5\\]</div></li><li><p class=\"facit-rubrik\">Dividera</p><div class=\"facit-matte\">\\[6\\div1{,}5=4\\]</div><p>Kontroll: 1,5 · 4 = 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 4,
@@ -20296,7 +20532,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(4+3\\cdot5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Multiplikation först: 3 · 5 = 15, sedan</p><div class=\"facit-matte\">\\[4+15=19\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>19</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation görs före addition</p><div class=\"facit-matte\">\\[3\\cdot5=15\\]</div></li><li><p class=\"facit-rubrik\">Addera 4</p><div class=\"facit-matte\">\\[4+15=19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -20328,7 +20564,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((4+3)\\cdot5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Parentesen först: 4 + 3 = 7, sedan</p><div class=\"facit-matte\">\\[7\\cdot 5=35\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>35</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen räknas först</p><div class=\"facit-matte\">\\[4+3=7\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med 5</p><div class=\"facit-matte\">\\[7\\cdot5=35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 35</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -20360,7 +20596,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(20-12/4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Division först: 12/4 = 3, sedan</p><div class=\"facit-matte\">\\[20-3=17\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>17</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division görs före subtraktion</p><div class=\"facit-matte\">\\[12/4=3\\]</div></li><li><p class=\"facit-rubrik\">Dra bort kvoten från 20</p><div class=\"facit-matte\">\\[20-3=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -20392,7 +20628,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(2\\cdot3^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Potensen först: 3² = 9, sedan</p><div class=\"facit-matte\">\\[2\\cdot 9=18\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>18</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen gäller bara trean och räknas först</p><div class=\"facit-matte\">\\[3^2=9\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med 2</p><div class=\"facit-matte\">\\[2\\cdot9=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -20424,7 +20660,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((2\\cdot3)^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Parentesen först: 2 · 3 = 6, sedan</p><div class=\"facit-matte\">\\[6^{2}=36\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>36</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen räknas först</p><div class=\"facit-matte\">\\[2\\cdot3=6\\]</div></li><li><p class=\"facit-rubrik\">Kvadrera hela parentesens värde</p><div class=\"facit-matte\">\\[6^2=36\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 36</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -20456,7 +20692,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(18-2\\cdot(7-3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Parentesen:</p><div class=\"facit-matte\">\\[7-3=4\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Multiplikationen:</p><div class=\"facit-matte\">\\[2\\cdot 4=8\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Sist</p><div class=\"facit-matte\">\\[18-8=10\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>10</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen räknas först</p><div class=\"facit-matte\">\\[7-3=4\\]</div></li><li><p class=\"facit-rubrik\">Sedan multiplikationen</p><div class=\"facit-matte\">\\[2\\cdot4=8\\]</div></li><li><p class=\"facit-rubrik\">Subtraktionen sist</p><div class=\"facit-matte\">\\[18-8=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -133119,7 +133355,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En biobiljett kostar 110 kr för vuxna och 75 kr för barn. Hur mycket betalar en familj med två vuxna och tre barn?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[2\\cdot110+3\\cdot75=220+225=445\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 445 kr</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De vuxnas biljetter</p><div class=\"facit-matte\">\\[2\\cdot110=220\\text{ kr}\\]</div></li><li><p class=\"facit-rubrik\">Barnens biljetter</p><div class=\"facit-matte\">\\[3\\cdot75=225\\text{ kr}\\]</div></li><li><p class=\"facit-rubrik\">Lägg ihop</p><div class=\"facit-matte\">\\[220+225=445\\text{ kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 445 kr</p></div>",
     "familj": "Räknelagar och uttryck i vardagen",
     "geogebra": false,
     "miniräknare": true,
@@ -133153,7 +133389,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(48-16\\div4+2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Divisionen görs först:</p><div class=\"facit-matte\">\\[16\\div4=4\\].</div></div></li><li><p>Sedan räknar man från vänster till höger:</p></li><li><p>\\[48-4+2=46\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 46</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division görs före addition och subtraktion</p><div class=\"facit-matte\">\\[16\\div4=4\\]</div></li><li><p class=\"facit-rubrik\">Räkna sedan från vänster</p><div class=\"facit-matte\">\\[48-4+2=44+2=46\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 46</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -133185,7 +133421,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(5\\cdot4-3\\cdot6\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda multiplikationerna görs först:</p></li><li><p>\\[5\\cdot4-3\\cdot6=20-18=2\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Båda produkterna räknas före subtraktionen</p><div class=\"facit-matte\">\\[5\\cdot4=20,\\qquad 3\\cdot6=18\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera</p><div class=\"facit-matte\">\\[20-18=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -133217,7 +133453,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken beräkning ska göras först i \\(12+18\\div3\\cdot2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Division och multiplikation görs före addition.</p></li><li><div class=\"facit-berakning\"><p>Division och multiplikation har samma prioritet och görs från vänster till höger, så först beräknas</p><div class=\"facit-matte\">\\[18\\div3=6\\].</div></div></li><li><p>\\[12+18\\div3\\cdot2=12+6\\cdot2=12+12=24\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\div3\\)</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division och multiplikation görs före addition</p><p>Additionen 12 + … får vänta.</p></li><li><p class=\"facit-rubrik\">Samma prioritet: räkna från vänster</p><p>Divisionen \\(18\\div3\\) står längst till vänster av de två.</p><div class=\"facit-matte\">\\[\\begin{gathered}12+18\\div3\\cdot2 =12+6\\cdot2 =12+12\\\\=24\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\div3\\)</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -133235,7 +133471,24 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med prioriteringsregler"
     ],
-    "alternativ": [{"txt": "\\(12+18\\)", "ratt": false}, {"txt": "\\(3\\cdot2\\)", "ratt": false}, {"txt": "\\(18\\div3\\)", "ratt": true}, {"txt": "\\(12+18\\div3\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(12+18\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(3\\cdot2\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(18\\div3\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(12+18\\div3\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "0.846",
@@ -133249,7 +133502,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ella köper fyra glassar för 18 kr styck och betalar med en hundralapp. Hur mycket får hon tillbaka?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[100-4\\cdot18=100-72=28\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28 kr</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Glassarna kostar tillsammans</p><div class=\"facit-matte\">\\[4\\cdot18=72\\text{ kr}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort från hundralappen</p><div class=\"facit-matte\">\\[100-72=28\\text{ kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28 kr</p></div>",
     "familj": "Räknelagar och uttryck i vardagen",
     "geogebra": false,
     "miniräknare": true,
@@ -133283,7 +133536,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(3\\cdot2^3-4^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Potenserna beräknas först: \\(2^3=8\\) och \\(4^2=16\\).</p></li><li><p>\\[3\\cdot8-16=24-16=8\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potenserna räknas först</p><div class=\"facit-matte\">\\[2^3=8,\\qquad 4^2=16\\]</div></li><li><p class=\"facit-rubrik\">Sedan multiplikationen</p><div class=\"facit-matte\">\\[3\\cdot8=24\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera</p><div class=\"facit-matte\">\\[24-16=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -133315,7 +133568,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\dfrac{7\\cdot8-6}{5}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett bråkstreck fungerar som en parentes runt täljaren.</p></li><li><p>Täljaren beräknas först:</p></li><li><p>\\[\\frac{7\\cdot8-6}{5}=\\frac{56-6}{5}=\\frac{50}{5}=10\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bråkstrecket gör att hela täljaren räknas först</p><div class=\"facit-matte\">\\[7\\cdot8-6=56-6=50\\]</div></li><li><p class=\"facit-rubrik\">Dividera med nämnaren</p><div class=\"facit-matte\">\\[\\frac{50}{5}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -133347,7 +133600,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(100\\div(4\\cdot5)\\cdot3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Parentesen först:</p><div class=\"facit-matte\">\\[4\\cdot5=20\\].</div></div></li><li><p>Sedan från vänster till höger:</p></li><li><p>\\[100\\div20\\cdot3=5\\cdot3=15\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen räknas först</p><div class=\"facit-matte\">\\[4\\cdot5=20\\]</div></li><li><p class=\"facit-rubrik\">Division och multiplikation från vänster</p><div class=\"facit-matte\">\\[100\\div20=5,\\qquad 5\\cdot3=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -133379,7 +133632,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket uttryck ger det totala antalet hjul på 7 cyklar och 3 trehjulingar?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cyklarna har \\(7\\cdot2\\) hjul och trehjulingarna \\(3\\cdot3\\) hjul.</p></li><li><p>Tillsammans:</p></li><li><p>\\[7\\cdot2+3\\cdot3=14+9=23\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\cdot2+3\\cdot3\\)</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hjulen på cyklarna</p><div class=\"facit-matte\">\\[7\\cdot2=14\\]</div></li><li><p class=\"facit-rubrik\">Hjulen på trehjulingarna</p><div class=\"facit-matte\">\\[3\\cdot3=9\\]</div></li><li><p class=\"facit-rubrik\">Lägg ihop de två produkterna</p><div class=\"facit-matte\">\\[7\\cdot2+3\\cdot3=14+9=23\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\cdot2+3\\cdot3\\)</p></div>",
     "familj": "Räknelagar och uttryck i vardagen",
     "geogebra": false,
     "miniräknare": true,
@@ -133398,7 +133651,24 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Teckna och beräkna uttryck i vardagen"
     ],
-    "alternativ": [{"txt": "\\((7+3)\\cdot2\\cdot3\\)", "ratt": false}, {"txt": "\\((7+3)\\cdot(2+3)\\)", "ratt": false}, {"txt": "\\(7+3\\cdot2+3\\)", "ratt": false}, {"txt": "\\(7\\cdot2+3\\cdot3\\)", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "\\((7+3)\\cdot2\\cdot3\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\((7+3)\\cdot(2+3)\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(7+3\\cdot2+3\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(7\\cdot2+3\\cdot3\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "0.851",
@@ -133412,7 +133682,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En elev räknar så här:</p><p>\\[36\\div4\\cdot3=36\\div12=3\\]</p><p>Vilket värde har uttrycket egentligen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Division och multiplikation har samma prioritet och görs från vänster till höger.</p></li><li><p>Eleven har multiplicerat först, vilket är fel.</p></li><li><p>\\[36\\div4\\cdot3=9\\cdot3=27\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 27</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division och multiplikation har samma prioritet</p><p>De räknas från vänster. Eleven multiplicerade först, och det är fel.</p></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[36\\div4\\cdot3=9\\cdot3=27\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 27</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -133445,7 +133715,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett gym kostar 299 kr i månaden. Ett årskort kostar 2 990 kr. Hur många kronor sparar man på ett år med årskort i stället för månadsbetalning?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[12\\cdot299-2\\,990=3\\,588-2\\,990=598\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 598 kr</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tolv månader med månadsbetalning</p><div class=\"facit-matte\">\\[12\\cdot299=3\\,588\\text{ kr}\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden mot årskortet</p><div class=\"facit-matte\">\\[3\\,588-2\\,990=598\\text{ kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 598 kr</p></div>",
     "familj": "Räknelagar och uttryck i vardagen",
     "geogebra": false,
     "miniräknare": true,
@@ -133479,7 +133749,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En idrottshall kostar 350 kr per timme att hyra, plus en fast avgift på 200 kr. En klubb hyr hallen i 3 timmar och delar kostnaden lika mellan 25 medlemmar. Hur mycket betalar varje medlem?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den totala kostnaden delas med antalet medlemmar.</p></li><li><p>Uttrycket blir</p></li><li><p>\\[\\frac{200+3\\cdot350}{25}=\\frac{200+1\\,050}{25}=\\frac{1\\,250}{25}=50\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 kr</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hela hyran är den fasta avgiften plus tre timmar</p><div class=\"facit-matte\">\\[200+3\\cdot350=200+1\\,050=1\\,250\\text{ kr}\\]</div></li><li><p class=\"facit-rubrik\">Hela kostnaden delas lika på 25 medlemmar</p><div class=\"facit-matte\">\\[\\frac{1\\,250}{25}=50\\text{ kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 kr</p></div>",
     "familj": "Räknelagar och uttryck i vardagen",
     "geogebra": false,
     "miniräknare": true,
@@ -133513,7 +133783,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(2\\cdot(3+4)^2-5\\cdot(8-2\\cdot3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Parenteserna först: \\(3+4=7\\) och \\(8-2\\cdot3=8-6=2\\).</p></li><li><p>\\[2\\cdot7^2-5\\cdot2=2\\cdot49-10=98-10=88\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 88</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna båda parenteserna</p><div class=\"facit-matte\">\\[3+4=7,\\qquad 8-2\\cdot3=8-6=2\\]</div></li><li><p class=\"facit-rubrik\">Sedan potensen</p><div class=\"facit-matte\">\\[7^2=49\\]</div></li><li><p class=\"facit-rubrik\">Multiplikationerna</p><div class=\"facit-matte\">\\[2\\cdot49=98,\\qquad 5\\cdot2=10\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera</p><div class=\"facit-matte\">\\[98-10=88\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 88</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -133546,7 +133816,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(25\\cdot37\\cdot4\\) utan miniräknare.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorernas ordning kan ändras i en produkt.</p></li><li><p>Välj den ordning som ger enklast räkning:</p></li><li><p>\\[25\\cdot4\\cdot37=100\\cdot37=3\\,700\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3700</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorerna får byta plats</p><p>25 och 4 ger tillsammans 100, som är lätt att räkna med.</p></li><li><p class=\"facit-rubrik\">Räkna 25 · 4 först</p><div class=\"facit-matte\">\\[25\\cdot4\\cdot37=100\\cdot37=3\\,700\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3700</p></div>",
     "familj": "Räknelagar och uttryck i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -133579,7 +133849,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(17\\cdot99\\) i huvudet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv 99 som \\(100-1\\) och använd distributiva lagen:</p></li><li><p>\\[17\\cdot99=17\\cdot(100-1)=1\\,700-17=1\\,683\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1683</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv 99 som 100 − 1</p><div class=\"facit-matte\">\\[17\\cdot99=17\\cdot(100-1)\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera in 17 i parentesen</p><div class=\"facit-matte\">\\[17\\cdot100-17\\cdot1=1\\,700-17=1\\,683\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1683</p></div>",
     "familj": "Räknelagar och uttryck i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -133612,7 +133882,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En taxiresa kostar 45 kr i startavgift och 12 kr per kilometer. Tre vänner åker 8 km och delar lika på kostnaden. Hur mycket betalar var och en?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{45+8\\cdot12}{3}=\\frac{45+96}{3}=\\frac{141}{3}=47\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 47 kr</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hela resan kostar</p><div class=\"facit-matte\">\\[45+8\\cdot12=45+96=141\\text{ kr}\\]</div></li><li><p class=\"facit-rubrik\">Dela lika på tre</p><div class=\"facit-matte\">\\[\\frac{141}{3}=47\\text{ kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 47 kr</p></div>",
     "familj": "Räknelagar och uttryck i vardagen",
     "geogebra": false,
     "miniräknare": true,
@@ -133646,7 +133916,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\dfrac{2^5-2^3}{2^2+2^3}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{2^5-2^3}{2^2+2^3}=\\frac{32-8}{4+8}=\\frac{24}{12}=2\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna potenserna</p><div class=\"facit-matte\">\\[2^5=32,\\quad 2^3=8,\\quad 2^2=4\\]</div></li><li><p class=\"facit-rubrik\">Täljaren och nämnaren var för sig</p><div class=\"facit-matte\">\\[32-8=24,\\qquad 4+8=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera</p><div class=\"facit-matte\">\\[\\frac{24}{12}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -133679,7 +133949,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Du får sätta in ett par parenteser runt två eller fler tal i uttrycket</p><p>\\[3+5\\cdot4-2\\cdot2\\]</p><p>Vilket är det största värde uttrycket kan få?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Utan parenteser är värdet</p><div class=\"facit-matte\">\\[3+20-4=19\\].</div></div></li><li><p>Parenteserna ska göra att en addition eller subtraktion räknas före en multiplikation, på ett sätt som gör resultatet större.</p></li><li><p>Några möjligheter:</p></li></ol><ul><li>\\((3+5)\\cdot4-2\\cdot2=32-4=28\\)</li><li>\\(3+5\\cdot(4-2)\\cdot2=3+20=23\\)</li><li>\\(3+(5\\cdot4-2)\\cdot2=3+36=39\\)</li><li>\\((3+5\\cdot4-2)\\cdot2=21\\cdot2=42\\)</li></ul><ol class=\"facit-steglista\" role=\"list\"><li><p>Det största värdet får man när så mycket som möjligt multipliceras med den sista faktorn 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 42</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värdet utan parenteser</p><div class=\"facit-matte\">\\[3+5\\cdot4-2\\cdot2=3+20-4=19\\]</div></li><li><p class=\"facit-rubrik\">Pröva olika placeringar</p><div class=\"facit-matte\">\\[(3+5)\\cdot4-2\\cdot2=28\\]</div><div class=\"facit-matte\">\\[3+(5\\cdot4-2)\\cdot2=39\\]</div><div class=\"facit-matte\">\\[(3+5\\cdot4-2)\\cdot2=21\\cdot2=42\\]</div></li><li><p class=\"facit-rubrik\">Så mycket som möjligt ska multipliceras med den sista tvåan</p><p>Det sker när parentesen omsluter allt före den sista tvåan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 42</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -133712,7 +133982,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>I uttrycket nedan ska rutorna fyllas med två olika räknetecken, valda bland \\(+\\), \\(-\\), \\(\\cdot\\) och \\(\\div\\), så att likheten stämmer.</p><p>\\[6\\;\\square\\;4\\;\\square\\;2=14\\]</p><p>Vilket räknetecken ska stå i den första rutan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Pröva systematiskt.</p></li><li><p>Med \\(+\\) först och \\(\\cdot\\) sedan får man</p></li><li><p>\\[6+4\\cdot2=6+8=14\\]</p></li><li><p>Inga andra kombinationer av två olika tecken ger 14.</p></li><li><p>Till exempel är \\(6\\cdot4-2=22\\) och \\(6\\cdot4\\div2=12\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(+\\) (eftersom \\(6+4\\cdot2=14\\))</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation och division görs före + och −</p><p>Pröva tecken som kan ge ett tal nära 14.</p></li><li><p class=\"facit-rubrik\">Plus först och gånger sedan ger 14</p><div class=\"facit-matte\">\\[6+4\\cdot2=6+8=14\\]</div></li><li><p class=\"facit-rubrik\">Andra kombinationer ger andra värden</p><div class=\"facit-matte\">\\[\\begin{gathered}6\\cdot4-2=22,\\quad 6\\cdot4\\div2=12,\\\\6-4\\cdot2=-2\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(+\\)</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -133730,7 +134000,24 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Sätta in parenteser och räknetecken"
     ],
-    "alternativ": [{"txt": "\\(+\\)", "ratt": true}, {"txt": "\\(-\\)", "ratt": false}, {"txt": "\\(\\cdot\\)", "ratt": false}, {"txt": "\\(\\div\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(+\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(-\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(\\cdot\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(\\div\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "0.861",
@@ -133776,7 +134063,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/0/1",
     "t": "<p>Du ska sätta in exakt ett par parenteser runt två eller fler av talen i uttrycket</p><p>\\[24\\div4\\cdot2+1\\cdot3\\]</p><p>Hur många olika värden kan uttrycket få?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket har fem tal.</p></li><li><p>Ett parentespar kan omsluta talen nummer 1–2, 1–3, 1–4, 2–3, 2–4, 2–5, 3–4, 3–5 och 4–5 (och hela uttrycket, som inte ändrar något).</p></li><li><p>Beräkna varje fall:</p></li></ol><ul><li>\\((24\\div4)\\cdot2+1\\cdot3=15\\)</li><li>\\((24\\div4\\cdot2)+1\\cdot3=15\\)</li><li>\\((24\\div4\\cdot2+1)\\cdot3=39\\)</li><li>\\(24\\div(4\\cdot2)+1\\cdot3=6\\)</li><li>\\(24\\div(4\\cdot2+1)\\cdot3=8\\)</li><li>\\(24\\div(4\\cdot2+1\\cdot3)=\\frac{24}{11}\\)</li><li>\\(24\\div4\\cdot(2+1)\\cdot3=54\\)</li><li>\\(24\\div4\\cdot(2+1\\cdot3)=30\\)</li><li>\\(24\\div4\\cdot2+(1\\cdot3)=15\\)</li></ul><ol class=\"facit-steglista\" role=\"list\"><li><p>De olika värdena är \\(\\frac{24}{11}\\), 6, 8, 15, 30, 39 och 54.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värdet utan parentes</p><div class=\"facit-matte\">\\[24\\div4\\cdot2+1\\cdot3=12+3=15\\]</div></li><li><p class=\"facit-rubrik\">Parenteser som ändrar värdet</p><div class=\"facit-matte\">\\[24\\div(4\\cdot2)+1\\cdot3=6\\]</div><div class=\"facit-matte\">\\[24\\div(4\\cdot2+1)\\cdot3=8\\]</div><div class=\"facit-matte\">\\[24\\div(4\\cdot2+1\\cdot3)=\\tfrac{24}{11}\\]</div><div class=\"facit-matte\">\\[(24\\div4\\cdot2+1)\\cdot3=39\\]</div><div class=\"facit-matte\">\\[24\\div4\\cdot(2+1\\cdot3)=30\\]</div><div class=\"facit-matte\">\\[24\\div4\\cdot(2+1)\\cdot3=54\\]</div></li><li><p class=\"facit-rubrik\">Övriga placeringar ger 15</p><p>Parenteser runt 24 ÷ 4, runt 24 ÷ 4 · 2 eller runt 1 · 3 ändrar inte räkneordningen.</p></li><li><p class=\"facit-rubrik\">Räkna de olika värdena</p><p>Värdena är 24/11, 6, 8, 15, 30, 39 och 54.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 olika värden.</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -139713,7 +140000,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Rutorna i \\(2\\;\\square\\;3\\;\\square\\;4\\) ska fyllas med något av tecknen \\(+\\), \\(-\\) och \\(\\cdot\\). Samma tecken får användas i båda rutorna. Hur många olika värden kan uttrycket få?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det finns \\(3\\cdot3=9\\) sätt att fylla rutorna.</p></li><li><p>Med räkneordningen blir värdena:</p></li></ol><ul><li>\\(2+3+4=9\\), \\(2+3-4=1\\), \\(2+3\\cdot4=14\\)</li><li>\\(2-3+4=3\\), \\(2-3-4=-5\\), \\(2-3\\cdot4=-10\\)</li><li>\\(2\\cdot3+4=10\\), \\(2\\cdot3-4=2\\), \\(2\\cdot3\\cdot4=24\\)</li></ul><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla nio värden är olika.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antalet sätt att fylla rutorna</p><div class=\"facit-matte\">\\[3\\cdot3=9\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut alla nio, med gånger före plus och minus</p><div class=\"facit-matte\">\\[\\begin{gathered}2+3+4=9,\\quad 2+3-4=1,\\\\2+3\\cdot4=14\\end{gathered}\\]</div><div class=\"facit-matte\">\\[\\begin{gathered}2-3+4=3,\\quad 2-3-4=-5,\\\\2-3\\cdot4=-10\\end{gathered}\\]</div><div class=\"facit-matte\">\\[\\begin{gathered}2\\cdot3+4=10,\\quad 2\\cdot3-4=2,\\\\2\\cdot3\\cdot4=24\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Inga två värden är lika</p><p>Alla nio sätt ger olika värden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -140242,7 +140529,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(7\\cdot8-2\\cdot(15-3\\cdot4)^2\\div3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Parentesen:</p><div class=\"facit-matte\">\\[15-12=3\\].</div></div></li><li><div class=\"facit-berakning\"><p>Potensen:</p><div class=\"facit-matte\">\\[3^2=9\\].</div></div></li><li><p>\\[56-2\\cdot9\\div3=56-18\\div3=56-6=50\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inne i parentesen görs multiplikationen först</p><div class=\"facit-matte\">\\[15-3\\cdot4=15-12=3\\]</div></li><li><p class=\"facit-rubrik\">Sedan potensen</p><div class=\"facit-matte\">\\[3^2=9\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation och division från vänster</p><div class=\"facit-matte\">\\[7\\cdot8=56,\\qquad 2\\cdot9\\div3=18\\div3=6\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera</p><div class=\"facit-matte\">\\[56-6=50\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -140275,7 +140562,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Du köper tre t-shirts för 149 kr styck och två par strumpor för 39 kr paret. Du betalar delvis med ett presentkort på 250 kr. Hur mycket återstår att betala?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[3\\cdot149+2\\cdot39-250=447+78-250=275\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 275 kr</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">T-shirtarna och strumporna</p><div class=\"facit-matte\">\\[3\\cdot149=447,\\qquad 2\\cdot39=78\\]</div></li><li><p class=\"facit-rubrik\">Hela köpet minus presentkortet</p><div class=\"facit-matte\">\\[447+78-250=275\\text{ kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 275 kr</p></div>",
     "familj": "Räknelagar och uttryck i vardagen",
     "geogebra": false,
     "miniräknare": true,
@@ -140309,7 +140596,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(48\\cdot25\\) i huvudet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>25 är en fjärdedel av 100:</p></li><li><p>\\[48\\cdot25=\\frac{48}{4}\\cdot100=12\\cdot100=1\\,200\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1200</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">25 är en fjärdedel av 100</p><p>Att multiplicera med 25 är samma sak som att dela med 4 och multiplicera med 100.</p></li><li><p class=\"facit-rubrik\">Räkna</p><div class=\"facit-matte\">\\[48\\cdot25=\\frac{48}{4}\\cdot100=12\\cdot100=1\\,200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1200</p></div>",
     "familj": "Räknelagar och uttryck i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -140342,7 +140629,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(37\\cdot13+37\\cdot87\\) utan miniräknare.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bryt ut den gemensamma faktorn 37:</p></li><li><p>\\[37\\cdot13+37\\cdot87=37\\cdot(13+87)=37\\cdot100=3\\,700\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3700</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Båda produkterna har faktorn 37</p><div class=\"facit-matte\">\\[37\\cdot13+37\\cdot87=37\\cdot(13+87)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen blir 100</p><div class=\"facit-matte\">\\[37\\cdot100=3\\,700\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3700</p></div>",
     "familj": "Räknelagar och uttryck i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -140375,7 +140662,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/0/1",
     "t": "<p>Beräkna \\(1+2-3+4+5-6+7+8-9+\\ldots+28+29-30\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela upp i grupper om tre tal: \\((1+2-3)+(4+5-6)+\\ldots+(28+29-30)\\).</p></li><li><p>Grupperna har värdena 0, 3, 6, …, 27, alltså tio tal som ökar med 3.</p></li><li><p>\\[0+3+6+\\ldots+27=3\\cdot(0+1+2+\\ldots+9)=3\\cdot45=135\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 135</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp i grupper om tre tal</p><div class=\"facit-matte\">\\[(1+2-3)+(4+5-6)+\\ldots+(28+29-30)\\]</div></li><li><p class=\"facit-rubrik\">Varje grupp är 3 mer än den förra</p><p>Grupperna blir 0, 3, 6, …, 27. Det är tio grupper.</p></li><li><p class=\"facit-rubrik\">Lägg ihop gruppernas värden</p><div class=\"facit-matte\">\\[\\begin{gathered}0+3+6+\\ldots+27\\\\=3\\cdot(0+1+\\ldots+9) =3\\cdot45 =135\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 135</p></div>",
     "familj": "Prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -140801,7 +141088,7 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "4/0/0",
   "t": "<p>a) \\(16-3\\cdot4\\)</p><p>b) \\((-4)\\cdot(-5)-7\\)</p><p>c) \\(100-11+4\\cdot2\\)</p><p>d) \\(\\frac{-24}{-6}+(-3)\\)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Multiplikationen räknas först: \\(3\\cdot4=12\\). \\(16-12=4\\).</p><p>b) Två negativa faktorer ger en positiv produkt: \\((-4)\\cdot(-5)=20\\). Sedan är \\(20-7=13\\).</p><p>c) Börja med \\(4\\cdot2=8\\). Räkna sedan från vänster: \\(100-11+8=89+8=97\\).</p><p>d) Kvoten av två negativa tal är positiv: \\(\\frac{-24}{-6}=4\\). Därefter är \\(4+(-3)=1\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\), \\(13\\), \\(97\\), \\(1\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation görs före subtraktion</p><div class=\"facit-matte\">\\[3\\cdot4=12\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera</p><div class=\"facit-matte\">\\[16-12=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två negativa faktorer ger en positiv produkt</p><div class=\"facit-matte\">\\[(-4)\\cdot(-5)=20\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 7</p><div class=\"facit-matte\">\\[20-7=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först</p><div class=\"facit-matte\">\\[4\\cdot2=8\\]</div></li><li><p class=\"facit-rubrik\">Räkna sedan från vänster</p><div class=\"facit-matte\">\\[100-11+8=89+8=97\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 97</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två negativa tal i en kvot ger ett positivt tal</p><div class=\"facit-matte\">\\[\\frac{-24}{-6}=4\\]</div></li><li><p class=\"facit-rubrik\">Addera −3</p><div class=\"facit-matte\">\\[4+(-3)=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div></div>",
   "familj": "Räkneordning",
   "formaga": [
     "procedur"
@@ -140838,7 +141125,7 @@ window.BANKMA1 = [
     {
       "etikett": "a",
       "t": "<p>Beräkna</p>\\[16-3\\cdot4\\]",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplikationen räknas först: \\(3\\cdot4=12\\). \\(16-12=4\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation görs före subtraktion</p><div class=\"facit-matte\">\\[3\\cdot4=12\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera</p><div class=\"facit-matte\">\\[16-12=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
       "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
       "traningsniva": 1,
       "niva": "E",
@@ -140847,7 +141134,7 @@ window.BANKMA1 = [
     {
       "etikett": "b",
       "t": "<p>Beräkna</p>\\[(-4)\\cdot(-5)-7\\]",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Två negativa faktorer ger en positiv produkt: \\((-4)\\cdot(-5)=20\\). Sedan är \\(20-7=13\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\)</p></div>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två negativa faktorer ger en positiv produkt</p><div class=\"facit-matte\">\\[(-4)\\cdot(-5)=20\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 7</p><div class=\"facit-matte\">\\[20-7=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13</p></div>",
       "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
       "traningsniva": 2,
       "niva": "E",
@@ -140856,7 +141143,7 @@ window.BANKMA1 = [
     {
       "etikett": "c",
       "t": "<p>Beräkna</p>\\[100-11+4\\cdot2\\]",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Börja med \\(4\\cdot2=8\\). Räkna sedan från vänster: \\(100-11+8=89+8=97\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(97\\)</p></div>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först</p><div class=\"facit-matte\">\\[4\\cdot2=8\\]</div></li><li><p class=\"facit-rubrik\">Räkna sedan från vänster</p><div class=\"facit-matte\">\\[100-11+8=89+8=97\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 97</p></div>",
       "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
       "traningsniva": 2,
       "niva": "E",
@@ -140865,7 +141152,7 @@ window.BANKMA1 = [
     {
       "etikett": "d",
       "t": "<p>Beräkna</p>\\[\\frac{-24}{-6}+(-3)\\]",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kvoten av två negativa tal är positiv: \\(\\frac{-24}{-6}=4\\). Därefter är \\(4+(-3)=1\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\)</p></div>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två negativa tal i en kvot ger ett positivt tal</p><div class=\"facit-matte\">\\[\\frac{-24}{-6}=4\\]</div></li><li><p class=\"facit-rubrik\">Addera −3</p><div class=\"facit-matte\">\\[4+(-3)=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
       "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
       "traningsniva": 2,
       "niva": "E",
@@ -140885,7 +141172,7 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "4/0/0",
   "t": "<p>a) \\(18-2\\cdot6\\)</p><p>b) \\((-3)\\cdot(-6)-8\\)</p><p>c) \\(50-7+3\\cdot4\\)</p><p>d) \\(\\frac{-30}{-5}+(-2)\\)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Börja med \\(2\\cdot6=12\\). Sedan är \\(18-12=6\\).</p><p>b) Två negativa faktorer ger en positiv produkt: \\((-3)\\cdot(-6)=18\\). Sedan är \\(18-8=10\\).</p><p>c) Börja med \\(3\\cdot4=12\\). Då blir \\(50-7+12=43+12=55\\).</p><p>d) Kvoten av två negativa tal är positiv: \\(\\frac{-30}{-5}=6\\). Därefter är \\(6+(-2)=4\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\), \\(10\\), \\(55\\), \\(4\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation görs före subtraktion</p><div class=\"facit-matte\">\\[2\\cdot6=12\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera</p><div class=\"facit-matte\">\\[18-12=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två negativa faktorer ger en positiv produkt</p><div class=\"facit-matte\">\\[(-3)\\cdot(-6)=18\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 8</p><div class=\"facit-matte\">\\[18-8=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först</p><div class=\"facit-matte\">\\[3\\cdot4=12\\]</div></li><li><p class=\"facit-rubrik\">Räkna sedan från vänster</p><div class=\"facit-matte\">\\[50-7+12=43+12=55\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 55</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två negativa tal i en kvot ger ett positivt tal</p><div class=\"facit-matte\">\\[\\frac{-30}{-5}=6\\]</div></li><li><p class=\"facit-rubrik\">Addera −2</p><div class=\"facit-matte\">\\[6+(-2)=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div></div>",
   "familj": "Räkneordning",
   "formaga": [
     "procedur"
@@ -140922,7 +141209,7 @@ window.BANKMA1 = [
     {
       "etikett": "a",
       "t": "<p>Beräkna</p>\\[18-2\\cdot6\\]",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Börja med \\(2\\cdot6=12\\). Sedan är \\(18-12=6\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\)</p></div>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation görs före subtraktion</p><div class=\"facit-matte\">\\[2\\cdot6=12\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera</p><div class=\"facit-matte\">\\[18-12=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
       "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
       "traningsniva": 1,
       "niva": "E",
@@ -140931,7 +141218,7 @@ window.BANKMA1 = [
     {
       "etikett": "b",
       "t": "<p>Beräkna</p>\\[(-3)\\cdot(-6)-8\\]",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Två negativa faktorer ger en positiv produkt: \\((-3)\\cdot(-6)=18\\). Sedan är \\(18-8=10\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\)</p></div>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två negativa faktorer ger en positiv produkt</p><div class=\"facit-matte\">\\[(-3)\\cdot(-6)=18\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 8</p><div class=\"facit-matte\">\\[18-8=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
       "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
       "traningsniva": 2,
       "niva": "E",
@@ -140940,7 +141227,7 @@ window.BANKMA1 = [
     {
       "etikett": "c",
       "t": "<p>Beräkna</p>\\[50-7+3\\cdot4\\]",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Börja med \\(3\\cdot4=12\\). Då blir \\(50-7+12=43+12=55\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(55\\)</p></div>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först</p><div class=\"facit-matte\">\\[3\\cdot4=12\\]</div></li><li><p class=\"facit-rubrik\">Räkna sedan från vänster</p><div class=\"facit-matte\">\\[50-7+12=43+12=55\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 55</p></div>",
       "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
       "traningsniva": 2,
       "niva": "E",
@@ -140949,7 +141236,7 @@ window.BANKMA1 = [
     {
       "etikett": "d",
       "t": "<p>Beräkna</p>\\[\\frac{-30}{-5}+(-2)\\]",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kvoten av två negativa tal är positiv: \\(\\frac{-30}{-5}=6\\). Därefter är \\(6+(-2)=4\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två negativa tal i en kvot ger ett positivt tal</p><div class=\"facit-matte\">\\[\\frac{-30}{-5}=6\\]</div></li><li><p class=\"facit-rubrik\">Addera −2</p><div class=\"facit-matte\">\\[6+(-2)=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
       "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
       "traningsniva": 2,
       "niva": "E",
@@ -140969,7 +141256,7 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "4/0/0",
   "t": "<p>a) \\(24-4\\cdot5\\)</p><p>b) \\((-6)\\cdot(-4)-9\\)</p><p>c) \\(80-13+5\\cdot3\\)</p><p>d) \\(\\frac{-42}{-7}+(-4)\\)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>a) Börja med \\(4\\cdot5=20\\). Sedan är \\(24-20=4\\).</p><p>b) Två negativa faktorer ger en positiv produkt: \\((-6)\\cdot(-4)=24\\). Sedan är \\(24-9=15\\).</p><p>c) Börja med \\(5\\cdot3=15\\). Då blir \\(80-13+15=67+15=82\\).</p><p>d) Kvoten av två negativa tal är positiv: \\(\\frac{-42}{-7}=6\\). Därefter är \\(6+(-4)=2\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\), \\(15\\), \\(82\\), \\(2\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation görs före subtraktion</p><div class=\"facit-matte\">\\[4\\cdot5=20\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera</p><div class=\"facit-matte\">\\[24-20=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två negativa faktorer ger en positiv produkt</p><div class=\"facit-matte\">\\[(-6)\\cdot(-4)=24\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 9</p><div class=\"facit-matte\">\\[24-9=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först</p><div class=\"facit-matte\">\\[5\\cdot3=15\\]</div></li><li><p class=\"facit-rubrik\">Räkna sedan från vänster</p><div class=\"facit-matte\">\\[80-13+15=67+15=82\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 82</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två negativa tal i en kvot ger ett positivt tal</p><div class=\"facit-matte\">\\[\\frac{-42}{-7}=6\\]</div></li><li><p class=\"facit-rubrik\">Addera −4</p><div class=\"facit-matte\">\\[6+(-4)=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div></div>",
   "familj": "Räkneordning",
   "formaga": [
     "procedur"
@@ -141006,7 +141293,7 @@ window.BANKMA1 = [
     {
       "etikett": "a",
       "t": "<p>Beräkna</p>\\[24-4\\cdot5\\]",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Börja med \\(4\\cdot5=20\\). Sedan är \\(24-20=4\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation görs före subtraktion</p><div class=\"facit-matte\">\\[4\\cdot5=20\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera</p><div class=\"facit-matte\">\\[24-20=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
       "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
       "traningsniva": 1,
       "niva": "E",
@@ -141015,7 +141302,7 @@ window.BANKMA1 = [
     {
       "etikett": "b",
       "t": "<p>Beräkna</p>\\[(-6)\\cdot(-4)-9\\]",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Två negativa faktorer ger en positiv produkt: \\((-6)\\cdot(-4)=24\\). Sedan är \\(24-9=15\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två negativa faktorer ger en positiv produkt</p><div class=\"facit-matte\">\\[(-6)\\cdot(-4)=24\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 9</p><div class=\"facit-matte\">\\[24-9=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15</p></div>",
       "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
       "traningsniva": 2,
       "niva": "E",
@@ -141024,7 +141311,7 @@ window.BANKMA1 = [
     {
       "etikett": "c",
       "t": "<p>Beräkna</p>\\[80-13+5\\cdot3\\]",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Börja med \\(5\\cdot3=15\\). Då blir \\(80-13+15=67+15=82\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(82\\)</p></div>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först</p><div class=\"facit-matte\">\\[5\\cdot3=15\\]</div></li><li><p class=\"facit-rubrik\">Räkna sedan från vänster</p><div class=\"facit-matte\">\\[80-13+15=67+15=82\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 82</p></div>",
       "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
       "traningsniva": 2,
       "niva": "E",
@@ -141033,7 +141320,7 @@ window.BANKMA1 = [
     {
       "etikett": "d",
       "t": "<p>Beräkna</p>\\[\\frac{-42}{-7}+(-4)\\]",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kvoten av två negativa tal är positiv: \\(\\frac{-42}{-7}=6\\). Därefter är \\(6+(-4)=2\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två negativa tal i en kvot ger ett positivt tal</p><div class=\"facit-matte\">\\[\\frac{-42}{-7}=6\\]</div></li><li><p class=\"facit-rubrik\">Addera −4</p><div class=\"facit-matte\">\\[6+(-4)=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
       "ledtrad": "<p>Räkna multiplikation och division före addition och subtraktion.</p>",
       "traningsniva": 2,
       "niva": "E",

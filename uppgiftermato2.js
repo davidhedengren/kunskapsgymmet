@@ -39942,7 +39942,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För \\(f(x)=e^{2\\sin x}\\), bestäm \\(f'(\\pi/6)\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor.</p></li><li><p class=\"facit-metod\">När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kedjeregeln ger</p><div class=\"facit-matte\">\\[f'(x)=2e^{2\\sin x}\\cos x\\].</div></div></li><li><p>Vid \\(x=\\pi/6\\) är \\(2\\sin x=1\\) och \\(\\cos x=\\sqrt3/2\\).</p></li><li><p>Därför</p></li><li><p>\\[f'(\\pi/6)=2e\\cdot\\frac{\\sqrt3}{2}=e\\sqrt3.\\]</p></li><li><p><strong>Två lager:</strong> Ytterst har vi \\(e^u\\), och innerst \\(u=2\\sin x\\).</p></li><li><p>Kedjeregeln ger därför \\(e^u\\cdot u'\\), där \\(u'=2\\cos x\\).</p></li><li><p>Det är den faktorn som annars lätt glöms.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kedjeregeln ger</p><div class=\"facit-matte\">\\[f'(x)=2e^{2\\sin x}\\cos x\\].</div></div></li><li><p>Vid \\(x=\\pi/6\\) är \\(2\\sin x=1\\) och \\(\\cos x=\\sqrt3/2\\).</p></li><li><p>Därför</p></li><li><p>\\[f'(\\pi/6)=2e\\cdot\\frac{\\sqrt3}{2}=e\\sqrt3.\\]</p></li><li><p><strong>Två lager:</strong> Ytterst har vi \\(e^u\\), och innerst \\(u=2\\sin x\\).</p></li><li><p>Kedjeregeln ger därför \\(e^u\\cdot u'\\), där \\(u'=2\\cos x\\).</p></li><li><p>Det är den faktorn som annars lätt glöms.</p></li></ol></div></div>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur",
@@ -40161,7 +40161,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Funktionen är \\(f(x)=\\sin(e^x)\\). Bestäm tangentens lutning vid \\(x=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor.</p></li><li><p class=\"facit-metod\">När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kedjeregeln ger</p><div class=\"facit-matte\">\\[f'(x)=e^x\\cos(e^x)\\].</div></div></li><li><p>Vid \\(x=0\\) är \\(e^0=1\\), alltså \\(f'(0)=\\cos1\\).</p></li><li><p>Observera att 1 här är en vinkel i radianer.</p></li><li><p><strong>Två lager även här:</strong> Ytterfunktionen \\(\\sin u\\) ger \\(\\cos u\\), medan innerfunktionen \\(u=e^x\\) ger faktorn \\(e^x\\).</p></li><li><p>Därför måste båda faktorerna finnas i derivatan.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kedjeregeln ger</p><div class=\"facit-matte\">\\[f'(x)=e^x\\cos(e^x)\\].</div></div></li><li><p>Vid \\(x=0\\) är \\(e^0=1\\), alltså \\(f'(0)=\\cos1\\).</p></li><li><p>Observera att 1 här är en vinkel i radianer.</p></li><li><p><strong>Två lager även här:</strong> Ytterfunktionen \\(\\sin u\\) ger \\(\\cos u\\), medan innerfunktionen \\(u=e^x\\) ger faktorn \\(e^x\\).</p></li><li><p>Därför måste båda faktorerna finnas i derivatan.</p></li></ol></div></div>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur",
@@ -40379,7 +40379,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En modell för ljusintensitet är \\(I(t)=e^{0{,}4\\cos t}\\). Bestäm \\(I'(\\pi/2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor.</p></li><li><p class=\"facit-metod\">När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Exponentialfunktionen har ett sammansatt argument, så kedjeregeln behövs.</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[u(t)=0{,}4\\cos t\\].</div></div></li><li><p>Då är \\(u'(t)=-0{,}4\\sin t\\), och</p></li><li><p>\\[I'(t)=e^{u(t)}u'(t)=e^{0{,}4\\cos t}(-0,4\\sin t).\\]</p></li><li><p>Vid \\(t=\\pi/2\\) är \\(\\cos t=0\\) och \\(\\sin t=1\\):</p></li><li><p>\\[I'(\\pi/2)=e^0(-0,4)=-0{,}4.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Derivera innerfunktionen.</strong> Sätt \\(u(t)=0{,}4\\cos t\\). Då är \\(u'(t)=-0{,}4\\sin t\\).</p></li><li><p><strong>Använd kedjeregeln.</strong> \\[I'(t)=e^{u(t)}u'(t)\\]</p><p>\\[=e^{0{,}4\\cos t}(-0{,}4\\sin t).\\]</p></li><li><p><strong>Sätt in \\(t=\\pi/2\\).</strong> Eftersom \\(\\cos(\\pi/2)=0\\) och \\(\\sin(\\pi/2)=1\\) får vi \\[I'(\\pi/2)=e^0(-0{,}4)=-0{,}4.\\]</p><p><strong>Svar:</strong> \\(I'(\\pi/2)=-0{,}4\\).</p></li></ol></div>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "modellering",
@@ -45858,7 +45858,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Skissa \\(f(x)=e^{-x}+1\\) och markera dess horisontella asymptot.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor.</p></li><li><p class=\"facit-metod\">När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(x\\to\\infty\\) går \\(e^{-x}\\to0\\), därför närmar sig grafen \\(y=1\\).</p></li><li><p>Vid \\(x=0\\) är \\(f(0)=2\\).</p></li><li><p>Funktionen är positiv och avtagande; grafen ligger hela tiden ovanför asymptoten.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(x\\to\\infty\\) går \\(e^{-x}\\to0\\), därför närmar sig grafen \\(y=1\\).</p></li><li><p>Vid \\(x=0\\) är \\(f(0)=2\\).</p></li><li><p>Funktionen är positiv och avtagande; grafen ligger hela tiden ovanför asymptoten.</p></li></ol></div></div>",
     "familj": "Skissa grafer och asymptoter",
     "formaga": [
       "begrepp"
@@ -77985,7 +77985,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv på polär form.</p><p>a) \\(2+2i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-3i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-1-\\sqrt3i\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor.</p></li><li><p class=\"facit-metod\">När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Absolutbelopp \\(2\\sqrt2\\), argument \\(\\pi/4\\): <strong>\\(2\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Absolutbelopp 3, argument \\(3\\pi/2\\): <strong>\\(3(\\cos\\frac{3\\pi}{2}+i\\sin\\frac{3\\pi}{2})\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Absolutbelopp 2, argument \\(4\\pi/3\\): <strong>\\(2(\\cos\\frac{4\\pi}{3}+i\\sin\\frac{4\\pi}{3})\\)</strong>.</p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{2^2+2^2}=2\\sqrt2\\). Punkten ligger i första kvadranten och \\(v=\\pi/4\\).</p></li><li><p><strong>Svar:</strong> \\(2\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet till origo är \\(r=3\\). Punkten ligger på negativa imaginära axeln, så \\(v=3\\pi/2\\).</p></li><li><p><strong>Svar:</strong> \\(3(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(-1)^2+(-\\sqrt3)^2}=2\\). Punkten ligger i tredje kvadranten med referensvinkeln \\(\\pi/3\\), alltså \\(v=4\\pi/3\\).</p></li><li><p><strong>Svar:</strong> \\(2(\\cos\\frac{4\\pi}3+i\\sin\\frac{4\\pi}3)\\).</p></li></ol></div></div></div></div>",
     "familj": "Växla mellan former för komplexa tal",
     "formaga": [
       "procedur"
@@ -78022,7 +78022,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(2+2i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Absolutbelopp \\(2\\sqrt2\\), argument \\(\\pi/4\\): \\(2\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\) .</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{2^2+2^2}=2\\sqrt2\\). Punkten ligger i första kvadranten och \\(v=\\pi/4\\).</p></li><li><p><strong>Svar:</strong> \\(2\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -78031,7 +78031,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(-3i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Absolutbelopp 3, argument \\(3\\pi/2\\): \\(3(\\cos\\frac{3\\pi}{2}+i\\sin\\frac{3\\pi}{2})\\) .</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet till origo är \\(r=3\\). Punkten ligger på negativa imaginära axeln, så \\(v=3\\pi/2\\).</p></li><li><p><strong>Svar:</strong> \\(3(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -78040,7 +78040,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(-1-\\sqrt3i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Absolutbelopp 2, argument \\(4\\pi/3\\): \\(2(\\cos\\frac{4\\pi}{3}+i\\sin\\frac{4\\pi}{3})\\) .</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(-1)^2+(-\\sqrt3)^2}=2\\). Punkten ligger i tredje kvadranten med referensvinkeln \\(\\pi/3\\), alltså \\(v=4\\pi/3\\).</p></li><li><p><strong>Svar:</strong> \\(2(\\cos\\frac{4\\pi}3+i\\sin\\frac{4\\pi}3)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -79362,7 +79362,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Det komplexa talet är \\(z=-1+\\sqrt3\\,i\\).</p><p>a) Skriv \\(z\\) på exponentiell form \\(re^{iv}\\), där \\(0\\le v&lt;2\\pi\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z^3\\) exakt med exponentiell formen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor.</p></li><li><p class=\"facit-metod\">När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Absolutbeloppet är</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[r=\\sqrt{(-1)^2+(\\sqrt3)^2}=2.\\]</p></li><li><p>Talet ligger i andra kvadranten och har argument \\(2\\pi/3\\).</p></li><li><p>Alltså</p></li><li><p><strong>\\(z=2e^{i2\\pi/3}\\)</strong>.</p></li></ol>\n<div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[z^3=2^3e^{i2\\pi}=8(\\cos2\\pi+i\\sin2\\pi)=\\boxed{8}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Absolutbeloppet är</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[r=\\sqrt{(-1)^2+(\\sqrt3)^2}=2.\\]</p></li><li><p>Talet ligger i andra kvadranten och har argument \\(2\\pi/3\\).</p></li><li><p>Alltså</p></li><li><p><strong>\\(z=2e^{i2\\pi/3}\\)</strong>.</p></li></ol>\n<div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[e^{i2\\pi}=1\\]</p><p>\\[z^3=2^3\\cdot1=\\boxed{8}.\\]</p></li></ol></div></div>",
     "familj": "Eulers formel",
     "formaga": [
       "procedur",
@@ -79404,7 +79404,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm \\(z^3\\) exakt med exponentiell formen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[z^3=2^3e^{i2\\pi}=8(\\cos2\\pi+i\\sin2\\pi)=\\boxed{8}.\\]</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Skriv talet på exponentiell form.</strong> \\(|z|=\\sqrt{(-1)^2+(\\sqrt3)^2}=2\\). Punkten ligger i andra kvadranten och argumentet är \\(2\\pi/3\\), så \\(z=2e^{i2\\pi/3}\\).</p></li><li><p><strong>Beräkna kuben.</strong> \\[z^3=2^3e^{i2\\pi}\\]Eftersom \\(e^{i2\\pi}=1\\) blir \\(z^3=8\\).</p></li><li><p><strong>Svar:</strong> \\(\\boxed{8}\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -80110,17 +80110,17 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv i polär form.</p><p>a) \\(1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-\\sqrt3-i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sqrt3-i\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor.</p></li><li><p class=\"facit-metod\">När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formel från formelbladet:</strong> I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\sqrt2(\\cos\\frac{3\\pi}4+i\\sin\\frac{3\\pi}4)\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(2(\\cos\\frac{7\\pi}6+i\\sin\\frac{7\\pi}6)\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(2(\\cos\\frac{11\\pi}6+i\\sin\\frac{11\\pi}6)\\)</strong></p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{1^2+1^2}=\\sqrt2\\) och vinkeln i första kvadranten är \\(v=\\pi/4\\).</p></li><li><p><strong>Svar:</strong> \\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(-1)^2+1^2}=\\sqrt2\\). Punkten ligger i andra kvadranten, så \\(v=3\\pi/4\\).</p></li><li><p><strong>Svar:</strong> \\(\\sqrt2(\\cos\\frac{3\\pi}4+i\\sin\\frac{3\\pi}4)\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(-\\sqrt3)^2+(-1)^2}=2\\). Punkten ligger i tredje kvadranten med referensvinkeln \\(\\pi/6\\), så \\(v=7\\pi/6\\).</p></li><li><p><strong>Svar:</strong> \\(2(\\cos\\frac{7\\pi}6+i\\sin\\frac{7\\pi}6)\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(\\sqrt3)^2+(-1)^2}=2\\). Punkten ligger i fjärde kvadranten med referensvinkeln \\(\\pi/6\\), så \\(v=11\\pi/6\\).</p></li><li><p><strong>Svar:</strong> \\(2(\\cos\\frac{11\\pi}6+i\\sin\\frac{11\\pi}6)\\).</p></li></ol></div></div></div></div>",
     "familj": "Växla mellan former för komplexa tal",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)",
-      "\\sqrt2(\\cos\\frac{3\\pi}4+i\\sin\\frac{3\\pi}4)",
-      "2(\\cos\\frac{7\\pi}6+i\\sin\\frac{7\\pi}6)",
-      "2(\\cos\\frac{11\\pi}6+i\\sin\\frac{11\\pi}6)"
+      "sqrt(2)*(cos(pi/4)+i*sin(pi/4))",
+      "sqrt(2)*(cos(3*pi/4)+i*sin(3*pi/4))",
+      "2*(cos(7*pi/6)+i*sin(7*pi/6))",
+      "2*(cos(11*pi/6)+i*sin(11*pi/6))"
     ],
     "tolerans": [
       null,
@@ -80142,7 +80142,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(1+i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{1^2+1^2}=\\sqrt2\\) och vinkeln i första kvadranten är \\(v=\\pi/4\\).</p></li><li><p><strong>Svar:</strong> \\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80151,7 +80151,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(-1+i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt2(\\cos\\frac{3\\pi}4+i\\sin\\frac{3\\pi}4)\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(-1)^2+1^2}=\\sqrt2\\). Punkten ligger i andra kvadranten, så \\(v=3\\pi/4\\).</p></li><li><p><strong>Svar:</strong> \\(\\sqrt2(\\cos\\frac{3\\pi}4+i\\sin\\frac{3\\pi}4)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -80160,7 +80160,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(-\\sqrt3-i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2(\\cos\\frac{7\\pi}6+i\\sin\\frac{7\\pi}6)\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(-\\sqrt3)^2+(-1)^2}=2\\). Punkten ligger i tredje kvadranten med referensvinkeln \\(\\pi/6\\), så \\(v=7\\pi/6\\).</p></li><li><p><strong>Svar:</strong> \\(2(\\cos\\frac{7\\pi}6+i\\sin\\frac{7\\pi}6)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -80169,7 +80169,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\sqrt3-i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2(\\cos\\frac{11\\pi}6+i\\sin\\frac{11\\pi}6)\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(\\sqrt3)^2+(-1)^2}=2\\). Punkten ligger i fjärde kvadranten med referensvinkeln \\(\\pi/6\\), så \\(v=11\\pi/6\\).</p></li><li><p><strong>Svar:</strong> \\(2(\\cos\\frac{11\\pi}6+i\\sin\\frac{11\\pi}6)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -80177,10 +80177,10 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "polar",
+      "polar",
+      "polar",
+      "polar"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -80207,17 +80207,17 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv i polär form.</p><p>a) \\(2i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-4i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(5\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor.</p></li><li><p class=\"facit-metod\">När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formel från formelbladet:</strong> I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(2(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(3(\\cos\\pi+i\\sin\\pi)\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(4(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(5(\\cos0+i\\sin0)\\)</strong></p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ligger på positiva imaginära axeln: \\(r=2\\) och \\(v=\\pi/2\\).</p></li><li><p><strong>Svar:</strong> \\(2(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ligger på negativa reella axeln: \\(r=3\\) och \\(v=\\pi\\).</p></li><li><p><strong>Svar:</strong> \\(3(\\cos\\pi+i\\sin\\pi)\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ligger på negativa imaginära axeln: \\(r=4\\) och \\(v=3\\pi/2\\).</p></li><li><p><strong>Svar:</strong> \\(4(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ligger på positiva reella axeln: \\(r=5\\) och \\(v=0\\).</p></li><li><p><strong>Svar:</strong> \\(5(\\cos0+i\\sin0)\\).</p></li></ol></div></div></div></div>",
     "familj": "Växla mellan former för komplexa tal",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)",
-      "3(\\cos\\pi+i\\sin\\pi)",
-      "4(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)",
-      "5(\\cos0+i\\sin0)"
+      "2*(cos(pi/2)+i*sin(pi/2))",
+      "3*(cos(pi)+i*sin(pi))",
+      "4*(cos(3*pi/2)+i*sin(3*pi/2))",
+      "5*(cos(0)+i*sin(0))"
     ],
     "tolerans": [
       null,
@@ -80239,7 +80239,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(2i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ligger på positiva imaginära axeln: \\(r=2\\) och \\(v=\\pi/2\\).</p></li><li><p><strong>Svar:</strong> \\(2(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80248,7 +80248,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(-3\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(3(\\cos\\pi+i\\sin\\pi)\\)</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ligger på negativa reella axeln: \\(r=3\\) och \\(v=\\pi\\).</p></li><li><p><strong>Svar:</strong> \\(3(\\cos\\pi+i\\sin\\pi)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80257,7 +80257,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(-4i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ligger på negativa imaginära axeln: \\(r=4\\) och \\(v=3\\pi/2\\).</p></li><li><p><strong>Svar:</strong> \\(4(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80266,7 +80266,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(5\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(5(\\cos0+i\\sin0)\\)</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ligger på positiva reella axeln: \\(r=5\\) och \\(v=0\\).</p></li><li><p><strong>Svar:</strong> \\(5(\\cos0+i\\sin0)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80274,10 +80274,10 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "polar",
+      "polar",
+      "polar",
+      "polar"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -80304,7 +80304,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv på formen \\(a+bi\\).</p><p>a) \\(4(\\cos\\frac\\pi3+i\\sin\\frac\\pi3)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(6(\\cos\\pi+i\\sin\\pi)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2\\sqrt2(\\cos\\frac{7\\pi}4+i\\sin\\frac{7\\pi}4)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(3(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor.</p></li><li><p class=\"facit-metod\">När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formel från formelbladet:</strong> I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(2+2\\sqrt3 i\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(-6\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(2-2i\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(-3i\\)</strong></p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in \\(\\cos(\\pi/3)=1/2\\) och \\(\\sin(\\pi/3)=\\sqrt3/2\\): \\(4(1/2+i\\sqrt3/2)=2+2\\sqrt3i\\).</p></li><li><p><strong>Svar:</strong> \\(2+2\\sqrt3i\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos\\pi=-1\\) och \\(\\sin\\pi=0\\), så \\(6(-1+i\\cdot0)=-6\\).</p></li><li><p><strong>Svar:</strong> \\(-6\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos(7\\pi/4)=\\sqrt2/2\\) och \\(\\sin(7\\pi/4)=-\\sqrt2/2\\). Multiplicera båda termerna med \\(2\\sqrt2\\).</p></li><li><p><strong>Svar:</strong> \\(2-2i\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos(3\\pi/2)=0\\) och \\(\\sin(3\\pi/2)=-1\\), så \\(3(0-i)=-3i\\).</p></li><li><p><strong>Svar:</strong> \\(-3i\\).</p></li></ol></div></div></div></div>",
     "familj": "Växla mellan former för komplexa tal",
     "formaga": [
       "procedur"
@@ -80336,7 +80336,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(4(\\cos\\frac\\pi3+i\\sin\\frac\\pi3)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2+2\\sqrt3 i\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in \\(\\cos(\\pi/3)=1/2\\) och \\(\\sin(\\pi/3)=\\sqrt3/2\\): \\(4(1/2+i\\sqrt3/2)=2+2\\sqrt3i\\).</p></li><li><p><strong>Svar:</strong> \\(2+2\\sqrt3i\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80345,7 +80345,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(6(\\cos\\pi+i\\sin\\pi)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(-6\\)</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos\\pi=-1\\) och \\(\\sin\\pi=0\\), så \\(6(-1+i\\cdot0)=-6\\).</p></li><li><p><strong>Svar:</strong> \\(-6\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80354,7 +80354,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(2\\sqrt2(\\cos\\frac{7\\pi}4+i\\sin\\frac{7\\pi}4)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(2-2i\\)</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos(7\\pi/4)=\\sqrt2/2\\) och \\(\\sin(7\\pi/4)=-\\sqrt2/2\\). Multiplicera båda termerna med \\(2\\sqrt2\\).</p></li><li><p><strong>Svar:</strong> \\(2-2i\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80363,7 +80363,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(3(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(-3i\\)</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos(3\\pi/2)=0\\) och \\(\\sin(3\\pi/2)=-1\\), så \\(3(0-i)=-3i\\).</p></li><li><p><strong>Svar:</strong> \\(-3i\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80697,7 +80697,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv på formen \\(a+bi\\).</p><p>a) \\(2e^{i\\pi/2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(4e^{i\\pi}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(3e^{i2\\pi/3}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\sqrt2e^{-i\\pi/4}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor.</p></li><li><p class=\"facit-metod\">När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formel från formelbladet:</strong> I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(2i\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(-4\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(-\\frac32+\\frac{3\\sqrt3}{2}i\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(2-2i\\)</strong></p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eulers formel ger \\(e^{iv}=\\cos v+i\\sin v\\). Här är \\(\\cos(\\pi/2)=0\\) och \\(\\sin(\\pi/2)=1\\).</p></li><li><p><strong>Svar:</strong> \\(2i\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eulers formel ger \\(4e^{i\\pi}=4(\\cos\\pi+i\\sin\\pi)=4(-1+i\\cdot0)\\).</p></li><li><p><strong>Svar:</strong> \\(-4\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eulers formel ger \\(3e^{2i\\pi/3}=3(\\cos(2\\pi/3)+i\\sin(2\\pi/3))=3(-1/2+i\\sqrt3/2)\\).</p></li><li><p><strong>Svar:</strong> \\(-\\frac32+\\frac{3\\sqrt3}{2}i\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eulers formel ger \\(2\\sqrt2e^{-i\\pi/4}=2\\sqrt2(\\sqrt2/2-i\\sqrt2/2)\\).</p></li><li><p><strong>Svar:</strong> \\(2-2i\\).</p></li></ol></div></div></div></div>",
     "familj": "Växla mellan former för komplexa tal",
     "formaga": [
       "procedur"
@@ -80729,7 +80729,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(2e^{i\\pi/2}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(2i\\)</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eulers formel ger \\(e^{iv}=\\cos v+i\\sin v\\). Här är \\(\\cos(\\pi/2)=0\\) och \\(\\sin(\\pi/2)=1\\).</p></li><li><p><strong>Svar:</strong> \\(2i\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80738,7 +80738,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(4e^{i\\pi}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(-4\\)</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eulers formel ger \\(4e^{i\\pi}=4(\\cos\\pi+i\\sin\\pi)=4(-1+i\\cdot0)\\).</p></li><li><p><strong>Svar:</strong> \\(-4\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80747,7 +80747,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(3e^{i2\\pi/3}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-\\frac32+\\frac{3\\sqrt3}{2}i\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eulers formel ger \\(3e^{2i\\pi/3}=3(\\cos(2\\pi/3)+i\\sin(2\\pi/3))=3(-1/2+i\\sqrt3/2)\\).</p></li><li><p><strong>Svar:</strong> \\(-\\frac32+\\frac{3\\sqrt3}{2}i\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80756,7 +80756,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(2\\sqrt2e^{-i\\pi/4}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(2-2i\\)</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eulers formel ger \\(2\\sqrt2e^{-i\\pi/4}=2\\sqrt2(\\sqrt2/2-i\\sqrt2/2)\\).</p></li><li><p><strong>Svar:</strong> \\(2-2i\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80794,7 +80794,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv i exponentiell form.</p><p>a) \\(1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-2+2i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-3i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sqrt3-i\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor.</p></li><li><p class=\"facit-metod\">När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formel från formelbladet:</strong> I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sqrt2e^{i\\pi/4}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(2\\sqrt2e^{i3\\pi/4}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(3e^{-i\\pi/2}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(2e^{-i\\pi/6}\\)</strong></p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{1^2+1^2}=\\sqrt2\\) och \\(v=\\pi/4\\). Använd \\(z=re^{iv}\\).</p></li><li><p><strong>Svar:</strong> \\(\\sqrt2e^{i\\pi/4}\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(-2)^2+2^2}=2\\sqrt2\\). Punkten ligger i andra kvadranten och \\(v=3\\pi/4\\).</p></li><li><p><strong>Svar:</strong> \\(2\\sqrt2e^{i3\\pi/4}\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ligger på negativa imaginära axeln, så \\(r=3\\) och exempelvis \\(v=-\\pi/2\\).</p></li><li><p><strong>Svar:</strong> \\(3e^{-i\\pi/2}\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(\\sqrt3)^2+(-1)^2}=2\\). Punkten ligger i fjärde kvadranten och kan ges argumentet \\(v=-\\pi/6\\).</p></li><li><p><strong>Svar:</strong> \\(2e^{-i\\pi/6}\\).</p></li></ol></div></div></div></div>",
     "familj": "Växla mellan former för komplexa tal",
     "formaga": [
       "procedur"
@@ -80826,7 +80826,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(1+i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt2e^{i\\pi/4}\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{1^2+1^2}=\\sqrt2\\) och \\(v=\\pi/4\\). Använd \\(z=re^{iv}\\).</p></li><li><p><strong>Svar:</strong> \\(\\sqrt2e^{i\\pi/4}\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80835,7 +80835,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(-2+2i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\sqrt2e^{i3\\pi/4}\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(-2)^2+2^2}=2\\sqrt2\\). Punkten ligger i andra kvadranten och \\(v=3\\pi/4\\).</p></li><li><p><strong>Svar:</strong> \\(2\\sqrt2e^{i3\\pi/4}\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -80844,7 +80844,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(-3i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3e^{-i\\pi/2}\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ligger på negativa imaginära axeln, så \\(r=3\\) och exempelvis \\(v=-\\pi/2\\).</p></li><li><p><strong>Svar:</strong> \\(3e^{-i\\pi/2}\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -80853,7 +80853,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\sqrt3-i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formel från formelbladet: I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2e^{-i\\pi/6}\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(\\sqrt3)^2+(-1)^2}=2\\). Punkten ligger i fjärde kvadranten och kan ges argumentet \\(v=-\\pi/6\\).</p></li><li><p><strong>Svar:</strong> \\(2e^{-i\\pi/6}\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -81746,7 +81746,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv talen i polär form \\(r(\\cos v+i\\sin v)\\). Ange \\(0\\le v&lt;2\\pi\\).</p><p>a) \\(1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-\\sqrt3+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-2-2i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(3i\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor.</p></li><li><p class=\"facit-metod\">När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=\\sqrt2\\],</div></li><li><p>\\(v=\\pi/4\\): <strong>\\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=2\\],</div></li><li><p>\\(v=5\\pi/6\\): <strong>\\(2(\\cos\\frac{5\\pi}{6}+i\\sin\\frac{5\\pi}{6})\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=2\\sqrt2\\],</div></li><li><div class=\"facit-matte\">\\[v=5\\pi/4\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=3\\],</div></li><li><div class=\"facit-matte\">\\[v=\\pi/2\\].</div></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{1^2+1^2}=\\sqrt2\\) och \\(v=\\pi/4\\), som ligger i det angivna intervallet.</p></li><li><p><strong>Svar:</strong> \\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(-\\sqrt3)^2+1^2}=2\\). Punkten ligger i andra kvadranten med referensvinkeln \\(\\pi/6\\), så \\(v=5\\pi/6\\).</p></li><li><p><strong>Svar:</strong> \\(2(\\cos\\frac{5\\pi}6+i\\sin\\frac{5\\pi}6)\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(-2)^2+(-2)^2}=2\\sqrt2\\). Punkten ligger i tredje kvadranten, så \\(v=5\\pi/4\\).</p></li><li><p><strong>Svar:</strong> \\(2\\sqrt2(\\cos\\frac{5\\pi}4+i\\sin\\frac{5\\pi}4)\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ligger på positiva imaginära axeln, så \\(r=3\\) och \\(v=\\pi/2\\).</p></li><li><p><strong>Svar:</strong> \\(3(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)\\).</p></li></ol></div></div></div></div>",
     "familj": "Växla mellan former för komplexa tal",
     "formaga": [
       "procedur"
@@ -81778,17 +81778,17 @@ window.BANKMATO2 = [
       "d"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "polar_0_2pi",
+      "polar_0_2pi",
+      "polar_0_2pi",
+      "polar_0_2pi"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "<p>\\(1+i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=\\sqrt2\\],</div></li><li><p>\\(v=\\pi/4\\): \\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\) .</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{1^2+1^2}=\\sqrt2\\) och \\(v=\\pi/4\\), som ligger i det angivna intervallet.</p></li><li><p><strong>Svar:</strong> \\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -81797,7 +81797,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(-\\sqrt3+i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=2\\],</div></li><li><p>\\(v=5\\pi/6\\): \\(2(\\cos\\frac{5\\pi}{6}+i\\sin\\frac{5\\pi}{6})\\) .</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(-\\sqrt3)^2+1^2}=2\\). Punkten ligger i andra kvadranten med referensvinkeln \\(\\pi/6\\), så \\(v=5\\pi/6\\).</p></li><li><p><strong>Svar:</strong> \\(2(\\cos\\frac{5\\pi}6+i\\sin\\frac{5\\pi}6)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -81806,7 +81806,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(-2-2i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=2\\sqrt2\\],</div></li><li><div class=\"facit-matte\">\\[v=5\\pi/4\\].</div></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\sqrt{(-2)^2+(-2)^2}=2\\sqrt2\\). Punkten ligger i tredje kvadranten, så \\(v=5\\pi/4\\).</p></li><li><p><strong>Svar:</strong> \\(2\\sqrt2(\\cos\\frac{5\\pi}4+i\\sin\\frac{5\\pi}4)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -81815,7 +81815,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(3i\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=3\\],</div></li><li><div class=\"facit-matte\">\\[v=\\pi/2\\].</div></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ligger på positiva imaginära axeln, så \\(r=3\\) och \\(v=\\pi/2\\).</p></li><li><p><strong>Svar:</strong> \\(3(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,

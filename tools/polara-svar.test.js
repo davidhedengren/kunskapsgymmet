@@ -48,3 +48,24 @@ test('Alla 23 polära facit stämmer mot oberoende beräknade real- och imaginä
   q.rättSvar.forEach((s,i)=>{const v=c.polartSvarVarde(s);assert.ok(v,id+' '+i);assert.ok(Math.abs(v.re-expected[i][0])<1e-10,id+' real '+i);assert.ok(Math.abs(v.im-expected[i][1])<1e-10,id+' imag '+i);});
  }
 });
+test('Nygranskade polära facit representerar talen och följer frågornas formkrav',()=>{
+ const bankContext={window:{}};
+ vm.runInNewContext(fs.readFileSync(require('node:path').join(__dirname,'../uppgiftermato2.js'),'utf8'),bankContext);
+ const bank=Object.values(bankContext.window).find(Array.isArray);
+ const expected={
+  '4.197':[[1,1],[-1,1],[-Math.sqrt(3),-1],[Math.sqrt(3),-1]],
+  '4.198':[[0,2],[-3,0],[0,-4],[5,0]],
+  '4.288':[[1,1],[-Math.sqrt(3),1],[-2,-2],[0,3]]
+ };
+ for(const [id,values] of Object.entries(expected)){
+  const q=bank.find(t=>t.id===id),format=id==='4.288'?'polar_0_2pi':'polar';
+  assert.equal(q.rättSvar.length,values.length,id);
+  values.forEach(([re,im],i)=>{
+   const v=c.polartSvarVarde(q.rättSvar[i]);assert.ok(v,id+' '+i);
+   assert.ok(Math.abs(v.re-re)<1e-10,id+' real '+i);
+   assert.ok(Math.abs(v.im-im)<1e-10,id+' imaginärdel '+i);
+   assert.equal(q.svarFormat[i],format,id+' format '+i);
+   assert.equal(c.polartSvarRatt(q.rättSvar[i],q.rättSvar[i],id==='4.288'),true,id+' själv '+i);
+  });
+ }
+});

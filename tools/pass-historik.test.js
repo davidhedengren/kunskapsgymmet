@@ -15,6 +15,7 @@ function setup(){
   document:{getElementById:id=>id==='answer-result'?box:id==='kollaknapp'?button:null},
   localStorage:{setItem:(k,v)=>stored.set(k,v),removeItem:k=>stored.delete(k)},
   availableTasks:()=>tasks,tchatStang:()=>{},stangKalla:()=>{},renderSessionDone:()=>calls.push('report'),
+  kedjaTillLagring:()=>null,kedjaAteruppta:()=>{},kedjaNasta:()=>null,
   renderTraining:()=>{app.childNodes=[{value:'övning'}];},nextTask:()=>calls.push('new-task'),
   kgRegistreraForsok:()=>{throw Error('Övning ska inte registreras');},kgLoggaHandelse:()=>{throw Error('Övning ska inte loggas');},
   saveProfile:()=>{throw Error('Övning ska inte spara profil');},touchDay:()=>{throw Error('Övning ska inte räknas');}

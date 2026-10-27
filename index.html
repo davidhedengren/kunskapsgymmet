@@ -4069,7 +4069,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-26-tester-grona";
+const BANK_VERSION="2026-10-27-kedja-sparning-facit";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -4085,6 +4085,7 @@ function sparaPagaendePass(){
     localStorage.setItem(PASS_KEY,JSON.stringify({
       at:Date.now(), owner:syncOwner, kurs:state.course, track:state.track,
       uppgift:t.id,
+      kedja:kedjaTillLagring(status.kedja,t),
       passHistorik:h.map(x=>({id:x.task.id,klar:!!x.completed})),
       uppgiftStatus:{answered:live?!!live.answered:state.passReview?!!h.at(-1)?.completed:!!state.answered,
         noXp:!!status.noXp,solutionShown:!!status.solutionShown,
@@ -4145,6 +4146,7 @@ function aterupptaPass(d){
   state.solutionShown=!state.passReview && !!d.uppgiftStatus?.solutionShown;
   state.hintUsed=!state.passReview && !!d.uppgiftStatus?.hintUsed;
   state.hintVisible=!state.passReview && !!d.uppgiftStatus?.hintVisible;
+  kedjaAteruppta(t,d.kedja);
   return true;
 }
 const app=document.getElementById("app");
@@ -9248,7 +9250,7 @@ function beginSession(typ){
    medan eleven går bakåt, så inmatning, delresultat och visat facit bevaras. */
 const PASS_SVAR_FALT=["currentTask","answered","solutionShown","partResults","partIndex",
   "noXp","aktivRuta","hintUsed","hintVisible","altValda","altMiss","altOrdning",
-  "altOrdningId","ggForslag"];
+  "altOrdningId","ggForslag","kedja"];
 function passSvarStatus(){
   return Object.fromEntries(PASS_SVAR_FALT.map(k=>[k,
     state[k] instanceof Set ? new Set(state[k]) :
@@ -9297,6 +9299,7 @@ function passFramat(){
   if(state.passIndex<(state.passHistory||[]).length-1) return passVisa(state.passIndex+1);
   state.passReview=false;state.passLive=null;
   if(state.sessionDone>=state.sessionTarget) return renderSessionDone();
+  if(kedjaNasta(state.currentTask)) return kedjaFortsatt();
   nextTask();
 }
 function finishPassReview(delar){
@@ -9724,8 +9727,37 @@ function kedjaStarta(t){
   /* Visa hela sammanhanget från a). Svårare delar kan hoppas över även först
      i kedjan; de får inte försvinna utan förklaring (3.51 på nivå 2). */
   const start=0;
-  state.kedja={ursprungsId:t.ursprungsId,intro:delning.intro,delar,index:start,gjorda:[]};
+  state.kedja={ursprungsId:t.ursprungsId,intro:delning.intro,delar,index:start,gjorda:[],valdNiva};
   return delar[start].task;
+}
+/* Spara svar som text, aldrig körbar HTML. Frågor och figurer hämtas från banken
+   när passet återupptas, så äldre sparningar inte återinför rättade bankfel. */
+function kedjaTillLagring(k,t){
+  if(!k || k.delar[k.index]?.task.id!==t?.id) return null;
+  const text=html=>{const el=document.createElement('div');el.innerHTML=html||'';return el.textContent;};
+  return {ursprungsId:k.ursprungsId,aktuell:t.id,valdNiva:k.valdNiva,
+    gjorda:k.gjorda.map(g=>({etikett:g.etikett,svar:text(g.svar),ok:!!g.ok,
+      overhoppad:!!g.overhoppad,aterupptagen:!!g.aterupptagen}))};
+}
+function kedjaAteruppta(t,sparad){
+  kedjaStarta(t);
+  const k=state.kedja;
+  if(!k) return;
+  k.index=k.delar.findIndex(d=>d.task.id===t.id);
+  const giltig=sparad?.ursprungsId===k.ursprungsId && sparad.aktuell===t.id;
+  if(giltig && Number.isInteger(sparad.valdNiva) && sparad.valdNiva>=1 && sparad.valdNiva<=5){
+    k.valdNiva=sparad.valdNiva;
+    k.delar.forEach(d=>d.extra=levelNumber(d.task)>k.valdNiva);
+  }
+  const gjorda=giltig && Array.isArray(sparad.gjorda)?sparad.gjorda:[];
+  k.gjorda=[];
+  for(let i=0;i<=k.index;i++){
+    const d=k.delar[i],g=gjorda.find(g=>g.etikett===d.etikett);
+    if(i===k.index && !g) break;
+    k.gjorda.push({etikett:d.etikett,fraga:i?d.kort:d.hel,
+      svar:g?esc(String(g.svar||'')):'',ok:!!g?.ok,
+      overhoppad:!!g?.overhoppad,aterupptagen:!g || !!g.aterupptagen});
+  }
 }
 function kedjaAktuell(t){
   const k=state.kedja;
@@ -9736,11 +9768,11 @@ function kedjaTbody(t){
   if(!k) return null;
   const d=k.delar[k.index];
   const fraga=k.gjorda.length ? d.kort : d.hel;
-  const tidigare=k.gjorda.map(g=>`
+  const tidigare=k.gjorda.filter(g=>g.etikett!==d.etikett).map(g=>`
     <div class="kedja-del kedja-klar">
       <div class="kedja-rubrik">${esc(g.etikett)})</div>
       <div class="kedja-fraga">${g.fraga}</div>
-      ${g.overhoppad?'<div class="hint">Överhoppad – frivillig del.</div>':`<div class="kedja-svar ${g.ok?"ok":"fel"}"><span aria-hidden="true">${g.ok?"✓":"✗"}</span> Ditt svar: ${g.svar||"–"}</div>`}
+      ${g.aterupptagen?'<div class="hint">Tidigare del – svaret finns inte i den äldre sparningen.</div>':g.overhoppad?'<div class="hint">Överhoppad – frivillig del.</div>':`<div class="kedja-svar ${g.ok?"ok":"fel"}"><span aria-hidden="true">${g.ok?"✓":"✗"}</span> Ditt svar: ${g.svar||"–"}</div>`}
     </div>`).join("");
   return `<p class="hint kedja-sammanhang">Uppgift ${esc(String(k.ursprungsId))} · Del ${k.index+1} av ${k.delar.length}</p>${k.intro}${tidigare}
     <div class="kedja-del kedja-nu">
@@ -9775,7 +9807,10 @@ function kedjaSpara(t,ok){
       .map(e=>esc(e.value.trim())).filter(Boolean).join("; ");
   }
   const d=k.delar[k.index];
-  k.gjorda.push({etikett:d.etikett,fraga:k.gjorda.length?d.kort:d.hel,svar,ok});
+  const record={etikett:d.etikett,fraga:k.index?d.kort:d.hel,svar,ok};
+  const befintlig=k.gjorda.findIndex(g=>g.etikett===d.etikett);
+  if(befintlig>=0) k.gjorda[befintlig]=record;
+  else k.gjorda.push(record);
 }
 function kedjaNasta(t){
   const k=kedjaAktuell(t);
@@ -10326,6 +10361,10 @@ function textSvarRatt(anv,facit){
   const a=textNyckel(anv), f=textNyckel(facit);
   if(!a||!f) return false;
   if(a===f) return true;
+  /* ”Omöjligt” är ett naturligt svar på en olösbar ekvation, men betyder
+     inte ”ingen korrelation” eller andra orelaterade korta textsvar. */
+  if(/^(?:ingen lösning|inga lösningar|saknar lösning|ingen reell lösning|inga reella lösningar)$/.test(f)
+     && /^(?:omöjligt|omojligt|det är omöjligt|∅|ø)$/.test(a)) return true;
   /* ja/nej/sant/falskt följt av en motivering */
   if(/^(?:ja|nej|sant|falskt)$/.test(f)) return a.split(" ")[0]===f;
   /* "ingen eller mycket svag korrelation": varje alternativ godkänns */
@@ -10860,7 +10899,10 @@ function formatRatt(anv,facit,meta){
       if(tom(f)||tom(mangdSvar)) return tom(f)&&tom(mangdSvar);
       /* Gradtecken skrivs ofta efter varje lösning ("25,6°, 64,4°") och påverkar inte värdet. */
       const utanGrad=x=>String(x).replace(/\s*°/g,"");
-      const la=listaAv(utanGrad(mangdSvar)).map(hogerled), lf=listaAv(utanGrad(f)).map(hogerled);
+      /* En mängd innehåller varje värde en gång, även om eleven råkar
+         upprepa det. Slå bara ihop exakt likvärdiga uttryck, inte närmevärden. */
+      const unika=xs=>xs.filter((v,i)=>!xs.slice(0,i).some(w=>algebraisktLika(v,w)===true));
+      const la=unika(listaAv(utanGrad(mangdSvar)).map(hogerled)), lf=unika(listaAv(utanGrad(f)).map(hogerled));
       const kvar=[...lf];
       if(la.length===lf.length && la.every(v=>{
         const i=kvar.findIndex(k=>naraNog(helTalvarde(v),helTalvarde(k),tol)||algebraisktLika(v,k)===true);
@@ -10919,8 +10961,12 @@ function formatRatt(anv,facit,meta){
       /* Ett villkor efter kommatecken (", x≠0") tas bort, men inte ett decimalkomma: y=-1,5x+6 ska vara kvar. */
       const rensa=x=>String(x).split(/(?:(?<!\d),|,(?!\d))(?![^()]*\))|\s+där\s+|\s+om\s+/i)[0];
       /* Två ekvationer jämförs som ekvationer, så att y-4=4(x-2) godtas mot y=4x-4. */
-      if(rensa(a).includes("=") && rensa(f).includes("=")
-         && algebraisktLika(rensa(a),rensa(f))===true) return true;
+      if(rensa(a).includes("=") && rensa(f).includes("="))
+        return algebraisktLika(rensa(a),rensa(f))===true;
+      /* När själva ekvationen efterfrågas räcker inte dess högerled.
+         Däremot får enkla svarsetiketter som y= eller f(x)= utelämnas. */
+      const fe=rensa(f).includes("=")?splitEquation(tillNerdamer(normalizeMathInput(rensa(f)))):null;
+      if(fe && !/^[a-z]\w*(?:['′]|\([^)]*\))?$/i.test(fe[0].trim())) return false;
       /* Olika variabler i vänsterledet (y=2 mot x=2) är olika svar,
          även om högerleden är lika. */
       const vl=x=>(stadaSvar(rensa(x)).match(/^\s*([a-zåäö])\s*=/i)||[])[1]?.toLowerCase();
@@ -14474,6 +14520,7 @@ function finishAttempt(resultat){
   const rankBefore=rankFor(levelBefore), rankAfter=rankFor(levelAfter);
   saveProfile();
   kgLoggaHandelse(t,{andel,correct,xp});
+  if(state.kedja) kedjaSpara(t,correct);
   sparaPagaendePass();
 
   animeraXp(xpBefore,profile.xp);

@@ -60064,8 +60064,8 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Vatten rinner in i en tank. Flödet \\(q(t)\\), i liter per minut, ges av</p><p>\\[q(t)=18+6\\sin(\\pi t/10),\\qquad 0\\le t\\le20.\\]</p><p>Tanken innehåller 120 liter från början.</p><p>a) Hur mycket vatten finns i tanken efter 10 minuter?<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm den genomsnittliga inflödeshastigheten under de första 20 minuterna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymökningen är integralen av flödet:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\Delta V=\\int_0^{10}(18+6\\sin(\\pi t/10))dt.\\]</p></li><li><p>En primitiv funktion är \\(18t-60\\cos(\\pi t/10)/\\pi\\).</p></li><li><p>Därför</p></li><li><p>\\[\\Delta V=180+\\frac{120}{\\pi}\\approx218{,}2.\\]</p></li><li><p>Efter 10 min finns alltså <strong>\\(300+120/\\pi\\approx338{,}2\\) liter</strong>.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Under 20 min ger sinusdelen lika mycket positivt som negativt bidrag:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\int_0^{20}q(t)dt=360.\\]</p></li><li><p>Medelvärdet är \\(360/20=\\)<strong>18 L/min</strong>.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
+    "t": "<p>Vatten rinner in i en tank. Flödet \\(q(t)\\), i liter per minut, ges av</p><p>\\[q(t)=18+6\\sin(\\pi t/10).\\]</p><p>Modellen gäller \\(0\\le t\\le20\\).</p><p>Tanken innehåller 120 liter från början.</p><p>a) Hur mycket vatten finns i tanken efter 10 minuter?<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm den genomsnittliga inflödeshastigheten under de första 20 minuterna.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymökningen fås genom att integrera inflödet under de första 10 minuterna: \\[\\Delta V=\\int_0^{10}q(t)\\,dt.\\]</p></li><li><p>En primitiv funktion är \\(18t-60\\cos(\\pi t/10)/\\pi\\). Insättning av gränserna ger \\(\\Delta V=180+120/\\pi\\).</p></li><li><p>Tanken innehåller redan 120 liter. <strong>Svar:</strong> Volymen blir \\(300+120/\\pi\\approx338{,}2\\) liter.</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På 20 minuter genomgår sinusdelen en hel period. Dess positiva och negativa bidrag till integralen tar ut varandra.</p></li><li><p>Totalt strömmar därför \\(18\\cdot20=360\\) liter in. Medelflödet är \\(360/20=18\\) liter per minut.</p></li><li><p><strong>Svar:</strong> Det genomsnittliga inflödet är \\(18\\) L/min.</p></li></ol></div></div></div></div>",
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
@@ -60074,7 +60074,7 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      338.2,
+      338.19718634205486,
       18
     ],
     "tolerans": [
@@ -60103,7 +60103,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Hur mycket vatten finns i tanken efter 10 minuter?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymökningen är integralen av flödet:\n\\[\\Delta V=\\int_0^{10}(18+6\\sin(\\pi t/10))dt.\\]\nEn primitiv funktion är \\(18t-60\\cos(\\pi t/10)/\\pi\\).</p></li><li><p>Därför\n\\[\\Delta V=180+\\frac{120}{\\pi}\\approx218{,}2.\\]\nEfter 10 min finns alltså \\(300+120/\\pi\\approx338{,}2\\) liter .</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymökningen fås genom att integrera inflödet under de första 10 minuterna: \\[\\Delta V=\\int_0^{10}q(t)\\,dt.\\]</p></li><li><p>En primitiv funktion är \\(18t-60\\cos(\\pi t/10)/\\pi\\). Insättning av gränserna ger \\(\\Delta V=180+120/\\pi\\).</p></li><li><p>Tanken innehåller redan 120 liter. <strong>Svar:</strong> Volymen blir \\(300+120/\\pi\\approx338{,}2\\) liter.</p></li></ol></div>",
         "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 1
@@ -60111,7 +60111,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm den genomsnittliga inflödeshastigheten under de första 20 minuterna.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Under 20 min ger sinusdelen lika mycket positivt som negativt bidrag:\n\\[\\int_0^{20}q(t)dt=360.\\]\nMedelvärdet är \\(360/20=\\) 18 L/min .</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På 20 minuter genomgår sinusdelen en hel period. Dess positiva och negativa bidrag till integralen tar ut varandra.</p></li><li><p>Totalt strömmar därför \\(18\\cdot20=360\\) liter in. Medelflödet är \\(360/20=18\\) liter per minut.</p></li><li><p><strong>Svar:</strong> Det genomsnittliga inflödet är \\(18\\) L/min.</p></li></ol></div>",
         "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 1
@@ -60119,7 +60119,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
     "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
-    "spelIntro": "<p>Vatten rinner in i en tank. Flödet \\(q(t)\\), i liter per minut, ges av</p><p>\\[q(t)=18+6\\sin(\\pi t/10),\\qquad 0\\le t\\le20.\\]</p><p>Tanken innehåller 120 liter från början.</p>",
+    "spelIntro": "<p>Vatten rinner in i en tank. Flödet \\(q(t)\\), i liter per minut, ges av</p><p>\\[q(t)=18+6\\sin(\\pi t/10).\\]</p><p>Modellen gäller \\(0\\le t\\le20\\).</p><p>Tanken innehåller 120 liter från början.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -60268,7 +60268,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En modell för ett vattenflöde genom en kanal är</p><p>\\[q(t)=30+12\\sin(\\pi t/6)\\]</p><p>m³/min, där \\(t\\) mäts i minuter.</p><p>a) Bestäm den totala vattenvolymen som passerar under de första 6 minuterna.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) En person påstår att den genomsnittliga flödeshastigheten under dessa 6 minuter är 30 m³/min eftersom 30 är modellens medellinje. Avgör om påståendet stämmer och motivera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymen är</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[V=\\int_0^6(30+12\\sin(\\pi t/6))dt.\\]</p></li><li><p>\\[V=180+\\left[-\\frac{72}{\\pi}\\cos(\\pi t/6)\\right]_0^6=180+\\frac{144}{\\pi}\\approx\\boxed{225,8\\text{ m}^3}.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medelvärdet under intervallet är \\(V/6=30+24/\\pi\\approx37{,}6\\) m³/min.</p></li><li><p>Påståendet <strong>stämmer inte</strong>.</p></li><li><p>Sex minuter är bara en halv period, och sinusdelen ger ett positivt nettobidrag på just detta intervall.</p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymen är integralen av flödet: \\[V=\\int_0^6(30+12\\sin(\\pi t/6))\\,dt.\\]</p></li><li><p>En primitiv funktion är \\(30t-72\\cos(\\pi t/6)/\\pi\\). Insättning av gränserna ger \\(V=180+144/\\pi\\).</p></li><li><p><strong>Svar:</strong> Ungefär \\(225{,}8\\) m³ vatten passerar.</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medelvärdet är den totala volymen delad med tiden. Använd \\(V=180+144/\\pi\\) m³ för de sex minuterna.</p></li><li><p>\\(V/6=30+24/\\pi\\approx37{,}6\\) m³/min. Det är större än 30 eftersom sinusdelen är positiv under denna halva period.</p></li><li><p><strong>Svar:</strong> Påståendet stämmer inte; medelflödet är cirka \\(37{,}6\\) m³/min.</p></li></ol></div></div></div></div>",
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",

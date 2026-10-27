@@ -44,7 +44,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-8+5-11\\)</div><div>b) \\(6-14+9\\)</div><div>c) \\(-3-7+12\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-8+5-11=-3-11=-14\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6-14+9=-8+9=1\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-3-7+12=-10+12=2\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Börja på −8 och gå 5 steg uppåt</p><div class=\"facit-matte\">\\[-8+5=-3\\]</div></li><li><p class=\"facit-rubrik\">Gå sedan 11 steg nedåt från −3</p><div class=\"facit-matte\">\\[-3-11=-14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-14\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Från 6 går man 14 steg nedåt och passerar noll</p><div class=\"facit-matte\">\\[6-14=-8\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 9</p><div class=\"facit-matte\">\\[-8+9=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två minskningar i rad ger ett ännu mindre tal</p><div class=\"facit-matte\">\\[-3-7=-10\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 12</p><div class=\"facit-matte\">\\[-10+12=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -65,7 +65,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-8+5-11\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-8+5-11=-3-11=-14\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Börja på −8 och gå 5 steg uppåt</p><div class=\"facit-matte\">\\[-8+5=-3\\]</div></li><li><p class=\"facit-rubrik\">Gå sedan 11 steg nedåt från −3</p><div class=\"facit-matte\">\\[-3-11=-14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-14\\)</p></div>",
         "ledtrad": "<p>Börja vid −8. Åt vilket håll går du när du adderar 5?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -73,7 +73,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(6-14+9\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6-14+9=-8+9=1\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Från 6 går man 14 steg nedåt och passerar noll</p><div class=\"facit-matte\">\\[6-14=-8\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 9</p><div class=\"facit-matte\">\\[-8+9=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
         "ledtrad": "<p>Vad blir skillnaden 6 − 14 innan du lägger till 9?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -81,7 +81,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-3-7+12\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-3-7+12=-10+12=2\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två minskningar i rad ger ett ännu mindre tal</p><div class=\"facit-matte\">\\[-3-7=-10\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 12</p><div class=\"facit-matte\">\\[-10+12=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
         "ledtrad": "<p>Kan du först samla de två negativa termerna?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -182,7 +182,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket av talen −12, −5, 0 och 3 är minst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det minsta talet ligger längst till vänster på tallinjen.</p></li><li><p><strong>−12</strong> ligger till vänster om −5, 0 och 3.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det minsta talet ligger längst till vänster på tallinjen</p><p>Ordningen från vänster är −12, −5, 0, 3.</p></li><li><p class=\"facit-rubrik\">Långt från noll åt vänster betyder litet</p><p>−12 ligger längre till vänster än −5, så −12 är mindre.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-12\\)</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -273,7 +273,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-4-(-7)+2\\)</div><div>b) \\(8-(-3)-15\\)</div><div>c) \\(-11-(-5)+9\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-4-(-7)+2=-4+7+2=5\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8-(-3)-15=8+3-15=-4\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-11-(-5)+9=-11+5+9=3\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort −7 är samma sak som att lägga till 7</p><div class=\"facit-matte\">\\[-4-(-7)+2=-4+7+2\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[-4+7=3,\\qquad 3+2=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort −3 är samma sak som att lägga till 3</p><div class=\"facit-matte\">\\[8-(-3)-15=8+3-15\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[8+3=11,\\qquad 11-15=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort −5 är samma sak som att lägga till 5</p><div class=\"facit-matte\">\\[-11-(-5)+9=-11+5+9\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[-11+5=-6,\\qquad -6+9=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -294,7 +294,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-4-(-7)+2\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-4-(-7)+2=-4+7+2=5\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort −7 är samma sak som att lägga till 7</p><div class=\"facit-matte\">\\[-4-(-7)+2=-4+7+2\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[-4+7=3,\\qquad 3+2=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
         "ledtrad": "<p>Vad innebär det att subtrahera ett negativt tal?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -302,7 +302,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(8-(-3)-15\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8-(-3)-15=8+3-15=-4\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort −3 är samma sak som att lägga till 3</p><div class=\"facit-matte\">\\[8-(-3)-15=8+3-15\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[8+3=11,\\qquad 11-15=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\)</p></div>",
         "ledtrad": "<p>Skilj på subtraktionstecknet och tecknet som hör till talet −3.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -310,7 +310,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-11-(-5)+9\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-11-(-5)+9=-11+5+9=3\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort −5 är samma sak som att lägga till 5</p><div class=\"facit-matte\">\\[-11-(-5)+9=-11+5+9\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[-11+5=-6,\\qquad -6+9=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
         "ledtrad": "<p>Skriv först om subtraktionen av −5 som en addition.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -403,7 +403,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-5+(-8)-(-6)\\)</div><div>b) \\(9+(-12)+7\\)</div><div>c) \\(-14+(-3)+20\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-5+(-8)-(-6)=-5-8+6=-7\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[9+(-12)+7=9-12+7=4\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-14+(-3)+20=-14-3+20=3\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus, minus ett negativt tal blir plus</p><div class=\"facit-matte\">\\[-5+(-8)-(-6)=-5-8+6\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[-5-8=-13,\\qquad -13+6=-7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-7\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att lägga till −12 är samma sak som att dra bort 12</p><div class=\"facit-matte\">\\[9+(-12)+7=9-12+7\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[9-12=-3,\\qquad -3+7=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att lägga till −3 är samma sak som att dra bort 3</p><div class=\"facit-matte\">\\[-14+(-3)+20=-14-3+20\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[-14-3=-17,\\qquad -17+20=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -424,7 +424,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-5+(-8)-(-6)\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-5+(-8)-(-6)=-5-8+6=-7\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus, minus ett negativt tal blir plus</p><div class=\"facit-matte\">\\[-5+(-8)-(-6)=-5-8+6\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[-5-8=-13,\\qquad -13+6=-7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-7\\)</p></div>",
         "ledtrad": "<p>Vilka av minustecknen hör till ett tal, och vilka visar en operation?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -432,7 +432,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(9+(-12)+7\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[9+(-12)+7=9-12+7=4\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att lägga till −12 är samma sak som att dra bort 12</p><div class=\"facit-matte\">\\[9+(-12)+7=9-12+7\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[9-12=-3,\\qquad -3+7=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
         "ledtrad": "<p>Att addera −12 ger en förflyttning åt vilket håll?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -440,7 +440,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-14+(-3)+20\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-14+(-3)+20=-14-3+20=3\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att lägga till −3 är samma sak som att dra bort 3</p><div class=\"facit-matte\">\\[-14+(-3)+20=-14-3+20\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[-14-3=-17,\\qquad -17+20=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
         "ledtrad": "<p>Hur mycket fattas från summan av de två negativa talen till noll?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -534,7 +534,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((-3)\\cdot4+7\\)</div><div>b) \\(5+(-2)\\cdot6\\)</div><div>c) \\((-4)\\cdot(-3)-10\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-3)\\cdot4+7=-12+7=-5\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5+(-2)\\cdot6=5-12=-7\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-4)\\cdot(-3)-10=12-10=2\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: negativt gånger positivt blir negativt</p><div class=\"facit-matte\">\\[(-3)\\cdot4=-12\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 7</p><div class=\"facit-matte\">\\[-12+7=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: negativt gånger positivt blir negativt</p><div class=\"facit-matte\">\\[(-2)\\cdot6=-12\\]</div></li><li><p class=\"facit-rubrik\">Att lägga till −12 är att dra bort 12</p><div class=\"facit-matte\">\\[5+(-12)=5-12=-7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-7\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-4)\\cdot(-3)=12\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 10</p><div class=\"facit-matte\">\\[12-10=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -555,7 +555,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((-3)\\cdot4+7\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-3)\\cdot4+7=-12+7=-5\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: negativt gånger positivt blir negativt</p><div class=\"facit-matte\">\\[(-3)\\cdot4=-12\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 7</p><div class=\"facit-matte\">\\[-12+7=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div>",
         "ledtrad": "<p>Bestäm produktens tecken innan du adderar 7.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -563,7 +563,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(5+(-2)\\cdot6\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5+(-2)\\cdot6=5-12=-7\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: negativt gånger positivt blir negativt</p><div class=\"facit-matte\">\\[(-2)\\cdot6=-12\\]</div></li><li><p class=\"facit-rubrik\">Att lägga till −12 är att dra bort 12</p><div class=\"facit-matte\">\\[5+(-12)=5-12=-7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-7\\)</p></div>",
         "ledtrad": "<p>Vilken operation har högst prioritet här?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -571,7 +571,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((-4)\\cdot(-3)-10\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-4)\\cdot(-3)-10=12-10=2\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-4)\\cdot(-3)=12\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 10</p><div class=\"facit-matte\">\\[12-10=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
         "ledtrad": "<p>Hur många negativa faktorer ingår i produkten?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -663,7 +663,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{18}{-3}+5\\)</div><div>b) \\(\\frac{-24}{6}-7\\)</div><div>c) \\(\\frac{-35}{-5}-9\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{18}{-3}+5=-6+5=-1\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{-24}{6}-7=-4-7=-11\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{-35}{-5}-9=7-9=-2\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten först: olika tecken ger negativ kvot</p><div class=\"facit-matte\">\\[\\frac{18}{-3}=-6\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 5</p><div class=\"facit-matte\">\\[-6+5=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten först: olika tecken ger negativ kvot</p><div class=\"facit-matte\">\\[\\frac{-24}{6}=-4\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 7</p><div class=\"facit-matte\">\\[-4-7=-11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-11\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten först: samma tecken ger positiv kvot</p><div class=\"facit-matte\">\\[\\frac{-35}{-5}=7\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 9</p><div class=\"facit-matte\">\\[7-9=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -684,7 +684,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{18}{-3}+5\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{18}{-3}+5=-6+5=-1\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten först: olika tecken ger negativ kvot</p><div class=\"facit-matte\">\\[\\frac{18}{-3}=-6\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 5</p><div class=\"facit-matte\">\\[-6+5=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
         "ledtrad": "<p>Vilket tecken får en kvot av två tal med olika tecken?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -692,7 +692,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{-24}{6}-7\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{-24}{6}-7=-4-7=-11\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten först: olika tecken ger negativ kvot</p><div class=\"facit-matte\">\\[\\frac{-24}{6}=-4\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 7</p><div class=\"facit-matte\">\\[-4-7=-11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-11\\)</p></div>",
         "ledtrad": "<p>Beräkna kvoten före subtraktionen.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -700,7 +700,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{-35}{-5}-9\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{-35}{-5}-9=7-9=-2\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten först: samma tecken ger positiv kvot</p><div class=\"facit-matte\">\\[\\frac{-35}{-5}=7\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 9</p><div class=\"facit-matte\">\\[7-9=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div>",
         "ledtrad": "<p>Täljare och nämnare har samma tecken. Vad innebär det för kvoten?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -792,7 +792,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-2+3\\cdot(-4)\\)</div><div>b) \\(7-2\\cdot6\\)</div><div>c) \\(-5+(-3)\\cdot(-2)\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2+3\\cdot(-4)=-2-12=-14\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7-2\\cdot6=7-12=-5\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-5+(-3)\\cdot(-2)=-5+6=1\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: positivt gånger negativt blir negativt</p><div class=\"facit-matte\">\\[3\\cdot(-4)=-12\\]</div></li><li><p class=\"facit-rubrik\">Att lägga till −12 är att dra bort 12</p><div class=\"facit-matte\">\\[-2+(-12)=-2-12=-14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-14\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först</p><div class=\"facit-matte\">\\[2\\cdot6=12\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 12 från 7, och svaret hamnar under noll</p><div class=\"facit-matte\">\\[7-12=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-3)\\cdot(-2)=6\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 6</p><div class=\"facit-matte\">\\[-5+6=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -813,7 +813,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-2+3\\cdot(-4)\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2+3\\cdot(-4)=-2-12=-14\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: positivt gånger negativt blir negativt</p><div class=\"facit-matte\">\\[3\\cdot(-4)=-12\\]</div></li><li><p class=\"facit-rubrik\">Att lägga till −12 är att dra bort 12</p><div class=\"facit-matte\">\\[-2+(-12)=-2-12=-14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-14\\)</p></div>",
         "ledtrad": "<p>Räkna produkten före additionen. Vilket tecken får produkten?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -821,7 +821,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(7-2\\cdot6\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7-2\\cdot6=7-12=-5\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först</p><div class=\"facit-matte\">\\[2\\cdot6=12\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 12 från 7, och svaret hamnar under noll</p><div class=\"facit-matte\">\\[7-12=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div>",
         "ledtrad": "<p>Ska du börja med 7 − 2 eller med 2 · 6?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -829,7 +829,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-5+(-3)\\cdot(-2)\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-5+(-3)\\cdot(-2)=-5+6=1\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-3)\\cdot(-2)=6\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 6</p><div class=\"facit-matte\">\\[-5+6=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
         "ledtrad": "<p>Håll isär produktens tecken och det inledande talet −5.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -921,7 +921,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((-2)(5-8)+4\\)</div><div>b) \\(3(-4+1)-2\\)</div><div>c) \\(-5(2-6)+7\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-2)(5-8)+4=(-2)(-3)+4=6+4=10\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3(-4+1)-2=3(-3)-2=-9-2=-11\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-5(2-6)+7=(-5)(-4)+7=20+7=27\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först</p><div class=\"facit-matte\">\\[5-8=-3\\]</div></li><li><p class=\"facit-rubrik\">Två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-2)\\cdot(-3)=6\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 4</p><div class=\"facit-matte\">\\[6+4=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först</p><div class=\"facit-matte\">\\[-4+1=-3\\]</div></li><li><p class=\"facit-rubrik\">Positivt gånger negativt blir negativt</p><div class=\"facit-matte\">\\[3\\cdot(-3)=-9\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 2</p><div class=\"facit-matte\">\\[-9-2=-11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-11\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först</p><div class=\"facit-matte\">\\[2-6=-4\\]</div></li><li><p class=\"facit-rubrik\">Två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-5)\\cdot(-4)=20\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 7</p><div class=\"facit-matte\">\\[20+7=27\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 27</p></div></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -942,7 +942,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((-2)(5-8)+4\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-2)(5-8)+4=(-2)(-3)+4=6+4=10\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först</p><div class=\"facit-matte\">\\[5-8=-3\\]</div></li><li><p class=\"facit-rubrik\">Två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-2)\\cdot(-3)=6\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 4</p><div class=\"facit-matte\">\\[6+4=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
         "ledtrad": "<p>Bestäm parentesens värde först.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -950,7 +950,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(3(-4+1)-2\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3(-4+1)-2=3(-3)-2=-9-2=-11\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först</p><div class=\"facit-matte\">\\[-4+1=-3\\]</div></li><li><p class=\"facit-rubrik\">Positivt gånger negativt blir negativt</p><div class=\"facit-matte\">\\[3\\cdot(-3)=-9\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 2</p><div class=\"facit-matte\">\\[-9-2=-11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-11\\)</p></div>",
         "ledtrad": "<p>Talet 3 framför parentesen betyder multiplikation.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -958,7 +958,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-5(2-6)+7\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-5(2-6)+7=(-5)(-4)+7=20+7=27\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först</p><div class=\"facit-matte\">\\[2-6=-4\\]</div></li><li><p class=\"facit-rubrik\">Två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-5)\\cdot(-4)=20\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 7</p><div class=\"facit-matte\">\\[20+7=27\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 27</p></div>",
         "ledtrad": "<p>Vilket tecken har parentesens värde?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1050,7 +1050,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-4-3\\cdot(-5)+2\\)</div><div>b) \\(8+(-2)\\cdot7-3\\)</div><div>c) \\(-6-\\frac{18}{-3}+1\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-4-3\\cdot(-5)+2=-4-(-15)+2=-4+15+2=13\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8+(-2)\\cdot7-3=8-14-3=-9\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-6-\\frac{18}{-3}+1=-6-(-6)+1=1\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: positivt gånger negativt blir negativt</p><div class=\"facit-matte\">\\[3\\cdot(-5)=-15\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −15 är samma sak som att lägga till 15</p><div class=\"facit-matte\">\\[-4-(-15)+2=-4+15+2\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[-4+15=11,\\qquad 11+2=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: negativt gånger positivt blir negativt</p><div class=\"facit-matte\">\\[(-2)\\cdot7=-14\\]</div></li><li><p class=\"facit-rubrik\">Sätt in produkten och räkna från vänster</p><div class=\"facit-matte\">\\[8-14-3=-6-3=-9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-9\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten först: olika tecken ger negativ kvot</p><div class=\"facit-matte\">\\[\\frac{18}{-3}=-6\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −6 är samma sak som att lägga till 6</p><div class=\"facit-matte\">\\[-6-(-6)+1=-6+6+1\\]</div></li><li><p class=\"facit-rubrik\">−6 och +6 tar ut varandra</p><div class=\"facit-matte\">\\[0+1=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -1071,7 +1071,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-4-3\\cdot(-5)+2\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-4-3\\cdot(-5)+2=-4-(-15)+2=-4+15+2=13\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: positivt gånger negativt blir negativt</p><div class=\"facit-matte\">\\[3\\cdot(-5)=-15\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −15 är samma sak som att lägga till 15</p><div class=\"facit-matte\">\\[-4-(-15)+2=-4+15+2\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[-4+15=11,\\qquad 11+2=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13</p></div>",
         "ledtrad": "<p>Beräkna produkten och behåll subtraktionstecknet framför den.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1079,7 +1079,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(8+(-2)\\cdot7-3\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8+(-2)\\cdot7-3=8-14-3=-9\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: negativt gånger positivt blir negativt</p><div class=\"facit-matte\">\\[(-2)\\cdot7=-14\\]</div></li><li><p class=\"facit-rubrik\">Sätt in produkten och räkna från vänster</p><div class=\"facit-matte\">\\[8-14-3=-6-3=-9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-9\\)</p></div>",
         "ledtrad": "<p>Multiplikationen görs före både additionen och subtraktionen.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1087,7 +1087,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-6-\\frac{18}{-3}+1\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-6-\\frac{18}{-3}+1=-6-(-6)+1=1\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten först: olika tecken ger negativ kvot</p><div class=\"facit-matte\">\\[\\frac{18}{-3}=-6\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −6 är samma sak som att lägga till 6</p><div class=\"facit-matte\">\\[-6-(-6)+1=-6+6+1\\]</div></li><li><p class=\"facit-rubrik\">−6 och +6 tar ut varandra</p><div class=\"facit-matte\">\\[0+1=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
         "ledtrad": "<p>Vad händer när den negativa kvoten subtraheras?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1196,7 +1196,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((-3)^2-5\\)</div><div>b) \\(-2^3+6\\)</div><div>c) \\((-4)^2-20\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-3)^2-5=9-5=4\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2^3+6=-(2\\cdot2\\cdot2)+6=-8+6=-2\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-4)^2-20=16-20=-4\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen gör att hela −3 kvadreras</p><div class=\"facit-matte\">\\[(-3)^2=(-3)\\cdot(-3)=9\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 5</p><div class=\"facit-matte\">\\[9-5=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ingen parentes: bara 2 upphöjs, minustecknet står kvar framför</p><div class=\"facit-matte\">\\[-2^3=-(2\\cdot2\\cdot2)=-8\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 6</p><div class=\"facit-matte\">\\[-8+6=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen gör att hela −4 kvadreras</p><div class=\"facit-matte\">\\[(-4)^2=(-4)\\cdot(-4)=16\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 20</p><div class=\"facit-matte\">\\[16-20=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\)</p></div></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -1217,7 +1217,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((-3)^2-5\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-3)^2-5=9-5=4\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen gör att hela −3 kvadreras</p><div class=\"facit-matte\">\\[(-3)^2=(-3)\\cdot(-3)=9\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 5</p><div class=\"facit-matte\">\\[9-5=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
         "ledtrad": "<p>Vilket tal är bas i potensen?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1225,7 +1225,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-2^3+6\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2^3+6=-(2\\cdot2\\cdot2)+6=-8+6=-2\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ingen parentes: bara 2 upphöjs, minustecknet står kvar framför</p><div class=\"facit-matte\">\\[-2^3=-(2\\cdot2\\cdot2)=-8\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 6</p><div class=\"facit-matte\">\\[-8+6=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div>",
         "ledtrad": "<p>Potensen gäller 2; minustecknet står utanför.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1233,7 +1233,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((-4)^2-20\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-4)^2-20=16-20=-4\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen gör att hela −4 kvadreras</p><div class=\"facit-matte\">\\[(-4)^2=(-4)\\cdot(-4)=16\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 20</p><div class=\"facit-matte\">\\[16-20=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\)</p></div>",
         "ledtrad": "<p>Skriv kvadraten som två lika faktorer.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1341,7 +1341,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-1{,}5+0{,}8-0{,}6\\)</div><div>b) \\(2{,}4-3{,}1+0{,}5\\)</div><div>c) \\(-0{,}7-1{,}2+2{,}3\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-1{,}5+0{,}8-0{,}6=-0{,}7-0{,}6=-1{,}3\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2{,}4-3{,}1+0{,}5=-0{,}7+0{,}5=-0{,}2\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-0{,}7-1{,}2+2{,}3=-1{,}9+2{,}3=0{,}4\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Börja på −1,5 och gå 0,8 uppåt</p><div class=\"facit-matte\">\\[-1{,}5+0{,}8=-0{,}7\\]</div></li><li><p class=\"facit-rubrik\">Gå sedan 0,6 nedåt</p><div class=\"facit-matte\">\\[-0{,}7-0{,}6=-1{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1{,}3\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Från 2,4 går man 3,1 nedåt och passerar noll</p><div class=\"facit-matte\">\\[2{,}4-3{,}1=-0{,}7\\]</div></li><li><p class=\"facit-rubrik\">Gå sedan 0,5 uppåt</p><div class=\"facit-matte\">\\[-0{,}7+0{,}5=-0{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}2\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två minskningar i rad ger ett mindre tal</p><div class=\"facit-matte\">\\[-0{,}7-1{,}2=-1{,}9\\]</div></li><li><p class=\"facit-rubrik\">Gå sedan 2,3 uppåt och passera noll</p><div class=\"facit-matte\">\\[-1{,}9+2{,}3=0{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}4\\)</p></div></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -1362,7 +1362,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-1{,}5+0{,}8-0{,}6\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-1{,}5+0{,}8-0{,}6=-0{,}7-0{,}6=-1{,}3\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Börja på −1,5 och gå 0,8 uppåt</p><div class=\"facit-matte\">\\[-1{,}5+0{,}8=-0{,}7\\]</div></li><li><p class=\"facit-rubrik\">Gå sedan 0,6 nedåt</p><div class=\"facit-matte\">\\[-0{,}7-0{,}6=-1{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1{,}3\\)</p></div>",
         "ledtrad": "<p>Tänk i tiondelar: hur många tiondelar motsvarar varje tal?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1370,7 +1370,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(2{,}4-3{,}1+0{,}5\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2{,}4-3{,}1+0{,}5=-0{,}7+0{,}5=-0{,}2\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Från 2,4 går man 3,1 nedåt och passerar noll</p><div class=\"facit-matte\">\\[2{,}4-3{,}1=-0{,}7\\]</div></li><li><p class=\"facit-rubrik\">Gå sedan 0,5 uppåt</p><div class=\"facit-matte\">\\[-0{,}7+0{,}5=-0{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}2\\)</p></div>",
         "ledtrad": "<p>Vilket tecken får det första mellanresultatet?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1378,7 +1378,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-0{,}7-1{,}2+2{,}3\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-0{,}7-1{,}2+2{,}3=-1{,}9+2{,}3=0{,}4\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två minskningar i rad ger ett mindre tal</p><div class=\"facit-matte\">\\[-0{,}7-1{,}2=-1{,}9\\]</div></li><li><p class=\"facit-rubrik\">Gå sedan 2,3 uppåt och passera noll</p><div class=\"facit-matte\">\\[-1{,}9+2{,}3=0{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}4\\)</p></div>",
         "ledtrad": "<p>Samla först de negativa termerna.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1471,7 +1471,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-2{,}8-(-0{,}9)+0{,}4\\)</div><div>b) \\(1{,}3+(-2{,}7)+0{,}6\\)</div><div>c) \\(-4{,}1+2{,}5-0{,}8\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2{,}8-(-0{,}9)+0{,}4=-2{,}8+0{,}9+0{,}4=-1{,}5\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}3+(-2{,}7)+0{,}6=1{,}3-2{,}7+0{,}6=-0{,}8\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-4{,}1+2{,}5-0{,}8=-1{,}6-0{,}8=-2{,}4\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort −0,9 är samma sak som att lägga till 0,9</p><div class=\"facit-matte\">\\[-2{,}8-(-0{,}9)+0{,}4=-2{,}8+0{,}9+0{,}4\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[\\begin{gathered}-2{,}8+0{,}9=-1{,}9,\\\\-1{,}9+0{,}4=-1{,}5\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1{,}5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att lägga till −2,7 är samma sak som att dra bort 2,7</p><div class=\"facit-matte\">\\[1{,}3+(-2{,}7)+0{,}6=1{,}3-2{,}7+0{,}6\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[\\begin{gathered}1{,}3-2{,}7=-1{,}4,\\\\-1{,}4+0{,}6=-0{,}8\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}8\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Börja på −4,1 och gå 2,5 uppåt</p><div class=\"facit-matte\">\\[-4{,}1+2{,}5=-1{,}6\\]</div></li><li><p class=\"facit-rubrik\">Gå sedan 0,8 nedåt</p><div class=\"facit-matte\">\\[-1{,}6-0{,}8=-2{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2{,}4\\)</p></div></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -1492,7 +1492,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-2{,}8-(-0{,}9)+0{,}4\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2{,}8-(-0{,}9)+0{,}4=-2{,}8+0{,}9+0{,}4=-1{,}5\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort −0,9 är samma sak som att lägga till 0,9</p><div class=\"facit-matte\">\\[-2{,}8-(-0{,}9)+0{,}4=-2{,}8+0{,}9+0{,}4\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[-2{,}8+0{,}9=-1{,}9,\\qquad -1{,}9+0{,}4=-1{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1{,}5\\)</p></div>",
         "ledtrad": "<p>Hur skriver du om subtraktion av −0,9?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1500,7 +1500,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(1{,}3+(-2{,}7)+0{,}6\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}3+(-2{,}7)+0{,}6=1{,}3-2{,}7+0{,}6=-0{,}8\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att lägga till −2,7 är samma sak som att dra bort 2,7</p><div class=\"facit-matte\">\\[1{,}3+(-2{,}7)+0{,}6=1{,}3-2{,}7+0{,}6\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[1{,}3-2{,}7=-1{,}4,\\qquad -1{,}4+0{,}6=-0{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}8\\)</p></div>",
         "ledtrad": "<p>Du kan samla de positiva termerna först, om varje tecken följer med.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1508,7 +1508,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-4{,}1+2{,}5-0{,}8\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-4{,}1+2{,}5-0{,}8=-1{,}6-0{,}8=-2{,}4\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Börja på −4,1 och gå 2,5 uppåt</p><div class=\"facit-matte\">\\[-4{,}1+2{,}5=-1{,}6\\]</div></li><li><p class=\"facit-rubrik\">Gå sedan 0,8 nedåt</p><div class=\"facit-matte\">\\[-1{,}6-0{,}8=-2{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2{,}4\\)</p></div>",
         "ledtrad": "<p>När du drar bort 0,8 från ett negativt tal, åt vilket håll går du?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1601,7 +1601,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Hur långt är det mellan −7 och 4 på tallinjen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från −7 till 0 är avståndet 7 och från 0 till 4 är det 4.</p></li><li><p>Hela avståndet är <strong>11</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp avståndet vid noll</p><p>Från −7 till 0 är det 7 steg. Från 0 till 4 är det 4 steg.</p></li><li><p class=\"facit-rubrik\">Lägg ihop de två delarna</p><div class=\"facit-matte\">\\[7+4=11\\]</div></li><li><p class=\"facit-rubrik\">Samma sak som skillnaden mellan talen</p><div class=\"facit-matte\">\\[4-(-7)=4+7=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -1691,7 +1691,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((-6)\\cdot(-2)-5+1\\)</div><div>b) \\(\\frac{20}{-4}-(-3)-2\\)</div><div>c) \\(-2(4+(-7))+5\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-6)(-2)-5+1=12-5+1=8\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{20}{-4}-(-3)-2=-5+3-2=-4\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2(4+(-7))+5=(-2)(-3)+5=11\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-6)\\cdot(-2)=12\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[12-5+1=7+1=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten först: olika tecken ger negativ kvot</p><div class=\"facit-matte\">\\[\\frac{20}{-4}=-5\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −3 är samma sak som att lägga till 3</p><div class=\"facit-matte\">\\[-5-(-3)-2=-5+3-2\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[-5+3=-2,\\qquad -2-2=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den inre parentesen först</p><div class=\"facit-matte\">\\[4+(-7)=4-7=-3\\]</div></li><li><p class=\"facit-rubrik\">Två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-2)\\cdot(-3)=6\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 5</p><div class=\"facit-matte\">\\[6+5=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11</p></div></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -1712,7 +1712,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((-6)\\cdot(-2)-5+1\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-6)(-2)-5+1=12-5+1=8\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-6)\\cdot(-2)=12\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[12-5+1=7+1=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
         "ledtrad": "<p>Bestäm produkten först; följ sedan addition och subtraktion.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1720,7 +1720,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{20}{-4}-(-3)-2\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{20}{-4}-(-3)-2=-5+3-2=-4\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten först: olika tecken ger negativ kvot</p><div class=\"facit-matte\">\\[\\frac{20}{-4}=-5\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −3 är samma sak som att lägga till 3</p><div class=\"facit-matte\">\\[-5-(-3)-2=-5+3-2\\]</div></li><li><p class=\"facit-rubrik\">Räkna från vänster</p><div class=\"facit-matte\">\\[-5+3=-2,\\qquad -2-2=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\)</p></div>",
         "ledtrad": "<p>Räkna divisionen innan du hanterar subtraktionen av −3.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1728,7 +1728,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-2(4+(-7))+5\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2(4+(-7))+5=(-2)(-3)+5=11\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den inre parentesen först</p><div class=\"facit-matte\">\\[4+(-7)=4-7=-3\\]</div></li><li><p class=\"facit-rubrik\">Två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-2)\\cdot(-3)=6\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 5</p><div class=\"facit-matte\">\\[6+5=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11</p></div>",
         "ledtrad": "<p>Börja med summan inne i parentesen.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1821,7 +1821,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((-15+3)(-2)-5\\)</div><div>b) \\((-4-5)\\cdot3+8\\)</div><div>c) \\((7-12)(-4)-6\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-15+3)(-2)-5=(-12)(-2)-5=24-5=19\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-4-5)\\cdot3+8=(-9)\\cdot3+8=-27+8=-19\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(7-12)(-4)-6=(-5)(-4)-6=20-6=14\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först</p><div class=\"facit-matte\">\\[-15+3=-12\\]</div></li><li><p class=\"facit-rubrik\">Två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-12)\\cdot(-2)=24\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 5</p><div class=\"facit-matte\">\\[24-5=19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: två minskningar ger −9</p><div class=\"facit-matte\">\\[-4-5=-9\\]</div></li><li><p class=\"facit-rubrik\">Negativt gånger positivt blir negativt</p><div class=\"facit-matte\">\\[(-9)\\cdot3=-27\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 8</p><div class=\"facit-matte\">\\[-27+8=-19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-19\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först</p><div class=\"facit-matte\">\\[7-12=-5\\]</div></li><li><p class=\"facit-rubrik\">Två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-5)\\cdot(-4)=20\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 6</p><div class=\"facit-matte\">\\[20-6=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14</p></div></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -1842,7 +1842,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((-15+3)(-2)-5\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-15+3)(-2)-5=(-12)(-2)-5=24-5=19\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först</p><div class=\"facit-matte\">\\[-15+3=-12\\]</div></li><li><p class=\"facit-rubrik\">Två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-12)\\cdot(-2)=24\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 5</p><div class=\"facit-matte\">\\[24-5=19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19</p></div>",
         "ledtrad": "<p>Är parentesens värde positivt eller negativt?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1850,7 +1850,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((-4-5)\\cdot3+8\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-4-5)\\cdot3+8=(-9)\\cdot3+8=-27+8=-19\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: två minskningar ger −9</p><div class=\"facit-matte\">\\[-4-5=-9\\]</div></li><li><p class=\"facit-rubrik\">Negativt gånger positivt blir negativt</p><div class=\"facit-matte\">\\[(-9)\\cdot3=-27\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 8</p><div class=\"facit-matte\">\\[-27+8=-19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-19\\)</p></div>",
         "ledtrad": "<p>Ett negativt tal minus ett positivt tal ligger längre åt vänster.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1858,7 +1858,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((7-12)(-4)-6\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(7-12)(-4)-6=(-5)(-4)-6=20-6=14\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först</p><div class=\"facit-matte\">\\[7-12=-5\\]</div></li><li><p class=\"facit-rubrik\">Två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-5)\\cdot(-4)=20\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 6</p><div class=\"facit-matte\">\\[20-6=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14</p></div>",
         "ledtrad": "<p>Två parenteser bredvid varandra betyder att värdena multipliceras.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -1997,7 +1997,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Två olika heltal ligger båda mellan −10 och 10, inklusive ändpunkterna. Deras summa är −4 och deras produkt är negativ. Hur många olika talpar finns? Räkna varje par en gång, oavsett ordning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En negativ produkt kräver olika tecken.</p></li><li><p>Kalla det positiva talet p.</p></li><li><p>Det negativa måste då vara −4 − p.</p></li><li><p>Eftersom −4 − p ≥ −10 måste p ≤ 6.</p></li><li><p>Dessutom är p ett positivt heltal.</p></li><li><p>Alltså kan p vara 1, 2, 3, 4, 5 eller 6.</p></li><li><p>Paren är (1; −5), (2; −6), (3; −7), (4; −8), (5; −9) och (6; −10).</p></li></ol><p class=\"facit-svar\"><strong>Svar: 6 par.</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En negativ produkt kräver ett positivt och ett negativt tal</p><p>Kalla det positiva talet \\(p\\).</p></li><li><p class=\"facit-rubrik\">Summan −4 bestämmer det negativa talet</p><div class=\"facit-matte\">\\[p+n=-4\\quad\\Rightarrow\\quad n=-4-p\\]</div></li><li><p class=\"facit-rubrik\">Det negativa talet får inte vara mindre än −10</p><div class=\"facit-matte\">\\[-4-p\\ge-10\\quad\\Rightarrow\\quad p\\le6\\]</div></li><li><p class=\"facit-rubrik\">Skriv upp alla par</p><p>\\(p=1,2,\\ldots,6\\) ger paren (1; −5), (2; −6), (3; −7), (4; −8), (5; −9) och (6; −10).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 par</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -2132,7 +2132,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket tal ska adderas till −14 för att summan ska bli 0?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Ett tal och dess motsatta tal har summan noll:</p><div class=\"facit-matte\">\\[-14+14=0\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svaret är 14.</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett tal plus sitt motsatta tal blir noll</p><p>Det motsatta talet till −14 ligger lika långt från noll på andra sidan, alltså 14.</p></li><li><p class=\"facit-rubrik\">Kontrollera att summan blir noll</p><div class=\"facit-matte\">\\[-14+14=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -2261,7 +2261,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((-1)\\cdot7+4\\)</div><div>b) \\((-1)\\cdot(-12)-5\\)</div><div>c) \\(-(-9)-6\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-1)\\cdot7+4=-7+4=-3\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-1)\\cdot(-12)-5=12-5=7\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-(-9)-6=9-6=3\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att multiplicera med −1 byter tecken på talet</p><div class=\"facit-matte\">\\[(-1)\\cdot7=-7\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 4</p><div class=\"facit-matte\">\\[-7+4=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att multiplicera med −1 byter tecken på talet</p><div class=\"facit-matte\">\\[(-1)\\cdot(-12)=12\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 5</p><div class=\"facit-matte\">\\[12-5=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på −9</p><div class=\"facit-matte\">\\[-(-9)=9\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 6</p><div class=\"facit-matte\">\\[9-6=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -2282,7 +2282,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((-1)\\cdot7+4\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-1)\\cdot7+4=-7+4=-3\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att multiplicera med −1 byter tecken på talet</p><div class=\"facit-matte\">\\[(-1)\\cdot7=-7\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 4</p><div class=\"facit-matte\">\\[-7+4=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\)</p></div>",
         "ledtrad": "<p>Vad gör multiplikation med −1 med ett tal?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -2290,7 +2290,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((-1)\\cdot(-12)-5\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-1)\\cdot(-12)-5=12-5=7\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att multiplicera med −1 byter tecken på talet</p><div class=\"facit-matte\">\\[(-1)\\cdot(-12)=12\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 5</p><div class=\"facit-matte\">\\[12-5=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
         "ledtrad": "<p>Bestäm först det motsatta talet till −12.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -2298,7 +2298,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-(-9)-6\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-(-9)-6=9-6=3\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på −9</p><div class=\"facit-matte\">\\[-(-9)=9\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 6</p><div class=\"facit-matte\">\\[9-6=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
         "ledtrad": "<p>Vilket är det motsatta talet till −9?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -2395,7 +2395,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Ett heltal \\(x\\) ligger mellan −5 och 5, inklusive ändpunkterna. Hur många värden på \\(x\\) uppfyller båda villkoren \\(-x^2&lt;x\\) och \\((-x)^2&gt;x\\)?</p><p><em>Observera:</em> \\(-x^2\\) betyder \\(-(x^2)\\), medan \\((-x)^2\\) betyder att hela talet \\(-x\\) kvadreras.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den första olikheten gäller för heltalen −5, −4, −3, −2, 1, 2, 3, 4 och 5.</p></li><li><p>Vid −1 och 0 blir det likhet i stället.</p></li><li><p>Den andra olikheten gäller för −5, −4, −3, −2, −1, 2, 3, 4 och 5.</p></li><li><p>Vid 0 och 1 blir det likhet.</p></li><li><p>Båda gäller alltså för −5, −4, −3, −2, 2, 3, 4 och 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 8 värden.</strong> En systematisk tabell eller analys av tecknen fungerar.</p><ol class=\"facit-steglista\" role=\"list\"><li><p>Orden ”båda” och de strikta olikheterna är avgörande.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skilj på de två uttrycken</p><div class=\"facit-matte\">\\[\\begin{gathered}-x^2=-(x\\cdot x)\\le0,\\\\(-x)^2=x\\cdot x\\ge0\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Pröva första villkoret, −x² < x</p><p>Det gäller för −5, −4, −3, −2 och för 1, 2, 3, 4, 5. För −1 och 0 blir båda sidor lika.</p></li><li><p class=\"facit-rubrik\">Pröva andra villkoret, (−x)² > x</p><p>Det gäller för −5, −4, −3, −2, −1 och för 2, 3, 4, 5. För 0 och 1 blir båda sidor lika.</p></li><li><p class=\"facit-rubrik\">Behåll bara talen som klarar båda villkoren</p><p>Kvar blir −5, −4, −3, −2, 2, 3, 4 och 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 värden</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -2489,7 +2489,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Välj tre olika tal ur mängden −6, −4, −2, 1, 3 och 5. Summan ska vara negativ och produkten positiv. Vilken är den största möjliga produkten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En positiv produkt av tre valda tal kräver antingen tre positiva eller två negativa och ett positivt tal.</p></li><li><p>Tre positiva kan inte ge negativ summa, så bara det andra fallet återstår.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">De två negativa talen ger som mest</p><div class=\"facit-matte\">\\[\\left(-6\\right) \\left(-4\\right)=24\\]</div></div></li><li><p>Det positiva talet är som mest 5.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Ingen tillåten produkt kan därför överstiga</p><div class=\"facit-matte\">\\[24\\cdot 5=120\\]</div></div></li><li><p>Valet −6, −4 och 5 har summan −5 och produkten 120, så gränsen går att nå.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 120.</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vilka tecken kan ge positiv produkt?</p><p>Antingen tre positiva tal eller två negativa och ett positivt.</p></li><li><p class=\"facit-rubrik\">Tre positiva tal ger positiv summa</p><p>Det fallet stryks, eftersom summan ska vara negativ.</p></li><li><p class=\"facit-rubrik\">Välj de två mest negativa talen och det största positiva</p><div class=\"facit-matte\">\\[(-6)\\cdot(-4)\\cdot5=24\\cdot5=120\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att summan blir negativ</p><div class=\"facit-matte\">\\[-6+(-4)+5=-5<0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 120</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -2619,7 +2619,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En elev räknar \\(-4-3\\cdot(-5)\\) från vänster och skriver \\((-4-3)\\cdot(-5)=35\\). Vad är det huvudsakliga felet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Multiplikationen ska göras före subtraktionen:</p><div class=\"facit-matte\">\\[3\\cdot(-5)=-15\\].</div></div></li><li><div class=\"facit-berakning\"><p>Då blir</p><div class=\"facit-matte\">\\[-4-(-15)=11\\].</div></div></li><li><p>Eleven ändrade alltså räkneordningen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Multiplikationen ska göras före subtraktionen; korrekt värde är 11.</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen ska göras före subtraktionen</p><div class=\"facit-matte\">\\[3\\cdot(-5)=-15\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −15 är samma sak som att lägga till 15</p><div class=\"facit-matte\">\\[-4-(-15)=-4+15=11\\]</div></li><li><p class=\"facit-rubrik\">Elevens fel</p><p>Eleven räknade −4 − 3 först, som om det stod en parentes runt −4 − 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Multiplikationen ska göras före subtraktionen; korrekt värde är 11.</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -2638,7 +2638,27 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med negativa tal och prioriteringsregler"
     ],
-    "alternativ": [{"txt": "Parentesen kring −5 gör att uttrycket saknar ett definierat värde.", "ratt": false}, {"txt": "Produkten \\(3\\cdot(-5)\\) ska vara positiv; korrekt värde är −19.", "ratt": false}, {"txt": "Minustecknet framför 3 ska tas bort före multiplikationen; korrekt värde är −19.", "ratt": false}, {"txt": "Multiplikationen ska göras före subtraktionen; korrekt värde är 11.", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "Parentesen kring −5 gör att uttrycket saknar ett definierat värde.",
+        "ratt": false,
+        "kommentar": "Parentesen runt −5 visar bara att talet är negativt. Uttrycket har ett värde: 11."
+      },
+      {
+        "txt": "Produkten \\(3\\cdot(-5)\\) ska vara positiv; korrekt värde är −19.",
+        "ratt": false,
+        "kommentar": "Positivt gånger negativt blir negativt, så \\(3\\cdot(-5)=-15\\)."
+      },
+      {
+        "txt": "Minustecknet framför 3 ska tas bort före multiplikationen; korrekt värde är −19.",
+        "ratt": false,
+        "kommentar": "Minustecknet framför 3 är en subtraktion och får inte tas bort."
+      },
+      {
+        "txt": "Multiplikationen ska göras före subtraktionen; korrekt värde är 11.",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "0.63",
@@ -2752,7 +2772,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett tal är \\(-8\\). Först multipliceras det med \\(-3\\). Därefter subtraheras 10. Vilket tal får man?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Steg 1:</strong></p><div class=\"facit-matte\">\\[(-8)(-3)=24\\]</div></div></li><li><div class=\"facit-matte\">\\[24-10=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 14</strong>.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera först: två negativa tal ger positiv produkt</p><div class=\"facit-matte\">\\[(-8)\\cdot(-3)=24\\]</div></li><li><p class=\"facit-rubrik\">Därefter dras 10 bort</p><div class=\"facit-matte\">\\[24-10=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -2884,7 +2904,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Bestäm \\(x\\):</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(x+7=-3\\)</div><div>b) \\(-4x=20\\)</div><div>c) \\(\\frac{x}{-3}=5\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+7=-3\\Rightarrow x=-3-7=-10\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-4x=20\\Rightarrow x=\\frac{20}{-4}=-5\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{x}{-3}=5\\Rightarrow x=5\\cdot(-3)=-15\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra bort 7 från båda leden för att få x ensamt</p><div class=\"facit-matte\">\\[x=-3-7\\]</div></li><li><p class=\"facit-rubrik\">Två minskningar ger −10</p><div class=\"facit-matte\">\\[x=-10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-10\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela båda leden med −4</p><div class=\"facit-matte\">\\[x=\\frac{20}{-4}\\]</div></li><li><p class=\"facit-rubrik\">Olika tecken ger negativ kvot</p><div class=\"facit-matte\">\\[x=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med −3</p><div class=\"facit-matte\">\\[x=5\\cdot(-3)\\]</div></li><li><p class=\"facit-rubrik\">Positivt gånger negativt blir negativt</p><div class=\"facit-matte\">\\[x=-15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-15\\)</p></div></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -2910,7 +2930,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Bestäm \\(x\\):</p><div class=\"spel-en-del\">\\(x+7=-3\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+7=-3\\Rightarrow x=-3-7=-10\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra bort 7 från båda leden för att få x ensamt</p><div class=\"facit-matte\">\\[x=-3-7\\]</div></li><li><p class=\"facit-rubrik\">Två minskningar ger −10</p><div class=\"facit-matte\">\\[x=-10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-10\\)</p></div>",
         "ledtrad": "<p>Vilken operation upphäver addition med 7?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -2918,7 +2938,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Bestäm \\(x\\):</p><div class=\"spel-en-del\">\\(-4x=20\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-4x=20\\Rightarrow x=\\frac{20}{-4}=-5\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela båda leden med −4</p><div class=\"facit-matte\">\\[x=\\frac{20}{-4}\\]</div></li><li><p class=\"facit-rubrik\">Olika tecken ger negativ kvot</p><div class=\"facit-matte\">\\[x=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div>",
         "ledtrad": "<p>Vad ska du dividera båda leden med?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -2926,7 +2946,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Bestäm \\(x\\):</p><div class=\"spel-en-del\">\\(\\frac{x}{-3}=5\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{x}{-3}=5\\Rightarrow x=5\\cdot(-3)=-15\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med −3</p><div class=\"facit-matte\">\\[x=5\\cdot(-3)\\]</div></li><li><p class=\"facit-rubrik\">Positivt gånger negativt blir negativt</p><div class=\"facit-matte\">\\[x=-15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-15\\)</p></div>",
         "ledtrad": "<p>Vilken operation upphäver division med −3?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -3017,7 +3037,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Två tal har summan \\(-6\\). Det ena talet är 9. Vilket är det andra?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Steg 1:</strong></p><div class=\"facit-matte\">\\[9+x=-6\\]</div></div></li><li><div class=\"facit-matte\">\\[x=-15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-15\\)</strong>.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv en likhet med det okända talet x</p><div class=\"facit-matte\">\\[9+x=-6\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 9 från båda leden</p><div class=\"facit-matte\">\\[x=-6-9=-15\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att summan blir −6</p><div class=\"facit-matte\">\\[9+(-15)=9-15=-6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-15\\)</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -3243,7 +3263,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken beskrivning visar hur man beräknar −6 + (−4) på en tallinje?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: Starta vid −6 och gå fyra steg åt vänster till −10.</strong> Att addera ett negativt tal är att gå åt vänster. Från −6 ger fyra steg åt vänster −10.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starta vid det första talet, −6</p><p>Det är där man börjar på tallinjen.</p></li><li><p class=\"facit-rubrik\">Att addera ett negativt tal betyder att gå åt vänster</p><p>Att lägga till −4 är fyra steg åt vänster.</p></li><li><p class=\"facit-rubrik\">Fyra steg åt vänster från −6</p><div class=\"facit-matte\">\\[-6+(-4)=-10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Starta vid −6 och gå fyra steg åt vänster till −10.</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -3258,7 +3278,27 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Starta vid −6 och gå fyra steg åt höger till −2.", "ratt": false}, {"txt": "Starta vid −4 och gå sex steg åt höger till 2.", "ratt": false}, {"txt": "Starta vid −6 och gå fyra steg åt vänster till −10.", "ratt": true}, {"txt": "Starta vid 6 och gå fyra steg åt vänster till 2.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Starta vid −6 och gå fyra steg åt höger till −2.",
+        "ratt": false,
+        "kommentar": "Fyra steg åt höger betyder att man lägger till +4. Här läggs −4 till, så man ska gå åt vänster."
+      },
+      {
+        "txt": "Starta vid −4 och gå sex steg åt höger till 2.",
+        "ratt": false,
+        "kommentar": "Man ska starta vid det första talet, −6, och sedan lägga till −4."
+      },
+      {
+        "txt": "Starta vid −6 och gå fyra steg åt vänster till −10.",
+        "ratt": true
+      },
+      {
+        "txt": "Starta vid 6 och gå fyra steg åt vänster till 2.",
+        "ratt": false,
+        "kommentar": "Starttalet är −6, inte 6. Minustecknet hör till talet."
+      }
+    ]
   },
   {
     "id": "0.78",
@@ -3380,7 +3420,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket påstående om 7 − (−3) är korrekt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: Värdet är 10, eftersom subtraktion av −3 motsvarar addition av 3.</strong> Subtraktion av −3 upphäver addition av −3. Därför är 7 − (−3) = 7 + 3 = 10.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort ett negativt tal är samma sak som att lägga till det positiva</p><div class=\"facit-matte\">\\[7-(-3)=7+3\\]</div></li><li><p class=\"facit-rubrik\">Addera</p><div class=\"facit-matte\">\\[7+3=10\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera med addition</p><div class=\"facit-matte\">\\[10+(-3)=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Värdet är 10, eftersom subtraktion av −3 motsvarar addition av 3.</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -3396,7 +3436,27 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "alternativ": [{"txt": "Värdet är 4, eftersom subtraktion av −3 motsvarar addition av −3.", "ratt": false}, {"txt": "Värdet är −10, eftersom subtraktion gör både 7 och 3 negativa.", "ratt": false}, {"txt": "Värdet är −4, eftersom minustecknet framför parentesen byter tecken på 7.", "ratt": false}, {"txt": "Värdet är 10, eftersom subtraktion av −3 motsvarar addition av 3.", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "Värdet är 4, eftersom subtraktion av −3 motsvarar addition av −3.",
+        "ratt": false,
+        "kommentar": "Att dra bort −3 blir att lägga till +3, inte −3. Värdet är 10."
+      },
+      {
+        "txt": "Värdet är −10, eftersom subtraktion gör både 7 och 3 negativa.",
+        "ratt": false,
+        "kommentar": "Subtraktionen påverkar inte talet 7. Det är bara −3 som byter tecken: 7 + 3 = 10."
+      },
+      {
+        "txt": "Värdet är −4, eftersom minustecknet framför parentesen byter tecken på 7.",
+        "ratt": false,
+        "kommentar": "Minustecknet framför parentesen gäller bara −3, inte 7."
+      },
+      {
+        "txt": "Värdet är 10, eftersom subtraktion av −3 motsvarar addition av 3.",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "0.81",
@@ -3523,7 +3583,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En produkt består av de tre faktorerna −2, −3 och −4. Vilket tecken får produkten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: Negativt, eftersom tre negativa faktorer ger ett udda antal teckenbyten.</strong> De två första faktorerna ger en positiv produkt. Multiplikation med den tredje negativa faktorn gör produkten negativ: (−2)(−3)(−4) = −24.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera de två första faktorerna</p><div class=\"facit-matte\">\\[(-2)\\cdot(-3)=6\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med den tredje negativa faktorn</p><div class=\"facit-matte\">\\[6\\cdot(-4)=-24\\]</div></li><li><p class=\"facit-rubrik\">Räkna antalet negativa faktorer</p><p>Varje negativ faktor byter tecken en gång. Tre byten är ett udda antal, så produkten blir negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Negativt, eftersom tre negativa faktorer ger ett udda antal teckenbyten.</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -3541,7 +3601,27 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med negativa tal och prioriteringsregler"
     ],
-    "alternativ": [{"txt": "Negativt, eftersom tre negativa faktorer ger ett udda antal teckenbyten.", "ratt": true}, {"txt": "Positivt, eftersom tre negativa faktorer ger ett jämnt antal teckenbyten.", "ratt": false}, {"txt": "Negativt, eftersom varje produkt med någon negativ faktor är negativ.", "ratt": false}, {"txt": "Positivt, eftersom varje produkt med minst två negativa faktorer är positiv.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Negativt, eftersom tre negativa faktorer ger ett udda antal teckenbyten.",
+        "ratt": true
+      },
+      {
+        "txt": "Positivt, eftersom tre negativa faktorer ger ett jämnt antal teckenbyten.",
+        "ratt": false,
+        "kommentar": "Tre är ett udda tal. Tre teckenbyten gör produkten negativ: \\((-2)(-3)(-4)=-24\\)."
+      },
+      {
+        "txt": "Negativt, eftersom varje produkt med någon negativ faktor är negativ.",
+        "ratt": false,
+        "kommentar": "Svaret är rätt men skälet är fel. Två negativa faktorer ger till exempel positiv produkt."
+      },
+      {
+        "txt": "Positivt, eftersom varje produkt med minst två negativa faktorer är positiv.",
+        "ratt": false,
+        "kommentar": "Det gäller bara när antalet negativa faktorer är jämnt. Här är de tre."
+      }
+    ]
   },
   {
     "id": "0.84",
@@ -3621,7 +3701,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken av följande divisioner saknar ett definierat värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\(\\frac{-5}{0}\\).</strong> En kvot −5/0 skulle behöva vara ett tal som multiplicerat med 0 ger −5. Något sådant tal finns inte. De andra kvoterna är 0, −5 respektive 1.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division kan kontrolleras med multiplikation</p><div class=\"facit-matte\">\\[\\frac{-5}{0}=?\\quad\\text{skulle betyda}\\quad ?\\cdot0=-5\\]</div></li><li><p class=\"facit-rubrik\">Inget tal gånger 0 blir −5</p><p>Alla tal gånger 0 blir 0. Därför saknar \\(\\frac{-5}{0}\\) värde.</p></li><li><p class=\"facit-rubrik\">De andra kvoterna har värden</p><div class=\"facit-matte\">\\[\\frac{0}{-5}=0,\\qquad \\frac{-5}{1}=-5,\\qquad \\frac{-5}{-5}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{-5}{0}\\)</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -3639,7 +3719,27 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med negativa tal och prioriteringsregler"
     ],
-    "alternativ": [{"txt": "\\(\\frac{0}{-5}\\)", "ratt": false}, {"txt": "\\(\\frac{-5}{0}\\)", "ratt": true}, {"txt": "\\(\\frac{-5}{1}\\)", "ratt": false}, {"txt": "\\(\\frac{-5}{-5}\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(\\frac{0}{-5}\\)",
+        "ratt": false,
+        "kommentar": "Det går bra att dela noll med ett tal: \\(\\frac{0}{-5}=0\\), eftersom \\(0\\cdot(-5)=0\\)."
+      },
+      {
+        "txt": "\\(\\frac{-5}{0}\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(\\frac{-5}{1}\\)",
+        "ratt": false,
+        "kommentar": "Att dela med 1 ändrar inte talet: \\(\\frac{-5}{1}=-5\\)."
+      },
+      {
+        "txt": "\\(\\frac{-5}{-5}\\)",
+        "ratt": false,
+        "kommentar": "Ett tal delat med sig självt är 1: \\(\\frac{-5}{-5}=1\\)."
+      }
+    ]
   },
   {
     "id": "0.87",
@@ -3738,7 +3838,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket tal saknas i likheten \\((-4)\\cdot\\square=0\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För att produkten ska bli noll måste någon faktor vara noll.</p></li><li><p>Eftersom −4 inte är noll måste talet i rutan vara <strong>0</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En produkt blir noll bara om någon faktor är noll</p><p>Talet −4 är inte noll.</p></li><li><p class=\"facit-rubrik\">Då måste den andra faktorn vara noll</p><div class=\"facit-matte\">\\[(-4)\\cdot0=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -3906,7 +4006,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket påstående om uttrycken \\(-2^2\\) och \\((-2)^2\\) är korrekt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I \\(-2^2\\) beräknas potensen före det inledande minustecknet: \\(-(2^2)=-4\\).</p></li><li><p>I \\((-2)^2\\) ingår minustecknet i basen och produkten \\((-2)(-2)\\) är \\(4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-2^2=-4\\) och \\((-2)^2=4\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I \\(-2^2\\) står minustecknet utanför potensen</p><div class=\"facit-matte\">\\[-2^2=-(2\\cdot2)=-4\\]</div></li><li><p class=\"facit-rubrik\">I \\((-2)^2\\) är hela −2 bas</p><div class=\"facit-matte\">\\[(-2)^2=(-2)\\cdot(-2)=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2^2=-4\\) och \\((-2)^2=4\\).</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -3924,7 +4024,27 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Potensuttryck med negativa tal"
     ],
-    "alternativ": [{"txt": "Båda är \\(-4\\).", "ratt": false}, {"txt": "\\(-2^2=-4\\) och \\((-2)^2=4\\).", "ratt": true}, {"txt": "Båda är \\(4\\).", "ratt": false}, {"txt": "\\(-2^2=4\\) och \\((-2)^2=-4\\).", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Båda är \\(-4\\).",
+        "ratt": false,
+        "kommentar": "I \\((-2)^2\\) multipliceras två negativa tal, och det ger positivt: 4."
+      },
+      {
+        "txt": "\\(-2^2=-4\\) och \\((-2)^2=4\\).",
+        "ratt": true
+      },
+      {
+        "txt": "Båda är \\(4\\).",
+        "ratt": false,
+        "kommentar": "I \\(-2^2\\) kvadreras bara 2. Minustecknet står kvar, så värdet är −4."
+      },
+      {
+        "txt": "\\(-2^2=4\\) och \\((-2)^2=-4\\).",
+        "ratt": false,
+        "kommentar": "Det är tvärtom. Parentesen gör att \\((-2)^2=(-2)(-2)=4\\)."
+      }
+    ]
   },
   {
     "id": "0.93",
@@ -4177,7 +4297,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Två tal uppfyller a &lt; b &lt; 0. Vilken ordning gäller alltid?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\(0&lt;\\frac{b}{a}&lt;1&lt;\\frac{a}{b}\\).</strong> </p><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda kvoterna är positiva eftersom både täljare och nämnare är negativa.</p></li><li><p>Talet a ligger längre från noll än b.</p></li><li><p>Därför är a/b större än 1 och b/a mellan 0 och 1.</p></li><li><p>Exempelvis ger a = −6 och b = −2 kvoterna 3 respektive 1/3.</p></li><li><p>Exemplet stämmer med den generella jämförelsen, men tecken- och storleksargumenten visar varför ordningen alltid gäller.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Båda kvoterna är positiva</p><p>Negativt delat med negativt blir positivt, så \\(\\frac{a}{b}>0\\) och \\(\\frac{b}{a}>0\\).</p></li><li><p class=\"facit-rubrik\">a ligger längre från noll än b</p><p>Eftersom \\(a<b<0\\) har a större avstånd till noll. Då är \\(\\frac{a}{b}>1\\) och \\(\\frac{b}{a}\\) mellan 0 och 1.</p></li><li><p class=\"facit-rubrik\">Kontrollera med ett exempel, a = −6 och b = −2</p><div class=\"facit-matte\">\\[\\frac{b}{a}=\\frac{-2}{-6}=\\frac{1}{3},\\qquad \\frac{a}{b}=\\frac{-6}{-2}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0<\\frac{b}{a}<1<\\frac{a}{b}\\)</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -4193,7 +4313,27 @@ window.BANKMA1 = [
     "traningsniva": 4,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "\\(0&lt;\\frac{a}{b}&lt;1&lt;\\frac{b}{a}\\)", "ratt": false}, {"txt": "\\(\\frac{a}{b}&lt;0&lt;1&lt;\\frac{b}{a}\\)", "ratt": false}, {"txt": "\\(\\frac{b}{a}&lt;0&lt;1&lt;\\frac{a}{b}\\)", "ratt": false}, {"txt": "\\(0&lt;\\frac{b}{a}&lt;1&lt;\\frac{a}{b}\\)", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "\\(0&lt;\\frac{a}{b}&lt;1&lt;\\frac{b}{a}\\)",
+        "ratt": false,
+        "kommentar": "Kvoterna har bytt plats. Talet med störst avstånd till noll, a, ska stå i täljaren för att kvoten ska bli större än 1."
+      },
+      {
+        "txt": "\\(\\frac{a}{b}&lt;0&lt;1&lt;\\frac{b}{a}\\)",
+        "ratt": false,
+        "kommentar": "Båda talen är negativa, så \\(\\frac{a}{b}\\) är positivt, inte negativt."
+      },
+      {
+        "txt": "\\(\\frac{b}{a}&lt;0&lt;1&lt;\\frac{a}{b}\\)",
+        "ratt": false,
+        "kommentar": "Båda talen är negativa, så \\(\\frac{b}{a}\\) är positivt, inte negativt."
+      },
+      {
+        "txt": "\\(0&lt;\\frac{b}{a}&lt;1&lt;\\frac{a}{b}\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "0.99",
@@ -4511,7 +4651,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Produkten av två tal är positiv. Vad måste då gälla?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: Talen har samma tecken, eftersom produkten är positiv.</strong> Två positiva tal eller två negativa tal ger positiv produkt. Olika tecken ger negativ produkt, och en nollfaktor ger noll.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva olika tecken</p><div class=\"facit-matte\">\\[\\begin{gathered}3\\cdot4=12,\\quad (-3)\\cdot(-4)=12,\\\\3\\cdot(-4)=-12\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Positiv produkt får man när tecknen är lika</p><p>Både två positiva och två negativa tal ger positiv produkt. Noll ger produkten 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Talen har samma tecken, eftersom produkten är positiv.</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -4529,7 +4669,27 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med negativa tal och prioriteringsregler"
     ],
-    "alternativ": [{"txt": "Båda talen är positiva, eftersom produkten är positiv.", "ratt": false}, {"txt": "Talen har olika tecken, eftersom produkten är positiv.", "ratt": false}, {"txt": "Talen har samma tecken, eftersom produkten är positiv.", "ratt": true}, {"txt": "Minst ett tal är noll, eftersom produkten är positiv.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Båda talen är positiva, eftersom produkten är positiv.",
+        "ratt": false,
+        "kommentar": "Två negativa tal ger också positiv produkt, till exempel \\((-3)\\cdot(-4)=12\\)."
+      },
+      {
+        "txt": "Talen har olika tecken, eftersom produkten är positiv.",
+        "ratt": false,
+        "kommentar": "Olika tecken ger negativ produkt, till exempel \\(3\\cdot(-4)=-12\\)."
+      },
+      {
+        "txt": "Talen har samma tecken, eftersom produkten är positiv.",
+        "ratt": true
+      },
+      {
+        "txt": "Minst ett tal är noll, eftersom produkten är positiv.",
+        "ratt": false,
+        "kommentar": "Om någon faktor är noll blir produkten 0, och 0 är inte positivt."
+      }
+    ]
   },
   {
     "id": "0.105",
@@ -4966,7 +5126,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna:</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((-5)\\cdot0\\)</div><div>b) \\(0-(-7)\\)</div><div>c) \\(-4+0\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-5)\\cdot0=0\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0-(-7)=0+7=7\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-4+0=-4\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett tal gånger noll blir alltid noll</p><div class=\"facit-matte\">\\[(-5)\\cdot0=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort −7 är samma sak som att lägga till 7</p><div class=\"facit-matte\">\\[0-(-7)=0+7=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att lägga till noll ändrar inte talet</p><div class=\"facit-matte\">\\[-4+0=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\)</p></div></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -4987,7 +5147,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna:</p><div class=\"spel-en-del\">\\((-5)\\cdot0\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-5)\\cdot0=0\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett tal gånger noll blir alltid noll</p><div class=\"facit-matte\">\\[(-5)\\cdot0=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
         "ledtrad": "<p>Vad blir en produkt där en faktor är noll?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -4995,7 +5155,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna:</p><div class=\"spel-en-del\">\\(0-(-7)\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0-(-7)=0+7=7\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort −7 är samma sak som att lägga till 7</p><div class=\"facit-matte\">\\[0-(-7)=0+7=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
         "ledtrad": "<p>Vilket tal måste adderas till −7 för att summan ska bli noll?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -5003,7 +5163,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna:</p><div class=\"spel-en-del\">\\(-4+0\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-4+0=-4\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att lägga till noll ändrar inte talet</p><div class=\"facit-matte\">\\[-4+0=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\)</p></div>",
         "ledtrad": "<p>Ändras ett tal när du adderar noll?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -5424,7 +5584,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Hur många heltal ligger strikt mellan −4 och 3?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Heltalen är −3, −2, −1, 0, 1 och 2.</p></li><li><p>Det är <strong>6 heltal</strong>.</p></li><li><p>Ändpunkterna räknas inte med.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv upp heltalen mellan −4 och 3</p><p>−3, −2, −1, 0, 1, 2</p></li><li><p class=\"facit-rubrik\">”Strikt mellan” betyder att ändpunkterna inte räknas</p><p>−4 och 3 är inte med.</p></li><li><p class=\"facit-rubrik\">Räkna talen</p><p>Det är 6 tal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -5529,7 +5689,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna:</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((-1)\\cdot7\\)</div><div>b) \\((-1)\\cdot(-12)\\)</div><div>c) \\(-(-9)\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-1)\\cdot7=-7\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-1)\\cdot(-12)=12\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-(-9)=9\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att multiplicera med −1 ger det motsatta talet</p><div class=\"facit-matte\">\\[(-1)\\cdot7=-7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-7\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att multiplicera med −1 ger det motsatta talet</p><div class=\"facit-matte\">\\[(-1)\\cdot(-12)=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför ger det motsatta talet till −9</p><div class=\"facit-matte\">\\[-(-9)=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -5550,7 +5710,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Beräkna:</p><div class=\"spel-en-del\">\\((-1)\\cdot7\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-1)\\cdot7=-7\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att multiplicera med −1 ger det motsatta talet</p><div class=\"facit-matte\">\\[(-1)\\cdot7=-7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-7\\)</p></div>",
         "ledtrad": "<p>Multiplikation med −1 ger det motsatta talet.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -5558,7 +5718,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna:</p><div class=\"spel-en-del\">\\((-1)\\cdot(-12)\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-1)\\cdot(-12)=12\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att multiplicera med −1 ger det motsatta talet</p><div class=\"facit-matte\">\\[(-1)\\cdot(-12)=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
         "ledtrad": "<p>Vilket tal ligger lika långt från noll på andra sidan?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -5566,7 +5726,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Beräkna:</p><div class=\"spel-en-del\">\\(-(-9)\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-(-9)=9\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför ger det motsatta talet till −9</p><div class=\"facit-matte\">\\[-(-9)=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div>",
         "ledtrad": "<p>Det yttersta minustecknet anger det motsatta talet.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -5664,7 +5824,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket tecken ska stå i rutan för att likheten \\(-6\\,\\square\\,(-2)=3\\) ska stämma?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: ÷.</strong> Division ger (−6) ÷ (−2) = 3. Addition ger −8, subtraktion −4 och multiplikation 12.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva alla fyra räknesätt</p><div class=\"facit-matte\">\\[-6+(-2)=-8,\\qquad -6-(-2)=-4\\]</div><div class=\"facit-matte\">\\[(-6)\\cdot(-2)=12,\\qquad (-6)\\div(-2)=3\\]</div></li><li><p class=\"facit-rubrik\">Bara division ger 3</p><p>Kontroll: \\(3\\cdot(-2)=-6\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ÷</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -5682,7 +5842,27 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med negativa tal och prioriteringsregler"
     ],
-    "alternativ": [{"txt": "÷", "ratt": true}, {"txt": "−", "ratt": false}, {"txt": "·", "ratt": false}, {"txt": "+", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "÷",
+        "ratt": true
+      },
+      {
+        "txt": "−",
+        "ratt": false,
+        "kommentar": "Med minus blir det \\(-6-(-2)=-6+2=-4\\)."
+      },
+      {
+        "txt": "·",
+        "ratt": false,
+        "kommentar": "Med gånger blir det \\((-6)\\cdot(-2)=12\\)."
+      },
+      {
+        "txt": "+",
+        "ratt": false,
+        "kommentar": "Med plus blir det \\(-6+(-2)=-8\\)."
+      }
+    ]
   },
   {
     "id": "0.132",
@@ -5763,7 +5943,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Efter en sänkning med 8 grader är temperaturen −3 °C. Vilken var temperaturen före sänkningen? Svara i °C.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arbeta baklänges</p><p>För att få temperaturen före sänkningen lägger vi tillbaka de 8 graderna:</p><div class=\"facit-matte\">\\[T=-3+8=5\\,{}^\\circ\\mathrm{C}.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[5-8=-3\\,{}^\\circ\\mathrm{C}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Starttemperaturen var \\(5\\,{}^\\circ\\mathrm{C}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arbeta baklänges</p><p>För att få temperaturen före sänkningen lägger vi tillbaka de 8 graderna:</p><div class=\"facit-matte\">\\[T=-3+8=5\\,{}^\\circ\\mathrm{C}.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera: 5 °C sänkt med 8 grader ger −3 °C</p><div class=\"facit-matte\">\\[5-8=-3\\,{}^\\circ\\mathrm{C}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Starttemperaturen var \\(5\\,{}^\\circ\\mathrm{C}\\).</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -5829,7 +6009,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Tre tal a, b och c är skilda från noll. Produkterna ab och bc är negativa och summan a + b + c är noll. Vilken slutsats måste vara riktig?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: a och c har samma tecken, och avståndet från b till noll är summan av deras avstånd till noll.</strong> </p><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom ab och bc är negativa måste både a och c ha motsatt tecken mot b.</p></li><li><p>Alltså har a och c samma tecken.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Summan är noll, så</p><div class=\"facit-matte\">\\[b=-\\left(a+c\\right)\\]</div></div></li><li><p>När a och c har samma tecken adderas deras avstånd från noll.</p></li><li><p>Talet b ligger på andra sidan noll på just detta sammanlagda avstånd.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Negativ produkt betyder olika tecken</p><p>ab < 0 ger att a och b har olika tecken. bc < 0 ger att b och c har olika tecken.</p></li><li><p class=\"facit-rubrik\">Då har a och c samma tecken</p><p>Båda har motsatt tecken mot b.</p></li><li><p class=\"facit-rubrik\">Summan noll bestämmer b</p><div class=\"facit-matte\">\\[a+b+c=0\\quad\\Rightarrow\\quad b=-(a+c)\\]</div></li><li><p class=\"facit-rubrik\">a och c ligger på samma sida om noll</p><p>Därför läggs deras avstånd till noll ihop. Talet b ligger lika långt bort på andra sidan noll.</p></li><li><p class=\"facit-rubrik\">Exempel</p><div class=\"facit-matte\">\\[a=2,\\ c=3\\quad\\Rightarrow\\quad b=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a och c har samma tecken, och avståndet från b till noll är summan av deras avstånd till noll.</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -5848,7 +6028,27 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med negativa tal och prioriteringsregler"
     ],
-    "alternativ": [{"txt": "a och c har samma tecken, och avståndet från b till noll är skillnaden mellan deras avstånd till noll.", "ratt": false}, {"txt": "a och c har samma tecken, och avståndet från b till noll är summan av deras avstånd till noll.", "ratt": true}, {"txt": "a och c har olika tecken, och avståndet från b till noll är summan av deras avstånd till noll.", "ratt": false}, {"txt": "a och c har olika tecken, och avståndet från b till noll är skillnaden mellan deras avstånd till noll.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "a och c har samma tecken, och avståndet från b till noll är skillnaden mellan deras avstånd till noll.",
+        "ratt": false,
+        "kommentar": "Eftersom a och c har samma tecken läggs deras avstånd ihop. Till exempel ger a = 2 och c = 3 att b = −5."
+      },
+      {
+        "txt": "a och c har samma tecken, och avståndet från b till noll är summan av deras avstånd till noll.",
+        "ratt": true
+      },
+      {
+        "txt": "a och c har olika tecken, och avståndet från b till noll är summan av deras avstånd till noll.",
+        "ratt": false,
+        "kommentar": "Både a och c har motsatt tecken mot b, så de måste ha samma tecken som varandra."
+      },
+      {
+        "txt": "a och c har olika tecken, och avståndet från b till noll är skillnaden mellan deras avstånd till noll.",
+        "ratt": false,
+        "kommentar": "Både a och c har motsatt tecken mot b, så de måste ha samma tecken som varandra."
+      }
+    ]
   },
   {
     "id": "0.137",
@@ -5895,7 +6095,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Bestäm \\(x\\):</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-3x-4=11\\)</div><div>b) \\(5-2x=-9\\)</div><div>c) \\(-4(x-2)=20\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-3x-4=11\\Rightarrow -3x=15\\Rightarrow x=-5\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5-2x=-9\\Rightarrow -2x=-14\\Rightarrow x=7\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-4(x-2)=20\\Rightarrow x-2=-5\\Rightarrow x=-3\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägg till 4 i båda leden</p><div class=\"facit-matte\">\\[-3x=15\\]</div></li><li><p class=\"facit-rubrik\">Dela båda leden med −3</p><div class=\"facit-matte\">\\[x=\\frac{15}{-3}=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra bort 5 från båda leden</p><div class=\"facit-matte\">\\[-2x=-9-5=-14\\]</div></li><li><p class=\"facit-rubrik\">Dela båda leden med −2: samma tecken ger positiv kvot</p><div class=\"facit-matte\">\\[x=\\frac{-14}{-2}=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela båda leden med −4</p><div class=\"facit-matte\">\\[x-2=\\frac{20}{-4}=-5\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 2 i båda leden</p><div class=\"facit-matte\">\\[x=-5+2=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -5921,7 +6121,7 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Bestäm \\(x\\):</p><div class=\"spel-en-del\">\\(-3x-4=11\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-3x-4=11\\Rightarrow -3x=15\\Rightarrow x=-5\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägg till 4 i båda leden</p><div class=\"facit-matte\">\\[-3x=15\\]</div></li><li><p class=\"facit-rubrik\">Dela båda leden med −3</p><div class=\"facit-matte\">\\[x=\\frac{15}{-3}=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div>",
         "ledtrad": "<p>Börja med att upphäva subtraktionen av 4 i båda leden.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -5929,7 +6129,7 @@ window.BANKMA1 = [
       {
         "etikett": "b",
         "t": "<p>Bestäm \\(x\\):</p><div class=\"spel-en-del\">\\(5-2x=-9\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5-2x=-9\\Rightarrow -2x=-14\\Rightarrow x=7\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra bort 5 från båda leden</p><div class=\"facit-matte\">\\[-2x=-9-5=-14\\]</div></li><li><p class=\"facit-rubrik\">Dela båda leden med −2: samma tecken ger positiv kvot</p><div class=\"facit-matte\">\\[x=\\frac{-14}{-2}=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div>",
         "ledtrad": "<p>Flytta inte bara tecken: vilken operation gör du i båda leden?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -5937,7 +6137,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Bestäm \\(x\\):</p><div class=\"spel-en-del\">\\(-4(x-2)=20\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-4(x-2)=20\\Rightarrow x-2=-5\\Rightarrow x=-3\\]</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela båda leden med −4</p><div class=\"facit-matte\">\\[x-2=\\frac{20}{-4}=-5\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 2 i båda leden</p><div class=\"facit-matte\">\\[x=-5+2=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div>",
         "ledtrad": "<p>Du kan börja med att dividera båda leden med −4.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -5994,7 +6194,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett lager förändras med \\(-18\\) enheter första dagen, \\(+27\\) andra dagen och \\(-14\\) tredje dagen.</p><p>Hur stor är den sammanlagda förändringen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förändringarna anges i antal, så de adderas: −18 + 27 − 14 = <strong>−5 enheter</strong>.</p></li><li><p>Lagret minskar alltså med 5 enheter totalt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv förändringarna med tecken</p><p>Minskning är negativ och ökning positiv: −18, +27 och −14.</p></li><li><p class=\"facit-rubrik\">Lägg ihop förändringarna</p><div class=\"facit-matte\">\\[-18+27-14=9-14=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −5 enheter, alltså en minskning med 5 enheter.</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -6059,7 +6259,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Startvärdet är \\(-6\\). Först multipliceras talet med \\(-4\\). Därefter adderas \\(-9\\) och resultatet divideras med 3.</p><p>Vilket tal får man?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Steg 1:</strong></p><div class=\"facit-matte\">\\[(-6)(-4)=24\\]</div></div></li><li><div class=\"facit-matte\">\\[24-9=15\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{15}{3}=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 5.</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera först: två negativa tal ger positiv produkt</p><div class=\"facit-matte\">\\[(-6)\\cdot(-4)=24\\]</div></li><li><p class=\"facit-rubrik\">Att addera −9 är samma sak som att dra bort 9</p><div class=\"facit-matte\">\\[24+(-9)=24-9=15\\]</div></li><li><p class=\"facit-rubrik\">Dela hela resultatet med 3</p><div class=\"facit-matte\">\\[\\frac{15}{3}=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -6124,7 +6324,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Temperaturen är \\(-4\\,{}^\\circ\\mathrm{C}\\). Den sjunker först 7 grader, stiger sedan 12 grader och sjunker till sist 5 grader.</p><p>Vilken är sluttemperaturen och hur stor är den totala förändringen från start?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Följ förändringarna steg för steg.</p></li><li><div class=\"facit-matte\">\\[-4-7=-11\\],</div></li><li><div class=\"facit-matte\">\\[-11+12=1\\],</div></li><li><div class=\"facit-matte\">\\[1-5=-4\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Sluttemperaturen är −4 °C och förändringen från start är 0 °C.</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Följ temperaturen steg för steg</p><div class=\"facit-matte\">\\[-4-7=-11\\]</div><div class=\"facit-matte\">\\[-11+12=1\\]</div><div class=\"facit-matte\">\\[1-5=-4\\]</div></li><li><p class=\"facit-rubrik\">Total förändring är sluttemperatur minus starttemperatur</p><div class=\"facit-matte\">\\[-4-(-4)=0\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera med förändringarna</p><div class=\"facit-matte\">\\[-7+12-5=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sluttemperaturen är −4 °C och den totala förändringen är 0 °C.</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -11973,7 +12173,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>På morgonen är temperaturen −6 °C. Under dagen stiger den 9 °C. Vilken temperatur blir det?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En ökning med 9 grader betyder</p><div class=\"facit-matte\">\\[-6+9=3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>3 °C</strong>.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En ökning läggs till</p><div class=\"facit-matte\">\\[-6+9\\]</div></li><li><p class=\"facit-rubrik\">6 av graderna tar temperaturen till 0, resten blir över</p><div class=\"facit-matte\">\\[-6+9=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 °C</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -12007,7 +12207,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En hiss står på våning 4 och åker ned 7 våningar. Vilken våning hamnar den på om entréplanet är våning 0 och våningarna numreras med alla heltal i följd?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Förflyttningen nedåt skrivs som −7:</p><div class=\"facit-matte\">\\[4-7=-3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>våning −3</strong>.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nedåt är en negativ förflyttning</p><div class=\"facit-matte\">\\[4-7\\]</div></li><li><p class=\"facit-rubrik\">Fyra våningar ned till 0, sedan tre till</p><div class=\"facit-matte\">\\[4-7=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Våning −3</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -12040,7 +12240,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett konto har saldot −350 kr. Du sätter in 500 kr. Vilket blir det nya saldot?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Insättningen ökar saldot:</p><div class=\"facit-matte\">\\[-350+500=150\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>150 kr</strong>.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En insättning ökar saldot</p><div class=\"facit-matte\">\\[-350+500\\]</div></li><li><p class=\"facit-rubrik\">350 kr av insättningen går till att nå 0, resten blir kvar</p><div class=\"facit-matte\">\\[-350+500=150\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 150 kr</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -12074,7 +12274,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En dykare befinner sig 12 m under havsytan, alltså på höjden −12 m. Dykaren stiger 7 m. Vilken höjd har dykaren då?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Att stiga 7 m innebär att 7 adderas:</p><div class=\"facit-matte\">\\[-12+7=-5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>−5 m</strong>.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att stiga betyder att höjden ökar</p><div class=\"facit-matte\">\\[-12+7\\]</div></li><li><p class=\"facit-rubrik\">7 m räcker inte upp till ytan</p><div class=\"facit-matte\">\\[-12+7=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −5 m</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -12108,7 +12308,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Temperaturen är 2 °C och sjunker först 5 °C. Därefter sjunker den ytterligare 4 °C. Vilken temperatur blir det?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Räkna förändringarna i ordning:</p><div class=\"facit-matte\">\\[2-5-4=-3-4=-7\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>−7 °C</strong>.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två sänkningar dras bort efter varandra</p><div class=\"facit-matte\">\\[2-5-4\\]</div></li><li><p class=\"facit-rubrik\">Räkna en sänkning i taget</p><div class=\"facit-matte\">\\[2-5=-3,\\qquad -3-4=-7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −7 °C</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -12142,7 +12342,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((-5)^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-5)^2=(-5)\\cdot(-5)=25\\]</div></li><li><p>Parenteserna avgör om minustecknet ingår i basen eller står utanför potensen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen gör att hela −5 kvadreras</p><div class=\"facit-matte\">\\[(-5)^2=(-5)\\cdot(-5)\\]</div></li><li><p class=\"facit-rubrik\">Två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-5)\\cdot(-5)=25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -12174,7 +12374,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(-5^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det finns ingen parentes runt \\(-5\\).</p></li><li><p>Därför är det bara 5 som kvadreras, och minustecknet står kvar framför:</p><div class=\"facit-matte\">\\[-5^2=-(5\\cdot5)=-25\\]</div></li><li><p>Jämför med \\((-5)^2=(-5)\\cdot(-5)=25\\), där parentesen gör att hela \\(-5\\) kvadreras.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-25\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ingen parentes: bara 5 kvadreras</p><div class=\"facit-matte\">\\[-5^2=-(5\\cdot5)\\]</div></li><li><p class=\"facit-rubrik\">Minustecknet står kvar framför</p><div class=\"facit-matte\">\\[-(25)=-25\\]</div></li><li><p class=\"facit-rubrik\">Jämför med parentes</p><div class=\"facit-matte\">\\[(-5)^2=(-5)\\cdot(-5)=25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-25\\)</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -12207,7 +12407,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket uttryck har värdet −16?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-4)^2=16\\],</div></li><li><p>\\(-4^2=-16\\) och \\((-4)^3=-64\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-4^2\\).</strong> Minustecknet står utanför kvadraten i \\(-4^2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna varje uttryck</p><div class=\"facit-matte\">\\[(-4)^2=(-4)\\cdot(-4)=16\\]</div><div class=\"facit-matte\">\\[-4^2=-(4\\cdot4)=-16\\]</div><div class=\"facit-matte\">\\[(-4)^3=(-4)\\cdot(-4)\\cdot(-4)=-64\\]</div></li><li><p class=\"facit-rubrik\">Välj det som blir −16</p><p>I \\(-4^2\\) står minustecknet utanför kvadraten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4^2\\)</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -12226,7 +12426,22 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Potensuttryck med negativa tal"
     ],
-    "alternativ": [{"txt": "\\((-4)^2\\)", "ratt": false}, {"txt": "\\(-4^2\\)", "ratt": true}, {"txt": "\\((-4)^3\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\((-4)^2\\)",
+        "ratt": false,
+        "kommentar": "Parentesen gör att hela −4 kvadreras, och då blir det positivt: 16."
+      },
+      {
+        "txt": "\\(-4^2\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\((-4)^3\\)",
+        "ratt": false,
+        "kommentar": "Tre faktorer −4 ger \\(-64\\), inte −16."
+      }
+    ]
   },
   {
     "id": "0.323",
@@ -12240,7 +12455,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((-2)^4-3^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-2)^4-3^2=16-9=7\\]</div></li><li><p>Parenteserna avgör om minustecknet ingår i basen eller står utanför potensen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyra negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-2)^4=(-2)(-2)(-2)(-2)=16\\]</div></li><li><p class=\"facit-rubrik\">Den andra potensen</p><div class=\"facit-matte\">\\[3^2=9\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera</p><div class=\"facit-matte\">\\[16-9=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -12272,7 +12487,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(-(-3)^2+2^3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-(-3)^2+2^3=-9+8=-1\\]</div></li><li><p>Parenteserna avgör om minustecknet ingår i basen eller står utanför potensen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera −3 och behåll minustecknet framför</p><div class=\"facit-matte\">\\[-(-3)^2=-(9)=-9\\]</div></li><li><p class=\"facit-rubrik\">Den andra potensen</p><div class=\"facit-matte\">\\[2^3=8\\]</div></li><li><p class=\"facit-rubrik\">Addera</p><div class=\"facit-matte\">\\[-9+8=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -12767,7 +12982,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Temperaturen är −7 °C på morgonen och 4 °C på eftermiddagen. Hur många grader har temperaturen stigit?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Förändringen är</p><div class=\"facit-matte\">\\[4-(-7)=11\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11 °C.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ökningen är sluttemperatur minus starttemperatur</p><div class=\"facit-matte\">\\[4-(-7)\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −7 är att lägga till 7</p><div class=\"facit-matte\">\\[4+7=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11 °C</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -12800,7 +13015,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Efter en insättning på 500 kr är saldot 150 kr. Vilket var saldot före insättningen? Svara i kronor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Startsaldo + 500 = 150, så startsaldot var 150 − 500 = <strong>−350 kr</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arbeta baklänges: ta bort insättningen</p><div class=\"facit-matte\">\\[150-500\\]</div></li><li><p class=\"facit-rubrik\">Svaret blir negativt eftersom 500 är större än 150</p><div class=\"facit-matte\">\\[150-500=-350\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att insättningen ger saldot 150 kr</p><div class=\"facit-matte\">\\[-350+500=150\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −350 kr</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -12834,7 +13049,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En hiss står på våning 3 och åker 7 våningar ned. Vilken våning hamnar den på om entréplanet räknas som våning 0?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[3-7=-4\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Våning −4.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nedåt är en negativ förflyttning</p><div class=\"facit-matte\">\\[3-7\\]</div></li><li><p class=\"facit-rubrik\">Tre våningar ned till 0, sedan fyra till</p><div class=\"facit-matte\">\\[3-7=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Våning −4</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -12866,7 +13081,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En dykare befinner sig 6 m under vattenytan, alltså på nivån −6 m. Hon stiger 2,5 m. Vilken nivå befinner hon sig på?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[-6+2{,}5=-3{,}5\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −3,5 m.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att stiga betyder att nivån ökar</p><div class=\"facit-matte\">\\[-6+2{,}5\\]</div></li><li><p class=\"facit-rubrik\">2,5 m räcker inte upp till ytan</p><div class=\"facit-matte\">\\[-6+2{,}5=-3{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −3,5 m</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -13210,7 +13425,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((-2)^4-(-2^4)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-2)^4-(-2^4)=16-(-16)=32\\]</div></li><li><p>Parenteserna avgör om minustecknet ingår i basen eller står utanför potensen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen gör att hela −2 upphöjs till 4</p><div class=\"facit-matte\">\\[(-2)^4=16\\]</div></li><li><p class=\"facit-rubrik\">Här upphöjs bara 2, minustecknet står kvar</p><div class=\"facit-matte\">\\[-2^4=-16\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −16 är att lägga till 16</p><div class=\"facit-matte\">\\[16-(-16)=16+16=32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 32</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -20156,7 +20371,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(-7+12\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Starta på −7 och gå 12 steg åt höger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>5</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starta på −7 och gå 12 steg åt höger</p><p>Sju steg tar dig till 0, och fem steg blir kvar.</p></li><li><p class=\"facit-rubrik\">Räkna</p><div class=\"facit-matte\">\\[-7+12=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -20185,7 +20400,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(-3-8\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Starta på −3 och gå 8 steg åt vänster.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>−11</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starta på −3 och gå 8 steg åt vänster</p><p>Att dra bort ett positivt tal betyder att gå åt vänster.</p></li><li><p class=\"facit-rubrik\">Räkna</p><div class=\"facit-matte\">\\[-3-8=-11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-11\\)</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -20214,7 +20429,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(6-(-4)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Att subtrahera −4 är samma sak som att addera 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>10</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort −4 är samma sak som att lägga till 4</p><div class=\"facit-matte\">\\[6-(-4)=6+4\\]</div></li><li><p class=\"facit-rubrik\">Addera</p><div class=\"facit-matte\">\\[6+4=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -20243,7 +20458,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((-4)\\cdot(-6)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Minus gånger minus ger plus:</p><div class=\"facit-matte\">\\[4\\cdot 6=24\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>24</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm tecknet: två negativa faktorer ger positiv produkt</p><p>Svaret blir positivt.</p></li><li><p class=\"facit-rubrik\">Multiplicera talens storlek</p><div class=\"facit-matte\">\\[4\\cdot6=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -20275,7 +20490,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(-24/(-3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Minus delat med minus ger plus:</p><div class=\"facit-matte\">\\[\\frac{24}{3}=8\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>8</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm tecknet: negativt delat med negativt ger positiv kvot</p><p>Svaret blir positivt.</p></li><li><p class=\"facit-rubrik\">Dividera talens storlek</p><div class=\"facit-matte\">\\[24\\div3=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -20307,7 +20522,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(5-(-3)\\cdot2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Multiplikationen först:</p><div class=\"facit-matte\">\\[\\left(-3\\right)\\cdot 2=-6\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Sedan</p><div class=\"facit-matte\">\\[5-\\left(-6\\right)=11\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>11</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: negativt gånger positivt blir negativt</p><div class=\"facit-matte\">\\[(-3)\\cdot2=-6\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −6 är samma sak som att lägga till 6</p><div class=\"facit-matte\">\\[5-(-6)=5+6=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -134096,7 +134311,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket tal ligger mitt emellan −8 och 2 på tallinjen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Avståndet mellan talen är</p><div class=\"facit-matte\">\\[2-(-8)=10\\].</div></div></li><li><p>Halva avståndet är 5.</p></li><li><p>\\[-8+5=-3\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −3</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avståndet mellan talen</p><div class=\"facit-matte\">\\[2-(-8)=2+8=10\\]</div></li><li><p class=\"facit-rubrik\">Mittpunkten ligger halva avståndet från −8</p><div class=\"facit-matte\">\\[10\\div2=5\\]</div></li><li><p class=\"facit-rubrik\">Gå 5 steg åt höger från −8</p><div class=\"facit-matte\">\\[-8+5=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\)</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -134125,7 +134340,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I golf anger man resultatet i förhållande till ”par”. Emma går första rundan på \\(-3\\), alltså tre slag under par, och andra rundan på \\(+5\\). Vilket är hennes sammanlagda resultat i förhållande till par?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[-3+5=2\\]</p></li><li><p>Emma ligger alltså två slag över par.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägg ihop resultaten från rundorna</p><div class=\"facit-matte\">\\[-3+5\\]</div></li><li><p class=\"facit-rubrik\">Börja på −3 och gå 5 steg åt höger</p><div class=\"facit-matte\">\\[-3+5=2\\]</div></li><li><p class=\"facit-rubrik\">Tolka svaret</p><p>Ett positivt resultat betyder slag över par.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2, alltså två slag över par.</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -134157,7 +134372,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett flygplan flyger på 10 000 meters höjd där det är \\(-52\\,{}^\\circ\\mathrm{C}\\). Vid marken är det \\(13\\,{}^\\circ\\mathrm{C}\\). Hur många grader skiljer det?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[13-(-52)=13+52=65\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 65 °C</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skillnaden är den högre temperaturen minus den lägre</p><div class=\"facit-matte\">\\[13-(-52)\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −52 är att lägga till 52</p><div class=\"facit-matte\">\\[13+52=65\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 65 °C</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -134190,7 +134405,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Döda havets yta ligger 430 m under havsytans nivå, alltså på höjden \\(-430\\) m. Toppen av berget Hermon, inte långt därifrån, ligger 2 814 m över havet. Hur stor är höjdskillnaden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[2\\,814-(-430)=2\\,814+430=3\\,244\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3244 m</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skillnaden är den högre höjden minus den lägre</p><div class=\"facit-matte\">\\[2\\,814-(-430)\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −430 är att lägga till 430</p><div class=\"facit-matte\">\\[2\\,814+430=3\\,244\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 244 m</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": true,
@@ -134223,7 +134438,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((-6)\\cdot(-7)-50\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Produkten av två negativa tal är positiv:</p></li><li><p>\\[(-6)\\cdot(-7)-50=42-50=-8\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −8</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen först: två negativa faktorer ger positiv produkt</p><div class=\"facit-matte\">\\[(-6)\\cdot(-7)=42\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 50</p><div class=\"facit-matte\">\\[42-50=-8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-8\\)</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -134255,7 +134470,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\dfrac{-36}{-4}-\\dfrac{20}{-5}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{-36}{-4}-\\frac{20}{-5}=9-(-4)=9+4=13\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den första kvoten: samma tecken ger positivt</p><div class=\"facit-matte\">\\[\\frac{-36}{-4}=9\\]</div></li><li><p class=\"facit-rubrik\">Den andra kvoten: olika tecken ger negativt</p><div class=\"facit-matte\">\\[\\frac{20}{-5}=-4\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −4 är att lägga till 4</p><div class=\"facit-matte\">\\[9-(-4)=9+4=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -134287,7 +134502,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Under en vecka i januari mättes temperaturen varje morgon klockan 7:</p><p>\\(-8\\), \\(-5\\), \\(-11\\), \\(-2\\), \\(0\\), \\(-6\\) och \\(-3\\) °C.</p><p>Beräkna veckans medeltemperatur.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Summan av temperaturerna är</p></li><li><p>\\[-8-5-11-2+0-6-3=-35\\]</p></li><li><p>Det är sju mätningar:</p></li><li><p>\\[\\frac{-35}{7}=-5\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −5 °C</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägg ihop de sju temperaturerna</p><div class=\"facit-matte\">\\[-8-5-11-2+0-6-3=-35\\]</div></li><li><p class=\"facit-rubrik\">Dela summan med antalet mätningar</p><div class=\"facit-matte\">\\[\\frac{-35}{7}=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −5 °C</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": true,
@@ -134320,7 +134535,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett företags resultat under årets fyra kvartal var \\(-120\\,000\\) kr, \\(+85\\,000\\) kr, \\(-40\\,000\\) kr och \\(+210\\,000\\) kr. Vilket blev resultatet för hela året?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[-120\\,000+85\\,000-40\\,000+210\\,000=135\\,000\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 135 000 kr</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägg ihop vinsterna</p><div class=\"facit-matte\">\\[85\\,000+210\\,000=295\\,000\\]</div></li><li><p class=\"facit-rubrik\">Lägg ihop förlusterna</p><div class=\"facit-matte\">\\[-120\\,000-40\\,000=-160\\,000\\]</div></li><li><p class=\"facit-rubrik\">Vinster och förluster tillsammans</p><div class=\"facit-matte\">\\[295\\,000-160\\,000=135\\,000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 135 000 kr</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": true,
@@ -134353,7 +134568,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Hur många år gick det från år 63 f.Kr. till år 14 e.Kr.? Tänk på att det inte finns något år 0: år 1 f.Kr. följs direkt av år 1 e.Kr.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från år 63 f.Kr. till år 1 f.Kr. är det 62 år.</p></li><li><p>Från år 1 f.Kr. till år 1 e.Kr. är det 1 år.</p></li><li><p>Från år 1 e.Kr. till år 14 e.Kr. är det 13 år.</p></li><li><p>\\[62+1+13=76\\]</p></li><li><p>Om man räknar som på tallinjen, \\(14-(-63)=77\\), blir det ett år för mycket, eftersom år 0 inte finns.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 76 år</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Från år 63 f.Kr. till år 1 f.Kr.</p><div class=\"facit-matte\">\\[63-1=62\\text{ år}\\]</div></li><li><p class=\"facit-rubrik\">Från år 1 f.Kr. till år 1 e.Kr.</p><p>Det är 1 år, eftersom år 0 inte finns.</p></li><li><p class=\"facit-rubrik\">Från år 1 e.Kr. till år 14 e.Kr.</p><div class=\"facit-matte\">\\[14-1=13\\text{ år}\\]</div></li><li><p class=\"facit-rubrik\">Lägg ihop delarna</p><div class=\"facit-matte\">\\[62+1+13=76\\]</div></li><li><p class=\"facit-rubrik\">Varför inte 77?</p><p>Tallinjen ger \\(14-(-63)=77\\), men då räknas ett år 0 som inte finns.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 76 år</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -134387,7 +134602,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(-2\\cdot(-3)^2-(-2)^3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Potenserna först: \\((-3)^2=9\\) och \\((-2)^3=-8\\).</p></li><li><p>\\[-2\\cdot9-(-8)=-18+8=-10\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −10</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potenserna först</p><div class=\"facit-matte\">\\[(-3)^2=9,\\qquad (-2)^3=-8\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera</p><div class=\"facit-matte\">\\[-2\\cdot9=-18\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −8 är att lägga till 8</p><div class=\"facit-matte\">\\[-18-(-8)=-18+8=-10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-10\\)</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -134420,7 +134635,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Talföljden \\(-17,\\ -13,\\ -9,\\ \\ldots\\) fortsätter med samma steg. Vilket är det tionde talet i följden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Steget är</p><div class=\"facit-matte\">\\[-13-(-17)=4\\].</div></div></li><li><p>Från det första till det tionde talet tar man nio steg:</p></li><li><p>\\[-17+9\\cdot4=-17+36=19\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Steget mellan talen</p><div class=\"facit-matte\">\\[-13-(-17)=4\\]</div></li><li><p class=\"facit-rubrik\">Från första till tionde talet är det nio steg</p><div class=\"facit-matte\">\\[9\\cdot4=36\\]</div></li><li><p class=\"facit-rubrik\">Lägg till stegen till det första talet</p><div class=\"facit-matte\">\\[-17+36=19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -134453,7 +134668,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Två heltal har produkten \\(-24\\) och summan \\(-2\\). Vilket är det minsta av talen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Produkten är negativ, så talen har olika tecken.</p></li><li><p>Pröva talpar med produkten \\(-24\\):</p></li><li><p>\\(-6\\) och \\(4\\) ger summan \\(-2\\). (Till exempel ger \\(-4\\) och \\(6\\) summan 2, och \\(-8\\) och \\(3\\) summan \\(-5\\).)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −6</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Negativ produkt betyder olika tecken</p><p>Det ena talet är positivt och det andra negativt.</p></li><li><p class=\"facit-rubrik\">Pröva par med produkten −24</p><div class=\"facit-matte\">\\[-8\\cdot3:\\ -8+3=-5\\]</div><div class=\"facit-matte\">\\[-6\\cdot4:\\ -6+4=-2\\]</div><div class=\"facit-matte\">\\[-4\\cdot6:\\ -4+6=2\\]</div></li><li><p class=\"facit-rubrik\">Paret −6 och 4 har summan −2</p><p>Det minsta talet är −6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-6\\)</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -134486,7 +134701,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\((-1)^{15}+(-1)^{20}-(-1)^{7}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(-1\\) upphöjt till ett udda tal blir \\(-1\\), och upphöjt till ett jämnt tal blir \\(1\\).</p></li><li><p>\\[-1+1-(-1)=-1+1+1=1\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">−1 upphöjt till ett udda tal blir −1, till ett jämnt tal blir 1</p><div class=\"facit-matte\">\\[\\begin{gathered}(-1)^{15}=-1,\\quad (-1)^{20}=1,\\\\(-1)^{7}=-1\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in värdena</p><div class=\"facit-matte\">\\[-1+1-(-1)=-1+1+1=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -134519,7 +134734,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Saldot på Olles konto är \\(-240\\) kr. Varje vecka sätter han in 150 kr, och samtidigt dras 90 kr i fasta avgifter. Efter hur många veckor är saldot för första gången större än 0 kr?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje vecka ökar saldot med \\(150-90=60\\) kr.</p></li><li><p>Efter 4 veckor: \\(-240+4\\cdot60=0\\) kr, vilket inte är större än 0.</p></li><li><p>Efter 5 veckor: \\(-240+5\\cdot60=60\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 veckor</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Saldot ökar varje vecka med</p><div class=\"facit-matte\">\\[150-90=60\\text{ kr}\\]</div></li><li><p class=\"facit-rubrik\">Efter 4 veckor är saldot exakt 0</p><div class=\"facit-matte\">\\[-240+4\\cdot60=0\\]</div></li><li><p class=\"facit-rubrik\">0 kr är inte större än 0, så det behövs en vecka till</p><div class=\"facit-matte\">\\[-240+5\\cdot60=60\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 veckor</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -134553,7 +134768,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Summan av fem heltal som följer direkt på varandra är \\(-35\\). Vilket är det största av talen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det mittersta talet är medelvärdet av de fem talen:</p></li><li><p>\\[\\frac{-35}{5}=-7\\]</p></li><li><p>Talen är \\(-9,\\ -8,\\ -7,\\ -6,\\ -5\\).</p></li><li><p>Det största är \\(-5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −5</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det mittersta talet är medelvärdet</p><div class=\"facit-matte\">\\[\\frac{-35}{5}=-7\\]</div></li><li><p class=\"facit-rubrik\">Två tal på varje sida om −7</p><p>Talen är −9, −8, −7, −6 och −5.</p></li><li><p class=\"facit-rubrik\">Det största talet ligger längst till höger</p><p>Det är −5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -134586,7 +134801,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>En frys håller \\(-18\\,{}^\\circ\\mathrm{C}\\). Den stängs av, och temperaturen stiger jämnt med \\(2{,}5\\,{}^\\circ\\mathrm{C}\\) per timme. Hur många timmar tar det innan temperaturen har nått \\(+4\\,{}^\\circ\\mathrm{C}\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Temperaturen ska öka med</p></li><li><p>\\[4-(-18)=22\\ ^\\circ\\mathrm{C}\\]</p></li><li><p>\\[\\frac{22}{2{,}5}=8{,}8\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,8 h</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hur många grader ska temperaturen stiga?</p><div class=\"facit-matte\">\\[4-(-18)=4+18=22\\]</div></li><li><p class=\"facit-rubrik\">Dela med ökningen per timme</p><div class=\"facit-matte\">\\[\\frac{22}{2{,}5}=8{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,8 h</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": true,
@@ -134620,7 +134835,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Vilket av uttrycken har störst värde när \\(a=-3\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a^2=(-3)^2=9\\],</div></li><li><div class=\"facit-matte\">\\[-a^2=-9\\],</div></li><li><p>\\(a^3=(-3)^3=-27\\) och \\(-a^3=-(-27)=27\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-a^3=27\\)</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in a = −3 med parentes</p><div class=\"facit-matte\">\\[a^2=(-3)^2=9\\]</div><div class=\"facit-matte\">\\[-a^2=-(9)=-9\\]</div><div class=\"facit-matte\">\\[a^3=(-3)^3=-27\\]</div><div class=\"facit-matte\">\\[-a^3=-(-27)=27\\]</div></li><li><p class=\"facit-rubrik\">Jämför värdena</p><p>Det största värdet är 27.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-a^3\\)</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -134639,7 +134854,27 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Räkna med negativa tal och prioriteringsregler"
     ],
-    "alternativ": [{"txt": "\\(a^2\\)", "ratt": false}, {"txt": "\\(-a^2\\)", "ratt": false}, {"txt": "\\(-a^3\\)", "ratt": true}, {"txt": "\\(a^3\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(a^2\\)",
+        "ratt": false,
+        "kommentar": "\\(a^2=9\\), men \\(-a^3=27\\) är större."
+      },
+      {
+        "txt": "\\(-a^2\\)",
+        "ratt": false,
+        "kommentar": "\\(-a^2=-(a^2)=-9\\), som är negativt."
+      },
+      {
+        "txt": "\\(-a^3\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(a^3\\)",
+        "ratt": false,
+        "kommentar": "\\((-3)^3=-27\\), som är negativt."
+      }
+    ]
   },
   {
     "id": "0.880",
@@ -134653,7 +134888,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Två tal har summan \\(-5\\). Om man subtraherar det mindre talet från det större får man 11. Bestäm det större talet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla talen \\(x\\) (det större) och \\(y\\).</p></li><li><p>Då är \\(x+y=-5\\) och \\(x-y=11\\).</p></li><li><p>Addera likheterna:</p></li><li><p>\\[2x=6\\quad\\Longrightarrow\\quad x=3\\]</p></li><li><div class=\"facit-berakning\"><p>Det mindre talet är</p><div class=\"facit-matte\">\\[-5-3=-8\\].</div></div></li><li><div class=\"facit-berakning\"><p>Kontroll:</p><div class=\"facit-matte\">\\[3-(-8)=11\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kalla det större talet x och det mindre y</p><div class=\"facit-matte\">\\[x+y=-5,\\qquad x-y=11\\]</div></li><li><p class=\"facit-rubrik\">Addera likheterna så att y försvinner</p><div class=\"facit-matte\">\\[2x=-5+11=6\\quad\\Rightarrow\\quad x=3\\]</div></li><li><p class=\"facit-rubrik\">Det mindre talet</p><div class=\"facit-matte\">\\[y=-5-3=-8\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera skillnaden</p><div class=\"facit-matte\">\\[3-(-8)=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -134686,7 +134921,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Tre temperaturer har medelvärdet \\(-4\\,{}^\\circ\\mathrm{C}\\). Två av dem är \\(-9\\,{}^\\circ\\mathrm{C}\\) och \\(3\\,{}^\\circ\\mathrm{C}\\). En fjärde temperatur läggs till, och då blir medelvärdet \\(-2\\,{}^\\circ\\mathrm{C}\\). Vilken är den fjärde temperaturen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Summan av de tre första är</p><div class=\"facit-matte\">\\[3\\cdot(-4)=-12\\].</div></div></li><li><div class=\"facit-berakning\"><p>Summan av alla fyra ska vara</p><div class=\"facit-matte\">\\[4\\cdot(-2)=-8\\].</div></div></li><li><p>\\[-8-(-12)=4\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 °C</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summan av de tre första temperaturerna</p><div class=\"facit-matte\">\\[3\\cdot(-4)=-12\\]</div></li><li><p class=\"facit-rubrik\">Summan av alla fyra temperaturerna</p><div class=\"facit-matte\">\\[4\\cdot(-2)=-8\\]</div></li><li><p class=\"facit-rubrik\">Den fjärde temperaturen är skillnaden</p><div class=\"facit-matte\">\\[-8-(-12)=-8+12=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 °C</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -134720,7 +134955,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/0/1",
     "t": "<p>Beräkna summan \\(1-2+3-4+5-6+\\ldots+99-100\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Para ihop termerna två och två:</p></li><li><p>\\[(1-2)+(3-4)+\\ldots+(99-100)\\]</p></li><li><p>Varje par har värdet \\(-1\\), och det finns \\(100\\div2=50\\) par.</p></li><li><p>\\[50\\cdot(-1)=-50\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −50</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Para ihop termerna två och två</p><div class=\"facit-matte\">\\[(1-2)+(3-4)+\\ldots+(99-100)\\]</div></li><li><p class=\"facit-rubrik\">Varje par blir −1, och det finns 50 par</p><div class=\"facit-matte\">\\[100\\div2=50\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera</p><div class=\"facit-matte\">\\[50\\cdot(-1)=-50\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-50\\)</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -134753,7 +134988,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/0/1",
     "t": "<p>Beräkna summan av alla heltal från \\(-40\\) till \\(45\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talen \\(-40\\) och \\(40\\) tar ut varandra, likaså \\(-39\\) och \\(39\\), och så vidare ner till \\(-1\\) och \\(1\\).</p></li><li><p>Även 0 bidrar med noll.</p></li><li><p>Kvar blir</p></li><li><p>\\[41+42+43+44+45=215\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 215</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen från −40 till 40 tar ut varandra parvis</p><p>−40 + 40 = 0, −39 + 39 = 0 och så vidare. Även 0 bidrar med noll.</p></li><li><p class=\"facit-rubrik\">Kvar blir talen från 41 till 45</p><div class=\"facit-matte\">\\[41+42+43+44+45=215\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 215</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -139966,7 +140201,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Medeltemperaturen under fem dagar var \\(-2{,}4\\,{}^\\circ\\mathrm{C}\\). De fyra första dagarna var temperaturen \\(-5\\), \\(-1\\), \\(2\\) och \\(-3\\,{}^\\circ\\mathrm{C}\\). Vilken temperatur var det den femte dagen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Summan av alla fem temperaturer är</p><div class=\"facit-matte\">\\[5\\cdot(-2{,}4)=-12\\].</div></div></li><li><div class=\"facit-berakning\"><p>De fyra första har summan</p><div class=\"facit-matte\">\\[-5-1+2-3=-7\\].</div></div></li><li><p>\\[-12-(-7)=-5\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −5 °C</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summan av alla fem temperaturerna</p><div class=\"facit-matte\">\\[5\\cdot(-2{,}4)=-12\\]</div></li><li><p class=\"facit-rubrik\">Summan av de fyra första</p><div class=\"facit-matte\">\\[-5-1+2-3=-7\\]</div></li><li><p class=\"facit-rubrik\">Den femte är skillnaden</p><div class=\"facit-matte\">\\[-12-(-7)=-12+7=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −5 °C</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": false,
@@ -140695,7 +140930,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(a^2-2ab+b^2\\) när \\(a=-3\\) och \\(b=4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[(-3)^2-2\\cdot(-3)\\cdot4+4^2=9+24+16=49\\]</p></li><li><div class=\"facit-berakning\"><p>Man kan också se att uttrycket är</p><div class=\"facit-matte\">\\[(a-b)^2=(-7)^2=49\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 49</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in talen med parentes runt</p><div class=\"facit-matte\">\\[(-3)^2-2\\cdot(-3)\\cdot4+4^2\\]</div></li><li><p class=\"facit-rubrik\">Beräkna termerna</p><div class=\"facit-matte\">\\[9+24+16\\]</div></li><li><p class=\"facit-rubrik\">Addera</p><div class=\"facit-matte\">\\[9+24+16=49\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med kvadreringsregeln</p><div class=\"facit-matte\">\\[(a-b)^2=(-3-4)^2=(-7)^2=49\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 49</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -140728,7 +140963,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Toppen av Mount Everest ligger 8 849 m över havet. Den djupaste punkten i Marianergraven ligger 10 935 m under havsytan. Hur stor är höjdskillnaden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[8\\,849-(-10\\,935)=8\\,849+10\\,935=19\\,784\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19 784 m</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv djupet som ett negativt tal</p><p>Marianergraven ligger på \\(-10\\,935\\) m.</p></li><li><p class=\"facit-rubrik\">Skillnaden är den högre höjden minus den lägre</p><div class=\"facit-matte\">\\[\\begin{gathered}8\\,849-(-10\\,935) =8\\,849+10\\,935\\\\=19\\,784\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19 784 m</p></div>",
     "familj": "Negativa tal i vardagen",
     "geogebra": false,
     "miniräknare": true,
@@ -140761,7 +140996,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>För hur många av heltalen \\(-5,\\ -4,\\ \\ldots,\\ 4,\\ 5\\) gäller att \\(x^3\\lt x\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Pröva: \\(x=-2\\) ger \\(-8\\lt-2\\), sant.</p></li><li><p>\\(x=-1\\) ger \\(-1\\lt-1\\), falskt.</p></li><li><p>\\(x=0\\) och \\(x=1\\) ger likhet.</p></li><li><p>För \\(x\\ge2\\) är \\(x^3\\) större än \\(x\\).</p></li><li><p>Olikheten gäller för \\(-5,\\ -4,\\ -3\\) och \\(-2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva negativa tal</p><div class=\"facit-matte\">\\[\\begin{gathered}x=-2:\\ -8<-2\\ \\text{sant},\\\\x=-1:\\ -1<-1\\ \\text{falskt}\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Pröva 0 och 1</p><p>Båda ger likhet, \\(x^3=x\\), så olikheten gäller inte.</p></li><li><p class=\"facit-rubrik\">Pröva positiva tal större än 1</p><div class=\"facit-matte\">\\[x=2:\\ 8<2\\ \\text{falskt}\\]</div></li><li><p class=\"facit-rubrik\">Räkna talen där olikheten gäller</p><p>Det är −5, −4, −3 och −2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -140794,7 +141029,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/0/1",
     "t": "<p>Två tal har produkten \\(-12\\) och summan 1. Vad är summan av talens kvadrater?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talen är 4 och \\(-3\\), eftersom \\(4\\cdot(-3)=-12\\) och \\(4+(-3)=1\\).</p></li><li><p>\\[4^2+(-3)^2=16+9=25\\]</p></li><li><div class=\"facit-berakning\"><p>Utan att hitta talen:</p><div class=\"facit-matte\">\\[a^2+b^2=(a+b)^2-2ab=1-2\\cdot(-12)=25\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hitta två tal med produkten −12 och summan 1</p><div class=\"facit-matte\">\\[4\\cdot(-3)=-12,\\qquad 4+(-3)=1\\]</div></li><li><p class=\"facit-rubrik\">Kvadrera och addera</p><div class=\"facit-matte\">\\[4^2+(-3)^2=16+9=25\\]</div></li><li><p class=\"facit-rubrik\">Utan att hitta talen</p><div class=\"facit-matte\">\\[\\begin{gathered}a^2+b^2 =(a+b)^2-2ab\\\\=1^2-2\\cdot(-12) =1+24 =25\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -141339,8 +141574,8 @@ window.BANKMA1 = [
   ],
   "niva": "E",
   "poang": "1/0/0",
-  "t": "<p>Temperaturen i ett kallt förråd är -5 °C på morgonen. Den stiger 12 °C och sjunker sedan 8 °C. Vilken temperatur blir det?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg till ökningen och dra bort minskningen:</p>\\[-5+12-8=7-8=-1\\]<p class=\"facit-svar\"><strong>Svar:</strong> -1 °C</p></div>",
+  "t": "<p>Temperaturen i ett kallt förråd är −5 °C på morgonen. Den stiger 12 °C och sjunker sedan 8 °C. Vilken temperatur blir det?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ökningen läggs till</p><div class=\"facit-matte\">\\[-5+12=7\\]</div></li><li><p class=\"facit-rubrik\">Minskningen dras bort</p><div class=\"facit-matte\">\\[7-8=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1 °C</p></div>",
   "familj": "Beräkna med negativa tal",
   "formaga": [
     "procedur"
@@ -141374,8 +141609,8 @@ window.BANKMA1 = [
   ],
   "niva": "E",
   "poang": "1/0/0",
-  "t": "<p>Temperaturen i en frys är -12 °C på morgonen. Den stiger 7 °C och sjunker sedan 5 °C. Vilken temperatur blir det?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg till ökningen och dra bort minskningen:</p>\\[-12+7-5=-5-5=-10\\]<p class=\"facit-svar\"><strong>Svar:</strong> -10 °C</p></div>",
+  "t": "<p>Temperaturen i en frys är −12 °C på morgonen. Den stiger 7 °C och sjunker sedan 5 °C. Vilken temperatur blir det?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ökningen läggs till</p><div class=\"facit-matte\">\\[-12+7=-5\\]</div></li><li><p class=\"facit-rubrik\">Minskningen dras bort</p><div class=\"facit-matte\">\\[-5-5=-10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −10 °C</p></div>",
   "familj": "Beräkna med negativa tal",
   "formaga": [
     "procedur"
@@ -141409,8 +141644,8 @@ window.BANKMA1 = [
   ],
   "niva": "E",
   "poang": "1/0/0",
-  "t": "<p>Temperaturen utomhus är -8 °C på morgonen. Den stiger 11 °C och sjunker sedan 6 °C. Vilken temperatur blir det?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg till ökningen och dra bort minskningen:</p>\\[-8+11-6=3-6=-3\\]<p class=\"facit-svar\"><strong>Svar:</strong> -3 °C</p></div>",
+  "t": "<p>Temperaturen utomhus är −8 °C på morgonen. Den stiger 11 °C och sjunker sedan 6 °C. Vilken temperatur blir det?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ökningen läggs till</p><div class=\"facit-matte\">\\[-8+11=3\\]</div></li><li><p class=\"facit-rubrik\">Minskningen dras bort</p><div class=\"facit-matte\">\\[3-6=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −3 °C</p></div>",
   "familj": "Beräkna med negativa tal",
   "formaga": [
     "procedur"
@@ -143101,7 +143336,7 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "1/0/0",
   "t": "<p>Välj två negativa tal \\(a\\) och \\(b\\) så att \\(a-b=6\\). Svara med \\((a;b)\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>När ett negativt tal subtraheras blir det addition.</p><p>Ett exempel är \\(a=-2\\) och \\(b=-8\\):</p>\\[-2-(-8)=-2+8=6\\]<p>Det finns många rätta svar. Båda talen ska vara negativa, och det första minus det andra ska bli 6.</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\((-2;-8)\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort ett negativt tal blir addition</p><div class=\"facit-matte\">\\[a-b=a-(-8)=a+8\\]</div></li><li><p class=\"facit-rubrik\">Välj ett negativt a och lägg till 6 för att få b</p><div class=\"facit-matte\">\\[a=-2\\quad\\Rightarrow\\quad b=-2-6=-8\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att skillnaden blir rätt</p><div class=\"facit-matte\">\\[-2-(-8)=-2+8=6\\]</div></li><li><p class=\"facit-rubrik\">Det finns många rätta svar</p><p>Båda talen ska vara negativa och b ska vara 6 mindre än a.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\((-2;-8)\\).</p></div>",
   "familj": "Beräkna med negativa tal",
   "formaga": [
     "begrepp",
@@ -143139,7 +143374,7 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "1/0/0",
   "t": "<p>Välj två negativa tal \\(a\\) och \\(b\\) så att \\(a-b=9\\). Svara med \\((a;b)\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>När ett negativt tal subtraheras blir det addition.</p><p>Ett exempel är \\(a=-3\\) och \\(b=-12\\):</p>\\[-3-(-12)=-3+12=9\\]<p>Det finns många rätta svar. Båda talen ska vara negativa, och det första minus det andra ska bli 9.</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\((-3;-12)\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort ett negativt tal blir addition</p><div class=\"facit-matte\">\\[a-b=a-(-12)=a+12\\]</div></li><li><p class=\"facit-rubrik\">Välj ett negativt a och lägg till 9 för att få b</p><div class=\"facit-matte\">\\[a=-3\\quad\\Rightarrow\\quad b=-3-9=-12\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att skillnaden blir rätt</p><div class=\"facit-matte\">\\[-3-(-12)=-3+12=9\\]</div></li><li><p class=\"facit-rubrik\">Det finns många rätta svar</p><p>Båda talen ska vara negativa och b ska vara 9 mindre än a.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\((-3;-12)\\).</p></div>",
   "familj": "Beräkna med negativa tal",
   "formaga": [
     "begrepp",
@@ -143177,7 +143412,7 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "1/0/0",
   "t": "<p>Välj två negativa tal \\(a\\) och \\(b\\) så att \\(a-b=4\\). Svara med \\((a;b)\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>När ett negativt tal subtraheras blir det addition.</p><p>Ett exempel är \\(a=-1\\) och \\(b=-5\\):</p>\\[-1-(-5)=-1+5=4\\]<p>Det finns många rätta svar. Båda talen ska vara negativa, och det första minus det andra ska bli 4.</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\((-1;-5)\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dra bort ett negativt tal blir addition</p><div class=\"facit-matte\">\\[a-b=a-(-5)=a+5\\]</div></li><li><p class=\"facit-rubrik\">Välj ett negativt a och lägg till 4 för att få b</p><div class=\"facit-matte\">\\[a=-1\\quad\\Rightarrow\\quad b=-1-4=-5\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att skillnaden blir rätt</p><div class=\"facit-matte\">\\[-1-(-5)=-1+5=4\\]</div></li><li><p class=\"facit-rubrik\">Det finns många rätta svar</p><p>Båda talen ska vara negativa och b ska vara 4 mindre än a.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\((-1;-5)\\).</p></div>",
   "familj": "Beräkna med negativa tal",
   "formaga": [
     "begrepp",

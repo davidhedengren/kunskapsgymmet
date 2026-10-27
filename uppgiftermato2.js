@@ -80052,7 +80052,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Låt</p><p>\\[z=1{,}1(\\cos0,7+i\\sin0,7).\\]</p><p>Av talen \\(z,z^2,\\ldots,z^{12}\\), vilket ligger närmast punkten \\(-2+i\\) i det komplexa talplanet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor.</p></li><li><p class=\"facit-metod\">När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beräkna eller markera potenserna och jämför avstånden till \\(-2+i\\).</p></li><li><div class=\"facit-berakning\"><p>Det minsta avståndet fås för</p><div class=\"facit-matte\">\\[n=4\\].</div></div></li><li><p>Då</p></li><li><p>\\[z^4\\approx-1{,}380+0{,}490i.\\]</p></li><li><p>Avståndet till \\(-2+i\\) är ungefär \\(0{,}803\\).</p></li><li><p>Alltså är \\(\\boxed{z^4}\\) närmast.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Beräkna potenserna.</strong> Enligt de Moivres formel är \\(z^n=1{,}1^n(\\cos(0{,}7n)+i\\sin(0{,}7n))\\).</p></li><li><p><strong>Jämför avstånden.</strong> För varje heltal \\(n\\) från 1 till 12 beräknar vi \\(d_n=|z^n-(-2+i)|\\), till exempel med en grafritare eller miniräknare. Avstånden blir ungefär:</p><p>\\(d_1=2{,}86\\), \\(d_2=2{,}21\\), \\(d_3=1{,}34\\), \\(d_4=0{,}80\\), \\(d_5=1{,}64\\), \\(d_6=2{,}78\\), \\(d_7=3{,}75\\), \\(d_8=4{,}35\\), \\(d_9=4{,}46\\), \\(d_{10}=4{,}02\\), \\(d_{11}=3{,}04\\), \\(d_{12}=1{,}72\\).</p></li><li><p><strong>Välj det minsta avståndet.</strong> För \\(n=4\\) är \\(z^4\\approx-1{,}380+0{,}490i\\), vilket ger \\(d_4\\approx\\sqrt{(0{,}620)^2+(-0{,}510)^2}\\approx0{,}803\\). Det är minst av de tolv avstånden.</p><p><strong>Svar:</strong> \\(\\boxed{z^4}\\).</p></li></ol></div>",
     "familj": "Växla mellan former för komplexa tal",
     "formaga": [
       "procedur"
@@ -80063,7 +80063,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
     "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
-    "traningsniva": 3,
+    "traningsniva": 5,
     "arbetsinsats": 2,
     "omrTidigare": [
       "polar_exponentiell"

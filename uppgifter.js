@@ -220785,5 +220785,411 @@ window.BANK = [
       "kommentar": "Elektroninfångning gör en proton till en neutron, vilket flyttar X längre från bandet."
     }
   ]
-}
+},
+  {
+    "kap": 4,
+    "omr": "moment",
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "familj": "Tyngdpunkt och tippning",
+    "familjNyckel": "moment__tyngdpunkt_och_tippning",
+    "id": "4.902",
+    "niva": "E",
+    "typ": "Balansvåg: vilken skål är tyngst",
+    "poang": "(1/0/0)",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "t": "<p>Isaacs balansvåg har vridpunkten en bit ovanför bommen. Han lägger något i varje skål, och vågen stannar i läget i figuren. Skålarna är likadana.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"295\" viewBox=\"0 0 400 295\" role=\"img\" aria-label=\"Isaacs balansvåg står still och lutar ungefär 14 grader. Den högra skålen hänger lägre än den vänstra.\"><title>Isaacs balansvåg står still och lutar ungefär 14 grader. Den högra skålen hänger lägre än den vänstra.</title><defs><marker id=\"pil\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#c2410c\"/></marker></defs><rect x=\"1\" y=\"1\" width=\"398\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"250\" x2=\"270\" y2=\"250\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"200\" y1=\"250\" x2=\"200\" y2=\"100\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"200\" y1=\"100\" x2=\"193.2\" y2=\"127.2\" stroke=\"#3b5bdb\" stroke-width=\"4\"/><line x1=\"110.7\" y1=\"106.5\" x2=\"275.6\" y2=\"147.8\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"110.7\" y1=\"106.5\" x2=\"86.7\" y2=\"152.5\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"110.7\" y1=\"106.5\" x2=\"134.7\" y2=\"152.5\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 86.7 152.5 Q 110.7 167.5 134.7 152.5 Z\" fill=\"#1f2328\"/><rect x=\"105.2\" y=\"141.5\" width=\"11\" height=\"11\" rx=\"2\" fill=\"#c2410c\"/><text x=\"110.7\" y=\"182.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">?</text><circle cx=\"110.7\" cy=\"106.5\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"275.6\" y1=\"147.8\" x2=\"251.6\" y2=\"193.8\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"275.6\" y1=\"147.8\" x2=\"299.6\" y2=\"193.8\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 251.6 193.8 Q 275.6 208.8 299.6 193.8 Z\" fill=\"#1f2328\"/><rect x=\"270.1\" y=\"182.8\" width=\"11\" height=\"11\" rx=\"2\" fill=\"#c2410c\"/><text x=\"275.6\" y=\"223.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">?</text><circle cx=\"275.6\" cy=\"147.8\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"200\" cy=\"100\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/></svg></span><p>Vilken skål har tyngst innehåll? Välj ett alternativ.</p>",
+    "ledtrad": "<p>Vilken sida sjunker när den ena skålen blir tyngre?</p>",
+    "alternativ": [
+      {
+        "txt": "Den vänstra",
+        "ratt": false,
+        "kommentar": "Den vänstra skålen har åkt upp. Den lättare sidan åker upp."
+      },
+      {
+        "txt": "Den högra",
+        "ratt": true,
+        "kommentar": "Den tyngre sidan sjunker tills momenten kring vridpunkten är lika stora."
+      },
+      {
+        "txt": "De är lika tunga",
+        "ratt": false,
+        "kommentar": "Med lika tunga skålar stannar Isaacs våg vågrätt."
+      },
+      {
+        "txt": "Det går inte att avgöra",
+        "ratt": false,
+        "kommentar": "En våg av Isaacs typ stannar alltid med den tyngre skålen lägst."
+      }
+    ],
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den tyngre skålen ger störst moment och drar ned sin sida av bommen.</p></div><div class=\"facit-stycke\"><p>När bommen lutar blir den sänkta sidans momentarm kortare och den höjda sidans längre. Bommen stannar när momenten är lika stora, alltså med den tyngre skålen lägst.</p></div><div class=\"facit-stycke\"><p>Den högra skålen hänger lägst.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den högra skålen.</p></div>"
+  },
+  {
+    "kap": 4,
+    "omr": "moment",
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "familj": "Tyngdpunkt och tippning",
+    "familjNyckel": "moment__tyngdpunkt_och_tippning",
+    "id": "4.903",
+    "niva": "C",
+    "typ": "Balansvåg: var vridpunkten ska sitta",
+    "poang": "(0/1/0)",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "t": "<p>Albert och Isaac bygger var sin balansvåg av en lätt bom, två likadana skålar och ett stativ. Skålarna hänger fritt i bommens ändar. I Alberts våg sitter vridpunkten (den blå pricken) mitt på bommen. I Isaacs våg sitter vridpunkten en bit ovanför bommen, som hänger i en kort stav under den.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"280\" viewBox=\"0 0 480 280\" role=\"img\" aria-label=\"Alberts våg med vridpunkten mitt på bommen och Isaacs våg med vridpunkten en bit ovanför bommen. Båda bommarna är vågräta.\"><title>Alberts våg med vridpunkten mitt på bommen och Isaacs våg med vridpunkten en bit ovanför bommen. Båda bommarna är vågräta.</title><defs><marker id=\"pil\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#c2410c\"/></marker></defs><rect x=\"1\" y=\"1\" width=\"478\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50\" y1=\"250\" x2=\"190\" y2=\"250\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"120\" y1=\"250\" x2=\"120\" y2=\"100\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"35\" y1=\"100\" x2=\"205\" y2=\"100\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"35\" y1=\"100\" x2=\"11\" y2=\"146\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"35\" y1=\"100\" x2=\"59\" y2=\"146\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 11 146 Q 35 161 59 146 Z\" fill=\"#1f2328\"/><circle cx=\"35\" cy=\"100\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"205\" y1=\"100\" x2=\"181\" y2=\"146\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"205\" y1=\"100\" x2=\"229\" y2=\"146\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 181 146 Q 205 161 229 146 Z\" fill=\"#1f2328\"/><circle cx=\"205\" cy=\"100\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"120\" cy=\"100\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><text x=\"120\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Alberts våg</text><line x1=\"290\" y1=\"250\" x2=\"430\" y2=\"250\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"360\" y1=\"250\" x2=\"360\" y2=\"100\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"360\" y1=\"100\" x2=\"360\" y2=\"128\" stroke=\"#3b5bdb\" stroke-width=\"4\"/><line x1=\"275\" y1=\"128\" x2=\"445\" y2=\"128\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"275\" y1=\"128\" x2=\"251\" y2=\"174\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"275\" y1=\"128\" x2=\"299\" y2=\"174\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 251 174 Q 275 189 299 174 Z\" fill=\"#1f2328\"/><circle cx=\"275\" cy=\"128\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"445\" y1=\"128\" x2=\"421\" y2=\"174\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"445\" y1=\"128\" x2=\"469\" y2=\"174\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 421 174 Q 445 189 469 174 Z\" fill=\"#1f2328\"/><circle cx=\"445\" cy=\"128\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"360\" cy=\"100\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><text x=\"360\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Isaacs våg</text></svg></span><p>Vilken av vågarna kan användas för att avgöra vilket av två föremål som är tyngst? Välj ett alternativ.</p>",
+    "ledtrad": "<p>Tänk dig att bommen lutar lite. Hur ändras skålarnas momentarmar kring vridpunkten i de två vågarna?</p>",
+    "alternativ": [
+      {
+        "txt": "Isaacs. När bommen lutar får den sänkta skålen kortare momentarm och den höjda längre, så bommen stannar i ett läge som visar vilken sida som är tyngst.",
+        "ratt": true,
+        "kommentar": "Det återställande momentet uppstår eftersom upphängningspunkterna ligger under vridpunkten."
+      },
+      {
+        "txt": "Alberts. Vridpunkten sitter mitt på bommen, så vågen väger exakt lika på båda sidor.",
+        "ratt": false,
+        "kommentar": "Alberts våg saknar återställande moment. Minsta skillnad gör att den tippar hela vägen."
+      },
+      {
+        "txt": "Båda. Armarna är lika långa och skålarna lika tunga.",
+        "ratt": false,
+        "kommentar": "Lika långa armar räcker inte. Det avgörande är hur momentarmarna ändras när bommen lutar."
+      },
+      {
+        "txt": "Ingen av dem. En våg behöver en fjäder för att kunna stanna i ett läge.",
+        "ratt": false,
+        "kommentar": "Isaacs våg stannar tack vare momenten kring vridpunkten. Ingen fjäder behövs."
+      }
+    ],
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Avgör vad som händer med skålarnas momentarmar när bommen lutar lite.</p></div><div class=\"facit-stycke\"><p><strong>Alberts våg.</strong> Upphängningspunkterna ligger i höjd med vridpunkten. När bommen lutar vinkeln \\(\\theta\\) krymper båda momentarmarna till \\(L\\cos\\theta\\). Är ena skålen tyngre har den störst moment i alla lägen, så bommen tippar tills den står lodrätt.</p></div><div class=\"facit-stycke\"><p><strong>Isaacs våg.</strong> Upphängningspunkterna ligger under vridpunkten. När bommen lutar flyttas båda punkterna åt den höjda sidan. Den sänkta skålen får kortare momentarm och den höjda längre. Bommen stannar där momenten är lika stora, och lutningen visar vilken sida som är tyngst.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Isaacs våg.</p></div>"
+  },
+  {
+    "kap": 4,
+    "omr": "moment",
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "familj": "Tyngdpunkt och tippning",
+    "familjNyckel": "moment__tyngdpunkt_och_tippning",
+    "id": "4.904",
+    "niva": "C",
+    "typ": "Alberts våg med olika tunga skålar",
+    "poang": "(0/1/0)",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "t": "<p>Alberts balansvåg har vridpunkten mitt på bommen, i höjd med skålarnas upphängningspunkter. Albert håller bommen vågrät och lägger 50 g i den vänstra skålen och 51 g i den högra. Sedan släpper han bommen. Bortse från friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\" role=\"img\" aria-label=\"Alberts våg hålls vågrät. Vänster skål innehåller 50 gram och höger skål 51 gram.\"><title>Alberts våg hålls vågrät. Vänster skål innehåller 50 gram och höger skål 51 gram.</title><defs><marker id=\"pil\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#c2410c\"/></marker></defs><rect x=\"1\" y=\"1\" width=\"398\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"250\" x2=\"270\" y2=\"250\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"200\" y1=\"250\" x2=\"200\" y2=\"100\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"105\" y1=\"100\" x2=\"295\" y2=\"100\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"105\" y1=\"100\" x2=\"81\" y2=\"146\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"105\" y1=\"100\" x2=\"129\" y2=\"146\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 81 146 Q 105 161 129 146 Z\" fill=\"#1f2328\"/><rect x=\"100\" y=\"136\" width=\"10\" height=\"10\" rx=\"2\" fill=\"#c2410c\"/><text x=\"105\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">50 g</text><circle cx=\"105\" cy=\"100\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"295\" y1=\"100\" x2=\"271\" y2=\"146\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"295\" y1=\"100\" x2=\"319\" y2=\"146\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 271 146 Q 295 161 319 146 Z\" fill=\"#1f2328\"/><rect x=\"289.5\" y=\"135\" width=\"11\" height=\"11\" rx=\"2\" fill=\"#c2410c\"/><text x=\"295\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">51 g</text><circle cx=\"295\" cy=\"100\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"200\" cy=\"100\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/></svg></span><p>Vad händer? Välj ett alternativ.</p>",
+    "ledtrad": "<p>Hur långa är de två momentarmarna när bommen har börjat luta? Blir högra sidans moment någon gång mindre än vänstra sidans?</p>",
+    "alternativ": [
+      {
+        "txt": "Bommen lutar lite åt höger och stannar.",
+        "ratt": false,
+        "kommentar": "Så beter sig Isaacs våg. Hos Albert krymper båda momentarmarna lika mycket, så höger sida har alltid störst moment."
+      },
+      {
+        "txt": "Höger sida sjunker tills bommen står lodrätt.",
+        "ratt": true,
+        "kommentar": "Momentskillnaden byter aldrig tecken, så bommen vrids tills momentarmarna är noll."
+      },
+      {
+        "txt": "Bommen ligger kvar vågrätt eftersom skillnaden bara är 1 g.",
+        "ratt": false,
+        "kommentar": "Utan friktion räcker varje skillnad. Höger sida har störst moment redan i vågrätt läge."
+      },
+      {
+        "txt": "Bommen gungar och stannar till slut vågrätt.",
+        "ratt": false,
+        "kommentar": "Det finns inget moment som drar bommen tillbaka mot vågrätt läge."
+      }
+    ],
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför skålarnas moment kring vridpunkten när bommen lutar vinkeln θ.</p></div><div class=\"facit-stycke\"><p>Upphängningspunkterna ligger i höjd med vridpunkten, så båda momentarmarna är \\(L\\cos\\theta\\):</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"330\" viewBox=\"0 0 400 330\" role=\"img\" aria-label=\"Alberts våg lutar 30 grader. Båda skålarnas momentarmar är lika långa, L gånger cosinus theta.\"><title>Alberts våg lutar 30 grader. Båda skålarnas momentarmar är lika långa, L gånger cosinus theta.</title><defs><marker id=\"pil\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#c2410c\"/></marker></defs><rect x=\"1\" y=\"1\" width=\"398\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"270\" x2=\"270\" y2=\"270\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"200\" y1=\"270\" x2=\"200\" y2=\"120\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"117.7\" y1=\"72.5\" x2=\"282.3\" y2=\"167.5\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"117.7\" y1=\"72.5\" x2=\"93.7\" y2=\"118.5\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"117.7\" y1=\"72.5\" x2=\"141.7\" y2=\"118.5\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 93.7 118.5 Q 117.7 133.5 141.7 118.5 Z\" fill=\"#1f2328\"/><rect x=\"112.7\" y=\"108.5\" width=\"10\" height=\"10\" rx=\"2\" fill=\"#c2410c\"/><circle cx=\"117.7\" cy=\"72.5\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"282.3\" y1=\"167.5\" x2=\"258.3\" y2=\"213.5\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"282.3\" y1=\"167.5\" x2=\"306.3\" y2=\"213.5\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 258.3 213.5 Q 282.3 228.5 306.3 213.5 Z\" fill=\"#1f2328\"/><rect x=\"276.8\" y=\"202.5\" width=\"11\" height=\"11\" rx=\"2\" fill=\"#c2410c\"/><circle cx=\"282.3\" cy=\"167.5\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"200\" cy=\"120\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><line x1=\"117.7\" y1=\"72.5\" x2=\"117.7\" y2=\"292\" stroke=\"#c2410c\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/><line x1=\"282.3\" y1=\"167.5\" x2=\"282.3\" y2=\"292\" stroke=\"#c2410c\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/><line x1=\"200\" y1=\"120\" x2=\"200\" y2=\"292\" stroke=\"#c2410c\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/><line x1=\"117.7\" y1=\"286\" x2=\"200\" y2=\"286\" stroke=\"#c2410c\" stroke-width=\"2\" marker-start=\"url(#pil)\" marker-end=\"url(#pil)\"/><line x1=\"200\" y1=\"286\" x2=\"282.3\" y2=\"286\" stroke=\"#c2410c\" stroke-width=\"2\" marker-start=\"url(#pil)\" marker-end=\"url(#pil)\"/><text x=\"158.9\" y=\"306\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">L·cos θ</text><text x=\"241.1\" y=\"306\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">L·cos θ</text></svg></span></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[M_\\text{höger}-M_\\text{vänster}=(0{,}051-0{,}050)\\cdot g\\cdot L\\cos\\theta\\]</div></div><div class=\"facit-stycke\"><p>Skillnaden är positiv i alla lägen utom när bommen står lodrätt, då \\(\\cos\\theta=0\\). Höger sida sjunker därför hela vägen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Höger sida sjunker tills bommen står lodrätt.</p></div>"
+  },
+  {
+    "kap": 4,
+    "omr": "moment",
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "familj": "Tyngdpunkt och tippning",
+    "familjNyckel": "moment__tyngdpunkt_och_tippning",
+    "id": "4.905",
+    "niva": "C",
+    "typ": "Alberts våg: indifferent jämvikt",
+    "poang": "(0/1/0)",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "t": "<p>Alberts balansvåg har vridpunkten mitt på bommen, i höjd med skålarnas upphängningspunkter. Albert lägger lika tunga föremål i båda skålarna. Han vrider bommen så att den lutar 20° och släpper. Bortse från friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\" role=\"img\" aria-label=\"Alberts våg med lika tunga skålar, vriden 20 grader så att höger sida är lägst.\"><title>Alberts våg med lika tunga skålar, vriden 20 grader så att höger sida är lägst.</title><defs><marker id=\"pil\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#c2410c\"/></marker></defs><rect x=\"1\" y=\"1\" width=\"398\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"200\" y1=\"100\" x2=\"320\" y2=\"100\" stroke=\"#9aa1aa\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"130\" y1=\"250\" x2=\"270\" y2=\"250\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"200\" y1=\"250\" x2=\"200\" y2=\"100\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"110.7\" y1=\"67.5\" x2=\"289.3\" y2=\"132.5\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"110.7\" y1=\"67.5\" x2=\"86.7\" y2=\"113.5\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"110.7\" y1=\"67.5\" x2=\"134.7\" y2=\"113.5\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 86.7 113.5 Q 110.7 128.5 134.7 113.5 Z\" fill=\"#1f2328\"/><rect x=\"105.7\" y=\"103.5\" width=\"10\" height=\"10\" rx=\"2\" fill=\"#c2410c\"/><circle cx=\"110.7\" cy=\"67.5\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"289.3\" y1=\"132.5\" x2=\"265.3\" y2=\"178.5\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"289.3\" y1=\"132.5\" x2=\"313.3\" y2=\"178.5\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 265.3 178.5 Q 289.3 193.5 313.3 178.5 Z\" fill=\"#1f2328\"/><rect x=\"284.3\" y=\"168.5\" width=\"10\" height=\"10\" rx=\"2\" fill=\"#c2410c\"/><circle cx=\"289.3\" cy=\"132.5\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"200\" cy=\"100\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><path d=\"M 258 100 A 58 58 0 0 1 254.5 119.8\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><text x=\"278.9\" y=\"115.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">20°</text></svg></span><p>Vad händer? Välj ett alternativ.</p>",
+    "ledtrad": "<p>Hur långa är momentarmarna när bommen lutar 20°? Vilket moment blir störst?</p>",
+    "alternativ": [
+      {
+        "txt": "Bommen blir kvar i läget där den lutar 20°.",
+        "ratt": true,
+        "kommentar": "Momentarmarna är lika långa i alla lägen, så momenten tar ut varandra."
+      },
+      {
+        "txt": "Bommen vrider sig tillbaka till vågrätt läge.",
+        "ratt": false,
+        "kommentar": "Det skulle kräva att den sänkta sidan får kortare momentarm, som i Isaacs våg."
+      },
+      {
+        "txt": "Den lägre sidan fortsätter nedåt tills bommen står lodrätt.",
+        "ratt": false,
+        "kommentar": "Momenten är lika stora, så inget driver bommen vidare."
+      },
+      {
+        "txt": "Bommen svänger fram och tillbaka kring vågrätt läge.",
+        "ratt": false,
+        "kommentar": "En svängning kräver ett moment som drar mot jämviktsläget. Här finns inget sådant moment."
+      }
+    ],
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför momenten kring vridpunkten när bommen lutar 20°.</p></div><div class=\"facit-stycke\"><p>Upphängningspunkterna ligger i höjd med vridpunkten, så båda momentarmarna är lika långa:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[l=L\\cos20^\\circ\\]</div></div><div class=\"facit-stycke\"><p>Massorna är lika, så momenten är lika stora och motriktade. Det gäller i varje läge. Bommen är i jämvikt i vilket läge som helst (indifferent jämvikt), och den blir kvar där den släpps.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bommen blir kvar i läget där den lutar 20°.</p></div>"
+  },
+  {
+    "kap": 4,
+    "omr": "moment",
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "familj": "Tyngdpunkt och tippning",
+    "familjNyckel": "moment__tyngdpunkt_och_tippning",
+    "id": "4.906",
+    "niva": "A",
+    "typ": "Balansvåg: stabil, indifferent och instabil jämvikt",
+    "poang": "(0/0/1)",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "t": "<p>Tre balansvågar har lika tunga skålar. Vridpunkten (den blå pricken) sitter ovanför bommen i A, mitt på bommen i B och under bommen i C. Bommarna knuffas så att de lutar lite, som i figuren, och släpps. Bortse från friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"600\" height=\"260\" viewBox=\"0 0 600 260\" role=\"img\" aria-label=\"Tre balansvågar med lika tunga skålar. I A sitter vridpunkten ovanför bommen, i B mitt på bommen och i C under bommen. Alla tre bommar lutar lite åt höger.\"><title>Tre balansvågar med lika tunga skålar. I A sitter vridpunkten ovanför bommen, i B mitt på bommen och i C under bommen. Alla tre bommar lutar lite åt höger.</title><defs><marker id=\"pil\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#c2410c\"/></marker></defs><rect x=\"1\" y=\"1\" width=\"598\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"35\" y1=\"230\" x2=\"175\" y2=\"230\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"105\" y1=\"230\" x2=\"105\" y2=\"110\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"105\" y1=\"110\" x2=\"101.7\" y2=\"133.8\" stroke=\"#3b5bdb\" stroke-width=\"4\"/><line x1=\"40.3\" y1=\"125.1\" x2=\"163.1\" y2=\"142.4\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"40.3\" y1=\"125.1\" x2=\"23.3\" y2=\"159.1\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"40.3\" y1=\"125.1\" x2=\"57.3\" y2=\"159.1\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 23.3 159.1 Q 40.3 174.1 57.3 159.1 Z\" fill=\"#1f2328\"/><circle cx=\"40.3\" cy=\"125.1\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"163.1\" y1=\"142.4\" x2=\"146.1\" y2=\"176.4\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"163.1\" y1=\"142.4\" x2=\"180.1\" y2=\"176.4\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 146.1 176.4 Q 163.1 191.4 180.1 176.4 Z\" fill=\"#1f2328\"/><circle cx=\"163.1\" cy=\"142.4\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"105\" cy=\"110\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><text x=\"105\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><line x1=\"230\" y1=\"230\" x2=\"370\" y2=\"230\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"300\" y1=\"230\" x2=\"300\" y2=\"110\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"238.6\" y1=\"101.4\" x2=\"361.4\" y2=\"118.6\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"238.6\" y1=\"101.4\" x2=\"221.6\" y2=\"135.4\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"238.6\" y1=\"101.4\" x2=\"255.6\" y2=\"135.4\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 221.6 135.4 Q 238.6 150.4 255.6 135.4 Z\" fill=\"#1f2328\"/><circle cx=\"238.6\" cy=\"101.4\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"361.4\" y1=\"118.6\" x2=\"344.4\" y2=\"152.6\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"361.4\" y1=\"118.6\" x2=\"378.4\" y2=\"152.6\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 344.4 152.6 Q 361.4 167.6 378.4 152.6 Z\" fill=\"#1f2328\"/><circle cx=\"361.4\" cy=\"118.6\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"300\" cy=\"110\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><text x=\"300\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><line x1=\"425\" y1=\"230\" x2=\"565\" y2=\"230\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"495\" y1=\"230\" x2=\"495\" y2=\"130\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"495\" y1=\"130\" x2=\"498.3\" y2=\"106.2\" stroke=\"#3b5bdb\" stroke-width=\"4\"/><line x1=\"436.9\" y1=\"97.6\" x2=\"559.7\" y2=\"114.9\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"436.9\" y1=\"97.6\" x2=\"419.9\" y2=\"131.6\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"436.9\" y1=\"97.6\" x2=\"453.9\" y2=\"131.6\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 419.9 131.6 Q 436.9 146.6 453.9 131.6 Z\" fill=\"#1f2328\"/><circle cx=\"436.9\" cy=\"97.6\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"559.7\" y1=\"114.9\" x2=\"542.7\" y2=\"148.9\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"559.7\" y1=\"114.9\" x2=\"576.7\" y2=\"148.9\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 542.7 148.9 Q 559.7 163.9 576.7 148.9 Z\" fill=\"#1f2328\"/><circle cx=\"559.7\" cy=\"114.9\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"495\" cy=\"130\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><text x=\"495\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text></svg></span><p>Vad händer med vågarna? Välj ett alternativ.</p>",
+    "ledtrad": "<p>För varje våg: vilken skål får längst momentarm kring vridpunkten när bommen lutar, den sänkta eller den höjda?</p>",
+    "alternativ": [
+      {
+        "txt": "A går tillbaka till vågrätt läge, B blir kvar i det lutande läget och C tippar över.",
+        "ratt": true,
+        "kommentar": "Den sänkta skålen får kortare arm i A, lika lång i B och längre i C."
+      },
+      {
+        "txt": "Alla tre går tillbaka eftersom skålarna är lika tunga.",
+        "ratt": false,
+        "kommentar": "Lika tunga skålar ger lika stora moment bara när momentarmarna är lika långa."
+      },
+      {
+        "txt": "A tippar över, B blir kvar och C går tillbaka.",
+        "ratt": false,
+        "kommentar": "Det är tvärtom. I C hamnar upphängningspunkterna ovanför vridpunkten, så den sänkta skålen får längst arm."
+      },
+      {
+        "txt": "A och C går tillbaka, men B tippar över.",
+        "ratt": false,
+        "kommentar": "I B är momentarmarna lika långa, så momenten tar ut varandra i alla lägen."
+      }
+    ],
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför skålarnas momentarmar kring vridpunkten när bommen lutar åt höger.</p></div><div class=\"facit-stycke\"><p><strong>A:</strong> upphängningspunkterna ligger under vridpunkten och flyttas åt vänster när bommen lutar. Den sänkta högra skålen får kortare arm, så vänster sida får störst moment och bommen vrids tillbaka. Det är stabil jämvikt.</p></div><div class=\"facit-stycke\"><p><strong>B:</strong> båda armarna är \\(L\\cos\\theta\\). Momenten är lika i alla lägen, så bommen blir kvar. Det är indifferent jämvikt.</p></div><div class=\"facit-stycke\"><p><strong>C:</strong> upphängningspunkterna ligger över vridpunkten och flyttas åt höger. Den sänkta skålen får längre arm, så lutningen ökar och vågen tippar över. Det är instabil jämvikt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> A går tillbaka, B blir kvar och C tippar över.</p></div>"
+  },
+  {
+    "kap": 4,
+    "omr": "moment",
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": false,
+    "självrättning": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "familj": "Tyngdpunkt och tippning",
+    "familjNyckel": "moment__tyngdpunkt_och_tippning",
+    "id": "4.907",
+    "niva": "A",
+    "typ": "Förklara varför Isaacs våg fungerar",
+    "poang": "(0/1/2)",
+    "formaga": [
+      "begrepp",
+      "resonemang",
+      "kommunikation"
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "manuellKomplettering": true,
+    "t": "<p>Albert och Isaac bygger var sin balansvåg. Den övre raden i figuren visar hur vågarna var tänkta. Den nedre raden visar vad som hände när skålarna var olika tunga. Alberts bom tippade till lodrätt läge. Isaacs bom lutade lite och stannade.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"490\" height=\"470\" viewBox=\"0 0 490 470\" role=\"img\" aria-label=\"Överst Alberts och Isaacs vågar som de var tänkta, vågräta. Nederst hur de blev med olika tunga skålar: Alberts bom har tippat till lodrätt läge, Isaacs bom lutar lite och står stilla.\"><title>Överst Alberts och Isaacs vågar som de var tänkta, vågräta. Nederst hur de blev med olika tunga skålar: Alberts bom har tippat till lodrätt läge, Isaacs bom lutar lite och står stilla.</title><defs><marker id=\"pil\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#c2410c\"/></marker></defs><rect x=\"1\" y=\"1\" width=\"488\" height=\"468\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"95\" y1=\"200\" x2=\"235\" y2=\"200\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"165\" y1=\"200\" x2=\"165\" y2=\"80\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"95\" y1=\"80\" x2=\"235\" y2=\"80\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"95\" y1=\"80\" x2=\"71\" y2=\"126\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"95\" y1=\"80\" x2=\"119\" y2=\"126\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 71 126 Q 95 141 119 126 Z\" fill=\"#1f2328\"/><circle cx=\"95\" cy=\"80\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"235\" y1=\"80\" x2=\"211\" y2=\"126\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"235\" y1=\"80\" x2=\"259\" y2=\"126\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 211 126 Q 235 141 259 126 Z\" fill=\"#1f2328\"/><circle cx=\"235\" cy=\"80\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"165\" cy=\"80\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><text x=\"165\" y=\"28\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Alberts våg</text><line x1=\"325\" y1=\"200\" x2=\"465\" y2=\"200\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"395\" y1=\"200\" x2=\"395\" y2=\"80\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"395\" y1=\"80\" x2=\"395\" y2=\"104\" stroke=\"#3b5bdb\" stroke-width=\"4\"/><line x1=\"325\" y1=\"104\" x2=\"465\" y2=\"104\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"325\" y1=\"104\" x2=\"301\" y2=\"150\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"325\" y1=\"104\" x2=\"349\" y2=\"150\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 301 150 Q 325 165 349 150 Z\" fill=\"#1f2328\"/><circle cx=\"325\" cy=\"104\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"465\" y1=\"104\" x2=\"441\" y2=\"150\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"465\" y1=\"104\" x2=\"489\" y2=\"150\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 441 150 Q 465 165 489 150 Z\" fill=\"#1f2328\"/><circle cx=\"465\" cy=\"104\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"395\" cy=\"80\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><text x=\"395\" y=\"28\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Isaacs våg</text><text x=\"28\" y=\"130\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\" transform=\"rotate(-90 28 130)\">Idé</text><line x1=\"45\" y1=\"232\" x2=\"475\" y2=\"232\" stroke=\"#dce4ed\" stroke-width=\"1.5\"/><text x=\"28\" y=\"345\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\" transform=\"rotate(-90 28 345)\">Verklighet</text><line x1=\"95\" y1=\"440\" x2=\"235\" y2=\"440\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"165\" y1=\"440\" x2=\"165\" y2=\"325\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"165\" y1=\"255\" x2=\"165\" y2=\"395\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"165\" y1=\"255\" x2=\"141\" y2=\"301\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"165\" y1=\"255\" x2=\"189\" y2=\"301\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 141 301 Q 165 316 189 301 Z\" fill=\"#1f2328\"/><rect x=\"160.5\" y=\"292\" width=\"9\" height=\"9\" rx=\"2\" fill=\"#c2410c\"/><circle cx=\"165\" cy=\"255\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"165\" y1=\"395\" x2=\"141\" y2=\"441\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"165\" y1=\"395\" x2=\"189\" y2=\"441\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 141 441 Q 165 456 189 441 Z\" fill=\"#1f2328\"/><rect x=\"159.5\" y=\"430\" width=\"11\" height=\"11\" rx=\"2\" fill=\"#c2410c\"/><circle cx=\"165\" cy=\"395\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"165\" cy=\"325\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><line x1=\"325\" y1=\"440\" x2=\"465\" y2=\"440\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"395\" y1=\"440\" x2=\"395\" y2=\"320\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"395\" y1=\"320\" x2=\"387.6\" y2=\"342.8\" stroke=\"#3b5bdb\" stroke-width=\"4\"/><line x1=\"321\" y1=\"321.3\" x2=\"454.2\" y2=\"364.4\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"321\" y1=\"321.3\" x2=\"297\" y2=\"367.3\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"321\" y1=\"321.3\" x2=\"345\" y2=\"367.3\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 297 367.3 Q 321 382.3 345 367.3 Z\" fill=\"#1f2328\"/><rect x=\"316.5\" y=\"358.3\" width=\"9\" height=\"9\" rx=\"2\" fill=\"#c2410c\"/><circle cx=\"321\" cy=\"321.3\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"454.2\" y1=\"364.4\" x2=\"430.2\" y2=\"410.4\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"454.2\" y1=\"364.4\" x2=\"478.2\" y2=\"410.4\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 430.2 410.4 Q 454.2 425.4 478.2 410.4 Z\" fill=\"#1f2328\"/><rect x=\"448.7\" y=\"399.4\" width=\"11\" height=\"11\" rx=\"2\" fill=\"#c2410c\"/><circle cx=\"454.2\" cy=\"364.4\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"395\" cy=\"320\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/></svg></span><p>Förklara med hjälp av vridmoment och momentarm varför Isaacs våg fungerar men inte Alberts.</p>",
+    "ledtrad": "<p>Rita en av vågarna när bommen lutar. Var hamnar skålarnas upphängningspunkter i sidled jämfört med vridpunkten?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Undersök hur skålarnas momentarmar kring vridpunkten ändras när bommen lutar.</p></div><div class=\"facit-stycke\"><p>Skålarna hänger lodrätt, så tyngdkraften från en skål verkar längs en lodrät linje genom upphängningspunkten. Momentarmen är det vågräta avståndet från vridpunkten till den linjen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"300\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Båda bommarna lutar 25 grader. Hos Albert är momentarmarna lika långa. Hos Isaac har den sänkta skålen kortare och den höjda längre momentarm.\"><title>Båda bommarna lutar 25 grader. Hos Albert är momentarmarna lika långa. Hos Isaac har den sänkta skålen kortare och den höjda längre momentarm.</title><defs><marker id=\"pil\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#c2410c\"/></marker></defs><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50\" y1=\"240\" x2=\"190\" y2=\"240\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"120\" y1=\"240\" x2=\"120\" y2=\"90\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"47.5\" y1=\"56.2\" x2=\"192.5\" y2=\"123.8\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"47.5\" y1=\"56.2\" x2=\"23.5\" y2=\"102.2\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"47.5\" y1=\"56.2\" x2=\"71.5\" y2=\"102.2\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 23.5 102.2 Q 47.5 117.2 71.5 102.2 Z\" fill=\"#1f2328\"/><circle cx=\"47.5\" cy=\"56.2\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"192.5\" y1=\"123.8\" x2=\"168.5\" y2=\"169.8\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"192.5\" y1=\"123.8\" x2=\"216.5\" y2=\"169.8\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 168.5 169.8 Q 192.5 184.8 216.5 169.8 Z\" fill=\"#1f2328\"/><circle cx=\"192.5\" cy=\"123.8\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"120\" cy=\"90\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><line x1=\"47.5\" y1=\"56.2\" x2=\"47.5\" y2=\"262\" stroke=\"#c2410c\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/><line x1=\"192.5\" y1=\"123.8\" x2=\"192.5\" y2=\"262\" stroke=\"#c2410c\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/><line x1=\"120\" y1=\"90\" x2=\"120\" y2=\"262\" stroke=\"#c2410c\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/><line x1=\"47.5\" y1=\"256\" x2=\"120\" y2=\"256\" stroke=\"#c2410c\" stroke-width=\"2\" marker-start=\"url(#pil)\" marker-end=\"url(#pil)\"/><line x1=\"120\" y1=\"256\" x2=\"192.5\" y2=\"256\" stroke=\"#c2410c\" stroke-width=\"2\" marker-start=\"url(#pil)\" marker-end=\"url(#pil)\"/><text x=\"83.7\" y=\"276\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">lika</text><text x=\"156.3\" y=\"276\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">lika</text><line x1=\"290\" y1=\"240\" x2=\"430\" y2=\"240\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"360\" y1=\"240\" x2=\"360\" y2=\"90\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"360\" y1=\"90\" x2=\"348.2\" y2=\"115.4\" stroke=\"#3b5bdb\" stroke-width=\"4\"/><line x1=\"275.7\" y1=\"81.6\" x2=\"420.7\" y2=\"149.2\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"275.7\" y1=\"81.6\" x2=\"251.7\" y2=\"127.6\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"275.7\" y1=\"81.6\" x2=\"299.7\" y2=\"127.6\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 251.7 127.6 Q 275.7 142.6 299.7 127.6 Z\" fill=\"#1f2328\"/><circle cx=\"275.7\" cy=\"81.6\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"420.7\" y1=\"149.2\" x2=\"396.7\" y2=\"195.2\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"420.7\" y1=\"149.2\" x2=\"444.7\" y2=\"195.2\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 396.7 195.2 Q 420.7 210.2 444.7 195.2 Z\" fill=\"#1f2328\"/><circle cx=\"420.7\" cy=\"149.2\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"360\" cy=\"90\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><line x1=\"275.7\" y1=\"81.6\" x2=\"275.7\" y2=\"262\" stroke=\"#c2410c\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/><line x1=\"420.7\" y1=\"149.2\" x2=\"420.7\" y2=\"262\" stroke=\"#c2410c\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/><line x1=\"360\" y1=\"90\" x2=\"360\" y2=\"262\" stroke=\"#c2410c\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/><line x1=\"275.7\" y1=\"256\" x2=\"360\" y2=\"256\" stroke=\"#c2410c\" stroke-width=\"2\" marker-start=\"url(#pil)\" marker-end=\"url(#pil)\"/><line x1=\"360\" y1=\"256\" x2=\"420.7\" y2=\"256\" stroke=\"#c2410c\" stroke-width=\"2\" marker-start=\"url(#pil)\" marker-end=\"url(#pil)\"/><text x=\"317.8\" y=\"276\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">längre</text><text x=\"390.3\" y=\"276\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">kortare</text><text x=\"120\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Albert</text><text x=\"360\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Isaac</text></svg></span></div><div class=\"facit-stycke\"><p><strong>Alberts våg.</strong> Upphängningspunkterna ligger i höjd med vridpunkten. När bommen lutar vinkeln \\(\\theta\\) blir båda momentarmarna \\(L\\cos\\theta\\), alltså lika långa. Den tyngre skålen har då störst moment i varje läge. Bommen vrids tills momentarmarna är noll, när bommen står lodrätt. Med lika tunga skålar stannar bommen i vilket läge som helst, så vågen kan aldrig visa ett bestämt läge.</p></div><div class=\"facit-stycke\"><p><strong>Isaacs våg.</strong> Upphängningspunkterna sitter avståndet \\(h\\) under vridpunkten. När bommen lutar flyttas båda punkterna åt den höjda sidan:</p><div class=\"facit-matte\">\\[l_\\text{sänkt}=L\\cos\\theta-h\\sin\\theta,\\qquad l_\\text{höjd}=L\\cos\\theta+h\\sin\\theta\\]</div></div><div class=\"facit-stycke\"><p>Den tyngre skålen sjunker men får allt kortare momentarm, medan den lättare får allt längre. Bommen stannar när momenten är lika stora. Det ger ett bestämt läge som visar vilken sida som är tyngst, och vågen går tillbaka till vågrätt läge när skålarna är lika tunga.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Hos Isaac ger lutningen ett återställande moment eftersom den sänkta sidan får kortare momentarm. Hos Albert är momentarmarna alltid lika långa, så minsta massskillnad tippar bommen hela vägen.</p></div>"
+  },
+  {
+    "kap": 4,
+    "omr": "moment",
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14.25117176218233,
+      15.293060828183911,
+      107.29824561403508
+    ],
+    "tolerans": [
+      0.05,
+      0.05,
+      0.5
+    ],
+    "familj": "Momentjämvikt och hävstänger",
+    "familjNyckel": "moment__momentjamvikt",
+    "id": "4.908",
+    "niva": "A",
+    "typ": "Balansvåg: momentarmar när bommen lutar",
+    "poang": "(0/2/1)",
+    "formaga": [
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarVardesiffror": [
+      4,
+      4,
+      4
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm",
+      "g"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "t": "<p>Isaacs balansvåg står stilla och lutar 10° så att den högra skålen är lägst. Bommen är 15 cm från mitten till varje upphängningspunkt. Bommens mitt sitter 3,0 cm rakt under vridpunkten P, i en stav som är vinkelrät mot bommen. Den vänstra skålen med innehåll har massan 100 g. Bommens och stavens massa kan försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"355\" viewBox=\"0 0 420 355\" role=\"img\" aria-label=\"Isaacs balansvåg lutar 10 grader så att höger skål är lägst. Bommen är 15 centimeter från mitten till varje ände och sitter 3,0 centimeter under vridpunkten P. Vänster skål har massan 100 gram, höger skål okänd massa.\"><title>Isaacs balansvåg lutar 10 grader så att höger skål är lägst. Bommen är 15 centimeter från mitten till varje ände och sitter 3,0 centimeter under vridpunkten P. Vänster skål har massan 100 gram, höger skål okänd massa.</title><defs><marker id=\"pil\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#c2410c\"/></marker></defs><rect x=\"1\" y=\"1\" width=\"418\" height=\"353\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"140\" y1=\"300\" x2=\"280\" y2=\"300\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"210\" y1=\"300\" x2=\"210\" y2=\"130\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"210\" y1=\"130\" x2=\"205.7\" y2=\"154.6\" stroke=\"#3b5bdb\" stroke-width=\"4\"/><line x1=\"82.6\" y1=\"132.9\" x2=\"328.8\" y2=\"176.3\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"82.6\" y1=\"132.9\" x2=\"58.6\" y2=\"178.9\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"82.6\" y1=\"132.9\" x2=\"106.6\" y2=\"178.9\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 58.6 178.9 Q 82.6 193.9 106.6 178.9 Z\" fill=\"#1f2328\"/><rect x=\"77.6\" y=\"168.9\" width=\"10\" height=\"10\" rx=\"2\" fill=\"#c2410c\"/><text x=\"82.6\" y=\"208.9\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">100 g</text><circle cx=\"82.6\" cy=\"132.9\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"328.8\" y1=\"176.3\" x2=\"304.8\" y2=\"222.3\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"328.8\" y1=\"176.3\" x2=\"352.8\" y2=\"222.3\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 304.8 222.3 Q 328.8 237.3 352.8 222.3 Z\" fill=\"#1f2328\"/><text x=\"328.8\" y=\"252.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">?</text><circle cx=\"328.8\" cy=\"176.3\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"210\" cy=\"130\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><line x1=\"205.7\" y1=\"154.6\" x2=\"315.7\" y2=\"154.6\" stroke=\"#9aa1aa\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><path d=\"M 297.7 154.6 A 92 92 0 0 1 296.3 170.6\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><text x=\"323.2\" y=\"165\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">10°</text><text x=\"146.9\" y=\"128\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#3b5bdb\" font-weight=\"bold\">15 cm</text><text x=\"263\" y=\"193.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#3b5bdb\" font-weight=\"bold\">15 cm</text><line x1=\"210.8\" y1=\"142.3\" x2=\"241.8\" y2=\"136.3\" stroke=\"#3b5bdb\" stroke-width=\"1.2\"/><text x=\"244.8\" y=\"140.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#3b5bdb\" font-weight=\"bold\">3,0 cm</text><text x=\"198\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\" font-style=\"italic\">P</text></svg></span><ol type=\"a\"><li>Hur lång är den högra skålens momentarm, alltså det vågräta avståndet från P till den högra upphängningspunkten? (Svara i cm.)</li><li>Hur lång är den vänstra skålens momentarm? (Svara i cm.)</li><li>Momentarmarna är 15,29 cm för den vänstra skålen och 14,25 cm för den högra. Vilken massa har den högra skålen med innehåll? (Svara i g.)</li></ol>",
+    "spelIntro": "<p>Isaacs balansvåg står stilla och lutar 10° så att den högra skålen är lägst. Bommen är 15 cm från mitten till varje upphängningspunkt. Bommens mitt sitter 3,0 cm rakt under vridpunkten P, i en stav som är vinkelrät mot bommen. Den vänstra skålen med innehåll har massan 100 g. Bommens och stavens massa kan försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"355\" viewBox=\"0 0 420 355\" role=\"img\" aria-label=\"Isaacs balansvåg lutar 10 grader så att höger skål är lägst. Bommen är 15 centimeter från mitten till varje ände och sitter 3,0 centimeter under vridpunkten P. Vänster skål har massan 100 gram, höger skål okänd massa.\"><title>Isaacs balansvåg lutar 10 grader så att höger skål är lägst. Bommen är 15 centimeter från mitten till varje ände och sitter 3,0 centimeter under vridpunkten P. Vänster skål har massan 100 gram, höger skål okänd massa.</title><defs><marker id=\"pil\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#c2410c\"/></marker></defs><rect x=\"1\" y=\"1\" width=\"418\" height=\"353\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"140\" y1=\"300\" x2=\"280\" y2=\"300\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"210\" y1=\"300\" x2=\"210\" y2=\"130\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"210\" y1=\"130\" x2=\"205.7\" y2=\"154.6\" stroke=\"#3b5bdb\" stroke-width=\"4\"/><line x1=\"82.6\" y1=\"132.9\" x2=\"328.8\" y2=\"176.3\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"82.6\" y1=\"132.9\" x2=\"58.6\" y2=\"178.9\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"82.6\" y1=\"132.9\" x2=\"106.6\" y2=\"178.9\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 58.6 178.9 Q 82.6 193.9 106.6 178.9 Z\" fill=\"#1f2328\"/><rect x=\"77.6\" y=\"168.9\" width=\"10\" height=\"10\" rx=\"2\" fill=\"#c2410c\"/><text x=\"82.6\" y=\"208.9\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">100 g</text><circle cx=\"82.6\" cy=\"132.9\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"328.8\" y1=\"176.3\" x2=\"304.8\" y2=\"222.3\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"328.8\" y1=\"176.3\" x2=\"352.8\" y2=\"222.3\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 304.8 222.3 Q 328.8 237.3 352.8 222.3 Z\" fill=\"#1f2328\"/><text x=\"328.8\" y=\"252.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">?</text><circle cx=\"328.8\" cy=\"176.3\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"210\" cy=\"130\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><line x1=\"205.7\" y1=\"154.6\" x2=\"315.7\" y2=\"154.6\" stroke=\"#9aa1aa\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><path d=\"M 297.7 154.6 A 92 92 0 0 1 296.3 170.6\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><text x=\"323.2\" y=\"165\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">10°</text><text x=\"146.9\" y=\"128\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#3b5bdb\" font-weight=\"bold\">15 cm</text><text x=\"263\" y=\"193.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#3b5bdb\" font-weight=\"bold\">15 cm</text><line x1=\"210.8\" y1=\"142.3\" x2=\"241.8\" y2=\"136.3\" stroke=\"#3b5bdb\" stroke-width=\"1.2\"/><text x=\"244.8\" y=\"140.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#3b5bdb\" font-weight=\"bold\">3,0 cm</text><text x=\"198\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\" font-style=\"italic\">P</text></svg></span>",
+    "ledtrad": "<p>Dela upp vägen från P till en upphängningspunkt i två delar: 3,0 cm längs staven och 15 cm längs bommen. Hur långt i sidled flyttar varje del när bommen lutar 10°?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Upphängningspunkten ligger 15 cm längs bommen och 3,0 cm vinkelrätt under P. Båda bidragen ger vågräta förskjutningar när bommen lutar.</p></div><div class=\"facit-stycke\"><p>Längs bommen ger 15 cm det vågräta avståndet \\(15\\cos10^\\circ\\) åt höger. Staven lutar lika mycket och flyttar bommens mitt \\(3{,}0\\sin10^\\circ\\) åt vänster.</p><div class=\"facit-matte\">\\[l_\\text{höger}=15\\cos10^\\circ-3{,}0\\sin10^\\circ=14{,}77-0{,}52\\approx14{,}25\\ \\text{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 14,3 cm</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den vänstra upphängningspunkten ligger 15 cm åt andra hållet längs bommen. Stavens förskjutning åt vänster gör nu armen längre.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[l_\\text{vänster}=15\\cos10^\\circ+3{,}0\\sin10^\\circ=14{,}77+0{,}52\\approx15{,}29\\ \\text{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 15,3 cm</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bommen står stilla, så momenten kring P är lika stora. g är samma på båda sidor och förkortas bort.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_\\text{höger}\\cdot14{,}25=100\\cdot15{,}29\\]</div><div class=\"facit-matte\">\\[m_\\text{höger}=\\frac{100\\cdot15{,}29}{14{,}25}\\approx107\\ \\text{g}\\]</div></div><div class=\"facit-stycke\"><p>Den högra skålen är tyngst, och därför hänger den lägst. Den tyngre sidan behöver kortare momentarm för att momenten ska bli lika.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 107 g</p></div></div></div></div>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång är den högra skålens momentarm, alltså det vågräta avståndet från P till den högra upphängningspunkten? (Svara i cm.)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Upphängningspunkten ligger 15 cm längs bommen och 3,0 cm vinkelrätt under P. Båda bidragen ger vågräta förskjutningar när bommen lutar.</p></div><div class=\"facit-stycke\"><p>Längs bommen ger 15 cm det vågräta avståndet \\(15\\cos10^\\circ\\) åt höger. Staven lutar lika mycket och flyttar bommens mitt \\(3{,}0\\sin10^\\circ\\) åt vänster.</p><div class=\"facit-matte\">\\[l_\\text{höger}=15\\cos10^\\circ-3{,}0\\sin10^\\circ=14{,}77-0{,}52\\approx14{,}25\\ \\text{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 14,3 cm</p></div>",
+        "ledtrad": "<p>Hur långt åt höger når 15 cm längs en bom som lutar 10°? Åt vilket håll flyttar den lutande staven bommens mitt?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång är den vänstra skålens momentarm? (Svara i cm.)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den vänstra upphängningspunkten ligger 15 cm åt andra hållet längs bommen. Stavens förskjutning åt vänster gör nu armen längre.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[l_\\text{vänster}=15\\cos10^\\circ+3{,}0\\sin10^\\circ=14{,}77+0{,}52\\approx15{,}29\\ \\text{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 15,3 cm</p></div>",
+        "ledtrad": "<p>Samma uppdelning som för den högra skålen, men åt andra hållet längs bommen. Blir armen längre eller kortare?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Momentarmarna är 15,29 cm för den vänstra skålen och 14,25 cm för den högra. Vilken massa har den högra skålen med innehåll? (Svara i g.)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bommen står stilla, så momenten kring P är lika stora. g är samma på båda sidor och förkortas bort.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_\\text{höger}\\cdot14{,}25=100\\cdot15{,}29\\]</div><div class=\"facit-matte\">\\[m_\\text{höger}=\\frac{100\\cdot15{,}29}{14{,}25}\\approx107\\ \\text{g}\\]</div></div><div class=\"facit-stycke\"><p>Den högra skålen är tyngst, och därför hänger den lägst. Den tyngre sidan behöver kortare momentarm för att momenten ska bli lika.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 107 g</p></div>",
+        "ledtrad": "<p>Bommen står stilla. Vad gäller då för momenten från de två skålarna kring P?</p>",
+        "niva": "A",
+        "poang": "(0/0/1)",
+        "traningsniva": 5,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "kap": 4,
+    "omr": "moment",
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "familj": "Tyngdpunkt och tippning",
+    "familjNyckel": "moment__tyngdpunkt_och_tippning",
+    "id": "4.909",
+    "niva": "A",
+    "typ": "Balansvåg: känslighet",
+    "poang": "(0/0/1)",
+    "formaga": [
+      "begrepp",
+      "resonemang",
+      "modellering"
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "t": "<p>Isaacs balansvåg lutar bara lite när massorna i skålarna skiljer sig lite. Han vill att vågen ska slå ut mer för samma massskillnad. I figuren är \\(h\\) avståndet från vridpunkten ned till bommen och \\(L\\) avståndet från bommens mitt till en skåls upphängningspunkt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Isaacs balansvåg. h är avståndet från vridpunkten ned till bommen och L avståndet från bommens mitt till en skåls upphängningspunkt.\"><title>Isaacs balansvåg. h är avståndet från vridpunkten ned till bommen och L avståndet från bommens mitt till en skåls upphängningspunkt.</title><defs><marker id=\"pil\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#c2410c\"/></marker></defs><rect x=\"1\" y=\"1\" width=\"418\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"140\" y1=\"280\" x2=\"280\" y2=\"280\" stroke=\"#8a929c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"210\" y1=\"280\" x2=\"210\" y2=\"120\" stroke=\"#8a929c\" stroke-width=\"5\"/><line x1=\"210\" y1=\"120\" x2=\"210\" y2=\"160\" stroke=\"#3b5bdb\" stroke-width=\"4\"/><line x1=\"90\" y1=\"160\" x2=\"330\" y2=\"160\" stroke=\"#3b5bdb\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"90\" y1=\"160\" x2=\"66\" y2=\"206\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"90\" y1=\"160\" x2=\"114\" y2=\"206\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 66 206 Q 90 221 114 206 Z\" fill=\"#1f2328\"/><circle cx=\"90\" cy=\"160\" r=\"2.6\" fill=\"#40464f\"/><line x1=\"330\" y1=\"160\" x2=\"306\" y2=\"206\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><line x1=\"330\" y1=\"160\" x2=\"354\" y2=\"206\" stroke=\"#9aa1aa\" stroke-width=\"1.4\"/><path d=\"M 306 206 Q 330 221 354 206 Z\" fill=\"#1f2328\"/><circle cx=\"330\" cy=\"160\" r=\"2.6\" fill=\"#40464f\"/><circle cx=\"210\" cy=\"120\" r=\"6.5\" fill=\"#7b93e8\" stroke=\"#3b5bdb\" stroke-width=\"2\"/><line x1=\"194\" y1=\"120\" x2=\"194\" y2=\"160\" stroke=\"#c2410c\" stroke-width=\"1.8\" marker-start=\"url(#pil)\" marker-end=\"url(#pil)\"/><text x=\"186\" y=\"146\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\" font-style=\"italic\">h</text><line x1=\"210\" y1=\"124\" x2=\"210\" y2=\"156\" stroke=\"#c2410c\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"330\" y1=\"124\" x2=\"330\" y2=\"156\" stroke=\"#c2410c\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"210\" y1=\"130\" x2=\"330\" y2=\"130\" stroke=\"#c2410c\" stroke-width=\"1.8\" marker-start=\"url(#pil)\" marker-end=\"url(#pil)\"/><text x=\"270\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" font-style=\"italic\">L</text></svg></span><p>Vilken ändring gör vågen känsligare? Välj ett alternativ.</p>",
+    "ledtrad": "<p>När bommen lutar ändras momentarmarna med \\(\\pm h\\sin\\theta\\). Hur stor lutning behövs för att jämna ut en viss momentskillnad om \\(h\\) är litet?</p>",
+    "alternativ": [
+      {
+        "txt": "Minska h, men inte ända till noll.",
+        "ratt": true,
+        "kommentar": "Med litet h ändras momentarmarna lite per grad, så bommen måste luta mer innan momenten är lika. Vid h = 0 blir det Alberts våg."
+      },
+      {
+        "txt": "Öka h.",
+        "ratt": false,
+        "kommentar": "Större h ger stor skillnad mellan momentarmarna redan vid liten lutning, så vågen stannar vid en mindre vinkel."
+      },
+      {
+        "txt": "Gör bommen kortare, alltså minska L.",
+        "ratt": false,
+        "kommentar": "Kortare bom ger mindre moment från massskillnaden, så utslaget blir mindre."
+      },
+      {
+        "txt": "Använd tyngre skålar.",
+        "ratt": false,
+        "kommentar": "Tyngre skålar ökar det återställande momentet, så samma massskillnad ger mindre utslag."
+      }
+    ],
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ställ upp momentjämvikt kring vridpunkten när bommen lutar vinkeln θ.</p></div><div class=\"facit-stycke\"><p>Med massorna \\(m_1\\) i den höjda och \\(m_2\\) i den sänkta skålen ger jämvikten</p><div class=\"facit-matte\">\\[m_1(L\\cos\\theta+h\\sin\\theta)=m_2(L\\cos\\theta-h\\sin\\theta)\\]</div><div class=\"facit-matte\">\\[\\tan\\theta=\\frac{(m_2-m_1)\\,L}{(m_1+m_2)\\,h}\\]</div></div><div class=\"facit-stycke\"><p>Utslaget blir större när \\(h\\) minskar eller \\(L\\) ökar, och mindre när skålarna blir tyngre. Men \\(h\\) får inte bli noll, för då är vågen Alberts och tippar hela vägen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Minska h, men inte ända till noll.</p></div>"
+  }
 ];

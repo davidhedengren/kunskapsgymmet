@@ -54288,8 +54288,8 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Avgör om den bestämda integralen direkt ger en geometrisk area eller en tecknad area, och beräkna värdet.</p><p>a) \\(\\int_0^2(x+1)dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_{-1}^{1}x\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_0^\\pi\\sin x\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\int_0^{2\\pi}\\sin x\\,dx\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen är positiv: integral och geometrisk area är <strong>4</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Integralen är en tecknad area och blir <strong>0</strong>; geometrisk area är inte 0.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Funktionen är icke-negativ: <strong>2</strong> är även geometrisk area.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Integralen är tecknad area och blir <strong>0</strong>; positiv och negativ del tar ut varandra.</p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
+    "t": "<p>Beräkna integralen. Är värdet också den geometriska arean mellan grafen och x-axeln på intervallet?</p><p>a) \\(\\int_0^2(x+1)dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_{-1}^{1}x\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_0^\\pi\\sin x\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\int_0^{2\\pi}\\sin x\\,dx\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x+1\\) är positiv på hela intervallet. \\(\\int_0^2(x+1)\\,dx=[x^2/2+x]_0^2=4\\). Integralen är därför också den geometriska arean, \\(4\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen ligger under x-axeln för \\(-1&lt;x&lt;0\\) och över den för \\(0&lt;x&lt;1\\). \\(\\int_{-1}^1x\\,dx=[x^2/2]_{-1}^1=0\\). De två trianglarnas areor är vardera \\(1/2\\), så den geometriska arean är \\(1\\), inte \\(0\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x\\) är icke-negativ på \\([0,\\pi]\\). \\(\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi=2\\). Integralen är därför också den geometriska arean, \\(2\\).</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x\\) är positiv på \\((0,\\pi)\\) och negativ på \\((\\pi,2\\pi)\\). Delintegralerna är \\(2\\) respektive \\(-2\\), så integralen är \\(0\\). Den geometriska arean är \\(2+2=4\\).</p></li></ol></div></div></div></div>",
     "familj": "Geometrisk area och area från graf med integral",
     "formaga": [
       "procedur",
@@ -54315,14 +54315,14 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "grafiska_metoder__geometrisk_area_och_area_fran_graf_med_integral",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Undersök var grafen ligger över eller under x-axeln. Areor under axeln bidrar negativt till integralen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Avgör om den bestämda integralen direkt ger en geometrisk area eller en tecknad area, och beräkna värdet.</p>",
+    "spelIntro": "<p>Beräkna integralen. Är värdet också den geometriska arean mellan grafen och x-axeln på intervallet?</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\int_0^2(x+1)dx\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen är positiv: integral och geometrisk area är 4.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x+1\\) är positiv på hela intervallet. \\(\\int_0^2(x+1)\\,dx=[x^2/2+x]_0^2=4\\). Integralen är därför också den geometriska arean, \\(4\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -54331,7 +54331,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\int_{-1}^{1}x\\,dx\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralen är en tecknad area och blir 0; geometrisk area är inte 0.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen ligger under x-axeln för \\(-1&lt;x&lt;0\\) och över den för \\(0&lt;x&lt;1\\). \\(\\int_{-1}^1x\\,dx=[x^2/2]_{-1}^1=0\\). De två trianglarnas areor är vardera \\(1/2\\), så den geometriska arean är \\(1\\), inte \\(0\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -54340,7 +54340,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\int_0^\\pi\\sin x\\,dx\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen är icke-negativ: 2 är även geometrisk area.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x\\) är icke-negativ på \\([0,\\pi]\\). \\(\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi=2\\). Integralen är därför också den geometriska arean, \\(2\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -54349,7 +54349,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\int_0^{2\\pi}\\sin x\\,dx\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralen är tecknad area och blir 0; positiv och negativ del tar ut varandra.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x\\) är positiv på \\((0,\\pi)\\) och negativ på \\((\\pi,2\\pi)\\). Delintegralerna är \\(2\\) respektive \\(-2\\), så integralen är \\(0\\). Den geometriska arean är \\(2+2=4\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -54656,7 +54656,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Kurvan \\(y=\\sqrt{9-x^2}\\) avgränsar tillsammans med axlarna ett område för \\(0\\le x\\le3\\). Bestäm arean exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Grafen är den övre halvan av cirkeln</p><div class=\"facit-matte\">\\[x^2+y^2=9\\].</div></div></li><li><p>På intervallet \\(0\\le x\\le3\\) får vi en fjärdedel av en cirkel med radie 3.</p></li><li><div class=\"facit-berakning\"><p>Därför är arean</p><div class=\"facit-matte\">\\[\\frac14\\pi3^2=\\frac{9\\pi}{4}\\].</div></div></li><li><p>Integralen \\(\\int_0^3\\sqrt{9-x^2}dx\\) måste ge samma värde.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Grafen är den övre halvan av cirkeln</p><div class=\"facit-matte\">\\[x^2+y^2=9\\].</div></div></li><li><p>På intervallet \\(0\\le x\\le3\\) får vi en fjärdedel av en cirkel med radie 3.</p></li><li><div class=\"facit-berakning\"><p>Därför är arean</p><div class=\"facit-matte\">\\[\\frac14\\pi3^2=\\frac{9\\pi}{4}\\].</div></div></li><li><p>Integralen \\(\\int_0^3\\sqrt{9-x^2}dx\\) måste ge samma värde.</p></li></ol></div></div>",
     "familj": "Geometrisk area och area från graf med integral",
     "formaga": [
       "procedur",
@@ -54782,7 +54782,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm den geometriska arean mellan \\(f(x)=x^2-1\\) och x-axeln på \\(-2\\le x\\le 2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Nollställena är</p><div class=\"facit-matte\">\\[x=\\pm1\\].</div></div></li><li><p>Funktionen är negativ mellan dem och positiv utanför.</p></li><li><p>Utnyttja symmetrin:</p></li><li><p>\\[A=2\\left(\\int_0^1(1-x^2)dx+\\int_1^2(x^2-1)dx\\right)=2\\left(\\frac23+\\frac43\\right)=4.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x^2-1=0\\) ger nollställena \\(x=-1\\) och \\(x=1\\). Funktionen är negativ mellan nollställena och positiv utanför dem.</p></li><li><p>Använd symmetri och beräkna de två areorna för \\(x\\ge0\\): \\[\\int_0^1(1-x^2)\\,dx=\\frac23\\] \\[\\int_1^2(x^2-1)\\,dx=\\frac43.\\]</p></li><li><p>Dubblera summan för att ta med området till vänster: \\[A=2\\left(\\frac23+\\frac43\\right)=4.\\]</p></li></ol></div>",
     "familj": "Area mot x-axeln med integral",
     "formaga": [
       "procedur",
@@ -56161,7 +56161,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För vilket positivt värde på \\(a\\) är arean mellan \\(y=ax\\) och \\(y=x^2\\) lika med \\(9/2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skärningarna är \\(x=0\\) och \\(x=a\\).</p></li><li><p>Arean blir</p></li><li><p>\\[A=\\int_0^a(ax-x^2)dx=\\left[\\frac{ax^2}{2}-\\frac{x^3}{3}\\right]_0^a=\\frac{a^3}{6}.\\]</p></li><li><p>Sätt \\(a^3/6=9/2\\Rightarrow a^3=27\\), alltså \\(\\boxed{a=3}\\).</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skärningarna fås ur \\(ax=x^2\\), alltså \\(x=0\\) eller \\(x=a\\). När \\(0&lt;x&lt;a\\) ligger \\(y=ax\\) över \\(y=x^2\\).</p></li><li><p>Arean är \\[A=\\int_0^a(ax-x^2)\\,dx.\\] En primitiv funktion ger \\[A=\\left[\\frac{ax^2}{2}-\\frac{x^3}{3}\\right]_0^a=\\frac{a^3}{6}.\\]</p></li><li><p>Sätt arean till \\(9/2\\): \\(a^3/6=9/2\\), så \\(a^3=27\\). Därmed är \\(\\boxed{a=3}\\).</p></li></ol></div>",
     "familj": "Parameterproblem med area och integral",
     "formaga": [
       "procedur",
@@ -56411,7 +56411,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Bestäm arean mellan kurvorna \\(y=x^2-2x\\) och \\(y=2x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skärningspunkterna fås ur</p><div class=\"facit-matte\">\\[x^2-2x=2x\\]:</div></div></li><li><p>\\[x^2-4x=0\\Rightarrow x=0\\text{ eller }x=4.\\]</p></li><li><p>På intervallet ligger \\(y=2x\\) ovanför den andra kurvan.</p></li><li><p>Arean blir</p></li><li><p>\\[A=\\int_0^4(2x-(x^2-2x))\\,dx=\\int_0^4(4x-x^2)\\,dx.\\]</p></li><li><p>\\[A=\\left[2x^2-\\frac{x^3}{3}\\right]_0^4=32-\\frac{64}{3}=\\boxed{\\frac{32}{3}}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skärningspunkterna ges av \\(x^2-2x=2x\\), vilket ger \\(x(x-4)=0\\). Gränserna är alltså \\(0\\) och \\(4\\).</p></li><li><p>På intervallet ligger \\(y=2x\\) över \\(y=x^2-2x\\). Arean blir \\[A=\\int_0^4(4x-x^2)\\,dx.\\]</p></li><li><p>Beräkna integralen: \\[A=\\left[2x^2-\\frac{x^3}{3}\\right]_0^4\\] \\[=32-\\frac{64}{3}=\\boxed{\\frac{32}{3}}.\\]</p></li></ol></div>",
     "familj": "Area mellan kurvor med integral",
     "formaga": [
       "procedur"
@@ -56753,7 +56753,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm den geometriska arean mellan \\(y=\\sin x\\) och x-axeln på \\(0\\le x\\le 2\\pi\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den bestämda integralen över hela perioden är 0, men det är inte den geometriska arean.</p></li><li><p>Sinus är positiv på \\((0,\\pi)\\) och negativ på \\((\\pi,2\\pi)\\):</p></li><li><p>\\[A=\\int_0^\\pi\\sin x dx-\\int_\\pi^{2\\pi}\\sin x dx=2+2=4.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x\\) är positiv på \\((0,\\pi)\\) och negativ på \\((\\pi,2\\pi)\\). Den geometriska arean består av båda delarna.</p></li><li><p>Integralerna blir \\[\\int_0^\\pi\\sin x\\,dx=2\\] och \\[\\int_\\pi^{2\\pi}\\sin x\\,dx=-2.\\]</p></li><li><p>Den andra delens geometriska area är positiv trots att integralen är negativ. Därför är \\(A=2+2=\\boxed4\\).</p></li></ol></div>",
     "familj": "Area mot x-axeln med integral",
     "formaga": [
       "begrepp",

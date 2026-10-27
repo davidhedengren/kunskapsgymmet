@@ -10097,7 +10097,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(2\\cdot\\bigl[3+(8-5)\\bigr]\\).</p>",
+    "t": "<p>Beräkna \\(2\\cdot\\bigl(3+(8-5)\\bigr)\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8-5=3\\]</div></li><li><div class=\"facit-matte\">\\[3+3=6\\]</div></li><li><div class=\"facit-matte\">\\[2\\cdot6=12\\]</div></li></ol></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
@@ -10129,7 +10129,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(36\\div\\bigl[2\\cdot(3+3)\\bigr]\\).</p>",
+    "t": "<p>Beräkna \\(36\\div\\bigl(2\\cdot(3+3)\\bigr)\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3+3=6\\]</div></li><li><div class=\"facit-matte\">\\[2\\cdot6=12\\]</div></li><li><div class=\"facit-matte\">\\[36\\div12=3\\]</div></li></ol></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "numeriskt",
@@ -10138,7 +10138,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med parentesen längst in. Hela uttrycket inom hakparenteserna är det tal som 36 ska divideras med.</p>",
+    "ledtrad": "<p>Börja med parentesen längst in. Hela uttrycket inom de yttre parenteserna är det tal som 36 ska divideras med.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -10647,7 +10647,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(3\\cdot\\bigl[8-2\\cdot(5-3)\\bigr]\\).</p>",
+    "t": "<p>Beräkna \\(3\\cdot\\bigl(8-2\\cdot(5-3)\\bigr)\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5-3=2\\]</div></li><li><div class=\"facit-matte\">\\[8-2\\cdot2=8-4=4\\]</div></li><li><div class=\"facit-matte\">\\[3\\cdot4=12\\]</div></li></ol></div>",
     "familj": "Parenteser och räknetecken",
     "svarstyp": "numeriskt",
@@ -47645,8 +47645,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En tabell ska visa en linjär funktion, men ett funktionsvärde är fel.</p><table class='data'><tr><th>x</th><th>−2</th><th>1</th><th>4</th><th>7</th></tr><tr><th>f(x)</th><td>13</td><td>7</td><td>0</td><td>−5</td></tr></table><p>Bestäm det felaktiga värdet och bestäm vad det ska vara. Motivera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> x ökar med 3 i varje steg.</p></li><li><div class=\"facit-berakning\"><p>Mellan de två första värdena minskar funktionsvärdet med 6, vilket motsvarar</p><div class=\"facit-matte\">\\[k=-2\\].</div></div></li><li><p>Från \\(x=1\\) till \\(x=4\\) ska värdet därför minska från 7 till \\(7-6=1\\).</p></li><li><p>Därefter ger ytterligare tre steg \\(1-6=-5\\), vilket stämmer med sista värdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Värdet 0 är fel och ska vara \\(f(4)=1\\).</strong></p></div>",
+    "t": "<p>En tabell ska visa en linjär funktion, men ett av funktionsvärdena är fel.</p><table class=\"data\"><tr><th>\\(x\\)</th><td>−2</td><td>1</td><td>4</td><td>7</td></tr><tr><th>\\(f(x)\\)</th><td>13</td><td>7</td><td>0</td><td>−5</td></tr></table><ol type=\"a\"><li>Vilket funktionsvärde är fel?</li><li>Vilket värde ska stå där?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">x ökar med 3 mellan varje kolumn</p><p>Då ska \\(f(x)\\) ändras lika mycket varje gång.</p></li><li><p class=\"facit-rubrik\">Jämför ändringarna</p><div class=\"facit-matte\">\\[13\\to7:\\ -6,\\qquad 7\\to0:\\ -7,\\qquad 0\\to-5:\\ -5\\]</div></li><li><p class=\"facit-rubrik\">Båda ändringarna runt \\(x=4\\) avviker</p><p>Om bara ett värde är fel måste det vara funktionsvärdet vid \\(x=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Värdet 0 (vid \\(x=4\\)) är fel.</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen från de två första kolumnerna</p><div class=\"facit-matte\">\\[k=\\frac{7-13}{1-(-2)}=\\frac{-6}{3}=-2\\]</div></li><li><p class=\"facit-rubrik\">Gå tre steg från \\(x=1\\) till \\(x=4\\)</p><div class=\"facit-matte\">\\[f(4)=7+3\\cdot(-2)=1\\]</div></li><li><p class=\"facit-rubrik\">Kontroll mot sista kolumnen</p><div class=\"facit-matte\">\\[f(7)=1+3\\cdot(-2)=-5\\ \\checkmark\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(4)=1\\)</p></div></div>",
     "familj": "Linjära funktioner i graf och formel",
     "geogebra": false,
     "miniräknare": true,
@@ -47668,16 +47668,42 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "felaktigt tabellvärde",
-      "korrekt f(4)"
+      "a",
+      "b"
     ],
-    "manuellKomplettering": true,
-    "ledtrad": "<p>I en linjär tabell ska kvoten \\(\\Delta y/\\Delta x\\) vara densamma mellan alla par av intilliggande värden. Var bryts mönstret?</p>",
+    "manuellKomplettering": false,
+    "ledtrad": "<p>I en linjär funktion ändras \\(f(x)\\) lika mycket varje gång \\(x\\) ökar lika mycket. Var bryts mönstret?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Tolka linjära funktioner från graf och formel"
+    ],
+    "spelIntro": "<p>En tabell ska visa en linjär funktion, men ett av funktionsvärdena är fel.</p><table class=\"data\"><tr><th>\\(x\\)</th><td>−2</td><td>1</td><td>4</td><td>7</td></tr><tr><th>\\(f(x)\\)</th><td>13</td><td>7</td><td>0</td><td>−5</td></tr></table>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilket funktionsvärde är fel?",
+        "t": "<p>En tabell ska visa en linjär funktion, men ett av funktionsvärdena är fel.</p><table class=\"data\"><tr><th>\\(x\\)</th><td>−2</td><td>1</td><td>4</td><td>7</td></tr><tr><th>\\(f(x)\\)</th><td>13</td><td>7</td><td>0</td><td>−5</td></tr></table><p>Vilket funktionsvärde i tabellen är fel?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">x ökar med 3 mellan varje kolumn</p><p>Då ska \\(f(x)\\) ändras lika mycket varje gång.</p></li><li><p class=\"facit-rubrik\">Jämför ändringarna</p><div class=\"facit-matte\">\\[13\\to7:\\ -6,\\qquad 7\\to0:\\ -7,\\qquad 0\\to-5:\\ -5\\]</div></li><li><p class=\"facit-rubrik\">Båda ändringarna runt \\(x=4\\) avviker</p><p>Om bara ett värde är fel måste det vara funktionsvärdet vid \\(x=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Värdet 0 (vid \\(x=4\\)) är fel.</p></div>",
+        "ledtrad": "<p>I en linjär funktion ändras \\(f(x)\\) lika mycket varje gång \\(x\\) ökar lika mycket. Var bryts mönstret?</p>",
+        "niva": "C",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "Funktionsvärdet vid \\(x=4\\) är fel. Vilket värde ska stå där?",
+        "t": "<p>En tabell ska visa en linjär funktion, men ett av funktionsvärdena är fel.</p><table class=\"data\"><tr><th>\\(x\\)</th><td>−2</td><td>1</td><td>4</td><td>7</td></tr><tr><th>\\(f(x)\\)</th><td>13</td><td>7</td><td>0</td><td>−5</td></tr></table><p>Funktionsvärdet vid \\(x=4\\) är fel. Vilket värde ska stå där?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen från de två första kolumnerna</p><div class=\"facit-matte\">\\[k=\\frac{7-13}{1-(-2)}=\\frac{-6}{3}=-2\\]</div></li><li><p class=\"facit-rubrik\">Gå tre steg från \\(x=1\\) till \\(x=4\\)</p><div class=\"facit-matte\">\\[f(4)=7+3\\cdot(-2)=1\\]</div></li><li><p class=\"facit-rubrik\">Kontroll mot sista kolumnen</p><div class=\"facit-matte\">\\[f(7)=1+3\\cdot(-2)=-5\\ \\checkmark\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(4)=1\\)</p></div>",
+        "ledtrad": "<p>Bestäm lutningen från två värden som stämmer, till exempel \\(x=-2\\) och \\(x=1\\).</p>",
+        "niva": "C",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "0/1/0"
+      }
     ]
   },
   {
@@ -53810,16 +53836,15 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En taxi kostar 55 kr i startavgift och 16 kr per kilometer. Skriv en linjär funktion \\(K(x)\\) för kostnaden i kronor när man åker \\(x\\) km, och ange vad \\(k\\) och \\(m\\) betyder.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(K(x)=16x+55\\)</strong>.</p></li><li><p>\\(k=16\\) är priset per km och \\(m=55\\) är startavgiften.</p></li></ol></div>",
+    "t": "<p>En taxi kostar 55 kr i startavgift och 16 kr per kilometer.</p><ol type=\"a\"><li>Skriv en linjär funktion \\(K(x)\\) för kostnaden i kronor när man åker \\(x\\) km.</li><li>Vad betyder \\(k\\) och \\(m\\) i funktionen? (Välj ett alternativ.)</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Startavgiften betalas även när \\(x=0\\)</p><p>Den blir konstanten \\(m=55\\).</p></li><li><p class=\"facit-rubrik\">Kilometerpriset multipliceras med antalet km</p><div class=\"facit-matte\">\\[k=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(K(x)=16x+55\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(k\\) står framför \\(x\\)</p><p>När sträckan ökar med 1 km ökar kostnaden med 16 kr, alltså är \\(k=16\\) kr priset per kilometer.</p></li><li><p class=\"facit-rubrik\">\\(m\\) är kostnaden när \\(x=0\\)</p><div class=\"facit-matte\">\\[K(0)=16\\cdot0+55=55\\]</div><p>Det är startavgiften.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=16\\) kr är priset per kilometer och \\(m=55\\) kr är startavgiften.</p></div></div>",
     "familj": "Linjära funktioner i vardagliga sammanhang",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       "K(x)=16*x+55",
-      16,
-      55
+      "\\(k=16\\) kr är priset per kilometer och \\(m=55\\) kr är startavgiften."
     ],
     "tolerans": null,
     "självrättning": true,
@@ -53828,26 +53853,70 @@ window.BANKMA1 = [
     ],
     "svarFormat": [
       "uttryck",
-      "numeriskt",
-      "numeriskt"
+      null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "kostnadsfunktion",
-      "k",
-      "m"
+      "a",
+      "b"
     ],
-    "manuellKomplettering": [
-      false,
-      true,
-      true
-    ],
+    "manuellKomplettering": false,
     "ledtrad": "<p>Startavgiften är värdet vid \\(x=0\\). Kilometerpriset anger hur mycket kostnaden ändras när sträckan ökar med 1 km.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Tolka linjära modeller i en situation"
+    ],
+    "spelIntro": "<p>En taxi kostar 55 kr i startavgift och 16 kr per kilometer.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Skriv en linjär funktion \\(K(x)\\) för kostnaden i kronor när man åker \\(x\\) km.",
+        "t": "<p>En taxi kostar 55 kr i startavgift och 16 kr per kilometer.</p><p>Skriv en linjär funktion \\(K(x)\\) för kostnaden i kronor när man åker \\(x\\) km.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Startavgiften betalas även när \\(x=0\\)</p><p>Den blir konstanten \\(m=55\\).</p></li><li><p class=\"facit-rubrik\">Kilometerpriset multipliceras med antalet km</p><div class=\"facit-matte\">\\[k=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(K(x)=16x+55\\)</p></div>",
+        "ledtrad": "<p>Vilken del av kostnaden är fast, och vilken del växer med antalet kilometer?</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "Funktionen är \\(K(x)=16x+55\\). Vad betyder \\(k\\) och \\(m\\)? (Välj ett alternativ.)",
+        "t": "<p>En taxi kostar 55 kr i startavgift och 16 kr per kilometer.</p><p>Funktionen är \\(K(x)=16x+55\\). Vad betyder \\(k\\) och \\(m\\)? (Välj ett alternativ.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(k\\) står framför \\(x\\)</p><p>När sträckan ökar med 1 km ökar kostnaden med 16 kr, alltså är \\(k=16\\) kr priset per kilometer.</p></li><li><p class=\"facit-rubrik\">\\(m\\) är kostnaden när \\(x=0\\)</p><div class=\"facit-matte\">\\[K(0)=16\\cdot0+55=55\\]</div><p>Det är startavgiften.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=16\\) kr är priset per kilometer och \\(m=55\\) kr är startavgiften.</p></div>",
+        "ledtrad": "<p>Vilket tal multipliceras med antalet kilometer, och vad kostar resan när \\(x=0\\)?</p>",
+        "svarstyp": "alternativ",
+        "rättSvar": "\\(k=16\\) kr är priset per kilometer och \\(m=55\\) kr är startavgiften.",
+        "alternativ": [
+          {
+            "txt": "\\(k=55\\) kr är startavgiften och \\(m=16\\) kr är priset per kilometer.",
+            "ratt": false,
+            "kommentar": "Det är tvärtom. \\(k\\) står framför \\(x\\) och multipliceras med antalet kilometer."
+          },
+          {
+            "txt": "\\(k=16\\) kr är priset per kilometer och \\(m=55\\) kr är startavgiften.",
+            "ratt": true
+          },
+          {
+            "txt": "\\(k=16\\) km är sträckan och \\(m=55\\) kr är totalpriset.",
+            "ratt": false,
+            "kommentar": "Sträckan är variabeln \\(x\\). Totalpriset är \\(K(x)\\) och beror på hur långt man åker."
+          },
+          {
+            "txt": "\\(k\\) och \\(m\\) är kostnaden för 16 km respektive 55 km.",
+            "ratt": false,
+            "kommentar": "Kostnaden för en viss sträcka får man först när man sätter in den i \\(K(x)\\)."
+          }
+        ],
+        "självrättning": true,
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "1/0/0"
+      }
     ]
   },
   {
@@ -59459,8 +59528,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En kostnad beskrivs av \\(C(x)=75+12x\\). Vad betyder talet 12?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Riktningskoefficienten 12 anger förändringen när \\(x\\) ökar med 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kostnaden ökar med 12 kr per timme.</p></div></div>",
+    "t": "<p>Det kostar \\(C(x)\\) kr att hyra en släpvagn i \\(x\\) timmar, där \\(C(x)=75+12x\\). Vad betyder talet 12? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">12 står framför \\(x\\), alltså antalet timmar</p><div class=\"facit-matte\">\\[C(x+1)-C(x)=75+12(x+1)-(75+12x)=12\\]</div></li><li><p class=\"facit-rubrik\">Varje extra timme kostar 12 kr</p><p>Talet 12 är riktningskoefficienten: kostnaden i kronor ökar med 12 när tiden ökar med en timme.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kostnaden ökar med 12 kr för varje timme.</p></div>",
     "familj": "Linjära funktioner i vardagliga sammanhang",
     "geogebra": false,
     "miniräknare": true,
@@ -59479,7 +59548,27 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tolka linjära modeller i en situation"
     ],
-    "alternativ": [{"txt": "Fast avgift", "ratt": false}, {"txt": "Högsta antal timmar", "ratt": false}, {"txt": "Kostnaden ökar med 12 kr per timme", "ratt": true}, {"txt": "Kostnaden minskar med 12 kr per timme", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Den fasta avgiften är 12 kr.",
+        "ratt": false,
+        "kommentar": "Den fasta avgiften är det man betalar även när \\(x=0\\), alltså 75 kr."
+      },
+      {
+        "txt": "Man får hyra släpvagnen högst 12 timmar.",
+        "ratt": false,
+        "kommentar": "Funktionen säger inget om en längsta hyrtid. 12 står framför \\(x\\) och multipliceras med antalet timmar."
+      },
+      {
+        "txt": "Kostnaden ökar med 12 kr för varje timme.",
+        "ratt": true
+      },
+      {
+        "txt": "Kostnaden minskar med 12 kr för varje timme.",
+        "ratt": false,
+        "kommentar": "Koefficienten är positiv, så kostnaden ökar när \\(x\\) ökar."
+      }
+    ]
   },
   {
     "id": "2.411",
@@ -150368,7 +150457,7 @@ window.BANKMA1 = [
   "niva": "C",
   "poang": "0/2/0",
   "typ": "minus framför en parentes som innehåller en parentes",
-  "t": "<p>Lös ekvationen.</p>\\[7-3[2-(x-4)]=2(x+1)\\]",
+  "t": "<p>Lös ekvationen.</p>\\[7-3\\bigl(2-(x-4)\\bigr)=2(x+1)\\]",
   "s": "<div class=\"facit-v2\"><p>Börja inifrån: \\(2-(x-4)=6-x\\). När −3 multipliceras in blir x-termen positiv.</p><div class=\"facit-matte\">\\[\\begin{gathered}7-3(6-x)=2x+2\\\\7-18+3x=2x+2\\\\x=13\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=13\\).</p></div>",
   "familj": "Minustecken framför parentes",
   "formaga": [
@@ -150380,7 +150469,7 @@ window.BANKMA1 = [
   "självrättning": true,
   "traningsniva": 3,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Förenkla uttrycket i hakparentesen innan du multiplicerar med −3.</p>",
+  "ledtrad": "<p>Förenkla uttrycket i den yttre parentesen innan du multiplicerar med −3.</p>",
   "svarstyp": "numeriskt",
   "svarFormat": "numeriskt",
   "rättSvar": 13,
@@ -150458,7 +150547,7 @@ window.BANKMA1 = [
   "niva": "C",
   "poang": "0/2/0",
   "typ": "olika typer av parenteser i båda leden",
-  "t": "<p>Lös ekvationen.</p>\\[4(3-x)=2[5-(x+1)]+3x\\]",
+  "t": "<p>Lös ekvationen.</p>\\[4(3-x)=2\\bigl(5-(x+1)\\bigr)+3x\\]",
   "s": "<div class=\"facit-v2\"><p>I högerledet är \\(5-(x+1)=4-x\\). Förenkla sedan båda leden.</p><div class=\"facit-matte\">\\[\\begin{gathered}12-4x=2(4-x)+3x\\\\12-4x=8+x\\\\4=5x\\\\x=0{,}8\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0{,}8\\).</p></div>",
   "familj": "Minustecken framför parentes",
   "formaga": [
@@ -150470,7 +150559,7 @@ window.BANKMA1 = [
   "självrättning": true,
   "traningsniva": 3,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Börja med parentesen inne i hakparentesen och håll reda på minustecknet.</p>",
+  "ledtrad": "<p>Börja med parentesen inne i den yttre parentesen och håll reda på minustecknet.</p>",
   "svarstyp": "numeriskt",
   "svarFormat": "numeriskt",
   "rättSvar": 0.8,
@@ -150518,8 +150607,8 @@ window.BANKMA1 = [
   "niva": "C",
   "poang": "0/2/0",
   "typ": "nästlade parenteser med två negativa faktorer",
-  "t": "<p>Lös ekvationen.</p>\\[\\begin{aligned}&2[3x-(x-4)]\\\\&\\quad-3[x-2(x+1)]=5(x+2)-6\\end{aligned}\\]",
-  "s": "<div class=\"facit-v2\"><p>Förenkla de två hakparenteserna var för sig: \\(3x-(x-4)=2x+4\\) och \\(x-2(x+1)=-x-2\\).</p><div class=\"facit-matte\">\\[\\begin{aligned}&2(2x+4)-3(-x-2)\\\\&\\quad=5x+4\\end{aligned}\\]</div><div class=\"facit-matte\">\\[\\begin{gathered}4x+8+3x+6=5x+4\\\\2x=-10\\\\x=-5\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\).</p></div>",
+  "t": "<p>Lös ekvationen.</p>\\[\\begin{aligned}&2\\bigl(3x-(x-4)\\bigr)\\\\&\\quad-3\\bigl(x-2(x+1)\\bigr)=5(x+2)-6\\end{aligned}\\]",
+  "s": "<div class=\"facit-v2\"><p>Förenkla de två de yttre parenteserna var för sig: \\(3x-(x-4)=2x+4\\) och \\(x-2(x+1)=-x-2\\).</p><div class=\"facit-matte\">\\[\\begin{aligned}&2(2x+4)-3(-x-2)\\\\&\\quad=5x+4\\end{aligned}\\]</div><div class=\"facit-matte\">\\[\\begin{gathered}4x+8+3x+6=5x+4\\\\2x=-10\\\\x=-5\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\).</p></div>",
   "familj": "Minustecken framför parentes",
   "formaga": [
     "procedur"
@@ -150530,7 +150619,7 @@ window.BANKMA1 = [
   "självrättning": true,
   "traningsniva": 4,
   "arbetsinsats": 3,
-  "ledtrad": "<p>Förenkla varje hakparentes för sig. När −3 multipliceras med ett negativt uttryck behöver båda tecknen kontrolleras.</p>",
+  "ledtrad": "<p>Förenkla varje yttre parentes för sig. När −3 multipliceras med ett negativt uttryck behöver båda tecknen kontrolleras.</p>",
   "svarstyp": "numeriskt",
   "svarFormat": "numeriskt",
   "rättSvar": -5,
@@ -150670,7 +150759,7 @@ window.BANKMA1 = [
   "niva": "C",
   "poang": "0/2/0",
   "typ": "återskapa korrekt lösning från ett teckenfel",
-  "t": "<p>I ekvationen nedan är \\(k\\) ett bestämt tal.</p>\\[2[3x-(x+2)]=3(x-4)+k\\]<p>Lo gör ett teckenfel och skriver</p>\\[2(2x+2)=3(x-4)+k.\\]<p>Efter detta räknar Lo rätt och får \\(x=2\\). Vad är lösningen till den ursprungliga ekvationen?</p>",
+  "t": "<p>I ekvationen nedan är \\(k\\) ett bestämt tal.</p>\\[2\\bigl(3x-(x+2)\\bigr)=3(x-4)+k\\]<p>Lo gör ett teckenfel och skriver</p>\\[2(2x+2)=3(x-4)+k.\\]<p>Efter detta räknar Lo rätt och får \\(x=2\\). Vad är lösningen till den ursprungliga ekvationen?</p>",
   "s": "<div class=\"facit-v2\"><p>Lösningen \\(x=2\\) stämmer med Los felaktiga ekvation. Sätt in den där för att hitta k.</p><div class=\"facit-matte\">\\[\\begin{gathered}2(4+2)=3(2-4)+k\\\\12=-6+k\\quad\\Rightarrow\\quad k=18\\\\2(2x-2)=3x-12+18\\\\4x-4=3x+6\\\\x=10\\end{gathered}\\]</div><p>Det felaktiga ledet \\(2x+2\\) ska vara \\(2x-2\\), eftersom \\(-(x+2)=-x-2\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\).</p></div>",
   "familj": "Minustecken framför parentes",
   "formaga": [
@@ -150732,7 +150821,7 @@ window.BANKMA1 = [
   "niva": "A",
   "poang": "0/0/3",
   "typ": "två ekvationer måste få samma lösning",
-  "t": "<p>Talet \\(a\\) ska väljas så att de två ekvationerna får samma lösning \\(x\\).</p>\\[3(x-2)-2(1-x)=a+4\\]\\[2[3-(x-1)]=x+2a\\]<p>Bestäm \\(a\\). (Svara exakt.)</p>",
+  "t": "<p>Talet \\(a\\) ska väljas så att de två ekvationerna får samma lösning \\(x\\).</p>\\[3(x-2)-2(1-x)=a+4\\]\\[2\\bigl(3-(x-1)\\bigr)=x+2a\\]<p>Bestäm \\(a\\). (Svara exakt.)</p>",
   "s": "<div class=\"facit-v2\"><p>Förenkla den första ekvationen och uttryck a med hjälp av x. Sätt in det uttrycket i den andra ekvationen.</p><div class=\"facit-matte\">\\[\\begin{gathered}3x-6-2+2x=a+4\\\\a=5x-12\\\\8-2x=x+2(5x-12)\\\\32=13x\\quad\\Rightarrow\\quad x=\\frac{32}{13}\\\\a=5\\cdot\\frac{32}{13}-12=\\frac4{13}\\end{gathered}\\]</div><p>Med detta a blir den första ekvationen \\(5x=160/13\\) och den andra \\(3x=96/13\\). Båda ger \\(x=32/13\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=\\frac4{13}\\).</p></div>",
   "familj": "Ekvationer med parenteser",
   "formaga": [

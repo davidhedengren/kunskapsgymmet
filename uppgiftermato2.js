@@ -21375,19 +21375,19 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En cirkelsektor har radien 9 cm och båglängden 12 cm.</p><span class=\"fig\"><svg width=\"460\" height=\"300\" viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cirkelsektor med radien 9 cm, båglängden 12 cm och medelpunktsvinkeln v\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M 130.0 215.0 L 248.0 215.0 A 118 118 0 0 0 157.8 100.3 Z\" fill=\"#DCEFF2\" fill-opacity=\".7\"/><line x1=\"130.0\" y1=\"215.0\" x2=\"248.0\" y2=\"215.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130.0\" y1=\"215.0\" x2=\"157.8\" y2=\"100.3\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 248.0 215.0 A 118 118 0 0 0 157.8 100.3\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 164.0 215.0 A 34 34 0 0 0 138.0 182.0\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"1.8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"166.2\" y=\"190.6\" font-family=\"sans-serif\" font-size=\"13\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">v</text><text x=\"166.2\" y=\"190.6\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">v</text><circle cx=\"130.0\" cy=\"215.0\" r=\"4\" fill=\"#2B2527\"/><text x=\"189.0\" y=\"235.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">9 cm</text><text x=\"189.0\" y=\"235.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">9 cm</text><text x=\"249.6\" y=\"127.2\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">båglängd 12 cm</text><text x=\"249.6\" y=\"127.2\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">båglängd 12 cm</text><line x1=\"248.0\" y1=\"215.0\" x2=\"157.8\" y2=\"100.3\" stroke=\"#268FA3\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><text x=\"180.0\" y=\"171.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">rak sträcka</text><text x=\"180.0\" y=\"171.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#268FA3\">rak sträcka</text></svg></span><p>a) Bestäm medelpunktsvinkeln i radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm längden på den raka sträckan mellan bågens ändpunkter. Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret.</p></li><li><p class=\"facit-metod\">Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>För en vinkel i radianer gäller</p><div class=\"facit-matte\">\\[s=rv\\].</div></div></li><li><p>Därför</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[v=\\frac sr=\\frac{12}{9}=\\boxed{\\frac43\\text{ rad}}.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Radierna och den raka sträckan bildar en likbent triangel.</p></li><li><div class=\"facit-berakning\"><p>Halverar vi triangeln får vi en rätvinklig triangel med vinkel</p><div class=\"facit-matte\">\\[v/2=2/3\\].</div></div></li><li><p>Halva den raka sträckan är därför</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[9\\sin(2/3).\\]</p></li><li><p>Hela den raka sträckan blir</p></li><li><p>\\[2\\cdot9\\sin(2/3)\\approx11{,}1\\text{ cm}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Den raka sträckan är cirka 11,1 cm.</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När vinkeln \\(v\\) mäts i radianer är båglängden \\(s=rv\\). Dela med radien: \\(v=12/9=4/3\\).</p></li><li><p><strong>Svar:</strong> Medelpunktsvinkeln är \\(4/3\\) rad.</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Först ger båglängden och radien \\(v=s/r=12/9=4/3\\) rad.</p></li><li><p>Radierna och sträckan mellan ändpunkterna bildar en likbent triangel. Halvera den: halva sträckan är \\(9\\sin(v/2)=9\\sin(2/3)\\) cm.</p></li><li><p>Hela sträckan är \\(18\\sin(2/3)\\approx11{,}1307\\) cm. <strong>Svar:</strong> Med en decimal är längden \\(11{,}1\\) cm.</p></li></ol></div></div></div></div>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\frac43",
+      "4/3",
       11.1
     ],
     "tolerans": [
       null,
-      0.1
+      0
     ],
     "självrättning": [
       true,
@@ -21401,7 +21401,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm medelpunktsvinkeln i radianer.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>För en vinkel i radianer gäller</p><div class=\"facit-matte\">\\[s=rv\\].</div></div></li><li><p>Därför</p></li><li><p>\\[v=\\frac sr=\\frac{12}{9}=\\boxed{\\frac43\\text{ rad}}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När vinkeln \\(v\\) mäts i radianer är båglängden \\(s=rv\\). Dela med radien: \\(v=12/9=4/3\\).</p></li><li><p><strong>Svar:</strong> Medelpunktsvinkeln är \\(4/3\\) rad.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -21410,7 +21410,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm längden på den raka sträckan mellan bågens ändpunkter. Svara med en decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Radierna och den raka sträckan bildar en likbent triangel.</p></li><li><div class=\"facit-berakning\"><p>Halverar vi triangeln får vi en rätvinklig triangel med vinkel</p><div class=\"facit-matte\">\\[v/2=2/3\\].</div></div></li><li><p>Halva den raka sträckan är därför</p></li><li><p>\\[9\\sin(2/3).\\]</p></li><li><p>Hela den raka sträckan blir</p></li><li><p>\\[2\\cdot9\\sin(2/3)\\approx11{,}1\\text{ cm}.\\]</p></li><li><p>Den raka sträckan är cirka 11,1 cm.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Först ger båglängden och radien \\(v=s/r=12/9=4/3\\) rad.</p></li><li><p>Radierna och sträckan mellan ändpunkterna bildar en likbent triangel. Halvera den: halva sträckan är \\(9\\sin(v/2)=9\\sin(2/3)\\) cm.</p></li><li><p>Hela sträckan är \\(18\\sin(2/3)\\approx11{,}1307\\) cm. <strong>Svar:</strong> Med en decimal är längden \\(11{,}1\\) cm.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 3,
@@ -22209,7 +22209,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En cirkel har radien 12 cm.</p><div class=\"fig smal\"><svg width=\"440\" height=\"330\" viewBox=\"0 0 440 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En cirkelsektor\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M220.0 245.0 L364.9 206.2 A150 150 0 0 0 75.1 206.2 Z\" fill=\"#f8dcd8\" stroke=\"#24262b\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><path d=\"M364.9 206.2 A150 150 0 0 0 75.1 206.2\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"4.5\"/><circle cx=\"220.0\" cy=\"245.0\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M249.0 237.2 A30 30 0 0 0 191.0 237.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"220\" y=\"195\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5π/6</text><text x=\"300\" y=\"261\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">12 cm</text><text x=\"220\" y=\"83\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">b</text><text x=\"220\" y=\"137\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">A</text></svg></div><p>a) Bestäm båglängden som svarar mot vinkeln \\(\\frac{5\\pi}{6}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm arean av motsvarande cirkelsektor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln är given i radianer.</p></li><li><p>För en cirkel med radien \\(r\\) gäller \\(b=rv\\) för båglängden och \\(A=\\frac{r^2v}{2}\\) för sektorns area.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[b=12\\cdot\\frac{5\\pi}{6}=\\boxed{10\\pi\\text{ cm}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=\\frac{12^2}{2}\\cdot\\frac{5\\pi}{6}=\\boxed{60\\pi\\text{ cm}^2}\\].</div></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln är i radianer. Båglängden är radien gånger vinkeln: \\(b=rv=12\\cdot5\\pi/6\\).</p></li><li><p><strong>Svar:</strong> Båglängden är \\(10\\pi\\) cm.</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När vinkeln är i radianer är sektorns area \\(A=r^2v/2\\). Sätt in radien 12 cm och vinkeln \\(5\\pi/6\\).</p></li><li><p>\\(A=12^2\\cdot(5\\pi/6)/2=60\\pi\\). <strong>Svar:</strong> Arean är \\(60\\pi\\) cm².</p></li></ol></div></div></div></div>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur"
@@ -22231,6 +22231,10 @@ window.BANKMATO2 = [
       "uttryck",
       "uttryck"
     ],
+    "svarEnhet": [
+      "cm",
+      "cm²"
+    ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
@@ -22241,7 +22245,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm båglängden som svarar mot vinkeln \\(\\frac{5\\pi}{6}\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln är given i radianer.</p></li><li><p>För en cirkel med radien \\(r\\) gäller \\(b=rv\\) för båglängden och \\(A=\\frac{r^2v}{2}\\) för sektorns area.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[b=12\\cdot\\frac{5\\pi}{6}=\\boxed{10\\pi\\text{ cm}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln är i radianer. Båglängden är radien gånger vinkeln: \\(b=rv=12\\cdot5\\pi/6\\).</p></li><li><p><strong>Svar:</strong> Båglängden är \\(10\\pi\\) cm.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -22250,7 +22254,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm arean av cirkelsektorn med radien 12 cm och sektorvinkeln \\(\\frac{5\\pi}{6}\\) rad.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln är given i radianer.</p></li><li><p>För en cirkel med radien \\(r\\) gäller \\(b=rv\\) för båglängden och \\(A=\\frac{r^2v}{2}\\) för sektorns area.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=\\frac{12^2}{2}\\cdot\\frac{5\\pi}{6}=\\boxed{60\\pi\\text{ cm}^2}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När vinkeln är i radianer är sektorns area \\(A=r^2v/2\\). Sätt in radien 12 cm och vinkeln \\(5\\pi/6\\).</p></li><li><p>\\(A=12^2\\cdot(5\\pi/6)/2=60\\pi\\). <strong>Svar:</strong> Arean är \\(60\\pi\\) cm².</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -22438,7 +22442,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En cirkel har radien 9,0 cm och en cirkelsektor har medelpunktsvinkeln \\(1{,}4\\) rad.</p><div class=\"fig smal\"><svg width=\"440\" height=\"330\" viewBox=\"0 0 440 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En cirkelsektor\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M191.6 245.0 L313.6 157.7 A150 150 0 0 0 126.4 109.9 Z\" fill=\"#dbe8f7\" stroke=\"#24262b\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><path d=\"M313.6 157.7 A150 150 0 0 0 126.4 109.9\" fill=\"none\" stroke=\"#2b6cb0\" stroke-width=\"4.5\"/><circle cx=\"191.6\" cy=\"245.0\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M216.0 227.5 A30 30 0 0 0 178.6 218.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"207\" y=\"191\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">1,4 rad</text><text x=\"272\" y=\"235\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">9,0 cm</text><text x=\"233\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">b</text><text x=\"220\" y=\"141\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">A</text></svg></div><p>a) Bestäm sektorns båglängd.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm sektorns area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formler från formelbladet:</strong> När vinkeln mäts i radianer gäller \\(b=vr\\) och \\(A=vr^2/2\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[b=1{,}4\\cdot9{,}0=\\boxed{12{,}6\\text{ cm}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=\\frac{1{,}4\\cdot9{,}0^2}{2}=56,7\\].</div></li><li><p>Alltså \\(\\boxed{56{,}7\\text{ cm}^2}\\).</p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln är i radianer, så båglängden är \\(b=rv=9{,}0\\cdot1{,}4\\).</p></li><li><p><strong>Svar:</strong> Båglängden är \\(12{,}6\\) cm.</p></li></ol></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När vinkeln är i radianer är sektorns area \\(A=r^2v/2\\). Sätt in \\(r=9{,}0\\) cm och \\(v=1{,}4\\).</p></li><li><p>\\(A=9{,}0^2\\cdot1{,}4/2=56{,}7\\). <strong>Svar:</strong> Arean är \\(56{,}7\\) cm².</p></li></ol></div></div></div></div>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur"
@@ -22460,6 +22464,10 @@ window.BANKMATO2 = [
       "numeriskt",
       "numeriskt"
     ],
+    "svarEnhet": [
+      "cm",
+      "cm²"
+    ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
@@ -22470,7 +22478,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm sektorns båglängd.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formler från formelbladet:</strong> När vinkeln mäts i radianer gäller \\(b=vr\\) och \\(A=vr^2/2\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[b=1{,}4\\cdot9{,}0=\\boxed{12{,}6\\text{ cm}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln är i radianer, så båglängden är \\(b=rv=9{,}0\\cdot1{,}4\\).</p></li><li><p><strong>Svar:</strong> Båglängden är \\(12{,}6\\) cm.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -22479,7 +22487,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm sektorns area.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formler från formelbladet:</strong> När vinkeln mäts i radianer gäller \\(b=vr\\) och \\(A=vr^2/2\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=\\frac{1{,}4\\cdot9{,}0^2}{2}=56,7\\].</div></li><li><p>Alltså \\(\\boxed{56{,}7\\text{ cm}^2}\\).</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När vinkeln är i radianer är sektorns area \\(A=r^2v/2\\). Sätt in \\(r=9{,}0\\) cm och \\(v=1{,}4\\).</p></li><li><p>\\(A=9{,}0^2\\cdot1{,}4/2=56{,}7\\). <strong>Svar:</strong> Arean är \\(56{,}7\\) cm².</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,

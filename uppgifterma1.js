@@ -64856,15 +64856,15 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En rektangels längd ökar med 12 % samtidigt som bredden minskar med 12 %. Undersök hur arean förändras. Visa med en generell beräkning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> Låt ursprungsarean vara \\(lb\\).</p></li><li><div class=\"facit-berakning\"><p>Ny area:</p><div class=\"facit-matte\">\\[1{,}12l\\cdot0{,}88b=0{,}9856lb\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Arean minskar med 1,44 %.</strong></p></div></div>",
+    "t": "<p>En rektangels längd ökar med 12 % samtidigt som bredden minskar med 12 %. Hur många procent förändras arean? Ange ett negativt tal vid minskning och visa med en generell beräkning.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Beskriv ursprungsarean.</strong> Låt längden vara \\(l\\) och bredden \\(b\\). Då är arean \\(A=lb\\).</p></li><li><p><strong>Beräkna den nya arean.</strong> Längden multipliceras med \\(1{,}12\\) och bredden med \\(0{,}88\\). Därför är \\(A_{ny}=1{,}12l\\cdot0{,}88b=0{,}9856lb\\).</p></li><li><p><strong>Jämför med ursprungsarean.</strong> Skillnaden är \\(0{,}9856-1=-0{,}0144\\), alltså \\(-1{,}44\\%\\).</p><p><strong>Svar:</strong> Arean minskar med \\(1{,}44\\%\\).</p></li></ol></div>",
     "familj": "Problemlösning med förändringar i flera steg",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1.44,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering",
@@ -64877,7 +64877,9 @@ window.BANKMA1 = [
     "manuellKomplettering": true,
     "familjTidigare": [
       "Upprepade procentuella förändringar"
-    ]
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
   },
   {
     "id": "3.07",
@@ -67150,15 +67152,15 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett pris höjs först med 10 % och sänks sedan med 10 %. Är priset tillbaka på samma nivå? Motivera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En höjning med 10 % motsvarar faktorn \\(1{,}10\\) och en sänkning med 10 % faktorn \\(0{,}90\\).</p></li><li><div class=\"facit-berakning\"><p>Den sammanlagda faktorn är</p><div class=\"facit-matte\">\\[1{,}10\\cdot0{,}90=0{,}99\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej. Slutpriset är 99 % av ursprungspriset, alltså 1 % lägre.</p></div>",
+    "t": "<p>Ett pris höjs först med 10 % och sänks sedan med 10 %. Är priset tillbaka på samma nivå? Ange den totala förändringen i procent med ett negativt tal vid minskning och motivera.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Multiplicera faktorerna.</strong> Höjningen ger faktorn \\(1{,}10\\) och sänkningen \\(0{,}90\\). Den sammanlagda faktorn är \\(1{,}10\\cdot0{,}90=0{,}99\\).</p></li><li><p><strong>Jämför med ursprungspriset.</strong> Slutpriset är 99 % av det ursprungliga priset, alltså 1 % lägre. Sänkningen räknas på ett högre pris än höjningen.</p><p><strong>Svar:</strong> Nej, förändringen är \\(-1\\%\\).</p></li></ol></div>",
     "familj": "Total förändring i flera steg",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "modellering",
       "resonemang"
@@ -67170,7 +67172,9 @@ window.BANKMA1 = [
     "manuellKomplettering": true,
     "familjTidigare": [
       "Upprepade procentuella förändringar"
-    ]
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
   },
   {
     "id": "3.59",
@@ -72720,15 +72724,15 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En jacka kostar 1 200 kr. Först sänks priset med 25 %. Därefter sänks det nya priset med 40 %.</p><p>En elev säger att den totala rabatten är 65 %. Bedöm påståendet och förklara.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv varje procentuell förändring som en förändringsfaktor.</p></li><li><p>Vid flera steg multipliceras förändringsfaktorerna med varandra; procenttalen ska inte bara adderas.</p></li><li><div class=\"facit-berakning\"><p>Slutprisfaktor</p><div class=\"facit-matte\">\\[0{,}75\\cdot0{,}60=0{,}45\\].</div></div></li><li><p>Total rabatt är <strong>55 %</strong>, inte 65 %, eftersom den andra rabatten beräknas på det redan sänkta priset.</p></li></ol></div>",
+    "t": "<p>En jacka kostar 1 200 kr. Först sänks priset med 25 %. Därefter sänks det nya priset med 40 %.</p><p>En elev säger att den totala rabatten är 65 %. Hur stor är den totala rabatten i procent? Bedöm påståendet och förklara.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Beräkna slutpriset.</strong> Faktorerna är \\(0{,}75\\) och \\(0{,}60\\). Därför är slutpriset \\(1200\\cdot0{,}75\\cdot0{,}60=540\\) kr.</p></li><li><p><strong>Jämför med ursprungspriset.</strong> Rabatten är \\(1200-540=660\\) kr. Andelen rabatt är \\(660/1200=0{,}55=55\\%\\).</p></li><li><p><strong>Bedöm påståendet.</strong> Den andra rabatten räknas på det redan sänkta priset, så procenttalen ska inte adderas. <strong>Svar:</strong> Rabatten är \\(55\\%\\); påståendet är fel.</p></li></ol></div>",
     "familj": "Problemlösning med förändringar i flera steg",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 55,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "modellering",
       "resonemang"
@@ -72739,7 +72743,10 @@ window.BANKMA1 = [
     "spel": true,
     "familjTidigare": [
       "Upprepade procentuella förändringar"
-    ]
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%",
+    "manuellKomplettering": true
   },
   {
     "id": "3.191",

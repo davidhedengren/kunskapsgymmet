@@ -41018,8 +41018,8 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En regnränna tillverkas av en plåt med en 20 cm bred botten och två sidostycken som vardera är 10 cm breda. Sidostyckena viks upp med vinkeln \\(v\\) mot botten.</p><p>Tvärsnittsarean kan skrivas</p><p>\\[A(v)=200\\sin v+100\\sin v\\cos v.\\]</p><p>Här är \\(0&lt;v&lt;\\frac\\pi2\\).</p><p>Bestäm den vinkel som ger största möjliga tvärsnittsarea och ange även arean.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera areafunktionen: \\(A'(v)=200\\cos v+100\\cos(2v)\\).</p></li><li><p>Sätt \\(c=\\cos v\\). Eftersom \\(\\cos(2v)=2c^2-1\\) ger \\(A'(v)=0\\) ekvationen \\(2c^2+2c-1=0\\).</p></li><li><p>Intervallet ger \\(0&lt;c&lt;1\\), så den enda möjliga roten är \\(c=(\\sqrt3-1)/2\\). Då är \\(v\\approx1{,}196\\) rad \\(\\approx68{,}5^\\circ\\).</p></li><li><p>Derivatan är positiv nära \\(v=0\\) och negativ nära \\(v=\\pi/2\\). Den enda stationära punkten är därför ett maximum. Insättning ger \\(A\\approx220{,}18\\) cm².</p></li><li><p><strong>Svar:</strong> Vinkeln är cirka \\(68{,}5^\\circ\\) och största arean cirka \\(220\\) cm².</p></li></ol></div>",
+    "t": "<p>En regnränna tillverkas av en plåt med en 20 cm bred botten och två sidostycken som vardera är 10 cm breda. Sidostyckena viks upp med vinkeln \\(v\\) mot botten.</p><p>Tvärsnittsarean kan skrivas</p><p>\\[A(v)=200\\sin v+100\\sin v\\cos v.\\]</p><p>Här är \\(0&lt;v&lt;\\frac\\pi2\\).</p><p>Bestäm den vinkel i radianer som ger största möjliga tvärsnittsarea och ange även arean.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera areafunktionen: \\(A'(v)=200\\cos v+100\\cos(2v)\\).</p></li><li><p>Sätt \\(c=\\cos v\\). Eftersom \\(\\cos(2v)=2c^2-1\\) ger \\(A'(v)=0\\) ekvationen \\(2c^2+2c-1=0\\).</p></li><li><p>Intervallet ger \\(0&lt;c&lt;1\\), så den enda möjliga roten är \\(c=(\\sqrt3-1)/2\\). Då är \\(v\\approx1{,}196\\) rad \\(\\approx68{,}5^\\circ\\).</p></li><li><p>Derivatan är positiv nära \\(v=0\\) och negativ nära \\(v=\\pi/2\\). Den enda stationära punkten är därför ett maximum. Insättning ger \\(A\\approx220{,}18\\) cm².</p></li><li><p><strong>Svar:</strong> Vinkeln är cirka \\(1{,}196\\) rad och största arean cirka \\(220\\) cm².</p></li></ol></div>",
     "familj": "Tillämpad optimering med derivata",
     "formaga": [
       "procedur",
@@ -45582,7 +45582,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>I vilka intervall är \\(f\\) växande?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En funktion är växande där \\(f'(x)&gt;0\\) och avtagande där \\(f'(x)&lt;0\\).</p></li><li><p>Av grafens tecken fås:</p></li><li><p>\\[ f'(x)&lt;0 \\text{ för }x&lt;-2, \\]<br>\\[ f'(x)&gt;0 \\text{ för }-2&lt;x&lt;1, \\]<br>\\[ f'(x)&lt;0 \\text{ för }1&lt;x&lt;4, \\]<br>\\[ f'(x)&gt;0 \\text{ för }x&gt;4. \\]</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f\\) växer på \\((-2,1)\\) och \\((4,\\infty)\\).</p></li></ol></div></div>",
+        "s": "<p>Funktionen växer där derivatan är positiv. Grafen ligger över x-axeln för \\(-2&lt;x&lt;1\\) och för \\(x&gt;4\\).</p><p><strong>Svar:</strong> \\((-2,1)\\) och \\((4,\\infty)\\).</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -45591,7 +45591,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>I vilka intervall är \\(f\\) avtagande?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En funktion är växande där \\(f'(x)&gt;0\\) och avtagande där \\(f'(x)&lt;0\\).</p></li><li><p>Av grafens tecken fås:</p></li><li><p>\\[ f'(x)&lt;0 \\text{ för }x&lt;-2, \\]<br>\\[ f'(x)&gt;0 \\text{ för }-2&lt;x&lt;1, \\]<br>\\[ f'(x)&lt;0 \\text{ för }1&lt;x&lt;4, \\]<br>\\[ f'(x)&gt;0 \\text{ för }x&gt;4. \\]</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f\\) avtar på \\((-\\infty,-2)\\) och \\((1,4)\\).</p></li></ol></div></div>",
+        "s": "<p>Funktionen avtar där derivatan är negativ. Grafen ligger under x-axeln för \\(x&lt;-2\\) och för \\(1&lt;x&lt;4\\).</p><p><strong>Svar:</strong> \\((-\\infty,-2)\\) och \\((1,4)\\).</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,

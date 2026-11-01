@@ -4069,7 +4069,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-28-fellogg-1923";
+const BANK_VERSION="2026-11-01-fellogg-1810";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10182,7 +10182,7 @@ function olikhetsDelar(x){
   const s=stadaSvar(x).replace(/≤/g,"<=").replace(/≥/g,">=");
 
   if(/\s(?:eller|och|samt)\s|;/i.test(s)) return null;
-  const arVar=t=>/^[a-zåäö]\w*(?:\([a-zåäö]\w*\))?$/i.test(t.trim());
+  const arVar=t=>/^[a-zåäö]\w*(?:\(\s*(?:[a-zåäö]\w*|[+-]?\d+(?:[.,]\d+)?)\s*\))?$/i.test(t.trim());
 
   const d=s.match(/^(.+?)(<=|<)(.+?)(<=|<)(.+)$/);
   if(d && arVar(d[3])){
@@ -10767,6 +10767,25 @@ function formatRatt(anv,facit,meta){
   if(!a) return false;
 
   switch(format){
+    case "definitionsmangd_utom": {
+      // Det angivna värdet är uteslutet, inte självt definitionsmängden.
+      const facit=f.match(/^x\s*(?:≠|!=|\\ne(?:q)?)\s*([+-]?\d+(?:[.,]\d+)?)$/i);
+      if(!facit) return false;
+      const n=talAv(facit[1]);
+      const s=a.toLowerCase().replace(/\s+/g,"").replace(/−/g,"-");
+      const m=s.match(/^x(?:≠|!=|\\ne(?:q)?)([+-]?\d+(?:[.,]\d+)?)$/)
+        || s.match(/^(?:alla)?(?:reellatal|reellatalen|x)(?:utom|förutom)([+-]?\d+(?:[.,]\d+)?)$/)
+        || s.match(/^(?:ℝ|r|\\mathbb\{r\})\\?\{([+-]?\d+(?:[.,]\d+)?)\}$/);
+      if(m) return naraNog(talAv(m[1]),n,0);
+      const delar=a.split(/\s*(?:∪|\beller\b)\s*/i);
+      if(delar.length===2){
+        const intervall=delar.map(intervallAv), vanster={min:-Infinity,max:n,minOpen:true,maxOpen:true},
+          hoger={min:n,max:Infinity,minOpen:true,maxOpen:true};
+        return intervall.every(Boolean) && ((sammaIntervall(intervall[0],vanster,0)&&sammaIntervall(intervall[1],hoger,0))
+          || (sammaIntervall(intervall[1],vanster,0)&&sammaIntervall(intervall[0],hoger,0)));
+      }
+      return false;
+    }
     case "polar": return polartSvarRatt(a,f);
     case "polar_0_2pi": return polartSvarRatt(a,f,true);
     case "primtalsfaktorisering": return primtalsfaktoriseringRatt(anv,facit);
@@ -12005,7 +12024,7 @@ const SYMBOLER={
 const SYMBOLNAMN={
   "−":"Minustecken","(":"Vänsterparentes",")":"Högerparentes",
   "/":"Bråkstreck","^":"Upphöjt till","√":"Roten ur","π":"Pi",
-  "i":"Imaginära enheten i","e":"Eulers tal e","x":"Variabeln x","≈":"Ungefär lika med",",":"Decimalkomma",
+  "i":"Imaginära enheten i","e":"Eulers tal e","x":"Variabeln x","≈":"Ungefär lika med","≠":"Skilt från","≤":"Mindre än eller lika med","≥":"Större än eller lika med",",":"Decimalkomma",
   "·10^":"Grundpotensform, tio upphöjt till","∅":"Tomma mängden",
   "x²":"Upphöjt till två","xⁿ":"Upphöjt till, markören hamnar i exponenten","a/b":"Bråk, markören hamnar i täljaren",
   "·10ⁿ":"Grundpotensform, markören hamnar i exponenten",
@@ -12014,6 +12033,9 @@ const SYMBOLNAMN={
 
 function symbolrad(t){
   const amne=COURSES[state.course]?.subject==="Fysik" ? "fysik" : "matematik";
+  const format=JSON.stringify(t?.svarFormat||"").toLowerCase();
+  const intervalltecken=amne==="matematik" && /intervall|definitionsmangd_utom/.test(format)
+    ? [["≠","≠"],["≤","≤"],["≥","≥"]] : [];
 
   const enheter=[...new Set((svarsPlan(t)?.delar||[])
     .flatMap(d=>d.enhet).filter(Boolean).map(String))].slice(0,4);
@@ -12028,7 +12050,7 @@ function symbolrad(t){
       <span class="symlbl">Enhet</span>${enheter.map(e=>knapp([e," "+e],true)).join("")}
     </span><span class="symsep" aria-hidden="true"></span>`:"";
   return `<div class="symrad" aria-label="Tecken och enheter">
-    ${enhetsdel}${SYMBOLER[amne].map(k=>knapp(k,false)).join("")}
+    ${enhetsdel}${intervalltecken.map(k=>knapp(k,false)).join("")}${SYMBOLER[amne].map(k=>knapp(k,false)).join("")}
   </div>`;
 }
 
@@ -12237,7 +12259,8 @@ function uppdateraFormelvisning(i){
   catch(_){ html=esc(text); }
   ruta.hidden=false;
   ruta.classList.toggle("varning",!ok);
-  ruta.innerHTML=`<span class="fv-lbl">${ok?"Så läses ditt svar":"Kontrollera parenteserna"}</span><span class="fv-matte">${html}</span>`;
+  // Visa aldrig en automatiskt sluten parentes som om den faktiskt skrivits.
+  ruta.innerHTML=`<span class="fv-lbl">${ok?"Så läses ditt svar":"Kontrollera parenteserna"}</span><span class="fv-matte">${ok?html:esc(text)}</span>`;
 }
 /* Mallknappar: markören hamnar där eleven ska skriva härnäst.
    Markerad text omsluts, till exempel blir markerat x+1 täljare i ett bråk. */
@@ -13665,6 +13688,7 @@ function renderTraining(){
               placeholder="${
                 rutEnhet(i) ? "Svar i "+esc(rutEnhet(i))
                 : inputCount<2 ? (arRotLista(expectedInfo.answers[i]) ? "Alla lösningar, t.ex. x = 1, 4" : "Ditt svar")
+                : t.svarEtiketter?.[plan?.rutor[i]?.del??i] ? "Ditt svar"
                 : layout.ordnad ? "Svar "+String.fromCharCode(97+i) : "Svar "+(i+1)
               }"${laasta(i)?" disabled":""}
               onfocus="state.aktivRuta=${i}" oninput="uppdateraFormelvisning(${i})"
@@ -14026,6 +14050,15 @@ function samlatMangdsvarTillatet(t,layout){
     && [].concat(t.svarFormat||[]).every(f=>!f || f==="numeriskt");
 }
 
+function parentesSaknas(svar,format){
+  if(String(format||"").toLowerCase()!=="uttryck") return false;
+  let djup=0;
+  for(const c of String(svar)){
+    if(c==="(") djup++;
+    else if(c===")" && --djup<0) return true;
+  }
+  return djup!==0;
+}
 function checkAnswer(){
   if(state.answered) return;
   const t=state.currentTask;
@@ -14089,6 +14122,7 @@ function checkAnswer(){
     const varden=rutor.map(r=>document.getElementById("ans-"+r.idx)?.value||"");
     if(varden.some(x=>!x.trim())){ toast("Fyll i alla svar för deluppgiften."); return; }
 
+    if(varden.some((v,j)=>parentesSaknas(v,d.format[j]))){ toast("Kontrollera parenteserna i svaret."); return; }
     const kvar=d.svar.map((v,j)=>({v,j}));
     // Alternativet måste följa den aktuella delen, också i en heluppgift.
     const rattningsTask={...t,rättSvar273:d.svar273,svarTabell:d.svarTabell,
@@ -14125,6 +14159,7 @@ function checkAnswer(){
   const enkelFormat=Array.isArray(t.svarFormat)?t.svarFormat[i]:t.svarFormat;
   const enkelEnhet=Array.isArray(t.svarEnhet)?t.svarEnhet[i]:t.svarEnhet;
   const enkelTol=Array.isArray(t.tolerans)?t.tolerans[i]:t.tolerans;
+  if(parentesSaknas(svar,enkelFormat)){ toast("Kontrollera parenteserna i svaret."); return; }
   const ok=delSvarRatt(svar,expected[i],enkelEnhet,enkelTol,t,i,enkelFormat);
   registreraDel(i,ok,visatSvar(expected[i],enkelTol,enkelFormat));
 }
@@ -14237,6 +14272,7 @@ function visaDelfacit(i,delIndex,komplettering){
 function delfacitText(t,i){
   const d=t.delfacit||t.facitDelar||t.delsvar;
   if(Array.isArray(d)&&d[i]) return d[i];
+  if(t.spelDelar?.[i]?.s) return t.spelDelar[i].s;
   return t.s||"Facit saknas.";
 }
 function bedomDel(i,ok,delIndex){

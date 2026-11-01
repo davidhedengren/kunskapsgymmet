@@ -18,6 +18,7 @@ test('Dolda delkort visas inte och övriga får sin egen svarmetadata',()=>{
   assert.match(k[0].t,/Del c/);
   const tva=c.expandGameTask(uppgift([1]));
   assert.deepEqual(JSON.parse(JSON.stringify(tva.map(q=>q.id))),['9.1a','9.1c','9.1d']);assert.equal(tva[2].rättSvar,7);
+  assert.equal(c.expandGameTask(uppgift([0,1,2,3])).length,0,'Inga dolda delar får ersättas med hela föräldrauppgiften');
 });
 
 test('Uppgifter utan dolda delar fungerar som förut',()=>{

@@ -30484,7 +30484,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm \\(a\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Av \\(f(0)=2\\) fås direkt \\(b=2\\).</p></li><li><p>Produktregeln ger \\(f'(x)=ae^x+(ax+b)e^x\\), så \\(f'(0)=a+b=5\\).</p></li><li><p>Med \\(b=2\\) fås \\(\\boxed{a=3}\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Jämför funktionsvärdet och derivatan</strong></p><p>Produktregeln ger \\(f'(x)=ae^x+(ax+b)e^x\\). För \\(x=0\\) är alltså \\(f'(0)=a+b\\), medan \\(f(0)=b\\).</p><p>Subtrahera de givna funktionsvärdena:</p>\\[a=f'(0)-f(0)=5-2=3.\\]<p><strong>Svar:</strong> \\(a=3\\).</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -31572,7 +31572,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm \\(a\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Villkoret \\(f(1)=4\\) ger \\((a+b)/2=4\\), alltså \\(a+b=8\\).</p></li><li><p>Kvotregeln ger</p></li><li><p>\\[f'(x)=\\frac{a(x+1)-(ax+b)}{(x+1)^2}=\\frac{a-b}{(x+1)^2}.\\]</p></li><li><p>Villkoret \\(f'(1)=3\\) ger \\((a-b)/4=3\\), alltså \\(a-b=12\\).</p></li><li><div class=\"facit-berakning\"><p>Systemet ger</p><div class=\"facit-matte\">\\[\\boxed{a=10,\\ b=-2}\\].</div></div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Lös ut den sökta parametern</strong></p><p>Villkoret \\(f(1)=4\\) ger \\(a+b=8\\). Med kvotregeln får vi \\(f'(x)=(a-b)/(x+1)^2\\), så \\(f'(1)=3\\) ger \\(a-b=12\\).</p><p>Addera de två ekvationerna:</p>\\[2a=8+12=20.\\]<p><strong>Svar:</strong> \\(a=10\\).</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -33613,7 +33613,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm korrekt derivata av \\(h(x)=\\sqrt{1+x^2}\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skriv</p><div class=\"facit-matte\">\\[h(x)=(1+x^2)^{1/2}\\].</div></div></li><li><p>Kedjeregeln ger</p></li><li><p>\\[h'(x)=\\frac12(1+x^2)^{-1/2}\\cdot2x=\\boxed{\\frac{x}{\\sqrt{1+x^2}}}.\\]</p></li><li><p>Eleven har deriverat den yttre roten men glömt att multiplicera med den inre derivatan \\(2x\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Använd kedjeregeln</strong></p><p>Skriv \\(h(x)=(1+x^2)^{1/2}\\). Kedjeregeln ger</p>\\[h'(x)=\\frac12(1+x^2)^{-1/2}\\cdot2x=\\frac{x}{\\sqrt{1+x^2}}.\\]<p><strong>Svar:</strong> \\(h'(x)=\\dfrac{x}{\\sqrt{1+x^2}}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -44204,7 +44204,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>På vilka intervall är \\(f\\) växande respektive avtagande?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen till \\(f'\\) skär x-axeln vid \\(x=-1\\) och \\(x=2\\).</p></li><li><p>Derivatan är positiv för \\(x&lt;-1\\), negativ för \\(-1&lt;x&lt;2\\) och positiv för \\(x&gt;2\\).</p></li><li><p>Alltså är \\(f\\) <strong>växande</strong> på \\(( -\\infty,-1)\\) och \\((2,\\infty)\\), och <strong>avtagande</strong> på \\((-1,2)\\).</p></li><li><p>Vid \\(x=-1\\) går \\(f'\\) från + till −: <strong>maximipunkt</strong>.</p></li><li><p>Vid \\(x=2\\) går den från − till +: <strong>minimipunkt</strong>.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Läs derivatans tecken</strong></p><p>Funktionen växer där grafen för derivatan ligger över x-axeln och avtar där den ligger under.</p><p>Grafen ligger över axeln för \\(x&lt;-1\\) och \\(x&gt;2\\), och under axeln för \\(-1&lt;x&lt;2\\).</p><p><strong>Svar:</strong> Växande på \\((-\\infty,-1)\\) och \\((2,\\infty)\\); avtagande på \\((-1,2)\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -44765,7 +44765,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>På vilka intervall är \\(f\\) växande respektive avtagande?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen \\(f\\) är växande där \\(f'(x)&gt;0\\) och avtagande där \\(f'(x)&lt;0\\).</p></li><li><p>Grafen för \\(f'\\) skär x-axeln vid \\(x=-1\\) och \\(x=3\\).</p></li><li><p>Den ligger över x-axeln för \\(x&lt;-1\\) och \\(x&gt;3\\), och under x-axeln för \\(-1&lt;x&lt;3\\).</p></li><li><p>Alltså är \\(f\\)</p></li><li><p>\\[\\text{växande för }x&lt;-1\\text{ och }x&gt;3,\\]</p></li><li><p>\\[\\text{avtagande för }-1&lt;x&lt;3.\\]</p></li><li><p>Vid \\(x=-1\\) går derivatan från positiv till negativ: <strong>maximipunkt</strong>.</p></li><li><p>Vid \\(x=3\\) går derivatan från negativ till positiv: <strong>minimipunkt</strong>.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Läs derivatans tecken</strong></p><p>Funktionen växer där grafen för derivatan ligger över x-axeln och avtar där den ligger under.</p><p>Grafen ligger över axeln för \\(x&lt;-1\\) och \\(x&gt;3\\), och under axeln för \\(-1&lt;x&lt;3\\).</p><p><strong>Svar:</strong> Växande på \\((-\\infty,-1)\\) och \\((3,\\infty)\\); avtagande på \\((-1,3)\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -46643,7 +46643,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>bestäm \\(f''(x)\\),</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=4x^3-8x\\) och</p></li><li><p>\\[f''(x)=12x^2-8.\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[f''(x)=0\\]:</div></div></li><li><p>\\[12x^2-8=0\\Rightarrow x^2=\\frac23\\Rightarrow x=\\pm\\sqrt{\\frac23}.\\]</p></li><li><p>För \\(|x|&gt;\\sqrt{2/3}\\) är \\(f''(x)&gt;0\\).</p></li><li><p>För \\(|x|&lt;\\sqrt{2/3}\\) är \\(f''(x)&lt;0\\).</p></li><li><p>Tecknet på \\(f''\\) ändras vid båda dessa \\(x\\)-värden.</p></li><li><p><strong>\\(\\boxed{x=\\pm\\sqrt{2/3}}\\)</strong>.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Undersök andraderivatan</strong></p><p>Derivera en gång och sedan en gång till:</p>\\[f'(x)=4x^3-8x,\\qquad f''(x)=12x^2-8.\\]<p><strong>Svar:</strong> \\(f''(x)=12x^2-8\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -46652,7 +46652,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>bestäm intervallen där \\(f''(x)&gt;0\\) respektive \\(f''(x)&lt;0\\),</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=4x^3-8x\\) och</p></li><li><p>\\[f''(x)=12x^2-8.\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[f''(x)=0\\]:</div></div></li><li><p>\\[12x^2-8=0\\Rightarrow x^2=\\frac23\\Rightarrow x=\\pm\\sqrt{\\frac23}.\\]</p></li><li><p>För \\(|x|&gt;\\sqrt{2/3}\\) är \\(f''(x)&gt;0\\).</p></li><li><p>För \\(|x|&lt;\\sqrt{2/3}\\) är \\(f''(x)&lt;0\\).</p></li><li><p>Tecknet på \\(f''\\) ändras vid båda dessa \\(x\\)-värden.</p></li><li><p><strong>\\(\\boxed{x=\\pm\\sqrt{2/3}}\\)</strong>.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Undersök andraderivatan</strong></p><p>Andraderivatan är \\(f''(x)=12x^2-8\\). Den är positiv när \\(12x^2&gt;8\\), alltså när \\(x^2&gt;2/3\\), och negativ när \\(x^2&lt;2/3\\).</p><p><strong>Svar:</strong> \\(f''(x)&gt;0\\) för \\(|x|&gt;\\sqrt{2/3}\\) och \\(f''(x)&lt;0\\) för \\(|x|&lt;\\sqrt{2/3}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -47664,7 +47664,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm de intervall där \\(f\\) är växande.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv när båda faktorerna har samma tecken: \\(x&lt;1\\) eller \\(x&gt;4\\).</p></li><li><p>Där är \\(f\\) växande.</p></li><li><p>Derivatan är 0 vid \\(x=1\\) och \\(x=4\\).</p></li><li><p>Vid \\(x=1\\) går derivatan från positiv till negativ: <strong>maximipunkt</strong>.</p></li><li><p>Vid \\(x=4\\) går den från negativ till positiv: <strong>minimipunkt</strong>.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Undersök derivatans tecken</strong></p><p>Derivatan \\((x-1)(x-4)\\) är positiv när båda faktorerna har samma tecken. Det gäller när båda är negativa eller båda positiva.</p><p><strong>Svar:</strong> \\(f\\) växer för \\(x&lt;1\\) och för \\(x&gt;4\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -47673,7 +47673,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm de x-värden där \\(f\\) har extrempunkter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv när båda faktorerna har samma tecken: \\(x&lt;1\\) eller \\(x&gt;4\\).</p></li><li><p>Där är \\(f\\) växande.</p></li><li><p>Derivatan är 0 vid \\(x=1\\) och \\(x=4\\).</p></li><li><p>Vid \\(x=1\\) går derivatan från positiv till negativ: <strong>maximipunkt</strong>.</p></li><li><p>Vid \\(x=4\\) går den från negativ till positiv: <strong>minimipunkt</strong>.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Undersök derivatans tecken</strong></p><p>Derivatan är noll när någon faktor är noll:</p>\\[(x-1)(x-4)=0\\quad\\Rightarrow\\quad x=1\\ \\text{eller}\\ x=4.\\]<p>Derivatan byter tecken vid båda värdena, så båda ger extrempunkter.</p><p><strong>Svar:</strong> \\(x=1\\) och \\(x=4\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -65906,7 +65906,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Ställ upp integralen för volymen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Volymen byggs av tvärsnittsareor.</p></li><li><p>Vid rotation kring x-axeln är tvärsnitten cirkelskivor eller brickor, vilket förklarar både faktorn \\(\\pi\\) och kvadraten på radien.</p></li><li><p>Metoden med cirkelformade tvärsnitt ger</p></li><li><p>\\[V=\\pi\\int_0^3(x^2)^2dx=\\pi\\int_0^3x^4dx.\\]</p></li><li><p>\\[V=\\pi\\left[\\frac{x^5}{5}\\right]_0^3=\\boxed{\\frac{243\\pi}{5}}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Ställ upp volymintegralen</strong></p><p>Ett tvärsnitt vinkelrätt mot x-axeln blir en cirkelskiva med radien \\(r=x^2\\). Tvärsnittsarean är därför \\(\\pi r^2=\\pi x^4\\).</p><p><strong>Svar:</strong> \\(V=\\pi\\displaystyle\\int_0^3 x^4\\,dx\\).</p></div>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1
@@ -77855,7 +77855,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(z_1z_2\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid multiplikation multipliceras absolutbeloppen och argumenten adderas:</p></li><li><p>\\[\nz_1z_2=6(\\cos(-15^\\circ)+i\\sin(-15^\\circ)).\n\\]</p></li><li><p>Vid division divideras absolutbeloppen och argumenten subtraheras:</p></li><li><p>\\[\n\\frac{z_1}{z_2}\n=\n\\frac23(\\cos75^\\circ+i\\sin75^\\circ).\n\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Multiplicera belopp och addera argument</strong></p><p>Vid multiplikation multipliceras absolutbeloppen och argumenten adderas. Här är beloppet \\(2\\cdot3=6\\) och argumentet \\(30^\\circ+(-45^\\circ)=-15^\\circ\\).</p><p><strong>Svar:</strong> \\(z_1z_2=6(\\cos(-15^\\circ)+i\\sin(-15^\\circ))\\).</p></div>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1
@@ -84240,7 +84240,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Vilken regelbunden polygon bildar rötterna?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rötternas absolutbelopp är \\(\\sqrt[6]{64}=2\\), och argumenten skiljer sig med \\(2\\pi/6=\\pi/3\\).</p></li><li><p>De ligger därför som hörn i en regelbunden sexhörning på en cirkel med radien 2.</p></li><li><p>I en regelbunden sexhörning är sidan lika med radien, alltså 2.</p></li><li><p>Arean är sex liksidiga trianglar:</p></li><li><p>\\[6\\cdot\\frac{\\sqrt3}{4}\\cdot2^2=\\boxed{6\\sqrt3}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Undersök rötternas placering</strong></p><p>Ekvationen har sex rötter med samma absolutbelopp. Deras argument är jämnt fördelade med ett vinkelsteg på \\(2\\pi/6=\\pi/3\\), så punkterna ligger jämnt fördelade på en cirkel.</p><p><strong>Svar:</strong> En regelbunden sexhörning.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,

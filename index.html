@@ -4069,7 +4069,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-01-fellogg-1810";
+const BANK_VERSION="2026-11-01-delfacitkedjor";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -7108,7 +7108,8 @@ function expandGameTask(t){
      mot alla delar så att svarmetadata fortfarande hamnar rätt. */
   const synliga=t.spelDelar.map((del,i)=>[del,i]).filter(([del])=>del?.spel!==false);
   const dolda=synliga.length<t.spelDelar.length;
-  if(!synliga.length || (!dolda && t.spelDelar.length<2)) return [t];
+  if(!synliga.length) return [];
+  if(!dolda && t.spelDelar.length<2) return [t];
   const antal=t.spelDelar.length;
   return synliga.map(([del,i])=>{
     const etikett=String(del?.etikett || String.fromCharCode(97+i)).toLowerCase();
@@ -7133,7 +7134,9 @@ function expandGameTask(t){
       || (del?.fraga!=null && t.spelIntro!=null
             ? `${t.spelIntro}<div class="spel-en-del">${del.fraga}</div>`
             : t.t);
-    q.s=del?.s || t.s;
+    // Hela huvudfacit kan innehålla svar på senare delar. Saknas delfacit
+    // får kortet hellre visa att lösning saknas än avslöja hela uppgiften.
+    q.s=del?.s || "";
 
     q.ledtrad=del?.ledtrad || t.ledtrad || null;
     q.metoder=del?.metoder ?? t.metoder;
@@ -9665,6 +9668,13 @@ function kedjaLararversion(syskon,foralder){
   const synlig=h=>String(h||"").replace(/<[^>]*>/g,"").trim() || /<(svg|img|table)\b/i.test(String(h||""));
   const intro=String(foralder?.spelIntro||"");
   if(!synlig(intro)) return null;
+  // Egna deltexter kan innehålla olika mätvärden, figurer och villkor som
+  // inte finns i den korta frågan eller den gemensamma inledningen.
+  // Använd lärarversionen endast när korten faktiskt byggs av intro + fråga.
+  if(syskon.some(q=>{
+    const del=(foralder.spelDelar||[]).find(d=>String(d?.etikett||"").toLowerCase()===String(q.deluppgift||"").toLowerCase());
+    return !!del?.t;
+  })) return null;
   const fragor=syskon.map(q=>{
     const del=(foralder.spelDelar||[]).find(d=>String(d?.etikett||"").toLowerCase()===String(q.deluppgift||"").toLowerCase());
     return String(del?.fraga||"");
@@ -9763,6 +9773,10 @@ function kedjaAktuell(t){
   const k=state.kedja;
   return k && t && k.ursprungsId===t.ursprungsId && k.delar[k.index]?.task.id===t.id ? k : null;
 }
+function kedjaVisadEtikett(k,etikett){
+  const i=k.delar.findIndex(d=>d.etikett===etikett);
+  return i>=0 && i<26 ? String.fromCharCode(97+i) : etikett;
+}
 function kedjaTbody(t){
   const k=kedjaAktuell(t);
   if(!k) return null;
@@ -9770,13 +9784,13 @@ function kedjaTbody(t){
   const fraga=k.gjorda.length ? d.kort : d.hel;
   const tidigare=k.gjorda.filter(g=>g.etikett!==d.etikett).map(g=>`
     <div class="kedja-del kedja-klar">
-      <div class="kedja-rubrik">${esc(g.etikett)})</div>
+      <div class="kedja-rubrik">${esc(kedjaVisadEtikett(k,g.etikett))})</div>
       <div class="kedja-fraga">${g.fraga}</div>
       ${g.aterupptagen?'<div class="hint">Tidigare del – svaret finns inte i den äldre sparningen.</div>':g.overhoppad?'<div class="hint">Överhoppad – frivillig del.</div>':`<div class="kedja-svar ${g.ok?"ok":"fel"}"><span aria-hidden="true">${g.ok?"✓":"✗"}</span> Ditt svar: ${g.svar||"–"}</div>`}
     </div>`).join("");
   return `<p class="hint kedja-sammanhang">Uppgift ${esc(String(k.ursprungsId))} · Del ${k.index+1} av ${k.delar.length}</p>${k.intro}${tidigare}
     <div class="kedja-del kedja-nu">
-      <div class="kedja-rubrik">${esc(d.etikett)})${d.extra?` <span class="obs-svarare">OBS! Svårare nivå</span>`:""}</div>
+      <div class="kedja-rubrik">${esc(kedjaVisadEtikett(k,d.etikett))})${d.extra?` <span class="obs-svarare">OBS! Svårare nivå</span>`:""}</div>
       <div class="kedja-fraga">${fraga}</div>
       ${d.extra&&!state.answered&&!state.passReview?'<div class="kedja-extra"><span>Den här delen är frivillig.</span><button type="button" class="btn" onclick="kedjaHoppaAktuell()">Hoppa över den här delen</button></div>':''}
     </div>`;
@@ -14273,6 +14287,7 @@ function delfacitText(t,i){
   const d=t.delfacit||t.facitDelar||t.delsvar;
   if(Array.isArray(d)&&d[i]) return d[i];
   if(t.spelDelar?.[i]?.s) return t.spelDelar[i].s;
+  if(Array.isArray(t.spelDelar) && t.spelDelar.length>1) return "En separat lösning för den här delen saknas.";
   return t.s||"Facit saknas.";
 }
 function bedomDel(i,ok,delIndex){

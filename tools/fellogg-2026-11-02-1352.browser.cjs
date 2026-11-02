@@ -1,0 +1,17 @@
+'use strict';const {chromium}=require('playwright'),path=require('path'),assert=require('node:assert/strict');
+(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});try{
+ const p=await b.newPage({reducedMotion:'reduce'}),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.route('https://*.supabase.co/**',r=>r.abort());
+ if(process.env.REVIEW_DEPS)await p.route(/^https:\/\/cdn\.jsdelivr\.net\/npm\/(katex|nerdamer)@/,r=>{const m=new URL(r.request().url()).pathname.match(/^\/npm\/(katex|nerdamer)@[^/]+\/(.+)$/);return r.fulfill({path:path.join(process.env.REVIEW_DEPS,m[1],m[2])})});
+ await p.addInitScript(()=>localStorage.setItem('kunskapsgymmet-beta-info','2'));await p.goto(process.env.REVIEW_URL||'http://127.0.0.1:8294');await p.waitForFunction(()=>typeof selectCourse==='function'&&typeof nerdamer==='function');
+ await p.evaluate(async()=>{await selectCourse('ma1');session=null;syncOwner=null;arLarare=false;cheer=()=>{};finishAttempt=r=>{state.answered=true;window.testResult=r};window.prep=id=>{Object.assign(state,{currentTask:state.data.bank.find(q=>q.id===id),answered:false,noXp:false,solutionShown:false,partIndex:0,partResults:[],aktivRuta:0,altValda:new Set(),altOrdningId:null,kedja:null,samladKomplettering:false});window.testResult=null;renderTraining()};});
+ for(const width of [390,1280]){await p.setViewportSize({width,height:900});
+ for(const id of ['0.77','0.80','0.86','0.92','0.98','0.322','0.879']){
+  const total=await p.evaluate(id=>{prep(id);return altLista(state.currentTask).length},id);assert.equal(total,id==='0.322'?3:4);
+  for(let i=0;i<total;i++){const r=await p.evaluate(({id,i})=>{prep(id);const list=altLista(state.currentTask),expected=list[i].ratt;vaxlaAlt(i);kollaAlt();return {expected,result:window.testResult,errors:document.querySelectorAll('.katex-error').length}},{id,i});assert.deepEqual(r.result,[r.expected],`${id}, alternativ ${i}`);assert.equal(r.errors,0,id);}
+ }
+ for(const [value,want] of [['0',true],['0,0',true],['-4',false],['1',false]]){await p.evaluate(()=>prep('0.89'));await p.locator('#ans-0').fill(value);await p.evaluate(()=>checkAnswer());assert.deepEqual(await p.evaluate(()=>window.testResult),[want],`0.89 ${value}`);}
+ await p.evaluate(()=>prep('0.89'));await p.locator('.task .katex').first().waitFor();assert.match(await p.locator('.task .tbody').textContent(),/□/);
+ await p.evaluate(()=>{prep('0.98');showSolution()});await p.locator('#solution-holder .katex').first().waitFor();assert.equal(await p.locator('#solution-holder .katex-error').count(),0);assert.match(await p.locator('#solution-holder').textContent(),/Svar/);
+ }
+ assert.deepEqual(errors,[]);console.log('Alla alternativ och svarsfält rättas på mobil och dator.');
+ }finally{await b.close()}})().catch(e=>{console.error(e);process.exitCode=1});

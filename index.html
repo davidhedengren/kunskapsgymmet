@@ -4069,7 +4069,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-02-fellogg-1319";
+const BANK_VERSION="2026-11-02-fellogg-1338";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11091,7 +11091,7 @@ function rotListaRatt(anv,facit,tol){
 
 /* Svaret utan en avslutande enhet som är exakt facits enhet ("4π cm" → "4π"). */
 function enhetMedOrd(s){
-  return String(s).replace(/\bkronor\b/gi,"kr")
+  return String(s).replace(/\bmiljoner\s+kronor\b/gi,"Mkr").replace(/\btusen\s+kronor\b/gi,"tkr").replace(/\bkronor\b/gi,"kr")
     .replace(/\bradian(?:er)?\b/gi,"rad")
     .replace(/\s+(?:per|i)\s+/gi,"/")
     .replace(/\/\s*(?:timme|timmen|timmar|tim)\b/gi,"/h")
@@ -11849,6 +11849,7 @@ const SI_PREFIX={T:1e12,G:1e9,M:1e6,k:1e3,h:1e2,da:1e1,
                  d:1e-1,c:1e-2,m:1e-3,"µ":1e-6,"μ":1e-6,u:1e-6,n:1e-9,p:1e-12,f:1e-15};
 
 const ENHETER={
+  kr:{b:"kr",f:1}, tkr:{b:"kr",f:1000},
   m:{b:"m",f:1}, g:{b:"g",f:1}, s:{b:"s",f:1}, A:{b:"A",f:1}, K:{b:"K",f:1},
   mol:{b:"mol",f:1}, cd:{b:"cd",f:1},
   N:{b:"N",f:1}, J:{b:"J",f:1}, W:{b:"W",f:1}, V:{b:"V",f:1}, C:{b:"C",f:1},

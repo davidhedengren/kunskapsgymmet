@@ -16834,7 +16834,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Grafanalys med första och andra derivatan"
-    ]
+    ],
+    "delfacit": [null, "<p>Läs grafen från vänster till höger. Den stiger, sjunker och stiger mellan vändpunkterna. När grafen stiger är funktionen växande; när den sjunker är den avtagande.</p><p>Inom det visade området gäller: \\(f\\) är växande för \\(x\\le-1\\) och för \\(x\\ge1\\) samt avtagande för \\(-1\\le x\\le1\\).</p>"]
   },
   {
     "id": "2.86",
@@ -17059,7 +17060,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Grafanalys med första och andra derivatan"
-    ]
+    ],
+    "delfacit": [null, "<p>Läs grafen från vänster till höger. Den sjunker, stiger och sjunker mellan vändpunkterna. När grafen stiger är funktionen växande; när den sjunker är den avtagande.</p><p>Inom det visade området gäller: \\(f\\) är avtagande för \\(x\\le-1\\) och för \\(x\\ge1\\) samt växande för \\(-1\\le x\\le1\\).</p>"]
   },
   {
     "id": "2.91",
@@ -17286,7 +17288,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Grafanalys med första och andra derivatan"
-    ]
+    ],
+    "delfacit": [null, "<p>Läs grafen från vänster till höger. Den sjunker, stiger, sjunker och stiger mellan vändpunkterna. När grafen stiger är funktionen växande; när den sjunker är den avtagande.</p><p>Med avlästa, ungefärliga intervallgränser får vi inom det visade området: \\(f\\) är avtagande för \\(x\\le-1{,}4\\) och för \\(0\\le x\\le1{,}4\\) samt växande för \\(-1{,}4\\le x\\le0\\) och för \\(x\\ge1{,}4\\).</p>"]
   },
   {
     "id": "2.96",
@@ -17513,7 +17516,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Grafanalys med första och andra derivatan"
-    ]
+    ],
+    "delfacit": [null, "<p>Läs grafen från vänster till höger. Den stiger, sjunker, stiger och sjunker mellan vändpunkterna. När grafen stiger är funktionen växande; när den sjunker är den avtagande.</p><p>Med avlästa, ungefärliga intervallgränser får vi inom det visade området: \\(f\\) är växande för \\(x\\le-1{,}4\\) och för \\(0\\le x\\le1{,}4\\) samt avtagande för \\(-1{,}4\\le x\\le0\\) och för \\(x\\ge1{,}4\\).</p>"]
   },
   {
     "id": "2.101",
@@ -17736,7 +17740,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Grafanalys med första och andra derivatan"
-    ]
+    ],
+    "delfacit": [null, "<p>Läs grafen från vänster till höger. Den stiger, sjunker och stiger mellan vändpunkterna. När grafen stiger är funktionen växande; när den sjunker är den avtagande.</p><p>Inom det visade området gäller: \\(f\\) är växande för \\(x\\le0\\) och för \\(x\\ge2\\) samt avtagande för \\(0\\le x\\le2\\).</p>"]
   },
   {
     "id": "2.106",
@@ -17962,7 +17967,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Grafanalys med första och andra derivatan"
-    ]
+    ],
+    "delfacit": [null, "<p>Läs grafen från vänster till höger. Den stiger, sjunker och stiger mellan vändpunkterna. När grafen stiger är funktionen växande; när den sjunker är den avtagande.</p><p>Inom det visade området gäller: \\(f\\) är växande för \\(x\\le-2\\) och för \\(x\\ge0\\) samt avtagande för \\(-2\\le x\\le0\\).</p>"]
   },
   {
     "id": "2.111",
@@ -18186,7 +18192,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Grafanalys med första och andra derivatan"
-    ]
+    ],
+    "delfacit": [null, "<p>Läs grafen från vänster till höger. Den sjunker och stiger mellan vändpunkterna. När grafen stiger är funktionen växande; när den sjunker är den avtagande.</p><p>Inom det visade området gäller: \\(f\\) är avtagande för \\(x\\le2\\) och växande för \\(x\\ge2\\).</p>"]
   },
   {
     "id": "2.116",
@@ -18411,7 +18418,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Grafanalys med första och andra derivatan"
-    ]
+    ],
+    "delfacit": [null, "<p>Läs grafen från vänster till höger. Den stiger och sjunker mellan vändpunkterna. När grafen stiger är funktionen växande; när den sjunker är den avtagande.</p><p>Inom det visade området gäller: \\(f\\) är växande för \\(x\\le1\\) och avtagande för \\(x\\ge1\\).</p>"]
   },
   {
     "id": "2.121",
@@ -35282,6 +35290,7 @@ window.BANKMATO1 = [
     "spelDelar": [
       {
         "etikett": "a",
+        "rättSvar": 5,
         "t": "<p>En vagn har hastigheten \\(v(t)=2t-4\\) m/s för \\(0\\le t\\le5\\). Bestäm vagnens förflyttning under tidsintervallet.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Förflyttningen är den tecknade integralen:</p><div class=\"facit-matte\">\\[\\int_0^5(2t-4)\\,dt=5\\,\\mathrm m\\].</div></div></li></ol></div>",
         "ledtrad": "<p>Integralen av hastigheten ger förflyttningen med tecken. För total sträcka måste du hitta när hastigheten byter tecken och summera de positiva delsträckorna.</p>",
@@ -35289,6 +35298,7 @@ window.BANKMATO1 = [
       },
       {
         "etikett": "b",
+        "rättSvar": 13,
         "t": "<p>En vagn har hastigheten \\(v(t)=2t-4\\) m/s för \\(0\\le t\\le5\\). Bestäm den totala sträckan som vagnen färdas.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Hastigheten byter tecken vid</p><div class=\"facit-matte\">\\[t=2\\].</div></div></li><li><div class=\"facit-berakning\"><p>Sträckan blir</p><div class=\"facit-matte\">\\[-\\int_0^2v(t)dt+\\int_2^5v(t)dt=4+9=13\\,\\mathrm m\\].</div></div></li></ol></div>",
         "ledtrad": "<p>Integralen av hastigheten ger förflyttningen med tecken. För total sträcka måste du hitta när hastigheten byter tecken och summera de positiva delsträckorna.</p>",
@@ -43375,7 +43385,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Göra teckentabell för derivatan"
-    ]
+    ],
+    "delfacit": [null, "<p>\\(f'(x)=3(x-3)(x+1)\\). Derivatan är positiv när \\(x&lt;-1\\), negativ när \\(-1&lt;x&lt;3\\) och positiv när \\(x&gt;3\\).</p>", "<p>Derivatan byter tecken från plus till minus vid \\(x=-1\\) och från minus till plus vid \\(x=3\\). Eftersom \\(f(-1)=10\\) och \\(f(3)=-22\\) är maximipunkten \\((-1,10)\\) och minimipunkten \\((3,-22)\\).</p>"]
   },
   {
     "id": "3.360",
@@ -43619,7 +43630,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Göra teckentabell för derivatan"
-    ]
+    ],
+    "delfacit": [null, "<p>\\(f'(x)=4x(x-2)(x+2)\\). Derivatans tecken är i tur och ordning minus, plus, minus och plus på intervallen \\(x&lt;-2\\), \\(-2&lt;x&lt;0\\), \\(0&lt;x&lt;2\\) och \\(x&gt;2\\).</p>", "<p>Tecknet går från minus till plus vid \\(x=-2\\) och \\(x=2\\), samt från plus till minus vid \\(x=0\\). Med \\(f(-2)=f(2)=-16\\) och \\(f(0)=0\\) fås minimipunkterna \\((-2,-16)\\) och \\((2,-16)\\), samt maximipunkten \\((0,0)\\).</p>"]
   },
   {
     "id": "3.366",
@@ -43795,7 +43807,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Göra teckentabell för derivatan"
-    ]
+    ],
+    "delfacit": [null, "<p>\\(f'(x)=x(x-2)^2\\). Kvadraten är positiv på båda sidor om 2, så derivatans tecken är minus för \\(x&lt;0\\) och plus för både \\(0&lt;x&lt;2\\) och \\(x&gt;2\\).</p>", "<p>Vid \\(x=0\\) går derivatan från minus till plus och \\(f(0)=0\\), så \\((0,0)\\) är en minimipunkt. Vid \\(x=2\\) byter derivatan inte tecken; där finns ingen extrempunkt.</p>"]
   },
   {
     "id": "3.370",
@@ -48244,20 +48257,21 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett företag investerar 30 miljoner kronor per år vid start och investeringstakten ökar enligt \\(I(t)=30\\cdot1{,}03^t\\) miljoner kr/år. Uppskatta den totala investeringen under de första 8 åren.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den totala investeringen ges av \\[\\int_0^8 30\\cdot1{,}03^t\\,dt.\\]</p></li><li><p>Ett digitalt verktyg ger ungefär \\(\\boxed{270{,}75}\\) miljoner kronor.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(270{,}75\\)</strong></p></div>",
+    "t": "<p>Ett företag investerar 30 miljoner kronor per år vid start och investeringstakten ökar enligt \\(I(t)=30\\cdot1{,}03^t\\) miljoner kr/år. Uppskatta den totala investeringen under de första 8 åren. Svara i miljoner kronor (Mkr).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Integrera investeringstakten över åtta år</strong></p><p>Den sammanlagda investeringen är integralen av investeringstakten.</p>\\[\\int_0^8 30\\cdot1{,}03^t\\,dt=\\left[\\frac{30\\cdot1{,}03^t}{\\ln1{,}03}\\right]_0^8.\\]<p>Insättning av gränserna ger</p>\\[\\frac{30(1{,}03^8-1)}{\\ln1{,}03}\\approx270{,}75.\\]<p class=\"facit-svar\"><strong>Svar:</strong> cirka 270,75 miljoner kronor.</p></div>",
     "familj": "Tolka integraler i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 270.75,
-    "tolerans": 0.01,
+    "rättSvar": 270.75191938529423,
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "svarFormat": "numeriskt",
+    "svarEnhet": "Mkr",
     "ledtrad": "<p>Integrera investeringstakten från 0 till 8 år. Resultatets enhet blir miljoner kronor.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -48732,14 +48746,14 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "1/2/0",
-    "t": "<p>En fabrik har kostnadstakten \\(K(t)=12+0{,}5t^2\\) tusen kr/månad. Hur stor är den sammanlagda kostnaden under de första 4 månaderna?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\int_0^4(12+0,5t²)dt=48+32/3\\approx58{,}67\\) tusen kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(58{,}67\\)</strong></p></div>",
+    "t": "<p>En fabrik har kostnadstakten \\(K(t)=12+0{,}5t^2\\) tusen kr/månad. Hur stor är den sammanlagda kostnaden under de första 4 månaderna? Svara i tusen kronor (tkr).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Integrera kostnadstakten över fyra månader</strong></p><p>Integralen ger kostnaden i tusen kronor.</p>\\[\\int_0^4(12+0{,}5t^2)\\,dt=\\left[12t+\\frac{t^3}{6}\\right]_0^4=48+\\frac{32}{3}=\\frac{176}{3}.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{176}{3}\\approx58{,}67\\) tkr.</p></div>",
     "familj": "Tolka integraler i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 58.67,
-    "tolerans": 0.01,
+    "rättSvar": 58.666666666666664,
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -48755,7 +48769,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Tolka och använda integraler i tillämpningar"
-    ]
+    ],
+    "svarEnhet": "tkr"
   },
   {
     "id": "3.501",
@@ -54795,7 +54810,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Tolka integral av hastighet"
-    ]
+    ],
+    "delfacit": ["<p>En primitiv funktion till \\(10t\\) är \\(5t^2\\). Därför är \\(\\int_1^2 10t\\,dt=[5t^2]_1^2=20-5=15\\).</p>", "<p>Hastigheten är positiv under intervallet. Integralen beskriver därför den sträcka stenen faller från \\(t=1\\) s till \\(t=2\\) s. Sträckan är 15 m.</p>"]
   },
   {
     "id": "3.732",

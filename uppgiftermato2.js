@@ -3862,7 +3862,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Utveckla uttrycken.</p><p>a) \\(\\sin(x+30^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sin(x-45^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\cos(x+60^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos(x-30^\\circ)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv additions- eller subtraktionsformeln först och sätt därefter in de exakta standardvärdena.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac{\\sqrt3}{2}\\sin x+\\frac12\\cos x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\frac{\\sqrt2}{2}\\sin x-\\frac{\\sqrt2}{2}\\cos x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\frac12\\cos x-\\frac{\\sqrt3}{2}\\sin x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\)</strong></p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknen i formeln och jämför gärna resultatets tecken med den aktuella vinkeln.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\sin(x+30^\\circ)&=\\sin x\\cos30^\\circ\\\\&\\quad +\\cos x\\sin30^\\circ\\\\&=\\frac{\\sqrt3}{2}\\sin x\\\\&\\quad +\\frac12\\cos x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\sin x+\\frac12\\cos x\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\sin(x-45^\\circ)&=\\sin x\\cos45^\\circ\\\\&\\quad -\\cos x\\sin45^\\circ\\\\&=\\frac{\\sqrt2}{2}\\sin x\\\\&\\quad -\\frac{\\sqrt2}{2}\\cos x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt2}{2}\\sin x-\\frac{\\sqrt2}{2}\\cos x\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\cos(x+60^\\circ)&=\\cos x\\cos60^\\circ\\\\&\\quad -\\sin x\\sin60^\\circ\\\\&=\\frac12\\cos x\\\\&\\quad -\\frac{\\sqrt3}{2}\\sin x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac12\\cos x-\\frac{\\sqrt3}{2}\\sin x\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\cos(x-30^\\circ)&=\\cos x\\cos30^\\circ\\\\&\\quad +\\sin x\\sin30^\\circ\\\\&=\\frac{\\sqrt3}{2}\\cos x\\\\&\\quad +\\frac12\\sin x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\).</p></div></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -3904,7 +3904,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin(x+30^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac{\\sqrt3}{2}\\sin x+\\frac12\\cos x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\sin(x+30^\\circ)&=\\sin x\\cos30^\\circ\\\\&\\quad +\\cos x\\sin30^\\circ\\\\&=\\frac{\\sqrt3}{2}\\sin x\\\\&\\quad +\\frac12\\cos x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\sin x+\\frac12\\cos x\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -3913,7 +3913,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\sin(x-45^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac{\\sqrt2}{2}\\sin x-\\frac{\\sqrt2}{2}\\cos x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\sin(x-45^\\circ)&=\\sin x\\cos45^\\circ\\\\&\\quad -\\cos x\\sin45^\\circ\\\\&=\\frac{\\sqrt2}{2}\\sin x\\\\&\\quad -\\frac{\\sqrt2}{2}\\cos x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt2}{2}\\sin x-\\frac{\\sqrt2}{2}\\cos x\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -3922,7 +3922,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\cos(x+60^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac12\\cos x-\\frac{\\sqrt3}{2}\\sin x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\cos(x+60^\\circ)&=\\cos x\\cos60^\\circ\\\\&\\quad -\\sin x\\sin60^\\circ\\\\&=\\frac12\\cos x\\\\&\\quad -\\frac{\\sqrt3}{2}\\sin x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac12\\cos x-\\frac{\\sqrt3}{2}\\sin x\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -3931,7 +3931,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos(x-30^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>\\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\)</strong></p></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\cos(x-30^\\circ)&=\\cos x\\cos30^\\circ\\\\&\\quad +\\sin x\\sin30^\\circ\\\\&=\\frac{\\sqrt3}{2}\\cos x\\\\&\\quad +\\frac12\\sin x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4478,7 +4478,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt med additions- eller subtraktionsformler.</p><p>a) \\(\\sin75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin15^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos15^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja.</p></li><li><p class=\"facit-metod\">För system väljer du den metod som enklast tar bort en variabel.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(45^\\circ+30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(45^\\circ+30^\\circ)=\\frac{\\sqrt6-\\sqrt2}{4}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(45^\\circ-30^\\circ)=\\frac{\\sqrt6-\\sqrt2}{4}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(45^\\circ-30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen.</p></li><li><p class=\"facit-not\">Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad +\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos75^\\circ=\\cos(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad -\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad -\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin15^\\circ=\\sin(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad -\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad -\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad +\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -4510,7 +4510,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin75^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(45^\\circ+30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad +\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4519,7 +4519,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos75^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(45^\\circ+30^\\circ)=\\frac{\\sqrt6-\\sqrt2}{4}\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos75^\\circ=\\cos(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad -\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad -\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4528,7 +4528,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin15^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(45^\\circ-30^\\circ)=\\frac{\\sqrt6-\\sqrt2}{4}\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin15^\\circ=\\sin(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad -\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad -\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4537,7 +4537,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos15^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(45^\\circ-30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad +\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4705,7 +4705,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Beräkna exakt med additions- eller subtraktionsformler.</p><p>a) \\(\\sin 75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos 15^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\cos 105^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv varje vinkel som en summa eller differens av standardvinklar och använd additions- eller subtraktionsformeln.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(45^\\circ+30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(45^\\circ-30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(60^\\circ+45^\\circ)=\\frac{\\sqrt2-\\sqrt6}{4}\\].</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad +\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad +\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos105^\\circ=\\cos(60^\\circ+45^\\circ)\\]\\[\\begin{aligned}&=\\cos60^\\circ\\cos45^\\circ\\\\&\\quad -\\sin60^\\circ\\sin45^\\circ\\\\&=\\frac12\\cdot\\frac{\\sqrt2}{2}\\\\&\\quad -\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}\\\\&=\\frac{\\sqrt2-\\sqrt6}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\).</p></div></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -4734,7 +4734,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin 75^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(45^\\circ+30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad +\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4743,7 +4743,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos 15^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(45^\\circ-30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad +\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4752,7 +4752,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\cos 105^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(60^\\circ+45^\\circ)=\\frac{\\sqrt2-\\sqrt6}{4}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos105^\\circ=\\cos(60^\\circ+45^\\circ)\\]\\[\\begin{aligned}&=\\cos60^\\circ\\cos45^\\circ\\\\&\\quad -\\sin60^\\circ\\sin45^\\circ\\\\&=\\frac12\\cdot\\frac{\\sqrt2}{2}\\\\&\\quad -\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}\\\\&=\\frac{\\sqrt2-\\sqrt6}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6601,7 +6601,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt med hjälp av additions- eller subtraktionsformler.</p><p>a) \\(\\sin75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos15^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\cos105^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Dela vinkeln i standardvinklar och använd additions- eller subtraktionsformeln.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)=\\boxed{(\\sqrt6+\\sqrt2)/4}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)=\\boxed{(\\sqrt6+\\sqrt2)/4}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos105^\\circ=\\cos(60^\\circ+45^\\circ)=\\boxed{(\\sqrt2-\\sqrt6)/4}\\].</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad +\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad +\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos105^\\circ=\\cos(60^\\circ+45^\\circ)\\]\\[\\begin{aligned}&=\\cos60^\\circ\\cos45^\\circ\\\\&\\quad -\\sin60^\\circ\\sin45^\\circ\\\\&=\\frac12\\cdot\\frac{\\sqrt2}{2}\\\\&\\quad -\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}\\\\&=\\frac{\\sqrt2-\\sqrt6}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\).</p></div></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -6630,7 +6630,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin75^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(45^\\circ+30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad +\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6639,7 +6639,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos15^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(45^\\circ-30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad +\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6648,7 +6648,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\cos105^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(60^\\circ+45^\\circ)=\\frac{\\sqrt2-\\sqrt6}{4}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos105^\\circ=\\cos(60^\\circ+45^\\circ)\\]\\[\\begin{aligned}&=\\cos60^\\circ\\cos45^\\circ\\\\&\\quad -\\sin60^\\circ\\sin45^\\circ\\\\&=\\frac12\\cdot\\frac{\\sqrt2}{2}\\\\&\\quad -\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}\\\\&=\\frac{\\sqrt2-\\sqrt6}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,

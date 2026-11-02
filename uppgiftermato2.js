@@ -8950,7 +8950,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationerna. Ange alla lösningar.</p><p>a) \\(\\sin x=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos x=-1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan x=\\sqrt3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin x=\\frac12\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Bestäm först grundlösningarna i enhetscirkeln och lägg sedan till funktionens period.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{x=180^\\circ n}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{x=180^\\circ+360^\\circ n}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{x=60^\\circ+180^\\circ n}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\boxed{x=30^\\circ+360^\\circ n}\\) eller \\(\\boxed{x=150^\\circ+360^\\circ n}\\), där \\(n\\in\\mathbb Z\\).</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Sinus är noll vid \\(0^\\circ\\) och \\(180^\\circ\\). Därefter upprepas nollställena med \\(180^\\circ\\) mellanrum.</p><p><strong>Svar:</strong> \\(x=180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Cosinus är \\(-1\\) vid \\(180^\\circ\\). Cosinus har perioden \\(360^\\circ\\).</p><p><strong>Svar:</strong> \\(x=180^\\circ+360^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Vi har \\(\\tan60^\\circ=\\sqrt3\\). Tangens har perioden \\(180^\\circ\\).</p><p><strong>Svar:</strong> \\(x=60^\\circ+180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Sinus är \\(1/2\\) vid \\(30^\\circ\\) och \\(150^\\circ\\) under ett varv. Sinus har perioden \\(360^\\circ\\).</p><p><strong>Svar:</strong> \\(x=30^\\circ+360^\\circ n\\) eller \\(x=150^\\circ+360^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div></div>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur"
@@ -8995,7 +8995,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin x=0\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{x=180^\\circ n}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Sinus är noll vid \\(0^\\circ\\) och \\(180^\\circ\\). Därefter upprepas nollställena med \\(180^\\circ\\) mellanrum.</p><p><strong>Svar:</strong> \\(x=180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -9004,7 +9004,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos x=-1\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{x=180^\\circ+360^\\circ n}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Cosinus är \\(-1\\) vid \\(180^\\circ\\). Cosinus har perioden \\(360^\\circ\\).</p><p><strong>Svar:</strong> \\(x=180^\\circ+360^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -9013,7 +9013,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan x=\\sqrt3\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{x=60^\\circ+180^\\circ n}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Vi har \\(\\tan60^\\circ=\\sqrt3\\). Tangens har perioden \\(180^\\circ\\).</p><p><strong>Svar:</strong> \\(x=60^\\circ+180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -9022,7 +9022,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\sin x=\\frac12\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\boxed{x=30^\\circ+360^\\circ n}\\) eller \\(\\boxed{x=150^\\circ+360^\\circ n}\\), där \\(n\\in\\mathbb Z\\).</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Sinus är \\(1/2\\) vid \\(30^\\circ\\) och \\(150^\\circ\\) under ett varv. Sinus har perioden \\(360^\\circ\\).</p><p><strong>Svar:</strong> \\(x=30^\\circ+360^\\circ n\\) eller \\(x=150^\\circ+360^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -9425,7 +9425,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös algebraiskt.</p><p>a) \\(2\\sin x\\cos x=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sin^2x=\\frac34\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2\\cos^2x-1=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin x(2\\cos x-1)=0\\)</p><p>Ange alla lösningar i grader.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Isolera den trigonometriska funktionen, hitta grundvinklarna i enhetscirkeln och använd sedan funktionens periodicitet för att få alla lösningar.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x=0\\) eller \\(\\cos x=0\\): <strong>\\(x=90^\\circ n\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x=\\pm\\frac{\\sqrt3}{2}\\): <strong>\\(x=60^\\circ+180^\\circ n\\) eller \\(x=120^\\circ+180^\\circ n\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos x=\\pm\\frac{\\sqrt2}{2}\\): <strong>\\(x=45^\\circ+90^\\circ n\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x=0\\) eller \\(\\cos x=\\frac12\\): <strong>\\(x=180^\\circ n\\), \\(x=60^\\circ+360^\\circ n\\) eller \\(x=300^\\circ+360^\\circ n\\)</strong>.</p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in lösningarna i ursprungsekvationen och kontrollera att ingen lösningsfamilj saknas.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>En produkt är noll när minst en faktor är noll. Alltså \\(\\sin x=0\\) eller \\(\\cos x=0\\). Tillsammans ger nollställena en vinkel var \\(90^\\circ\\).</p><p><strong>Svar:</strong> \\(x=90^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Ta hänsyn till båda tecknen: \\(\\sin x=\\pm\\sqrt3/2\\). Referensvinkeln är \\(60^\\circ\\); båda tecknen ger vinklar i alla fyra kvadranter.</p><p><strong>Svar:</strong> \\(x=60^\\circ+180^\\circ n\\) eller \\(x=120^\\circ+180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Flytta över 1 och dividera med 2: \\(\\cos^2x=1/2\\), så \\(\\cos x=\\pm\\sqrt2/2\\). Referensvinkeln är \\(45^\\circ\\).</p><p><strong>Svar:</strong> \\(x=45^\\circ+90^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>En produkt är noll när minst en faktor är noll: \\(\\sin x=0\\) eller \\(\\cos x=1/2\\). Det ger \\(180^\\circ n\\) respektive vinklarna \\(60^\\circ\\) och \\(300^\\circ\\) med perioden \\(360^\\circ\\).</p><p><strong>Svar:</strong> \\(x=180^\\circ n\\), \\(x=60^\\circ+360^\\circ n\\) eller \\(x=300^\\circ+360^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -9470,7 +9470,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(2\\sin x\\cos x=0\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x=0\\) eller \\(\\cos x=0\\): \\(x=90^\\circ n\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>En produkt är noll när minst en faktor är noll. Alltså \\(\\sin x=0\\) eller \\(\\cos x=0\\). Tillsammans ger nollställena en vinkel var \\(90^\\circ\\).</p><p><strong>Svar:</strong> \\(x=90^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -9479,7 +9479,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\sin^2x=\\frac34\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x=\\pm\\frac{\\sqrt3}{2}\\): \\(x=60^\\circ+180^\\circ n\\) eller \\(x=120^\\circ+180^\\circ n\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Ta hänsyn till båda tecknen: \\(\\sin x=\\pm\\sqrt3/2\\). Referensvinkeln är \\(60^\\circ\\); båda tecknen ger vinklar i alla fyra kvadranter.</p><p><strong>Svar:</strong> \\(x=60^\\circ+180^\\circ n\\) eller \\(x=120^\\circ+180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -9488,7 +9488,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(2\\cos^2x-1=0\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos x=\\pm\\frac{\\sqrt2}{2}\\): \\(x=45^\\circ+90^\\circ n\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Flytta över 1 och dividera med 2: \\(\\cos^2x=1/2\\), så \\(\\cos x=\\pm\\sqrt2/2\\). Referensvinkeln är \\(45^\\circ\\).</p><p><strong>Svar:</strong> \\(x=45^\\circ+90^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -9497,7 +9497,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\sin x(2\\cos x-1)=0\\)</p><p>Ange alla lösningar i grader.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x=0\\) eller \\(\\cos x=\\frac12\\): \\(x=180^\\circ n\\),</p></li><li><p>\\(x=60^\\circ+360^\\circ n\\) eller \\(x=300^\\circ+360^\\circ n\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>En produkt är noll när minst en faktor är noll: \\(\\sin x=0\\) eller \\(\\cos x=1/2\\). Det ger \\(180^\\circ n\\) respektive vinklarna \\(60^\\circ\\) och \\(300^\\circ\\) med perioden \\(360^\\circ\\).</p><p><strong>Svar:</strong> \\(x=180^\\circ n\\), \\(x=60^\\circ+360^\\circ n\\) eller \\(x=300^\\circ+360^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -9522,7 +9522,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ange alla lösningar i grader.</p><p>a) \\(\\sin x=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos x=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan x=\\sqrt3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos x=1\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(x=180^\\circ n\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(x=90^\\circ+180^\\circ n\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(x=60^\\circ+180^\\circ n\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(x=360^\\circ n\\)</strong>, där \\(n\\in\\mathbb Z\\).</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Sinus är noll vid \\(0^\\circ\\) och \\(180^\\circ\\). Därefter upprepas nollställena med \\(180^\\circ\\) mellanrum.</p><p><strong>Svar:</strong> \\(x=180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Cosinus är noll vid \\(90^\\circ\\) och \\(270^\\circ\\). Nollställena upprepas med \\(180^\\circ\\) mellanrum.</p><p><strong>Svar:</strong> \\(x=90^\\circ+180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Vi har \\(\\tan60^\\circ=\\sqrt3\\). Tangens har perioden \\(180^\\circ\\).</p><p><strong>Svar:</strong> \\(x=60^\\circ+180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Cosinus är \\(1\\) vid \\(0^\\circ\\) och upprepas efter varje helt varv.</p><p><strong>Svar:</strong> \\(x=360^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div></div>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur"
@@ -9554,7 +9554,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin x=0\\)</p><p>Ange svaret i grader.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nyckelidé: Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=180^\\circ n\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Sinus är noll vid \\(0^\\circ\\) och \\(180^\\circ\\). Därefter upprepas nollställena med \\(180^\\circ\\) mellanrum.</p><p><strong>Svar:</strong> \\(x=180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -9563,7 +9563,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos x=0\\)</p><p>Ange svaret i grader.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nyckelidé: Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=90^\\circ+180^\\circ n\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Cosinus är noll vid \\(90^\\circ\\) och \\(270^\\circ\\). Nollställena upprepas med \\(180^\\circ\\) mellanrum.</p><p><strong>Svar:</strong> \\(x=90^\\circ+180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -9572,7 +9572,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan x=\\sqrt3\\)</p><p>Ange svaret i grader.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nyckelidé: Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=60^\\circ+180^\\circ n\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Vi har \\(\\tan60^\\circ=\\sqrt3\\). Tangens har perioden \\(180^\\circ\\).</p><p><strong>Svar:</strong> \\(x=60^\\circ+180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -9581,7 +9581,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos x=1\\)</p><p>Ange svaret i grader.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nyckelidé: Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x=360^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Cosinus är \\(1\\) vid \\(0^\\circ\\) och upprepas efter varje helt varv.</p><p><strong>Svar:</strong> \\(x=360^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -10672,7 +10672,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös i intervallet \\(0\\le x&lt;360^\\circ\\).</p><p>a) \\(\\sin x=1/2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos x=-\\sqrt2/2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan x=-1\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och rätt tecken i respektive kvadrant.</p></li><li><p><strong>Metod:</strong> Bestäm motsvarande vinkeln i första kvadranten och välj de kvadranter där funktionen har rätt tecken.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x=30^\\circ,150^\\circ\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(x=135^\\circ,225^\\circ\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(x=135^\\circ,315^\\circ\\).</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Referensvinkeln är \\(30^\\circ\\) eftersom \\(\\sin30^\\circ=1/2\\). Sinus är positiv i första och andra kvadranten.</p><p><strong>Svar:</strong> \\(x=30^\\circ\\) eller \\(150^\\circ\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Referensvinkeln är \\(45^\\circ\\) eftersom \\(\\cos45^\\circ=\\sqrt2/2\\). Cosinus är negativ i andra och tredje kvadranten.</p><p><strong>Svar:</strong> \\(x=135^\\circ\\) eller \\(225^\\circ\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Referensvinkeln är \\(45^\\circ\\) eftersom \\(\\tan45^\\circ=1\\). Tangens är negativ i andra och fjärde kvadranten.</p><p><strong>Svar:</strong> \\(x=135^\\circ\\) eller \\(315^\\circ\\).</p></div></div></div></div>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
@@ -10710,7 +10710,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin x=1/2\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li><li><p>Metod: Bestäm motsvarande vinkeln i första kvadranten och välj de kvadranter där funktionen har rätt tecken.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=30^\\circ,150^\\circ\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Referensvinkeln är \\(30^\\circ\\) eftersom \\(\\sin30^\\circ=1/2\\). Sinus är positiv i första och andra kvadranten.</p><p><strong>Svar:</strong> \\(x=30^\\circ\\) eller \\(150^\\circ\\).</p></div>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1
@@ -10718,7 +10718,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos x=-\\sqrt2/2\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li><li><p>Metod: Bestäm motsvarande vinkeln i första kvadranten och välj de kvadranter där funktionen har rätt tecken.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=135^\\circ,225^\\circ\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Referensvinkeln är \\(45^\\circ\\) eftersom \\(\\cos45^\\circ=\\sqrt2/2\\). Cosinus är negativ i andra och tredje kvadranten.</p><p><strong>Svar:</strong> \\(x=135^\\circ\\) eller \\(225^\\circ\\).</p></div>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1
@@ -10726,7 +10726,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan x=-1\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varför metoden fungerar: De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li><li><p>Metod: Bestäm motsvarande vinkeln i första kvadranten och välj de kvadranter där funktionen har rätt tecken.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=135^\\circ,315^\\circ\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Referensvinkeln är \\(45^\\circ\\) eftersom \\(\\tan45^\\circ=1\\). Tangens är negativ i andra och fjärde kvadranten.</p><p><strong>Svar:</strong> \\(x=135^\\circ\\) eller \\(315^\\circ\\).</p></div>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1
@@ -13048,7 +13048,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationerna. Ange alla lösningar i intervallet \\(0\\le x&lt;360^\\circ\\).</p><p>a) \\(3\\sin x=\\frac32\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(2\\cos x+\\sqrt3=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan x=-1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(4\\cos^2x=1\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x=1/2\\): <strong>\\(x=30^\\circ,150^\\circ\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos x=-\\sqrt3/2\\): <strong>\\(x=150^\\circ,210^\\circ\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(x=135^\\circ,315^\\circ\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos x=\\pm1/2\\): <strong>\\(x=60^\\circ,120^\\circ,240^\\circ,300^\\circ\\)</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Dividera med 3: \\(\\sin x=1/2\\). Referensvinkeln är \\(30^\\circ\\), och sinus är positiv i första och andra kvadranten.</p><p><strong>Svar:</strong> \\(x=30^\\circ\\) eller \\(150^\\circ\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Flytta över \\(\\sqrt3\\) och dividera med 2: \\(\\cos x=-\\sqrt3/2\\). Referensvinkeln är \\(30^\\circ\\), och cosinus är negativ i andra och tredje kvadranten.</p><p><strong>Svar:</strong> \\(x=150^\\circ\\) eller \\(210^\\circ\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Referensvinkeln är \\(45^\\circ\\) eftersom \\(\\tan45^\\circ=1\\). Tangens är negativ i andra och fjärde kvadranten.</p><p><strong>Svar:</strong> \\(x=135^\\circ\\) eller \\(315^\\circ\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Dividera med 4 och ta hänsyn till båda tecknen: \\(\\cos^2x=1/4\\), alltså \\(\\cos x=\\pm1/2\\). Referensvinkeln är \\(60^\\circ\\), och båda tecknen ger en lösning i varje kvadrant.</p><p><strong>Svar:</strong> \\(x=60^\\circ,\\ 120^\\circ,\\ 240^\\circ\\) eller \\(300^\\circ\\).</p></div></div></div></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -13132,7 +13132,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(3\\sin x=\\frac32\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x=1/2\\): \\(x=30^\\circ,150^\\circ\\) .</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Dividera med 3: \\(\\sin x=1/2\\). Referensvinkeln är \\(30^\\circ\\), och sinus är positiv i första och andra kvadranten.</p><p><strong>Svar:</strong> \\(x=30^\\circ\\) eller \\(150^\\circ\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -13141,7 +13141,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(2\\cos x+\\sqrt3=0\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos x=-\\sqrt3/2\\): \\(x=150^\\circ,210^\\circ\\) .</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Flytta över \\(\\sqrt3\\) och dividera med 2: \\(\\cos x=-\\sqrt3/2\\). Referensvinkeln är \\(30^\\circ\\), och cosinus är negativ i andra och tredje kvadranten.</p><p><strong>Svar:</strong> \\(x=150^\\circ\\) eller \\(210^\\circ\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -13150,7 +13150,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan x=-1\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=135^\\circ,315^\\circ\\].</div></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Referensvinkeln är \\(45^\\circ\\) eftersom \\(\\tan45^\\circ=1\\). Tangens är negativ i andra och fjärde kvadranten.</p><p><strong>Svar:</strong> \\(x=135^\\circ\\) eller \\(315^\\circ\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -13159,7 +13159,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(4\\cos^2x=1\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos x=\\pm1/2\\): \\(x=60^\\circ,120^\\circ,240^\\circ,300^\\circ\\) .</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Dividera med 4 och ta hänsyn till båda tecknen: \\(\\cos^2x=1/4\\), alltså \\(\\cos x=\\pm1/2\\). Referensvinkeln är \\(60^\\circ\\), och båda tecknen ger en lösning i varje kvadrant.</p><p><strong>Svar:</strong> \\(x=60^\\circ,\\ 120^\\circ,\\ 240^\\circ\\) eller \\(300^\\circ\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 3,

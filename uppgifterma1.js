@@ -104981,11 +104981,11 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En händelse har sannolikheten 0,03 per försök. Vid hur många likadana försök är det förväntade antalet händelser 24?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om antalet försök är \\(n\\) gäller \\(0{,}03n=24\\).</p></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[n=24/0{,}03=800\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: 800 försök.</strong></p></div>",
+    "t": "<p>En fabrik tillverkar komponenter. I genomsnitt är 3 % av komponenterna felaktiga. Hur många komponenter behöver fabriken tillverka för att det i genomsnitt ska bli 24 felaktiga?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Låt antalet komponenter vara n</strong></p><p>Tre procent av antalet ska motsvara 24 felaktiga komponenter.</p>\\[0{,}03n=24\\quad\\Rightarrow\\quad n=\\frac{24}{0{,}03}=800.\\]<p class=\"facit-svar\"><strong>Svar:</strong> 800 komponenter.</p></div>",
     "familj": "Beräkna risker",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 800,
     "tolerans": 0,
@@ -104994,13 +104994,14 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Använd sambandet förväntat antal = antal försök · sannolikhet och lös ut antalet försök.</p>",
+    "ledtrad": "<p>Hur kan 3 % av antalet komponenter skrivas som ett uttryck?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Risk och sannolikhet"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "5.273",
@@ -108197,8 +108198,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Sannolikheten för en vattenskada är 0,5 % per år och en skada kostar i genomsnitt 80 000 kr. Beräkna den förväntade kostnaden per år (risk = sannolikhet · konsekvens).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[0{,}005\\cdot 80\\,000=400 k r\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>400</strong></p></div></div>",
+    "t": "<p>Ett försäkringsbolag har många likadana försäkringar. Under ett år får i genomsnitt 0,5 % av kunderna en vattenskada, och ersättningen för varje skada är i genomsnitt 80 000 kr. Hur stor är den genomsnittliga ersättningen per försäkring och år?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Fördela den genomsnittliga ersättningen</strong></p><p>Andelen skador är \\(0{,}5\\,\\%=0{,}005\\). Multiplicera andelen med den genomsnittliga ersättningen per skada.</p>\\[0{,}005\\cdot80\\,000=400\\ \\text{kr}.\\]<p class=\"facit-svar\"><strong>Svar:</strong> 400 kr per försäkring och år.</p></div>",
     "familj": "Beräkna risker",
     "geogebra": false,
     "miniräknare": true,
@@ -108210,13 +108211,14 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skilj på absolut risk (skillnad) och relativ risk (skillnad jämfört med ursprunglig risk).</p>",
+    "ledtrad": "<p>Hur stor andel får en ersättning? Multiplicera andelen med ersättningen för en skada.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Risk och sannolikhet"
-    ]
+    ],
+    "svarEnhet": "kr"
   },
   {
     "id": "5.486",
@@ -108229,8 +108231,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Sannolikheten att en cykel värd 12 000 kr blir stulen under ett år är 3 %. Beräkna den förväntade förlusten per år.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[0{,}03\\cdot 12\\,000=360 k r\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>360</strong></p></div></div>",
+    "t": "<p>Ett försäkringsbolag försäkrar många cyklar som var och en är värd 12 000 kr. Under ett år blir i genomsnitt 3 % av cyklarna stulna. Bolaget ersätter hela värdet för varje stulen cykel. Hur stor är bolagets genomsnittliga utbetalning per försäkrad cykel och år?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Fördela ersättningen på alla cyklar</strong></p><p>Andelen stölder är \\(3\\,\\%=0{,}03\\). Multiplicera andelen med ersättningen för en stulen cykel.</p>\\[0{,}03\\cdot12\\,000=360\\ \\text{kr}.\\]<p class=\"facit-svar\"><strong>Svar:</strong> 360 kr per cykel och år.</p></div>",
     "familj": "Beräkna risker",
     "geogebra": false,
     "miniräknare": true,
@@ -108242,13 +108244,14 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skilj på absolut risk (skillnad) och relativ risk (skillnad jämfört med ursprunglig risk).</p>",
+    "ledtrad": "<p>Tänk dig 100 försäkrade cyklar. Hur många ersättningar betalas i genomsnitt ut och hur fördelas summan per cykel?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Risk och sannolikhet"
-    ]
+    ],
+    "svarEnhet": "kr"
   },
   {
     "id": "5.487",
@@ -108357,20 +108360,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Risken för en olycka är 1 på 1 000 000 per resa. En person gör 500 resor per år. Ungefär hur stor är risken per år? Svara i decimalform.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{500\\cdot 1}{1\\,000\\,000}=0{,}0005\\]</div></div></li><li><p>Eftersom risken per resa är mycket liten fungerar multiplikation som en god uppskattning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>0,0005</strong></p></div></div>",
+    "t": "<p>Risken för en olycka är 1 på 1 000 000 per resa. En person gör 500 resor under ett år. Anta att risken är lika stor och oberoende för varje resa. Ungefär hur stor är risken för minst en olycka under året? Svara med fyra decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Beräkna risken under året</strong></p><p>Sannolikheten för minst en olycka är ett minus sannolikheten att undvika olyckor på alla 500 oberoende resor.</p>\\[1-(1-0{,}000001)^{500}\\approx0{,}000499875.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0005\\) med fyra decimaler.</p></div>",
     "familj": "Beräkna risker",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.0005,
-    "tolerans": 1e-09,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skilj på absolut risk (skillnad) och relativ risk (skillnad jämfört med ursprunglig risk).</p>",
+    "ledtrad": "<p>Beräkna först sannolikheten att ingen olycka inträffar och använd sedan komplementhändelsen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,

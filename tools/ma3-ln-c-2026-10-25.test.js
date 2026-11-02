@@ -1,11 +1,13 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('fs'),vm=require('vm'),path=require('path');
 const root=path.join(__dirname,'..'),ctx={window:{}};
 vm.runInNewContext(fs.readFileSync(path.join(root,'uppgiftermato1.js'),'utf8'),ctx);
-const bank=JSON.parse(JSON.stringify(ctx.window.BANKMATO1)),q=n=>bank.find(t=>t.id==='2.'+n),near=(a,b)=>assert.ok(Math.abs(a-b)<1e-10,`${a} ≠ ${b}`);
+const c2={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'uppgiftermato2.js'),'utf8'),c2);const flyttat=id=>JSON.parse(JSON.stringify(c2.window.BANKMATO2.find(x=>x.idTidigare==='mato1 '+id)||null));// Sammansatta funktioner och logaritmfunktioner flyttade till Ma4 2026-10-26 enligt ämnesplanen
+const bank=JSON.parse(JSON.stringify(ctx.window.BANKMATO1)),q=n=>bank.find(t=>t.id==='2.'+n)||flyttat('2.'+n),near=(a,b)=>assert.ok(Math.abs(a-b)<1e-10,`${a} ≠ ${b}`);
 test('20 självständiga C-uppgifter når båda spåren utan ID-kollisioner',()=>{
  assert.equal(new Set(bank.map(t=>t.id)).size,bank.length);
- for(let n=1201;n<=1220;n++){const t=q(n);assert.ok(t);assert.equal(t.traningsniva,3);assert.equal(t.niva,'C');assert.equal(t.omr,'naturliga_logaritmer');assert.deepEqual(t.kurs,['1b','1c']);assert.equal(t.spel,true);assert.equal(t.självrättning,true);assert.equal(t.geogebra,false);assert.match(t.s,/facit-svar/);assert.ok(!t.spelDelar);}
- assert.ok(bank.filter(t=>t.omr==='naturliga_logaritmer'&&t.traningsniva===3&&t.spel!==false).length>=20);
+ for(let n=1201;n<=1220;n++){const t=q(n);assert.ok(t);assert.equal(t.traningsniva,n===1206?4:3);assert.equal(t.niva,'C');if(n===1208||n===1218){assert.deepEqual(t.kurs,['2c']);continue;}assert.equal(t.omr,'naturliga_logaritmer');assert.deepEqual(t.kurs,['1b','1c']);assert.equal(t.spel,true);assert.equal(t.självrättning,true);assert.equal(t.geogebra,false);assert.match(t.s,/facit-svar/);assert.ok(!t.spelDelar);}
+ assert.ok(bank.filter(t=>t.omr==='naturliga_logaritmer'&&t.traningsniva===3&&t.spel!==false).length>=17);
+ assert.ok(bank.filter(t=>t.omr==='naturliga_logaritmer'&&(t.traningsniva===3||t.id==='2.1206')&&t.spel!==false).length>=18); // 2.1206 är nu nivå 4; två uppgifter flyttade till Ma4
 });
 test('Logaritmekvationer behåller definitionsvillkor och samtliga rötter',()=>{
  const x=q(1201).rättSvar;assert.ok(x>1);near(Math.log(x-1)+Math.log(x+1),Math.log(8));

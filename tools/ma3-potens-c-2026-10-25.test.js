@@ -2,7 +2,7 @@ const {test}=require('node:test'),assert=require('node:assert/strict'),fs=requir
 const c={window:{}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../uppgiftermato1.js'),'utf8'),c);
 const bank=JSON.parse(JSON.stringify(c.window.BANKMATO1)),q=n=>bank.find(x=>x.id==='2.'+n),near=(a,b)=>assert.ok(Math.abs(a-b)<1e-9,`${a} ≠ ${b}`);
 test('20 nya C-kort, mängdträning bevarad och nivåer bedömda individuellt',()=>{
- for(let n=1221;n<=1240;n++){const t=q(n);assert.equal(t.omr,'derivata_potens');assert.equal(t.traningsniva,3);assert.equal(t.niva,'C');assert.deepEqual(t.kurs,['1b','1c']);assert.equal(t.spel,true);assert.equal(t.självrättning,true);assert.match(t.s,/facit-svar/);}
+ for(let n=1221;n<=1240;n++){const t=q(n);assert.equal(t.omr,'derivata_potens');assert.equal(t.traningsniva,n===1233?4:3);assert.equal(t.niva,'C');assert.deepEqual(t.kurs,['1b','1c']);assert.equal(t.spel,true);assert.equal(t.självrättning,true);assert.match(t.s,/facit-svar/);}
  assert.equal(q(217).traningsniva,2);assert.equal(q(212).traningsniva,3);assert.equal(q(250).traningsniva,3);
  assert.ok(bank.filter(q=>q.omr==='derivata_potens'&&q.traningsniva===3&&q.spel!==false).length>=22);
 });

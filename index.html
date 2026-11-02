@@ -4069,7 +4069,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-02-fellogg-0837";
+const BANK_VERSION="2026-11-02-fellogg-1319";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10994,6 +10994,23 @@ function formatRatt(anv,facit,meta){
     case "uttryck": case "uttryck_med_villkor": {
       /* Ett villkor efter kommatecken (", x≠0") tas bort, men inte ett decimalkomma: y=-1,5x+6 ska vara kvar. */
       const rensa=x=>String(x).split(/(?:(?<!\d),|,(?!\d))(?![^()]*\))|\s+där\s+|\s+om\s+/i)[0];
+      /* En derivataetikett är ett namn på svaret, inte en ekvation som
+         algebramotorn ska lösa. Jämför uttrycken och bevara skillnaden
+         mellan exempelvis f′(x), f″(x) och g′(x) när etikett anges. */
+      const derivataEtikett=x=>{
+        const m=stadaSvar(rensa(x)).match(/^\s*([a-zåäö]\w*)\s*(['′″’]+)\s*\(\s*([a-z])\s*\)\s*=\s*(.+)$/i);
+        return m?{namn:m[1].toLowerCase(),prim:m[2].replace(/[′’]/g,"'").replace(/″/g,"''"),variabel:m[3].toLowerCase(),uttryck:m[4]}:null;
+      };
+      const fd=derivataEtikett(f);
+      if(fd){
+        const ad=derivataEtikett(a);
+        if(ad && (ad.namn!==fd.namn || ad.prim!==fd.prim || ad.variabel!==fd.variabel)) return false;
+        if(!ad && rensa(a).includes("=")) return false;
+        const v=ad?ad.uttryck:rensa(a),likt=algebraisktLika(v,fd.uttryck);
+        if(likt!==null) return likt;
+        const u=normalizeAnswer(v), e=normalizeAnswer(fd.uttryck);
+        return !!u && (u===e || explicitMultiplikation(u)===explicitMultiplikation(e));
+      }
       /* Två ekvationer jämförs som ekvationer, så att y-4=4(x-2) godtas mot y=4x-4. */
       if(rensa(a).includes("=") && rensa(f).includes("="))
         return algebraisktLika(rensa(a),rensa(f))===true;

@@ -29431,7 +29431,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Nora skriver −2(x − 6) = −2x − 12. Vilket påstående är korrekt?</p>",
+    "t": "<p>Nora skriver −2(x − 6) = −2x − 12. Vilket påstående är korrekt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: Nora har fel; −2 multiplicerat med −6 är +12. Den andra produkten är (−2)(−6) = +12, så uttrycket blir −2x + 12.</p></div>",
     "ledtrad": "<p>Vilket tecken får en produkt av två negativa tal?</p>",
     "niva": "E",
@@ -29451,7 +29451,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Parentesräkning"
     ],
-    "alternativ": [{"txt": "Nora har rätt; −2 multiplicerat med −6 är −12.", "ratt": false}, {"txt": "Nora har fel; −2 multiplicerat med −6 är +12.", "ratt": true}, {"txt": "Nora har rätt; minuset gäller bara termen med x.", "ratt": false}, {"txt": "Nora har fel; parentesens termer ska först byta plats.", "ratt": false}]
+    "alternativ": [{"txt": "Nora har rätt; −2 multiplicerat med −6 är −12.", "ratt": false, "kommentar": "Produkten av två negativa tal är positiv: (−2)(−6)=12."}, {"txt": "Nora har fel; −2 multiplicerat med −6 är +12.", "ratt": true}, {"txt": "Nora har rätt; minuset gäller bara termen med x.", "ratt": false, "kommentar": "Faktorn −2 multipliceras med båda termerna i parentesen."}, {"txt": "Nora har fel; parentesens termer ska först byta plats.", "ratt": false, "kommentar": "Man behöver multiplicera −2 med båda termerna; att byta plats rättar inte tecknet."}]
   },
   {
     "id": "1.149",
@@ -37918,7 +37918,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Vilken beskrivning betyder att x är minst 7?</p>",
+    "t": "<p>Vilken beskrivning betyder att x är minst 7? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: x är större än eller lika med 7. </p></li><li><p>Minst 7 tar med 7 och alla större tal.</p></li></ol></div>",
     "ledtrad": "<p>Vilket håll på tallinjen motsvarar minst?</p>",
     "niva": "E",
@@ -37938,7 +37938,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Intervall och gränser"
     ],
-    "alternativ": [{"txt": "x är mindre än eller lika med 7.", "ratt": false}, {"txt": "x är större än eller lika med 7.", "ratt": true}, {"txt": "x är mindre än men inte lika med 7.", "ratt": false}, {"txt": "x är större än men inte lika med 7.", "ratt": false}]
+    "alternativ": [{"txt": "x är mindre än eller lika med 7.", "ratt": false, "kommentar": "Minst 7 betyder 7 eller större, inte mindre."}, {"txt": "x är större än eller lika med 7.", "ratt": true}, {"txt": "x är mindre än men inte lika med 7.", "ratt": false, "kommentar": "Minst 7 inkluderar 7 och alla större tal."}, {"txt": "x är större än men inte lika med 7.", "ratt": false, "kommentar": "Minst 7 inkluderar även själva talet 7."}]
   },
   {
     "id": "1.934",
@@ -38103,7 +38103,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>En elev har fått lösningen \\(x\\ge5\\) till en olikhet. Vilket påstående beskriver lösningen?</p>",
+    "t": "<p>En elev har fått lösningen \\(x\\ge5\\) till en olikhet. Vilket påstående beskriver lösningen? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: Talet 5 och alla större tal är lösningar. </p></li><li><p>Likhetsstrecket tar med 5 och riktningen tar med större tal.</p></li></ol></div>",
     "ledtrad": "<p>Vad betyder likhetsstrecket i tecknet \\(\\ge\\)?</p>",
     "niva": "E",
@@ -38120,7 +38120,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Intervall och gränser"
     ],
-    "alternativ": [{"txt": "Bara talet 5 är en lösning.", "ratt": false}, {"txt": "Alla tal större än 5 är lösningar, men inte 5.", "ratt": false}, {"txt": "Talet 5 och alla större tal är lösningar.", "ratt": true}, {"txt": "Talet 5 och alla mindre tal är lösningar.", "ratt": false}]
+    "alternativ": [{"txt": "Bara talet 5 är en lösning.", "ratt": false, "kommentar": "Även alla tal som är större än 5 ingår."}, {"txt": "Alla tal större än 5 är lösningar, men inte 5.", "ratt": false, "kommentar": "Likhetstecknet i ≥ betyder att 5 också ingår."}, {"txt": "Talet 5 och alla större tal är lösningar.", "ratt": true}, {"txt": "Talet 5 och alla mindre tal är lösningar.", "ratt": false, "kommentar": "Tecknet ≥ anger 5 och större tal, inte mindre tal."}]
   },
   {
     "id": "1.940",
@@ -58119,8 +58119,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Två modeller beskriver mängden verksam substans, i mg, efter \\(x\\) timmar:</p><p>\\(A(x)=120-5x\\) och \\(B(x)=100\\cdot0{,}96^x\\).</p><p>En elev säger: ”Eftersom \\(A(0)&gt;B(0)\\) måste modell A ge störst värde för alla \\(x\\ge0\\).” Vilket påstående bedömer elevens slutsats bäst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Startvärdena visar bara ordningen vid</p><div class=\"facit-matte\">\\[x=0\\].</div></div></li><li><p>Modell A minskar med ett fast antal per timme, medan B minskar med en fast procentandel.</p></li><li><p>Därför räcker inte startvärdena för att avgöra ordningen för alla framtida tider.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Slutsatsen följer inte av startvärdena; modellerna förändras olika och ordningen kan ändras.</p></div>",
+    "t": "<p>Två modeller beskriver mängden verksam substans, i mg, efter \\(x\\) timmar:</p><p>\\(A(x)=120-5x\\) och \\(B(x)=100\\cdot0{,}96^x\\).</p><p>En elev säger: ”Eftersom \\(A(0)&gt;B(0)\\) måste modell A ge störst värde för alla \\(x\\ge0\\).” Vilket påstående bedömer elevens slutsats bäst? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Startvärdena visar bara ordningen vid</p><div class=\"facit-matte\">\\[x=0\\].</div></div></li><li><p>Modell A minskar med ett fast antal per timme, medan B minskar med en fast procentandel.</p></li><li><p>Pröva exempelvis efter 20 timmar:</p>\\[A(20)=20\\quad\\text{och}\\quad B(20)=100\\cdot0{,}96^{20}\\approx44{,}2.\\]<p>Då är B större än A, trots att A började högre. Startvärdena räcker alltså inte för att bestämma ordningen senare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Slutsatsen följer inte av startvärdena; modellerna förändras olika och ordningen kan ändras.</p></div>",
     "familj": "Jämföra linjär och exponentiell tillväxt",
     "geogebra": false,
     "miniräknare": true,
@@ -58139,7 +58139,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Välja och jämföra matematiska modeller"
     ],
-    "alternativ": [{"txt": "Slutsatsen är säker, eftersom den modell som börjar högst alltid ligger högst.", "ratt": false}, {"txt": "Modellerna går inte att jämföra alls om de har olika startvärden.", "ratt": false}, {"txt": "Slutsatsen är fel, eftersom en exponentiell modell alltid ligger över en linjär när \\(x&gt;0\\).", "ratt": false}, {"txt": "Slutsatsen följer inte av startvärdena; modellerna förändras olika och ordningen kan ändras.", "ratt": true}]
+    "alternativ": [{"txt": "Slutsatsen är säker, eftersom den modell som börjar högst alltid ligger högst.", "ratt": false, "kommentar": "Startvärdet ensamt visar inte hur snabbt modellerna förändras."}, {"txt": "Modellerna går inte att jämföra alls om de har olika startvärden.", "ratt": false, "kommentar": "Båda modellerna kan beräknas och jämföras vid samma tidpunkt."}, {"txt": "Slutsatsen är fel, eftersom en exponentiell modell alltid ligger över en linjär när \\(x&gt;0\\).", "ratt": false, "kommentar": "En exponentialmodell ligger inte alltid över en linjär modell; vid start är B lägre än A."}, {"txt": "Slutsatsen följer inte av startvärdena; modellerna förändras olika och ordningen kan ändras.", "ratt": true}]
   },
   {
     "id": "2.342",

@@ -42656,7 +42656,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket av talen tillhör intervallet \\(2&lt;x\\le5\\)?</p>",
+    "t": "<p>Vilket av talen tillhör intervallet \\(2&lt;x\\le5\\)? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>x ska vara större än 2 och högst 5.</p></li><li><p>Talet 5 är med eftersom ≤ inkluderar gränsen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div></div>",
     "familj": "Tal i ett intervall",
     "geogebra": false,
@@ -42675,7 +42675,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Intervall och gränser"
     ],
-    "alternativ": [{"txt": "2", "ratt": false}, {"txt": "5,5", "ratt": false}, {"txt": "1,9", "ratt": false}, {"txt": "5", "ratt": true}]
+    "alternativ": [{"txt": "2", "ratt": false, "kommentar": "Gränsen 2 ingår inte eftersom olikheten kräver att x är större än 2."}, {"txt": "5,5", "ratt": false, "kommentar": "5,5 är större än den övre gränsen 5."}, {"txt": "1,9", "ratt": false, "kommentar": "1,9 är mindre än den undre gränsen 2."}, {"txt": "5", "ratt": true}]
   },
   {
     "id": "1.1068",
@@ -43513,7 +43513,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken av relationerna beskriver en funktion av \\(x\\)?</p>",
+    "t": "<p>Vad krävs för att en relation ska beskriva \\(y\\) som en funktion av \\(x\\)? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En funktion tilldelar varje tillåtet x-värde exakt ett y-värde.</p></li><li><p>Olika x-värden får däremot gärna ge samma y-värde.</p></li></ol></div></div>",
     "familj": "Använda och tolka f(x)",
     "geogebra": false,
@@ -43532,7 +43532,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Använda och tolka funktionsnotation"
     ],
-    "alternativ": [{"txt": "varje \\(x\\) får exakt ett \\(y\\)-värde", "ratt": true}, {"txt": "ett \\(x\\) kan få två olika \\(y\\)-värden", "ratt": false}]
+    "alternativ": [{"txt": "varje tillåtet \\(x\\)-värde får exakt ett \\(y\\)-värde", "ratt": true}, {"txt": "ett \\(x\\) kan få två olika \\(y\\)-värden", "ratt": false, "kommentar": "Ett tillåtet x-värde måste ha exakt ett y-värde för att sambandet ska vara en funktion."}]
   },
   {
     "id": "2.16",
@@ -47965,8 +47965,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken av funktionerna är linjär?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En linjär funktion kan skrivas på formen \\(kx+m\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=5x-2\\)</strong></p></div>",
+    "t": "<p>Vilken av funktionerna är linjär? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En linjär funktion kan skrivas på formen \\(kx+m\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=5x-2\\)</p></div>",
     "familj": "Linjära funktioner i graf och formel",
     "geogebra": false,
     "miniräknare": true,
@@ -47984,7 +47984,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tolka linjära funktioner från graf och formel"
     ],
-    "alternativ": [{"txt": "\\(g(x)=5\\cdot2^x\\)", "ratt": false}, {"txt": "\\(f(x)=5x-2\\)", "ratt": true}, {"txt": "\\(h(x)=5x^2-2\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(g(x)=5\\cdot2^x\\)", "ratt": false, "kommentar": "Variabeln står i exponenten, så detta är en exponentialfunktion."}, {"txt": "\\(f(x)=5x-2\\)", "ratt": true}, {"txt": "\\(h(x)=5x^2-2\\)", "ratt": false, "kommentar": "Uttrycket innehåller x² och är därför en andragradsfunktion."}]
   },
   {
     "id": "2.107",
@@ -64211,7 +64211,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken av modellerna beskriver en ökning med lika många enheter varje år?</p>",
+    "t": "<p>Här är x antalet år. Vilken av modellerna beskriver en ökning med lika många enheter varje år? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En linjär modell ökar med samma antal (här 30) varje år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=200+30x\\).</p></div></div>",
     "familj": "Känna igen linjära, exponentiella och potensmodeller",
     "geogebra": false,
@@ -64231,7 +64231,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Välja och jämföra matematiska modeller"
     ],
-    "alternativ": [{"txt": "\\(y=200+30x\\)", "ratt": true}, {"txt": "\\(y=200\\cdot1{,}3^x\\)", "ratt": false}, {"txt": "\\(y=30x^2\\)", "ratt": false}, {"txt": "\\(y=200\\cdot0{,}7^x\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(y=200+30x\\)", "ratt": true}, {"txt": "\\(y=200\\cdot1{,}3^x\\)", "ratt": false, "kommentar": "Faktorn 1,3 innebär en ökning med samma procenttal, inte samma antal, varje år."}, {"txt": "\\(y=30x^2\\)", "ratt": false, "kommentar": "När x ökar lika mycket förändras x² inte med samma antal varje gång."}, {"txt": "\\(y=200\\cdot0{,}7^x\\)", "ratt": false, "kommentar": "Faktorn 0,7 ger en minskning, inte en ökning."}]
   },
   {
     "id": "2.533",
@@ -64244,7 +64244,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken av modellerna beskriver en ökning med lika många procent varje år?</p>",
+    "t": "<p>Här är x antalet år. Vilken av modellerna beskriver en ökning med lika många procent varje år? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en exponentiell modell multipliceras värdet med samma faktor, här 1,08, varje år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=500\\cdot1{,}08^x\\).</p></div></div>",
     "familj": "Känna igen linjära, exponentiella och potensmodeller",
     "geogebra": false,
@@ -64264,7 +64264,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Välja och jämföra matematiska modeller"
     ],
-    "alternativ": [{"txt": "\\(y=500-8x\\)", "ratt": false}, {"txt": "\\(y=8x+500x\\)", "ratt": false}, {"txt": "\\(y=500\\cdot1{,}08^x\\)", "ratt": true}, {"txt": "\\(y=500+8x\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(y=500-8x\\)", "ratt": false, "kommentar": "Modellen minskar med 8 enheter per år i stället för att öka med en fast procent."}, {"txt": "\\(y=8x+500x\\)", "ratt": false, "kommentar": "Uttrycket är linjärt och motsvarar inte en positiv startmängd som ökar med en fast faktor."}, {"txt": "\\(y=500\\cdot1{,}08^x\\)", "ratt": true}, {"txt": "\\(y=500+8x\\)", "ratt": false, "kommentar": "Modellen ökar med 8 enheter per år, inte med samma procenttal."}]
   },
   {
     "id": "2.534",
@@ -65117,7 +65117,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Vilket uttryck är lika med \\(\\frac{16^x+4^{2x}}{4^x}\\) för alla reella x?</p>",
+    "t": "<p>Vilket uttryck är lika med \\(\\frac{16^x+4^{2x}}{4^x}\\) för alla reella x? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[16^x=(4^2)^x=4^{2x}\\].</div></li><li><p>Täljaren är därför \\(2\\cdot4^{2x}\\).</p></li><li><p>Efter division med \\(4^x\\) återstår \\(2\\cdot4^x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\cdot4^x\\).</p></div>",
     "ledtrad": "<p>Skriv först \\(16^x\\) med basen 4. Då blir termerna i täljaren lika.</p>",
     "niva": "C",
@@ -65137,7 +65137,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Kombinera addition och potensregler"
     ],
-    "alternativ": [{"txt": "\\(2\\cdot4^x\\)", "ratt": true}, {"txt": "\\(4^{2x}\\)", "ratt": false}, {"txt": "\\(2\\cdot4^{2x}\\)", "ratt": false}, {"txt": "\\(4^{3x}\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(2\\cdot4^x\\)", "ratt": true}, {"txt": "\\(4^{2x}\\)", "ratt": false, "kommentar": "Täljaren är 2·4^(2x); dividera även med 4^x."}, {"txt": "\\(2\\cdot4^{2x}\\)", "ratt": false, "kommentar": "Här saknas divisionen med 4^x, som ger exponenten x."}, {"txt": "\\(4^{3x}\\)", "ratt": false, "kommentar": "Vid division subtraheras exponenterna, de adderas inte."}]
   },
   {
     "id": "3.14",

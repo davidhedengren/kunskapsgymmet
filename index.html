@@ -4069,7 +4069,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-01-delkortstabell";
+const BANK_VERSION="2026-11-02-heluppgift-delfacit";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -4130,7 +4130,7 @@ function aterupptaPass(d){
   state.felKo=d.felKo||null;
   state.lastIds=d.lastIds||[];
   state.answered=false; state.solutionShown=false; state.noXp=false;
-  state.partResults=[]; state.partIndex=0;
+  state.partResults=[]; state.partIndex=0; state.samladKomplettering=false;
   state.hintUsed=false; state.hintVisible=false;
   state.altValda=new Set(); state.altMiss=null;
   state.altOrdning=null; state.altOrdningId=null;
@@ -4159,7 +4159,7 @@ const state={
   aktivRuta:0,
   focusOmr:null, focusNamn:null, focusNiva:null, mixChapter:null, senasteUrsprung:[],
   flervalKap:null, flervalValda:null, flervalTyp:null, flervalKort:null,
-  openChapters:null, partResults:[], partIndex:0, noXp:false,
+  openChapters:null, partResults:[], partIndex:0, samladKomplettering:false, noXp:false,
   toppSort:"dag", toppVy:"elever", minKlass:undefined,
   lastIds:[], solutionShown:false, answered:false, ggForslag:null,
   altValda:null, altMiss:null, altOrdning:null, altOrdningId:null,
@@ -9253,7 +9253,7 @@ function beginSession(typ){
    medan eleven går bakåt, så inmatning, delresultat och visat facit bevaras. */
 const PASS_SVAR_FALT=["currentTask","answered","solutionShown","partResults","partIndex",
   "noXp","aktivRuta","hintUsed","hintVisible","altValda","altMiss","altOrdning",
-  "altOrdningId","ggForslag","kedja"];
+  "altOrdningId","ggForslag","kedja","samladKomplettering"];
 function passSvarStatus(){
   return Object.fromEntries(PASS_SVAR_FALT.map(k=>[k,
     state[k] instanceof Set ? new Set(state[k]) :
@@ -9289,7 +9289,7 @@ function passVisa(index){
   }
   state.passIndex=index;state.passReview=true;state.currentTask=h[index].task;
   state.answered=false;state.solutionShown=false;state.noXp=true;
-  state.partResults=[];state.partIndex=0;state.aktivRuta=0;
+  state.partResults=[];state.partIndex=0;state.aktivRuta=0;state.samladKomplettering=false;
   state.hintUsed=false;state.hintVisible=false;state.ggForslag=null;
   state.altValda=new Set();state.altMiss=null;state.altOrdning=null;state.altOrdningId=null;
   renderTraining();
@@ -9377,7 +9377,7 @@ function adminBladHtml(){
 function adminBladVisa(t){
   state.currentTask=t;
   state.answered=false;state.solutionShown=false;state.noXp=false;state.passReview=false;
-  state.partResults=[];state.partIndex=0;state.aktivRuta=0;
+  state.partResults=[];state.partIndex=0;state.aktivRuta=0;state.samladKomplettering=false;
   state.hintUsed=false;state.hintVisible=false;state.ggForslag=null;
   state.altValda=new Set();state.altMiss=null;state.altOrdning=null;state.altOrdningId=null;
   tchatStang();stangKalla();
@@ -9850,6 +9850,7 @@ function visaUppgift(t){
   tchatStang();
   noteNewLevel(t);
   state.currentTask=t;state.answered=false;state.solutionShown=false;
+  state.samladKomplettering=false;
   state.partResults=[];state.partIndex=0;state.noXp=false;state.aktivRuta=0;
   state.hintUsed=false;state.hintVisible=false;
   state.altValda=new Set();state.altMiss=null;
@@ -13784,6 +13785,7 @@ function renderTraining(){
   afterRender();
   // I adminens bläddringsläge ska piltangenterna bläddra, inte flytta markören.
   if(!state.adminBlad) setTimeout(()=>document.getElementById("ans-0")?.focus(),60);
+  if(state.samladKomplettering) visaSamladKomplettering(t);
   if(state.solutionShown) showSolution();
 }
 
@@ -14082,7 +14084,7 @@ function parentesSaknas(svar,format){
   return djup!==0;
 }
 function checkAnswer(){
-  if(state.answered) return;
+  if(state.answered || state.samladKomplettering) return;
   const t=state.currentTask;
   const info=expectedAnswersForTask(t);
   const expected=info.answers;
@@ -14128,6 +14130,12 @@ function checkAnswer(){
     },kvar.map(k=>({v:k.v,j:k.i})));
     res.forEach((ok,i)=>markPart(i,ok,ok?null:korrigering));
     state.partResults=res;
+    // En oordnad svarsmängd rättas tillsammans. Om uppgiften också kräver
+    // motivering ska den jämföras först efter att samtliga svar har lämnats.
+    if(res.every(Boolean) && layout.plan?.delar.some(d=>d.manuell)){
+      visaSamladKomplettering(t);
+      return;
+    }
     finishAttempt(res);
     return;
   }
@@ -14184,6 +14192,28 @@ function checkAnswer(){
   if(parentesSaknas(svar,enkelFormat)){ toast("Kontrollera parenteserna i svaret."); return; }
   const ok=delSvarRatt(svar,expected[i],enkelEnhet,enkelTol,t,i,enkelFormat);
   registreraDel(i,ok,visatSvar(expected[i],enkelTol,enkelFormat));
+}
+
+function visaSamladKomplettering(t){
+  const ruta=document.getElementById("answer-result");
+  if(!ruta) return;
+  state.samladKomplettering=true;
+  ruta.innerHTML=`<div class="delfacit" id="samlad-komplettering">
+    <div class="lbl">Jämför med facit</div><div class="delfacit-txt">${t.s||"En lösning saknas."}</div>
+    <div class="hint" style="margin-top:8px">Svaren stämmer. Stämmer även resten av din lösning?</div>
+    <div class="aacts"><button class="btn soft sm" onclick="bedomSamladKomplettering(true)">Ja, den stämmer</button>
+    <button class="btn sm" onclick="bedomSamladKomplettering(false)">Nej, inte riktigt</button></div></div>`;
+  renderMath(ruta);
+}
+function bedomSamladKomplettering(ok){
+  if(!state.samladKomplettering || state.answered) return;
+  state.samladKomplettering=false;
+  if(!ok){
+    state.partResults=state.partResults.map(()=>false);
+    state.partResults.forEach((_,i)=>{document.getElementById("part-"+i)?.classList.remove("ok");markPart(i,false,null);});
+  }
+  const ruta=document.getElementById("samlad-komplettering");if(ruta) ruta.remove();
+  finishAttempt(state.partResults.slice());
 }
 
 /* Ett facit som 34.657359027997266 visas avrundat som uppgiften ber om ("34,7" vid
@@ -14296,6 +14326,10 @@ function delfacitText(t,i){
   if(Array.isArray(d)&&d[i]) return d[i];
   if(t.spelDelar?.[i]?.s) return t.spelDelar[i].s;
   if(Array.isArray(t.spelDelar) && t.spelDelar.length>1) return "En separat lösning för den här delen saknas.";
+  // Även en heluppgift kan ha stegvis rättade svar utan spelDelar. Hela
+  // facit får inte visas innan resterande svarsfält är besvarade.
+  if(Array.isArray(t.rättSvar) && t.rättSvar.length>1 && t.svarsstruktur!=="mängd")
+    return "En separat lösning för den här delen saknas.";
   return t.s||"Facit saknas.";
 }
 function bedomDel(i,ok,delIndex){
@@ -14691,6 +14725,7 @@ function visaLedtrad(){
 }
 
 function showSolution(){
+  if(state.samladKomplettering) return;
   const t=state.currentTask;
   const auto=expectedAnswersForTask(t).auto;
   state.solutionShown=true;

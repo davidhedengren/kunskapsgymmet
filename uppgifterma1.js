@@ -52062,6 +52062,8 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Välja och jämföra matematiska modeller"
     ]
+  ,
+    "delfacit": ["<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Jämför skillnaderna</strong></p><p>När \\(x\\) ökar med 1 ökar \\(y\\) med 10 varje gång: \\(15-5=25-15=35-25=10\\).</p><p><strong>Svar:</strong> Tabellen beskriver en linjär modell eftersom differensen är konstant.</p></div>", "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Jämför kvoterna</strong></p><p>När \\(x\\) ökar med 1 multipliceras \\(y\\) varje gång med samma faktor: \\(15/5=45/15=135/45=3\\).</p><p><strong>Svar:</strong> Tabellen beskriver en exponentiell modell eftersom förändringsfaktorn är konstant.</p></div>", "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Använd startvärde och förändringsfaktor</strong></p><p>När \\(x=0\\) är \\(y=5\\), och för varje steg i \\(x\\) multipliceras värdet med 3.</p><p><strong>Svar:</strong> \\(y=5\\cdot3^x\\).</p></div>"]
   },
   {
     "id": "2.202",
@@ -80580,6 +80582,8 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
+  ,
+    "delfacit": ["<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Använd Pythagoras sats</strong></p><p>De vinkelräta vektorerna bildar kateter med längderna 5 och 12. Summans längd blir</p>\\[|\\vec u+\\vec v|=\\sqrt{5^2+12^2}=13.\\]<p><strong>Svar:</strong> 13.</p></div>", "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Vänd en vektor</strong></p><p>Vektorn \\(-\\vec v\\) är fortfarande vinkelrät mot \\(\\vec u\\) och har längden 12. Pythagoras sats ger</p>\\[|\\vec u-\\vec v|=\\sqrt{5^2+12^2}=13.\\]<p><strong>Svar:</strong> 13.</p></div>"]
   },
   {
     "id": "4.23",

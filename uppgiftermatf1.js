@@ -28887,6 +28887,8 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Bestäm först var högerledet är 0. Undersök sedan om högerledet är positivt eller negativt mellan och utanför dessa värden.</p>",
     "traningsniva": 4
+  ,
+    "delfacit": ["<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Sätt derivatan till noll</strong></p><p>För en konstant lösning gäller \\(y'=0\\). Därför måste \\(y(2-y)=0\\).</p><p><strong>Svar:</strong> \\(y=0\\) och \\(y=2\\).</p></div>", "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Undersök tecknet från startvärdet</strong></p><p>Mellan 0 och 2 är både \\(y\\) och \\(2-y\\) positiva, så lösningen växer. Den närmar sig jämviktslösningen \\(y=2\\) underifrån.</p><p><strong>Svar:</strong> \\(y\\) närmar sig 2 underifrån.</p></div>", "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Undersök tecknet från startvärdet</strong></p><p>För \\(y&gt;2\\) är \\(y\\) positiv och \\(2-y\\) negativ, så lösningen avtar. Den närmar sig jämviktslösningen \\(y=2\\) ovanifrån.</p><p><strong>Svar:</strong> \\(y\\) närmar sig 2 ovanifrån.</p></div>"]
   },
   {
     "kap": 4,

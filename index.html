@@ -4069,7 +4069,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-02-trig-ekvation";
+const BANK_VERSION="2026-11-02-fellogg-0837";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -12831,6 +12831,19 @@ const FEL_ENHET_KEY="kunskapsgymmet-enhet";
    i kg_private.state.bonus_paid. Ändras siffran här måste den ändras i
    kg_profile också, annars stämplas eleven för score_delta. */
 const FEL_BONUS_XP=50;
+/* Kontospecifikt undantag från felrapportsbonus. Identiteten jämförs mot
+   inloggningsadressens SHA-256 så att adressen inte publiceras i klientkoden.
+   null betyder att identiteten inte kunde kontrolleras; då väntar vi med bonus. */
+const FEL_BONUS_UNDANTAG="2c4ae8799a2578089991d8fdaf601648b764579ecc675a21587d97b36dfe22f6";
+async function felBonusUndantagen(user){
+  if(!user) return false;
+  const email=String(user.email||"").trim().toLowerCase();
+  if(!user.id || !email || !globalThis.crypto?.subtle) return null;
+  try{
+    const digest=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(email));
+    return Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,"0")).join("")===FEL_BONUS_UNDANTAG;
+  }catch(_){ return null; }
+}
 const FEL_BELONAD_KEY="kunskapsgymmet-felbelonade";
 function felBelonadeLokalt(){
   try{ const x=JSON.parse(localStorage.getItem(FEL_BELONAD_KEY)||"{}");
@@ -12948,6 +12961,9 @@ async function felHamtaAtgardade(){
   if(FEL_BONUS_XP<=0) return;
   if(!MOLN_PA()) return;
   if(!felLasaKo().some(r=>r.skickad)) return;
+  const uid=session?.user?.id||null;
+  const undantagen=await felBonusUndantagen(session?.user||null);
+  if(undantagen!==false || (session?.user?.id||null)!==uid) return;
   try{
     const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_mina_atgardade",{
       method:"POST",headers:sbHeaders(!!session),
@@ -12955,6 +12971,7 @@ async function felHamtaAtgardade(){
     });
     if(!r.ok) return;
     const rader=await r.json();
+    if((session?.user?.id||null)!==uid) return;
     if(Array.isArray(rader) && rader.length) belonaAtgardade(rader);
   }catch(_){ /* nätet får aldrig störa träningen */ }
 }

@@ -4069,7 +4069,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-01-delfacitkedjor";
+const BANK_VERSION="2026-11-01-delkortstabell";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -13636,6 +13636,14 @@ function laddaNerStatistik(){
 }
 window.KG_STATISTIK=oppnaStatistik;
 
+function svarsstegsText(t,index,antal){
+  const etiketter=Array.isArray(t?.svarEtiketter)?t.svarEtiketter:[];
+  const namngivna=etiketter.some((x,i)=>String(x).trim().toLowerCase()!==String.fromCharCode(97+i));
+  // Ett kort som redan är en deluppgift kan ha flera svarsrutor, exempelvis
+  // x- och y-koordinat. De är svarsfält, inte nya deluppgifter a) och b).
+  if(t?.ursprungsId || namngivna) return `Svar ${index+1} av ${antal}`;
+  return `Deluppgift ${String.fromCharCode(97+index)} av ${antal}`;
+}
 function renderTraining(){
   state.view="training";
   const t=state.currentTask;
@@ -13724,7 +13732,7 @@ function renderTraining(){
   const partLine = stepwise
     ? `<div class="partline" id="partline">
         ${Array.from({length:inputCount},(_,i)=>`<i class="${i===0?'now':''}"></i>`).join("")}
-        <span id="partlabel">Deluppgift a av ${antalDelar}</span>
+        <span id="partlabel">${svarsstegsText(t,0,antalDelar)}</span>
       </div>`
     : layout.flersvar
       ? `<div class="partline"><span>${inputCount===2?"Två svar":inputCount+" svar"} · ordningen spelar ingen roll${samlatMangdsvarTillatet(t,layout)?". Skriv alla lösningar i ett fält, separerade med semikolon, eller ett tal per fält.":""}</span></div>`
@@ -14346,7 +14354,7 @@ function openPart(i,total){
     const lbl=document.getElementById("partlabel");
     const delNr = plan ? plan.rutor[i]?.del ?? 0 : i;
     const antal = plan ? plan.delar.length : total;
-    if(lbl) lbl.textContent=`Deluppgift ${String.fromCharCode(97+delNr)} av ${antal}`;
+    if(lbl) lbl.textContent=svarsstegsText(state.currentTask,delNr,antal);
   }
 }
 

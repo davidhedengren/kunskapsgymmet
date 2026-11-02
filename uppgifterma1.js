@@ -2362,7 +2362,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken beskrivning av siffran 7 i talet 0,073 är korrekt?</p>",
+    "t": "<p>Vilken beskrivning av siffran 7 i talet 0,073 är korrekt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: Den står på hundradelsplatsen och bidrar med 0,07.</strong> Decimalplatserna är tiondelar, hundradelar och tusendelar. I 0,073 är 0 tiondelssiffran, 7 hundradelssiffran och 3 tusendelssiffran.</p></div>",
     "familj": "Positionsvärde och decimalform",
     "geogebra": false,
@@ -2381,7 +2381,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Positionsvärde i decimaltal"
     ],
-    "alternativ": [{"txt": "Den står på tiondelsplatsen och bidrar med 0,7.", "ratt": false}, {"txt": "Den står på entalsplatsen och bidrar med 7.", "ratt": false}, {"txt": "Den står på tusendelsplatsen och bidrar med 0,007.", "ratt": false}, {"txt": "Den står på hundradelsplatsen och bidrar med 0,07.", "ratt": true}]
+    "alternativ": [{"txt": "Den står på tiondelsplatsen och bidrar med 0,7.", "ratt": false, "kommentar": "Tiondelssiffran i 0,073 är 0. Siffran 7 bidrar med 0,07."}, {"txt": "Den står på entalsplatsen och bidrar med 7.", "ratt": false, "kommentar": "Entalssiffran är 0. Siffran 7 står två platser efter kommatecknet."}, {"txt": "Den står på tusendelsplatsen och bidrar med 0,007.", "ratt": false, "kommentar": "Tusendelssiffran är 3. Siffran 7 står på hundradelsplatsen."}, {"txt": "Den står på hundradelsplatsen och bidrar med 0,07.", "ratt": true}]
   },
   {
     "id": "0.56",
@@ -3752,7 +3752,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Två positiva tal x och y är båda mindre än 1. Vilket påstående gäller alltid?</p>",
+    "t": "<p>Två positiva tal x och y är båda mindre än 1. Vilket påstående gäller alltid? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: Produkten xy är mindre än både x och y. Eftersom 0 &lt; y &lt; 1 får vi xy &lt; x. Eftersom 0 &lt; x &lt; 1 får vi också xy &lt; y. Båda jämförelserna behövs.</p></div>",
     "ledtrad": "<p>Jämför produkten med en faktor i taget. Vad innebär multiplikation med den andra faktorn?</p>",
     "niva": "C",
@@ -3772,7 +3772,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Generella samband mellan bråk"
     ],
-    "alternativ": [{"txt": "Produkten xy är mindre än både x och y.", "ratt": true}, {"txt": "Produkten xy är större än både x och y.", "ratt": false}, {"txt": "Produkten xy ligger mellan x och y.", "ratt": false}, {"txt": "Produkten xy är lika med det mindre talet.", "ratt": false}]
+    "alternativ": [{"txt": "Produkten xy är mindre än både x och y.", "ratt": true}, {"txt": "Produkten xy är större än både x och y.", "ratt": false, "kommentar": "Multiplikation med ett positivt tal mindre än 1 gör ett positivt tal mindre."}, {"txt": "Produkten xy ligger mellan x och y.", "ratt": false, "kommentar": "Produkten är mindre än båda talen och ligger därför inte mellan dem."}, {"txt": "Produkten xy är lika med det mindre talet.", "ratt": false, "kommentar": "Båda faktorerna är mindre än 1, så produkten är mindre än även det mindre talet."}]
   },
   {
     "id": "0.88",
@@ -10059,7 +10059,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En elev skriver (14 − 6) · 3 + 2 = 8 · 5 = 40. Vilken beskrivning pekar ut det första felet?</p>",
+    "t": "<p>En elev skriver (14 − 6) · 3 + 2 = 8 · 5 = 40. Vilken beskrivning pekar ut det första felet? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Efter parentesen återstår 8 · 3 + 2</p><div class=\"facit-matte\">\\[14-6=8\\]</div></li><li><p class=\"facit-rubrik\">Multiplikationen ska göras före additionen</p><div class=\"facit-matte\">\\[8\\cdot3+2=24+2=26\\]</div></li><li><p class=\"facit-rubrik\">Elevens första fel</p><p>Eleven räknar 3 + 2 = 5 före multiplikationen och får därför 8 · 5 = 40.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Eleven räknar 3 + 2 först, trots att multiplikationen måste beräknas före additionen.</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "alternativ",
@@ -10078,11 +10078,11 @@ window.BANKMA1 = [
     "alternativ": [
       {
         "txt": "Eleven räknar 14 − 6 först, trots att multiplikationen måste beräknas före parentesen.",
-        "ratt": false
+        "ratt": false, "kommentar": "Parentesen ska räknas först. Felet kommer när 3 och 2 adderas före multiplikationen."
       },
       {
         "txt": "Eleven räknar 8 · 5 sist, trots att multiplikationen måste beräknas före parentesen.",
-        "ratt": false
+        "ratt": false, "kommentar": "Parentesen räknas först. Efter den ska 8 multipliceras med 3 före additionen."
       },
       {
         "txt": "Eleven räknar 3 + 2 först, trots att multiplikationen måste beräknas före additionen.",
@@ -10090,7 +10090,7 @@ window.BANKMA1 = [
       },
       {
         "txt": "Eleven räknar 14 − 6 först, trots att additionen måste beräknas före subtraktionen.",
-        "ratt": false
+        "ratt": false, "kommentar": "Uttrycket i parentesen ska beräknas först; det första felet kommer därefter."
       }
     ]
   },
@@ -14921,7 +14921,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>En kvadrats sidmått skrivs om från meter till centimeter. Vilket påstående beskriver arean rätt?</p>",
+    "t": "<p>En kvadrats sidmått skrivs om från meter till centimeter. Arean anges därefter i kvadratcentimeter i stället för kvadratmeter. Vilket påstående beskriver arean rätt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: Arean är oförändrad och talvärdet ökar 10 000 gånger. Kvadraten ändras inte. En kvadratmeter innehåller 100 · 100 kvadratcentimeter, så areans talvärde blir 10 000 gånger större.</p></div>",
     "ledtrad": "<p>Skilj mellan själva ytan och talet som beskriver den.</p>",
     "niva": "E",
@@ -14940,7 +14940,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Enheternas betydelse"
     ],
-    "alternativ": [{"txt": "Arean är oförändrad och talvärdet ökar 10 000 gånger.", "ratt": true}, {"txt": "Arean är oförändrad och talvärdet ökar 100 gånger.", "ratt": false}, {"txt": "Arean ökar 100 gånger och talvärdet ökar 100 gånger.", "ratt": false}, {"txt": "Arean ökar 10 000 gånger och talvärdet ökar 10 000 gånger.", "ratt": false}]
+    "alternativ": [{"txt": "Arean är oförändrad och talvärdet ökar 10 000 gånger.", "ratt": true}, {"txt": "Arean är oförändrad och talvärdet ökar 100 gånger.", "ratt": false, "kommentar": "Varje meter motsvarar 100 cm, så areans talvärde multipliceras med 100·100."}, {"txt": "Arean ökar 100 gånger och talvärdet ökar 100 gånger.", "ratt": false, "kommentar": "Kvadraten ändras inte när enheten byts. Talvärdet för arean ökar 100·100 gånger."}, {"txt": "Arean ökar 10 000 gånger och talvärdet ökar 10 000 gånger.", "ratt": false, "kommentar": "Själva arean är oförändrad; bara enheten och talvärdet ändras."}]
   },
   {
     "id": "0.541",
@@ -21605,7 +21605,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En elev har räknat ut 38,5 · 4,1 och fått svaret 1 578,5. Vilket påstående stämmer?</p>",
+    "t": "<p>En elev har räknat ut 38,5 · 4,1 och fått svaret 1 578,5. Vilket påstående stämmer? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Överslaget 40 · 4 = 160 visar att svaret borde vara ungefär 160.</p></li><li><p>Kommat har hamnat fel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Svaret är orimligt eftersom ungefär 40 · 4 = 160.</p></div></div>",
     "familj": "Överslag och rimlighet",
     "geogebra": false,
@@ -21625,7 +21625,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Överslag och rimlighetsbedömning"
     ],
-    "alternativ": [{"txt": "Svaret är orimligt eftersom ungefär 40 · 4 = 160.", "ratt": true}, {"txt": "Svaret är orimligt eftersom det borde vara mindre än 38,5.", "ratt": false}, {"txt": "Svaret är rimligt eftersom båda talen har en decimal.", "ratt": false}, {"txt": "Svaret är rimligt eftersom 38 · 41 ≈ 1 600.", "ratt": false}]
+    "alternativ": [{"txt": "Svaret är orimligt eftersom ungefär 40 · 4 = 160.", "ratt": true}, {"txt": "Svaret är orimligt eftersom det borde vara mindre än 38,5.", "ratt": false, "kommentar": "Faktorn 4,1 är större än 1, så produkten är större än 38,5."}, {"txt": "Svaret är rimligt eftersom båda talen har en decimal.", "ratt": false, "kommentar": "Antalet decimaler visar inte att storleken är rimlig. Ett överslag ger cirka 160."}, {"txt": "Svaret är rimligt eftersom 38 · 41 ≈ 1 600.", "ratt": false, "kommentar": "38·41 motsvarar inte 38,5·4,1; den andra faktorn är ungefär 4, inte 40."}]
   },
   {
     "id": "0.741",
@@ -21737,7 +21737,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En elev räknar 0,52 · 810 och får 42,12. Vilket påstående stämmer?</p>",
+    "t": "<p>En elev räknar 0,52 · 810 och får 42,12. Vilket påstående stämmer? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>0,52 är ungefär en halv, och hälften av 800 är 400.</p></li><li><p>Svaret 42,12 är tio gånger för litet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Svaret är orimligt; ungefär hälften av 800 är 400.</p></div></div>",
     "familj": "Överslag och rimlighet",
     "geogebra": false,
@@ -21757,7 +21757,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Överslag och rimlighetsbedömning"
     ],
-    "alternativ": [{"txt": "Svaret är orimligt; det borde vara större än 810.", "ratt": false}, {"txt": "Svaret är orimligt; ungefär hälften av 800 är 400.", "ratt": true}, {"txt": "Svaret är rimligt eftersom 0,52 är mindre än 1.", "ratt": false}, {"txt": "Svaret är rimligt eftersom 52 · 81 ≈ 4 200.", "ratt": false}]
+    "alternativ": [{"txt": "Svaret är orimligt; det borde vara större än 810.", "ratt": false, "kommentar": "Eftersom 0,52 är mindre än 1 är produkten mindre än 810, men ungefär hälften av 810."}, {"txt": "Svaret är orimligt; ungefär hälften av 800 är 400.", "ratt": true}, {"txt": "Svaret är rimligt eftersom 0,52 är mindre än 1.", "ratt": false, "kommentar": "Produkten ska visserligen vara mindre än 810, men den bör vara ungefär hälften av 810."}, {"txt": "Svaret är rimligt eftersom 52 · 81 ≈ 4 200.", "ratt": false, "kommentar": "52·81 ≈ 4 200 bortser från decimalfaktorn; 0,52 är ungefär en halv."}]
   },
   {
     "id": "0.745",

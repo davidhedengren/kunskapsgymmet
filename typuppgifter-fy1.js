@@ -1568,6 +1568,41 @@ window.TYPUPPGIFTER_FY1 = {
     "komihag": "\\(U=RI\\). Vid samma spänning ger större resistans mindre ström.",
     "traningsfamilj": "Ohms lag"
   },
+  "fy1-grund-8-06r": {
+    "kap": 8,
+    "omr": "kretsar",
+    "rubrik": "Resistans i en ledare",
+    "niva": "E",
+    "t": "<p>En koppartråd är 25 m lång och har tvärsnittsarean 0,50 mm². Kopparens resistivitet är \\(1{,}7\\cdot10^{-8}\\ \\Omega\\,\\mathrm m\\), vilket också kan skrivas \\(0{,}017\\ \\Omega\\,\\mathrm{mm^2/m}\\). Hur stor resistans har tråden?</p>",
+    "ram": "En ledares resistans blir större ju längre den är och mindre ju tjockare den är. Materialet anges med resistiviteten \\(\\rho\\) (rå). Det viktiga är att enheterna passar ihop, eftersom resistiviteten anges på två olika sätt i tabeller.",
+    "steg": [
+      {
+        "rubrik": "Vad betyder storheterna?",
+        "text": "\\(l\\) är ledarens längd i meter. \\(A\\) är tvärsnittsarean, alltså arean av snittytan om man klipper av tråden. \\(\\rho\\) är materialets resistivitet. Enheten för \\(\\rho\\) avgör vilken enhet arean ska ha.",
+        "figur": "<svg class=\"dg\" viewBox=\"0 0 460 152\" role=\"img\" aria-label=\"En tråd ritad som en cylinder. Längden l är markerad längs tråden och tvärsnittsarean A är snittytan i trådens ände.\"><line class=\"dg-hjalp\" x1=\"80\" y1=\"32\" x2=\"380\" y2=\"32\"/><line class=\"dg-form\" x1=\"80\" y1=\"24\" x2=\"80\" y2=\"40\"/><line class=\"dg-form\" x1=\"380\" y1=\"24\" x2=\"380\" y2=\"40\"/><text class=\"dg-txt\" x=\"230\" y=\"24\" text-anchor=\"middle\">l (längd)</text><path class=\"dg-form\" d=\"M80 62 L380 62 M80 112 L380 112\"/><ellipse class=\"dg-form\" cx=\"380\" cy=\"87\" rx=\"11\" ry=\"25\"/><ellipse class=\"dg-delta\" cx=\"80\" cy=\"87\" rx=\"11\" ry=\"25\"/><text class=\"dg-not\" x=\"230\" y=\"91\" text-anchor=\"middle\">material med resistiviteten ρ</text><text class=\"dg-txt\" x=\"80\" y=\"140\" text-anchor=\"middle\">A (tvärsnittsarea)</text></svg>",
+        "matte": "\\[R=\\rho\\cdot\\frac{l}{A}\\]"
+      },
+      {
+        "rubrik": "Sätt 1: \\(\\rho\\) i Ω·m och arean i m²",
+        "text": "Är resistiviteten given i Ω·m måste arean vara i m². En kvadratmillimeter är en kvadrat med sidan \\(10^{-3}\\) m, så \\(1\\ \\mathrm{mm^2}=(10^{-3}\\ \\mathrm m)^2=10^{-6}\\ \\mathrm{m^2}\\).",
+        "matte": "\\[A=0{,}50\\ \\mathrm{mm^2}=0{,}50\\cdot10^{-6}\\ \\mathrm{m^2}\\]\\[R=1{,}7\\cdot10^{-8}\\cdot\\frac{25}{0{,}50\\cdot10^{-6}}\\ \\Omega=0{,}85\\ \\Omega\\]"
+      },
+      {
+        "rubrik": "Sätt 2: \\(\\rho\\) i Ω·mm²/m och arean direkt i mm²",
+        "text": "Skriv resistiviteten som \\(1{,}7\\cdot10^{-8}=0{,}017\\cdot10^{-6}\\ \\Omega\\,\\mathrm m\\). Stryker man faktorn \\(10^{-6}\\) får man 0,017, som är resistiviteten i Ω·mm²/m. Då sätts arean in direkt i mm² och längden i meter. Enheterna mm² och m tar ut varandra så att bara Ω blir kvar.",
+        "matte": "\\[R=0{,}017\\ \\frac{\\Omega\\,\\mathrm{mm^2}}{\\mathrm m}\\cdot\\frac{25\\ \\mathrm m}{0{,}50\\ \\mathrm{mm^2}}=0{,}85\\ \\Omega\\]"
+      },
+      {
+        "rubrik": "Blanda inte de två sätten",
+        "text": "Faktorn \\(10^{-6}\\) ska finnas antingen i resistiviteten (Ω·m) eller i arean (m²), aldrig i båda och aldrig i ingen. Tar du \\(\\rho\\) i Ω·m men arean i mm² blir svaret en miljon gånger för litet.",
+        "matte": "\\[1\\ \\Omega\\,\\mathrm m=10^{6}\\ \\frac{\\Omega\\,\\mathrm{mm^2}}{\\mathrm m}\\qquad\\text{eftersom}\\qquad 1\\ \\mathrm{m^2}=10^{6}\\ \\mathrm{mm^2}\\]"
+      }
+    ],
+    "svar": "Trådens resistans är \\(0{,}85\\ \\Omega\\). Båda sätten ger samma svar.",
+    "komihag": "\\(\\rho\\) i Ω·m: arean i m² (\\(1\\ \\mathrm{mm^2}=10^{-6}\\ \\mathrm{m^2}\\)). \\(\\rho\\) i Ω·mm²/m: arean direkt i mm². Längden är i meter i båda fallen.",
+    "traningsfamilj": "Resistivitet och ledarresistans",
+    "formel": "\\[R=\\rho\\frac{l}{A}\\]"
+  },
   "fy1-grund-8-07": {
     "kap": 8,
     "omr": "seriekoppling",

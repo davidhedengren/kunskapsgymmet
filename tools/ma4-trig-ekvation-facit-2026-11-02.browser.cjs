@@ -13,7 +13,7 @@ const {chromium}=require('playwright'),path=require('node:path'),assert=require(
  }}
  for(const [id,parts] of [['1.132',[[150,30],[225,135],[315,135]]],['1.299',[[150,30],[210,150],[315,135],[300,240,120,60]]]])for(let i=0;i<parts.length;i++){
   await p.evaluate(({id,i})=>{beginSession();state.sessionTarget=30;visaUppgift(expandGameTask(state.data.bank.find(q=>q.id===id))[i])},{id,i});
-  await p.waitForTimeout(200);for(let j=0;j<parts[i].length;j++)await p.locator('#ans-'+j).fill(String(parts[i][j]));const outcome=await p.evaluate(()=>{const before={id:state.currentTask.id,answered:state.answered,pending:state.samladKomplettering,values:[...document.querySelectorAll('[id^=ans-]')].map(e=>e.value)};checkAnswer();return {before,after:state.partResults,now:state.currentTask.id}});assert.deepEqual(outcome.after,parts[i].map(()=>true),id+' '+i+' '+JSON.stringify(outcome));
+  for(let j=0;j<parts[i].length;j++)await p.locator('#ans-'+j).fill(String(parts[i][j]));const outcome=await p.evaluate(()=>{const before={id:state.currentTask.id,answered:state.answered,pending:state.samladKomplettering,values:[...document.querySelectorAll('[id^=ans-]')].map(e=>e.value)};checkAnswer();return {before,after:state.partResults,now:state.currentTask.id}});assert.deepEqual(outcome.after,parts[i].map(()=>true),id+' '+i+' '+JSON.stringify(outcome));
  }
  for(const [i,answer] of [[0,'180n'],[1,'180+360n'],[2,'60+180n']]){
   await p.evaluate(i=>{beginSession();state.sessionTarget=30;visaUppgift(expandGameTask(state.data.bank.find(q=>q.id==='1.16'))[i])},i);

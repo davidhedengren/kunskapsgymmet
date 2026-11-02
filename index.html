@@ -12306,7 +12306,11 @@ function vaxlaTangentbord(i){
   if(knapp){ knapp.textContent=siffror?"123":"abc"; knapp.setAttribute("aria-label",siffror?"Byt till siffertangentbord":"Byt till bokstavstangentbord"); }
   state.aktivRuta=i;
   el.blur();
-  setTimeout(()=>{ el.focus(); try{ const n=el.value.length; el.setSelectionRange(n,n); }catch(_){} },40);
+  const aktiv=document.activeElement, uppgift=state.currentTask;
+  setTimeout(()=>{
+    if(!el.isConnected || state.currentTask!==uppgift || document.activeElement!==aktiv) return;
+    el.focus(); try{ const n=el.value.length; el.setSelectionRange(n,n); }catch(_){}
+  },40);
 }
 
 function toolIcons(t){
@@ -13784,7 +13788,7 @@ function renderTraining(){
     </div>`;
   afterRender();
   // I adminens bläddringsläge ska piltangenterna bläddra, inte flytta markören.
-  if(!state.adminBlad) setTimeout(()=>document.getElementById("ans-0")?.focus(),60);
+  if(!state.adminBlad) fokuseraSvarNarOrort(document.getElementById("ans-0"),60);
   if(state.samladKomplettering) visaSamladKomplettering(t);
   if(state.solutionShown) showSolution();
 }
@@ -14368,6 +14372,17 @@ function markPart(i,ok,facit){
   }
 }
 
+// Ge nästa svarsruta fokus endast om eleven inte redan valt något annat.
+// Fånga elementet och uppgiften nu, så att en äldre timer inte påverkar en ny vy.
+function fokuseraSvarNarOrort(inp,ms){
+  if(!inp) return;
+  const aktiv=document.activeElement, uppgift=state.currentTask;
+  setTimeout(()=>{
+    if(!inp.isConnected || state.currentTask!==uppgift || state.adminBlad || document.activeElement!==aktiv) return;
+    inp.focus();
+  },ms);
+}
+
 function openPart(i,total){
   const plan=answerLayout(state.currentTask).plan;
 
@@ -14378,7 +14393,7 @@ function openPart(i,total){
     const row=document.getElementById("part-"+r.idx);
     if(row) row.classList.remove("upcoming");
     const inp=document.getElementById("ans-"+r.idx);
-    if(inp){ inp.disabled=false; if(n===0) setTimeout(()=>inp.focus(),40); }
+    if(inp){ inp.disabled=false; if(n===0) fokuseraSvarNarOrort(inp,40); }
   });
   const line=document.getElementById("partline");
   if(line){

@@ -1,0 +1,25 @@
+'use strict';
+const {chromium}=require('playwright'),path=require('node:path'),assert=require('node:assert/strict');
+(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});try{
+ const p=await b.newPage({reducedMotion:'reduce'}),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.route('https://*.supabase.co/**',r=>r.abort());
+ if(process.env.REVIEW_DEPS)await p.route(/^https:\/\/cdn\.jsdelivr\.net\/npm\/(katex|nerdamer)@/,r=>{const m=new URL(r.request().url()).pathname.match(/^\/npm\/(katex|nerdamer)@[^/]+\/(.+)$/);return r.fulfill({path:path.join(process.env.REVIEW_DEPS,m[1],m[2])})});
+ await p.addInitScript(()=>localStorage.setItem('kunskapsgymmet-beta-info','2'));await p.goto(process.env.REVIEW_URL||'http://127.0.0.1:8222');await p.waitForFunction(()=>typeof selectCourse==='function'&&typeof nerdamer==='function');await p.evaluate(async()=>{await selectCourse('mato2');session=null;syncOwner=null;arLarare=false;cheer=()=>{};});
+ await p.evaluate(()=>{beginSession();state.sessionTarget=30;visaUppgift(expandGameTask(state.data.bank.find(q=>q.id==='1.132'))[0]);document.querySelector('#ans-1').focus()});
+ await p.waitForTimeout(180);assert.equal(await p.evaluate(()=>document.activeElement?.id),'ans-1','Fokus får inte lämna det fält eleven valt.');
+ await p.locator('#ans-1').fill('150');await p.locator('#ans-0').fill('30');await p.evaluate(()=>checkAnswer());assert.deepEqual(await p.evaluate(()=>state.partResults),[true,true]);
+ await p.evaluate(()=>{document.activeElement.blur();visaUppgift(expandGameTask(state.data.bank.find(q=>q.id==='1.132'))[0])});
+ await p.waitForTimeout(180);assert.equal(await p.evaluate(()=>document.activeElement?.id),'ans-0','Första fältet fokuseras när eleven inte valt något.');
+ await p.evaluate(()=>{visaUppgift(expandGameTask(state.data.bank.find(q=>q.id==='1.132'))[0]);visaUppgift(expandGameTask(state.data.bank.find(q=>q.id==='1.132'))[1]);document.querySelector('#ans-1').focus()});
+ await p.waitForTimeout(180);assert.equal(await p.evaluate(()=>document.activeElement?.id),'ans-1','Äldre timers ska inte flytta fokus efter byte.');
+ await p.evaluate(()=>{visaUppgift(expandGameTask(state.data.bank.find(q=>q.id==='1.132'))[0]);document.querySelector('#ans-0').focus();vaxlaTangentbord(0);document.querySelector('#ans-1').focus()});
+ await p.waitForTimeout(180);assert.equal(await p.evaluate(()=>document.activeElement?.id),'ans-1','Tangentbordsbyte får inte flytta fokus från elevens nya fält.');
+ await p.evaluate(()=>{visaUppgift(expandGameTask(state.data.bank.find(q=>q.id==='1.132'))[0]);document.querySelector('#ans-0').focus();vaxlaTangentbord(0)});
+ await p.waitForTimeout(180);assert.equal(await p.evaluate(()=>document.activeElement?.id),'ans-0','Tangentbordsbytet återför normalt fokus.');
+ await p.evaluate(async()=>{await selectCourse('ma1');beginSession();state.sessionTarget=30;visaUppgift(state.data.bank.find(q=>q.id==='2.201'))});await p.waitForTimeout(180);
+ await p.evaluate(()=>{document.querySelector('#ans-0').value='linjär';checkAnswer();bedomDel(0,true,0)});
+ await p.waitForTimeout(180);assert.equal(await p.evaluate(()=>document.activeElement?.id),'ans-1','Nästa del får normalt fokus.');
+ await p.evaluate(async()=>{await selectCourse('ma1');beginSession();state.sessionTarget=30;visaUppgift(state.data.bank.find(q=>q.id==='2.201'))});await p.waitForTimeout(180);
+ await p.evaluate(()=>{document.querySelector('#ans-0').value='linjär';checkAnswer();bedomDel(0,true,0);document.querySelector('#kollaknapp').focus()});
+ await p.waitForTimeout(180);assert.equal(await p.evaluate(()=>document.activeElement?.id),'kollaknapp','Delbyte får inte stjäla fokus från elevens val.');
+ assert.deepEqual(errors,[]);console.log('Snabbt fältbyte, standardfokus och byte av uppgift passerar.');
+ }finally{await b.close()}})().catch(e=>{console.error(e);process.exitCode=1});

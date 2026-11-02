@@ -84939,6 +84939,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
+        "spel": false,
         "fraga": "Strömmen genom två seriekopplade resistorer är 0,020 A. Deras resistanser är 220 Ω och 330 Ω. Bestäm effekten i var och en. Ange först effekten i 220 Ω och sedan i 330 Ω. (Svara i W.)",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Samma ström går genom båda resistorerna. Beräkna effekten P = RI² för var och en.</p><div class=\"facit-matte\">\\[\\begin{gathered}P_1=220\\cdot0{,}020^2=0{,}088\\,\\mathrm W\\\\P_2=330\\cdot0{,}020^2=0{,}132\\,\\mathrm W\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,088 W respektive 0,132 W.</p></div></div>",
         "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
@@ -84955,6 +84956,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
+        "spel": false,
         "fraga": "Ett batteri ger spänningen 11 V och strömmen 0,020 A. Vilken effekt avger batteriet?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><p>Batteriets effekt är spänningen multiplicerad med strömmen.</p><div class=\"facit-matte\">\\[P=UI=11\\cdot0{,}020=0{,}220\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,220 W.</p></div></div>",
         "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
@@ -88191,6 +88193,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
+        "spel": false,
         "fraga": "Vilken effekt utvecklas i R?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekten är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P=UI=12\\cdot0{,}040=0{,}480\\ \\mathrm W\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}480\\ \\mathrm W\\).</p></div>",
         "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
@@ -90793,6 +90796,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
+        "spel": false,
         "fraga": "R₁ = 80 Ω och R₂ = 160 Ω är seriekopplade. Vilken utvecklar mest effekt? Förklara utan att räkna.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma ström går genom båda och \\(P=RI^2\\), så den större \\(R_2\\) utvecklar mest effekt.</p></div><div class=\"facit-stycke\"><p>Dubbelt motstånd ger här dubbel effekt.</p></div></div></div></div></div>",
         "ledtrad": "<p>I serie är strömmen samma genom alla komponenter och resistanserna adderas. Delspänningen över en resistor fås med \\(U=RI\\).</p>",
@@ -91177,13 +91181,13 @@ window.BANK = [
   {
     "id": "8.89",
     "kap": 8,
-    "omr": "seriekoppling",
+    "omr": "kopplingar",
     "niva": "E",
     "typ": "beräkna effekt och omsatt energi under en given tid i seriekoppling, ur diagram, sökt ström effekt och energi",
     "poang": "(1/0/0)",
     "t": "<p>Figuren visar två seriekopplade resistorer som är påslagna i 5,0 minuter.</p><span class=\"fig\"><svg height=\"268\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"57.857 12.346 389.571 209.105\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 400 Ω</text></svg></span>\n<ol><li>Hur stor ström går i kretsen?</li><li>Vilken effekt avger batteriet?</li>\n<li>Hur mycket energi omsätts under 5,0 minuter?</li>\n<li>Hur stor del av den energin utvecklas i R₂?</li></ol>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen är 600 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12}{600}\\approx0{,}02\\ \\mathrm{A}=20\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{mA}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\).</p><p>\\[P=12\\cdot0{,}020=0{,}240\\,\\mathrm W\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\(5{,}0\\,\\mathrm{min}=300\\,\\mathrm s\\).</p><p>\\[E=0{,}240\\cdot300=72\\,\\mathrm J\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>R₂ är 400 Ω. Omvandla \\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\) och \\(5\\,\\mathrm{min}=300\\,\\mathrm s\\).</p><p>\\[P_2=400\\cdot0{,}020^2=0{,}160\\,\\mathrm W\\]</p><p>\\[E_2=0{,}160\\cdot300=48\\,\\mathrm J\\]</p></div></div>",
-    "familj": "Spänningsdelning i seriekoppling",
+    "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
     ],
@@ -96913,12 +96917,12 @@ window.BANK = [
   {
     "id": "8.128",
     "kap": 8,
-    "omr": "seriekoppling",
+    "omr": "kopplingar",
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>En julgranslinga med 20 likadana seriekopplade lampor ansluts till 230 V. Slingan förbrukar totalt 15 W.</p>\n<p>Räkna med att lampornas resistans är konstant.</p><ol><li>Vilken spänning ligger över varje lampa?</li><li>Vilken resistans har en lampa?</li>\n<li>En lampa kortsluts inuti sockeln. Vad händer med de övriga?</li></ol>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tjugo lika seriekopplade lampor delar lika på spänningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_l=\\frac{230}{20}=11{,}5\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}5\\ \\mathrm V\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är \\(I=P/U=15/230=0{,}06522\\ \\mathrm A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=\\frac{230}{0{,}06522}=3527\\ \\Omega\\]\\[R_l=\\frac{3527}{20}=176{,}3\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(176{,}3\\ \\Omega\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>När en lampa kortsluts återstår 19 lampor i serie. Varje lampa får då högre spänning:</p><p>\\[U=230/19\\approx12{,}1\\,\\mathrm V\\]</p><p>Med samma resistans ger högre spänning högre effekt, eftersom \\(P=U^2/R\\). Lamporna lyser starkare och kan slitas snabbare.</p></div></div>",
-    "familj": "Spänningsdelning i seriekoppling",
+    "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
     ],
@@ -97701,6 +97705,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
+        "spel": false,
         "fraga": "Den okända resistorn är 90 Ω. Vilken effekt utvecklas i vardera resistorn?",
         "s": "<div class=\"facit-v2\"><p>Strömmen är \\(50\\,\\mathrm{mA}=0{,}050\\,\\mathrm A\\).</p><p>\\[P_{150}=150\\cdot0{,}050^2=0{,}375\\,\\mathrm W\\]</p><p>\\[P_{90}=90\\cdot0{,}050^2=0{,}225\\,\\mathrm W\\]</p></div>",
         "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
@@ -129990,12 +129995,12 @@ window.BANK = [
   {
     "id": "8.396",
     "kap": 8,
-    "omr": "seriekoppling",
+    "omr": "kopplingar",
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>En ljusslinga har 20 likadana lampor seriekopplade till 230 V. Varje lampa ger effekten 4,6 W. En lampa går sönder på ett sådant sätt att den kortsluts, och de övriga 19 fortsätter lysa.</p><p>Vilken effekt får nu varje lampa? Anta att resistansen är konstant.</p>",
     "s": "<div class=\"facit-v2\"><p>Från början har varje lampa spänningen \\(230/20=11{,}5\\,\\mathrm V\\). Lampans resistans blir:</p><p>\\[R=11{,}5^2/4{,}6=28{,}75\\,\\Omega\\]</p><p>Efter kortslutningen delar 19 lampor på 230 V:</p><p>\\[U=230/19\\approx12{,}105\\,\\mathrm V\\]</p><p>Använd det oavrundade värdet i effektberäkningen:</p><p>\\[P=\\frac{(230/19)^2}{28{,}75}\\approx5{,}10\\,\\mathrm W\\]</p><p>Varje lampa får alltså effekten <strong>5,10 W</strong>.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}10\\) W.</p></div>",
-    "familj": "Ersättningsresistans och ström i serie",
+    "familj": "Elektrisk effekt och energi",
     "formaga": [
       "problemlösning",
       "modellering"
@@ -197858,11 +197863,11 @@ window.BANK = [
   {
     "id": "8.528",
     "kap": 8,
-    "omr": "seriekoppling",
+    "omr": "kopplingar",
     "niva": "C",
     "poang": "0/2/0",
     "typ": "Vilken lampa får högst effekt i serie?",
-    "familj": "Spänningsdelning i seriekoppling",
+    "familj": "Elektrisk effekt och energi",
     "formaga": [
       "problemlösning",
       "procedur"
@@ -203291,13 +203296,13 @@ window.BANK = [
 {
   "id": "8.592",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "E",
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Lampan är märkt 3,0 W och 24,0 V och lyser normalt. Resistorn har resistansen 550 Ω. Hur stor är spänningen över resistorn?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M192 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Lampan och resistorn är i serie, så samma ström går genom båda.</p>\\[I=\\frac{3{,}0}{24{,}0}=0{,}125\\,\\mathrm A\\]\\[U_R=RI=550\\cdot0{,}125\\approx68{,}8\\,\\mathrm V\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(68{,}8\\) V.</p></div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -203363,13 +203368,13 @@ window.BANK = [
 {
   "id": "8.594",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "E",
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Spänningen över L₁ är 6,0 V och över L₂ är den 12,0 V. Strömmen genom L₁ är 1,55 A. Hur stor effekt har L₁ respektive L₂? (Svara i W.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₁</text><path d=\"M192 90L318 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 75L355 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 105L355 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₂</text><path d=\"M362 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Seriekopplingen gör att även strömmen genom L₂ är 1,55 A.</p>\\[P_1=6{,}0\\cdot1{,}55=9{,}3\\,\\mathrm W\\]\\[P_2=12{,}0\\cdot1{,}55=18{,}6\\,\\mathrm W\\]</div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -203407,13 +203412,13 @@ window.BANK = [
 {
   "id": "8.595",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "E",
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Lampan har resistansen 82 Ω och resistorn har resistansen 680 Ω. Spänningen över resistorn är 30 V. Hur stor effekt har lampan?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M192 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Resistorn och lampan har samma ström.</p>\\[I=\\frac{30}{680}\\,\\mathrm A\\]<p>Använd strömmen utan att avrunda mellan beräkningarna.</p>\\[P_L=82\\left(\\frac{30}{680}\\right)^2\\approx0{,}16\\,\\mathrm W\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}16\\) W.</p></div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -203435,13 +203440,13 @@ window.BANK = [
 {
   "id": "8.596",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "C",
   "typ": "beräkning",
   "poang": "(0/1/0)",
   "t": "<p>R₁ = 220 Ω och R₂ = 470 Ω. Varje resistor tål högst 0,50 W. Vilken är den största ström som kan gå i kretsen utan att någon resistor får för hög effekt? (Svara i mA.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L140 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"140\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><path d=\"M200 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Samma ström går genom båda resistorerna. Eftersom \\(P=RI^2\\) blir effekten störst i resistorn med störst resistans. R₂ begränsar alltså strömmen.</p>\\[I_{\\max}=\\sqrt{\\frac{0{,}50}{470}}\\approx0{,}0326\\,\\mathrm A\\]<p>Den största strömmen är <strong>32,6 mA</strong>. Då är effekten i R₁ cirka 0,234 W, vilket är under dess gräns.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(32{,}6\\) mA.</p></div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -203463,13 +203468,13 @@ window.BANK = [
 {
   "id": "8.597",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "E",
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Lampornas sammanlagda effekt är 10,0 W. Spänningen är 6,3 V över L₁ och 8,6 V över L₂. Hur stor är strömmen genom lamporna?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₁</text><path d=\"M192 90L318 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 75L355 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 105L355 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₂</text><path d=\"M362 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Lamporna har samma ström. Därför är deras sammanlagda effekt \\(P=(U_1+U_2)I\\).</p>\\[I=\\frac{10{,}0}{6{,}3+8{,}6}\\approx0{,}671\\,\\mathrm A\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}671\\) A.</p></div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -203491,13 +203496,13 @@ window.BANK = [
 {
   "id": "8.598",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "E",
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Strömmen genom lamporna är 0,56 A. L₁ har effekten 1,2 W och L₂ har resistansen 15 Ω. Hur stor är den sammanlagda spänningen över lamporna?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₁</text><path d=\"M192 90L318 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 75L355 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 105L355 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₂</text><path d=\"M362 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Beräkna först spänningen över varje lampa. Strömmen är densamma genom båda.</p>\\[U_1=\\frac{1{,}2}{0{,}56}\\approx2{,}143\\,\\mathrm V\\]\\[U_2=15\\cdot0{,}56=8{,}40\\,\\mathrm V\\]\\[U=U_1+U_2\\approx10{,}5\\,\\mathrm V\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}5\\) V.</p></div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -203547,13 +203552,13 @@ window.BANK = [
 {
   "id": "8.600",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "E",
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>R₁ har resistansen 55 Ω och effekten 5,0 W. R₂ har effekten 8,4 W. Hur stor är spänningen över R₁ respektive R₂? (Svara i V med 1 decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L140 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"140\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><path d=\"M200 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Strömmen är densamma genom båda resistorerna.</p>\\[I=\\sqrt{\\frac{P_1}{R_1}}=\\sqrt{\\frac{5{,}0}{55}}\\approx0{,}3015\\,\\mathrm A\\]<p>Behåll fler siffror i strömmen när spänningarna beräknas.</p>\\[U_1=55I\\approx16{,}6\\,\\mathrm V\\]\\[U_2=\\frac{8{,}4}{I}\\approx27{,}9\\,\\mathrm V\\]</div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -203591,13 +203596,13 @@ window.BANK = [
 {
   "id": "8.601",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "E",
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Spänningen är 4,5 V över L₁ och 15,0 V över L₂. L₁ har effekten 6,0 W. Hur stor effekt har L₂?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₁</text><path d=\"M192 90L318 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 75L355 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 105L355 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₂</text><path d=\"M362 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Lamporna har samma ström.</p>\\[I=\\frac{6{,}0}{4{,}5}\\,\\mathrm A\\]\\[P_2=15{,}0\\cdot\\frac{6{,}0}{4{,}5}=20\\,\\mathrm W\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) W.</p></div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -203618,13 +203623,13 @@ window.BANK = [
 {
   "id": "8.602",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "E",
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Spänningen över lampan är 15,0 V och dess effekt är 10,0 W. Spänningen över resistorn är 5,00 V. Hur stor resistans har resistorn?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M192 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Lampan ger den gemensamma strömmen.</p>\\[I=\\frac{10{,}0}{15{,}0}=\\frac23\\,\\mathrm A\\]\\[R=\\frac{5{,}00}{2/3}=7{,}5\\,\\Omega\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\) Ω.</p></div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -203645,13 +203650,13 @@ window.BANK = [
 {
   "id": "8.603",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "E",
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Resistorns effekt är 0,25 W. Strömmen genom lampan är 45 mA. Hur stor resistans har resistorn?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M192 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Samma ström, 45 mA = 0,045 A, går genom resistorn.</p>\\[R=\\frac{P_R}{I^2}=\\frac{0{,}25}{0{,}045^2}\\approx123\\,\\Omega\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(123\\) Ω.</p></div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -203700,13 +203705,13 @@ window.BANK = [
 {
   "id": "8.605",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "E",
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>R₁ har effekten 5,0 W. R₂ har resistansen 55 Ω och effekten 8,4 W. Hur stor är spänningen över R₁ respektive R₂? (Svara i V med 1 decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L140 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"140\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><path d=\"M200 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>R₂ ger strömmen som går genom båda resistorerna.</p>\\[I=\\sqrt{\\frac{8{,}4}{55}}\\approx0{,}3908\\,\\mathrm A\\]<p>Beräkna med den oavrundade strömmen.</p>\\[U_1=\\frac{5{,}0}{I}\\approx12{,}8\\,\\mathrm V\\]\\[U_2=55I\\approx21{,}5\\,\\mathrm V\\]</div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -203744,13 +203749,13 @@ window.BANK = [
 {
   "id": "8.606",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "E",
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>L₂ har spänningen 15,0 V och effekten 6,0 W. Spänningen över L₁ är 4,5 V. Hur stor effekt utvecklas i L₁?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₁</text><path d=\"M192 90L318 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 75L355 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 105L355 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₂</text><path d=\"M362 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Samma ström går genom båda lamporna.</p>\\[I=\\frac{6{,}0}{15{,}0}=0{,}40\\,\\mathrm A\\]\\[P_1=4{,}5\\cdot0{,}40=1{,}8\\,\\mathrm W\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\) W.</p></div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -203771,13 +203776,13 @@ window.BANK = [
 {
   "id": "8.607",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "E",
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Spänningen över resistorn är 5,00 V och dess effekt är 10,0 W. Hur stor resistans har resistorn?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M192 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Både spänningen och effekten är kända för resistorn.</p>\\[R=\\frac{U_R^2}{P_R}=\\frac{5{,}00^2}{10{,}0}=2{,}5\\,\\Omega\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) Ω.</p></div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -204085,13 +204090,13 @@ window.BANK = [
 {
   "id": "8.618",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "E",
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Lampan är märkt 6,0 V och 3,0 W. Spänningskällan ger 12 V. Hur stor resistans ska R ha för att lampan ska få sin märkspänning?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M192 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"240\" y=\"314\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">12 V</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Vid märkspänningen behöver lampan strömmen</p>\\[I=\\frac{3{,}0}{6{,}0}=0{,}50\\,\\mathrm A\\]<p>Resistorn ska ta upp resten av källspänningen: 12 − 6,0 = 6,0 V.</p>\\[R=\\frac{6{,}0}{0{,}50}=12\\,\\Omega\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) Ω.</p></div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
   ],
@@ -219046,13 +219051,13 @@ window.BANK = [
 {
   "id": "8.658",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "C",
   "typ": "effekt med en eller två värmetrådar",
   "poang": "(0/1/0)",
   "t": "<p>Ett elektriskt värmeelement har två värmetrådar, 24 Ω och 48 Ω, och ansluts till 36 V. På låg effekt är båda trådarna seriekopplade. På hög effekt används bara tråden på 24 Ω.</p><p>Vilken effekt ger elementet på låg respektive hög effekt? (Svara i W.)</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Låg effekt: ersättningsresistansen är \\(24+48=72\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}I=\\frac{36}{72}=0{,}50\\ \\mathrm A,\\\\P=UI=36\\cdot0{,}50=18\\ \\mathrm W\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Hög effekt: bara 24 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}I=\\frac{36}{24}=1{,}5\\ \\mathrm A,\\\\P=36\\cdot1{,}5=54\\ \\mathrm W\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Fler seriekopplade trådar ger större resistans, mindre ström och därför mindre effekt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Låg effekt 18 W och hög effekt 54 W.</p></div>",
-  "familj": "Ersättningsresistans och ström i serie",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur",
     "modellering"
@@ -219094,13 +219099,13 @@ window.BANK = [
 {
   "id": "8.659",
   "kap": 8,
-  "omr": "seriekoppling",
+  "omr": "kopplingar",
   "niva": "C",
   "typ": "största tillåtna spänning över två resistorer",
   "poang": "(0/1/0)",
   "t": "<p>En resistor på 100 Ω tål högst 0,25 W, och en resistor på 400 Ω tål högst 0,50 W. De seriekopplas.</p><p>Vilken är den största spänning man kan ansluta utan att någon resistor får för hög effekt?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(P=RI^2\\) får varje resistor sin största tillåtna ström.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}I_{100}=\\sqrt{\\frac{0{,}25}{100}}=0{,}050\\ \\mathrm A,\\\\I_{400}=\\sqrt{\\frac{0{,}50}{400}}\\approx0{,}0354\\ \\mathrm A\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma ström går genom båda, så den minsta gränsen gäller.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=(100+400)\\cdot0{,}0354\\approx17{,}7\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 17,7 V.</p></div>",
-  "familj": "Spänningsdelning i seriekoppling",
+  "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur",
     "problemlösning"

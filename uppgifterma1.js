@@ -28455,7 +28455,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>En givare fungerar när \\(-20&lt;T\\le50\\). Vilken beskrivning stämmer?</p>",
+    "t": "<p>En givare fungerar när \\(-20&lt;T\\le50\\). Temperaturen T mäts i °C. Vilken beskrivning stämmer? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: 50 °C är tillåtet men inte −20 °C. </p></li><li><p>Tecknet vid −20 saknar likhetsstreck.</p></li><li><p>Tecknet vid 50 tillåter likhet.</p></li></ol></div>",
     "ledtrad": "<p>Läs ett olikhetstecken i taget.</p>",
     "niva": "E",
@@ -28475,7 +28475,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Intervall och gränser"
     ],
-    "alternativ": [{"txt": "Varken −20 °C eller 50 °C är tillåtet.", "ratt": false}, {"txt": "Både −20 °C och 50 °C är tillåtet.", "ratt": false}, {"txt": "−20 °C är tillåtet men inte 50 °C.", "ratt": false}, {"txt": "50 °C är tillåtet men inte −20 °C.", "ratt": true}]
+    "alternativ": [{"txt": "Varken −20 °C eller 50 °C är tillåtet.", "ratt": false, "kommentar": "Tecknet ≤ betyder att 50 ingår i intervallet."}, {"txt": "Både −20 °C och 50 °C är tillåtet.", "ratt": false, "kommentar": "−20 ingår inte eftersom tecknet där är strikt mindre än."}, {"txt": "−20 °C är tillåtet men inte 50 °C.", "ratt": false, "kommentar": "−20 ingår inte, men 50 ingår eftersom tecknet där är ≤."}, {"txt": "50 °C är tillåtet men inte −20 °C.", "ratt": true}]
   },
   {
     "id": "1.122",
@@ -36992,7 +36992,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Vilket påstående jämför x² och 2x korrekt för x = 3?</p>",
+    "t": "<p>Vilket påstående jämför x² och 2x korrekt för x = 3? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: x² = 9 och 2x = 6. x² betyder x · x = 3 · 3 = 9, medan 2x betyder 2 · 3 = 6.</p></div>",
     "ledtrad": "<p>Jämför vad en exponent och en faktor betyder.</p>",
     "niva": "E",
@@ -37012,7 +37012,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "x² = 6 och 2x = 9.", "ratt": false}, {"txt": "x² = 6 och 2x = 6.", "ratt": false}, {"txt": "x² = 9 och 2x = 9.", "ratt": false}, {"txt": "x² = 9 och 2x = 6.", "ratt": true}]
+    "alternativ": [{"txt": "x² = 6 och 2x = 9.", "ratt": false, "kommentar": "3² betyder 3·3=9, medan 2·3=6."}, {"txt": "x² = 6 och 2x = 6.", "ratt": false, "kommentar": "2·3=6, men 3² betyder 3·3=9."}, {"txt": "x² = 9 och 2x = 9.", "ratt": false, "kommentar": "3² är 9, men 2·3 är 6 och inte 9."}, {"txt": "x² = 9 och 2x = 6.", "ratt": true}]
   },
   {
     "id": "1.908",
@@ -53548,7 +53548,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En linjär funktion har riktningskoefficienten \\(k=-3\\). Vilken beskrivning är korrekt?</p>",
+    "t": "<p>En linjär funktion har riktningskoefficienten \\(k=-3\\). Vilken beskrivning är korrekt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Riktningskoefficienten är</p><div class=\"facit-matte\">\\[\\Delta y/\\Delta x=-3\\].</div></div></li><li><p>För \\(\\Delta x=1\\) blir därför \\(\\Delta y=-3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> När \\(x\\) ökar med 1 minskar \\(y\\) med 3.</p></div></div>",
     "familj": "Linjära funktioner i graf och formel",
     "geogebra": false,
@@ -53567,7 +53567,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tolka linjära funktioner från graf och formel"
     ],
-    "alternativ": [{"txt": "När \\(x\\) ökar med 3 ökar \\(y\\) med 1.", "ratt": false}, {"txt": "När \\(x\\) ökar med 1 ökar \\(y\\) med 3.", "ratt": false}, {"txt": "När \\(x\\) ökar med 3 minskar \\(y\\) med 1.", "ratt": false}, {"txt": "När \\(x\\) ökar med 1 minskar \\(y\\) med 3.", "ratt": true}]
+    "alternativ": [{"txt": "När \\(x\\) ökar med 3 ökar \\(y\\) med 1.", "ratt": false, "kommentar": "När x ökar med 3 ändras y med −3·3=−9."}, {"txt": "När \\(x\\) ökar med 1 ökar \\(y\\) med 3.", "ratt": false, "kommentar": "En negativ riktningskoefficient betyder att y minskar när x ökar."}, {"txt": "När \\(x\\) ökar med 3 minskar \\(y\\) med 1.", "ratt": false, "kommentar": "När x ökar med 3 minskar y med 9, inte med 1."}, {"txt": "När \\(x\\) ökar med 1 minskar \\(y\\) med 3.", "ratt": true}]
   },
   {
     "id": "2.237",
@@ -55881,7 +55881,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Punkten \\((-1,3)\\) ligger på grafen till \\(y=f(x)\\).</p><p>Vilket påstående måste därför vara sant?</p>",
+    "t": "<p>Punkten \\((-1,3)\\) ligger på grafen till \\(y=f(x)\\).</p><p>Vilket påstående måste därför vara sant? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en punkt \\((x,y)\\) på grafen \\(y=f(x)\\) är den första koordinaten indata och den andra funktionsvärdet.</p></li><li><p>Punkten \\((-1,3)\\) betyder därför \\(f(-1)=3\\).</p></li></ol></div></div>",
     "familj": "f(x) i grafer",
     "geogebra": false,
@@ -55900,7 +55900,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tolka funktionsnotation i graf"
     ],
-    "alternativ": [{"txt": "\\(f(-1)=3\\)", "ratt": true}, {"txt": "\\(f(3)=-1\\)", "ratt": false}, {"txt": "\\(f(-1)=-3\\)", "ratt": false}, {"txt": "\\(f(1)=3\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(f(-1)=3\\)", "ratt": true}, {"txt": "\\(f(3)=-1\\)", "ratt": false, "kommentar": "Punktens x-koordinat är −1 och y-koordinaten är 3; de har bytt plats."}, {"txt": "\\(f(-1)=-3\\)", "ratt": false, "kommentar": "När x är −1 är funktionsvärdet 3, inte −3."}, {"txt": "\\(f(1)=3\\)", "ratt": false, "kommentar": "Punkten ger information om x=−1, inte om x=1."}]
   },
   {
     "id": "2.288",
@@ -57390,7 +57390,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En behållare innehåller 96 liter och töms med 6 liter per minut. Modellen är \\(V(t)=96-6t\\) och gäller tills behållaren är tom.</p><p>Vilket påstående beskriver definitionsmängden bäst?</p>",
+    "t": "<p>En behållare innehåller 96 liter och töms med 6 liter per minut. Modellen är \\(V(t)=96-6t\\) och gäller tills behållaren är tom. Här är t tiden i minuter efter att tömningen börjar.</p><p>Vilket påstående beskriver definitionsmängden bäst? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Behållaren blir tom när \\(96-6t=0\\), alltså vid \\(t=16\\).</p></li><li><p>Både startögonblicket och tömningsögonblicket ingår.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\le t\\le16\\).</p></div>",
     "familj": "Definitionsmängd i sammanhang",
     "geogebra": false,
@@ -57410,7 +57410,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Definitionsmängd och värdemängd"
     ],
-    "alternativ": [{"txt": "\\(0\\le t&lt;16\\), eftersom tidpunkten då behållaren blir tom inte kan ingå i modellen.", "ratt": false}, {"txt": "\\(t\\ge0\\), eftersom tiden kan fortsätta även efter att behållaren har blivit tom.", "ratt": false}, {"txt": "\\(0\\le t\\le16\\), eftersom modellen gäller från start till den tid då volymen blir 0.", "ratt": true}, {"txt": "\\(0\\le t\\le96\\), eftersom 96 är den ursprungliga volymen i liter.", "ratt": false}]
+    "alternativ": [{"txt": "\\(0\\le t&lt;16\\), eftersom tidpunkten då behållaren blir tom inte kan ingå i modellen.", "ratt": false, "kommentar": "Tidpunkten när volymen når 0 ingår: modellen gäller tills behållaren är tom."}, {"txt": "\\(t\\ge0\\), eftersom tiden kan fortsätta även efter att behållaren har blivit tom.", "ratt": false, "kommentar": "Efter 16 minuter skulle modellen ge negativ volym och gäller därför inte längre."}, {"txt": "\\(0\\le t\\le16\\), eftersom modellen gäller från start till den tid då volymen blir 0.", "ratt": true}, {"txt": "\\(0\\le t\\le96\\), eftersom 96 är den ursprungliga volymen i liter.", "ratt": false, "kommentar": "96 är startvolymen i liter. Behållaren töms på 96/6=16 minuter."}]
   },
   {
     "id": "2.320",

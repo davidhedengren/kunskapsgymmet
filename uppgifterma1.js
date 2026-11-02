@@ -2160,7 +2160,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Vilken av beräkningarna är inte definierad?</p>",
+    "t": "<p>Vilken av beräkningarna är inte definierad? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: \\(\\frac35\\div0\\). Kvoten skulle vara ett tal som multiplicerat med 0 ger \\(\\frac35\\). Något sådant tal finns inte. De andra beräkningarna ger 0, 0 respektive \\(\\frac35\\).</p></div>",
     "ledtrad": "<p>Hur kan en division kontrolleras med multiplikation?</p>",
     "niva": "E",
@@ -2179,7 +2179,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Division och noll"
     ],
-    "alternativ": [{"txt": "\\(0\\div\\frac35\\)", "ratt": false}, {"txt": "\\(\\frac35\\cdot0\\)", "ratt": false}, {"txt": "\\(\\frac35\\div0\\)", "ratt": true}, {"txt": "\\(0+\\frac35\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(0\\div\\frac35\\)", "ratt": false, "kommentar": "Noll dividerat med ett tal skilt från noll är 0."}, {"txt": "\\(\\frac35\\cdot0\\)", "ratt": false, "kommentar": "Produkten av ett tal och 0 är 0."}, {"txt": "\\(\\frac35\\div0\\)", "ratt": true}, {"txt": "\\(0+\\frac35\\)", "ratt": false, "kommentar": "Att addera 0 ändrar inte talet; värdet är 3/5."}]
   },
   {
     "id": "0.52",
@@ -10367,7 +10367,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket uttryck får värdet 0?</p>",
+    "t": "<p>Vilket uttryck får värdet 0? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva det rätta uttrycket</p><div class=\"facit-matte\">\\[\\begin{gathered}20-(3+2)\\cdot4 =20-5\\cdot4\\\\=20-20 =0\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">De andra uttrycken blir inte 0</p><div class=\"facit-matte\">\\[\\begin{gathered}(20-3+2)\\cdot4=76,\\\\20-3+2\\cdot4=25,\\\\20-3+2-4=15\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20-(3+2)\\cdot4\\)</p></div>",
     "familj": "Parenteser och räknetecken",
     "svarstyp": "alternativ",
@@ -10385,11 +10385,11 @@ window.BANKMA1 = [
     "alternativ": [
       {
         "txt": "\\((20-3+2)\\cdot4\\)",
-        "ratt": false
+        "ratt": false, "kommentar": "Parentesen blir 19 och hela uttrycket 19·4 = 76."
       },
       {
         "txt": "\\(20-3+2\\cdot4\\)",
-        "ratt": false
+        "ratt": false, "kommentar": "Multiplikationen görs först: 20−3+8 = 25."
       },
       {
         "txt": "\\(20-(3+2)\\cdot4\\)",
@@ -10397,7 +10397,7 @@ window.BANKMA1 = [
       },
       {
         "txt": "\\(20-3+2-4\\)",
-        "ratt": false
+        "ratt": false, "kommentar": "Räkna från vänster: 20−3+2−4 = 15."
       }
     ]
   },
@@ -10480,7 +10480,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket uttryck har störst värde?</p>",
+    "t": "<p>Vilket uttryck har störst värde? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I första uttrycket multipliceras bara 2 med 5</p><div class=\"facit-matte\">\\[6+2\\cdot5=6+10=16\\]</div></li><li><p class=\"facit-rubrik\">I andra uttrycket multipliceras hela summan</p><div class=\"facit-matte\">\\[(6+2)\\cdot5=8\\cdot5=40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((6+2)\\cdot5\\)</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "alternativ",
@@ -10498,7 +10498,7 @@ window.BANKMA1 = [
     "alternativ": [
       {
         "txt": "\\(6+2\\cdot5\\)",
-        "ratt": false
+        "ratt": false, "kommentar": "Multiplicera först: 6+2·5 = 16. Jämför med det andra uttryckets värde 40."
       },
       {
         "txt": "\\((6+2)\\cdot5\\)",
@@ -10980,7 +10980,7 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket uttryck har störst värde?</p>",
+    "t": "<p>Vilket uttryck har störst värde? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan parentes räknas från vänster</p><div class=\"facit-matte\">\\[24\\div6\\cdot2=4\\cdot2=8\\]</div></li><li><p class=\"facit-rubrik\">Med parentes är hela produkten divisor</p><div class=\"facit-matte\">\\[24\\div(6\\cdot2)=24\\div12=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\div6\\cdot2\\)</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "alternativ",
@@ -11002,7 +11002,7 @@ window.BANKMA1 = [
       },
       {
         "txt": "\\(24\\div(6\\cdot2)\\)",
-        "ratt": false
+        "ratt": false, "kommentar": "Räkna parentesen först: 24÷(6·2) = 2. Det andra uttrycket är 8."
       }
     ]
   },
@@ -11679,7 +11679,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Vilket av bråken är \\(\\frac{56}{98}\\) förkortat så långt som möjligt?</p>",
+    "t": "<p>Vilket av bråken är \\(\\frac{56}{98}\\) förkortat så långt som möjligt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>56 och 98 kan båda divideras med 14: \\(56\\div14=4\\) och \\(98\\div14=7\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac47\\).</p></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{28}{49}\\) och \\(\\frac{8}{14}\\) har samma värde som \\(\\frac47\\), men är ännu inte i enklaste form.</p></li></ol></div>",
     "ledtrad": "<p>Vilka alternativ går fortfarande att förkorta?</p>",
     "niva": "E",
@@ -11699,7 +11699,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Grundläggande bråkräkning"
     ],
-    "alternativ": [{"txt": "\\(\\frac47\\)", "ratt": true}, {"txt": "\\(\\frac{28}{49}\\)", "ratt": false}, {"txt": "\\(\\frac{8}{14}\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(\\frac47\\)", "ratt": true}, {"txt": "\\(\\frac{28}{49}\\)", "ratt": false, "kommentar": "Bråket har rätt värde, men täljare och nämnare kan båda delas med 7."}, {"txt": "\\(\\frac{8}{14}\\)", "ratt": false, "kommentar": "Bråket har rätt värde, men täljare och nämnare kan båda delas med 2."}]
   },
   {
     "id": "0.302",
@@ -11975,7 +11975,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Utan att räkna om till decimalform: vilket påstående är korrekt?</p>",
+    "t": "<p>Utan att räkna om till decimalform: vilket påstående är korrekt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv med gemensam nämnare</p><p>En gemensam nämnare är \\(9\\cdot11=99\\):</p><div class=\"facit-matte\">\\[\\frac49=\\frac{44}{99},\\qquad\\frac5{11}=\\frac{45}{99}.\\]</div><p>Med samma nämnare jämför vi täljarna. Eftersom \\(44\\lt45\\) är det första bråket mindre.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac49\\lt\\frac5{11}\\).</p></div>",
     "ledtrad": "<p>Vilken gemensam nämnare kan användas för niondelar och elftedelar?</p>",
     "niva": "E",
@@ -11995,7 +11995,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Grundläggande bråkräkning"
     ],
-    "alternativ": [{"txt": "\\(\\frac49&lt;\\frac5{11}\\)", "ratt": true}, {"txt": "\\(\\frac49\\gt \\frac5{11}\\)", "ratt": false}, {"txt": "Bråken är lika stora", "ratt": false}]
+    "alternativ": [{"txt": "\\(\\frac49&lt;\\frac5{11}\\)", "ratt": true}, {"txt": "\\(\\frac49\\gt \\frac5{11}\\)", "ratt": false, "kommentar": "Gemensam nämnare ger 4/9 = 44/99 och 5/11 = 45/99, så det första är mindre."}, {"txt": "Bråken är lika stora", "ratt": false, "kommentar": "Gemensam nämnare ger 44/99 och 45/99. De är inte lika stora."}]
   },
   {
     "id": "0.310",
@@ -12949,7 +12949,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket påstående är korrekt?</p>",
+    "t": "<p>Vilket påstående är korrekt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>1,10 = 1,100, så 1,099 är mindre än 1,100.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,099 &lt; 1,10.</p></div></div>",
     "familj": "Jämföra decimaltal och tallinjen",
     "geogebra": false,
@@ -12968,7 +12968,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Jämföra och ordna decimaltal"
     ],
-    "alternativ": [{"txt": "0,7 &lt; 0,65", "ratt": false}, {"txt": "0,305 &gt; 0,35", "ratt": false}, {"txt": "1,099 &lt; 1,10", "ratt": true}, {"txt": "2,08 &gt; 2,8", "ratt": false}]
+    "alternativ": [{"txt": "0,7 &lt; 0,65", "ratt": false, "kommentar": "Skriv 0,7 som 0,70: det är större än 0,65."}, {"txt": "0,305 &gt; 0,35", "ratt": false, "kommentar": "Skriv 0,35 som 0,350: 0,305 är mindre."}, {"txt": "1,099 &lt; 1,10", "ratt": true}, {"txt": "2,08 &gt; 2,8", "ratt": false, "kommentar": "Skriv 2,8 som 2,80: 2,08 är mindre."}]
   },
   {
     "id": "0.405",

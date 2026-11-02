@@ -27024,7 +27024,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Vilket påstående om \\(5x-3(x-2)\\) är sant för alla x?</p>",
+    "t": "<p>Vilket påstående om \\(5x-3(x-2)\\) är sant för alla x? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: Det är 6 större än 2x. 5x − 3(x − 2) = 5x − 3x + 6 = 2x + 6. Skillnaden från 2x är alltså alltid 6.</p></div>",
     "ledtrad": "<p>Skriv om uttrycket så att dess x-term och konstant syns.</p>",
     "niva": "E",
@@ -27044,7 +27044,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Parentesräkning"
     ],
-    "alternativ": [{"txt": "Det är 6 större än 2x.", "ratt": true}, {"txt": "Det är 6 mindre än 2x.", "ratt": false}, {"txt": "Det är 2 större än 2x.", "ratt": false}, {"txt": "Det är 2 mindre än 2x.", "ratt": false}]
+    "alternativ": [{"txt": "Det är 6 större än 2x.", "ratt": true}, {"txt": "Det är 6 mindre än 2x.", "ratt": false, "kommentar": "Multiplicera även −3 med −2: 5x−3x+6=2x+6."}, {"txt": "Det är 2 större än 2x.", "ratt": false, "kommentar": "Den konstanta termen är 6, eftersom −3 gånger −2 är 6."}, {"txt": "Det är 2 mindre än 2x.", "ratt": false, "kommentar": "Den konstanta termen är +6, inte −2."}]
   },
   {
     "id": "1.83",
@@ -73496,7 +73496,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>En elev påstår att \\(\\sqrt{a^2}=a\\) för alla reella a. Vilket påstående är korrekt?</p>",
+    "t": "<p>En elev påstår att \\(\\sqrt{a^2}=a\\) för alla reella a. Vilket påstående är korrekt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: Det gäller för a ≥ 0; roten är aldrig negativ.</strong> Kvadratroten är per definition icke-negativ. Därför är \\(\\sqrt{a^2}=|a|\\): det är a när \\(a\\ge0\\), men \\(-a\\) när \\(a&lt;0\\).</p></div>",
     "ledtrad": "<p>Testa påståendet med exempelvis \\(a=-3\\). Vad är \\(\\sqrt{(-3)^2}\\)?</p>",
     "niva": "C",
@@ -73516,7 +73516,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Villkor för rot och potens"
     ],
-    "alternativ": [{"txt": "Det gäller för alla a; roten kan vara negativ.", "ratt": false}, {"txt": "Det gäller bara för a = 0; roten är alltid noll.", "ratt": false}, {"txt": "Det gäller för a ≤ 0; roten är aldrig positiv.", "ratt": false}, {"txt": "Det gäller för a ≥ 0; roten är aldrig negativ.", "ratt": true}]
+    "alternativ": [{"txt": "Det gäller för alla a; roten kan vara negativ.", "ratt": false, "kommentar": "Kvadratroten är aldrig negativ. För negativa a är √(a²)=−a."}, {"txt": "Det gäller bara för a = 0; roten är alltid noll.", "ratt": false, "kommentar": "Exempelvis a=2 ger √(2²)=2, så likheten gäller för fler än noll."}, {"txt": "Det gäller för a ≤ 0; roten är aldrig positiv.", "ratt": false, "kommentar": "För negativa a är roten positiv medan a är negativt; de är inte lika."}, {"txt": "Det gäller för a ≥ 0; roten är aldrig negativ.", "ratt": true}]
   },
   {
     "id": "3.211",
@@ -75548,7 +75548,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Två modeller beskriver en minskning under sex år.</p><p>Modell A minskar med 7 % per år. Modell B minskar med totalt 35 % under hela sexårsperioden.</p><p>Vilket påstående jämför modellerna korrekt?</p>",
+    "t": "<p>Två modeller utgår från samma positiva startvärde och beskriver en minskning under sex år.</p><p>Modell A minskar med 7 % per år. Modell B minskar med totalt 35 % under hela sexårsperioden.</p><p>Vilket påstående jämför modellerna korrekt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Modell A behåller faktorn \\(0{,}93^6\\approx0{,}647\\), alltså cirka 64,7 % av startvärdet.</p></li><li><p>Modell B behåller 65 %.</p></li><li><p>Eftersom 65 % är något större än 64,7 % ger modell B ett något högre slutvärde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A lämnar cirka 64,7 % av startvärdet och B lämnar 65 %, så B ger ett något högre slutvärde.</p></div>",
     "familj": "Genomsnittlig förändring i problem",
     "geogebra": false,
@@ -75568,7 +75568,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Genomsnittlig årlig minskning"
     ],
-    "alternativ": [{"txt": "Båda lämnar 65 % av startvärdet, eftersom 7 % per år under sex år motsvarar 35 % totalt.", "ratt": false}, {"txt": "A lämnar 65 % av startvärdet och B cirka 64,7 %, så A ger ett något högre slutvärde.", "ratt": false}, {"txt": "A lämnar 58 % av startvärdet och B lämnar 65 %, så B ger ett mycket högre slutvärde.", "ratt": false}, {"txt": "A lämnar cirka 64,7 % av startvärdet och B lämnar 65 %, så B ger ett något högre slutvärde.", "ratt": true}]
+    "alternativ": [{"txt": "Båda lämnar 65 % av startvärdet, eftersom 7 % per år under sex år motsvarar 35 % totalt.", "ratt": false, "kommentar": "7 % årlig minskning ger faktorn 0,93⁶, ungefär 64,7 %, inte 65 %."}, {"txt": "A lämnar 65 % av startvärdet och B cirka 64,7 %, så A ger ett något högre slutvärde.", "ratt": false, "kommentar": "A lämnar cirka 64,7 % och B lämnar 65 %; de har bytt plats."}, {"txt": "A lämnar 58 % av startvärdet och B lämnar 65 %, så B ger ett mycket högre slutvärde.", "ratt": false, "kommentar": "0,93⁶ är cirka 0,647. B är därför bara något högre än A."}, {"txt": "A lämnar cirka 64,7 % av startvärdet och B lämnar 65 %, så B ger ett något högre slutvärde.", "ratt": true}]
   },
   {
     "id": "3.412",
@@ -77027,7 +77027,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett pris höjs från 200 kr till 220 kr. Vilket påstående stämmer?</p>",
+    "t": "<p>Ett pris höjs från 200 kr till 220 kr. Vilket påstående stämmer? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Ökningen 20 kr jämförs med ursprungspriset 200 kr:</p><div class=\"facit-matte\">\\[\\frac{20}{200}=10\\, \\%\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Priset har ökat med 10 %.</p></div></div>",
     "familj": "Procentenheter och jämförelser",
     "geogebra": false,
@@ -77046,7 +77046,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Jämföra procent, procentenheter och procentuell skillnad"
     ],
-    "alternativ": [{"txt": "Priset har ökat med 10 procentenheter.", "ratt": false}, {"txt": "Priset har ökat med 9 %.", "ratt": false}, {"txt": "Priset har ökat med 20 %.", "ratt": false}, {"txt": "Priset har ökat med 10 %.", "ratt": true}]
+    "alternativ": [{"txt": "Priset har ökat med 10 procentenheter.", "ratt": false, "kommentar": "Procentenheter används för skillnaden mellan två procentsatser, inte mellan två priser."}, {"txt": "Priset har ökat med 9 %.", "ratt": false, "kommentar": "Ökningen är 20 kr av 200 kr, alltså 20/200=10 %."}, {"txt": "Priset har ökat med 20 %.", "ratt": false, "kommentar": "Ökningen är 20 kr, men det är 10 % av det ursprungliga priset 200 kr."}, {"txt": "Priset har ökat med 10 %.", "ratt": true}]
   },
   {
     "id": "3.454",
@@ -77059,7 +77059,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett partis stöd ökar från 20 % till 25 %. Vilket påstående stämmer?</p>",
+    "t": "<p>Ett partis stöd ökar från 20 % till 25 %. Vilket påstående stämmer? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Skillnaden mellan två procentsatser mäts i procentenheter:</p><div class=\"facit-matte\">\\[25-20=5\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stödet ökade med 5 procentenheter.</p></div></div>",
     "familj": "Procentenheter och jämförelser",
     "geogebra": false,
@@ -77078,7 +77078,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Jämföra procent, procentenheter och procentuell skillnad"
     ],
-    "alternativ": [{"txt": "Stödet ökade med 20 procentenheter.", "ratt": false}, {"txt": "Stödet ökade med 5 %.", "ratt": false}, {"txt": "Stödet ökade med 125 %.", "ratt": false}, {"txt": "Stödet ökade med 5 procentenheter.", "ratt": true}]
+    "alternativ": [{"txt": "Stödet ökade med 20 procentenheter.", "ratt": false, "kommentar": "Skillnaden mellan procentsatserna är 25−20=5 procentenheter."}, {"txt": "Stödet ökade med 5 %.", "ratt": false, "kommentar": "Fem procentenheter är inte samma som 5 % relativ ökning; 5/20=25 %."}, {"txt": "Stödet ökade med 125 %.", "ratt": false, "kommentar": "125 % är det nya stödets andel av det gamla; den relativa ökningen är 25 %."}, {"txt": "Stödet ökade med 5 procentenheter.", "ratt": true}]
   },
   {
     "id": "3.541",
@@ -79030,8 +79030,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett värde ökade med totalt 30 % på 3 år. En elev säger att den genomsnittliga ökningen är 10 % per år. Vilket påstående stämmer?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Procentuella förändringar multipliceras.</p></li><li><p>1,1³ ≈ 1,331, alltså blir 10 % per år mer än 30 % totalt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det är fel, eftersom 1,1³ ≈ 1,33 och inte 1,30.</p></div></div>",
+    "t": "<p>Ett värde ökade med totalt 30 % på 3 år. En elev säger att ökningen är 10 % per år om den är lika stor i procent varje år. Vilket påstående stämmer? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Pröva 10 % per år</strong></p><p>Tre års förändringar multipliceras. Med 10 % per år blir faktorn</p>\\[1{,}10^3=1{,}331,\\] <p>vilket motsvarar 33,1 % totalt, inte 30 %.</p><p class=\"facit-rubrik\"><strong>Beräkna en lika stor årlig ökning</strong></p><p>Låt r vara den årliga ökningen i decimalform. Då gäller</p>\\[(1+r)^3=1{,}30\\quad\\Rightarrow\\quad r=\\sqrt[3]{1{,}30}-1\\approx0{,}0914.\\]<p class=\"facit-svar\"><strong>Svar:</strong> 10 % per år stämmer inte. Den lika stora årliga ökningen är cirka 9,1 %.</p></div>",
     "familj": "Från genomsnitt till total förändring",
     "geogebra": false,
     "miniräknare": true,
@@ -79050,7 +79050,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Genomsnittlig årlig förändring"
     ],
-    "alternativ": [{"txt": "Det är rätt, eftersom 30/3 = 10.", "ratt": false}, {"txt": "Det är fel, eftersom ökningen måste vara 30 % per år.", "ratt": false}, {"txt": "Det är rätt, eftersom procent alltid kan delas med antalet år.", "ratt": false}, {"txt": "Det är fel, eftersom 1,1³ ≈ 1,33 och inte 1,30.", "ratt": true}]
+    "alternativ": [{"txt": "Det är rätt, eftersom 30/3 = 10.", "ratt": false, "kommentar": "Årliga procentuella förändringar multipliceras: 1,10³ är ungefär 1,33."}, {"txt": "Det är fel, eftersom ökningen måste vara 30 % per år.", "ratt": false, "kommentar": "30 % gäller för hela perioden. Samma årliga procentsats ger faktorn ³√1,30."}, {"txt": "Det är rätt, eftersom procent alltid kan delas med antalet år.", "ratt": false, "kommentar": "Förändringsfaktorer multipliceras mellan åren, så procenttalen kan inte bara delas."}, {"txt": "Det är fel, eftersom 1,1³ ≈ 1,33 och inte 1,30.", "ratt": true}]
   },
   {
     "id": "3.513",
@@ -79485,8 +79485,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två konton har samma räntesats. Konto A har 5 000 kr och konto B har 10 000 kr. Vilket påstående stämmer efter 10 år utan uttag?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda multipliceras med samma faktor, så kvoten 2 består.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B har dubbelt så mycket som A.</p></div></div>",
+    "t": "<p>Två konton har samma positiva räntesats. Räntan läggs till kontona varje år. Konto A har 5 000 kr och konto B har 10 000 kr. Vilket påstående stämmer efter 10 år utan insättningar eller uttag? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Båda kontona får samma förändringsfaktor</strong></p><p>Låt r vara den årliga räntan i decimalform. Efter tio år är beloppen</p>\\[A=5\\,000(1+r)^{10},\\qquad B=10\\,000(1+r)^{10}.\\]<p>Båda har multiplicerats med samma faktor, och B hade dubbelt så stort startbelopp. B har därför dubbelt så mycket även efter tio år.</p><p class=\"facit-svar\"><strong>Svar:</strong> B har dubbelt så mycket som A.</p></div>",
     "familj": "Jämföra sparformer",
     "geogebra": false,
     "miniräknare": true,
@@ -79505,7 +79505,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Ränta på ränta"
     ],
-    "alternativ": [{"txt": "A har ökat med fler procent än B", "ratt": false}, {"txt": "B har 5 000 kr mer än A", "ratt": false}, {"txt": "B har dubbelt så mycket som A", "ratt": true}, {"txt": "A och B har lika mycket ränta", "ratt": false}]
+    "alternativ": [{"txt": "A har ökat med fler procent än B", "ratt": false, "kommentar": "Samma räntesats ger samma procentuella ökning för båda kontona."}, {"txt": "B har 5 000 kr mer än A", "ratt": false, "kommentar": "Med positiv ränta växer också skillnaden mellan kontona; den blir större än 5 000 kr."}, {"txt": "B har dubbelt så mycket som A", "ratt": true}, {"txt": "A och B har lika mycket ränta", "ratt": false, "kommentar": "Samma räntesats ger dubbelt så stor ränteökning i kronor på det dubbelt så stora beloppet."}]
   },
   {
     "id": "3.542",

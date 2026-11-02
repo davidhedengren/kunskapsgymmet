@@ -94527,7 +94527,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken av storheterna mäts i enheten cm²?</p>",
+    "t": "<p>Vilken av storheterna mäts i enheten cm²? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>cm² är en areaenhet.</p></li><li><p>Begränsningsarean är en area.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En lådas begränsningsarea.</p></div></div>",
     "familj": "Begränsningsarea",
     "geogebra": false,
@@ -94543,7 +94543,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "En lådas begränsningsarea", "ratt": true}, {"txt": "En lådas volym", "ratt": false}, {"txt": "En lådas massa", "ratt": false}, {"txt": "En lådas längd", "ratt": false}]
+    "alternativ": [{"txt": "En lådas begränsningsarea", "ratt": true}, {"txt": "En lådas volym", "ratt": false, "kommentar": "Volym mäts i kubikenheter, exempelvis cm³."}, {"txt": "En lådas massa", "ratt": false, "kommentar": "Massa kan exempelvis anges i gram eller kilogram, inte cm²."}, {"txt": "En lådas längd", "ratt": false, "kommentar": "Längd kan exempelvis anges i cm; cm² är en areaenhet."}]
   },
   {
     "id": "4.569",
@@ -95914,8 +95914,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Tre oberoende hjul visar heltal. På hjul A är sannolikheten för udda tal 0,40, på B är resultatet alltid jämnt och på C alltid udda.</p><p>Vilket påstående är korrekt om sannolikheten att summan av de tre resultaten blir udda?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>B är alltid jämn och C alltid udda, så B+C är alltid udda.</p></li><li><p>För att totalsumman ska vara udda måste A då vara jämn.</p></li><li><p>Det sker med sannolikheten (1-0,40=0,60).</p></li></ol><p class=\"facit-svar\"><strong>Svar: 60 %, eftersom B+C alltid är udda och A därför måste vara jämn.</strong></p></div>",
+    "t": "<p>Tre oberoende hjul visar heltal. På hjul A är sannolikheten för udda tal 0,40, på B är resultatet alltid jämnt och på C alltid udda.</p><p>Vilket påstående är korrekt om sannolikheten att summan av de tre resultaten blir udda? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>B är alltid jämn och C alltid udda, så B+C är alltid udda.</p></li><li><p>För att totalsumman ska vara udda måste A då vara jämn.</p></li><li><p>Det sker med sannolikheten \\(1-0{,}40=0{,}60\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: 60 %, eftersom B+C alltid är udda och A därför måste vara jämn.</strong></p></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
     "miniräknare": true,
@@ -95934,7 +95934,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Sannolikhet i flera steg"
     ],
-    "alternativ": [{"txt": "60 %, eftersom B+C alltid är udda och A därför måste vara jämn.", "ratt": true}, {"txt": "40 %, eftersom B+C alltid är udda och A därför måste vara udda.", "ratt": false}, {"txt": "60 %, eftersom B+C alltid är jämn och A därför måste vara udda.", "ratt": false}, {"txt": "40 %, eftersom B+C alltid är jämn och A därför måste vara jämn.", "ratt": false}]
+    "alternativ": [{"txt": "60 %, eftersom B+C alltid är udda och A därför måste vara jämn.", "ratt": true}, {"txt": "40 %, eftersom B+C alltid är udda och A därför måste vara udda.", "ratt": false, "kommentar": "B+C är udda. Om A också är udda blir summan jämn."}, {"txt": "60 %, eftersom B+C alltid är jämn och A därför måste vara udda.", "ratt": false, "kommentar": "Ett jämnt och ett udda tal har udda summa."}, {"txt": "40 %, eftersom B+C alltid är jämn och A därför måste vara jämn.", "ratt": false, "kommentar": "B är jämnt och C udda, så deras summa är udda."}]
   },
   {
     "id": "5.21",
@@ -96800,7 +96800,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett lyckohjul ska ha 15 lika stora fält och bara rött, blått och grönt. Kraven är \\(P(\\text{grönt})=1/3\\) och \\(P(\\text{rött})=2P(\\text{blått})\\). Vilket påstående är korrekt?</p>",
+    "t": "<p>Ett lyckohjul ska ha 15 lika stora fält och bara rött, blått och grönt. Kraven är \\(P(\\text{grönt})=1/3\\) och \\(P(\\text{rött})=2P(\\text{blått})\\). Vilket påstående är korrekt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grönt måste ha 5 fält, så 10 fält återstår.</p></li><li><p>Om blått har \\(b\\) fält måste rött ha \\(2b\\), vilket kräver \\(3b=10\\).</p></li><li><p>Det ger inget heltal.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Det går inte, eftersom de 10 icke-gröna fälten inte kan delas i förhållandet 2:1 med helt antal fält.</strong></p></div>",
     "familj": "Klassisk sannolikhet",
     "geogebra": false,
@@ -96819,7 +96819,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Grundläggande sannolikhet"
     ],
-    "alternativ": [{"txt": "Det går: 5 gröna, 6 röda och 4 blå.", "ratt": false}, {"txt": "Det går inte, eftersom 15 inte är delbart med 3.", "ratt": false}, {"txt": "Det går: 5 gröna, 5 röda och 5 blå.", "ratt": false}, {"txt": "Det går inte, eftersom de 10 icke-gröna fälten inte kan delas i förhållandet 2:1 med helt antal fält.", "ratt": true}]
+    "alternativ": [{"txt": "Det går: 5 gröna, 6 röda och 4 blå.", "ratt": false, "kommentar": "Med 6 röda och 4 blå är antalet röda inte dubbelt så stort."}, {"txt": "Det går inte, eftersom 15 inte är delbart med 3.", "ratt": false, "kommentar": "15 är delbart med 3. Hindret är att de 10 återstående fälten inte kan delas i hela grupper om tre."}, {"txt": "Det går: 5 gröna, 5 röda och 5 blå.", "ratt": false, "kommentar": "Då är antalet röda lika stort som antalet blå, inte dubbelt så stort."}, {"txt": "Det går inte, eftersom de 10 icke-gröna fälten inte kan delas i förhållandet 2:1 med helt antal fält.", "ratt": true}]
   },
   {
     "id": "5.45",
@@ -98108,7 +98108,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>På sommaren ökar både glassförsäljning och antal badolyckor. Vilken beskrivning av sambandet är mest rimlig?</p>",
+    "t": "<p>På sommaren ökar både glassförsäljning och antal badolyckor. Vilken beskrivning av sambandet är mest rimlig? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varmt väder gör både glass och bad mer vanliga.</p></li><li><p>Det är därför en rimlig gemensam bakomliggande faktor.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Varmt väder kan öka både glassköp och badande och därmed påverka båda variablerna.</strong></p></div>",
     "familj": "Kausalitet och bakomliggande variabler",
     "geogebra": false,
@@ -98128,7 +98128,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Korrelation, kausalitet och bakomliggande variabler"
     ],
-    "alternativ": [{"txt": "Glassförsäljning orsakar badolyckor.", "ratt": false}, {"txt": "Varmt väder kan öka både glassköp och badande och därmed påverka båda variablerna.", "ratt": true}, {"txt": "Badolyckor orsakar ökad glassförsäljning.", "ratt": false}, {"txt": "Eftersom variablerna ökar samtidigt finns ingen möjlig bakomliggande faktor.", "ratt": false}]
+    "alternativ": [{"txt": "Glassförsäljning orsakar badolyckor.", "ratt": false, "kommentar": "Samvariation i sig visar inte att glassförsäljningen orsakar olyckorna."}, {"txt": "Varmt väder kan öka både glassköp och badande och därmed påverka båda variablerna.", "ratt": true}, {"txt": "Badolyckor orsakar ökad glassförsäljning.", "ratt": false, "kommentar": "Att båda ökar samtidigt visar inte att olyckor orsakar glassköp."}, {"txt": "Eftersom variablerna ökar samtidigt finns ingen möjlig bakomliggande faktor.", "ratt": false, "kommentar": "Samtidig ökning utesluter inte en gemensam faktor som exempelvis varmt väder."}]
   },
   {
     "id": "5.82",
@@ -98971,7 +98971,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En förening skickar en enkät till alla sina 350 medlemmar, men bara 210 svarar. Vilken beskrivning är mest korrekt?</p>",
+    "t": "<p>En förening skickar en enkät till alla sina 350 medlemmar, men bara 210 svarar. Vilken beskrivning är mest korrekt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla medlemmar tillfrågades, så avsikten var en totalundersökning.</p></li><li><p>Men 140 personer svarade inte, och om deras åsikter skiljer sig från de svarandes kan resultatet bli snedvridet.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Man försökte göra en totalundersökning, men bortfallet gör att de inkomna svaren ändå kan bli snedvridna.</strong></p></div>",
     "familj": "Bedöma urval och representativitet",
     "geogebra": false,
@@ -98991,7 +98991,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Urval och urvalsmetoder"
     ],
-    "alternativ": [{"txt": "Det är ett vanligt slumpmässigt stickprov, eftersom 210 personer svarade.", "ratt": false}, {"txt": "Man försökte göra en totalundersökning, men bortfallet gör att de inkomna svaren ändå kan bli snedvridna.", "ratt": true}, {"txt": "Det är en fullständig totalundersökning, eftersom enkäten skickades till alla.", "ratt": false}, {"txt": "Bortfall kan inte påverka representativiteten när alla först fick enkäten.", "ratt": false}]
+    "alternativ": [{"txt": "Det är ett vanligt slumpmässigt stickprov, eftersom 210 personer svarade.", "ratt": false, "kommentar": "Antalet som svarar gör inte svaren slumpmässigt utvalda; alla tillfrågades."}, {"txt": "Man försökte göra en totalundersökning, men bortfallet gör att de inkomna svaren ändå kan bli snedvridna.", "ratt": true}, {"txt": "Det är en fullständig totalundersökning, eftersom enkäten skickades till alla.", "ratt": false, "kommentar": "140 personer svarade inte, så de inkomna svaren täcker inte alla medlemmar."}, {"txt": "Bortfall kan inte påverka representativiteten när alla först fick enkäten.", "ratt": false, "kommentar": "Bortfall kan snedvrida resultatet om de som inte svarar skiljer sig från dem som svarar."}]
   },
   {
     "id": "5.107",
@@ -99036,7 +99036,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En skola har 1 200 elever och lottar fram 100 elevnummer ur hela elevregistret. Vilket påstående är mest korrekt?</p>",
+    "t": "<p>En skola har 1 200 elever och lottar fram 100 elevnummer ur hela elevregistret. Vilket påstående är mest korrekt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett slumpmässigt urval ger alla elever möjlighet att bli valda och minskar systematisk snedvridning.</p></li><li><p>Det garanterar däremot inte att ett enskilt stickprov exakt speglar varje egenskap i populationen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Slumpningen minskar risken för systematiskt urval, men urvalet kan ändå av slump avvika något från hela skolan.</strong></p></div>",
     "familj": "Känna igen urvalsmetoder",
     "geogebra": false,
@@ -99056,7 +99056,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Urval och urvalsmetoder"
     ],
-    "alternativ": [{"txt": "Slumpningen garanterar att exakt 1/12 av varje program, kön och årskurs kommer med.", "ratt": false}, {"txt": "Slumpningen minskar risken för systematiskt urval, men urvalet kan ändå av slump avvika något från hela skolan.", "ratt": true}, {"txt": "Slumpningen gör bortfall omöjligt eftersom de utvalda eleverna måste svara.", "ratt": false}, {"txt": "Slumpningen är sämre än att bara fråga elever i cafeterian eftersom den inte väljer de mest lättillgängliga.", "ratt": false}]
+    "alternativ": [{"txt": "Slumpningen garanterar att exakt 1/12 av varje program, kön och årskurs kommer med.", "ratt": false, "kommentar": "Slumpen kan ge olika andelar i ett enskilt urval, även när alla har chans att väljas."}, {"txt": "Slumpningen minskar risken för systematiskt urval, men urvalet kan ändå av slump avvika något från hela skolan.", "ratt": true}, {"txt": "Slumpningen gör bortfall omöjligt eftersom de utvalda eleverna måste svara.", "ratt": false, "kommentar": "Utvalda elever kan fortfarande välja att inte svara, vilket ger bortfall."}, {"txt": "Slumpningen är sämre än att bara fråga elever i cafeterian eftersom den inte väljer de mest lättillgängliga.", "ratt": false, "kommentar": "Att välja lättillgängliga elever kan ge ett systematiskt snett urval."}]
   },
   {
     "id": "5.109",
@@ -102073,7 +102073,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En studie visar att elever som sover mer i genomsnitt har högre provresultat. Vilket påstående stöds direkt av observationen?</p>",
+    "t": "<p>En studie visar att elever som sover mer i genomsnitt har högre provresultat. Vilket påstående stöds direkt av observationen? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Studien visar ett observerat samband, men andra faktorer och orsaksriktningar kan finnas.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Sömnmängd och provresultat samvarierar, men observationen ensam avgör inte orsaken.</strong></p></div>",
     "familj": "Kausalitet och bakomliggande variabler",
     "geogebra": false,
@@ -102093,7 +102093,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Korrelation, kausalitet och bakomliggande variabler"
     ],
-    "alternativ": [{"txt": "Mer sömn är bevisad som den enda orsaken till högre resultat.", "ratt": false}, {"txt": "Det finns inget samband mellan sömn och provresultat.", "ratt": false}, {"txt": "Högre provresultat orsakar alltid längre sömn.", "ratt": false}, {"txt": "Sömnmängd och provresultat samvarierar, men observationen ensam avgör inte orsaken.", "ratt": true}]
+    "alternativ": [{"txt": "Mer sömn är bevisad som den enda orsaken till högre resultat.", "ratt": false, "kommentar": "Observationen visar samvariation men bevisar inte orsaken."}, {"txt": "Det finns inget samband mellan sömn och provresultat.", "ratt": false, "kommentar": "Observationen visar att de två variablerna samvarierar i studien."}, {"txt": "Högre provresultat orsakar alltid längre sömn.", "ratt": false, "kommentar": "Observationen fastslår inte orsak eller orsakens riktning."}, {"txt": "Sömnmängd och provresultat samvarierar, men observationen ensam avgör inte orsaken.", "ratt": true}]
   },
   {
     "id": "5.188",

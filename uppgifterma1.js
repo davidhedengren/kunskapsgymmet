@@ -81504,7 +81504,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Vilket av följande uttryck har samma värde som \\(\\sin 25^\\circ\\)?</p>",
+    "t": "<p>Vilket av följande uttryck har samma värde som \\(\\sin 25^\\circ\\)? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De spetsiga vinklarna i en rätvinklig triangel är komplementvinklar.</p></li><li><div class=\"facit-berakning\"><p>Därför gäller</p><div class=\"facit-matte\">\\[\\sin25^\\circ=\\cos(90^\\circ-25^\\circ)=\\cos65^\\circ\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\cos65^\\circ\\).</strong></p></div>",
     "familj": "Exakta trigonometriska värden och samband",
     "geogebra": false,
@@ -81524,7 +81524,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna med sinus, cosinus och tangens"
     ],
-    "alternativ": [{"txt": "\\(\\cos65^\\circ\\)", "ratt": true}, {"txt": "\\(\\cos25^\\circ\\)", "ratt": false}, {"txt": "\\(\\tan65^\\circ\\)", "ratt": false}, {"txt": "\\(\\sin65^\\circ\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(\\cos65^\\circ\\)", "ratt": true}, {"txt": "\\(\\cos25^\\circ\\)", "ratt": false, "kommentar": "cos 25° är lika med sin 65°, inte sin 25°."}, {"txt": "\\(\\tan65^\\circ\\)", "ratt": false, "kommentar": "Tangens har inte samma komplementvinkelrelation som sinus och cosinus."}, {"txt": "\\(\\sin65^\\circ\\)", "ratt": false, "kommentar": "sin 65° är lika med cos 25°, inte sin 25°."}]
   },
   {
     "id": "4.48",
@@ -89182,7 +89182,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket av följande påståenden visar att en triangel med sidorna 7 cm, 24 cm och 25 cm är rätvinklig?</p>",
+    "t": "<p>Vilket av följande påståenden visar att en triangel med sidorna 7 cm, 24 cm och 25 cm är rätvinklig? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7^2+24^2=49+576=625=25^2\\].</div></li><li><p>Därför är triangeln rätvinklig.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(7^2+24^2=25^2\\).</strong></p></div>",
     "familj": "Bestämma hypotenusan",
     "geogebra": false,
@@ -89201,7 +89201,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Bestämma hypotenusan med Pythagoras sats"
     ],
-    "alternativ": [{"txt": "\\(7+24&gt;25\\)", "ratt": false}, {"txt": "\\(7^2+24^2=25^2\\)", "ratt": true}, {"txt": "\\(7+24=31\\)", "ratt": false}, {"txt": "\\(25-24=1\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(7+24&gt;25\\)", "ratt": false, "kommentar": "Olikheten visar bara att sidorna kan bilda en triangel, inte att den är rätvinklig."}, {"txt": "\\(7^2+24^2=25^2\\)", "ratt": true}, {"txt": "\\(7+24=31\\)", "ratt": false, "kommentar": "Summan 31 visar inte att Pythagoras sats gäller."}, {"txt": "\\(25-24=1\\)", "ratt": false, "kommentar": "Skillnaden 1 mellan två sidor visar inte att Pythagoras sats gäller."}]
   },
   {
     "id": "4.403",
@@ -102238,7 +102238,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket påstående är korrekt?</p>",
+    "t": "<p>Vilket påstående om samband och orsak är korrekt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kontrollerade experiment kan, när de är möjliga och välgjorda, ge bättre stöd för kausala slutsatser än enbart observationer.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Orsak kan ibland undersökas bättre med kontrollerade experiment.</strong></p></div>",
     "familj": "Kausalitet och bakomliggande variabler",
     "geogebra": false,
@@ -102258,7 +102258,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Korrelation, kausalitet och bakomliggande variabler"
     ],
-    "alternativ": [{"txt": "Korrelation bevisar alltid orsak", "ratt": false}, {"txt": "Orsak och korrelation betyder samma sak", "ratt": false}, {"txt": "Orsak kan ibland undersökas bättre med kontrollerade experiment", "ratt": true}]
+    "alternativ": [{"txt": "Korrelation bevisar alltid orsak", "ratt": false, "kommentar": "Två variabler kan samvariera utan att den ena orsakar den andra."}, {"txt": "Orsak och korrelation betyder samma sak", "ratt": false, "kommentar": "Korrelation betyder samvariation; orsak betyder att en förändring påverkar en annan."}, {"txt": "Orsak kan ibland undersökas bättre med kontrollerade experiment", "ratt": true}]
   },
   {
     "id": "5.193",
@@ -102846,7 +102846,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket påstående är bäst?</p>",
+    "t": "<p>Vilket påstående om statistisk signifikans och praktisk betydelse är bäst? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En skillnad kan vara statistiskt tydlig men ändå så liten att den har liten praktisk betydelse.</p></li><li><p>Begreppen är alltså inte samma sak.</p></li></ol><p class=\"facit-svar\"><strong>Svar: En signifikant skillnad kan ändå vara liten i praktiken.</strong></p></div></div>",
     "familj": "Signifikans och statistisk osäkerhet",
     "geogebra": false,
@@ -102865,7 +102865,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Statistisk osäkerhet och signifikans"
     ],
-    "alternativ": [{"txt": "En signifikant skillnad kan ändå vara liten i praktiken", "ratt": true}, {"txt": "Signifikans och praktisk betydelse är samma sak", "ratt": false}]
+    "alternativ": [{"txt": "En signifikant skillnad kan ändå vara liten i praktiken", "ratt": true}, {"txt": "Signifikans och praktisk betydelse är samma sak", "ratt": false, "kommentar": "Statistisk signifikans och hur stor effekten är i praktiken är olika saker."}]
   },
   {
     "id": "5.213",
@@ -103958,7 +103958,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>I en påse finns 20 kulor och alla är lika sannolika att dra. Vilken av följande sannolikheter kan <strong>exakt</strong> vara sannolikheten att dra en röd kula?</p>",
+    "t": "<p>I en påse finns 20 kulor och alla är lika sannolika att dra. Vilken av följande sannolikheter kan <strong>exakt</strong> vara sannolikheten att dra en röd kula? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med 20 kulor måste \\(20p\\) vara ett heltal.</p></li><li><p>Bara \\(20\\cdot0{,}35=7\\) ger ett helt antal röda kulor.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 0,35.</strong></p></div></div>",
     "familj": "Klassisk sannolikhet",
     "geogebra": false,
@@ -103978,7 +103978,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Grundläggande sannolikhet"
     ],
-    "alternativ": [{"txt": "0,35", "ratt": true}, {"txt": "0,33", "ratt": false}, {"txt": "0,36", "ratt": false}, {"txt": "0,37", "ratt": false}]
+    "alternativ": [{"txt": "0,35", "ratt": true}, {"txt": "0,33", "ratt": false, "kommentar": "20·0,33=6,6, men antalet röda kulor måste vara ett heltal."}, {"txt": "0,36", "ratt": false, "kommentar": "20·0,36=7,2, men antalet röda kulor måste vara ett heltal."}, {"txt": "0,37", "ratt": false, "kommentar": "20·0,37=7,4, men antalet röda kulor måste vara ett heltal."}]
   },
   {
     "id": "5.246",
@@ -105894,7 +105894,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket av talen kan <strong>inte</strong> vara en sannolikhet?</p>",
+    "t": "<p>Vilket av talen kan <strong>inte</strong> vara en sannolikhet? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En sannolikhet kan inte vara större än 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,2.</p></div></div>",
     "familj": "Klassisk sannolikhet",
     "geogebra": false,
@@ -105914,7 +105914,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Grundläggande sannolikhet"
     ],
-    "alternativ": [{"txt": "1", "ratt": false}, {"txt": "0,99", "ratt": false}, {"txt": "0", "ratt": false}, {"txt": "1,2", "ratt": true}]
+    "alternativ": [{"txt": "1", "ratt": false, "kommentar": "1 är en möjlig sannolikhet och innebär att händelsen är säker."}, {"txt": "0,99", "ratt": false, "kommentar": "0,99 är mellan 0 och 1 och är därför en möjlig sannolikhet."}, {"txt": "0", "ratt": false, "kommentar": "0 är en möjlig sannolikhet och innebär att händelsen är omöjlig."}, {"txt": "1,2", "ratt": true}]
   },
   {
     "id": "5.417",
@@ -110003,8 +110003,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket av följande är ett exempel på ett avläsningsfel?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avläsningsfel uppstår när mätvärdet läses av felaktigt, t.ex. på grund av parallax.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Man läser av en skala snett och får fel värde.</p></div></div>",
+    "t": "<p>Vilket av följande är ett exempel på ett avläsningsfel? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avläsningsfel uppstår när mätvärdet läses av felaktigt, t.ex. när man ser skalan snett.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Man läser av en skala snett och får fel värde.</p></div></div>",
     "familj": "Felkällor i undersökningar",
     "geogebra": false,
     "miniräknare": true,
@@ -110024,7 +110024,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Felkällor i undersökningar och mätningar"
     ],
-    "alternativ": [{"txt": "Man läser av en skala snett och får fel värde", "ratt": true}, {"txt": "Hälften av de tillfrågade svarar inte", "ratt": false}, {"txt": "Urvalet är för litet", "ratt": false}, {"txt": "Frågan är ledande", "ratt": false}]
+    "alternativ": [{"txt": "Man läser av en skala snett och får fel värde", "ratt": true}, {"txt": "Hälften av de tillfrågade svarar inte", "ratt": false, "kommentar": "Detta är bortfall i en undersökning, inte felavläsning av en skala."}, {"txt": "Urvalet är för litet", "ratt": false, "kommentar": "Ett för litet urval gäller vilka som undersöks, inte avläsningen."}, {"txt": "Frågan är ledande", "ratt": false, "kommentar": "En ledande fråga kan påverka svaren, men är inte ett avläsningsfel."}]
   },
   {
     "id": "5.540",

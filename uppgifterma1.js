@@ -102507,7 +102507,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Alla punkter ligger exakt på en stigande rät linje. Vilken beskrivning är mest precis?</p>",
+    "t": "<p>Alla punkter ligger exakt på en stigande rät linje. Vilken beskrivning är mest precis? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla punkter följer exakt en stigande rät linje.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Perfekt positiv korrelation.</strong></p></div>",
     "familj": "Tolka korrelation",
     "geogebra": false,
@@ -102523,7 +102523,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Ingen korrelation", "ratt": false}, {"txt": "Svag positiv korrelation", "ratt": false}, {"txt": "Perfekt negativ korrelation", "ratt": false}, {"txt": "Perfekt positiv korrelation", "ratt": true}]
+    "alternativ": [{"txt": "Ingen korrelation", "ratt": false, "kommentar": "Punkterna följer exakt en stigande linje, vilket är ett tydligt linjärt samband."}, {"txt": "Svag positiv korrelation", "ratt": false, "kommentar": "Punkterna ligger exakt på linjen, så det linjära sambandet är perfekt."}, {"txt": "Perfekt negativ korrelation", "ratt": false, "kommentar": "En stigande linje ger positiv, inte negativ, korrelation."}, {"txt": "Perfekt positiv korrelation", "ratt": true}]
   },
   {
     "id": "5.202",
@@ -102536,7 +102536,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Alla punkter ligger exakt på en fallande rät linje. Vilken beskrivning är mest precis?</p>",
+    "t": "<p>Alla punkter ligger exakt på en fallande rät linje. Vilken beskrivning är mest precis? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla punkter följer exakt en fallande rät linje.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Perfekt negativ korrelation.</strong></p></div>",
     "familj": "Tolka korrelation",
     "geogebra": false,
@@ -102552,7 +102552,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Perfekt positiv korrelation", "ratt": false}, {"txt": "Ingen korrelation", "ratt": false}, {"txt": "Svag negativ korrelation", "ratt": false}, {"txt": "Perfekt negativ korrelation", "ratt": true}]
+    "alternativ": [{"txt": "Perfekt positiv korrelation", "ratt": false, "kommentar": "En fallande linje ger negativ, inte positiv, korrelation."}, {"txt": "Ingen korrelation", "ratt": false, "kommentar": "Punkterna ligger exakt på en fallande linje och har ett tydligt linjärt samband."}, {"txt": "Svag negativ korrelation", "ratt": false, "kommentar": "Punkterna ligger exakt på linjen, så det linjära sambandet är perfekt."}, {"txt": "Perfekt negativ korrelation", "ratt": true}]
   },
   {
     "id": "5.203",
@@ -102625,7 +102625,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I ett punktdiagram ligger y-värdena ungefär på samma nivå oavsett om x är litet eller stort. Det finns ingen tydlig stigande eller fallande trend. Vilken beskrivning är bäst?</p>",
+    "t": "<p>I ett punktdiagram ligger y-värdena ungefär på samma nivå oavsett om x är litet eller stort. Det finns ingen tydlig stigande eller fallande trend. Vilken beskrivning är bäst? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När y ligger ungefär på samma nivå utan stigande eller fallande trend finns ingen tydlig linjär korrelation.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Ingen tydlig linjär korrelation.</strong></p></div></div>",
     "familj": "Tolka korrelation",
     "geogebra": false,
@@ -102641,7 +102641,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Ingen tydlig linjär korrelation", "ratt": true}, {"txt": "Tydlig negativ korrelation", "ratt": false}, {"txt": "Tydlig positiv korrelation", "ratt": false}, {"txt": "Perfekt positiv korrelation", "ratt": false}]
+    "alternativ": [{"txt": "Ingen tydlig linjär korrelation", "ratt": true}, {"txt": "Tydlig negativ korrelation", "ratt": false, "kommentar": "En negativ linjär korrelation skulle visa en tydlig fallande trend."}, {"txt": "Tydlig positiv korrelation", "ratt": false, "kommentar": "En positiv linjär korrelation skulle visa en tydlig stigande trend."}, {"txt": "Perfekt positiv korrelation", "ratt": false, "kommentar": "Perfekt positiv korrelation kräver att punkterna ligger exakt på en stigande rät linje."}]
   },
   {
     "id": "5.206",
@@ -108701,7 +108701,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två variabler har r = −0,85. Vilken beskrivning stämmer?</p>",
+    "t": "<p>Två variabler har r = −0,85. Vilken beskrivning stämmer? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Minustecknet betyder negativt samband och 0,85 är nära 1, alltså starkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Starkt negativt samband.</p></div></div>",
     "familj": "Tolka korrelation",
     "geogebra": false,
@@ -108718,7 +108718,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Starkt positivt samband", "ratt": false}, {"txt": "Svagt negativt samband", "ratt": false}, {"txt": "Starkt negativt samband", "ratt": true}, {"txt": "Inget samband", "ratt": false}]
+    "alternativ": [{"txt": "Starkt positivt samband", "ratt": false, "kommentar": "Minustecknet visar att det linjära sambandet är negativt, inte positivt."}, {"txt": "Svagt negativt samband", "ratt": false, "kommentar": "Beloppet 0,85 är relativt nära 1 och tyder på ett starkt linjärt samband."}, {"txt": "Starkt negativt samband", "ratt": true}, {"txt": "Inget samband", "ratt": false, "kommentar": "Ett värde nära −1 tyder på ett starkt negativt linjärt samband."}]
   },
   {
     "id": "5.501",
@@ -111002,8 +111002,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En undersökning gjordes med ett skevt urval. Man funderar på att fråga tio gånger så många personer, men på samma sätt. Vilket påstående stämmer?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett större urval minskar den slumpmässiga osäkerheten, men ett systematiskt fel blir inte mindre av att fler tillfrågas på samma sätt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den slumpmässiga osäkerheten minskar, men det systematiska felet finns kvar.</p></div></div>",
+    "t": "<p>En undersökning gjordes med ett skevt urval. Man funderar på att fråga tio gånger så många personer, men på samma sätt. Vilket påstående stämmer? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett större urval kan minska den slumpmässiga osäkerheten, men om fler tillfrågas på samma sneda sätt kan ett systematiskt fel kvarstå.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den slumpmässiga osäkerheten kan minska, men det systematiska felet kan finnas kvar.</p></div></div>",
     "familj": "Bedöma urval och representativitet",
     "geogebra": false,
     "miniräknare": true,
@@ -111019,7 +111019,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "alternativ": [{"txt": "Resultatet blir representativt eftersom urvalet blir större.", "ratt": false}, {"txt": "Både de slumpmässiga och de systematiska felen försvinner.", "ratt": false}, {"txt": "Den slumpmässiga osäkerheten minskar, men det systematiska felet finns kvar.", "ratt": true}, {"txt": "Ett större urval gör alltid resultatet sämre.", "ratt": false}]
+    "alternativ": [{"txt": "Resultatet blir representativt eftersom urvalet blir större.", "ratt": false, "kommentar": "Ett större urval blir inte automatiskt representativt om urvalssättet är snett."}, {"txt": "Både de slumpmässiga och de systematiska felen försvinner.", "ratt": false, "kommentar": "Systematiska fel kan kvarstå även när fler personer tillfrågas på samma sätt."}, {"txt": "Den slumpmässiga osäkerheten kan minska, men det systematiska felet kan finnas kvar.", "ratt": true}, {"txt": "Ett större urval gör alltid resultatet sämre.", "ratt": false, "kommentar": "Fler svar kan minska den slumpmässiga osäkerheten, även om snedvridningen kan finnas kvar."}]
   },
   {
     "id": "5.571",
@@ -119074,7 +119074,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två mätningar är 10,0 ± 0,1 cm och 10,2 ± 0,1 cm. Vilket påstående är korrekt?</p>",
+    "t": "<p>Två mätningar är 10,0 ± 0,1 cm och 10,2 ± 0,1 cm. Vilket påstående är korrekt? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Intervallen är 9,9–10,1 cm respektive 10,1–10,3 cm.</p></li><li><p>De har exakt en gemensam gränspunkt: <strong>10,1 cm</strong>.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Intervallen möts i 10,1 cm.</strong></p></div>",
     "familj": "Mätvärde och osäkerhetsintervall",
     "geogebra": false,
@@ -119093,7 +119093,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Mätfel och felmarginal"
     ],
-    "alternativ": [{"txt": "Intervallen har ett mellanrum på 0,1 cm.", "ratt": false}, {"txt": "Intervallen möts i 10,1 cm.", "ratt": true}, {"txt": "Intervallen överlappar från 10,0 till 10,2 cm.", "ratt": false}, {"txt": "Det första intervallet ligger helt inuti det andra.", "ratt": false}]
+    "alternativ": [{"txt": "Intervallen har ett mellanrum på 0,1 cm.", "ratt": false, "kommentar": "Det första intervallet slutar vid 10,1 cm och det andra börjar där; inget mellanrum finns."}, {"txt": "Intervallen möts i 10,1 cm.", "ratt": true}, {"txt": "Intervallen överlappar från 10,0 till 10,2 cm.", "ratt": false, "kommentar": "Första intervallet slutar vid 10,1 cm och det andra börjar där; de möts bara i den punkten."}, {"txt": "Det första intervallet ligger helt inuti det andra.", "ratt": false, "kommentar": "Det första intervallet börjar vid 9,9 cm, utanför det andra intervallet."}]
   },
   {
     "id": "7.06",
@@ -122632,7 +122632,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Två pumpar fyller lika stora tomma tankar. Pump A har flödet 18 liter/minut och B 12 liter/minut. Vilket påstående gäller oavsett tankarnas volym?</p>",
+    "t": "<p>Två pumpar fyller lika stora tomma tankar. Pump A har flödet 18 liter/minut och B 12 liter/minut. Vilket påstående gäller oavsett tankarnas volym? Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: A tar 2/3 av tiden som B behöver. Fylltiden är volym/flöde. Därför är t_A/t_B = 12/18 = 2/3. En skillnad på 6 liter/minut innebär inte en skillnad på 6 minuter.</p></div>",
     "ledtrad": "<p>Hur påverkar större flöde den tid som behövs?</p>",
     "niva": "E",
@@ -122651,7 +122651,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Yrkesformler"
     ],
-    "alternativ": [{"txt": "A tar 2/3 av tiden som B behöver.", "ratt": true}, {"txt": "A tar 6 minuter mindre tid än B.", "ratt": false}, {"txt": "A och B behöver lika lång tid.", "ratt": false}, {"txt": "A tar 1,5 gånger så lång tid som B.", "ratt": false}]
+    "alternativ": [{"txt": "A tar 2/3 av tiden som B behöver.", "ratt": true}, {"txt": "A tar 6 minuter mindre tid än B.", "ratt": false, "kommentar": "Skillnaden i flöde är 6 liter per minut; tidsskillnaden beror på tankarnas volym."}, {"txt": "A och B behöver lika lång tid.", "ratt": false, "kommentar": "För samma volym tar det kortare tid med det större flödet 18 liter per minut."}, {"txt": "A tar 1,5 gånger så lång tid som B.", "ratt": false, "kommentar": "Det är B som tar 1,5 gånger tiden för A, eftersom 18/12=1,5."}]
   },
   {
     "id": "7.89",

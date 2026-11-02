@@ -13983,6 +13983,7 @@ window.BANKMATO1 = [
   "spelDelar": [
     {
       "etikett": "a",
+        "ledtrad": "<p>När du deriverar \\(e^{ax}\\) multiplicerar du med konstanten \\(a\\).</p>",
       "t": "<p>Funktionen är \\(f(x)=3e^{0{,}5x}\\).</p><p>Bestäm \\(f'(x)\\).</p>",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan av \\(e^{0{,}5x}\\) innehåller faktorn 0,5 från exponenten.</p><div class=\"facit-matte\">\\[f'(x)=3\\cdot0{,}5e^{0{,}5x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(f'(x)=1{,}5e^{0{,}5x}\\).</strong></p></div>",
       "traningsniva": 2,

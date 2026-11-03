@@ -32119,8 +32119,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "niva": "E",
     "poang": "1/0/0",
     "typ": "när är höjden positiv",
-    "t": "<p>En båge följer \\(h(x)=-x^2+4x\\), där \\(x\\) och \\(h\\) mäts i meter. För vilka \\(x\\) ligger bågen ovanför marken, alltså \\(h(x)>0\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-x^2+4x=-x(x-4)\\]</div></li><li><p>Nollställena är 0 och 4. Parabeln är nedåtvänd, så den är positiv mellan nollställena.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0<x<4\\)</p></div>",
+    "t": "<p>En båge följer \\(h(x)=-x^2+4x\\), där \\(x\\) och \\(h\\) mäts i meter. För vilka \\(x\\) ligger bågen ovanför marken, alltså \\(h(x)>0\\)? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-x^2+4x=-x(x-4)\\]</div></li><li><p>Nollställena är 0 och 4. Parabeln är nedåtvänd, så den är positiv mellan nollställena.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0&lt;x&lt;4\\)</p></div>",
     "familj": "Olikheter och intervall",
     "formaga": [
       "begrepp"
@@ -32137,16 +32137,16 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "tolerans": null,
     "alternativ": [
       {
-        "txt": "\\(0<x<4\\)",
+        "txt": "\\(0&lt;x&lt;4\\)",
         "ratt": true
       },
       {
-        "txt": "\\(x<0\\) eller \\(x>4\\)",
+        "txt": "\\(x&lt;0\\) eller \\(x>4\\)",
         "ratt": false,
         "kommentar": "Där är bågen under marken."
       },
       {
-        "txt": "\\(0<x<2\\)",
+        "txt": "\\(0&lt;x&lt;2\\)",
         "ratt": false,
         "kommentar": "Bågen fortsätter ovanför marken till x = 4."
       },

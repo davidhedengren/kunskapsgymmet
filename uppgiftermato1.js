@@ -103417,7 +103417,7 @@ window.BANKMATO1 = [
     {
       "txt": "Negativt",
       "ratt": true,
-      "kommentar": "För 0<x<1 är ln x mindre än 0."
+      "kommentar": "För 0 &lt; x &lt; 1 är ln x mindre än 0."
     },
     {
       "txt": "Noll",

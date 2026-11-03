@@ -26,6 +26,10 @@ const {chromium}=require('playwright'),path=require('node:path'),assert=require(
    await p.evaluate(()=>prep({id:'2.17',part:1}));await p.locator('#ans-0').fill(value);await p.evaluate(()=>checkAnswer());assert.deepEqual(await p.evaluate(()=>window.testResult),[want],`2.17 b ${value}`);
   }
   await p.evaluate(()=>{prep({id:'2.17',part:1});showSolution()});assert.equal(await p.locator('.task .katex-error').count(),0,'2.17 b facit');assert.match(await p.locator('.task').innerText(),/kvotregeln/);
+  await p.evaluate(()=>selectCourse('ma2'));
+  for(const [id,good,bad] of [['4.94',['68','68,2','68,3'],['50','95']],['4.105',['95','95,4','95,45'],['68','90']],['4.110',['68','68,2','68,3'],['50','95']],['4.122',['68','68,2','68,3'],['50','95']],['4.181',['68','68,2','68,3'],['50','95']]]){
+   for(const [want,values] of [[true,good],[false,bad]])for(const value of values){await p.evaluate(id=>prep({id,part:null}),id);await p.locator('#ans-0').fill(value);await p.evaluate(()=>checkAnswer());assert.deepEqual(await p.evaluate(()=>window.testResult),[want],`${id} ${value}`)}
+  }
  }
  assert.deepEqual(errors,[]);console.log('Rapporterade svar och figurer kontrollerade på mobil och dator.');
 }finally{await b.close()}})().catch(e=>{console.error(e);process.exitCode=1});

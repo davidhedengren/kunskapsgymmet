@@ -36296,7 +36296,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera.</p><p>a) \\(f(x)=4\\sin x-3\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\tan x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=5\\cos(2x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=2\\sin(3x)-\\cos(4x)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Identifiera medellinje, amplitud och period var för sig.</p></li><li><p>Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(f'(x)=4\\cos x+3\\sin x\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(g'(x)=1/\\cos^2x\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(h'(x)=-10\\sin2x\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(p'(x)=6\\cos3x+4\\sin4x\\)</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Derivera varje term för sig: derivatan av \\(\\sin x\\) är \\(\\cos x\\), och derivatan av \\(\\cos x\\) är \\(-\\sin x\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=4\\cos x+3\\sin x\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Skriv först \\(\\tan x=\\dfrac{\\sin x}{\\cos x}\\). Med kvotregeln får vi</p><div class=\"facit-matte\">\\[g'(x)=\\frac{\\cos x\\cdot\\cos x-\\sin x\\cdot(-\\sin x)}{\\cos^2 x}=\\frac{\\cos^2x+\\sin^2x}{\\cos^2x}.\\]</div><p>Eftersom \\(\\cos^2x+\\sin^2x=1\\) förenklas täljaren till 1. Här krävs \\(\\cos x\\ne0\\), precis som för tangens.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(g'(x)=\\dfrac{1}{\\cos^2x}\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Använd kedjeregeln. Den inre funktionen \\(2x\\) har derivatan 2 och derivatan av cosinus är minus sinus.</p><div class=\"facit-matte\">\\[h'(x)=5\\cdot(-\\sin(2x))\\cdot2=-10\\sin(2x).\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(h'(x)=-10\\sin(2x)\\).</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Använd kedjeregeln för båda termerna: derivatorna av de inre funktionerna är 3 respektive 4.</p><div class=\"facit-matte\">\\[p'(x)=2\\cdot3\\cos(3x)+4\\sin(4x)=6\\cos(3x)+4\\sin(4x).\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(p'(x)=6\\cos(3x)+4\\sin(4x)\\).</p></div></div>",
     "familj": "Derivering av trigonometriska funktioner",
     "formaga": [
       "procedur"
@@ -36338,7 +36338,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(f(x)=4\\sin x-3\\cos x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=4\\cos x+3\\sin x\\].</div></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Derivera varje term för sig: derivatan av \\(\\sin x\\) är \\(\\cos x\\), och derivatan av \\(\\cos x\\) är \\(-\\sin x\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=4\\cos x+3\\sin x\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -36347,7 +36347,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(g(x)=\\tan x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[g'(x)=1/\\cos^2x\\].</div></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv först \\(\\tan x=\\dfrac{\\sin x}{\\cos x}\\). Med kvotregeln får vi</p><div class=\"facit-matte\">\\[g'(x)=\\frac{\\cos x\\cdot\\cos x-\\sin x\\cdot(-\\sin x)}{\\cos^2 x}=\\frac{\\cos^2x+\\sin^2x}{\\cos^2x}.\\]</div><p>Eftersom \\(\\cos^2x+\\sin^2x=1\\) förenklas täljaren till 1. Här krävs \\(\\cos x\\ne0\\), precis som för tangens.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(g'(x)=\\dfrac{1}{\\cos^2x}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -36356,7 +36356,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(h(x)=5\\cos(2x)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h'(x)=-10\\sin2x\\].</div></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd kedjeregeln. Den inre funktionen \\(2x\\) har derivatan 2 och derivatan av cosinus är minus sinus.</p><div class=\"facit-matte\">\\[h'(x)=5\\cdot(-\\sin(2x))\\cdot2=-10\\sin(2x).\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(h'(x)=-10\\sin(2x)\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -36365,7 +36365,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(p(x)=2\\sin(3x)-\\cos(4x)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p'(x)=6\\cos3x+4\\sin4x\\].</div></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Använd kedjeregeln för båda termerna: derivatorna av de inre funktionerna är 3 respektive 4.</p><div class=\"facit-matte\">\\[p'(x)=2\\cdot3\\cos(3x)+4\\sin(4x)=6\\cos(3x)+4\\sin(4x).\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(p'(x)=6\\cos(3x)+4\\sin(4x)\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -36373,7 +36373,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Derivera sinus och cosinus termvis. För tangens kan du skriva tan x = sin x / cos x och använda kvotregeln; använd kedjeregeln när vinkeln innehåller en faktor.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,

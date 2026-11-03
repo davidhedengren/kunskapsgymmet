@@ -98590,8 +98590,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Avgör om påståendena är rimliga.</p><p>a) ”Inte statistiskt signifikant” betyder alltid att grupperna är exakt lika.<br>b) En statistiskt signifikant skillnad kan ändå vara liten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Falskt.</strong> Resultatet kan vara för osäkert för att visa en skillnad även om en verklig skillnad finns.<br>b) <strong>Sant.</strong></p></li></ol></div></div></div></div>",
+    "t": "<p>Avgör om påståendena är sanna eller falska.</p><p>a) ”Inte statistiskt signifikant” betyder alltid att grupperna är exakt lika.<br>b) En statistiskt signifikant skillnad kan ändå vara liten.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a) Falskt.</strong> Inte signifikant betyder inte att grupperna måste vara exakt lika; undersökningen kan vara för osäker för att påvisa en verklig skillnad.</p><p><strong>b) Sant.</strong> En skillnad kan vara liten men ändå statistiskt signifikant om den statistiska osäkerheten är tillräckligt liten.</p></div>",
     "familj": "Signifikans och statistisk osäkerhet",
     "geogebra": false,
     "miniräknare": true,
@@ -98614,23 +98614,47 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Avgör om påståendena är rimliga.</p><p>”Inte statistiskt signifikant” betyder alltid att grupperna är exakt lika.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Falskt.</strong> Resultatet kan vara för osäkert för att visa en skillnad även om en verklig skillnad finns.</p></li></ol></div>",
+        "t": "<p>Är påståendet sant eller falskt? Välj ett alternativ.</p><p>”Inte statistiskt signifikant” betyder alltid att grupperna är exakt lika.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Inte signifikant betyder inte att grupperna måste vara exakt lika; undersökningen kan vara för osäker för att påvisa en verklig skillnad.</p><p class=\"facit-svar\"><strong>Svar:</strong> Falskt.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "ledtrad": "<p>Kan en undersökning med få deltagare missa en skillnad som faktiskt finns?</p>",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "alternativ": [
+          {
+            "txt": "Sant",
+            "ratt": false,
+            "kommentar": "Inte signifikant betyder inte att grupperna måste vara exakt lika; undersökningen kan vara för osäker för att påvisa en verklig skillnad."
+          },
+          {
+            "txt": "Falskt",
+            "ratt": true,
+            "kommentar": "Inte signifikant betyder inte att grupperna måste vara exakt lika; undersökningen kan vara för osäker för att påvisa en verklig skillnad."
+          }
+        ]
       },
       {
         "etikett": "b",
-        "t": "<p>Avgör om påståendena är rimliga.</p><p>En statistiskt signifikant skillnad kan ändå vara liten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Sant.</strong></p></div>",
+        "t": "<p>Är påståendet sant eller falskt? Välj ett alternativ.</p><p>En statistiskt signifikant skillnad kan ändå vara liten.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p>En skillnad kan vara liten men ändå statistiskt signifikant om den statistiska osäkerheten är tillräckligt liten.</p><p class=\"facit-svar\"><strong>Svar:</strong> Sant.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "ledtrad": "<p>Skilj på hur stor skillnaden är och hur tydligt stöd undersökningen ger för den.</p>",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "alternativ": [
+          {
+            "txt": "Sant",
+            "ratt": true,
+            "kommentar": "En skillnad kan vara liten men ändå statistiskt signifikant om den statistiska osäkerheten är tillräckligt liten."
+          },
+          {
+            "txt": "Falskt",
+            "ratt": false,
+            "kommentar": "En skillnad kan vara liten men ändå statistiskt signifikant om den statistiska osäkerheten är tillräckligt liten."
+          }
+        ]
       }
     ],
     "familjTidigare": [
@@ -110502,8 +110526,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En undersökning med 1 000 personer har felmarginalen ±3 procentenheter. Ungefär hur stor blir felmarginalen med 4 000 personer? (Felmarginalen är ungefär proportionell mot 1 delat med roten ur stickprovets storlek.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Fyra gånger större stickprov ger √4 = 2 gånger mindre felmarginal:</p><div class=\"facit-matte\">\\[\\frac{3}{2}=1{,}5\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>1,5</strong></p></div></div>",
+    "t": "<p>En undersökning med 1 000 personer har felmarginalen ±3 procentenheter. Ungefär hur stor blir felmarginalen med 4 000 personer? Svara i procentenheter. (Felmarginalen är ungefär proportionell mot 1 delat med roten ur stickprovets storlek.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Jämför stickprovens storlek</strong></p><p>4 000 är fyra gånger så många som 1 000. Roten ur 4 är 2, så felmarginalen halveras.</p><div class=\"facit-matte\">\\[3/2=1{,}5\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 1,5 procentenheter.</p></div>",
     "familj": "Signifikans och statistisk osäkerhet",
     "geogebra": false,
     "miniräknare": true,
@@ -110516,7 +110540,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Osäkerhetsintervallet är resultatet minus felmarginalen till resultatet plus felmarginalen.</p>",
+    "ledtrad": "<p>Hur många gånger större är stickprovet? Hur påverkas felmarginalen av roten ur den faktorn?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,

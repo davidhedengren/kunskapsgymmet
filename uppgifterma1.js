@@ -98369,8 +98369,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Vilken beskrivning fångar bäst vad ”statistiskt signifikant” ungefär betyder?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Statistisk signifikans handlar om hur förenligt resultatet är med slumpvariation under en statistisk nollmodell.</p></li><li><p>Det säger inte automatiskt att skillnaden är stor, praktiskt viktig eller att urvalet är representativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Resultatet ger tillräckligt starkt stöd mot att den observerade skillnaden enbart beror på slumpvariation, enligt den valda testnivån.</strong></p></div>",
+    "t": "<p>Vad innebär statistisk signifikans på en vald signifikansnivå? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Jämför resultatet med nollhypotesen</strong></p><p>Om nollhypotesen och testets modell stämmer beräknas hur sannolikt ett minst lika extremt resultat är. När p-värdet ligger under den valda signifikansnivån kallas resultatet statistiskt signifikant.</p><p>Det garanterar inte att skillnaden är praktiskt viktig eller att urvalet är representativt.</p><p class=\"facit-svar\"><strong>Svar:</strong> Ett minst lika extremt resultat är enligt nollhypotesen och modellen tillräckligt ovanligt på den valda nivån.</p></div>",
     "familj": "Signifikans och statistisk osäkerhet",
     "geogebra": false,
     "miniräknare": true,
@@ -98388,7 +98388,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Statistisk osäkerhet och signifikans"
     ],
-    "alternativ": [{"txt": "Skillnaden är så stor att den måste vara viktig i praktiken.", "ratt": false}, {"txt": "Undersökningen är automatiskt representativ för hela befolkningen.", "ratt": false}, {"txt": "De två grupperna är garanterat olika i varje tänkbar population.", "ratt": false}, {"txt": "Resultatet ger tillräckligt starkt stöd mot att den observerade skillnaden enbart beror på slumpvariation, enligt den valda testnivån.", "ratt": true}]
+    "alternativ": [{"txt": "Skillnaden är så stor att den måste vara viktig i praktiken.", "ratt": false, "kommentar": "En statistiskt signifikant skillnad kan vara så liten att den har liten praktisk betydelse."}, {"txt": "Undersökningen är automatiskt representativ för hela befolkningen.", "ratt": false, "kommentar": "Signifikans garanterar inte att urvalet är representativt."}, {"txt": "De två grupperna är garanterat olika i varje tänkbar population.", "ratt": false, "kommentar": "Signifikans ger ingen sådan garanti för alla populationer."}, {"txt": "Om nollhypotesen och testets modell stämmer är ett minst lika extremt resultat så ovanligt att p-värdet ligger under den valda signifikansnivån.", "ratt": true}]
   },
   {
     "id": "5.91",
@@ -102420,8 +102420,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två punktmoln har båda en fallande trend. I punktmoln A ligger punkterna tätt kring trenden, medan de i punktmoln B ligger betydligt mer utspridda. Vilket påstående är bäst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda punktmolnen har <strong>negativ</strong> riktning.</p></li><li><p>Det tätare punktmolnet A visar det starkare linjära sambandet.</p></li></ol><p class=\"facit-svar\"><strong>Svar: A visar starkare negativ korrelation än B.</strong></p></div></div>",
+    "t": "<p>Diagrammen visar två punktmoln. Vilket påstående beskriver deras linjära samband bäst? Välj ett alternativ.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 580 215\" role=\"img\" aria-label=\"Två punktdiagram med samma skala. A har fem punkter på en fallande rät linje. B har fem punkter med fallande trend som inte ligger på en rät linje.\" style=\"width:100%;max-width:580px\"><title>Punktmoln A och B</title><rect width=\"580\" height=\"215\" fill=\"#fff\"/><g fill=\"none\" stroke=\"#334155\" stroke-width=\"2\"><path d=\"M55 25V175H245\"/><path d=\"M335 25V175H525\"/></g><g font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#1e293b\"><text x=\"55\" y=\"20\">Punktmoln A</text><text x=\"335\" y=\"20\">Punktmoln B</text><text x=\"245\" y=\"196\">x</text><text x=\"36\" y=\"35\">y</text><text x=\"525\" y=\"196\">x</text><text x=\"316\" y=\"35\">y</text></g><g fill=\"#176a89\"><circle cx=\"75\" cy=\"45\" r=\"5\"/><circle cx=\"110\" cy=\"70\" r=\"5\"/><circle cx=\"145\" cy=\"95\" r=\"5\"/><circle cx=\"180\" cy=\"120\" r=\"5\"/><circle cx=\"215\" cy=\"145\" r=\"5\"/><circle cx=\"355\" cy=\"55\" r=\"5\"/><circle cx=\"390\" cy=\"45\" r=\"5\"/><circle cx=\"425\" cy=\"105\" r=\"5\"/><circle cx=\"460\" cy=\"90\" r=\"5\"/><circle cx=\"495\" cy=\"155\" r=\"5\"/></g></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Jämför riktning och hur väl punkterna följer en linje</strong></p><p>I A ligger alla punkter exakt på en fallande rät linje. Sambandet är därför perfekt negativt.</p><p>I B finns också en fallande trend, men punkterna ligger inte på en rät linje. Det negativa linjära sambandet är därmed svagare än i A.</p><p class=\"facit-svar\"><strong>Svar:</strong> A visar starkare negativ korrelation än B.</p></div>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": true,
@@ -102436,7 +102436,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "A visar starkare negativ korrelation än B.", "ratt": true}, {"txt": "B visar starkare negativ korrelation än A, eftersom spridningen är större.", "ratt": false}, {"txt": "De visar lika stark korrelation, eftersom båda trenderna faller.", "ratt": false}, {"txt": "A visar positiv korrelation och B negativ korrelation.", "ratt": false}]
+    "alternativ": [{"txt": "A visar starkare negativ korrelation än B.", "ratt": true}, {"txt": "B visar starkare negativ korrelation än A, eftersom spridningen är större.", "ratt": false, "kommentar": "I A ligger alla punkter exakt på en fallande linje; B har en negativ trend men är inte perfekt."}, {"txt": "De visar lika stark korrelation, eftersom båda trenderna faller.", "ratt": false, "kommentar": "Båda är negativa, men A är perfekt linjärt och B är det inte."}, {"txt": "A visar positiv korrelation och B negativ korrelation.", "ratt": false, "kommentar": "En fallande trend innebär negativ, inte positiv, korrelation."}]
   },
   {
     "id": "5.199",
@@ -109097,8 +109097,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket påstående är sant?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Korrelation är ett nödvändigt tecken att undersöka, men räcker inte som bevis.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett orsakssamband ger oftast en korrelation, men en korrelation behöver inte betyda orsakssamband.</p></div></div>",
+    "t": "<p>Vilket påstående om korrelation och orsak är sant? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Samvariation visar inte orsaken</strong></p><p>Korrelation beskriver hur två variabler samvarierar. En bakomliggande faktor kan påverka båda, så samvariation visar inte i sig att den ena orsakar den andra.</p><p>Välplanerade experiment kan ibland undersöka orsakssamband. Även ett starkt korrelationsvärde bevisar inte orsak.</p><p class=\"facit-svar\"><strong>Svar:</strong> En korrelation visar samvariation men är inte i sig ett bevis för orsakssamband.</p></div>",
     "familj": "Kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": true,
@@ -109118,7 +109118,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Korrelation, kausalitet och bakomliggande variabler"
     ],
-    "alternativ": [{"txt": "Korrelation och kausalitet betyder samma sak", "ratt": false}, {"txt": "Kausalitet kan aldrig undersökas", "ratt": false}, {"txt": "Om r = 0,9 är orsakssambandet bevisat", "ratt": false}, {"txt": "Ett orsakssamband ger oftast en korrelation, men en korrelation behöver inte betyda orsakssamband", "ratt": true}]
+    "alternativ": [{"txt": "Korrelation och kausalitet betyder samma sak", "ratt": false, "kommentar": "Korrelation är samvariation; kausalitet handlar om orsak och verkan."}, {"txt": "Kausalitet kan aldrig undersökas", "ratt": false, "kommentar": "Orsakssamband kan ibland undersökas genom välplanerade experiment."}, {"txt": "Om r = 0,9 är orsakssambandet bevisat", "ratt": false, "kommentar": "En stark korrelation visar samvariation men bevisar inte orsak."}, {"txt": "En korrelation visar samvariation men är inte i sig ett bevis för orsakssamband.", "ratt": true}]
   },
   {
     "id": "5.513",

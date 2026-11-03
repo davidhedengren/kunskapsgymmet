@@ -148445,7 +148445,7 @@ window.BANKMA1 = [
   "poang": "1/0/0",
   "typ": "negativ lösning",
   "t": "<p>För vilket värde på x har uttrycken \\(2x+9\\) och \\(5x+15\\) samma värde?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[9=3x+15\\]</div></li><li><div class=\"facit-matte\">\\[-6=3x\\]</div></li><li><div class=\"facit-matte\">\\[x=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Ställ uttrycken lika</strong></p><p>Uttrycken har samma värde när \\(2x+9=5x+15\\).</p><p class=\"facit-rubrik\"><strong>Samla termerna</strong></p><p>Subtrahera \\(2x\\) och sedan 15 från båda leden:</p><div class=\"facit-matte\">\\[9=3x+15\\quad\\Rightarrow\\quad -6=3x.\\]</div><p>Dividera båda leden med 3: \\(x=-2\\).</p><p>Kontroll: båda uttrycken blir 5 när \\(x=-2\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\).</p></div>",
   "familj": "Variabeltermer i båda leden",
   "formaga": [
     "procedur"
@@ -148454,7 +148454,7 @@ window.BANKMA1 = [
   "geogebra": false,
   "spel": true,
   "självrättning": true,
-  "traningsniva": 1,
+  "traningsniva": 2,
   "arbetsinsats": 1,
   "ledtrad": "<p>Samla x-termerna där det blir flest x.</p>",
   "svarstyp": "numeriskt",

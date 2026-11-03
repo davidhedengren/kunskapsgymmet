@@ -407,6 +407,18 @@ a{color:inherit}
 .kg-online-lista li:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--good);flex:none}
 .kg-online-lista b,.kg-online-lista small{display:block;overflow-wrap:anywhere}
 .kg-online-lista b{font-size:13px}.kg-online-lista small{font-size:12px;color:var(--ink2);margin-top:3px}
+.kg-online-lista li.borta:before{background:var(--warn)}
+.kg-online-lista li.borta small.fokus{color:var(--warn);font-weight:650}
+/* Lärarens "Just nu": fokusstatus per elev */
+.larlive-tabell{width:100%;border-collapse:collapse;margin-top:12px;font-size:13px}
+.larlive-tabell th{text-align:left;font-size:11px;font-weight:700;color:var(--ink3);letter-spacing:.03em;padding:6px 8px;border-bottom:1px solid var(--hair)}
+.larlive-tabell td{padding:9px 8px;border-bottom:1px solid var(--hair);vertical-align:middle}
+.larlive-prick{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:8px;background:var(--ink3);opacity:.45;vertical-align:middle}
+.larlive-tabell tr.aktiv .larlive-prick{background:var(--good);opacity:1}
+.larlive-tabell tr.borta .larlive-prick{background:var(--warn);opacity:1;box-shadow:0 0 0 3px var(--warnSoft)}
+.larlive-tabell tr.borta td:nth-child(2){color:var(--warn);font-weight:650}
+.larlive-tabell tr.inaktiv td{color:var(--ink3)}
+@media (max-width:560px){.larlive-tabell th:nth-child(4),.larlive-tabell td:nth-child(4){display:none}}
 /* Den nyvunna biten av baren blinkar grönt på plats, så eleven ser exakt
    hur mycket just det här passet flyttade mätaren. */
 @keyframes xpny{
@@ -3729,7 +3741,7 @@ async function loggaUt(){
   larData={grupper:null,elever:{}}; larElevval=null; state.larGrupp=null; state.larElev=null;
   larProfil=null; arGruppLarare=false; larProfilHamtad=false; arElevRoll=false; minSkola=undefined;
   try{ localStorage.removeItem(GRUPPLARARE_KEY); }catch(_){}
-  clearInterval(kgHeartbeatTimer); kgHeartbeatTimer=null;
+  clearInterval(kgHeartbeatTimer); kgHeartbeatTimer=null; stoppaKgFokus();
   try{ localStorage.removeItem(LARARE_KEY); }catch(_){}
   if(session){
     try{ await fetch(SUPABASE_URL+"/auth/v1/logout",{method:"POST",headers:sbHeaders(true)}); }catch(_){}
@@ -4328,6 +4340,7 @@ async function oppnaKlassval(tvingad=false){
       <p class="modal-text">${tvingad
         ? "Välj vilken klass du går i för att fortsätta. Din lärare kan då lägga till dig i rätt undervisningsgrupp. Din XP räknas också för klassen på topplistan. Finns inte din klass med kan du skapa den. Du kan byta klass en gång i veckan."
         : "Din XP räknas för klassen. Du kan byta klass en gång i veckan."}</p>
+      <p class="modal-text" style="font-size:12px;opacity:.8">Dina lärare kan se om Kunskapsgymmet är aktivt hos dig eller ligger i bakgrunden, och hur länge det har legat i bakgrunden i dag. Inget sparas om vad du gör i andra flikar eller program.</p>
       ${lista.length?`<div class="valgrid">${lista.map(k=>`<button class="valruta${k.id===min?" vald":""}" onclick="valjKlass(${Number(k.id)})">
           <span class="kryss" aria-hidden="true"></span>
           <span class="valnamn">${esc(k.namn)}</span>
@@ -5813,7 +5826,49 @@ function startaKgHeartbeat(){
   clearInterval(kgHeartbeatTimer);
   kgHeartbeat();
   kgHeartbeatTimer=setInterval(kgHeartbeat,45000);
+  startaKgFokus();
 }
+
+/* Fokusstatus för lektionsbruk (sql/2026-11-03-fokus.sql). Läraren ser om appen är aktiv
+   eller ligger i bakgrunden: annan flik, annat fönster eller minimerat. Bara aktiv/inaktiv
+   skickas, aldrig vad eleven gör i stället. Signalen går direkt vid ändring och var 30:e
+   sekund även när fliken är dold, så att utflikad tid kan summeras. */
+const kgFokus={senast:null,skickat:0,timer:null,vanta:null,av:false};
+function kgHarFokus(){
+  if(document.visibilityState!=="visible") return false;
+  if(document.hasFocus()) return true;
+  // Ett klick i en inbäddad ram (t.ex. GeoGebra) tar fönstrets fokus men är fortfarande appen.
+  return document.activeElement?.tagName==="IFRAME";
+}
+async function kgFokusSkicka(tvinga){
+  if(kgFokus.av || !MOLN_PA() || !session) return;
+  const fokus=kgHarFokus(),nu=Date.now();
+  if(!tvinga && fokus===kgFokus.senast && nu-kgFokus.skickat<25000) return;
+  kgFokus.senast=fokus;kgFokus.skickat=nu;
+  try{
+    if(!await giltigSession()) return;
+    const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_fokus",{method:"POST",headers:sbHeaders(true),
+      body:JSON.stringify({p_fokus:fokus}),keepalive:true});
+    if(r.status===404) kgFokus.av=true; // funktionen är inte installerad
+  }catch(_){ /* fokusstatus får aldrig störa träningen */ }
+}
+function kgFokusAndrad(){
+  // Kort väntan: en dialog eller ett snabbt fönsterbyte ska inte ge en egen signal.
+  clearTimeout(kgFokus.vanta);
+  kgFokus.vanta=setTimeout(()=>{ if(kgHarFokus()!==kgFokus.senast) kgFokusSkicka(true); },1500);
+}
+function startaKgFokus(){
+  clearInterval(kgFokus.timer);
+  kgFokus.senast=null;
+  kgFokusSkicka(true);
+  kgFokus.timer=setInterval(()=>kgFokusSkicka(false),30000);
+}
+function stoppaKgFokus(){
+  clearInterval(kgFokus.timer);clearTimeout(kgFokus.vanta);kgFokus.timer=null;kgFokus.senast=null;
+}
+document.addEventListener("visibilitychange",kgFokusAndrad);
+window.addEventListener("blur",kgFokusAndrad);
+window.addEventListener("focus",kgFokusAndrad);
 
 async function kontrolleraLarare(){
   if(!MOLN_PA() || !session){ arLarare=false; }
@@ -5987,7 +6042,8 @@ async function kgOnlineHamta(){
   const version=kgOnline.version;
   kgOnline.pending=(async()=>{
     try{
-      const rows=await kgAdminRpc("kg_admin_anvandare");
+      const [rows,fokus]=await Promise.all([kgAdminRpc("kg_admin_anvandare"),
+        kgAdminRpc("kg_admin_fokus").catch(()=>null)]); // fokus saknas tills SQL:en är installerad
       if(!Array.isArray(rows)) throw new Error("Ogiltig närvarolista");
       if(!arAdmin || session?.user?.id!==uid || kgOnline.version!==version) return;
       const unique=new Map();
@@ -5995,6 +6051,13 @@ async function kgOnlineHamta(){
         namn:String(u.namn||u.epost||"Användare"),kurs:String(u.kurs||""),
         sedd:Number.isFinite(Date.parse(u.senast_sedd))?u.senast_sedd:null
       }));
+      /* Utflikade elever skickar ingen vanlig närvarosignal men väl fokussignal. */
+      const nuServer=Date.parse(fokus?.nu),offset=Number.isFinite(nuServer)?Date.now()-nuServer:0;
+      (Array.isArray(fokus?.elever)?fokus.elever:[]).filter(f=>f.online===true && f.id).forEach(f=>{
+        const u=unique.get(f.id)||{namn:String(f.namn||"Användare"),kurs:"",sedd:null};
+        if(f.fokus===false){ u.borta=true;u.bortaSedan=Date.parse(f.sedan)+offset; }
+        unique.set(f.id,u);
+      });
       kgOnline.users=[...unique.values()];kgOnline.hamtad=Date.now();kgOnline.fel=false;
     }catch(_){
       if(session?.user?.id===uid && kgOnline.version===version) kgOnline.fel=true;
@@ -6022,8 +6085,8 @@ function kgOnlineRitaPanel(){
   const users=kgOnlineLista();
   panel.innerHTML=`<h2>Online just nu${users===null?"":` · ${users.length}`}</h2>
     <p>${users===null?(kgOnline.fel?"Närvaron kunde inte hämtas. Klicka på cirkeln för att försöka igen.":"Hämtar närvaro…")
-      :"Aktiva under de senaste två minuterna. Uppdateras automatiskt."}</p>
-    ${users===null?"":users.length?`<ul class="kg-online-lista">${users.map(u=>`<li><div><b>${esc(u.namn)}</b>${u.kurs?`<small>${esc(COURSES[u.kurs]?.name||u.kurs)}</small>`:""}</div></li>`).join("")}</ul>`
+      :"Aktiva under de senaste två minuterna. Orange = Kunskapsgymmet är öppet men ligger i bakgrunden. Uppdateras automatiskt."}</p>
+    ${users===null?"":users.length?`<ul class="kg-online-lista">${users.map(u=>`<li class="${u.borta?"borta":""}"><div><b>${esc(u.namn)}</b>${u.kurs?`<small>${esc(COURSES[u.kurs]?.name||u.kurs)}</small>`:""}${u.borta?`<small class="fokus">Utflikad${Number.isFinite(u.bortaSedan)?" i "+larLiveTid((Date.now()-u.bortaSedan)/1000):""}</small>`:""}</div></li>`).join("")}</ul>`
       :'<p style="margin-top:14px">Ingen är online just nu.</p>'}`;
   const r=button.getBoundingClientRect(),width=Math.min(360,innerWidth-24),top=r.bottom+8;
   panel.style.width=width+'px';panel.style.left=Math.max(12,Math.min(r.right-width,innerWidth-width-12))+'px';
@@ -16540,12 +16603,15 @@ async function larRitaGrupp(){
     </div>
     <div class="toppvy" role="tablist">
       <button class="${sub==="oversikt"?"pa":""}" onclick="state.larGruppFlik='oversikt';larRitaGrupp()">Översikt</button>
+      <button class="${sub==="live"?"pa":""}" onclick="state.larGruppFlik='live';larRitaGrupp()">Just nu</button>
       <button class="${sub==="pass"?"pa":""}" onclick="state.larGruppFlik='pass';larRitaGrupp()">Träningspass</button>
       <button class="${sub==="elever"?"pa":""}" onclick="state.larGruppFlik='elever';larRitaGrupp()">Elever</button>
       <button class="${sub==="omraden"?"pa":""}" onclick="state.larGruppFlik='omraden';larRitaGrupp()">Gruppens statistik per område</button>
     </div>
     <div id="largruppkropp"><div class="empty">Hämtar …</div></div>`;
+  if(sub!=="live") larLiveStoppa();
   if(sub==="oversikt") larRitaOversikt();
+  else if(sub==="live") larRitaLive();
   else if(sub==="pass"){document.getElementById("largruppkropp").innerHTML='<div id="provlarare-kropp"></div>';provRitaLararlista();}
   else if(sub==="omraden") larRitaOmraden(); else larRitaElever();
 }
@@ -16558,6 +16624,65 @@ async function larBytKurs(falt){
   falt.disabled=false;
   if(!r?.ok){falt.value=g.kurs||"";toast("Kursen kunde inte sparas.");return;}
   g.kurs=kurs||null;state.larKurs=g.kurs;larRitaGrupp();toast("Gruppens kurs är sparad.");
+}
+/* "Just nu": elevernas fokusstatus under lektionen (sql/2026-11-03-fokus.sql).
+   Hämtas var 8:e sekund medan fliken är öppen; tiderna räknas upp varje sekund lokalt. */
+const larLive={grupp:null,data:null,offset:0,hamta:null,tick:null};
+function larLiveStoppa(){ clearTimeout(larLive.hamta);clearInterval(larLive.tick);larLive.hamta=larLive.tick=null; }
+function larLiveAktiv(gid){
+  return !!document.getElementById("larlive") && state.larGrupp===gid && state.larGruppFlik==="live" && !state.larElev;
+}
+function larLiveTid(sek){
+  sek=Math.max(0,Math.round(sek));
+  if(sek<60) return sek+" s";
+  const m=Math.floor(sek/60),s=sek%60;
+  if(m<60) return m+" min"+(s&&m<10?" "+s+" s":"");
+  return Math.floor(m/60)+" h "+(m%60)+" min";
+}
+async function larRitaLive(){
+  larLiveStoppa();
+  const box=document.getElementById("largruppkropp"),g=larGrupp(),uid=session?.user?.id;if(!box||!g)return;
+  const gid=Number(g.id);
+  if(larLive.grupp!==gid){ larLive.grupp=gid;larLive.data=null; }
+  if(!document.getElementById("larlive")) box.innerHTML=`<div id="larlive"><div class="empty">Hämtar …</div></div>`;
+  const r=await klassRpc("kg_lar_fokus",{p_grupp:gid});
+  if(session?.user?.id!==uid || !larLiveAktiv(gid)) return;
+  if(r?.saknas){
+    document.getElementById("larlive").innerHTML=`<div class="empty">Funktionen behöver installeras i Supabase (sql/2026-11-03-fokus.sql).</div>`;
+    return;
+  }
+  if(r?.ok){ larLive.data=r.elever||[];larLive.offset=Date.now()-Date.parse(r.nu);larLive.serverNu=Date.parse(r.nu); }
+  larLive.fel=!r?.ok;
+  larLiveRita();
+  larLive.tick=setInterval(()=>{ if(larLiveAktiv(gid)) larLiveRita(); else larLiveStoppa(); },1000);
+  larLive.hamta=setTimeout(()=>{ if(larLiveAktiv(gid)) larRitaLive(); },8000);
+}
+function larLiveRita(){
+  const el=document.getElementById("larlive");if(!el)return;
+  const elever=larLive.data;
+  if(!elever){ el.innerHTML=`<div class="empty">Statusen kunde inte hämtas. Försöker igen …</div>`;return; }
+  const nu=Date.now()-larLive.offset;
+  const rader=elever.map(e=>{
+    const borta=e.online && e.fokus===false, sedanSek=e.sedan?(nu-Date.parse(e.sedan))/1000:0;
+    // Servern räknar med pågående utflikning fram till hämtningen; därefter räknas den upp lokalt.
+    const totalt=(Number(e.borta_sek)||0)+(borta?Math.min(90,Math.max(0,(nu-larLive.serverNu)/1000)):0);
+    return {...e,borta,aktiv:e.online&&e.fokus===true,sedanSek,totalt,
+      ordning:borta?0:e.online?1:2};
+  }).sort((a,b)=>a.ordning-b.ordning || (a.ordning===0?b.sedanSek-a.sedanSek:String(a.namn).localeCompare(String(b.namn),"sv")));
+  const nBorta=rader.filter(x=>x.borta).length,nAktiv=rader.filter(x=>x.aktiv).length;
+  el.innerHTML=`<div class="statgrid larstat">
+      ${statRuta(String(nAktiv),"Aktiva i Kunskapsgymmet")}
+      ${statRuta(String(nBorta),"Utflikade just nu")}
+      ${statRuta(String(rader.length-nAktiv-nBorta),"Inte aktiva")}
+    </div>
+    <p class="lartext liten">Uppdateras automatiskt. <b>Utflikad</b> betyder att Kunskapsgymmet är öppet men inte syns eller inte har fokus, till exempel för att eleven har bytt flik, minimerat eller klickat i ett annat fönster. Totalt räknas för i dag.${larLive.fel?" Senaste hämtningen misslyckades; visar föregående status.":""}</p>
+    ${rader.length?`<table class="larlive-tabell"><thead><tr><th>Elev</th><th>Status</th><th>Utflikad totalt i dag</th><th>Antal gånger</th></tr></thead><tbody>
+    ${rader.map(x=>`<tr class="${x.borta?"borta":x.aktiv?"aktiv":"inaktiv"}">
+      <td>${esc(x.namn||"Okänd")}</td>
+      <td><span class="larlive-prick" aria-hidden="true"></span>${x.borta?`Utflikad i ${larLiveTid(x.sedanSek)}`:x.aktiv?`Aktiv${x.sedanSek>=60?` i ${larLiveTid(x.sedanSek)}`:""}`:x.senast?`Inte aktiv sedan ${new Date(Date.parse(x.senast)+larLive.offset).toLocaleTimeString("sv-SE",{hour:"2-digit",minute:"2-digit"})}`:"Inte aktiv i dag"}</td>
+      <td>${x.totalt>=1?larLiveTid(x.totalt):"–"}</td>
+      <td>${Number(x.byten)||"–"}</td></tr>`).join("")}</tbody></table>`
+    :`<div class="empty">Gruppen har inga elever än.</div>`}`;
 }
 async function larRitaOversikt(){
   const box=document.getElementById("largruppkropp"),g=larGrupp(),uid=session?.user?.id;if(!box||!g)return;

@@ -7,7 +7,7 @@ window.BANK = [
     "typ": "omvandla densitet mellan fyra olika sammansatta enheter, ur text, sökt densitet",
     "poang": "(5/0/0)",
     "t": "<p>Omvandla densiteten till den angivna enheten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 2,7 g/cm³ till kg/dm³</div><div>b) 1000 kg/m³ till g/l</div><div>c) 5,0 g/ml till kg/m³</div><div>d) 850 kg/m³ till g/cm³</div><div>e) 1,0 kg/l till kg/m³</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>1 dm³ innehåller 1000 cm³.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Massan för denna volym är</p><div class=\"facit-matte\">\\[2700 g=2{,}7\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><p>Densiteten är 2,7 kg/dm³.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">1 m³ innehåller 1000 liter, så massan per liter är</p><div class=\"facit-matte\">\\[1 \\mathrm{kg}=1000\\, \\mathrm{g}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1000 g/l.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>1 m³ innehåller en miljon ml.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Massan är då</p><div class=\"facit-matte\">\\[5\\,000\\,000 g=5000\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 5000 kg/m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">850 kg = 850 000 g och</p><div class=\"facit-matte\">\\[1 m^{3}=1\\,000\\,000\\, \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-stycke\"><p>Kvoten blir 0,850 g/cm³.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En kubikmeter innehåller 1000 liter.</p></div><div class=\"facit-stycke\"><p>Massan för den volymen blir 1000 kg, så densiteten är 1000 kg/m³.</p></div></div></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Ett gram är 0,001 kg och en kubikcentimeter är 0,001 dm³. Faktorerna tar ut varandra i kvoten.</p><div class=\"facit-matte\">\\[\\begin{aligned}2{,}7\\ \\mathrm{g/cm^3}&=\\frac{2{,}7\\cdot10^{-3}\\ \\mathrm{kg}}{10^{-3}\\ \\mathrm{dm^3}}\\\\&=2{,}7\\ \\mathrm{kg/dm^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}7\\ \\mathrm{kg/dm^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Omvandla både kilogram till gram och kubikmeter till liter.</p><div class=\"facit-matte\">\\[\\begin{aligned}1000\\ \\mathrm{kg/m^3}&=\\frac{1000\\cdot1000\\ \\mathrm g}{1000\\ \\mathrm l}\\\\&=1000\\ \\mathrm{g/l}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1000\\ \\mathrm{g/l}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>En milliliter är en kubikcentimeter, alltså en miljondels kubikmeter.</p><div class=\"facit-matte\">\\[\\begin{aligned}5{,}0\\ \\mathrm{g/ml}&=\\frac{5{,}0\\cdot10^{-3}\\ \\mathrm{kg}}{10^{-6}\\ \\mathrm{m^3}}\\\\&=5000\\ \\mathrm{kg/m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5000\\ \\mathrm{kg/m^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Ett kilogram är 1000 g, medan en kubikmeter är 1 000 000 cm³.</p><div class=\"facit-matte\">\\[\\begin{aligned}850\\ \\mathrm{kg/m^3}&=\\frac{850\\cdot1000\\ \\mathrm g}{10^6\\ \\mathrm{cm^3}}\\\\&=0{,}850\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}850\\ \\mathrm{g/cm^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>En liter är 0,001 m³. Massan per hel kubikmeter är därför 1000 gånger massan per liter.</p><div class=\"facit-matte\">\\[\\begin{aligned}1{,}0\\ \\mathrm{kg/l}&=\\frac{1{,}0\\ \\mathrm{kg}}{10^{-3}\\ \\mathrm{m^3}}\\\\&=1000\\ \\mathrm{kg/m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1000\\ \\mathrm{kg/m^3}\\).</p></div></div></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -53,7 +53,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla 2,7 g/cm³ till kg/dm³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>1 dm³ innehåller 1000 cm³.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Massan för denna volym är</p><div class=\"facit-matte\">\\[2700 g=2{,}7\\, \\mathrm{kg}\\]</div></div></div><div class=\"facit-stycke\"><p>Densiteten är 2,7 kg/dm³.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Ett gram är 0,001 kg och en kubikcentimeter är 0,001 dm³. Faktorerna tar ut varandra i kvoten.</p><div class=\"facit-matte\">\\[\\begin{aligned}2{,}7\\ \\mathrm{g/cm^3}&=\\frac{2{,}7\\cdot10^{-3}\\ \\mathrm{kg}}{10^{-3}\\ \\mathrm{dm^3}}\\\\&=2{,}7\\ \\mathrm{kg/dm^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}7\\ \\mathrm{kg/dm^3}\\).</p></div>",
         "ledtrad": "<p>Omvandla massenheten och volymenheten var för sig. Hur påverkas en kvot när både täljare och nämnare ändras?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -63,7 +63,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla 1000 kg/m³ till g/l.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">1 m³ innehåller 1000 liter, så massan per liter är</p><div class=\"facit-matte\">\\[1 \\mathrm{kg}=1000\\, \\mathrm{g}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 1000 g/l.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Omvandla både kilogram till gram och kubikmeter till liter.</p><div class=\"facit-matte\">\\[\\begin{aligned}1000\\ \\mathrm{kg/m^3}&=\\frac{1000\\cdot1000\\ \\mathrm g}{1000\\ \\mathrm l}\\\\&=1000\\ \\mathrm{g/l}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1000\\ \\mathrm{g/l}\\).</p></div>",
         "ledtrad": "<p>Omvandla massenheten och volymenheten var för sig. Hur påverkas en kvot när både täljare och nämnare ändras?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -73,7 +73,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla 5,0 g/ml till kg/m³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>1 m³ innehåller en miljon ml.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Massan är då</p><div class=\"facit-matte\">\\[5\\,000\\,000 g=5000\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\">Svaret är 5000 kg/m³.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>En milliliter är en kubikcentimeter, alltså en miljondels kubikmeter.</p><div class=\"facit-matte\">\\[\\begin{aligned}5{,}0\\ \\mathrm{g/ml}&=\\frac{5{,}0\\cdot10^{-3}\\ \\mathrm{kg}}{10^{-6}\\ \\mathrm{m^3}}\\\\&=5000\\ \\mathrm{kg/m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5000\\ \\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Omvandla massenheten och volymenheten var för sig. Hur påverkas en kvot när både täljare och nämnare ändras?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -83,7 +83,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla 850 kg/m³ till g/cm³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">850 kg = 850 000 g och</p><div class=\"facit-matte\">\\[1 m^{3}=1\\,000\\,000\\, \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-stycke\"><p>Kvoten blir 0,850 g/cm³.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Ett kilogram är 1000 g, medan en kubikmeter är 1 000 000 cm³.</p><div class=\"facit-matte\">\\[\\begin{aligned}850\\ \\mathrm{kg/m^3}&=\\frac{850\\cdot1000\\ \\mathrm g}{10^6\\ \\mathrm{cm^3}}\\\\&=0{,}850\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}850\\ \\mathrm{g/cm^3}\\).</p></div>",
         "ledtrad": "<p>Omvandla massenheten och volymenheten var för sig. Hur påverkas en kvot när både täljare och nämnare ändras?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -93,7 +93,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla 1,0 kg/l till kg/m³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En kubikmeter innehåller 1000 liter.</p></div><div class=\"facit-stycke\"><p>Massan för den volymen blir 1000 kg, så densiteten är 1000 kg/m³.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>En liter är 0,001 m³. Massan per hel kubikmeter är därför 1000 gånger massan per liter.</p><div class=\"facit-matte\">\\[\\begin{aligned}1{,}0\\ \\mathrm{kg/l}&=\\frac{1{,}0\\ \\mathrm{kg}}{10^{-3}\\ \\mathrm{m^3}}\\\\&=1000\\ \\mathrm{kg/m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1000\\ \\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Omvandla massenheten och volymenheten var för sig. Hur påverkas en kvot när både täljare och nämnare ändras?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -112,7 +112,7 @@ window.BANK = [
     "typ": "omvandla mikrometer till meter",
     "poang": "(1/0/0)",
     "t": "<p>En tunn plastfilm är \\(3{,}6\\ \\mu\\mathrm m\\) tjock. Ange tjockleken i meter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Prefixet mikro betyder \\(10^{-6}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Därför multipliceras siffervärdet med \\(10^{-6}\\) när enheten skrivs i meter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[3{,}6\\ \\mu\\mathrm m=3{,}6\\cdot10^{-6}\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\cdot10^{-6}\\ \\mathrm m\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mikro: \\(1\\ \\mu\\mathrm m=10^{-6}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[3{,}6\\ \\mu\\mathrm m=3{,}6\\cdot10^{-6}\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\cdot10^{-6}\\ \\mathrm m\\).</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -519,7 +519,7 @@ window.BANK = [
     "typ": "omvandla längder till meter, ur text, sökt längd",
     "poang": "(6/0/0)",
     "t": "<p>Omvandla längden till meter.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 45 cm</div><div>b) 8,4 mm</div><div>c) 0,75 km</div><div>d) 3,2 mil</div><div>e) 620 nm</div><div>f) 15 dm</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Centi betyder hundradel:</p><div class=\"facit-matte\">\\[45 \\mathrm{cm}=45\\cdot 0{,}01 m=0{,}45\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}45\\) m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Milli betyder tusendel:</p><div class=\"facit-matte\">\\[8{,}4 \\mathrm{mm}=8{,}4\\cdot 0{,}001 m=0{,}0084\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0084\\) m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kilo betyder tusen:</p><div class=\"facit-matte\">\\[0{,}75 \\mathrm{km}=0{,}75\\cdot 1000 m=750\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(750\\) m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En svensk mil är 10 000 m.</p></div><div class=\"facit-stycke\"><p>Därför är 3,2 mil = 32 000 m.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(32\\,000\\) m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nano betyder \\(10^{-9}\\): \\(620\\ \\mathrm{nm}=620\\cdot10^{-9}\\ \\mathrm m=6{,}2\\cdot10^{-7}\\ \\mathrm m\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}2\\cdot10^{-7}\\) m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Deci betyder tiondel:</p><div class=\"facit-matte\">\\[15 \\mathrm{dm}=1{,}5\\, \\mathrm{m}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) m.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Centimeter: \\(1\\ \\mathrm{cm}=10^{-2}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[45\\ \\mathrm{cm}=45\\cdot10^{-2}\\ \\mathrm m=0{,}45\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}45\\ \\mathrm m\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Millimeter: \\(1\\ \\mathrm{mm}=10^{-3}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}8{,}4\\ \\mathrm{mm}&=8{,}4\\cdot10^{-3}\\ \\mathrm m\\\\&=0{,}0084\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0084\\ \\mathrm m\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilometer: \\(1\\ \\mathrm{km}=1000\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[0{,}75\\ \\mathrm{km}=0{,}75\\cdot1000\\ \\mathrm m=750\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(750\\ \\mathrm m\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mil: \\(1\\ \\text{mil}=10\\,000\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[3{,}2\\ \\text{mil}=3{,}2\\cdot10\\,000\\ \\mathrm m=32\\,000\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(32\\,000\\ \\mathrm m\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nanometer: \\(1\\ \\mathrm{nm}=10^{-9}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}620\\ \\mathrm{nm}&=620\\cdot10^{-9}\\ \\mathrm m\\\\&=6{,}2\\cdot10^{-7}\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}2\\cdot10^{-7}\\ \\mathrm m\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Decimeter: \\(1\\ \\mathrm{dm}=10^{-1}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[15\\ \\mathrm{dm}=15\\cdot10^{-1}\\ \\mathrm m=1{,}5\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\ \\mathrm m\\).</p></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -570,7 +570,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla 45 cm till meter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Centi betyder hundradel:</p><div class=\"facit-matte\">\\[45 \\mathrm{cm}=45\\cdot 0{,}01 m=0{,}45\\, \\mathrm{m}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Centimeter: \\(1\\ \\mathrm{cm}=10^{-2}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[45\\ \\mathrm{cm}=45\\cdot10^{-2}\\ \\mathrm m=0{,}45\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}45\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Vad betyder centi?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -580,7 +580,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla 8,4 mm till meter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Milli betyder tusendel:</p><div class=\"facit-matte\">\\[8{,}4 \\mathrm{mm}=8{,}4\\cdot 0{,}001 m=0{,}0084\\, \\mathrm{m}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Millimeter: \\(1\\ \\mathrm{mm}=10^{-3}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}8{,}4\\ \\mathrm{mm}&=8{,}4\\cdot10^{-3}\\ \\mathrm m\\\\&=0{,}0084\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0084\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Vad betyder milli?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -590,7 +590,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla 0,75 km till meter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kilo betyder tusen:</p><div class=\"facit-matte\">\\[0{,}75 \\mathrm{km}=0{,}75\\cdot 1000 m=750\\, \\mathrm{m}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilometer: \\(1\\ \\mathrm{km}=1000\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[0{,}75\\ \\mathrm{km}=0{,}75\\cdot1000\\ \\mathrm m=750\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(750\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -600,7 +600,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla 3,2 mil till meter. En svensk mil är 10 000 m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En svensk mil är 10 000 m.</p></div><div class=\"facit-stycke\"><p>Därför är 3,2 mil = 32 000 m.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mil: \\(1\\ \\text{mil}=10\\,000\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[3{,}2\\ \\text{mil}=3{,}2\\cdot10\\,000\\ \\mathrm m=32\\,000\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(32\\,000\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Hur många kilometer går på en svensk mil?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -610,7 +610,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla 620 nm till meter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Nano betyder \\(10^{-9}\\): \\(620\\ \\mathrm{nm}=620\\cdot10^{-9}\\ \\mathrm m=6{,}2\\cdot10^{-7}\\ \\mathrm m\\).</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nanometer: \\(1\\ \\mathrm{nm}=10^{-9}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}620\\ \\mathrm{nm}&=620\\cdot10^{-9}\\ \\mathrm m\\\\&=6{,}2\\cdot10^{-7}\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}2\\cdot10^{-7}\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Vad betyder nano?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -620,7 +620,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Omvandla 15 dm till meter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Deci betyder tiondel:</p><div class=\"facit-matte\">\\[15 \\mathrm{dm}=1{,}5\\, \\mathrm{m}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Decimeter: \\(1\\ \\mathrm{dm}=10^{-1}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[15\\ \\mathrm{dm}=15\\cdot10^{-1}\\ \\mathrm m=1{,}5\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Vad betyder deci?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -727,7 +727,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En filmvisning startar 18:40 och slutar 21:15 samma kväll.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) Hur lång är filmen i minuter?</div><div>b) Hur lång är filmen i sekunder?</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Från 18:40 till 20:40 går 120 minuter.</p></div><div class=\"facit-stycke\"><p>Till 21:15 återstår 35 minuter.</p></div><div class=\"facit-stycke\"><p>Totalt: 155 min.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(155\\) min.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Filmen är 2 h 35 min = 155 min.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Varje minut är 60 s, så tiden är</p><div class=\"facit-matte\">\\[155\\cdot 60=9300\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9300\\) s.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tidsskillnad: \\(\\Delta t=t_{\\text{slut}}-t_{\\text{start}}\\)</p><p>Från 18:40 till 20:40 går två timmar. Därifrån till 21:15 går ytterligare 35 minuter.</p><div class=\"facit-matte\">\\[\\Delta t=2\\cdot60+35=155\\ \\mathrm{min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Filmen är 155 minuter lång.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minuter till sekunder: \\(1\\ \\mathrm{min}=60\\ \\mathrm s\\)</p><p>Filmens längd från a) är 155 minuter.</p><div class=\"facit-matte\">\\[\\Delta t=155\\cdot60\\ \\mathrm s=9300\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9300\\ \\mathrm s\\).</p></div></div></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -761,7 +761,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>En filmvisning startar 18:40 och slutar 21:15 samma kväll.</p><p>Hur lång är filmen i minuter?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Från 18:40 till 20:40 går 120 minuter.</p></div><div class=\"facit-stycke\"><p>Till 21:15 återstår 35 minuter.</p></div><div class=\"facit-stycke\"><p>Totalt: 155 min.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tidsskillnad: \\(\\Delta t=t_{\\text{slut}}-t_{\\text{start}}\\)</p><p>Från 18:40 till 20:40 går två timmar. Därifrån till 21:15 går ytterligare 35 minuter.</p><div class=\"facit-matte\">\\[\\Delta t=2\\cdot60+35=155\\ \\mathrm{min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Filmen är 155 minuter lång.</p></div>",
         "ledtrad": "<p>Dela tidsintervallet vid ett helt klockslag. Hur många minuter återstår sedan?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -771,7 +771,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>En filmvisning startar 18:40 och slutar 21:15 samma kväll.</p><p>Hur lång är filmen i sekunder?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Filmen är 2 h 35 min = 155 min.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Varje minut är 60 s, så tiden är</p><div class=\"facit-matte\">\\[155\\cdot 60=9300\\, \\mathrm{s}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minuter till sekunder: \\(1\\ \\mathrm{min}=60\\ \\mathrm s\\)</p><p>Filmens längd från a) är 155 minuter.</p><div class=\"facit-matte\">\\[\\Delta t=155\\cdot60\\ \\mathrm s=9300\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9300\\ \\mathrm s\\).</p></div>",
         "ledtrad": "<p>Dela tidsintervallet vid ett helt klockslag. Hur många minuter återstår sedan?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -790,7 +790,7 @@ window.BANK = [
     "typ": "omvandla kvadratmeter till kvadratcentimeter",
     "poang": "(1/0/0)",
     "t": "<p>En liten solpanel har arean \\(0{,}045\\ \\mathrm{m^2}\\). Hur stor är arean i \\(\\mathrm{cm^2}\\)?</p>",
-    "s": "<div class=\"facit-v2\"><p>Areafaktorn är längdfaktorn i kvadrat.</p><p>\\[1\\ \\mathrm{m^2}=100^2\\ \\mathrm{cm^2}\\]</p><p>\\[A=0{,}045\\cdot100^2\\]</p><p>\\[A=450\\ \\mathrm{cm^2}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\) cm².</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Areaomvandling: \\(1\\ \\mathrm{m^2}=100^2\\ \\mathrm{cm^2}\\)</p><p>En kvadratmeter är en kvadrat med sidan 100 cm. Båda längderna räknas om, så faktorn är 100², inte 100.</p><div class=\"facit-matte\">\\[\\begin{aligned}0{,}045\\ \\mathrm{m^2}&=0{,}045\\cdot10\\,000\\ \\mathrm{cm^2}\\\\&=450\\ \\mathrm{cm^2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\ \\mathrm{cm^2}\\).</p></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur",
@@ -816,8 +816,8 @@ window.BANK = [
     "omr": "enheter",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<ol type=\"a\"><li>Beräkna antalet sekunder under exakt 17 sådana år.</li><li>Skriv resultatet i grundpotensform med två värdesiffror.</li><li>En person som sägs vara 17 år kan vara allt från precis 17 till nästan 18 år. Förklara därför varför beräkningen i a inte ger personens exakta ålder i sekunder.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[17\\cdot3{,}156\\cdot10^7=536\\,520\\,000\\ \\mathrm s\\].</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Med två värdesiffror: \\(5{,}4\\cdot10^8\\ \\mathrm s\\).</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Personen kan vara var som helst mellan sin 17:e och 18:e födelsedag.</p></div><div class=\"facit-stycke\"><p>Med den givna årsmodellen blir intervallet \\(536\\,520\\,000\\leq t&lt;568\\,080\\,000\\) sekunder.</p></div><div class=\"facit-stycke\"><p>Att avrunda till två värdesiffror tar inte bort osäkerheten om personens födelsedatum.</p></div></div></div></div></div>",
+    "t": "<p>I en förenklad tidsmodell räknas ett år som exakt \\(3{,}156\\cdot10^7\\) sekunder.</p><ol type=\"a\"><li>Beräkna antalet sekunder under exakt 17 sådana år.</li><li>Skriv resultatet i grundpotensform med två värdesiffror.</li><li>En person som sägs vara 17 år kan vara allt från precis 17 till nästan 18 år. Förklara därför varför beräkningen i a inte ger personens exakta ålder i sekunder.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Total tid: \\(t=N\\,t_{\\text{år}}\\)</p><p>Vi beräknar exakt 17 år enligt den givna modellen.</p><div class=\"facit-matte\">\\[t=17\\cdot3{,}156\\cdot10^7=536\\,520\\,000\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(536\\,520\\,000\\ \\mathrm s\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grundpotensform: \\(a\\cdot10^n\\), där \\(1\\le a\\lt10\\)</p><p>Behåll två värdesiffror, 5 och 3. Nästa siffra är 6, så 3 avrundas upp till 4.</p><div class=\"facit-matte\">\\[536\\,520\\,000=5{,}3652\\cdot10^8\\approx5{,}4\\cdot10^8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}4\\cdot10^8\\ \\mathrm s\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Åldersintervall: \\(17\\le N<18\\)</p><p>Att någon är 17 år betyder vanligen att personen har fyllt 17 men ännu inte 18. Det anger inte en exakt tid sedan födelsen.</p><div class=\"facit-matte\">\\[17\\cdot3{,}156\\cdot10^7\\le t<18\\cdot3{,}156\\cdot10^7\\]</div><div class=\"facit-matte\">\\[536\\,520\\,000\\ \\mathrm s\\le t<568\\,080\\,000\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Man kan ange ett intervall enligt modellen, men inte ett exakt antal sekunder utifrån enbart åldern 17 år.</p></div></div></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "procedur",
@@ -849,7 +849,7 @@ window.BANK = [
     "typ": "omvandla liter till kubikmeter",
     "poang": "(1/0/0)",
     "t": "<p>En behållare rymmer \\(2{,}8\\) liter. Ange volymen i kubikmeter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En liter är en kubikdecimeter och \\(1\\ \\mathrm{dm^3}=10^{-3}\\ \\mathrm{m^3}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2{,}8\\ \\mathrm l=2{,}8\\cdot10^{-3}\\ \\mathrm{m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}8\\cdot10^{-3}\\ \\mathrm{m^3}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Liter: \\(1\\ \\mathrm l=10^{-3}\\ \\mathrm{m^3}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}2{,}8\\ \\mathrm l&=2{,}8\\cdot10^{-3}\\ \\mathrm{m^3}\\\\&=0{,}0028\\ \\mathrm{m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0028\\ \\mathrm{m^3}\\).</p></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur"
@@ -875,7 +875,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>I en modell av solsystemet är solens diameter 22 cm. I verkligheten är solens diameter 1,392 · 10⁹ m, avståndet mellan solens och jordens centrum 1,496 · 10¹¹ m och jordens diameter 1,276 · 10⁷ m. Alla längder skalas lika. (Ange slutsvaren med tre värdesiffror. Avrunda inte mellanleden.)</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) Skalan skrivs 1:n. Bestäm n.</div><div>b) Bestäm avståndet mellan solens och jordens centrum i modellen, i meter.</div><div>c) Bestäm jordens diameter i modellen, i millimeter.</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[22 \\mathrm{cm}=0{,}22\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=1{,}392\\cdot10^9/0{,}22\\approx6{,}33\\cdot10^9\\].</div></div><div class=\"facit-stycke\"><p>Skalan är alltså ungefär 1:6 330 000 000.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\,330\\,000\\,000\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Skalfaktorn är \\(k=0{,}22/(1{,}392\\cdot10^9)\\).</p></div><div class=\"facit-stycke\"><p>Avståndet blir \\(k\\cdot1{,}496\\cdot10^{11}\\approx23{,}6\\ \\mathrm m\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(23{,}6\\) m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Samma skalfaktor \\(k=0{,}22/(1{,}392\\cdot10^9)\\) gäller diametern: \\(k\\cdot1{,}276\\cdot10^7\\approx0{,}00202\\ \\mathrm m=2{,}02\\ \\mathrm{mm}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}02\\) mm.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Solens modelldiameter är 22 cm = 0,22 m och verkliga diameter är \\(1{,}392\\cdot10^9\\) m. Vi söker skalan \\(1:n\\).</p></li><li><p class=\"facit-rubrik\">Skalans nämnare: \\(n=D_{\\text{verklig}}/D_{\\text{modell}}\\)</p><div class=\"facit-matte\">\\[n=\\frac{1{,}392\\cdot10^9}{0{,}22}\\approx6{,}33\\cdot10^9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Skalan är ungefär \\(1:(6{,}33\\cdot10^9)\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Längdskala: \\(k=D_{\\text{modell}}/D_{\\text{verklig}}\\)</p><p>Alla längder minskas med samma faktor, även avståndet till jorden.</p><div class=\"facit-matte\">\\[k=\\frac{0{,}22}{1{,}392\\cdot10^9}\\]</div></li><li><p class=\"facit-rubrik\">Avstånd i modellen: \\(r_{\\text{modell}}=kr_{\\text{verklig}}\\)</p><div class=\"facit-matte\">\\[r_{\\text{modell}}=\\frac{0{,}22\\cdot1{,}496\\cdot10^{11}}{1{,}392\\cdot10^9}\\ \\mathrm m\\]</div><div class=\"facit-matte\">\\[r_{\\text{modell}}\\approx23{,}6\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är ungefär 23,6 m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Längdskala: \\(k=D_{\\text{sol,modell}}/D_{\\text{sol}}\\)</p><p>Använd solens diametrar för att få samma skala som i hela modellen.</p><div class=\"facit-matte\">\\[k=\\frac{0{,}22}{1{,}392\\cdot10^9}\\]</div></li><li><p class=\"facit-rubrik\">Jordens modelldiameter: \\(d_{\\text{modell}}=kd_{\\text{jord}}\\)</p><div class=\"facit-matte\">\\[d_{\\text{modell}}=\\frac{0{,}22\\cdot1{,}276\\cdot10^7}{1{,}392\\cdot10^9}\\ \\mathrm m\\]</div><div class=\"facit-matte\">\\[d_{\\text{modell}}\\approx0{,}00202\\ \\mathrm m=2{,}02\\ \\mathrm{mm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Jordens diameter i modellen är ungefär 2,02 mm.</p></div></div></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "procedur",
@@ -915,7 +915,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Solens diameter är 22 cm i en modell och 1,392·10⁹ m i verkligheten. Skalan är 1:n. Bestäm n.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[22 \\mathrm{cm}=0{,}22\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=1{,}392\\cdot10^9/0{,}22\\approx6{,}33\\cdot10^9\\].</div></div><div class=\"facit-stycke\"><p>Skalan är alltså ungefär 1:6 330 000 000.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Solens modelldiameter är 22 cm = 0,22 m och verkliga diameter är \\(1{,}392\\cdot10^9\\) m. Vi söker skalan \\(1:n\\).</p></li><li><p class=\"facit-rubrik\">Skalans nämnare: \\(n=D_{\\text{verklig}}/D_{\\text{modell}}\\)</p><div class=\"facit-matte\">\\[n=\\frac{1{,}392\\cdot10^9}{0{,}22}\\approx6{,}33\\cdot10^9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Skalan är ungefär \\(1:(6{,}33\\cdot10^9)\\).</p></div>",
         "ledtrad": "<p>Dela modellens soldiameter i meter med verklig diameter. Använd samma längdskala.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -928,7 +928,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Solens diameter är 22 cm i en modell och 1,392·10⁹ m i verkligheten. Avståndet mellan solens och jordens centrum är 1,496·10¹¹ m. Bestäm modellens avstånd i m.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Skalfaktorn är \\(k=0{,}22/(1{,}392\\cdot10^9)\\).</p></div><div class=\"facit-stycke\"><p>Avståndet blir \\(k\\cdot1{,}496\\cdot10^{11}\\approx23{,}6\\ \\mathrm m\\).</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Längdskala: \\(k=D_{\\text{modell}}/D_{\\text{verklig}}\\)</p><p>Alla längder minskas med samma faktor, även avståndet till jorden.</p><div class=\"facit-matte\">\\[k=\\frac{0{,}22}{1{,}392\\cdot10^9}\\]</div></li><li><p class=\"facit-rubrik\">Avstånd i modellen: \\(r_{\\text{modell}}=kr_{\\text{verklig}}\\)</p><div class=\"facit-matte\">\\[r_{\\text{modell}}=\\frac{0{,}22\\cdot1{,}496\\cdot10^{11}}{1{,}392\\cdot10^9}\\ \\mathrm m\\]</div><div class=\"facit-matte\">\\[r_{\\text{modell}}\\approx23{,}6\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är ungefär 23,6 m.</p></div>",
         "ledtrad": "<p>Dela modellens soldiameter i meter med verklig diameter. Använd samma längdskala.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -941,7 +941,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Solens diameter är 22 cm i en modell och 1,392·10⁹ m i verkligheten. Jordens verkliga diameter är 1,276·10⁷ m. Bestäm modellens jorddiameter i mm.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Samma skalfaktor \\(k=0{,}22/(1{,}392\\cdot10^9)\\) gäller diametern: \\(k\\cdot1{,}276\\cdot10^7\\approx0{,}00202\\ \\mathrm m=2{,}02\\ \\mathrm{mm}\\).</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Längdskala: \\(k=D_{\\text{sol,modell}}/D_{\\text{sol}}\\)</p><p>Använd solens diametrar för att få samma skala som i hela modellen.</p><div class=\"facit-matte\">\\[k=\\frac{0{,}22}{1{,}392\\cdot10^9}\\]</div></li><li><p class=\"facit-rubrik\">Jordens modelldiameter: \\(d_{\\text{modell}}=kd_{\\text{jord}}\\)</p><div class=\"facit-matte\">\\[d_{\\text{modell}}=\\frac{0{,}22\\cdot1{,}276\\cdot10^7}{1{,}392\\cdot10^9}\\ \\mathrm m\\]</div><div class=\"facit-matte\">\\[d_{\\text{modell}}\\approx0{,}00202\\ \\mathrm m=2{,}02\\ \\mathrm{mm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Jordens diameter i modellen är ungefär 2,02 mm.</p></div>",
         "ledtrad": "<p>Dela modellens soldiameter i meter med verklig diameter. Använd samma längdskala.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -971,7 +971,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>En rektangulär mobilskärm har 2778 × 1284 kvadratiska pixlar som ligger kant i kant. Diagonalen är 6,1 tum. (Ange svaren med tre värdesiffror.)</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) Bestäm antalet pixlar per millimeter längs skärmens sidor.</div><div>b) Bestäm en pixels sidlängd i mikrometer.</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Diagonalen motsvarar \\(\\sqrt{2778^2+1284^2}\\approx3060{,}38\\) pixelbredder.</p></div><div class=\"facit-stycke\"><p>Dess längd är \\(6{,}1\\cdot25{,}4=154{,}94\\ \\mathrm{mm}\\).</p></div><div class=\"facit-stycke\"><p>Kvoten blir \\(3060{,}38/154{,}94\\approx19{,}8\\) pixlar/mm.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19{,}8\\) pixlar/mm.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Diagonalen är 154,94 mm och motsvarar \\(\\sqrt{2778^2+1284^2}\\) pixelbredder.</p></div><div class=\"facit-stycke\"><p>En pixel är därför \\(154{,}94/\\sqrt{2778^2+1284^2}\\approx0{,}0506\\ \\mathrm{mm}=50{,}6\\ \\mu\\mathrm m\\) bred.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50{,}6\\) µm.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Diagonalens längd: \\(d=6{,}1\\cdot25{,}4\\ \\mathrm{mm}\\)</p><div class=\"facit-matte\">\\[d=154{,}94\\ \\mathrm{mm}\\]</div></li><li><p class=\"facit-rubrik\">Pythagoras sats: \\(N_d=\\sqrt{N_x^2+N_y^2}\\)</p><p>Bildpunkterna är kvadratiska. Skärmens diagonal uttryckt i bildpunktsbredder fås därför med Pythagoras sats.</p><div class=\"facit-matte\">\\[N_d=\\sqrt{2778^2+1284^2}\\approx3060{,}38\\]</div></li><li><p class=\"facit-rubrik\">Bildpunkter per längd: \\(p=N_d/d\\)</p><div class=\"facit-matte\">\\[p=\\frac{\\sqrt{2778^2+1284^2}}{154{,}94}\\approx19{,}8\\ \\mathrm{mm^{-1}}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 19,8 bildpunkter per mm.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bildpunktsbredd: \\(b=d/N_d\\)</p><p>Använd de ursprungliga värdena från a), så att avrundningen inte påverkar nästa svar.</p><div class=\"facit-matte\">\\[b=\\frac{154{,}94}{\\sqrt{2778^2+1284^2}}\\ \\mathrm{mm}\\]</div></li><li><p class=\"facit-rubrik\">Millimeter till mikrometer: \\(1\\ \\mathrm{mm}=1000\\ \\mu\\mathrm m\\)</p><div class=\"facit-matte\">\\[b\\approx0{,}0506276\\ \\mathrm{mm}\\approx50{,}6\\ \\mu\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 50,6 µm.</p></div></div></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur",
@@ -1007,7 +1007,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>En skärm har 2 778 × 1 284 kvadratiska bildpunkter och diagonalen 6,1 tum. 1 tum = 25,4 mm. Hur många bildpunkter per mm har skärmen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Diagonalen motsvarar \\(\\sqrt{2778^2+1284^2}\\approx3060{,}38\\) pixelbredder.</p></div><div class=\"facit-stycke\"><p>Dess längd är \\(6{,}1\\cdot25{,}4=154{,}94\\ \\mathrm{mm}\\).</p></div><div class=\"facit-stycke\"><p>Kvoten blir \\(3060{,}38/154{,}94\\approx19{,}8\\) pixlar/mm.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Diagonalens längd: \\(d=6{,}1\\cdot25{,}4\\ \\mathrm{mm}\\)</p><div class=\"facit-matte\">\\[d=154{,}94\\ \\mathrm{mm}\\]</div></li><li><p class=\"facit-rubrik\">Pythagoras sats: \\(N_d=\\sqrt{N_x^2+N_y^2}\\)</p><p>Bildpunkterna är kvadratiska. Skärmens diagonal uttryckt i bildpunktsbredder fås därför med Pythagoras sats.</p><div class=\"facit-matte\">\\[N_d=\\sqrt{2778^2+1284^2}\\approx3060{,}38\\]</div></li><li><p class=\"facit-rubrik\">Bildpunkter per längd: \\(p=N_d/d\\)</p><div class=\"facit-matte\">\\[p=\\frac{\\sqrt{2778^2+1284^2}}{154{,}94}\\approx19{,}8\\ \\mathrm{mm^{-1}}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 19,8 bildpunkter per mm.</p></div>",
         "ledtrad": "<p>Hur kan du bestämma diagonalen i antal pixlar från antalet pixlar längs sidorna?</p>",
         "niva": "C",
         "poang": "(1/1/0)",
@@ -1019,7 +1019,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>En skärm har 19,8 kvadratiska bildpunkter per mm. Hur bred är en bildpunkt i µm?</p>",
-        "s": "<div class=\"facit-v2\"><p>\\[d=1/19{,}8\\ \\mathrm{mm}\\]</p><p>\\[d=1000/19{,}8\\ \\mu\\mathrm m\\]</p><p>\\[d\\approx50{,}5\\ \\mu\\mathrm m\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bildpunktsbredd: \\(b=1/p\\)</p><p>I detta kort är 19,8 bildpunkter per mm det givna värdet. En bildpunkt upptar därför 1/19,8 mm.</p><div class=\"facit-matte\">\\[b=\\frac{1}{19{,}8}\\ \\mathrm{mm}\\approx0{,}050505\\ \\mathrm{mm}\\]</div></li><li><p class=\"facit-rubrik\">Millimeter till mikrometer: \\(1\\ \\mathrm{mm}=1000\\ \\mu\\mathrm m\\)</p><div class=\"facit-matte\">\\[b=\\frac{1000}{19{,}8}\\ \\mu\\mathrm m\\approx50{,}5\\ \\mu\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 50,5 µm med kortets givna värde.</p></div>",
         "ledtrad": "<p>En bildpunkts bredd är 1 delat med antalet per mm. 1 mm = 1 000 µm.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -1054,7 +1054,7 @@ window.BANK = [
     "typ": "omvandla timmar till sekunder",
     "poang": "(1/0/0)",
     "t": "<p>Ett experiment pågår i \\(0{,}75\\) h. Hur lång tid är det i sekunder?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En timme innehåller 60 minuter och varje minut 60 sekunder.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=0{,}75\\cdot60\\cdot60=2700\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2700\\ \\mathrm s\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Timmar till sekunder: \\(1\\ \\mathrm h=3600\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[0{,}75\\ \\mathrm h=0{,}75\\cdot3600\\ \\mathrm s=2700\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2700\\ \\mathrm s\\).</p></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -1720,7 +1720,7 @@ window.BANK = [
     "typ": "bestämma SI-enheten för en storhet ur dess formel, ur text, sökt enhet",
     "poang": "(2/3/0)",
     "t": "<p>Bestäm SI-enheten för storheten i varje formel. Byt ut storheterna mot deras SI-enheter och förenkla. Skriv enheten med SI-grundenheterna kg, m och s. Ange också enhetens namn, till exempel joule, när ett sådant finns.</p>\n<ol type=\"a\"><li>E<sub>k</sub> = mv²/2</li><li>p = F/A</li><li>ρ = m/V</li><li>P = W/t</li><li>F = ma</li></ol><p>Här är m massa, v fart, F kraft, A area, V volym, W arbete, t tid och a acceleration.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt in SI-enheterna i rörelseenergin.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[[E_k]=\\mathrm{kg}\\left(\\frac{\\mathrm m}{\\mathrm s}\\right)^2=\\frac{\\mathrm{kg\\,m^2}}{\\mathrm{s^2}}=\\mathrm J\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tryck är kraft per area.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[[p]=\\frac{\\mathrm N}{\\mathrm{m^2}}=\\frac{\\mathrm{kg}}{\\mathrm{m\\,s^2}}=\\mathrm{Pa}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Densitet är massa per volym.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[[\\rho]=\\mathrm{kg/m^3}\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekt är energi per tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[[P]=\\frac{\\mathrm J}{\\mathrm s}=\\frac{\\mathrm{kg\\,m^2}}{\\mathrm{s^3}}=\\mathrm W\\]</div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraft är massa gånger acceleration.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[[F]=\\mathrm{kg}\\frac{\\mathrm m}{\\mathrm{s^2}}=\\mathrm N\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Enheterna blir \\(\\mathrm J\\), \\(\\mathrm{Pa}\\), \\(\\mathrm{kg/m^3}\\), \\(\\mathrm W\\) och \\(\\mathrm N\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelseenergi: \\(E_k=mv^2/2\\)</p><p>Sifferfaktorn 1/2 har ingen enhet. Hastighetens enhet ska kvadreras.</p><div class=\"facit-matte\">\\[\\begin{aligned}[E_k]&=\\mathrm{kg}\\left(\\frac{\\mathrm m}{\\mathrm s}\\right)^2\\\\&=\\mathrm{kg\\,m^2/s^2}\\\\&=\\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\mathrm{kg\\,m^2/s^2}=\\mathrm J\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tryck: \\(p=F/A\\)</p><p>En newton är kg·m/s². Dividera med areans enhet m².</p><div class=\"facit-matte\">\\[\\begin{aligned}[p]&=\\frac{\\mathrm{kg\\,m/s^2}}{\\mathrm{m^2}}\\\\&=\\mathrm{kg/(m\\,s^2)}\\\\&=\\mathrm{Pa}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\mathrm{kg/(m\\,s^2)}=\\mathrm{Pa}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><div class=\"facit-matte\">\\[[\\rho]=\\frac{\\mathrm{kg}}{\\mathrm{m^3}}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\mathrm{kg/m^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt: \\(P=W/t\\)</p><p>Här betecknar W i formeln arbete, medan W som enhet betyder watt.</p><div class=\"facit-matte\">\\[[P]=\\frac{\\mathrm J}{\\mathrm s}=\\mathrm{kg\\,m^2/s^3}=\\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\mathrm{kg\\,m^2/s^3}=\\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Newtons andra lag: \\(F=ma\\)</p><div class=\"facit-matte\">\\[[F]=\\mathrm{kg}\\cdot\\mathrm{m/s^2}=\\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\mathrm{kg\\,m/s^2}=\\mathrm N\\).</p></div></div></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "begrepp",
@@ -1752,7 +1752,7 @@ window.BANK = [
     "typ": "omvandla kilometer per timme till meter per sekund",
     "poang": "(1/0/0)",
     "t": "<p>En cyklist färdas med \\(63\\ \\mathrm{km/h}\\). Ange farten i \\(\\mathrm{m/s}\\).<br></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När km/h omvandlas till m/s kan siffervärdet delas med 3,6.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{63}{3{,}6}=17{,}5\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}5\\ \\mathrm{m/s}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fartomvandling: \\(1\\ \\mathrm{km/h}=\\frac{1}{3{,}6}\\ \\mathrm{m/s}\\)</p><p>En kilometer är 1000 m och en timme är 3600 s. Därför divideras talet med 3,6.</p><div class=\"facit-matte\">\\[\\begin{aligned}63\\ \\mathrm{km/h}&=\\frac{63}{3{,}6}\\ \\mathrm{m/s}\\\\&=17{,}5\\ \\mathrm{m/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}5\\ \\mathrm{m/s}\\).</p></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -1913,7 +1913,7 @@ window.BANK = [
     "typ": "skriva tal i grundpotensform, ur text, sökt grundpotensform",
     "poang": "(3/0/0)",
     "t": "<p>Skriv följande tal i grundpotensform, alltså på formen a·10ⁿ där 1 ≤ a &lt; 10.</p>\n<ol type=\"a\"><li>0,000 42</li><li>93 000 000</li><li>0,000 000 015 6</li><li>6021</li><li>0,75</li><li>250 000 000 000</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Flytta decimaltecknet så att koefficienten är minst 1 men mindre än 10; antalet steg bestämmer exponenten.</p><div class=\"facit-matte\">\\[\\begin{aligned}0{,}000\\,42&amp;=4{,}2\\cdot10^{-4}\\\\93\\,000\\,000&amp;=9{,}3\\cdot10^7\\\\0{,}000\\,000\\,0156&amp;=1{,}56\\cdot10^{-8}\\\\6021&amp;=6{,}021\\cdot10^3\\\\0{,}75&amp;=7{,}5\\cdot10^{-1}\\\\250\\,000\\,000\\,000&amp;=2{,}5\\cdot10^{11}\\end{aligned}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\cdot10^{-4}\\), \\(9{,}3\\cdot10^7\\), \\(1{,}56\\cdot10^{-8}\\), \\(6{,}021\\cdot10^3\\), \\(7{,}5\\cdot10^{-1}\\) och \\(2{,}5\\cdot10^{11}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grundpotensform: \\(a\\cdot10^n\\), där \\(1\\le a\\lt10\\)</p><p>4,2 måste delas med 10 000 för att ge det ursprungliga talet.</p><div class=\"facit-matte\">\\[0{,}00042=4{,}2\\cdot10^{-4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\cdot10^{-4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grundpotensform: \\(a\\cdot10^n\\), där \\(1\\le a\\lt10\\)</p><p>9,3 multiplicerat med tio miljoner ger det ursprungliga talet.</p><div class=\"facit-matte\">\\[93\\,000\\,000=9{,}3\\cdot10^7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}3\\cdot10^7\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grundpotensform: \\(a\\cdot10^n\\), där \\(1\\le a\\lt10\\)</p><p>1,56 måste delas med hundra miljoner.</p><div class=\"facit-matte\">\\[0{,}0000000156=1{,}56\\cdot10^{-8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}56\\cdot10^{-8}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grundpotensform: \\(a\\cdot10^n\\), där \\(1\\le a\\lt10\\)</p><p>Flytta decimaltecknet tre steg åt vänster och kompensera med tusen.</p><div class=\"facit-matte\">\\[6021=6{,}021\\cdot10^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}021\\cdot10^3\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grundpotensform: \\(a\\cdot10^n\\), där \\(1\\le a\\lt10\\)</p><p>7,5 delas med tio.</p><div class=\"facit-matte\">\\[0{,}75=7{,}5\\cdot10^{-1}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\cdot10^{-1}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grundpotensform: \\(a\\cdot10^n\\), där \\(1\\le a\\lt10\\)</p><p>250 skrivs som 2,5 gånger 100. Vid multiplikation av tiopotenser adderas exponenterna.</p><div class=\"facit-matte\">\\[250\\cdot10^9=2{,}5\\cdot10^2\\cdot10^9=2{,}5\\cdot10^{11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\cdot10^{11}\\).</p></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -1944,7 +1944,7 @@ window.BANK = [
     "typ": "omvandla megawatt till watt",
     "poang": "(1/0/0)",
     "t": "<p>Ett vindkraftverk levererar \\(4{,}2\\ \\mathrm{MW}\\). Ange effekten i watt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mega betyder \\(10^6\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[4{,}2\\ \\mathrm{MW}=4{,}2\\cdot10^6\\ \\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\cdot10^6\\ \\mathrm W\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{MW}=10^6\\ \\mathrm W\\)</p><div class=\"facit-matte\">\\[4{,}2\\ \\mathrm{MW}=4{,}2\\cdot10^6\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\cdot10^6\\ \\mathrm W\\).</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -1974,7 +1974,7 @@ window.BANK = [
     "typ": "omvandla frekvens aktivitet och stråldos till grundenheter, ur text, sökt frekvens och dos",
     "poang": "(6/0/0)",
     "t": "<p>Skriv värdet utan prefix, i Hz, Bq, Gy respektive Sv.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 2,4 GHz</div><div>b) 88 MHz</div><div>c) 37 kBq</div><div>d) 12 MBq</div><div>e) 150 µGy</div><div>f) 2,4 mSv</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Giga betyder en miljard: 2,4 GHz = 2,4 · 10⁹ Hz.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Mega betyder en miljon: 88 MHz =</p><div class=\"facit-matte\">\\[88\\cdot 10^{6} \\mathrm{Hz}=8{,}8\\cdot 10^{7} \\mathrm{Hz}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}8\\cdot10^{7}\\) Hz.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kilo betyder tusen: 37 kBq = 37 000 Bq.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(37\\,000\\) Bq.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Mega betyder en miljon: 12 MBq = 12 000 000 Bq.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,000\\,000\\) Bq.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Mikro betyder miljondel: 150 µGy =</p><div class=\"facit-matte\">\\[150\\cdot 10^{-6} \\mathrm{Gy}=0{,}000150\\, \\mathrm{Gy}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000150\\) Gy.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Milli betyder tusendel: 2,4 mSv = 0,0024 Sv.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0024\\) Sv.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Giga: \\(1\\ \\mathrm{GHz}=10^9\\ \\mathrm{Hz}\\)</p><div class=\"facit-matte\">\\[2{,}4\\ \\mathrm{GHz}=2{,}4\\cdot10^9\\ \\mathrm{Hz}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}4\\cdot10^9\\ \\mathrm{Hz}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{MHz}=10^6\\ \\mathrm{Hz}\\)</p><div class=\"facit-matte\">\\[88\\ \\mathrm{MHz}=88\\cdot10^6\\ \\mathrm{Hz}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(88\\,000\\,000\\ \\mathrm{Hz}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kBq}=10^3\\ \\mathrm{Bq}\\)</p><div class=\"facit-matte\">\\[37\\ \\mathrm{kBq}=37\\cdot1000\\ \\mathrm{Bq}=37\\,000\\ \\mathrm{Bq}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(37\\,000\\ \\mathrm{Bq}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{MBq}=10^6\\ \\mathrm{Bq}\\)</p><div class=\"facit-matte\">\\[12\\ \\mathrm{MBq}=12\\cdot10^6\\ \\mathrm{Bq}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,000\\,000\\ \\mathrm{Bq}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mikro: \\(1\\ \\mu\\mathrm{Gy}=10^{-6}\\ \\mathrm{Gy}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}150\\ \\mu\\mathrm{Gy}&=150\\cdot10^{-6}\\ \\mathrm{Gy}\\\\&=0{,}000150\\ \\mathrm{Gy}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000150\\ \\mathrm{Gy}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mSv}=10^{-3}\\ \\mathrm{Sv}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}2{,}4\\ \\mathrm{mSv}&=2{,}4\\cdot10^{-3}\\ \\mathrm{Sv}\\\\&=0{,}0024\\ \\mathrm{Sv}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0024\\ \\mathrm{Sv}\\).</p></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -2025,7 +2025,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Skriv 2,4 GHz i Hz, utan prefix.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Giga betyder en miljard: 2,4 GHz = 2,4 · 10⁹ Hz.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Giga: \\(1\\ \\mathrm{GHz}=10^9\\ \\mathrm{Hz}\\)</p><div class=\"facit-matte\">\\[2{,}4\\ \\mathrm{GHz}=2{,}4\\cdot10^9\\ \\mathrm{Hz}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}4\\cdot10^9\\ \\mathrm{Hz}\\).</p></div>",
         "ledtrad": "<p>Slå upp prefixets värde. Enhetens betydelse ändrar inte prefixfaktorn.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -2035,7 +2035,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Skriv 88 MHz i Hz, utan prefix.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Mega betyder en miljon: 88 MHz =</p><div class=\"facit-matte\">\\[88\\cdot 10^{6} \\mathrm{Hz}=8{,}8\\cdot 10^{7} \\mathrm{Hz}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{MHz}=10^6\\ \\mathrm{Hz}\\)</p><div class=\"facit-matte\">\\[88\\ \\mathrm{MHz}=88\\cdot10^6\\ \\mathrm{Hz}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(88\\,000\\,000\\ \\mathrm{Hz}\\).</p></div>",
         "ledtrad": "<p>Slå upp prefixets värde. Enhetens betydelse ändrar inte prefixfaktorn.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -2045,7 +2045,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Skriv 37 kBq i Bq, utan prefix.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kilo betyder tusen: 37 kBq = 37 000 Bq.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kBq}=10^3\\ \\mathrm{Bq}\\)</p><div class=\"facit-matte\">\\[37\\ \\mathrm{kBq}=37\\cdot1000\\ \\mathrm{Bq}=37\\,000\\ \\mathrm{Bq}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(37\\,000\\ \\mathrm{Bq}\\).</p></div>",
         "ledtrad": "<p>Slå upp prefixets värde. Enhetens betydelse ändrar inte prefixfaktorn.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -2055,7 +2055,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Skriv 12 MBq i Bq, utan prefix.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Mega betyder en miljon: 12 MBq = 12 000 000 Bq.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{MBq}=10^6\\ \\mathrm{Bq}\\)</p><div class=\"facit-matte\">\\[12\\ \\mathrm{MBq}=12\\cdot10^6\\ \\mathrm{Bq}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,000\\,000\\ \\mathrm{Bq}\\).</p></div>",
         "ledtrad": "<p>Slå upp prefixets värde. Enhetens betydelse ändrar inte prefixfaktorn.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -2065,7 +2065,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Skriv 150 µGy i Gy, utan prefix.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Mikro betyder miljondel: 150 µGy =</p><div class=\"facit-matte\">\\[150\\cdot 10^{-6} \\mathrm{Gy}=0{,}000150\\, \\mathrm{Gy}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mikro: \\(1\\ \\mu\\mathrm{Gy}=10^{-6}\\ \\mathrm{Gy}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}150\\ \\mu\\mathrm{Gy}&=150\\cdot10^{-6}\\ \\mathrm{Gy}\\\\&=0{,}000150\\ \\mathrm{Gy}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000150\\ \\mathrm{Gy}\\).</p></div>",
         "ledtrad": "<p>Slå upp prefixets värde. Enhetens betydelse ändrar inte prefixfaktorn.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -2075,7 +2075,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Skriv 2,4 mSv i Sv, utan prefix.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Milli betyder tusendel: 2,4 mSv = 0,0024 Sv.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mSv}=10^{-3}\\ \\mathrm{Sv}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}2{,}4\\ \\mathrm{mSv}&=2{,}4\\cdot10^{-3}\\ \\mathrm{Sv}\\\\&=0{,}0024\\ \\mathrm{Sv}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0024\\ \\mathrm{Sv}\\).</p></div>",
         "ledtrad": "<p>Slå upp prefixets värde. Enhetens betydelse ändrar inte prefixfaktorn.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -2097,7 +2097,7 @@ window.BANK = [
     "typ": "omvandla mikroampere till ampere",
     "poang": "(1/0/0)",
     "t": "<p>Strömmen genom en sensor är \\(350\\ \\mu\\mathrm A\\). Ange strömmen i ampere.</p>",
-    "s": "<div class=\"facit-v2\"><p>Mikro betyder en miljondel.</p><p>\\[1\\ \\mu\\mathrm A=10^{-6}\\ \\mathrm A\\]</p><p>\\[I=350\\cdot10^{-6}\\ \\mathrm A\\]</p><p>\\[I=3{,}50\\cdot10^{-4}\\ \\mathrm A\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}50\\cdot10^{-4}\\) A.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mikro: \\(1\\ \\mu\\mathrm A=10^{-6}\\ \\mathrm A\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}350\\ \\mu\\mathrm A&=350\\cdot10^{-6}\\ \\mathrm A\\\\&=0{,}000350\\ \\mathrm A\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000350\\ \\mathrm A\\).</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -2611,7 +2611,7 @@ window.BANK = [
     "typ": "omvandla vardagliga energienheter till joule och kilowattimmar, ur text, sökt energi",
     "poang": "(5/0/0)",
     "t": "<p>Avrunda bara där det anges.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) En dags mat innehåller 2000 kcal. Hur många joule motsvarar det?</div><div>b) En dags mat innehåller 2000 kcal. Hur många kWh motsvarar det? Ange två decimaler.</div><div>c) En lampa på 60 W är tänd i 5,0 timmar. Hur många kWh använder den?</div><div>d) En lampa på 60 W är tänd i 5,0 timmar. Hur många joule använder den?</div><div>e) Vid ett alfasönderfall frigörs 5,0 MeV. Hur mycket energi frigörs sammanlagt vid 10¹² sådana sönderfall? Ange energin i joule.</div></div>",
-    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p><strong>a)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2000\\cdot 4184=8\\,368\\,000\\, \\mathrm{J}\\]</div></div></div></div></div></p></div></p><p><div class=\"facit-v2\"><p><strong>b)</strong></p><p><div class=\"facit-v2\"><p>\\[E_J=2000\\cdot4184=8368000\\ \\mathrm J\\]</p><p>\\[E_{kWh}=E_J/(3{,}6\\cdot10^6)\\]</p><p>\\[E_{kWh}\\approx2{,}32\\ \\mathrm{kWh}\\]</p></div></p></div></p><p><div class=\"facit-v2\"><p><strong>c)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[60 W=0{,}060\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Energin är 0,060 · 5,0 = 0,30 kWh.</p></div></div></div></p></div></p><p><div class=\"facit-v2\"><p><strong>d)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[5{,}0 h=18\\,000\\, \\mathrm{s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Energin är</p><div class=\"facit-matte\">\\[60\\cdot 18\\,000=1\\,080\\,000\\, \\mathrm{J}\\]</div></div></div></div></div></p></div></p><p><div class=\"facit-v2\"><p><strong>e)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ett sönderfall frigör \\(5{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=8{,}01\\cdot10^{-13}\\ \\mathrm J\\).</p></div><div class=\"facit-stycke\"><p>För \\(10^{12}\\) sönderfall blir den sammanlagda energin \\(10^{12}\\cdot8{,}01\\cdot10^{-13}=0{,}801\\ \\mathrm J\\).</p></div></div></div></p></div></p></div><p>Med elementarladdningen avrundad till 1,60·10⁻¹⁹ C blir e-svaret 0,800 J. Det godkänns också.</p><p>Med 1 kcal = 4186 J blir a) 8 372 000 J och b) cirka 2,33 kWh. De svaren godkänns också.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilokalorier till joule: \\(1\\ \\mathrm{kcal}=4184\\ \\mathrm J\\)</p><p>Med tabellvärdet 4186 J/kcal blir svaret 8 372 000 J. Båda omvandlingsfaktorerna godtas.</p><div class=\"facit-matte\">\\[E=2000\\cdot4184\\ \\mathrm J=8\\,368\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\,368\\,000\\ \\mathrm J\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilokalorier till joule: \\(1\\ \\mathrm{kcal}=4184\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[E=2000\\cdot4184\\ \\mathrm J=8\\,368\\,000\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Joule till kWh: \\(1\\ \\mathrm{kWh}=3{,}6\\cdot10^6\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[E=\\frac{8\\,368\\,000}{3{,}6\\cdot10^6}\\ \\mathrm{kWh}\\approx2{,}32\\ \\mathrm{kWh}\\]</div><p>Med 4186 J/kcal blir det i stället ungefär 2,33 kWh. Skillnaden beror på tabellvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 2,32 kWh (2,33 kWh med 4186 J/kcal).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi vid konstant effekt: \\(E=Pt\\)</p><p>60 W = 0,060 kW. Med kilowatt och timmar blir energin direkt i kilowattimmar.</p><div class=\"facit-matte\">\\[E=0{,}060\\ \\mathrm{kW}\\cdot5{,}0\\ \\mathrm h=0{,}30\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}30\\ \\mathrm{kWh}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tiden i sekunder: \\(t=5{,}0\\cdot3600\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[t=18\\,000\\ \\mathrm s\\]</div></li><li><p class=\"facit-rubrik\">Energi vid konstant effekt: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=60\\ \\mathrm W\\cdot18\\,000\\ \\mathrm s=1\\,080\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}08\\cdot10^6\\) J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi per händelse: \\(1\\ \\mathrm{eV}=1{,}602\\cdot10^{-19}\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[E_1=5{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm J\\]</div><div class=\"facit-matte\">\\[E_1=8{,}01\\cdot10^{-13}\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Total energi: \\(E_{\\text{tot}}=NE_1\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_{\\text{tot}}&=10^{12}\\cdot8{,}01\\cdot10^{-13}\\ \\mathrm J\\\\&=0{,}801\\ \\mathrm J\\end{aligned}\\]</div><p>Med det avrundade tabellvärdet 1,60·10⁻¹⁹ J/eV blir svaret 0,800 J.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,801 J (0,800 J med det avrundade tabellvärdet).</p></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -2658,7 +2658,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Matens energi är 2 000 kcal. Hur mycket energi är det i J?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2000\\cdot 4184=8\\,368\\,000\\, \\mathrm{J}\\]</div></div></div></div></div><p>Med 1 kcal = 4186 J blir svaret 8 372 000 J. Även det godkänns.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilokalorier till joule: \\(1\\ \\mathrm{kcal}=4184\\ \\mathrm J\\)</p><p>Med tabellvärdet 4186 J/kcal blir svaret 8 372 000 J. Båda omvandlingsfaktorerna godtas.</p><div class=\"facit-matte\">\\[E=2000\\cdot4184\\ \\mathrm J=8\\,368\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\,368\\,000\\ \\mathrm J\\).</p></div>",
         "ledtrad": "<p>Vad betyder en kilokalori uttryckt i joule?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -2671,7 +2671,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Matens energi är 2 000 kcal. Hur mycket energi är det i kWh?</p>",
-        "s": "<div class=\"facit-v2\"><p>\\[E_J=2000\\cdot4184=8368000\\ \\mathrm J\\]</p><p>\\[E_{kWh}=E_J/(3{,}6\\cdot10^6)\\]</p><p>\\[E_{kWh}\\approx2{,}32\\ \\mathrm{kWh}\\]</p></div><p>Med 1 kcal = 4186 J blir svaret cirka 2,33 kWh. Även det godkänns.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilokalorier till joule: \\(1\\ \\mathrm{kcal}=4184\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[E=2000\\cdot4184\\ \\mathrm J=8\\,368\\,000\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Joule till kWh: \\(1\\ \\mathrm{kWh}=3{,}6\\cdot10^6\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[E=\\frac{8\\,368\\,000}{3{,}6\\cdot10^6}\\ \\mathrm{kWh}\\approx2{,}32\\ \\mathrm{kWh}\\]</div><p>Med 4186 J/kcal blir det i stället ungefär 2,33 kWh. Skillnaden beror på tabellvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 2,32 kWh (2,33 kWh med 4186 J/kcal).</p></div>",
         "ledtrad": "<p>Hur stor del av en kWh motsvarar matens energi i joule?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -2684,7 +2684,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>En lampa på 60 W är tänd i 5,0 timmar. Hur många kWh använder den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[60 W=0{,}060\\, \\mathrm{kW}\\]</div></div></div><div class=\"facit-stycke\"><p>Energin är 0,060 · 5,0 = 0,30 kWh.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi vid konstant effekt: \\(E=Pt\\)</p><p>60 W = 0,060 kW. Med kilowatt och timmar blir energin direkt i kilowattimmar.</p><div class=\"facit-matte\">\\[E=0{,}060\\ \\mathrm{kW}\\cdot5{,}0\\ \\mathrm h=0{,}30\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}30\\ \\mathrm{kWh}\\).</p></div>",
         "ledtrad": "<p>Vilken effektenhet passar ihop med timmar när svaret ska bli kWh?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -2697,7 +2697,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>En lampa på 60 W är tänd i 5,0 timmar. Hur många J använder den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[5{,}0 h=18\\,000\\, \\mathrm{s}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Energin är</p><div class=\"facit-matte\">\\[60\\cdot 18\\,000=1\\,080\\,000\\, \\mathrm{J}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tiden i sekunder: \\(t=5{,}0\\cdot3600\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[t=18\\,000\\ \\mathrm s\\]</div></li><li><p class=\"facit-rubrik\">Energi vid konstant effekt: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=60\\ \\mathrm W\\cdot18\\,000\\ \\mathrm s=1\\,080\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}08\\cdot10^6\\) J.</p></div>",
         "ledtrad": "<p>Vilken tidsenhet passar ihop med watt när svaret ska bli joule?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -2710,7 +2710,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Ett alfasönderfall frigör 5,0 MeV. Hur mycket energi frigörs vid 10¹² sådana sönderfall? (Svara i J.)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ett sönderfall frigör \\(5{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=8{,}01\\cdot10^{-13}\\ \\mathrm J\\).</p></div><div class=\"facit-stycke\"><p>För \\(10^{12}\\) sönderfall blir den sammanlagda energin \\(10^{12}\\cdot8{,}01\\cdot10^{-13}=0{,}801\\ \\mathrm J\\).</p></div></div></div><p>Med elementarladdningen avrundad till 1,60·10⁻¹⁹ C blir e-svaret 0,800 J. Det godkänns också.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi per händelse: \\(1\\ \\mathrm{eV}=1{,}602\\cdot10^{-19}\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[E_1=5{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm J\\]</div><div class=\"facit-matte\">\\[E_1=8{,}01\\cdot10^{-13}\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Total energi: \\(E_{\\text{tot}}=NE_1\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_{\\text{tot}}&=10^{12}\\cdot8{,}01\\cdot10^{-13}\\ \\mathrm J\\\\&=0{,}801\\ \\mathrm J\\end{aligned}\\]</div><p>Med det avrundade tabellvärdet 1,60·10⁻¹⁹ J/eV blir svaret 0,800 J.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,801 J (0,800 J med det avrundade tabellvärdet).</p></div>",
         "ledtrad": "<p>Beräkna energin i joule för ett sönderfall. Hur får du sedan energin för alla sönderfallen?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -2986,7 +2986,7 @@ window.BANK = [
     "typ": "omvandla effekter till watt, ur text, sökt effekt",
     "poang": "(6/0/0)",
     "t": "<p>Omvandla effekten till watt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 2,4 kW</div><div>b) 850 MW</div><div>c) 45 mW</div><div>d) 1,5 hk</div><div>e) 0,60 kW</div><div>f) 12 GW</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2{,}4\\cdot 1000 W=2400\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2400\\) W.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[850\\cdot 10^{6} W=850\\,000\\,000\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(850\\,000\\,000\\) W.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[45\\cdot 10^{-3} W=0{,}045\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}045\\) W.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1{,}5\\cdot 735 W=1102{,}5\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1102{,}5\\) W.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[0{,}60\\cdot 1000 W=600\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\) W.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[12\\cdot 10^{9} W=12\\,000\\,000\\,000\\, \\mathrm{W}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,000\\,000\\,000\\) W.</p></div></div></div><p>Med 1 hk = 735,5 W blir d) 1103,25 W. Även det svaret godkänns.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kW}=10^3\\ \\mathrm W\\)</p><div class=\"facit-matte\">\\[2{,}4\\ \\mathrm{kW}=2{,}4\\cdot1000\\ \\mathrm W=2400\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2400\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{MW}=10^6\\ \\mathrm W\\)</p><div class=\"facit-matte\">\\[850\\ \\mathrm{MW}=850\\cdot10^6\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(850\\,000\\,000\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mW}=10^{-3}\\ \\mathrm W\\)</p><div class=\"facit-matte\">\\[45\\ \\mathrm{mW}=45\\cdot10^{-3}\\ \\mathrm W=0{,}045\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}045\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hästkrafter: \\(1\\ \\mathrm{hk}\\approx735\\ \\mathrm W\\)</p><p>Med tabellvärdet 735,5 W/hk blir resultatet 1103,25 W. Båda tabellvärdena ger ungefär 1,10 kW.</p><div class=\"facit-matte\">\\[1{,}5\\ \\mathrm{hk}\\approx1{,}5\\cdot735\\ \\mathrm W=1102{,}5\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1102{,}5\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kW}=10^3\\ \\mathrm W\\)</p><div class=\"facit-matte\">\\[0{,}60\\ \\mathrm{kW}=0{,}60\\cdot1000\\ \\mathrm W=600\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Giga: \\(1\\ \\mathrm{GW}=10^9\\ \\mathrm W\\)</p><div class=\"facit-matte\">\\[12\\ \\mathrm{GW}=12\\cdot10^9\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,000\\,000\\,000\\ \\mathrm W\\).</p></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -3037,7 +3037,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla 2,4 kW till watt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2{,}4\\cdot 1000 W=2400\\, \\mathrm{W}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kW}=10^3\\ \\mathrm W\\)</p><div class=\"facit-matte\">\\[2{,}4\\ \\mathrm{kW}=2{,}4\\cdot1000\\ \\mathrm W=2400\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2400\\ \\mathrm W\\).</p></div>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3047,7 +3047,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla 850 MW till watt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[850\\cdot 10^{6} W=850\\,000\\,000\\, \\mathrm{W}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{MW}=10^6\\ \\mathrm W\\)</p><div class=\"facit-matte\">\\[850\\ \\mathrm{MW}=850\\cdot10^6\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(850\\,000\\,000\\ \\mathrm W\\).</p></div>",
         "ledtrad": "<p>Vad betyder mega?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3057,7 +3057,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla 45 mW till watt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[45\\cdot 10^{-3} W=0{,}045\\, \\mathrm{W}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mW}=10^{-3}\\ \\mathrm W\\)</p><div class=\"facit-matte\">\\[45\\ \\mathrm{mW}=45\\cdot10^{-3}\\ \\mathrm W=0{,}045\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}045\\ \\mathrm W\\).</p></div>",
         "ledtrad": "<p>Vad betyder milli?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3067,7 +3067,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla 1,5 hk till watt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1{,}5\\cdot 735 W=1102{,}5\\, \\mathrm{W}\\]</div></div></div></div></div><p>Med 1 hk = 735,5 W blir d) 1103,25 W. Även det svaret godkänns.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hästkrafter: \\(1\\ \\mathrm{hk}\\approx735\\ \\mathrm W\\)</p><p>Med tabellvärdet 735,5 W/hk blir resultatet 1103,25 W. Båda tabellvärdena ger ungefär 1,10 kW.</p><div class=\"facit-matte\">\\[1{,}5\\ \\mathrm{hk}\\approx1{,}5\\cdot735\\ \\mathrm W=1102{,}5\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1102{,}5\\ \\mathrm W\\).</p></div>",
         "ledtrad": "<p>Vilken effekt motsvarar en hästkraft enligt uppgiften?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3077,7 +3077,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla 0,60 kW till watt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[0{,}60\\cdot 1000 W=600\\, \\mathrm{W}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kW}=10^3\\ \\mathrm W\\)</p><div class=\"facit-matte\">\\[0{,}60\\ \\mathrm{kW}=0{,}60\\cdot1000\\ \\mathrm W=600\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\ \\mathrm W\\).</p></div>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3087,7 +3087,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Omvandla 12 GW till watt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[12\\cdot 10^{9} W=12\\,000\\,000\\,000\\, \\mathrm{W}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Giga: \\(1\\ \\mathrm{GW}=10^9\\ \\mathrm W\\)</p><div class=\"facit-matte\">\\[12\\ \\mathrm{GW}=12\\cdot10^9\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,000\\,000\\,000\\ \\mathrm W\\).</p></div>",
         "ledtrad": "<p>Vad betyder giga?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3114,7 +3114,7 @@ window.BANK = [
     "typ": "omvandla densitetsenheter",
     "poang": "(1/0/0)",
     "t": "<p>En legering har densiteten \\(5{,}6\\ \\mathrm{g/cm^3}\\). Ange densiteten i \\(\\mathrm{kg/m^3}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För densitet gäller \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[5{,}6\\ \\mathrm{g/cm^3}=5{,}6\\cdot1000=5600\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5600\\ \\mathrm{kg/m^3}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitetsenheter: \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\)</p><p>Ett gram är \\(10^{-3}\\) kg och en kubikcentimeter är \\(10^{-6}\\) m³. Kvoten mellan faktorerna är \\(10^{-3}/10^{-6}=1000\\).</p><div class=\"facit-matte\">\\[\\begin{aligned}5{,}6\\ \\mathrm{g/cm^3}&=5{,}6\\cdot1000\\ \\mathrm{kg/m^3}\\\\&=5600\\ \\mathrm{kg/m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5600\\ \\mathrm{kg/m^3}\\).</p></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -3141,7 +3141,7 @@ window.BANK = [
     "typ": "omvandla energier till joule, ur text, sökt energi",
     "poang": "(6/0/0)",
     "t": "<p>Omvandla energin till joule.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 45 kJ</div><div>b) 2,5 MJ</div><div>c) 3,0 kWh</div><div>d) 250 Wh</div><div>e) 1,5 mJ</div><div>f) 500 kcal</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[45\\cdot 1000 J=45\\,000\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(45\\,000\\) J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2{,}5\\cdot 10^{6} J=2\\,500\\,000\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,500\\,000\\) J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[3{,}0\\cdot 3{,}6\\cdot 10^{6} J=10\\,800\\,000\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\,800\\,000\\) J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[250\\cdot 3600 J=900\\,000\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(900\\,000\\) J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1{,}5\\cdot 10^{-3} J=0{,}0015\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0015\\) J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>500 kcal = 500 000 cal.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Energin blir</p><div class=\"facit-matte\">\\[500\\,000\\cdot 4{,}184 J=2\\,092\\,000\\, \\mathrm{J}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,092\\,000\\) J.</p></div></div></div><p>Med 1 kcal = 4186 J blir f) 2 093 000 J. Även det svaret godkänns.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kJ}=1000\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[45\\ \\mathrm{kJ}=45\\cdot1000\\ \\mathrm J=45\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(45\\,000\\ \\mathrm J\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{MJ}=10^6\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[2{,}5\\ \\mathrm{MJ}=2{,}5\\cdot10^6\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\cdot10^6\\ \\mathrm J\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilowattimmar: \\(1\\ \\mathrm{kWh}=3{,}6\\cdot10^6\\ \\mathrm J\\)</p><p>En watt är en joule per sekund. En kWh är därför 1000 W gånger 3600 s.</p><div class=\"facit-matte\">\\[3{,}0\\ \\mathrm{kWh}=3{,}0\\cdot3{,}6\\cdot10^6\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\,800\\,000\\ \\mathrm J\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Wattimmar: \\(1\\ \\mathrm{Wh}=3600\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[250\\ \\mathrm{Wh}=250\\cdot3600\\ \\mathrm J=900\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(900\\,000\\ \\mathrm J\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mJ}=10^{-3}\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}1{,}5\\ \\mathrm{mJ}&=1{,}5\\cdot10^{-3}\\ \\mathrm J\\\\&=0{,}0015\\ \\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0015\\ \\mathrm J\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilokalorier: \\(1\\ \\mathrm{kcal}=4184\\ \\mathrm J\\)</p><p>Med tabellvärdet 4186 J/kcal blir resultatet 2 093 000 J. Skillnaden kommer från omvandlingsfaktorn.</p><div class=\"facit-matte\">\\[500\\ \\mathrm{kcal}=500\\cdot4184\\ \\mathrm J=2\\,092\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,092\\,000\\ \\mathrm J\\).</p></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -3192,7 +3192,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla 45 kJ till joule.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[45\\cdot 1000 J=45\\,000\\, \\mathrm{J}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kJ}=1000\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[45\\ \\mathrm{kJ}=45\\cdot1000\\ \\mathrm J=45\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(45\\,000\\ \\mathrm J\\).</p></div>",
         "ledtrad": "<p>Vad betyder prefixet kilo?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3202,7 +3202,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla 2,5 MJ till joule.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2{,}5\\cdot 10^{6} J=2\\,500\\,000\\, \\mathrm{J}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{MJ}=10^6\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[2{,}5\\ \\mathrm{MJ}=2{,}5\\cdot10^6\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\cdot10^6\\ \\mathrm J\\).</p></div>",
         "ledtrad": "<p>Vad betyder prefixet mega?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3212,7 +3212,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla 3,0 kWh till joule.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[3{,}0\\cdot 3{,}6\\cdot 10^{6} J=10\\,800\\,000\\, \\mathrm{J}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilowattimmar: \\(1\\ \\mathrm{kWh}=3{,}6\\cdot10^6\\ \\mathrm J\\)</p><p>En watt är en joule per sekund. En kWh är därför 1000 W gånger 3600 s.</p><div class=\"facit-matte\">\\[3{,}0\\ \\mathrm{kWh}=3{,}0\\cdot3{,}6\\cdot10^6\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\,800\\,000\\ \\mathrm J\\).</p></div>",
         "ledtrad": "<p>Multiplicera med den givna omvandlingsfaktorn.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3222,7 +3222,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla 250 Wh till joule.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[250\\cdot 3600 J=900\\,000\\, \\mathrm{J}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Wattimmar: \\(1\\ \\mathrm{Wh}=3600\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[250\\ \\mathrm{Wh}=250\\cdot3600\\ \\mathrm J=900\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(900\\,000\\ \\mathrm J\\).</p></div>",
         "ledtrad": "<p>Multiplicera med den givna omvandlingsfaktorn.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3232,7 +3232,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla 1,5 mJ till joule.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1{,}5\\cdot 10^{-3} J=0{,}0015\\, \\mathrm{J}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mJ}=10^{-3}\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}1{,}5\\ \\mathrm{mJ}&=1{,}5\\cdot10^{-3}\\ \\mathrm J\\\\&=0{,}0015\\ \\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0015\\ \\mathrm J\\).</p></div>",
         "ledtrad": "<p>Vad betyder prefixet milli?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3242,7 +3242,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Omvandla 500 kcal till joule.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>500 kcal = 500 000 cal.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Energin blir</p><div class=\"facit-matte\">\\[500\\,000\\cdot 4{,}184 J=2\\,092\\,000\\, \\mathrm{J}\\]</div></div></div></div></div><p>Med 1 kcal = 4186 J blir f) 2 093 000 J. Även det svaret godkänns.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilokalorier: \\(1\\ \\mathrm{kcal}=4184\\ \\mathrm J\\)</p><p>Med tabellvärdet 4186 J/kcal blir resultatet 2 093 000 J. Skillnaden kommer från omvandlingsfaktorn.</p><div class=\"facit-matte\">\\[500\\ \\mathrm{kcal}=500\\cdot4184\\ \\mathrm J=2\\,092\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,092\\,000\\ \\mathrm J\\).</p></div>",
         "ledtrad": "<p>Skriv först kcal som cal och multiplicera sedan med den givna faktorn.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3269,7 +3269,7 @@ window.BANK = [
     "typ": "välja lämpligt prefix för tid",
     "poang": "(1/0/0)",
     "t": "<p>En ljuspuls varar \\(1{,}8\\cdot10^{-8}\\ \\mathrm s\\). Hur många nanosekunder är det?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Nano betyder \\(10^{-9}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför därför exponenten \\(-8\\) med \\(-9\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1{,}8\\cdot10^{-8}\\ \\mathrm s=18\\cdot10^{-9}\\ \\mathrm s=18\\ \\mathrm{ns}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\ \\mathrm{ns}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nano: \\(1\\ \\mathrm{ns}=10^{-9}\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}1{,}8\\cdot10^{-8}\\ \\mathrm s&=\\frac{1{,}8\\cdot10^{-8}}{10^{-9}}\\ \\mathrm{ns}\\\\&=18\\ \\mathrm{ns}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\ \\mathrm{ns}\\).</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -3298,7 +3298,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En elev skriver: ”Eftersom 1 m = 100 cm gäller 0,75 m² = 75 cm².” Förklara felet och bestäm den korrekta arean i cm².</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Eleven använder en längdfaktor på en area.</p></div><div class=\"facit-stycke\"><p>En kvadrat med sidan 1 m har sidorna 100 cm, så \\(1\\ \\mathrm{m^2}=100^2\\ \\mathrm{cm^2}=10\\,000\\ \\mathrm{cm^2}\\).</p></div><div class=\"facit-stycke\"><p>Därför är \\(0{,}75\\ \\mathrm{m^2}=7500\\ \\mathrm{cm^2}\\).</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Areaomvandling: \\(1\\ \\mathrm{m^2}=(100\\ \\mathrm{cm})^2\\)</p><p>Eleven har bara använt längdens faktor 100. En area har två längder som båda måste räknas om.</p><div class=\"facit-matte\">\\[1\\ \\mathrm{m^2}=10\\,000\\ \\mathrm{cm^2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera arean med \\(10\\,000\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}0{,}75\\ \\mathrm{m^2}&=0{,}75\\cdot10\\,000\\ \\mathrm{cm^2}\\\\&=7500\\ \\mathrm{cm^2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7500 cm². Faktorn är 10 000, inte 100.</p></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "begrepp",
@@ -3331,7 +3331,7 @@ window.BANK = [
     "typ": "välja lämpligt prefix för längd",
     "poang": "(1/0/0)",
     "t": "<p>En tråd är \\(0{,}00047\\ \\mathrm m\\) tjock. Ange tjockleken i millimeter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Milli betyder tusendel.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En meter innehåller 1000 millimeter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}00047\\ \\mathrm m\\cdot1000=0{,}47\\ \\mathrm{mm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}47\\ \\mathrm{mm}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Meter till millimeter: \\(1\\ \\mathrm m=1000\\ \\mathrm{mm}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}0{,}00047\\ \\mathrm m&=0{,}00047\\cdot1000\\ \\mathrm{mm}\\\\&=0{,}47\\ \\mathrm{mm}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}47\\ \\mathrm{mm}\\).</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -3360,7 +3360,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Ett A4-ark är 210 mm × 297 mm. En fotbollsplan är 105 m × 68 m.</p><p>a) Bestäm arkets area i m² utan avrundning.</p><p>b) Hur många ark motsvarar planens area? Avrunda till närmaste tusental.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">210 mm = 0,210 m och</p><div class=\"facit-matte\">\\[297 \\mathrm{mm}=0{,}297\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Arkets area är</p><div class=\"facit-matte\">\\[0{,}210\\cdot 0{,}297=0{,}06237\\, \\mathrm{m^2}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}06237\\) m².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Planens area är \\(105\\cdot68=7140\\ \\mathrm{m^2}\\).</p></div><div class=\"facit-stycke\"><p>Antalet ark blir \\(7140/(0{,}210\\cdot0{,}297)\\approx114\\,478\\), alltså 114 000 avrundat till närmaste tusental.</p></div><div class=\"facit-stycke\"><p>Det är en areauppskattning; hur arken placeras ingår inte i modellen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(114\\,000\\).</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>A4-arket har längden 297 mm = 0,297 m och bredden 210 mm = 0,210 m. Vi söker arean.</p></li><li><p class=\"facit-rubrik\">Rektangelns area: \\(A=lb\\)</p><div class=\"facit-matte\">\\[A=0{,}297\\cdot0{,}210\\ \\mathrm{m^2}=0{,}06237\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,06237 m².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fotbollsplanens area: \\(A=lb\\)</p><div class=\"facit-matte\">\\[A_{\\text{plan}}=105\\cdot68\\ \\mathrm{m^2}=7140\\ \\mathrm{m^2}\\]</div></li><li><p class=\"facit-rubrik\">Antal ark som areakvot: \\(N=A_{\\text{plan}}/A_{\\text{ark}}\\)</p><p>Arket har arean 0,06237 m². Vi jämför sammanlagda areor; hur arken behöver klippas eller placeras ingår inte.</p><div class=\"facit-matte\">\\[N=\\frac{7140}{0{,}06237}\\approx114\\,478\\]</div><p>Avrundat till närmaste tusental blir det 114 000.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 114 000 ark.</p></div></div></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur",
@@ -3395,7 +3395,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Ett A4-ark är 210 mm × 297 mm. Bestäm arean i m² utan avrundning.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">210 mm = 0,210 m och</p><div class=\"facit-matte\">\\[297 \\mathrm{mm}=0{,}297\\, \\mathrm{m}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Arkets area är</p><div class=\"facit-matte\">\\[0{,}210\\cdot 0{,}297=0{,}06237\\, \\mathrm{m^2}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>A4-arket har längden 297 mm = 0,297 m och bredden 210 mm = 0,210 m. Vi söker arean.</p></li><li><p class=\"facit-rubrik\">Rektangelns area: \\(A=lb\\)</p><div class=\"facit-matte\">\\[A=0{,}297\\cdot0{,}210\\ \\mathrm{m^2}=0{,}06237\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,06237 m².</p></div>",
         "ledtrad": "<p>Jämför planens area med arean av ett ark, uttryckta i samma enhet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3407,7 +3407,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Ett A4-ark har arean 0,06237 m². En fotbollsplan är 105 m × 68 m. Hur många ark motsvarar planens area? Avrunda till närmaste tusental.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Planens area är \\(105\\cdot68=7140\\ \\mathrm{m^2}\\).</p></div><div class=\"facit-stycke\"><p>Antalet ark blir \\(7140/(0{,}210\\cdot0{,}297)\\approx114\\,478\\), alltså 114 000 avrundat till närmaste tusental.</p></div><div class=\"facit-stycke\"><p>Det är en areauppskattning; hur arken placeras ingår inte i modellen.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fotbollsplanens area: \\(A=lb\\)</p><div class=\"facit-matte\">\\[A_{\\text{plan}}=105\\cdot68\\ \\mathrm{m^2}=7140\\ \\mathrm{m^2}\\]</div></li><li><p class=\"facit-rubrik\">Antal ark som areakvot: \\(N=A_{\\text{plan}}/A_{\\text{ark}}\\)</p><p>Arket har arean 0,06237 m². Vi jämför sammanlagda areor; hur arken behöver klippas eller placeras ingår inte.</p><div class=\"facit-matte\">\\[N=\\frac{7140}{0{,}06237}\\approx114\\,478\\]</div><p>Avrundat till närmaste tusental blir det 114 000.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 114 000 ark.</p></div>",
         "ledtrad": "<p>Jämför planens area med arean av ett ark, uttryckta i samma enhet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -3432,7 +3432,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>En bil drar 0,58 liter bensin per mil. Bensin ger 9,7 kWh per liter. En elbil använder 18 kWh per 100 km.</p><p>a) Hur många liter bensin används på 100 km?</p><p>b) Hur mycket energi tillförs bensinbilen på 100 km? (Svara i kWh.)</p><p>c) Jämför tillförd energi för de två bilarna på 100 km.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[100\\ \\mathrm{km}=10\\ \\mathrm{mil}\\]</p><p>\\[V=10\\cdot0{,}58=5{,}8\\ \\mathrm L\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}8\\) L.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=5{,}8\\cdot9{,}7\\]</p><p>\\[E\\approx56{,}3\\ \\mathrm{kWh}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(56{,}3\\) kWh.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>100 km är samma körsträcka. Bensinens tillförda energi är cirka 56 kWh, jämfört med 18 kWh för elbilen.</p><p><div class=\"facit-v2\"><p>\\[kvot=56{,}26/18\\]</p><p>\\[kvot\\approx3{,}13\\]</p></div></p><p>Bensinbilens tillförda energi är cirka 3,1 gånger så stor. Det är energin som tillförs bilarna som jämförs, inte arbetet vid hjulen.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bränslevolym: \\(V=q\\,s\\)</p><p>100 km är 10 mil. Förbrukningen 0,58 liter per mil multipliceras med antalet mil.</p><div class=\"facit-matte\">\\[V=0{,}58\\ \\mathrm{l/mil}\\cdot10\\ \\mathrm{mil}=5{,}8\\ \\mathrm l\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}8\\ \\mathrm l\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tillförd energi: \\(E=e_VV\\)</p><p>På 100 km används 0,58·10 = 5,8 liter bensin. Varje liter innehåller 9,7 kWh.</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=9{,}7\\ \\mathrm{kWh/l}\\cdot5{,}8\\ \\mathrm l\\\\&=56{,}26\\ \\mathrm{kWh}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(56{,}3\\ \\mathrm{kWh}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför energierna: \\(k=E_{\\text{bensin}}/E_{\\text{el}}\\)</p><div class=\"facit-matte\">\\[k=\\frac{0{,}58\\cdot10\\cdot9{,}7}{18}\\approx3{,}13\\]</div></li><li><p class=\"facit-rubrik\">Tillförd energi är inte samma sak som nyttigt arbete</p><p>Bensinbilen tillförs ungefär 3,13 gånger så mycket energi på samma sträcka. Det betyder inte att hjulen utför 3,13 gånger så mycket arbete: en större del av bensinens energi kan bli värme.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bensinbilens tillförda energi är ungefär 3,13 gånger elbilens.</p></div></div></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -3467,7 +3467,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Hur många liter bensin går åt på 100 km? En mil är 10 km.",
-        "s": "<div class=\"facit-v2\"><p>\\[100\\ \\mathrm{km}=10\\ \\mathrm{mil}\\]</p><p>\\[V=10\\cdot0{,}58=5{,}8\\ \\mathrm L\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bränslevolym: \\(V=q\\,s\\)</p><p>100 km är 10 mil. Förbrukningen 0,58 liter per mil multipliceras med antalet mil.</p><div class=\"facit-matte\">\\[V=0{,}58\\ \\mathrm{l/mil}\\cdot10\\ \\mathrm{mil}=5{,}8\\ \\mathrm l\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}8\\ \\mathrm l\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5.8,
         "självrättning": true,
@@ -3486,7 +3486,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En bil använder 5,8 liter bensin på 100 km. Bensin ger 9,7 kWh per liter. Hur många kWh tillförs bilen?",
-        "s": "<div class=\"facit-v2\"><p>\\[E=5{,}8\\cdot9{,}7\\]</p><p>\\[E\\approx56{,}3\\ \\mathrm{kWh}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tillförd energi: \\(E=e_VV\\)</p><p>På 100 km används 0,58·10 = 5,8 liter bensin. Varje liter innehåller 9,7 kWh.</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=9{,}7\\ \\mathrm{kWh/l}\\cdot5{,}8\\ \\mathrm l\\\\&=56{,}26\\ \\mathrm{kWh}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(56{,}3\\ \\mathrm{kWh}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 56.26,
         "självrättning": true,
@@ -3505,7 +3505,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En bensinbil tillförs 56,26 kWh på 100 km. En elbil tillförs 18 kWh på samma sträcka. Hur många gånger så stor är bensinbilens tillförda energi?",
-        "s": "<div class=\"facit-v2\"><p>100 km är samma körsträcka. Bensinens tillförda energi är cirka 56 kWh, jämfört med 18 kWh för elbilen.</p><p><div class=\"facit-v2\"><p>\\[kvot=56{,}26/18\\]</p><p>\\[kvot\\approx3{,}13\\]</p></div></p><p>Bensinbilens tillförda energi är cirka 3,1 gånger så stor. Det är energin som tillförs bilarna som jämförs, inte arbetet vid hjulen.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför energierna: \\(k=E_{\\text{bensin}}/E_{\\text{el}}\\)</p><div class=\"facit-matte\">\\[k=\\frac{0{,}58\\cdot10\\cdot9{,}7}{18}\\approx3{,}13\\]</div></li><li><p class=\"facit-rubrik\">Tillförd energi är inte samma sak som nyttigt arbete</p><p>Bensinbilen tillförs ungefär 3,13 gånger så mycket energi på samma sträcka. Det betyder inte att hjulen utför 3,13 gånger så mycket arbete: en större del av bensinens energi kan bli värme.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bensinbilens tillförda energi är ungefär 3,13 gånger elbilens.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 3.1255555555555556,
         "självrättning": true,
@@ -3547,7 +3547,7 @@ window.BANK = [
     "typ": "omvandla kubens volym till SI-enhet",
     "poang": "(1/0/0)",
     "t": "<p>En kub har sidan \\(2{,}5\\ \\mathrm{cm}\\). Bestäm kubens volym i \\(\\mathrm{m^3}\\).<br>(Ange svaret med tre värdesiffror.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Sidan är \\(0{,}025\\ \\mathrm m\\).</p></div><div class=\"facit-stycke\"><p>Därför är \\(V=(0{,}025)^3=1{,}5625\\cdot10^{-5}\\ \\mathrm{m^3}\\).</p></div><div class=\"facit-stycke\"><p>Med de tre värdesiffror som efterfrågas blir svaret \\(1{,}56\\cdot10^{-5}\\ \\mathrm{m^3}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}56\\cdot10^{-5}\\) m³.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Kubsidan är 2,5 cm = 0,025 m. Vi söker volymen i m³.</p></li><li><p class=\"facit-rubrik\">Kubens volym: \\(V=a^3\\)</p><div class=\"facit-matte\">\\[V=(0{,}025\\ \\mathrm m)^3=1{,}5625\\cdot10^{-5}\\ \\mathrm{m^3}\\]</div><p>Avrunda till tre värdesiffror först i svaret.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}56\\cdot10^{-5}\\) m³.</p></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur"
@@ -5215,7 +5215,7 @@ window.BANK = [
     "typ": "omvandla krafter till newton och tryck till pascal, ur text, sökt kraft och tryck",
     "poang": "(6/0/0)",
     "t": "<p>Omvandla krafterna till N och trycken till Pa.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 4,5 kN</div><div>b) 250 mN</div><div>c) 1,2 MN</div><div>d) 300 kPa</div><div>e) 2,5 bar</div><div>f) 1013 hPa</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kilo betyder tusen:</p><div class=\"facit-matte\">\\[4{,}5\\cdot 1000 N=4500\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4500\\) N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Milli betyder tusendel:</p><div class=\"facit-matte\">\\[250\\cdot 0{,}001 N=0{,}250\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}250\\) N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Mega betyder en miljon:</p><div class=\"facit-matte\">\\[1{,}2\\cdot 10^{6} N=1\\,200\\,000\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,200\\,000\\) N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[300\\cdot 1000 \\mathrm{Pa}=300\\,000\\, \\mathrm{Pa}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(300\\,000\\) Pa.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2{,}5\\cdot 100\\,000 \\mathrm{Pa}=250\\,000\\, \\mathrm{Pa}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\,000\\) Pa.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Hekto betyder hundra:</p><div class=\"facit-matte\">\\[1013\\cdot 100 \\mathrm{Pa}=101\\,300\\, \\mathrm{Pa}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(101\\,300\\) Pa.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kN}=1000\\ \\mathrm N\\)</p><div class=\"facit-matte\">\\[4{,}5\\ \\mathrm{kN}=4{,}5\\cdot1000\\ \\mathrm N=4500\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4500\\ \\mathrm N\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mN}=10^{-3}\\ \\mathrm N\\)</p><div class=\"facit-matte\">\\[250\\ \\mathrm{mN}=250\\cdot10^{-3}\\ \\mathrm N=0{,}25\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}25\\ \\mathrm N\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{MN}=10^6\\ \\mathrm N\\)</p><div class=\"facit-matte\">\\[1{,}2\\ \\mathrm{MN}=1{,}2\\cdot10^6\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\cdot10^6\\ \\mathrm N\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kPa}=1000\\ \\mathrm{Pa}\\)</p><div class=\"facit-matte\">\\[300\\ \\mathrm{kPa}=300\\cdot1000\\ \\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(300\\,000\\ \\mathrm{Pa}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bar: \\(1\\ \\mathrm{bar}=10^5\\ \\mathrm{Pa}\\)</p><div class=\"facit-matte\">\\[2{,}5\\ \\mathrm{bar}=2{,}5\\cdot10^5\\ \\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\,000\\ \\mathrm{Pa}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hekto: \\(1\\ \\mathrm{hPa}=100\\ \\mathrm{Pa}\\)</p><div class=\"facit-matte\">\\[1013\\ \\mathrm{hPa}=1013\\cdot100\\ \\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(101\\,300\\ \\mathrm{Pa}\\).</p></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -5266,7 +5266,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla 4,5 kN till N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kilo betyder tusen:</p><div class=\"facit-matte\">\\[4{,}5\\cdot 1000 N=4500\\, \\mathrm{N}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kN}=1000\\ \\mathrm N\\)</p><div class=\"facit-matte\">\\[4{,}5\\ \\mathrm{kN}=4{,}5\\cdot1000\\ \\mathrm N=4500\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4500\\ \\mathrm N\\).</p></div>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5276,7 +5276,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla 250 mN till N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Milli betyder tusendel:</p><div class=\"facit-matte\">\\[250\\cdot 0{,}001 N=0{,}250\\, \\mathrm{N}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mN}=10^{-3}\\ \\mathrm N\\)</p><div class=\"facit-matte\">\\[250\\ \\mathrm{mN}=250\\cdot10^{-3}\\ \\mathrm N=0{,}25\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}25\\ \\mathrm N\\).</p></div>",
         "ledtrad": "<p>Vad betyder milli?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5286,7 +5286,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla 1,2 MN till N.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Mega betyder en miljon:</p><div class=\"facit-matte\">\\[1{,}2\\cdot 10^{6} N=1\\,200\\,000\\, \\mathrm{N}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{MN}=10^6\\ \\mathrm N\\)</p><div class=\"facit-matte\">\\[1{,}2\\ \\mathrm{MN}=1{,}2\\cdot10^6\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\cdot10^6\\ \\mathrm N\\).</p></div>",
         "ledtrad": "<p>Vad betyder mega?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5296,7 +5296,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla 300 kPa till Pa.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[300\\cdot 1000 \\mathrm{Pa}=300\\,000\\, \\mathrm{Pa}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kPa}=1000\\ \\mathrm{Pa}\\)</p><div class=\"facit-matte\">\\[300\\ \\mathrm{kPa}=300\\cdot1000\\ \\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(300\\,000\\ \\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5306,7 +5306,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla 2,5 bar till Pa.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2{,}5\\cdot 100\\,000 \\mathrm{Pa}=250\\,000\\, \\mathrm{Pa}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bar: \\(1\\ \\mathrm{bar}=10^5\\ \\mathrm{Pa}\\)</p><div class=\"facit-matte\">\\[2{,}5\\ \\mathrm{bar}=2{,}5\\cdot10^5\\ \\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\,000\\ \\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>Vilket samband anges mellan bar och pascal?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5316,7 +5316,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Omvandla 1013 hPa till Pa.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Hekto betyder hundra:</p><div class=\"facit-matte\">\\[1013\\cdot 100 \\mathrm{Pa}=101\\,300\\, \\mathrm{Pa}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hekto: \\(1\\ \\mathrm{hPa}=100\\ \\mathrm{Pa}\\)</p><div class=\"facit-matte\">\\[1013\\ \\mathrm{hPa}=1013\\cdot100\\ \\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(101\\,300\\ \\mathrm{Pa}\\).</p></div>",
         "ledtrad": "<p>Vad betyder hekto?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5338,7 +5338,7 @@ window.BANK = [
     "typ": "beräkna rektangulär area i SI-enhet",
     "poang": "(1/0/0)",
     "t": "<p>En rektangulär platta är \\(120\\ \\mathrm{mm}\\) lång och \\(80\\ \\mathrm{mm}\\) bred. Bestäm arean i \\(\\mathrm{m^2}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skriv båda längderna i meter innan de multipliceras.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=0{,}120\\cdot0{,}080=0{,}0096\\ \\mathrm{m^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}6\\cdot10^{-3}\\ \\mathrm{m^2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla båda längderna: \\(1\\ \\mathrm{mm}=10^{-3}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[l=120\\cdot10^{-3}\\ \\mathrm m=0{,}120\\ \\mathrm m\\]</div><div class=\"facit-matte\">\\[b=80\\cdot10^{-3}\\ \\mathrm m=0{,}080\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Rektangelns area: \\(A=lb\\)</p><div class=\"facit-matte\">\\[A=0{,}120\\cdot0{,}080\\ \\mathrm{m^2}=0{,}0096\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,0096 m².</p></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur"
@@ -5365,7 +5365,7 @@ window.BANK = [
     "typ": "omvandla densitet mellan gram per kubikcentimeter och kilogram per kubikmeter, ur text, sökt densitet",
     "poang": "(6/0/0)",
     "t": "<p>Omvandla densiteten mellan g/cm³ och kg/m³.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 2,7 g/cm³ till kg/m³</div><div>b) 998 kg/m³ till g/cm³</div><div>c) 13,6 g/cm³ till kg/m³</div><div>d) 1,29 kg/m³ till g/cm³</div><div>e) 0,92 g/cm³ till kg/m³</div><div>f) 7870 kg/m³ till g/cm³</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2{,}7\\cdot 1000=2700\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2700 kg/m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{998}{1000}=0{,}998\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,998 g/cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[13{,}6\\cdot 1000=13\\,600\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 13 600 kg/m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{1{,}29}{1000}=0{,}00129\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,00129 g/cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[0{,}92\\cdot 1000=920\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 920 kg/m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{7870}{1000}=7{,}87\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 7,87 g/cm³.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitetsenheter: \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\)</p><p>Massans faktor är \\(10^{-3}\\) och volymens \\(10^{-6}\\) vid byte från g/cm³ till kg/m³. Kvoten är 1000. Vid byte åt andra hållet dividerar vi med 1000.</p><div class=\"facit-matte\">\\[2{,}7\\cdot1000\\ \\mathrm{kg/m^3}=2700\\ \\mathrm{kg/m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2700\\ \\mathrm{kg/m^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitetsenheter: \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\)</p><p>Massans faktor är \\(10^{-3}\\) och volymens \\(10^{-6}\\) vid byte från g/cm³ till kg/m³. Kvoten är 1000. Vid byte åt andra hållet dividerar vi med 1000.</p><div class=\"facit-matte\">\\[\\frac{998}{1000}\\ \\mathrm{g/cm^3}=0{,}998\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}998\\ \\mathrm{g/cm^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitetsenheter: \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\)</p><p>Massans faktor är \\(10^{-3}\\) och volymens \\(10^{-6}\\) vid byte från g/cm³ till kg/m³. Kvoten är 1000. Vid byte åt andra hållet dividerar vi med 1000.</p><div class=\"facit-matte\">\\[13{,}6\\cdot1000\\ \\mathrm{kg/m^3}=13\\,600\\ \\mathrm{kg/m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,600\\ \\mathrm{kg/m^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitetsenheter: \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\)</p><p>Massans faktor är \\(10^{-3}\\) och volymens \\(10^{-6}\\) vid byte från g/cm³ till kg/m³. Kvoten är 1000. Vid byte åt andra hållet dividerar vi med 1000.</p><div class=\"facit-matte\">\\[\\frac{1{,}29}{1000}\\ \\mathrm{g/cm^3}=0{,}00129\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00129\\ \\mathrm{g/cm^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitetsenheter: \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\)</p><p>Massans faktor är \\(10^{-3}\\) och volymens \\(10^{-6}\\) vid byte från g/cm³ till kg/m³. Kvoten är 1000. Vid byte åt andra hållet dividerar vi med 1000.</p><div class=\"facit-matte\">\\[0{,}92\\cdot1000\\ \\mathrm{kg/m^3}=920\\ \\mathrm{kg/m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(920\\ \\mathrm{kg/m^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitetsenheter: \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\)</p><p>Massans faktor är \\(10^{-3}\\) och volymens \\(10^{-6}\\) vid byte från g/cm³ till kg/m³. Kvoten är 1000. Vid byte åt andra hållet dividerar vi med 1000.</p><div class=\"facit-matte\">\\[\\frac{7870}{1000}\\ \\mathrm{g/cm^3}=7{,}87\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}87\\ \\mathrm{g/cm^3}\\).</p></div></div></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -5416,7 +5416,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla 2,7 g/cm³ till kg/m³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2{,}7\\cdot 1000=2700\\]</div></div></div><div class=\"facit-stycke\"><p>Svaret anges i kg/m³.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitetsenheter: \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\)</p><p>Massans faktor är \\(10^{-3}\\) och volymens \\(10^{-6}\\) vid byte från g/cm³ till kg/m³. Kvoten är 1000. Vid byte åt andra hållet dividerar vi med 1000.</p><div class=\"facit-matte\">\\[2{,}7\\cdot1000\\ \\mathrm{kg/m^3}=2700\\ \\mathrm{kg/m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2700\\ \\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5426,7 +5426,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla 998 kg/m³ till g/cm³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{998}{1000}=0{,}998\\]</div></div></div><div class=\"facit-stycke\"><p>Svaret anges i g/cm³.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitetsenheter: \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\)</p><p>Massans faktor är \\(10^{-3}\\) och volymens \\(10^{-6}\\) vid byte från g/cm³ till kg/m³. Kvoten är 1000. Vid byte åt andra hållet dividerar vi med 1000.</p><div class=\"facit-matte\">\\[\\frac{998}{1000}\\ \\mathrm{g/cm^3}=0{,}998\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}998\\ \\mathrm{g/cm^3}\\).</p></div>",
         "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5436,7 +5436,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla 13,6 g/cm³ till kg/m³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[13{,}6\\cdot 1000=13\\,600\\]</div></div></div><div class=\"facit-stycke\"><p>Svaret anges i kg/m³.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitetsenheter: \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\)</p><p>Massans faktor är \\(10^{-3}\\) och volymens \\(10^{-6}\\) vid byte från g/cm³ till kg/m³. Kvoten är 1000. Vid byte åt andra hållet dividerar vi med 1000.</p><div class=\"facit-matte\">\\[13{,}6\\cdot1000\\ \\mathrm{kg/m^3}=13\\,600\\ \\mathrm{kg/m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,600\\ \\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5446,7 +5446,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla 1,29 kg/m³ till g/cm³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{1{,}29}{1000}=0{,}00129\\]</div></div></div><div class=\"facit-stycke\"><p>Svaret anges i g/cm³.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitetsenheter: \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\)</p><p>Massans faktor är \\(10^{-3}\\) och volymens \\(10^{-6}\\) vid byte från g/cm³ till kg/m³. Kvoten är 1000. Vid byte åt andra hållet dividerar vi med 1000.</p><div class=\"facit-matte\">\\[\\frac{1{,}29}{1000}\\ \\mathrm{g/cm^3}=0{,}00129\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00129\\ \\mathrm{g/cm^3}\\).</p></div>",
         "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5456,7 +5456,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla 0,92 g/cm³ till kg/m³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[0{,}92\\cdot 1000=920\\]</div></div></div><div class=\"facit-stycke\"><p>Svaret anges i kg/m³.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitetsenheter: \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\)</p><p>Massans faktor är \\(10^{-3}\\) och volymens \\(10^{-6}\\) vid byte från g/cm³ till kg/m³. Kvoten är 1000. Vid byte åt andra hållet dividerar vi med 1000.</p><div class=\"facit-matte\">\\[0{,}92\\cdot1000\\ \\mathrm{kg/m^3}=920\\ \\mathrm{kg/m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(920\\ \\mathrm{kg/m^3}\\).</p></div>",
         "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5466,7 +5466,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Omvandla 7870 kg/m³ till g/cm³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{7870}{1000}=7{,}87\\]</div></div></div><div class=\"facit-stycke\"><p>Svaret anges i g/cm³.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitetsenheter: \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\)</p><p>Massans faktor är \\(10^{-3}\\) och volymens \\(10^{-6}\\) vid byte från g/cm³ till kg/m³. Kvoten är 1000. Vid byte åt andra hållet dividerar vi med 1000.</p><div class=\"facit-matte\">\\[\\frac{7870}{1000}\\ \\mathrm{g/cm^3}=7{,}87\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}87\\ \\mathrm{g/cm^3}\\).</p></div>",
         "ledtrad": "<p>Hur många gram går på ett kilogram, och hur många kubikcentimeter går på en kubikmeter? Ska siffervärdet bli större eller mindre?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5487,7 +5487,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En färja går i 22 knop. Ange en decimal.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) Ange farten i km/h.</div><div>b) Ange farten.</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>En knop motsvarar 1,852 km/h. Multiplicera för att få km/h. Dividera sedan den oavrundade farten med 3,6 för att få m/s.</p><div class=\"facit-matte\">\\[v=22\\cdot1{,}852=40{,}744\\,\\mathrm{km/h}\\approx40{,}7\\,\\mathrm{km/h}\\]</div><div class=\"facit-matte\">\\[v=\\frac{40{,}744}{3{,}6}\\approx11{,}3\\,\\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> a) 40,7 km/h. b) 11,3 m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Knop till km/h: \\(1\\ \\text{knop}=1{,}852\\ \\mathrm{km/h}\\)</p><div class=\"facit-matte\">\\[v=22\\cdot1{,}852\\ \\mathrm{km/h}=40{,}744\\ \\mathrm{km/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}7\\ \\mathrm{km/h}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Knop till km/h: \\(1\\ \\text{knop}=1{,}852\\ \\mathrm{km/h}\\)</p><div class=\"facit-matte\">\\[v=22\\cdot1{,}852\\ \\mathrm{km/h}=40{,}744\\ \\mathrm{km/h}\\]</div></li><li><p class=\"facit-rubrik\">km/h till m/s: dividera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=\\frac{40{,}744}{3{,}6}\\ \\mathrm{m/s}\\approx11{,}3\\ \\mathrm{m/s}\\]</div><p>Använd det oavrundade värdet tills svaret anges.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11,3 m/s.</p></div></div></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -5522,7 +5522,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>En färja går i 22 knop. Ange en decimal.</p><p>Ange farten i km/h.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[22\\cdot 1{,}852=\\frac{40{,}744 \\mathrm{km}}{h}\\approx 40{,}7\\, \\mathrm{km/h}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Knop till km/h: \\(1\\ \\text{knop}=1{,}852\\ \\mathrm{km/h}\\)</p><div class=\"facit-matte\">\\[v=22\\cdot1{,}852\\ \\mathrm{km/h}=40{,}744\\ \\mathrm{km/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}7\\ \\mathrm{km/h}\\).</p></div>",
         "ledtrad": "<p>Enheten knop anger fart. Vilken fart i km/h motsvarar en enda knop?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5533,7 +5533,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>En färja går i 22 knop. Ange en decimal.</p><p>Ange farten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">22 · 1,852 / 3,6 = 11,317…</p><div class=\"facit-matte\">\\[\\frac{m}{s}\\approx 11{,}3\\, \\mathrm{m/s}\\]</div></div></div><div class=\"facit-stycke\"><p>Omvandla före avrundning.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Knop till km/h: \\(1\\ \\text{knop}=1{,}852\\ \\mathrm{km/h}\\)</p><div class=\"facit-matte\">\\[v=22\\cdot1{,}852\\ \\mathrm{km/h}=40{,}744\\ \\mathrm{km/h}\\]</div></li><li><p class=\"facit-rubrik\">km/h till m/s: dividera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=\\frac{40{,}744}{3{,}6}\\ \\mathrm{m/s}\\approx11{,}3\\ \\mathrm{m/s}\\]</div><p>Använd det oavrundade värdet tills svaret anges.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11,3 m/s.</p></div>",
         "ledtrad": "<p>Enheten knop anger fart. Vilken fart i km/h motsvarar en enda knop?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5556,7 +5556,7 @@ window.BANK = [
     "typ": "omvandla volymflöde",
     "poang": "(1/0/0)",
     "t": "<p>En pump flyttar \\(12\\) liter vatten per minut. Ange volymflödet i \\(\\mathrm{m^3/s}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Både volymen och tiden måste omvandlas: liter till kubikmeter och minuter till sekunder.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Q=\\frac{12\\cdot10^{-3}}{60}=2{,}0\\cdot10^{-4}\\ \\mathrm{m^3/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\cdot10^{-4}\\ \\mathrm{m^3/s}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymflöde: \\(q=V/t\\)</p><p>12 liter passerar på en minut. Omvandla både volymen och tiden: 12 l = 0,012 m³ och 1 min = 60 s.</p><div class=\"facit-matte\">\\[\\begin{aligned}q&=\\frac{0{,}012\\ \\mathrm{m^3}}{60\\ \\mathrm s}\\\\&=0{,}00020\\ \\mathrm{m^3/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\cdot10^{-4}\\) m³/s.</p></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -5583,7 +5583,7 @@ window.BANK = [
     "typ": "omvandla tider till sekunder, ur text, sökt tid",
     "poang": "(6/0/0)",
     "t": "<p>Omvandla tiden till sekunder.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 25 min</div><div>b) 3,5 h</div><div>c) 2,0 dygn</div><div>d) 480 ms</div><div>e) 25 µs</div><div>f) 1,5 år</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[25\\cdot 60 s=1500\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1500\\) s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[3{,}5\\cdot 3600 s=12\\,600\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,600\\) s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2{,}0\\cdot 86\\,400 s=172\\,800\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(172\\,800\\) s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Milli betyder tusendel:</p><div class=\"facit-matte\">\\[480 \\mathrm{ms}=0{,}480\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}480\\) s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Mikro betyder miljondel: 25 µs =</p><div class=\"facit-matte\">\\[25\\cdot 10^{-6} s=0{,}000025\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000025\\) s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1{,}5\\cdot 3{,}156\\cdot 10^{7} s=47\\,340\\,000\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(47\\,340\\,000\\) s.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minuter: \\(1\\ \\mathrm{min}=60\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[25\\ \\mathrm{min}=25\\cdot60\\ \\mathrm s=1500\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1500\\ \\mathrm s\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Timmar: \\(1\\ \\mathrm h=3600\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[3{,}5\\ \\mathrm h=3{,}5\\cdot3600\\ \\mathrm s=12\\,600\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,600\\ \\mathrm s\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dygn: \\(1\\ \\text{dygn}=24\\cdot3600\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[2\\ \\text{dygn}=2\\cdot86\\,400\\ \\mathrm s=172\\,800\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(172\\,800\\ \\mathrm s\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{ms}=10^{-3}\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[480\\ \\mathrm{ms}=480\\cdot10^{-3}\\ \\mathrm s=0{,}480\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}480\\ \\mathrm s\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mikro: \\(1\\ \\mu\\mathrm s=10^{-6}\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[25\\ \\mu\\mathrm s=25\\cdot10^{-6}\\ \\mathrm s=0{,}000025\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000025\\ \\mathrm s\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">År till sekunder: \\(1\\ \\text{år}\\approx3{,}156\\cdot10^7\\ \\mathrm s\\)</p><p>Vi använder ett genomsnittligt år. Antalet sekunder blir ungefärligt eftersom kalenderår kan vara olika långa.</p><div class=\"facit-matte\">\\[1{,}5\\ \\text{år}\\approx1{,}5\\cdot3{,}156\\cdot10^7\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}734\\cdot10^7\\ \\mathrm s\\).</p></div></div></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -5633,7 +5633,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla 25 min till sekunder.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[25\\cdot 60 s=1500\\, \\mathrm{s}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minuter: \\(1\\ \\mathrm{min}=60\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[25\\ \\mathrm{min}=25\\cdot60\\ \\mathrm s=1500\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1500\\ \\mathrm s\\).</p></div>",
         "ledtrad": "<p>Skilj på tidsenheter som minut och dygn och prefix som milli och mikro.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5643,7 +5643,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla 3,5 h till sekunder.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[3{,}5\\cdot 3600 s=12\\,600\\, \\mathrm{s}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Timmar: \\(1\\ \\mathrm h=3600\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[3{,}5\\ \\mathrm h=3{,}5\\cdot3600\\ \\mathrm s=12\\,600\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\,600\\ \\mathrm s\\).</p></div>",
         "ledtrad": "<p>Skilj på tidsenheter som minut och dygn och prefix som milli och mikro.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5653,7 +5653,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla 2,0 dygn till sekunder.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[2{,}0\\cdot 86\\,400 s=172\\,800\\, \\mathrm{s}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dygn: \\(1\\ \\text{dygn}=24\\cdot3600\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[2\\ \\text{dygn}=2\\cdot86\\,400\\ \\mathrm s=172\\,800\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(172\\,800\\ \\mathrm s\\).</p></div>",
         "ledtrad": "<p>Skilj på tidsenheter som minut och dygn och prefix som milli och mikro.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5663,7 +5663,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla 480 ms till sekunder.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Milli betyder tusendel:</p><div class=\"facit-matte\">\\[480 \\mathrm{ms}=0{,}480\\, \\mathrm{s}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{ms}=10^{-3}\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[480\\ \\mathrm{ms}=480\\cdot10^{-3}\\ \\mathrm s=0{,}480\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}480\\ \\mathrm s\\).</p></div>",
         "ledtrad": "<p>Skilj på tidsenheter som minut och dygn och prefix som milli och mikro.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5673,7 +5673,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla 25 µs till sekunder.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Mikro betyder miljondel: 25 µs =</p><div class=\"facit-matte\">\\[25\\cdot 10^{-6} s=0{,}000025\\, \\mathrm{s}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mikro: \\(1\\ \\mu\\mathrm s=10^{-6}\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[25\\ \\mu\\mathrm s=25\\cdot10^{-6}\\ \\mathrm s=0{,}000025\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000025\\ \\mathrm s\\).</p></div>",
         "ledtrad": "<p>Skilj på tidsenheter som minut och dygn och prefix som milli och mikro.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5683,7 +5683,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Omvandla 1,5 år till sekunder.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1{,}5\\cdot 3{,}156\\cdot 10^{7} s=47\\,340\\,000\\, \\mathrm{s}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">År till sekunder: \\(1\\ \\text{år}\\approx3{,}156\\cdot10^7\\ \\mathrm s\\)</p><p>Vi använder ett genomsnittligt år. Antalet sekunder blir ungefärligt eftersom kalenderår kan vara olika långa.</p><div class=\"facit-matte\">\\[1{,}5\\ \\text{år}\\approx1{,}5\\cdot3{,}156\\cdot10^7\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}734\\cdot10^7\\ \\mathrm s\\).</p></div>",
         "ledtrad": "<p>Skilj på tidsenheter som minut och dygn och prefix som milli och mikro.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5702,7 +5702,7 @@ window.BANK = [
     "typ": "kontrollera en formel med dimensionsanalys",
     "poang": "(0/1/0)",
     "t": "<p>En elev föreslår sambandet \\(E=mv\\) för rörelseenergi, där \\(m\\) är massa och \\(v\\) fart. Undersök enheterna på båda sidor. Kan sambandet stämma? Motivera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En möjlig energiformel måste ge enheten joule, alltså \\(\\mathrm{kg\\,m^2/s^2}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Produkten \\(mv\\) har en annan dimension.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[[mv]=\\mathrm{kg}\\cdot\\mathrm{m/s}=\\mathrm{kg\\,m/s}\\neq\\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Nej. \\(mv\\) har enheten för rörelsemängd, inte energi.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enheten för produkten: \\([mv]=[m][v]\\)</p><div class=\"facit-matte\">\\[[mv]=\\mathrm{kg}\\cdot\\mathrm{m/s}=\\mathrm{kg\\,m/s}\\]</div></li><li><p class=\"facit-rubrik\">Energienheten: \\(1\\ \\mathrm J=1\\ \\mathrm{kg\\,m^2/s^2}\\)</p><p>Energi kräver en längdfaktor och en tidsfaktor mer än produkten mv har. Enheterna på ekvationens båda sidor stämmer alltså inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Formeln \\(E=mv\\) kan inte beskriva energi. Produkten har enheten kg·m/s, inte joule.</p></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "begrepp",
@@ -5732,7 +5732,7 @@ window.BANK = [
     "typ": "omvandla areor till kvadratmeter, ur text, sökt area",
     "poang": "(6/0/0)",
     "t": "<p>Omvandla arean till kvadratmeter.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 350 cm²</div><div>b) 4,2 dm²</div><div>c) 1200 mm²</div><div>d) 0,25 km²</div><div>e) 3,0 hektar</div><div>f) 45 dm²</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{cm}^{2}=\\left(0{,}01 m\\right)^{2}=0{,}0001\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[350 \\mathrm{cm}^{2}=0{,}035\\, \\mathrm{m^2}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}035\\) m².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{dm}^{2}=\\left(0{,}1 m\\right)^{2}=0{,}01\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[4{,}2 \\mathrm{dm}^{2}=0{,}042\\, \\mathrm{m^2}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}042\\) m².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{mm}^{2}=\\left(0{,}001 m\\right)^{2}=10^{-6}\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[1200 \\mathrm{mm}^{2}=0{,}0012\\, \\mathrm{m^2}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0012\\) m².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{km}^{2}=\\left(1000 m\\right)^{2}=1\\,000\\,000\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[0{,}25 \\mathrm{km}^{2}=250\\,000\\, \\mathrm{m^2}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\,000\\) m².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[3{,}0\\cdot 10\\,000 m^{2}=30\\,000\\, \\mathrm{m^2}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\,000\\) m².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[45\\cdot \\left(0{,}1 m\\right)^{2}=0{,}45\\, \\mathrm{m^2}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}45\\) m².</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av area: \\(1\\ \\mathrm{cm^2}=(10^{-2})^2\\ \\mathrm{m^2}\\)</p><p>En area innehåller två längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 2.</p><div class=\"facit-matte\">\\[\\begin{aligned}350\\ \\mathrm{cm^2}&=350\\cdot(10^{-2})^2\\ \\mathrm{m^2}\\\\&=0{,}035\\ \\mathrm{m^2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}035\\ \\mathrm{m^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av area: \\(1\\ \\mathrm{dm^2}=(10^{-1})^2\\ \\mathrm{m^2}\\)</p><p>En area innehåller två längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 2.</p><div class=\"facit-matte\">\\[\\begin{aligned}4{,}2\\ \\mathrm{dm^2}&=4{,}2\\cdot(10^{-1})^2\\ \\mathrm{m^2}\\\\&=0{,}042\\ \\mathrm{m^2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}042\\ \\mathrm{m^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av area: \\(1\\ \\mathrm{mm^2}=(10^{-3})^2\\ \\mathrm{m^2}\\)</p><p>En area innehåller två längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 2.</p><div class=\"facit-matte\">\\[\\begin{aligned}1200\\ \\mathrm{mm^2}&=1200\\cdot(10^{-3})^2\\ \\mathrm{m^2}\\\\&=0{,}0012\\ \\mathrm{m^2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0012\\ \\mathrm{m^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av area: \\(1\\ \\mathrm{km^2}=(10^3)^2\\ \\mathrm{m^2}\\)</p><p>En area innehåller två längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 2.</p><div class=\"facit-matte\">\\[\\begin{aligned}0{,}25\\ \\mathrm{km^2}&=0{,}25\\cdot(10^3)^2\\ \\mathrm{m^2}\\\\&=250\\,000\\ \\mathrm{m^2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\,000\\ \\mathrm{m^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm{ha}=10^4\\ \\mathrm{m^2}\\)</p><p>En hektar är 10 000 kvadratmeter.</p><div class=\"facit-matte\">\\[3\\ \\mathrm{ha}=3\\cdot 10^4\\ \\mathrm{m^2}=30\\,000\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\,000\\ \\mathrm{m^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av area: \\(1\\ \\mathrm{dm^2}=(10^{-1})^2\\ \\mathrm{m^2}\\)</p><p>En area innehåller två längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 2.</p><div class=\"facit-matte\">\\[\\begin{aligned}45\\ \\mathrm{dm^2}&=45\\cdot(10^{-1})^2\\ \\mathrm{m^2}\\\\&=0{,}45\\ \\mathrm{m^2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}45\\ \\mathrm{m^2}\\).</p></div></div></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur"
@@ -5782,7 +5782,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla 350 cm² till kvadratmeter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{cm}^{2}=\\left(0{,}01 m\\right)^{2}=0{,}0001\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[350 \\mathrm{cm}^{2}=0{,}035\\, \\mathrm{m^2}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av area: \\(1\\ \\mathrm{cm^2}=(10^{-2})^2\\ \\mathrm{m^2}\\)</p><p>En area innehåller två längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 2.</p><div class=\"facit-matte\">\\[\\begin{aligned}350\\ \\mathrm{cm^2}&=350\\cdot(10^{-2})^2\\ \\mathrm{m^2}\\\\&=0{,}035\\ \\mathrm{m^2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}035\\ \\mathrm{m^2}\\).</p></div>",
         "ledtrad": "<p>Tänk på antalet små kvadrater i en kvadratmeter, inte bara på antalet längdenheter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5792,7 +5792,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla 4,2 dm² till kvadratmeter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{dm}^{2}=\\left(0{,}1 m\\right)^{2}=0{,}01\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[4{,}2 \\mathrm{dm}^{2}=0{,}042\\, \\mathrm{m^2}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av area: \\(1\\ \\mathrm{dm^2}=(10^{-1})^2\\ \\mathrm{m^2}\\)</p><p>En area innehåller två längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 2.</p><div class=\"facit-matte\">\\[\\begin{aligned}4{,}2\\ \\mathrm{dm^2}&=4{,}2\\cdot(10^{-1})^2\\ \\mathrm{m^2}\\\\&=0{,}042\\ \\mathrm{m^2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}042\\ \\mathrm{m^2}\\).</p></div>",
         "ledtrad": "<p>Tänk på antalet små kvadrater i en kvadratmeter, inte bara på antalet längdenheter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5802,7 +5802,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla 1200 mm² till kvadratmeter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{mm}^{2}=\\left(0{,}001 m\\right)^{2}=10^{-6}\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[1200 \\mathrm{mm}^{2}=0{,}0012\\, \\mathrm{m^2}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av area: \\(1\\ \\mathrm{mm^2}=(10^{-3})^2\\ \\mathrm{m^2}\\)</p><p>En area innehåller två längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 2.</p><div class=\"facit-matte\">\\[\\begin{aligned}1200\\ \\mathrm{mm^2}&=1200\\cdot(10^{-3})^2\\ \\mathrm{m^2}\\\\&=0{,}0012\\ \\mathrm{m^2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0012\\ \\mathrm{m^2}\\).</p></div>",
         "ledtrad": "<p>Tänk på antalet små kvadrater i en kvadratmeter, inte bara på antalet längdenheter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5812,7 +5812,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla 0,25 km² till kvadratmeter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{km}^{2}=\\left(1000 m\\right)^{2}=1\\,000\\,000\\, \\mathrm{m^2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[0{,}25 \\mathrm{km}^{2}=250\\,000\\, \\mathrm{m^2}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av area: \\(1\\ \\mathrm{km^2}=(10^3)^2\\ \\mathrm{m^2}\\)</p><p>En area innehåller två längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 2.</p><div class=\"facit-matte\">\\[\\begin{aligned}0{,}25\\ \\mathrm{km^2}&=0{,}25\\cdot(10^3)^2\\ \\mathrm{m^2}\\\\&=250\\,000\\ \\mathrm{m^2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\,000\\ \\mathrm{m^2}\\).</p></div>",
         "ledtrad": "<p>Tänk på antalet små kvadrater i en kvadratmeter, inte bara på antalet längdenheter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5822,7 +5822,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla 3,0 hektar till kvadratmeter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[3{,}0\\cdot 10\\,000 m^{2}=30\\,000\\, \\mathrm{m^2}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm{ha}=10^4\\ \\mathrm{m^2}\\)</p><p>En hektar är 10 000 kvadratmeter.</p><div class=\"facit-matte\">\\[3\\ \\mathrm{ha}=3\\cdot 10^4\\ \\mathrm{m^2}=30\\,000\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\,000\\ \\mathrm{m^2}\\).</p></div>",
         "ledtrad": "<p>Tänk på antalet små kvadrater i en kvadratmeter, inte bara på antalet längdenheter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5832,7 +5832,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Omvandla 45 dm² till kvadratmeter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[45\\cdot \\left(0{,}1 m\\right)^{2}=0{,}45\\, \\mathrm{m^2}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av area: \\(1\\ \\mathrm{dm^2}=(10^{-1})^2\\ \\mathrm{m^2}\\)</p><p>En area innehåller två längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 2.</p><div class=\"facit-matte\">\\[\\begin{aligned}45\\ \\mathrm{dm^2}&=45\\cdot(10^{-1})^2\\ \\mathrm{m^2}\\\\&=0{,}45\\ \\mathrm{m^2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}45\\ \\mathrm{m^2}\\).</p></div>",
         "ledtrad": "<p>Tänk på antalet små kvadrater i en kvadratmeter, inte bara på antalet längdenheter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -5855,7 +5855,7 @@ window.BANK = [
     "typ": "skriva om värden med lämpligt prefix, ur text, sökt prefix",
     "poang": "(3/0/0)",
     "t": "<p>Skriv om följande värden med ett lämpligt prefix, så att siffervärdet hamnar mellan 1 och 1000.</p>\n<ol type=\"a\"><li>0,0045 m</li><li>3,2·10⁻⁶ s</li><li>5,6·10⁶ W</li><li>1,2·10⁻⁷ m</li><li>8,4·10⁹ Hz</li><li>0,025 A</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Välj ett prefix som ger ett siffervärde mellan 1 och 1000.</p><div class=\"facit-matte\">\\[\\begin{aligned}0{,}0045\\ \\mathrm m&amp;=4{,}5\\ \\mathrm{mm}\\\\3{,}2\\cdot10^{-6}\\ \\mathrm s&amp;=3{,}2\\ \\mu\\mathrm s\\\\5{,}6\\cdot10^6\\ \\mathrm W&amp;=5{,}6\\ \\mathrm{MW}\\\\1{,}2\\cdot10^{-7}\\ \\mathrm m&amp;=120\\ \\mathrm{nm}\\\\8{,}4\\cdot10^9\\ \\mathrm{Hz}&amp;=8{,}4\\ \\mathrm{GHz}\\\\0{,}025\\ \\mathrm A&amp;=25\\ \\mathrm{mA}\\end{aligned}\\]</div></div></div><p class=\"facit-svar\"><strong>Exempel på svar:</strong> \\(4{,}5\\ \\mathrm{mm}\\), \\(3{,}2\\ \\mu\\mathrm s\\), \\(5{,}6\\ \\mathrm{MW}\\), \\(120\\ \\mathrm{nm}\\), \\(8{,}4\\ \\mathrm{GHz}\\) och \\(25\\ \\mathrm{mA}\\).</p></div><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Andra prefixval godtas om de ger samma storhet och siffervärdet uppfyller kravet.</p></div><div class=\"facit-stycke\"><p>Exempelvis kan 0,025 A även skrivas 2,5 cA.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mm}=10^{-3}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}0{,}0045\\ \\mathrm m&=4{,}5\\cdot10^{-3}\\ \\mathrm m\\\\&=4{,}5\\ \\mathrm{mm}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\ \\mathrm{mm}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mikro: \\(1\\ \\mu\\mathrm s=10^{-6}\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[3{,}2\\cdot10^{-6}\\ \\mathrm s=3{,}2\\ \\mu\\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\ \\mu\\mathrm s\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{MW}=10^6\\ \\mathrm W\\)</p><div class=\"facit-matte\">\\[5{,}6\\cdot10^6\\ \\mathrm W=5{,}6\\ \\mathrm{MW}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}6\\ \\mathrm{MW}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nano: \\(1\\ \\mathrm{nm}=10^{-9}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}1{,}2\\cdot10^{-7}\\ \\mathrm m&=120\\cdot10^{-9}\\ \\mathrm m\\\\&=120\\ \\mathrm{nm}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\mathrm{nm}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Giga: \\(1\\ \\mathrm{GHz}=10^9\\ \\mathrm{Hz}\\)</p><div class=\"facit-matte\">\\[8{,}4\\cdot10^9\\ \\mathrm{Hz}=8{,}4\\ \\mathrm{GHz}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}4\\ \\mathrm{GHz}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mA}=10^{-3}\\ \\mathrm A\\)</p><div class=\"facit-matte\">\\[0{,}025\\ \\mathrm A=25\\cdot10^{-3}\\ \\mathrm A=25\\ \\mathrm{mA}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\ \\mathrm{mA}\\text{ (även }2{,}5\\ \\mathrm{cA}\\text{)}\\).</p></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -5885,7 +5885,7 @@ window.BANK = [
     "typ": "skala volym mellan modell och verklighet",
     "poang": "(0/1/0)",
     "t": "<p>En modell är byggd i skala 1:50. En tank i modellen har volymen \\(18\\ \\mathrm{cm^3}\\). Vilken volym har den verkliga tanken i \\(\\mathrm{m^3}\\), om alla längder skalas lika?</p>",
-    "s": "<div class=\"facit-v2\"><p>Volymen ökar med längdskalan i kubik.</p><p>\\[V=18\\cdot50^3\\ \\mathrm{cm^3}\\]</p><p>\\[V=2250000\\ \\mathrm{cm^3}\\]</p><p>En cm³ är 10⁻⁶ m³.</p><p>\\[V=2{,}25\\ \\mathrm{m^3}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}25\\) m³.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymskala: \\(V_{\\text{verklig}}=k^3V_{\\text{modell}}\\)</p><p>Skalan 1:50 innebär att varje längd blir 50 gånger så stor. Volymen innehåller tre längdfaktorer.</p><div class=\"facit-matte\">\\[V=50^3\\cdot18\\ \\mathrm{cm^3}=2\\,250\\,000\\ \\mathrm{cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Kubikcentimeter till kubikmeter: \\(1\\ \\mathrm{m^3}=10^6\\ \\mathrm{cm^3}\\)</p><div class=\"facit-matte\">\\[V=\\frac{2\\,250\\,000}{10^6}\\ \\mathrm{m^3}=2{,}25\\ \\mathrm{m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,25 m³.</p></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "begrepp",
@@ -5918,7 +5918,7 @@ window.BANK = [
     "typ": "skala om massa och hållfasthet mellan modell och verklighet, ur text, sökt kraft",
     "poang": "(0/1/0)",
     "t": "<p>En modell i skala 1:20 väger 45 kg. En pelare bär hela modellens tyngd och klarar högst 12 kN. Originalet har samma form och material. I beräkningen ökar pelarens maxkraft med dess area.</p><p>a) Bestäm originalets massa i kg.</p><p>b) Bestäm originalets maxkraft i N.</p><p>c) Klarar originalets pelare konstruktionens tyngd enligt modellen? Jämför maxkraften delad med tyngden för modellen och originalet.</p><p>d) Vad mer behöver man ta hänsyn till för att bedöma en verklig konstruktion?</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><p>Massan ökar som volymen, med 20³.</p><p>\\[m=45\\cdot20^3\\ \\mathrm{kg}\\]</p><p>\\[m=360000\\ \\mathrm{kg}\\]</p><p><strong>b)</strong></p><p>Maxkraften ökar som arean, med 20².</p><p>\\[F_{max}=12000\\cdot20^2\\ \\mathrm N\\]</p><p>\\[F_{max}=4800000\\ \\mathrm N\\]</p><p><strong>c)</strong></p><p>Modellens tyngd är mg. Kvoten maxkraft/tyngd blir:</p><p>\\[k_{modell}=12000/(45\\cdot9{,}82)\\]</p><p>\\[k_{modell}\\approx27{,}2\\]</p><p>För originalet:</p><p>\\[k_{original}=4800000/(360000\\cdot9{,}82)\\]</p><p>\\[k_{original}\\approx1{,}36\\]</p><p>Kvoten är större än 1, så pelaren klarar tyngden enligt modellen. Marginalen är mycket mindre än för den lilla modellen.</p><p><strong>d)</strong></p><p>Beräkningen räknar bara med egen tyngd och att maxkraften följer arean. En verklig pelare kan också böja sig. Andra laster och hur kraften fördelas behöver bedömas.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Masskala vid samma material: \\(m_{\\text{stor}}=k^3m_{\\text{liten}}\\)</p><p>Alla längder blir 20 gånger så stora. Volymen blir 20³ gånger så stor, och densiteten ändras inte.</p><div class=\"facit-matte\">\\[m_{\\text{stor}}=20^3\\cdot45\\ \\mathrm{kg}=360\\,000\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 360 000 kg.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bärkraft enligt modellen: \\(F_{\\max,\\text{stor}}=k^2F_{\\max,\\text{liten}}\\)</p><p>Frågan antar att bärkraften är proportionell mot tvärsnittsarean. Arean växer med längdfaktorn i kvadrat.</p><div class=\"facit-matte\">\\[\\begin{aligned}F_{\\max,\\text{stor}}&=20^2\\cdot12\\,000\\ \\mathrm N\\\\&=4{,}8\\cdot10^6\\ \\mathrm N\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}8\\cdot10^6\\) N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\)</p><div class=\"facit-matte\">\\[F_{g,\\text{liten}}=45\\cdot9{,}82=441{,}9\\ \\mathrm N\\]</div><div class=\"facit-matte\">\\[F_{g,\\text{stor}}=360\\,000\\cdot9{,}82=3\\,535\\,200\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Jämför bärkraft med tyngd: \\(k_F=F_{\\max}/F_g\\)</p><div class=\"facit-matte\">\\[k_{F,\\text{liten}}=\\frac{12\\,000}{441{,}9}\\approx27{,}2\\]</div><div class=\"facit-matte\">\\[k_{F,\\text{stor}}=\\frac{4{,}8\\cdot10^6}{3\\,535\\,200}\\approx1{,}36\\]</div></li><li><p class=\"facit-rubrik\">Tolka hur marginalen ändras</p><p>Båda kvoterna är större än 1. Enligt modellen bär båda sin egen tyngd, men den stora konstruktionen har mycket mindre marginal eftersom tyngden växer snabbare än bärkraften.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kvoterna är ungefär 27,2 och 1,36. Båda bär sin egen tyngd enligt modellen.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modellens antagande: \\(F_{\\max}\\propto A\\)</p><p>Modellen räknar bara med hur tvärsnittsarean påverkar bärkraften. En verklig konstruktion kan också böjas eller knäckas. Materialfel, hur lasten fördelas och extra laster kan minska hållfastheten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Slutsatsen i c) gäller den förenklade modellen. En verklig konstruktion behöver även kontrolleras mot andra sätt att gå sönder.</p></div></div></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "modellering",
@@ -5951,7 +5951,7 @@ window.BANK = [
     "typ": "beräkna cirkelarea med enhetsomvandling",
     "poang": "(1/0/0)",
     "t": "<p>En rund öppning har radien \\(12{,}0\\ \\mathrm{mm}\\). Bestäm öppningens area i \\(\\mathrm{m^2}\\).<br>(Ange svaret med tre värdesiffror.)</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[r=12{,}0\\ \\mathrm{mm}=0{,}0120\\ \\mathrm m\\]</p><p>\\[A=\\pi r^2\\]</p><p>\\[A=\\pi(0{,}0120)^2\\]</p><p>\\[A\\approx4{,}52\\cdot10^{-4}\\ \\mathrm{m^2}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}52\\cdot10^{-4}\\) m².</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Radien är 12 mm = 0,012 m. Vi söker cirkelns area i m².</p></li><li><p class=\"facit-rubrik\">Cirkelns area: \\(A=\\pi r^2\\)</p><div class=\"facit-matte\">\\[A=\\pi(0{,}012\\ \\mathrm m)^2\\approx0{,}000452389\\ \\mathrm{m^2}\\]</div><p>Avrunda till tre värdesiffror.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}52\\cdot10^{-4}\\) m².</p></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur"
@@ -5977,7 +5977,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Ordna följande areor i storleksordning, från störst till minst.</p>\n<ol type=\"a\"><li>34 dm²</li><li>0,45 m²</li><li>3200 mm²</li><li>4150 cm²</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla samtliga areor till kvadratmeter.</p><div class=\"facit-matte\">\\[34\\ \\mathrm{dm^2}=0{,}34\\ \\mathrm{m^2}\\]\\[0{,}45\\ \\mathrm{m^2}=0{,}45\\ \\mathrm{m^2}\\]\\[3200\\ \\mathrm{mm^2}=0{,}0032\\ \\mathrm{m^2}\\]\\[4150\\ \\mathrm{cm^2}=0{,}415\\ \\mathrm{m^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}45\\ \\mathrm{m^2}&gt;4150\\ \\mathrm{cm^2}&gt;34\\ \\mathrm{dm^2}&gt;3200\\ \\mathrm{mm^2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam areaenhet: \\(1\\ \\mathrm{dm^2}=10^{-2}\\ \\mathrm{m^2}\\)</p><p>Räkna om alla areor till m² innan de jämförs.</p><div class=\"facit-matte\">\\[\\begin{aligned}34\\ \\mathrm{dm^2}&=34\\cdot10^{-2}\\ \\mathrm{m^2}\\\\&=0{,}34\\ \\mathrm{m^2}\\end{aligned}\\]</div><div class=\"facit-matte\">\\[\\begin{aligned}3200\\ \\mathrm{mm^2}&=3200\\cdot10^{-6}\\ \\mathrm{m^2}\\\\&=0{,}0032\\ \\mathrm{m^2}\\end{aligned}\\]</div><div class=\"facit-matte\">\\[\\begin{aligned}4150\\ \\mathrm{cm^2}&=4150\\cdot10^{-4}\\ \\mathrm{m^2}\\\\&=0{,}415\\ \\mathrm{m^2}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför talen i samma enhet</p><div class=\"facit-matte\">\\[0{,}45>0{,}415>0{,}34>0{,}0032\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}45\\ \\mathrm{m^2}>4150\\ \\mathrm{cm^2}>34\\ \\mathrm{dm^2}>3200\\ \\mathrm{mm^2}\\).</p></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur",
@@ -6008,7 +6008,7 @@ window.BANK = [
     "typ": "omvandla energitäthet mellan liter och kubikmeter",
     "poang": "(1/0/0)",
     "t": "<p>Ett batteri kan lagra \\(0{,}45\\ \\mathrm{MJ}\\) per liter. Ange energitätheten i \\(\\mathrm{J/m^3}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mega ger faktorn \\(10^6\\), medan en liter är \\(10^{-3}\\ \\mathrm{m^3}\\).</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin per kubikmeter blir därför större med faktorn 1000 jämfört med per liter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{0{,}45\\cdot10^6\\ \\mathrm J}{10^{-3}\\ \\mathrm{m^3}}=4{,}5\\cdot10^8\\ \\mathrm{J/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\cdot10^8\\ \\mathrm{J/m^3}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energitäthet: \\(u=E/V\\)</p><p>0,45 MJ = 0,45·10⁶ J lagras i en liter = 10⁻³ m³. Vi söker energin per hel kubikmeter.</p><div class=\"facit-matte\">\\[\\begin{aligned}u&=\\frac{0{,}45\\cdot10^6\\ \\mathrm J}{10^{-3}\\ \\mathrm{m^3}}\\\\&=4{,}5\\cdot10^8\\ \\mathrm{J/m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\cdot10^8\\) J/m³.</p></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -6034,7 +6034,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>En elev minns inte om formeln för farten vid fritt fall är v = √(2gh) eller v = 2gh.</p>\n<ol type=\"a\"><li>Vilka enheter har g och h?</li><li>Vilken enhet får de två uttrycken?</li>\n<li>Vilket uttryck har rätt enhet för fart? Förklara vad enheterna visar och varför de inte kan avgöra om sifferfaktorn 2 är korrekt.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>g har enheten m/s² och h har enheten m.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Produkten 2gh har enheten m²/s².</p></div><div class=\"facit-stycke\"><p>Kvadratroten ur produkten har enheten m/s.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Endast uttrycket √(2gh) har rätt enhet för fart.</p></div><div class=\"facit-stycke\"><p>Därför kan 2gh uteslutas.</p></div><div class=\"facit-stycke\"><p>Men även exempelvis √(gh) har enheten m/s, så enhetsanalysen kan inte bestämma sifferfaktorn eller ensam bevisa en fysikalisk formel.</p></div></div></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enheter för \\(g\\) och \\(h\\)</p><p>g är en acceleration: hastighetsändring per sekund. h är en längd.</p><div class=\"facit-matte\">\\[[g]=\\mathrm{m/s^2},\\qquad[h]=\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> g mäts i m/s² och h i m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsprodukt: \\([2gh]=[g][h]\\)</p><p>Sifferfaktorn 2 saknar enhet.</p><div class=\"facit-matte\">\\[[2gh]=\\mathrm{m^2/s^2}\\]</div></li><li><p class=\"facit-rubrik\">Kvadratrotens enhet: \\([\\sqrt{2gh}]=\\sqrt{[2gh]}\\)</p><div class=\"facit-matte\">\\[[\\sqrt{2gh}]=\\sqrt{\\mathrm{m^2/s^2}}=\\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2gh\\) har enheten m²/s²; \\(\\sqrt{2gh}\\) har enheten m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fartens enhet: \\([v]=\\mathrm{m/s}\\)</p><p>Bara \\(\\sqrt{2gh}\\) har rätt enhet för fart. Uttrycket \\(2gh\\) kan uteslutas.</p></li><li><p class=\"facit-rubrik\">Enhetsanalys bestämmer inte enhetslösa tal</p><p>Även \\(\\sqrt{gh}\\) har enheten m/s. Enhetsanalysen kan därför inte avgöra om faktorn 2 är rätt eller ensam bevisa hela formeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt{2gh}\\) har rätt enhet, men sifferfaktorn måste bestämmas på annat sätt.</p></div></div></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "begrepp",
@@ -6066,7 +6066,7 @@ window.BANK = [
     "typ": "omvandla elektriska storheter till grundenheter, ur text, sökt ström spänning och resistans",
     "poang": "(6/0/0)",
     "t": "<p>Skriv värdena utan prefix, alltså i enheten ampere (A), ohm (Ω) eller volt (V).</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 mA</div><div>b) 45 µA</div><div>c) 4,7 kΩ</div><div>d) 2,2 MΩ</div><div>e) 12 mV</div><div>f) 400 kV</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Milli betyder tusendel:</p><div class=\"facit-matte\">\\[250 \\mathrm{mA}=0{,}250\\, \\mathrm{A}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}250\\) A.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Mikro betyder miljondel: 45 µA = 0,000045 A.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000045\\) A.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kilo betyder tusen: 4,7 kΩ = 4700 Ω.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4700\\) Ω.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Mega betyder en miljon: 2,2 MΩ = 2 200 000 Ω.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,200\\,000\\) Ω.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Milli betyder tusendel:</p><div class=\"facit-matte\">\\[12 \\mathrm{mV}=0{,}012\\, \\mathrm{V}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}012\\) V.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kilo betyder tusen:</p><div class=\"facit-matte\">\\[400 \\mathrm{kV}=400\\,000\\, \\mathrm{V}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\,000\\) V.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mA}=10^{-3}\\ \\mathrm A\\)</p><div class=\"facit-matte\">\\[250\\ \\mathrm{mA}=250\\cdot10^{-3}\\ \\mathrm A=0{,}250\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}250\\ \\mathrm A\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mikro: \\(1\\ \\mu\\mathrm A=10^{-6}\\ \\mathrm A\\)</p><div class=\"facit-matte\">\\[45\\ \\mu\\mathrm A=45\\cdot10^{-6}\\ \\mathrm A=0{,}000045\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000045\\ \\mathrm A\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{k\\Omega}=1000\\ \\Omega\\)</p><div class=\"facit-matte\">\\[4{,}7\\ \\mathrm{k\\Omega}=4{,}7\\cdot1000\\ \\Omega=4700\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4700\\ \\Omega\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{M\\Omega}=10^6\\ \\Omega\\)</p><div class=\"facit-matte\">\\[2{,}2\\ \\mathrm{M\\Omega}=2{,}2\\cdot10^6\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,200\\,000\\ \\Omega\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mV}=10^{-3}\\ \\mathrm V\\)</p><div class=\"facit-matte\">\\[12\\ \\mathrm{mV}=12\\cdot10^{-3}\\ \\mathrm V=0{,}012\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}012\\ \\mathrm V\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kV}=1000\\ \\mathrm V\\)</p><div class=\"facit-matte\">\\[400\\ \\mathrm{kV}=400\\cdot1000\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\,000\\ \\mathrm V\\).</p></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -6117,7 +6117,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Skriv 250 mA i A, utan prefix.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Milli betyder tusendel:</p><div class=\"facit-matte\">\\[250 \\mathrm{mA}=0{,}250\\, \\mathrm{A}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mA}=10^{-3}\\ \\mathrm A\\)</p><div class=\"facit-matte\">\\[250\\ \\mathrm{mA}=250\\cdot10^{-3}\\ \\mathrm A=0{,}250\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}250\\ \\mathrm A\\).</p></div>",
         "ledtrad": "<p>Vad betyder milli?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6127,7 +6127,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Skriv 45 µA i A, utan prefix.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Mikro betyder miljondel: 45 µA = 0,000045 A.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mikro: \\(1\\ \\mu\\mathrm A=10^{-6}\\ \\mathrm A\\)</p><div class=\"facit-matte\">\\[45\\ \\mu\\mathrm A=45\\cdot10^{-6}\\ \\mathrm A=0{,}000045\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000045\\ \\mathrm A\\).</p></div>",
         "ledtrad": "<p>Vad betyder mikro?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6137,7 +6137,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Skriv 4,7 kΩ i Ω, utan prefix.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kilo betyder tusen: 4,7 kΩ = 4700 Ω.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{k\\Omega}=1000\\ \\Omega\\)</p><div class=\"facit-matte\">\\[4{,}7\\ \\mathrm{k\\Omega}=4{,}7\\cdot1000\\ \\Omega=4700\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4700\\ \\Omega\\).</p></div>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6147,7 +6147,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Skriv 2,2 MΩ i Ω, utan prefix.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Mega betyder en miljon: 2,2 MΩ = 2 200 000 Ω.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mega: \\(1\\ \\mathrm{M\\Omega}=10^6\\ \\Omega\\)</p><div class=\"facit-matte\">\\[2{,}2\\ \\mathrm{M\\Omega}=2{,}2\\cdot10^6\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,200\\,000\\ \\Omega\\).</p></div>",
         "ledtrad": "<p>Vad betyder mega?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6157,7 +6157,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Skriv 12 mV i V, utan prefix.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Milli betyder tusendel:</p><div class=\"facit-matte\">\\[12 \\mathrm{mV}=0{,}012\\, \\mathrm{V}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milli: \\(1\\ \\mathrm{mV}=10^{-3}\\ \\mathrm V\\)</p><div class=\"facit-matte\">\\[12\\ \\mathrm{mV}=12\\cdot10^{-3}\\ \\mathrm V=0{,}012\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}012\\ \\mathrm V\\).</p></div>",
         "ledtrad": "<p>Vad betyder milli?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6167,7 +6167,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Skriv 400 kV i V, utan prefix.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Kilo betyder tusen:</p><div class=\"facit-matte\">\\[400 \\mathrm{kV}=400\\,000\\, \\mathrm{V}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilo: \\(1\\ \\mathrm{kV}=1000\\ \\mathrm V\\)</p><div class=\"facit-matte\">\\[400\\ \\mathrm{kV}=400\\cdot1000\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\,000\\ \\mathrm V\\).</p></div>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6189,7 +6189,7 @@ window.BANK = [
     "typ": "omvandla massflöde",
     "poang": "(1/0/0)",
     "t": "<p>Ett transportband flyttar \\(850\\ \\mathrm{kg}\\) material per timme. Ange massflödet i \\(\\mathrm{kg/s}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan är redan i kilogram.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det är tiden som måste bytas från timmar till sekunder.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\dot m=\\frac{850}{3600}\\approx0{,}236\\ \\mathrm{kg/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(0{,}236\\ \\mathrm{kg/s}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massflöde: \\(\\dot m=m/t\\)</p><p>850 kg passerar på 1 h = 3600 s. Massan är redan i rätt enhet; vi byter tidsenhet.</p><div class=\"facit-matte\">\\[\\dot m=\\frac{850\\ \\mathrm{kg}}{3600\\ \\mathrm s}\\approx0{,}236\\ \\mathrm{kg/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 0,236 kg/s.</p></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -6216,7 +6216,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Skriv följande längder i enheten meter, med svaret i grundpotensform.</p>\n<ol type=\"a\"><li>6,2 nm</li><li>24 Gm</li><li>3,4·10³ km</li><li>155 pm</li></ol>",
-    "s": "<div class=\"facit-v2\"><p>Nano, giga, kilo och piko motsvarar 10⁻⁹, 10⁹, 10³ och 10⁻¹².</p><p><strong>a)</strong></p><p>\\[6{,}2\\ \\mathrm{nm}=6{,}2\\cdot10^{-9}\\ \\mathrm m\\]</p><p><strong>b)</strong></p><p>\\[24\\ \\mathrm{Gm}=24\\cdot10^9\\ \\mathrm m\\]</p><p>\\[24\\ \\mathrm{Gm}=2{,}4\\cdot10^{10}\\ \\mathrm m\\]</p><p><strong>c)</strong></p><p>\\[3{,}4\\cdot10^3\\ \\mathrm{km}=3{,}4\\cdot10^6\\ \\mathrm m\\]</p><p><strong>d)</strong></p><p>\\[155\\ \\mathrm{pm}=155\\cdot10^{-12}\\ \\mathrm m\\]</p><p>\\[155\\ \\mathrm{pm}=1{,}55\\cdot10^{-10}\\ \\mathrm m\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nano: \\(1\\ \\mathrm{nm}=10^{-9}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[6{,}2\\ \\mathrm{nm}=6{,}2\\cdot10^{-9}\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}2\\cdot10^{-9}\\ \\mathrm m\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Giga och grundpotensform: \\(1\\ \\mathrm{Gm}=10^9\\ \\mathrm m\\)</p><p>Talet framför tiopotensen ska vara minst 1 men mindre än 10. Skriv 24 som 2,4·10.</p><div class=\"facit-matte\">\\[\\begin{aligned}24\\ \\mathrm{Gm}&=24\\cdot10^9\\ \\mathrm m\\\\&=2{,}4\\cdot10^{10}\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}4\\cdot10^{10}\\ \\mathrm m\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensprodukt: \\(10^a10^b=10^{a+b}\\)</p><p>Kilometer ger ytterligare en faktor 10³.</p><div class=\"facit-matte\">\\[\\begin{aligned}3{,}4\\cdot10^3\\ \\mathrm{km}&=3{,}4\\cdot10^3\\cdot10^3\\ \\mathrm m\\\\&=3{,}4\\cdot10^6\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}4\\cdot10^6\\ \\mathrm m\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Piko och grundpotensform: \\(1\\ \\mathrm{pm}=10^{-12}\\ \\mathrm m\\)</p><p>155 = 1,55·10². Exponenterna 2 och −12 adderas.</p><div class=\"facit-matte\">\\[\\begin{aligned}155\\ \\mathrm{pm}&=155\\cdot10^{-12}\\ \\mathrm m\\\\&=1{,}55\\cdot10^{-10}\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}55\\cdot10^{-10}\\ \\mathrm m\\).</p></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -6246,7 +6246,7 @@ window.BANK = [
     "typ": "jämföra storleksordningar med olika prefix",
     "poang": "(1/0/0)",
     "t": "<p>Två tunna skikt är \\(30\\ \\mathrm{nm}\\) respektive \\(5{,}0\\cdot10^{-8}\\ \\mathrm m\\) tjocka. Hur många gånger så tjockt är det tjockare skiktet som det tunnare?</p><p>Avrunda kvoten till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Det andra skiktet är \\(5{,}0\\cdot10^{-8}\\ \\mathrm m=50\\ \\mathrm{nm}\\).</p></div><div class=\"facit-stycke\"><p>Kvoten mellan det tjockare och det tunnare skiktet blir \\(50/30\\approx1{,}67\\).</p></div><div class=\"facit-stycke\"><p>Det tjockare skiktet är alltså 1,67 gånger så tjockt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}67\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam längdenhet: \\(1\\ \\mathrm{nm}=10^{-9}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[5{,}0\\cdot10^{-8}\\ \\mathrm m=50\\ \\mathrm{nm}\\]</div><p>Det andra skiktet är alltså tjockare än skiktet på 30 nm.</p></li><li><p class=\"facit-rubrik\">Förhållande: \\(k=d_{\\text{tjock}}/d_{\\text{tunn}}\\)</p><div class=\"facit-matte\">\\[k=\\frac{50\\ \\mathrm{nm}}{30\\ \\mathrm{nm}}\\approx1{,}67\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det tjockare skiktet är 1,67 gånger så tjockt.</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur",
@@ -6277,7 +6277,7 @@ window.BANK = [
     "typ": "omvandla mellan kilometer per timme och meter per sekund, ur text, sökt hastighet",
     "poang": "(6/0/0)",
     "t": "<p>Omvandla farten mellan km/h och m/s. Avrunda endast om frågan anger det.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 90 km/h till m/s</div><div>b) 15 m/s till km/h</div><div>c) 5,0 km/h till m/s. Ange två decimaler.</div><div>d) 340 m/s till km/h</div><div>e) 108 km/h till m/s</div><div>f) 0,50 m/s till km/h</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{90}{3{,}6}=25\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[15\\cdot 3{,}6=54\\, \\mathrm{km/h}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(54\\) km/h.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>5,0 / 3,6 = 1,388… ≈ 1,39 m/s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}39\\) m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[340\\cdot 3{,}6=1224\\, \\mathrm{km/h}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1224\\) km/h.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{108}{3{,}6}=30\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\) m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[0{,}50\\cdot 3{,}6=1{,}8\\, \\mathrm{km/h}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\) km/h.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">km/h till m/s: dividera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=\\frac{90}{3{,}6}\\ \\mathrm{m/s}=25\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\ \\mathrm{m/s}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">m/s till km/h: multiplicera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=15\\cdot3{,}6\\ \\mathrm{km/h}=54\\ \\mathrm{km/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(54\\ \\mathrm{km/h}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">km/h till m/s: dividera med \\(3{,}6\\)</p><p>Avrunda först på slutet till de två decimaler som frågan anger.</p><div class=\"facit-matte\">\\[v=\\frac{5{,}0}{3{,}6}\\ \\mathrm{m/s}\\approx1{,}39\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}39\\ \\mathrm{m/s}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">m/s till km/h: multiplicera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=340\\cdot3{,}6\\ \\mathrm{km/h}=1224\\ \\mathrm{km/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1224\\ \\mathrm{km/h}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">km/h till m/s: dividera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=\\frac{108}{3{,}6}\\ \\mathrm{m/s}=30\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\ \\mathrm{m/s}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">m/s till km/h: multiplicera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=0{,}50\\cdot3{,}6\\ \\mathrm{km/h}=1{,}8\\ \\mathrm{km/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\ \\mathrm{km/h}\\).</p></div></div></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -6327,7 +6327,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla farten mellan km/h och m/s. Avrunda endast om frågan anger det.</p><p>90 km/h till m/s</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{90}{3{,}6}=25\\, \\mathrm{m/s}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">km/h till m/s: dividera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=\\frac{90}{3{,}6}\\ \\mathrm{m/s}=25\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\ \\mathrm{m/s}\\).</p></div>",
         "ledtrad": "<p>Utgå från den angivna regeln och kontrollera vilken riktning omvandlingen går åt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6338,7 +6338,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla farten mellan km/h och m/s. Avrunda endast om frågan anger det.</p><p>15 m/s till km/h</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[15\\cdot 3{,}6=54\\, \\mathrm{km/h}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">m/s till km/h: multiplicera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=15\\cdot3{,}6\\ \\mathrm{km/h}=54\\ \\mathrm{km/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(54\\ \\mathrm{km/h}\\).</p></div>",
         "ledtrad": "<p>Utgå från den angivna regeln och kontrollera vilken riktning omvandlingen går åt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6349,7 +6349,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla farten mellan km/h och m/s. Avrunda endast om frågan anger det.</p><p>5,0 km/h till m/s. Ange två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>5,0 / 3,6 = 1,388… ≈ 1,39 m/s.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">km/h till m/s: dividera med \\(3{,}6\\)</p><p>Avrunda först på slutet till de två decimaler som frågan anger.</p><div class=\"facit-matte\">\\[v=\\frac{5{,}0}{3{,}6}\\ \\mathrm{m/s}\\approx1{,}39\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}39\\ \\mathrm{m/s}\\).</p></div>",
         "ledtrad": "<p>Utgå från den angivna regeln och kontrollera vilken riktning omvandlingen går åt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6360,7 +6360,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla farten mellan km/h och m/s. Avrunda endast om frågan anger det.</p><p>340 m/s till km/h</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[340\\cdot 3{,}6=1224\\, \\mathrm{km/h}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">m/s till km/h: multiplicera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=340\\cdot3{,}6\\ \\mathrm{km/h}=1224\\ \\mathrm{km/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1224\\ \\mathrm{km/h}\\).</p></div>",
         "ledtrad": "<p>Utgå från den angivna regeln och kontrollera vilken riktning omvandlingen går åt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6371,7 +6371,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla farten mellan km/h och m/s. Avrunda endast om frågan anger det.</p><p>108 km/h till m/s</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{108}{3{,}6}=30\\, \\mathrm{m/s}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">km/h till m/s: dividera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=\\frac{108}{3{,}6}\\ \\mathrm{m/s}=30\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\ \\mathrm{m/s}\\).</p></div>",
         "ledtrad": "<p>Utgå från den angivna regeln och kontrollera vilken riktning omvandlingen går åt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6382,7 +6382,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Omvandla farten mellan km/h och m/s. Avrunda endast om frågan anger det.</p><p>0,50 m/s till km/h</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[0{,}50\\cdot 3{,}6=1{,}8\\, \\mathrm{km/h}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">m/s till km/h: multiplicera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=0{,}50\\cdot3{,}6\\ \\mathrm{km/h}=1{,}8\\ \\mathrm{km/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\ \\mathrm{km/h}\\).</p></div>",
         "ledtrad": "<p>Utgå från den angivna regeln och kontrollera vilken riktning omvandlingen går åt.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6401,7 +6401,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En rätblocksformad bassäng har invändiga måtten 12 m × 5,0 m × 1,6 m. Den fylls till kanten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) Hur stor är vattenvolymen i m³?</div><div>b) Hur stor är vattenvolymen i liter?</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är längd · bredd · djup =</p><div class=\"facit-matte\">\\[12\\cdot 5{,}0\\cdot 1{,}6=96\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(96\\) m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är</p><div class=\"facit-matte\">\\[12\\cdot 5{,}0\\cdot 1{,}6=96\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>En kubikmeter innehåller 1000 liter, så volymen är 96 000 liter.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(96\\,000\\) l.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><p>Bassängens invändiga mått är 12 m, 5,0 m och 1,6 m. När den fylls till kanten är vattenvolymen hela rätblockets volym.</p><div class=\"facit-matte\">\\[V=12\\cdot5{,}0\\cdot1{,}6\\ \\mathrm{m^3}=96\\ \\mathrm{m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 96 m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><p>Bassängens invändiga mått är 12 m, 5,0 m och 1,6 m. När den fylls till kanten är vattenvolymen hela rätblockets volym.</p><div class=\"facit-matte\">\\[V=12\\cdot5{,}0\\cdot1{,}6\\ \\mathrm{m^3}=96\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Kubikmeter till liter: \\(1\\ \\mathrm{m^3}=1000\\ \\mathrm l\\)</p><div class=\"facit-matte\">\\[V=96\\cdot1000\\ \\mathrm l=96\\,000\\ \\mathrm l\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 96 000 liter.</p></div></div></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur"
@@ -6435,7 +6435,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>En rätblocksformad bassäng har invändiga måtten 12 m × 5,0 m × 1,6 m. Den fylls till kanten.</p><p>Hur stor är vattenvolymen i m³?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är längd · bredd · djup =</p><div class=\"facit-matte\">\\[12\\cdot 5{,}0\\cdot 1{,}6=96\\, \\mathrm{m^3}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><p>Bassängens invändiga mått är 12 m, 5,0 m och 1,6 m. När den fylls till kanten är vattenvolymen hela rätblockets volym.</p><div class=\"facit-matte\">\\[V=12\\cdot5{,}0\\cdot1{,}6\\ \\mathrm{m^3}=96\\ \\mathrm{m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 96 m³.</p></div>",
         "ledtrad": "<p>Vilka tre mått bestämmer volymen, och hur många liter ryms i en kubikmeter?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6445,7 +6445,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>En rätblocksformad bassäng har invändiga måtten 12 m × 5,0 m × 1,6 m. Den fylls till kanten.</p><p>Hur stor är vattenvolymen i liter?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är</p><div class=\"facit-matte\">\\[12\\cdot 5{,}0\\cdot 1{,}6=96\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><p>En kubikmeter innehåller 1000 liter, så volymen är 96 000 liter.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><p>Bassängens invändiga mått är 12 m, 5,0 m och 1,6 m. När den fylls till kanten är vattenvolymen hela rätblockets volym.</p><div class=\"facit-matte\">\\[V=12\\cdot5{,}0\\cdot1{,}6\\ \\mathrm{m^3}=96\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Kubikmeter till liter: \\(1\\ \\mathrm{m^3}=1000\\ \\mathrm l\\)</p><div class=\"facit-matte\">\\[V=96\\cdot1000\\ \\mathrm l=96\\,000\\ \\mathrm l\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 96 000 liter.</p></div>",
         "ledtrad": "<p>Vilka tre mått bestämmer volymen, och hur många liter ryms i en kubikmeter?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6468,7 +6468,7 @@ window.BANK = [
     "typ": "bestäm fysisk storlek från upplösning och längd",
     "poang": "(1/0/0)",
     "t": "<p>En kamerasensor är \\(23{,}5\\ \\mathrm{mm}\\) bred och har 6000 bildpunkter längs bredden. Anta att bildpunkterna ligger kant i kant. Hur bred är en bildpunkt i mikrometer?<br> (Svara i µm.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela sensorbredden med antalet bildpunkter och omvandla sedan millimeter till mikrometer.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=\\frac{23{,}5}{6000}\\approx0{,}00392\\ \\mathrm{mm}=3{,}92\\ \\mu\\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}92\\ \\mu\\mathrm m\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bildpunktsbredd: \\(d=b/N\\)</p><p>Sensorbredden 23,5 mm delas i 6000 lika breda bildpunkter.</p><div class=\"facit-matte\">\\[d=\\frac{23{,}5}{6000}\\ \\mathrm{mm}\\]</div></li><li><p class=\"facit-rubrik\">Millimeter till mikrometer: \\(1\\ \\mathrm{mm}=1000\\ \\mu\\mathrm m\\)</p><div class=\"facit-matte\">\\[d=\\frac{23{,}5\\cdot1000}{6000}\\ \\mu\\mathrm m\\approx3{,}92\\ \\mu\\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 3,92 µm.</p></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -6500,7 +6500,7 @@ window.BANK = [
     "typ": "omvandla volymflöde och massflöde mellan olika enheter, ur text, sökt flöde",
     "poang": "(5/0/0)",
     "t": "<p>Omvandla flödet till den angivna enheten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 30 liter/min till m³/s</div><div>b) 1,2 m³/s till liter/min</div><div>c) 18 ton/h till kg/s</div><div>d) 250 ml/s till liter/h</div><div>e) 2,0 kg/s till ton/dygn</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>30 liter är 0,030 m³ och en minut är 60 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Flödet blir</p><div class=\"facit-matte\">\\[\\frac{0{,}030}{60}=0{,}0005\\, \\mathrm{m^3/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0005\\) m³/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>1,2 m³ är 1200 liter varje sekund.</p></div><div class=\"facit-stycke\"><p>På en minut blir det 1200 · 60 = 72 000 liter: 72 000 l/min.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(72\\,000\\) l/min.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>18 ton är 18 000 kg och en timme är 3600 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Flödet blir</p><div class=\"facit-matte\">\\[\\frac{18\\,000}{3600}=5\\, \\mathrm{kg/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\) kg/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>250 ml är 0,250 liter.</p></div><div class=\"facit-stycke\"><p>Under en timme passerar 0,250 · 3600 = 900 liter: 900 l/h.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(900\\) l/h.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>På ett dygn passerar 2,0 · 86 400 = 172 800 kg = 172,8 ton.</p></div><div class=\"facit-stycke\"><p>Flödet är 172,8 ton/dygn.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(172{,}8\\) ton/dygn.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymflöde: \\(q=V/t\\)</p><p>30 liter = 0,030 m³ och en minut = 60 s.</p><div class=\"facit-matte\">\\[\\begin{aligned}q&=\\frac{30\\cdot10^{-3}\\ \\mathrm{m^3}}{60\\ \\mathrm s}\\\\&=0{,}0005\\ \\mathrm{m^3/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0005\\ \\mathrm{m^3/s}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volym per minut: \\(V_{60}=q\\cdot60\\ \\mathrm s\\)</p><p>1,2 m³/s är 1200 liter varje sekund. På en minut passerar 60 gånger den volymen.</p><div class=\"facit-matte\">\\[V_{60}=1{,}2\\cdot1000\\cdot60\\ \\mathrm l=72\\,000\\ \\mathrm l\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(72\\,000\\ \\mathrm{l/min}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massflöde: \\(\\dot m=m/t\\)</p><p>18 ton = 18 000 kg och en timme = 3600 s.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\dot m&=\\frac{18\\cdot1000\\ \\mathrm{kg}}{3600\\ \\mathrm s}\\\\&=5\\ \\mathrm{kg/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\ \\mathrm{kg/s}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volym per timme: \\(V_{\\mathrm h}=q\\cdot3600\\ \\mathrm s\\)</p><p>250 ml/s är 0,250 l/s. En timme innehåller 3600 sekunder.</p><div class=\"facit-matte\">\\[V_{\\mathrm h}=0{,}250\\cdot3600\\ \\mathrm l=900\\ \\mathrm l\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(900\\ \\mathrm{l/h}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massa per dygn: \\(m=\\dot m\\,t\\)</p><p>Ett dygn har 24·3600 = 86 400 sekunder. Ett ton är 1000 kg.</p><div class=\"facit-matte\">\\[\\begin{aligned}m&=2{,}0\\cdot86\\,400\\ \\mathrm{kg}\\\\&=172\\,800\\ \\mathrm{kg}\\\\&=172{,}8\\ \\text{ton}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(172{,}8\\ \\text{ton/dygn}\\).</p></div></div></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -6547,7 +6547,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla 30 liter/min till m³/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>30 liter är 0,030 m³ och en minut är 60 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Flödet blir</p><div class=\"facit-matte\">\\[\\frac{0{,}030}{60}=0{,}0005\\, \\mathrm{m^3/s}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymflöde: \\(q=V/t\\)</p><p>30 liter = 0,030 m³ och en minut = 60 s.</p><div class=\"facit-matte\">\\[\\begin{aligned}q&=\\frac{30\\cdot10^{-3}\\ \\mathrm{m^3}}{60\\ \\mathrm s}\\\\&=0{,}0005\\ \\mathrm{m^3/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0005\\ \\mathrm{m^3/s}\\).</p></div>",
         "ledtrad": "<p>Omvandla täljaren och tidsenheten var för sig. Fler tidsenheter i nämnaren ger mindre mängd per tidsenhet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6557,7 +6557,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla 1,2 m³/s till liter/min.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>1,2 m³ är 1200 liter varje sekund.</p></div><div class=\"facit-stycke\"><p>På en minut blir det 1200 · 60 = 72 000 liter: 72 000 l/min.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volym per minut: \\(V_{60}=q\\cdot60\\ \\mathrm s\\)</p><p>1,2 m³/s är 1200 liter varje sekund. På en minut passerar 60 gånger den volymen.</p><div class=\"facit-matte\">\\[V_{60}=1{,}2\\cdot1000\\cdot60\\ \\mathrm l=72\\,000\\ \\mathrm l\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(72\\,000\\ \\mathrm{l/min}\\).</p></div>",
         "ledtrad": "<p>Omvandla täljaren och tidsenheten var för sig. Fler tidsenheter i nämnaren ger mindre mängd per tidsenhet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6567,7 +6567,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla 18 ton/h till kg/s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>18 ton är 18 000 kg och en timme är 3600 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Flödet blir</p><div class=\"facit-matte\">\\[\\frac{18\\,000}{3600}=5\\, \\mathrm{kg/s}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massflöde: \\(\\dot m=m/t\\)</p><p>18 ton = 18 000 kg och en timme = 3600 s.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\dot m&=\\frac{18\\cdot1000\\ \\mathrm{kg}}{3600\\ \\mathrm s}\\\\&=5\\ \\mathrm{kg/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\ \\mathrm{kg/s}\\).</p></div>",
         "ledtrad": "<p>Omvandla täljaren och tidsenheten var för sig. Fler tidsenheter i nämnaren ger mindre mängd per tidsenhet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6577,7 +6577,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla 250 ml/s till liter/h.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>250 ml är 0,250 liter.</p></div><div class=\"facit-stycke\"><p>Under en timme passerar 0,250 · 3600 = 900 liter: 900 l/h.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volym per timme: \\(V_{\\mathrm h}=q\\cdot3600\\ \\mathrm s\\)</p><p>250 ml/s är 0,250 l/s. En timme innehåller 3600 sekunder.</p><div class=\"facit-matte\">\\[V_{\\mathrm h}=0{,}250\\cdot3600\\ \\mathrm l=900\\ \\mathrm l\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(900\\ \\mathrm{l/h}\\).</p></div>",
         "ledtrad": "<p>Omvandla täljaren och tidsenheten var för sig. Fler tidsenheter i nämnaren ger mindre mängd per tidsenhet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6587,7 +6587,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla 2,0 kg/s till ton/dygn.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>På ett dygn passerar 2,0 · 86 400 = 172 800 kg = 172,8 ton.</p></div><div class=\"facit-stycke\"><p>Flödet är 172,8 ton/dygn.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massa per dygn: \\(m=\\dot m\\,t\\)</p><p>Ett dygn har 24·3600 = 86 400 sekunder. Ett ton är 1000 kg.</p><div class=\"facit-matte\">\\[\\begin{aligned}m&=2{,}0\\cdot86\\,400\\ \\mathrm{kg}\\\\&=172\\,800\\ \\mathrm{kg}\\\\&=172{,}8\\ \\text{ton}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(172{,}8\\ \\text{ton/dygn}\\).</p></div>",
         "ledtrad": "<p>Omvandla täljaren och tidsenheten var för sig. Fler tidsenheter i nämnaren ger mindre mängd per tidsenhet.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6609,7 +6609,7 @@ window.BANK = [
     "typ": "resonera om skalfaktorer för längd area och massa",
     "poang": "(1/1/0)",
     "t": "<p>En massiv modell av en konstruktion är byggd i skala 1:25 av samma material som originalet och har massan \\(0{,}80\\ \\mathrm{kg}\\).</p><p>Bestäm originalets massa och förklara varför massan inte blir 25 gånger större.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alla längder ökar med faktorn 25.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För likformiga kroppar ökar därför volymen, och därmed massan för samma material, med \\(25^3\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=0{,}80\\cdot25^3=1{,}25\\cdot10^4\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Originalets massa är \\(1{,}25\\cdot10^4\\ \\mathrm{kg}\\), alltså \\(12{,}5\\) ton. Massan skalar med volymen, inte med längden.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma material: \\(m=\\rho V\\)</p><p>Densiteten är samma i modell och original. Massorna har därför samma förhållande som volymerna.</p></li><li><p class=\"facit-rubrik\">Volymskala: \\(V_{\\text{stor}}/V_{\\text{liten}}=k^3\\)</p><p>Skalan 1:25 innebär att längd, bredd och höjd alla ökar med 25. Därför blir massfaktorn 25³, inte 25.</p><div class=\"facit-matte\">\\[\\begin{aligned}m_{\\text{original}}&=0{,}80\\cdot25^3\\ \\mathrm{kg}\\\\&=12\\,500\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 500 kg, alltså 12,5 ton. Massan växer med volymen.</p></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "begrepp",
@@ -6641,7 +6641,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En kvadratisk sensor har arean 6,25 cm². Bestäm sensorns sidlängd i millimeter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>För en kvadrat gäller \\(A=s^2\\).</p></div><div class=\"facit-stycke\"><p>Sidlängden blir därför \\(s=\\sqrt{6{,}25}=2{,}5\\ \\mathrm{cm}=25\\ \\mathrm{mm}\\).</p></div><div class=\"facit-stycke\"><p>Kontroll: \\(25^2=625\\ \\mathrm{mm^2}=6{,}25\\ \\mathrm{cm^2}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) mm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadratens area: \\(A=s^2\\)</p><p>Sidan är positiv, så vi tar den positiva kvadratroten ur arean.</p><div class=\"facit-matte\">\\[s=\\sqrt{6{,}25\\ \\mathrm{cm^2}}=2{,}5\\ \\mathrm{cm}\\]</div></li><li><p class=\"facit-rubrik\">Centimeter till millimeter: \\(1\\ \\mathrm{cm}=10\\ \\mathrm{mm}\\)</p><div class=\"facit-matte\">\\[s=2{,}5\\cdot10\\ \\mathrm{mm}=25\\ \\mathrm{mm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25 mm.</p></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur",
@@ -6674,7 +6674,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Prefixen framför en enhet betyder olika tiopotenser.</p>\n<ol type=\"a\"><li>Skriv 4,5 mikrometer i meter.</li><li>Skriv 0,000 000 12 m med prefix.</li>\n<li>Vilket är störst: 500 nanometer eller 0,3 mikrometer?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><p>Mikro betyder 10⁻⁶.</p><p>\\[4{,}5\\ \\mu\\mathrm m=4{,}5\\cdot10^{-6}\\ \\mathrm m\\]</p><p><strong>b)</strong></p><p>\\[0{,}00000012\\ \\mathrm m=1{,}2\\cdot10^{-7}\\ \\mathrm m\\]</p><p>\\[0{,}00000012\\ \\mathrm m=120\\ \\mathrm{nm}\\]</p><p>Även 0,12 µm är samma längd.</p><p><strong>c)</strong></p><p>\\[0{,}3\\ \\mu\\mathrm m=300\\ \\mathrm{nm}\\]</p><p>500 nm är större än 300 nm, så 500 nm är störst.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mikro: \\(1\\ \\mu\\mathrm m=10^{-6}\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[4{,}5\\ \\mu\\mathrm m=4{,}5\\cdot10^{-6}\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\cdot10^{-6}\\ \\mathrm m\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nano: \\(1\\ \\mathrm{nm}=10^{-9}\\ \\mathrm m\\)</p><p>Även 0,12 µm är rätt: båda prefixformerna beskriver samma längd.</p><div class=\"facit-matte\">\\[\\begin{aligned}0{,}00000012\\ \\mathrm m&=120\\cdot10^{-9}\\ \\mathrm m\\\\&=120\\ \\mathrm{nm}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\mathrm{nm}\\text{, exempelvis}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam enhet: \\(1\\ \\mu\\mathrm m=1000\\ \\mathrm{nm}\\)</p><div class=\"facit-matte\">\\[0{,}3\\ \\mu\\mathrm m=0{,}3\\cdot1000\\ \\mathrm{nm}=300\\ \\mathrm{nm}\\]</div><p>500 nm är större än 300 nm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 500 nm är störst.</p></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur",
@@ -6705,7 +6705,7 @@ window.BANK = [
     "typ": "bestäm enheten för en proportionalitetskonstant",
     "poang": "(0/2/0)",
     "t": "<p>Vid höga farter modelleras en bromsande kraft som \\(F=kv^2\\). Bestäm SI-enheten för konstanten \\(k\\). Kan \\(k\\) vara ett tal utan enhet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut \\(k=F/v^2\\) och ersätt varje storhet med dess SI-enhet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[[k]=\\frac{\\mathrm{kg\\,m/s^2}}{\\mathrm{m^2/s^2}}=\\mathrm{kg/m}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\) har enheten \\(\\mathrm{kg/m}\\) och är därför inte dimensionslös.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut konstanten: \\(k=F/v^2\\)</p><p>Vi jämför enheterna i den givna modellen F = kv².</p><div class=\"facit-matte\">\\[[k]=\\frac{\\mathrm N}{(\\mathrm{m/s})^2}\\]</div></li><li><p class=\"facit-rubrik\">Newtons enhet: \\(1\\ \\mathrm N=1\\ \\mathrm{kg\\,m/s^2}\\)</p><div class=\"facit-matte\">\\[[k]=\\frac{\\mathrm{kg\\,m/s^2}}{\\mathrm{m^2/s^2}}=\\mathrm{kg/m}\\]</div><p>Sekundfaktorerna tar ut varandra, och en meter återstår i nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> k har enheten kg/m och kan inte vara dimensionslös.</p></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "begrepp",
@@ -6735,7 +6735,7 @@ window.BANK = [
     "typ": "undersöka hur area och volym ändras när längdmåtten skalas om, ur text, sökt area och volym",
     "poang": "(5/0/0)",
     "t": "<p>En kub har sidan 3,0 cm.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) Bestäm arean av en sidoyta.</div><div>b) Bestäm kubens volym.</div><div>c) Kubens sida ändras från 3,0 cm till 6,0 cm. Med vilken faktor ökar sidoytans area?</div><div>d) Kubens sida ändras från 3,0 cm till 6,0 cm. Med vilken faktor ökar volymen?</div><div>e) En likformig modell har en tiondel av kubens sidlängd. Bestäm kvoten mellan kubens och modellens volym.</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Sidan är 0,030 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Arean blir</p><div class=\"facit-matte\">\\[0{,}030^{2}=0{,}0009\\, \\mathrm{m^2}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0009\\) m².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Sidan är 0,030 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen blir</p><div class=\"facit-matte\">\\[0{,}030^{3}=0{,}000027\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000027\\) m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Sidan fördubblas.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">En area innehåller två längdfaktorer, så arean multipliceras med</p><div class=\"facit-matte\">\\[2^{2}=4\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Sidan fördubblas.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">En volym innehåller tre längdfaktorer, så volymen multipliceras med</p><div class=\"facit-matte\">\\[2^{3}=8\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Modellens volym är (1/10)³ = 1/1000 av kubens.</p></div><div class=\"facit-stycke\"><p>Kvoten kubens volym / modellens volym är därför 1000.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1000\\).</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadratens area: \\(A=a^2\\)</p><p>Sidan 3,0 cm = 0,030 m. Arean avser en enda sidoyta.</p><div class=\"facit-matte\">\\[A=(0{,}030\\ \\mathrm m)^2=0{,}0009\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0009\\ \\mathrm{m^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kubens volym: \\(V=a^3\\)</p><p>Sidan är 0,030 m. Volymen innehåller tre längdfaktorer.</p><div class=\"facit-matte\">\\[V=(0{,}030\\ \\mathrm m)^3=0{,}000027\\ \\mathrm{m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}7\\cdot10^{-5}\\ \\mathrm{m^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Areaskala: \\(A_2/A_1=(a_2/a_1)^2\\)</p><p>Båda sidlängderna i en sidoyta fördubblas.</p><div class=\"facit-matte\">\\[\\frac{A_2}{A_1}=\\left(\\frac{6{,}0}{3{,}0}\\right)^2=2^2=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymskala: \\(V_2/V_1=(a_2/a_1)^3\\)</p><p>Alla tre längderna fördubblas.</p><div class=\"facit-matte\">\\[\\frac{V_2}{V_1}=\\left(\\frac{6{,}0}{3{,}0}\\right)^3=2^3=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymskala: \\(V_{\\text{kub}}/V_{\\text{modell}}=(a_{\\text{kub}}/a_{\\text{modell}})^3\\)</p><p>Kubens sida är tio gånger modellens sida. Frågan ber om kubens volym dividerad med modellens.</p><div class=\"facit-matte\">\\[\\frac{V_{\\text{kub}}}{V_{\\text{modell}}}=10^3=1000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1000\\).</p></div></div></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "begrepp",
@@ -6783,7 +6783,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>En kub har sidan 3,0 cm.</p><p>Bestäm arean av en sidoyta.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Sidan är 0,030 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Arean blir</p><div class=\"facit-matte\">\\[0{,}030^{2}=0{,}0009\\, \\mathrm{m^2}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadratens area: \\(A=a^2\\)</p><p>Sidan 3,0 cm = 0,030 m. Arean avser en enda sidoyta.</p><div class=\"facit-matte\">\\[A=(0{,}030\\ \\mathrm m)^2=0{,}0009\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0009\\ \\mathrm{m^2}\\).</p></div>",
         "ledtrad": "<p>Hur många meter är sidlängden?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6793,7 +6793,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>En kub har sidan 3,0 cm.</p><p>Bestäm kubens volym.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Sidan är 0,030 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen blir</p><div class=\"facit-matte\">\\[0{,}030^{3}=0{,}000027\\, \\mathrm{m^3}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kubens volym: \\(V=a^3\\)</p><p>Sidan är 0,030 m. Volymen innehåller tre längdfaktorer.</p><div class=\"facit-matte\">\\[V=(0{,}030\\ \\mathrm m)^3=0{,}000027\\ \\mathrm{m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}7\\cdot10^{-5}\\ \\mathrm{m^3}\\).</p></div>",
         "ledtrad": "<p>Vilken enhet behöver sidan ha före kuberingen?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6803,7 +6803,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>En kub har sidan 3,0 cm.</p><p>Kubens sida ändras från 3,0 cm till 6,0 cm. Med vilken faktor ökar sidoytans area?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Sidan fördubblas.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">En area innehåller två längdfaktorer, så arean multipliceras med</p><div class=\"facit-matte\">\\[2^{2}=4\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Areaskala: \\(A_2/A_1=(a_2/a_1)^2\\)</p><p>Båda sidlängderna i en sidoyta fördubblas.</p><div class=\"facit-matte\">\\[\\frac{A_2}{A_1}=\\left(\\frac{6{,}0}{3{,}0}\\right)^2=2^2=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\).</p></div>",
         "ledtrad": "<p>Hur många längdfaktorer finns i en area?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6813,7 +6813,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>En kub har sidan 3,0 cm.</p><p>Kubens sida ändras från 3,0 cm till 6,0 cm. Med vilken faktor ökar volymen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Sidan fördubblas.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">En volym innehåller tre längdfaktorer, så volymen multipliceras med</p><div class=\"facit-matte\">\\[2^{3}=8\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymskala: \\(V_2/V_1=(a_2/a_1)^3\\)</p><p>Alla tre längderna fördubblas.</p><div class=\"facit-matte\">\\[\\frac{V_2}{V_1}=\\left(\\frac{6{,}0}{3{,}0}\\right)^3=2^3=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\).</p></div>",
         "ledtrad": "<p>Hur många längdfaktorer finns i en volym?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6823,7 +6823,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>En kub har sidan 3,0 cm.</p><p>En likformig modell har en tiondel av kubens sidlängd. Bestäm kvoten mellan kubens och modellens volym.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Modellens volym är (1/10)³ = 1/1000 av kubens.</p></div><div class=\"facit-stycke\"><p>Kvoten kubens volym / modellens volym är därför 1000.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymskala: \\(V_{\\text{kub}}/V_{\\text{modell}}=(a_{\\text{kub}}/a_{\\text{modell}})^3\\)</p><p>Kubens sida är tio gånger modellens sida. Frågan ber om kubens volym dividerad med modellens.</p><div class=\"facit-matte\">\\[\\frac{V_{\\text{kub}}}{V_{\\text{modell}}}=10^3=1000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1000\\).</p></div>",
         "ledtrad": "<p>Tänk på att alla tre dimensioner minskar i modellen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6845,7 +6845,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>a) En pendels period modelleras med T = Cℓᵃgᵇ. T mäts i s, ℓ i m och g i m/s². C saknar enhet. Bestäm a och b genom att jämföra enheterna.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\mathrm s=\\mathrm m^a(\\mathrm{m/s^2})^b\\]</p><p>\\[\\mathrm s=\\mathrm m^{a+b}\\mathrm s^{-2b}\\]</p><p>Jämför exponenterna: vänster sida har ingen meterfaktor och en sekundfaktor.</p><p>\\[a+b=0,\\qquad -2b=1\\]</p><p>\\[b=-1/2,\\qquad a=1/2\\]</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsvillkor: \\([T]=[\\ell]^a[g]^b\\)</p><p>C saknar enhet. Vänsterledet har enheten s; högerledets enheter måste bli desamma.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\mathrm s&=\\mathrm m^a(\\mathrm{m/s^2})^b\\\\&=\\mathrm m^{a+b}\\mathrm s^{-2b}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför exponenterna: \\(a+b=0\\) och \\(-2b=1\\)</p><p>På vänster sida är meterexponenten 0 och sekundexponenten 1.</p><div class=\"facit-matte\">\\[-2b=1\\ \\Rightarrow\\ b=-\\frac12\\]</div><div class=\"facit-matte\">\\[a=-b=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=\\frac12\\) och \\(b=-\\frac12\\).</p></div></div></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "procedur",
@@ -6884,7 +6884,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En pendels period modelleras med T = Cℓᵃgᵇ. T mäts i s, ℓ i m och g i m/s². C saknar enhet. Bestäm a och b genom att jämföra enheterna.",
-        "s": "<div class=\"facit-v2\"><p>\\[\\mathrm s=\\mathrm m^a(\\mathrm{m/s^2})^b\\]</p><p>\\[\\mathrm s=\\mathrm m^{a+b}\\mathrm s^{-2b}\\]</p><p>Jämför exponenterna: vänster sida har ingen meterfaktor och en sekundfaktor.</p><p>\\[a+b=0,\\qquad -2b=1\\]</p><p>\\[b=-1/2,\\qquad a=1/2\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsvillkor: \\([T]=[\\ell]^a[g]^b\\)</p><p>C saknar enhet. Vänsterledet har enheten s; högerledets enheter måste bli desamma.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\mathrm s&=\\mathrm m^a(\\mathrm{m/s^2})^b\\\\&=\\mathrm m^{a+b}\\mathrm s^{-2b}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför exponenterna: \\(a+b=0\\) och \\(-2b=1\\)</p><p>På vänster sida är meterexponenten 0 och sekundexponenten 1.</p><div class=\"facit-matte\">\\[-2b=1\\ \\Rightarrow\\ b=-\\frac12\\]</div><div class=\"facit-matte\">\\[a=-b=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=\\frac12\\) och \\(b=-\\frac12\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
           0.5,
@@ -6937,7 +6937,7 @@ window.BANK = [
     "typ": "omvandla volymer till kubikmeter, ur text, sökt volym",
     "poang": "(6/0/0)",
     "t": "<p>Omvandla volymen till kubikmeter.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 cm³</div><div>b) 3,5 dm³</div><div>c) 12 liter</div><div>d) 800 mm³</div><div>e) 250 ml</div><div>f) 4,0 hektoliter</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{cm}^{3}=\\left(0{,}01 m\\right)^{3}=10^{-6}\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[250 \\mathrm{cm}^{3}=0{,}000250\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000250\\) m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{dm}^{3}=\\left(0{,}1 m\\right)^{3}=0{,}001\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[3{,}5 \\mathrm{dm}^{3}=0{,}0035\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0035\\) m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En liter är 0,001 m³, så 12 liter = 0,012 m³.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}012\\) m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{mm}^{3}=\\left(0{,}001 m\\right)^{3}=10^{-9}\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[800 \\mathrm{mm}^{3}=8\\cdot 10^{-7}\\, \\mathrm{m^3}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\cdot10^{-7}\\) m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>250 ml = 0,250 liter = 0,000250 m³.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000250\\) m³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Hekto betyder hundra: 4,0 hl = 400 liter = 0,40 m³.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\) m³.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av volym: \\(1\\ \\mathrm{cm^3}=(10^{-2})^3\\ \\mathrm{m^3}\\)</p><p>En volym innehåller tre längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 3.</p><div class=\"facit-matte\">\\[\\begin{aligned}250\\ \\mathrm{cm^3}&=250\\cdot(10^{-2})^3\\ \\mathrm{m^3}\\\\&=0{,}000250\\ \\mathrm{m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000250\\ \\mathrm{m^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av volym: \\(1\\ \\mathrm{dm^3}=(10^{-1})^3\\ \\mathrm{m^3}\\)</p><p>En volym innehåller tre längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 3.</p><div class=\"facit-matte\">\\[\\begin{aligned}3{,}5\\ \\mathrm{dm^3}&=3{,}5\\cdot(10^{-1})^3\\ \\mathrm{m^3}\\\\&=0{,}0035\\ \\mathrm{m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0035\\ \\mathrm{m^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm l=10^{-3}\\ \\mathrm{m^3}\\)</p><p>En liter är en kubikdecimeter.</p><div class=\"facit-matte\">\\[12\\ \\mathrm l=12\\cdot 10^{-3}\\ \\mathrm{m^3}=0{,}012\\ \\mathrm{m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}012\\ \\mathrm{m^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av volym: \\(1\\ \\mathrm{mm^3}=(10^{-3})^3\\ \\mathrm{m^3}\\)</p><p>En volym innehåller tre längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 3.</p><div class=\"facit-matte\">\\[\\begin{aligned}800\\ \\mathrm{mm^3}&=800\\cdot(10^{-3})^3\\ \\mathrm{m^3}\\\\&=8\\cdot10^{-7}\\ \\mathrm{m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\cdot10^{-7}\\ \\mathrm{m^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm{ml}=10^{-6}\\ \\mathrm{m^3}\\)</p><p>En milliliter är en kubikcentimeter.</p><div class=\"facit-matte\">\\[\\begin{aligned}250\\ \\mathrm{ml}&=250\\cdot 10^{-6}\\ \\mathrm{m^3}\\\\&=0{,}000250\\ \\mathrm{m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000250\\ \\mathrm{m^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm{hl}=10^{-1}\\ \\mathrm{m^3}\\)</p><p>En hektoliter är 100 liter, alltså 0,1 m³.</p><div class=\"facit-matte\">\\[\\begin{aligned}4{,}0\\ \\mathrm{hl}&=4{,}0\\cdot 10^{-1}\\ \\mathrm{m^3}\\\\&=0{,}40\\ \\mathrm{m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\ \\mathrm{m^3}\\).</p></div></div></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur"
@@ -6987,7 +6987,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla 250 cm³ till kubikmeter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{cm}^{3}=\\left(0{,}01 m\\right)^{3}=10^{-6}\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[250 \\mathrm{cm}^{3}=0{,}000250\\, \\mathrm{m^3}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av volym: \\(1\\ \\mathrm{cm^3}=(10^{-2})^3\\ \\mathrm{m^3}\\)</p><p>En volym innehåller tre längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 3.</p><div class=\"facit-matte\">\\[\\begin{aligned}250\\ \\mathrm{cm^3}&=250\\cdot(10^{-2})^3\\ \\mathrm{m^3}\\\\&=0{,}000250\\ \\mathrm{m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000250\\ \\mathrm{m^3}\\).</p></div>",
         "ledtrad": "<p>Skilj på kubikcentimeter och centiliter. Utgå från hur många av varje enhet som ryms i en kubikmeter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -6997,7 +6997,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla 3,5 dm³ till kubikmeter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{dm}^{3}=\\left(0{,}1 m\\right)^{3}=0{,}001\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[3{,}5 \\mathrm{dm}^{3}=0{,}0035\\, \\mathrm{m^3}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av volym: \\(1\\ \\mathrm{dm^3}=(10^{-1})^3\\ \\mathrm{m^3}\\)</p><p>En volym innehåller tre längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 3.</p><div class=\"facit-matte\">\\[\\begin{aligned}3{,}5\\ \\mathrm{dm^3}&=3{,}5\\cdot(10^{-1})^3\\ \\mathrm{m^3}\\\\&=0{,}0035\\ \\mathrm{m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0035\\ \\mathrm{m^3}\\).</p></div>",
         "ledtrad": "<p>Skilj på kubikcentimeter och centiliter. Utgå från hur många av varje enhet som ryms i en kubikmeter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -7007,7 +7007,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla 12 liter till kubikmeter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>En liter är 0,001 m³, så 12 liter = 0,012 m³.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm l=10^{-3}\\ \\mathrm{m^3}\\)</p><p>En liter är en kubikdecimeter.</p><div class=\"facit-matte\">\\[12\\ \\mathrm l=12\\cdot 10^{-3}\\ \\mathrm{m^3}=0{,}012\\ \\mathrm{m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}012\\ \\mathrm{m^3}\\).</p></div>",
         "ledtrad": "<p>Skilj på kubikcentimeter och centiliter. Utgå från hur många av varje enhet som ryms i en kubikmeter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -7017,7 +7017,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla 800 mm³ till kubikmeter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1 \\mathrm{mm}^{3}=\\left(0{,}001 m\\right)^{3}=10^{-9}\\, \\mathrm{m^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Därför är</p><div class=\"facit-matte\">\\[800 \\mathrm{mm}^{3}=8\\cdot 10^{-7}\\, \\mathrm{m^3}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling av volym: \\(1\\ \\mathrm{mm^3}=(10^{-3})^3\\ \\mathrm{m^3}\\)</p><p>En volym innehåller tre längdfaktorer. Därför upphöjs längdens omvandlingsfaktor till 3.</p><div class=\"facit-matte\">\\[\\begin{aligned}800\\ \\mathrm{mm^3}&=800\\cdot(10^{-3})^3\\ \\mathrm{m^3}\\\\&=8\\cdot10^{-7}\\ \\mathrm{m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\cdot10^{-7}\\ \\mathrm{m^3}\\).</p></div>",
         "ledtrad": "<p>Skilj på kubikcentimeter och centiliter. Utgå från hur många av varje enhet som ryms i en kubikmeter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -7027,7 +7027,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla 250 ml till kubikmeter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>250 ml = 0,250 liter = 0,000250 m³.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm{ml}=10^{-6}\\ \\mathrm{m^3}\\)</p><p>En milliliter är en kubikcentimeter.</p><div class=\"facit-matte\">\\[\\begin{aligned}250\\ \\mathrm{ml}&=250\\cdot 10^{-6}\\ \\mathrm{m^3}\\\\&=0{,}000250\\ \\mathrm{m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000250\\ \\mathrm{m^3}\\).</p></div>",
         "ledtrad": "<p>Skilj på kubikcentimeter och centiliter. Utgå från hur många av varje enhet som ryms i en kubikmeter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -7037,7 +7037,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Omvandla 4,0 hektoliter till kubikmeter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Hekto betyder hundra: 4,0 hl = 400 liter = 0,40 m³.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm{hl}=10^{-1}\\ \\mathrm{m^3}\\)</p><p>En hektoliter är 100 liter, alltså 0,1 m³.</p><div class=\"facit-matte\">\\[\\begin{aligned}4{,}0\\ \\mathrm{hl}&=4{,}0\\cdot 10^{-1}\\ \\mathrm{m^3}\\\\&=0{,}40\\ \\mathrm{m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\ \\mathrm{m^3}\\).</p></div>",
         "ledtrad": "<p>Skilj på kubikcentimeter och centiliter. Utgå från hur många av varje enhet som ryms i en kubikmeter.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -7059,7 +7059,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>En kvadrat har sidan x centimeter, där x &gt; 0.</p>\n<ol type=\"a\"><li>Ange kvadratens area i m², uttryckt i x.</li>\n<li>Ange volymen i m³ för en kub med sidan x centimeter, där x &gt; 0.</li>\n<li>Kontrollera ditt uttryck i b-uppgiften för en kub med sidan 4,0 cm.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p>Sidan är x cm, alltså 0,01x m.</p><p><strong>a)</strong></p><p>\\[A=(0{,}01x)^2\\ \\mathrm{m^2}\\]</p><p>\\[A=10^{-4}x^2\\ \\mathrm{m^2}\\]</p><p><strong>b)</strong></p><p>\\[V=(0{,}01x)^3\\ \\mathrm{m^3}\\]</p><p>\\[V=10^{-6}x^3\\ \\mathrm{m^3}\\]</p><p><strong>c)</strong></p><p>Sätt x = 4,0.</p><p>\\[V=10^{-6}\\cdot4{,}0^3\\ \\mathrm{m^3}\\]</p><p>\\[V=6{,}4\\cdot10^{-5}\\ \\mathrm{m^3}\\]</p><p>Det är 64 cm³.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadratens area: \\(A=s^2\\)</p><p>Sidan x centimeter är 0,01x meter. Hela talet 0,01x ska kvadreras.</p><div class=\"facit-matte\">\\[A=(0{,}01x)^2\\ \\mathrm{m^2}=10^{-4}x^2\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10^{-4}x^2\\ \\mathrm{m^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kubens volym: \\(V=s^3\\)</p><p>Sidan i meter är 0,01x. Hela omvandlingsfaktorn upphöjs till tre.</p><div class=\"facit-matte\">\\[V=(0{,}01x)^3\\ \\mathrm{m^3}=10^{-6}x^3\\ \\mathrm{m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10^{-6}x^3\\ \\mathrm{m^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=4{,}0\\) i volymuttrycket</p><p>Kontroll direkt i centimeter: 4³ = 64 cm³. Eftersom 1 cm³ = 10⁻⁶ m³ ger båda metoderna samma volym.</p><div class=\"facit-matte\">\\[\\begin{aligned}V&=10^{-6}\\cdot4{,}0^3\\ \\mathrm{m^3}\\\\&=6{,}4\\cdot10^{-5}\\ \\mathrm{m^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}4\\cdot10^{-5}\\ \\mathrm{m^3}\\).</p></div></div></div>",
     "familj": "Area- och volymenheter",
     "formaga": [
       "procedur",
@@ -7089,7 +7089,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>a) En längd x modelleras med x = Caᵖtᵠ. a är en acceleration i m/s² och t en tid i s. C saknar enhet. Bestäm p och q. Bestäm också faktorn som x multipliceras med om a fördubblas och t tredubblas.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\mathrm m=(\\mathrm{m/s^2})^p\\mathrm s^q\\]</p><p>\\[\\mathrm m=\\mathrm m^p\\mathrm s^{-2p+q}\\]</p><p>Meterexponenten ger p = 1. Sekundexponenten ska vara noll.</p><p>\\[-2p+q=0\\quad\\Rightarrow\\quad q=2\\]</p><p>Samma C används före och efter ändringen.</p><p>\\[f=2^1\\cdot3^2=18\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsvillkor: \\([x]=[a]^p[t]^q\\)</p><p>C är enhetslös. Vänsterledet har enheten m.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\mathrm m&=(\\mathrm{m/s^2})^p\\mathrm s^q\\\\&=\\mathrm m^p\\mathrm s^{-2p+q}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför exponenterna: \\(p=1\\), \\(-2p+q=0\\)</p><p>Meterexponenten ska vara 1 och sekundexponenten 0.</p><div class=\"facit-matte\">\\[p=1,\\qquad q=2p=2\\]</div></li><li><p class=\"facit-rubrik\">Ändringsfaktor: \\(x_{\\text{ny}}/x_{\\text{gammal}}=2^p3^q\\)</p><p>Samma C används. Accelerationen ger en faktor 2 och tiden en faktor 3².</p><div class=\"facit-matte\">\\[\\frac{x_{\\text{ny}}}{x_{\\text{gammal}}}=2^1\\cdot3^2=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(p=1\\), \\(q=2\\) och längden multipliceras med 18.</p></div></div></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "procedur",
@@ -7130,7 +7130,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En längd x modelleras med x = Caᵖtᵠ. a är en acceleration i m/s² och t en tid i s. C saknar enhet. Bestäm p och q. Bestäm också faktorn som x multipliceras med om a fördubblas och t tredubblas.",
-        "s": "<div class=\"facit-v2\"><p>\\[\\mathrm m=(\\mathrm{m/s^2})^p\\mathrm s^q\\]</p><p>\\[\\mathrm m=\\mathrm m^p\\mathrm s^{-2p+q}\\]</p><p>Meterexponenten ger p = 1. Sekundexponenten ska vara noll.</p><p>\\[-2p+q=0\\quad\\Rightarrow\\quad q=2\\]</p><p>Samma C används före och efter ändringen.</p><p>\\[f=2^1\\cdot3^2=18\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsvillkor: \\([x]=[a]^p[t]^q\\)</p><p>C är enhetslös. Vänsterledet har enheten m.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\mathrm m&=(\\mathrm{m/s^2})^p\\mathrm s^q\\\\&=\\mathrm m^p\\mathrm s^{-2p+q}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför exponenterna: \\(p=1\\), \\(-2p+q=0\\)</p><p>Meterexponenten ska vara 1 och sekundexponenten 0.</p><div class=\"facit-matte\">\\[p=1,\\qquad q=2p=2\\]</div></li><li><p class=\"facit-rubrik\">Ändringsfaktor: \\(x_{\\text{ny}}/x_{\\text{gammal}}=2^p3^q\\)</p><p>Samma C används. Accelerationen ger en faktor 2 och tiden en faktor 3².</p><div class=\"facit-matte\">\\[\\frac{x_{\\text{ny}}}{x_{\\text{gammal}}}=2^1\\cdot3^2=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(p=1\\), \\(q=2\\) och längden multipliceras med 18.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
           1,
@@ -7188,7 +7188,7 @@ window.BANK = [
     "typ": "omvandla massor till kilogram, ur text, sökt massa",
     "poang": "(6/0/0)",
     "t": "<p>Omvandla massan till kilogram.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 g</div><div>b) 45 mg</div><div>c) 2,4 ton</div><div>d) 780 hg</div><div>e) 0,60 µg</div><div>f) 12 000 g</div></div>",
-    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p><strong>a)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{250 g}{1000}=0{,}250\\, \\mathrm{kg}\\]</div></div></div></div></div></p></div></p><p><div class=\"facit-v2\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}250\\) kg.</p><p><strong>b)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[45 \\mathrm{mg}=0{,}045 g=0{,}000045\\, \\mathrm{kg}\\]</div></div></div></div></div></p></div></p><p><div class=\"facit-v2\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000045\\) kg.</p><p><strong>c)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ett ton är 1000 kg: 2,4 ton = 2400 kg.</p></div></div></div></p></div></p><p><div class=\"facit-v2\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(2400\\) kg.</p><p><strong>d)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ett hekto är 0,1 kg:</p><div class=\"facit-matte\">\\[780 \\mathrm{hg}=78\\, \\mathrm{kg}\\]</div></div></div></div></div></p></div></p><p><div class=\"facit-v2\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(78\\) kg.</p><p><strong>e)</strong></p><p><div class=\"facit-v2\"><p>Mikro betyder 10⁻⁶ gram och ett gram är 10⁻³ kg.</p><p>\\[m=0{,}60\\cdot10^{-6}\\ \\mathrm g\\]</p><p>\\[m=0{,}60\\cdot10^{-9}\\ \\mathrm{kg}\\]</p><p>\\[m=6{,}0\\cdot10^{-10}\\ \\mathrm{kg}\\]</p></div></p></div></p><p><div class=\"facit-v2\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\cdot10^{-10}\\) kg.</p><p><strong>f)</strong></p><p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{12\\,000 g}{1000}=12\\, \\mathrm{kg}\\]</div></div></div></div></div></p></div></p><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) kg.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gram till kilogram: \\(1\\ \\mathrm g=10^{-3}\\ \\mathrm{kg}\\)</p><div class=\"facit-matte\">\\[250\\ \\mathrm g=250\\cdot10^{-3}\\ \\mathrm{kg}=0{,}250\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}250\\ \\mathrm{kg}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milligram till kilogram: \\(1\\ \\mathrm{mg}=10^{-6}\\ \\mathrm{kg}\\)</p><p>Milli avser gram. Först delar man med 1000 för att få gram, sedan med 1000 för att få kilogram.</p><div class=\"facit-matte\">\\[\\begin{aligned}45\\ \\mathrm{mg}&=45\\cdot10^{-6}\\ \\mathrm{kg}\\\\&=0{,}000045\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000045\\ \\mathrm{kg}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ton: \\(1\\ \\text{ton}=1000\\ \\mathrm{kg}\\)</p><div class=\"facit-matte\">\\[2{,}4\\ \\text{ton}=2{,}4\\cdot1000\\ \\mathrm{kg}=2400\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2400\\ \\mathrm{kg}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hektogram: \\(1\\ \\mathrm{hg}=0{,}1\\ \\mathrm{kg}\\)</p><div class=\"facit-matte\">\\[780\\ \\mathrm{hg}=780\\cdot0{,}1\\ \\mathrm{kg}=78\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(78\\ \\mathrm{kg}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mikrogram till kilogram: \\(1\\ \\mu\\mathrm g=10^{-9}\\ \\mathrm{kg}\\)</p><p>Mikro ger \\(10^{-6}\\) gram. Ett gram är \\(10^{-3}\\) kg, så den samlade faktorn är \\(10^{-6}\\cdot10^{-3}=10^{-9}\\).</p><div class=\"facit-matte\">\\[\\begin{aligned}0{,}60\\ \\mu\\mathrm g&=0{,}60\\cdot10^{-9}\\ \\mathrm{kg}\\\\&=6{,}0\\cdot10^{-10}\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\cdot10^{-10}\\ \\mathrm{kg}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gram till kilogram: \\(1\\ \\mathrm g=10^{-3}\\ \\mathrm{kg}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}12\\,000\\ \\mathrm g&=12\\,000\\cdot10^{-3}\\ \\mathrm{kg}\\\\&=12\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\mathrm{kg}\\).</p></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
       "procedur"
@@ -7239,7 +7239,7 @@ window.BANK = [
       {
         "etikett": "a",
         "t": "<p>Omvandla 250 g till kilogram.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{250 g}{1000}=0{,}250\\, \\mathrm{kg}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gram till kilogram: \\(1\\ \\mathrm g=10^{-3}\\ \\mathrm{kg}\\)</p><div class=\"facit-matte\">\\[250\\ \\mathrm g=250\\cdot10^{-3}\\ \\mathrm{kg}=0{,}250\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}250\\ \\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Hur många gram går på ett kilogram?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -7249,7 +7249,7 @@ window.BANK = [
       {
         "etikett": "b",
         "t": "<p>Omvandla 45 mg till kilogram.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[45 \\mathrm{mg}=0{,}045 g=0{,}000045\\, \\mathrm{kg}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milligram till kilogram: \\(1\\ \\mathrm{mg}=10^{-6}\\ \\mathrm{kg}\\)</p><p>Milli avser gram. Först delar man med 1000 för att få gram, sedan med 1000 för att få kilogram.</p><div class=\"facit-matte\">\\[\\begin{aligned}45\\ \\mathrm{mg}&=45\\cdot10^{-6}\\ \\mathrm{kg}\\\\&=0{,}000045\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000045\\ \\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Omvandla först milligram till gram.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -7259,7 +7259,7 @@ window.BANK = [
       {
         "etikett": "c",
         "t": "<p>Omvandla 2,4 ton till kilogram.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ett ton är 1000 kg: 2,4 ton = 2400 kg.</p></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ton: \\(1\\ \\text{ton}=1000\\ \\mathrm{kg}\\)</p><div class=\"facit-matte\">\\[2{,}4\\ \\text{ton}=2{,}4\\cdot1000\\ \\mathrm{kg}=2400\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2400\\ \\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Hur många kilogram går på ett ton?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -7269,7 +7269,7 @@ window.BANK = [
       {
         "etikett": "d",
         "t": "<p>Omvandla 780 hg till kilogram.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Ett hekto är 0,1 kg:</p><div class=\"facit-matte\">\\[780 \\mathrm{hg}=78\\, \\mathrm{kg}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hektogram: \\(1\\ \\mathrm{hg}=0{,}1\\ \\mathrm{kg}\\)</p><div class=\"facit-matte\">\\[780\\ \\mathrm{hg}=780\\cdot0{,}1\\ \\mathrm{kg}=78\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(78\\ \\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Hur många hekto går på ett kilogram?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -7279,7 +7279,7 @@ window.BANK = [
       {
         "etikett": "e",
         "t": "<p>Omvandla 0,60 µg till kilogram.</p>",
-        "s": "<div class=\"facit-v2\"><p>Mikro betyder 10⁻⁶ gram och ett gram är 10⁻³ kg.</p><p>\\[m=0{,}60\\cdot10^{-6}\\ \\mathrm g\\]</p><p>\\[m=0{,}60\\cdot10^{-9}\\ \\mathrm{kg}\\]</p><p>\\[m=6{,}0\\cdot10^{-10}\\ \\mathrm{kg}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mikrogram till kilogram: \\(1\\ \\mu\\mathrm g=10^{-9}\\ \\mathrm{kg}\\)</p><p>Mikro ger \\(10^{-6}\\) gram. Ett gram är \\(10^{-3}\\) kg, så den samlade faktorn är \\(10^{-6}\\cdot10^{-3}=10^{-9}\\).</p><div class=\"facit-matte\">\\[\\begin{aligned}0{,}60\\ \\mu\\mathrm g&=0{,}60\\cdot10^{-9}\\ \\mathrm{kg}\\\\&=6{,}0\\cdot10^{-10}\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\cdot10^{-10}\\ \\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Omvandla först mikrogram till gram.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -7289,7 +7289,7 @@ window.BANK = [
       {
         "etikett": "f",
         "t": "<p>Omvandla 12 000 g till kilogram.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{12\\,000 g}{1000}=12\\, \\mathrm{kg}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gram till kilogram: \\(1\\ \\mathrm g=10^{-3}\\ \\mathrm{kg}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}12\\,000\\ \\mathrm g&=12\\,000\\cdot10^{-3}\\ \\mathrm{kg}\\\\&=12\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Hur många gram går på ett kilogram?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
@@ -197965,7 +197965,7 @@ window.BANK = [
   "typ": "enheter i vardagen",
   "poang": "(1/0/0)",
   "t": "<p>En tunn plastfilm är 75 µm tjock. Hur tjock är filmen i meter? (Svara i m.)</p><span class=\"fig\"><svg style=\"width:100%;max-width:400px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"Plastfilmens tjocklek är 75 mikrometer\"><rect width=\"400\" height=\"220\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><rect x=\"60\" y=\"90\" width=\"240\" height=\"35\" fill=\"#d9edf7\"/><path d=\"M320 90h20m-10 0v35m-10 0h20\"/><text x=\"330\" y=\"65\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">75 µm</text><text x=\"180\" y=\"170\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Plastfilm – förstorad bild</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Prefixet mikro betyder en miljondel. För att omvandla från mikrometer till meter multiplicerar vi därför med \\(10^{-6}\\).</p>\\[75\\text{ µm}=75\\cdot10^{-6}\\text{ m}\\]\\[=0{,}000075\\text{ m}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000075\\) m.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mikro: \\(1\\ \\mu\\mathrm m=10^{-6}\\ \\mathrm m\\)</p><p>En mikrometer är en miljondels meter. Tjockleken är densamma; bara enheten ändras.</p><div class=\"facit-matte\">\\[75\\ \\mu\\mathrm m=75\\cdot10^{-6}\\ \\mathrm m=0{,}000075\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}000075\\ \\mathrm m\\).</p></div>",
   "miniräknare": true,
   "geogebra": false,
   "familj": "Prefix och tiopotenser",
@@ -197992,7 +197992,7 @@ window.BANK = [
   "typ": "enheter i vardagen",
   "poang": "(1/0/0)",
   "t": "<p>En rektangulär solpanel är 120 cm lång och 80 cm bred. Hur stor är panelens area i kvadratmeter?</p><span class=\"fig\"><svg style=\"width:100%;max-width:400px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"Rektangulär solpanel, 120 gånger 80 centimeter\"><rect width=\"400\" height=\"220\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><rect x=\"90\" y=\"45\" width=\"210\" height=\"140\" fill=\"#d9edf7\"/><text x=\"195\" y=\"27\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">120 cm</text><text x=\"350\" y=\"120\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">80 cm</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Arean är längden gånger bredden. Vi omvandlar först båda längderna till meter.</p>\\[l=\\frac{120}{100}=1{,}20\\text{ m}\\]\\[b=\\frac{80}{100}=0{,}80\\text{ m}\\]<p>Därefter blir arean</p>\\[A=lb=1{,}20\\cdot0{,}80=0{,}96\\text{ m}^2.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}96\\) m².</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Panelens längd är 120 cm = 1,20 m och bredden 80 cm = 0,80 m. Vi söker arean i m².</p></li><li><p class=\"facit-rubrik\">Rektangelns area: \\(A=lb\\)</p><div class=\"facit-matte\">\\[A=1{,}20\\cdot0{,}80\\ \\mathrm{m^2}=0{,}96\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,96 m².</p></div>",
   "miniräknare": true,
   "geogebra": false,
   "familj": "Area- och volymenheter",
@@ -198019,7 +198019,7 @@ window.BANK = [
   "typ": "enheter i vardagen",
   "poang": "(0/1/0)",
   "t": "<p>En pump flyttar 3,6 liter vatten per minut. Hur många kubikcentimeter vatten flyttar den per sekund? (Svara i cm³/s.)</p><span class=\"fig\"><svg style=\"width:100%;max-width:400px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"Pumpens vattenflöde\"><rect width=\"400\" height=\"220\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><rect x=\"35\" y=\"80\" width=\"85\" height=\"65\" rx=\"8\" fill=\"#d9edf7\"/><path d=\"M120 110h210m-15-10 15 10-15 10\"/><text x=\"78\" y=\"120\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Pump</text><text x=\"235\" y=\"75\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">3,6 liter per minut</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>En liter motsvarar 1 000 cm³. Pumpen flyttar därför</p>\\[3{,}6\\cdot1000=3600\\text{ cm}^3\\]<p>på en minut. En minut är 60 sekunder. Volymen per sekund blir då</p>\\[q=\\frac{3600\\text{ cm}^3}{60\\text{ s}}=60\\text{ cm}^3/\\text{s}.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\) cm³/s.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Liter till kubikcentimeter: \\(1\\ \\mathrm l=1000\\ \\mathrm{cm^3}\\)</p><div class=\"facit-matte\">\\[V=3{,}6\\cdot1000\\ \\mathrm{cm^3}=3600\\ \\mathrm{cm^3}\\]</div><p>Denna volym passerar på 1 min = 60 s.</p></li><li><p class=\"facit-rubrik\">Volymflöde: \\(q=V/t\\)</p><div class=\"facit-matte\">\\[q=\\frac{3600\\ \\mathrm{cm^3}}{60\\ \\mathrm s}=60\\ \\mathrm{cm^3/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 cm³/s.</p></div>",
   "miniräknare": true,
   "geogebra": false,
   "familj": "Enhetsomvandling",
@@ -198046,7 +198046,7 @@ window.BANK = [
   "typ": "enheter i vardagen",
   "poang": "(1/0/0)",
   "t": "<p>En sensor gör mätningar direkt efter varandra, utan pauser. Varje mätning tar 150 ms. Hur många hela mätningar hinner sensorn göra på 2 minuter?</p><span class=\"fig\"><svg style=\"width:100%;max-width:400px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"Tre på varandra följande mätningar tar 150 millisekunder vardera\"><rect width=\"400\" height=\"220\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><path d=\"M40 130H360M40 110V150M140 110V150M240 110V150M340 110V150\"/><text x=\"90\" y=\"95\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">150 ms</text><text x=\"190\" y=\"95\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">150 ms</text><text x=\"290\" y=\"95\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">150 ms</text><text x=\"200\" y=\"190\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Mätningarna fortsätter i 2 minuter</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Antalet mätningar är den tillgängliga tiden dividerad med tiden för en mätning. Båda tiderna måste ha samma enhet.</p>\\[t_{\\text{tot}}=2\\cdot60=120\\text{ s}\\]\\[t_{\\text{mätning}}=150\\cdot10^{-3}=0{,}150\\text{ s}\\]<p>Det ger</p>\\[N=\\frac{120}{0{,}150}=800.\\]<p>Resultatet är ett heltal, så alla 800 mätningar hinner avslutas.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(800\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Vi söker antalet avslutade mätningar. Räkna båda tiderna i sekunder.</p><div class=\"facit-matte\">\\[t_{\\text{tot}}=2\\cdot60=120\\ \\mathrm s\\]</div><div class=\"facit-matte\">\\[t_{\\text{mätning}}=150\\cdot10^{-3}=0{,}150\\ \\mathrm s\\]</div></li><li><p class=\"facit-rubrik\">Antal mätningar: \\(N=t_{\\text{tot}}/t_{\\text{mätning}}\\)</p><div class=\"facit-matte\">\\[N=\\frac{120}{0{,}150}=800\\]</div><p>Kvoten är ett heltal. Alla dessa mätningar hinner därför avslutas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 800 mätningar.</p></div>",
   "miniräknare": true,
   "geogebra": false,
   "familj": "Enhetsomvandling",
@@ -198073,7 +198073,7 @@ window.BANK = [
   "typ": "enheter i vardagen",
   "poang": "(0/1/0)",
   "t": "<p>Det faller 12 mm regn på ett plant tak med arean 35 m². Allt vatten samlas i en tank. Hur många liter vatten hamnar i tanken? (Svara i liter.)</p><span class=\"fig\"><svg style=\"width:100%;max-width:400px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"Regn över ett plant tak med arean 35 kvadratmeter\"><rect width=\"400\" height=\"220\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><rect x=\"70\" y=\"100\" width=\"260\" height=\"60\" fill=\"#d9edf7\"/><path d=\"M90 35v40m45-40v40m45-40v40m45-40v40m45-40v40m45-40v40\"/><text x=\"200\" y=\"135\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Tak: 35 m²</text><text x=\"200\" y=\"200\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Regnmängd: 12 mm</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Vattnet kan ses som ett lager med takets area som basyta och regnmängden som höjd. Volymen är basytans area gånger höjden.</p>\\[h=12\\text{ mm}=0{,}012\\text{ m}\\]\\[V=Ah=35\\cdot0{,}012=0{,}42\\text{ m}^3\\]<p>En kubikmeter motsvarar 1 000 liter:</p>\\[V=0{,}42\\cdot1000=420\\text{ liter}.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(420\\) liter.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Regnets höjd är 12 mm = 0,012 m. Takets area är 35 m². Vi söker vattenvolymen i liter.</p></li><li><p class=\"facit-rubrik\">Volym av ett lager: \\(V=Ah\\)</p><p>Tänk vattnet som ett tunt rätblock över hela taket.</p><div class=\"facit-matte\">\\[V=35\\cdot0{,}012\\ \\mathrm{m^3}=0{,}42\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Kubikmeter till liter: \\(1\\ \\mathrm{m^3}=1000\\ \\mathrm l\\)</p><div class=\"facit-matte\">\\[V=0{,}42\\cdot1000\\ \\mathrm l=420\\ \\mathrm l\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 420 liter.</p></div>",
   "miniräknare": true,
   "geogebra": false,
   "familj": "Area- och volymenheter",
@@ -198100,7 +198100,7 @@ window.BANK = [
   "typ": "enheter i vardagen",
   "poang": "(1/0/0)",
   "t": "<p>En behållare innehåller först 0,6 ml vätska. Efter en påfyllning innehåller den 1,8 ml. Hur många mikroliter har fyllts på? (Svara i µl.)</p><span class=\"fig\"><svg style=\"width:100%;max-width:400px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"Samma behållare före och efter påfyllningen\"><rect width=\"400\" height=\"220\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><path d=\"M60 45v120h80V45M260 45v120h80V45\"/><rect x=\"61\" y=\"135\" width=\"78\" height=\"29\" fill=\"#d9edf7\" stroke=\"none\"/><rect x=\"261\" y=\"75\" width=\"78\" height=\"89\" fill=\"#d9edf7\" stroke=\"none\"/><text x=\"100\" y=\"25\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Före</text><text x=\"300\" y=\"25\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Efter</text><text x=\"100\" y=\"200\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">0,6 ml</text><text x=\"300\" y=\"200\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">1,8 ml</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Det som fyllts på är skillnaden mellan slutvolymen och startvolymen.</p>\\[\\Delta V=1{,}8-0{,}6=1{,}2\\text{ ml}\\]<p>En milliliter är 1 000 mikroliter. Volymökningen blir därför</p>\\[\\Delta V=1{,}2\\cdot1000=1200\\text{ µl}.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(1200\\) µl.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymökning: \\(\\Delta V=V_{\\text{slut}}-V_{\\text{start}}\\)</p><div class=\"facit-matte\">\\[\\Delta V=1{,}8-0{,}6=1{,}2\\ \\mathrm{ml}\\]</div></li><li><p class=\"facit-rubrik\">Milliliter till mikroliter: \\(1\\ \\mathrm{ml}=1000\\ \\mu\\mathrm l\\)</p><div class=\"facit-matte\">\\[\\Delta V=1{,}2\\cdot1000\\ \\mu\\mathrm l=1200\\ \\mu\\mathrm l\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1200 µl.</p></div>",
   "miniräknare": true,
   "geogebra": false,
   "familj": "Enhetsomvandling",
@@ -219386,7 +219386,7 @@ window.BANK = [
   "typ": "tvärsnittsarean av ett hårstrå",
   "poang": "(0/1/0)",
   "t": "<p>Ett hårstrå har diametern 70 µm. Hur stor är tvärsnittsarean? (Svara i mm².)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tvärsnittet är en cirkel med radien 35 µm. Räkna om radien till mm innan du räknar arean, så hamnar arean direkt i mm².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=35\\ \\mathrm{\\mu m}=35\\cdot10^{-3}\\ \\mathrm{mm}=0{,}035\\ \\mathrm{mm}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\pi r^2=\\pi\\cdot0{,}035^2\\ \\mathrm{mm^2}\\approx3{,}85\\cdot10^{-3}\\ \\mathrm{mm^2}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Observera att \\(1\\ \\mathrm{\\mu m}=10^{-3}\\) mm, men \\(1\\ \\mathrm{\\mu m^2}=10^{-6}\\ \\mathrm{mm^2}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}85\\cdot10^{-3}\\) mm².</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Radie från diameter: \\(r=d/2\\)</p><p>Tvärsnittet behandlas som en cirkel. Arean kräver radien, alltså halva den givna diametern.</p><div class=\"facit-matte\">\\[r=70/2=35\\ \\mu\\mathrm m=0{,}035\\ \\mathrm{mm}\\]</div></li><li><p class=\"facit-rubrik\">Cirkelns area: \\(A=\\pi r^2\\)</p><div class=\"facit-matte\">\\[A=\\pi\\cdot(0{,}035\\ \\mathrm{mm})^2\\approx0{,}00385\\ \\mathrm{mm^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(3{,}85\\cdot10^{-3}\\) mm².</p></div>",
   "familj": "Area- och volymenheter",
   "familjNyckel": "enheter__area_och_volymenheter",
   "formaga": [
@@ -219415,7 +219415,7 @@ window.BANK = [
   "typ": "hur långt ljuset går på en nanosekund",
   "poang": "(0/1/0)",
   "t": "<p>Hur långt hinner ljuset färdas i vakuum på en nanosekund? (Svara i cm.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sträckan är fart gånger tid. Ljusfarten finns i formelsamlingen, och en nanosekund är \\(10^{-9}\\) s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=ct=3{,}00\\cdot10^{8}\\cdot1\\cdot10^{-9}\\ \\mathrm m=0{,}30\\ \\mathrm m=30\\ \\mathrm{cm}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det är en anledning till att elektroniska kretsar i snabba datorer måste vara små.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 30 cm.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Tiden är \\(1\\ \\mathrm{ns}=10^{-9}\\) s. Ljusfarten i vakuum är ungefär \\(3{,}00\\cdot10^8\\) m/s. Vi söker sträckan i centimeter.</p></li><li><p class=\"facit-rubrik\">Konstant fart: \\(s=ct\\)</p><div class=\"facit-matte\">\\[s=3{,}00\\cdot10^8\\cdot10^{-9}\\ \\mathrm m=0{,}30\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Meter till centimeter: \\(1\\ \\mathrm m=100\\ \\mathrm{cm}\\)</p><div class=\"facit-matte\">\\[s=0{,}30\\cdot100\\ \\mathrm{cm}=30\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 30 cm.</p></div>",
   "familj": "Prefix och tiopotenser",
   "familjNyckel": "enheter__prefix_tiopotenser_och_storleksordning",
   "formaga": [
@@ -219443,7 +219443,7 @@ window.BANK = [
   "typ": "volym och sida för en guldkub",
   "poang": "(0/1/0)",
   "t": "<p>En kub av guld väger 1,0 kg. Guld har densiteten 19,3 g/cm³. Bestäm kubens volym och kantlängd. (Svara i cm³ och cm med tre värdesiffror.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Volymen är massan delad med densiteten. Skriv massan i gram, så att enheterna passar med g/cm³.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{1000\\ \\mathrm g}{19{,}3\\ \\mathrm{g/cm^3}}\\approx51{,}8\\ \\mathrm{cm^3}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För en kub är volymen kantlängden i kubik, så kantlängden är tredje roten ur volymen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\sqrt[3]{51{,}8}\\ \\mathrm{cm}\\approx3{,}73\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen är 51,8 cm³ och kanten 3,73 cm.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Massan är 1,0 kg = 1000 g och densiteten 19,3 g/cm³. Vi söker volymen och sedan kubens kantlängd.</p></li><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\Rightarrow V=m/\\rho\\)</p><div class=\"facit-matte\">\\[V=\\frac{1000\\ \\mathrm g}{19{,}3\\ \\mathrm{g/cm^3}}\\approx51{,}8\\ \\mathrm{cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Kubens volym: \\(V=a^3\\Rightarrow a=\\sqrt[3]{V}\\)</p><p>Behåll det oavrundade volymvärdet i räknaren.</p><div class=\"facit-matte\">\\[a=\\sqrt[3]{\\frac{1000}{19{,}3}}\\ \\mathrm{cm}\\approx3{,}73\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Volymen är 51,8 cm³ och kantlängden 3,73 cm.</p></div>",
   "familj": "Area- och volymenheter",
   "familjNyckel": "enheter__area_och_volymenheter",
   "formaga": [
@@ -219491,7 +219491,7 @@ window.BANK = [
   "typ": "energi från en laddare i kJ och kWh",
   "poang": "(0/1/0)",
   "t": "<p>En mobilladdare ger effekten 18 W i 2 h 30 min. Hur mycket energi ger den? (Svara i kJ och i kWh.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energi är effekt gånger tid. Med tiden i sekunder blir energin i joule, med tiden i timmar blir den i wattimmar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=2{,}5\\ \\mathrm h=2{,}5\\cdot3600\\ \\mathrm s=9000\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=18\\cdot9000\\ \\mathrm J=162\\,000\\ \\mathrm J=162\\ \\mathrm{kJ}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=18\\ \\mathrm W\\cdot2{,}5\\ \\mathrm h=45\\ \\mathrm{Wh}=0{,}045\\ \\mathrm{kWh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 162 kJ eller 0,045 kWh.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Effekten är 18 W. Tiden 2 h 30 min är 2,5 h eller 9000 s. Vi söker samma energi i kJ och kWh.</p></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=18\\ \\mathrm W\\cdot9000\\ \\mathrm s\\\\&=162\\,000\\ \\mathrm J\\\\&=162\\ \\mathrm{kJ}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kilowattimmar från \\(E=Pt\\)</p><p>18 W = 0,018 kW. Med timmar som tidsenhet blir resultatet kWh.</p><div class=\"facit-matte\">\\[E=0{,}018\\ \\mathrm{kW}\\cdot2{,}5\\ \\mathrm h=0{,}045\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 162 kJ, vilket är samma energi som 0,045 kWh.</p></div>",
   "familj": "Enhetsomvandling",
   "familjNyckel": "enheter__enhetsomvandling",
   "formaga": [
@@ -219539,7 +219539,7 @@ window.BANK = [
   "typ": "sandkorn i en liter",
   "poang": "(0/1/0)",
   "t": "<p>Ett sandkorn är ungefär 0,5 mm stort. Räkna som om varje korn är en kub med sidan 0,5 mm och kornen fyller hela volymen. Ungefär hur många sandkorn ryms i 1 liter? (Svara i grundpotensform.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela litern med volymen av ett korn. Skriv båda volymerna i samma enhet, till exempel mm³.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1\\ \\mathrm l=1\\ \\mathrm{dm^3}=(100\\ \\mathrm{mm})^3=10^{6}\\ \\mathrm{mm^3}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V_{\\text{korn}}=0{,}5^3\\ \\mathrm{mm^3}=0{,}125\\ \\mathrm{mm^3}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac{10^{6}}{0{,}125}=8\\cdot10^{6}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">I verkligheten är det luft mellan kornen, så det blir något färre, men storleksordningen är några miljoner.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(8\\cdot10^{6}\\) sandkorn.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Liter till kubikmillimeter: \\(1\\ \\mathrm l=(100\\ \\mathrm{mm})^3\\)</p><div class=\"facit-matte\">\\[V_{\\text{tot}}=10^6\\ \\mathrm{mm^3}\\]</div></li><li><p class=\"facit-rubrik\">Kornets volym enligt modellen: \\(V_{\\text{korn}}=a^3\\)</p><div class=\"facit-matte\">\\[V_{\\text{korn}}=(0{,}5\\ \\mathrm{mm})^3=0{,}125\\ \\mathrm{mm^3}\\]</div></li><li><p class=\"facit-rubrik\">Antal korn: \\(N=V_{\\text{tot}}/V_{\\text{korn}}\\)</p><div class=\"facit-matte\">\\[N=\\frac{10^6}{0{,}125}=8\\cdot10^6\\]</div><p>Modellen antar att kornen fyller hela volymen utan luftmellanrum. Verkliga sandkorn packas inte helt tätt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(8\\cdot10^6\\) sandkorn enligt modellen.</p></div>",
   "familj": "Rimlighet och enhetskontroll",
   "familjNyckel": "enheter__dimensionsanalys_och_enhetskontroll",
   "formaga": [
@@ -219567,7 +219567,7 @@ window.BANK = [
   "typ": "löparens fart ur tempot",
   "poang": "(0/1/0)",
   "t": "<p>En löpare håller tempot 4 min 30 s per kilometer. Vilken fart har löparen?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tempot anger tid per sträcka. Farten är tvärtom, sträcka per tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=4\\cdot60+30=270\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{1000\\ \\mathrm m}{270\\ \\mathrm s}\\approx3{,}70\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kontroll: \\(3{,}70\\cdot3{,}6\\approx13{,}3\\) km/h, en rimlig löpfart.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,70 m/s.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Löparen färdas 1 km = 1000 m på 4 min 30 s = 270 s. Vi söker farten.</p></li><li><p class=\"facit-rubrik\">Fart: \\(v=s/t\\)</p><p>Tempo anger tid per sträcka; fart anger i stället sträcka per tid.</p><div class=\"facit-matte\">\\[v=\\frac{1000\\ \\mathrm m}{270\\ \\mathrm s}\\approx3{,}70\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 3,70 m/s.</p></div>",
   "familj": "Enhetsomvandling",
   "familjNyckel": "enheter__enhetsomvandling",
   "formaga": [

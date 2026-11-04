@@ -1,0 +1,186 @@
+[
+  {
+    "id": "2.09",
+    "fields": [
+      "omr",
+      "s",
+      "familj",
+      "miniräknare",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.73",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "2.102",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "2.121",
+    "fields": [
+      "omr",
+      "t",
+      "s",
+      "familj",
+      "miniräknare",
+      "ledtrad",
+      "spelIntro",
+      "spelDelar",
+      "traningsniva"
+    ]
+  },
+  {
+    "id": "2.138",
+    "fields": [
+      "omr",
+      "s",
+      "familj",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.152",
+    "fields": [
+      "omr",
+      "t",
+      "s",
+      "familj",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.288",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "2.291",
+    "fields": [
+      "s",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.502",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "3.09",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "3.49",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "3.59",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "3.133",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "3.143",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "3.168",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "3.179",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "3.204",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "5.44",
+    "fields": [
+      "s",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.788",
+    "fields": [
+      "s",
+      "miniräknare"
+    ]
+  },
+  {
+    "id": "2.790",
+    "fields": [
+      "s",
+      "miniräknare",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.791",
+    "fields": [
+      "s",
+      "miniräknare"
+    ]
+  },
+  {
+    "id": "6.13",
+    "fields": [
+      "miniräknare",
+      "s"
+    ]
+  },
+  {
+    "id": "6.19",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "3.2026",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "1.1210",
+    "fields": [
+      "s",
+      "miniräknare"
+    ]
+  },
+  {
+    "id": "1.1212",
+    "fields": [
+      "s",
+      "miniräknare"
+    ]
+  }
+]

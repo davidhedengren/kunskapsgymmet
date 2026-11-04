@@ -81297,7 +81297,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Strömmen genom ett batteri är 2,6 A och den inre resistansen är 0,35 Ω.</p><p>Hur stor effekt blir värme inne i batteriet?</p>",
-    "s": "<div class=\"facit-v2\"><p>Det är effekten i den inre resistansen som efterfrågas.</p><p>\\[P_r=I^2r\\]</p><p>\\[P_r=2{,}6^2\\cdot0{,}35=2{,}366\\ \\mathrm W\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}366\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre värmeeffekt: \\(P_r=I^2r\\)</p><p>Använd den inre resistansen eftersom det är värmen inne i batteriet som efterfrågas.</p><div class=\"facit-matte\">\\[P_r=2{,}6^2\\cdot0{,}35=2{,}366\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}366\\ \\mathrm W\\).</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -81420,7 +81420,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett batteri har ems 12 V och polspänningen 10 V när det levererar ström.</p><p>Hur många procent av batteriets elektriska effekt når den yttre kretsen?</p>",
-    "s": "<div class=\"facit-v2\"><p>Den yttre effekten är UI och batteriets totala effekt är ems gånger I. Samma ström finns i båda, så strömmen tar ut sig.</p><p>\\[\\eta=\\frac{UI}{\\mathcal EI}=\\frac{U}{\\mathcal E}\\]</p><p>\\[\\eta=10/12\\approx0{,}833=83{,}3\\ \\%\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(83{,}3\\) %.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=P_{\\rm yttre}/P_{\\rm tot}\\)</p><p>Samma ström går genom batteriet och den yttre kretsen. Strömmen förkortas bort i kvoten.</p><div class=\"facit-matte\">\\[\\eta=\\frac{UI}{\\mathcal E I}=\\frac U{\\mathcal E}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in spänningarna och skriv i procent</p><div class=\"facit-matte\">\\[\\eta=\\frac{10}{12}\\approx0{,}833=83{,}3\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(83{,}3\\,\\%\\) når den yttre kretsen.</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -85482,7 +85482,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(4/0/0)",
     "t": "<p>Ett batteri har ems 12 V, inre resistansen 0,40 Ω och strömmen 3,0 A.</p><p>a) Vilken total elektrisk effekt ger batteriet?</p><p>b) Vilken effekt blir värme inne i batteriet?</p><p>c) Vilken effekt går till den yttre kretsen?</p><p>d) Hur många procent av den totala effekten går till den yttre kretsen?</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[P_{\\text{tot}}=\\mathcal E I=12\\cdot3{,}0=36\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\) W.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P_r=I^2r=3{,}0^2\\cdot0{,}40=3{,}6\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\) W.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[P_{\\text{yttre}}=36-3{,}6=32{,}4\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(32{,}4\\) W.</p><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[\\eta=32{,}4/36\\cdot100=90\\ \\%\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(90\\) %.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Total effekt: \\(P_{\\rm tot}=\\mathcal E I\\)</p><p>Ems anger omvandlad energi per laddning. Multiplicera med strömmen för att få batteriets totala elektriska effekt.</p><div class=\"facit-matte\">\\[P_{\\rm tot}=12\\cdot3{,}0=36\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre värmeeffekt: \\(P_r=I^2r\\)</p><div class=\"facit-matte\">\\[P_r=3{,}0^2\\cdot0{,}40=3{,}6\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effektbalans: \\(P_{\\rm yttre}=P_{\\rm tot}-P_r\\)</p><p>Den effekt som blir värme inne i batteriet når inte den yttre kretsen.</p><div class=\"facit-matte\">\\[P_{\\rm yttre}=36-3{,}6=32{,}4\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(32{,}4\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=P_{\\rm yttre}/P_{\\rm tot}\\)</p><p>Dividera effekten som når den yttre kretsen med hela batteriets effekt.</p><div class=\"facit-matte\">\\[\\eta=\\frac{32{,}4}{36}=0{,}90=90\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(90\\,\\%\\).</p></div></div></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -85527,14 +85527,14 @@ window.BANK = [
       "d"
     ],
     "familjNyckelTidigare": "ems__ems_och_inre_resistans",
-    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+    "ledtrad": "<p>Skilj den totala effekten från värmen inne i batteriet och effekten som når den yttre kretsen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ett batteri har ems 12 V, inre resistansen 0,40 Ω och strömmen 3,0 A.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Ett batteri har ems 12 V och strömmen 3,0 A. Vilken total elektrisk effekt ger batteriet?",
-        "s": "<div class=\"facit-v2\"><p>\\[P_{\\text{tot}}=\\mathcal E I=12\\cdot3{,}0=36\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Total effekt: \\(P_{\\rm tot}=\\mathcal E I\\)</p><p>Ems anger omvandlad energi per laddning. Multiplicera med strömmen för att få batteriets totala elektriska effekt.</p><div class=\"facit-matte\">\\[P_{\\rm tot}=12\\cdot3{,}0=36\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 36,
         "självrättning": true,
@@ -85545,14 +85545,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "ledtrad": "<p>Vilket samband kopplar ihop ems, ström och total effekt?</p>",
         "t": "<p>Ett batteri har ems 12 V och strömmen 3,0 A. Vilken total elektrisk effekt ger batteriet?</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
         "fraga": "Ett batteri har inre resistansen 0,40 Ω och strömmen 3,0 A. Vilken effekt blir värme inne i batteriet?",
-        "s": "<div class=\"facit-v2\"><p>\\[P_r=I^2r=3{,}0^2\\cdot0{,}40=3{,}6\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre värmeeffekt: \\(P_r=I^2r\\)</p><div class=\"facit-matte\">\\[P_r=3{,}0^2\\cdot0{,}40=3{,}6\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}6\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 3.6,
         "självrättning": true,
@@ -85563,14 +85563,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "ledtrad": "<p>Vilken resistans orsakar värmen inne i batteriet?</p>",
         "t": "<p>Ett batteri har inre resistansen 0,40 Ω och strömmen 3,0 A. Vilken effekt blir värme inne i batteriet?</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
         "fraga": "Ett batteri ger totalt 36 W. Av detta blir 3,6 W värme inne i batteriet. Vilken effekt går till den yttre kretsen?",
-        "s": "<div class=\"facit-v2\"><p>\\[P_{\\text{yttre}}=36-3{,}6=32{,}4\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effektbalans: \\(P_{\\rm yttre}=P_{\\rm tot}-P_r\\)</p><p>Den effekt som blir värme inne i batteriet når inte den yttre kretsen.</p><div class=\"facit-matte\">\\[P_{\\rm yttre}=36-3{,}6=32{,}4\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(32{,}4\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 32.4,
         "självrättning": true,
@@ -85581,14 +85581,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Den totala effekten delas mellan värme inne i batteriet och den yttre kretsen.</p>",
+        "ledtrad": "<p>Hur delas batteriets totala effekt upp?</p>",
         "t": "<p>Ett batteri ger totalt 36 W. Av detta blir 3,6 W värme inne i batteriet. Vilken effekt går till den yttre kretsen?</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "d",
         "fraga": "Av ett batteris totala effekt 36 W går 32,4 W till den yttre kretsen. Hur många procent är det?",
-        "s": "<div class=\"facit-v2\"><p>\\[\\eta=32{,}4/36\\cdot100=90\\ \\%\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=P_{\\rm yttre}/P_{\\rm tot}\\)</p><p>Dividera effekten som når den yttre kretsen med hela batteriets effekt.</p><div class=\"facit-matte\">\\[\\eta=\\frac{32{,}4}{36}=0{,}90=90\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(90\\,\\%\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 90,
         "självrättning": true,
@@ -85599,7 +85599,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Dividera den yttre effekten med den totala.</p>",
+        "ledtrad": "<p>Jämför den yttre effekten med hela den tillförda effekten.</p>",
         "t": "<p>Av ett batteris totala effekt 36 W går 32,4 W till den yttre kretsen. Hur många procent är det?</p>",
         "arbetsinsats": 1
       }
@@ -85813,7 +85813,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Strömmen genom ett batteri är 1 A och den inre resistansen är 1,1 Ω.</p><p>Hur stor effekt blir värme inne i batteriet?</p>",
-    "s": "<div class=\"facit-v2\"><p>Det är effekten i den inre resistansen som efterfrågas.</p><p>\\[P_r=I^2r\\]</p><p>\\[P_r=1^2\\cdot1{,}1=1{,}1\\ \\mathrm W\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre värmeeffekt: \\(P_r=I^2r\\)</p><div class=\"facit-matte\">\\[P_r=1^2\\cdot1{,}1=1{,}1\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}1\\ \\mathrm W\\).</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -88101,7 +88101,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Strömmen genom ett batteri är 1,2 A och den inre resistansen är 0,9 Ω.</p><p>Hur stor effekt blir värme inne i batteriet?</p>",
-    "s": "<div class=\"facit-v2\"><p>Det är effekten i den inre resistansen som efterfrågas.</p><p>\\[P_r=I^2r\\]</p><p>\\[P_r=1{,}2^2\\cdot0{,}9=1{,}296\\ \\mathrm W\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}296\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre värmeeffekt: \\(P_r=I^2r\\)</p><div class=\"facit-matte\">\\[P_r=1{,}2^2\\cdot0{,}9=1{,}296\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}296\\ \\mathrm W\\).</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -91732,7 +91732,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Strömmen genom ett batteri är 1,4 A och den inre resistansen är 1,1 Ω.</p><p>Hur stor effekt blir värme inne i batteriet?</p>",
-    "s": "<div class=\"facit-v2\"><p>Det är effekten i den inre resistansen som efterfrågas.</p><p>\\[P_r=I^2r\\]</p><p>\\[P_r=1{,}4^2\\cdot1{,}1=2{,}156\\ \\mathrm W\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}156\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre värmeeffekt: \\(P_r=I^2r\\)</p><div class=\"facit-matte\">\\[P_r=1{,}4^2\\cdot1{,}1=2{,}156\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}156\\ \\mathrm W\\).</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -91951,7 +91951,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett batteri har ems 9 V och inre resistansen 0,9 Ω. Det levererar strömmen 1,1 A.</p><p>Bestäm batteriets polspänning.</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"76\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 9 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,9 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><circle cx=\"360\" cy=\"95\" r=\"3.5\" fill=\"#24262b\"></circle><circle cx=\"360\" cy=\"205\" r=\"3.5\" fill=\"#24262b\"></circle><path d=\"M360.0 95.0 L430.0 95.0 L430.0 137.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><path d=\"M430.0 163.0 L430.0 205.0 L360.0 205.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"430\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">V</text><text x=\"336\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2\"><p>När batteriet levererar ström minskar polspänningen med det inre spänningsfallet.</p><p>\\[U=\\mathcal E-rI\\]</p><p>\\[U=9-0{,}9\\cdot1{,}1=8{,}01\\ \\mathrm V\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}01\\) V.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre spänningsfall: \\(U_r=rI\\)</p><div class=\"facit-matte\">\\[U_r=0{,}9\\cdot1{,}1=0{,}99\\ \\mathrm V\\]</div></li><li><p class=\"facit-rubrik\">Polspänning: \\(U=\\mathcal E-rI\\)</p><p>Batteriet levererar ström, så det inre spänningsfallet dras från ems.</p><div class=\"facit-matte\">\\[U=9-0{,}99=8{,}01\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}01\\ \\mathrm V\\).</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -92129,7 +92129,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett batteri har ems 9,0 V och inre resistansen 1,1 Ω. Strömmen är 1,3 A.</p><p>Hur stor är den yttre resistansen?</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"76\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 9 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 1,1 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2\"><p>Hela kretsens resistans fås med Ohms lag.</p><p>\\[R+r=9{,}0/1{,}3\\approx6{,}923\\ \\Omega\\]</p><p>Dra bort den inre resistansen.</p><p>\\[R=6{,}923-1{,}1\\approx5{,}82\\ \\Omega\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}82\\) Ω.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ohms lag för hela kretsen: \\(R+r=\\mathcal E/I\\)</p><div class=\"facit-matte\">\\[R+r=\\frac{9{,}0}{1{,}3}\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Dra bort den inre resistansen</p><p>Behåll hela kvoten i beräkningen och avrunda först slutsvaret.</p><div class=\"facit-matte\">\\[R=\\frac{9{,}0}{1{,}3}-1{,}1\\approx5{,}82\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}82\\ \\Omega\\).</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -92324,7 +92324,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett batteri har ems 9,0 V och inre resistansen 0,90 Ω. Strömmen är 1,0 A.</p><p>Vilken effekt når den yttre kretsen?</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"76\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε = 9 V</text><text x=\"67\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,9 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text><circle cx=\"250\" cy=\"50\" r=\"13\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></circle><text x=\"250\" y=\"56\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">A</text></svg></div>",
-    "s": "<div class=\"facit-v2\"><p>Polspänningen är ems minus det inre spänningsfallet.</p><p>\\[U=9{,}0-0{,}90\\cdot1{,}0=8{,}1\\ \\mathrm V\\]</p><p>Den yttre effekten blir</p><p>\\[P=UI=8{,}1\\cdot1{,}0=8{,}1\\ \\mathrm W\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}1\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Polspänning: \\(U=\\mathcal E-rI\\)</p><div class=\"facit-matte\">\\[U=9{,}0-0{,}90\\cdot1{,}0=8{,}1\\ \\mathrm V\\]</div></li><li><p class=\"facit-rubrik\">Yttre effekt: \\(P_{\\rm yttre}=UI\\)</p><p>Det är polspänningen som ligger över den yttre kretsen.</p><div class=\"facit-matte\">\\[P_{\\rm yttre}=8{,}1\\cdot1{,}0=8{,}1\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}1\\ \\mathrm W\\).</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -92652,7 +92652,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett batteri med inre resistansen 0,55 Ω driver en resistor på 4,0 Ω.</p><p>Hur många procent av batteriets elektriska effekt utvecklas i den yttre resistorn?</p>",
-    "s": "<div class=\"facit-v2\"><p>Samma ström går genom båda resistanserna. Deras effekter är I²R och I²r. Strömfaktorn tar därför ut sig när andelen bildas.</p><p>\\[\\eta=\\frac{I^2R}{I^2(R+r)}=\\frac{R}{R+r}\\]</p><p>\\[100\\cdot\\frac{4}{4+0{,}55}\\approx87{,}91\\ \\%\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(87{,}91\\) %.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=P_{\\rm yttre}/P_{\\rm tot}\\)</p><p>Samma ström går genom inre och yttre resistans. Därför förkortas I² bort.</p><div class=\"facit-matte\">\\[\\eta=\\frac{I^2R}{I^2(R+r)}=\\frac R{R+r}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in resistanserna</p><div class=\"facit-matte\">\\[\\eta=\\frac{4{,}0}{4{,}0+0{,}55}\\approx0{,}8791=87{,}91\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(87{,}91\\,\\%\\) utvecklas i den yttre resistorn.</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -92949,7 +92949,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett batteri med inre resistansen 0,50 Ω driver en resistor på 2,0 Ω.</p><p>Hur många procent av batteriets elektriska effekt blir värme inne i batteriet?</p>",
-    "s": "<div class=\"facit-v2\"><p>Samma ström går genom inre och yttre resistans. Effektandelen i batteriet är därför den inre resistansen dividerad med summan.</p><p>\\[\\frac{P_r}{P_{\\mathrm{tot}}}=\\frac{r}{R+r}=\\frac{0{,}50}{2{,}0+0{,}50}=0{,}20\\]</p><p>20 % av effekten blir värme inne i batteriet.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) %.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre effektandel: \\(P_r/P_{\\rm tot}\\)</p><p>Täljaren ska innehålla den inre resistansen, eftersom frågan gäller värmen inne i batteriet.</p><div class=\"facit-matte\">\\[\\frac{P_r}{P_{\\rm tot}}=\\frac{I^2r}{I^2(R+r)}=\\frac r{R+r}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in resistanserna och skriv i procent</p><div class=\"facit-matte\">\\[\\frac{0{,}50}{2{,}0+0{,}50}=0{,}20=20\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\,\\%\\) blir värme inne i batteriet.</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -92961,7 +92961,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Vilken andel av summan I²R + I²r hör till den yttre resistorn?</p>",
+    "ledtrad": "<p>Vilken del av den totala effekten utvecklas i den inre resistansen?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
     "traningsniva": 2,
@@ -101275,7 +101275,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett batteri med inre resistansen 0,45 Ω driver en resistor på 5,0 Ω.</p><p>Hur många procent av batteriets elektriska effekt utvecklas i den yttre resistorn?</p>",
-    "s": "<div class=\"facit-v2\"><p>Samma ström går genom båda resistanserna. Deras effekter är I²R och I²r. Strömfaktorn tar därför ut sig när andelen bildas.</p><p>\\[\\eta=\\frac{I^2R}{I^2(R+r)}=\\frac{R}{R+r}\\]</p><p>\\[100\\cdot\\frac{5}{5+0{,}45}\\approx91{,}74\\ \\%\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(91{,}74\\) %.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=P_{\\rm yttre}/P_{\\rm tot}\\)</p><p>Samma ström går genom båda resistanserna. I² kan förkortas bort.</p><div class=\"facit-matte\">\\[\\eta=\\frac{I^2R}{I^2(R+r)}=\\frac R{R+r}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in resistanserna</p><div class=\"facit-matte\">\\[\\eta=\\frac{5{,}0}{5{,}0+0{,}45}\\approx0{,}9174=91{,}74\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(91{,}74\\,\\%\\) utvecklas i den yttre resistorn.</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "procedur"
@@ -101634,7 +101634,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>Ett batteri har inre resistansen 0,60 Ω och driver en yttre resistor.</p><p>Vilken yttre resistans behövs för att värmeeffekten inne i batteriet ska vara 20 % av effekten i den yttre resistorn?</p><div class=\"fig smal\"><svg width=\"520\" height=\"335.0197628458498\" viewBox=\"-13 -13 506 326\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopplingsschema: batteri med inre resistans kopplat till en yttre resistor\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"></rect><path d=\"M140.0 50.0 L360.0 50.0 L360.0 250.0 L140.0 250.0 L140.0 50.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2\"></path><rect x=\"116\" y=\"80\" width=\"48\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"></rect><text x=\"140\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"13\">batteri</text><rect x=\"124\" y=\"104\" width=\"32\" height=\"12\" fill=\"#fff\" stroke=\"none\"></rect><line x1=\"124\" y1=\"105\" x2=\"156\" y2=\"105\" stroke=\"#24262b\" stroke-width=\"2.5\"></line><line x1=\"132\" y1=\"115\" x2=\"148\" y2=\"115\" stroke=\"#24262b\" stroke-width=\"5\"></line><rect x=\"132.0\" y=\"170.0\" width=\"16\" height=\"40\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"102\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">ε</text><text x=\"63\" y=\"196\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">r = 0,60 Ω</text><rect x=\"352.0\" y=\"128.0\" width=\"16\" height=\"44\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"2\"></rect><text x=\"386\" y=\"156\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\">R</text></svg></div>",
-    "s": "<div class=\"facit-v2\"><p>Samma ström går genom båda resistanserna. I effektkvoten kan därför I² förkortas bort.</p><p>\\[\\frac{P_r}{P_R}=\\frac{I^2r}{I^2R}=\\frac rR=0{,}20\\]</p><p>\\[R=r/0{,}20=0{,}60/0{,}20=3{,}0\\ \\Omega\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\) Ω.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför inre och yttre effekt: \\(P_r/P_R=r/R\\)</p><p>20 % jämförs här med den yttre effekten, inte med den totala. Samma ström går genom båda resistanserna.</p><div class=\"facit-matte\">\\[\\frac{I^2r}{I^2R}=\\frac rR=0{,}20\\]</div></li><li><p class=\"facit-rubrik\">Lös ut resistansen: \\(R=r/0{,}20\\)</p><div class=\"facit-matte\">\\[R=\\frac{0{,}60}{0{,}20}=3{,}0\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\ \\Omega\\).</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "problemlösning",
@@ -101666,7 +101666,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>Ett batteri har inre resistansen 0,40 Ω och driver en yttre resistor.</p><p>Vilken yttre resistans behövs för att 85 % av batteriets elektriska effekt ska utvecklas i den yttre resistorn?</p>",
-    "s": "<div class=\"facit-v2\"><p>Samma ström går genom båda resistanserna. Den yttre effektandelen blir därför \\(R/(R+r)\\).</p><p>\\[\\frac{R}{R+0{,}40}=0{,}85\\]</p><p>Multiplicera med nämnaren och samla R-termerna.</p><p>\\[R=0{,}85R+0{,}34\\]</p><p>\\[0{,}15R=0{,}34\\]</p><p>\\[R=0{,}34/0{,}15\\approx2{,}27\\ \\Omega\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}27\\) Ω.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=P_{\\rm yttre}/P_{\\rm tot}\\)</p><p>85 % av hela effekten ska nå den yttre resistorn.</p><div class=\"facit-matte\">\\[\\eta=\\frac{I^2R}{I^2(R+r)}=\\frac R{R+r}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in villkoret och samla R-termerna</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac R{R+0{,}40}&=0{,}85\\\\R&=0{,}85R+0{,}34\\\\0{,}15R&=0{,}34\\\\R&\\approx2{,}27\\ \\Omega\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}27\\ \\Omega\\).</p></div>",
     "familj": "Effekt och verkningsgrad med inre resistans",
     "formaga": [
       "problemlösning",
@@ -222511,5 +222511,378 @@ window.BANK = [
     "rättSvar": 70,
     "tolerans": 0,
     "svarEnhet": "Ω"
+  },
+  {
+    "id": "8.727",
+    "kap": 8,
+    "omr": "kopplingar",
+    "familj": "Effekt och verkningsgrad med inre resistans",
+    "familjNyckel": "ems__effekt_och_verkningsgrad",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "t": "<p>Ett batteri omvandlar 500 J kemisk energi till elektrisk energi. Av detta blir 100 J värme inne i batteriet. Hur mycket energi når den yttre kretsen? (Svara i J.)</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Energiflöde: 500 J omvandlas, 100 J blir värme i batteriet\" style=\"width:100%;max-width:560px\"><rect width=\"560\" height=\"340\" rx=\"12\" fill=\"white\"/><text x=\"100\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Omvandlad energi</text><text x=\"100\" y=\"94\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">500 J</text><line x1=\"100\" y1=\"110\" x2=\"100\" y2=\"160\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"100\" y1=\"160\" x2=\"300\" y2=\"160\" stroke=\"#17334d\" stroke-width=\"2.5\"/><path d=\"M288 153 L300 160 L288 167\" fill=\"none\" stroke=\"#17334d\" stroke-width=\"3\"/><line x1=\"220\" y1=\"160\" x2=\"220\" y2=\"260\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"220\" y1=\"260\" x2=\"300\" y2=\"260\" stroke=\"#17334d\" stroke-width=\"2.5\"/><path d=\"M288 253 L300 260 L288 267\" fill=\"none\" stroke=\"#17334d\" stroke-width=\"3\"/><text x=\"410\" y=\"151\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Till yttre kretsen</text><text x=\"410\" y=\"182\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">?</text><text x=\"410\" y=\"250\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Värme i batteriet</text><text x=\"410\" y=\"281\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">100 J</text></svg></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energibalans: \\(E_{\\rm yttre}=E_{\\rm tot}-Q\\)</p><p>Den inre värmen är den del som inte når den yttre kretsen.</p><div class=\"facit-matte\">\\[E_{\\rm yttre}=500-100=400\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\ \\mathrm J\\).</p></div>",
+    "ledtrad": "<p>Följ energins två vägar i figuren.</p>",
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 400,
+    "tolerans": 2.0,
+    "svarEnhet": "J",
+    "självrättning": true,
+    "svarVardesiffror": 2
+  },
+  {
+    "id": "8.728",
+    "kap": 8,
+    "omr": "kopplingar",
+    "familj": "Effekt och verkningsgrad med inre resistans",
+    "familjNyckel": "ems__effekt_och_verkningsgrad",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "t": "<p>Ett batteri med ems 6,0 V levererar strömmen 0,40 A. En liten radio tar emot 2,0 W från batteriet. Hur stor effekt blir värme inne i batteriet? (Svara i W.)</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Batterimodell med inre resistans och yttre belastning\" style=\"width:100%;max-width:560px\"><rect width=\"560\" height=\"340\" rx=\"12\" fill=\"white\"/><line x1=\"150\" y1=\"50\" x2=\"410\" y2=\"50\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"410\" y1=\"50\" x2=\"410\" y2=\"270\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"410\" y1=\"270\" x2=\"150\" y2=\"270\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"270\" x2=\"150\" y2=\"50\" stroke=\"#17334d\" stroke-width=\"2.5\"/><rect x=\"130\" y=\"95\" width=\"40\" height=\"24\" fill=\"white\"/><line x1=\"128\" y1=\"100\" x2=\"172\" y2=\"100\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"138\" y1=\"116\" x2=\"162\" y2=\"116\" stroke=\"#17334d\" stroke-width=\"2.5\"/><rect x=\"115\" y=\"77\" width=\"70\" height=\"168\" rx=\"9\" fill=\"none\" stroke=\"#7593a8\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><rect x=\"140\" y=\"179\" width=\"20\" height=\"48\" fill=\"white\" stroke=\"#17334d\" stroke-width=\"2.5\"/><text x=\"174\" y=\"209\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\"></text><text x=\"105\" y=\"109\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">ε = 6,0 V</text><text x=\"105\" y=\"209\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">r = ?</text><text x=\"150\" y=\"301\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Batteri</text><rect x=\"400\" y=\"136\" width=\"20\" height=\"48\" fill=\"white\" stroke=\"#17334d\" stroke-width=\"2.5\"/><text x=\"434\" y=\"166\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Radio</text><line x1=\"220\" y1=\"50\" x2=\"290\" y2=\"50\" stroke=\"#b64f22\" stroke-width=\"2.5\"/><path d=\"M280 44 L290 50 L280 56\" fill=\"none\" stroke=\"#b64f22\" stroke-width=\"2.5\"/><text x=\"255\" y=\"32\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">0,40 A</text></svg></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Total effekt: \\(P_{\\rm tot}=\\mathcal E I\\)</p><div class=\"facit-matte\">\\[P_{\\rm tot}=6{,}0\\cdot0{,}40=2{,}4\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Effektbalans: \\(P_r=P_{\\rm tot}-P_{\\rm yttre}\\)</p><div class=\"facit-matte\">\\[P_r=2{,}4-2{,}0=0{,}40\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\ \\mathrm W\\).</p></div>",
+    "ledtrad": "<p>Jämför batteriets totala elektriska effekt med effekten som radion tar emot.</p>",
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 0.4,
+    "tolerans": 0.002,
+    "svarEnhet": "W",
+    "självrättning": true,
+    "svarVardesiffror": 2
+  },
+  {
+    "id": "8.729",
+    "kap": 8,
+    "omr": "kopplingar",
+    "familj": "Effekt och verkningsgrad med inre resistans",
+    "familjNyckel": "ems__effekt_och_verkningsgrad",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "t": "<p>En radiosändare drar 2,0 A i 10 s och därefter 0,20 A i 50 s, som grafen visar. Batteriets inre resistans är 0,50 Ω. Hur mycket värme bildas inne i batteriet under hela minuten? (Svara i J.)</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 350\" role=\"img\" aria-label=\"Strömmen är 2,0 A i 10 s och därefter 0,20 A i 50 s\" style=\"width:100%;max-width:560px\"><rect width=\"560\" height=\"350\" rx=\"12\" fill=\"white\"/><line x1=\"65.0\" y1=\"280\" x2=\"65.0\" y2=\"55\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"65.0\" y=\"306\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">0</text><line x1=\"140.0\" y1=\"280\" x2=\"140.0\" y2=\"55\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"140.0\" y=\"306\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">10</text><line x1=\"215.0\" y1=\"280\" x2=\"215.0\" y2=\"55\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"215.0\" y=\"306\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">20</text><line x1=\"290.0\" y1=\"280\" x2=\"290.0\" y2=\"55\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"290.0\" y=\"306\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">30</text><line x1=\"365.0\" y1=\"280\" x2=\"365.0\" y2=\"55\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"365.0\" y=\"306\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">40</text><line x1=\"440.0\" y1=\"280\" x2=\"440.0\" y2=\"55\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"440.0\" y=\"306\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">50</text><line x1=\"515.0\" y1=\"280\" x2=\"515.0\" y2=\"55\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"515.0\" y=\"306\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">60</text><line x1=\"65\" y1=\"261.0\" x2=\"515\" y2=\"261.0\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"54\" y=\"267.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">0,2</text><line x1=\"65\" y1=\"185\" x2=\"515\" y2=\"185\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"54\" y=\"191\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">1</text><line x1=\"65\" y1=\"90\" x2=\"515\" y2=\"90\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"54\" y=\"96\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">2</text><line x1=\"65\" y1=\"280\" x2=\"525\" y2=\"280\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"65\" y1=\"280\" x2=\"65\" y2=\"40\" stroke=\"#17334d\" stroke-width=\"2.5\"/><text x=\"65\" y=\"25\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">I (A)</text><text x=\"520\" y=\"331\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">t (s)</text><path d=\"M65.0 90 H140.0 V261.0 H515.0\" fill=\"none\" stroke=\"#126b9a\" stroke-width=\"4\"/></svg></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre värmeeffekt: \\(P_r=I^2r\\)</p><p>Beräkna värmeeffekten separat under sändning och vila. Medelströmmen kan inte kvadreras för att få rätt medeleffekt.</p><div class=\"facit-matte\">\\[\\begin{aligned}P_1&=2{,}0^2\\cdot0{,}50=2{,}0\\ \\mathrm W\\\\P_2&=0{,}20^2\\cdot0{,}50=0{,}020\\ \\mathrm W\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Värmeenergi: \\(Q=P_1t_1+P_2t_2\\)</p><div class=\"facit-matte\">\\[Q=2{,}0\\cdot10+0{,}020\\cdot50=21\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\ \\mathrm J\\).</p></div>",
+    "ledtrad": "<p>Beräkna värmen för varje tidsintervall. Hur påverkas effekten när strömmen kvadreras?</p>",
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": 0.105,
+    "svarEnhet": "J",
+    "självrättning": true,
+    "svarVardesiffror": 2
+  },
+  {
+    "id": "8.730",
+    "kap": 8,
+    "omr": "kopplingar",
+    "familj": "Effekt och verkningsgrad med inre resistans",
+    "familjNyckel": "ems__effekt_och_verkningsgrad",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "t": "<p>Två batterier A och B provas med samma resistor på 4,0 Ω, ett batteri i taget. Deras ems och inre resistanser visas i figuren. Hur många gånger så stor effekt får resistorn med batteri A som med batteri B?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Två batterier med samma ems och olika inre resistans\" style=\"width:100%;max-width:560px\"><rect width=\"560\" height=\"310\" rx=\"12\" fill=\"white\"/><text x=\"280\" y=\"32\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Samma resistor provas med ett batteri i taget</text><rect x=\"45\" y=\"65\" width=\"200\" height=\"155\" rx=\"14\" fill=\"#eef6fc\" stroke=\"#17334d\" stroke-width=\"2\"/><text x=\"145\" y=\"98\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Batteri A</text><text x=\"145\" y=\"143\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">ε = 12 V</text><text x=\"145\" y=\"183\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">r = 0,20 Ω</text><rect x=\"305\" y=\"65\" width=\"200\" height=\"155\" rx=\"14\" fill=\"#eef6fc\" stroke=\"#17334d\" stroke-width=\"2\"/><text x=\"405\" y=\"98\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Batteri B</text><text x=\"405\" y=\"143\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">ε = 12 V</text><text x=\"405\" y=\"183\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">r = 1,0 Ω</text><text x=\"280\" y=\"270\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Yttre resistor: 4,0 Ω</text></svg></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ström: \\(I=\\mathcal E/(R+r)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}I_A&=\\frac{12}{4{,}0+0{,}20}=\\frac{20}{7}\\ \\mathrm A\\\\I_B&=\\frac{12}{4{,}0+1{,}0}=2{,}4\\ \\mathrm A\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Effektkvot: \\(P_A/P_B=(I_A/I_B)^2\\)</p><p>Samma yttre resistans finns i båda försöken och förkortas bort i kvoten.</p><div class=\"facit-matte\">\\[\\frac{P_A}{P_B}=\\left(\\frac{20/7}{2{,}4}\\right)^2\\approx1{,}42\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1{,}42\\) gånger så stor.</p></div>",
+    "ledtrad": "<p>Samma ems betyder inte samma ström. Jämför först hela kretsens resistans.</p>",
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1.417233560090703,
+    "tolerans": 0.007086167800453514,
+    "svarEnhet": null,
+    "självrättning": true,
+    "svarVardesiffror": 2
+  },
+  {
+    "id": "8.731",
+    "kap": 8,
+    "omr": "kopplingar",
+    "familj": "Effekt och verkningsgrad med inre resistans",
+    "familjNyckel": "ems__effekt_och_verkningsgrad",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "t": "<p>Ett batteri med ems 12 V och inre resistans 1,0 Ω driver två parallella resistorer på 6,0 Ω och 3,0 Ω. Hur många procent av batteriets totala elektriska effekt utvecklas i resistorn på 3,0 Ω? (Svara i procent.)</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Batterimodell med inre resistans och yttre belastning\" style=\"width:100%;max-width:560px\"><rect width=\"560\" height=\"340\" rx=\"12\" fill=\"white\"/><line x1=\"150\" y1=\"50\" x2=\"410\" y2=\"50\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"410\" y1=\"50\" x2=\"410\" y2=\"270\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"410\" y1=\"270\" x2=\"150\" y2=\"270\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"270\" x2=\"150\" y2=\"50\" stroke=\"#17334d\" stroke-width=\"2.5\"/><rect x=\"130\" y=\"95\" width=\"40\" height=\"24\" fill=\"white\"/><line x1=\"128\" y1=\"100\" x2=\"172\" y2=\"100\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"138\" y1=\"116\" x2=\"162\" y2=\"116\" stroke=\"#17334d\" stroke-width=\"2.5\"/><rect x=\"115\" y=\"77\" width=\"70\" height=\"168\" rx=\"9\" fill=\"none\" stroke=\"#7593a8\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><rect x=\"140\" y=\"179\" width=\"20\" height=\"48\" fill=\"white\" stroke=\"#17334d\" stroke-width=\"2.5\"/><text x=\"174\" y=\"209\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\"></text><text x=\"105\" y=\"109\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">ε = 12 V</text><text x=\"105\" y=\"209\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">r = 1,0 Ω</text><text x=\"150\" y=\"301\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Batteri</text><rect x=\"400\" y=\"136\" width=\"20\" height=\"48\" fill=\"white\" stroke=\"#17334d\" stroke-width=\"2.5\"/><text x=\"434\" y=\"166\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">3,0 Ω</text><line x1=\"310\" y1=\"50\" x2=\"310\" y2=\"270\" stroke=\"#17334d\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"136\" width=\"20\" height=\"48\" fill=\"white\" stroke=\"#17334d\" stroke-width=\"2.5\"/><text x=\"334\" y=\"166\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">6,0 Ω</text><text x=\"410\" y=\"248\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\"></text><circle cx=\"310\" cy=\"50\" r=\"4\" fill=\"#17334d\"/><circle cx=\"310\" cy=\"270\" r=\"4\" fill=\"#17334d\"/><circle cx=\"410\" cy=\"50\" r=\"4\" fill=\"#17334d\"/><circle cx=\"410\" cy=\"270\" r=\"4\" fill=\"#17334d\"/></svg></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parallellresistans: \\(R_p=R_1R_2/(R_1+R_2)\\)</p><div class=\"facit-matte\">\\[R_p=\\frac{6{,}0\\cdot3{,}0}{6{,}0+3{,}0}=2{,}0\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Totalström: \\(I=\\mathcal E/(R_p+r)\\)</p><div class=\"facit-matte\">\\[I=\\frac{12}{2{,}0+1{,}0}=4{,}0\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=R_pI\\)</p><p>Samma polspänning ligger över båda parallella resistorerna.</p><div class=\"facit-matte\">\\[U=2{,}0\\cdot4{,}0=8{,}0\\ \\mathrm V\\]</div></li><li><p class=\"facit-rubrik\">Greneffekt: \\(P_3=U^2/R_3\\)</p><div class=\"facit-matte\">\\[P_3=\\frac{8{,}0^2}{3{,}0}=\\frac{64}{3}\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Total effekt: \\(P_{\\rm tot}=\\mathcal E I\\)</p><div class=\"facit-matte\">\\[P_{\\rm tot}=12\\cdot4{,}0=48\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Jämför grenens effekt med hela batteriets effekt</p><div class=\"facit-matte\">\\[\\frac{P_3}{P_{\\rm tot}}=\\frac{64/3}{48}\\approx0{,}444=44{,}4\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(44{,}4\\,\\%\\).</p></div>",
+    "ledtrad": "<p>Skilj totalströmmen genom batteriet från strömmen i den efterfrågade grenen.</p>",
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 44.44444444444444,
+    "tolerans": 0.2222222222222222,
+    "svarEnhet": "%",
+    "självrättning": true,
+    "svarVardesiffror": 2
+  },
+  {
+    "id": "8.732",
+    "kap": 8,
+    "omr": "kopplingar",
+    "familj": "Effekt och verkningsgrad med inre resistans",
+    "familjNyckel": "ems__effekt_och_verkningsgrad",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "t": "<p>En batteridriven motor lyfter en last på 8,0 kg med konstant fart. Batteriet har ems 12 V, polspänningen 10 V och strömmen 2,0 A. Motorn omvandlar 75 % av den mottagna elektriska effekten till arbete på lasten. Hur lång tid tar det att lyfta lasten 3,0 m? (Svara i s.)</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Batteriet driver en motor som lyfter en last\" style=\"width:100%;max-width:560px\"><rect width=\"560\" height=\"340\" rx=\"12\" fill=\"white\"/><text x=\"110\" y=\"40\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Batteri</text><text x=\"110\" y=\"72\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">ε = 12 V</text><text x=\"110\" y=\"101\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">U = 10 V</text><line x1=\"110\" y1=\"120\" x2=\"110\" y2=\"195\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"110\" y1=\"195\" x2=\"265\" y2=\"195\" stroke=\"#17334d\" stroke-width=\"2.5\"/><path d=\"M252 187 L265 195 L252 203\" fill=\"none\" stroke=\"#17334d\" stroke-width=\"3\"/><text x=\"190\" y=\"175\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">2,0 A</text><circle cx=\"310\" cy=\"195\" r=\"42\" fill=\"#eef6fc\" stroke=\"#17334d\" stroke-width=\"3\"/><text x=\"310\" y=\"203\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"26\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">M</text><text x=\"310\" y=\"263\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Motor: η = 75 %</text><line x1=\"352\" y1=\"195\" x2=\"460\" y2=\"195\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"460\" y1=\"195\" x2=\"460\" y2=\"100\" stroke=\"#17334d\" stroke-width=\"2.5\"/><rect x=\"430\" y=\"55\" width=\"60\" height=\"45\" rx=\"4\" fill=\"#edf4e8\" stroke=\"#17334d\" stroke-width=\"2\"/><text x=\"460\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">8,0 kg</text><line x1=\"515\" y1=\"175\" x2=\"515\" y2=\"75\" stroke=\"#b64f22\" stroke-width=\"2.5\"/><path d=\"M508 86 L515 75 L522 86\" fill=\"none\" stroke=\"#b64f22\" stroke-width=\"2.5\"/><text x=\"515\" y=\"212\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">3,0 m</text></svg></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Yttre effekt: \\(P_{\\rm yttre}=UI\\)</p><p>Motorn får polspänningen, inte hela ems, över sig.</p><div class=\"facit-matte\">\\[P_{\\rm el}=10\\cdot2{,}0=20\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Mekanisk effekt: \\(P_{\\rm mek}=\\eta_{\\rm motor}P_{\\rm el}\\)</p><div class=\"facit-matte\">\\[P_{\\rm mek}=0{,}75\\cdot20=15\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Lyftarbete: \\(W=mgh\\)</p><p>Farten är konstant. Arbetet ökar lastens lägesenergi.</p><div class=\"facit-matte\">\\[W=8{,}0\\cdot9{,}82\\cdot3{,}0=235{,}68\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Tid: \\(t=W/P_{\\rm mek}\\)</p><div class=\"facit-matte\">\\[t=\\frac{235{,}68}{15}=15{,}712\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(16\\ \\mathrm s\\).</p></div>",
+    "ledtrad": "<p>Vilken spänning får motorn? Följ sedan energin från el till lyftarbete.</p>",
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 15.712,
+    "tolerans": 0.07856,
+    "svarEnhet": "s",
+    "självrättning": true,
+    "svarVardesiffror": 2,
+    "svarTabell": {
+      "0": [
+        15.696,
+        15.680000000000001
+      ]
+    }
+  },
+  {
+    "id": "8.733",
+    "kap": 8,
+    "omr": "kopplingar",
+    "familj": "Effekt och verkningsgrad med inre resistans",
+    "familjNyckel": "ems__effekt_och_verkningsgrad",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "t": "<p>Ett batteri med ems 9,0 V och inre resistans 0,50 Ω kopplas till en resistor R. Värmeeffekten inne i batteriet får vara högst 0,50 W. Hur liten får den yttre resistansen vara? (Svara i Ω.)</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Batterimodell med inre resistans och yttre belastning\" style=\"width:100%;max-width:560px\"><rect width=\"560\" height=\"340\" rx=\"12\" fill=\"white\"/><line x1=\"150\" y1=\"50\" x2=\"410\" y2=\"50\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"410\" y1=\"50\" x2=\"410\" y2=\"270\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"410\" y1=\"270\" x2=\"150\" y2=\"270\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"270\" x2=\"150\" y2=\"50\" stroke=\"#17334d\" stroke-width=\"2.5\"/><rect x=\"130\" y=\"95\" width=\"40\" height=\"24\" fill=\"white\"/><line x1=\"128\" y1=\"100\" x2=\"172\" y2=\"100\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"138\" y1=\"116\" x2=\"162\" y2=\"116\" stroke=\"#17334d\" stroke-width=\"2.5\"/><rect x=\"115\" y=\"77\" width=\"70\" height=\"168\" rx=\"9\" fill=\"none\" stroke=\"#7593a8\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><rect x=\"140\" y=\"179\" width=\"20\" height=\"48\" fill=\"white\" stroke=\"#17334d\" stroke-width=\"2.5\"/><text x=\"174\" y=\"209\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\"></text><text x=\"105\" y=\"109\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">ε = 9,0 V</text><text x=\"105\" y=\"209\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">r = 0,50 Ω</text><text x=\"150\" y=\"301\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Batteri</text><rect x=\"400\" y=\"136\" width=\"20\" height=\"48\" fill=\"white\" stroke=\"#17334d\" stroke-width=\"2.5\"/><text x=\"434\" y=\"166\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">R = ?</text></svg></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre värmeeffekt: \\(P_r=I^2r\\)</p><p>Värmegränsen ger den största tillåtna strömmen.</p><div class=\"facit-matte\">\\[I_{\\max}=\\sqrt{\\frac{0{,}50}{0{,}50}}=1{,}0\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Ohms lag för hela kretsen: \\(R+r=\\mathcal E/I\\)</p><div class=\"facit-matte\">\\[R_{\\min}=\\frac{9{,}0}{1{,}0}-0{,}50=8{,}5\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera gränsens riktning</p><p>En mindre yttre resistans skulle ge större ström och därmed mer än 0,50 W värme inne i batteriet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Minst \\(8{,}5\\ \\Omega\\).</p></div>",
+    "ledtrad": "<p>Börja med den största ström som värmegränsen tillåter.</p>",
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8.5,
+    "tolerans": 0.0425,
+    "svarEnhet": "Ω",
+    "självrättning": true,
+    "svarVardesiffror": 2
+  },
+  {
+    "id": "8.734",
+    "kap": 8,
+    "omr": "kopplingar",
+    "familj": "Effekt och verkningsgrad med inre resistans",
+    "familjNyckel": "ems__effekt_och_verkningsgrad",
+    "niva": "C",
+    "poang": "(0/1/0)",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "t": "<p>Tabellen visar två mätningar på samma batteri. Batteriets ems och inre resistans är oförändrade. Hur stor värmeeffekt utvecklas inne i batteriet när strömmen är 1,5 A? (Svara i W.)</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 280\" role=\"img\" aria-label=\"Tabell: 0,50 A ger 5,5 V och 1,0 A ger 5,0 V\" style=\"width:100%;max-width:560px\"><rect width=\"560\" height=\"280\" rx=\"12\" fill=\"white\"/><text x=\"280\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Två mätningar på samma batteri</text><rect x=\"90\" y=\"65\" width=\"380\" height=\"55\" fill=\"white\" stroke=\"#7694a8\"/><rect x=\"90\" y=\"120\" width=\"380\" height=\"60\" fill=\"white\" stroke=\"#7694a8\"/><rect x=\"90\" y=\"180\" width=\"380\" height=\"60\" fill=\"white\" stroke=\"#7694a8\"/><line x1=\"280\" y1=\"65\" x2=\"280\" y2=\"240\" stroke=\"#7694a8\" stroke-width=\"2.5\"/><text x=\"185\" y=\"100\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Ström (A)</text><text x=\"375\" y=\"100\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Polspänning (V)</text><text x=\"185\" y=\"158\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">0,50</text><text x=\"375\" y=\"158\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">5,5</text><text x=\"185\" y=\"218\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">1,0</text><text x=\"375\" y=\"218\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">5,0</text></svg></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Polspänning: \\(U=\\mathcal E-rI\\)</p><p>När strömmen ökar kommer sänkningen av polspänningen från det ökade inre spänningsfallet.</p></li><li><p class=\"facit-rubrik\">Inre resistans: \\(r=(U_1-U_2)/(I_2-I_1)\\)</p><div class=\"facit-matte\">\\[r=\\frac{5{,}5-5{,}0}{1{,}0-0{,}50}=1{,}0\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Inre värmeeffekt: \\(P_r=I^2r\\)</p><div class=\"facit-matte\">\\[P_r=1{,}5^2\\cdot1{,}0=2{,}25\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}25\\ \\mathrm W\\).</p></div>",
+    "ledtrad": "<p>Vad kan spänningens förändring och strömmens förändring berätta om batteriet?</p>",
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2.25,
+    "tolerans": 0.01125,
+    "svarEnhet": "W",
+    "självrättning": true,
+    "svarVardesiffror": 2
+  },
+  {
+    "id": "8.735",
+    "kap": 8,
+    "omr": "kopplingar",
+    "familj": "Effekt och verkningsgrad med inre resistans",
+    "familjNyckel": "ems__effekt_och_verkningsgrad",
+    "niva": "C",
+    "poang": "(0/2/0)",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "t": "<p>Ett batteri med ems 6,0 V och inre resistans 1,0 Ω ska ge effekten 8,0 W i en yttre resistor. Två olika resistanser är möjliga. Välj den som gör att störst andel av batteriets totala elektriska effekt når resistorn. Bestäm resistansen och denna andel. (Svara i Ω respektive procent.)</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Batterimodell med inre resistans och yttre belastning\" style=\"width:100%;max-width:560px\"><rect width=\"560\" height=\"340\" rx=\"12\" fill=\"white\"/><line x1=\"150\" y1=\"50\" x2=\"410\" y2=\"50\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"410\" y1=\"50\" x2=\"410\" y2=\"270\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"410\" y1=\"270\" x2=\"150\" y2=\"270\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"270\" x2=\"150\" y2=\"50\" stroke=\"#17334d\" stroke-width=\"2.5\"/><rect x=\"130\" y=\"95\" width=\"40\" height=\"24\" fill=\"white\"/><line x1=\"128\" y1=\"100\" x2=\"172\" y2=\"100\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"138\" y1=\"116\" x2=\"162\" y2=\"116\" stroke=\"#17334d\" stroke-width=\"2.5\"/><rect x=\"115\" y=\"77\" width=\"70\" height=\"168\" rx=\"9\" fill=\"none\" stroke=\"#7593a8\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><rect x=\"140\" y=\"179\" width=\"20\" height=\"48\" fill=\"white\" stroke=\"#17334d\" stroke-width=\"2.5\"/><text x=\"174\" y=\"209\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\"></text><text x=\"105\" y=\"109\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">ε = 6,0 V</text><text x=\"105\" y=\"209\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">r = 1,0 Ω</text><text x=\"150\" y=\"301\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Batteri</text><rect x=\"400\" y=\"136\" width=\"20\" height=\"48\" fill=\"white\" stroke=\"#17334d\" stroke-width=\"2.5\"/><text x=\"434\" y=\"166\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">R = ?</text></svg></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Polspänning: \\(U=\\mathcal E-rI\\)</p><div class=\"facit-matte\">\\[U=6{,}0-I\\]</div></li><li><p class=\"facit-rubrik\">Yttre effekt: \\(P_{\\rm yttre}=UI\\)</p><p>Strömmen är okänd. Sätt in polspänningen i uttrycket för den yttre effekten.</p><div class=\"facit-matte\">\\[8{,}0=(6{,}0-I)I\\]</div></li><li><p class=\"facit-rubrik\">Lös effektekvationen grafiskt</p><p>Rita P(I) = 6I − I² och linjen P = 8 i GeoGebra. Skärningarna ger I = 2,0 A och I = 4,0 A.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 375\" role=\"img\" aria-label=\"Två strömmar, 2 A och 4 A, ger yttre effekt 8 W\" style=\"width:100%;max-width:560px\"><rect width=\"560\" height=\"375\" rx=\"12\" fill=\"white\"/><line x1=\"65\" y1=\"300\" x2=\"65\" y2=\"50\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"65\" y=\"325\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">0</text><line x1=\"140\" y1=\"300\" x2=\"140\" y2=\"50\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"140\" y=\"325\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">1</text><line x1=\"215\" y1=\"300\" x2=\"215\" y2=\"50\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"215\" y=\"325\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">2</text><line x1=\"290\" y1=\"300\" x2=\"290\" y2=\"50\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"290\" y=\"325\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">3</text><line x1=\"365\" y1=\"300\" x2=\"365\" y2=\"50\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"365\" y=\"325\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">4</text><line x1=\"440\" y1=\"300\" x2=\"440\" y2=\"50\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"440\" y=\"325\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">5</text><line x1=\"515\" y1=\"300\" x2=\"515\" y2=\"50\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"515\" y=\"325\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">6</text><line x1=\"65\" y1=\"252\" x2=\"515\" y2=\"252\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"52\" y=\"258\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">2</text><line x1=\"65\" y1=\"204\" x2=\"515\" y2=\"204\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"52\" y=\"210\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">4</text><line x1=\"65\" y1=\"156\" x2=\"515\" y2=\"156\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"52\" y=\"162\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">6</text><line x1=\"65\" y1=\"108\" x2=\"515\" y2=\"108\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"52\" y=\"114\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">8</text><line x1=\"65\" y1=\"60\" x2=\"515\" y2=\"60\" stroke=\"#dae5ec\" stroke-width=\"2.5\"/><text x=\"52\" y=\"66\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">10</text><line x1=\"65\" y1=\"300\" x2=\"525\" y2=\"300\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"65\" y1=\"300\" x2=\"65\" y2=\"40\" stroke=\"#17334d\" stroke-width=\"2.5\"/><text x=\"65\" y=\"24\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">P (W)</text><text x=\"520\" y=\"353\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">I (A)</text><polyline points=\"65.00,300.00 67.50,295.23 70.00,290.51 72.50,285.84 75.00,281.23 77.50,276.67 80.00,272.16 82.50,267.71 85.00,263.31 87.50,258.96 90.00,254.67 92.50,250.43 95.00,246.24 97.50,242.11 100.00,238.03 102.50,234.00 105.00,230.03 107.50,226.11 110.00,222.24 112.50,218.43 115.00,214.67 117.50,210.96 120.00,207.31 122.50,203.71 125.00,200.16 127.50,196.67 130.00,193.23 132.50,189.84 135.00,186.51 137.50,183.23 140.00,180.00 142.50,176.83 145.00,173.71 147.50,170.64 150.00,167.63 152.50,164.67 155.00,161.76 157.50,158.91 160.00,156.11 162.50,153.36 165.00,150.67 167.50,148.03 170.00,145.44 172.50,142.91 175.00,140.43 177.50,138.00 180.00,135.63 182.50,133.31 185.00,131.04 187.50,128.83 190.00,126.67 192.50,124.56 195.00,122.51 197.50,120.51 200.00,118.56 202.50,116.67 205.00,114.83 207.50,113.04 210.00,111.31 212.50,109.63 215.00,108.00 217.50,106.43 220.00,104.91 222.50,103.44 225.00,102.03 227.50,100.67 230.00,99.36 232.50,98.11 235.00,96.91 237.50,95.76 240.00,94.67 242.50,93.63 245.00,92.64 247.50,91.71 250.00,90.83 252.50,90.00 255.00,89.23 257.50,88.51 260.00,87.84 262.50,87.23 265.00,86.67 267.50,86.16 270.00,85.71 272.50,85.31 275.00,84.96 277.50,84.67 280.00,84.43 282.50,84.24 285.00,84.11 287.50,84.03 290.00,84.00 292.50,84.03 295.00,84.11 297.50,84.24 300.00,84.43 302.50,84.67 305.00,84.96 307.50,85.31 310.00,85.71 312.50,86.16 315.00,86.67 317.50,87.23 320.00,87.84 322.50,88.51 325.00,89.23 327.50,90.00 330.00,90.83 332.50,91.71 335.00,92.64 337.50,93.63 340.00,94.67 342.50,95.76 345.00,96.91 347.50,98.11 350.00,99.36 352.50,100.67 355.00,102.03 357.50,103.44 360.00,104.91 362.50,106.43 365.00,108.00 367.50,109.63 370.00,111.31 372.50,113.04 375.00,114.83 377.50,116.67 380.00,118.56 382.50,120.51 385.00,122.51 387.50,124.56 390.00,126.67 392.50,128.83 395.00,131.04 397.50,133.31 400.00,135.63 402.50,138.00 405.00,140.43 407.50,142.91 410.00,145.44 412.50,148.03 415.00,150.67 417.50,153.36 420.00,156.11 422.50,158.91 425.00,161.76 427.50,164.67 430.00,167.63 432.50,170.64 435.00,173.71 437.50,176.83 440.00,180.00 442.50,183.23 445.00,186.51 447.50,189.84 450.00,193.23 452.50,196.67 455.00,200.16 457.50,203.71 460.00,207.31 462.50,210.96 465.00,214.67 467.50,218.43 470.00,222.24 472.50,226.11 475.00,230.03 477.50,234.00 480.00,238.03 482.50,242.11 485.00,246.24 487.50,250.43 490.00,254.67 492.50,258.96 495.00,263.31 497.50,267.71 500.00,272.16 502.50,276.67 505.00,281.23 507.50,285.84 510.00,290.51 512.50,295.23 515.00,300.00\" fill=\"none\" stroke=\"#1464a0\" stroke-width=\"3\"/><line x1=\"65\" y1=\"108\" x2=\"515\" y2=\"108\" stroke=\"#b64f22\" stroke-width=\"2.5\"/><text x=\"510\" y=\"97\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#b64f22\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">8,0 W</text><line x1=\"215\" y1=\"108\" x2=\"215\" y2=\"300\" stroke=\"#b64f22\" stroke-width=\"2.5\" stroke-dasharray=\"5 4\"/><circle cx=\"215\" cy=\"108\" r=\"5\" fill=\"#b64f22\"/><line x1=\"365\" y1=\"108\" x2=\"365\" y2=\"300\" stroke=\"#b64f22\" stroke-width=\"2.5\" stroke-dasharray=\"5 4\"/><circle cx=\"365\" cy=\"108\" r=\"5\" fill=\"#b64f22\"/><text x=\"285\" y=\"25\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">P = 6I − I²</text></svg></div></li><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=P_{\\rm yttre}/P_{\\rm tot}\\)</p><p>Den yttre effekten är densamma. Mindre ström ger mindre total tillförd effekt och därför högre verkningsgrad. Välj I = 2,0 A.</p><div class=\"facit-matte\">\\[\\eta=\\frac{8{,}0}{6{,}0I}\\]</div></li><li><p class=\"facit-rubrik\">Resistans från effekt: \\(R=P/I^2\\)</p><div class=\"facit-matte\">\\[R=\\frac{8{,}0}{2{,}0^2}=2{,}0\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=P_{\\rm yttre}/P_{\\rm tot}\\)</p><div class=\"facit-matte\">\\[\\eta=\\frac{8{,}0}{6{,}0\\cdot2{,}0}\\approx0{,}667=66{,}7\\,\\%\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera det andra alternativet</p><p>Det andra alternativet ger samma yttre effekt men mer värme inne i batteriet.</p><div class=\"facit-matte\">\\[\\begin{aligned}R&=\\frac8{4^2}=0{,}50\\ \\Omega\\\\\\eta&=\\frac8{6\\cdot4}\\approx33{,}3\\,\\%\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\Omega\\) och \\(66{,}7\\,\\%\\).</p></div>",
+    "ledtrad": "<p>Skriv den yttre effekten med strömmen som okänd. Jämför sedan de två möjliga strömmarnas inre förluster.</p>",
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": true,
+    "manuellKomplettering": false,
+    "svarstyp": "flera_delar",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "rättSvar": [
+      2,
+      66.66666666666667
+    ],
+    "tolerans": [
+      0.01,
+      0.33333333333333337
+    ],
+    "svarEnhet": [
+      "Ω",
+      "%"
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarVardesiffror": [
+      2,
+      2
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Resistans (Ω)",
+      "Andel (%)"
+    ]
+  },
+  {
+    "id": "8.736",
+    "kap": 8,
+    "omr": "kopplingar",
+    "familj": "Effekt och verkningsgrad med inre resistans",
+    "familjNyckel": "ems__effekt_och_verkningsgrad",
+    "niva": "C",
+    "poang": "(0/2/0)",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "t": "<p>Två likadana celler har ems 1,5 V och inre resistans 0,50 Ω vardera. De ska driva en resistor på 1,0 Ω. Cellerna kan kopplas i serie eller parallellt, med samma polaritet. Minst 70 % av cellernas totala elektriska effekt ska nå resistorn. Hur stor effekt får resistorn med den koppling som uppfyller kravet? (Svara i W.)</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Två identiska celler kan seriekopplas eller parallellkopplas\" style=\"width:100%;max-width:560px\"><rect width=\"560\" height=\"340\" rx=\"12\" fill=\"white\"/><text x=\"280\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Två likadana celler</text><rect x=\"85\" y=\"65\" width=\"160\" height=\"155\" rx=\"15\" fill=\"#eef6fc\" stroke=\"#17334d\" stroke-width=\"2\"/><text x=\"165\" y=\"107\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">ε = 1,5 V</text><text x=\"165\" y=\"151\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">r = 0,50 Ω</text><text x=\"165\" y=\"194\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"24\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">+       −</text><rect x=\"315\" y=\"65\" width=\"160\" height=\"155\" rx=\"15\" fill=\"#eef6fc\" stroke=\"#17334d\" stroke-width=\"2\"/><text x=\"395\" y=\"107\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">ε = 1,5 V</text><text x=\"395\" y=\"151\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">r = 0,50 Ω</text><text x=\"395\" y=\"194\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"24\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">+       −</text><text x=\"280\" y=\"265\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Yttre resistor: 1,0 Ω</text><text x=\"280\" y=\"300\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Serie eller parallellt?</text></svg></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cellernas sammanlagda ems och resistans</p><p>I serie adderas ems och inre resistans. Identiska parallella celler behåller ems men halverar den inre resistansen.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\mathcal E_s&=3{,}0\\ \\mathrm V,&r_s&=1{,}0\\ \\Omega\\\\\\mathcal E_p&=1{,}5\\ \\mathrm V,&r_p&=0{,}25\\ \\Omega\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=P_{\\rm yttre}/P_{\\rm tot}\\)</p><p>För en yttre resistor är effektandelen R/(R+r). Bara parallellkopplingen klarar kravet.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\eta_s&=\\frac{1{,}0}{1{,}0+1{,}0}=50\\,\\%\\\\\\eta_p&=\\frac{1{,}0}{1{,}0+0{,}25}=80\\,\\%\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Ström i parallellfallet: \\(I=\\mathcal E_p/(R+r_p)\\)</p><div class=\"facit-matte\">\\[I=\\frac{1{,}5}{1{,}0+0{,}25}=1{,}2\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Yttre effekt: \\(P_R=I^2R\\)</p><div class=\"facit-matte\">\\[P_R=1{,}2^2\\cdot1{,}0=1{,}44\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}44\\ \\mathrm W\\), med cellerna parallellkopplade.</p></div>",
+    "ledtrad": "<p>Pröva först verkningsgraden för de två kopplingarna. Störst effekt behöver inte betyda högst verkningsgrad.</p>",
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1.44,
+    "tolerans": 0.0072,
+    "svarEnhet": "W",
+    "självrättning": true,
+    "svarVardesiffror": 2
+  },
+  {
+    "id": "8.737",
+    "kap": 8,
+    "omr": "kopplingar",
+    "familj": "Effekt och verkningsgrad med inre resistans",
+    "familjNyckel": "ems__effekt_och_verkningsgrad",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "t": "<p>Under 60 s bildas 72 J värme inne i ett batteri. Strömmen är hela tiden 2,0 A. Bestäm batteriets inre resistans. (Svara i Ω.)</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Batteriets inre resistans är okänd, ström och bildad värme är givna\" style=\"width:100%;max-width:560px\"><rect width=\"560\" height=\"340\" rx=\"12\" fill=\"white\"/><text x=\"280\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Strömmen är 2,0 A under 60 s</text><rect x=\"180\" y=\"75\" width=\"200\" height=\"145\" rx=\"16\" fill=\"#eef6fc\" stroke=\"#17334d\" stroke-width=\"3\"/><text x=\"280\" y=\"120\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Batteri</text><text x=\"280\" y=\"166\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">r = ?</text><line x1=\"100\" y1=\"105\" x2=\"180\" y2=\"105\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"380\" y1=\"105\" x2=\"460\" y2=\"105\" stroke=\"#17334d\" stroke-width=\"2.5\"/><line x1=\"280\" y1=\"220\" x2=\"280\" y2=\"273\" stroke=\"#b64f22\" stroke-width=\"2.5\"/><path d=\"M272 262 L280 273 L288 262\" fill=\"none\" stroke=\"#b64f22\" stroke-width=\"3\"/><text x=\"280\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Bildad värme: 72 J</text></svg></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värmeeffekt: \\(P_r=Q/t\\)</p><div class=\"facit-matte\">\\[P_r=\\frac{72}{60}=1{,}2\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Inre värmeeffekt: \\(P_r=I^2r\\)</p><div class=\"facit-matte\">\\[r=\\frac{P_r}{I^2}=\\frac{1{,}2}{2{,}0^2}=0{,}30\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}30\\ \\Omega\\).</p></div>",
+    "ledtrad": "<p>Gå från värmeenergi till effekt innan du bestämmer resistansen.</p>",
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 0.3,
+    "tolerans": 0.0015,
+    "svarEnhet": "Ω",
+    "självrättning": true,
+    "svarVardesiffror": 2
+  },
+  {
+    "id": "8.738",
+    "kap": 8,
+    "omr": "kopplingar",
+    "familj": "Effekt och verkningsgrad med inre resistans",
+    "familjNyckel": "ems__effekt_och_verkningsgrad",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp"
+    ],
+    "t": "<p>När ett batteri åldras blir dess inre resistans tre gånger så stor. En strömreglerad apparat håller strömmen genom batteriet oförändrad. Hur många gånger så stor blir värmeeffekten inne i batteriet?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 260\" role=\"img\" aria-label=\"Inre resistansen ökar från r till 3r medan strömmen är oförändrad\" style=\"width:100%;max-width:560px\"><rect width=\"560\" height=\"260\" rx=\"12\" fill=\"white\"/><text x=\"280\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Samma ström genom batteriet</text><rect x=\"60\" y=\"75\" width=\"180\" height=\"140\" rx=\"12\" fill=\"#eef6fc\" stroke=\"#17334d\" stroke-width=\"2\"/><text x=\"150\" y=\"113\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Före</text><text x=\"150\" y=\"170\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"27\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">r</text><rect x=\"320\" y=\"75\" width=\"180\" height=\"140\" rx=\"12\" fill=\"#eef6fc\" stroke=\"#17334d\" stroke-width=\"2\"/><text x=\"410\" y=\"113\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"22\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">Efter</text><text x=\"410\" y=\"170\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"27\" fill=\"#17334d\" paint-order=\"stroke\" stroke=\"white\" stroke-width=\"4\" stroke-linejoin=\"round\">3r</text><line x1=\"255\" y1=\"145\" x2=\"305\" y2=\"145\" stroke=\"#17334d\" stroke-width=\"2.5\"/><path d=\"M294 138 L305 145 L294 152\" fill=\"none\" stroke=\"#17334d\" stroke-width=\"2.5\"/></svg></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre värmeeffekt: \\(P_r=I^2r\\)</p><p>Strömmen är oförändrad. Då är värmeeffekten direkt proportionell mot den inre resistansen.</p><div class=\"facit-matte\">\\[P_{\\rm ny}=I^2\\cdot3r=3P_{\\rm gammal}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tre gånger så stor.</p></div>",
+    "ledtrad": "<p>Vilken storhet ändras i sambandet mellan ström, resistans och värmeeffekt?</p>",
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "manuellKomplettering": false,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0.015,
+    "svarEnhet": null,
+    "självrättning": true,
+    "svarVardesiffror": 2
   }
 ];

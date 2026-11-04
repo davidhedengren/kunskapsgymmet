@@ -1,0 +1,176 @@
+[
+  {
+    "id": "2.24",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "2.34",
+    "fields": [
+      "s",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.38",
+    "fields": [
+      "s",
+      "miniräknare",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.65",
+    "fields": [
+      "t",
+      "s"
+    ]
+  },
+  {
+    "id": "2.111",
+    "fields": [
+      "s",
+      "spelDelar"
+    ]
+  },
+  {
+    "id": "2.251",
+    "fields": [
+      "s",
+      "miniräknare",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.267",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "2.283",
+    "fields": [
+      "s",
+      "miniräknare"
+    ]
+  },
+  {
+    "id": "2.289",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "2.290",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "2.338",
+    "fields": [
+      "t",
+      "s",
+      "miniräknare"
+    ]
+  },
+  {
+    "id": "2.342",
+    "fields": [
+      "omr",
+      "s",
+      "familj",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.452",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "2.475",
+    "fields": [
+      "s",
+      "miniräknare"
+    ]
+  },
+  {
+    "id": "2.488",
+    "fields": [
+      "s",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.570",
+    "fields": [
+      "s",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.730",
+    "fields": [
+      "omr",
+      "s",
+      "familj"
+    ]
+  },
+  {
+    "id": "2.697",
+    "fields": [
+      "s",
+      "miniräknare",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "3.141",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "5.06",
+    "fields": [
+      "s",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "5.21",
+    "fields": [
+      "s",
+      "traningsniva",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "5.33",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "5.45",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "5.176",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "2.1148",
+    "fields": [
+      "s",
+      "alternativ"
+    ]
+  }
+]

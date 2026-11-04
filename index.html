@@ -2208,6 +2208,14 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .felpost .knapp{font-size:11px;font-weight:650;color:var(--ink3);border:1px solid var(--hair);border-radius:9px;padding:6px 9px;background:var(--surface)}
 .felpost .knapp:hover{color:var(--good);border-color:var(--good)}
 .felpost .knapp:disabled{opacity:.5;cursor:wait}
+.fellogg-uppgift{width:100%;min-width:0;padding:12px;border:1px solid var(--hair);border-radius:10px;background:var(--surface);color:var(--ink);font-size:14px;line-height:1.55;overflow-wrap:anywhere}
+.fellogg-uppgift[hidden]{display:none}
+.fellogg-uppgift .fig,.fellogg-uppgift svg:not(.katex svg),.fellogg-uppgift img{max-width:100%;height:auto}
+.fellogg-uppgift svg:not(.katex svg){display:block;margin:12px auto}
+.fellogg-uppgift table{max-width:100%;display:block;overflow-x:auto}
+.fellogg-uppgift details{margin-top:12px}.fellogg-uppgift summary{cursor:pointer;color:var(--good)}
+.fellogg-uppgift .katex-display{overflow-x:auto;overflow-y:hidden}
+.fellogg-uppgift-version{font-size:11px;color:var(--ink3);margin:0 0 8px}
 .felrad-fel{font-size:12px;color:var(--warn);overflow-wrap:anywhere;margin:8px 0 0}
 .fel-svar{margin-top:10px;padding:12px;background:var(--surface2);border-radius:12px;font-size:13px}
 .fel-svar p{white-space:pre-wrap;overflow-wrap:anywhere;margin:6px 0 0;color:var(--ink2)}
@@ -4081,7 +4089,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-03-kopplingsscheman-ma2-vinklar";
+const BANK_VERSION="2026-11-04-fellogg-ma1-0757";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -13282,6 +13290,8 @@ function ritaFelloggRader(){
       <div class="felpost-info"><span class="nr">#${esc(r.uppgift)}${r.deluppgift?` ${esc(r.deluppgift)})`:''}</span>
         <span class="txt">${taggar?esc(taggar):'<em>ingen tagg</em>'}${komm?` · ${esc(komm)}`:''}${r.spar?` · ${esc(r.spar)}`:''}</span>
         <span class="antal">${r.antal}×${r.senast?` · ${esc(kgAdminTid(r.senast))}`:''}</span>
+        <button class="knapp" type="button" aria-expanded="false" aria-controls="fellogg-uppgift-${index}" onclick="visaFelloggUppgift(${index},this)">Visa uppgift</button>
+        <div id="fellogg-uppgift-${index}" class="fellogg-uppgift" hidden></div>
         ${avslutad?`<span class="admin-rapportstatus ${status}">${esc(kgAdminStatusText(status))}</span>`:''}
       </div>
       ${kanSpara?`<div class="felpost-edit">
@@ -13297,6 +13307,29 @@ function ritaFelloggRader(){
   });
   host.innerHTML=html;
   host.querySelectorAll('textarea[data-utkast]').forEach(input=>input.addEventListener('input',()=>felloggUtkast.set(input.dataset.utkast,input.value)));
+}
+async function visaFelloggUppgift(index,knapp){
+  const r=felloggData[index],ruta=document.getElementById(`fellogg-uppgift-${index}`);
+  if(!r||!ruta||!knapp) return;
+  if(!ruta.hidden){ruta.hidden=true;knapp.textContent='Visa uppgift';knapp.setAttribute('aria-expanded','false');return;}
+  ruta.hidden=false;knapp.textContent='Dölj uppgift';knapp.setAttribute('aria-expanded','true');
+  if(ruta.dataset.laddad==='ja') return;
+  ruta.textContent='Hämtar uppgiften…';
+  try{
+    if(!COURSES[r.kurs]) throw new Error('Kursen finns inte längre.');
+    const bank=await kvLaddaKurs(r.kurs);
+    if(!ruta.isConnected || felloggData[index]!==r) return;
+    let id=String(r.uppgift||''),del=String(r.deluppgift||'').toLowerCase().replace(/[^a-z]/g,'');
+    let q=bank.find(t=>String(t.id)===id);
+    if(!q){const m=id.match(/^(\d+\.\d+)([a-z])$/i);if(m){q=bank.find(t=>String(t.id)===m[1]);del=del||m[2].toLowerCase();}}
+    if(!q) throw new Error('Uppgiften finns inte i den aktuella banken.');
+    const d=del && Array.isArray(q.spelDelar) ? q.spelDelar.find((x,i)=>String(x.etikett||String.fromCharCode(97+i)).toLowerCase()===del) : null;
+    const text=d?.t || (d?.fraga!=null && q.spelIntro!=null ? q.spelIntro+`<div class="spel-en-del">${d.fraga}</div>` : q.t);
+    const sol=d ? d.s : q.s,alternativ=d?.alternativ||q.alternativ;
+    const alt=Array.isArray(alternativ)?`<ol type="A">${alternativ.map(a=>`<li>${typeof a==='string'?esc(a):(a.txt||'')}</li>`).join('')}</ol>`:'';
+    ruta.innerHTML=`<p class="fellogg-uppgift-version">Nuvarande version${del?` · del ${esc(del)}`:''}${del&&!d?' · hela uppgiften visas':''}</p>${text||'<p>Uppgiftstext saknas.</p>'}${alt}${sol?`<details><summary>Visa facit</summary>${sol}</details>`:''}`;
+    ruta.dataset.laddad='ja';renderMath(ruta);
+  }catch(e){if(ruta.isConnected) ruta.textContent=e.message||'Uppgiften kunde inte hämtas.';}
 }
 function markeraFelAtgardad(kurs,uppgift){
   return sparaFelGranskning(felloggData.findIndex(r=>r.kurs===kurs && r.uppgift===uppgift),"atgardad");

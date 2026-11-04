@@ -33632,7 +33632,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "t": "<p>Lös ekvationen \\(\\frac{2x-3}{5}=3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Multiplicera med 5:</p><div class=\"facit-matte\">\\[2 x-3=15\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Addera 3:</p><div class=\"facit-matte\">\\[2 x=18\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Dividera med 2:</p><div class=\"facit-matte\">\\[x=9\\]</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(5\\)</p><div class=\"facit-matte\">\\[2x-3=15\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(3\\) i båda leden</p><div class=\"facit-matte\">\\[2x=18\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med \\(2\\)</p><div class=\"facit-matte\">\\[x=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=9\\).</p></div>",
     "ledtrad": "<p>Börja med att ta bort divisionen som gäller hela täljaren.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -150240,35 +150240,35 @@ window.BANKMA1 = [
   "svarEnhet": "km"
 },
 {
-  "id": "1.1364",
-  "kap": 1,
-  "omr": "ekv_brak",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "typ": "två femtedelar",
-  "t": "<p>Lös ekvationen \\(\\frac{2x}{5}=4\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x=20\\]</div></li><li><div class=\"facit-matte\">\\[x=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\)</p></div>",
-  "familj": "Ekvationer med nämnare",
-  "formaga": [
-    "procedur"
-  ],
-  "miniräknare": false,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "traningsniva": 1,
-  "arbetsinsats": 1,
-  "ledtrad": "<p>Multiplicera båda leden med 5.</p>",
-  "svarstyp": "numeriskt",
-  "svarFormat": "numeriskt",
-  "rättSvar": 10,
-  "tolerans": 0
-},
+    "id": "1.1364",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "två femtedelar",
+    "t": "<p>Lös ekvationen \\(\\frac{2x}{5}=4\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(5\\)</p><div class=\"facit-matte\">\\[2x=4\\cdot5=20\\]</div></li><li><p class=\"facit-rubrik\">Dividera \\(2x=20\\) med \\(2\\)</p><div class=\"facit-matte\">\\[x=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\).</p></div>",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera båda leden med 5.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0
+  },
 {
   "id": "1.1365",
   "kap": 1,
@@ -168370,6 +168370,1629 @@ window.BANKMA1 = [
     "rättSvar": 210,
     "tolerans": 0,
     "svarEnhet": "ml/h"
+  },
+  {
+    "id": "1.1567",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{7x}{7}\\]</p>",
+    "ledtrad": "<p>Sju gånger ett tal delas med sju.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förkorta med \\(7\\)</p><div class=\"facit-matte\">\\[\\frac{7x}{7}=\\frac77\\cdot x=x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "x",
+    "tolerans": null
+  },
+  {
+    "id": "1.1568",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{2x}{7}+\\frac{3x}{7}\\]</p>",
+    "ledtrad": "<p>Bråken har redan samma nämnare. Lägg ihop täljarna.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera sjundedelar: \\(\\frac a7+\\frac b7=\\frac{a+b}{7}\\)</p><div class=\"facit-matte\">\\[\\frac{2x}{7}+\\frac{3x}{7}=\\frac{2x+3x}{7}=\\frac{5x}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5 x}{7}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "5*x/7",
+    "tolerans": null
+  },
+  {
+    "id": "1.1569",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{9x}{5}-\\frac{4x}{5}\\]</p>",
+    "ledtrad": "<p>Subtrahera täljarna och behåll nämnaren.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera femtedelar: \\(\\frac a5-\\frac b5=\\frac{a-b}{5}\\)</p><div class=\"facit-matte\">\\[\\frac{9x}{5}-\\frac{4x}{5}=\\frac{5x}{5}=x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "x",
+    "tolerans": null
+  },
+  {
+    "id": "1.1570",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{2x}{3}+\\frac{x}{6}\\]</p>",
+    "ledtrad": "<p>Skriv tredjedelarna som sjättedelar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng med \\(\\frac22=1\\)</p><div class=\"facit-matte\">\\[\\frac{2x}{3}=\\frac{4x}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera de två täljarna över \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{4x}{6}+\\frac{x}{6}=\\frac{5x}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5 x}{6}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "5*x/6",
+    "tolerans": null
+  },
+  {
+    "id": "1.1571",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{3x}{4}-\\frac{x}{6}\\]</p>",
+    "ledtrad": "<p>Tolv är en gemensam nämnare till fjärdedelar och sjättedelar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till nämnaren \\(12\\)</p><div class=\"facit-matte\">\\[\\frac{3x}{4}=\\frac{9x}{12},\\qquad\\frac{x}{6}=\\frac{2x}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(2x\\) från \\(9x\\)</p><div class=\"facit-matte\">\\[\\frac{9x-2x}{12}=\\frac{7x}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7 x}{12}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "7*x/12",
+    "tolerans": null
+  },
+  {
+    "id": "1.1572",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[x-\\frac{3x}{8}\\]</p>",
+    "ledtrad": "<p>Skriv den hela x-termen som åttondelar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(x=\\frac{8x}{8}\\)</p><div class=\"facit-matte\">\\[x-\\frac{3x}{8}=\\frac{8x-3x}{8}=\\frac{5x}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5 x}{8}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "5*x/8",
+    "tolerans": null
+  },
+  {
+    "id": "1.1573",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{2x}{5}+\\frac{x}{15}\\]</p>",
+    "ledtrad": "<p>Förläng femtedelarna till femtondelar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng med \\(\\frac33=1\\)</p><div class=\"facit-matte\">\\[\\frac{2x}{5}=\\frac{6x}{15}\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(6x+x\\) över nämnaren \\(15\\)</p><div class=\"facit-matte\">\\[\\frac{6x+x}{15}=\\frac{7x}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7 x}{15}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "7*x/15",
+    "tolerans": null
+  },
+  {
+    "id": "1.1574",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{5x}{4}-\\frac{x}{2}\\]</p>",
+    "ledtrad": "<p>Skriv halvan som fjärdedelar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till nämnaren \\(4\\)</p><div class=\"facit-matte\">\\[\\frac{x}{2}=\\frac{2x}{4}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(2x\\) från \\(5x\\)</p><div class=\"facit-matte\">\\[\\frac{5x-2x}{4}=\\frac{3x}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3 x}{4}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "3*x/4",
+    "tolerans": null
+  },
+  {
+    "id": "1.1575",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{3x}{10}+\\frac{2x}{5}\\]</p>",
+    "ledtrad": "<p>Gör om femtedelarna till tiondelar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng med \\(\\frac22=1\\)</p><div class=\"facit-matte\">\\[\\frac{2x}{5}=\\frac{4x}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(3x+4x\\) över nämnaren \\(10\\)</p><div class=\"facit-matte\">\\[\\frac{3x+4x}{10}=\\frac{7x}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7 x}{10}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "7*x/10",
+    "tolerans": null
+  },
+  {
+    "id": "1.1576",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{x+1}{2}-\\frac{x-2}{3}-\\frac{x+5}{6}\\]</p>",
+    "ledtrad": "<p>Skriv alla bråk med nämnaren sex. Behåll parenteserna tills du hanterat minustecknen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{3(x+1)-2(x-2)-(x+5)}{6}\\]</div></li><li><p class=\"facit-rubrik\">Alla x-termer tar ut varandra: \\(3x-2x-x=0\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{3x+3-2x+4-x-5}{6}&=\\frac{2}{6}\\\\&=\\frac13\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{3}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "1/3",
+    "tolerans": null
+  },
+  {
+    "id": "1.1577",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{5x-2}{4}-\\left(\\frac{x+2}{3}-\\frac{x+7}{6}\\right)\\]</p>",
+    "ledtrad": "<p>Förenkla först parentesen. När parentesen tas bort byter dess båda termer tecken.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesens gemensamma nämnare är \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{x+2}{3}-\\frac{x+7}{6}=\\frac{x-3}{6}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera hela täljaren \\(x-3\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{5x-2}{4}-\\frac{x-3}{6}\\\\=\\frac{3(5x-2)-2(x-3)}{12}\\\\=\\frac{15x-6-2x+6}{12}\\\\=\\frac{13x}{12}\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{13 x}{12}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "13*x/12",
+    "tolerans": null
+  },
+  {
+    "id": "1.1578",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{x^2+4x}{3x}-\\frac{x-2}{3}\\]</p><p>Uttrycket är definierat för \\(x\\ne0\\).</p>",
+    "ledtrad": "<p>Bryt ut x ur den första täljaren. Förkorta faktorer, inte enskilda termer.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut \\(x\\): \\(x^2+4x=x(x+4)\\)</p><div class=\"facit-matte\">\\[\\frac{x^2+4x}{3x}=\\frac{x(x+4)}{3x}=\\frac{x+4}{3}\\]</div></li><li><p class=\"facit-rubrik\">x-termerna tar ut varandra: \\(x-x=0\\)</p><div class=\"facit-matte\">\\[\\frac{x+4-(x-2)}{3}=\\frac6{3}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\quad (x\\ne0)\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "2",
+    "tolerans": null
+  },
+  {
+    "id": "1.1579",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{x^2-4}{x-2}-\\frac{x^2+2x}{x}\\]</p><p>Uttrycket är definierat för \\(x\\ne0,\\ x\\ne2\\).</p>",
+    "ledtrad": "<p>Använd konjugatregeln i första täljaren och bryt ut x i den andra.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-4=(x-2)(x+2)\\)</p><div class=\"facit-matte\">\\[\\frac{x^2-4}{x-2}=x+2\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(x\\) ur \\(x^2+2x\\)</p><div class=\"facit-matte\">\\[\\frac{x^2+2x}{x}=\\frac{x(x+2)}{x}=x+2\\]</div></li><li><p class=\"facit-rubrik\">Samma uttryck subtraheras: \\((x+2)-(x+2)\\)</p><div class=\"facit-matte\">\\[(x+2)-(x+2)=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\quad (x\\ne0,\\ x\\ne2)\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "0",
+    "tolerans": null
+  },
+  {
+    "id": "1.1580",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{x^2-9}{x-3}\\div\\frac{x+3}{2x}\\]</p><p>Uttrycket är definierat för \\(x\\ne-3,\\ x\\ne0,\\ x\\ne3\\).</p>",
+    "ledtrad": "<p>Faktorisera skillnaden av två kvadrater. Division med ett bråk är multiplikation med dess invers.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-9=(x-3)(x+3)\\)</p><div class=\"facit-matte\">\\[\\frac{x^2-9}{x-3}=x+3\\]</div></li><li><p class=\"facit-rubrik\">Invertera divisorn: \\(\\frac ab\\div\\frac cd=\\frac ab\\cdot\\frac dc\\)</p><div class=\"facit-matte\">\\[(x+3)\\cdot\\frac{2x}{x+3}=2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2 x\\quad (x\\ne-3,\\ x\\ne0,\\ x\\ne3)\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "2*x",
+    "tolerans": null
+  },
+  {
+    "id": "1.1581",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x}{7}=-3\\]</p>",
+    "ledtrad": "<p>Multiplicera båda leden med nämnaren.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(7\\)</p><div class=\"facit-matte\">\\[x=7\\cdot(-3)=-21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-21\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -21,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1582",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x}{2}-\\frac{x}{3}=10\\]</p>",
+    "ledtrad": "<p>Multiplicera varje term i båda leden med sex.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort nämnarna med \\(6\\)</p><div class=\"facit-matte\">\\[3x-2x=60\\]</div></li><li><p class=\"facit-rubrik\">En x-term återstår: \\(3x-2x=x\\)</p><div class=\"facit-matte\">\\[x=60\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=60\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1583",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x}{4}+\\frac{x}{6}=5\\]</p>",
+    "ledtrad": "<p>Tolv är delbart med båda nämnarna.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(12\\)</p><div class=\"facit-matte\">\\[3x+2x=60\\]</div></li><li><p class=\"facit-rubrik\">Dividera \\(5x=60\\) med \\(5\\)</p><div class=\"facit-matte\">\\[x=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=12\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1584",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{3x}{4}+1=7\\]</p>",
+    "ledtrad": "<p>Ta först bort ettan genom att subtrahera ett från båda leden.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(1\\) från båda leden</p><div class=\"facit-matte\">\\[\\frac{3x}{4}=6\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med \\(4\\) och dividera med \\(3\\)</p><div class=\"facit-matte\">\\[3x=24\\quad\\Rightarrow\\quad x=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1585",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x}{2}-3=\\frac{x}{4}+5\\]</p>",
+    "ledtrad": "<p>Samla x-termerna i vänsterledet och konstanterna i högerledet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(\\frac{x}{4}\\) och addera \\(3\\)</p><div class=\"facit-matte\">\\[\\frac{x}{2}-\\frac{x}{4}=8\\]</div></li><li><p class=\"facit-rubrik\">Skriv halvan som \\(\\frac{2x}{4}\\)</p><div class=\"facit-matte\">\\[\\frac{2x-x}{4}=8\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera \\(\\frac{x}{4}=8\\) med \\(4\\)</p><div class=\"facit-matte\">\\[x=32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=32\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 32,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1586",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x}{3}-2=\\frac{x}{5}\\]</p>",
+    "ledtrad": "<p>Multiplicera alla termer med femton, även den ensamma tvåan.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(15\\)</p><div class=\"facit-matte\">\\[5x-30=3x\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(5x-3x=30\\)</p><div class=\"facit-matte\">\\[2x=30\\quad\\Rightarrow\\quad x=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=15\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1587",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{2x}{3}-\\frac{x}{4}=-5\\]</p>",
+    "ledtrad": "<p>Multiplicera båda leden med tolv.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort nämnarna med \\(12\\)</p><div class=\"facit-matte\">\\[8x-3x=-60\\]</div></li><li><p class=\"facit-rubrik\">Samla till \\(5x=-60\\)</p><div class=\"facit-matte\">\\[x=-12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-12\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1588",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x}{3}-\\frac{2x}{5}=1\\]</p>",
+    "ledtrad": "<p>Multiplicera båda leden med femton. Skillnaden mellan x-termerna blir negativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort nämnarna med \\(15\\)</p><div class=\"facit-matte\">\\[5x-6x=15\\]</div></li><li><p class=\"facit-rubrik\">Dividera \\(-x=15\\) med \\(-1\\)</p><div class=\"facit-matte\">\\[x=-15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-15\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -15,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1589",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{2x-1}{3}-\\frac{x+2}{4}=\\frac{x}{6}+1\\]</p><p>Svara exakt.</p>",
+    "ledtrad": "<p>Tolv tar bort alla tre nämnarna. Glöm inte att även ettan multipliceras.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(12\\)</p><div class=\"facit-matte\">\\[4(2x-1)-3(x+2)=2x+12\\]</div></li><li><p class=\"facit-rubrik\">Utveckla täljarna och samla till \\(5x-10=2x+12\\)</p><div class=\"facit-matte\">\\[8x-4-3x-6=2x+12\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(2x\\) och addera \\(10\\)</p><div class=\"facit-matte\">\\[3x=22\\quad\\Rightarrow\\quad x=\\frac{22}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\frac{22}{3}\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": "22/3",
+    "tolerans": 0
+  },
+  {
+    "id": "1.1590",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x-2}{3}-\\frac{x+1}{4}=\\frac{x+4}{6}\\]</p>",
+    "ledtrad": "<p>Använd nämnaren tolv och samla sedan x-termerna på samma sida.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera alla bråk med \\(12\\)</p><div class=\"facit-matte\">\\[4(x-2)-3(x+1)=2(x+4)\\]</div></li><li><p class=\"facit-rubrik\">Utveckla parenteserna till \\(x-11=2x+8\\)</p><div class=\"facit-matte\">\\[4x-8-3x-3=2x+8\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(x+8\\) från båda leden</p><div class=\"facit-matte\">\\[-19=x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-19\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -19,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1591",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x+4}{x}=\\frac32\\]</p>",
+    "ledtrad": "<p>Vilket värde får x inte ha? Multiplicera sedan med två gånger x.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nämnaren kräver \\(x\\ne0\\)</p><div class=\"facit-matte\">\\[x\\ne0\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(2x\\)</p><div class=\"facit-matte\">\\[2(x+4)=3x\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(2x\\) från båda leden</p><div class=\"facit-matte\">\\[2x+8=3x\\quad\\Rightarrow\\quad x=8\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera \\(x=8\\) i ursprungsekvationen</p><div class=\"facit-matte\">\\[\\frac{8+4}{8}=\\frac{12}{8}=\\frac32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1592",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{3}{x-1}=\\frac{2}{x+2}\\]</p>",
+    "ledtrad": "<p>Multiplicera båda leden med produkten av nämnarna.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nämnarna kräver \\(x\\ne1\\) och \\(x\\ne-2\\)</p><div class=\"facit-matte\">\\[x\\ne1,\\quad x\\ne-2\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med \\((x-1)(x+2)\\)</p><div class=\"facit-matte\">\\[3(x+2)=2(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Samla termerna i \\(3x+6=2x-2\\)</p><div class=\"facit-matte\">\\[x=-8\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera \\(x=-8\\): båda leden är \\(-\\frac13\\)</p><div class=\"facit-matte\">\\[\\frac{3}{-9}=-\\frac13,\\qquad\\frac{2}{-6}=-\\frac13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-8\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -8,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1593",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x+1}{x-2}-\\frac{x+4}{x-2}=\\frac12\\]</p>",
+    "ledtrad": "<p>Bråken i vänsterledet har samma nämnare. Subtrahera hela den andra täljaren.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nämnaren kräver \\(x\\ne2\\)</p><div class=\"facit-matte\">\\[x\\ne2\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\((x+1)-(x+4)=-3\\)</p><div class=\"facit-matte\">\\[\\frac{-3}{x-2}=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(2(x-2)\\)</p><div class=\"facit-matte\">\\[-6=x-2\\quad\\Rightarrow\\quad x=-4\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera \\(x=-4\\): nämnaren är \\(-6\\)</p><div class=\"facit-matte\">\\[\\frac{-3}{-6}-\\frac0{-6}=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-4\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1594",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{2}{x-1}-\\frac{3}{x+1}=\\frac{2x-7}{x^2-1}\\]</p>",
+    "ledtrad": "<p>Faktorisera x²−1. Då kan samma produkt ta bort alla tre nämnarna.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-1=(x-1)(x+1)\\)</p><div class=\"facit-matte\">\\[x\\ne1,\\quad x\\ne-1\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\((x-1)(x+1)\\)</p><div class=\"facit-matte\">\\[2(x+1)-3(x-1)=2x-7\\]</div></li><li><p class=\"facit-rubrik\">Samla till \\(-x+5=2x-7\\)</p><div class=\"facit-matte\">\\[2x+2-3x+3=2x-7\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(x+7\\) och dividera med \\(3\\)</p><div class=\"facit-matte\">\\[12=3x\\quad\\Rightarrow\\quad x=4\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera \\(x=4\\): båda leden är \\(\\frac1{15}\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac23-\\frac35=\\frac1{15}\\\\\\frac{2\\cdot4-7}{4^2-1}=\\frac1{15}\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1595",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{x}{9}+\\frac{x}{9}\\]</p>",
+    "ledtrad": "<p>Nämnaren är densamma. Lägg ihop täljarna.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera niondelar: \\(\\frac a9+\\frac b9=\\frac{a+b}{9}\\)</p><div class=\"facit-matte\">\\[\\frac{x+x}{9}=\\frac{2x}{9}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2 x}{9}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "2*x/9",
+    "tolerans": null
+  },
+  {
+    "id": "1.1596",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{8x}{12}\\]</p>",
+    "ledtrad": "<p>Både åtta och tolv är delbara med fyra.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare med \\(4\\)</p><div class=\"facit-matte\">\\[\\frac{8x}{12}=\\frac{8x/4}{12/4}=\\frac{2x}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2 x}{3}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "2*x/3",
+    "tolerans": null
+  },
+  {
+    "id": "1.1597",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{x}{5}+\\frac{x}{10}\\]</p>",
+    "ledtrad": "<p>En femtedel är två tiondelar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng femtedelarna med \\(\\frac22\\)</p><div class=\"facit-matte\">\\[\\frac{x}{5}=\\frac{2x}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(2x+x\\) över samma nämnare</p><div class=\"facit-matte\">\\[\\frac{2x+x}{10}=\\frac{3x}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3 x}{10}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "3*x/10",
+    "tolerans": null
+  },
+  {
+    "id": "1.1598",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{7x}{8}-\\frac{x}{4}\\]</p>",
+    "ledtrad": "<p>Skriv fjärdedelarna som åttondelar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng med \\(\\frac22=1\\)</p><div class=\"facit-matte\">\\[\\frac{x}{4}=\\frac{2x}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(7x-2x=5x\\)</p><div class=\"facit-matte\">\\[\\frac{7x}{8}-\\frac{2x}{8}=\\frac{5x}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5 x}{8}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "5*x/8",
+    "tolerans": null
+  },
+  {
+    "id": "1.1599",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{2x}{3}-\\frac{x}{2}\\]</p>",
+    "ledtrad": "<p>Använd sex som gemensam nämnare.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng båda bråken till nämnaren \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{2x}{3}=\\frac{4x}{6},\\qquad\\frac{x}{2}=\\frac{3x}{6}\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden i täljarna är \\(4x-3x=x\\)</p><div class=\"facit-matte\">\\[\\frac{4x-3x}{6}=\\frac{x}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{x}{6}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "x/6",
+    "tolerans": null
+  },
+  {
+    "id": "1.1600",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{3x}{5}+\\frac{x}{4}\\]</p>",
+    "ledtrad": "<p>Vilket litet tal är delbart med både fem och fyra?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till gemensamma nämnaren \\(20\\)</p><div class=\"facit-matte\">\\[\\frac{3x}{5}=\\frac{12x}{20},\\qquad\\frac{x}{4}=\\frac{5x}{20}\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(12x+5x\\)</p><div class=\"facit-matte\">\\[\\frac{12x+5x}{20}=\\frac{17x}{20}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{17 x}{20}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "17*x/20",
+    "tolerans": null
+  },
+  {
+    "id": "1.1601",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{x}{2}-\\frac{x}{5}-\\frac{x}{10}\\]</p>",
+    "ledtrad": "<p>Skriv alla tre termer som tiondelar. Båda de sista termerna ska subtraheras.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare för alla tre bråk: \\(10\\)</p><div class=\"facit-matte\">\\[\\frac{5x}{10}-\\frac{2x}{10}-\\frac{x}{10}=\\frac{2x}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(2\\)</p><div class=\"facit-matte\">\\[\\frac{2x}{10}=\\frac{x}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{x}{5}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "x/5",
+    "tolerans": null
+  },
+  {
+    "id": "1.1602",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{x}{3}+\\frac{x}{4}+\\frac{x}{6}\\]</p>",
+    "ledtrad": "<p>Skriv alla tre bråk som tolftedelar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: \\(12\\)</p><div class=\"facit-matte\">\\[\\frac{4x}{12}+\\frac{3x}{12}+\\frac{2x}{12}=\\frac{9x}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(3\\)</p><div class=\"facit-matte\">\\[\\frac{9x}{12}=\\frac{3x}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3 x}{4}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "3*x/4",
+    "tolerans": null
+  },
+  {
+    "id": "1.1603",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{5x}{6}-\\frac{x}{4}\\]</p>",
+    "ledtrad": "<p>Skriv sjättedelar och fjärdedelar som tolftedelar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till nämnaren \\(12\\)</p><div class=\"facit-matte\">\\[\\frac{5x}{6}=\\frac{10x}{12},\\qquad\\frac{x}{4}=\\frac{3x}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(10x-3x\\)</p><div class=\"facit-matte\">\\[\\frac{10x-3x}{12}=\\frac{7x}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7 x}{12}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "7*x/12",
+    "tolerans": null
+  },
+  {
+    "id": "1.1604",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{4x}{3}-x\\]</p>",
+    "ledtrad": "<p>Skriv den hela x-termen som tredjedelar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(x=\\frac{3x}{3}\\)</p><div class=\"facit-matte\">\\[\\frac{4x}{3}-x=\\frac{4x-3x}{3}=\\frac{x}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{x}{3}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "x/3",
+    "tolerans": null
+  },
+  {
+    "id": "1.1605",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[2x-\\frac{x}{2}-\\frac{x}{4}\\]</p>",
+    "ledtrad": "<p>Skriv alla termer som fjärdedelar, även två gånger x.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd \\(2x=\\frac{8x}{4}\\) och \\(\\frac{x}{2}=\\frac{2x}{4}\\)</p><div class=\"facit-matte\">\\[\\frac{8x}{4}-\\frac{2x}{4}-\\frac{x}{4}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera de två sista täljarna: \\(8x-2x-x=5x\\)</p><div class=\"facit-matte\">\\[\\frac{8x-2x-x}{4}=\\frac{5x}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5 x}{4}\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "5*x/4",
+    "tolerans": null
+  },
+  {
+    "id": "1.1606",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{2x+1}{3}-\\frac{x-2}{4}-\\frac{5x+10}{12}\\]</p>",
+    "ledtrad": "<p>Tolv fungerar för alla nämnare. Behåll parenteserna när du skriver ihop täljarna.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De två första bråkens gemensamma nämnare är \\(12\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{2x+1}{3}-\\frac{x-2}{4}\\\\=\\frac{8x+4-3x+6}{12}\\\\=\\frac{5x+10}{12}\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Samma bråk subtraheras: \\(a-a=0\\)</p><div class=\"facit-matte\">\\[\\frac{5x+10}{12}-\\frac{5x+10}{12}=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "0",
+    "tolerans": null
+  },
+  {
+    "id": "1.1607",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{4x^2-2x}{2x}-(x-3)\\]</p><p>Uttrycket är definierat för \\(x\\ne0\\).</p>",
+    "ledtrad": "<p>Bryt ut två gånger x ur täljaren. Förkorta innan du tar bort den sista parentesen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut \\(2x\\): \\(4x^2-2x=2x(2x-1)\\)</p><div class=\"facit-matte\">\\[\\frac{4x^2-2x}{2x}=2x-1\\]</div></li><li><p class=\"facit-rubrik\">Fördela minustecknet: \\(-(x-3)=-x+3\\)</p><div class=\"facit-matte\">\\[2x-1-x+3=x+2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x + 2\\quad (x\\ne0)\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "x+2",
+    "tolerans": null
+  },
+  {
+    "id": "1.1608",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "familj": "Bråk i uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket.</p><p>\\[\\frac{x^2-16}{x+4}\\cdot\\frac{x}{x^2-4x}\\]</p><p>Uttrycket är definierat för \\(x\\ne-4,\\ x\\ne0,\\ x\\ne4\\).</p>",
+    "ledtrad": "<p>Faktorisera både skillnaden av kvadrater och nämnaren i det andra bråket.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-16=(x-4)(x+4)\\)</p><div class=\"facit-matte\">\\[\\frac{x^2-16}{x+4}=x-4\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(x\\): \\(x^2-4x=x(x-4)\\)</p><div class=\"facit-matte\">\\[\\frac{x}{x^2-4x}=\\frac1{x-4}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta faktorn \\(x-4\\)</p><div class=\"facit-matte\">\\[(x-4)\\cdot\\frac1{x-4}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\quad (x\\ne-4,\\ x\\ne0,\\ x\\ne4)\\).</p></div>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "1",
+    "tolerans": null
+  },
+  {
+    "id": "1.1609",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x}{9}=4\\]</p>",
+    "ledtrad": "<p>Multiplikation med nio tar bort divisionen med nio.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(9\\)</p><div class=\"facit-matte\">\\[x=4\\cdot9=36\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=36\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1610",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x}{6}=-2\\]</p>",
+    "ledtrad": "<p>Multiplicera båda leden med sex och behåll minustecknet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(6\\)</p><div class=\"facit-matte\">\\[x=(-2)\\cdot6=-12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-12\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1611",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x}{3}+5=-2\\]</p>",
+    "ledtrad": "<p>Subtrahera fem från båda leden innan du tar bort nämnaren.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(5\\) från båda leden</p><div class=\"facit-matte\">\\[\\frac{x}{3}=-7\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(3\\)</p><div class=\"facit-matte\">\\[x=-21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-21\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -21,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1612",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{4x}{5}-3=1\\]</p>",
+    "ledtrad": "<p>Lägg till tre i båda leden innan du tar bort divisionen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera \\(3\\) till båda leden</p><div class=\"facit-matte\">\\[\\frac{4x}{5}=4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med \\(5\\) och dividera med \\(4\\)</p><div class=\"facit-matte\">\\[4x=20\\quad\\Rightarrow\\quad x=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1613",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x}{3}+\\frac{x}{4}=7\\]</p>",
+    "ledtrad": "<p>Multiplicera båda leden med tolv.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nämnarna tas bort med \\(12\\)</p><div class=\"facit-matte\">\\[4x+3x=84\\]</div></li><li><p class=\"facit-rubrik\">Dividera \\(7x=84\\) med \\(7\\)</p><div class=\"facit-matte\">\\[x=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=12\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1614",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{5x}{6}-\\frac{x}{2}=-3\\]</p>",
+    "ledtrad": "<p>Gör om halvorna till sjättedelar, eller multiplicera båda leden med sex.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(6\\)</p><div class=\"facit-matte\">\\[5x-3x=-18\\]</div></li><li><p class=\"facit-rubrik\">Samla till \\(2x=-18\\)</p><div class=\"facit-matte\">\\[x=-9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-9\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -9,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1615",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x}{5}-2=\\frac{x}{7}+4\\]</p>",
+    "ledtrad": "<p>Samla bråken på ena sidan och konstanterna på den andra.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(\\frac{x}{7}\\) och addera \\(2\\)</p><div class=\"facit-matte\">\\[\\frac{x}{5}-\\frac{x}{7}=6\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(35\\)</p><div class=\"facit-matte\">\\[7x-5x=210\\]</div></li><li><p class=\"facit-rubrik\">Dividera \\(2x=210\\) med \\(2\\)</p><div class=\"facit-matte\">\\[x=105\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=105\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 105,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1616",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{3x}{4}-\\frac{x}{2}=-2\\]</p>",
+    "ledtrad": "<p>Multiplicera båda leden med fyra.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort nämnarna med \\(4\\)</p><div class=\"facit-matte\">\\[3x-2x=-8\\]</div></li><li><p class=\"facit-rubrik\">En x-term återstår: \\(3x-2x=x\\)</p><div class=\"facit-matte\">\\[x=-8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-8\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -8,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1617",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x}{2}+1=\\frac{x}{3}-6\\]</p>",
+    "ledtrad": "<p>Multiplicera med sex. Båda konstanterna måste också multipliceras.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(6\\)</p><div class=\"facit-matte\">\\[3x+6=2x-36\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(2x+6\\) från båda leden</p><div class=\"facit-matte\">\\[x=-42\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-42\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -42,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1618",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x}{4}+\\frac{x}{6}=\\frac{x}{3}+2\\]</p>",
+    "ledtrad": "<p>Tolv tar bort alla nämnare. Multiplicera även tvåan med tolv.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(12\\)</p><div class=\"facit-matte\">\\[3x+2x=4x+24\\]</div></li><li><p class=\"facit-rubrik\">Samla vänsterledet: \\(5x=4x+24\\)</p><div class=\"facit-matte\">\\[x=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=24\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1619",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{3x-2}{5}+\\frac{x+1}{2}=\\frac{7x+4}{10}\\]</p><p>Svara exakt.</p>",
+    "ledtrad": "<p>Multiplicera med tio och samla sedan alla x-termer i samma led.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(10\\)</p><div class=\"facit-matte\">\\[2(3x-2)+5(x+1)=7x+4\\]</div></li><li><p class=\"facit-rubrik\">Samla termerna: \\(11x+1=7x+4\\)</p><div class=\"facit-matte\">\\[6x-4+5x+5=7x+4\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(7x+1\\) och dividera med \\(4\\)</p><div class=\"facit-matte\">\\[4x=3\\quad\\Rightarrow\\quad x=\\frac34\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\frac{3}{4}\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": "3/4",
+    "tolerans": 0
+  },
+  {
+    "id": "1.1620",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x-1}{3}-\\frac{x+2}{4}=\\frac{x-5}{2}\\]</p>",
+    "ledtrad": "<p>Multiplicera med tolv. Ta sedan bort parenteserna, med rätt tecken.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(12\\)</p><div class=\"facit-matte\">\\[4(x-1)-3(x+2)=6(x-5)\\]</div></li><li><p class=\"facit-rubrik\">Utveckla till \\(x-10=6x-30\\)</p><div class=\"facit-matte\">\\[4x-4-3x-6=6x-30\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(30\\) och subtrahera \\(x\\)</p><div class=\"facit-matte\">\\[20=5x\\quad\\Rightarrow\\quad x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1621",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{2x-1}{x+3}=3\\]</p>",
+    "ledtrad": "<p>Nämnaren får inte vara noll. Multiplicera båda leden med hela nämnaren.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nämnaren kräver \\(x\\ne-3\\)</p><div class=\"facit-matte\">\\[x\\ne-3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(x+3\\)</p><div class=\"facit-matte\">\\[2x-1=3(x+3)\\]</div></li><li><p class=\"facit-rubrik\">Samla termerna i \\(2x-1=3x+9\\)</p><div class=\"facit-matte\">\\[-10=x\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera \\(x=-10\\) i ursprungsekvationen</p><div class=\"facit-matte\">\\[\\frac{2\\cdot(-10)-1}{-10+3}=\\frac{-21}{-7}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-10\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -10,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1622",
+    "kap": 1,
+    "omr": "ekv_brak",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Ekvationer med nämnare",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen.</p><p>\\[\\frac{x+2}{x-1}=\\frac{x+5}{x+1}\\]</p>",
+    "ledtrad": "<p>Multiplicera med produkten av nämnarna. Se vad som händer med kvadrattermerna.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nämnarna kräver \\(x\\ne1\\) och \\(x\\ne-1\\)</p><div class=\"facit-matte\">\\[x\\ne1,\\quad x\\ne-1\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med \\((x-1)(x+1)\\)</p><div class=\"facit-matte\">\\[(x+2)(x+1)=(x+5)(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Utveckla produkterna och stryk \\(x^2\\) i båda leden</p><div class=\"facit-matte\">\\[\\begin{gathered}x^2+3x+2=x^2+4x-5\\\\3x+2=4x-5\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(3x\\) och addera \\(5\\)</p><div class=\"facit-matte\">\\[x=7\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera \\(x=7\\): båda leden är \\(\\frac32\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{7+2}{7-1}=\\frac96=\\frac32\\\\\\frac{7+5}{7+1}=\\frac{12}8=\\frac32\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\).</p></div>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0
   }
-
 ];

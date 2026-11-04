@@ -20,6 +20,10 @@ Regelverket för detta repo finns i Uppgiftslabbet. Läs det **innan** du ändra
 
 Rutinen för att åtgärda felrapporter, formuleringar att undvika, kursmappning (mato1 = Ma3c osv.), planeringarnas plats och moment/delmoment-omstruktureringen står i `C:\Users\Hedav\code\Uppgiftslabbet\CLAUDE.md` (avsnitten "Felrapporter från Kunskapsgymmet", "Kurser och planeringar", "Pågående omstrukturering"). Läs dem först.
 
+## Facit
+
+Alla facit, även delkortens, följer Uppgiftslabbets `agent/FACITMALL.md` (användarbeslut 2026-11-04): numrerad steglista, formeln utskriven i en rubrik, grafisk lösning vid andragradsekvationer och en svarsrad.
+
 ## Tidigare beslut
 
 Läs även `AGENTS.md` och Uppgiftslabbets `agent/FELMONSTER_OCH_BESLUT.md`.

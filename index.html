@@ -410,6 +410,10 @@ a{color:inherit}
 .kg-online-lista li.borta:before{background:var(--warn)}
 .kg-online-lista li.borta small.fokus{color:var(--warn);font-weight:650}
 /* Lärarens "Just nu": fokusstatus per elev */
+#larkropp > .toppvy{max-width:100%;overflow-x:auto;box-sizing:border-box}
+#larkropp > .toppvy button{flex-shrink:0;white-space:nowrap}
+.larlive-tabellwrap{max-width:100%;overflow-x:auto}
+.larlive-uppgifter{font-weight:700;font-variant-numeric:tabular-nums}
 .larlive-tabell{width:100%;border-collapse:collapse;margin-top:12px;font-size:13px}
 .larlive-tabell th{text-align:left;font-size:11px;font-weight:700;color:var(--ink3);letter-spacing:.03em;padding:6px 8px;border-bottom:1px solid var(--hair)}
 .larlive-tabell td{padding:9px 8px;border-bottom:1px solid var(--hair);vertical-align:middle}
@@ -418,7 +422,7 @@ a{color:inherit}
 .larlive-tabell tr.borta .larlive-prick{background:var(--warn);opacity:1;box-shadow:0 0 0 3px var(--warnSoft)}
 .larlive-tabell tr.borta td:nth-child(2){color:var(--warn);font-weight:650}
 .larlive-tabell tr.inaktiv td{color:var(--ink3)}
-@media (max-width:560px){.larlive-tabell th:nth-child(4),.larlive-tabell td:nth-child(4){display:none}}
+@media (max-width:560px){.larlive-tabell th:nth-child(5),.larlive-tabell td:nth-child(5){display:none}}
 /* Den nyvunna biten av baren blinkar grönt på plats, så eleven ser exakt
    hur mycket just det här passet flyttade mätaren. */
 @keyframes xpny{
@@ -16770,13 +16774,15 @@ function larLiveRita(){
       ${statRuta(String(nBorta),"Utflikade just nu")}
       ${statRuta(String(rader.length-nAktiv-nBorta),"Inte aktiva")}
     </div>
-    <p class="lartext liten">Uppdateras automatiskt. <b>Utflikad</b> betyder att Kunskapsgymmet är öppet men inte syns eller inte har fokus, till exempel för att eleven har bytt flik, minimerat eller klickat i ett annat fönster. Totalt räknas för i dag.${larLive.fel?" Senaste hämtningen misslyckades; visar föregående status.":""}</p>
-    ${rader.length?`<table class="larlive-tabell"><thead><tr><th>Elev</th><th>Status</th><th>Utflikad totalt i dag</th><th>Antal gånger</th></tr></thead><tbody>
+    <p class="lartext liten">Uppdateras automatiskt. <b>Utflikad</b> betyder att Kunskapsgymmet är öppet men inte syns eller inte har fokus, till exempel för att eleven har bytt flik, minimerat eller klickat i ett annat fönster. Totalt räknas för i dag. <b>Uppgifter i dag</b> är antalet besvarade uppgifter i alla kurser, både rätt och fel.${larLive.fel?" Senaste hämtningen misslyckades; visar föregående status.":""}</p>
+    ${rader.some(x=>x.uppgifter_idag==null)?`<p class="lartext liten">Antal uppgifter behöver aktiveras av administratören. Streck betyder att uppgift saknas.</p>`:""}
+    ${rader.length?`<div class="larlive-tabellwrap"><table class="larlive-tabell"><thead><tr><th scope="col">Elev</th><th scope="col">Status</th><th scope="col">Uppgifter i dag</th><th scope="col">Utflikad totalt i dag</th><th scope="col">Antal gånger</th></tr></thead><tbody>
     ${rader.map(x=>`<tr class="${x.borta?"borta":x.aktiv?"aktiv":"inaktiv"}">
       <td>${esc(x.namn||"Okänd")}</td>
       <td><span class="larlive-prick" aria-hidden="true"></span>${x.borta?`Utflikad i ${larLiveTid(x.sedanSek)}`:x.aktiv?`Aktiv${x.sedanSek>=60?` i ${larLiveTid(x.sedanSek)}`:""}`:x.senast?`Inte aktiv sedan ${new Date(Date.parse(x.senast)+larLive.offset).toLocaleTimeString("sv-SE",{hour:"2-digit",minute:"2-digit"})}`:"Inte aktiv i dag"}</td>
+      <td class="larlive-uppgifter">${x.uppgifter_idag!=null && Number.isSafeInteger(Number(x.uppgifter_idag)) && Number(x.uppgifter_idag)>=0?formatStatTal(x.uppgifter_idag):"–"}</td>
       <td>${x.totalt>=1?larLiveTid(x.totalt):"–"}</td>
-      <td>${Number(x.byten)||"–"}</td></tr>`).join("")}</tbody></table>`
+      <td>${Number(x.byten)||"–"}</td></tr>`).join("")}</tbody></table></div>`
     :`<div class="empty">Gruppen har inga elever än.</div>`}`;
 }
 async function larRitaOversikt(){

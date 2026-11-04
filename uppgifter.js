@@ -102801,7 +102801,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En kropp med massan 60 kg absorberar 0,03 J strålningsenergi. Bestäm den absorberade dosen i mGy.</p>",
-    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[D=0{,}03/60\\]</p><p>\\[D\\approx0{,}0005\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=0{,}0005\\cdot1000\\]</p><p>\\[D\\approx0{,}5\\ \\mathrm{mGy}\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><p>Dela den absorberade energin med den massa som tar upp energin.</p><div class=\"facit-matte\">\\[D=\\frac{0{,}03\\,\\mathrm J}{60\\,\\mathrm{kg}}=0{,}0005\\,\\mathrm{Gy}\\]</div></li><li><p class=\"facit-rubrik\">Omvandling: \\(1\\,\\mathrm{Gy}=1000\\,\\mathrm{mGy}\\)</p><div class=\"facit-matte\">\\[D=0{,}0005\\cdot1000\\,\\mathrm{mGy}=0{,}5\\,\\mathrm{mGy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5 mGy.</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -102813,7 +102813,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+    "ledtrad": "<p>Börja med energin per kilogram. Omvandla sedan från Gy till mGy.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mGy",
     "traningsniva": 2,
@@ -102832,7 +102832,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En vävnad har massan 2,4 kg och får den absorberade dosen 3,5 mGy. Hur mycket strålningsenergi tar den upp? (Svara i mJ.)</p>",
-    "s": "<div class=\"facit-v2\"><p>1 mGy är 1 mJ/kg.</p><p><div class=\"facit-v2\"><p>\\[E=3{,}5\\cdot2{,}4\\]</p><p>\\[E\\approx8{,}4\\ \\mathrm{mJ}\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dosens enhet: \\(1\\,\\mathrm{mGy}=1\\,\\mathrm{mJ/kg}\\)</p><p>Dosen anger hur mycket energi varje kilogram tar upp.</p><div class=\"facit-matte\">\\[D=3{,}5\\,\\mathrm{mJ/kg}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut energin: \\(E=Dm\\)</p><div class=\"facit-matte\">\\[E=3{,}5\\,\\mathrm{mJ/kg}\\cdot2{,}4\\,\\mathrm{kg}=8{,}4\\,\\mathrm{mJ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,4 mJ absorberas.</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -102844,7 +102844,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+    "ledtrad": "<p>Du känner energin per kilogram och antalet kilogram. Hur får du hela energin?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mJ",
     "traningsniva": 1,
@@ -102863,7 +102863,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En vävnad absorberar 4,5 mJ strålningsenergi och får dosen 1,8 mGy. Hur stor massa har vävnaden?</p>",
-    "s": "<div class=\"facit-v2\"><p>1 mGy är 1 mJ/kg.</p><p><div class=\"facit-v2\"><p>\\[m=4{,}5/1{,}8\\]</p><p>\\[m\\approx2{,}5\\ \\mathrm{kg}\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><p>Både energin och dosen har prefixet milli. De kan användas direkt tillsammans.</p><div class=\"facit-matte\">\\[D=1{,}8\\,\\mathrm{mGy}=1{,}8\\,\\mathrm{mJ/kg}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut massan: \\(m=E/D\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}m&=\\frac{4{,}5\\,\\mathrm{mJ}}{1{,}8\\,\\mathrm{mJ/kg}}\\\\&=2{,}5\\,\\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 kg.</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -102875,7 +102875,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+    "ledtrad": "<p>Hur många kilogram kan ta upp den totala energin när du känner energin per kilogram?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
     "traningsniva": 1,
@@ -103633,7 +103633,7 @@ window.BANK = [
     "typ": "enheten gray",
     "poang": "(1/0/0)",
     "t": "<p>Vilken enhet används för absorberad dos?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Absorberad dos mäts i gray.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En gray motsvarar en joule absorberad energi per kilogram.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> gray (Gy).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><p>Absorberad dos beskriver absorberad energi per kilogram. Den säger inte hur många kärnor som sönderfaller.</p></li><li><p class=\"facit-rubrik\">Enhetssamband: \\(1\\,\\mathrm{Gy}=1\\,\\mathrm{J/kg}\\)</p><p>Enheten kallas gray och förkortas Gy.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> gray (Gy).</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "begrepp"
@@ -103645,7 +103645,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Bq anger sönderfall per sekund. Gy anger absorberad energi per kilogram. Sv används för viktad stråldos.</p>",
+    "ledtrad": "<p>Utgå från vilken enhet energi per kilogram har och vad den dosenheten heter.</p>",
     "alternativ": [
       {
         "txt": "gray (Gy)",
@@ -103684,7 +103684,7 @@ window.BANK = [
     "typ": "definition av gray",
     "poang": "(1/0/0)",
     "t": "<p>Vad betyder \\(1\\,\\mathrm{Gy}\\)?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En gray är en joule absorberad strålningsenergi per kilogram.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,\\mathrm{J/kg}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Definitionen av gray: \\(1\\,\\mathrm{Gy}=1\\,\\mathrm{J/kg}\\)</p><p>En absorberad dos på 1 Gy betyder att varje kilogram i medeltal har tagit upp 1 J strålningsenergi. Det är energi per massa, inte energi per sekund.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,\\mathrm{J/kg}\\).</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "begrepp"
@@ -103696,7 +103696,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Bq anger sönderfall per sekund. Gy anger absorberad energi per kilogram. Sv används för viktad stråldos.</p>",
+    "ledtrad": "<p>Vilka två storheter jämförs när man anger absorberad dos?</p>",
     "alternativ": [
       {
         "txt": "1 J/kg",
@@ -104468,7 +104468,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Omvandla 0,0065 Gy till mGy.</p>",
-    "s": "<div class=\"facit-v2\"><p>Milli betyder en tusendel.</p><p><div class=\"facit-v2\"><p>\\[D=0{,}0065\\cdot1000\\]</p><p>\\[D\\approx6{,}5\\ \\mathrm{mGy}\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling: \\(1\\,\\mathrm{Gy}=1000\\,\\mathrm{mGy}\\)</p><p>Milli betyder en tusendel. Det går därför tusen milligray på en gray.</p></li><li><p class=\"facit-rubrik\">Skriv samma dos i milligray</p><div class=\"facit-matte\">\\[D=0{,}0065\\cdot1000\\,\\mathrm{mGy}=6{,}5\\,\\mathrm{mGy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,5 mGy.</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -104480,7 +104480,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>1 Gy = 1 000 mGy.</p>",
+    "ledtrad": "<p>När du använder en mindre enhet behövs ett större antal. Vad betyder prefixet milli?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mGy",
     "traningsniva": 1,
@@ -104499,7 +104499,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Omvandla 6 mGy till Gy.</p>",
-    "s": "<div class=\"facit-v2\"><p>Milli betyder en tusendel.</p><p><div class=\"facit-v2\"><p>\\[D=6\\cdot0{,}001\\]</p><p>\\[D\\approx0{,}006\\ \\mathrm{Gy}\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milligray till gray: \\(1\\,\\mathrm{mGy}=10^{-3}\\,\\mathrm{Gy}\\)</p><p>Milli betyder en tusendel.</p></li><li><p class=\"facit-rubrik\">Skriv samma dos i gray</p><div class=\"facit-matte\">\\[D=6\\cdot10^{-3}\\,\\mathrm{Gy}=0{,}006\\,\\mathrm{Gy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,006 Gy.</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -104511,7 +104511,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>1 Gy = 1 000 mGy.</p>",
+    "ledtrad": "<p>När du går från mGy till den större enheten Gy ska talvärdet bli mindre.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "Gy",
     "traningsniva": 1,
@@ -109725,7 +109725,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En kropp har massan 60 kg och absorberar 3,0 mJ gammastrålning. Strålningens viktfaktor är 1.</p><p>a) Bestäm den absorberade dosen i µGy.</p><p>b) Bestäm den ekvivalenta dosen i µSv.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E=3{,}0\\cdot10^{-3}\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[D=0{,}0030/60\\]</p><p>\\[D\\approx5\\cdot10^{-5}\\ \\mathrm{Gy}\\]</p></div></p><p>\\[D=50\\ \\mathrm{\\mu Gy}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[H=1\\cdot50=50\\ \\mathrm{\\mu Sv}\\]</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla den absorberade energin</p><div class=\"facit-matte\">\\[E=3{,}0\\,\\mathrm{mJ}=3{,}0\\cdot10^{-3}\\,\\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}D&=\\frac{3{,}0\\cdot10^{-3}}{60}\\,\\mathrm{Gy}\\\\&=5{,}0\\cdot10^{-5}\\,\\mathrm{Gy}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Mikrogray: \\(1\\,\\mathrm{Gy}=10^6\\,\\mathrm{\\mu Gy}\\)</p><div class=\"facit-matte\">\\[D=5{,}0\\cdot10^{-5}\\cdot10^6\\,\\mathrm{\\mu Gy}=50\\,\\mathrm{\\mu Gy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 µGy.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ekvivalent dos: \\(H=w_R D\\)</p><p>Gamma har här viktfaktorn 1. Den ekvivalenta dosen får samma talvärde som den absorberade, men enheten är Sv, inte Gy.</p><div class=\"facit-matte\">\\[H=1\\cdot50\\,\\mathrm{\\mu Sv}=50\\,\\mathrm{\\mu Sv}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 µSv.</p></div></div></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -109744,14 +109744,14 @@ window.BANK = [
       true,
       true
     ],
-    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+    "ledtrad": "<p>Börja med absorberad energi per kilogram. Skilj sedan mellan absorberad och viktad dos.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En kropp har massan 60 kg och absorberar 3,0 mJ gammastrålning. Strålningens viktfaktor är 1.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "En kropp med massan 60 kg absorberar 3,0 mJ strålningsenergi. Bestäm den absorberade dosen i µGy.",
-        "s": "<div class=\"facit-v2\"><p>\\[E=3{,}0\\cdot10^{-3}\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[D=0{,}0030/60\\]</p><p>\\[D\\approx5\\cdot10^{-5}\\ \\mathrm{Gy}\\]</p></div></p><p>\\[D=50\\ \\mathrm{\\mu Gy}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla den absorberade energin</p><div class=\"facit-matte\">\\[E=3{,}0\\,\\mathrm{mJ}=3{,}0\\cdot10^{-3}\\,\\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}D&=\\frac{3{,}0\\cdot10^{-3}}{60}\\,\\mathrm{Gy}\\\\&=5{,}0\\cdot10^{-5}\\,\\mathrm{Gy}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Mikrogray: \\(1\\,\\mathrm{Gy}=10^6\\,\\mathrm{\\mu Gy}\\)</p><div class=\"facit-matte\">\\[D=5{,}0\\cdot10^{-5}\\cdot10^6\\,\\mathrm{\\mu Gy}=50\\,\\mathrm{\\mu Gy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 µGy.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 50,
         "självrättning": true,
@@ -109762,7 +109762,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+        "ledtrad": "<p>Omvandla millijoule till joule innan du beräknar energin per kilogram.</p>",
         "t": "<p>En kropp med massan 60 kg absorberar 3,0 mJ strålningsenergi. Bestäm den absorberade dosen i µGy.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
@@ -109770,7 +109770,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En vävnad får den absorberade dosen 50 µGy av gamma. Viktfaktorn är 1. Bestäm den ekvivalenta dosen i µSv.",
-        "s": "<div class=\"facit-v2\"><p>\\[H=1\\cdot50=50\\ \\mathrm{\\mu Sv}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ekvivalent dos: \\(H=w_R D\\)</p><p>Gamma har här viktfaktorn 1. Den ekvivalenta dosen får samma talvärde som den absorberade, men enheten är Sv, inte Gy.</p><div class=\"facit-matte\">\\[H=1\\cdot50\\,\\mathrm{\\mu Sv}=50\\,\\mathrm{\\mu Sv}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 µSv.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 50,
         "självrättning": true,
@@ -109781,7 +109781,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
+        "ledtrad": "<p>Hur påverkar strålningens viktfaktor sambandet mellan absorberad och ekvivalent dos?</p>",
         "t": "<p>En vävnad får den absorberade dosen 50 µGy av gamma. Viktfaktorn är 1. Bestäm den ekvivalenta dosen i µSv.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
@@ -109819,7 +109819,7 @@ window.BANK = [
     "typ": "skilja aktivitet från absorberad dos",
     "poang": "(1/0/0)",
     "t": "<p>Vilket av följande beskriver bäst skillnaden mellan Bq och Gy?</p><p>Markera det korrekta alternativet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bq beskriver hur ofta kärnor sönderfaller.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Gy beskriver absorberad strålningsenergi per kilogram.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Aktivitetens enhet: \\(1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}}\\)</p><p>Becquerel anger antalet kärnsönderfall per sekund i en strålkälla.</p></li><li><p class=\"facit-rubrik\">Dosens enhet: \\(1\\,\\mathrm{Gy}=1\\,\\mathrm{J/kg}\\)</p><p>Gray anger absorberad energi per kilogram i det som träffas av strålningen. Samma aktivitet behöver inte ge samma dos: bland annat partikelenergi och absorberad andel spelar roll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bq mäter sönderfall per sekund; Gy mäter absorberad energi per kilogram.</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "begrepp"
@@ -109831,7 +109831,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Bq anger sönderfall per sekund. Gy anger absorberad energi per kilogram. Sv används för viktad stråldos.</p>",
+    "ledtrad": "<p>Handlar storheten om strålkällans sönderfall eller om energin som tas upp i kroppen?</p>",
     "alternativ": [
       {
         "txt": "Bq mäter aktivitet och Gy mäter absorberad dos.",
@@ -109869,7 +109869,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En vävnad har massan 4,2 kg och får den absorberade dosen 1,5 mGy. Hur mycket strålningsenergi tar den upp? (Svara i mJ.)</p>",
-    "s": "<div class=\"facit-v2\"><p>1 mGy är 1 mJ/kg.</p><p><div class=\"facit-v2\"><p>\\[E=1{,}5\\cdot4{,}2\\]</p><p>\\[E\\approx6{,}3\\ \\mathrm{mJ}\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dosens enhet: \\(1\\,\\mathrm{mGy}=1\\,\\mathrm{mJ/kg}\\)</p><div class=\"facit-matte\">\\[D=1{,}5\\,\\mathrm{mJ/kg}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut energin: \\(E=Dm\\)</p><p>Multiplicera energin per kilogram med vävnadens massa.</p><div class=\"facit-matte\">\\[E=1{,}5\\,\\mathrm{mJ/kg}\\cdot4{,}2\\,\\mathrm{kg}=6{,}3\\,\\mathrm{mJ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,3 mJ absorberas.</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -109881,7 +109881,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+    "ledtrad": "<p>Dosen anger energin per kilogram. Använd vävnadens massa för att få totalenergin.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mJ",
     "traningsniva": 1,
@@ -115979,7 +115979,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En kropp med massan 60 kg absorberar 0,012 J strålningsenergi. Bestäm den absorberade dosen i mGy.</p>",
-    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[D=0{,}012/60\\]</p><p>\\[D\\approx0{,}0002\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=0{,}0002\\cdot1000\\]</p><p>\\[D\\approx0{,}2\\ \\mathrm{mGy}\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}D&=\\frac{0{,}012\\,\\mathrm J}{60\\,\\mathrm{kg}}\\\\&=0{,}0002\\,\\mathrm{Gy}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Omvandling: \\(1\\,\\mathrm{Gy}=1000\\,\\mathrm{mGy}\\)</p><div class=\"facit-matte\">\\[D=0{,}0002\\cdot1000\\,\\mathrm{mGy}=0{,}2\\,\\mathrm{mGy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,2 mGy.</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -115991,7 +115991,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+    "ledtrad": "<p>Beräkna dosen i J/kg innan du omvandlar till milligray.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "mGy",
     "traningsniva": 2,
@@ -117177,7 +117177,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En kropp med massan 70 kg absorberar 0,25 J strålningsenergi.</p><p>a) Bestäm den absorberade dosen.</p><p>b) Omvandla denna dos till mGy.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[D=0{,}25/70\\]</p><p>\\[D\\approx0{,}00357\\ \\mathrm{Gy}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[D=(0{,}25/70)\\cdot1000\\]</p><p>\\[D\\approx3{,}57\\ \\mathrm{mGy}\\]</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><div class=\"facit-matte\">\\[D=\\frac{0{,}25\\,\\mathrm J}{70\\,\\mathrm{kg}}\\approx0{,}00357\\,\\mathrm{Gy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,00357 Gy.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling: \\(1\\,\\mathrm{Gy}=1000\\,\\mathrm{mGy}\\)</p><p>Behåll den oavrundade kvoten från a) till slutet.</p><div class=\"facit-matte\">\\[D=\\frac{0{,}25}{70}\\cdot1000\\,\\mathrm{mGy}\\approx3{,}57\\,\\mathrm{mGy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3,57 mGy.</p></div></div></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
       "procedur"
@@ -117209,14 +117209,14 @@ window.BANK = [
       "a",
       "b"
     ],
-    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+    "ledtrad": "<p>Beräkna först energin per kilogram. Byt därefter enhet till milligray.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En kropp med massan 70 kg absorberar 0,25 J strålningsenergi.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm absorberad dos.",
-        "s": "<div class=\"facit-v2\"><p>\\[D=0{,}25/70\\]</p><p>\\[D\\approx0{,}00357\\ \\mathrm{Gy}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><div class=\"facit-matte\">\\[D=\\frac{0{,}25\\,\\mathrm J}{70\\,\\mathrm{kg}}\\approx0{,}00357\\,\\mathrm{Gy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,00357 Gy.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.0035714285714285713,
         "självrättning": true,
@@ -117227,7 +117227,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+        "ledtrad": "<p>Hur mycket absorberad energi motsvarar ett kilogram av kroppen?</p>",
         "t": "<p>En kropp med massan 70 kg absorberar 0,25 J strålningsenergi. Bestäm absorberad dos.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
@@ -117235,7 +117235,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En vävnad får dosen 0,00357 Gy. Hur många mGy är det?",
-        "s": "<div class=\"facit-v2\"><p>\\[D=0{,}00357\\cdot1000=3{,}57\\ \\mathrm{mGy}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandling: \\(1\\,\\mathrm{Gy}=1000\\,\\mathrm{mGy}\\)</p><div class=\"facit-matte\">\\[D=0{,}00357\\cdot1000\\,\\mathrm{mGy}=3{,}57\\,\\mathrm{mGy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,57 mGy.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 3.57,
         "självrättning": true,
@@ -117246,7 +117246,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>1 Gy = 1 000 mGy.</p>",
+        "ledtrad": "<p>Milligray är en mindre enhet än gray. Ska talvärdet då öka eller minska?</p>",
         "t": "<p>En vävnad får dosen 0,00357 Gy. Hur många mGy är det?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
@@ -163361,7 +163361,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En kropp med massan 75,0 kg får den absorberade dosen 0,25 Gy. Hur mycket strålningsenergi absorberas?</p>",
-    "s": "<div class=\"facit-v2\"><p>En gray är en joule per kilogram.</p><p><div class=\"facit-v2\"><p>\\[E=0{,}25\\cdot75{,}0\\]</p><p>\\[E\\approx18{,}8\\ \\mathrm{J}\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut energin: \\(E=Dm\\)</p><p>En dos på 0,25 Gy betyder 0,25 J per kilogram.</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=0{,}25\\,\\mathrm{J/kg}\\cdot75{,}0\\,\\mathrm{kg}\\\\&=18{,}75\\,\\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18,75 J, ungefär 19 J.</p></div>",
     "id": "9.362",
     "miniräknare": true,
     "geogebra": false,
@@ -163374,7 +163374,7 @@ window.BANK = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+    "ledtrad": "<p>Dosen är energi per kilogram. Hur får du energin för hela kroppen?</p>",
     "traningsniva": 1,
     "svarEnhet": "J",
     "familjNyckel": "straldoser__absorberad_dos_gy",
@@ -163388,7 +163388,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En vävnad får den absorberade dosen 2,00 Gy. All absorberad strålningsenergi blir värme. Vävnadens specifika värmekapacitet är 4 180 J/(kg·K). Hur mycket stiger temperaturen? (Svara i K.)</p>",
-    "s": "<div class=\"facit-v2\"><p>Dosen ger 2,00 J per kg. För att värma ett kg en kelvin behövs 4 180 J.</p><p>\\[D=mc\\Delta T/m=c\\Delta T\\]</p><p><div class=\"facit-v2\"><p>\\[\\Delta T=2{,}00/4180\\]</p><p>\\[\\Delta T\\approx0{,}000478\\ \\mathrm{K}\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värmeenergi: \\(E=mc\\Delta T\\)</p><p>All den absorberade energin blir värme enligt uppgiften.</p></li><li><p class=\"facit-rubrik\">Kombinera med \\(D=E/m\\)</p><p>Massan förkortas bort. Dosen anger redan energi per kilogram.</p><div class=\"facit-matte\">\\[D=\\frac{mc\\Delta T}{m}=c\\Delta T\\]</div></li><li><p class=\"facit-rubrik\">Lös ut temperaturökningen: \\(\\Delta T=D/c\\)</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{2{,}00}{4180}\\,\\mathrm K\\approx4{,}78\\cdot10^{-4}\\,\\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}78\\cdot10^{-4}\\,\\mathrm K\\) (cirka 0,000478 K).</p></div>",
     "id": "9.363",
     "miniräknare": true,
     "geogebra": false,
@@ -163401,7 +163401,7 @@ window.BANK = [
       "procedur"
     ],
     "svarFormat": "temperaturandring",
-    "ledtrad": "<p>Temperaturökningen är energi per kg delad med specifik värmekapacitet.</p>",
+    "ledtrad": "<p>Kombinera sambandet för uppvärmning med dosens definition. Behöver du känna massan?</p>",
     "traningsniva": 2,
     "svarEnhet": "K",
     "familjNyckel": "straldoser__absorberad_dos_gy",
@@ -163443,7 +163443,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/1/0)",
     "t": "<p>En gurka har massan 0,30 kg och får dosen 2 000 Gy av röntgenfotoner med energin 100 keV. Vävnadens specifika värmekapacitet är 4 180 J/(kg·K). All absorberad energi blir värme.</p><p>a) Hur många fotoner absorberas?</p><p>b) Hur mycket stiger temperaturen?</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E=Dm=2000\\cdot0{,}30=600\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[E_f=100\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx1{,}6\\cdot10^{-14}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_f\\]</p><p>\\[N\\approx3{,}75\\cdot10^{16}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Dosen anger energi per kg. Dela med energin som behövs för att värma ett kg en kelvin.</p><p><div class=\"facit-v2\"><p>\\[\\Delta T=2000/4180\\]</p><p>\\[\\Delta T\\approx0{,}478\\ \\mathrm{K}\\]</p></div></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut energin: \\(E=Dm\\)</p><div class=\"facit-matte\">\\[E=2000\\,\\mathrm{J/kg}\\cdot0{,}30\\,\\mathrm{kg}=600\\,\\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Elektronvolt till joule: \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_p&=100\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\,\\mathrm J\\\\&=1{,}602\\cdot10^{-14}\\,\\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Partikelantal: \\(N=\\dfrac{E}{E_p}\\)</p><div class=\"facit-matte\">\\[N=\\frac{600}{1{,}602\\cdot10^{-14}}\\approx3{,}75\\cdot10^{16}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(3{,}75\\cdot10^{16}\\) fotoner.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värmeenergi och dos: \\(E=mc\\Delta T\\), \\(D=E/m\\)</p><p>Dos är energi per kilogram. Därför behövs inte massan för att bestämma temperaturökningen.</p><div class=\"facit-matte\">\\[D=c\\Delta T\\]</div></li><li><p class=\"facit-rubrik\">Temperaturökning: \\(\\Delta T=D/c\\)</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{2000}{4180}\\,\\mathrm K\\approx0{,}478\\,\\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,478 K (lika stor temperaturökning i °C).</p></div></div></div>",
     "id": "9.365",
     "miniräknare": true,
     "geogebra": false,
@@ -163484,7 +163484,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En gurka har massan 0,30 kg och ska få den absorberade dosen 2 000 Gy. Varje absorberad röntgenfoton har energin 100 keV. Hur många fotoner måste gurkan absorbera? ",
-        "s": "<div class=\"facit-v2\"><p>\\[E=Dm=2000\\cdot0{,}30=600\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[E_f=100\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx1{,}6\\cdot10^{-14}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_f\\]</p><p>\\[N\\approx3{,}75\\cdot10^{16}\\]</p></div></p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut energin: \\(E=Dm\\)</p><div class=\"facit-matte\">\\[E=2000\\,\\mathrm{J/kg}\\cdot0{,}30\\,\\mathrm{kg}=600\\,\\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Elektronvolt till joule: \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_p&=100\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\,\\mathrm J\\\\&=1{,}602\\cdot10^{-14}\\,\\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Partikelantal: \\(N=\\dfrac{E}{E_p}\\)</p><div class=\"facit-matte\">\\[N=\\frac{600}{1{,}602\\cdot10^{-14}}\\approx3{,}75\\cdot10^{16}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(3{,}75\\cdot10^{16}\\) fotoner.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 37453183520599250,
         "självrättning": true,
@@ -163503,7 +163503,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En gurka får den absorberade dosen 2 000 Gy. All absorberad strålningsenergi blir värme och den specifika värmekapaciteten är 4 180 J/(kg·K). Hur mycket stiger temperaturen?",
-        "s": "<div class=\"facit-v2\"><p>Dosen anger energi per kg. Dela med energin som behövs för att värma ett kg en kelvin.</p><p><div class=\"facit-v2\"><p>\\[\\Delta T=2000/4180\\]</p><p>\\[\\Delta T\\approx0{,}478\\ \\mathrm{K}\\]</p></div></p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värmeenergi och dos: \\(E=mc\\Delta T\\), \\(D=E/m\\)</p><p>Dos är energi per kilogram. Därför behövs inte massan för att bestämma temperaturökningen.</p><div class=\"facit-matte\">\\[D=c\\Delta T\\]</div></li><li><p class=\"facit-rubrik\">Temperaturökning: \\(\\Delta T=D/c\\)</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{2000}{4180}\\,\\mathrm K\\approx0{,}478\\,\\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,478 K (lika stor temperaturökning i °C).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.4784688995215311,
         "självrättning": true,
@@ -163514,7 +163514,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>En Gy är en J/kg.</p>",
+        "ledtrad": "<p>Skriv energin för uppvärmning och dosens definition. Vilken storhet kan förkortas bort?</p>",
         "t": "<p>En gurka får den absorberade dosen 2 000 Gy. All absorberad strålningsenergi blir värme och den specifika värmekapaciteten är 4 180 J/(kg·K). Hur mycket stiger temperaturen?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
@@ -163589,7 +163589,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>En kropp med massan 65 kg absorberar hälften av gammafotonerna från en kobolt-57-källa med aktiviteten 57,4 kBq. Varje sönderfall ger en foton med energin 122 keV. Bestäm den absorberade dosen under ett dygn. Räkna med konstant aktivitet under tiden.</p>",
-    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[t=86400\\]</p><p>\\[t\\approx86400\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_{\\text{absorberade}}=57400\\cdot86400\\cdot0{,}5\\]</p><p>\\[N_{\\text{absorberade}}\\approx2480000000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=122000\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx1{,}95\\cdot10^{-14}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx4{,}85\\cdot10^{-5}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/65\\]</p><p>\\[D\\approx7{,}46\\cdot10^{-7}\\ \\mathrm{Gy}\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tid i sekunder och aktivitet i Bq</p><div class=\"facit-matte\">\\[\\begin{aligned}t&=24\\cdot60\\cdot60\\,\\mathrm s=86400\\,\\mathrm s\\\\A&=57{,}4\\cdot10^3\\,\\mathrm{s^{-1}}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Absorberade fotoner: \\(N=0{,}5At\\)</p><p>Aktiviteten är konstant enligt modellen. Varje sönderfall ger en foton och hälften absorberas.</p><div class=\"facit-matte\">\\[N=0{,}5\\cdot57400\\cdot86400=2{,}47968\\cdot10^9\\]</div></li><li><p class=\"facit-rubrik\">Elektronvolt till joule: \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_p&=122\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\,\\mathrm J\\\\&=1{,}95444\\cdot10^{-14}\\,\\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Absorberad energi: \\(E=NE_p\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=(2{,}47968\\cdot10^9)\\\\&\\quad\\cdot(1{,}95444\\cdot10^{-14})\\,\\mathrm J\\\\&=4{,}8463857792\\cdot10^{-5}\\,\\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}D&=\\frac{4{,}8463857792\\cdot10^{-5}}{65}\\,\\mathrm{Gy}\\\\&\\approx7{,}46\\cdot10^{-7}\\,\\mathrm{Gy}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(7{,}46\\cdot10^{-7}\\,\\mathrm{Gy}\\) (0,746 µGy).</p></div>",
     "id": "9.368",
     "miniräknare": true,
     "geogebra": false,
@@ -163603,7 +163603,7 @@ window.BANK = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Antal sönderfall är aktivitet gånger tid. Räkna med andelen absorberad strålning och energin per partikel.</p>",
+    "ledtrad": "<p>Räkna först hur många fotoner som absorberas under ett dygn. Vilken energi tar de tillsammans med sig?</p>",
     "traningsniva": 3,
     "svarEnhet": "Gy",
     "familjNyckel": "straldoser__absorberad_dos_gy",
@@ -163617,7 +163617,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>5,0 kg kött ska få dosen 4,5 kGy av betapartiklar med energin 1,6 MeV per partikel. Hur många partiklar måste köttet absorbera?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[D=4500\\ \\mathrm{Gy}\\]</p><p>\\[E=Dm=4500\\cdot5{,}0=22500\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[E_p=1{,}6\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx2{,}56\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_p\\]</p><p>\\[N\\approx8{,}78\\cdot10^{16}\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla kilogray till gray</p><div class=\"facit-matte\">\\[D=4{,}5\\,\\mathrm{kGy}=4500\\,\\mathrm{Gy}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut energin: \\(E=Dm\\)</p><div class=\"facit-matte\">\\[E=4500\\,\\mathrm{J/kg}\\cdot5{,}0\\,\\mathrm{kg}=22500\\,\\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Elektronvolt till joule: \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_p&=1{,}6\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\,\\mathrm J\\\\&=2{,}5632\\cdot10^{-13}\\,\\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Partikelantal: \\(N=\\dfrac{E}{E_p}\\)</p><div class=\"facit-matte\">\\[N=\\frac{22500}{2{,}5632\\cdot10^{-13}}\\approx8{,}78\\cdot10^{16}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(8{,}78\\cdot10^{16}\\) betapartiklar.</p></div>",
     "id": "9.369",
     "miniräknare": true,
     "geogebra": false,
@@ -163631,7 +163631,7 @@ window.BANK = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm absorberad totalenergi och dividera med energin per partikel.</p>",
+    "ledtrad": "<p>Bestäm hela den absorberade energin. Jämför den med energin från en enda partikel.</p>",
     "traningsniva": 3,
     "familjNyckel": "straldoser__absorberad_dos_gy",
     "arbetsinsats": 2,
@@ -163790,7 +163790,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(2/1/0)",
     "t": "<p>Ett fosfor-32-preparat har startaktiviteten 1,31 MBq och halveringstiden 14,3 dygn. Varje sönderfall ger en betapartikel med medelenergin 700 keV. All denna energi absorberas av 100 g vävnad.</p><p>a) Hur många betapartiklar sänds ut under de första 10 dygnen?</p><p>b) Hur stor sammanlagd energi avges under dessa 10 dygn? (Svara i J.)</p><p>c) Bestäm absorberad dos i vävnaden.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(14{,}3\\cdot86400)\\]</p><p>\\[\\lambda\\approx5{,}61\\cdot10^{-7}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_0=1{,}31\\cdot10^6/\\lambda\\]</p><p>\\[N_0\\approx2{,}34\\cdot10^{12}\\]</p></div></p><p>\\[N_{10}=N_0\\cdot2^{-10/14{,}3}\\]</p><p><div class=\"facit-v2\"><p>\\[\\Delta N=N_0(1-2^{-10/14{,}3})\\]</p><p>\\[\\Delta N\\approx897000000000\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=\\Delta N\\cdot700\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E\\approx0{,}101\\ \\mathrm{J}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[D=E/0{,}100\\]</p><p>\\[D\\approx1{,}01\\ \\mathrm{Gy}\\]</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sönderfallskonstant: \\(\\lambda=\\ln 2/T_{1/2}\\)</p><p>Aktiviteten är given per sekund, så halveringstiden behöver uttryckas i sekunder.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\lambda&=\\frac{\\ln2}{14{,}3\\cdot86400}\\,\\mathrm{s^{-1}}\\\\&\\approx5{,}61\\cdot10^{-7}\\,\\mathrm{s^{-1}}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Startantal från aktiviteten: \\(A_0=\\lambda N_0\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}N_0&=\\frac{1{,}31\\cdot10^6}{\\ln2/(14{,}3\\cdot86400)}\\\\&\\approx2{,}34\\cdot10^{12}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Sönderfallna kärnor: \\(\\Delta N=N_0-N(t)\\)</p><p>Antalet kvarvarande kärnor minskar under tiden. Använd startantalet utan mellanavrundning. Ett sönderfall ger en betapartikel; startaktiviteten gånger tiden skulle överskatta antalet.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta N&=N_0\\left(1-2^{-10/14{,}3}\\right)\\\\&\\approx8{,}97\\cdot10^{11}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(8{,}97\\cdot10^{11}\\) betapartiklar.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektronvolt till joule: \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_p&=700\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\,\\mathrm J\\\\&=1{,}1214\\cdot10^{-13}\\,\\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Sammanlagd energi: \\(E=\\Delta N E_p\\)</p><p>Använd det oavrundade antalet från a). Här visas extra siffror för att göra mellanledet tydligt.</p><div class=\"facit-matte\">\\[\\begin{aligned}E&\\approx(8{,}969600427\\cdot10^{11})\\\\&\\quad\\cdot(1{,}1214\\cdot10^{-13})\\,\\mathrm J\\\\&\\approx0{,}100585\\,\\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,101 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla vävnadens massa</p><div class=\"facit-matte\">\\[m=100\\,\\mathrm g=0{,}100\\,\\mathrm{kg}\\]</div></li><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><p>All avgiven energi absorberas enligt uppgiften. Använd energin från b) utan mellanavrundning.</p><div class=\"facit-matte\">\\[D\\approx\\frac{0{,}100585}{0{,}100}\\,\\mathrm{Gy}\\approx1{,}01\\,\\mathrm{Gy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,01 Gy.</p></div></div></div>",
     "id": "9.373",
     "miniräknare": true,
     "geogebra": false,
@@ -163837,7 +163837,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Hur många betapartiklar sänds ut under de första 10 dygnen?",
-        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(14{,}3\\cdot86400)\\]</p><p>\\[\\lambda\\approx5{,}61\\cdot10^{-7}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_0=1{,}31\\cdot10^6/\\lambda\\]</p><p>\\[N_0\\approx2{,}34\\cdot10^{12}\\]</p></div></p><p>\\[N_{10}=N_0\\cdot2^{-10/14{,}3}\\]</p><p><div class=\"facit-v2\"><p>\\[\\Delta N=N_0(1-2^{-10/14{,}3})\\]</p><p>\\[\\Delta N\\approx897000000000\\]</p></div></p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sönderfallskonstant: \\(\\lambda=\\ln 2/T_{1/2}\\)</p><p>Aktiviteten är given per sekund, så halveringstiden behöver uttryckas i sekunder.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\lambda&=\\frac{\\ln2}{14{,}3\\cdot86400}\\,\\mathrm{s^{-1}}\\\\&\\approx5{,}61\\cdot10^{-7}\\,\\mathrm{s^{-1}}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Startantal från aktiviteten: \\(A_0=\\lambda N_0\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}N_0&=\\frac{1{,}31\\cdot10^6}{\\ln2/(14{,}3\\cdot86400)}\\\\&\\approx2{,}34\\cdot10^{12}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Sönderfallna kärnor: \\(\\Delta N=N_0-N(t)\\)</p><p>Antalet kvarvarande kärnor minskar under tiden. Använd startantalet utan mellanavrundning. Ett sönderfall ger en betapartikel; startaktiviteten gånger tiden skulle överskatta antalet.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta N&=N_0\\left(1-2^{-10/14{,}3}\\right)\\\\&\\approx8{,}97\\cdot10^{11}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(8{,}97\\cdot10^{11}\\) betapartiklar.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 896960042699.62,
         "självrättning": true,
@@ -163848,7 +163848,7 @@ window.BANK = [
         "niva": "C",
         "traningsniva": 4,
         "poang": "0/1/0",
-        "ledtrad": "<p>Antalet sönderfall är startantal minus antalet kvar.</p>",
+        "ledtrad": "<p>Aktiviteten avtar under tiden. Jämför antalet kärnor från början med antalet som finns kvar efter 10 dygn.</p>",
         "t": "<p>Ett fosfor-32-preparat har startaktiviteten 1,31 MBq och halveringstiden 14,3 dygn. Varje sönderfall sänder ut en betapartikel. Hur många betapartiklar sänds ut under de första 10 dygnen?</p>",
         "arbetsinsats": 2,
         "miniräknare": true
@@ -163856,7 +163856,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "8,97·10¹¹ betapartiklar sänds ut med medelenergin 700 keV. Hur stor sammanlagd energi avges? (Svara i J.)",
-        "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_p=700\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx1{,}12\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=8{,}97\\cdot10^{11}E_p\\]</p><p>\\[E\\approx0{,}101\\ \\mathrm{J}\\]</p></div></p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektronvolt till joule: \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_p&=700\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\,\\mathrm J\\\\&=1{,}1214\\cdot10^{-13}\\,\\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Sammanlagd energi: \\(E=NE_p\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=8{,}97\\cdot10^{11}\\cdot1{,}1214\\cdot10^{-13}\\,\\mathrm J\\\\&=0{,}10058958\\,\\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,101 J.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.10058958,
         "självrättning": true,
@@ -163867,7 +163867,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Multiplicera antalet partiklar med medelenergin per partikel.</p>",
+        "ledtrad": "<p>Uttryck energin per partikel i joule och multiplicera med antalet partiklar.</p>",
         "t": "<p>8,97·10¹¹ betapartiklar sänds ut med medelenergin 700 keV. Hur stor sammanlagd energi avges? (Svara i J.)</p>",
         "arbetsinsats": 1,
         "miniräknare": true
@@ -163875,7 +163875,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "100 g vävnad absorberar strålningsenergin 0,101 J. Bestäm den absorberade dosen.",
-        "s": "<div class=\"facit-v2\"><p>\\[m=100\\ \\mathrm g=0{,}100\\ \\mathrm{kg}\\]</p><p>\\[D=0{,}101/0{,}100=1{,}01\\ \\mathrm{Gy}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla vävnadens massa</p><div class=\"facit-matte\">\\[m=100\\,\\mathrm g=0{,}100\\,\\mathrm{kg}\\]</div></li><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}D&=\\frac{0{,}101\\,\\mathrm J}{0{,}100\\,\\mathrm{kg}}\\\\&=1{,}01\\,\\mathrm{Gy}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,01 Gy.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1.01,
         "självrättning": true,
@@ -163886,13 +163886,13 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+        "ledtrad": "<p>Dosen anger energi per kilogram, så börja med att uttrycka massan i kilogram.</p>",
         "t": "<p>100 g vävnad absorberar strålningsenergin 0,101 J. Bestäm den absorberade dosen.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Antalet sönderfall är startantal minus antalet kvar.</p>",
+    "ledtrad": "<p>Aktiviteten avtar under tiden. Jämför antalet kärnor från början med antalet som finns kvar efter 10 dygn.</p>",
     "traningsniva": 4,
     "familjNyckel": "straldoser__absorberad_dos_gy",
     "arbetsinsats": 3,
@@ -164259,7 +164259,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Två tumörer får samma absorberade dos. Den ena har massan 0,12 kg och absorberar 1,7 J; den andra har massan 0,15 kg.</p><p>a) Bestäm den gemensamma absorberade dosen.</p><p>b) Hur mycket energi absorberar den andra tumören?</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[D=1{,}7/0{,}12\\]</p><p>\\[D\\approx14{,}2\\ \\mathrm{Gy}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=(1{,}7/0{,}12)\\cdot0{,}15\\]</p><p>\\[E\\approx2{,}12\\ \\mathrm{J}\\]</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><div class=\"facit-matte\">\\[D=\\frac{1{,}7\\,\\mathrm J}{0{,}12\\,\\mathrm{kg}}\\approx14{,}2\\,\\mathrm{Gy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14,2 Gy.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut energin: \\(E=Dm\\)</p><p>Samma dos betyder samma energi per kilogram. Använd den oavrundade dosen från a).</p><div class=\"facit-matte\">\\[E_2=\\frac{1{,}7}{0{,}12}\\cdot0{,}15\\,\\mathrm J=2{,}125\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,125 J (cirka 2,13 J).</p></div></div></div>",
     "id": "9.380",
     "miniräknare": true,
     "geogebra": false,
@@ -164299,7 +164299,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En tumör har massan 0,12 kg och absorberar 1,7 J strålningsenergi. Bestäm absorberad dos.",
-        "s": "<div class=\"facit-v2\"><p>\\[D=1{,}7/0{,}12\\]</p><p>\\[D\\approx14{,}2\\ \\mathrm{Gy}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><div class=\"facit-matte\">\\[D=\\frac{1{,}7\\,\\mathrm J}{0{,}12\\,\\mathrm{kg}}\\approx14{,}2\\,\\mathrm{Gy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14,2 Gy.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 14.166666666666666,
         "självrättning": true,
@@ -164310,7 +164310,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+        "ledtrad": "<p>Jämför den absorberade energin med tumörens massa.</p>",
         "t": "<p>En tumör har massan 0,12 kg och absorberar 1,7 J strålningsenergi. Bestäm absorberad dos.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
@@ -164318,7 +164318,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En tumör har massan 0,15 kg och får dosen 14 Gy. Hur mycket strålningsenergi absorberar den?",
-        "s": "<div class=\"facit-v2\"><p>Dosen är energi per kg.</p><p>\\[E=Dm=14\\cdot0{,}15=2{,}1\\ \\mathrm J\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut energin: \\(E=Dm\\)</p><p>Kortet anger dosen 14 Gy. Använd detta givna värde.</p><div class=\"facit-matte\">\\[E=14\\,\\mathrm{J/kg}\\cdot0{,}15\\,\\mathrm{kg}=2{,}1\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,1 J.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2.1,
         "självrättning": true,
@@ -164329,13 +164329,13 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+        "ledtrad": "<p>Dosen anger energin per kilogram. Hur mycket energi tar hela tumören upp?</p>",
         "t": "<p>En tumör har massan 0,15 kg och får dosen 14 Gy. Hur mycket strålningsenergi absorberar den?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
     ],
-    "ledtrad": "<p>Absorberad dos är energi per kilogram: D = E/m. En gray är en joule per kilogram.</p>",
+    "ledtrad": "<p>Samma dos betyder samma energi per kilogram, även om massorna skiljer sig.</p>",
     "traningsniva": 1,
     "familjNyckel": "straldoser__absorberad_dos_gy",
     "arbetsinsats": 2,
@@ -164403,7 +164403,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>Is vid 0 °C tar upp strålningsenergi som helt blir värme. Vilken absorberad dos krävs för att isen ska bli vattenånga vid 100 °C? Smältvärmen är 334 kJ/kg, vattnets specifika värmekapacitet 4,18 kJ/(kg·K) och ångbildningsvärmen 2 260 kJ/kg.</p>",
-    "s": "<div class=\"facit-v2\"><p>Energin behövs för att smälta isen, värma vattnet och förånga det.</p><p>\\[E/m=334+4{,}18\\cdot100+2260\\]</p><p>\\[E/m=3012\\ \\mathrm{kJ/kg}=3012000\\ \\mathrm{J/kg}\\]</p><p>\\[D=3012000\\ \\mathrm{Gy}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tre energibidrag: \\(E=ml_s+mc\\Delta T+ml_v\\)</p><p>Först smälter isen vid 0 °C. Sedan värms vattnet till 100 °C. Till sist förångas vattnet vid 100 °C. Temperaturen ändras inte under själva fasövergångarna.</p></li><li><p class=\"facit-rubrik\">Energi per kilogram: \\(D=E/m=l_s+c\\Delta T+l_v\\)</p><p>Massan förkortas bort i alla tre bidragen.</p><div class=\"facit-matte\">\\[\\begin{aligned}D&=334+4{,}18\\cdot100+2260\\\\&=3012\\,\\mathrm{kJ/kg}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dos i gray: \\(1\\,\\mathrm{Gy}=1\\,\\mathrm{J/kg}\\)</p><div class=\"facit-matte\">\\[D=3012\\cdot1000\\,\\mathrm{J/kg}=3{,}012\\cdot10^6\\,\\mathrm{Gy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}012\\cdot10^6\\,\\mathrm{Gy}\\) (ungefär 3,0 MGy).</p></div>",
     "id": "9.383",
     "miniräknare": true,
     "geogebra": false,
@@ -164417,7 +164417,7 @@ window.BANK = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Summera de tre energierna per kg. En Gy är en J/kg.</p>",
+    "ledtrad": "<p>Vilka tre steg krävs för att gå från is till vattenånga? Summera deras energibehov per kilogram.</p>",
     "traningsniva": 3,
     "svarEnhet": "Gy",
     "familjNyckel": "straldoser__absorberad_dos_gy",
@@ -203825,7 +203825,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>R₁ = 60 Ω och R₂ = 120 Ω är kopplade enligt figuren. Spänningskällan ger 12 V. Vad visar amperemetern? (Svara i mA.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 350\" role=\"img\" aria-label=\"Två parallella grenar. Amperemetern mäter totalströmmen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"350\" fill=\"white\"/><path d=\"M65 45L120 45\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M120 45L120 100\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 45L65 149\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"170\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"65\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">A</text><path d=\"M65 191L65 295\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 295L230 295\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 295L435 295\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 275L230 315\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 285L250 305\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"269\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"269\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"240\" y=\"339\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">12 V</text><path d=\"M120 100L250 100\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"250\" y=\"89\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"280\" y=\"72\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><path d=\"M310 100L435 100\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M120 205L250 205\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"250\" y=\"194\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"280\" y=\"177\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M310 205L435 205\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M120 100L120 205\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 100L435 295\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"100\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"100\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"205\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"205\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Båda resistorerna har spänningen 12 V över sig.</p>\\[I_1=\\frac{12}{60}=0{,}20\\,\\mathrm A\\]\\[I_2=\\frac{12}{120}=0{,}10\\,\\mathrm A\\]<p>Amperemetern mäter summan av grenströmmarna.</p>\\[I=0{,}20+0{,}10=0{,}30\\,\\mathrm A\\]<p>Det är <strong>300 mA</strong>.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(300\\) mA.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grenströmmar med Ohms lag: \\(I=U/R\\)</p><p>Resistorerna är parallellkopplade. Båda har 12 V över sig.</p><div class=\"facit-matte\">\\[\\begin{aligned}I_1&=\\frac{12}{60}\\,\\mathrm A=0{,}20\\,\\mathrm A\\\\I_2&=\\frac{12}{120}\\,\\mathrm A=0{,}10\\,\\mathrm A\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Totalström: \\(I=I_1+I_2\\)</p><p>Amperemetern sitter där hela strömmen passerar, innan den delas mellan grenarna.</p><div class=\"facit-matte\">\\[I=0{,}20+0{,}10=0{,}30\\,\\mathrm A=300\\,\\mathrm{mA}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Amperemetern visar 300 mA.</p></div>",
   "familj": "Strömfördelning i parallellkoppling",
   "formaga": [
     "procedur"
@@ -203839,7 +203839,7 @@ window.BANK = [
   "geogebra": false,
   "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Vilka strömmar går ihop innan de passerar amperemetern?</p>",
+  "ledtrad": "<p>Har resistorerna samma ström eller samma spänning? Vilken ström passerar amperemetern?</p>",
   "svarFormat": "numeriskt",
   "svarEnhet": "mA",
   "familjNyckel": "kopplingar__parallellkoppling"
@@ -203852,7 +203852,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Lampan har effekten 1,8 W och resistorn har resistansen 60 Ω. Spänningskällan ger 6,0 V. Vad visar amperemetern?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 350\" role=\"img\" aria-label=\"Två parallella grenar. Amperemetern mäter totalströmmen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"350\" fill=\"white\"/><path d=\"M65 45L120 45\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M120 45L120 100\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 45L65 149\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"170\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"65\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">A</text><path d=\"M65 191L65 295\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 295L230 295\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 295L435 295\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 275L230 315\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 285L250 305\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"269\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"269\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"240\" y=\"339\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">6,0 V</text><path d=\"M120 100L258 100\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"100\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 85L295 115\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 115L295 85\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"280\" y=\"66\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M302 100L435 100\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M120 205L250 205\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"250\" y=\"194\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"280\" y=\"177\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M310 205L435 205\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M120 100L120 205\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 100L435 295\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"100\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"100\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"205\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"205\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Lampan och resistorn är parallellkopplade och har båda spänningen 6,0 V.</p>\\[I_L=\\frac{1{,}8}{6{,}0}=0{,}30\\,\\mathrm A\\]\\[I_R=\\frac{6{,}0}{60}=0{,}10\\,\\mathrm A\\]\\[I=I_L+I_R=0{,}40\\,\\mathrm A\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\) A.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lampans ström från \\(P=UI\\)</p><p>Lampan och resistorn är parallellkopplade. Båda har spänningen 6,0 V.</p><div class=\"facit-matte\">\\[I_L=\\frac{P}{U}=\\frac{1{,}8}{6{,}0}\\,\\mathrm A=0{,}30\\,\\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Resistorns ström: \\(I_R=U/R\\)</p><div class=\"facit-matte\">\\[I_R=\\frac{6{,}0\\,\\mathrm V}{60\\,\\Omega}=0{,}10\\,\\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Totalström: \\(I=I_L+I_R\\)</p><p>Amperemetern mäter strömmen genom båda grenarna tillsammans.</p><div class=\"facit-matte\">\\[I=0{,}30+0{,}10=0{,}40\\,\\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Amperemetern visar 0,40 A.</p></div>",
   "familj": "Strömfördelning i parallellkoppling",
   "formaga": [
     "procedur"
@@ -203866,7 +203866,7 @@ window.BANK = [
   "geogebra": false,
   "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Bestäm en grenström från effekt och den andra från resistans.</p>",
+  "ledtrad": "<p>Använd lampans effekt för dess ström och resistansen för den andra grenens ström.</p>",
   "svarFormat": "numeriskt",
   "svarEnhet": "A",
   "familjNyckel": "kopplingar__parallellkoppling"
@@ -203906,7 +203906,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>R₁ = 330 Ω och R₂ = 220 Ω. Voltmetern visar 4,4 V. Hur stor spänning ger spänningskällan?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets. Voltmeter över den sista resistorn.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L140 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"140\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><path d=\"M200 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><path d=\"M280 90L280 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M280 185L329.0 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"350.0\" cy=\"185\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"350.0\" y=\"191\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">V</text><path d=\"M371.0 185L420 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M420 185L420 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"90\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"420\" cy=\"90\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Voltmetern mäter över R₂. Strömmen genom båda resistorerna är</p>\\[I=\\frac{4{,}4}{220}=0{,}020\\,\\mathrm A\\]<p>Spänningskällan driver strömmen genom hela seriekopplingen.</p>\\[U=I(R_1+R_2)\\]\\[U=0{,}020(330+220)=11\\,\\mathrm V\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\) V.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ström genom R₂: \\(I=U_2/R_2\\)</p><p>Voltmetern är kopplad över R₂. Seriekopplingen innebär att samma ström går genom R₁.</p><div class=\"facit-matte\">\\[I=\\frac{4{,}4\\,\\mathrm V}{220\\,\\Omega}=0{,}020\\,\\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Källans spänning: \\(U=I(R_1+R_2)\\)</p><p>Källans spänning fördelas över båda resistorerna, medan mätaren bara visar en av delspänningarna.</p><div class=\"facit-matte\">\\[U=0{,}020\\cdot(330+220)\\,\\mathrm V=11\\,\\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Spänningskällan ger 11 V.</p></div>",
   "familj": "Ersättningsresistans och ström i serie",
   "formaga": [
     "procedur"
@@ -203920,7 +203920,7 @@ window.BANK = [
   "geogebra": false,
   "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Vilken resistor ligger voltmetern över?</p>",
+  "ledtrad": "<p>Vilken resistor ligger voltmetern över? Börja med strömmen genom den resistorn.</p>",
   "svarFormat": "numeriskt",
   "svarEnhet": "V",
   "familjNyckel": "kopplingar__seriekoppling"
@@ -203933,7 +203933,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>R₁ = 100 Ω, R₂ = 200 Ω och R₃ = 300 Ω. Spänningskällan ger 12 V. Vad visar voltmetern?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Tre komponenter i en sluten seriekrets. Voltmeter över de två sista resistorerna.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L95 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"95\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"125\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><path d=\"M155 90L220 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"220\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"250\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M280 90L345 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"345\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"375\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₃</text><path d=\"M405 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"240\" y=\"314\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">12 V</text><path d=\"M210 90L210 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M210 185L294.0 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"315.0\" cy=\"185\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"315.0\" y=\"191\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">V</text><path d=\"M336.0 185L420 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M420 185L420 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"90\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"420\" cy=\"90\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Totalresistansen är 100 + 200 + 300 = 600 Ω.</p>\\[I=\\frac{12}{600}=0{,}020\\,\\mathrm A\\]<p>Voltmetern ligger över R₂ och R₃ tillsammans.</p>\\[U_V=0{,}020(200+300)=10\\,\\mathrm V\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\) V.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Serieresistans: \\(R_{\\mathrm{tot}}=R_1+R_2+R_3\\)</p><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=100+200+300=600\\,\\Omega\\]</div></li><li><p class=\"facit-rubrik\">Kretsens ström: \\(I=U/R_{\\mathrm{tot}}\\)</p><div class=\"facit-matte\">\\[I=\\frac{12\\,\\mathrm V}{600\\,\\Omega}=0{,}020\\,\\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Mätspänning: \\(U_V=I(R_2+R_3)\\)</p><p>Följ voltmeterns ledningar: de ansluter på var sin sida om R₂ och R₃ tillsammans.</p><div class=\"facit-matte\">\\[U_V=0{,}020\\cdot(200+300)\\,\\mathrm V=10\\,\\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Voltmetern visar 10 V.</p></div>",
   "familj": "Ersättningsresistans och ström i serie",
   "formaga": [
     "procedur"
@@ -203947,7 +203947,7 @@ window.BANK = [
   "geogebra": false,
   "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Vilka två resistorer finns mellan voltmeterns anslutningar?</p>",
+  "ledtrad": "<p>Följ voltmeterns båda ledningar och se vilka resistorer som ligger mellan anslutningarna.</p>",
   "svarFormat": "numeriskt",
   "svarEnhet": "V",
   "familjNyckel": "kopplingar__seriekoppling"
@@ -203960,7 +203960,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>R₁ = 120 Ω, R₂ = 240 Ω och R₃ = 80 Ω. Amperemetern visar 0,30 A. Hur stor spänning ger spänningskällan?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 385\" role=\"img\" aria-label=\"Tre parallella grenar. Amperemetern mäter totalströmmen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"385\" fill=\"white\"/><path d=\"M65 45L120 45\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M120 45L120 80\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 45L65 149\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"170\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"65\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">A</text><path d=\"M65 191L65 330\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 330L230 330\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 330L435 330\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 310L230 350\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 320L250 340\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"304\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"304\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><path d=\"M120 80L250 80\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"250\" y=\"69\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"280\" y=\"52\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><path d=\"M310 80L435 80\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M120 165L250 165\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"250\" y=\"154\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"280\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M310 165L435 165\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M120 250L250 250\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"250\" y=\"239\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"280\" y=\"222\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₃</text><path d=\"M310 250L435 250\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M120 80L120 250\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 80L435 330\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"80\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"80\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"165\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"165\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"250\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"250\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>De tre grenarna har samma spänning. Ersättningsresistansen blir</p>\\[R_e=\\left(\\frac1{120}+\\frac1{240}+\\frac1{80}\\right)^{-1}=40\\,\\Omega\\]\\[U=R_e I=40\\cdot0{,}30=12\\,\\mathrm V\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) V.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parallellresistans: \\(\\dfrac1{R_e}=\\dfrac1{R_1}+\\dfrac1{R_2}+\\dfrac1{R_3}\\)</p><p>Alla tre resistorerna sitter mellan samma två punkter.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac1{R_e}&=\\frac1{120}+\\frac1{240}+\\frac1{80}\\\\&=\\frac1{40}\\quad\\Rightarrow\\quad R_e\\\\&=40\\,\\Omega\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Källans spänning: \\(U=IR_e\\)</p><p>Amperemetern visar totalströmmen. Använd därför hela kopplingens ersättningsresistans.</p><div class=\"facit-matte\">\\[U=0{,}30\\,\\mathrm A\\cdot40\\,\\Omega=12\\,\\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Spänningskällan ger 12 V.</p></div>",
   "familj": "Strömfördelning i parallellkoppling",
   "formaga": [
     "procedur"
@@ -203974,7 +203974,7 @@ window.BANK = [
   "geogebra": false,
   "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Bestäm först ersättningsresistansen för de parallella grenarna.</p>",
+  "ledtrad": "<p>Amperemetern visar hela kretsens ström. Vilken resistans ska paras ihop med den strömmen?</p>",
   "svarFormat": "numeriskt",
   "svarEnhet": "V",
   "familjNyckel": "kopplingar__parallellkoppling"
@@ -203987,7 +203987,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(0/1/0)",
   "t": "<p>R₁ = 100 Ω, R₂ = 300 Ω och R₃ = 600 Ω. Spänningskällan ger 12 V. Hur stor är spänningen över R₂?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 350\" role=\"img\" aria-label=\"R₁ i serie med parallellkopplingen av R₂ och R₃.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"350\" fill=\"white\"/><path d=\"M65 60L160 60\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"160\" y=\"49\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"190\" y=\"32\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><path d=\"M220 60L270 60\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M270 60L270 120\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M270 120L320 120\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"320\" y=\"109\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"350\" y=\"92\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M380 120L435 120\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M270 210L320 210\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"320\" y=\"199\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"350\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₃</text><path d=\"M380 210L435 210\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M270 120L270 210\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 120L435 300\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 60L65 300\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 300L230 300\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 300L435 300\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 280L230 320\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 290L250 310\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"274\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"274\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"240\" y=\"344\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">12 V</text><circle cx=\"270\" cy=\"120\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"270\" cy=\"210\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"120\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"210\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>R₂ och R₃ är parallellkopplade.</p>\\[R_p=\\frac{300\\cdot600}{300+600}=200\\,\\Omega\\]<p>R₁ ligger i serie med parallellkopplingen.</p>\\[I=\\frac{12}{100+200}=0{,}040\\,\\mathrm A\\]<p>Spänningen över hela parallellkopplingen är också spänningen över R₂.</p>\\[U_2=0{,}040\\cdot200=8{,}0\\,\\mathrm V\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}0\\) V.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parallellresistans: \\(R_p=\\dfrac{R_2R_3}{R_2+R_3}\\)</p><p>R₂ och R₃ sitter mellan samma två förgreningspunkter.</p><div class=\"facit-matte\">\\[R_p=\\frac{300\\cdot600}{300+600}\\,\\Omega=200\\,\\Omega\\]</div></li><li><p class=\"facit-rubrik\">Serieresistans: \\(R_{\\mathrm{tot}}=R_1+R_p\\)</p><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=100+200=300\\,\\Omega\\]</div></li><li><p class=\"facit-rubrik\">Totalström med Ohms lag: \\(I=U/R_{\\mathrm{tot}}\\)</p><div class=\"facit-matte\">\\[I=\\frac{12\\,\\mathrm V}{300\\,\\Omega}=0{,}040\\,\\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Spänning över parallellgrenen: \\(U_2=IR_p\\)</p><p>Hela totalströmmen går in i parallellkopplingen. Båda parallella resistorerna har samma spänning.</p><div class=\"facit-matte\">\\[U_2=0{,}040\\cdot200\\,\\mathrm V=8{,}0\\,\\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,0 V över R₂.</p></div>",
   "familj": "Kretsanalys och blandade resistorkopplingar",
   "formaga": [
     "procedur"
@@ -204001,7 +204001,7 @@ window.BANK = [
   "geogebra": false,
   "traningsniva": 3,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Vilka resistorer är anslutna mellan samma två punkter?</p>",
+  "ledtrad": "<p>Vilka resistorer sitter mellan samma två punkter? Bestäm deras gemensamma ersättningsresistans först.</p>",
   "svarFormat": "numeriskt",
   "svarEnhet": "V",
   "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar"
@@ -204014,7 +204014,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>R₁ = 100 Ω, R₂ = 200 Ω och R₃ = 600 Ω. Spänningskällan ger 9,0 V. Hur stor ström lämnar spänningskällan? (Svara i mA.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 350\" role=\"img\" aria-label=\"Två parallella grenar. Två resistorer i serie i den övre grenen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"350\" fill=\"white\"/><path d=\"M65 45L120 45\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M120 45L120 100\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 45L65 295\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 295L230 295\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 295L435 295\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 275L230 315\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 285L250 305\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"269\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"269\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"240\" y=\"339\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">9,0 V</text><path d=\"M120 100L165 100\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"165\" y=\"89\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"195\" y=\"72\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><path d=\"M225 100L300 100\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"300\" y=\"89\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"330\" y=\"72\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M360 100L435 100\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M120 205L250 205\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"250\" y=\"194\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"280\" y=\"177\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₃</text><path d=\"M310 205L435 205\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M120 100L120 205\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 100L435 295\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"100\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"100\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"205\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"205\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Övre grenen innehåller R₁ och R₂ i serie: 100 + 200 = 300 Ω. Varje hel gren har spänningen 9,0 V.</p>\\[I_{\\text{övre}}=\\frac9{300}=0{,}030\\,\\mathrm A\\]\\[I_{\\text{nedre}}=\\frac9{600}=0{,}015\\,\\mathrm A\\]\\[I=0{,}030+0{,}015=0{,}045\\,\\mathrm A\\]<p>Spänningskällan lämnar <strong>45 mA</strong>.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(45\\) mA.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Resistans i övre grenen: \\(R_{12}=R_1+R_2\\)</p><p>R₁ och R₂ är i serie. Den nedre grenen består av R₃ = 600 Ω.</p><div class=\"facit-matte\">\\[R_{12}=100+200=300\\,\\Omega\\]</div></li><li><p class=\"facit-rubrik\">Grenströmmar med Ohms lag: \\(I=U/R\\)</p><p>Båda hela grenarna ligger över spänningskällan och har därför spänningen 9,0 V.</p><div class=\"facit-matte\">\\[\\begin{aligned}I_{12}&=\\frac{9{,}0}{300}\\,\\mathrm A=0{,}030\\,\\mathrm A\\\\I_3&=\\frac{9{,}0}{600}\\,\\mathrm A=0{,}015\\,\\mathrm A\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Strömmen före förgreningen: \\(I=I_{12}+I_3\\)</p><div class=\"facit-matte\">\\[I=0{,}030+0{,}015=0{,}045\\,\\mathrm A=45\\,\\mathrm{mA}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 45 mA lämnar spänningskällan.</p></div>",
   "familj": "Kretsanalys och blandade resistorkopplingar",
   "formaga": [
     "procedur"
@@ -204028,7 +204028,7 @@ window.BANK = [
   "geogebra": false,
   "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Börja med resistansen i var och en av de två grenarna.</p>",
+  "ledtrad": "<p>Bestäm strömmen i varje hel gren. Hur hänger grenströmmarna ihop med strömmen från källan?</p>",
   "svarFormat": "numeriskt",
   "svarEnhet": "mA",
   "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar"
@@ -204139,7 +204139,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(0/1/0)",
   "t": "<p>R₁ = 20 Ω, R₂ = 30 Ω och R₃ = 60 Ω. Spänningskällan ger 12 V. Hur stor effekt utvecklas i R₁?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 350\" role=\"img\" aria-label=\"R₁ i serie med parallellkopplingen av R₂ och R₃.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"350\" fill=\"white\"/><path d=\"M65 60L160 60\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"160\" y=\"49\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"190\" y=\"32\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><path d=\"M220 60L270 60\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M270 60L270 120\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M270 120L320 120\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"320\" y=\"109\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"350\" y=\"92\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M380 120L435 120\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M270 210L320 210\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"320\" y=\"199\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"350\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₃</text><path d=\"M380 210L435 210\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M270 120L270 210\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 120L435 300\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 60L65 300\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 300L230 300\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 300L435 300\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 280L230 320\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 290L250 310\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"274\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"274\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"240\" y=\"344\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">12 V</text><circle cx=\"270\" cy=\"120\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"270\" cy=\"210\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"120\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"210\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>R₂ och R₃ är parallellkopplade.</p>\\[R_p=\\frac{30\\cdot60}{30+60}=20\\,\\Omega\\]<p>Hela kretsens resistans är 20 + 20 = 40 Ω. Totalströmmen går genom R₁.</p>\\[I=\\frac{12}{40}=0{,}30\\,\\mathrm A\\]\\[P_1=20\\cdot0{,}30^2=1{,}8\\,\\mathrm W\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\) W.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parallellresistans: \\(R_p=\\dfrac{R_2R_3}{R_2+R_3}\\)</p><div class=\"facit-matte\">\\[R_p=\\frac{30\\cdot60}{30+60}\\,\\Omega=20\\,\\Omega\\]</div></li><li><p class=\"facit-rubrik\">Totalresistans: \\(R_{\\mathrm{tot}}=R_1+R_p\\)</p><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=20+20=40\\,\\Omega\\]</div></li><li><p class=\"facit-rubrik\">Ström genom R₁: \\(I=U/R_{\\mathrm{tot}}\\)</p><p>R₁ ligger före förgreningen. Där går hela kretsens ström.</p><div class=\"facit-matte\">\\[I=\\frac{12\\,\\mathrm V}{40\\,\\Omega}=0{,}30\\,\\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Effekt i just R₁: \\(P_1=I^2R_1\\)</p><p>Använd R₁ här, inte kretsens totala resistans.</p><div class=\"facit-matte\">\\[P_1=(0{,}30)^2\\cdot20\\,\\mathrm W=1{,}8\\,\\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,8 W utvecklas i R₁.</p></div>",
   "familj": "Kretsanalys och blandade resistorkopplingar",
   "formaga": [
     "procedur"
@@ -204153,7 +204153,7 @@ window.BANK = [
   "geogebra": false,
   "traningsniva": 3,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Genom R₁ går hela kretsens ström, innan den delar upp sig.</p>",
+  "ledtrad": "<p>Hitta kretsens totalström. Den går genom R₁ innan den delar upp sig.</p>",
   "svarFormat": "numeriskt",
   "svarEnhet": "W",
   "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar"

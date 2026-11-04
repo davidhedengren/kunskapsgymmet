@@ -79941,7 +79941,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En resistor på 330 Ω ansluts till 6,0 V.</p><span class=\"fig\"><svg height=\"291.2143766392688\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.665470123291016 1.4816780090332031 397.334529876709 222.5183219909668\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"312\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"340\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R = 330 Ω</text><circle cx=\"225\" cy=\"48\" r=\"17\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><text x=\"225\" y=\"53\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">A</text></svg></span><p>a) Bestäm strömmen.</p><p>b) Bestäm effekten.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[I=6{,}0/330\\approx0{,}0182\\ \\mathrm A\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0182\\) A.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P=U^2/R=6{,}0^2/330\\approx0{,}109\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}109\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><p>Spänningen och resistansen är givna. Lös ut strömmen ur Ohms lag.</p><div class=\"facit-matte\">\\[I=\\frac{6{,}0}{330}\\approx0{,}0182\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0182\\ \\mathrm A\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Använd de givna värdena direkt så att strömmen inte behöver avrundas först.</p><div class=\"facit-matte\">\\[P=\\frac{6{,}0^2}{330}\\approx0{,}109\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}109\\ \\mathrm W\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -79960,14 +79960,14 @@ window.BANK = [
       true,
       true
     ],
-    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+    "ledtrad": "<p>Vilket samband ger strömmen när spänning och resistans är kända?</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En resistor på 330 Ω ansluts till 6,0 V.</p><span class=\"fig\"><svg height=\"291.2143766392688\" width=\"520\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.665470123291016 1.4816780090332031 397.334529876709 222.5183219909668\" role=\"img\" aria-label=\"Kopplingsschema med markerade komponenter och givna värden\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"120\" y1=\"147\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"></line><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"></line><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#B43123\">6,0 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"></line><rect x=\"312\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></rect><text x=\"340\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">R = 330 Ω</text><circle cx=\"225\" cy=\"48\" r=\"17\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><text x=\"225\" y=\"53\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" fill=\"#2B2527\">A</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm strömmen.",
-        "s": "<div class=\"facit-v2\"><p>\\[I=U/R=6{,}0/330\\approx0{,}0182\\ \\mathrm A\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><p>Spänningen och resistansen är givna. Lös ut strömmen ur Ohms lag.</p><div class=\"facit-matte\">\\[I=\\frac{6{,}0}{330}\\approx0{,}0182\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0182\\ \\mathrm A\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.01818181818181818,
         "självrättning": true,
@@ -79978,14 +79978,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "ledtrad": "<p>Vilket samband kopplar ihop spänning, resistans och ström?</p>",
         "t": "<p>En resistor på 330 Ω ansluts till 6,0 V. Bestäm strömmen.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
         "fraga": "Spänningen över en resistor är 6,0 V och strömmen är 0,0182 A. Bestäm effekten.",
-        "s": "<div class=\"facit-v2\"><p>\\[P=UI=6{,}0\\cdot0{,}0182=0{,}1092\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Kortet ger både spänning och ström.</p><div class=\"facit-matte\">\\[P=6{,}0\\cdot0{,}0182=0{,}1092\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}1092\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.1092,
         "självrättning": true,
@@ -79996,7 +79996,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "ledtrad": "<p>Vilket effektsamband använder de två givna storheterna?</p>",
         "t": "<p>Spänningen över en resistor är 6,0 V och strömmen är 0,0182 A. Bestäm effekten.</p>",
         "arbetsinsats": 1
       }
@@ -80088,7 +80088,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Ett kylskåp har effekten 120 W när kompressorn arbetar. Den arbetar 30 % av tiden. Elpriset är 2,5 kr/kWh. Ett år har 365 dagar i beräkningen.</p><p>a) Hur mycket elenergi används under ett år? (Svara i kWh.)</p><p>b) Vad kostar elen? (Svara i kr.)</p><p>c) Förklara vad som händer med rummets temperatur om kylskåpsdörren lämnas öppen.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=0{,}120\\cdot0{,}30\\cdot(365\\cdot24)\\\\&=315{,}36\\ \\mathrm{kWh}\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(315{,}36\\) kWh.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\text{Kostnad}&=315{,}36\\cdot2{,}5\\\\&=788{,}4\\ \\mathrm{kr}\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(788{,}4\\) kr.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Kylskåpet flyttar värme från insidan till rummet. Dess elenergi blir också värme. Med dörren öppen värmer det därför rummet, i stället för att kyla det.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Kompressorn arbetar 30 % av året. Effekten under drift är 120 W = 0,120 kW.</p></li><li><p class=\"facit-rubrik\">Beräkna kompressorns arbetstid</p><div class=\"facit-matte\">\\[t=0{,}30\\cdot365\\cdot24=2628\\ \\mathrm h\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=0{,}120\\cdot2628=315{,}36\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(315{,}36\\ \\mathrm{kWh}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elkostnad: \\(K=E\\cdot\\text{pris per kWh}\\)</p><p>Använd årsenergin från a).</p><div class=\"facit-matte\">\\[K=315{,}36\\cdot2{,}5=788{,}4\\ \\mathrm{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(788{,}4\\ \\mathrm{kr}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energibevarande i rummet</p><p>Kylskåpet flyttar värme från insidan till rummet. När dörren är öppen tas den värmen från samma rum som den lämnas till. Dessutom omvandlas den tillförda elenergin till värme.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kylskåpet tillför värme till rummet, så det kyler inte rummet med öppen dörr.</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -80118,7 +80118,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Hur mycket elenergi används under 365 dagar? (Svara i kWh.)",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=0{,}120\\cdot0{,}30\\cdot(365\\cdot24)\\\\&=315{,}36\\ \\mathrm{kWh}\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Kompressorn arbetar 30 % av året. Effekten under drift är 120 W = 0,120 kW.</p></li><li><p class=\"facit-rubrik\">Beräkna kompressorns arbetstid</p><div class=\"facit-matte\">\\[t=0{,}30\\cdot365\\cdot24=2628\\ \\mathrm h\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=0{,}120\\cdot2628=315{,}36\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(315{,}36\\ \\mathrm{kWh}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 315.36,
         "självrättning": true,
@@ -80136,7 +80136,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Ett kylskåp använder 315,4 kWh under ett år. Elpriset är 2,5 kr/kWh. Vad kostar elen? (Svara i kr.)",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}\\text{Kostnad}&=315{,}4\\cdot2{,}5\\\\&=788{,}5\\ \\mathrm{kr}\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elkostnad: \\(K=E\\cdot\\text{pris per kWh}\\)</p><p>Detta kort anger årsenergin 315,4 kWh.</p><div class=\"facit-matte\">\\[K=315{,}4\\cdot2{,}5=788{,}5\\ \\mathrm{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(788{,}5\\ \\mathrm{kr}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 788.5,
         "självrättning": true,
@@ -80154,7 +80154,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Vad händer med rummets temperatur om ett kylskåp lämnas igång med dörren öppen?",
-        "s": "<div class=\"facit-v2\"><p>Kylskåpet flyttar värme från insidan till rummet. Dess elenergi blir också värme. Med dörren öppen värmer det därför rummet, i stället för att kyla det.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energibevarande i rummet</p><p>Kylskåpet flyttar värme från insidan till rummet. När dörren är öppen tas den värmen från samma rum som den lämnas till. Dessutom omvandlas den tillförda elenergin till värme.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kylskåpet tillför värme till rummet, så det kyler inte rummet med öppen dörr.</p></div>",
         "svarstyp": "alternativ",
         "rättSvar": "Kylskåpet tillför värme till rummet.",
         "självrättning": true,
@@ -80252,7 +80252,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>a) En resistor på 1,5 kΩ har strömmen 180 mA. Bestäm effekten.</p><p>b) En resistor på 800 Ω utvecklar effekten 20 W. Bestäm strömmen i A.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Omvandla: 1,5 kΩ = 1 500 Ω och 180 mA = 0,180 A.</p><p>\\[P=I^2R=0{,}180^2\\cdot1500=48{,}6\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(48{,}6\\) W.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[I=\\sqrt{P/R}=\\sqrt{20/800}\\approx0{,}158\\ \\mathrm A\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}158\\) A.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>1,5 kΩ = 1 500 Ω och 180 mA = 0,180 A. Sökt: effekten.</p></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><div class=\"facit-matte\">\\[P=0{,}180^2\\cdot1500=48{,}6\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(48{,}6\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>Lös ut strömmens storlek.</p><div class=\"facit-matte\">\\[I^2=\\frac{P}{R}=\\frac{20}{800}\\]</div></li><li><p class=\"facit-rubrik\">Ta den positiva roten: \\(I=\\sqrt{P/R}\\)</p><div class=\"facit-matte\">\\[I=\\sqrt{\\frac{20}{800}}\\approx0{,}158\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}158\\ \\mathrm A\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -80289,7 +80289,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En resistor på 1,5 kΩ har strömmen 180 mA. Bestäm effekten.",
-        "s": "<div class=\"facit-v2\"><p>Omvandla: 1,5 kΩ = 1 500 Ω och 180 mA = 0,180 A.</p><p>\\[P=I^2R=0{,}180^2\\cdot1500=48{,}6\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>1,5 kΩ = 1 500 Ω och 180 mA = 0,180 A. Sökt: effekten.</p></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><div class=\"facit-matte\">\\[P=0{,}180^2\\cdot1500=48{,}6\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(48{,}6\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 48.599999999999994,
         "självrättning": true,
@@ -80307,7 +80307,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En resistor på 800 Ω utvecklar effekten 20 W. Bestäm strömmen.",
-        "s": "<div class=\"facit-v2\"><p>\\[I=\\sqrt{P/R}=\\sqrt{20/800}\\approx0{,}158\\ \\mathrm A\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>Lös ut strömmens storlek.</p><div class=\"facit-matte\">\\[I^2=\\frac{P}{R}=\\frac{20}{800}\\]</div></li><li><p class=\"facit-rubrik\">Ta den positiva roten: \\(I=\\sqrt{P/R}\\)</p><div class=\"facit-matte\">\\[I=\\sqrt{\\frac{20}{800}}\\approx0{,}158\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}158\\ \\mathrm A\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.15811388300841897,
         "självrättning": true,
@@ -81326,7 +81326,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En lampa ansluts till 1,5 V och drar 50 mA.</p><p>a) Bestäm effekten i mW.</p><p>b) Bestäm resistansen.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>50 mA = 0,050 A.</p><p>\\[\\begin{aligned}P&=UI\\\\&=1{,}5\\cdot0{,}050\\\\&=0{,}075\\ \\mathrm W\\\\&=75\\ \\mathrm{mW}\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\) mW.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}R&=U/I\\\\&=1{,}5/0{,}050\\\\&=30\\ \\Omega\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\) Ω.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>50 mA = 0,050 A. Sökt: effekten i mW.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=1{,}5\\cdot0{,}050=0{,}075\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Omvandla watt till milliwatt</p><div class=\"facit-matte\">\\[0{,}075\\ \\mathrm W=75\\ \\mathrm{mW}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\ \\mathrm{mW}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Strömmen 50 mA skrivs som 0,050 A.</p></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[R=\\frac{1{,}5}{0{,}050}=30\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\ \\Omega\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -81366,7 +81366,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm effekten i mW.",
-        "s": "<div class=\"facit-v2\"><p>50 mA = 0,050 A.</p><p>\\[\\begin{aligned}P&=UI\\\\&=1{,}5\\cdot0{,}050\\\\&=0{,}075\\ \\mathrm W\\\\&=75\\ \\mathrm{mW}\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>50 mA = 0,050 A. Sökt: effekten i mW.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=1{,}5\\cdot0{,}050=0{,}075\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Omvandla watt till milliwatt</p><div class=\"facit-matte\">\\[0{,}075\\ \\mathrm W=75\\ \\mathrm{mW}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\ \\mathrm{mW}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 75,
         "självrättning": true,
@@ -81384,7 +81384,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm resistansen.",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}R&=U/I\\\\&=1{,}5/0{,}050\\\\&=30\\ \\Omega\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Strömmen 50 mA skrivs som 0,050 A.</p></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[R=\\frac{1{,}5}{0{,}050}=30\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\ \\Omega\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 30,
         "självrättning": true,
@@ -81480,7 +81480,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>En solpanel har arean 1,7 m². Solljuset ger 800 W per m². Panelen ger 9,0 A vid 22,5 V.</p><p>a) Vilken effekt tar panelen emot?</p><p>b) Vilken elektrisk effekt ger panelen?</p><p>c) Bestäm verkningsgraden i %.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[P_{\\text{in}}=800\\cdot1{,}7=1360\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1360\\) W.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P_{\\text{el}}=22{,}5\\cdot9{,}0=202{,}5\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(202{,}5\\) W.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\eta=202{,}5/1360\\cdot100\\approx14{,}9\\ \\%\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}9\\) %.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mottagen effekt: \\(P_{\\mathrm{in}}=\\text{effekt per area}\\cdot A\\)</p><p>Varje kvadratmeter tar emot 800 W.</p><div class=\"facit-matte\">\\[P_{\\mathrm{in}}=800\\cdot1{,}7=1360\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1360\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=22{,}5\\cdot9{,}0=202{,}5\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(202{,}5\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=P_{\\mathrm{el}}/P_{\\mathrm{in}}\\)</p><p>Jämför den elektriska effekten från b) med den mottagna effekten från a).</p><div class=\"facit-matte\">\\[\\eta=\\frac{202{,}5}{1360}\\cdot100\\approx14{,}9\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}9\\ \\%\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -81526,7 +81526,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Solljuset ger 800 W per m² på en solpanel med arean 1,7 m². Vilken effekt tar panelen emot?",
-        "s": "<div class=\"facit-v2\"><p>\\[P_{\\text{in}}=800\\cdot1{,}7=1360\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mottagen effekt: \\(P_{\\mathrm{in}}=\\text{effekt per area}\\cdot A\\)</p><p>Varje kvadratmeter tar emot 800 W.</p><div class=\"facit-matte\">\\[P_{\\mathrm{in}}=800\\cdot1{,}7=1360\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1360\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1360,
         "självrättning": true,
@@ -81544,7 +81544,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En solpanel ger 9,0 A vid 22,5 V. Vilken elektrisk effekt ger den?",
-        "s": "<div class=\"facit-v2\"><p>\\[P_{\\text{el}}=22{,}5\\cdot9{,}0=202{,}5\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=22{,}5\\cdot9{,}0=202{,}5\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(202{,}5\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 202.5,
         "självrättning": true,
@@ -81562,7 +81562,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En solpanel tar emot 1 360 W från solljuset och ger 203 W elektrisk effekt. Bestäm verkningsgraden i %. ",
-        "s": "<div class=\"facit-v2\"><p>\\[\\eta=203/1360\\cdot100\\approx14{,}9\\ \\%\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=P_{\\mathrm{el}}/P_{\\mathrm{in}}\\)</p><p>Kortet anger 203 W som elektrisk effekt.</p><div class=\"facit-matte\">\\[\\eta=\\frac{203}{1360}\\cdot100\\approx14{,}9\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}9\\ \\%\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 14.926470588235293,
         "självrättning": true,
@@ -83118,7 +83118,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Ett batteri har kapaciteten 2,0 Ah och spänningen 9 V.</p><p>a) Hur stor laddning kan batteriet ge? (Svara i C.)</p><p>b) Hur mycket energi kan batteriet ge? (Svara i kJ.)</p><p>c) Hur länge räcker batteriet vid strömmen 150 mA? (Svara i timmar.)</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[Q=I t=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7200\\) C.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=UQ=9\\cdot7200=64800\\ \\mathrm J\\]</p><p>\\[E=64{,}8\\ \\mathrm{kJ}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(64{,}8\\) kJ.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[t=Q/I=2{,}0/0{,}15\\approx13{,}333\\ \\mathrm h\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}333\\) h.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Laddning: \\(Q=It\\)</p><p>En amperetimme är 1 A under 3 600 s och motsvarar därför 3 600 C.</p><div class=\"facit-matte\">\\[Q=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7200\\ \\mathrm C\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UQ\\)</p><div class=\"facit-matte\">\\[E=9\\cdot7200=64\\,800\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Omvandla joule till kilojoule</p><div class=\"facit-matte\">\\[E=64{,}8\\ \\mathrm{kJ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(64{,}8\\ \\mathrm{kJ}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>150 mA = 0,150 A. Kapaciteten är 2,0 Ah.</p></li><li><p class=\"facit-rubrik\">Laddning: \\(Q=It\\)</p><p>Med Ah i täljaren och A i nämnaren fås tiden i timmar.</p><div class=\"facit-matte\">\\[t=\\frac{2{,}0\\ \\mathrm{Ah}}{0{,}150\\ \\mathrm A}\\approx13{,}3\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(13{,}3\\ \\mathrm h\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -83163,7 +83163,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Ett batteri har kapaciteten 2 Ah. Hur stor laddning motsvarar detta? (Svara i C.)",
-        "s": "<div class=\"facit-v2\"><p>\\[Q=I t=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Laddning: \\(Q=It\\)</p><p>En amperetimme är 1 A under 3 600 s och motsvarar därför 3 600 C.</p><div class=\"facit-matte\">\\[Q=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7200\\ \\mathrm C\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 7200,
         "självrättning": true,
@@ -83181,7 +83181,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Ett batteri kan ge laddningen 7 200 C vid spänningen 9 V. Hur mycket energi kan det ge? (Svara i kJ.)",
-        "s": "<div class=\"facit-v2\"><p>\\[E=UQ=9\\cdot7200=64800\\ \\mathrm J\\]</p><p>\\[E=64{,}8\\ \\mathrm{kJ}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UQ\\)</p><div class=\"facit-matte\">\\[E=9\\cdot7200=64\\,800\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Omvandla joule till kilojoule</p><div class=\"facit-matte\">\\[E=64{,}8\\ \\mathrm{kJ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(64{,}8\\ \\mathrm{kJ}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 64.8,
         "självrättning": true,
@@ -83199,7 +83199,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Ett batteri har kapaciteten 2,0 Ah och driver strömmen 150 mA. Hur länge räcker det? (Svara i timmar.)",
-        "s": "<div class=\"facit-v2\"><p>\\[t=Q/I=2{,}0/0{,}15\\approx13{,}333\\ \\mathrm h\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>150 mA = 0,150 A. Kapaciteten är 2,0 Ah.</p></li><li><p class=\"facit-rubrik\">Laddning: \\(Q=It\\)</p><p>Med Ah i täljaren och A i nämnaren fås tiden i timmar.</p><div class=\"facit-matte\">\\[t=\\frac{2{,}0\\ \\mathrm{Ah}}{0{,}150\\ \\mathrm A}\\approx13{,}3\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(13{,}3\\ \\mathrm h\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 13.333333333333334,
         "självrättning": true,
@@ -84365,7 +84365,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En resistor på 470 Ω har strömmen 25 mA.</p><p>a) Bestäm spänningen.</p><p>b) Bestäm effekten.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>25 mA = 0,025 A.</p><p>\\[U=RI=470\\cdot0{,}025=11{,}75\\ \\mathrm V\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}75\\) V.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P=UI=11{,}75\\cdot0{,}025=0{,}29375\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}29375\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>25 mA = 0,025 A. Resistansen är 470 Ω.</p></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[U=470\\cdot0{,}025=11{,}75\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}75\\ \\mathrm V\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Använd spänningen och strömmen i ampere.</p><div class=\"facit-matte\">\\[P=11{,}75\\cdot0{,}025=0{,}29375\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}294\\ \\mathrm W\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -84402,7 +84402,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm spänningen.",
-        "s": "<div class=\"facit-v2\"><p>25 mA = 0,025 A.</p><p>\\[U=RI=470\\cdot0{,}025=11{,}75\\ \\mathrm V\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>25 mA = 0,025 A. Resistansen är 470 Ω.</p></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[U=470\\cdot0{,}025=11{,}75\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}75\\ \\mathrm V\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 11.75,
         "självrättning": true,
@@ -84420,7 +84420,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Spänningen över en resistor är 11,75 V och strömmen är 25 mA. Bestäm effekten.",
-        "s": "<div class=\"facit-v2\"><p>\\[P=UI=11{,}75\\cdot0{,}025=0{,}29375\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Använd spänningen och strömmen i ampere.</p><div class=\"facit-matte\">\\[P=11{,}75\\cdot0{,}025=0{,}29375\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}294\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.29375,
         "självrättning": true,
@@ -84453,7 +84453,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>En laddare ger 5,0 V och 2,2 A under 80 minuter. Batteriet är märkt 4 000 mAh och 3,7 V.</p><p>a) Hur mycket energi ger laddaren? (Svara i Wh.)</p><p>b) Vilken energi motsvarar batteriets märkvärden? (Svara i Wh.)</p><p>c) Förklara hur den lilla skillnaden mellan energierna kan uppstå.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E=5{,}0\\cdot2{,}2\\cdot(80/60)\\approx14{,}7\\ \\mathrm{Wh}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}7\\) Wh.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=UQ=3{,}7\\cdot4{,}0=14{,}8\\ \\mathrm{Wh}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}8\\) Wh.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Energierna är nästan lika. Märkvärdena är avrundade, så den lilla skillnaden kan inte användas som bevis för att batteriet lagrar mer energi än laddaren ger. I en verklig laddning blir en del av elenergin värme.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>80 min = 80/60 h. Sökt: energi i Wh.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=5{,}0\\cdot2{,}2=11\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Watt gånger timmar ger wattimmar.</p><div class=\"facit-matte\">\\[E=11\\cdot\\frac{80}{60}\\approx14{,}7\\ \\mathrm{Wh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}7\\ \\mathrm{Wh}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>4 000 mAh = 4,0 Ah.</p></li><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UQ\\)</p><p>Volt gånger amperetimmar ger wattimmar.</p><div class=\"facit-matte\">\\[E=3{,}7\\cdot4{,}0=14{,}8\\ \\mathrm{Wh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}8\\ \\mathrm{Wh}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkvärden är avrundade</p><p>14,7 Wh och 14,8 Wh är nästan lika. Den lilla skillnaden visar inte att batteriet skapar energi: märkdata är avrundade och beskriver inte en exakt laddning.</p></li><li><p class=\"facit-rubrik\">Energibevarande vid verklig laddning</p><p>I en verklig laddning blir en del av den tillförda elenergin värme. Den energi som lagras kan inte överstiga den energi laddaren tillför.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Skillnaden är för liten för en säker slutsats med dessa avrundade uppgifter.</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -84498,7 +84498,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Hur mycket energi ger laddaren? (Svara i Wh.)",
-        "s": "<div class=\"facit-v2\"><p>\\[E=5{,}0\\cdot2{,}2\\cdot(80/60)\\approx14{,}7\\ \\mathrm{Wh}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>80 min = 80/60 h. Sökt: energi i Wh.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=5{,}0\\cdot2{,}2=11\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Watt gånger timmar ger wattimmar.</p><div class=\"facit-matte\">\\[E=11\\cdot\\frac{80}{60}\\approx14{,}7\\ \\mathrm{Wh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}7\\ \\mathrm{Wh}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 14.666666666666666,
         "självrättning": true,
@@ -84516,7 +84516,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Ett batteri är märkt 4 000 mAh och 3,7 V. Vilken energi motsvarar dessa märkvärden? (Svara i Wh.)",
-        "s": "<div class=\"facit-v2\"><p>\\[E=UQ=3{,}7\\cdot4{,}0=14{,}8\\ \\mathrm{Wh}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>4 000 mAh = 4,0 Ah.</p></li><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UQ\\)</p><p>Volt gånger amperetimmar ger wattimmar.</p><div class=\"facit-matte\">\\[E=3{,}7\\cdot4{,}0=14{,}8\\ \\mathrm{Wh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}8\\ \\mathrm{Wh}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 14.8,
         "självrättning": true,
@@ -84534,7 +84534,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Laddarens beräknade energi är 14,7 Wh och batteriets avrundade märkvärden ger 14,8 Wh. Vilken slutsats är rimlig?",
-        "s": "<div class=\"facit-v2\"><p>Energierna är nästan lika. Märkvärdena är avrundade, så den lilla skillnaden kan inte användas som bevis för att batteriet lagrar mer energi än laddaren ger. I en verklig laddning blir en del av elenergin värme.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkvärden är avrundade</p><p>14,7 Wh och 14,8 Wh är nästan lika. Den lilla skillnaden visar inte att batteriet skapar energi: märkdata är avrundade och beskriver inte en exakt laddning.</p></li><li><p class=\"facit-rubrik\">Energibevarande vid verklig laddning</p><p>I en verklig laddning blir en del av den tillförda elenergin värme. Den energi som lagras kan inte överstiga den energi laddaren tillför.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Skillnaden är för liten för en säker slutsats med dessa avrundade uppgifter.</p></div>",
         "svarstyp": "alternativ",
         "rättSvar": "Skillnaden är för liten för en säker slutsats med dessa avrundade uppgifter.",
         "självrättning": true,
@@ -84700,7 +84700,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(4/0/0)",
     "t": "<p>Ett värmeelement har effekten 1,8 kW och används 3,5 timmar per dag under 30 dagar. Elpriset är 2,5 kr/kWh och spänningen är 230 V.</p><p>a) Hur mycket energi används per dag? (Svara i kWh.)</p><p>b) Hur mycket energi används på 30 dagar? (Svara i kWh.)</p><p>c) Vad kostar elen? (Svara i kr.)</p><p>d) Bestäm strömmen.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E=Pt=1{,}8\\cdot3{,}5=6{,}3\\ \\mathrm{kWh}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\) kWh.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=6{,}3\\cdot30=189\\ \\mathrm{kWh}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(189\\) kWh.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\text{Kostnad}=189\\cdot2{,}5=472{,}5\\ \\mathrm{kr}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(472{,}5\\) kr.</p><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[I=P/U=1800/230\\approx7{,}83\\ \\mathrm A\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}83\\) A.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Effekten anges i kW och tiden i timmar.</p><div class=\"facit-matte\">\\[E=1{,}8\\cdot3{,}5=6{,}3\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\ \\mathrm{kWh}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi under flera dagar: \\(E_{30}=30E_{\\mathrm{dag}}\\)</p><div class=\"facit-matte\">\\[E_{30}=30\\cdot6{,}3=189\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(189\\ \\mathrm{kWh}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elkostnad: \\(K=E\\cdot\\text{pris per kWh}\\)</p><div class=\"facit-matte\">\\[K=189\\cdot2{,}5=472{,}5\\ \\mathrm{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(472{,}5\\ \\mathrm{kr}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>1,8 kW = 1 800 W. Sökt: strömmen vid 230 V.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{1800}{230}\\approx7{,}83\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}83\\ \\mathrm A\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -84744,14 +84744,14 @@ window.BANK = [
       "c",
       "d"
     ],
-    "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Hur hänger energi ihop med effekt och användningstid?</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ett värmeelement har effekten 1,8 kW och används 3,5 timmar per dag under 30 dagar. Elpriset är 2,5 kr/kWh och spänningen är 230 V.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Ett element på 1,8 kW används 3,5 timmar. Hur mycket energi används? (Svara i kWh.)",
-        "s": "<div class=\"facit-v2\"><p>\\[E=Pt=1{,}8\\cdot3{,}5=6{,}3\\ \\mathrm{kWh}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Effekten anges i kW och tiden i timmar.</p><div class=\"facit-matte\">\\[E=1{,}8\\cdot3{,}5=6{,}3\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\ \\mathrm{kWh}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 6.3,
         "självrättning": true,
@@ -84762,14 +84762,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "ledtrad": "<p>Effekten är redan given. Vilken energienhet får du av kW gånger timmar?</p>",
         "t": "<p>Ett element på 1,8 kW används 3,5 timmar. Hur mycket energi används? (Svara i kWh.)</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
         "fraga": "Ett element använder 6,3 kWh per dag. Hur mycket energi används på 30 dagar? (Svara i kWh.)",
-        "s": "<div class=\"facit-v2\"><p>\\[E=6{,}3\\cdot30=189\\ \\mathrm{kWh}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi under flera dagar: \\(E_{30}=30E_{\\mathrm{dag}}\\)</p><div class=\"facit-matte\">\\[E_{30}=30\\cdot6{,}3=189\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(189\\ \\mathrm{kWh}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 189,
         "självrättning": true,
@@ -84780,14 +84780,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Multiplicera dygnsenergin med antalet dagar.</p>",
+        "ledtrad": "<p>Hur får du månadsenergin från energin per dag?</p>",
         "t": "<p>Ett element använder 6,3 kWh per dag. Hur mycket energi används på 30 dagar? (Svara i kWh.)</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
         "fraga": "Ett element använder 189 kWh. Elpriset är 2,5 kr/kWh. Vad kostar elen? (Svara i kr.)",
-        "s": "<div class=\"facit-v2\"><p>\\[\\text{Kostnad}=189\\cdot2{,}5=472{,}5\\ \\mathrm{kr}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elkostnad: \\(K=E\\cdot\\text{pris per kWh}\\)</p><div class=\"facit-matte\">\\[K=189\\cdot2{,}5=472{,}5\\ \\mathrm{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(472{,}5\\ \\mathrm{kr}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 472.5,
         "självrättning": true,
@@ -84798,14 +84798,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Multiplicera energin med priset per kWh.</p>",
+        "ledtrad": "<p>Hur ger energin och elpriset kostnaden?</p>",
         "t": "<p>Ett element använder 189 kWh. Elpriset är 2,5 kr/kWh. Vad kostar elen? (Svara i kr.)</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "d",
         "fraga": "Ett element på 1,8 kW ansluts till 230 V. Bestäm strömmen.",
-        "s": "<div class=\"facit-v2\"><p>\\[I=P/U=1800/230\\approx7{,}83\\ \\mathrm A\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>1,8 kW = 1 800 W. Sökt: strömmen vid 230 V.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{1800}{230}\\approx7{,}83\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}83\\ \\mathrm A\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 7.826086956521739,
         "självrättning": true,
@@ -84816,7 +84816,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "ledtrad": "<p>Skriv effekten i W och lös ut strömmen ur effektsambandet.</p>",
         "t": "<p>Ett element på 1,8 kW ansluts till 230 V. Bestäm strömmen.</p>",
         "arbetsinsats": 1
       }
@@ -85651,7 +85651,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Ett elstängsel ger en puls per sekund. Varje puls överför energin 0,20 J. Pulsspänningen är 5,0 kV.</p><p>a) Bestäm medeleffekten.</p><p>b) Förklara varför spänningen ensam inte räcker för att bedöma faran.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[P=E/t=0{,}20/1{,}0=0{,}20\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}20\\) W.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Spänningen ensam avgör inte hur farlig en elektrisk kontakt är. Strömmen genom kroppen, tiden och den överförda energin spelar också roll. Kortvariga pulser behöver därför bedömas annorlunda än en kontinuerlig ström.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medeleffekt: \\(P_{\\mathrm{medel}}=E/t\\)</p><p>Under varje sekund överförs 0,20 J. Medeleffekten är inte samma som effekten under själva pulsen.</p><div class=\"facit-matte\">\\[P_{\\mathrm{medel}}=\\frac{0{,}20}{1{,}0}=0{,}20\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}20\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ström och tid påverkar skadan</p><p>Spänningen ensam räcker inte. Strömmen genom kroppen, strömmens väg och hur länge kontakten varar spelar roll, liksom den energi som överförs. En kort puls och en kontinuerlig ström kan därför inte bedömas enbart efter spänningen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen, tiden och energin spelar också roll.</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -85678,7 +85678,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Ett elstängsel överför 0,20 J i en puls varje sekund. Bestäm medeleffekten.",
-        "s": "<div class=\"facit-v2\"><p>\\[P=E/t=0{,}20/1{,}0=0{,}20\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medeleffekt: \\(P_{\\mathrm{medel}}=E/t\\)</p><p>Under varje sekund överförs 0,20 J. Medeleffekten är inte samma som effekten under själva pulsen.</p><div class=\"facit-matte\">\\[P_{\\mathrm{medel}}=\\frac{0{,}20}{1{,}0}=0{,}20\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}20\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.2,
         "självrättning": true,
@@ -85696,7 +85696,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Varför räcker det inte att känna spänningen för att bedöma faran med elektrisk kontakt?",
-        "s": "<div class=\"facit-v2\"><p>Spänningen ensam avgör inte hur farlig en elektrisk kontakt är. Strömmen genom kroppen, tiden och den överförda energin spelar också roll. Kortvariga pulser behöver därför bedömas annorlunda än en kontinuerlig ström.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ström och tid påverkar skadan</p><p>Spänningen ensam räcker inte. Strömmen genom kroppen, strömmens väg och hur länge kontakten varar spelar roll, liksom den energi som överförs. En kort puls och en kontinuerlig ström kan därför inte bedömas enbart efter spänningen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen, tiden och energin spelar också roll.</p></div>",
         "svarstyp": "alternativ",
         "rättSvar": "Strömmen, tiden och energin spelar också roll.",
         "självrättning": true,
@@ -87976,7 +87976,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En lampa är märkt 12 V, 21 W.</p><p>a) Bestäm strömmen vid 12 V.</p><p>b) Bestäm resistansen vid 12 V.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[I=P/U=21/12=1{,}75\\ \\mathrm A\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}75\\) A.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[R=U^2/P=12^2/21\\approx6{,}86\\ \\Omega\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}86\\) Ω.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Märkeffekten 21 W gäller vid märkspänningen 12 V.</p><div class=\"facit-matte\">\\[I=\\frac{21}{12}=1{,}75\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}75\\ \\mathrm A\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Detta är lampans resistans när den lyser vid 12 V.</p><div class=\"facit-matte\">\\[R=\\frac{12^2}{21}\\approx6{,}86\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}86\\ \\Omega\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -88016,7 +88016,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm strömmen när lampan ansluts till 12 V.",
-        "s": "<div class=\"facit-v2\"><p>\\[I=P/U=21/12=1{,}75\\ \\mathrm A\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Märkeffekten 21 W gäller vid märkspänningen 12 V.</p><div class=\"facit-matte\">\\[I=\\frac{21}{12}=1{,}75\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}75\\ \\mathrm A\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1.75,
         "självrättning": true,
@@ -88034,7 +88034,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En lampa utvecklar 21 W vid 12 V. Bestäm dess resistans vid denna spänning.",
-        "s": "<div class=\"facit-v2\"><p>\\[R=U^2/P=12^2/21\\approx6{,}86\\ \\Omega\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Detta är lampans resistans när den lyser vid 12 V.</p><div class=\"facit-matte\">\\[R=\\frac{12^2}{21}\\approx6{,}86\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}86\\ \\Omega\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 6.857142857142857,
         "självrättning": true,
@@ -89552,7 +89552,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En resistor på 52 Ω ansluts till 230 V.</p><p>a) Bestäm strömmen.</p><p>b) Bestäm effekten.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[I=U/R=230/52\\approx4{,}42\\ \\mathrm A\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}42\\) A.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P=U^2/R=230^2/52\\approx1017\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1017\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[I=\\frac{230}{52}\\approx4{,}42\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}42\\ \\mathrm A\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Använd spänning och resistans direkt för att undvika avrundning av strömmen.</p><div class=\"facit-matte\">\\[P=\\frac{230^2}{52}\\approx1017\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1017\\ \\mathrm W\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -89589,7 +89589,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm strömmen.",
-        "s": "<div class=\"facit-v2\"><p>\\[I=U/R=230/52\\approx4{,}42\\ \\mathrm A\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[I=\\frac{230}{52}\\approx4{,}42\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}42\\ \\mathrm A\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.423076923076923,
         "självrättning": true,
@@ -89607,7 +89607,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm effekten.",
-        "s": "<div class=\"facit-v2\"><p>\\[P=U^2/R=230^2/52\\approx1017\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Använd spänning och resistans direkt för att undvika avrundning av strömmen.</p><div class=\"facit-matte\">\\[P=\\frac{230^2}{52}\\approx1017\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1017\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1017.3076923076923,
         "självrättning": true,
@@ -89640,7 +89640,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En apparat ansluts till 12 V och drar 2,0 A. Vilken effekt har den?</p>",
-    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[P=UI=12\\cdot2{,}0=24\\ \\mathrm W\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=12\\cdot2{,}0=24\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\ \\mathrm W\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -89842,7 +89842,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>En värmare utvecklar 1 500 W vid 230 V. Räkna med samma resistans i del c.</p><p>a) Bestäm strömmen vid 230 V.</p><p>b) Bestäm resistansen.</p><p>c) Vilken effekt får värmaren vid 115 V om resistansen är densamma?</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[I=P/U=1500/230\\approx6{,}52\\ \\mathrm A\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}52\\) A.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[R=U^2/P=230^2/1500\\approx35{,}3\\ \\Omega\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(35{,}3\\) Ω.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Med samma resistans är effekten proportionell mot spänningen i kvadrat.</p><p>\\[P_{\\text{ny}}=1500(115/230)^2=375\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(375\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{1500}{230}\\approx6{,}52\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}52\\ \\mathrm A\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><div class=\"facit-matte\">\\[R=\\frac{230^2}{1500}\\approx35{,}3\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(35{,}3\\ \\Omega\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Resistansen är oförändrad. När spänningen halveras blir spänningens kvadrat en fjärdedel så stor.</p></li><li><p class=\"facit-rubrik\">Effektförhållande: \\(P_{\\mathrm{ny}}/P_{\\mathrm{gammal}}=(U_{\\mathrm{ny}}/U_{\\mathrm{gammal}})^2\\)</p><div class=\"facit-matte\">\\[P_{\\mathrm{ny}}=1500\\left(\\frac{115}{230}\\right)^2=375\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(375\\ \\mathrm W\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -89880,14 +89880,14 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+    "ledtrad": "<p>Märkeffekten gäller vid den angivna spänningen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En värmare utvecklar 1 500 W vid 230 V. Räkna med samma resistans i del c.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm strömmen.",
-        "s": "<div class=\"facit-v2\"><p>\\[I=P/U=1500/230\\approx6{,}52\\ \\mathrm A\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{1500}{230}\\approx6{,}52\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}52\\ \\mathrm A\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 6.521739130434782,
         "självrättning": true,
@@ -89898,14 +89898,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "ledtrad": "<p>Vilket samband ger strömmen från effekt och spänning?</p>",
         "t": "<p>En värmare utvecklar 1 500 W vid 230 V. Bestäm strömmen.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
         "fraga": "Bestäm resistansen.",
-        "s": "<div class=\"facit-v2\"><p>\\[R=U^2/P=230^2/1500\\approx35{,}3\\ \\Omega\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><div class=\"facit-matte\">\\[R=\\frac{230^2}{1500}\\approx35{,}3\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(35{,}3\\ \\Omega\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 35.266666666666666,
         "självrättning": true,
@@ -89916,14 +89916,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "ledtrad": "<p>Vilket effektsamband innehåller spänning och resistans?</p>",
         "t": "<p>En värmare utvecklar 1 500 W vid 230 V. Bestäm resistansen.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
         "fraga": "Vilken effekt får den vid 115 V om resistansen är densamma?",
-        "s": "<div class=\"facit-v2\"><p>Med samma resistans är effekten proportionell mot spänningen i kvadrat.</p><p>\\[P_{\\text{ny}}=1500(115/230)^2=375\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Resistansen är oförändrad. När spänningen halveras blir spänningens kvadrat en fjärdedel så stor.</p></li><li><p class=\"facit-rubrik\">Effektförhållande: \\(P_{\\mathrm{ny}}/P_{\\mathrm{gammal}}=(U_{\\mathrm{ny}}/U_{\\mathrm{gammal}})^2\\)</p><div class=\"facit-matte\">\\[P_{\\mathrm{ny}}=1500\\left(\\frac{115}{230}\\right)^2=375\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(375\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 375,
         "självrättning": true,
@@ -89934,7 +89934,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "ledtrad": "<p>Hur beror effekten på spänningen när resistansen är konstant?</p>",
         "t": "<p>En värmare utvecklar 1 500 W vid 230 V. Vilken effekt får den vid 115 V om resistansen är densamma?</p>",
         "arbetsinsats": 1
       }
@@ -90029,7 +90029,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En lampa har effekten 100 W och lyser i 30 s. Hur mycket energi använder den?</p>",
-    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[E=Pt=100\\cdot30=3000\\ \\mathrm J\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(3000\\) J.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Effekten är redan given. Watt gånger sekunder ger joule.</p><div class=\"facit-matte\">\\[E=100\\cdot30=3000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3000\\ \\mathrm J\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -90041,7 +90041,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Beräkna effekten med \\(P=UI\\) och energin med \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Effekten är redan given. Vilket samband kopplar ihop energi, effekt och tid?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "J",
     "traningsniva": 1,
@@ -91186,7 +91186,7 @@ window.BANK = [
     "typ": "beräkna effekt och omsatt energi under en given tid i seriekoppling, ur diagram, sökt ström effekt och energi",
     "poang": "(1/0/0)",
     "t": "<p>Figuren visar två seriekopplade resistorer som är påslagna i 5,0 minuter.</p><span class=\"fig\"><svg height=\"268\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"57.857 12.346 389.571 209.105\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 400 Ω</text></svg></span>\n<ol><li>Hur stor ström går i kretsen?</li><li>Vilken effekt avger batteriet?</li>\n<li>Hur mycket energi omsätts under 5,0 minuter?</li>\n<li>Hur stor del av den energin utvecklas i R₂?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen är 600 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12}{600}\\approx0{,}02\\ \\mathrm{A}=20\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{mA}\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\).</p><p>\\[P=12\\cdot0{,}020=0{,}240\\,\\mathrm W\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\(5{,}0\\,\\mathrm{min}=300\\,\\mathrm s\\).</p><p>\\[E=0{,}240\\cdot300=72\\,\\mathrm J\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>R₂ är 400 Ω. Omvandla \\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\) och \\(5\\,\\mathrm{min}=300\\,\\mathrm s\\).</p><p>\\[P_2=400\\cdot0{,}020^2=0{,}160\\,\\mathrm W\\]</p><p>\\[E_2=0{,}160\\cdot300=48\\,\\mathrm J\\]</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Serieresistans: \\(R_{\\mathrm{tot}}=R_1+R_2\\)</p><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=200+400=600\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[I=\\frac{12}{600}=0{,}020\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till milliampere</p><div class=\"facit-matte\">\\[I=20\\ \\mathrm{mA}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{mA}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>20 mA = 0,020 A. Batteriet ger 12 V.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=12\\cdot0{,}020=0{,}240\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}240\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>5,0 min = 300 s. Effekten är 0,240 W.</p></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=0{,}240\\cdot300=72\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(72\\ \\mathrm J\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>R₂ = 400 Ω, I = 0,020 A och t = 300 s.</p></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>Samma ström går genom båda serieresistorerna.</p><div class=\"facit-matte\">\\[P_2=0{,}020^2\\cdot400=0{,}160\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E_2=0{,}160\\cdot300=48\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\ \\mathrm J\\) utvecklas i R₂.</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -91230,15 +91230,15 @@ window.BANK = [
       "c",
       "d"
     ],
-    "ledtrad": "<p>I serie är strömmen samma genom alla komponenter och resistanserna adderas. Delspänningen över en resistor fås med \\(U=RI\\).</p>",
+    "ledtrad": "<p>Börja med kretsens totalresistans. Håll sedan isär effekt och energi.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Figuren visar två seriekopplade resistorer som är påslagna i 5,0 minuter.</p><span class=\"fig\"><svg height=\"268\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"57.857 12.346 389.571 209.105\"><line x1=\"120\" y1=\"48\" x2=\"120\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"138\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"105\" y1=\"122\" x2=\"135\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"138\" x2=\"126\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"4.5\" stroke-linecap=\"square\"/><text x=\"98\" y=\"135\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">12 V</text><line x1=\"120\" y1=\"48\" x2=\"430\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"48\" x2=\"430\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"210\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"197\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"225\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₁ = 200 Ω</text><rect x=\"327\" y=\"38\" width=\"56\" height=\"20\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"355\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R₂ = 400 Ω</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor ström går i kretsen?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalresistansen är 600 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{12}{600}\\approx0{,}02\\ \\mathrm{A}=20\\ \\mathrm{mA}\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{mA}\\).</p></div>",
-        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Serieresistans: \\(R_{\\mathrm{tot}}=R_1+R_2\\)</p><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=200+400=600\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[I=\\frac{12}{600}=0{,}020\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till milliampere</p><div class=\"facit-matte\">\\[I=20\\ \\mathrm{mA}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{mA}\\).</p></div>",
+        "ledtrad": "<p>Hur beräknas totalresistansen i en seriekoppling?</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)"
@@ -91246,8 +91246,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Strömmen är 20 mA. Vilken effekt avger batteriet?",
-        "s": "<div class=\"facit-v2\"><p>\\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\).</p><p>\\[P=12\\cdot0{,}020=0{,}240\\,\\mathrm W\\]</p></div>",
-        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>20 mA = 0,020 A. Batteriet ger 12 V.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=12\\cdot0{,}020=0{,}240\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}240\\ \\mathrm W\\).</p></div>",
+        "ledtrad": "<p>Vilket samband ger effekten från batteriets spänning och ström?</p>",
         "niva": "E",
         "traningsniva": 1,
         "poang": "(1/0/0)"
@@ -91255,8 +91255,8 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Batteriets effekt är 0,240 W. Hur mycket energi omsätts under 5,0 minuter?",
-        "s": "<div class=\"facit-v2\"><p>\\(5{,}0\\,\\mathrm{min}=300\\,\\mathrm s\\).</p><p>\\[E=0{,}240\\cdot300=72\\,\\mathrm J\\]</p></div>",
-        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>5,0 min = 300 s. Effekten är 0,240 W.</p></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=0{,}240\\cdot300=72\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(72\\ \\mathrm J\\).</p></div>",
+        "ledtrad": "<p>Skriv tiden i sekunder. Hur hänger energi ihop med effekt och tid?</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)"
@@ -91264,8 +91264,8 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Strömmen är 20 mA. Hur mycket energi utvecklas i R₂ under 5,0 minuter?",
-        "s": "<div class=\"facit-v2\"><p>R₂ är 400 Ω. Omvandla \\(20\\,\\mathrm{mA}=0{,}020\\,\\mathrm A\\) och \\(5\\,\\mathrm{min}=300\\,\\mathrm s\\).</p><p>\\[P_2=400\\cdot0{,}020^2=0{,}160\\,\\mathrm W\\]</p><p>\\[E_2=0{,}160\\cdot300=48\\,\\mathrm J\\]</p></div>",
-        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>R₂ = 400 Ω, I = 0,020 A och t = 300 s.</p></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>Samma ström går genom båda serieresistorerna.</p><div class=\"facit-matte\">\\[P_2=0{,}020^2\\cdot400=0{,}160\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E_2=0{,}160\\cdot300=48\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\ \\mathrm J\\) utvecklas i R₂.</p></div>",
+        "ledtrad": "<p>Beräkna effekten i just R₂ och använd tiden för att få energin.</p>",
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)"
@@ -91614,7 +91614,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>En liten motor lyfter 0,70 kg en höjd på 0,50 m. Motorn drar 0,60 A vid 3,0 V under 3,5 s.</p><p>a) Hur mycket elenergi används?</p><p>b) Hur stort arbete utförs på lasten?</p><p>c) Bestäm verkningsgraden i %.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=3{,}0\\cdot0{,}60\\cdot3{,}5\\\\&=6{,}3\\ \\mathrm J\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\) J.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}W&=0{,}70\\cdot9{,}82\\cdot0{,}50\\\\&=3{,}437\\ \\mathrm J\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}437\\) J.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\eta&=3{,}437/6{,}3\\cdot100\\\\&\\approx54{,}6\\ \\%\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(54{,}6\\) %.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=3{,}0\\cdot0{,}60=1{,}8\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=1{,}8\\cdot3{,}5=6{,}3\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\ \\mathrm J\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lyftarbete: \\(W=mgh\\)</p><p>Arbetet ökar lastens lägesenergi.</p><div class=\"facit-matte\">\\[W=0{,}70\\cdot9{,}82\\cdot0{,}50=3{,}437\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}44\\ \\mathrm J\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=E_{\\mathrm{nyttig}}/E_{\\mathrm{in}}\\)</p><p>Nyttig energi är lyftarbetet från b). Tillförd energi är elenergin från a).</p><div class=\"facit-matte\">\\[\\eta=\\frac{3{,}437}{6{,}3}\\cdot100\\approx54{,}6\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(54{,}6\\ \\%\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -91660,7 +91660,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En motor drar 0,60 A vid 3,0 V under 3,5 s. Hur mycket elenergi använder den?",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=UIt\\\\&=3{,}0\\cdot0{,}60\\cdot3{,}5\\\\&=6{,}3\\ \\mathrm J\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=3{,}0\\cdot0{,}60=1{,}8\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=1{,}8\\cdot3{,}5=6{,}3\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\ \\mathrm J\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 6.3,
         "självrättning": true,
@@ -91678,7 +91678,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "En motor lyfter 0,70 kg en höjd på 0,50 m. Hur stort arbete utförs på lasten?",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}W&=mgh\\\\&=0{,}70\\cdot9{,}82\\cdot0{,}50\\\\&=3{,}437\\ \\mathrm J\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lyftarbete: \\(W=mgh\\)</p><p>Arbetet ökar lastens lägesenergi.</p><div class=\"facit-matte\">\\[W=0{,}70\\cdot9{,}82\\cdot0{,}50=3{,}437\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}44\\ \\mathrm J\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 3.437,
         "självrättning": true,
@@ -91696,7 +91696,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En motor använder 6,3 J elenergi och utför lyftarbetet 3,44 J. Bestäm verkningsgraden i %. ",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}\\eta&=3{,}44/6{,}3\\cdot100\\\\&\\approx54{,}6\\ \\%\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=E_{\\mathrm{nyttig}}/E_{\\mathrm{in}}\\)</p><p>Kortet anger lyftarbetet 3,44 J.</p><div class=\"facit-matte\">\\[\\eta=\\frac{3{,}44}{6{,}3}\\cdot100\\approx54{,}6\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(54{,}6\\ \\%\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 54.60317460317461,
         "självrättning": true,
@@ -92011,7 +92011,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>En glödlampa på 60 W byts mot en LED-lampa på 9,0 W som lyser lika starkt. Lampan används 4,0 timmar per dag under 365 dagar. Elpriset är 2,5 kr/kWh och LED-lampan kostar 45 kr.</p><p>a) Hur mycket elenergi sparas på ett år? (Svara i kWh.)</p><p>b) Hur mycket pengar sparas per år? (Svara i kr.)</p><p>c) Efter hur många månader har besparingen betalat LED-lampan?</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_{\\text{sparad}}&=(0{,}060-0{,}009)\\cdot4\\cdot365\\\\&=74{,}46\\ \\mathrm{kWh}\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(74{,}46\\) kWh.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\text{Besparing}&=74{,}46\\cdot2{,}5\\\\&=186{,}15\\ \\mathrm{kr}\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(186{,}15\\) kr.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}t&=45/186{,}15\\cdot12\\\\&\\approx2{,}90\\ \\text{månader}\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}90\\) månader.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skillnad i effekt och årlig användningstid</p><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta P&=60-9=51\\ \\mathrm W\\\\&=0{,}051\\ \\mathrm{kW}\\\\t&=4{,}0\\cdot365=1460\\ \\mathrm h\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E_{\\mathrm{sparad}}=0{,}051\\cdot1460=74{,}46\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(74{,}46\\ \\mathrm{kWh}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elkostnad: \\(K=E\\cdot\\text{pris per kWh}\\)</p><div class=\"facit-matte\">\\[K_{\\mathrm{sparad}}=74{,}46\\cdot2{,}5=186{,}15\\ \\mathrm{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(186{,}15\\ \\mathrm{kr}\\) per år.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Återbetalningstid: \\(t=\\text{inköpspris}/\\text{årlig besparing}\\)</p><p>Kvoten ger först tiden i år. Multiplicera med 12 för månader.</p><div class=\"facit-matte\">\\[t=\\frac{45}{186{,}15}\\cdot12\\approx2{,}90\\ \\text{månader}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}90\\) månader.</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -92050,14 +92050,14 @@ window.BANK = [
       "c"
     ],
     "familjNyckelTidigare": "ems__batteri_energi_och_kapacitet",
-    "ledtrad": "<p>Multiplicera skillnaden i effekt med årstiden.</p>",
+    "ledtrad": "<p>Hur stor är minskningen i effekt och hur länge används lampan under året?</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En glödlampa på 60 W byts mot en LED-lampa på 9,0 W som lyser lika starkt. Lampan används 4,0 timmar per dag under 365 dagar. Elpriset är 2,5 kr/kWh och LED-lampan kostar 45 kr.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "En 60 W-lampa byts mot en 9,0 W-lampa. De används 4,0 timmar per dag. Hur mycket elenergi sparas under 365 dagar? (Svara i kWh.)",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_{\\text{sparad}}&=(0{,}060-0{,}009)\\cdot4\\cdot365\\\\&=74{,}46\\ \\mathrm{kWh}\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skillnad i effekt och årlig användningstid</p><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta P&=60-9=51\\ \\mathrm W\\\\&=0{,}051\\ \\mathrm{kW}\\\\t&=4{,}0\\cdot365=1460\\ \\mathrm h\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E_{\\mathrm{sparad}}=0{,}051\\cdot1460=74{,}46\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(74{,}46\\ \\mathrm{kWh}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 74.46,
         "självrättning": true,
@@ -92068,14 +92068,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Multiplicera skillnaden i effekt med årstiden.</p>",
+        "ledtrad": "<p>Beräkna skillnaden i effekt och den sammanlagda användningstiden.</p>",
         "t": "<p>En 60 W-lampa byts mot en 9,0 W-lampa. De används 4,0 timmar per dag. Hur mycket elenergi sparas under 365 dagar? (Svara i kWh.)</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
         "fraga": "Ett lampbyte sparar 74,5 kWh per år. Elpriset är 2,5 kr/kWh. Hur stor blir den årliga besparingen? (Svara i kr.)",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}\\text{Besparing}&=74{,}5\\cdot2{,}5\\\\&=186{,}25\\ \\mathrm{kr}\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elkostnad: \\(K=E\\cdot\\text{pris per kWh}\\)</p><div class=\"facit-matte\">\\[K_{\\mathrm{sparad}}=74{,}5\\cdot2{,}5=186{,}25\\ \\mathrm{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(186{,}25\\ \\mathrm{kr}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 186.25,
         "självrättning": true,
@@ -92086,14 +92086,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Multiplicera sparad energi med priset.</p>",
+        "ledtrad": "<p>Hur omvandlar elpriset den sparade energin till pengar?</p>",
         "t": "<p>Ett lampbyte sparar 74,5 kWh per år. Elpriset är 2,5 kr/kWh. Hur stor blir den årliga besparingen? (Svara i kr.)</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
         "fraga": "En LED-lampa kostar 45 kr och sparar 186 kr per år. Efter hur många månader har besparingen betalat lampan?",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}t&=45/186\\cdot12\\\\&\\approx2{,}90\\ \\text{månader}\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Återbetalningstid: \\(t=\\text{pris}/\\text{årlig besparing}\\)</p><p>Detta kort anger besparingen 186 kr per år.</p><div class=\"facit-matte\">\\[t=\\frac{45}{186}\\cdot12\\approx2{,}90\\ \\text{månader}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}90\\) månader.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2.903225806451613,
         "självrättning": true,
@@ -92104,7 +92104,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Dividera priset med årssparandet. Ett år har tolv månader.</p>",
+        "ledtrad": "<p>Hur stor del av ett års besparing behövs för att betala lampan?</p>",
         "t": "<p>En LED-lampa kostar 45 kr och sparar 186 kr per år. Efter hur många månader har besparingen betalat lampan?</p>",
         "arbetsinsats": 1
       }
@@ -92353,7 +92353,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>En grupp är säkrad för 10 A och har spänningen 230 V.</p><p>a) Vilken effekt motsvarar säkringens märkström?</p><p>b) Apparater på 1 200 W, 1 000 W och 600 W används samtidigt. Överstiger totalströmmen 10 A? Motivera.</p><p>c) Förklara säkringens uppgift.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[P=UI=230\\cdot10=2300\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2300\\) W.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Apparaternas sammanlagda effekt är 1 200 + 1 000 + 600 = 2 800 W.</p><p>\\[I=2800/230\\approx12{,}2\\ \\mathrm A\\]</p><p>Det är mer än säkringens märkström 10 A. Det går inte att säga exakt när säkringen löser ut enbart utifrån märkströmmen.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Säkringen bryter kretsen vid överström för att skydda ledningarna mot överhettning.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=230\\cdot10=2300\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2300\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera apparaternas effekter</p><div class=\"facit-matte\">\\[P_{\\mathrm{tot}}=1200+1000+600=2800\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{2800}{230}\\approx12{,}2\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Jämför med märkströmmen</p><p>12,2 A överstiger 10 A. Märkströmmen ensam talar inte om exakt när säkringen löser ut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja, totalströmmen är cirka 12,2 A och överstiger 10 A.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Överström värmer ledningar</p><p>Stor ström ger kraftig uppvärmning av ledningarna. Säkringen bryter kretsen vid överström för att skydda ledningarna mot överhettning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Säkringen skyddar ledningarna mot överhettning genom att bryta vid överström.</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -92383,7 +92383,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En säkring har märkströmmen 10 A och spänningen är 230 V. Vilken effekt motsvarar märkströmmen?",
-        "s": "<div class=\"facit-v2\"><p>\\[P=UI=230\\cdot10=2300\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=230\\cdot10=2300\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2300\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2300,
         "självrättning": true,
@@ -92401,7 +92401,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Tre apparater på 1 200 W, 1 000 W och 600 W används samtidigt vid 230 V. Säkringens märkström är 10 A. Överstiger totalströmmen märkströmmen?",
-        "s": "<div class=\"facit-v2\"><p>Apparaternas sammanlagda effekt är 1 200 + 1 000 + 600 = 2 800 W.</p><p>\\[I=2800/230\\approx12{,}2\\ \\mathrm A\\]</p><p>Det är mer än säkringens märkström 10 A. Det går inte att säga exakt när säkringen löser ut enbart utifrån märkströmmen.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera apparaternas effekter</p><div class=\"facit-matte\">\\[P_{\\mathrm{tot}}=1200+1000+600=2800\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{2800}{230}\\approx12{,}2\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Jämför med märkströmmen</p><p>12,2 A överstiger 10 A. Märkströmmen ensam talar inte om exakt när säkringen löser ut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja, totalströmmen är cirka 12,2 A och överstiger 10 A.</p></div>",
         "svarstyp": "alternativ",
         "rättSvar": "Ja, totalströmmen är cirka 12,2 A.",
         "självrättning": true,
@@ -92436,7 +92436,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Vilken uppgift har en säkring?",
-        "s": "<div class=\"facit-v2\"><p>Säkringen bryter kretsen vid överström för att skydda ledningarna mot överhettning.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Överström värmer ledningar</p><p>Stor ström ger kraftig uppvärmning av ledningarna. Säkringen bryter kretsen vid överström för att skydda ledningarna mot överhettning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Säkringen skyddar ledningarna mot överhettning genom att bryta vid överström.</p></div>",
         "svarstyp": "alternativ",
         "rättSvar": "Den skyddar ledningarna mot överhettning genom att bryta vid överström.",
         "självrättning": true,
@@ -92534,7 +92534,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>En elbil har 60 kWh användbar batterienergi och använder 18 kWh per 100 km utan kupévärme. Kupévärmaren har effekten 2,0 kW. Bilen kör i 80 km/h.</p><p>a) Hur långt räcker batteriet utan kupévärme? (Svara i km.)</p><p>b) Hur mycket energi använder kupévärmaren under 100 km i 80 km/h? (Svara i kWh.)</p><p>c) Hur långt räcker batteriet med kupévärmaren på? (Svara i km.)</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[s=60/18\\cdot100\\approx333\\ \\mathrm{km}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(333\\) km.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[t=s/v=100/80=1{,}25\\ \\mathrm h\\]</p><p>\\[E=Pt=2{,}0\\cdot1{,}25=2{,}5\\ \\mathrm{kWh}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) kWh.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[s=60/20{,}5\\cdot100\\approx293\\ \\mathrm{km}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(293\\) km.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räckvidd: \\(s=E/\\text{energi per km}\\)</p><p>Varje sträcka på 100 km kräver 18 kWh.</p><div class=\"facit-matte\">\\[s=\\frac{60}{18}\\cdot100\\approx333\\ \\mathrm{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(333\\ \\mathrm{km}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstant fart: \\(t=s/v\\)</p><div class=\"facit-matte\">\\[t=\\frac{100}{80}=1{,}25\\ \\mathrm h\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=2{,}0\\cdot1{,}25=2{,}5\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mathrm{kWh}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera energibehoven per 100 km</p><p>Värmaren behöver 2,5 kWh utöver bilens 18 kWh.</p><div class=\"facit-matte\">\\[E_{100}=18+2{,}5=20{,}5\\ \\mathrm{kWh}\\]</div></li><li><p class=\"facit-rubrik\">Räckvidd: \\(s=E/\\text{energi per km}\\)</p><div class=\"facit-matte\">\\[s=\\frac{60}{20{,}5}\\cdot100\\approx293\\ \\mathrm{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(293\\ \\mathrm{km}\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -92580,7 +92580,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En elbil har 60 kWh användbar batterienergi och använder 18 kWh per 100 km. Hur långt räcker batteriet? (Svara i km.)",
-        "s": "<div class=\"facit-v2\"><p>\\[s=60/18\\cdot100\\approx333\\ \\mathrm{km}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räckvidd: \\(s=E/\\text{energi per km}\\)</p><p>Varje sträcka på 100 km kräver 18 kWh.</p><div class=\"facit-matte\">\\[s=\\frac{60}{18}\\cdot100\\approx333\\ \\mathrm{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(333\\ \\mathrm{km}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 333.33333333333337,
         "självrättning": true,
@@ -92591,14 +92591,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Hur många sträckor på 100 km räcker energin till?</p>",
+        "ledtrad": "<p>Jämför batteriets energi med behovet per 100 km.</p>",
         "t": "<p>En elbil har 60 kWh användbar batterienergi och använder 18 kWh per 100 km. Hur långt räcker batteriet? (Svara i km.)</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
         "fraga": "En kupévärmare har effekten 2,0 kW. Bilen kör 100 km med farten 80 km/h. Hur mycket energi använder värmaren under denna sträcka? (Svara i kWh.)",
-        "s": "<div class=\"facit-v2\"><p>\\[t=s/v=100/80=1{,}25\\ \\mathrm h\\]</p><p>\\[E=Pt=2{,}0\\cdot1{,}25=2{,}5\\ \\mathrm{kWh}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstant fart: \\(t=s/v\\)</p><div class=\"facit-matte\">\\[t=\\frac{100}{80}=1{,}25\\ \\mathrm h\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=2{,}0\\cdot1{,}25=2{,}5\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mathrm{kWh}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2.5,
         "självrättning": true,
@@ -92609,14 +92609,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "ledtrad": "<p>Hur lång tid tar det att köra 100 km? Värmaren är på under den tiden.</p>",
         "t": "<p>En kupévärmare har effekten 2,0 kW. Bilen kör 100 km med farten 80 km/h. Hur mycket energi använder värmaren under denna sträcka? (Svara i kWh.)</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
         "fraga": "En elbil har 60 kWh användbar batterienergi. Med kupévärme använder den 20,5 kWh per 100 km. Hur långt räcker batteriet? (Svara i km.)",
-        "s": "<div class=\"facit-v2\"><p>\\[s=60/20{,}5\\cdot100\\approx293\\ \\mathrm{km}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räckvidd: \\(s=E/\\text{energi per km}\\)</p><p>Kortet ger redan det sammanlagda energibehovet 20,5 kWh per 100 km.</p><div class=\"facit-matte\">\\[s=\\frac{60}{20{,}5}\\cdot100\\approx293\\ \\mathrm{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(293\\ \\mathrm{km}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 292.6829268292683,
         "självrättning": true,
@@ -92627,7 +92627,7 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Dividera tillgänglig energi med energi per 100 km.</p>",
+        "ledtrad": "<p>Hur många sträckor på 100 km räcker 60 kWh till med det givna energibehovet?</p>",
         "t": "<p>En elbil har 60 kWh användbar batterienergi. Med kupévärme använder den 20,5 kWh per 100 km. Hur långt räcker batteriet? (Svara i km.)</p>",
         "arbetsinsats": 1
       }
@@ -92712,7 +92712,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(4/0/0)",
     "t": "<p>Från en kraftstation skickas 100 MW vid 400 kV. Ledningen är 200 km lång. Ledarnas sammanlagda resistans är 0,050 Ω per km.</p><p>a) Bestäm ledningens resistans.</p><p>b) Bestäm strömmen i A och värmeeffekten i MW.</p><p>c) Pröva samma beräkning vid 20 kV. Ange beräknad ström i A och värmeeffekt i MW.</p><p>d) Kan resultatet i c beskriva ett verkligt driftfall? Förklara.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[R=0{,}050\\cdot200=10\\ \\Omega\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\) Ω.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[I=P/U=100\\cdot10^6/(400\\cdot10^3)=250\\ \\mathrm A\\]</p><p>\\[P_{\\text{värme}}=I^2R=250^2\\cdot10=625\\,000\\ \\mathrm W=0{,}625\\ \\mathrm{MW}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\) A.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[I=100\\cdot10^6/(20\\cdot10^3)=5000\\ \\mathrm A\\]</p><p>\\[P_{\\text{värme}}=5000^2\\cdot10=250\\ \\mathrm{MW}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5000\\) A.</p><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Nej. Beräkningen kräver 250 MW värme trots att bara 100 MW skickas in. Det strider mot energibevarande. Vid 20 kV kan den antagna överföringen därför inte fungera med dessa värden; spänningsfallet och det verkliga driftfallet måste också beaktas.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ledningsresistans: \\(R=\\text{resistans per km}\\cdot L\\)</p><p>Det givna värdet gäller ledarnas sammanlagda resistans per kilometer; längden ska inte dubbleras.</p><div class=\"facit-matte\">\\[R=0{,}050\\cdot200=10\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\Omega\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>100 MW = 100·10⁶ W och 400 kV = 400·10³ V.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{100\\cdot10^6}{400\\cdot10^3}=250\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><div class=\"facit-matte\">\\[P_{\\mathrm{värme}}=250^2\\cdot10=625\\,000\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Omvandla watt till megawatt</p><div class=\"facit-matte\">\\[P_{\\mathrm{värme}}=0{,}625\\ \\mathrm{MW}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen är \\(250\\ \\mathrm A\\) och värmeeffekten \\(0{,}625\\ \\mathrm{MW}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Pröva modellens 100 MW vid 20 kV med R = 10 Ω.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{100\\cdot10^6}{20\\cdot10^3}=5000\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><div class=\"facit-matte\">\\[P_{\\mathrm{värme}}=5000^2\\cdot10=250\\,000\\,000\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Omvandla watt till megawatt</p><div class=\"facit-matte\">\\[P_{\\mathrm{värme}}=250\\ \\mathrm{MW}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellen ger \\(5000\\ \\mathrm A\\) och \\(250\\ \\mathrm{MW}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontroll med energibevarande</p><p>Modellen ger 250 MW värme trots att bara 100 MW tillförs. Det strider mot energibevarande. De antagna värdena kan alltså inte gälla samtidigt i ett verkligt driftfall.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, värmeeffekten kan inte överstiga den tillförda effekten.</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur",
@@ -92758,7 +92758,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "En ledning är 200 km lång. Ledarnas sammanlagda resistans är 0,050 Ω per km. Bestäm ledningens resistans.",
-        "s": "<div class=\"facit-v2\"><p>\\[R=0{,}050\\cdot200=10\\ \\Omega\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ledningsresistans: \\(R=\\text{resistans per km}\\cdot L\\)</p><p>Det givna värdet gäller ledarnas sammanlagda resistans per kilometer; längden ska inte dubbleras.</p><div class=\"facit-matte\">\\[R=0{,}050\\cdot200=10\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\Omega\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 10,
         "självrättning": true,
@@ -92776,7 +92776,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Från en kraftstation skickas 100 MW vid 400 kV genom en ledning med resistansen 10 Ω. Bestäm strömmen i A och värmeeffekten i MW.",
-        "s": "<div class=\"facit-v2\"><p>\\[I=100\\cdot10^6/(400\\cdot10^3)=250\\ \\mathrm A\\]</p><p>\\[P_{\\text{värme}}=250^2\\cdot10=0{,}625\\ \\mathrm{MW}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>100 MW = 100·10⁶ W och 400 kV = 400·10³ V.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{100\\cdot10^6}{400\\cdot10^3}=250\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><div class=\"facit-matte\">\\[P_{\\mathrm{värme}}=250^2\\cdot10=625\\,000\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Omvandla watt till megawatt</p><div class=\"facit-matte\">\\[P_{\\mathrm{värme}}=0{,}625\\ \\mathrm{MW}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen är \\(250\\ \\mathrm A\\) och värmeeffekten \\(0{,}625\\ \\mathrm{MW}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
           250,
@@ -92808,7 +92808,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Pröva samma modell med 100 MW vid 20 kV och ledningsresistansen 10 Ω. Vilka värden ger beräkningen för strömmen i A och värmeeffekten i MW? Resultatet ska granskas, inte antas vara ett möjligt driftfall.",
-        "s": "<div class=\"facit-v2\"><p>\\[I=100\\cdot10^6/(20\\cdot10^3)=5000\\ \\mathrm A\\]</p><p>\\[P_{\\text{värme}}=5000^2\\cdot10=250\\ \\mathrm{MW}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Pröva modellens 100 MW vid 20 kV med R = 10 Ω.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{100\\cdot10^6}{20\\cdot10^3}=5000\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><div class=\"facit-matte\">\\[P_{\\mathrm{värme}}=5000^2\\cdot10=250\\,000\\,000\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Omvandla watt till megawatt</p><div class=\"facit-matte\">\\[P_{\\mathrm{värme}}=250\\ \\mathrm{MW}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellen ger \\(5000\\ \\mathrm A\\) och \\(250\\ \\mathrm{MW}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
           5000,
@@ -92840,7 +92840,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "En överföringsmodell skickar in 100 MW men ger 250 MW som värme i ledningen. Kan detta beskriva ett verkligt driftfall?",
-        "s": "<div class=\"facit-v2\"><p>Nej. Beräkningen kräver 250 MW värme trots att bara 100 MW skickas in. Det strider mot energibevarande. Vid 20 kV kan den antagna överföringen därför inte fungera med dessa värden; spänningsfallet och det verkliga driftfallet måste också beaktas.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontroll med energibevarande</p><p>Modellen ger 250 MW värme trots att bara 100 MW tillförs. Det strider mot energibevarande. De antagna värdena kan alltså inte gälla samtidigt i ett verkligt driftfall.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, värmeeffekten kan inte överstiga den tillförda effekten.</p></div>",
         "svarstyp": "alternativ",
         "rättSvar": "Nej, värmeeffekten kan inte överstiga den tillförda effekten.",
         "självrättning": true,
@@ -94442,7 +94442,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Ett batteri ska laddas med laddningen 6,5 kC. Batteriets spänning är 1,5 V.</p>\n<p>Hur mycket energi krävs?</p>",
-    "s": "<div class=\"facit-v2\"><p>Laddningen är 6,5 kC = 6 500 C.</p><p>\\[E=UQ=1{,}5\\cdot6500=9750\\ \\mathrm J\\]</p><p>Energin är 9,75 kJ, cirka 9,8 kJ.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}8\\) kJ.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>6,5 kC = 6 500 C. Sökt: energin vid 1,5 V.</p></li><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UQ\\)</p><div class=\"facit-matte\">\\[E=1{,}5\\cdot6500=9750\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till kilojoule</p><div class=\"facit-matte\">\\[E=9{,}75\\ \\mathrm{kJ}\\approx9{,}8\\ \\mathrm{kJ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(9{,}8\\ \\mathrm{kJ}\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -94572,7 +94572,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En resistor har spänningen 6,0 V och strömmen 0,25 A.</p><p>a) Bestäm resistansen.</p><p>b) Bestäm effekten.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[R=U/I=6{,}0/0{,}25=24\\ \\Omega\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\) Ω.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[P=UI=6{,}0\\cdot0{,}25=1{,}5\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[R=\\frac{6{,}0}{0{,}25}=24\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\ \\Omega\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=6{,}0\\cdot0{,}25=1{,}5\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\ \\mathrm W\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -94611,7 +94611,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm resistansen.",
-        "s": "<div class=\"facit-v2\"><p>\\[R=U/I=6{,}0/0{,}25=24\\ \\Omega\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[R=\\frac{6{,}0}{0{,}25}=24\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\ \\Omega\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 24,
         "självrättning": true,
@@ -94629,7 +94629,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm effekten.",
-        "s": "<div class=\"facit-v2\"><p>\\[P=UI=6{,}0\\cdot0{,}25=1{,}5\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=6{,}0\\cdot0{,}25=1{,}5\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1.5,
         "självrättning": true,
@@ -94692,7 +94692,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Ett batteri ger laddningen 4,5 kC och energin 42 kJ.</p><p>a) Bestäm medelspänningen.</p><p>b) Hur länge räcker batteriet vid 220 mA? (Svara i timmar.)</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[U=E/Q=42000/4500\\approx9{,}33\\ \\mathrm V\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}33\\) V.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Laddningen är 4 500 C och strömmen 0,220 A.</p><p>\\[t=Q/I=4500/0{,}220\\approx20\\,455\\ \\mathrm s\\]</p><p>\\[t\\approx20\\,455/3600\\approx5{,}68\\ \\mathrm h\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}68\\) h.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>42 kJ = 42 000 J och 4,5 kC = 4 500 C.</p></li><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UQ\\)</p><p>Energi per laddning ger medelspänningen.</p><div class=\"facit-matte\">\\[U=\\frac{42000}{4500}\\approx9{,}33\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}33\\ \\mathrm V\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>4,5 kC = 4 500 C och 220 mA = 0,220 A.</p></li><li><p class=\"facit-rubrik\">Laddning: \\(Q=It\\)</p><div class=\"facit-matte\">\\[t=\\frac{4500}{0{,}220}\\approx20\\,455\\ \\mathrm s\\]</div></li><li><p class=\"facit-rubrik\">Omvandla sekunder till timmar</p><p>Behåll full precision tills tiden anges i timmar.</p><div class=\"facit-matte\">\\[t=\\frac{4500}{0{,}220\\cdot3600}\\approx5{,}68\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}68\\ \\mathrm h\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -94729,7 +94729,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm medelspänningen.",
-        "s": "<div class=\"facit-v2\"><p>\\[U=E/Q=42000/4500\\approx9{,}33\\ \\mathrm V\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>42 kJ = 42 000 J och 4,5 kC = 4 500 C.</p></li><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UQ\\)</p><p>Energi per laddning ger medelspänningen.</p><div class=\"facit-matte\">\\[U=\\frac{42000}{4500}\\approx9{,}33\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}33\\ \\mathrm V\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 9.333333333333334,
         "självrättning": true,
@@ -94747,7 +94747,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Ett batteri ger laddningen 4,5 kC vid strömmen 220 mA. Hur länge räcker det? (Svara i timmar.)",
-        "s": "<div class=\"facit-v2\"><p>Laddningen är 4 500 C och strömmen 0,220 A.</p><p>\\[t=Q/I=4500/0{,}220\\approx20\\,455\\ \\mathrm s\\]</p><p>\\[t\\approx20\\,455/3600\\approx5{,}68\\ \\mathrm h\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>4,5 kC = 4 500 C och 220 mA = 0,220 A.</p></li><li><p class=\"facit-rubrik\">Laddning: \\(Q=It\\)</p><div class=\"facit-matte\">\\[t=\\frac{4500}{0{,}220}\\approx20\\,455\\ \\mathrm s\\]</div></li><li><p class=\"facit-rubrik\">Omvandla sekunder till timmar</p><p>Behåll full precision tills tiden anges i timmar.</p><div class=\"facit-matte\">\\[t=\\frac{4500}{0{,}220\\cdot3600}\\approx5{,}68\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}68\\ \\mathrm h\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5.6818181818181825,
         "självrättning": true,
@@ -96921,7 +96921,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>En julgranslinga med 20 likadana seriekopplade lampor ansluts till 230 V. Slingan förbrukar totalt 15 W.</p>\n<p>Räkna med att lampornas resistans är konstant.</p><ol><li>Vilken spänning ligger över varje lampa?</li><li>Vilken resistans har en lampa?</li>\n<li>En lampa kortsluts inuti sockeln. Vad händer med de övriga?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tjugo lika seriekopplade lampor delar lika på spänningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_l=\\frac{230}{20}=11{,}5\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}5\\ \\mathrm V\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är \\(I=P/U=15/230=0{,}06522\\ \\mathrm A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=\\frac{230}{0{,}06522}=3527\\ \\Omega\\]\\[R_l=\\frac{3527}{20}=176{,}3\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(176{,}3\\ \\Omega\\).</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>När en lampa kortsluts återstår 19 lampor i serie. Varje lampa får då högre spänning:</p><p>\\[U=230/19\\approx12{,}1\\,\\mathrm V\\]</p><p>Med samma resistans ger högre spänning högre effekt, eftersom \\(P=U^2/R\\). Lamporna lyser starkare och kan slitas snabbare.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lika lampor i serie: \\(U_{\\mathrm{lampa}}=U_{\\mathrm{tot}}/n\\)</p><p>Samma ström och samma resistans ger samma spänning över varje lampa.</p><div class=\"facit-matte\">\\[U_{\\mathrm{lampa}}=\\frac{230}{20}=11{,}5\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}5\\ \\mathrm V\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Använd hela slingans spänning och effekt.</p><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=\\frac{230^2}{15}=\\frac{10580}{3}\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Lika serieresistanser: \\(R_{\\mathrm{lampa}}=R_{\\mathrm{tot}}/20\\)</p><p>Dela den oavrundade totalresistansen på 20.</p><div class=\"facit-matte\">\\[R_{\\mathrm{lampa}}=\\frac{230^2}{15\\cdot20}\\approx176{,}3\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(176{,}3\\ \\Omega\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kortslutningen förbikopplar en lampa</p><p>Strömmen går genom kortslutningen i stället för genom lampan. De 19 övriga lamporna delar nu på hela källspänningen.</p></li><li><p class=\"facit-rubrik\">Spänning per lampa: \\(U_{\\mathrm{lampa}}=U_{\\mathrm{tot}}/19\\)</p><div class=\"facit-matte\">\\[U_{\\mathrm{lampa}}=\\frac{230}{19}\\approx12{,}1\\ \\mathrm V\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Resistansen räknas som oförändrad. Högre spänning ger då högre effekt i varje återstående lampa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> De övriga lamporna lyser starkare och riskerar att gå sönder snabbare.</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -96959,15 +96959,15 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>Tjugo lika seriekopplade lampor delar lika på spänningen. I serie är strömmen samma genom alla komponenter och resistanserna adderas.</p>",
+    "ledtrad": "<p>Vad gäller för spänningen över likadana seriekopplade lampor?</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En julgranslinga med 20 likadana seriekopplade lampor ansluts till 230 V. Slingan förbrukar totalt 15 W.</p><p>Räkna med att lampornas resistans är konstant.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Vilken spänning ligger över varje lampa?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tjugo lika seriekopplade lampor delar lika på spänningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_l=\\frac{230}{20}=11{,}5\\ \\mathrm V\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}5\\ \\mathrm V\\).</p></div>",
-        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lika lampor i serie: \\(U_{\\mathrm{lampa}}=U_{\\mathrm{tot}}/n\\)</p><p>Samma ström och samma resistans ger samma spänning över varje lampa.</p><div class=\"facit-matte\">\\[U_{\\mathrm{lampa}}=\\frac{230}{20}=11{,}5\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}5\\ \\mathrm V\\).</p></div>",
+        "ledtrad": "<p>Hur fördelas källspänningen mellan lika resistorer i serie?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1
@@ -96975,8 +96975,8 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Vilken resistans har en lampa?",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Totalströmmen är \\(I=P/U=15/230=0{,}06522\\ \\mathrm A\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=\\frac{230}{0{,}06522}=3527\\ \\Omega\\]\\[R_l=\\frac{3527}{20}=176{,}3\\ \\Omega\\]</div></div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(176{,}3\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Använd hela slingans spänning och effekt.</p><div class=\"facit-matte\">\\[R_{\\mathrm{tot}}=\\frac{230^2}{15}=\\frac{10580}{3}\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Lika serieresistanser: \\(R_{\\mathrm{lampa}}=R_{\\mathrm{tot}}/20\\)</p><p>Dela den oavrundade totalresistansen på 20.</p><div class=\"facit-matte\">\\[R_{\\mathrm{lampa}}=\\frac{230^2}{15\\cdot20}\\approx176{,}3\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(176{,}3\\ \\Omega\\).</p></div>",
+        "ledtrad": "<p>Bestäm först hela slingans resistans från dess spänning och effekt.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3
@@ -96984,8 +96984,8 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "En lampa kortsluts inuti sockeln. Vad händer med de övriga?",
-        "s": "<div class=\"facit-v2\"><p>När en lampa kortsluts återstår 19 lampor i serie. Varje lampa får då högre spänning:</p><p>\\[U=230/19\\approx12{,}1\\,\\mathrm V\\]</p><p>Med samma resistans ger högre spänning högre effekt, eftersom \\(P=U^2/R\\). Lamporna lyser starkare och kan slitas snabbare.</p></div>",
-        "ledtrad": "<p>I serie går samma ström genom alla resistorer. Använd \\(U=RI\\) och vid behov \\(P=RI^2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kortslutningen förbikopplar en lampa</p><p>Strömmen går genom kortslutningen i stället för genom lampan. De 19 övriga lamporna delar nu på hela källspänningen.</p></li><li><p class=\"facit-rubrik\">Spänning per lampa: \\(U_{\\mathrm{lampa}}=U_{\\mathrm{tot}}/19\\)</p><div class=\"facit-matte\">\\[U_{\\mathrm{lampa}}=\\frac{230}{19}\\approx12{,}1\\ \\mathrm V\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Resistansen räknas som oförändrad. Högre spänning ger då högre effekt i varje återstående lampa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> De övriga lamporna lyser starkare och riskerar att gå sönder snabbare.</p></div>",
+        "ledtrad": "<p>Hur många lampor delar på spänningen efter kortslutningen?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2
@@ -100224,7 +100224,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Ett batteri har kapaciteten 2,0 Ah och spänningen 3,7 V.</p><p>a) Hur stor laddning kan batteriet ge? (Svara i C.)</p><p>b) Hur mycket energi kan batteriet ge? (Svara i kJ.)</p><p>c) Hur länge räcker batteriet vid strömmen 450 mA? (Svara i timmar.)</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[Q=I t=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7200\\) C.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=UQ=3{,}7\\cdot7200=26640{,}0\\ \\mathrm J\\]</p><p>\\[E=26{,}64\\ \\mathrm{kJ}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(26{,}64\\) kJ.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[t=Q/I=2{,}0/0{,}45\\approx4{,}444\\ \\mathrm h\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}444\\) h.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Laddning: \\(Q=It\\)</p><p>En amperetimme är 1 A under 3 600 s och motsvarar därför 3 600 C.</p><div class=\"facit-matte\">\\[Q=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7200\\ \\mathrm C\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UQ\\)</p><div class=\"facit-matte\">\\[E=3{,}7\\cdot7200=26\\,640\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till kilojoule</p><div class=\"facit-matte\">\\[E=26{,}64\\ \\mathrm{kJ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(26{,}64\\ \\mathrm{kJ}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>450 mA = 0,450 A. Kapaciteten är 2,0 Ah.</p></li><li><p class=\"facit-rubrik\">Laddning: \\(Q=It\\)</p><div class=\"facit-matte\">\\[t=\\frac{2{,}0\\ \\mathrm{Ah}}{0{,}450\\ \\mathrm A}\\approx4{,}44\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}44\\ \\mathrm h\\).</p></div></div></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -100269,7 +100269,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Ett batteri har kapaciteten 2 Ah. Hur stor laddning motsvarar detta? (Svara i C.)",
-        "s": "<div class=\"facit-v2\"><p>\\[Q=I t=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Laddning: \\(Q=It\\)</p><p>En amperetimme är 1 A under 3 600 s och motsvarar därför 3 600 C.</p><div class=\"facit-matte\">\\[Q=2{,}0\\cdot3600=7200\\ \\mathrm C\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7200\\ \\mathrm C\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 7200,
         "självrättning": true,
@@ -100287,7 +100287,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Ett batteri kan ge laddningen 7 200 C vid spänningen 3,7 V. Hur mycket energi kan det ge? (Svara i kJ.)",
-        "s": "<div class=\"facit-v2\"><p>\\[E=UQ=3{,}7\\cdot7200=26640{,}0\\ \\mathrm J\\]</p><p>\\[E=26{,}64\\ \\mathrm{kJ}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UQ\\)</p><div class=\"facit-matte\">\\[E=3{,}7\\cdot7200=26\\,640\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till kilojoule</p><div class=\"facit-matte\">\\[E=26{,}64\\ \\mathrm{kJ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(26{,}64\\ \\mathrm{kJ}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 26.64,
         "självrättning": true,
@@ -100305,7 +100305,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Ett batteri har kapaciteten 2,0 Ah och driver strömmen 450 mA. Hur länge räcker det? (Svara i timmar.)",
-        "s": "<div class=\"facit-v2\"><p>\\[t=Q/I=2{,}0/0{,}45\\approx4{,}444\\ \\mathrm h\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>450 mA = 0,450 A. Kapaciteten är 2,0 Ah.</p></li><li><p class=\"facit-rubrik\">Laddning: \\(Q=It\\)</p><div class=\"facit-matte\">\\[t=\\frac{2{,}0\\ \\mathrm{Ah}}{0{,}450\\ \\mathrm A}\\approx4{,}44\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}44\\ \\mathrm h\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.444444444444445,
         "självrättning": true,
@@ -119428,7 +119428,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En lampa har effekten 80 W och lyser i 5,0 timmar. Hur mycket energi använder den? (Svara i kWh.)</p>",
-    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[E=Pt=0{,}080\\cdot5{,}0=0{,}40\\ \\mathrm{kWh}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\) kWh.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>80 W = 0,080 kW. Tiden är 5,0 h.</p></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=0{,}080\\cdot5{,}0=0{,}40\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\ \\mathrm{kWh}\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -119440,7 +119440,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Beräkna effekten med \\(P=UI\\) och energin med \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Skriv effekten i kW. Vilken energienhet får du när du multiplicerar med timmar?</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "kWh",
     "traningsniva": 2,
@@ -119508,7 +119508,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En resistor med resistansen 7,0 Ω ansluts till 12 V. Vilken effekt utvecklas i resistorn?</p>",
-    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[P=U^2/R=12^2/7{,}0\\approx20{,}6\\ \\mathrm W\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(20{,}6\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><div class=\"facit-matte\">\\[P=\\frac{12^2}{7{,}0}\\approx20{,}6\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20{,}6\\ \\mathrm W\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -129410,7 +129410,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En apparat ansluts till 230 V och drar 1,8 A. Vilken effekt har den?</p>",
-    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[P=UI=230\\cdot1{,}8=414\\ \\mathrm W\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(414\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=230\\cdot1{,}8=414\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(414\\ \\mathrm W\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -129438,7 +129438,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En apparat ansluts till 12 V och drar 4,5 A. Vilken effekt har den?</p>",
-    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[P=UI=12\\cdot4{,}5=54\\ \\mathrm W\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(54\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=12\\cdot4{,}5=54\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(54\\ \\mathrm W\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -129466,7 +129466,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En lampa har effekten 70 W och lyser i 4,0 timmar. Hur mycket energi använder den? (Svara i kWh.)</p>",
-    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[E=Pt=0{,}070\\cdot4{,}0=0{,}28\\ \\mathrm{kWh}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}28\\) kWh.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>70 W = 0,070 kW. Tiden är 4,0 h.</p></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=0{,}070\\cdot4{,}0=0{,}28\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}28\\ \\mathrm{kWh}\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -129478,7 +129478,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Beräkna effekten med \\(P=UI\\) och energin med \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Använd kW och timmar för att få energin i kWh.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "kWh",
     "traningsniva": 2,
@@ -129494,7 +129494,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En värmare har effekten 1,8 kW och används i 2,5 timmar. Hur mycket energi använder den? (Svara i kWh.)</p>",
-    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[E=Pt=1{,}8\\cdot2{,}5=4{,}5\\ \\mathrm{kWh}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\) kWh.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Effekt i kW och tid i timmar ger energi i kWh.</p><div class=\"facit-matte\">\\[E=1{,}8\\cdot2{,}5=4{,}5\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\ \\mathrm{kWh}\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -129506,7 +129506,7 @@ window.BANK = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kWh",
-    "ledtrad": "<p>Beräkna effekten med \\(P=UI\\) och energin med \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Vilken energienhet får du av kW multiplicerat med timmar?</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 1,
@@ -129522,7 +129522,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En värmare har effekten 750 W. Hur länge behöver den vara på för att använda 4,5 kWh? (Svara i timmar.)</p>",
-    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[t=E/P=4{,}5/0{,}750=6{,}0\\ \\mathrm h\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\) h.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>750 W = 0,750 kW. Sökt: tiden för 4,5 kWh.</p></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Lös ut tiden. kWh dividerat med kW ger timmar.</p><div class=\"facit-matte\">\\[t=\\frac{4{,}5}{0{,}750}=6{,}0\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\ \\mathrm h\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -129534,7 +129534,7 @@ window.BANK = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "h",
-    "ledtrad": "<p>Beräkna effekten med \\(P=UI\\) och energin med \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Skriv effekten i kW och lös ut tiden ur energisambandet.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
@@ -129550,7 +129550,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En resistor med resistansen 6,0 Ω utvecklar effekten 24 W. Vilken spänning är den ansluten till?</p>",
-    "s": "<div class=\"facit-v2\"><p>Använd sambandet mellan de givna storheterna.</p><p>\\[U=\\sqrt{PR}=\\sqrt{24\\cdot6{,}0}=12\\ \\mathrm V\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) V.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><div class=\"facit-matte\">\\[U^2=PR=24\\cdot6{,}0=144\\ \\mathrm{V^2}\\]</div></li><li><p class=\"facit-rubrik\">Spänningens storlek: \\(U=\\sqrt{PR}\\)</p><div class=\"facit-matte\">\\[U=\\sqrt{144}=12\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\mathrm V\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -129578,7 +129578,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En apparat använder 1,52 kWh på 2,5 timmar. Spänningen är 230 V. Hur stor är strömmen?</p>",
-    "s": "<div class=\"facit-v2\"><p>Energin per timme ger effekten.</p><p>\\[\\begin{aligned}P&=E/t\\\\&=1{,}52/2{,}5\\\\&=0{,}608\\ \\mathrm{kW}\\\\&=608\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}I&=P/U\\\\&=608/230\\\\&\\approx2{,}64\\ \\mathrm A\\end{aligned}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}64\\) A.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Energi dividerad med tid ger effekt.</p><div class=\"facit-matte\">\\[P=\\frac{1{,}52}{2{,}5}=0{,}608\\ \\mathrm{kW}\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till watt</p><div class=\"facit-matte\">\\[P=608\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{608}{230}\\approx2{,}64\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}64\\ \\mathrm A\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -129590,7 +129590,7 @@ window.BANK = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
-    "ledtrad": "<p>Beräkna effekten med \\(P=UI\\) och energin med \\(E=Pt\\).</p>",
+    "ledtrad": "<p>Vad ger energin dividerad med tiden? Använd sedan spänningen.</p>",
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
@@ -129999,7 +129999,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>En ljusslinga har 20 likadana lampor seriekopplade till 230 V. Varje lampa ger effekten 4,6 W. En lampa går sönder på ett sådant sätt att den kortsluts, och de övriga 19 fortsätter lysa.</p><p>Vilken effekt får nu varje lampa? Anta att resistansen är konstant.</p>",
-    "s": "<div class=\"facit-v2\"><p>Från början har varje lampa spänningen \\(230/20=11{,}5\\,\\mathrm V\\). Lampans resistans blir:</p><p>\\[R=11{,}5^2/4{,}6=28{,}75\\,\\Omega\\]</p><p>Efter kortslutningen delar 19 lampor på 230 V:</p><p>\\[U=230/19\\approx12{,}105\\,\\mathrm V\\]</p><p>Använd det oavrundade värdet i effektberäkningen:</p><p>\\[P=\\frac{(230/19)^2}{28{,}75}\\approx5{,}10\\,\\mathrm W\\]</p><p>Varje lampa får alltså effekten <strong>5,10 W</strong>.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}10\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Spänning per lampa: \\(U_0=U/n\\)</p><div class=\"facit-matte\">\\[U_0=\\frac{230}{20}=11{,}5\\ \\mathrm V\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Bestäm en lampas resistans före kortslutningen.</p><div class=\"facit-matte\">\\[R=\\frac{11{,}5^2}{4{,}6}=28{,}75\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Nu delar 19 lampor på källspänningen</p><p>Den kortslutna lampan är förbikopplad.</p><div class=\"facit-matte\">\\[U_1=\\frac{230}{19}\\ \\mathrm V\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Resistansen är konstant enligt uppgiften. Använd spänningen utan att avrunda den.</p><div class=\"facit-matte\">\\[P_1=\\frac{(230/19)^2}{28{,}75}\\approx5{,}10\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Varje återstående lampa får effekten \\(5{,}10\\ \\mathrm W\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "problemlösning",
@@ -130875,7 +130875,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En torktumlare drar 16 A vid 230 V och används i 45 minuter. En dator drar 2,7 A vid 120 V.</p><p>a) Hur mycket energi använder torktumlaren?</p><p>b) Hur länge kan datorn användas med samma energimängd? (Svara i timmar.)</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=230\\cdot16\\cdot2700\\\\&=9\\,936\\,000\\ \\mathrm J\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\,936\\,000\\) J.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=120\\cdot2{,}7\\\\&=324\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=9\\,936\\,000/324\\\\&\\approx30\\,667\\ \\mathrm s\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&\\approx30\\,667/3600\\\\&\\approx8{,}52\\ \\mathrm h\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}52\\) h.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>45 min = 2 700 s. Sökt: torktumlarens energi.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=230\\cdot16=3680\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=3680\\cdot2700=9\\,936\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\,936\\,000\\ \\mathrm J\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Beräkna datorns effekt.</p><div class=\"facit-matte\">\\[P=120\\cdot2{,}7=324\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Använd energin från a) med full precision.</p><div class=\"facit-matte\">\\[t=\\frac{9\\,936\\,000}{324}\\approx30\\,667\\ \\mathrm s\\]</div></li><li><p class=\"facit-rubrik\">Omvandla tiden till timmar</p><div class=\"facit-matte\">\\[t=\\frac{9\\,936\\,000}{324\\cdot3600}\\approx8{,}52\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}52\\ \\mathrm h\\).</p></div></div></div>",
     "id": "8.445",
     "miniräknare": true,
     "geogebra": false,
@@ -130915,7 +130915,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Hur mycket energi använder torktumlaren?",
-        "s": "<div class=\"facit-v2\"><p>45 min = 2 700 s.</p><p>\\[\\begin{aligned}E&=UIt\\\\&=230\\cdot16\\cdot2700\\\\&=9\\,936\\,000\\ \\mathrm J\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>45 min = 2 700 s. Sökt: torktumlarens energi.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=230\\cdot16=3680\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=3680\\cdot2700=9\\,936\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\,936\\,000\\ \\mathrm J\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 9936000,
         "självrättning": true,
@@ -130933,7 +130933,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur länge kan datorn användas med energin 9,9 MJ? (Svara i timmar.)",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=UI\\\\&=120\\cdot2{,}7\\\\&=324\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=E/P\\\\&=9{,}9\\cdot10^6/324\\\\&\\approx30\\,556\\ \\mathrm s\\end{aligned}\\]</p><p>\\[t\\approx30\\,556/3600\\approx8{,}49\\ \\mathrm h\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Kortet anger energin 9,9 MJ = 9,9·10⁶ J.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=120\\cdot2{,}7=324\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[t=\\frac{9{,}9\\cdot10^6}{324}\\approx30\\,556\\ \\mathrm s\\]</div></li><li><p class=\"facit-rubrik\">Omvandla tiden till timmar</p><div class=\"facit-matte\">\\[t=\\frac{9{,}9\\cdot10^6}{324\\cdot3600}\\approx8{,}49\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}49\\ \\mathrm h\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 8.487654320987653,
         "självrättning": true,
@@ -130962,7 +130962,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>I en förenklad blixtmodell är spänningen 300 kV och strömmen 30 kA under 0,52 s. Räkna med konstanta värden under denna tid. Det sker i genomsnitt 45 sådana blixtar per sekund på jorden.</p><p>a) Bestäm effekten under en blixt.</p><p>b) Bestäm energin från en blixt.</p><p>c) Bestäm den sammanlagda energin under ett år.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=(300\\cdot10^3)(30\\cdot10^3)\\\\&=9{,}0\\cdot10^9\\ \\mathrm W\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\cdot10^{9}\\) W.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=9{,}0\\cdot10^9\\cdot0{,}52\\\\&=4{,}68\\cdot10^9\\ \\mathrm J\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}68\\cdot10^{9}\\) J.</p><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Året har 31 557 600 s.</p><p>\\[E_{\\text{år}}=4{,}68\\cdot10^9\\cdot45\\cdot31\\,557\\,600\\]</p><p>\\[E_{\\text{år}}\\approx6{,}65\\cdot10^{18}\\ \\mathrm J\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}65\\cdot10^{18}\\) J.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>300 kV = 300·10³ V och 30 kA = 30·10³ A.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}P&=(300\\cdot10^3)(30\\cdot10^3)\\\\&=9{,}0\\cdot10^9\\ \\mathrm W\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\cdot10^9\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Effekten antas vara konstant under de 0,52 sekunderna.</p><div class=\"facit-matte\">\\[E=9{,}0\\cdot10^9\\cdot0{,}52=4{,}68\\cdot10^9\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}68\\cdot10^9\\ \\mathrm J\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla ett år till sekunder</p><p>Här används 365,25 dagar per år.</p><div class=\"facit-matte\">\\[t=365{,}25\\cdot24\\cdot3600=31\\,557\\,600\\ \\mathrm s\\]</div></li><li><p class=\"facit-rubrik\">Antal blixtar: \\(N=\\text{antal per sekund}\\cdot t\\)</p><div class=\"facit-matte\">\\[N=45\\cdot31\\,557\\,600=1\\,420\\,092\\,000\\]</div></li><li><p class=\"facit-rubrik\">Sammanlagd energi: \\(E_{\\mathrm{år}}=NE_{\\mathrm{blixt}}\\)</p><p>Använd energin per blixt från b) utan avrundning.</p><div class=\"facit-matte\">\\[\\begin{aligned}E_{\\mathrm{år}}&=1\\,420\\,092\\,000\\cdot4{,}68\\cdot10^9\\\\&\\approx6{,}65\\cdot10^{18}\\ \\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}65\\cdot10^{18}\\ \\mathrm J\\).</p></div></div></div>",
     "id": "8.446",
     "miniräknare": true,
     "geogebra": false,
@@ -131008,7 +131008,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "I en blixtmodell är spänningen 300 kV och strömmen 30 kA. Bestäm effekten.",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=UI\\\\&=(300\\cdot10^3)(30\\cdot10^3)\\\\&=9{,}0\\cdot10^9\\ \\mathrm W\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>300 kV = 300·10³ V och 30 kA = 30·10³ A.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}P&=(300\\cdot10^3)(30\\cdot10^3)\\\\&=9{,}0\\cdot10^9\\ \\mathrm W\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\cdot10^9\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 9000000000,
         "självrättning": true,
@@ -131019,14 +131019,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+        "ledtrad": "<p>Vilket effektsamband använder spänning och ström?</p>",
         "t": "<p>I en blixtmodell är spänningen 300 kV och strömmen 30 kA. Bestäm effekten.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
         "fraga": "En blixtmodell har effekten 9,0 GW under 0,52 s. Bestäm energin.",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=Pt\\\\&=9{,}0\\cdot10^9\\cdot0{,}52\\\\&=4{,}68\\cdot10^9\\ \\mathrm J\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Effekten antas vara konstant under de 0,52 sekunderna.</p><div class=\"facit-matte\">\\[E=9{,}0\\cdot10^9\\cdot0{,}52=4{,}68\\cdot10^9\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}68\\cdot10^9\\ \\mathrm J\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4680000000,
         "självrättning": true,
@@ -131037,14 +131037,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "ledtrad": "<p>Effekten är redan given. Hur mycket energi överförs under den angivna tiden?</p>",
         "t": "<p>En blixtmodell har effekten 9,0 GW under 0,52 s. Bestäm energin.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "c",
         "fraga": "Varje blixt ger 4,7 GJ i en modell. Det sker 45 blixtar per sekund. Hur stor blir den sammanlagda energin under 365,25 dagar? (Svara i J.)",
-        "s": "<div class=\"facit-v2\"><p>365,25 dagar = 31 557 600 s.</p><p>\\[E_{\\text{år}}=4{,}7\\cdot10^9\\cdot45\\cdot31\\,557\\,600\\]</p><p>\\[E_{\\text{år}}\\approx6{,}67\\cdot10^{18}\\ \\mathrm J\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla den givna tiden</p><div class=\"facit-matte\">\\[t=365{,}25\\cdot24\\cdot3600=31\\,557\\,600\\ \\mathrm s\\]</div></li><li><p class=\"facit-rubrik\">Antal blixtar: \\(N=\\text{antal per sekund}\\cdot t\\)</p><div class=\"facit-matte\">\\[N=45\\cdot31\\,557\\,600=1\\,420\\,092\\,000\\]</div></li><li><p class=\"facit-rubrik\">Sammanlagd energi: \\(E_{\\mathrm{år}}=NE_{\\mathrm{blixt}}\\)</p><p>Kortet ger energin 4,7 GJ per blixt.</p><div class=\"facit-matte\">\\[\\begin{aligned}E_{\\mathrm{år}}&=1\\,420\\,092\\,000\\cdot4{,}7\\cdot10^9\\\\&\\approx6{,}67\\cdot10^{18}\\ \\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}67\\cdot10^{18}\\ \\mathrm J\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 6674432400000000000,
         "självrättning": true,
@@ -131055,12 +131055,12 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Hur många blixtar sker under året?</p>",
+        "ledtrad": "<p>Hur många blixtar sker på den givna tiden och hur mycket energi ger varje blixt?</p>",
         "t": "<p>Varje blixt ger 4,7 GJ i en modell. Det sker 45 blixtar per sekund. Hur stor blir den sammanlagda energin under 365,25 dagar? (Svara i J.)</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Välj det samband för elektrisk effekt som passar de givna värdena.</p>",
+    "ledtrad": "<p>Omvandla först kV och kA till V och A.</p>",
     "traningsniva": 2,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 3,
@@ -131073,7 +131073,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En generator drivs med effekten 1 500 hk. En hästkraft motsvarar 736 W. Generatorns verkningsgrad är 80 % och spänningen är 2,0 kV. Vilken ström ger generatorn?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[P_{\\text{in}}=1500\\cdot736=1\\,104\\,000\\ \\mathrm W\\]</p><p>\\[P_{\\text{el}}=0{,}80\\cdot1\\,104\\,000=883\\,200\\ \\mathrm W\\]</p><p>\\[I=P_{\\text{el}}/U=883\\,200/2000=441{,}6\\ \\mathrm A\\]</p><p>Strömmen är cirka 440 A.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(440\\) A.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla mekanisk effekt till watt</p><div class=\"facit-matte\">\\[P_{\\mathrm{in}}=1500\\cdot736=1\\,104\\,000\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Verkningsgrad: \\(P_{\\mathrm{el}}=\\eta P_{\\mathrm{in}}\\)</p><p>80 % av den tillförda mekaniska effekten blir elektrisk effekt.</p><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=0{,}80\\cdot1\\,104\\,000=883\\,200\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Givet och sökt</p><p>2,0 kV = 2 000 V.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{883\\,200}{2000}=441{,}6\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(440\\ \\mathrm A\\).</p></div>",
     "id": "8.447",
     "miniräknare": true,
     "geogebra": false,
@@ -131100,7 +131100,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En lampa ansluts till 230 V och drar 1,70 A. Den lyser i 24 timmar. Elpriset är 2,0 kr/kWh. Vad kostar elen? (Svara i kr.)</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=UI\\\\&=230\\cdot1{,}70\\\\&=391\\ \\mathrm W\\\\&=0{,}391\\ \\mathrm{kW}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=Pt\\\\&=0{,}391\\cdot24\\\\&=9{,}384\\ \\mathrm{kWh}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\text{Kostnad}&=9{,}384\\cdot2{,}0\\\\&=18{,}768\\ \\mathrm{kr}\\end{aligned}\\]</p><p>Det kostar cirka 19 kr.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(19\\) kr.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=230\\cdot1{,}70=391\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Omvandla watt till kilowatt</p><div class=\"facit-matte\">\\[P=0{,}391\\ \\mathrm{kW}\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=0{,}391\\cdot24=9{,}384\\ \\mathrm{kWh}\\]</div></li><li><p class=\"facit-rubrik\">Elkostnad: \\(K=E\\cdot\\text{pris per kWh}\\)</p><div class=\"facit-matte\">\\[K=9{,}384\\cdot2{,}0=18{,}768\\ \\mathrm{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(19\\ \\mathrm{kr}\\).</p></div>",
     "id": "8.448",
     "miniräknare": true,
     "geogebra": false,
@@ -131127,7 +131127,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Ett bilbatteri är märkt 55 Ah och 12 V. Två strålkastare har effekten 36 W vardera.</p><p>a) Hur stor energi motsvarar batteriets märkdata? (Svara i kWh.)</p><p>b) Hur länge kan strålkastarna lysa med denna energi? (Svara i timmar.)</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=UQ\\\\&=12\\cdot55\\\\&=660\\ \\mathrm{Wh}\\\\&=0{,}660\\ \\mathrm{kWh}\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}660\\) kWh.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=2\\cdot36\\\\&=72\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=E/P\\\\&=660/72\\\\&\\approx9{,}17\\ \\mathrm h\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}17\\) h.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UQ\\)</p><p>Volt gånger amperetimmar ger wattimmar.</p><div class=\"facit-matte\">\\[E=12\\cdot55=660\\ \\mathrm{Wh}\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till kilowattimmar</p><div class=\"facit-matte\">\\[E=0{,}660\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}660\\ \\mathrm{kWh}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera båda lampornas effekt</p><div class=\"facit-matte\">\\[P=2\\cdot36=72\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Energin 660 Wh divideras med effekten i W. Då fås tiden i timmar.</p><div class=\"facit-matte\">\\[t=\\frac{660}{72}\\approx9{,}17\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}17\\ \\mathrm h\\).</p></div></div></div>",
     "id": "8.449",
     "miniräknare": true,
     "geogebra": false,
@@ -131167,7 +131167,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Ett batteri är märkt 55 Ah och 12 V. Hur stor energi motsvarar detta? (Svara i kWh.)",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=UQ\\\\&=12\\cdot55\\\\&=660\\ \\mathrm{Wh}\\\\&=0{,}660\\ \\mathrm{kWh}\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UQ\\)</p><p>Volt gånger amperetimmar ger wattimmar.</p><div class=\"facit-matte\">\\[E=12\\cdot55=660\\ \\mathrm{Wh}\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till kilowattimmar</p><div class=\"facit-matte\">\\[E=0{,}660\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}660\\ \\mathrm{kWh}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.66,
         "självrättning": true,
@@ -131185,7 +131185,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Ett batteri kan ge 660 Wh. Två strålkastare använder 36 W vardera. Hur länge kan de lysa med denna energi? (Svara i timmar.)",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=2\\cdot36\\\\&=72\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=E/P\\\\&=660/72\\\\&\\approx9{,}17\\ \\mathrm h\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera båda lampornas effekt</p><div class=\"facit-matte\">\\[P=2\\cdot36=72\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Energin 660 Wh divideras med effekten i W. Då fås tiden i timmar.</p><div class=\"facit-matte\">\\[t=\\frac{660}{72}\\approx9{,}17\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}17\\ \\mathrm h\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 9.166666666666666,
         "självrättning": true,
@@ -131196,12 +131196,12 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "ledtrad": "<p>Båda lamporna använder energi samtidigt. Vilken är deras sammanlagda effekt?</p>",
         "t": "<p>Ett batteri kan ge 660 Wh. Två strålkastare använder 36 W vardera. Hur länge kan de lysa med denna energi? (Svara i timmar.)</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Volt gånger amperetimmar ger wattimmar.</p>",
+    "ledtrad": "<p>Hur omvandlar batteriets spänning dess laddningskapacitet till energi?</p>",
     "traningsniva": 2,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 2,
@@ -131214,7 +131214,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En glödlampa drar 0,26 A vid 230 V. Den byts mot en LED-lampa på 9,0 W som lyser lika starkt. Lampan används 4,0 timmar per dag under 365 dagar. Elpriset är 2,0 kr/kWh. Hur mycket pengar sparar bytet under året? (Svara i kr.)</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P_{\\text{glöd}}&=230\\cdot0{,}26\\\\&=59{,}8\\ \\mathrm W\\end{aligned}\\]</p><p>Effekten minskar med 59,8 − 9,0 = 50,8 W. Användningstiden är 4,0 · 365 = 1 460 h.</p><p>\\[\\begin{aligned}E_{\\text{sparad}}&=0{,}0508\\cdot1460\\\\&=74{,}168\\ \\mathrm{kWh}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\text{Besparing}&=74{,}168\\cdot2{,}0\\\\&\\approx148\\ \\mathrm{kr}\\end{aligned}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(148\\) kr.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P_{\\mathrm{glöd}}=230\\cdot0{,}26=59{,}8\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Minskad effekt och årlig användningstid</p><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta P&=59{,}8-9{,}0=50{,}8\\ \\mathrm W\\\\&=0{,}0508\\ \\mathrm{kW}\\\\t&=4{,}0\\cdot365=1460\\ \\mathrm h\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E_{\\mathrm{sparad}}=0{,}0508\\cdot1460=74{,}168\\ \\mathrm{kWh}\\]</div></li><li><p class=\"facit-rubrik\">Elkostnad: \\(K=E\\cdot\\text{pris per kWh}\\)</p><div class=\"facit-matte\">\\[K_{\\mathrm{sparad}}=74{,}168\\cdot2{,}0=148{,}336\\ \\mathrm{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(148\\ \\mathrm{kr}\\).</p></div>",
     "id": "8.450",
     "miniräknare": true,
     "geogebra": false,
@@ -131241,7 +131241,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En kaffebryggare drar 1,10 A vid 230 V. Den ska värma 0,475 kg vatten från 22 °C till 90 °C. Vattnets specifika värmekapacitet är 4 180 J/(kg·°C). Räkna med att all värme går till vattnet. Hur lång tid tar det?</p>",
-    "s": "<div class=\"facit-v2\"><p>Temperaturen ska öka med 90 − 22 = 68 °C.</p><p>\\[\\begin{aligned}Q&=mc\\Delta T\\\\&=0{,}475\\cdot4180\\cdot68\\\\&=135\\,014\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}P&=UI\\\\&=230\\cdot1{,}10\\\\&=253\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=Q/P\\\\&=135\\,014/253\\\\&\\approx534\\ \\mathrm s\\end{aligned}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(534\\) s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Temperaturökningen är 90 − 22 = 68 °C. All värme går till vattnet.</p></li><li><p class=\"facit-rubrik\">Uppvärmning: \\(Q=mc\\Delta T\\)</p><div class=\"facit-matte\">\\[Q=0{,}475\\cdot4180\\cdot68=135\\,014\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=230\\cdot1{,}10=253\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Värmaren måste tillföra den beräknade värmeenergin.</p><div class=\"facit-matte\">\\[t=\\frac{135\\,014}{253}\\approx534\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(534\\ \\mathrm s\\).</p></div>",
     "id": "8.451",
     "miniräknare": true,
     "geogebra": false,
@@ -131268,7 +131268,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Ett batteri laddas med 13,5 mA vid 2,30 V under 4,2 timmar. Vid urladdning ger det 18 mA vid 1,60 V under 2,4 timmar. Batteriet har massan 15 g och specifika värmekapaciteten 975 J/(kg·°C).</p><p>a) Hur många procent av laddarens energi fås tillbaka vid urladdningen?</p><p>b) Räkna med att den energi som inte fås tillbaka blir värme i batteriet. Hur mycket ökar temperaturen?</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_{\\text{ut}}&=1{,}60\\cdot0{,}018\\cdot(2{,}4\\cdot3600)\\\\&=248{,}832\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_{\\text{in}}&=2{,}30\\cdot0{,}0135\\cdot(4{,}2\\cdot3600)\\\\&=469{,}476\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\eta&=248{,}832/469{,}476\\cdot100\\\\&\\approx53{,}0\\ \\%\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(53{,}0\\) %.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}Q&=469{,}476-248{,}832\\\\&=220{,}644\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta T&=220{,}644/(0{,}015\\cdot975)\\\\&\\approx15{,}1\\ \\mathrm K\\end{aligned}\\]</p><p>Temperaturen ökar med cirka 15 °C.</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) °C.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>13,5 mA = 0,0135 A och 18 mA = 0,018 A. Omvandla laddnings- och urladdningstid till sekunder.</p></li><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UIt\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_{\\mathrm{in}}&=2{,}30\\cdot0{,}0135\\cdot(4{,}2\\cdot3600)\\\\&=469{,}476\\ \\mathrm J\\\\E_{\\mathrm{ut}}&=1{,}60\\cdot0{,}018\\cdot(2{,}4\\cdot3600)\\\\&=248{,}832\\ \\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=E_{\\mathrm{nyttig}}/E_{\\mathrm{in}}\\)</p><p>Jämför återvunnen energi med tillförd energi.</p><div class=\"facit-matte\">\\[\\eta=\\frac{248{,}832}{469{,}476}\\cdot100\\approx53{,}0\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(53{,}0\\ \\%\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värme enligt modellen: \\(Q=E_{\\mathrm{in}}-E_{\\mathrm{ut}}\\)</p><div class=\"facit-matte\">\\[Q=469{,}476-248{,}832=220{,}644\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Givet och sökt</p><p>15 g = 0,015 kg.</p></li><li><p class=\"facit-rubrik\">Uppvärmning: \\(Q=mc\\Delta T\\)</p><p>En temperaturökning på 1 K är lika stor som en ökning på 1 °C.</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{220{,}644}{0{,}015\\cdot975}\\approx15{,}1\\ \\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen ökar med cirka \\(15\\ ^\\circ\\mathrm C\\).</p></div></div></div>",
     "id": "8.452",
     "miniräknare": true,
     "geogebra": false,
@@ -131308,7 +131308,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Ett batteri laddas med 13,5 mA vid 2,30 V under 4,2 timmar och ger sedan 18 mA vid 1,60 V under 2,4 timmar. Hur många procent av laddarens energi fås tillbaka vid urladdningen?",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_{\\text{ut}}&=1{,}60\\cdot0{,}018\\cdot(2{,}4\\cdot3600)\\\\&=248{,}832\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_{\\text{in}}&=2{,}30\\cdot0{,}0135\\cdot(4{,}2\\cdot3600)\\\\&=469{,}476\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\eta&=248{,}832/469{,}476\\cdot100\\\\&\\approx53{,}0\\ \\%\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>13,5 mA = 0,0135 A och 18 mA = 0,018 A. Omvandla laddnings- och urladdningstid till sekunder.</p></li><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UIt\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_{\\mathrm{in}}&=2{,}30\\cdot0{,}0135\\cdot(4{,}2\\cdot3600)\\\\&=469{,}476\\ \\mathrm J\\\\E_{\\mathrm{ut}}&=1{,}60\\cdot0{,}018\\cdot(2{,}4\\cdot3600)\\\\&=248{,}832\\ \\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=E_{\\mathrm{nyttig}}/E_{\\mathrm{in}}\\)</p><p>Jämför återvunnen energi med tillförd energi.</p><div class=\"facit-matte\">\\[\\eta=\\frac{248{,}832}{469{,}476}\\cdot100\\approx53{,}0\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(53{,}0\\ \\%\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 53.002070393374744,
         "självrättning": true,
@@ -131326,7 +131326,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Ett batteri med massan 15 g tar upp värmen 221 J. Dess specifika värmekapacitet är 975 J/(kg·°C). Hur mycket ökar temperaturen?",
-        "s": "<div class=\"facit-v2\"><p>Massan är 15 g = 0,015 kg.</p><p>\\[\\begin{aligned}\\Delta T&=Q/(mc)\\\\&=221/(0{,}015\\cdot975)\\\\&\\approx15{,}1\\ \\mathrm K\\end{aligned}\\]</p><p>Temperaturen ökar alltså med cirka 15 °C.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>15 g = 0,015 kg. Kortet anger värmen 221 J.</p></li><li><p class=\"facit-rubrik\">Uppvärmning: \\(Q=mc\\Delta T\\)</p><p>Temperaturändringen har samma talvärde i K och °C.</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{221}{0{,}015\\cdot975}\\approx15{,}1\\ \\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen ökar med cirka \\(15\\ ^\\circ\\mathrm C\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 15.11111111111111,
         "självrättning": true,
@@ -131355,7 +131355,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett batteri har spänningen 340 V och kan ge energin 16 kWh. Hur stor laddning kan det ge?</p>",
-    "s": "<div class=\"facit-v2\"><p>En kWh är 3,6 MJ.</p><p>\\[\\begin{aligned}E&=16\\cdot3{,}6\\cdot10^6\\\\&=57{,}6\\cdot10^6\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q&=E/U\\\\&=57{,}6\\cdot10^6/340\\\\&\\approx1{,}69\\cdot10^5\\ \\mathrm C\\end{aligned}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}69\\cdot10^{5}\\) C.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla kilowattimmar till joule</p><p>1 kWh = 1 000 W · 3 600 s = 3,6·10⁶ J.</p><div class=\"facit-matte\">\\[E=16\\cdot3{,}6\\cdot10^6=57{,}6\\cdot10^6\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UQ\\)</p><div class=\"facit-matte\">\\[Q=\\frac{57{,}6\\cdot10^6}{340}\\approx1{,}69\\cdot10^5\\ \\mathrm C\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}69\\cdot10^5\\ \\mathrm C\\).</p></div>",
     "id": "8.453",
     "miniräknare": true,
     "geogebra": false,
@@ -131382,7 +131382,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>En bilruta med arean 0,52 m² täcks av ett jämnt islager vid 0 °C. Rutans elvärmare drar 23 A vid 12 V och är på i 180 s. Isens densitet är 917 kg/m³ och smältvärme är 334 kJ/kg. Hur tjockt islager kan värmaren som mest smälta? (Svara i mm.)</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E&=UIt\\\\&=12\\cdot23\\cdot180\\\\&=49\\,680\\ \\mathrm J\\end{aligned}\\]</p><p>Största möjliga mängd smält is fås om hela energin används till smältning.</p><p>\\[\\begin{aligned}m&=E/L\\\\&=49\\,680/334\\,000\\\\&\\approx0{,}149\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}V&=m/\\rho\\\\&\\approx1{,}62\\cdot10^{-4}\\ \\mathrm{m^3}\\end{aligned}\\]</p><p>\\[\\begin{aligned}d&=V/A\\\\&\\approx3{,}12\\cdot10^{-4}\\ \\mathrm m\\\\&=0{,}312\\ \\mathrm{mm}\\end{aligned}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}312\\) mm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Isen är redan vid 0 °C. Största möjliga mängd fås om all elenergi används till smältning.</p></li><li><p class=\"facit-rubrik\">Elektrisk energi: \\(E=UIt\\)</p><div class=\"facit-matte\">\\[E=12\\cdot23\\cdot180=49\\,680\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Smältning: \\(E=mL\\)</p><div class=\"facit-matte\">\\[m=\\frac{49\\,680}{334\\,000}\\approx0{,}149\\ \\mathrm{kg}\\]</div></li><li><p class=\"facit-rubrik\">Densitet: \\(V=m/\\rho\\)</p><p>Behåll full precision för massan.</p><div class=\"facit-matte\">\\[V=\\frac{49\\,680}{334\\,000\\cdot917}\\approx1{,}62\\cdot10^{-4}\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Jämnt lager: \\(d=V/A\\)</p><div class=\"facit-matte\">\\[d=\\frac{49\\,680}{334\\,000\\cdot917\\cdot0{,}52}\\approx3{,}12\\cdot10^{-4}\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till millimeter</p><div class=\"facit-matte\">\\[d\\approx0{,}312\\ \\mathrm{mm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Som mest cirka \\(0{,}312\\ \\mathrm{mm}\\).</p></div>",
     "id": "8.454",
     "miniräknare": true,
     "geogebra": false,
@@ -131410,7 +131410,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En elektromagnet drar 21,5 A vid 240 V. Den kyls med vatten som får bli 6,5 °C varmare. Vattnets specifika värmekapacitet är 4 180 J/(kg·°C). Räkna med att all elenergi värmer vattnet. Hur många kg vatten behövs per minut?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=UI\\\\&=240\\cdot21{,}5\\\\&=5160\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q&=P\\cdot60\\\\&=309\\,600\\ \\mathrm J\\end{aligned}\\]</p><p>Denna energi ska tas upp av vattnet under en minut.</p><p>\\[\\begin{aligned}m&=Q/(c\\Delta T)\\\\&=309\\,600/(4180\\cdot6{,}5)\\\\&\\approx11{,}4\\ \\mathrm{kg}\\end{aligned}\\]</p><p>Det behövs cirka 11 kg vatten per minut.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\) kg/min.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=240\\cdot21{,}5=5160\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Under en minut måste vattnet ta upp denna energi.</p><div class=\"facit-matte\">\\[Q=5160\\cdot60=309\\,600\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Uppvärmning: \\(Q=mc\\Delta T\\)</p><p>Vattnets temperatur får öka med 6,5 °C.</p><div class=\"facit-matte\">\\[m=\\frac{309\\,600}{4180\\cdot6{,}5}\\approx11{,}4\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(11\\ \\mathrm{kg/min}\\).</p></div>",
     "id": "8.455",
     "miniräknare": true,
     "geogebra": false,
@@ -131437,7 +131437,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Från en kraftstation skickas 750 kW genom en ledning med resistansen 3,0 Ω. Spänningen vid kraftstationen är först 12 kV och höjs sedan till 50 kV.</p><p>a) Vilken effekt blir värme i ledningen vid 12 kV? (Svara i W.)</p><p>b) Vilken effekt blir värme i ledningen vid 50 kV? (Svara i W.)</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}I&=P/U\\\\&=750\\,000/12\\,000\\\\&=62{,}5\\ \\mathrm A\\end{aligned}\\]</p><p>\\[\\begin{aligned}P_{\\text{värme}}&=I^2R\\\\&=62{,}5^2\\cdot3{,}0\\\\&=11\\,718{,}75\\ \\mathrm W\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\,718{,}75\\) W.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}I&=750\\,000/50\\,000\\\\&=15\\ \\mathrm A\\end{aligned}\\]</p><p>\\[\\begin{aligned}P_{\\text{värme}}&=15^2\\cdot3{,}0\\\\&=675\\ \\mathrm W\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(675\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>750 kW = 750 000 W och 12 kV = 12 000 V.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{750\\,000}{12\\,000}=62{,}5\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>Det är ledningens resistans som omvandlar en del av energin till värme.</p><div class=\"facit-matte\">\\[P_{\\mathrm{värme}}=62{,}5^2\\cdot3{,}0=11\\,718{,}75\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\,718{,}75\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Samma överförda effekt, 750 000 W, men nu spänningen 50 000 V.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{750\\,000}{50\\,000}=15\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><div class=\"facit-matte\">\\[P_{\\mathrm{värme}}=15^2\\cdot3{,}0=675\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(675\\ \\mathrm W\\).</p></div></div></div>",
     "id": "8.456",
     "miniräknare": true,
     "geogebra": false,
@@ -131477,7 +131477,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Från en kraftstation skickas 750 kW vid 12 kV genom en ledning med resistansen 3,0 Ω. Vilken effekt blir värme i ledningen? (Svara i W.)",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}I&=P/U\\\\&=750\\,000/12\\,000\\\\&=62{,}5\\ \\mathrm A\\end{aligned}\\]</p><p>\\[\\begin{aligned}P_{\\text{värme}}&=I^2R\\\\&=62{,}5^2\\cdot3{,}0\\\\&=11\\,718{,}75\\ \\mathrm W\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>750 kW = 750 000 W och 12 kV = 12 000 V.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{750\\,000}{12\\,000}=62{,}5\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>Det är ledningens resistans som omvandlar en del av energin till värme.</p><div class=\"facit-matte\">\\[P_{\\mathrm{värme}}=62{,}5^2\\cdot3{,}0=11\\,718{,}75\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(11\\,718{,}75\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 11718.75,
         "självrättning": true,
@@ -131488,14 +131488,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Beräkna först strömmen och sedan \\(I²R\\).</p>",
+        "ledtrad": "<p>Beräkna först strömmen från den överförda effekten och spänningen.</p>",
         "t": "<p>Från en kraftstation skickas 750 kW vid 12 kV genom en ledning med resistansen 3,0 Ω. Vilken effekt blir värme i ledningen? (Svara i W.)</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
         "fraga": "Från en kraftstation skickas 750 kW vid 50 kV genom en ledning med resistansen 3,0 Ω. Vilken effekt blir värme i ledningen? (Svara i W.)",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}I&=750\\,000/50\\,000\\\\&=15\\ \\mathrm A\\end{aligned}\\]</p><p>\\[\\begin{aligned}P_{\\text{värme}}&=15^2\\cdot3{,}0\\\\&=675\\ \\mathrm W\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Samma överförda effekt, 750 000 W, men nu spänningen 50 000 V.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[I=\\frac{750\\,000}{50\\,000}=15\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><div class=\"facit-matte\">\\[P_{\\mathrm{värme}}=15^2\\cdot3{,}0=675\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(675\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 675,
         "självrättning": true,
@@ -131506,12 +131506,12 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Beräkna först strömmen vid den angivna spänningen.</p>",
+        "ledtrad": "<p>Hur påverkas strömmen när samma effekt överförs vid högre spänning?</p>",
         "t": "<p>Från en kraftstation skickas 750 kW vid 50 kV genom en ledning med resistansen 3,0 Ω. Vilken effekt blir värme i ledningen? (Svara i W.)</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Beräkna först strömmen och sedan \\(I²R\\).</p>",
+    "ledtrad": "<p>Vilken ström krävs vid respektive spänning? Använd den för ledningens värmeeffekt.</p>",
     "traningsniva": 2,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 2,
@@ -131524,7 +131524,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En 12 V-värmare värmer 0,120 kg vatten från 20 °C till 90 °C på 8,0 minuter. 85 % av elenergin värmer vattnet. Vattnets specifika värmekapacitet är 4 180 J/(kg·°C). Hur stor är strömmen?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[Q=0{,}120\\cdot4180\\cdot70=35\\,112\\ \\mathrm J\\]</p><p>\\[E_{\\text{el}}=Q/0{,}85\\approx41\\,308\\ \\mathrm J\\]</p><p>Tiden är 8,0 · 60 = 480 s.</p><p>\\[P=E_{\\text{el}}/480\\approx86{,}1\\ \\mathrm W\\]</p><p>\\[I=P/12\\approx7{,}17\\ \\mathrm A\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}17\\) A.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Temperaturökningen är 70 °C och tiden 8,0 min = 480 s.</p></li><li><p class=\"facit-rubrik\">Uppvärmning: \\(Q=mc\\Delta T\\)</p><div class=\"facit-matte\">\\[Q=0{,}120\\cdot4180\\cdot70=35\\,112\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=E_{\\mathrm{nyttig}}/E_{\\mathrm{in}}\\)</p><p>Vattnet tar upp 85 % av elenergin. Därför är elenergin större än värmen till vattnet.</p><div class=\"facit-matte\">\\[E_{\\mathrm{el}}=\\frac{35\\,112}{0{,}85}\\approx41\\,308\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[P=\\frac{35\\,112}{0{,}85\\cdot480}\\approx86{,}1\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Använd de oavrundade värdena i hela beräkningen.</p><div class=\"facit-matte\">\\[I=\\frac{35\\,112}{0{,}85\\cdot480\\cdot12}\\approx7{,}17\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}17\\ \\mathrm A\\).</p></div>",
     "id": "8.457",
     "miniräknare": true,
     "geogebra": false,
@@ -131551,7 +131551,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En värmare har resistansen 100 Ω och ansluts till 230 V. Den ska värma 0,50 kg vatten från 20 °C till 100 °C. Vattnets specifika värmekapacitet är 4 180 J/(kg·°C). Räkna med att all värme går till vattnet. Hur lång tid tar det?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}P&=U^2/R\\\\&=230^2/100\\\\&=529\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q&=mc\\Delta T\\\\&=0{,}50\\cdot4180\\cdot80\\\\&=167\\,200\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=Q/P\\\\&=167\\,200/529\\\\&\\approx316\\ \\mathrm s\\end{aligned}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(316\\) s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Temperaturökningen är 100 − 20 = 80 °C. All värme går till vattnet.</p></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><div class=\"facit-matte\">\\[P=\\frac{230^2}{100}=529\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Uppvärmning: \\(Q=mc\\Delta T\\)</p><div class=\"facit-matte\">\\[Q=0{,}50\\cdot4180\\cdot80=167\\,200\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[t=\\frac{167\\,200}{529}\\approx316\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(316\\ \\mathrm s\\).</p></div>",
     "id": "8.458",
     "miniräknare": true,
     "geogebra": false,
@@ -131578,7 +131578,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En elvärmare ansluts till 230 V. Den värmer 109 kg vatten med 29 °C på 25 minuter. Vattnets specifika värmekapacitet är 4 180 J/(kg·°C). Räkna med att all värme går till vattnet. Bestäm värmarens resistans.</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}Q&=mc\\Delta T\\\\&=109\\cdot4180\\cdot29\\\\&=13212980\\ \\mathrm J\\end{aligned}\\]</p><p>Tiden är 25 · 60 = 1 500 s.</p><p>\\[\\begin{aligned}P&=Q/t\\\\&\\approx8809\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}R&=U^2/P\\\\&\\approx6{,}01\\ \\Omega\\end{aligned}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}01\\) Ω.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Temperaturökningen är 29 °C och tiden 25 min = 1 500 s.</p></li><li><p class=\"facit-rubrik\">Uppvärmning: \\(Q=mc\\Delta T\\)</p><div class=\"facit-matte\">\\[Q=109\\cdot4180\\cdot29=13\\,212\\,980\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[P=\\frac{13\\,212\\,980}{1500}\\approx8809\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Använd effekten utan avrundning när resistansen beräknas.</p><div class=\"facit-matte\">\\[R=\\frac{230^2\\cdot1500}{13\\,212\\,980}\\approx6{,}01\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}01\\ \\Omega\\).</p></div>",
     "id": "8.459",
     "miniräknare": true,
     "geogebra": false,
@@ -131605,7 +131605,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En korv har massan 60 g och ska värmas med 72 °C. Dess specifika värmekapacitet är 2 500 J/(kg·°C). En värmare med resistansen 900 Ω ansluts till 230 V. Räkna med att all värme går till korven. Hur lång tid tar uppvärmningen?</p>",
-    "s": "<div class=\"facit-v2\"><p>Massan är 0,060 kg.</p><p>\\[\\begin{aligned}Q&=mc\\Delta T\\\\&=0{,}060\\cdot2500\\cdot72\\\\&=10\\,800\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}P&=U^2/R\\\\&=230^2/900\\\\&\\approx58{,}8\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=Q/P\\\\&\\approx184\\ \\mathrm s\\end{aligned}\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(184\\) s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>60 g = 0,060 kg. Temperaturökningen är 72 °C.</p></li><li><p class=\"facit-rubrik\">Uppvärmning: \\(Q=mc\\Delta T\\)</p><div class=\"facit-matte\">\\[Q=0{,}060\\cdot2500\\cdot72=10\\,800\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><div class=\"facit-matte\">\\[P=\\frac{230^2}{900}\\approx58{,}8\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>All värme går till korven. Behåll full precision för effekten.</p><div class=\"facit-matte\">\\[t=\\frac{10\\,800\\cdot900}{230^2}\\approx184\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(184\\ \\mathrm s\\).</p></div>",
     "id": "8.460",
     "miniräknare": true,
     "geogebra": false,
@@ -131632,7 +131632,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En 3,5 m lång kabel har två runda kopparledare med diametern 1,628 mm vardera. Kopparns resistivitet är 1,7·10⁻⁸ Ωm. Strömmen är 18 A.</p><p>a) Vilken effekt blir värme i kabeln?</p><p>b) Vad kostar denna energi under 360 timmar om elpriset är 2,0 kr/kWh? (Svara i kr.)</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Strömmen går fram och tillbaka genom två ledare. Total ledarlängd är 7,0 m. Radien är 0,814 mm = 0,000814 m.</p><p>\\[A=\\pi r^2\\approx2{,}08\\cdot10^{-6}\\ \\mathrm{m^2}\\]</p><p>\\[R=\\rho L/A\\approx0{,}0572\\ \\Omega\\]</p><p>\\[P=I^2R=18^2\\cdot R\\approx18{,}5\\ \\mathrm W\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18{,}5\\) W.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=P t\\approx0{,}018522\\cdot360\\approx6{,}668\\ \\mathrm{kWh}\\]</p><p>\\[\\text{Kostnad}=E\\cdot2{,}0\\approx13{,}34\\ \\mathrm{kr}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}34\\) kr.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Strömmen går genom både fram- och återledare: L = 2 · 3,5 = 7,0 m. Radien är 1,628/2 = 0,814 mm = 0,000814 m.</p></li><li><p class=\"facit-rubrik\">Cirkulär area: \\(A=\\pi r^2\\)</p><div class=\"facit-matte\">\\[A=\\pi\\cdot0{,}000814^2\\approx2{,}08\\cdot10^{-6}\\ \\mathrm{m^2}\\]</div></li><li><p class=\"facit-rubrik\">Ledningsresistans: \\(R=\\rho L/A\\)</p><div class=\"facit-matte\">\\[R=\\frac{1{,}7\\cdot10^{-8}\\cdot7{,}0}{\\pi\\cdot0{,}000814^2}\\approx0{,}05717\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>Använd den oavrundade resistansen.</p><div class=\"facit-matte\">\\[P=18^2\\cdot\\frac{1{,}7\\cdot10^{-8}\\cdot7{,}0}{\\pi\\cdot0{,}000814^2}\\approx18{,}522\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18{,}5\\ \\mathrm W\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>Använd effekten från a) med full precision och omvandla W till kW.</p><div class=\"facit-matte\">\\[E\\approx0{,}01852223\\cdot360\\approx6{,}668\\ \\mathrm{kWh}\\]</div></li><li><p class=\"facit-rubrik\">Elkostnad: \\(K=E\\cdot\\text{pris per kWh}\\)</p><div class=\"facit-matte\">\\[K\\approx6{,}668003\\cdot2{,}0\\approx13{,}34\\ \\mathrm{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}34\\ \\mathrm{kr}\\).</p></div></div></div>",
     "id": "8.461",
     "miniräknare": true,
     "geogebra": false,
@@ -131672,7 +131672,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Vilken effekt blir värme i kabeln?",
-        "s": "<div class=\"facit-v2\"><p>Strömmen går fram och tillbaka genom två ledare. Total ledarlängd är 7,0 m. Radien är 0,814 mm = 0,000814 m.</p><p>\\[A=\\pi r^2\\approx2{,}08\\cdot10^{-6}\\ \\mathrm{m^2}\\]</p><p>\\[R=\\rho L/A\\approx0{,}0572\\ \\Omega\\]</p><p>\\[P=I^2R=18^2\\cdot R\\approx18{,}5\\ \\mathrm W\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Strömmen går genom både fram- och återledare: L = 2 · 3,5 = 7,0 m. Radien är 1,628/2 = 0,814 mm = 0,000814 m.</p></li><li><p class=\"facit-rubrik\">Cirkulär area: \\(A=\\pi r^2\\)</p><div class=\"facit-matte\">\\[A=\\pi\\cdot0{,}000814^2\\approx2{,}08\\cdot10^{-6}\\ \\mathrm{m^2}\\]</div></li><li><p class=\"facit-rubrik\">Ledningsresistans: \\(R=\\rho L/A\\)</p><div class=\"facit-matte\">\\[R=\\frac{1{,}7\\cdot10^{-8}\\cdot7{,}0}{\\pi\\cdot0{,}000814^2}\\approx0{,}05717\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>Använd den oavrundade resistansen.</p><div class=\"facit-matte\">\\[P=18^2\\cdot\\frac{1{,}7\\cdot10^{-8}\\cdot7{,}0}{\\pi\\cdot0{,}000814^2}\\approx18{,}522\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18{,}5\\ \\mathrm W\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 18.522230698196534,
         "självrättning": true,
@@ -131683,14 +131683,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Strömmen går genom båda ledarna. Beräkna area, resistans och värmeeffekt.</p>",
+        "ledtrad": "<p>Glöm inte återledaren. Använd diametern för att bestämma tvärsnittsarean.</p>",
         "t": "<p>En 3,5 m lång kabel har två runda kopparledare med diametern 1,628 mm vardera. Kopparns resistivitet är 1,7·10⁻⁸ Ωm och strömmen 18 A. Vilken effekt blir värme i kabeln?</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
         "fraga": "I en kabel blir 18,5 W värme. Den används under 360 timmar. Elpriset är 2,0 kr/kWh. Vad kostar energin som blir värme? (Svara i kr.)",
-        "s": "<div class=\"facit-v2\"><p>18,5 W = 0,0185 kW.</p><p>\\[E=0{,}0185\\cdot360=6{,}66\\ \\mathrm{kWh}\\]</p><p>\\[\\text{Kostnad}=6{,}66\\cdot2{,}0=13{,}32\\ \\mathrm{kr}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Kortet anger 18,5 W = 0,0185 kW.</p></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=0{,}0185\\cdot360=6{,}66\\ \\mathrm{kWh}\\]</div></li><li><p class=\"facit-rubrik\">Elkostnad: \\(K=E\\cdot\\text{pris per kWh}\\)</p><div class=\"facit-matte\">\\[K=6{,}66\\cdot2{,}0=13{,}32\\ \\mathrm{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}32\\ \\mathrm{kr}\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 13.319999999999999,
         "självrättning": true,
@@ -131701,12 +131701,12 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "1/0/0",
-        "ledtrad": "<p>Använd \\(P=UI\\) och \\(E=Pt\\).</p>",
+        "ledtrad": "<p>Effekten är redan given. Beräkna energin i kWh innan du använder elpriset.</p>",
         "t": "<p>I en kabel blir 18,5 W värme. Den används under 360 timmar. Elpriset är 2,0 kr/kWh. Vad kostar energin som blir värme? (Svara i kr.)</p>",
         "arbetsinsats": 1
       }
     ],
-    "ledtrad": "<p>Strömmen går genom båda ledarna. Beräkna area, resistans och värmeeffekt.</p>",
+    "ledtrad": "<p>Hur lång sträcka går strömmen sammanlagt genom kabelns två ledare?</p>",
     "traningsniva": 2,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 2,
@@ -131719,7 +131719,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/1/0)",
     "t": "<p>En värmare drar 1,5 A vid 230 V. Den ska värma och smälta 0,72 kg is som är −18 °C. Isens specifika värmekapacitet är 2 100 J/(kg·°C) och smältvärme 334 kJ/kg. Räkna med att all värme går till isen.</p><p>a) Bestäm värmarens resistans.</p><p>b) Hur lång tid behövs för att få vatten vid 0 °C?</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}R&=U/I\\\\&=230/1{,}5\\\\&\\approx153\\ \\Omega\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(153\\) Ω.</p><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Isen måste först värmas till 0 °C och sedan smältas.</p><p>\\[\\begin{aligned}Q_{\\text{värma}}&=mc\\Delta T\\\\&=0{,}72\\cdot2100\\cdot18\\\\&=27\\,216\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q_{\\text{smälta}}&=mL\\\\&=0{,}72\\cdot334\\,000\\\\&=240\\,480\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q&=27\\,216+240\\,480\\\\&=267\\,696\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}P&=UI\\\\&=230\\cdot1{,}5\\\\&=345\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=Q/P\\\\&=267\\,696/345\\\\&\\approx776\\ \\mathrm s\\end{aligned}\\]</p></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(776\\) s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[R=\\frac{230}{1{,}5}\\approx153\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(153\\ \\Omega\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Isen måste först värmas från −18 °C till 0 °C och därefter smältas. Sökt: den sammanlagda tiden.</p></li><li><p class=\"facit-rubrik\">Uppvärmning: \\(Q=mc\\Delta T\\)</p><div class=\"facit-matte\">\\[Q_{\\mathrm{värma}}=0{,}72\\cdot2100\\cdot18=27\\,216\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Smältenergi: \\(Q_{\\mathrm{smälta}}=mL\\)</p><div class=\"facit-matte\">\\[Q_{\\mathrm{smälta}}=0{,}72\\cdot334\\,000=240\\,480\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Addera energin för de två stegen</p><div class=\"facit-matte\">\\[Q=27\\,216+240\\,480=267\\,696\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=230\\cdot1{,}5=345\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>All värme går till isen enligt uppgiften.</p><div class=\"facit-matte\">\\[t=\\frac{267\\,696}{345}\\approx776\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(776\\ \\mathrm s\\).</p></div></div></div>",
     "id": "8.462",
     "miniräknare": true,
     "geogebra": false,
@@ -131760,7 +131760,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm resistansen.",
-        "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}R&=U/I\\\\&=230/1{,}5\\\\&\\approx153\\ \\Omega\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[R=\\frac{230}{1{,}5}\\approx153\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(153\\ \\Omega\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 153.33333333333334,
         "självrättning": true,
@@ -131771,14 +131771,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+        "ledtrad": "<p>Vilket samband kopplar ihop spänning, ström och resistans?</p>",
         "t": "<p>En värmare drar 1,5 A vid 230 V. Bestäm resistansen.</p>",
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
         "fraga": "Hur lång tid behövs för att få vatten vid 0 °C?",
-        "s": "<div class=\"facit-v2\"><p>Isen måste först värmas till 0 °C och sedan smältas.</p><p>\\[\\begin{aligned}Q_{\\text{värma}}&=mc\\Delta T\\\\&=0{,}72\\cdot2100\\cdot18\\\\&=27\\,216\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q_{\\text{smälta}}&=mL\\\\&=0{,}72\\cdot334\\,000\\\\&=240\\,480\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}Q&=27\\,216+240\\,480\\\\&=267\\,696\\ \\mathrm J\\end{aligned}\\]</p><p>\\[\\begin{aligned}P&=UI\\\\&=230\\cdot1{,}5\\\\&=345\\ \\mathrm W\\end{aligned}\\]</p><p>\\[\\begin{aligned}t&=Q/P\\\\&=267\\,696/345\\\\&\\approx776\\ \\mathrm s\\end{aligned}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Isen måste först värmas från −18 °C till 0 °C och därefter smältas. Sökt: den sammanlagda tiden.</p></li><li><p class=\"facit-rubrik\">Uppvärmning: \\(Q=mc\\Delta T\\)</p><div class=\"facit-matte\">\\[Q_{\\mathrm{värma}}=0{,}72\\cdot2100\\cdot18=27\\,216\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Smältenergi: \\(Q_{\\mathrm{smälta}}=mL\\)</p><div class=\"facit-matte\">\\[Q_{\\mathrm{smälta}}=0{,}72\\cdot334\\,000=240\\,480\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Addera energin för de två stegen</p><div class=\"facit-matte\">\\[Q=27\\,216+240\\,480=267\\,696\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=230\\cdot1{,}5=345\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>All värme går till isen enligt uppgiften.</p><div class=\"facit-matte\">\\[t=\\frac{267\\,696}{345}\\approx776\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(776\\ \\mathrm s\\).</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 775.9304347826087,
         "självrättning": true,
@@ -131789,12 +131789,12 @@ window.BANK = [
         "niva": "C",
         "traningsniva": 3,
         "poang": "0/1/0",
-        "ledtrad": "<p>Dela energin i uppvärmning till 0 °C och smältning.</p>",
+        "ledtrad": "<p>Vilka två förändringar måste isen genomgå innan allt är vatten vid 0 °C?</p>",
         "t": "<p>En värmare drar 1,5 A vid 230 V. Den ska värma och smälta 0,72 kg is som är −18 °C. Isens specifika värmekapacitet är 2 100 J/(kg·°C) och smältvärme 334 kJ/kg. All värme går till isen. Hur lång tid behövs för att få vatten vid 0 °C?</p>",
         "arbetsinsats": 2
       }
     ],
-    "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
+    "ledtrad": "<p>Skilj mellan energin för att värma isen till 0 °C och energin för att smälta den.</p>",
     "traningsniva": 3,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
     "arbetsinsats": 2,
@@ -131807,7 +131807,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En värmetråd i en filt ska utveckla effekten 18 W vid 1,5 V. Tråden är rund och gjord av koppar med resistiviteten 1,7·10⁻⁸ Ωm. Diametern är 0,50 mm. Hur lång ska tråden vara? (Svara i m.)</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[R=U^2/P=1{,}5^2/18=0{,}125\\ \\Omega\\]</p><p>Radien är 0,25 mm = 2,5·10⁻⁴ m.</p><p>\\[A=\\pi r^2\\approx1{,}96\\cdot10^{-7}\\ \\mathrm{m^2}\\]</p><p>\\[L=RA/\\rho\\approx1{,}44\\ \\mathrm m\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}44\\) m.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Beräkna den resistans som ger den önskade effekten.</p><div class=\"facit-matte\">\\[R=\\frac{1{,}5^2}{18}=0{,}125\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Radien är hälften av diametern: 0,25 mm = 2,5·10⁻⁴ m.</p></li><li><p class=\"facit-rubrik\">Cirkulär area: \\(A=\\pi r^2\\)</p><div class=\"facit-matte\">\\[A=\\pi(2{,}5\\cdot10^{-4})^2\\approx1{,}96\\cdot10^{-7}\\ \\mathrm{m^2}\\]</div></li><li><p class=\"facit-rubrik\">Ledningsresistans: \\(R=\\rho L/A\\)</p><p>Lös ut längden och använd arean utan avrundning.</p><div class=\"facit-matte\">\\[L=\\frac{0{,}125\\cdot\\pi(2{,}5\\cdot10^{-4})^2}{1{,}7\\cdot10^{-8}}\\approx1{,}44\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}44\\ \\mathrm m\\).</p></div>",
     "id": "8.463",
     "miniräknare": true,
     "geogebra": false,
@@ -197900,7 +197900,7 @@ window.BANK = [
       "W"
     ],
     "t": "<p>Lampa A är märkt 6,0 V och 3,0 W. Lampa B är märkt 6,0 V och 6,0 W. De kopplas i serie till 12 V. I denna uppgift räknas lampornas resistanser som konstanta.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"310\" viewBox=\"0 0 520 310\" role=\"img\" aria-label=\"Två lampor med olika märkeffekt sitter i serie. Värdena visar märkdata, inte den faktiska spänningen i kretsen.\"><rect x=\"3\" y=\"3\" width=\"514\" height=\"304\" rx=\"12\" fill=\"#ffffff\" stroke=\"#234253\" stroke-width=\"2.2\"/><line x1=\"65\" y1=\"70\" x2=\"65\" y2=\"145.5\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"47\" y1=\"145.5\" x2=\"83\" y2=\"145.5\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"55\" y1=\"159.5\" x2=\"75\" y2=\"159.5\" stroke=\"#234253\" stroke-width=\"3\"/><line x1=\"65\" y1=\"159.5\" x2=\"65\" y2=\"235\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"92\" y=\"126.5\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">+</text><text x=\"92\" y=\"157.5\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"21\" fill=\"#173548\">12 V</text><line x1=\"65\" y1=\"70\" x2=\"420\" y2=\"70\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"65\" y1=\"235\" x2=\"420\" y2=\"235\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"420\" y1=\"70\" x2=\"420\" y2=\"97\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"420\" cy=\"122\" r=\"25\" fill=\"#ffeed7\" stroke=\"#234253\" stroke-width=\"2.2\"/><line x1=\"405\" y1=\"107\" x2=\"435\" y2=\"137\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"405\" y1=\"137\" x2=\"435\" y2=\"107\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"420\" y1=\"147\" x2=\"420\" y2=\"167\" stroke=\"#234253\" stroke-width=\"2.3\"/><circle cx=\"420\" cy=\"192\" r=\"25\" fill=\"#ffeed7\" stroke=\"#234253\" stroke-width=\"2.2\"/><line x1=\"405\" y1=\"177\" x2=\"435\" y2=\"207\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"405\" y1=\"207\" x2=\"435\" y2=\"177\" stroke=\"#234253\" stroke-width=\"2.3\"/><line x1=\"420\" y1=\"217\" x2=\"420\" y2=\"235\" stroke=\"#234253\" stroke-width=\"2.3\"/><text x=\"275\" y=\"127\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">A: 6,0 V · 3,0 W</text><text x=\"275\" y=\"197\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#173548\">B: 6,0 V · 6,0 W</text><text x=\"260\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#173548\">Resistanserna antas vara konstanta</text></svg></div><p>Bestäm den faktiska effekten i varje lampa. (Svara i W med två decimaler.)</p>",
-    "s": "<div class=\"facit-v2\"><p>Märkdata anger effekten vid 6 V. Därifrån får vi varje lampas resistans:</p><div class=\"facit-matte\">\\[R_A=6^2/3=12\\ \\Omega.\\]</div><div class=\"facit-matte\">\\[R_B=6^2/6=6\\ \\Omega.\\]</div><p>Samma ström går genom båda lamporna i serie:</p><div class=\"facit-matte\">\\[I=12/(12+6)=2/3\\ \\mathrm A.\\]</div><div class=\"facit-matte\">\\[P_A=I^2R_A=(2/3)^2\\cdot12\\approx5{,}33\\ \\mathrm W.\\]</div><div class=\"facit-matte\">\\[P_B=I^2R_B=(2/3)^2\\cdot6\\approx2{,}67\\ \\mathrm W.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> A: 5,33 W, B: 2,67 W. A överskrider sin märkeffekt medan B ligger under sin. Detta bygger på uppgiftens antagande om konstant resistans.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Märkeffekterna gäller vid 6,0 V. Använd dem för att hitta lampornas resistanser.</p><div class=\"facit-matte\">\\[\\begin{aligned}R_A&=\\frac{6{,}0^2}{3{,}0}=12\\ \\Omega\\\\R_B&=\\frac{6{,}0^2}{6{,}0}=6\\ \\Omega\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><p>Samma ström går genom båda lamporna i serie.</p><div class=\"facit-matte\">\\[I=\\frac{12}{12+6}=\\frac23\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}P_A&=\\left(\\frac23\\right)^2\\cdot12\\approx5{,}33\\ \\mathrm W\\\\P_B&=\\left(\\frac23\\right)^2\\cdot6\\approx2{,}67\\ \\mathrm W\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför med märkeffekterna</p><p>A får mer än sin märkeffekt och B mindre. Beräkningen bygger på uppgiftens antagande om konstant resistans.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: \\(5{,}33\\ \\mathrm W\\). B: \\(2{,}67\\ \\mathrm W\\).</p></div>",
     "ledtrad": "<p>Märkeffekterna gäller vid 6 V. Vad säger märkdata om varje lampas resistans?</p>",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -203011,7 +203011,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Amperemetern visar 0,95 A. Lampans effekt är 3,0 W. Vad visar voltmetern?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 315\" role=\"img\" aria-label=\"Amperemeter i serie med lampan och voltmeter över samma komponent.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"315\" fill=\"white\"/><path d=\"M65 95L129 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"95\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"150\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">A</text><path d=\"M171 95L308 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"95\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M315 80L345 110\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M315 110L345 80\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"330\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M352 95L435 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 95L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 95L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><path d=\"M265 95L265 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 185L309 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"185\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"330\" y=\"191\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">V</text><path d=\"M351 185L405 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M405 185L405 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"265\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"405\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Amperemetern mäter lampans ström och voltmetern mäter spänningen över lampan.</p>\\[U=\\frac{P}{I}=\\frac{3{,}0}{0{,}95}\\approx3{,}16\\,\\mathrm V\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}16\\) V.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Amperemetern mäter lampans ström. Voltmetern mäter spänningen över samma lampa.</p><div class=\"facit-matte\">\\[U=\\frac{3{,}0}{0{,}95}\\approx3{,}16\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Voltmetern visar \\(3{,}16\\ \\mathrm V\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203066,7 +203066,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Voltmetern visar 230 V. Lampans effekt är 60 W. Vad visar amperemetern?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 315\" role=\"img\" aria-label=\"Amperemeter i serie med lampan och voltmeter över samma komponent.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"315\" fill=\"white\"/><g transform=\"translate(480 0) scale(-1 1)\"><path d=\"M65 95L129 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"95\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M171 95L308 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"95\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M315 80L345 110\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M315 110L345 80\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M352 95L435 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 95L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 95L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 95L265 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 185L309 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"185\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M351 185L405 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M405 185L405 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"265\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"405\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></g><text x=\"330.0\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"150.0\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><text x=\"263.0\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"217.0\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"150.0\" y=\"191\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">V</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Lampans ström fås från effekten och spänningen.</p>\\[I=\\frac{P}{U}=\\frac{60}{230}\\approx0{,}26\\,\\mathrm A\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}26\\) A.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Lös ut lampans ström ur effektsambandet.</p><div class=\"facit-matte\">\\[I=\\frac{60}{230}\\approx0{,}26\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Amperemetern visar \\(0{,}26\\ \\mathrm A\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203122,7 +203122,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Amperemetern visar 1,25 A och voltmetern visar 24,0 V. Hur stor effekt har lampan?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 315\" role=\"img\" aria-label=\"Amperemeter i serie med lampan och voltmeter över samma komponent.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"315\" fill=\"white\"/><path d=\"M65 95L129 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"95\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"150\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">A</text><path d=\"M171 95L308 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"95\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M315 80L345 110\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M315 110L345 80\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"330\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M352 95L435 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 95L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 95L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><path d=\"M265 95L265 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 185L309 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"185\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"330\" y=\"191\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">V</text><path d=\"M351 185L405 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M405 185L405 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"265\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"405\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Instrumenten visar lampans ström och spänning.</p>\\[P=UI=24{,}0\\cdot1{,}25=30{,}0\\,\\mathrm W\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(30{,}0\\) W.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Instrumenten visar spänningen över och strömmen genom lampan.</p><div class=\"facit-matte\">\\[P=24{,}0\\cdot1{,}25=30{,}0\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30{,}0\\ \\mathrm W\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203149,7 +203149,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Voltmetern visar 6,0 V. Lampans resistans är 11,0 Ω. Hur stor effekt har lampan?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 315\" role=\"img\" aria-label=\"Amperemeter i serie med lampan och voltmeter över samma komponent.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"315\" fill=\"white\"/><g transform=\"translate(480 0) scale(-1 1)\"><path d=\"M65 95L129 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"95\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M171 95L308 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"95\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M315 80L345 110\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M315 110L345 80\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M352 95L435 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 95L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 95L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 95L265 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 185L309 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"185\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M351 185L405 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M405 185L405 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"265\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"405\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></g><text x=\"330.0\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"150.0\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><text x=\"263.0\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"217.0\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"150.0\" y=\"191\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">V</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Lampans ström är \\(I=U/R\\). Insatt i \\(P=UI\\) ger det:</p>\\[P=\\frac{U^2}{R}=\\frac{6{,}0^2}{11{,}0}\\approx3{,}27\\,\\mathrm W\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}27\\) W.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Spänningen och resistansen är givna, så strömmen behöver inte beräknas separat.</p><div class=\"facit-matte\">\\[P=\\frac{6{,}0^2}{11{,}0}\\approx3{,}27\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}27\\ \\mathrm W\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203177,7 +203177,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Amperemetern visar 345 mA. Lampans resistans är 12,5 Ω. Hur stor effekt har lampan?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 315\" role=\"img\" aria-label=\"Amperemeter i serie med lampan och voltmeter över samma komponent.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"315\" fill=\"white\"/><path d=\"M65 95L129 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"95\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"150\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">A</text><path d=\"M171 95L308 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"95\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M315 80L345 110\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M315 110L345 80\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"330\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M352 95L435 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 95L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 95L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><path d=\"M265 95L265 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 185L309 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"185\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"330\" y=\"191\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">V</text><path d=\"M351 185L405 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M405 185L405 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"265\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"405\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Omvandla strömmen: 345 mA = 0,345 A. Effekten beräknas med strömmen och resistansen.</p>\\[P=RI^2=12{,}5\\cdot0{,}345^2\\approx1{,}49\\,\\mathrm W\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}49\\) W.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>345 mA = 0,345 A.</p></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><div class=\"facit-matte\">\\[P=0{,}345^2\\cdot12{,}5\\approx1{,}49\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}49\\ \\mathrm W\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203205,7 +203205,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Voltmetern visar 8,50 V. Resistorn har resistansen 5,40 kΩ. Hur stor effekt utvecklas i resistorn? (Svara i mW.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 315\" role=\"img\" aria-label=\"Amperemeter i serie med resistorn och voltmeter över samma komponent.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"315\" fill=\"white\"/><g transform=\"translate(480 0) scale(-1 1)\"><path d=\"M65 95L129 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"95\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M171 95L300 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"300\" y=\"84\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M360 95L435 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 95L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 95L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 95L265 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 185L309 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"185\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M351 185L405 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M405 185L405 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"265\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"405\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></g><text x=\"330.0\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"150.0\" y=\"67\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><text x=\"263.0\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"217.0\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"150.0\" y=\"191\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">V</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Resistansen är 5,40 kΩ = 5 400 Ω.</p>\\[P=\\frac{U^2}{R}=\\frac{8{,}50^2}{5400}\\approx0{,}01338\\,\\mathrm W\\]<p>Det är <strong>13,38 mW</strong>.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}38\\) mW.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>5,40 kΩ = 5 400 Ω. Sökt: effekt i mW.</p></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><div class=\"facit-matte\">\\[P=\\frac{8{,}50^2}{5400}\\approx0{,}01338\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Omvandla watt till milliwatt</p><div class=\"facit-matte\">\\[P\\approx13{,}38\\ \\mathrm{mW}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}38\\ \\mathrm{mW}\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203233,7 +203233,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Amperemetern visar 860 mA. Resistorn har resistansen 370 Ω. Hur stor effekt utvecklas i resistorn?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 315\" role=\"img\" aria-label=\"Amperemeter i serie med resistorn och voltmeter över samma komponent.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"315\" fill=\"white\"/><path d=\"M65 95L129 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"95\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"150\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">A</text><path d=\"M171 95L300 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"300\" y=\"84\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"330\" y=\"67\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M360 95L435 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 95L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 95L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><path d=\"M265 95L265 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 185L309 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"185\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"330\" y=\"191\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">V</text><path d=\"M351 185L405 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M405 185L405 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"265\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"405\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Strömmen är 860 mA = 0,860 A.</p>\\[P=RI^2=370\\cdot0{,}860^2\\approx273{,}7\\,\\mathrm W\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(273{,}7\\) W.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>860 mA = 0,860 A.</p></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><div class=\"facit-matte\">\\[P=0{,}860^2\\cdot370=273{,}652\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(273{,}7\\ \\mathrm W\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203289,7 +203289,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Amperemetern visar 120 mA och voltmetern visar 4,5 V. Hur stor effekt har lampan?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 315\" role=\"img\" aria-label=\"Amperemeter i serie med lampan och voltmeter över samma komponent.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"315\" fill=\"white\"/><g transform=\"translate(480 0) scale(-1 1)\"><path d=\"M65 95L129 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"95\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M171 95L308 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"95\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M315 80L345 110\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M315 110L345 80\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M352 95L435 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 95L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 95L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 95L265 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M265 185L309 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"185\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M351 185L405 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M405 185L405 95\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"265\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"405\" cy=\"95\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></g><text x=\"330.0\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"150.0\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><text x=\"263.0\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"217.0\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"150.0\" y=\"191\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">V</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Strömmen är 120 mA = 0,120 A.</p>\\[P=UI=4{,}5\\cdot0{,}120=0{,}54\\,\\mathrm W\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}54\\) W.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>120 mA = 0,120 A.</p></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P=4{,}5\\cdot0{,}120=0{,}54\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}54\\ \\mathrm W\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203316,7 +203316,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Lampan är märkt 3,0 W och 24,0 V och lyser normalt. Resistorn har resistansen 550 Ω. Hur stor är spänningen över resistorn?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M192 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Lampan och resistorn är i serie, så samma ström går genom båda.</p>\\[I=\\frac{3{,}0}{24{,}0}=0{,}125\\,\\mathrm A\\]\\[U_R=RI=550\\cdot0{,}125\\approx68{,}8\\,\\mathrm V\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(68{,}8\\) V.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Lampan lyser normalt, så dess märkdata gäller. Lampan och resistorn har samma ström i seriekopplingen.</p><div class=\"facit-matte\">\\[I=\\frac{3{,}0}{24{,}0}=0{,}125\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[U_R=550\\cdot0{,}125=68{,}75\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(68{,}8\\ \\mathrm V\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203388,7 +203388,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Spänningen över L₁ är 6,0 V och över L₂ är den 12,0 V. Strömmen genom L₁ är 1,55 A. Hur stor effekt har L₁ respektive L₂? (Svara i W.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₁</text><path d=\"M192 90L318 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 75L355 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 105L355 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₂</text><path d=\"M362 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Seriekopplingen gör att även strömmen genom L₂ är 1,55 A.</p>\\[P_1=6{,}0\\cdot1{,}55=9{,}3\\,\\mathrm W\\]\\[P_2=12{,}0\\cdot1{,}55=18{,}6\\,\\mathrm W\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Lamporna är seriekopplade, så samma ström 1,55 A går genom båda.</p><div class=\"facit-matte\">\\[\\begin{aligned}P_1&=6{,}0\\cdot1{,}55=9{,}3\\ \\mathrm W\\\\P_2&=12{,}0\\cdot1{,}55=18{,}6\\ \\mathrm W\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> L₁: \\(9{,}3\\ \\mathrm W\\). L₂: \\(18{,}6\\ \\mathrm W\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203432,7 +203432,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Lampan har resistansen 82 Ω och resistorn har resistansen 680 Ω. Spänningen över resistorn är 30 V. Hur stor effekt har lampan?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M192 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Resistorn och lampan har samma ström.</p>\\[I=\\frac{30}{680}\\,\\mathrm A\\]<p>Använd strömmen utan att avrunda mellan beräkningarna.</p>\\[P_L=82\\left(\\frac{30}{680}\\right)^2\\approx0{,}16\\,\\mathrm W\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}16\\) W.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><p>Resistorns spänning och resistans ger strömmen. Samma ström går genom lampan i serien.</p><div class=\"facit-matte\">\\[I=\\frac{30}{680}\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>Behåll hela bråket när strömmen kvadreras.</p><div class=\"facit-matte\">\\[P_L=\\left(\\frac{30}{680}\\right)^2\\cdot82\\approx0{,}160\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(0{,}160\\ \\mathrm W\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203460,7 +203460,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(0/1/0)",
   "t": "<p>R₁ = 220 Ω och R₂ = 470 Ω. Varje resistor tål högst 0,50 W. Vilken är den största ström som kan gå i kretsen utan att någon resistor får för hög effekt? (Svara i mA.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L140 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"140\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><path d=\"M200 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Samma ström går genom båda resistorerna. Eftersom \\(P=RI^2\\) blir effekten störst i resistorn med störst resistans. R₂ begränsar alltså strömmen.</p>\\[I_{\\max}=\\sqrt{\\frac{0{,}50}{470}}\\approx0{,}0326\\,\\mathrm A\\]<p>Den största strömmen är <strong>32,6 mA</strong>. Då är effekten i R₁ cirka 0,234 W, vilket är under dess gräns.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(32{,}6\\) mA.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>Samma ström går genom båda resistorerna. Vid samma ström blir effekten störst i den större resistansen. Eftersom båda tål 0,50 W är det 470 Ω-resistorn som begränsar strömmen.</p></li><li><p class=\"facit-rubrik\">Största ström: \\(I_{\\max}=\\sqrt{P_{\\max}/R}\\)</p><div class=\"facit-matte\">\\[I_{\\max}=\\sqrt{\\frac{0{,}50}{470}}\\approx0{,}0326\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera även 220 Ω-resistorn</p><p>Även dess effekt är under 0,50 W. Omvandla sedan A till mA.</p><div class=\"facit-matte\">\\[P_1=\\frac{0{,}50}{470}\\cdot220\\approx0{,}234\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(32{,}6\\ \\mathrm{mA}\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203488,7 +203488,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Lampornas sammanlagda effekt är 10,0 W. Spänningen är 6,3 V över L₁ och 8,6 V över L₂. Hur stor är strömmen genom lamporna?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₁</text><path d=\"M192 90L318 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 75L355 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 105L355 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₂</text><path d=\"M362 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Lamporna har samma ström. Därför är deras sammanlagda effekt \\(P=(U_1+U_2)I\\).</p>\\[I=\\frac{10{,}0}{6{,}3+8{,}6}\\approx0{,}671\\,\\mathrm A\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}671\\) A.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Spänningar i serie: \\(U=U_1+U_2\\)</p><div class=\"facit-matte\">\\[U=6{,}3+8{,}6=14{,}9\\ \\mathrm V\\]</div></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Använd lampornas sammanlagda effekt och spänning.</p><div class=\"facit-matte\">\\[I=\\frac{10{,}0}{14{,}9}\\approx0{,}671\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}671\\ \\mathrm A\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203516,7 +203516,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Strömmen genom lamporna är 0,56 A. L₁ har effekten 1,2 W och L₂ har resistansen 15 Ω. Hur stor är den sammanlagda spänningen över lamporna?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₁</text><path d=\"M192 90L318 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 75L355 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 105L355 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₂</text><path d=\"M362 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Beräkna först spänningen över varje lampa. Strömmen är densamma genom båda.</p>\\[U_1=\\frac{1{,}2}{0{,}56}\\approx2{,}143\\,\\mathrm V\\]\\[U_2=15\\cdot0{,}56=8{,}40\\,\\mathrm V\\]\\[U=U_1+U_2\\approx10{,}5\\,\\mathrm V\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}5\\) V.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Samma ström går genom båda lamporna.</p><div class=\"facit-matte\">\\[U_1=\\frac{1{,}2}{0{,}56}\\approx2{,}143\\ \\mathrm V\\]</div></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[U_2=15\\cdot0{,}56=8{,}40\\ \\mathrm V\\]</div></li><li><p class=\"facit-rubrik\">Spänningar i serie: \\(U=U_1+U_2\\)</p><p>Använd U₁ utan avrundning i summan.</p><div class=\"facit-matte\">\\[U=\\frac{1{,}2}{0{,}56}+8{,}40\\approx10{,}5\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}5\\ \\mathrm V\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203572,7 +203572,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>R₁ har resistansen 55 Ω och effekten 5,0 W. R₂ har effekten 8,4 W. Hur stor är spänningen över R₁ respektive R₂? (Svara i V med 1 decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L140 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"140\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><path d=\"M200 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Strömmen är densamma genom båda resistorerna.</p>\\[I=\\sqrt{\\frac{P_1}{R_1}}=\\sqrt{\\frac{5{,}0}{55}}\\approx0{,}3015\\,\\mathrm A\\]<p>Behåll fler siffror i strömmen när spänningarna beräknas.</p>\\[U_1=55I\\approx16{,}6\\,\\mathrm V\\]\\[U_2=\\frac{8{,}4}{I}\\approx27{,}9\\,\\mathrm V\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>R₁ har både känd effekt och känd resistans. Samma ström går genom R₂.</p><div class=\"facit-matte\">\\[I=\\sqrt{\\frac{5{,}0}{55}}\\approx0{,}3015\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[U_1=55\\sqrt{\\frac{5{,}0}{55}}\\approx16{,}6\\ \\mathrm V\\]</div></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Behåll full precision i strömmen och avrunda spänningarna till en decimal.</p><div class=\"facit-matte\">\\[U_2=\\frac{8{,}4}{\\sqrt{5{,}0/55}}\\approx27{,}9\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> R₁: \\(16{,}6\\ \\mathrm V\\). R₂: \\(27{,}9\\ \\mathrm V\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203616,7 +203616,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Spänningen är 4,5 V över L₁ och 15,0 V över L₂. L₁ har effekten 6,0 W. Hur stor effekt har L₂?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₁</text><path d=\"M192 90L318 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 75L355 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 105L355 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₂</text><path d=\"M362 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Lamporna har samma ström.</p>\\[I=\\frac{6{,}0}{4{,}5}\\,\\mathrm A\\]\\[P_2=15{,}0\\cdot\\frac{6{,}0}{4{,}5}=20\\,\\mathrm W\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) W.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>L₁ ger den gemensamma strömmen i seriekopplingen.</p><div class=\"facit-matte\">\\[I=\\frac{6{,}0}{4{,}5}=\\frac43\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P_2=15{,}0\\cdot\\frac43=20\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm W\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203643,7 +203643,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Spänningen över lampan är 15,0 V och dess effekt är 10,0 W. Spänningen över resistorn är 5,00 V. Hur stor resistans har resistorn?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M192 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Lampan ger den gemensamma strömmen.</p>\\[I=\\frac{10{,}0}{15{,}0}=\\frac23\\,\\mathrm A\\]\\[R=\\frac{5{,}00}{2/3}=7{,}5\\,\\Omega\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\) Ω.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Lampans ström går också genom serieresistorn.</p><div class=\"facit-matte\">\\[I=\\frac{10{,}0}{15{,}0}=\\frac23\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[R=\\frac{5{,}00}{2/3}=7{,}5\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\ \\Omega\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203670,7 +203670,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Resistorns effekt är 0,25 W. Strömmen genom lampan är 45 mA. Hur stor resistans har resistorn?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M192 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Samma ström, 45 mA = 0,045 A, går genom resistorn.</p>\\[R=\\frac{P_R}{I^2}=\\frac{0{,}25}{0{,}045^2}\\approx123\\,\\Omega\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(123\\) Ω.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Lampan och resistorn är seriekopplade. Strömmen genom resistorn är därför också 45 mA = 0,045 A.</p></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>Använd resistorns effekt, inte någon effekt för lampan.</p><div class=\"facit-matte\">\\[R=\\frac{0{,}25}{0{,}045^2}\\approx123\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(123\\ \\Omega\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203684,7 +203684,7 @@ window.BANK = [
   "geogebra": false,
   "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Vilken ström går genom resistorn? Vilken av de två effekterna hör till den?</p>",
+  "ledtrad": "<p>Vilken ström går genom resistorn? Använd den och resistorns effekt.</p>",
   "svarFormat": "numeriskt",
   "svarEnhet": "Ω",
   "familjNyckel": "kopplingar__seriekoppling",
@@ -203725,7 +203725,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>R₁ har effekten 5,0 W. R₂ har resistansen 55 Ω och effekten 8,4 W. Hur stor är spänningen över R₁ respektive R₂? (Svara i V med 1 decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L140 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"140\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><path d=\"M200 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>R₂ ger strömmen som går genom båda resistorerna.</p>\\[I=\\sqrt{\\frac{8{,}4}{55}}\\approx0{,}3908\\,\\mathrm A\\]<p>Beräkna med den oavrundade strömmen.</p>\\[U_1=\\frac{5{,}0}{I}\\approx12{,}8\\,\\mathrm V\\]\\[U_2=55I\\approx21{,}5\\,\\mathrm V\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>R₂ har både känd effekt och känd resistans. Samma ström går genom R₁.</p><div class=\"facit-matte\">\\[I=\\sqrt{\\frac{8{,}4}{55}}\\approx0{,}3908\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[U_1=\\frac{5{,}0}{\\sqrt{8{,}4/55}}\\approx12{,}8\\ \\mathrm V\\]</div></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><p>Behåll full precision i strömmen och avrunda spänningarna till en decimal.</p><div class=\"facit-matte\">\\[U_2=55\\sqrt{\\frac{8{,}4}{55}}\\approx21{,}5\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> R₁: \\(12{,}8\\ \\mathrm V\\). R₂: \\(21{,}5\\ \\mathrm V\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203769,7 +203769,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>L₂ har spänningen 15,0 V och effekten 6,0 W. Spänningen över L₁ är 4,5 V. Hur stor effekt utvecklas i L₁?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₁</text><path d=\"M192 90L318 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 75L355 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M325 105L355 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L₂</text><path d=\"M362 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Samma ström går genom båda lamporna.</p>\\[I=\\frac{6{,}0}{15{,}0}=0{,}40\\,\\mathrm A\\]\\[P_1=4{,}5\\cdot0{,}40=1{,}8\\,\\mathrm W\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\) W.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>L₂ ger strömmen, som är densamma genom L₁.</p><div class=\"facit-matte\">\\[I=\\frac{6{,}0}{15{,}0}=0{,}40\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><div class=\"facit-matte\">\\[P_1=4{,}5\\cdot0{,}40=1{,}8\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\ \\mathrm W\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -203796,7 +203796,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Spänningen över resistorn är 5,00 V och dess effekt är 10,0 W. Hur stor resistans har resistorn?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M192 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Både spänningen och effekten är kända för resistorn.</p>\\[R=\\frac{U_R^2}{P_R}=\\frac{5{,}00^2}{10{,}0}=2{,}5\\,\\Omega\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) Ω.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>Både spänning och effekt gäller resistorn. Lampans egenskaper behövs inte.</p><div class=\"facit-matte\">\\[R=\\frac{5{,}00^2}{10{,}0}=2{,}5\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\Omega\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -204110,7 +204110,7 @@ window.BANK = [
   "typ": "beräkning",
   "poang": "(1/0/0)",
   "t": "<p>Lampan är märkt 6,0 V och 3,0 W. Spänningskällan ger 12 V. Hur stor resistans ska R ha för att lampan ska få sin märkspänning?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Två komponenter i en sluten seriekrets.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M65 90L148 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 75L185 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M155 105L185 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"170\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><path d=\"M192 90L310 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"310\" y=\"79\" width=\"60\" height=\"22\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"340\" y=\"62\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><path d=\"M370 90L435 90\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 90L65 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M435 90L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 270L230 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 270L435 270\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M230 250L230 290\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M250 260L250 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"217\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"263\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"240\" y=\"314\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">12 V</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Vid märkspänningen behöver lampan strömmen</p>\\[I=\\frac{3{,}0}{6{,}0}=0{,}50\\,\\mathrm A\\]<p>Resistorn ska ta upp resten av källspänningen: 12 − 6,0 = 6,0 V.</p>\\[R=\\frac{6{,}0}{0{,}50}=12\\,\\Omega\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) Ω.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektrisk effekt: \\(P=UI\\)</p><p>Vid märkspänningen ska lampan ge sin märkeffekt. Samma ström går genom resistorn.</p><div class=\"facit-matte\">\\[I=\\frac{3{,}0}{6{,}0}=0{,}50\\ \\mathrm A\\]</div></li><li><p class=\"facit-rubrik\">Spänningar i serie: \\(U_R=U_{\\mathrm{källa}}-U_L\\)</p><div class=\"facit-matte\">\\[U_R=12-6{,}0=6{,}0\\ \\mathrm V\\]</div></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[R=\\frac{6{,}0}{0{,}50}=12\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\Omega\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur"
@@ -219071,7 +219071,7 @@ window.BANK = [
   "typ": "effekt med en eller två värmetrådar",
   "poang": "(0/1/0)",
   "t": "<p>Ett elektriskt värmeelement har två värmetrådar, 24 Ω och 48 Ω, och ansluts till 36 V. På låg effekt är båda trådarna seriekopplade. På hög effekt används bara tråden på 24 Ω.</p><p>Vilken effekt ger elementet på låg respektive hög effekt? (Svara i W.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Låg effekt: ersättningsresistansen är \\(24+48=72\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}I=\\frac{36}{72}=0{,}50\\ \\mathrm A,\\\\P=UI=36\\cdot0{,}50=18\\ \\mathrm W\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Hög effekt: bara 24 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}I=\\frac{36}{24}=1{,}5\\ \\mathrm A,\\\\P=36\\cdot1{,}5=54\\ \\mathrm W\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Fler seriekopplade trådar ger större resistans, mindre ström och därför mindre effekt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Låg effekt 18 W och hög effekt 54 W.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Serieresistans: \\(R_{\\mathrm{tot}}=R_1+R_2\\)</p><p>På låg effekt går strömmen genom båda trådarna.</p><div class=\"facit-matte\">\\[R_{\\mathrm{låg}}=24+48=72\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><div class=\"facit-matte\">\\[P_{\\mathrm{låg}}=\\frac{36^2}{72}=18\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=U^2/R\\)</p><p>På hög effekt används bara 24 Ω-tråden. Samma spänning över mindre resistans ger större effekt.</p><div class=\"facit-matte\">\\[P_{\\mathrm{hög}}=\\frac{36^2}{24}=54\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Låg effekt: \\(18\\ \\mathrm W\\). Hög effekt: \\(54\\ \\mathrm W\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur",
@@ -219119,7 +219119,7 @@ window.BANK = [
   "typ": "största tillåtna spänning över två resistorer",
   "poang": "(0/1/0)",
   "t": "<p>En resistor på 100 Ω tål högst 0,25 W, och en resistor på 400 Ω tål högst 0,50 W. De seriekopplas.</p><p>Vilken är den största spänning man kan ansluta utan att någon resistor får för hög effekt?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(P=RI^2\\) får varje resistor sin största tillåtna ström.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}I_{100}=\\sqrt{\\frac{0{,}25}{100}}=0{,}050\\ \\mathrm A,\\\\I_{400}=\\sqrt{\\frac{0{,}50}{400}}\\approx0{,}0354\\ \\mathrm A\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma ström går genom båda, så den minsta gränsen gäller.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=(100+400)\\cdot0{,}0354\\approx17{,}7\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 17,7 V.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>Beräkna varje resistors största tillåtna ström utifrån dess egen effektgräns.</p><div class=\"facit-matte\">\\[\\begin{aligned}I_{100,\\max}&=\\sqrt{\\frac{0{,}25}{100}}=0{,}050\\ \\mathrm A\\\\I_{400,\\max}&=\\sqrt{\\frac{0{,}50}{400}}\\approx0{,}03536\\ \\mathrm A\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Välj den lägre strömgränsen</p><p>Samma ström går genom båda resistorerna. 400 Ω-resistorn begränsar strömmen; den större gränsen skulle överbelasta den.</p></li><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><p>Använd totalresistansen och den oavrundade strömgränsen.</p><div class=\"facit-matte\">\\[U_{\\max}=(100+400)\\sqrt{\\frac{0{,}50}{400}}\\approx17{,}7\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}7\\ \\mathrm V\\).</p></div>",
   "familj": "Elektrisk effekt och energi",
   "formaga": [
     "procedur",
@@ -219134,7 +219134,7 @@ window.BANK = [
   "geogebra": false,
   "spel": true,
   "svarstyp": "numeriskt",
-  "rättSvar": 17.7,
+  "rättSvar": 17.67766952966369,
   "tolerans": 0.05,
   "svarFormat": "numeriskt",
   "svarEnhet": "V",

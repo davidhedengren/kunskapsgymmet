@@ -1,0 +1,125 @@
+[
+  {
+    "id": "2.05",
+    "fields": [
+      "s",
+      "miniräknare",
+      "spelDelar",
+      "traningsniva"
+    ]
+  },
+  {
+    "id": "2.163",
+    "fields": [
+      "s",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.164",
+    "fields": [
+      "s",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.245",
+    "fields": [
+      "s",
+      "familj",
+      "miniräknare",
+      "ledtrad",
+      "spelDelar"
+    ]
+  },
+  {
+    "id": "2.297",
+    "fields": [
+      "s",
+      "miniräknare",
+      "spelDelar",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.302",
+    "fields": [
+      "t",
+      "s",
+      "miniräknare",
+      "svarEtiketter",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.303",
+    "fields": [
+      "s",
+      "familj",
+      "miniräknare",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.485",
+    "fields": [
+      "s",
+      "miniräknare"
+    ]
+  },
+  {
+    "id": "2.487",
+    "fields": [
+      "s",
+      "miniräknare"
+    ]
+  },
+  {
+    "id": "2.523",
+    "fields": [
+      "s",
+      "miniräknare",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "2.692",
+    "fields": [
+      "s",
+      "miniräknare",
+      "ledtrad"
+    ]
+  },
+  {
+    "id": "3.182",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "3.187",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "3.493",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "3.510",
+    "fields": [
+      "s"
+    ]
+  },
+  {
+    "id": "1.1096",
+    "fields": [
+      "s",
+      "miniräknare",
+      "ledtrad"
+    ]
+  }
+]

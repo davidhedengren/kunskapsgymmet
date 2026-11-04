@@ -1,0 +1,117 @@
+{
+  "poster": [
+    {
+      "id": "2.05",
+      "status": "Åtgärdad",
+      "kommentar": "Alla tre delar och deras delkort har fullständiga facit. Nollställena löses med pq; det fristående symmetrikortet använder sina egna givna koefficienter. Nivåerna är nu 2, 1 och 2."
+    },
+    {
+      "id": "2.163",
+      "status": "Åtgärdad",
+      "kommentar": "Facit bestämmer först p med den givna roten, använder sedan pq-formeln och identifierar den andra roten."
+    },
+    {
+      "id": "2.164",
+      "status": "Åtgärdad",
+      "kommentar": "Facit härleder de två möjliga rotsummorna med kvadreringsreglerna och kontrollerar båda heltalsparen. Ingen gissning av faktorpar behövs."
+    },
+    {
+      "id": "2.245",
+      "status": "Åtgärdad",
+      "kommentar": "Funktionsvärde och nollställen har separata fullständiga lösningar, även på delkorten. Nollställena beräknas med pq. Familjetaggen är korrigerad."
+    },
+    {
+      "id": "2.297",
+      "status": "Åtgärdad",
+      "kommentar": "Alla tre delar och delkort har egna lösningssteg. Det andra nollstället beräknas med pq utan att svaret avslöjas i tidigare delfacit."
+    },
+    {
+      "id": "2.302",
+      "status": "Åtgärdad",
+      "kommentar": "Nollställen beräknas med pq, följt av symmetrilinje och minimivärde. Frågan och svarsfälten anger nu tydligt stigande ordning för nollställena."
+    },
+    {
+      "id": "2.303",
+      "status": "Åtgärdad",
+      "kommentar": "Facit sätter funktionsuttrycken lika, löser med pq och kontrollerar båda funktionsvärdena. Den felaktiga parameterfamiljen är borttagen."
+    },
+    {
+      "id": "2.485",
+      "status": "Åtgärdad",
+      "kommentar": "Substitutionen u=x² följs av pq. Facit går sedan tillbaka till x och visar varför samtliga fyra rötter behövs."
+    },
+    {
+      "id": "2.487",
+      "status": "Åtgärdad",
+      "kommentar": "Facit förklarar varför multiplikation med x är tillåten, löser med pq och prövar rötterna i ekvationen med bråket kvar."
+    },
+    {
+      "id": "2.523",
+      "status": "Åtgärdad",
+      "kommentar": "Pq-formeln med insättning och kontroll ersätter faktorgissning. Ledtråden är anpassad till metoden."
+    },
+    {
+      "id": "2.692",
+      "status": "Åtgärdad",
+      "kommentar": "Varje del har en fullständig lösning: kvadratrotsmetoden i a, utbrytning i b och pq i c. Nollroten bevaras i b."
+    },
+    {
+      "id": "3.182",
+      "status": "Åtgärdad",
+      "kommentar": "Yttervinkelsatsen leder till pq. Facit förklarar varför roten som ger en nollvinkel förkastas och kontrollerar triangelns tre vinklar."
+    },
+    {
+      "id": "3.187",
+      "status": "Åtgärdad",
+      "kommentar": "Pythagoras sats och pq visas stegvis. Den negativa längden förkastas och diagonalen kontrolleras."
+    },
+    {
+      "id": "3.493",
+      "status": "Åtgärdad",
+      "kommentar": "Avståndsformeln utvecklas till en andragradsekvation. Pq ger båda möjliga punkterna, vars avstånd sedan kontrolleras."
+    },
+    {
+      "id": "3.510",
+      "status": "Åtgärdad",
+      "kommentar": "Kordasatsen följs av pq. Facit förkastar den negativa delsträckan och förklarar att hela brons båda delar ska adderas."
+    },
+    {
+      "id": "1.1096",
+      "status": "Åtgärdad",
+      "kommentar": "Koefficientjämförelse och substitution följs av pq. Villkoret a>b avgör vilken rot som ska tilldelas respektive bokstav."
+    },
+    {
+      "id": "2.40",
+      "status": "Granskad – inget fel i metod/svar",
+      "kommentar": "De givna nollställena ger faktorformen direkt. f(1)=−16 ger a=1 och f(8)=33; metod och svar är korrekta."
+    },
+    {
+      "id": "2.85",
+      "status": "Granskad – inget fel i metod/svar",
+      "kommentar": "Faktorformen utgår från givna nollställen. Punkten bestämmer a=1 och minimivärdet blir −25."
+    },
+    {
+      "id": "2.147",
+      "status": "Granskad – inget fel i metod/svar",
+      "kommentar": "Givna nollställen och punkten (0,4) ger a=−1/2. Maximipunkten (1;4,5) är korrekt."
+    },
+    {
+      "id": "2.159",
+      "status": "Granskad – inget fel i metod/svar",
+      "kommentar": "Rötterna är redan givna. Utveckling av (x−3)(x−4) ger a=12; ingen faktorgissning behövs."
+    },
+    {
+      "id": "2.321",
+      "status": "Granskad – inget fel i metod/svar",
+      "kommentar": "Utbrytning av minustecknet och kvadratkomplettering är lämpliga. Symmetrilinjen x=5 och största värdet 9 stämmer."
+    },
+    {
+      "id": "6.16",
+      "status": "Granskad – inget fel i metod/svar",
+      "kommentar": "Givna nollställen ger faktorformen; punkten (0,32) bestämmer a=2 och f(5)=−18."
+    }
+  ],
+  "huvuduppgifter_atgardade": 16,
+  "delkort_atgardade": 8,
+  "omfattning": "Metod, lösningssteg, facit, ledtrådar och verktyg. De sex oförändrade jämförelserna är godkända avseende metod/svar, inte hela facitmallen."
+}

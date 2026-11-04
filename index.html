@@ -4433,22 +4433,29 @@ async function hamtaKlasstopplista(period){
   return {rader:Array.isArray(d.rader)?d.rader.filter(r=>!r.larare):[],tak:d.tak,minKlass:d.min_klass??null,
     summa:d.berakning==="summa"};
 }
-async function vaxlaKlassElever(id){
-  const box=document.getElementById("klasselever-"+id);
-  const rad=document.querySelector(`[data-klass="${id}"]`);
-  if(!box) return;
-  if(!box.hidden){ box.hidden=true; rad?.setAttribute("aria-expanded","false"); return; }
-  box.hidden=false; rad?.setAttribute("aria-expanded","true");
-  box.innerHTML=`<div class="toppladdar">Hämtar klassen…</div>`;
-  const d=await klassRpc("topplista_klass_elever",{p_klass:id,p_period:state.toppSort},true);
+function klassEleverHTML(d){
   const rader=Array.isArray(d?.rader)?d.rader:null;
-  box.innerHTML = !rader ? `<div class="empty">Kunde inte hämta klassen just nu.</div>`
+  return !rader ? `<div class="empty">Kunde inte hämta klassen just nu.</div>`
     : (rader.length ? `<ol class="klasselever">${rader.map((r,i)=>`<li class="${profile.namn&&r.namn===profile.namn?"jag":""}">
         <span class="plats">${i+1}</span><span class="knamn">${esc(r.namn)}</span>
         <span class="kuppg">${Number(r.uppgifter)||0} uppg.</span><span class="kxp">${Number(r.xp)||0} XP</span></li>`).join("")}</ol>`
         : `<div class="empty">Ingen i klassen har valt att synas på topplistan.</div>`)
       + (Number(d.dolda)>0 ? `<p class="klassdolda">${Number(d.dolda)===1?"En elev":Number(d.dolda)+" elever"} till syns inte med namn${
           Number(d.dolda_aktiva)>0?`, varav ${Number(d.dolda_aktiva)} har tränat`:""}. De räknas ändå in i klassens poäng.</p>` : "");
+}
+let klassElevAnrop=0;
+async function vaxlaKlassElever(id){
+  const box=document.getElementById("klasselever-"+id);
+  const rad=document.querySelector(`[data-klass="${id}"]`);
+  if(!box) return;
+  const nr=++klassElevAnrop,period=state.toppSort;
+  box.dataset.anrop=String(nr);
+  if(!box.hidden){ box.hidden=true; rad?.setAttribute("aria-expanded","false"); return; }
+  box.hidden=false; rad?.setAttribute("aria-expanded","true");
+  box.innerHTML=`<div class="toppladdar">Hämtar klassen…</div>`;
+  const d=await klassRpc("topplista_klass_elever",{p_klass:id,p_period:period},true);
+  if(state.view!=="topplista" || state.toppSort!==period || !box.isConnected || box.hidden || box.dataset.anrop!==String(nr)) return;
+  box.innerHTML=klassEleverHTML(d);
 }
 
 /* ===== Nyheter =====
@@ -15208,6 +15215,10 @@ function ritaTopplista(laddar,svar){
       <button class="${klassvy?"pa":""}" role="tab" aria-selected="${klassvy?"true":"false"}" onclick="bytToppVy('klasser')">Klasser</button>
     </div>
     <div class="flikar" role="tablist">${Object.keys(TOPP_FLIKAR).map(flik).join("")}</div>
+    <div class="topp-uppdatering" style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:12px">
+      <button class="btn sm" id="topp-uppdatera" onclick="laddaTopplista(true)">Uppdatera</button>
+      <span class="muted" id="topp-status" role="status">${laddar?"Hämtar…":toppStatusText()}</span>
+    </div>
     <div class="card pad" style="margin-top:14px">${lista}</div>
   </main>`;
   afterRender();
@@ -15250,17 +15261,68 @@ window.addEventListener("resize",()=>{
   medaljTimer=setTimeout(passaMedaljer,120);
 });
 
-let toppAnrop=0;
-async function laddaTopplista(){
-  const s=state.toppSort, vy=state.toppVy, nr=++toppAnrop;
-  if(session && state.minKlass===undefined) laddaMinKlass().then(()=>{
-    if(state.view==="topplista" && nr===toppAnrop && document.querySelector(".toppladdar")===null) ritaTopplista(false,state.toppSvar);
-  });
-  const svar=vy==="klasser" ? await hamtaKlasstopplista(s) : await hamtaTopplista(s);
-  if(state.view!=="topplista" || nr!==toppAnrop || s!==state.toppSort || vy!==state.toppVy) return;
-  state.toppSvar=svar;
-  ritaTopplista(false,svar);
+let toppAnrop=0, toppTimer=null, toppSenast=null;
+function toppStatusText(){
+  return toppSenast ? "Uppdaterad "+new Date(toppSenast).toLocaleTimeString("sv-SE",{hour:"2-digit",minute:"2-digit",second:"2-digit"})+" · uppdateras automatiskt" : "";
 }
+function schemalaggTopplista(){
+  clearTimeout(toppTimer);
+  if(state.view!=="topplista" || document.visibilityState!=="visible") return;
+  toppTimer=setTimeout(()=>{if(state.view==="topplista" && document.visibilityState==="visible") laddaTopplista(true);},30000);
+}
+function oppnaToppKlasser(){
+  return Array.from(document.querySelectorAll('.klasslista [data-klass][aria-expanded="true"]'),el=>Number(el.dataset.klass));
+}
+async function laddaTopplista(uppdatera=false){
+  clearTimeout(toppTimer);
+  const s=state.toppSort, vy=state.toppVy, nr=++toppAnrop;
+  const aktuell=()=>state.view==="topplista" && nr===toppAnrop && s===state.toppSort && vy===state.toppVy;
+  const knapp=document.getElementById("topp-uppdatera");
+  if(knapp) knapp.disabled=true;
+  if(!uppdatera) toppSenast=null;
+  if(session && state.minKlass===undefined) await laddaMinKlass();
+  if(!aktuell()) return;
+  try{
+    const svar=vy==="klasser" ? await hamtaKlasstopplista(s) : await hamtaTopplista(s);
+    if(!aktuell()) return;
+    if(!svar && uppdatera && state.toppSvar){
+      const status=document.getElementById("topp-status");
+      if(status) status.textContent="Kunde inte uppdatera. Visar senast hämtade resultat.";
+      return;
+    }
+    // Hämta även öppna klasser före omritningen, så listorna inte blinkar ihop.
+    const elever=new Map();
+    if(uppdatera && vy==="klasser" && svar?.rader){
+      await Promise.all(oppnaToppKlasser().filter(id=>svar.rader.some(k=>Number(k.id)===id)).map(async id=>{
+        elever.set(id,await klassRpc("topplista_klass_elever",{p_klass:id,p_period:s},true));
+      }));
+    }
+    if(!aktuell()) return;
+    // Läs öppet/stängt nu: användaren kan ha klickat medan anropet pågick.
+    const oppna=uppdatera?oppnaToppKlasser():[],scroll=window.scrollY;
+    state.toppSvar=svar;
+    if(svar && !svar.saknas) toppSenast=Date.now();
+    ritaTopplista(false,svar);
+    for(const id of oppna){
+      const box=document.getElementById("klasselever-"+id),rad=document.querySelector(`[data-klass="${id}"]`);
+      if(!box) continue;
+      if(elever.has(id)){
+        box.hidden=false;rad?.setAttribute("aria-expanded","true");box.innerHTML=klassEleverHTML(elever.get(id));
+      }else vaxlaKlassElever(id);
+    }
+    if(uppdatera) window.scrollTo(0,scroll);
+  }finally{
+    if(aktuell()){
+      const knapp=document.getElementById("topp-uppdatera");if(knapp) knapp.disabled=false;
+      schemalaggTopplista();
+    }
+  }
+}
+document.addEventListener("visibilitychange",()=>{
+  clearTimeout(toppTimer);
+  if(document.visibilityState==="visible" && state.view==="topplista") laddaTopplista(true);
+});
+
 function bytToppVy(vy){
   if(state.toppVy===vy) return;
   state.toppVy=vy; state.toppSvar=null;

@@ -169994,5 +169994,3737 @@ window.BANKMA1 = [
     "svarFormat": "numeriskt",
     "rättSvar": 7,
     "tolerans": 0
-  }
+  },
+{
+  "id": "0.1266",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{1}{5}+\\frac{2}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{1+2}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div>",
+      "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
+      "rättSvar": "3/5",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{7}+\\frac{2}{7}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+2}{7}=\\frac{5}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{7}\\).</p></div>",
+      "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
+      "rättSvar": "5/7",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{1}{9}+\\frac{4}{9}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{1+4}{9}=\\frac{5}{9}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{9}\\).</p></div>",
+      "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
+      "rättSvar": "5/9",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "3/5",
+    "5/7",
+    "5/9"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{1}{5}+\\frac{2}{5}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{3}{7}+\\frac{2}{7}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{1}{9}+\\frac{4}{9}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{1+2}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+2}{7}=\\frac{5}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{7}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{1+4}{9}=\\frac{5}{9}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{9}\\).</p></div></div></div>",
+  "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>"
+},
+{
+  "id": "0.1267",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{10}+\\frac{1}{2}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot5}{2\\cdot5}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+5}{10}=\\frac{8}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{8\\div2}{10\\div2}=\\frac{4}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{4}{5}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "4/5",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{5}{12}+\\frac{1}{12}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5+1}{12}=\\frac{6}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{12\\div6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
+      "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
+      "rättSvar": "1/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{2}{11}+\\frac{7}{11}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{2+7}{11}=\\frac{9}{11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{9}{11}\\).</p></div>",
+      "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
+      "rättSvar": "9/11",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "4/5",
+    "1/2",
+    "9/11"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{3}{10}+\\frac{1}{2}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{5}{12}+\\frac{1}{12}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{2}{11}+\\frac{7}{11}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot5}{2\\cdot5}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+5}{10}=\\frac{8}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{8\\div2}{10\\div2}=\\frac{4}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{4}{5}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5+1}{12}=\\frac{6}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{12\\div6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{2+7}{11}=\\frac{9}{11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{9}{11}\\).</p></div></div></div>",
+  "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
+},
+{
+  "id": "0.1268",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{1}{2}+\\frac{1}{8}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot4}{2\\cdot4}=\\frac{4}{8}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4+1}{8}=\\frac{5}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{8}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "5/8",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{2}{3}+\\frac{1}{6}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot2}{3\\cdot2}=\\frac{4}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4+1}{6}=\\frac{5}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{6}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "5/6",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{5}+\\frac{1}{10}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{5}=\\frac{3\\cdot2}{5\\cdot2}=\\frac{6}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6+1}{10}=\\frac{7}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{10}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "7/10",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "5/8",
+    "5/6",
+    "7/10"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{1}{2}+\\frac{1}{8}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{2}{3}+\\frac{1}{6}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{3}{5}+\\frac{1}{10}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot4}{2\\cdot4}=\\frac{4}{8}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4+1}{8}=\\frac{5}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{8}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot2}{3\\cdot2}=\\frac{4}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4+1}{6}=\\frac{5}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{6}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{5}=\\frac{3\\cdot2}{5\\cdot2}=\\frac{6}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6+1}{10}=\\frac{7}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{10}\\).</p></div></div></div>",
+  "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
+},
+{
+  "id": "0.1269",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{1}{4}+\\frac{5}{8}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot2}{4\\cdot2}=\\frac{2}{8}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{2+5}{8}=\\frac{7}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{8}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "7/8",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{1}{3}+\\frac{4}{9}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som niondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot3}{3\\cdot3}=\\frac{3}{9}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+4}{9}=\\frac{7}{9}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{9}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "7/9",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{10}+\\frac{1}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{5}=\\frac{1\\cdot2}{5\\cdot2}=\\frac{2}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+2}{10}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 5.</p><div class=\"facit-matte\">\\[\\frac{5\\div5}{10\\div5}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "1/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "7/8",
+    "7/9",
+    "1/2"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{1}{4}+\\frac{5}{8}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{1}{3}+\\frac{4}{9}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{3}{10}+\\frac{1}{5}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot2}{4\\cdot2}=\\frac{2}{8}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{2+5}{8}=\\frac{7}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{8}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som niondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot3}{3\\cdot3}=\\frac{3}{9}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+4}{9}=\\frac{7}{9}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{9}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{5}=\\frac{1\\cdot2}{5\\cdot2}=\\frac{2}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+2}{10}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 5.</p><div class=\"facit-matte\">\\[\\frac{5\\div5}{10\\div5}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div></div>",
+  "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
+},
+{
+  "id": "0.1270",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{1}{3}+\\frac{1}{4}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot4}{3\\cdot4}=\\frac{4}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot3}{4\\cdot3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4+3}{12}=\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{12}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "7/12",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{2}{5}+\\frac{1}{3}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som femtondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{5}=\\frac{2\\cdot3}{5\\cdot3}=\\frac{6}{15}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot5}{3\\cdot5}=\\frac{5}{15}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6+5}{15}=\\frac{11}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{15}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "11/15",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{4}+\\frac{1}{6}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot3}{4\\cdot3}=\\frac{9}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{6}=\\frac{1\\cdot2}{6\\cdot2}=\\frac{2}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{9+2}{12}=\\frac{11}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{12}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "11/12",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "7/12",
+    "11/15",
+    "11/12"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{1}{3}+\\frac{1}{4}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{2}{5}+\\frac{1}{3}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{3}{4}+\\frac{1}{6}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot4}{3\\cdot4}=\\frac{4}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot3}{4\\cdot3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4+3}{12}=\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{12}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som femtondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{5}=\\frac{2\\cdot3}{5\\cdot3}=\\frac{6}{15}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot5}{3\\cdot5}=\\frac{5}{15}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6+5}{15}=\\frac{11}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{15}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot3}{4\\cdot3}=\\frac{9}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{6}=\\frac{1\\cdot2}{6\\cdot2}=\\frac{2}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{9+2}{12}=\\frac{11}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{12}\\).</p></div></div></div>",
+  "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
+},
+{
+  "id": "0.1271",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(2+\\frac{1}{3}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tredjedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[2=\\frac{2\\cdot3}{1\\cdot3}=\\frac{6}{3}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6+1}{3}=\\frac{7}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{3}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "7/3",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{4}+1\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som fjärdedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[1=\\frac{1\\cdot4}{1\\cdot4}=\\frac{4}{4}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+4}{4}=\\frac{7}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{4}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "7/4",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{5}{6}+\\frac{2}{3}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot2}{3\\cdot2}=\\frac{4}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5+4}{6}=\\frac{9}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 3.</p><div class=\"facit-matte\">\\[\\frac{9\\div3}{6\\div3}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "3/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "7/3",
+    "7/4",
+    "3/2"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(2+\\frac{1}{3}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{3}{4}+1\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{5}{6}+\\frac{2}{3}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tredjedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[2=\\frac{2\\cdot3}{1\\cdot3}=\\frac{6}{3}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6+1}{3}=\\frac{7}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som fjärdedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[1=\\frac{1\\cdot4}{1\\cdot4}=\\frac{4}{4}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+4}{4}=\\frac{7}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot2}{3\\cdot2}=\\frac{4}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5+4}{6}=\\frac{9}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 3.</p><div class=\"facit-matte\">\\[\\frac{9\\div3}{6\\div3}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\).</p></div></div></div>",
+  "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
+},
+{
+  "id": "0.1272",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{4}{5}-\\frac{1}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4-1}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div>",
+      "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
+      "rättSvar": "3/5",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{6}{7}-\\frac{2}{7}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6-2}{7}=\\frac{4}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{4}{7}\\).</p></div>",
+      "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
+      "rättSvar": "4/7",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{7}{9}-\\frac{2}{9}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{7-2}{9}=\\frac{5}{9}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{9}\\).</p></div>",
+      "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
+      "rättSvar": "5/9",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "3/5",
+    "4/7",
+    "5/9"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{4}{5}-\\frac{1}{5}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{6}{7}-\\frac{2}{7}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{7}{9}-\\frac{2}{9}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4-1}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6-2}{7}=\\frac{4}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{4}{7}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{7-2}{9}=\\frac{5}{9}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{9}\\).</p></div></div></div>",
+  "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>"
+},
+{
+  "id": "0.1273",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{9}{10}-\\frac{3}{10}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{9-3}{10}=\\frac{6}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{6\\div2}{10\\div2}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div>",
+      "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
+      "rättSvar": "3/5",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{11}{12}-\\frac{5}{12}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{11-5}{12}=\\frac{6}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{12\\div6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
+      "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
+      "rättSvar": "1/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{8}{11}-\\frac{3}{11}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-3}{11}=\\frac{5}{11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{11}\\).</p></div>",
+      "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
+      "rättSvar": "5/11",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "3/5",
+    "1/2",
+    "5/11"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{9}{10}-\\frac{3}{10}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{11}{12}-\\frac{5}{12}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{8}{11}-\\frac{3}{11}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{9-3}{10}=\\frac{6}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{6\\div2}{10\\div2}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{11-5}{12}=\\frac{6}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{12\\div6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-3}{11}=\\frac{5}{11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{11}\\).</p></div></div></div>",
+  "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>"
+},
+{
+  "id": "0.1274",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{4}-\\frac{1}{8}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot2}{4\\cdot2}=\\frac{6}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6-1}{8}=\\frac{5}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{8}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "5/8",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{5}{6}-\\frac{1}{3}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot2}{3\\cdot2}=\\frac{2}{6}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5-2}{6}=\\frac{3}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 3.</p><div class=\"facit-matte\">\\[\\frac{3\\div3}{6\\div3}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "1/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{7}{10}-\\frac{1}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{5}=\\frac{1\\cdot2}{5\\cdot2}=\\frac{2}{10}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{7-2}{10}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 5.</p><div class=\"facit-matte\">\\[\\frac{5\\div5}{10\\div5}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "1/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "5/8",
+    "1/2",
+    "1/2"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{3}{4}-\\frac{1}{8}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{5}{6}-\\frac{1}{3}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{7}{10}-\\frac{1}{5}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot2}{4\\cdot2}=\\frac{6}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6-1}{8}=\\frac{5}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{8}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot2}{3\\cdot2}=\\frac{2}{6}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5-2}{6}=\\frac{3}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 3.</p><div class=\"facit-matte\">\\[\\frac{3\\div3}{6\\div3}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{5}=\\frac{1\\cdot2}{5\\cdot2}=\\frac{2}{10}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{7-2}{10}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 5.</p><div class=\"facit-matte\">\\[\\frac{5\\div5}{10\\div5}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div></div>",
+  "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
+},
+{
+  "id": "0.1275",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(1-\\frac{2}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som femtedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[1=\\frac{1\\cdot5}{1\\cdot5}=\\frac{5}{5}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5-2}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "3/5",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(2-\\frac{3}{4}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som fjärdedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[2=\\frac{2\\cdot4}{1\\cdot4}=\\frac{8}{4}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-3}{4}=\\frac{5}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{4}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "5/4",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(1-\\frac{5}{8}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[1=\\frac{1\\cdot8}{1\\cdot8}=\\frac{8}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-5}{8}=\\frac{3}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{8}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "3/8",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "3/5",
+    "5/4",
+    "3/8"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(1-\\frac{2}{5}\\). Svara exakt.</p><p>b) Beräkna \\(2-\\frac{3}{4}\\). Svara exakt.</p><p>c) Beräkna \\(1-\\frac{5}{8}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som femtedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[1=\\frac{1\\cdot5}{1\\cdot5}=\\frac{5}{5}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5-2}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som fjärdedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[2=\\frac{2\\cdot4}{1\\cdot4}=\\frac{8}{4}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-3}{4}=\\frac{5}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[1=\\frac{1\\cdot8}{1\\cdot8}=\\frac{8}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-5}{8}=\\frac{3}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{8}\\).</p></div></div></div>",
+  "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
+},
+{
+  "id": "0.1276",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{2}{3}-\\frac{1}{4}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot4}{3\\cdot4}=\\frac{8}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot3}{4\\cdot3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-3}{12}=\\frac{5}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{12}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "5/12",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{4}{5}-\\frac{1}{3}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som femtondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{4}{5}=\\frac{4\\cdot3}{5\\cdot3}=\\frac{12}{15}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot5}{3\\cdot5}=\\frac{5}{15}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{12-5}{15}=\\frac{7}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{15}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "7/15",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{5}{6}-\\frac{1}{4}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{5}{6}=\\frac{5\\cdot2}{6\\cdot2}=\\frac{10}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot3}{4\\cdot3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{10-3}{12}=\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{12}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "7/12",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "5/12",
+    "7/15",
+    "7/12"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{2}{3}-\\frac{1}{4}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{4}{5}-\\frac{1}{3}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{5}{6}-\\frac{1}{4}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot4}{3\\cdot4}=\\frac{8}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot3}{4\\cdot3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-3}{12}=\\frac{5}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{12}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som femtondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{4}{5}=\\frac{4\\cdot3}{5\\cdot3}=\\frac{12}{15}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot5}{3\\cdot5}=\\frac{5}{15}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{12-5}{15}=\\frac{7}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{15}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{5}{6}=\\frac{5\\cdot2}{6\\cdot2}=\\frac{10}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot3}{4\\cdot3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{10-3}{12}=\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{12}\\).</p></div></div></div>",
+  "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
+},
+{
+  "id": "0.1277",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{7}{6}-\\frac{1}{2}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot3}{2\\cdot3}=\\frac{3}{6}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{7-3}{6}=\\frac{4}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{4\\div2}{6\\div2}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "2/3",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{9}{8}-\\frac{3}{4}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot2}{4\\cdot2}=\\frac{6}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{9-6}{8}=\\frac{3}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{8}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "3/8",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{11}{10}-\\frac{2}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{5}=\\frac{2\\cdot2}{5\\cdot2}=\\frac{4}{10}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{11-4}{10}=\\frac{7}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{10}\\).</p></div>",
+      "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
+      "rättSvar": "7/10",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "2/3",
+    "3/8",
+    "7/10"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{7}{6}-\\frac{1}{2}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{9}{8}-\\frac{3}{4}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{11}{10}-\\frac{2}{5}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot3}{2\\cdot3}=\\frac{3}{6}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{7-3}{6}=\\frac{4}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{4\\div2}{6\\div2}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot2}{4\\cdot2}=\\frac{6}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{9-6}{8}=\\frac{3}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{8}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{5}=\\frac{2\\cdot2}{5\\cdot2}=\\frac{4}{10}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{11-4}{10}=\\frac{7}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{10}\\).</p></div></div></div>",
+  "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
+},
+{
+  "id": "0.1278",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{1}{2}\\cdot\\frac{1}{3}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot1}{2\\cdot3}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "1/6",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{1}{4}\\cdot\\frac{1}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot1}{4\\cdot5}=\\frac{1}{20}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{20}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "1/20",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{2}{3}\\cdot\\frac{1}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot1}{3\\cdot5}=\\frac{2}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{15}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "2/15",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "1/6",
+    "1/20",
+    "2/15"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{1}{2}\\cdot\\frac{1}{3}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{1}{4}\\cdot\\frac{1}{5}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{2}{3}\\cdot\\frac{1}{5}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot1}{2\\cdot3}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot1}{4\\cdot5}=\\frac{1}{20}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{20}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot1}{3\\cdot5}=\\frac{2}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{15}\\).</p></div></div></div>",
+  "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>"
+},
+{
+  "id": "0.1279",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{5}\\cdot\\frac{2}{7}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot2}{5\\cdot7}=\\frac{6}{35}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{6}{35}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "6/35",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{2}{9}\\cdot\\frac{3}{4}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot3}{9\\cdot4}=\\frac{6}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{36\\div6}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "1/6",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{8}\\cdot\\frac{2}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot2}{8\\cdot5}=\\frac{6}{40}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{6\\div2}{40\\div2}=\\frac{3}{20}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{20}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "3/20",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "6/35",
+    "1/6",
+    "3/20"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{3}{5}\\cdot\\frac{2}{7}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{2}{9}\\cdot\\frac{3}{4}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{3}{8}\\cdot\\frac{2}{5}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot2}{5\\cdot7}=\\frac{6}{35}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{6}{35}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot3}{9\\cdot4}=\\frac{6}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{36\\div6}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot2}{8\\cdot5}=\\frac{6}{40}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{6\\div2}{40\\div2}=\\frac{3}{20}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{20}\\).</p></div></div></div>",
+  "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>"
+},
+{
+  "id": "0.1280",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{2}{3}\\cdot\\frac{3}{4}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot3}{3\\cdot4}=\\frac{6}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{12\\div6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "1/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{5}\\cdot\\frac{5}{6}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot5}{5\\cdot6}=\\frac{15}{30}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 15.</p><div class=\"facit-matte\">\\[\\frac{15\\div15}{30\\div15}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "1/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{4}{7}\\cdot\\frac{7}{8}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot7}{7\\cdot8}=\\frac{28}{56}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 28.</p><div class=\"facit-matte\">\\[\\frac{28\\div28}{56\\div28}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "1/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "1/2",
+    "1/2",
+    "1/2"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{2}{3}\\cdot\\frac{3}{4}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{3}{5}\\cdot\\frac{5}{6}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{4}{7}\\cdot\\frac{7}{8}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot3}{3\\cdot4}=\\frac{6}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{12\\div6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot5}{5\\cdot6}=\\frac{15}{30}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 15.</p><div class=\"facit-matte\">\\[\\frac{15\\div15}{30\\div15}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot7}{7\\cdot8}=\\frac{28}{56}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 28.</p><div class=\"facit-matte\">\\[\\frac{28\\div28}{56\\div28}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div></div>",
+  "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>"
+},
+{
+  "id": "0.1281",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{4}\\cdot\\frac{2}{9}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot2}{4\\cdot9}=\\frac{6}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{36\\div6}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "1/6",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{5}{6}\\cdot\\frac{3}{10}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot3}{6\\cdot10}=\\frac{15}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 15.</p><div class=\"facit-matte\">\\[\\frac{15\\div15}{60\\div15}=\\frac{1}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{4}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "1/4",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{7}{12}\\cdot\\frac{6}{7}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot6}{12\\cdot7}=\\frac{42}{84}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 42.</p><div class=\"facit-matte\">\\[\\frac{42\\div42}{84\\div42}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "1/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "1/6",
+    "1/4",
+    "1/2"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{3}{4}\\cdot\\frac{2}{9}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{5}{6}\\cdot\\frac{3}{10}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{7}{12}\\cdot\\frac{6}{7}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot2}{4\\cdot9}=\\frac{6}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{36\\div6}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot3}{6\\cdot10}=\\frac{15}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 15.</p><div class=\"facit-matte\">\\[\\frac{15\\div15}{60\\div15}=\\frac{1}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot6}{12\\cdot7}=\\frac{42}{84}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 42.</p><div class=\"facit-matte\">\\[\\frac{42\\div42}{84\\div42}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div></div>",
+  "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>"
+},
+{
+  "id": "0.1282",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(3\\cdot\\frac{1}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[3=\\frac{3}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot1}{1\\cdot5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "3/5",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{1}{4}\\cdot6\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[6=\\frac{6}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot6}{4\\cdot1}=\\frac{6}{4}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{6\\div2}{4\\div2}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "3/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(4\\cdot\\frac{2}{7}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[4=\\frac{4}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot2}{1\\cdot7}=\\frac{8}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{8}{7}\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "8/7",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "3/5",
+    "3/2",
+    "8/7"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(3\\cdot\\frac{1}{5}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{1}{4}\\cdot6\\). Svara exakt.</p><p>c) Beräkna \\(4\\cdot\\frac{2}{7}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[3=\\frac{3}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot1}{1\\cdot5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[6=\\frac{6}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot6}{4\\cdot1}=\\frac{6}{4}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{6\\div2}{4\\div2}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[4=\\frac{4}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot2}{1\\cdot7}=\\frac{8}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{8}{7}\\).</p></div></div></div>",
+  "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>"
+},
+{
+  "id": "0.1283",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(8\\cdot\\frac{3}{4}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[8=\\frac{8}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{8\\cdot3}{1\\cdot4}=\\frac{24}{4}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 4.</p><div class=\"facit-matte\">\\[\\frac{24\\div4}{4\\div4}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "6",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{5}{6}\\cdot12\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[12=\\frac{12}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot12}{6\\cdot1}=\\frac{60}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{60\\div6}{6\\div6}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "10",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{9}{5}\\cdot\\frac{5}{3}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{9\\cdot5}{5\\cdot3}=\\frac{45}{15}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 15.</p><div class=\"facit-matte\">\\[\\frac{45\\div15}{15\\div15}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\).</p></div>",
+      "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
+      "rättSvar": "3",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "6",
+    "10",
+    "3"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(8\\cdot\\frac{3}{4}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{5}{6}\\cdot12\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{9}{5}\\cdot\\frac{5}{3}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[8=\\frac{8}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{8\\cdot3}{1\\cdot4}=\\frac{24}{4}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 4.</p><div class=\"facit-matte\">\\[\\frac{24\\div4}{4\\div4}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[12=\\frac{12}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot12}{6\\cdot1}=\\frac{60}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{60\\div6}{6\\div6}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{9\\cdot5}{5\\cdot3}=\\frac{45}{15}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 15.</p><div class=\"facit-matte\">\\[\\frac{45\\div15}{15\\div15}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\).</p></div></div></div>",
+  "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>"
+},
+{
+  "id": "0.1284",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{1}{2}\\div\\frac{1}{4}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{1}{2}\\div\\frac{1}{4}=\\frac{1}{2}\\cdot4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot4}{2\\cdot1}=\\frac{4}{2}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{4\\div2}{2\\div2}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{1}{3}\\div\\frac{1}{6}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{1}{3}\\div\\frac{1}{6}=\\frac{1}{3}\\cdot6\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot6}{3\\cdot1}=\\frac{6}{3}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 3.</p><div class=\"facit-matte\">\\[\\frac{6\\div3}{3\\div3}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{4}\\div\\frac{1}{8}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{3}{4}\\div\\frac{1}{8}=\\frac{3}{4}\\cdot8\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot8}{4\\cdot1}=\\frac{24}{4}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 4.</p><div class=\"facit-matte\">\\[\\frac{24\\div4}{4\\div4}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "6",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "2",
+    "2",
+    "6"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{1}{2}\\div\\frac{1}{4}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{1}{3}\\div\\frac{1}{6}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{3}{4}\\div\\frac{1}{8}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{1}{2}\\div\\frac{1}{4}=\\frac{1}{2}\\cdot4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot4}{2\\cdot1}=\\frac{4}{2}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{4\\div2}{2\\div2}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{1}{3}\\div\\frac{1}{6}=\\frac{1}{3}\\cdot6\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot6}{3\\cdot1}=\\frac{6}{3}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 3.</p><div class=\"facit-matte\">\\[\\frac{6\\div3}{3\\div3}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{3}{4}\\div\\frac{1}{8}=\\frac{3}{4}\\cdot8\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot8}{4\\cdot1}=\\frac{24}{4}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 4.</p><div class=\"facit-matte\">\\[\\frac{24\\div4}{4\\div4}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\).</p></div></div></div>",
+  "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>"
+},
+{
+  "id": "0.1285",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{2}{3}\\div\\frac{4}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{2}{3}\\div\\frac{4}{5}=\\frac{2}{3}\\cdot\\frac{5}{4}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot5}{3\\cdot4}=\\frac{10}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{10\\div2}{12\\div2}=\\frac{5}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{6}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "5/6",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{7}\\div\\frac{2}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{3}{7}\\div\\frac{2}{5}=\\frac{3}{7}\\cdot\\frac{5}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot5}{7\\cdot2}=\\frac{15}{14}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{14}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "15/14",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{5}{8}\\div\\frac{3}{4}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{8}\\div\\frac{3}{4}=\\frac{5}{8}\\cdot\\frac{4}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot4}{8\\cdot3}=\\frac{20}{24}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 4.</p><div class=\"facit-matte\">\\[\\frac{20\\div4}{24\\div4}=\\frac{5}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{6}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "5/6",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "5/6",
+    "15/14",
+    "5/6"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{2}{3}\\div\\frac{4}{5}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{3}{7}\\div\\frac{2}{5}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{5}{8}\\div\\frac{3}{4}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{2}{3}\\div\\frac{4}{5}=\\frac{2}{3}\\cdot\\frac{5}{4}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot5}{3\\cdot4}=\\frac{10}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{10\\div2}{12\\div2}=\\frac{5}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{6}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{3}{7}\\div\\frac{2}{5}=\\frac{3}{7}\\cdot\\frac{5}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot5}{7\\cdot2}=\\frac{15}{14}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{14}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{8}\\div\\frac{3}{4}=\\frac{5}{8}\\cdot\\frac{4}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot4}{8\\cdot3}=\\frac{20}{24}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 4.</p><div class=\"facit-matte\">\\[\\frac{20\\div4}{24\\div4}=\\frac{5}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{6}\\).</p></div></div></div>",
+  "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>"
+},
+{
+  "id": "0.1286",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{3}{5}\\div2\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[2=\\frac{2}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{3}{5}\\div2=\\frac{3}{5}\\cdot\\frac{1}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot1}{5\\cdot2}=\\frac{3}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{10}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "3/10",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{7}{8}\\div3\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[3=\\frac{3}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{7}{8}\\div3=\\frac{7}{8}\\cdot\\frac{1}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot1}{8\\cdot3}=\\frac{7}{24}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{24}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "7/24",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{5}{6}\\div4\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[4=\\frac{4}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{6}\\div4=\\frac{5}{6}\\cdot\\frac{1}{4}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot1}{6\\cdot4}=\\frac{5}{24}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{24}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "5/24",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "3/10",
+    "7/24",
+    "5/24"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{3}{5}\\div2\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{7}{8}\\div3\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{5}{6}\\div4\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[2=\\frac{2}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{3}{5}\\div2=\\frac{3}{5}\\cdot\\frac{1}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot1}{5\\cdot2}=\\frac{3}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{10}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[3=\\frac{3}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{7}{8}\\div3=\\frac{7}{8}\\cdot\\frac{1}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot1}{8\\cdot3}=\\frac{7}{24}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{24}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[4=\\frac{4}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{6}\\div4=\\frac{5}{6}\\cdot\\frac{1}{4}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot1}{6\\cdot4}=\\frac{5}{24}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{24}\\).</p></div></div></div>",
+  "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>"
+},
+{
+  "id": "0.1287",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(2\\div\\frac{3}{4}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[2=\\frac{2}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[2\\div\\frac{3}{4}=2\\cdot\\frac{4}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot4}{1\\cdot3}=\\frac{8}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{8}{3}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "8/3",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(3\\div\\frac{2}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[3=\\frac{3}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[3\\div\\frac{2}{5}=3\\cdot\\frac{5}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot5}{1\\cdot2}=\\frac{15}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{2}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "15/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(4\\div\\frac{5}{6}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[4=\\frac{4}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[4\\div\\frac{5}{6}=4\\cdot\\frac{6}{5}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot6}{1\\cdot5}=\\frac{24}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{24}{5}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "24/5",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "8/3",
+    "15/2",
+    "24/5"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(2\\div\\frac{3}{4}\\). Svara exakt.</p><p>b) Beräkna \\(3\\div\\frac{2}{5}\\). Svara exakt.</p><p>c) Beräkna \\(4\\div\\frac{5}{6}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[2=\\frac{2}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[2\\div\\frac{3}{4}=2\\cdot\\frac{4}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot4}{1\\cdot3}=\\frac{8}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{8}{3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[3=\\frac{3}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[3\\div\\frac{2}{5}=3\\cdot\\frac{5}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot5}{1\\cdot2}=\\frac{15}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[4=\\frac{4}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[4\\div\\frac{5}{6}=4\\cdot\\frac{6}{5}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot6}{1\\cdot5}=\\frac{24}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{24}{5}\\).</p></div></div></div>",
+  "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>"
+},
+{
+  "id": "0.1288",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{4}{9}\\div\\frac{2}{3}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{4}{9}\\div\\frac{2}{3}=\\frac{4}{9}\\cdot\\frac{3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot3}{9\\cdot2}=\\frac{12}{18}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{12\\div6}{18\\div6}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "2/3",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{5}{12}\\div\\frac{5}{6}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{12}\\div\\frac{5}{6}=\\frac{5}{12}\\cdot\\frac{6}{5}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot6}{12\\cdot5}=\\frac{30}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 30.</p><div class=\"facit-matte\">\\[\\frac{30\\div30}{60\\div30}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "1/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{7}{10}\\div\\frac{7}{5}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{7}{10}\\div\\frac{7}{5}=\\frac{7}{10}\\cdot\\frac{5}{7}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot5}{10\\cdot7}=\\frac{35}{70}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 35.</p><div class=\"facit-matte\">\\[\\frac{35\\div35}{70\\div35}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "1/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "2/3",
+    "1/2",
+    "1/2"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{4}{9}\\div\\frac{2}{3}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{5}{12}\\div\\frac{5}{6}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{7}{10}\\div\\frac{7}{5}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{4}{9}\\div\\frac{2}{3}=\\frac{4}{9}\\cdot\\frac{3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot3}{9\\cdot2}=\\frac{12}{18}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{12\\div6}{18\\div6}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{12}\\div\\frac{5}{6}=\\frac{5}{12}\\cdot\\frac{6}{5}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot6}{12\\cdot5}=\\frac{30}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 30.</p><div class=\"facit-matte\">\\[\\frac{30\\div30}{60\\div30}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{7}{10}\\div\\frac{7}{5}=\\frac{7}{10}\\cdot\\frac{5}{7}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot5}{10\\cdot7}=\\frac{35}{70}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 35.</p><div class=\"facit-matte\">\\[\\frac{35\\div35}{70\\div35}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div></div>",
+  "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>"
+},
+{
+  "id": "0.1289",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Beräkna \\(\\frac{9}{8}\\div\\frac{3}{4}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{9}{8}\\div\\frac{3}{4}=\\frac{9}{8}\\cdot\\frac{4}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{9\\cdot4}{8\\cdot3}=\\frac{36}{24}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 12.</p><div class=\"facit-matte\">\\[\\frac{36\\div12}{24\\div12}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "3/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{7}{6}\\div\\frac{7}{3}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{7}{6}\\div\\frac{7}{3}=\\frac{7}{6}\\cdot\\frac{3}{7}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot3}{6\\cdot7}=\\frac{21}{42}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 21.</p><div class=\"facit-matte\">\\[\\frac{21\\div21}{42\\div21}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "1/2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Beräkna \\(\\frac{5}{4}\\div\\frac{5}{8}\\). Svara exakt.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{4}\\div\\frac{5}{8}=\\frac{5}{4}\\cdot\\frac{8}{5}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot8}{4\\cdot5}=\\frac{40}{20}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 20.</p><div class=\"facit-matte\">\\[\\frac{40\\div20}{20\\div20}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div>",
+      "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
+      "rättSvar": "2",
+      "svarFormat": "bråk",
+      "svarstyp": "bråk",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": false,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    "3/2",
+    "1/2",
+    "2"
+  ],
+  "svarFormat": [
+    "bråk",
+    "bråk",
+    "bråk"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Räkna med bråktalen.</p><div class=\"deluppgifter\"><p>a) Beräkna \\(\\frac{9}{8}\\div\\frac{3}{4}\\). Svara exakt.</p><p>b) Beräkna \\(\\frac{7}{6}\\div\\frac{7}{3}\\). Svara exakt.</p><p>c) Beräkna \\(\\frac{5}{4}\\div\\frac{5}{8}\\). Svara exakt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{9}{8}\\div\\frac{3}{4}=\\frac{9}{8}\\cdot\\frac{4}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{9\\cdot4}{8\\cdot3}=\\frac{36}{24}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 12.</p><div class=\"facit-matte\">\\[\\frac{36\\div12}{24\\div12}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{7}{6}\\div\\frac{7}{3}=\\frac{7}{6}\\cdot\\frac{3}{7}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot3}{6\\cdot7}=\\frac{21}{42}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 21.</p><div class=\"facit-matte\">\\[\\frac{21\\div21}{42\\div21}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{4}\\div\\frac{5}{8}=\\frac{5}{4}\\cdot\\frac{8}{5}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot8}{4\\cdot5}=\\frac{40}{20}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 20.</p><div class=\"facit-matte\">\\[\\frac{40\\div20}{20\\div20}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div></div></div>",
+  "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>"
+},
+{
+  "id": "0.1290",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Beräkningar när procentsatsen är känd",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Hur mycket är \\(10\\,\\%\\) av \\(80\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[10\\,\\%=0{,}1\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}1\\cdot80=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\).</p></div>",
+      "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>",
+      "rättSvar": 8,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur mycket är \\(50\\,\\%\\) av \\(36\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[50\\,\\%=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}5\\cdot36=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\).</p></div>",
+      "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>",
+      "rättSvar": 18,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur mycket är \\(25\\,\\%\\) av \\(120\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[25\\,\\%=0{,}25\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}25\\cdot120=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\).</p></div>",
+      "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>",
+      "rättSvar": 30,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    8,
+    18,
+    30
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "svarEnhet": [
+    null,
+    null,
+    null
+  ],
+  "t": "<p>Beräkna delen.</p><div class=\"deluppgifter\"><p>a) Hur mycket är \\(10\\,\\%\\) av \\(80\\)?</p><p>b) Hur mycket är \\(50\\,\\%\\) av \\(36\\)?</p><p>c) Hur mycket är \\(25\\,\\%\\) av \\(120\\)?</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[10\\,\\%=0{,}1\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}1\\cdot80=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[50\\,\\%=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}5\\cdot36=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[25\\,\\%=0{,}25\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}25\\cdot120=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\).</p></div></div></div>",
+  "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>"
+},
+{
+  "id": "0.1291",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Beräkningar när procentsatsen är känd",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Hur mycket är \\(20\\,\\%\\) av \\(150\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[20\\,\\%=0{,}2\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}2\\cdot150=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\).</p></div>",
+      "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>",
+      "rättSvar": 30,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur mycket är \\(5\\,\\%\\) av \\(200\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[5\\,\\%=0{,}05\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}05\\cdot200=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\).</p></div>",
+      "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>",
+      "rättSvar": 10,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur mycket är \\(75\\,\\%\\) av \\(80\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[75\\,\\%=0{,}75\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}75\\cdot80=60\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\).</p></div>",
+      "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>",
+      "rättSvar": 60,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    30,
+    10,
+    60
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "svarEnhet": [
+    null,
+    null,
+    null
+  ],
+  "t": "<p>Beräkna delen.</p><div class=\"deluppgifter\"><p>a) Hur mycket är \\(20\\,\\%\\) av \\(150\\)?</p><p>b) Hur mycket är \\(5\\,\\%\\) av \\(200\\)?</p><p>c) Hur mycket är \\(75\\,\\%\\) av \\(80\\)?</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[20\\,\\%=0{,}2\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}2\\cdot150=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[5\\,\\%=0{,}05\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}05\\cdot200=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[75\\,\\%=0{,}75\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}75\\cdot80=60\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\).</p></div></div></div>",
+  "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>"
+},
+{
+  "id": "0.1292",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Beräkningar när procentsatsen är känd",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Hur mycket är \\(15\\,\\%\\) av \\(240\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[15\\,\\%=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}15\\cdot240=36\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\).</p></div>",
+      "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>",
+      "rättSvar": 36,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur mycket är \\(30\\,\\%\\) av \\(450\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[30\\,\\%=0{,}3\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}3\\cdot450=135\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(135\\).</p></div>",
+      "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>",
+      "rättSvar": 135,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur mycket är \\(12\\,\\%\\) av \\(350\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[12\\,\\%=0{,}12\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}12\\cdot350=42\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(42\\).</p></div>",
+      "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>",
+      "rättSvar": 42,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    36,
+    135,
+    42
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "svarEnhet": [
+    null,
+    null,
+    null
+  ],
+  "t": "<p>Beräkna delen.</p><div class=\"deluppgifter\"><p>a) Hur mycket är \\(15\\,\\%\\) av \\(240\\)?</p><p>b) Hur mycket är \\(30\\,\\%\\) av \\(450\\)?</p><p>c) Hur mycket är \\(12\\,\\%\\) av \\(350\\)?</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[15\\,\\%=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}15\\cdot240=36\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[30\\,\\%=0{,}3\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}3\\cdot450=135\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(135\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[12\\,\\%=0{,}12\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}12\\cdot350=42\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(42\\).</p></div></div></div>",
+  "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>"
+},
+{
+  "id": "0.1293",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Beräkningar när procentsatsen är känd",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Hur mycket är \\(2\\,\\%\\) av \\(750\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[2\\,\\%=0{,}02\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}02\\cdot750=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\).</p></div>",
+      "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>",
+      "rättSvar": 15,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur mycket är \\(8\\,\\%\\) av \\(125\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[8\\,\\%=0{,}08\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}08\\cdot125=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\).</p></div>",
+      "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>",
+      "rättSvar": 10,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur mycket är \\(35\\,\\%\\) av \\(180\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[35\\,\\%=0{,}35\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}35\\cdot180=63\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(63\\).</p></div>",
+      "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>",
+      "rättSvar": 63,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    15,
+    10,
+    63
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "svarEnhet": [
+    null,
+    null,
+    null
+  ],
+  "t": "<p>Beräkna delen.</p><div class=\"deluppgifter\"><p>a) Hur mycket är \\(2\\,\\%\\) av \\(750\\)?</p><p>b) Hur mycket är \\(8\\,\\%\\) av \\(125\\)?</p><p>c) Hur mycket är \\(35\\,\\%\\) av \\(180\\)?</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[2\\,\\%=0{,}02\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}02\\cdot750=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[8\\,\\%=0{,}08\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}08\\cdot125=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Procent betyder hundradelar.</p><div class=\"facit-matte\">\\[35\\,\\%=0{,}35\\]</div></li><li><p class=\"facit-rubrik\">Beräkna delen: \\(\\text{delen}=\\text{andelen}\\cdot\\text{det hela}\\)</p><p>Multiplicera andelen i decimalform med det hela.</p><div class=\"facit-matte\">\\[0{,}35\\cdot180=63\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(63\\).</p></div></div></div>",
+  "ledtrad": "<p>Skriv procentsatsen i decimalform och multiplicera med det hela.</p>"
+},
+{
+  "id": "0.1294",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Andel i procent",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Hur många procent är \\(6\\) av \\(24\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{6}{24}=0{,}25\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}25=25\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\,\\%\\).</p></div>",
+      "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>",
+      "rättSvar": 25,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": "%",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur många procent är \\(15\\) av \\(30\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{15}{30}=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}5=50\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\,\\%\\).</p></div>",
+      "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>",
+      "rättSvar": 50,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": "%",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur många procent är \\(8\\) av \\(40\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{8}{40}=0{,}2\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}2=20\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\,\\%\\).</p></div>",
+      "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>",
+      "rättSvar": 20,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": "%",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    25,
+    50,
+    20
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "svarEnhet": [
+    "%",
+    "%",
+    "%"
+  ],
+  "t": "<p>Beräkna andelen i procent.</p><div class=\"deluppgifter\"><p>a) Hur många procent är \\(6\\) av \\(24\\)?</p><p>b) Hur många procent är \\(15\\) av \\(30\\)?</p><p>c) Hur många procent är \\(8\\) av \\(40\\)?</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{6}{24}=0{,}25\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}25=25\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\,\\%\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{15}{30}=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}5=50\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\,\\%\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{8}{40}=0{,}2\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}2=20\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\,\\%\\).</p></div></div></div>",
+  "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>"
+},
+{
+  "id": "0.1295",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Andel i procent",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Hur många procent är \\(9\\) av \\(12\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{9}{12}=0{,}75\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}75=75\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\,\\%\\).</p></div>",
+      "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>",
+      "rättSvar": 75,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": "%",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur många procent är \\(3\\) av \\(60\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{3}{60}=0{,}05\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}05=5\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,\\%\\).</p></div>",
+      "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>",
+      "rättSvar": 5,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": "%",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur många procent är \\(14\\) av \\(100\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{14}{100}=0{,}14\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}14=14\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\,\\%\\).</p></div>",
+      "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>",
+      "rättSvar": 14,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": "%",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    75,
+    5,
+    14
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "svarEnhet": [
+    "%",
+    "%",
+    "%"
+  ],
+  "t": "<p>Beräkna andelen i procent.</p><div class=\"deluppgifter\"><p>a) Hur många procent är \\(9\\) av \\(12\\)?</p><p>b) Hur många procent är \\(3\\) av \\(60\\)?</p><p>c) Hur många procent är \\(14\\) av \\(100\\)?</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{9}{12}=0{,}75\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}75=75\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\,\\%\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{3}{60}=0{,}05\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}05=5\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,\\%\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{14}{100}=0{,}14\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}14=14\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\,\\%\\).</p></div></div></div>",
+  "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>"
+},
+{
+  "id": "0.1296",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Andel i procent",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Hur många procent är \\(18\\) av \\(120\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{18}{120}=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}15=15\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\,\\%\\).</p></div>",
+      "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>",
+      "rättSvar": 15,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": "%",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur många procent är \\(24\\) av \\(80\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{24}{80}=0{,}3\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}3=30\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\,\\%\\).</p></div>",
+      "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>",
+      "rättSvar": 30,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": "%",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur många procent är \\(42\\) av \\(140\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{42}{140}=0{,}3\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}3=30\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\,\\%\\).</p></div>",
+      "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>",
+      "rättSvar": 30,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": "%",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    15,
+    30,
+    30
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "svarEnhet": [
+    "%",
+    "%",
+    "%"
+  ],
+  "t": "<p>Beräkna andelen i procent.</p><div class=\"deluppgifter\"><p>a) Hur många procent är \\(18\\) av \\(120\\)?</p><p>b) Hur många procent är \\(24\\) av \\(80\\)?</p><p>c) Hur många procent är \\(42\\) av \\(140\\)?</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{18}{120}=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}15=15\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\,\\%\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{24}{80}=0{,}3\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}3=30\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\,\\%\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{42}{140}=0{,}3\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}3=30\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\,\\%\\).</p></div></div></div>",
+  "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>"
+},
+{
+  "id": "0.1297",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Andel i procent",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>Hur många procent är \\(7\\) av \\(200\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{7}{200}=0{,}035\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}035=3{,}5\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}5\\,\\%\\).</p></div>",
+      "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>",
+      "rättSvar": 3.5,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": "%",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur många procent är \\(27\\) av \\(180\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{27}{180}=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}15=15\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\,\\%\\).</p></div>",
+      "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>",
+      "rättSvar": 15,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": "%",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>Hur många procent är \\(36\\) av \\(240\\)?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{36}{240}=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}15=15\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\,\\%\\).</p></div>",
+      "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>",
+      "rättSvar": 15,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": "%",
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    3.5,
+    15,
+    15
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "svarEnhet": [
+    "%",
+    "%",
+    "%"
+  ],
+  "t": "<p>Beräkna andelen i procent.</p><div class=\"deluppgifter\"><p>a) Hur många procent är \\(7\\) av \\(200\\)?</p><p>b) Hur många procent är \\(27\\) av \\(180\\)?</p><p>c) Hur många procent är \\(36\\) av \\(240\\)?</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{7}{200}=0{,}035\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}035=3{,}5\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}5\\,\\%\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{27}{180}=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}15=15\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\,\\%\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna andelen: \\(\\text{andelen}=\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>Dela den angivna delen med det hela.</p><div class=\"facit-matte\">\\[\\frac{36}{240}=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent: \\(1=100\\,\\%\\)</p><p>Multiplicera decimaltalet med 100 för att få antalet procent.</p><div class=\"facit-matte\">\\[0{,}15=15\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\,\\%\\).</p></div></div></div>",
+  "ledtrad": "<p>Sätt delen i täljaren och det hela i nämnaren. Omvandla sedan kvoten till procent.</p>"
+},
+{
+  "id": "0.1298",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Beräkningar när procentsatsen är känd",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>\\(50\\,\\%\\) av ett tal är \\(18\\). Vilket är talet?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[50\\,\\%=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{18}{0{,}5}=36\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}5\\cdot36=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\).</p></div>",
+      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "rättSvar": 36,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>\\(25\\,\\%\\) av ett tal är \\(15\\). Vilket är talet?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[25\\,\\%=0{,}25\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{15}{0{,}25}=60\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}25\\cdot60=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\).</p></div>",
+      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "rättSvar": 60,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>\\(10\\,\\%\\) av ett tal är \\(24\\). Vilket är talet?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[10\\,\\%=0{,}1\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{24}{0{,}1}=240\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}1\\cdot240=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\).</p></div>",
+      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "rättSvar": 240,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    36,
+    60,
+    240
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "svarEnhet": [
+    null,
+    null,
+    null
+  ],
+  "t": "<p>Beräkna det hela.</p><div class=\"deluppgifter\"><p>a) \\(50\\,\\%\\) av ett tal är \\(18\\). Vilket är talet?</p><p>b) \\(25\\,\\%\\) av ett tal är \\(15\\). Vilket är talet?</p><p>c) \\(10\\,\\%\\) av ett tal är \\(24\\). Vilket är talet?</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[50\\,\\%=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{18}{0{,}5}=36\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}5\\cdot36=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[25\\,\\%=0{,}25\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{15}{0{,}25}=60\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}25\\cdot60=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[10\\,\\%=0{,}1\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{24}{0{,}1}=240\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}1\\cdot240=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\).</p></div></div></div>",
+  "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>"
+},
+{
+  "id": "0.1299",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Beräkningar när procentsatsen är känd",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>\\(20\\,\\%\\) av ett tal är \\(46\\). Vilket är talet?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[20\\,\\%=0{,}2\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{46}{0{,}2}=230\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}2\\cdot230=46\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(230\\).</p></div>",
+      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "rättSvar": 230,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>\\(30\\,\\%\\) av ett tal är \\(72\\). Vilket är talet?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[30\\,\\%=0{,}3\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{72}{0{,}3}=240\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}3\\cdot240=72\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\).</p></div>",
+      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "rättSvar": 240,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>\\(75\\,\\%\\) av ett tal är \\(90\\). Vilket är talet?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[75\\,\\%=0{,}75\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{90}{0{,}75}=120\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}75\\cdot120=90\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\).</p></div>",
+      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "rättSvar": 120,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    230,
+    240,
+    120
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "svarEnhet": [
+    null,
+    null,
+    null
+  ],
+  "t": "<p>Beräkna det hela.</p><div class=\"deluppgifter\"><p>a) \\(20\\,\\%\\) av ett tal är \\(46\\). Vilket är talet?</p><p>b) \\(30\\,\\%\\) av ett tal är \\(72\\). Vilket är talet?</p><p>c) \\(75\\,\\%\\) av ett tal är \\(90\\). Vilket är talet?</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[20\\,\\%=0{,}2\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{46}{0{,}2}=230\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}2\\cdot230=46\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(230\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[30\\,\\%=0{,}3\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{72}{0{,}3}=240\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}3\\cdot240=72\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[75\\,\\%=0{,}75\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{90}{0{,}75}=120\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}75\\cdot120=90\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\).</p></div></div></div>",
+  "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>"
+},
+{
+  "id": "0.1300",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Beräkningar när procentsatsen är känd",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>\\(15\\,\\%\\) av ett tal är \\(48\\). Vilket är talet?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[15\\,\\%=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{48}{0{,}15}=320\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}15\\cdot320=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(320\\).</p></div>",
+      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "rättSvar": 320,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>\\(12\\,\\%\\) av ett tal är \\(54\\). Vilket är talet?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[12\\,\\%=0{,}12\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{54}{0{,}12}=450\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}12\\cdot450=54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\).</p></div>",
+      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "rättSvar": 450,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>\\(8\\,\\%\\) av ett tal är \\(28\\). Vilket är talet?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[8\\,\\%=0{,}08\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{28}{0{,}08}=350\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}08\\cdot350=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(350\\).</p></div>",
+      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "rättSvar": 350,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    320,
+    450,
+    350
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "svarEnhet": [
+    null,
+    null,
+    null
+  ],
+  "t": "<p>Beräkna det hela.</p><div class=\"deluppgifter\"><p>a) \\(15\\,\\%\\) av ett tal är \\(48\\). Vilket är talet?</p><p>b) \\(12\\,\\%\\) av ett tal är \\(54\\). Vilket är talet?</p><p>c) \\(8\\,\\%\\) av ett tal är \\(28\\). Vilket är talet?</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[15\\,\\%=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{48}{0{,}15}=320\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}15\\cdot320=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(320\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[12\\,\\%=0{,}12\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{54}{0{,}12}=450\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}12\\cdot450=54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[8\\,\\%=0{,}08\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{28}{0{,}08}=350\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}08\\cdot350=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(350\\).</p></div></div></div>",
+  "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>"
+},
+{
+  "id": "0.1301",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "familj": "Beräkningar när procentsatsen är känd",
+  "formaga": [
+    "procedur"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "t": "<p>\\(5\\,\\%\\) av ett tal är \\(35\\). Vilket är talet?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[5\\,\\%=0{,}05\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{35}{0{,}05}=700\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}05\\cdot700=35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(700\\).</p></div>",
+      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "rättSvar": 700,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "a",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>\\(40\\,\\%\\) av ett tal är \\(180\\). Vilket är talet?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[40\\,\\%=0{,}4\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{180}{0{,}4}=450\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}4\\cdot450=180\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\).</p></div>",
+      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "rättSvar": 450,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "b",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    },
+    {
+      "t": "<p>\\(60\\,\\%\\) av ett tal är \\(156\\). Vilket är talet?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[60\\,\\%=0{,}6\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{156}{0{,}6}=260\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}6\\cdot260=156\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(260\\).</p></div>",
+      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "rättSvar": 260,
+      "svarFormat": "numeriskt",
+      "svarstyp": "numeriskt",
+      "svarEnhet": null,
+      "traningsniva": 2,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "etikett": "c",
+      "niva": "E",
+      "poang": "1/0/0",
+      "tolerans": 0,
+      "självrättning": true
+    }
+  ],
+  "rättSvar": [
+    700,
+    450,
+    260
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEtiketter": [
+    "a)",
+    "b)",
+    "c)"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "svarEnhet": [
+    null,
+    null,
+    null
+  ],
+  "t": "<p>Beräkna det hela.</p><div class=\"deluppgifter\"><p>a) \\(5\\,\\%\\) av ett tal är \\(35\\). Vilket är talet?</p><p>b) \\(40\\,\\%\\) av ett tal är \\(180\\). Vilket är talet?</p><p>c) \\(60\\,\\%\\) av ett tal är \\(156\\). Vilket är talet?</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[5\\,\\%=0{,}05\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{35}{0{,}05}=700\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}05\\cdot700=35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(700\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[40\\,\\%=0{,}4\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{180}{0{,}4}=450\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}4\\cdot450=180\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[60\\,\\%=0{,}6\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{156}{0{,}6}=260\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}6\\cdot260=156\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(260\\).</p></div></div></div>",
+  "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>"
+}
 ];

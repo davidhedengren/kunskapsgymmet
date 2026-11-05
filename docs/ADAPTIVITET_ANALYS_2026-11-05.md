@@ -241,3 +241,39 @@ Användaren godkände fas 1 med målet 75 %. Ändringen ligger i `index.html`, i
   - Kedjan 4.85 hade delarna a och b på nivå 1, c på nivå 2 och d på nivå 3. En elev med 87 % chans på nivå 3 började på d, och a–c visades som hoppade.
   - Etiketterna följde förmågan även när den gamla andelen rätt pekade åt andra hållet.
   - Konsolen var fri från fel.
+
+## 8. Fem lägen per område (användarbeslut 2026-11-05)
+
+Användaren ville ha ett mellanläge mellan ”På gång” och ”Stark”, och ”Mycket stark” när eleven klarar ungefär 3 av 4 på nivå 4–5. Läget räknas av `lageFor(omr)`, och gränserna står i `LAGE_GRANS`.
+
+| Läge | Färg | Krav (chans enligt förmågan) | Krav på visad nivå |
+|---|---|---|---|
+| Behöver träning | röd | under 80 % på nivå 1 | – |
+| På gång | blå (`--lage-pagang`) | minst 80 % på nivå 1 | – |
+| Behärskar grunderna | grön | minst 70 % på nivå 2 | minst 2 rätt på nivå 2 eller högre |
+| Stark | guld | minst 60 % på nivå 3 | minst 2 rätt på nivå 3 eller högre |
+| Mycket stark | guld, markerad kant | minst 75 % på nivå 4 och minst 50 % på nivå 5 (60 % om nivå 4 saknas) | minst 3 rätt på nivå 4–5 |
+
+- **Varför ett krav på visad nivå.** Utan kravet gav 20 rätt på nivå 1 läget ”Stark”, eftersom modellen räknade upp förmågan från lätta uppgifter.
+  - Antalet rätt utan ledtråd per nivå sparas i `cp.formaga[omr].r`.
+  - För förmåga som sparades före den här ändringen räknas antalet fram ur historiken.
+- **Områden utan nivå 4–5.** Där är ”Stark” det högsta läget.
+- **Kort med flera områden.** Kortet får det lägsta läget bland områdena. Finns ett otränat område begränsas kortet till ”På gång”.
+- **Ringarna** är klara exakt när läget nåtts: Grunderna vid ”Behärskar grunderna”, Tillämpning vid ”Stark” och Utmaning vid ”Mycket stark”.
+- **Mätaren i ”Träna mer på”** visar samma läge.
+- **Kursöversikten** räknar ”Stark” och ”Mycket stark” som starka.
+- **Färgerna är fasta och oberoende av temat.** ”På gång” hade tidigare temats accentfärg, som i det turkosa temat inte gick att skilja från grönt.
+- **Hjälptexten** ”Så läser du mätarna” beskriver lägena.
+- **Exempel** (`tools/nivamotor-lagen-2026-11-05.test.js`):
+
+| Elevens svar | Läge |
+|---|---|
+| 5/10 på nivå 2 | Behöver träning |
+| 3 av 4 på nivå 2 | På gång |
+| 9/10 på nivå 1 | På gång |
+| 20/20 på nivå 1 | På gång |
+| 9/10 på nivå 1 och 8/10 på nivå 2 | Behärskar grunderna |
+| 3 av 4 på nivå 3 | Stark |
+| 3/4 på nivå 4 och 3/4 på nivå 5 | Mycket stark |
+| 4/4 på nivå 4 och 2/4 på nivå 5 | Mycket stark |
+| 6/8 på nivå 4 men inget på nivå 5 | Stark |

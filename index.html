@@ -126,6 +126,7 @@
 :root{
   --steg-till:#7357D1;--steg-utm:#B98A2C;
   --km-lag:#D6534A;--km-mitt:#E59A2F;--km-hog:#2A9D6A;
+  --lage-pagang:#1F6FD1;
   --spar-a:#C2453B;--spar-a2:#9C3730;
   --spar-b:#17835A;--spar-b2:#116546;
   --spar-c:#1A66C2;--spar-c2:#14509A;
@@ -134,6 +135,7 @@
 html[data-theme="dark"]{
   --steg-till:#A48CF2;--steg-utm:#E4BA5E;
   --km-lag:#EF7B6E;--km-mitt:#F2B54F;--km-hog:#4FC293;
+  --lage-pagang:#79AEFF;
   --spar-a:#D2564B;--spar-a2:#A63F37;
   --spar-b:#1C9B6B;--spar-b2:#147753;
   --spar-c:#2D79D6;--spar-c2:#215CA8;
@@ -1289,8 +1291,13 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
   z-index:3;pointer-events:none;opacity:0;transition:opacity .35s ease;
   background:linear-gradient(90deg,var(--tintStrong,var(--acc)),transparent 90%);
 }
+/* Lägena har fasta färger oberoende av temats accent (2026-11-05):
+   röd, blå, grön, guld och guld med markerad kant. */
+.area.t-top{--tone:var(--gold);--toneDisc:var(--goldSoft);border-color:color-mix(in srgb,var(--gold) 55%,var(--hair))}
+.area.t-top .state{font-weight:750}
 .area.t-good{--tone:var(--gold);--toneDisc:var(--goldSoft)}
-.area.t-mid{--tone:var(--accInk);--toneDisc:var(--accSoft)}
+.area.t-grund{--tone:var(--good);--toneDisc:var(--goodSoft)}
+.area.t-mid{--tone:var(--lage-pagang);--toneDisc:color-mix(in srgb,var(--lage-pagang) 14%,transparent)}
 .area.t-low{--tone:var(--low);--toneDisc:var(--lowSoft)}
 
 @media(hover:hover){
@@ -1735,7 +1742,7 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
   transition:width 1.1s var(--ease)}
 .km i::after{content:"";position:absolute;right:-5px;top:50%;width:10px;height:10px;margin-top:-5px;border-radius:50%;
   background:var(--tone);box-shadow:0 0 0 2px var(--surface),0 0 9px -1px var(--tone)}
-.km.t-low{--tone:var(--km-lag)}.km.t-mid{--tone:var(--km-mitt)}.km.t-good{--tone:var(--km-hog)}
+.km.t-low{--tone:var(--km-lag)}.km.t-mid{--tone:var(--km-mitt)}.km.t-grund,.km.t-good,.km.t-top{--tone:var(--km-hog)}
 @media (prefers-reduced-motion:reduce){.km i{transition:none}}
 .pt-uppdrag{margin:14px 0 4px;padding:12px 14px;border-radius:14px;background:var(--surface2);border:1px solid var(--hair)}
 .pt-upp-topp{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
@@ -2744,7 +2751,7 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .valruta.vald .kryss:after{content:"✓";color:#fff;font-size:12px;font-weight:700;line-height:1}
 .valnamn{flex:1;min-width:0;font-size:13.5px;font-weight:600;letter-spacing:-.015em}
 .valstate{font-size:11px;font-weight:600;color:var(--tone)}
-.valruta.t-good{--tone:var(--good)}.valruta.t-mid{--tone:var(--accInk)}
+.valruta.t-top,.valruta.t-good{--tone:var(--gold)}.valruta.t-grund{--tone:var(--good)}.valruta.t-mid{--tone:var(--lage-pagang)}
 .valruta.t-low{--tone:var(--low)}
 .modal-fot{display:flex;align-items:center;gap:8px;margin-top:20px;flex-wrap:wrap}
 .modal-fot .spacer{flex:1}
@@ -5128,7 +5135,7 @@ function renderMath(root=app){
 
 const CHEV='<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>';
 
-const TONE_VAR={"t-good":"var(--good)","t-mid":"var(--acc)","t-low":"var(--low)","t-new":"var(--hair2)"};
+const TONE_VAR={"t-top":"var(--gold)","t-good":"var(--gold)","t-grund":"var(--good)","t-mid":"var(--lage-pagang)","t-low":"var(--low)","t-new":"var(--hair2)"};
 
 const PUNKT_IKON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" '
   +'stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="7.5"/>'
@@ -6889,10 +6896,11 @@ function kursMomentLage(id){
   const cpK=(profile.courses||{})[id]||{};
   const r={stark:0,pagang:0,svag:0,ny:0,totalt:lista.length};
   lista.forEach(omr=>{
-    const v=(omr||[]).map(k=>omradeHar(k,cpK)?omradeM(k,cpK):null);
-    if(!v.some(x=>x!==null)){ r.ny++; return; }
-    const m=v.reduce((a,x)=>a+(x||0),0)/v.length;
-    if(m>=.78) r.stark++; else if(m>=.55) r.pagang++; else r.svag++;
+    const sedda=(omr||[]).filter(k=>omradeHar(k,cpK));
+    if(!sedda.length){ r.ny++; return; }
+    let rank=Math.min(...sedda.map(k=>lageFor(k,cpK).rank));
+    if(sedda.length<(omr||[]).length) rank=Math.min(rank,LAGEN.pagang.rank);
+    if(rank>=LAGEN.stark.rank) r.stark++; else if(rank>=LAGEN.pagang.rank) r.pagang++; else r.svag++;
   });
   return r;
 }
@@ -7403,12 +7411,12 @@ function hittaTraningskort(key){
 function cardStatus(kort){
   const cp=ensureCourseProfile();
   const sedda=kort.omr.filter(k=>omradeHar(k,cp));
-  if(!sedda.length) return {seen:false,m:0,label:"Ny",tone:"t-new",mcls:"m-new"};
-  // Otränade delområden räknas som 0, precis som förut.
+  if(!sedda.length) return {seen:false,m:0,...LAGEN.ny,mcls:"m-new"};
+  // Otränade delområden räknas som 0 i mätaren och begränsar läget till "På gång".
   const m=kort.omr.reduce((a,k)=>a+(omradeHar(k,cp)?omradeM(k,cp):0),0)/kort.omr.length;
-  if(m>=.78) return {seen:true,m,label:"Stark",tone:"t-good",mcls:""};
-  if(m>=.55) return {seen:true,m,label:"På gång",tone:"t-mid",mcls:""};
-  return {seen:true,m,label:"Behöver träning",tone:"t-low",mcls:""};
+  let lage=sedda.map(k=>lageFor(k,cp)).sort((x,y)=>x.rank-y.rank)[0];
+  if(sedda.length<kort.omr.length && lage.rank>LAGEN.pagang.rank) lage=LAGEN.pagang;
+  return {seen:true,m,label:lage.label,tone:lage.tone,rank:lage.rank,mcls:""};
 }
 
 function delmomentStatus(family){
@@ -7423,12 +7431,9 @@ function delmomentStatus(family){
 
 function areaStatus(key){
   const cp=ensureCourseProfile();
-  const seen=omradeHar(key,cp);
-  const m=seen?omradeM(key,cp):0;
-  if(!seen)   return {seen:false,m:0,label:"Ny",tone:"t-new",mcls:"m-new"};
-  if(m>=.78)  return {seen:true,m,label:"Stark",tone:"t-good",mcls:""};
-  if(m>=.55)  return {seen:true,m,label:"På gång",tone:"t-mid",mcls:""};
-  return {seen:true,m,label:"Behöver träning",tone:"t-low",mcls:""};
+  if(!omradeHar(key,cp)) return {seen:false,m:0,...LAGEN.ny,mcls:"m-new"};
+  const lage=lageFor(key,cp);
+  return {seen:true,m:omradeM(key,cp),label:lage.label,tone:lage.tone,rank:lage.rank,mcls:""};
 }
 
 async function oppnaSpar(id,spar){
@@ -7492,15 +7497,14 @@ function rankedCards(limit,riktning){
     .filter(x=>x.st.seen)
     .sort((a,b)=>riktning*(a.st.m-b.st.m))
     .slice(0,limit)
-    .map(x=>({key:x.kort.key,name:x.kort.name,m:x.st.m}));
+    .map(x=>({key:x.kort.key,name:x.kort.name,m:x.st.m,rank:x.st.rank}));
 }
 /* Kunskapsmätare i stället för procent. m är en uppskattning (0,08–0,96) som
    rör sig med elevens svar, så en färgskala säger mer än ett exakt tal.
    Gränserna följer cardStatus: under 0,55 behöver träning, från 0,78 stark. */
-function kunskapsMatare(m){
-  const ord=m>=.78?"Stark":m>=.55?"På gång":"Behöver träning";
-  const ton=m>=.78?"t-good":m>=.55?"t-mid":"t-low";
-  const p=Math.round(Math.max(.06,Math.min(1,(m-.08)/.88))*100);
+function kunskapsMatare(st){
+  const ord=st.label, ton=st.tone;
+  const p=Math.round(Math.max(.06,Math.min(1,(st.m-.08)/.88))*100);
   return `<span class="km ${ton}" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${p}"
     aria-valuetext="${ord}" aria-label="Kunskapsnivå: ${ord}" title="${ord}"><i data-w="${p}%"></i></span>`;
 }
@@ -7625,7 +7629,7 @@ function diagnosKort(kort){
    ett område som behöver repeteras om det finns ett sådant. */
 function tranaMerKort(antal=3){
   const alla=getCards();
-  const svaga=rankedCards(alla.length,1).filter(x=>x.m<.78).slice(0,antal);
+  const svaga=rankedCards(alla.length,1).filter(x=>x.rank<LAGEN.stark.rank).slice(0,antal);
   const nu=Date.now();
   const rep=alla.filter(k=>{
     const st=cardStatus(k); if(!st.seen || st.m<TM_SAKER) return false;
@@ -7641,9 +7645,9 @@ function tranaMerHTML(antal=3,somKort=false){
   const kort=tranaMerKort(antal);
   if(!kort.length) return `<div class="empty">När du har tränat några uppgifter visas här vad du kan göra härnäst.</div>`;
   return kort.map(k=>{
-    const d=diagnosKort(k), m=cardStatus(k).m;
+    const d=diagnosKort(k), st=cardStatus(k), m=st.m;
     return `<div class="tm${somKort?" card pad tm-kort":""}">
-      <div class="tm-topp"><span class="tm-namn">${esc(k.name)}</span>${kunskapsMatare(m)}</div>
+      <div class="tm-topp"><span class="tm-namn">${esc(k.name)}</span>${kunskapsMatare(st)}</div>
       <p class="tm-rad">${esc(d.rad)}${d.extra?` <span class="tm-extra">${esc(d.extra)}</span>`:""}</p>
       <div class="tm-act">
         <button class="tm-go" onclick="${d.knapp.on}">${esc(d.knapp.text)} <span aria-hidden="true">→</span></button>
@@ -8921,8 +8925,8 @@ function courseProgress(){
 /* ===== Tre steg i stället för en sammanvägd procent =====
    Den gamla procenten vägde nivå 4–5 tungt och räknade otränade områden
    som noll, så den blev nedslående låg. Stegen går att klara ett i taget:
-   ett steg är klart i ett område när eleven gjort minst STEG_MIN uppgifter
-   på stegets nivåer och uppskattningen ligger stabilt på minst 0,7.
+   ett steg är klart i ett område när området nått stegets läge (se LAGEN och
+   stegVarde, 2026-11-05).
    scoreOf finns kvar för medaljerna Kapitelmästare och Helkurslyft. */
 const STEG=[
   {id:"grund",namn:"Grunderna",niv:["1","2"],kort:"nivå 1–2"},
@@ -8938,21 +8942,29 @@ function omradesNivaer(){
   availableTasks().forEach(t=>{ (m[t.omr||"ovrigt"] ||= new Set()).add(levelOf(t)); });
   return m;
 }
-/* Fas 2: stegen räknas ur förmågan, alltså chansen att klara stegets nivåer.
-   Ett steg är klart när chansen nått stegets gräns (grunderna 85 %, tillämpning 75 %,
-   utmaning 65 %) och eleven gjort minst STEG_MIN uppgifter i området. */
-const STEG_P={grund:{fran:.55,till:.85},till:{fran:.45,till:.75},utm:{fran:.35,till:.65}};
+/* Ringarna följer lägena (användarbeslut 2026-11-05): Grunderna är klara precis när
+   området "Behärskar grunderna", Tillämpning när det är "Stark" och Utmaning när det är
+   "Mycket stark". Innan dess fylls ringen efter chansen och antalet visade rätt. */
 function stegVarde(area,steg,finns){
   const L=steg.niv.filter(x=>finns && finns.has(x));
   if(!L.length) return null;
   const cp=ensureCourseProfile();
   if(!omradeHar(area,cp)) return 0;
-  const st=formagaLas(area,cp);
-  const p=L.reduce((x,N)=>x+formForvantad(st,FORM_B[N]),0)/L.length;
-  const g=STEG_P[steg.id]||STEG_GRANS;
-  const sakerhet=Math.max(0,Math.min(1,(p-g.fran)/(g.till-g.fran)));
-  // Roten gör att de första uppgifterna syns tydligt i mätaren.
-  return sakerhet*Math.sqrt(Math.min(1,(st.n||0)/STEG_MIN));
+  const st=formagaLas(area,cp), g=LAGE_GRANS;
+  const P=N=>formForvantad(st,FORM_B[N]);
+  let p,grans,krav,rattN;
+  if(steg.id==="utm"){
+    const m=mycketGrad(st,L), rN=formRatt(st,L[0]);
+    if(m.ok && rN>=g.mycket.ratt) return 1;
+    return Math.min(.94,m.grad*Math.sqrt(Math.min(1,rN/g.mycket.ratt)));
+  }
+  else{
+    const top=L[L.length-1], k=top==="1"?{p:g.pagang.p,ratt:2}:top==="2"?g.grund:g.stark;
+    p=P(top); grans=k.p; krav=k.ratt; rattN=formRatt(st,top);
+  }
+  if(p>=grans && rattN>=krav) return 1;
+  const sakerhet=Math.max(0,Math.min(1,(p-(grans-.3))/.3));
+  return Math.min(.94,sakerhet*Math.sqrt(Math.min(1,rattN/krav)));
 }
 function stegLage(areor,finns=omradesNivaer()){
   return STEG.map(steg=>{
@@ -9064,6 +9076,20 @@ function formKursPrior(cp,utom){
 }
 /* Profiler från före 2026-11-05: spela upp områdets svar i historiken en gång.
    Finns inga svar kvar i historiken används den gamla nivåstatistiken (högst 6 per nivå). */
+/* Antal rätt utan ledtråd per nivå i områdets historik (äldre: ur nivåstatistiken). */
+function formRattFranHistorik(cp,area){
+  const r={}; let hittade=false;
+  for(const h of cp.history||[]){
+    if(!h || h.area!==area) continue;
+    const L=nivaForId(h.id); if(!(L in FORM_B)) continue;
+    hittade=true; if(h.ok && !h.hint) r[L]=(r[L]||0)+1;
+  }
+  if(!hittade && cp.levels?.[area]) for(const L of NIVAER){
+    const x=storedLevelStat(cp.levels[area],L);
+    if(x?.n) r[L]=Math.round(Math.max(0,Math.min(1,x.s))*Math.min(6,x.n));
+  }
+  return r;
+}
 function formFranHistorik(cp,area,prior){
   let st={...prior}, n=0;
   for(const h of cp.history||[]){
@@ -9078,11 +9104,14 @@ function formFranHistorik(cp,area,prior){
       for(let i=0;i<k;i++){ st=formBayes(st,FORM_B[L],i<r?1:0); n++; }
     }
   }
-  return n ? {...st,n} : null;
+  return n ? {...st,n,r:formRattFranHistorik(cp,area)} : null;
 }
 function formagaLas(area,cp=ensureCourseProfile()){
   const sparad=cp.formaga?.[area];
-  if(sparad && Number.isFinite(sparad.mu) && Number.isFinite(sparad.sd)) return sparad;
+  if(sparad && Number.isFinite(sparad.mu) && Number.isFinite(sparad.sd)){
+    if(!sparad.r) sparad.r=formRattFranHistorik(cp,area);   // sparad före lägena 2026-11-05
+    return sparad;
+  }
   const prior=formKursPrior(cp,area);
   const gammal=(cp.history||[]).some(h=>h?.area===area) || cp.levels?.[area] ? formFranHistorik(cp,area,prior) : null;
   if(gammal){ (cp.formaga ||= {})[area]={...gammal,at:Date.now()}; return cp.formaga[area]; }
@@ -9099,7 +9128,8 @@ function formagaUppdatera(t,y,cp=ensureCourseProfile()){
   if(!area || !(L in FORM_B)) return;
   const st=formagaLas(area,cp);
   const ny=formBayes(st,FORM_B[L],Math.max(0,Math.min(1,y)),formGissning(t),t.ursprungsId?FORM_KEDJA_VIKT:1);
-  (cp.formaga ||= {})[area]={...ny,at:Date.now()};
+  const r={...(st.r||{})}; if(y>=1) r[L]=(r[L]||0)+1;
+  (cp.formaga ||= {})[area]={...ny,r,at:Date.now()};
 }
 /* Fas 2: hur väl ett område sitter, 0–1, ur förmågan: medelchansen att klara nivå 2 och 3.
    Ersätter andel rätt (cp.areas) i etiketter, prickar, passval och kursöversikter. Andel rätt
@@ -9116,6 +9146,66 @@ function omradeM(area,cp=ensureCourseProfile()){
   const st=aktiv ? formagaLas(area,cp) : cp?.formaga?.[area];
   if(!st || !Number.isFinite(st.mu)) return typeof cp?.areas?.[area]==="number" ? cp.areas[area] : 0;
   return OMRADE_NIVAER.reduce((x,L)=>x+formForvantad(st,FORM_B[L]),0)/OMRADE_NIVAER.length;
+}
+
+/* Lägen per område (användarbeslut 2026-11-05). Fem lägen ur förmågan, och de högre
+   kräver att eleven visat nivån: minst så många rätt utan ledtråd på nivån eller högre
+   (cp.formaga[omr].r). Utan det kravet räknade modellen upp en elev med 20 rätt på nivå 1
+   till "Stark". Samma gränser avgör när ringarna Grunderna, Tillämpning och Utmaning är klara.
+   "Mycket stark": ungefär 3 av 4 på områdets nivå 4–5, alltså minst 75 % chans på nivå 4
+   och minst 50 % på nivå 5 (om området har nivå 5; utan nivå 4 krävs 60 % på nivå 5),
+   och minst 3 rätt på nivå 4–5. Saknar området nivå 4–5 är "Stark" det högsta läget. */
+const LAGEN={
+  ny:{rank:0,label:"Ny",tone:"t-new"},
+  behover:{rank:1,label:"Behöver träning",tone:"t-low"},
+  pagang:{rank:2,label:"På gång",tone:"t-mid"},
+  grund:{rank:3,label:"Behärskar grunderna",tone:"t-grund"},
+  stark:{rank:4,label:"Stark",tone:"t-good"},
+  mycket:{rank:5,label:"Mycket stark",tone:"t-top"}
+};
+const LAGE_GRANS={pagang:{L:"1",p:.8,ratt:0},grund:{L:"2",p:.7,ratt:2},stark:{L:"3",p:.6,ratt:2},
+  mycket:{L:"4",p:.75,p5:.5,p5ensam:.6,ratt:3}};
+/* Antal rätt utan ledtråd på nivå L eller högre. Saknas räkningen i en annan kurs profil
+   (sparad före 2026-11-05) gäller inget krav. */
+function formRatt(st,L){
+  if(!st?.r) return Infinity;
+  return NIVAER.filter(K=>K>=L).reduce((x,K)=>x+(st.r[K]||0),0);
+}
+let _omrNivaer={lista:null,karta:null};
+function omradetsNivaer(area){
+  const lista=availableTasks();
+  if(_omrNivaer.lista!==lista) _omrNivaer={lista,karta:omradesNivaer()};
+  return _omrNivaer.karta[area]||null;
+}
+/* Nivåerna 4–5 som finns i området. */
+function hogaNivaer(area,aktiv){
+  const finns=aktiv?omradetsNivaer(area):null;
+  return ["4","5"].filter(L=>!finns || finns.has(L));
+}
+/* Hur nära "Mycket stark" området är: grad 1 när chanserna når gränserna (ringen Utmaning). */
+function mycketGrad(st,hoga){
+  if(!hoga.length) return {grad:0,ok:false};
+  const g=LAGE_GRANS.mycket, krav=[];
+  if(hoga.includes("4")) krav.push(["4",g.p]);
+  if(hoga.includes("5")) krav.push(["5",hoga.includes("4")?g.p5:g.p5ensam]);
+  const grad=Math.min(...krav.map(([L,p])=>Math.max(0,Math.min(1,(formForvantad(st,FORM_B[L])-(p-.3))/.3))));
+  return {grad,ok:krav.every(([L,p])=>formForvantad(st,FORM_B[L])>=p)};
+}
+function lageFor(area,cp=ensureCourseProfile()){
+  if(!omradeHar(area,cp)) return LAGEN.ny;
+  const aktiv=cp===ensureCourseProfile();
+  const st=aktiv ? formagaLas(area,cp) : cp?.formaga?.[area];
+  if(!st || !Number.isFinite(st.mu)){
+    const m=typeof cp?.areas?.[area]==="number" ? cp.areas[area] : 0;
+    return m>=.78 ? LAGEN.stark : m>=.55 ? LAGEN.pagang : LAGEN.behover;
+  }
+  const P=L=>formForvantad(st,FORM_B[L]);
+  const g=LAGE_GRANS, hoga=hogaNivaer(area,aktiv);
+  if(mycketGrad(st,hoga).ok && formRatt(st,hoga[0])>=g.mycket.ratt) return LAGEN.mycket;
+  if(P(g.stark.L)>=g.stark.p && formRatt(st,g.stark.L)>=g.stark.ratt) return LAGEN.stark;
+  if(P(g.grund.L)>=g.grund.p && formRatt(st,g.grund.L)>=g.grund.ratt) return LAGEN.grund;
+  if(P(g.pagang.L)>=g.pagang.p) return LAGEN.pagang;
+  return LAGEN.behover;
 }
 
 /* Målchansen för nästa uppgift. Vid stor osäkerhet siktar motorn på 60 %: sådana
@@ -15478,10 +15568,19 @@ function oppnaMatarhjalp(){
         <li><span class="nivakula" style="background:var(--steg-till)"></span><b>Tillämpning</b> Nivå 3.</li>
         <li><span class="nivakula" style="background:var(--steg-utm)"></span><b>Utmaning</b> Nivå 4–5. Den inre ringen.</li>
       </ul>
-      <p>Ett steg är klart i ett område när du gjort minst ${STEG_MIN} uppgifter
-      där och har god chans att klara stegets nivåer: 85 % på grunderna,
-      75 % på tillämpning och 65 % på utmaning. Talet i mitten är ditt
+      <p>Ett steg är klart i ett område när du nått stegets läge där:
+      <b>Behärskar grunderna</b> för grunderna, <b>Stark</b> för tillämpning
+      och <b>Mycket stark</b> för utmaning. Talet i mitten är ditt
       kursläge: klara grunder i hela kursen ger 90 %.</p>
+
+      <h3>Lägena i ett område</h3>
+      <ul class="nivalista">
+        <li><b>Behöver träning</b> Nivå 1 sitter inte än.</li>
+        <li><b>På gång</b> Du klarar nivå 1.</li>
+        <li><b>Behärskar grunderna</b> Du klarar nivå 2 och har visat det.</li>
+        <li><b>Stark</b> Du klarar en stor del av nivå 3.</li>
+        <li><b>Mycket stark</b> Du klarar ungefär tre av fyra uppgifter på nivå 4–5.</li>
+      </ul>
 
       <h3>Så väljs uppgifterna</h3>
       <p>Appen uppskattar hur säker du är i varje område och väljer uppgifter

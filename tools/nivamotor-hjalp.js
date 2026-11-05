@@ -20,15 +20,16 @@ function nivamotor({cp,uppgifter=[],state={}}={}){
     function nivaForId(id){const t=uppgifter.find(x=>x.id===id);return t?String(t.traningsniva):String(id).split("-")[0];}
     function uppgiftsAlder(h,id){const s=h.ids[id];return s==null?Infinity:h.seq-s;}
     var traningsNytt=null;function traningsOmraden(){return {nytt:traningsNytt};}
-    function senastTranad(a){let t=null;for(const h of cp.history)if(h.area===a)t=h.at;return t;}`,c);
+    function senastTranad(a){let t=null;for(const h of cp.history)if(h.area===a)t=h.at;return t;}
+    function omradesNivaer(){const m={};uppgifter.forEach(t=>(m[t.omr||"ovrigt"] ||= new Set()).add(String(t.traningsniva)));return m;}
+    var _omrNivaer={lista:null,karta:null};`,c);
   vm.runInContext(rad('LEDTRAD_VIKT'),c);
   vm.runInContext(html.slice(html.indexOf('const FORM_B='),html.indexOf('const FARSK_SKALA=')).replace(/const /g,'var '),c);
   vm.runInContext(rad('FARSK_SKALA'),c);
-  for(const n of ['OMRADE_NIVAER','STEG_MIN','STEG_GRANS'])vm.runInContext(rad(n),c);
-  vm.runInContext(rad('STEG_P'),c);
+  for(const n of ['OMRADE_NIVAER','STEG_MIN','STEG_GRANS','LAGEN','LAGE_GRANS'])vm.runInContext(rad(n),c);
   for(const n of ['legacyLevelStat','storedLevelStat','formPkt','formForvantad','formBayes','formKursPrior','formFranHistorik',
     'formagaLas','formGissning','formagaUppdatera','formMal','formNivaVikter','formValjNiva','formFarskhet','tranarNivaLage',
-    'omradeHar','omradeM','stegVarde','chooseArea'])
+    'omradeHar','omradeM','stegVarde','chooseArea','formRatt','formRattFranHistorik','omradetsNivaer','hogaNivaer','mycketGrad','lageFor'])
     vm.runInContext(kod(n),c);
   return c;
 }

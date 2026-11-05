@@ -14,3 +14,4 @@ test('Avrundade och mer precisa normalfördelningssvar godtas',()=>{
  for(const [id,s,idx] of [['4.2043','165',0],['4.2043','165,28',0],['4.2043','193',1],['4.2043','192,72',1],['4.2044','26',0],['4.2044','27',0],['4.2044','27,3',0],['4.2051','5',0],['4.2051','4,97',0],['4.2051','4,965',0]])assert.equal(grade(id,s,idx),true,id+' '+s);
  for(const [id,s,idx] of [['4.2043','170',0],['4.2043','190',1],['4.2044','35',0],['4.2051','6',0]])assert.equal(grade(id,s,idx),false,id+' '+s);
 });
+test('Lådagrammens delkort ärver GeoGebra och miniräknare',()=>{const cards=c.expandGameTask(q('4.361'));assert.equal(cards.length,2);for(const card of cards){assert.equal(card.geogebra,true);assert.equal(card.miniräknare,true);assert.match(card.s,/GeoGebra/)}});

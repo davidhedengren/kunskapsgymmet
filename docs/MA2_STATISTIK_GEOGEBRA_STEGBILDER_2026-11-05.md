@@ -39,3 +39,10 @@ De fem äldre panelbilderna `geogebra-statistik-*-2026-11-05.png` används inte 
 ## Återstår
 
 Samma bildsteg behövs i de övriga GeoGebra-statistikuppgifterna: 4.343–4.351, 4.05, 4.10, 4.14, 4.28, 4.46, 4.97, 4.157, 4.175, 4.241, 4.299, 4.302, 4.306, 4.360–4.366, 4.371, 4.373, 4.386–4.389 och 4.461. Normalfördelningsuppgifterna behöver bilder av Sannolikhetskalkylatorn, och regressionsuppgifterna bilder av Tvåvariabelanalys. Generatorn behöver byggas ut för dessa två verktyg.
+
+## Uppföljning samma dag
+
+- Bilden i steg 4 (Σx) visar nu hela analysfönstret med histogrammet. Tidigare blev den nästan tom när staplarna låg utanför beskärningen, till exempel i 4.330.
+- Rubrikerna är nu skrivna för varje uppgift, till exempel ”Öppna ett kalkylblad i GeoGebra för bussarnas förseningar” och ”Läs av medianen för bussarnas förseningar på raden Median”. Tidigare var verktygsrubrikerna gemensamma för alla 15 uppgifter, vilket strider mot regeln om uppgiftsspecifika rubriker. `ma2-kap4-standardavvikelse-2026-10-27` deltest 4 listar inte längre dessa uppgifter. Kvar finns rubriker från tidigare omgångar (4.343–4.366).
+- I 4.338 d stod ett unicode-minus i TeX. Nu står \(2-(-0{,}5)=2{,}5\), och då passerar deltest 3 i samma test.
+- Normalfördelning: se `MA2_NORMALFORDELNING_GEOGEBRA_BILDER_2026-11-05.md`.

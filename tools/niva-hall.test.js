@@ -1,43 +1,42 @@
 'use strict';
-/* Användarbeslut 2026-10-22: den som nått nivå 5 ska inte åka ner för ett enstaka fel. */
+/* Användarbeslut 2026-10-22: den som nått nivå 5 ska inte åka ner för ett enstaka fel.
+   Sedan 2026-11-05 prövas beslutet mot nivåmotorn (docs/ADAPTIVITET_ANALYS_2026-11-05.md). */
 const test=require('node:test'),assert=require('node:assert/strict');
-const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
-const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8').replace(/\r\n/g,'\n');
-const kod=n=>{const m=new RegExp('function '+n+'\\(').exec(html);assert.ok(m,n);return html.slice(m.index,html.indexOf('\n}',m.index)+2);};
-const rad=n=>{const i=html.indexOf('const '+n+'=');assert.ok(i>=0,n);return html.slice(i,html.indexOf(';',i)+1).replace('const ','var ');};
-function kontext(){
-  const c=vm.createContext({});
-  vm.runInContext(`var NIVAER=["1","2","3","4","5"];var state={passTyp:null};var PASS={};
-    var cp={areas:{A:.8},families:{},levels:{A:{}},history:[]};function ensureCourseProfile(){return cp;}
-    function getAreas(){return [{key:"A",kap:"1"}];}
-    function nivaForId(id){return id.split("-")[0];}
-    var behärskar = x => Math.max(0,Math.min(1,(x.s-.55)/.25)) * Math.max(0,Math.min(1,x.n/6));`,c);
-  for(const n of ['NIVA_KRAV','LEDTRAD_VIKT','KAMPAR_VIKT','NIVA_GOLV','NADD_RATT','NIVA_TYNGD'])vm.runInContext(rad(n),c);
-  for(const n of ['legacyLevelStat','storedLevelStat','nivaPrior','levelStats','updateLevelStat','scopeLevel','naddNiva','nivaKlarad','oppnaNivaer','kamparPa','levelWeights','levelMix'])vm.runInContext(kod(n),c);
-  vm.runInContext(`for(const L of NIVAER){cp.levels.A[L]={s:.85,n:20};for(let i=0;i<4;i++)cp.history.push({id:L+"-"+i,ok:true,area:"A"});}`,c);
+const {nivamotor,nivaAndelar}=require('./nivamotor-hjalp.js');
+
+/* En elev som klarat de flesta uppgifter upp till och med nivå 5 i området. */
+function nattNiva5(){
+  const history=[];
+  for(const L of ['1','2','3','4','5']) for(let i=0;i<6;i++) history.push({id:`${L}-${i}`,ok:!(L==='5'&&i===2),area:'A'});
+  const c=nivamotor({cp:{areas:{},families:{},history,levels:{}}});
+  c.formagaLas('A');
   return c;
 }
-const finns={1:true,2:true,3:true,4:true,5:true};
-const svara=(c,L,ok)=>vm.runInContext(`updateLevelStat("A","${L}",${ok},1);cp.history.push({id:"${L}-x",ok:${ok},area:"A"});`,c);
+const svara=(c,L,ok)=>{
+  c.formagaUppdatera({omr:'A',traningsniva:Number(L)},ok?1:0);
+  if(ok) c.state.formFel=0; else {c.state.formFel++;c.state.formFelNiva=L;}
+};
 
 test('Den som nått nivå 5 tränar mest på nivå 5',()=>{
-  const m=kontext().levelMix(finns,'A');
-  assert.ok(m['5']>.35 && m['5']>m['4'] && m['4']>m['3'],JSON.stringify(m));
+  const m=nivaAndelar(nattNiva5(),'A');
+  assert.ok(m['5']>.5 && m['5']>m['4'] && m['4']>m['3'],JSON.stringify(m));
 });
 
-test('Ett fel på nivå 5 sänker inte andelen nivå 5',()=>{
-  const c=kontext();const fore=c.levelMix(finns,'A')['5'];
-  svara(c,'5',false);assert.ok(c.levelMix(finns,'A')['5']>=fore);
+test('Ett fel på nivå 5 gör inte nivå 5 ovanlig',()=>{
+  const c=nattNiva5();svara(c,'5',false);
+  const m=nivaAndelar(c,'A');
+  assert.ok(m['5']>.4 && m['5']>m['3'],JSON.stringify(m));
 });
 
 test('Ett fel på nivå 4 stänger inte nivå 5',()=>{
-  const c=kontext();svara(c,'4',false);
-  assert.ok(c.levelMix(finns,'A')['5']>.25);
+  const c=nattNiva5();svara(c,'4',false);
+  assert.ok(nivaAndelar(c,'A')['5']>.35);
 });
 
-test('Två fel på nivå 5 ger en kort paus som slutar efter två rätt',()=>{
-  const c=kontext();svara(c,'5',false);svara(c,'5',false);
-  assert.ok(c.levelMix(finns,'A')['5']<.3);
-  svara(c,'4',true);svara(c,'4',true);
-  assert.ok(c.levelMix(finns,'A')['5']>.5);
+test('Två fel i rad ger en lättare uppgift, och ett rätt svar tar eleven tillbaka',()=>{
+  const c=nattNiva5();svara(c,'5',false);svara(c,'5',false);
+  const efter=nivaAndelar(c,'A');
+  assert.ok(efter['5']<.3,JSON.stringify(efter));
+  svara(c,'4',true);
+  assert.ok(nivaAndelar(c,'A')['5']>.35);
 });

@@ -7835,34 +7835,35 @@ function repetitionInom(keys){
     .sort((a,b)=>a.at-b.at).slice(0,3).map(x=>x.k);
 }
 
+/* Målchansen per passtyp står i FORM_MAL (nivåmotorn). */
 const PASS={
   grund:{
     namn:"Grundpass", under:"Blandat inom områdena du jobbar med", niva:"Nivå efter dagsform",
-    vikt:{1:1,2:1,3:1,4:1,5:1}, antal:8
+    antal:8
   },
   teknik:{
     namn:"Teknikpass", under:"Det du har svårast för", niva:"Nivå 1–2",
-    vikt:{1:3.2,2:2.4,3:.8,4:.25,5:.08}, antal:10,
+    antal:10,
     omraden:keys=>svagaInom(keys,2)
   },
   mangd:{
     namn:"Mängdpass", under:"Många uppgifter", niva:"Nivå 1–3",
-    vikt:{1:2.5,2:2,3:1,4:.35,5:.12}, antal:15
+    antal:15
   },
   tungt:{
     namn:"Tungt pass", under:"Svårare uppgifter där du är starkast", niva:"Nivå 3–5",
-    vikt:{1:.05,2:.15,3:1,4:1.8,5:2.5}, antal:5,
+    antal:5,
     omraden:keys=>starkaInom(keys,3)
   },
   repetition:{
     namn:"Repetitionspass", under:"Sådant du inte tränat på ett tag", niva:"Nivå 1–5",
-    vikt:{1:1,2:1,3:1.05,4:.9,5:.7}, antal:8,
+    antal:8,
     omraden:keys=>repetitionInom(keys)
   },
 
   fel:{
     namn:"Repetera dina fel", under:"Uppgifter du hade fel på", niva:"Dina egna fel",
-    vikt:{1:1,2:1,3:1,4:1,5:1}, antal:10, ko:true
+    antal:10, ko:true
   }
 };
 const PASS_ORDNING=["grund","teknik","mangd","tungt","repetition","fel"];
@@ -7995,18 +7996,17 @@ function passMeddelande(typ){
 
 function passNivaSpann(typ){
   const p=PASS[typ]||PASS.grund, cp=ensureCourseProfile();
-  const omr=passOmraden(typ).filter(k=>cp.levels&&cp.levels[k]);
+  const omr=passOmraden(typ).filter(k=>cp.formaga?.[k] || (cp.history||[]).some(h=>h?.area===k));
   if(!omr.length) return p.niva;
-  const gammal=state.passTyp; state.passTyp=typ;
-  const sum={"1":0,"2":0,"3":0,"4":0,"5":0}; let n=0;
+  const alla=Object.fromEntries(NIVAER.map(L=>[L,1]));
+  const sum=Object.fromEntries(NIVAER.map(L=>[L,0])); let n=0;
   omr.forEach(a=>{
-    const m=levelMix({"1":1,"2":1,"3":1,"4":1,"5":1},a);
-    if(m){ NIVAER.forEach(L=>sum[L]+=m[L]); n++; }
+    const w=formNivaVikter(a,alla,formMal(a,typ));
+    const tot=NIVAER.reduce((x,L)=>x+w[L],0);
+    if(tot){ NIVAER.forEach(L=>sum[L]+=w[L]/tot); n++; }
   });
-  state.passTyp=gammal;
   if(!n) return p.niva;
-  const andel=NIVAER.map(L=>sum[L]/n);
-  const med=NIVAER.filter((L,i)=>andel[i]>=.18);
+  const med=NIVAER.filter(L=>sum[L]/n>=.18);
   if(!med.length) return p.niva;
   return med.length===1 ? `Nivå ${med[0]}` : `Nivå ${med[0]}–${med[med.length-1]}`;
 }
@@ -8995,15 +8995,7 @@ function scoreLabel(v){
 
 const behärskar = x => Math.max(0,Math.min(1,(x.s-.55)/.25)) * Math.max(0,Math.min(1,x.n/6));
 
-/* Stegvis upplåsning per område: en nivå öppnas först när eleven klarat
-   minst NIVA_KRAV uppgifter på närmast lägre nivå som finns i området, och
-   den nivån själv är öppen. Nivå 3 kräver alltså klarade uppgifter på både
-   nivå 1 och 2, och nivå 4 kräver klarade nivå 3-uppgifter. Bara rätt
-   utan ledtråd räknas. Räknas från
-   historiken; äldre träning utanför historiken (nivåstatistik med minst 8
-   försök) räknas som klar. Nivåer som saknas i området hoppas över. */
-const NIVA_KRAV=3;
-const LEDTRAD_VIKT=.5;
+/* Uppgiftens träningsnivå från dess id, för historiken. */
 let _nivaKarta={lista:null,karta:null};
 function nivaForId(id){
   const lista=availableTasks();
@@ -9012,59 +9004,165 @@ function nivaForId(id){
   }
   return _nivaKarta.karta.get(id);
 }
-function nivaKlarad(area,L){
-  const cp=ensureCourseProfile();
-  if((cp.levels?.[area]?.[L]?.n||0)>=8) return true;
-  let n=0;
+
+/* ===== Nivåmotorn (användarbeslut 2026-11-05) =====
+   Se docs/ADAPTIVITET_ANALYS_2026-11-05.md. Motorn skattar elevens förmåga θ i varje
+   område, med en osäkerhet: cp.formaga[område] = {mu, sd, n, at}. Nivå 1–5 har fasta
+   svårigheter FORM_B på samma skala. Chansen att lyckas är
+   P = c + (1−c)·σ(1,7·(θ − b)), där c är gissningschansen på flervalskort.
+   Efter varje svar uppdateras skattningen med Bayes på ett rutnät (FORM_GRID).
+   Nästa nivå väljs så att eleven har ungefär passets målchans att lyckas
+   (grundpass 75 %). Ett nytt område startar på elevens förmåga i kursens
+   andra områden. Ersätter den räknade upplåsningen, "nådd nivå", "kämpar",
+   uppvärmningen och golvet på lägsta nivån. */
+const LEDTRAD_VIKT=.5;
+const FORM_B={"1":-1.5,"2":-.75,"3":0,"4":.75,"5":1.5}, FORM_D=1.7;
+const FORM_GRID=Array.from({length:61},(_,i)=>-4+i*8/60);
+const FORM_START={mu:-.6,sd:1.1};
+const FORM_SD={min:.3,max:1.4,brus:.012};
+const FORM_MAL={grund:.75,teknik:.85,mangd:.82,tungt:.62,repetition:.8};
+const FORM_TAU={under:.15,over:.09}, FORM_OPPEN=.35, FORM_PASSTART=.85, FORM_LATTARE=.88, FORM_KEDJA_VIKT=.7;
+const FARSK_SKALA=100;
+
+function formPkt(th,b,c=0){ return c+(1-c)/(1+Math.exp(-FORM_D*(th-b))); }
+/* Förväntad chans att lyckas, medelvärde över skattningens osäkerhet. */
+function formForvantad(st,b,c=0){
+  let s=0,p=0;
+  for(const th of FORM_GRID){ const w=Math.exp(-.5*((th-st.mu)/st.sd)**2); s+=w; p+=w*formPkt(th,b,c); }
+  return p/s;
+}
+/* Ett svar: y = 1 rätt, 0 fel, andel vid delvis rätt, halva vid ledtråd.
+   vikt < 1 för delkort i samma kedja, eftersom de svaren hänger ihop. */
+function formBayes(st,b,y,c=0,vikt=1){
+  let s=0,m=0;
+  const post=FORM_GRID.map(th=>{
+    const p=formPkt(th,b,c);
+    const w=Math.exp(-.5*((th-st.mu)/st.sd)**2)*Math.pow(p,y*vikt)*Math.pow(1-p,(1-y)*vikt);
+    s+=w; m+=w*th; return w;
+  });
+  m/=s; let v=0; post.forEach((w,i)=>v+=w*(FORM_GRID[i]-m)**2); v/=s;
+  // Litet processbrus: förmågan ändras när eleven lär sig, så skattningen får aldrig låsa sig.
+  return {mu:m, sd:Math.max(FORM_SD.min,Math.min(FORM_SD.max,Math.sqrt(v+FORM_SD.brus))), n:(st.n||0)+1};
+}
+/* Startvärde i ett område eleven inte tränat: förmågan i kursens övriga områden,
+   dragen lite mot startvärdet och 0,3 lägre eftersom området är nytt. */
+function formKursPrior(cp,utom){
+  let sw=0,sm=0;
+  for(const [k,st] of Object.entries(cp.formaga||{})){
+    if(k===utom || !st || (st.n||0)<3 || !Number.isFinite(st.mu)) continue;
+    const w=Math.min(10,st.n); sw+=w; sm+=w*st.mu;
+  }
+  if(!sw) return {...FORM_START,n:0};
+  return {mu:(sm+3*FORM_START.mu)/(sw+3)-.3, sd:.75, n:0};
+}
+/* Profiler från före 2026-11-05: spela upp områdets svar i historiken en gång.
+   Finns inga svar kvar i historiken används den gamla nivåstatistiken (högst 6 per nivå). */
+function formFranHistorik(cp,area,prior){
+  let st={...prior}, n=0;
   for(const h of cp.history||[]){
-    if(h && h.ok && !h.hint && h.area===area && nivaForId(h.id)===L && ++n>=NIVA_KRAV) return true;
+    if(!h || h.area!==area) continue;
+    const L=nivaForId(h.id); if(!(L in FORM_B)) continue;
+    st=formBayes(st,FORM_B[L],h.ok?(h.hint?LEDTRAD_VIKT:1):0,0,h.ursprungsId?FORM_KEDJA_VIKT:1); n++;
   }
-  return false;
+  if(!n && cp.levels?.[area]){
+    for(const L of NIVAER){
+      const x=storedLevelStat(cp.levels[area],L); if(!x || !x.n) continue;
+      const k=Math.min(6,x.n), r=Math.round(Math.max(0,Math.min(1,x.s))*k);
+      for(let i=0;i<k;i++){ st=formBayes(st,FORM_B[L],i<r?1:0); n++; }
+    }
+  }
+  return n ? {...st,n} : null;
 }
-function oppnaNivaer(area,finns){
-  const oppen={}; let forra=null, las=false;
+function formagaLas(area,cp=ensureCourseProfile()){
+  const sparad=cp.formaga?.[area];
+  if(sparad && Number.isFinite(sparad.mu) && Number.isFinite(sparad.sd)) return sparad;
+  const prior=formKursPrior(cp,area);
+  const gammal=(cp.history||[]).some(h=>h?.area===area) || cp.levels?.[area] ? formFranHistorik(cp,area,prior) : null;
+  if(gammal){ (cp.formaga ||= {})[area]={...gammal,at:Date.now()}; return cp.formaga[area]; }
+  return prior;
+}
+/* Gissningschans: flervalskort med ett rätt alternativ. */
+function formGissning(t){
+  if(!arAlt(t)) return 0;
+  const r=altRader(t), ratt=r.filter(a=>a.ratt).length;
+  return ratt===1 && r.length>1 ? 1/r.length : 0;
+}
+function formagaUppdatera(t,y,cp=ensureCourseProfile()){
+  const area=t?.omr, L=levelOf(t);
+  if(!area || !(L in FORM_B)) return;
+  const st=formagaLas(area,cp);
+  const ny=formBayes(st,FORM_B[L],Math.max(0,Math.min(1,y)),formGissning(t),t.ursprungsId?FORM_KEDJA_VIKT:1);
+  (cp.formaga ||= {})[area]={...ny,at:Date.now()};
+}
+/* Målchansen för nästa uppgift. Vid stor osäkerhet siktar motorn på 60 %: sådana
+   frågor visar snabbast var eleven ligger. Passets första uppgift och uppgiften
+   efter två fel i rad ska eleven troligen klara. */
+function formMal(area,typ=state.passTyp,{passStart=false}={}){
+  const st=formagaLas(area);
+  const bas=FORM_MAL[typ]||FORM_MAL.grund;
+  const osaker=Math.max(0,Math.min(1,(st.sd-.45)/.6));
+  let m=bas-(bas-.6)*osaker;
+  if(passStart && (st.n||0)>=6) m=Math.max(m,FORM_PASSTART);
+  if((state.formFel||0)>=2) m=Math.max(m,FORM_LATTARE);
+  return m;
+}
+/* Vikt per nivå: hur nära målchansen nivån ligger, gånger hur färskt nivåns innehåll är.
+   Kurvan är bredare under målet än över: en lite för svår uppgift är bättre än en för
+   lätt, och den som nått en hög nivå ska inte åka ner för ett enstaka fel (beslut 2026-10-22). */
+function formNivaVikter(area,farsk,mal){
+  const st=formagaLas(area), w={};
   for(const L of NIVAER){
-    if(!finns[L]){ oppen[L]=!las; continue; }
-    if(forra!==null && !nivaKlarad(area,forra)) las=true;
-    oppen[L]=!las;
-    forra=L;
+    const f=farsk[L]||0, d=formForvantad(st,FORM_B[L])-mal;
+    w[L]=f ? Math.exp(-((d/(d<0?FORM_TAU.under:FORM_TAU.over))**2))*f : 0;
   }
-  return oppen;
+  return w;
 }
-/* Backa ett steg: har eleven fel på minst två av de tre senaste
-   uppgifterna på en nivå (i området), tonas den nivån ned kraftigt och allt
-   ovanför stängs tills vidare. Då blir det mest uppgifter på nivån under,
-   med en och annan på den svåra nivån. Efter TILLBAKA_RATT rätt i området
-   utan ledtråd (på den nivån eller lägre) sedan det senaste felet är
-   eleven tillbaka. */
-const KAMPAR_VIKT=.12, TILLBAKA_RATT=2;
-function kamparPa(area,L){
-  const h=ensureCourseProfile().history||[];
-  let n=0, fel=0, rattEfter=0, efterFel=true;
-  for(let i=h.length-1;i>=0 && n<3;i--){
-    const x=h[i];
-    if(!x || x.area!==area) continue;
-    const niva=nivaForId(x.id);
-    if(niva===L){ n++; if(!x.ok){ fel++; efterFel=false; } }
-    if(efterFel && x.ok && !x.hint && niva && niva<=L) rattEfter++;
-  }
-  return fel>=2 && rattEfter<TILLBAKA_RATT;
+function formValjNiva(w,rnd=Math.random){
+  const tot=NIVAER.reduce((s,L)=>s+(w[L]||0),0);
+  if(!tot) return null;
+  let x=rnd()*tot;
+  for(const L of NIVAER){ x-=w[L]||0; if(x<=0 && w[L]) return L; }
+  return NIVAER.filter(L=>w[L]).at(-1)||null;
 }
+/* Mjuk färskhet: 1 för osedda kort, annars (ålder/100)²·0,8 med ålder i antal visade
+   uppgifter sedan sist. Ett kort på rätt nivå som eleven såg för länge sedan går
+   före ett färskt kort på fel nivå. Kort från det pågående passet visas inte igen. */
+function formFarskhet(h,id){
+  const a=uppgiftsAlder(h,id);
+  return a===Infinity ? 1 : Math.min(1,(a/FARSK_SKALA)**2)*.8;
+}
+function mjukaUppgifter(pool,h){
+  const historik=state.passHistory?.length ? state.passHistory.map(x=>x.task.id) : state.lastIds;
+  const iPasset=new Set(historik);
+  const kvar=pool.filter(t=>!iPasset.has(t.id) && formFarskhet(h,t.id)>0);
+  return kvar.length ? kvar : farskaUppgifter(pool,h);
+}
+
 /* Nivåläget i ett område, för tränarens kommentarer under passet:
-   vilka nivåer som är öppna och var eleven just nu backat. */
+   en nivå är öppen när eleven har minst 35 % chans att lyckas (den lägsta är alltid öppen),
+   och "kämpar" efter två helt fel svar i rad i passet. */
 function tranarNivaLage(area){
   if(!area) return null;
   const finns={};
   availableTasks().forEach(t=>{ if(t.omr===area) finns[levelOf(t)]=true; });
-  const oppen=oppnaNivaer(area,finns);
-  let kampar=null;
-  for(const L of NIVAER.slice(1)){ if(finns[L] && oppen[L] && kamparPa(area,L)){ kampar=L; break; } }
-  return {oppen,kampar,finns};
+  const st=formagaLas(area), oppen={};
+  let forsta=true;
+  for(const L of NIVAER){
+    if(!finns[L]){ oppen[L]=false; continue; }
+    oppen[L]=forsta || formForvantad(st,FORM_B[L])>=FORM_OPPEN;
+    forsta=false;
+  }
+  return {oppen,kampar:(state.formFel||0)>=2 ? (state.formFelNiva||null) : null,finns};
 }
+
 function tranarKommentar(t,fore,efter,ggForslag){
   if(!fore || !efter || state.noXp) return;
   const namn=`<b>${esc(areaName(t.omr)||"området")}</b>`;
-  const ny=NIVAER.find(L=>efter.finns[L] && efter.oppen[L] && !fore.oppen[L]);
+  /* Varje nivå hälsas bara första gången den öppnas i området: skattningen kan
+     pendla runt gränsen, och då ska tränaren inte upprepa sig. */
+  const cp=ensureCourseProfile(), sett=((cp.nivaOppnad ||= {})[t.omr] ||= []);
+  const ny=NIVAER.find(L=>efter.finns[L] && efter.oppen[L] && !fore.oppen[L] && !sett.includes(L));
+  if(ny) sett.push(ny);
   let text=null;
   if(efter.kampar && efter.kampar!==fore.kampar && !ggForslag)
     text=`Vi tar ett par lite enklare uppgifter i ${namn} och bygger upp igen.`;
@@ -9074,77 +9172,6 @@ function tranarKommentar(t,fore,efter,ggForslag){
     text=`Bra jobbat! Nu öppnas nivå ${ny} i ${namn}.`;
   // Har tränaren nyss berättat om ett klart uppdrag får nivåkommentaren vänta tills det är läst.
   if(text) setTimeout(()=>tranarenSager(text,{html:true}), Date.now()-(state.uppdragPratAt||0)<3000 ? 7500 : 1300);
-}
-/* Nådd nivå (användarbeslut 2026-10-22): har eleven klarat NADD_RATT uppgifter
-   utan ledtråd på en nivå i området är nivån nådd. Den håller då även om eleven
-   svarar fel någon gång, och passet läggs tyngst på den högsta nådda nivån. Bara
-   upprepade fel på samma nivå (se kamparPa) flyttar ner eleven en tid. */
-const NADD_RATT=2, NADD_GATE=.8;
-const NIVA_TYNGD={"-1":1.4,"0":2.2,"1":1.2,"2":.7,"3":.45,"4":.3};
-function naddNiva(area,L){
-  const cp=ensureCourseProfile();
-  const st=cp.levels?.[area]?.[L];
-  if(st && (st.n||0)>=8 && st.s>=.6) return true;
-  let n=0;
-  for(const h of cp.history||[]){
-    if(h && h.ok && !h.hint && h.area===area && nivaForId(h.id)===L && ++n>=NADD_RATT) return true;
-  }
-  return false;
-}
-function levelWeights(area,finns={}){
-  const m=Object.fromEntries(NIVAER.map(L=>[L,behärskar(scopeLevel(L,area))]));
-  const w={};
-  const oppen=oppnaNivaer(area,finns);
-  let kamparUnder=false;
-  NIVAER.forEach((L,i)=>{
-    if(i===0 || !finns[L]) return;
-    if(kamparUnder) oppen[L]=false;
-    else if(kamparPa(area,L)) kamparUnder=L;
-  });
-  const nadd=Object.fromEntries(NIVAER.map(L=>[L,!!(finns[L] && oppen[L] && naddNiva(area,L))]));
-  let topp=null;
-  NIVAER.forEach(L=>{ if(nadd[L]) topp=L; });
-  if(kamparUnder && topp && topp>kamparUnder) topp=kamparUnder;
-  NIVAER.forEach((L,i)=>{
-    const lagre=NIVAER.slice(0,i).filter(K=>finns[K]);
-    const redo=lagre.length ? Math.min(...lagre.map(K=>m[K])) : 1;
-    // En liten läcka uppåt ger variation, men högre nivåer växer först när
-    // de lägre nivåer som faktiskt finns i området börjar sitta.
-    // En nådd nivå behåller sin plats även om en lägre nivå fått ett fel.
-    let gate=i===0 ? 1 : !oppen[L] ? 0 : Math.max(.04,redo);
-    if(gate && nadd[L]) gate=Math.max(gate,NADD_GATE);
-    w[L]=gate*(1-.65*m[L]);
-  });
-  if(topp) NIVAER.forEach(L=>{
-    const d=Number(topp)-Number(L);
-    w[L]*=d<-1 ? 1 : NIVA_TYNGD[String(Math.min(4,d))];
-  });
-  if(kamparUnder) w[kamparUnder]*=KAMPAR_VIKT;
-
-  const v=(PASS[state.passTyp]||{}).vikt;
-  if(v) NIVAER.forEach(L=>w[L]*=(v[L]??1));
-  return w;
-}
-
-const NIVA_GOLV=.10;
-function levelMix(finns,area){
-  const w=levelWeights(area,finns);
-  const golv=state.passTyp==="tungt" ? .04 : NIVA_GOLV;
-  const order=NIVAER;
-  order.forEach(L=>{ if(!finns[L]) w[L]=0; });
-  const tot=order.reduce((x,L)=>x+(w[L]||0),0);
-  if(!tot) return null;
-  const mix={};
-  order.forEach(L=>mix[L]=(w[L]||0)/tot);
-
-  const lagst=order.find(L=>finns[L]);
-  if(lagst && mix[lagst]<golv){
-    const kvar=1-golv;
-    const ovrigt=order.filter(L=>L!==lagst).reduce((sum,L)=>sum+mix[L],0);
-    mix[lagst]=golv;
-    if(ovrigt>0) order.filter(L=>L!==lagst).forEach(L=>mix[L]=mix[L]/ovrigt*kvar);
-  }
-  return mix;
 }
 
 function chooseArea(pool){
@@ -9227,7 +9254,6 @@ function farskaUppgifter(pool,h){
   return aldst.slice(0,Math.max(1,Math.ceil(aldst.length/3)));
 }
 
-const UPPVARMNING=2;
 function chooseTask(){
   if(state.prov) provRepetera();
 
@@ -9259,7 +9285,8 @@ function chooseTask(){
 
   const cp=ensureCourseProfile();
   const sedda=lasSedda();
-  pool=farskaUppgifter(pool,sedda);
+  // Provet visar inga kort två gånger. Annars mjuk färskhet, se mjukaUppgifter.
+  pool=state.prov ? farskaUppgifter(pool,sedda) : mjukaUppgifter(pool,sedda);
 
   const area = state.focusArea || (state.prov ? provValjOmrade(pool)
     : state.mixChapter!=null ? chooseChapterArea(pool) : chooseArea(pool));
@@ -9268,25 +9295,14 @@ function chooseTask(){
   const buckets=Object.fromEntries(NIVAER.map(L=>[L,[]]));
   pool.forEach(t=>buckets[levelOf(t)].push(t));
 
-  const order=NIVAER;
-  const finns=Object.fromEntries(NIVAER.map(L=>[L,!!buckets[L].length]));
-  const mix=levelMix(finns,area);
-  let level=null;
-  if(mix){
-    let x=Math.random();
-    for(const L of order){ x-=mix[L]; if(x<=0 && buckets[L].length){ level=L; break; } }
-  }
-
+  /* Nivåmotorn: nivån där eleven har ungefär passets målchans att lyckas,
+     vägd med hur färskt nivåns innehåll är. */
+  const farsk=Object.fromEntries(NIVAER.map(L=>[L,!buckets[L].length ? 0
+    : state.prov ? 1 : Math.max(...buckets[L].map(t=>formFarskhet(sedda,t.id)))]));
+  const mal=formMal(area,state.passTyp,{passStart:state.sessionDone===0});
+  let level=formValjNiva(formNivaVikter(area,farsk,mal));
   if(!level || !buckets[level].length)
     level=NIVAER.find(L=>buckets[L].length)||"1";
-
-  /* Uppvärmning: passets två första uppgifter tas en nivå under den
-     dragna, så att passet börjar lugnt. Gäller inte när eleven själv
-     valt nivå eller tränar sina fel. */
-  if(state.sessionDone<UPPVARMNING && !state.focusNiva && level>"1"){
-    const lagre=NIVAER.filter(L=>L<level && buckets[L].length);
-    if(lagre.length) level=lagre[lagre.length-1];
-  }
 
   let cands=buckets[level];
   if(state.prov){ const hogre=provNivaKandidater(pool,area); if(hogre) cands=hogre; }
@@ -9300,6 +9316,7 @@ function chooseTask(){
       + (state.course==="hist" ? historyCriterionMastery(t,cp)*.22 : 0)
       + Math.random()*.9
       - nyhet(t)
+      + (1-formFarskhet(sedda,t.id))*1.2
       + (t.ursprungsId && state.senasteUrsprung.includes(t.ursprungsId) ? 1.5 : 0)}))
     .sort((a,b)=>a.k-b.k);
   const top=scored.slice(0,Math.max(1,Math.ceil(scored.length*.4)));
@@ -9326,6 +9343,7 @@ function beginSession(typ){
   state.sessionDone=0;state.lastIds=[];state.sessionXp=0;state.sessionCorrect=0;
   state.passAvslutat=false;state.passBonus=0;
   state.focusNiva=null;
+  state.formFel=0;state.formFelNiva=null;
 
   state.sessionTarget=(PASS[state.passTyp]||{}).antal || profile.goal || 8;
   if(state.prov) state.sessionTarget=provPassLangd();
@@ -14748,6 +14766,13 @@ function finishAttempt(resultat){
     fs.forEach(f=>updateMastery(cp.families,f,v,ledVikt));
     if(state.course==="hist") kriterier.forEach(k=>updateMastery(cp.histSkills,k,v));
   });
+  /* Nivåmotorn: ett svar per kort. Delvis rätt ger andelen, ledtråd halva,
+     visad lösning före svaret räknas som fel. */
+  formagaUppdatera(t,state.noXp ? 0 : andel*(state.hintUsed ? LEDTRAD_VIKT : 1),cp);
+  if(!state.noXp){
+    if(correct) state.formFel=0;
+    else if(!ratt){ state.formFel=(state.formFel||0)+1; state.formFelNiva=niva; }
+  }
 
   let lagat=false;
   if(correct && !state.noXp){

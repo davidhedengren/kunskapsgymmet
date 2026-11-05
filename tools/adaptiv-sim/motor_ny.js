@@ -28,9 +28,10 @@ function malFor(st,typ){
 }
 /* fria: [{L, b?, c}] osedda kort. Utan kalibrering används nivåns b; med kalibrering kortets b. */
 function valj(st,fria,rnd,opt={}){
-  const mal=malFor(st,opt.typ), tau=.1;
+  const mal=malFor(st,opt.typ);
+  const fit=p=>{const d=p-mal;return Math.exp(-((d/(d<0?.15:.09))**2));};
   if(opt.kalibrerad){
-    const w=fria.map(k=>Math.exp(-(((forvantat(st,k.b,k.c)-mal)/tau)**2))*(opt.mjuk?k.farsk:1));
+    const w=fria.map(k=>fit(forvantat(st,k.b,k.c))*(opt.mjuk?k.farsk:1));
     let x=rnd()*w.reduce((a,b)=>a+b,0);
     for(let i=0;i<fria.length;i++){ x-=w[i]; if(x<=0) return fria[i]; }
     return fria.at(-1);
@@ -38,7 +39,7 @@ function valj(st,fria,rnd,opt={}){
   const f=k=>opt.mjuk?k.farsk:1;
   const finns=NIVAER.filter(L=>fria.some(k=>k.L===L));
   // Nivåns vikt = passform × hur mycket färskt innehåll som finns kvar på nivån
-  const w=finns.map(L=>Math.exp(-(((forvantat(st,B[L])-mal)/tau)**2))*Math.max(...fria.filter(k=>k.L===L).map(f)));
+  const w=finns.map(L=>fit(forvantat(st,B[L]))*Math.max(...fria.filter(k=>k.L===L).map(f)));
   let x=rnd()*w.reduce((a,b)=>a+b,0), L=finns.at(-1);
   for(let i=0;i<finns.length;i++){ x-=w[i]; if(x<=0){ L=finns[i]; break; } }
   const kand=fria.filter(k=>k.L===L), kw=kand.map(f);

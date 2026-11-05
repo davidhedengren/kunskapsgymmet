@@ -178,3 +178,38 @@ I ett område som har nivå 4–5 (25, 35, 30, 15 och 8 kort) ligger en mycket s
   - Men tränarens texter och XP behöver kännas belönande även vid fel. XP per nivå finns redan.
 - **Målvärdet** (75 %) är ett beslut för läraren. Ett mål på 70–80 % brukar rekommenderas för övning.
 - **Befintliga elevers nivåer** räknas om vid migreringen. Några kommer att se en annan nivå i området än tidigare.
+
+## 6. Fas 1 genomförd 2026-11-05
+
+Användaren godkände fas 1 med målet 75 %. Ändringen ligger i `index.html`, i blocket ”Nivåmotorn”, och i `chooseTask`, `finishAttempt`, `beginSession` och `passNivaSpann`.
+
+- **Förmåga per område.** Den lagras i `cp.formaga[omr] = {mu, sd, n, at}` och följer med profilen till molnet.
+  - Nivåernas svårighet är `FORM_B`: −1,5, −0,75, 0, 0,75 och 1,5 för nivå 1–5.
+  - Uppdateringen sker med Bayes på ett rutnät, med processbrus 0,012 och sd mellan 0,3 och 1,4.
+- **Ett svar per kort.**
+  - Rätt räknas som 1, fel som 0 och delvis rätt som andelen rätt. Rätt med ledtråd räknas som hälften.
+  - Om lösningen visades före svaret räknas det som 0.
+  - Flervalskort med ett rätt alternativ får gissningschansen 1/antal alternativ.
+  - Delkort i en kedja vägs med 0,7.
+- **Målchans per passtyp:** grund 75 %, teknik 85 %, mängd 82 %, tungt 62 % och repetition 80 %.
+  - Vid stor osäkerhet sänks målet mot 60 %.
+  - Passets första uppgift får minst 85 % när eleven har gjort minst 6 uppgifter i området.
+  - Efter två helt fel svar i rad i passet får nästa uppgift minst 88 %.
+- **Målkurvan är asymmetrisk**, med bredden 0,15 under målet och 0,09 över. En lite för svår uppgift är bättre än en för lätt. Det gör också att den som nått nivå 5 inte åker ner för ett enstaka fel, enligt beslutet 2026-10-22 (`tools/niva-hall.test.js`).
+- **Nytt område.** Startvärdet är elevens förmåga i kursens andra områden, minus 0,3, med sd 0,75. Startvärdet sparas först när eleven svarar.
+- **Gamla profiler.** Områdets svar i historiken spelas upp en gång. Saknas historik används den gamla nivåstatistiken, med högst 6 svar per nivå. `cp.levels` och `cp.areas` uppdateras som förut, så att ringar och etiketter fungerar tills fas 2 är byggd.
+- **Mjuk färskhet** (`mjukaUppgifter`, `formFarskhet`). Provträningen behåller den hårda färskheten.
+- **Tränarens kommentarer.**
+  - En nivå räknas som öppen vid minst 35 % chans att lyckas.
+  - ”Nu öppnas nivå X” visas bara första gången nivån öppnas i området, med minnet i `cp.nivaOppnad`.
+  - ”Vi tar ett par lite enklare” visas efter två fel i rad.
+- **Borttaget:** `nivaKlarad`, `oppnaNivaer`, `kamparPa`, `naddNiva`, `levelWeights`, `levelMix`, uppvärmningen, golvet på 10 % och passtypernas nivåvikter.
+- **Tester.**
+  - `tools/nivamotor-2026-11-05.test.js` simulerar elever med de riktiga funktionerna. Kraven är placering inom 8 uppgifter och minst 45 % i zonen för en medelelev, minst 40 % för en stark elev och minst 55 % för en svag elev efter uppgift 40. Dessutom prövas omräkning av gamla profiler, startvärde i nytt område och vikterna för ledtråd, flerval och delkort.
+  - `tools/niva-hall.test.js` prövar nu beslutet 2026-10-22 mot nivåmotorn.
+  - De övriga node-testerna har samma fel som före ändringen: `admin-online`, `felrapporter-2026-10-25`, `ma3-sinus-c`, `ma3-funktioner-c` och `delkort`.
+- **Kontroll i webbläsaren** (Fy1, utan inloggning, med databasanrop blockerade):
+  - En elev med bara rätt svar gick från nivå 2 till nivå 3 på uppgift 2, nivå 4 på uppgift 8 och nivå 5 på uppgift 10.
+  - Ett nytt område startade på nivå 3.
+  - Två fel i rad gav en lätt uppgift, och därefter kom eleven tillbaka till nivå 3.
+  - Konsolen var fri från fel.

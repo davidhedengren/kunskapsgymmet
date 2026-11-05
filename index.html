@@ -4100,7 +4100,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-05-fellogg-1614";
+const BANK_VERSION="2026-11-05-felrapport-2156";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -14041,6 +14041,8 @@ function renderTraining(){
     }
 
     if(layout.etiketter && layout.etiketter[del]!==undefined){
+      // Kapslade etiketter (en per fält i delen, t.ex. Ma1 4.24, Ma2 1.115) visades förut som "a ≠,a ≠ 1".
+      if(Array.isArray(layout.etiketter[del])) return String(layout.etiketter[del][plan?plan.rutor[i].plats:0]??"");
       const namn=String(layout.etiketter[del]);
       const flera=plan && plan.delar[del].svar.length>1;
       return flera ? namn+" "+(plan.rutor[i].plats+1) : namn;
@@ -14433,6 +14435,26 @@ function kollaAlt(){
   renderMath(document.getElementById("answer-zone"));
 }
 
+/* Ordnade svar med namngivna fält (a och b, x och y) skrivs ofta samlat i första fältet:
+   "a=2, b=3", "a=2 och b=3" eller "(4, 7)" för en punkt. Värdena fördelas då på fälten innan
+   rättningen, så att eleven inte underkänns för formen (felrapporter 2026-11-05: 1.218, 2.1063).
+   Gäller bara när varje del har ett fält och fälten heter som värdena. */
+function samlatOrdnatSvar(v,etik,del){
+  v=stadaSvar(v);
+  if(!v || !Array.isArray(etik) || etik.some(e=>typeof e!=="string")) return null;
+  const namn=e=>String(e).trim().replace(/\s*=\s*$/,"").toLowerCase();
+  const tal="[+-]?\\d+(?:[.,]\\d+)?";
+  const par=[...v.matchAll(new RegExp(`(?:^|[^a-zåäö])([a-zåäö])\\s*=\\s*(${tal})`,"gi"))];
+  if(par.length>=2){
+    const karta=par.map(m=>({i:etik.findIndex((e,j)=>j>=del && namn(e)===m[1].toLowerCase()),v:m[2]}));
+    const unika=new Set(karta.map(k=>k.i));
+    return karta.every(k=>k.i>=0) && unika.size===karta.length && unika.has(del) ? karta : null;
+  }
+  const m=v.match(/^\(\s*([+-]?\d+(?:\.\d+)?)\s*[,;]\s*([+-]?\d+(?:\.\d+)?)\s*\)$/)
+    || v.match(/^\(\s*([+-]?\d+(?:,\d+)?)\s*;\s*([+-]?\d+(?:,\d+)?)\s*\)$/);
+  if(m && namn(etik[del])==="x" && namn(etik[del+1]||"")==="y") return [{i:del,v:m[1]},{i:del+1,v:m[2]}];
+  return null;
+}
 function samlatMangdsvarTillatet(t,layout){
   return layout.flersvar && ["mängd","mangd","lösningsmängd","losningsmangd"].includes(layout.struktur)
     && layout.info.answers.every(v=>typeof v==="number" && Number.isFinite(v))
@@ -14514,6 +14536,12 @@ function checkAnswer(){
     const d=plan.delar[del];
 
     if(!d.auto){ visaDelfacit(rutor[0].idx,del); return; }
+
+    // Samlat svar i ett fält ("a=2, b=3" eller "(4, 7)"): fördela på delarnas fält, se samlatOrdnatSvar.
+    if(rutor.length===1 && plan.rutor.length===plan.delar.length){
+      const ford=samlatOrdnatSvar(document.getElementById("ans-"+rutor[0].idx)?.value,t.svarEtiketter,del);
+      if(ford) ford.forEach(k=>{ const e=document.getElementById("ans-"+k.i); if(e && !e.readOnly) e.value=k.v; });
+    }
 
     const varden=rutor.map(r=>document.getElementById("ans-"+r.idx)?.value||"");
     if(varden.some(x=>!x.trim())){ toast("Fyll i alla svar för deluppgiften."); return; }

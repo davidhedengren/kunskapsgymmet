@@ -4100,7 +4100,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-05-normal-grund";
+const BANK_VERSION="2026-11-05-felrapporter-1134";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11799,6 +11799,8 @@ function friAvrundningRatt(anv,facit,enhet,t,format){
   return false;
 }
 function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
+  // Abstrakta längdenheter har vanliga svenska skrivsätt utan fysisk enhet.
+  if(String(enhet||"").trim()==="längdenheter") anv=String(anv).replace(/(?:längdenhet(?:er)?|enhet(?:er)?|l\s*\.?\s*e\.?)\s*$/i,"längdenheter");
   if(t?.svarVardesiffror!=null){
     const fysikPrecision=fysikVardesiffrorRatt(anv,facit,enhet,t,idx,format);
     if(fysikPrecision!==null) return fysikPrecision;

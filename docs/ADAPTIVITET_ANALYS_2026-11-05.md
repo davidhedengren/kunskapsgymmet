@@ -277,3 +277,44 @@ Användaren ville ha ett mellanläge mellan ”På gång” och ”Stark”, och
 | 3/4 på nivå 4 och 3/4 på nivå 5 | Mycket stark |
 | 4/4 på nivå 4 och 2/4 på nivå 5 | Mycket stark |
 | 6/8 på nivå 4 men inget på nivå 5 | Stark |
+
+## 9. Rättelser efter elevrapporter (2026-11-05 kväll)
+
+Elever rapporterade tre problem efter att nivåmotorn infördes på morgonen:
+
+- de fick inga svårare uppgifter;
+- de fick samma uppgifter hela tiden, även i blandat pass inom ett område;
+- de fick ”Behöver träning” under dagen.
+
+Alla tre gick att återskapa i simulering med den riktiga koden (`chooseTask`, `mjukaUppgifter`, `lageFor`) och riktiga kort ur Ma2-banken.
+
+**1. Samma uppgifter.**
+
+- *Orsak:* den mjuka färskheten, (ålder/100)²·0,8. Den lät ett kort som visades för 20 uppgifter sedan gå före ett osett kort en nivå bort. Små nivåhinkar gick därför runt: i faktorisering visades 32 olika kort av 48, och 19 kort visades aldrig.
+- *Orsak:* kedjan visar alla delkort med samma inledning, men färskheten räknades per delkort. Samma ursprungsuppgift kunde därför komma tillbaka som ett annat delkort.
+- *Rättelse:* färskheten räknas nu per ursprungsuppgift (`ursprungsAlder`, `kortAlder`). Inom en nivå i ett område väljs bara osedda kort. När nivån är genomgången tas de som visades längst tillbaka (`nivaHink`).
+- *Rättelse:* en genomgången nivå väger 0,6·(ålder/120)², så motorn hellre tar en närliggande nivå med osedda kort. En ursprungsuppgift visas inte två gånger i samma pass.
+
+**2. Inga svårare uppgifter.**
+
+- *Orsak:* en elev med mycket historik på nivå 1–2 har liten osäkerhet (sd ≈ 0,3), och då rör sig skattningen långsamt. Om eleven nu klarar allt kom nivå 3 först efter cirka 6 rätt och nivå 4 efter cirka 12.
+- *Rättelse (användarbeslut samma kväll: ”eleverna ska känna att de får svårare uppgifter när de klarar t.ex. nivå 1 och 2, och inte behöva klara 10 för att komma vidare”):* `uppatNiva`.
+  - Om de tre senaste svaren i området är rätt utan ledtråd, och de två senaste på minst nivå T, får eleven prova nivå T+1 direkt.
+  - Det sker med sannolikheten 0,8 (`UPPAT_ANDEL`). Saknas nivån i området tas närmast högre.
+  - Regeln gäller inte prov, Teknikpass eller pass på bestämda nivåer.
+- *Rättelse:* nya parametrar.
+  - Startvärde −0,6 → −0,3.
+  - Processbrus 0,012 → 0,02, så att skattningen följer en elev som blir bättre. 0,03 bröt beslutet ”3 av 4 på nivå 3 = Stark” när felen kommer sist.
+  - Grundpassets målchans 75 → 72 %.
+  - Passets första uppgift 85 → 80 %.
+- *Resultat:* en elev med gammal historik på nivå 1–2 som nu klarar allt får 1 1 2 2 3 3 … i första passet och når nivå 4–5 i andra. Utan rättelsen låg eleven kvar på nivå 2 hela första passet.
+
+**3. ”Behöver träning”.**
+
+- *Orsak:* gränsen var 80 % chans på nivå 1, och det fanns inget krav på antal svar. Ett enda fel på första uppgiften i ett nytt område gav ”Behöver träning”. Var fjärde elev med 75 % rätt på nivå 1–2 fick det också, mot ”På gång” med den gamla andel-rätt-gränsen 55 %.
+- *Rättelse:* ”Behöver träning” kräver minst 6 svar i området (`BEHOVER_MIN_SVAR`), och gränsen för ”På gång” är 65 %. Ringen Grunderna i områden vars grund bara är nivå 1 behåller 0,8.
+- *Resultat:* med 65 % rätt eller mer på nivå 1–2 blir det nästan alltid ”På gång”. Runt 50 % är gränsfall.
+
+**Kvar, innehåll:** flera Ma2-områden har få kort på nivå 3–5. Faktorisering har till exempel 15 kort på nivå 3 och ett var på nivå 4 och 5. En elev på nivå 3 går därför igenom nivån efter ungefär 15 uppgifter, och då återanvänds kort eller så går motorn ner en nivå. Fler kort på nivå 3–5 i de områden som undervisas nu löser det på riktigt.
+
+**Test:** `tools/nivamotor-rattelse-2026-11-05.test.js`. Samtliga 119 tidigare tester ger samma resultat som före ändringen. De 10 röda testerna var röda redan innan.

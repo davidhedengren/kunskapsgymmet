@@ -8959,7 +8959,7 @@ function stegVarde(area,steg,finns){
     return Math.min(.94,m.grad*Math.sqrt(Math.min(1,rN/g.mycket.ratt)));
   }
   else{
-    const top=L[L.length-1], k=top==="1"?{p:g.pagang.p,ratt:2}:top==="2"?g.grund:g.stark;
+    const top=L[L.length-1], k=top==="1"?{p:.8,ratt:2}:top==="2"?g.grund:g.stark;
     p=P(top); grans=k.p; krav=k.ratt; rattN=formRatt(st,top);
   }
   if(p>=grans && rattN>=krav) return 1;
@@ -9031,17 +9031,20 @@ function nivaForId(id){
    P = c + (1−c)·σ(1,7·(θ − b)), där c är gissningschansen på flervalskort.
    Efter varje svar uppdateras skattningen med Bayes på ett rutnät (FORM_GRID).
    Nästa nivå väljs så att eleven har ungefär passets målchans att lyckas
-   (grundpass 75 %). Ett nytt område startar på elevens förmåga i kursens
+   (grundpass 72 %). Ett nytt område startar på elevens förmåga i kursens
    andra områden. Ersätter den räknade upplåsningen, "nådd nivå", "kämpar",
    uppvärmningen och golvet på lägsta nivån. */
 const LEDTRAD_VIKT=.5;
 const FORM_B={"1":-1.5,"2":-.75,"3":0,"4":.75,"5":1.5}, FORM_D=1.7;
 const FORM_GRID=Array.from({length:61},(_,i)=>-4+i*8/60);
-const FORM_START={mu:-.6,sd:1.1};
-const FORM_SD={min:.3,max:1.4,brus:.012};
-const FORM_MAL={grund:.75,teknik:.85,mangd:.82,tungt:.62,repetition:.8};
-const FORM_TAU={under:.15,over:.09}, FORM_OPPEN=.35, FORM_PASSTART=.85, FORM_LATTARE=.88, FORM_KEDJA_VIKT=.7;
-const FARSK_SKALA=100;
+/* Justerat 2026-11-05 kväll efter elevrapporter om att svårare uppgifter inte kom: en elev som
+   klarar nivå 3 fick nästan bara nivå 2 i de två första passen. Startvärdet är höjt (−0,6 → −0,3),
+   processbruset ökat (0,012 → 0,02, så skattningen följer en elev som blir bättre),
+   grundpassets målchans 75 → 72 % och passets första uppgift 85 → 80 %. */
+const FORM_START={mu:-.3,sd:1.1};
+const FORM_SD={min:.3,max:1.4,brus:.02};
+const FORM_MAL={grund:.72,teknik:.85,mangd:.82,tungt:.62,repetition:.8};
+const FORM_TAU={under:.15,over:.09}, FORM_OPPEN=.35, FORM_PASSTART=.8, FORM_LATTARE=.88, FORM_KEDJA_VIKT=.7;
 
 function formPkt(th,b,c=0){ return c+(1-c)/(1+Math.exp(-FORM_D*(th-b))); }
 /* Förväntad chans att lyckas, medelvärde över skattningens osäkerhet. */
@@ -9163,7 +9166,12 @@ const LAGEN={
   stark:{rank:4,label:"Stark",tone:"t-good"},
   mycket:{rank:5,label:"Mycket stark",tone:"t-top"}
 };
-const LAGE_GRANS={pagang:{L:"1",p:.8,ratt:0},grund:{L:"2",p:.7,ratt:2},stark:{L:"3",p:.6,ratt:2},
+/* "Behöver träning" kräver underlag (rättat 2026-11-05 kväll): med p = 0,8 och utan krav på
+   antal svar räckte ett fel på första uppgiften i ett nytt område, och var fjärde elev med 75 %
+   rätt på nivå 1–2 fick "Behöver träning" (förut "På gång"). Nu krävs minst 6 svar i området,
+   och gränsen för "På gång" är sänkt, se LAGE_GRANS.pagang. */
+const BEHOVER_MIN_SVAR=6;
+const LAGE_GRANS={pagang:{L:"1",p:.65,ratt:0},grund:{L:"2",p:.7,ratt:2},stark:{L:"3",p:.6,ratt:2},
   mycket:{L:"4",p:.75,p5:.5,p5ensam:.6,ratt:3}};
 /* Antal rätt utan ledtråd på nivå L eller högre. Saknas räkningen i en annan kurs profil
    (sparad före 2026-11-05) gäller inget krav. */
@@ -9204,7 +9212,7 @@ function lageFor(area,cp=ensureCourseProfile()){
   if(mycketGrad(st,hoga).ok && formRatt(st,hoga[0])>=g.mycket.ratt) return LAGEN.mycket;
   if(P(g.stark.L)>=g.stark.p && formRatt(st,g.stark.L)>=g.stark.ratt) return LAGEN.stark;
   if(P(g.grund.L)>=g.grund.p && formRatt(st,g.grund.L)>=g.grund.ratt) return LAGEN.grund;
-  if(P(g.pagang.L)>=g.pagang.p) return LAGEN.pagang;
+  if(P(g.pagang.L)>=g.pagang.p || (st.n||0)<BEHOVER_MIN_SVAR) return LAGEN.pagang;
   return LAGEN.behover;
 }
 
@@ -9238,17 +9246,63 @@ function formValjNiva(w,rnd=Math.random){
   for(const L of NIVAER){ x-=w[L]||0; if(x<=0 && w[L]) return L; }
   return NIVAER.filter(L=>w[L]).at(-1)||null;
 }
-/* Mjuk färskhet: 1 för osedda kort, annars (ålder/100)²·0,8 med ålder i antal visade
-   uppgifter sedan sist. Ett kort på rätt nivå som eleven såg för länge sedan går
-   före ett färskt kort på fel nivå. Kort från det pågående passet visas inte igen. */
-function formFarskhet(h,id){
-  const a=uppgiftsAlder(h,id);
-  return a===Infinity ? 1 : Math.min(1,(a/FARSK_SKALA)**2)*.8;
+/* Färskhet (rättat 2026-11-05 kväll efter elevrapporter om samma uppgifter hela tiden).
+   Den mjuka färskheten från morgonen ((ålder/100)²) lät ett kort som visats för 20 uppgifter
+   sedan gå före ett osett kort en nivå bort, så små nivåhinkar gick runt. Nu gäller:
+   - Ett kort räknas som sett om det självt ELLER något annat delkort ur samma ursprungsuppgift
+     har visats (kedjan visar alla delar med samma inledning).
+   - Inom en nivå i ett område väljs bara osedda kort. Först när nivån är genomgången tas de
+     som visades längst tillbaka (ett helt varv per nivå).
+   - En genomgången nivå väger mindre ju närmare i tiden den gicks igenom (färskhet 0,6·(ålder/120)²),
+     så motorn hellre tar en närliggande nivå med osedda kort än upprepar samma få kort. */
+const FARSK_FULL=120;
+function ursprungsAlder(h,pool){
+  const tillU=new Map(pool.map(t=>[String(t.id),String(t.ursprungsId||t.id)]));
+  const m=new Map();
+  for(const [id,s] of Object.entries(h.ids||{})){
+    const u=tillU.get(id)||id, a=h.seq-s;
+    if(!(m.get(u)<=a)) m.set(u,a);
+  }
+  return m;
 }
+function kortAlder(h,t,uAlder){
+  const a=uppgiftsAlder(h,t.id), b=uAlder?.get(String(t.ursprungsId||t.id));
+  return Math.min(a,b==null?Infinity:b);
+}
+function formFarskhet(h,id,alder){
+  const a=alder ?? uppgiftsAlder(h,id);
+  return a===Infinity ? 1 : .6*Math.min(1,a/FARSK_FULL)**2;
+}
+/* Kandidaterna på en nivå: osedda kort, annars de som visades längst tillbaka. */
+function nivaHink(kort,h,uAlder){
+  if(!kort.length) return {farsk:0,kandidater:[]};
+  const ald=kort.map(t=>[t,kortAlder(h,t,uAlder)]);
+  const osedda=ald.filter(([,a])=>a===Infinity).map(([t])=>t);
+  if(osedda.length) return {farsk:1,kandidater:osedda};
+  const max=Math.max(...ald.map(([,a])=>a));
+  return {farsk:formFarskhet(h,null,max),kandidater:ald.filter(([,a])=>a>=max*.7).map(([t])=>t)};
+}
+/* Uppåt efter två rätt på en nivå (användarbeslut 2026-11-05 kväll): eleverna ska känna att
+   uppgifterna blir svårare när de klarar en nivå, utan att behöva klara tio. Är de tre senaste
+   svaren i området rätt utan ledtråd, och de två senaste på minst nivå T, får eleven prova nivå
+   T+1 direkt (med sannolikhet UPPAT_ANDEL, så att det inte blir helt förutsägbart). Modellens
+   skattning rör sig långsamt när eleven har mycket historik; regeln gör steget synligt direkt.
+   Gäller inte prov, Teknikpass (nivå 1–2) eller pass på bestämda nivåer. */
+const UPPAT_ANDEL=.8;
+function uppatNiva(area,cp=ensureCourseProfile()){
+  if(state.prov || state.focusNiva || state.passTyp==="teknik") return null;
+  const h=(cp.history||[]).filter(x=>x?.area===area).slice(-3);
+  if(h.length<3 || !h.every(x=>x.ok && !x.hint)) return null;
+  const T=Math.min(...h.slice(-2).map(x=>Number(nivaForId(x.id))));
+  return T>=1 && T<5 ? String(T+1) : null;
+}
+/* Före område och nivå: ta bort kort och ursprungsuppgifter som redan visats i passet. */
 function mjukaUppgifter(pool,h){
   const historik=state.passHistory?.length ? state.passHistory.map(x=>x.task.id) : state.lastIds;
-  const iPasset=new Set(historik);
-  const kvar=pool.filter(t=>!iPasset.has(t.id) && formFarskhet(h,t.id)>0);
+  const iPasset=new Set(historik.map(String));
+  const tillU=new Map(pool.map(t=>[String(t.id),String(t.ursprungsId||t.id)]));
+  const uPasset=new Set(historik.map(id=>tillU.get(String(id))||String(id)));
+  const kvar=pool.filter(t=>!iPasset.has(String(t.id)) && !uPasset.has(String(t.ursprungsId||t.id)));
   return kvar.length ? kvar : farskaUppgifter(pool,h);
 }
 
@@ -9416,15 +9470,23 @@ function chooseTask(){
   pool.forEach(t=>buckets[levelOf(t)].push(t));
 
   /* Nivåmotorn: nivån där eleven har ungefär passets målchans att lyckas,
-     vägd med hur färskt nivåns innehåll är. */
-  const farsk=Object.fromEntries(NIVAER.map(L=>[L,!buckets[L].length ? 0
-    : state.prov ? 1 : Math.max(...buckets[L].map(t=>formFarskhet(sedda,t.id)))]));
+     vägd med hur färskt nivåns innehåll är (osedda kort, se nivaHink). */
+  const uAlder=state.prov ? null : ursprungsAlder(sedda,pool);
+  const hinkar=Object.fromEntries(NIVAER.map(L=>[L,state.prov
+    ? {farsk:buckets[L].length?1:0,kandidater:buckets[L]} : nivaHink(buckets[L],sedda,uAlder)]));
+  const farsk=Object.fromEntries(NIVAER.map(L=>[L,hinkar[L].farsk]));
   const mal=formMal(area,state.passTyp,{passStart:state.sessionDone===0});
   let level=formValjNiva(formNivaVikter(area,farsk,mal));
   if(!level || !buckets[level].length)
     level=NIVAER.find(L=>buckets[L].length)||"1";
+  // Två rätt i rad på en nivå: prova nästa nivå (se uppatNiva). Finns den inte i området tas närmast högre.
+  const upp=uppatNiva(area,cp);
+  if(upp && Number(upp)>Number(level) && Math.random()<UPPAT_ANDEL){
+    const hogre=NIVAER.find(L=>Number(L)>=Number(upp) && hinkar[L].kandidater.length);
+    if(hogre) level=hogre;
+  }
 
-  let cands=buckets[level];
+  let cands=hinkar[level].kandidater.length ? hinkar[level].kandidater : buckets[level];
   if(state.prov){ const hogre=provNivaKandidater(pool,area); if(hogre) cands=hogre; }
   // Aldrig sedda uppgifter (och sådana som legat länge) får ett litet försprång.
   const nyhet=t=>{
@@ -9436,7 +9498,6 @@ function chooseTask(){
       + (state.course==="hist" ? historyCriterionMastery(t,cp)*.22 : 0)
       + Math.random()*.9
       - nyhet(t)
-      + (1-formFarskhet(sedda,t.id))*1.2
       + (t.ursprungsId && state.senasteUrsprung.includes(t.ursprungsId) ? 1.5 : 0)}))
     .sort((a,b)=>a.k-b.k);
   const top=scored.slice(0,Math.max(1,Math.ceil(scored.length*.4)));
@@ -15577,7 +15638,7 @@ function oppnaMatarhjalp(){
 
       <h3>Lägena i ett område</h3>
       <ul class="nivalista">
-        <li><b>Behöver träning</b> Nivå 1 sitter inte än.</li>
+        <li><b>Behöver träning</b> Nivå 1 sitter inte än. Visas först när du gjort minst sex uppgifter i området.</li>
         <li><b>På gång</b> Du klarar nivå 1.</li>
         <li><b>Behärskar grunderna</b> Du klarar nivå 2 och har visat det.</li>
         <li><b>Stark</b> Du klarar en stor del av nivå 3.</li>
@@ -15586,9 +15647,11 @@ function oppnaMatarhjalp(){
 
       <h3>Så väljs uppgifterna</h3>
       <p>Appen uppskattar hur säker du är i varje område och väljer uppgifter
-      som du klarar ungefär tre gånger av fyra. Klarar du dem lätt blir de
-      svårare, och efter två fel i rad kommer en lättare. Börjar du på ett
-      nytt område startar du på den nivå du visat i kursens andra områden.</p>
+      som du klarar ungefär tre gånger av fyra. Klarar du två uppgifter i rad
+      på en nivå får du prova nästa nivå direkt, och efter två fel i rad kommer
+      en lättare. Samma uppgift kommer inte tillbaka förrän du gått igenom
+      nivåns andra uppgifter. Börjar du på ett nytt område startar du på den
+      nivå du visat i kursens andra områden.</p>
 
       <h3>Kapitlen</h3>
       <p>Staplarna har samma färger som ringarna. Tryck på ett kapitel för

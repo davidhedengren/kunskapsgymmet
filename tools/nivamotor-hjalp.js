@@ -24,11 +24,11 @@ function nivamotor({cp,uppgifter=[],state={}}={}){
     function omradesNivaer(){const m={};uppgifter.forEach(t=>(m[t.omr||"ovrigt"] ||= new Set()).add(String(t.traningsniva)));return m;}
     var _omrNivaer={lista:null,karta:null};`,c);
   vm.runInContext(rad('LEDTRAD_VIKT'),c);
-  vm.runInContext(html.slice(html.indexOf('const FORM_B='),html.indexOf('const FARSK_SKALA=')).replace(/const /g,'var '),c);
-  vm.runInContext(rad('FARSK_SKALA'),c);
-  for(const n of ['OMRADE_NIVAER','STEG_MIN','STEG_GRANS','LAGEN','LAGE_GRANS'])vm.runInContext(rad(n),c);
+  vm.runInContext(html.slice(html.indexOf('const FORM_B='),html.indexOf('function formPkt(')).replace(/const /g,'var '),c);
+  vm.runInContext(rad('FARSK_FULL'),c);
+  for(const n of ['OMRADE_NIVAER','STEG_MIN','STEG_GRANS','LAGEN','BEHOVER_MIN_SVAR','UPPAT_ANDEL','LAGE_GRANS'])vm.runInContext(rad(n),c);
   for(const n of ['legacyLevelStat','storedLevelStat','formPkt','formForvantad','formBayes','formKursPrior','formFranHistorik',
-    'formagaLas','formGissning','formagaUppdatera','formMal','formNivaVikter','formValjNiva','formFarskhet','tranarNivaLage',
+    'formagaLas','formGissning','formagaUppdatera','formMal','formNivaVikter','formValjNiva','formFarskhet','ursprungsAlder','kortAlder','nivaHink','uppatNiva','tranarNivaLage',
     'omradeHar','omradeM','stegVarde','chooseArea','formRatt','formRattFranHistorik','omradetsNivaer','hogaNivaer','mycketGrad','lageFor'])
     vm.runInContext(kod(n),c);
   return c;

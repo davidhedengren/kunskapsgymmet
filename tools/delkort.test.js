@@ -419,3 +419,8 @@ test('Ma2 4.95 c visar sin egen figur och procentdata på nivå 1',()=>{
   assert.match(q.t,/<svg/);assert.match(q.t,/10 %/);assert.match(q.s,/100-10-10/);
   assert.equal(c.answerLayout(q).n,1);
 });
+
+test('Ma2 yttervinklar utan namngiven ordning är svarsmängder',()=>{
+ const ma2=bank('uppgifterma2.js');for(const [id,n] of [['3.172',2],['3.173',3]]){const q=ma2.find(t=>t.id===id),layout=c.answerLayout(q);assert.equal(layout.n,n,id);assert.equal(layout.ordnad,false,id);assert.equal(layout.flersvar,true,id)}
+ for(const id of ['3.181','3.197']){const q=ma2.find(t=>t.id===id);assert.equal(c.answerLayout(q).ordnad,true,id)}
+});

@@ -200,35 +200,56 @@ window.BANKMA1 = [
     "spel": true
   },
   {
-    "id": "0.06",
-    "kap": 0,
-    "omr": "brakform",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>En pizza delas i åtta bitar som är olika stora. Tre bitar äts upp. Kan andelen som ätits vara mindre än, lika med respektive större än \\(\\frac38\\)? Välj rätt rad i den ordningen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: ja, ja, ja. Antalet bitar bestämmer andelen bara om bitarna är lika stora. Tre små, tre medelstora eller tre stora bitar kan ge olika andelar.</p></div>",
-    "ledtrad": "<p>Vilken information saknas om de tre bitar som har ätits?</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Bråk som del av en helhet",
-    "formaga": [
-      "begrepp"
-    ],
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": "brakrakning",
-    "alternativ": [{"txt": "ja, ja, ja", "ratt": true}, {"txt": "nej, ja, nej", "ratt": false}, {"txt": "nej, ja, ja", "ratt": false}, {"txt": "ja, ja, nej", "ratt": false}]
-  },
+  "id": "0.06",
+  "kap": 0,
+  "omr": "brakform",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>En pizza delas i åtta bitar som är olika stora. Tre bitar äts upp. Kan andelen som ätits vara mindre än, lika med respektive större än \\(\\frac38\\)? Välj ett alternativ. De tre svaren ska stå i den ordningen.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andel handlar om storlek, inte bara antal bitar</p><p>När bitarna är olika stora behöver tre av åtta bitar inte motsvara tre åttondelar av pizzan.</p></li><li><p class=\"facit-rubrik\">Alla tre möjligheterna kan förekomma</p><p>Tre små bitar kan tillsammans vara mindre än tre åttondelar, och tre stora kan vara mer. Tre olika stora bitar kan också tillsammans vara precis tre åttondelar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ja, ja, ja.</p></div>",
+  "ledtrad": "<p>Vilken information saknas om de tre bitar som har ätits?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Bråk som del av en helhet",
+  "formaga": [
+    "begrepp"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "omrTidigare": "brakrakning",
+  "alternativ": [
+    {
+      "txt": "ja, ja, ja",
+      "ratt": true,
+      "kommentar": "Alla tre fallen är möjliga eftersom bitarna är olika stora."
+    },
+    {
+      "txt": "nej, ja, nej",
+      "ratt": false,
+      "kommentar": "Tre små bitar kan ge mindre än tre åttondelar, och tre stora kan ge mer."
+    },
+    {
+      "txt": "nej, ja, ja",
+      "ratt": false,
+      "kommentar": "Tre små bitar kan tillsammans ge mindre än tre åttondelar."
+    },
+    {
+      "txt": "ja, ja, nej",
+      "ratt": false,
+      "kommentar": "Tre stora bitar kan tillsammans ge mer än tre åttondelar."
+    }
+  ]
+},
   {
     "id": "0.07",
     "kap": 0,
@@ -11820,71 +11841,103 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "0.305",
-    "kap": 0,
-    "omr": "brakrakning",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>Vilket bråk är störst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Jämför till exempel med gemensam nämnare 120:</p><div class=\"facit-matte\">\\[\\frac23=\\frac{80}{120}\\],</div></div></li><li><div class=\"facit-matte\">\\[\\frac35=\\frac{72}{120}\\],</div></li><li><div class=\"facit-matte\">\\[\\frac58=\\frac{75}{120}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac23\\).</p></div></div>",
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare och jämför täljarna.</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Räkna med bråk",
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Grundläggande bråkräkning"
-    ],
-    "alternativ": [{"txt": "\\(\\frac58\\)", "ratt": false}, {"txt": "\\(\\frac35\\)", "ratt": false}, {"txt": "\\(\\frac23\\)", "ratt": true}]
-  },
+  "id": "0.305",
+  "kap": 0,
+  "omr": "brakrakning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Vilket bråk är störst? Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng utan att ändra värdet: \\(\\frac ab=\\frac{ak}{bk}\\)</p><p>Jämför bråken som hundratjugondelar.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac58&=\\frac{75}{120}\\\\[0.6em]\\frac35&=\\frac{72}{120}\\\\[0.6em]\\frac23&=\\frac{80}{120}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför täljarna när nämnarna är lika</p><p>80 hundratjugondelar är mer än 75 och 72 hundratjugondelar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac23\\).</p></div>",
+  "ledtrad": "<p>Skriv bråken med en gemensam nämnare och jämför täljarna.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Räkna med bråk",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Grundläggande bråkräkning"
+  ],
+  "alternativ": [
+    {
+      "txt": "\\(\\frac58\\)",
+      "ratt": false,
+      "kommentar": "5/8 är 75/120, vilket är mindre än 80/120."
+    },
+    {
+      "txt": "\\(\\frac35\\)",
+      "ratt": false,
+      "kommentar": "3/5 är 72/120, vilket är mindre än 80/120."
+    },
+    {
+      "txt": "\\(\\frac23\\)",
+      "ratt": true,
+      "kommentar": "2/3 är 80/120, det största av de tre bråken."
+    }
+  ]
+},
   {
-    "id": "0.306",
-    "kap": 0,
-    "omr": "brakform",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>Vilket bråk ligger närmast 1?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: \\(\\frac7{10}\\). Avstånden till 1 är \\(\\frac3{10}=\\frac{36}{120}\\), \\(\\frac38=\\frac{45}{120}\\) och \\(\\frac13=\\frac{40}{120}\\). Minst avstånd har \\(\\frac7{10}\\).</p></div>",
-    "ledtrad": "<p>Jämför hur mycket som fattas till 1.</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Jämföra och ordna bråk",
-    "formaga": [
-      "begrepp"
-    ],
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": "brakrakning",
-    "familjTidigare": [
-      "Jämföra avstånd till ett heltal"
-    ],
-    "alternativ": [{"txt": "\\(\\frac58\\)", "ratt": false}, {"txt": "\\(\\frac7{10}\\)", "ratt": true}, {"txt": "\\(\\frac23\\)", "ratt": false}]
-  },
+  "id": "0.306",
+  "kap": 0,
+  "omr": "brakform",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Vilket bråk ligger närmast 1? Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avståndet till 1: \\(1-\\frac ab\\)</p><p>Alla bråken är mindre än 1. Räkna hur mycket som fattas.</p><div class=\"facit-matte\">\\[\\begin{aligned}1-\\frac58&=\\frac38\\\\1-\\frac7{10}&=\\frac3{10}\\\\1-\\frac23&=\\frac13\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför avstånden med samma nämnare</p><p>Det minsta avståndet ger bråket närmast 1.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac38&=\\frac{45}{120}\\\\[0.6em]\\frac3{10}&=\\frac{36}{120}\\\\[0.6em]\\frac13&=\\frac{40}{120}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac7{10}\\).</p></div>",
+  "ledtrad": "<p>Jämför hur mycket som fattas till 1.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Jämföra och ordna bråk",
+  "formaga": [
+    "begrepp"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "omrTidigare": "brakrakning",
+  "familjTidigare": [
+    "Jämföra avstånd till ett heltal"
+  ],
+  "alternativ": [
+    {
+      "txt": "\\(\\frac58\\)",
+      "ratt": false,
+      "kommentar": "Avståndet 3/8 = 45/120 är större än 36/120."
+    },
+    {
+      "txt": "\\(\\frac7{10}\\)",
+      "ratt": true,
+      "kommentar": "Avståndet 3/10 = 36/120 är minst av de tre avstånden."
+    },
+    {
+      "txt": "\\(\\frac23\\)",
+      "ratt": false,
+      "kommentar": "Avståndet 1/3 = 40/120 är större än 36/120."
+    }
+  ]
+},
   {
     "id": "0.307",
     "kap": 0,
@@ -12843,69 +12896,111 @@ window.BANKMA1 = [
     "alternativ": [{"txt": "0,31", "ratt": false}, {"txt": "0,0031", "ratt": false}, {"txt": "0,031", "ratt": true}]
   },
   {
-    "id": "0.401",
-    "kap": 0,
-    "omr": "decimaltal_positionssystem",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilket tal är störst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Jämför tiondelar och sedan hundradelar: 0,57 = 0,570 är störst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,57.</p></div></div>",
-    "familj": "Jämföra decimaltal och tallinjen",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Jämför hundradelarna när tiondelarna är lika.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Jämföra och ordna decimaltal"
-    ],
-    "alternativ": [{"txt": "0,507", "ratt": false}, {"txt": "0,57", "ratt": true}, {"txt": "0,509", "ratt": false}, {"txt": "0,55", "ratt": false}]
-  },
+  "id": "0.401",
+  "kap": 0,
+  "omr": "decimaltal_positionssystem",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilket tal är störst? Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv lika många decimaler: \\(0{,}57=0{,}570\\)</p><p>Nollor sist i decimaldelen ändrar inte värdet.</p><div class=\"facit-matte\">\\[\\begin{aligned}0{,}507&\\quad 0{,}570\\\\0{,}509&\\quad 0{,}550\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför hundradelarna</p><p>Alla har fem tiondelar. Talet 0,570 har flest hundradelar och är därför störst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}57\\).</p></div>",
+  "familj": "Jämföra decimaltal och tallinjen",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Jämför hundradelarna när tiondelarna är lika.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Jämföra och ordna decimaltal"
+  ],
+  "alternativ": [
+    {
+      "txt": "0,507",
+      "ratt": false,
+      "kommentar": "0,507 har noll hundradelar, medan 0,57 har sju."
+    },
+    {
+      "txt": "0,57",
+      "ratt": true,
+      "kommentar": "0,57 = 0,570 är större än de andra tre talen."
+    },
+    {
+      "txt": "0,509",
+      "ratt": false,
+      "kommentar": "0,509 har noll hundradelar, medan 0,57 har sju."
+    },
+    {
+      "txt": "0,55",
+      "ratt": false,
+      "kommentar": "0,55 har fem hundradelar, medan 0,57 har sju."
+    }
+  ]
+},
   {
-    "id": "0.402",
-    "kap": 0,
-    "omr": "decimaltal_positionssystem",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilket tal är minst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv med samma antal decimaler</p><p>Med tre decimaler blir talen</p><div class=\"facit-matte\">\\[1{,}080,\\qquad 1{,}018,\\qquad 1{,}080,\\qquad 1{,}008.\\]</div><p>Alla har samma ental och tiondel. ”1,008” har 0 hundradelar, medan ”1,018” har 1 och ”1,08” och ”1,080” har 8. ”1,008” är därför minst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}008\\).</p></div>",
-    "familj": "Jämföra decimaltal och tallinjen",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Nollor inne i decimaldelen håller plats åt andra siffror. Skriv talen med tre decimaler.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Jämföra och ordna decimaltal"
-    ],
-    "alternativ": [{"txt": "1,08", "ratt": false}, {"txt": "1,018", "ratt": false}, {"txt": "1,080", "ratt": false}, {"txt": "1,008", "ratt": true}]
-  },
+  "id": "0.402",
+  "kap": 0,
+  "omr": "decimaltal_positionssystem",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilket tal är minst? Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv lika många decimaler: \\(1{,}08=1{,}080\\)</p><p>En nolla sist i decimaldelen ändrar inte värdet.</p><div class=\"facit-matte\">\\[\\begin{aligned}1{,}080&\\quad 1{,}018\\\\1{,}080&\\quad 1{,}008\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför hundradelarna</p><p>Alla tal har samma ental och tiondel. 1,008 har noll hundradelar, medan de andra har en eller åtta.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}008\\).</p></div>",
+  "familj": "Jämföra decimaltal och tallinjen",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Nollor inne i decimaldelen håller plats åt andra siffror. Skriv talen med tre decimaler.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Jämföra och ordna decimaltal"
+  ],
+  "alternativ": [
+    {
+      "txt": "1,08",
+      "ratt": false,
+      "kommentar": "1,08 = 1,080 har åtta hundradelar; 1,008 har noll."
+    },
+    {
+      "txt": "1,018",
+      "ratt": false,
+      "kommentar": "1,018 har en hundradel; 1,008 har noll."
+    },
+    {
+      "txt": "1,080",
+      "ratt": false,
+      "kommentar": "1,080 har åtta hundradelar; 1,008 har noll."
+    },
+    {
+      "txt": "1,008",
+      "ratt": true,
+      "kommentar": "1,008 har minst antal hundradelar när ental och tiondelar är lika."
+    }
+  ]
+},
   {
     "id": "0.403",
     "kap": 0,
@@ -23137,37 +23232,48 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "0.782",
-    "kap": 0,
-    "omr": "andelar",
-    "kurs": [
-      "1a",
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilken andel är störst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenttalet som ett bråk</p><div class=\"facit-matte\">\\[42\\,\\%=\\frac{42}{100}=\\frac{21}{50}.\\]</div></li><li><p class=\"facit-rubrik\">Jämför exakt med gemensam nämnare</p><div class=\"facit-matte\">\\[\\frac5{12}=\\frac{125}{300},\\qquad\\frac{21}{50}=\\frac{126}{300}.\\]</div><p>126 trehundradelar är mer än 125 trehundradelar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 42 %.</p></div>",
-    "familj": "Jämföra och omvandla andelar",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Skriv båda andelarna i samma form innan du jämför dem.</p>",
-    "spel": true,
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "familjTidigare": [
-      "Jämföra andelar"
-    ],
-    "alternativ": [{"txt": "\\(\\frac5{12}\\)", "ratt": false}, {"txt": "42 %", "ratt": true}]
-  },
+  "id": "0.782",
+  "kap": 0,
+  "omr": "andelar",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilken andel är störst? Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procent som bråk: \\(p\\,\\%=\\frac p{100}\\)</p><p>42 procent är 42 hundradelar.</p><div class=\"facit-matte\">\\[42\\,\\%=\\frac{42}{100}=\\frac{21}{50}\\]</div></li><li><p class=\"facit-rubrik\">Jämför med gemensam nämnare</p><p>126 trehundradelar är mer än 125 trehundradelar.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac5{12}&=\\frac{125}{300}\\\\[0.6em]\\frac{21}{50}&=\\frac{126}{300}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 42 %.</p></div>",
+  "familj": "Jämföra och omvandla andelar",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "ledtrad": "<p>Skriv båda andelarna i samma form innan du jämför dem.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "familjTidigare": [
+    "Jämföra andelar"
+  ],
+  "alternativ": [
+    {
+      "txt": "\\(\\frac5{12}\\)",
+      "ratt": false,
+      "kommentar": "5/12 = 125/300 är mindre än 42 % = 126/300."
+    },
+    {
+      "txt": "42 %",
+      "ratt": true,
+      "kommentar": "42 % = 126/300 är större än 5/12 = 125/300."
+    }
+  ]
+},
   {
     "id": "0.783",
     "kap": 0,
@@ -136887,38 +136993,59 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "0.941",
-    "kap": 0,
-    "omr": "brakform",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilket av talen är störst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skriv alla i decimalform:</p><div class=\"facit-matte\">\\[\\frac58=0{,}625\\],</div></div></li><li><p>\\(0{,}6\\),</p></li><li><p>\\(\\frac23=0{,}666\\ldots\\) och \\(0{,}65\\).</p></li><li><p>Störst är \\(\\frac23\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac23\\)</p></div></div>",
-    "familj": "Jämföra och ordna bråk",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Skriv alla tal i decimalform.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": "brakrakning",
-    "familjTidigare": [
-      "Jämföra bråk"
-    ],
-    "alternativ": [{"txt": "\\(\\frac58\\)", "ratt": false}, {"txt": "0,6", "ratt": false}, {"txt": "0,65", "ratt": false}, {"txt": "\\(\\frac23\\)", "ratt": true}]
-  },
+  "id": "0.941",
+  "kap": 0,
+  "omr": "brakform",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilket av talen är störst? Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken som decimaltal: \\(\\frac ab=a\\div b\\)</p><p>Det går att jämföra när alla tal är skrivna i samma form.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac58&=0{,}625\\\\[0.6em]\\frac23&=0{,}666\\ldots\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Ordna talen efter storlek</p><p>Jämför först tiondelarna och sedan hundradelarna.</p><div class=\"facit-matte\">\\[0{,}600\\lt0{,}625\\lt0{,}650\\lt0{,}666\\ldots\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac23\\).</p></div>",
+  "familj": "Jämföra och ordna bråk",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Skriv alla tal i decimalform.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "omrTidigare": "brakrakning",
+  "familjTidigare": [
+    "Jämföra bråk"
+  ],
+  "alternativ": [
+    {
+      "txt": "\\(\\frac58\\)",
+      "ratt": false,
+      "kommentar": "5/8 = 0,625 är mindre än 2/3 = 0,666…"
+    },
+    {
+      "txt": "0,6",
+      "ratt": false,
+      "kommentar": "0,6 är mindre än 2/3 = 0,666…"
+    },
+    {
+      "txt": "0,65",
+      "ratt": false,
+      "kommentar": "0,65 är mindre än 2/3 = 0,666…"
+    },
+    {
+      "txt": "\\(\\frac23\\)",
+      "ratt": true,
+      "kommentar": "2/3 = 0,666… är störst."
+    }
+  ]
+},
   {
     "id": "0.942",
     "kap": 0,

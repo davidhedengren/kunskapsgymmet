@@ -1,0 +1,10 @@
+'use strict';const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('fs'),vm=require('vm');let c={window:{}};vm.runInNewContext(fs.readFileSync('uppgifterma2.js','utf8'),c);const q=id=>c.window.BANKMA2.find(x=>x.id===id);
+const cases=[['4.328',[2,3,3,4,5,7],3.5,3,4,Math.sqrt(3.2),5],['4.329',[0,0,1,1,1,1,2,2,3,4],1,1,1.5,Math.sqrt(14.5/9),4],['4.330',[0,0,0,1,2,2,3,8],1.5,0,2,Math.sqrt(50/7),2.5],['4.331',[8,10,10,10,11,11],10,10,10,Math.sqrt(6/5),3],['4.332',[8,9,9,10,11,13],9.5,9,10,Math.sqrt(3.2),5]];
+const mean=v=>v.reduce((a,b)=>a+b,0)/v.length,sd=v=>Math.sqrt(v.reduce((a,b)=>a+(b-mean(v))**2,0)/(v.length-1));
+test('Beräkningar och rättningsnycklar för samtliga fem uppgifter',()=>{
+ for(const[id,v,median,mode,m,s,d]of cases){const a=q(id),sv=a.rättSvar;assert.equal(sv[0],median,id);assert.equal(sv[1],mode,id);assert.equal(sv[2][0],m,id);assert.ok(Math.abs(sv[2][1]-s)<1e-9,id);assert.equal(sv[3],d,id);assert.equal(mean(v),m,id);assert.ok(Math.abs(sd(v)-s)<1e-9,id);assert.equal((v[(v.length-1)>>1]+v[v.length>>1])/2,median,id);const count=new Map();for(const n of v)count.set(n,(count.get(n)||0)+1);assert.equal([...count].sort((a,b)=>b[1]-a[1])[0][0],mode,id);if(id!=='4.330')assert.equal(Math.max(...v)-Math.min(...v),d,id);else assert.equal((2+3)/2-(0+0)/2,d);}
+});
+test('Alla delkort ger självständig GeoGebra-arbetsgång utan att exponera senare svar',()=>{
+ for(const[id]of cases){const a=q(id);assert.equal(a.geogebra,true,id);assert.equal(a.miniräknare,true,id);assert.equal(a.spelDelar.length,4);for(const d of a.spelDelar){assert.match(d.s,/Envariabelanalys/,id);assert.match(d.s,/facit-svar/,id);}assert.match(a.spelDelar[0].s,/Median/,id);assert.match(a.spelDelar[1].s,/Stolpdiagram|stolpdiagram/,id);assert.match(a.spelDelar[2].s,/raden s/i,id);assert.doesNotMatch(a.spelDelar[0].s,/På raden Medel|raden s står/i,id);}
+ const c=q('4.328').spelDelar[2].s;assert.match(c,/geogebra-statistik-vantetider/);assert.ok(fs.statSync('bilder/geogebra-statistik-vantetider-2026-11-05.png').size>1000);assert.doesNotMatch(c,/variationsbredd|Max − Min/);
+});

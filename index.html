@@ -4093,7 +4093,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-04-facit-1954";
+const BANK_VERSION="2026-11-05-fellogg";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11092,6 +11092,17 @@ function formatRatt(anv,facit,meta){
         if(likt!==null) return likt;
         const u=normalizeAnswer(v), e=normalizeAnswer(fd.uttryck);
         return !!u && (u===e || explicitMultiplikation(u)===explicitMultiplikation(e));
+      }
+      /* En funktionsetikett med eller utan argument kan beskriva samma storhet:
+         V(t)=... och V=... . Behåll både namnet och argumentets variabel. */
+      const etikett=x=>stadaSvar(rensa(x)).match(/^\s*([a-zåäö])\s*(?:\(\s*([a-z])\s*\))?\s*=\s*(.+)$/i);
+      const ea=etikett(a), ef=etikett(f);
+      if(ea && ef && Boolean(ea[2])!==Boolean(ef[2])){
+        if(ea[1].toLowerCase()!==ef[1].toLowerCase()) return false;
+        const arg=(ea[2]||ef[2]).toLowerCase();
+        const uttryck=normalizeMathInput(ef[3]);
+        if(!new RegExp(`(^|[^a-z])${arg}([^a-z]|$)`,"i").test(uttryck)) return false;
+        return algebraisktLika(ea[3],ef[3])===true;
       }
       /* Två ekvationer jämförs som ekvationer, så att y-4=4(x-2) godtas mot y=4x-4. */
       if(rensa(a).includes("=") && rensa(f).includes("="))

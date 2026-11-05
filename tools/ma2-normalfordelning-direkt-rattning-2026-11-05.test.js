@@ -15,3 +15,4 @@ test('Avrundade och mer precisa normalfördelningssvar godtas',()=>{
  for(const [id,s,idx] of [['4.2043','170',0],['4.2043','190',1],['4.2044','35',0],['4.2051','6',0]])assert.equal(grade(id,s,idx),false,id+' '+s);
 });
 test('Lådagrammens delkort ärver GeoGebra och miniräknare',()=>{const cards=c.expandGameTask(q('4.361'));assert.equal(cards.length,2);for(const card of cards){assert.equal(card.geogebra,true);assert.equal(card.miniräknare,true);assert.match(card.s,/GeoGebra/)}});
+test('GeoGebra-resultat och tidigare avrundningar i andelsuppgifter godtas',()=>{for(const [id,s,idx] of [['4.254','0,13',0],['4.254','0,13499',0],['4.255','45',0],['4.255','46',0],['4.258','15,9',0],['4.258','2,27',1],['4.259','2,41',0],['4.262','50',0],['4.264','491',0]])assert.equal(grade(id,s,idx),true,id+' '+s);for(const [id,s,idx] of [['4.254','1',0],['4.255','60',0],['4.258','30',0],['4.259','5',0],['4.262','70',0],['4.264','450',0]])assert.equal(grade(id,s,idx),false,id+' '+s)});

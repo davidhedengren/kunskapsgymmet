@@ -213,3 +213,31 @@ Användaren godkände fas 1 med målet 75 %. Ändringen ligger i `index.html`, i
   - Ett nytt område startade på nivå 3.
   - Två fel i rad gav en lätt uppgift, och därefter kom eleven tillbaka till nivå 3.
   - Konsolen var fri från fel.
+
+## 7. Fas 2 genomförd 2026-11-05
+
+- **Ett gemensamt mått** (`omradeM`): hur väl ett område sitter, mätt som medelchansen att klara nivå 2 och 3 enligt förmågan.
+  - Det ersätter andel rätt (`cp.areas`) i etiketter och prickar (`cardStatus`, `areaStatus`).
+  - Det används också i kursöversikterna (`kursLage`, `kursMomentLage`), i teknik-, tungt- och repetitionspassens områdesval (`svagaInom`, `starkaInom`, `repetitionInom`), i ”Träna mer på” och i `svagastIKapitel`.
+  - Gränserna är oförändrade: ”Stark” från 0,78 och ”På gång” från 0,55.
+  - En elev som klarar 3 av 4 på nivå 3 visas nu som ”Stark”. En elev som bara gör nivå 1 och klarar 9 av 10 visas inte som ”Stark”.
+  - En annan kurs än den aktiva läses bara ur sparad förmåga, eftersom nivåerna hör till den aktiva banken. Saknas förmåga används den gamla andelen rätt.
+- **Ringarna** (`stegVarde`) bygger på chansen att klara stegets nivåer.
+  - Steget är klart vid 85 % på grunderna, 75 % på tillämpning och 65 % på utmaning, och när eleven gjort minst `STEG_MIN` uppgifter i området.
+  - Hjälptexten ”Så läser du mätarna” är uppdaterad och har ett nytt stycke, ”Så väljs uppgifterna”.
+- **Områdesvalet** (`chooseArea`) sker efter behov i blandade pass. Poängen är summan av:
+  - behovet: 0,9 minus måttet för området,
+  - vila: dagar sedan senast, upp till 0,35 efter en vecka,
+  - 0,3 för dagens lektionsområde,
+  - minus 0,8 för det senaste området,
+  - en slumpterm mellan 0 och 0,45.
+- **Kedjor** (`kedjaStarta`). Inledande delar där eleven har över 93 % chans (`KEDJA_UNDER`) visas som ”Hoppad – den här delen ligger under din nivå”, men aldrig förbi den del motorn valde. Hoppningen sparas med passet (`under`).
+- **Oförändrat.** Delmomentens etiketter (`cp.families`) bygger fortfarande på andel rätt, eftersom förmågan skattas per område och inte per delmoment. Medaljerna Kapitelmästare, Helkurslyft och Nivå 3 använder fortfarande nivåstatistiken.
+- **Tester.**
+  - `tools/nivamotor-fas2-2026-11-05.test.js` prövar etiketter, ringar, områdesval efter behov och vila, och läsning av andra kurser.
+  - Fas 1-testerna och de berörda äldre testerna (`admin-bladdra`, `felrapporter-2026-10-13`, `kapitel-blandat`, `pass-historik`, `uppdragsbok`) går igenom.
+  - `delkort.test.js` har samma 3 innehållsfel som före fas 1.
+- **Kontroll i webbläsaren** (Fy1, testprofil utan inloggning):
+  - Kedjan 4.85 hade delarna a och b på nivå 1, c på nivå 2 och d på nivå 3. En elev med 87 % chans på nivå 3 började på d, och a–c visades som hoppade.
+  - Etiketterna följde förmågan även när den gamla andelen rätt pekade åt andra hållet.
+  - Konsolen var fri från fel.

@@ -6886,10 +6886,10 @@ function kursMomentLage(id){
   let lista=null;
   try{ lista=JSON.parse(localStorage.getItem(KURSMOMENT_KEY)||"{}")[id]?.kort; }catch(_){}
   if(!Array.isArray(lista) || !lista.length) return null;
-  const areas=(profile.courses||{})[id]?.areas||{};
+  const cpK=(profile.courses||{})[id]||{};
   const r={stark:0,pagang:0,svag:0,ny:0,totalt:lista.length};
   lista.forEach(omr=>{
-    const v=(omr||[]).map(k=>typeof areas[k]==="number"?areas[k]:null);
+    const v=(omr||[]).map(k=>omradeHar(k,cpK)?omradeM(k,cpK):null);
     if(!v.some(x=>x!==null)){ r.ny++; return; }
     const m=v.reduce((a,x)=>a+(x||0),0)/v.length;
     if(m>=.78) r.stark++; else if(m>=.55) r.pagang++; else r.svag++;
@@ -6899,7 +6899,8 @@ function kursMomentLage(id){
 function kursLage(id){
   const cp=(profile.courses||{})[id];
   if(!cp) return null;
-  const varden=Object.values(cp.areas||{}).filter(x=>typeof x==="number");
+  const nycklar=[...new Set([...Object.keys(cp.areas||{}),...Object.keys(cp.formaga||{})])].filter(k=>omradeHar(k,cp));
+  const varden=nycklar.map(k=>omradeM(k,cp));
   if(!varden.length) return null;
   let uppgifter=0;
   Object.values(cp.levels||{}).forEach(a=>{
@@ -7401,10 +7402,10 @@ function hittaTraningskort(key){
 
 function cardStatus(kort){
   const cp=ensureCourseProfile();
-  const varden=kort.omr.map(k=>typeof cp.areas[k]==="number"?cp.areas[k]:null);
-  const seen=varden.some(v=>v!==null);
-  if(!seen) return {seen:false,m:0,label:"Ny",tone:"t-new",mcls:"m-new"};
-  const m=varden.reduce((a,v)=>a+(v||0),0)/varden.length;
+  const sedda=kort.omr.filter(k=>omradeHar(k,cp));
+  if(!sedda.length) return {seen:false,m:0,label:"Ny",tone:"t-new",mcls:"m-new"};
+  // Otränade delområden räknas som 0, precis som förut.
+  const m=kort.omr.reduce((a,k)=>a+(omradeHar(k,cp)?omradeM(k,cp):0),0)/kort.omr.length;
   if(m>=.78) return {seen:true,m,label:"Stark",tone:"t-good",mcls:""};
   if(m>=.55) return {seen:true,m,label:"På gång",tone:"t-mid",mcls:""};
   return {seen:true,m,label:"Behöver träning",tone:"t-low",mcls:""};
@@ -7422,8 +7423,8 @@ function delmomentStatus(family){
 
 function areaStatus(key){
   const cp=ensureCourseProfile();
-  const seen=typeof cp.areas[key]==="number";
-  const m=seen?cp.areas[key]:0;
+  const seen=omradeHar(key,cp);
+  const m=seen?omradeM(key,cp):0;
   if(!seen)   return {seen:false,m:0,label:"Ny",tone:"t-new",mcls:"m-new"};
   if(m>=.78)  return {seen:true,m,label:"Stark",tone:"t-good",mcls:""};
   if(m>=.55)  return {seen:true,m,label:"På gång",tone:"t-mid",mcls:""};
@@ -7797,12 +7798,12 @@ function fokusNycklar(){ return traningsOmraden().omr; }
 
 function svagaInom(keys,n){
   const cp=ensureCourseProfile();
-  return keys.map(k=>({k,m:mastery(cp.areas,k),sedd:typeof cp.areas[k]==="number"}))
+  return keys.map(k=>({k,m:omradeM(k,cp),sedd:omradeHar(k,cp)}))
     .filter(x=>x.sedd && x.m<.72).sort((a,b)=>a.m-b.m).slice(0,n).map(x=>x.k);
 }
 function starkaInom(keys,n){
   const cp=ensureCourseProfile();
-  return keys.map(k=>({k,m:mastery(cp.areas,k),sedd:typeof cp.areas[k]==="number"}))
+  return keys.map(k=>({k,m:omradeM(k,cp),sedd:omradeHar(k,cp)}))
     .filter(x=>x.sedd && x.m>=.62).sort((a,b)=>b.m-a.m).slice(0,n).map(x=>x.k);
 }
 
@@ -7830,7 +7831,7 @@ function senastTranad(area){
 
 function repetitionInom(keys){
   const cp=ensureCourseProfile(), nu=Date.now();
-  return keys.map(k=>({k,m:mastery(cp.areas,k),at:senastTranad(k)}))
+  return keys.map(k=>({k,m:omradeHar(k,cp)?omradeM(k,cp):0,at:senastTranad(k)}))
     .filter(x=>x.at && x.m>=.6 && (nu-x.at)/864e5>=7)
     .sort((a,b)=>a.at-b.at).slice(0,3).map(x=>x.k);
 }
@@ -8899,7 +8900,7 @@ const NIVA_TEXT={
 /* Området som just nu har svagast läge i kapitlet. Det är det svaret
    eleven är ute efter när hen tittar på den här vyn. */
 function svagastIKapitel(areor){
-  const rankad=areor.map(a=>({a,poang:scoreOf(areaLevels(a.key))}))
+  const rankad=areor.map(a=>({a,poang:omradeHar(a.key)?omradeM(a.key):0}))
                     .sort((x,y)=>x.poang-y.poang);
   return rankad[0] ? rankad[0].a : null;
 }
@@ -8937,15 +8938,21 @@ function omradesNivaer(){
   availableTasks().forEach(t=>{ (m[t.omr||"ovrigt"] ||= new Set()).add(levelOf(t)); });
   return m;
 }
+/* Fas 2: stegen räknas ur förmågan, alltså chansen att klara stegets nivåer.
+   Ett steg är klart när chansen nått stegets gräns (grunderna 85 %, tillämpning 75 %,
+   utmaning 65 %) och eleven gjort minst STEG_MIN uppgifter i området. */
+const STEG_P={grund:{fran:.55,till:.85},till:{fran:.45,till:.75},utm:{fran:.35,till:.65}};
 function stegVarde(area,steg,finns){
   const L=steg.niv.filter(x=>finns && finns.has(x));
   if(!L.length) return null;
-  let n=0,sum=0;
-  L.forEach(x=>{ const st=levelStatRead(area,x); const k=st.n||0; n+=k; sum+=(st.s||0)*k; });
-  if(!n) return 0;
-  const sakerhet=Math.max(0,Math.min(1,(sum/n-STEG_GRANS.fran)/(STEG_GRANS.till-STEG_GRANS.fran)));
+  const cp=ensureCourseProfile();
+  if(!omradeHar(area,cp)) return 0;
+  const st=formagaLas(area,cp);
+  const p=L.reduce((x,N)=>x+formForvantad(st,FORM_B[N]),0)/L.length;
+  const g=STEG_P[steg.id]||STEG_GRANS;
+  const sakerhet=Math.max(0,Math.min(1,(p-g.fran)/(g.till-g.fran)));
   // Roten gör att de första uppgifterna syns tydligt i mätaren.
-  return sakerhet*Math.sqrt(Math.min(1,n/STEG_MIN));
+  return sakerhet*Math.sqrt(Math.min(1,(st.n||0)/STEG_MIN));
 }
 function stegLage(areor,finns=omradesNivaer()){
   return STEG.map(steg=>{
@@ -9094,6 +9101,23 @@ function formagaUppdatera(t,y,cp=ensureCourseProfile()){
   const ny=formBayes(st,FORM_B[L],Math.max(0,Math.min(1,y)),formGissning(t),t.ursprungsId?FORM_KEDJA_VIKT:1);
   (cp.formaga ||= {})[area]={...ny,at:Date.now()};
 }
+/* Fas 2: hur väl ett område sitter, 0–1, ur förmågan: medelchansen att klara nivå 2 och 3.
+   Ersätter andel rätt (cp.areas) i etiketter, prickar, passval och kursöversikter. Andel rätt
+   straffade den som tränar på rätt nivå: 75 % rätt gav "På gång" för alltid. Gränserna är
+   desamma som förut: minst 0,78 är "Stark", minst 0,55 "På gång". En annan kurs profil
+   (cp ≠ den aktiva) läses bara från sparad förmåga, eftersom nivåerna hör till den aktiva banken. */
+const OMRADE_NIVAER=["2","3"];
+function omradeHar(area,cp=ensureCourseProfile()){
+  return !!(cp?.formaga?.[area]?.n) || typeof cp?.areas?.[area]==="number"
+    || (cp?.history||[]).some(h=>h?.area===area);
+}
+function omradeM(area,cp=ensureCourseProfile()){
+  const aktiv=cp===ensureCourseProfile();
+  const st=aktiv ? formagaLas(area,cp) : cp?.formaga?.[area];
+  if(!st || !Number.isFinite(st.mu)) return typeof cp?.areas?.[area]==="number" ? cp.areas[area] : 0;
+  return OMRADE_NIVAER.reduce((x,L)=>x+formForvantad(st,FORM_B[L]),0)/OMRADE_NIVAER.length;
+}
+
 /* Målchansen för nästa uppgift. Vid stor osäkerhet siktar motorn på 60 %: sådana
    frågor visar snabbast var eleven ligger. Passets första uppgift och uppgiften
    efter två fel i rad ska eleven troligen klara. */
@@ -9174,13 +9198,19 @@ function tranarKommentar(t,fore,efter,ggForslag){
   if(text) setTimeout(()=>tranarenSager(text,{html:true}), Date.now()-(state.uppdragPratAt||0)<3000 ? 7500 : 1300);
 }
 
+/* Fas 2: områdesval efter behov i blandade pass. Behovet är hur långt området har kvar
+   till "Stark" (omradeM 0,9), plus vila (dagar sedan senast, spridd repetition) och dagens
+   lektionsområde. Samma område två gånger i rad undviks, och en slumpterm ger variation. */
 function chooseArea(pool){
-  const cp=ensureCourseProfile();
   const areas=[...new Set(pool.map(t=>t.omr||"ovrigt"))];
   if(areas.length<2) return areas[0];
-  return areas
-    .map(a=>({a,k:mastery(cp.areas,a)*.5 + (a===state.lastArea?.45:0) + Math.random()}))
-    .sort((x,y)=>x.k-y.k)[0].a;
+  const cp=ensureCourseProfile(), nu=Date.now(), nytt=traningsOmraden().nytt;
+  return areas.map(a=>{
+    const behov=omradeHar(a,cp) ? Math.max(0,.9-omradeM(a,cp)) : .5;
+    const sist=senastTranad(a);
+    const vila=sist ? Math.min(1,(nu-sist)/(7*864e5))*.35 : .2;
+    return {a,k:behov+vila+(a===nytt?.3:0)-(a===state.lastArea?.8:0)+Math.random()*.45};
+  }).sort((x,y)=>y.k-x.k)[0].a;
 }
 
 /* Ge kapitlets områden en tur var, utan att ett stort område tar över.
@@ -9827,6 +9857,7 @@ function kedjaDelning(syskon,foralder){
   });
   return {intro:listor[0].slice(0,k).join(""), delar:listor.map(l=>l.slice(k).join("")), kort};
 }
+const KEDJA_UNDER=.93;
 function kedjaStarta(t){
   const syskon=kedjaSyskon(t);
   if(!syskon.length || state.prov || state.adminBlad){ state.kedja=null; return t; }
@@ -9834,10 +9865,17 @@ function kedjaStarta(t){
   const delning=kedjaDelning(syskon,state.data.bank.find(x=>String(x.id)===String(t.ursprungsId)));
   const delar=syskon.map((q,i)=>({task:q,etikett:q.deluppgift||String.fromCharCode(97+i),
     hel:delning.delar[i],kort:delning.kort[i],extra:levelNumber(q)>valdNiva}));
-  /* Visa hela sammanhanget från a). Svårare delar kan hoppas över även först
-     i kedjan; de får inte försvinna utan förklaring (3.51 på nivå 2). */
-  const start=0;
-  state.kedja={ursprungsId:t.ursprungsId,intro:delning.intro,delar,index:start,gjorda:[],valdNiva};
+  /* Fas 2: inledande delar långt under elevens nivå (chans över 93 %) visas som hoppade,
+     men aldrig förbi den del motorn valde. Delkorten är självbärande med egna mellanresultat.
+     Svårare delar kan fortfarande hoppas över; de får inte försvinna utan förklaring (3.51). */
+  const vald=delar.findIndex(d=>d.task.id===t.id);
+  let start=0;
+  if(vald>0 && !state.focusNiva){
+    const st=formagaLas(t.omr);
+    while(start<vald && formForvantad(st,FORM_B[levelOf(delar[start].task)])>KEDJA_UNDER) start++;
+  }
+  const hoppade=delar.slice(0,start).map((d,i)=>({etikett:d.etikett,fraga:i?d.kort:d.hel,under:true}));
+  state.kedja={ursprungsId:t.ursprungsId,intro:delning.intro,delar,index:start,gjorda:hoppade,valdNiva};
   return delar[start].task;
 }
 /* Spara svar som text, aldrig körbar HTML. Frågor och figurer hämtas från banken
@@ -9847,7 +9885,7 @@ function kedjaTillLagring(k,t){
   const text=html=>{const el=document.createElement('div');el.innerHTML=html||'';return el.textContent;};
   return {ursprungsId:k.ursprungsId,aktuell:t.id,valdNiva:k.valdNiva,
     gjorda:k.gjorda.map(g=>({etikett:g.etikett,svar:text(g.svar),ok:!!g.ok,
-      overhoppad:!!g.overhoppad,aterupptagen:!!g.aterupptagen}))};
+      overhoppad:!!g.overhoppad,under:!!g.under,aterupptagen:!!g.aterupptagen}))};
 }
 function kedjaAteruppta(t,sparad){
   kedjaStarta(t);
@@ -9866,7 +9904,7 @@ function kedjaAteruppta(t,sparad){
     if(i===k.index && !g) break;
     k.gjorda.push({etikett:d.etikett,fraga:i?d.kort:d.hel,
       svar:g?esc(String(g.svar||'')):'',ok:!!g?.ok,
-      overhoppad:!!g?.overhoppad,aterupptagen:!g || !!g.aterupptagen});
+      overhoppad:!!g?.overhoppad,under:!!g?.under,aterupptagen:!g || !!g.aterupptagen});
   }
 }
 function kedjaAktuell(t){
@@ -9886,7 +9924,7 @@ function kedjaTbody(t){
     <div class="kedja-del kedja-klar">
       <div class="kedja-rubrik">${esc(kedjaVisadEtikett(k,g.etikett))})</div>
       <div class="kedja-fraga">${g.fraga}</div>
-      ${g.aterupptagen?'<div class="hint">Tidigare del – svaret finns inte i den äldre sparningen.</div>':g.overhoppad?'<div class="hint">Överhoppad – frivillig del.</div>':`<div class="kedja-svar ${g.ok?"ok":"fel"}"><span aria-hidden="true">${g.ok?"✓":"✗"}</span> Ditt svar: ${g.svar||"–"}</div>`}
+      ${g.under?'<div class="hint">Hoppad – den här delen ligger under din nivå.</div>':g.aterupptagen?'<div class="hint">Tidigare del – svaret finns inte i den äldre sparningen.</div>':g.overhoppad?'<div class="hint">Överhoppad – frivillig del.</div>':`<div class="kedja-svar ${g.ok?"ok":"fel"}"><span aria-hidden="true">${g.ok?"✓":"✗"}</span> Ditt svar: ${g.svar||"–"}</div>`}
     </div>`).join("");
   return `<p class="hint kedja-sammanhang">Uppgift ${esc(String(k.ursprungsId))} · Del ${k.index+1} av ${k.delar.length}</p>${k.intro}${tidigare}
     <div class="kedja-del kedja-nu">
@@ -15441,8 +15479,15 @@ function oppnaMatarhjalp(){
         <li><span class="nivakula" style="background:var(--steg-utm)"></span><b>Utmaning</b> Nivå 4–5. Den inre ringen.</li>
       </ul>
       <p>Ett steg är klart i ett område när du gjort minst ${STEG_MIN} uppgifter
-      på stegets nivåer och klarar dem stabilt. Talet i mitten är ditt
+      där och har god chans att klara stegets nivåer: 85 % på grunderna,
+      75 % på tillämpning och 65 % på utmaning. Talet i mitten är ditt
       kursläge: klara grunder i hela kursen ger 90 %.</p>
+
+      <h3>Så väljs uppgifterna</h3>
+      <p>Appen uppskattar hur säker du är i varje område och väljer uppgifter
+      som du klarar ungefär tre gånger av fyra. Klarar du dem lätt blir de
+      svårare, och efter två fel i rad kommer en lättare. Börjar du på ett
+      nytt område startar du på den nivå du visat i kursens andra områden.</p>
 
       <h3>Kapitlen</h3>
       <p>Staplarna har samma färger som ringarna. Tryck på ett kapitel för

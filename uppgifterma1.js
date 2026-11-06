@@ -182195,5 +182195,1048 @@ window.BANKMA1 = [
     "rättSvar": 15,
     "tolerans": 1e-09,
     "svarEnhet": ""
+  },
+  {
+    "id": "1.1685",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(5x+15\\)</div><div>b) \\(6x+9\\)</div><div>c) \\(8x^{2}-12x\\)</div><div>d) \\(15x^{3}+10x^{2}\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 5 och 15 är 5</p><div class=\"facit-matte\">\\[5=5\\cdot 1\\qquad 15=5\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5\\)</p><div class=\"facit-matte\">\\[\\frac{5x}{5}=x\\]</div><div class=\"facit-matte\">\\[\\frac{15}{5}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5\\) gånger parentesen</p><div class=\"facit-matte\">\\[5x+15=5(x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5(x+3)=5x+15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5(x+3)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 6 och 9 är 3</p><div class=\"facit-matte\">\\[6=3\\cdot 2\\qquad 9=3\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3\\)</p><div class=\"facit-matte\">\\[\\frac{6x}{3}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{9}{3}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3\\) gånger parentesen</p><div class=\"facit-matte\">\\[6x+9=3(2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3(2x+3)=6x+9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(2x+3)\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 8 och 12 är 4</p><div class=\"facit-matte\">\\[8=4\\cdot 2\\qquad 12=4\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(4x\\)</p><div class=\"facit-matte\">\\[\\frac{8x^{2}}{4x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-12x}{4x}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(4x\\) gånger parentesen</p><div class=\"facit-matte\">\\[8x^{2}-12x=4x(2x-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(4x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[4x(2x-3)=8x^{2}-12x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x(2x-3)\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 15 och 10 är 5</p><div class=\"facit-matte\">\\[15=5\\cdot 3\\qquad 10=5\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x^{2}\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5x^{2}\\)</p><div class=\"facit-matte\">\\[\\frac{15x^{3}}{5x^{2}}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{10x^{2}}{5x^{2}}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5x^{2}\\) gånger parentesen</p><div class=\"facit-matte\">\\[15x^{3}+10x^{2}=5x^{2}(3x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5x^{2}\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5x^{2}(3x+2)=15x^{3}+10x^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x^{2}(3x+2)\\)</p></div></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "5(x+3)",
+      "3(2x+3)",
+      "4x(2x-3)",
+      "5x^2(3x+2)"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "största_faktor",
+      "största_faktor",
+      "största_faktor",
+      "största_faktor"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(5x+15\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 5 och 15 är 5</p><div class=\"facit-matte\">\\[5=5\\cdot 1\\qquad 15=5\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5\\)</p><div class=\"facit-matte\">\\[\\frac{5x}{5}=x\\]</div><div class=\"facit-matte\">\\[\\frac{15}{5}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5\\) gånger parentesen</p><div class=\"facit-matte\">\\[5x+15=5(x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5(x+3)=5x+15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5(x+3)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 5 och 15 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(6x+9\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 6 och 9 är 3</p><div class=\"facit-matte\">\\[6=3\\cdot 2\\qquad 9=3\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3\\)</p><div class=\"facit-matte\">\\[\\frac{6x}{3}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{9}{3}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3\\) gånger parentesen</p><div class=\"facit-matte\">\\[6x+9=3(2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3(2x+3)=6x+9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(2x+3)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 6 och 9 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(8x^{2}-12x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 8 och 12 är 4</p><div class=\"facit-matte\">\\[8=4\\cdot 2\\qquad 12=4\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(4x\\)</p><div class=\"facit-matte\">\\[\\frac{8x^{2}}{4x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-12x}{4x}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(4x\\) gånger parentesen</p><div class=\"facit-matte\">\\[8x^{2}-12x=4x(2x-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(4x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[4x(2x-3)=8x^{2}-12x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x(2x-3)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 8 och 12 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(15x^{3}+10x^{2}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 15 och 10 är 5</p><div class=\"facit-matte\">\\[15=5\\cdot 3\\qquad 10=5\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x^{2}\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5x^{2}\\)</p><div class=\"facit-matte\">\\[\\frac{15x^{3}}{5x^{2}}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{10x^{2}}{5x^{2}}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5x^{2}\\) gånger parentesen</p><div class=\"facit-matte\">\\[15x^{3}+10x^{2}=5x^{2}(3x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5x^{2}\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5x^{2}(3x+2)=15x^{3}+10x^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x^{2}(3x+2)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 15 och 10 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 5 och 15 är delbara med? Finns det någon bokstav som står i alla termer?</p><p><strong>b)</strong> Vilket är det största tal som både 6 och 9 är delbara med? Finns det någon bokstav som står i alla termer?</p><p><strong>c)</strong> Vilket är det största tal som både 8 och 12 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p><p><strong>d)</strong> Vilket är det största tal som både 15 och 10 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1686",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(4x-12\\)</div><div>b) \\(10x-15\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 4 och 12 är 4</p><div class=\"facit-matte\">\\[4=4\\cdot 1\\qquad 12=4\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(4\\)</p><div class=\"facit-matte\">\\[\\frac{4x}{4}=x\\]</div><div class=\"facit-matte\">\\[\\frac{-12}{4}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(4\\) gånger parentesen</p><div class=\"facit-matte\">\\[4x-12=4(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(4\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[4(x-3)=4x-12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4(x-3)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 10 och 15 är 5</p><div class=\"facit-matte\">\\[10=5\\cdot 2\\qquad 15=5\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5\\)</p><div class=\"facit-matte\">\\[\\frac{10x}{5}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-15}{5}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5\\) gånger parentesen</p><div class=\"facit-matte\">\\[10x-15=5(2x-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5(2x-3)=10x-15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5(2x-3)\\)</p></div></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "4(x-3)",
+      "5(2x-3)"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "största_faktor",
+      "största_faktor"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(4x-12\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 4 och 12 är 4</p><div class=\"facit-matte\">\\[4=4\\cdot 1\\qquad 12=4\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(4\\)</p><div class=\"facit-matte\">\\[\\frac{4x}{4}=x\\]</div><div class=\"facit-matte\">\\[\\frac{-12}{4}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(4\\) gånger parentesen</p><div class=\"facit-matte\">\\[4x-12=4(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(4\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[4(x-3)=4x-12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4(x-3)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 4 och 12 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(10x-15\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 10 och 15 är 5</p><div class=\"facit-matte\">\\[10=5\\cdot 2\\qquad 15=5\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5\\)</p><div class=\"facit-matte\">\\[\\frac{10x}{5}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-15}{5}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5\\) gånger parentesen</p><div class=\"facit-matte\">\\[10x-15=5(2x-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5(2x-3)=10x-15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5(2x-3)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 10 och 15 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 4 och 12 är delbara med? Finns det någon bokstav som står i alla termer?</p><p><strong>b)</strong> Vilket är det största tal som både 10 och 15 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1687",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Faktorisera \\(12x+18\\) genom att bryta ut största möjliga faktor.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 12 och 18 är 6</p><div class=\"facit-matte\">\\[12=6\\cdot 2\\qquad 18=6\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{12x}{6}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{18}{6}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6\\) gånger parentesen</p><div class=\"facit-matte\">\\[12x+18=6(2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6(2x+3)=12x+18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6(2x+3)\\)</p></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "uttryck",
+    "rättSvar": "6(2x+3)",
+    "tolerans": 1e-09,
+    "svarFormat": "största_faktor",
+    "ledtrad": "<p>Vilket är det största tal som både 12 och 18 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1688",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(7x+14\\)</div><div>b) \\(x^{2}+5x\\)</div><div>c) \\(6x^{2}+9x\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 7 och 14 är 7</p><div class=\"facit-matte\">\\[7=7\\cdot 1\\qquad 14=7\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(7\\)</p><div class=\"facit-matte\">\\[\\frac{7x}{7}=x\\]</div><div class=\"facit-matte\">\\[\\frac{14}{7}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(7\\) gånger parentesen</p><div class=\"facit-matte\">\\[7x+14=7(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(7\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[7(x+2)=7x+14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7(x+2)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen 1 och 5 har ingen gemensam faktor större än 1</p></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(x\\)</p><div class=\"facit-matte\">\\[\\frac{x^{2}}{x}=x\\]</div><div class=\"facit-matte\">\\[\\frac{5x}{x}=5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(x\\) gånger parentesen</p><div class=\"facit-matte\">\\[x^{2}+5x=x(x+5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[x(x+5)=x^{2}+5x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x(x+5)\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 6 och 9 är 3</p><div class=\"facit-matte\">\\[6=3\\cdot 2\\qquad 9=3\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3x\\)</p><div class=\"facit-matte\">\\[\\frac{6x^{2}}{3x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{9x}{3x}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3x\\) gånger parentesen</p><div class=\"facit-matte\">\\[6x^{2}+9x=3x(2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3x(2x+3)=6x^{2}+9x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x(2x+3)\\)</p></div></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "7(x+2)",
+      "x(x+5)",
+      "3x(2x+3)"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "största_faktor",
+      "största_faktor",
+      "största_faktor"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(7x+14\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 7 och 14 är 7</p><div class=\"facit-matte\">\\[7=7\\cdot 1\\qquad 14=7\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(7\\)</p><div class=\"facit-matte\">\\[\\frac{7x}{7}=x\\]</div><div class=\"facit-matte\">\\[\\frac{14}{7}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(7\\) gånger parentesen</p><div class=\"facit-matte\">\\[7x+14=7(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(7\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[7(x+2)=7x+14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7(x+2)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 7 och 14 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(x^{2}+5x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen 1 och 5 har ingen gemensam faktor större än 1</p></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(x\\)</p><div class=\"facit-matte\">\\[\\frac{x^{2}}{x}=x\\]</div><div class=\"facit-matte\">\\[\\frac{5x}{x}=5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(x\\) gånger parentesen</p><div class=\"facit-matte\">\\[x^{2}+5x=x(x+5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[x(x+5)=x^{2}+5x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x(x+5)\\)</p></div>",
+        "ledtrad": "<p>Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(6x^{2}+9x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 6 och 9 är 3</p><div class=\"facit-matte\">\\[6=3\\cdot 2\\qquad 9=3\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3x\\)</p><div class=\"facit-matte\">\\[\\frac{6x^{2}}{3x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{9x}{3x}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3x\\) gånger parentesen</p><div class=\"facit-matte\">\\[6x^{2}+9x=3x(2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3x(2x+3)=6x^{2}+9x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x(2x+3)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 6 och 9 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 7 och 14 är delbara med? Finns det någon bokstav som står i alla termer?</p><p><strong>b)</strong> Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p><p><strong>c)</strong> Vilket är det största tal som både 6 och 9 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1689",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(9x-6\\)</div><div>b) \\(12-8x\\)</div><div>c) \\(14x^{2}-21x\\)</div><div>d) \\(4x^{3}-6x^{2}+2x\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 9 och 6 är 3</p><div class=\"facit-matte\">\\[9=3\\cdot 3\\qquad 6=3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3\\)</p><div class=\"facit-matte\">\\[\\frac{9x}{3}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{-6}{3}=-2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3\\) gånger parentesen</p><div class=\"facit-matte\">\\[9x-6=3(3x-2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3(3x-2)=9x-6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(3x-2)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 12 och 8 är 4</p><div class=\"facit-matte\">\\[12=4\\cdot 3\\qquad 8=4\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(4\\)</p><div class=\"facit-matte\">\\[\\frac{12}{4}=3\\]</div><div class=\"facit-matte\">\\[\\frac{-8x}{4}=-2x\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(4\\) gånger parentesen</p><div class=\"facit-matte\">\\[12-8x=4(3-2x)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(4\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[4(3-2x)=12-8x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4(3-2x)\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 14 och 21 är 7</p><div class=\"facit-matte\">\\[14=7\\cdot 2\\qquad 21=7\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(7x\\)</p><div class=\"facit-matte\">\\[\\frac{14x^{2}}{7x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-21x}{7x}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(7x\\) gånger parentesen</p><div class=\"facit-matte\">\\[14x^{2}-21x=7x(2x-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(7x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[7x(2x-3)=14x^{2}-21x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7x(2x-3)\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 4, 6 och 2 är 2</p><div class=\"facit-matte\">\\[4=2\\cdot 2\\]</div><div class=\"facit-matte\">\\[6=2\\cdot 3\\]</div><div class=\"facit-matte\">\\[2=2\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2x\\)</p><div class=\"facit-matte\">\\[\\frac{4x^{3}}{2x}=2x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-6x^{2}}{2x}=-3x\\]</div><div class=\"facit-matte\">\\[\\frac{2x}{2x}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2x\\) gånger parentesen</p><div class=\"facit-matte\">\\[4x^{3}-6x^{2}+2x=2x(2x^{2}-3x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2x(2x^{2}-3x+1)=4x^{3}-6x^{2}+2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x(2x^{2}-3x+1)\\)</p></div></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "3(3x-2)",
+      "4(3-2x)",
+      "7x(2x-3)",
+      "2x(2x^2-3x+1)"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "största_faktor",
+      "största_faktor",
+      "största_faktor",
+      "största_faktor"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(9x-6\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 9 och 6 är 3</p><div class=\"facit-matte\">\\[9=3\\cdot 3\\qquad 6=3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3\\)</p><div class=\"facit-matte\">\\[\\frac{9x}{3}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{-6}{3}=-2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3\\) gånger parentesen</p><div class=\"facit-matte\">\\[9x-6=3(3x-2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3(3x-2)=9x-6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(3x-2)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 9 och 6 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(12-8x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 12 och 8 är 4</p><div class=\"facit-matte\">\\[12=4\\cdot 3\\qquad 8=4\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(4\\)</p><div class=\"facit-matte\">\\[\\frac{12}{4}=3\\]</div><div class=\"facit-matte\">\\[\\frac{-8x}{4}=-2x\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(4\\) gånger parentesen</p><div class=\"facit-matte\">\\[12-8x=4(3-2x)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(4\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[4(3-2x)=12-8x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4(3-2x)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 12 och 8 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(14x^{2}-21x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 14 och 21 är 7</p><div class=\"facit-matte\">\\[14=7\\cdot 2\\qquad 21=7\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(7x\\)</p><div class=\"facit-matte\">\\[\\frac{14x^{2}}{7x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-21x}{7x}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(7x\\) gånger parentesen</p><div class=\"facit-matte\">\\[14x^{2}-21x=7x(2x-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(7x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[7x(2x-3)=14x^{2}-21x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7x(2x-3)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 14 och 21 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(4x^{3}-6x^{2}+2x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 4, 6 och 2 är 2</p><div class=\"facit-matte\">\\[4=2\\cdot 2\\]</div><div class=\"facit-matte\">\\[6=2\\cdot 3\\]</div><div class=\"facit-matte\">\\[2=2\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2x\\)</p><div class=\"facit-matte\">\\[\\frac{4x^{3}}{2x}=2x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-6x^{2}}{2x}=-3x\\]</div><div class=\"facit-matte\">\\[\\frac{2x}{2x}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2x\\) gånger parentesen</p><div class=\"facit-matte\">\\[4x^{3}-6x^{2}+2x=2x(2x^{2}-3x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2x(2x^{2}-3x+1)=4x^{3}-6x^{2}+2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x(2x^{2}-3x+1)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som 4, 6 och 2 alla är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 9 och 6 är delbara med? Finns det någon bokstav som står i alla termer?</p><p><strong>b)</strong> Vilket är det största tal som både 12 och 8 är delbara med? Finns det någon bokstav som står i alla termer?</p><p><strong>c)</strong> Vilket är det största tal som både 14 och 21 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p><p><strong>d)</strong> Vilket är det största tal som 4, 6 och 2 alla är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1690",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Faktorisera \\(3x^{2}-x\\) genom att bryta ut största möjliga faktor.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen 3 och 1 har ingen gemensam faktor större än 1</p></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(x\\)</p><div class=\"facit-matte\">\\[\\frac{3x^{2}}{x}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{-x}{x}=-1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(x\\) gånger parentesen</p><div class=\"facit-matte\">\\[3x^{2}-x=x(3x-1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[x(3x-1)=3x^{2}-x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x(3x-1)\\)</p></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "uttryck",
+    "rättSvar": "x(3x-1)",
+    "tolerans": 1e-09,
+    "svarFormat": "största_faktor",
+    "ledtrad": "<p>Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1691",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(20x+30\\)</div><div>b) \\(-4x-8\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 20 och 30 är 10</p><div class=\"facit-matte\">\\[20=10\\cdot 2\\qquad 30=10\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(10\\)</p><div class=\"facit-matte\">\\[\\frac{20x}{10}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{30}{10}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(10\\) gånger parentesen</p><div class=\"facit-matte\">\\[20x+30=10(2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(10\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[10(2x+3)=20x+30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10(2x+3)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 4 och 8 är 4</p><div class=\"facit-matte\">\\[4=4\\cdot 1\\qquad 8=4\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer är negativa. Bryt ut \\(-4\\), så att termerna i parentesen blir positiva</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(-4\\)</p><div class=\"facit-matte\">\\[\\frac{-4x}{-4}=x\\]</div><div class=\"facit-matte\">\\[\\frac{-8}{-4}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(-4\\) gånger parentesen</p><div class=\"facit-matte\">\\[-4x-8=-4(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(-4\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[-4(x+2)=-4x-8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4(x+2)\\)</p></div></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "10(2x+3)",
+      "-4(x+2)"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "största_faktor",
+      "största_faktor"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(20x+30\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 20 och 30 är 10</p><div class=\"facit-matte\">\\[20=10\\cdot 2\\qquad 30=10\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(10\\)</p><div class=\"facit-matte\">\\[\\frac{20x}{10}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{30}{10}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(10\\) gånger parentesen</p><div class=\"facit-matte\">\\[20x+30=10(2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(10\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[10(2x+3)=20x+30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10(2x+3)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 20 och 30 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(-4x-8\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 4 och 8 är 4</p><div class=\"facit-matte\">\\[4=4\\cdot 1\\qquad 8=4\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer är negativa. Bryt ut \\(-4\\), så att termerna i parentesen blir positiva</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(-4\\)</p><div class=\"facit-matte\">\\[\\frac{-4x}{-4}=x\\]</div><div class=\"facit-matte\">\\[\\frac{-8}{-4}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(-4\\) gånger parentesen</p><div class=\"facit-matte\">\\[-4x-8=-4(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(-4\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[-4(x+2)=-4x-8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4(x+2)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 4 och 8 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 20 och 30 är delbara med? Finns det någon bokstav som står i alla termer?</p><p><strong>b)</strong> Vilket är det största tal som både 4 och 8 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1692",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Faktorisera \\(16x^{2}+24x\\) genom att bryta ut största möjliga faktor.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 16 och 24 är 8</p><div class=\"facit-matte\">\\[16=8\\cdot 2\\qquad 24=8\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(8x\\)</p><div class=\"facit-matte\">\\[\\frac{16x^{2}}{8x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{24x}{8x}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(8x\\) gånger parentesen</p><div class=\"facit-matte\">\\[16x^{2}+24x=8x(2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(8x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[8x(2x+3)=16x^{2}+24x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8x(2x+3)\\)</p></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "uttryck",
+    "rättSvar": "8x(2x+3)",
+    "tolerans": 1e-09,
+    "svarFormat": "största_faktor",
+    "ledtrad": "<p>Vilket är det största tal som både 16 och 24 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1693",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2x+10\\)</div><div>b) \\(x^{3}-4x^{2}\\)</div><div>c) \\(18x^{2}-12x+6\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 2 och 10 är 2</p><div class=\"facit-matte\">\\[2=2\\cdot 1\\qquad 10=2\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2\\)</p><div class=\"facit-matte\">\\[\\frac{2x}{2}=x\\]</div><div class=\"facit-matte\">\\[\\frac{10}{2}=5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2\\) gånger parentesen</p><div class=\"facit-matte\">\\[2x+10=2(x+5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2(x+5)=2x+10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2(x+5)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen 1 och 4 har ingen gemensam faktor större än 1</p></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x^{2}\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(x^{2}\\)</p><div class=\"facit-matte\">\\[\\frac{x^{3}}{x^{2}}=x\\]</div><div class=\"facit-matte\">\\[\\frac{-4x^{2}}{x^{2}}=-4\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(x^{2}\\) gånger parentesen</p><div class=\"facit-matte\">\\[x^{3}-4x^{2}=x^{2}(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(x^{2}\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[x^{2}(x-4)=x^{3}-4x^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}(x-4)\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 18, 12 och 6 är 6</p><div class=\"facit-matte\">\\[18=6\\cdot 3\\]</div><div class=\"facit-matte\">\\[12=6\\cdot 2\\]</div><div class=\"facit-matte\">\\[6=6\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{18x^{2}}{6}=3x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-12x}{6}=-2x\\]</div><div class=\"facit-matte\">\\[\\frac{6}{6}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6\\) gånger parentesen</p><div class=\"facit-matte\">\\[18x^{2}-12x+6=6(3x^{2}-2x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6(3x^{2}-2x+1)=18x^{2}-12x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6(3x^{2}-2x+1)\\)</p></div></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "2(x+5)",
+      "x^2(x-4)",
+      "6(3x^2-2x+1)"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "största_faktor",
+      "största_faktor",
+      "största_faktor"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(2x+10\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 2 och 10 är 2</p><div class=\"facit-matte\">\\[2=2\\cdot 1\\qquad 10=2\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2\\)</p><div class=\"facit-matte\">\\[\\frac{2x}{2}=x\\]</div><div class=\"facit-matte\">\\[\\frac{10}{2}=5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2\\) gånger parentesen</p><div class=\"facit-matte\">\\[2x+10=2(x+5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2(x+5)=2x+10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2(x+5)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 2 och 10 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(x^{3}-4x^{2}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen 1 och 4 har ingen gemensam faktor större än 1</p></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x^{2}\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(x^{2}\\)</p><div class=\"facit-matte\">\\[\\frac{x^{3}}{x^{2}}=x\\]</div><div class=\"facit-matte\">\\[\\frac{-4x^{2}}{x^{2}}=-4\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(x^{2}\\) gånger parentesen</p><div class=\"facit-matte\">\\[x^{3}-4x^{2}=x^{2}(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(x^{2}\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[x^{2}(x-4)=x^{3}-4x^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}(x-4)\\)</p></div>",
+        "ledtrad": "<p>Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(18x^{2}-12x+6\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 18, 12 och 6 är 6</p><div class=\"facit-matte\">\\[18=6\\cdot 3\\]</div><div class=\"facit-matte\">\\[12=6\\cdot 2\\]</div><div class=\"facit-matte\">\\[6=6\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{18x^{2}}{6}=3x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-12x}{6}=-2x\\]</div><div class=\"facit-matte\">\\[\\frac{6}{6}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6\\) gånger parentesen</p><div class=\"facit-matte\">\\[18x^{2}-12x+6=6(3x^{2}-2x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6(3x^{2}-2x+1)=18x^{2}-12x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6(3x^{2}-2x+1)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som 18, 12 och 6 alla är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 2 och 10 är delbara med? Finns det någon bokstav som står i alla termer?</p><p><strong>b)</strong> Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p><p><strong>c)</strong> Vilket är det största tal som 18, 12 och 6 alla är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1694",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(6ab+9a\\)</div><div>b) \\(4xy-8x^{2}y\\)</div><div>c) \\(10a^{2}b+15ab^{2}\\)</div><div>d) \\(12x^{2}y^{3}-18xy^{2}\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 6 och 9 är 3</p><div class=\"facit-matte\">\\[6=3\\cdot 2\\qquad 9=3\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3a\\)</p><div class=\"facit-matte\">\\[\\frac{6ab}{3a}=2b\\]</div><div class=\"facit-matte\">\\[\\frac{9a}{3a}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3a\\) gånger parentesen</p><div class=\"facit-matte\">\\[6ab+9a=3a(2b+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3a\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3a(2b+3)=6ab+9a\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3a(2b+3)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 4 och 8 är 4</p><div class=\"facit-matte\">\\[4=4\\cdot 1\\qquad 8=4\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\) och \\(y\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(4xy\\)</p><div class=\"facit-matte\">\\[\\frac{4xy}{4xy}=1\\]</div><div class=\"facit-matte\">\\[\\frac{-8x^{2}y}{4xy}=-2x\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(4xy\\) gånger parentesen</p><div class=\"facit-matte\">\\[4xy-8x^{2}y=4xy(1-2x)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(4xy\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[4xy(1-2x)=4xy-8x^{2}y\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4xy(1-2x)\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 10 och 15 är 5</p><div class=\"facit-matte\">\\[10=5\\cdot 2\\qquad 15=5\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a\\) och \\(b\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5ab\\)</p><div class=\"facit-matte\">\\[\\frac{10a^{2}b}{5ab}=2a\\]</div><div class=\"facit-matte\">\\[\\frac{15ab^{2}}{5ab}=3b\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5ab\\) gånger parentesen</p><div class=\"facit-matte\">\\[10a^{2}b+15ab^{2}=5ab(2a+3b)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5ab\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5ab(2a+3b)=10a^{2}b+15ab^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5ab(2a+3b)\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 12 och 18 är 6</p><div class=\"facit-matte\">\\[12=6\\cdot 2\\qquad 18=6\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\) och \\(y^{2}\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6xy^{2}\\)</p><div class=\"facit-matte\">\\[\\frac{12x^{2}y^{3}}{6xy^{2}}=2xy\\]</div><div class=\"facit-matte\">\\[\\frac{-18xy^{2}}{6xy^{2}}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6xy^{2}\\) gånger parentesen</p><div class=\"facit-matte\">\\[12x^{2}y^{3}-18xy^{2}=6xy^{2}(2xy-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6xy^{2}\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6xy^{2}(2xy-3)=12x^{2}y^{3}-18xy^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6xy^{2}(2xy-3)\\)</p></div></div>",
+    "familj": "Faktorisera uttryck med potenser och flera variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "3a(2b+3)",
+      "4xy(1-2x)",
+      "5ab(2a+3b)",
+      "6xy^2(2xy-3)"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "största_faktor",
+      "största_faktor",
+      "största_faktor",
+      "största_faktor"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(6ab+9a\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 6 och 9 är 3</p><div class=\"facit-matte\">\\[6=3\\cdot 2\\qquad 9=3\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3a\\)</p><div class=\"facit-matte\">\\[\\frac{6ab}{3a}=2b\\]</div><div class=\"facit-matte\">\\[\\frac{9a}{3a}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3a\\) gånger parentesen</p><div class=\"facit-matte\">\\[6ab+9a=3a(2b+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3a\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3a(2b+3)=6ab+9a\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3a(2b+3)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 6 och 9 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(4xy-8x^{2}y\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 4 och 8 är 4</p><div class=\"facit-matte\">\\[4=4\\cdot 1\\qquad 8=4\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\) och \\(y\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(4xy\\)</p><div class=\"facit-matte\">\\[\\frac{4xy}{4xy}=1\\]</div><div class=\"facit-matte\">\\[\\frac{-8x^{2}y}{4xy}=-2x\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(4xy\\) gånger parentesen</p><div class=\"facit-matte\">\\[4xy-8x^{2}y=4xy(1-2x)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(4xy\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[4xy(1-2x)=4xy-8x^{2}y\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4xy(1-2x)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 4 och 8 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(10a^{2}b+15ab^{2}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 10 och 15 är 5</p><div class=\"facit-matte\">\\[10=5\\cdot 2\\qquad 15=5\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a\\) och \\(b\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5ab\\)</p><div class=\"facit-matte\">\\[\\frac{10a^{2}b}{5ab}=2a\\]</div><div class=\"facit-matte\">\\[\\frac{15ab^{2}}{5ab}=3b\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5ab\\) gånger parentesen</p><div class=\"facit-matte\">\\[10a^{2}b+15ab^{2}=5ab(2a+3b)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5ab\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5ab(2a+3b)=10a^{2}b+15ab^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5ab(2a+3b)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 10 och 15 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(12x^{2}y^{3}-18xy^{2}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 12 och 18 är 6</p><div class=\"facit-matte\">\\[12=6\\cdot 2\\qquad 18=6\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\) och \\(y^{2}\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6xy^{2}\\)</p><div class=\"facit-matte\">\\[\\frac{12x^{2}y^{3}}{6xy^{2}}=2xy\\]</div><div class=\"facit-matte\">\\[\\frac{-18xy^{2}}{6xy^{2}}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6xy^{2}\\) gånger parentesen</p><div class=\"facit-matte\">\\[12x^{2}y^{3}-18xy^{2}=6xy^{2}(2xy-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6xy^{2}\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6xy^{2}(2xy-3)=12x^{2}y^{3}-18xy^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6xy^{2}(2xy-3)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 12 och 18 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 6 och 9 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p><p><strong>b)</strong> Vilket är det största tal som både 4 och 8 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p><p><strong>c)</strong> Vilket är det största tal som både 10 och 15 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p><p><strong>d)</strong> Vilket är det största tal som både 12 och 18 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1695",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(5ab+10b\\)</div><div>b) \\(3x^{2}y+6xy\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 5 och 10 är 5</p><div class=\"facit-matte\">\\[5=5\\cdot 1\\qquad 10=5\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(b\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5b\\)</p><div class=\"facit-matte\">\\[\\frac{5ab}{5b}=a\\]</div><div class=\"facit-matte\">\\[\\frac{10b}{5b}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5b\\) gånger parentesen</p><div class=\"facit-matte\">\\[5ab+10b=5b(a+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5b\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5b(a+2)=5ab+10b\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5b(a+2)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 3 och 6 är 3</p><div class=\"facit-matte\">\\[3=3\\cdot 1\\qquad 6=3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\) och \\(y\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3xy\\)</p><div class=\"facit-matte\">\\[\\frac{3x^{2}y}{3xy}=x\\]</div><div class=\"facit-matte\">\\[\\frac{6xy}{3xy}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3xy\\) gånger parentesen</p><div class=\"facit-matte\">\\[3x^{2}y+6xy=3xy(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3xy\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3xy(x+2)=3x^{2}y+6xy\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3xy(x+2)\\)</p></div></div>",
+    "familj": "Faktorisera uttryck med potenser och flera variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "5b(a+2)",
+      "3xy(x+2)"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "största_faktor",
+      "största_faktor"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(5ab+10b\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 5 och 10 är 5</p><div class=\"facit-matte\">\\[5=5\\cdot 1\\qquad 10=5\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(b\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5b\\)</p><div class=\"facit-matte\">\\[\\frac{5ab}{5b}=a\\]</div><div class=\"facit-matte\">\\[\\frac{10b}{5b}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5b\\) gånger parentesen</p><div class=\"facit-matte\">\\[5ab+10b=5b(a+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5b\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5b(a+2)=5ab+10b\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5b(a+2)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 5 och 10 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(3x^{2}y+6xy\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 3 och 6 är 3</p><div class=\"facit-matte\">\\[3=3\\cdot 1\\qquad 6=3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\) och \\(y\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3xy\\)</p><div class=\"facit-matte\">\\[\\frac{3x^{2}y}{3xy}=x\\]</div><div class=\"facit-matte\">\\[\\frac{6xy}{3xy}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3xy\\) gånger parentesen</p><div class=\"facit-matte\">\\[3x^{2}y+6xy=3xy(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3xy\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3xy(x+2)=3x^{2}y+6xy\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3xy(x+2)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 3 och 6 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 5 och 10 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p><p><strong>b)</strong> Vilket är det största tal som både 3 och 6 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1696",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Faktorisera \\(8a^{2}-4ab\\) genom att bryta ut största möjliga faktor.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 8 och 4 är 4</p><div class=\"facit-matte\">\\[8=4\\cdot 2\\qquad 4=4\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(4a\\)</p><div class=\"facit-matte\">\\[\\frac{8a^{2}}{4a}=2a\\]</div><div class=\"facit-matte\">\\[\\frac{-4ab}{4a}=-b\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(4a\\) gånger parentesen</p><div class=\"facit-matte\">\\[8a^{2}-4ab=4a(2a-b)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(4a\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[4a(2a-b)=8a^{2}-4ab\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4a(2a-b)\\)</p></div>",
+    "familj": "Faktorisera uttryck med potenser och flera variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "uttryck",
+    "rättSvar": "4a(2a-b)",
+    "tolerans": 1e-09,
+    "svarFormat": "största_faktor",
+    "ledtrad": "<p>Vilket är det största tal som både 8 och 4 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1697",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(7xy+21y\\)</div><div>b) \\(9a^{3}b^{2}-6a^{2}b\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 7 och 21 är 7</p><div class=\"facit-matte\">\\[7=7\\cdot 1\\qquad 21=7\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(y\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(7y\\)</p><div class=\"facit-matte\">\\[\\frac{7xy}{7y}=x\\]</div><div class=\"facit-matte\">\\[\\frac{21y}{7y}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(7y\\) gånger parentesen</p><div class=\"facit-matte\">\\[7xy+21y=7y(x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(7y\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[7y(x+3)=7xy+21y\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7y(x+3)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 9 och 6 är 3</p><div class=\"facit-matte\">\\[9=3\\cdot 3\\qquad 6=3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a^{2}\\) och \\(b\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3a^{2}b\\)</p><div class=\"facit-matte\">\\[\\frac{9a^{3}b^{2}}{3a^{2}b}=3ab\\]</div><div class=\"facit-matte\">\\[\\frac{-6a^{2}b}{3a^{2}b}=-2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3a^{2}b\\) gånger parentesen</p><div class=\"facit-matte\">\\[9a^{3}b^{2}-6a^{2}b=3a^{2}b(3ab-2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3a^{2}b\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3a^{2}b(3ab-2)=9a^{3}b^{2}-6a^{2}b\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3a^{2}b(3ab-2)\\)</p></div></div>",
+    "familj": "Faktorisera uttryck med potenser och flera variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "7y(x+3)",
+      "3a^2b(3ab-2)"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "största_faktor",
+      "största_faktor"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(7xy+21y\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 7 och 21 är 7</p><div class=\"facit-matte\">\\[7=7\\cdot 1\\qquad 21=7\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(y\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(7y\\)</p><div class=\"facit-matte\">\\[\\frac{7xy}{7y}=x\\]</div><div class=\"facit-matte\">\\[\\frac{21y}{7y}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(7y\\) gånger parentesen</p><div class=\"facit-matte\">\\[7xy+21y=7y(x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(7y\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[7y(x+3)=7xy+21y\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7y(x+3)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 7 och 21 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(9a^{3}b^{2}-6a^{2}b\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 9 och 6 är 3</p><div class=\"facit-matte\">\\[9=3\\cdot 3\\qquad 6=3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a^{2}\\) och \\(b\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3a^{2}b\\)</p><div class=\"facit-matte\">\\[\\frac{9a^{3}b^{2}}{3a^{2}b}=3ab\\]</div><div class=\"facit-matte\">\\[\\frac{-6a^{2}b}{3a^{2}b}=-2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3a^{2}b\\) gånger parentesen</p><div class=\"facit-matte\">\\[9a^{3}b^{2}-6a^{2}b=3a^{2}b(3ab-2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3a^{2}b\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3a^{2}b(3ab-2)=9a^{3}b^{2}-6a^{2}b\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3a^{2}b(3ab-2)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 9 och 6 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 7 och 21 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p><p><strong>b)</strong> Vilket är det största tal som både 9 och 6 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1698",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(3x+6\\)</div><div>b) \\(15x-25\\)</div><div>c) \\(6x^{2}-15x\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 3 och 6 är 3</p><div class=\"facit-matte\">\\[3=3\\cdot 1\\qquad 6=3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3\\)</p><div class=\"facit-matte\">\\[\\frac{3x}{3}=x\\]</div><div class=\"facit-matte\">\\[\\frac{6}{3}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3\\) gånger parentesen</p><div class=\"facit-matte\">\\[3x+6=3(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3(x+2)=3x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(x+2)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 15 och 25 är 5</p><div class=\"facit-matte\">\\[15=5\\cdot 3\\qquad 25=5\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5\\)</p><div class=\"facit-matte\">\\[\\frac{15x}{5}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{-25}{5}=-5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5\\) gånger parentesen</p><div class=\"facit-matte\">\\[15x-25=5(3x-5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5(3x-5)=15x-25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5(3x-5)\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 6 och 15 är 3</p><div class=\"facit-matte\">\\[6=3\\cdot 2\\qquad 15=3\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3x\\)</p><div class=\"facit-matte\">\\[\\frac{6x^{2}}{3x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-15x}{3x}=-5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3x\\) gånger parentesen</p><div class=\"facit-matte\">\\[6x^{2}-15x=3x(2x-5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3x(2x-5)=6x^{2}-15x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x(2x-5)\\)</p></div></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "3(x+2)",
+      "5(3x-5)",
+      "3x(2x-5)"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "största_faktor",
+      "största_faktor",
+      "största_faktor"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(3x+6\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 3 och 6 är 3</p><div class=\"facit-matte\">\\[3=3\\cdot 1\\qquad 6=3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3\\)</p><div class=\"facit-matte\">\\[\\frac{3x}{3}=x\\]</div><div class=\"facit-matte\">\\[\\frac{6}{3}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3\\) gånger parentesen</p><div class=\"facit-matte\">\\[3x+6=3(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3(x+2)=3x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(x+2)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 3 och 6 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(15x-25\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 15 och 25 är 5</p><div class=\"facit-matte\">\\[15=5\\cdot 3\\qquad 25=5\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5\\)</p><div class=\"facit-matte\">\\[\\frac{15x}{5}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{-25}{5}=-5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5\\) gånger parentesen</p><div class=\"facit-matte\">\\[15x-25=5(3x-5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5(3x-5)=15x-25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5(3x-5)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 15 och 25 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(6x^{2}-15x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 6 och 15 är 3</p><div class=\"facit-matte\">\\[6=3\\cdot 2\\qquad 15=3\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3x\\)</p><div class=\"facit-matte\">\\[\\frac{6x^{2}}{3x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-15x}{3x}=-5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3x\\) gånger parentesen</p><div class=\"facit-matte\">\\[6x^{2}-15x=3x(2x-5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3x(2x-5)=6x^{2}-15x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x(2x-5)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 6 och 15 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 3 och 6 är delbara med? Finns det någon bokstav som står i alla termer?</p><p><strong>b)</strong> Vilket är det största tal som både 15 och 25 är delbara med? Finns det någon bokstav som står i alla termer?</p><p><strong>c)</strong> Vilket är det största tal som både 6 och 15 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1699",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Faktorisera \\(x^{2}-7x\\) genom att bryta ut största möjliga faktor.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen 1 och 7 har ingen gemensam faktor större än 1</p></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(x\\)</p><div class=\"facit-matte\">\\[\\frac{x^{2}}{x}=x\\]</div><div class=\"facit-matte\">\\[\\frac{-7x}{x}=-7\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(x\\) gånger parentesen</p><div class=\"facit-matte\">\\[x^{2}-7x=x(x-7)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[x(x-7)=x^{2}-7x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x(x-7)\\)</p></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "uttryck",
+    "rättSvar": "x(x-7)",
+    "tolerans": 1e-09,
+    "svarFormat": "största_faktor",
+    "ledtrad": "<p>Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1700",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(11x+33\\)</div><div>b) \\(24x^{2}+16x\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 11 och 33 är 11</p><div class=\"facit-matte\">\\[11=11\\cdot 1\\qquad 33=11\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(11\\)</p><div class=\"facit-matte\">\\[\\frac{11x}{11}=x\\]</div><div class=\"facit-matte\">\\[\\frac{33}{11}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(11\\) gånger parentesen</p><div class=\"facit-matte\">\\[11x+33=11(x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(11\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[11(x+3)=11x+33\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(11(x+3)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 24 och 16 är 8</p><div class=\"facit-matte\">\\[24=8\\cdot 3\\qquad 16=8\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(8x\\)</p><div class=\"facit-matte\">\\[\\frac{24x^{2}}{8x}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{16x}{8x}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(8x\\) gånger parentesen</p><div class=\"facit-matte\">\\[24x^{2}+16x=8x(3x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(8x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[8x(3x+2)=24x^{2}+16x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8x(3x+2)\\)</p></div></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "11(x+3)",
+      "8x(3x+2)"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "största_faktor",
+      "största_faktor"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(11x+33\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 11 och 33 är 11</p><div class=\"facit-matte\">\\[11=11\\cdot 1\\qquad 33=11\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(11\\)</p><div class=\"facit-matte\">\\[\\frac{11x}{11}=x\\]</div><div class=\"facit-matte\">\\[\\frac{33}{11}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(11\\) gånger parentesen</p><div class=\"facit-matte\">\\[11x+33=11(x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(11\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[11(x+3)=11x+33\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(11(x+3)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 11 och 33 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(24x^{2}+16x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 24 och 16 är 8</p><div class=\"facit-matte\">\\[24=8\\cdot 3\\qquad 16=8\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(8x\\)</p><div class=\"facit-matte\">\\[\\frac{24x^{2}}{8x}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{16x}{8x}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(8x\\) gånger parentesen</p><div class=\"facit-matte\">\\[24x^{2}+16x=8x(3x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(8x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[8x(3x+2)=24x^{2}+16x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8x(3x+2)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 24 och 16 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 11 och 33 är delbara med? Finns det någon bokstav som står i alla termer?</p><p><strong>b)</strong> Vilket är det största tal som både 24 och 16 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1701",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Faktorisera \\(10x^{3}-25x^{2}+5x\\) genom att bryta ut största möjliga faktor.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 10, 25 och 5 är 5</p><div class=\"facit-matte\">\\[10=5\\cdot 2\\]</div><div class=\"facit-matte\">\\[25=5\\cdot 5\\]</div><div class=\"facit-matte\">\\[5=5\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5x\\)</p><div class=\"facit-matte\">\\[\\frac{10x^{3}}{5x}=2x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-25x^{2}}{5x}=-5x\\]</div><div class=\"facit-matte\">\\[\\frac{5x}{5x}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5x\\) gånger parentesen</p><div class=\"facit-matte\">\\[10x^{3}-25x^{2}+5x=5x(2x^{2}-5x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5x(2x^{2}-5x+1)=10x^{3}-25x^{2}+5x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x(2x^{2}-5x+1)\\)</p></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "uttryck",
+    "rättSvar": "5x(2x^2-5x+1)",
+    "tolerans": 1e-09,
+    "svarFormat": "största_faktor",
+    "ledtrad": "<p>Vilket är det största tal som 10, 25 och 5 alla är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1702",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(8+6x\\)</div><div>b) \\(-6x^{2}-9x\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 8 och 6 är 2</p><div class=\"facit-matte\">\\[8=2\\cdot 4\\qquad 6=2\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2\\)</p><div class=\"facit-matte\">\\[\\frac{8}{2}=4\\]</div><div class=\"facit-matte\">\\[\\frac{6x}{2}=3x\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2\\) gånger parentesen</p><div class=\"facit-matte\">\\[8+6x=2(4+3x)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2(4+3x)=8+6x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2(4+3x)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 6 och 9 är 3</p><div class=\"facit-matte\">\\[6=3\\cdot 2\\qquad 9=3\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Alla termer är negativa. Bryt ut \\(-3x\\), så att termerna i parentesen blir positiva</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(-3x\\)</p><div class=\"facit-matte\">\\[\\frac{-6x^{2}}{-3x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-9x}{-3x}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(-3x\\) gånger parentesen</p><div class=\"facit-matte\">\\[-6x^{2}-9x=-3x(2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(-3x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[-3x(2x+3)=-6x^{2}-9x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3x(2x+3)\\)</p></div></div>",
+    "familj": "Bryt ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "2(4+3x)",
+      "-3x(2x+3)"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "största_faktor",
+      "största_faktor"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(8+6x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 8 och 6 är 2</p><div class=\"facit-matte\">\\[8=2\\cdot 4\\qquad 6=2\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2\\)</p><div class=\"facit-matte\">\\[\\frac{8}{2}=4\\]</div><div class=\"facit-matte\">\\[\\frac{6x}{2}=3x\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2\\) gånger parentesen</p><div class=\"facit-matte\">\\[8+6x=2(4+3x)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2(4+3x)=8+6x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2(4+3x)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 8 och 6 är delbara med? Finns det någon bokstav som står i alla termer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(-6x^{2}-9x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 6 och 9 är 3</p><div class=\"facit-matte\">\\[6=3\\cdot 2\\qquad 9=3\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Alla termer är negativa. Bryt ut \\(-3x\\), så att termerna i parentesen blir positiva</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(-3x\\)</p><div class=\"facit-matte\">\\[\\frac{-6x^{2}}{-3x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-9x}{-3x}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(-3x\\) gånger parentesen</p><div class=\"facit-matte\">\\[-6x^{2}-9x=-3x(2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(-3x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[-3x(2x+3)=-6x^{2}-9x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3x(2x+3)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 6 och 9 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 8 och 6 är delbara med? Finns det någon bokstav som står i alla termer?</p><p><strong>b)</strong> Vilket är det största tal som både 6 och 9 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1703",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2ab+6b^{2}\\)</div><div>b) \\(15x^{2}y-5xy\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 2 och 6 är 2</p><div class=\"facit-matte\">\\[2=2\\cdot 1\\qquad 6=2\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(b\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2b\\)</p><div class=\"facit-matte\">\\[\\frac{2ab}{2b}=a\\]</div><div class=\"facit-matte\">\\[\\frac{6b^{2}}{2b}=3b\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2b\\) gånger parentesen</p><div class=\"facit-matte\">\\[2ab+6b^{2}=2b(a+3b)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2b\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2b(a+3b)=2ab+6b^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2b(a+3b)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 15 och 5 är 5</p><div class=\"facit-matte\">\\[15=5\\cdot 3\\qquad 5=5\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\) och \\(y\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5xy\\)</p><div class=\"facit-matte\">\\[\\frac{15x^{2}y}{5xy}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{-5xy}{5xy}=-1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5xy\\) gånger parentesen</p><div class=\"facit-matte\">\\[15x^{2}y-5xy=5xy(3x-1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5xy\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5xy(3x-1)=15x^{2}y-5xy\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5xy(3x-1)\\)</p></div></div>",
+    "familj": "Faktorisera uttryck med potenser och flera variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "2b(a+3b)",
+      "5xy(3x-1)"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "största_faktor",
+      "största_faktor"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(2ab+6b^{2}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 2 och 6 är 2</p><div class=\"facit-matte\">\\[2=2\\cdot 1\\qquad 6=2\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(b\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2b\\)</p><div class=\"facit-matte\">\\[\\frac{2ab}{2b}=a\\]</div><div class=\"facit-matte\">\\[\\frac{6b^{2}}{2b}=3b\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2b\\) gånger parentesen</p><div class=\"facit-matte\">\\[2ab+6b^{2}=2b(a+3b)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2b\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2b(a+3b)=2ab+6b^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2b(a+3b)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 2 och 6 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(15x^{2}y-5xy\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 15 och 5 är 5</p><div class=\"facit-matte\">\\[15=5\\cdot 3\\qquad 5=5\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\) och \\(y\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5xy\\)</p><div class=\"facit-matte\">\\[\\frac{15x^{2}y}{5xy}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{-5xy}{5xy}=-1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5xy\\) gånger parentesen</p><div class=\"facit-matte\">\\[15x^{2}y-5xy=5xy(3x-1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5xy\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5xy(3x-1)=15x^{2}y-5xy\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5xy(3x-1)\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 15 och 5 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 2 och 6 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p><p><strong>b)</strong> Vilket är det största tal som både 15 och 5 är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1704",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Faktorisera \\(ab+ab^{2}\\) genom att bryta ut största möjliga faktor.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen 1 och 1 har ingen gemensam faktor större än 1</p></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a\\) och \\(b\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(ab\\)</p><div class=\"facit-matte\">\\[\\frac{ab}{ab}=1\\]</div><div class=\"facit-matte\">\\[\\frac{ab^{2}}{ab}=b\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(ab\\) gånger parentesen</p><div class=\"facit-matte\">\\[ab+ab^{2}=ab(1+b)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(ab\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[ab(1+b)=ab+ab^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(ab(1+b)\\)</p></div>",
+    "familj": "Faktorisera uttryck med potenser och flera variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "uttryck",
+    "rättSvar": "ab(1+b)",
+    "tolerans": 1e-09,
+    "svarFormat": "största_faktor",
+    "ledtrad": "<p>Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
   }
 ];

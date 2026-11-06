@@ -4118,7 +4118,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-06-ma1-ekvationsproblem";
+const BANK_VERSION="2026-11-06-ma1-storsta-faktor";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11020,6 +11020,73 @@ function forkortatUttryckRatt(anv,facit){
   }catch(_){ return false; }
 }
 
+/* Bryt ut största gemensamma faktor (format "största_faktor", 2026-11-06): svaret ska vara algebraiskt
+   lika med facit och skrivet som en produkt, där parentesfaktorn inte har någon gemensam faktor kvar.
+   Heltalskoefficienterna i parentesen ska alltså ha största gemensamma delare 1, och ingen variabel får
+   finnas i alla termer. För 6x²+9x godtas 3x(2x+3) och (2x+3)·3x. Däremot underkänns 3(2x²+3x),
+   x(6x+9), 1,5(4x²+6x) och den oförändrade frågan. Formatet gäller bara uppgifter som anger det. */
+function termerIUtvecklat(s){
+  const termer=[];
+  for(const t of nerdamer(`expand(${s})`).text().replace(/\s+/g,"").match(/[+-]?[^+-]+/g)||[]){
+    let k=1; const exp={};
+    for(let d of t.replace(/^\+/,"").split("*")){
+      if(d.startsWith("-")){ k=-k; d=d.slice(1); }
+      if(d==="") continue;
+      if(/^\d+$/.test(d)){ k*=Number(d); continue; }
+      const m=d.match(/^([a-zA-Z]\w*)(?:\^(\d+))?$/);
+      if(!m) return null;   // decimaltal, bråk eller negativ exponent: inte en heltalspolynomfaktor
+      exp[m[1]]=(exp[m[1]]||0)+Number(m[2]||1);
+    }
+    termer.push({k,exp});
+  }
+  return termer;
+}
+function utanGemensamFaktor(summa){
+  const termer=termerIUtvecklat(summa);
+  if(!termer || termer.length<2) return false;
+  const g=(a,b)=>b?g(b,a%b):Math.abs(a);
+  if(termer.map(t=>t.k).reduce(g)!==1) return false;
+  for(const v of new Set(termer.flatMap(t=>Object.keys(t.exp))))
+    if(termer.every(t=>(t.exp[v]||0)>0)) return false;
+  return true;
+}
+function arSumma(s){
+  let djup=0;
+  for(let i=0;i<s.length;i++){
+    const c=s[i];
+    if(c==="(") djup++; else if(c===")") djup--;
+    else if(djup===0 && i>0 && (c==="+"||c==="-") && !"^*/(eE".includes(s[i-1])) return true;
+  }
+  return false;
+}
+function utanYttreParentes(s){
+  while(s.startsWith("(") && s.endsWith(")")){
+    let djup=0,hela=true;
+    for(let i=0;i<s.length-1;i++){ if(s[i]==="(") djup++; else if(s[i]===")") djup--; if(djup===0){ hela=false; break; } }
+    if(!hela) break;
+    s=s.slice(1,-1);
+  }
+  return s;
+}
+function storstaFaktorRatt(anv,facit){
+  if(typeof nerdamer==="undefined") return null;
+  const a=hogerled(anv), f=hogerled(facit);
+  if(algebraisktLika(a,f)!==true) return false;
+  try{
+    // Potensknappen skriver x^(2); exponenten i parentes är samma sak som x^2.
+    const raw=tillNerdamer(normalizeMathInput(a)).replace(/\s+/g,"").replace(/\^\(\s*(\d+)\s*\)/g,"^$1").replace(/^\+/,"");
+    if(raw.length>300 || toppnivaDelar(raw,"/").length>1) return false;
+    if(arSumma(raw)) return false;   // en summa på toppnivå är inte faktoriserad
+    let summor=0;
+    for(let d of toppnivaDelar(raw.replace(/^-/,""),"*")){
+      d=utanYttreParentes(d.replace(/^-/,""));
+      if(arSumma(d)){ summor++; if(!utanGemensamFaktor(d)) return false; }
+      else if(!/^-?(\d+|[a-zA-Z]\w*(\^\d+)?)$/.test(d)) return false;
+    }
+    return summor>=1;
+  }catch(_){ return false; }
+}
+
 function faktoriseratSvarRatt(anv,facit){
   // Även facit med enbart LaTeX-avgränsare måste rensas före f(x)=.
   anv=latexToPlain(anv); facit=latexToPlain(facit);
@@ -11449,6 +11516,7 @@ function formatRatt(anv,facit,meta){
       return r===null ? textNyckel(utanTal(a))===textNyckel(utanTal(f)) : r;
     }
     case "förkortat_uttryck": case "forkortat_uttryck": return forkortatUttryckRatt(a,f);
+    case "största_faktor": case "storsta_faktor": return storstaFaktorRatt(a,f);
     case "uttryck": case "uttryck_med_villkor": {
       /* Ett villkor efter kommatecken (", x≠0") tas bort, men inte ett decimalkomma: y=-1,5x+6 ska vara kvar. */
       const rensa=x=>String(x).split(/(?:(?<!\d),|,(?!\d))(?![^()]*\))|\s+där\s+|\s+om\s+/i)[0];
@@ -12065,7 +12133,7 @@ function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
   }
   /* Decimalform kräver den angivna representationen och målenheten.
      Kontrollera detta innan generella tal- och enhetsgenvägar prövas. */
-  if(["decimalform","energi_per_nukleon","faktoriserat","en_logaritm","kvadratkompletterat","funktionsuttryck","primitiv","primitiva"].includes(format))
+  if(["decimalform","energi_per_nukleon","faktoriserat","största_faktor","storsta_faktor","en_logaritm","kvadratkompletterat","funktionsuttryck","primitiv","primitiva"].includes(format))
     return formatRatt(enhetMedOrd(anv),facit,{format,tolerans:tol,enhet});
   /* Ett känt prefix måste räknas om innan någon genväg tar bort målenheten.
      Annars blev "412 kPa" först "412 k" och därefter "412" mot ett facit i Pa. */
@@ -14632,7 +14700,7 @@ function samlatMangdsvarTillatet(t,layout){
 }
 
 function parentesSaknas(svar,format){
-  if(!["uttryck","förkortat_uttryck","forkortat_uttryck"].includes(String(format||"").toLowerCase())) return false;
+  if(!["uttryck","förkortat_uttryck","forkortat_uttryck","största_faktor","storsta_faktor"].includes(String(format||"").toLowerCase())) return false;
   let djup=0;
   for(const c of String(svar)){
     if(c==="(") djup++;
@@ -16198,6 +16266,36 @@ window.KG_TEST_ANSWER_CHECKER=function(){
   });
   console.table(result);
   return result.every(x=>x.ok);
+};
+
+/* Självtest för formatet största_faktor (Ma1 faktorisering, 2026-11-06). */
+window.KG_TEST_STORSTA_FAKTOR=function(){
+  const F="största_faktor", r=(a,f)=>formatRatt(a,f,{format:F});
+  const cases=[
+    {namn:"rätt", got:r("3x(2x+3)","6x^2+9x"), want:true},
+    {namn:"facit faktoriserat", got:r("3x(2x+3)","3x(2x+3)"), want:true},
+    {namn:"faktorn efter parentesen", got:r("(2x+3)·3x","6x^2+9x"), want:true},
+    {namn:"med gångertecken och mellanslag", got:r("3 · x · (2x + 3)","6x^2+9x"), want:true},
+    {namn:"potensknappen", got:r("2x^(2)(2x-1)","4x^3-2x^2"), want:true},
+    {namn:"bara talfaktor utbruten", got:r("3(2x^2+3x)","6x^2+9x"), want:false},
+    {namn:"bara x utbrutet", got:r("x(6x+9)","6x^2+9x"), want:false},
+    {namn:"för liten talfaktor", got:r("2(4x+6)","8x+12"), want:false},
+    {namn:"största talfaktor", got:r("4(2x+3)","8x+12"), want:true},
+    {namn:"frågan avskriven", got:r("6x^2+9x","6x^2+9x"), want:false},
+    {namn:"hela uttrycket i parentes", got:r("(6x^2+9x)","6x^2+9x"), want:false},
+    {namn:"decimaltal i parentesen", got:r("6(x+1,5)","6x+9"), want:false},
+    {namn:"fel faktor", got:r("3x(2x+4)","6x^2+9x"), want:false},
+    {namn:"negativ faktor", got:r("-3(2x+3)","-6x-9"), want:true},
+    {namn:"negativ parentes", got:r("3(-2x-3)","-6x-9"), want:true},
+    {namn:"två variabler", got:r("3ab(2+3a)","6ab+9a^2b"), want:true},
+    {namn:"två variabler, b kvar", got:r("3a(2b+3ab)","6ab+9a^2b"), want:false},
+    {namn:"tre termer", got:r("2x(2x^2-3x+1)","4x^3-6x^2+2x"), want:true},
+    {namn:"tre termer, x kvar", got:r("2(2x^3-3x^2+x)","4x^3-6x^2+2x"), want:false},
+    {namn:"svar med x =", got:r("y=5(x+2)","5x+10"), want:true}
+  ];
+  cases.forEach(x=>x.ok=x.got===x.want);
+  console.table(cases);
+  return cases.every(x=>x.ok);
 };
 
 window.KG_TEST_MA4_SVAR=function(){

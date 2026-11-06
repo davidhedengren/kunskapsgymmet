@@ -11,7 +11,7 @@ Användaren vill fylla på Ma3c (`mato1`) med många mängdträningsuppgifter, o
 
 Det här är alltså ett medvetet undantag från kravet på unika sammanhang. Uppgiftstyperna återkommer med nya tal och uttryck, men inledningarna varieras och varje del räknas fram för sig.
 
-## Omfattning: 42 uppgifter, 123 kort (1.1004–1.1045)
+## Omgång 1: 42 uppgifter, 123 kort (1.1004–1.1045)
 
 Momenten är kapitlets inledande lektioner i planeringens ordning. Där fanns minst på nivå 2–3: `algebra_polynom` hade 13/9 och `polynom` 16/9.
 
@@ -82,8 +82,40 @@ Användaren gav klartecken och bad om fortsättning. Byggare: `tools/bygg-ma3c-k
   - sekant- och tangentlutningar samt ändringskvoten i tre h-värden.
 - Valideraren ger för Ma3c inga fel och samma 47 varningar, men fem nya infofynd om likhet.
 
-**Medvetet utelämnat:** förkortning och räkning med rationella uttryck (`forkorta_rationella`, `rakna_rationella`). Kunskapsgymmets format `uttryck` godtar allt som är algebraiskt lika med facit, och då godtas också det oförkortade uttrycket, alltså frågan avskriven. Befintliga uppgifter i dessa moment har samma svaghet. Ett format som också kräver förkortad form behövs i Kunskapsgymmet innan fler sådana uppgifter läggs till.
+**Utelämnat i omgång 2:** förkortning och räkning med rationella uttryck (`forkorta_rationella`, `rakna_rationella`). Kunskapsgymmets format `uttryck` godtar allt som är algebraiskt lika med facit, och då godtas också det oförkortade uttrycket, alltså frågan avskriven. Det löstes i omgång 3.
+
+## Nytt svarsformat i Kunskapsgymmet: `förkortat_uttryck`
+
+Användaren godkände ett nytt format (”Ja gör det”) och frågade om alla svar då måste vara förkortade. Svaret är nej. Kravet gäller bara uppgifter som uttryckligen har `svarFormat: "förkortat_uttryck"`, alltså frågor som ber eleven förkorta eller skriva som ett bråk. Alla andra uppgifter med `uttryck` rättas som förut, och där godtas även oförkortade svar. Befintliga uppgifter har inte ändrats.
+
+`forkortatUttryckRatt` i Kunskapsgymmets `index.html` godtar ett svar om båda villkoren gäller:
+
+1. Svaret är algebraiskt lika med facit (`algebraisktLika`, samma som för `uttryck`).
+2. Svaret är förkortat.
+   - Svaret är ett enda bråk eller ett uttryck utan bråkstreck. En summa av bråk, till exempel 2/(x−1)+3/(x+2), underkänns.
+   - Täljaren och nämnaren saknar gemensam polynomfaktor (gcd med nerdamer). Ett gemensamt heltal som i 2x/4 underkänns också.
+   - Faktorer i valfri ordning, utvecklad eller faktoriserad nämnare och teckenbyten som −(x+3)/(2−x) godtas.
+
+Självtester finns i `window.KG_TEST_MA4_SVAR`. De körs lokalt med `tools/kg-sjalvtester.cjs`. Alla passerar utom `KG_TEST_FACITFALLBACK`, som var rött redan före ändringen.
+
+## Omgång 3: 22 uppgifter, 66 delar (1.1078–1.1099)
+
+Byggare: `tools/bygg-ma3c-kap1-mangdtraning3-2026-11-06.py`. Alla svar på uttrycksdelarna rättas med `förkortat_uttryck`.
+
+| Moment (familj) | Uppgifter | Innehåll |
+|---|---|---|
+| `forkorta_rationella` (Förkorta rationella uttryck) | 1.1078–1.1085 | a) (x² − a²)/(x + a) med konjugatregeln, b) trinom delat med konjugat, en gemensam faktor (båda nivå 2), c) bryt ut kx i täljaren och känn igen nämnaren som en kvadrat (nivå 3). |
+| `forkorta_rationella` (Förenkla och ange definitionsvillkor) | 1.1086–1.1091 | Samma uttryck i alla delar: a) förkorta, b) vilka x som inte är tillåtna, även det x vars faktor försvinner (båda nivå 2), c) lös uttrycket = q och kontrollera att lösningen är tillåten (nivå 3). |
+| `rakna_rationella` (Räkna med rationella uttryck) | 1.1092–1.1099 | a) multiplikation med förkortning, b) division som multiplikation med det inverterade bråket (båda nivå 2), c) summa av två bråk skriven som ett enda bråk (nivå 3). |
+
+**Kontroll:**
+
+- Byggaren kontrollerar med sympy att varje svar är lika med frågans uttryck och att täljare och nämnare saknar gemensam faktor. Ekvationernas lösningar är heltal och inte uteslutna.
+- `tools/kg-sjalvrattning-kontroll.cjs` gav noll fel på alla 88 kort, alltså 22 huvuduppgifter och 66 delkort. Följande underkänns: frågan avskriven, faktoriserad men inte förkortad, summan av bråken och fel täljare. Utvecklad nämnare godtas.
+- Alla 88 facit renderas i 390 px utan KaTeX-fel eller för breda rader. Ekvationsfacit och summafacit är granskade visuellt.
+- Regressionstestet `tools/ma3c-kap1-mangdtraning3-2026-11-06.test.js` räknar om varje svar mot frågan i sju x-värden, kontrollerar uteslutna värden och ekvationens lösning, stigande nivå, rubriker och att delfacit inte avslöjar c-svaret.
+- Valideraren ger för Ma3c inga fel och samma 47 varningar, men åtta nya infofynd om likhet, vilket är väntat vid mängdträning.
 
 ## Fortsättning
 
-Efter omgång 2 återstår förkortning och räkning med rationella uttryck (se ovan), samt `absolutbelopp`, `gransvarde` och `kontinuitet` om de behöver mer mängdträning. Byggaren kan utökas med fler områden på samma sätt.
+Kvar i kapitel 1 är `absolutbelopp`, `gransvarde` och `kontinuitet`, om de behöver mer mängdträning. Äldre uppgifter i `forkorta_rationella` och `rakna_rationella` har kvar formatet `uttryck`. De kan byta till `förkortat_uttryck` efter granskning, men inte i en massändring.

@@ -125831,5 +125831,1825 @@ window.BANKMATO1 = [
         "arbetsinsats": 2
       }
     ]
+  },
+  {
+    "id": "1.1078",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förkorta rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förkorta så långt som möjligt.</p><p>a) \\(\\dfrac{x^2-9}{x+3}\\)</p><p>b) \\(\\dfrac{x^2+2x-15}{x^2-25}\\)</p><p>c) \\(\\dfrac{2x^2-6x}{x^2-6x+9}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-9=(x+3)(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+3)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+3)(x-3)}{x+3}\\\\&=x-3\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-3\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-5\\) och \\(x=3\\) ger faktorerna</p><div class=\"facit-matte\">\\[\\begin{aligned}&x^2+2x-15\\\\&=(x+5)(x-3)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-25=(x+5)(x-5)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+5)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+5)(x-3)}{(x+5)(x-5)}\\\\&=\\dfrac{x-3}{x-5}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-3}{x-5}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(2x\\)</p><div class=\"facit-matte\">\\[2x^2-6x=2x(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-6x+9=(x-3)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-3)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{2x(x-3)}{(x-3)^2}\\\\&=\\dfrac{2x}{x-3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{2x}{x-3}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+    "rättSvar": [
+      "x-3",
+      "(x-3)/(x-5)",
+      "2x/(x-3)"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Förkorta så långt som möjligt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-9}{x+3}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-9=(x+3)(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+3)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+3)(x-3)}{x+3}\\\\&=x-3\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-3\\)</p></div>",
+        "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2+2x-15}{x^2-25}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-5\\) och \\(x=3\\) ger faktorerna</p><div class=\"facit-matte\">\\[\\begin{aligned}&x^2+2x-15\\\\&=(x+5)(x-3)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-25=(x+5)(x-5)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+5)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+5)(x-3)}{(x+5)(x-5)}\\\\&=\\dfrac{x-3}{x-5}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-3}{x-5}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera både täljare och nämnare. Vilken faktor finns i båda?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\dfrac{2x^2-6x}{x^2-6x+9}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(2x\\)</p><div class=\"facit-matte\">\\[2x^2-6x=2x(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-6x+9=(x-3)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-3)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{2x(x-3)}{(x-3)^2}\\\\&=\\dfrac{2x}{x-3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{2x}{x-3}\\)</p></div>",
+        "ledtrad": "<p>Bryt ut den gemensamma faktorn i täljaren. Känner du igen nämnaren som en kvadrat?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1079",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förkorta rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycken genom att förkorta.</p><p>a) \\(\\dfrac{x^2-16}{x+4}\\)</p><p>b) \\(\\dfrac{x^2+x-12}{x^2-16}\\)</p><p>c) \\(\\dfrac{3x^2-15x}{x^2-10x+25}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-16=(x+4)(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+4)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+4)(x-4)}{x+4}\\\\&=x-4\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-4\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-4\\) och \\(x=3\\) ger faktorerna</p><div class=\"facit-matte\">\\[x^2+x-12=(x+4)(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-16=(x+4)(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+4)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+4)(x-3)}{(x+4)(x-4)}\\\\&=\\dfrac{x-3}{x-4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-3}{x-4}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(3x\\)</p><div class=\"facit-matte\">\\[3x^2-15x=3x(x-5)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-10x+25=(x-5)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-5)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{3x(x-5)}{(x-5)^2}\\\\&=\\dfrac{3x}{x-5}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{3x}{x-5}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+    "rättSvar": [
+      "x-4",
+      "(x-3)/(x-4)",
+      "3x/(x-5)"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Förenkla uttrycken genom att förkorta.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-16}{x+4}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-16=(x+4)(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+4)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+4)(x-4)}{x+4}\\\\&=x-4\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-4\\)</p></div>",
+        "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2+x-12}{x^2-16}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-4\\) och \\(x=3\\) ger faktorerna</p><div class=\"facit-matte\">\\[x^2+x-12=(x+4)(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-16=(x+4)(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+4)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+4)(x-3)}{(x+4)(x-4)}\\\\&=\\dfrac{x-3}{x-4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-3}{x-4}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera både täljare och nämnare. Vilken faktor finns i båda?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\dfrac{3x^2-15x}{x^2-10x+25}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(3x\\)</p><div class=\"facit-matte\">\\[3x^2-15x=3x(x-5)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-10x+25=(x-5)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-5)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{3x(x-5)}{(x-5)^2}\\\\&=\\dfrac{3x}{x-5}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{3x}{x-5}\\)</p></div>",
+        "ledtrad": "<p>Bryt ut den gemensamma faktorn i täljaren. Känner du igen nämnaren som en kvadrat?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1080",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förkorta rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Faktorisera och förkorta.</p><p>a) \\(\\dfrac{x^2-25}{x+5}\\)</p><p>b) \\(\\dfrac{x^2-x-6}{x^2-4}\\)</p><p>c) \\(\\dfrac{2x^2-8x}{x^2-8x+16}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-25=(x+5)(x-5)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+5)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+5)(x-5)}{x+5}\\\\&=x-5\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-5\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-2\\) och \\(x=3\\) ger faktorerna</p><div class=\"facit-matte\">\\[x^2-x-6=(x+2)(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-4=(x+2)(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+2)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+2)(x-3)}{(x+2)(x-2)}\\\\&=\\dfrac{x-3}{x-2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-3}{x-2}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(2x\\)</p><div class=\"facit-matte\">\\[2x^2-8x=2x(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-8x+16=(x-4)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-4)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{2x(x-4)}{(x-4)^2}\\\\&=\\dfrac{2x}{x-4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{2x}{x-4}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+    "rättSvar": [
+      "x-5",
+      "(x-3)/(x-2)",
+      "2x/(x-4)"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Faktorisera och förkorta.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-25}{x+5}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-25=(x+5)(x-5)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+5)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+5)(x-5)}{x+5}\\\\&=x-5\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-5\\)</p></div>",
+        "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2-x-6}{x^2-4}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-2\\) och \\(x=3\\) ger faktorerna</p><div class=\"facit-matte\">\\[x^2-x-6=(x+2)(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-4=(x+2)(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+2)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+2)(x-3)}{(x+2)(x-2)}\\\\&=\\dfrac{x-3}{x-2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-3}{x-2}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera både täljare och nämnare. Vilken faktor finns i båda?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\dfrac{2x^2-8x}{x^2-8x+16}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(2x\\)</p><div class=\"facit-matte\">\\[2x^2-8x=2x(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-8x+16=(x-4)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-4)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{2x(x-4)}{(x-4)^2}\\\\&=\\dfrac{2x}{x-4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{2x}{x-4}\\)</p></div>",
+        "ledtrad": "<p>Bryt ut den gemensamma faktorn i täljaren. Känner du igen nämnaren som en kvadrat?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1081",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förkorta rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förkorta så långt som möjligt.</p><p>a) \\(\\dfrac{x^2-4}{x+2}\\)</p><p>b) \\(\\dfrac{x^2+3x-10}{x^2-25}\\)</p><p>c) \\(\\dfrac{5x^2-5x}{x^2-2x+1}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-4=(x+2)(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+2)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+2)(x-2)}{x+2}\\\\&=x-2\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-2\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-5\\) och \\(x=2\\) ger faktorerna</p><div class=\"facit-matte\">\\[\\begin{aligned}&x^2+3x-10\\\\&=(x+5)(x-2)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-25=(x+5)(x-5)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+5)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+5)(x-2)}{(x+5)(x-5)}\\\\&=\\dfrac{x-2}{x-5}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-2}{x-5}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(5x\\)</p><div class=\"facit-matte\">\\[5x^2-5x=5x(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-2x+1=(x-1)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-1)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{5x(x-1)}{(x-1)^2}\\\\&=\\dfrac{5x}{x-1}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{5x}{x-1}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+    "rättSvar": [
+      "x-2",
+      "(x-2)/(x-5)",
+      "5x/(x-1)"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Förkorta så långt som möjligt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-4}{x+2}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-4=(x+2)(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+2)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+2)(x-2)}{x+2}\\\\&=x-2\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-2\\)</p></div>",
+        "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2+3x-10}{x^2-25}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-5\\) och \\(x=2\\) ger faktorerna</p><div class=\"facit-matte\">\\[\\begin{aligned}&x^2+3x-10\\\\&=(x+5)(x-2)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-25=(x+5)(x-5)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+5)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+5)(x-2)}{(x+5)(x-5)}\\\\&=\\dfrac{x-2}{x-5}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-2}{x-5}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera både täljare och nämnare. Vilken faktor finns i båda?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\dfrac{5x^2-5x}{x^2-2x+1}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(5x\\)</p><div class=\"facit-matte\">\\[5x^2-5x=5x(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-2x+1=(x-1)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-1)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{5x(x-1)}{(x-1)^2}\\\\&=\\dfrac{5x}{x-1}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{5x}{x-1}\\)</p></div>",
+        "ledtrad": "<p>Bryt ut den gemensamma faktorn i täljaren. Känner du igen nämnaren som en kvadrat?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1082",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förkorta rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycken genom att förkorta.</p><p>a) \\(\\dfrac{x^2-36}{x+6}\\)</p><p>b) \\(\\dfrac{x^2+5x+6}{x^2-9}\\)</p><p>c) \\(\\dfrac{3x^2-6x}{x^2-4x+4}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-36=(x+6)(x-6)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+6)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+6)(x-6)}{x+6}\\\\&=x-6\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-6\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-3\\) och \\(x=-2\\) ger faktorerna</p><div class=\"facit-matte\">\\[x^2+5x+6=(x+3)(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-9=(x+3)(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+3)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+3)(x+2)}{(x+3)(x-3)}\\\\&=\\dfrac{x+2}{x-3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+2}{x-3}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(3x\\)</p><div class=\"facit-matte\">\\[3x^2-6x=3x(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-4x+4=(x-2)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-2)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{3x(x-2)}{(x-2)^2}\\\\&=\\dfrac{3x}{x-2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{3x}{x-2}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+    "rättSvar": [
+      "x-6",
+      "(x+2)/(x-3)",
+      "3x/(x-2)"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Förenkla uttrycken genom att förkorta.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-36}{x+6}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-36=(x+6)(x-6)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+6)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+6)(x-6)}{x+6}\\\\&=x-6\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-6\\)</p></div>",
+        "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2+5x+6}{x^2-9}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-3\\) och \\(x=-2\\) ger faktorerna</p><div class=\"facit-matte\">\\[x^2+5x+6=(x+3)(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-9=(x+3)(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+3)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+3)(x+2)}{(x+3)(x-3)}\\\\&=\\dfrac{x+2}{x-3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+2}{x-3}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera både täljare och nämnare. Vilken faktor finns i båda?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\dfrac{3x^2-6x}{x^2-4x+4}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(3x\\)</p><div class=\"facit-matte\">\\[3x^2-6x=3x(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-4x+4=(x-2)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-2)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{3x(x-2)}{(x-2)^2}\\\\&=\\dfrac{3x}{x-2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{3x}{x-2}\\)</p></div>",
+        "ledtrad": "<p>Bryt ut den gemensamma faktorn i täljaren. Känner du igen nämnaren som en kvadrat?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1083",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förkorta rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Faktorisera och förkorta.</p><p>a) \\(\\dfrac{x^2-49}{x+7}\\)</p><p>b) \\(\\dfrac{x^2-2x-8}{x^2-4}\\)</p><p>c) \\(\\dfrac{4x^2-24x}{x^2-12x+36}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-49=(x+7)(x-7)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+7)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+7)(x-7)}{x+7}\\\\&=x-7\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-7\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-2\\) och \\(x=4\\) ger faktorerna</p><div class=\"facit-matte\">\\[x^2-2x-8=(x+2)(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-4=(x+2)(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+2)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+2)(x-4)}{(x+2)(x-2)}\\\\&=\\dfrac{x-4}{x-2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-4}{x-2}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(4x\\)</p><div class=\"facit-matte\">\\[4x^2-24x=4x(x-6)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-12x+36=(x-6)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-6)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{4x(x-6)}{(x-6)^2}\\\\&=\\dfrac{4x}{x-6}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{4x}{x-6}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+    "rättSvar": [
+      "x-7",
+      "(x-4)/(x-2)",
+      "4x/(x-6)"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Faktorisera och förkorta.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-49}{x+7}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-49=(x+7)(x-7)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+7)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+7)(x-7)}{x+7}\\\\&=x-7\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-7\\)</p></div>",
+        "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2-2x-8}{x^2-4}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-2\\) och \\(x=4\\) ger faktorerna</p><div class=\"facit-matte\">\\[x^2-2x-8=(x+2)(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-4=(x+2)(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+2)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+2)(x-4)}{(x+2)(x-2)}\\\\&=\\dfrac{x-4}{x-2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-4}{x-2}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera både täljare och nämnare. Vilken faktor finns i båda?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\dfrac{4x^2-24x}{x^2-12x+36}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(4x\\)</p><div class=\"facit-matte\">\\[4x^2-24x=4x(x-6)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-12x+36=(x-6)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-6)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{4x(x-6)}{(x-6)^2}\\\\&=\\dfrac{4x}{x-6}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{4x}{x-6}\\)</p></div>",
+        "ledtrad": "<p>Bryt ut den gemensamma faktorn i täljaren. Känner du igen nämnaren som en kvadrat?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1084",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förkorta rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förkorta så långt som möjligt.</p><p>a) \\(\\dfrac{x^2-1}{x+1}\\)</p><p>b) \\(\\dfrac{x^2+7x+12}{x^2-16}\\)</p><p>c) \\(\\dfrac{2x^2-4x}{x^2-4x+4}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-1=(x+1)(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+1)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+1)(x-1)}{x+1}\\\\&=x-1\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-1\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-4\\) och \\(x=-3\\) ger faktorerna</p><div class=\"facit-matte\">\\[\\begin{aligned}&x^2+7x+12\\\\&=(x+4)(x+3)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-16=(x+4)(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+4)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+4)(x+3)}{(x+4)(x-4)}\\\\&=\\dfrac{x+3}{x-4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+3}{x-4}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(2x\\)</p><div class=\"facit-matte\">\\[2x^2-4x=2x(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-4x+4=(x-2)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-2)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{2x(x-2)}{(x-2)^2}\\\\&=\\dfrac{2x}{x-2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{2x}{x-2}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+    "rättSvar": [
+      "x-1",
+      "(x+3)/(x-4)",
+      "2x/(x-2)"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Förkorta så långt som möjligt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-1}{x+1}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-1=(x+1)(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+1)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+1)(x-1)}{x+1}\\\\&=x-1\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-1\\)</p></div>",
+        "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2+7x+12}{x^2-16}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-4\\) och \\(x=-3\\) ger faktorerna</p><div class=\"facit-matte\">\\[\\begin{aligned}&x^2+7x+12\\\\&=(x+4)(x+3)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-16=(x+4)(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+4)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+4)(x+3)}{(x+4)(x-4)}\\\\&=\\dfrac{x+3}{x-4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+3}{x-4}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera både täljare och nämnare. Vilken faktor finns i båda?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\dfrac{2x^2-4x}{x^2-4x+4}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(2x\\)</p><div class=\"facit-matte\">\\[2x^2-4x=2x(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-4x+4=(x-2)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-2)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{2x(x-2)}{(x-2)^2}\\\\&=\\dfrac{2x}{x-2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{2x}{x-2}\\)</p></div>",
+        "ledtrad": "<p>Bryt ut den gemensamma faktorn i täljaren. Känner du igen nämnaren som en kvadrat?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1085",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förkorta rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycken genom att förkorta.</p><p>a) \\(\\dfrac{x^2-64}{x+8}\\)</p><p>b) \\(\\dfrac{x^2-3x-18}{x^2-9}\\)</p><p>c) \\(\\dfrac{6x^2-6x}{x^2-2x+1}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-64=(x+8)(x-8)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+8)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+8)(x-8)}{x+8}\\\\&=x-8\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-8\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-3\\) och \\(x=6\\) ger faktorerna</p><div class=\"facit-matte\">\\[\\begin{aligned}&x^2-3x-18\\\\&=(x+3)(x-6)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-9=(x+3)(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+3)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+3)(x-6)}{(x+3)(x-3)}\\\\&=\\dfrac{x-6}{x-3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-6}{x-3}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(6x\\)</p><div class=\"facit-matte\">\\[6x^2-6x=6x(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-2x+1=(x-1)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-1)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{6x(x-1)}{(x-1)^2}\\\\&=\\dfrac{6x}{x-1}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{6x}{x-1}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+    "rättSvar": [
+      "x-8",
+      "(x-6)/(x-3)",
+      "6x/(x-1)"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Förenkla uttrycken genom att förkorta.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-64}{x+8}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-64=(x+8)(x-8)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+8)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+8)(x-8)}{x+8}\\\\&=x-8\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-8\\)</p></div>",
+        "ledtrad": "<p>Kan täljaren faktoriseras med konjugatregeln?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2-3x-18}{x^2-9}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – nollställena \\(x=-3\\) och \\(x=6\\) ger faktorerna</p><div class=\"facit-matte\">\\[\\begin{aligned}&x^2-3x-18\\\\&=(x+3)(x-6)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – konjugatregeln \\(a^2-b^2=(a+b)(a-b)\\)</p><div class=\"facit-matte\">\\[x^2-9=(x+3)(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+3)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+3)(x-6)}{(x+3)(x-3)}\\\\&=\\dfrac{x-6}{x-3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-6}{x-3}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera både täljare och nämnare. Vilken faktor finns i båda?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "\\(\\dfrac{6x^2-6x}{x^2-2x+1}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren – bryt ut \\(6x\\)</p><div class=\"facit-matte\">\\[6x^2-6x=6x(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren – kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[x^2-2x+1=(x-1)^2\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-1)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{6x(x-1)}{(x-1)^2}\\\\&=\\dfrac{6x}{x-1}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{6x}{x-1}\\)</p></div>",
+        "ledtrad": "<p>Bryt ut den gemensamma faktorn i täljaren. Känner du igen nämnaren som en kvadrat?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1086",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förenkla och ange definitionsvillkor",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Uttrycket är \\(\\dfrac{x^2+x-6}{x^2-6x+8}\\).</p><p>a) Förkorta uttrycket så långt som möjligt.</p><p>b) Vilka värden på x är inte tillåtna i uttrycket?</p><p>c) Lös ekvationen \\(\\dfrac{x^2+x-6}{x^2-6x+8}=2\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren med hjälp av dess nollställen</p><div class=\"facit-matte\">\\[x^2+x-6=(x-2)(x+3)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren på samma sätt</p><div class=\"facit-matte\">\\[x^2-6x+8=(x-2)(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-2)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x-2)(x+3)}{(x-2)(x-4)}\\\\&=\\dfrac{x+3}{x-4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+3}{x-4}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det ursprungliga uttrycket är inte definierat där nämnaren är noll</p><div class=\"facit-matte\">\\[(x-2)(x-4)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är noll när någon faktor är noll</p><p>Nämnaren är noll för \\(x=2\\) och \\(x=4\\). Båda ska uteslutas, även \\(x=2\\) vars faktor försvinner när man förkortar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\), \\(x=4\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det förenklade uttrycket gäller för alla tillåtna x</p><div class=\"facit-matte\">\\[\\dfrac{x+3}{x-4}=2\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med nämnaren</p><div class=\"facit-matte\">\\[x+3=2(x-4)=2x-8\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna i vänsterledet och talen i högerledet</p><div class=\"facit-matte\">\\[-x=-11\\Rightarrow x=11\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att lösningen är tillåten</p><p>\\(x=11\\) är inte ett av de uteslutna värdena \\(x=2\\) och \\(x=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=11\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Faktorisera täljare och nämnare. Båda har en faktor gemensamt.</p>",
+    "rättSvar": [
+      "(x+3)/(x-4)",
+      [
+        2,
+        4
+      ],
+      11
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "tolerans": [
+      null,
+      [
+        1e-09,
+        1e-09
+      ],
+      1e-09
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Uttrycket är \\(\\dfrac{x^2+x-6}{x^2-6x+8}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Förkorta uttrycket så långt som möjligt.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren med hjälp av dess nollställen</p><div class=\"facit-matte\">\\[x^2+x-6=(x-2)(x+3)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren på samma sätt</p><div class=\"facit-matte\">\\[x^2-6x+8=(x-2)(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-2)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x-2)(x+3)}{(x-2)(x-4)}\\\\&=\\dfrac{x+3}{x-4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+3}{x-4}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera täljare och nämnare. Båda har en faktor gemensamt.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilka värden på x är inte tillåtna i uttrycket?",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det ursprungliga uttrycket är inte definierat där nämnaren är noll</p><div class=\"facit-matte\">\\[(x-2)(x-4)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är noll när någon faktor är noll</p><p>Nämnaren är noll för \\(x=2\\) och \\(x=4\\). Båda ska uteslutas, även \\(x=2\\) vars faktor försvinner när man förkortar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\), \\(x=4\\)</p></div>",
+        "ledtrad": "<p>Utgå från nämnaren i det ursprungliga uttrycket, inte i det förkortade.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Lös ekvationen \\(\\dfrac{x^2+x-6}{x^2-6x+8}=2\\).",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det förenklade uttrycket gäller för alla tillåtna x</p><div class=\"facit-matte\">\\[\\dfrac{x+3}{x-4}=2\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med nämnaren</p><div class=\"facit-matte\">\\[x+3=2(x-4)=2x-8\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna i vänsterledet och talen i högerledet</p><div class=\"facit-matte\">\\[-x=-11\\Rightarrow x=11\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att lösningen är tillåten</p><p>\\(x=11\\) är inte ett av de uteslutna värdena \\(x=2\\) och \\(x=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=11\\)</p></div>",
+        "ledtrad": "<p>Förkorta först. Multiplicera sedan med nämnaren och kontrollera att svaret är tillåtet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1087",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förenkla och ange definitionsvillkor",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Uttrycket är \\(\\dfrac{x^2-3x-4}{x^2-x-2}\\).</p><p>a) Förkorta uttrycket så långt som möjligt.</p><p>b) Vilka värden på x är inte tillåtna i uttrycket?</p><p>c) Lös ekvationen \\(\\dfrac{x^2-3x-4}{x^2-x-2}=3\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren med hjälp av dess nollställen</p><div class=\"facit-matte\">\\[x^2-3x-4=(x+1)(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren på samma sätt</p><div class=\"facit-matte\">\\[x^2-x-2=(x+1)(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+1)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+1)(x-4)}{(x+1)(x-2)}\\\\&=\\dfrac{x-4}{x-2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-4}{x-2}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det ursprungliga uttrycket är inte definierat där nämnaren är noll</p><div class=\"facit-matte\">\\[(x+1)(x-2)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är noll när någon faktor är noll</p><p>Nämnaren är noll för \\(x=-1\\) och \\(x=2\\). Båda ska uteslutas, även \\(x=-1\\) vars faktor försvinner när man förkortar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\), \\(x=2\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det förenklade uttrycket gäller för alla tillåtna x</p><div class=\"facit-matte\">\\[\\dfrac{x-4}{x-2}=3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med nämnaren</p><div class=\"facit-matte\">\\[x-4=3(x-2)=3x-6\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna i vänsterledet och talen i högerledet</p><div class=\"facit-matte\">\\[-2x=-2\\Rightarrow x=1\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att lösningen är tillåten</p><p>\\(x=1\\) är inte ett av de uteslutna värdena \\(x=-1\\) och \\(x=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Faktorisera täljare och nämnare. Båda har en faktor gemensamt.</p>",
+    "rättSvar": [
+      "(x-4)/(x-2)",
+      [
+        -1,
+        2
+      ],
+      1
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "tolerans": [
+      null,
+      [
+        1e-09,
+        1e-09
+      ],
+      1e-09
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Uttrycket är \\(\\dfrac{x^2-3x-4}{x^2-x-2}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Förkorta uttrycket så långt som möjligt.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren med hjälp av dess nollställen</p><div class=\"facit-matte\">\\[x^2-3x-4=(x+1)(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren på samma sätt</p><div class=\"facit-matte\">\\[x^2-x-2=(x+1)(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+1)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+1)(x-4)}{(x+1)(x-2)}\\\\&=\\dfrac{x-4}{x-2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-4}{x-2}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera täljare och nämnare. Båda har en faktor gemensamt.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilka värden på x är inte tillåtna i uttrycket?",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det ursprungliga uttrycket är inte definierat där nämnaren är noll</p><div class=\"facit-matte\">\\[(x+1)(x-2)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är noll när någon faktor är noll</p><p>Nämnaren är noll för \\(x=-1\\) och \\(x=2\\). Båda ska uteslutas, även \\(x=-1\\) vars faktor försvinner när man förkortar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\), \\(x=2\\)</p></div>",
+        "ledtrad": "<p>Utgå från nämnaren i det ursprungliga uttrycket, inte i det förkortade.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Lös ekvationen \\(\\dfrac{x^2-3x-4}{x^2-x-2}=3\\).",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det förenklade uttrycket gäller för alla tillåtna x</p><div class=\"facit-matte\">\\[\\dfrac{x-4}{x-2}=3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med nämnaren</p><div class=\"facit-matte\">\\[x-4=3(x-2)=3x-6\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna i vänsterledet och talen i högerledet</p><div class=\"facit-matte\">\\[-2x=-2\\Rightarrow x=1\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att lösningen är tillåten</p><p>\\(x=1\\) är inte ett av de uteslutna värdena \\(x=-1\\) och \\(x=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div>",
+        "ledtrad": "<p>Förkorta först. Multiplicera sedan med nämnaren och kontrollera att svaret är tillåtet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1088",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förenkla och ange definitionsvillkor",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Uttrycket är \\(\\dfrac{x^2-4x+3}{x^2-x-6}\\).</p><p>a) Förkorta uttrycket så långt som möjligt.</p><p>b) Vilka värden på x är inte tillåtna i uttrycket?</p><p>c) Lös ekvationen \\(\\dfrac{x^2-4x+3}{x^2-x-6}=2\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren med hjälp av dess nollställen</p><div class=\"facit-matte\">\\[x^2-4x+3=(x-3)(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren på samma sätt</p><div class=\"facit-matte\">\\[x^2-x-6=(x-3)(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-3)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x-3)(x-1)}{(x-3)(x+2)}\\\\&=\\dfrac{x-1}{x+2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-1}{x+2}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det ursprungliga uttrycket är inte definierat där nämnaren är noll</p><div class=\"facit-matte\">\\[(x-3)(x+2)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är noll när någon faktor är noll</p><p>Nämnaren är noll för \\(x=-2\\) och \\(x=3\\). Båda ska uteslutas, även \\(x=3\\) vars faktor försvinner när man förkortar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\), \\(x=3\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det förenklade uttrycket gäller för alla tillåtna x</p><div class=\"facit-matte\">\\[\\dfrac{x-1}{x+2}=2\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med nämnaren</p><div class=\"facit-matte\">\\[x-1=2(x+2)=2x+4\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna i vänsterledet och talen i högerledet</p><div class=\"facit-matte\">\\[-x=5\\Rightarrow x=-5\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att lösningen är tillåten</p><p>\\(x=-5\\) är inte ett av de uteslutna värdena \\(x=-2\\) och \\(x=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Faktorisera täljare och nämnare. Båda har en faktor gemensamt.</p>",
+    "rättSvar": [
+      "(x-1)/(x+2)",
+      [
+        -2,
+        3
+      ],
+      -5
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "tolerans": [
+      null,
+      [
+        1e-09,
+        1e-09
+      ],
+      1e-09
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Uttrycket är \\(\\dfrac{x^2-4x+3}{x^2-x-6}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Förkorta uttrycket så långt som möjligt.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren med hjälp av dess nollställen</p><div class=\"facit-matte\">\\[x^2-4x+3=(x-3)(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren på samma sätt</p><div class=\"facit-matte\">\\[x^2-x-6=(x-3)(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-3)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x-3)(x-1)}{(x-3)(x+2)}\\\\&=\\dfrac{x-1}{x+2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x-1}{x+2}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera täljare och nämnare. Båda har en faktor gemensamt.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilka värden på x är inte tillåtna i uttrycket?",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det ursprungliga uttrycket är inte definierat där nämnaren är noll</p><div class=\"facit-matte\">\\[(x-3)(x+2)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är noll när någon faktor är noll</p><p>Nämnaren är noll för \\(x=-2\\) och \\(x=3\\). Båda ska uteslutas, även \\(x=3\\) vars faktor försvinner när man förkortar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\), \\(x=3\\)</p></div>",
+        "ledtrad": "<p>Utgå från nämnaren i det ursprungliga uttrycket, inte i det förkortade.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Lös ekvationen \\(\\dfrac{x^2-4x+3}{x^2-x-6}=2\\).",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det förenklade uttrycket gäller för alla tillåtna x</p><div class=\"facit-matte\">\\[\\dfrac{x-1}{x+2}=2\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med nämnaren</p><div class=\"facit-matte\">\\[x-1=2(x+2)=2x+4\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna i vänsterledet och talen i högerledet</p><div class=\"facit-matte\">\\[-x=5\\Rightarrow x=-5\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att lösningen är tillåten</p><p>\\(x=-5\\) är inte ett av de uteslutna värdena \\(x=-2\\) och \\(x=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div>",
+        "ledtrad": "<p>Förkorta först. Multiplicera sedan med nämnaren och kontrollera att svaret är tillåtet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1089",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förenkla och ange definitionsvillkor",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Uttrycket är \\(\\dfrac{x^2+5x+4}{x^2+3x-4}\\).</p><p>a) Förkorta uttrycket så långt som möjligt.</p><p>b) Vilka värden på x är inte tillåtna i uttrycket?</p><p>c) Lös ekvationen \\(\\dfrac{x^2+5x+4}{x^2+3x-4}=3\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren med hjälp av dess nollställen</p><div class=\"facit-matte\">\\[x^2+5x+4=(x+4)(x+1)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren på samma sätt</p><div class=\"facit-matte\">\\[x^2+3x-4=(x+4)(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+4)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+4)(x+1)}{(x+4)(x-1)}\\\\&=\\dfrac{x+1}{x-1}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+1}{x-1}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det ursprungliga uttrycket är inte definierat där nämnaren är noll</p><div class=\"facit-matte\">\\[(x+4)(x-1)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är noll när någon faktor är noll</p><p>Nämnaren är noll för \\(x=-4\\) och \\(x=1\\). Båda ska uteslutas, även \\(x=-4\\) vars faktor försvinner när man förkortar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-4\\), \\(x=1\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det förenklade uttrycket gäller för alla tillåtna x</p><div class=\"facit-matte\">\\[\\dfrac{x+1}{x-1}=3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med nämnaren</p><div class=\"facit-matte\">\\[x+1=3(x-1)=3x-3\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna i vänsterledet och talen i högerledet</p><div class=\"facit-matte\">\\[-2x=-4\\Rightarrow x=2\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att lösningen är tillåten</p><p>\\(x=2\\) är inte ett av de uteslutna värdena \\(x=-4\\) och \\(x=1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Faktorisera täljare och nämnare. Båda har en faktor gemensamt.</p>",
+    "rättSvar": [
+      "(x+1)/(x-1)",
+      [
+        -4,
+        1
+      ],
+      2
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "tolerans": [
+      null,
+      [
+        1e-09,
+        1e-09
+      ],
+      1e-09
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Uttrycket är \\(\\dfrac{x^2+5x+4}{x^2+3x-4}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Förkorta uttrycket så långt som möjligt.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren med hjälp av dess nollställen</p><div class=\"facit-matte\">\\[x^2+5x+4=(x+4)(x+1)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren på samma sätt</p><div class=\"facit-matte\">\\[x^2+3x-4=(x+4)(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x+4)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+4)(x+1)}{(x+4)(x-1)}\\\\&=\\dfrac{x+1}{x-1}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+1}{x-1}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera täljare och nämnare. Båda har en faktor gemensamt.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilka värden på x är inte tillåtna i uttrycket?",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det ursprungliga uttrycket är inte definierat där nämnaren är noll</p><div class=\"facit-matte\">\\[(x+4)(x-1)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är noll när någon faktor är noll</p><p>Nämnaren är noll för \\(x=-4\\) och \\(x=1\\). Båda ska uteslutas, även \\(x=-4\\) vars faktor försvinner när man förkortar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-4\\), \\(x=1\\)</p></div>",
+        "ledtrad": "<p>Utgå från nämnaren i det ursprungliga uttrycket, inte i det förkortade.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Lös ekvationen \\(\\dfrac{x^2+5x+4}{x^2+3x-4}=3\\).",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det förenklade uttrycket gäller för alla tillåtna x</p><div class=\"facit-matte\">\\[\\dfrac{x+1}{x-1}=3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med nämnaren</p><div class=\"facit-matte\">\\[x+1=3(x-1)=3x-3\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna i vänsterledet och talen i högerledet</p><div class=\"facit-matte\">\\[-2x=-4\\Rightarrow x=2\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att lösningen är tillåten</p><p>\\(x=2\\) är inte ett av de uteslutna värdena \\(x=-4\\) och \\(x=1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+        "ledtrad": "<p>Förkorta först. Multiplicera sedan med nämnaren och kontrollera att svaret är tillåtet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1090",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förenkla och ange definitionsvillkor",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Uttrycket är \\(\\dfrac{x^2+x-30}{x^2-8x+15}\\).</p><p>a) Förkorta uttrycket så långt som möjligt.</p><p>b) Vilka värden på x är inte tillåtna i uttrycket?</p><p>c) Lös ekvationen \\(\\dfrac{x^2+x-30}{x^2-8x+15}=4\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren med hjälp av dess nollställen</p><div class=\"facit-matte\">\\[x^2+x-30=(x-5)(x+6)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren på samma sätt</p><div class=\"facit-matte\">\\[\\begin{aligned}&x^2-8x+15\\\\&=(x-5)(x-3)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-5)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x-5)(x+6)}{(x-5)(x-3)}\\\\&=\\dfrac{x+6}{x-3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+6}{x-3}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det ursprungliga uttrycket är inte definierat där nämnaren är noll</p><div class=\"facit-matte\">\\[(x-5)(x-3)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är noll när någon faktor är noll</p><p>Nämnaren är noll för \\(x=3\\) och \\(x=5\\). Båda ska uteslutas, även \\(x=5\\) vars faktor försvinner när man förkortar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\), \\(x=5\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det förenklade uttrycket gäller för alla tillåtna x</p><div class=\"facit-matte\">\\[\\dfrac{x+6}{x-3}=4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med nämnaren</p><div class=\"facit-matte\">\\[x+6=4(x-3)=4x-12\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna i vänsterledet och talen i högerledet</p><div class=\"facit-matte\">\\[-3x=-18\\Rightarrow x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att lösningen är tillåten</p><p>\\(x=6\\) är inte ett av de uteslutna värdena \\(x=3\\) och \\(x=5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Faktorisera täljare och nämnare. Båda har en faktor gemensamt.</p>",
+    "rättSvar": [
+      "(x+6)/(x-3)",
+      [
+        3,
+        5
+      ],
+      6
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "tolerans": [
+      null,
+      [
+        1e-09,
+        1e-09
+      ],
+      1e-09
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Uttrycket är \\(\\dfrac{x^2+x-30}{x^2-8x+15}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Förkorta uttrycket så långt som möjligt.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren med hjälp av dess nollställen</p><div class=\"facit-matte\">\\[x^2+x-30=(x-5)(x+6)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren på samma sätt</p><div class=\"facit-matte\">\\[\\begin{aligned}&x^2-8x+15\\\\&=(x-5)(x-3)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-5)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x-5)(x+6)}{(x-5)(x-3)}\\\\&=\\dfrac{x+6}{x-3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+6}{x-3}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera täljare och nämnare. Båda har en faktor gemensamt.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilka värden på x är inte tillåtna i uttrycket?",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det ursprungliga uttrycket är inte definierat där nämnaren är noll</p><div class=\"facit-matte\">\\[(x-5)(x-3)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är noll när någon faktor är noll</p><p>Nämnaren är noll för \\(x=3\\) och \\(x=5\\). Båda ska uteslutas, även \\(x=5\\) vars faktor försvinner när man förkortar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\), \\(x=5\\)</p></div>",
+        "ledtrad": "<p>Utgå från nämnaren i det ursprungliga uttrycket, inte i det förkortade.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Lös ekvationen \\(\\dfrac{x^2+x-30}{x^2-8x+15}=4\\).",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det förenklade uttrycket gäller för alla tillåtna x</p><div class=\"facit-matte\">\\[\\dfrac{x+6}{x-3}=4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med nämnaren</p><div class=\"facit-matte\">\\[x+6=4(x-3)=4x-12\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna i vänsterledet och talen i högerledet</p><div class=\"facit-matte\">\\[-3x=-18\\Rightarrow x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att lösningen är tillåten</p><p>\\(x=6\\) är inte ett av de uteslutna värdena \\(x=3\\) och \\(x=5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+        "ledtrad": "<p>Förkorta först. Multiplicera sedan med nämnaren och kontrollera att svaret är tillåtet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1091",
+    "kap": 1,
+    "omr": "forkorta_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Förenkla och ange definitionsvillkor",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Uttrycket är \\(\\dfrac{x^2+4x-5}{x^2+2x-3}\\).</p><p>a) Förkorta uttrycket så långt som möjligt.</p><p>b) Vilka värden på x är inte tillåtna i uttrycket?</p><p>c) Lös ekvationen \\(\\dfrac{x^2+4x-5}{x^2+2x-3}=2\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren med hjälp av dess nollställen</p><div class=\"facit-matte\">\\[x^2+4x-5=(x-1)(x+5)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren på samma sätt</p><div class=\"facit-matte\">\\[x^2+2x-3=(x-1)(x+3)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-1)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x-1)(x+5)}{(x-1)(x+3)}\\\\&=\\dfrac{x+5}{x+3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+5}{x+3}\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det ursprungliga uttrycket är inte definierat där nämnaren är noll</p><div class=\"facit-matte\">\\[(x-1)(x+3)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är noll när någon faktor är noll</p><p>Nämnaren är noll för \\(x=-3\\) och \\(x=1\\). Båda ska uteslutas, även \\(x=1\\) vars faktor försvinner när man förkortar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\), \\(x=1\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det förenklade uttrycket gäller för alla tillåtna x</p><div class=\"facit-matte\">\\[\\dfrac{x+5}{x+3}=2\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med nämnaren</p><div class=\"facit-matte\">\\[x+5=2(x+3)=2x+6\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna i vänsterledet och talen i högerledet</p><div class=\"facit-matte\">\\[-x=1\\Rightarrow x=-1\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att lösningen är tillåten</p><p>\\(x=-1\\) är inte ett av de uteslutna värdena \\(x=-3\\) och \\(x=1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Faktorisera täljare och nämnare. Båda har en faktor gemensamt.</p>",
+    "rättSvar": [
+      "(x+5)/(x+3)",
+      [
+        -3,
+        1
+      ],
+      -1
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "tolerans": [
+      null,
+      [
+        1e-09,
+        1e-09
+      ],
+      1e-09
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Uttrycket är \\(\\dfrac{x^2+4x-5}{x^2+2x-3}\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Förkorta uttrycket så långt som möjligt.",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera täljaren med hjälp av dess nollställen</p><div class=\"facit-matte\">\\[x^2+4x-5=(x-1)(x+5)\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera nämnaren på samma sätt</p><div class=\"facit-matte\">\\[x^2+2x-3=(x-1)(x+3)\\]</div></li><li><p class=\"facit-rubrik\">Stryk den gemensamma faktorn \\((x-1)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x-1)(x+5)}{(x-1)(x+3)}\\\\&=\\dfrac{x+5}{x+3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+5}{x+3}\\)</p></div>",
+        "ledtrad": "<p>Faktorisera täljare och nämnare. Båda har en faktor gemensamt.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilka värden på x är inte tillåtna i uttrycket?",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det ursprungliga uttrycket är inte definierat där nämnaren är noll</p><div class=\"facit-matte\">\\[(x-1)(x+3)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är noll när någon faktor är noll</p><p>Nämnaren är noll för \\(x=-3\\) och \\(x=1\\). Båda ska uteslutas, även \\(x=1\\) vars faktor försvinner när man förkortar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\), \\(x=1\\)</p></div>",
+        "ledtrad": "<p>Utgå från nämnaren i det ursprungliga uttrycket, inte i det förkortade.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Lös ekvationen \\(\\dfrac{x^2+4x-5}{x^2+2x-3}=2\\).",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det förenklade uttrycket gäller för alla tillåtna x</p><div class=\"facit-matte\">\\[\\dfrac{x+5}{x+3}=2\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med nämnaren</p><div class=\"facit-matte\">\\[x+5=2(x+3)=2x+6\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna i vänsterledet och talen i högerledet</p><div class=\"facit-matte\">\\[-x=1\\Rightarrow x=-1\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att lösningen är tillåten</p><p>\\(x=-1\\) är inte ett av de uteslutna värdena \\(x=-3\\) och \\(x=1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div>",
+        "ledtrad": "<p>Förkorta först. Multiplicera sedan med nämnaren och kontrollera att svaret är tillåtet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1092",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Räkna med rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla så långt som möjligt.</p><p>a) \\(\\dfrac{x^2-9}{x+2}\\cdot\\dfrac{x+2}{x-3}\\)</p><p>b) \\(\\dfrac{x^2-16}{x+1}\\div\\dfrac{x-4}{x+1}\\)</p><p>c) Skriv som ett enda bråk: \\(\\dfrac{2}{x-1}+\\dfrac{3}{x+2}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-9)(x+2)}{(x+2)(x-3)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-9=(x+3)(x-3)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+3)(x-3)(x+2)}{(x+2)(x-3)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+2)\\) och \\((x-3)\\)</p><div class=\"facit-matte\">\\[x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+3\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-16}{x+1}\\div\\dfrac{x-4}{x+1}\\\\&=\\dfrac{x^2-16}{x+1}\\cdot\\dfrac{x+1}{x-4}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+4)(x-4)(x+1)}{(x+1)(x-4)}\\\\&=x+4\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+4\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-1)(x+2)\\).</p><div class=\"facit-matte\">\\[\\dfrac{2(x+2)}{(x-1)(x+2)}+\\dfrac{3(x-1)}{(x-1)(x+2)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{2x+4+3x-3}{(x-1)(x+2)}\\\\&=\\dfrac{5x+1}{(x-1)(x+2)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(5x+1\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{5x+1}{(x-1)(x+2)}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+    "rättSvar": [
+      "x+3",
+      "x+4",
+      "(5x+1)/((x-1)(x+2))"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Förenkla så långt som möjligt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-9}{x+2}\\cdot\\dfrac{x+2}{x-3}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-9)(x+2)}{(x+2)(x-3)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-9=(x+3)(x-3)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+3)(x-3)(x+2)}{(x+2)(x-3)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+2)\\) och \\((x-3)\\)</p><div class=\"facit-matte\">\\[x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+3\\)</p></div>",
+        "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2-16}{x+1}\\div\\dfrac{x-4}{x+1}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-16}{x+1}\\div\\dfrac{x-4}{x+1}\\\\&=\\dfrac{x^2-16}{x+1}\\cdot\\dfrac{x+1}{x-4}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+4)(x-4)(x+1)}{(x+1)(x-4)}\\\\&=x+4\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+4\\)</p></div>",
+        "ledtrad": "<p>Byt division mot multiplikation med det inverterade bråket.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Skriv som ett enda bråk: \\(\\dfrac{2}{x-1}+\\dfrac{3}{x+2}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-1)(x+2)\\).</p><div class=\"facit-matte\">\\[\\dfrac{2(x+2)}{(x-1)(x+2)}+\\dfrac{3(x-1)}{(x-1)(x+2)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{2x+4+3x-3}{(x-1)(x+2)}\\\\&=\\dfrac{5x+1}{(x-1)(x+2)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(5x+1\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{5x+1}{(x-1)(x+2)}\\)</p></div>",
+        "ledtrad": "<p>Skriv bråken med gemensam nämnare. Använd produkten av de två nämnarna.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1093",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Räkna med rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>a) \\(\\dfrac{x^2-25}{x+1}\\cdot\\dfrac{x+1}{x-5}\\)</p><p>b) \\(\\dfrac{x^2-4}{x+3}\\div\\dfrac{x-2}{x+3}\\)</p><p>c) Skriv som ett enda bråk: \\(\\dfrac{1}{x-2}+\\dfrac{4}{x-1}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-25)(x+1)}{(x+1)(x-5)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-25=(x+5)(x-5)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+5)(x-5)(x+1)}{(x+1)(x-5)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+1)\\) och \\((x-5)\\)</p><div class=\"facit-matte\">\\[x+5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+5\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-4}{x+3}\\div\\dfrac{x-2}{x+3}\\\\&=\\dfrac{x^2-4}{x+3}\\cdot\\dfrac{x+3}{x-2}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+2)(x-2)(x+3)}{(x+3)(x-2)}\\\\&=x+2\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+2\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-2)(x-1)\\).</p><div class=\"facit-matte\">\\[\\dfrac{(x-1)}{(x-2)(x-1)}+\\dfrac{4(x-2)}{(x-2)(x-1)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x-1+4x-8}{(x-2)(x-1)}\\\\&=\\dfrac{5x-9}{(x-2)(x-1)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(5x-9\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{5x-9}{(x-2)(x-1)}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+    "rättSvar": [
+      "x+5",
+      "x+2",
+      "(5x-9)/((x-2)(x-1))"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Beräkna och förkorta så långt som möjligt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-25}{x+1}\\cdot\\dfrac{x+1}{x-5}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-25)(x+1)}{(x+1)(x-5)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-25=(x+5)(x-5)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+5)(x-5)(x+1)}{(x+1)(x-5)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+1)\\) och \\((x-5)\\)</p><div class=\"facit-matte\">\\[x+5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+5\\)</p></div>",
+        "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2-4}{x+3}\\div\\dfrac{x-2}{x+3}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-4}{x+3}\\div\\dfrac{x-2}{x+3}\\\\&=\\dfrac{x^2-4}{x+3}\\cdot\\dfrac{x+3}{x-2}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+2)(x-2)(x+3)}{(x+3)(x-2)}\\\\&=x+2\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+2\\)</p></div>",
+        "ledtrad": "<p>Byt division mot multiplikation med det inverterade bråket.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Skriv som ett enda bråk: \\(\\dfrac{1}{x-2}+\\dfrac{4}{x-1}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-2)(x-1)\\).</p><div class=\"facit-matte\">\\[\\dfrac{(x-1)}{(x-2)(x-1)}+\\dfrac{4(x-2)}{(x-2)(x-1)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x-1+4x-8}{(x-2)(x-1)}\\\\&=\\dfrac{5x-9}{(x-2)(x-1)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(5x-9\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{5x-9}{(x-2)(x-1)}\\)</p></div>",
+        "ledtrad": "<p>Skriv bråken med gemensam nämnare. Använd produkten av de två nämnarna.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1094",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Räkna med rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Skriv som ett enda bråk i förkortad form.</p><p>a) \\(\\dfrac{x^2-4}{x+4}\\cdot\\dfrac{x+4}{x-2}\\)</p><p>b) \\(\\dfrac{x^2-36}{x+2}\\div\\dfrac{x-6}{x+2}\\)</p><p>c) Skriv som ett enda bråk: \\(\\dfrac{3}{x-1}+\\dfrac{2}{x+3}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-4)(x+4)}{(x+4)(x-2)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-4=(x+2)(x-2)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+2)(x-2)(x+4)}{(x+4)(x-2)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+4)\\) och \\((x-2)\\)</p><div class=\"facit-matte\">\\[x+2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+2\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-36}{x+2}\\div\\dfrac{x-6}{x+2}\\\\&=\\dfrac{x^2-36}{x+2}\\cdot\\dfrac{x+2}{x-6}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+6)(x-6)(x+2)}{(x+2)(x-6)}\\\\&=x+6\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+6\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-1)(x+3)\\).</p><div class=\"facit-matte\">\\[\\dfrac{3(x+3)}{(x-1)(x+3)}+\\dfrac{2(x-1)}{(x-1)(x+3)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{3x+9+2x-2}{(x-1)(x+3)}\\\\&=\\dfrac{5x+7}{(x-1)(x+3)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(5x+7\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{5x+7}{(x-1)(x+3)}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+    "rättSvar": [
+      "x+2",
+      "x+6",
+      "(5x+7)/((x-1)(x+3))"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Skriv som ett enda bråk i förkortad form.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-4}{x+4}\\cdot\\dfrac{x+4}{x-2}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-4)(x+4)}{(x+4)(x-2)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-4=(x+2)(x-2)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+2)(x-2)(x+4)}{(x+4)(x-2)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+4)\\) och \\((x-2)\\)</p><div class=\"facit-matte\">\\[x+2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+2\\)</p></div>",
+        "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2-36}{x+2}\\div\\dfrac{x-6}{x+2}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-36}{x+2}\\div\\dfrac{x-6}{x+2}\\\\&=\\dfrac{x^2-36}{x+2}\\cdot\\dfrac{x+2}{x-6}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+6)(x-6)(x+2)}{(x+2)(x-6)}\\\\&=x+6\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+6\\)</p></div>",
+        "ledtrad": "<p>Byt division mot multiplikation med det inverterade bråket.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Skriv som ett enda bråk: \\(\\dfrac{3}{x-1}+\\dfrac{2}{x+3}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-1)(x+3)\\).</p><div class=\"facit-matte\">\\[\\dfrac{3(x+3)}{(x-1)(x+3)}+\\dfrac{2(x-1)}{(x-1)(x+3)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{3x+9+2x-2}{(x-1)(x+3)}\\\\&=\\dfrac{5x+7}{(x-1)(x+3)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(5x+7\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{5x+7}{(x-1)(x+3)}\\)</p></div>",
+        "ledtrad": "<p>Skriv bråken med gemensam nämnare. Använd produkten av de två nämnarna.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1095",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Räkna med rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla så långt som möjligt.</p><p>a) \\(\\dfrac{x^2-16}{x+3}\\cdot\\dfrac{x+3}{x-4}\\)</p><p>b) \\(\\dfrac{x^2-1}{x+5}\\div\\dfrac{x-1}{x+5}\\)</p><p>c) Skriv som ett enda bråk: \\(\\dfrac{2}{x+3}+\\dfrac{1}{x+2}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-16)(x+3)}{(x+3)(x-4)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-16=(x+4)(x-4)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+4)(x-4)(x+3)}{(x+3)(x-4)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+3)\\) och \\((x-4)\\)</p><div class=\"facit-matte\">\\[x+4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+4\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-1}{x+5}\\div\\dfrac{x-1}{x+5}\\\\&=\\dfrac{x^2-1}{x+5}\\cdot\\dfrac{x+5}{x-1}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+1)(x-1)(x+5)}{(x+5)(x-1)}\\\\&=x+1\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+1\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x+3)(x+2)\\).</p><div class=\"facit-matte\">\\[\\dfrac{2(x+2)}{(x+3)(x+2)}+\\dfrac{(x+3)}{(x+3)(x+2)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{2x+4+x+3}{(x+3)(x+2)}\\\\&=\\dfrac{3x+7}{(x+3)(x+2)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(3x+7\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{3x+7}{(x+3)(x+2)}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+    "rättSvar": [
+      "x+4",
+      "x+1",
+      "(3x+7)/((x+3)(x+2))"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Förenkla så långt som möjligt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-16}{x+3}\\cdot\\dfrac{x+3}{x-4}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-16)(x+3)}{(x+3)(x-4)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-16=(x+4)(x-4)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+4)(x-4)(x+3)}{(x+3)(x-4)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+3)\\) och \\((x-4)\\)</p><div class=\"facit-matte\">\\[x+4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+4\\)</p></div>",
+        "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2-1}{x+5}\\div\\dfrac{x-1}{x+5}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-1}{x+5}\\div\\dfrac{x-1}{x+5}\\\\&=\\dfrac{x^2-1}{x+5}\\cdot\\dfrac{x+5}{x-1}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+1)(x-1)(x+5)}{(x+5)(x-1)}\\\\&=x+1\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+1\\)</p></div>",
+        "ledtrad": "<p>Byt division mot multiplikation med det inverterade bråket.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Skriv som ett enda bråk: \\(\\dfrac{2}{x+3}+\\dfrac{1}{x+2}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x+3)(x+2)\\).</p><div class=\"facit-matte\">\\[\\dfrac{2(x+2)}{(x+3)(x+2)}+\\dfrac{(x+3)}{(x+3)(x+2)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{2x+4+x+3}{(x+3)(x+2)}\\\\&=\\dfrac{3x+7}{(x+3)(x+2)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(3x+7\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{3x+7}{(x+3)(x+2)}\\)</p></div>",
+        "ledtrad": "<p>Skriv bråken med gemensam nämnare. Använd produkten av de två nämnarna.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1096",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Räkna med rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>a) \\(\\dfrac{x^2-36}{x+1}\\cdot\\dfrac{x+1}{x-6}\\)</p><p>b) \\(\\dfrac{x^2-9}{x+4}\\div\\dfrac{x-3}{x+4}\\)</p><p>c) Skriv som ett enda bråk: \\(\\dfrac{1}{x-4}+\\dfrac{3}{x-2}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-36)(x+1)}{(x+1)(x-6)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-36=(x+6)(x-6)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+6)(x-6)(x+1)}{(x+1)(x-6)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+1)\\) och \\((x-6)\\)</p><div class=\"facit-matte\">\\[x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+6\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-9}{x+4}\\div\\dfrac{x-3}{x+4}\\\\&=\\dfrac{x^2-9}{x+4}\\cdot\\dfrac{x+4}{x-3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+3)(x-3)(x+4)}{(x+4)(x-3)}\\\\&=x+3\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+3\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-4)(x-2)\\).</p><div class=\"facit-matte\">\\[\\dfrac{(x-2)}{(x-4)(x-2)}+\\dfrac{3(x-4)}{(x-4)(x-2)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x-2+3x-12}{(x-4)(x-2)}\\\\&=\\dfrac{4x-14}{(x-4)(x-2)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(4x-14\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{4x-14}{(x-4)(x-2)}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+    "rättSvar": [
+      "x+6",
+      "x+3",
+      "(4x-14)/((x-4)(x-2))"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Beräkna och förkorta så långt som möjligt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-36}{x+1}\\cdot\\dfrac{x+1}{x-6}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-36)(x+1)}{(x+1)(x-6)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-36=(x+6)(x-6)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+6)(x-6)(x+1)}{(x+1)(x-6)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+1)\\) och \\((x-6)\\)</p><div class=\"facit-matte\">\\[x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+6\\)</p></div>",
+        "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2-9}{x+4}\\div\\dfrac{x-3}{x+4}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-9}{x+4}\\div\\dfrac{x-3}{x+4}\\\\&=\\dfrac{x^2-9}{x+4}\\cdot\\dfrac{x+4}{x-3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+3)(x-3)(x+4)}{(x+4)(x-3)}\\\\&=x+3\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+3\\)</p></div>",
+        "ledtrad": "<p>Byt division mot multiplikation med det inverterade bråket.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Skriv som ett enda bråk: \\(\\dfrac{1}{x-4}+\\dfrac{3}{x-2}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-4)(x-2)\\).</p><div class=\"facit-matte\">\\[\\dfrac{(x-2)}{(x-4)(x-2)}+\\dfrac{3(x-4)}{(x-4)(x-2)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x-2+3x-12}{(x-4)(x-2)}\\\\&=\\dfrac{4x-14}{(x-4)(x-2)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(4x-14\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{4x-14}{(x-4)(x-2)}\\)</p></div>",
+        "ledtrad": "<p>Skriv bråken med gemensam nämnare. Använd produkten av de två nämnarna.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1097",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Räkna med rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Skriv som ett enda bråk i förkortad form.</p><p>a) \\(\\dfrac{x^2-1}{x+5}\\cdot\\dfrac{x+5}{x-1}\\)</p><p>b) \\(\\dfrac{x^2-25}{x+1}\\div\\dfrac{x-5}{x+1}\\)</p><p>c) Skriv som ett enda bråk: \\(\\dfrac{4}{x-1}+\\dfrac{1}{x+3}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-1)(x+5)}{(x+5)(x-1)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-1=(x+1)(x-1)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+1)(x-1)(x+5)}{(x+5)(x-1)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+5)\\) och \\((x-1)\\)</p><div class=\"facit-matte\">\\[x+1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+1\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-25}{x+1}\\div\\dfrac{x-5}{x+1}\\\\&=\\dfrac{x^2-25}{x+1}\\cdot\\dfrac{x+1}{x-5}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+5)(x-5)(x+1)}{(x+1)(x-5)}\\\\&=x+5\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+5\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-1)(x+3)\\).</p><div class=\"facit-matte\">\\[\\dfrac{4(x+3)}{(x-1)(x+3)}+\\dfrac{(x-1)}{(x-1)(x+3)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{4x+12+x-1}{(x-1)(x+3)}\\\\&=\\dfrac{5x+11}{(x-1)(x+3)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(5x+11\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{5x+11}{(x-1)(x+3)}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+    "rättSvar": [
+      "x+1",
+      "x+5",
+      "(5x+11)/((x-1)(x+3))"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Skriv som ett enda bråk i förkortad form.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-1}{x+5}\\cdot\\dfrac{x+5}{x-1}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-1)(x+5)}{(x+5)(x-1)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-1=(x+1)(x-1)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+1)(x-1)(x+5)}{(x+5)(x-1)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+5)\\) och \\((x-1)\\)</p><div class=\"facit-matte\">\\[x+1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+1\\)</p></div>",
+        "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2-25}{x+1}\\div\\dfrac{x-5}{x+1}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-25}{x+1}\\div\\dfrac{x-5}{x+1}\\\\&=\\dfrac{x^2-25}{x+1}\\cdot\\dfrac{x+1}{x-5}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+5)(x-5)(x+1)}{(x+1)(x-5)}\\\\&=x+5\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+5\\)</p></div>",
+        "ledtrad": "<p>Byt division mot multiplikation med det inverterade bråket.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Skriv som ett enda bråk: \\(\\dfrac{4}{x-1}+\\dfrac{1}{x+3}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-1)(x+3)\\).</p><div class=\"facit-matte\">\\[\\dfrac{4(x+3)}{(x-1)(x+3)}+\\dfrac{(x-1)}{(x-1)(x+3)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{4x+12+x-1}{(x-1)(x+3)}\\\\&=\\dfrac{5x+11}{(x-1)(x+3)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(5x+11\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{5x+11}{(x-1)(x+3)}\\)</p></div>",
+        "ledtrad": "<p>Skriv bråken med gemensam nämnare. Använd produkten av de två nämnarna.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1098",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Räkna med rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla så långt som möjligt.</p><p>a) \\(\\dfrac{x^2-49}{x+2}\\cdot\\dfrac{x+2}{x-7}\\)</p><p>b) \\(\\dfrac{x^2-4}{x+3}\\div\\dfrac{x-2}{x+3}\\)</p><p>c) Skriv som ett enda bråk: \\(\\dfrac{2}{x-5}+\\dfrac{1}{x-1}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-49)(x+2)}{(x+2)(x-7)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-49=(x+7)(x-7)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+7)(x-7)(x+2)}{(x+2)(x-7)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+2)\\) och \\((x-7)\\)</p><div class=\"facit-matte\">\\[x+7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+7\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-4}{x+3}\\div\\dfrac{x-2}{x+3}\\\\&=\\dfrac{x^2-4}{x+3}\\cdot\\dfrac{x+3}{x-2}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+2)(x-2)(x+3)}{(x+3)(x-2)}\\\\&=x+2\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+2\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-5)(x-1)\\).</p><div class=\"facit-matte\">\\[\\dfrac{2(x-1)}{(x-5)(x-1)}+\\dfrac{(x-5)}{(x-5)(x-1)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{2x-2+x-5}{(x-5)(x-1)}\\\\&=\\dfrac{3x-7}{(x-5)(x-1)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(3x-7\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{3x-7}{(x-5)(x-1)}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+    "rättSvar": [
+      "x+7",
+      "x+2",
+      "(3x-7)/((x-5)(x-1))"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Förenkla så långt som möjligt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-49}{x+2}\\cdot\\dfrac{x+2}{x-7}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-49)(x+2)}{(x+2)(x-7)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-49=(x+7)(x-7)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+7)(x-7)(x+2)}{(x+2)(x-7)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+2)\\) och \\((x-7)\\)</p><div class=\"facit-matte\">\\[x+7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+7\\)</p></div>",
+        "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2-4}{x+3}\\div\\dfrac{x-2}{x+3}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-4}{x+3}\\div\\dfrac{x-2}{x+3}\\\\&=\\dfrac{x^2-4}{x+3}\\cdot\\dfrac{x+3}{x-2}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+2)(x-2)(x+3)}{(x+3)(x-2)}\\\\&=x+2\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+2\\)</p></div>",
+        "ledtrad": "<p>Byt division mot multiplikation med det inverterade bråket.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Skriv som ett enda bråk: \\(\\dfrac{2}{x-5}+\\dfrac{1}{x-1}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-5)(x-1)\\).</p><div class=\"facit-matte\">\\[\\dfrac{2(x-1)}{(x-5)(x-1)}+\\dfrac{(x-5)}{(x-5)(x-1)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{2x-2+x-5}{(x-5)(x-1)}\\\\&=\\dfrac{3x-7}{(x-5)(x-1)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(3x-7\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{3x-7}{(x-5)(x-1)}\\)</p></div>",
+        "ledtrad": "<p>Skriv bråken med gemensam nämnare. Använd produkten av de två nämnarna.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
+  },
+  {
+    "id": "1.1099",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Räkna med rationella uttryck",
+    "niva": "C",
+    "poang": "2/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>a) \\(\\dfrac{x^2-9}{x+6}\\cdot\\dfrac{x+6}{x-3}\\)</p><p>b) \\(\\dfrac{x^2-16}{x+4}\\div\\dfrac{x-4}{x+4}\\)</p><p>c) Skriv som ett enda bråk: \\(\\dfrac{5}{x-2}+\\dfrac{2}{x+1}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-9)(x+6)}{(x+6)(x-3)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-9=(x+3)(x-3)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+3)(x-3)(x+6)}{(x+6)(x-3)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+6)\\) och \\((x-3)\\)</p><div class=\"facit-matte\">\\[x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+3\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-16}{x+4}\\div\\dfrac{x-4}{x+4}\\\\&=\\dfrac{x^2-16}{x+4}\\cdot\\dfrac{x+4}{x-4}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+4)(x-4)(x+4)}{(x+4)(x-4)}\\\\&=x+4\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+4\\)</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-2)(x+1)\\).</p><div class=\"facit-matte\">\\[\\dfrac{5(x+1)}{(x-2)(x+1)}+\\dfrac{2(x-2)}{(x-2)(x+1)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{5x+5+2x-4}{(x-2)(x+1)}\\\\&=\\dfrac{7x+1}{(x-2)(x+1)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(7x+1\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{7x+1}{(x-2)(x+1)}\\)</p></div></div></div></div>",
+    "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+    "rättSvar": [
+      "x+3",
+      "x+4",
+      "(7x+1)/((x-2)(x+1))"
+    ],
+    "svarFormat": [
+      "förkortat_uttryck",
+      "förkortat_uttryck",
+      "förkortat_uttryck"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Beräkna och förkorta så långt som möjligt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "\\(\\dfrac{x^2-9}{x+6}\\cdot\\dfrac{x+6}{x-3}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljare med täljare och nämnare med nämnare</p><div class=\"facit-matte\">\\[\\dfrac{(x^2-9)(x+6)}{(x+6)(x-3)}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(x^2-9=(x+3)(x-3)\\)</p><div class=\"facit-matte\">\\[\\dfrac{(x+3)(x-3)(x+6)}{(x+6)(x-3)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk de gemensamma faktorerna \\((x+6)\\) och \\((x-3)\\)</p><div class=\"facit-matte\">\\[x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+3\\)</p></div>",
+        "ledtrad": "<p>Skriv produkten som ett enda bråk och faktorisera innan du förkortar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "\\(\\dfrac{x^2-16}{x+4}\\div\\dfrac{x-4}{x+4}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division med ett bråk är multiplikation med det inverterade bråket</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{x^2-16}{x+4}\\div\\dfrac{x-4}{x+4}\\\\&=\\dfrac{x^2-16}{x+4}\\cdot\\dfrac{x+4}{x-4}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln och förkortning</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{(x+4)(x-4)(x+4)}{(x+4)(x-4)}\\\\&=x+4\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+4\\)</p></div>",
+        "ledtrad": "<p>Byt division mot multiplikation med det inverterade bråket.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Skriv som ett enda bråk: \\(\\dfrac{5}{x-2}+\\dfrac{2}{x+1}\\)",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: produkten av de två nämnarna</p><p>Förläng varje bråk med den faktor som saknas, så att båda får nämnaren \\((x-2)(x+1)\\).</p><div class=\"facit-matte\">\\[\\dfrac{5(x+1)}{(x-2)(x+1)}+\\dfrac{2(x-2)}{(x-2)(x+1)}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och förenkla</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\dfrac{5x+5+2x-4}{(x-2)(x+1)}\\\\&=\\dfrac{7x+1}{(x-2)(x+1)}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att bråket inte kan förkortas</p><p>Täljaren \\(7x+1\\) har inte någon faktor gemensam med nämnaren.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{7x+1}{(x-2)(x+1)}\\)</p></div>",
+        "ledtrad": "<p>Skriv bråken med gemensam nämnare. Använd produkten av de två nämnarna.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ]
   }
 ];

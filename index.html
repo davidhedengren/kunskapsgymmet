@@ -12066,7 +12066,8 @@ function fysikPrecisionHtml(t){
   return n===null?"":`<p class="hint fysik-precision">Rekommenderat: ${n} värdesiffror. Svara med ett avrundat tal; ${Math.max(1,n-2)}–${n+2} värdesiffror godtas vid korrekt avrundning.</p>`;
 }
 function friAvrundningRatt(anv,facit,enhet,t,format){
-  if(!["numeriskt","procent","sannolikhet"].includes(format)) return false;
+  /* Ett talfacit utan svarFormat är också ett talsvar (felloggens mönster: 1,13 mot 1,134 underkändes). */
+  if(!["numeriskt","procent","sannolikhet"].includes(format) && !(format==null && typeof facit==="number")) return false;
   const text=String(t?.t||"").replace(/<[^>]*>/g," ");
   if(/exakt|bråkform|decimal(?:er)?|värdesiffr|gällande siffr|signifikant|avrund|heltal|hela (?:kronor|tal)/i.test(text)) return false;
   const f=typeof facit==="number"?facit:(isPureNumberExpression(String(facit))?numericValue(tillNerdamer(normalizeMathInput(String(facit)))):NaN);
@@ -16340,7 +16341,11 @@ window.KG_TEST_MA4_SVAR=function(){
     {namn:"avslutande punkt", got:delSvarRatt("320,3g.",320.3,"g",0.2,{t:"<p>Under vilken vikt säljs en limpa billigare?</p>"},0,"numeriskt"), want:true},
     {namn:"jämförelseord som inte står i frågan", got:delSvarRatt("under 320,3 g",320.3,"g",0.2,{t:"<p>Hur mycket väger limpan?</p>"},0,"numeriskt"), want:false},
     {namn:"ord före fel tal", got:delSvarRatt("ca 321",320.3,"g",0.2,{t:"<p>Under vilken vikt säljs en limpa billigare?</p>"},0,"numeriskt"), want:false},
-    {namn:"bara ord godtas inte", got:delSvarRatt("ungefär",320.3,"g",0.2,{t:"<p>Under vilken vikt säljs en limpa billigare?</p>"},0,"numeriskt"), want:false}
+    {namn:"bara ord godtas inte", got:delSvarRatt("ungefär",320.3,"g",0.2,{t:"<p>Under vilken vikt säljs en limpa billigare?</p>"},0,"numeriskt"), want:false},
+    {namn:"talfacit utan format: korrekt avrundat", got:delSvarRatt("1,13",1.134,null,null,{t:"<p>Bestäm den totala förändringsfaktorn.</p>"},0,undefined), want:true},
+    {namn:"talfacit utan format: fler decimaler", got:delSvarRatt("1,1340",1.134,null,null,{t:"<p>Bestäm den totala förändringsfaktorn.</p>"},0,undefined), want:true},
+    {namn:"talfacit utan format: fel avrundat", got:delSvarRatt("1,14",1.134,null,null,{t:"<p>Bestäm den totala förändringsfaktorn.</p>"},0,undefined), want:false},
+    {namn:"talfacit utan format: angiven precision gäller", got:delSvarRatt("1,1",1.134,null,null,{t:"<p>Svara med två decimaler.</p>"},0,undefined), want:false}
   ];
   cases.forEach(x=>x.ok=x.got===x.want);
   console.table(cases);

@@ -16008,50 +16008,54 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.800",
-    "kap": 2,
-    "omr": "derivatans_definition",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilket av uttrycken är derivatans definition för en funktion \\(f\\) i punkten \\(x=a\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är gränsvärdet av sekantens lutning \\(\\dfrac{f(a+h)-f(a)}{h}\\) när \\(h\\) går mot 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\displaystyle f'(a)=\\lim_{h\\to0}\\frac{f(a+h)-f(a)}{h}\\).</strong></p></div>",
-    "familj": "Derivatans definition",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Tänk på sekanten mellan \\(x=a\\) och \\(x=a+h\\). Vad händer när punkterna närmar sig varandra?</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "alternativ": [
-      {
-        "txt": "\\(\\displaystyle\\lim_{h\\to0}\\frac{f(a+h)-f(a)}{h}\\)",
-        "ratt": true
-      },
-      {
-        "txt": "\\(\\displaystyle\\lim_{h\\to0}\\frac{f(a+h)+f(a)}{h}\\)",
-        "ratt": false
-      },
-      {
-        "txt": "\\(\\displaystyle\\lim_{h\\to0}\\bigl(f(a+h)-f(a)\\bigr)\\)",
-        "ratt": false
-      },
-      {
-        "txt": "\\(\\displaystyle\\lim_{h\\to\\infty}\\frac{f(a+h)-f(a)}{h}\\)",
-        "ratt": false
-      }
-    ]
-  },
+  "id": "2.800",
+  "kap": 2,
+  "omr": "derivatans_definition",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilket av uttrycken är derivatans definition för en funktion \\(f\\) i punkten \\(x=a\\)?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sekantens lutning: \\(\\frac{\\Delta y}{\\Delta x}\\)</p><p>Punkterna har x-koordinaterna a och a+h. Ändringen i x är h och ändringen i funktionsvärde är f(a+h)−f(a).</p><div class=\"facit-matte\">\\[\\frac{\\Delta y}{\\Delta x}=\\frac{f(a+h)-f(a)}{h}\\]</div></li><li><p class=\"facit-rubrik\">Låt avståndet mellan punkterna gå mot noll</p><p>Gränsvärdet av sekantens lutning är derivatan, om gränsvärdet finns.</p><div class=\"facit-matte\">\\[f'(a)=\\lim_{h\\to0}\\frac{f(a+h)-f(a)}h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\displaystyle\\lim_{h\\to0}\\frac{f(a+h)-f(a)}{h}\\).</p></div>",
+  "familj": "Derivatans definition",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Tänk på sekanten mellan \\(x=a\\) och \\(x=a+h\\). Vad händer när punkterna närmar sig varandra?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "alternativ": [
+    {
+      "txt": "\\(\\displaystyle\\lim_{h\\to0}\\frac{f(a+h)-f(a)}{h}\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(\\displaystyle\\lim_{h\\to0}\\frac{f(a+h)+f(a)}{h}\\)",
+      "ratt": false,
+      "kommentar": "Lutningen använder skillnaden mellan funktionsvärdena, inte summan."
+    },
+    {
+      "txt": "\\(\\displaystyle\\lim_{h\\to0}\\bigl(f(a+h)-f(a)\\bigr)\\)",
+      "ratt": false,
+      "kommentar": "Ändringen i funktionsvärde måste divideras med ändringen h i x."
+    },
+    {
+      "txt": "\\(\\displaystyle\\lim_{h\\to\\infty}\\frac{f(a+h)-f(a)}{h}\\)",
+      "ratt": false,
+      "kommentar": "Punkterna ska närma sig varandra: h ska gå mot 0, inte mot oändligheten."
+    }
+  ],
+  "visaAlternativ": true
+},
   {
     "id": "2.801",
     "kap": 2,
@@ -50250,40 +50254,62 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.551",
-    "kap": 3,
-    "omr": "primitiva",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilken av följande funktioner är en primitiv funktion till \\(f(x)=6x^2-4x+3\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera det föreslagna polynomet</p><p>Derivera förslaget F(x) = 2x³−2x²+3x term för term.</p><div class=\"facit-matte\">\\[F^{\\prime}(x)=6x^2-4x+3\\]</div></li><li><p class=\"facit-rubrik\">Jämför resultatet med den givna funktionen</p><p>Det är samma funktion som f. Därför är F en primitiv funktion till f.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=2x^3-2x^2+3x\\).</strong></p></div>",
-    "familj": "Bestämma primitiva funktioner",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "ledtrad": "<p>En funktion \\(F\\) är primitiv till \\(f\\) om \\(F'(x)=f(x)\\). Testa alternativen genom att derivera.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": [
-      "primitiva_funktioner"
-    ],
-    "familjTidigare": [
-      "Identifiera primitiv funktion"
-    ],
-    "alternativ": [{"txt": "\\(2x^3-2x^2+3x\\)", "ratt": true, "kommentar": "Derivatan är \\(6x^2-4x+3\\), alltså precis den givna funktionen."}, {"txt": "\\(3x^2-4x+3\\)", "ratt": false, "kommentar": "Derivatan av detta förslag är \\(6x-4\\), vilket inte är samma som f."}, {"txt": "\\(2x^3-4x^2+3\\)", "ratt": false, "kommentar": "Derivatan blir \\(6x^2-8x\\). Både termen med x och konstanttermen skiljer sig från f."}, {"txt": "\\(6x^3-2x^2+3x\\)", "ratt": false, "kommentar": "Derivatan blir \\(18x^2-4x+3\\). Koefficienten framför x² ska vara 6."}]
-  },
+  "id": "3.551",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilken av följande funktioner är en primitiv funktion till \\(f(x)=6x^2-4x+3\\)?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontrollera att \\(F'(x)=f(x)\\)</p><p>Derivera förslaget F(x) = 2x³−2x²+3x term för term.</p><div class=\"facit-matte\">\\[F^{\\prime}(x)=6x^2-4x+3\\]</div></li><li><p class=\"facit-rubrik\">Jämför resultatet med den givna funktionen</p><p>Det är samma funktion som f. Därför är F en primitiv funktion till f.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=2x^3-2x^2+3x\\).</strong></p></div>",
+  "familj": "Bestämma primitiva funktioner",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>En funktion \\(F\\) är primitiv till \\(f\\) om \\(F'(x)=f(x)\\). Testa alternativen genom att derivera.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "omrTidigare": [
+    "primitiva_funktioner"
+  ],
+  "familjTidigare": [
+    "Identifiera primitiv funktion"
+  ],
+  "alternativ": [
+    {
+      "txt": "\\(2x^3-2x^2+3x\\)",
+      "ratt": true,
+      "kommentar": "Derivatan är \\(6x^2-4x+3\\), alltså precis den givna funktionen."
+    },
+    {
+      "txt": "\\(3x^2-4x+3\\)",
+      "ratt": false,
+      "kommentar": "Derivatan av detta förslag är \\(6x-4\\), vilket inte är samma som f."
+    },
+    {
+      "txt": "\\(2x^3-4x^2+3\\)",
+      "ratt": false,
+      "kommentar": "Derivatan blir \\(6x^2-8x\\). Både termen med x och konstanttermen skiljer sig från f."
+    },
+    {
+      "txt": "\\(6x^3-2x^2+3x\\)",
+      "ratt": false,
+      "kommentar": "Derivatan blir \\(18x^2-4x+3\\). Koefficienten framför x² ska vara 6."
+    }
+  ],
+  "visaAlternativ": true
+},
   {
     "id": "3.552",
     "kap": 3,
@@ -54619,41 +54645,63 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.727",
-    "kap": 3,
-    "omr": "primitiva",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilken av följande funktioner är en primitiv funktion till \\(f(x)=x^3-2x\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En primitiv funktion ska ge x³ − 2x vid derivering</p><p>Derivera alternativen.</p></li><li><p class=\"facit-rubrik\">Kontrollera alternativet med x⁴/4 − x²</p><p>För \\(x^4/4-x^2\\) gäller</p><p>\\[\\left(\\frac{x^4}{4}-x^2\\right)'=x^3-2x.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x^4/4-x^2\\).</strong></p></div>",
-    "familj": "Bestämma primitiva funktioner",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "ledtrad": "<p>Derivera alternativen och se vilket som ger x³−2x.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "kalla": "NP Ma3c vt 2022, uppgift 1",
-    "omrTidigare": [
-      "primitiva_funktioner"
-    ],
-    "familjTidigare": [
-      "Identifiera primitiv funktion"
-    ],
-    "alternativ": [{"txt": "\\(3x^2-2\\)", "ratt": false, "kommentar": "Detta är derivatan av f, inte en primitiv funktion. Deriverar du förslaget får du 6x."}, {"txt": "\\(x^4/4-4x\\)", "ratt": false, "kommentar": "Derivatan blir \\(x^3-4\\). Den andra termen ska vara −2x."}, {"txt": "\\(x^4/4-x^2\\)", "ratt": true, "kommentar": "Derivatan av \\(x^4/4-x^2\\) är \\(x^3-2x\\), precis som i frågan."}, {"txt": "\\(x^4-2x^2\\)", "ratt": false, "kommentar": "Derivatan blir \\(4x^3-4x\\). Båda koefficienterna skiljer sig från den givna funktionen."}]
-  },
+  "id": "3.727",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilken av följande funktioner är en primitiv funktion till \\(f(x)=x^3-2x\\)?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontrollera att \\(F'(x)=f(x)\\)</p><p>Derivera alternativen.</p></li><li><p class=\"facit-rubrik\">Kontrollera alternativet med x⁴/4 − x²</p><p>För \\(x^4/4-x^2\\) gäller</p><p>\\[\\left(\\frac{x^4}{4}-x^2\\right)'=x^3-2x.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x^4/4-x^2\\).</strong></p></div>",
+  "familj": "Bestämma primitiva funktioner",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Derivera alternativen och se vilket som ger x³−2x.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kalla": "NP Ma3c vt 2022, uppgift 1",
+  "omrTidigare": [
+    "primitiva_funktioner"
+  ],
+  "familjTidigare": [
+    "Identifiera primitiv funktion"
+  ],
+  "alternativ": [
+    {
+      "txt": "\\(3x^2-2\\)",
+      "ratt": false,
+      "kommentar": "Detta är derivatan av f, inte en primitiv funktion. Deriverar du förslaget får du 6x."
+    },
+    {
+      "txt": "\\(x^4/4-4x\\)",
+      "ratt": false,
+      "kommentar": "Derivatan blir \\(x^3-4\\). Den andra termen ska vara −2x."
+    },
+    {
+      "txt": "\\(x^4/4-x^2\\)",
+      "ratt": true,
+      "kommentar": "Derivatan av \\(x^4/4-x^2\\) är \\(x^3-2x\\), precis som i frågan."
+    },
+    {
+      "txt": "\\(x^4-2x^2\\)",
+      "ratt": false,
+      "kommentar": "Derivatan blir \\(4x^3-4x\\). Båda koefficienterna skiljer sig från den givna funktionen."
+    }
+  ],
+  "visaAlternativ": true
+},
   {
     "id": "3.728",
     "kap": 3,

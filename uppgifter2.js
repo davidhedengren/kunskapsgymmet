@@ -40983,28 +40983,53 @@ window.BANK2 = [
     ]
   },
   {
-    "id": "4.305",
-    "kap": 4,
-    "omr": "straloptik",
-    "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En ljusstråle går snett från luft in i glas, med en infallsvinkel större än 0°. Vilket påstående är korrekt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Rimlighetskontroll:</strong> Vinklarna i Snells lag mäts från normalen.</p></li><li><p>Till större brytningsindex ska vinkeln minska; till mindre brytningsindex ska den öka.</p></li><li><p>Glas har större brytningsindex än luft.</p></li><li><p>När ljus går in i ett medium med större brytningsindex bryts strålen <strong>mot normalen</strong>.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Strålen bryts mot normalen.</p></div>",
-    "familj": "Snells brytningslag",
-    "formaga": [
-      "begrepp"
-    ],
-    "familjNyckel": "straloptik__snells_lag_och_brytning",
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Rita normalen i gränsytan och mät vinklarna mot normalen. Använd sedan \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\).</p>",
-    "familjTidigare": [
-      "Snells lag och brytning"
-    ],
-    "alternativ": [{"txt": "Strålen bryts från normalen.", "ratt": false}, {"txt": "Strålen bryts mot normalen.", "ratt": true}, {"txt": "Strålen ändrar inte riktning oavsett infallsvinkel.", "ratt": false}, {"txt": "Totalreflektion sker alltid.", "ratt": false}]
-  },
+  "id": "4.305",
+  "kap": 4,
+  "omr": "straloptik",
+  "niva": "E",
+  "poang": "(2/0/0)",
+  "t": "<p>En ljusstråle går snett från luft in i glas, med en infallsvinkel större än 0°. Vilket påstående är korrekt?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Snells lag: \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\)</p><p>Glas har högre brytningsindex än luft. Därför måste sinus för brytningsvinkeln vara mindre än sinus för infallsvinkeln.</p><div class=\"facit-matte\">\\[\\sin\\theta_2=\\frac{n_1}{n_2}\\sin\\theta_1\\]</div></li><li><p class=\"facit-rubrik\">Jämför vinklarna mot normalen</p><p>Brytningsvinkeln är mindre än infallsvinkeln. Strålen bryts alltså mot normalen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Strålen bryts mot normalen.</p></div>",
+  "familj": "Snells brytningslag",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "straloptik__snells_lag_och_brytning",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "ledtrad": "<p>Vinklarna mäts från normalen. Fundera på hur ljusets fart ändras när det går från luft till glas.</p>",
+  "familjTidigare": [
+    "Snells lag och brytning"
+  ],
+  "alternativ": [
+    {
+      "txt": "Strålen bryts från normalen.",
+      "ratt": false,
+      "kommentar": "Från luft till glas minskar vinkeln mot normalen, den ökar inte."
+    },
+    {
+      "txt": "Strålen bryts mot normalen.",
+      "ratt": true
+    },
+    {
+      "txt": "Strålen ändrar inte riktning oavsett infallsvinkel.",
+      "ratt": false,
+      "kommentar": "Vid snett infall ändras riktningen när brytningsindex ändras."
+    },
+    {
+      "txt": "Totalreflektion sker alltid.",
+      "ratt": false,
+      "kommentar": "Totalreflektion kan inte ske när ljuset går från luft till glas med högre brytningsindex."
+    }
+  ],
+  "visaAlternativ": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1
+},
   {
     "id": "4.306",
     "kap": 4,
@@ -41270,28 +41295,53 @@ window.BANK2 = [
     "alternativ": [{"txt": "mikrovåg – radio – synligt – infrarött – ultraviolett", "ratt": false}, {"txt": "ultraviolett – synligt – infrarött – mikrovåg – radio", "ratt": false}, {"txt": "radio – infrarött – mikrovåg – synligt – ultraviolett", "ratt": false}, {"txt": "radio – mikrovåg – infrarött – synligt – ultraviolett", "ratt": true}]
   },
   {
-    "id": "4.317",
-    "kap": 4,
-    "omr": "em_vagor",
-    "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Vilket påstående om elektromagnetiska vågor i vakuum är korrekt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Begrepp:</strong> Alla elektromagnetiska vågor har samma fart \\(c\\) i vakuum.</p></li><li><div class=\"facit-berakning\"><p>Högre frekvens betyder därför kortare våglängd; spektrumordningen kan jämföras med</p><div class=\"facit-matte\">\\[c=f\\lambda\\].</div></div></li><li><p>Alla elektromagnetiska vågor färdas med ljushastigheten \\(c\\) i vakuum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla elektromagnetiska vågor har samma hastighet i vakuum.</p></div></div>",
-    "familj": "Spektrum och tillämpningar",
-    "formaga": [
-      "begrepp"
-    ],
-    "familjNyckel": "em_vagor__elektromagnetiska_vagor_och_spektrum",
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Koppla frekvens och våglängd med \\(v=f\\lambda\\). För elektromagnetiska vågor i vakuum är \\(v=c\\).</p>",
-    "familjTidigare": [
-      "Elektromagnetiska vågor och spektrum"
-    ],
-    "alternativ": [{"txt": "Radiovågor går långsammare än synligt ljus.", "ratt": false}, {"txt": "Endast synligt ljus kan färdas i vakuum.", "ratt": false}, {"txt": "Gammastrålning går snabbare än ljus.", "ratt": false}, {"txt": "Alla elektromagnetiska vågor har samma hastighet i vakuum.", "ratt": true}]
-  },
+  "id": "4.317",
+  "kap": 4,
+  "omr": "em_vagor",
+  "niva": "E",
+  "poang": "(2/0/0)",
+  "t": "<p>Vilket påstående om elektromagnetiska vågor i vakuum är korrekt?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vågsambandet i vakuum: \\(c=f\\lambda\\)</p><p>Alla elektromagnetiska vågor har samma fart c i vakuum. Radiovågor, synligt ljus och gammastrålning skiljer sig i frekvens och våglängd, inte i fart.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla elektromagnetiska vågor har samma hastighet i vakuum.</p></div>",
+  "familj": "Spektrum och tillämpningar",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "em_vagor__elektromagnetiska_vagor_och_spektrum",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "ledtrad": "<p>Skilj på vågens fart, frekvens och våglängd. Frågan gäller vakuum.</p>",
+  "familjTidigare": [
+    "Elektromagnetiska vågor och spektrum"
+  ],
+  "alternativ": [
+    {
+      "txt": "Radiovågor går långsammare än synligt ljus.",
+      "ratt": false,
+      "kommentar": "Radiovågor har samma fart c som synligt ljus i vakuum."
+    },
+    {
+      "txt": "Endast synligt ljus kan färdas i vakuum.",
+      "ratt": false,
+      "kommentar": "Alla typer av elektromagnetiska vågor kan färdas i vakuum."
+    },
+    {
+      "txt": "Gammastrålning går snabbare än ljus.",
+      "ratt": false,
+      "kommentar": "Gammastrålning har samma fart c som övriga elektromagnetiska vågor i vakuum."
+    },
+    {
+      "txt": "Alla elektromagnetiska vågor har samma hastighet i vakuum.",
+      "ratt": true
+    }
+  ],
+  "visaAlternativ": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1
+},
   {
     "id": "4.318",
     "kap": 4,
@@ -61873,8 +61923,8 @@ window.BANK2 = [
   "typ": "Staven dras åt höger genom magnetfältet, men strömbrytaren är öppen. Vilket påstående stämmer",
   "poang": "(1/0/0)",
   "familj": "Induktion i grafer, riktningar och tillämpningar",
-  "t": "<p>Staven dras åt höger genom magnetfältet, men strömbrytaren är öppen. Vilket påstående stämmer?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Stav PQ i magnetfält in i bilden. Rörelsen är åt höger. Strömbrytaren är öppen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><circle cx=\"160\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 76L164 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 84L164 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 141L164 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 149L164 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 206L164 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 214L164 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 76L224 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 84L224 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 141L224 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 149L224 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 206L224 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 214L224 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 76L374 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 84L374 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 141L374 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 149L374 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 206L374 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 214L374 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 76L419 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 84L419 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 141L419 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 149L419 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 206L419 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 214L419 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M100 60L410 60\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 230L410 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 60L100 120\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 170L100 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"120\" r=\"3\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"170\" r=\"3\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 120L80 151\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"65\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">öppen</text><path d=\"M285 60L285 230\" fill=\"none\" stroke=\"#a86c35\" stroke-width=\"7\"/><path d=\"M305 145L353 145\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M345.02 149.16L353 145L345.02 140.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"328\" y=\"130\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">v</text><text x=\"269\" y=\"55\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">P</text><text x=\"269\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">Q</text><text x=\"240\" y=\"278\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Strömbrytaren är öppen.</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Magnetfältet förskjuter elektronerna i den rörliga staven, så en spänning uppstår mellan ändarna. Strömbrytaren bryter kretsen och hindrar en ström runt den.</p><p class=\"facit-svar\"><strong>Svar:</strong> Spänning mellan P och Q, men ingen ström runt kretsen.</p></div>",
+  "t": "<p>Staven dras åt höger genom magnetfältet, men strömbrytaren är öppen. Vilket påstående stämmer?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Stav PQ i magnetfält in i bilden. Rörelsen är åt höger. Strömbrytaren är öppen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><circle cx=\"160\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 76L164 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 84L164 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 141L164 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 149L164 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 206L164 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 214L164 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 76L224 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 84L224 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 141L224 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 149L224 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 206L224 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 214L224 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 76L374 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 84L374 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 141L374 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 149L374 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 206L374 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 214L374 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 76L419 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 84L419 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 141L419 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 149L419 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 206L419 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 214L419 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M100 60L410 60\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 230L410 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 60L100 120\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 170L100 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"120\" r=\"3\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"170\" r=\"3\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 120L80 151\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"65\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">öppen</text><path d=\"M285 60L285 230\" fill=\"none\" stroke=\"#a86c35\" stroke-width=\"7\"/><path d=\"M305 145L353 145\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M345.02 149.16L353 145L345.02 140.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"328\" y=\"130\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">v</text><text x=\"269\" y=\"55\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">P</text><text x=\"269\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">Q</text><text x=\"240\" y=\"278\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Strömbrytaren är öppen.</text></svg></span><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Laddningar i rörelse påverkas av magnetfältet</p><p>Magnetkraften skiljer laddningarna åt i staven. Därför uppstår en spänning mellan ändarna P och Q även om kretsen är öppen.</p></li><li><p class=\"facit-rubrik\">En öppen strömbrytare bryter strömvägen</p><p>Ström kan inte gå runt kretsen när strömbrytaren är öppen. Spänning mellan två punkter kräver däremot inte en sluten krets.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det finns spänning mellan P och Q, men ingen ström runt kretsen.</p></div>",
   "formaga": [
     "begrepp",
     "resonemang"
@@ -61909,7 +61959,8 @@ window.BANK2 = [
       "ratt": false,
       "kommentar": "En öppen brytare stoppar strömmen runt kretsen."
     }
-  ]
+  ],
+  "visaAlternativ": true
 },
 {
   "id": "3.522",

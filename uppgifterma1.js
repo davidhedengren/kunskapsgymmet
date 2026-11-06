@@ -12705,34 +12705,50 @@ window.BANKMA1 = [
     "alternativ": [{"txt": "\\(m+n+1\\) om ab &lt; 10; \\(m+n\\) om ab ≥ 10.", "ratt": false}, {"txt": "\\(m+n\\) om ab &lt; 10; \\(m+n-1\\) om ab ≥ 10.", "ratt": false}, {"txt": "\\(mn\\) om ab &lt; 10; \\(mn+1\\) om ab ≥ 10.", "ratt": false}, {"txt": "\\(m+n\\) om ab &lt; 10; \\(m+n+1\\) om ab ≥ 10.", "ratt": true}]
   },
   {
-    "id": "0.329",
-    "kap": 0,
-    "omr": "tiopotenser_prefix",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>Vilket tal är korrekt skrivet i grundpotensform?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontrollera talfaktorn</p><p>I grundpotensform måste talfaktorn vara minst 1 och mindre än 10. Alla tre alternativen har samma värde, men i \\(0{,}42\\cdot10^6\\) är talfaktorn 0,42 för liten och i \\(42\\cdot10^4\\) är 42 för stor. I \\(4{,}2\\cdot10^5\\) är talfaktorn 4,2 inom det tillåtna intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\cdot10^5\\).</p></div>",
-    "ledtrad": "<p>Vilket intervall ska talfaktorn ligga i?</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Skriva tal i grundpotensform",
-    "formaga": [
-      "begrepp"
-    ],
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "alternativ": [{"txt": "\\(0{,}42\\cdot10^6\\)", "ratt": false}, {"txt": "\\(42\\cdot10^4\\)", "ratt": false}, {"txt": "\\(4{,}2\\cdot10^5\\)", "ratt": true}]
-  },
+  "id": "0.329",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Vilket tal är korrekt skrivet i grundpotensform?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grundpotensform: \\(a\\cdot10^n,\\quad1\\le a\\lt10\\)</p><p>Talfaktorn 4,2 ligger i rätt intervall. 0,42 är för liten och 42 är för stor. Alla uttrycken har samma värde, men bara ett är skrivet i grundpotensform.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\cdot10^5\\).</p></div>",
+  "ledtrad": "<p>Vilket intervall ska talfaktorn ligga i?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Skriva tal i grundpotensform",
+  "formaga": [
+    "begrepp"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "alternativ": [
+    {
+      "txt": "\\(0{,}42\\cdot10^6\\)",
+      "ratt": false,
+      "kommentar": "Talfaktorn 0,42 är mindre än 1."
+    },
+    {
+      "txt": "\\(42\\cdot10^4\\)",
+      "ratt": false,
+      "kommentar": "Talfaktorn 42 är inte mindre än 10."
+    },
+    {
+      "txt": "\\(4{,}2\\cdot10^5\\)",
+      "ratt": true
+    }
+  ],
+  "visaAlternativ": true
+},
   {
     "id": "0.330",
     "kap": 0,
@@ -13002,37 +13018,58 @@ window.BANKMA1 = [
   ]
 },
   {
-    "id": "0.403",
-    "kap": 0,
-    "omr": "decimaltal_positionssystem",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilket tal ligger mellan 2,49 och 2,50?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>2,495 är större än 2,490 men mindre än 2,500.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,495.</p></div></div>",
-    "familj": "Jämföra decimaltal och tallinjen",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Skriv även intervallets ändpunkter med tre decimaler.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Jämföra och ordna decimaltal"
-    ],
-    "alternativ": [{"txt": "2,495", "ratt": true}, {"txt": "2,405", "ratt": false}, {"txt": "2,505", "ratt": false}, {"txt": "2,59", "ratt": false}]
-  },
+  "id": "0.403",
+  "kap": 0,
+  "omr": "decimaltal_positionssystem",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilket av talen ligger mellan 2,49 och 2,50?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför med samma antal decimaler</p><p>Skriv gränserna som 2,490 och 2,500. Endast det första alternativet ligger mellan dem.</p><div class=\"facit-matte\">\\[2{,}490\\lt2{,}495\\lt2{,}500\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,495.</p></div>",
+  "familj": "Jämföra decimaltal och tallinjen",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Skriv även intervallets ändpunkter med tre decimaler.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Jämföra och ordna decimaltal"
+  ],
+  "alternativ": [
+    {
+      "txt": "2,495",
+      "ratt": true
+    },
+    {
+      "txt": "2,405",
+      "ratt": false,
+      "kommentar": "2,405 är mindre än 2,490."
+    },
+    {
+      "txt": "2,505",
+      "ratt": false,
+      "kommentar": "2,505 är större än 2,500."
+    },
+    {
+      "txt": "2,59",
+      "ratt": false,
+      "kommentar": "2,59 är större än 2,50."
+    }
+  ],
+  "visaAlternativ": true
+},
   {
     "id": "0.404",
     "kap": 0,
@@ -21313,63 +21350,105 @@ window.BANKMA1 = [
     "spel": true
   },
   {
-    "id": "0.727",
-    "kap": 0,
-    "omr": "avrundning",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilket tal avrundas <strong>inte</strong> till 3,2 när du avrundar till närmaste tiondel?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tal från 3,15 upp till (men inte med) 3,25 avrundas till 3,2.</p></li><li><p>Talet 3,26 avrundas till 3,3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,26.</p></div></div>",
-    "familj": "Avrunda till angiven noggrannhet",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Vilket intervall av tal avrundas till just det värdet?</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "alternativ": [{"txt": "3,15", "ratt": false}, {"txt": "3,24", "ratt": false}, {"txt": "3,2", "ratt": false}, {"txt": "3,26", "ratt": true}]
-  },
+  "id": "0.727",
+  "kap": 0,
+  "omr": "avrundning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilket tal avrundas <strong>inte</strong> till 3,2 när du avrundar till närmaste tiondel?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avrunda varje alternativ till tiondelar</p><p>Hundradelssiffran avgör om tiondelen behålls eller ökas.</p><div class=\"facit-matte\">\\[\\begin{aligned}3{,}15&\\approx3{,}2\\\\3{,}24&\\approx3{,}2\\\\3{,}2&=3{,}2\\\\3{,}26&\\approx3{,}3\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,26.</p></div>",
+  "familj": "Avrunda till angiven noggrannhet",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Vilket intervall av tal avrundas till just det värdet?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "alternativ": [
+    {
+      "txt": "3,15",
+      "ratt": false,
+      "kommentar": "3,15 avrundas till 3,2."
+    },
+    {
+      "txt": "3,24",
+      "ratt": false,
+      "kommentar": "3,24 avrundas till 3,2."
+    },
+    {
+      "txt": "3,2",
+      "ratt": false,
+      "kommentar": "3,2 är redan angivet med en decimal."
+    },
+    {
+      "txt": "3,26",
+      "ratt": true
+    }
+  ],
+  "visaAlternativ": true
+},
   {
-    "id": "0.728",
-    "kap": 0,
-    "omr": "avrundning",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilket tal avrundas <strong>inte</strong> till 50 när du avrundar till närmaste tiotal?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tal från 45 upp till (men inte med) 55 avrundas till 50.</p></li><li><p>Talet 44 avrundas till 40.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 44.</p></div></div>",
-    "familj": "Avrunda till angiven noggrannhet",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Vilket intervall av tal avrundas till just det värdet?</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "alternativ": [{"txt": "45", "ratt": false}, {"txt": "53", "ratt": false}, {"txt": "46", "ratt": false}, {"txt": "44", "ratt": true}]
-  },
+  "id": "0.728",
+  "kap": 0,
+  "omr": "avrundning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilket tal avrundas <strong>inte</strong> till 50 när du avrundar till närmaste tiotal?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avrunda varje alternativ till tiotal</p><p>Jämför avståndet till de närmaste tiotalen. Vid lika avstånd avrundas dessa positiva tal uppåt.</p><div class=\"facit-matte\">\\[\\begin{aligned}45&\\approx50\\\\53&\\approx50\\\\46&\\approx50\\\\44&\\approx40\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 44.</p></div>",
+  "familj": "Avrunda till angiven noggrannhet",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Vilket intervall av tal avrundas till just det värdet?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "alternativ": [
+    {
+      "txt": "45",
+      "ratt": false,
+      "kommentar": "45 ligger mitt mellan 40 och 50 och avrundas uppåt till 50."
+    },
+    {
+      "txt": "53",
+      "ratt": false,
+      "kommentar": "53 avrundas till 50."
+    },
+    {
+      "txt": "46",
+      "ratt": false,
+      "kommentar": "46 avrundas till 50."
+    },
+    {
+      "txt": "44",
+      "ratt": true
+    }
+  ],
+  "visaAlternativ": true
+},
   {
     "id": "0.729",
     "kap": 0,
@@ -117227,36 +117306,57 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "6.405",
-    "kap": 6,
-    "omr": "programmering",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Ett program ska beräkna medelvärdet av 6, 10 och 14. Vilket av följande uttryck ger rätt värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hela summan ska divideras med antalet värden.</p></li><li><p>Därför behövs parentesen: <strong>(6+10+14)/3 = 10</strong>.</p></li></ol><p class=\"facit-svar\"><strong>Svar: <code>(6+10+14)/3</code>.</strong></p></div>",
-    "familj": "Programmering som matematiskt verktyg",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "ledtrad": "<p>Operatorordningen gör att division utförs före addition om du inte använder parentes.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Matematik och enkla algoritmer"
-    ],
-    "alternativ": [{"txt": "<code>(6+10+14)/3</code>", "ratt": true}, {"txt": "<code>6+10+14/3</code>", "ratt": false}, {"txt": "<code>(6+10)*14/3</code>", "ratt": false}, {"txt": "<code>6+(10+14)/3</code>", "ratt": false}]
-  },
+  "id": "6.405",
+  "kap": 6,
+  "omr": "programmering",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Ett program ska beräkna medelvärdet av 6, 10 och 14. Vilket av följande uttryck ger rätt värde?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medelvärde: \\(\\bar x=\\frac{\\text{summan}}{\\text{antalet}}\\)</p><p>Alla tre talen ska först adderas. Parenteserna gör att programmet dividerar hela summan med 3.</p><div class=\"facit-matte\">\\[\\frac{6+10+14}{3}=\\frac{30}{3}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <code>(6+10+14)/3</code>.</p></div>",
+  "familj": "Programmering som matematiskt verktyg",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Operatorordningen gör att division utförs före addition om du inte använder parentes.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Matematik och enkla algoritmer"
+  ],
+  "alternativ": [
+    {
+      "txt": "<code>(6+10+14)/3</code>",
+      "ratt": true
+    },
+    {
+      "txt": "<code>6+10+14/3</code>",
+      "ratt": false,
+      "kommentar": "Bara 14 divideras med 3, inte hela summan."
+    },
+    {
+      "txt": "<code>(6+10)*14/3</code>",
+      "ratt": false,
+      "kommentar": "14 multipliceras med 6+10 i stället för att adderas."
+    },
+    {
+      "txt": "<code>6+(10+14)/3</code>",
+      "ratt": false,
+      "kommentar": "6 ligger utanför divisionen. Hela summan ska delas med 3."
+    }
+  ],
+  "visaAlternativ": true
+},
   {
     "id": "6.406",
     "kap": 6,
@@ -120850,36 +120950,57 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "7.38",
-    "kap": 7,
-    "omr": "matning_enheter",
-    "kurs": [
-      "1a"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilken av följande massor är störst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I gram är mängderna 0,750 g, 0,80 g och 0,850 g.</p></li><li><p><strong>850 000 µg</strong> är störst.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 850 000 µg.</strong></p></div>",
-    "familj": "Dosering, flöde och volym",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "modellering"
-    ],
-    "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Skriv alla tre massorna i samma enhet innan du jämför.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 2,
-    "spel": true,
-    "familjTidigare": [
-      "Läkemedelsberäkningar och dosering"
-    ],
-    "alternativ": [{"txt": "750 mg", "ratt": false}, {"txt": "0,80 g", "ratt": false}, {"txt": "De är lika stora", "ratt": false}, {"txt": "850 000 µg", "ratt": true}]
-  },
+  "id": "7.38",
+  "kap": 7,
+  "omr": "matning_enheter",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilken av följande massor är störst?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför massorna i gram</p><p>Använd samma enhet för alla tre massor.</p><div class=\"facit-matte\">\\[\\begin{aligned}750\\text{ mg}&=0{,}750\\text{ g}\\\\0{,}80\\text{ g}&=0{,}800\\text{ g}\\\\850\\,000\\text{ µg}&=0{,}850\\text{ g}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför talvärdena</p><p>0,850 är större än både 0,800 och 0,750.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 850 000 µg.</p></div>",
+  "familj": "Dosering, flöde och volym",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "modellering"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Skriv alla tre massorna i samma enhet innan du jämför.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "spel": true,
+  "familjTidigare": [
+    "Läkemedelsberäkningar och dosering"
+  ],
+  "alternativ": [
+    {
+      "txt": "750 mg",
+      "ratt": false,
+      "kommentar": "750 mg = 0,750 g, mindre än 0,850 g."
+    },
+    {
+      "txt": "0,80 g",
+      "ratt": false,
+      "kommentar": "0,80 g är mindre än 0,850 g."
+    },
+    {
+      "txt": "De är lika stora",
+      "ratt": false,
+      "kommentar": "Massorna är 0,750 g, 0,800 g och 0,850 g."
+    },
+    {
+      "txt": "850 000 µg",
+      "ratt": true
+    }
+  ],
+  "visaAlternativ": true
+},
   {
     "id": "7.39",
     "kap": 7,
@@ -129480,36 +129601,57 @@ window.BANKMA1 = [
     "alternativ": [{"txt": "Svaret är orimligt, det ska vara ungefär 3 m", "ratt": false}, {"txt": "Svaret är orimligt, det ska vara ungefär 2 880 m", "ratt": false}, {"txt": "Svaret är rimligt", "ratt": false}, {"txt": "Svaret är orimligt, det ska vara ungefär 30 m", "ratt": true}]
   },
   {
-    "id": "7.437",
-    "kap": 7,
-    "omr": "uppskattning_overslag",
-    "kurs": [
-      "1a"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilket av följande är en rimlig vikt för en fylld 10-liters hink med vatten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>1 liter vatten väger ungefär 1 kg.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 10 kg.</p></div></div>",
-    "familj": "Rimlighet och avrundade mått",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Gör ett snabbt överslag med avrundade tal och jämför med svaret.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Överslag och rimlighetsbedömning"
-    ],
-    "alternativ": [{"txt": "Cirka 0,1 kg", "ratt": false}, {"txt": "Cirka 100 kg", "ratt": false}, {"txt": "Cirka 10 kg", "ratt": true}, {"txt": "Cirka 1 kg", "ratt": false}]
-  },
+  "id": "7.437",
+  "kap": 7,
+  "omr": "uppskattning_overslag",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilket av följande är en rimlig vikt för en fylld 10-liters hink med vatten?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En liter vatten väger ungefär ett kilogram</p><p>Tio liter vatten väger därför ungefär tio kilogram. Hinkens egen vikt ändrar inte vilket av de grova alternativen som är rimligt.</p><div class=\"facit-matte\">\\[10\\cdot1\\text{ kg}=10\\text{ kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 10 kg.</p></div>",
+  "familj": "Rimlighet och avrundade mått",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "ledtrad": "<p>Utgå från vad ungefär en liter vatten väger.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Överslag och rimlighetsbedömning"
+  ],
+  "alternativ": [
+    {
+      "txt": "Cirka 0,1 kg",
+      "ratt": false,
+      "kommentar": "0,1 kg motsvarar ungefär en deciliter vatten, inte tio liter."
+    },
+    {
+      "txt": "Cirka 100 kg",
+      "ratt": false,
+      "kommentar": "100 kg motsvarar ungefär hundra liter vatten."
+    },
+    {
+      "txt": "Cirka 10 kg",
+      "ratt": true
+    },
+    {
+      "txt": "Cirka 1 kg",
+      "ratt": false,
+      "kommentar": "1 kg motsvarar ungefär en liter vatten."
+    }
+  ],
+  "visaAlternativ": true
+},
   {
     "id": "7.438",
     "kap": 7,
@@ -147101,8 +147243,8 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "1/0/0",
   "typ": "likvärdiga uttryck för samma mönster",
-  "t": "<p>Tre elever beskriver antalet grå plattor runt en kvadratisk uteplats med sidan \\(s\\) plattor (se figuren). Vilka uttryck är rätt? (Välj alla som stämmer.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 170\" role=\"img\" aria-label=\"Tre kvadratiska uteplatser av plattor med en ram av grå plattor runt vita plattor. Figur 1 är 3 gånger 3 med 8 grå plattor, figur 2 är 4 gånger 4 med 12 grå och figur 3 är 5 gånger 5 med 16 grå.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"24.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"24.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"24.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"40.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"40.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"40.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"56.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"56.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"56.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><text x=\"48.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 1</text><rect x=\"112.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"112.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"112.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"112.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><text x=\"144.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 2</text><rect x=\"216.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><text x=\"256.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 3</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Testa med \\(s=3\\), där det finns 8 grå plattor: \\(4(s-1)=8\\), \\(4s-4=8\\) och \\(s^2-(s-2)^2=9-1=8\\). \\(4s=12\\) är fel.</p><p>De tre rätta uttrycken är olika sätt att tänka: fyra sidor med \\(s-1\\) plattor, fyra sidor minus fyra dubbelräknade hörn, och hela kvadraten minus den vita insidan. Algebraiskt är \\(s^2-(s-2)^2=s^2-(s^2-4s+4)=4s-4\\).</p></div>",
+  "t": "<p>En kvadratisk uteplats har sidan \\(s\\) plattor, inklusive den grå ramen. De yttersta plattorna är grå (se figuren). Vilka uttryck är rätt? (Välj alla alternativ som stämmer.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 170\" role=\"img\" aria-label=\"Tre kvadratiska uteplatser av plattor med en ram av grå plattor runt vita plattor. Figur 1 är 3 gånger 3 med 8 grå plattor, figur 2 är 4 gånger 4 med 12 grå och figur 3 är 5 gånger 5 med 16 grå.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"24.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"24.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"24.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"40.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"40.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"40.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"56.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"56.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"56.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><text x=\"48.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 1</text><rect x=\"112.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"112.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"112.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"112.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><text x=\"144.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 2</text><rect x=\"216.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><text x=\"256.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 3</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyra sidor, men räkna varje hörn en gång</p><p>Fyra sidor med s plattor ger 4s. Då räknas de fyra hörnen två gånger, så fyra måste dras bort.</p><div class=\"facit-matte\">\\[4s-4=4(s-1)\\]</div></li><li><p class=\"facit-rubrik\">Hela kvadraten minus insidan</p><p>Det finns s² plattor totalt. Den vita insidan har sidan s−2.</p><div class=\"facit-matte\">\\[\\begin{aligned}s^2-(s-2)^2&=s^2-(s^2-4s+4)\\\\&=4s-4\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera det fjärde uttrycket</p><p>4s räknar hörnen två gånger. Vid s=3 blir det 12, fast figuren har 8 grå plattor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4(s-1)\\), \\(4s-4\\) och \\(s^2-(s-2)^2\\).</p></div>",
   "familj": "Figurmönster i bilder",
   "formaga": [
     "resonemang",
@@ -147139,7 +147281,8 @@ window.BANKMA1 = [
       "ratt": false,
       "kommentar": "Hörnen räknas två gånger: s = 3 ger 12, men det finns 8 grå plattor."
     }
-  ]
+  ],
+  "visaAlternativ": true
 },
 {
   "id": "1.1188",

@@ -12021,34 +12021,34 @@ window.BANK = [
     ]
   },
   {
-    "id": "3.32",
-    "kap": 3,
-    "omr": "vt_diagram",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En cyklist startar från vila, accelererar i 6 s upp till 8,0 m/s, håller sedan farten i 10 s och bromsar därefter till stillastående på 4 s.</p>\n<ol type=\"a\"><li>Rita ett v-t-diagram över hela förloppet.</li>\n<li>Bestäm den totala sträckan ur diagrammet.</li><li>Bestäm medelfarten under hela färden.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Brytpunkter i diagrammet</p><div class=\"facit-matte\">\\[\\begin{aligned}&(0;\\ 0)\\\\&(6;\\ 8{,}0)\\\\&(16;\\ 8{,}0)\\\\&(20;\\ 0)\\end{aligned}\\]</div><div class=\"fig\"><svg width=\"560\" height=\"310\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Rörelsediagram\"><rect width=\"560\" height=\"310\" fill=\"white\"/><line x1=\"65.00\" y1=\"45\" x2=\"65.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"110.50\" y1=\"45\" x2=\"110.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"156.00\" y1=\"45\" x2=\"156.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"201.50\" y1=\"45\" x2=\"201.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"247.00\" y1=\"45\" x2=\"247.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"292.50\" y1=\"45\" x2=\"292.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"338.00\" y1=\"45\" x2=\"338.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"383.50\" y1=\"45\" x2=\"383.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"429.00\" y1=\"45\" x2=\"429.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"474.50\" y1=\"45\" x2=\"474.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"520.00\" y1=\"45\" x2=\"520.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"255.00\" x2=\"520\" y2=\"255.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"228.75\" x2=\"520\" y2=\"228.75\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"202.50\" x2=\"520\" y2=\"202.50\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"176.25\" x2=\"520\" y2=\"176.25\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"150.00\" x2=\"520\" y2=\"150.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"123.75\" x2=\"520\" y2=\"123.75\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"97.50\" x2=\"520\" y2=\"97.50\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"71.25\" x2=\"520\" y2=\"71.25\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"45.00\" x2=\"520\" y2=\"45.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><path d=\"M 65 45 V 255 M 65 255.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">v (m/s)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">t (s)</text><polyline points=\"65.0,255.0 201.5,45.0 429.0,45.0 520.0,255.0\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/><text x=\"65.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"110.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">2</text><text x=\"156.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">4</text><text x=\"201.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">6</text><text x=\"247.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">8</text><text x=\"292.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">10</text><text x=\"338.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">12</text><text x=\"383.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">14</text><text x=\"429.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">16</text><text x=\"474.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">18</text><text x=\"520.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">20</text><text x=\"57\" y=\"259.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"57\" y=\"232.75\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">1</text><text x=\"57\" y=\"206.50\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">2</text><text x=\"57\" y=\"180.25\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">3</text><text x=\"57\" y=\"154.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">4</text><text x=\"57\" y=\"127.75\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">5</text><text x=\"57\" y=\"101.50\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">6</text><text x=\"57\" y=\"75.25\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">7</text><text x=\"57\" y=\"49.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">8</text></svg></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Se diagrammet.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sträckan är arean under v-t-grafen: två trianglar triangel \\(\\dfrac{bh}{2}\\) och en rektangel rektangel \\(bh\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}s&=\\frac{6\\cdot8{,}0}{2}+10\\cdot8{,}0+\\frac{4\\cdot8{,}0}{2}\\\\&=24+80+16\\\\&=120\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 120 m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medelfart: \\(\\text{medelfart}=\\dfrac{\\text{total sträcka}}{\\text{total tid}}\\)</p><div class=\"facit-matte\">\\[\\text{medelfart}=\\frac{120}{20}=6{,}0\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,0 m/s.</p></div></div></div>",
-    "familj": "Tolka och rita v-t-diagram",
-    "formaga": [
-      "procedur"
-    ],
-    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "spel": false,
-    "familjNyckelTidigare": "diagram__tolka_och_rita_vt_diagram",
-    "ledtrad": "<p>Markera tidpunkterna när rörelsen ändras, inte bara hur länge varje del varar.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "manuellKomplettering": true,
-    "miniräknare": true,
-    "geogebra": false,
-    "familjTidigare": [
-      "Tolka och rita rörelsediagram"
-    ]
-  },
+  "id": "3.32",
+  "kap": 3,
+  "omr": "vt_diagram",
+  "niva": "C",
+  "poang": "(2/1/0)",
+  "t": "<p>En cyklist startar från vila, accelererar med konstant acceleration i 6 s upp till 8,0 m/s, håller sedan farten i 10 s och bromsar därefter med konstant acceleration till stillastående på 4 s.</p>\n<ol type=\"a\"><li>Rita ett v-t-diagram över hela förloppet.</li>\n<li>Bestäm den totala sträckan ur diagrammet.</li><li>Bestäm medelfarten under hela färden.</li></ol>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räta linjer mellan brytpunkterna</p><div class=\"facit-matte\">\\[\\begin{aligned}&(0;\\ 0)\\\\&(6;\\ 8{,}0)\\\\&(16;\\ 8{,}0)\\\\&(20;\\ 0)\\end{aligned}\\]</div><div class=\"fig\"><svg width=\"560\" height=\"310\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Rörelsediagram\"><rect width=\"560\" height=\"310\" fill=\"white\"/><line x1=\"65.00\" y1=\"45\" x2=\"65.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"110.50\" y1=\"45\" x2=\"110.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"156.00\" y1=\"45\" x2=\"156.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"201.50\" y1=\"45\" x2=\"201.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"247.00\" y1=\"45\" x2=\"247.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"292.50\" y1=\"45\" x2=\"292.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"338.00\" y1=\"45\" x2=\"338.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"383.50\" y1=\"45\" x2=\"383.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"429.00\" y1=\"45\" x2=\"429.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"474.50\" y1=\"45\" x2=\"474.50\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"520.00\" y1=\"45\" x2=\"520.00\" y2=\"255\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"255.00\" x2=\"520\" y2=\"255.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"228.75\" x2=\"520\" y2=\"228.75\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"202.50\" x2=\"520\" y2=\"202.50\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"176.25\" x2=\"520\" y2=\"176.25\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"150.00\" x2=\"520\" y2=\"150.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"123.75\" x2=\"520\" y2=\"123.75\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"97.50\" x2=\"520\" y2=\"97.50\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"71.25\" x2=\"520\" y2=\"71.25\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"65\" y1=\"45.00\" x2=\"520\" y2=\"45.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><path d=\"M 65 45 V 255 M 65 255.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">v (m/s)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">t (s)</text><polyline points=\"65.0,255.0 201.5,45.0 429.0,45.0 520.0,255.0\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/><text x=\"65.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"110.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">2</text><text x=\"156.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">4</text><text x=\"201.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">6</text><text x=\"247.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">8</text><text x=\"292.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">10</text><text x=\"338.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">12</text><text x=\"383.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">14</text><text x=\"429.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">16</text><text x=\"474.50\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">18</text><text x=\"520.00\" y=\"277\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">20</text><text x=\"57\" y=\"259.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">0</text><text x=\"57\" y=\"232.75\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">1</text><text x=\"57\" y=\"206.50\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">2</text><text x=\"57\" y=\"180.25\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">3</text><text x=\"57\" y=\"154.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">4</text><text x=\"57\" y=\"127.75\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">5</text><text x=\"57\" y=\"101.50\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">6</text><text x=\"57\" y=\"75.25\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">7</text><text x=\"57\" y=\"49.00\" text-anchor=\"end\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#5C575E\">8</text></svg></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Se diagrammet.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sträckan är arean under v-t-grafen: två trianglar med arean \\(\\dfrac{bh}{2}\\) och en rektangel med arean \\(bh\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}s&=\\frac{6\\cdot8{,}0}{2}+10\\cdot8{,}0+\\frac{4\\cdot8{,}0}{2}\\\\&=24+80+16\\\\&=120\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 120 m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medelfart: \\(\\text{medelfart}=\\dfrac{\\text{total sträcka}}{\\text{total tid}}\\)</p><div class=\"facit-matte\">\\[\\text{medelfart}=\\frac{120}{20}=6{,}0\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,0 m/s.</p></div></div></div>",
+  "familj": "Tolka och rita v-t-diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
+  "svarstyp": "resonemang",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "spel": false,
+  "familjNyckelTidigare": "diagram__tolka_och_rita_vt_diagram",
+  "ledtrad": "<p>Markera tidpunkterna när rörelsen ändras, inte bara hur länge varje del varar.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "manuellKomplettering": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "familjTidigare": [
+    "Tolka och rita rörelsediagram"
+  ]
+},
   {
     "id": "3.33",
     "kap": 3,
@@ -198906,7 +198906,7 @@ window.BANK = [
   "niva": "E",
   "typ": "rörelse och acceleration",
   "poang": "(1/0/0)",
-  "t": "<p>Diagrammet visar hastigheten för två vagnar, A och B. Vilket påstående stämmer?</p><span class=\"fig\"><svg style=\"width:100%;max-width:440px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 275\" role=\"img\" aria-label=\"Hastighet som funktion av tid\"><rect width=\"440\" height=\"275\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><line x1=\"60.0\" y1=\"45\" x2=\"60.0\" y2=\"205\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"60.0\" y=\"229\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">0</text><line x1=\"137.5\" y1=\"45\" x2=\"137.5\" y2=\"205\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"137.5\" y=\"229\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">1</text><line x1=\"215.0\" y1=\"45\" x2=\"215.0\" y2=\"205\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"215.0\" y=\"229\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">2</text><line x1=\"292.5\" y1=\"45\" x2=\"292.5\" y2=\"205\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"292.5\" y=\"229\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">3</text><line x1=\"370.0\" y1=\"45\" x2=\"370.0\" y2=\"205\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"370.0\" y=\"229\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">4</text><line x1=\"60\" y1=\"205.0\" x2=\"370\" y2=\"205.0\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"35\" y=\"210.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">0</text><line x1=\"60\" y1=\"165.0\" x2=\"370\" y2=\"165.0\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"35\" y=\"170.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">4</text><line x1=\"60\" y1=\"125.0\" x2=\"370\" y2=\"125.0\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"35\" y=\"130.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">8</text><line x1=\"60\" y1=\"85.0\" x2=\"370\" y2=\"85.0\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"35\" y=\"90.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">12</text><line x1=\"60\" y1=\"45.0\" x2=\"370\" y2=\"45.0\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"35\" y=\"50.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">16</text><path d=\"M60 35V205H385\"/><text x=\"131\" y=\"22\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Hastighet (m/s)</text><text x=\"350\" y=\"252\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Tid (s)</text><polyline points=\"60,185 370,105\" stroke=\"#226c95\" stroke-width=\"3\"/><text x=\"395\" y=\"110.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">A</text><polyline points=\"60,145 370,65\" stroke=\"#a34a14\" stroke-width=\"3\"/><text x=\"395\" y=\"70.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">B</text></g></svg></span>",
+  "t": "<p>Diagrammet visar hastigheten för två vagnar, A och B. Vilket påstående stämmer?</p><span class=\"fig\"><svg style=\"width:100%;max-width:440px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 275\" role=\"img\" aria-label=\"Hastighet som funktion av tid\"><rect width=\"440\" height=\"275\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><line x1=\"60.0\" y1=\"45\" x2=\"60.0\" y2=\"205\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"60.0\" y=\"229\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">0</text><line x1=\"137.5\" y1=\"45\" x2=\"137.5\" y2=\"205\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"137.5\" y=\"229\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">1</text><line x1=\"215.0\" y1=\"45\" x2=\"215.0\" y2=\"205\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"215.0\" y=\"229\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">2</text><line x1=\"292.5\" y1=\"45\" x2=\"292.5\" y2=\"205\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"292.5\" y=\"229\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">3</text><line x1=\"370.0\" y1=\"45\" x2=\"370.0\" y2=\"205\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"370.0\" y=\"229\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">4</text><line x1=\"60\" y1=\"205.0\" x2=\"370\" y2=\"205.0\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"35\" y=\"210.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">0</text><line x1=\"60\" y1=\"165.0\" x2=\"370\" y2=\"165.0\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"35\" y=\"170.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">4</text><line x1=\"60\" y1=\"125.0\" x2=\"370\" y2=\"125.0\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"35\" y=\"130.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">8</text><line x1=\"60\" y1=\"85.0\" x2=\"370\" y2=\"85.0\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"35\" y=\"90.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">12</text><line x1=\"60\" y1=\"45.0\" x2=\"370\" y2=\"45.0\" stroke=\"#c2cbd5\" stroke-width=\"1\"/><text x=\"35\" y=\"50.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">16</text><path d=\"M60 35V205H385\"/><text x=\"131\" y=\"22\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Hastighet (m/s)</text><text x=\"350\" y=\"252\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Tid (s)</text><polyline points=\"60,185 370,105\" stroke=\"#226c95\" stroke-width=\"3\"/><text x=\"395\" y=\"110.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">A</text><polyline points=\"60,145 370,65\" stroke=\"#a34a14\" stroke-width=\"3\"/><text x=\"395\" y=\"70.0\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">B</text></g></svg></span><p>Välj ett alternativ.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Accelerationen är grafens lutning: \\(a=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&a_A=\\frac{10-2}{4}=2\\ \\mathrm{m/s^2}\\\\&a_B=\\frac{14-6}{4}=2\\ \\mathrm{m/s^2}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Parallella linjer har samma lutning</p><p>B har större hastighet, men inte större acceleration.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vagnarna har lika stor acceleration.</p></div>",
   "rättSvar": null,
   "tolerans": null,
@@ -198938,7 +198938,8 @@ window.BANK = [
       "txt": "Vagnarna har lika stor acceleration.",
       "ratt": true
     }
-  ]
+  ],
+  "visaAlternativ": true
 },
 {
   "id": "3.443",
@@ -205664,7 +205665,7 @@ window.BANK = [
   "niva": "E",
   "typ": "fluga mot en vindruta",
   "poang": "(1/0/0)",
-  "t": "<p>En fluga träffar vindrutan på en bil i hög fart. Vilket påstående om krafterna under krocken stämmer?</p>",
+  "t": "<p>En fluga träffar vindrutan på en bil i hög fart. Vilket påstående om krafterna under krocken stämmer?</p><p>Välj ett alternativ.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Newtons tredje lag: \\(\\vec F_{A\\text{ på }B}=-\\vec F_{B\\text{ på }A}\\)</p><p>Krafterna mellan flugan och bilen är lika stora. Flugan har mycket mindre massa och får därför mycket större acceleration.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Krafterna är lika stora.</p></div>",
   "familj": "Kraft och motkraft",
   "formaga": [
@@ -205700,7 +205701,8 @@ window.BANK = [
       "ratt": false,
       "kommentar": "Flugan påverkar också bilen."
     }
-  ]
+  ],
+  "visaAlternativ": true
 },
 {
   "id": "4.825",
@@ -205809,8 +205811,8 @@ window.BANK = [
   "niva": "E",
   "typ": "kraft och motkraft verkar på olika föremål",
   "poang": "(1/0/0)",
-  "t": "<p>Vilket påstående om kraft och motkraft är rätt?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kraft och motkraft verkar på olika kroppar: \\(\\vec F_{A\\text{ på }B}=-\\vec F_{B\\text{ på }A}\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> De verkar på olika föremål.</p></div>",
+  "t": "<p>Vilket påstående om kraft och motkraft är rätt?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Newtons tredje lag: \\(\\vec F_{A\\text{ på }B}=-\\vec F_{B\\text{ på }A}\\)</p><p>När A påverkar B med en kraft påverkar B samtidigt A med en lika stor, motsatt riktad kraft. Krafterna verkar på olika föremål och tar därför inte ut varandra på ett enskilt föremål.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> De verkar på olika föremål.</p></div>",
   "familj": "Kraft och motkraft",
   "formaga": [
     "begrepp"
@@ -205833,7 +205835,7 @@ window.BANK = [
     {
       "txt": "De verkar på samma föremål och tar ut varandra",
       "ratt": false,
-      "kommentar": "Då skulle inget föremål kunna accelerera."
+      "kommentar": "Kraften verkar på B och motkraften på A. De tar därför inte ut varandra på ett och samma föremål."
     },
     {
       "txt": "Motkraften är alltid lite mindre",
@@ -205845,7 +205847,8 @@ window.BANK = [
       "ratt": false,
       "kommentar": "Krafterna verkar samtidigt."
     }
-  ]
+  ],
+  "visaAlternativ": true
 },
 {
   "id": "4.829",
@@ -207841,7 +207844,7 @@ window.BANK = [
   "niva": "E",
   "typ": "medelhastighet efter ett varv",
   "poang": "(1/0/0)",
-  "t": "<p>Leo springer ett varv, 400 m, på en löparbana på 80 s. Han slutar där han startade.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"210\" viewBox=\"0 0 400 210\" role=\"img\" aria-label=\"En 400 meter lång löparbana. Start och mål ligger på samma ställe.\"><title>En 400 meter lång löparbana. Start och mål ligger på samma ställe.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"45\" width=\"280\" height=\"120\" rx=\"60\" fill=\"#fde7d4\" stroke=\"#c2410c\" stroke-width=\"3\"/><rect x=\"95\" y=\"80\" width=\"210\" height=\"50\" rx=\"25\" fill=\"#dcfce7\" stroke=\"#2f7d4a\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"165\" x2=\"200\" y2=\"185\" stroke=\"#172b3a\" stroke-width=\"3\"/><text x=\"200.0\" y=\"202.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">start och mål</text><text x=\"200.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">400 m per varv</text><path d=\"M 230,175 Q 300,180 330,150\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"326.0\" y1=\"156.0\" x2=\"333.1\" y2=\"144.6\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"336.0,140.0 327.1,145.0 335.4,150.2\" fill=\"#c2410c\"/></svg></span><p>Vilket påstående stämmer?</p>",
+  "t": "<p>Leo springer ett varv, 400 m, på en löparbana på 80 s. Han slutar där han startade.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"210\" viewBox=\"0 0 400 210\" role=\"img\" aria-label=\"En 400 meter lång löparbana. Start och mål ligger på samma ställe.\"><title>En 400 meter lång löparbana. Start och mål ligger på samma ställe.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"45\" width=\"280\" height=\"120\" rx=\"60\" fill=\"#fde7d4\" stroke=\"#c2410c\" stroke-width=\"3\"/><rect x=\"95\" y=\"80\" width=\"210\" height=\"50\" rx=\"25\" fill=\"#dcfce7\" stroke=\"#2f7d4a\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"165\" x2=\"200\" y2=\"185\" stroke=\"#172b3a\" stroke-width=\"3\"/><text x=\"200.0\" y=\"202.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">start och mål</text><text x=\"200.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">400 m per varv</text><path d=\"M 230,175 Q 300,180 330,150\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"326.0\" y1=\"156.0\" x2=\"333.1\" y2=\"144.6\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"336.0,140.0 327.1,145.0 335.4,150.2\" fill=\"#c2410c\"/></svg></span><p>Vilket påstående stämmer?</p><p>Välj ett alternativ.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medelfart: \\(v_m=s_{\\mathrm{tot}}/t_{\\mathrm{tot}}\\)</p><div class=\"facit-matte\">\\[v_m=400/80=5{,}0\\ \\mathrm{m/s}\\]</div></li><li><p class=\"facit-rubrik\">Medelhastighet: \\(\\bar v=\\Delta x/\\Delta t\\)</p><p>Leo kommer tillbaka till startpunkten. Förflyttningen är noll, medan vägsträckan är 400 m.</p><div class=\"facit-matte\">\\[\\bar v=0/80=0\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Medelfarten är 5,0 m/s och medelhastigheten är 0 m/s.</p></div>",
   "familj": "Medelhastighet och medelfart",
   "familjNyckel": "hastighet__51_fart_och_hastighet",
@@ -207879,7 +207882,8 @@ window.BANK = [
       "ratt": true,
       "kommentar": "Förflyttningen är noll efter ett helt varv."
     }
-  ]
+  ],
+  "visaAlternativ": true
 },
 {
   "id": "2.346",

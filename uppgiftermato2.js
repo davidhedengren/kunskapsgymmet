@@ -90817,40 +90817,61 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "4.460",
-    "kap": 5,
-    "omr": "faktorsatsen",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>För ett polynom \\(P\\) gäller \\(P(2)=0\\). Vilken av följande faktorer måste då finnas i \\(P(x)\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorsatsen säger att \\(P(a)=0\\) om och endast om \\(x-a\\) är en faktor.</p></li><li><p>Eftersom \\(P(2)=0\\) måste \\(x-2\\) vara en faktor.</p></li></ol><p class=\"facit-svar\"><b>Svar: \\(x-2\\).</p></div>",
-    "familj": "Faktorsatsen och faktorisering",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "Koppla ett nollställe \\(x=a\\) till faktorn \\(x-a\\).",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "idTidigare": "mato1 1.496",
-    "omrTidigare": [
-      "polynom_komplexa"
-    ],
-    "familjTidigare": [
-      "Faktorsatsen, faktorisering och polynomrötter"
-    ],
-    "alternativ": [{"txt": "\\(x-2\\)", "ratt": true}, {"txt": "\\(x+2\\)", "ratt": false}, {"txt": "\\(2x-1\\)", "ratt": false}, {"txt": "\\(x^2+2\\)", "ratt": false}]
-  },
+  "id": "4.460",
+  "kap": 5,
+  "omr": "faktorsatsen",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>För ett polynom \\(P\\) gäller \\(P(2)=0\\). Vilken av följande faktorer måste då finnas i \\(P(x)\\)?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorsatsen: \\(P(a)=0\\Leftrightarrow(x-a)\\text{ är en faktor}\\)</p><p>Det givna nollstället är a = 2. Sätt in det i faktorn x−a.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x-2\\).</p></div>",
+  "familj": "Faktorsatsen och faktorisering",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "Koppla ett nollställe \\(x=a\\) till faktorn \\(x-a\\).",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
+  "idTidigare": "mato1 1.496",
+  "omrTidigare": [
+    "polynom_komplexa"
+  ],
+  "familjTidigare": [
+    "Faktorsatsen, faktorisering och polynomrötter"
+  ],
+  "alternativ": [
+    {
+      "txt": "\\(x-2\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(x+2\\)",
+      "ratt": false,
+      "kommentar": "x+2 skulle kräva nollstället −2, vilket inte är givet."
+    },
+    {
+      "txt": "\\(2x-1\\)",
+      "ratt": false,
+      "kommentar": "2x−1 skulle kräva nollstället 1/2, vilket inte är givet."
+    },
+    {
+      "txt": "\\(x^2+2\\)",
+      "ratt": false,
+      "kommentar": "P(2)=0 säger inget om faktorn x²+2. Polynomet P(x)=x−2 är ett motexempel."
+    }
+  ],
+  "visaAlternativ": true
+},
   {
     "id": "4.461",
     "kap": 5,

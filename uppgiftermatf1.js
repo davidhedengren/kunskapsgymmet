@@ -49909,33 +49909,54 @@ window.BANKMATF1 = [
     ]
   },
   {
-    "kap": 4,
-    "omr": "forandringsmodeller",
-    "niva": "E",
-    "typ": "luftmotstånd – grundmodell",
-    "poang": "1/0/0",
-    "t": "<p>För modellen \\(v'=9{,}82-0{,}50v\\) med \\(v(0)=0\\), vilken av följande funktioner är lösningen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Lösningen ska starta i 0 och närma sig terminalhastigheten 19,64.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(v=19{,}64(1-e^{-0,50t})\\) ger \\(v(0)=0\\) och \\(v\\to19{,}64\\) när \\(t\\to\\infty\\).</p></li><li><p>Derivering visar också att den uppfyller differentialekvationen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=19{,}64(1-e^{-0,50t})\\).</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> En korrekt lösning ska både uppfylla v(0)=0 och närma sig terminalhastigheten 19,64 m/s.</p></li></ol></div>",
-    "id": "4.513",
-    "miniräknare": false,
-    "geogebra": false,
-    "familj": "Modellering med differentialekvationer",
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "modellering",
-      "procedur",
-      "begrepp"
-    ],
-    "traningsniva": 2,
-    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>",
-    "omrTidigare": [
-      "modellering_digitalt"
-    ],
-    "alternativ": [{"txt": "\\(v=19{,}64(1-e^{-0,50t})\\)", "ratt": true}, {"txt": "\\(v=19{,}64e^{0{,}50t}\\)", "ratt": false}, {"txt": "\\(v=9{,}82t^2\\)", "ratt": false}, {"txt": "\\(v=0{,}50t\\)", "ratt": false}]
-  },
+  "kap": 4,
+  "omr": "forandringsmodeller",
+  "niva": "E",
+  "typ": "luftmotstånd – grundmodell",
+  "poang": "1/0/0",
+  "t": "<p>För modellen \\(v'=9{,}82-0{,}50v\\) med \\(v(0)=0\\), vilken av följande funktioner är lösningen?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontrollera begynnelsevillkoret \\(v(0)=0\\)</p><p>Pröva förslaget med faktorn 1−e upphöjt till −0,50t.</p><div class=\"facit-matte\">\\[v(0)=19{,}64(1-1)=0\\]</div></li><li><p class=\"facit-rubrik\">Derivera: \\((e^{kt})^{\\prime}=ke^{kt}\\)</p><p>Konstanttermen försvinner och exponentialtermen ger</p><div class=\"facit-matte\">\\[v^{\\prime}(t)=9{,}82e^{-0{,}50t}\\]</div></li><li><p class=\"facit-rubrik\">Sätt förslaget i högerledet</p><p>Multiplicera in 0,50 i parentesen och samla termerna. Högerledet blir samma uttryck som derivatan.</p><div class=\"facit-matte\">\\[\\begin{aligned}&9{,}82-0{,}50v\\\\&=9{,}82-9{,}82\\\\&\\quad+9{,}82e^{-0{,}50t}\\\\&=9{,}82e^{-0{,}50t}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=19{,}64(1-e^{-0{,}50t})\\).</p></div>",
+  "id": "4.513",
+  "miniräknare": true,
+  "geogebra": false,
+  "familj": "Modellering med differentialekvationer",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "modellering",
+    "procedur",
+    "begrepp"
+  ],
+  "traningsniva": 2,
+  "ledtrad": "<p>Pröva begynnelsevillkoret. Derivera sedan förslaget och jämför med differentialekvationens högerled.</p>",
+  "omrTidigare": [
+    "modellering_digitalt"
+  ],
+  "alternativ": [
+    {
+      "txt": "\\(v=19{,}64(1-e^{-0{,}50t})\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(v=19{,}64e^{0{,}50t}\\)",
+      "ratt": false,
+      "kommentar": "Vid t = 0 blir v = 19,64. Begynnelsevillkoret v(0)=0 uppfylls inte."
+    },
+    {
+      "txt": "\\(v=9{,}82t^2\\)",
+      "ratt": false,
+      "kommentar": "Vid t = 0 är derivatan 0, men ekvationen kräver v′(0)=9,82."
+    },
+    {
+      "txt": "\\(v=0{,}50t\\)",
+      "ratt": false,
+      "kommentar": "Derivatan är 0,50, men ekvationen kräver v′(0)=9,82."
+    }
+  ],
+  "visaAlternativ": true
+},
   {
     "kap": 4,
     "omr": "forandringsmodeller",
@@ -52361,8 +52382,8 @@ window.BANKMATF1 = [
   "niva": "E",
   "poang": "2/0/0",
   "typ": "vilka funktioner löser xy′ = 2y",
-  "t": "<p>Vilka av funktionerna löser differentialekvationen \\(xy^{\\prime}=2y\\)? (Välj alla som stämmer.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva y=x²</p>\\[y^{\\prime}=2x\\]\\[xy^{\\prime}=2x^2=2y\\]<p>Funktionen löser ekvationen.</p></li><li><p class=\"facit-rubrik\">Pröva y=3x²</p>\\[y^{\\prime}=6x\\]\\[xy^{\\prime}=6x^2=2y\\]<p>Även denna funktion löser ekvationen.</p></li><li><p class=\"facit-rubrik\">Pröva y=x²+1</p>\\[xy^{\\prime}=2x^2,\\qquad2y=2x^2+2\\]<p>Leden skiljer sig med 2. Funktionen löser inte ekvationen.</p></li><li><p class=\"facit-rubrik\">Pröva y=x³</p>\\[xy^{\\prime}=3x^3,\\qquad2y=2x^3\\]<p>Likheten gäller bara vid x=0, inte på ett helt intervall. Funktionen är därför inte en lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=x^2\\) och \\(y=3x^2\\).</p></div>",
+  "t": "<p>Vilka av funktionerna löser differentialekvationen \\(xy^{\\prime}=2y\\)? (Välj alla alternativ som stämmer.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva \\(y=x^2\\)</p>\\[y^{\\prime}=2x\\]\\[xy^{\\prime}=2x^2=2y\\]<p>Funktionen löser ekvationen.</p></li><li><p class=\"facit-rubrik\">Pröva y=3x²</p>\\[y^{\\prime}=6x\\]\\[xy^{\\prime}=6x^2=2y\\]<p>Även denna funktion löser ekvationen.</p></li><li><p class=\"facit-rubrik\">Pröva \\(y=x^2\\)+1</p>\\[xy^{\\prime}=2x^2,\\qquad2y=2x^2+2\\]<p>Leden skiljer sig med 2. Funktionen löser inte ekvationen.</p></li><li><p class=\"facit-rubrik\">Pröva y=x³</p>\\[xy^{\\prime}=3x^3,\\qquad2y=2x^3\\]<p>Likheten gäller bara vid x=0, inte på ett helt intervall. Funktionen är därför inte en lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=x^2\\) och \\(y=3x^2\\).</p></div>",
   "familj": "Pröva lösningar med grafer och flerval",
   "formaga": [
     "procedur",
@@ -52378,7 +52399,29 @@ window.BANKMATF1 = [
   "svarstyp": "alternativ",
   "rättSvar": null,
   "tolerans": null,
-  "alternativ": [{"txt": "\\(y=x^2\\)", "ratt": true, "kommentar": "x·2x = 2x² = 2y."}, {"txt": "\\(y=3x^2\\)", "ratt": true, "kommentar": "x·6x = 6x² = 2y."}, {"txt": "\\(y=x^2+1\\)", "ratt": false, "kommentar": "VL = 2x² men HL = 2x² + 2."}, {"txt": "\\(y=x^3\\)", "ratt": false, "kommentar": "Leden blir 3x³ och 2x³. De är bara lika vid x=0, inte på ett helt intervall."}]
+  "alternativ": [
+    {
+      "txt": "\\(y=x^2\\)",
+      "ratt": true,
+      "kommentar": "x·2x = 2x² = 2y."
+    },
+    {
+      "txt": "\\(y=3x^2\\)",
+      "ratt": true,
+      "kommentar": "x·6x = 6x² = 2y."
+    },
+    {
+      "txt": "\\(y=x^2+1\\)",
+      "ratt": false,
+      "kommentar": "VL = 2x² men HL = 2x² + 2."
+    },
+    {
+      "txt": "\\(y=x^3\\)",
+      "ratt": false,
+      "kommentar": "Leden blir 3x³ och 2x³. De är bara lika vid x=0, inte på ett helt intervall."
+    }
+  ],
+  "visaAlternativ": true
 },
 {
   "id": "4.588",
@@ -52387,8 +52430,8 @@ window.BANKMATF1 = [
   "niva": "E",
   "poang": "1/0/0",
   "typ": "vilka funktioner löser y″ = −9y",
-  "t": "<p>Vilka av funktionerna löser differentialekvationen \\(y^{\\prime\\prime}=-9y\\)? (Välj alla som stämmer.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva sinus med argumentet 3x</p>\\[y^{\\prime}=3\\cos(3x)\\]\\[y^{\\prime\\prime}=-9\\sin(3x)=-9y\\]<p>Detta förslag stämmer.</p></li><li><p class=\"facit-rubrik\">Pröva cosinus med argumentet 3x</p>\\[y^{\\prime}=-3\\sin(3x)\\]\\[y^{\\prime\\prime}=-9\\cos(3x)=-9y\\]<p>Även detta förslag stämmer.</p></li><li><p class=\"facit-rubrik\">Pröva exponentialfunktionen</p>\\[y^{\\prime}=3e^{3x},\\qquad y^{\\prime\\prime}=9e^{3x}\\]<p>Det ger 9y, med fel tecken.</p></li><li><p class=\"facit-rubrik\">Pröva sinus med argumentet 9x</p>\\[y^{\\prime}=9\\cos(9x)\\]\\[y^{\\prime\\prime}=-81\\sin(9x)=-81y\\]<p>Här blir faktorn −81, inte −9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=\\sin(3x)\\) och \\(y=\\cos(3x)\\).</p></div>",
+  "t": "<p>Vilka av funktionerna löser differentialekvationen \\(y^{\\prime\\prime}=-9y\\)? (Välj alla alternativ som stämmer.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva \\(y=\\sin(3x)\\)</p>\\[y^{\\prime}=3\\cos(3x)\\]\\[y^{\\prime\\prime}=-9\\sin(3x)=-9y\\]<p>Detta förslag stämmer.</p></li><li><p class=\"facit-rubrik\">Pröva cosinus med argumentet 3x</p>\\[y^{\\prime}=-3\\sin(3x)\\]\\[y^{\\prime\\prime}=-9\\cos(3x)=-9y\\]<p>Även detta förslag stämmer.</p></li><li><p class=\"facit-rubrik\">Pröva exponentialfunktionen</p>\\[y^{\\prime}=3e^{3x},\\qquad y^{\\prime\\prime}=9e^{3x}\\]<p>Det ger 9y, med fel tecken.</p></li><li><p class=\"facit-rubrik\">Pröva sinus med argumentet 9x</p>\\[y^{\\prime}=9\\cos(9x)\\]\\[y^{\\prime\\prime}=-81\\sin(9x)=-81y\\]<p>Här blir faktorn −81, inte −9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=\\sin(3x)\\) och \\(y=\\cos(3x)\\).</p></div>",
   "familj": "Pröva lösningar med grafer och flerval",
   "formaga": [
     "procedur"
@@ -52424,7 +52467,8 @@ window.BANKMATF1 = [
       "ratt": false,
       "kommentar": "y″ = −81y."
     }
-  ]
+  ],
+  "visaAlternativ": true
 },
 {
   "id": "4.589",

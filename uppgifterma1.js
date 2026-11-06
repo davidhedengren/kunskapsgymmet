@@ -42,17 +42,18 @@ window.BANKMA1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-8+5-11\\)</div><div>b) \\(6-14+9\\)</div><div>c) \\(-3-7+12\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Börja på −8 och gå 5 steg uppåt</p><div class=\"facit-matte\">\\[-8+5=-3\\]</div></li><li><p class=\"facit-rubrik\">Gå sedan 11 steg nedåt från −3</p><div class=\"facit-matte\">\\[-3-11=-14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-14\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Från 6 går man 14 steg nedåt och passerar noll</p><div class=\"facit-matte\">\\[6-14=-8\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 9</p><div class=\"facit-matte\">\\[-8+9=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två minskningar i rad ger ett ännu mindre tal</p><div class=\"facit-matte\">\\[-3-7=-10\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 12</p><div class=\"facit-matte\">\\[-10+12=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div></div>",
+    "poang": "4/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-8+5\\)</div><div>b) \\(6-14+9\\)</div><div>c) \\(-3-7+12\\)</div><div>d) \\(-5-(-9)+(-6)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera: \\(-8+5=-3\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addition och subtraktion från vänster: \\(6-14=-8\\)</p><div class=\"facit-matte\">\\[-8+9\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-8+9=1\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addition och subtraktion från vänster: \\(-3-7=-10\\)</p><div class=\"facit-matte\">\\[-10+12\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-10+12=2\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(-5-(-9)=-5+9=4\\)</p><div class=\"facit-matte\">\\[4+(-6)\\]</div></li><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus: \\(4+(-6)=4-6=-2\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -14,
+      -3,
       1,
-      2
+      2,
+      -2
     ],
     "tolerans": 1e-09,
     "självrättning": true,
@@ -64,36 +65,49 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-8+5-11\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Börja på −8 och gå 5 steg uppåt</p><div class=\"facit-matte\">\\[-8+5=-3\\]</div></li><li><p class=\"facit-rubrik\">Gå sedan 11 steg nedåt från −3</p><div class=\"facit-matte\">\\[-3-11=-14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-14\\)</p></div>",
-        "ledtrad": "<p>Börja vid −8. Åt vilket håll går du när du adderar 5?</p>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-8+5\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera: \\(-8+5=-3\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\)</p></div>",
+        "ledtrad": "<p>Börja på \\(-8\\) på tallinjen och gå 5 steg åt höger.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "traningsniva": 1
       },
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(6-14+9\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Från 6 går man 14 steg nedåt och passerar noll</p><div class=\"facit-matte\">\\[6-14=-8\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 9</p><div class=\"facit-matte\">\\[-8+9=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
-        "ledtrad": "<p>Vad blir skillnaden 6 − 14 innan du lägger till 9?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addition och subtraktion från vänster: \\(6-14=-8\\)</p><div class=\"facit-matte\">\\[-8+9\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-8+9=1\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\)</p></div>",
+        "ledtrad": "<p>Räkna från vänster till höger, ett steg i taget.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "traningsniva": 2
       },
       {
         "etikett": "c",
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-3-7+12\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två minskningar i rad ger ett ännu mindre tal</p><div class=\"facit-matte\">\\[-3-7=-10\\]</div></li><li><p class=\"facit-rubrik\">Lägg till 12</p><div class=\"facit-matte\">\\[-10+12=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
-        "ledtrad": "<p>Kan du först samla de två negativa termerna?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addition och subtraktion från vänster: \\(-3-7=-10\\)</p><div class=\"facit-matte\">\\[-10+12\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-10+12=2\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div>",
+        "ledtrad": "<p>Räkna från vänster till höger, ett steg i taget.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-5-(-9)+(-6)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(-5-(-9)=-5+9=4\\)</p><div class=\"facit-matte\">\\[4+(-6)\\]</div></li><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus: \\(4+(-6)=4-6=-2\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div>",
+        "ledtrad": "<p>Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
       }
     ],
-    "ledtrad": "<p>Följ termernas tecken. Du kan räkna från vänster eller samla termer med samma tecken.</p>",
+    "ledtrad": "<p><strong>a)</strong> Börja på \\(-8\\) på tallinjen och gå 5 steg åt höger.</p><p><strong>b)</strong> Räkna från vänster till höger, ett steg i taget.</p><p><strong>c)</strong> Räkna från vänster till höger, ett steg i taget.</p><p><strong>d)</strong> Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p>",
     "svarFormat": [
+      "numeriskt",
       "numeriskt",
       "numeriskt",
       "numeriskt"
     ],
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -2639,7 +2653,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En elev räknar \\(-4-3\\cdot(-5)\\) från vänster och skriver \\((-4-3)\\cdot(-5)=35\\). Vad är det huvudsakliga felet?</p>",
+    "t": "<p>En elev räknar \\(-4-3\\cdot(-5)\\) från vänster och skriver \\(-7\\cdot(-5)=35\\). Vad är det huvudsakliga felet?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikationen ska göras före subtraktionen</p><div class=\"facit-matte\">\\[3\\cdot(-5)=-15\\]</div></li><li><p class=\"facit-rubrik\">Att dra bort −15 är samma sak som att lägga till 15</p><div class=\"facit-matte\">\\[-4-(-15)=-4+15=11\\]</div></li><li><p class=\"facit-rubrik\">Elevens fel</p><p>Eleven räknade −4 − 3 först, som om det stod en parentes runt −4 − 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Multiplikationen ska göras före subtraktionen; korrekt värde är 11.</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
@@ -3249,8 +3263,8 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Mira säger: ”Mellan 0,4 och 0,41 finns inget decimaltal.” Ge ett motexempel. Beskriv sedan en metod som ger ett tal strikt mellan vilka två olika positiva decimaltal som helst och förklara varför metoden fungerar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Till exempel ligger 0,405 mellan 0,4 och 0,41.</p></li><li><p>För två tal a &lt; b kan man välja medelvärdet (a + b)/2.</p></li><li><p>Avståndet från a till medelvärdet och från medelvärdet till b är i båda fallen (b − a)/2, vilket är positivt.</p></li><li><p>Därför ligger talet strikt mellan a och b.</p></li><li><p>Samma metod kan upprepas i ett av de nya intervallen.</p></li><li><p>En förklaring med lika stora avstånd och egna beteckningar är också fullgod.</p></li><li><p>Om de två ursprungliga talen har ändliga decimalutvecklingar får även deras medelvärde en ändlig decimalutveckling: summan är ändlig och division med 2 kan högst kräva en extra decimalplats.</p></li></ol></div>",
+    "t": "<p>Mira säger: ”Mellan 0,4 och 0,41 finns inget decimaltal.” Ge ett motexempel. Beskriv sedan en metod som ger ett tal <strong>mellan</strong> vilka två olika positiva decimaltal som helst och förklara varför metoden fungerar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Till exempel ligger 0,405 mellan 0,4 och 0,41.</p></li><li><p>För två tal a &lt; b kan man välja medelvärdet (a + b)/2.</p></li><li><p>Avståndet från a till medelvärdet och från medelvärdet till b är i båda fallen (b − a)/2, vilket är positivt.</p></li><li><p>Därför ligger talet mellan a och b.</p></li><li><p>Samma metod kan upprepas i ett av de nya intervallen.</p></li><li><p>En förklaring med lika stora avstånd och egna beteckningar är också fullgod.</p></li><li><p>Om de två ursprungliga talen har ändliga decimalutvecklingar får även deras medelvärde en ändlig decimalutveckling: summan är ändlig och division med 2 kan högst kräva en extra decimalplats.</p></li></ol></div>",
     "familj": "Jämföra decimaltal och tallinjen",
     "geogebra": false,
     "miniräknare": false,
@@ -5123,7 +5137,7 @@ window.BANKMA1 = [
         "etikett": "c",
         "t": "<p>Fyll i den minsta siffran som gör olikheten sann.</p><p>1,20□ &gt; 1,205</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Siffrorna 6, 7, 8 och 9 fungerar.</p></li><li><p>Den minsta är 6.</p></li></ol></div>",
-        "ledtrad": "<p>Vilken tusendelssiffra ger först ett strikt större tal?</p>",
+        "ledtrad": "<p>Vilken tusendelssiffra ger först ett större tal?</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -5393,7 +5407,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Räkna bara siffror som ger strikt mindre. Vad händer om du sätter 4 i rutan?</p>",
+    "ledtrad": "<p>Räkna bara siffror som ger ett mindre tal. Vad händer om du sätter 4 i rutan?</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -5604,8 +5618,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Hur många heltal ligger strikt mellan −4 och 3?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv upp heltalen mellan −4 och 3</p><p>−3, −2, −1, 0, 1, 2</p></li><li><p class=\"facit-rubrik\">”Strikt mellan” betyder att ändpunkterna inte räknas</p><p>−4 och 3 är inte med.</p></li><li><p class=\"facit-rubrik\">Räkna talen</p><p>Det är 6 tal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
+    "t": "<p>Hur många heltal ligger <strong>mellan</strong> −4 och 3?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv upp heltalen mellan −4 och 3</p><p>−3, −2, −1, 0, 1, 2</p></li><li><p class=\"facit-rubrik\">”Mellan” betyder att ändpunkterna inte räknas</p><p>−4 och 3 är inte med.</p></li><li><p class=\"facit-rubrik\">Räkna talen</p><p>Det är 6 tal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
@@ -15667,7 +15681,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "t": "<p>En rektangulär lådas mått i centimeter är x, y och z, alla positiva. En elev hävdar att volymen i liter är xyz/100. Härled rätt formel på två olika sätt och förklara hur stort elevens fel blir. En ny längdenhet är k cm, där k &gt; 0. Bestäm för vilka k produkten av lådans tre talvärden i den nya längdenheten direkt ger volymens talvärde i liter. Motivera att du har hittat alla möjligheter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Första sättet: volymen är xyz cm³ och 1 l = 1 000 cm³, alltså V = xyz/1 000 liter.</p></li><li><p>Andra sättet: kantmåtten i dm är x/10, y/10 och z/10.</p></li><li><p>Produkten blir xyz/1 000 dm³, alltså samma antal liter.</p></li><li><p>Elevens värde xyz/100 är tio gånger det rätta för alla positiva x, y och z.</p></li><li><p>Felet är därmed en överskattning med 900 procent.</p></li><li><p>I den nya längdenheten är talvärdena x/k, y/k och z/k.</p></li><li><p>Produkten xyz/k³ ska vara xyz/1 000.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom xyz &gt; 0 krävs</p><div class=\"facit-matte\">\\[k^{3}=1\\,000\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">För positiva k växer k³ strikt, så den enda lösningen är</p><div class=\"facit-matte\">\\[k=10\\]</div></div></li><li><p>Enheten är alltså en decimeter.</p></li><li><p><strong>Kontrollera ditt resonemang:</strong> Har du två härledningar, rätt procentuellt fel och en förklaring till vilken längdenhet som ger liter direkt?</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Första sättet: volymen är xyz cm³ och 1 l = 1 000 cm³, alltså V = xyz/1 000 liter.</p></li><li><p>Andra sättet: kantmåtten i dm är x/10, y/10 och z/10.</p></li><li><p>Produkten blir xyz/1 000 dm³, alltså samma antal liter.</p></li><li><p>Elevens värde xyz/100 är tio gånger det rätta för alla positiva x, y och z.</p></li><li><p>Felet är därmed en överskattning med 900 procent.</p></li><li><p>I den nya längdenheten är talvärdena x/k, y/k och z/k.</p></li><li><p>Produkten xyz/k³ ska vara xyz/1 000.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Eftersom xyz &gt; 0 krävs</p><div class=\"facit-matte\">\\[k^{3}=1\\,000\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">För positiva k blir k³ större när k blir större, så den enda lösningen är</p><div class=\"facit-matte\">\\[k=10\\]</div></div></li><li><p>Enheten är alltså en decimeter.</p></li><li><p><strong>Kontrollera ditt resonemang:</strong> Har du två härledningar, rätt procentuellt fel och en förklaring till vilken längdenhet som ger liter direkt?</p></li></ol></div>",
     "ledtrad": "<p>Du kan antingen omvandla den färdiga volymen eller omvandla alla tre kantmåtten.</p>",
     "niva": "A",
     "poang": "0/0/3",
@@ -16781,7 +16795,7 @@ window.BANKMA1 = [
     "poang": "0/0/3",
     "familj": "Jämföra och ordna bråk",
     "t": "<p>En elev säger: ”Om man lägger samma positiva tal till täljaren och nämnaren blir bråket större.”</p><p>Undersök påståendet för \\(\\frac{a}{b}\\) och \\(\\frac{a+k}{b+k}\\), där \\(a\\), \\(b\\) och \\(k\\) är positiva tal. Beskriv exakt när värdet ökar, minskar eller är oförändrat.</p><p>En annan elev säger: ”Det nya värdet ligger alltid mellan det gamla värdet och 1.” Formulera ett korrekt påstående som också hanterar likhet, och bevisa det. Enstaka exempel räcker inte.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skillnaden är</p></li><li><p>\\[\\frac{a+k}{b+k}-\\frac{a}{b}=\\frac{k(b-a)}{b(b+k)}.\\]</p></li><li><p>Nämnaren och \\(k\\) är positiva.</p></li><li><p>Värdet ökar därför om \\(a&lt;b\\), minskar om \\(a&gt;b\\) och är oförändrat om \\(a=b\\).</p></li><li><p>Det första påståendet gäller alltså inte generellt.</p></li><li><p>Dessutom är</p></li><li><p>\\[\\frac{a+k}{b+k}-1=\\frac{a-b}{b+k}.\\]</p></li><li><p>Det nya värdet ligger på samma sida om 1 som det gamla.</p></li><li><p>Tillsammans med skillnaden ovan ger det:</p></li><li><p>Om \\(a&lt;b\\): \\(\\frac{a}{b}&lt;\\frac{a+k}{b+k}&lt;1\\).<br>Om \\(a&gt;b\\): \\(1&lt;\\frac{a+k}{b+k}&lt;\\frac{a}{b}\\).<br>Om \\(a=b\\) är båda värdena 1.</p></li><li><p>Det nya värdet ligger alltså strikt mellan det gamla värdet och 1 när \\(a\\ne b\\).</p></li><li><p>När \\(a=b\\) är alla tre lika.</p></li><li><p><strong>Kontrollera ditt resonemang:</strong> Har du bevisat båda jämförelserna och skiljt mellan alla tre fallen?</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skillnaden är</p></li><li><p>\\[\\frac{a+k}{b+k}-\\frac{a}{b}=\\frac{k(b-a)}{b(b+k)}.\\]</p></li><li><p>Nämnaren och \\(k\\) är positiva.</p></li><li><p>Värdet ökar därför om \\(a&lt;b\\), minskar om \\(a&gt;b\\) och är oförändrat om \\(a=b\\).</p></li><li><p>Det första påståendet gäller alltså inte generellt.</p></li><li><p>Dessutom är</p></li><li><p>\\[\\frac{a+k}{b+k}-1=\\frac{a-b}{b+k}.\\]</p></li><li><p>Det nya värdet ligger på samma sida om 1 som det gamla.</p></li><li><p>Tillsammans med skillnaden ovan ger det:</p></li><li><p>Om \\(a&lt;b\\): \\(\\frac{a}{b}&lt;\\frac{a+k}{b+k}&lt;1\\).<br>Om \\(a&gt;b\\): \\(1&lt;\\frac{a+k}{b+k}&lt;\\frac{a}{b}\\).<br>Om \\(a=b\\) är båda värdena 1.</p></li><li><p>Det nya värdet ligger alltså mellan det gamla värdet och 1 när \\(a\\ne b\\).</p></li><li><p>När \\(a=b\\) är alla tre lika.</p></li><li><p><strong>Kontrollera ditt resonemang:</strong> Har du bevisat båda jämförelserna och skiljt mellan alla tre fallen?</p></li></ol></div>",
     "ledtrad": "<p>Vilka två skillnader behöver du undersöka för att jämföra det nya värdet med både det gamla värdet och 1?</p>",
     "geogebra": false,
     "miniräknare": false,
@@ -28536,7 +28550,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Vilka två av talen −2, 0, 5 och 7 uppfyller \\(-2&lt;x\\le5\\)? Ange dem i storleksordning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>0 och 5 uppfyller båda gränserna.</p></li><li><p>−2 utesluts av det strikta tecknet och 7 är för stort.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>0 och 5 uppfyller båda gränserna.</p></li><li><p>−2 utesluts eftersom tecknet vid −2 är &lt; och inte ≤, och 7 är för stort.</p></li></ol></div>",
     "ledtrad": "<p>Pröva även talen som ligger exakt på en gräns.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -28660,7 +28674,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Intervall och gränser"
     ],
-    "alternativ": [{"txt": "Varken −20 °C eller 50 °C är tillåtet.", "ratt": false, "kommentar": "Tecknet ≤ betyder att 50 ingår i intervallet."}, {"txt": "Både −20 °C och 50 °C är tillåtet.", "ratt": false, "kommentar": "−20 ingår inte eftersom tecknet där är strikt mindre än."}, {"txt": "−20 °C är tillåtet men inte 50 °C.", "ratt": false, "kommentar": "−20 ingår inte, men 50 ingår eftersom tecknet där är ≤."}, {"txt": "50 °C är tillåtet men inte −20 °C.", "ratt": true}]
+    "alternativ": [{"txt": "Varken −20 °C eller 50 °C är tillåtet.", "ratt": false, "kommentar": "Tecknet ≤ betyder att 50 ingår i intervallet."}, {"txt": "Både −20 °C och 50 °C är tillåtet.", "ratt": false, "kommentar": "−20 ingår inte eftersom tecknet där är &lt; och inte ≤."}, {"txt": "−20 °C är tillåtet men inte 50 °C.", "ratt": false, "kommentar": "−20 ingår inte, men 50 ingår eftersom tecknet där är ≤."}, {"txt": "50 °C är tillåtet men inte −20 °C.", "ratt": true}]
   },
   {
     "id": "1.122",
@@ -32345,7 +32359,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>x är större än 2 men högst 7. Svara med olikhetstecken.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det strikta villkoret gäller vid 2 och likhet tillåts vid 7: \\(2&lt;x\\le7\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>2 ingår inte men 7 ingår: \\(2&lt;x\\le7\\).</p></li></ol></div>",
     "ledtrad": "<p>Vilket av orden större än och högst utesluter gränsen?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -35846,7 +35860,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Ett tal x uppfyller \\(2\\le x\\le7\\) men får inte uppfylla \\(3&lt;x&lt;5\\). Beskriv alla tillåtna x med olikheter och förklara vad som händer med 3 och 5.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det förbjudna området utesluter bara tal strikt mellan 3 och 5.</p></li><li><p>Kvar är 2 ≤ x ≤ 3 eller 5 ≤ x ≤ 7.</p></li><li><p>Både 3 och 5 är tillåtna, eftersom inget av dem uppfyller 3 &lt; x &lt; 5.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det förbjudna området utesluter bara tal mellan 3 och 5.</p></li><li><p>Kvar är 2 ≤ x ≤ 3 eller 5 ≤ x ≤ 7.</p></li><li><p>Både 3 och 5 är tillåtna, eftersom inget av dem uppfyller 3 &lt; x &lt; 5.</p></li></ol></div>",
     "ledtrad": "<p>Ingår gränserna i det område som ska tas bort?</p>",
     "niva": "C",
     "poang": "0/2/0",
@@ -52807,7 +52821,7 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>De två linjerna</p><p>\\[L_a:\\quad y=(a+1)x-2\\qquad M_a:\\quad y=(3-a)x-10\\]</p><p>beror på talet \\(a\\).</p><p>Bestäm alla värden på \\(a\\) som gör att linjernas skärningspunkt ligger strikt i första kvadranten.</p>",
+    "t": "<p>De två linjerna</p><p>\\[L_a:\\quad y=(a+1)x-2\\qquad M_a:\\quad y=(3-a)x-10\\]</p><p>beror på talet \\(a\\).</p><p>Bestäm alla värden på \\(a\\) som gör att linjernas skärningspunkt ligger i första kvadranten och inte på någon av axlarna.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> I skärningspunkten gäller</p></li><li><p>\\[(a+1)x-2=(3-a)x-10.\\]</p></li><li><p>Det ger \\(2(a-1)x=-8\\), alltså</p></li><li><p>\\[x=\\frac{4}{1-a}.\\]</p></li><li><p>För \\(x&gt;0\\) krävs \\(a&lt;1\\).</p></li><li><p>När \\(a=1\\) är linjerna parallella och skär inte varandra.</p></li><li><p>Sätt x-uttrycket i \\(L_a\\):</p></li><li><p>\\[y=(a+1)\\frac{4}{1-a}-2=\\frac{6a+2}{1-a}.\\]</p></li><li><p>När \\(a&lt;1\\) är nämnaren positiv.</p></li><li><p>Då är \\(y&gt;0\\) precis när \\(6a+2&gt;0\\), alltså när \\(a&gt;-\\frac13\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(-\\frac13&lt;a&lt;1\\)</strong></p></div></div>",
     "familj": "Linje genom punkt med givet k-värde",
     "geogebra": false,
@@ -52820,7 +52834,7 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Bestäm skärningspunktens x- och y-koordinat i termer av \\(a\\). “Strikt i första kvadranten” betyder att båda ska vara större än 0; behandla även fallet då linjerna är parallella.</p>",
+    "ledtrad": "<p>Bestäm skärningspunktens x- och y-koordinat i termer av \\(a\\). “I första kvadranten och inte på axlarna” betyder att båda ska vara större än 0; behandla även fallet då linjerna är parallella.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": true,
@@ -64900,7 +64914,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Lös ekvationen \\(3\\cdot 9^x=27^{x-1}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv potenserna med samma bas</p><p>Eftersom \\(9=3^2\\) och \\(27=3^3\\) kan båda leden skrivas med basen 3:</p><div class=\"facit-matte\">\\[3\\cdot9^x=3^1\\cdot(3^2)^x=3^{1+2x}.\\]</div><div class=\"facit-matte\">\\[27^{x-1}=(3^3)^{x-1}=3^{3x-3}.\\]</div></li><li><p class=\"facit-rubrik\">Jämför exponenterna</p><p>Potensfunktionen \\(3^u\\) är strikt växande. Lika potensvärden måste därför ha lika exponenter:</p><div class=\"facit-matte\">\\[1+2x=3x-3.\\]</div></li><li><p class=\"facit-rubrik\">Lös ekvationen</p><div class=\"facit-matte\">\\[1=x-3\\quad\\Rightarrow\\quad x=4.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv potenserna med samma bas</p><p>Eftersom \\(9=3^2\\) och \\(27=3^3\\) kan båda leden skrivas med basen 3:</p><div class=\"facit-matte\">\\[3\\cdot9^x=3^1\\cdot(3^2)^x=3^{1+2x}.\\]</div><div class=\"facit-matte\">\\[27^{x-1}=(3^3)^{x-1}=3^{3x-3}.\\]</div></li><li><p class=\"facit-rubrik\">Jämför exponenterna</p><p>Potensfunktionen \\(3^u\\) blir alltid större när u blir större. Lika potensvärden måste därför ha lika exponenter:</p><div class=\"facit-matte\">\\[1+2x=3x-3.\\]</div></li><li><p class=\"facit-rubrik\">Lös ekvationen</p><div class=\"facit-matte\">\\[1=x-3\\quad\\Rightarrow\\quad x=4.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\).</p></div>",
     "familj": "Ekvationer med okänd exponent",
     "geogebra": false,
     "miniräknare": false,
@@ -124880,7 +124894,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Tre delar ska tillsammans bli 500,0 mm. Del A är \\(180{,}0\\pm0{,}3\\) mm och del B \\(145{,}0\\pm0{,}2\\) mm. Del C ska väljas så att totalsumman garanterat ligger inom \\(500{,}0\\pm0{,}5\\) mm.</p><p>Vilket målvärde bör C ha och hur stor får dess felmarginal högst vara i värsta fall?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Målvärdet för C måste vara 500−180−145 = <strong>175,0 mm</strong>.</p></li><li><p>A och B kan tillsammans redan avvika 0,3+0,2 = 0,5 mm, alltså hela den tillåtna totalavvikelsen.</p></li><li><p>För en strikt värsta-fall-garanti återstår därför <strong>0 mm tolerans</strong> för C.</p></li><li><p>Det visar att specifikationen inte lämnar någon realistisk tillverkningstolerans för C.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Målvärdet för C måste vara 500−180−145 = <strong>175,0 mm</strong>.</p></li><li><p>A och B kan tillsammans redan avvika 0,3+0,2 = 0,5 mm, alltså hela den tillåtna totalavvikelsen.</p></li><li><p>För att summan garanterat ska hålla även i värsta fall återstår därför <strong>0 mm tolerans</strong> för C.</p></li><li><p>Det visar att specifikationen inte lämnar någon realistisk tillverkningstolerans för C.</p></li></ol></div>",
     "familj": "Mätvärde och osäkerhetsintervall",
     "geogebra": false,
     "miniräknare": true,
@@ -144175,7 +144189,7 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "1/0/0",
   "t": "<p>Ge ett bråktal som är större än \\(\\frac{1}{4}\\) och mindre än \\(\\frac{1}{2}\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv gränserna med samma nämnare och välj ett tal mellan dem. Ett möjligt val är \\(\\frac{1}{3}\\). Med nämnaren 12 ser vi att</p>\\[\\frac{3}{12}<\\frac{4}{12}<\\frac{6}{12}\\]<p>Andra tal strikt mellan gränserna är också rätt.</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\(\\frac{1}{3}\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv gränserna med samma nämnare och välj ett tal mellan dem. Ett möjligt val är \\(\\frac{1}{3}\\). Med nämnaren 12 ser vi att</p>\\[\\frac{3}{12}<\\frac{4}{12}<\\frac{6}{12}\\]<p>Andra tal mellan gränserna är också rätt.</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\(\\frac{1}{3}\\).</p></div>",
   "familj": "Jämföra och välja bråktal",
   "formaga": [
     "begrepp",
@@ -144214,7 +144228,7 @@ window.BANKMA1 = [
   "niva": "C",
   "poang": "0/2/0",
   "t": "<p>Ge ett bråktal som är större än \\(\\frac{5}{6}\\) och mindre än \\(\\frac{7}{8}\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv gränserna med samma nämnare och välj ett tal mellan dem. Ett möjligt val är \\(\\frac{41}{48}\\). Med nämnaren 48 ser vi att</p>\\[\\frac{40}{48}<\\frac{41}{48}<\\frac{42}{48}\\]<p>Andra tal strikt mellan gränserna är också rätt.</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\(\\frac{41}{48}\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv gränserna med samma nämnare och välj ett tal mellan dem. Ett möjligt val är \\(\\frac{41}{48}\\). Med nämnaren 48 ser vi att</p>\\[\\frac{40}{48}<\\frac{41}{48}<\\frac{42}{48}\\]<p>Andra tal mellan gränserna är också rätt.</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\(\\frac{41}{48}\\).</p></div>",
   "familj": "Jämföra och välja bråktal",
   "formaga": [
     "begrepp",
@@ -173996,5 +174010,4968 @@ window.BANKMA1 = [
   "t": "<p>Beräkna det hela.</p><div class=\"deluppgifter\"><p>a) \\(5\\,\\%\\) av ett tal är \\(35\\). Vilket är talet?</p><p>b) \\(40\\,\\%\\) av ett tal är \\(180\\). Vilket är talet?</p><p>c) \\(60\\,\\%\\) av ett tal är \\(156\\). Vilket är talet?</p></div>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[5\\,\\%=0{,}05\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{35}{0{,}05}=700\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}05\\cdot700=35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(700\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[40\\,\\%=0{,}4\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{180}{0{,}4}=450\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}4\\cdot450=180\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[60\\,\\%=0{,}6\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{156}{0{,}6}=260\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}6\\cdot260=156\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(260\\).</p></div></div></div>",
   "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>"
-}
+},
+  {
+    "id": "0.1302",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-6+4\\)</div><div>b) \\(3-9\\)</div><div>c) \\(-5-8+2\\)</div><div>d) \\(-12-(-7)+4\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera: \\(-6+4=-2\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera: \\(3-9=-6\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-6\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addition och subtraktion från vänster: \\(-5-8=-13\\)</p><div class=\"facit-matte\">\\[-13+2\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-13+2=-11\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-11\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(-12-(-7)=-12+7=-5\\)</p><div class=\"facit-matte\">\\[-5+4\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-5+4=-1\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div></div>",
+    "familj": "Addition och subtraktion med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      -2,
+      -6,
+      -11,
+      -1
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-6+4\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera: \\(-6+4=-2\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div>",
+        "ledtrad": "<p>Börja på \\(-6\\) på tallinjen och gå 4 steg åt höger.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(3-9\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera: \\(3-9=-6\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-6\\)</p></div>",
+        "ledtrad": "<p>Börja på \\(3\\) på tallinjen och gå 9 steg åt vänster.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-5-8+2\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addition och subtraktion från vänster: \\(-5-8=-13\\)</p><div class=\"facit-matte\">\\[-13+2\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-13+2=-11\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-11\\)</p></div>",
+        "ledtrad": "<p>Räkna från vänster till höger, ett steg i taget.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-12-(-7)+4\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(-12-(-7)=-12+7=-5\\)</p><div class=\"facit-matte\">\\[-5+4\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-5+4=-1\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
+        "ledtrad": "<p>Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Börja på \\(-6\\) på tallinjen och gå 4 steg åt höger.</p><p><strong>b)</strong> Börja på \\(3\\) på tallinjen och gå 9 steg åt vänster.</p><p><strong>c)</strong> Räkna från vänster till höger, ett steg i taget.</p><p><strong>d)</strong> Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1303",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-7+10\\)</div><div>b) \\(-4-6\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera: \\(-7+10=3\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera: \\(-4-6=-10\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-10\\)</p></div></div>",
+    "familj": "Addition och subtraktion med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      3,
+      -10
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-7+10\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera: \\(-7+10=3\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\)</p></div>",
+        "ledtrad": "<p>Börja på \\(-7\\) på tallinjen och gå 10 steg åt höger.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-4-6\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera: \\(-4-6=-10\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-10\\)</p></div>",
+        "ledtrad": "<p>Börja på \\(-4\\) på tallinjen och gå 6 steg åt vänster.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Börja på \\(-7\\) på tallinjen och gå 10 steg åt höger.</p><p><strong>b)</strong> Börja på \\(-4\\) på tallinjen och gå 6 steg åt vänster.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1304",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(-15+(-6)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus: \\(-15+(-6)=-15-6=-21\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-21\\)</p></div>",
+    "familj": "Addition och subtraktion med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": -21,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Att addera ett negativt tal är samma sak som att subtrahera motsvarande positiva tal.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1305",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(8-13\\)</div><div>b) \\(-9+(-4)\\)</div><div>c) \\(6-(-11)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera: \\(8-13=-5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus: \\(-9+(-4)=-9-4=-13\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-13\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(6-(-11)=6+11=17\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\)</p></div></div>",
+    "familj": "Addition och subtraktion med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      -5,
+      -13,
+      17
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(8-13\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera: \\(8-13=-5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div>",
+        "ledtrad": "<p>Börja på \\(8\\) på tallinjen och gå 13 steg åt vänster.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-9+(-4)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus: \\(-9+(-4)=-9-4=-13\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-13\\)</p></div>",
+        "ledtrad": "<p>Att addera ett negativt tal är samma sak som att subtrahera motsvarande positiva tal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(6-(-11)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(6-(-11)=6+11=17\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\)</p></div>",
+        "ledtrad": "<p>Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Börja på \\(8\\) på tallinjen och gå 13 steg åt vänster.</p><p><strong>b)</strong> Att addera ett negativt tal är samma sak som att subtrahera motsvarande positiva tal.</p><p><strong>c)</strong> Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1306",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(-3-(-8)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(-3-(-8)=-3+8=5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\)</p></div>",
+    "familj": "Addition och subtraktion med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1307",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-20+35\\)</div><div>b) \\(14-30\\)</div><div>c) \\(-25-(-40)\\)</div><div>d) \\(-18+(-7)-(-30)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera: \\(-20+35=15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera: \\(14-30=-16\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-16\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(-25-(-40)=-25+40=15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus: \\(-18+(-7)=-18-7=-25\\)</p><div class=\"facit-matte\">\\[-25-(-30)\\]</div></li><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(-25-(-30)=-25+30=5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\)</p></div></div>",
+    "familj": "Addition och subtraktion med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      15,
+      -16,
+      15,
+      5
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-20+35\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera: \\(-20+35=15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div>",
+        "ledtrad": "<p>Börja på \\(-20\\) på tallinjen och gå 35 steg åt höger.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(14-30\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera: \\(14-30=-16\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-16\\)</p></div>",
+        "ledtrad": "<p>Börja på \\(14\\) på tallinjen och gå 30 steg åt vänster.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-25-(-40)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(-25-(-40)=-25+40=15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div>",
+        "ledtrad": "<p>Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-18+(-7)-(-30)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus: \\(-18+(-7)=-18-7=-25\\)</p><div class=\"facit-matte\">\\[-25-(-30)\\]</div></li><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(-25-(-30)=-25+30=5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\)</p></div>",
+        "ledtrad": "<p>Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Börja på \\(-20\\) på tallinjen och gå 35 steg åt höger.</p><p><strong>b)</strong> Börja på \\(14\\) på tallinjen och gå 30 steg åt vänster.</p><p><strong>c)</strong> Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p><p><strong>d)</strong> Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1308",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-11+4-9\\)</div><div>b) \\(7-(-3)-15\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addition och subtraktion från vänster: \\(-11+4=-7\\)</p><div class=\"facit-matte\">\\[-7-9\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(-7-9=-16\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-16\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(7-(-3)=7+3=10\\)</p><div class=\"facit-matte\">\\[10-15\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(10-15=-5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div></div>",
+    "familj": "Addition och subtraktion med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      -16,
+      -5
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-11+4-9\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addition och subtraktion från vänster: \\(-11+4=-7\\)</p><div class=\"facit-matte\">\\[-7-9\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(-7-9=-16\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-16\\)</p></div>",
+        "ledtrad": "<p>Räkna från vänster till höger, ett steg i taget.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(7-(-3)-15\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(7-(-3)=7+3=10\\)</p><div class=\"facit-matte\">\\[10-15\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(10-15=-5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div>",
+        "ledtrad": "<p>Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Räkna från vänster till höger, ett steg i taget.</p><p><strong>b)</strong> Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1309",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-100+45\\)</div><div>b) \\(-60-(-25)\\)</div><div>c) \\(-38+(-17)+50\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera: \\(-100+45=-55\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-55\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(-60-(-25)=-60+25=-35\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-35\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus: \\(-38+(-17)=-38-17=-55\\)</p><div class=\"facit-matte\">\\[-55+50\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-55+50=-5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div></div>",
+    "familj": "Addition och subtraktion med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      -55,
+      -35,
+      -5
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-100+45\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera: \\(-100+45=-55\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-55\\)</p></div>",
+        "ledtrad": "<p>Börja på \\(-100\\) på tallinjen och gå 45 steg åt höger.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-60-(-25)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(-60-(-25)=-60+25=-35\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-35\\)</p></div>",
+        "ledtrad": "<p>Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-38+(-17)+50\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus: \\(-38+(-17)=-38-17=-55\\)</p><div class=\"facit-matte\">\\[-55+50\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-55+50=-5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div>",
+        "ledtrad": "<p>Att addera ett negativt tal är samma sak som att subtrahera motsvarande positiva tal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Börja på \\(-100\\) på tallinjen och gå 45 steg åt höger.</p><p><strong>b)</strong> Att subtrahera ett negativt tal är samma sak som att addera motsvarande positiva tal.</p><p><strong>c)</strong> Att addera ett negativt tal är samma sak som att subtrahera motsvarande positiva tal.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1310",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-4\\cdot 6\\)</div><div>b) \\(-7\\cdot (-3)\\)</div><div>c) \\(-36\\div (-4)\\)</div><div>d) \\(-2\\cdot (-5)\\cdot (-3)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(-4\\cdot 6=-24\\) (olika tecken ger minus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-24\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(-7\\cdot (-3)=21\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera: \\(-36\\div (-4)=9\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(-2\\cdot (-5)=10\\) (samma tecken ger plus)</p><div class=\"facit-matte\">\\[10\\cdot (-3)\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(10\\cdot (-3)=-30\\) (olika tecken ger minus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-30\\)</p></div></div>",
+    "familj": "Beräkna med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      -24,
+      21,
+      9,
+      -30
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-4\\cdot 6\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(-4\\cdot 6=-24\\) (olika tecken ger minus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-24\\)</p></div>",
+        "ledtrad": "<p>Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-7\\cdot (-3)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(-7\\cdot (-3)=21\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\)</p></div>",
+        "ledtrad": "<p>Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-36\\div (-4)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera: \\(-36\\div (-4)=9\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\)</p></div>",
+        "ledtrad": "<p>Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-2\\cdot (-5)\\cdot (-3)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(-2\\cdot (-5)=10\\) (samma tecken ger plus)</p><div class=\"facit-matte\">\\[10\\cdot (-3)\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(10\\cdot (-3)=-30\\) (olika tecken ger minus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-30\\)</p></div>",
+        "ledtrad": "<p>Räkna två tal i taget från vänster. Samma tecken ger plus och olika tecken ger minus.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p><p><strong>b)</strong> Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p><p><strong>c)</strong> Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p><p><strong>d)</strong> Räkna två tal i taget från vänster. Samma tecken ger plus och olika tecken ger minus.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1311",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(-48\\div 6\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera: \\(-48\\div 6=-8\\) (olika tecken ger minus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-8\\)</p></div>",
+    "familj": "Beräkna med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": -8,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1312",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(5\\cdot (-8)\\)</div><div>b) \\(-63\\div (-9)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(5\\cdot (-8)=-40\\) (olika tecken ger minus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-40\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera: \\(-63\\div (-9)=7\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\)</p></div></div>",
+    "familj": "Beräkna med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      -40,
+      7
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(5\\cdot (-8)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(5\\cdot (-8)=-40\\) (olika tecken ger minus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-40\\)</p></div>",
+        "ledtrad": "<p>Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-63\\div (-9)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera: \\(-63\\div (-9)=7\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\)</p></div>",
+        "ledtrad": "<p>Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1313",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-9\\cdot (-9)\\)</div><div>b) \\(-72\\div 8\\)</div><div>c) \\(-4\\cdot (-2)\\cdot (-5)\\cdot (-1)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(-9\\cdot (-9)=81\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(81\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera: \\(-72\\div 8=-9\\) (olika tecken ger minus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-9\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(-4\\cdot (-2)=8\\) (samma tecken ger plus)</p><div class=\"facit-matte\">\\[8\\cdot (-5)\\cdot (-1)\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(8\\cdot (-5)=-40\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[-40\\cdot (-1)\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(-40\\cdot (-1)=40\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\)</p></div></div>",
+    "familj": "Beräkna med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      81,
+      -9,
+      40
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-9\\cdot (-9)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(-9\\cdot (-9)=81\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(81\\)</p></div>",
+        "ledtrad": "<p>Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-72\\div 8\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera: \\(-72\\div 8=-9\\) (olika tecken ger minus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-9\\)</p></div>",
+        "ledtrad": "<p>Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-4\\cdot (-2)\\cdot (-5)\\cdot (-1)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(-4\\cdot (-2)=8\\) (samma tecken ger plus)</p><div class=\"facit-matte\">\\[8\\cdot (-5)\\cdot (-1)\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(8\\cdot (-5)=-40\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[-40\\cdot (-1)\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(-40\\cdot (-1)=40\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\)</p></div>",
+        "ledtrad": "<p>Räkna två tal i taget från vänster. Samma tecken ger plus och olika tecken ger minus.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p><p><strong>b)</strong> Räkna först utan tecken. Samma tecken ger plus och olika tecken ger minus.</p><p><strong>c)</strong> Räkna två tal i taget från vänster. Samma tecken ger plus och olika tecken ger minus.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1314",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((-6)^2\\)</div><div>b) \\(-6^2\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen först: \\((-6)^{2}=(-6)\\cdot (-6)=36\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen först, minustecknet står utanför: \\(-6^{2}=-(6^{2})=-36\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-36\\)</p></div></div>",
+    "familj": "Beräkna med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      36,
+      -36
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((-6)^2\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen först: \\((-6)^{2}=(-6)\\cdot (-6)=36\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\)</p></div>",
+        "ledtrad": "<p>Parentesen visar att hela \\(-6\\) ska upphöjas. Skriv potensen som en multiplikation och håll koll på tecknet.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-6^2\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen först, minustecknet står utanför: \\(-6^{2}=-(6^{2})=-36\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-36\\)</p></div>",
+        "ledtrad": "<p>Står minustecknet innanför eller utanför potensen? Potensen räknas före minustecknet.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Parentesen visar att hela \\(-6\\) ska upphöjas. Skriv potensen som en multiplikation och håll koll på tecknet.</p><p><strong>b)</strong> Står minustecknet innanför eller utanför potensen? Potensen räknas före minustecknet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1315",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-3\\cdot 4+10\\)</div><div>b) \\(-20\\div (-5)-7\\)</div><div>c) \\(6-4\\cdot (-3)\\)</div><div>d) \\(-2\\cdot (-3)^2+12\\div (-4)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(-3\\cdot 4=-12\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[-12+10\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-12+10=-2\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division före subtraktion: \\(-20\\div (-5)=4\\) (samma tecken ger plus)</p><div class=\"facit-matte\">\\[4-7\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(4-7=-3\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(4\\cdot (-3)=-12\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[6-(-12)\\]</div></li><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(6-(-12)=6+12=18\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen först: \\((-3)^{2}=(-3)\\cdot (-3)=9\\)</p><div class=\"facit-matte\">\\[-2\\cdot 9+12\\div (-4)\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(-2\\cdot 9=-18\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[-18+12\\div (-4)\\]</div></li><li><p class=\"facit-rubrik\">Division före addition: \\(12\\div (-4)=-3\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[-18+(-3)\\]</div></li><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus: \\(-18+(-3)=-18-3=-21\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-21\\)</p></div></div>",
+    "familj": "Beräkna med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      -2,
+      -3,
+      18,
+      -21
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-3\\cdot 4+10\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(-3\\cdot 4=-12\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[-12+10\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-12+10=-2\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div>",
+        "ledtrad": "<p>Vilken räkneoperation ska göras först: multiplikation eller addition?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-20\\div (-5)-7\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division före subtraktion: \\(-20\\div (-5)=4\\) (samma tecken ger plus)</p><div class=\"facit-matte\">\\[4-7\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(4-7=-3\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\)</p></div>",
+        "ledtrad": "<p>Vilken räkneoperation ska göras först: division eller subtraktion?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(6-4\\cdot (-3)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(4\\cdot (-3)=-12\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[6-(-12)\\]</div></li><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(6-(-12)=6+12=18\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\)</p></div>",
+        "ledtrad": "<p>Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-2\\cdot (-3)^2+12\\div (-4)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen först: \\((-3)^{2}=(-3)\\cdot (-3)=9\\)</p><div class=\"facit-matte\">\\[-2\\cdot 9+12\\div (-4)\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(-2\\cdot 9=-18\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[-18+12\\div (-4)\\]</div></li><li><p class=\"facit-rubrik\">Division före addition: \\(12\\div (-4)=-3\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[-18+(-3)\\]</div></li><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus: \\(-18+(-3)=-18-3=-21\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-21\\)</p></div>",
+        "ledtrad": "<p>Parentesen visar att hela \\(-3\\) ska upphöjas. Skriv potensen som en multiplikation och håll koll på tecknet.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilken räkneoperation ska göras först: multiplikation eller addition?</p><p><strong>b)</strong> Vilken räkneoperation ska göras först: division eller subtraktion?</p><p><strong>c)</strong> Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p><p><strong>d)</strong> Parentesen visar att hela \\(-3\\) ska upphöjas. Skriv potensen som en multiplikation och håll koll på tecknet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1316",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\((-2)^3\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen först: \\((-2)^{3}=(-2)\\cdot (-2)\\cdot (-2)=-8\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-8\\)</p></div>",
+    "familj": "Beräkna med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": -8,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Parentesen visar att hela \\(-2\\) ska upphöjas. Skriv potensen som en multiplikation och håll koll på tecknet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1317",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-5\\cdot (-4)-30\\)</div><div>b) \\((-8+2)\\cdot (-3)\\)</div><div>c) \\(-24\\div (3-9)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(-5\\cdot (-4)=20\\) (samma tecken ger plus)</p><div class=\"facit-matte\">\\[20-30\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(20-30=-10\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-10\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(-8+2=-6\\)</p><div class=\"facit-matte\">\\[-6\\cdot (-3)\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(-6\\cdot (-3)=18\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(3-9=-6\\)</p><div class=\"facit-matte\">\\[-24\\div (-6)\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(-24\\div (-6)=4\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div></div>",
+    "familj": "Beräkna med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      -10,
+      18,
+      4
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-5\\cdot (-4)-30\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(-5\\cdot (-4)=20\\) (samma tecken ger plus)</p><div class=\"facit-matte\">\\[20-30\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(20-30=-10\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-10\\)</p></div>",
+        "ledtrad": "<p>Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((-8+2)\\cdot (-3)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(-8+2=-6\\)</p><div class=\"facit-matte\">\\[-6\\cdot (-3)\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(-6\\cdot (-3)=18\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\)</p></div>",
+        "ledtrad": "<p>Börja med det som står inom parentes.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-24\\div (3-9)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(3-9=-6\\)</p><div class=\"facit-matte\">\\[-24\\div (-6)\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(-24\\div (-6)=4\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div>",
+        "ledtrad": "<p>Börja med det som står inom parentes.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p><p><strong>b)</strong> Börja med det som står inom parentes.</p><p><strong>c)</strong> Börja med det som står inom parentes.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1318",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(4+3\\cdot 5\\)</div><div>b) \\(20-12\\div 4\\)</div><div>c) \\((4+3)\\cdot 5\\)</div><div>d) \\(18\\div (2+4)-1\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(3\\cdot 5=15\\)</p><div class=\"facit-matte\">\\[4+15\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(4+15=19\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(19\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division före subtraktion: \\(12\\div 4=3\\)</p><div class=\"facit-matte\">\\[20-3\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(20-3=17\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(4+3=7\\)</p><div class=\"facit-matte\">\\[7\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(7\\cdot 5=35\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(2+4=6\\)</p><div class=\"facit-matte\">\\[18\\div 6-1\\]</div></li><li><p class=\"facit-rubrik\">Division före subtraktion: \\(18\\div 6=3\\)</p><div class=\"facit-matte\">\\[3-1\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(3-1=2\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div></div>",
+    "familj": "Prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      19,
+      17,
+      35,
+      2
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(4+3\\cdot 5\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(3\\cdot 5=15\\)</p><div class=\"facit-matte\">\\[4+15\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(4+15=19\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(19\\)</p></div>",
+        "ledtrad": "<p>Vilken räkneoperation ska göras först: multiplikation eller addition?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(20-12\\div 4\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division före subtraktion: \\(12\\div 4=3\\)</p><div class=\"facit-matte\">\\[20-3\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(20-3=17\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\)</p></div>",
+        "ledtrad": "<p>Vilken räkneoperation ska göras först: division eller subtraktion?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((4+3)\\cdot 5\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(4+3=7\\)</p><div class=\"facit-matte\">\\[7\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(7\\cdot 5=35\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\)</p></div>",
+        "ledtrad": "<p>Börja med det som står inom parentes.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(18\\div (2+4)-1\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(2+4=6\\)</p><div class=\"facit-matte\">\\[18\\div 6-1\\]</div></li><li><p class=\"facit-rubrik\">Division före subtraktion: \\(18\\div 6=3\\)</p><div class=\"facit-matte\">\\[3-1\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(3-1=2\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div>",
+        "ledtrad": "<p>Börja med det som står inom parentes.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilken räkneoperation ska göras först: multiplikation eller addition?</p><p><strong>b)</strong> Vilken räkneoperation ska göras först: division eller subtraktion?</p><p><strong>c)</strong> Börja med det som står inom parentes.</p><p><strong>d)</strong> Börja med det som står inom parentes.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1319",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(7+2\\cdot 8-5\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(2\\cdot 8=16\\)</p><div class=\"facit-matte\">\\[7+16-5\\]</div></li><li><p class=\"facit-rubrik\">Addition och subtraktion från vänster: \\(7+16=23\\)</p><div class=\"facit-matte\">\\[23-5\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(23-5=18\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\)</p></div>",
+    "familj": "Prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken räkneoperation ska göras först: multiplikation eller addition?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1320",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(30-4\\cdot 6\\)</div><div>b) \\((30-4)\\cdot 6\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(4\\cdot 6=24\\)</p><div class=\"facit-matte\">\\[30-24\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(30-24=6\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(30-4=26\\)</p><div class=\"facit-matte\">\\[26\\cdot 6\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(26\\cdot 6=156\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(156\\)</p></div></div>",
+    "familj": "Prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      6,
+      156
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(30-4\\cdot 6\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(4\\cdot 6=24\\)</p><div class=\"facit-matte\">\\[30-24\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(30-24=6\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\)</p></div>",
+        "ledtrad": "<p>Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((30-4)\\cdot 6\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(30-4=26\\)</p><div class=\"facit-matte\">\\[26\\cdot 6\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(26\\cdot 6=156\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(156\\)</p></div>",
+        "ledtrad": "<p>Börja med det som står inom parentes.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p><p><strong>b)</strong> Börja med det som står inom parentes.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1321",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2^3+4\\)</div><div>b) \\(3\\cdot 2^2\\)</div><div>c) \\((5-2)^2\\cdot 4\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen först: \\(2^{3}=2\\cdot 2\\cdot 2=8\\)</p><div class=\"facit-matte\">\\[8+4\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(8+4=12\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen först: \\(2^{2}=2\\cdot 2=4\\)</p><div class=\"facit-matte\">\\[3\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(3\\cdot 4=12\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(5-2=3\\)</p><div class=\"facit-matte\">\\[3^2\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Potensen först: \\(3^{2}=3\\cdot 3=9\\)</p><div class=\"facit-matte\">\\[9\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(9\\cdot 4=36\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\)</p></div></div>",
+    "familj": "Prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      12,
+      12,
+      36
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(2^3+4\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen först: \\(2^{3}=2\\cdot 2\\cdot 2=8\\)</p><div class=\"facit-matte\">\\[8+4\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(8+4=12\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\)</p></div>",
+        "ledtrad": "<p>Räkna ut potensen först: \\(2^{3}=2\\cdot 2\\cdot 2\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(3\\cdot 2^2\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensen först: \\(2^{2}=2\\cdot 2=4\\)</p><div class=\"facit-matte\">\\[3\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(3\\cdot 4=12\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\)</p></div>",
+        "ledtrad": "<p>Räkna ut potensen först: \\(2^{2}=2\\cdot 2\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((5-2)^2\\cdot 4\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(5-2=3\\)</p><div class=\"facit-matte\">\\[3^2\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Potensen först: \\(3^{2}=3\\cdot 3=9\\)</p><div class=\"facit-matte\">\\[9\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(9\\cdot 4=36\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\)</p></div>",
+        "ledtrad": "<p>Börja med det som står inom parentes.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Räkna ut potensen först: \\(2^{3}=2\\cdot 2\\cdot 2\\).</p><p><strong>b)</strong> Räkna ut potensen först: \\(2^{2}=2\\cdot 2\\).</p><p><strong>c)</strong> Börja med det som står inom parentes.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1322",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(48\\div 6\\cdot 2\\)</div><div>b) \\(48\\div (6\\cdot 2)\\)</div><div>c) \\(100-48\\div 6\\cdot 2\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division och multiplikation från vänster: \\(48\\div 6=8\\)</p><div class=\"facit-matte\">\\[8\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(8\\cdot 2=16\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(6\\cdot 2=12\\)</p><div class=\"facit-matte\">\\[48\\div 12\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(48\\div 12=4\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division och multiplikation från vänster: \\(48\\div 6=8\\)</p><div class=\"facit-matte\">\\[100-8\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(8\\cdot 2=16\\)</p><div class=\"facit-matte\">\\[100-16\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(100-16=84\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(84\\)</p></div></div>",
+    "familj": "Prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      16,
+      4,
+      84
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(48\\div 6\\cdot 2\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division och multiplikation från vänster: \\(48\\div 6=8\\)</p><div class=\"facit-matte\">\\[8\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(8\\cdot 2=16\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\)</p></div>",
+        "ledtrad": "<p>Division och multiplikation har samma prioritet. Räkna från vänster till höger.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(48\\div (6\\cdot 2)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(6\\cdot 2=12\\)</p><div class=\"facit-matte\">\\[48\\div 12\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(48\\div 12=4\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div>",
+        "ledtrad": "<p>Börja med det som står inom parentes.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(100-48\\div 6\\cdot 2\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division och multiplikation från vänster: \\(48\\div 6=8\\)</p><div class=\"facit-matte\">\\[100-8\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(8\\cdot 2=16\\)</p><div class=\"facit-matte\">\\[100-16\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(100-16=84\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(84\\)</p></div>",
+        "ledtrad": "<p>Vilken räkneoperation ska göras först: division eller subtraktion?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Division och multiplikation har samma prioritet. Räkna från vänster till höger.</p><p><strong>b)</strong> Börja med det som står inom parentes.</p><p><strong>c)</strong> Vilken räkneoperation ska göras först: division eller subtraktion?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1323",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(9+16\\div 4-3\\cdot 2\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division före addition: \\(16\\div 4=4\\)</p><div class=\"facit-matte\">\\[9+4-3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Addition och subtraktion från vänster: \\(9+4=13\\)</p><div class=\"facit-matte\">\\[13-3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(3\\cdot 2=6\\)</p><div class=\"facit-matte\">\\[13-6\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(13-6=7\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\)</p></div>",
+    "familj": "Prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken räkneoperation ska göras först: division eller addition?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1324",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(5\\cdot (12-7)+3\\)</div><div>b) \\((15+9)\\div (10-4)\\)</div><div>c) \\(2\\cdot (3+4\\cdot 5)\\)</div><div>d) \\((2+3)^2-4\\cdot (6-1)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(12-7=5\\)</p><div class=\"facit-matte\">\\[5\\cdot 5+3\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(5\\cdot 5=25\\)</p><div class=\"facit-matte\">\\[25+3\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(25+3=28\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(28\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(15+9=24\\)</p><div class=\"facit-matte\">\\[24\\div (10-4)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(10-4=6\\)</p><div class=\"facit-matte\">\\[24\\div 6\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(24\\div 6=4\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I parentesen, multiplikation före addition: \\(4\\cdot 5=20\\)</p><div class=\"facit-matte\">\\[2\\cdot (3+20)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(3+20=23\\)</p><div class=\"facit-matte\">\\[2\\cdot 23\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(2\\cdot 23=46\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(46\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(2+3=5\\)</p><div class=\"facit-matte\">\\[5^2-4\\cdot (6-1)\\]</div></li><li><p class=\"facit-rubrik\">Potensen först: \\(5^{2}=5\\cdot 5=25\\)</p><div class=\"facit-matte\">\\[25-4\\cdot (6-1)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(6-1=5\\)</p><div class=\"facit-matte\">\\[25-4\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(4\\cdot 5=20\\)</p><div class=\"facit-matte\">\\[25-20\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(25-20=5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\)</p></div></div>",
+    "familj": "Prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      28,
+      4,
+      46,
+      5
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(5\\cdot (12-7)+3\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(12-7=5\\)</p><div class=\"facit-matte\">\\[5\\cdot 5+3\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(5\\cdot 5=25\\)</p><div class=\"facit-matte\">\\[25+3\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(25+3=28\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(28\\)</p></div>",
+        "ledtrad": "<p>Börja med det som står inom parentes.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((15+9)\\div (10-4)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(15+9=24\\)</p><div class=\"facit-matte\">\\[24\\div (10-4)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(10-4=6\\)</p><div class=\"facit-matte\">\\[24\\div 6\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(24\\div 6=4\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div>",
+        "ledtrad": "<p>Börja med det som står inom parentes.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(2\\cdot (3+4\\cdot 5)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I parentesen, multiplikation före addition: \\(4\\cdot 5=20\\)</p><div class=\"facit-matte\">\\[2\\cdot (3+20)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(3+20=23\\)</p><div class=\"facit-matte\">\\[2\\cdot 23\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(2\\cdot 23=46\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(46\\)</p></div>",
+        "ledtrad": "<p>Börja inuti parentesen. Vilken räkneoperation ska göras först där?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((2+3)^2-4\\cdot (6-1)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(2+3=5\\)</p><div class=\"facit-matte\">\\[5^2-4\\cdot (6-1)\\]</div></li><li><p class=\"facit-rubrik\">Potensen först: \\(5^{2}=5\\cdot 5=25\\)</p><div class=\"facit-matte\">\\[25-4\\cdot (6-1)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(6-1=5\\)</p><div class=\"facit-matte\">\\[25-4\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(4\\cdot 5=20\\)</p><div class=\"facit-matte\">\\[25-20\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(25-20=5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\)</p></div>",
+        "ledtrad": "<p>Börja med det som står inom parentes.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Börja med det som står inom parentes.</p><p><strong>b)</strong> Börja med det som står inom parentes.</p><p><strong>c)</strong> Börja inuti parentesen. Vilken räkneoperation ska göras först där?</p><p><strong>d)</strong> Börja med det som står inom parentes.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1325",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(72\\div 6\\div 3\\)</div><div>b) \\(72\\div (6\\div 3)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera: \\(72\\div 6=12\\)</p><div class=\"facit-matte\">\\[12\\div 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(12\\div 3=4\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(6\\div 3=2\\)</p><div class=\"facit-matte\">\\[72\\div 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(72\\div 2=36\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\)</p></div></div>",
+    "familj": "Prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      4,
+      36
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(72\\div 6\\div 3\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera: \\(72\\div 6=12\\)</p><div class=\"facit-matte\">\\[12\\div 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(12\\div 3=4\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div>",
+        "ledtrad": "<p>När det bara är divisioner räknar du från vänster till höger.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(72\\div (6\\div 3)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(6\\div 3=2\\)</p><div class=\"facit-matte\">\\[72\\div 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(72\\div 2=36\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\)</p></div>",
+        "ledtrad": "<p>Börja med det som står inom parentes.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> När det bara är divisioner räknar du från vänster till höger.</p><p><strong>b)</strong> Börja med det som står inom parentes.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1326",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(8+4\\cdot 3-6\\div 2\\)</div><div>b) \\((8+4)\\cdot (3-6\\div 2)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(4\\cdot 3=12\\)</p><div class=\"facit-matte\">\\[8+12-6\\div 2\\]</div></li><li><p class=\"facit-rubrik\">Addition och subtraktion från vänster: \\(8+12=20\\)</p><div class=\"facit-matte\">\\[20-6\\div 2\\]</div></li><li><p class=\"facit-rubrik\">Division före subtraktion: \\(6\\div 2=3\\)</p><div class=\"facit-matte\">\\[20-3\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(20-3=17\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(8+4=12\\)</p><div class=\"facit-matte\">\\[12\\cdot (3-6\\div 2)\\]</div></li><li><p class=\"facit-rubrik\">I parentesen, division före subtraktion: \\(6\\div 2=3\\)</p><div class=\"facit-matte\">\\[12\\cdot (3-3)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(3-3=0\\)</p><div class=\"facit-matte\">\\[12\\cdot 0\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(12\\cdot 0=0\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\)</p></div></div>",
+    "familj": "Prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      17,
+      0
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(8+4\\cdot 3-6\\div 2\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(4\\cdot 3=12\\)</p><div class=\"facit-matte\">\\[8+12-6\\div 2\\]</div></li><li><p class=\"facit-rubrik\">Addition och subtraktion från vänster: \\(8+12=20\\)</p><div class=\"facit-matte\">\\[20-6\\div 2\\]</div></li><li><p class=\"facit-rubrik\">Division före subtraktion: \\(6\\div 2=3\\)</p><div class=\"facit-matte\">\\[20-3\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(20-3=17\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\)</p></div>",
+        "ledtrad": "<p>Vilken räkneoperation ska göras först: multiplikation eller addition?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((8+4)\\cdot (3-6\\div 2)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parentesen först: \\(8+4=12\\)</p><div class=\"facit-matte\">\\[12\\cdot (3-6\\div 2)\\]</div></li><li><p class=\"facit-rubrik\">I parentesen, division före subtraktion: \\(6\\div 2=3\\)</p><div class=\"facit-matte\">\\[12\\cdot (3-3)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(3-3=0\\)</p><div class=\"facit-matte\">\\[12\\cdot 0\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(12\\cdot 0=0\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\)</p></div>",
+        "ledtrad": "<p>Börja med det som står inom parentes.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilken räkneoperation ska göras först: multiplikation eller addition?</p><p><strong>b)</strong> Börja med det som står inom parentes.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1327",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(7\\cdot 8-6\\cdot 9\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(7\\cdot 8=56\\)</p><div class=\"facit-matte\">\\[56-6\\cdot 9\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(6\\cdot 9=54\\)</p><div class=\"facit-matte\">\\[56-54\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(56-54=2\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div>",
+    "familj": "Prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1328",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(4\\cdot 10-3\\cdot 2\\)</div><div>b) \\(4\\cdot (10-3\\cdot 2)\\)</div><div>c) \\((4\\cdot 10-3)\\cdot 2\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(4\\cdot 10=40\\)</p><div class=\"facit-matte\">\\[40-3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(3\\cdot 2=6\\)</p><div class=\"facit-matte\">\\[40-6\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(40-6=34\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(34\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I parentesen, multiplikation före subtraktion: \\(3\\cdot 2=6\\)</p><div class=\"facit-matte\">\\[4\\cdot (10-6)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(10-6=4\\)</p><div class=\"facit-matte\">\\[4\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(4\\cdot 4=16\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I parentesen, multiplikation före subtraktion: \\(4\\cdot 10=40\\)</p><div class=\"facit-matte\">\\[(40-3)\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(40-3=37\\)</p><div class=\"facit-matte\">\\[37\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(37\\cdot 2=74\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(74\\)</p></div></div>",
+    "familj": "Prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      34,
+      16,
+      74
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(4\\cdot 10-3\\cdot 2\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(4\\cdot 10=40\\)</p><div class=\"facit-matte\">\\[40-3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(3\\cdot 2=6\\)</p><div class=\"facit-matte\">\\[40-6\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(40-6=34\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(34\\)</p></div>",
+        "ledtrad": "<p>Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(4\\cdot (10-3\\cdot 2)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I parentesen, multiplikation före subtraktion: \\(3\\cdot 2=6\\)</p><div class=\"facit-matte\">\\[4\\cdot (10-6)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(10-6=4\\)</p><div class=\"facit-matte\">\\[4\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(4\\cdot 4=16\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\)</p></div>",
+        "ledtrad": "<p>Börja inuti parentesen. Vilken räkneoperation ska göras först där?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\((4\\cdot 10-3)\\cdot 2\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I parentesen, multiplikation före subtraktion: \\(4\\cdot 10=40\\)</p><div class=\"facit-matte\">\\[(40-3)\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(40-3=37\\)</p><div class=\"facit-matte\">\\[37\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(37\\cdot 2=74\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(74\\)</p></div>",
+        "ledtrad": "<p>Börja inuti parentesen. Vilken räkneoperation ska göras först där?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p><p><strong>b)</strong> Börja inuti parentesen. Vilken räkneoperation ska göras först där?</p><p><strong>c)</strong> Börja inuti parentesen. Vilken räkneoperation ska göras först där?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1329",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(3+(12-2^3)\\cdot 5\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I parentesen, potensen först: \\(2^{3}=2\\cdot 2\\cdot 2=8\\)</p><div class=\"facit-matte\">\\[3+(12-8)\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(12-8=4\\)</p><div class=\"facit-matte\">\\[3+4\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(4\\cdot 5=20\\)</p><div class=\"facit-matte\">\\[3+20\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(3+20=23\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(23\\)</p></div>",
+    "familj": "Prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 23,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Börja inuti parentesen. Vilken räkneoperation ska göras först där?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1330",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{1}{5}+\\frac{2}{5}\\)</div><div>b) \\(\\frac{1}{2}+\\frac{1}{4}\\)</div><div>c) \\(\\frac{2}{3}+\\frac{3}{4}\\)</div><div>d) \\(\\frac{5}{6}-\\frac{3}{8}\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 5</p><div class=\"facit-matte\">\\[\\frac{1+2}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 4</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot 2}{2\\cdot 2}=\\frac{2}{4}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 4</p><div class=\"facit-matte\">\\[\\frac{2+1}{4}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot 4}{3\\cdot 4}=\\frac{8}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot 3}{4\\cdot 3}=\\frac{9}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{8+9}{12}=\\frac{17}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{17}{12}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 24</p><div class=\"facit-matte\">\\[\\frac{5}{6}=\\frac{5\\cdot 4}{6\\cdot 4}=\\frac{20}{24}\\]</div><div class=\"facit-matte\">\\[\\frac{3}{8}=\\frac{3\\cdot 3}{8\\cdot 3}=\\frac{9}{24}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 24</p><div class=\"facit-matte\">\\[\\frac{20-9}{24}=\\frac{11}{24}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{24}\\)</p></div></div>",
+    "familj": "Räkna med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "3/5",
+      "3/4",
+      "17/12",
+      "11/24"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "bråk",
+      "bråk",
+      "bråk",
+      "bråk"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{1}{5}+\\frac{2}{5}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 5</p><div class=\"facit-matte\">\\[\\frac{1+2}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\)</p></div>",
+        "ledtrad": "<p>Nämnarna är redan lika. Vad händer med täljarna?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{1}{2}+\\frac{1}{4}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 4</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot 2}{2\\cdot 2}=\\frac{2}{4}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 4</p><div class=\"facit-matte\">\\[\\frac{2+1}{4}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div>",
+        "ledtrad": "<p>Vilken är den minsta nämnare som både 2 och 4 går jämnt upp i?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{2}{3}+\\frac{3}{4}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot 4}{3\\cdot 4}=\\frac{8}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot 3}{4\\cdot 3}=\\frac{9}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{8+9}{12}=\\frac{17}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{17}{12}\\)</p></div>",
+        "ledtrad": "<p>Vilken är den minsta nämnare som både 3 och 4 går jämnt upp i?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{5}{6}-\\frac{3}{8}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 24</p><div class=\"facit-matte\">\\[\\frac{5}{6}=\\frac{5\\cdot 4}{6\\cdot 4}=\\frac{20}{24}\\]</div><div class=\"facit-matte\">\\[\\frac{3}{8}=\\frac{3\\cdot 3}{8\\cdot 3}=\\frac{9}{24}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 24</p><div class=\"facit-matte\">\\[\\frac{20-9}{24}=\\frac{11}{24}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{24}\\)</p></div>",
+        "ledtrad": "<p>Vilken är den minsta nämnare som både 6 och 8 går jämnt upp i?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Nämnarna är redan lika. Vad händer med täljarna?</p><p><strong>b)</strong> Vilken är den minsta nämnare som både 2 och 4 går jämnt upp i?</p><p><strong>c)</strong> Vilken är den minsta nämnare som både 3 och 4 går jämnt upp i?</p><p><strong>d)</strong> Vilken är den minsta nämnare som både 6 och 8 går jämnt upp i?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1331",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{7}{9}-\\frac{4}{9}\\)</div><div>b) \\(\\frac{3}{4}-\\frac{1}{6}\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 9</p><div class=\"facit-matte\">\\[\\frac{7-4}{9}=\\frac{3}{9}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 3</p><div class=\"facit-matte\">\\[\\frac{3}{9}=\\frac{1}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{3}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot 3}{4\\cdot 3}=\\frac{9}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{6}=\\frac{1\\cdot 2}{6\\cdot 2}=\\frac{2}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{9-2}{12}=\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{12}\\)</p></div></div>",
+    "familj": "Räkna med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "1/3",
+      "7/12"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "bråk",
+      "bråk"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{7}{9}-\\frac{4}{9}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 9</p><div class=\"facit-matte\">\\[\\frac{7-4}{9}=\\frac{3}{9}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 3</p><div class=\"facit-matte\">\\[\\frac{3}{9}=\\frac{1}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{3}\\)</p></div>",
+        "ledtrad": "<p>Nämnarna är redan lika. Vad händer med täljarna?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{3}{4}-\\frac{1}{6}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot 3}{4\\cdot 3}=\\frac{9}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{6}=\\frac{1\\cdot 2}{6\\cdot 2}=\\frac{2}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{9-2}{12}=\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{12}\\)</p></div>",
+        "ledtrad": "<p>Vilken är den minsta nämnare som både 4 och 6 går jämnt upp i?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Nämnarna är redan lika. Vad händer med täljarna?</p><p><strong>b)</strong> Vilken är den minsta nämnare som både 4 och 6 går jämnt upp i?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1332",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(\\frac{2}{5}+\\frac{1}{3}\\). Ange svaret i enklaste form.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 15</p><div class=\"facit-matte\">\\[\\frac{2}{5}=\\frac{2\\cdot 3}{5\\cdot 3}=\\frac{6}{15}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot 5}{3\\cdot 5}=\\frac{5}{15}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 15</p><div class=\"facit-matte\">\\[\\frac{6+5}{15}=\\frac{11}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{15}\\)</p></div>",
+    "familj": "Räkna med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "bråk",
+    "rättSvar": "11/15",
+    "tolerans": 1e-09,
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Vilken är den minsta nämnare som både 5 och 3 går jämnt upp i?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1333",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{3}{10}+\\frac{1}{10}\\)</div><div>b) \\(\\frac{5}{12}+\\frac{1}{4}\\)</div><div>c) \\(\\frac{1}{6}-\\frac{3}{4}\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 10</p><div class=\"facit-matte\">\\[\\frac{3+1}{10}=\\frac{4}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{4}{10}=\\frac{2}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{5}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot 3}{4\\cdot 3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{5+3}{12}=\\frac{8}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 4</p><div class=\"facit-matte\">\\[\\frac{8}{12}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{1}{6}=\\frac{1\\cdot 2}{6\\cdot 2}=\\frac{2}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot 3}{4\\cdot 3}=\\frac{9}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{2-9}{12}=-\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{7}{12}\\)</p></div></div>",
+    "familj": "Räkna med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "2/5",
+      "2/3",
+      "-7/12"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "bråk",
+      "bråk",
+      "bråk"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{3}{10}+\\frac{1}{10}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 10</p><div class=\"facit-matte\">\\[\\frac{3+1}{10}=\\frac{4}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{4}{10}=\\frac{2}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{5}\\)</p></div>",
+        "ledtrad": "<p>Nämnarna är redan lika. Vad händer med täljarna?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{5}{12}+\\frac{1}{4}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot 3}{4\\cdot 3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{5+3}{12}=\\frac{8}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 4</p><div class=\"facit-matte\">\\[\\frac{8}{12}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\)</p></div>",
+        "ledtrad": "<p>Vilken är den minsta nämnare som både 12 och 4 går jämnt upp i?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{1}{6}-\\frac{3}{4}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{1}{6}=\\frac{1\\cdot 2}{6\\cdot 2}=\\frac{2}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot 3}{4\\cdot 3}=\\frac{9}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{2-9}{12}=-\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{7}{12}\\)</p></div>",
+        "ledtrad": "<p>Vilken är den minsta nämnare som både 6 och 4 går jämnt upp i?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Nämnarna är redan lika. Vad händer med täljarna?</p><p><strong>b)</strong> Vilken är den minsta nämnare som både 12 och 4 går jämnt upp i?</p><p><strong>c)</strong> Vilken är den minsta nämnare som både 6 och 4 går jämnt upp i?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1334",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(\\frac{7}{8}-\\frac{1}{2}\\). Ange svaret i enklaste form.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 8</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot 4}{2\\cdot 4}=\\frac{4}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 8</p><div class=\"facit-matte\">\\[\\frac{7-4}{8}=\\frac{3}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{8}\\)</p></div>",
+    "familj": "Räkna med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "bråk",
+    "rättSvar": "3/8",
+    "tolerans": 1e-09,
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Vilken är den minsta nämnare som både 8 och 2 går jämnt upp i?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1335",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{1}{3}+\\frac{1}{6}\\)</div><div>b) \\(\\frac{4}{5}-\\frac{3}{10}\\)</div><div>c) \\(-\\frac{2}{3}+\\frac{1}{4}\\)</div><div>d) \\(-\\frac{5}{6}-\\frac{1}{4}\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot 2}{3\\cdot 2}=\\frac{2}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{2+1}{6}=\\frac{3}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 3</p><div class=\"facit-matte\">\\[\\frac{3}{6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 10</p><div class=\"facit-matte\">\\[\\frac{4}{5}=\\frac{4\\cdot 2}{5\\cdot 2}=\\frac{8}{10}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 10</p><div class=\"facit-matte\">\\[\\frac{8-3}{10}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 5</p><div class=\"facit-matte\">\\[\\frac{5}{10}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[-\\frac{2}{3}=-\\frac{2\\cdot 4}{3\\cdot 4}=-\\frac{8}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot 3}{4\\cdot 3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{-8+3}{12}=-\\frac{5}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{5}{12}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[-\\frac{5}{6}=-\\frac{5\\cdot 2}{6\\cdot 2}=-\\frac{10}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot 3}{4\\cdot 3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{-10-3}{12}=-\\frac{13}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{13}{12}\\)</p></div></div>",
+    "familj": "Räkna med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "1/2",
+      "1/2",
+      "-5/12",
+      "-13/12"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "bråk",
+      "bråk",
+      "bråk",
+      "bråk"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{1}{3}+\\frac{1}{6}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot 2}{3\\cdot 2}=\\frac{2}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{2+1}{6}=\\frac{3}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 3</p><div class=\"facit-matte\">\\[\\frac{3}{6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\)</p></div>",
+        "ledtrad": "<p>Vilken är den minsta nämnare som både 3 och 6 går jämnt upp i?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{4}{5}-\\frac{3}{10}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 10</p><div class=\"facit-matte\">\\[\\frac{4}{5}=\\frac{4\\cdot 2}{5\\cdot 2}=\\frac{8}{10}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 10</p><div class=\"facit-matte\">\\[\\frac{8-3}{10}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 5</p><div class=\"facit-matte\">\\[\\frac{5}{10}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\)</p></div>",
+        "ledtrad": "<p>Vilken är den minsta nämnare som både 5 och 10 går jämnt upp i?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(-\\frac{2}{3}+\\frac{1}{4}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[-\\frac{2}{3}=-\\frac{2\\cdot 4}{3\\cdot 4}=-\\frac{8}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot 3}{4\\cdot 3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{-8+3}{12}=-\\frac{5}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{5}{12}\\)</p></div>",
+        "ledtrad": "<p>Vilken är den minsta nämnare som både 3 och 4 går jämnt upp i?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(-\\frac{5}{6}-\\frac{1}{4}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[-\\frac{5}{6}=-\\frac{5\\cdot 2}{6\\cdot 2}=-\\frac{10}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot 3}{4\\cdot 3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{-10-3}{12}=-\\frac{13}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{13}{12}\\)</p></div>",
+        "ledtrad": "<p>Vilken är den minsta nämnare som både 6 och 4 går jämnt upp i?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilken är den minsta nämnare som både 3 och 6 går jämnt upp i?</p><p><strong>b)</strong> Vilken är den minsta nämnare som både 5 och 10 går jämnt upp i?</p><p><strong>c)</strong> Vilken är den minsta nämnare som både 3 och 4 går jämnt upp i?</p><p><strong>d)</strong> Vilken är den minsta nämnare som både 6 och 4 går jämnt upp i?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1336",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2-\\frac{3}{4}\\)</div><div>b) \\(\\frac{3}{2}+\\frac{5}{6}\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(2\\) som ett bråk med nämnaren 4</p><div class=\"facit-matte\">\\[2=\\frac{8}{4}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 4</p><div class=\"facit-matte\">\\[\\frac{8-3}{4}=\\frac{5}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{4}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{3}{2}=\\frac{3\\cdot 3}{2\\cdot 3}=\\frac{9}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{9+5}{6}=\\frac{14}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{14}{6}=\\frac{7}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{3}\\)</p></div></div>",
+    "familj": "Räkna med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "5/4",
+      "7/3"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "bråk",
+      "bråk"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(2-\\frac{3}{4}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(2\\) som ett bråk med nämnaren 4</p><div class=\"facit-matte\">\\[2=\\frac{8}{4}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 4</p><div class=\"facit-matte\">\\[\\frac{8-3}{4}=\\frac{5}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{4}\\)</p></div>",
+        "ledtrad": "<p>Skriv \\(2\\) som ett bråk med nämnaren 4.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{3}{2}+\\frac{5}{6}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{3}{2}=\\frac{3\\cdot 3}{2\\cdot 3}=\\frac{9}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{9+5}{6}=\\frac{14}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{14}{6}=\\frac{7}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{3}\\)</p></div>",
+        "ledtrad": "<p>Vilken är den minsta nämnare som både 2 och 6 går jämnt upp i?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Skriv \\(2\\) som ett bråk med nämnaren 4.</p><p><strong>b)</strong> Vilken är den minsta nämnare som både 2 och 6 går jämnt upp i?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1337",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{2}{3}\\cdot \\frac{4}{5}\\)</div><div>b) \\(\\frac{3}{4}\\cdot \\frac{2}{9}\\)</div><div>c) \\(6\\cdot \\frac{5}{8}\\)</div><div>d) \\(-\\frac{5}{6}\\cdot \\frac{9}{10}\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (2 och 4) och nämnarna (3 och 5)</p><div class=\"facit-matte\">\\[\\frac{2\\cdot 4}{3\\cdot 5}=\\frac{8}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{8}{15}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (3 och 2) och nämnarna (4 och 9)</p><div class=\"facit-matte\">\\[\\frac{3\\cdot 2}{4\\cdot 9}=\\frac{6}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 6</p><div class=\"facit-matte\">\\[\\frac{6}{36}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Heltalet 6 multipliceras bara med täljaren</p><div class=\"facit-matte\">\\[\\frac{6\\cdot 5}{8}=\\frac{30}{8}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{30}{8}=\\frac{15}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{4}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (−5 och 9) och nämnarna (6 och 10)</p><div class=\"facit-matte\">\\[\\frac{-5\\cdot 9}{6\\cdot 10}=-\\frac{45}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 15</p><div class=\"facit-matte\">\\[-\\frac{45}{60}=-\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{3}{4}\\)</p></div></div>",
+    "familj": "Räkna med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "8/15",
+      "1/6",
+      "15/4",
+      "-3/4"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "bråk",
+      "bråk",
+      "bråk",
+      "bråk"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{2}{3}\\cdot \\frac{4}{5}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (2 och 4) och nämnarna (3 och 5)</p><div class=\"facit-matte\">\\[\\frac{2\\cdot 4}{3\\cdot 5}=\\frac{8}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{8}{15}\\)</p></div>",
+        "ledtrad": "<p>Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{3}{4}\\cdot \\frac{2}{9}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (3 och 2) och nämnarna (4 och 9)</p><div class=\"facit-matte\">\\[\\frac{3\\cdot 2}{4\\cdot 9}=\\frac{6}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 6</p><div class=\"facit-matte\">\\[\\frac{6}{36}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\)</p></div>",
+        "ledtrad": "<p>Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(6\\cdot \\frac{5}{8}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Heltalet 6 multipliceras bara med täljaren</p><div class=\"facit-matte\">\\[\\frac{6\\cdot 5}{8}=\\frac{30}{8}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{30}{8}=\\frac{15}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{4}\\)</p></div>",
+        "ledtrad": "<p>Multiplicera bara täljaren med heltalet. Förkorta sedan om det går.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(-\\frac{5}{6}\\cdot \\frac{9}{10}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (−5 och 9) och nämnarna (6 och 10)</p><div class=\"facit-matte\">\\[\\frac{-5\\cdot 9}{6\\cdot 10}=-\\frac{45}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 15</p><div class=\"facit-matte\">\\[-\\frac{45}{60}=-\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{3}{4}\\)</p></div>",
+        "ledtrad": "<p>Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p><p><strong>b)</strong> Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p><p><strong>c)</strong> Multiplicera bara täljaren med heltalet. Förkorta sedan om det går.</p><p><strong>d)</strong> Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1338",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{1}{2}\\div \\frac{1}{4}\\)</div><div>b) \\(\\frac{2}{3}\\div \\frac{4}{9}\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{1}{4}\\) är samma sak som att multiplicera med \\(4\\)</p><div class=\"facit-matte\">\\[\\frac{1}{2}\\div \\frac{1}{4}=\\frac{1}{2}\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (1 och 4) och nämnarna (2 och 1)</p><div class=\"facit-matte\">\\[\\frac{1\\cdot 4}{2\\cdot 1}=\\frac{4}{2}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{4}{2}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{4}{9}\\) är samma sak som att multiplicera med \\(\\frac{9}{4}\\)</p><div class=\"facit-matte\">\\[\\frac{2}{3}\\div \\frac{4}{9}=\\frac{2}{3}\\cdot \\frac{9}{4}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (2 och 9) och nämnarna (3 och 4)</p><div class=\"facit-matte\">\\[\\frac{2\\cdot 9}{3\\cdot 4}=\\frac{18}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 6</p><div class=\"facit-matte\">\\[\\frac{18}{12}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\)</p></div></div>",
+    "familj": "Räkna med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      2,
+      "3/2"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{1}{2}\\div \\frac{1}{4}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{1}{4}\\) är samma sak som att multiplicera med \\(4\\)</p><div class=\"facit-matte\">\\[\\frac{1}{2}\\div \\frac{1}{4}=\\frac{1}{2}\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (1 och 4) och nämnarna (2 och 1)</p><div class=\"facit-matte\">\\[\\frac{1\\cdot 4}{2\\cdot 1}=\\frac{4}{2}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{4}{2}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div>",
+        "ledtrad": "<p>Byt division med \\(\\frac{1}{4}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{2}{3}\\div \\frac{4}{9}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{4}{9}\\) är samma sak som att multiplicera med \\(\\frac{9}{4}\\)</p><div class=\"facit-matte\">\\[\\frac{2}{3}\\div \\frac{4}{9}=\\frac{2}{3}\\cdot \\frac{9}{4}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (2 och 9) och nämnarna (3 och 4)</p><div class=\"facit-matte\">\\[\\frac{2\\cdot 9}{3\\cdot 4}=\\frac{18}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 6</p><div class=\"facit-matte\">\\[\\frac{18}{12}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\)</p></div>",
+        "ledtrad": "<p>Byt division med \\(\\frac{4}{9}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Byt division med \\(\\frac{1}{4}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p><p><strong>b)</strong> Byt division med \\(\\frac{4}{9}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1339",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(\\frac{3}{5}\\div 3\\). Ange svaret i enklaste form.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(3\\) är samma sak som att multiplicera med \\(\\frac{1}{3}\\)</p><div class=\"facit-matte\">\\[\\frac{3}{5}\\div 3=\\frac{3}{5}\\cdot \\frac{1}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (3 och 1) och nämnarna (5 och 3)</p><div class=\"facit-matte\">\\[\\frac{3\\cdot 1}{5\\cdot 3}=\\frac{3}{15}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 3</p><div class=\"facit-matte\">\\[\\frac{3}{15}=\\frac{1}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{5}\\)</p></div>",
+    "familj": "Räkna med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "bråk",
+    "rättSvar": "1/5",
+    "tolerans": 1e-09,
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Byt division med \\(3\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1340",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{4}{7}\\cdot \\frac{7}{8}\\)</div><div>b) \\(\\frac{5}{6}\\div \\frac{10}{9}\\)</div><div>c) \\(-\\frac{3}{4}\\div \\frac{9}{16}\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (4 och 7) och nämnarna (7 och 8)</p><div class=\"facit-matte\">\\[\\frac{4\\cdot 7}{7\\cdot 8}=\\frac{28}{56}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 28</p><div class=\"facit-matte\">\\[\\frac{28}{56}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{10}{9}\\) är samma sak som att multiplicera med \\(\\frac{9}{10}\\)</p><div class=\"facit-matte\">\\[\\frac{5}{6}\\div \\frac{10}{9}=\\frac{5}{6}\\cdot \\frac{9}{10}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (5 och 9) och nämnarna (6 och 10)</p><div class=\"facit-matte\">\\[\\frac{5\\cdot 9}{6\\cdot 10}=\\frac{45}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 15</p><div class=\"facit-matte\">\\[\\frac{45}{60}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{9}{16}\\) är samma sak som att multiplicera med \\(\\frac{16}{9}\\)</p><div class=\"facit-matte\">\\[-\\frac{3}{4}\\div \\frac{9}{16}=-\\frac{3}{4}\\cdot \\frac{16}{9}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (−3 och 16) och nämnarna (4 och 9)</p><div class=\"facit-matte\">\\[\\frac{-3\\cdot 16}{4\\cdot 9}=-\\frac{48}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 12</p><div class=\"facit-matte\">\\[-\\frac{48}{36}=-\\frac{4}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{4}{3}\\)</p></div></div>",
+    "familj": "Räkna med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "1/2",
+      "3/4",
+      "-4/3"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "bråk",
+      "bråk",
+      "bråk"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{4}{7}\\cdot \\frac{7}{8}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (4 och 7) och nämnarna (7 och 8)</p><div class=\"facit-matte\">\\[\\frac{4\\cdot 7}{7\\cdot 8}=\\frac{28}{56}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 28</p><div class=\"facit-matte\">\\[\\frac{28}{56}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\)</p></div>",
+        "ledtrad": "<p>Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{5}{6}\\div \\frac{10}{9}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{10}{9}\\) är samma sak som att multiplicera med \\(\\frac{9}{10}\\)</p><div class=\"facit-matte\">\\[\\frac{5}{6}\\div \\frac{10}{9}=\\frac{5}{6}\\cdot \\frac{9}{10}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (5 och 9) och nämnarna (6 och 10)</p><div class=\"facit-matte\">\\[\\frac{5\\cdot 9}{6\\cdot 10}=\\frac{45}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 15</p><div class=\"facit-matte\">\\[\\frac{45}{60}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div>",
+        "ledtrad": "<p>Byt division med \\(\\frac{10}{9}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(-\\frac{3}{4}\\div \\frac{9}{16}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{9}{16}\\) är samma sak som att multiplicera med \\(\\frac{16}{9}\\)</p><div class=\"facit-matte\">\\[-\\frac{3}{4}\\div \\frac{9}{16}=-\\frac{3}{4}\\cdot \\frac{16}{9}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (−3 och 16) och nämnarna (4 och 9)</p><div class=\"facit-matte\">\\[\\frac{-3\\cdot 16}{4\\cdot 9}=-\\frac{48}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 12</p><div class=\"facit-matte\">\\[-\\frac{48}{36}=-\\frac{4}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{4}{3}\\)</p></div>",
+        "ledtrad": "<p>Byt division med \\(\\frac{9}{16}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p><p><strong>b)</strong> Byt division med \\(\\frac{10}{9}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p><p><strong>c)</strong> Byt division med \\(\\frac{9}{16}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1341",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{3}{8}\\cdot 4\\)</div><div>b) \\(5\\div \\frac{1}{3}\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Heltalet 4 multipliceras bara med täljaren</p><div class=\"facit-matte\">\\[\\frac{3\\cdot 4}{8}=\\frac{12}{8}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 4</p><div class=\"facit-matte\">\\[\\frac{12}{8}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{1}{3}\\) är samma sak som att multiplicera med \\(3\\)</p><div class=\"facit-matte\">\\[5\\div \\frac{1}{3}=5\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(5\\cdot 3=15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div></div>",
+    "familj": "Räkna med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "3/2",
+      15
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "bråk",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{3}{8}\\cdot 4\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Heltalet 4 multipliceras bara med täljaren</p><div class=\"facit-matte\">\\[\\frac{3\\cdot 4}{8}=\\frac{12}{8}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 4</p><div class=\"facit-matte\">\\[\\frac{12}{8}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\)</p></div>",
+        "ledtrad": "<p>Multiplicera bara täljaren med heltalet. Förkorta sedan om det går.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(5\\div \\frac{1}{3}\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{1}{3}\\) är samma sak som att multiplicera med \\(3\\)</p><div class=\"facit-matte\">\\[5\\div \\frac{1}{3}=5\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(5\\cdot 3=15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div>",
+        "ledtrad": "<p>Byt division med \\(\\frac{1}{3}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Multiplicera bara täljaren med heltalet. Förkorta sedan om det går.</p><p><strong>b)</strong> Byt division med \\(\\frac{1}{3}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1342",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(\\frac{9}{10}\\cdot \\frac{5}{6}\\). Ange svaret i enklaste form.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (9 och 5) och nämnarna (10 och 6)</p><div class=\"facit-matte\">\\[\\frac{9\\cdot 5}{10\\cdot 6}=\\frac{45}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 15</p><div class=\"facit-matte\">\\[\\frac{45}{60}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div>",
+    "familj": "Räkna med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "bråk",
+    "rättSvar": "3/4",
+    "tolerans": 1e-09,
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1343",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Beräkna utan räknare.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(3{,}4+2{,}5\\)</div><div>b) \\(7{,}2-4{,}8\\)</div><div>c) \\(12{,}6+3{,}75\\)</div><div>d) \\(10-3{,}46\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera \\(3{,}4\\) och \\(2{,}5\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[3{,}4+2{,}5=5{,}9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}9\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(7{,}2\\) och \\(4{,}8\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[7{,}2-4{,}8=2{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}4\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyll på med nollor så att båda talen har 2 decimaler</p><div class=\"facit-matte\">\\[12{,}60+3{,}75\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(12{,}6\\) och \\(3{,}75\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[12{,}6+3{,}75=16{,}35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16{,}35\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyll på med nollor så att båda talen har 2 decimaler</p><div class=\"facit-matte\">\\[10{,}00-3{,}46\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(10\\) och \\(3{,}46\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[10-3{,}46=6{,}54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}54\\)</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      5.9,
+      2.4,
+      16.35,
+      6.54
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(3{,}4+2{,}5\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera \\(3{,}4\\) och \\(2{,}5\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[3{,}4+2{,}5=5{,}9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}9\\)</p></div>",
+        "ledtrad": "<p>Ställ upp talen så att decimaltecknen hamnar under varandra.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(7{,}2-4{,}8\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(7{,}2\\) och \\(4{,}8\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[7{,}2-4{,}8=2{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}4\\)</p></div>",
+        "ledtrad": "<p>Ställ upp talen så att decimaltecknen hamnar under varandra.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(12{,}6+3{,}75\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyll på med nollor så att båda talen har 2 decimaler</p><div class=\"facit-matte\">\\[12{,}60+3{,}75\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(12{,}6\\) och \\(3{,}75\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[12{,}6+3{,}75=16{,}35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16{,}35\\)</p></div>",
+        "ledtrad": "<p>Ställ upp talen så att decimaltecknen hamnar under varandra.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(10-3{,}46\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyll på med nollor så att båda talen har 2 decimaler</p><div class=\"facit-matte\">\\[10{,}00-3{,}46\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(10\\) och \\(3{,}46\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[10-3{,}46=6{,}54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}54\\)</p></div>",
+        "ledtrad": "<p>Ställ upp talen så att decimaltecknen hamnar under varandra.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Ställ upp talen så att decimaltecknen hamnar under varandra.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1344",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna utan räknare.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(0{,}45\\cdot 100\\)</div><div>b) \\(62{,}5\\div 1000\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger 100: flytta decimaltecknet 2 steg åt höger</p><div class=\"facit-matte\">\\[0{,}45\\cdot 100=45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(45\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Delat med 1000: flytta decimaltecknet 3 steg åt vänster</p><div class=\"facit-matte\">\\[62{,}5\\div 1000=0{,}0625\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0625\\)</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      45,
+      0.0625
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(0{,}45\\cdot 100\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger 100: flytta decimaltecknet 2 steg åt höger</p><div class=\"facit-matte\">\\[0{,}45\\cdot 100=45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(45\\)</p></div>",
+        "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när du multiplicerar med 100?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(62{,}5\\div 1000\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Delat med 1000: flytta decimaltecknet 3 steg åt vänster</p><div class=\"facit-matte\">\\[62{,}5\\div 1000=0{,}0625\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0625\\)</p></div>",
+        "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när du dividerar med 1000?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Åt vilket håll flyttas decimaltecknet när du multiplicerar med 100?</p><p><strong>b)</strong> Åt vilket håll flyttas decimaltecknet när du dividerar med 1000?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1345",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Beräkna utan räknare.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2{,}4\\cdot 3\\)</div><div>b) \\(1{,}5\\cdot 0{,}4\\)</div><div>c) \\(0{,}3\\cdot 0{,}07\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna först utan decimaltecken: \\(24\\cdot 3\\)</p><div class=\"facit-matte\">\\[24\\cdot 3=72\\]</div></li><li><p class=\"facit-rubrik\">Faktorerna har tillsammans 1 decimal, så svaret får 1 decimal</p><div class=\"facit-matte\">\\[2{,}4\\cdot 3=7{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}2\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna först utan decimaltecken: \\(15\\cdot 4\\)</p><div class=\"facit-matte\">\\[15\\cdot 4=60\\]</div></li><li><p class=\"facit-rubrik\">Faktorerna har tillsammans 2 decimaler, så svaret får 2 decimaler</p><div class=\"facit-matte\">\\[1{,}5\\cdot 0{,}4=0{,}60=0{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}6\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna först utan decimaltecken: \\(3\\cdot 7\\)</p><div class=\"facit-matte\">\\[3\\cdot 7=21\\]</div></li><li><p class=\"facit-rubrik\">Faktorerna har tillsammans 3 decimaler, så svaret får 3 decimaler</p><div class=\"facit-matte\">\\[0{,}3\\cdot 0{,}07=0{,}021\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}021\\)</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      7.2,
+      0.6,
+      0.021
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(2{,}4\\cdot 3\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna först utan decimaltecken: \\(24\\cdot 3\\)</p><div class=\"facit-matte\">\\[24\\cdot 3=72\\]</div></li><li><p class=\"facit-rubrik\">Faktorerna har tillsammans 1 decimal, så svaret får 1 decimal</p><div class=\"facit-matte\">\\[2{,}4\\cdot 3=7{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}2\\)</p></div>",
+        "ledtrad": "<p>Räkna som om det inte fanns några decimaltecken. Hur många decimaler har faktorerna tillsammans?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(1{,}5\\cdot 0{,}4\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna först utan decimaltecken: \\(15\\cdot 4\\)</p><div class=\"facit-matte\">\\[15\\cdot 4=60\\]</div></li><li><p class=\"facit-rubrik\">Faktorerna har tillsammans 2 decimaler, så svaret får 2 decimaler</p><div class=\"facit-matte\">\\[1{,}5\\cdot 0{,}4=0{,}60=0{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}6\\)</p></div>",
+        "ledtrad": "<p>Räkna som om det inte fanns några decimaltecken. Hur många decimaler har faktorerna tillsammans?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(0{,}3\\cdot 0{,}07\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna först utan decimaltecken: \\(3\\cdot 7\\)</p><div class=\"facit-matte\">\\[3\\cdot 7=21\\]</div></li><li><p class=\"facit-rubrik\">Faktorerna har tillsammans 3 decimaler, så svaret får 3 decimaler</p><div class=\"facit-matte\">\\[0{,}3\\cdot 0{,}07=0{,}021\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}021\\)</p></div>",
+        "ledtrad": "<p>Räkna som om det inte fanns några decimaltecken. Hur många decimaler har faktorerna tillsammans?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Räkna som om det inte fanns några decimaltecken. Hur många decimaler har faktorerna tillsammans?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1346",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Beräkna utan räknare.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(8{,}4\\div 4\\)</div><div>b) \\(4{,}8\\div 0{,}6\\)</div><div>c) \\(0{,}36\\div 0{,}04\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela \\(8{,}4\\) med 4 som vanligt och behåll decimaltecknet på samma plats</p><div class=\"facit-matte\">\\[8{,}4\\div 4=2{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}1\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng med 10 så att nämnaren blir ett heltal</p><div class=\"facit-matte\">\\[\\frac{4{,}8}{0{,}6}=\\frac{48}{6}\\]</div></li><li><p class=\"facit-rubrik\">Nu delar vi med heltalet 6</p><div class=\"facit-matte\">\\[48\\div 6=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng med 100 så att nämnaren blir ett heltal</p><div class=\"facit-matte\">\\[\\frac{0{,}36}{0{,}04}=\\frac{36}{4}\\]</div></li><li><p class=\"facit-rubrik\">Nu delar vi med heltalet 4</p><div class=\"facit-matte\">\\[36\\div 4=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\)</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      2.1,
+      8,
+      9
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(8{,}4\\div 4\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela \\(8{,}4\\) med 4 som vanligt och behåll decimaltecknet på samma plats</p><div class=\"facit-matte\">\\[8{,}4\\div 4=2{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}1\\)</p></div>",
+        "ledtrad": "<p>Dela som om det vore heltal. Var hamnar decimaltecknet?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(4{,}8\\div 0{,}6\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng med 10 så att nämnaren blir ett heltal</p><div class=\"facit-matte\">\\[\\frac{4{,}8}{0{,}6}=\\frac{48}{6}\\]</div></li><li><p class=\"facit-rubrik\">Nu delar vi med heltalet 6</p><div class=\"facit-matte\">\\[48\\div 6=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\)</p></div>",
+        "ledtrad": "<p>Multiplicera båda talen med 10. Då ändras inte kvoten, men du delar med ett heltal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(0{,}36\\div 0{,}04\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng med 100 så att nämnaren blir ett heltal</p><div class=\"facit-matte\">\\[\\frac{0{,}36}{0{,}04}=\\frac{36}{4}\\]</div></li><li><p class=\"facit-rubrik\">Nu delar vi med heltalet 4</p><div class=\"facit-matte\">\\[36\\div 4=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\)</p></div>",
+        "ledtrad": "<p>Multiplicera båda talen med 100. Då ändras inte kvoten, men du delar med ett heltal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Dela som om det vore heltal. Var hamnar decimaltecknet?</p><p><strong>b)</strong> Multiplicera båda talen med 10. Då ändras inte kvoten, men du delar med ett heltal.</p><p><strong>c)</strong> Multiplicera båda talen med 100. Då ändras inte kvoten, men du delar med ett heltal.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1347",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(5{,}06-2{,}8\\) utan räknare.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyll på med nollor så att båda talen har 2 decimaler</p><div class=\"facit-matte\">\\[5{,}06-2{,}80\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(5{,}06\\) och \\(2{,}8\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[5{,}06-2{,}8=2{,}26\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}26\\)</p></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.26,
+    "tolerans": 1e-09,
+    "svarFormat": "decimalform",
+    "ledtrad": "<p>Ställ upp talen så att decimaltecknen hamnar under varandra.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1348",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(3{,}2\\cdot 1{,}5\\) utan räknare.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna först utan decimaltecken: \\(32\\cdot 15\\)</p><div class=\"facit-matte\">\\[32\\cdot 15=480\\]</div></li><li><p class=\"facit-rubrik\">Faktorerna har tillsammans 2 decimaler, så svaret får 2 decimaler</p><div class=\"facit-matte\">\\[3{,}2\\cdot 1{,}5=4{,}80=4{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}8\\)</p></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.8,
+    "tolerans": 1e-09,
+    "svarFormat": "decimalform",
+    "ledtrad": "<p>Räkna som om det inte fanns några decimaltecken. Hur många decimaler har faktorerna tillsammans?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1349",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Beräkna utan räknare.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(0{,}7+0{,}65\\)</div><div>b) \\(6-0{,}25\\)</div><div>c) \\(2{,}5\\cdot 2{,}5\\)</div><div>d) \\(1{,}2\\div 0{,}03\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyll på med nollor så att båda talen har 2 decimaler</p><div class=\"facit-matte\">\\[0{,}70+0{,}65\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(0{,}7\\) och \\(0{,}65\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[0{,}7+0{,}65=1{,}35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}35\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyll på med nollor så att båda talen har 2 decimaler</p><div class=\"facit-matte\">\\[6{,}00-0{,}25\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(6\\) och \\(0{,}25\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[6-0{,}25=5{,}75\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}75\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna först utan decimaltecken: \\(25\\cdot 25\\)</p><div class=\"facit-matte\">\\[25\\cdot 25=625\\]</div></li><li><p class=\"facit-rubrik\">Faktorerna har tillsammans 2 decimaler, så svaret får 2 decimaler</p><div class=\"facit-matte\">\\[2{,}5\\cdot 2{,}5=6{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}25\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng med 100 så att nämnaren blir ett heltal</p><div class=\"facit-matte\">\\[\\frac{1{,}2}{0{,}03}=\\frac{120}{3}\\]</div></li><li><p class=\"facit-rubrik\">Nu delar vi med heltalet 3</p><div class=\"facit-matte\">\\[120\\div 3=40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\)</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      1.35,
+      5.75,
+      6.25,
+      40
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(0{,}7+0{,}65\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyll på med nollor så att båda talen har 2 decimaler</p><div class=\"facit-matte\">\\[0{,}70+0{,}65\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(0{,}7\\) och \\(0{,}65\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[0{,}7+0{,}65=1{,}35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}35\\)</p></div>",
+        "ledtrad": "<p>Ställ upp talen så att decimaltecknen hamnar under varandra.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(6-0{,}25\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyll på med nollor så att båda talen har 2 decimaler</p><div class=\"facit-matte\">\\[6{,}00-0{,}25\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(6\\) och \\(0{,}25\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[6-0{,}25=5{,}75\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}75\\)</p></div>",
+        "ledtrad": "<p>Ställ upp talen så att decimaltecknen hamnar under varandra.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(2{,}5\\cdot 2{,}5\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna först utan decimaltecken: \\(25\\cdot 25\\)</p><div class=\"facit-matte\">\\[25\\cdot 25=625\\]</div></li><li><p class=\"facit-rubrik\">Faktorerna har tillsammans 2 decimaler, så svaret får 2 decimaler</p><div class=\"facit-matte\">\\[2{,}5\\cdot 2{,}5=6{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}25\\)</p></div>",
+        "ledtrad": "<p>Räkna som om det inte fanns några decimaltecken. Hur många decimaler har faktorerna tillsammans?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(1{,}2\\div 0{,}03\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng med 100 så att nämnaren blir ett heltal</p><div class=\"facit-matte\">\\[\\frac{1{,}2}{0{,}03}=\\frac{120}{3}\\]</div></li><li><p class=\"facit-rubrik\">Nu delar vi med heltalet 3</p><div class=\"facit-matte\">\\[120\\div 3=40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\)</p></div>",
+        "ledtrad": "<p>Multiplicera båda talen med 100. Då ändras inte kvoten, men du delar med ett heltal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Ställ upp talen så att decimaltecknen hamnar under varandra.</p><p><strong>b)</strong> Ställ upp talen så att decimaltecknen hamnar under varandra.</p><p><strong>c)</strong> Räkna som om det inte fanns några decimaltecken. Hur många decimaler har faktorerna tillsammans?</p><p><strong>d)</strong> Multiplicera båda talen med 100. Då ändras inte kvoten, men du delar med ett heltal.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1350",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Beräkna utan räknare.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(0{,}08\\cdot 1000\\)</div><div>b) \\(4{,}5\\div 100\\)</div><div>c) \\(7\\div 0{,}5\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger 1000: flytta decimaltecknet 3 steg åt höger</p><div class=\"facit-matte\">\\[0{,}08\\cdot 1000=80\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Delat med 100: flytta decimaltecknet 2 steg åt vänster</p><div class=\"facit-matte\">\\[4{,}5\\div 100=0{,}045\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}045\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng med 10 så att nämnaren blir ett heltal</p><div class=\"facit-matte\">\\[\\frac{7}{0{,}5}=\\frac{70}{5}\\]</div></li><li><p class=\"facit-rubrik\">Nu delar vi med heltalet 5</p><div class=\"facit-matte\">\\[70\\div 5=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\)</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      80,
+      0.045,
+      14
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(0{,}08\\cdot 1000\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger 1000: flytta decimaltecknet 3 steg åt höger</p><div class=\"facit-matte\">\\[0{,}08\\cdot 1000=80\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\)</p></div>",
+        "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när du multiplicerar med 1000?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(4{,}5\\div 100\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Delat med 100: flytta decimaltecknet 2 steg åt vänster</p><div class=\"facit-matte\">\\[4{,}5\\div 100=0{,}045\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}045\\)</p></div>",
+        "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när du dividerar med 100?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(7\\div 0{,}5\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng med 10 så att nämnaren blir ett heltal</p><div class=\"facit-matte\">\\[\\frac{7}{0{,}5}=\\frac{70}{5}\\]</div></li><li><p class=\"facit-rubrik\">Nu delar vi med heltalet 5</p><div class=\"facit-matte\">\\[70\\div 5=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\)</p></div>",
+        "ledtrad": "<p>Multiplicera båda talen med 10. Då ändras inte kvoten, men du delar med ett heltal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Åt vilket håll flyttas decimaltecknet när du multiplicerar med 1000?</p><p><strong>b)</strong> Åt vilket håll flyttas decimaltecknet när du dividerar med 100?</p><p><strong>c)</strong> Multiplicera båda talen med 10. Då ändras inte kvoten, men du delar med ett heltal.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1351",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(9{,}6\\div 0{,}8\\) utan räknare.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng med 10 så att nämnaren blir ett heltal</p><div class=\"facit-matte\">\\[\\frac{9{,}6}{0{,}8}=\\frac{96}{8}\\]</div></li><li><p class=\"facit-rubrik\">Nu delar vi med heltalet 8</p><div class=\"facit-matte\">\\[96\\div 8=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\)</p></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "svarFormat": "decimalform",
+    "ledtrad": "<p>Multiplicera båda talen med 10. Då ändras inte kvoten, men du delar med ett heltal.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1352",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna utan räknare.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(14{,}3-9{,}75\\)</div><div>b) \\(0{,}6\\cdot 0{,}6\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyll på med nollor så att båda talen har 2 decimaler</p><div class=\"facit-matte\">\\[14{,}30-9{,}75\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(14{,}3\\) och \\(9{,}75\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[14{,}3-9{,}75=4{,}55\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}55\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna först utan decimaltecken: \\(6\\cdot 6\\)</p><div class=\"facit-matte\">\\[6\\cdot 6=36\\]</div></li><li><p class=\"facit-rubrik\">Faktorerna har tillsammans 2 decimaler, så svaret får 2 decimaler</p><div class=\"facit-matte\">\\[0{,}6\\cdot 0{,}6=0{,}36\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}36\\)</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      4.55,
+      0.36
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(14{,}3-9{,}75\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyll på med nollor så att båda talen har 2 decimaler</p><div class=\"facit-matte\">\\[14{,}30-9{,}75\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(14{,}3\\) och \\(9{,}75\\) med decimaltecknen under varandra</p><div class=\"facit-matte\">\\[14{,}3-9{,}75=4{,}55\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}55\\)</p></div>",
+        "ledtrad": "<p>Ställ upp talen så att decimaltecknen hamnar under varandra.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna utan räknare.</p><div class=\"spel-en-del\">\\(0{,}6\\cdot 0{,}6\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna först utan decimaltecken: \\(6\\cdot 6\\)</p><div class=\"facit-matte\">\\[6\\cdot 6=36\\]</div></li><li><p class=\"facit-rubrik\">Faktorerna har tillsammans 2 decimaler, så svaret får 2 decimaler</p><div class=\"facit-matte\">\\[0{,}6\\cdot 0{,}6=0{,}36\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}36\\)</p></div>",
+        "ledtrad": "<p>Räkna som om det inte fanns några decimaltecken. Hur många decimaler har faktorerna tillsammans?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Ställ upp talen så att decimaltecknen hamnar under varandra.</p><p><strong>b)</strong> Räkna som om det inte fanns några decimaltecken. Hur många decimaler har faktorerna tillsammans?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1353",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Gör om till den angivna enheten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(3{,}5\\ \\text{km}\\) i m.</div><div>b) Skriv \\(250\\ \\text{cm}\\) i m.</div><div>c) Skriv \\(0{,}8\\ \\text{kg}\\) i g.</div><div>d) Skriv \\(45\\ \\text{mm}\\) i dm.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 km = 1000 m, så multiplicera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{km}=1000\\ \\text{m}\\]</div><div class=\"facit-matte\">\\[3{,}5\\cdot 1000=3500\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3500\\) m</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 m = 100 cm, så dividera med 100</p><div class=\"facit-matte\">\\[1\\ \\text{m}=100\\ \\text{cm}\\]</div><div class=\"facit-matte\">\\[250\\div 100=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) m</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 kg = 1000 g, så multiplicera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{kg}=1000\\ \\text{g}\\]</div><div class=\"facit-matte\">\\[0{,}8\\cdot 1000=800\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(800\\) g</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dm = 100 mm, så dividera med 100</p><div class=\"facit-matte\">\\[1\\ \\text{dm}=100\\ \\text{mm}\\]</div><div class=\"facit-matte\">\\[45\\div 100=0{,}45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}45\\) dm</p></div></div>",
+    "familj": "Längd, massa och tid",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      3500,
+      2.5,
+      800,
+      0.45
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(3{,}5\\ \\text{km}\\) i m.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 km = 1000 m, så multiplicera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{km}=1000\\ \\text{m}\\]</div><div class=\"facit-matte\">\\[3{,}5\\cdot 1000=3500\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3500\\) m</p></div>",
+        "ledtrad": "<p>Hur många m går det på 1 km? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(250\\ \\text{cm}\\) i m.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 m = 100 cm, så dividera med 100</p><div class=\"facit-matte\">\\[1\\ \\text{m}=100\\ \\text{cm}\\]</div><div class=\"facit-matte\">\\[250\\div 100=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) m</p></div>",
+        "ledtrad": "<p>Hur många cm går det på 1 m? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Skriv \\(0{,}8\\ \\text{kg}\\) i g.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 kg = 1000 g, så multiplicera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{kg}=1000\\ \\text{g}\\]</div><div class=\"facit-matte\">\\[0{,}8\\cdot 1000=800\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(800\\) g</p></div>",
+        "ledtrad": "<p>Hur många g går det på 1 kg? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Skriv \\(45\\ \\text{mm}\\) i dm.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dm = 100 mm, så dividera med 100</p><div class=\"facit-matte\">\\[1\\ \\text{dm}=100\\ \\text{mm}\\]</div><div class=\"facit-matte\">\\[45\\div 100=0{,}45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}45\\) dm</p></div>",
+        "ledtrad": "<p>Hur många mm går det på 1 dm? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Hur många m går det på 1 km? Ska talet bli större eller mindre?</p><p><strong>b)</strong> Hur många cm går det på 1 m? Ska talet bli större eller mindre?</p><p><strong>c)</strong> Hur många g går det på 1 kg? Ska talet bli större eller mindre?</p><p><strong>d)</strong> Hur många mm går det på 1 dm? Ska talet bli större eller mindre?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      "m",
+      "m",
+      "g",
+      "dm"
+    ]
+  },
+  {
+    "id": "0.1354",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Gör om till den angivna enheten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(1500\\ \\text{g}\\) i kg.</div><div>b) Skriv \\(2{,}3\\ \\text{ton}\\) i kg.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 kg = 1000 g, så dividera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{kg}=1000\\ \\text{g}\\]</div><div class=\"facit-matte\">\\[1500\\div 1000=1{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) kg</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 ton = 1000 kg, så multiplicera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{ton}=1000\\ \\text{kg}\\]</div><div class=\"facit-matte\">\\[2{,}3\\cdot 1000=2300\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2300\\) kg</p></div></div>",
+    "familj": "Längd, massa och tid",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      1.5,
+      2300
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(1500\\ \\text{g}\\) i kg.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 kg = 1000 g, så dividera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{kg}=1000\\ \\text{g}\\]</div><div class=\"facit-matte\">\\[1500\\div 1000=1{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) kg</p></div>",
+        "ledtrad": "<p>Hur många g går det på 1 kg? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(2{,}3\\ \\text{ton}\\) i kg.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 ton = 1000 kg, så multiplicera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{ton}=1000\\ \\text{kg}\\]</div><div class=\"facit-matte\">\\[2{,}3\\cdot 1000=2300\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2300\\) kg</p></div>",
+        "ledtrad": "<p>Hur många kg går det på 1 ton? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Hur många g går det på 1 kg? Ska talet bli större eller mindre?</p><p><strong>b)</strong> Hur många kg går det på 1 ton? Ska talet bli större eller mindre?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      "kg",
+      "kg"
+    ]
+  },
+  {
+    "id": "0.1355",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Gör om till den angivna enheten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(3\\ \\text{h}\\) i min.</div><div>b) Skriv \\(150\\ \\text{min}\\) i h.</div><div>c) Skriv \\(0{,}75\\ \\text{h}\\) i min.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 h = 60 min, så multiplicera med 60</p><div class=\"facit-matte\">\\[1\\ \\text{h}=60\\ \\text{min}\\]</div><div class=\"facit-matte\">\\[3\\cdot 60=180\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(180\\) min</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 h = 60 min, så dividera med 60</p><div class=\"facit-matte\">\\[1\\ \\text{h}=60\\ \\text{min}\\]</div><div class=\"facit-matte\">\\[150\\div 60=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) h</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 h = 60 min, så multiplicera med 60</p><div class=\"facit-matte\">\\[1\\ \\text{h}=60\\ \\text{min}\\]</div><div class=\"facit-matte\">\\[0{,}75\\cdot 60=45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(45\\) min</p></div></div>",
+    "familj": "Längd, massa och tid",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      180,
+      2.5,
+      45
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(3\\ \\text{h}\\) i min.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 h = 60 min, så multiplicera med 60</p><div class=\"facit-matte\">\\[1\\ \\text{h}=60\\ \\text{min}\\]</div><div class=\"facit-matte\">\\[3\\cdot 60=180\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(180\\) min</p></div>",
+        "ledtrad": "<p>Hur många min går det på 1 h? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(150\\ \\text{min}\\) i h.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 h = 60 min, så dividera med 60</p><div class=\"facit-matte\">\\[1\\ \\text{h}=60\\ \\text{min}\\]</div><div class=\"facit-matte\">\\[150\\div 60=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) h</p></div>",
+        "ledtrad": "<p>Hur många min går det på 1 h? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Skriv \\(0{,}75\\ \\text{h}\\) i min.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 h = 60 min, så multiplicera med 60</p><div class=\"facit-matte\">\\[1\\ \\text{h}=60\\ \\text{min}\\]</div><div class=\"facit-matte\">\\[0{,}75\\cdot 60=45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(45\\) min</p></div>",
+        "ledtrad": "<p>Hur många min går det på 1 h? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Hur många min går det på 1 h? Ska talet bli större eller mindre?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      "min",
+      "h",
+      "min"
+    ]
+  },
+  {
+    "id": "0.1356",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(720\\ \\text{mg}\\) i g.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 g = 1000 mg, så dividera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{g}=1000\\ \\text{mg}\\]</div><div class=\"facit-matte\">\\[720\\div 1000=0{,}72\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}72\\) g</p></div>",
+    "familj": "Längd, massa och tid",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.72,
+    "tolerans": 1e-09,
+    "svarFormat": "decimalform",
+    "ledtrad": "<p>Hur många mg går det på 1 g? Ska talet bli större eller mindre?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "svarEnhet": "g"
+  },
+  {
+    "id": "0.1357",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Gör om till den angivna enheten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(4{,}2\\ \\text{dl}\\) i l.</div><div>b) Skriv \\(350\\ \\text{ml}\\) i dl.</div><div>c) Skriv \\(0{,}6\\ \\text{l}\\) i cl.</div><div>d) Skriv \\(2{,}5\\ \\text{dm³}\\) i l.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 l = 10 dl, så dividera med 10</p><div class=\"facit-matte\">\\[1\\ \\text{l}=10\\ \\text{dl}\\]</div><div class=\"facit-matte\">\\[4{,}2\\div 10=0{,}42\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}42\\) l</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dl = 100 ml, så dividera med 100</p><div class=\"facit-matte\">\\[1\\ \\text{dl}=100\\ \\text{ml}\\]</div><div class=\"facit-matte\">\\[350\\div 100=3{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}5\\) dl</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 l = 100 cl, så multiplicera med 100</p><div class=\"facit-matte\">\\[1\\ \\text{l}=100\\ \\text{cl}\\]</div><div class=\"facit-matte\">\\[0{,}6\\cdot 100=60\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\) cl</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dm³ = 1 l, så talet blir detsamma</p><div class=\"facit-matte\">\\[2{,}5\\ \\text{dm³}=2{,}5\\ \\text{l}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) l</p></div></div>",
+    "familj": "Längd, massa och tid",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      0.42,
+      3.5,
+      60,
+      2.5
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(4{,}2\\ \\text{dl}\\) i l.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 l = 10 dl, så dividera med 10</p><div class=\"facit-matte\">\\[1\\ \\text{l}=10\\ \\text{dl}\\]</div><div class=\"facit-matte\">\\[4{,}2\\div 10=0{,}42\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}42\\) l</p></div>",
+        "ledtrad": "<p>Hur många dl går det på 1 l? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(350\\ \\text{ml}\\) i dl.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dl = 100 ml, så dividera med 100</p><div class=\"facit-matte\">\\[1\\ \\text{dl}=100\\ \\text{ml}\\]</div><div class=\"facit-matte\">\\[350\\div 100=3{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}5\\) dl</p></div>",
+        "ledtrad": "<p>Hur många ml går det på 1 dl? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Skriv \\(0{,}6\\ \\text{l}\\) i cl.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 l = 100 cl, så multiplicera med 100</p><div class=\"facit-matte\">\\[1\\ \\text{l}=100\\ \\text{cl}\\]</div><div class=\"facit-matte\">\\[0{,}6\\cdot 100=60\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\) cl</p></div>",
+        "ledtrad": "<p>Hur många cl går det på 1 l? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Skriv \\(2{,}5\\ \\text{dm³}\\) i l.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dm³ = 1 l, så talet blir detsamma</p><div class=\"facit-matte\">\\[2{,}5\\ \\text{dm³}=2{,}5\\ \\text{l}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) l</p></div>",
+        "ledtrad": "<p>Hur stor är 1 dm³ jämfört med 1 l?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Hur många dl går det på 1 l? Ska talet bli större eller mindre?</p><p><strong>b)</strong> Hur många ml går det på 1 dl? Ska talet bli större eller mindre?</p><p><strong>c)</strong> Hur många cl går det på 1 l? Ska talet bli större eller mindre?</p><p><strong>d)</strong> Hur stor är 1 dm³ jämfört med 1 l?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      "l",
+      "dl",
+      "cl",
+      "l"
+    ]
+  },
+  {
+    "id": "0.1358",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Gör om till den angivna enheten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(7\\ \\text{dm}\\) i cm.</div><div>b) Skriv \\(0{,}04\\ \\text{km}\\) i m.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dm = 10 cm, så multiplicera med 10</p><div class=\"facit-matte\">\\[1\\ \\text{dm}=10\\ \\text{cm}\\]</div><div class=\"facit-matte\">\\[7\\cdot 10=70\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(70\\) cm</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 km = 1000 m, så multiplicera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{km}=1000\\ \\text{m}\\]</div><div class=\"facit-matte\">\\[0{,}04\\cdot 1000=40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\) m</p></div></div>",
+    "familj": "Längd, massa och tid",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      70,
+      40
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(7\\ \\text{dm}\\) i cm.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dm = 10 cm, så multiplicera med 10</p><div class=\"facit-matte\">\\[1\\ \\text{dm}=10\\ \\text{cm}\\]</div><div class=\"facit-matte\">\\[7\\cdot 10=70\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(70\\) cm</p></div>",
+        "ledtrad": "<p>Hur många cm går det på 1 dm? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(0{,}04\\ \\text{km}\\) i m.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 km = 1000 m, så multiplicera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{km}=1000\\ \\text{m}\\]</div><div class=\"facit-matte\">\\[0{,}04\\cdot 1000=40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\) m</p></div>",
+        "ledtrad": "<p>Hur många m går det på 1 km? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Hur många cm går det på 1 dm? Ska talet bli större eller mindre?</p><p><strong>b)</strong> Hur många m går det på 1 km? Ska talet bli större eller mindre?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      "cm",
+      "m"
+    ]
+  },
+  {
+    "id": "0.1359",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Gör om till den angivna enheten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(3\\ \\text{m²}\\) i dm².</div><div>b) Skriv \\(450\\ \\text{cm²}\\) i dm².</div><div>c) Skriv \\(2\\ \\text{m²}\\) i cm².</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 m = 10 dm, så 1 m² = 10 · 10 dm²</p><div class=\"facit-matte\">\\[1\\ \\text{m²}=100\\ \\text{dm²}\\]</div></li><li><p class=\"facit-rubrik\">1 m² = 100 dm², så multiplicera med 100</p><div class=\"facit-matte\">\\[3\\cdot 100=300\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(300\\) dm²</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dm = 10 cm, så 1 dm² = 10 · 10 cm²</p><div class=\"facit-matte\">\\[1\\ \\text{dm²}=100\\ \\text{cm²}\\]</div></li><li><p class=\"facit-rubrik\">1 dm² = 100 cm², så dividera med 100</p><div class=\"facit-matte\">\\[450\\div 100=4{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\) dm²</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 m = 100 cm, så 1 m² = 100 · 100 cm²</p><div class=\"facit-matte\">\\[1\\ \\text{m²}=10\\ 000\\ \\text{cm²}\\]</div></li><li><p class=\"facit-rubrik\">1 m² = 10 000 cm², så multiplicera med 10 000</p><div class=\"facit-matte\">\\[2\\cdot 10\\ 000=20\\ 000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ 000\\) cm²</p></div></div>",
+    "familj": "Area- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      300,
+      4.5,
+      20000
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(3\\ \\text{m²}\\) i dm².</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 m = 10 dm, så 1 m² = 10 · 10 dm²</p><div class=\"facit-matte\">\\[1\\ \\text{m²}=100\\ \\text{dm²}\\]</div></li><li><p class=\"facit-rubrik\">1 m² = 100 dm², så multiplicera med 100</p><div class=\"facit-matte\">\\[3\\cdot 100=300\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(300\\) dm²</p></div>",
+        "ledtrad": "<p>Hur många dm² går det på 1 m²? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(450\\ \\text{cm²}\\) i dm².</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dm = 10 cm, så 1 dm² = 10 · 10 cm²</p><div class=\"facit-matte\">\\[1\\ \\text{dm²}=100\\ \\text{cm²}\\]</div></li><li><p class=\"facit-rubrik\">1 dm² = 100 cm², så dividera med 100</p><div class=\"facit-matte\">\\[450\\div 100=4{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\) dm²</p></div>",
+        "ledtrad": "<p>Hur många cm² går det på 1 dm²? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Skriv \\(2\\ \\text{m²}\\) i cm².</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 m = 100 cm, så 1 m² = 100 · 100 cm²</p><div class=\"facit-matte\">\\[1\\ \\text{m²}=10\\ 000\\ \\text{cm²}\\]</div></li><li><p class=\"facit-rubrik\">1 m² = 10 000 cm², så multiplicera med 10 000</p><div class=\"facit-matte\">\\[2\\cdot 10\\ 000=20\\ 000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ 000\\) cm²</p></div>",
+        "ledtrad": "<p>Hur många cm² går det på 1 m²? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Hur många dm² går det på 1 m²? Ska talet bli större eller mindre?</p><p><strong>b)</strong> Hur många cm² går det på 1 dm²? Ska talet bli större eller mindre?</p><p><strong>c)</strong> Hur många cm² går det på 1 m²? Ska talet bli större eller mindre?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      "dm²",
+      "dm²",
+      "cm²"
+    ]
+  },
+  {
+    "id": "0.1360",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Gör om till den angivna enheten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(5\\ \\text{dm³}\\) i cm³.</div><div>b) Skriv \\(0{,}4\\ \\text{m³}\\) i l.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dm = 10 cm, så 1 dm³ = 10 · 10 · 10 cm³</p><div class=\"facit-matte\">\\[1\\ \\text{dm³}=1000\\ \\text{cm³}\\]</div></li><li><p class=\"facit-rubrik\">1 dm³ = 1000 cm³, så multiplicera med 1000</p><div class=\"facit-matte\">\\[5\\cdot 1000=5000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5000\\) cm³</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 m³ = 1000 l, så multiplicera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{m³}=1000\\ \\text{l}\\]</div><div class=\"facit-matte\">\\[0{,}4\\cdot 1000=400\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\) l</p></div></div>",
+    "familj": "Area- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      5000,
+      400
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(5\\ \\text{dm³}\\) i cm³.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dm = 10 cm, så 1 dm³ = 10 · 10 · 10 cm³</p><div class=\"facit-matte\">\\[1\\ \\text{dm³}=1000\\ \\text{cm³}\\]</div></li><li><p class=\"facit-rubrik\">1 dm³ = 1000 cm³, så multiplicera med 1000</p><div class=\"facit-matte\">\\[5\\cdot 1000=5000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5000\\) cm³</p></div>",
+        "ledtrad": "<p>Hur många cm³ går det på 1 dm³? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(0{,}4\\ \\text{m³}\\) i l.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 m³ = 1000 l, så multiplicera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{m³}=1000\\ \\text{l}\\]</div><div class=\"facit-matte\">\\[0{,}4\\cdot 1000=400\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\) l</p></div>",
+        "ledtrad": "<p>Hur många l går det på 1 m³? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Hur många cm³ går det på 1 dm³? Ska talet bli större eller mindre?</p><p><strong>b)</strong> Hur många l går det på 1 m³? Ska talet bli större eller mindre?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      "cm³",
+      "l"
+    ]
+  },
+  {
+    "id": "0.1361",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(25\\ 000\\ \\text{cm²}\\) i m².</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 m = 100 cm, så 1 m² = 100 · 100 cm²</p><div class=\"facit-matte\">\\[1\\ \\text{m²}=10\\ 000\\ \\text{cm²}\\]</div></li><li><p class=\"facit-rubrik\">1 m² = 10 000 cm², så dividera med 10 000</p><div class=\"facit-matte\">\\[25\\ 000\\div 10\\ 000=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) m²</p></div>",
+    "familj": "Area- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.5,
+    "tolerans": 1e-09,
+    "svarFormat": "decimalform",
+    "ledtrad": "<p>Hur många cm² går det på 1 m²? Ska talet bli större eller mindre?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "svarEnhet": "m²"
+  },
+  {
+    "id": "0.1362",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Gör om till den angivna enheten.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(1{,}2\\ \\text{l}\\) i cm³.</div><div>b) Skriv \\(800\\ \\text{cm³}\\) i dm³.</div><div>c) Skriv \\(3\\ \\text{m³}\\) i dm³.</div><div>d) Skriv \\(0{,}05\\ \\text{km²}\\) i m².</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 l = 1000 cm³, så multiplicera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{l}=1000\\ \\text{cm³}\\]</div><div class=\"facit-matte\">\\[1{,}2\\cdot 1000=1200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1200\\) cm³</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dm = 10 cm, så 1 dm³ = 10 · 10 · 10 cm³</p><div class=\"facit-matte\">\\[1\\ \\text{dm³}=1000\\ \\text{cm³}\\]</div></li><li><p class=\"facit-rubrik\">1 dm³ = 1000 cm³, så dividera med 1000</p><div class=\"facit-matte\">\\[800\\div 1000=0{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}8\\) dm³</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 m = 10 dm, så 1 m³ = 10 · 10 · 10 dm³</p><div class=\"facit-matte\">\\[1\\ \\text{m³}=1000\\ \\text{dm³}\\]</div></li><li><p class=\"facit-rubrik\">1 m³ = 1000 dm³, så multiplicera med 1000</p><div class=\"facit-matte\">\\[3\\cdot 1000=3000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3000\\) dm³</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 km = 1000 m, så 1 km² = 1000 · 1000 m²</p><div class=\"facit-matte\">\\[1\\ \\text{km²}=1\\ 000\\ 000\\ \\text{m²}\\]</div></li><li><p class=\"facit-rubrik\">1 km² = 1 000 000 m², så multiplicera med 1 000 000</p><div class=\"facit-matte\">\\[0{,}05\\cdot 1\\ 000\\ 000=50\\ 000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ 000\\) m²</p></div></div>",
+    "familj": "Area- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      1200,
+      0.8,
+      3000,
+      50000
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(1{,}2\\ \\text{l}\\) i cm³.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 l = 1000 cm³, så multiplicera med 1000</p><div class=\"facit-matte\">\\[1\\ \\text{l}=1000\\ \\text{cm³}\\]</div><div class=\"facit-matte\">\\[1{,}2\\cdot 1000=1200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1200\\) cm³</p></div>",
+        "ledtrad": "<p>Hur många cm³ går det på 1 l? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(800\\ \\text{cm³}\\) i dm³.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 dm = 10 cm, så 1 dm³ = 10 · 10 · 10 cm³</p><div class=\"facit-matte\">\\[1\\ \\text{dm³}=1000\\ \\text{cm³}\\]</div></li><li><p class=\"facit-rubrik\">1 dm³ = 1000 cm³, så dividera med 1000</p><div class=\"facit-matte\">\\[800\\div 1000=0{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}8\\) dm³</p></div>",
+        "ledtrad": "<p>Hur många cm³ går det på 1 dm³? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Skriv \\(3\\ \\text{m³}\\) i dm³.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 m = 10 dm, så 1 m³ = 10 · 10 · 10 dm³</p><div class=\"facit-matte\">\\[1\\ \\text{m³}=1000\\ \\text{dm³}\\]</div></li><li><p class=\"facit-rubrik\">1 m³ = 1000 dm³, så multiplicera med 1000</p><div class=\"facit-matte\">\\[3\\cdot 1000=3000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3000\\) dm³</p></div>",
+        "ledtrad": "<p>Hur många dm³ går det på 1 m³? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Skriv \\(0{,}05\\ \\text{km²}\\) i m².</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 km = 1000 m, så 1 km² = 1000 · 1000 m²</p><div class=\"facit-matte\">\\[1\\ \\text{km²}=1\\ 000\\ 000\\ \\text{m²}\\]</div></li><li><p class=\"facit-rubrik\">1 km² = 1 000 000 m², så multiplicera med 1 000 000</p><div class=\"facit-matte\">\\[0{,}05\\cdot 1\\ 000\\ 000=50\\ 000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ 000\\) m²</p></div>",
+        "ledtrad": "<p>Hur många m² går det på 1 km²? Ska talet bli större eller mindre?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Hur många cm³ går det på 1 l? Ska talet bli större eller mindre?</p><p><strong>b)</strong> Hur många cm³ går det på 1 dm³? Ska talet bli större eller mindre?</p><p><strong>c)</strong> Hur många dm³ går det på 1 m³? Ska talet bli större eller mindre?</p><p><strong>d)</strong> Hur många m² går det på 1 km²? Ska talet bli större eller mindre?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      "cm³",
+      "dm³",
+      "dm³",
+      "m²"
+    ]
+  },
+  {
+    "id": "0.1363",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Beräkna \\(10\\,\\%\\) av \\(80\\).</div><div>b) Beräkna \\(25\\,\\%\\) av \\(60\\).</div><div>c) Beräkna \\(15\\,\\%\\) av \\(120\\).</div><div>d) Beräkna \\(4\\,\\%\\) av \\(350\\).</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">10 % = 0,1 i decimalform</p><div class=\"facit-matte\">\\[10\\,\\%=\\frac{10}{100}=0{,}1\\]</div></li><li><p class=\"facit-rubrik\">10 % av 80 är 0,1 gånger 80</p><div class=\"facit-matte\">\\[0{,}1\\cdot 80=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">25 % = 0,25 i decimalform</p><div class=\"facit-matte\">\\[25\\,\\%=\\frac{25}{100}=0{,}25\\]</div></li><li><p class=\"facit-rubrik\">25 % av 60 är 0,25 gånger 60</p><div class=\"facit-matte\">\\[0{,}25\\cdot 60=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">15 % = 0,15 i decimalform</p><div class=\"facit-matte\">\\[15\\,\\%=\\frac{15}{100}=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">15 % av 120 är 0,15 gånger 120</p><div class=\"facit-matte\">\\[0{,}15\\cdot 120=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">4 % = 0,04 i decimalform</p><div class=\"facit-matte\">\\[4\\,\\%=\\frac{4}{100}=0{,}04\\]</div></li><li><p class=\"facit-rubrik\">4 % av 350 är 0,04 gånger 350</p><div class=\"facit-matte\">\\[0{,}04\\cdot 350=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\)</p></div></div>",
+    "familj": "Beräkningar när procentsatsen är känd",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      8,
+      15,
+      18,
+      14
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna \\(10\\,\\%\\) av \\(80\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">10 % = 0,1 i decimalform</p><div class=\"facit-matte\">\\[10\\,\\%=\\frac{10}{100}=0{,}1\\]</div></li><li><p class=\"facit-rubrik\">10 % av 80 är 0,1 gånger 80</p><div class=\"facit-matte\">\\[0{,}1\\cdot 80=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\)</p></div>",
+        "ledtrad": "<p>Skriv 10 % i decimalform och multiplicera.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna \\(25\\,\\%\\) av \\(60\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">25 % = 0,25 i decimalform</p><div class=\"facit-matte\">\\[25\\,\\%=\\frac{25}{100}=0{,}25\\]</div></li><li><p class=\"facit-rubrik\">25 % av 60 är 0,25 gånger 60</p><div class=\"facit-matte\">\\[0{,}25\\cdot 60=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div>",
+        "ledtrad": "<p>Skriv 25 % i decimalform och multiplicera.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna \\(15\\,\\%\\) av \\(120\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">15 % = 0,15 i decimalform</p><div class=\"facit-matte\">\\[15\\,\\%=\\frac{15}{100}=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">15 % av 120 är 0,15 gånger 120</p><div class=\"facit-matte\">\\[0{,}15\\cdot 120=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\)</p></div>",
+        "ledtrad": "<p>Skriv 15 % i decimalform och multiplicera.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna \\(4\\,\\%\\) av \\(350\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">4 % = 0,04 i decimalform</p><div class=\"facit-matte\">\\[4\\,\\%=\\frac{4}{100}=0{,}04\\]</div></li><li><p class=\"facit-rubrik\">4 % av 350 är 0,04 gånger 350</p><div class=\"facit-matte\">\\[0{,}04\\cdot 350=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\)</p></div>",
+        "ledtrad": "<p>Skriv 4 % i decimalform och multiplicera.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Skriv 10 % i decimalform och multiplicera.</p><p><strong>b)</strong> Skriv 25 % i decimalform och multiplicera.</p><p><strong>c)</strong> Skriv 15 % i decimalform och multiplicera.</p><p><strong>d)</strong> Skriv 4 % i decimalform och multiplicera.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1364",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Beräkna \\(50\\,\\%\\) av \\(46\\).</div><div>b) Beräkna \\(75\\,\\%\\) av \\(200\\).</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">50 % = 0,5 i decimalform</p><div class=\"facit-matte\">\\[50\\,\\%=\\frac{50}{100}=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">50 % av 46 är 0,5 gånger 46</p><div class=\"facit-matte\">\\[0{,}5\\cdot 46=23\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(23\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">75 % = 0,75 i decimalform</p><div class=\"facit-matte\">\\[75\\,\\%=\\frac{75}{100}=0{,}75\\]</div></li><li><p class=\"facit-rubrik\">75 % av 200 är 0,75 gånger 200</p><div class=\"facit-matte\">\\[0{,}75\\cdot 200=150\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(150\\)</p></div></div>",
+    "familj": "Beräkningar när procentsatsen är känd",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      23,
+      150
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna \\(50\\,\\%\\) av \\(46\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">50 % = 0,5 i decimalform</p><div class=\"facit-matte\">\\[50\\,\\%=\\frac{50}{100}=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">50 % av 46 är 0,5 gånger 46</p><div class=\"facit-matte\">\\[0{,}5\\cdot 46=23\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(23\\)</p></div>",
+        "ledtrad": "<p>Skriv 50 % i decimalform och multiplicera.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna \\(75\\,\\%\\) av \\(200\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">75 % = 0,75 i decimalform</p><div class=\"facit-matte\">\\[75\\,\\%=\\frac{75}{100}=0{,}75\\]</div></li><li><p class=\"facit-rubrik\">75 % av 200 är 0,75 gånger 200</p><div class=\"facit-matte\">\\[0{,}75\\cdot 200=150\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(150\\)</p></div>",
+        "ledtrad": "<p>Skriv 75 % i decimalform och multiplicera.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Skriv 50 % i decimalform och multiplicera.</p><p><strong>b)</strong> Skriv 75 % i decimalform och multiplicera.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1365",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(30\\,\\%\\) av \\(250\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">30 % = 0,3 i decimalform</p><div class=\"facit-matte\">\\[30\\,\\%=\\frac{30}{100}=0{,}3\\]</div></li><li><p class=\"facit-rubrik\">30 % av 250 är 0,3 gånger 250</p><div class=\"facit-matte\">\\[0{,}3\\cdot 250=75\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\)</p></div>",
+    "familj": "Beräkningar när procentsatsen är känd",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 75,
+    "tolerans": 1e-09,
+    "svarFormat": "decimalform",
+    "ledtrad": "<p>Skriv 30 % i decimalform och multiplicera.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1366",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Beräkna \\(1\\,\\%\\) av \\(900\\).</div><div>b) Beräkna \\(12{,}5\\,\\%\\) av \\(80\\).</div><div>c) Beräkna \\(120\\,\\%\\) av \\(45\\).</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 % = 0,01 i decimalform</p><div class=\"facit-matte\">\\[1\\,\\%=\\frac{1}{100}=0{,}01\\]</div></li><li><p class=\"facit-rubrik\">1 % av 900 är 0,01 gånger 900</p><div class=\"facit-matte\">\\[0{,}01\\cdot 900=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">12,5 % = 0,125 i decimalform</p><div class=\"facit-matte\">\\[12{,}5\\,\\%=\\frac{12{,}5}{100}=0{,}125\\]</div></li><li><p class=\"facit-rubrik\">12,5 % av 80 är 0,125 gånger 80</p><div class=\"facit-matte\">\\[0{,}125\\cdot 80=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">120 % = 1,2 i decimalform</p><div class=\"facit-matte\">\\[120\\,\\%=\\frac{120}{100}=1{,}2\\]</div></li><li><p class=\"facit-rubrik\">120 % av 45 är 1,2 gånger 45</p><div class=\"facit-matte\">\\[1{,}2\\cdot 45=54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(54\\)</p></div></div>",
+    "familj": "Beräkningar när procentsatsen är känd",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      9,
+      10,
+      54
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna \\(1\\,\\%\\) av \\(900\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">1 % = 0,01 i decimalform</p><div class=\"facit-matte\">\\[1\\,\\%=\\frac{1}{100}=0{,}01\\]</div></li><li><p class=\"facit-rubrik\">1 % av 900 är 0,01 gånger 900</p><div class=\"facit-matte\">\\[0{,}01\\cdot 900=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\)</p></div>",
+        "ledtrad": "<p>Skriv 1 % i decimalform och multiplicera.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna \\(12{,}5\\,\\%\\) av \\(80\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">12,5 % = 0,125 i decimalform</p><div class=\"facit-matte\">\\[12{,}5\\,\\%=\\frac{12{,}5}{100}=0{,}125\\]</div></li><li><p class=\"facit-rubrik\">12,5 % av 80 är 0,125 gånger 80</p><div class=\"facit-matte\">\\[0{,}125\\cdot 80=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\)</p></div>",
+        "ledtrad": "<p>Skriv 12,5 % i decimalform och multiplicera.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna \\(120\\,\\%\\) av \\(45\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">120 % = 1,2 i decimalform</p><div class=\"facit-matte\">\\[120\\,\\%=\\frac{120}{100}=1{,}2\\]</div></li><li><p class=\"facit-rubrik\">120 % av 45 är 1,2 gånger 45</p><div class=\"facit-matte\">\\[1{,}2\\cdot 45=54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(54\\)</p></div>",
+        "ledtrad": "<p>Skriv 120 % i decimalform och multiplicera.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Skriv 1 % i decimalform och multiplicera.</p><p><strong>b)</strong> Skriv 12,5 % i decimalform och multiplicera.</p><p><strong>c)</strong> Skriv 120 % i decimalform och multiplicera.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1367",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(20\\,\\%\\) av \\(35\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">20 % = 0,2 i decimalform</p><div class=\"facit-matte\">\\[20\\,\\%=\\frac{20}{100}=0{,}2\\]</div></li><li><p class=\"facit-rubrik\">20 % av 35 är 0,2 gånger 35</p><div class=\"facit-matte\">\\[0{,}2\\cdot 35=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\)</p></div>",
+    "familj": "Beräkningar när procentsatsen är känd",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 1e-09,
+    "svarFormat": "decimalform",
+    "ledtrad": "<p>Skriv 20 % i decimalform och multiplicera.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1368",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(0{,}35\\) i procent.</div><div>b) Skriv \\(8\\,\\%\\) i decimalform.</div><div>c) Skriv \\(1{,}2\\) i procent.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Procent betyder hundradelar: multiplicera med 100</p><div class=\"facit-matte\">\\[0{,}35=35\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\) %</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Procent betyder hundradelar: dividera med 100</p><div class=\"facit-matte\">\\[8\\,\\%=\\frac{8}{100}=0{,}08\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}08\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Procent betyder hundradelar: multiplicera med 100</p><div class=\"facit-matte\">\\[1{,}2=120\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\) %</p></div></div>",
+    "familj": "Jämföra och omvandla andelar",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      35,
+      0.08,
+      120
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(0{,}35\\) i procent.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Procent betyder hundradelar: multiplicera med 100</p><div class=\"facit-matte\">\\[0{,}35=35\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\) %</p></div>",
+        "ledtrad": "<p>Hur många hundradelar är talet?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(8\\,\\%\\) i decimalform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Procent betyder hundradelar: dividera med 100</p><div class=\"facit-matte\">\\[8\\,\\%=\\frac{8}{100}=0{,}08\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}08\\)</p></div>",
+        "ledtrad": "<p>Procent betyder hundradelar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Skriv \\(1{,}2\\) i procent.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Procent betyder hundradelar: multiplicera med 100</p><div class=\"facit-matte\">\\[1{,}2=120\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\) %</p></div>",
+        "ledtrad": "<p>Hur många hundradelar är talet?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Hur många hundradelar är talet?</p><p><strong>b)</strong> Procent betyder hundradelar.</p><p><strong>c)</strong> Hur många hundradelar är talet?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      "%",
+      null,
+      "%"
+    ]
+  },
+  {
+    "id": "0.1369",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(42\\,\\%\\) i decimalform.</div><div>b) Skriv \\(0{,}075\\) i procent.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Procent betyder hundradelar: dividera med 100</p><div class=\"facit-matte\">\\[42\\,\\%=\\frac{42}{100}=0{,}42\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}42\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Procent betyder hundradelar: multiplicera med 100</p><div class=\"facit-matte\">\\[0{,}075=7{,}5\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\) %</p></div></div>",
+    "familj": "Jämföra och omvandla andelar",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      0.42,
+      7.5
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(42\\,\\%\\) i decimalform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Procent betyder hundradelar: dividera med 100</p><div class=\"facit-matte\">\\[42\\,\\%=\\frac{42}{100}=0{,}42\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}42\\)</p></div>",
+        "ledtrad": "<p>Procent betyder hundradelar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(0{,}075\\) i procent.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Procent betyder hundradelar: multiplicera med 100</p><div class=\"facit-matte\">\\[0{,}075=7{,}5\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}5\\) %</p></div>",
+        "ledtrad": "<p>Hur många hundradelar är talet?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Procent betyder hundradelar.</p><p><strong>b)</strong> Hur många hundradelar är talet?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      null,
+      "%"
+    ]
+  },
+  {
+    "id": "0.1370",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Hur många procent är \\(6\\) av \\(24\\)?</div><div>b) Hur många procent är \\(18\\) av \\(40\\)?</div><div>c) Hur många procent är \\(7\\) av \\(35\\)?</div><div>d) Hur många procent är \\(45\\) av \\(36\\)?</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela delen 6 med det hela 24</p><div class=\"facit-matte\">\\[\\frac{6}{24}=0{,}25\\]</div></li><li><p class=\"facit-rubrik\">Skriv andelen i procent: gånger 100</p><div class=\"facit-matte\">\\[0{,}25=\\ 25\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) %</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela delen 18 med det hela 40</p><div class=\"facit-matte\">\\[\\frac{18}{40}=0{,}45\\]</div></li><li><p class=\"facit-rubrik\">Skriv andelen i procent: gånger 100</p><div class=\"facit-matte\">\\[0{,}45=\\ 45\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(45\\) %</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela delen 7 med det hela 35</p><div class=\"facit-matte\">\\[\\frac{7}{35}=0{,}2\\]</div></li><li><p class=\"facit-rubrik\">Skriv andelen i procent: gånger 100</p><div class=\"facit-matte\">\\[0{,}2=\\ 20\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) %</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela delen 45 med det hela 36</p><div class=\"facit-matte\">\\[\\frac{45}{36}=1{,}25\\]</div></li><li><p class=\"facit-rubrik\">Skriv andelen i procent: gånger 100</p><div class=\"facit-matte\">\\[1{,}25=\\ 125\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(125\\) %</p></div></div>",
+    "familj": "Andel i procent",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      25,
+      45,
+      20,
+      125
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Hur många procent är \\(6\\) av \\(24\\)?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela delen 6 med det hela 24</p><div class=\"facit-matte\">\\[\\frac{6}{24}=0{,}25\\]</div></li><li><p class=\"facit-rubrik\">Skriv andelen i procent: gånger 100</p><div class=\"facit-matte\">\\[0{,}25=\\ 25\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) %</p></div>",
+        "ledtrad": "<p>Dela delen med det hela och skriv svaret i procent.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Hur många procent är \\(18\\) av \\(40\\)?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela delen 18 med det hela 40</p><div class=\"facit-matte\">\\[\\frac{18}{40}=0{,}45\\]</div></li><li><p class=\"facit-rubrik\">Skriv andelen i procent: gånger 100</p><div class=\"facit-matte\">\\[0{,}45=\\ 45\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(45\\) %</p></div>",
+        "ledtrad": "<p>Dela delen med det hela och skriv svaret i procent.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Hur många procent är \\(7\\) av \\(35\\)?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela delen 7 med det hela 35</p><div class=\"facit-matte\">\\[\\frac{7}{35}=0{,}2\\]</div></li><li><p class=\"facit-rubrik\">Skriv andelen i procent: gånger 100</p><div class=\"facit-matte\">\\[0{,}2=\\ 20\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) %</p></div>",
+        "ledtrad": "<p>Dela delen med det hela och skriv svaret i procent.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Hur många procent är \\(45\\) av \\(36\\)?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela delen 45 med det hela 36</p><div class=\"facit-matte\">\\[\\frac{45}{36}=1{,}25\\]</div></li><li><p class=\"facit-rubrik\">Skriv andelen i procent: gånger 100</p><div class=\"facit-matte\">\\[1{,}25=\\ 125\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(125\\) %</p></div>",
+        "ledtrad": "<p>Dela delen med det hela och skriv svaret i procent.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Dela delen med det hela och skriv svaret i procent.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      "%",
+      "%",
+      "%",
+      "%"
+    ]
+  },
+  {
+    "id": "0.1371",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många procent är \\(9\\) av \\(150\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela delen 9 med det hela 150</p><div class=\"facit-matte\">\\[\\frac{9}{150}=0{,}06\\]</div></li><li><p class=\"facit-rubrik\">Skriv andelen i procent: gånger 100</p><div class=\"facit-matte\">\\[0{,}06=\\ 6\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\) %</p></div>",
+    "familj": "Andel i procent",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-09,
+    "svarFormat": "decimalform",
+    "ledtrad": "<p>Dela delen med det hela och skriv svaret i procent.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "svarEnhet": "%"
+  },
+  {
+    "id": "0.1372",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Hur många procent är \\(4\\) av \\(5\\)?</div><div>b) Hur många procent är \\(13\\) av \\(20\\)?</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela delen 4 med det hela 5</p><div class=\"facit-matte\">\\[\\frac{4}{5}=0{,}8\\]</div></li><li><p class=\"facit-rubrik\">Skriv andelen i procent: gånger 100</p><div class=\"facit-matte\">\\[0{,}8=\\ 80\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\) %</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela delen 13 med det hela 20</p><div class=\"facit-matte\">\\[\\frac{13}{20}=0{,}65\\]</div></li><li><p class=\"facit-rubrik\">Skriv andelen i procent: gånger 100</p><div class=\"facit-matte\">\\[0{,}65=\\ 65\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(65\\) %</p></div></div>",
+    "familj": "Andel i procent",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      80,
+      65
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Hur många procent är \\(4\\) av \\(5\\)?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela delen 4 med det hela 5</p><div class=\"facit-matte\">\\[\\frac{4}{5}=0{,}8\\]</div></li><li><p class=\"facit-rubrik\">Skriv andelen i procent: gånger 100</p><div class=\"facit-matte\">\\[0{,}8=\\ 80\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(80\\) %</p></div>",
+        "ledtrad": "<p>Dela delen med det hela och skriv svaret i procent.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Hur många procent är \\(13\\) av \\(20\\)?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela delen 13 med det hela 20</p><div class=\"facit-matte\">\\[\\frac{13}{20}=0{,}65\\]</div></li><li><p class=\"facit-rubrik\">Skriv andelen i procent: gånger 100</p><div class=\"facit-matte\">\\[0{,}65=\\ 65\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(65\\) %</p></div>",
+        "ledtrad": "<p>Dela delen med det hela och skriv svaret i procent.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Dela delen med det hela och skriv svaret i procent.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      "%",
+      "%"
+    ]
+  },
+  {
+    "id": "0.1373",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Förkorta \\(\\frac{6}{8}\\) så långt som möjligt.</div><div>b) Förkorta \\(\\frac{12}{18}\\) så långt som möjligt.</div><div>c) Förkorta \\(\\frac{40}{64}\\) så långt som möjligt.</div><div>d) Förkorta \\(\\frac{84}{120}\\) så långt som möjligt.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 6 och 8 är 2</p><div class=\"facit-matte\">\\[6=2\\cdot 3\\qquad 8=2\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 2</p><div class=\"facit-matte\">\\[\\frac{6}{8}=\\frac{6/2}{8/2}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 12 och 18 är 6</p><div class=\"facit-matte\">\\[12=6\\cdot 2\\qquad 18=6\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 6</p><div class=\"facit-matte\">\\[\\frac{12}{18}=\\frac{12/6}{18/6}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 40 och 64 är 8</p><div class=\"facit-matte\">\\[40=8\\cdot 5\\qquad 64=8\\cdot 8\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 8</p><div class=\"facit-matte\">\\[\\frac{40}{64}=\\frac{40/8}{64/8}=\\frac{5}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{8}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 84 och 120 är 12</p><div class=\"facit-matte\">\\[84=12\\cdot 7\\qquad 120=12\\cdot 10\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 12</p><div class=\"facit-matte\">\\[\\frac{84}{120}=\\frac{84/12}{120/12}=\\frac{7}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{10}\\)</p></div></div>",
+    "familj": "Bråkform, blandad form och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "3/4",
+      "2/3",
+      "5/8",
+      "7/10"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "forkortat_brak",
+      "forkortat_brak",
+      "forkortat_brak",
+      "forkortat_brak"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Förkorta \\(\\frac{6}{8}\\) så långt som möjligt.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 6 och 8 är 2</p><div class=\"facit-matte\">\\[6=2\\cdot 3\\qquad 8=2\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 2</p><div class=\"facit-matte\">\\[\\frac{6}{8}=\\frac{6/2}{8/2}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 6 och 8 är delbara med?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Förkorta \\(\\frac{12}{18}\\) så långt som möjligt.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 12 och 18 är 6</p><div class=\"facit-matte\">\\[12=6\\cdot 2\\qquad 18=6\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 6</p><div class=\"facit-matte\">\\[\\frac{12}{18}=\\frac{12/6}{18/6}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 12 och 18 är delbara med?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Förkorta \\(\\frac{40}{64}\\) så långt som möjligt.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 40 och 64 är 8</p><div class=\"facit-matte\">\\[40=8\\cdot 5\\qquad 64=8\\cdot 8\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 8</p><div class=\"facit-matte\">\\[\\frac{40}{64}=\\frac{40/8}{64/8}=\\frac{5}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{8}\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 40 och 64 är delbara med?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Förkorta \\(\\frac{84}{120}\\) så långt som möjligt.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 84 och 120 är 12</p><div class=\"facit-matte\">\\[84=12\\cdot 7\\qquad 120=12\\cdot 10\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 12</p><div class=\"facit-matte\">\\[\\frac{84}{120}=\\frac{84/12}{120/12}=\\frac{7}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{10}\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 84 och 120 är delbara med?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 6 och 8 är delbara med?</p><p><strong>b)</strong> Vilket är det största tal som både 12 och 18 är delbara med?</p><p><strong>c)</strong> Vilket är det största tal som både 40 och 64 är delbara med?</p><p><strong>d)</strong> Vilket är det största tal som både 84 och 120 är delbara med?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1374",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förkorta \\(\\frac{30}{42}\\) så långt som möjligt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 30 och 42 är 6</p><div class=\"facit-matte\">\\[30=6\\cdot 5\\qquad 42=6\\cdot 7\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 6</p><div class=\"facit-matte\">\\[\\frac{30}{42}=\\frac{30/6}{42/6}=\\frac{5}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{7}\\)</p></div>",
+    "familj": "Bråkform, blandad form och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "bråk",
+    "rättSvar": "5/7",
+    "tolerans": 1e-09,
+    "svarFormat": "forkortat_brak",
+    "ledtrad": "<p>Vilket är det största tal som både 30 och 42 är delbara med?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1375",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Förkorta \\(\\frac{9}{12}\\) så långt som möjligt.</div><div>b) Förkorta \\(\\frac{35}{49}\\) så långt som möjligt.</div><div>c) Förkorta \\(\\frac{72}{90}\\) så långt som möjligt.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 9 och 12 är 3</p><div class=\"facit-matte\">\\[9=3\\cdot 3\\qquad 12=3\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 3</p><div class=\"facit-matte\">\\[\\frac{9}{12}=\\frac{9/3}{12/3}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 35 och 49 är 7</p><div class=\"facit-matte\">\\[35=7\\cdot 5\\qquad 49=7\\cdot 7\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 7</p><div class=\"facit-matte\">\\[\\frac{35}{49}=\\frac{35/7}{49/7}=\\frac{5}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{7}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 72 och 90 är 18</p><div class=\"facit-matte\">\\[72=18\\cdot 4\\qquad 90=18\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 18</p><div class=\"facit-matte\">\\[\\frac{72}{90}=\\frac{72/18}{90/18}=\\frac{4}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{4}{5}\\)</p></div></div>",
+    "familj": "Bråkform, blandad form och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "3/4",
+      "5/7",
+      "4/5"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "forkortat_brak",
+      "forkortat_brak",
+      "forkortat_brak"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Förkorta \\(\\frac{9}{12}\\) så långt som möjligt.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 9 och 12 är 3</p><div class=\"facit-matte\">\\[9=3\\cdot 3\\qquad 12=3\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 3</p><div class=\"facit-matte\">\\[\\frac{9}{12}=\\frac{9/3}{12/3}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 9 och 12 är delbara med?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Förkorta \\(\\frac{35}{49}\\) så långt som möjligt.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 35 och 49 är 7</p><div class=\"facit-matte\">\\[35=7\\cdot 5\\qquad 49=7\\cdot 7\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 7</p><div class=\"facit-matte\">\\[\\frac{35}{49}=\\frac{35/7}{49/7}=\\frac{5}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{7}\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 35 och 49 är delbara med?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Förkorta \\(\\frac{72}{90}\\) så långt som möjligt.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 72 och 90 är 18</p><div class=\"facit-matte\">\\[72=18\\cdot 4\\qquad 90=18\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 18</p><div class=\"facit-matte\">\\[\\frac{72}{90}=\\frac{72/18}{90/18}=\\frac{4}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{4}{5}\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 72 och 90 är delbara med?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 9 och 12 är delbara med?</p><p><strong>b)</strong> Vilket är det största tal som både 35 och 49 är delbara med?</p><p><strong>c)</strong> Vilket är det största tal som både 72 och 90 är delbara med?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1376",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Förkorta \\(\\frac{15}{25}\\) så långt som möjligt.</div><div>b) Förkorta \\(\\frac{56}{64}\\) så långt som möjligt.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 15 och 25 är 5</p><div class=\"facit-matte\">\\[15=5\\cdot 3\\qquad 25=5\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 5</p><div class=\"facit-matte\">\\[\\frac{15}{25}=\\frac{15/5}{25/5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 56 och 64 är 8</p><div class=\"facit-matte\">\\[56=8\\cdot 7\\qquad 64=8\\cdot 8\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 8</p><div class=\"facit-matte\">\\[\\frac{56}{64}=\\frac{56/8}{64/8}=\\frac{7}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{8}\\)</p></div></div>",
+    "familj": "Bråkform, blandad form och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "3/5",
+      "7/8"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "forkortat_brak",
+      "forkortat_brak"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Förkorta \\(\\frac{15}{25}\\) så långt som möjligt.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 15 och 25 är 5</p><div class=\"facit-matte\">\\[15=5\\cdot 3\\qquad 25=5\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 5</p><div class=\"facit-matte\">\\[\\frac{15}{25}=\\frac{15/5}{25/5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 15 och 25 är delbara med?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Förkorta \\(\\frac{56}{64}\\) så långt som möjligt.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den största gemensamma faktorn till 56 och 64 är 8</p><div class=\"facit-matte\">\\[56=8\\cdot 7\\qquad 64=8\\cdot 8\\]</div></li><li><p class=\"facit-rubrik\">Dividera täljare och nämnare med 8</p><div class=\"facit-matte\">\\[\\frac{56}{64}=\\frac{56/8}{64/8}=\\frac{7}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{8}\\)</p></div>",
+        "ledtrad": "<p>Vilket är det största tal som både 56 och 64 är delbara med?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket är det största tal som både 15 och 25 är delbara med?</p><p><strong>b)</strong> Vilket är det största tal som både 56 och 64 är delbara med?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1377",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Avrunda \\(4{,}62\\) till heltal.</div><div>b) Avrunda \\(7{,}348\\) till en decimal.</div><div>c) Avrunda \\(0{,}0657\\) till två decimaler.</div><div>d) Avrunda \\(3{,}996\\) till två decimaler.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter entalssiffran är 6. Den är 5 eller större, så avrunda uppåt</p><div class=\"facit-matte\">\\[4{,}62\\approx 5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter tiondelssiffran är 4. Den är mindre än 5, så avrunda nedåt</p><div class=\"facit-matte\">\\[7{,}348\\approx 7{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}3\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter hundradelssiffran är 5. Den är 5 eller större, så avrunda uppåt</p><div class=\"facit-matte\">\\[0{,}0657\\approx 0{,}07\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}07\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter hundradelssiffran är 6. Den är 5 eller större, så avrunda uppåt</p><div class=\"facit-matte\">\\[3{,}996\\approx 4{,}00\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}00\\)</p></div></div>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      5,
+      7.3,
+      0.07,
+      4
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Avrunda \\(4{,}62\\) till heltal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter entalssiffran är 6. Den är 5 eller större, så avrunda uppåt</p><div class=\"facit-matte\">\\[4{,}62\\approx 5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\)</p></div>",
+        "ledtrad": "<p>Titta på tiondelssiffran. Är den 5 eller större?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Avrunda \\(7{,}348\\) till en decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter tiondelssiffran är 4. Den är mindre än 5, så avrunda nedåt</p><div class=\"facit-matte\">\\[7{,}348\\approx 7{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}3\\)</p></div>",
+        "ledtrad": "<p>Titta på hundradelssiffran. Är den 5 eller större?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Avrunda \\(0{,}0657\\) till två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter hundradelssiffran är 5. Den är 5 eller större, så avrunda uppåt</p><div class=\"facit-matte\">\\[0{,}0657\\approx 0{,}07\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}07\\)</p></div>",
+        "ledtrad": "<p>Titta på tusendelssiffran. Är den 5 eller större?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Avrunda \\(3{,}996\\) till två decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter hundradelssiffran är 6. Den är 5 eller större, så avrunda uppåt</p><div class=\"facit-matte\">\\[3{,}996\\approx 4{,}00\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}00\\)</p></div>",
+        "ledtrad": "<p>Titta på tusendelssiffran. Är den 5 eller större?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Titta på tiondelssiffran. Är den 5 eller större?</p><p><strong>b)</strong> Titta på hundradelssiffran. Är den 5 eller större?</p><p><strong>c)</strong> Titta på tusendelssiffran. Är den 5 eller större?</p><p><strong>d)</strong> Titta på tusendelssiffran. Är den 5 eller större?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1378",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Avrunda \\(2348\\) till närmaste hundratal.</div><div>b) Avrunda \\(15\\ 501\\) till närmaste tusental.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter hundratalssiffran är 4. Den är mindre än 5, så avrunda nedåt</p><div class=\"facit-matte\">\\[2348\\approx 2300\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2300\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter tusentalssiffran är 5. Den är 5 eller större, så avrunda uppåt</p><div class=\"facit-matte\">\\[15\\ 501\\approx 16\\ 000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\ 000\\)</p></div></div>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      2300,
+      16000
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Avrunda \\(2348\\) till närmaste hundratal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter hundratalssiffran är 4. Den är mindre än 5, så avrunda nedåt</p><div class=\"facit-matte\">\\[2348\\approx 2300\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2300\\)</p></div>",
+        "ledtrad": "<p>Titta på tiotalssiffran. Är den 5 eller större?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Avrunda \\(15\\ 501\\) till närmaste tusental.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter tusentalssiffran är 5. Den är 5 eller större, så avrunda uppåt</p><div class=\"facit-matte\">\\[15\\ 501\\approx 16\\ 000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\ 000\\)</p></div>",
+        "ledtrad": "<p>Titta på hundratalssiffran. Är den 5 eller större?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Titta på tiotalssiffran. Är den 5 eller större?</p><p><strong>b)</strong> Titta på hundratalssiffran. Är den 5 eller större?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1379",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Avrunda \\(9{,}95\\) till en decimal.</div><div>b) Avrunda \\(199{,}7\\) till närmaste tiotal.</div><div>c) Avrunda \\(0{,}12049\\) till tre decimaler.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter tiondelssiffran är 5. Den är 5 eller större, så avrunda uppåt</p><div class=\"facit-matte\">\\[9{,}95\\approx 10{,}0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}0\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter tiotalssiffran är 9. Den är 5 eller större, så avrunda uppåt</p><div class=\"facit-matte\">\\[199{,}7\\approx 200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter tusendelssiffran är 4. Den är mindre än 5, så avrunda nedåt</p><div class=\"facit-matte\">\\[0{,}12049\\approx 0{,}120\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}120\\)</p></div></div>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      10,
+      200,
+      0.12
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Avrunda \\(9{,}95\\) till en decimal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter tiondelssiffran är 5. Den är 5 eller större, så avrunda uppåt</p><div class=\"facit-matte\">\\[9{,}95\\approx 10{,}0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}0\\)</p></div>",
+        "ledtrad": "<p>Titta på hundradelssiffran. Är den 5 eller större?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Avrunda \\(199{,}7\\) till närmaste tiotal.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter tiotalssiffran är 9. Den är 5 eller större, så avrunda uppåt</p><div class=\"facit-matte\">\\[199{,}7\\approx 200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\)</p></div>",
+        "ledtrad": "<p>Titta på entalssiffran. Är den 5 eller större?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Avrunda \\(0{,}12049\\) till tre decimaler.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter tusendelssiffran är 4. Den är mindre än 5, så avrunda nedåt</p><div class=\"facit-matte\">\\[0{,}12049\\approx 0{,}120\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}120\\)</p></div>",
+        "ledtrad": "<p>Titta på tiotusendelssiffran. Är den 5 eller större?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Titta på hundradelssiffran. Är den 5 eller större?</p><p><strong>b)</strong> Titta på entalssiffran. Är den 5 eller större?</p><p><strong>c)</strong> Titta på tiotusendelssiffran. Är den 5 eller större?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1380",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda \\(64{,}55\\) till heltal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Siffran efter entalssiffran är 5. Den är 5 eller större, så avrunda uppåt</p><div class=\"facit-matte\">\\[64{,}55\\approx 65\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(65\\)</p></div>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 65,
+    "tolerans": 1e-09,
+    "svarFormat": "decimalform",
+    "ledtrad": "<p>Titta på tiondelssiffran. Är den 5 eller större?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "0.1381",
+    "kap": 0,
+    "omr": "prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(4\\ \\text{km}\\) i m.</div><div>b) Skriv \\(350\\ \\text{mg}\\) i g.</div><div>c) Skriv \\(2{,}5\\ \\text{MW}\\) i W.</div><div>d) Skriv \\(80\\ \\text{µs}\\) i s.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">k betyder \\(10^{3}\\)</p><div class=\"facit-matte\">\\[4\\ \\text{km}=4\\cdot 10^{3}\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Flytta decimaltecknet 3 steg åt höger</p><div class=\"facit-matte\">\\[4\\cdot 10^{3}=4000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4000\\) m</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">m betyder \\(10^{-3}\\)</p><div class=\"facit-matte\">\\[350\\ \\text{mg}=350\\cdot 10^{-3}\\ \\text{g}\\]</div></li><li><p class=\"facit-rubrik\">Flytta decimaltecknet 3 steg åt vänster</p><div class=\"facit-matte\">\\[350\\cdot 10^{-3}=0{,}35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}35\\) g</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">M betyder \\(10^{6}\\)</p><div class=\"facit-matte\">\\[2{,}5\\ \\text{MW}=2{,}5\\cdot 10^{6}\\ \\text{W}\\]</div></li><li><p class=\"facit-rubrik\">Flytta decimaltecknet 6 steg åt höger</p><div class=\"facit-matte\">\\[2{,}5\\cdot 10^{6}=2\\ 500\\ 000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\ 500\\ 000\\) W</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">µ betyder \\(10^{-6}\\)</p><div class=\"facit-matte\">\\[80\\ \\text{µs}=80\\cdot 10^{-6}\\ \\text{s}\\]</div></li><li><p class=\"facit-rubrik\">Flytta decimaltecknet 6 steg åt vänster</p><div class=\"facit-matte\">\\[80\\cdot 10^{-6}=0{,}00008\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00008\\) s</p></div></div>",
+    "familj": "Omvandla med prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      4000,
+      0.35,
+      2500000,
+      8e-05
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(4\\ \\text{km}\\) i m.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">k betyder \\(10^{3}\\)</p><div class=\"facit-matte\">\\[4\\ \\text{km}=4\\cdot 10^{3}\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Flytta decimaltecknet 3 steg åt höger</p><div class=\"facit-matte\">\\[4\\cdot 10^{3}=4000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4000\\) m</p></div>",
+        "ledtrad": "<p>Vilken tiopotens står prefixet k för?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(350\\ \\text{mg}\\) i g.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">m betyder \\(10^{-3}\\)</p><div class=\"facit-matte\">\\[350\\ \\text{mg}=350\\cdot 10^{-3}\\ \\text{g}\\]</div></li><li><p class=\"facit-rubrik\">Flytta decimaltecknet 3 steg åt vänster</p><div class=\"facit-matte\">\\[350\\cdot 10^{-3}=0{,}35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}35\\) g</p></div>",
+        "ledtrad": "<p>Vilken tiopotens står prefixet m för?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Skriv \\(2{,}5\\ \\text{MW}\\) i W.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">M betyder \\(10^{6}\\)</p><div class=\"facit-matte\">\\[2{,}5\\ \\text{MW}=2{,}5\\cdot 10^{6}\\ \\text{W}\\]</div></li><li><p class=\"facit-rubrik\">Flytta decimaltecknet 6 steg åt höger</p><div class=\"facit-matte\">\\[2{,}5\\cdot 10^{6}=2\\ 500\\ 000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\ 500\\ 000\\) W</p></div>",
+        "ledtrad": "<p>Vilken tiopotens står prefixet M för?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Skriv \\(80\\ \\text{µs}\\) i s.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">µ betyder \\(10^{-6}\\)</p><div class=\"facit-matte\">\\[80\\ \\text{µs}=80\\cdot 10^{-6}\\ \\text{s}\\]</div></li><li><p class=\"facit-rubrik\">Flytta decimaltecknet 6 steg åt vänster</p><div class=\"facit-matte\">\\[80\\cdot 10^{-6}=0{,}00008\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00008\\) s</p></div>",
+        "ledtrad": "<p>Vilken tiopotens står prefixet µ för?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilken tiopotens står prefixet k för?</p><p><strong>b)</strong> Vilken tiopotens står prefixet m för?</p><p><strong>c)</strong> Vilken tiopotens står prefixet M för?</p><p><strong>d)</strong> Vilken tiopotens står prefixet µ för?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      "m",
+      "g",
+      "W",
+      "s"
+    ]
+  },
+  {
+    "id": "0.1382",
+    "kap": 0,
+    "omr": "prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(12\\ \\text{cm}\\) i m.</div><div>b) Skriv \\(0{,}6\\ \\text{kg}\\) i g.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">c betyder \\(10^{-2}\\)</p><div class=\"facit-matte\">\\[12\\ \\text{cm}=12\\cdot 10^{-2}\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Flytta decimaltecknet 2 steg åt vänster</p><div class=\"facit-matte\">\\[12\\cdot 10^{-2}=0{,}12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}12\\) m</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">k betyder \\(10^{3}\\)</p><div class=\"facit-matte\">\\[0{,}6\\ \\text{kg}=0{,}6\\cdot 10^{3}\\ \\text{g}\\]</div></li><li><p class=\"facit-rubrik\">Flytta decimaltecknet 3 steg åt höger</p><div class=\"facit-matte\">\\[0{,}6\\cdot 10^{3}=600\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\) g</p></div></div>",
+    "familj": "Omvandla med prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      0.12,
+      600
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(12\\ \\text{cm}\\) i m.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">c betyder \\(10^{-2}\\)</p><div class=\"facit-matte\">\\[12\\ \\text{cm}=12\\cdot 10^{-2}\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Flytta decimaltecknet 2 steg åt vänster</p><div class=\"facit-matte\">\\[12\\cdot 10^{-2}=0{,}12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}12\\) m</p></div>",
+        "ledtrad": "<p>Vilken tiopotens står prefixet c för?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(0{,}6\\ \\text{kg}\\) i g.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">k betyder \\(10^{3}\\)</p><div class=\"facit-matte\">\\[0{,}6\\ \\text{kg}=0{,}6\\cdot 10^{3}\\ \\text{g}\\]</div></li><li><p class=\"facit-rubrik\">Flytta decimaltecknet 3 steg åt höger</p><div class=\"facit-matte\">\\[0{,}6\\cdot 10^{3}=600\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\) g</p></div>",
+        "ledtrad": "<p>Vilken tiopotens står prefixet k för?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilken tiopotens står prefixet c för?</p><p><strong>b)</strong> Vilken tiopotens står prefixet k för?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarEnhet": [
+      "m",
+      "g"
+    ]
+  },
+  {
+    "id": "0.1383",
+    "kap": 0,
+    "omr": "prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(1{,}5\\ \\text{GW}\\) i W.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">G betyder \\(10^{9}\\)</p><div class=\"facit-matte\">\\[1{,}5\\ \\text{GW}=1{,}5\\cdot 10^{9}\\ \\text{W}\\]</div></li><li><p class=\"facit-rubrik\">Flytta decimaltecknet 9 steg åt höger</p><div class=\"facit-matte\">\\[1{,}5\\cdot 10^{9}=1\\ 500\\ 000\\ 000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\ 500\\ 000\\ 000\\) W</p></div>",
+    "familj": "Omvandla med prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1500000000,
+    "tolerans": 1e-09,
+    "svarFormat": "decimalform",
+    "ledtrad": "<p>Vilken tiopotens står prefixet G för?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "svarEnhet": "W"
+  },
+  {
+    "id": "0.1384",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(3\\cdot 10^{4}\\) i decimalform.</div><div>b) Skriv \\(5{,}2\\cdot 10^{3}\\) i decimalform.</div><div>c) Skriv \\(7\\cdot 10^{-2}\\) i decimalform.</div><div>d) Skriv \\(4{,}05\\cdot 10^{-3}\\) i decimalform.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger \\(10^{4}\\): flytta decimaltecknet 4 steg åt höger</p><div class=\"facit-matte\">\\[3\\cdot 10^{4}=30\\ 000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\ 000\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger \\(10^{3}\\): flytta decimaltecknet 3 steg åt höger</p><div class=\"facit-matte\">\\[5{,}2\\cdot 10^{3}=5200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5200\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger \\(10^{-2}\\): flytta decimaltecknet 2 steg åt vänster</p><div class=\"facit-matte\">\\[7\\cdot 10^{-2}=0{,}07\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}07\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger \\(10^{-3}\\): flytta decimaltecknet 3 steg åt vänster</p><div class=\"facit-matte\">\\[4{,}05\\cdot 10^{-3}=0{,}00405\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00405\\)</p></div></div>",
+    "familj": "Grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      30000,
+      5200,
+      0.07,
+      0.00405
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform",
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(3\\cdot 10^{4}\\) i decimalform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger \\(10^{4}\\): flytta decimaltecknet 4 steg åt höger</p><div class=\"facit-matte\">\\[3\\cdot 10^{4}=30\\ 000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\ 000\\)</p></div>",
+        "ledtrad": "<p>Exponenten 4 visar hur många steg och åt vilket håll decimaltecknet flyttas.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(5{,}2\\cdot 10^{3}\\) i decimalform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger \\(10^{3}\\): flytta decimaltecknet 3 steg åt höger</p><div class=\"facit-matte\">\\[5{,}2\\cdot 10^{3}=5200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5200\\)</p></div>",
+        "ledtrad": "<p>Exponenten 3 visar hur många steg och åt vilket håll decimaltecknet flyttas.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Skriv \\(7\\cdot 10^{-2}\\) i decimalform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger \\(10^{-2}\\): flytta decimaltecknet 2 steg åt vänster</p><div class=\"facit-matte\">\\[7\\cdot 10^{-2}=0{,}07\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}07\\)</p></div>",
+        "ledtrad": "<p>Exponenten −2 visar hur många steg och åt vilket håll decimaltecknet flyttas.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Skriv \\(4{,}05\\cdot 10^{-3}\\) i decimalform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger \\(10^{-3}\\): flytta decimaltecknet 3 steg åt vänster</p><div class=\"facit-matte\">\\[4{,}05\\cdot 10^{-3}=0{,}00405\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00405\\)</p></div>",
+        "ledtrad": "<p>Exponenten −3 visar hur många steg och åt vilket håll decimaltecknet flyttas.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Exponenten 4 visar hur många steg och åt vilket håll decimaltecknet flyttas.</p><p><strong>b)</strong> Exponenten 3 visar hur många steg och åt vilket håll decimaltecknet flyttas.</p><p><strong>c)</strong> Exponenten −2 visar hur många steg och åt vilket håll decimaltecknet flyttas.</p><p><strong>d)</strong> Exponenten −3 visar hur många steg och åt vilket håll decimaltecknet flyttas.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1385",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(6{,}1\\cdot 10^{5}\\) i decimalform.</div><div>b) Skriv \\(8\\cdot 10^{-4}\\) i decimalform.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger \\(10^{5}\\): flytta decimaltecknet 5 steg åt höger</p><div class=\"facit-matte\">\\[6{,}1\\cdot 10^{5}=610\\ 000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(610\\ 000\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger \\(10^{-4}\\): flytta decimaltecknet 4 steg åt vänster</p><div class=\"facit-matte\">\\[8\\cdot 10^{-4}=0{,}0008\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0008\\)</p></div></div>",
+    "familj": "Grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      610000,
+      0.0008
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "decimalform",
+      "decimalform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(6{,}1\\cdot 10^{5}\\) i decimalform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger \\(10^{5}\\): flytta decimaltecknet 5 steg åt höger</p><div class=\"facit-matte\">\\[6{,}1\\cdot 10^{5}=610\\ 000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(610\\ 000\\)</p></div>",
+        "ledtrad": "<p>Exponenten 5 visar hur många steg och åt vilket håll decimaltecknet flyttas.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(8\\cdot 10^{-4}\\) i decimalform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gånger \\(10^{-4}\\): flytta decimaltecknet 4 steg åt vänster</p><div class=\"facit-matte\">\\[8\\cdot 10^{-4}=0{,}0008\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0008\\)</p></div>",
+        "ledtrad": "<p>Exponenten −4 visar hur många steg och åt vilket håll decimaltecknet flyttas.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Exponenten 5 visar hur många steg och åt vilket håll decimaltecknet flyttas.</p><p><strong>b)</strong> Exponenten −4 visar hur många steg och åt vilket håll decimaltecknet flyttas.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1386",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Skriv \\(5000\\) i grundpotensform.</div><div>b) Skriv \\(340\\ 000\\) i grundpotensform.</div><div>c) Skriv \\(0{,}007\\) i grundpotensform.</div><div>d) Skriv \\(0{,}000062\\) i grundpotensform.</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta decimaltecknet 3 steg så att det står en siffra före det</p><div class=\"facit-matte\">\\[5000=5\\cdot 10^{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\cdot 10^{3}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta decimaltecknet 5 steg så att det står en siffra före det</p><div class=\"facit-matte\">\\[340\\ 000=3{,}4\\cdot 10^{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}4\\cdot 10^{5}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta decimaltecknet 3 steg så att det står en siffra före det</p><div class=\"facit-matte\">\\[0{,}007=7\\cdot 10^{-3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\cdot 10^{-3}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta decimaltecknet 5 steg så att det står en siffra före det</p><div class=\"facit-matte\">\\[0{,}000062=6{,}2\\cdot 10^{-5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}2\\cdot 10^{-5}\\)</p></div></div>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      5000.0,
+      340000.0,
+      0.007,
+      6.2e-05
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "grundpotensform",
+      "grundpotensform",
+      "grundpotensform",
+      "grundpotensform"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Skriv \\(5000\\) i grundpotensform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta decimaltecknet 3 steg så att det står en siffra före det</p><div class=\"facit-matte\">\\[5000=5\\cdot 10^{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\cdot 10^{3}\\)</p></div>",
+        "ledtrad": "<p>Talet framför tiopotensen ska vara minst 1 och mindre än 10.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Skriv \\(340\\ 000\\) i grundpotensform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta decimaltecknet 5 steg så att det står en siffra före det</p><div class=\"facit-matte\">\\[340\\ 000=3{,}4\\cdot 10^{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}4\\cdot 10^{5}\\)</p></div>",
+        "ledtrad": "<p>Talet framför tiopotensen ska vara minst 1 och mindre än 10.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Skriv \\(0{,}007\\) i grundpotensform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta decimaltecknet 3 steg så att det står en siffra före det</p><div class=\"facit-matte\">\\[0{,}007=7\\cdot 10^{-3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\cdot 10^{-3}\\)</p></div>",
+        "ledtrad": "<p>Talet framför tiopotensen ska vara minst 1 och mindre än 10.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Skriv \\(0{,}000062\\) i grundpotensform.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta decimaltecknet 5 steg så att det står en siffra före det</p><div class=\"facit-matte\">\\[0{,}000062=6{,}2\\cdot 10^{-5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}2\\cdot 10^{-5}\\)</p></div>",
+        "ledtrad": "<p>Talet framför tiopotensen ska vara minst 1 och mindre än 10.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Talet framför tiopotensen ska vara minst 1 och mindre än 10.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "0.1387",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(72\\ 000\\) i grundpotensform.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta decimaltecknet 4 steg så att det står en siffra före det</p><div class=\"facit-matte\">\\[72\\ 000=7{,}2\\cdot 10^{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}2\\cdot 10^{4}\\)</p></div>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 72000.0,
+    "tolerans": 1e-09,
+    "svarFormat": "grundpotensform",
+    "ledtrad": "<p>Talet framför tiopotensen ska vara minst 1 och mindre än 10.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  }
 ];

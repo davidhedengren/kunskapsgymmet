@@ -1,15 +1,16 @@
 /* Formatet största_faktor (2026-11-06) med appens riktiga rättning i headless Chrome.
    Kör: node tools/storsta-faktor-2026-11-06.browser.cjs
    Kräver Uppgiftslabbets CDP-hjälp (GEOGEBRA_CDP, standard ../../Uppgiftslabbet/tools/geogebra-cdp.js) och nätåtkomst till nerdamer.
-   Prövar självtestet KG_TEST_STORSTA_FAKTOR och varje faktoriseringskort i Ma1 (#1.1685–1.1704): facit godtas,
+   Prövar självtestet KG_TEST_STORSTA_FAKTOR och varje Ma1-kort med formatet (#1.1685–1.1704 och 35 omgjorda äldre): facit godtas,
    faktorer i annan ordning godtas, men den oförändrade frågan och en ofullständigt utbruten faktor underkänns. */
 const path = require('path'), fs = require('fs'), vm = require('vm'), assert = require('node:assert/strict');
 const {starta, vila} = require(process.env.GEOGEBRA_CDP || path.join(__dirname, '../../Uppgiftslabbet/tools/geogebra-cdp.js'));
 const c = {window: {}}; vm.runInNewContext(fs.readFileSync(path.join(__dirname, '../uppgifterma1.js'), 'utf8'), c);
 const nr = id => Number(id.split('.')[1]);
-const uppg = c.window.BANKMA1.filter(t => t.kap === 1 && t.id.startsWith('1.') && nr(t.id) >= 1685 && nr(t.id) <= 1704);
+// Nya uppgifter #1.1685–1.1704 och 35 äldre uppgifter som samma dag fick ett svarsfält i stället för två.
+const uppg = c.window.BANKMA1.filter(t => [].concat(t.svarFormat).includes('största_faktor'));
 (async () => {
-  assert.equal(uppg.length, 20);
+  assert.equal(uppg.length, 55);
   const b = await starta({port: 9447, profil: path.join(require('os').tmpdir(), 'kg-storsta-faktor'), bredd: 420, hojd: 860, skala: 1});
   try {
     await b.ga('file:///' + path.join(__dirname, '../index.html').replace(/\\/g, '/'));
@@ -33,7 +34,7 @@ const uppg = c.window.BANKMA1.filter(t => t.kap === 1 && t.id.startsWith('1.') &
       return JSON.stringify({kort,fel});})()`));
     console.log('kort', r.kort, 'fel', r.fel.length);
     for (const f of r.fel) console.log('  ', f);
-    assert.equal(r.kort, 42);
+    assert.equal(r.kort, 77);
     assert.deepEqual(r.fel, []);
   } finally { await b.stang(); }
 })().catch(e => { console.error(e); process.exit(1); });

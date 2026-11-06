@@ -24216,8 +24216,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(12x^2+18x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största gemensamma talfaktorn är 6 och båda termerna innehåller x.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[12x^2+18x=6x(2x+3).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(12x^2+18x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 12 och 18 är 6</p><div class=\"facit-matte\">\\[12=6\\cdot 2\\qquad 18=6\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6x\\)</p><div class=\"facit-matte\">\\[\\frac{12x^{2}}{6x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{18x}{6x}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6x\\) gånger parentesen</p><div class=\"facit-matte\">\\[12x^{2}+18x=6x(2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6x(2x+3)=12x^{2}+18x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6x(2x+3)\\)</p></div>",
     "ledtrad": "<p>Undersök talfaktorer och bokstavsfaktorer var för sig.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -24225,22 +24225,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "6x",
-      "2x+3"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "6x(2x+3)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -25140,8 +25128,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(27x^3+18x^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talen 27 och 18 har största gemensamma faktor 9.</p></li><li><p>Minst två x-faktorer finns i båda termerna.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[27x^3+18x^2=9x^2(3x+2).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(27x^3+18x^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 27 och 18 är 9</p><div class=\"facit-matte\">\\[27=9\\cdot 3\\qquad 18=9\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x^{2}\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(9x^{2}\\)</p><div class=\"facit-matte\">\\[\\frac{27x^{3}}{9x^{2}}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{18x^{2}}{9x^{2}}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(9x^{2}\\) gånger parentesen</p><div class=\"facit-matte\">\\[27x^{3}+18x^{2}=9x^{2}(3x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(9x^{2}\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[9x^{2}(3x+2)=27x^{3}+18x^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9x^{2}(3x+2)\\)</p></div>",
     "ledtrad": "<p>Vilken är den lägsta x-potensen i termerna?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -25149,22 +25137,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "9x^2",
-      "3x+2"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "9x^2(3x+2)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -25183,8 +25159,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(8x+32\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda koefficienterna kan delas med 8.</p></li><li><p>Termerna som blir kvar är x och 4.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[8x+32=8(x+4).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(8x+32\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 8 och 32 är 8</p><div class=\"facit-matte\">\\[8=8\\cdot 1\\qquad 32=8\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(8\\)</p><div class=\"facit-matte\">\\[\\frac{8x}{8}=x\\]</div><div class=\"facit-matte\">\\[\\frac{32}{8}=4\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(8\\) gånger parentesen</p><div class=\"facit-matte\">\\[8x+32=8(x+4)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(8\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[8(x+4)=8x+32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8(x+4)\\)</p></div>",
     "ledtrad": "<p>Vilket heltal delar både 8 och 32?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -25192,22 +25168,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "8",
-      "x+4"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "8(x+4)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
@@ -25325,8 +25289,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(20a^2-15a\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talen har gemensamma faktorn 5 och båda termerna innehåller a.</p></li><li><p>Minustecknet behålls.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[20a^2-15a=5a(4a-3).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(20a^2-15a\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 20 och 15 är 5</p><div class=\"facit-matte\">\\[20=5\\cdot 4\\qquad 15=5\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5a\\)</p><div class=\"facit-matte\">\\[\\frac{20a^{2}}{5a}=4a\\]</div><div class=\"facit-matte\">\\[\\frac{-15a}{5a}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5a\\) gånger parentesen</p><div class=\"facit-matte\">\\[20a^{2}-15a=5a(4a-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5a\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5a(4a-3)=20a^{2}-15a\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5a(4a-3)\\)</p></div>",
     "ledtrad": "<p>Vilken faktor finns i båda termerna?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -25334,22 +25298,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "5a",
-      "4a-3"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "5a(4a-3)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -25368,8 +25320,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(12a^2b+18ab^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största gemensamma talfaktorn är 6 och gemensamma bokstavsdelen är ab.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[12a^2b+18ab^2=6ab(2a+3b).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(12a^2b+18ab^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 12 och 18 är 6</p><div class=\"facit-matte\">\\[12=6\\cdot 2\\qquad 18=6\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a\\) och \\(b\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6ab\\)</p><div class=\"facit-matte\">\\[\\frac{12a^{2}b}{6ab}=2a\\]</div><div class=\"facit-matte\">\\[\\frac{18ab^{2}}{6ab}=3b\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6ab\\) gånger parentesen</p><div class=\"facit-matte\">\\[12a^{2}b+18ab^{2}=6ab(2a+3b)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6ab\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6ab(2a+3b)=12a^{2}b+18ab^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6ab(2a+3b)\\)</p></div>",
     "ledtrad": "<p>Hur många a och b finns minst i varje term?</p>",
     "niva": "C",
     "poang": "0/1/0",
@@ -25378,22 +25330,10 @@ window.BANKMA1 = [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "6ab",
-      "2a+3b"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "6ab(2a+3b)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 3,
     "spel": true,
     "familjTidigare": [
@@ -25412,8 +25352,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(18x+24\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största gemensamma heltalsfaktorn är 6; x finns inte i båda termerna.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[18x+24=6(3x+4).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(18x+24\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 18 och 24 är 6</p><div class=\"facit-matte\">\\[18=6\\cdot 3\\qquad 24=6\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{18x}{6}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{24}{6}=4\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6\\) gånger parentesen</p><div class=\"facit-matte\">\\[18x+24=6(3x+4)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6(3x+4)=18x+24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6(3x+4)\\)</p></div>",
     "ledtrad": "<p>Kan x vara en gemensam faktor när ena termen är konstant?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -25421,22 +25361,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "6",
-      "3x+4"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "6(3x+4)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
@@ -27533,8 +27461,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(-12x+18\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med positiv talfaktor bryts 6 ut.</p></li><li><p>Kvar blir −2x och +3.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[-12x+18=6(-2x+3).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(-12x+18\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 12 och 18 är 6</p><div class=\"facit-matte\">\\[12=6\\cdot 2\\qquad 18=6\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{-12x}{6}=-2x\\]</div><div class=\"facit-matte\">\\[\\frac{18}{6}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6\\) gånger parentesen</p><div class=\"facit-matte\">\\[-12x+18=6(-2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6(-2x+3)=-12x+18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6(-2x+3)\\)</p></div>",
     "ledtrad": "<p>Vilka tecken ska finnas kvar om faktorn är positiv?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -27542,22 +27470,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "6",
-      "-2x+3"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "6(-2x+3)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -27676,8 +27592,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(14x-35\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda koefficienterna delas med 7.</p></li><li><p>Då blir parentesens termer 2x och −5.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[14x-35=7(2x-5).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(14x-35\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 14 och 35 är 7</p><div class=\"facit-matte\">\\[14=7\\cdot 2\\qquad 35=7\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(7\\)</p><div class=\"facit-matte\">\\[\\frac{14x}{7}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-35}{7}=-5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(7\\) gånger parentesen</p><div class=\"facit-matte\">\\[14x-35=7(2x-5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(7\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[7(2x-5)=14x-35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7(2x-5)\\)</p></div>",
     "ledtrad": "<p>Kontrollera även konstantens tecken.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -27685,22 +27601,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "7",
-      "2x-5"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "7(2x-5)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -30078,8 +29982,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(-21x-14\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största positiva heltalsfaktorn är 7.</p></li><li><p>Parentesens koefficienter är negativa. Termen −3x är däremot positiv om x är negativt.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[-21x-14=7(-3x-2).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(-21x-14\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 21 och 14 är 7</p><div class=\"facit-matte\">\\[21=7\\cdot 3\\qquad 14=7\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(7\\)</p><div class=\"facit-matte\">\\[\\frac{-21x}{7}=-3x\\]</div><div class=\"facit-matte\">\\[\\frac{-14}{7}=-2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(7\\) gånger parentesen</p><div class=\"facit-matte\">\\[-21x-14=7(-3x-2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(7\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[7(-3x-2)=-21x-14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7(-3x-2)\\)</p></div>",
     "ledtrad": "<p>Vilka tal återstår efter att båda koefficienterna delats med 7?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -30087,22 +29991,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "7",
-      "-3x-2"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "7(-3x-2)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -30154,8 +30046,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(24xy+16x^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Koefficienterna har största gemensamma faktor 8.</p></li><li><p>Alla termer innehåller x men inte y.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[24xy+16x^2=8x(3y+2x).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(24xy+16x^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 24 och 16 är 8</p><div class=\"facit-matte\">\\[24=8\\cdot 3\\qquad 16=8\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(8x\\)</p><div class=\"facit-matte\">\\[\\frac{24xy}{8x}=3y\\]</div><div class=\"facit-matte\">\\[\\frac{16x^{2}}{8x}=2x\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(8x\\) gånger parentesen</p><div class=\"facit-matte\">\\[24xy+16x^{2}=8x(3y+2x)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(8x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[8x(3y+2x)=24xy+16x^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8x(3y+2x)\\)</p></div>",
     "ledtrad": "<p>Finns y i båda termerna?</p>",
     "niva": "C",
     "poang": "0/1/0",
@@ -30164,22 +30056,10 @@ window.BANKMA1 = [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "8x",
-      "3y+2x"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "8x(3y+2x)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 3,
     "spel": true,
     "familjTidigare": [
@@ -30231,8 +30111,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(24x-16\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Koefficienterna 24 och 16 har största gemensamma faktor 8.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[24x-16=8(3x-2).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(24x-16\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 24 och 16 är 8</p><div class=\"facit-matte\">\\[24=8\\cdot 3\\qquad 16=8\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(8\\)</p><div class=\"facit-matte\">\\[\\frac{24x}{8}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{-16}{8}=-2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(8\\) gånger parentesen</p><div class=\"facit-matte\">\\[24x-16=8(3x-2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(8\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[8(3x-2)=24x-16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8(3x-2)\\)</p></div>",
     "ledtrad": "<p>Vilket är det största heltal som delar båda koefficienterna?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -30240,22 +30120,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "8",
-      "3x-2"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "8(3x-2)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -31265,8 +31133,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(9a+21\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största gemensamma heltalsfaktorn är 3.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[9a+21=3(3a+7).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(9a+21\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 9 och 21 är 3</p><div class=\"facit-matte\">\\[9=3\\cdot 3\\qquad 21=3\\cdot 7\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3\\)</p><div class=\"facit-matte\">\\[\\frac{9a}{3}=3a\\]</div><div class=\"facit-matte\">\\[\\frac{21}{3}=7\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3\\) gånger parentesen</p><div class=\"facit-matte\">\\[9a+21=3(3a+7)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3(3a+7)=9a+21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(3a+7)\\)</p></div>",
     "ledtrad": "<p>Vilka gemensamma delare har 9 och 21?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -31274,22 +31142,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "3",
-      "3a+7"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "3(3a+7)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -32047,8 +31903,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(18x+30\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största gemensamma heltalsfaktorn är 6; ingen bokstav är gemensam.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[18x+30=6(3x+5).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(18x+30\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 18 och 30 är 6</p><div class=\"facit-matte\">\\[18=6\\cdot 3\\qquad 30=6\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{18x}{6}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{30}{6}=5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6\\) gånger parentesen</p><div class=\"facit-matte\">\\[18x+30=6(3x+5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6(3x+5)=18x+30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6(3x+5)\\)</p></div>",
     "ledtrad": "<p>Undersök talen 18 och 30.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -32056,22 +31912,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "6",
-      "3x+5"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "6(3x+5)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -33419,8 +33263,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(24a^2-36a\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största talfaktorn är 12 och båda termerna innehåller minst en faktor a.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[24a^2-36a=12a(2a-3).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(24a^2-36a\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 24 och 36 är 12</p><div class=\"facit-matte\">\\[24=12\\cdot 2\\qquad 36=12\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(12a\\)</p><div class=\"facit-matte\">\\[\\frac{24a^{2}}{12a}=2a\\]</div><div class=\"facit-matte\">\\[\\frac{-36a}{12a}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(12a\\) gånger parentesen</p><div class=\"facit-matte\">\\[24a^{2}-36a=12a(2a-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(12a\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[12a(2a-3)=24a^{2}-36a\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12a(2a-3)\\)</p></div>",
     "ledtrad": "<p>Vad återstår av a² när en faktor a bryts ut?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -33428,22 +33272,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "12a",
-      "2a-3"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "12a(2a-3)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -33462,8 +33294,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(15xy+25x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talens största gemensamma faktor är 5.</p></li><li><p>Båda termerna innehåller x.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[15xy+25x=5x(3y+5).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(15xy+25x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 15 och 25 är 5</p><div class=\"facit-matte\">\\[15=5\\cdot 3\\qquad 25=5\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5x\\)</p><div class=\"facit-matte\">\\[\\frac{15xy}{5x}=3y\\]</div><div class=\"facit-matte\">\\[\\frac{25x}{5x}=5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5x\\) gånger parentesen</p><div class=\"facit-matte\">\\[15xy+25x=5x(3y+5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5x(3y+5)=15xy+25x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x(3y+5)\\)</p></div>",
     "ledtrad": "<p>Vilka faktorer är gemensamma trots att bara första termen innehåller y?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -33471,22 +33303,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "5x",
-      "3y+5"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "5x(3y+5)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -33548,8 +33368,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(36a^2b-24ab^2+12ab\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla tre termer innehåller 12ab.</p></li><li><p>Den sista termen lämnar därför kvar 1.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[36a^2b-24ab^2+12ab=12ab(3a-2b+1).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(36a^2b-24ab^2+12ab\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 36, 24 och 12 är 12</p><div class=\"facit-matte\">\\[36=12\\cdot 3\\]</div><div class=\"facit-matte\">\\[24=12\\cdot 2\\]</div><div class=\"facit-matte\">\\[12=12\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a\\) och \\(b\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(12ab\\)</p><div class=\"facit-matte\">\\[\\frac{36a^{2}b}{12ab}=3a\\]</div><div class=\"facit-matte\">\\[\\frac{-24ab^{2}}{12ab}=-2b\\]</div><div class=\"facit-matte\">\\[\\frac{12ab}{12ab}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(12ab\\) gånger parentesen</p><div class=\"facit-matte\">\\[36a^{2}b-24ab^{2}+12ab\\]</div><div class=\"facit-matte\">\\[=12ab(3a-2b+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(12ab\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[12ab(3a-2b+1)\\]</div><div class=\"facit-matte\">\\[=36a^{2}b-24ab^{2}+12ab\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12ab(3a-2b+1)\\)</p></div>",
     "ledtrad": "<p>Glöm inte vad som återstår när hela sista termen bryts ut.</p>",
     "niva": "C",
     "poang": "0/1/0",
@@ -33558,22 +33378,10 @@ window.BANKMA1 = [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "12ab",
-      "3a-2b+1"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "12ab(3a-2b+1)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 3,
     "spel": true,
     "familjTidigare": [
@@ -34591,8 +34399,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(15a^2b+20ab^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största gemensamma talfaktorn är 5 och båda bokstäverna finns i varje term.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[15a^2b+20ab^2=5ab(3a+4b).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(15a^2b+20ab^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 15 och 20 är 5</p><div class=\"facit-matte\">\\[15=5\\cdot 3\\qquad 20=5\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a\\) och \\(b\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5ab\\)</p><div class=\"facit-matte\">\\[\\frac{15a^{2}b}{5ab}=3a\\]</div><div class=\"facit-matte\">\\[\\frac{20ab^{2}}{5ab}=4b\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5ab\\) gånger parentesen</p><div class=\"facit-matte\">\\[15a^{2}b+20ab^{2}=5ab(3a+4b)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5ab\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5ab(3a+4b)=15a^{2}b+20ab^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5ab(3a+4b)\\)</p></div>",
     "ledtrad": "<p>Jämför exponenterna för samma bokstav i båda termerna.</p>",
     "niva": "C",
     "poang": "0/1/0",
@@ -34601,22 +34409,10 @@ window.BANKMA1 = [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "5ab",
-      "3a+4b"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "5ab(3a+4b)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 3,
     "spel": true,
     "familjTidigare": [
@@ -34635,8 +34431,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(14x^2-21x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda termerna innehåller 7x.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[14x^2-21x=7x(2x-3).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(14x^2-21x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 14 och 21 är 7</p><div class=\"facit-matte\">\\[14=7\\cdot 2\\qquad 21=7\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(7x\\)</p><div class=\"facit-matte\">\\[\\frac{14x^{2}}{7x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-21x}{7x}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(7x\\) gånger parentesen</p><div class=\"facit-matte\">\\[14x^{2}-21x=7x(2x-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(7x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[7x(2x-3)=14x^{2}-21x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7x(2x-3)\\)</p></div>",
     "ledtrad": "<p>Vilket tecken får konstanten i parentesen?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -34644,22 +34440,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "7x",
-      "2x-3"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "7x(2x-3)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -34881,8 +34665,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(12x^3+18x^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talens största gemensamma faktor är 6.</p></li><li><p>Den gemensamma x-potensen är x².</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[12x^3+18x^2=6x^2(2x+3).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(12x^3+18x^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 12 och 18 är 6</p><div class=\"facit-matte\">\\[12=6\\cdot 2\\qquad 18=6\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x^{2}\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6x^{2}\\)</p><div class=\"facit-matte\">\\[\\frac{12x^{3}}{6x^{2}}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{18x^{2}}{6x^{2}}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6x^{2}\\) gånger parentesen</p><div class=\"facit-matte\">\\[12x^{3}+18x^{2}=6x^{2}(2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6x^{2}\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6x^{2}(2x+3)=12x^{3}+18x^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6x^{2}(2x+3)\\)</p></div>",
     "ledtrad": "<p>Kan x³ brytas ut ur båda termerna utan negativa exponenter?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -34890,22 +34674,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "6x^2",
-      "2x+3"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "6x^2(2x+3)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -34924,8 +34696,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(15a^2b-25ab^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Gemensamma faktorn är 5ab; kvar blir 3a respektive −5b.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[15a^2b-25ab^2=5ab(3a-5b).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(15a^2b-25ab^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 15 och 25 är 5</p><div class=\"facit-matte\">\\[15=5\\cdot 3\\qquad 25=5\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(a\\) och \\(b\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5ab\\)</p><div class=\"facit-matte\">\\[\\frac{15a^{2}b}{5ab}=3a\\]</div><div class=\"facit-matte\">\\[\\frac{-25ab^{2}}{5ab}=-5b\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5ab\\) gånger parentesen</p><div class=\"facit-matte\">\\[15a^{2}b-25ab^{2}=5ab(3a-5b)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5ab\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5ab(3a-5b)=15a^{2}b-25ab^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5ab(3a-5b)\\)</p></div>",
     "ledtrad": "<p>Se till att minuset följer den andra termen.</p>",
     "niva": "C",
     "poang": "0/1/0",
@@ -34934,22 +34706,10 @@ window.BANKMA1 = [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "5ab",
-      "3a-5b"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "5ab(3a-5b)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 3,
     "spel": true,
     "familjTidigare": [
@@ -34968,8 +34728,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(28y^4-14y^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största talfaktorn är 14 och den lägsta y-potensen är y².</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[28y^4-14y^2=14y^2(2y^2-1).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(28y^4-14y^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 28 och 14 är 14</p><div class=\"facit-matte\">\\[28=14\\cdot 2\\qquad 14=14\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(y^{2}\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(14y^{2}\\)</p><div class=\"facit-matte\">\\[\\frac{28y^{4}}{14y^{2}}=2y^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-14y^{2}}{14y^{2}}=-1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(14y^{2}\\) gånger parentesen</p><div class=\"facit-matte\">\\[28y^{4}-14y^{2}=14y^{2}(2y^{2}-1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(14y^{2}\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[14y^{2}(2y^{2}-1)=28y^{4}-14y^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14y^{2}(2y^{2}-1)\\)</p></div>",
     "ledtrad": "<p>Hur många y-faktorer finns i båda termerna?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -34977,22 +34737,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "14y^2",
-      "2y^2-1"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "14y^2(2y^2-1)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -35011,8 +34759,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(18m^3n+24m^2n^2-30mn\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De tre talen har största gemensamma faktor 6.</p></li><li><p>Alla termer innehåller mn.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[18m^3n+24m^2n^2-30mn=6mn(3m^2+4mn-5).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(18m^3n+24m^2n^2-30mn\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 18, 24 och 30 är 6</p><div class=\"facit-matte\">\\[18=6\\cdot 3\\]</div><div class=\"facit-matte\">\\[24=6\\cdot 4\\]</div><div class=\"facit-matte\">\\[30=6\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(m\\) och \\(n\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6mn\\)</p><div class=\"facit-matte\">\\[\\frac{18m^{3}n}{6mn}=3m^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{24m^{2}n^{2}}{6mn}=4mn\\]</div><div class=\"facit-matte\">\\[\\frac{-30mn}{6mn}=-5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6mn\\) gånger parentesen</p><div class=\"facit-matte\">\\[18m^{3}n+24m^{2}n^{2}-30mn\\]</div><div class=\"facit-matte\">\\[=6mn(3m^{2}+4mn-5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6mn\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6mn(3m^{2}+4mn-5)\\]</div><div class=\"facit-matte\">\\[=18m^{3}n+24m^{2}n^{2}-30mn\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6mn(3m^{2}+4mn-5)\\)</p></div>",
     "ledtrad": "<p>Kontrollera den tredje termen innan du väljer gemensam bokstavsfaktor.</p>",
     "niva": "C",
     "poang": "0/1/0",
@@ -35021,22 +34769,10 @@ window.BANKMA1 = [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "6mn",
-      "3m^2+4mn-5"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "6mn(3m^2+4mn-5)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 3,
     "spel": true,
     "familjTidigare": [
@@ -35320,8 +35056,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Faktorisera \\(12x^2y-18xy^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talens gemensamma faktor är 6 och bokstavsfaktorn är xy.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[12x^2y-18xy^2=6xy(2x-3y).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(12x^2y-18xy^2\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 12 och 18 är 6</p><div class=\"facit-matte\">\\[12=6\\cdot 2\\qquad 18=6\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\) och \\(y\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6xy\\)</p><div class=\"facit-matte\">\\[\\frac{12x^{2}y}{6xy}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-18xy^{2}}{6xy}=-3y\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6xy\\) gånger parentesen</p><div class=\"facit-matte\">\\[12x^{2}y-18xy^{2}=6xy(2x-3y)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6xy\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6xy(2x-3y)=12x^{2}y-18xy^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6xy(2x-3y)\\)</p></div>",
     "ledtrad": "<p>Jämför taldelen och bokstavsdelen separat.</p>",
     "niva": "C",
     "poang": "0/1/0",
@@ -35330,22 +35066,10 @@ window.BANKMA1 = [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "6xy",
-      "2x-3y"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "6xy(2x-3y)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 3,
     "spel": true,
     "familjTidigare": [
@@ -37326,8 +37050,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(2x+4\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Termerna är 2 gånger x och 2 gånger 2.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[2x+4=2(x+2).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(2x+4\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 2 och 4 är 2</p><div class=\"facit-matte\">\\[2=2\\cdot 1\\qquad 4=2\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2\\)</p><div class=\"facit-matte\">\\[\\frac{2x}{2}=x\\]</div><div class=\"facit-matte\">\\[\\frac{4}{2}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2\\) gånger parentesen</p><div class=\"facit-matte\">\\[2x+4=2(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2(x+2)=2x+4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2(x+2)\\)</p></div>",
     "ledtrad": "<p>Vilket tal finns som faktor i båda termerna?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -37335,22 +37059,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "2",
-      "x+2"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "2(x+2)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
@@ -37369,8 +37081,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(5x+5\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">5x = 5 · x och</p><div class=\"facit-matte\">\\[5=5\\cdot 1\\]</div></div></li><li><p>Därför ska ettan vara kvar.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[5x+5=5(x+1).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(5x+5\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 5 och 5 är 5</p><div class=\"facit-matte\">\\[5=5\\cdot 1\\qquad 5=5\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5\\)</p><div class=\"facit-matte\">\\[\\frac{5x}{5}=x\\]</div><div class=\"facit-matte\">\\[\\frac{5}{5}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5\\) gånger parentesen</p><div class=\"facit-matte\">\\[5x+5=5(x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5(x+1)=5x+5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5(x+1)\\)</p></div>",
     "ledtrad": "<p>Vad återstår av 5 när faktorn 5 bryts ut?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -37378,22 +37090,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "5",
-      "x+1"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "5(x+1)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
@@ -37412,8 +37112,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(3x-9\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda termerna har faktorn 3.</p></li><li><p>Konstanten i parentesen är −3.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[3x-9=3(x-3).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(3x-9\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 3 och 9 är 3</p><div class=\"facit-matte\">\\[3=3\\cdot 1\\qquad 9=3\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3\\)</p><div class=\"facit-matte\">\\[\\frac{3x}{3}=x\\]</div><div class=\"facit-matte\">\\[\\frac{-9}{3}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3\\) gånger parentesen</p><div class=\"facit-matte\">\\[3x-9=3(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3(x-3)=3x-9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(x-3)\\)</p></div>",
     "ledtrad": "<p>Kontrollera genom att multiplicera tillbaka.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -37421,22 +37121,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "3",
-      "x-3"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "3(x-3)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
@@ -37520,8 +37208,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(x^2+x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">x² = x · x och</p><div class=\"facit-matte\">\\[x=x\\cdot 1\\]</div></div></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[x^2+x=x(x+1).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(x^2+x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen 1 och 1 har ingen gemensam faktor större än 1</p></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(x\\)</p><div class=\"facit-matte\">\\[\\frac{x^{2}}{x}=x\\]</div><div class=\"facit-matte\">\\[\\frac{x}{x}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(x\\) gånger parentesen</p><div class=\"facit-matte\">\\[x^{2}+x=x(x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[x(x+1)=x^{2}+x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x(x+1)\\)</p></div>",
     "ledtrad": "<p>Vilket innehåll i parentesen ger tillbaka den andra termen?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -37529,22 +37217,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "x",
-      "x+1"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "x(x+1)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -37563,8 +37239,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(4x^2-x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda termerna innehåller x och talfaktorerna har ingen gemensam faktor större än 1.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[4x^2-x=x(4x-1).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(4x^2-x\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen 4 och 1 har ingen gemensam faktor större än 1</p></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(x\\)</p><div class=\"facit-matte\">\\[\\frac{4x^{2}}{x}=4x\\]</div><div class=\"facit-matte\">\\[\\frac{-x}{x}=-1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(x\\) gånger parentesen</p><div class=\"facit-matte\">\\[4x^{2}-x=x(4x-1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[x(4x-1)=4x^{2}-x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x(4x-1)\\)</p></div>",
     "ledtrad": "<p>Hur skrivs −x som x gånger något?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -37572,22 +37248,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "x",
-      "4x-1"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "x(4x-1)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -37606,8 +37270,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 1,
-    "t": "<p>Faktorisera \\(10x+15\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient. Ange faktorn och det förenklade innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Koefficienterna har största gemensamma faktor 5.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[10x+15=5(2x+3).\\]</div></div></li><li><p>Multiplikation tillbaka ger ursprungsuttrycket.</p></li></ol></div>",
+    "t": "<p>Faktorisera \\(10x+15\\). Bryt ut största gemensamma faktor med positiv heltalskoefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 10 och 15 är 5</p><div class=\"facit-matte\">\\[10=5\\cdot 2\\qquad 15=5\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5\\)</p><div class=\"facit-matte\">\\[\\frac{10x}{5}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{15}{5}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5\\) gånger parentesen</p><div class=\"facit-matte\">\\[10x+15=5(2x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5(2x+3)=10x+15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5(2x+3)\\)</p></div>",
     "ledtrad": "<p>Vilket heltal delar både 10 och 15?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -37615,22 +37279,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "5",
-      "2x+3"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "5(2x+3)",
     "självrättning": true,
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
@@ -41967,30 +41619,18 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Faktorisera \\(6x+18\\) genom att bryta ut den största gemensamma faktorn med positiv koefficient. Ange faktorn och innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den största gemensamma faktorn är \\(6\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[6x+18=6(x+3)\\].</div></div></li><li><p>Kontrollera genom att multiplicera in igen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(6(x+3)\\)</strong></p></div></div>",
+    "t": "<p>Faktorisera \\(6x+18\\) genom att bryta ut den största gemensamma faktorn med positiv koefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 6 och 18 är 6</p><div class=\"facit-matte\">\\[6=6\\cdot 1\\qquad 18=6\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{6x}{6}=x\\]</div><div class=\"facit-matte\">\\[\\frac{18}{6}=3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6\\) gånger parentesen</p><div class=\"facit-matte\">\\[6x+18=6(x+3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6(x+3)=6x+18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6(x+3)\\)</p></div>",
     "familj": "Faktorisera uttryck med potenser och flera variabler",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "6",
-      "x+3"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "6(x+3)",
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "ledtrad": "<p>Vad delar alla termerna? Tänk både på talet och på variabeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -42010,30 +41650,18 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Faktorisera \\(8a-12\\) genom att bryta ut den största gemensamma faktorn med positiv koefficient. Ange faktorn och innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den största gemensamma faktorn är \\(4\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[8a-12=4(2a-3)\\].</div></div></li><li><p>Kontrollera genom att multiplicera in igen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(4(2a-3)\\)</strong></p></div></div>",
+    "t": "<p>Faktorisera \\(8a-12\\) genom att bryta ut den största gemensamma faktorn med positiv koefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 8 och 12 är 4</p><div class=\"facit-matte\">\\[8=4\\cdot 2\\qquad 12=4\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(4\\)</p><div class=\"facit-matte\">\\[\\frac{8a}{4}=2a\\]</div><div class=\"facit-matte\">\\[\\frac{-12}{4}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(4\\) gånger parentesen</p><div class=\"facit-matte\">\\[8a-12=4(2a-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(4\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[4(2a-3)=8a-12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4(2a-3)\\)</p></div>",
     "familj": "Faktorisera uttryck med potenser och flera variabler",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "4",
-      "2a-3"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "4(2a-3)",
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "ledtrad": "<p>Vad delar alla termerna? Tänk både på talet och på variabeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -42053,30 +41681,18 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Faktorisera \\(x^2+7x\\) genom att bryta ut den största gemensamma faktorn med positiv koefficient. Ange faktorn och innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den största gemensamma faktorn är \\(x\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[x^2+7x=x(x+7)\\].</div></div></li><li><p>Kontrollera genom att multiplicera in igen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(x(x+7)\\)</strong></p></div></div>",
+    "t": "<p>Faktorisera \\(x^2+7x\\) genom att bryta ut den största gemensamma faktorn med positiv koefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen 1 och 7 har ingen gemensam faktor större än 1</p></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(x\\)</p><div class=\"facit-matte\">\\[\\frac{x^{2}}{x}=x\\]</div><div class=\"facit-matte\">\\[\\frac{7x}{x}=7\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(x\\) gånger parentesen</p><div class=\"facit-matte\">\\[x^{2}+7x=x(x+7)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[x(x+7)=x^{2}+7x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x(x+7)\\)</p></div>",
     "familj": "Faktorisera uttryck med potenser och flera variabler",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "x",
-      "x+7"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "x(x+7)",
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "ledtrad": "<p>Vad delar alla termerna? Tänk både på talet och på variabeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -42096,30 +41712,18 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Faktorisera \\(15y+10\\) genom att bryta ut den största gemensamma faktorn med positiv koefficient. Ange faktorn och innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den största gemensamma faktorn är \\(5\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[15y+10=5(3y+2)\\].</div></div></li><li><p>Kontrollera genom att multiplicera in igen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(5(3y+2)\\)</strong></p></div></div>",
+    "t": "<p>Faktorisera \\(15y+10\\) genom att bryta ut den största gemensamma faktorn med positiv koefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 15 och 10 är 5</p><div class=\"facit-matte\">\\[15=5\\cdot 3\\qquad 10=5\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5\\)</p><div class=\"facit-matte\">\\[\\frac{15y}{5}=3y\\]</div><div class=\"facit-matte\">\\[\\frac{10}{5}=2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5\\) gånger parentesen</p><div class=\"facit-matte\">\\[15y+10=5(3y+2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5(3y+2)=15y+10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5(3y+2)\\)</p></div>",
     "familj": "Faktorisera uttryck med potenser och flera variabler",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "5",
-      "3y+2"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "5(3y+2)",
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "ledtrad": "<p>Vad delar alla termerna? Tänk både på talet och på variabeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -42139,30 +41743,18 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Faktorisera \\(12x^2-4x\\) genom att bryta ut den största gemensamma faktorn med positiv koefficient. Ange faktorn och innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den största gemensamma faktorn är \\(4x\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[12x^2-4x=4x(3x-1)\\].</div></div></li><li><p>Kontrollera genom att multiplicera in igen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(4x(3x-1)\\)</strong></p></div></div>",
+    "t": "<p>Faktorisera \\(12x^2-4x\\) genom att bryta ut den största gemensamma faktorn med positiv koefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 12 och 4 är 4</p><div class=\"facit-matte\">\\[12=4\\cdot 3\\qquad 4=4\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(4x\\)</p><div class=\"facit-matte\">\\[\\frac{12x^{2}}{4x}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{-4x}{4x}=-1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(4x\\) gånger parentesen</p><div class=\"facit-matte\">\\[12x^{2}-4x=4x(3x-1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(4x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[4x(3x-1)=12x^{2}-4x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x(3x-1)\\)</p></div>",
     "familj": "Faktorisera uttryck med potenser och flera variabler",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "4x",
-      "3x-1"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "4x(3x-1)",
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "ledtrad": "<p>Vad delar alla termerna? Tänk både på talet och på variabeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -42182,30 +41774,18 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Faktorisera \\(9b-9\\) genom att bryta ut den största gemensamma faktorn med positiv koefficient. Ange faktorn och innehållet i parentesen i varsitt fält.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den största gemensamma faktorn är \\(9\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[9b-9=9(b-1)\\].</div></div></li><li><p>Kontrollera genom att multiplicera in igen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(9(b-1)\\)</strong></p></div></div>",
+    "t": "<p>Faktorisera \\(9b-9\\) genom att bryta ut den största gemensamma faktorn med positiv koefficient.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 9 och 9 är 9</p><div class=\"facit-matte\">\\[9=9\\cdot 1\\qquad 9=9\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(9\\)</p><div class=\"facit-matte\">\\[\\frac{9b}{9}=b\\]</div><div class=\"facit-matte\">\\[\\frac{-9}{9}=-1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(9\\) gånger parentesen</p><div class=\"facit-matte\">\\[9b-9=9(b-1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(9\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[9(b-1)=9b-9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9(b-1)\\)</p></div>",
     "familj": "Faktorisera uttryck med potenser och flera variabler",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "9",
-      "b-1"
-    ],
-    "tolerans": 1e-12,
+    "svarstyp": "uttryck",
+    "rättSvar": "9(b-1)",
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": [
-      "förenklat_polynom",
-      "förenklat_polynom"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "utbruten faktor",
-      "innehåll i parentesen"
-    ],
+    "svarFormat": "största_faktor",
     "ledtrad": "<p>Vad delar alla termerna? Tänk både på talet och på variabeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -182441,7 +182021,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "4/0/0",
     "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(9x-6\\)</div><div>b) \\(12-8x\\)</div><div>c) \\(14x^{2}-21x\\)</div><div>d) \\(4x^{3}-6x^{2}+2x\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 9 och 6 är 3</p><div class=\"facit-matte\">\\[9=3\\cdot 3\\qquad 6=3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3\\)</p><div class=\"facit-matte\">\\[\\frac{9x}{3}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{-6}{3}=-2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3\\) gånger parentesen</p><div class=\"facit-matte\">\\[9x-6=3(3x-2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3(3x-2)=9x-6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(3x-2)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 12 och 8 är 4</p><div class=\"facit-matte\">\\[12=4\\cdot 3\\qquad 8=4\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(4\\)</p><div class=\"facit-matte\">\\[\\frac{12}{4}=3\\]</div><div class=\"facit-matte\">\\[\\frac{-8x}{4}=-2x\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(4\\) gånger parentesen</p><div class=\"facit-matte\">\\[12-8x=4(3-2x)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(4\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[4(3-2x)=12-8x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4(3-2x)\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 14 och 21 är 7</p><div class=\"facit-matte\">\\[14=7\\cdot 2\\qquad 21=7\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(7x\\)</p><div class=\"facit-matte\">\\[\\frac{14x^{2}}{7x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-21x}{7x}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(7x\\) gånger parentesen</p><div class=\"facit-matte\">\\[14x^{2}-21x=7x(2x-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(7x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[7x(2x-3)=14x^{2}-21x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7x(2x-3)\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 4, 6 och 2 är 2</p><div class=\"facit-matte\">\\[4=2\\cdot 2\\]</div><div class=\"facit-matte\">\\[6=2\\cdot 3\\]</div><div class=\"facit-matte\">\\[2=2\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2x\\)</p><div class=\"facit-matte\">\\[\\frac{4x^{3}}{2x}=2x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-6x^{2}}{2x}=-3x\\]</div><div class=\"facit-matte\">\\[\\frac{2x}{2x}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2x\\) gånger parentesen</p><div class=\"facit-matte\">\\[4x^{3}-6x^{2}+2x=2x(2x^{2}-3x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2x(2x^{2}-3x+1)=4x^{3}-6x^{2}+2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x(2x^{2}-3x+1)\\)</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 9 och 6 är 3</p><div class=\"facit-matte\">\\[9=3\\cdot 3\\qquad 6=3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(3\\)</p><div class=\"facit-matte\">\\[\\frac{9x}{3}=3x\\]</div><div class=\"facit-matte\">\\[\\frac{-6}{3}=-2\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(3\\) gånger parentesen</p><div class=\"facit-matte\">\\[9x-6=3(3x-2)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(3\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[3(3x-2)=9x-6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(3x-2)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 12 och 8 är 4</p><div class=\"facit-matte\">\\[12=4\\cdot 3\\qquad 8=4\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(4\\)</p><div class=\"facit-matte\">\\[\\frac{12}{4}=3\\]</div><div class=\"facit-matte\">\\[\\frac{-8x}{4}=-2x\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(4\\) gånger parentesen</p><div class=\"facit-matte\">\\[12-8x=4(3-2x)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(4\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[4(3-2x)=12-8x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4(3-2x)\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 14 och 21 är 7</p><div class=\"facit-matte\">\\[14=7\\cdot 2\\qquad 21=7\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(7x\\)</p><div class=\"facit-matte\">\\[\\frac{14x^{2}}{7x}=2x\\]</div><div class=\"facit-matte\">\\[\\frac{-21x}{7x}=-3\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(7x\\) gånger parentesen</p><div class=\"facit-matte\">\\[14x^{2}-21x=7x(2x-3)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(7x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[7x(2x-3)=14x^{2}-21x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7x(2x-3)\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 4, 6 och 2 är 2</p><div class=\"facit-matte\">\\[4=2\\cdot 2\\]</div><div class=\"facit-matte\">\\[6=2\\cdot 3\\]</div><div class=\"facit-matte\">\\[2=2\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2x\\)</p><div class=\"facit-matte\">\\[\\frac{4x^{3}}{2x}=2x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-6x^{2}}{2x}=-3x\\]</div><div class=\"facit-matte\">\\[\\frac{2x}{2x}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2x\\) gånger parentesen</p><div class=\"facit-matte\">\\[4x^{3}-6x^{2}+2x\\]</div><div class=\"facit-matte\">\\[=2x(2x^{2}-3x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2x(2x^{2}-3x+1)\\]</div><div class=\"facit-matte\">\\[=4x^{3}-6x^{2}+2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x(2x^{2}-3x+1)\\)</p></div></div>",
     "familj": "Bryt ut största gemensamma faktor",
     "geogebra": false,
     "miniräknare": false,
@@ -182497,7 +182077,7 @@ window.BANKMA1 = [
       {
         "etikett": "d",
         "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(4x^{3}-6x^{2}+2x\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 4, 6 och 2 är 2</p><div class=\"facit-matte\">\\[4=2\\cdot 2\\]</div><div class=\"facit-matte\">\\[6=2\\cdot 3\\]</div><div class=\"facit-matte\">\\[2=2\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2x\\)</p><div class=\"facit-matte\">\\[\\frac{4x^{3}}{2x}=2x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-6x^{2}}{2x}=-3x\\]</div><div class=\"facit-matte\">\\[\\frac{2x}{2x}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2x\\) gånger parentesen</p><div class=\"facit-matte\">\\[4x^{3}-6x^{2}+2x=2x(2x^{2}-3x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2x(2x^{2}-3x+1)=4x^{3}-6x^{2}+2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x(2x^{2}-3x+1)\\)</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 4, 6 och 2 är 2</p><div class=\"facit-matte\">\\[4=2\\cdot 2\\]</div><div class=\"facit-matte\">\\[6=2\\cdot 3\\]</div><div class=\"facit-matte\">\\[2=2\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2x\\)</p><div class=\"facit-matte\">\\[\\frac{4x^{3}}{2x}=2x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-6x^{2}}{2x}=-3x\\]</div><div class=\"facit-matte\">\\[\\frac{2x}{2x}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2x\\) gånger parentesen</p><div class=\"facit-matte\">\\[4x^{3}-6x^{2}+2x\\]</div><div class=\"facit-matte\">\\[=2x(2x^{2}-3x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2x(2x^{2}-3x+1)\\]</div><div class=\"facit-matte\">\\[=4x^{3}-6x^{2}+2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x(2x^{2}-3x+1)\\)</p></div>",
         "ledtrad": "<p>Vilket är det största tal som 4, 6 och 2 alla är delbara med? Finns samma bokstav i alla termer? Bryt i så fall ut den lägsta potensen av den.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -182635,7 +182215,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Faktorisera uttrycken genom att bryta ut största möjliga faktor.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2x+10\\)</div><div>b) \\(x^{3}-4x^{2}\\)</div><div>c) \\(18x^{2}-12x+6\\)</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 2 och 10 är 2</p><div class=\"facit-matte\">\\[2=2\\cdot 1\\qquad 10=2\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2\\)</p><div class=\"facit-matte\">\\[\\frac{2x}{2}=x\\]</div><div class=\"facit-matte\">\\[\\frac{10}{2}=5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2\\) gånger parentesen</p><div class=\"facit-matte\">\\[2x+10=2(x+5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2(x+5)=2x+10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2(x+5)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen 1 och 4 har ingen gemensam faktor större än 1</p></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x^{2}\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(x^{2}\\)</p><div class=\"facit-matte\">\\[\\frac{x^{3}}{x^{2}}=x\\]</div><div class=\"facit-matte\">\\[\\frac{-4x^{2}}{x^{2}}=-4\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(x^{2}\\) gånger parentesen</p><div class=\"facit-matte\">\\[x^{3}-4x^{2}=x^{2}(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(x^{2}\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[x^{2}(x-4)=x^{3}-4x^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}(x-4)\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 18, 12 och 6 är 6</p><div class=\"facit-matte\">\\[18=6\\cdot 3\\]</div><div class=\"facit-matte\">\\[12=6\\cdot 2\\]</div><div class=\"facit-matte\">\\[6=6\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{18x^{2}}{6}=3x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-12x}{6}=-2x\\]</div><div class=\"facit-matte\">\\[\\frac{6}{6}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6\\) gånger parentesen</p><div class=\"facit-matte\">\\[18x^{2}-12x+6=6(3x^{2}-2x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6(3x^{2}-2x+1)=18x^{2}-12x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6(3x^{2}-2x+1)\\)</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 2 och 10 är 2</p><div class=\"facit-matte\">\\[2=2\\cdot 1\\qquad 10=2\\cdot 5\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(2\\)</p><div class=\"facit-matte\">\\[\\frac{2x}{2}=x\\]</div><div class=\"facit-matte\">\\[\\frac{10}{2}=5\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(2\\) gånger parentesen</p><div class=\"facit-matte\">\\[2x+10=2(x+5)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(2\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[2(x+5)=2x+10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2(x+5)\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen 1 och 4 har ingen gemensam faktor större än 1</p></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x^{2}\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(x^{2}\\)</p><div class=\"facit-matte\">\\[\\frac{x^{3}}{x^{2}}=x\\]</div><div class=\"facit-matte\">\\[\\frac{-4x^{2}}{x^{2}}=-4\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(x^{2}\\) gånger parentesen</p><div class=\"facit-matte\">\\[x^{3}-4x^{2}=x^{2}(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(x^{2}\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[x^{2}(x-4)=x^{3}-4x^{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}(x-4)\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 18, 12 och 6 är 6</p><div class=\"facit-matte\">\\[18=6\\cdot 3\\]</div><div class=\"facit-matte\">\\[12=6\\cdot 2\\]</div><div class=\"facit-matte\">\\[6=6\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{18x^{2}}{6}=3x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-12x}{6}=-2x\\]</div><div class=\"facit-matte\">\\[\\frac{6}{6}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6\\) gånger parentesen</p><div class=\"facit-matte\">\\[18x^{2}-12x+6\\]</div><div class=\"facit-matte\">\\[=6(3x^{2}-2x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6(3x^{2}-2x+1)\\]</div><div class=\"facit-matte\">\\[=18x^{2}-12x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6(3x^{2}-2x+1)\\)</p></div></div>",
     "familj": "Bryt ut största gemensamma faktor",
     "geogebra": false,
     "miniräknare": false,
@@ -182680,7 +182260,7 @@ window.BANKMA1 = [
       {
         "etikett": "c",
         "t": "<p>Faktorisera genom att bryta ut största möjliga faktor.</p><div class=\"spel-en-del\">\\(18x^{2}-12x+6\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 18, 12 och 6 är 6</p><div class=\"facit-matte\">\\[18=6\\cdot 3\\]</div><div class=\"facit-matte\">\\[12=6\\cdot 2\\]</div><div class=\"facit-matte\">\\[6=6\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{18x^{2}}{6}=3x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-12x}{6}=-2x\\]</div><div class=\"facit-matte\">\\[\\frac{6}{6}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6\\) gånger parentesen</p><div class=\"facit-matte\">\\[18x^{2}-12x+6=6(3x^{2}-2x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6(3x^{2}-2x+1)=18x^{2}-12x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6(3x^{2}-2x+1)\\)</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 18, 12 och 6 är 6</p><div class=\"facit-matte\">\\[18=6\\cdot 3\\]</div><div class=\"facit-matte\">\\[12=6\\cdot 2\\]</div><div class=\"facit-matte\">\\[6=6\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(6\\)</p><div class=\"facit-matte\">\\[\\frac{18x^{2}}{6}=3x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-12x}{6}=-2x\\]</div><div class=\"facit-matte\">\\[\\frac{6}{6}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(6\\) gånger parentesen</p><div class=\"facit-matte\">\\[18x^{2}-12x+6\\]</div><div class=\"facit-matte\">\\[=6(3x^{2}-2x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(6\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[6(3x^{2}-2x+1)\\]</div><div class=\"facit-matte\">\\[=18x^{2}-12x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6(3x^{2}-2x+1)\\)</p></div>",
         "ledtrad": "<p>Vilket är det största tal som 18, 12 och 6 alla är delbara med? Finns det någon bokstav som står i alla termer?</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -183079,7 +182659,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Faktorisera \\(10x^{3}-25x^{2}+5x\\) genom att bryta ut största möjliga faktor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 10, 25 och 5 är 5</p><div class=\"facit-matte\">\\[10=5\\cdot 2\\]</div><div class=\"facit-matte\">\\[25=5\\cdot 5\\]</div><div class=\"facit-matte\">\\[5=5\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5x\\)</p><div class=\"facit-matte\">\\[\\frac{10x^{3}}{5x}=2x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-25x^{2}}{5x}=-5x\\]</div><div class=\"facit-matte\">\\[\\frac{5x}{5x}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5x\\) gånger parentesen</p><div class=\"facit-matte\">\\[10x^{3}-25x^{2}+5x=5x(2x^{2}-5x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5x(2x^{2}-5x+1)=10x^{3}-25x^{2}+5x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x(2x^{2}-5x+1)\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största gemensamma faktorn till talen 10, 25 och 5 är 5</p><div class=\"facit-matte\">\\[10=5\\cdot 2\\]</div><div class=\"facit-matte\">\\[25=5\\cdot 5\\]</div><div class=\"facit-matte\">\\[5=5\\cdot 1\\]</div></li><li><p class=\"facit-rubrik\">Alla termer innehåller \\(x\\). Den lägsta potensen som finns i alla termer bryts ut</p></li><li><p class=\"facit-rubrik\">Dividera varje term med \\(5x\\)</p><div class=\"facit-matte\">\\[\\frac{10x^{3}}{5x}=2x^{2}\\]</div><div class=\"facit-matte\">\\[\\frac{-25x^{2}}{5x}=-5x\\]</div><div class=\"facit-matte\">\\[\\frac{5x}{5x}=1\\]</div></li><li><p class=\"facit-rubrik\">Skriv uttrycket som \\(5x\\) gånger parentesen</p><div class=\"facit-matte\">\\[10x^{3}-25x^{2}+5x\\]</div><div class=\"facit-matte\">\\[=5x(2x^{2}-5x+1)\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: multiplicera in \\(5x\\). Termerna i parentesen har ingen gemensam faktor kvar, så det finns inget mer att bryta ut</p><div class=\"facit-matte\">\\[5x(2x^{2}-5x+1)\\]</div><div class=\"facit-matte\">\\[=10x^{3}-25x^{2}+5x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x(2x^{2}-5x+1)\\)</p></div>",
     "familj": "Bryt ut största gemensamma faktor",
     "geogebra": false,
     "miniräknare": false,

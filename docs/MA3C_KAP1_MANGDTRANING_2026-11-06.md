@@ -60,6 +60,30 @@ Nivåer och poäng:
 - Valideraren ger för Ma3c inga fel och samma 47 varningar som före ändringen. Den ger tre nya infofynd av typen `VERY_SIMILAR_TEXT`, vilket är väntat vid mängdträning med återkommande uppgiftstyper.
 - Ma3-testerna passerar utom `ma3-sinus-c-2026-10-25`, som var rött redan före ändringen och gäller trigonometri.
 
+## Omgång 2: 32 uppgifter, 102 kort (1.1046–1.1077)
+
+Användaren gav klartecken och bad om fortsättning. Byggare: `tools/bygg-ma3c-kap1-mangdtraning2-2026-11-06.py`. Den återanvänder hjälpfunktionerna från omgång 1, och omgång 1 ger fortfarande exakt samma uppgifter.
+
+| Moment (familj) | Uppgifter | Innehåll |
+|---|---|---|
+| `rationella_uttryck` (Definitionsmängd för rationella uttryck) | 1.1046–1.1055 | 6 uppgifter med fyra delar: a) nämnare i faktorform, b) x² − k (nivå 2), c) nämnare som löses med pq-formeln, d) bryt ut x ur x³ − kx (nivå 3). 4 ensamma uppgifter på nivå 3 om när ett bråk är lika med noll: täljaren ska vara noll men inte nämnaren. |
+| `polynomfunktioner` (Andragradsfunktioner och extremvärden) | 1.1056–1.1063 | a) nollställen med pq-formeln, b) symmetrilinjen (nivå 2), c) största eller minsta värde (nivå 3). Facit för c) har en graf med nollställen och vertex. |
+| `polynomfunktioner` (Bestämma polynomfunktion från villkor) | 1.1064–1.1069 | a) nollställen och ledande koefficient 1 (nivå 2), b) nollställen och f(0) (nivå 3), c) tredjegradsfunktion med tre nollställen och ett funktionsvärde (nivå 3). |
+| `tangent_sekant` (Sekant, tangent och gränsvärde) | 1.1070–1.1077 | a) sekant mellan två heltalspunkter, b) sekant med steget 0,1 (nivå 2), c) ändringskvoten förenklad i h, d) tangentens lutning som gränsvärde (nivå 3). |
+
+**Kontroll:**
+
+- Alla 130 kort klarar Kunskapsgymmets rättning och mina svarsvarianter. Det gäller också uttryck i h och f(x)-svar med eller utan etikett.
+- Alla facit renderas i 390 px utan fel. Positiva tal sätts inte inom parentes i insättningar, och extremvärdet visas med insättning.
+- Regressionstestet `tools/ma3c-kap1-mangdtraning2-2026-11-06.test.js` räknar oberoende om:
+  - nämnarnas nollställen, med kontroll att inga saknas mellan −12 och 12,
+  - nollställen, symmetrilinje och extremvärde,
+  - att de bestämda funktionerna uppfyller villkoren,
+  - sekant- och tangentlutningar samt ändringskvoten i tre h-värden.
+- Valideraren ger för Ma3c inga fel och samma 47 varningar, men fem nya infofynd om likhet.
+
+**Medvetet utelämnat:** förkortning och räkning med rationella uttryck (`forkorta_rationella`, `rakna_rationella`). Kunskapsgymmets format `uttryck` godtar allt som är algebraiskt lika med facit, och då godtas också det oförkortade uttrycket, alltså frågan avskriven. Befintliga uppgifter i dessa moment har samma svaghet. Ett format som också kräver förkortad form behövs i Kunskapsgymmet innan fler sådana uppgifter läggs till.
+
 ## Fortsättning
 
-Nästa moment i kapitel 1 med få kort på nivå 2–3 är `rationella_uttryck` (15/11), `rakna_rationella`, `tangent_sekant` och `polynomfunktioner`. Byggaren kan utökas med fler områden på samma sätt.
+Efter omgång 2 återstår förkortning och räkning med rationella uttryck (se ovan), samt `absolutbelopp`, `gransvarde` och `kontinuitet` om de behöver mer mängdträning. Byggaren kan utökas med fler områden på samma sätt.

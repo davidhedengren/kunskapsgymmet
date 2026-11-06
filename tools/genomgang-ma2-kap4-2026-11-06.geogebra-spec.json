@@ -1,0 +1,9 @@
+{"jobs":[
+ {"slug":"genomgang-4-01","values":[2,4,4,5,10],"stats":[{"name":"medel-median","frame":["Medel","Median"],"show":["n","Medel","Median"]}]},
+ {"slug":"genomgang-4-02","values":[2,3,5,7,8,10,12,15],"stats":[{"name":"kvartiler","frame":["Q1","Median","Q3"],"show":["n","Min","Q1","Median","Q3","Max"]}]},
+ {"slug":"genomgang-4-06","values":[12,15,11,14,18,16],"stats":[{"name":"medel-s","frame":["Medel","s"]}]},
+ {"slug":"genomgang-4-07","typ":"normal","mu":100,"sigma":15,"mode":"intervall","a":70,"b":130},
+ {"slug":"genomgang-4-08","typ":"normal","mu":168,"sigma":7,"mode":"intervall","a":160,"b":180},
+ {"slug":"genomgang-4-09-z","typ":"normal","mu":0,"sigma":1,"mode":"vanster","p":0.03},
+ {"slug":"genomgang-4-09-kontroll","typ":"normal","mu":1001.3,"sigma":6,"mode":"vanster","b":990}
+]}

@@ -2,7 +2,8 @@
 test('Varje beräkningsdel har konkreta GeoGebra-steg och fristående kort',()=>{
  for(const id of ['4.26','4.27','4.66','4.106']){let x=q(id);assert.equal(x.geogebra,true,id);assert.equal(x.miniräknare,true,id);assert.match(x.s,/GeoGebra/,id);assert.match(x.s,/facit-svar/,id)}
  const a=q('4.26');assert.match(a.spelDelar[0].s,/0,0502/);assert.doesNotMatch(a.spelDelar[0].s,/30 gösar/);assert.match(a.spelDelar[1].t,/5,02 %/);assert.doesNotMatch(a.spelDelar[1].s,/huvuduppgiften|från a\)/);assert.match(a.spelDelar[2].s,/variera/);
- const b=q('4.27');assert.match(b.t,/Uppskatta standardavvikelsen med hjälp av GeoGebra/);assert.match(b.spelDelar[0].s,/tillfällig standardavvikelse 1/);assert.match(b.spelDelar[1].fraga,/σ=3/);assert.doesNotMatch(b.spelDelar[0].s,/2,28/);
+ // Felrapport 2026-11-06 10:00: frågan säger inte längre "med hjälp av GeoGebra" (eleverna ska inse verktyget själva); facit visar fortfarande GeoGebra.
+ const b=q('4.27');assert.match(b.t,/Uppskatta standardavvikelsen\./);assert.doesNotMatch(b.t,/GeoGebra/);assert.match(b.spelDelar[0].s,/tillfällig standardavvikelse 1/);assert.match(b.spelDelar[1].fraga,/standardavvikelsen är 3,0 g/);assert.doesNotMatch(b.spelDelar[0].s,/2,28/);
  assert.match(q('4.66').spelDelar[1].s,/80-60/);assert.doesNotMatch(q('4.66').spelDelar[0].s,/95,4/);assert.match(q('4.106').s,/slumpvariation/);
 });
 test('Faktiska svanssannolikheter, percentil och skattat antal är korrekta',()=>{

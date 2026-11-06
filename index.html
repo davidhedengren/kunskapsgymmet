@@ -2031,6 +2031,24 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .adminblad .ab-ga input{width:92px;padding:5px 8px;border:1px solid var(--hair);border-radius:9px;background:var(--surface);color:var(--ink);font:inherit;font-size:12.5px}
 .adminblad small{flex-basis:100%;font-size:11.5px;color:var(--ink3)}
 @media(max-width:480px){.adminblad .ab-ga{margin-left:0}.adminblad small{display:none}}
+/* Admin: nivåfilter och fördelning i bläddringsraden. */
+.adminblad .ab-nivaer{flex-basis:100%;display:flex;align-items:flex-end;gap:5px;flex-wrap:wrap}
+.adminblad .ab-urval{font-weight:650;color:var(--ink);margin-right:4px;align-self:center;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.adminblad .ab-niva{position:relative;display:inline-flex;align-items:baseline;gap:5px;min-width:52px;padding:5px 9px 4px;border:1px solid var(--hair);border-radius:10px;background:var(--surface);color:var(--ink2);font:inherit;font-size:12px;cursor:pointer;overflow:hidden}
+.adminblad .ab-niva i{position:absolute;left:0;right:0;bottom:0;height:var(--h);background:var(--goodSoft);pointer-events:none}
+.adminblad .ab-niva span,.adminblad .ab-niva b{position:relative}
+.adminblad .ab-niva b{font-variant-numeric:tabular-nums;color:var(--ink)}
+.adminblad .ab-niva.on{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink);color:var(--ink)}
+.adminblad .ab-niva.tom{opacity:.55}
+.adminblad .ab-niva.tom b{color:var(--bad)}
+.adminblad .ab-fam{flex-basis:100%;font-size:12px}
+.adminblad .ab-fam summary{cursor:pointer;color:var(--ink3)}
+.adminblad .ab-fam table{border-collapse:collapse;margin-top:6px;width:100%;max-width:640px;font-variant-numeric:tabular-nums}
+.adminblad .ab-fam th,.adminblad .ab-fam td{padding:3px 6px;border-bottom:1px solid var(--hair);text-align:right}
+.adminblad .ab-fam th:first-child,.adminblad .ab-fam td:first-child{text-align:left;overflow-wrap:anywhere}
+.adminblad .ab-fam td.noll{color:var(--bad);font-weight:700}
+.adminblad .ab-fam td.fa{color:var(--warn)}
+@media(max-width:480px){.adminblad .ab-urval{flex-basis:100%}}
 
 .ttop{
   position:sticky;top:0;z-index:30;
@@ -4186,7 +4204,7 @@ const state={
   course:null, track:null, data:null, view:"home",
   focusArea:null, focusFamily:null,
   currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0, lastArea:null,
-  passHistory:[],passIndex:-1,passReview:false,passLive:null,passCourse:null,adminBlad:null,
+  passHistory:[],passIndex:-1,passReview:false,passLive:null,passCourse:null,adminBlad:null,adminBladNiva:null,
   aktivRuta:0,
   focusOmr:null, focusNamn:null, focusNiva:null, mixChapter:null, senasteUrsprung:[],
   flervalKap:null, flervalValda:null, flervalTyp:null, flervalKort:null,
@@ -9617,7 +9635,8 @@ function adminBladSortering(a,b){
   }
   return 0;
 }
-function adminBladLista(){
+/* Urvalet utan nivåfilter: kapitel, område och delmoment som passet. */
+function adminBladBas(){
   let pool=availableTasks();
   if(state.mixChapter!=null) pool=pool.filter(t=>String(t.kap)===state.mixChapter);
   if(state.focusOmr) pool=pool.filter(t=>state.focusOmr.includes(t.omr||"ovrigt"));
@@ -9626,14 +9645,87 @@ function adminBladLista(){
     const vill=[].concat(state.focusFamily);
     pool=pool.filter(t=>[].concat(t.familj).some(f=>vill.includes(f)));
   }
+  return pool;
+}
+/* Nivåfiltret i bläddringsraden. null följer passets nivåval, "alla" visar
+   alla nivåer och "1"–"5" visar bara den nivån. */
+function adminBladNivaFilter(pool){
+  const v=state.adminBladNiva;
+  if(v==="alla") return pool;
+  if(v) return pool.filter(t=>levelOf(t)===v);
   if(state.focusNiva){
     const vill=[].concat(state.focusNiva).map(String);
     const pa=pool.filter(t=>vill.includes(levelOf(t)));
-    if(pa.length) pool=pa;
+    if(pa.length) return pa;
   }
+  return pool;
+}
+function adminBladLista(){
+  const pool=adminBladNivaFilter(adminBladBas());
   const omrOrdning=new Map(getAreas().map((a,i)=>[a.key,i]));
   return pool.slice().sort((a,b)=>
     (omrOrdning.get(a.omr||"ovrigt")??1e9)-(omrOrdning.get(b.omr||"ovrigt")??1e9) || adminBladSortering(a,b));
+}
+function adminBladFordelning(pool){
+  const n=Object.fromEntries(NIVAER.map(k=>[k,0]));
+  for(const t of pool) n[levelOf(t)]=(n[levelOf(t)]||0)+1;
+  return n;
+}
+function adminBladUrvalNamn(){
+  if(state.focusFamily){
+    const f=[].concat(state.focusFamily);
+    return f.length===1?f[0]:`${f.length} delmoment`;
+  }
+  if(state.focusOmr) return state.focusOmr.length===1?areaName(state.focusOmr[0]):`${state.focusOmr.length} områden`;
+  if(state.focusArea) return areaName(state.focusArea);
+  if(state.mixChapter!=null) return `Kapitel ${state.mixChapter}`;
+  return "Hela kursen";
+}
+function adminBladNivaHtml(bas){
+  const n=adminBladFordelning(bas);
+  const v=state.adminBladNiva;
+  const passNiva=!v && state.focusNiva ? [].concat(state.focusNiva).map(String) : null;
+  const max=Math.max(1,...NIVAER.map(k=>n[k]));
+  const chip=(nyckel,etikett,antal,aktiv,titel)=>`<button type="button" class="ab-niva${aktiv?" on":""}${antal===0?" tom":""}"
+      onclick="adminBladValjNiva('${nyckel}')" aria-pressed="${aktiv}" title="${esc(titel)}">
+      ${nyckel==="alla"?"":`<i style="--h:${Math.round(100*antal/max)}%" aria-hidden="true"></i>`}
+      <span>${etikett}</span><b>${antal}</b></button>`;
+  const allaAktiv=v==="alla" || (!v && !passNiva);
+  // Fördelning per delmoment i urvalet, så att tunna nivåer syns direkt.
+  const fam=new Map();
+  for(const t of bas){
+    for(const f of [].concat(t.familj||"Utan delmoment")){
+      if(!fam.has(f)) fam.set(f,Object.fromEntries(NIVAER.map(k=>[k,0])));
+      fam.get(f)[levelOf(t)]++;
+    }
+  }
+  const tabell=fam.size>1?`<details class="ab-fam"><summary>Per delmoment (${fam.size})</summary>
+    <table><thead><tr><th>Delmoment</th>${NIVAER.map(k=>`<th>N${k}</th>`).join("")}<th>Σ</th></tr></thead><tbody>
+    ${[...fam].map(([f,c])=>`<tr><td>${esc(f)}</td>${NIVAER.map(k=>`<td class="${c[k]===0?"noll":c[k]<5?"fa":""}">${c[k]}</td>`).join("")}<td>${NIVAER.reduce((s,k)=>s+c[k],0)}</td></tr>`).join("")}
+    </tbody></table></details>`:"";
+  return `<div class="ab-nivaer" role="group" aria-label="Filtrera på nivå">
+      <span class="ab-urval" title="Antal kort per träningsnivå i urvalet">${esc(adminBladUrvalNamn())}</span>
+      ${chip("alla","Alla",bas.length,allaAktiv,"Visa alla nivåer")}
+      ${NIVAER.map(k=>chip(k,`N${k}`,n[k],v===k||(passNiva||[]).includes(k),`Nivå ${k}: ${n[k]} kort`)).join("")}
+    </div>${tabell}`;
+}
+function adminBladValjNiva(nyckel){
+  if(!arAdmin) return;
+  state.adminBladNiva=(nyckel==="alla" || state.adminBladNiva!==nyckel) ? nyckel : "alla";
+  const lista=adminBladLista();
+  if(!lista.length){ toast("Det finns inga kort på den nivån i urvalet."); }
+  const nuvarande=state.currentTask?.id;
+  const i=lista.findIndex(t=>t.id===nuvarande);
+  if(i>=0 || !lista.length){
+    // Kortet som visas finns kvar i urvalet: uppdatera bara raden.
+    if(state.adminBlad){ state.adminBlad.lista=lista; state.adminBlad.i=i; }
+    const nav=document.querySelector(".adminblad");
+    if(nav) nav.outerHTML=adminBladHtml();
+    return;
+  }
+  const b=adminBladStarta();
+  b.lista=lista; b.i=0;
+  adminBladVisa(lista[0]);
 }
 function adminBladHtml(){
   if(!arAdmin || state.view!=="training") return "";
@@ -9646,10 +9738,11 @@ function adminBladHtml(){
     <button class="btn sm" id="ab-forra" onclick="adminBladGa(-1)" ${i===0?"disabled":""}>← Föregående</button>
     <span class="ab-pos">${i>=0?`${i+1} / ${lista.length}`:`– / ${lista.length}`}</span>
     <button class="btn sm" id="ab-nasta" onclick="adminBladGa(1)" ${i>=lista.length-1?"disabled":""}>Nästa →</button>
-    <span class="ab-id">${esc(t?.id||"")}</span>
+    <span class="ab-id">${esc(t?.id||"")}</span>${t?levelChip(t):""}
     <span class="ab-ga"><input id="ab-id" placeholder="Gå till ID" aria-label="Gå till uppgifts-ID"
       onkeydown="if(event.key==='Enter'){event.preventDefault();adminBladGaTill(this.value)}">
       <button class="btn sm" onclick="adminBladGaTill(document.getElementById('ab-id').value)">Gå</button></span>
+    ${adminBladNivaHtml(adminBladBas())}
     ${b?`<button class="btn sm primary" onclick="adminBladAvsluta()">Tillbaka till passet</button>
     <small>Bläddringsläge: att bläddra registreras inte. Svarar du får du XP som vanligt, men passets framsteg påverkas inte. Piltangenterna ← → bläddrar.</small>`
       :`<small>Bläddra utan att svara. Att bläddra förbi uppgifter registreras inte.</small>`}

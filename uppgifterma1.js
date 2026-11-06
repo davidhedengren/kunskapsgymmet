@@ -18261,7 +18261,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>En mätare sparar 1 800 byte per mätning och gör 400 mätningar per sekund. Minnet rymmer 12 MB, där 1 MB = 1 000 000 byte. Hur många hela sekunders mätning ryms?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Per sekund: 1 800 · 400 = 720 000 byte.</p></li><li><p>Minnet: 12 MB = 12 000 000 byte.</p></li><li><p>12 000 000 / 720 000 = 16,67, alltså 16 hela sekunder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Per sekund: 1 800 · 400 = 720 000 byte.</p></li><li><p>Minnet: 12 MB = 12 000 000 byte.</p></li><li><p>12 000 000 / 720 000 = 16,67, alltså 16 hela sekunder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 s</p></div>",
     "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -22416,7 +22416,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Hur många megawatt (MW) är 4 500 kW?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">1 MW = 1 000 kW, så</p><div class=\"facit-matte\">\\[\\frac{4\\,500}{1\\,000}=4{,}5\\, \\mathrm{MW}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>4,5</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">1 MW = 1 000 kW, så</p><div class=\"facit-matte\">\\[\\frac{4\\,500}{1\\,000}=4{,}5\\, \\mathrm{MW}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,5 MW</p></div></div>",
     "familj": "Omvandla med prefix",
     "geogebra": false,
     "miniräknare": false,
@@ -77835,7 +77835,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Ett pris höjs först med \\(p\\) procent. Sedan sänks det nya priset med lika många procent. Slutpriset blir 4 % lägre än det ursprungliga priset.</p><p>Bestäm \\(p\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med \\(x=\\frac{p}{100}\\) blir förändringsfaktorerna \\(1+x\\) och \\(1-x\\).</p></li><li><p>Den totala förändringsfaktorn är 0,96:</p></li><li><p>\\[(1+x)(1-x)=0{,}96\\;\\Leftrightarrow\\;1-x^2=0{,}96\\;\\Leftrightarrow\\;x^2=0{,}04.\\]</p></li><li><p>\\(x=0{,}2\\), eftersom \\(x\\) är positivt.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[p=20\\].</div></div></li><li><div class=\"facit-berakning\"><p>Kontroll:</p><div class=\"facit-matte\">\\[1{,}20\\cdot0{,}80=0{,}96\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(p=20\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med \\(x=\\frac{p}{100}\\) blir förändringsfaktorerna \\(1+x\\) och \\(1-x\\).</p></li><li><p>Den totala förändringsfaktorn är 0,96:</p></li><li><p>\\[\\begin{aligned}(1+x)(1-x)&=0{,}96\\\\1-x^2&=0{,}96\\\\x^2&=0{,}04\\end{aligned}\\]</p></li><li><p>\\(x=0{,}2\\), eftersom \\(x\\) är positivt.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[p=20\\].</div></div></li><li><div class=\"facit-berakning\"><p>Kontroll:</p><div class=\"facit-matte\">\\[1{,}20\\cdot0{,}80=0{,}96\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(p=20\\), alltså 20 %</p></div>",
     "familj": "Räkna med förändringsfaktor",
     "formaga": [
       "problemlösning",
@@ -148626,7 +148626,7 @@ window.BANKMA1 = [
   "poang": "1/0/0",
   "typ": "lika omkrets för två figurer",
   "t": "<p>En kvadrat har sidan x cm. En rektangel har sidorna x cm och 6 cm. Kvadratens omkrets är 4x och rektangelns omkrets är 2x + 12.</p><p>Figurerna har samma omkrets: \\(4x=2x+12\\). Bestäm x.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x-2x=12\\]</div></li><li><div class=\"facit-matte\">\\[2x=12\\]</div></li><li><div class=\"facit-matte\">\\[x=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x-2x=12\\]</div></li><li><div class=\"facit-matte\">\\[2x=12\\]</div></li><li><div class=\"facit-matte\">\\[x=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\), alltså 6 cm</p></div>",
   "familj": "Variabeltermer i båda leden",
   "formaga": [
     "procedur"
@@ -148988,7 +148988,7 @@ window.BANKMA1 = [
   "poang": "1/0/0",
   "typ": "kvadrat och triangel med samma omkrets",
   "t": "<p>Kvadraten har sidan x cm. Den liksidiga triangeln har sidan x + 2 cm. Figurerna har samma omkrets.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"En kvadrat med sidan x och en liksidig triangel med sidan x + 2.\"><title>En kvadrat med sidan x och en liksidig triangel med sidan x + 2.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"35\" width=\"110\" height=\"110\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><text x=\"95.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><polygon points=\"230,145 380,145 305,15\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><text x=\"305.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x + 2</text></svg></span><p>Lös ekvationen \\(4x=3(x+2)\\) och bestäm x.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x=3x+6\\]</div></li><li><div class=\"facit-matte\">\\[x=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x=3x+6\\]</div></li><li><div class=\"facit-matte\">\\[x=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\), alltså 6 cm</p></div>",
   "familj": "Ställa upp ekvationer med parenteser",
   "formaga": [
     "modellering",

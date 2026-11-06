@@ -612,8 +612,8 @@
     "Lös en polynomekvation med komplexa rötter",
     "<p>Lös x² − 4x + 13 = 0.</p>",
     "När diskriminanten är negativ används i² = −1 för att skriva roten ur ett negativt tal.",
-    [steg("Använd pq-formeln eller lösningsformeln", "Diskriminanten blir negativ.", "\\[x=\\frac{4\\pm\\sqrt{16-52}}2=\\frac{4\\pm\\sqrt{-36}}2\\]"),
-     steg("Skriv med i", "√(−36) = 6i.", "\\[x=\\frac{4\\pm6i}{2}=2\\pm3i\\]")],
+    [steg("Använd pq-formeln", "Här är p = −4 och q = 13. Uttrycket under rottecknet blir negativt.", "\\[x=2\\pm\\sqrt{(-2)^2-13}=2\\pm\\sqrt{-9}\\]"),
+     steg("Skriv med i", "√(−9) = 3i.", "\\[x=2\\pm3i\\]")],
     "Lösningarna är x = 2 + 3i och x = 2 − 3i.",
     "Polynom med reella koefficienter får icke-reella rötter i konjugerade par.", "Polynomekvationer med komplexa lösningar");
 

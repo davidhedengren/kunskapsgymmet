@@ -10763,7 +10763,10 @@ function forenklatPolynom(x){
   let raw=stadaSvar(x).toLowerCase().replace(/\\(?:left|right)/g,"")
     .replace(/\\(?:cdot|times)/g,"*").replace(/[·⋅×]/g,"*")
     .replace(/−/g,"-").replace(/\^\{(\d+)\}/g,"^$1")
-    .replace(/²/g,"^2").replace(/³/g,"^3").replace(/,/g,".").replace(/\s+/g,"");
+    /* Symbolknappen xⁿ skriver ^() (felrapport 1.1014, 2026-11-06): x^(3) är samma som x^3. */
+    .replace(/\^\(\s*(\d+)\s*\)/g,"^$1")
+    .replace(/²/g,"^2").replace(/³/g,"^3").replace(/,/g,".").replace(/\s+/g,"")
+    .replace(/\.$/,"");   // avslutande punkt efter svaret
   /* Reducerade bråkkoefficienter: x/3, (1/3)*x och (5x)/2.
      Parenteser med addition förblir otillåtna: eleven ska förenkla själv. */
   raw=raw.replace(/\\(?:d?frac)\{([+-]?[a-z0-9.*^]+)\}\{([1-9]\d*)\}/g,'$1/$2')

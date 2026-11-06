@@ -178973,5 +178973,2907 @@ window.BANKMA1 = [
     "ledtrad": "<p>Talet framför tiopotensen ska vara minst 1 och mindre än 10.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1
+  },
+  {
+    "id": "1.1623",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(x+7=12\\)</div><div>b) \\(4x=28\\)</div><div>c) \\(3x-5=16\\)</div><div>d) \\(8-2x=20\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 7 från båda leden</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5+7=12\\]</div><div class=\"facit-matte\">\\[\\text{HL}=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[x=7\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=7\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=4\\cdot 7=28\\]</div><div class=\"facit-matte\">\\[\\text{HL}=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera 5 till båda leden</p><div class=\"facit-matte\">\\[3x=21\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[x=7\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=7\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=3\\cdot 7-5=16\\]</div><div class=\"facit-matte\">\\[\\text{HL}=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 8 från båda leden</p><div class=\"facit-matte\">\\[-2x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med −2</p><div class=\"facit-matte\">\\[x=-6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=-6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=8-2\\cdot (-6)=20\\]</div><div class=\"facit-matte\">\\[\\text{HL}=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div></div>",
+    "familj": "Lösa enkla ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      5,
+      7,
+      7,
+      -6
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(x+7=12\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 7 från båda leden</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5+7=12\\]</div><div class=\"facit-matte\">\\[\\text{HL}=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+        "ledtrad": "<p>Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(4x=28\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[x=7\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=7\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=4\\cdot 7=28\\]</div><div class=\"facit-matte\">\\[\\text{HL}=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div>",
+        "ledtrad": "<p>Vilket tal är x multiplicerat med? Gör samma sak i båda leden.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(3x-5=16\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera 5 till båda leden</p><div class=\"facit-matte\">\\[3x=21\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[x=7\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=7\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=3\\cdot 7-5=16\\]</div><div class=\"facit-matte\">\\[\\text{HL}=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div>",
+        "ledtrad": "<p>Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(8-2x=20\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 8 från båda leden</p><div class=\"facit-matte\">\\[-2x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med −2</p><div class=\"facit-matte\">\\[x=-6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=-6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=8-2\\cdot (-6)=20\\]</div><div class=\"facit-matte\">\\[\\text{HL}=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
+        "ledtrad": "<p>Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p><p><strong>b)</strong> Vilket tal är x multiplicerat med? Gör samma sak i båda leden.</p><p><strong>c)</strong> Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p><p><strong>d)</strong> Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1624",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(x-9=-4\\)</div><div>b) \\(5x+3=-12\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera 9 till båda leden</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5-9=-4\\]</div><div class=\"facit-matte\">\\[\\text{HL}=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 3 från båda leden</p><div class=\"facit-matte\">\\[5x=-15\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 5</p><div class=\"facit-matte\">\\[x=-3\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=-3\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5\\cdot (-3)+3=-12\\]</div><div class=\"facit-matte\">\\[\\text{HL}=-12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div></div>",
+    "familj": "Lösa enkla ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      5,
+      -3
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(x-9=-4\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera 9 till båda leden</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5-9=-4\\]</div><div class=\"facit-matte\">\\[\\text{HL}=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+        "ledtrad": "<p>Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(5x+3=-12\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 3 från båda leden</p><div class=\"facit-matte\">\\[5x=-15\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 5</p><div class=\"facit-matte\">\\[x=-3\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=-3\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5\\cdot (-3)+3=-12\\]</div><div class=\"facit-matte\">\\[\\text{HL}=-12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div>",
+        "ledtrad": "<p>Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1625",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(6x-7=29\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera 7 till båda leden</p><div class=\"facit-matte\">\\[6x=36\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 6</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=6\\cdot 6-7=29\\]</div><div class=\"facit-matte\">\\[\\text{HL}=29\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+    "familj": "Lösa enkla ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1626",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{x}{3}=5\\)</div><div>b) \\(\\frac{x}{4}+3=7\\)</div><div>c) \\(\\frac{2x}{5}-1=7\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med 3</p><div class=\"facit-matte\">\\[x=15\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=15\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=\\frac{15}{3}=5\\]</div><div class=\"facit-matte\">\\[\\text{HL}=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=15\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 3 från båda leden</p><div class=\"facit-matte\">\\[\\frac{x}{4}=4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med 4</p><div class=\"facit-matte\">\\[x=16\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=16\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=\\frac{16}{4}+3=7\\]</div><div class=\"facit-matte\">\\[\\text{HL}=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=16\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera 1 till båda leden</p><div class=\"facit-matte\">\\[\\frac{2x}{5}=8\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(\\frac{5}{2}\\)</p><div class=\"facit-matte\">\\[x=20\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=20\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=\\frac{2\\cdot 20}{5}-1=7\\]</div><div class=\"facit-matte\">\\[\\text{HL}=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=20\\)</p></div></div>",
+    "familj": "Lösa enkla ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      15,
+      16,
+      20
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(\\frac{x}{3}=5\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med 3</p><div class=\"facit-matte\">\\[x=15\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=15\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=\\frac{15}{3}=5\\]</div><div class=\"facit-matte\">\\[\\text{HL}=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=15\\)</p></div>",
+        "ledtrad": "<p>Få x-termen ensam först. Hur blir du sedan av med nämnaren?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(\\frac{x}{4}+3=7\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 3 från båda leden</p><div class=\"facit-matte\">\\[\\frac{x}{4}=4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med 4</p><div class=\"facit-matte\">\\[x=16\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=16\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=\\frac{16}{4}+3=7\\]</div><div class=\"facit-matte\">\\[\\text{HL}=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=16\\)</p></div>",
+        "ledtrad": "<p>Få x-termen ensam först. Hur blir du sedan av med nämnaren?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(\\frac{2x}{5}-1=7\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera 1 till båda leden</p><div class=\"facit-matte\">\\[\\frac{2x}{5}=8\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(\\frac{5}{2}\\)</p><div class=\"facit-matte\">\\[x=20\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=20\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=\\frac{2\\cdot 20}{5}-1=7\\]</div><div class=\"facit-matte\">\\[\\text{HL}=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=20\\)</p></div>",
+        "ledtrad": "<p>Få x-termen ensam först. Hur blir du sedan av med nämnaren?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Få x-termen ensam först. Hur blir du sedan av med nämnaren?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1627",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(15=3x\\)</div><div>b) \\(22=4+6x\\)</div><div>c) \\(-14=10-3x\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[5=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=15\\]</div><div class=\"facit-matte\">\\[\\text{HL}=3\\cdot 5=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 4 från båda leden</p><div class=\"facit-matte\">\\[18=6x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 6</p><div class=\"facit-matte\">\\[3=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=3\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=22\\]</div><div class=\"facit-matte\">\\[\\text{HL}=4+6\\cdot 3=22\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 10 från båda leden</p><div class=\"facit-matte\">\\[-24=-3x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med −3</p><div class=\"facit-matte\">\\[8=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=8\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=-14\\]</div><div class=\"facit-matte\">\\[\\text{HL}=10-3\\cdot 8=-14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div></div>",
+    "familj": "Lösa enkla ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      5,
+      3,
+      8
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(15=3x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[5=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=15\\]</div><div class=\"facit-matte\">\\[\\text{HL}=3\\cdot 5=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+        "ledtrad": "<p>Vilket tal är x multiplicerat med? Gör samma sak i båda leden.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(22=4+6x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 4 från båda leden</p><div class=\"facit-matte\">\\[18=6x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 6</p><div class=\"facit-matte\">\\[3=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=3\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=22\\]</div><div class=\"facit-matte\">\\[\\text{HL}=4+6\\cdot 3=22\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
+        "ledtrad": "<p>Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(-14=10-3x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 10 från båda leden</p><div class=\"facit-matte\">\\[-24=-3x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med −3</p><div class=\"facit-matte\">\\[8=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=8\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=-14\\]</div><div class=\"facit-matte\">\\[\\text{HL}=10-3\\cdot 8=-14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
+        "ledtrad": "<p>Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket tal är x multiplicerat med? Gör samma sak i båda leden.</p><p><strong>b)</strong> Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p><p><strong>c)</strong> Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1628",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(7x=-35\\)</div><div>b) \\(-2x+9=1\\)</div><div>c) \\(\\frac{x}{6}-4=-1\\)</div><div>d) \\(11-\\frac{3x}{4}=2\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera båda leden med 7</p><div class=\"facit-matte\">\\[x=-5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=-5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=7\\cdot (-5)=-35\\]</div><div class=\"facit-matte\">\\[\\text{HL}=-35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 9 från båda leden</p><div class=\"facit-matte\">\\[-2x=-8\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med −2</p><div class=\"facit-matte\">\\[x=4\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=4\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=-2\\cdot 4+9=1\\]</div><div class=\"facit-matte\">\\[\\text{HL}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera 4 till båda leden</p><div class=\"facit-matte\">\\[\\frac{x}{6}=3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med 6</p><div class=\"facit-matte\">\\[x=18\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=18\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=\\frac{18}{6}-4=-1\\]</div><div class=\"facit-matte\">\\[\\text{HL}=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=18\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 11 från båda leden</p><div class=\"facit-matte\">\\[-\\frac{3x}{4}=-9\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(-\\frac{4}{3}\\)</p><div class=\"facit-matte\">\\[x=12\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=12\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=11-\\frac{3\\cdot 12}{4}=2\\]</div><div class=\"facit-matte\">\\[\\text{HL}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=12\\)</p></div></div>",
+    "familj": "Lösa enkla ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      -5,
+      4,
+      18,
+      12
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(7x=-35\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera båda leden med 7</p><div class=\"facit-matte\">\\[x=-5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=-5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=7\\cdot (-5)=-35\\]</div><div class=\"facit-matte\">\\[\\text{HL}=-35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div>",
+        "ledtrad": "<p>Vilket tal är x multiplicerat med? Gör samma sak i båda leden.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(-2x+9=1\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 9 från båda leden</p><div class=\"facit-matte\">\\[-2x=-8\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med −2</p><div class=\"facit-matte\">\\[x=4\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=4\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=-2\\cdot 4+9=1\\]</div><div class=\"facit-matte\">\\[\\text{HL}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+        "ledtrad": "<p>Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(\\frac{x}{6}-4=-1\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera 4 till båda leden</p><div class=\"facit-matte\">\\[\\frac{x}{6}=3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med 6</p><div class=\"facit-matte\">\\[x=18\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=18\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=\\frac{18}{6}-4=-1\\]</div><div class=\"facit-matte\">\\[\\text{HL}=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=18\\)</p></div>",
+        "ledtrad": "<p>Få x-termen ensam först. Hur blir du sedan av med nämnaren?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(11-\\frac{3x}{4}=2\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 11 från båda leden</p><div class=\"facit-matte\">\\[-\\frac{3x}{4}=-9\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(-\\frac{4}{3}\\)</p><div class=\"facit-matte\">\\[x=12\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=12\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=11-\\frac{3\\cdot 12}{4}=2\\]</div><div class=\"facit-matte\">\\[\\text{HL}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=12\\)</p></div>",
+        "ledtrad": "<p>Få x-termen ensam först. Hur blir du sedan av med nämnaren?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilket tal är x multiplicerat med? Gör samma sak i båda leden.</p><p><strong>b)</strong> Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p><p><strong>c)</strong> Få x-termen ensam först. Hur blir du sedan av med nämnaren?</p><p><strong>d)</strong> Få x-termen ensam först. Hur blir du sedan av med nämnaren?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1629",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(9+x=3\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 9 från båda leden</p><div class=\"facit-matte\">\\[x=-6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=-6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=9+(-6)=3\\]</div><div class=\"facit-matte\">\\[\\text{HL}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
+    "familj": "Lösa enkla ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör samma sak i båda leden så att x-termen blir ensam. Vad ska bort först?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1630",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2t+13=31\\)</div><div>b) \\(40-5t=15\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 13 från båda leden</p><div class=\"facit-matte\">\\[2t=18\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[t=9\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(t=9\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=2\\cdot 9+13=31\\]</div><div class=\"facit-matte\">\\[\\text{HL}=31\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=9\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 40 från båda leden</p><div class=\"facit-matte\">\\[-5t=-25\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med −5</p><div class=\"facit-matte\">\\[t=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(t=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=40-5\\cdot 5=15\\]</div><div class=\"facit-matte\">\\[\\text{HL}=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=5\\)</p></div></div>",
+    "familj": "Lösa enkla ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      9,
+      5
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(2t+13=31\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 13 från båda leden</p><div class=\"facit-matte\">\\[2t=18\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[t=9\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(t=9\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=2\\cdot 9+13=31\\]</div><div class=\"facit-matte\">\\[\\text{HL}=31\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=9\\)</p></div>",
+        "ledtrad": "<p>Gör samma sak i båda leden så att t-termen blir ensam. Vad ska bort först?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(40-5t=15\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 40 från båda leden</p><div class=\"facit-matte\">\\[-5t=-25\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med −5</p><div class=\"facit-matte\">\\[t=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(t=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=40-5\\cdot 5=15\\]</div><div class=\"facit-matte\">\\[\\text{HL}=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=5\\)</p></div>",
+        "ledtrad": "<p>Gör samma sak i båda leden så att t-termen blir ensam. Vad ska bort först?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Gör samma sak i båda leden så att t-termen blir ensam. Vad ska bort först?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1631",
+    "kap": 1,
+    "omr": "ekv_flera_variabeltermer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(5x=2x+12\\)</div><div>b) \\(7x-4=3x+16\\)</div><div>c) \\(2x+9=6x-11\\)</div><div>d) \\(3-4x=13-9x\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(2x\\) från båda leden</p><div class=\"facit-matte\">\\[3x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[x=4\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=4\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5\\cdot 4=20\\]</div><div class=\"facit-matte\">\\[\\text{HL}=2\\cdot 4+12=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(3x\\) från båda leden</p><div class=\"facit-matte\">\\[4x-4=16\\]</div></li><li><p class=\"facit-rubrik\">Addera 4 till båda leden</p><div class=\"facit-matte\">\\[4x=20\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=7\\cdot 5-4=31\\]</div><div class=\"facit-matte\">\\[\\text{HL}=3\\cdot 5+16=31\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(2x\\) från båda leden</p><div class=\"facit-matte\">\\[9=4x-11\\]</div></li><li><p class=\"facit-rubrik\">Addera 11 till båda leden</p><div class=\"facit-matte\">\\[20=4x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[5=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=2\\cdot 5+9=19\\]</div><div class=\"facit-matte\">\\[\\text{HL}=6\\cdot 5-11=19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera \\(9x\\) till båda leden</p><div class=\"facit-matte\">\\[5x+3=13\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 3 från båda leden</p><div class=\"facit-matte\">\\[5x=10\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 5</p><div class=\"facit-matte\">\\[x=2\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=2\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=3-4\\cdot 2=-5\\]</div><div class=\"facit-matte\">\\[\\text{HL}=13-9\\cdot 2=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div></div>",
+    "familj": "Variabeltermer i båda leden",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      4,
+      5,
+      5,
+      2
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(5x=2x+12\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(2x\\) från båda leden</p><div class=\"facit-matte\">\\[3x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[x=4\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=4\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5\\cdot 4=20\\]</div><div class=\"facit-matte\">\\[\\text{HL}=2\\cdot 4+12=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+        "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(7x-4=3x+16\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(3x\\) från båda leden</p><div class=\"facit-matte\">\\[4x-4=16\\]</div></li><li><p class=\"facit-rubrik\">Addera 4 till båda leden</p><div class=\"facit-matte\">\\[4x=20\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=7\\cdot 5-4=31\\]</div><div class=\"facit-matte\">\\[\\text{HL}=3\\cdot 5+16=31\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+        "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(2x+9=6x-11\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(2x\\) från båda leden</p><div class=\"facit-matte\">\\[9=4x-11\\]</div></li><li><p class=\"facit-rubrik\">Addera 11 till båda leden</p><div class=\"facit-matte\">\\[20=4x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[5=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=2\\cdot 5+9=19\\]</div><div class=\"facit-matte\">\\[\\text{HL}=6\\cdot 5-11=19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+        "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(3-4x=13-9x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera \\(9x\\) till båda leden</p><div class=\"facit-matte\">\\[5x+3=13\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 3 från båda leden</p><div class=\"facit-matte\">\\[5x=10\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 5</p><div class=\"facit-matte\">\\[x=2\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=2\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=3-4\\cdot 2=-5\\]</div><div class=\"facit-matte\">\\[\\text{HL}=13-9\\cdot 2=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+        "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1632",
+    "kap": 1,
+    "omr": "ekv_flera_variabeltermer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(4x+5=x+20\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(x\\) från båda leden</p><div class=\"facit-matte\">\\[3x+5=20\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 5 från båda leden</p><div class=\"facit-matte\">\\[3x=15\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=4\\cdot 5+5=25\\]</div><div class=\"facit-matte\">\\[\\text{HL}=5+20=25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+    "familj": "Variabeltermer i båda leden",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1633",
+    "kap": 1,
+    "omr": "ekv_flera_variabeltermer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(6x=4x+10\\)</div><div>b) \\(8x-3=5x+9\\)</div><div>c) \\(x+14=7-6x\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(4x\\) från båda leden</p><div class=\"facit-matte\">\\[2x=10\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=6\\cdot 5=30\\]</div><div class=\"facit-matte\">\\[\\text{HL}=4\\cdot 5+10=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(5x\\) från båda leden</p><div class=\"facit-matte\">\\[3x-3=9\\]</div></li><li><p class=\"facit-rubrik\">Addera 3 till båda leden</p><div class=\"facit-matte\">\\[3x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[x=4\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=4\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=8\\cdot 4-3=29\\]</div><div class=\"facit-matte\">\\[\\text{HL}=5\\cdot 4+9=29\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera \\(6x\\) till båda leden</p><div class=\"facit-matte\">\\[7x+14=7\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 14 från båda leden</p><div class=\"facit-matte\">\\[7x=-7\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 7</p><div class=\"facit-matte\">\\[x=-1\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=-1\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=(-1)+14=13\\]</div><div class=\"facit-matte\">\\[\\text{HL}=7-6\\cdot (-1)=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div></div>",
+    "familj": "Variabeltermer i båda leden",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      5,
+      4,
+      -1
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(6x=4x+10\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(4x\\) från båda leden</p><div class=\"facit-matte\">\\[2x=10\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=6\\cdot 5=30\\]</div><div class=\"facit-matte\">\\[\\text{HL}=4\\cdot 5+10=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+        "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(8x-3=5x+9\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(5x\\) från båda leden</p><div class=\"facit-matte\">\\[3x-3=9\\]</div></li><li><p class=\"facit-rubrik\">Addera 3 till båda leden</p><div class=\"facit-matte\">\\[3x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[x=4\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=4\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=8\\cdot 4-3=29\\]</div><div class=\"facit-matte\">\\[\\text{HL}=5\\cdot 4+9=29\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+        "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(x+14=7-6x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera \\(6x\\) till båda leden</p><div class=\"facit-matte\">\\[7x+14=7\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 14 från båda leden</p><div class=\"facit-matte\">\\[7x=-7\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 7</p><div class=\"facit-matte\">\\[x=-1\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=-1\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=(-1)+14=13\\]</div><div class=\"facit-matte\">\\[\\text{HL}=7-6\\cdot (-1)=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div>",
+        "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1634",
+    "kap": 1,
+    "omr": "ekv_flera_variabeltermer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(10x-7=4x+5\\)</div><div>b) \\(12-x=2x-9\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(4x\\) från båda leden</p><div class=\"facit-matte\">\\[6x-7=5\\]</div></li><li><p class=\"facit-rubrik\">Addera 7 till båda leden</p><div class=\"facit-matte\">\\[6x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 6</p><div class=\"facit-matte\">\\[x=2\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=2\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=10\\cdot 2-7=13\\]</div><div class=\"facit-matte\">\\[\\text{HL}=4\\cdot 2+5=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera \\(x\\) till båda leden</p><div class=\"facit-matte\">\\[12=3x-9\\]</div></li><li><p class=\"facit-rubrik\">Addera 9 till båda leden</p><div class=\"facit-matte\">\\[21=3x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[7=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=7\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=12-7=5\\]</div><div class=\"facit-matte\">\\[\\text{HL}=2\\cdot 7-9=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div></div>",
+    "familj": "Variabeltermer i båda leden",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      2,
+      7
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(10x-7=4x+5\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(4x\\) från båda leden</p><div class=\"facit-matte\">\\[6x-7=5\\]</div></li><li><p class=\"facit-rubrik\">Addera 7 till båda leden</p><div class=\"facit-matte\">\\[6x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 6</p><div class=\"facit-matte\">\\[x=2\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=2\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=10\\cdot 2-7=13\\]</div><div class=\"facit-matte\">\\[\\text{HL}=4\\cdot 2+5=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+        "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(12-x=2x-9\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera \\(x\\) till båda leden</p><div class=\"facit-matte\">\\[12=3x-9\\]</div></li><li><p class=\"facit-rubrik\">Addera 9 till båda leden</p><div class=\"facit-matte\">\\[21=3x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[7=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=7\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=12-7=5\\]</div><div class=\"facit-matte\">\\[\\text{HL}=2\\cdot 7-9=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div>",
+        "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1635",
+    "kap": 1,
+    "omr": "ekv_flera_variabeltermer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(9a+2=5a+18\\)</div><div>b) \\(3a-8=7a+12\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(5a\\) från båda leden</p><div class=\"facit-matte\">\\[4a+2=18\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 2 från båda leden</p><div class=\"facit-matte\">\\[4a=16\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[a=4\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(a=4\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=9\\cdot 4+2=38\\]</div><div class=\"facit-matte\">\\[\\text{HL}=5\\cdot 4+18=38\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(3a\\) från båda leden</p><div class=\"facit-matte\">\\[-8=4a+12\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 12 från båda leden</p><div class=\"facit-matte\">\\[-20=4a\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[-5=a\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(a=-5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=3\\cdot (-5)-8=-23\\]</div><div class=\"facit-matte\">\\[\\text{HL}=7\\cdot (-5)+12=-23\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-5\\)</p></div></div>",
+    "familj": "Variabeltermer i båda leden",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      4,
+      -5
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(9a+2=5a+18\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(5a\\) från båda leden</p><div class=\"facit-matte\">\\[4a+2=18\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 2 från båda leden</p><div class=\"facit-matte\">\\[4a=16\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[a=4\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(a=4\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=9\\cdot 4+2=38\\]</div><div class=\"facit-matte\">\\[\\text{HL}=5\\cdot 4+18=38\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\)</p></div>",
+        "ledtrad": "<p>Det finns a-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(3a-8=7a+12\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(3a\\) från båda leden</p><div class=\"facit-matte\">\\[-8=4a+12\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 12 från båda leden</p><div class=\"facit-matte\">\\[-20=4a\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[-5=a\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(a=-5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=3\\cdot (-5)-8=-23\\]</div><div class=\"facit-matte\">\\[\\text{HL}=7\\cdot (-5)+12=-23\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-5\\)</p></div>",
+        "ledtrad": "<p>Det finns a-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Det finns a-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1636",
+    "kap": 1,
+    "omr": "ekv_flera_variabeltermer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(5x+3-2x=x+15\\)</div><div>b) \\(4x-7+x=2x+5+x\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vänster led: samla x-termerna: \\(5x-2x=3x\\)</p><div class=\"facit-matte\">\\[3x+3=x+15\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(x\\) från båda leden</p><div class=\"facit-matte\">\\[2x+3=15\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 3 från båda leden</p><div class=\"facit-matte\">\\[2x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5\\cdot 6+3-2\\cdot 6=21\\]</div><div class=\"facit-matte\">\\[\\text{HL}=6+15=21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vänster led: samla x-termerna: \\(4x+x=5x\\) · Höger led: samla x-termerna: \\(2x+x=3x\\)</p><div class=\"facit-matte\">\\[5x-7=3x+5\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(3x\\) från båda leden</p><div class=\"facit-matte\">\\[2x-7=5\\]</div></li><li><p class=\"facit-rubrik\">Addera 7 till båda leden</p><div class=\"facit-matte\">\\[2x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=4\\cdot 6-7+6=23\\]</div><div class=\"facit-matte\">\\[\\text{HL}=2\\cdot 6+5+6=23\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div></div>",
+    "familj": "Variabeltermer i båda leden",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      6,
+      6
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(5x+3-2x=x+15\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vänster led: samla x-termerna: \\(5x-2x=3x\\)</p><div class=\"facit-matte\">\\[3x+3=x+15\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(x\\) från båda leden</p><div class=\"facit-matte\">\\[2x+3=15\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 3 från båda leden</p><div class=\"facit-matte\">\\[2x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5\\cdot 6+3-2\\cdot 6=21\\]</div><div class=\"facit-matte\">\\[\\text{HL}=6+15=21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+        "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(4x-7+x=2x+5+x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vänster led: samla x-termerna: \\(4x+x=5x\\) · Höger led: samla x-termerna: \\(2x+x=3x\\)</p><div class=\"facit-matte\">\\[5x-7=3x+5\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(3x\\) från båda leden</p><div class=\"facit-matte\">\\[2x-7=5\\]</div></li><li><p class=\"facit-rubrik\">Addera 7 till båda leden</p><div class=\"facit-matte\">\\[2x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=4\\cdot 6-7+6=23\\]</div><div class=\"facit-matte\">\\[\\text{HL}=2\\cdot 6+5+6=23\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+        "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1637",
+    "kap": 1,
+    "omr": "ekv_flera_variabeltermer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(2x-1=5x-16\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera \\(2x\\) från båda leden</p><div class=\"facit-matte\">\\[-1=3x-16\\]</div></li><li><p class=\"facit-rubrik\">Addera 16 till båda leden</p><div class=\"facit-matte\">\\[15=3x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[5=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=2\\cdot 5-1=9\\]</div><div class=\"facit-matte\">\\[\\text{HL}=5\\cdot 5-16=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+    "familj": "Variabeltermer i båda leden",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Det finns x-termer i båda leden. Samla dem i ett led genom att göra samma sak på båda sidor.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1638",
+    "kap": 1,
+    "omr": "ekv_parenteser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2(x+3)=14\\)</div><div>b) \\(3(x-4)=x+2\\)</div><div>c) \\(5(2x-1)=3(x+3)\\)</div><div>d) \\(4(x+2)-3(x-1)=17\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(2\\) i parentesen: \\(2(x+3)=2x+6\\)</p><div class=\"facit-matte\">\\[2x+6=14\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 6 från båda leden</p><div class=\"facit-matte\">\\[2x=8\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=4\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=4\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=2(4+3)=14\\]</div><div class=\"facit-matte\">\\[\\text{HL}=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(3\\) i parentesen: \\(3(x-4)=3x-12\\)</p><div class=\"facit-matte\">\\[3x-12=x+2\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(x\\) från båda leden</p><div class=\"facit-matte\">\\[2x-12=2\\]</div></li><li><p class=\"facit-rubrik\">Addera 12 till båda leden</p><div class=\"facit-matte\">\\[2x=14\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=7\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=7\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=3(7-4)=9\\]</div><div class=\"facit-matte\">\\[\\text{HL}=7+2=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(5\\) och multiplicera in \\(3\\)</p><div class=\"facit-matte\">\\[5(2x-1)=10x-5\\]</div><div class=\"facit-matte\">\\[3(x+3)=3x+9\\]</div><div class=\"facit-matte\">\\[10x-5=3x+9\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(3x\\) från båda leden</p><div class=\"facit-matte\">\\[7x-5=9\\]</div></li><li><p class=\"facit-rubrik\">Addera 5 till båda leden</p><div class=\"facit-matte\">\\[7x=14\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 7</p><div class=\"facit-matte\">\\[x=2\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=2\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5(2\\cdot 2-1)=15\\]</div><div class=\"facit-matte\">\\[\\text{HL}=3(2+3)=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(4\\) och multiplicera in \\(-3\\)</p><div class=\"facit-matte\">\\[4(x+2)=4x+8\\]</div><div class=\"facit-matte\">\\[-3(x-1)=-3x+3\\]</div><div class=\"facit-matte\">\\[4x+8-3x+3=17\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla x-termerna: \\(4x-3x=x\\) och talen: \\(8+3=11\\)</p><div class=\"facit-matte\">\\[x+11=17\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 11 från båda leden</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=4(6+2)-3(6-1)=17\\]</div><div class=\"facit-matte\">\\[\\text{HL}=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div></div>",
+    "familj": "Ekvationer med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      4,
+      7,
+      2,
+      6
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(2(x+3)=14\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(2\\) i parentesen: \\(2(x+3)=2x+6\\)</p><div class=\"facit-matte\">\\[2x+6=14\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 6 från båda leden</p><div class=\"facit-matte\">\\[2x=8\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=4\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=4\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=2(4+3)=14\\]</div><div class=\"facit-matte\">\\[\\text{HL}=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+        "ledtrad": "<p>Börja med att multiplicera in \\(2\\) i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(3(x-4)=x+2\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(3\\) i parentesen: \\(3(x-4)=3x-12\\)</p><div class=\"facit-matte\">\\[3x-12=x+2\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(x\\) från båda leden</p><div class=\"facit-matte\">\\[2x-12=2\\]</div></li><li><p class=\"facit-rubrik\">Addera 12 till båda leden</p><div class=\"facit-matte\">\\[2x=14\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=7\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=7\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=3(7-4)=9\\]</div><div class=\"facit-matte\">\\[\\text{HL}=7+2=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div>",
+        "ledtrad": "<p>Börja med att multiplicera in \\(3\\) i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(5(2x-1)=3(x+3)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(5\\) och multiplicera in \\(3\\)</p><div class=\"facit-matte\">\\[5(2x-1)=10x-5\\]</div><div class=\"facit-matte\">\\[3(x+3)=3x+9\\]</div><div class=\"facit-matte\">\\[10x-5=3x+9\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(3x\\) från båda leden</p><div class=\"facit-matte\">\\[7x-5=9\\]</div></li><li><p class=\"facit-rubrik\">Addera 5 till båda leden</p><div class=\"facit-matte\">\\[7x=14\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 7</p><div class=\"facit-matte\">\\[x=2\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=2\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5(2\\cdot 2-1)=15\\]</div><div class=\"facit-matte\">\\[\\text{HL}=3(2+3)=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+        "ledtrad": "<p>Börja med att ta bort parenteserna. Multiplicera in talet framför varje parentes, en i taget.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(4(x+2)-3(x-1)=17\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(4\\) och multiplicera in \\(-3\\)</p><div class=\"facit-matte\">\\[4(x+2)=4x+8\\]</div><div class=\"facit-matte\">\\[-3(x-1)=-3x+3\\]</div><div class=\"facit-matte\">\\[4x+8-3x+3=17\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla x-termerna: \\(4x-3x=x\\) och talen: \\(8+3=11\\)</p><div class=\"facit-matte\">\\[x+11=17\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 11 från båda leden</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=4(6+2)-3(6-1)=17\\]</div><div class=\"facit-matte\">\\[\\text{HL}=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+        "ledtrad": "<p>Börja med att ta bort parenteserna. Multiplicera in talet framför varje parentes, en i taget.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Börja med att multiplicera in \\(2\\) i parentesen.</p><p><strong>b)</strong> Börja med att multiplicera in \\(3\\) i parentesen.</p><p><strong>c)</strong> Börja med att ta bort parenteserna. Multiplicera in talet framför varje parentes, en i taget.</p><p><strong>d)</strong> Börja med att ta bort parenteserna. Multiplicera in talet framför varje parentes, en i taget.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1639",
+    "kap": 1,
+    "omr": "ekv_parenteser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(6(x-2)=18\\)</div><div>b) \\(2(3x+1)=4x+12\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(6\\) i parentesen: \\(6(x-2)=6x-12\\)</p><div class=\"facit-matte\">\\[6x-12=18\\]</div></li><li><p class=\"facit-rubrik\">Addera 12 till båda leden</p><div class=\"facit-matte\">\\[6x=30\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 6</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=6(5-2)=18\\]</div><div class=\"facit-matte\">\\[\\text{HL}=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(2\\) i parentesen: \\(2(3x+1)=6x+2\\)</p><div class=\"facit-matte\">\\[6x+2=4x+12\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(4x\\) från båda leden</p><div class=\"facit-matte\">\\[2x+2=12\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 2 från båda leden</p><div class=\"facit-matte\">\\[2x=10\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=2(3\\cdot 5+1)=32\\]</div><div class=\"facit-matte\">\\[\\text{HL}=4\\cdot 5+12=32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div></div>",
+    "familj": "Ekvationer med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      5,
+      5
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(6(x-2)=18\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(6\\) i parentesen: \\(6(x-2)=6x-12\\)</p><div class=\"facit-matte\">\\[6x-12=18\\]</div></li><li><p class=\"facit-rubrik\">Addera 12 till båda leden</p><div class=\"facit-matte\">\\[6x=30\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 6</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=6(5-2)=18\\]</div><div class=\"facit-matte\">\\[\\text{HL}=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+        "ledtrad": "<p>Börja med att multiplicera in \\(6\\) i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(2(3x+1)=4x+12\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(2\\) i parentesen: \\(2(3x+1)=6x+2\\)</p><div class=\"facit-matte\">\\[6x+2=4x+12\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(4x\\) från båda leden</p><div class=\"facit-matte\">\\[2x+2=12\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 2 från båda leden</p><div class=\"facit-matte\">\\[2x=10\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=2(3\\cdot 5+1)=32\\]</div><div class=\"facit-matte\">\\[\\text{HL}=4\\cdot 5+12=32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+        "ledtrad": "<p>Börja med att multiplicera in \\(2\\) i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Börja med att multiplicera in \\(6\\) i parentesen.</p><p><strong>b)</strong> Börja med att multiplicera in \\(2\\) i parentesen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1640",
+    "kap": 1,
+    "omr": "ekv_parenteser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(7(x+1)=5(x+3)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(7\\) och multiplicera in \\(5\\)</p><div class=\"facit-matte\">\\[7(x+1)=7x+7\\]</div><div class=\"facit-matte\">\\[5(x+3)=5x+15\\]</div><div class=\"facit-matte\">\\[7x+7=5x+15\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(5x\\) från båda leden</p><div class=\"facit-matte\">\\[2x+7=15\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 7 från båda leden</p><div class=\"facit-matte\">\\[2x=8\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=4\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=4\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=7(4+1)=35\\]</div><div class=\"facit-matte\">\\[\\text{HL}=5(4+3)=35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+    "familj": "Ekvationer med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Börja med att ta bort parenteserna. Multiplicera in talet framför varje parentes, en i taget.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1641",
+    "kap": 1,
+    "omr": "ekv_parenteser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(3(2x-5)=x+10\\)</div><div>b) \\(2(x+6)=5(x-3)\\)</div><div>c) \\(6(x-1)-2(x+4)=10\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(3\\) i parentesen: \\(3(2x-5)=6x-15\\)</p><div class=\"facit-matte\">\\[6x-15=x+10\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(x\\) från båda leden</p><div class=\"facit-matte\">\\[5x-15=10\\]</div></li><li><p class=\"facit-rubrik\">Addera 15 till båda leden</p><div class=\"facit-matte\">\\[5x=25\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 5</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=3(2\\cdot 5-5)=15\\]</div><div class=\"facit-matte\">\\[\\text{HL}=5+10=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(2\\) och multiplicera in \\(5\\)</p><div class=\"facit-matte\">\\[2(x+6)=2x+12\\]</div><div class=\"facit-matte\">\\[5(x-3)=5x-15\\]</div><div class=\"facit-matte\">\\[2x+12=5x-15\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(2x\\) från båda leden</p><div class=\"facit-matte\">\\[12=3x-15\\]</div></li><li><p class=\"facit-rubrik\">Addera 15 till båda leden</p><div class=\"facit-matte\">\\[27=3x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[9=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=9\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=2(9+6)=30\\]</div><div class=\"facit-matte\">\\[\\text{HL}=5(9-3)=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=9\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(6\\) och multiplicera in \\(-2\\)</p><div class=\"facit-matte\">\\[6(x-1)=6x-6\\]</div><div class=\"facit-matte\">\\[-2(x+4)=-2x-8\\]</div><div class=\"facit-matte\">\\[6x-6-2x-8=10\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla x-termerna: \\(6x-2x=4x\\) och talen: \\(-6-8=-14\\)</p><div class=\"facit-matte\">\\[4x-14=10\\]</div></li><li><p class=\"facit-rubrik\">Addera 14 till båda leden</p><div class=\"facit-matte\">\\[4x=24\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=6(6-1)-2(6+4)=10\\]</div><div class=\"facit-matte\">\\[\\text{HL}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div></div>",
+    "familj": "Ekvationer med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      5,
+      9,
+      6
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(3(2x-5)=x+10\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(3\\) i parentesen: \\(3(2x-5)=6x-15\\)</p><div class=\"facit-matte\">\\[6x-15=x+10\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(x\\) från båda leden</p><div class=\"facit-matte\">\\[5x-15=10\\]</div></li><li><p class=\"facit-rubrik\">Addera 15 till båda leden</p><div class=\"facit-matte\">\\[5x=25\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 5</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=3(2\\cdot 5-5)=15\\]</div><div class=\"facit-matte\">\\[\\text{HL}=5+10=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+        "ledtrad": "<p>Börja med att multiplicera in \\(3\\) i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(2(x+6)=5(x-3)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(2\\) och multiplicera in \\(5\\)</p><div class=\"facit-matte\">\\[2(x+6)=2x+12\\]</div><div class=\"facit-matte\">\\[5(x-3)=5x-15\\]</div><div class=\"facit-matte\">\\[2x+12=5x-15\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera \\(2x\\) från båda leden</p><div class=\"facit-matte\">\\[12=3x-15\\]</div></li><li><p class=\"facit-rubrik\">Addera 15 till båda leden</p><div class=\"facit-matte\">\\[27=3x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[9=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=9\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=2(9+6)=30\\]</div><div class=\"facit-matte\">\\[\\text{HL}=5(9-3)=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=9\\)</p></div>",
+        "ledtrad": "<p>Börja med att ta bort parenteserna. Multiplicera in talet framför varje parentes, en i taget.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(6(x-1)-2(x+4)=10\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(6\\) och multiplicera in \\(-2\\)</p><div class=\"facit-matte\">\\[6(x-1)=6x-6\\]</div><div class=\"facit-matte\">\\[-2(x+4)=-2x-8\\]</div><div class=\"facit-matte\">\\[6x-6-2x-8=10\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla x-termerna: \\(6x-2x=4x\\) och talen: \\(-6-8=-14\\)</p><div class=\"facit-matte\">\\[4x-14=10\\]</div></li><li><p class=\"facit-rubrik\">Addera 14 till båda leden</p><div class=\"facit-matte\">\\[4x=24\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=6(6-1)-2(6+4)=10\\]</div><div class=\"facit-matte\">\\[\\text{HL}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+        "ledtrad": "<p>Börja med att ta bort parenteserna. Multiplicera in talet framför varje parentes, en i taget.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Börja med att multiplicera in \\(3\\) i parentesen.</p><p><strong>b)</strong> Börja med att ta bort parenteserna. Multiplicera in talet framför varje parentes, en i taget.</p><p><strong>c)</strong> Börja med att ta bort parenteserna. Multiplicera in talet framför varje parentes, en i taget.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1642",
+    "kap": 1,
+    "omr": "ekv_parenteser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(20-(x+5)=9\\)</div><div>b) \\(3x-(x-4)=16\\)</div><div>c) \\(5-(2x-7)=x\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(x+5)=-x-5\\)</p><div class=\"facit-matte\">\\[20-x-5=9\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla talen: \\(20-5=15\\)</p><div class=\"facit-matte\">\\[-x+15=9\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 15 från båda leden</p><div class=\"facit-matte\">\\[-x=-6\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med −1 så att tecknet byts</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=20-(6+5)=9\\]</div><div class=\"facit-matte\">\\[\\text{HL}=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(x-4)=-x+4\\)</p><div class=\"facit-matte\">\\[3x-x+4=16\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla x-termerna: \\(3x-x=2x\\)</p><div class=\"facit-matte\">\\[2x+4=16\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 4 från båda leden</p><div class=\"facit-matte\">\\[2x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=3\\cdot 6-(6-4)=16\\]</div><div class=\"facit-matte\">\\[\\text{HL}=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(2x-7)=-2x+7\\)</p><div class=\"facit-matte\">\\[5-2x+7=x\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla talen: \\(5+7=12\\)</p><div class=\"facit-matte\">\\[-2x+12=x\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(2x\\) till båda leden</p><div class=\"facit-matte\">\\[12=3x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[4=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=4\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5-(2\\cdot 4-7)=4\\]</div><div class=\"facit-matte\">\\[\\text{HL}=4=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div></div>",
+    "familj": "Minustecken framför parentes",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      6,
+      6,
+      4
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(20-(x+5)=9\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(x+5)=-x-5\\)</p><div class=\"facit-matte\">\\[20-x-5=9\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla talen: \\(20-5=15\\)</p><div class=\"facit-matte\">\\[-x+15=9\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 15 från båda leden</p><div class=\"facit-matte\">\\[-x=-6\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med −1 så att tecknet byts</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=20-(6+5)=9\\]</div><div class=\"facit-matte\">\\[\\text{HL}=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+        "ledtrad": "<p>Börja med att ta bort parentesen. Tänk på minustecknet framför den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(3x-(x-4)=16\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(x-4)=-x+4\\)</p><div class=\"facit-matte\">\\[3x-x+4=16\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla x-termerna: \\(3x-x=2x\\)</p><div class=\"facit-matte\">\\[2x+4=16\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 4 från båda leden</p><div class=\"facit-matte\">\\[2x=12\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=6\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=3\\cdot 6-(6-4)=16\\]</div><div class=\"facit-matte\">\\[\\text{HL}=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+        "ledtrad": "<p>Börja med att ta bort parentesen. Tänk på minustecknet framför den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(5-(2x-7)=x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(2x-7)=-2x+7\\)</p><div class=\"facit-matte\">\\[5-2x+7=x\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla talen: \\(5+7=12\\)</p><div class=\"facit-matte\">\\[-2x+12=x\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(2x\\) till båda leden</p><div class=\"facit-matte\">\\[12=3x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[4=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=4\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=5-(2\\cdot 4-7)=4\\]</div><div class=\"facit-matte\">\\[\\text{HL}=4=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+        "ledtrad": "<p>Börja med att ta bort parentesen. Tänk på minustecknet framför den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Börja med att ta bort parentesen. Tänk på minustecknet framför den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1643",
+    "kap": 1,
+    "omr": "ekv_parenteser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(12-(3x+3)=0\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(3x+3)=-3x-3\\)</p><div class=\"facit-matte\">\\[12-3x-3=0\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla talen: \\(12-3=9\\)</p><div class=\"facit-matte\">\\[-3x+9=0\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 9 från båda leden</p><div class=\"facit-matte\">\\[-3x=-9\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med −3</p><div class=\"facit-matte\">\\[x=3\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=3\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=12-(3\\cdot 3+3)=0\\]</div><div class=\"facit-matte\">\\[\\text{HL}=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
+    "familj": "Minustecken framför parentes",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Börja med att ta bort parentesen. Tänk på minustecknet framför den.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1644",
+    "kap": 1,
+    "omr": "ekv_parenteser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Lös ekvationerna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(4x-2(x-5)=20\\)</div><div>b) \\(10-3(x+2)=x-8\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(-2\\) i parentesen: \\(-2(x-5)=-2x+10\\)</p><div class=\"facit-matte\">\\[4x-2x+10=20\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla x-termerna: \\(4x-2x=2x\\)</p><div class=\"facit-matte\">\\[2x+10=20\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 10 från båda leden</p><div class=\"facit-matte\">\\[2x=10\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=4\\cdot 5-2(5-5)=20\\]</div><div class=\"facit-matte\">\\[\\text{HL}=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(-3\\) i parentesen: \\(-3(x+2)=-3x-6\\)</p><div class=\"facit-matte\">\\[10-3x-6=x-8\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla talen: \\(10-6=4\\)</p><div class=\"facit-matte\">\\[-3x+4=x-8\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(3x\\) till båda leden</p><div class=\"facit-matte\">\\[4=4x-8\\]</div></li><li><p class=\"facit-rubrik\">Addera 8 till båda leden</p><div class=\"facit-matte\">\\[12=4x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[3=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=3\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=10-3(3+2)=-5\\]</div><div class=\"facit-matte\">\\[\\text{HL}=3-8=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div></div>",
+    "familj": "Minustecken framför parentes",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      5,
+      3
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(4x-2(x-5)=20\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(-2\\) i parentesen: \\(-2(x-5)=-2x+10\\)</p><div class=\"facit-matte\">\\[4x-2x+10=20\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla x-termerna: \\(4x-2x=2x\\)</p><div class=\"facit-matte\">\\[2x+10=20\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 10 från båda leden</p><div class=\"facit-matte\">\\[2x=10\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[x=5\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=5\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=4\\cdot 5-2(5-5)=20\\]</div><div class=\"facit-matte\">\\[\\text{HL}=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+        "ledtrad": "<p>Börja med att ta bort parentesen. Tänk på minustecknet framför den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(10-3(x+2)=x-8\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(-3\\) i parentesen: \\(-3(x+2)=-3x-6\\)</p><div class=\"facit-matte\">\\[10-3x-6=x-8\\]</div></li><li><p class=\"facit-rubrik\">Vänster led: samla talen: \\(10-6=4\\)</p><div class=\"facit-matte\">\\[-3x+4=x-8\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(3x\\) till båda leden</p><div class=\"facit-matte\">\\[4=4x-8\\]</div></li><li><p class=\"facit-rubrik\">Addera 8 till båda leden</p><div class=\"facit-matte\">\\[12=4x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 4</p><div class=\"facit-matte\">\\[3=x\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: sätt in \\(x=3\\) i ekvationen</p><div class=\"facit-matte\">\\[\\text{VL}=10-3(3+2)=-5\\]</div><div class=\"facit-matte\">\\[\\text{HL}=3-8=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
+        "ledtrad": "<p>Börja med att ta bort parentesen. Tänk på minustecknet framför den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Börja med att ta bort parentesen. Tänk på minustecknet framför den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1645",
+    "kap": 1,
+    "omr": "forenkla_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Förenkla uttrycken.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(3x+5x\\)</div><div>b) \\(7x+4-2x\\)</div><div>c) \\(6a+3-2a-8\\)</div><div>d) \\(5x-9+x-3x+4\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla x-termerna: \\(3x+5x=8x\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8x\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla x-termerna: \\(7x-2x=5x\\)</p><div class=\"facit-matte\">\\[7x+4-2x=5x+4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x+4\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla a-termerna: \\(6a-2a=4a\\) och talen: \\(3-8=-5\\)</p><div class=\"facit-matte\">\\[6a+3-2a-8=4a-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4a-5\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla x-termerna: \\(5x+x-3x=3x\\) och talen: \\(-9+4=-5\\)</p><div class=\"facit-matte\">\\[5x-9+x-3x+4=3x-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x-5\\)</p></div></div>",
+    "familj": "Förenkla uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "8x",
+      "5x+4",
+      "4a-5",
+      "3x-5"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "förenklat_polynom",
+      "förenklat_polynom",
+      "förenklat_polynom",
+      "förenklat_polynom"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(3x+5x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla x-termerna: \\(3x+5x=8x\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8x\\)</p></div>",
+        "ledtrad": "<p>Vilka termer är av samma slag? Samla x-termerna för sig och talen för sig.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(7x+4-2x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla x-termerna: \\(7x-2x=5x\\)</p><div class=\"facit-matte\">\\[7x+4-2x=5x+4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x+4\\)</p></div>",
+        "ledtrad": "<p>Vilka termer är av samma slag? Samla x-termerna för sig och talen för sig.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(6a+3-2a-8\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla a-termerna: \\(6a-2a=4a\\) och talen: \\(3-8=-5\\)</p><div class=\"facit-matte\">\\[6a+3-2a-8=4a-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4a-5\\)</p></div>",
+        "ledtrad": "<p>Vilka termer är av samma slag? Samla a-termerna för sig och talen för sig.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(5x-9+x-3x+4\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla x-termerna: \\(5x+x-3x=3x\\) och talen: \\(-9+4=-5\\)</p><div class=\"facit-matte\">\\[5x-9+x-3x+4=3x-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x-5\\)</p></div>",
+        "ledtrad": "<p>Vilka termer är av samma slag? Samla x-termerna för sig och talen för sig.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilka termer är av samma slag? Samla x-termerna för sig och talen för sig.</p><p><strong>b)</strong> Vilka termer är av samma slag? Samla x-termerna för sig och talen för sig.</p><p><strong>c)</strong> Vilka termer är av samma slag? Samla a-termerna för sig och talen för sig.</p><p><strong>d)</strong> Vilka termer är av samma slag? Samla x-termerna för sig och talen för sig.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1646",
+    "kap": 1,
+    "omr": "forenkla_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Förenkla uttrycken.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(8y-3+2y+10\\)</div><div>b) \\(4x-7-6x+2\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla y-termerna: \\(8y+2y=10y\\) och talen: \\(-3+10=7\\)</p><div class=\"facit-matte\">\\[8y-3+2y+10=10y+7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10y+7\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla x-termerna: \\(4x-6x=-2x\\) och talen: \\(-7+2=-5\\)</p><div class=\"facit-matte\">\\[4x-7-6x+2=-2x-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2x-5\\)</p></div></div>",
+    "familj": "Förenkla uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "10y+7",
+      "-2x-5"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "förenklat_polynom",
+      "förenklat_polynom"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(8y-3+2y+10\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla y-termerna: \\(8y+2y=10y\\) och talen: \\(-3+10=7\\)</p><div class=\"facit-matte\">\\[8y-3+2y+10=10y+7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10y+7\\)</p></div>",
+        "ledtrad": "<p>Vilka termer är av samma slag? Samla y-termerna för sig och talen för sig.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(4x-7-6x+2\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla x-termerna: \\(4x-6x=-2x\\) och talen: \\(-7+2=-5\\)</p><div class=\"facit-matte\">\\[4x-7-6x+2=-2x-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2x-5\\)</p></div>",
+        "ledtrad": "<p>Vilka termer är av samma slag? Samla x-termerna för sig och talen för sig.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilka termer är av samma slag? Samla y-termerna för sig och talen för sig.</p><p><strong>b)</strong> Vilka termer är av samma slag? Samla x-termerna för sig och talen för sig.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1647",
+    "kap": 1,
+    "omr": "forenkla_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla uttrycket \\(2x^{2}+3x+x^{2}-5x\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla \\(x^{2}\\)-termerna: \\(2x^{2}+x^{2}=3x^{2}\\) och x-termerna: \\(3x-5x=-2x\\)</p><div class=\"facit-matte\">\\[2x^{2}+3x+x^{2}-5x=3x^{2}-2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x^{2}-2x\\)</p></div>",
+    "familj": "Förenkla uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "uttryck",
+    "rättSvar": "3x^2-2x",
+    "tolerans": 1e-09,
+    "svarFormat": "förenklat_polynom",
+    "ledtrad": "<p>\\(x^2\\)-termer och x-termer är inte av samma slag. Samla varje sort för sig.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1648",
+    "kap": 1,
+    "omr": "forenkla_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Förenkla uttrycken.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(9-4x+2x-1\\)</div><div>b) \\(x+x+x-4\\)</div><div>c) \\(3x^{2}-x+5-x^{2}+4x-2\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla x-termerna: \\(-4x+2x=-2x\\) och talen: \\(9-1=8\\)</p><div class=\"facit-matte\">\\[9-4x+2x-1=-2x+8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2x+8\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla x-termerna: \\(x+x+x=3x\\)</p><div class=\"facit-matte\">\\[x+x+x-4=3x-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x-4\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla \\(x^{2}\\)-termerna: \\(3x^{2}-x^{2}=2x^{2}\\), x-termerna: \\(-x+4x=3x\\) och talen: \\(5-2=3\\)</p><div class=\"facit-matte\">\\[3x^{2}-x+5-x^{2}+4x-2\\]</div><div class=\"facit-matte\">\\[=2x^{2}+3x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x^{2}+3x+3\\)</p></div></div>",
+    "familj": "Förenkla uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "-2x+8",
+      "3x-4",
+      "2x^2+3x+3"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "förenklat_polynom",
+      "förenklat_polynom",
+      "förenklat_polynom"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(9-4x+2x-1\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla x-termerna: \\(-4x+2x=-2x\\) och talen: \\(9-1=8\\)</p><div class=\"facit-matte\">\\[9-4x+2x-1=-2x+8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2x+8\\)</p></div>",
+        "ledtrad": "<p>Vilka termer är av samma slag? Samla x-termerna för sig och talen för sig.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(x+x+x-4\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla x-termerna: \\(x+x+x=3x\\)</p><div class=\"facit-matte\">\\[x+x+x-4=3x-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x-4\\)</p></div>",
+        "ledtrad": "<p>Vilka termer är av samma slag? Samla x-termerna för sig och talen för sig.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(3x^{2}-x+5-x^{2}+4x-2\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla \\(x^{2}\\)-termerna: \\(3x^{2}-x^{2}=2x^{2}\\), x-termerna: \\(-x+4x=3x\\) och talen: \\(5-2=3\\)</p><div class=\"facit-matte\">\\[3x^{2}-x+5-x^{2}+4x-2\\]</div><div class=\"facit-matte\">\\[=2x^{2}+3x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x^{2}+3x+3\\)</p></div>",
+        "ledtrad": "<p>\\(x^2\\)-termer och x-termer är inte av samma slag. Samla varje sort för sig.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Vilka termer är av samma slag? Samla x-termerna för sig och talen för sig.</p><p><strong>b)</strong> Vilka termer är av samma slag? Samla x-termerna för sig och talen för sig.</p><p><strong>c)</strong> \\(x^2\\)-termer och x-termer är inte av samma slag. Samla varje sort för sig.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1649",
+    "kap": 1,
+    "omr": "forenkla_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Förenkla uttrycken.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(5+(2x-3)\\)</div><div>b) \\(8x-(3x+2)\\)</div><div>c) \\(10-(4-x)\\)</div><div>d) \\(2x-(5-3x)+7\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Plustecken framför parentesen: parentesen kan tas bort utan att tecknen ändras: \\((2x-3)=2x-3\\)</p><div class=\"facit-matte\">\\[5+2x-3\\]</div></li><li><p class=\"facit-rubrik\">Samla talen: \\(5-3=2\\)</p><div class=\"facit-matte\">\\[5+2x-3=2x+2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x+2\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(3x+2)=-3x-2\\)</p><div class=\"facit-matte\">\\[8x-3x-2\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(8x-3x=5x\\)</p><div class=\"facit-matte\">\\[8x-3x-2=5x-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x-2\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(4-x)=-4+x\\)</p><div class=\"facit-matte\">\\[10-4+x\\]</div></li><li><p class=\"facit-rubrik\">Samla talen: \\(10-4=6\\)</p><div class=\"facit-matte\">\\[10-4+x=x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+6\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(5-3x)=-5+3x\\)</p><div class=\"facit-matte\">\\[2x-5+3x+7\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(2x+3x=5x\\) och talen: \\(-5+7=2\\)</p><div class=\"facit-matte\">\\[2x-5+3x+7=5x+2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x+2\\)</p></div></div>",
+    "familj": "Uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "2x+2",
+      "5x-2",
+      "x+6",
+      "5x+2"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "förenklat_polynom",
+      "förenklat_polynom",
+      "förenklat_polynom",
+      "förenklat_polynom"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(5+(2x-3)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Plustecken framför parentesen: parentesen kan tas bort utan att tecknen ändras: \\((2x-3)=2x-3\\)</p><div class=\"facit-matte\">\\[5+2x-3\\]</div></li><li><p class=\"facit-rubrik\">Samla talen: \\(5-3=2\\)</p><div class=\"facit-matte\">\\[5+2x-3=2x+2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x+2\\)</p></div>",
+        "ledtrad": "<p>Det står ett plustecken framför parentesen. Vad händer då med tecknen inne i den?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(8x-(3x+2)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(3x+2)=-3x-2\\)</p><div class=\"facit-matte\">\\[8x-3x-2\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(8x-3x=5x\\)</p><div class=\"facit-matte\">\\[8x-3x-2=5x-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x-2\\)</p></div>",
+        "ledtrad": "<p>Vad händer med tecknen inne i parentesen när det står ett minustecken framför den?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(10-(4-x)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(4-x)=-4+x\\)</p><div class=\"facit-matte\">\\[10-4+x\\]</div></li><li><p class=\"facit-rubrik\">Samla talen: \\(10-4=6\\)</p><div class=\"facit-matte\">\\[10-4+x=x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+6\\)</p></div>",
+        "ledtrad": "<p>Vad händer med tecknen inne i parentesen när det står ett minustecken framför den?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(2x-(5-3x)+7\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(5-3x)=-5+3x\\)</p><div class=\"facit-matte\">\\[2x-5+3x+7\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(2x+3x=5x\\) och talen: \\(-5+7=2\\)</p><div class=\"facit-matte\">\\[2x-5+3x+7=5x+2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x+2\\)</p></div>",
+        "ledtrad": "<p>Vad händer med tecknen inne i parentesen när det står ett minustecken framför den?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Det står ett plustecken framför parentesen. Vad händer då med tecknen inne i den?</p><p><strong>b)</strong> Vad händer med tecknen inne i parentesen när det står ett minustecken framför den?</p><p><strong>c)</strong> Vad händer med tecknen inne i parentesen när det står ett minustecken framför den?</p><p><strong>d)</strong> Vad händer med tecknen inne i parentesen när det står ett minustecken framför den?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1650",
+    "kap": 1,
+    "omr": "forenkla_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Förenkla uttrycken.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(3(x+2)+2(x-1)\\)</div><div>b) \\(4(2x-1)-3(x+2)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(3\\) och multiplicera in \\(2\\)</p><div class=\"facit-matte\">\\[3(x+2)=3x+6\\]</div><div class=\"facit-matte\">\\[2(x-1)=2x-2\\]</div><div class=\"facit-matte\">\\[3x+6+2x-2\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(3x+2x=5x\\) och talen: \\(6-2=4\\)</p><div class=\"facit-matte\">\\[3x+6+2x-2=5x+4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x+4\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(4\\) och multiplicera in \\(-3\\)</p><div class=\"facit-matte\">\\[4(2x-1)=8x-4\\]</div><div class=\"facit-matte\">\\[-3(x+2)=-3x-6\\]</div><div class=\"facit-matte\">\\[8x-4-3x-6\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(8x-3x=5x\\) och talen: \\(-4-6=-10\\)</p><div class=\"facit-matte\">\\[8x-4-3x-6=5x-10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x-10\\)</p></div></div>",
+    "familj": "Uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "5x+4",
+      "5x-10"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "förenklat_polynom",
+      "förenklat_polynom"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(3(x+2)+2(x-1)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(3\\) och multiplicera in \\(2\\)</p><div class=\"facit-matte\">\\[3(x+2)=3x+6\\]</div><div class=\"facit-matte\">\\[2(x-1)=2x-2\\]</div><div class=\"facit-matte\">\\[3x+6+2x-2\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(3x+2x=5x\\) och talen: \\(6-2=4\\)</p><div class=\"facit-matte\">\\[3x+6+2x-2=5x+4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x+4\\)</p></div>",
+        "ledtrad": "<p>Ta bort en parentes i taget. Multiplicera in det som står framför parentesen i varje term inne i den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(4(2x-1)-3(x+2)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(4\\) och multiplicera in \\(-3\\)</p><div class=\"facit-matte\">\\[4(2x-1)=8x-4\\]</div><div class=\"facit-matte\">\\[-3(x+2)=-3x-6\\]</div><div class=\"facit-matte\">\\[8x-4-3x-6\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(8x-3x=5x\\) och talen: \\(-4-6=-10\\)</p><div class=\"facit-matte\">\\[8x-4-3x-6=5x-10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x-10\\)</p></div>",
+        "ledtrad": "<p>Ta bort en parentes i taget. Multiplicera in det som står framför parentesen i varje term inne i den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Ta bort en parentes i taget. Multiplicera in det som står framför parentesen i varje term inne i den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1651",
+    "kap": 1,
+    "omr": "forenkla_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla uttrycket \\(6x-(x-4)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(x-4)=-x+4\\)</p><div class=\"facit-matte\">\\[6x-x+4\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(6x-x=5x\\)</p><div class=\"facit-matte\">\\[6x-x+4=5x+4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x+4\\)</p></div>",
+    "familj": "Uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "uttryck",
+    "rättSvar": "5x+4",
+    "tolerans": 1e-09,
+    "svarFormat": "förenklat_polynom",
+    "ledtrad": "<p>Vad händer med tecknen inne i parentesen när det står ett minustecken framför den?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1652",
+    "kap": 1,
+    "omr": "forenkla_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Förenkla uttrycken.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2(a+5)+3a\\)</div><div>b) \\(7-2(a-3)\\)</div><div>c) \\(5(a-2)-(3a+4)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(2\\) i parentesen: \\(2(a+5)=2a+10\\)</p><div class=\"facit-matte\">\\[2a+10+3a\\]</div></li><li><p class=\"facit-rubrik\">Samla a-termerna: \\(2a+3a=5a\\)</p><div class=\"facit-matte\">\\[2a+10+3a=5a+10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5a+10\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(-2\\) i parentesen: \\(-2(a-3)=-2a+6\\)</p><div class=\"facit-matte\">\\[7-2a+6\\]</div></li><li><p class=\"facit-rubrik\">Samla talen: \\(7+6=13\\)</p><div class=\"facit-matte\">\\[7-2a+6=-2a+13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2a+13\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(5\\) och byt tecken i \\((3a+4)\\)</p><div class=\"facit-matte\">\\[5(a-2)=5a-10\\]</div><div class=\"facit-matte\">\\[-(3a+4)=-3a-4\\]</div><div class=\"facit-matte\">\\[5a-10-3a-4\\]</div></li><li><p class=\"facit-rubrik\">Samla a-termerna: \\(5a-3a=2a\\) och talen: \\(-10-4=-14\\)</p><div class=\"facit-matte\">\\[5a-10-3a-4=2a-14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2a-14\\)</p></div></div>",
+    "familj": "Uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "5a+10",
+      "-2a+13",
+      "2a-14"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "förenklat_polynom",
+      "förenklat_polynom",
+      "förenklat_polynom"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(2(a+5)+3a\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(2\\) i parentesen: \\(2(a+5)=2a+10\\)</p><div class=\"facit-matte\">\\[2a+10+3a\\]</div></li><li><p class=\"facit-rubrik\">Samla a-termerna: \\(2a+3a=5a\\)</p><div class=\"facit-matte\">\\[2a+10+3a=5a+10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5a+10\\)</p></div>",
+        "ledtrad": "<p>Multiplicera \\(2\\) med varje term inne i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(7-2(a-3)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(-2\\) i parentesen: \\(-2(a-3)=-2a+6\\)</p><div class=\"facit-matte\">\\[7-2a+6\\]</div></li><li><p class=\"facit-rubrik\">Samla talen: \\(7+6=13\\)</p><div class=\"facit-matte\">\\[7-2a+6=-2a+13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2a+13\\)</p></div>",
+        "ledtrad": "<p>Multiplicera \\(-2\\) med varje term inne i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Förenkla uttrycket.</p><div class=\"spel-en-del\">\\(5(a-2)-(3a+4)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta bort parenteserna: multiplicera in \\(5\\) och byt tecken i \\((3a+4)\\)</p><div class=\"facit-matte\">\\[5(a-2)=5a-10\\]</div><div class=\"facit-matte\">\\[-(3a+4)=-3a-4\\]</div><div class=\"facit-matte\">\\[5a-10-3a-4\\]</div></li><li><p class=\"facit-rubrik\">Samla a-termerna: \\(5a-3a=2a\\) och talen: \\(-10-4=-14\\)</p><div class=\"facit-matte\">\\[5a-10-3a-4=2a-14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2a-14\\)</p></div>",
+        "ledtrad": "<p>Ta bort en parentes i taget. Multiplicera in det som står framför parentesen i varje term inne i den.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Multiplicera \\(2\\) med varje term inne i parentesen.</p><p><strong>b)</strong> Multiplicera \\(-2\\) med varje term inne i parentesen.</p><p><strong>c)</strong> Ta bort en parentes i taget. Multiplicera in det som står framför parentesen i varje term inne i den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1653",
+    "kap": 1,
+    "omr": "multiplicera_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Multiplicera in och förenkla.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(3(x+4)\\)</div><div>b) \\(5(2x-3)\\)</div><div>c) \\(-2(4x-1)\\)</div><div>d) \\(x(x+6)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(3\\) i parentesen: \\(3(x+4)=3x+12\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x+12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(5\\) i parentesen: \\(5(2x-3)=10x-15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10x-15\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(-2\\) i parentesen: \\(-2(4x-1)=-8x+2\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-8x+2\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(x\\) i parentesen: \\(x(x+6)=x^{2}+6x\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}+6x\\)</p></div></div>",
+    "familj": "Multiplicera in i en parentes",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "3x+12",
+      "10x-15",
+      "-8x+2",
+      "x^2+6x"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "förenklat_polynom",
+      "förenklat_polynom",
+      "förenklat_polynom",
+      "förenklat_polynom"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\(3(x+4)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(3\\) i parentesen: \\(3(x+4)=3x+12\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x+12\\)</p></div>",
+        "ledtrad": "<p>Multiplicera \\(3\\) med varje term inne i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\(5(2x-3)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(5\\) i parentesen: \\(5(2x-3)=10x-15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10x-15\\)</p></div>",
+        "ledtrad": "<p>Multiplicera \\(5\\) med varje term inne i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\(-2(4x-1)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(-2\\) i parentesen: \\(-2(4x-1)=-8x+2\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-8x+2\\)</p></div>",
+        "ledtrad": "<p>Multiplicera \\(-2\\) med varje term inne i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\(x(x+6)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(x\\) i parentesen: \\(x(x+6)=x^{2}+6x\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}+6x\\)</p></div>",
+        "ledtrad": "<p>Multiplicera \\(x\\) med varje term inne i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Multiplicera \\(3\\) med varje term inne i parentesen.</p><p><strong>b)</strong> Multiplicera \\(5\\) med varje term inne i parentesen.</p><p><strong>c)</strong> Multiplicera \\(-2\\) med varje term inne i parentesen.</p><p><strong>d)</strong> Multiplicera \\(x\\) med varje term inne i parentesen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1654",
+    "kap": 1,
+    "omr": "multiplicera_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Multiplicera in och förenkla.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(6(x-5)\\)</div><div>b) \\(-(3x+7)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(6\\) i parentesen: \\(6(x-5)=6x-30\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6x-30\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(3x+7)=-3x-7\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3x-7\\)</p></div></div>",
+    "familj": "Multiplicera in i en parentes",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "6x-30",
+      "-3x-7"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "förenklat_polynom",
+      "förenklat_polynom"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\(6(x-5)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(6\\) i parentesen: \\(6(x-5)=6x-30\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6x-30\\)</p></div>",
+        "ledtrad": "<p>Multiplicera \\(6\\) med varje term inne i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\(-(3x+7)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minustecknet framför parentesen byter tecken på varje term: \\(-(3x+7)=-3x-7\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3x-7\\)</p></div>",
+        "ledtrad": "<p>Vad händer med tecknen inne i parentesen när det står ett minustecken framför den?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Multiplicera \\(6\\) med varje term inne i parentesen.</p><p><strong>b)</strong> Vad händer med tecknen inne i parentesen när det står ett minustecken framför den?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1655",
+    "kap": 1,
+    "omr": "multiplicera_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Multiplicera in och förenkla \\(-4(2-3x)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(-4\\) i parentesen: \\(-4(2-3x)=-8+12x\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12x-8\\)</p></div>",
+    "familj": "Multiplicera in i en parentes",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "uttryck",
+    "rättSvar": "12x-8",
+    "tolerans": 1e-09,
+    "svarFormat": "förenklat_polynom",
+    "ledtrad": "<p>Multiplicera \\(-4\\) med varje term inne i parentesen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1656",
+    "kap": 1,
+    "omr": "multiplicera_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Multiplicera in och förenkla.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2x(x-3)\\)</div><div>b) \\(3x(2x+5)\\)</div><div>c) \\(x(4-x)+2x\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(2x\\) i parentesen: \\(2x(x-3)=2x^{2}-6x\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x^{2}-6x\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(3x\\) i parentesen: \\(3x(2x+5)=6x^{2}+15x\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6x^{2}+15x\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(x\\) i parentesen: \\(x(4-x)=4x-x^{2}\\)</p><div class=\"facit-matte\">\\[4x-x^{2}+2x\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(4x+2x=6x\\)</p><div class=\"facit-matte\">\\[4x-x^{2}+2x=-x^{2}+6x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-x^{2}+6x\\)</p></div></div>",
+    "familj": "Multiplicera in i en parentes",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "2x^2-6x",
+      "6x^2+15x",
+      "-x^2+6x"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "förenklat_polynom",
+      "förenklat_polynom",
+      "förenklat_polynom"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\(2x(x-3)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(2x\\) i parentesen: \\(2x(x-3)=2x^{2}-6x\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x^{2}-6x\\)</p></div>",
+        "ledtrad": "<p>Multiplicera \\(2x\\) med varje term inne i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\(3x(2x+5)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(3x\\) i parentesen: \\(3x(2x+5)=6x^{2}+15x\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6x^{2}+15x\\)</p></div>",
+        "ledtrad": "<p>Multiplicera \\(3x\\) med varje term inne i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\(x(4-x)+2x\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(x\\) i parentesen: \\(x(4-x)=4x-x^{2}\\)</p><div class=\"facit-matte\">\\[4x-x^{2}+2x\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(4x+2x=6x\\)</p><div class=\"facit-matte\">\\[4x-x^{2}+2x=-x^{2}+6x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-x^{2}+6x\\)</p></div>",
+        "ledtrad": "<p>Multiplicera \\(x\\) med varje term inne i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Multiplicera \\(2x\\) med varje term inne i parentesen.</p><p><strong>b)</strong> Multiplicera \\(3x\\) med varje term inne i parentesen.</p><p><strong>c)</strong> Multiplicera \\(x\\) med varje term inne i parentesen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1657",
+    "kap": 1,
+    "omr": "multiplicera_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Multiplicera in och förenkla.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(7(a+2)\\)</div><div>b) \\(-3(2a-5)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(7\\) i parentesen: \\(7(a+2)=7a+14\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7a+14\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(-3\\) i parentesen: \\(-3(2a-5)=-6a+15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-6a+15\\)</p></div></div>",
+    "familj": "Multiplicera in i en parentes",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "7a+14",
+      "-6a+15"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "förenklat_polynom",
+      "förenklat_polynom"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\(7(a+2)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(7\\) i parentesen: \\(7(a+2)=7a+14\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7a+14\\)</p></div>",
+        "ledtrad": "<p>Multiplicera \\(7\\) med varje term inne i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\(-3(2a-5)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in \\(-3\\) i parentesen: \\(-3(2a-5)=-6a+15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-6a+15\\)</p></div>",
+        "ledtrad": "<p>Multiplicera \\(-3\\) med varje term inne i parentesen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Multiplicera \\(7\\) med varje term inne i parentesen.</p><p><strong>b)</strong> Multiplicera \\(-3\\) med varje term inne i parentesen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1658",
+    "kap": 1,
+    "omr": "multiplicera_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Multiplicera in och förenkla.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((x+2)(x+3)\\)</div><div>b) \\((x+5)(x-1)\\)</div><div>c) \\((x-4)(x-2)\\)</div><div>d) \\((2x+1)(x+3)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i \\((x+2)\\) med varje term i \\((x+3)\\)</p><div class=\"facit-matte\">\\[(x+2)(x+3)=\\]</div><div class=\"facit-matte\">\\[=x\\cdot x+x\\cdot 3+2\\cdot x+2\\cdot 3\\]</div><div class=\"facit-matte\">\\[=x^{2}+3x+2x+6\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(3x+2x=5x\\)</p><div class=\"facit-matte\">\\[x^{2}+3x+2x+6=x^{2}+5x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}+5x+6\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i \\((x+5)\\) med varje term i \\((x-1)\\)</p><div class=\"facit-matte\">\\[(x+5)(x-1)=\\]</div><div class=\"facit-matte\">\\[=x\\cdot x+x\\cdot (-1)+5\\cdot x+5\\cdot (-1)\\]</div><div class=\"facit-matte\">\\[=x^{2}-x+5x-5\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(-x+5x=4x\\)</p><div class=\"facit-matte\">\\[x^{2}-x+5x-5=x^{2}+4x-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}+4x-5\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i \\((x-4)\\) med varje term i \\((x-2)\\)</p><div class=\"facit-matte\">\\[(x-4)(x-2)=\\]</div><div class=\"facit-matte\">\\[=x\\cdot x+x\\cdot (-2)-4\\cdot x-4\\cdot (-2)\\]</div><div class=\"facit-matte\">\\[=x^{2}-2x-4x+8\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(-2x-4x=-6x\\)</p><div class=\"facit-matte\">\\[x^{2}-2x-4x+8=x^{2}-6x+8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}-6x+8\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i \\((2x+1)\\) med varje term i \\((x+3)\\)</p><div class=\"facit-matte\">\\[(2x+1)(x+3)=\\]</div><div class=\"facit-matte\">\\[=2x\\cdot x+2x\\cdot 3+1\\cdot x+1\\cdot 3\\]</div><div class=\"facit-matte\">\\[=2x^{2}+6x+x+3\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(6x+x=7x\\)</p><div class=\"facit-matte\">\\[2x^{2}+6x+x+3=2x^{2}+7x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x^{2}+7x+3\\)</p></div></div>",
+    "familj": "Multiplicera två parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "x^2+5x+6",
+      "x^2+4x-5",
+      "x^2-6x+8",
+      "2x^2+7x+3"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "förenklat_polynom",
+      "förenklat_polynom",
+      "förenklat_polynom",
+      "förenklat_polynom"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\((x+2)(x+3)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i \\((x+2)\\) med varje term i \\((x+3)\\)</p><div class=\"facit-matte\">\\[(x+2)(x+3)=\\]</div><div class=\"facit-matte\">\\[=x\\cdot x+x\\cdot 3+2\\cdot x+2\\cdot 3\\]</div><div class=\"facit-matte\">\\[=x^{2}+3x+2x+6\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(3x+2x=5x\\)</p><div class=\"facit-matte\">\\[x^{2}+3x+2x+6=x^{2}+5x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}+5x+6\\)</p></div>",
+        "ledtrad": "<p>Varje term i den första parentesen ska multipliceras med varje term i den andra.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\((x+5)(x-1)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i \\((x+5)\\) med varje term i \\((x-1)\\)</p><div class=\"facit-matte\">\\[(x+5)(x-1)=\\]</div><div class=\"facit-matte\">\\[=x\\cdot x+x\\cdot (-1)+5\\cdot x+5\\cdot (-1)\\]</div><div class=\"facit-matte\">\\[=x^{2}-x+5x-5\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(-x+5x=4x\\)</p><div class=\"facit-matte\">\\[x^{2}-x+5x-5=x^{2}+4x-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}+4x-5\\)</p></div>",
+        "ledtrad": "<p>Varje term i den första parentesen ska multipliceras med varje term i den andra.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\((x-4)(x-2)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i \\((x-4)\\) med varje term i \\((x-2)\\)</p><div class=\"facit-matte\">\\[(x-4)(x-2)=\\]</div><div class=\"facit-matte\">\\[=x\\cdot x+x\\cdot (-2)-4\\cdot x-4\\cdot (-2)\\]</div><div class=\"facit-matte\">\\[=x^{2}-2x-4x+8\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(-2x-4x=-6x\\)</p><div class=\"facit-matte\">\\[x^{2}-2x-4x+8=x^{2}-6x+8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}-6x+8\\)</p></div>",
+        "ledtrad": "<p>Varje term i den första parentesen ska multipliceras med varje term i den andra.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\((2x+1)(x+3)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i \\((2x+1)\\) med varje term i \\((x+3)\\)</p><div class=\"facit-matte\">\\[(2x+1)(x+3)=\\]</div><div class=\"facit-matte\">\\[=2x\\cdot x+2x\\cdot 3+1\\cdot x+1\\cdot 3\\]</div><div class=\"facit-matte\">\\[=2x^{2}+6x+x+3\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(6x+x=7x\\)</p><div class=\"facit-matte\">\\[2x^{2}+6x+x+3=2x^{2}+7x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x^{2}+7x+3\\)</p></div>",
+        "ledtrad": "<p>Varje term i den första parentesen ska multipliceras med varje term i den andra.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Varje term i den första parentesen ska multipliceras med varje term i den andra.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1659",
+    "kap": 1,
+    "omr": "multiplicera_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Multiplicera in och förenkla \\((x+4)(x+1)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i \\((x+4)\\) med varje term i \\((x+1)\\)</p><div class=\"facit-matte\">\\[(x+4)(x+1)=\\]</div><div class=\"facit-matte\">\\[=x\\cdot x+x\\cdot 1+4\\cdot x+4\\cdot 1\\]</div><div class=\"facit-matte\">\\[=x^{2}+x+4x+4\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(x+4x=5x\\)</p><div class=\"facit-matte\">\\[x^{2}+x+4x+4=x^{2}+5x+4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}+5x+4\\)</p></div>",
+    "familj": "Multiplicera två parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "uttryck",
+    "rättSvar": "x^2+5x+4",
+    "tolerans": 1e-09,
+    "svarFormat": "förenklat_polynom",
+    "ledtrad": "<p>Varje term i den första parentesen ska multipliceras med varje term i den andra.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1660",
+    "kap": 1,
+    "omr": "multiplicera_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Multiplicera in och förenkla.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((x-3)(x+6)\\)</div><div>b) \\((3x-2)(x-1)\\)</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i \\((x-3)\\) med varje term i \\((x+6)\\)</p><div class=\"facit-matte\">\\[(x-3)(x+6)=\\]</div><div class=\"facit-matte\">\\[=x\\cdot x+x\\cdot 6-3\\cdot x-3\\cdot 6\\]</div><div class=\"facit-matte\">\\[=x^{2}+6x-3x-18\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(6x-3x=3x\\)</p><div class=\"facit-matte\">\\[x^{2}+6x-3x-18=x^{2}+3x-18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}+3x-18\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i \\((3x-2)\\) med varje term i \\((x-1)\\)</p><div class=\"facit-matte\">\\[(3x-2)(x-1)=\\]</div><div class=\"facit-matte\">\\[=3x\\cdot x+3x\\cdot (-1)-2\\cdot x-2\\cdot (-1)\\]</div><div class=\"facit-matte\">\\[=3x^{2}-3x-2x+2\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(-3x-2x=-5x\\)</p><div class=\"facit-matte\">\\[3x^{2}-3x-2x+2=3x^{2}-5x+2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x^{2}-5x+2\\)</p></div></div>",
+    "familj": "Multiplicera två parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      "x^2+3x-18",
+      "3x^2-5x+2"
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "förenklat_polynom",
+      "förenklat_polynom"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\((x-3)(x+6)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i \\((x-3)\\) med varje term i \\((x+6)\\)</p><div class=\"facit-matte\">\\[(x-3)(x+6)=\\]</div><div class=\"facit-matte\">\\[=x\\cdot x+x\\cdot 6-3\\cdot x-3\\cdot 6\\]</div><div class=\"facit-matte\">\\[=x^{2}+6x-3x-18\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(6x-3x=3x\\)</p><div class=\"facit-matte\">\\[x^{2}+6x-3x-18=x^{2}+3x-18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^{2}+3x-18\\)</p></div>",
+        "ledtrad": "<p>Varje term i den första parentesen ska multipliceras med varje term i den andra.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Multiplicera in och förenkla.</p><div class=\"spel-en-del\">\\((3x-2)(x-1)\\)</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i \\((3x-2)\\) med varje term i \\((x-1)\\)</p><div class=\"facit-matte\">\\[(3x-2)(x-1)=\\]</div><div class=\"facit-matte\">\\[=3x\\cdot x+3x\\cdot (-1)-2\\cdot x-2\\cdot (-1)\\]</div><div class=\"facit-matte\">\\[=3x^{2}-3x-2x+2\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna: \\(-3x-2x=-5x\\)</p><div class=\"facit-matte\">\\[3x^{2}-3x-2x+2=3x^{2}-5x+2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x^{2}-5x+2\\)</p></div>",
+        "ledtrad": "<p>Varje term i den första parentesen ska multipliceras med varje term i den andra.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Varje term i den första parentesen ska multipliceras med varje term i den andra.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1661",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Beräkna värdet av \\(3x+5\\) då \\(x=4\\).</div><div>b) Beräkna värdet av \\(20-2x\\) då \\(x=7\\).</div><div>c) Beräkna värdet av \\(4x-9\\) då \\(x=-2\\).</div><div>d) Beräkna värdet av \\(x^2+3x\\) då \\(x=-5\\).</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=4\\)</p><div class=\"facit-matte\">\\[3\\cdot 4+5\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(3\\cdot 4=12\\)</p><div class=\"facit-matte\">\\[12+5\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(12+5=17\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=7\\)</p><div class=\"facit-matte\">\\[20-2\\cdot 7\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(2\\cdot 7=14\\)</p><div class=\"facit-matte\">\\[20-14\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(20-14=6\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=-2\\)</p><div class=\"facit-matte\">\\[4\\cdot (-2)-9\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(4\\cdot (-2)=-8\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[-8-9\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(-8-9=-17\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-17\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=-5\\)</p><div class=\"facit-matte\">\\[(-5)^2+3\\cdot (-5)\\]</div></li><li><p class=\"facit-rubrik\">Potensen först: \\((-5)^{2}=(-5)\\cdot (-5)=25\\)</p><div class=\"facit-matte\">\\[25+3\\cdot (-5)\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(3\\cdot (-5)=-15\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[25+(-15)\\]</div></li><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus: \\(25+(-15)=25-15=10\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\)</p></div></div>",
+    "familj": "Värdet av ett uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      17,
+      6,
+      -17,
+      10
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna värdet av \\(3x+5\\) då \\(x=4\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=4\\)</p><div class=\"facit-matte\">\\[3\\cdot 4+5\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(3\\cdot 4=12\\)</p><div class=\"facit-matte\">\\[12+5\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(12+5=17\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\)</p></div>",
+        "ledtrad": "<p>Byt bokstaven mot talet. Vilken räkneoperation ska göras först: multiplikation eller addition?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna värdet av \\(20-2x\\) då \\(x=7\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=7\\)</p><div class=\"facit-matte\">\\[20-2\\cdot 7\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(2\\cdot 7=14\\)</p><div class=\"facit-matte\">\\[20-14\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(20-14=6\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\)</p></div>",
+        "ledtrad": "<p>Byt bokstaven mot talet. Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna värdet av \\(4x-9\\) då \\(x=-2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=-2\\)</p><div class=\"facit-matte\">\\[4\\cdot (-2)-9\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(4\\cdot (-2)=-8\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[-8-9\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(-8-9=-17\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-17\\)</p></div>",
+        "ledtrad": "<p>Byt bokstaven mot talet. Håll koll på tecknet för det negativa talet. Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna värdet av \\(x^2+3x\\) då \\(x=-5\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=-5\\)</p><div class=\"facit-matte\">\\[(-5)^2+3\\cdot (-5)\\]</div></li><li><p class=\"facit-rubrik\">Potensen först: \\((-5)^{2}=(-5)\\cdot (-5)=25\\)</p><div class=\"facit-matte\">\\[25+3\\cdot (-5)\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(3\\cdot (-5)=-15\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[25+(-15)\\]</div></li><li><p class=\"facit-rubrik\">Plus ett negativt tal blir minus: \\(25+(-15)=25-15=10\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\)</p></div>",
+        "ledtrad": "<p>Byt bokstaven mot talet. Håll koll på tecknet för det negativa talet. Parentesen visar att hela \\(-5\\) ska upphöjas. Skriv potensen som en multiplikation och håll koll på tecknet.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Byt bokstaven mot talet. Vilken räkneoperation ska göras först: multiplikation eller addition?</p><p><strong>b)</strong> Byt bokstaven mot talet. Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p><p><strong>c)</strong> Byt bokstaven mot talet. Håll koll på tecknet för det negativa talet. Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p><p><strong>d)</strong> Byt bokstaven mot talet. Håll koll på tecknet för det negativa talet. Parentesen visar att hela \\(-5\\) ska upphöjas. Skriv potensen som en multiplikation och håll koll på tecknet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1662",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Beräkna värdet av \\(6a-a\\) då \\(a=3\\).</div><div>b) Beräkna värdet av \\(5-3a\\) då \\(a=-4\\).</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(a=3\\)</p><div class=\"facit-matte\">\\[6\\cdot 3-3\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(6\\cdot 3=18\\)</p><div class=\"facit-matte\">\\[18-3\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(18-3=15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(a=-4\\)</p><div class=\"facit-matte\">\\[5-3\\cdot (-4)\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(3\\cdot (-4)=-12\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[5-(-12)\\]</div></li><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(5-(-12)=5+12=17\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\)</p></div></div>",
+    "familj": "Värdet av ett uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      15,
+      17
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna värdet av \\(6a-a\\) då \\(a=3\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(a=3\\)</p><div class=\"facit-matte\">\\[6\\cdot 3-3\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(6\\cdot 3=18\\)</p><div class=\"facit-matte\">\\[18-3\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(18-3=15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div>",
+        "ledtrad": "<p>Byt bokstaven mot talet. Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna värdet av \\(5-3a\\) då \\(a=-4\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(a=-4\\)</p><div class=\"facit-matte\">\\[5-3\\cdot (-4)\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(3\\cdot (-4)=-12\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[5-(-12)\\]</div></li><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(5-(-12)=5+12=17\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\)</p></div>",
+        "ledtrad": "<p>Byt bokstaven mot talet. Håll koll på tecknet för det negativa talet. Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Byt bokstaven mot talet. Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p><p><strong>b)</strong> Byt bokstaven mot talet. Håll koll på tecknet för det negativa talet. Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1663",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna värdet av \\(2x^2\\) då \\(x=3\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=3\\)</p><div class=\"facit-matte\">\\[2\\cdot 3^2\\]</div></li><li><p class=\"facit-rubrik\">Potensen först: \\(3^{2}=3\\cdot 3=9\\)</p><div class=\"facit-matte\">\\[2\\cdot 9\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(2\\cdot 9=18\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\)</p></div>",
+    "familj": "Värdet av ett uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Byt bokstaven mot talet. Räkna ut potensen först: \\(3^{2}=3\\cdot 3\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1664",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Beräkna värdet av \\(2a+3b\\) då \\(a=5\\) och \\(b=2\\).</div><div>b) Beräkna värdet av \\(4a-b\\) då \\(a=3\\) och \\(b=-6\\).</div><div>c) Beräkna värdet av \\(ab-2b\\) då \\(a=-3\\) och \\(b=4\\).</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(a=5\\) och \\(b=2\\)</p><div class=\"facit-matte\">\\[2\\cdot 5+3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(2\\cdot 5=10\\)</p><div class=\"facit-matte\">\\[10+3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(3\\cdot 2=6\\)</p><div class=\"facit-matte\">\\[10+6\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(10+6=16\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(a=3\\) och \\(b=-6\\)</p><div class=\"facit-matte\">\\[4\\cdot 3-(-6)\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(4\\cdot 3=12\\)</p><div class=\"facit-matte\">\\[12-(-6)\\]</div></li><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(12-(-6)=12+6=18\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(a=-3\\) och \\(b=4\\)</p><div class=\"facit-matte\">\\[-3\\cdot 4-2\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(-3\\cdot 4=-12\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[-12-2\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(2\\cdot 4=8\\)</p><div class=\"facit-matte\">\\[-12-8\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(-12-8=-20\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-20\\)</p></div></div>",
+    "familj": "Värdet av ett uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      16,
+      18,
+      -20
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna värdet av \\(2a+3b\\) då \\(a=5\\) och \\(b=2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(a=5\\) och \\(b=2\\)</p><div class=\"facit-matte\">\\[2\\cdot 5+3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(2\\cdot 5=10\\)</p><div class=\"facit-matte\">\\[10+3\\cdot 2\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(3\\cdot 2=6\\)</p><div class=\"facit-matte\">\\[10+6\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(10+6=16\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\)</p></div>",
+        "ledtrad": "<p>Byt varje bokstav mot sitt tal. Vilken räkneoperation ska göras först: multiplikation eller addition?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna värdet av \\(4a-b\\) då \\(a=3\\) och \\(b=-6\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(a=3\\) och \\(b=-6\\)</p><div class=\"facit-matte\">\\[4\\cdot 3-(-6)\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(4\\cdot 3=12\\)</p><div class=\"facit-matte\">\\[12-(-6)\\]</div></li><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(12-(-6)=12+6=18\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\)</p></div>",
+        "ledtrad": "<p>Byt varje bokstav mot sitt tal. Håll koll på tecknet för det negativa talet. Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna värdet av \\(ab-2b\\) då \\(a=-3\\) och \\(b=4\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(a=-3\\) och \\(b=4\\)</p><div class=\"facit-matte\">\\[-3\\cdot 4-2\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(-3\\cdot 4=-12\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[-12-2\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(2\\cdot 4=8\\)</p><div class=\"facit-matte\">\\[-12-8\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera: \\(-12-8=-20\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-20\\)</p></div>",
+        "ledtrad": "<p>Byt varje bokstav mot sitt tal. Håll koll på tecknet för det negativa talet. Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Byt varje bokstav mot sitt tal. Vilken räkneoperation ska göras först: multiplikation eller addition?</p><p><strong>b)</strong> Byt varje bokstav mot sitt tal. Håll koll på tecknet för det negativa talet. Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p><p><strong>c)</strong> Byt varje bokstav mot sitt tal. Håll koll på tecknet för det negativa talet. Vilken räkneoperation ska göras först: multiplikation eller subtraktion?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1665",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Beräkna värdet av \\(\\frac{x+6}{3}\\) då \\(x=9\\).</div><div>b) Beräkna värdet av \\(\\frac{2x-4}{x}\\) då \\(x=-2\\).</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=9\\)</p><div class=\"facit-matte\">\\[\\dfrac{9+6}{3}\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut täljaren: \\(9+6=15\\)</p><div class=\"facit-matte\">\\[\\dfrac{15}{3}\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(15\\div 3=5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=-2\\)</p><div class=\"facit-matte\">\\[\\dfrac{2\\cdot (-2)-4}{-2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(2\\cdot (-2)=-4\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[\\dfrac{-4-4}{-2}\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut täljaren: \\(-4-4=-8\\)</p><div class=\"facit-matte\">\\[\\dfrac{-8}{-2}\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(-8\\div (-2)=4\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div></div>",
+    "familj": "Värdet av ett uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      5,
+      4
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna värdet av \\(\\frac{x+6}{3}\\) då \\(x=9\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=9\\)</p><div class=\"facit-matte\">\\[\\dfrac{9+6}{3}\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut täljaren: \\(9+6=15\\)</p><div class=\"facit-matte\">\\[\\dfrac{15}{3}\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(15\\div 3=5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\)</p></div>",
+        "ledtrad": "<p>Byt bokstaven mot talet. Räkna ut täljaren och nämnaren för sig och dela sedan.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna värdet av \\(\\frac{2x-4}{x}\\) då \\(x=-2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=-2\\)</p><div class=\"facit-matte\">\\[\\dfrac{2\\cdot (-2)-4}{-2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(2\\cdot (-2)=-4\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[\\dfrac{-4-4}{-2}\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut täljaren: \\(-4-4=-8\\)</p><div class=\"facit-matte\">\\[\\dfrac{-8}{-2}\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(-8\\div (-2)=4\\) (samma tecken ger plus)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\)</p></div>",
+        "ledtrad": "<p>Byt bokstaven mot talet. Håll koll på tecknet för det negativa talet. Räkna ut täljaren och nämnaren för sig och dela sedan.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Byt bokstaven mot talet. Räkna ut täljaren och nämnaren för sig och dela sedan.</p><p><strong>b)</strong> Byt bokstaven mot talet. Håll koll på tecknet för det negativa talet. Räkna ut täljaren och nämnaren för sig och dela sedan.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1666",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Beräkna värdet av \\(3(x-2)\\) då \\(x=10\\).</div><div>b) Beräkna värdet av \\(-x^2+4\\) då \\(x=3\\).</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=10\\)</p><div class=\"facit-matte\">\\[3\\cdot (10-2)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(10-2=8\\)</p><div class=\"facit-matte\">\\[3\\cdot 8\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(3\\cdot 8=24\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=3\\)</p><div class=\"facit-matte\">\\[-3^2+4\\]</div></li><li><p class=\"facit-rubrik\">Potensen först, minustecknet står utanför: \\(-3^{2}=-(3^{2})=-9\\)</p><div class=\"facit-matte\">\\[-9+4\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-9+4=-5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div></div>",
+    "familj": "Värdet av ett uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      24,
+      -5
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna värdet av \\(3(x-2)\\) då \\(x=10\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=10\\)</p><div class=\"facit-matte\">\\[3\\cdot (10-2)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen först: \\(10-2=8\\)</p><div class=\"facit-matte\">\\[3\\cdot 8\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(3\\cdot 8=24\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\)</p></div>",
+        "ledtrad": "<p>Byt bokstaven mot talet. Börja med det som står inom parentes.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna värdet av \\(-x^2+4\\) då \\(x=3\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=3\\)</p><div class=\"facit-matte\">\\[-3^2+4\\]</div></li><li><p class=\"facit-rubrik\">Potensen först, minustecknet står utanför: \\(-3^{2}=-(3^{2})=-9\\)</p><div class=\"facit-matte\">\\[-9+4\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(-9+4=-5\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div>",
+        "ledtrad": "<p>Byt bokstaven mot talet. Står minustecknet innanför eller utanför potensen? Potensen räknas före minustecknet.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Byt bokstaven mot talet. Börja med det som står inom parentes.</p><p><strong>b)</strong> Byt bokstaven mot talet. Står minustecknet innanför eller utanför potensen? Potensen räknas före minustecknet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1667",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna värdet av \\(x^2-2x+1\\) då \\(x=-3\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=-3\\)</p><div class=\"facit-matte\">\\[(-3)^2-2\\cdot (-3)+1\\]</div></li><li><p class=\"facit-rubrik\">Potensen först: \\((-3)^{2}=(-3)\\cdot (-3)=9\\)</p><div class=\"facit-matte\">\\[9-2\\cdot (-3)+1\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före subtraktion: \\(2\\cdot (-3)=-6\\) (olika tecken ger minus)</p><div class=\"facit-matte\">\\[9-(-6)+1\\]</div></li><li><p class=\"facit-rubrik\">Minus ett negativt tal blir plus: \\(9-(-6)=9+6=15\\)</p><div class=\"facit-matte\">\\[15+1\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(15+1=16\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\)</p></div>",
+    "familj": "Värdet av ett uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Byt bokstaven mot talet. Håll koll på tecknet för det negativa talet. Parentesen visar att hela \\(-3\\) ska upphöjas. Skriv potensen som en multiplikation och håll koll på tecknet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1668",
+    "kap": 1,
+    "omr": "formler",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Formeln \\(P=2l+2b\\) är given.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Beräkna \\(P\\) då \\(l=7\\) och \\(b=4\\).</div><div>b) Beräkna \\(b\\) då \\(P=30\\) och \\(l=9\\).</div><div>c) Beräkna \\(l\\) då \\(P=26\\) och \\(b=5{,}5\\).</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(l=7\\) och \\(b=4\\)</p><div class=\"facit-matte\">\\[P=2\\cdot 7+2\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(2\\cdot 7=14\\)</p><div class=\"facit-matte\">\\[14+2\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(2\\cdot 4=8\\)</p><div class=\"facit-matte\">\\[14+8\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(14+8=22\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(P=22\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(P=30\\) och \\(l=9\\)</p><div class=\"facit-matte\">\\[30=2\\cdot 9+2b\\]</div><div class=\"facit-matte\">\\[30=18+2b\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 18 från båda leden</p><div class=\"facit-matte\">\\[12=2b\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[6=b\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=6\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(P=26\\) och \\(b=5{,}5\\)</p><div class=\"facit-matte\">\\[26=2l+2\\cdot 5{,}5\\]</div><div class=\"facit-matte\">\\[26=2l+11\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 11 från båda leden</p><div class=\"facit-matte\">\\[15=2l\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[7{,}5=l\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(l=7{,}5\\)</p></div></div>",
+    "familj": "Beräkningar med formler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      22,
+      6,
+      7.5
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Formeln \\(P=2l+2b\\) är given.</p><p>Beräkna \\(P\\) då \\(l=7\\) och \\(b=4\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(l=7\\) och \\(b=4\\)</p><div class=\"facit-matte\">\\[P=2\\cdot 7+2\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(2\\cdot 7=14\\)</p><div class=\"facit-matte\">\\[14+2\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(2\\cdot 4=8\\)</p><div class=\"facit-matte\">\\[14+8\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(14+8=22\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(P=22\\)</p></div>",
+        "ledtrad": "<p>Sätt in värdena i formeln och räkna i rätt ordning.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Formeln \\(P=2l+2b\\) är given.</p><p>Beräkna \\(b\\) då \\(P=30\\) och \\(l=9\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(P=30\\) och \\(l=9\\)</p><div class=\"facit-matte\">\\[30=2\\cdot 9+2b\\]</div><div class=\"facit-matte\">\\[30=18+2b\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 18 från båda leden</p><div class=\"facit-matte\">\\[12=2b\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[6=b\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=6\\)</p></div>",
+        "ledtrad": "<p>Sätt in de kända värdena. Då får du en ekvation där \\(b\\) är det enda okända.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Formeln \\(P=2l+2b\\) är given.</p><p>Beräkna \\(l\\) då \\(P=26\\) och \\(b=5{,}5\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(P=26\\) och \\(b=5{,}5\\)</p><div class=\"facit-matte\">\\[26=2l+2\\cdot 5{,}5\\]</div><div class=\"facit-matte\">\\[26=2l+11\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 11 från båda leden</p><div class=\"facit-matte\">\\[15=2l\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[7{,}5=l\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(l=7{,}5\\)</p></div>",
+        "ledtrad": "<p>Sätt in de kända värdena. Då får du en ekvation där \\(l\\) är det enda okända.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Sätt in värdena i formeln och räkna i rätt ordning.</p><p><strong>b)</strong> Sätt in de kända värdena. Då får du en ekvation där \\(b\\) är det enda okända.</p><p><strong>c)</strong> Sätt in de kända värdena. Då får du en ekvation där \\(l\\) är det enda okända.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1669",
+    "kap": 1,
+    "omr": "formler",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Formeln \\(A=\\frac{bh}{2}\\) är given.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Beräkna \\(A\\) då \\(b=8\\) och \\(h=5\\).</div><div>b) Beräkna \\(h\\) då \\(A=36\\) och \\(b=9\\).</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(b=8\\) och \\(h=5\\)</p><div class=\"facit-matte\">\\[A=\\frac{8\\cdot 5}{2}\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut täljaren: \\(8\\cdot 5=40\\)</p><div class=\"facit-matte\">\\[\\dfrac{40}{2}\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(40\\div 2=20\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A=20\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(A=36\\) och \\(b=9\\)</p><div class=\"facit-matte\">\\[36=\\frac{9h}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(\\frac{2}{9}\\)</p><div class=\"facit-matte\">\\[8=h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(h=8\\)</p></div></div>",
+    "familj": "Beräkningar med formler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      20,
+      8
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Formeln \\(A=\\frac{bh}{2}\\) är given.</p><p>Beräkna \\(A\\) då \\(b=8\\) och \\(h=5\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(b=8\\) och \\(h=5\\)</p><div class=\"facit-matte\">\\[A=\\frac{8\\cdot 5}{2}\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut täljaren: \\(8\\cdot 5=40\\)</p><div class=\"facit-matte\">\\[\\dfrac{40}{2}\\]</div></li><li><p class=\"facit-rubrik\">Dividera: \\(40\\div 2=20\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A=20\\)</p></div>",
+        "ledtrad": "<p>Sätt in värdena i formeln och räkna i rätt ordning.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Formeln \\(A=\\frac{bh}{2}\\) är given.</p><p>Beräkna \\(h\\) då \\(A=36\\) och \\(b=9\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(A=36\\) och \\(b=9\\)</p><div class=\"facit-matte\">\\[36=\\frac{9h}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(\\frac{2}{9}\\)</p><div class=\"facit-matte\">\\[8=h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(h=8\\)</p></div>",
+        "ledtrad": "<p>Sätt in de kända värdena. Då får du en ekvation där \\(h\\) är det enda okända.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Sätt in värdena i formeln och räkna i rätt ordning.</p><p><strong>b)</strong> Sätt in de kända värdena. Då får du en ekvation där \\(h\\) är det enda okända.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1670",
+    "kap": 1,
+    "omr": "formler",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Formeln \\(s=vt\\) är given.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Beräkna \\(s\\) då \\(v=80\\) och \\(t=3\\).</div><div>b) Beräkna \\(v\\) då \\(s=150\\) och \\(t=2\\).</div><div>c) Beräkna \\(t\\) då \\(s=210\\) och \\(v=70\\).</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(v=80\\) och \\(t=3\\)</p><div class=\"facit-matte\">\\[s=80\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(80\\cdot 3=240\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(s=240\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(s=150\\) och \\(t=2\\)</p><div class=\"facit-matte\">\\[150=v\\cdot 2\\]</div><div class=\"facit-matte\">\\[150=2v\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[75=v\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=75\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(s=210\\) och \\(v=70\\)</p><div class=\"facit-matte\">\\[210=70t\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 70</p><div class=\"facit-matte\">\\[3=t\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=3\\)</p></div></div>",
+    "familj": "Beräkningar med formler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      240,
+      75,
+      3
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Formeln \\(s=vt\\) är given.</p><p>Beräkna \\(s\\) då \\(v=80\\) och \\(t=3\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(v=80\\) och \\(t=3\\)</p><div class=\"facit-matte\">\\[s=80\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(80\\cdot 3=240\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(s=240\\)</p></div>",
+        "ledtrad": "<p>Sätt in värdena i formeln och räkna i rätt ordning.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Formeln \\(s=vt\\) är given.</p><p>Beräkna \\(v\\) då \\(s=150\\) och \\(t=2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(s=150\\) och \\(t=2\\)</p><div class=\"facit-matte\">\\[150=v\\cdot 2\\]</div><div class=\"facit-matte\">\\[150=2v\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[75=v\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=75\\)</p></div>",
+        "ledtrad": "<p>Sätt in de kända värdena. Då får du en ekvation där \\(v\\) är det enda okända.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Formeln \\(s=vt\\) är given.</p><p>Beräkna \\(t\\) då \\(s=210\\) och \\(v=70\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(s=210\\) och \\(v=70\\)</p><div class=\"facit-matte\">\\[210=70t\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 70</p><div class=\"facit-matte\">\\[3=t\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=3\\)</p></div>",
+        "ledtrad": "<p>Sätt in de kända värdena. Då får du en ekvation där \\(t\\) är det enda okända.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Sätt in värdena i formeln och räkna i rätt ordning.</p><p><strong>b)</strong> Sätt in de kända värdena. Då får du en ekvation där \\(v\\) är det enda okända.</p><p><strong>c)</strong> Sätt in de kända värdena. Då får du en ekvation där \\(t\\) är det enda okända.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1671",
+    "kap": 1,
+    "omr": "formler",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Formeln \\(K=45+12n\\) är given.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Beräkna \\(K\\) då \\(n=6\\).</div><div>b) Beräkna \\(n\\) då \\(K=153\\).</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(n=6\\)</p><div class=\"facit-matte\">\\[K=45+12\\cdot 6\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(12\\cdot 6=72\\)</p><div class=\"facit-matte\">\\[45+72\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(45+72=117\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(K=117\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(K=153\\)</p><div class=\"facit-matte\">\\[153=45+12n\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 45 från båda leden</p><div class=\"facit-matte\">\\[108=12n\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 12</p><div class=\"facit-matte\">\\[9=n\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(n=9\\)</p></div></div>",
+    "familj": "Beräkningar med formler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      117,
+      9
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Formeln \\(K=45+12n\\) är given.</p><p>Beräkna \\(K\\) då \\(n=6\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(n=6\\)</p><div class=\"facit-matte\">\\[K=45+12\\cdot 6\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(12\\cdot 6=72\\)</p><div class=\"facit-matte\">\\[45+72\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(45+72=117\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(K=117\\)</p></div>",
+        "ledtrad": "<p>Sätt in värdena i formeln och räkna i rätt ordning.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Formeln \\(K=45+12n\\) är given.</p><p>Beräkna \\(n\\) då \\(K=153\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(K=153\\)</p><div class=\"facit-matte\">\\[153=45+12n\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 45 från båda leden</p><div class=\"facit-matte\">\\[108=12n\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 12</p><div class=\"facit-matte\">\\[9=n\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(n=9\\)</p></div>",
+        "ledtrad": "<p>Sätt in de kända värdena. Då får du en ekvation där \\(n\\) är det enda okända.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Sätt in värdena i formeln och räkna i rätt ordning.</p><p><strong>b)</strong> Sätt in de kända värdena. Då får du en ekvation där \\(n\\) är det enda okända.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.1672",
+    "kap": 1,
+    "omr": "formler",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Formeln \\(F=1{,}8C+32\\) är given.</p><p>Beräkna \\(F\\) då \\(C=25\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(C=25\\)</p><div class=\"facit-matte\">\\[F=1{,}8\\cdot 25+32\\]</div></li><li><p class=\"facit-rubrik\">Multiplikation före addition: \\(1{,}8\\cdot 25=45\\)</p><div class=\"facit-matte\">\\[45+32\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(45+32=77\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F=77\\)</p></div>",
+    "familj": "Beräkningar med formler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 77,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt in värdena i formeln och räkna i rätt ordning.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1673",
+    "kap": 1,
+    "omr": "formler",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Formeln \\(y=3x-7\\) är given.</p><p>Beräkna \\(x\\) då \\(y=20\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(y=20\\)</p><div class=\"facit-matte\">\\[20=3x-7\\]</div></li><li><p class=\"facit-rubrik\">Addera 7 till båda leden</p><div class=\"facit-matte\">\\[27=3x\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[9=x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=9\\)</p></div>",
+    "familj": "Beräkningar med formler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 1e-09,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt in de kända värdena. Då får du en ekvation där \\(x\\) är det enda okända.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.1674",
+    "kap": 1,
+    "omr": "formler",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Formeln \\(V=lbh\\) är given.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) Beräkna \\(V\\) då \\(l=6\\), \\(b=4\\) och \\(h=3\\).</div><div>b) Beräkna \\(h\\) då \\(V=120\\), \\(l=5\\) och \\(b=4\\).</div><div>c) Beräkna \\(b\\) då \\(V=90\\), \\(l=6\\) och \\(h=2{,}5\\).</div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(l=6\\), \\(b=4\\) och \\(h=3\\)</p><div class=\"facit-matte\">\\[V=6\\cdot 4\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(6\\cdot 4=24\\)</p><div class=\"facit-matte\">\\[24\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(24\\cdot 3=72\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(V=72\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(V=120\\), \\(l=5\\) och \\(b=4\\)</p><div class=\"facit-matte\">\\[120=5\\cdot 4\\cdot h\\]</div><div class=\"facit-matte\">\\[120=20h\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 20</p><div class=\"facit-matte\">\\[6=h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(h=6\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(V=90\\), \\(l=6\\) och \\(h=2{,}5\\)</p><div class=\"facit-matte\">\\[90=6\\cdot b\\cdot 2{,}5\\]</div><div class=\"facit-matte\">\\[90=15b\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 15</p><div class=\"facit-matte\">\\[6=b\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=6\\)</p></div></div>",
+    "familj": "Beräkningar med formler",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "rättSvar": [
+      72,
+      6,
+      6
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Formeln \\(V=lbh\\) är given.</p><p>Beräkna \\(V\\) då \\(l=6\\), \\(b=4\\) och \\(h=3\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(l=6\\), \\(b=4\\) och \\(h=3\\)</p><div class=\"facit-matte\">\\[V=6\\cdot 4\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(6\\cdot 4=24\\)</p><div class=\"facit-matte\">\\[24\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(24\\cdot 3=72\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(V=72\\)</p></div>",
+        "ledtrad": "<p>Sätt in värdena i formeln och räkna i rätt ordning.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Formeln \\(V=lbh\\) är given.</p><p>Beräkna \\(h\\) då \\(V=120\\), \\(l=5\\) och \\(b=4\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(V=120\\), \\(l=5\\) och \\(b=4\\)</p><div class=\"facit-matte\">\\[120=5\\cdot 4\\cdot h\\]</div><div class=\"facit-matte\">\\[120=20h\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 20</p><div class=\"facit-matte\">\\[6=h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(h=6\\)</p></div>",
+        "ledtrad": "<p>Sätt in de kända värdena. Då får du en ekvation där \\(h\\) är det enda okända.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Formeln \\(V=lbh\\) är given.</p><p>Beräkna \\(b\\) då \\(V=90\\), \\(l=6\\) och \\(h=2{,}5\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(V=90\\), \\(l=6\\) och \\(h=2{,}5\\)</p><div class=\"facit-matte\">\\[90=6\\cdot b\\cdot 2{,}5\\]</div><div class=\"facit-matte\">\\[90=15b\\]</div></li><li><p class=\"facit-rubrik\">Dividera båda leden med 15</p><div class=\"facit-matte\">\\[6=b\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=6\\)</p></div>",
+        "ledtrad": "<p>Sätt in de kända värdena. Då får du en ekvation där \\(b\\) är det enda okända.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p><strong>a)</strong> Sätt in värdena i formeln och räkna i rätt ordning.</p><p><strong>b)</strong> Sätt in de kända värdena. Då får du en ekvation där \\(h\\) är det enda okända.</p><p><strong>c)</strong> Sätt in de kända värdena. Då får du en ekvation där \\(b\\) är det enda okända.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
   }
 ];

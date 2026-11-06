@@ -12294,6 +12294,20 @@ function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
       if(neg && /minsk|sänk|lägre/i.test(tt) && !/ök|höj/i.test(tt) && delSvarRatt(rest,facit,enhet,tol,t,idx,format)) return true;
     }
   }
+  /* Ord före talet: "ca 320,3 g" och "cirka 12". Jämförelseord som "under 320,3 g" eller
+     "minst 40" godtas bara när samma ord står i frågan, till exempel "Under vilken vikt …?".
+     Talet rättas sedan som vanligt, och en avslutande punkt tas bort. */
+  if(typeof facit==="number" || numerisktSvar(facit)){
+    const ALLTID=/^(ca|c:a|cirka|ungefär|omkring|runt|nästan)$/i;
+    const JMF=/^(under|över|högst|minst|max|min|mindre|mer|lägre|högre|större|än)$/i;
+    const tt=String(t?.t||t?.fraga||"").replace(/<[^>]+>/g," ").toLowerCase();
+    const orden=String(anv).trim().replace(/[.!]$/,"").split(/\s+/).filter(Boolean);
+    let k=0;
+    while(k<orden.length-1 && (ALLTID.test(orden[k]) || (JMF.test(orden[k])
+      && (/^än$/i.test(orden[k]) || new RegExp("(^|[^\\p{L}])"+orden[k].toLowerCase()+"($|[^\\p{L}])","u").test(tt))))) k++;
+    const rest=orden.slice(k).join(" ");
+    if(rest && rest!==String(anv).trim() && /^[−\-+]?\d/.test(rest) && delSvarRatt(rest,facit,enhet,tol,t,idx,format)) return true;
+  }
   /* Ett tal med enhet efter när facit är ett rent tal utan angiven enhet ("1,65 kg", "48 kr"). */
   if((enhet===undefined||enhet===null||enhet==="") && (typeof facit==="number" || numerisktSvar(facit))){
     const m=String(anv).trim().match(/^(.*?\d)\s*([a-zåäöµΩ°%][a-zåäöµΩ°%²³/·*()^0-9]*)\s*$/i);
@@ -16319,7 +16333,14 @@ window.KG_TEST_MA4_SVAR=function(){
     {namn:"förkortat: summa av bråk är inte ett bråk", got:formatRatt("2/(x-1)+3/(x+2)","(5x+1)/((x-1)(x+2))",{format:"förkortat_uttryck"}), want:false},
     {namn:"förkortat: ett bråk med faktoriserad nämnare", got:formatRatt("(5x+1)/((x-1)(x+2))","(5x+1)/(x^2+x-2)",{format:"förkortat_uttryck"}), want:true},
     {namn:"förkortat: dubbelbråk avskrivet", got:formatRatt("((x^2-4)/(x+1))/((x-2)/(x+1))","x+2",{format:"förkortat_uttryck"}), want:false},
-    {namn:"uttryck: oförkortat godtas som förut", got:formatRatt("(x^2-9)/(x-3)","x+3",{format:"uttryck"}), want:true}
+    {namn:"uttryck: oförkortat godtas som förut", got:formatRatt("(x^2-9)/(x-3)","x+3",{format:"uttryck"}), want:true},
+    {namn:"ord före tal: ca", got:delSvarRatt("ca 320,3",320.3,"g",0.2,{t:"<p>Under vilken vikt säljs en limpa billigare?</p>"},0,"numeriskt"), want:true},
+    {namn:"ord före tal: cirka med enhet", got:delSvarRatt("cirka 320,3 g",320.3,"g",0.2,{t:"<p>Under vilken vikt säljs en limpa billigare?</p>"},0,"numeriskt"), want:true},
+    {namn:"jämförelseord i frågan: under", got:delSvarRatt("under 320,3 g",320.3,"g",0.2,{t:"<p>Under vilken vikt säljs en limpa billigare?</p>"},0,"numeriskt"), want:true},
+    {namn:"avslutande punkt", got:delSvarRatt("320,3g.",320.3,"g",0.2,{t:"<p>Under vilken vikt säljs en limpa billigare?</p>"},0,"numeriskt"), want:true},
+    {namn:"jämförelseord som inte står i frågan", got:delSvarRatt("under 320,3 g",320.3,"g",0.2,{t:"<p>Hur mycket väger limpan?</p>"},0,"numeriskt"), want:false},
+    {namn:"ord före fel tal", got:delSvarRatt("ca 321",320.3,"g",0.2,{t:"<p>Under vilken vikt säljs en limpa billigare?</p>"},0,"numeriskt"), want:false},
+    {namn:"bara ord godtas inte", got:delSvarRatt("ungefär",320.3,"g",0.2,{t:"<p>Under vilken vikt säljs en limpa billigare?</p>"},0,"numeriskt"), want:false}
   ];
   cases.forEach(x=>x.ok=x.got===x.want);
   console.table(cases);

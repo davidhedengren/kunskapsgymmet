@@ -1,0 +1,20 @@
+'use strict';
+const {chromium}=require('playwright'),assert=require('node:assert/strict');
+(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});try{
+const p=await b.newPage({viewport:{width:390,height:900}});await p.route('https://*.supabase.co/**',r=>r.abort());await p.goto(process.env.REVIEW_URL||'http://127.0.0.1:8757');await p.waitForFunction(()=>typeof oppnaFelrapportLogg==='function');
+await p.evaluate(()=>{
+ session={user:{id:'test-teacher'}};uppdateraFelAntal=()=>{};uppdateraFelNotis=()=>{};toast=()=>{};
+ window.resetLog=async rows=>{felloggData=[];felloggVisaKlara=true;felloggMassSparar=false;felloggMassText='';felloggSparar.clear();felloggFel.clear();felloggUtkast.clear();window.rpcCalls=[];window.failId='';hamtaFelloggen=async()=>rows;felKommentarRpc=async(name,params)=>{rpcCalls.push({name,params});await new Promise(r=>setTimeout(r,25));if(params.p_uppgift===failId)throw Error('Test: nätverksfel');return {ok:true}};await oppnaFelrapportLogg()};
+});
+const open=(id,extra={})=>({kurs:'fy1',uppgift:id,antal:1,atgardad:false,kommentarer:[],...extra});
+await p.evaluate(rows=>resetLog(rows),[open('a'),open('b'),open('a',{deluppgift:'b'}),open('done',{atgardad:true,status:'atgardad'}),open('ignored',{atgardad:true,status:'ignorerad'})]);
+await p.locator('#felkommentar-rad-0').fill('Korrigerad figur.');await p.locator('#felkommentar-rad-1').fill('Kommentar som ska bevaras vid fel.');await p.evaluate(()=>{failId='b';window.batch=atgardaAllaFelrapporter();atgardaAllaFelrapporter()});await p.evaluate(()=>batch);
+let got=await p.evaluate(()=>({calls:rpcCalls,rows:felloggData.map(r=>({id:r.uppgift,status:felloggStatus(r),comment:r.granskningskommentar})),text:document.getElementById('felloggmassstatus').textContent}));
+assert.equal(got.calls.length,2);assert.equal(got.calls[0].params.p_kommentar,'Korrigerad figur.');assert.equal(got.calls[1].params.p_kommentar,'Kommentar som ska bevaras vid fel.');assert.deepEqual(got.rows.map(r=>r.status),['atgardad','oppen','atgardad','atgardad','ignorerad']);assert.match(got.text,/1 kunde inte sparas/);assert.equal(await p.locator('#felkommentar-rad-1').inputValue(),'Kommentar som ska bevaras vid fel.');assert.ok(await p.locator('[data-fel-index="1"] .felrad-fel').isVisible());
+await p.evaluate(()=>{failId='';});await p.locator('#felloggalla').click();await p.waitForFunction(()=>!felloggMassSparar);assert.equal(await p.evaluate(()=>rpcCalls.length),3);assert.equal(await p.evaluate(()=>rpcCalls[2].params.p_uppgift),'b');assert.ok(await p.locator('#felloggalla').isDisabled());await p.locator('#fellogg').screenshot({path:'/tmp/fellogg-alla-1110-mobile.png'});
+// Felbehörighet/nätverksfel får aldrig presenteras som sparat. Enskild knapp fungerar efteråt.
+await p.evaluate(rows=>resetLog(rows),[open('x')]);await p.evaluate(()=>{failId='x'});await p.locator('#felloggalla').click();await p.waitForFunction(()=>!felloggMassSparar);assert.equal(await p.evaluate(()=>felloggStatus(felloggData[0])),'oppen');await p.evaluate(()=>{failId='';});await p.locator('[data-fel-index="0"] button').filter({hasText:/^Åtgärdad$/}).click();await p.waitForFunction(()=>felloggStatus(felloggData[0])==='atgardad');
+// Utloggning/kontobyte under sparande stoppar återstående RPC:er och lokala uppdateringar.
+await p.evaluate(rows=>resetLog(rows),[open('u'),open('v')]);await p.evaluate(()=>{felKommentarRpc=async(name,params)=>{rpcCalls.push({name,params});await new Promise(r=>window.releaseRpc=r);return {ok:true}};window.batch=atgardaAllaFelrapporter()});await p.waitForFunction(()=>!!window.releaseRpc);await p.evaluate(()=>{session={user:{id:'other-user'}};releaseRpc()});await p.evaluate(()=>batch);assert.equal(await p.evaluate(()=>rpcCalls.length),1);assert.equal(await p.evaluate(()=>felloggStatus(felloggData[0])),'oppen');
+console.log('PASS: massmarkering, öppet-filter, gruppdeduplicering, kommentarer, delvis fel, återförsök, dubbelklick, enskild knapp och kontobyte.');
+}finally{await b.close()}})().catch(e=>{console.error(e);process.exitCode=1});

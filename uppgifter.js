@@ -26926,7 +26926,7 @@ window.BANK = [
     "typ": "bestämma fjäderkonstant ur längdändring och beräkna ny längd vid annan last, ur diagram, sökt förlängning fjäderkonstant och längd",
     "poang": "(4/0/0)",
     "t": "<p>En masslös fjäder är 20 cm lång obelastad och 26 cm lång när en massa på 500 g hänger stilla i den.</p><span class=\"fig\"><svg height=\"297\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.600 13.785 314.400 150.442\"><line x1=\"120\" y1=\"30\" x2=\"300\" y2=\"30\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"30\" x2=\"128\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"30\" x2=\"138\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"30\" x2=\"148\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"150\" y1=\"30\" x2=\"158\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"30\" x2=\"168\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"170\" y1=\"30\" x2=\"178\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"30\" x2=\"188\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"30\" x2=\"198\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"30\" x2=\"208\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"210\" y1=\"30\" x2=\"218\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"30\" x2=\"228\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"30\" x2=\"238\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"30\" x2=\"248\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"30\" x2=\"258\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"30\" x2=\"268\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"270\" y1=\"30\" x2=\"278\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"30\" x2=\"288\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"290\" y1=\"30\" x2=\"298\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><polyline points=\"200,44 211,46.4615 189,51.3846 211,56.3077 189,61.2308 211,66.1538 189,71.0769 211,76 189,80.9231 211,85.8462 189,90.7692 211,95.6923 189,100.615 200,108\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"200\" y1=\"30\" x2=\"200\" y2=\"44\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"108\" x2=\"200\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"122\" width=\"56\" height=\"34\" rx=\"3\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"143\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">500 g</text><line x1=\"300\" y1=\"30\" x2=\"300\" y2=\"122\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"295\" y1=\"30\" x2=\"305\" y2=\"30\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"295\" y1=\"122\" x2=\"305\" y2=\"122\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"308\" y=\"80\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">l = 26 cm</text><line x1=\"115\" y1=\"30\" x2=\"115\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"30\" x2=\"120\" y2=\"30\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"100\" x2=\"120\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"107\" y=\"69\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">l₀ = 20 cm</text></svg></span><ol type=\"a\"><li>Bestäm förlängningen. (Svara i cm.)</li><li>Bestäm tyngdkraften på vikten.</li><li>Bestäm fjäderkonstanten.</li><li>Bestäm hela längden med en stilla massa på 1,2 kg i stället. (Svara i cm.)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förlängning: \\(x=l-l_0\\)</p><div class=\"facit-matte\">\\[x=26-20=6\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 cm.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med \\(m=0{,}500\\ \\mathrm{kg}\\)</p><div class=\"facit-matte\">\\[F_g=0{,}500\\cdot9{,}82=4{,}91\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,91 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förlängning: \\(x=l-l_0\\)</p><div class=\"facit-matte\">\\[x=26-20=6\\ \\mathrm{cm}=0{,}06\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Jämvikt för vikten: \\(kx=mg\\), lös ut \\(k\\)</p><div class=\"facit-matte\">\\[k=\\frac{0{,}500\\cdot9{,}82}{0{,}06}\\approx81{,}83\\ \\mathrm{N/m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 81,83 N/m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämvikt för vikten: \\(kx=mg\\), lös ut \\(k\\)</p><div class=\"facit-matte\">\\[k=\\frac{0{,}500\\cdot9{,}82}{0{,}06}\\approx81{,}83\\ \\mathrm{N/m}\\]</div></li><li><p class=\"facit-rubrik\">Jämvikt för vikten: \\(kx=mg\\) med 1,2 kg, lös ut \\(x\\)</p><div class=\"facit-matte\">\\[x=\\frac{1{,}2\\cdot9{,}82}{81{,}83}\\approx0{,}144\\ \\mathrm m=14{,}4\\ \\mathrm{cm}\\]</div></li><li><p class=\"facit-rubrik\">Hela längden: \\(l=l_0+x\\)</p><div class=\"facit-matte\">\\[l=20+14{,}4=34{,}4\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 34,4 cm.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förlängning: \\(x=l-l_0\\)</p><div class=\"facit-matte\">\\[x=26-20=6\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 cm.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med \\(m=0{,}500\\ \\mathrm{kg}\\)</p><div class=\"facit-matte\">\\[F_g=0{,}500\\cdot9{,}82=4{,}91\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,91 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förlängning: \\(x=l-l_0\\)</p><div class=\"facit-matte\">\\[x=26-20=6\\ \\mathrm{cm}=0{,}06\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Jämvikt för vikten: \\(kx=mg\\), lös ut \\(k\\)</p><div class=\"facit-matte\">\\[k=\\frac{0{,}500\\cdot9{,}82}{0{,}06}\\approx81{,}83\\ \\mathrm{N/m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 80 N/m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämvikt för vikten: \\(kx=mg\\), lös ut \\(k\\)</p><div class=\"facit-matte\">\\[k=\\frac{0{,}500\\cdot9{,}82}{0{,}06}\\approx81{,}83\\ \\mathrm{N/m}\\]</div></li><li><p class=\"facit-rubrik\">Jämvikt för vikten: \\(kx=mg\\) med 1,2 kg: förlängningen är proportionell mot massan; lös ut \\(x\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}x&=0{,}06\\cdot\\frac{1{,}2}{0{,}500}\\\\&=0{,}144\\ \\mathrm m=14{,}4\\ \\mathrm{cm}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Hela längden: \\(l=l_0+x\\)</p><div class=\"facit-matte\">\\[l=20+14{,}4=34{,}4\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 34 cm.</p></div></div></div>",
     "familj": "Fjäderdiagram, mätdata och kalibrering",
     "formaga": [
       "begrepp",
@@ -26937,7 +26937,7 @@ window.BANK = [
     "rättSvar": [
       6,
       4.91,
-      81.83,
+      81.83333333333334,
       34.4
     ],
     "tolerans": [
@@ -27002,7 +27002,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Bestäm fjäderkonstanten.",
         "t": "<p>En masslös fjäder är 20 cm lång obelastad och 26 cm lång när en massa på 500 g hänger stilla i den.</p><span class=\"fig\"><svg height=\"297\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.600 13.785 314.400 150.442\"><line x1=\"120\" y1=\"30\" x2=\"300\" y2=\"30\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"30\" x2=\"128\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"30\" x2=\"138\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"30\" x2=\"148\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"150\" y1=\"30\" x2=\"158\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"30\" x2=\"168\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"170\" y1=\"30\" x2=\"178\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"30\" x2=\"188\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"30\" x2=\"198\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"30\" x2=\"208\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"210\" y1=\"30\" x2=\"218\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"30\" x2=\"228\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"30\" x2=\"238\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"30\" x2=\"248\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"30\" x2=\"258\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"30\" x2=\"268\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"270\" y1=\"30\" x2=\"278\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"30\" x2=\"288\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"290\" y1=\"30\" x2=\"298\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><polyline points=\"200,44 211,46.4615 189,51.3846 211,56.3077 189,61.2308 211,66.1538 189,71.0769 211,76 189,80.9231 211,85.8462 189,90.7692 211,95.6923 189,100.615 200,108\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"200\" y1=\"30\" x2=\"200\" y2=\"44\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"108\" x2=\"200\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"122\" width=\"56\" height=\"34\" rx=\"3\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"143\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">500 g</text><line x1=\"300\" y1=\"30\" x2=\"300\" y2=\"122\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"295\" y1=\"30\" x2=\"305\" y2=\"30\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"295\" y1=\"122\" x2=\"305\" y2=\"122\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"308\" y=\"80\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">l = 26 cm</text><line x1=\"115\" y1=\"30\" x2=\"115\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"30\" x2=\"120\" y2=\"30\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"100\" x2=\"120\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"107\" y=\"69\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">l₀ = 20 cm</text></svg></span><p>Bestäm fjäderkonstanten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förlängning: \\(x=l-l_0\\)</p><div class=\"facit-matte\">\\[x=26-20=6\\ \\mathrm{cm}=0{,}06\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Jämvikt för vikten: \\(kx=mg\\), lös ut \\(k\\)</p><div class=\"facit-matte\">\\[k=\\frac{0{,}500\\cdot9{,}82}{0{,}06}\\approx81{,}83\\ \\mathrm{N/m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 81,83 N/m.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förlängning: \\(x=l-l_0\\)</p><div class=\"facit-matte\">\\[x=26-20=6\\ \\mathrm{cm}=0{,}06\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Jämvikt för vikten: \\(kx=mg\\), lös ut \\(k\\)</p><div class=\"facit-matte\">\\[k=\\frac{0{,}500\\cdot9{,}82}{0{,}06}\\approx81{,}83\\ \\mathrm{N/m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 80 N/m.</p></div>",
         "ledtrad": "<p>Vilken förlängning ger den kända tyngdkraften?</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -27013,7 +27013,7 @@ window.BANK = [
         "etikett": "d",
         "fraga": "Bestäm hela längden med en stilla massa på 1,2 kg i stället. (Svara i cm.)",
         "t": "<p>En masslös fjäder är 20 cm lång obelastad och 26 cm lång när en massa på 500 g hänger stilla i den.</p><span class=\"fig\"><svg height=\"297\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"48.600 13.785 314.400 150.442\"><line x1=\"120\" y1=\"30\" x2=\"300\" y2=\"30\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"30\" x2=\"128\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"30\" x2=\"138\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"30\" x2=\"148\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"150\" y1=\"30\" x2=\"158\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"30\" x2=\"168\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"170\" y1=\"30\" x2=\"178\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"30\" x2=\"188\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"30\" x2=\"198\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"30\" x2=\"208\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"210\" y1=\"30\" x2=\"218\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"30\" x2=\"228\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"30\" x2=\"238\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"30\" x2=\"248\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"30\" x2=\"258\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"30\" x2=\"268\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"270\" y1=\"30\" x2=\"278\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"30\" x2=\"288\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"290\" y1=\"30\" x2=\"298\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><polyline points=\"200,44 211,46.4615 189,51.3846 211,56.3077 189,61.2308 211,66.1538 189,71.0769 211,76 189,80.9231 211,85.8462 189,90.7692 211,95.6923 189,100.615 200,108\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"200\" y1=\"30\" x2=\"200\" y2=\"44\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"108\" x2=\"200\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"172\" y=\"122\" width=\"56\" height=\"34\" rx=\"3\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"143\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">500 g</text><line x1=\"300\" y1=\"30\" x2=\"300\" y2=\"122\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"295\" y1=\"30\" x2=\"305\" y2=\"30\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"295\" y1=\"122\" x2=\"305\" y2=\"122\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"308\" y=\"80\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">l = 26 cm</text><line x1=\"115\" y1=\"30\" x2=\"115\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"30\" x2=\"120\" y2=\"30\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"100\" x2=\"120\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"107\" y=\"69\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">l₀ = 20 cm</text></svg></span><p>Bestäm hela längden med en stilla massa på 1,2 kg i stället. (Svara i cm.)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämvikt för vikten: \\(kx=mg\\), lös ut \\(k\\)</p><div class=\"facit-matte\">\\[k=\\frac{0{,}500\\cdot9{,}82}{0{,}06}\\approx81{,}83\\ \\mathrm{N/m}\\]</div></li><li><p class=\"facit-rubrik\">Jämvikt för vikten: \\(kx=mg\\) med 1,2 kg, lös ut \\(x\\)</p><div class=\"facit-matte\">\\[x=\\frac{1{,}2\\cdot9{,}82}{81{,}83}\\approx0{,}144\\ \\mathrm m=14{,}4\\ \\mathrm{cm}\\]</div></li><li><p class=\"facit-rubrik\">Hela längden: \\(l=l_0+x\\)</p><div class=\"facit-matte\">\\[l=20+14{,}4=34{,}4\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 34,4 cm.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämvikt för vikten: \\(kx=mg\\), lös ut \\(k\\)</p><div class=\"facit-matte\">\\[k=\\frac{0{,}500\\cdot9{,}82}{0{,}06}\\approx81{,}83\\ \\mathrm{N/m}\\]</div></li><li><p class=\"facit-rubrik\">Jämvikt för vikten: \\(kx=mg\\) med 1,2 kg: förlängningen är proportionell mot massan; lös ut \\(x\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}x&=0{,}06\\cdot\\frac{1{,}2}{0{,}500}\\\\&=0{,}144\\ \\mathrm m=14{,}4\\ \\mathrm{cm}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Hela längden: \\(l=l_0+x\\)</p><div class=\"facit-matte\">\\[l=20+14{,}4=34{,}4\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 34 cm.</p></div>",
         "ledtrad": "<p>Skala först förlängningen med massförhållandet. Lägg sedan till obelastad längd.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -27027,9 +27027,9 @@ window.BANK = [
     ],
     "svarVardesiffror": [
       1,
-      3,
-      4,
-      3
+      2,
+      1,
+      2
     ]
   },
   {
@@ -43150,13 +43150,13 @@ window.BANK = [
     "typ": "dragracing",
     "poang": "(0/2/0)",
     "t": "<p>En bil startar från vila och kör 1,00 km på 12 s med konstant acceleration på en vågrät väg. Alla hjul driver och hela normalkraften kan utnyttjas för drivning. Bortse från luftmotstånd och andra motståndskrafter. Vilket friktionstal mellan däck och väg behövs minst för att däcken inte ska slira?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sträckformeln från vila: \\(s=\\dfrac{at^2}{2}\\)</p><div class=\"facit-matte\">\\[a=\\frac{2\\cdot1000}{12^2}\\approx13{,}9\\ \\mathrm{m/s^2}\\]</div></li><li><p class=\"facit-rubrik\">Friktionen driver bilen: \\(ma\\le\\mu mg\\Rightarrow\\mu\\ge\\dfrac{a}{g}\\)</p><div class=\"facit-matte\">\\[\\mu\\ge\\frac{13{,}9}{9{,}82}\\approx1{,}41\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,41.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sträckformeln från vila: \\(s=\\dfrac{at^2}{2}\\)</p><div class=\"facit-matte\">\\[a=\\frac{2\\cdot1000}{12^2}\\approx13{,}9\\ \\mathrm{m/s^2}\\]</div></li><li><p class=\"facit-rubrik\">Friktionen driver bilen: \\(ma\\le\\mu mg\\Rightarrow\\mu\\ge\\dfrac{a}{g}\\)</p><div class=\"facit-matte\">\\[\\mu\\ge\\frac{2\\cdot1000}{12^2\\cdot9{,}82}\\approx1{,}414\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Minst cirka 1,4.</p></div>",
     "id": "4.539",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Friktion och Newtons andra lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.41,
+    "rättSvar": 1.414347137361394,
     "tolerans": 0.005,
     "självrättning": true,
     "formaga": [
@@ -43165,11 +43165,11 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Friktionen är den drivande kraften.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
-    "arbetsinsats": 2,
+    "arbetsinsats": 3,
     "spel": true,
-    "svarVardesiffror": 3
+    "svarVardesiffror": 2
   },
   {
     "kap": 4,
@@ -120753,7 +120753,7 @@ window.BANK = [
     "omr": "kretsar",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En silvertråd har resistansen 6,0 Ω vid 20,0 °C. För silver är \\(\\alpha=0{,}0038\\ \\mathrm{K^{-1}}\\).</p><p>Hur stor är resistansen vid 34,0 °C?</p>",
+    "t": "<p><strong>Fördjupning: temperaturberoende resistans.</strong></p><p>Använd modellen \\(R=R_0(1+\\alpha\\Delta T)\\), där \\(R_0\\) är resistansen vid starttemperaturen, \\(\\Delta T\\) temperaturändringen och \\(\\alpha\\) temperaturkoefficienten.</p><p>En silvertråd har resistansen 6,0 Ω vid 20,0 °C. För silver är \\(\\alpha=0{,}0038\\ \\mathrm{K^{-1}}\\).</p><p>Hur stor är resistansen vid 34,0 °C?</p>",
     "s": "<div class=\"facit-v2\"><p>Temperaturen ökar med \\(\\Delta T=34{,}0-20{,}0=14{,}0\\ \\mathrm K\\). En förändring på 14 °C är lika stor som en förändring på 14 K.</p><p>\\[\\begin{aligned}R&=6{,}0(1+0{,}0038\\cdot14{,}0)\\\\&=6{,}3192\\ \\Omega\\end{aligned}\\]</p><p>Resistansen är cirka 6,3 Ω.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\) Ω.</p></div>",
     "id": "8.439",
     "miniräknare": true,
@@ -120772,7 +120772,7 @@ window.BANK = [
     "svarEnhet": "Ω",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": false
   },
   {
@@ -120780,7 +120780,7 @@ window.BANK = [
     "omr": "kretsar",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>För en koppartråd är \\(\\alpha=0{,}0043\\ \\mathrm{K^{-1}}\\).</p><p>Hur mycket behöver temperaturen öka för att resistansen ska öka med 12 %? (Svara i K.)</p>",
+    "t": "<p><strong>Fördjupning: temperaturberoende resistans.</strong></p><p>Använd modellen \\(R=R_0(1+\\alpha\\Delta T)\\), där \\(R_0\\) är resistansen vid starttemperaturen, \\(\\Delta T\\) temperaturändringen och \\(\\alpha\\) temperaturkoefficienten.</p><p>För en koppartråd är \\(\\alpha=0{,}0043\\ \\mathrm{K^{-1}}\\).</p><p>Hur mycket behöver temperaturen öka för att resistansen ska öka med 12 %? (Svara i K.)</p>",
     "s": "<div class=\"facit-v2\"><p>En ökning med 12 % innebär \\(R/R_0=1{,}12\\). Modellen ger därför \\(\\alpha\\Delta T=0{,}12\\).</p><p>\\[\\Delta T=\\frac{0{,}12}{0{,}0043}\\approx27{,}9\\ \\mathrm K\\]</p><p>Temperaturen behöver öka med cirka 28 K. Det är samma temperaturökning som 28 °C.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(28\\) K.</p></div>",
     "id": "8.440",
     "miniräknare": true,
@@ -120799,7 +120799,7 @@ window.BANK = [
     "svarEnhet": "K",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": false
   },
   {
@@ -120807,7 +120807,7 @@ window.BANK = [
     "omr": "kretsar",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En tråd har resistansen 38,0 Ω vid 20 °C och 43,7 Ω vid 55 °C.</p><p>Bestäm temperaturkoefficienten \\(\\alpha\\). (Svara i 1/K.)</p>",
+    "t": "<p><strong>Fördjupning: temperaturberoende resistans.</strong></p><p>Använd modellen \\(R=R_0(1+\\alpha\\Delta T)\\), där \\(R_0\\) är resistansen vid starttemperaturen, \\(\\Delta T\\) temperaturändringen och \\(\\alpha\\) temperaturkoefficienten.</p><p>En tråd har resistansen 38,0 Ω vid 20 °C och 43,7 Ω vid 55 °C.</p><p>Bestäm temperaturkoefficienten \\(\\alpha\\). (Svara i 1/K.)</p>",
     "s": "<div class=\"facit-v2\"><p>Temperaturökningen är \\(\\Delta T=55-20=35\\ \\mathrm K\\). Resistanskvoten är \\(43{,}7/38{,}0=1{,}15\\).</p><p>\\[\\begin{aligned}\\alpha&=\\frac{R/R_0-1}{\\Delta T}\\\\&=\\frac{0{,}15}{35}\\\\&\\approx0{,}00429\\ \\mathrm{K^{-1}}\\end{aligned}\\]</p><p>Temperaturkoefficienten är cirka 0,0043 1/K.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0043\\) 1/K.</p></div>",
     "id": "8.441",
     "miniräknare": true,
@@ -120826,7 +120826,7 @@ window.BANK = [
     "svarEnhet": "1/K",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": false
   },
   {
@@ -120834,7 +120834,7 @@ window.BANK = [
     "omr": "kretsar",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En glödtråd har resistansen 12 Ω vid 20 °C och 140 Ω när lampan lyser. Temperaturkoefficienten är \\(\\alpha=0{,}0045\\ \\mathrm{K^{-1}}\\).</p><p>Uppskatta glödtrådens temperatur med modellen när lampan lyser.</p>",
+    "t": "<p><strong>Fördjupning: temperaturberoende resistans.</strong></p><p>Använd modellen \\(R=R_0(1+\\alpha\\Delta T)\\), där \\(R_0\\) är resistansen vid starttemperaturen, \\(\\Delta T\\) temperaturändringen och \\(\\alpha\\) temperaturkoefficienten.</p><p>En glödtråd har resistansen 12 Ω vid 20 °C och 140 Ω när lampan lyser. Temperaturkoefficienten är \\(\\alpha=0{,}0045\\ \\mathrm{K^{-1}}\\).</p><p>Uppskatta glödtrådens temperatur med modellen när lampan lyser.</p>",
     "s": "<div class=\"facit-v2\"><p>Lös först ut temperaturökningen ur modellen.</p><p>\\[\\Delta T=\\frac{140/12-1}{0{,}0045}\\approx2370\\ \\mathrm K\\]</p><p>En temperaturökning har samma talvärde i K och °C. Lägg därför ökningen till starttemperaturen.</p><p>\\[T=20+2370\\approx2390\\ ^\\circ\\mathrm C\\]</p><p>Modellen ger ungefär 2400 °C.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(2400\\) °C.</p></div>",
     "id": "8.442",
     "miniräknare": true,
@@ -120853,7 +120853,7 @@ window.BANK = [
     "svarEnhet": "°C",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": false
   },
   {
@@ -120861,7 +120861,7 @@ window.BANK = [
     "omr": "kretsar",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En temperaturgivare har \\(\\alpha=-0{,}0440\\ \\mathrm{K^{-1}}\\). Resistansen är 15,0 % lägre än vid 37,0 °C.</p><p>Vilken temperatur visar modellen?</p>",
+    "t": "<p><strong>Fördjupning: temperaturberoende resistans.</strong></p><p>Använd modellen \\(R=R_0(1+\\alpha\\Delta T)\\), där \\(R_0\\) är resistansen vid starttemperaturen, \\(\\Delta T\\) temperaturändringen och \\(\\alpha\\) temperaturkoefficienten.</p><p>En temperaturgivare har \\(\\alpha=-0{,}0440\\ \\mathrm{K^{-1}}\\). Resistansen är 15,0 % lägre än vid 37,0 °C.</p><p>Vilken temperatur visar modellen?</p>",
     "s": "<div class=\"facit-v2\"><p>15 % lägre resistans ger \\(R/R_0=0{,}850\\).</p><p>\\[0{,}850=1-0{,}0440\\Delta T\\]</p><p>\\[\\Delta T=\\frac{0{,}150}{0{,}0440}\\approx3{,}41\\ \\mathrm K\\]</p><p>Den negativa koefficienten betyder att resistansen minskar när temperaturen ökar.</p><p>\\[T=37{,}0+3{,}41\\approx40{,}4\\ ^\\circ\\mathrm C\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}4\\) °C.</p></div>",
     "id": "8.443",
     "miniräknare": true,
@@ -120880,7 +120880,7 @@ window.BANK = [
     "svarEnhet": "°C",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 2,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": false
   },
   {
@@ -120888,8 +120888,8 @@ window.BANK = [
     "omr": "kretsar",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Temperaturkoefficienten är \\(0{,}0034\\ \\mathrm{K^{-1}}\\) för guld och \\(0{,}0045\\ \\mathrm{K^{-1}}\\) för volfram. En temperaturökning ökar guldtrådens resistans med 7,0 %.</p><p>Hur många procent ökar volframtrådens resistans vid samma temperaturökning?</p>",
-    "s": "<div class=\"facit-v2\"><p>Guldets resistansökning ger temperaturökningen:</p><p>\\[\\Delta T=0{,}070/0{,}0034\\approx20{,}6\\ \\mathrm K\\]</p><p>Volframets relativa ökning är \\(\\alpha\\Delta T\\). Multiplicera med 100 för att få procent.</p><p>\\[100\\cdot0{,}0045\\cdot\\Delta T\\approx9{,}26\\ \\%\\]</p><p>Volframtrådens resistans ökar med cirka 9,3 %.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}3\\) %.</p></div>",
+    "t": "<p><strong>Fördjupning: temperaturberoende resistans.</strong></p><p>Använd modellen \\(R=R_0(1+\\alpha\\Delta T)\\), där \\(R_0\\) är resistansen vid starttemperaturen, \\(\\Delta T\\) temperaturändringen och \\(\\alpha\\) temperaturkoefficienten.</p><p>Temperaturkoefficienten är \\(0{,}0034\\ \\mathrm{K^{-1}}\\) för guld och \\(0{,}0045\\ \\mathrm{K^{-1}}\\) för volfram. En temperaturökning ökar guldtrådens resistans med 7,0 %.</p><p>Hur många procent ökar volframtrådens resistans vid samma temperaturökning?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Relativ resistansökning: \\(\\Delta R/R_0=\\alpha\\Delta T\\)</p><p>Guldtrådens ökning är 7,0 %, alltså 0,070.</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{0{,}070}{0{,}0034}\\approx20{,}588\\ \\mathrm K\\]</div></li><li><p class=\"facit-rubrik\">Använd samma temperaturökning för volfram</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{\\Delta R}{R_0}&=0{,}0045\\cdot\\frac{0{,}070}{0{,}0034}\\\\&\\approx0{,}092647\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Volframtrådens resistans ökar med cirka 9,3 %.</p></div>",
     "id": "8.444",
     "miniräknare": true,
     "geogebra": false,
@@ -120907,7 +120907,7 @@ window.BANK = [
     "svarEnhet": "%",
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "arbetsinsats": 1,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": false
   },
   {
@@ -125840,7 +125840,7 @@ window.BANK = [
     "familjNyckel": "varme__specifik_varmekapacitet",
     "arbetsinsats": 2,
     "spel": true,
-    "svarVardesiffror": 3
+    "svarVardesiffror": 2
   },
   {
     "kap": 7,
@@ -125849,7 +125849,7 @@ window.BANK = [
     "typ": "kvicksilver jämfört med vatten",
     "poang": "(2/0/0)",
     "t": "<p>20 g kvicksilver tar upp 100 J. Dess specifika värmekapacitet är 140 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p><strong>a)</strong>Hur mycket ökar temperaturen?</p><p><strong>b)</strong>Hur mycket energi tar 20 g vatten upp för att få samma temperaturökning som kvicksilvret?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> </p><p>20 g = 0,020 kg.</p>\\[\\Delta T=\\frac{100}{0{,}020\\cdot140}\\approx35{,}714\\,\\mathrm K\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(35{,}7\\,\\mathrm{K}\\).</p><p><strong>b)</strong> </p><p>20 g = 0,020 kg.</p>\\[\\begin{aligned}&Q\\\\ &=0{,}020\\cdot4180\\cdot35{,}7143\\approx2985{,}72\\,\\mathrm J\\end{aligned}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(2986\\,\\mathrm{J}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värmeenergi: \\(Q=mc\\Delta T\\)</p><p>Massan är 20 g = 0,020 kg. Lös ut temperaturökningen.</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{100}{0{,}020\\cdot140}\\approx35{,}714\\ \\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen ökar med cirka 36 K (36 °C).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma massa och temperaturökning: \\(Q=mc\\Delta T\\)</p><p>Förhållandet mellan energierna blir därför förhållandet mellan de specifika värmekapaciteterna. Då behöver vi inte avrunda temperaturökningen från a).</p><div class=\"facit-matte\">\\[\\frac{Q_v}{Q_{Hg}}=\\frac{c_v}{c_{Hg}}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in värdena</p><div class=\"facit-matte\">\\[Q_v=100\\cdot\\frac{4180}{140}\\approx2985{,}7\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vattnet tar upp cirka \\(3{,}0\\cdot10^3\\) J, alltså 3,0 kJ.</p></div></div></div></div>",
     "id": "7.144",
     "miniräknare": true,
     "geogebra": false,
@@ -125888,8 +125888,8 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Hur mycket ökar temperaturen? ",
         "t": "<p>20 g kvicksilver tar upp 100 J. Kvicksilvrets specifika värmekapacitet är 140 J/(kg·K).</p><p>Hur mycket ökar temperaturen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>20 g = 0,020 kg.</p>\\[\\Delta T=\\frac{100}{0{,}020\\cdot140}\\approx35{,}714\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(35{,}7\\,\\mathrm{K}\\).</p></div>",
-        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värmeenergi: \\(Q=mc\\Delta T\\)</p><p>Massan är 20 g = 0,020 kg. Lös ut temperaturökningen.</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{100}{0{,}020\\cdot140}\\approx35{,}714\\ \\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen ökar med cirka 36 K (36 °C).</p></div>",
+        "ledtrad": "<p>Lös ut temperaturökningen ur \\(Q=mc\\Delta T\\). Använd massan i kg.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -125898,9 +125898,9 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur mycket energi tar vattnet upp?",
-        "t": "<p>20 g vatten värms 35,7143 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>20 g = 0,020 kg.</p>\\[\\begin{aligned}&Q\\\\ &=0{,}020\\cdot4180\\cdot35{,}7143\\approx2985{,}72\\,\\mathrm J\\end{aligned}\\]<p><strong>Svar:</strong> \\(2986\\,\\mathrm{J}\\).</p></div>",
-        "ledtrad": "<p>Utgå från de givna värdena och kontrollera enheterna.</p>",
+        "t": "<p>20 g kvicksilver tar upp 100 J. Dess specifika värmekapacitet är 140 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar 20 g vatten upp vid samma temperaturökning som kvicksilvret?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma massa och temperaturökning: \\(Q=mc\\Delta T\\)</p><p>Förhållandet mellan energierna blir därför förhållandet mellan de specifika värmekapaciteterna. Då behöver vi inte avrunda temperaturökningen från a).</p><div class=\"facit-matte\">\\[\\frac{Q_v}{Q_{Hg}}=\\frac{c_v}{c_{Hg}}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in värdena</p><div class=\"facit-matte\">\\[Q_v=100\\cdot\\frac{4180}{140}\\approx2985{,}7\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vattnet tar upp cirka \\(3{,}0\\cdot10^3\\) J, alltså 3,0 kJ.</p></div>",
+        "ledtrad": "<p>Massorna och temperaturökningarna är lika. Hur förhåller sig då energierna till de specifika värmekapaciteterna?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -125913,8 +125913,8 @@ window.BANK = [
     "arbetsinsats": 2,
     "spel": true,
     "svarVardesiffror": [
-      3,
-      4
+      2,
+      2
     ]
   },
   {
@@ -125944,7 +125944,7 @@ window.BANK = [
     "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
     "arbetsinsats": 2,
     "spel": true,
-    "svarVardesiffror": 3
+    "svarVardesiffror": 2
   },
   {
     "kap": 7,
@@ -134075,14 +134075,14 @@ window.BANK = [
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(2/0/0)",
     "t": "<p>En tennisboll kommer med 30 m/s mot en racket och lämnar den med 30 m/s i rakt motsatt riktning. Kontakttiden är 4,7 ms. Välj riktningen bort från racketen som positiv.</p><p>Bestäm medelaccelerationen med tecken.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet med tecken (bort från racketen positiv)</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=-30\\ \\mathrm{m/s}\\\\&v=+30\\ \\mathrm{m/s}\\\\&\\Delta t=4{,}7\\ \\mathrm{ms}=0{,}0047\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}a_m&=\\frac{30-(-30)}{0{,}0047}\\\\&=\\frac{60}{0{,}0047}\\\\&\\approx+12\\,765{,}96\\ \\mathrm{m/s^2}\\end{aligned}\\]</div><p>Trots samma fart före och efter är hastighetsändringen 60 m/s, eftersom riktningen byts.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 765,96 m/s².</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet med tecken (bort från racketen positiv)</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=-30\\ \\mathrm{m/s}\\\\&v=+30\\ \\mathrm{m/s}\\\\&\\Delta t=4{,}7\\ \\mathrm{ms}=0{,}0047\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}a_m&=\\frac{30-(-30)}{0{,}0047}\\\\&=\\frac{60}{0{,}0047}\\\\&\\approx+12\\,765{,}96\\ \\mathrm{m/s^2}\\end{aligned}\\]</div><p>Trots samma fart före och efter är hastighetsändringen 60 m/s, eftersom riktningen byts.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1{,}3\\cdot10^4\\) m/s².</p></div>",
     "familj": "Medelacceleration",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "numeriskt",
-    "rättSvar": 12765.96,
+    "rättSvar": 12765.95744680851,
     "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
@@ -134097,7 +134097,7 @@ window.BANK = [
     "familjTidigare": [
       "Konstant acceleration"
     ],
-    "svarVardesiffror": 7
+    "svarVardesiffror": 2
   },
   {
     "id": "3.217",
@@ -134107,7 +134107,7 @@ window.BANK = [
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(0/2/0)",
     "t": "<p>Ett klubbhuvud bromsas från 57 till 44 m/s under kontakten med en boll. Klubbhuvudets medelaccelerationsbelopp är 12500 m/s². Under samma kontakt ökar bollens fart från vila till 46 m/s i slagriktningen.</p><p>Bestäm bollens medelacceleration.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontakttiden ur klubbhuvudets inbromsning: \\(\\Delta t=\\dfrac{|\\Delta v|}{|a_m|}\\)</p><div class=\"facit-matte\">\\[\\Delta t=\\frac{57-44}{12\\,500}=0{,}00104\\ \\mathrm s\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\) för bollen under samma tid</p><div class=\"facit-matte\">\\[a_{m}=\\frac{46-0}{0{,}00104}\\approx44\\,230{,}77\\ \\mathrm{m/s^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 44 230,77 m/s².</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontakttiden ur klubbhuvudets inbromsning: \\(\\Delta t=\\dfrac{|\\Delta v|}{|a_m|}\\)</p><div class=\"facit-matte\">\\[\\Delta t=\\frac{57-44}{12\\,500}=0{,}00104\\ \\mathrm s\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\) för bollen under samma tid</p><div class=\"facit-matte\">\\[a_{m}=\\frac{46-0}{0{,}00104}\\approx44\\,230{,}77\\ \\mathrm{m/s^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(4{,}4\\cdot10^4\\) m/s².</p></div>",
     "familj": "Medelacceleration",
     "formaga": [
       "problemlösning",
@@ -134115,7 +134115,7 @@ window.BANK = [
     ],
     "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "numeriskt",
-    "rättSvar": 44230.77,
+    "rättSvar": 44230.769230769234,
     "tolerans": 0.005,
     "självrättning": true,
     "miniräknare": true,
@@ -134130,7 +134130,7 @@ window.BANK = [
     "familjTidigare": [
       "Konstant acceleration"
     ],
-    "svarVardesiffror": 7
+    "svarVardesiffror": 2
   },
   {
     "id": "3.218",
@@ -134149,7 +134149,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       -168.75,
-      140
+      140.0
     ],
     "tolerans": [
       0,
@@ -134206,8 +134206,8 @@ window.BANK = [
       "Konstant acceleration"
     ],
     "svarVardesiffror": [
-      5,
-      null
+      3,
+      3
     ]
   },
   {
@@ -134218,7 +134218,7 @@ window.BANK = [
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(2/0/0)",
     "t": "<p>En sten släpps från vila och faller i 1,2 s. Bortse från luftmotståndet. Välj nedåt som positiv riktning.</p><ol type=\"a\"><li>Bestäm accelerationen med tecken.</li><li>Bestäm hastigheten efter 1,2 s.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdacceleration med tecken: \\(a=+g\\)</p><p>Nedåt är positivt, och tyngdaccelerationen är riktad nedåt.</p><div class=\"facit-matte\">\\[a=+9{,}82\\ \\mathrm{m/s^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9,82 m/s².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=0\\\\&a=9{,}82\\ \\mathrm{m/s^2}\\\\&t=1{,}2\\ \\mathrm s\\end{aligned}\\]</div><p>Sökt: hastigheten.</p></li><li><p class=\"facit-rubrik\">Hastighetsformeln: \\(v=v_0+at\\)</p><div class=\"facit-matte\">\\[v=0+9{,}82\\cdot1{,}2\\approx11{,}78\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11,78 m/s.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdacceleration med tecken: \\(a=+g\\)</p><p>Nedåt är positivt, och tyngdaccelerationen är riktad nedåt.</p><div class=\"facit-matte\">\\[a=+9{,}82\\ \\mathrm{m/s^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9,82 m/s².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=0\\\\&a=9{,}82\\ \\mathrm{m/s^2}\\\\&t=1{,}2\\ \\mathrm s\\end{aligned}\\]</div><p>Sökt: hastigheten.</p></li><li><p class=\"facit-rubrik\">Hastighetsformeln: \\(v=v_0+at\\)</p><div class=\"facit-matte\">\\[v=0+9{,}82\\cdot1{,}2\\approx11{,}78\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 12 m/s.</p></div></div></div>",
     "familj": "Fritt fall och lodrät kast",
     "formaga": [
       "procedur"
@@ -134227,7 +134227,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       9.82,
-      11.78
+      11.784
     ],
     "tolerans": [
       0,
@@ -134271,7 +134271,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm hastigheten efter 1,2 s.",
         "t": "<p>En sten släpps från vila och faller i 1,2 s. Bortse från luftmotståndet. Välj nedåt som positiv riktning.</p><p>Bestäm hastigheten efter 1,2 s.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=0\\\\&a=9{,}82\\ \\mathrm{m/s^2}\\\\&t=1{,}2\\ \\mathrm s\\end{aligned}\\]</div><p>Sökt: hastigheten.</p></li><li><p class=\"facit-rubrik\">Hastighetsformeln: \\(v=v_0+at\\)</p><div class=\"facit-matte\">\\[v=0+9{,}82\\cdot1{,}2\\approx11{,}78\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11,78 m/s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=0\\\\&a=9{,}82\\ \\mathrm{m/s^2}\\\\&t=1{,}2\\ \\mathrm s\\end{aligned}\\]</div><p>Sökt: hastigheten.</p></li><li><p class=\"facit-rubrik\">Hastighetsformeln: \\(v=v_0+at\\)</p><div class=\"facit-matte\">\\[v=0+9{,}82\\cdot1{,}2\\approx11{,}78\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 12 m/s.</p></div>",
         "ledtrad": "<p>Stenen startar från vila och påverkas bara av tyngdaccelerationen.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -134284,7 +134284,7 @@ window.BANK = [
     ],
     "svarVardesiffror": [
       3,
-      4
+      2
     ]
   },
   {

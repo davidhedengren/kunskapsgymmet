@@ -4118,7 +4118,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-09-fellogg";
+const BANK_VERSION="2026-11-10-fellogg";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -13711,6 +13711,8 @@ const felloggUtkast=new Map();
 const felloggSparar=new Map();
 const felloggFel=new Map();
 let felloggVisaKlara=false;
+let felloggMassSparar=false;
+let felloggMassText="";
 async function oppnaFelrapportLogg(){
   document.getElementById("kontomeny")?.remove();
   stangFellogg();
@@ -13725,6 +13727,8 @@ async function oppnaFelrapportLogg(){
       <div class="fellogg" id="felloggkropp"><p class="modal-text">Hämtar loggen…</p></div>
       <div class="modal-fot">
         <button class="btn" onclick="vaxlaFelloggKlara()" id="felloggklara">${felloggVisaKlara?"Dölj avslutade":"Visa avslutade"}</button>
+        <button class="btn" id="felloggalla" onclick="atgardaAllaFelrapporter()" disabled>Alla är åtgärdade</button>
+        <span id="felloggmassstatus" role="status" aria-live="polite" style="font-size:.85rem"></span>
         <span class="spacer"></span>
         <button class="btn" onclick="laddaNerFellogg()">Ladda ner</button>
         <button class="btn primary" onclick="kopieraFellogg()">Kopiera logg</button>
@@ -13738,10 +13742,11 @@ async function oppnaFelrapportLogg(){
 function stangFellogg(){
   const el=document.getElementById("fellogg");
   if(!el) return;
-  el.removeAttribute("id"); el.classList.remove("visa");
+  el.removeAttribute("id");el.querySelectorAll("[id]").forEach(x=>x.removeAttribute("id")); el.classList.remove("visa");
   setTimeout(()=>el.remove(),250);
 }
 async function vaxlaFelloggKlara(){
+  if(felloggMassSparar)return;
   felloggVisaKlara=!felloggVisaKlara;
   const k=document.getElementById("felloggklara");
   if(k) k.textContent=felloggVisaKlara?"Dölj avslutade":"Visa avslutade";
@@ -13757,6 +13762,7 @@ async function ritaFellogg(){
   ritaFelloggRader();
 }
 function ritaFelloggRader(){
+  uppdateraFelloggMassknapp();
   const host=document.getElementById('felloggkropp');if(!host)return;
   if(!felloggData.length){
     host.innerHTML=`<p class="modal-text">Inga öppna felrapporter just nu.</p>`; return;
@@ -13773,7 +13779,7 @@ function ritaFelloggRader(){
     const komm=[...kd.larare.map(p=>"Lärare "+felPostText(p,false)),
       ...kd.elev.map(p=>(p.namn?"Elev ":"")+felPostText(p,false))].slice(0,4).join(" | ");
     const nyckel=JSON.stringify([r.kurs,r.uppgift,r.deluppgift||'',status]);
-    const sparar=felloggSparar.has(nyckel);
+    const sparar=felloggMassSparar||felloggSparar.has(nyckel);
     const feltext=felloggFel.get(nyckel)||'';
     const kommentar=felloggUtkast.has(nyckel)?felloggUtkast.get(nyckel):(r.granskningskommentar||'');
     const kanSpara=!avslutad || ['atgardad','ignorerad'].includes(status);
@@ -13850,7 +13856,8 @@ async function felKommentarRpc(namn,params={}){
 function felKommentarHtml(text){
   return text?`<div class="fel-svar"><b>Kommentar från granskningen</b><p>${esc(text)}</p></div>`:"";
 }
-async function sparaFelGranskning(index,status){
+async function sparaFelGranskning(index,status,mass=false){
+  if(felloggMassSparar&&!mass)return false;
   const row=document.querySelector(`#felloggkropp [data-fel-index="${index}"]`),r=felloggData[index];
   if(!row || !r || row.dataset.sparar==='1' || !['atgardad','ignorerad'].includes(status))return;
   const input=row.querySelector('textarea'),fel=row.querySelector('.felrad-fel');
@@ -13859,7 +13866,7 @@ async function sparaFelGranskning(index,status){
   const kommentar=input.value.trim(),redigera=felloggStatus(r)!=='oppen';
   if(kommentar.length>1000){fel.textContent='Kommentaren får vara högst 1000 tecken.';fel.hidden=false;return;}
   const kurs=r.kurs,uppgift=r.uppgift;
-  felloggSparar.set(nyckel,token);felloggFel.delete(nyckel);
+  felloggSparar.set(nyckel,token);felloggFel.delete(nyckel);uppdateraFelloggMassknapp();
   row.dataset.sparar='1';row.querySelectorAll('button').forEach(k=>k.disabled=true);input.disabled=true;fel.hidden=true;
   try{
     await felKommentarRpc('kg_felrapport_granska',{p_kurs:kurs,p_uppgift:uppgift,p_status:status,
@@ -13869,8 +13876,9 @@ async function sparaFelGranskning(index,status){
     // Behåll den sparade raden och kommentaren synliga så att nästa rapport
     // kan hanteras utan nytt fönster eller omladdning av andra utkast.
     r.atgardad=true;r.ignorerad=status==='ignorerad';r.status=status;r.granskningskommentar=kommentar||null;
-    ritaFelloggRader();uppdateraFelAntal();
-    toast(redigera?'Kommentaren är sparad.':'Granskningen är sparad.');
+    ritaFelloggRader();if(!mass)uppdateraFelAntal();
+    if(!mass)toast(redigera?'Kommentaren är sparad.':'Granskningen är sparad.');
+    return true;
   }catch(e){
     if(uid!==session?.user?.id)return;
     felloggFel.set(nyckel,e.message);
@@ -13878,10 +13886,43 @@ async function sparaFelGranskning(index,status){
     const error=current?.querySelector('.felrad-fel');if(error){error.textContent=e.message;error.hidden=false;}
   }finally{
     if(felloggSparar.get(nyckel)===token){
-      felloggSparar.delete(nyckel);
+      felloggSparar.delete(nyckel);uppdateraFelloggMassknapp();
       const current=[...document.querySelectorAll('[data-fel-nyckel]')].find(x=>x.dataset.felNyckel===nyckel);
-      if(current){current.dataset.sparar='0';current.querySelectorAll('button').forEach(k=>k.disabled=false);current.querySelector('textarea').disabled=false;}
+      if(current){current.dataset.sparar='0';current.querySelectorAll('button').forEach(k=>k.disabled=felloggMassSparar);current.querySelector('textarea').disabled=felloggMassSparar;}
     }
+  }
+}
+function uppdateraFelloggMassknapp(){
+  const knapp=document.getElementById('felloggalla'),status=document.getElementById('felloggmassstatus');
+  if(knapp){knapp.disabled=felloggMassSparar||felloggSparar.size>0||!felloggData.some(r=>felloggStatus(r)==='oppen');knapp.textContent=felloggMassSparar?'Sparar…':'Alla är åtgärdade';knapp.title='Markerar alla öppna rapporter i den hämtade loggen som åtgärdade.';}
+  if(status)status.textContent=felloggMassText;
+  const filter=document.getElementById('felloggklara');if(filter)filter.disabled=felloggMassSparar;
+}
+async function atgardaAllaFelrapporter(){
+  if(felloggMassSparar||felloggSparar.size||!session?.user?.id)return;
+  // Samma RPC som enskild granskning: en grupp per kurs och uppgifts-ID.
+  // Avslutade/ignorerade rapporter och senare tillkomna loggrader tas inte med.
+  const seen=new Set(),queue=felloggData.filter(r=>{
+    const key=JSON.stringify([r.kurs,r.uppgift]);
+    if(felloggStatus(r)!=='oppen'||seen.has(key))return false;seen.add(key);return true;
+  });
+  if(!queue.length)return;
+  const uid=session.user.id;let saved=0,failed=0;
+  felloggMassSparar=true;felloggMassText=`Sparar 0 av ${queue.length}…`;ritaFelloggRader();
+  try{
+    for(const r of queue){
+      if(session?.user?.id!==uid)break;
+      const index=felloggData.indexOf(r);if(index<0||felloggStatus(r)!=='oppen')continue;
+      const ok=await sparaFelGranskning(index,'atgardad',true);
+      if(session?.user?.id!==uid)break;
+      if(ok){saved++;for(const sibling of felloggData)if(sibling!==r&&sibling.kurs===r.kurs&&sibling.uppgift===r.uppgift&&felloggStatus(sibling)==='oppen'){sibling.atgardad=true;sibling.ignorerad=false;sibling.status='atgardad';sibling.granskningskommentar=r.granskningskommentar;}}
+      else failed++;
+      felloggMassText=`Sparat ${saved} av ${queue.length}…`;uppdateraFelloggMassknapp();
+    }
+  }finally{
+    felloggMassSparar=false;
+    if(session?.user?.id===uid){felloggMassText=failed?`${saved} åtgärdade. ${failed} kunde inte sparas – försök igen på de öppna raderna.`:`${saved} uppgifter markerade som åtgärdade.`;ritaFelloggRader();uppdateraFelAntal();}
+    else {felloggMassText='';uppdateraFelloggMassknapp();}
   }
 }
 async function felKompletteraGranskningssvar(lista){

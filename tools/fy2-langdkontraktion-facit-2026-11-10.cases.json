@@ -361,5 +361,119 @@
     "part": null,
     "good": [],
     "bad": []
+  },
+  {
+    "course": "fy2",
+    "id": "6.9",
+    "part": null,
+    "good": [],
+    "bad": []
+  },
+  {
+    "course": "fy2",
+    "id": "6.19",
+    "part": null,
+    "good": [
+      [
+        "1060"
+      ]
+    ],
+    "bad": [
+      [
+        "4350"
+      ]
+    ]
+  },
+  {
+    "course": "fy2",
+    "id": "6.24",
+    "part": null,
+    "good": [],
+    "bad": []
+  },
+  {
+    "course": "fy2",
+    "id": "6.30",
+    "part": null,
+    "good": [
+      [
+        ".967"
+      ]
+    ],
+    "bad": [
+      [
+        ".0967"
+      ]
+    ]
+  },
+  {
+    "course": "fy2",
+    "id": "6.51",
+    "part": null,
+    "good": [],
+    "bad": []
+  },
+  {
+    "course": "fy2",
+    "id": "6.51",
+    "part": 0,
+    "good": [],
+    "bad": []
+  },
+  {
+    "course": "fy2",
+    "id": "6.51",
+    "part": 1,
+    "good": [],
+    "bad": []
+  },
+  {
+    "course": "fy2",
+    "id": "6.52",
+    "part": null,
+    "good": [],
+    "bad": []
+  },
+  {
+    "course": "fy2",
+    "id": "6.52",
+    "part": 0,
+    "good": [],
+    "bad": []
+  },
+  {
+    "course": "fy2",
+    "id": "6.52",
+    "part": 1,
+    "good": [],
+    "bad": []
+  },
+  {
+    "course": "fy2",
+    "id": "6.57",
+    "part": null,
+    "good": [],
+    "bad": []
+  },
+  {
+    "course": "fy2",
+    "id": "6.57",
+    "part": 0,
+    "good": [],
+    "bad": []
+  },
+  {
+    "course": "fy2",
+    "id": "6.57",
+    "part": 1,
+    "good": [],
+    "bad": []
+  },
+  {
+    "course": "fy2",
+    "id": "6.57",
+    "part": 2,
+    "good": [],
+    "bad": []
   }
 ]

@@ -24964,7 +24964,7 @@ window.BANK2 = [
     "typ": "bestämma vilolängd ur uppmätt längd",
     "poang": "(1/0/0)",
     "t": "<p>Ett rymdskepp passerar dig med farten 0,850<em>c</em>. Du uppfattar att rymdskeppet är 41,2 m långt. Hur långt är rymdskeppet i vila?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><p class=\"facit-metod\">Den längd du mäter är kontraherad.</p></li><li><p class=\"facit-metod\">Skeppets vilolängd \\(L_0\\) är längden i skeppets eget system.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-0{,}850^2}}=1{,}898\\]\\[L=\\frac{L_0}{\\gamma}\\Rightarrow L_0=\\gamma L=1{,}898\\cdot41{,}2=78{,}2\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Rymdskeppets vilolängd är \\(78{,}2\\ \\mathrm m\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skeppet är i rörelse: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><p>41,2 m är den förkortade längden i ditt system. Vi söker längden i skeppets vilosystem.</p></li><li><p class=\"facit-rubrik\">Lös ut skeppets egenlängd</p><div class=\"facit-matte\">\\[L_0=\\frac{41{,}2}{\\sqrt{1-0{,}850^2}}\\approx78{,}2\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Skeppets längd i vila är cirka 78,2 m.</p></div>",
     "familj": "Längdkontraktion och egenlängd",
     "formaga": [
       "begrepp",
@@ -24977,7 +24977,9 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "ledtrad": "<p>Den längd du mäter är kontraherad. Skeppets vilolängd \\(L_0\\) är längden i skeppets eget system.</p>"
+    "ledtrad": "<p>Den längd du mäter är kontraherad. Skeppets vilolängd \\(L_0\\) är längden i skeppets eget system.</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.12",
@@ -24987,7 +24989,7 @@ window.BANK2 = [
     "typ": "beräkna kontraherad sträcka ombord",
     "poang": "(2/0/0)",
     "t": "<p>Du ska resa till en stjärna 135 ljusår bort från jorden med farten \\(2{,}90\\cdot10^{8}\\) m/s. Hur lång tycker du att sträckan är ombord på rymdskeppet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Jorden och stjärnan är i vila relativt varandra, så \\(135\\) ljusår är vilolängden.</p></li><li><div class=\"facit-matte\">\\[\\beta=\\frac{2{,}90\\cdot10^8}{3{,}00\\cdot10^8}=0{,}96667\\]\\[\\gamma=\\frac1{\\sqrt{1-\\beta^2}}\\approx3{,}906\\]\\[L=\\frac{L_0}{\\gamma}=\\frac{135}{3{,}906}\\approx34{,}6\\ \\mathrm{ljusår}\\]</div></li><li><p>Ljusfarten är \\(2{,}998\\cdot10^8\\) m/s med fler värdesiffror. Då blir \\(\\gamma\\approx3{,}946\\) och \\(L\\approx34{,}2\\) ljusår. Resultatet är känsligt för ljusfartens värde eftersom farten ligger nära \\(c\\). Båda svaren godtas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ombord är sträckan cirka \\(34\\)–\\(35\\) ljusår.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jorden och stjärnan definierar egenlängden: \\(L_0=135\\) ljusår</p><p>I skeppets system rör sig både jorden och stjärnan. Avståndet mellan dem är därför kortare.</p></li><li><p class=\"facit-rubrik\">Längdkontraktion: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}L&=135\\sqrt{1-(2{,}90/3{,}00)^2}\\\\&\\approx34{,}6\\ \\mathrm{ljusår}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Ljusfartens tabellvärde påverkar svaret här</p><p>Här har vi använt \\(c=3{,}00\\cdot10^8\\) m/s. Med \\(c=2{,}998\\cdot10^8\\) m/s blir svaret cirka 34,2 ljusår. Skillnaden märks eftersom farten ligger nära ljusfarten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 34,6 ljusår med c = 3,00·10⁸ m/s; cirka 34,2 ljusår med c = 2,998·10⁸ m/s.</p></div>",
     "familj": "Längdkontraktion och egenlängd",
     "formaga": [
       "begrepp",
@@ -25005,7 +25007,9 @@ window.BANK2 = [
       [
         34.222247801738206
       ]
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.13",
@@ -25015,7 +25019,7 @@ window.BANK2 = [
     "typ": "bestämma farten ur längdkontraktion",
     "poang": "(0/2/0)",
     "t": "<p>Avståndet till en avlägsen stjärna är 49 ljusår sett från jorden. Vilken fart måste ett rymdskepp ha för att man ombord ska tycka att sträckan är 35 ljusår?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Längdkontraktionen ger först Lorentzfaktorn.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{L_0}{L}=\\frac{49}{35}=1{,}400\\]\\[\\frac vc=\\sqrt{1-\\frac1{\\gamma^2}}=\\sqrt{1-\\frac1{1{,}400^2}}=0{,}700\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Rymdskeppet måste färdas med \\(0{,}70c\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Avståndet 49 ljusår är vilolängden eftersom stjärnan och jorden är i vila relativt varandra.</p></li><li><div class=\"facit-berakning\"><p>Ombord mäts den kontraherade längden, så</p><div class=\"facit-matte\">\\[L=L_0/\\gamma\\].</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avståndskvoten: \\(L/L_0=\\sqrt{1-v^2/c^2}\\)</p><p>49 ljusår är avståndet i jordens och stjärnans gemensamma vilosystem. Ombord ska det vara 35 ljusår.</p><div class=\"facit-matte\">\\[\\frac{35}{49}=\\sqrt{1-v^2/c^2}\\]</div></li><li><p class=\"facit-rubrik\">Kvadrera kvoten och lös ut farten</p><div class=\"facit-matte\">\\[\\frac vc=\\sqrt{1-(35/49)^2}\\approx0{,}700\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten behöver vara cirka 0,70c.</p></div>",
     "familj": "Längdkontraktion och egenlängd",
     "formaga": [
       "procedur"
@@ -25027,7 +25031,9 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "c",
-    "ledtrad": "<p>Längdkontraktionen ger först Lorentzfaktorn. Egenlängden mäts i föremålets vilosystem.</p>"
+    "ledtrad": "<p>Längdkontraktionen ger först Lorentzfaktorn. Egenlängden mäts i föremålets vilosystem.</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.14",
@@ -25037,7 +25043,7 @@ window.BANK2 = [
     "typ": "bestämma farten ur längdkontraktion hos ett föremål",
     "poang": "(0/2/0)",
     "t": "<p>En linjal som är 1,00 m lång skickas iväg med hög fart rakt mot dig, med linjalens längdriktning parallell med rörelsen. Vilken fart ska den ha för att uppfattas som 0,90 m lång?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><p class=\"facit-metod\">Linjalens vilolängd är \\(1{,}00\\ \\mathrm m\\), medan den observerade längden är kontraherad.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{L_0}{L}=\\frac{1{,}00}{0{,}90}=1{,}111\\]\\[\\frac vc=\\sqrt{1-\\frac1{\\gamma^2}}=\\sqrt{0{,}190}=0{,}436\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten ska vara cirka \\(0{,}44c\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Endast längder parallella med rörelseriktningen kontraheras.</p></li><li><p class=\"facit-not\">Linjalens 1,00 m är vilolängden och 0,90 m är den kontraherade längden i observatörens system.</p></li><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Linjalens längdriktning kontraheras: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><p>Här är \\(L_0=1{,}00\\) m och \\(L=0{,}90\\) m. De är längder uppmätta samtidigt i respektive system, inte längder avlästa från ett fotografi.</p></li><li><p class=\"facit-rubrik\">Lös ut farten ur längdkvoten</p><div class=\"facit-matte\">\\[\\frac vc=\\sqrt{1-(0{,}90/1{,}00)^2}\\approx0{,}436\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,44c.</p></div>",
     "familj": "Längdkontraktion och egenlängd",
     "formaga": [
       "procedur"
@@ -25049,7 +25055,9 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "c",
-    "ledtrad": "<p>Linjalens vilolängd är \\(1{,}00\\ \\mathrm m\\), medan den observerade längden är kontraherad.</p>"
+    "ledtrad": "<p>Linjalens vilolängd är \\(1{,}00\\ \\mathrm m\\), medan den observerade längden är kontraherad.</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.15",
@@ -25059,7 +25067,7 @@ window.BANK2 = [
     "typ": "omvandla ljusår till meter",
     "poang": "(1/0/0)",
     "t": "<p>Stjärnan Sirius befinner sig 8,6 ljusår från solen. Omvandla avståndet till meter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Ett ljusår är sträckan som ljuset färdas under ett år.</p></li><li><div class=\"facit-matte\">\\[1\\ \\mathrm{ljusår}=c\\cdot1\\ \\mathrm{år}=2{,}998\\cdot10^8\\cdot365{,}25\\cdot24\\cdot3600=9{,}46\\cdot10^{15}\\ \\mathrm m\\]\\[8{,}6\\ \\mathrm{ljusår}=8{,}6\\cdot9{,}46\\cdot10^{15}=8{,}14\\cdot10^{16}\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är cirka \\(8{,}1\\cdot10^{16}\\ \\mathrm m\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett ljusår är en sträcka: \\(s=ct\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}1\\ \\mathrm{år}&=365{,}25\\cdot24\\cdot3600\\ \\mathrm s\\\\1\\ \\mathrm{ljusår}&\\approx9{,}46\\cdot10^{15}\\ \\mathrm m\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med avståndet 8,6 ljusår</p><div class=\"facit-matte\">\\[8{,}6\\cdot9{,}46\\cdot10^{15}\\approx8{,}14\\cdot10^{16}\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(8{,}1\\cdot10^{16}\\) m.</p></div>",
     "familj": "Resor, myoner och paradoxer",
     "formaga": [
       "begrepp",
@@ -25073,7 +25081,9 @@ window.BANK2 = [
     "ledtrad": "<p>Ett ljusår är sträckan som ljuset färdas under ett år. Egenlängden mäts i föremålets vilosystem.</p>",
     "familjTidigare": [
       "Längdkontraktion och egenlängd"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.16",
@@ -25083,7 +25093,7 @@ window.BANK2 = [
     "typ": "beräkna restid sett från jorden",
     "poang": "(2/0/0)",
     "t": "<p>En person åker med farten <em>v</em> = 0,95<em>c</em> till Sirius, 8,6 ljusår bort. Hur lång tid tycker vi här på jorden att resan tar?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><p class=\"facit-metod\">I jordens referenssystem är avståndet \\(8{,}6\\) ljusår och farten \\(0{,}95\\) ljusår per år.</p></li><li><div class=\"facit-matte\">\\[t=\\frac{L_0}{v}=\\frac{8{,}6\\ \\mathrm{ljusår}}{0{,}95\\ \\mathrm{ljusår/år}}=9{,}05\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Enligt jorden tar resan cirka \\(9{,}1\\) år.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd jordens avstånd och jordens tid</p><p>Från jorden är avståndet 8,6 ljusår. Farten 0,95c motsvarar 0,95 ljusår per år. Ingen Lorentzfaktor behövs för denna fråga.</p></li><li><p class=\"facit-rubrik\">Konstant fart: \\(t=L_0/v\\)</p><div class=\"facit-matte\">\\[t=\\frac{8{,}6}{0{,}95}\\approx9{,}05\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Enligt jorden tar resan cirka 9,1 år.</p></div>",
     "familj": "Resor, myoner och paradoxer",
     "formaga": [
       "begrepp",
@@ -25099,7 +25109,9 @@ window.BANK2 = [
     "ledtrad": "<p>I jordens referenssystem är avståndet \\(8{,}6\\) ljusår och farten \\(0{,}95\\) ljusår per år.</p>",
     "familjTidigare": [
       "Längdkontraktion och egenlängd"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.17",
@@ -25109,7 +25121,7 @@ window.BANK2 = [
     "typ": "beräkna restid ombord med tidsdilatation",
     "poang": "(0/2/0)",
     "t": "<p>En person åker med farten <em>v</em> = 0,95<em>c</em> till Sirius, 8,6 ljusår bort. Hur lång tid tycker personen ombord att resan tar?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Avståndet 8,6 ljusår är vilolängden i jordens referenssystem.</p></li><li><p class=\"facit-metod\">Beräkna först restiden enligt jorden.</p></li><li><p class=\"facit-metod\">Tiden ombord är sedan egentiden.</p></li><li><div class=\"facit-matte\">\\[\\Delta t=\\frac{L_0}{v}=\\frac{8{,}6\\ \\mathrm{ljusår}}{0{,}95\\ \\mathrm{ljusår/år}}=9{,}05\\ \\mathrm{år}\\]\\[\\gamma=\\frac1{\\sqrt{1-0{,}95^2}}=3{,}203\\]\\[\\Delta\\tau=\\frac{\\Delta t}{\\gamma}=\\frac{9{,}05}{3{,}203}=2{,}83\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Personen ombord upplever cirka \\(2{,}8\\) år.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Egentiden mäts av den klocka som följer med mellan avrese- och ankomsthändelsen.</p></li><li><p class=\"facit-not\">Därför är tiden ombord kortare än jordens restid.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jordens restid: \\(t=L_0/v\\)</p><div class=\"facit-matte\">\\[t=8{,}6/0{,}95\\approx9{,}053\\ \\mathrm{år}\\]</div></li><li><p class=\"facit-rubrik\">Ombord mäts egentiden: \\(\\tau=t\\sqrt{1-v^2/c^2}\\)</p><p>Samma klocka följer resenären från avfärd till ankomst. Använd jordens oavrundade restid.</p><div class=\"facit-matte\">\\[\\tau=\\frac{8{,}6}{0{,}95}\\sqrt{1-0{,}95^2}\\approx2{,}83\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Resenären upplever cirka 2,8 år.</p></div>",
     "familj": "Resor, myoner och paradoxer",
     "formaga": [
       "procedur"
@@ -25124,7 +25136,9 @@ window.BANK2 = [
     "ledtrad": "<p>Avståndet 8,6 ljusår är vilolängden i jordens referenssystem. Beräkna först restiden enligt jorden. Tiden ombord är sedan egentiden.</p>",
     "familjTidigare": [
       "Längdkontraktion och egenlängd"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.18",
@@ -25134,7 +25148,7 @@ window.BANK2 = [
     "typ": "beräkna kontraherat avstånd ombord",
     "poang": "(0/2/0)",
     "t": "<p>En person åker med farten <em>v</em> = 0,95<em>c</em> till Sirius, 8,6 ljusår bort. Hur stort är avståndet enligt personen ombord?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Avståndet mellan solen och Sirius är kontraherat i resenärens referenssystem.</p></li><li><div class=\"facit-matte\">\\[\\gamma=3{,}203\\]\\[L=\\frac{L_0}{\\gamma}=\\frac{8{,}6}{3{,}203}=2{,}68\\ \\mathrm{ljusår}\\]</div></li><li><p class=\"facit-not\">Kontroll: \\(2{,}68/0{,}95=2{,}82\\) år, samma tid som resenären mäter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ombord är avståndet cirka \\(2{,}7\\) ljusår.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Solens och Sirius vilosystem ger \\(L_0=8{,}6\\) ljusår</p><p>Resenären mäter i stället ett förkortat avstånd mellan de två himlakropparna.</p></li><li><p class=\"facit-rubrik\">Längdkontraktion: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}L&=8{,}6\\sqrt{1-0{,}95^2}\\\\&\\approx2{,}685\\ \\mathrm{ljusår}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet ombord är cirka 2,7 ljusår.</p></div>",
     "familj": "Längdkontraktion och egenlängd",
     "formaga": [
       "procedur"
@@ -25144,7 +25158,9 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Avståndet mellan solen och Sirius är kontraherat i resenärens referenssystem.</p>"
+    "ledtrad": "<p>Avståndet mellan solen och Sirius är kontraherat i resenärens referenssystem.</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.19",
@@ -25176,7 +25192,7 @@ window.BANK2 = [
     "typ": "bestämma farten ur två uppmätta avstånd",
     "poang": "(0/2/0)",
     "t": "<p>Två referenspunkter som är i vila relativt jorden ligger 625 km från varandra längs ett rymdskepps färdriktning. Kaptenen på rymdskeppet mäter avståndet mellan samma referenspunkter till 267 km.</p><p>Vilken fart har rymdskeppet relativt jorden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><p class=\"facit-metod\">Avståndet \\(625\\ \\mathrm{km}\\) är vilolängden i jordens referenssystem, medan kaptenen mäter den kontraherade längden \\(267\\ \\mathrm{km}\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{L_0}{L}=\\frac{625}{267}=2{,}341\\]\\[\\frac vc=\\sqrt{1-\\frac1{\\gamma^2}}=\\sqrt{1-\\frac1{2{,}341^2}}=0{,}904\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten är cirka \\(0{,}90c\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">De två referenspunkterna är i vila i jordens system, så 625 km är vilolängden.</p></li><li><p class=\"facit-not\">Ombord rör sig referenspunkterna relativt skeppet och avståndet längs rörelseriktningen blir längdkontraherat.</p></li><li><p class=\"facit-not\">Det är därför kvoten \\(L_0/L\\) som ger \\(\\gamma\\).</p></li><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jordfasta punkter ger \\(L_0=625\\) km</p><p>267 km är längden mellan samma punkter, uppmätt samtidigt i skeppets referenssystem.</p></li><li><p class=\"facit-rubrik\">Lös ut farten: \\(v/c=\\sqrt{1-(L/L_0)^2}\\)</p><div class=\"facit-matte\">\\[v/c=\\sqrt{1-(267/625)^2}\\approx0{,}904\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten är cirka 0,90c.</p></div>",
     "familj": "Längdkontraktion och egenlängd",
     "formaga": [
       "procedur"
@@ -25188,7 +25204,9 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "c",
-    "ledtrad": "<p>Avståndet \\(625\\ \\mathrm{km}\\) är vilolängden i jordens referenssystem, medan kaptenen mäter den kontraherade längden \\(267\\ \\mathrm{km}\\).</p>"
+    "ledtrad": "<p>Avståndet \\(625\\ \\mathrm{km}\\) är vilolängden i jordens referenssystem, medan kaptenen mäter den kontraherade längden \\(267\\ \\mathrm{km}\\).</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.21",
@@ -25197,16 +25215,16 @@ window.BANK2 = [
     "niva": "C",
     "typ": "tillämpa längdkontraktion på tåg och tunnel",
     "poang": "(0/2/0)",
-    "t": "<p>En tågtunnel är exakt 100 m lång. Ett tåg som är exakt 101 m långt kör igenom tunneln med farten <em>v</em> = 0,20<em>c</em>. En observatör i markens referenssystem bestämmer fram- och bakändens positioner samtidigt med synkroniserade mätare. Hur lång mäter observatören tågets längd till? Får det plats i tunneln enligt honom?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><p class=\"facit-metod\">Tågets \\(101\\ \\mathrm m\\) är vilolängden.</p></li><li><p class=\"facit-metod\">För personen vid tunneln är tåget i rörelse och därför längdkontraherat.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-0{,}20^2}}=1{,}0206\\]\\[L=\\frac{L_0}{\\gamma}=\\frac{101}{1{,}0206}=99{,}0\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Personen mäter tåget till \\(99\\ \\mathrm m\\). Enligt honom ryms det alltså i den \\(100\\ \\mathrm m\\) långa tunneln ett ögonblick.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "t": "<p>En tågtunnel är exakt 100 m lång. Ett tåg som är exakt 101 m långt kör igenom tunneln med farten <em>v</em> = 0,20<em>c</em>. En observatör i markens referenssystem bestämmer fram- och bakändens positioner samtidigt med synkroniserade mätare. Hur lång mäter observatören tågets längd till? Ange tågets längd med en decimal. Får det plats i tunneln enligt honom?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tågets egenlängd är \\(L_0=101\\) m</p><p>Markobservatören mäter tågets båda ändar samtidigt i markens system. Tåget rör sig och längdkontraheras.</p></li><li><p class=\"facit-rubrik\">Längdkontraktion: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[L=101\\sqrt{1-0{,}20^2}\\approx98{,}96\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Jämför med tunnelns 100 m</p><p>98,96 m är mindre än 100 m. I markens system ryms därför tåget helt i tunneln under ett kort ögonblick.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 99,0 m. Ja, tåget ryms i markens referenssystem.</p></div>",
     "familj": "Resor, myoner och paradoxer",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "tid_och_langd__rumtid_och_referenssystem",
     "svarstyp": "numeriskt",
-    "rättSvar": 100,
-    "tolerans": 1.5,
+    "rättSvar": 98.95938560844039,
+    "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
@@ -25216,7 +25234,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Rumtid och referenssystem"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.22",
@@ -25225,8 +25245,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "tillämpa längdkontraktion från lokförarens system",
     "poang": "(0/2/0)",
-    "t": "<p>En tågtunnel är 100 m lång i markens referenssystem. Ett tåg är 101 m långt i sitt eget vilosystem och kör genom tunneln med farten <em>v</em> = 0,20<em>c</em>. Lokföraren tittar framåt genom tunneln.</p><p>Hur lång är tunneln enligt lokföraren?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><p class=\"facit-metod\">I lokförarens referenssystem är tåget i vila och tunneln rör sig.</p></li><li><p class=\"facit-metod\">Därför kontraheras tunnelns längd.</p></li><li><div class=\"facit-matte\">\\[\\gamma=1{,}0206\\]\\[L_{\\mathrm{tunnel}}=\\frac{100}{1{,}0206}=98{,}0\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lokföraren mäter tunneln till cirka \\(98\\ \\mathrm m\\), så tåget på \\(101\\ \\mathrm m\\) ryms inte enligt honom.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Det finns ingen motsägelse: observatörerna är oense om vilka händelser vid tunneländarna som sker samtidigt.</p></li><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "t": "<p>En tågtunnel är 100 m lång i markens referenssystem. Ett tåg är 101 m långt i sitt eget vilosystem och kör genom tunneln med farten <em>v</em> = 0,20<em>c</em>. Lokföraren mäter avståndet mellan tunnelns ändar samtidigt i tågets referenssystem.</p><p>Hur lång är tunneln enligt lokföraren?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tunneln är i vila på marken: \\(L_0=100\\) m</p><p>Lokföraren mäter tunnelns båda ändar samtidigt i tågets system. Det är då tunneln som rör sig.</p></li><li><p class=\"facit-rubrik\">Längdkontraktion av tunneln: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[L=100\\sqrt{1-0{,}20^2}\\approx97{,}98\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tunneln är cirka 98 m lång i tågets system.</p></div>",
     "familj": "Resor, myoner och paradoxer",
     "formaga": [
       "procedur"
@@ -25242,7 +25262,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Rumtid och referenssystem"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.23",
@@ -25365,7 +25387,7 @@ window.BANK2 = [
     "typ": "bestämma avstånd ur två uppmätta restider",
     "poang": "(0/2/0)",
     "t": "<p>Ett rymdskepp åker från jorden till en ny planet. Enligt oss på jorden tar det 12,0 år att nå fram. Ombord anser man att det tar 9,2 år. Hur långt från jorden ligger planeten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Kvoten mellan jordens tid och egentiden ombord ger Lorentzfaktorn.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{12{,}0}{9{,}2}=1{,}304\\]\\[\\beta=\\sqrt{1-\\frac1{\\gamma^2}}=0{,}642\\]</div></li><li><p class=\"facit-metod\">Jorden mäter planetens vilolängd.</p></li><li><div class=\"facit-matte\">\\[L_0=vt=0{,}642c\\cdot12{,}0\\ \\mathrm{år}=7{,}70\\ \\mathrm{ljusår}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Planeten ligger cirka \\(7{,}7\\) ljusår från jorden.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Tiden ombord är egentiden eftersom samma rymdskeppsklocka är med vid både avfärd och ankomst.</p></li><li><p class=\"facit-not\">När farten väl är bestämd ska planetavståndet räknas i jordens system, där planeten och jorden är i vila.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tidsdilatation ger \\(\\tau/t=\\sqrt{1-v^2/c^2}\\)</p><p>12,0 år är jordens tid. De 9,2 åren ombord mäts av klockan som följer med hela resan.</p></li><li><p class=\"facit-rubrik\">Bestäm farten ur tidskvoten</p><div class=\"facit-matte\">\\[v/c=\\sqrt{1-(9{,}2/12{,}0)^2}\\approx0{,}642\\]</div></li><li><p class=\"facit-rubrik\">Planetavståndet i jordens system: \\(L_0=vt\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}L_0&=12{,}0\\sqrt{1-(9{,}2/12{,}0)^2}\\\\&\\approx7{,}70\\ \\mathrm{ljusår}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Planeten ligger cirka 7,7 ljusår bort i jordens system.</p></div>",
     "familj": "Resor, myoner och paradoxer",
     "formaga": [
       "procedur"
@@ -25383,7 +25405,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Rumtid och referenssystem"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.28",
@@ -25393,7 +25417,7 @@ window.BANK2 = [
     "typ": "bestämma restid ur kontraherat avstånd",
     "poang": "(0/2/0)",
     "t": "<p>Avståndet från jorden till Alfa Centauri är 4,3 ljusår. Ombord på ett rymdskepp mot Alfa Centauri uppfattas avståndet bara som 2,5 ljusår. Hur lång tid tog resan enligt oss på jorden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Börja med att skriva upp vad som är känt och vad som söks.</p></li><li><p class=\"facit-metod\">Välj sedan ett fysikaliskt samband som innehåller just dessa storheter och håll enheterna konsekventa.</p></li><li><p class=\"facit-metod\">Avståndskvoten ger Lorentzfaktorn och därifrån farten.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{L_0}{L}=\\frac{4{,}3}{2{,}5}=1{,}720\\]\\[\\beta=\\sqrt{1-\\frac1{\\gamma^2}}=0{,}814\\]</div></li><li><p class=\"facit-metod\">I jordens system är restiden sträcka dividerad med fart.</p></li><li><div class=\"facit-matte\">\\[t=\\frac{4{,}3\\ \\mathrm{ljusår}}{0{,}814\\ \\mathrm{ljusår/år}}=5{,}28\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Resan tar cirka \\(5{,}3\\) år enligt jorden.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">De 4,3 ljusåren är vilolängden i jordens system och de 2,5 ljusåren är den kontraherade längden ombord.</p></li><li><p class=\"facit-not\">Efter att farten hittats ska jordens restid beräknas med jordens avstånd.</p></li><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten, tecknet och om storleksordningen är rimlig i situationen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm farten från \\(L/L_0=\\sqrt{1-v^2/c^2}\\)</p><p>Jordens avstånd är 4,3 ljusår, medan resenären mäter 2,5 ljusår.</p><div class=\"facit-matte\">\\[v/c=\\sqrt{1-(2{,}5/4{,}3)^2}\\approx0{,}814\\]</div></li><li><p class=\"facit-rubrik\">Jordens restid: \\(t=L_0/v\\)</p><div class=\"facit-matte\">\\[t=\\frac{4{,}3}{\\sqrt{1-(2{,}5/4{,}3)^2}}\\approx5{,}28\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 5,3 år enligt jorden.</p></div>",
     "familj": "Resor, myoner och paradoxer",
     "formaga": [
       "procedur"
@@ -25411,7 +25435,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Rumtid och referenssystem"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.29",
@@ -25421,7 +25447,7 @@ window.BANK2 = [
     "typ": "beräkna kontraherad volym hos en kub",
     "poang": "(0/2/0)",
     "t": "<p>Ett Borg-skepp ser ut som en kub med sidan 1,0 km. Skeppet far mot jorden med farten 0,94<em>c</em> med en sida vinkelrät mot rörelseriktningen. Hur stor volym uppfattas skeppet ha sett från jorden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Börja med att skriva upp vad som är känt och vad som söks.</p></li><li><p class=\"facit-metod\">Välj sedan ett fysikaliskt samband som innehåller just dessa storheter och håll enheterna konsekventa.</p></li><li><p class=\"facit-metod\">Endast dimensionen parallellt med rörelsen kontraheras.</p></li><li><p class=\"facit-metod\">De två tvärgående sidorna förblir \\(1{,}0\\ \\mathrm{km}\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-0{,}94^2}}=2{,}931\\]\\[L_{\\parallel}=\\frac{1{,}0}{2{,}931}=0{,}341\\ \\mathrm{km}\\]\\[V=1{,}0\\cdot1{,}0\\cdot0{,}341=0{,}341\\ \\mathrm{km^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den uppmätta volymen är cirka \\(0{,}34\\ \\mathrm{km^3}\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten, tecknet och om storleksordningen är rimlig i situationen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bara sidan längs rörelsen förkortas</p><p>De två sidorna vinkelrätt mot rörelsen är fortfarande 1,0 km i jordens system.</p></li><li><p class=\"facit-rubrik\">Sidan längs rörelsen: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[L=1{,}0\\sqrt{1-0{,}94^2}\\approx0{,}341\\ \\mathrm{km}\\]</div></li><li><p class=\"facit-rubrik\">Volym: \\(V=L\\cdot b\\cdot h\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}V&\\approx0{,}341\\cdot1{,}0\\cdot1{,}0\\\\&=0{,}341\\ \\mathrm{km^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Volymen mätt från jorden är cirka 0,34 km³.</p></div>",
     "familj": "Längdkontraktion och egenlängd",
     "formaga": [
       "procedur"
@@ -25439,7 +25465,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Rumtid och referenssystem"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.30",
@@ -26106,7 +26134,7 @@ window.BANK2 = [
     "typ": "beräkna längdkontraktion",
     "poang": "(2/0/0)",
     "t": "<p>Ett rymdskepp har egenlängden 100 m och passerar jorden med farten 0,6c.</p><p>Vilken längd mäts från jorden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><p class=\"facit-metod\">Egenlängden är den längd som mäts i skeppets vilosystem.</p></li><li><div class=\"facit-berakning\"><p>I jordens system gäller</p><div class=\"facit-matte\">\\[L=L_0/\\gamma\\].</div></div></li><li><div class=\"facit-matte\">\\[\\gamma=1{,}250\\]\\[L=\\frac{100}{1{,}250}=80{,}00\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Jorden mäter längden till cirka \\(80\\ \\mathrm m\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">100 m är skeppets längd i vila</p><p>Jorden mäter längden hos ett skepp som passerar med 0,6c.</p></li><li><p class=\"facit-rubrik\">Längdkontraktion: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}L&=100\\sqrt{1-0{,}6^2}\\\\&=100\\cdot0{,}8=80\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Från jorden mäts längden till 80 m.</p></div>",
     "familj": "Längdkontraktion och egenlängd",
     "familjNyckel": "langdkontraktion__langdkontraktion_och_egenlangd",
     "formaga": [
@@ -26119,7 +26147,9 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "ledtrad": "<p>Egenlängden är den längd som mäts i skeppets vilosystem. I jordens system gäller \\(L=L_0/\\gamma\\).</p>"
+    "ledtrad": "<p>Egenlängden är den längd som mäts i skeppets vilosystem. I jordens system gäller \\(L=L_0/\\gamma\\).</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.63",
@@ -26129,7 +26159,7 @@ window.BANK2 = [
     "typ": "beräkna längdkontraktion",
     "poang": "(1/2/0)",
     "t": "<p>Ett rymdskepp har egenlängden 50 m och passerar jorden med farten 0,9c.</p><p>Vilken längd mäts från jorden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><p class=\"facit-metod\">Egenlängden är den längd som mäts i skeppets vilosystem.</p></li><li><div class=\"facit-berakning\"><p>I jordens system gäller</p><div class=\"facit-matte\">\\[L=L_0/\\gamma\\].</div></div></li><li><div class=\"facit-matte\">\\[\\gamma=2{,}294\\]\\[L=\\frac{50}{2{,}294}=21{,}79\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Jorden mäter längden till cirka \\(21{,}79\\ \\mathrm m\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Egenlängden är \\(L_0=50\\) m</p><p>Det är skeppet som rör sig relativt observatören på jorden, så dess längd blir mindre än 50 m.</p></li><li><p class=\"facit-rubrik\">Längdkontraktion: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[L=50\\sqrt{1-0{,}9^2}\\approx21{,}8\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 22 m från jorden.</p></div>",
     "familj": "Längdkontraktion och egenlängd",
     "familjNyckel": "langdkontraktion__langdkontraktion_och_egenlangd",
     "formaga": [
@@ -26142,7 +26172,9 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "ledtrad": "<p>Egenlängden är den längd som mäts i skeppets vilosystem. I jordens system gäller \\(L=L_0/\\gamma\\).</p>"
+    "ledtrad": "<p>Egenlängden är den längd som mäts i skeppets vilosystem. I jordens system gäller \\(L=L_0/\\gamma\\).</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.64",
@@ -26152,7 +26184,7 @@ window.BANK2 = [
     "typ": "bestäm fart från längdkontraktion",
     "poang": "(1/2/0)",
     "t": "<p>Ett snabbt föremål mäts till 80 % av sin egenlängd.</p><p>Bestäm farten som andel av c.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Längdkontraktion skrivs \\(L=L_0/\\gamma\\), där \\(L_0\\) är egenlängden.</p></li><li><p>Villkoret \\(L=0{,}80L_0\\) ger därför</p></li><li><p>\\[\\frac{1}{\\gamma}=0{,}80\\Rightarrow\\gamma=1{,}25.\\]</p></li><li><p>Använd sedan \\(\\gamma=1/\\sqrt{1-\\beta^2}\\), där \\(\\beta=v/c\\):</p></li><li><p>\\[\\beta=\\sqrt{1-\\frac{1}{\\gamma^2}}=\\sqrt{1-\\frac{1}{1{,}25^2}}=0{,}60.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v\\approx0{,}60c\\).</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">80 % av egenlängden betyder \\(L/L_0=0{,}80\\)</p><div class=\"facit-matte\">\\[0{,}80=\\sqrt{1-v^2/c^2}\\]</div></li><li><p class=\"facit-rubrik\">Kvadrera och lös ut farten</p><div class=\"facit-matte\">\\[\\begin{aligned}(v/c)^2&=1-0{,}80^2=0{,}36\\\\v/c&=0{,}60\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten är 0,60c.</p></div>",
     "familj": "Längdkontraktion och egenlängd",
     "familjNyckel": "langdkontraktion__langdkontraktion_och_egenlangd",
     "formaga": [
@@ -26164,7 +26196,9 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "c",
-    "ledtrad": "<p>Egenlängden mäts i föremålets vilosystem. I ett system där föremålet rör sig är längden längs rörelseriktningen \\(L=L_0/\\gamma\\).</p>"
+    "ledtrad": "<p>Egenlängden mäts i föremålets vilosystem. I ett system där föremålet rör sig är längden längs rörelseriktningen \\(L=L_0/\\gamma\\).</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.53",
@@ -58229,7 +58263,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>Ett rymdskepp är 100 m långt när det står still. Det flyger förbi jorden med farten \\(0{,}60c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Rymdskepp med vilolängden 100 m och farten 0,60c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,60c</text><line x1=\"48.0\" y1=\"136.0\" x2=\"290.0\" y2=\"136.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"48.0\" y1=\"128.0\" x2=\"48.0\" y2=\"144.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"290.0\" y1=\"128.0\" x2=\"290.0\" y2=\"144.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"169.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">L₀ = 100 m</text></svg></div><p>Hur långt är rymdskeppet mätt från jorden?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>100 m är egenlängden \\(L_0\\), uppmätt i skeppets vilosystem.</p></li><li><div class=\"facit-matte\">\\[L=\\frac{L_0}{\\gamma}=100\\cdot\\sqrt{1-0{,}60^2}=100\\cdot0{,}80=80\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 80 m.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skeppets egenlängd är \\(L_0=100\\) m</p><p>Figuren jämför samma skepp i vila och mätt från jorden när det rör sig.</p></li><li><p class=\"facit-rubrik\">Längdkontraktion: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}L&=100\\sqrt{1-0{,}60^2}\\\\&=100\\cdot0{,}80=80\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Skeppet är 80 m långt mätt från jorden.</p></div>",
   "familj": "Längdkontraktion och egenlängd",
   "formaga": [
     "procedur"
@@ -58257,7 +58291,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En mätstav är 2,0 m lång i sitt vilosystem. Den rör sig i sin längdriktning med farten \\(0{,}80c\\) förbi ett laboratorium.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Mätstav med vilolängden 2,0 m och farten 0,80c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L228.0 58 Q268.0 80 228.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"139.3\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"167.3\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"195.3\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"278.0\" y1=\"80.0\" x2=\"338.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"338.0,80.0 327.9,84.3 327.9,75.7\" fill=\"#c2410c\"/><text x=\"308.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,80c</text><line x1=\"48.0\" y1=\"136.0\" x2=\"268.0\" y2=\"136.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"48.0\" y1=\"128.0\" x2=\"48.0\" y2=\"144.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"268.0\" y1=\"128.0\" x2=\"268.0\" y2=\"144.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"158.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">L₀ = 2,0 m</text></svg></div><p>Hur lång är staven mätt i laboratoriet?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L=L_0\\sqrt{1-0{,}80^2}=2{,}0\\cdot0{,}60=1{,}2\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,2 m.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stavens egenlängd är \\(L_0=2{,}0\\) m</p><p>Längdriktningen är parallell med rörelsen, så längdkontraktionen gäller hela stavens längd.</p></li><li><p class=\"facit-rubrik\">Längdkontraktion: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}L&=2{,}0\\sqrt{1-0{,}80^2}\\\\&=2{,}0\\cdot0{,}60=1{,}2\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Laboratoriet mäter 1,2 m.</p></div>",
   "familj": "Längdkontraktion och egenlängd",
   "formaga": [
     "procedur"
@@ -58285,7 +58319,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>Avståndet från jorden till en stjärna är 4,2 ljusår mätt från jorden. Ett rymdskepp reser dit med farten \\(0{,}90c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"150\" viewBox=\"0 0 420 150\" role=\"img\" aria-label=\"Jorden och en stjärna 4,2 ljusår bort, ett rymdskepp reser med farten 0,90c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"50\" cy=\"75\" r=\"22\" fill=\"#60a5fa\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><path d=\"M370 55 l6 14 15 1 -11 10 4 15 -14 -8 -14 8 4 -15 -11 -10 15 -1 Z\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><line x1=\"50.0\" y1=\"120.0\" x2=\"370.0\" y2=\"120.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"210.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">4,2 ljusår</text><line x1=\"150.0\" y1=\"72.0\" x2=\"260.0\" y2=\"72.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"260.0,72.0 249.9,76.3 249.9,67.7\" fill=\"#c2410c\"/><text x=\"205.0\" y=\"60.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,90c</text></svg></div><p>Hur långt är avståndet mätt av resenärerna? (Svara i ljusår.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Jorden och stjärnan är i vila relativt varandra, så 4,2 ljusår är egenlängden.</p></li><li><div class=\"facit-matte\">\\[L=4{,}2\\cdot\\sqrt{1-0{,}90^2}\\approx1{,}83\\ \\text{ljusår}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,8 ljusår.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jorden och stjärnan ger \\(L_0=4{,}2\\) ljusår</p><p>De är i vila relativt varandra. Resenärerna ser dem båda röra sig och mäter ett kortare avstånd.</p></li><li><p class=\"facit-rubrik\">Längdkontraktion: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}L&=4{,}2\\sqrt{1-0{,}90^2}\\\\&\\approx1{,}83\\ \\mathrm{ljusår}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Resenärerna mäter cirka 1,8 ljusår.</p></div>",
   "familj": "Resor, myoner och paradoxer",
   "formaga": [
     "procedur",
@@ -58314,7 +58348,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>Ett kubformat rymdskepp flyger åt höger med en fart nära ljusets.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Rymdskepp som flyger åt höger med en fart nära ljusets\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v</text></svg></div><p>Vilka mått på skeppet blir kortare mätt från jorden?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Längdkontraktion sker bara i rörelseriktningen. Höjden och bredden vinkelrätt mot rörelsen är oförändrade.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bara längden i rörelseriktningen.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Längdkontraktion gäller längs rörelsen</p><p>Skeppet rör sig åt höger. Måttet från vänster till höger blir kortare. Höjd och bredd vinkelrätt mot rörelsen förändras inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bara måttet i rörelseriktningen blir kortare.</p></div>",
   "familj": "Längdkontraktion och egenlängd",
   "formaga": [
     "begrepp"
@@ -58360,7 +58394,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>Ett rymdskepp flyger förbi en rymdstation. En astronaut i skeppet och en tekniker på stationen mäter båda skeppets längd.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Rymdskepp som flyger förbi en rymdstation\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,5c</text></svg></div><p>Vem mäter skeppets egenlängd?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Egenlängden mäts i det system där föremålet är i vila. Skeppet är i vila relativt astronauten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Astronauten.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Egenlängden mäts i föremålets vilosystem</p><p>Astronauten är i vila relativt skeppet och mäter därför egenlängden. Stationsteknikern mäter ett skepp i rörelse och får en kortare längd.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Astronauten mäter skeppets egenlängd.</p></div>",
   "familj": "Längdkontraktion och egenlängd",
   "formaga": [
     "begrepp"
@@ -58406,7 +58440,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En rymdsond är 50 m lång i vila. Relativt en planet har den gammafaktorn \\(\\gamma=2{,}5\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Rymdsond med vilolängden 50 m och gammafaktorn 2,5\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">γ = 2,5</text><line x1=\"48.0\" y1=\"136.0\" x2=\"290.0\" y2=\"136.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"48.0\" y1=\"128.0\" x2=\"48.0\" y2=\"144.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"290.0\" y1=\"128.0\" x2=\"290.0\" y2=\"144.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"169.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">L₀ = 50 m</text></svg></div><p>Hur lång är sonden mätt från planeten?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L=\\frac{L_0}{\\gamma}=\\frac{50}{2{,}5}=20\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 m.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gammavärdet är redan givet: \\(\\gamma=2{,}5\\)</p><p>50 m är sondens egenlängd. Vi behöver inte först räkna ut farten.</p></li><li><p class=\"facit-rubrik\">Längdkontraktion: \\(L=L_0/\\gamma\\)</p><div class=\"facit-matte\">\\[L=50/2{,}5=20\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sonden är 20 m lång mätt från planeten.</p></div>",
   "familj": "Längdkontraktion och egenlängd",
   "formaga": [
     "procedur"
@@ -58434,7 +58468,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En myon bildas 15 km ovanför marken och rör sig rakt nedåt med farten \\(0{,}995c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" role=\"img\" aria-label=\"Myon 15 kilometer ovanför marken som rör sig nedåt med farten 0,995c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"20\" width=\"380\" height=\"150\" fill=\"#dbeafe\"/><rect x=\"20\" y=\"170\" width=\"380\" height=\"30\" fill=\"#bbf7d0\"/><line x1=\"20.0\" y1=\"170.0\" x2=\"400.0\" y2=\"170.0\" stroke=\"#15803d\" stroke-width=\"2\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"34\" r=\"6\" fill=\"#c2410c\"/><line x1=\"200.0\" y1=\"42.0\" x2=\"200.0\" y2=\"160.0\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><polygon points=\"200.0,160.0 195.7,149.9 204.3,149.9\" fill=\"#c2410c\"/><text x=\"212.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">v = 0,995c</text><text x=\"214.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\">myon</text><line x1=\"60.0\" y1=\"34.0\" x2=\"60.0\" y2=\"170.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"52.0\" y1=\"34.0\" x2=\"68.0\" y2=\"34.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"52.0\" y1=\"170.0\" x2=\"68.0\" y2=\"170.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"76.0\" y=\"108.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">15 km</text><text x=\"380.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#166534\">mark</text></svg></div><p>Hur lång är sträckan till marken i myonens vilosystem? (Svara i km.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sträckan 15 km är mätt från jorden, där atmosfären är i vila. Den är egenlängden.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}995^2}}\\approx10\\]</div></li><li><div class=\"facit-matte\">\\[L=\\frac{15}{10}\\approx1{,}5\\ \\text{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,5 km.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Atmosfären är i vila på jorden: \\(L_0=15\\) km</p><p>I myonens system rör sig marken mot myonen. Sträckan genom atmosfären är längdkontraherad.</p></li><li><p class=\"facit-rubrik\">Längdkontraktion: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[L=15\\sqrt{1-0{,}995^2}\\approx1{,}498\\ \\mathrm{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sträckan i myonens vilosystem är cirka 1,5 km.</p></div>",
   "familj": "Resor, myoner och paradoxer",
   "formaga": [
     "procedur",
@@ -58463,7 +58497,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En tunnel är 300 m lång. Ett tänkt tåg kör genom tunneln med farten \\(0{,}50c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"150\" viewBox=\"0 0 420 150\" role=\"img\" aria-label=\"Tunnel som är 300 m lång och ett tåg med farten 0,50c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M40 110 L40 50 Q210 0 380 50 L380 110\" fill=\"#d6d3d1\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"70\" y=\"72\" width=\"100\" height=\"34\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><line x1=\"180.0\" y1=\"89.0\" x2=\"250.0\" y2=\"89.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"250.0,89.0 239.9,93.3 239.9,84.7\" fill=\"#c2410c\"/><text x=\"215.0\" y=\"77.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,50c</text><line x1=\"40.0\" y1=\"128.0\" x2=\"380.0\" y2=\"128.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"210.0\" y=\"146.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">300 m</text></svg></div><p>Hur lång är tunneln mätt från tåget?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L=300\\cdot\\sqrt{1-0{,}50^2}\\approx260\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 260 m.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tunnelns egenlängd är \\(L_0=300\\) m</p><p>Från tåget är det tunneln som rör sig. Tågets egen längd behövs inte.</p></li><li><p class=\"facit-rubrik\">Längdkontraktion: \\(L=L_0\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[L=300\\sqrt{1-0{,}50^2}\\approx259{,}8\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tunneln mäts till cirka 260 m från tåget.</p></div>",
   "familj": "Längdkontraktion och egenlängd",
   "formaga": [
     "procedur"
@@ -58491,7 +58525,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>Ett föremål rör sig med farten \\(0{,}60c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Föremål som rör sig med farten 0,60c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L206.0 58 Q246.0 80 206.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"131.6\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"159.6\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"187.6\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"256.0\" y1=\"80.0\" x2=\"316.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"316.0,80.0 305.9,84.3 305.9,75.7\" fill=\"#c2410c\"/><text x=\"286.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,60c</text></svg></div><p>Hur många procent av sin vilolängd är föremålet mätt av en observatör som ser det passera? (Svara i %.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_0}=\\sqrt{1-0{,}60^2}=0{,}80=80\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 80 %.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Längdernas kvot: \\(L/L_0=\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[L/L_0=\\sqrt{1-0{,}60^2}=0{,}80\\]</div></li><li><p class=\"facit-rubrik\">Omvandla andelen till procent</p><div class=\"facit-matte\">\\[0{,}80\\cdot100\\ \\%=80\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Längden är 80 % av egenlängden.</p></div>",
   "familj": "Längdkontraktion och egenlängd",
   "formaga": [
     "procedur",
@@ -58520,7 +58554,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En astronaut färdas med farten \\(0{,}9c\\) relativt jorden och mäter sitt eget rymdskepp med ett måttband.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Astronaut i ett rymdskepp med farten 0,9c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,9c</text></svg></div><p>Vad visar astronautens mätning?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Astronauten är i vila relativt skeppet och mäter egenlängden. Hen märker ingen förkortning.</p></li></ol></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Måttbandet följer med skeppet</p><p>Astronauten och måttbandet är i vila relativt skeppet. Hen mäter därför skeppets egenlängd, inte den kortare längd som en observatör på jorden får.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Astronauten mäter skeppets vanliga egenlängd.</p></div>",
   "familj": "Resor, myoner och paradoxer",
   "formaga": [
     "begrepp"

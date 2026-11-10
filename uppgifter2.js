@@ -24723,7 +24723,7 @@ window.BANK2 = [
     "typ": "beräkna gammafaktorn ur farten",
     "poang": "(1/0/0)",
     "t": "<p>Beräkna gammafaktorn när farten är <em>v</em> = 150 Mm/s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv farten som andel av ljusfarten</p><p>Prefixet M betyder miljon. Med \\(c\\approx3{,}00\\cdot10^8\\,\\text{m/s}\\) får vi</p><div class=\"facit-matte\">\\[v=150\\,\\text{Mm/s}=1{,}50\\cdot10^8\\,\\text{m/s}.\\]</div><div class=\"facit-matte\">\\[\\beta=\\frac vc=0{,}500.\\]</div></li><li><p class=\"facit-rubrik\">Beräkna Lorentzfaktorn</p><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-\\beta^2}}=\\frac1{\\sqrt{1-0{,}500^2}}=\\frac1{\\sqrt{0{,}75}}\\approx1{,}1547.\\]</div><p>Värdet är större än 1, som det ska vara för en fart mellan noll och ljusfarten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx1{,}15\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Megaprefixet ger \\(v=1{,}50\\cdot10^8\\) m/s</p><p>150 Mm/s är 150 miljoner meter per sekund. Med \\(c\\approx3{,}00\\cdot10^8\\) m/s blir \\(v/c=0{,}500\\).</p></li><li><p class=\"facit-rubrik\">Lorentzfaktorn: \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-0{,}500^2}}\\approx1{,}15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx1{,}15\\), utan enhet.</p></div>",
     "familj": "Gammafaktorn",
     "formaga": [
       "begrepp",
@@ -24736,10 +24736,12 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "ledtrad": "<p>Skriv farten som andel av ljusfarten och använd Lorentzfaktorn.</p>",
+    "ledtrad": "<p>Vad betyder prefixet M, och vilken blir kvoten mellan farten och ljusfarten?</p>",
     "familjTidigare": [
       "Tidsdilatation och egentid"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.2",
@@ -24749,7 +24751,7 @@ window.BANK2 = [
     "typ": "beräkna gammafaktorn ur farten uttryckt i c",
     "poang": "(1/0/0)",
     "t": "<p>Beräkna gammafaktorn när farten är <em>v</em> = 0,600<em>c</em>.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[\\beta=v/c=0{,}600\\].</div></div></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-\\beta^2}}=\\frac1{\\sqrt{1-0{,}600^2}}=\\frac1{0{,}800}=1{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma=1{,}25\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fartkvoten är redan given: \\(v/c=0{,}600\\)</p><p>Faktorn c i farten försvinner när farten divideras med ljusfarten.</p></li><li><p class=\"facit-rubrik\">Lorentzfaktorn: \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=\\frac1{\\sqrt{1-0{,}600^2}}\\\\&=\\frac1{0{,}800}=1{,}25\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma=1{,}25\\), utan enhet.</p></div>",
     "familj": "Gammafaktorn",
     "formaga": [
       "begrepp",
@@ -24762,10 +24764,12 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "ledtrad": "<p>Identifiera egentiden – den mäts i det system där de två händelserna sker på samma plats. Använd sedan \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>",
+    "ledtrad": "<p>Vilket värde får v/c när farten anges som 0,600c?</p>",
     "familjTidigare": [
       "Tidsdilatation och egentid"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.3",
@@ -24775,7 +24779,7 @@ window.BANK2 = [
     "typ": "bestämma farten ur en given gammafaktor",
     "poang": "(1/0/0)",
     "t": "<p>Vilken fart har man om gammafaktorn är <em>γ</em>= 2,0?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><p class=\"facit-metod\">Lös ut \\(v/c\\) ur Lorentzfaktorn.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-v^2/c^2}}\\Rightarrow \\frac vc=\\sqrt{1-\\frac1{\\gamma^2}}\\]\\[v=c\\sqrt{1-\\frac1{2{,}0^2}}=0{,}866c=2{,}60\\cdot10^8\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten är \\(2{,}6\\cdot10^8\\ \\mathrm{m/s}\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut farten ur \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}1/\\gamma^2&=1-v^2/c^2\\\\v&=c\\sqrt{1-1/\\gamma^2}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in gamma = 2,0</p><div class=\"facit-matte\">\\[\\begin{aligned}v&=c\\sqrt{1-1/2{,}0^2}\\approx0{,}866c\\\\&\\approx2{,}6\\cdot10^8\\ \\mathrm{m/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}6\\cdot10^8\\) m/s.</p></div>",
     "familj": "Gammafaktorn",
     "formaga": [
       "begrepp",
@@ -24788,10 +24792,12 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s",
-    "ledtrad": "<p>Identifiera egentiden – den mäts i det system där de två händelserna sker på samma plats. Använd sedan \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>",
+    "ledtrad": "<p>Lös ut v/c ur gammaformeln innan du sätter in gamma = 2,0.</p>",
     "familjTidigare": [
       "Tidsdilatation och egentid"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.4",
@@ -24801,7 +24807,7 @@ window.BANK2 = [
     "typ": "bestämma farten ur en given gammafaktor uttryckt i c",
     "poang": "(1/0/0)",
     "t": "<p>Vilken fart har man om gammafaktorn är <em>γ</em> = 5,0? (Svara uttryckt i <em>c</em>.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd den utlösta formen</p><div class=\"facit-matte\">\\[v/c=\\sqrt{1-1/\\gamma^2}\\].</div></div></li><li><div class=\"facit-matte\">\\[\\frac vc=\\sqrt{1-\\frac1{5{,}0^2}}=\\sqrt{0{,}960}=0{,}980\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v\\approx0{,}98c\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Farten som andel av c: \\(v/c=\\sqrt{1-1/\\gamma^2}\\)</p><p>Här söker vi bara andelen av c, så inget numeriskt värde på ljusfarten behövs.</p></li><li><p class=\"facit-rubrik\">Sätt in gamma = 5,0</p><div class=\"facit-matte\">\\[\\begin{aligned}v/c&=\\sqrt{1-1/5{,}0^2}\\\\&=\\sqrt{0{,}96}\\approx0{,}980\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten är cirka 0,98c.</p></div>",
     "familj": "Gammafaktorn",
     "formaga": [
       "begrepp",
@@ -24814,10 +24820,12 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "c",
-    "ledtrad": "<p>Använd den utlösta formen \\(v/c=\\sqrt{1-1/\\gamma^2}\\). Identifiera egentiden – den mäts i det system där de två händelserna sker på samma plats.</p>",
+    "ledtrad": "<p>Lös ut fartkvoten ur gammaformeln. Svaret ska vara en andel av c.</p>",
     "familjTidigare": [
       "Tidsdilatation och egentid"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.5",
@@ -24827,7 +24835,7 @@ window.BANK2 = [
     "typ": "beräkna dilaterad tid ur egentiden",
     "poang": "(2/0/0)",
     "t": "<p>Ombord på ett rymdskepp med farten 0,50<em>c</em> sover en astronaut i 6,0 h. Hur lång tid tycker vi på jorden att astronauten sover?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><p class=\"facit-metod\">Sömnen sker på en och samma plats i astronautens referenssystem, så \\(6{,}0\\ \\mathrm h\\) är egentiden \\(\\Delta\\tau\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-0{,}50^2}}=1{,}155\\]\\[\\Delta t=\\gamma\\Delta\\tau=1{,}155\\cdot6{,}0=6{,}93\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> På jorden mäter vi cirka \\(6{,}9\\ \\mathrm h\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Astronautens klocka mäter egentiden \\(\\tau=6{,}0\\) h</p><p>Astronauten somnar och vaknar på samma plats i skeppet. Jordens observatörer mäter ett längre tidsintervall mellan dessa händelser.</p></li><li><p class=\"facit-rubrik\">Tidsdilatation: \\(t=\\tau/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[t=\\frac{6{,}0}{\\sqrt{1-0{,}50^2}}\\approx6{,}93\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Jorden mäter cirka 6,9 h.</p></div>",
     "familj": "Tidsdilatation och egentid",
     "formaga": [
       "begrepp",
@@ -24840,7 +24848,9 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "h",
-    "ledtrad": "<p>Sömnen sker på en och samma plats i astronautens referenssystem, så \\(6{,}0\\ \\mathrm h\\) är egentiden \\(\\Delta\\tau\\).</p>"
+    "ledtrad": "<p>Sömnen sker på en och samma plats i astronautens referenssystem, så \\(6{,}0\\ \\mathrm h\\) är egentiden \\(\\Delta\\tau\\).</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.6",
@@ -24850,7 +24860,7 @@ window.BANK2 = [
     "typ": "bestämma egentiden ur uppmätt livslängd",
     "poang": "(0/2/0)",
     "t": "<p>En partikel har farten \\(2{,}70\\cdot10^{8}\\) m/s. Vid den farten är dess livslängd \\(4{,}76\\cdot10^{-6}\\) s. Vilken livslängd har partikeln i vila?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><p class=\"facit-metod\">Laboratoriets livslängd är dilaterad.</p></li><li><p class=\"facit-metod\">Livslängden i partikelns vilosystem är egentiden.</p></li><li><div class=\"facit-matte\">\\[\\beta=\\frac{2{,}70\\cdot10^8}{3{,}00\\cdot10^8}=0{,}900,\\qquad \\gamma=\\frac1{\\sqrt{1-0{,}900^2}}=2{,}294\\]\\[\\Delta\\tau=\\frac{\\Delta t}{\\gamma}=\\frac{4{,}76\\cdot10^{-6}}{2{,}294}=2{,}07\\cdot10^{-6}\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vilolivslängden är \\(2{,}07\\ \\mu\\mathrm s\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Livslängden som mäts i partikelns eget vilosystem är egentiden.</p></li><li><p class=\"facit-not\">Laboratoriets längre livslängd är tidsdilaterad, så man ska dividera med \\(\\gamma\\), inte multiplicera.</p></li><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Laboratoriets tid är \\(t=4{,}76\\) μs</p><p>Partikelns vilolivslängd är egentiden. Den är kortare än laboratoriets uppmätta tid.</p></li><li><p class=\"facit-rubrik\">Lös ut egentiden: \\(\\tau=t\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\tau&=4{,}76\\sqrt{1-(2{,}70/3{,}00)^2}\\\\&\\approx2{,}07\\ \\mathrm{\\mu s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vilolivslängden är cirka 2,07 μs med c ≈ 3,00·10⁸ m/s.</p></div>",
     "familj": "Tidsdilatation och egentid",
     "formaga": [
       "procedur"
@@ -24860,7 +24870,9 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Laboratoriets livslängd är dilaterad. Livslängden i partikelns vilosystem är egentiden.</p>"
+    "ledtrad": "<p>Laboratoriets livslängd är dilaterad. Livslängden i partikelns vilosystem är egentiden.</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.7",
@@ -24870,7 +24882,7 @@ window.BANK2 = [
     "typ": "bestämma farten ur egentid och uppmätt livslängd",
     "poang": "(0/2/0)",
     "t": "<p>En pion har i vila livslängden \\(2{,}60\\cdot10^{-8}\\) s. Vilken fart har pionen om dess livstid i stället mäts till \\(4{,}40\\cdot10^{-8}\\) s?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Kvoten mellan den uppmätta tiden och egentiden ger Lorentzfaktorn.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{\\Delta t}{\\Delta\\tau}=\\frac{4{,}40}{2{,}60}=1{,}692\\]\\[\\frac vc=\\sqrt{1-\\frac1{\\gamma^2}}=\\sqrt{1-\\frac1{1{,}692^2}}=0{,}807\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Pionens fart är cirka \\(0{,}807c\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Vilolivslängden är egentiden.</p></li><li><p class=\"facit-not\">Kvoten mellan den längre laboratorietiden och egentiden ger först \\(\\gamma\\); därefter kan farten lösas ut.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tidskvoten ger \\(\\gamma=t/\\tau\\)</p><p>2,60·10⁻⁸ s är egentiden. Den längre tiden 4,40·10⁻⁸ s är uppmätt i laboratoriet.</p><div class=\"facit-matte\">\\[\\gamma=\\frac{4{,}40}{2{,}60}\\approx1{,}692\\]</div></li><li><p class=\"facit-rubrik\">Farten: \\(v/c=\\sqrt{1-1/\\gamma^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}v/c&=\\sqrt{1-(2{,}60/4{,}40)^2}\\\\&\\approx0{,}807\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Pionens fart är cirka 0,807c.</p></div>",
     "familj": "Gammafaktorn",
     "formaga": [
       "procedur"
@@ -24885,7 +24897,9 @@ window.BANK2 = [
     "ledtrad": "<p>Kvoten mellan den uppmätta tiden och egentiden ger Lorentzfaktorn.</p>",
     "familjTidigare": [
       "Tidsdilatation och egentid"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.8",
@@ -24895,7 +24909,7 @@ window.BANK2 = [
     "typ": "beräkna dilaterad tid för en aktivitet ombord",
     "poang": "(2/0/0)",
     "t": "<p>Pelle åker i ett rymdskepp från jorden mot Jupiter med farten 0,75<em>c</em>. Han läser en tidning i 10,0 minuter enligt sin egen klocka. Hur länge läser han enligt våra klockor på jorden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Pelles klocka mäter egentiden eftersom läsningen sker på samma plats i skeppet.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-0{,}75^2}}=1{,}512\\]\\[\\Delta t=\\gamma\\Delta\\tau=1{,}512\\cdot10{,}0=15{,}1\\ \\mathrm{min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Enligt jordens klockor läser Pelle i cirka \\(15\\ \\mathrm{min}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pelles tio minuter är egentiden: \\(\\tau=10{,}0\\) min</p><p>Läsningen sker på samma plats i skeppet, där Pelle håller sin klocka.</p></li><li><p class=\"facit-rubrik\">Jordens tid: \\(t=\\tau/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[t=10{,}0/\\sqrt{1-0{,}75^2}\\approx15{,}1\\ \\mathrm{min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Pelle läser i cirka 15 min enligt jordens klockor.</p></div>",
     "familj": "Tidsdilatation och egentid",
     "formaga": [
       "begrepp",
@@ -24906,7 +24920,9 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Pelles klocka mäter egentiden eftersom läsningen sker på samma plats i skeppet.</p>"
+    "ledtrad": "<p>Pelles klocka mäter egentiden eftersom läsningen sker på samma plats i skeppet.</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.9",
@@ -24944,7 +24960,7 @@ window.BANK2 = [
     "typ": "jämföra tidsdilatation för två observatörer",
     "poang": "(0/2/0)",
     "t": "<p>Ett Klingon-skepp som färdas med farten 0,75<em>c</em> relativt jorden uppfattar att tiden mellan två händelser på samma plats på jorden är 2,0 h. Ett Romulan-skepp med farten 0,94<em>c</em> relativt jorden studerar samma två händelser. Hur lång tid uppfattar romulanerna mellan händelserna?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Händelserna sker på samma plats på jorden, så jordens tidsintervall \\(\\Delta\\tau\\) är egentiden.</p></li><li><p class=\"facit-metod\">Bestäm den först ur klingonernas mätning.</p></li><li><div class=\"facit-matte\">\\[\\gamma_K=\\frac1{\\sqrt{1-0{,}75^2}}=1{,}512\\]\\[\\Delta\\tau=\\frac{2{,}0}{1{,}512}=1{,}323\\ \\mathrm h\\]</div></li><li><p class=\"facit-metod\">Använd sedan romulanernas Lorentzfaktor.</p></li><li><div class=\"facit-matte\">\\[\\gamma_R=\\frac1{\\sqrt{1-0{,}94^2}}=2{,}931\\]\\[\\Delta t_R=\\gamma_R\\Delta\\tau=2{,}931\\cdot1{,}323=3{,}88\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Romulanerna uppfattar tiden som cirka \\(3{,}9\\ \\mathrm h\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jordens tid är egentiden: \\(\\tau=t_K/\\gamma_K\\)</p><p>De båda händelserna sker på samma plats på jorden. Klingonernas två timmar är därför inte egentiden.</p><div class=\"facit-matte\">\\[\\tau=2{,}0\\sqrt{1-0{,}75^2}\\approx1{,}323\\ \\mathrm h\\]</div></li><li><p class=\"facit-rubrik\">Romulanerna mäter \\(t_R=\\gamma_R\\tau\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}t_R&=\\frac{2{,}0\\sqrt{1-0{,}75^2}}{\\sqrt{1-0{,}94^2}}\\\\&\\approx3{,}88\\ \\mathrm h\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Romulanerna mäter cirka 3,9 h.</p></div>",
     "familj": "Tidsdilatation och egentid",
     "formaga": [
       "procedur"
@@ -24956,7 +24972,9 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "h",
-    "ledtrad": "<p>Händelserna sker på samma plats på jorden, så jordens tidsintervall \\(\\Delta\\tau\\) är egentiden. Bestäm den först ur klingonernas mätning.</p>"
+    "ledtrad": "<p>Händelserna sker på samma plats på jorden, så jordens tidsintervall \\(\\Delta\\tau\\) är egentiden. Bestäm den först ur klingonernas mätning.</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.11",
@@ -25278,7 +25296,7 @@ window.BANK2 = [
     "typ": "beräkna myonens livstid sett från jorden",
     "poang": "(2/0/0)",
     "t": "<p>En myon i vila har livstiden \\(2{,}2\\cdot10^{-6}\\) s innan den sönderfaller. Myoner som bildas högt i atmosfären har farten 0,998<em>c</em>. Hur lång livstid tycker vi på jorden att myonen har?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Börja med att skriva upp vad som är känt och vad som söks.</p></li><li><p class=\"facit-metod\">Välj sedan ett fysikaliskt samband som innehåller just dessa storheter och håll enheterna konsekventa.</p></li><li><p class=\"facit-metod\">Myonens vilolivslängd är egentiden.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-0{,}998^2}}=15{,}82\\]\\[\\Delta t=\\gamma\\Delta\\tau=15{,}82\\cdot2{,}2\\cdot10^{-6}=3{,}48\\cdot10^{-5}\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> På jorden mäter vi livslängden till cirka \\(35\\ \\mu\\mathrm s\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten, tecknet och om storleksordningen är rimlig i situationen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Myonens vilolivstid är \\(\\tau=2{,}2\\) μs</p><p>Från jorden rör sig myonen med 0,998c. Jordens uppmätta livstid blir längre än tiden i myonens eget system.</p></li><li><p class=\"facit-rubrik\">Tidsdilatation: \\(t=\\tau/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[t=2{,}2/\\sqrt{1-0{,}998^2}\\approx34{,}8\\ \\mathrm{\\mu s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Livstiden mätt från jorden är cirka 35 μs.</p></div>",
     "familj": "Tidsdilatation och egentid",
     "formaga": [
       "begrepp",
@@ -25297,7 +25315,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Rumtid och referenssystem"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.24",
@@ -25335,7 +25355,7 @@ window.BANK2 = [
     "typ": "beräkna egentid ur tid mätt på jorden",
     "poang": "(2/0/0)",
     "t": "<p>Rymdskeppet Enterprise har avslutat ett uppdrag som tagit 5,0 år. De har färdats med farten 0,70<em>c</em>. Anta att de 5,0 åren är mätta här på jorden. Hur lång tid tycker besättningen att uppdraget tog?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Börja med att skriva upp vad som är känt och vad som söks.</p></li><li><p class=\"facit-metod\">Välj sedan ett fysikaliskt samband som innehåller just dessa storheter och håll enheterna konsekventa.</p></li><li><p class=\"facit-metod\">Jordens \\(5{,}0\\) år är den dilaterade tiden.</p></li><li><p class=\"facit-metod\">Besättningen mäter egentiden.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-0{,}70^2}}=1{,}400\\]\\[\\Delta\\tau=\\frac{\\Delta t}{\\gamma}=\\frac{5{,}0}{1{,}400}=3{,}57\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Besättningen upplever cirka \\(3{,}6\\) år.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten, tecknet och om storleksordningen är rimlig i situationen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jorden har mätt \\(t=5{,}0\\) år</p><p>Besättningens klocka följer med skeppet och mäter den kortare egentiden.</p></li><li><p class=\"facit-rubrik\">Egentid: \\(\\tau=t\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\tau=5{,}0\\sqrt{1-0{,}70^2}\\approx3{,}57\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Besättningen upplever cirka 3,6 år.</p></div>",
     "familj": "Tidsdilatation och egentid",
     "formaga": [
       "begrepp",
@@ -25354,7 +25374,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Rumtid och referenssystem"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.26",
@@ -25364,7 +25386,7 @@ window.BANK2 = [
     "typ": "beräkna tid på jorden ur egentiden ombord",
     "poang": "(2/0/0)",
     "t": "<p>Ett rymdskepp färdas med farten 0,70<em>c</em>. Besättningen mäter uppdragets varaktighet till 5,0 år.</p><p>Hur lång tid går det enligt observatörer på jorden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Börja med att skriva upp vad som är känt och vad som söks.</p></li><li><p class=\"facit-metod\">Välj sedan ett fysikaliskt samband som innehåller just dessa storheter och håll enheterna konsekventa.</p></li><li><p class=\"facit-metod\">Nu är \\(5{,}0\\) år egentiden ombord.</p></li><li><p class=\"facit-metod\">Jordens tid är dilaterad.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-0{,}70^2}}=1{,}400\\]\\[\\Delta t=\\gamma\\Delta\\tau=1{,}400\\cdot5{,}0=7{,}00\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> På jorden går \\(7{,}0\\) år.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten, tecknet och om storleksordningen är rimlig i situationen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Besättningen har mätt \\(\\tau=5{,}0\\) år</p><p>Nu är fem år tiden ombord. Jordens längre tid ska därför beräknas genom division med rotfaktorn.</p></li><li><p class=\"facit-rubrik\">Tidsdilatation: \\(t=\\tau/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[t=5{,}0/\\sqrt{1-0{,}70^2}\\approx7{,}00\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> På jorden går cirka 7,0 år.</p></div>",
     "familj": "Tidsdilatation och egentid",
     "formaga": [
       "begrepp",
@@ -25383,7 +25405,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Rumtid och referenssystem"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.27",
@@ -26777,7 +26801,7 @@ window.BANK2 = [
     "typ": "beräkna tidsdilatationen för en GPS-satellit och det positionsfel den skulle ge, ur text, sökt tidsskillnad och positionsfel",
     "poang": "(1/2/0)",
     "t": "<p>En GPS-satellit rör sig i sin bana med farten 3,87 km/s. Eftersom farten är liten jämfört med ljushastigheten kan gammafaktorn skrivas som γ ≈ 1 + <em>v</em><sup>2</sup>/2<em>c</em><sup>2</sup>.</p><p><strong>a)</strong> Räkna bara med den effekt som farten ger enligt den speciella relativitetsteorin. Bortse från gravitationen och från att klockan på marken också rör sig. Hur mycket mindre tid visar satellitens klocka än en klocka på marken under ett dygn?</p><p><strong>b)</strong> GPS bestämmer avstånd genom att mäta hur länge en radiosignal är på väg. Hur stort fel i det beräknade signalavståndet skulle tidsskillnaden i a) ge upphov till om den inte korrigerades?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{v}{c}=\\frac{3{,}87\\cdot10^3}{2{,}998\\cdot10^8}=1{,}291\\cdot10^{-5}\\]\\[\\gamma-1=\\frac{v^2}{2c^2}=\\frac{(1{,}291\\cdot10^{-5})^2}{2}=8{,}33\\cdot10^{-11}\\]\\[\\Delta t=86400\\cdot8{,}33\\cdot10^{-11}=7{,}2\\cdot10^{-6}\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Satellitens klocka ligger efter med cirka \\(7{,}2\\ \\mathrm{\\mu s}\\) per dygn.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=c\\,\\Delta t=2{,}998\\cdot10^8\\cdot7{,}2\\cdot10^{-6}=2{,}2\\cdot10^3\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Felet skulle bli cirka \\(2{,}2\\ \\mathrm{km}\\) efter ett dygn.</p></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Att en effekt är liten betyder inte att den är betydelselös.</p></li><li><p class=\"facit-not\">Gammafaktorn avviker här först i elfte decimalen, men eftersom ljuset hinner 300 m på varje mikrosekund blir felet snabbt oacceptabelt.</p></li><li><p class=\"facit-not\">GPS-systemet måste därför bygga på relativitetsteorin för att fungera.</p></li><li><p class=\"facit-not\">Utöver den här effekten finns också en motverkande effekt från den allmänna relativitetsteorin, eftersom satelliten befinner sig högre upp i jordens gravitationsfält.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Satellitens fart är \\(v=3870\\) m/s</p><p>Ett dygn är 86400 s. Här räknas bara hastighetseffekten; gravitationen och markklockans rörelse har uttryckligen uteslutits.</p></li><li><p class=\"facit-rubrik\">Tidsförlust vid liten fart: \\(\\delta t\\approx t\\,v^2/(2c^2)\\)</p><p>Satellitens egentid är \\(\\tau=t/\\gamma\\). När gamma är nära 1 blir \\(t-\\tau\\approx t(\\gamma-1)\\).</p><div class=\"facit-matte\">\\[\\begin{aligned}\\delta t&\\approx86400\\cdot\\frac{3870^2}{2(2{,}998\\cdot10^8)^2}\\\\&\\approx7{,}20\\cdot10^{-6}\\ \\mathrm s\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Satellitklockan visar cirka 7,2 μs mindre tid per dygn i denna modell.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tidsfel ger signalavståndsfel: \\(\\delta s=c\\,\\delta t\\)</p><p>Radiosignalen rör sig med ljusfarten. Ett fel på 7,2 μs i gångtiden tolkas därför som ett fel i signalavståndet.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\delta s&=2{,}998\\cdot10^8\\cdot7{,}2\\cdot10^{-6}\\\\&\\approx2{,}16\\cdot10^3\\ \\mathrm m\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Skilj signalavstånd från mottagarens position</p><p>Beräkningen gäller ett enskilt signalavstånd. Den ger inte ensam en exakt positionsavvikelse för en GPS-mottagare, som använder flera satelliter och en klockkorrigering.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det beräknade signalavståndet kan bli cirka 2,2 km fel för den givna tidsavvikelsen.</p></div></div></div></div>",
     "familj": "Tidsdilatation och egentid",
     "formaga": [
       "modellering",
@@ -26788,26 +26812,28 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Identifiera egentiden – den mäts i det system där de två händelserna sker på samma plats. Använd sedan \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>",
+    "ledtrad": "<p>Börja med den lilla relativa skillnaden mellan satellitens klocka och markklockan. Hur mycket hinner skillnaden växa på ett dygn?</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
         "t": "<p>En GPS-satellit rör sig i sin bana med farten 3,87 km/s. Eftersom farten är liten jämfört med ljushastigheten kan gammafaktorn skrivas som γ ≈ 1 + <em>v</em><sup>2</sup>/2<em>c</em><sup>2</sup>.</p><div class=\"spel-en-del\"><p>Räkna bara med den effekt som farten ger enligt den speciella relativitetsteorin. Bortse från gravitationen och från att klockan på marken också rör sig. Hur mycket mindre tid visar satellitens klocka än en klocka på marken under ett dygn?</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{v}{c}=\\frac{3{,}87\\cdot10^3}{2{,}998\\cdot10^8}=1{,}291\\cdot10^{-5}\\]\\[\\gamma-1=\\frac{v^2}{2c^2}=\\frac{(1{,}291\\cdot10^{-5})^2}{2}=8{,}33\\cdot10^{-11}\\]\\[\\Delta t=86400\\cdot8{,}33\\cdot10^{-11}=7{,}2\\cdot10^{-6}\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Satellitens klocka ligger efter med cirka \\(7{,}2\\ \\mathrm{\\mu s}\\) per dygn.</p></div></div>",
-        "ledtrad": "<p>Identifiera egentiden – den mäts i det system där de två händelserna sker på samma plats. Använd sedan \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Satellitens fart är \\(v=3870\\) m/s</p><p>Ett dygn är 86400 s. Här räknas bara hastighetseffekten; gravitationen och markklockans rörelse har uttryckligen uteslutits.</p></li><li><p class=\"facit-rubrik\">Tidsförlust vid liten fart: \\(\\delta t\\approx t\\,v^2/(2c^2)\\)</p><p>Satellitens egentid är \\(\\tau=t/\\gamma\\). När gamma är nära 1 blir \\(t-\\tau\\approx t(\\gamma-1)\\).</p><div class=\"facit-matte\">\\[\\begin{aligned}\\delta t&\\approx86400\\cdot\\frac{3870^2}{2(2{,}998\\cdot10^8)^2}\\\\&\\approx7{,}20\\cdot10^{-6}\\ \\mathrm s\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Satellitklockan visar cirka 7,2 μs mindre tid per dygn i denna modell.</p></div>",
+        "ledtrad": "<p>Använd approximationen för gamma. Ett dygn är 86400 s; sök skillnaden mellan markens tid och satellitens egentid.</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "b",
         "t": "<p>En GPS-satellit rör sig med farten \\(3{,}87\\ \\mathrm{km/s}\\). Om man enbart tar hänsyn till den speciella relativitetsteorins hastighetseffekt ligger satellitens klocka efter en markklocka med cirka \\(7{,}2\\ \\mathrm{\\mu s}\\) efter ett dygn.</p><p>GPS bestämmer avstånd genom signalers gångtid. Hur stort fel i det beräknade signalavståndet skulle denna tidsskillnad ge om den inte korrigerades?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett tidsfel \\(\\Delta t\\) motsvarar den sträcka ljuset hinner färdas under samma tid.</p></li><li><div class=\"facit-matte\">\\[s=c\\Delta t=2{,}998\\cdot10^8\\cdot7{,}2\\cdot10^{-6}=2{,}16\\cdot10^3\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndsfelet blir cirka \\(2{,}2\\ \\mathrm{km}\\) efter ett dygn.</p></div></div>",
-        "ledtrad": "<p>Identifiera egentiden – den mäts i det system där de två händelserna sker på samma plats. Använd sedan \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tidsfel ger signalavståndsfel: \\(\\delta s=c\\,\\delta t\\)</p><p>Radiosignalen rör sig med ljusfarten. Ett fel på 7,2 μs i gångtiden tolkas därför som ett fel i signalavståndet.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\delta s&=2{,}998\\cdot10^8\\cdot7{,}2\\cdot10^{-6}\\\\&\\approx2{,}16\\cdot10^3\\ \\mathrm m\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Skilj signalavstånd från mottagarens position</p><p>Beräkningen gäller ett enskilt signalavstånd. Den ger inte ensam en exakt positionsavvikelse för en GPS-mottagare, som använder flera satelliter och en klockkorrigering.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det beräknade signalavståndet kan bli cirka 2,2 km fel för den givna tidsavvikelsen.</p></div>",
+        "ledtrad": "<p>Hur långt färdas en radiosignal på den givna tidsskillnaden? Använd ljusfarten.</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.59",
@@ -26817,7 +26843,7 @@ window.BANK2 = [
     "typ": "beräkna tidsdilatation från fart och egentid",
     "poang": "(2/0/0)",
     "t": "<p>Ett rymdskepp rör sig med farten 0,8c. Ombord går 5 år mellan två händelser på samma plats i skeppet.</p><p>Hur lång tid går enligt jorden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><p class=\"facit-metod\">Tiden ombord är egentiden \\(\\Delta\\tau\\).</p></li><li><div class=\"facit-berakning\"><p>I jordens system gäller</p><div class=\"facit-matte\">\\[\\Delta t=\\gamma\\Delta\\tau\\].</div></div></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}8^2}}=1{,}667\\]\\[\\Delta t=1{,}667\\cdot5{,}0=8{,}333\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Jorden mäter cirka \\(8{,}333\\) år.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma plats i skeppet innebär egentiden \\(\\tau=5\\) år</p><p>De två händelserna sker på samma plats ombord. Tiden mellan dem mätt från jorden är tidsdilaterad.</p></li><li><p class=\"facit-rubrik\">Jordens tid: \\(t=\\tau/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}t&=5/\\sqrt{1-0{,}8^2}\\\\&=5/0{,}6\\approx8{,}33\\ \\mathrm{år}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 8,3 år enligt jorden.</p></div>",
     "familj": "Tidsdilatation och egentid",
     "familjNyckel": "tidsdilatation__tidsdilatation_och_egentid",
     "formaga": [
@@ -26830,7 +26856,9 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "år",
-    "ledtrad": "<p>Tiden ombord är egentiden \\(\\Delta\\tau\\). I jordens system gäller \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>"
+    "ledtrad": "<p>Tiden ombord är egentiden \\(\\Delta\\tau\\). I jordens system gäller \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.60",
@@ -26840,7 +26868,7 @@ window.BANK2 = [
     "typ": "beräkna tidsdilatation från fart och egentid",
     "poang": "(1/2/0)",
     "t": "<p>Ett rymdskepp rör sig med farten 0,95c. Ombord går 2 år mellan två händelser på samma plats i skeppet.</p><p>Hur lång tid går enligt jorden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><p class=\"facit-metod\">Tiden ombord är egentiden \\(\\Delta\\tau\\).</p></li><li><div class=\"facit-berakning\"><p>I jordens system gäller</p><div class=\"facit-matte\">\\[\\Delta t=\\gamma\\Delta\\tau\\].</div></div></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}95^2}}=3{,}203\\]\\[\\Delta t=3{,}203\\cdot2{,}0=6{,}405\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Jorden mäter cirka \\(6{,}405\\) år.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två år ombord är egentiden \\(\\tau=2\\) år</p><p>Jordens observatörer ser skeppet röra sig med 0,95c och mäter ett längre tidsintervall.</p></li><li><p class=\"facit-rubrik\">Tidsdilatation: \\(t=\\tau/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[t=2/\\sqrt{1-0{,}95^2}\\approx6{,}405\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 6,4 år enligt jorden.</p></div>",
     "familj": "Tidsdilatation och egentid",
     "familjNyckel": "tidsdilatation__tidsdilatation_och_egentid",
     "formaga": [
@@ -26853,7 +26881,9 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "år",
-    "ledtrad": "<p>Tiden ombord är egentiden \\(\\Delta\\tau\\). I jordens system gäller \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>"
+    "ledtrad": "<p>Tiden ombord är egentiden \\(\\Delta\\tau\\). I jordens system gäller \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>",
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.61",
@@ -26863,7 +26893,7 @@ window.BANK2 = [
     "typ": "bestäm relativistisk fart från tidsdilatationsfaktor",
     "poang": "(1/2/0)",
     "t": "<p>En observatör på jorden mäter en tidsintervall som är dubbelt så lång som egentiden ombord på ett snabbt skepp.</p><p>Bestäm skeppets fart som andel av ljushastigheten c.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm observatörens referenssystem och vilken tid eller längd som är egenstorheten.</p></li><li><p class=\"facit-metod\">Beräkna Lorentzfaktorn innan du använder relativitetssambandet.</p></li><li><div class=\"facit-berakning\"><p>Förhållandet är</p><div class=\"facit-matte\">\\[\\gamma=\\Delta t/\\Delta\\tau=2\\].</div></div></li><li><div class=\"facit-berakning\"><p>Lös</p><div class=\"facit-matte\">\\[\\gamma=1/\\sqrt{1-\\beta^2}\\].</div></div></li><li><div class=\"facit-matte\">\\[\\beta=\\sqrt{1-\\frac1{\\gamma^2}}=\\sqrt{1-\\frac14}=0{,}866\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten är cirka \\(0{,}866c\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> För fart under ljushastigheten ska \\(\\gamma\\ge1\\).</p></li><li><p class=\"facit-not\">Egenlängden är störst och egentiden är kortast.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbel tid ger \\(\\gamma=t/\\tau=2\\)</p><p>Gamma anger just hur många gånger större jordens intervall är än egentiden ombord.</p></li><li><p class=\"facit-rubrik\">Lös ut fartkvoten: \\(v/c=\\sqrt{1-1/\\gamma^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}v/c&=\\sqrt{1-1/2^2}\\\\&=\\sqrt{3}/2\\approx0{,}866\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten är cirka 0,866c.</p></div>",
     "familj": "Gammafaktorn",
     "familjNyckel": "tidsdilatation__tidsdilatation_och_egentid",
     "formaga": [
@@ -26878,7 +26908,9 @@ window.BANK2 = [
     "ledtrad": "<p>Förhållandet är \\(\\gamma=\\Delta t/\\Delta\\tau=2\\). Lös \\(\\gamma=1/\\sqrt{1-\\beta^2}\\).</p>",
     "familjTidigare": [
       "Tidsdilatation och egentid"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "4.52",
@@ -43300,7 +43332,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>Ett rymdskepp rör sig med farten \\(0{,}80c\\) relativt jorden. Bestäm Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom farten anges som \\(0{,}80c\\) blir kvoten \\(v/c=0{,}80\\).</p></li><li><p>Sätt den direkt i Lorentzfaktorn:</p></li><li><p>\\[\\gamma=\\frac{1}{\\sqrt{1-(v/c)^2}}=\\frac{1}{\\sqrt{1-0{,}80^2}}=\\frac{1}{0{,}60}\\approx1{,}67.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx1{,}67\\). Att \\(\\gamma\\gt 1\\) är väntat för varje fart större än noll.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fartkvoten för skeppet är \\(v/c=0{,}80\\)</p><p>Gamma beror på denna dimensionslösa kvot, inte på farten uttryckt i en särskild enhet.</p></li><li><p class=\"facit-rubrik\">Lorentzfaktorn: \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=1/\\sqrt{1-0{,}80^2}\\\\&=1/0{,}60\\approx1{,}67\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx1{,}67\\).</p></div>",
     "familj": "Gammafaktorn",
     "formaga": [
       "procedur"
@@ -43312,13 +43344,14 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "miniräknare": true,
-    "ledtrad": "<p>Börja med att ange vilket referenssystem varje mätning görs i. Avgör sedan vilka storheter som är invarianta och vilka som beror på observatörens rörelse.</p>",
+    "ledtrad": "<p>Sätt fartkvoten 0,80 i uttrycket för gamma.</p>",
     "omrTidigare": [
       "tid_och_langd"
     ],
     "familjTidigare": [
       "Rumtid och referenssystem"
-    ]
+    ],
+    "geogebra": false
   },
   {
     "id": "6.302",
@@ -43327,7 +43360,7 @@ window.BANK2 = [
     "niva": "A",
     "poang": "(0/1/3)",
     "t": "<p>Myoner bildas högt upp i atmosfären, 15 km över marken, och rör sig nedåt med farten \\(0{,}995c\\). I sitt eget vilosystem har myoner halveringstiden 1,56 µs.</p><p>Hur stor andel av myonerna når marken? Jämför med vad man skulle få utan relativitetsteori. (Svara i procent.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tid i jordens system: \\(t=\\dfrac{15\\,000}{0{,}995\\cdot3{,}00\\cdot10^8}\\approx50{,}3\\) µs.</p></li><li><div class=\"facit-berakning\"><p>Gammafaktorn:</p><div class=\"facit-matte\">\\[\\gamma=\\dfrac1{\\sqrt{1-0{,}995^2}}\\approx10{,}0\\].</div></div></li><li><p>Halveringstiden mätt från jorden blir \\(\\gamma\\cdot1{,}56\\approx15{,}6\\) µs.</p></li><li><p>Antal halveringar: \\(\\frac{50{,}3}{15{,}6}\\approx3{,}22\\).</p></li><li><p>Andel kvar: \\(0{,}5^{3{,}22}\\approx0{,}108\\), alltså cirka 10,8 %.</p></li><li><p>Utan tidsdilatation skulle det bli \\(\\frac{50{,}3}{1{,}56}\\approx32\\) halveringar och andelen \\(0{,}5^{32}\\approx2\\cdot10^{-10}\\).</p></li><li><p>Nästan inga myoner skulle nå marken.</p></li><li><p>Att man faktiskt mäter många myoner vid marken är ett tydligt belägg för tidsdilatation.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 10,8 %</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Färdtid i jordens system: \\(t=L/v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}t&=15000/(0{,}995c)\\\\&\\approx50{,}3\\ \\mathrm{\\mu s}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Myonens egentid: \\(\\tau=t\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\tau\\approx50{,}3\\sqrt{1-0{,}995^2}\\approx5{,}02\\ \\mathrm{\\mu s}\\]</div></li><li><p class=\"facit-rubrik\">Andelen kvar: \\(f=2^{-\\tau/T_{1/2}}\\)</p><p>1,56 μs är halveringstiden i myonens system, inte medellivslängden.</p><div class=\"facit-matte\">\\[f\\approx2^{-5{,}02/1{,}56}\\approx0{,}108\\]</div></li><li><p class=\"facit-rubrik\">Utan relativitet används jordtiden direkt i sönderfallet</p><div class=\"facit-matte\">\\[\\begin{aligned}f_{\\rm klassisk}&=2^{-50{,}3/1{,}56}\\\\&\\approx2{,}0\\cdot10^{-10}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 10,8 % når marken. Utan relativitet blir andelen cirka 2·10⁻¹⁰, alltså cirka 2·10⁻⁸ %.</p></div>",
     "familj": "Tidsdilatation och egentid",
     "formaga": [
       "problemlösning",
@@ -56268,7 +56301,7 @@ window.BANK2 = [
   "poang": "(1/0/0)",
   "typ": "fart ur graf för gammafaktorn",
   "t": "<p>Tidsdilatation: \\(\\Delta t=\\gamma\\,\\Delta t_0\\), där \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p><p>Figuren visar \\(\\gamma\\) som funktion av \\(v/c\\). Vid vilken fart är \\(\\gamma=2\\)? (Svara uttryckt i c med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 330\" role=\"img\" aria-label=\"Gammafaktorn som funktion av v/c. Kurvan börjar i 1, är nästan vågrät för små farter och växer brant när v närmar sig c. En streckad linje visar γ = 2.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"85.0\" y1=\"22\" x2=\"85.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"122.0\" y1=\"22\" x2=\"122.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"159.0\" y1=\"22\" x2=\"159.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"196.0\" y1=\"22\" x2=\"196.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"233.0\" y1=\"22\" x2=\"233.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"270.0\" y1=\"22\" x2=\"270.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"307.0\" y1=\"22\" x2=\"307.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"344.0\" y1=\"22\" x2=\"344.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"381.0\" y1=\"22\" x2=\"381.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"418.0\" y1=\"22\" x2=\"418.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"288.0\" x2=\"418\" y2=\"288.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"265.8\" x2=\"418\" y2=\"265.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"243.7\" x2=\"418\" y2=\"243.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"221.5\" x2=\"418\" y2=\"221.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"199.3\" x2=\"418\" y2=\"199.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"177.2\" x2=\"418\" y2=\"177.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"155.0\" x2=\"418\" y2=\"155.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"132.8\" x2=\"418\" y2=\"132.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"110.7\" x2=\"418\" y2=\"110.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"88.5\" x2=\"418\" y2=\"88.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"66.3\" x2=\"418\" y2=\"66.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"44.2\" x2=\"418\" y2=\"44.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"418\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"288.0\" x2=\"428\" y2=\"288.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"432,288.0 422,283.0 422,293.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"288\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"430\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">v/c</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">γ</text><text x=\"85.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,1</text><text x=\"122.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,2</text><text x=\"159.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,3</text><text x=\"196.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,4</text><text x=\"233.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,5</text><text x=\"270.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,6</text><text x=\"307.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,7</text><text x=\"344.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,8</text><text x=\"381.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,9</text><text x=\"418.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"247.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"203.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"159.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"42.0\" y=\"114.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"70.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kfba7d3ac\"><rect x=\"48\" y=\"22\" width=\"370\" height=\"266\"/></clipPath><polyline clip-path=\"url(#kfba7d3ac)\" points=\"48.0,243.7 48.9,243.7 49.9,243.7 50.8,243.7 51.7,243.7 52.6,243.7 53.5,243.7 54.5,243.7 55.4,243.7 56.3,243.7 57.2,243.7 58.2,243.6 59.1,243.6 60.0,243.6 61.0,243.6 61.9,243.6 62.8,243.6 63.7,243.6 64.7,243.6 65.6,243.6 66.5,243.6 67.4,243.6 68.3,243.6 69.3,243.6 70.2,243.6 71.1,243.6 72.0,243.6 73.0,243.6 73.9,243.6 74.8,243.5 75.8,243.5 76.7,243.5 77.6,243.5 78.5,243.5 79.5,243.5 80.4,243.5 81.3,243.5 82.2,243.5 83.2,243.5 84.1,243.5 85.0,243.4 85.9,243.4 86.8,243.4 87.8,243.4 88.7,243.4 89.6,243.4 90.6,243.4 91.5,243.4 92.4,243.3 93.3,243.3 94.2,243.3 95.2,243.3 96.1,243.3 97.0,243.3 98.0,243.3 98.9,243.2 99.8,243.2 100.7,243.2 101.7,243.2 102.6,243.2 103.5,243.2 104.4,243.1 105.3,243.1 106.3,243.1 107.2,243.1 108.1,243.1 109.1,243.1 110.0,243.0 110.9,243.0 111.8,243.0 112.8,243.0 113.7,243.0 114.6,242.9 115.5,242.9 116.5,242.9 117.4,242.9 118.3,242.8 119.2,242.8 120.2,242.8 121.1,242.8 122.0,242.8 122.9,242.7 123.8,242.7 124.8,242.7 125.7,242.7 126.6,242.6 127.5,242.6 128.5,242.6 129.4,242.6 130.3,242.5 131.2,242.5 132.2,242.5 133.1,242.4 134.0,242.4 134.9,242.4 135.9,242.4 136.8,242.3 137.7,242.3 138.6,242.3 139.6,242.2 140.5,242.2 141.4,242.2 142.4,242.2 143.3,242.1 144.2,242.1 145.1,242.1 146.1,242.0 147.0,242.0 147.9,242.0 148.8,241.9 149.8,241.9 150.7,241.9 151.6,241.8 152.5,241.8 153.4,241.7 154.4,241.7 155.3,241.7 156.2,241.6 157.1,241.6 158.1,241.6 159.0,241.5 159.9,241.5 160.8,241.4 161.8,241.4 162.7,241.4 163.6,241.3 164.6,241.3 165.5,241.2 166.4,241.2 167.3,241.2 168.2,241.1 169.2,241.1 170.1,241.0 171.0,241.0 171.9,240.9 172.9,240.9 173.8,240.9 174.7,240.8 175.6,240.8 176.6,240.7 177.5,240.7 178.4,240.6 179.3,240.6 180.3,240.5 181.2,240.5 182.1,240.4 183.0,240.4 184.0,240.3 184.9,240.3 185.8,240.2 186.8,240.2 187.7,240.1 188.6,240.1 189.5,240.0 190.5,240.0 191.4,239.9 192.3,239.9 193.2,239.8 194.2,239.7 195.1,239.7 196.0,239.6 196.9,239.6 197.9,239.5 198.8,239.5 199.7,239.4 200.6,239.3 201.5,239.3 202.5,239.2 203.4,239.1 204.3,239.1 205.2,239.0 206.2,239.0 207.1,238.9 208.0,238.8 208.9,238.8 209.9,238.7 210.8,238.6 211.7,238.6 212.7,238.5 213.6,238.4 214.5,238.4 215.4,238.3 216.3,238.2 217.3,238.1 218.2,238.1 219.1,238.0 220.1,237.9 221.0,237.8 221.9,237.8 222.8,237.7 223.8,237.6 224.7,237.5 225.6,237.5 226.5,237.4 227.4,237.3 228.4,237.2 229.3,237.1 230.2,237.1 231.2,237.0 232.1,236.9 233.0,236.8 233.9,236.7 234.8,236.6 235.8,236.5 236.7,236.5 237.6,236.4 238.6,236.3 239.5,236.2 240.4,236.1 241.3,236.0 242.2,235.9 243.2,235.8 244.1,235.7 245.0,235.6 246.0,235.5 246.9,235.4 247.8,235.3 248.7,235.2 249.7,235.1 250.6,235.0 251.5,234.9 252.4,234.8 253.4,234.7 254.3,234.6 255.2,234.5 256.1,234.4 257.0,234.3 258.0,234.2 258.9,234.0 259.8,233.9 260.8,233.8 261.7,233.7 262.6,233.6 263.5,233.5 264.4,233.3 265.4,233.2 266.3,233.1 267.2,233.0 268.1,232.8 269.1,232.7 270.0,232.6 270.9,232.5 271.9,232.3 272.8,232.2 273.7,232.1 274.6,231.9 275.5,231.8 276.5,231.6 277.4,231.5 278.3,231.4 279.2,231.2 280.2,231.1 281.1,230.9 282.0,230.8 283.0,230.6 283.9,230.5 284.8,230.3 285.7,230.1 286.6,230.0 287.6,229.8 288.5,229.7 289.4,229.5 290.4,229.3 291.3,229.2 292.2,229.0 293.1,228.8 294.1,228.6 295.0,228.5 295.9,228.3 296.8,228.1 297.8,227.9 298.7,227.7 299.6,227.5 300.5,227.3 301.5,227.1 302.4,227.0 303.3,226.7 304.2,226.5 305.1,226.3 306.1,226.1 307.0,225.9 307.9,225.7 308.8,225.5 309.8,225.3 310.7,225.0 311.6,224.8 312.6,224.6 313.5,224.4 314.4,224.1 315.3,223.9 316.2,223.6 317.2,223.4 318.1,223.1 319.0,222.9 319.9,222.6 320.9,222.4 321.8,222.1 322.7,221.8 323.6,221.5 324.6,221.3 325.5,221.0 326.4,220.7 327.4,220.4 328.3,220.1 329.2,219.8 330.1,219.5 331.1,219.2 332.0,218.8 332.9,218.5 333.8,218.2 334.8,217.8 335.7,217.5 336.6,217.2 337.5,216.8 338.4,216.4 339.4,216.1 340.3,215.7 341.2,215.3 342.2,214.9 343.1,214.5 344.0,214.1 344.9,213.7 345.9,213.3 346.8,212.8 347.7,212.4 348.6,212.0 349.5,211.5 350.5,211.0 351.4,210.5 352.3,210.1 353.2,209.6 354.2,209.0 355.1,208.5 356.0,208.0 356.9,207.4 357.9,206.9 358.8,206.3 359.7,205.7 360.6,205.1 361.6,204.5 362.5,203.8 363.4,203.2 364.3,202.5 365.3,201.8 366.2,201.1 367.1,200.4 368.1,199.6 369.0,198.9 369.9,198.1 370.8,197.3 371.8,196.4 372.7,195.6 373.6,194.7 374.5,193.7 375.4,192.8 376.4,191.8 377.3,190.8 378.2,189.7 379.2,188.6 380.1,187.5 381.0,186.3 381.9,185.1 382.9,183.8 383.8,182.5 384.7,181.1 385.6,179.6 386.6,178.1 387.5,176.5 388.4,174.9 389.3,173.1 390.2,171.3 391.2,169.4 392.1,167.4 393.0,165.3 394.0,163.0 394.9,160.6 395.8,158.1 396.7,155.3 397.6,152.5 398.6,149.4 399.5,146.0 400.4,142.4 401.3,138.5 402.3,134.3 403.2,129.7 404.1,124.6 405.1,119.0 406.0,112.7 406.9,105.6 407.8,97.6 408.8,88.5 409.7,77.8 410.6,65.2 411.5,50.0 412.4,31.1 413.4,6.7 414.3,-26.3 415.2,-74.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"381.0\" y=\"48.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">γ</text><polyline clip-path=\"url(#kfba7d3ac)\" points=\"48.0,199.3 48.9,199.3 49.9,199.3 50.8,199.3 51.7,199.3 52.6,199.3 53.5,199.3 54.5,199.3 55.4,199.3 56.3,199.3 57.2,199.3 58.2,199.3 59.1,199.3 60.0,199.3 61.0,199.3 61.9,199.3 62.8,199.3 63.7,199.3 64.7,199.3 65.6,199.3 66.5,199.3 67.4,199.3 68.3,199.3 69.3,199.3 70.2,199.3 71.1,199.3 72.0,199.3 73.0,199.3 73.9,199.3 74.8,199.3 75.8,199.3 76.7,199.3 77.6,199.3 78.5,199.3 79.5,199.3 80.4,199.3 81.3,199.3 82.2,199.3 83.2,199.3 84.1,199.3 85.0,199.3 85.9,199.3 86.8,199.3 87.8,199.3 88.7,199.3 89.6,199.3 90.6,199.3 91.5,199.3 92.4,199.3 93.3,199.3 94.2,199.3 95.2,199.3 96.1,199.3 97.0,199.3 98.0,199.3 98.9,199.3 99.8,199.3 100.7,199.3 101.7,199.3 102.6,199.3 103.5,199.3 104.4,199.3 105.3,199.3 106.3,199.3 107.2,199.3 108.1,199.3 109.1,199.3 110.0,199.3 110.9,199.3 111.8,199.3 112.8,199.3 113.7,199.3 114.6,199.3 115.5,199.3 116.5,199.3 117.4,199.3 118.3,199.3 119.2,199.3 120.2,199.3 121.1,199.3 122.0,199.3 122.9,199.3 123.8,199.3 124.8,199.3 125.7,199.3 126.6,199.3 127.5,199.3 128.5,199.3 129.4,199.3 130.3,199.3 131.2,199.3 132.2,199.3 133.1,199.3 134.0,199.3 134.9,199.3 135.9,199.3 136.8,199.3 137.7,199.3 138.6,199.3 139.6,199.3 140.5,199.3 141.4,199.3 142.4,199.3 143.3,199.3 144.2,199.3 145.1,199.3 146.1,199.3 147.0,199.3 147.9,199.3 148.8,199.3 149.8,199.3 150.7,199.3 151.6,199.3 152.5,199.3 153.4,199.3 154.4,199.3 155.3,199.3 156.2,199.3 157.1,199.3 158.1,199.3 159.0,199.3 159.9,199.3 160.8,199.3 161.8,199.3 162.7,199.3 163.6,199.3 164.6,199.3 165.5,199.3 166.4,199.3 167.3,199.3 168.2,199.3 169.2,199.3 170.1,199.3 171.0,199.3 171.9,199.3 172.9,199.3 173.8,199.3 174.7,199.3 175.6,199.3 176.6,199.3 177.5,199.3 178.4,199.3 179.3,199.3 180.3,199.3 181.2,199.3 182.1,199.3 183.0,199.3 184.0,199.3 184.9,199.3 185.8,199.3 186.8,199.3 187.7,199.3 188.6,199.3 189.5,199.3 190.5,199.3 191.4,199.3 192.3,199.3 193.2,199.3 194.2,199.3 195.1,199.3 196.0,199.3 196.9,199.3 197.9,199.3 198.8,199.3 199.7,199.3 200.6,199.3 201.5,199.3 202.5,199.3 203.4,199.3 204.3,199.3 205.2,199.3 206.2,199.3 207.1,199.3 208.0,199.3 208.9,199.3 209.9,199.3 210.8,199.3 211.7,199.3 212.7,199.3 213.6,199.3 214.5,199.3 215.4,199.3 216.3,199.3 217.3,199.3 218.2,199.3 219.1,199.3 220.1,199.3 221.0,199.3 221.9,199.3 222.8,199.3 223.8,199.3 224.7,199.3 225.6,199.3 226.5,199.3 227.4,199.3 228.4,199.3 229.3,199.3 230.2,199.3 231.2,199.3 232.1,199.3 233.0,199.3 233.9,199.3 234.8,199.3 235.8,199.3 236.7,199.3 237.6,199.3 238.6,199.3 239.5,199.3 240.4,199.3 241.3,199.3 242.2,199.3 243.2,199.3 244.1,199.3 245.0,199.3 246.0,199.3 246.9,199.3 247.8,199.3 248.7,199.3 249.7,199.3 250.6,199.3 251.5,199.3 252.4,199.3 253.4,199.3 254.3,199.3 255.2,199.3 256.1,199.3 257.0,199.3 258.0,199.3 258.9,199.3 259.8,199.3 260.8,199.3 261.7,199.3 262.6,199.3 263.5,199.3 264.4,199.3 265.4,199.3 266.3,199.3 267.2,199.3 268.1,199.3 269.1,199.3 270.0,199.3 270.9,199.3 271.9,199.3 272.8,199.3 273.7,199.3 274.6,199.3 275.5,199.3 276.5,199.3 277.4,199.3 278.3,199.3 279.2,199.3 280.2,199.3 281.1,199.3 282.0,199.3 283.0,199.3 283.9,199.3 284.8,199.3 285.7,199.3 286.6,199.3 287.6,199.3 288.5,199.3 289.4,199.3 290.4,199.3 291.3,199.3 292.2,199.3 293.1,199.3 294.1,199.3 295.0,199.3 295.9,199.3 296.8,199.3 297.8,199.3 298.7,199.3 299.6,199.3 300.5,199.3 301.5,199.3 302.4,199.3 303.3,199.3 304.2,199.3 305.1,199.3 306.1,199.3 307.0,199.3 307.9,199.3 308.8,199.3 309.8,199.3 310.7,199.3 311.6,199.3 312.6,199.3 313.5,199.3 314.4,199.3 315.3,199.3 316.2,199.3 317.2,199.3 318.1,199.3 319.0,199.3 319.9,199.3 320.9,199.3 321.8,199.3 322.7,199.3 323.6,199.3 324.6,199.3 325.5,199.3 326.4,199.3 327.4,199.3 328.3,199.3 329.2,199.3 330.1,199.3 331.1,199.3 332.0,199.3 332.9,199.3 333.8,199.3 334.8,199.3 335.7,199.3 336.6,199.3 337.5,199.3 338.4,199.3 339.4,199.3 340.3,199.3 341.2,199.3 342.2,199.3 343.1,199.3 344.0,199.3 344.9,199.3 345.9,199.3 346.8,199.3 347.7,199.3 348.6,199.3 349.5,199.3 350.5,199.3 351.4,199.3 352.3,199.3 353.2,199.3 354.2,199.3 355.1,199.3 356.0,199.3 356.9,199.3 357.9,199.3 358.8,199.3 359.7,199.3 360.6,199.3 361.6,199.3 362.5,199.3 363.4,199.3 364.3,199.3 365.3,199.3 366.2,199.3 367.1,199.3 368.1,199.3 369.0,199.3 369.9,199.3 370.8,199.3 371.8,199.3 372.7,199.3 373.6,199.3 374.5,199.3 375.4,199.3 376.4,199.3 377.3,199.3 378.2,199.3 379.2,199.3 380.1,199.3 381.0,199.3 381.9,199.3 382.9,199.3 383.8,199.3 384.7,199.3 385.6,199.3 386.6,199.3 387.5,199.3 388.4,199.3 389.3,199.3 390.2,199.3 391.2,199.3 392.1,199.3 393.0,199.3 394.0,199.3 394.9,199.3 395.8,199.3 396.7,199.3 397.6,199.3 398.6,199.3 399.5,199.3 400.4,199.3 401.3,199.3 402.3,199.3 403.2,199.3 404.1,199.3 405.1,199.3 406.0,199.3 406.9,199.3 407.8,199.3 408.8,199.3 409.7,199.3 410.6,199.3 411.5,199.3 412.4,199.3 413.4,199.3 414.3,199.3 415.2,199.3 416.1,199.3 417.1,199.3 418.0,199.3\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Linjen \\(\\gamma=2\\) skär kurvan ungefär vid \\(v/c\\approx0{,}87\\).</p><p>Beräkning: \\(\\sqrt{1-v^2/c^2}=\\tfrac12\\) ger \\(v^2/c^2=\\tfrac34\\) och \\(v=\\tfrac{\\sqrt3}{2}c\\approx0{,}87c\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs skärningen med den vågräta nivån gamma = 2</p><p>Gå från \\(\\gamma=2\\) på lodräta axeln till kurvan och sedan ned till fartaxeln. Avläsningen ger ungefär \\(v/c=0{,}87\\).</p></li><li><p class=\"facit-rubrik\">Kontroll med \\(v/c=\\sqrt{1-1/\\gamma^2}\\)</p><div class=\"facit-matte\">\\[v/c=\\sqrt{1-1/2^2}\\approx0{,}8660\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Med två decimaler är farten 0,87c.</p></div>",
   "familj": "Tolka tidsdilatation i grafer och situationer",
   "formaga": [
     "begrepp",
@@ -56280,7 +56313,7 @@ window.BANK2 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Läs av var kurvan når γ = 2, eller lös ekvationen.</p>",
+  "ledtrad": "<p>Var skär den vågräta nivån gamma = 2 kurvan?</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 0.87,
   "tolerans": 0.01,
@@ -56295,7 +56328,7 @@ window.BANK2 = [
   "poang": "(1/0/0)",
   "typ": "vem mäter egentiden",
   "t": "<p>Tidsdilatation: \\(\\Delta t=\\gamma\\,\\Delta t_0\\), där \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p><p>En astronaut i ett rymdskepp som rör sig snabbt förbi jorden tar tid på hur länge hon sover. Personer på jorden mäter samma sömn. Vem mäter egentiden \\(\\Delta t_0\\)? (Välj ett alternativ.)</p>",
-  "s": "<div class=\"facit-v2\"><p>Egentiden mäts av en klocka som är i vila i förhållande till händelserna, alltså på samma plats som de inträffar. Astronauten somnar och vaknar på samma plats i skeppet.</p><p>Observatörerna på jorden mäter en längre tid, \\(\\Delta t=\\gamma\\Delta t_0\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Egentiden mäts där sömnens början och slut sker på samma plats</p><p>Astronauten somnar och vaknar på samma plats i skeppet. Därför mäter hennes klocka egentiden. Jordens observatörer mäter en längre tid efter att signalernas gångtid har räknats bort.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Astronauten mäter egentiden.</p></div>",
   "familj": "Tolka tidsdilatation i grafer och situationer",
   "formaga": [
     "begrepp"
@@ -56341,7 +56374,7 @@ window.BANK2 = [
   "poang": "(1/0/0)",
   "typ": "tvillingarnas åldersskillnad",
   "t": "<p>Tidsdilatation: \\(\\Delta t=\\gamma\\,\\Delta t_0\\), där \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p><p>Den ena av två tvillingar reser till en stjärna och tillbaka med farten 0,60c. Enligt jordens klockor tar resan 8,0 år. Hur mycket yngre än sin tvilling är resenären när hon kommer hem? (Svara i år.)</p>",
-  "s": "<div class=\"facit-v2\"><p>\\(\\gamma=\\dfrac{1}{\\sqrt{1-0{,}36}}=\\dfrac{1}{0{,}8}=1{,}25\\).</p><p>Resenärens egentid är \\(\\Delta t_0=\\dfrac{8{,}0}{1{,}25}=6{,}4\\) år. Hon är \\(8{,}0-6{,}4=1{,}6\\) år yngre.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Resenärens tid: \\(\\tau=t\\sqrt{1-v^2/c^2}\\)</p><p>Jordens åtta år gäller hela tur- och returresan; de ska inte dubbleras.</p><div class=\"facit-matte\">\\[\\tau=8{,}0\\sqrt{1-0{,}60^2}=6{,}4\\ \\mathrm{år}\\]</div></li><li><p class=\"facit-rubrik\">Jämför hur mycket tvillingarna har åldrats</p><div class=\"facit-matte\">\\[8{,}0-6{,}4=1{,}6\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Resenären är 1,6 år yngre än tvillingen på jorden.</p></div>",
   "familj": "Tolka tidsdilatation i grafer och situationer",
   "formaga": [
     "procedur",
@@ -56368,7 +56401,7 @@ window.BANK2 = [
   "poang": "(1/0/0)",
   "typ": "varför vi inte märker tidsdilatation",
   "t": "<p>Tidsdilatation: \\(\\Delta t=\\gamma\\,\\Delta t_0\\), där \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p><p>Ett flygplan flyger med farten 300 m/s. Varför märker passagerarna inte av tidsdilatationen? (Välj ett alternativ.)</p>",
-  "s": "<div class=\"facit-v2\"><p>\\(\\dfrac{v}{c}=10^{-6}\\), så \\(\\gamma\\approx1+\\tfrac12\\cdot10^{-12}\\). Klockorna ombord tappar bara ungefär 0,3 mikrosekunder per vecka, vilket inte märks utan atomur.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flygplanets fartkvot är \\(v/c\\approx10^{-6}\\)</p><p>300 m/s är en miljondel av ljusfarten, så gamma ligger mycket nära 1.</p></li><li><p class=\"facit-rubrik\">Liten fart ger \\(\\gamma-1\\approx v^2/(2c^2)\\)</p><div class=\"facit-matte\">\\[\\gamma-1\\approx(10^{-6})^2/2=5\\cdot10^{-13}\\]</div><p>Under en veckas sammanhängande flygning motsvarar det cirka 0,3 μs. Det är för lite för att märkas av passagerarnas vanliga klockor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten är så liten jämfört med c att tidsskillnaden inte märks utan mycket noggranna klockor.</p></div>",
   "familj": "Tolka tidsdilatation i grafer och situationer",
   "formaga": [
     "begrepp"
@@ -56379,7 +56412,7 @@ window.BANK2 = [
   "självrättning": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Hur stor är v/c? Vad blir γ då?</p>",
+  "ledtrad": "<p>Jämför flygplanets fart med ljusfarten. Hur nära 1 blir då gamma?</p>",
   "svarstyp": "alternativ",
   "rättSvar": null,
   "tolerans": null,
@@ -56414,7 +56447,7 @@ window.BANK2 = [
   "poang": "(1/0/0)",
   "typ": "fart ur blinkande lampa",
   "t": "<p>Tidsdilatation: \\(\\Delta t=\\gamma\\,\\Delta t_0\\), där \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p><p>En lampa på ett rymdskepp blinkar en gång per sekund mätt ombord. Från jorden mäts tiden mellan blinkningarna till 1,25 s (efter korrektion för ljusets gångtid). Bestäm skeppets fart. (Svara uttryckt i c.)</p>",
-  "s": "<div class=\"facit-v2\"><p>\\(\\gamma=\\dfrac{\\Delta t}{\\Delta t_0}=1{,}25\\). Då är \\(\\sqrt{1-v^2/c^2}=0{,}8\\), \\(v^2/c^2=0{,}36\\) och \\(v=0{,}60c\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Blinkningarnas tidskvot ger \\(\\gamma=t/\\tau\\)</p><p>Lampan sitter fast i skeppet. En sekund ombord är därför egentiden mellan blinkningarna. Signalernas gångtid är redan korrigerad i jordmätningen.</p><div class=\"facit-matte\">\\[\\gamma=1{,}25/1=1{,}25\\]</div></li><li><p class=\"facit-rubrik\">Farten: \\(v/c=\\sqrt{1-1/\\gamma^2}\\)</p><div class=\"facit-matte\">\\[v/c=\\sqrt{1-1/1{,}25^2}=0{,}60\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Skeppets fart är 0,60c.</p></div>",
   "familj": "Tolka tidsdilatation i grafer och situationer",
   "formaga": [
     "procedur"
@@ -56440,7 +56473,7 @@ window.BANK2 = [
   "poang": "(1/0/0)",
   "typ": "gammafaktorn nära ljusets hastighet",
   "t": "<p>Tidsdilatation: \\(\\Delta t=\\gamma\\,\\Delta t_0\\), där \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p><p>Vad händer med \\(\\gamma\\) när farten närmar sig ljusets hastighet? (Välj ett alternativ.)</p>",
-  "s": "<div class=\"facit-v2\"><p>När \\(v\\to c\\) går \\(1-v^2/c^2\\to0\\), så nämnaren går mot 0 och \\(\\gamma\\) växer obegränsat. Därför kan inget föremål med massa nå ljusets hastighet.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gränsvärdet i nämnaren: \\(\\sqrt{1-v^2/c^2}\\to0\\)</p><p>När v närmar sig c underifrån närmar sig kvoten v/c talet 1. Nämnaren blir då positiv men allt mindre.</p></li><li><p class=\"facit-rubrik\">En allt mindre positiv nämnare ger allt större gamma</p><p>Eftersom \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\) växer faktorn utan gräns. Den blir inte negativ och närmar sig inte ett ändligt maxvärde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Gamma växer obegränsat när v närmar sig c underifrån.</p></div>",
   "familj": "Tolka tidsdilatation i grafer och situationer",
   "formaga": [
     "begrepp"
@@ -56451,7 +56484,7 @@ window.BANK2 = [
   "självrättning": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Vad händer med nämnaren i γ?</p>",
+  "ledtrad": "<p>Vad händer med rotuttrycket i nämnaren när fartkvoten närmar sig 1?</p>",
   "svarstyp": "alternativ",
   "rättSvar": null,
   "tolerans": null,
@@ -57966,7 +57999,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>Ett rymdskepp rör sig med farten \\(0{,}60c\\) relativt jorden.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Rymdskepp som rör sig med farten 0,60c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,60c</text></svg></div><p>Hur stor är gammafaktorn \\(\\gamma\\) för rymdskeppet?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Gammafaktorn är \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}6^2}}\\approx1{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx1{,}25\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skeppets fart ger \\(v/c=0{,}60\\)</p><p>Sätt fartkvoten från figuren i Lorentzfaktorn.</p></li><li><p class=\"facit-rubrik\">Lorentzfaktorn: \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=1/\\sqrt{1-0{,}60^2}\\\\&=1/0{,}80=1{,}25\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma=1{,}25\\).</p></div>",
   "familj": "Gammafaktorn",
   "formaga": [
     "procedur"
@@ -57974,7 +58007,7 @@ window.BANK2 = [
   "miniräknare": true,
   "geogebra": false,
   "självrättning": true,
-  "ledtrad": "<p>Sätt in \\(v/c\\) direkt i formeln för gammafaktorn.</p>",
+  "ledtrad": "<p>Använd skeppets fartkvot 0,60 i gammaformeln.</p>",
   "spel": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
@@ -57993,7 +58026,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En partikel i en accelerator har farten \\(0{,}80c\\) i laboratoriet.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"120\" viewBox=\"0 0 420 120\" role=\"img\" aria-label=\"Partikel som rör sig med farten 0,80c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"118\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"120\" cy=\"60\" r=\"14\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"140.0\" y1=\"60.0\" x2=\"300.0\" y2=\"60.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"300.0,60.0 289.9,64.3 289.9,55.7\" fill=\"#c2410c\"/><text x=\"220.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v = 0,80c</text></svg></div><p>Hur stor är gammafaktorn \\(\\gamma\\) för partikeln?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Gammafaktorn är \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}8^2}}\\approx1{,}667\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx1{,}67\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Acceleratorns partikel har \\(v/c=0{,}80\\)</p><p>Farten är angiven i laboratoriets system.</p></li><li><p class=\"facit-rubrik\">Lorentzfaktorn: \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=1/\\sqrt{1-0{,}80^2}\\\\&=1/0{,}60\\approx1{,}67\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx1{,}67\\).</p></div>",
   "familj": "Gammafaktorn",
   "formaga": [
     "procedur"
@@ -58001,7 +58034,7 @@ window.BANK2 = [
   "miniräknare": true,
   "geogebra": false,
   "självrättning": true,
-  "ledtrad": "<p>Sätt in \\(v/c\\) direkt i formeln för gammafaktorn.</p>",
+  "ledtrad": "<p>Använd partikelns fartkvot 0,80 i gammaformeln.</p>",
   "spel": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
@@ -58020,7 +58053,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En proton i den kosmiska strålningen rör sig med farten \\(0{,}99c\\) relativt jorden.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"120\" viewBox=\"0 0 420 120\" role=\"img\" aria-label=\"Partikel som rör sig med farten 0,99c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"118\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"120\" cy=\"60\" r=\"14\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"140.0\" y1=\"60.0\" x2=\"300.0\" y2=\"60.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"300.0,60.0 289.9,64.3 289.9,55.7\" fill=\"#c2410c\"/><text x=\"220.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v = 0,99c</text></svg></div><p>Hur stor är gammafaktorn \\(\\gamma\\) för protonen?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Gammafaktorn är \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}99^2}}\\approx7{,}089\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx7{,}09\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Protonens fartkvot är \\(v/c=0{,}99\\)</p><p>En fart nära c gör nämnaren i gammaformeln liten.</p></li><li><p class=\"facit-rubrik\">Lorentzfaktorn: \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\gamma=1/\\sqrt{1-0{,}99^2}\\approx7{,}09\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx7{,}09\\).</p></div>",
   "familj": "Gammafaktorn",
   "formaga": [
     "procedur"
@@ -58028,7 +58061,7 @@ window.BANK2 = [
   "miniräknare": true,
   "geogebra": false,
   "självrättning": true,
-  "ledtrad": "<p>Sätt in \\(v/c\\) direkt i formeln för gammafaktorn.</p>",
+  "ledtrad": "<p>Använd protonens fartkvot 0,99 i gammaformeln.</p>",
   "spel": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
@@ -58047,7 +58080,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En klocka i ett rymdskepp mäter att ett experiment tar 2,0 s. Rymdskeppet rör sig med farten \\(0{,}60c\\) relativt jorden.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Klockan i rymdskeppet visar 2,0 sekunder, klockan på jorden är okänd\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"110\" cy=\"70\" r=\"48\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"28.0\" x2=\"110.0\" y2=\"22.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"131.0\" y1=\"33.6\" x2=\"134.0\" y2=\"28.4\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"49.0\" x2=\"151.6\" y2=\"46.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"152.0\" y1=\"70.0\" x2=\"158.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"91.0\" x2=\"151.6\" y2=\"94.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"131.0\" y1=\"106.4\" x2=\"134.0\" y2=\"111.6\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"112.0\" x2=\"110.0\" y2=\"118.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"89.0\" y1=\"106.4\" x2=\"86.0\" y2=\"111.6\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"73.6\" y1=\"91.0\" x2=\"68.4\" y2=\"94.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"68.0\" y1=\"70.0\" x2=\"62.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"73.6\" y1=\"49.0\" x2=\"68.4\" y2=\"46.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"89.0\" y1=\"33.6\" x2=\"86.0\" y2=\"28.4\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"70.0\" x2=\"110.0\" y2=\"36.4\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"70.0\" x2=\"131.6\" y2=\"79.6\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"110.0\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">i rymdskeppet</text><text x=\"110.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">2,0 s</text><circle cx=\"310\" cy=\"70\" r=\"48\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"3\"/><line x1=\"310.0\" y1=\"28.0\" x2=\"310.0\" y2=\"22.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"331.0\" y1=\"33.6\" x2=\"334.0\" y2=\"28.4\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"346.4\" y1=\"49.0\" x2=\"351.6\" y2=\"46.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"352.0\" y1=\"70.0\" x2=\"358.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"346.4\" y1=\"91.0\" x2=\"351.6\" y2=\"94.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"331.0\" y1=\"106.4\" x2=\"334.0\" y2=\"111.6\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"112.0\" x2=\"310.0\" y2=\"118.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"289.0\" y1=\"106.4\" x2=\"286.0\" y2=\"111.6\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"273.6\" y1=\"91.0\" x2=\"268.4\" y2=\"94.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"268.0\" y1=\"70.0\" x2=\"262.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"273.6\" y1=\"49.0\" x2=\"268.4\" y2=\"46.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"289.0\" y1=\"33.6\" x2=\"286.0\" y2=\"28.4\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"70.0\" x2=\"310.0\" y2=\"36.4\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"70.0\" x2=\"331.6\" y2=\"79.6\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"310.0\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">på jorden</text><text x=\"310.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">?</text></svg></div><p>Hur lång tid tar experimentet mätt från jorden?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Klockan i rymdskeppet är i vila relativt experimentet och mäter egentiden \\(\\Delta t_0\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}60^2}}=1{,}25\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta t=\\gamma\\Delta t_0=1{,}25\\cdot2{,}0=2{,}5\\ \\text{s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 s.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Experimentets klocka mäter \\(\\tau=2{,}0\\) s</p><p>Experimentet är i vila relativt skeppsklockan. Jorden mäter det längre tidsintervallet.</p></li><li><p class=\"facit-rubrik\">Tidsdilatation: \\(t=\\tau/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[t=2{,}0/\\sqrt{1-0{,}60^2}=2{,}5\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Experimentet tar 2,5 s mätt från jorden.</p></div>",
   "familj": "Tidsdilatation och egentid",
   "formaga": [
     "procedur"
@@ -58075,7 +58108,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En myon har medellivslängden 2,2 µs i sitt eget vilosystem. Myonen rör sig med farten \\(0{,}98c\\) genom atmosfären.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" role=\"img\" aria-label=\"Myon som rör sig nedåt genom atmosfären med farten 0,98c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"20\" width=\"380\" height=\"150\" fill=\"#dbeafe\"/><rect x=\"20\" y=\"170\" width=\"380\" height=\"30\" fill=\"#bbf7d0\"/><line x1=\"20.0\" y1=\"170.0\" x2=\"400.0\" y2=\"170.0\" stroke=\"#15803d\" stroke-width=\"2\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"34\" r=\"6\" fill=\"#c2410c\"/><line x1=\"200.0\" y1=\"42.0\" x2=\"200.0\" y2=\"160.0\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><polygon points=\"200.0,160.0 195.7,149.9 204.3,149.9\" fill=\"#c2410c\"/><text x=\"212.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">v = 0,98c</text><text x=\"214.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\">myon</text><text x=\"380.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#166534\">mark</text></svg></div><p>Hur lång är myonens medellivslängd mätt från jorden? (Svara i µs.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}98^2}}\\approx5{,}03\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta t=\\gamma\\Delta t_0\\approx5{,}03\\cdot2{,}2\\approx11{,}1\\ \\mu\\text{s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 11 µs.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medellivslängden i vila är \\(\\tau=2{,}2\\) μs</p><p>Vi räknar om själva medellivslängden. Ingen halveringslag behövs för frågan.</p></li><li><p class=\"facit-rubrik\">Tidsdilatation: \\(t=\\tau/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[t=2{,}2/\\sqrt{1-0{,}98^2}\\approx11{,}1\\ \\mathrm{\\mu s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Medellivslängden mätt från jorden är cirka 11 μs.</p></div>",
   "familj": "Tidsdilatation och egentid",
   "formaga": [
     "procedur",
@@ -58104,7 +58137,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>Ett rymdskepp passerar jorden. En astronaut i skeppet mäter tiden mellan två blinkningar från en lampa som sitter fast i skeppet. Samtidigt mäter en observatör på jorden tiden mellan samma två blinkningar.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"En klocka i rymdskeppet och en klocka på jorden mäter tiden mellan samma två blinkningar\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"110\" cy=\"70\" r=\"48\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"28.0\" x2=\"110.0\" y2=\"22.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"131.0\" y1=\"33.6\" x2=\"134.0\" y2=\"28.4\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"49.0\" x2=\"151.6\" y2=\"46.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"152.0\" y1=\"70.0\" x2=\"158.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"91.0\" x2=\"151.6\" y2=\"94.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"131.0\" y1=\"106.4\" x2=\"134.0\" y2=\"111.6\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"112.0\" x2=\"110.0\" y2=\"118.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"89.0\" y1=\"106.4\" x2=\"86.0\" y2=\"111.6\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"73.6\" y1=\"91.0\" x2=\"68.4\" y2=\"94.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"68.0\" y1=\"70.0\" x2=\"62.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"73.6\" y1=\"49.0\" x2=\"68.4\" y2=\"46.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"89.0\" y1=\"33.6\" x2=\"86.0\" y2=\"28.4\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"70.0\" x2=\"110.0\" y2=\"36.4\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"70.0\" x2=\"131.6\" y2=\"79.6\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"110.0\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">i rymdskeppet</text><text x=\"110.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">Δt₀ ?</text><circle cx=\"310\" cy=\"70\" r=\"48\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"3\"/><line x1=\"310.0\" y1=\"28.0\" x2=\"310.0\" y2=\"22.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"331.0\" y1=\"33.6\" x2=\"334.0\" y2=\"28.4\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"346.4\" y1=\"49.0\" x2=\"351.6\" y2=\"46.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"352.0\" y1=\"70.0\" x2=\"358.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"346.4\" y1=\"91.0\" x2=\"351.6\" y2=\"94.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"331.0\" y1=\"106.4\" x2=\"334.0\" y2=\"111.6\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"112.0\" x2=\"310.0\" y2=\"118.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"289.0\" y1=\"106.4\" x2=\"286.0\" y2=\"111.6\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"273.6\" y1=\"91.0\" x2=\"268.4\" y2=\"94.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"268.0\" y1=\"70.0\" x2=\"262.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"273.6\" y1=\"49.0\" x2=\"268.4\" y2=\"46.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"289.0\" y1=\"33.6\" x2=\"286.0\" y2=\"28.4\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"70.0\" x2=\"310.0\" y2=\"36.4\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"70.0\" x2=\"331.6\" y2=\"79.6\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"310.0\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">på jorden</text><text x=\"310.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">Δt ?</text></svg></div><p>Vem mäter egentiden?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Egentiden mäts av den som är i vila relativt händelserna. Lampan sitter fast i skeppet, så båda blinkningarna sker på samma plats för astronauten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Astronauten i rymdskeppet.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Båda blinkningarna sker på samma plats i astronautens system</p><p>Lampan sitter fast i skeppet. Astronautens klocka är därför i vila relativt platsen där blinkningarna sker, och mäter egentiden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Astronauten i rymdskeppet mäter egentiden.</p></div>",
   "familj": "Tidsdilatation och egentid",
   "formaga": [
     "begrepp"
@@ -58150,7 +58183,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>Grafen visar gammafaktorn \\(\\gamma\\) som funktion av \\(v/c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"290\" viewBox=\"0 0 400 290\" role=\"img\" aria-label=\"Graf över gammafaktorn som funktion av v/c från 0 till nära 1\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"50.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"50.0\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"83.4\" y1=\"244.0\" x2=\"83.4\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"116.8\" y1=\"244.0\" x2=\"116.8\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"116.8\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,2</text><line x1=\"150.2\" y1=\"244.0\" x2=\"150.2\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"183.6\" y1=\"244.0\" x2=\"183.6\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"183.6\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,4</text><line x1=\"217.0\" y1=\"244.0\" x2=\"217.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"250.4\" y1=\"244.0\" x2=\"250.4\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"250.4\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,6</text><line x1=\"283.8\" y1=\"244.0\" x2=\"283.8\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"317.2\" y1=\"244.0\" x2=\"317.2\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"317.2\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,8</text><line x1=\"350.6\" y1=\"244.0\" x2=\"350.6\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"384.0\" y1=\"244.0\" x2=\"384.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"384.0\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"50.0\" y1=\"244.0\" x2=\"384.0\" y2=\"244.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"50.0\" y1=\"206.0\" x2=\"384.0\" y2=\"206.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"50.0\" y1=\"168.0\" x2=\"384.0\" y2=\"168.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"50.0\" y1=\"130.0\" x2=\"384.0\" y2=\"130.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"50.0\" y1=\"92.0\" x2=\"384.0\" y2=\"92.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"50.0\" y1=\"54.0\" x2=\"384.0\" y2=\"54.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"50.0\" y1=\"16.0\" x2=\"384.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">7</text><polyline points=\"50.0,244.0 51.7,244.0 53.3,244.0 55.0,244.0 56.7,244.0 58.4,244.0 60.0,244.0 61.7,244.0 63.4,244.0 65.0,244.0 66.7,244.0 68.4,243.9 70.0,243.9 71.7,243.9 73.4,243.9 75.0,243.9 76.7,243.9 78.4,243.9 80.1,243.8 81.7,243.8 83.4,243.8 85.1,243.8 86.7,243.8 88.4,243.7 90.1,243.7 91.8,243.7 93.4,243.7 95.1,243.6 96.8,243.6 98.4,243.6 100.1,243.6 101.8,243.5 103.4,243.5 105.1,243.5 106.8,243.4 108.4,243.4 110.1,243.4 111.8,243.3 113.5,243.3 115.1,243.3 116.8,243.2 118.5,243.2 120.1,243.1 121.8,243.1 123.5,243.0 125.2,243.0 126.8,243.0 128.5,242.9 130.2,242.9 131.8,242.8 133.5,242.8 135.2,242.7 136.8,242.6 138.5,242.6 140.2,242.5 141.9,242.5 143.5,242.4 145.2,242.4 146.9,242.3 148.5,242.2 150.2,242.2 151.9,242.1 153.5,242.0 155.2,242.0 156.9,241.9 158.6,241.8 160.2,241.7 161.9,241.7 163.6,241.6 165.2,241.5 166.9,241.4 168.6,241.4 170.2,241.3 171.9,241.2 173.6,241.1 175.2,241.0 176.9,240.9 178.6,240.8 180.3,240.7 181.9,240.6 183.6,240.5 185.3,240.4 186.9,240.3 188.6,240.2 190.3,240.1 191.9,240.0 193.6,239.9 195.3,239.8 197.0,239.7 198.6,239.6 200.3,239.4 202.0,239.3 203.6,239.2 205.3,239.1 207.0,238.9 208.7,238.8 210.3,238.7 212.0,238.5 213.7,238.4 215.3,238.3 217.0,238.1 218.7,238.0 220.3,237.8 222.0,237.7 223.7,237.5 225.3,237.4 227.0,237.2 228.7,237.0 230.4,236.9 232.0,236.7 233.7,236.5 235.4,236.3 237.0,236.1 238.7,235.9 240.4,235.8 242.0,235.6 243.7,235.4 245.4,235.1 247.1,234.9 248.7,234.7 250.4,234.5 252.1,234.3 253.7,234.0 255.4,233.8 257.1,233.6 258.8,233.3 260.4,233.1 262.1,232.8 263.8,232.5 265.4,232.3 267.1,232.0 268.8,231.7 270.4,231.4 272.1,231.1 273.8,230.8 275.5,230.5 277.1,230.2 278.8,229.8 280.5,229.5 282.1,229.1 283.8,228.8 285.5,228.4 287.1,228.0 288.8,227.6 290.5,227.2 292.1,226.8 293.8,226.4 295.5,226.0 297.2,225.5 298.8,225.0 300.5,224.5 302.2,224.0 303.8,223.5 305.5,223.0 307.2,222.4 308.9,221.9 310.5,221.3 312.2,220.7 313.9,220.0 315.5,219.4 317.2,218.7 318.9,217.9 320.5,217.2 322.2,216.4 323.9,215.6 325.6,214.8 327.2,213.9 328.9,212.9 330.6,212.0 332.2,210.9 333.9,209.9 335.6,208.7 337.2,207.5 338.9,206.3 340.6,204.9 342.2,203.5 343.9,202.0 345.6,200.4 347.3,198.7 348.9,196.8 350.6,194.8 352.3,192.7 353.9,190.3 355.6,187.8 357.3,185.0 358.9,182.0 360.6,178.6 362.3,174.9 364.0,170.6 365.6,165.8 367.3,160.3 369.0,153.9 370.6,146.3 372.3,137.1 374.0,125.7 375.6,111.0 377.3,91.0 379.0,61.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"384.0\" y2=\"244.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"217.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\">v/c</text><text x=\"18.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\">γ</text></svg></div><p>Vad händer med \\(\\gamma\\) när farten närmar sig ljusets fart?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(v\\) närmar sig \\(c\\) närmar sig nämnaren \\(\\sqrt{1-v^2/c^2}\\) noll. Då växer \\(\\gamma\\) utan gräns, som grafen visar.</p></li></ol></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kurvan stiger allt brantare nära fartkvoten 1</p><p>Grafen visar ingen övre gräns för gamma när fartkvoten närmar sig 1 underifrån.</p></li><li><p class=\"facit-rubrik\">Formeln förklarar grafen: \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><p>Roten i nämnaren närmar sig noll genom positiva värden. Därför växer kvoten utan gräns.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Gamma växer obegränsat när farten närmar sig c.</p></div>",
   "familj": "Gammafaktorn",
   "formaga": [
     "begrepp"
@@ -58158,7 +58191,7 @@ window.BANK2 = [
   "miniräknare": true,
   "geogebra": false,
   "självrättning": true,
-  "ledtrad": "<p>Titta på hur kurvan beter sig längst till höger.</p>",
+  "ledtrad": "<p>Titta på kurvan nära fartkvoten 1 och jämför med gammaformelns nämnare.</p>",
   "spel": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
@@ -58196,7 +58229,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>Grafen visar gammafaktorn \\(\\gamma\\) som funktion av \\(v/c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"290\" viewBox=\"0 0 400 290\" role=\"img\" aria-label=\"Graf över gammafaktorn som funktion av v/c från 0 till nära 1\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"50.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"50.0\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"83.4\" y1=\"244.0\" x2=\"83.4\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"116.8\" y1=\"244.0\" x2=\"116.8\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"116.8\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,2</text><line x1=\"150.2\" y1=\"244.0\" x2=\"150.2\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"183.6\" y1=\"244.0\" x2=\"183.6\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"183.6\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,4</text><line x1=\"217.0\" y1=\"244.0\" x2=\"217.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"250.4\" y1=\"244.0\" x2=\"250.4\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"250.4\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,6</text><line x1=\"283.8\" y1=\"244.0\" x2=\"283.8\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"317.2\" y1=\"244.0\" x2=\"317.2\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"317.2\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,8</text><line x1=\"350.6\" y1=\"244.0\" x2=\"350.6\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"384.0\" y1=\"244.0\" x2=\"384.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"384.0\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"50.0\" y1=\"244.0\" x2=\"384.0\" y2=\"244.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"50.0\" y1=\"206.0\" x2=\"384.0\" y2=\"206.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"50.0\" y1=\"168.0\" x2=\"384.0\" y2=\"168.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"50.0\" y1=\"130.0\" x2=\"384.0\" y2=\"130.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"50.0\" y1=\"92.0\" x2=\"384.0\" y2=\"92.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"50.0\" y1=\"54.0\" x2=\"384.0\" y2=\"54.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"50.0\" y1=\"16.0\" x2=\"384.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">7</text><polyline points=\"50.0,244.0 51.7,244.0 53.3,244.0 55.0,244.0 56.7,244.0 58.4,244.0 60.0,244.0 61.7,244.0 63.4,244.0 65.0,244.0 66.7,244.0 68.4,243.9 70.0,243.9 71.7,243.9 73.4,243.9 75.0,243.9 76.7,243.9 78.4,243.9 80.1,243.8 81.7,243.8 83.4,243.8 85.1,243.8 86.7,243.8 88.4,243.7 90.1,243.7 91.8,243.7 93.4,243.7 95.1,243.6 96.8,243.6 98.4,243.6 100.1,243.6 101.8,243.5 103.4,243.5 105.1,243.5 106.8,243.4 108.4,243.4 110.1,243.4 111.8,243.3 113.5,243.3 115.1,243.3 116.8,243.2 118.5,243.2 120.1,243.1 121.8,243.1 123.5,243.0 125.2,243.0 126.8,243.0 128.5,242.9 130.2,242.9 131.8,242.8 133.5,242.8 135.2,242.7 136.8,242.6 138.5,242.6 140.2,242.5 141.9,242.5 143.5,242.4 145.2,242.4 146.9,242.3 148.5,242.2 150.2,242.2 151.9,242.1 153.5,242.0 155.2,242.0 156.9,241.9 158.6,241.8 160.2,241.7 161.9,241.7 163.6,241.6 165.2,241.5 166.9,241.4 168.6,241.4 170.2,241.3 171.9,241.2 173.6,241.1 175.2,241.0 176.9,240.9 178.6,240.8 180.3,240.7 181.9,240.6 183.6,240.5 185.3,240.4 186.9,240.3 188.6,240.2 190.3,240.1 191.9,240.0 193.6,239.9 195.3,239.8 197.0,239.7 198.6,239.6 200.3,239.4 202.0,239.3 203.6,239.2 205.3,239.1 207.0,238.9 208.7,238.8 210.3,238.7 212.0,238.5 213.7,238.4 215.3,238.3 217.0,238.1 218.7,238.0 220.3,237.8 222.0,237.7 223.7,237.5 225.3,237.4 227.0,237.2 228.7,237.0 230.4,236.9 232.0,236.7 233.7,236.5 235.4,236.3 237.0,236.1 238.7,235.9 240.4,235.8 242.0,235.6 243.7,235.4 245.4,235.1 247.1,234.9 248.7,234.7 250.4,234.5 252.1,234.3 253.7,234.0 255.4,233.8 257.1,233.6 258.8,233.3 260.4,233.1 262.1,232.8 263.8,232.5 265.4,232.3 267.1,232.0 268.8,231.7 270.4,231.4 272.1,231.1 273.8,230.8 275.5,230.5 277.1,230.2 278.8,229.8 280.5,229.5 282.1,229.1 283.8,228.8 285.5,228.4 287.1,228.0 288.8,227.6 290.5,227.2 292.1,226.8 293.8,226.4 295.5,226.0 297.2,225.5 298.8,225.0 300.5,224.5 302.2,224.0 303.8,223.5 305.5,223.0 307.2,222.4 308.9,221.9 310.5,221.3 312.2,220.7 313.9,220.0 315.5,219.4 317.2,218.7 318.9,217.9 320.5,217.2 322.2,216.4 323.9,215.6 325.6,214.8 327.2,213.9 328.9,212.9 330.6,212.0 332.2,210.9 333.9,209.9 335.6,208.7 337.2,207.5 338.9,206.3 340.6,204.9 342.2,203.5 343.9,202.0 345.6,200.4 347.3,198.7 348.9,196.8 350.6,194.8 352.3,192.7 353.9,190.3 355.6,187.8 357.3,185.0 358.9,182.0 360.6,178.6 362.3,174.9 364.0,170.6 365.6,165.8 367.3,160.3 369.0,153.9 370.6,146.3 372.3,137.1 374.0,125.7 375.6,111.0 377.3,91.0 379.0,61.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"384.0\" y2=\"244.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"217.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\">v/c</text><text x=\"18.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\">γ</text></svg></div><p>Läs av \\(\\gamma\\) för en partikel med farten \\(0{,}90c\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(v/c=0{,}9\\) ligger kurvan vid ungefär \\(\\gamma\\approx2{,}3\\).</p></li><li><div class=\"facit-matte\">\\[\\text{Kontroll: }\\gamma=\\frac{1}{\\sqrt{1-0{,}90^2}}\\approx2{,}29\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 2,3.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gå från fartkvoten 0,90 till kurvan</p><p>Följ sedan en vågrät linje till gammaaxeln. Avläsningen ger ungefär 2,3.</p></li><li><p class=\"facit-rubrik\">Kontroll med \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\gamma=1/\\sqrt{1-0{,}90^2}\\approx2{,}294\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(\\gamma=2{,}3\\).</p></div>",
   "familj": "Tolka tidsdilatation i grafer och situationer",
   "formaga": [
     "procedur"
@@ -58204,7 +58237,7 @@ window.BANK2 = [
   "miniräknare": true,
   "geogebra": false,
   "självrättning": true,
-  "ledtrad": "<p>Gå upp från 0,9 på den vågräta axeln till kurvan.</p>",
+  "ledtrad": "<p>Gå från 0,90 på den vågräta axeln upp till kurvan och vidare till gammaaxeln.</p>",
   "spel": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
@@ -58221,7 +58254,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>I ett rymdskepp tar en måltid 5,0 min mätt med skeppets klocka. Skeppets gammafaktor relativt jorden är \\(\\gamma=2{,}0\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Måltiden tar 5,0 minuter i skeppet, tiden mätt från jorden är okänd\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"110\" cy=\"70\" r=\"48\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"28.0\" x2=\"110.0\" y2=\"22.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"131.0\" y1=\"33.6\" x2=\"134.0\" y2=\"28.4\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"49.0\" x2=\"151.6\" y2=\"46.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"152.0\" y1=\"70.0\" x2=\"158.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"91.0\" x2=\"151.6\" y2=\"94.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"131.0\" y1=\"106.4\" x2=\"134.0\" y2=\"111.6\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"112.0\" x2=\"110.0\" y2=\"118.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"89.0\" y1=\"106.4\" x2=\"86.0\" y2=\"111.6\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"73.6\" y1=\"91.0\" x2=\"68.4\" y2=\"94.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"68.0\" y1=\"70.0\" x2=\"62.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"73.6\" y1=\"49.0\" x2=\"68.4\" y2=\"46.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"89.0\" y1=\"33.6\" x2=\"86.0\" y2=\"28.4\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"70.0\" x2=\"110.0\" y2=\"36.4\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"70.0\" x2=\"131.6\" y2=\"79.6\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"110.0\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">i rymdskeppet</text><text x=\"110.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">5,0 min</text><circle cx=\"310\" cy=\"70\" r=\"48\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"3\"/><line x1=\"310.0\" y1=\"28.0\" x2=\"310.0\" y2=\"22.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"331.0\" y1=\"33.6\" x2=\"334.0\" y2=\"28.4\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"346.4\" y1=\"49.0\" x2=\"351.6\" y2=\"46.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"352.0\" y1=\"70.0\" x2=\"358.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"346.4\" y1=\"91.0\" x2=\"351.6\" y2=\"94.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"331.0\" y1=\"106.4\" x2=\"334.0\" y2=\"111.6\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"112.0\" x2=\"310.0\" y2=\"118.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"289.0\" y1=\"106.4\" x2=\"286.0\" y2=\"111.6\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"273.6\" y1=\"91.0\" x2=\"268.4\" y2=\"94.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"268.0\" y1=\"70.0\" x2=\"262.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"273.6\" y1=\"49.0\" x2=\"268.4\" y2=\"46.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"289.0\" y1=\"33.6\" x2=\"286.0\" y2=\"28.4\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"70.0\" x2=\"310.0\" y2=\"36.4\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"70.0\" x2=\"331.6\" y2=\"79.6\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"310.0\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">på jorden</text><text x=\"310.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">?</text></svg></div><p>Hur lång tid tar måltiden mätt från jorden? (Svara i min.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta t=\\gamma\\Delta t_0=2{,}0\\cdot5{,}0=10\\ \\text{min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 min.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Måltidens egentid är \\(\\tau=5{,}0\\) min</p><p>Gamma är redan givet till 2,0, så farten behöver inte beräknas.</p></li><li><p class=\"facit-rubrik\">Tidsdilatation: \\(t=\\gamma\\tau\\)</p><div class=\"facit-matte\">\\[t=2{,}0\\cdot5{,}0=10\\ \\mathrm{min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Jorden mäter 10 min.</p></div>",
   "familj": "Tidsdilatation och egentid",
   "formaga": [
     "procedur"
@@ -58249,7 +58282,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En astronauts hjärta slår en gång per sekund mätt i rymdskeppet. Skeppet rör sig med farten \\(0{,}80c\\) relativt jorden.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Rymdskepp med farten 0,80c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,80c</text><text x=\"180.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1,0 s mellan hjärtslagen</text></svg></div><p>Hur lång tid går det mellan hjärtslagen mätt från jorden?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}80^2}}=\\frac{1}{0{,}60}\\approx1{,}67\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta t=1{,}67\\cdot1{,}0\\approx1{,}7\\ \\text{s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,7 s.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tiden mellan hjärtslagen ombord är \\(\\tau=1\\) s</p><p>Astronautens hjärta är i vila i skeppets system. En sekund är därför egentiden mellan slagen.</p></li><li><p class=\"facit-rubrik\">Jordens intervall: \\(t=\\tau/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[t=1/\\sqrt{1-0{,}80^2}\\approx1{,}67\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det går cirka 1,7 s mellan hjärtslagen mätt från jorden.</p></div>",
   "familj": "Tidsdilatation och egentid",
   "formaga": [
     "procedur"

@@ -7184,8 +7184,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket uttryck betyder ”addera 4 och 2 och dividera sedan 48 med summan”?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">”Med summan” betyder att 4 + 2 är en enda divisor</p><p>Summan måste därför stå inom parentes.</p></li><li><p class=\"facit-rubrik\">Uttrycket och dess värde</p><div class=\"facit-matte\">\\[48\\div(4+2)=48\\div6=8\\]</div></li><li><p class=\"facit-rubrik\">Utan parentes blir det något annat</p><div class=\"facit-matte\">\\[48\\div4+2=12+2=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\div(4+2)\\)</p></div>",
+    "t": "<p>Lägg först ihop 4 och 2. Dividera sedan 48 med resultatet.</p><p>Skriv ett uttryck som beskriver beräkningen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summan 4 + 2 ska beräknas före divisionen</p><p>Sätt 4 + 2 inom parentes så att 48 divideras med hela summan, inte bara med 4.</p></li><li><p class=\"facit-rubrik\">Uttrycket och dess värde</p><div class=\"facit-matte\">\\[48\\div(4+2)=48\\div6=8\\]</div></li><li><p class=\"facit-rubrik\">Utan parentes blir det något annat</p><div class=\"facit-matte\">\\[48\\div4+2=12+2=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\div(4+2)\\)</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
@@ -7196,7 +7196,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Vilken del av beräkningen hör ihop enligt orden ”med summan”?</p>",
+    "ledtrad": "<p>Vilka tal ska läggas ihop innan divisionen görs? Hur visar du det i ett uttryck?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -7206,19 +7206,23 @@ window.BANKMA1 = [
     "alternativ": [
       {
         "txt": "\\(48\\div4+2\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Här delas 48 bara med 4. Tvåan läggs till efter divisionen."
       },
       {
         "txt": "\\(48\\div(4+2)\\)",
-        "ratt": true
+        "ratt": true,
+        "kommentar": "Parentesen visar att 48 ska divideras med hela summan 4 + 2."
       },
       {
         "txt": "\\((48+4)\\div2\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Här läggs 48 och 4 ihop, men instruktionen säger att 4 och 2 ska läggas ihop."
       },
       {
         "txt": "\\(48+4\\div2\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Här divideras 4 med 2 först. Det är inte den beskrivna beräkningen."
       }
     ]
   },
@@ -10922,7 +10926,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Starta med 6, addera 4, multiplicera resultatet med 3 och subtrahera till sist 5. Vilket uttryck beskriver beräkningen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">”Multiplicera resultatet” betyder hela summan</p><p>Summan 6 + 4 måste stå inom parentes innan den multipliceras med 3.</p></li><li><p class=\"facit-rubrik\">Uttrycket och dess värde</p><div class=\"facit-matte\">\\[\\begin{gathered}(6+4)\\cdot3-5 =10\\cdot3-5 =30-5\\\\=25\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((6+4)\\cdot3-5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">”Multiplicera resultatet” betyder hela summan</p><p>Summan 6 + 4 måste stå inom parentes innan den multipliceras med 3.</p></li><li><p class=\"facit-rubrik\">Uttrycket och dess värde</p><div class=\"facit-matte\">\\[\\begin{aligned}(6+4)\\cdot3-5&=10\\cdot3-5\\\\&=30-5\\\\&=25\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((6+4)\\cdot3-5\\)</p></div>",
     "familj": "Prioriteringsregler",
     "svarstyp": "alternativ",
     "rättSvar": null,

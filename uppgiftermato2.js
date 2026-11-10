@@ -42,7 +42,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt.</p><p>a) \\(\\sin 30^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos 120^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan 225^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin 270^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Läs av standardvärdena i enhetscirkeln.</p></li><li><p>Tänk särskilt på vilket tecken sinus, cosinus och tangens har i den aktuella kvadranten.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin30^\\circ=\\boxed{1/2}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(120^\\circ\\) ligger i andra kvadranten, där cosinus är negativ: \\(\\boxed{-1/2}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[225^\\circ\\].</div></li><li><div class=\"facit-berakning\"><p>Här är både sinus och cosinus negativa, så deras kvot är positiv:</p><div class=\"facit-matte\">\\[\\tan(225^\\circ)=\\boxed{1}\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(270^\\circ\\) pekar rakt nedåt i enhetscirkeln, så \\(\\sin(270^\\circ)=\\boxed{-1}\\).</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinus är y-koordinaten: \\(\\sin v=y\\)</p><p>Punkten vid \\(30^\\circ\\) på enhetscirkeln har y-koordinaten \\(\\tfrac12\\). Det är ett standardvärde.</p></li><li><p class=\"facit-rubrik\">Läs av standardvärdet</p><div class=\"facit-matte\">\\[\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(120^\\circ\\) ligger i andra kvadranten</p><p>Där är x-koordinaten negativ, så cosinus blir negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln är \\(180^\\circ-120^\\circ=60^\\circ\\)</p><div class=\"facit-matte\">\\[\\cos120^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(225^\\circ=180^\\circ+45^\\circ\\) ligger i tredje kvadranten</p><p>Där är både sinus och cosinus negativa.</p></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan225^\\circ=\\frac{-\\frac{\\sqrt2}{2}}{-\\frac{\\sqrt2}{2}}=1\\]</div></li><li><p class=\"facit-rubrik\">Två negativa tal ger en positiv kvot</p><p>Därför är tangens positiv i tredje kvadranten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln \\(270^\\circ\\) pekar rakt nedåt</p><p>Punkten på enhetscirkeln är \\((0,\\,-1)\\).</p></li><li><p class=\"facit-rubrik\">Sinus är y-koordinaten: \\(\\sin v=y\\)</p><div class=\"facit-matte\">\\[\\sin270^\\circ=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -85,7 +85,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin 30^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Läs av standardvärdena i enhetscirkeln.</p></li><li><p>Tänk särskilt på vilket tecken sinus, cosinus och tangens har i den aktuella kvadranten.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin30^\\circ=\\boxed{1/2}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinus är y-koordinaten: \\(\\sin v=y\\)</p><p>Punkten vid \\(30^\\circ\\) på enhetscirkeln har y-koordinaten \\(\\tfrac12\\). Det är ett standardvärde.</p></li><li><p class=\"facit-rubrik\">Läs av standardvärdet</p><div class=\"facit-matte\">\\[\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -94,7 +94,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos 120^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Läs av standardvärdena i enhetscirkeln.</p></li><li><p>Tänk särskilt på vilket tecken sinus, cosinus och tangens har i den aktuella kvadranten.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(120^\\circ\\) ligger i andra kvadranten, där cosinus är negativ: \\(\\boxed{-1/2}\\).</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(120^\\circ\\) ligger i andra kvadranten</p><p>Där är x-koordinaten negativ, så cosinus blir negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln är \\(180^\\circ-120^\\circ=60^\\circ\\)</p><div class=\"facit-matte\">\\[\\cos120^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -103,7 +103,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan 225^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Läs av standardvärdena i enhetscirkeln.</p></li><li><p>Tänk särskilt på vilket tecken sinus, cosinus och tangens har i den aktuella kvadranten.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[225^\\circ\\].</div></li><li><div class=\"facit-berakning\"><p>Här är både sinus och cosinus negativa, så deras kvot är positiv:</p><div class=\"facit-matte\">\\[\\tan(225^\\circ)=\\boxed{1}\\].</div></div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(225^\\circ=180^\\circ+45^\\circ\\) ligger i tredje kvadranten</p><p>Där är både sinus och cosinus negativa.</p></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan225^\\circ=\\frac{-\\frac{\\sqrt2}{2}}{-\\frac{\\sqrt2}{2}}=1\\]</div></li><li><p class=\"facit-rubrik\">Två negativa tal ger en positiv kvot</p><p>Därför är tangens positiv i tredje kvadranten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -112,7 +112,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\sin 270^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Läs av standardvärdena i enhetscirkeln.</p></li><li><p>Tänk särskilt på vilket tecken sinus, cosinus och tangens har i den aktuella kvadranten.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(270^\\circ\\) pekar rakt nedåt i enhetscirkeln, så \\(\\sin(270^\\circ)=\\boxed{-1}\\).</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln \\(270^\\circ\\) pekar rakt nedåt</p><p>Punkten på enhetscirkeln är \\((0,\\,-1)\\).</p></li><li><p class=\"facit-rubrik\">Sinus är y-koordinaten: \\(\\sin v=y\\)</p><div class=\"facit-matte\">\\[\\sin270^\\circ=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -171,7 +171,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt.</p><p>a) \\(\\sin 30^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos 120^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin 225^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos 330^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\).</p></li><li><p>Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p></li><li><p><strong>Metod:</strong> Använd motsvarande vinkeln i första kvadranten och tecknet i respektive kvadrant.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac12\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(-\\frac12\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(-\\frac{\\sqrt2}{2}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(\\frac{\\sqrt3}{2}\\)</strong></p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinus är y-koordinaten: \\(\\sin v=y\\)</p><p>\\(30^\\circ\\) ligger i första kvadranten, så värdet är positivt.</p></li><li><p class=\"facit-rubrik\">Standardvärdet för \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten</p><p>I andra kvadranten är x-koordinaten, alltså cosinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\) ger beloppet, kvadranten ger minustecknet</p><div class=\"facit-matte\">\\[\\cos120^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(225^\\circ=180^\\circ+45^\\circ\\) ligger i tredje kvadranten</p><p>I tredje kvadranten är y-koordinaten, alltså sinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(45^\\circ\\): \\(\\sin45^\\circ=\\tfrac{\\sqrt2}{2}\\)</p><div class=\"facit-matte\">\\[\\sin225^\\circ=-\\sin45^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt2}{2}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(330^\\circ=360^\\circ-30^\\circ\\) ligger i fjärde kvadranten</p><p>I fjärde kvadranten är x-koordinaten, alltså cosinus, positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\cos330^\\circ=\\cos30^\\circ=\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\)</p></div></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -214,7 +214,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin 30^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd motsvarande vinkeln i första kvadranten och tecknet i respektive kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac12\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinus är y-koordinaten: \\(\\sin v=y\\)</p><p>\\(30^\\circ\\) ligger i första kvadranten, så värdet är positivt.</p></li><li><p class=\"facit-rubrik\">Standardvärdet för \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -223,7 +223,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos 120^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd motsvarande vinkeln i första kvadranten och tecknet i respektive kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\frac12\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten</p><p>I andra kvadranten är x-koordinaten, alltså cosinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\) ger beloppet, kvadranten ger minustecknet</p><div class=\"facit-matte\">\\[\\cos120^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -232,7 +232,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin 225^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd motsvarande vinkeln i första kvadranten och tecknet i respektive kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\frac{\\sqrt2}{2}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(225^\\circ=180^\\circ+45^\\circ\\) ligger i tredje kvadranten</p><p>I tredje kvadranten är y-koordinaten, alltså sinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(45^\\circ\\): \\(\\sin45^\\circ=\\tfrac{\\sqrt2}{2}\\)</p><div class=\"facit-matte\">\\[\\sin225^\\circ=-\\sin45^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt2}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -241,7 +241,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos 330^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd motsvarande vinkeln i första kvadranten och tecknet i respektive kvadrant.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>\\(\\frac{\\sqrt3}{2}\\)</strong></p></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(330^\\circ=360^\\circ-30^\\circ\\) ligger i fjärde kvadranten</p><p>I fjärde kvadranten är x-koordinaten, alltså cosinus, positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\cos330^\\circ=\\cos30^\\circ=\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -269,7 +269,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt.</p><p>a) \\(\\cos 150^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sin 225^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan 330^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos 270^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\frac{\\sqrt3}{2}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(-\\frac{\\sqrt2}{2}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(-\\frac{1}{\\sqrt3}=-\\frac{\\sqrt3}{3}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>0</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(150^\\circ=180^\\circ-30^\\circ\\) ligger i andra kvadranten</p><p>Där är cosinus (x-koordinaten) negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\cos150^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(225^\\circ=180^\\circ+45^\\circ\\) ligger i tredje kvadranten</p><p>Där är sinus (y-koordinaten) negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(45^\\circ\\): \\(\\sin45^\\circ=\\tfrac{\\sqrt2}{2}\\)</p><div class=\"facit-matte\">\\[\\sin225^\\circ=-\\sin45^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt2}{2}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(330^\\circ=360^\\circ-30^\\circ\\) ligger i fjärde kvadranten</p><p>Där är sinus negativ och cosinus positiv, så kvoten blir negativ.</p></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan330^\\circ=\\frac{-\\frac12}{\\frac{\\sqrt3}{2}}=-\\frac{1}{\\sqrt3}\\]</div></li><li><p class=\"facit-rubrik\">Förläng med \\(\\sqrt3\\) så att roten hamnar i täljaren</p><div class=\"facit-matte\">\\[-\\frac{1}{\\sqrt3}=-\\frac{\\sqrt3}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{3}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln \\(270^\\circ\\) pekar rakt nedåt</p><p>Punkten på enhetscirkeln är \\((0,\\,-1)\\).</p></li><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten: \\(\\cos v=x\\)</p><div class=\"facit-matte\">\\[\\cos270^\\circ=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -312,7 +312,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\cos 150^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\frac{\\sqrt3}{2}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(150^\\circ=180^\\circ-30^\\circ\\) ligger i andra kvadranten</p><p>Där är cosinus (x-koordinaten) negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\cos150^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -321,7 +321,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\sin 225^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\frac{\\sqrt2}{2}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(225^\\circ=180^\\circ+45^\\circ\\) ligger i tredje kvadranten</p><p>Där är sinus (y-koordinaten) negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(45^\\circ\\): \\(\\sin45^\\circ=\\tfrac{\\sqrt2}{2}\\)</p><div class=\"facit-matte\">\\[\\sin225^\\circ=-\\sin45^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt2}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -330,7 +330,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan 330^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\frac{1}{\\sqrt3}=-\\frac{\\sqrt3}{3}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(330^\\circ=360^\\circ-30^\\circ\\) ligger i fjärde kvadranten</p><p>Där är sinus negativ och cosinus positiv, så kvoten blir negativ.</p></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan330^\\circ=\\frac{-\\frac12}{\\frac{\\sqrt3}{2}}=-\\frac{1}{\\sqrt3}\\]</div></li><li><p class=\"facit-rubrik\">Förläng med \\(\\sqrt3\\) så att roten hamnar i täljaren</p><div class=\"facit-matte\">\\[-\\frac{1}{\\sqrt3}=-\\frac{\\sqrt3}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{3}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -339,7 +339,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos 270^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>0</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln \\(270^\\circ\\) pekar rakt nedåt</p><p>Punkten på enhetscirkeln är \\((0,\\,-1)\\).</p></li><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten: \\(\\cos v=x\\)</p><div class=\"facit-matte\">\\[\\cos270^\\circ=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -367,7 +367,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt värdet av \\(\\cos 210^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Använd referensvinkeln och tecknet i rätt kvadrant.</p></li><li><p>Då slipper du approximera med miniräknare.</p></li><li><p><strong>Steg 1:</strong> Vinkeln \\(210^\\circ\\) placeras i enhetscirkeln.</p></li><li><p><strong>Steg 2:</strong> Referensvinkeln ger standardvärdet och kvadranten bestämmer tecknet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{-\\sqrt{3}/2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Placera \\(210^\\circ\\) i enhetscirkeln</p><p>\\(210^\\circ=180^\\circ+30^\\circ\\), så punkten ligger i tredje kvadranten. Där är x-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\) ger beloppet: \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><p>Beloppet hämtas från standardtabellen.</p></li><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten, så tecknet blir minus</p><div class=\"facit-matte\">\\[\\cos210^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -398,7 +398,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten P ligger på enhetscirkeln vid vinkeln \\(120^\\circ\\). Punkten Q är speglingen av P i y-axeln och R är speglingen av P i x-axeln.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkel med en punkt i andra kvadranten och dess speglingar\">\n<rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"215\" cy=\"150\" r=\"105\" fill=\"none\" stroke=\"#65707B\" stroke-width=\"2\"/>\n<line x1=\"45\" y1=\"150\" x2=\"390\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M390 150 l-9 -5 v10 z\" fill=\"#2B2527\"/>\n<line x1=\"215\" y1=\"270\" x2=\"215\" y2=\"28\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M215 28 l-5 9 h10 z\" fill=\"#2B2527\"/>\n<line x1=\"215\" y1=\"150\" x2=\"162.5\" y2=\"59.1\" stroke=\"#B43123\" stroke-width=\"2.3\"/>\n<line x1=\"215\" y1=\"150\" x2=\"267.5\" y2=\"59.1\" stroke=\"#268FA3\" stroke-width=\"1.8\" stroke-dasharray=\"5 4\"/>\n<line x1=\"215\" y1=\"150\" x2=\"162.5\" y2=\"240.9\" stroke=\"#268FA3\" stroke-width=\"1.8\" stroke-dasharray=\"5 4\"/>\n<circle cx=\"162.5\" cy=\"59.1\" r=\"5\" fill=\"#B43123\"/><circle cx=\"267.5\" cy=\"59.1\" r=\"4\" fill=\"#268FA3\"/><circle cx=\"162.5\" cy=\"240.9\" r=\"4\" fill=\"#268FA3\"/>\n<text x=\"147\" y=\"51\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#B43123\">P</text><text x=\"276\" y=\"55\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">Q</text><text x=\"145\" y=\"257\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">R</text>\n<text x=\"397\" y=\"143\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text><text x=\"225\" y=\"31\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text>\n</svg></span><p>Bestäm vinklarna för Q och R samt deras koordinater.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Metod:</strong> P har koordinaterna</p><div class=\"facit-matte\">\\[(\\cos120^\\circ,\\sin120^\\circ)=(-1/2,\\sqrt3/2)\\].</div></div></li><li><p>Spegling i y-axeln byter tecken på x-koordinaten.</p></li><li><p>Därför ligger Q vid \\(60^\\circ\\) och</p></li><li><p>\\[Q=\\left(\\frac12,\\frac{\\sqrt3}{2}\\right).\\]</p></li><li><p>Spegling i x-axeln byter tecken på y-koordinaten.</p></li><li><p>Därför ligger R vid \\(240^\\circ\\) och</p></li><li><p>\\[R=\\left(-\\frac12,-\\frac{\\sqrt3}{2}\\right).\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten P vid \\(120^\\circ\\) är \\((\\cos120^\\circ,\\ \\sin120^\\circ)\\)</p><div class=\"facit-matte\">\\[P=\\left(-\\frac12,\\ \\frac{\\sqrt3}{2}\\right)\\]</div></li><li><p class=\"facit-rubrik\">Spegling i y-axeln byter tecken på x-koordinaten</p><div class=\"facit-matte\">\\[Q=\\left(\\frac12,\\ \\frac{\\sqrt3}{2}\\right)\\]</div></li><li><p class=\"facit-rubrik\">Q:s vinkel är \\(180^\\circ-120^\\circ=60^\\circ\\)</p><p>Spegling i y-axeln gör vinkeln \\(v\\) till \\(180^\\circ-v\\). Kontroll: \\(\\cos60^\\circ=\\tfrac12\\) och \\(\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\).</p></li><li><p class=\"facit-rubrik\">Spegling i x-axeln byter tecken på y-koordinaten</p><div class=\"facit-matte\">\\[R=\\left(-\\frac12,\\ -\\frac{\\sqrt3}{2}\\right)\\]</div></li><li><p class=\"facit-rubrik\">R:s vinkel är \\(360^\\circ-120^\\circ=240^\\circ\\)</p><p>Spegling i x-axeln gör vinkeln \\(v\\) till \\(-v\\), alltså \\(360^\\circ-v\\). Kontroll: \\(\\cos240^\\circ=-\\tfrac12\\) och \\(\\sin240^\\circ=-\\tfrac{\\sqrt3}{2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Q vid \\(60^\\circ\\): \\(\\left(\\tfrac12,\\tfrac{\\sqrt3}{2}\\right)\\). R vid \\(240^\\circ\\): \\(\\left(-\\tfrac12,-\\tfrac{\\sqrt3}{2}\\right)\\).</p></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -428,7 +428,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln \\(\\alpha\\) ligger i andra kvadranten och \\(\\sin\\alpha=3/5\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"100.0\" y2=\"105.0\" stroke=\"#c0392b\" stroke-width=\"2.6\"/><line x1=\"100.0\" y1=\"105.0\" x2=\"100.0\" y2=\"180\" stroke=\"#c0392b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"100.0\" y1=\"105.0\" x2=\"200\" y2=\"105.0\" stroke=\"#c0392b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 0 0 177.6 163.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"213\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">α</text><circle cx=\"100.0\" cy=\"105.0\" r=\"5\" fill=\"#24262b\"/><text x=\"84\" y=\"97\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"221\" y=\"111\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3/5</text></svg></div><p>a) Bestäm \\(\\cos\\alpha\\) och \\(\\tan\\alpha\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\sin(180^\\circ-\\alpha)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(\\cos(360^\\circ-\\alpha)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet.</p></li><li><p class=\"facit-metod\">Använd därefter den trigonometriska relation som frågan kräver.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I andra kvadranten är cosinus negativ.</p></li><li><p>Trigonometriska ettan ger \\(\\cos\\alpha=-4/5\\), och då \\(\\tan\\alpha=(3/5)/(-4/5)=-3/4\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(180^\\circ-\\alpha)=\\sin\\alpha=\\boxed{3/5}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(360^\\circ-\\alpha)=\\cos\\alpha=\\boxed{-4/5}\\].</div></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2\\alpha=1-\\left(\\frac35\\right)^2=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">I andra kvadranten är cosinus negativ</p><div class=\"facit-matte\">\\[\\cos\\alpha=-\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}\\)</p><div class=\"facit-matte\">\\[\\tan\\alpha=\\frac{\\frac35}{-\\frac45}=-\\frac34\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos\\alpha=-\\frac45\\) och \\(\\tan\\alpha=-\\frac34\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i y-axeln: \\(\\sin(180^\\circ-\\alpha)=\\sin\\alpha\\)</p><p>Punkterna för \\(\\alpha\\) och \\(180^\\circ-\\alpha\\) är speglingar i y-axeln och har samma y-koordinat.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(\\sin\\alpha=\\tfrac35\\)</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-\\alpha)=\\frac35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac35\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i x-axeln: \\(\\cos(360^\\circ-\\alpha)=\\cos\\alpha\\)</p><p>Vinkeln \\(360^\\circ-\\alpha\\) ger samma punkt som \\(-\\alpha\\), alltså spegelbilden i x-axeln. x-koordinaten ändras inte.</p></li><li><p class=\"facit-rubrik\">Cosinus ur trigonometriska ettan, negativ i andra kvadranten</p><div class=\"facit-matte\">\\[\\cos^2\\alpha=1-\\frac{9}{25}=\\frac{16}{25}\\ \\Rightarrow\\ \\cos\\alpha=-\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Samma värde som \\(\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[\\cos(360^\\circ-\\alpha)=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac45\\)</p></div></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -475,7 +475,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm \\(\\cos\\alpha\\) och \\(\\tan\\alpha\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I andra kvadranten är cosinus negativ.</p></li><li><p>Trigonometriska ettan ger \\(\\cos\\alpha=-4/5\\), och då \\(\\tan\\alpha=(3/5)/(-4/5)=-3/4\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2\\alpha=1-\\left(\\frac35\\right)^2=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">I andra kvadranten är cosinus negativ</p><div class=\"facit-matte\">\\[\\cos\\alpha=-\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}\\)</p><div class=\"facit-matte\">\\[\\tan\\alpha=\\frac{\\frac35}{-\\frac45}=-\\frac34\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos\\alpha=-\\frac45\\) och \\(\\tan\\alpha=-\\frac34\\)</p></div>",
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
           "cos α",
@@ -489,7 +489,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm \\(\\sin(180^\\circ-\\alpha)\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Symmetrin i enhetscirkeln ger</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-\\alpha)=\\sin\\alpha\\].</div></div></li><li><p><strong>\\(3/5\\)</strong>.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i y-axeln: \\(\\sin(180^\\circ-\\alpha)=\\sin\\alpha\\)</p><p>Punkterna för \\(\\alpha\\) och \\(180^\\circ-\\alpha\\) är speglingar i y-axeln och har samma y-koordinat.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(\\sin\\alpha=\\tfrac35\\)</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-\\alpha)=\\frac35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac35\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -498,7 +498,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>Bestäm \\(\\cos(360^\\circ-\\alpha)\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Först ger trigonometriska ettan \\(\\cos\\alpha=-4/5\\), eftersom \\(\\alpha\\) ligger i andra kvadranten.</p></li><li><div class=\"facit-berakning\"><p>Sedan gäller</p><div class=\"facit-matte\">\\[\\cos(360^\\circ-\\alpha)=\\cos\\alpha\\].</div></div></li><li><p><strong>\\(-4/5\\)</strong>.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i x-axeln: \\(\\cos(360^\\circ-\\alpha)=\\cos\\alpha\\)</p><p>Vinkeln \\(360^\\circ-\\alpha\\) ger samma punkt som \\(-\\alpha\\), alltså spegelbilden i x-axeln. x-koordinaten ändras inte.</p></li><li><p class=\"facit-rubrik\">Cosinus ur trigonometriska ettan, negativ i andra kvadranten</p><div class=\"facit-matte\">\\[\\cos^2\\alpha=1-\\frac{9}{25}=\\frac{16}{25}\\ \\Rightarrow\\ \\cos\\alpha=-\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Samma värde som \\(\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[\\cos(360^\\circ-\\alpha)=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac45\\)</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -526,7 +526,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt värdet av \\(\\sin 315^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Använd referensvinkeln och tecknet i rätt kvadrant.</p></li><li><p>Då slipper du approximera med miniräknare.</p></li><li><p><strong>Steg 1:</strong> Vinkeln \\(315^\\circ\\) placeras i enhetscirkeln.</p></li><li><p><strong>Steg 2:</strong> Referensvinkeln ger standardvärdet och kvadranten bestämmer tecknet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{-\\sqrt{2}/2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Placera \\(315^\\circ\\) i enhetscirkeln</p><p>\\(315^\\circ=360^\\circ-45^\\circ\\), så punkten ligger i fjärde kvadranten. Där är y-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(45^\\circ\\) ger beloppet: \\(\\sin45^\\circ=\\tfrac{\\sqrt2}{2}\\)</p><p>Beloppet hämtas från standardtabellen.</p></li><li><p class=\"facit-rubrik\">Sinus är y-koordinaten, så tecknet blir minus</p><div class=\"facit-matte\">\\[\\sin315^\\circ=-\\sin45^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt2}{2}\\)</p></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -557,7 +557,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten \\(P\\) ligger på enhetscirkeln och motsvarar vinkeln \\(120^\\circ\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"265\" viewBox=\"0 0 390 265\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkel med en radie till vinkeln 120 grader\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"263\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n\n<circle cx=\"190\" cy=\"135\" r=\"82\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<line x1=\"60\" y1=\"135\" x2=\"330\" y2=\"135\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"190\" y1=\"35\" x2=\"190\" y2=\"235\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"190\" y1=\"135\" x2=\"149.0\" y2=\"64.0\" stroke=\"#268FA3\" stroke-width=\"2.5\"/>\n<line x1=\"149.0\" y1=\"64.0\" x2=\"149.0\" y2=\"135\" stroke=\"#268FA3\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n<line x1=\"149.0\" y1=\"64.0\" x2=\"190\" y2=\"64.0\" stroke=\"#268FA3\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n<circle cx=\"149.0\" cy=\"64.0\" r=\"5\" fill=\"#268FA3\"/>\n<path d=\"M 220 135 A 30 30 0 0 0 175.0 109.0\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.5\"/>\n<text x=\"202\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">120°</text>\n<text x=\"141.0\" y=\"54.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">P</text>\n<text x=\"333\" y=\"128\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text>\n<text x=\"198\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text>\n<text x=\"279\" y=\"152\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">1</text>\n\n</svg></span><p>a) Bestäm punktens koordinater exakt.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\sin 120^\\circ\\) och \\(\\cos 120^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> På enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\).</p></li><li><p class=\"facit-metod\">Bestäm först rätt kvadrant och låt sedan tecknen avgöra vilket exakt värde som ska väljas.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\).</p></li><li><p>Vinkeln \\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten.</p></li><li><p>Där är cosinus negativ och sinus positiv.</p></li><li><p>\\[\n\\cos120^\\circ=-\\cos60^\\circ=-\\frac12,\\qquad\n\\sin120^\\circ=\\sin60^\\circ=\\frac{\\sqrt3}{2}.\n\\]</p></li><li><p><strong>a) \\(P=\\left(-\\frac12,\\frac{\\sqrt3}{2}\\right)\\)</strong><br>\n<strong>b) \\(\\sin120^\\circ=\\frac{\\sqrt3}{2}\\), \\(\\cos120^\\circ=-\\frac12\\)</strong></p></li></ol>\n\n\n</div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att koordinaterna ligger på enhetscirkeln, alltså att \\(x^2+y^2=1\\), och att tecknen stämmer med kvadranten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En punkt på enhetscirkeln har koordinaterna \\((\\cos v,\\ \\sin v)\\)</p><p>Vi behöver alltså \\(\\cos120^\\circ\\) och \\(\\sin120^\\circ\\).</p></li><li><p class=\"facit-rubrik\">\\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten</p><p>Där är x-koordinaten negativ och y-koordinaten positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\) ger beloppen</p><div class=\"facit-matte\">\\[\\begin{aligned}x&=-\\cos60^\\circ=-\\tfrac12\\\\y&=\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P = (−1/2, √3/2)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinus är y-koordinaten och cosinus är x-koordinaten</p><p>Punkten \\(P\\) från a) har koordinaterna \\(\\left(-\\tfrac12,\\ \\tfrac{\\sqrt3}{2}\\right)\\).</p></li><li><p class=\"facit-rubrik\">Läs av koordinaterna</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin120^\\circ&=\\tfrac{\\sqrt3}{2}\\\\\\cos120^\\circ&=-\\tfrac12\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin120^\\circ=\\frac{\\sqrt3}{2}\\) och \\(\\cos120^\\circ=-\\frac12\\)</p></div></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -584,7 +584,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm punktens koordinater exakt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\).</p></li><li><p>Vinkeln \\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten.</p></li><li><p>Där är cosinus negativ och sinus positiv.</p></li><li><p>\\[ \\cos120^\\circ=-\\cos60^\\circ=-\\frac12,\\qquad \\sin120^\\circ=\\sin60^\\circ=\\frac{\\sqrt3}{2}. \\]</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P=\\left(-\\frac12,\\frac{\\sqrt3}{2}\\right)\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En punkt på enhetscirkeln har koordinaterna \\((\\cos v,\\ \\sin v)\\)</p><p>Vi behöver alltså \\(\\cos120^\\circ\\) och \\(\\sin120^\\circ\\).</p></li><li><p class=\"facit-rubrik\">\\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten</p><p>Där är x-koordinaten negativ och y-koordinaten positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\) ger beloppen</p><div class=\"facit-matte\">\\[\\begin{aligned}x&=-\\cos60^\\circ=-\\tfrac12\\\\y&=\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P = (−1/2, √3/2)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -593,7 +593,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm \\(\\sin 120^\\circ\\) och \\(\\cos 120^\\circ\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\).</p></li><li><p>Vinkeln \\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten.</p></li><li><p>Där är cosinus negativ och sinus positiv.</p></li><li><p>\\[ \\cos120^\\circ=-\\cos60^\\circ=-\\frac12,\\qquad \\sin120^\\circ=\\sin60^\\circ=\\frac{\\sqrt3}{2}. \\]</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin120^\\circ=\\frac{\\sqrt3}{2}\\],</div></li><li><div class=\"facit-matte\">\\[\\cos120^\\circ=-\\frac12\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinus är y-koordinaten och cosinus är x-koordinaten</p><p>Punkten \\(P\\) från a) har koordinaterna \\(\\left(-\\tfrac12,\\ \\tfrac{\\sqrt3}{2}\\right)\\).</p></li><li><p class=\"facit-rubrik\">Läs av koordinaterna</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin120^\\circ&=\\tfrac{\\sqrt3}{2}\\\\\\cos120^\\circ&=-\\tfrac12\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin120^\\circ=\\frac{\\sqrt3}{2}\\) och \\(\\cos120^\\circ=-\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -627,7 +627,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Förenkla med hjälp av symmetrier i enhetscirkeln.</p><p>a) \\(\\sin(180^\\circ-x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(180^\\circ-x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin(-x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos(-x)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Tänk på var punkten hamnar i enhetscirkeln efter speglingen.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Spegling i y-axeln ändrar inte y-koordinaten:</p><div class=\"facit-matte\">\\[\\boxed{\\sin(180^\\circ-x)=\\sin x}\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Samma spegling byter tecken på x-koordinaten:</p><div class=\"facit-matte\">\\[\\boxed{\\cos(180^\\circ-x)=-\\cos x}\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Spegling i x-axeln byter tecken på y-koordinaten:</p><div class=\"facit-matte\">\\[\\boxed{\\sin(-x)=-\\sin x}\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Cosinus är oförändrad vid samma spegling:</p><div class=\"facit-matte\">\\[\\boxed{\\cos(-x)=\\cos x}\\].</div></div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x\\) och \\(180^\\circ-x\\) är speglingar i y-axeln</p><p>Spegling i y-axeln ändrar inte y-koordinaten, och sinus är y-koordinaten.</p></li><li><p class=\"facit-rubrik\">Samma sinusvärde</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-x)=\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin x\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x\\) och \\(180^\\circ-x\\) är speglingar i y-axeln</p><p>Spegling i y-axeln byter tecken på x-koordinaten, och cosinus är x-koordinaten.</p></li><li><p class=\"facit-rubrik\">Motsatt cosinusvärde</p><div class=\"facit-matte\">\\[\\cos(180^\\circ-x)=-\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\cos x\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x\\) och \\(-x\\) är speglingar i x-axeln</p><p>Spegling i x-axeln byter tecken på y-koordinaten, alltså på sinus.</p></li><li><p class=\"facit-rubrik\">Sinus är udda</p><div class=\"facit-matte\">\\[\\sin(-x)=-\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\sin x\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x\\) och \\(-x\\) är speglingar i x-axeln</p><p>Spegling i x-axeln ändrar inte x-koordinaten, alltså inte cosinus.</p></li><li><p class=\"facit-rubrik\">Cosinus är jämn</p><div class=\"facit-matte\">\\[\\cos(-x)=\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x\\)</p></div></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -670,7 +670,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin(180^\\circ-x)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Tänk på var punkten hamnar i enhetscirkeln efter speglingen.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Spegling i y-axeln ändrar inte y-koordinaten:</p><div class=\"facit-matte\">\\[\\boxed{\\sin(180^\\circ-x)=\\sin x}\\].</div></div></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x\\) och \\(180^\\circ-x\\) är speglingar i y-axeln</p><p>Spegling i y-axeln ändrar inte y-koordinaten, och sinus är y-koordinaten.</p></li><li><p class=\"facit-rubrik\">Samma sinusvärde</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-x)=\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -679,7 +679,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos(180^\\circ-x)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Tänk på var punkten hamnar i enhetscirkeln efter speglingen.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Samma spegling byter tecken på x-koordinaten:</p><div class=\"facit-matte\">\\[\\boxed{\\cos(180^\\circ-x)=-\\cos x}\\].</div></div></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x\\) och \\(180^\\circ-x\\) är speglingar i y-axeln</p><p>Spegling i y-axeln byter tecken på x-koordinaten, och cosinus är x-koordinaten.</p></li><li><p class=\"facit-rubrik\">Motsatt cosinusvärde</p><div class=\"facit-matte\">\\[\\cos(180^\\circ-x)=-\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\cos x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -688,7 +688,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin(-x)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Tänk på var punkten hamnar i enhetscirkeln efter speglingen.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Spegling i x-axeln byter tecken på y-koordinaten:</p><div class=\"facit-matte\">\\[\\boxed{\\sin(-x)=-\\sin x}\\].</div></div></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x\\) och \\(-x\\) är speglingar i x-axeln</p><p>Spegling i x-axeln byter tecken på y-koordinaten, alltså på sinus.</p></li><li><p class=\"facit-rubrik\">Sinus är udda</p><div class=\"facit-matte\">\\[\\sin(-x)=-\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\sin x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -697,7 +697,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos(-x)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Tänk på var punkten hamnar i enhetscirkeln efter speglingen.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Cosinus är oförändrad vid samma spegling:</p><div class=\"facit-matte\">\\[\\boxed{\\cos(-x)=\\cos x}\\].</div></div></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x\\) och \\(-x\\) är speglingar i x-axeln</p><p>Spegling i x-axeln ändrar inte x-koordinaten, alltså inte cosinus.</p></li><li><p class=\"facit-rubrik\">Cosinus är jämn</p><div class=\"facit-matte\">\\[\\cos(-x)=\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -725,7 +725,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt värdet av \\(\\tan 135^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Använd referensvinkeln och tecknet i rätt kvadrant.</p></li><li><p>Då slipper du approximera med miniräknare.</p></li><li><p><strong>Steg 1:</strong> Vinkeln \\(135^\\circ\\) placeras i enhetscirkeln.</p></li><li><p><strong>Steg 2:</strong> Referensvinkeln ger standardvärdet och kvadranten bestämmer tecknet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{-1}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Placera \\(135^\\circ\\) i enhetscirkeln</p><p>\\(135^\\circ=180^\\circ-45^\\circ\\) ligger i andra kvadranten. Där är sinus positiv och cosinus negativ.</p></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan135^\\circ=\\frac{\\frac{\\sqrt2}{2}}{-\\frac{\\sqrt2}{2}}=-1\\]</div></li><li><p class=\"facit-rubrik\">Positivt delat med negativt ger negativt</p><p>Därför blir tangens negativ i andra kvadranten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -756,7 +756,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Använd symmetrier i enhetscirkeln och bestäm exakt.</p><p>a) \\(\\sin 150^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos 210^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin 330^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos 315^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv varje vinkel med en motsvarande vinkel i första kvadranten i första kvadranten och avgör tecknet från kvadranten.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(150^\\circ=180^\\circ-30^\\circ\\), så \\(\\sin150^\\circ=\\sin30^\\circ=\\boxed{1/2}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[210^\\circ=180^\\circ+30^\\circ\\].</div></li><li><p>Cosinus är negativ i tredje kvadranten: \\(\\boxed{-\\sqrt3/2}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[330^\\circ=360^\\circ-30^\\circ\\].</div></li><li><p>Sinus är negativ: \\(\\boxed{-1/2}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(315^\\circ=360^\\circ-45^\\circ\\), så \\(\\boxed{\\sqrt2/2}\\).</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i y-axeln: \\(\\sin(180^\\circ-v)=\\sin v\\)</p><div class=\"facit-matte\">\\[150^\\circ=180^\\circ-30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Samma sinus som \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin150^\\circ=\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri genom origo: \\(\\cos(180^\\circ+v)=-\\cos v\\)</p><div class=\"facit-matte\">\\[210^\\circ=180^\\circ+30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Motsatt cosinus mot \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\cos210^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i x-axeln: \\(\\sin(360^\\circ-v)=-\\sin v\\)</p><div class=\"facit-matte\">\\[330^\\circ=360^\\circ-30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Motsatt sinus mot \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin330^\\circ=-\\sin30^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i x-axeln: \\(\\cos(360^\\circ-v)=\\cos v\\)</p><div class=\"facit-matte\">\\[315^\\circ=360^\\circ-45^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Samma cosinus som \\(45^\\circ\\)</p><div class=\"facit-matte\">\\[\\cos315^\\circ=\\cos45^\\circ=\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2}{2}\\)</p></div></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -799,7 +799,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin 150^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Skriv varje vinkel med en motsvarande vinkel i första kvadranten i första kvadranten och avgör tecknet från kvadranten.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(150^\\circ=180^\\circ-30^\\circ\\), så \\(\\sin150^\\circ=\\sin30^\\circ=\\boxed{1/2}\\).</p></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i y-axeln: \\(\\sin(180^\\circ-v)=\\sin v\\)</p><div class=\"facit-matte\">\\[150^\\circ=180^\\circ-30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Samma sinus som \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin150^\\circ=\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -808,7 +808,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos 210^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Skriv varje vinkel med en motsvarande vinkel i första kvadranten i första kvadranten och avgör tecknet från kvadranten.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[210^\\circ=180^\\circ+30^\\circ\\].</div></li><li><p>Cosinus är negativ i tredje kvadranten: \\(\\boxed{-\\sqrt3/2}\\).</p></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri genom origo: \\(\\cos(180^\\circ+v)=-\\cos v\\)</p><div class=\"facit-matte\">\\[210^\\circ=180^\\circ+30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Motsatt cosinus mot \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\cos210^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -817,7 +817,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin 330^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Skriv varje vinkel med en motsvarande vinkel i första kvadranten i första kvadranten och avgör tecknet från kvadranten.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[330^\\circ=360^\\circ-30^\\circ\\].</div></li><li><p>Sinus är negativ: \\(\\boxed{-1/2}\\).</p></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i x-axeln: \\(\\sin(360^\\circ-v)=-\\sin v\\)</p><div class=\"facit-matte\">\\[330^\\circ=360^\\circ-30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Motsatt sinus mot \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin330^\\circ=-\\sin30^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -826,7 +826,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos 315^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Skriv varje vinkel med en motsvarande vinkel i första kvadranten i första kvadranten och avgör tecknet från kvadranten.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(315^\\circ=360^\\circ-45^\\circ\\), så \\(\\boxed{\\sqrt2/2}\\).</p></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i x-axeln: \\(\\cos(360^\\circ-v)=\\cos v\\)</p><div class=\"facit-matte\">\\[315^\\circ=360^\\circ-45^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Samma cosinus som \\(45^\\circ\\)</p><div class=\"facit-matte\">\\[\\cos315^\\circ=\\cos45^\\circ=\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -854,7 +854,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkterna A, B och C ligger på enhetscirkeln och motsvarar vinklarna \\(150^\\circ\\), \\(240^\\circ\\) respektive \\(315^\\circ\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"300\" viewBox=\"0 0 390 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkel med markerade punkter\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"195\" cy=\"150\" r=\"100\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"45\" y1=\"150\" x2=\"345\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"195\" y1=\"35\" x2=\"195\" y2=\"265\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"195\" y1=\"150\" x2=\"108.4\" y2=\"100.0\" stroke=\"#268FA3\" stroke-width=\"2\"/><circle cx=\"108.4\" cy=\"100.0\" r=\"5\" fill=\"#B43123\"/><line x1=\"195\" y1=\"150\" x2=\"145.0\" y2=\"236.6\" stroke=\"#268FA3\" stroke-width=\"2\"/><circle cx=\"145.0\" cy=\"236.6\" r=\"5\" fill=\"#B43123\"/><line x1=\"195\" y1=\"150\" x2=\"265.7\" y2=\"220.7\" stroke=\"#268FA3\" stroke-width=\"2\"/><circle cx=\"265.7\" cy=\"220.7\" r=\"5\" fill=\"#B43123\"/><text x=\"284.0\" y=\"230.0\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">C</text><text x=\"284.0\" y=\"230.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">C</text><text x=\"334\" y=\"141\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"204\" y=\"47\" font-family=\"sans-serif\" font-size=\"11\">y</text><text x=\"104.0\" y=\"85.0\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">A</text><text x=\"104.0\" y=\"85.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">A</text><text x=\"140.0\" y=\"248.0\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">B</text><text x=\"140.0\" y=\"248.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">B</text></svg></span><p>Bestäm exakt koordinaterna för A, B och C.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\).</p></li><li><p>Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p></li><li><p>På enhetscirkeln har punkten vid vinkeln \\(v\\) koordinaterna \\((\\cos v,\\sin v)\\).</p></li><li><p><strong>A:</strong> \\((-\\sqrt3/2,\\,1/2)\\)<br><strong>B:</strong> \\((-1/2,\\,-\\sqrt3/2)\\)<br><strong>C:</strong> \\((\\sqrt2/2,\\,-\\sqrt2/2)\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten vid vinkeln \\(v\\) är \\((\\cos v,\\ \\sin v)\\)</p><p>Bestäm kvadrant och referensvinkel för varje punkt.</p></li><li><p class=\"facit-rubrik\">A: \\(150^\\circ=180^\\circ-30^\\circ\\), andra kvadranten (x negativ, y positiv)</p><div class=\"facit-matte\">\\[A=\\left(-\\cos30^\\circ,\\ \\sin30^\\circ\\right)=\\left(-\\tfrac{\\sqrt3}{2},\\ \\tfrac12\\right)\\]</div></li><li><p class=\"facit-rubrik\">B: \\(240^\\circ=180^\\circ+60^\\circ\\), tredje kvadranten (båda negativa)</p><div class=\"facit-matte\">\\[B=\\left(-\\cos60^\\circ,\\ -\\sin60^\\circ\\right)=\\left(-\\tfrac12,\\ -\\tfrac{\\sqrt3}{2}\\right)\\]</div></li><li><p class=\"facit-rubrik\">C: \\(315^\\circ=360^\\circ-45^\\circ\\), fjärde kvadranten (x positiv, y negativ)</p><div class=\"facit-matte\">\\[C=\\left(\\cos45^\\circ,\\ -\\sin45^\\circ\\right)=\\left(\\tfrac{\\sqrt2}{2},\\ -\\tfrac{\\sqrt2}{2}\\right)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A=\\left(-\\tfrac{\\sqrt3}{2},\\tfrac12\\right)\\), \\(B=\\left(-\\tfrac12,-\\tfrac{\\sqrt3}{2}\\right)\\), \\(C=\\left(\\tfrac{\\sqrt2}{2},-\\tfrac{\\sqrt2}{2}\\right)\\)</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -884,7 +884,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt värdet av \\(\\cos 330^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Använd referensvinkeln och tecknet i rätt kvadrant.</p></li><li><p>Då slipper du approximera med miniräknare.</p></li><li><p><strong>Steg 1:</strong> Vinkeln \\(330^\\circ\\) placeras i enhetscirkeln.</p></li><li><p><strong>Steg 2:</strong> Referensvinkeln ger standardvärdet och kvadranten bestämmer tecknet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\sqrt{3}/2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Placera \\(330^\\circ\\) i enhetscirkeln</p><p>\\(330^\\circ=360^\\circ-30^\\circ\\) ligger i fjärde kvadranten. Där är x-koordinaten positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><p>Cosinus är x-koordinaten, så tecknet blir plus.</p></li><li><p class=\"facit-rubrik\">Skriv värdet</p><div class=\"facit-matte\">\\[\\cos330^\\circ=\\cos30^\\circ=\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\)</p></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -915,7 +915,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt.</p><p>a) \\(\\sin 30^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos 120^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan 225^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\).</p></li><li><p>Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p></li><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(1/2\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(-1/2\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(1\\)</strong></p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(30^\\circ\\) är en standardvinkel i första kvadranten</p><p>Där är alla trigonometriska värden positiva.</p></li><li><p class=\"facit-rubrik\">Sinus är y-koordinaten: \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten, och \\(120^\\circ\\) ligger i andra kvadranten</p><p>Till vänster om y-axeln är x-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln är \\(60^\\circ\\)</p><div class=\"facit-matte\">\\[\\cos120^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens har perioden \\(180^\\circ\\): \\(\\tan(v+180^\\circ)=\\tan v\\)</p><div class=\"facit-matte\">\\[\\tan225^\\circ=\\tan(45^\\circ+180^\\circ)=\\tan45^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Standardvärdet \\(\\tan45^\\circ=1\\)</p><p>Vid \\(45^\\circ\\) är sinus och cosinus lika stora, så kvoten är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -953,7 +953,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin 30^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(1/2\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(30^\\circ\\) är en standardvinkel i första kvadranten</p><p>Där är alla trigonometriska värden positiva.</p></li><li><p class=\"facit-rubrik\">Sinus är y-koordinaten: \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -962,7 +962,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos 120^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-1/2\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten, och \\(120^\\circ\\) ligger i andra kvadranten</p><p>Till vänster om y-axeln är x-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln är \\(60^\\circ\\)</p><div class=\"facit-matte\">\\[\\cos120^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -971,7 +971,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan 225^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>\\(1\\)</strong></p></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens har perioden \\(180^\\circ\\): \\(\\tan(v+180^\\circ)=\\tan v\\)</p><div class=\"facit-matte\">\\[\\tan225^\\circ=\\tan(45^\\circ+180^\\circ)=\\tan45^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Standardvärdet \\(\\tan45^\\circ=1\\)</p><p>Vid \\(45^\\circ\\) är sinus och cosinus lika stora, så kvoten är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -999,7 +999,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt.</p><p>a) \\(\\tan 45^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\tan 135^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin 300^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos 240^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\).</p></li><li><p>Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p></li><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>1</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>−1</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(-\\frac{\\sqrt3}{2}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(-\\frac12\\)</strong></p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><p>Vid \\(45^\\circ\\) är \\(\\sin45^\\circ=\\cos45^\\circ=\\tfrac{\\sqrt2}{2}\\).</p></li><li><p class=\"facit-rubrik\">Lika stora tal ger kvoten 1</p><div class=\"facit-matte\">\\[\\tan45^\\circ=\\frac{\\frac{\\sqrt2}{2}}{\\frac{\\sqrt2}{2}}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(135^\\circ=180^\\circ-45^\\circ\\) ligger i andra kvadranten</p><p>Där är sinus positiv och cosinus negativ, så kvoten är negativ.</p></li><li><p class=\"facit-rubrik\">Samma belopp som \\(\\tan45^\\circ\\), men minustecken</p><div class=\"facit-matte\">\\[\\tan135^\\circ=-\\tan45^\\circ=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(300^\\circ=360^\\circ-60^\\circ\\) ligger i fjärde kvadranten</p><p>Där är y-koordinaten, alltså sinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\sin300^\\circ=-\\sin60^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(240^\\circ=180^\\circ+60^\\circ\\) ligger i tredje kvadranten</p><p>Där är x-koordinaten, alltså cosinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\cos60^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\cos240^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1042,7 +1042,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\tan 45^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>1</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><p>Vid \\(45^\\circ\\) är \\(\\sin45^\\circ=\\cos45^\\circ=\\tfrac{\\sqrt2}{2}\\).</p></li><li><p class=\"facit-rubrik\">Lika stora tal ger kvoten 1</p><div class=\"facit-matte\">\\[\\tan45^\\circ=\\frac{\\frac{\\sqrt2}{2}}{\\frac{\\sqrt2}{2}}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -1051,7 +1051,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\tan 135^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>−1</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(135^\\circ=180^\\circ-45^\\circ\\) ligger i andra kvadranten</p><p>Där är sinus positiv och cosinus negativ, så kvoten är negativ.</p></li><li><p class=\"facit-rubrik\">Samma belopp som \\(\\tan45^\\circ\\), men minustecken</p><div class=\"facit-matte\">\\[\\tan135^\\circ=-\\tan45^\\circ=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1060,7 +1060,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin 300^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\frac{\\sqrt3}{2}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(300^\\circ=360^\\circ-60^\\circ\\) ligger i fjärde kvadranten</p><p>Där är y-koordinaten, alltså sinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\sin300^\\circ=-\\sin60^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1069,7 +1069,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos 240^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>\\(-\\frac12\\)</strong></p></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(240^\\circ=180^\\circ+60^\\circ\\) ligger i tredje kvadranten</p><p>Där är x-koordinaten, alltså cosinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\cos60^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\cos240^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1097,7 +1097,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt värdet av \\(\\sin 240^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Använd referensvinkeln och tecknet i rätt kvadrant.</p></li><li><p>Då slipper du approximera med miniräknare.</p></li><li><p><strong>Steg 1:</strong> Vinkeln \\(240^\\circ\\) placeras i enhetscirkeln.</p></li><li><p><strong>Steg 2:</strong> Referensvinkeln ger standardvärdet och kvadranten bestämmer tecknet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{-\\sqrt{3}/2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Placera \\(240^\\circ\\) i enhetscirkeln</p><p>\\(240^\\circ=180^\\circ+60^\\circ\\) ligger i tredje kvadranten. Där är y-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><p>Det ger beloppet. Kvadranten ger tecknet.</p></li><li><p class=\"facit-rubrik\">Sinus är y-koordinaten, så tecknet blir minus</p><div class=\"facit-matte\">\\[\\sin240^\\circ=-\\sin60^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1128,7 +1128,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten \\(P\\) ligger på enhetscirkeln och har koordinaterna</p><p>\\[P=\\left(-\\frac{\\sqrt3}{2},\\frac12\\right).\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"99.3\" y1=\"20.0\" x2=\"99.3\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"193.5\" y1=\"20.0\" x2=\"193.5\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"287.7\" y1=\"20.0\" x2=\"287.7\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"61.6\" y1=\"236.7\" x2=\"325.4\" y2=\"236.7\" stroke=\"#E8EEF0\"/>\n<line x1=\"61.6\" y1=\"142.5\" x2=\"325.4\" y2=\"142.5\" stroke=\"#E8EEF0\"/>\n<line x1=\"61.6\" y1=\"48.3\" x2=\"325.4\" y2=\"48.3\" stroke=\"#E8EEF0\"/>\n<circle cx=\"193.5\" cy=\"142.5\" r=\"94.2\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<line x1=\"61.6\" y1=\"142.5\" x2=\"325.4\" y2=\"142.5\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<line x1=\"193.5\" y1=\"20.0\" x2=\"193.5\" y2=\"265.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<circle cx=\"111.9\" cy=\"95.4\" r=\"4.5\" fill=\"#B43123\"/>\n<text x=\"118.9\" y=\"88.4\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">P</text>\n<text x=\"322.4\" y=\"135.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text>\n<text x=\"200.5\" y=\"32.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text>\n</svg></span><p>Låt \\(v\\) vara vinkeln från positiva x-axeln till \\(OP\\), där \\(0\\le v&lt;360^\\circ\\).</p><p>a) Bestäm \\(v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\sin 2v\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet.</p></li><li><p class=\"facit-metod\">Använd därefter den trigonometriska relation som frågan kräver.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Koordinaterna ger \\(\\cos v=-\\sqrt3/2\\) och \\(\\sin v=1/2\\).</p></li><li><p>Punkten ligger i andra kvadranten, alltså</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\boxed{v=150^\\circ}.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd dubbla vinkeln:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac12\\cdot\\left(-\\frac{\\sqrt3}{2}\\right)=\\boxed{-\\frac{\\sqrt3}{2}}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Koordinaterna är \\((\\cos v,\\ \\sin v)\\)</p><div class=\"facit-matte\">\\[\\cos v=-\\frac{\\sqrt3}{2},\\qquad \\sin v=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Beloppen hör till referensvinkeln \\(30^\\circ\\)</p><p>x negativ och y positiv betyder andra kvadranten.</p></li><li><p class=\"facit-rubrik\">Andra kvadranten: ett halvt varv minus referensvinkeln</p><div class=\"facit-matte\">\\[v=180^\\circ-30^\\circ=150^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=150^\\circ\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2v=2\\sin v\\cos v\\)</p><p>Sinus och cosinus läses av direkt ur punktens koordinater.</p></li><li><p class=\"facit-rubrik\">Sätt in koordinaterna</p><div class=\"facit-matte\">\\[\\sin2v=2\\cdot\\frac12\\cdot\\left(-\\frac{\\sqrt3}{2}\\right)=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -1161,7 +1161,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm \\(v\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Koordinaterna ger \\(\\cos v=-\\sqrt3/2\\) och \\(\\sin v=1/2\\).</p></li><li><p>Punkten ligger i andra kvadranten, alltså</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\boxed{v=150^\\circ}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Koordinaterna är \\((\\cos v,\\ \\sin v)\\)</p><div class=\"facit-matte\">\\[\\cos v=-\\frac{\\sqrt3}{2},\\qquad \\sin v=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Beloppen hör till referensvinkeln \\(30^\\circ\\)</p><p>x negativ och y positiv betyder andra kvadranten.</p></li><li><p class=\"facit-rubrik\">Andra kvadranten: ett halvt varv minus referensvinkeln</p><div class=\"facit-matte\">\\[v=180^\\circ-30^\\circ=150^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=150^\\circ\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1170,7 +1170,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm \\(\\sin 2v\\) exakt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd dubbla vinkeln:</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac12\\cdot\\left(-\\frac{\\sqrt3}{2}\\right)=\\boxed{-\\frac{\\sqrt3}{2}}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2v=2\\sin v\\cos v\\)</p><p>Sinus och cosinus läses av direkt ur punktens koordinater.</p></li><li><p class=\"facit-rubrik\">Sätt in koordinaterna</p><div class=\"facit-matte\">\\[\\sin2v=2\\cdot\\frac12\\cdot\\left(-\\frac{\\sqrt3}{2}\\right)=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -1202,7 +1202,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(v\\) gäller \\(\\sin v=3/5\\) och \\(90^\\circ&lt;v&lt;180^\\circ\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"100.0\" y2=\"105.0\" stroke=\"#2e7d52\" stroke-width=\"2.6\"/><line x1=\"100.0\" y1=\"105.0\" x2=\"100.0\" y2=\"180\" stroke=\"#2e7d52\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"100.0\" y1=\"105.0\" x2=\"200\" y2=\"105.0\" stroke=\"#2e7d52\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 0 0 177.6 163.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"213\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"100.0\" cy=\"105.0\" r=\"5\" fill=\"#24262b\"/><text x=\"84\" y=\"97\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"221\" y=\"111\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3/5</text></svg></div><p>Bestäm exakt</p><p>a) \\(\\cos v\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sin(180^\\circ-v)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan(360^\\circ-v)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(v\\) ligger i andra kvadranten är cosinus negativ.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan ger \\(\\cos^2v=1-9/25=16/25\\), alltså \\(\\cos v=\\boxed{-4/5}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(180^\\circ-v)=\\sin v=\\boxed{3/5}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan(360^\\circ-v)=-\\tan v\\].</div></li><li><p>Här är \\(\\tan v=(3/5)/(-4/5)=-3/4\\), alltså \\(\\boxed{3/4}\\).</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\left(\\frac35\\right)^2=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">\\(90^\\circ\\lt v\\lt 180^\\circ\\): andra kvadranten, där cosinus är negativ</p><div class=\"facit-matte\">\\[\\cos v=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac45\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i y-axeln: \\(\\sin(180^\\circ-v)=\\sin v\\)</p><p>Spegling i y-axeln ändrar inte y-koordinaten.</p></li><li><p class=\"facit-rubrik\">Sätt in det givna sinusvärdet</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-v)=\\frac35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac35\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i x-axeln: \\(\\tan(360^\\circ-v)=-\\tan v\\)</p><p>Sinus byter tecken men cosinus inte, så kvoten byter tecken.</p></li><li><p class=\"facit-rubrik\">Tangens för \\(v\\) med de givna värdena</p><div class=\"facit-matte\">\\[\\tan v=\\frac{\\frac35}{-\\frac45}=-\\frac34\\]</div></li><li><p class=\"facit-rubrik\">Byt tecken</p><div class=\"facit-matte\">\\[\\tan(360^\\circ-v)=-\\left(-\\frac34\\right)=\\frac34\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac34\\)</p></div></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -1240,7 +1240,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm \\(\\cos v\\) exakt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(v\\) ligger i andra kvadranten är cosinus negativ.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan ger \\(\\cos^2v=1-9/25=16/25\\), alltså \\(\\cos v=\\boxed{-4/5}\\).</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\left(\\frac35\\right)^2=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">\\(90^\\circ\\lt v\\lt 180^\\circ\\): andra kvadranten, där cosinus är negativ</p><div class=\"facit-matte\">\\[\\cos v=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac45\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1249,7 +1249,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm \\(\\sin(180^\\circ-v)\\) exakt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(v\\) ligger i andra kvadranten är cosinus negativ.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(180^\\circ-v)=\\sin v=\\boxed{3/5}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i y-axeln: \\(\\sin(180^\\circ-v)=\\sin v\\)</p><p>Spegling i y-axeln ändrar inte y-koordinaten.</p></li><li><p class=\"facit-rubrik\">Sätt in det givna sinusvärdet</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-v)=\\frac35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac35\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1258,7 +1258,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>För denna del gäller \\(\\sin v=3/5\\) och \\(\\cos v=-4/5\\). Bestäm \\(\\tan(360^\\circ-v)\\) exakt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(v\\) ligger i andra kvadranten är cosinus negativ.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan(360^\\circ-v)=-\\tan v\\].</div></li><li><p>Här är \\(\\tan v=(3/5)/(-4/5)=-3/4\\), alltså \\(\\boxed{3/4}\\).</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i x-axeln: \\(\\tan(360^\\circ-v)=-\\tan v\\)</p><p>Sinus byter tecken men cosinus inte, så kvoten byter tecken.</p></li><li><p class=\"facit-rubrik\">Tangens för \\(v\\) med de givna värdena</p><div class=\"facit-matte\">\\[\\tan v=\\frac{\\frac35}{-\\frac45}=-\\frac34\\]</div></li><li><p class=\"facit-rubrik\">Byt tecken</p><div class=\"facit-matte\">\\[\\tan(360^\\circ-v)=-\\left(-\\frac34\\right)=\\frac34\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac34\\)</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -1286,7 +1286,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt värdet av \\(\\cos 225^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Använd referensvinkeln och tecknet i rätt kvadrant.</p></li><li><p>Då slipper du approximera med miniräknare.</p></li><li><p><strong>Steg 1:</strong> Vinkeln \\(225^\\circ\\) placeras i enhetscirkeln.</p></li><li><p><strong>Steg 2:</strong> Referensvinkeln ger standardvärdet och kvadranten bestämmer tecknet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{-\\sqrt{2}/2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Placera \\(225^\\circ\\) i enhetscirkeln</p><p>\\(225^\\circ=180^\\circ+45^\\circ\\) ligger i tredje kvadranten. Där är x-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(45^\\circ\\): \\(\\cos45^\\circ=\\tfrac{\\sqrt2}{2}\\)</p><p>Det ger beloppet. Kvadranten ger tecknet.</p></li><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten, så tecknet blir minus</p><div class=\"facit-matte\">\\[\\cos225^\\circ=-\\cos45^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt2}{2}\\)</p></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1317,7 +1317,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten i figuren motsvarar vinkeln \\(140^\\circ\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"260\" viewBox=\"0 0 360 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"180\" cy=\"132\" r=\"84\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"45\" y1=\"132\" x2=\"315\" y2=\"132\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"180\" y1=\"25\" x2=\"180\" y2=\"235\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"180\" y1=\"132\" x2=\"115.7\" y2=\"78.0\" stroke=\"#B43123\" stroke-width=\"2.5\"/><circle cx=\"115.7\" cy=\"78.0\" r=\"4.5\" fill=\"#B43123\"/><path d=\"M 215 132 A 35 35 0 0 0 153.2 109.5\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><text x=\"218\" y=\"111\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">140°</text><text x=\"326\" y=\"127\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"187\" y=\"24\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">y</text></svg></span><p>Bestäm exakt sambandet mellan \\(\\sin 140^\\circ\\), \\(\\cos 140^\\circ\\) och motsvarande värden för vinkeln \\(40^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd symmetrin i enhetscirkeln och kontrollera vilket tecken funktionen ska ha i den aktuella kvadranten.</p></li><li><p>Vinklarna är speglingar i y-axeln.</p></li><li><p>Därför är <strong>\\(\\sin140^\\circ=\\sin40^\\circ\\)</strong> och <strong>\\(\\cos140^\\circ=-\\cos40^\\circ\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(140^\\circ=180^\\circ-40^\\circ\\)</p><p>Punkterna för \\(40^\\circ\\) och \\(140^\\circ\\) är varandras speglingar i y-axeln.</p></li><li><p class=\"facit-rubrik\">Samma y-koordinat: \\(\\sin(180^\\circ-v)=\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin140^\\circ=\\sin40^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Motsatt x-koordinat: \\(\\cos(180^\\circ-v)=-\\cos v\\)</p><div class=\"facit-matte\">\\[\\cos140^\\circ=-\\cos40^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin140^\\circ=\\sin40^\\circ\\) och \\(\\cos140^\\circ=-\\cos40^\\circ\\)</p></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1348,7 +1348,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Förenkla \\(\\sin(180^\\circ-x)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinklarna x och \\(180^\\circ-x\\) ligger speglade i y-axeln på enhetscirkeln.</p></li><li><p>De har samma y-koordinat, alltså samma sinusvärde.</p></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-x)=\\sin x\\].</div></div></li><li><p><strong>Geometriskt:</strong> Sinus är punktens y-koordinat på enhetscirkeln.</p></li><li><p>Spegling i y-axeln ändrar x-koordinaten men lämnar y-koordinaten oförändrad, vilket är precis varför identiteten gäller.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rita \\(x\\) och \\(180^\\circ-x\\) i enhetscirkeln</p><p>De två punkterna är speglingar av varandra i y-axeln.</p></li><li><p class=\"facit-rubrik\">Spegling i y-axeln ändrar inte y-koordinaten</p><p>Sinus är y-koordinaten, så sinusvärdet blir detsamma.</p></li><li><p class=\"facit-rubrik\">Symmetriregeln: \\(\\sin(180^\\circ-x)=\\sin x\\)</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-x)=\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin x\\)</p></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1379,7 +1379,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt.</p><p>a) \\(\\sin210^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos300^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan135^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos180^\\circ+\\sin270^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\).</p></li><li><p>Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p></li><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\frac12\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\frac12\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(-1\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(-1-1=\\)<strong>−2</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ=180^\\circ+30^\\circ\\) ligger i tredje kvadranten</p><p>Där är sinus (y-koordinaten) negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\sin210^\\circ=-\\sin30^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(300^\\circ=360^\\circ-60^\\circ\\) ligger i fjärde kvadranten</p><p>Där är cosinus (x-koordinaten) positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\cos60^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\cos300^\\circ=\\cos60^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(135^\\circ=180^\\circ-45^\\circ\\) ligger i andra kvadranten</p><p>Sinus är positiv och cosinus negativ, så tangens är negativ.</p></li><li><p class=\"facit-rubrik\">Samma belopp som \\(\\tan45^\\circ=1\\)</p><div class=\"facit-matte\">\\[\\tan135^\\circ=-\\tan45^\\circ=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten vid \\(180^\\circ\\) är \\((-1,\\ 0)\\)</p><div class=\"facit-matte\">\\[\\cos180^\\circ=-1\\]</div></li><li><p class=\"facit-rubrik\">Punkten vid \\(270^\\circ\\) är \\((0,\\ -1)\\)</p><div class=\"facit-matte\">\\[\\sin270^\\circ=-1\\]</div></li><li><p class=\"facit-rubrik\">Lägg ihop de två värdena</p><div class=\"facit-matte\">\\[\\cos180^\\circ+\\sin270^\\circ=-1+(-1)=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1422,7 +1422,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin210^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\frac12\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ=180^\\circ+30^\\circ\\) ligger i tredje kvadranten</p><p>Där är sinus (y-koordinaten) negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\sin210^\\circ=-\\sin30^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1431,7 +1431,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos300^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac12\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(300^\\circ=360^\\circ-60^\\circ\\) ligger i fjärde kvadranten</p><p>Där är cosinus (x-koordinaten) positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\cos60^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\cos300^\\circ=\\cos60^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1440,7 +1440,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan135^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-1\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(135^\\circ=180^\\circ-45^\\circ\\) ligger i andra kvadranten</p><p>Sinus är positiv och cosinus negativ, så tangens är negativ.</p></li><li><p class=\"facit-rubrik\">Samma belopp som \\(\\tan45^\\circ=1\\)</p><div class=\"facit-matte\">\\[\\tan135^\\circ=-\\tan45^\\circ=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1449,7 +1449,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos180^\\circ+\\sin270^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(-1-1=\\)<strong>−2</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten vid \\(180^\\circ\\) är \\((-1,\\ 0)\\)</p><div class=\"facit-matte\">\\[\\cos180^\\circ=-1\\]</div></li><li><p class=\"facit-rubrik\">Punkten vid \\(270^\\circ\\) är \\((0,\\ -1)\\)</p><div class=\"facit-matte\">\\[\\sin270^\\circ=-1\\]</div></li><li><p class=\"facit-rubrik\">Lägg ihop de två värdena</p><div class=\"facit-matte\">\\[\\cos180^\\circ+\\sin270^\\circ=-1+(-1)=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -1477,7 +1477,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt värdet av \\(\\tan 120^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Använd referensvinkeln och tecknet i rätt kvadrant.</p></li><li><p>Då slipper du approximera med miniräknare.</p></li><li><p><strong>Steg 1:</strong> Vinkeln \\(120^\\circ\\) placeras i enhetscirkeln.</p></li><li><p><strong>Steg 2:</strong> Referensvinkeln ger standardvärdet och kvadranten bestämmer tecknet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{-\\sqrt{3}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Placera \\(120^\\circ\\) i enhetscirkeln</p><p>\\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten. Sinus är positiv och cosinus negativ.</p></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan120^\\circ=\\frac{\\frac{\\sqrt3}{2}}{-\\frac12}\\]</div></li><li><p class=\"facit-rubrik\">Dela med \\(-\\tfrac12\\) genom att multiplicera med \\(-2\\)</p><div class=\"facit-matte\">\\[\\frac{\\sqrt3}{2}\\cdot(-2)=-\\sqrt3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\sqrt3\\)</p></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1508,7 +1508,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Använd enhetscirkeln och tecknen i de fyra kvadranterna.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"440\" height=\"250\" viewBox=\"0 0 440 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkel indelad i fyra kvadranter\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"220\" cy=\"125\" r=\"82\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"45\" y1=\"125\" x2=\"395\" y2=\"125\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"220\" y1=\"20\" x2=\"220\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"285\" y=\"70\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">I</text><text x=\"153\" y=\"70\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">II</text><text x=\"150\" y=\"185\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">III</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">IV</text><text x=\"402\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"228\" y=\"20\" font-family=\"sans-serif\" font-size=\"11\">y</text><g font-family=\"sans-serif\" font-size=\"12\" fill=\"#6b7280\"><text x=\"306\" y=\"141\">0°</text><text x=\"226\" y=\"38\">90°</text><text x=\"105\" y=\"141\">180°</text><text x=\"226\" y=\"223\">270°</text></g></svg></span><p>Bestäm tecknet på följande uttryck. Svara med <strong>+</strong> eller <strong>−</strong>.</p><p>a) \\(\\sin140^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos220^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan310^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin(-40^\\circ)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm en referensvinkel med kända exakta värden och använd sedan kvadrant, symmetri eller periodicitet för rätt tecken.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>140° ligger i II: <strong>positivt</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>220° ligger i III: <strong>negativt</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>310° ligger i IV: sinus negativ och cosinus positiv, alltså <strong>negativt</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinus är udda: \\(\\sin(-40^\\circ)=-\\sin40^\\circ\\), alltså <strong>negativt</strong>.</p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera värdets tecken mot kvadranten och att resultatet är ett exakt standardvärde.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(140^\\circ\\) ligger mellan \\(90^\\circ\\) och \\(180^\\circ\\)</p><p>Det är kvadrant II, ovanför x-axeln.</p></li><li><p class=\"facit-rubrik\">Sinus är y-koordinaten: \\(\\sin v=y\\)</p><p>Ovanför x-axeln är y positiv, så \\(\\sin140^\\circ\\) är positivt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> +</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(220^\\circ\\) ligger mellan \\(180^\\circ\\) och \\(270^\\circ\\)</p><p>Det är kvadrant III, till vänster om y-axeln.</p></li><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten: \\(\\cos v=x\\)</p><p>Till vänster om y-axeln är x negativ, så \\(\\cos220^\\circ\\) är negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(310^\\circ\\) ligger mellan \\(270^\\circ\\) och \\(360^\\circ\\)</p><p>Det är kvadrant IV: sinus är negativ och cosinus positiv.</p></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><p>Negativt delat med positivt blir negativt, så \\(\\tan310^\\circ\\) är negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(-40^\\circ\\) betyder \\(40^\\circ\\) medurs från positiva x-axeln</p><p>Punkten hamnar i kvadrant IV, under x-axeln.</p></li><li><p class=\"facit-rubrik\">Sinus är y-koordinaten, och den är negativ under x-axeln</p><div class=\"facit-matte\">\\[\\sin(-40^\\circ)=-\\sin40^\\circ\\lt 0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −</p></div></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1553,7 +1553,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin140^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> \\(140^\\circ\\) ligger i kvadrant II.</p></li><li><p>Där är y-koordinaten positiv, och sinus är punktens y-koordinat i enhetscirkeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin140^\\circ\\) är <strong>positivt</strong>.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(140^\\circ\\) ligger mellan \\(90^\\circ\\) och \\(180^\\circ\\)</p><p>Det är kvadrant II, ovanför x-axeln.</p></li><li><p class=\"facit-rubrik\">Sinus är y-koordinaten: \\(\\sin v=y\\)</p><p>Ovanför x-axeln är y positiv, så \\(\\sin140^\\circ\\) är positivt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> +</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -1562,7 +1562,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos220^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> \\(220^\\circ\\) ligger i kvadrant III.</p></li><li><p>Där är x-koordinaten negativ, och cosinus är punktens x-koordinat i enhetscirkeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos220^\\circ\\) är <strong>negativt</strong>.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(220^\\circ\\) ligger mellan \\(180^\\circ\\) och \\(270^\\circ\\)</p><p>Det är kvadrant III, till vänster om y-axeln.</p></li><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten: \\(\\cos v=x\\)</p><p>Till vänster om y-axeln är x negativ, så \\(\\cos220^\\circ\\) är negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -1571,7 +1571,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan310^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> \\(310^\\circ\\) ligger i kvadrant IV.</p></li><li><p>Där är sinus negativ och cosinus positiv.</p></li><li><p>Eftersom \\(\\tan v=\\sin v/\\cos v\\) blir kvoten negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tan310^\\circ\\) är <strong>negativt</strong>.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(310^\\circ\\) ligger mellan \\(270^\\circ\\) och \\(360^\\circ\\)</p><p>Det är kvadrant IV: sinus är negativ och cosinus positiv.</p></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><p>Negativt delat med positivt blir negativt, så \\(\\tan310^\\circ\\) är negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -1580,7 +1580,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\sin(-40^\\circ)\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> Sinus är en udda funktion:</p><div class=\"facit-matte\">\\[\\sin(-v)=-\\sin v\\].</div></div></li><li><p>Eftersom \\(\\sin40^\\circ&gt;0\\) gäller därför \\(\\sin(-40^\\circ)\\lt0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>negativt</strong>.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(-40^\\circ\\) betyder \\(40^\\circ\\) medurs från positiva x-axeln</p><p>Punkten hamnar i kvadrant IV, under x-axeln.</p></li><li><p class=\"facit-rubrik\">Sinus är y-koordinaten, och den är negativ under x-axeln</p><div class=\"facit-matte\">\\[\\sin(-40^\\circ)=-\\sin40^\\circ\\lt 0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -1606,7 +1606,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Förenkla med hjälp av symmetrier och funktionernas perioder.</p><p>a) \\(\\sin(180^\\circ-x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(-x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin(x+360^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\tan(x+180^\\circ)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd symmetrin i enhetscirkeln och funktionernas perioder.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinklarna \\(x\\) och \\(180^\\circ-x\\) har samma y-koordinat: \\(\\boxed{\\sin(180^\\circ-x)=\\sin x}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Cosinus är en jämn funktion:</p><div class=\"facit-matte\">\\[\\boxed{\\cos(-x)=\\cos x}\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinus har perioden \\(360^\\circ\\): \\(\\boxed{\\sin(x+360^\\circ)=\\sin x}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens har perioden \\(180^\\circ\\): \\(\\boxed{\\tan(x+180^\\circ)=\\tan x}\\).</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Spegling i y-axeln: \\(\\sin(180^\\circ-x)=\\sin x\\)</p><p>\\(x\\) och \\(180^\\circ-x\\) har samma y-koordinat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin x\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinus är jämn: \\(\\cos(-x)=\\cos x\\)</p><p>\\(x\\) och \\(-x\\) är speglingar i x-axeln och har samma x-koordinat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinus har perioden \\(360^\\circ\\): \\(\\sin(x+360^\\circ)=\\sin x\\)</p><p>Ett helt varv till hamnar man på samma punkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin x\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens har perioden \\(180^\\circ\\): \\(\\tan(x+180^\\circ)=\\tan x\\)</p><p>Ett halvt varv byter tecken på både sinus och cosinus, så kvoten blir densamma.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tan x\\)</p></div></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1649,7 +1649,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin(180^\\circ-x)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Använd symmetrin i enhetscirkeln och funktionernas perioder.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinklarna \\(x\\) och \\(180^\\circ-x\\) har samma y-koordinat: \\(\\boxed{\\sin(180^\\circ-x)=\\sin x}\\).</p></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Spegling i y-axeln: \\(\\sin(180^\\circ-x)=\\sin x\\)</p><p>\\(x\\) och \\(180^\\circ-x\\) har samma y-koordinat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1658,7 +1658,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos(-x)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Använd symmetrin i enhetscirkeln och funktionernas perioder.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Cosinus är en jämn funktion:</p><div class=\"facit-matte\">\\[\\boxed{\\cos(-x)=\\cos x}\\].</div></div></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinus är jämn: \\(\\cos(-x)=\\cos x\\)</p><p>\\(x\\) och \\(-x\\) är speglingar i x-axeln och har samma x-koordinat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1667,7 +1667,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin(x+360^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Använd symmetrin i enhetscirkeln och funktionernas perioder.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinus har perioden \\(360^\\circ\\): \\(\\boxed{\\sin(x+360^\\circ)=\\sin x}\\).</p></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinus har perioden \\(360^\\circ\\): \\(\\sin(x+360^\\circ)=\\sin x\\)</p><p>Ett helt varv till hamnar man på samma punkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -1676,7 +1676,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\tan(x+180^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Använd symmetrin i enhetscirkeln och funktionernas perioder.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens har perioden \\(180^\\circ\\): \\(\\boxed{\\tan(x+180^\\circ)=\\tan x}\\).</p></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens har perioden \\(180^\\circ\\): \\(\\tan(x+180^\\circ)=\\tan x\\)</p><p>Ett halvt varv byter tecken på både sinus och cosinus, så kvoten blir densamma.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tan x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1704,7 +1704,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt på enhetscirkeln har koordinaterna \\((-\\sqrt{3}/2,1/2)\\). Bestäm vinkeln \\(v\\) i intervallet \\(0^\\circ\\le v&lt;360^\\circ\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"91.7\" y2=\"117.5\" stroke=\"#1f9aa3\" stroke-width=\"2.6\"/><line x1=\"91.7\" y1=\"117.5\" x2=\"91.7\" y2=\"180\" stroke=\"#1f9aa3\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"91.7\" y1=\"117.5\" x2=\"200\" y2=\"117.5\" stroke=\"#1f9aa3\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 0 0 175.8 166.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"211\" y=\"145\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"91.7\" cy=\"117.5\" r=\"5\" fill=\"#24262b\"/><text x=\"76\" y=\"110\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"65\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−√3/2</text><text x=\"221\" y=\"124\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">1/2</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[(x,y)=(\\cos v,\\sin v)\\].</div></div></li><li><p>Både koordinaternas storlek och deras tecken behövs för att välja rätt kvadrant.</p></li><li><p>Här motsvarar koordinaterna standardvinkeln och tecknen placerar punkten entydigt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{150^\\circ}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Koordinaterna är \\((\\cos v,\\ \\sin v)\\)</p><div class=\"facit-matte\">\\[\\cos v=-\\frac{\\sqrt3}{2},\\qquad \\sin v=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Beloppen hör till referensvinkeln \\(30^\\circ\\)</p><p>\\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\) och \\(\\sin30^\\circ=\\tfrac12\\).</p></li><li><p class=\"facit-rubrik\">x negativ och y positiv: andra kvadranten</p><div class=\"facit-matte\">\\[v=180^\\circ-30^\\circ=150^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=150^\\circ\\)</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "begrepp",
@@ -1736,7 +1736,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt.</p>\n<p>a) \\(\\sin 30^\\circ\\)<br>\nb) \\(\\cos 150^\\circ\\)<br>\nc) \\(\\tan 225^\\circ\\)<br>\nd) \\(\\sin(-60^\\circ)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm en referensvinkel med kända exakta värden och använd sedan kvadrant, symmetri eller periodicitet för rätt tecken.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin30^\\circ=\\frac12\\].</div></li></ol></div></div>\n<div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(150^\\circ=180^\\circ-30^\\circ\\), alltså \\(\\cos150^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\).</p></li></ol></div></div>\n<div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens har perioden \\(180^\\circ\\): \\(\\tan225^\\circ=\\tan45^\\circ=1\\).</p></li></ol></div></div>\n<div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sinus är udda:</p><div class=\"facit-matte\">\\[\\sin(-60^\\circ)=-\\sin60^\\circ=-\\frac{\\sqrt3}{2}\\].</div></div></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera värdets tecken mot kvadranten och att resultatet är ett exakt standardvärde.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(30^\\circ\\) ligger i första kvadranten</p><p>Där är sinus positiv.</p></li><li><p class=\"facit-rubrik\">Standardvärdet för sinus</p><div class=\"facit-matte\">\\[\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(150^\\circ=180^\\circ-30^\\circ\\) ligger i andra kvadranten</p><p>Där är cosinus negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\cos150^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens har perioden \\(180^\\circ\\): \\(\\tan(v+180^\\circ)=\\tan v\\)</p><div class=\"facit-matte\">\\[\\tan225^\\circ=\\tan(45^\\circ+180^\\circ)=\\tan45^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Standardvärdet \\(\\tan45^\\circ=1\\)</p><div class=\"facit-matte\">\\[\\tan225^\\circ=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinus är en udda funktion: \\(\\sin(-v)=-\\sin v\\)</p><p>Vinkeln \\(-60^\\circ\\) ger en punkt som är spegelbilden av punkten för \\(60^\\circ\\) i x-axeln.</p></li><li><p class=\"facit-rubrik\">Använd \\(\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\sin(-60^\\circ)=-\\sin60^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1779,7 +1779,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin 30^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin30^\\circ=\\frac12\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(30^\\circ\\) ligger i första kvadranten</p><p>Där är sinus positiv.</p></li><li><p class=\"facit-rubrik\">Standardvärdet för sinus</p><div class=\"facit-matte\">\\[\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -1788,7 +1788,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos 150^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(150^\\circ=180^\\circ-30^\\circ\\), alltså \\(\\cos150^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\).</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(150^\\circ=180^\\circ-30^\\circ\\) ligger i andra kvadranten</p><p>Där är cosinus negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\cos150^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1797,7 +1797,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan 225^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens har perioden \\(180^\\circ\\): \\(\\tan225^\\circ=\\tan45^\\circ=1\\).</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens har perioden \\(180^\\circ\\): \\(\\tan(v+180^\\circ)=\\tan v\\)</p><div class=\"facit-matte\">\\[\\tan225^\\circ=\\tan(45^\\circ+180^\\circ)=\\tan45^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Standardvärdet \\(\\tan45^\\circ=1\\)</p><div class=\"facit-matte\">\\[\\tan225^\\circ=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1806,7 +1806,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\sin(-60^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sinus är udda:</p><div class=\"facit-matte\">\\[\\sin(-60^\\circ)=-\\sin60^\\circ=-\\frac{\\sqrt3}{2}\\].</div></div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinus är en udda funktion: \\(\\sin(-v)=-\\sin v\\)</p><p>Vinkeln \\(-60^\\circ\\) ger en punkt som är spegelbilden av punkten för \\(60^\\circ\\) i x-axeln.</p></li><li><p class=\"facit-rubrik\">Använd \\(\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\sin(-60^\\circ)=-\\sin60^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1834,7 +1834,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm koordinaterna för punkten på enhetscirkeln som motsvarar vinkeln</p><p>a) \\(120^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(210^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(330^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> På enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\).</p></li><li><p class=\"facit-metod\">Bestäm först rätt kvadrant och låt sedan tecknen avgöra vilket exakt värde som ska väljas.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Idé:</strong> På enhetscirkeln har punkten koordinaterna \\((\\cos v,\\sin v)\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos120^\\circ=-\\frac12\\) och \\(\\sin120^\\circ=\\frac{\\sqrt3}{2}\\), alltså \\(\\boxed{\\left(-\\frac12,\\frac{\\sqrt3}{2}\\right)}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{\\left(-\\frac{\\sqrt3}{2},-\\frac12\\right)}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{\\left(\\frac{\\sqrt3}{2},-\\frac12\\right)}\\].</div></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att koordinaterna ligger på enhetscirkeln, alltså att \\(x^2+y^2=1\\), och att tecknen stämmer med kvadranten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten vid vinkeln \\(v\\) är \\((\\cos v,\\ \\sin v)\\)</p><p>\\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten: x negativ, y positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\) ger koordinaterna</p><div class=\"facit-matte\">\\[\\left(-\\cos60^\\circ,\\ \\sin60^\\circ\\right)=\\left(-\\frac12,\\ \\frac{\\sqrt3}{2}\\right)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((-\\frac12,\\frac{\\sqrt3}{2})\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten vid vinkeln \\(v\\) är \\((\\cos v,\\ \\sin v)\\)</p><p>\\(210^\\circ=180^\\circ+30^\\circ\\) ligger i tredje kvadranten: både x och y är negativa.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\) ger koordinaterna</p><div class=\"facit-matte\">\\[\\left(-\\cos30^\\circ,\\ -\\sin30^\\circ\\right)=\\left(-\\frac{\\sqrt3}{2},\\ -\\frac12\\right)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((-\\frac{\\sqrt3}{2},-\\frac12)\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten vid vinkeln \\(v\\) är \\((\\cos v,\\ \\sin v)\\)</p><p>\\(330^\\circ=360^\\circ-30^\\circ\\) ligger i fjärde kvadranten: x positiv, y negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\) ger koordinaterna</p><div class=\"facit-matte\">\\[\\left(\\cos30^\\circ,\\ -\\sin30^\\circ\\right)=\\left(\\frac{\\sqrt3}{2},\\ -\\frac12\\right)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((\\frac{\\sqrt3}{2},-\\frac12)\\)</p></div></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1872,7 +1872,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(120^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Idé: På enhetscirkeln har punkten koordinaterna \\((\\cos v,\\sin v)\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos120^\\circ=-\\frac12\\) och \\(\\sin120^\\circ=\\frac{\\sqrt3}{2}\\), alltså \\(\\boxed{\\left(-\\frac12,\\frac{\\sqrt3}{2}\\right)}\\).</p></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten vid vinkeln \\(v\\) är \\((\\cos v,\\ \\sin v)\\)</p><p>\\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten: x negativ, y positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\) ger koordinaterna</p><div class=\"facit-matte\">\\[\\left(-\\cos60^\\circ,\\ \\sin60^\\circ\\right)=\\left(-\\frac12,\\ \\frac{\\sqrt3}{2}\\right)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((-\\frac12,\\frac{\\sqrt3}{2})\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1881,7 +1881,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(210^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Idé: På enhetscirkeln har punkten koordinaterna \\((\\cos v,\\sin v)\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{\\left(-\\frac{\\sqrt3}{2},-\\frac12\\right)}\\].</div></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten vid vinkeln \\(v\\) är \\((\\cos v,\\ \\sin v)\\)</p><p>\\(210^\\circ=180^\\circ+30^\\circ\\) ligger i tredje kvadranten: både x och y är negativa.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\) ger koordinaterna</p><div class=\"facit-matte\">\\[\\left(-\\cos30^\\circ,\\ -\\sin30^\\circ\\right)=\\left(-\\frac{\\sqrt3}{2},\\ -\\frac12\\right)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((-\\frac{\\sqrt3}{2},-\\frac12)\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1890,7 +1890,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(330^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Idé: På enhetscirkeln har punkten koordinaterna \\((\\cos v,\\sin v)\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{\\left(\\frac{\\sqrt3}{2},-\\frac12\\right)}\\].</div></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten vid vinkeln \\(v\\) är \\((\\cos v,\\ \\sin v)\\)</p><p>\\(330^\\circ=360^\\circ-30^\\circ\\) ligger i fjärde kvadranten: x positiv, y negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\) ger koordinaterna</p><div class=\"facit-matte\">\\[\\left(\\cos30^\\circ,\\ -\\sin30^\\circ\\right)=\\left(\\frac{\\sqrt3}{2},\\ -\\frac12\\right)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((\\frac{\\sqrt3}{2},-\\frac12)\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1918,7 +1918,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt på enhetscirkeln har koordinaterna \\((-1/2,-\\sqrt{3}/2)\\). Bestäm vinkeln \\(v\\) i intervallet \\(0^\\circ\\le v&lt;360^\\circ\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"137.5\" y2=\"288.3\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><line x1=\"137.5\" y1=\"288.3\" x2=\"137.5\" y2=\"180\" stroke=\"#2b6cb0\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"137.5\" y1=\"288.3\" x2=\"200\" y2=\"288.3\" stroke=\"#2b6cb0\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 1 0 186.0 204.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"179\" y=\"150\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"137.5\" cy=\"288.3\" r=\"5\" fill=\"#24262b\"/><text x=\"122\" y=\"308\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"115\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−1/2</text><text x=\"229\" y=\"294\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−√3/2</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[(x,y)=(\\cos v,\\sin v)\\].</div></div></li><li><p>Både koordinaternas storlek och deras tecken behövs för att välja rätt kvadrant.</p></li><li><p>Här motsvarar koordinaterna standardvinkeln och tecknen placerar punkten entydigt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{240^\\circ}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Koordinaterna är \\((\\cos v,\\ \\sin v)\\)</p><div class=\"facit-matte\">\\[\\cos v=-\\frac12,\\qquad \\sin v=-\\frac{\\sqrt3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Beloppen hör till referensvinkeln \\(60^\\circ\\)</p><p>\\(\\cos60^\\circ=\\tfrac12\\) och \\(\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\).</p></li><li><p class=\"facit-rubrik\">Båda koordinaterna är negativa: tredje kvadranten</p><div class=\"facit-matte\">\\[v=180^\\circ+60^\\circ=240^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=240^\\circ\\)</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "begrepp",
@@ -1950,7 +1950,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt \\(P\\) på enhetscirkeln ligger i tredje kvadranten och har x-koordinaten \\(-3/5\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"125.0\" y2=\"280.0\" stroke=\"#8a63c9\" stroke-width=\"2.6\"/><line x1=\"125.0\" y1=\"280.0\" x2=\"125.0\" y2=\"180\" stroke=\"#8a63c9\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"125.0\" y1=\"280.0\" x2=\"200\" y2=\"280.0\" stroke=\"#8a63c9\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 1 0 183.2 202.4\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"181\" y=\"148\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"125.0\" cy=\"280.0\" r=\"5\" fill=\"#24262b\"/><text x=\"109\" y=\"300\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"102\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3/5</text></svg></div><p>a) Bestäm punktens y-koordinat.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\tan v\\), där \\(v\\) är punktens vinkel.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet.</p></li><li><p class=\"facit-metod\">Använd därefter den trigonometriska relation som frågan kräver.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[x^2+y^2=1\\].</div></div></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[9/25+y^2=1\\Rightarrow y^2=16/25\\].</div></div></li><li><div class=\"facit-berakning\"><p>I tredje kvadranten är y negativ, så</p><div class=\"facit-matte\">\\[y=-4/5\\].</div></div></li><li><p>\\[\\tan v=\\frac{y}{x}=\\frac{-4/5}{-3/5}=\\boxed{4/3}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten ligger på enhetscirkeln: \\(x^2+y^2=1\\)</p><div class=\"facit-matte\">\\[\\left(-\\frac35\\right)^2+y^2=1\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(y^2\\)</p><div class=\"facit-matte\">\\[y^2=1-\\frac{9}{25}=\\frac{16}{25}\\quad\\Rightarrow\\quad y=\\pm\\frac45\\]</div></li><li><p class=\"facit-rubrik\">I tredje kvadranten är y negativ</p><div class=\"facit-matte\">\\[y=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-\\frac45\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac yx\\)</p><p>Punkten är \\(P=\\left(-\\tfrac35,\\ -\\tfrac45\\right)\\).</p></li><li><p class=\"facit-rubrik\">Sätt in och förkorta</p><div class=\"facit-matte\">\\[\\tan v=\\frac{-\\frac45}{-\\frac35}=\\frac43\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac43\\)</p></div></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -1986,7 +1986,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm punktens y-koordinat.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[x^2+y^2=1\\].</div></div></li><li><p>Med \\(x=-3/5\\) fås \\(y^2=16/25\\).</p></li><li><div class=\"facit-berakning\"><p>I tredje kvadranten är y negativ, alltså</p><div class=\"facit-matte\">\\[\\boxed{y=-4/5}\\].</div></div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten ligger på enhetscirkeln: \\(x^2+y^2=1\\)</p><div class=\"facit-matte\">\\[\\left(-\\frac35\\right)^2+y^2=1\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(y^2\\)</p><div class=\"facit-matte\">\\[y^2=1-\\frac{9}{25}=\\frac{16}{25}\\quad\\Rightarrow\\quad y=\\pm\\frac45\\]</div></li><li><p class=\"facit-rubrik\">I tredje kvadranten är y negativ</p><div class=\"facit-matte\">\\[y=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-\\frac45\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -1995,7 +1995,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Punkten är \\(P=(-3/5,-4/5)\\). Bestäm \\(\\tan v\\), där \\(v\\) är punktens vinkel.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nu är \\(x=-3/5\\) och \\(y=-4/5\\).</p></li><li><p>Därför \\[\\tan v=\\frac{y}{x}=\\frac{-4/5}{-3/5}=\\boxed{4/3}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac yx\\)</p><p>Punkten är \\(P=\\left(-\\tfrac35,\\ -\\tfrac45\\right)\\).</p></li><li><p class=\"facit-rubrik\">Sätt in och förkorta</p><div class=\"facit-matte\">\\[\\tan v=\\frac{-\\frac45}{-\\frac35}=\\frac43\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac43\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2020,7 +2020,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt på enhetscirkeln har koordinaterna \\((\\sqrt{2}/2,-\\sqrt{2}/2)\\). Bestäm vinkeln \\(v\\) i intervallet \\(0^\\circ\\le v&lt;360^\\circ\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"288.4\" y2=\"268.4\" stroke=\"#c0392b\" stroke-width=\"2.6\"/><line x1=\"288.4\" y1=\"268.4\" x2=\"288.4\" y2=\"180\" stroke=\"#c0392b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"288.4\" y1=\"268.4\" x2=\"200\" y2=\"268.4\" stroke=\"#c0392b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 1 0 219.8 199.8\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"161\" y=\"170\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"288.4\" cy=\"268.4\" r=\"5\" fill=\"#24262b\"/><text x=\"304\" y=\"288\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"311\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">√2/2</text><text x=\"171\" y=\"274\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−√2/2</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[(x,y)=(\\cos v,\\sin v)\\].</div></div></li><li><p>Både koordinaternas storlek och deras tecken behövs för att välja rätt kvadrant.</p></li><li><p>Här motsvarar koordinaterna standardvinkeln och tecknen placerar punkten entydigt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{315^\\circ}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Koordinaterna är \\((\\cos v,\\ \\sin v)\\)</p><div class=\"facit-matte\">\\[\\cos v=\\frac{\\sqrt2}{2},\\qquad \\sin v=-\\frac{\\sqrt2}{2}\\]</div></li><li><p class=\"facit-rubrik\">Lika stora belopp betyder referensvinkeln \\(45^\\circ\\)</p><p>\\(\\cos45^\\circ=\\sin45^\\circ=\\tfrac{\\sqrt2}{2}\\).</p></li><li><p class=\"facit-rubrik\">x positiv och y negativ: fjärde kvadranten</p><div class=\"facit-matte\">\\[v=360^\\circ-45^\\circ=315^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=315^\\circ\\)</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "begrepp",
@@ -2052,7 +2052,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln \\(v\\) ligger i andra kvadranten och \\(\\sin v=3/5\\).</p><p>a) Bestäm exakt \\(\\sin(2v)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm exakt \\(\\cos(2v)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet.</p></li><li><p class=\"facit-metod\">Använd därefter den trigonometriska relation som frågan kräver.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I andra kvadranten är cosinus negativ.</p></li><li><div class=\"facit-berakning\"><p>Trigonometriska ettan ger</p><div class=\"facit-matte\">\\[\\cos v=-4/5\\].</div></div></li><li><p>Dubbelvinkelformlerna ger</p></li><li><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac35\\cdot\\left(-\\frac45\\right)=\\boxed{-24/25},\\]</p></li><li><p>\\[\\cos2v=\\cos^2v-\\sin^2v=\\frac{16}{25}-\\frac9{25}=\\boxed{7/25}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinus ur trigonometriska ettan: \\(\\cos^2v=1-\\sin^2v\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: cosinus negativ</p><div class=\"facit-matte\">\\[\\cos v=-\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2v=2\\sin v\\cos v\\)</p><div class=\"facit-matte\">\\[\\sin2v=2\\cdot\\frac35\\cdot\\left(-\\frac45\\right)=-\\frac{24}{25}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{24}{25}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\cos2v=\\cos^2v-\\sin^2v\\)</p><p>Här behövs bara kvadraterna, så tecknet på \\(\\cos v\\) spelar ingen roll.</p></li><li><p class=\"facit-rubrik\">\\(\\cos^2v\\) ur trigonometriska ettan</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in kvadraterna \\(\\tfrac{16}{25}\\) och \\(\\tfrac{9}{25}\\)</p><div class=\"facit-matte\">\\[\\cos2v=\\frac{16}{25}-\\frac{9}{25}=\\frac{7}{25}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{25}\\)</p></div></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -2088,7 +2088,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm exakt \\(\\sin(2v)\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I andra kvadranten är \\(\\cos v\\lt0\\).</p></li><li><div class=\"facit-berakning\"><p>Trigonometriska ettan ger</p><div class=\"facit-matte\">\\[\\cos v=-4/5\\].</div></div></li><li><p>Då \\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac35\\cdot\\left(-\\frac45\\right)=\\boxed{-24/25}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinus ur trigonometriska ettan: \\(\\cos^2v=1-\\sin^2v\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: cosinus negativ</p><div class=\"facit-matte\">\\[\\cos v=-\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2v=2\\sin v\\cos v\\)</p><div class=\"facit-matte\">\\[\\sin2v=2\\cdot\\frac35\\cdot\\left(-\\frac45\\right)=-\\frac{24}{25}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{24}{25}\\)</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -2097,7 +2097,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm exakt \\(\\cos(2v)\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>I andra kvadranten är</p><div class=\"facit-matte\">\\[\\cos v=-4/5\\].</div></div></li><li><p>Därför \\[\\cos2v=\\cos^2v-\\sin^2v=\\frac{16}{25}-\\frac9{25}=\\boxed{7/25}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\cos2v=\\cos^2v-\\sin^2v\\)</p><p>Här behövs bara kvadraterna, så tecknet på \\(\\cos v\\) spelar ingen roll.</p></li><li><p class=\"facit-rubrik\">\\(\\cos^2v\\) ur trigonometriska ettan</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in kvadraterna \\(\\tfrac{16}{25}\\) och \\(\\tfrac{9}{25}\\)</p><div class=\"facit-matte\">\\[\\cos2v=\\frac{16}{25}-\\frac{9}{25}=\\frac{7}{25}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{25}\\)</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -2122,7 +2122,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt.</p><p>a) \\(\\sin(210^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(210^\\circ)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> \\(210^\\circ=180^\\circ+30^\\circ\\), alltså ligger vinkeln i tredje kvadranten med referensvinkeln \\(30^\\circ\\).</p></li><li><p>Där är både sinus och cosinus negativa.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(210^\\circ)=-\\sin(30^\\circ)=\\boxed{-1/2}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(210^\\circ)=-\\cos(30^\\circ)=\\boxed{-\\sqrt3/2}\\].</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ=180^\\circ+30^\\circ\\) ligger i tredje kvadranten</p><p>Där är y-koordinaten, alltså sinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\sin210^\\circ=-\\sin30^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ=180^\\circ+30^\\circ\\) ligger i tredje kvadranten</p><p>Där är x-koordinaten, alltså cosinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\cos210^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -2158,7 +2158,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin(210^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(210^\\circ\\) ligger i tredje kvadranten med referensvinkeln \\(30^\\circ\\).</p></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[\\sin(210^\\circ)=\\boxed{-1/2}\\].</div></div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ=180^\\circ+30^\\circ\\) ligger i tredje kvadranten</p><p>Där är y-koordinaten, alltså sinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\sin210^\\circ=-\\sin30^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2167,7 +2167,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos(210^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(210^\\circ\\) ligger i tredje kvadranten med referensvinkeln \\(30^\\circ\\).</p></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[\\cos(210^\\circ)=\\boxed{-\\sqrt3/2}\\].</div></div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ=180^\\circ+30^\\circ\\) ligger i tredje kvadranten</p><p>Där är x-koordinaten, alltså cosinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\cos210^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2192,7 +2192,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt på enhetscirkeln har koordinaterna \\((0,-1)\\). Bestäm vinkeln \\(v\\) i intervallet \\(0^\\circ\\le v&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[(x,y)=(\\cos v,\\sin v)\\].</div></div></li><li><p>Både koordinaternas storlek och deras tecken behövs för att välja rätt kvadrant.</p></li><li><p>Här motsvarar koordinaterna standardvinkeln och tecknen placerar punkten entydigt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{270^\\circ}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Koordinaterna är \\((\\cos v,\\ \\sin v)\\)</p><div class=\"facit-matte\">\\[\\cos v=0,\\qquad \\sin v=-1\\]</div></li><li><p class=\"facit-rubrik\">Punkten ligger längst ned på enhetscirkeln</p><p>Från positiva x-axeln är det tre kvarts varv moturs dit: \\(3\\cdot90^\\circ=270^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=270^\\circ\\)</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "begrepp",
@@ -2224,7 +2224,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt.</p><p>a) \\(\\sin(150^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(240^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan(315^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos(330^\\circ)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\).</p></li><li><p>Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p></li><li><p>Funktionsvärdena kan läsas av med hjälp av enhetscirkeln och tabellen på formelbladet.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(1/2\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-1/2\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-1\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sqrt3/2\\)</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(150^\\circ=180^\\circ-30^\\circ\\) ligger i andra kvadranten</p><p>Där är sinus positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\sin150^\\circ=\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(240^\\circ=180^\\circ+60^\\circ\\) ligger i tredje kvadranten</p><p>Där är cosinus negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\cos60^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\cos240^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(315^\\circ=360^\\circ-45^\\circ\\) ligger i fjärde kvadranten</p><p>Sinus är negativ och cosinus positiv, så tangens blir negativ.</p></li><li><p class=\"facit-rubrik\">Samma belopp som \\(\\tan45^\\circ=1\\)</p><div class=\"facit-matte\">\\[\\tan315^\\circ=-\\tan45^\\circ=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(330^\\circ=360^\\circ-30^\\circ\\) ligger i fjärde kvadranten</p><p>Där är cosinus positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\cos330^\\circ=\\cos30^\\circ=\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\)</p></div></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -2267,7 +2267,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin(150^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionsvärdena kan läsas av med hjälp av enhetscirkeln och tabellen på formelbladet.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(1/2\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(150^\\circ=180^\\circ-30^\\circ\\) ligger i andra kvadranten</p><p>Där är sinus positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\sin150^\\circ=\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2276,7 +2276,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos(240^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionsvärdena kan läsas av med hjälp av enhetscirkeln och tabellen på formelbladet.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-1/2\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(240^\\circ=180^\\circ+60^\\circ\\) ligger i tredje kvadranten</p><p>Där är cosinus negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\cos60^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\cos240^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2285,7 +2285,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan(315^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionsvärdena kan läsas av med hjälp av enhetscirkeln och tabellen på formelbladet.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-1\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(315^\\circ=360^\\circ-45^\\circ\\) ligger i fjärde kvadranten</p><p>Sinus är negativ och cosinus positiv, så tangens blir negativ.</p></li><li><p class=\"facit-rubrik\">Samma belopp som \\(\\tan45^\\circ=1\\)</p><div class=\"facit-matte\">\\[\\tan315^\\circ=-\\tan45^\\circ=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2294,7 +2294,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos(330^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionsvärdena kan läsas av med hjälp av enhetscirkeln och tabellen på formelbladet.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sqrt3/2\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(330^\\circ=360^\\circ-30^\\circ\\) ligger i fjärde kvadranten</p><p>Där är cosinus positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\cos330^\\circ=\\cos30^\\circ=\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2322,7 +2322,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten \\(P\\) ligger på enhetscirkeln i tredje kvadranten och har y-koordinaten \\(-3/5\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"100.0\" y2=\"255.0\" stroke=\"#d9822b\" stroke-width=\"2.6\"/><line x1=\"100.0\" y1=\"255.0\" x2=\"100.0\" y2=\"180\" stroke=\"#d9822b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"100.0\" y1=\"255.0\" x2=\"200\" y2=\"255.0\" stroke=\"#d9822b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 1 0 177.6 196.8\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"187\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"100.0\" cy=\"255.0\" r=\"5\" fill=\"#24262b\"/><text x=\"84\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"225\" y=\"261\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3/5</text></svg></div><p>a) Bestäm punktens x-koordinat.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet.</p></li><li><p class=\"facit-metod\">Använd därefter den trigonometriska relation som frågan kräver.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln gäller \\(x^2+y^2=1\\), vilket motsvarar trigonometriska ettan.</p></li><li><p>\\[x^2+(-3/5)^2=1\\Rightarrow x^2=16/25.\\]</p></li><li><p>I tredje kvadranten är x-koordinaten negativ, alltså <strong>\\(x=-4/5\\)</strong>.</p></li><li><p>Vidare är \\(\\tan v=y/x=(-3/5)/(-4/5)=\\)<strong>\\(3/4\\)</strong>.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten ligger på enhetscirkeln: \\(x^2+y^2=1\\)</p><div class=\"facit-matte\">\\[x^2+\\left(-\\frac35\\right)^2=1\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(x^2\\)</p><div class=\"facit-matte\">\\[x^2=1-\\frac{9}{25}=\\frac{16}{25}\\quad\\Rightarrow\\quad x=\\pm\\frac45\\]</div></li><li><p class=\"facit-rubrik\">I tredje kvadranten är x negativ</p><div class=\"facit-matte\">\\[x=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-\\frac45\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}=\\dfrac yx\\)</p><p>Från a) är \\(x=-\\tfrac45\\), och \\(y=-\\tfrac35\\) är givet.</p></li><li><p class=\"facit-rubrik\">Sätt in och förkorta</p><div class=\"facit-matte\">\\[\\tan v=\\frac{-\\frac35}{-\\frac45}=\\frac34\\]</div></li><li><p class=\"facit-rubrik\">Rimligt tecken</p><p>I tredje kvadranten är både sinus och cosinus negativa, så tangens är positiv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tan v=\\frac34\\)</p></div></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -2358,7 +2358,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm punktens x-koordinat.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[x^2+y^2=1\\].</div></div></li><li><p>Med \\(y=-3/5\\) fås \\(x^2=16/25\\).</p></li><li><div class=\"facit-berakning\"><p>I tredje kvadranten är x negativ, alltså</p><div class=\"facit-matte\">\\[\\boxed{x=-4/5}\\].</div></div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten ligger på enhetscirkeln: \\(x^2+y^2=1\\)</p><div class=\"facit-matte\">\\[x^2+\\left(-\\frac35\\right)^2=1\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(x^2\\)</p><div class=\"facit-matte\">\\[x^2=1-\\frac{9}{25}=\\frac{16}{25}\\quad\\Rightarrow\\quad x=\\pm\\frac45\\]</div></li><li><p class=\"facit-rubrik\">I tredje kvadranten är x negativ</p><div class=\"facit-matte\">\\[x=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-\\frac45\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2367,7 +2367,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Punkten är \\(P=(-4/5,-3/5)\\). Bestäm \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med \\(x=-4/5\\) och \\(y=-3/5\\) fås \\[\\tan v=\\frac{y}{x}=\\frac{-3/5}{-4/5}=\\boxed{3/4}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}=\\dfrac yx\\)</p><p>Från a) är \\(x=-\\tfrac45\\), och \\(y=-\\tfrac35\\) är givet.</p></li><li><p class=\"facit-rubrik\">Sätt in och förkorta</p><div class=\"facit-matte\">\\[\\tan v=\\frac{-\\frac35}{-\\frac45}=\\frac34\\]</div></li><li><p class=\"facit-rubrik\">Rimligt tecken</p><p>I tredje kvadranten är både sinus och cosinus negativa, så tangens är positiv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tan v=\\frac34\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2392,7 +2392,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(v\\) gäller \\(\\cos v=-3/5\\), och \\(v\\) ligger i kvadrant II. Bestäm \\(\\sin v\\) exakt.</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"125.0\" y2=\"80.0\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><line x1=\"125.0\" y1=\"80.0\" x2=\"125.0\" y2=\"180\" stroke=\"#2b6cb0\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"125.0\" y1=\"80.0\" x2=\"200\" y2=\"80.0\" stroke=\"#2b6cb0\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 0 0 183.2 157.6\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"219\" y=\"148\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"125.0\" cy=\"80.0\" r=\"5\" fill=\"#24262b\"/><text x=\"109\" y=\"72\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"102\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−3/5</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Trigonometriska ettan ger sinus belopp, och kvadranten avgör tecknet.</p></li><li><p>\\[\\sin^2v=1-\\cos^2v=1-\\left(-\\frac35\\right)^2=\\frac{16}{25}.\\]</p></li><li><div class=\"facit-berakning\"><p>I kvadrant II är sinus positiv, alltså</p><div class=\"facit-matte\">\\[\\sin v=\\frac45\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4/5\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\left(-\\frac35\\right)^2=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Dra roten ur: två möjliga tecken</p><div class=\"facit-matte\">\\[\\sin v=\\pm\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Kvadrant II ligger ovanför x-axeln, så sinus är positiv</p><div class=\"facit-matte\">\\[\\sin v=\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac45\\)</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -2423,7 +2423,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm tecknet på uttrycket utan räknare. Svara med <strong>+</strong> eller <strong>−</strong>.</p><p>a) \\(\\sin(210^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(225^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan(120^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos(330^\\circ)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\).</p></li><li><p>Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tredje kvadranten: sinus är <strong>negativ</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tredje kvadranten: cosinus är <strong>negativ</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Andra kvadranten: tangens är <strong>negativ</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Fjärde kvadranten: cosinus är <strong>positiv</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ\\) ligger i tredje kvadranten (mellan \\(180^\\circ\\) och \\(270^\\circ\\))</p><p>Punkten ligger under x-axeln.</p></li><li><p class=\"facit-rubrik\">Sinus är y-koordinaten: \\(\\sin v=y\\)</p><p>Under x-axeln är y negativ, så \\(\\sin210^\\circ\\lt 0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(225^\\circ\\) ligger i tredje kvadranten</p><p>Punkten ligger till vänster om y-axeln.</p></li><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten: \\(\\cos v=x\\)</p><p>Till vänster om y-axeln är x negativ, så \\(\\cos225^\\circ\\lt 0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(120^\\circ\\) ligger i andra kvadranten</p><p>Där är sinus positiv och cosinus negativ.</p></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><p>Positivt delat med negativt ger negativt, så \\(\\tan120^\\circ\\lt 0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(330^\\circ\\) ligger i fjärde kvadranten</p><p>Punkten ligger till höger om y-axeln.</p></li><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten: \\(\\cos v=x\\)</p><p>Till höger om y-axeln är x positiv, så \\(\\cos330^\\circ\\gt 0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> +</p></div></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -2466,7 +2466,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin(210^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tredje kvadranten: sinus är <strong>negativ</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ\\) ligger i tredje kvadranten (mellan \\(180^\\circ\\) och \\(270^\\circ\\))</p><p>Punkten ligger under x-axeln.</p></li><li><p class=\"facit-rubrik\">Sinus är y-koordinaten: \\(\\sin v=y\\)</p><p>Under x-axeln är y negativ, så \\(\\sin210^\\circ\\lt 0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -2475,7 +2475,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos(225^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tredje kvadranten: cosinus är <strong>negativ</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(225^\\circ\\) ligger i tredje kvadranten</p><p>Punkten ligger till vänster om y-axeln.</p></li><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten: \\(\\cos v=x\\)</p><p>Till vänster om y-axeln är x negativ, så \\(\\cos225^\\circ\\lt 0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -2484,7 +2484,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan(120^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Andra kvadranten: tangens är <strong>negativ</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(120^\\circ\\) ligger i andra kvadranten</p><p>Där är sinus positiv och cosinus negativ.</p></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><p>Positivt delat med negativt ger negativt, så \\(\\tan120^\\circ\\lt 0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -2493,7 +2493,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos(330^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Fjärde kvadranten: cosinus är <strong>positiv</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(330^\\circ\\) ligger i fjärde kvadranten</p><p>Punkten ligger till höger om y-axeln.</p></li><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten: \\(\\cos v=x\\)</p><p>Till höger om y-axeln är x positiv, så \\(\\cos330^\\circ\\gt 0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> +</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -2521,7 +2521,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt.</p><p>a) \\(\\sin(315^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(300^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan(135^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin(240^\\circ)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\).</p></li><li><p>Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p></li><li><p><strong>Nyckelidé:</strong> Markera först rätt kvadrant.</p></li><li><p>I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\sqrt2/2\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(1/2\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>−1</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\sqrt3/2\\)</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(315^\\circ=360^\\circ-45^\\circ\\), fjärde kvadranten</p><p>Sinus (y-koordinaten) är negativ där.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(45^\\circ\\): \\(\\sin45^\\circ=\\tfrac{\\sqrt2}{2}\\)</p><div class=\"facit-matte\">\\[\\sin315^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt2}{2}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(300^\\circ=360^\\circ-60^\\circ\\), fjärde kvadranten</p><p>Cosinus (x-koordinaten) är positiv där.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\cos60^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\cos300^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(135^\\circ=180^\\circ-45^\\circ\\), andra kvadranten</p><p>Sinus är positiv och cosinus negativ, så kvoten är negativ.</p></li><li><p class=\"facit-rubrik\">Tangens: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan135^\\circ=\\frac{\\frac{\\sqrt2}{2}}{-\\frac{\\sqrt2}{2}}=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(240^\\circ=180^\\circ+60^\\circ\\), tredje kvadranten</p><p>Sinus är negativ där.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\sin240^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -2564,7 +2564,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin(315^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\sqrt2/2\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(315^\\circ=360^\\circ-45^\\circ\\), fjärde kvadranten</p><p>Sinus (y-koordinaten) är negativ där.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(45^\\circ\\): \\(\\sin45^\\circ=\\tfrac{\\sqrt2}{2}\\)</p><div class=\"facit-matte\">\\[\\sin315^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt2}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2573,7 +2573,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos(300^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(1/2\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(300^\\circ=360^\\circ-60^\\circ\\), fjärde kvadranten</p><p>Cosinus (x-koordinaten) är positiv där.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\cos60^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\cos300^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2582,7 +2582,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan(135^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>−1</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(135^\\circ=180^\\circ-45^\\circ\\), andra kvadranten</p><p>Sinus är positiv och cosinus negativ, så kvoten är negativ.</p></li><li><p class=\"facit-rubrik\">Tangens: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan135^\\circ=\\frac{\\frac{\\sqrt2}{2}}{-\\frac{\\sqrt2}{2}}=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2591,7 +2591,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\sin(240^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\sqrt3/2\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(240^\\circ=180^\\circ+60^\\circ\\), tredje kvadranten</p><p>Sinus är negativ där.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\sin240^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2619,7 +2619,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(v\\) gäller \\(\\cos v=-5/13\\), och \\(v\\) ligger i kvadrant III. Bestäm \\(\\sin v\\) exakt.</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"151.9\" y2=\"295.4\" stroke=\"#c0392b\" stroke-width=\"2.6\"/><line x1=\"151.9\" y1=\"295.4\" x2=\"151.9\" y2=\"180\" stroke=\"#c0392b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"151.9\" y1=\"295.4\" x2=\"200\" y2=\"295.4\" stroke=\"#c0392b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 1 0 189.2 205.8\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"177\" y=\"151\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"151.9\" cy=\"295.4\" r=\"5\" fill=\"#24262b\"/><text x=\"136\" y=\"315\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"125\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−5/13</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Trigonometriska ettan ger storleken på sinus, men kvadranten avgör vilket tecken som ska väljas.</p></li><li><p>\\[\\sin^2v=1-\\cos^2v.\\]</p></li><li><p>Efter förenkling och val av rätt tecken fås</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{-12/13}\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontroll:</strong> Tecknet stämmer med att sinus är negativ i den angivna kvadranten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\left(-\\frac{5}{13}\\right)^2=1-\\frac{25}{169}=\\frac{144}{169}\\]</div></li><li><p class=\"facit-rubrik\">Dra roten ur: två möjliga tecken</p><div class=\"facit-matte\">\\[\\sin v=\\pm\\frac{12}{13}\\]</div></li><li><p class=\"facit-rubrik\">Kvadrant III ligger under x-axeln, så sinus är negativ</p><div class=\"facit-matte\">\\[\\sin v=-\\frac{12}{13}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{12}{13}\\)</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -2650,7 +2650,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt \\(P=(3/5,y)\\) ligger på enhetscirkeln i fjärde kvadranten.</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"275.0\" y2=\"280.0\" stroke=\"#1f9aa3\" stroke-width=\"2.6\"/><line x1=\"275.0\" y1=\"280.0\" x2=\"275.0\" y2=\"180\" stroke=\"#1f9aa3\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"275.0\" y1=\"280.0\" x2=\"200\" y2=\"280.0\" stroke=\"#1f9aa3\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 1 0 216.8 202.4\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"162\" y=\"167\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"275.0\" cy=\"280.0\" r=\"5\" fill=\"#24262b\"/><text x=\"291\" y=\"300\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"294\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3/5</text><text x=\"188\" y=\"286\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">y</text></svg></div><p>a) Bestäm \\(y\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\).</p></li><li><p>Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p></li><li><div class=\"facit-berakning\"><p>På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[x^2+y^2=1\\]:</div></div></li><li><p>\\[(3/5)^2+y^2=1\\Rightarrow y^2=16/25.\\]</p></li><li><p>I fjärde kvadranten är \\(y&lt;0\\), alltså <strong>\\(y=-4/5\\)</strong>.</p></li><li><p>\\(\\tan v=y/x=(-4/5)/(3/5)=\\)<strong>\\(-4/3\\)</strong>.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten ligger på enhetscirkeln: \\(x^2+y^2=1\\)</p><div class=\"facit-matte\">\\[\\left(\\frac35\\right)^2+y^2=1\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(y\\)</p><div class=\"facit-matte\">\\[y^2=1-\\frac{9}{25}=\\frac{16}{25}\\quad\\Rightarrow\\quad y=\\pm\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Fjärde kvadranten ligger under x-axeln</p><div class=\"facit-matte\">\\[y=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-\\frac45\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac yx\\)</p><p>Punkten är \\(P=\\left(\\tfrac35,\\ -\\tfrac45\\right)\\).</p></li><li><p class=\"facit-rubrik\">Sätt in och förkorta femtedelarna</p><div class=\"facit-matte\">\\[\\tan v=\\frac{-\\frac45}{\\frac35}=-\\frac43\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac43\\)</p></div></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -2686,7 +2686,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm \\(y\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[x^2+y^2=1\\].</div></div></li><li><p>Med \\(x=3/5\\) fås \\(y^2=16/25\\).</p></li><li><div class=\"facit-berakning\"><p>Punkten ligger i fjärde kvadranten, så</p><div class=\"facit-matte\">\\[\\boxed{y=-4/5}\\].</div></div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten ligger på enhetscirkeln: \\(x^2+y^2=1\\)</p><div class=\"facit-matte\">\\[\\left(\\frac35\\right)^2+y^2=1\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(y\\)</p><div class=\"facit-matte\">\\[y^2=1-\\frac{9}{25}=\\frac{16}{25}\\quad\\Rightarrow\\quad y=\\pm\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Fjärde kvadranten ligger under x-axeln</p><div class=\"facit-matte\">\\[y=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-\\frac45\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2695,7 +2695,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Punkten är \\(P=(3/5,-4/5)\\). Bestäm \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med \\(x=3/5\\) och \\(y=-4/5\\) fås \\[\\tan v=\\frac{y}{x}=\\frac{-4/5}{3/5}=\\boxed{-4/3}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac yx\\)</p><p>Punkten är \\(P=\\left(\\tfrac35,\\ -\\tfrac45\\right)\\).</p></li><li><p class=\"facit-rubrik\">Sätt in och förkorta femtedelarna</p><div class=\"facit-matte\">\\[\\tan v=\\frac{-\\frac45}{\\frac35}=-\\frac43\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac43\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2720,7 +2720,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt.</p><p>a) \\(\\sin(330^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(210^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan(150^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos(270^\\circ)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\).</p></li><li><p>Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p></li><li><p><strong>Nyckelidé:</strong> Markera först rätt kvadrant.</p></li><li><p>I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-1/2\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\sqrt3/2\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-1/\\sqrt3\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>0</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(330^\\circ=360^\\circ-30^\\circ\\), fjärde kvadranten</p><p>Sinus (y-koordinaten) är negativ där.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\sin330^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ=180^\\circ+30^\\circ\\), tredje kvadranten</p><p>Cosinus (x-koordinaten) är negativ där.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\cos210^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(150^\\circ=180^\\circ-30^\\circ\\), andra kvadranten</p><p>Sinus är positiv och cosinus negativ, så tangens blir negativ.</p></li><li><p class=\"facit-rubrik\">Tangens: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan150^\\circ=\\frac{\\frac12}{-\\frac{\\sqrt3}{2}}=-\\frac{1}{\\sqrt3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{1}{\\sqrt3}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten vid \\(270^\\circ\\) är \\((0,\\ -1)\\)</p><p>Den ligger rakt nedanför origo.</p></li><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten: \\(\\cos v=x\\)</p><div class=\"facit-matte\">\\[\\cos270^\\circ=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -2763,7 +2763,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin(330^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-1/2\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(330^\\circ=360^\\circ-30^\\circ\\), fjärde kvadranten</p><p>Sinus (y-koordinaten) är negativ där.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\sin330^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2772,7 +2772,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos(210^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-\\sqrt3/2\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ=180^\\circ+30^\\circ\\), tredje kvadranten</p><p>Cosinus (x-koordinaten) är negativ där.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\): \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\cos210^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt3}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2781,7 +2781,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan(150^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(-1/\\sqrt3\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(150^\\circ=180^\\circ-30^\\circ\\), andra kvadranten</p><p>Sinus är positiv och cosinus negativ, så tangens blir negativ.</p></li><li><p class=\"facit-rubrik\">Tangens: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan150^\\circ=\\frac{\\frac12}{-\\frac{\\sqrt3}{2}}=-\\frac{1}{\\sqrt3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{1}{\\sqrt3}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -2790,7 +2790,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos(270^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>0</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten vid \\(270^\\circ\\) är \\((0,\\ -1)\\)</p><p>Den ligger rakt nedanför origo.</p></li><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten: \\(\\cos v=x\\)</p><div class=\"facit-matte\">\\[\\cos270^\\circ=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -2818,7 +2818,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(v\\) gäller \\(\\cos v=8/17\\), och \\(v\\) ligger i kvadrant IV. Bestäm \\(\\sin v\\) exakt.</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"258.8\" y2=\"290.3\" stroke=\"#2e7d52\" stroke-width=\"2.6\"/><line x1=\"258.8\" y1=\"290.3\" x2=\"258.8\" y2=\"180\" stroke=\"#2e7d52\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"258.8\" y1=\"290.3\" x2=\"200\" y2=\"290.3\" stroke=\"#2e7d52\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 1 0 213.2 204.7\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"164\" y=\"164\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"258.8\" cy=\"290.3\" r=\"5\" fill=\"#24262b\"/><text x=\"275\" y=\"310\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"282\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">8/17</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Trigonometriska ettan ger storleken på sinus, men kvadranten avgör vilket tecken som ska väljas.</p></li><li><p>\\[\\sin^2v=1-\\cos^2v.\\]</p></li><li><p>Efter förenkling och val av rätt tecken fås</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{-15/17}\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontroll:</strong> Tecknet stämmer med att sinus är negativ i den angivna kvadranten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\left(\\frac{8}{17}\\right)^2=1-\\frac{64}{289}=\\frac{225}{289}\\]</div></li><li><p class=\"facit-rubrik\">Dra roten ur: \\(\\sqrt{225}=15\\) och \\(\\sqrt{289}=17\\)</p><div class=\"facit-matte\">\\[\\sin v=\\pm\\frac{15}{17}\\]</div></li><li><p class=\"facit-rubrik\">Kvadrant IV ligger under x-axeln, så sinus är negativ</p><div class=\"facit-matte\">\\[\\sin v=-\\frac{15}{17}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{15}{17}\\)</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -2849,7 +2849,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln \\(\\alpha\\) ligger i första kvadranten och \\(\\sin\\alpha=5/13\\). Bestäm \\(\\tan\\alpha\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"315.4\" y2=\"131.9\" stroke=\"#8a63c9\" stroke-width=\"2.6\"/><line x1=\"315.4\" y1=\"131.9\" x2=\"315.4\" y2=\"180\" stroke=\"#8a63c9\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"315.4\" y1=\"131.9\" x2=\"200\" y2=\"131.9\" stroke=\"#8a63c9\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 0 0 225.8 169.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"241\" y=\"178\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">α</text><circle cx=\"315.4\" cy=\"131.9\" r=\"5\" fill=\"#24262b\"/><text x=\"331\" y=\"124\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"175\" y=\"138\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">5/13</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Markera först rätt kvadrant.</p></li><li><p>I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p></li><li><div class=\"facit-berakning\"><p>Trigonometriska ettan ger</p><div class=\"facit-matte\">\\[\\cos\\alpha=12/13\\].</div></div></li><li><p>Därför</p></li><li><p>\\[\\tan\\alpha=\\frac{5/13}{12/13}=\\frac5{12}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5/12\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2\\alpha=1-\\left(\\frac{5}{13}\\right)^2=1-\\frac{25}{169}=\\frac{144}{169}\\]</div></li><li><p class=\"facit-rubrik\">Första kvadranten: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos\\alpha=\\frac{12}{13}\\]</div></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}\\)</p><div class=\"facit-matte\">\\[\\tan\\alpha=\\frac{\\frac{5}{13}}{\\frac{12}{13}}=\\frac{5}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{12}\\)</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -2880,7 +2880,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten på enhetscirkeln motsvarar vinkeln \\(210^\\circ\\). Vilken är punktens x-koordinat?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Markera först rätt kvadrant.</p></li><li><p>I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p></li><li><p>x-koordinaten är cosinusvärdet.</p></li><li><p>\\(210^\\circ=180^\\circ+30^\\circ\\), så cosinus är negativt och har belopp \\(\\sqrt3/2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\sqrt3/2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">x-koordinaten är cosinus: \\(x=\\cos v\\)</p><p>Vi söker alltså \\(\\cos210^\\circ\\).</p></li><li><p class=\"facit-rubrik\">\\(210^\\circ=180^\\circ+30^\\circ\\) ligger i tredje kvadranten</p><p>Där är x-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(30^\\circ\\) ger beloppet \\(\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[x=\\cos210^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\sqrt3/2\\)</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "begrepp"
@@ -2896,7 +2896,27 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "enhetscirkeln"
     ],
-    "alternativ": [{"txt": "\\(\\sqrt3/2\\)", "ratt": false}, {"txt": "\\(-\\sqrt3/2\\)", "ratt": true}, {"txt": "\\(1/2\\)", "ratt": false}, {"txt": "\\(-1/2\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(\\sqrt3/2\\)",
+        "ratt": false,
+        "kommentar": "Rätt belopp men fel tecken. \\(210^\\circ\\) ligger i tredje kvadranten, till vänster om y-axeln, så x-koordinaten är negativ."
+      },
+      {
+        "txt": "\\(-\\sqrt3/2\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(1/2\\)",
+        "ratt": false,
+        "kommentar": "Det är beloppet av y-koordinaten (sinus), och tecknet är också fel. x-koordinaten är cosinus."
+      },
+      {
+        "txt": "\\(-1/2\\)",
+        "ratt": false,
+        "kommentar": "Det är y-koordinaten, alltså \\(\\sin210^\\circ\\). Frågan gäller x-koordinaten, som är cosinus."
+      }
+    ]
   },
   {
     "id": "1.444",
@@ -2910,7 +2930,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(v\\) gäller \\(\\cos v=-7/25\\), och \\(v\\) ligger i kvadrant II. Bestäm \\(\\sin v\\) exakt.</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"165.0\" y2=\"60.0\" stroke=\"#8a63c9\" stroke-width=\"2.6\"/><line x1=\"165.0\" y1=\"60.0\" x2=\"165.0\" y2=\"180\" stroke=\"#8a63c9\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"165.0\" y1=\"60.0\" x2=\"200\" y2=\"60.0\" stroke=\"#8a63c9\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 0 0 192.2 153.1\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"225\" y=\"152\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"165.0\" cy=\"60.0\" r=\"5\" fill=\"#24262b\"/><text x=\"149\" y=\"52\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"138\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−7/25</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Trigonometriska ettan ger storleken på sinus, men kvadranten avgör vilket tecken som ska väljas.</p></li><li><p>\\[\\sin^2v=1-\\cos^2v.\\]</p></li><li><p>Efter förenkling och val av rätt tecken fås</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{24/25}\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontroll:</strong> Tecknet stämmer med att sinus är positiv i den angivna kvadranten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\left(-\\frac{7}{25}\\right)^2=1-\\frac{49}{625}=\\frac{576}{625}\\]</div></li><li><p class=\"facit-rubrik\">Dra roten ur: \\(\\sqrt{576}=24\\) och \\(\\sqrt{625}=25\\)</p><div class=\"facit-matte\">\\[\\sin v=\\pm\\frac{24}{25}\\]</div></li><li><p class=\"facit-rubrik\">Kvadrant II ligger ovanför x-axeln, så sinus är positiv</p><div class=\"facit-matte\">\\[\\sin v=\\frac{24}{25}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{24}{25}\\)</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -2941,7 +2961,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt \\(\\sin(-30^\\circ)\\) med hjälp av symmetri.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> Sinus är en udda funktion:</p><div class=\"facit-matte\">\\[\\sin(-v)=-\\sin v\\].</div></div></li><li><p>\\[\\sin(-30^\\circ)=-\\sin30^\\circ=\\boxed{-1/2}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinus är udda: \\(\\sin(-v)=-\\sin v\\)</p><p>Vinkeln \\(-30^\\circ\\) är spegelbilden av \\(30^\\circ\\) i x-axeln, så y-koordinaten byter tecken.</p></li><li><p class=\"facit-rubrik\">Använd \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\sin(-30^\\circ)=-\\sin30^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur"
@@ -2971,7 +2991,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt \\(\\cos(390^\\circ)\\) med hjälp av periodicitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Cosinus har perioden \\(360^\\circ\\).</p></li><li><p>\\[390^\\circ=360^\\circ+30^\\circ\\Rightarrow \\cos390^\\circ=\\cos30^\\circ=\\boxed{\\sqrt3/2}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinus har perioden \\(360^\\circ\\): \\(\\cos(v+360^\\circ)=\\cos v\\)</p><div class=\"facit-matte\">\\[390^\\circ=360^\\circ+30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Ett helt varv extra ger samma punkt</p><div class=\"facit-matte\">\\[\\cos390^\\circ=\\cos30^\\circ=\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\)</p></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur"
@@ -3033,7 +3053,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Utan att använda miniräknare, bestäm</p><p>\\[\\frac{\\cos(-1,2)}{\\cos(1,2)}.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cosinus är en jämn funktion, vilket betyder att spegling i y-axeln inte ändrar funktionsvärdet:</p></li><li><p>\\[\\cos(-x)=\\cos x.\\]</p></li><li><p>Därför är täljare och nämnare lika.</p></li><li><p>Eftersom \\(\\cos(1,2)\\ne0\\) blir kvoten</p></li><li><p>\\[\\boxed{1}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinus är jämn: \\(\\cos(-x)=\\cos x\\)</p><p>Vinklarna \\(1{,}2\\) och \\(-1{,}2\\) ger punkter som är speglingar i x-axeln. De har samma x-koordinat.</p></li><li><p class=\"facit-rubrik\">Täljaren och nämnaren är lika stora</p><div class=\"facit-matte\">\\[\\frac{\\cos(-1{,}2)}{\\cos(1{,}2)}=\\frac{\\cos(1{,}2)}{\\cos(1{,}2)}=1\\]</div></li><li><p class=\"facit-rubrik\">Nämnaren är inte noll</p><p>\\(1{,}2\\) radianer är mindre än \\(\\tfrac{\\pi}{2}\\approx1{,}57\\), så \\(\\cos(1{,}2)\\gt 0\\) och divisionen är tillåten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -3064,7 +3084,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt \\(\\sin(750^\\circ)\\) med hjälp av periodicitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Sinus har perioden \\(360^\\circ\\).</p></li><li><p>\\[750^\\circ=720^\\circ+30^\\circ\\Rightarrow \\sin750^\\circ=\\sin30^\\circ=\\boxed{1/2}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinus har perioden \\(360^\\circ\\): \\(\\sin(v+n\\cdot360^\\circ)=\\sin v\\)</p><div class=\"facit-matte\">\\[750^\\circ=2\\cdot360^\\circ+30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Två hela varv extra ger samma punkt</p><div class=\"facit-matte\">\\[\\sin750^\\circ=\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur"
@@ -3094,7 +3114,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln \\(v\\) ligger i första kvadranten och \\(\\sin v=3/5\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"300.0\" y2=\"105.0\" stroke=\"#d9822b\" stroke-width=\"2.6\"/><line x1=\"300.0\" y1=\"105.0\" x2=\"300.0\" y2=\"180\" stroke=\"#d9822b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"300.0\" y1=\"105.0\" x2=\"200\" y2=\"105.0\" stroke=\"#d9822b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 0 0 222.4 163.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"240\" y=\"173\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"300.0\" cy=\"105.0\" r=\"5\" fill=\"#24262b\"/><text x=\"316\" y=\"97\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"179\" y=\"111\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3/5</text></svg></div><p>Bestäm \\(\\cos v\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Använd trigonometriska ettan och välj tecken från kvadranten.</p></li><li><p>\\[\\cos^2v=1-\\sin^2v=1-\\frac9{25}=\\frac{16}{25}.\\]</p></li><li><div class=\"facit-berakning\"><p>I första kvadranten är cosinus positiv, alltså</p><div class=\"facit-matte\">\\[\\boxed{\\cos v=4/5}\\].</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\left(\\frac35\\right)^2=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Första kvadranten: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos v=\\sqrt{\\frac{16}{25}}=\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac45\\)</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur"
@@ -3155,7 +3175,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln \\(v\\) ligger i andra kvadranten och \\(\\cos v=-5/13\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"151.9\" y2=\"64.6\" stroke=\"#1f9aa3\" stroke-width=\"2.6\"/><line x1=\"151.9\" y1=\"64.6\" x2=\"151.9\" y2=\"180\" stroke=\"#1f9aa3\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"151.9\" y1=\"64.6\" x2=\"200\" y2=\"64.6\" stroke=\"#1f9aa3\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 0 0 189.2 154.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"223\" y=\"151\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"151.9\" cy=\"64.6\" r=\"5\" fill=\"#24262b\"/><text x=\"136\" y=\"57\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"125\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−5/13</text></svg></div><p>Bestäm \\(\\sin v\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Trigonometriska ettan ger sinus belopp; kvadranten ger tecknet.</p></li><li><p>\\[\\sin^2v=1-\\cos^2v=1-\\frac{25}{169}=\\frac{144}{169}.\\]</p></li><li><div class=\"facit-berakning\"><p>I andra kvadranten är sinus positiv, alltså</p><div class=\"facit-matte\">\\[\\boxed{\\sin v=12/13}\\].</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\left(-\\frac{5}{13}\\right)^2=1-\\frac{25}{169}=\\frac{144}{169}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten ligger ovanför x-axeln: sinus positiv</p><div class=\"facit-matte\">\\[\\sin v=\\sqrt{\\frac{144}{169}}=\\frac{12}{13}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{12}{13}\\)</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur"
@@ -3185,7 +3205,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln \\(v\\) ligger i fjärde kvadranten och \\(\\sin v=-8/17\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"310.3\" y2=\"238.8\" stroke=\"#2b6cb0\" stroke-width=\"2.6\"/><line x1=\"310.3\" y1=\"238.8\" x2=\"310.3\" y2=\"180\" stroke=\"#2b6cb0\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"310.3\" y1=\"238.8\" x2=\"200\" y2=\"238.8\" stroke=\"#2b6cb0\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 1 0 224.7 193.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"159\" y=\"176\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"310.3\" cy=\"238.8\" r=\"5\" fill=\"#24262b\"/><text x=\"326\" y=\"259\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"171\" y=\"245\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−8/17</text></svg></div><p>Bestäm \\(\\tan v\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm först cosinus med trigonometriska ettan.</p></li><li><p>\\[\\cos^2v=1-\\frac{64}{289}=\\frac{225}{289}.\\]</p></li><li><div class=\"facit-berakning\"><p>I fjärde kvadranten är cosinus positiv, så</p><div class=\"facit-matte\">\\[\\cos v=15/17\\].</div></div></li><li><p>Därför</p></li><li><p>\\[\\tan v=\\frac{-8/17}{15/17}=\\boxed{-8/15}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinus först, med trigonometriska ettan: \\(\\cos^2v=1-\\sin^2v\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\frac{64}{289}=\\frac{225}{289}\\]</div></li><li><p class=\"facit-rubrik\">Fjärde kvadranten ligger till höger om y-axeln: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos v=\\frac{15}{17}\\]</div></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan v=\\frac{-\\frac{8}{17}}{\\frac{15}{17}}=-\\frac{8}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{8}{15}\\)</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur"
@@ -3216,7 +3236,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En vinkel x ligger i fjärde kvadranten och \\(\\tan x=-3/4\\). Bestäm \\(\\cos x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet.</p></li><li><p class=\"facit-metod\">Använd därefter den trigonometriska relation som frågan kräver.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens beskriver förhållandet mellan y- och x-koordinat.</p></li><li><p>En 3–4–5-triangel ger beloppen \\(|\\sin x|=3/5\\) och \\(|\\cos x|=4/5\\).</p></li><li><div class=\"facit-berakning\"><p>I fjärde kvadranten är cosinus positiv, alltså</p><div class=\"facit-matte\">\\[\\cos x=4/5\\].</div></div></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten \\(\\tfrac yx\\): rita en triangel med kateterna 3 och 4</p><p>Beloppet \\(\\tfrac34\\) betyder att y-avståndet är 3 och x-avståndet 4 (i någon skala).</p></li><li><p class=\"facit-rubrik\">Pythagoras sats ger hypotenusan</p><div class=\"facit-matte\">\\[\\sqrt{3^2+4^2}=\\sqrt{25}=5\\]</div></li><li><p class=\"facit-rubrik\">Beloppet av cosinus är närliggande katet delat med hypotenusan</p><div class=\"facit-matte\">\\[|\\cos x|=\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Fjärde kvadranten: x positiv, y negativ</p><p>Därför är \\(\\cos x\\) positiv (och \\(\\sin x=-\\tfrac35\\), vilket ger \\(\\tan x=-\\tfrac34\\) som det ska).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x=\\frac45\\)</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -3279,7 +3299,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten på enhetscirkeln motsvarar vinkeln 120°.</p><p>Bestäm punktens x-koordinat.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är x-koordinaten \\(\\cos v\\).</p></li><li><p>Eftersom \\(120^\\circ=180^\\circ-60^\\circ\\) ligger vinkeln i andra kvadranten:</p></li><li><p>\\[x=\\cos120^\\circ=-\\cos60^\\circ=\\boxed{-1/2}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">x-koordinaten är cosinus: \\(x=\\cos v\\)</p><p>Vi söker \\(\\cos120^\\circ\\).</p></li><li><p class=\"facit-rubrik\">\\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten</p><p>Där är x-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\cos60^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[x=\\cos120^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur"
@@ -3309,7 +3329,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten på enhetscirkeln motsvarar vinkeln 225°.</p><p>Bestäm punktens y-koordinat.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är y-koordinaten \\(\\sin v\\).</p></li><li><p>Vinkeln \\(225^\\circ=180^\\circ+45^\\circ\\) ligger i tredje kvadranten:</p></li><li><p>\\[y=\\sin225^\\circ=-\\sin45^\\circ=\\boxed{-\\sqrt2/2}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">y-koordinaten är sinus: \\(y=\\sin v\\)</p><p>Vi söker \\(\\sin225^\\circ\\).</p></li><li><p class=\"facit-rubrik\">\\(225^\\circ=180^\\circ+45^\\circ\\) ligger i tredje kvadranten</p><p>Där är y-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(45^\\circ\\): \\(\\sin45^\\circ=\\tfrac{\\sqrt2}{2}\\)</p><div class=\"facit-matte\">\\[y=\\sin225^\\circ=-\\sin45^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{\\sqrt2}{2}\\)</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur"
@@ -3371,7 +3391,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm \\(\\tan(585^\\circ)\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens har period \\(180^\\circ\\).</p></li><li><p>Subtrahera tre perioder, alltså \\(540^\\circ\\): \\(585^\\circ-540^\\circ=45^\\circ\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[\\tan(585^\\circ)=\\tan(45^\\circ)=1\\].</div></div></li><li><p><strong>Varför räcker det att subtrahera \\(540^\\circ\\)?</strong> Vinklar som skiljer sig med ett helt antal \\(180^\\circ\\) har samma tangensvärde.</p></li><li><p>Vi subtraherar alltså hela perioder om \\(180^\\circ\\) tills en välkänd standardvinkel återstår.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens har perioden \\(180^\\circ\\): \\(\\tan(v+n\\cdot180^\\circ)=\\tan v\\)</p><p>Dra bort hela halvvarv tills en standardvinkel återstår.</p></li><li><p class=\"facit-rubrik\">Dra bort tre halvvarv, \\(3\\cdot180^\\circ=540^\\circ\\)</p><div class=\"facit-matte\">\\[585^\\circ-540^\\circ=45^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Standardvärdet \\(\\tan45^\\circ=1\\)</p><div class=\"facit-matte\">\\[\\tan585^\\circ=\\tan45^\\circ=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -3403,7 +3423,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten på enhetscirkeln motsvarar vinkeln 300°.</p><p>Bestäm punktens x-koordinat.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är x-koordinaten \\(\\cos v\\).</p></li><li><p>Vinkeln \\(300^\\circ=360^\\circ-60^\\circ\\) ligger i fjärde kvadranten:</p></li><li><p>\\[x=\\cos300^\\circ=\\cos60^\\circ=\\boxed{1/2}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">x-koordinaten är cosinus: \\(x=\\cos v\\)</p><p>Vi söker \\(\\cos300^\\circ\\).</p></li><li><p class=\"facit-rubrik\">\\(300^\\circ=360^\\circ-60^\\circ\\) ligger i fjärde kvadranten</p><p>Där är x-koordinaten positiv.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(60^\\circ\\): \\(\\cos60^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[x=\\cos300^\\circ=\\cos60^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur"
@@ -3434,7 +3454,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt på enhetscirkeln har x-koordinaten \\(-\\sqrt3/2\\) och negativ y-koordinat. Bestäm vinkeln \\(\\theta\\) i intervallet \\(0\\le\\theta&lt;360^\\circ\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"91.7\" y2=\"242.5\" stroke=\"#2e7d52\" stroke-width=\"2.6\"/><line x1=\"91.7\" y1=\"242.5\" x2=\"91.7\" y2=\"180\" stroke=\"#2e7d52\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"91.7\" y1=\"242.5\" x2=\"200\" y2=\"242.5\" stroke=\"#2e7d52\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 1 0 175.8 194.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"189\" y=\"145\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">θ</text><circle cx=\"91.7\" cy=\"242.5\" r=\"5\" fill=\"#24262b\"/><text x=\"76\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"65\" y=\"202\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">−√3/2</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> På enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\).</p></li><li><p class=\"facit-metod\">Bestäm först rätt kvadrant och låt sedan tecknen avgöra vilket exakt värde som ska väljas.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>x-koordinaten är cosinus.</p></li><li><p>Beloppet \\(\\sqrt3/2\\) ger referensvinkeln \\(30^\\circ\\).</p></li><li><p>Både x- och y-koordinaten är negativa, så punkten ligger i tredje kvadranten.</p></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[\\theta=180^\\circ+30^\\circ=210^\\circ\\].</div></div></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att koordinaterna ligger på enhetscirkeln, alltså att \\(x^2+y^2=1\\), och att tecknen stämmer med kvadranten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">x-koordinaten är cosinus: \\(\\cos\\theta=-\\tfrac{\\sqrt3}{2}\\)</p><p>Beloppet \\(\\tfrac{\\sqrt3}{2}\\) hör till referensvinkeln \\(30^\\circ\\), eftersom \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\).</p></li><li><p class=\"facit-rubrik\">Både x och y är negativa: tredje kvadranten</p><p>Två vinklar har \\(\\cos\\theta=-\\tfrac{\\sqrt3}{2}\\): \\(150^\\circ\\) (y positiv) och \\(210^\\circ\\) (y negativ). Den negativa y-koordinaten väljer tredje kvadranten.</p></li><li><p class=\"facit-rubrik\">Gå ett halvt varv och sedan referensvinkeln till</p><div class=\"facit-matte\">\\[\\theta=180^\\circ+30^\\circ=210^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\theta=210^\\circ\\)</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -3469,7 +3489,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm det exakta värdet av \\(\\cos 60^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten för \\(60^\\circ\\) på enhetscirkeln har x-koordinaten \\(\\frac12\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten: \\(\\cos v=x\\)</p><p>Punkten vid \\(60^\\circ\\) på enhetscirkeln är \\(\\left(\\tfrac12,\\ \\tfrac{\\sqrt3}{2}\\right)\\).</p></li><li><p class=\"facit-rubrik\">Läs av x-koordinaten</p><div class=\"facit-matte\">\\[\\cos60^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -3500,7 +3520,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm det exakta värdet av \\(\\tan 45^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(45^\\circ\\) är sinus och cosinus lika stora, så \\(\\tan45^\\circ=\\frac{\\sin45^\\circ}{\\cos45^\\circ}=1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><p>Vid \\(45^\\circ\\) är sinus och cosinus lika stora: båda är \\(\\tfrac{\\sqrt2}{2}\\).</p></li><li><p class=\"facit-rubrik\">Ett tal delat med sig självt är 1</p><div class=\"facit-matte\">\\[\\tan45^\\circ=\\frac{\\frac{\\sqrt2}{2}}{\\frac{\\sqrt2}{2}}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -3531,7 +3551,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(\\cos180^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten för \\(180^\\circ\\) är \\((-1,0)\\).</p></li><li><p>Cosinus är x-koordinaten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten vid \\(180^\\circ\\) är \\((-1,\\ 0)\\)</p><p>Ett halvt varv moturs från (1, 0) hamnar man längst till vänster på cirkeln.</p></li><li><p class=\"facit-rubrik\">Cosinus är x-koordinaten: \\(\\cos v=x\\)</p><div class=\"facit-matte\">\\[\\cos180^\\circ=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -3562,7 +3582,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I vilken kvadrant hamnar vinkeln \\(200^\\circ\\) på enhetscirkeln? Svara med 1, 2, 3 eller 4.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tredje kvadranten omfattar vinklar mellan \\(180^\\circ\\) och \\(270^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadranternas gränser</p><p>I: \\(0^\\circ\\)–\\(90^\\circ\\), II: \\(90^\\circ\\)–\\(180^\\circ\\), III: \\(180^\\circ\\)–\\(270^\\circ\\), IV: \\(270^\\circ\\)–\\(360^\\circ\\).</p></li><li><p class=\"facit-rubrik\">\\(200^\\circ\\) ligger mellan \\(180^\\circ\\) och \\(270^\\circ\\)</p><div class=\"facit-matte\">\\[180^\\circ\\lt 200^\\circ\\lt 270^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kvadrant 3</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -3593,7 +3613,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Punkten för vinkeln \\(v\\) på enhetscirkeln har koordinaterna \\((0{,}6;\\ 0{,}8)\\). Vad är \\(\\sin v\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sinus är y-koordinaten, alltså</p><div class=\"facit-matte\">\\[\\sin v=0{,}8\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten är \\((\\cos v,\\ \\sin v)\\), så sinus är y-koordinaten</p><p>Punkten är \\((0{,}6;\\ 0{,}8)\\).</p></li><li><p class=\"facit-rubrik\">Läs av y-koordinaten</p><div class=\"facit-matte\">\\[\\sin v=0{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -3624,7 +3644,7 @@ window.BANKMATO2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Beräkna exakt:</p><p>\\[\\sin150^\\circ+\\cos240^\\circ+\\tan315^\\circ\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin150^\\circ=\\sin30^\\circ=\\frac12\\) (spegling i \\(y\\)-axeln).</p></li><li><p>\\(\\cos240^\\circ=-\\cos60^\\circ=-\\frac12\\) (tredje kvadranten).</p></li><li><p>\\(\\tan315^\\circ=-\\tan45^\\circ=-1\\) (fjärde kvadranten).</p></li><li><div class=\"facit-berakning\"><p>Summan:</p><div class=\"facit-matte\">\\[\\frac12-\\frac12-1=-1\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\sin150^\\circ\\): andra kvadranten, sinus positiv</p><div class=\"facit-matte\">\\[\\sin150^\\circ=\\sin30^\\circ=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos240^\\circ\\): tredje kvadranten, cosinus negativ</p><div class=\"facit-matte\">\\[\\cos240^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li><li><p class=\"facit-rubrik\">\\(\\tan315^\\circ\\): fjärde kvadranten, tangens negativ</p><div class=\"facit-matte\">\\[\\tan315^\\circ=-\\tan45^\\circ=-1\\]</div></li><li><p class=\"facit-rubrik\">Lägg ihop de tre värdena</p><div class=\"facit-matte\">\\[\\frac12-\\frac12-1=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur"
@@ -3650,7 +3670,7 @@ window.BANKMATO2 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>En regelbunden åttahörning är inskriven i enhetscirkeln med ett hörn i punkten \\((1,\\,0)\\).</p><p>Bestäm åttahörningens area. Ange svaret exakt eller med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hörnen ligger vid vinklarna \\(0^\\circ, 45^\\circ, 90^\\circ, \\dots\\) på enhetscirkeln.</p></li><li><p>Åttahörningen består av åtta likbenta trianglar med två sidor 1 och toppvinkeln \\(45^\\circ\\).</p></li><li><div class=\"facit-berakning\"><p>Varje triangel har arean</p><div class=\"facit-matte\">\\[\\frac12\\cdot1\\cdot1\\cdot\\sin45^\\circ=\\frac{\\sqrt2}{4}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Totalt:</p><div class=\"facit-matte\">\\[8\\cdot\\frac{\\sqrt2}{4}=2\\sqrt2\\approx2{,}828\\].</div></div></li><li><p>Kontroll med koordinater: triangeln med hörnen \\((0,0)\\),</p></li><li><p>\\((1,0)\\) och \\(\\left(\\frac{\\sqrt2}2,\\frac{\\sqrt2}2\\right)\\) har basen 1 och höjden \\(\\frac{\\sqrt2}{2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\sqrt2\\approx2{,}828\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela åttahörningen i åtta trianglar med ett hörn i origo</p><p>Hörnen ligger vid \\(0^\\circ, 45^\\circ, 90^\\circ, \\dots\\) Varje triangel har två sidor som är radier (längd 1) och vinkeln \\(360^\\circ/8=45^\\circ\\) mellan dem.</p></li><li><p class=\"facit-rubrik\">Areasatsen: \\(A=\\tfrac12ab\\sin C\\)</p><div class=\"facit-matte\">\\[A_{\\text{triangel}}=\\frac12\\cdot1\\cdot1\\cdot\\sin45^\\circ=\\frac12\\cdot\\frac{\\sqrt2}{2}=\\frac{\\sqrt2}{4}\\]</div></li><li><p class=\"facit-rubrik\">Åtta likadana trianglar</p><div class=\"facit-matte\">\\[A=8\\cdot\\frac{\\sqrt2}{4}=2\\sqrt2\\approx2{,}828\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med koordinater</p><p>Triangeln med hörnen \\((0,0)\\), \\((1,0)\\) och \\(\\left(\\tfrac{\\sqrt2}{2},\\tfrac{\\sqrt2}{2}\\right)\\) har basen 1 och höjden \\(\\tfrac{\\sqrt2}{2}\\), alltså arean \\(\\tfrac{\\sqrt2}{4}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\sqrt2\\approx2{,}828\\) areaenheter</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "problemlösning",
@@ -3678,7 +3698,7 @@ window.BANKMATO2 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Punkterna \\(P\\), \\(Q\\) och \\(R\\) ligger på enhetscirkeln vid vinklarna \\(v\\), \\(v+120^\\circ\\) och \\(v+240^\\circ\\).</p><p>Bestäm summan av punkternas \\(x\\)-koordinater, \\(\\cos v+\\cos(v+120^\\circ)+\\cos(v+240^\\circ)\\), när \\(v=10^\\circ\\). Förklara varför svaret inte beror på \\(v\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkterna är hörnen i en liksidig triangel inskriven i enhetscirkeln.</p></li><li><p>Triangelns tyngdpunkt är cirkelns medelpunkt, origo.</p></li><li><p>Tyngdpunktens \\(x\\)-koordinat är medelvärdet av hörnens \\(x\\)-koordinater.</p></li><li><p>Det är 0, så summan är 0 för alla \\(v\\).</p></li><li><p>Kontroll för \\(v=10^\\circ\\): \\(\\cos10^\\circ+\\cos130^\\circ+\\cos250^\\circ\\approx0{,}985-0{,}643-0{,}342=0\\).</p></li><li><div class=\"facit-berakning\"><p>Algebraiskt:</p><div class=\"facit-matte\">\\[\\cos(v+120^\\circ)+\\cos(v+240^\\circ)=2\\cos(v+180^\\circ)\\cos60^\\circ=-\\cos v\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rita de tre punkterna</p><p>Punkterna ligger \\(120^\\circ\\) från varandra på enhetscirkeln. De är hörn i en liksidig triangel med medelpunkten i origo.</p></li><li><p class=\"facit-rubrik\">Tyngdpunkten är medelvärdet av hörnens koordinater</p><p>För en liksidig triangel inskriven i en cirkel ligger tyngdpunkten i cirkelns medelpunkt, alltså i origo. Medelvärdet av x-koordinaterna är därför 0, och då är också summan 0.</p></li><li><p class=\"facit-rubrik\">Kontroll med \\(v=10^\\circ\\) och miniräknare</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\cos10^\\circ+\\cos130^\\circ+\\cos250^\\circ\\\\&\\approx0{,}985-0{,}643-0{,}342=0\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Varför svaret inte beror på v</p><p>Vrider man \\(v\\) roterar hela triangeln runt origo. Tyngdpunkten ligger kvar i origo, så summan är alltid 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "resonemang",
@@ -3705,7 +3725,7 @@ window.BANKMATO2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Punkten \\((-0{,}6;\\ -0{,}8)\\) ligger på enhetscirkeln. Bestäm vinkeln \\(v\\), där \\(0^\\circ\\le v&lt;360^\\circ\\). Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda koordinaterna är negativa, så punkten ligger i tredje kvadranten.</p></li><li><p>Referensvinkeln är \\(\\cos^{-1}0{,}6\\approx53{,}1^\\circ\\).</p></li><li><div class=\"facit-berakning\"><p>I tredje kvadranten:</p><div class=\"facit-matte\">\\[v=180^\\circ+53{,}1^\\circ=233{,}1^\\circ\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v\\approx233{,}1^\\circ\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Båda koordinaterna är negativa: tredje kvadranten</p><p>Punkten \\((-0{,}6;\\ -0{,}8)\\) ligger snett nedåt till vänster.</p></li><li><p class=\"facit-rubrik\">Spetsig referensvinkel ur \\(\\cos v_{\\text{ref}}=0{,}6\\)</p><div class=\"facit-matte\">\\[v_{\\text{ref}}=\\cos^{-1}0{,}6\\approx53{,}13^\\circ\\]</div></li><li><p class=\"facit-rubrik\">I tredje kvadranten: ett halvt varv plus referensvinkeln</p><div class=\"facit-matte\">\\[v=180^\\circ+53{,}13^\\circ\\approx233{,}1^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Kontroll</p><p>\\(\\cos233{,}1^\\circ\\approx-0{,}600\\) och \\(\\sin233{,}1^\\circ\\approx-0{,}800\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v\\approx233{,}1^\\circ\\)</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur"
@@ -3732,7 +3752,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm det exakta värdet av \\(\\sin150^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\sin150^\\circ=\\sin(180^\\circ-30^\\circ)=\\sin30^\\circ=\\tfrac12\\]</p></li><li><p>Punkterna för \\(30^\\circ\\) och \\(150^\\circ\\) ligger symmetriskt kring y-axeln och har samma y-koordinat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i y-axeln: \\(\\sin(180^\\circ-v)=\\sin v\\)</p><div class=\"facit-matte\">\\[150^\\circ=180^\\circ-30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Samma y-koordinat som vid \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin150^\\circ=\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -3764,7 +3784,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm det exakta värdet av \\(\\cos120^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\cos120^\\circ=\\cos(180^\\circ-60^\\circ)=-\\cos60^\\circ=-\\tfrac12\\]</p></li><li><p>Punkten ligger i andra kvadranten, där x-koordinaten är negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i y-axeln: \\(\\cos(180^\\circ-v)=-\\cos v\\)</p><div class=\"facit-matte\">\\[120^\\circ=180^\\circ-60^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Motsatt x-koordinat mot \\(60^\\circ\\)</p><div class=\"facit-matte\">\\[\\cos120^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac12\\)</p></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -3796,7 +3816,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Det gäller att \\(\\sin v=0{,}3\\). Bestäm \\(\\sin(180^\\circ-v)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkterna för \\(v\\) och \\(180^\\circ-v\\) är speglingar i y-axeln och har samma y-koordinat.</p></li><li><div class=\"facit-berakning\"><p>Alltså är</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-v)=0{,}3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,3</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetri i y-axeln: \\(\\sin(180^\\circ-v)=\\sin v\\)</p><p>Punkterna för \\(v\\) och \\(180^\\circ-v\\) har samma y-koordinat.</p></li><li><p class=\"facit-rubrik\">Sätt in det givna värdet</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-v)=\\sin v=0{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,3</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "geogebra": false,
     "miniräknare": false,
@@ -3829,7 +3849,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa först att</p><p>\\[\\sin x+\\sin3x=2\\sin2x\\cos x.\\]</p><p>Använd sedan sambandet för att lösa</p><p>\\[\\sin x+\\sin2x+\\sin3x=0\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Härled först det givna sambandet med additions- och subtraktionsformler.</p></li><li><p class=\"facit-metod\">Faktorisera sedan ekvationen och lös varje faktor för sig.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utgå från vänsterledet och skriv båda sinusuttrycken kring vinkeln \\(2x\\):</p></li></ol></div></div>\n<ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\sin3x=\\sin(2x+x)=\\sin2x\\cos x+\\cos2x\\sin x,\\]</p></li><li><p>\\[\\sin x=\\sin(2x-x)=\\sin2x\\cos x-\\cos2x\\sin x.\\]</p></li><li><p>När uttrycken adderas tar termerna med \\(\\cos2x\\sin x\\) ut varandra:</p></li><li><p>\\[\\sin x+\\sin3x=2\\sin2x\\cos x.\\]</p></li></ol>\n\n\n\n<div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd nu sambandet i ekvationen:</p></li></ol></div></div>\n<ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\sin x+\\sin2x+\\sin3x=\\sin2x(2\\cos x+1)=0.\\]</p></li><li><p>Alltså måste minst en faktor vara noll.</p></li><li><p>\\(\\sin2x=0\\Rightarrow2x=180^\\circ n\\Rightarrow x=90^\\circ n\\), vilket i intervallet ger \\(0^\\circ,90^\\circ,180^\\circ,270^\\circ\\).</p></li><li><div class=\"facit-matte\">\\[2\\cos x+1=0\\Rightarrow\\cos x=-1/2\\Rightarrow x=120^\\circ,240^\\circ\\].</div></li></ol>\n\n\n\n<p class=\"facit-svar\"><strong>\\[\\boxed{x=0^\\circ,90^\\circ,120^\\circ,180^\\circ,240^\\circ,270^\\circ}.\\]</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt de erhållna lösningarna i ursprungsekvationen och kontrollera att bara lösningar i det angivna intervallet finns med.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(3x\\) och \\(x\\) kring vinkeln \\(2x\\)</p><div class=\"facit-matte\">\\[\\sin3x=\\sin(2x+x),\\qquad \\sin x=\\sin(2x-x)\\]</div></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(a\\pm b)=\\sin a\\cos b\\pm\\cos a\\sin b\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin3x&=\\sin2x\\cos x+\\cos2x\\sin x\\\\\\sin x&=\\sin2x\\cos x-\\cos2x\\sin x\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Addera: termerna med \\(\\cos2x\\sin x\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\sin x+\\sin3x=2\\sin2x\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Använd sambandet i ekvationen och bryt ut \\(\\sin2x\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\sin x+\\sin3x+\\sin2x\\\\&=2\\sin2x\\cos x+\\sin2x\\\\&=\\sin2x\\,(2\\cos x+1)=0\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: någon av faktorerna är noll</p><p>Antingen är \\(\\sin2x=0\\) eller \\(2\\cos x+1=0\\).</p></li><li><p class=\"facit-rubrik\">Första faktorn: \\(\\sin2x=0\\) när \\(2x=n\\cdot180^\\circ\\)</p><div class=\"facit-matte\">\\[x=n\\cdot90^\\circ\\quad\\Rightarrow\\quad x=0^\\circ,\\ 90^\\circ,\\ 180^\\circ,\\ 270^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Andra faktorn: \\(\\cos x=-\\tfrac12\\)</p><p>Referensvinkeln är \\(60^\\circ\\). Cosinus är negativ i andra och tredje kvadranten: \\(x=180^\\circ-60^\\circ=120^\\circ\\) och \\(x=180^\\circ+60^\\circ=240^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sambandet följer av additionsformlerna. Lösningarna är \\(x=0^\\circ,\\ 90^\\circ,\\ 120^\\circ,\\ 180^\\circ,\\ 240^\\circ\\) och \\(270^\\circ\\).</p></div>",
     "familj": "Visa och förenkla med formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -3862,7 +3882,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Utveckla uttrycken.</p><p>a) \\(\\sin(x+30^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sin(x-45^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\cos(x+60^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos(x-30^\\circ)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\sin(x+30^\\circ)&=\\sin x\\cos30^\\circ\\\\&\\quad +\\cos x\\sin30^\\circ\\\\&=\\frac{\\sqrt3}{2}\\sin x\\\\&\\quad +\\frac12\\cos x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\sin x+\\frac12\\cos x\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\sin(x-45^\\circ)&=\\sin x\\cos45^\\circ\\\\&\\quad -\\cos x\\sin45^\\circ\\\\&=\\frac{\\sqrt2}{2}\\sin x\\\\&\\quad -\\frac{\\sqrt2}{2}\\cos x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt2}{2}\\sin x-\\frac{\\sqrt2}{2}\\cos x\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\cos(x+60^\\circ)&=\\cos x\\cos60^\\circ\\\\&\\quad -\\sin x\\sin60^\\circ\\\\&=\\frac12\\cos x\\\\&\\quad -\\frac{\\sqrt3}{2}\\sin x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac12\\cos x-\\frac{\\sqrt3}{2}\\sin x\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\cos(x-30^\\circ)&=\\cos x\\cos30^\\circ\\\\&\\quad +\\sin x\\sin30^\\circ\\\\&=\\frac{\\sqrt3}{2}\\cos x\\\\&\\quad +\\frac12\\sin x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\).</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin(x+30^\\circ)&=\\sin x\\cos30^\\circ\\\\&\\quad+\\cos x\\sin30^\\circ\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\) och \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin(x+30^\\circ)&=\\frac{\\sqrt3}{2}\\sin x\\\\&\\quad+\\frac12\\cos x\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\sin x+\\frac12\\cos x\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin(x-45^\\circ)&=\\sin x\\cos45^\\circ\\\\&\\quad-\\cos x\\sin45^\\circ\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos45^\\circ=\\sin45^\\circ=\\tfrac{\\sqrt2}{2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin(x-45^\\circ)&=\\frac{\\sqrt2}{2}\\sin x\\\\&\\quad-\\frac{\\sqrt2}{2}\\cos x\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2}{2}\\sin x-\\frac{\\sqrt2}{2}\\cos x\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><p>Observera minustecknet mellan produkterna i cosinusformeln för en summa.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(u=x\\), \\(v=60^\\circ\\) och de exakta värdena</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos(x+60^\\circ)&=\\cos x\\cos60^\\circ-\\sin x\\sin60^\\circ\\\\&=\\frac12\\cos x-\\frac{\\sqrt3}{2}\\sin x\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\cos x-\\frac{\\sqrt3}{2}\\sin x\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><p>För en differens blir det plustecken mellan produkterna.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(u=x\\), \\(v=30^\\circ\\) och de exakta värdena</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos(x-30^\\circ)&=\\cos x\\cos30^\\circ+\\sin x\\sin30^\\circ\\\\&=\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\)</p></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -3904,7 +3924,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin(x+30^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\sin(x+30^\\circ)&=\\sin x\\cos30^\\circ\\\\&\\quad +\\cos x\\sin30^\\circ\\\\&=\\frac{\\sqrt3}{2}\\sin x\\\\&\\quad +\\frac12\\cos x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\sin x+\\frac12\\cos x\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin(x+30^\\circ)&=\\sin x\\cos30^\\circ\\\\&\\quad+\\cos x\\sin30^\\circ\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\) och \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin(x+30^\\circ)&=\\frac{\\sqrt3}{2}\\sin x\\\\&\\quad+\\frac12\\cos x\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\sin x+\\frac12\\cos x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -3913,7 +3933,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\sin(x-45^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\sin(x-45^\\circ)&=\\sin x\\cos45^\\circ\\\\&\\quad -\\cos x\\sin45^\\circ\\\\&=\\frac{\\sqrt2}{2}\\sin x\\\\&\\quad -\\frac{\\sqrt2}{2}\\cos x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt2}{2}\\sin x-\\frac{\\sqrt2}{2}\\cos x\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin(x-45^\\circ)&=\\sin x\\cos45^\\circ\\\\&\\quad-\\cos x\\sin45^\\circ\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos45^\\circ=\\sin45^\\circ=\\tfrac{\\sqrt2}{2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin(x-45^\\circ)&=\\frac{\\sqrt2}{2}\\sin x\\\\&\\quad-\\frac{\\sqrt2}{2}\\cos x\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2}{2}\\sin x-\\frac{\\sqrt2}{2}\\cos x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -3922,7 +3942,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\cos(x+60^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\cos(x+60^\\circ)&=\\cos x\\cos60^\\circ\\\\&\\quad -\\sin x\\sin60^\\circ\\\\&=\\frac12\\cos x\\\\&\\quad -\\frac{\\sqrt3}{2}\\sin x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac12\\cos x-\\frac{\\sqrt3}{2}\\sin x\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><p>Observera minustecknet mellan produkterna i cosinusformeln för en summa.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(u=x\\), \\(v=60^\\circ\\) och de exakta värdena</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos(x+60^\\circ)&=\\cos x\\cos60^\\circ-\\sin x\\sin60^\\circ\\\\&=\\frac12\\cos x-\\frac{\\sqrt3}{2}\\sin x\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\cos x-\\frac{\\sqrt3}{2}\\sin x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -3931,7 +3951,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos(x-30^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Använd formeln och sätt in standardvärden</strong></p><p>Använd additions- eller subtraktionsformeln och sätt sedan in de exakta värdena.</p>\\[\\begin{aligned}\\cos(x-30^\\circ)&=\\cos x\\cos30^\\circ\\\\&\\quad +\\sin x\\sin30^\\circ\\\\&=\\frac{\\sqrt3}{2}\\cos x\\\\&\\quad +\\frac12\\sin x\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><p>För en differens blir det plustecken mellan produkterna.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(u=x\\), \\(v=30^\\circ\\) och de exakta värdena</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos(x-30^\\circ)&=\\cos x\\cos30^\\circ+\\sin x\\sin30^\\circ\\\\&=\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -3959,7 +3979,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla så långt som möjligt.</p><p>a) \\(\\sin^2x+\\cos^2x+\\sin^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(1-\\sin^2x+\\cos^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\frac{1-\\sin^2x}{\\cos^2x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{\\sin^2x}{1-\\cos^2x}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd \\(\\sin^2x+\\cos^2x=1\\) och kontrollera eventuella nämnare.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1+\\sin^2x\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(2\\cos^2x\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>1</strong>, där \\(\\cos x\\ne0\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>1</strong>, där \\(\\sin x\\ne0\\).</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><p>De två första termerna är precis trigonometriska ettan.</p></li><li><p class=\"facit-rubrik\">Byt \\(\\sin^2x+\\cos^2x\\) mot 1</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x+\\sin^2x=1+\\sin^2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1+\\sin^2x\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ettan omskriven: \\(1-\\sin^2x=\\cos^2x\\)</p><div class=\"facit-matte\">\\[1-\\sin^2x+\\cos^2x=\\cos^2x+\\cos^2x\\]</div></li><li><p class=\"facit-rubrik\">Lägg ihop de lika termerna</p><div class=\"facit-matte\">\\[\\cos^2x+\\cos^2x=2\\cos^2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\cos^2x\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren: \\(1-\\sin^2x=\\cos^2x\\)</p><div class=\"facit-matte\">\\[\\frac{1-\\sin^2x}{\\cos^2x}=\\frac{\\cos^2x}{\\cos^2x}\\]</div></li><li><p class=\"facit-rubrik\">Lika täljare och nämnare ger 1 (där \\(\\cos x\\neq0\\))</p><div class=\"facit-matte\">\\[\\frac{\\cos^2x}{\\cos^2x}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nämnaren: \\(1-\\cos^2x=\\sin^2x\\)</p><div class=\"facit-matte\">\\[\\frac{\\sin^2x}{1-\\cos^2x}=\\frac{\\sin^2x}{\\sin^2x}\\]</div></li><li><p class=\"facit-rubrik\">Lika täljare och nämnare ger 1 (där \\(\\sin x\\neq0\\))</p><div class=\"facit-matte\">\\[\\frac{\\sin^2x}{\\sin^2x}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur"
@@ -4001,7 +4021,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin^2x+\\cos^2x+\\sin^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd \\(\\sin^2x+\\cos^2x=1\\) och kontrollera eventuella nämnare.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1+\\sin^2x\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><p>De två första termerna är precis trigonometriska ettan.</p></li><li><p class=\"facit-rubrik\">Byt \\(\\sin^2x+\\cos^2x\\) mot 1</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x+\\sin^2x=1+\\sin^2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1+\\sin^2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4010,7 +4030,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(1-\\sin^2x+\\cos^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd \\(\\sin^2x+\\cos^2x=1\\) och kontrollera eventuella nämnare.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(2\\cos^2x\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ettan omskriven: \\(1-\\sin^2x=\\cos^2x\\)</p><div class=\"facit-matte\">\\[1-\\sin^2x+\\cos^2x=\\cos^2x+\\cos^2x\\]</div></li><li><p class=\"facit-rubrik\">Lägg ihop de lika termerna</p><div class=\"facit-matte\">\\[\\cos^2x+\\cos^2x=2\\cos^2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\cos^2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4019,7 +4039,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\frac{1-\\sin^2x}{\\cos^2x}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd \\(\\sin^2x+\\cos^2x=1\\) och kontrollera eventuella nämnare.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>1</strong>, där \\(\\cos x\\ne0\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren: \\(1-\\sin^2x=\\cos^2x\\)</p><div class=\"facit-matte\">\\[\\frac{1-\\sin^2x}{\\cos^2x}=\\frac{\\cos^2x}{\\cos^2x}\\]</div></li><li><p class=\"facit-rubrik\">Lika täljare och nämnare ger 1 (där \\(\\cos x\\neq0\\))</p><div class=\"facit-matte\">\\[\\frac{\\cos^2x}{\\cos^2x}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -4028,7 +4048,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\frac{\\sin^2x}{1-\\cos^2x}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd \\(\\sin^2x+\\cos^2x=1\\) och kontrollera eventuella nämnare.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>1</strong>, där \\(\\sin x\\ne0\\).</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nämnaren: \\(1-\\cos^2x=\\sin^2x\\)</p><div class=\"facit-matte\">\\[\\frac{\\sin^2x}{1-\\cos^2x}=\\frac{\\sin^2x}{\\sin^2x}\\]</div></li><li><p class=\"facit-rubrik\">Lika täljare och nämnare ger 1 (där \\(\\sin x\\neq0\\))</p><div class=\"facit-matte\">\\[\\frac{\\sin^2x}{\\sin^2x}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -4093,7 +4113,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt med additions- eller subtraktionsformler.</p><p>a) \\(\\sin 75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos 75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin 15^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos 15^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Dela upp vinklarna i standardvinklar, till exempel \\(75^\\circ=45^\\circ+30^\\circ\\) och \\(15^\\circ=45^\\circ-30^\\circ\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin75^\\circ=\\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ=\\boxed{\\frac{\\sqrt6+\\sqrt2}{4}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos75^\\circ=\\cos45^\\circ\\cos30^\\circ-\\sin45^\\circ\\sin30^\\circ=\\boxed{\\frac{\\sqrt6-\\sqrt2}{4}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin15^\\circ=\\sin45^\\circ\\cos30^\\circ-\\cos45^\\circ\\sin30^\\circ=\\boxed{\\frac{\\sqrt6-\\sqrt2}{4}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos15^\\circ=\\cos45^\\circ\\cos30^\\circ+\\sin45^\\circ\\sin30^\\circ=\\boxed{\\frac{\\sqrt6+\\sqrt2}{4}}\\].</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(75^\\circ=45^\\circ+30^\\circ\\)</p><p>Båda vinklarna har kända exakta värden.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin75^\\circ&=\\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(75^\\circ=45^\\circ+30^\\circ\\)</p><p>Använd cosinus för en summa.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos75^\\circ&=\\cos45^\\circ\\cos30^\\circ-\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt6}{4}-\\frac{\\sqrt2}{4}=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Använd sinus för en differens.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin15^\\circ&=\\sin45^\\circ\\cos30^\\circ-\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt6}{4}-\\frac{\\sqrt2}{4}=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Använd cosinus för en differens.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos15^\\circ&=\\cos45^\\circ\\cos30^\\circ+\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt6}{4}+\\frac{\\sqrt2}{4}=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -4135,7 +4155,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin 75^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Dela upp vinklarna i standardvinklar, till exempel \\(75^\\circ=45^\\circ+30^\\circ\\) och \\(15^\\circ=45^\\circ-30^\\circ\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin75^\\circ=\\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ=\\boxed{\\frac{\\sqrt6+\\sqrt2}{4}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(75^\\circ=45^\\circ+30^\\circ\\)</p><p>Båda vinklarna har kända exakta värden.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin75^\\circ&=\\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4144,7 +4164,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos 75^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Dela upp vinklarna i standardvinklar, till exempel \\(75^\\circ=45^\\circ+30^\\circ\\) och \\(15^\\circ=45^\\circ-30^\\circ\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos75^\\circ=\\cos45^\\circ\\cos30^\\circ-\\sin45^\\circ\\sin30^\\circ=\\boxed{\\frac{\\sqrt6-\\sqrt2}{4}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(75^\\circ=45^\\circ+30^\\circ\\)</p><p>Använd cosinus för en summa.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos75^\\circ&=\\cos45^\\circ\\cos30^\\circ-\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt6}{4}-\\frac{\\sqrt2}{4}=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4153,7 +4173,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin 15^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Dela upp vinklarna i standardvinklar, till exempel \\(75^\\circ=45^\\circ+30^\\circ\\) och \\(15^\\circ=45^\\circ-30^\\circ\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin15^\\circ=\\sin45^\\circ\\cos30^\\circ-\\cos45^\\circ\\sin30^\\circ=\\boxed{\\frac{\\sqrt6-\\sqrt2}{4}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Använd sinus för en differens.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin15^\\circ&=\\sin45^\\circ\\cos30^\\circ-\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt6}{4}-\\frac{\\sqrt2}{4}=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4162,7 +4182,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos 15^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Dela upp vinklarna i standardvinklar, till exempel \\(75^\\circ=45^\\circ+30^\\circ\\) och \\(15^\\circ=45^\\circ-30^\\circ\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos15^\\circ=\\cos45^\\circ\\cos30^\\circ+\\sin45^\\circ\\sin30^\\circ=\\boxed{\\frac{\\sqrt6+\\sqrt2}{4}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Använd cosinus för en differens.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos15^\\circ&=\\cos45^\\circ\\cos30^\\circ+\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt6}{4}+\\frac{\\sqrt2}{4}=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4190,7 +4210,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(v\\) gäller \\(\\sin v=\\frac35\\).</p><p>a) Bestäm \\(\\cos v\\) om \\(v\\) ligger i första kvadranten.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\cos v\\) om \\(v\\) ligger i andra kvadranten.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(\\tan v\\) i båda fallen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan ger \\(\\cos^2v=1-9/25=16/25\\), alltså \\(|\\cos v|=4/5\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos v=4/5\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\cos v=-4/5\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Första kvadranten: <strong>\\(\\tan v=3/4\\)</strong>.</p></li><li><p>Andra kvadranten: <strong>\\(\\tan v=-3/4\\)</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\left(\\frac35\\right)^2=\\frac{16}{25}\\ \\Rightarrow\\ \\cos v=\\pm\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Första kvadranten: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos v=\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac45\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\frac{9}{25}=\\frac{16}{25}\\ \\Rightarrow\\ \\cos v=\\pm\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten ligger till vänster om y-axeln: cosinus negativ</p><div class=\"facit-matte\">\\[\\cos v=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac45\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><p>Använd de givna värdena för de två fallen.</p></li><li><p class=\"facit-rubrik\">Första kvadranten, \\(\\cos v=\\tfrac45\\)</p><div class=\"facit-matte\">\\[\\tan v=\\frac{\\frac35}{\\frac45}=\\frac34\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten, \\(\\cos v=-\\tfrac45\\)</p><div class=\"facit-matte\">\\[\\tan v=\\frac{\\frac35}{-\\frac45}=-\\frac34\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tan v=\\frac34\\) i första kvadranten och \\(\\tan v=-\\frac34\\) i andra</p></div></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur"
@@ -4219,7 +4239,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm \\(\\cos v\\) om \\(v\\) ligger i första kvadranten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan ger \\(\\cos^2v=1-9/25=16/25\\), alltså \\(|\\cos v|=4/5\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos v=4/5\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\left(\\frac35\\right)^2=\\frac{16}{25}\\ \\Rightarrow\\ \\cos v=\\pm\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Första kvadranten: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos v=\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac45\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4228,7 +4248,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm \\(\\cos v\\) om \\(v\\) ligger i andra kvadranten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan ger \\(\\cos^2v=1-9/25=16/25\\), alltså \\(|\\cos v|=4/5\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos v=-4/5\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\frac{9}{25}=\\frac{16}{25}\\ \\Rightarrow\\ \\cos v=\\pm\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten ligger till vänster om y-axeln: cosinus negativ</p><div class=\"facit-matte\">\\[\\cos v=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac45\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4237,7 +4257,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>För \\(\\sin v=3/5\\) gäller \\(\\cos v=4/5\\) i första kvadranten och \\(\\cos v=-4/5\\) i andra kvadranten. Bestäm \\(\\tan v\\) i båda fallen.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan ger \\(\\cos^2v=1-9/25=16/25\\), alltså \\(|\\cos v|=4/5\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Första kvadranten:</p><div class=\"facit-matte\">\\[\\tan v=3/4\\].</div></div></li><li><div class=\"facit-berakning\"><p>Andra kvadranten:</p><div class=\"facit-matte\">\\[\\tan v=-3/4\\].</div></div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><p>Använd de givna värdena för de två fallen.</p></li><li><p class=\"facit-rubrik\">Första kvadranten, \\(\\cos v=\\tfrac45\\)</p><div class=\"facit-matte\">\\[\\tan v=\\frac{\\frac35}{\\frac45}=\\frac34\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten, \\(\\cos v=-\\tfrac45\\)</p><div class=\"facit-matte\">\\[\\tan v=\\frac{\\frac35}{-\\frac45}=-\\frac34\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tan v=\\frac34\\) i första kvadranten och \\(\\tan v=-\\frac34\\) i andra</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4276,7 +4296,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(v\\) gäller</p>\n<p>\\[\n\\cos v=-\\frac35,\\qquad 90^\\circ&lt;v&lt;180^\\circ.\n\\]</p>\n<p>Bestäm exakt</p>\n<p>a) \\(\\sin2v\\)<br>\nb) \\(\\cos(v+60^\\circ)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(v\\) ligger i andra kvadranten är \\(\\sin v&gt;0\\).</p></li><li><p>Trigonometriska ettan ger</p></li><li><p>\\[\n\\sin v=\\sqrt{1-\\frac9{25}}=\\frac45.\n\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\n\\sin2v=2\\sin v\\cos v\n=2\\cdot\\frac45\\cdot\\left(-\\frac35\\right)\n=-\\frac{24}{25}.\n\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\n\\cos(v+60^\\circ)=\\cos v\\cos60^\\circ-\\sin v\\sin60^\\circ\n\\]</p></li><li><p>\\[\n=-\\frac35\\cdot\\frac12-\\frac45\\cdot\\frac{\\sqrt3}{2}\n=-\\frac3{10}-\\frac{2\\sqrt3}{5}.\n\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan ger \\(\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\left(-\\frac35\\right)^2=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: sinus positiv</p><div class=\"facit-matte\">\\[\\sin v=\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2v=2\\sin v\\cos v\\)</p><div class=\"facit-matte\">\\[\\sin2v=2\\cdot\\frac45\\cdot\\left(-\\frac35\\right)=-\\frac{24}{25}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{24}{25}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\sin v=\\tfrac45\\) ur trigonometriska ettan (andra kvadranten)</p><div class=\"facit-matte\">\\[\\sin v=\\sqrt{1-\\frac{9}{25}}=\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos(v+60^\\circ)=\\cos v\\cos60^\\circ-\\sin v\\sin60^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in värdena</p><div class=\"facit-matte\">\\[\\begin{aligned}&=-\\frac35\\cdot\\frac12-\\frac45\\cdot\\frac{\\sqrt3}{2}\\\\&=-\\frac{3}{10}-\\frac{2\\sqrt3}{5}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{3}{10}-\\frac{2\\sqrt3}{5}\\)</p></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -4308,7 +4328,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin2v\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(v\\) ligger i andra kvadranten är \\(\\sin v&gt;0\\).</p></li><li><p>Trigonometriska ettan ger</p></li><li><p>\\[\n\\sin v=\\sqrt{1-\\frac9{25}}=\\frac45.\n\\]</p></li></ol><div class=\"spel-en-del\"></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\n\\sin2v=2\\sin v\\cos v\n=2\\cdot\\frac45\\cdot\\left(-\\frac35\\right)\n=-\\frac{24}{25}.\n\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan ger \\(\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\left(-\\frac35\\right)^2=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: sinus positiv</p><div class=\"facit-matte\">\\[\\sin v=\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2v=2\\sin v\\cos v\\)</p><div class=\"facit-matte\">\\[\\sin2v=2\\cdot\\frac45\\cdot\\left(-\\frac35\\right)=-\\frac{24}{25}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{24}{25}\\)</p></div>",
         "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 1
@@ -4316,7 +4336,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos(v+60^\\circ)\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(v\\) ligger i andra kvadranten är \\(\\sin v&gt;0\\).</p></li><li><p>Trigonometriska ettan ger</p></li><li><p>\\[\n\\sin v=\\sqrt{1-\\frac9{25}}=\\frac45.\n\\]</p></li></ol><div class=\"spel-en-del\"></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\n\\cos(v+60^\\circ)=\\cos v\\cos60^\\circ-\\sin v\\sin60^\\circ\n\\]</p></li><li><p>\\[\n=-\\frac35\\cdot\\frac12-\\frac45\\cdot\\frac{\\sqrt3}{2}\n=-\\frac3{10}-\\frac{2\\sqrt3}{5}.\n\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\sin v=\\tfrac45\\) ur trigonometriska ettan (andra kvadranten)</p><div class=\"facit-matte\">\\[\\sin v=\\sqrt{1-\\frac{9}{25}}=\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos(v+60^\\circ)=\\cos v\\cos60^\\circ-\\sin v\\sin60^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in värdena</p><div class=\"facit-matte\">\\[\\begin{aligned}&=-\\frac35\\cdot\\frac12-\\frac45\\cdot\\frac{\\sqrt3}{2}\\\\&=-\\frac{3}{10}-\\frac{2\\sqrt3}{5}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{3}{10}-\\frac{2\\sqrt3}{5}\\)</p></div>",
         "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 1
@@ -4343,7 +4363,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm det saknade trigonometriska värdet exakt.</p><p>a) \\(\\sin v=3/5\\), \\(0&lt;v&lt;90^\\circ\\). Bestäm \\(\\cos v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos v=-5/13\\), \\(90^\\circ&lt;v&lt;180^\\circ\\). Bestäm \\(\\sin v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin v=-8/17\\), \\(270^\\circ&lt;v&lt;360^\\circ\\). Bestäm \\(\\cos v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos v=7/25\\), \\(270^\\circ&lt;v&lt;360^\\circ\\). Bestäm \\(\\sin v\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd \\(\\sin^2v+\\cos^2v=1\\) och välj sedan tecken utifrån kvadranten.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos^2v=1-9/25=16/25\\].</div></li><li><p>Första kvadranten ger <strong>\\(\\cos v=4/5\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin^2v=1-25/169=144/169\\].</div></li><li><p>Andra kvadranten ger <strong>\\(\\sin v=12/13\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos^2v=1-64/289=225/289\\].</div></li><li><p>Fjärde kvadranten ger <strong>\\(\\cos v=15/17\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin^2v=1-49/625=576/625\\].</div></li><li><p>Fjärde kvadranten ger <strong>\\(\\sin v=-24/25\\)</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">\\(0^\\circ\\lt v\\lt 90^\\circ\\): cosinus positiv</p><div class=\"facit-matte\">\\[\\cos v=\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac45\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\frac{25}{169}=\\frac{144}{169}\\]</div></li><li><p class=\"facit-rubrik\">\\(90^\\circ\\lt v\\lt 180^\\circ\\): sinus positiv</p><div class=\"facit-matte\">\\[\\sin v=\\frac{12}{13}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{12}{13}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\frac{64}{289}=\\frac{225}{289}\\]</div></li><li><p class=\"facit-rubrik\">\\(270^\\circ\\lt v\\lt 360^\\circ\\): cosinus positiv</p><div class=\"facit-matte\">\\[\\cos v=\\frac{15}{17}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{17}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\frac{49}{625}=\\frac{576}{625}\\]</div></li><li><p class=\"facit-rubrik\">\\(270^\\circ\\lt v\\lt 360^\\circ\\): sinus negativ</p><div class=\"facit-matte\">\\[\\sin v=-\\frac{24}{25}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{24}{25}\\)</p></div></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur"
@@ -4385,7 +4405,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin v=3/5\\), \\(0&lt;v&lt;90^\\circ\\). Bestäm \\(\\cos v\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd \\(\\sin^2v+\\cos^2v=1\\) och välj sedan tecken utifrån kvadranten.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos^2v=1-9/25=16/25\\].</div></li><li><p>Första kvadranten ger <strong>\\(\\cos v=4/5\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">\\(0^\\circ\\lt v\\lt 90^\\circ\\): cosinus positiv</p><div class=\"facit-matte\">\\[\\cos v=\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac45\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4394,7 +4414,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos v=-5/13\\), \\(90^\\circ&lt;v&lt;180^\\circ\\). Bestäm \\(\\sin v\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd \\(\\sin^2v+\\cos^2v=1\\) och välj sedan tecken utifrån kvadranten.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin^2v=1-25/169=144/169\\].</div></li><li><p>Andra kvadranten ger <strong>\\(\\sin v=12/13\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\frac{25}{169}=\\frac{144}{169}\\]</div></li><li><p class=\"facit-rubrik\">\\(90^\\circ\\lt v\\lt 180^\\circ\\): sinus positiv</p><div class=\"facit-matte\">\\[\\sin v=\\frac{12}{13}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{12}{13}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4403,7 +4423,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin v=-8/17\\), \\(270^\\circ&lt;v&lt;360^\\circ\\). Bestäm \\(\\cos v\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd \\(\\sin^2v+\\cos^2v=1\\) och välj sedan tecken utifrån kvadranten.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos^2v=1-64/289=225/289\\].</div></li><li><p>Fjärde kvadranten ger <strong>\\(\\cos v=15/17\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\frac{64}{289}=\\frac{225}{289}\\]</div></li><li><p class=\"facit-rubrik\">\\(270^\\circ\\lt v\\lt 360^\\circ\\): cosinus positiv</p><div class=\"facit-matte\">\\[\\cos v=\\frac{15}{17}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{17}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4412,7 +4432,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos v=7/25\\), \\(270^\\circ&lt;v&lt;360^\\circ\\). Bestäm \\(\\sin v\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd \\(\\sin^2v+\\cos^2v=1\\) och välj sedan tecken utifrån kvadranten.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin^2v=1-49/625=576/625\\].</div></li><li><p>Fjärde kvadranten ger <strong>\\(\\sin v=-24/25\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\frac{49}{625}=\\frac{576}{625}\\]</div></li><li><p class=\"facit-rubrik\">\\(270^\\circ\\lt v\\lt 360^\\circ\\): sinus negativ</p><div class=\"facit-matte\">\\[\\sin v=-\\frac{24}{25}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{24}{25}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4444,7 +4464,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt P på enhetscirkeln har x-koordinaten \\(8/17\\) och ligger under x-axeln. Bestäm P:s y-koordinat exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet.</p></li><li><p class=\"facit-metod\">Använd därefter den trigonometriska relation som frågan kräver.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln gäller \\(x^2+y^2=1\\), vilket är samma samband som trigonometriska ettan.</p></li><li><p>Därför</p></li><li><p>\\[y^2=1-(8/17)^2=1-64/289=225/289.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[|y|=15/17\\].</div></div></li><li><div class=\"facit-berakning\"><p>Punkten ligger under x-axeln, så y måste vara negativ:</p><div class=\"facit-matte\">\\[y=-15/17\\].</div></div></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten ligger på enhetscirkeln: \\(x^2+y^2=1\\)</p><div class=\"facit-matte\">\\[y^2=1-\\left(\\frac{8}{17}\\right)^2=1-\\frac{64}{289}=\\frac{225}{289}\\]</div></li><li><p class=\"facit-rubrik\">Dra roten ur: \\(\\sqrt{225}=15\\), \\(\\sqrt{289}=17\\)</p><div class=\"facit-matte\">\\[y=\\pm\\frac{15}{17}\\]</div></li><li><p class=\"facit-rubrik\">Under x-axeln är y negativ</p><div class=\"facit-matte\">\\[y=-\\frac{15}{17}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{15}{17}\\)</p></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur",
@@ -4478,7 +4498,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt med additions- eller subtraktionsformler.</p><p>a) \\(\\sin75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin15^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos15^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad +\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos75^\\circ=\\cos(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad -\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad -\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin15^\\circ=\\sin(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad -\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad -\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad +\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(75^\\circ\\) som summa av standardvinklar: \\(45^\\circ+30^\\circ\\)</p><p>Då går det att använda formeln för sinus av en summa.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin75^\\circ&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(75^\\circ\\) som summa av standardvinklar: \\(45^\\circ+30^\\circ\\)</p><p>Formeln för cosinus av en summa har minustecken.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos75^\\circ&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(15^\\circ\\) som differens av standardvinklar: \\(45^\\circ-30^\\circ\\)</p><p>Formeln för sinus av en differens har minustecken.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin15^\\circ&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(15^\\circ\\) som differens av standardvinklar: \\(45^\\circ-30^\\circ\\)</p><p>Formeln för cosinus av en differens har plustecken.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos15^\\circ&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -4510,7 +4530,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin75^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad +\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(75^\\circ\\) som summa av standardvinklar: \\(45^\\circ+30^\\circ\\)</p><p>Då går det att använda formeln för sinus av en summa.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin75^\\circ&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4519,7 +4539,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos75^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos75^\\circ=\\cos(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad -\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad -\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(75^\\circ\\) som summa av standardvinklar: \\(45^\\circ+30^\\circ\\)</p><p>Formeln för cosinus av en summa har minustecken.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos75^\\circ&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4528,7 +4548,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin15^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin15^\\circ=\\sin(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad -\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad -\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(15^\\circ\\) som differens av standardvinklar: \\(45^\\circ-30^\\circ\\)</p><p>Formeln för sinus av en differens har minustecken.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin15^\\circ&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6-\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4537,7 +4557,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos15^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad +\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(15^\\circ\\) som differens av standardvinklar: \\(45^\\circ-30^\\circ\\)</p><p>Formeln för cosinus av en differens har plustecken.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos15^\\circ&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4576,7 +4596,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm \\(\\sin75^\\circ\\) exakt med en additionsformel.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skriv</p><div class=\"facit-matte\">\\[75^\\circ=45^\\circ+30^\\circ\\].</div></div></li><li><p>Då</p></li><li><p>\\[\\sin75^\\circ=\\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ=\\frac{\\sqrt6+\\sqrt2}{4}.\\]</p></li><li><p><strong>Varför just 45° + 30°?</strong> Båda vinklarna har exakta standardvärden för sinus och cosinus.</p></li><li><p>Additionsformeln gör därför att \\(75^\\circ\\) kan byggas upp utan miniräknare.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(75^\\circ=45^\\circ+30^\\circ\\)</p><p>Båda vinklarna har kända exakta värden.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin75^\\circ&=\\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med miniräknare</p><p>\\(\\tfrac{\\sqrt6+\\sqrt2}{4}\\approx0{,}966\\) och \\(\\sin75^\\circ\\approx0{,}966\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur",
@@ -4608,7 +4628,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt med additions- eller subtraktionsformler.</p><p>a) \\(\\cos75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sin15^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin105^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos15^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv vinklarna som \\(45^\\circ\\pm30^\\circ\\) eller \\(60^\\circ+45^\\circ\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(45+30)=\\frac{\\sqrt6-\\sqrt2}{4}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(45-30)=\\frac{\\sqrt6-\\sqrt2}{4}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(60+45)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(45-30)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(75^\\circ=45^\\circ+30^\\circ\\)</p><p>Cosinus för en summa.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos75^\\circ=\\cos45^\\circ\\cos30^\\circ-\\sin45^\\circ\\sin30^\\circ=\\frac{\\sqrt6-\\sqrt2}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Sinus för en differens.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin15^\\circ=\\sin45^\\circ\\cos30^\\circ-\\cos45^\\circ\\sin30^\\circ=\\frac{\\sqrt6-\\sqrt2}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(105^\\circ=60^\\circ+45^\\circ\\)</p><p>Båda är standardvinklar.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin105^\\circ&=\\sin60^\\circ\\cos45^\\circ+\\cos60^\\circ\\sin45^\\circ\\\\&=\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}+\\frac12\\cdot\\frac{\\sqrt2}{2}=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Cosinus för en differens.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos15^\\circ=\\cos45^\\circ\\cos30^\\circ+\\sin45^\\circ\\sin30^\\circ=\\frac{\\sqrt6+\\sqrt2}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -4650,7 +4670,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\cos75^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv vinklarna som \\(45^\\circ\\pm30^\\circ\\) eller \\(60^\\circ+45^\\circ\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(45+30)=\\frac{\\sqrt6-\\sqrt2}{4}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(75^\\circ=45^\\circ+30^\\circ\\)</p><p>Cosinus för en summa.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos75^\\circ=\\cos45^\\circ\\cos30^\\circ-\\sin45^\\circ\\sin30^\\circ=\\frac{\\sqrt6-\\sqrt2}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4659,7 +4679,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\sin15^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv vinklarna som \\(45^\\circ\\pm30^\\circ\\) eller \\(60^\\circ+45^\\circ\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(45-30)=\\frac{\\sqrt6-\\sqrt2}{4}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Sinus för en differens.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin15^\\circ=\\sin45^\\circ\\cos30^\\circ-\\cos45^\\circ\\sin30^\\circ=\\frac{\\sqrt6-\\sqrt2}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4668,7 +4688,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin105^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv vinklarna som \\(45^\\circ\\pm30^\\circ\\) eller \\(60^\\circ+45^\\circ\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(60+45)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(105^\\circ=60^\\circ+45^\\circ\\)</p><p>Båda är standardvinklar.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin105^\\circ&=\\sin60^\\circ\\cos45^\\circ+\\cos60^\\circ\\sin45^\\circ\\\\&=\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}+\\frac12\\cdot\\frac{\\sqrt2}{2}=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4677,7 +4697,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos15^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv vinklarna som \\(45^\\circ\\pm30^\\circ\\) eller \\(60^\\circ+45^\\circ\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos(45-30)=\\frac{\\sqrt6+\\sqrt2}{4}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Cosinus för en differens.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos15^\\circ=\\cos45^\\circ\\cos30^\\circ+\\sin45^\\circ\\sin30^\\circ=\\frac{\\sqrt6+\\sqrt2}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4705,7 +4725,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Beräkna exakt med additions- eller subtraktionsformler.</p><p>a) \\(\\sin 75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos 15^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\cos 105^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad +\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad +\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos105^\\circ=\\cos(60^\\circ+45^\\circ)\\]\\[\\begin{aligned}&=\\cos60^\\circ\\cos45^\\circ\\\\&\\quad -\\sin60^\\circ\\sin45^\\circ\\\\&=\\frac12\\cdot\\frac{\\sqrt2}{2}\\\\&\\quad -\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}\\\\&=\\frac{\\sqrt2-\\sqrt6}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\).</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(75^\\circ=45^\\circ+30^\\circ\\)</p><p>Båda vinklarna har kända exakta värden.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin75^\\circ&=\\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Cosinus för en differens har plustecken.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos15^\\circ&=\\cos45^\\circ\\cos30^\\circ+\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(105^\\circ=60^\\circ+45^\\circ\\)</p><p>\\(105^\\circ\\) ligger i andra kvadranten, så svaret ska bli negativt.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos105^\\circ&=\\cos60^\\circ\\cos45^\\circ-\\sin60^\\circ\\sin45^\\circ\\\\&=\\frac12\\cdot\\frac{\\sqrt2}{2}-\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}=\\frac{\\sqrt2-\\sqrt6}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\)</p></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -4734,7 +4754,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin 75^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad +\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(75^\\circ=45^\\circ+30^\\circ\\)</p><p>Båda vinklarna har kända exakta värden.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin75^\\circ&=\\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4743,7 +4763,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos 15^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad +\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Cosinus för en differens har plustecken.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos15^\\circ&=\\cos45^\\circ\\cos30^\\circ+\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4752,7 +4772,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\cos 105^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos105^\\circ=\\cos(60^\\circ+45^\\circ)\\]\\[\\begin{aligned}&=\\cos60^\\circ\\cos45^\\circ\\\\&\\quad -\\sin60^\\circ\\sin45^\\circ\\\\&=\\frac12\\cdot\\frac{\\sqrt2}{2}\\\\&\\quad -\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}\\\\&=\\frac{\\sqrt2-\\sqrt6}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(105^\\circ=60^\\circ+45^\\circ\\)</p><p>\\(105^\\circ\\) ligger i andra kvadranten, så svaret ska bli negativt.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos105^\\circ&=\\cos60^\\circ\\cos45^\\circ-\\sin60^\\circ\\sin45^\\circ\\\\&=\\frac12\\cdot\\frac{\\sqrt2}{2}-\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}=\\frac{\\sqrt2-\\sqrt6}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4822,7 +4842,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa med additions- och subtraktionsformler att</p><p>\\[\\sin\\left(x+60^\\circ\\right)+\\sin\\left(x-60^\\circ\\right)=\\sin x.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja.</p></li><li><p class=\"facit-metod\">För system väljer du den metod som enklast tar bort en variabel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utveckla båda sinusuttrycken:</p></li><li><p>\\[\\sin x\\cos60^\\circ+\\cos x\\sin60^\\circ+\\sin x\\cos60^\\circ-\\cos x\\sin60^\\circ.\\]</p></li><li><div class=\"facit-berakning\"><p>Cosinustermerna tar ut varandra och</p><div class=\"facit-matte\">\\[2\\cos(60^\\circ)=1\\].</div></div></li><li><p>Därför återstår \\(\\boxed{\\sin x}\\).</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen.</p></li><li><p class=\"facit-not\">Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin(x+60^\\circ)=\\sin x\\cos60^\\circ+\\cos x\\sin60^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin(x-60^\\circ)=\\sin x\\cos60^\\circ-\\cos x\\sin60^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Addera: termerna med \\(\\cos x\\sin60^\\circ\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\sin(x+60^\\circ)+\\sin(x-60^\\circ)=2\\sin x\\cos60^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos60^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[2\\sin x\\cdot\\frac12=\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vänsterledet blir \\(\\sin x\\), alltså gäller likheten.</p></div>",
     "familj": "Visa och förenkla med additionsformler",
     "formaga": [
       "procedur",
@@ -4855,7 +4875,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt \\(\\cos15^\\circ\\) med en additions- eller subtraktionsformel.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv \\(15^\\circ=45^\\circ-30^\\circ\\) och använd cosinus för en differens.</p></li><li><p><strong>Nyckelidé:</strong> Använd \\(15^\\circ=45^\\circ-30^\\circ\\) och formeln för cosinus av en differens.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\frac{\\sqrt6+\\sqrt2}{4}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Båda vinklarna har kända exakta värden.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos15^\\circ=\\cos45^\\circ\\cos30^\\circ+\\sin45^\\circ\\sin30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12=\\frac{\\sqrt6+\\sqrt2}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur",
@@ -4889,7 +4909,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Utveckla.</p><p>a) \\(\\sin(x+60^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(x-30^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin(x-45^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos(x+45^\\circ)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv rätt additions- eller subtraktionsformel och ersätt standardvinklarna med deras exakta värden.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac12\\sin x+\\frac{\\sqrt3}{2}\\cos x\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac{\\sqrt2}{2}(\\sin x-\\cos x)\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac{\\sqrt2}{2}(\\cos x-\\sin x)\\)</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin(x+60^\\circ)=\\sin x\\cos60^\\circ+\\cos x\\sin60^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos60^\\circ=\\tfrac12\\), \\(\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[=\\frac12\\sin x+\\frac{\\sqrt3}{2}\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\sin x+\\frac{\\sqrt3}{2}\\cos x\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos(x-30^\\circ)=\\cos x\\cos30^\\circ+\\sin x\\sin30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\), \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[=\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x=\\frac{\\sqrt3\\cos x+\\sin x}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3\\cos x+\\sin x}{2}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin(x-45^\\circ)&=\\sin x\\cos45^\\circ\\\\&\\quad-\\cos x\\sin45^\\circ\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Båda värdena är \\(\\tfrac{\\sqrt2}{2}\\), så faktorn kan brytas ut</p><div class=\"facit-matte\">\\[=\\frac{\\sqrt2}{2}\\sin x-\\frac{\\sqrt2}{2}\\cos x=\\frac{\\sqrt2}{2}(\\sin x-\\cos x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2}{2}(\\sin x-\\cos x)\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos(x+45^\\circ)=\\cos x\\cos45^\\circ-\\sin x\\sin45^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(\\tfrac{\\sqrt2}{2}\\)</p><div class=\"facit-matte\">\\[=\\frac{\\sqrt2}{2}\\cos x-\\frac{\\sqrt2}{2}\\sin x=\\frac{\\sqrt2}{2}(\\cos x-\\sin x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2}{2}(\\cos x-\\sin x)\\)</p></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -4931,7 +4951,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin(x+60^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac12\\sin x+\\frac{\\sqrt3}{2}\\cos x\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin(x+60^\\circ)=\\sin x\\cos60^\\circ+\\cos x\\sin60^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos60^\\circ=\\tfrac12\\), \\(\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[=\\frac12\\sin x+\\frac{\\sqrt3}{2}\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\sin x+\\frac{\\sqrt3}{2}\\cos x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4940,7 +4960,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos(x-30^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\)</strong>.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett lika korrekt sätt att skriva svaret är \\(\\frac{\\sqrt3\\cos x+\\sin x}{2}\\).</p></li><li><p>I svarsrutan kan du skriva <strong>(sqrt(3)*cos(x)+sin(x))/2</strong>.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos(x-30^\\circ)=\\cos x\\cos30^\\circ+\\sin x\\sin30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\), \\(\\sin30^\\circ=\\tfrac12\\)</p><div class=\"facit-matte\">\\[=\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x=\\frac{\\sqrt3\\cos x+\\sin x}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3\\cos x+\\sin x}{2}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4949,7 +4969,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin(x-45^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac{\\sqrt2}{2}(\\sin x-\\cos x)\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin(x-45^\\circ)&=\\sin x\\cos45^\\circ\\\\&\\quad-\\cos x\\sin45^\\circ\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Båda värdena är \\(\\tfrac{\\sqrt2}{2}\\), så faktorn kan brytas ut</p><div class=\"facit-matte\">\\[=\\frac{\\sqrt2}{2}\\sin x-\\frac{\\sqrt2}{2}\\cos x=\\frac{\\sqrt2}{2}(\\sin x-\\cos x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2}{2}(\\sin x-\\cos x)\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4958,7 +4978,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos(x+45^\\circ)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac{\\sqrt2}{2}(\\cos x-\\sin x)\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos(x+45^\\circ)=\\cos x\\cos45^\\circ-\\sin x\\sin45^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(\\tfrac{\\sqrt2}{2}\\)</p><div class=\"facit-matte\">\\[=\\frac{\\sqrt2}{2}\\cos x-\\frac{\\sqrt2}{2}\\sin x=\\frac{\\sqrt2}{2}(\\cos x-\\sin x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2}{2}(\\cos x-\\sin x)\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -4986,7 +5006,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt med additions- eller subtraktionsformler.</p><p>a) \\(\\sin75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos105^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin15^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv vinklarna som summor eller differenser av \\(30^\\circ\\),</p></li><li><p>\\(45^\\circ\\) och \\(60^\\circ\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[75^\\circ=45^\\circ+30^\\circ\\]:</div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\sin75^\\circ=\\frac{\\sqrt2}{2}\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\frac12=\\boxed{\\frac{\\sqrt6+\\sqrt2}{4}}.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[105^\\circ=60^\\circ+45^\\circ\\]:</div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\cos105^\\circ=\\frac12\\frac{\\sqrt2}{2}-\\frac{\\sqrt3}{2}\\frac{\\sqrt2}{2}=\\boxed{\\frac{\\sqrt2-\\sqrt6}{4}}.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[15^\\circ=45^\\circ-30^\\circ\\]:</div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\sin15^\\circ=\\frac{\\sqrt2}{2}\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\frac12=\\boxed{\\frac{\\sqrt6-\\sqrt2}{4}}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(75^\\circ=45^\\circ+30^\\circ\\) och sinus av en summa</p><p>\\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[\\sin75^\\circ=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12=\\frac{\\sqrt6+\\sqrt2}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(105^\\circ=60^\\circ+45^\\circ\\) och cosinus av en summa</p><p>\\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[\\cos105^\\circ=\\frac12\\cdot\\frac{\\sqrt2}{2}-\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}=\\frac{\\sqrt2-\\sqrt6}{4}\\]</div></li><li><p class=\"facit-rubrik\">Teckenkontroll</p><p>\\(\\sqrt6\\gt \\sqrt2\\), så värdet är negativt, som det ska vara i andra kvadranten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(15^\\circ=45^\\circ-30^\\circ\\) och sinus av en differens</p><p>\\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[\\sin15^\\circ=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\cdot\\frac12=\\frac{\\sqrt6-\\sqrt2}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -5023,7 +5043,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin75^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Skriv vinklarna som summor eller differenser av \\(30^\\circ\\),</p></li><li><p>\\(45^\\circ\\) och \\(60^\\circ\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(75^\\circ=45^\\circ+30^\\circ\\):\n\\[\\sin75^\\circ=\\frac{\\sqrt2}{2}\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\frac12=\\boxed{\\frac{\\sqrt6+\\sqrt2}{4}}.\\]</p></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(75^\\circ=45^\\circ+30^\\circ\\) och sinus av en summa</p><p>\\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[\\sin75^\\circ=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac12=\\frac{\\sqrt6+\\sqrt2}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -5032,7 +5052,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos105^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Skriv vinklarna som summor eller differenser av \\(30^\\circ\\),</p></li><li><p>\\(45^\\circ\\) och \\(60^\\circ\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(105^\\circ=60^\\circ+45^\\circ\\):\n\\[\\cos105^\\circ=\\frac12\\frac{\\sqrt2}{2}-\\frac{\\sqrt3}{2}\\frac{\\sqrt2}{2}=\\boxed{\\frac{\\sqrt2-\\sqrt6}{4}}.\\]</p></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(105^\\circ=60^\\circ+45^\\circ\\) och cosinus av en summa</p><p>\\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[\\cos105^\\circ=\\frac12\\cdot\\frac{\\sqrt2}{2}-\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}=\\frac{\\sqrt2-\\sqrt6}{4}\\]</div></li><li><p class=\"facit-rubrik\">Teckenkontroll</p><p>\\(\\sqrt6\\gt \\sqrt2\\), så värdet är negativt, som det ska vara i andra kvadranten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -5041,7 +5061,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin15^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Skriv vinklarna som summor eller differenser av \\(30^\\circ\\),</p></li><li><p>\\(45^\\circ\\) och \\(60^\\circ\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(15^\\circ=45^\\circ-30^\\circ\\):\n\\[\\sin15^\\circ=\\frac{\\sqrt2}{2}\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\frac12=\\boxed{\\frac{\\sqrt6-\\sqrt2}{4}}.\\]</p></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(15^\\circ=45^\\circ-30^\\circ\\) och sinus av en differens</p><p>\\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[\\sin15^\\circ=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\cdot\\frac12=\\frac{\\sqrt6-\\sqrt2}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -5070,7 +5090,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm \\(\\cos15^\\circ\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[15^\\circ=45^\\circ-30^\\circ\\].</div></div></li><li><p>Cosinus för en differens ger</p></li><li><p>\\[\\cos15^\\circ=\\cos45^\\circ\\cos30^\\circ+\\sin45^\\circ\\sin30^\\circ=\\frac{\\sqrt6+\\sqrt2}{4}.\\]</p></li><li><p><strong>Teckenkontroll:</strong> För \\(\\cos(\\alpha-\\beta)\\) står ett plustecken mellan produkterna.</p></li><li><p>Det är lätt att blanda ihop med sinusformeln, så skriv gärna formeln innan värdena sätts in.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Två standardvinklar med kända värden.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos15^\\circ=\\cos45^\\circ\\cos30^\\circ+\\sin45^\\circ\\sin30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in och lägg ihop</p><div class=\"facit-matte\">\\[=\\frac{\\sqrt6}{4}+\\frac{\\sqrt2}{4}=\\frac{\\sqrt6+\\sqrt2}{4}\\]</div></li><li><p class=\"facit-rubrik\">Teckenkontroll</p><p>För \\(\\cos(u-v)\\) är det plus mellan produkterna. Det är lätt att blanda ihop med sinusformeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur",
@@ -5136,7 +5156,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla med formler för dubbla vinkeln.</p><p>a) \\(2\\sin x\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos^2x-\\sin^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2\\cos^2x-1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(1-2\\sin^2x\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li><li><p>Alla uttryck är standardformer för dubbla vinkeln.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sin2x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\cos2x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\cos2x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(\\cos2x\\)</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><p>Uttrycket \\(2\\sin x\\cos x\\) är precis högerledet i formeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin2x\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för cosinus: \\(\\cos2x=\\cos^2x-\\sin^2x\\)</p><p>Uttrycket \\(\\cos^2x-\\sin^2x\\) är precis högerledet i formeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinusformen med bara cosinus: \\(\\cos2x=2\\cos^2x-1\\)</p><p>Den fås ur \\(\\cos^2x-\\sin^2x\\) när \\(\\sin^2x\\) byts mot \\(1-\\cos^2x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinusformen med bara sinus: \\(\\cos2x=1-2\\sin^2x\\)</p><p>Den fås ur \\(\\cos^2x-\\sin^2x\\) när \\(\\cos^2x\\) byts mot \\(1-\\sin^2x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -5178,7 +5198,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(2\\sin x\\cos x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li><li><p>Alla uttryck är standardformer för dubbla vinkeln.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sin2x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><p>Uttrycket \\(2\\sin x\\cos x\\) är precis högerledet i formeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -5187,7 +5207,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos^2x-\\sin^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li><li><p>Alla uttryck är standardformer för dubbla vinkeln.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos2x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för cosinus: \\(\\cos2x=\\cos^2x-\\sin^2x\\)</p><p>Uttrycket \\(\\cos^2x-\\sin^2x\\) är precis högerledet i formeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -5196,7 +5216,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(2\\cos^2x-1\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li><li><p>Alla uttryck är standardformer för dubbla vinkeln.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos2x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinusformen med bara cosinus: \\(\\cos2x=2\\cos^2x-1\\)</p><p>Den fås ur \\(\\cos^2x-\\sin^2x\\) när \\(\\sin^2x\\) byts mot \\(1-\\cos^2x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -5205,7 +5225,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(1-2\\sin^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li><li><p>Alla uttryck är standardformer för dubbla vinkeln.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos2x\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinusformen med bara sinus: \\(\\cos2x=1-2\\sin^2x\\)</p><p>Den fås ur \\(\\cos^2x-\\sin^2x\\) när \\(\\cos^2x\\) byts mot \\(1-\\sin^2x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -5233,7 +5253,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Det gäller att \\(\\sin x=\\frac{5}{13}\\) och \\(\\cos x=\\frac{12}{13}\\).</p><p>Bestäm exakt</p><p>a) \\(\\sin2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan2x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Sätt in de givna trigonometriska värdena direkt i formlerna för dubbla vinkeln och förenkla exakt.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin2x=2\\sin x\\cos x=2\\cdot\\frac5{13}\\cdot\\frac{12}{13}=\\boxed{\\frac{120}{169}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos2x=\\cos^2x-\\sin^2x=\\frac{144-25}{169}=\\boxed{\\frac{119}{169}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan2x=\\frac{\\sin2x}{\\cos2x}=\\boxed{\\frac{120}{119}}\\].</div></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera gärna resultatet med \\(\\sin^2(2x)+\\cos^2(2x)=1\\) när både sinus och cosinus har bestämts.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><p>Både \\(\\sin x\\) och \\(\\cos x\\) är givna, så sätt in direkt.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(\\sin x=\\tfrac{5}{13}\\) och \\(\\cos x=\\tfrac{12}{13}\\)</p><div class=\"facit-matte\">\\[\\sin2x=2\\cdot\\frac{5}{13}\\cdot\\frac{12}{13}=\\frac{120}{169}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{120}{169}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för cosinus: \\(\\cos2x=\\cos^2x-\\sin^2x\\)</p><p>Kvadrera de givna värdena.</p></li><li><p class=\"facit-rubrik\">Kvadrera \\(\\tfrac{12}{13}\\) och \\(\\tfrac{5}{13}\\) och subtrahera</p><div class=\"facit-matte\">\\[\\cos2x=\\frac{144}{169}-\\frac{25}{169}=\\frac{119}{169}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{119}{169}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan2x=\\dfrac{\\sin2x}{\\cos2x}\\)</p><p>Använd \\(\\sin2x\\) och \\(\\cos2x\\) från a) och b).</p></li><li><p class=\"facit-rubrik\">Nämnarna 169 tar ut varandra</p><div class=\"facit-matte\">\\[\\tan2x=\\frac{\\frac{120}{169}}{\\frac{119}{169}}=\\frac{120}{119}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{120}{119}\\)</p></div></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -5270,7 +5290,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin2x=2\\sin x\\cos x=2\\cdot\\frac5{13}\\cdot\\frac{12}{13}=\\boxed{\\frac{120}{169}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><p>Både \\(\\sin x\\) och \\(\\cos x\\) är givna, så sätt in direkt.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(\\sin x=\\tfrac{5}{13}\\) och \\(\\cos x=\\tfrac{12}{13}\\)</p><div class=\"facit-matte\">\\[\\sin2x=2\\cdot\\frac{5}{13}\\cdot\\frac{12}{13}=\\frac{120}{169}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{120}{169}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -5279,7 +5299,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos2x=\\cos^2x-\\sin^2x=\\frac{144-25}{169}=\\boxed{\\frac{119}{169}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för cosinus: \\(\\cos2x=\\cos^2x-\\sin^2x\\)</p><p>Kvadrera de givna värdena.</p></li><li><p class=\"facit-rubrik\">Kvadrera \\(\\tfrac{12}{13}\\) och \\(\\tfrac{5}{13}\\) och subtrahera</p><div class=\"facit-matte\">\\[\\cos2x=\\frac{144}{169}-\\frac{25}{169}=\\frac{119}{169}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{119}{169}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -5288,7 +5308,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan2x\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan2x=\\frac{\\sin2x}{\\cos2x}=\\boxed{\\frac{120}{119}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan2x=\\dfrac{\\sin2x}{\\cos2x}\\)</p><p>Använd \\(\\sin2x\\) och \\(\\cos2x\\) från a) och b).</p></li><li><p class=\"facit-rubrik\">Nämnarna 169 tar ut varandra</p><div class=\"facit-matte\">\\[\\tan2x=\\frac{\\frac{120}{169}}{\\frac{119}{169}}=\\frac{120}{119}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{120}{119}\\)</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -5305,105 +5325,105 @@ window.BANKMATO2 = [
     ]
   },
   {
-  "id": "1.61",
-  "kap": 1,
-  "omr": "trig_identiteter",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "4/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Använd trigonometriska ettan.</p><p>a) Bestäm \\(\\cos x\\) om \\(\\sin x=\\frac35\\)<br>för \\(0&lt;x&lt;90^\\circ\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\sin x\\) om \\(\\cos x=-\\frac5{13}\\)<br>för \\(90^\\circ&lt;x&lt;180^\\circ\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Förenkla \\(1-\\sin^2x\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Förenkla \\(\\frac{1-\\sin^2x}{\\cos x}\\) där uttrycket är definierat.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos^2x=1-9/25=16/25\\].</div></li><li><p>Första kvadranten ger <strong>\\(\\cos x=4/5\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin^2x=1-\\frac{25}{169}=\\frac{144}{169}\\].</div></li><li><p>Andra kvadranten ger <strong>\\(\\sin x=12/13\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos^2x\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos^2x/\\cos x=\\)<strong>\\(\\cos x\\)</strong>.</p></li></ol></div></div></div>",
-  "familj": "Trigonometriska ettan och identiteter",
-  "formaga": [
-    "procedur"
-  ],
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    "4/5",
-    "12/13",
-    "cos(x)^2",
-    "cos(x)"
-  ],
-  "tolerans": [
-    null,
-    null,
-    null,
-    null
-  ],
-  "självrättning": [
-    true,
-    true,
-    true,
-    true
-  ],
-  "svarFormat": [
-    "uttryck",
-    "uttryck",
-    "uttryck",
-    "uttryck"
-  ],
-  "svarsstruktur": "ordnad",
-  "svarEtiketter": [
-    "a",
-    "b",
-    "c",
-    "d"
-  ],
-  "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "etikett": "a",
-      "fraga": "<p>Bestäm \\(\\cos x\\) om \\(\\sin x=\\frac35\\)<br>för \\(0&lt;x&lt;90^\\circ\\).</p>",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos^2x=1-9/25=16/25\\].</div></li><li><div class=\"facit-berakning\"><p>Första kvadranten ger</p><div class=\"facit-matte\">\\[\\cos x=4/5\\].</div></div></li></ol></div></div></div>",
-      "niva": "E",
-      "poang": "1/0/0",
-      "traningsniva": 2,
-      "arbetsinsats": 1
-    },
-    {
-      "etikett": "b",
-      "fraga": "<p>Bestäm \\(\\sin x\\) om \\(\\cos x=-\\frac5{13}\\)<br>för \\(90^\\circ&lt;x&lt;180^\\circ\\).</p>",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin^2x=1-\\frac{25}{169}=\\frac{144}{169}\\].</div></li><li><div class=\"facit-berakning\"><p>Andra kvadranten ger</p><div class=\"facit-matte\">\\[\\sin x=12/13\\].</div></div></li></ol></div></div></div>",
-      "niva": "E",
-      "poang": "1/0/0",
-      "traningsniva": 2,
-      "arbetsinsats": 1
-    },
-    {
-      "etikett": "c",
-      "fraga": "<p>Förenkla \\(1-\\sin^2x\\).</p>",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos^2x\\].</div></li></ol></div></div></div>",
-      "niva": "E",
-      "poang": "1/0/0",
-      "traningsniva": 1,
-      "arbetsinsats": 1
-    },
-    {
-      "etikett": "d",
-      "fraga": "<p>Förenkla \\(\\frac{1-\\sin^2x}{\\cos x}\\) där uttrycket är definierat.</p>",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos^2x/\\cos x=\\) \\(\\cos x\\) .</p></li></ol></div></div></div>",
-      "niva": "E",
-      "poang": "1/0/0",
-      "traningsniva": 2,
-      "arbetsinsats": 1
-    }
-  ],
-  "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
-  "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-  "spelIntro": "<p>Använd trigonometriska ettan.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 3,
-  "omrTidigare": [
-    "trig_formler"
-  ],
-  "familjTidigare": [
-    "Använda trigonometriska ettan"
-  ]
-},
+    "id": "1.61",
+    "kap": 1,
+    "omr": "trig_identiteter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Använd trigonometriska ettan.</p><p>a) Bestäm \\(\\cos x\\) om \\(\\sin x=\\frac35\\)<br>för \\(0&lt;x&lt;90^\\circ\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\sin x\\) om \\(\\cos x=-\\frac5{13}\\)<br>för \\(90^\\circ&lt;x&lt;180^\\circ\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Förenkla \\(1-\\sin^2x\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Förenkla \\(\\frac{1-\\sin^2x}{\\cos x}\\) där uttrycket är definierat.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\cos^2x=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Första kvadranten: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos x=\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac45\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\sin^2x=1-\\frac{25}{169}=\\frac{144}{169}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: sinus positiv</p><div class=\"facit-matte\">\\[\\sin x=\\frac{12}{13}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{12}{13}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ettan omskriven: flytta \\(\\sin^2x\\)</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\ \\Rightarrow\\ 1-\\sin^2x=\\cos^2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos^2x\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren är \\(\\cos^2x\\) enligt trigonometriska ettan</p><div class=\"facit-matte\">\\[\\frac{1-\\sin^2x}{\\cos x}=\\frac{\\cos^2x}{\\cos x}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(\\cos x\\) (där \\(\\cos x\\neq0\\))</p><div class=\"facit-matte\">\\[\\frac{\\cos^2x}{\\cos x}=\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x\\)</p></div></div>",
+    "familj": "Trigonometriska ettan och identiteter",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "4/5",
+      "12/13",
+      "cos(x)^2",
+      "cos(x)"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm \\(\\cos x\\) om \\(\\sin x=\\frac35\\)<br>för \\(0&lt;x&lt;90^\\circ\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\cos^2x=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Första kvadranten: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos x=\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac45\\)</p></div>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(\\sin x\\) om \\(\\cos x=-\\frac5{13}\\)<br>för \\(90^\\circ&lt;x&lt;180^\\circ\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\sin^2x=1-\\frac{25}{169}=\\frac{144}{169}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: sinus positiv</p><div class=\"facit-matte\">\\[\\sin x=\\frac{12}{13}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{12}{13}\\)</p></div>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Förenkla \\(1-\\sin^2x\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ettan omskriven: flytta \\(\\sin^2x\\)</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\ \\Rightarrow\\ 1-\\sin^2x=\\cos^2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos^2x\\)</p></div>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Förenkla \\(\\frac{1-\\sin^2x}{\\cos x}\\) där uttrycket är definierat.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren är \\(\\cos^2x\\) enligt trigonometriska ettan</p><div class=\"facit-matte\">\\[\\frac{1-\\sin^2x}{\\cos x}=\\frac{\\cos^2x}{\\cos x}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(\\cos x\\) (där \\(\\cos x\\neq0\\))</p><div class=\"facit-matte\">\\[\\frac{\\cos^2x}{\\cos x}=\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x\\)</p></div>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
+    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "spelIntro": "<p>Använd trigonometriska ettan.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "omrTidigare": [
+      "trig_formler"
+    ],
+    "familjTidigare": [
+      "Använda trigonometriska ettan"
+    ]
+  },
   {
     "id": "1.63",
     "kap": 1,
@@ -5416,7 +5436,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För en vinkel \\(x\\) gäller</p><p>\\[\\sin x+\\cos x=\\frac12.\\]</p><p>Bestäm \\(\\sin2x\\) utan att först bestämma \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Kvadrera det givna sambandet.</p></li><li><div class=\"facit-berakning\"><p>Då uppstår uttrycket</p><div class=\"facit-matte\">\\[2\\sin x\\cos x=\\sin2x\\].</div></div></li><li><p>\\[(\\sin x+\\cos x)^2=\\sin^2x+\\cos^2x+2\\sin x\\cos x.\\]</p></li><li><p>Vänsterledet är \\(1/4\\) och trigonometriska ettan ger</p></li><li><p>\\[\\frac14=1+\\sin2x.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[\\boxed{\\sin2x=-3/4}\\].</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[(\\sin x+\\cos x)^2=\\left(\\frac12\\right)^2=\\frac14\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((a+b)^2=a^2+2ab+b^2\\)</p><div class=\"facit-matte\">\\[\\sin^2x+2\\sin x\\cos x+\\cos^2x=\\frac14\\]</div></li><li><p class=\"facit-rubrik\">Trigonometriska ettan och dubbla vinkeln: \\(\\sin^2x+\\cos^2x=1\\), \\(2\\sin x\\cos x=\\sin2x\\)</p><div class=\"facit-matte\">\\[1+\\sin2x=\\frac14\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(\\sin2x\\)</p><div class=\"facit-matte\">\\[\\sin2x=\\frac14-1=-\\frac34\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin2x=-\\frac34\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -5446,7 +5466,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa algebraiskt att</p>\n<p>\\[\n\\tan\\frac v2=\\frac{\\sin v}{1+\\cos v}\n\\]</p>\n<p>för alla \\(v\\) där båda leden är definierade.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om uttrycket med den trigonometriska formel som passar och förenkla steg för steg.</p></li><li><p class=\"facit-metod\">Vid kvoter måste ursprungsuttryckets definitionsvillkor bevaras.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utgå från högerledet och använd formlerna för dubbla vinkeln:</p></li><li><p>\\[\n\\sin v=2\\sin\\frac v2\\cos\\frac v2\n\\]</p></li><li><p>och</p></li><li><p>\\[\n1+\\cos v=1+\\left(2\\cos^2\\frac v2-1\\right)\n=2\\cos^2\\frac v2.\n\\]</p></li><li><p>Då</p></li><li><p>\\[\n\\frac{\\sin v}{1+\\cos v}\n=\n\\frac{2\\sin\\frac v2\\cos\\frac v2}{2\\cos^2\\frac v2}\n=\n\\frac{\\sin\\frac v2}{\\cos\\frac v2}\n=\n\\tan\\frac v2.\n\\]</p></li></ol>\n\n\n\n\n\n<p class=\"facit-svar\"><strong>Identiteten är visad.</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att varje omskrivning är en identitet och att inga förbjudna värden har införts eller tappats bort.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Se \\(v\\) som dubbla vinkeln av \\(\\tfrac v2\\)</p><p>Då kan formlerna för dubbla vinkeln skrivas med \\(\\tfrac v2\\) i stället för \\(x\\).</p></li><li><p class=\"facit-rubrik\">Täljaren: \\(\\sin v=2\\sin\\tfrac v2\\cos\\tfrac v2\\)</p><p>Det är dubbla vinkeln för sinus.</p></li><li><p class=\"facit-rubrik\">Nämnaren: \\(\\cos v=2\\cos^2\\tfrac v2-1\\)</p><div class=\"facit-matte\">\\[1+\\cos v=1+2\\cos^2\\frac v2-1=2\\cos^2\\frac v2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in och förkorta med \\(2\\cos\\tfrac v2\\)</p><div class=\"facit-matte\">\\[\\frac{\\sin v}{1+\\cos v}=\\frac{2\\sin\\frac v2\\cos\\frac v2}{2\\cos^2\\frac v2}=\\frac{\\sin\\frac v2}{\\cos\\frac v2}=\\tan\\frac v2\\]</div></li><li><p class=\"facit-rubrik\">Förkortningen är tillåten där båda leden är definierade</p><p>Där är \\(\\cos\\tfrac v2\\neq0\\), så vi delar inte med noll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Högerledet blir \\(\\tan\\frac v2\\), så identiteten gäller där båda leden är definierade.</p></div>",
     "familj": "Visa och förenkla med formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -5479,7 +5499,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Skriv om med formler för dubbla vinkeln.</p><p>a) \\(2\\sin x\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos^2x-\\sin^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(1-2\\sin^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\cos^2x-1\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li><li><p>Alla uttryck är standardformer för dubbla vinkeln.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sin 2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\cos 2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\cos 2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(\\cos 2x\\)</strong></p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><p>Uttrycket är högerledet i formeln, läst baklänges.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin2x\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för cosinus: \\(\\cos2x=\\cos^2x-\\sin^2x\\)</p><p>Skillnaden mellan kvadraterna är en av formerna för \\(\\cos2x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Formen med sinus: \\(\\cos2x=1-2\\sin^2x\\)</p><p>Uttrycket innehåller bara sinus, så det är denna form.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Formen med cosinus: \\(\\cos2x=2\\cos^2x-1\\)</p><p>Uttrycket innehåller bara cosinus, så det är denna form.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -5521,7 +5541,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(2\\sin x\\cos x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li><li><p>Alla uttryck är standardformer för dubbla vinkeln.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sin 2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><p>Uttrycket är högerledet i formeln, läst baklänges.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -5530,7 +5550,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos^2x-\\sin^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li><li><p>Alla uttryck är standardformer för dubbla vinkeln.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos 2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för cosinus: \\(\\cos2x=\\cos^2x-\\sin^2x\\)</p><p>Skillnaden mellan kvadraterna är en av formerna för \\(\\cos2x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -5539,7 +5559,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(1-2\\sin^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li><li><p>Alla uttryck är standardformer för dubbla vinkeln.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos 2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Formen med sinus: \\(\\cos2x=1-2\\sin^2x\\)</p><p>Uttrycket innehåller bara sinus, så det är denna form.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -5548,7 +5568,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(2\\cos^2x-1\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li><li><p>Alla uttryck är standardformer för dubbla vinkeln.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>\\(\\cos 2x\\)</strong></p></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Formen med cosinus: \\(\\cos2x=2\\cos^2x-1\\)</p><p>Uttrycket innehåller bara cosinus, så det är denna form.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -5577,7 +5597,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En vinkel x ligger i första kvadranten och \\(\\cos x=12/13\\). Bestäm \\(\\cos2x\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Trigonometriska ettan ger</p><div class=\"facit-matte\">\\[\\sin x=5/13\\].</div></div></li><li><div class=\"facit-berakning\"><p>Använd sedan dubbelvinkelformen</p><div class=\"facit-matte\">\\[\\cos2x=\\cos^2x-\\sin^2x\\]:</div></div></li><li><p>\\[\\cos2x=\\frac{144}{169}-\\frac{25}{169}=\\frac{119}{169}.\\]</p></li><li><p><strong>Varför används första kvadranten?</strong> Från \\(\\cos x=12/13\\) får vi \\(\\sin^2x=25/169\\).</p></li><li><p>Första kvadranten gör att \\(\\sin x\\) är positiv, alltså \\(5/13\\), vilket gör mellanledet entydigt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan ger \\(\\sin x\\)</p><div class=\"facit-matte\">\\[\\sin^2x=1-\\left(\\frac{12}{13}\\right)^2=\\frac{25}{169}\\]</div></li><li><p class=\"facit-rubrik\">Första kvadranten: sinus positiv</p><div class=\"facit-matte\">\\[\\sin x=\\frac{5}{13}\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln för cosinus: \\(\\cos2x=\\cos^2x-\\sin^2x\\)</p><div class=\"facit-matte\">\\[\\cos2x=\\frac{144}{169}-\\frac{25}{169}=\\frac{119}{169}\\]</div></li><li><p class=\"facit-rubrik\">Alternativ: \\(\\cos2x=2\\cos^2x-1\\) behöver inte sinus</p><div class=\"facit-matte\">\\[2\\cdot\\frac{144}{169}-1=\\frac{288-169}{169}=\\frac{119}{169}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{119}{169}\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -5643,7 +5663,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(v\\) gäller \\(\\tan v=2\\) och \\(0&lt;v&lt;90^\\circ\\). Bestäm värdena exakt utan att först bestämma \\(v\\).</p><p>a) \\(\\sin2v\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos2v\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(\\tan v=2=2/1\\) kan en rätvinklig triangel väljas med kateterna 2 och 1.</p></li><li><p>Hypotenusan blir \\(\\sqrt5\\), så</p></li><li><p>\\[\\sin v=\\frac2{\\sqrt5},\\qquad \\cos v=\\frac1{\\sqrt5}.\\]</p></li><li><p>Då</p></li><li><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac2{\\sqrt5}\\cdot\\frac1{\\sqrt5}=\\boxed{\\frac45}.\\]</p></li><li><p>\\[\\cos2v=\\cos^2v-\\sin^2v=\\frac15-\\frac45=\\boxed{-\\frac35}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\tan v=\\tfrac21\\): rita en rätvinklig triangel med kateterna 2 och 1</p><p>Motstående katet 2 och närliggande katet 1.</p></li><li><p class=\"facit-rubrik\">Pythagoras sats ger hypotenusan</p><div class=\"facit-matte\">\\[\\sqrt{2^2+1^2}=\\sqrt5\\]</div></li><li><p class=\"facit-rubrik\">Läs av sinus och cosinus i triangeln</p><div class=\"facit-matte\">\\[\\sin v=\\frac{2}{\\sqrt5},\\qquad \\cos v=\\frac{1}{\\sqrt5}\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2v=2\\sin v\\cos v\\)</p><div class=\"facit-matte\">\\[\\sin2v=2\\cdot\\frac{2}{\\sqrt5}\\cdot\\frac{1}{\\sqrt5}=\\frac{4}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac45\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma triangel: \\(\\sin v=\\tfrac{2}{\\sqrt5}\\) och \\(\\cos v=\\tfrac{1}{\\sqrt5}\\)</p><p>Kateterna 2 och 1 ger hypotenusan \\(\\sqrt5\\).</p></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\cos2v=\\cos^2v-\\sin^2v\\)</p><div class=\"facit-matte\">\\[\\cos2v=\\frac15-\\frac45=-\\frac35\\]</div></li><li><p class=\"facit-rubrik\">Rimligt tecken</p><p>\\(\\tan v=2\\gt 1\\) betyder \\(v\\gt 45^\\circ\\), så \\(2v\\gt 90^\\circ\\) och cosinus blir negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac35\\)</p></div></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -5678,7 +5698,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm \\(\\sin2v\\) exakt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Välj en rätvinklig triangel med motstående katet 2 och närliggande katet 1.</p></li><li><p>Då är \\(\\sin v=2/\\sqrt5\\) och \\(\\cos v=1/\\sqrt5\\).</p></li><li><p>Alltså \\[\\sin2v=2\\sin v\\cos v=\\boxed{4/5}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\tan v=\\tfrac21\\): rita en rätvinklig triangel med kateterna 2 och 1</p><p>Motstående katet 2 och närliggande katet 1.</p></li><li><p class=\"facit-rubrik\">Pythagoras sats ger hypotenusan</p><div class=\"facit-matte\">\\[\\sqrt{2^2+1^2}=\\sqrt5\\]</div></li><li><p class=\"facit-rubrik\">Läs av sinus och cosinus i triangeln</p><div class=\"facit-matte\">\\[\\sin v=\\frac{2}{\\sqrt5},\\qquad \\cos v=\\frac{1}{\\sqrt5}\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2v=2\\sin v\\cos v\\)</p><div class=\"facit-matte\">\\[\\sin2v=2\\cdot\\frac{2}{\\sqrt5}\\cdot\\frac{1}{\\sqrt5}=\\frac{4}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac45\\)</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -5687,7 +5707,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm \\(\\cos2v\\) exakt.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med samma triangel är \\(\\sin v=2/\\sqrt5\\) och \\(\\cos v=1/\\sqrt5\\).</p></li><li><p>Då \\[\\cos2v=\\cos^2v-\\sin^2v=\\frac15-\\frac45=\\boxed{-3/5}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma triangel: \\(\\sin v=\\tfrac{2}{\\sqrt5}\\) och \\(\\cos v=\\tfrac{1}{\\sqrt5}\\)</p><p>Kateterna 2 och 1 ger hypotenusan \\(\\sqrt5\\).</p></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\cos2v=\\cos^2v-\\sin^2v\\)</p><div class=\"facit-matte\">\\[\\cos2v=\\frac15-\\frac45=-\\frac35\\]</div></li><li><p class=\"facit-rubrik\">Rimligt tecken</p><p>\\(\\tan v=2\\gt 1\\) betyder \\(v\\gt 45^\\circ\\), så \\(2v\\gt 90^\\circ\\) och cosinus blir negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac35\\)</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -5712,7 +5732,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla uttrycket så långt som möjligt:</p><p>\\[\\frac{1-\\sin^2x}{\\cos x}.\\]</p><p>Ange också för vilka \\(x\\) omskrivningen gäller.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om uttrycket med den trigonometriska formel som passar och förenkla steg för steg.</p></li><li><p class=\"facit-metod\">Vid kvoter måste ursprungsuttryckets definitionsvillkor bevaras.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Trigonometriska ettan ger</p><div class=\"facit-matte\">\\[1-\\sin^2x=\\cos^2x\\].</div></div></li><li><p>Då</p></li><li><p>\\[\\frac{1-\\sin^2x}{\\cos x}=\\frac{\\cos^2x}{\\cos x}=\\boxed{\\cos x}.\\]</p></li><li><p>Divisionen kräver \\(\\cos x\\ne0\\), alltså \\(x\\ne 90^\\circ+180^\\circ n\\).</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att varje omskrivning är en identitet och att inga förbjudna värden har införts eller tappats bort.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren med trigonometriska ettan: \\(1-\\sin^2x=\\cos^2x\\)</p><div class=\"facit-matte\">\\[\\frac{1-\\sin^2x}{\\cos x}=\\frac{\\cos^2x}{\\cos x}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(\\cos x\\)</p><div class=\"facit-matte\">\\[\\frac{\\cos^2x}{\\cos x}=\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Villkor: nämnaren \\(\\cos x\\) får inte vara noll</p><p>\\(\\cos x=0\\) när \\(x=90^\\circ+n\\cdot180^\\circ\\). Där är ursprungsuttrycket inte definierat, så omskrivningen gäller för alla andra \\(x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x\\), för \\(x\\neq90^\\circ+n\\cdot180^\\circ\\)</p></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur"
@@ -5745,7 +5765,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>a) Bestäm det exakta värdet av \\(\\cos75^\\circ\\) med en additionsformel.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm därefter det exakta värdet av \\(\\sin15^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skriv</p><div class=\"facit-matte\">\\[75^\\circ=45^\\circ+30^\\circ\\]:</div></div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\cos75^\\circ=\\cos45^\\circ\\cos30^\\circ-\\sin45^\\circ\\sin30^\\circ\\]</p></li><li><p>\\[=\\frac{\\sqrt2}{2}\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\frac12=\\boxed{\\frac{\\sqrt6-\\sqrt2}{4}}.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(\\sin15^\\circ=\\cos75^\\circ\\) fås</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\boxed{\\sin15^\\circ=\\frac{\\sqrt6-\\sqrt2}{4}}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(75^\\circ=45^\\circ+30^\\circ\\)</p><p>Båda är standardvinklar.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos75^\\circ=\\cos45^\\circ\\cos30^\\circ-\\sin45^\\circ\\sin30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\cdot\\frac12=\\frac{\\sqrt6-\\sqrt2}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Då kan subtraktionsformeln för sinus användas.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin15^\\circ=\\sin45^\\circ\\cos30^\\circ-\\cos45^\\circ\\sin30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[=\\frac{\\sqrt6}{4}-\\frac{\\sqrt2}{4}=\\frac{\\sqrt6-\\sqrt2}{4}\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med komplementvinkel: \\(\\sin15^\\circ=\\cos75^\\circ\\)</p><p>Det stämmer med svaret i a).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -5779,7 +5799,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm det exakta värdet av \\(\\cos75^\\circ\\) med en additionsformel.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv \\(75^\\circ=45^\\circ+30^\\circ\\) så att additionsformeln kan användas med kända exakta värden.</p></li><li><p>\\[\\cos75^\\circ=\\cos45^\\circ\\cos30^\\circ-\\sin45^\\circ\\sin30^\\circ\\]</p></li><li><p>\\[=\\frac{\\sqrt2}{2}\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\frac12=\\frac{\\sqrt6-\\sqrt2}{4}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(75^\\circ=45^\\circ+30^\\circ\\)</p><p>Båda är standardvinklar.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos75^\\circ=\\cos45^\\circ\\cos30^\\circ-\\sin45^\\circ\\sin30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\cdot\\frac12=\\frac{\\sqrt6-\\sqrt2}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -5788,7 +5808,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm det exakta värdet av \\(\\sin15^\\circ\\) med en additionsformel.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv \\(15^\\circ=45^\\circ-30^\\circ\\) och använd sinus för en differens.</p></li><li><p>Då behöver du inte känna resultatet från någon annan deluppgift.</p></li><li><p>\\[\\sin15^\\circ=\\sin45^\\circ\\cos30^\\circ-\\cos45^\\circ\\sin30^\\circ\\]</p></li><li><p>\\[=\\frac{\\sqrt2}{2}\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\frac12=\\frac{\\sqrt6-\\sqrt2}{4}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(15^\\circ=45^\\circ-30^\\circ\\)</p><p>Då kan subtraktionsformeln för sinus användas.</p></li><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\sin(u-v)=\\sin u\\cos v-\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin15^\\circ=\\sin45^\\circ\\cos30^\\circ-\\cos45^\\circ\\sin30^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[=\\frac{\\sqrt6}{4}-\\frac{\\sqrt2}{4}=\\frac{\\sqrt6-\\sqrt2}{4}\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med komplementvinkel: \\(\\sin15^\\circ=\\cos75^\\circ\\)</p><p>Det stämmer med svaret i a).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6-\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -5814,7 +5834,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Om \\(\\sin v=3/5\\) och \\(v\\) ligger i första kvadranten, bestäm \\(\\cos2v\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Vi känner sinus och kan få cosinus med trigonometriska ettan.</p></li><li><p>Eftersom vinkeln ligger i första kvadranten väljs den positiva roten.</p></li><li><p>\\[\\cos v=\\sqrt{1-(3/5)^2}=4/5.\\]</p></li><li><p>Använd sedan formeln för dubbla vinkeln:</p></li><li><p>\\[\\cos2v=\\cos^2v-\\sin^2v=\\frac{16}{25}-\\frac9{25}=\\frac7{25}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{7/25}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Formen \\(\\cos2v=1-2\\sin^2v\\) använder bara sinus</p><p>Då behövs inte \\(\\cos v\\) alls.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(\\sin v=\\tfrac35\\)</p><div class=\"facit-matte\">\\[\\cos2v=1-2\\cdot\\left(\\frac35\\right)^2=1-\\frac{18}{25}=\\frac{7}{25}\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med \\(\\cos v=\\tfrac45\\)</p><div class=\"facit-matte\">\\[\\cos^2v-\\sin^2v=\\frac{16}{25}-\\frac{9}{25}=\\frac{7}{25}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{25}\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -5882,7 +5902,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa, med utgångspunkt i additionsformlerna, att</p><p>\\[\\frac{\\sin x+\\sin3x}{\\cos x+\\cos3x}=\\tan2x\\]</p><p>för alla \\(x\\) där båda leden är definierade.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv \\(\\sin3x=\\sin(2x+x)=\\sin2x\\cos x+\\cos2x\\sin x\\) och motsvarande för \\(\\cos3x\\).</p></li><li><p>Ett effektivare sätt är att först härleda summorna från additionsformlerna:</p></li><li><p>\\[\\sin x+\\sin3x=2\\sin2x\\cos x,\\]</p></li><li><p>\\[\\cos x+\\cos3x=2\\cos2x\\cos x.\\]</p></li><li><p>Där uttrycken är definierade kan gemensamma faktorn \\(2\\cos x\\) förkortas:</p></li><li><p>\\[\\frac{2\\sin2x\\cos x}{2\\cos2x\\cos x}=\\boxed{\\tan2x}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln för \\(\\sin(2x\\pm x)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin3x&=\\sin2x\\cos x+\\cos2x\\sin x\\\\\\sin x&=\\sin2x\\cos x-\\cos2x\\sin x\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Addera: täljaren blir \\(2\\sin2x\\cos x\\)</p><div class=\"facit-matte\">\\[\\sin x+\\sin3x=2\\sin2x\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Additionsformeln för \\(\\cos(2x\\pm x)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos3x&=\\cos2x\\cos x-\\sin2x\\sin x\\\\\\cos x&=\\cos2x\\cos x+\\sin2x\\sin x\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Addera: nämnaren blir \\(2\\cos2x\\cos x\\)</p><div class=\"facit-matte\">\\[\\cos x+\\cos3x=2\\cos2x\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(2\\cos x\\) och använd \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\frac{2\\sin2x\\cos x}{2\\cos2x\\cos x}=\\frac{\\sin2x}{\\cos2x}=\\tan2x\\]</div></li><li><p class=\"facit-rubrik\">Förkortningen kräver att båda leden är definierade</p><p>Då är nämnaren \\(2\\cos2x\\cos x\\neq0\\), alltså \\(\\cos x\\neq0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vänsterledet förenklas till \\(\\tan2x\\), så identiteten gäller där båda leden är definierade.</p></div>",
     "familj": "Visa och förenkla med formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -5915,7 +5935,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För en spetsig vinkel \\(v\\) gäller \\(\\tan v=2\\). Bestäm exakt \\(\\sin 2v\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Eftersom \\(\\tan v=2\\) och \\(v\\) är spetsig kan vi använda en rätvinklig triangel med motstående katet 2 och närliggande katet 1.</p></li><li><div class=\"facit-berakning\"><p>Hypotenusan blir</p><div class=\"facit-matte\">\\[\\sqrt{1^2+2^2}=\\sqrt5\\].</div></div></li><li><p>Därför</p></li><li><p>\\[\\sin v=\\frac{2}{\\sqrt5},\\qquad \\cos v=\\frac{1}{\\sqrt5}.\\]</p></li><li><p>Med formeln för dubbla vinkeln:</p></li><li><p>\\[\\sin2v=2\\sin v\\cos v\n=2\\cdot\\frac{2}{\\sqrt5}\\cdot\\frac{1}{\\sqrt5}\n=\\boxed{\\frac45}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\tan v=2=\\tfrac21\\): rita en rätvinklig triangel</p><p>Motstående katet 2, närliggande katet 1. Vinkeln är spetsig, så triangeln fungerar.</p></li><li><p class=\"facit-rubrik\">Pythagoras sats ger hypotenusan</p><div class=\"facit-matte\">\\[\\sqrt{1^2+2^2}=\\sqrt5\\]</div></li><li><p class=\"facit-rubrik\">Sinus och cosinus ur triangeln</p><div class=\"facit-matte\">\\[\\sin v=\\frac{2}{\\sqrt5},\\qquad\\cos v=\\frac{1}{\\sqrt5}\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2v=2\\sin v\\cos v\\)</p><div class=\"facit-matte\">\\[\\sin2v=2\\cdot\\frac{2}{\\sqrt5}\\cdot\\frac{1}{\\sqrt5}=\\frac{4}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac45\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -5945,7 +5965,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[2\\sin x\\cos x=\\frac{\\sqrt3}{2},\\qquad0\\le x&lt;360^\\circ.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Känn igen vänsterledet som en dubbelvinkel.</p></li><li><p>Eftersom \\(2\\sin x\\cos x=\\sin2x\\) blir ekvationen</p></li><li><p>\\[\\sin2x=\\frac{\\sqrt3}{2}.\\]</p></li><li><p>När \\(0\\le x&lt;360^\\circ\\) gäller \\(0\\le2x&lt;720^\\circ\\), alltså två hela varv för vinkeln \\(2x\\).</p></li><li><p>Därför</p></li><li><p>\\[2x=60^\\circ,120^\\circ,420^\\circ,480^\\circ.\\]</p></li><li><p>Dividera med 2:</p></li><li><p>\\[\\boxed{x=30^\\circ,60^\\circ,210^\\circ,240^\\circ}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(2\\sin x\\cos x=\\sin2x\\)</p><div class=\"facit-matte\">\\[\\sin2x=\\frac{\\sqrt3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Intervallet för \\(2x\\) blir två varv</p><div class=\"facit-matte\">\\[0^\\circ\\le x\\lt 360^\\circ\\ \\Rightarrow\\ 0^\\circ\\le 2x\\lt 720^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin w=\\tfrac{\\sqrt3}{2}\\) ger \\(w=60^\\circ\\) och \\(w=120^\\circ\\) i första varvet</p><p>Andra varvet ger \\(60^\\circ+360^\\circ=420^\\circ\\) och \\(120^\\circ+360^\\circ=480^\\circ\\).</p></li><li><p class=\"facit-rubrik\">Dela alla fyra vinklarna med 2</p><div class=\"facit-matte\">\\[2x=60^\\circ,\\,120^\\circ,\\,420^\\circ,\\,480^\\circ\\ \\Rightarrow\\ x=30^\\circ,\\,60^\\circ,\\,210^\\circ,\\,240^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ,\\ 60^\\circ,\\ 210^\\circ\\) och \\(240^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -6059,7 +6079,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För en spetsig vinkel \\(v\\) gäller \\(\\sin v=5/13\\).</p><p>a) Bestäm \\(\\cos v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\tan v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Beräkna \\(\\sin^2v+\\cos^2v\\) som kontroll.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Använd trigonometriska ettan och att en spetsig vinkel har positiv cosinus.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos^2v=1-(5/13)^2=144/169\\), alltså \\(\\boxed{\\cos v=12/13}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan v=(5/13)/(12/13)=\\boxed{5/12}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(25/169+144/169=\\boxed{1}\\), vilket kontrollerar värdena.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\left(\\frac{5}{13}\\right)^2=\\frac{144}{169}\\]</div></li><li><p class=\"facit-rubrik\">Spetsig vinkel: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos v=\\frac{12}{13}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{12}{13}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><p>Med \\(\\sin v=\\tfrac{5}{13}\\) och \\(\\cos v=\\tfrac{12}{13}\\).</p></li><li><p class=\"facit-rubrik\">Trettondelarna tar ut varandra</p><div class=\"facit-matte\">\\[\\tan v=\\frac{\\frac{5}{13}}{\\frac{12}{13}}=\\frac{5}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{12}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera \\(\\tfrac{5}{13}\\) och \\(\\tfrac{12}{13}\\) och addera</p><div class=\"facit-matte\">\\[\\frac{25}{169}+\\frac{144}{169}=\\frac{169}{169}=1\\]</div></li><li><p class=\"facit-rubrik\">Kontrollen stämmer med trigonometriska ettan</p><p>Summan ska alltid bli 1, så värdena är rimliga.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur"
@@ -6088,7 +6108,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm \\(\\cos v\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos^2v=1-25/169=144/169\\), och \\(v\\) är spetsig.</p></li><li><p>Alltså \\(\\boxed{12/13}\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\left(\\frac{5}{13}\\right)^2=\\frac{144}{169}\\]</div></li><li><p class=\"facit-rubrik\">Spetsig vinkel: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos v=\\frac{12}{13}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{12}{13}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6097,7 +6117,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>För denna del gäller \\(\\sin v=5/13\\) och \\(\\cos v=12/13\\). Bestäm \\(\\tan v\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan v=(5/13)/(12/13)=\\boxed{5/12}\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><p>Med \\(\\sin v=\\tfrac{5}{13}\\) och \\(\\cos v=\\tfrac{12}{13}\\).</p></li><li><p class=\"facit-rubrik\">Trettondelarna tar ut varandra</p><div class=\"facit-matte\">\\[\\tan v=\\frac{\\frac{5}{13}}{\\frac{12}{13}}=\\frac{5}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{12}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -6106,7 +6126,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>Beräkna \\(\\sin^2v+\\cos^2v\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[25/169+144/169=\\boxed1\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera \\(\\tfrac{5}{13}\\) och \\(\\tfrac{12}{13}\\) och addera</p><div class=\"facit-matte\">\\[\\frac{25}{169}+\\frac{144}{169}=\\frac{169}{169}=1\\]</div></li><li><p class=\"facit-rubrik\">Kontrollen stämmer med trigonometriska ettan</p><p>Summan ska alltid bli 1, så värdena är rimliga.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -6146,7 +6166,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Förenkla \\(\\frac{1-\\cos^2x}{\\sin x}\\) där \\(\\sin x\\ne0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med \\(\\sin^2x+\\cos^2x=1\\) är täljaren \\(\\sin^2x\\).</p></li><li><p>Då \\(\\sin^2x/\\sin x=\\sin x\\), under det givna villkoret att nämnaren inte är noll.</p></li><li><p><strong>Viktigt:</strong> Vi får förkorta med \\(\\sin x\\) bara eftersom uppgiften uttryckligen anger \\(\\sin x\\ne0\\).</p></li><li><p>Utan det villkoret skulle vi riskera att förenkla på ett ställe där ursprungsuttrycket inte ens är definierat.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren med trigonometriska ettan: \\(1-\\cos^2x=\\sin^2x\\)</p><div class=\"facit-matte\">\\[\\frac{1-\\cos^2x}{\\sin x}=\\frac{\\sin^2x}{\\sin x}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(\\sin x\\), tillåtet eftersom \\(\\sin x\\neq0\\)</p><div class=\"facit-matte\">\\[\\frac{\\sin^2x}{\\sin x}=\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin x\\)</p></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur",
@@ -6181,7 +6201,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla.</p>\n<p>a) \\(\\sin^2x+\\cos^2x\\)<br>\nb) \\(1-\\cos^2x\\)<br>\nc) \\(\\dfrac{\\sin^2x+\\cos^2x}{\\cos x}\\)<br>\nd) \\(\\dfrac{1-\\sin^2x}{\\cos x}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Metod:</strong> Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\boxed1\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1-\\cos^2x=\\boxed{\\sin^2x}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\dfrac{1}{\\cos x}\\), där \\(\\cos x\\ne0\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\dfrac{\\cos^2x}{\\cos x}=\\boxed{\\cos x}\\), där \\(\\cos x\\ne0\\).</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><p>Uttrycket är precis vänsterledet i ettan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ettan omskriven: flytta \\(\\cos^2x\\)</p><div class=\"facit-matte\">\\[1-\\cos^2x=\\sin^2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin^2x\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren är trigonometriska ettan</p><div class=\"facit-matte\">\\[\\frac{\\sin^2x+\\cos^2x}{\\cos x}=\\frac{1}{\\cos x}\\]</div></li><li><p class=\"facit-rubrik\">Där uttrycket är definierat</p><p>Nämnaren kräver \\(\\cos x\\neq0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{\\cos x}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren: \\(1-\\sin^2x=\\cos^2x\\)</p><div class=\"facit-matte\">\\[\\frac{1-\\sin^2x}{\\cos x}=\\frac{\\cos^2x}{\\cos x}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(\\cos x\\) (där \\(\\cos x\\neq0\\))</p><div class=\"facit-matte\">\\[\\frac{\\cos^2x}{\\cos x}=\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x\\)</p></div></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur"
@@ -6223,7 +6243,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin^2x+\\cos^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>\\(1\\)</strong></p></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><p>Uttrycket är precis vänsterledet i ettan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -6232,7 +6252,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(1-\\cos^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1-\\cos^2x=\\)<strong>\\(\\sin^2x\\)</strong></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ettan omskriven: flytta \\(\\cos^2x\\)</p><div class=\"facit-matte\">\\[1-\\cos^2x=\\sin^2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin^2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -6241,7 +6261,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\dfrac{\\sin^2x+\\cos^2x}{\\cos x}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac1{\\cos x}=\\)<strong>\\(\\frac1{\\cos x}\\)</strong>, där \\(\\cos x\\ne0\\).</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren är trigonometriska ettan</p><div class=\"facit-matte\">\\[\\frac{\\sin^2x+\\cos^2x}{\\cos x}=\\frac{1}{\\cos x}\\]</div></li><li><p class=\"facit-rubrik\">Där uttrycket är definierat</p><p>Nämnaren kräver \\(\\cos x\\neq0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{\\cos x}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6250,7 +6270,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\dfrac{1-\\sin^2x}{\\cos x}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{\\cos^2x}{\\cos x}=\\)<strong>\\(\\cos x\\)</strong>, där \\(\\cos x\\ne0\\).</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren: \\(1-\\sin^2x=\\cos^2x\\)</p><div class=\"facit-matte\">\\[\\frac{1-\\sin^2x}{\\cos x}=\\frac{\\cos^2x}{\\cos x}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(\\cos x\\) (där \\(\\cos x\\neq0\\))</p><div class=\"facit-matte\">\\[\\frac{\\cos^2x}{\\cos x}=\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6281,7 +6301,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(x\\) gäller \\(\\cos x=-12/13\\) och \\(90^\\circ&lt;x&lt;180^\\circ\\).</p><p>Bestäm exakt \\(\\sin x\\) och \\(\\tan x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Trigonometriska ettan ger storleken på sinus; kvadranten ger tecknet.</p></li><li><p>\\[\\sin^2x=1-\\left(-\\frac{12}{13}\\right)^2=\\frac{25}{169}.\\]</p></li><li><div class=\"facit-berakning\"><p>I andra kvadranten är sinus positiv, alltså</p><div class=\"facit-matte\">\\[\\boxed{\\sin x=5/13}\\].</div></div></li><li><p>Därefter</p></li><li><p>\\[\\tan x=\\frac{5/13}{-12/13}=\\boxed{-5/12}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\sin^2x=1-\\left(-\\frac{12}{13}\\right)^2=1-\\frac{144}{169}=\\frac{25}{169}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: sinus positiv</p><div class=\"facit-matte\">\\[\\sin x=\\frac{5}{13}\\]</div></li><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan x=\\dfrac{\\sin x}{\\cos x}\\)</p><div class=\"facit-matte\">\\[\\tan x=\\frac{\\frac{5}{13}}{-\\frac{12}{13}}=-\\frac{5}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin x=\\frac{5}{13}\\) och \\(\\tan x=-\\frac{5}{12}\\)</p></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur"
@@ -6331,7 +6351,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla.</p><p>a) \\(1-\\sin^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(1-\\cos^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\frac{1-\\cos^2x}{\\sin x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin^2x+2\\cos^2x-1\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos^2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\sin^2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\sin x\\)</strong>, där uttrycket är definierat.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin^2x+\\cos^2x+\\cos^2x-1=\\)<strong>\\(\\cos^2x\\)</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ettan omskriven: \\(\\cos^2x=1-\\sin^2x\\)</p><p>Uttrycket \\(1-\\sin^2x\\) är högerledet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos^2x\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ettan omskriven: \\(\\sin^2x=1-\\cos^2x\\)</p><p>Uttrycket \\(1-\\cos^2x\\) är högerledet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin^2x\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren: \\(1-\\cos^2x=\\sin^2x\\)</p><div class=\"facit-matte\">\\[\\frac{1-\\cos^2x}{\\sin x}=\\frac{\\sin^2x}{\\sin x}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(\\sin x\\) (där \\(\\sin x\\neq0\\))</p><div class=\"facit-matte\">\\[\\frac{\\sin^2x}{\\sin x}=\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin x\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp \\(2\\cos^2x\\) så att ettan syns</p><div class=\"facit-matte\">\\[\\sin^2x+2\\cos^2x-1=(\\sin^2x+\\cos^2x)+\\cos^2x-1\\]</div></li><li><p class=\"facit-rubrik\">Byt \\(\\sin^2x+\\cos^2x\\) mot 1</p><div class=\"facit-matte\">\\[1+\\cos^2x-1=\\cos^2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos^2x\\)</p></div></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur"
@@ -6373,7 +6393,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(1-\\sin^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos^2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ettan omskriven: \\(\\cos^2x=1-\\sin^2x\\)</p><p>Uttrycket \\(1-\\sin^2x\\) är högerledet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos^2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -6382,7 +6402,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(1-\\cos^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sin^2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ettan omskriven: \\(\\sin^2x=1-\\cos^2x\\)</p><p>Uttrycket \\(1-\\cos^2x\\) är högerledet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin^2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -6391,7 +6411,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\frac{1-\\cos^2x}{\\sin x}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sin x\\)</strong>, där uttrycket är definierat.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren: \\(1-\\cos^2x=\\sin^2x\\)</p><div class=\"facit-matte\">\\[\\frac{1-\\cos^2x}{\\sin x}=\\frac{\\sin^2x}{\\sin x}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(\\sin x\\) (där \\(\\sin x\\neq0\\))</p><div class=\"facit-matte\">\\[\\frac{\\sin^2x}{\\sin x}=\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6400,7 +6420,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\sin^2x+2\\cos^2x-1\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin^2x+\\cos^2x+\\cos^2x-1=\\)<strong>\\(\\cos^2x\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp \\(2\\cos^2x\\) så att ettan syns</p><div class=\"facit-matte\">\\[\\sin^2x+2\\cos^2x-1=(\\sin^2x+\\cos^2x)+\\cos^2x-1\\]</div></li><li><p class=\"facit-rubrik\">Byt \\(\\sin^2x+\\cos^2x\\) mot 1</p><div class=\"facit-matte\">\\[1+\\cos^2x-1=\\cos^2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos^2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6432,7 +6452,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Om \\(\\sin x=\\sqrt3/2\\), bestäm \\(\\cos^2x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Trigonometriska ettan ger</p><div class=\"facit-matte\">\\[\\cos^2x=1-\\sin^2x=1-3/4=1/4\\].</div></div></li><li><p>Eftersom frågan gäller kvadraten behövs ingen kvadrantinformation.</p></li><li><p><strong>Varför behövs inte tecknet på cosinus?</strong> Om vi hade sökt \\(\\cos x\\) skulle kvadranten avgöra om svaret är \\(+1/2\\) eller \\(-1/2\\).</p></li><li><p>Men \\(\\cos^2x\\) blir \\(1/4\\) i båda fallen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan löst för \\(\\cos^2x\\)</p><div class=\"facit-matte\">\\[\\cos^2x=1-\\sin^2x\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\sin x=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\cos^2x=1-\\left(\\frac{\\sqrt3}{2}\\right)^2=1-\\frac34=\\frac14\\]</div></li><li><p class=\"facit-rubrik\">Kvadranten behövs inte</p><p>\\(\\cos x\\) kan vara \\(\\tfrac12\\) eller \\(-\\tfrac12\\), men kvadraten blir \\(\\tfrac14\\) i båda fallen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac14\\)</p></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur",
@@ -6466,7 +6486,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm det saknade värdet. Ange tecken med hjälp av den angivna kvadranten.</p><p>a) \\(\\sin x=\\frac35\\), första kvadranten. Bestäm \\(\\cos x\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos x=-\\frac5{13}\\), andra kvadranten. Bestäm \\(\\sin x\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin x=-\\frac8{17}\\), fjärde kvadranten. Bestäm \\(\\cos x\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos x=-\\frac7{25}\\), tredje kvadranten. Bestäm \\(\\sin x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd \\(\\sin^2x+\\cos^2x=1\\) och kontrollera eventuella nämnare.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\frac45\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\frac{12}{13}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\frac{15}{17}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(-\\frac{24}{25}\\)</strong></p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\cos^2x=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Första kvadranten: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos x=\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac45\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\sin^2x=1-\\frac{25}{169}=\\frac{144}{169}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: sinus positiv</p><div class=\"facit-matte\">\\[\\sin x=\\frac{12}{13}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{12}{13}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\cos^2x=1-\\frac{64}{289}=\\frac{225}{289}\\]</div></li><li><p class=\"facit-rubrik\">Fjärde kvadranten: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos x=\\frac{15}{17}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{17}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\sin^2x=1-\\frac{49}{625}=\\frac{576}{625}\\]</div></li><li><p class=\"facit-rubrik\">Tredje kvadranten: sinus negativ</p><div class=\"facit-matte\">\\[\\sin x=-\\frac{24}{25}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{24}{25}\\)</p></div></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur"
@@ -6508,7 +6528,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin x=\\frac35\\), första kvadranten. Bestäm \\(\\cos x\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Använd \\(\\sin^2x+\\cos^2x=1\\) och kontrollera eventuella nämnare.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac45\\]</div></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\cos^2x=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Första kvadranten: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos x=\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac45\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6517,7 +6537,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos x=-\\frac5{13}\\), andra kvadranten. Bestäm \\(\\sin x\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Använd \\(\\sin^2x+\\cos^2x=1\\) och kontrollera eventuella nämnare.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{12}{13}\\]</div></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\sin^2x=1-\\frac{25}{169}=\\frac{144}{169}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: sinus positiv</p><div class=\"facit-matte\">\\[\\sin x=\\frac{12}{13}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{12}{13}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6526,7 +6546,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin x=-\\frac8{17}\\), fjärde kvadranten. Bestäm \\(\\cos x\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Använd \\(\\sin^2x+\\cos^2x=1\\) och kontrollera eventuella nämnare.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{15}{17}\\]</div></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\cos^2x=1-\\frac{64}{289}=\\frac{225}{289}\\]</div></li><li><p class=\"facit-rubrik\">Fjärde kvadranten: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos x=\\frac{15}{17}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{17}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6535,7 +6555,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\cos x=-\\frac7{25}\\), tredje kvadranten. Bestäm \\(\\sin x\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Använd \\(\\sin^2x+\\cos^2x=1\\) och kontrollera eventuella nämnare.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-\\frac{24}{25}\\]</div></li></ol></div></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\sin^2x=1-\\frac{49}{625}=\\frac{576}{625}\\]</div></li><li><p class=\"facit-rubrik\">Tredje kvadranten: sinus negativ</p><div class=\"facit-matte\">\\[\\sin x=-\\frac{24}{25}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{24}{25}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6566,7 +6586,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinklarna \\(a\\) och \\(b\\) ligger i första respektive andra kvadranten. Det gäller att \\(\\sin a=3/5\\) och \\(\\cos b=-5/13\\).</p><p>Bestäm exakt \\(\\cos(a+b)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>I första kvadranten är</p><div class=\"facit-matte\">\\[\\cos a=4/5\\].</div></div></li><li><p>I andra kvadranten är sinus positiv, så</p></li><li><p>\\[\\sin b=\\sqrt{1-25/169}=12/13.\\]</p></li><li><p>Använd additionsformeln:</p></li><li><p>\\[\\cos(a+b)=\\cos a\\cos b-\\sin a\\sin b\\]</p></li><li><p>\\[=\\frac45\\left(-\\frac5{13}\\right)-\\frac35\\frac{12}{13}=\\frac{-20-36}{65}=\\boxed{-\\frac{56}{65}}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\cos a\\) ur trigonometriska ettan, första kvadranten</p><div class=\"facit-matte\">\\[\\cos a=\\sqrt{1-\\frac{9}{25}}=\\frac45\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin b\\) ur trigonometriska ettan, andra kvadranten (sinus positiv)</p><div class=\"facit-matte\">\\[\\sin b=\\sqrt{1-\\frac{25}{169}}=\\frac{12}{13}\\]</div></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos(a+b)=\\cos a\\cos b-\\sin a\\sin b\\]</div></li><li><p class=\"facit-rubrik\">Sätt in alla fyra värdena</p><div class=\"facit-matte\">\\[\\begin{aligned}&=\\frac45\\cdot\\left(-\\frac{5}{13}\\right)-\\frac35\\cdot\\frac{12}{13}\\\\&=\\frac{-20-36}{65}=-\\frac{56}{65}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{56}{65}\\)</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -6601,7 +6621,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt med hjälp av additions- eller subtraktionsformler.</p><p>a) \\(\\sin75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos15^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\cos105^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad +\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad +\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos105^\\circ=\\cos(60^\\circ+45^\\circ)\\]\\[\\begin{aligned}&=\\cos60^\\circ\\cos45^\\circ\\\\&\\quad -\\sin60^\\circ\\sin45^\\circ\\\\&=\\frac12\\cdot\\frac{\\sqrt2}{2}\\\\&\\quad -\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}\\\\&=\\frac{\\sqrt2-\\sqrt6}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\).</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp: \\(75^\\circ=30^\\circ+45^\\circ\\)</p><p>Sinus av en summa: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\).</p></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin75^\\circ&=\\frac12\\cdot\\frac{\\sqrt2}{2}+\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}\\\\&=\\frac{\\sqrt2+\\sqrt6}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp: \\(15^\\circ=60^\\circ-45^\\circ\\)</p><p>Cosinus av en differens: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\).</p></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos15^\\circ&=\\frac12\\cdot\\frac{\\sqrt2}{2}+\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}\\\\&=\\frac{\\sqrt2+\\sqrt6}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp: \\(105^\\circ=60^\\circ+45^\\circ\\)</p><p>\\(105^\\circ\\) ligger i andra kvadranten, så svaret ska bli negativt.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos105^\\circ&=\\cos60^\\circ\\cos45^\\circ-\\sin60^\\circ\\sin45^\\circ\\\\&=\\frac12\\cdot\\frac{\\sqrt2}{2}-\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}=\\frac{\\sqrt2-\\sqrt6}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\)</p></div></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -6630,7 +6650,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\sin75^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)\\]\\[\\begin{aligned}&=\\sin45^\\circ\\cos30^\\circ\\\\&\\quad +\\cos45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp: \\(75^\\circ=30^\\circ+45^\\circ\\)</p><p>Sinus av en summa: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\).</p></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin75^\\circ&=\\frac12\\cdot\\frac{\\sqrt2}{2}+\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}\\\\&=\\frac{\\sqrt2+\\sqrt6}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6639,7 +6659,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos15^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)\\]\\[\\begin{aligned}&=\\cos45^\\circ\\cos30^\\circ\\\\&\\quad +\\sin45^\\circ\\sin30^\\circ\\\\&=\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}\\\\&\\quad +\\frac{\\sqrt2}{2}\\cdot\\frac12\\\\&=\\frac{\\sqrt6+\\sqrt2}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp: \\(15^\\circ=60^\\circ-45^\\circ\\)</p><p>Cosinus av en differens: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\).</p></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos15^\\circ&=\\frac12\\cdot\\frac{\\sqrt2}{2}+\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}\\\\&=\\frac{\\sqrt2+\\sqrt6}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt6+\\sqrt2}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6648,7 +6668,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\cos105^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Välj standardvinklar och använd formeln</strong></p><p>Skriv vinkeln som en summa eller differens och använd additions- eller subtraktionsformeln.</p>\\[\\cos105^\\circ=\\cos(60^\\circ+45^\\circ)\\]\\[\\begin{aligned}&=\\cos60^\\circ\\cos45^\\circ\\\\&\\quad -\\sin60^\\circ\\sin45^\\circ\\\\&=\\frac12\\cdot\\frac{\\sqrt2}{2}\\\\&\\quad -\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}\\\\&=\\frac{\\sqrt2-\\sqrt6}{4}\\end{aligned}\\]<p><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp: \\(105^\\circ=60^\\circ+45^\\circ\\)</p><p>\\(105^\\circ\\) ligger i andra kvadranten, så svaret ska bli negativt.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos105^\\circ&=\\cos60^\\circ\\cos45^\\circ-\\sin60^\\circ\\sin45^\\circ\\\\&=\\frac12\\cdot\\frac{\\sqrt2}{2}-\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}=\\frac{\\sqrt2-\\sqrt6}{4}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6684,7 +6704,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla så långt som möjligt.</p><p>a) \\(4\\sin x\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(3-6\\sin^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2\\cos^2x-2\\sin^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{\\sin 2x}{\\cos x}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Matcha varje uttryck mot en dubbelvinkelformel.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4\\sin x\\cos x=2(2\\sin x\\cos x)=\\boxed{2\\sin2x}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3-6\\sin^2x=3(1-2\\sin^2x)=\\boxed{3\\cos2x}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2(\\cos^2x-\\sin^2x)=\\boxed{2\\cos2x}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin2x/\\cos x=2\\sin x\\) där \\(\\cos x\\ne0\\).</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp 4 som \\(2\\cdot2\\)</p><div class=\"facit-matte\">\\[4\\sin x\\cos x=2\\cdot(2\\sin x\\cos x)\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[2\\cdot(2\\sin x\\cos x)=2\\sin2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\sin2x\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut 3</p><div class=\"facit-matte\">\\[3-6\\sin^2x=3(1-2\\sin^2x)\\]</div></li><li><p class=\"facit-rubrik\">Formen \\(\\cos2x=1-2\\sin^2x\\)</p><div class=\"facit-matte\">\\[3(1-2\\sin^2x)=3\\cos2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\cos2x\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut 2</p><div class=\"facit-matte\">\\[2\\cos^2x-2\\sin^2x=2(\\cos^2x-\\sin^2x)\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln för cosinus: \\(\\cos2x=\\cos^2x-\\sin^2x\\)</p><div class=\"facit-matte\">\\[2(\\cos^2x-\\sin^2x)=2\\cos2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\cos2x\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[\\frac{\\sin2x}{\\cos x}=\\frac{2\\sin x\\cos x}{\\cos x}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(\\cos x\\) (tillåtet där \\(\\cos x\\neq0\\))</p><div class=\"facit-matte\">\\[\\frac{2\\sin x\\cos x}{\\cos x}=2\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\sin x\\)</p></div></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -6726,7 +6746,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(4\\sin x\\cos x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(4\\sin x\\cos x=\\) \\(2\\sin2x\\) .</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp 4 som \\(2\\cdot2\\)</p><div class=\"facit-matte\">\\[4\\sin x\\cos x=2\\cdot(2\\sin x\\cos x)\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[2\\cdot(2\\sin x\\cos x)=2\\sin2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\sin2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6735,7 +6755,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(3-6\\sin^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(3(1-2\\sin^2x)=\\) \\(3\\cos2x\\) .</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut 3</p><div class=\"facit-matte\">\\[3-6\\sin^2x=3(1-2\\sin^2x)\\]</div></li><li><p class=\"facit-rubrik\">Formen \\(\\cos2x=1-2\\sin^2x\\)</p><div class=\"facit-matte\">\\[3(1-2\\sin^2x)=3\\cos2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\cos2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6744,7 +6764,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(2\\cos^2x-2\\sin^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(2(\\cos^2x-\\sin^2x)=\\) \\(2\\cos2x\\) .</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut 2</p><div class=\"facit-matte\">\\[2\\cos^2x-2\\sin^2x=2(\\cos^2x-\\sin^2x)\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln för cosinus: \\(\\cos2x=\\cos^2x-\\sin^2x\\)</p><div class=\"facit-matte\">\\[2(\\cos^2x-\\sin^2x)=2\\cos2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\cos2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6753,7 +6773,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\frac{\\sin 2x}{\\cos x}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{2\\sin x\\cos x}{\\cos x}=\\) \\(2\\sin x\\) , där uttrycket är definierat.</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[\\frac{\\sin2x}{\\cos x}=\\frac{2\\sin x\\cos x}{\\cos x}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(\\cos x\\) (tillåtet där \\(\\cos x\\neq0\\))</p><div class=\"facit-matte\">\\[\\frac{2\\sin x\\cos x}{\\cos x}=2\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\sin x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -6782,7 +6802,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\sin^2x=\\cos^2x\\) för \\(0\\le x&lt;360^\\circ\\) genom att använda en dubbelvinkelformel.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv skillnaden som en dubbelvinkel.</p></li><li><p>\\[\\sin^2x=\\cos^2x\\iff\\cos^2x-\\sin^2x=0\\iff\\cos2x=0.\\]</p></li><li><p>För \\(0\\le x&lt;360^\\circ\\) gäller \\(0\\le2x&lt;720^\\circ\\).</p></li><li><p>Därför</p></li><li><p>\\[2x=90^\\circ,270^\\circ,450^\\circ,630^\\circ,\\]</p></li><li><p>och alltså</p></li><li><p>\\[\\boxed{x=45^\\circ,135^\\circ,225^\\circ,315^\\circ}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta över så att ena ledet blir noll</p><div class=\"facit-matte\">\\[\\cos^2x-\\sin^2x=0\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\cos^2x-\\sin^2x=\\cos2x\\)</p><div class=\"facit-matte\">\\[\\cos2x=0\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos w=0\\) när \\(w=90^\\circ+n\\cdot180^\\circ\\)</p><p>Med \\(0^\\circ\\le2x\\lt 720^\\circ\\) blir \\(2x=90^\\circ,\\ 270^\\circ,\\ 450^\\circ,\\ 630^\\circ\\).</p></li><li><p class=\"facit-rubrik\">Dela med 2</p><div class=\"facit-matte\">\\[x=45^\\circ,\\ 135^\\circ,\\ 225^\\circ,\\ 315^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=45^\\circ,\\ 135^\\circ,\\ 225^\\circ\\) och \\(315^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur",
@@ -6860,7 +6880,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla med formler för dubbla vinkeln.</p><p>a) \\(2\\sin x\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(2\\cos^2x-1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(1-2\\sin^2x\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha varje uttryck mot en av dubbelvinkelformlerna.</p></li><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sin2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\cos2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\cos2x\\)</strong></p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><p>Produkten \\(2\\sin x\\cos x\\) känns igen direkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin2x\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinusformen \\(\\cos2x=2\\cos^2x-1\\)</p><p>Uttrycket har bara \\(\\cos^2x\\) och en etta.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinusformen \\(\\cos2x=1-2\\sin^2x\\)</p><p>Uttrycket har bara \\(\\sin^2x\\) och en etta.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -6897,7 +6917,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(2\\sin x\\cos x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sin2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><p>Produkten \\(2\\sin x\\cos x\\) känns igen direkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -6906,7 +6926,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(2\\cos^2x-1\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinusformen \\(\\cos2x=2\\cos^2x-1\\)</p><p>Uttrycket har bara \\(\\cos^2x\\) och en etta.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -6915,7 +6935,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(1-2\\sin^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>\\(\\cos2x\\)</strong></p></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinusformen \\(\\cos2x=1-2\\sin^2x\\)</p><p>Uttrycket har bara \\(\\sin^2x\\) och en etta.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -7058,7 +7078,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla \\(\\cos(x+90^\\circ)\\) med en additionsformel.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\cos(x+90^\\circ)=\\cos x\\cdot0-\\sin x\\cdot1=\\boxed{-\\sin x}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos(x+90^\\circ)=\\cos x\\cos90^\\circ-\\sin x\\sin90^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos90^\\circ=0\\) och \\(\\sin90^\\circ=1\\)</p><div class=\"facit-matte\">\\[=\\cos x\\cdot0-\\sin x\\cdot1=-\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\sin x\\)</p></div>",
     "familj": "Visa och förenkla med additionsformler",
     "formaga": [
       "procedur",
@@ -7092,7 +7112,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Det gäller att \\(\\cos x=-3/5\\). Bestäm \\(\\cos(x-180^\\circ)\\) exakt utan att bestämma \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med subtraktionsformeln:</p></li><li><p>\\[\\cos(x-180^\\circ)=\\cos x\\cos180^\\circ+\\sin x\\sin180^\\circ=-\\cos x.\\]</p></li><li><p>Alltså \\(\\boxed{3/5}\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtraktionsformeln: \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\cos(x-180^\\circ)=\\cos x\\cos180^\\circ+\\sin x\\sin180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos180^\\circ=-1\\) och \\(\\sin180^\\circ=0\\)</p><div class=\"facit-matte\">\\[=\\cos x\\cdot(-1)+\\sin x\\cdot0=-\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos x=-\\tfrac35\\)</p><div class=\"facit-matte\">\\[-\\cos x=-\\left(-\\frac35\\right)=\\frac35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac35\\)</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur",
@@ -7160,7 +7180,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla</p><p>\\[\\frac{1-\\cos2x}{1+\\cos2x}\\]</p><p>så långt som möjligt, där uttrycket är definierat.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\(1-\\cos2x=2\\sin^2x\\) och \\(1+\\cos2x=2\\cos^2x\\):</p></li><li><p>\\[\\frac{2\\sin^2x}{2\\cos^2x}=\\boxed{\\tan^2x}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren med formen \\(\\cos2x=1-2\\sin^2x\\)</p><div class=\"facit-matte\">\\[1-\\cos2x=1-(1-2\\sin^2x)=2\\sin^2x\\]</div></li><li><p class=\"facit-rubrik\">Nämnaren med formen \\(\\cos2x=2\\cos^2x-1\\)</p><div class=\"facit-matte\">\\[1+\\cos2x=1+(2\\cos^2x-1)=2\\cos^2x\\]</div></li><li><p class=\"facit-rubrik\">Förkorta 2 och använd \\(\\tan x=\\dfrac{\\sin x}{\\cos x}\\)</p><div class=\"facit-matte\">\\[\\frac{2\\sin^2x}{2\\cos^2x}=\\left(\\frac{\\sin x}{\\cos x}\\right)^2=\\tan^2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tan^2x\\)</p></div>",
     "familj": "Visa och förenkla med formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -7194,7 +7214,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla \\((\\sin x+\\cos x)^2\\) så att svaret innehåller en trigonometrisk funktion.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utveckla kvadraten:</p></li><li><p>\\[(\\sin x+\\cos x)^2=\\sin^2x+2\\sin x\\cos x+\\cos^2x=1+\\sin2x.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{1+\\sin2x}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((a+b)^2=a^2+2ab+b^2\\)</p><div class=\"facit-matte\">\\[(\\sin x+\\cos x)^2=\\sin^2x+2\\sin x\\cos x+\\cos^2x\\]</div></li><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[=1+2\\sin x\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(2\\sin x\\cos x=\\sin2x\\)</p><div class=\"facit-matte\">\\[=1+\\sin2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1+\\sin2x\\)</p></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur",
@@ -7228,7 +7248,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Skriv \\(\\cos^2x-\\sin^2x\\) med en enda trigonometrisk funktion.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dubbelvinkelformeln ger direkt</p></li><li><p>\\[\\boxed{\\cos^2x-\\sin^2x=\\cos2x}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för cosinus: \\(\\cos2x=\\cos^2x-\\sin^2x\\)</p><p>Vänsterledet \\(\\cos^2x-\\sin^2x\\) är precis högerledet i formeln.</p></li><li><p class=\"facit-rubrik\">Läs formeln baklänges</p><div class=\"facit-matte\">\\[\\cos^2x-\\sin^2x=\\cos2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div>",
     "familj": "Visa och förenkla med formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -7329,7 +7349,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla \\(\\sin(x+180^\\circ)\\) med additionsformeln.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\sin(x+180^\\circ)=\\sin x\\cos180^\\circ+\\cos x\\sin180^\\circ=-\\sin x.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{-\\sin x}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin(x+180^\\circ)=\\sin x\\cos180^\\circ+\\cos x\\sin180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos180^\\circ=-1\\) och \\(\\sin180^\\circ=0\\)</p><div class=\"facit-matte\">\\[=\\sin x\\cdot(-1)+\\cos x\\cdot0=-\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\sin x\\)</p></div>",
     "familj": "Visa och förenkla med additionsformler",
     "formaga": [
       "procedur",
@@ -7363,7 +7383,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt \\(\\sin75^\\circ\\cos15^\\circ-\\cos75^\\circ\\sin15^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Uttrycket har exakt formen för sinus av en differens.</p></li><li><p>\\[\\sin A\\cos B-\\cos A\\sin B=\\sin(A-B).\\]</p></li><li><p>Med \\(A=75^\\circ\\) och \\(B=15^\\circ\\) fås</p></li><li><p>\\[\\sin60^\\circ=\\frac{\\sqrt3}{2}.\\]</p></li><li><p><strong>Varför slipper vi räkna fyra trigonometriska värden?</strong> Additionsformeln samlar hela uttrycket till ett enda känt standardvärde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\sqrt3/2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Känn igen formen \\(\\sin u\\cos v-\\cos u\\sin v=\\sin(u-v)\\)</p><p>Här är \\(u=75^\\circ\\) och \\(v=15^\\circ\\).</p></li><li><p class=\"facit-rubrik\">Skriv som en enda sinus</p><div class=\"facit-matte\">\\[\\sin75^\\circ\\cos15^\\circ-\\cos75^\\circ\\sin15^\\circ=\\sin(75^\\circ-15^\\circ)=\\sin60^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Standardvärdet \\(\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><p>Vi behöver aldrig räkna ut de fyra värdena var för sig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\)</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur",
@@ -7398,7 +7418,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla</p><p>\\[\\frac{1-\\cos2x}{1+\\cos2x}\\]</p><p>där uttrycket är definierat.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[1-\\cos2x=2\\sin^2x,\\qquad1+\\cos2x=2\\cos^2x.\\]</p></li><li><p>Därför</p></li><li><p>\\[\\frac{1-\\cos2x}{1+\\cos2x}=\\frac{2\\sin^2x}{2\\cos^2x}=\\boxed{\\tan^2x}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj den form av \\(\\cos2x\\) som tar bort ettan</p><p>I täljaren tar \\(1-2\\sin^2x\\) bort ettan, i nämnaren gör \\(2\\cos^2x-1\\) det.</p></li><li><p class=\"facit-rubrik\">Skriv om täljare och nämnare</p><div class=\"facit-matte\">\\[\\frac{1-\\cos2x}{1+\\cos2x}=\\frac{2\\sin^2x}{2\\cos^2x}\\]</div></li><li><p class=\"facit-rubrik\">Kvoten av sinus och cosinus är tangens: \\(\\tan x=\\dfrac{\\sin x}{\\cos x}\\)</p><div class=\"facit-matte\">\\[\\frac{\\sin^2x}{\\cos^2x}=\\tan^2x\\]</div></li><li><p class=\"facit-rubrik\">Där uttrycket är definierat</p><p>Nämnaren \\(2\\cos^2x\\) är noll när \\(\\cos x=0\\). Där är varken vänsterledet eller \\(\\tan^2x\\) definierat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tan^2x\\)</p></div>",
     "familj": "Visa och förenkla med formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -7432,7 +7452,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Det gäller att \\(\\sin x=7/25\\) och att \\(x\\) ligger i andra kvadranten. Bestäm \\(\\cos2x\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan ger \\(\\cos x=-24/25\\), eftersom cosinus är negativ i andra kvadranten.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\cos2x=\\cos^2x-\\sin^2x\\]:</div></div></li><li><p>\\[\\cos2x=\\frac{576-49}{625}=\\boxed{\\frac{527}{625}}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Formen \\(\\cos2x=1-2\\sin^2x\\) behöver bara sinus</p><p>Då behöver vi inte bestämma \\(\\cos x\\) och dess tecken.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(\\sin x=\\tfrac{7}{25}\\)</p><div class=\"facit-matte\">\\[\\cos2x=1-2\\cdot\\left(\\frac{7}{25}\\right)^2=1-\\frac{98}{625}=\\frac{527}{625}\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med \\(\\cos x=-\\tfrac{24}{25}\\) (andra kvadranten)</p><div class=\"facit-matte\">\\[\\cos^2x-\\sin^2x=\\frac{576}{625}-\\frac{49}{625}=\\frac{527}{625}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{527}{625}\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -7466,7 +7486,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Det gäller att \\(\\tan x=3/4\\). Bestäm \\(\\sin2x\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd dubbelvinkelformeln uttryckt med tangens:</p></li><li><p>\\[\\sin2x=\\frac{2\\tan x}{1+\\tan^2x}=\\frac{2\\cdot3/4}{1+9/16}=\\frac{3/2}{25/16}=\\boxed{24/25}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\tan x=\\tfrac34\\): rita en triangel med kateterna 3 och 4</p><p>Hypotenusan är \\(\\sqrt{3^2+4^2}=5\\).</p></li><li><p class=\"facit-rubrik\">Sinus och cosinus ur triangeln</p><div class=\"facit-matte\">\\[\\sin x=\\frac35,\\qquad\\cos x=\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[\\sin2x=2\\cdot\\frac35\\cdot\\frac45=\\frac{24}{25}\\]</div></li><li><p class=\"facit-rubrik\">Samma svar i tredje kvadranten</p><p>\\(\\tan x\\gt 0\\) även i tredje kvadranten. Där är både \\(\\sin x\\) och \\(\\cos x\\) negativa, och produkten blir densamma.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{24}{25}\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -7534,7 +7554,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Det gäller att \\(\\sin2x=-3/5\\). Bestäm värdet av \\((\\sin x+\\cos x)^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Identiteten \\((\\sin x+\\cos x)^2=1+\\sin2x\\) ger</p></li><li><p>\\[1-\\frac35=\\boxed{\\frac25}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((a+b)^2=a^2+2ab+b^2\\)</p><div class=\"facit-matte\">\\[(\\sin x+\\cos x)^2=\\sin^2x+\\cos^2x+2\\sin x\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Trigonometriska ettan och dubbla vinkeln</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x+2\\sin x\\cos x=1+\\sin2x\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\sin2x=-\\tfrac35\\)</p><div class=\"facit-matte\">\\[1-\\frac35=\\frac25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac25\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "begrepp",
@@ -7568,7 +7588,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla \\((\\cos x-\\sin x)^2\\) så att svaret innehåller en trigonometrisk funktion.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[(\\cos x-\\sin x)^2=\\cos^2x-2\\sin x\\cos x+\\sin^2x=1-\\sin2x.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{1-\\sin2x}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((a-b)^2=a^2-2ab+b^2\\)</p><div class=\"facit-matte\">\\[(\\cos x-\\sin x)^2=\\cos^2x-2\\sin x\\cos x+\\sin^2x\\]</div></li><li><p class=\"facit-rubrik\">Samla kvadraterna: \\(\\cos^2x+\\sin^2x=1\\)</p><div class=\"facit-matte\">\\[=1-2\\sin x\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(2\\sin x\\cos x=\\sin2x\\)</p><div class=\"facit-matte\">\\[=1-\\sin2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1-\\sin2x\\)</p></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur",
@@ -7602,7 +7622,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla</p><p>\\[\\frac{\\sin2x}{2\\sin x}\\]</p><p>där uttrycket är definierat.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med \\(\\sin2x=2\\sin x\\cos x\\) får vi</p></li><li><p>\\[\\frac{2\\sin x\\cos x}{2\\sin x}=\\boxed{\\cos x},\\]</p></li><li><p>där \\(\\sin x\\ne0\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[\\frac{\\sin2x}{2\\sin x}=\\frac{2\\sin x\\cos x}{2\\sin x}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(2\\sin x\\) (tillåtet där \\(\\sin x\\neq0\\))</p><div class=\"facit-matte\">\\[\\frac{2\\sin x\\cos x}{2\\sin x}=\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x\\)</p></div>",
     "familj": "Visa och förenkla med formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -7636,7 +7656,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm \\(\\sin^2 15^\\circ\\) exakt med hjälp av en dubbelvinkelformel.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\(\\cos2v=1-2\\sin^2v\\) med \\(v=15^\\circ\\):</p></li><li><p>\\[\\frac{\\sqrt3}{2}=1-2\\sin^215^\\circ.\\]</p></li><li><p>Därför</p></li><li><p>\\[\\sin^215^\\circ=\\frac{1-\\sqrt3/2}{2}=\\boxed{\\frac{2-\\sqrt3}{4}}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Formen \\(\\cos2v=1-2\\sin^2v\\) innehåller \\(\\sin^2v\\)</p><p>Med \\(v=15^\\circ\\) blir \\(2v=30^\\circ\\), en standardvinkel.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\frac{\\sqrt3}{2}=1-2\\sin^215^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(\\sin^215^\\circ\\)</p><div class=\"facit-matte\">\\[2\\sin^215^\\circ=1-\\frac{\\sqrt3}{2}=\\frac{2-\\sqrt3}{2}\\ \\Rightarrow\\ \\sin^215^\\circ=\\frac{2-\\sqrt3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2-\\sqrt3}{4}\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -7738,7 +7758,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm \\(\\tan15^\\circ\\) exakt med hjälp av en additions- eller subtraktionsformel.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skriv</p><div class=\"facit-matte\">\\[15^\\circ=45^\\circ-30^\\circ\\].</div></div></li><li><p>Då</p></li><li><p>\\[\\tan15^\\circ=\\frac{1-1/\\sqrt3}{1+1/\\sqrt3}=\\frac{\\sqrt3-1}{\\sqrt3+1}=\\boxed{2-\\sqrt3}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens som kvot: \\(\\tan15^\\circ=\\dfrac{\\sin15^\\circ}{\\cos15^\\circ}\\)</p><p>Med \\(15^\\circ=45^\\circ-30^\\circ\\) är \\(\\sin15^\\circ=\\tfrac{\\sqrt6-\\sqrt2}{4}\\) och \\(\\cos15^\\circ=\\tfrac{\\sqrt6+\\sqrt2}{4}\\).</p></li><li><p class=\"facit-rubrik\">Fjärdedelarna tar ut varandra</p><div class=\"facit-matte\">\\[\\tan15^\\circ=\\frac{\\sqrt6-\\sqrt2}{\\sqrt6+\\sqrt2}\\]</div></li><li><p class=\"facit-rubrik\">Förläng med konjugatet \\(\\sqrt6-\\sqrt2\\)</p><div class=\"facit-matte\">\\[\\frac{(\\sqrt6-\\sqrt2)^2}{6-2}=\\frac{6-2\\sqrt{12}+2}{4}=\\frac{8-4\\sqrt3}{4}=2-\\sqrt3\\]</div></li><li><p class=\"facit-rubrik\">Alternativ: \\(\\tan(u-v)=\\dfrac{\\tan u-\\tan v}{1+\\tan u\\tan v}\\)</p><div class=\"facit-matte\">\\[\\tan15^\\circ=\\frac{1-\\frac{1}{\\sqrt3}}{1+\\frac{1}{\\sqrt3}}=\\frac{\\sqrt3-1}{\\sqrt3+1}=2-\\sqrt3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2-\\sqrt3\\)</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur",
@@ -7772,7 +7792,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla \\(\\sin(x+90^\\circ)\\) med additionsformeln.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p></li><li><p>\\[\\sin(x+90^\\circ)=\\sin x\\cos90^\\circ+\\cos x\\sin90^\\circ=\\boxed{\\cos x}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin(x+90^\\circ)=\\sin x\\cos90^\\circ+\\cos x\\sin90^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos90^\\circ=0\\) och \\(\\sin90^\\circ=1\\)</p><div class=\"facit-matte\">\\[=\\sin x\\cdot0+\\cos x\\cdot1=\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x\\)</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -7803,7 +7823,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm \\(\\cos105^\\circ\\) exakt och förklara varför svaret måste vara negativt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln 105° ligger i andra kvadranten, där cosinus är negativ.</p></li><li><div class=\"facit-berakning\"><p>Med</p><div class=\"facit-matte\">\\[105^\\circ=60^\\circ+45^\\circ\\]:</div></div></li><li><p>\\[\\cos105^\\circ=\\frac12\\frac{\\sqrt2}{2}-\\frac{\\sqrt3}{2}\\frac{\\sqrt2}{2}=\\frac{\\sqrt2-\\sqrt6}{4}.\\]</p></li><li><p>Eftersom \\(\\sqrt6&gt;\\sqrt2\\) är uttrycket negativt, som väntat.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckenkontroll först: \\(105^\\circ\\) ligger i andra kvadranten</p><p>\\(105^\\circ\\) ligger i andra kvadranten, så svaret ska bli negativt.</p></li><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\cos105^\\circ&=\\cos60^\\circ\\cos45^\\circ-\\sin60^\\circ\\sin45^\\circ\\\\&=\\frac12\\cdot\\frac{\\sqrt2}{2}-\\frac{\\sqrt3}{2}\\cdot\\frac{\\sqrt2}{2}=\\frac{\\sqrt2-\\sqrt6}{4}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Svaret är negativt, som väntat</p><p>\\(\\sqrt6\\gt \\sqrt2\\), så täljaren \\(\\sqrt2-\\sqrt6\\) är negativ. I andra kvadranten är x-koordinaten, alltså cosinus, negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2-\\sqrt6}{4}\\)</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur",
@@ -7869,7 +7889,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Anta att \\(\\tan x=2\\). Bestäm exakt \\(\\tan2x\\), om uttrycket är definierat.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Här är \\(\\tan x\\) känt, så använd direkt formeln för \\(\\tan2x\\).</p></li><li><p><strong>Nyckelidé:</strong> Använd \\(\\tan2x=2\\tan x/(1-\\tan^2x)\\) och kontrollera att nämnaren inte är noll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{-4/3}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för tangens: \\(\\tan2x=\\dfrac{2\\tan x}{1-\\tan^2x}\\)</p><p>Formeln passar eftersom bara \\(\\tan x\\) är givet.</p></li><li><p class=\"facit-rubrik\">Nämnaren är inte noll</p><div class=\"facit-matte\">\\[1-\\tan^2x=1-2^2=-3\\neq0\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(\\tan x=2\\)</p><div class=\"facit-matte\">\\[\\tan2x=\\frac{2\\cdot2}{-3}=-\\frac43\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac43\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -7972,7 +7992,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla.</p><p>a) \\(1-\\sin^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(1-\\cos^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin^2x+\\cos^2x+3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\sin x\\cos x\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p></li><li><p><strong>Formelbladet:</strong> använd trigonometriska ettan och formeln för dubbla vinkeln.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos^2x\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sin^2x\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>4</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sin2x\\)</strong>.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><p>Flytta \\(\\sin^2x\\) till andra ledet: \\(\\cos^2x=1-\\sin^2x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos^2x\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><p>Flytta \\(\\cos^2x\\) till andra ledet: \\(\\sin^2x=1-\\cos^2x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin^2x\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x+3=1+3=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><p>Produkten \\(2\\sin x\\cos x\\) är högerledet i formeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin2x\\)</p></div></div>",
     "familj": "Visa och förenkla med formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -8014,7 +8034,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(1-\\sin^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formelbladet:</strong> använd trigonometriska ettan och formeln för dubbla vinkeln.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos^2x\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><p>Flytta \\(\\sin^2x\\) till andra ledet: \\(\\cos^2x=1-\\sin^2x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos^2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -8023,7 +8043,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(1-\\cos^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formelbladet:</strong> använd trigonometriska ettan och formeln för dubbla vinkeln.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sin^2x\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><p>Flytta \\(\\cos^2x\\) till andra ledet: \\(\\sin^2x=1-\\cos^2x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin^2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -8032,7 +8052,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin^2x+\\cos^2x+3\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formelbladet:</strong> använd trigonometriska ettan och formeln för dubbla vinkeln.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>4</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x+3=1+3=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -8041,7 +8061,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(2\\sin x\\cos x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formelbladet:</strong> använd trigonometriska ettan och formeln för dubbla vinkeln.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\sin2x\\)</strong>.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><p>Produkten \\(2\\sin x\\cos x\\) är högerledet i formeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin2x\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -8072,7 +8092,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla \\(\\cos(x+90^\\circ)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\cos(x+90^\\circ)=\\cos x\\cdot0-\\sin x\\cdot1=\\boxed{-\\sin x}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vrid \\(90^\\circ\\) moturs: cosinus för en summa</p><p>\\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\) med \\(u=x\\) och \\(v=90^\\circ\\).</p></li><li><p class=\"facit-rubrik\">\\(\\cos90^\\circ=0\\) och \\(\\sin90^\\circ=1\\)</p><div class=\"facit-matte\">\\[\\cos(x+90^\\circ)=\\cos x\\cdot0-\\sin x\\cdot1=-\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\sin x\\)</p></div>",
     "familj": "Visa och förenkla med additionsformler",
     "formaga": [
       "procedur"
@@ -8105,7 +8125,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Skriv \\(\\sin^2x\\) med hjälp av \\(\\cos2x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från \\(\\cos2x=1-2\\sin^2x\\) får vi</p></li><li><p>\\[\\boxed{\\sin^2x=\\frac{1-\\cos2x}{2}}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utgå från \\(\\cos2x=1-2\\sin^2x\\)</p><p>Det är den form som innehåller \\(\\sin^2x\\).</p></li><li><p class=\"facit-rubrik\">Flytta över så att \\(2\\sin^2x\\) står ensamt</p><div class=\"facit-matte\">\\[2\\sin^2x=1-\\cos2x\\]</div></li><li><p class=\"facit-rubrik\">Dela med 2</p><div class=\"facit-matte\">\\[\\sin^2x=\\frac{1-\\cos2x}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin^2x=(1-\\cos2x)/2\\)</p></div>",
     "familj": "Visa och förenkla med formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -8139,7 +8159,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För \\(0&lt;x&lt;90^\\circ\\) gäller \\(\\sin x+\\cos x=\\sqrt{3/2}\\).</p><p>Bestäm \\(\\sin2x\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvadrera den givna likheten:</p></li><li><p>\\[(\\sin x+\\cos x)^2=\\frac32.\\]</p></li><li><p>Vänsterledet är \\(1+\\sin2x\\), alltså</p></li><li><p>\\[1+\\sin2x=\\frac32\\Rightarrow\\boxed{\\sin2x=\\frac12}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[(\\sin x+\\cos x)^2=\\left(\\sqrt{\\tfrac32}\\right)^2=\\frac32\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln och trigonometriska ettan</p><div class=\"facit-matte\">\\[(\\sin x+\\cos x)^2=\\sin^2x+\\cos^2x+2\\sin x\\cos x=1+\\sin2x\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(\\sin2x\\)</p><div class=\"facit-matte\">\\[1+\\sin2x=\\frac32\\ \\Rightarrow\\ \\sin2x=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -8172,7 +8192,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla uttrycket</p><p>\\[\\frac{\\sin x}{\\cos x}+\\frac{\\cos x}{\\sin x}\\]</p><p>där uttrycket är definierat.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv på gemensam nämnare:</p></li><li><p>\\[\\frac{\\sin^2x+\\cos^2x}{\\sin x\\cos x}=\\boxed{\\frac1{\\sin x\\cos x}}.\\]</p></li><li><p>Uttrycket är definierat när både \\(\\sin x\\ne0\\) och \\(\\cos x\\ne0\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare \\(\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[\\frac{\\sin x}{\\cos x}+\\frac{\\cos x}{\\sin x}=\\frac{\\sin^2x}{\\sin x\\cos x}+\\frac{\\cos^2x}{\\sin x\\cos x}\\]</div></li><li><p class=\"facit-rubrik\">Täljaren blir trigonometriska ettan</p><div class=\"facit-matte\">\\[\\frac{\\sin^2x+\\cos^2x}{\\sin x\\cos x}=\\frac{1}{\\sin x\\cos x}\\]</div></li><li><p class=\"facit-rubrik\">Där uttrycket är definierat</p><p>Både \\(\\sin x\\neq0\\) och \\(\\cos x\\neq0\\) krävs, eftersom båda står i nämnare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{\\sin x\\cos x}\\)</p></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "formaga": [
       "procedur"
@@ -8240,7 +8260,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla \\(\\sin^4x-\\cos^4x\\) så långt som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorisera:</p></li><li><p>\\[\\sin^4x-\\cos^4x=(\\sin^2x-\\cos^2x)(\\sin^2x+\\cos^2x).\\]</p></li><li><p>Den andra faktorn är 1 och den första är \\(-\\cos2x\\).</p></li><li><p>Alltså \\(\\boxed{-\\cos2x}\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konjugatregeln: \\(a^2-b^2=(a-b)(a+b)\\) med \\(a=\\sin^2x\\), \\(b=\\cos^2x\\)</p><div class=\"facit-matte\">\\[\\sin^4x-\\cos^4x=(\\sin^2x-\\cos^2x)(\\sin^2x+\\cos^2x)\\]</div></li><li><p class=\"facit-rubrik\">Andra faktorn är trigonometriska ettan</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x=1\\]</div></li><li><p class=\"facit-rubrik\">Första faktorn är \\(\\cos2x\\) med ombytt tecken</p><div class=\"facit-matte\">\\[\\sin^2x-\\cos^2x=-(\\cos^2x-\\sin^2x)=-\\cos2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\cos2x\\)</p></div>",
     "familj": "Visa och förenkla med formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -8274,7 +8294,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla \\(1+\\cos2x\\) med en dubbelvinkelformel.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(\\cos2x=2\\cos^2x-1\\) fås</p></li><li><p>\\[1+\\cos2x=\\boxed{2\\cos^2x}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Formen \\(\\cos2x=2\\cos^2x-1\\)</p><p>Den formen har en etta som tar ut ettan i uttrycket.</p></li><li><p class=\"facit-rubrik\">Ersätt \\(\\cos2x\\) – ettorna tar ut varandra</p><div class=\"facit-matte\">\\[1+\\cos2x=1+2\\cos^2x-1=2\\cos^2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\cos^2x\\)</p></div>",
     "familj": "Visa och förenkla med formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -8307,7 +8327,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln är \\(v=30^\\circ\\).</p><p>Bestäm exakt \\(\\sin(2v)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(2v=60^\\circ\\) fås direkt</p></li><li><p>\\[\\sin(2v)=\\sin60^\\circ=\\boxed{\\sqrt3/2}.\\]</p></li><li><div class=\"facit-berakning\"><p>Samma resultat fås med</p><div class=\"facit-matte\">\\[\\sin2v=2\\sin v\\cos v\\].</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln är \\(2v=60^\\circ\\)</p><p>Det är en standardvinkel, så värdet kan läsas av direkt.</p></li><li><p class=\"facit-rubrik\">Standardvärdet \\(\\sin60^\\circ=\\tfrac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[\\sin(2v)=\\sin60^\\circ=\\frac{\\sqrt3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med \\(\\sin2v=2\\sin v\\cos v\\)</p><div class=\"facit-matte\">\\[2\\cdot\\frac12\\cdot\\frac{\\sqrt3}{2}=\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt3}{2}\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -8337,7 +8357,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln är \\(v=22{,}5^\\circ\\).</p><p>Bestäm exakt \\(\\cos(2v)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[2v=45^\\circ\\].</div></div></li><li><p>Alltså</p></li><li><p>\\[\\cos(2v)=\\cos45^\\circ=\\boxed{\\sqrt2/2}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln är \\(2v=2\\cdot22{,}5^\\circ=45^\\circ\\)</p><p>\\(22{,}5^\\circ\\) är ingen standardvinkel, men \\(45^\\circ\\) är det.</p></li><li><p class=\"facit-rubrik\">Standardvärdet \\(\\cos45^\\circ=\\tfrac{\\sqrt2}{2}\\)</p><div class=\"facit-matte\">\\[\\cos(2v)=\\cos45^\\circ=\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\sqrt2}{2}\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -8367,7 +8387,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln är \\(v=75^\\circ\\).</p><p>Bestäm exakt \\(\\sin(2v)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[2v=150^\\circ\\].</div></div></li><li><p>Med referensvinkeln \\(30^\\circ\\) fås</p></li><li><p>\\[\\sin(2v)=\\sin150^\\circ=\\boxed{1/2}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln är \\(2v=150^\\circ\\)</p><p>\\(150^\\circ=180^\\circ-30^\\circ\\) ligger i andra kvadranten, där sinus är positiv.</p></li><li><p class=\"facit-rubrik\">Symmetri: \\(\\sin(180^\\circ-30^\\circ)=\\sin30^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin(2v)=\\sin150^\\circ=\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac12\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -8428,7 +8448,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\sin^2 37^\\circ+\\cos^2 37^\\circ\\) utan miniräknare.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enligt trigonometriska ettan är \\(\\sin^2v+\\cos^2v=1\\) för alla vinklar \\(v\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan gäller för alla vinklar: \\(\\sin^2v+\\cos^2v=1\\)</p><p>Här är \\(v=37^\\circ\\).</p></li><li><p class=\"facit-rubrik\">Inget behöver räknas ut</p><div class=\"facit-matte\">\\[\\sin^237^\\circ+\\cos^237^\\circ=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "geogebra": false,
     "miniräknare": false,
@@ -8462,7 +8482,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förenkla \\(1-\\sin^2x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Trigonometriska ettan ger</p><div class=\"facit-matte\">\\[\\cos^2x=1-\\sin^2x\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos^2x\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><p>Flytta \\(\\sin^2x\\) till högerledet.</p></li><li><p class=\"facit-rubrik\">Läs av \\(1-\\sin^2x\\)</p><div class=\"facit-matte\">\\[1-\\sin^2x=\\cos^2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos^2x\\)</p></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "geogebra": false,
     "miniräknare": false,
@@ -8496,7 +8516,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Det gäller att \\(\\sin v=0{,}6\\) och \\(\\cos v=0{,}8\\). Bestäm \\(\\tan v\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\tan v=\\frac{\\sin v}{\\cos v}=\\frac{0{,}6}{0{,}8}=0{,}75\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,75</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens är kvoten: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><p>Båda värdena är givna.</p></li><li><p class=\"facit-rubrik\">Dela \\(0{,}6\\) med \\(0{,}8\\)</p><div class=\"facit-matte\">\\[\\tan v=\\frac{0{,}6}{0{,}8}=\\frac34=0{,}75\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,75</p></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "geogebra": false,
     "miniräknare": false,
@@ -8530,7 +8550,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv \\(2\\sin x\\cos x\\) som en enda trigonometrisk funktion.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Formeln för dubbla vinkeln:</p><div class=\"facit-matte\">\\[\\sin2x=2\\sin x\\cos x\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin2x\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för sinus: \\(\\sin2x=2\\sin x\\cos x\\)</p><p>Produkten \\(2\\sin x\\cos x\\) är formelns högerled.</p></li><li><p class=\"facit-rubrik\">Läs formeln baklänges</p><div class=\"facit-matte\">\\[2\\sin x\\cos x=\\sin2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin2x\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -8561,7 +8581,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv \\(\\cos^2x-\\sin^2x\\) som en enda trigonometrisk funktion.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Formeln för dubbla vinkeln:</p><div class=\"facit-matte\">\\[\\cos2x=\\cos^2x-\\sin^2x\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln för cosinus: \\(\\cos2x=\\cos^2x-\\sin^2x\\)</p><p>Skillnaden mellan kvadraterna står i formelns högerled.</p></li><li><p class=\"facit-rubrik\">Läs formeln baklänges</p><div class=\"facit-matte\">\\[\\cos^2x-\\sin^2x=\\cos2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2x\\)</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -8593,7 +8613,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vinkeln \\(v\\) är spetsig och \\(\\sin v=0{,}6\\). Bestäm \\(\\cos v\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\cos^2v=1-0{,}6^2=1-0{,}36=0{,}64\\]</p></li><li><p>Vinkeln är spetsig, så \\(\\cos v\\) är positiv: \\(\\cos v=0{,}8\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-0{,}6^2=1-0{,}36=0{,}64\\]</div></li><li><p class=\"facit-rubrik\">Spetsig vinkel: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos v=\\sqrt{0{,}64}=0{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8</p></div>",
     "familj": "Trigonometriska ettan och identiteter",
     "geogebra": false,
     "miniräknare": false,
@@ -8619,32 +8639,32 @@ window.BANKMATO2 = [
     ]
   },
   {
-  "id": "1.676",
-  "kap": 1,
-  "omr": "trig_identiteter",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/1/2",
-  "t": "<p>Det gäller att \\(\\sin x+\\cos x=1{,}2\\).</p><p>Beräkna \\(\\sin x\\cos x\\) utan att bestämma \\(x\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvadrera båda leden.</p><div class=\"facit-matte\">\\[(\\sin x+\\cos x)^2=1{,}44\\]</div></li><li><p>Kvadreringsregeln ger kvadraterna \\(\\sin^2x+\\cos^2x\\) och dubbelprodukten \\(2\\sin x\\cos x\\). Kvadraternas summa är 1, enligt trigonometriska ettan.</p><div class=\"facit-matte\">\\[1+2\\sin x\\cos x=1{,}44\\]</div></li><li><p>Subtrahera 1 och dela sedan med 2.</p><div class=\"facit-matte\">\\[\\sin x\\cos x=\\frac{0{,}44}{2}=0{,}22\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 0,22.</strong></p></div>",
-  "familj": "Trigonometriska ettan och identiteter",
-  "formaga": [
-    "problemlösning",
-    "begrepp"
-  ],
-  "miniräknare": false,
-  "geogebra": false,
-  "självrättning": true,
-  "ledtrad": "<p>Kvadrera uttrycket. Vilken identitet förenklar \\(\\sin^2x+\\cos^2x\\)?</p>",
-  "spel": true,
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.22,
-  "tolerans": 0.0001
-},
+    "id": "1.676",
+    "kap": 1,
+    "omr": "trig_identiteter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Det gäller att \\(\\sin x+\\cos x=1{,}2\\).</p><p>Beräkna \\(\\sin x\\cos x\\) utan att bestämma \\(x\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[(\\sin x+\\cos x)^2=1{,}2^2=1{,}44\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((a+b)^2=a^2+2ab+b^2\\)</p><div class=\"facit-matte\">\\[\\sin^2x+\\cos^2x+2\\sin x\\cos x=1{,}44\\]</div></li><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[1+2\\sin x\\cos x=1{,}44\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[2\\sin x\\cos x=0{,}44\\ \\Rightarrow\\ \\sin x\\cos x=0{,}22\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,22</p></div>",
+    "familj": "Trigonometriska ettan och identiteter",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Kvadrera uttrycket. Vilken identitet förenklar \\(\\sin^2x+\\cos^2x\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.22,
+    "tolerans": 0.0001
+  },
   {
     "id": "1.574",
     "kap": 1,
@@ -8655,7 +8675,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Det gäller att \\(\\sin v=0{,}6\\) och \\(\\cos v=0{,}8\\). Bestäm \\(\\sin2v\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot0{,}6\\cdot0{,}8=0{,}96\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,96</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2v=2\\sin v\\cos v\\)</p><p>Både sinus och cosinus är givna.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(\\sin v=0{,}6\\) och \\(\\cos v=0{,}8\\)</p><div class=\"facit-matte\">\\[\\sin2v=2\\cdot0{,}6\\cdot0{,}8=0{,}96\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,96</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -8687,7 +8707,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Det gäller att \\(\\cos v=0{,}6\\). Bestäm \\(\\cos2v\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\cos2v=2\\cos^2v-1=2\\cdot0{,}36-1=-0{,}28\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −0,28</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Formen \\(\\cos2v=2\\cos^2v-1\\) behöver bara cosinus</p><p>Sinus är inte given, så välj formen med bara \\(\\cos v\\).</p></li><li><p class=\"facit-rubrik\">Sätt in \\(\\cos v=0{,}6\\)</p><div class=\"facit-matte\">\\[\\cos2v=2\\cdot0{,}6^2-1=2\\cdot0{,}36-1=-0{,}28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −0,28</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -8721,7 +8741,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen algebraiskt:</p>\n<p>\\[\\frac1{\\cos^2x}=1-\\tan x.\\]</p>\n<p>Ange alla lösningar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> Använd</p><div class=\"facit-matte\">\\[1/\\cos^2x=1+\\tan^2x\\].</div></div></li><li><p>\\[1+\\tan^2x=1-\\tan x\\Rightarrow\\tan x(\\tan x+1)=0.\\]</p></li><li><p>Alltså \\(\\tan x=0\\) eller \\(\\tan x=-1\\).</p></li><li><p>Därför</p></li><li><p>\\[\\boxed{x=180^\\circ n\\quad\\text{eller}\\quad x=135^\\circ+180^\\circ n},\\qquad n\\in\\mathbb Z.\\]</p></li><li><p>Ingen av lösningarna ger \\(\\cos x=0\\), så alla är tillåtna.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan delad med \\(\\cos^2x\\): \\(\\dfrac{1}{\\cos^2x}=1+\\tan^2x\\)</p><div class=\"facit-matte\">\\[1+\\tan^2x=1-\\tan x\\]</div></li><li><p class=\"facit-rubrik\">Samla allt i vänsterledet</p><div class=\"facit-matte\">\\[\\tan^2x+\\tan x=0\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(\\tan x\\)</p><div class=\"facit-matte\">\\[\\tan x\\,(\\tan x+1)=0\\]</div></li><li><p class=\"facit-rubrik\">\\(\\tan x=0\\)</p><div class=\"facit-matte\">\\[x=n\\cdot180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\tan x=-1\\): referensvinkel \\(45^\\circ\\), tangens negativ i andra kvadranten</p><div class=\"facit-matte\">\\[x=135^\\circ+n\\cdot180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Lösningarna är tillåtna</p><p>Ingen av vinklarna ger \\(\\cos x=0\\), så vänsterledet är definierat för alla.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=n\\cdot180^\\circ\\) eller \\(x=135^\\circ+n\\cdot180^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -8750,7 +8770,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[\\cos2x=\\sin x\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\cos2x=1-2\\sin^2x\\]:</div></div></li><li><p>\\[1-2\\sin^2x=\\sin x.\\]</p></li><li><p>Sätt \\(u=\\sin x\\): \\(2u^2+u-1=(2u-1)(u+1)=0\\).</p></li><li><p>Alltså \\(\\sin x=1/2\\) eller \\(\\sin x=-1\\), vilket ger</p></li><li><p>\\[\\boxed{x=30^\\circ,\\ 150^\\circ,\\ 270^\\circ}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(\\cos2x\\) med sinus: \\(\\cos2x=1-2\\sin^2x\\)</p><div class=\"facit-matte\">\\[1-2\\sin^2x=\\sin x\\]</div></li><li><p class=\"facit-rubrik\">Sätt \\(u=\\sin x\\) och skriv på normalform \\(u^2+pu+q=0\\)</p><div class=\"facit-matte\">\\[2u^2+u-1=0\\ \\Rightarrow\\ u^2+\\tfrac12u-\\tfrac12=0\\]</div></li><li><p class=\"facit-rubrik\">Pq-formeln: \\(u=-\\tfrac p2\\pm\\sqrt{\\left(\\tfrac p2\\right)^2-q}\\)</p><div class=\"facit-matte\">\\[u=-\\frac14\\pm\\sqrt{\\frac{1}{16}+\\frac12}=-\\frac14\\pm\\frac34\\]</div></li><li><p class=\"facit-rubrik\">Två värden på \\(\\sin x\\)</p><div class=\"facit-matte\">\\[\\sin x=\\frac12\\quad\\text{eller}\\quad\\sin x=-1\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=\\tfrac12\\): första och andra kvadranten</p><div class=\"facit-matte\">\\[x=30^\\circ,\\quad x=180^\\circ-30^\\circ=150^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=-1\\): längst ned på enhetscirkeln</p><div class=\"facit-matte\">\\[x=270^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ,\\ 150^\\circ\\) och \\(270^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -9267,7 +9287,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[\\sin2x+\\sin x=0\\]</p><p>för \\(0\\le x&lt;360^\\circ\\). Lös algebraiskt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin2x=2\\sin x\\cos x\\]:</div></div></li><li><p>\\[\\sin x(2\\cos x+1)=0.\\]</p></li><li><p>Alltså \\(\\sin x=0\\) eller \\(\\cos x=-1/2\\).</p></li><li><p>I intervallet får vi</p></li><li><p>\\[\\boxed{x=0,\\ 120^\\circ,\\ 180^\\circ,\\ 240^\\circ}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2x=2\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[2\\sin x\\cos x+\\sin x=0\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(\\sin x\\) (dela inte med den!)</p><div class=\"facit-matte\">\\[\\sin x\\,(2\\cos x+1)=0\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=0\\)</p><div class=\"facit-matte\">\\[x=0^\\circ,\\ 180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=-\\tfrac12\\): referensvinkel \\(60^\\circ\\), andra och tredje kvadranten</p><div class=\"facit-matte\">\\[x=180^\\circ-60^\\circ=120^\\circ,\\quad x=180^\\circ+60^\\circ=240^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 120^\\circ,\\ 180^\\circ\\) och \\(240^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -9425,7 +9445,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös algebraiskt.</p><p>a) \\(2\\sin x\\cos x=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sin^2x=\\frac34\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2\\cos^2x-1=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin x(2\\cos x-1)=0\\)</p><p>Ange alla lösningar i grader.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>En produkt är noll när minst en faktor är noll. Alltså \\(\\sin x=0\\) eller \\(\\cos x=0\\). Tillsammans ger nollställena en vinkel var \\(90^\\circ\\).</p><p><strong>Svar:</strong> \\(x=90^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Ta hänsyn till båda tecknen: \\(\\sin x=\\pm\\sqrt3/2\\). Referensvinkeln är \\(60^\\circ\\); båda tecknen ger vinklar i alla fyra kvadranter.</p><p><strong>Svar:</strong> \\(x=60^\\circ+180^\\circ n\\) eller \\(x=120^\\circ+180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Flytta över 1 och dividera med 2: \\(\\cos^2x=1/2\\), så \\(\\cos x=\\pm\\sqrt2/2\\). Referensvinkeln är \\(45^\\circ\\).</p><p><strong>Svar:</strong> \\(x=45^\\circ+90^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>En produkt är noll när minst en faktor är noll: \\(\\sin x=0\\) eller \\(\\cos x=1/2\\). Det ger \\(180^\\circ n\\) respektive vinklarna \\(60^\\circ\\) och \\(300^\\circ\\) med perioden \\(360^\\circ\\).</p><p><strong>Svar:</strong> \\(x=180^\\circ n\\), \\(x=60^\\circ+360^\\circ n\\) eller \\(x=300^\\circ+360^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(2\\sin x\\cos x=\\sin2x\\)</p><div class=\"facit-matte\">\\[\\sin2x=0\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin w=0\\) när \\(w=n\\cdot180^\\circ\\)</p><div class=\"facit-matte\">\\[2x=n\\cdot180^\\circ\\ \\Rightarrow\\ x=n\\cdot90^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med nollproduktmetoden</p><p>\\(\\sin x=0\\) ger \\(0^\\circ, 180^\\circ,\\dots\\) och \\(\\cos x=0\\) ger \\(90^\\circ, 270^\\circ,\\dots\\). Tillsammans en lösning var \\(90^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=n\\cdot90^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra roten ur båda leden: två tecken</p><div class=\"facit-matte\">\\[\\sin^2x=\\frac34\\ \\Rightarrow\\ \\sin x=\\pm\\frac{\\sqrt3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkeln är \\(60^\\circ\\)</p><p>\\(\\sin x=\\tfrac{\\sqrt3}{2}\\) ger \\(60^\\circ\\) och \\(120^\\circ\\). \\(\\sin x=-\\tfrac{\\sqrt3}{2}\\) ger \\(240^\\circ\\) och \\(300^\\circ\\).</p></li><li><p class=\"facit-rubrik\">Lösningarna upprepas var \\(180^\\circ\\)</p><p>\\(240^\\circ=60^\\circ+180^\\circ\\) och \\(300^\\circ=120^\\circ+180^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=60^\\circ+n\\cdot180^\\circ\\) eller \\(x=120^\\circ+n\\cdot180^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut \\(\\cos^2x\\)</p><div class=\"facit-matte\">\\[2\\cos^2x=1\\ \\Rightarrow\\ \\cos^2x=\\frac12\\ \\Rightarrow\\ \\cos x=\\pm\\frac{\\sqrt2}{2}\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkeln är \\(45^\\circ\\), en lösning i varje kvadrant</p><p>\\(45^\\circ,\\ 135^\\circ,\\ 225^\\circ,\\ 315^\\circ\\) ligger \\(90^\\circ\\) från varandra.</p></li><li><p class=\"facit-rubrik\">Alternativ: dubbla vinkeln \\(2\\cos^2x-1=\\cos2x\\)</p><div class=\"facit-matte\">\\[\\cos2x=0\\ \\Rightarrow\\ 2x=90^\\circ+n\\cdot180^\\circ\\ \\Rightarrow\\ x=45^\\circ+n\\cdot90^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=45^\\circ+n\\cdot90^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollproduktmetoden: minst en faktor är noll</p><p>Antingen \\(\\sin x=0\\) eller \\(2\\cos x-1=0\\).</p></li><li><p class=\"facit-rubrik\">\\(\\sin x=0\\)</p><div class=\"facit-matte\">\\[x=n\\cdot180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=\\tfrac12\\): första och fjärde kvadranten</p><div class=\"facit-matte\">\\[x=60^\\circ+n\\cdot360^\\circ\\quad\\text{eller}\\quad x=300^\\circ+n\\cdot360^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=n\\cdot180^\\circ\\), \\(x=60^\\circ+n\\cdot360^\\circ\\) eller \\(x=300^\\circ+n\\cdot360^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -9470,7 +9490,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(2\\sin x\\cos x=0\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>En produkt är noll när minst en faktor är noll. Alltså \\(\\sin x=0\\) eller \\(\\cos x=0\\). Tillsammans ger nollställena en vinkel var \\(90^\\circ\\).</p><p><strong>Svar:</strong> \\(x=90^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(2\\sin x\\cos x=\\sin2x\\)</p><div class=\"facit-matte\">\\[\\sin2x=0\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin w=0\\) när \\(w=n\\cdot180^\\circ\\)</p><div class=\"facit-matte\">\\[2x=n\\cdot180^\\circ\\ \\Rightarrow\\ x=n\\cdot90^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med nollproduktmetoden</p><p>\\(\\sin x=0\\) ger \\(0^\\circ, 180^\\circ,\\dots\\) och \\(\\cos x=0\\) ger \\(90^\\circ, 270^\\circ,\\dots\\). Tillsammans en lösning var \\(90^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=n\\cdot90^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -9479,7 +9499,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\sin^2x=\\frac34\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Ta hänsyn till båda tecknen: \\(\\sin x=\\pm\\sqrt3/2\\). Referensvinkeln är \\(60^\\circ\\); båda tecknen ger vinklar i alla fyra kvadranter.</p><p><strong>Svar:</strong> \\(x=60^\\circ+180^\\circ n\\) eller \\(x=120^\\circ+180^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra roten ur båda leden: två tecken</p><div class=\"facit-matte\">\\[\\sin^2x=\\frac34\\ \\Rightarrow\\ \\sin x=\\pm\\frac{\\sqrt3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkeln är \\(60^\\circ\\)</p><p>\\(\\sin x=\\tfrac{\\sqrt3}{2}\\) ger \\(60^\\circ\\) och \\(120^\\circ\\). \\(\\sin x=-\\tfrac{\\sqrt3}{2}\\) ger \\(240^\\circ\\) och \\(300^\\circ\\).</p></li><li><p class=\"facit-rubrik\">Lösningarna upprepas var \\(180^\\circ\\)</p><p>\\(240^\\circ=60^\\circ+180^\\circ\\) och \\(300^\\circ=120^\\circ+180^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=60^\\circ+n\\cdot180^\\circ\\) eller \\(x=120^\\circ+n\\cdot180^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -9488,7 +9508,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(2\\cos^2x-1=0\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Flytta över 1 och dividera med 2: \\(\\cos^2x=1/2\\), så \\(\\cos x=\\pm\\sqrt2/2\\). Referensvinkeln är \\(45^\\circ\\).</p><p><strong>Svar:</strong> \\(x=45^\\circ+90^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut \\(\\cos^2x\\)</p><div class=\"facit-matte\">\\[2\\cos^2x=1\\ \\Rightarrow\\ \\cos^2x=\\frac12\\ \\Rightarrow\\ \\cos x=\\pm\\frac{\\sqrt2}{2}\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkeln är \\(45^\\circ\\), en lösning i varje kvadrant</p><p>\\(45^\\circ,\\ 135^\\circ,\\ 225^\\circ,\\ 315^\\circ\\) ligger \\(90^\\circ\\) från varandra.</p></li><li><p class=\"facit-rubrik\">Alternativ: dubbla vinkeln \\(2\\cos^2x-1=\\cos2x\\)</p><div class=\"facit-matte\">\\[\\cos2x=0\\ \\Rightarrow\\ 2x=90^\\circ+n\\cdot180^\\circ\\ \\Rightarrow\\ x=45^\\circ+n\\cdot90^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=45^\\circ+n\\cdot90^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -9497,7 +9517,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\sin x(2\\cos x-1)=0\\)</p><p>Ange alla lösningar i grader.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>En produkt är noll när minst en faktor är noll: \\(\\sin x=0\\) eller \\(\\cos x=1/2\\). Det ger \\(180^\\circ n\\) respektive vinklarna \\(60^\\circ\\) och \\(300^\\circ\\) med perioden \\(360^\\circ\\).</p><p><strong>Svar:</strong> \\(x=180^\\circ n\\), \\(x=60^\\circ+360^\\circ n\\) eller \\(x=300^\\circ+360^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollproduktmetoden: minst en faktor är noll</p><p>Antingen \\(\\sin x=0\\) eller \\(2\\cos x-1=0\\).</p></li><li><p class=\"facit-rubrik\">\\(\\sin x=0\\)</p><div class=\"facit-matte\">\\[x=n\\cdot180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=\\tfrac12\\): första och fjärde kvadranten</p><div class=\"facit-matte\">\\[x=60^\\circ+n\\cdot360^\\circ\\quad\\text{eller}\\quad x=300^\\circ+n\\cdot360^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=n\\cdot180^\\circ\\), \\(x=60^\\circ+n\\cdot360^\\circ\\) eller \\(x=300^\\circ+n\\cdot360^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -9974,7 +9994,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(2\\cos^2x+\\sin x=1\\) för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skriv</p><div class=\"facit-matte\">\\[\\cos^2x=1-\\sin^2x\\]:</div></div></li><li><p>\\[2(1-\\sin^2x)+\\sin x=1\\Rightarrow2\\sin^2x-\\sin x-1=0.\\]</p></li><li><p>Faktorisera:</p></li><li><p>\\[(2\\sin x+1)(\\sin x-1)=0.\\]</p></li><li><p>Alltså \\(\\sin x=-1/2\\) eller \\(\\sin x=1\\).</p></li><li><p>I intervallet:</p></li><li><p>\\[\\boxed{x=90^\\circ,\\ 210^\\circ,\\ 330^\\circ}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\cos^2x=1-\\sin^2x\\)</p><div class=\"facit-matte\">\\[2(1-\\sin^2x)+\\sin x=1\\]</div></li><li><p class=\"facit-rubrik\">Sätt \\(u=\\sin x\\) och skriv på normalform</p><div class=\"facit-matte\">\\[-2u^2+u+1=0\\ \\Rightarrow\\ u^2-\\tfrac12u-\\tfrac12=0\\]</div></li><li><p class=\"facit-rubrik\">Pq-formeln: \\(u=-\\tfrac p2\\pm\\sqrt{\\left(\\tfrac p2\\right)^2-q}\\)</p><div class=\"facit-matte\">\\[u=\\frac14\\pm\\sqrt{\\frac{1}{16}+\\frac12}=\\frac14\\pm\\frac34\\]</div></li><li><p class=\"facit-rubrik\">Två värden på \\(\\sin x\\)</p><div class=\"facit-matte\">\\[\\sin x=1\\quad\\text{eller}\\quad\\sin x=-\\frac12\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=1\\): högst upp på enhetscirkeln</p><div class=\"facit-matte\">\\[x=90^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=-\\tfrac12\\): tredje och fjärde kvadranten</p><div class=\"facit-matte\">\\[x=180^\\circ+30^\\circ=210^\\circ,\\quad x=360^\\circ-30^\\circ=330^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=90^\\circ,\\ 210^\\circ\\) och \\(330^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -10017,7 +10037,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös \\(2\\sin x=1\\) i intervallet \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera sinus först.</p></li><li><div class=\"facit-berakning\"><p>Då blir ekvationen</p><div class=\"facit-matte\">\\[\\sin x=1/2\\].</div></div></li><li><p>I enhetscirkeln är y-koordinaten \\(1/2\\) i första och andra kvadranten.</p></li><li><p>Referensvinkeln är \\(30^\\circ\\).</p></li><li><p>På intervallet \\(0\\le x&lt;360^\\circ\\) får vi därför exakt två lösningar:</p></li><li><p>\\[x=30^\\circ\\quad\\text{eller}\\quad x=150^\\circ.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\{30^\\circ,150^\\circ\\}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Isolera sinus</p><div class=\"facit-matte\">\\[2\\sin x=1\\ \\Rightarrow\\ \\sin x=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkeln: \\(\\sin30^\\circ=\\tfrac12\\)</p><p>Sinus är positiv i första och andra kvadranten.</p></li><li><p class=\"facit-rubrik\">Symmetri: \\(\\sin(180^\\circ-v)=\\sin v\\)</p><div class=\"facit-matte\">\\[x=30^\\circ\\quad\\text{eller}\\quad x=180^\\circ-30^\\circ=150^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ\\) eller \\(x=150^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur",
@@ -10314,7 +10334,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ange alla lösningar. Vinkeln \\(x\\) mäts i grader.</p>\n<p>a) \\(\\tan x=1\\)<br>\nb) \\(4\\sin(2x-60^\\circ)=2\\)<br>\nc) \\(\\sin x\\cos x=0\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Isolera den trigonometriska funktionen, hitta grundvinklarna i enhetscirkeln och använd sedan funktionens periodicitet för att få alla lösningar.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens har perioden \\(180^\\circ\\):</p></li></ol></div></div>\n<p class=\"facit-svar\"><strong>\\(x=45^\\circ+180^\\circ n\\).</strong></p>\n<div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(2x-60^\\circ)=\\frac12\\].</div></li><li><p>Alltså</p></li></ol></div></div>\n<ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\n2x-60^\\circ=30^\\circ+360^\\circ n\n\\]\neller\n\\[\n2x-60^\\circ=150^\\circ+360^\\circ n.\n\\]</p></li><li><p>Därför</p></li></ol>\n\n<p class=\"facit-svar\"><strong>\\(x=45^\\circ+180^\\circ n\\) eller \\(x=105^\\circ+180^\\circ n\\).</strong></p>\n<div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En produkt är noll om någon faktor är noll:</p></li></ol></div></div>\n<ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\n\\sin x=0 \\quad\\text{eller}\\quad \\cos x=0.\n\\]</p></li><li><p>Tillsammans ger detta <strong>\\(x=90^\\circ n\\)</strong>.</p></li><li><p>I alla fall är \\(n\\in\\mathbb Z\\).</p></li></ol>\n\n</div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in lösningarna i ursprungsekvationen och kontrollera att ingen lösningsfamilj saknas.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grundlösning: \\(\\tan45^\\circ=1\\)</p><p>Vi behöver bara en grundlösning, eftersom tangens upprepar sig efter ett halvt varv.</p></li><li><p class=\"facit-rubrik\">Tangens har perioden \\(180^\\circ\\)</p><div class=\"facit-matte\">\\[x=45^\\circ+n\\cdot180^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=45^\\circ+n\\cdot180^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela båda leden med 4</p><div class=\"facit-matte\">\\[\\sin(2x-60^\\circ)=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin w=\\tfrac12\\) ger två lösningsfamiljer</p><div class=\"facit-matte\">\\[2x-60^\\circ=30^\\circ+n\\cdot360^\\circ\\quad\\text{eller}\\quad 2x-60^\\circ=150^\\circ+n\\cdot360^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Lägg till \\(60^\\circ\\) och dela med 2 (även perioden delas)</p><div class=\"facit-matte\">\\[x=45^\\circ+n\\cdot180^\\circ\\quad\\text{eller}\\quad x=105^\\circ+n\\cdot180^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=45^\\circ+n\\cdot180^\\circ\\) eller \\(x=105^\\circ+n\\cdot180^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollproduktmetoden: minst en faktor är noll</p><p>\\(\\sin x=0\\) eller \\(\\cos x=0\\).</p></li><li><p class=\"facit-rubrik\">\\(\\sin x=0\\) ger \\(n\\cdot180^\\circ\\), \\(\\cos x=0\\) ger \\(90^\\circ+n\\cdot180^\\circ\\)</p><p>Tillsammans: \\(0^\\circ, 90^\\circ, 180^\\circ, 270^\\circ,\\dots\\), alltså en lösning var \\(90^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=n\\cdot90^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -10354,7 +10374,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(\\tan x=1\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens har perioden \\(180^\\circ\\):</p><div class=\"facit-matte\">\\[x=45^\\circ+180^\\circ n\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grundlösning: \\(\\tan45^\\circ=1\\)</p><p>Vi behöver bara en grundlösning, eftersom tangens upprepar sig efter ett halvt varv.</p></li><li><p class=\"facit-rubrik\">Tangens har perioden \\(180^\\circ\\)</p><div class=\"facit-matte\">\\[x=45^\\circ+n\\cdot180^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=45^\\circ+n\\cdot180^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -10363,7 +10383,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(4\\sin(2x-60^\\circ)=2\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin(2x-60^\\circ)=\\frac12\\].</div></li><li><p>Alltså</p></li><li><p>\\[ 2x-60^\\circ=30^\\circ+360^\\circ n \\]<br>eller<br>\\[ 2x-60^\\circ=150^\\circ+360^\\circ n. \\]</p></li><li><p>Därför</p></li><li><p>\\(x=45^\\circ+180^\\circ n\\) eller \\(x=105^\\circ+180^\\circ n\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela båda leden med 4</p><div class=\"facit-matte\">\\[\\sin(2x-60^\\circ)=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin w=\\tfrac12\\) ger två lösningsfamiljer</p><div class=\"facit-matte\">\\[2x-60^\\circ=30^\\circ+n\\cdot360^\\circ\\quad\\text{eller}\\quad 2x-60^\\circ=150^\\circ+n\\cdot360^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Lägg till \\(60^\\circ\\) och dela med 2 (även perioden delas)</p><div class=\"facit-matte\">\\[x=45^\\circ+n\\cdot180^\\circ\\quad\\text{eller}\\quad x=105^\\circ+n\\cdot180^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=45^\\circ+n\\cdot180^\\circ\\) eller \\(x=105^\\circ+n\\cdot180^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div>",
         "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 1
@@ -10371,7 +10391,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin x\\cos x=0\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En produkt är noll om någon faktor är noll:</p></li><li><p>\\[ \\sin x=0 \\quad\\text{eller}\\quad \\cos x=0. \\]</p></li><li><div class=\"facit-berakning\"><p>Tillsammans ger detta</p><div class=\"facit-matte\">\\[x=90^\\circ n\\].</div></div></li><li><p>I alla fall är \\(n\\in\\mathbb Z\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollproduktmetoden: minst en faktor är noll</p><p>\\(\\sin x=0\\) eller \\(\\cos x=0\\).</p></li><li><p class=\"facit-rubrik\">\\(\\sin x=0\\) ger \\(n\\cdot180^\\circ\\), \\(\\cos x=0\\) ger \\(90^\\circ+n\\cdot180^\\circ\\)</p><p>Tillsammans: \\(0^\\circ, 90^\\circ, 180^\\circ, 270^\\circ,\\dots\\), alltså en lösning var \\(90^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=n\\cdot90^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -10396,7 +10416,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[2\\cos^2x-3\\sin x=0\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Idé:</strong> Skriv \\(\\cos^2x=1-\\sin^2x\\) så att ekvationen bara innehåller sinus.</p></li><li><p>\\[2(1-\\sin^2x)-3\\sin x=0\\]</p></li><li><p>\\[2\\sin^2x+3\\sin x-2=0.\\]</p></li><li><p>Faktorisera:</p></li><li><p>\\[(2\\sin x-1)(\\sin x+2)=0.\\]</p></li><li><p>Den andra faktorn kan inte vara noll eftersom \\(-1\\le\\sin x\\le1\\).</p></li><li><p>Alltså</p></li><li><p>\\[\\sin x=\\frac12.\\]</p></li><li><p>I intervallet får vi</p></li><li><p>\\[\\boxed{x=30^\\circ\\ \\text{eller}\\ x=150^\\circ}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\cos^2x=1-\\sin^2x\\)</p><div class=\"facit-matte\">\\[2(1-\\sin^2x)-3\\sin x=0\\]</div></li><li><p class=\"facit-rubrik\">Sätt \\(u=\\sin x\\) och skriv på normalform</p><div class=\"facit-matte\">\\[-2u^2-3u+2=0\\ \\Rightarrow\\ u^2+\\tfrac32u-1=0\\]</div></li><li><p class=\"facit-rubrik\">Pq-formeln: \\(u=-\\tfrac p2\\pm\\sqrt{\\left(\\tfrac p2\\right)^2-q}\\)</p><div class=\"facit-matte\">\\[u=-\\frac34\\pm\\sqrt{\\frac{9}{16}+1}=-\\frac34\\pm\\frac54\\]</div></li><li><p class=\"facit-rubrik\">Två värden, men \\(-1\\le\\sin x\\le1\\)</p><div class=\"facit-matte\">\\[\\sin x=\\frac12\\quad\\text{eller}\\quad\\sin x=-2\\ \\text{(omöjligt)}\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=\\tfrac12\\): första och andra kvadranten</p><div class=\"facit-matte\">\\[x=30^\\circ,\\quad x=150^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ\\) eller \\(x=150^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -10551,7 +10571,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös algebraiskt</p><p>\\[2\\sin^2x-3\\sin x+1=0\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[u=\\sin x\\]:</div></div></li><li><p>\\[2u^2-3u+1=(2u-1)(u-1)=0.\\]</p></li><li><p>Alltså \\(\\sin x=1/2\\) eller \\(\\sin x=1\\), vilket i intervallet ger</p></li><li><p>\\[\\boxed{x=30^\\circ,\\ 90^\\circ,\\ 150^\\circ}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt \\(u=\\sin x\\) och dela med 2 (normalform)</p><div class=\"facit-matte\">\\[u^2-\\tfrac32u+\\tfrac12=0\\]</div></li><li><p class=\"facit-rubrik\">Pq-formeln: \\(u=-\\tfrac p2\\pm\\sqrt{\\left(\\tfrac p2\\right)^2-q}\\)</p><div class=\"facit-matte\">\\[u=\\frac34\\pm\\sqrt{\\frac{9}{16}-\\frac12}=\\frac34\\pm\\frac14\\]</div></li><li><p class=\"facit-rubrik\">Två värden på \\(\\sin x\\)</p><div class=\"facit-matte\">\\[\\sin x=1\\quad\\text{eller}\\quad\\sin x=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=1\\) ger \\(90^\\circ\\), \\(\\sin x=\\tfrac12\\) ger \\(30^\\circ\\) och \\(150^\\circ\\)</p><div class=\"facit-matte\">\\[x=30^\\circ,\\ 90^\\circ,\\ 150^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ,\\ 90^\\circ\\) och \\(150^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -10761,7 +10781,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ange alla lösningar till ekvationen</p>\n<p>\\[\\sin 2x=\\cos x,\\]</p>\n<p>där \\(x\\) mäts i grader.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Isolera den trigonometriska funktionen, hitta grundvinklarna i enhetscirkeln och använd sedan funktionens periodicitet för att få alla lösningar.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd formeln</p><div class=\"facit-matte\">\\[\\sin2x=2\\sin x\\cos x\\]:</div></div></li><li><p>\\[\n2\\sin x\\cos x=\\cos x\n\\]</p></li><li><p>\\[\n\\cos x(2\\sin x-1)=0.\n\\]</p></li><li><p>Alltså gäller antingen</p></li><li><p>\\[\n\\cos x=0 \\Rightarrow x=90^\\circ+180^\\circ n,\n\\]</p></li><li><p>eller</p></li><li><p>\\[\n\\sin x=\\frac12 \\Rightarrow\nx=30^\\circ+360^\\circ n \\quad\\text{eller}\\quad\nx=150^\\circ+360^\\circ n.\n\\]</p></li></ol>\n\n\n\n\n\n\n<p class=\"facit-svar\"><strong>Alla lösningar fås av dessa tre olika lösningar, där \\(n\\in\\mathbb Z\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in lösningarna i ursprungsekvationen och kontrollera att ingen lösningsfamilj saknas.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2x=2\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[2\\sin x\\cos x=\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Flytta över och bryt ut \\(\\cos x\\) (dela inte med den!)</p><div class=\"facit-matte\">\\[\\cos x\\,(2\\sin x-1)=0\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=0\\)</p><div class=\"facit-matte\">\\[x=90^\\circ+n\\cdot180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=\\tfrac12\\): första och andra kvadranten</p><div class=\"facit-matte\">\\[x=30^\\circ+n\\cdot360^\\circ\\quad\\text{eller}\\quad x=150^\\circ+n\\cdot360^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=90^\\circ+n\\cdot180^\\circ\\), \\(x=30^\\circ+n\\cdot360^\\circ\\) eller \\(x=150^\\circ+n\\cdot360^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -10995,7 +11015,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös \\(\\cos(2x)=0\\) i intervallet \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Sätt \\(u=2x\\) så att vi först löser en vanlig cosinusekvation.</p></li><li><p>\\(\\cos u=0\\) när \\(u=90^\\circ+180^\\circ k\\).</p></li><li><p>Eftersom \\(0\\le x&lt;360^\\circ\\) gäller \\(0\\le u&lt;720^\\circ\\).</p></li><li><div class=\"facit-berakning\"><p>Det ger</p><div class=\"facit-matte\">\\[u=90^\\circ,270^\\circ,450^\\circ,630^\\circ\\].</div></div></li><li><p>Dividera sedan varje värde med 2:</p></li><li><p>\\[x=45^\\circ,135^\\circ,225^\\circ,315^\\circ.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> de fyra värdena ovan.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt \\(w=2x\\)</p><p>Då är \\(0^\\circ\\le w\\lt 720^\\circ\\), alltså två varv.</p></li><li><p class=\"facit-rubrik\">\\(\\cos w=0\\) när \\(w=90^\\circ+n\\cdot180^\\circ\\)</p><div class=\"facit-matte\">\\[w=90^\\circ,\\ 270^\\circ,\\ 450^\\circ,\\ 630^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Dela med 2 för att få \\(x\\)</p><div class=\"facit-matte\">\\[x=45^\\circ,\\ 135^\\circ,\\ 225^\\circ,\\ 315^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=45^\\circ,\\ 135^\\circ,\\ 225^\\circ\\) och \\(315^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur",
@@ -11199,7 +11219,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ange samtliga lösningar till \\(\\sin x\\cos x=0\\). Vinkeln \\(x\\) mäts i grader.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Använd nollprodukt: minst en av faktorerna \\(\\sin x\\) och \\(\\cos x\\) måste vara noll.</p></li><li><p>En produkt är 0 om minst en faktor är 0.</p></li><li><p>\\(\\sin x=0\\) ger \\(x=180^\\circ n\\).</p></li><li><p>\\(\\cos x=0\\) ger \\(x=90^\\circ+180^\\circ n\\).</p></li><li><div class=\"facit-berakning\"><p>Tillsammans:</p><div class=\"facit-matte\">\\[\\boxed{x=90^\\circ n}\\],</div></div></li><li><p>\\(n\\in\\mathbb Z\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollproduktmetoden: minst en faktor är noll</p><p>\\(\\sin x=0\\) eller \\(\\cos x=0\\).</p></li><li><p class=\"facit-rubrik\">\\(\\sin x=0\\): punkterna \\((1,0)\\) och \\((-1,0)\\)</p><div class=\"facit-matte\">\\[x=n\\cdot180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=0\\): punkterna \\((0,1)\\) och \\((0,-1)\\)</p><div class=\"facit-matte\">\\[x=90^\\circ+n\\cdot180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Tillsammans en lösning var \\(90^\\circ\\)</p><div class=\"facit-matte\">\\[x=n\\cdot90^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=n\\cdot90^\\circ\\), där \\(n\\in\\mathbb Z\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -11228,7 +11248,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\sin 2x=\\cos x\\)<br>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Isolera den trigonometriska funktionen, hitta grundvinklarna i enhetscirkeln och använd sedan funktionens periodicitet för att få alla lösningar.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\(\\sin2x=2\\sin x\\cos x\\): \\(2\\sin x\\cos x=\\cos x\\).</p></li><li><div class=\"facit-berakning\"><p>Faktorisera:</p><div class=\"facit-matte\">\\[\\cos x(2\\sin x-1)=0\\].</div></div></li><li><p>Därför \\(\\cos x=0\\) eller \\(\\sin x=1/2\\).</p></li><li><div class=\"facit-berakning\"><p>Lösningarna är</p><div class=\"facit-matte\">\\[\\boxed{x=30^\\circ,90^\\circ,150^\\circ,270^\\circ}\\].</div></div></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in lösningarna i ursprungsekvationen och kontrollera att ingen lösningsfamilj saknas.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2x=2\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[2\\sin x\\cos x-\\cos x=0\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(\\cos x\\)</p><div class=\"facit-matte\">\\[\\cos x\\,(2\\sin x-1)=0\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=0\\)</p><div class=\"facit-matte\">\\[x=90^\\circ,\\ 270^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=\\tfrac12\\)</p><div class=\"facit-matte\">\\[x=30^\\circ,\\ 150^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ,\\ 90^\\circ,\\ 150^\\circ\\) och \\(270^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -11354,7 +11374,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(2\\cos^2x-3\\cos x+1=0\\)<br>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Sätt \\(u=\\cos x\\), lös andragradsekvationen och översätt sedan varje tillåtet \\(u\\)-värde till vinklar.</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[u=\\cos x\\].</div></div></li><li><div class=\"facit-berakning\"><p>Då</p><div class=\"facit-matte\">\\[2u^2-3u+1=(2u-1)(u-1)=0\\].</div></div></li><li><p>Alltså \\(\\cos x=1/2\\) eller \\(\\cos x=1\\).</p></li><li><div class=\"facit-berakning\"><p>Lösningarna är</p><div class=\"facit-matte\">\\[\\boxed{x=0^\\circ,60^\\circ,300^\\circ}\\].</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt \\(u=\\cos x\\) och dela med 2 (normalform)</p><div class=\"facit-matte\">\\[u^2-\\tfrac32u+\\tfrac12=0\\]</div></li><li><p class=\"facit-rubrik\">Pq-formeln: \\(u=-\\tfrac p2\\pm\\sqrt{\\left(\\tfrac p2\\right)^2-q}\\)</p><div class=\"facit-matte\">\\[u=\\frac34\\pm\\sqrt{\\frac{9}{16}-\\frac12}=\\frac34\\pm\\frac14\\]</div></li><li><p class=\"facit-rubrik\">Två värden på \\(\\cos x\\)</p><div class=\"facit-matte\">\\[\\cos x=1\\quad\\text{eller}\\quad\\cos x=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=1\\) ger \\(0^\\circ\\); \\(\\cos x=\\tfrac12\\) ger första och fjärde kvadranten</p><div class=\"facit-matte\">\\[x=0^\\circ,\\quad x=60^\\circ,\\quad x=360^\\circ-60^\\circ=300^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 60^\\circ\\) och \\(300^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -11472,7 +11492,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\sin^2x=\\frac34\\)<br>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li><li><div class=\"facit-matte\">\\[\\sin x=\\pm\\sqrt3/2\\].</div></li><li><div class=\"facit-berakning\"><p>Det ger</p><div class=\"facit-matte\">\\[\\boxed{x=60^\\circ,120^\\circ,240^\\circ,300^\\circ}\\].</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra roten ur: glöm inte minustecknet</p><div class=\"facit-matte\">\\[\\sin x=\\pm\\frac{\\sqrt3}{2}\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=\\tfrac{\\sqrt3}{2}\\): första och andra kvadranten</p><div class=\"facit-matte\">\\[x=60^\\circ,\\ 120^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=-\\tfrac{\\sqrt3}{2}\\): tredje och fjärde kvadranten</p><div class=\"facit-matte\">\\[x=240^\\circ,\\ 300^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=60^\\circ,\\ 120^\\circ,\\ 240^\\circ\\) och \\(300^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -11518,7 +11538,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\sin2x=-\\sin x\\)<br>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\sin2x=2\\sin x\\cos x\\]:</div></div></li><li><p>\\[2\\sin x\\cos x=-\\sin x\\Rightarrow\\sin x(2\\cos x+1)=0.\\]</p></li><li><p>Alltså \\(\\sin x=0\\) eller \\(\\cos x=-1/2\\).</p></li><li><p>Därför</p></li><li><p>\\[\\boxed{x=0,\\ 120^\\circ,\\ 180^\\circ,\\ 240^\\circ}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2x=2\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[2\\sin x\\cos x+\\sin x=0\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(\\sin x\\)</p><div class=\"facit-matte\">\\[\\sin x\\,(2\\cos x+1)=0\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=0\\)</p><div class=\"facit-matte\">\\[x=0^\\circ,\\ 180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=-\\tfrac12\\): andra och tredje kvadranten</p><div class=\"facit-matte\">\\[x=120^\\circ,\\ 240^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 120^\\circ,\\ 180^\\circ\\) och \\(240^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -11564,7 +11584,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(2\\sin x\\cos x=\\sin x\\)<br>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li><li><div class=\"facit-berakning\"><p>Faktorisera:</p><div class=\"facit-matte\">\\[\\sin x(2\\cos x-1)=0\\].</div></div></li><li><p>Därför \\(\\sin x=0\\) eller \\(\\cos x=1/2\\).</p></li><li><div class=\"facit-berakning\"><p>Lösningarna är</p><div class=\"facit-matte\">\\[\\boxed{x=0^\\circ,60^\\circ,180^\\circ,300^\\circ}\\].</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta över högerledet</p><div class=\"facit-matte\">\\[2\\sin x\\cos x-\\sin x=0\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(\\sin x\\) i stället för att dela</p><div class=\"facit-matte\">\\[\\sin x\\,(2\\cos x-1)=0\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=0\\)</p><div class=\"facit-matte\">\\[x=0^\\circ,\\ 180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=\\tfrac12\\): första och fjärde kvadranten</p><div class=\"facit-matte\">\\[x=60^\\circ,\\ 300^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 60^\\circ,\\ 180^\\circ\\) och \\(300^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -11696,7 +11716,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\frac{1}{\\cos^2x}=2\\)<br>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Multiplicera med \\(\\cos^2x\\) och lös sedan den exakta ekvationen \\(\\cos^2x=1/2\\).</p></li><li><p>Ekvationen ger \\(\\cos^2x=1/2\\), alltså \\(\\cos x=\\pm\\sqrt2/2\\).</p></li><li><p>Samtliga fyra standardvinklar fungerar och tangens är definierad där.</p></li><li><div class=\"facit-matte\">\\[\\boxed{x=45^\\circ,135^\\circ,225^\\circ,315^\\circ}\\].</div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera båda leden med \\(\\cos^2x\\)</p><div class=\"facit-matte\">\\[1=2\\cos^2x\\ \\Rightarrow\\ \\cos^2x=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Dra roten ur: två tecken</p><div class=\"facit-matte\">\\[\\cos x=\\pm\\frac{\\sqrt2}{2}\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(45^\\circ\\) i alla fyra kvadranter</p><div class=\"facit-matte\">\\[x=45^\\circ,\\ 135^\\circ,\\ 225^\\circ,\\ 315^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Lösningarna är tillåtna</p><p>I ingen av dem är \\(\\cos x=0\\), så vänsterledet är definierat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=45^\\circ,\\ 135^\\circ,\\ 225^\\circ\\) och \\(315^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -11742,7 +11762,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös \\(\\cos2x=\\cos x\\) i \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skriv</p><div class=\"facit-matte\">\\[\\cos2x=2\\cos^2x-1\\]:</div></div></li><li><p>\\[2\\cos^2x-1=\\cos x.\\]</p></li><li><p>Sätt \\(u=\\cos x\\): \\(2u^2-u-1=(2u+1)(u-1)=0\\).</p></li><li><p>Alltså \\(\\cos x=-1/2\\) eller \\(\\cos x=1\\), vilket ger</p></li><li><p>\\[\\boxed{x=0,\\ 120^\\circ,\\ 240^\\circ}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(\\cos2x\\) med cosinus: \\(\\cos2x=2\\cos^2x-1\\)</p><div class=\"facit-matte\">\\[2\\cos^2x-1=\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Sätt \\(u=\\cos x\\) och skriv på normalform</p><div class=\"facit-matte\">\\[2u^2-u-1=0\\ \\Rightarrow\\ u^2-\\tfrac12u-\\tfrac12=0\\]</div></li><li><p class=\"facit-rubrik\">Pq-formeln: \\(u=-\\tfrac p2\\pm\\sqrt{\\left(\\tfrac p2\\right)^2-q}\\)</p><div class=\"facit-matte\">\\[u=\\frac14\\pm\\sqrt{\\frac{1}{16}+\\frac12}=\\frac14\\pm\\frac34\\]</div></li><li><p class=\"facit-rubrik\">Två värden på \\(\\cos x\\)</p><div class=\"facit-matte\">\\[\\cos x=1\\quad\\text{eller}\\quad\\cos x=-\\frac12\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=1\\) ger \\(0^\\circ\\); \\(\\cos x=-\\tfrac12\\) ger andra och tredje kvadranten</p><div class=\"facit-matte\">\\[x=0^\\circ,\\quad x=120^\\circ,\\quad x=240^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 120^\\circ\\) och \\(240^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur",
@@ -12156,7 +12176,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[2\\cos^2x-1=0.\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förenkla ekvationen med de trigonometriska formler som behövs och bestäm först möjliga värden på sinus, cosinus eller tangens.</p></li><li><p>Använd sedan enhetscirkeln och intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=45^\\circ,\\ 135^\\circ,\\ 225^\\circ,\\ 315^\\circ\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut \\(\\cos^2x\\)</p><div class=\"facit-matte\">\\[2\\cos^2x=1\\ \\Rightarrow\\ \\cos^2x=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Dra roten ur: två tecken</p><div class=\"facit-matte\">\\[\\cos x=\\pm\\frac{1}{\\sqrt2}=\\pm\\frac{\\sqrt2}{2}\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkeln \\(45^\\circ\\), en lösning i varje kvadrant</p><div class=\"facit-matte\">\\[x=45^\\circ,\\ 135^\\circ,\\ 225^\\circ,\\ 315^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=45^\\circ,\\ 135^\\circ,\\ 225^\\circ\\) och \\(315^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -12236,7 +12256,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[2\\cos^2x+3\\cos x+1=0.\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förenkla ekvationen med de trigonometriska formler som behövs och bestäm först möjliga värden på sinus, cosinus eller tangens.</p></li><li><p>Använd sedan enhetscirkeln och intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=120^\\circ,180^\\circ,\\ 240^\\circ\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt \\(u=\\cos x\\) och dela med 2 (normalform)</p><div class=\"facit-matte\">\\[u^2+\\tfrac32u+\\tfrac12=0\\]</div></li><li><p class=\"facit-rubrik\">Pq-formeln: \\(u=-\\tfrac p2\\pm\\sqrt{\\left(\\tfrac p2\\right)^2-q}\\)</p><div class=\"facit-matte\">\\[u=-\\frac34\\pm\\sqrt{\\frac{9}{16}-\\frac12}=-\\frac34\\pm\\frac14\\]</div></li><li><p class=\"facit-rubrik\">Två värden på \\(\\cos x\\)</p><div class=\"facit-matte\">\\[\\cos x=-\\frac12\\quad\\text{eller}\\quad\\cos x=-1\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=-\\tfrac12\\): andra och tredje kvadranten</p><div class=\"facit-matte\">\\[x=120^\\circ,\\ 240^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=-1\\): punkten \\((-1,0)\\)</p><div class=\"facit-matte\">\\[x=180^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=120^\\circ,\\ 180^\\circ\\) och \\(240^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -12275,7 +12295,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[\\sin2x=\\sin x.\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förenkla ekvationen med de trigonometriska formler som behövs och bestäm först möjliga värden på sinus, cosinus eller tangens.</p></li><li><p>Använd sedan enhetscirkeln och intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,60^\\circ,180^\\circ,\\ 300^\\circ\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2x=2\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[2\\sin x\\cos x-\\sin x=0\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(\\sin x\\)</p><div class=\"facit-matte\">\\[\\sin x\\,(2\\cos x-1)=0\\]</div></li><li><p class=\"facit-rubrik\">Två fall: \\(\\sin x=0\\) eller \\(\\cos x=\\tfrac12\\)</p><div class=\"facit-matte\">\\[x=0^\\circ,\\ 180^\\circ\\qquad x=60^\\circ,\\ 300^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 60^\\circ,\\ 180^\\circ\\) och \\(300^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -12316,7 +12336,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[\\sin2x=\\cos x.\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förenkla ekvationen med de trigonometriska formler som behövs och bestäm först möjliga värden på sinus, cosinus eller tangens.</p></li><li><p>Använd sedan enhetscirkeln och intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ,90^\\circ,\\ 150^\\circ,\\ 270^\\circ\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2x=2\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[2\\sin x\\cos x=\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Dela inte med \\(\\cos x\\): bryt ut den i stället</p><div class=\"facit-matte\">\\[\\cos x\\,(2\\sin x-1)=0\\]</div></li><li><p class=\"facit-rubrik\">Två fall: \\(\\cos x=0\\) eller \\(\\sin x=\\tfrac12\\)</p><div class=\"facit-matte\">\\[x=90^\\circ,\\ 270^\\circ\\qquad x=30^\\circ,\\ 150^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ,\\ 90^\\circ,\\ 150^\\circ\\) och \\(270^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -12357,7 +12377,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[\\cos2x=\\cos x.\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förenkla ekvationen med de trigonometriska formler som behövs och bestäm först möjliga värden på sinus, cosinus eller tangens.</p></li><li><p>Använd sedan enhetscirkeln och intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0,\\ 120^\\circ,\\ 240^\\circ\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj formen \\(\\cos2x=2\\cos^2x-1\\) så att bara cosinus finns kvar</p><div class=\"facit-matte\">\\[2\\cos^2x-\\cos x-1=0\\]</div></li><li><p class=\"facit-rubrik\">Sätt \\(u=\\cos x\\) och dela med 2</p><div class=\"facit-matte\">\\[u^2-\\tfrac12u-\\tfrac12=0\\]</div></li><li><p class=\"facit-rubrik\">Pq-formeln: \\(u=-\\tfrac p2\\pm\\sqrt{\\left(\\tfrac p2\\right)^2-q}\\)</p><div class=\"facit-matte\">\\[u=\\frac14\\pm\\frac34\\ \\Rightarrow\\ u=1\\ \\text{eller}\\ u=-\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Vinklar för \\(\\cos x=1\\) och \\(\\cos x=-\\tfrac12\\)</p><div class=\"facit-matte\">\\[x=0^\\circ\\qquad x=120^\\circ,\\ 240^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 120^\\circ\\) och \\(240^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -12433,7 +12453,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[2\\sin x\\cos x=\\frac12.\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förenkla ekvationen med de trigonometriska formler som behövs och bestäm först möjliga värden på sinus, cosinus eller tangens.</p></li><li><p>Använd sedan enhetscirkeln och intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=15^\\circ,\\ 75^\\circ,\\ 195^\\circ,\\ 255^\\circ\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(2\\sin x\\cos x=\\sin2x\\)</p><div class=\"facit-matte\">\\[\\sin2x=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin w=\\tfrac12\\) med \\(0^\\circ\\le w=2x\\lt 720^\\circ\\)</p><div class=\"facit-matte\">\\[2x=30^\\circ,\\ 150^\\circ,\\ 390^\\circ,\\ 510^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Dela med 2</p><div class=\"facit-matte\">\\[x=15^\\circ,\\ 75^\\circ,\\ 195^\\circ,\\ 255^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=15^\\circ,\\ 75^\\circ,\\ 195^\\circ\\) och \\(255^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -12474,7 +12494,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[\\sin^2x-\\cos^2x=\\frac12.\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förenkla ekvationen med de trigonometriska formler som behövs och bestäm först möjliga värden på sinus, cosinus eller tangens.</p></li><li><p>Använd sedan enhetscirkeln och intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=60^\\circ,\\ 120^\\circ,\\ 240^\\circ,\\ 300^\\circ\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin^2x-\\cos^2x=-\\cos2x\\)</p><div class=\"facit-matte\">\\[-\\cos2x=\\frac12\\ \\Rightarrow\\ \\cos2x=-\\frac12\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos w=-\\tfrac12\\) med \\(0^\\circ\\le w=2x\\lt 720^\\circ\\)</p><div class=\"facit-matte\">\\[2x=120^\\circ,\\ 240^\\circ,\\ 480^\\circ,\\ 600^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Dela med 2</p><div class=\"facit-matte\">\\[x=60^\\circ,\\ 120^\\circ,\\ 240^\\circ,\\ 300^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=60^\\circ,\\ 120^\\circ,\\ 240^\\circ\\) och \\(300^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -12709,7 +12729,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös \\(\\sin^2x=\\cos^2x\\) för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li><li><div class=\"facit-matte\">\\[\\sin^2x-\\cos^2x=0\\Rightarrow -\\cos2x=0\\].</div></li><li><p>Alltså \\(2x=90^\\circ+180^\\circ k\\), så \\(\\boxed{x=45^\\circ,135^\\circ,225^\\circ,315^\\circ}\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela båda leden med \\(\\cos^2x\\) (\\(\\cos x=0\\) är ingen lösning)</p><div class=\"facit-matte\">\\[\\frac{\\sin^2x}{\\cos^2x}=1\\ \\Rightarrow\\ \\tan^2x=1\\]</div></li><li><p class=\"facit-rubrik\">Dra roten ur: två tecken</p><div class=\"facit-matte\">\\[\\tan x=1\\quad\\text{eller}\\quad\\tan x=-1\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkel \\(45^\\circ\\) i alla fyra kvadranter</p><div class=\"facit-matte\">\\[x=45^\\circ,\\ 135^\\circ,\\ 225^\\circ,\\ 315^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Varför är \\(\\cos x=0\\) ingen lösning?</p><p>Då är \\(\\sin^2x=1\\) men \\(\\cos^2x=0\\), och de är inte lika.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=45^\\circ,\\ 135^\\circ,\\ 225^\\circ\\) och \\(315^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -12823,7 +12843,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös \\(\\cos x+\\cos2x=0\\) för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde.</p></li><li><p>Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[\\cos2x=2\\cos^2x-1\\].</div></div></li><li><p>Sätt \\(u=\\cos x\\): \\(2u^2+u-1=0=(2u-1)(u+1)\\).</p></li><li><p>Alltså \\(\\cos x=1/2\\) eller \\(-1\\).</p></li><li><div class=\"facit-berakning\"><p>Svar</p><div class=\"facit-matte\">\\[\\boxed{x=60^\\circ,180^\\circ,\\ 300^\\circ}\\].</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(\\cos2x=2\\cos^2x-1\\)</p><div class=\"facit-matte\">\\[\\cos x+2\\cos^2x-1=0\\]</div></li><li><p class=\"facit-rubrik\">Sätt \\(u=\\cos x\\) och skriv på normalform</p><div class=\"facit-matte\">\\[u^2+\\tfrac12u-\\tfrac12=0\\]</div></li><li><p class=\"facit-rubrik\">Pq-formeln: \\(u=-\\tfrac p2\\pm\\sqrt{\\left(\\tfrac p2\\right)^2-q}\\)</p><div class=\"facit-matte\">\\[u=-\\frac14\\pm\\frac34\\ \\Rightarrow\\ u=\\frac12\\ \\text{eller}\\ u=-1\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=\\tfrac12\\) ger \\(60^\\circ\\) och \\(300^\\circ\\), \\(\\cos x=-1\\) ger \\(180^\\circ\\)</p><div class=\"facit-matte\">\\[x=60^\\circ,\\ 180^\\circ,\\ 300^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=60^\\circ,\\ 180^\\circ\\) och \\(300^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -13052,7 +13072,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationerna. Ange alla lösningar i intervallet \\(0\\le x&lt;360^\\circ\\).</p><p>a) \\(3\\sin x=\\frac32\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(2\\cos x+\\sqrt3=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan x=-1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(4\\cos^2x=1\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Dividera med 3: \\(\\sin x=1/2\\). Referensvinkeln är \\(30^\\circ\\), och sinus är positiv i första och andra kvadranten.</p><p><strong>Svar:</strong> \\(x=30^\\circ\\) eller \\(150^\\circ\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Flytta över \\(\\sqrt3\\) och dividera med 2: \\(\\cos x=-\\sqrt3/2\\). Referensvinkeln är \\(30^\\circ\\), och cosinus är negativ i andra och tredje kvadranten.</p><p><strong>Svar:</strong> \\(x=150^\\circ\\) eller \\(210^\\circ\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Referensvinkeln är \\(45^\\circ\\) eftersom \\(\\tan45^\\circ=1\\). Tangens är negativ i andra och fjärde kvadranten.</p><p><strong>Svar:</strong> \\(x=135^\\circ\\) eller \\(315^\\circ\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Dividera med 4 och ta hänsyn till båda tecknen: \\(\\cos^2x=1/4\\), alltså \\(\\cos x=\\pm1/2\\). Referensvinkeln är \\(60^\\circ\\), och båda tecknen ger en lösning i varje kvadrant.</p><p><strong>Svar:</strong> \\(x=60^\\circ,\\ 120^\\circ,\\ 240^\\circ\\) eller \\(300^\\circ\\).</p></div></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela med 3</p><div class=\"facit-matte\">\\[\\sin x=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkel \\(30^\\circ\\), sinus positiv i första och andra kvadranten</p><div class=\"facit-matte\">\\[x=30^\\circ,\\quad x=180^\\circ-30^\\circ=150^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ\\) eller \\(x=150^\\circ\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta över \\(\\sqrt3\\) och dela med 2</p><div class=\"facit-matte\">\\[\\cos x=-\\frac{\\sqrt3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkel \\(30^\\circ\\), cosinus negativ i andra och tredje kvadranten</p><div class=\"facit-matte\">\\[x=180^\\circ-30^\\circ=150^\\circ,\\quad x=180^\\circ+30^\\circ=210^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=150^\\circ\\) eller \\(x=210^\\circ\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Referensvinkel: \\(\\tan45^\\circ=1\\)</p><p>Tangens är negativ i andra och fjärde kvadranten.</p></li><li><p class=\"facit-rubrik\">Vinklarna i intervallet</p><div class=\"facit-matte\">\\[x=180^\\circ-45^\\circ=135^\\circ,\\quad x=360^\\circ-45^\\circ=315^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=135^\\circ\\) eller \\(x=315^\\circ\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela med 4 och dra roten ur: två tecken</p><div class=\"facit-matte\">\\[\\cos^2x=\\frac14\\ \\Rightarrow\\ \\cos x=\\pm\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkel \\(60^\\circ\\), en lösning i varje kvadrant</p><div class=\"facit-matte\">\\[x=60^\\circ,\\ 120^\\circ,\\ 240^\\circ,\\ 300^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=60^\\circ,\\ 120^\\circ,\\ 240^\\circ\\) eller \\(300^\\circ\\)</p></div></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -13136,7 +13156,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(3\\sin x=\\frac32\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Dividera med 3: \\(\\sin x=1/2\\). Referensvinkeln är \\(30^\\circ\\), och sinus är positiv i första och andra kvadranten.</p><p><strong>Svar:</strong> \\(x=30^\\circ\\) eller \\(150^\\circ\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela med 3</p><div class=\"facit-matte\">\\[\\sin x=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkel \\(30^\\circ\\), sinus positiv i första och andra kvadranten</p><div class=\"facit-matte\">\\[x=30^\\circ,\\quad x=180^\\circ-30^\\circ=150^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ\\) eller \\(x=150^\\circ\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -13145,7 +13165,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(2\\cos x+\\sqrt3=0\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Flytta över \\(\\sqrt3\\) och dividera med 2: \\(\\cos x=-\\sqrt3/2\\). Referensvinkeln är \\(30^\\circ\\), och cosinus är negativ i andra och tredje kvadranten.</p><p><strong>Svar:</strong> \\(x=150^\\circ\\) eller \\(210^\\circ\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta över \\(\\sqrt3\\) och dela med 2</p><div class=\"facit-matte\">\\[\\cos x=-\\frac{\\sqrt3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkel \\(30^\\circ\\), cosinus negativ i andra och tredje kvadranten</p><div class=\"facit-matte\">\\[x=180^\\circ-30^\\circ=150^\\circ,\\quad x=180^\\circ+30^\\circ=210^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=150^\\circ\\) eller \\(x=210^\\circ\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -13154,7 +13174,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\tan x=-1\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Referensvinkeln är \\(45^\\circ\\) eftersom \\(\\tan45^\\circ=1\\). Tangens är negativ i andra och fjärde kvadranten.</p><p><strong>Svar:</strong> \\(x=135^\\circ\\) eller \\(315^\\circ\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Referensvinkel: \\(\\tan45^\\circ=1\\)</p><p>Tangens är negativ i andra och fjärde kvadranten.</p></li><li><p class=\"facit-rubrik\">Vinklarna i intervallet</p><div class=\"facit-matte\">\\[x=180^\\circ-45^\\circ=135^\\circ,\\quad x=360^\\circ-45^\\circ=315^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=135^\\circ\\) eller \\(x=315^\\circ\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -13163,7 +13183,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(4\\cos^2x=1\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Bestäm vinklarna</strong></p><p>Dividera med 4 och ta hänsyn till båda tecknen: \\(\\cos^2x=1/4\\), alltså \\(\\cos x=\\pm1/2\\). Referensvinkeln är \\(60^\\circ\\), och båda tecknen ger en lösning i varje kvadrant.</p><p><strong>Svar:</strong> \\(x=60^\\circ,\\ 120^\\circ,\\ 240^\\circ\\) eller \\(300^\\circ\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela med 4 och dra roten ur: två tecken</p><div class=\"facit-matte\">\\[\\cos^2x=\\frac14\\ \\Rightarrow\\ \\cos x=\\pm\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkel \\(60^\\circ\\), en lösning i varje kvadrant</p><div class=\"facit-matte\">\\[x=60^\\circ,\\ 120^\\circ,\\ 240^\\circ,\\ 300^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=60^\\circ,\\ 120^\\circ,\\ 240^\\circ\\) eller \\(300^\\circ\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 3,
@@ -13191,7 +13211,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[\\sin 2x=1-\\cos 2x\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv båda leden med \\(\\sin x\\) och \\(\\cos x\\) och faktorisera.</p></li><li><p>Dividera inte med \\(\\sin x\\), eftersom lösningar då kan försvinna.</p></li><li><p>\\[2\\sin x\\cos x=2\\sin^2x\\]</p></li><li><p>\\[2\\sin x(\\cos x-\\sin x)=0.\\]</p></li><li><p>Alltså \\(\\sin x=0\\) eller \\(\\cos x=\\sin x\\).</p></li><li><p>På intervallet fås</p></li><li><p>\\[\\boxed{x=0,\\;45^\\circ,\\;180^\\circ,\\;225^\\circ}.\\]</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2x=2\\sin x\\cos x\\) och \\(1-\\cos2x=2\\sin^2x\\)</p><div class=\"facit-matte\">\\[2\\sin x\\cos x=2\\sin^2x\\]</div></li><li><p class=\"facit-rubrik\">Flytta över och bryt ut \\(2\\sin x\\)</p><div class=\"facit-matte\">\\[2\\sin x\\,(\\cos x-\\sin x)=0\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=0\\)</p><div class=\"facit-matte\">\\[x=0^\\circ,\\ 180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos x=\\sin x\\) betyder \\(\\tan x=1\\)</p><div class=\"facit-matte\">\\[x=45^\\circ,\\ 225^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 45^\\circ,\\ 180^\\circ\\) och \\(225^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -13232,7 +13252,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[2\\cos^2x+\\sin x=2\\]</p><p>för \\(0\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Isolera den trigonometriska funktionen, hitta grundvinklarna i enhetscirkeln och använd sedan funktionens periodicitet för att få alla lösningar.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd trigonometriska ettan:</p><div class=\"facit-matte\">\\[\\cos^2x=1-\\sin^2x\\].</div></div></li><li><p>\\[2(1-\\sin^2x)+\\sin x=2\\Rightarrow -2\\sin^2x+\\sin x=0.\\]</p></li><li><p>\\[\\sin x(1-2\\sin x)=0.\\]</p></li><li><p>Alltså \\(\\sin x=0\\) eller \\(\\sin x=1/2\\).</p></li><li><p>Lösningarna är <strong>\\(x=0^\\circ,30^\\circ,150^\\circ,180^\\circ\\)</strong>.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in lösningarna i ursprungsekvationen och kontrollera att ingen lösningsfamilj saknas.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\cos^2x=1-\\sin^2x\\)</p><div class=\"facit-matte\">\\[2-2\\sin^2x+\\sin x=2\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 2 från båda leden</p><div class=\"facit-matte\">\\[-2\\sin^2x+\\sin x=0\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(\\sin x\\)</p><div class=\"facit-matte\">\\[\\sin x\\,(1-2\\sin x)=0\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=0\\) eller \\(\\sin x=\\tfrac12\\)</p><div class=\"facit-matte\">\\[x=0^\\circ,\\ 180^\\circ\\qquad x=30^\\circ,\\ 150^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 30^\\circ,\\ 150^\\circ\\) och \\(180^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -13273,7 +13293,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm alla \\(x\\) i intervallet \\(0\\le x&lt;360^\\circ\\) som uppfyller</p><p>\\[\\sin x+\\sin 3x=0.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Isolera den trigonometriska funktionen, hitta grundvinklarna i enhetscirkeln och använd sedan funktionens periodicitet för att få alla lösningar.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd additionsformlerna:</p></li><li><p>\\[\\sin3x=\\sin(2x+x)=\\sin2x\\cos x+\\cos2x\\sin x.\\]</p></li><li><p>Då blir</p></li><li><p>\\[\\sin x+\\sin3x=\\sin x(1+\\cos2x)+\\sin2x\\cos x.\\]</p></li><li><p>Formelbladet ger \\(1+\\cos2x=2\\cos^2x\\) och \\(\\sin2x=2\\sin x\\cos x\\).</p></li><li><p>Därför</p></li><li><p>\\[\\sin x+\\sin3x=4\\sin x\\cos^2x.\\]</p></li><li><p>Ekvationen ger alltså \\(\\sin x=0\\) eller \\(\\cos x=0\\).</p></li><li><p>På intervallet fås <strong>\\(x=0^\\circ,90^\\circ,180^\\circ,270^\\circ\\)</strong>.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in lösningarna i ursprungsekvationen och kontrollera att ingen lösningsfamilj saknas.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(2x\\pm x)=\\sin2x\\cos x\\pm\\cos2x\\sin x\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin3x&=\\sin2x\\cos x+\\cos2x\\sin x\\\\\\sin x&=\\sin2x\\cos x-\\cos2x\\sin x\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Addera: termerna med \\(\\cos2x\\sin x\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\sin x+\\sin3x=2\\sin2x\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2x=2\\sin x\\cos x\\)</p><div class=\"facit-matte\">\\[2\\cdot2\\sin x\\cos x\\cdot\\cos x=4\\sin x\\cos^2x\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: minst en faktor är noll</p><p>\\(4\\sin x\\cos^2x=0\\) ger \\(\\sin x=0\\) eller \\(\\cos x=0\\).</p></li><li><p class=\"facit-rubrik\">Vinklarna i intervallet</p><div class=\"facit-matte\">\\[\\sin x=0:\\ x=0^\\circ,\\ 180^\\circ\\qquad\\cos x=0:\\ x=90^\\circ,\\ 270^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 90^\\circ,\\ 180^\\circ\\) och \\(270^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -13638,7 +13658,7 @@ window.BANKMATO2 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Lös ekvationen</p><p>\\[2\\cos^2x+3\\sin x-3=0\\]</p><p>för \\(0^\\circ\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skriv om med trigonometriska ettan,</p><div class=\"facit-matte\">\\[\\cos^2x=1-\\sin^2x\\]:</div></div></li><li><p>\\[2-2\\sin^2x+3\\sin x-3=0\\;\\Leftrightarrow\\;2\\sin^2x-3\\sin x+1=0.\\]</p></li><li><p>Med \\(t=\\sin x\\): \\((2t-1)(t-1)=0\\), så \\(t=\\frac12\\) eller \\(t=1\\).</p></li><li><p>\\(\\sin x=\\frac12\\) ger \\(x=30^\\circ\\) och \\(x=150^\\circ\\).</p></li><li><p>\\(\\sin x=1\\) ger \\(x=90^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ,\\ 90^\\circ,\\ 150^\\circ\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\cos^2x=1-\\sin^2x\\)</p><div class=\"facit-matte\">\\[2-2\\sin^2x+3\\sin x-3=0\\]</div></li><li><p class=\"facit-rubrik\">Sätt \\(u=\\sin x\\) och skriv på normalform</p><div class=\"facit-matte\">\\[-2u^2+3u-1=0\\ \\Rightarrow\\ u^2-\\tfrac32u+\\tfrac12=0\\]</div></li><li><p class=\"facit-rubrik\">Pq-formeln: \\(u=-\\tfrac p2\\pm\\sqrt{\\left(\\tfrac p2\\right)^2-q}\\)</p><div class=\"facit-matte\">\\[u=\\frac34\\pm\\sqrt{\\frac{9}{16}-\\frac12}=\\frac34\\pm\\frac14\\ \\Rightarrow\\ u=1\\ \\text{eller}\\ u=\\frac12\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=1\\) ger \\(90^\\circ\\)</p><div class=\"facit-matte\">\\[x=90^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=\\tfrac12\\) ger \\(30^\\circ\\) och \\(150^\\circ\\)</p><div class=\"facit-matte\">\\[x=30^\\circ,\\quad x=150^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ,\\ 90^\\circ\\) och \\(150^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur",
@@ -94027,7 +94047,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln \\(v\\) ligger i första kvadranten och \\(\\cos v=0{,}8\\). Bestäm \\(\\sin v\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"300.0\" y2=\"105.0\" stroke=\"#d9822b\" stroke-width=\"2.6\"/><line x1=\"300.0\" y1=\"105.0\" x2=\"300.0\" y2=\"180\" stroke=\"#d9822b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"300.0\" y1=\"105.0\" x2=\"200\" y2=\"105.0\" stroke=\"#d9822b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 0 0 222.4 163.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"240\" y=\"173\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"300.0\" cy=\"105.0\" r=\"5\" fill=\"#24262b\"/><text x=\"316\" y=\"97\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"319\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">0,8</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan ger</p></li><li><p>\\[\\sin^2v=1-\\cos^2v=1-0{,}64=0{,}36.\\]</p></li><li><div class=\"facit-berakning\"><p>I första kvadranten är sinus positiv, så</p><div class=\"facit-matte\">\\[\\sin v=\\sqrt{0{,}36}=0{,}6\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin v=0{,}6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-0{,}8^2=1-0{,}64=0{,}36\\]</div></li><li><p class=\"facit-rubrik\">Första kvadranten: sinus positiv</p><div class=\"facit-matte\">\\[\\sin v=\\sqrt{0{,}36}=0{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,6</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -94059,7 +94079,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>I en rätvinklig triangel är \\(\\tan v=\\dfrac34\\) för den spetsiga vinkeln \\(v\\). Bestäm \\(\\sin v\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt motstående katet vara \\(3\\) och närliggande katet \\(4\\).</p></li><li><p>Pythagoras sats ger hypotenusan</p></li><li><p>\\[\\sqrt{3^2+4^2}=5.\\]</p></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[\\sin v=\\dfrac{\\text{motstående}}{\\text{hypotenusa}}=\\dfrac35\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin v=\\dfrac35=0{,}6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\tan v=\\dfrac{\\text{motstående katet}}{\\text{närliggande katet}}=\\dfrac34\\)</p><p>Rita en rätvinklig triangel med motstående katet 3 och närliggande katet 4.</p></li><li><p class=\"facit-rubrik\">Pythagoras sats ger hypotenusan</p><div class=\"facit-matte\">\\[c=\\sqrt{3^2+4^2}=\\sqrt{25}=5\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin v=\\dfrac{\\text{motstående katet}}{\\text{hypotenusa}}\\)</p><div class=\"facit-matte\">\\[\\sin v=\\frac35=0{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,6</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -94089,7 +94109,7 @@ window.BANKMATO2 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Det gäller att \\(\\cos v=-\\frac{5}{13}\\) och \\(180^\\circ&lt;v&lt;270^\\circ\\).</p><p>Bestäm \\(\\sin2v\\) och \\(\\cos2v\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Trigonometriska ettan:</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\frac{25}{169}=\\frac{144}{169}\\].</div></div></li><li><div class=\"facit-berakning\"><p>I tredje kvadranten är sinus negativ, så</p><div class=\"facit-matte\">\\[\\sin v=-\\frac{12}{13}\\].</div></div></li><li><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\left(-\\frac{12}{13}\\right)\\left(-\\frac5{13}\\right)=\\frac{120}{169}.\\]</p></li><li><p>\\[\\cos2v=\\cos^2v-\\sin^2v=\\frac{25}{169}-\\frac{144}{169}=-\\frac{119}{169}.\\]</p></li><li><p>Rimlighet: \\(360^\\circ&lt;2v&lt;540^\\circ\\), alltså andra kvadranten efter ett varv.</p></li><li><p>Där är sinus positiv och cosinus negativ.</p></li><li><p>Det stämmer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin2v=\\frac{120}{169}\\), \\(\\cos2v=-\\frac{119}{169}\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\left(-\\frac{5}{13}\\right)^2=\\frac{144}{169}\\]</div></li><li><p class=\"facit-rubrik\">Tredje kvadranten: sinus negativ</p><div class=\"facit-matte\">\\[\\sin v=-\\frac{12}{13}\\]</div></li><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\sin2v=2\\sin v\\cos v\\)</p><div class=\"facit-matte\">\\[\\sin2v=2\\cdot\\left(-\\frac{12}{13}\\right)\\cdot\\left(-\\frac{5}{13}\\right)=\\frac{120}{169}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin2v=\\frac{120}{169}\\approx0{,}710\\)</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dubbla vinkeln: \\(\\cos2v=\\cos^2v-\\sin^2v\\)</p><p>Kvadraterna är \\(\\cos^2v=\\tfrac{25}{169}\\) och \\(\\sin^2v=1-\\tfrac{25}{169}=\\tfrac{144}{169}\\).</p></li><li><p class=\"facit-rubrik\">Sätt in kvadraterna och subtrahera</p><div class=\"facit-matte\">\\[\\cos2v=\\frac{25}{169}-\\frac{144}{169}=-\\frac{119}{169}\\]</div></li><li><p class=\"facit-rubrik\">Rimlighet: \\(360^\\circ\\lt 2v\\lt 540^\\circ\\)</p><p>Efter ett helt varv hamnar 2v i andra kvadranten, där cosinus är negativ. Det stämmer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos2v=-\\frac{119}{169}\\approx-0{,}704\\)</p></div></div></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -94129,7 +94149,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Additionsformeln för sinus är \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\).</p><p>Det gäller att \\(\\sin u=0{,}6\\), \\(\\cos u=0{,}8\\), \\(\\sin v=0{,}8\\) och \\(\\cos v=0{,}6\\). Beräkna \\(\\sin(u+v)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in värdena i formeln:</p></li><li><p>\\[\\sin(u+v)=0{,}6\\cdot0{,}6+0{,}8\\cdot0{,}8=0{,}36+0{,}64=1.\\]</p></li><li><p>Eftersom sinus är \\(1\\) är \\(u+v=90^\\circ\\) om båda vinklarna är spetsiga.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\)</p><p>Alla fyra värden är givna.</p></li><li><p class=\"facit-rubrik\">Sätt in de fyra givna värdena</p><div class=\"facit-matte\">\\[\\sin(u+v)=0{,}6\\cdot0{,}6+0{,}8\\cdot0{,}8=0{,}36+0{,}64=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -94160,7 +94180,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Additionsformeln för cosinus är \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\). Använd den för att beräkna \\(\\cos(60^\\circ+30^\\circ)\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med exakta värden:</p></li><li><p>\\[\\cos60^\\circ\\cos30^\\circ-\\sin60^\\circ\\sin30^\\circ=\\frac12\\cdot\\frac{\\sqrt3}{2}-\\frac{\\sqrt3}{2}\\cdot\\frac12=0.\\]</p></li><li><div class=\"facit-berakning\"><p>Det stämmer med att</p><div class=\"facit-matte\">\\[\\cos90^\\circ=0\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><p>Här är \\(u=60^\\circ\\) och \\(v=30^\\circ\\).</p></li><li><p class=\"facit-rubrik\">Sätt in de exakta värdena</p><div class=\"facit-matte\">\\[\\cos60^\\circ\\cos30^\\circ-\\sin60^\\circ\\sin30^\\circ=\\frac12\\cdot\\frac{\\sqrt3}{2}-\\frac{\\sqrt3}{2}\\cdot\\frac12=0\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: \\(60^\\circ+30^\\circ=90^\\circ\\)</p><p>\\(\\cos90^\\circ=0\\), så svaret stämmer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -94191,7 +94211,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Använd additionsformeln \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\) för att förenkla \\(\\sin(x+90^\\circ)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt \\(u=x\\) och \\(v=90^\\circ\\).</p></li><li><p>Eftersom \\(\\cos90^\\circ=0\\) och \\(\\sin90^\\circ=1\\) blir</p></li><li><p>\\[\\sin(x+90^\\circ)=\\sin x\\cdot0+\\cos x\\cdot1=\\cos x.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt \\(u=x\\) och \\(v=90^\\circ\\) i formeln</p><div class=\"facit-matte\">\\[\\sin(x+90^\\circ)=\\sin x\\cos90^\\circ+\\cos x\\sin90^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Använd \\(\\cos90^\\circ=0\\) och \\(\\sin90^\\circ=1\\)</p><div class=\"facit-matte\">\\[=\\sin x\\cdot0+\\cos x\\cdot1=\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos x\\)</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -94220,7 +94240,7 @@ window.BANKMATO2 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>De spetsiga vinklarna \\(A\\) och \\(B\\) uppfyller \\(\\tan A=\\frac12\\) och \\(\\tan B=\\frac13\\).</p><p>Bestäm \\(A+B\\) exakt i grader.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd additionsformeln för tangens, eller bestäm sinus och cosinus.</p></li><li><p>Med additionsformeln:</p></li><li><p>\\[\\tan(A+B)=\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}=\\frac{\\frac12+\\frac13}{1-\\frac16}=\\frac{\\frac56}{\\frac56}=1.\\]</p></li><li><p>Båda vinklarna är spetsiga och mindre än \\(45^\\circ\\), eftersom tangensvärdena är mindre än 1.</p></li><li><p>Då är \\(0^\\circ&lt;A+B&lt;90^\\circ\\), och \\(\\tan(A+B)=1\\) ger \\(A+B=45^\\circ\\).</p></li><li><div class=\"facit-berakning\"><p>Utan tangensformeln:</p><div class=\"facit-matte\">\\[\\sin A=\\frac1{\\sqrt5}\\],</div></div></li><li><div class=\"facit-matte\">\\[\\cos A=\\frac2{\\sqrt5}\\],</div></li><li><div class=\"facit-matte\">\\[\\sin B=\\frac1{\\sqrt{10}}\\],</div></li><li><div class=\"facit-matte\">\\[\\cos B=\\frac3{\\sqrt{10}}\\].</div></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[\\cos(A+B)=\\frac{6-1}{\\sqrt{50}}=\\frac{1}{\\sqrt2}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A+B=45^\\circ\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln för tangens: \\(\\tan(A+B)=\\dfrac{\\tan A+\\tan B}{1-\\tan A\\tan B}\\)</p><p>Båda tangensvärdena är givna.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(\\tan A=\\tfrac12\\) och \\(\\tan B=\\tfrac13\\)</p><div class=\"facit-matte\">\\[\\tan(A+B)=\\frac{\\frac12+\\frac13}{1-\\frac12\\cdot\\frac13}=\\frac{\\frac56}{\\frac56}=1\\]</div></li><li><p class=\"facit-rubrik\">Välj rätt vinkel: \\(0^\\circ\\lt A+B\\lt 90^\\circ\\)</p><p>\\(\\tan A\\lt 1\\) och \\(\\tan B\\lt 1\\), så båda vinklarna är mindre än \\(45^\\circ\\). Då är \\(A+B\\lt 90^\\circ\\), och den enda sådana vinkeln med tangens 1 är \\(45^\\circ\\).</p></li><li><p class=\"facit-rubrik\">Alternativ utan tangensformeln: \\(\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B\\)</p><div class=\"facit-matte\">\\[\\frac{2}{\\sqrt5}\\cdot\\frac{3}{\\sqrt{10}}-\\frac{1}{\\sqrt5}\\cdot\\frac{1}{\\sqrt{10}}=\\frac{5}{\\sqrt{50}}=\\frac{1}{\\sqrt2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A+B=45^\\circ\\)</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "problemlösning",
@@ -94248,7 +94268,7 @@ window.BANKMATO2 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Lös ekvationen</p><p>\\[\\cos x\\cos20^\\circ-\\sin x\\sin20^\\circ=0{,}5\\]</p><p>för \\(0^\\circ\\le x&lt;360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Vänster led är additionsformeln för cosinus:</p><div class=\"facit-matte\">\\[\\cos x\\cos20^\\circ-\\sin x\\sin20^\\circ=\\cos(x+20^\\circ)\\].</div></div></li><li><p>\\(\\cos(x+20^\\circ)=0{,}5\\) ger \\(x+20^\\circ=\\pm60^\\circ+n\\cdot360^\\circ\\).</p></li><li><p>\\(x=40^\\circ+n\\cdot360^\\circ\\) eller \\(x=-80^\\circ+n\\cdot360^\\circ\\).</p></li><li><p>I intervallet: \\(x=40^\\circ\\) och \\(x=280^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=40^\\circ\\) eller \\(x=280^\\circ\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additionsformeln: \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\)</p><p>Vänsterledet har precis formen \\(\\cos u\\cos v-\\sin u\\sin v\\) med \\(u=x\\) och \\(v=20^\\circ\\).</p></li><li><p class=\"facit-rubrik\">Skriv ekvationen med en enda cosinus</p><div class=\"facit-matte\">\\[\\cos(x+20^\\circ)=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos w=0{,}5\\) ger \\(w=\\pm60^\\circ+n\\cdot360^\\circ\\)</p><div class=\"facit-matte\">\\[x+20^\\circ=60^\\circ+n\\cdot360^\\circ\\quad\\text{eller}\\quad x+20^\\circ=-60^\\circ+n\\cdot360^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(20^\\circ\\)</p><div class=\"facit-matte\">\\[x=40^\\circ+n\\cdot360^\\circ\\quad\\text{eller}\\quad x=-80^\\circ+n\\cdot360^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Välj lösningar i \\(0^\\circ\\le x\\lt 360^\\circ\\)</p><p>Från den första: \\(x=40^\\circ\\). Från den andra med \\(n=1\\): \\(x=-80^\\circ+360^\\circ=280^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=40^\\circ\\) eller \\(x=280^\\circ\\)</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "problemlösning",
@@ -102397,7 +102417,7 @@ window.BANKMATO2 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>P och Q ligger mitt emot varandra på enhetscirkeln. Punkten P hör till vinkeln v. Förenkla \\(\\sin(v+180^\\circ)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 360\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Enhetscirkel med punkten P i första kvadranten och Q diametralt motsatt. Vinkeln v hör till P.\"><title>Enhetscirkel med punkten P i första kvadranten och Q diametralt motsatt. Vinkeln v hör till P.</title><rect width=\"500\" height=\"360\" fill=\"white\" rx=\"10\"/><circle cx=\"250\" cy=\"170\" r=\"115\" fill=\"#f0f7fb\" stroke=\"#25465f\" stroke-width=\"2\"/><path d=\"M95 170H410 M250 310V30\" fill=\"none\" stroke=\"#25465f\" stroke-width=\"2\"/><path d=\"M344.20 104.04L155.80 235.96\" stroke=\"#087b9b\" stroke-width=\"3\"/><circle cx=\"344.20\" cy=\"104.04\" r=\"5\" fill=\"#087b9b\"/><circle cx=\"155.80\" cy=\"235.96\" r=\"5\" fill=\"#087b9b\"/><text x=\"362.20248509323403\" y=\"91.0387098196297\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">P</text><text x=\"135.79751490676597\" y=\"259.96129018037027\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Q</text><text x=\"427\" y=\"177\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"252\" y=\"22\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><text x=\"263\" y=\"192\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">O</text><path d=\"M290 170 A40 40 0 0 0 282.77 147.06\" fill=\"none\" stroke=\"#b35316\" stroke-width=\"2\"/><text x=\"306\" y=\"157\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">v</text><text x=\"250\" y=\"340\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">P och Q ligger på samma diameter.</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett halvt varv flyttar P till Q. Då byter båda koordinaterna tecken. Sinus är y-koordinaten.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-\\sin v\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett halvt varv: \\(v+180^\\circ\\) ger punkten Q</p><p>Q ligger mitt emot P, så Q är P speglad genom origo.</p></li><li><p class=\"facit-rubrik\">Spegling genom origo byter tecken på båda koordinaterna</p><p>Om \\(P=(\\cos v,\\ \\sin v)\\) är \\(Q=(-\\cos v,\\ -\\sin v)\\).</p></li><li><p class=\"facit-rubrik\">Sinus är y-koordinaten: \\(\\sin(v+180^\\circ)=-\\sin v\\)</p><div class=\"facit-matte\">\\[\\sin(v+180^\\circ)=-\\sin v\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\sin v\\)</p></div>",
     "ledtrad": "<p>Hur förändras punktens höjd när den flyttas till motsatt sida?</p>",
     "rättSvar": "-sin(v)",
     "svarstyp": "uttryck",
@@ -102425,7 +102445,7 @@ window.BANKMATO2 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Förenkla så långt som möjligt:</p><div class=\"facit-matte\">\\[\\sin(180^\\circ+x)+\\cos(90^\\circ+x)\\]</div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd symmetrierna för de två vinklarna.</p><div class=\"facit-matte\">\\[\\sin(180^\\circ+x)=-\\sin x\\]</div><div class=\"facit-matte\">\\[\\cos(90^\\circ+x)=-\\sin x\\]</div></li><li><p>De två termerna är lika och kan läggas ihop.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-2\\sin x\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett halvt varv: \\(\\sin(180^\\circ+x)=-\\sin x\\)</p><p>Punkten speglas genom origo, så y-koordinaten byter tecken.</p></li><li><p class=\"facit-rubrik\">Komplementvinkel: \\(\\cos(90^\\circ+x)=-\\sin x\\)</p><p>Additionsformeln ger \\(\\cos(90^\\circ+x)=\\cos90^\\circ\\cos x-\\sin90^\\circ\\sin x=0-\\sin x\\).</p></li><li><p class=\"facit-rubrik\">Två likadana termer läggs ihop</p><div class=\"facit-matte\">\\[-\\sin x+(-\\sin x)=-2\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\sin x\\)</p></div>",
     "ledtrad": "<p>Skriv båda termerna med samma trigonometriska funktion.</p>",
     "rättSvar": "-2*sin(x)",
     "svarstyp": "uttryck",
@@ -102453,7 +102473,7 @@ window.BANKMATO2 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Förenkla uttrycket där det är definierat:</p><div class=\"facit-matte\">\\[\\frac{\\cos x}{1-\\sin^2x}\\]</div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan ger 1−sin²x = cos²x.</p><div class=\"facit-matte\">\\[\\frac{\\cos x}{\\cos^2x}=\\frac1{\\cos x}\\]</div></li><li><p>Villkoret cos x ≠ 0 gäller både före och efter förenklingen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\dfrac1{\\cos x}\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nämnaren med trigonometriska ettan: \\(1-\\sin^2x=\\cos^2x\\)</p><div class=\"facit-matte\">\\[\\frac{\\cos x}{1-\\sin^2x}=\\frac{\\cos x}{\\cos^2x}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med \\(\\cos x\\)</p><div class=\"facit-matte\">\\[\\frac{\\cos x}{\\cos^2x}=\\frac{1}{\\cos x}\\]</div></li><li><p class=\"facit-rubrik\">Villkoret ändras inte</p><p>Både före och efter förenklingen krävs \\(\\cos x\\neq0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{\\cos x}\\)</p></div>",
     "ledtrad": "<p>Vilken term kan ersätta nämnaren?</p>",
     "rättSvar": "1/cos(x)",
     "svarstyp": "uttryck",
@@ -102481,7 +102501,7 @@ window.BANKMATO2 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Förenkla uttrycket där det är definierat:</p><div class=\"facit-matte\">\\[\\frac{1-\\cos^2x}{\\sin x}\\div\\frac{\\cos x}{1-\\sin^2x}\\]</div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan gör den första kvoten till sin x och den andra till 1/cos x.</p></li><li><p>Att dividera med 1/cos x är att multiplicera med cos x.</p><div class=\"facit-matte\">\\[\\sin x\\div\\frac1{\\cos x}=\\sin x\\cos x\\]</div></li><li><p>Originaluttrycket kräver både sin x ≠ 0 och cos x ≠ 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\sin x\\cos x\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Första kvoten: \\(1-\\cos^2x=\\sin^2x\\)</p><div class=\"facit-matte\">\\[\\frac{1-\\cos^2x}{\\sin x}=\\frac{\\sin^2x}{\\sin x}=\\sin x\\]</div></li><li><p class=\"facit-rubrik\">Andra kvoten: \\(1-\\sin^2x=\\cos^2x\\)</p><div class=\"facit-matte\">\\[\\frac{\\cos x}{1-\\sin^2x}=\\frac{\\cos x}{\\cos^2x}=\\frac{1}{\\cos x}\\]</div></li><li><p class=\"facit-rubrik\">Att dela med \\(\\tfrac{1}{\\cos x}\\) är att multiplicera med \\(\\cos x\\)</p><div class=\"facit-matte\">\\[\\sin x\\div\\frac{1}{\\cos x}=\\sin x\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Villkor från ursprungsuttrycket</p><p>Både \\(\\sin x\\neq0\\) och \\(\\cos x\\neq0\\) krävs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin x\\cos x\\)</p></div>",
     "ledtrad": "<p>Förenkla de två kvoterna innan du dividerar.</p>",
     "rättSvar": "sin(x)*cos(x)",
     "svarstyp": "uttryck",
@@ -102509,7 +102529,7 @@ window.BANKMATO2 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Förenkla uttrycket där det är definierat:</p><div class=\"facit-matte\">\\[\\left(\\frac1{1-\\sin x}-\\frac1{1+\\sin x}\\right)\\cos^2x\\]</div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv skillnaden på gemensam nämnare.</p><div class=\"facit-matte\">\\[\\frac{(1+\\sin x)-(1-\\sin x)}{1-\\sin^2x}\\]</div><div class=\"facit-matte\">\\[=\\frac{2\\sin x}{\\cos^2x}\\]</div></li><li><p>Multiplikationen med cos²x tar bort nämnaren. Originaluttrycket kräver cos x ≠ 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2\\sin x\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemensam nämnare: \\((1-\\sin x)(1+\\sin x)=1-\\sin^2x\\)</p><div class=\"facit-matte\">\\[\\frac{1}{1-\\sin x}-\\frac{1}{1+\\sin x}=\\frac{(1+\\sin x)-(1-\\sin x)}{1-\\sin^2x}\\]</div></li><li><p class=\"facit-rubrik\">Minustecknet byter tecken på hela den andra täljaren</p><div class=\"facit-matte\">\\[(1+\\sin x)-(1-\\sin x)=2\\sin x\\]</div></li><li><p class=\"facit-rubrik\">Nämnaren med trigonometriska ettan: \\(1-\\sin^2x=\\cos^2x\\)</p><div class=\"facit-matte\">\\[\\frac{2\\sin x}{\\cos^2x}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med \\(\\cos^2x\\): nämnaren försvinner</p><div class=\"facit-matte\">\\[\\frac{2\\sin x}{\\cos^2x}\\cdot\\cos^2x=2\\sin x\\]</div></li><li><p class=\"facit-rubrik\">Villkor</p><p>Ursprungsuttrycket kräver \\(\\sin x\\neq\\pm1\\), det vill säga \\(\\cos x\\neq0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\sin x\\)</p></div>",
     "ledtrad": "<p>Var noga med minustecknet framför den andra täljaren.</p>",
     "rättSvar": "2*sin(x)",
     "svarstyp": "uttryck",
@@ -102537,7 +102557,7 @@ window.BANKMATO2 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>För vinkeln v gäller \\(\\sin v=3/5\\) och \\(0&lt;v&lt;90^\\circ\\). Bestäm exakt</p><div class=\"facit-matte\">\\[\\frac1{\\cos(180^\\circ+v)}\\]</div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 360\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Enhetscirkel med punkten P i första kvadranten och Q diametralt motsatt. Vinkeln v hör till P.\"><title>Enhetscirkel med punkten P i första kvadranten och Q diametralt motsatt. Vinkeln v hör till P.</title><rect width=\"500\" height=\"360\" fill=\"white\" rx=\"10\"/><circle cx=\"250\" cy=\"170\" r=\"115\" fill=\"#f0f7fb\" stroke=\"#25465f\" stroke-width=\"2\"/><path d=\"M95 170H410 M250 310V30\" fill=\"none\" stroke=\"#25465f\" stroke-width=\"2\"/><path d=\"M342.00 101.00L158.00 239.00\" stroke=\"#087b9b\" stroke-width=\"3\"/><circle cx=\"342.00\" cy=\"101.00\" r=\"5\" fill=\"#087b9b\"/><circle cx=\"158.00\" cy=\"239.00\" r=\"5\" fill=\"#087b9b\"/><text x=\"360.0\" y=\"88.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">P</text><text x=\"138.0\" y=\"263.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Q</text><text x=\"427\" y=\"177\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"252\" y=\"22\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><text x=\"263\" y=\"192\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">O</text><path d=\"M290 170 A40 40 0 0 0 282.00 146.00\" fill=\"none\" stroke=\"#b35316\" stroke-width=\"2\"/><text x=\"306\" y=\"157\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">v</text><path d=\"M342.00 101.00V170\" stroke=\"#5c6e7e\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"377.0\" y=\"140\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">3/5</text><text x=\"250\" y=\"340\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">P och Q ligger på samma diameter.</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan ger cos²v = 1−9/25 = 16/25. Första kvadranten ger cos v = 4/5.</p></li><li><p>Ett halvt varv byter tecken på cosinus:</p><div class=\"facit-matte\">\\[\\cos(180^\\circ+v)=-\\frac45\\]</div></li><li><p>Vänd på bråket för att få det efterfrågade värdet.</p><div class=\"facit-matte\">\\[1\\div\\left(-\\frac45\\right)=-\\frac54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-\\dfrac54\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\left(\\frac35\\right)^2=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Första kvadranten: cosinus positiv</p><div class=\"facit-matte\">\\[\\cos v=\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Ett halvt varv: \\(\\cos(180^\\circ+v)=-\\cos v\\)</p><div class=\"facit-matte\">\\[\\cos(180^\\circ+v)=-\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Vänd på bråket för att få \\(\\tfrac{1}{\\cos(180^\\circ+v)}\\)</p><div class=\"facit-matte\">\\[\\frac{1}{-\\frac45}=-\\frac54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac54\\)</p></div>",
     "ledtrad": "<p>Bestäm först cos v, sedan värdet efter ett halvt varv.</p>",
     "rättSvar": "-5/4",
     "svarstyp": "uttryck",
@@ -104871,7 +104891,7 @@ window.BANKMATO2 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Lös ekvationen</p><p>\\[2\\sin^2x=\\sin x\\]</p><p>för \\(0^\\circ\\le x\\le360^\\circ\\). Ange alla lösningar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela inte med \\(\\sin x\\), för då försvinner lösningarna där \\(\\sin x=0\\).</p></li><li><p>Faktorisera i stället:</p><p>\\[2\\sin^2x-\\sin x=0\\;\\Leftrightarrow\\;\\sin x\\,(2\\sin x-1)=0.\\]</p></li><li><p>\\(\\sin x=0\\) ger \\(x=0^\\circ,\\ 180^\\circ,\\ 360^\\circ\\).</p></li><li><p>\\(\\sin x=\\frac12\\) ger \\(x=30^\\circ\\) och \\(x=150^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 30^\\circ,\\ 150^\\circ,\\ 180^\\circ,\\ 360^\\circ\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela inte med \\(\\sin x\\): flytta över och bryt ut</p><div class=\"facit-matte\">\\[2\\sin^2x-\\sin x=0\\ \\Rightarrow\\ \\sin x\\,(2\\sin x-1)=0\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=0\\): ändpunkten \\(360^\\circ\\) ingår</p><div class=\"facit-matte\">\\[x=0^\\circ,\\ 180^\\circ,\\ 360^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=\\tfrac12\\): första och andra kvadranten</p><div class=\"facit-matte\">\\[x=30^\\circ,\\ 150^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Därför fel att dela med \\(\\sin x\\)</p><p>Då skulle de tre lösningarna med \\(\\sin x=0\\) försvinna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 30^\\circ,\\ 150^\\circ,\\ 180^\\circ\\) och \\(360^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur",

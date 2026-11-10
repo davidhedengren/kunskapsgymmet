@@ -39356,7 +39356,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Summan av tre på varandra följande jämna tal är 126.</p><p>Bestäm det största av talen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla det minsta talet x.</p></li><li><p>De följande jämna talen är x + 2 och x + 4.</p></li><li><p>\\(x+(x+2)+(x+4)=126\\) ger \\(3x+6=126\\) och \\(x=40\\).</p></li><li><p>Talen är 40, 42 och 44.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>44</strong></p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett jämnt tal kan skrivas \\(2n\\), där \\(n\\) är ett heltal</p><p>Låt det minsta talet vara \\(2n\\). Jämna tal som följer på varandra skiljer sig med 2, så de två följande talen är \\(2n+2\\) och \\(2n+4\\). Då är alla tre talen säkert jämna.</p></li><li><p class=\"facit-rubrik\">Summan av de tre talen är 126</p><div class=\"facit-matte\">\\[\\begin{aligned}&2n+(2n+2)+(2n+4)\\\\&=126\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Samla termerna och lös ut \\(n\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}6n+6&=126\\\\6n&=120\\\\n&=20\\end{aligned}\\]</div><p>\\(n=20\\) är ett heltal, så det finns tre sådana jämna tal.</p></li><li><p class=\"facit-rubrik\">Talen är \\(2n=40\\), \\(42\\) och \\(44\\)</p><div class=\"facit-matte\">\\[40+42+44=126\\]</div><p>Kontrollen visar att summan stämmer och att alla tre talen är jämna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det största talet är 44.</p></div>",
     "familj": "Problemlösning i flera steg",
     "geogebra": false,
     "miniräknare": true,
@@ -39369,7 +39369,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur mycket skiljer det mellan två på varandra följande jämna tal?</p>",
+    "ledtrad": "<p>Ett jämnt tal kan skrivas 2n. Hur mycket skiljer det mellan två jämna tal som följer på varandra?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,

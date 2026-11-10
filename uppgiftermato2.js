@@ -12654,8 +12654,8 @@ window.BANKMATO2 = [
     "poang": "0/1/3",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Linjen</p><p>\\[y=a(x-2)\\]</p><p>tangerar kurvan \\(y=\\sin x\\) i en punkt där \\(0&lt;x&lt;360^\\circ\\).</p><p>Bestäm \\(a\\) och tangentpunktens x-koordinat. Svara med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Metod:</strong> I tangentpunkten måste linjen och sinuskurvan ha både samma funktionsvärde och samma lutning.</p></li><li><p class=\"facit-metod\">Använd de två villkoren samtidigt och lös sedan den återstående ekvationen numeriskt.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I tangentpunkten måste linjen och kurvan ha både samma y-värde och samma lutning.</p></li><li><p>Alltså</p></li><li><p>\\[\\sin x=a(x-2)\\qquad\\text{och}\\qquad a=\\cos x.\\]</p></li><li><p>Eliminera \\(a\\):</p></li><li><p>\\[\\sin x=(x-2)\\cos x.\\]</p></li><li><p>Den relevanta lösningen är \\(x\\approx4{,}303\\).</p></li><li><p>Då</p></li><li><p>\\[a=\\cos(4,303)\\approx-0{,}398.\\]</p></li><li><p>\\[\\boxed{x\\approx4{,}303,\\qquad a\\approx-0{,}398}.\\]</p></li></ol></div></div>",
+    "t": "<p>Linjen \\(y=a(x-2)\\) tangerar kurvan \\(y=\\sin x\\) i en punkt där \\(0&lt;x&lt;2\\pi\\). Vinkeln x mäts i radianer.</p><p>Bestäm a och tangentpunktens x-koordinat. (Svara med tre decimaler; x i radianer.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangentens lutning: \\((\\sin x)'=\\cos x\\)</p><p>Derivatan gäller när x mäts i radianer. Linjens lutning är a, så \\(a=\\cos x\\).</p></li><li><p class=\"facit-rubrik\">Linjen och kurvan har samma värde i tangentpunkten</p><div class=\"facit-matte\">\\[\\sin x=a(x-2)\\]</div><div class=\"facit-matte\">\\[\\sin x=(x-2)\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Lös tangentvillkoret numeriskt</p><p>Rita \\(h(x)=\\sin x-(x-2)\\cos x\\) i radianläge. Sök nollstället i intervallet \\(0&lt;x&lt;2\\pi\\): \\(x\\approx4{,}302689\\).</p></li><li><p class=\"facit-rubrik\">Så gör du i GeoGebra</p><p>Öppna GeoGebra Classic i grafritarläge. Skriv <code>h(x)=sin(x)-(x-2)*cos(x)</code> och därefter <code>A=Root(h,4,4.6)</code>. Funktionen använder radianer. Punktens x-koordinat ger tangentpunkten. Skriv <code>a=cos(x(A))</code> för lutningen. GeoGebra använder decimalpunkt.</p><span class=\"fig\"><img src=\"bilder/geogebra-mato2-1-345.png\" alt=\"GeoGebra visar inmatade funktioner, nollställen och deras koordinater.\" style=\"width:100%;max-width:680px;height:auto\"></span></li><li><p class=\"facit-rubrik\">Sätt in x i uttrycket för lutningen</p><div class=\"facit-matte\">\\[a=\\cos(4{,}302689)\\approx-0{,}398334\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a\\approx-0{,}398\\) och \\(x\\approx4{,}303\\) rad.</p></div>",
     "familj": "Tangenter och optimering med trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -12674,7 +12674,7 @@ window.BANKMATO2 = [
     ],
     "självrättning": true,
     "familjNyckel": "trig_problemlosning_2__tangenter_och_optimering_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>I tangentpunkten är både linjens och kurvans y-värde lika, och deras lutningar lika. Använd radianer när du deriverar sinusfunktionen.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -12691,6 +12691,10 @@ window.BANKMATO2 = [
     ],
     "familjTidigare": [
       "Tangentproblem med specialfunktioner"
+    ],
+    "svarEnhet": [
+      "",
+      "rad"
     ]
   },
   {
@@ -44276,9 +44280,9 @@ window.BANKMATO2 = [
     "niva": "C",
     "poang": "0/3/0",
     "miniräknare": true,
-    "geogebra": true,
+    "geogebra": false,
     "t": "<p>Funktionen</p><p>\\[f(x)=\\frac{ax^2+bx+1}{x-1}\\]</p><p>har den sneda asymptoten \\(y=2x+3\\). Bestäm \\(a\\) och \\(b\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag.</p></li><li><p class=\"facit-metod\">I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Polynomdivision ger</p></li><li><p>\\[\\frac{ax^2+bx+1}{x-1}=ax+(a+b)+\\frac{1+a+b}{x-1}.\\]</p></li><li><div class=\"facit-berakning\"><p>Den sneda asymptoten är därför</p><div class=\"facit-matte\">\\[y=ax+(a+b)\\].</div></div></li><li><p>Jämför med \\(2x+3\\):</p></li><li><p>\\[a=2,\\qquad a+b=3.\\]</p></li><li><div class=\"facit-berakning\"><p>Därmed</p><div class=\"facit-matte\">\\[b=1\\].</div></div></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[\\boxed{a=2,\\ b=1}\\].</div></div></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Polynomdivision ger kvot och rest</p><div class=\"facit-matte\">\\[\\begin{aligned}f(x)&=ax+(a+b)\\\\&\\quad+\\frac{1+a+b}{x-1}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Restbråket går mot noll när x blir stort</p><p>Den sneda asymptoten är därför \\(y=ax+(a+b)\\).</p></li><li><p class=\"facit-rubrik\">Jämför koefficienterna med \\(y=2x+3\\)</p><div class=\"facit-matte\">\\[a=2,\\quad a+b=3\\]</div><div class=\"facit-matte\">\\[b=3-2=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2\\) och \\(b=1\\).</p></div>",
     "familj": "Asymptoter för rationella funktioner",
     "formaga": [
       "procedur",
@@ -44286,17 +44290,31 @@ window.BANKMATO2 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 1,
-    "tolerans": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      1
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Polynomdividera täljaren med x−1. Vilka koefficienter måste kvoten ha för att ge den angivna asymptoten?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
       "grafer_asymptoter"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
     ]
   },
   {
@@ -64717,28 +64735,29 @@ window.BANKMATO2 = [
     "niva": "C",
     "typ": "bestämma medelvärde ur median",
     "poang": "0/2/0",
-    "t": "<p>Tiden mellan två telefonsamtal till ett företag är exponentialfördelad. Det är 50 % chans att tiden mellan två samtal är längre än 20 s.</p><p>Bestäm medeltiden mellan två samtal. Svara i sekunder med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(P(t\\gt20)=e^{-20/\\lambda}=0{,}5\\iff\\lambda=\\dfrac{20}{\\ln2}\\approx28{,}9\\) s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 28,9 s</p></div>",
+    "t": "<p>Tiden mellan två telefonsamtal till ett företag är exponentialfördelad. Om medeltiden är \\(m\\) sekunder ges sannolikheten för en väntetid längre än \\(t\\) sekunder av \\(P(T&gt;t)=e^{-t/m}\\).</p><p>Det är 50 % chans att tiden mellan två samtal är längre än 20 s. Bestäm medeltiden. (Svara i sekunder med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in villkoret \\(P(T&gt;20)=0{,}5\\)</p><div class=\"facit-matte\">\\[e^{-20/m}=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Logaritmlagen: \\(\\ln(e^u)=u\\)</p><div class=\"facit-matte\">\\[-\\frac{20}{m}=\\ln(0{,}5)=-\\ln2\\]</div></li><li><p class=\"facit-rubrik\">Lös ut medeltiden</p><div class=\"facit-matte\">\\[m=\\frac{20}{\\ln2}\\approx28{,}9\\ \\mathrm{s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Medeltiden är cirka 28,9 s.</p></div>",
     "id": "4.539",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Normalisera täthetsfunktion och bestäm parameter",
     "svarstyp": "numeriskt",
-    "rättSvar": 28.8539,
-    "tolerans": 0.06,
+    "rättSvar": 28.9,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ställ upp \\(P(t\\gt20)=e^{-20/\\lambda}\\).</p>",
+    "ledtrad": "<p>Sätt in den givna tiden och sannolikheten i sambandet. Vilken logaritm tar bort exponentialfunktionen?</p>",
     "traningsniva": 4,
     "kurs": [
       "2c"
     ],
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
-    "arbetsinsats": 2
+    "arbetsinsats": 2,
+    "svarEnhet": "s"
   },
   {
     "kap": 4,
@@ -89048,18 +89067,26 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Bestäm samtliga lösningar till</p><p>\\[x^5-4x^3+x+1=2{,}5.\\]</p><p>Svara med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorsatsen säger att \\(P(a)=0\\) precis när \\(x-a\\) är en faktor.</p></li><li><p class=\"facit-metod\">Använd en känd eller prövad rot för att sänka polynomets grad och lös sedan återstoden.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ekvationen motsvarar skärningarna mellan grafen till \\(y=x^5-4x^3+x+1\\) och linjen \\(y=2,5\\).</p></li><li><p>Numerisk lösning ger tre reella lösningar:</p></li><li><p>\\[\\boxed{x\\approx-1{,}866;\\ -0{,}914;\\ 1{,}984}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna och kontrollera att du får ursprungspolynomet.</p></li></ol></div>",
+    "t": "<p>Bestäm samtliga reella lösningar till</p><p>\\[x^5-4x^3+x+1=2{,}5.\\]</p><p>Svara med tre decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla termerna: \\(x^5-4x^3+x-1{,}5=0\\)</p><p>Rita vänsterledet som en funktion. Vi söker de reella nollställena.</p></li><li><p class=\"facit-rubrik\">Läs av de tre skärningarna med x-axeln</p><div class=\"facit-matte\">\\[\\begin{aligned}x_1&\\approx-1{,}865995\\\\x_2&\\approx-0{,}913577\\\\x_3&\\approx1{,}984442\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Så gör du i GeoGebra</p><p>Öppna GeoGebra Classic i grafritarläge. Skriv <code>p(x)=x^5-4*x^3+x-1.5</code>. Grafen skär x-axeln i tre punkter. Bestäm dem med <code>A=Root(p,-2,-1.5)</code>, <code>B=Root(p,-1.2,-0.5)</code> och <code>C=Root(p,1.5,2.2)</code>. Läs punkternas x-koordinater. GeoGebra använder decimalpunkt.</p><span class=\"fig\"><img src=\"bilder/geogebra-mato2-4-333.png\" alt=\"GeoGebra visar inmatade funktioner, nollställen och deras koordinater.\" style=\"width:100%;max-width:680px;height:auto\"></span></li><li><p class=\"facit-rubrik\">Avrunda till tre decimaler</p><p>Polynomet har även två icke-reella komplexa rötter, men frågan gäller endast reella lösningar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx-1{,}866\\), \\(x\\approx-0{,}914\\) eller \\(x\\approx1{,}984\\).</p></div>",
     "familj": "Polynomekvationer och komplexa rötter",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1.866,
+      -0.914,
+      1.984
+    ],
+    "tolerans": [
+      0.0005,
+      0.0005,
+      0.0005
+    ],
+    "självrättning": true,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Flytta 2,5 till vänsterledet. Grafens skärningar med x-axeln visar de reella lösningarna.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89067,6 +89094,12 @@ window.BANKMATO2 = [
     ],
     "familjTidigare": [
       "Faktorsatsen, faktorisering och polynomrötter"
+    ],
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ]
   },
   {

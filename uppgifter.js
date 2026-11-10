@@ -34396,7 +34396,7 @@ window.BANK = [
     "omr": "tyngdkraft",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En astronaut har massan 65 kg. Astronauten flyttas från jorden till månen.</p><ol type=\"a\"><li>Bestäm tyngdkraften på månen.</li><li>Bestäm tyngdkraften på jorden.</li><li>Bestäm astronautens massa efter förflyttningen från jorden till månen.</li></ol>",
+    "t": "<p>I denna uppgift används tyngdaccelerationen 1,62 m/s² på månen.</p><p>En astronaut har massan 65 kg. Astronauten flyttas från jorden till månen.</p><ol type=\"a\"><li>Bestäm tyngdkraften på månen.</li><li>Bestäm tyngdkraften på jorden.</li><li>Bestäm astronautens massa efter förflyttningen från jorden till månen.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med månens g</p><div class=\"facit-matte\">\\[F_M=65\\cdot1{,}62=105{,}3\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 105,3 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med jordens g</p><div class=\"facit-matte\">\\[F_J=65\\cdot9{,}82=638{,}3\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 638,3 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massan är densamma överallt: \\(m_1=m_2\\)</p><p>Förflyttningen ändrar tyngdkraften men inte massan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 65 kg.</p></div></div></div>",
     "familj": "Massa och tyngd",
     "formaga": [
@@ -34440,12 +34440,12 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En astronaut har massan 65 kg. Astronauten flyttas från jorden till månen.</p>",
+    "spelIntro": "<p>I denna uppgift används tyngdaccelerationen 1,62 m/s² på månen.</p><p>En astronaut har massan 65 kg. Astronauten flyttas från jorden till månen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm tyngdkraften på månen.",
-        "t": "<p>En astronaut har massan 65 kg. Astronauten flyttas från jorden till månen.</p><p>Bestäm tyngdkraften på månen.</p>",
+        "t": "<p>I denna uppgift används tyngdaccelerationen 1,62 m/s² på månen.</p><p>En astronaut har massan 65 kg. Astronauten flyttas från jorden till månen.</p><p>Bestäm tyngdkraften på månen.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med månens g</p><div class=\"facit-matte\">\\[F_M=65\\cdot1{,}62=105{,}3\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 105,3 N.</p></div>",
         "ledtrad": "<p>Använd det g-värde som gäller på månen.</p>",
         "niva": "E",
@@ -34456,7 +34456,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm tyngdkraften på jorden.",
-        "t": "<p>En astronaut har massan 65 kg. Astronauten flyttas från jorden till månen.</p><p>Bestäm tyngdkraften på jorden.</p>",
+        "t": "<p>I denna uppgift används tyngdaccelerationen 1,62 m/s² på månen.</p><p>En astronaut har massan 65 kg. Astronauten flyttas från jorden till månen.</p><p>Bestäm tyngdkraften på jorden.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med jordens g</p><div class=\"facit-matte\">\\[F_J=65\\cdot9{,}82=638{,}3\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 638,3 N.</p></div>",
         "ledtrad": "<p>Använd det g-värde som gäller på jorden.</p>",
         "niva": "E",
@@ -34467,7 +34467,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Hur stor är astronautens massa på månen?",
-        "t": "<p>En astronaut har massan 65 kg på jorden och reser till månen.</p><p>Hur stor är astronautens massa på månen?</p>",
+        "t": "<p>I denna uppgift används tyngdaccelerationen 1,62 m/s² på månen.</p><p>En astronaut har massan 65 kg på jorden och reser till månen.</p><p>Hur stor är astronautens massa på månen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massan är densamma överallt: \\(m_1=m_2\\)</p><p>Förflyttningen ändrar tyngdkraften men inte massan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 65 kg.</p></div>",
         "ledtrad": "<p>Skilj mellan massa och tyngdkraft.</p>",
         "niva": "E",
@@ -34649,8 +34649,8 @@ window.BANK = [
     "omr": "tyngdkraft",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En robot har massan 78 kg. Massan ändras inte vid förflyttningen.</p><ol type=\"a\" style=\"display:grid;gap:0.85rem\"><li>Bestäm tyngdkraften på roboten på Mars.</li><li>Hur många gånger så stor är tyngdkraften på roboten på jorden som på Mars?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med Mars g</p><div class=\"facit-matte\">\\[F_g=78\\cdot3{,}71=289{,}38\\ \\mathrm N\\]</div><p>78 kg är massan. Tyngdkraften mäts i newton.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 289,38 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten mellan tyngdkrafterna: \\(\\dfrac{mg_J}{mg_M}=\\dfrac{g_J}{g_M}\\)</p><div class=\"facit-matte\">\\[\\frac{78\\cdot9{,}82}{78\\cdot3{,}71}=\\frac{9{,}82}{3{,}71}\\approx2{,}65\\]</div><p>Massan tar ut sig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,65.</p></div></div></div>",
+    "t": "<p>I denna uppgift används tyngdaccelerationen 3,71 m/s² på Mars.</p><p>En robot har massan 78 kg. Massan ändras inte vid förflyttningen.</p><ol type=\"a\" style=\"display:grid;gap:0.85rem\"><li>Bestäm tyngdkraften på roboten på Mars.</li><li>Hur många gånger så stor är tyngdkraften på roboten på jorden som på Mars?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med Mars g</p><div class=\"facit-matte\">\\[F_g=78\\cdot3{,}71=289{,}38\\ \\mathrm N\\]</div><p>78 kg är massan. Tyngdkraften mäts i newton.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 290 N (två värdesiffror).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten mellan tyngdkrafterna: \\(\\dfrac{mg_J}{mg_M}=\\dfrac{g_J}{g_M}\\)</p><div class=\"facit-matte\">\\[\\frac{78\\cdot9{,}82}{78\\cdot3{,}71}=\\frac{9{,}82}{3{,}71}\\approx2{,}65\\]</div><p>Massan tar ut sig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,65.</p></div></div></div>",
     "familj": "Massa och tyngd",
     "formaga": [
       "begrepp",
@@ -34660,7 +34660,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       289.38,
-      2.65
+      2.646900269541779
     ],
     "tolerans": [
       0,
@@ -34687,14 +34687,14 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En robot har massan 78 kg. Massan ändras inte vid förflyttningen.</p>",
+    "spelIntro": "<p>I denna uppgift används tyngdaccelerationen 3,71 m/s² på Mars.</p><p>En robot har massan 78 kg. Massan ändras inte vid förflyttningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor är tyngdkraften på roboten på Mars?",
-        "t": "<p>En robot har massan 78 kg. Roboten befinner sig på Mars.</p><p>Hur stor är tyngdkraften på roboten på Mars?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med Mars g</p><div class=\"facit-matte\">\\[F_g=78\\cdot3{,}71=289{,}38\\ \\mathrm N\\]</div><p>78 kg är massan. Tyngdkraften mäts i newton.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 289,38 N.</p></div>",
-        "ledtrad": "<p>Vilket värde på g gäller för Mars?</p>",
+        "t": "<p>I denna uppgift används tyngdaccelerationen 3,71 m/s² på Mars.</p><p>En robot har massan 78 kg. Roboten befinner sig på Mars.</p><p>Hur stor är tyngdkraften på roboten på Mars?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med Mars g</p><div class=\"facit-matte\">\\[F_g=78\\cdot3{,}71=289{,}38\\ \\mathrm N\\]</div><p>78 kg är massan. Tyngdkraften mäts i newton.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 290 N (två värdesiffror).</p></div>",
+        "ledtrad": "<p>Vilket samband kopplar ihop massan, tyngdaccelerationen och tyngdkraften?</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -34703,7 +34703,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur många gånger så stor är tyngdkraften på roboten på jorden som på Mars?",
-        "t": "<p>En robot har massan 78 kg. Massan ändras inte vid förflyttningen.</p><p>Hur många gånger så stor är tyngdkraften på roboten på jorden som på Mars?</p>",
+        "t": "<p>I denna uppgift används tyngdaccelerationen 3,71 m/s² på Mars.</p><p>En robot har massan 78 kg. Massan ändras inte vid förflyttningen.</p><p>Hur många gånger så stor är tyngdkraften på roboten på jorden som på Mars?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten mellan tyngdkrafterna: \\(\\dfrac{mg_J}{mg_M}=\\dfrac{g_J}{g_M}\\)</p><div class=\"facit-matte\">\\[\\frac{78\\cdot9{,}82}{78\\cdot3{,}71}=\\frac{9{,}82}{3{,}71}\\approx2{,}65\\]</div><p>Massan tar ut sig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,65.</p></div>",
         "ledtrad": "<p>Vilken kraft ska stå i täljaren när du bildar jämförelsekvoten?</p>",
         "niva": "E",
@@ -34718,9 +34718,19 @@ window.BANK = [
       "Jämföra tyngdkraft"
     ],
     "svarVardesiffror": [
-      5,
+      2,
       3
-    ]
+    ],
+    "svarTabell": {
+      "0": [
+        290.16
+      ],
+      "1": [
+        2.639784946236559,
+        2.6442048517520216,
+        2.6370967741935485
+      ]
+    }
   },
   {
     "id": "4.378",
@@ -36173,7 +36183,7 @@ window.BANK = [
     "niva": "E",
     "typ": "massa och tyngdkraft",
     "poang": "(3/0/0)",
-    "t": "<p>En person har massan 70 kg.</p><ol type=\"a\" style=\"display:grid;gap:0.85rem\"><li>Bestäm personens tyngdkraft på jorden respektive månen.</li><li>Ange personens massa på månen. Förklara skillnaden mellan massa och tyngdkraft.</li></ol>",
+    "t": "<p>I denna uppgift används tyngdaccelerationen 1,62 m/s² på månen.</p><p>En person har massan 70 kg.</p><ol type=\"a\" style=\"display:grid;gap:0.85rem\"><li>Bestäm personens tyngdkraft på jorden respektive månen.</li><li>Ange personens massa på månen. Förklara skillnaden mellan massa och tyngdkraft.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) på jorden och på månen</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_J=70\\cdot9{,}82=687{,}4\\ \\mathrm N\\\\&F_M=70\\cdot1{,}62=113{,}4\\ \\mathrm N\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 687,4 N och 113,4 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massan är densamma överallt: \\(m_1=m_2\\)</p><p>Massan är 70 kg även på månen. Den mäts i kilogram och beskriver kroppens tröghet.</p></li><li><p class=\"facit-rubrik\">Tyngdkraften beror på platsen: \\(F_g=mg\\)</p><p>Tyngdkraften är gravitationens kraft på kroppen. Den mäts i newton och ändras när g ändras.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Massan är 70 kg; tyngdkraften beror på g.</p></div></div></div>",
     "familj": "Massa och tyngd",
     "formaga": [
@@ -179098,14 +179108,14 @@ window.BANK = [
     "niva": "E",
     "typ": "tyngdkraft på Mars",
     "poang": "(1/0/0)",
-    "t": "<p>Marsbilen Perseverance har massan 1025 kg.</p><p>Bestäm tyngdkraften på marsbilen på Mars. (Svara i kN.)</p>",
+    "t": "<p>I denna uppgift används tyngdaccelerationen 3,71 m/s² på Mars.</p><p>Marsbilen Perseverance har massan 1025 kg.</p><p>Bestäm tyngdkraften på marsbilen på Mars. (Svara i kN.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med Mars g</p><div class=\"facit-matte\">\\[F_g=1025\\cdot3{,}71=3802{,}75\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Gör om till kN: 1 kN = 1000 N</p><div class=\"facit-matte\">\\[F_g\\approx3{,}80\\ \\mathrm{kN}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,80 kN.</p></div>",
     "familj": "Massa och tyngd",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 3.8,
+    "rättSvar": 3.80275,
     "tolerans": 0.005,
     "självrättning": true,
     "ledtrad": "<p>Samma samband som på jorden, men med ett annat värde på g. Tänk på enheten.</p>",
@@ -179116,7 +179126,12 @@ window.BANK = [
     "geogebra": false,
     "svarFormat": "numeriskt",
     "svarEnhet": "kN",
-    "svarVardesiffror": 3
+    "svarVardesiffror": 3,
+    "svarTabell": {
+      "0": [
+        3.813
+      ]
+    }
   },
   {
     "id": "4.471",
@@ -179152,7 +179167,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tyngd på två himlakroppar",
     "poang": "(1/0/0)",
-    "t": "<p>En provtagningsutrustning har tyngden 196 N på jorden. Den ska fraktas till månen.</p><p>Bestäm utrustningens tyngd på månen.<br></p>",
+    "t": "<p>I denna uppgift används tyngdaccelerationen 1,62 m/s² på månen.</p><p>En provtagningsutrustning har tyngden 196 N på jorden. Den ska fraktas till månen.</p><p>Bestäm utrustningens tyngd på månen.<br></p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft, lös ut massan: \\(m=\\dfrac{F_g}{g}\\) på jorden</p><div class=\"facit-matte\">\\[m=\\frac{196}{9{,}82}\\ \\mathrm{kg}\\]</div><p>Massan är densamma på månen. Avrunda inte.</p></li><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med månens g</p><div class=\"facit-matte\">\\[F_M=\\frac{196}{9{,}82}\\cdot1{,}62\\approx32{,}3\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 32,3 N.</p></div>",
     "familj": "Massa och tyngd",
     "formaga": [
@@ -179250,7 +179265,7 @@ window.BANK = [
     "omr": "tyngdkraft",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ett föremål hängs i en fjädervåg på jorden, och fjädervågen visar 4,90 N. </p><p><strong>a)</strong>Vad visar fjädervågen på månen? (Svara i N med tre decimaler.)</p><p><strong>b)</strong>Föremålet vägs i stället på en balansvåg, där det jämförs med vikter. Vilken massa visar balansvågen på månen? (Svara med tre decimaler.)</p>",
+    "t": "<p>I denna uppgift används tyngdaccelerationen 1,62 m/s² på månen.</p><p>Ett föremål hängs i en fjädervåg på jorden, och fjädervågen visar 4,90 N. </p><p><strong>a)</strong>Vad visar fjädervågen på månen? (Svara i N med tre decimaler.)</p><p><strong>b)</strong>Föremålet vägs i stället på en balansvåg, där det jämförs med vikter. Vilken massa visar balansvågen på månen? (Svara med tre decimaler.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fjädervågen mäter tyngdkraften. Tyngdkraft, lös ut massan: \\(m=\\dfrac{F_g}{g}\\)</p><div class=\"facit-matte\">\\[m=\\frac{4{,}90}{9{,}82}\\ \\mathrm{kg}\\]</div></li><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med månens g</p><div class=\"facit-matte\">\\[F_M=\\frac{4{,}90}{9{,}82}\\cdot1{,}62\\approx0{,}808\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,808 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Balansvågen jämför massor</p><p>Föremålet och vikterna påverkas av samma g, så jämförelsen ger samma massa på månen.</p></li><li><p class=\"facit-rubrik\">Tyngdkraft, lös ut massan: \\(m=\\dfrac{F_g}{g}\\)</p><div class=\"facit-matte\">\\[m=\\frac{4{,}90}{9{,}82}\\approx0{,}499\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,499 kg.</p></div></div></div>",
     "familj": "Massa och tyngd",
     "formaga": [
@@ -179290,7 +179305,7 @@ window.BANK = [
     "omr": "tyngdkraft",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>En astronaut hoppar rakt upp och lyfter tyngdpunkten 0,40 m på jorden.</p><p>Hur högt kommer astronauten på Mars med samma utgångsfart? Bortse från luftmotståndet. (Svara i meter.)</p>",
+    "t": "<p>I denna uppgift används tyngdaccelerationen 3,71 m/s² på Mars.</p><p>En astronaut hoppar rakt upp och lyfter tyngdpunkten 0,40 m på jorden.</p><p>Hur högt kommer astronauten på Mars med samma utgångsfart? Bortse från luftmotståndet. (Svara i meter.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hopphöjd med utgångsfarten v (tidlösa formeln): \\(h=\\dfrac{v^2}{2g}\\)</p><p>Samma v ger en höjd som är omvänt proportionell mot g.</p></li><li><p class=\"facit-rubrik\">Skala om höjden: \\(h_M=h_J\\cdot\\dfrac{g_J}{g_M}\\)</p><div class=\"facit-matte\">\\[h_M=0{,}40\\cdot\\frac{9{,}82}{3{,}71}\\approx1{,}06\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,06 m.</p></div>",
     "familj": "Massa och tyngd",
     "formaga": [
@@ -179305,11 +179320,18 @@ window.BANK = [
     "traningsniva": 3,
     "arbetsinsats": 2,
     "svarstyp": "numeriskt",
-    "rättSvar": 1.06,
+    "rättSvar": 1.0587601078167117,
     "tolerans": 0.005,
     "svarEnhet": "m",
     "typ": "hopphöjd på Mars",
-    "svarVardesiffror": 3
+    "svarVardesiffror": 3,
+    "svarTabell": {
+      "0": [
+        1.0559139784946237,
+        1.0576819407008087,
+        1.0548387096774194
+      ]
+    }
   },
   {
     "id": "4.504",
@@ -199193,8 +199215,8 @@ window.BANK = [
   "niva": "E",
   "typ": "tolka rörelsediagram",
   "poang": "(1/0/0)",
-  "t": "<p>En vagn rör sig längs en rak bana. Positionen mäts från en markering, och riktningen mot större positionsvärden är positiv. Vilken hastighet har vagnen?</p><span class=\"fig\"><svg style=\"width:100%;max-width:440px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 285\" role=\"img\" aria-label=\"En vagn rör sig längs en rak bana. Positionen mäts från en markering, och riktningen mot större positionsvärden är positiv. Vilken hastighet har vagnen?\"><rect width=\"440\" height=\"285\" fill=\"white\"/><line x1=\"65\" y1=\"55\" x2=\"65\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"65\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">0</text><line x1=\"115\" y1=\"55\" x2=\"115\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"115\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">1</text><line x1=\"165\" y1=\"55\" x2=\"165\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"165\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">2</text><line x1=\"215\" y1=\"55\" x2=\"215\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"215\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">3</text><line x1=\"265\" y1=\"55\" x2=\"265\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"265\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">4</text><line x1=\"315\" y1=\"55\" x2=\"315\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"315\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">5</text><line x1=\"365\" y1=\"55\" x2=\"365\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"365\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">6</text><line x1=\"65\" y1=\"215\" x2=\"365\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"220\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">-20</text><line x1=\"65\" y1=\"188.333\" x2=\"365\" y2=\"188.333\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"193.333\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">-15</text><line x1=\"65\" y1=\"161.667\" x2=\"365\" y2=\"161.667\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"166.667\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">-10</text><line x1=\"65\" y1=\"135\" x2=\"365\" y2=\"135\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"140\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">-5</text><line x1=\"65\" y1=\"108.333\" x2=\"365\" y2=\"108.333\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"113.333\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">0</text><line x1=\"65\" y1=\"81.6667\" x2=\"365\" y2=\"81.6667\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"86.6667\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">5</text><line x1=\"65\" y1=\"55\" x2=\"365\" y2=\"55\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"60\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">10</text><path d=\"M65 45V215H380\" fill=\"none\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"143\" y=\"24\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">Position (m)</text><text x=\"342\" y=\"266\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">Tid (s)</text><line x1=\"65\" y1=\"108.333\" x2=\"365\" y2=\"108.333\" stroke=\"#5c6878\" stroke-dasharray=\"4 3\"/><polyline points=\"65,215 365,55\" fill=\"none\" stroke=\"#246c98\" stroke-width=\"3\"/></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av två punkter på linjen</p><div class=\"facit-matte\">\\[\\begin{aligned}&(0\\ \\mathrm s;\\ -20\\ \\mathrm m)\\\\&(6\\ \\mathrm s;\\ 10\\ \\mathrm m)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Hastigheten är grafens lutning: \\(v=\\dfrac{\\Delta s}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[v=\\frac{10-(-20)}{6-0}=\\frac{30}{6}=+5\\ \\mathrm{m/s}\\]</div><p>Den negativa startpositionen betyder bara att vagnen startar bakom markeringen. Den kör i positiv riktning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 m/s.</p></div>",
+  "t": "<p>En vagn rör sig längs en rak bana. Positionen mäts från en markering, och riktningen mot större positionsvärden är positiv. Vilken hastighet har vagnen?</p><span class=\"fig\"><svg style=\"width:100%;max-width:440px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 285\" role=\"img\" aria-label=\"En vagn rör sig längs en rak bana. Positionen mäts från en markering, och riktningen mot större positionsvärden är positiv. Vilken hastighet har vagnen?\"><rect width=\"440\" height=\"285\" fill=\"white\"/><line x1=\"65\" y1=\"55\" x2=\"65\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"65\" y=\"130\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">0</text><line x1=\"115\" y1=\"55\" x2=\"115\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"115\" y=\"130\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">1</text><line x1=\"165\" y1=\"55\" x2=\"165\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"165\" y=\"130\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">2</text><line x1=\"215\" y1=\"55\" x2=\"215\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"215\" y=\"130\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">3</text><line x1=\"265\" y1=\"55\" x2=\"265\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"265\" y=\"130\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">4</text><line x1=\"315\" y1=\"55\" x2=\"315\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"315\" y=\"130\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">5</text><line x1=\"365\" y1=\"55\" x2=\"365\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"365\" y=\"130\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">6</text><line x1=\"65\" y1=\"215\" x2=\"365\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"220\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">-20</text><line x1=\"65\" y1=\"188.333\" x2=\"365\" y2=\"188.333\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"193.333\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">-15</text><line x1=\"65\" y1=\"161.667\" x2=\"365\" y2=\"161.667\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"166.667\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">-10</text><line x1=\"65\" y1=\"135\" x2=\"365\" y2=\"135\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"140\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">-5</text><line x1=\"65\" y1=\"108.333\" x2=\"365\" y2=\"108.333\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"113.333\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">0</text><line x1=\"65\" y1=\"81.6667\" x2=\"365\" y2=\"81.6667\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"86.6667\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">5</text><line x1=\"65\" y1=\"55\" x2=\"365\" y2=\"55\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"60\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">10</text><path d=\"M65 45V224 M65 108.333H390\" fill=\"none\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"143\" y=\"24\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">Position (m)</text><text x=\"402\" y=\"90\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">t (s)</text><path d=\"M385 103.333L392 108.333L385 113.333 M60 50L65 43L70 50\" fill=\"none\" stroke=\"#172033\" stroke-width=\"2\"/><polyline points=\"65,215 365,55\" fill=\"none\" stroke=\"#246c98\" stroke-width=\"3\"/></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av två punkter på linjen</p><div class=\"facit-matte\">\\[\\begin{aligned}&(0\\ \\mathrm s;\\ -20\\ \\mathrm m)\\\\&(6\\ \\mathrm s;\\ 10\\ \\mathrm m)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Hastigheten är grafens lutning: \\(v=\\dfrac{\\Delta s}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}v&=\\frac{10-(-20)}{6-0}\\\\&=\\frac{30}{6}=+5\\ \\mathrm{m/s}\\end{aligned}\\]</div><p>Den negativa startpositionen betyder bara att vagnen startar bakom markeringen. Den kör i positiv riktning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 m/s.</p></div>",
   "rättSvar": 5,
   "tolerans": 0,
   "svarEnhet": "m/s",
@@ -199220,7 +199242,7 @@ window.BANK = [
   "niva": "E",
   "typ": "tolka rörelsediagram",
   "poang": "(1/0/0)",
-  "t": "<p>Diagrammet visar en robots position längs en rak bana. Hur lång sträcka kör roboten sammanlagt under de sex sekunderna?</p><span class=\"fig\"><svg style=\"width:100%;max-width:440px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 285\" role=\"img\" aria-label=\"Diagrammet visar en robots position längs en rak bana. Hur lång sträcka kör roboten sammanlagt under de sex sekunderna?\"><rect width=\"440\" height=\"285\" fill=\"white\"/><line x1=\"65\" y1=\"55\" x2=\"65\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"65\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">0</text><line x1=\"115\" y1=\"55\" x2=\"115\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"115\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">1</text><line x1=\"165\" y1=\"55\" x2=\"165\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"165\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">2</text><line x1=\"215\" y1=\"55\" x2=\"215\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"215\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">3</text><line x1=\"265\" y1=\"55\" x2=\"265\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"265\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">4</text><line x1=\"315\" y1=\"55\" x2=\"315\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"315\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">5</text><line x1=\"365\" y1=\"55\" x2=\"365\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"365\" y=\"237\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">6</text><line x1=\"65\" y1=\"215\" x2=\"365\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"220\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">-4</text><line x1=\"65\" y1=\"188.333\" x2=\"365\" y2=\"188.333\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"193.333\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">-2</text><line x1=\"65\" y1=\"161.667\" x2=\"365\" y2=\"161.667\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"166.667\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">0</text><line x1=\"65\" y1=\"135\" x2=\"365\" y2=\"135\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"140\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">2</text><line x1=\"65\" y1=\"108.333\" x2=\"365\" y2=\"108.333\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"113.333\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">4</text><line x1=\"65\" y1=\"81.6667\" x2=\"365\" y2=\"81.6667\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"86.6667\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">6</text><line x1=\"65\" y1=\"55\" x2=\"365\" y2=\"55\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"60\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">8</text><path d=\"M65 45V215H380\" fill=\"none\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"143\" y=\"24\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">Position (m)</text><text x=\"342\" y=\"266\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">Tid (s)</text><line x1=\"65\" y1=\"161.667\" x2=\"365\" y2=\"161.667\" stroke=\"#5c6878\" stroke-dasharray=\"4 3\"/><polyline points=\"65,161.667 165,55 365,215\" fill=\"none\" stroke=\"#246c98\" stroke-width=\"3\"/></svg></span>",
+  "t": "<p>Diagrammet visar en robots position längs en rak bana. Hur lång sträcka kör roboten sammanlagt under de sex sekunderna?</p><span class=\"fig\"><svg style=\"width:100%;max-width:440px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 285\" role=\"img\" aria-label=\"Diagrammet visar en robots position längs en rak bana. Hur lång sträcka kör roboten sammanlagt under de sex sekunderna?\"><rect width=\"440\" height=\"285\" fill=\"white\"/><line x1=\"65\" y1=\"55\" x2=\"65\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"65\" y=\"183\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">0</text><line x1=\"115\" y1=\"55\" x2=\"115\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"115\" y=\"183\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">1</text><line x1=\"165\" y1=\"55\" x2=\"165\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"165\" y=\"183\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">2</text><line x1=\"215\" y1=\"55\" x2=\"215\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"215\" y=\"183\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">3</text><line x1=\"265\" y1=\"55\" x2=\"265\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"265\" y=\"183\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">4</text><line x1=\"315\" y1=\"55\" x2=\"315\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"315\" y=\"183\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">5</text><line x1=\"365\" y1=\"55\" x2=\"365\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"365\" y=\"183\" style=\"paint-order:stroke;stroke:white;stroke-width:4px\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">6</text><line x1=\"65\" y1=\"215\" x2=\"365\" y2=\"215\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"220\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">-4</text><line x1=\"65\" y1=\"188.333\" x2=\"365\" y2=\"188.333\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"193.333\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">-2</text><line x1=\"65\" y1=\"161.667\" x2=\"365\" y2=\"161.667\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"166.667\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">0</text><line x1=\"65\" y1=\"135\" x2=\"365\" y2=\"135\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"140\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">2</text><line x1=\"65\" y1=\"108.333\" x2=\"365\" y2=\"108.333\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"113.333\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">4</text><line x1=\"65\" y1=\"81.6667\" x2=\"365\" y2=\"81.6667\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"86.6667\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">6</text><line x1=\"65\" y1=\"55\" x2=\"365\" y2=\"55\" stroke=\"#c8d1dc\"/><text x=\"38\" y=\"60\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">8</text><path d=\"M65 45V224 M65 161.667H390\" fill=\"none\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"143\" y=\"24\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">Position (m)</text><text x=\"402\" y=\"146\" fill=\"#172033\" font-family=\"sans-serif\" font-size=\"15\" text-anchor=\"middle\">t (s)</text><path d=\"M385 156.667L392 161.667L385 166.667 M60 50L65 43L70 50\" fill=\"none\" stroke=\"#172033\" stroke-width=\"2\"/><polyline points=\"65,161.667 165,55 365,215\" fill=\"none\" stroke=\"#246c98\" stroke-width=\"3\"/></svg></span>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp rörelsen vid vändningen</p><p>0–2 s: från 0 m till +8 m. 2–6 s: från +8 m till −4 m.</p></li><li><p class=\"facit-rubrik\">Sträckan i varje del är \\(|\\Delta s|\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&|8-0|=8\\ \\mathrm m\\\\&|-4-8|=12\\ \\mathrm m\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Lägg ihop delsträckorna</p><div class=\"facit-matte\">\\[8+12=20\\ \\mathrm m\\]</div><p>Förflyttningen är bara −4 m, men frågan gäller hela den körda sträckan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 m.</p></div>",
   "rättSvar": 20,
   "tolerans": 0,
@@ -219721,7 +219743,7 @@ window.BANK = [
   "niva": "C",
   "typ": "största tyngden: en låda på månen eller en på jorden",
   "poang": "(0/1/0)",
-  "t": "<p>Låda A har massan 12 kg och står på månen. Låda B har massan 2,0 kg och står på jorden. Vilken låda påverkas av störst tyngdkraft? (Välj ett alternativ.)</p>",
+  "t": "<p>I denna uppgift används tyngdaccelerationen 1,62 m/s² på månen.</p><p>Låda A har massan 12 kg och står på månen. Låda B har massan 2,0 kg och står på jorden. Vilken låda påverkas av störst tyngdkraft? (Välj ett alternativ.)</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) för båda lådorna</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_A=12\\cdot1{,}62\\approx19{,}4\\ \\mathrm N\\\\&F_B=2{,}0\\cdot9{,}82\\approx19{,}6\\ \\mathrm N\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför</p><p>B har något större tyngd, trots att A har sex gånger så stor massa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Låda B har något större tyngd.</p></div>",
   "familj": "Massa och tyngd",
   "familjNyckel": "tyngdkraft__massa_och_tyngd",
@@ -219768,7 +219790,7 @@ window.BANK = [
   "niva": "C",
   "typ": "kraftmätarens mätområde på jorden och månen",
   "poang": "(0/1/0)",
-  "t": "<p>En kraftmätare kan visa högst 50 N. Hur stor massa kan man som mest hänga i den på jorden respektive på månen? (Svara i kg med två värdesiffror.)</p>",
+  "t": "<p>I denna uppgift används tyngdaccelerationen 1,62 m/s² på månen.</p><p>En kraftmätare kan visa högst 50 N. Hur stor massa kan man som mest hänga i den på jorden respektive på månen? (Svara i kg med två värdesiffror.)</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största massan ger tyngden 50 N. Tyngdkraft, lös ut massan: \\(m=\\dfrac{F_g}{g}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&m_J=\\frac{50}{9{,}82}\\approx5{,}1\\ \\mathrm{kg}\\\\&m_M=\\frac{50}{1{,}62}\\approx31\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,1 kg på jorden och 31 kg på månen.</p></div>",
   "familj": "Massa och tyngd",
   "familjNyckel": "tyngdkraft__massa_och_tyngd",

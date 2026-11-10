@@ -25538,7 +25538,7 @@ window.BANK2 = [
     "typ": "beräkna viloenergin för en elektron",
     "poang": "(1/0/0)",
     "t": "<p>Hur stor är viloenergin för en elektron? (Svara i MeV.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Elektronens viloenergi är</p><div class=\"facit-matte\">\\[E_0=m_ec^2\\].</div></div></li><li><div class=\"facit-matte\">\\[E_0=9{,}109\\cdot10^{-31}(2{,}998\\cdot10^8)^2=8{,}187\\cdot10^{-14}\\ \\mathrm J\\]\\[E_0=\\frac{8{,}187\\cdot10^{-14}}{1{,}602\\cdot10^{-13}}=0{,}511\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Elektronens viloenergi är \\(0{,}511\\ \\mathrm{MeV}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektronens viloenergi: \\(E_0=m_ec^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_0&=9{,}109\\cdot10^{-31}(2{,}998\\cdot10^8)^2\\\\&\\approx8{,}187\\cdot10^{-14}\\ \\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Omvandla med \\(1\\ \\mathrm{MeV}=1{,}602\\cdot10^{-13}\\) J</p><div class=\"facit-matte\">\\[\\begin{aligned}E_0&=\\frac{8{,}187\\cdot10^{-14}}{1{,}602\\cdot10^{-13}}\\\\&\\approx0{,}511\\ \\mathrm{MeV}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Elektronens viloenergi är cirka 0,511 MeV.</p></div>",
     "familj": "Viloenergi och E = mc²",
     "formaga": [
       "procedur"
@@ -25551,13 +25551,15 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "MeV",
     "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
-    "ledtrad": "<p>Elektronens viloenergi är \\(E_0=m_ec^2\\). Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>",
+    "ledtrad": "<p>Utgå från elektronens vilomassa och E₀=mc². Hur omvandlar du sedan joule till MeV?</p>",
     "omrTidigare": [
       "massa_och_energi"
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.32",
@@ -25567,7 +25569,7 @@ window.BANK2 = [
     "typ": "beräkna viloenergin för en neutron",
     "poang": "(1/0/0)",
     "t": "<p>Hur stor är viloenergin för en neutron? (Svara i MeV.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Använd \\(E_0=m_nc^2\\) och omvandla joule till MeV.</p></li><li><div class=\"facit-matte\">\\[E_0=1{,}675\\cdot10^{-27}(2{,}998\\cdot10^8)^2=1{,}505\\cdot10^{-10}\\ \\mathrm J\\]\\[E_0=\\frac{1{,}505\\cdot10^{-10}}{1{,}602\\cdot10^{-13}}=939{,}5\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Neutronens viloenergi är cirka \\(940\\ \\mathrm{MeV}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Neutronens viloenergi: \\(E_0=m_nc^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_0&=1{,}675\\cdot10^{-27}(2{,}998\\cdot10^8)^2\\\\&\\approx1{,}505\\cdot10^{-10}\\ \\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Joule till megaelektronvolt</p><div class=\"facit-matte\">\\[\\begin{aligned}E_0&\\approx\\frac{1{,}505\\cdot10^{-10}}{1{,}602\\cdot10^{-13}}\\\\&\\approx940\\ \\mathrm{MeV}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Neutronens viloenergi är cirka 940 MeV.</p></div>",
     "familj": "Viloenergi och E = mc²",
     "formaga": [
       "procedur"
@@ -25580,13 +25582,15 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "MeV",
     "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
-    "ledtrad": "<p>Använd \\(E_0=m_nc^2\\) och omvandla joule till MeV. Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>",
+    "ledtrad": "<p>Använd neutronens vilomassa för att beräkna viloenergin. Ingen fart behövs.</p>",
     "omrTidigare": [
       "massa_och_energi"
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.33",
@@ -25596,7 +25600,7 @@ window.BANK2 = [
     "typ": "omvandla energi från TeV till joule",
     "poang": "(1/0/0)",
     "t": "<p>I en accelerator får partiklarna energin 5,0 TeV. Hur många joule motsvarar det?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Omvandla teraelektronvolt till elektronvolt och därefter till joule.</p></li><li><div class=\"facit-matte\">\\[E=5{,}0\\ \\mathrm{TeV}=5{,}0\\cdot10^{12}\\ \\mathrm{eV}\\]\\[E=5{,}0\\cdot10^{12}\\cdot1{,}602\\cdot10^{-19}=8{,}01\\cdot10^{-7}\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm{TeV}=8{,}0\\cdot10^{-7}\\ \\mathrm J=0{,}80\\ \\mu\\mathrm J\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teraprefixet: \\(1\\ \\mathrm{TeV}=10^{12}\\) eV</p><p>5,0 TeV är alltså 5,0·10¹² eV. Det är en energienhet, inte en spänning.</p></li><li><p class=\"facit-rubrik\">Elektronvolt till joule: \\(1\\ \\mathrm{eV}=1{,}602\\cdot10^{-19}\\) J</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=5{,}0\\cdot10^{12}\\cdot1{,}602\\cdot10^{-19}\\\\&=8{,}01\\cdot10^{-7}\\ \\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(8{,}0\\cdot10^{-7}\\) J, alltså 0,80 μJ.</p></div>",
     "familj": "Viloenergi och E = mc²",
     "formaga": [
       "procedur"
@@ -25613,7 +25617,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.34",
@@ -25623,7 +25629,7 @@ window.BANK2 = [
     "typ": "omvandla viloenergi till massa",
     "poang": "(1/0/0)",
     "t": "<p>Hur många kg motsvarar viloenergin 1,0 MeV?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skriv energin i joule och lös ut massan ur</p><div class=\"facit-matte\">\\[E_0=mc^2\\].</div></div></li><li><div class=\"facit-matte\">\\[E_0=1{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=1{,}602\\cdot10^{-13}\\ \\mathrm J\\]\\[m=\\frac{E_0}{c^2}=\\frac{1{,}602\\cdot10^{-13}}{(2{,}998\\cdot10^8)^2}=1{,}78\\cdot10^{-30}\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Massan är \\(1{,}8\\cdot10^{-30}\\ \\mathrm{kg}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv 1,0 MeV i joule</p><div class=\"facit-matte\">\\[E_0=1{,}0\\cdot1{,}602\\cdot10^{-13}\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Massan ur viloenergin: \\(m=E_0/c^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}m&=\\frac{1{,}602\\cdot10^{-13}}{(2{,}998\\cdot10^8)^2}\\\\&\\approx1{,}78\\cdot10^{-30}\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Massan är cirka \\(1{,}8\\cdot10^{-30}\\) kg.</p></div>",
     "familj": "Viloenergi och E = mc²",
     "formaga": [
       "procedur"
@@ -25636,13 +25642,15 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
     "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
-    "ledtrad": "<p>Skriv energin i joule och lös ut massan ur \\(E_0=mc^2\\). Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>",
+    "ledtrad": "<p>Skriv 1,0 MeV i joule och lös sedan ut massan ur E₀=mc².</p>",
     "omrTidigare": [
       "massa_och_energi"
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.35",
@@ -25652,7 +25660,7 @@ window.BANK2 = [
     "typ": "beräkna massökning vid uppvärmning av vatten",
     "poang": "(0/2/0)",
     "t": "<p>I en vattenkokare värms 1,0 kg nollgradigt vatten till kokpunkten. Eftersom vattnet tillförs energi ökar dess massa. Hur mycket ökar massan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Den tillförda värmeenergin ökar systemets totala massa.</p></li><li><p class=\"facit-metod\">Håll isär vattnets specifika värmekapacitet och ljusets hastighet.</p></li><li><div class=\"facit-matte\">\\[Q=m c_{\\mathrm{vatten}}\\Delta T=1{,}0\\cdot4180\\cdot100=4{,}18\\cdot10^5\\ \\mathrm J\\]\\[\\Delta m=\\frac{Q}{c_0^2}=\\frac{4{,}18\\cdot10^5}{(2{,}998\\cdot10^8)^2}=4{,}65\\cdot10^{-12}\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Massan ökar med cirka \\(4{,}7\\cdot10^{-12}\\ \\mathrm{kg}\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Det är hela systemets energiinnehåll som ökar.</p></li><li><p class=\"facit-not\">Massökningen är mycket liten eftersom den tillförda energin divideras med \\(c_0^2\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värmeenergi: \\(Q=mc_v\\Delta T\\)</p><p>Temperaturen ökar 100 K. Symbolen \\(c_v\\) betecknar här vattnets specifika värmekapacitet, inte ljusfarten.</p><div class=\"facit-matte\">\\[\\begin{aligned}Q&=1{,}0\\cdot4180\\cdot100\\\\&=4{,}18\\cdot10^5\\ \\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Tillförd energi ökar vilomassan: \\(\\Delta m=Q/c^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta m&=\\frac{4{,}18\\cdot10^5}{(2{,}998\\cdot10^8)^2}\\\\&\\approx4{,}65\\cdot10^{-12}\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vattnets massa ökar med cirka \\(4{,}7\\cdot10^{-12}\\) kg.</p></div>",
     "familj": "Viloenergi och E = mc²",
     "formaga": [
       "procedur"
@@ -25671,7 +25679,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.36",
@@ -25681,7 +25691,7 @@ window.BANK2 = [
     "typ": "beräkna massökning ur rörelseenergi",
     "poang": "(0/2/0)",
     "t": "<p>En bil med massan 1,0 ton accelererar från stillastående till 150 km/h. Hur stor massökning motsvarar ändringen av bilens rörelseenergi?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Vid denna fart räcker den klassiska rörelseenergin mycket väl.</p></li><li><div class=\"facit-matte\">\\[v=\\frac{150}{3{,}6}=41{,}67\\ \\mathrm{m/s}\\]\\[K=\\frac{mv^2}{2}=\\frac{1000\\cdot41{,}67^2}{2}=8{,}68\\cdot10^5\\ \\mathrm J\\]</div></li><li><div class=\"facit-berakning\"><p>Energiökningen motsvarar en massökning</p><div class=\"facit-matte\">\\[\\Delta m=K/c^2\\].</div></div></li><li><div class=\"facit-matte\">\\[\\Delta m=\\frac{8{,}68\\cdot10^5}{(2{,}998\\cdot10^8)^2}=9{,}65\\cdot10^{-12}\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Massökningen motsvarar cirka \\(9{,}7\\cdot10^{-12}\\ \\mathrm{kg}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Klassisk rörelseenergi räcker här: \\(K=mv^2/2\\)</p><p>150 km/h är cirka 41,67 m/s och massan är 1000 kg. Farten är mycket liten jämfört med ljusfarten.</p><div class=\"facit-matte\">\\[\\begin{aligned}K&=\\frac{1000(150/3{,}6)^2}{2}\\\\&\\approx8{,}68\\cdot10^5\\ \\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Energins massekvivalent: \\(\\Delta m=K/c^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta m&=\\frac{8{,}68\\cdot10^5}{(2{,}998\\cdot10^8)^2}\\\\&\\approx9{,}65\\cdot10^{-12}\\ \\mathrm{kg}\\end{aligned}\\]</div><p>Detta är den ökade energins massekvivalent i vägens system. Bilens vilomassa ändras inte bara för att bilen får fart.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(9{,}7\\cdot10^{-12}\\) kg i massekvivalent.</p></div>",
     "familj": "Viloenergi och E = mc²",
     "formaga": [
       "procedur"
@@ -25700,7 +25710,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.37",
@@ -25710,7 +25722,7 @@ window.BANK2 = [
     "typ": "beräkna massa som omvandlas vid fission",
     "poang": "(0/2/0)",
     "t": "<p>När man klyver en urankärna i ett kärnkraftverk omvandlas massa till energi. Vid en klyvning frigörs energin 200 MeV. Hur stor massa motsvarar den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Omvandla den frigjorda energin till joule och använd mass–energiekvivalensen.</p></li><li><div class=\"facit-matte\">\\[E=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=3{,}204\\cdot10^{-11}\\ \\mathrm J\\]\\[\\Delta m=\\frac E{c^2}=\\frac{3{,}204\\cdot10^{-11}}{(2{,}998\\cdot10^8)^2}=3{,}56\\cdot10^{-28}\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Varje klyvning motsvarar en massminskning på cirka \\(3{,}6\\cdot10^{-28}\\ \\mathrm{kg}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">200 MeV frigjord energi uttryckt i joule</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=200\\cdot1{,}602\\cdot10^{-13}\\\\&=3{,}204\\cdot10^{-11}\\ \\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Massdefekt: \\(\\Delta m=E/c^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta m&=\\frac{3{,}204\\cdot10^{-11}}{(2{,}998\\cdot10^8)^2}\\\\&\\approx3{,}56\\cdot10^{-28}\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(3{,}6\\cdot10^{-28}\\) kg per klyvning.</p></div>",
     "familj": "Viloenergi och E = mc²",
     "formaga": [
       "procedur"
@@ -25729,7 +25741,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.38",
@@ -25739,7 +25753,7 @@ window.BANK2 = [
     "typ": "beräkna massa ur energi från en glödlampa under ett år",
     "poang": "(0/2/0)",
     "t": "<p>En glödlampa med effekten 75 W är tänd dygnet runt i 1,0 år. Hur stor massa motsvarar den frigjorda energin?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Beräkna den frigjorda energin under ett år.</p></li><li><div class=\"facit-matte\">\\[t=365{,}25\\cdot24\\cdot3600=3{,}156\\cdot10^7\\ \\mathrm s\\]\\[E=Pt=75\\cdot3{,}156\\cdot10^7=2{,}37\\cdot10^9\\ \\mathrm J\\]</div></li><li><p class=\"facit-metod\">Massan som motsvarar energin är</p></li><li><div class=\"facit-matte\">\\[\\Delta m=\\frac E{c^2}=\\frac{2{,}37\\cdot10^9}{(2{,}998\\cdot10^8)^2}=2{,}63\\cdot10^{-8}\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Energin motsvarar cirka \\(2{,}6\\cdot10^{-8}\\ \\mathrm{kg}\\), eller \\(26\\ \\mu\\mathrm g\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi under ett år: \\(E=Pt\\)</p><p>Med 365,25 dygn per år är tiden cirka 3,156·10⁷ s.</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=75\\cdot365{,}25\\cdot24\\cdot3600\\\\&\\approx2{,}37\\cdot10^9\\ \\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Massekvivalent: \\(m=E/c^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}m&=\\frac{2{,}37\\cdot10^9}{(2{,}998\\cdot10^8)^2}\\\\&\\approx2{,}63\\cdot10^{-8}\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Energin motsvarar cirka \\(2{,}6\\cdot10^{-8}\\) kg, alltså 26 μg.</p></div>",
     "familj": "Viloenergi och E = mc²",
     "formaga": [
       "procedur"
@@ -25750,13 +25764,15 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
-    "ledtrad": "<p>Beräkna den frigjorda energin under ett år. Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>",
+    "ledtrad": "<p>Använd P gånger tiden i sekunder för att få energin under ett år. Hur stor massa motsvarar den energin?</p>",
     "omrTidigare": [
       "massa_och_energi"
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.39",
@@ -25766,7 +25782,7 @@ window.BANK2 = [
     "typ": "jämföra energivärde och materialvärde för ett gram",
     "poang": "(1/2/0)",
     "t": "<p>Californium-252 är ett av de dyraste ämnena och kostar 230 miljoner kronor per gram. Om 1 gram i stället omvandlades helt till energi, hur mycket skulle den energin vara värd? Energin 1 kWh kostar ungefär 90 öre.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Omvandla hela grammet till energi och därefter till kilowattimmar.</p></li><li><div class=\"facit-matte\">\\[E=mc^2=1{,}0\\cdot10^{-3}(2{,}998\\cdot10^8)^2=8{,}99\\cdot10^{13}\\ \\mathrm J\\]\\[E=\\frac{8{,}99\\cdot10^{13}}{3{,}6\\cdot10^6}=2{,}50\\cdot10^7\\ \\mathrm{kWh}\\]</div></li><li><p class=\"facit-metod\">Vid \\(0{,}90\\ \\mathrm{kr/kWh}\\) blir värdet</p></li><li><div class=\"facit-matte\">\\[V=2{,}50\\cdot10^7\\cdot0{,}90=2{,}25\\cdot10^7\\ \\mathrm{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Energin skulle vara värd cirka 22 miljoner kronor, mindre än materialpriset 230 miljoner kronor per gram.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett gram helt omvandlat: \\(E=mc^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=10^{-3}(2{,}998\\cdot10^8)^2\\\\&\\approx8{,}99\\cdot10^{13}\\ \\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Omvandla med \\(1\\ \\mathrm{kWh}=3{,}6\\cdot10^6\\) J</p><div class=\"facit-matte\">\\[\\begin{aligned}E&\\approx\\frac{8{,}99\\cdot10^{13}}{3{,}6\\cdot10^6}\\\\&\\approx2{,}50\\cdot10^7\\ \\mathrm{kWh}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med elpriset 0,90 kr/kWh</p><div class=\"facit-matte\">\\[\\begin{aligned}V&\\approx2{,}50\\cdot10^7\\cdot0{,}90\\\\&=2{,}25\\cdot10^7\\ \\mathrm{kr}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Energin skulle vara värd cirka 22 miljoner kronor, mindre än materialpriset 230 miljoner kronor.</p></div>",
     "familj": "Viloenergi och E = mc²",
     "formaga": [
       "procedur"
@@ -25783,7 +25799,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.40",
@@ -25793,7 +25811,7 @@ window.BANK2 = [
     "typ": "beräkna omvandlad massa ur årlig elproduktion",
     "poang": "(1/2/0)",
     "t": "<p>Sveriges kärnkraftverk levererade cirka 63 TWh elenergi under 2014. Verkningsgraden är 30 %. Energin kommer från att massa omvandlas till energi vid klyvningen. Hur många kg materia omvandlades i de svenska kärnkraftverken under 2014?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Elenergin är \\(30\\ \\%\\) av den frigjorda kärnenergin.</p></li><li><div class=\"facit-matte\">\\[E_{\\mathrm{kärn}}=\\frac{63\\ \\mathrm{TWh}}{0{,}30}=210\\ \\mathrm{TWh}\\]\\[E_{\\mathrm{kärn}}=210\\cdot10^{12}\\cdot3600=7{,}56\\cdot10^{17}\\ \\mathrm J\\]</div></li><li><div class=\"facit-berakning\"><p>Massdefekten fås ur</p><div class=\"facit-matte\">\\[E=\\Delta mc^2\\].</div></div></li><li><div class=\"facit-matte\">\\[\\Delta m=\\frac{7{,}56\\cdot10^{17}}{(2{,}998\\cdot10^8)^2}=8{,}41\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(8{,}4\\ \\mathrm{kg}\\) materia omvandlades till energi.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Verkningsgraden gör att den frigjorda kärnenergin är större än den levererade elenergin.</p></li><li><div class=\"facit-berakning\"><p>Först därefter kan massdefekten bestämmas med</p><div class=\"facit-matte\">\\[E=\\Delta mc^2\\].</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Frigjord energi före förluster: \\(E=E_{el}/\\eta\\)</p><p>63 TWh är elenergin, bara 30 % av den energi som klyvningen frigör.</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=63/0{,}30\\\\&=210\\ \\mathrm{TWh}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">TWh till joule</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=210\\cdot10^{12}\\cdot3600\\\\&=7{,}56\\cdot10^{17}\\ \\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Massdefekten ur \\(\\Delta m=E/c^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta m&=\\frac{7{,}56\\cdot10^{17}}{(2{,}998\\cdot10^8)^2}\\\\&\\approx8{,}41\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 8,4 kg motsvarade den frigjorda energin.</p></div>",
     "familj": "Viloenergi och E = mc²",
     "formaga": [
       "procedur"
@@ -25806,13 +25824,15 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
     "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
-    "ledtrad": "<p>Elenergin är \\(30\\ \\%\\) av den frigjorda kärnenergin. Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>",
+    "ledtrad": "<p>Den levererade elenergin är 30 % av den frigjorda energin. Vilken energimängd ska du använda i E=Δmc²?</p>",
     "omrTidigare": [
       "massa_och_energi"
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.41",
@@ -25822,7 +25842,7 @@ window.BANK2 = [
     "typ": "beräkna protonens viloenergi",
     "poang": "(1/0/0)",
     "t": "<p>En proton har farten 0,95<em>c</em>. Beräkna protonens viloenergi.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Viloenergin beror endast på partikelns vilomassa, inte på dess fart.</p></li><li><div class=\"facit-matte\">\\[E_0=m_pc^2=1{,}673\\cdot10^{-27}(2{,}998\\cdot10^8)^2=1{,}504\\cdot10^{-10}\\ \\mathrm J\\]\\[E_0=938\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Protonens viloenergi är cirka \\(938\\ \\mathrm{MeV}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Viloenergi beror på vilomassan: \\(E_0=m_pc^2\\)</p><p>Farten 0,95c påverkar protonens totalenergi och rörelseenergi, men inte viloenergin.</p><div class=\"facit-matte\">\\[\\begin{aligned}E_0&=1{,}673\\cdot10^{-27}(2{,}998\\cdot10^8)^2\\\\&\\approx1{,}504\\cdot10^{-10}\\ \\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Omvandla joule till MeV</p><div class=\"facit-matte\">\\[\\begin{aligned}E_0&\\approx\\frac{1{,}504\\cdot10^{-10}}{1{,}602\\cdot10^{-13}}\\\\&\\approx938\\ \\mathrm{MeV}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Protonens viloenergi är cirka 938 MeV.</p></div>",
     "familj": "Viloenergi och E = mc²",
     "formaga": [
       "begrepp",
@@ -25839,7 +25859,9 @@ window.BANK2 = [
     "ledtrad": "<p>Viloenergin beror endast på partikelns vilomassa, inte på dess fart.</p>",
     "familjTidigare": [
       "Relativistisk energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.42",
@@ -25849,7 +25871,7 @@ window.BANK2 = [
     "typ": "beräkna total energi ur viloenergi och gammafaktor",
     "poang": "(0/2/0)",
     "t": "<p>En proton har farten 0,95<em>c</em>. Beräkna protonens totala energi.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Den totala relativistiska energin är</p><div class=\"facit-matte\">\\[E=\\gamma E_0\\].</div></div></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-0{,}95^2}}=3{,}203\\]\\[E=\\gamma E_0=3{,}203\\cdot938=3005\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Protonens totala energi är cirka \\(3{,}00\\ \\mathrm{GeV}\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Total relativistisk energi inkluderar viloenergin.</p></li><li><p class=\"facit-not\">Det är därför \\(E=\\gamma E_0\\), till skillnad från rörelseenergin som är \\((\\gamma-1)E_0\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lorentzfaktorn vid 0,95c: \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=1/\\sqrt{1-0{,}95^2}\\\\&\\approx3{,}203\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Totalenergi: \\(E=\\gamma E_0\\)</p><p>Här ska viloenergin räknas med, inte dras bort.</p><div class=\"facit-matte\">\\[\\begin{aligned}E&\\approx3{,}203\\cdot938\\\\&=3004\\ \\mathrm{MeV}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Totalenergin är cirka 3,00 GeV.</p></div>",
     "familj": "Total energi och rörelseenergi",
     "formaga": [
       "procedur"
@@ -25865,7 +25887,9 @@ window.BANK2 = [
     "ledtrad": "<p>Den totala relativistiska energin är \\(E=\\gamma E_0\\). Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>",
     "familjTidigare": [
       "Relativistisk energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.43",
@@ -25875,7 +25899,7 @@ window.BANK2 = [
     "typ": "beräkna relativistisk rörelseenergi",
     "poang": "(0/2/0)",
     "t": "<p>En proton har farten 0,95<em>c</em>. Beräkna protonens rörelseenergi.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Rörelseenergin är total energi minus viloenergi.</p></li><li><div class=\"facit-matte\">\\[K=E-E_0=(\\gamma-1)E_0\\]\\[K=(3{,}203-1)\\cdot938=2066\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Protonens rörelseenergi är cirka \\(2{,}07\\ \\mathrm{GeV}\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Rörelseenergin är den del av totalenergin som återstår när viloenergin dragits bort.</p></li><li><p class=\"facit-not\">Vid relativistiska farter ska den klassiska formeln \\(mv^2/2\\) inte användas.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelseenergi är \\(K=E-E_0=(\\gamma-1)E_0\\)</p><p>För 0,95c är gamma cirka 3,203. Protonens viloenergi är cirka 938 MeV.</p></li><li><p class=\"facit-rubrik\">Dra bort viloenergin genom faktorn gamma minus ett</p><div class=\"facit-matte\">\\[\\begin{aligned}K&\\approx(3{,}203-1)\\cdot938\\\\&\\approx2066\\ \\mathrm{MeV}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Rörelseenergin är cirka 2,07 GeV.</p></div>",
     "familj": "Total energi och rörelseenergi",
     "formaga": [
       "procedur"
@@ -25891,7 +25915,9 @@ window.BANK2 = [
     "ledtrad": "<p>Rörelseenergin är total energi minus viloenergi. Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>",
     "familjTidigare": [
       "Relativistisk energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.44",
@@ -25901,7 +25927,7 @@ window.BANK2 = [
     "typ": "beräkna relativistisk rörelseenergi för en neutron",
     "poang": "(0/2/0)",
     "t": "<p>Beräkna rörelseenergin hos en neutron som rör sig med farten \\(2{,}7\\cdot10^{8}\\) m/s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Beräkna Lorentzfaktorn och använd</p><div class=\"facit-matte\">\\[K=(\\gamma-1)E_0\\].</div></div></li><li><div class=\"facit-matte\">\\[\\beta=\\frac{2{,}7\\cdot10^8}{3{,}0\\cdot10^8}=0{,}900\\]\\[\\gamma=\\frac1{\\sqrt{1-0{,}900^2}}=2{,}294\\]\\[K=(2{,}294-1)\\cdot940=1216\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Neutronens rörelseenergi är cirka \\(1{,}2\\ \\mathrm{GeV}\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Farten måste först uttryckas som andel av \\(c\\) för att \\(\\gamma\\) ska kunna bestämmas.</p></li><li><p class=\"facit-not\">Därefter ger \\((\\gamma-1)E_0\\) rörelseenergin direkt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fartkvot och Lorentzfaktor: \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><p>Med c ≈ 3,0·10⁸ m/s blir v/c = 0,90 och gamma ≈ 2,294.</p></li><li><p class=\"facit-rubrik\">Neutronens rörelseenergi: \\(K=(\\gamma-1)E_0\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}K&\\approx(2{,}294-1)\\cdot940\\\\&\\approx1216\\ \\mathrm{MeV}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Neutronens rörelseenergi är cirka 1,2 GeV.</p></div>",
     "familj": "Total energi och rörelseenergi",
     "formaga": [
       "procedur"
@@ -25912,10 +25938,12 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi",
-    "ledtrad": "<p>Beräkna Lorentzfaktorn och använd \\(K=(\\gamma-1)E_0\\). Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>",
+    "ledtrad": "<p>Uttryck först farten som andel av c. Skilj sedan rörelseenergin från neutronens viloenergi.</p>",
     "familjTidigare": [
       "Relativistisk energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.45",
@@ -25925,7 +25953,7 @@ window.BANK2 = [
     "typ": "bestämma farten ur relativistisk rörelseenergi",
     "poang": "(0/3/0)",
     "t": "<p>En proton har rörelseenergin 3750 MeV. Vilken fart har protonen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Rörelseenergin bestämmer först Lorentzfaktorn.</p></li><li><div class=\"facit-matte\">\\[K=(\\gamma-1)E_0\\Rightarrow \\gamma=1+\\frac{K}{E_0}=1+\\frac{3750}{938}=4{,}998\\]</div></li><li><p class=\"facit-metod\">Lös därefter ut farten.</p></li><li><div class=\"facit-matte\">\\[\\frac vc=\\sqrt{1-\\frac1{\\gamma^2}}=\\sqrt{1-\\frac1{4{,}998^2}}=0{,}980\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Protonens fart är cirka \\(0{,}980c\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Här är energin given och farten söks.</p></li><li><p class=\"facit-not\">Därför är det effektivt att först lösa ut \\(\\gamma=1+K/E_0\\) och därefter använda Lorentzfaktorns definition för att få \\(v/c\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös först ut gamma: \\(\\gamma=1+K/E_0\\)</p><p>3750 MeV är rörelseenergin. Viloenergin måste alltså läggas till när gamma bestäms.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=1+3750/938\\\\&\\approx4{,}998\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Farten: \\(v/c=\\sqrt{1-1/\\gamma^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}v/c&\\approx\\sqrt{1-1/4{,}998^2}\\\\&\\approx0{,}980\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Protonens fart är cirka 0,980c.</p></div>",
     "familj": "Total energi och rörelseenergi",
     "formaga": [
       "procedur"
@@ -25938,10 +25966,12 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "c",
     "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi",
-    "ledtrad": "<p>Rörelseenergin bestämmer först Lorentzfaktorn. Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>",
+    "ledtrad": "<p>Lös ut gamma ur K=(gamma−1)E₀. Först därefter kan du få farten ur gammaformeln.</p>",
     "familjTidigare": [
       "Relativistisk energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.46",
@@ -25951,7 +25981,7 @@ window.BANK2 = [
     "typ": "beräkna arbetet för att öka en elektrons fart",
     "poang": "(0/3/0)",
     "t": "<p>Hur stort arbete krävs för att öka en elektrons fart från 0,500<em>c</em> till 0,900<em>c</em>?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Arbetet är ökningen i relativistisk rörelseenergi, vilket här är skillnaden i total energi.</p></li><li><div class=\"facit-matte\">\\[\\gamma_1=\\frac1{\\sqrt{1-0{,}500^2}}=1{,}1547\\]\\[\\gamma_2=\\frac1{\\sqrt{1-0{,}900^2}}=2{,}2942\\]\\[W=(\\gamma_2-\\gamma_1)E_0=(2{,}2942-1{,}1547)\\cdot0{,}511=0{,}582\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Arbetet är \\(0{,}582\\ \\mathrm{MeV}\\), motsvarande \\(9{,}32\\cdot10^{-14}\\ \\mathrm J\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arbetet ökar rörelseenergin: \\(W=\\Delta K\\)</p><p>Viloenergin ändras inte och tar därför ut sig när slutenergin minus startenergin beräknas.</p></li><li><p class=\"facit-rubrik\">Beräkna de två faktorerna: \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma_1&=1/\\sqrt{1-0{,}500^2}\\approx1{,}1547\\\\\\gamma_2&=1/\\sqrt{1-0{,}900^2}\\approx2{,}2942\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Energiökningen: \\(W=(\\gamma_2-\\gamma_1)E_0\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}W&\\approx(2{,}2942-1{,}1547)\\cdot0{,}511\\\\&\\approx0{,}582\\ \\mathrm{MeV}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Arbetet är cirka 0,582 MeV, alltså \\(9{,}32\\cdot10^{-14}\\) J.</p></div>",
     "familj": "Total energi och rörelseenergi",
     "formaga": [
       "procedur"
@@ -25965,7 +25995,9 @@ window.BANK2 = [
     "ledtrad": "<p>Arbetet är ökningen i relativistisk rörelseenergi, vilket här är skillnaden i total energi.</p>",
     "familjTidigare": [
       "Relativistisk energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.47",
@@ -25975,7 +26007,7 @@ window.BANK2 = [
     "typ": "beräkna farten klassiskt efter acceleration",
     "poang": "(2/0/0)",
     "t": "<p>I en gammal tjock-TV accelereras en elektron från vila genom spänningen 10,0 kV. Vilken fart får elektronen om man räknar med klassisk rörelseenergi?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">I den klassiska modellen blir spänningens arbete rörelseenergi.</p></li><li><div class=\"facit-matte\">\\[eU=\\frac{m_ev^2}{2}\\Rightarrow v=\\sqrt{\\frac{2eU}{m_e}}\\]\\[v=\\sqrt{\\frac{2\\cdot1{,}602\\cdot10^{-19}\\cdot10{,}0\\cdot10^3}{9{,}109\\cdot10^{-31}}}=5{,}93\\cdot10^7\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den klassiska beräkningen ger \\(5{,}93\\cdot10^7\\ \\mathrm{m/s}\\), ungefär \\(0{,}198c\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Spänningens arbete blir rörelseenergi: \\(eU=m_ev^2/2\\)</p><p>Uppgiften ber uttryckligen om den klassiska modellen.</p></li><li><p class=\"facit-rubrik\">Lös ut farten: \\(v=\\sqrt{2eU/m_e}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}v&=\\sqrt{\\frac{2\\cdot1{,}602\\cdot10^{-19}\\cdot10^4}{9{,}109\\cdot10^{-31}}}\\\\&\\approx5{,}93\\cdot10^7\\ \\mathrm{m/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den klassiska farten blir cirka \\(5{,}93\\cdot10^7\\) m/s.</p></div>",
     "familj": "Total energi och rörelseenergi",
     "formaga": [
       "begrepp",
@@ -25990,7 +26022,9 @@ window.BANK2 = [
     "ledtrad": "<p>I den klassiska modellen blir spänningens arbete rörelseenergi.</p>",
     "familjTidigare": [
       "Relativistisk energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.48",
@@ -26000,7 +26034,7 @@ window.BANK2 = [
     "typ": "beräkna farten relativistiskt efter acceleration",
     "poang": "(0/2/0)",
     "t": "<p>En elektron accelereras från vila genom spänningen 10,0 kV. Vilken fart får elektronen om man räknar relativistiskt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Den tillförda energin är</p><div class=\"facit-matte\">\\[K=eU=10{,}0\\ \\mathrm{keV}\\].</div></div></li><li><div class=\"facit-berakning\"><p>För elektronen är</p><div class=\"facit-matte\">\\[E_0=511\\ \\mathrm{keV}\\].</div></div></li><li><div class=\"facit-matte\">\\[\\gamma=1+\\frac K{E_0}=1+\\frac{10{,}0}{511}=1{,}01957\\]\\[\\frac vc=\\sqrt{1-\\frac1{\\gamma^2}}=0{,}1949\\]\\[v=0{,}1949c=5{,}84\\cdot10^7\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den relativistiska farten är \\(5{,}85\\cdot10^7\\ \\mathrm{m/s}\\), cirka 1,4 % lägre än det klassiska värdet.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektronens rörelseenergi: \\(K=eU\\)</p><p>10,0 kV ger 10,0 keV. Elektronens viloenergi är cirka 511 keV.</p></li><li><p class=\"facit-rubrik\">Bestäm \\(\\gamma=1+K/E_0\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=1+10{,}0/511\\\\&\\approx1{,}01957\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Farten: \\(v=c\\sqrt{1-1/\\gamma^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}v/c&\\approx0{,}19499\\\\v&\\approx5{,}85\\cdot10^7\\ \\mathrm{m/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(5{,}85\\cdot10^7\\) m/s, lägre än den klassiska farten.</p></div>",
     "familj": "Total energi och rörelseenergi",
     "formaga": [
       "procedur"
@@ -26016,7 +26050,9 @@ window.BANK2 = [
     "ledtrad": "<p>Den tillförda energin är \\(K=eU=10{,}0\\ \\mathrm{keV}\\). För elektronen är \\(E_0=511\\ \\mathrm{keV}\\).</p>",
     "familjTidigare": [
       "Relativistisk energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.49",
@@ -26026,7 +26062,7 @@ window.BANK2 = [
     "typ": "visa att klassisk formel ger orimlig fart",
     "poang": "(2/0/0)",
     "t": "<p>En elektron accelereras från vila genom spänningen 1,00 MV. Vilken fart får elektronen om man räknar med klassisk rörelseenergi?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Använd den klassiska formeln trots att resultatet måste rimlighetskontrolleras.</p></li><li><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{2eU}{m_e}}=\\sqrt{\\frac{2\\cdot1{,}602\\cdot10^{-19}\\cdot1{,}00\\cdot10^6}{9{,}109\\cdot10^{-31}}}=5{,}93\\cdot10^8\\ \\mathrm{m/s}\\]\\[\\frac vc=1{,}98\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den klassiska formeln ger \\(5{,}93\\cdot10^8\\ \\mathrm{m/s}\\), nästan \\(2c\\). Resultatet är omöjligt och visar att relativistisk mekanik måste användas.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den efterfrågade klassiska modellen: \\(eU=m_ev^2/2\\)</p><p>1,00 MV är 10⁶ V. Vi använder modellen för att visa dess begränsning.</p></li><li><p class=\"facit-rubrik\">Lös ut farten: \\(v=\\sqrt{2eU/m_e}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}v&=\\sqrt{\\frac{2\\cdot1{,}602\\cdot10^{-19}\\cdot10^6}{9{,}109\\cdot10^{-31}}}\\\\&\\approx5{,}93\\cdot10^8\\ \\mathrm{m/s}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Resultatet överskrider ljusfarten</p><p>5,93·10⁸ m/s är nästan 2c. En elektron kan inte ha den farten; den klassiska modellen räcker alltså inte vid denna energi.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Klassiskt blir det \\(5{,}93\\cdot10^8\\) m/s. Det är ett fysikaliskt omöjligt resultat som visar modellens begränsning.</p></div>",
     "familj": "Total energi och rörelseenergi",
     "formaga": [
       "begrepp",
@@ -26041,7 +26077,9 @@ window.BANK2 = [
     "ledtrad": "<p>Använd den klassiska formeln trots att resultatet måste rimlighetskontrolleras.</p>",
     "familjTidigare": [
       "Relativistisk energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.50",
@@ -26051,7 +26089,7 @@ window.BANK2 = [
     "typ": "beräkna farten relativistiskt vid hög accelerationsspänning",
     "poang": "(0/2/0)",
     "t": "<p>En elektron accelereras från vila genom spänningen 1,00 MV. Vilken fart får elektronen om man räknar relativistiskt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Elektronen får rörelseenergin \\(K=1{,}00\\ \\mathrm{MeV}\\), medan viloenergin är \\(0{,}511\\ \\mathrm{MeV}\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=1+\\frac K{E_0}=1+\\frac{1{,}00}{0{,}511}=2{,}957\\]\\[\\frac vc=\\sqrt{1-\\frac1{\\gamma^2}}=0{,}941\\]\\[v=0{,}941c=2{,}82\\cdot10^8\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Elektronens fart är cirka \\(0{,}941c\\), alltid mindre än ljusfarten.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tillförd rörelseenergi: \\(K=eU=1{,}00\\) MeV</p><p>Viloenergin 0,511 MeV ingår inte i den energi som spänningen tillför.</p></li><li><p class=\"facit-rubrik\">Bestäm \\(\\gamma=1+K/E_0\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=1+1{,}00/0{,}511\\\\&\\approx2{,}957\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Farten: \\(v/c=\\sqrt{1-1/\\gamma^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}v/c&\\approx\\sqrt{1-1/2{,}957^2}\\\\&\\approx0{,}941\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den relativistiska farten är cirka 0,941c.</p></div>",
     "familj": "Total energi och rörelseenergi",
     "formaga": [
       "procedur"
@@ -26067,7 +26105,9 @@ window.BANK2 = [
     "ledtrad": "<p>Elektronen får rörelseenergin \\(K=1{,}00\\ \\mathrm{MeV}\\), medan viloenergin är \\(0{,}511\\ \\mathrm{MeV}\\).</p>",
     "familjTidigare": [
       "Relativistisk energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.51",
@@ -26243,8 +26283,8 @@ window.BANK2 = [
     "niva": "A",
     "typ": "beräkna gammafaktor, fart, kontraherad längd och egentid i en accelerator, ur text",
     "poang": "(0/1/3)",
-    "t": "<p>I en linjäracceleratorn accelereras elektroner från vila till totalenergin 50,0 MeV. Acceleratorröret är 30,0 m långt mätt i laboratoriet. Elektronens viloenergi är 0,511 MeV.</p><p><strong>a)</strong> Bestäm gammafaktorn och elektronens fart.</p><p><strong>b)</strong> Hur långt är acceleratorröret mätt i elektronens vilosystem?</p><p><strong>c)</strong> Hur lång tid tar passagen mätt med laboratoriets klocka respektive med elektronens egen klocka? Kontrollera att de två tiderna hänger ihop som de ska.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\gamma=\\frac{E}{E_0}=\\frac{50{,}0}{0{,}511}=97{,}85\\]\\[v=c\\sqrt{1-\\frac1{\\gamma^2}}=c\\sqrt{1-\\frac1{97{,}85^2}}=0{,}999948c\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma=97{,}9\\) och \\(v=0{,}999948c=2{,}9978\\cdot10^8\\ \\mathrm{m/s}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Röret rör sig i elektronens system och är därför kontraherat.</p></li><li><div class=\"facit-matte\">\\[L=\\frac{30{,}0}{97{,}85}=0{,}307\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Röret är bara \\(30{,}7\\ \\mathrm{cm}\\) långt för elektronen.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\frac{30{,}0}{2{,}9978\\cdot10^8}=1{,}001\\cdot10^{-7}\\ \\mathrm s=100{,}1\\ \\mathrm{ns}\\]\\[\\tau=\\frac{0{,}307}{2{,}9978\\cdot10^8}=1{,}02\\cdot10^{-9}\\ \\mathrm s=1{,}02\\ \\mathrm{ns}\\]</div></li><li><p>Kontrollen är att egentiden ska vara laboratorietiden delad med gammafaktorn:</p><div class=\"facit-matte\">\\[\\frac{t}{\\gamma}=\\frac{100{,}1}{97{,}85}=1{,}02\\ \\mathrm{ns}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Passagen tar \\(100{,}1\\ \\mathrm{ns}\\) i laboratoriet och \\(1{,}02\\ \\mathrm{ns}\\) för elektronen, vilket stämmer med \\(\\tau=t/\\gamma\\).</p></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Längdkontraktion och tidsdilatation är inte två oberoende effekter.</p></li><li><p class=\"facit-not\">Räknar man sträckan i elektronens system måste man också använda elektronens egentid, och då blir farten densamma i båda systemen.</p></li></ol></div>",
+    "t": "<p>Elektroner accelereras från vila till totalenergin 50,0 MeV. Därefter passerar de en 30,0 m lång mätsträcka i laboratoriet med konstant fart. Elektronens viloenergi är 0,511 MeV.</p><p><strong>a)</strong> Bestäm gammafaktorn och elektronens fart.</p><p><strong>b)</strong> Hur långt är mätsträckan mätt i elektronens vilosystem?</p><p><strong>c)</strong> Hur lång tid tar passagen mätt med laboratoriets klocka respektive med elektronens egen klocka? Kontrollera att de två tiderna hänger ihop som de ska.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Totalenergin ger \\(\\gamma=E/E_0\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=50{,}0/0{,}511\\\\&\\approx97{,}85\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Farten: \\(v/c=\\sqrt{1-1/\\gamma^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}v/c&=\\sqrt{1-(0{,}511/50{,}0)^2}\\\\&\\approx0{,}999948\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx97{,}9\\) och \\(v\\approx0{,}999948c\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Längden i elektronens system: \\(L=L_0/\\gamma\\)</p><p>Under mätpassagen är farten konstant. I elektronens vilosystem är det därför den laboratoriefasta mätsträckan som rör sig.</p></li><li><p class=\"facit-rubrik\">Dividera 30,0 m med Lorentzfaktorn</p><div class=\"facit-matte\">\\[\\begin{aligned}L&=30{,}0\\cdot0{,}511/50{,}0\\\\&=0{,}3066\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mätsträckan är cirka 0,307 m, alltså 30,7 cm, i elektronens vilosystem.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Laboratorietid: \\(t=L_0/v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}t&=30{,}0/(0{,}999948c)\\\\&\\approx100{,}1\\ \\mathrm{ns}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Elektronens egentid: \\(\\tau=t/\\gamma\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\tau&\\approx100{,}1/97{,}85\\\\&\\approx1{,}02\\ \\mathrm{ns}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontroll från elektronens system: \\(\\tau=L/v\\)</p><p>Den kortare mätsträckan är 0,3066 m. Divideras den med samma relativa fart blir tiden åter cirka 1,02 ns. Använd inte laboratoriets 30 m tillsammans med elektronens egentid.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Passagen tar cirka 100,1 ns i laboratoriet och 1,02 ns på elektronens klocka.</p></div></div></div></div>",
     "familj": "Total energi och rörelseenergi",
     "formaga": [
       "problemlösning",
@@ -26256,37 +26296,39 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "relativistisk_energi__totalenergi_och_viloenergi",
-    "ledtrad": "<p>Röret rör sig i elektronens system och är därför kontraherat.</p>",
+    "ledtrad": "<p>Totalenergin bestämmer gamma. Skilj sedan mellan laboratoriets mätsträcka och elektronens förkortade längd.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>I en linjäracceleratorn accelereras elektroner från vila till totalenergin 50,0 MeV. Acceleratorröret är 30,0 m långt mätt i laboratoriet. Elektronens viloenergi är 0,511 MeV.</p><div class=\"spel-en-del\"><p>Bestäm gammafaktorn och elektronens fart.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\gamma=\\frac{E}{E_0}=\\frac{50{,}0}{0{,}511}=97{,}85\\]\\[v=c\\sqrt{1-\\frac1{\\gamma^2}}=c\\sqrt{1-\\frac1{97{,}85^2}}=0{,}999948c\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma=97{,}9\\) och \\(v=0{,}999948c=2{,}9978\\cdot10^8\\ \\mathrm{m/s}\\).</p></div></div>",
-        "ledtrad": "<p>Röret rör sig i elektronens system och är därför kontraherat.</p>",
+        "t": "<p>Elektroner accelereras från vila till totalenergin 50,0 MeV. Därefter passerar de en 30,0 m lång mätsträcka i laboratoriet med konstant fart. Elektronens viloenergi är 0,511 MeV.</p><div class=\"spel-en-del\"><p>Bestäm gammafaktorn och elektronens fart.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Totalenergin ger \\(\\gamma=E/E_0\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=50{,}0/0{,}511\\\\&\\approx97{,}85\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Farten: \\(v/c=\\sqrt{1-1/\\gamma^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}v/c&=\\sqrt{1-(0{,}511/50{,}0)^2}\\\\&\\approx0{,}999948\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx97{,}9\\) och \\(v\\approx0{,}999948c\\).</p></div>",
+        "ledtrad": "<p>Är 50,0 MeV total energi eller rörelseenergi? Vilken energikvot ger gamma?</p>",
         "niva": "A",
         "poang": "0/0/1"
       },
       {
         "etikett": "b",
-        "t": "<p>I en linjäracceleratorn accelereras elektroner från vila till totalenergin 50,0 MeV. Acceleratorröret är 30,0 m långt mätt i laboratoriet. Elektronens viloenergi är 0,511 MeV.</p><div class=\"spel-en-del\"><p>Hur långt är acceleratorröret mätt i elektronens vilosystem?</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Röret rör sig i elektronens system och är därför kontraherat.</p></li><li><div class=\"facit-matte\">\\[L=\\frac{30{,}0}{97{,}85}=0{,}307\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Röret är bara \\(30{,}7\\ \\mathrm{cm}\\) långt för elektronen.</p></div></div>",
-        "ledtrad": "<p>Röret rör sig i elektronens system och är därför kontraherat.</p>",
+        "t": "<p>Elektroner accelereras från vila till totalenergin 50,0 MeV. Därefter passerar de en 30,0 m lång mätsträcka i laboratoriet med konstant fart. Elektronens viloenergi är 0,511 MeV.</p><div class=\"spel-en-del\"><p>Hur långt är mätsträckan mätt i elektronens vilosystem?</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Längden i elektronens system: \\(L=L_0/\\gamma\\)</p><p>Under mätpassagen är farten konstant. I elektronens vilosystem är det därför den laboratoriefasta mätsträckan som rör sig.</p></li><li><p class=\"facit-rubrik\">Dividera 30,0 m med Lorentzfaktorn</p><div class=\"facit-matte\">\\[\\begin{aligned}L&=30{,}0\\cdot0{,}511/50{,}0\\\\&=0{,}3066\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mätsträckan är cirka 0,307 m, alltså 30,7 cm, i elektronens vilosystem.</p></div>",
+        "ledtrad": "<p>Vilket referenssystem är mätsträckan i vila i?</p>",
         "niva": "A",
         "poang": "0/0/1"
       },
       {
         "etikett": "c",
-        "t": "<p>I en linjäracceleratorn accelereras elektroner från vila till totalenergin 50,0 MeV. Acceleratorröret är 30,0 m långt mätt i laboratoriet. Elektronens viloenergi är 0,511 MeV.</p><div class=\"spel-en-del\"><p>Hur lång tid tar passagen mätt med laboratoriets klocka respektive med elektronens egen klocka? Kontrollera att de två tiderna hänger ihop som de ska.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\frac{30{,}0}{2{,}9978\\cdot10^8}=1{,}001\\cdot10^{-7}\\ \\mathrm s=100{,}1\\ \\mathrm{ns}\\]\\[\\tau=\\frac{0{,}307}{2{,}9978\\cdot10^8}=1{,}02\\cdot10^{-9}\\ \\mathrm s=1{,}02\\ \\mathrm{ns}\\]</div></li><li><p>Kontrollen är att egentiden ska vara laboratorietiden delad med gammafaktorn:</p><div class=\"facit-matte\">\\[\\frac{t}{\\gamma}=\\frac{100{,}1}{97{,}85}=1{,}02\\ \\mathrm{ns}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Passagen tar \\(100{,}1\\ \\mathrm{ns}\\) i laboratoriet och \\(1{,}02\\ \\mathrm{ns}\\) för elektronen, vilket stämmer med \\(\\tau=t/\\gamma\\).</p></div></div>",
-        "ledtrad": "<p>Röret rör sig i elektronens system och är därför kontraherat.</p>",
+        "t": "<p>Elektroner accelereras från vila till totalenergin 50,0 MeV. Därefter passerar de en 30,0 m lång mätsträcka i laboratoriet med konstant fart. Elektronens viloenergi är 0,511 MeV.</p><div class=\"spel-en-del\"><p>Hur lång tid tar passagen mätt med laboratoriets klocka respektive med elektronens egen klocka? Kontrollera att de två tiderna hänger ihop som de ska.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Laboratorietid: \\(t=L_0/v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}t&=30{,}0/(0{,}999948c)\\\\&\\approx100{,}1\\ \\mathrm{ns}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Elektronens egentid: \\(\\tau=t/\\gamma\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\tau&\\approx100{,}1/97{,}85\\\\&\\approx1{,}02\\ \\mathrm{ns}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontroll från elektronens system: \\(\\tau=L/v\\)</p><p>Den kortare mätsträckan är 0,3066 m. Divideras den med samma relativa fart blir tiden åter cirka 1,02 ns. Använd inte laboratoriets 30 m tillsammans med elektronens egentid.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Passagen tar cirka 100,1 ns i laboratoriet och 1,02 ns på elektronens klocka.</p></div>",
+        "ledtrad": "<p>Beräkna passagetiden i laboratoriet med dess längd. Hur hänger den ihop med elektronens egentid?</p>",
         "niva": "A",
         "poang": "0/0/1"
       }
     ],
     "familjTidigare": [
       "Relativistisk energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.54",
@@ -26296,7 +26338,7 @@ window.BANK2 = [
     "typ": "beräkna solens massförlust per sekund och bränslets livslängd, ur text",
     "poang": "(0/2/2)",
     "t": "<p>Solen strålar ut effekten 3,828·10<sup>26</sup> W. Energin kommer från fusion av väte till helium, en process där 0,71 % av det förbrukade vätets massa omvandlas till energi. Solens massa är 1,989·10<sup>30</sup> kg.</p><p><strong>a)</strong> Hur stor massa omvandlas till energi varje sekund?</p><p><strong>b)</strong> Hur mycket väte förbrukas varje sekund?</p><p><strong>c)</strong> Anta att 10 % av solens massa kan användas som bränsle. Hur länge räcker det? Jämför med solens nuvarande ålder på cirka 4,6 miljarder år.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Utstrålad energi per sekund motsvarar en massa enligt</p><div class=\"facit-matte\">\\[E=mc^2\\].</div></div></li><li><div class=\"facit-matte\">\\[m=\\frac{P}{c^2}=\\frac{3{,}828\\cdot10^{26}}{(2{,}998\\cdot10^8)^2}=4{,}26\\cdot10^{9}\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(4{,}26\\cdot10^{9}\\ \\mathrm{kg}\\) per sekund, alltså drygt fyra miljoner ton.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Endast 0,71 % av vätets massa blir energi.</p></li><li><div class=\"facit-matte\">\\[m_{\\mathrm{väte}}=\\frac{4{,}26\\cdot10^{9}}{0{,}0071}=6{,}00\\cdot10^{11}\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(6{,}0\\cdot10^{11}\\ \\mathrm{kg}\\) väte per sekund.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m_{\\mathrm{bränsle}}=0{,}10\\cdot1{,}989\\cdot10^{30}=1{,}989\\cdot10^{29}\\ \\mathrm{kg}\\]\\[t=\\frac{1{,}989\\cdot10^{29}}{6{,}00\\cdot10^{11}}=3{,}32\\cdot10^{17}\\ \\mathrm s\\]\\[t=1{,}05\\cdot10^{10}\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bränslet räcker i cirka \\(10{,}5\\) miljarder år. Solen har använt ungefär \\(4{,}6\\) av dem, så den har drygt hälften kvar.</p></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Massförlusten på fyra miljoner ton i sekunden låter enorm, men på 4,6 miljarder år motsvarar den bara omkring 0,03 % av solens massa.</p></li><li><p class=\"facit-not\">Det är \\(c^2\\) som gör att en liten massa räcker till mycket energi.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utstrålad energi per sekund ger massförlust: \\(\\dot m=P/c^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\dot m&=\\frac{3{,}828\\cdot10^{26}}{(2{,}998\\cdot10^8)^2}\\\\&\\approx4{,}26\\cdot10^9\\ \\mathrm{kg/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(4{,}26\\cdot10^9\\) kg motsvarar den utstrålade energin varje sekund.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bara 0,71 % blir energi: \\(\\dot m_H=\\dot m/0{,}0071\\)</p><p>Den förbrukade vätemassan är större än massförlusten, eftersom det mesta av vätets massa finns kvar i heliumet.</p></li><li><p class=\"facit-rubrik\">Beräkna väteförbrukningen från solens effekt</p><div class=\"facit-matte\">\\[\\begin{aligned}\\dot m&=P/c^2\\\\&\\approx4{,}26\\cdot10^9\\ \\mathrm{kg/s}\\\\\\dot m_H&=\\dot m/0{,}0071\\\\&\\approx6{,}00\\cdot10^{11}\\ \\mathrm{kg/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(6{,}0\\cdot10^{11}\\) kg väte förbrukas varje sekund.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tillgänglig bränslemassa: \\(m_H=0{,}10M_{sol}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}m_H&=0{,}10\\cdot1{,}989\\cdot10^{30}\\\\&=1{,}989\\cdot10^{29}\\ \\mathrm{kg}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Total tid i modellen: \\(t=m_H/\\dot m_H\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}t&\\approx\\frac{1{,}989\\cdot10^{29}}{6{,}00\\cdot10^{11}}\\\\&\\approx3{,}32\\cdot10^{17}\\ \\mathrm s\\\\&\\approx10{,}5\\ \\text{miljarder år}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför modellens total med solens ålder</p><p>10,5−4,6≈5,9 miljarder år återstår om samma förbrukning antas under hela livstiden. Det är en förenklad modell med konstant effekt, inte en exakt prognos över solens utveckling.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellens totala bränsletid är cirka 10,5 miljarder år, varav cirka 5,9 miljarder återstår efter 4,6 miljarder år.</p></div></div></div></div>",
     "familj": "Viloenergi och E = mc²",
     "formaga": [
       "modellering",
@@ -26314,24 +26356,24 @@ window.BANK2 = [
       {
         "etikett": "a",
         "t": "<p>Solen strålar ut effekten 3,828·10<sup>26</sup> W. Energin kommer från fusion av väte till helium, en process där 0,71 % av det förbrukade vätets massa omvandlas till energi. Solens massa är 1,989·10<sup>30</sup> kg.</p><div class=\"spel-en-del\"><p>Hur stor massa omvandlas till energi varje sekund?</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Utstrålad energi per sekund motsvarar en massa enligt</p><div class=\"facit-matte\">\\[E=mc^2\\].</div></div></li><li><div class=\"facit-matte\">\\[m=\\frac{P}{c^2}=\\frac{3{,}828\\cdot10^{26}}{(2{,}998\\cdot10^8)^2}=4{,}26\\cdot10^{9}\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(4{,}26\\cdot10^{9}\\ \\mathrm{kg}\\) per sekund, alltså drygt fyra miljoner ton.</p></div></div>",
-        "ledtrad": "<p>Utstrålad energi per sekund motsvarar en massa enligt \\(E=mc^2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utstrålad energi per sekund ger massförlust: \\(\\dot m=P/c^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\dot m&=\\frac{3{,}828\\cdot10^{26}}{(2{,}998\\cdot10^8)^2}\\\\&\\approx4{,}26\\cdot10^9\\ \\mathrm{kg/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(4{,}26\\cdot10^9\\) kg motsvarar den utstrålade energin varje sekund.</p></div>",
+        "ledtrad": "<p>Effekt är energi per sekund. Hur stor massa motsvarar energin som lämnar solen varje sekund?</p>",
         "niva": "A",
         "poang": "0/0/1"
       },
       {
         "etikett": "b",
         "t": "<p>Solen strålar ut effekten 3,828·10<sup>26</sup> W. Energin kommer från fusion av väte till helium, en process där 0,71 % av det förbrukade vätets massa omvandlas till energi. Solens massa är 1,989·10<sup>30</sup> kg.</p><div class=\"spel-en-del\"><p>Hur mycket väte förbrukas varje sekund?</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Effekten är energi per sekund.</p></li><li><p>Om \\(0{,}71\\,\\% =0{,}0071\\) av det förbrukade vätets massa blir energi gäller</p></li><li><div class=\"facit-matte\">\\[P=0{,}0071\\,\\dot m_{\\mathrm H}c^2\\]</div></li><li><div class=\"facit-matte\">\\[\\dot m_{\\mathrm H}=\\frac{3{,}828\\cdot10^{26}}{0{,}0071(2{,}998\\cdot10^8)^2}=6{,}00\\cdot10^{11}\\ \\mathrm{kg/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(6{,}0\\cdot10^{11}\\ \\mathrm{kg}\\) väte förbrukas per sekund.</p></div></div>",
-        "ledtrad": "<p>Utstrålad energi per sekund motsvarar en massa enligt \\(E=mc^2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bara 0,71 % blir energi: \\(\\dot m_H=\\dot m/0{,}0071\\)</p><p>Den förbrukade vätemassan är större än massförlusten, eftersom det mesta av vätets massa finns kvar i heliumet.</p></li><li><p class=\"facit-rubrik\">Beräkna väteförbrukningen från solens effekt</p><div class=\"facit-matte\">\\[\\begin{aligned}\\dot m&=P/c^2\\\\&\\approx4{,}26\\cdot10^9\\ \\mathrm{kg/s}\\\\\\dot m_H&=\\dot m/0{,}0071\\\\&\\approx6{,}00\\cdot10^{11}\\ \\mathrm{kg/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(6{,}0\\cdot10^{11}\\) kg väte förbrukas varje sekund.</p></div>",
+        "ledtrad": "<p>Massförlusten är bara 0,71 % av mängden väte som förbrukas.</p>",
         "niva": "A",
         "poang": "0/0/1"
       },
       {
         "etikett": "c",
         "t": "<p>Solen strålar ut effekten 3,828·10<sup>26</sup> W. Energin kommer från fusion av väte till helium, en process där 0,71 % av det förbrukade vätets massa omvandlas till energi. Solens massa är 1,989·10<sup>30</sup> kg.</p><div class=\"spel-en-del\"><p>Anta att 10 % av solens massa kan användas som bränsle. Hur länge räcker det? Jämför med solens nuvarande ålder på cirka 4,6 miljarder år.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vätets förbrukningstakt fås direkt från solens effekt och verkningsandelen \\(0{,}0071\\):</p><div class=\"facit-matte\">\\[\\dot m_{\\mathrm H}=\\frac{P}{0{,}0071c^2}=6{,}00\\cdot10^{11}\\ \\mathrm{kg/s}\\]</div></li><li><p>Den användbara bränslemassan är</p></li><li><div class=\"facit-matte\">\\[m_{\\mathrm{bränsle}}=0{,}10\\cdot1{,}989\\cdot10^{30}=1{,}989\\cdot10^{29}\\ \\mathrm{kg}\\]</div></li><li><div class=\"facit-matte\">\\[t=\\frac{m_{\\mathrm{bränsle}}}{\\dot m_{\\mathrm H}}=3{,}32\\cdot10^{17}\\ \\mathrm s=1{,}05\\cdot10^{10}\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bränslet räcker cirka \\(10{,}5\\) miljarder år. Jämfört med solens nuvarande ålder \\(4{,}6\\) miljarder år motsvarar det att drygt hälften av denna idealiserade bränsletid återstår.</p></div></div>",
-        "ledtrad": "<p>Utstrålad energi per sekund motsvarar en massa enligt \\(E=mc^2\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tillgänglig bränslemassa: \\(m_H=0{,}10M_{sol}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}m_H&=0{,}10\\cdot1{,}989\\cdot10^{30}\\\\&=1{,}989\\cdot10^{29}\\ \\mathrm{kg}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Total tid i modellen: \\(t=m_H/\\dot m_H\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}t&\\approx\\frac{1{,}989\\cdot10^{29}}{6{,}00\\cdot10^{11}}\\\\&\\approx3{,}32\\cdot10^{17}\\ \\mathrm s\\\\&\\approx10{,}5\\ \\text{miljarder år}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför modellens total med solens ålder</p><p>10,5−4,6≈5,9 miljarder år återstår om samma förbrukning antas under hela livstiden. Det är en förenklad modell med konstant effekt, inte en exakt prognos över solens utveckling.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellens totala bränsletid är cirka 10,5 miljarder år, varav cirka 5,9 miljarder återstår efter 4,6 miljarder år.</p></div>",
+        "ledtrad": "<p>Hur mycket bränsle finns i modellen, och hur mycket används varje sekund?</p>",
         "niva": "A",
         "poang": "0/0/1"
       }
@@ -26341,7 +26383,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "1.80",
@@ -40723,7 +40767,7 @@ window.BANK2 = [
     "typ": "beräkna gammafaktor, fart och egentid för protoner i en acceleratorring",
     "poang": "(0/2/2)",
     "t": "<p>I en stor acceleratorring accelereras protoner till rörelseenergin 6,5 TeV. Protonens viloenergi är 938 MeV och ringens omkrets är 27 km.</p><p><strong>a)</strong> Bestäm gammafaktorn.</p><p><strong>b)</strong> Hur nära ljushastigheten går protonerna?</p><p><strong>c)</strong> Hur lång tid tar ett varv enligt laboratoriets klockor respektive protonens egen klocka?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\gamma=1+\\frac{E_k}{E_0}=1+\\frac{6{,}5\\cdot10^{6}}{938}=6{,}93\\cdot10^{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Gammafaktorn är cirka \\(6930\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1-\\beta\\approx\\frac1{2\\gamma^2}=\\frac1{2\\cdot(6{,}93\\cdot10^3)^2}=1{,}04\\cdot10^{-8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Protonerna går med \\(\\beta=0{,}99999999\\), alltså cirka \\(3{,}1\\ \\mathrm{m/s}\\) långsammare än ljuset.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Laboratoriets varvtid bestäms av ringens omkrets och protonens fart.</p></li><li><p>Protonens fart och gammafaktor är konstanta, så egentiden fås genom att dividera laboratorietiden med gammafaktorn.</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\frac{27\\cdot10^3}{v}\\approx9{,}01\\cdot10^{-5}\\ \\mathrm s=90{,}1\\ \\mu\\mathrm s\\]</div></li><li><div class=\"facit-matte\">\\[\\tau=\\frac{t}{\\gamma}\\approx\\frac{9{,}01\\cdot10^{-5}}{6930}=1{,}30\\cdot10^{-8}\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Varvet tar cirka \\(90\\ \\mu\\mathrm s\\) i laboratoriet och \\(13\\ \\mathrm{ns}\\) på protonens klocka.</p><ol class=\"facit-steglista\" role=\"list\"><li><p>Protonen ändrar hela tiden riktning och har inget gemensamt inertialsystem för hela varvet.</p></li><li><p>Därför ska ringens omkrets inte tolkas som en vanlig stavlängd som kan divideras med gamma.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelseenergin ger \\(\\gamma=1+K/E_0\\)</p><p>6,5 TeV är 6,5·10⁶ MeV. Viloenergin är 938 MeV och måste läggas till för att få totalenergin.</p></li><li><p class=\"facit-rubrik\">Sätt in båda energierna i samma enhet</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=1+6{,}5\\cdot10^6/938\\\\&\\approx6931\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx6{,}93\\cdot10^3\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fartkvoten ges av \\(\\beta=\\sqrt{1-1/\\gamma^2}\\)</p><p>Gamma är cirka 6931. Fartkvoten ligger så nära 1 att det är tydligare att söka skillnaden c−v.</p></li><li><p class=\"facit-rubrik\">Undvik subtraktion av nästan lika tal: \\(1-\\beta=\\frac{1/\\gamma^2}{1+\\beta}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}1-\\beta&\\approx\\frac1{2\\gamma^2}\\\\&\\approx1{,}04\\cdot10^{-8}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden i m/s: \\(c-v=c(1-\\beta)\\)</p><p>Tiopotenserna 10⁸ och 10⁻⁸ tar ut varandra i produkten.</p><div class=\"facit-matte\">\\[\\begin{aligned}c-v&\\approx2{,}998\\cdot1{,}04\\\\&\\approx3{,}1\\ \\mathrm{m/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Protonerna färdas cirka 3,1 m/s långsammare än ljuset.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Laboratoriets varvtid: \\(t=\\ell/v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}t&\\approx27000/c\\\\&\\approx90{,}1\\ \\mathrm{\\mu s}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Egentid vid konstant fartbelopp: \\(\\tau=t/\\gamma\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\tau&\\approx90{,}1\\cdot10^{-6}/6931\\\\&\\approx13{,}0\\ \\mathrm{ns}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Ringrörelsen har inget gemensamt inertialsystem för hela varvet</p><p>Protonen byter riktning hela tiden. Vi summerar dess egentid längs banan; eftersom fartbeloppet är konstant blir det t/gamma. Ringen ska inte behandlas som en enda rak stav som längdkontraheras.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett varv tar cirka 90 μs i laboratoriet och 13 ns på protonens klocka.</p></div></div></div></div>",
     "familj": "Total energi och rörelseenergi",
     "formaga": [
       "problemlösning",
@@ -40741,31 +40785,33 @@ window.BANK2 = [
       {
         "etikett": "a",
         "t": "<p>I en stor acceleratorring accelereras protoner till rörelseenergin 6,5 TeV. Protonens viloenergi är 938 MeV och ringens omkrets är 27 km.</p><div class=\"spel-en-del\"><p>Bestäm gammafaktorn.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\gamma=1+\\frac{E_k}{E_0}=1+\\frac{6{,}5\\cdot10^{6}}{938}=6{,}93\\cdot10^{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Gammafaktorn är cirka \\(6{,}93\\cdot10^3\\), alltså 6930.</p></div></div>",
-        "ledtrad": "<p>Beräkna gammafaktorn från rörelseenergin. Laboratoriets varvtid är omkretsen delad med farten. Egentiden fås sedan genom tidsdilatation.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelseenergin ger \\(\\gamma=1+K/E_0\\)</p><p>6,5 TeV är 6,5·10⁶ MeV. Viloenergin är 938 MeV och måste läggas till för att få totalenergin.</p></li><li><p class=\"facit-rubrik\">Sätt in båda energierna i samma enhet</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=1+6{,}5\\cdot10^6/938\\\\&\\approx6931\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx6{,}93\\cdot10^3\\).</p></div>",
+        "ledtrad": "<p>Omvandla rörelseenergin till samma enhet som viloenergin innan du löser ut gamma.</p>",
         "niva": "A",
         "poang": "0/0/1"
       },
       {
         "etikett": "b",
         "t": "<p>I en stor acceleratorring accelereras protoner till rörelseenergin 6,5 TeV. Protonens viloenergi är 938 MeV och ringens omkrets är 27 km.</p><div class=\"spel-en-del\"><p>Hur nära ljushastigheten går protonerna?</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1-\\beta\\approx\\frac1{2\\gamma^2}=\\frac1{2\\cdot(6{,}93\\cdot10^3)^2}=1{,}04\\cdot10^{-8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1-\\beta\\approx1{,}04\\cdot10^{-8}\\). Protonerna går ungefär 3,1 m/s långsammare än ljuset.</p></div></div>",
-        "ledtrad": "<p>Beräkna gammafaktorn från rörelseenergin. Laboratoriets varvtid är omkretsen delad med farten. Egentiden fås sedan genom tidsdilatation.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fartkvoten ges av \\(\\beta=\\sqrt{1-1/\\gamma^2}\\)</p><p>Gamma är cirka 6931. Fartkvoten ligger så nära 1 att det är tydligare att söka skillnaden c−v.</p></li><li><p class=\"facit-rubrik\">Undvik subtraktion av nästan lika tal: \\(1-\\beta=\\frac{1/\\gamma^2}{1+\\beta}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}1-\\beta&\\approx\\frac1{2\\gamma^2}\\\\&\\approx1{,}04\\cdot10^{-8}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden i m/s: \\(c-v=c(1-\\beta)\\)</p><p>Tiopotenserna 10⁸ och 10⁻⁸ tar ut varandra i produkten.</p><div class=\"facit-matte\">\\[\\begin{aligned}c-v&\\approx2{,}998\\cdot1{,}04\\\\&\\approx3{,}1\\ \\mathrm{m/s}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Protonerna färdas cirka 3,1 m/s långsammare än ljuset.</p></div>",
+        "ledtrad": "<p>När gamma är mycket stor kan det vara lättare att räkna ut c−v än att avrunda v/c till 1.</p>",
         "niva": "A",
         "poang": "0/0/1"
       },
       {
         "etikett": "c",
         "t": "<p>I en stor acceleratorring accelereras protoner till rörelseenergin 6,5 TeV. Protonens viloenergi är 938 MeV och ringens omkrets är 27 km.</p><div class=\"spel-en-del\"><p>Hur lång tid tar ett varv enligt laboratoriets klockor respektive protonens egen klocka?</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\frac{27\\cdot10^3}{v}\\approx9{,}01\\cdot10^{-5}\\ \\mathrm s=90{,}1\\ \\mu\\mathrm s\\]</div></li><li><div class=\"facit-matte\">\\[\\tau=\\frac{t}{\\gamma}\\approx\\frac{9{,}01\\cdot10^{-5}}{6930}=1{,}30\\cdot10^{-8}\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Varvet tar cirka \\(90{,}1\\ \\mu\\mathrm s\\) enligt laboratoriets klocka och \\(13\\ \\mathrm{ns}\\) i protonens egentid.</p></div></div>",
-        "ledtrad": "<p>Beräkna gammafaktorn från rörelseenergin. Laboratoriets varvtid är omkretsen delad med farten. Egentiden fås sedan genom tidsdilatation.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Laboratoriets varvtid: \\(t=\\ell/v\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}t&\\approx27000/c\\\\&\\approx90{,}1\\ \\mathrm{\\mu s}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Egentid vid konstant fartbelopp: \\(\\tau=t/\\gamma\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\tau&\\approx90{,}1\\cdot10^{-6}/6931\\\\&\\approx13{,}0\\ \\mathrm{ns}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Ringrörelsen har inget gemensamt inertialsystem för hela varvet</p><p>Protonen byter riktning hela tiden. Vi summerar dess egentid längs banan; eftersom fartbeloppet är konstant blir det t/gamma. Ringen ska inte behandlas som en enda rak stav som längdkontraheras.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett varv tar cirka 90 μs i laboratoriet och 13 ns på protonens klocka.</p></div>",
+        "ledtrad": "<p>Använd ringens omkrets och laboratoriets fart först. Hur får du sedan egentiden?</p>",
         "niva": "A",
         "poang": "0/0/1"
       }
     ],
     "familjTidigare": [
       "Relativistisk energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.66",
@@ -40775,7 +40821,7 @@ window.BANK2 = [
     "typ": "beräkna relativistisk kinetisk energi för elektron",
     "poang": "(1/2/0)",
     "t": "<p>En elektron rör sig med farten 0,80c. Elektronens viloenergi är 0,511 MeV.</p><p>Bestäm den relativistiska kinetiska energin.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Den relativistiska kinetiska energin är</p><div class=\"facit-matte\">\\[K=(\\gamma-1)mc^2\\].</div></div></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-0{,}80^2}}=1{,}667\\]\\[K=(1{,}667-1)\\cdot0{,}511=0{,}341\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den kinetiska energin är cirka \\(0{,}3407\\ \\mathrm{MeV}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lorentzfaktorn vid 0,80c: \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=1/\\sqrt{1-0{,}80^2}\\\\&=5/3\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kinetisk energi: \\(K=(\\gamma-1)E_0\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}K&=(5/3-1)\\cdot0{,}511\\\\&\\approx0{,}3407\\ \\mathrm{MeV}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Elektronens rörelseenergi är cirka 0,341 MeV.</p></div>",
     "familj": "Total energi och rörelseenergi",
     "familjNyckel": "relativistisk_energi__relativistisk_energi",
     "formaga": [
@@ -40791,7 +40837,9 @@ window.BANK2 = [
     "ledtrad": "<p>Den relativistiska kinetiska energin är \\(K=(\\gamma-1)mc^2\\).</p>",
     "familjTidigare": [
       "Relativistisk energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.57",
@@ -40857,7 +40905,7 @@ window.BANK2 = [
     "typ": "beräkna tröskelenergi och våglängd för parbildning och förklara varför en atomkärna behövs, ur text, sökt energi våglängd och förklaring",
     "poang": "(0/2/2)",
     "t": "<p>Vid parbildning omvandlas en foton till ett elektron–positronpar. Elektronens och positronens viloenergi är 0,511 MeV vardera.</p><p><strong>a)</strong> Bestäm den minsta fotonenergi som krävs, och motsvarande våglängd.</p><p><strong>b)</strong> En foton med energin 2,50 MeV ger upphov till parbildning. Hur stor rörelseenergi får partiklarna dela på?</p><p><strong>c)</strong> Parbildning kan inte ske i tomma rymden för en ensam foton. Parbildningen sker här nära en tung atomkärna. Förklara varför.</p><p>I a och b bortser vi från den tunga atomkärnans lilla rekylenergi.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Fotonens energi måste minst räcka till båda partiklarnas viloenergi.</p></li><li><div class=\"facit-matte\">\\[E_{\\min}=2m_ec^2=2\\cdot0{,}511=1{,}022\\ \\mathrm{MeV}\\]\\[\\lambda=\\frac{hc}{E}=\\frac{1240}{1{,}022\\cdot10^6}=1{,}21\\cdot10^{-3}\\ \\mathrm{nm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tröskelenergin är \\(1{,}022\\ \\mathrm{MeV}\\), vilket svarar mot våglängden \\(1{,}21\\ \\mathrm{pm}\\). Det är gammastrålning.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E_k=2{,}50-1{,}022=1{,}48\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Partiklarna delar på \\(1{,}48\\ \\mathrm{MeV}\\) rörelseenergi.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">En ensam foton har</p><div class=\"facit-matte\">\\[E=p c\\]</div></div></li><li><p>Ett elektron–positronpar har däremot positiv invariant massa.</p></li><li><p>För parets totala energi och rörelsemängd gäller därför:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E^2-(pc)^2\\geq(2m_ec^2)^2\\gt0\\]</div></li><li><p>För den ensamma fotonen är samma uttryck noll.</p></li><li><p>Energi och rörelsemängd kan alltså inte båda bevaras om endast fotonen och paret deltar.</p></li><li><p>En atomkärna kan ta upp rekyl, så att båda bevarandelagarna uppfylls.</p></li><li><p>Kärnans stora massa gör rekylenergin liten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En ensam foton kan inte bilda paret i vakuum. I detta försök tar atomkärnan upp rekyl. Även andra processer, exempelvis med två fotoner, kan ge parbildning.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Paret kräver två viloenergier: \\(E_{min}=2m_ec^2\\)</p><p>Vi försummar kärnans lilla rekylenergi enligt uppgiften.</p><div class=\"facit-matte\">\\[\\begin{aligned}E_{min}&=2\\cdot0{,}511\\\\&=1{,}022\\ \\mathrm{MeV}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Fotonens våglängd: \\(\\lambda=hc/E\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\lambda&=\\frac{1240\\ \\mathrm{eV\\,nm}}{1{,}022\\cdot10^6\\ \\mathrm{eV}}\\\\&\\approx0{,}00121\\ \\mathrm{nm}=1{,}21\\ \\mathrm{pm}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Minst cirka 1,022 MeV krävs i modellen, vilket motsvarar våglängden 1,21 pm.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energin fördelas mellan vilo- och rörelseenergi: \\(K_{tot}=E_\\gamma-2E_0\\)</p><p>Båda partiklarnas viloenergi måste dras bort. Kärnans rekylenergi försummas.</p></li><li><p class=\"facit-rubrik\">Dra bort 1,022 MeV från fotonens energi</p><div class=\"facit-matte\">\\[\\begin{aligned}K_{tot}&=2{,}50-1{,}022\\\\&=1{,}478\\ \\mathrm{MeV}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Elektronen och positronen delar på cirka 1,48 MeV rörelseenergi.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fotonen har \\(E=pc\\), men paret har positiv vilomassa</p><p>För en ensam foton är \\(E^2-p^2c^2=0\\). För ett elektron–positronpar är motsvarande uttryck positivt. Energi och rörelsemängd kan därför inte båda bevaras om endast fotonen och paret deltar.</p></li><li><p class=\"facit-rubrik\">Atomkärnan kan ta upp rekyl</p><p>Kärnan ger möjlighet att bevara både energi och rörelsemängd. Dess stora massa gör att rekylenergin kan vara liten, vilket motiverar approximationen i a och b. Detta utesluter inte andra parbildningsprocesser, exempelvis med två fotoner.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den tunga atomkärnan tar upp rekyl så att både energi och rörelsemängd kan bevaras.</p></div></div></div></div>",
     "familj": "Viloenergi och E = mc²",
     "formaga": [
       "problemlösning",
@@ -40875,24 +40923,24 @@ window.BANK2 = [
       {
         "etikett": "a",
         "t": "<p>Vid parbildning omvandlas en foton till ett elektron–positronpar. Elektronens och positronens viloenergi är 0,511 MeV vardera.</p><p>För denna beräkning bortser vi från den tunga atomkärnans lilla rekylenergi.</p><div class=\"spel-en-del\"><p>Bestäm den minsta fotonenergi som krävs, och motsvarande våglängd.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E_{\\min}=2m_ec^2=2\\cdot0{,}511=1{,}022\\ \\mathrm{MeV}\\]</div></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{hc}{E}=\\frac{1240}{1{,}022\\cdot10^6}=1{,}21\\cdot10^{-3}\\ \\mathrm{nm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tröskelenergin är \\(1{,}022\\ \\mathrm{MeV}\\), vilket motsvarar våglängden cirka \\(1{,}21\\ \\mathrm{pm}\\).</p></div></div>",
-        "ledtrad": "<p>Fotonens energi måste minst räcka till båda partiklarnas viloenergi.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Paret kräver två viloenergier: \\(E_{min}=2m_ec^2\\)</p><p>Vi försummar kärnans lilla rekylenergi enligt uppgiften.</p><div class=\"facit-matte\">\\[\\begin{aligned}E_{min}&=2\\cdot0{,}511\\\\&=1{,}022\\ \\mathrm{MeV}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Fotonens våglängd: \\(\\lambda=hc/E\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\lambda&=\\frac{1240\\ \\mathrm{eV\\,nm}}{1{,}022\\cdot10^6\\ \\mathrm{eV}}\\\\&\\approx0{,}00121\\ \\mathrm{nm}=1{,}21\\ \\mathrm{pm}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Minst cirka 1,022 MeV krävs i modellen, vilket motsvarar våglängden 1,21 pm.</p></div>",
+        "ledtrad": "<p>Hur mycket viloenergi kräver två partiklar?</p>",
         "niva": "A",
         "poang": "0/0/1"
       },
       {
         "etikett": "b",
         "t": "<p>Vid parbildning omvandlas en foton till ett elektron–positronpar. Elektronens och positronens viloenergi är 0,511 MeV vardera.</p><p>För denna beräkning bortser vi från den tunga atomkärnans lilla rekylenergi.</p><div class=\"spel-en-del\"><p>En foton med energin 2,50 MeV ger upphov till parbildning. Hur stor rörelseenergi får partiklarna dela på?</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E_k=2{,}50-1{,}022=1{,}48\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Partiklarna delar på cirka \\(1{,}48\\ \\mathrm{MeV}\\) rörelseenergi.</p></div></div>",
-        "ledtrad": "<p>Fotonens energi måste minst räcka till båda partiklarnas viloenergi.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energin fördelas mellan vilo- och rörelseenergi: \\(K_{tot}=E_\\gamma-2E_0\\)</p><p>Båda partiklarnas viloenergi måste dras bort. Kärnans rekylenergi försummas.</p></li><li><p class=\"facit-rubrik\">Dra bort 1,022 MeV från fotonens energi</p><div class=\"facit-matte\">\\[\\begin{aligned}K_{tot}&=2{,}50-1{,}022\\\\&=1{,}478\\ \\mathrm{MeV}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Elektronen och positronen delar på cirka 1,48 MeV rörelseenergi.</p></div>",
+        "ledtrad": "<p>Vilken del av fotonens energi återstår när båda partiklarnas viloenergier har dragits bort?</p>",
         "niva": "A",
         "poang": "0/0/1"
       },
       {
         "etikett": "c",
         "t": "<p>Vid parbildning omvandlas en foton till ett elektron–positronpar. Elektronens och positronens viloenergi är 0,511 MeV vardera.</p><div class=\"spel-en-del\"><p>Parbildning kan inte ske i tomma rymden för en ensam foton. Parbildningen sker här nära en tung atomkärna. Förklara varför.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E^2-(pc)^2\\geq(2m_ec^2)^2\\gt0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En ensam foton kan inte samtidigt bevara energi och rörelsemängd när ett massivt par skapas. En tung atomkärna kan ta upp rekylmomentum med liten rekylenergi, så båda bevarandelagarna kan uppfyllas.</p></div></div>",
-        "ledtrad": "<p>Fotonens energi måste minst räcka till båda partiklarnas viloenergi.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fotonen har \\(E=pc\\), men paret har positiv vilomassa</p><p>För en ensam foton är \\(E^2-p^2c^2=0\\). För ett elektron–positronpar är motsvarande uttryck positivt. Energi och rörelsemängd kan därför inte båda bevaras om endast fotonen och paret deltar.</p></li><li><p class=\"facit-rubrik\">Atomkärnan kan ta upp rekyl</p><p>Kärnan ger möjlighet att bevara både energi och rörelsemängd. Dess stora massa gör att rekylenergin kan vara liten, vilket motiverar approximationen i a och b. Detta utesluter inte andra parbildningsprocesser, exempelvis med två fotoner.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den tunga atomkärnan tar upp rekyl så att både energi och rörelsemängd kan bevaras.</p></div>",
+        "ledtrad": "<p>Kan både energi och rörelsemängd bevaras om bara en foton och det nybildade paret deltar?</p>",
         "niva": "A",
         "poang": "0/0/1"
       }
@@ -40902,7 +40950,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.65",
@@ -40912,7 +40962,7 @@ window.BANK2 = [
     "typ": "beräkna viloenergi från massa",
     "poang": "(2/0/0)",
     "t": "<p>En massa på 2,0 mg omvandlas fullständigt till energi.</p><p>Hur mycket energi motsvarar massan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd Einsteins samband</p><div class=\"facit-matte\">\\[E=mc^2\\].</div></div></li><li><p class=\"facit-metod\">2,0 mg = \\(2{,}0\\cdot10^{-6}\\) kg.</p></li><li><div class=\"facit-matte\">\\[E=2{,}0\\cdot10^{-6}(3{,}00\\cdot10^8)^2=1{,}8\\cdot10^{11}\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Energin är \\(180\\ \\mathrm{GJ}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Milligram till kilogram: \\(2{,}0\\ \\mathrm{mg}=2{,}0\\cdot10^{-6}\\) kg</p><p>Hela denna massa ska omvandlas till energi, inte bara en massdefekt i en reaktion.</p></li><li><p class=\"facit-rubrik\">Mass–energiekvivalens: \\(E=mc^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=2{,}0\\cdot10^{-6}(3{,}00\\cdot10^8)^2\\\\&=1{,}8\\cdot10^{11}\\ \\mathrm J=180\\ \\mathrm{GJ}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Energin är cirka 180 GJ.</p></div>",
     "familj": "Viloenergi och E = mc²",
     "familjNyckel": "massa_och_energi__massaenergi_ekvivalens",
     "formaga": [
@@ -40931,7 +40981,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "6.67",
@@ -40941,7 +40993,7 @@ window.BANK2 = [
     "typ": "beräkna energi från massdefekt",
     "poang": "(1/2/0)",
     "t": "<p>I en kärnreaktion minskar den sammanlagda massan med \\(5{,}0\\cdot10^{-12}\\) kg.</p><p>Hur mycket energi frigörs?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Massdefekten omvandlas till energi enligt</p><div class=\"facit-matte\">\\[E=\\Delta mc^2\\].</div></div></li><li><div class=\"facit-matte\">\\[E=5{,}0\\cdot10^{-12}(3{,}00\\cdot10^8)^2=4{,}5\\cdot10^{5}\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Energin är cirka \\(450\\ \\mathrm{kJ}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den förlorade massans energi: \\(E=\\Delta mc^2\\)</p><p>5,0·10⁻¹² kg är massminskningen, så ingen annan massa ska sättas in.</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=5{,}0\\cdot10^{-12}(3{,}00\\cdot10^8)^2\\\\&=4{,}5\\cdot10^5\\ \\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Joule till kilojoule</p><div class=\"facit-matte\">\\[4{,}5\\cdot10^5\\ \\mathrm J=450\\ \\mathrm{kJ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 450 kJ frigörs.</p></div>",
     "familj": "Viloenergi och E = mc²",
     "familjNyckel": "massa_och_energi__massaenergi_ekvivalens",
     "formaga": [
@@ -40960,7 +41012,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Massa–energi-ekvivalens"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "4.301",
@@ -58647,7 +58701,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>Ett gem har massan 1,0 g.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Massan 1,0 gram omvandlas till energi enligt E = mc²\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"60\" width=\"110\" height=\"70\" rx=\"10\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"95.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">m = 1,0 g</text><line x1=\"165.0\" y1=\"95.0\" x2=\"255.0\" y2=\"95.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"255.0,95.0 244.9,99.3 244.9,90.7\" fill=\"#c2410c\"/><text x=\"210.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">E = mc²</text><path d=\"M330 50 L344 82 L378 84 L352 104 L362 138 L330 118 L298 138 L308 104 L282 84 L316 82 Z\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"330.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E₀ = ?</text></svg></div><p>Hur stor är gemets viloenergi?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E_0=mc^2=1{,}0\\cdot10^{-3}\\cdot(2{,}998\\cdot10^8)^2\\approx9\\cdot10^{13}\\ \\text{J}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(9\\cdot10^{13}\\) J.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gemets massa i SI: \\(m=1{,}0\\cdot10^{-3}\\) kg</p><p>Frågan gäller energin i vilomassan, inte energin hos ett gem i rörelse.</p></li><li><p class=\"facit-rubrik\">Viloenergi: \\(E_0=mc^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_0&=10^{-3}(2{,}998\\cdot10^8)^2\\\\&\\approx8{,}99\\cdot10^{13}\\ \\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Gemets viloenergi är cirka \\(9{,}0\\cdot10^{13}\\) J.</p></div>",
   "familj": "Viloenergi och E = mc²",
   "formaga": [
     "procedur"
@@ -58675,7 +58729,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En vattenflaska med vatten har massan 2,0 kg.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Massan 2,0 kilogram och dess viloenergi\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"60\" width=\"110\" height=\"70\" rx=\"10\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"95.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">m = 2,0 kg</text><line x1=\"165.0\" y1=\"95.0\" x2=\"255.0\" y2=\"95.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"255.0,95.0 244.9,99.3 244.9,90.7\" fill=\"#c2410c\"/><text x=\"210.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">E = mc²</text><path d=\"M330 50 L344 82 L378 84 L352 104 L362 138 L330 118 L298 138 L308 104 L282 84 L316 82 Z\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"330.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E₀ = ?</text></svg></div><p>Hur stor viloenergi motsvarar massan?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E_0=mc^2=2{,}0\\cdot(2{,}998\\cdot10^8)^2\\approx1{,}8\\cdot10^{17}\\ \\text{J}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1{,}8\\cdot10^{17}\\) J.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flaskans och vattnets gemensamma massa är \\(m=2{,}0\\) kg</p><p>Hela den angivna massan används.</p></li><li><p class=\"facit-rubrik\">Viloenergi: \\(E_0=mc^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_0&=2{,}0(2{,}998\\cdot10^8)^2\\\\&\\approx1{,}80\\cdot10^{17}\\ \\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1{,}8\\cdot10^{17}\\) J.</p></div>",
   "familj": "Viloenergi och E = mc²",
   "formaga": [
     "procedur"
@@ -58703,7 +58757,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>Sverige använder ungefär \\(4{,}5\\cdot10^{16}\\) J elenergi per månad.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Okänd massa som motsvarar energin 4,5 gånger 10 upphöjt till 16 joule\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"60\" width=\"110\" height=\"70\" rx=\"10\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"95.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">m = ?</text><line x1=\"165.0\" y1=\"95.0\" x2=\"255.0\" y2=\"95.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"255.0,95.0 244.9,99.3 244.9,90.7\" fill=\"#c2410c\"/><text x=\"210.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">E = mc²</text><path d=\"M330 50 L344 82 L378 84 L352 104 L362 138 L330 118 L298 138 L308 104 L282 84 L316 82 Z\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"330.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">4,5·10¹⁶ J</text></svg></div><p>Hur stor massa motsvarar denna energi enligt \\(E=mc^2\\)?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=\\frac{E}{c^2}=\\frac{4{,}5\\cdot10^{16}}{(2{,}998\\cdot10^8)^2}\\approx0{,}5\\ \\text{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,50 kg.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut massan: \\(m=E/c^2\\)</p><p>Energimängden 4,5·10¹⁶ J är redan given i joule.</p></li><li><p class=\"facit-rubrik\">Sätt in månadens energimängd</p><div class=\"facit-matte\">\\[\\begin{aligned}m&=\\frac{4{,}5\\cdot10^{16}}{(2{,}998\\cdot10^8)^2}\\\\&\\approx0{,}501\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Energin motsvarar cirka 0,50 kg.</p></div>",
   "familj": "Viloenergi och E = mc²",
   "formaga": [
     "procedur"
@@ -58731,7 +58785,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En proton rör sig med farten \\(0{,}80c\\) i en accelerator.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"120\" viewBox=\"0 0 420 120\" role=\"img\" aria-label=\"Proton som rör sig med farten 0,80c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"118\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"120\" cy=\"60\" r=\"16\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"2\"/><text x=\"120.0\" y=\"66.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#b91c1c\" font-weight=\"bold\">p</text><line x1=\"142.0\" y1=\"60.0\" x2=\"300.0\" y2=\"60.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"300.0,60.0 289.9,64.3 289.9,55.7\" fill=\"#c2410c\"/><text x=\"220.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v = 0,80c</text></svg></div><p>Hur stor är protonens totala energi?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Protonens massa finns i formelsamlingen.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}80^2}}\\approx1{,}667\\]</div></li><li><div class=\"facit-matte\">\\[E=\\gamma mc^2=1{,}667\\cdot1{,}673\\cdot10^{-27}\\cdot(2{,}998\\cdot10^8)^2\\approx2{,}5\\cdot10^{-10}\\ \\text{J}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}5\\cdot10^{-10}\\) J.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Protonens gamma vid 0,80c: \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\gamma=5/3\\]</div></li><li><p class=\"facit-rubrik\">Totalenergi, inklusive viloenergi: \\(E=\\gamma m_pc^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_0&=m_pc^2\\approx1{,}503\\cdot10^{-10}\\ \\mathrm J\\\\E&=\\frac53 E_0\\\\&\\approx2{,}51\\cdot10^{-10}\\ \\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Totalenergin är cirka \\(2{,}5\\cdot10^{-10}\\) J.</p></div>",
   "familj": "Total energi och rörelseenergi",
   "formaga": [
     "procedur"
@@ -58759,7 +58813,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En elektron i ett tv-rör rör sig med farten \\(0{,}60c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"120\" viewBox=\"0 0 420 120\" role=\"img\" aria-label=\"Elektron som rör sig med farten 0,60c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"118\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"120\" cy=\"60\" r=\"12\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"120.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#1d4ed8\" font-weight=\"bold\">e⁻</text><line x1=\"140.0\" y1=\"60.0\" x2=\"300.0\" y2=\"60.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"300.0,60.0 289.9,64.3 289.9,55.7\" fill=\"#c2410c\"/><text x=\"220.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v = 0,60c</text></svg></div><p>Hur stor är elektronens rörelseenergi?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Elektronens massa finns i formelsamlingen.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}60^2}}=1{,}25\\]</div></li><li><div class=\"facit-matte\">\\[E_k=(\\gamma-1)mc^2=0{,}25\\cdot9{,}109\\cdot10^{-31}\\cdot(2{,}998\\cdot10^8)^2\\approx2\\cdot10^{-14}\\ \\text{J}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2\\cdot10^{-14}\\) J.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektronens gamma vid 0,60c: \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=1/0{,}80\\\\&=1{,}25\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Rörelseenergi: \\(K=(\\gamma-1)m_ec^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_0&=m_ec^2\\approx8{,}187\\cdot10^{-14}\\ \\mathrm J\\\\K&=0{,}25E_0\\\\&\\approx2{,}05\\cdot10^{-14}\\ \\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}0\\cdot10^{-14}\\) J.</p></div>",
   "familj": "Total energi och rörelseenergi",
   "formaga": [
     "procedur"
@@ -58787,7 +58841,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En partikel accelereras till allt högre fart, närmare och närmare ljusets fart \\(c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"290\" viewBox=\"0 0 400 290\" role=\"img\" aria-label=\"Graf över gammafaktorn som funktion av v/c från 0 till nära 1\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"50.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"50.0\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"83.4\" y1=\"244.0\" x2=\"83.4\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"116.8\" y1=\"244.0\" x2=\"116.8\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"116.8\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,2</text><line x1=\"150.2\" y1=\"244.0\" x2=\"150.2\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"183.6\" y1=\"244.0\" x2=\"183.6\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"183.6\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,4</text><line x1=\"217.0\" y1=\"244.0\" x2=\"217.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"250.4\" y1=\"244.0\" x2=\"250.4\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"250.4\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,6</text><line x1=\"283.8\" y1=\"244.0\" x2=\"283.8\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"317.2\" y1=\"244.0\" x2=\"317.2\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"317.2\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,8</text><line x1=\"350.6\" y1=\"244.0\" x2=\"350.6\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"384.0\" y1=\"244.0\" x2=\"384.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"384.0\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"50.0\" y1=\"244.0\" x2=\"384.0\" y2=\"244.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"50.0\" y1=\"206.0\" x2=\"384.0\" y2=\"206.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"50.0\" y1=\"168.0\" x2=\"384.0\" y2=\"168.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"50.0\" y1=\"130.0\" x2=\"384.0\" y2=\"130.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"50.0\" y1=\"92.0\" x2=\"384.0\" y2=\"92.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"50.0\" y1=\"54.0\" x2=\"384.0\" y2=\"54.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"50.0\" y1=\"16.0\" x2=\"384.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">7</text><polyline points=\"50.0,244.0 51.7,244.0 53.3,244.0 55.0,244.0 56.7,244.0 58.4,244.0 60.0,244.0 61.7,244.0 63.4,244.0 65.0,244.0 66.7,244.0 68.4,243.9 70.0,243.9 71.7,243.9 73.4,243.9 75.0,243.9 76.7,243.9 78.4,243.9 80.1,243.8 81.7,243.8 83.4,243.8 85.1,243.8 86.7,243.8 88.4,243.7 90.1,243.7 91.8,243.7 93.4,243.7 95.1,243.6 96.8,243.6 98.4,243.6 100.1,243.6 101.8,243.5 103.4,243.5 105.1,243.5 106.8,243.4 108.4,243.4 110.1,243.4 111.8,243.3 113.5,243.3 115.1,243.3 116.8,243.2 118.5,243.2 120.1,243.1 121.8,243.1 123.5,243.0 125.2,243.0 126.8,243.0 128.5,242.9 130.2,242.9 131.8,242.8 133.5,242.8 135.2,242.7 136.8,242.6 138.5,242.6 140.2,242.5 141.9,242.5 143.5,242.4 145.2,242.4 146.9,242.3 148.5,242.2 150.2,242.2 151.9,242.1 153.5,242.0 155.2,242.0 156.9,241.9 158.6,241.8 160.2,241.7 161.9,241.7 163.6,241.6 165.2,241.5 166.9,241.4 168.6,241.4 170.2,241.3 171.9,241.2 173.6,241.1 175.2,241.0 176.9,240.9 178.6,240.8 180.3,240.7 181.9,240.6 183.6,240.5 185.3,240.4 186.9,240.3 188.6,240.2 190.3,240.1 191.9,240.0 193.6,239.9 195.3,239.8 197.0,239.7 198.6,239.6 200.3,239.4 202.0,239.3 203.6,239.2 205.3,239.1 207.0,238.9 208.7,238.8 210.3,238.7 212.0,238.5 213.7,238.4 215.3,238.3 217.0,238.1 218.7,238.0 220.3,237.8 222.0,237.7 223.7,237.5 225.3,237.4 227.0,237.2 228.7,237.0 230.4,236.9 232.0,236.7 233.7,236.5 235.4,236.3 237.0,236.1 238.7,235.9 240.4,235.8 242.0,235.6 243.7,235.4 245.4,235.1 247.1,234.9 248.7,234.7 250.4,234.5 252.1,234.3 253.7,234.0 255.4,233.8 257.1,233.6 258.8,233.3 260.4,233.1 262.1,232.8 263.8,232.5 265.4,232.3 267.1,232.0 268.8,231.7 270.4,231.4 272.1,231.1 273.8,230.8 275.5,230.5 277.1,230.2 278.8,229.8 280.5,229.5 282.1,229.1 283.8,228.8 285.5,228.4 287.1,228.0 288.8,227.6 290.5,227.2 292.1,226.8 293.8,226.4 295.5,226.0 297.2,225.5 298.8,225.0 300.5,224.5 302.2,224.0 303.8,223.5 305.5,223.0 307.2,222.4 308.9,221.9 310.5,221.3 312.2,220.7 313.9,220.0 315.5,219.4 317.2,218.7 318.9,217.9 320.5,217.2 322.2,216.4 323.9,215.6 325.6,214.8 327.2,213.9 328.9,212.9 330.6,212.0 332.2,210.9 333.9,209.9 335.6,208.7 337.2,207.5 338.9,206.3 340.6,204.9 342.2,203.5 343.9,202.0 345.6,200.4 347.3,198.7 348.9,196.8 350.6,194.8 352.3,192.7 353.9,190.3 355.6,187.8 357.3,185.0 358.9,182.0 360.6,178.6 362.3,174.9 364.0,170.6 365.6,165.8 367.3,160.3 369.0,153.9 370.6,146.3 372.3,137.1 374.0,125.7 375.6,111.0 377.3,91.0 379.0,61.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"384.0\" y2=\"244.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"217.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\">v/c</text><text x=\"18.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\">γ</text></svg></div><p>Vad händer med den energi som krävs för att öka farten ytterligare?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rörelseenergin är \\((\\gamma-1)mc^2\\), och \\(\\gamma\\) växer utan gräns när \\(v\\) närmar sig \\(c\\). Därför krävs oändligt mycket energi för att nå \\(c\\).</p></li></ol></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energin växer med gamma: \\(K=(\\gamma-1)mc^2\\)</p><p>När v närmar sig c underifrån går nämnaren i gammaformeln mot noll. Gamma och rörelseenergin växer därför utan gräns.</p></li><li><p class=\"facit-rubrik\">Ändlig tillförd energi räcker aldrig för att nå c</p><p>Partikeln kan närma sig ljusfarten allt mer, men ett föremål med positiv vilomassa kan inte nå den genom att tillföras ändlig energi.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det krävs allt mer energi; att nå c skulle kräva obegränsad energi.</p></div>",
   "familj": "Total energi och rörelseenergi",
   "formaga": [
     "begrepp"
@@ -58833,7 +58887,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En partikels totala energi är tre gånger så stor som dess viloenergi.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"150\" viewBox=\"0 0 420 150\" role=\"img\" aria-label=\"Stapel för viloenergin och en tre gånger så hög stapel för den totala energin\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"100\" y=\"100\" width=\"70\" height=\"30\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><rect x=\"250\" y=\"40\" width=\"70\" height=\"90\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"250.0\" y1=\"70.0\" x2=\"320.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"4 3\"/><line x1=\"250.0\" y1=\"100.0\" x2=\"320.0\" y2=\"100.0\" stroke=\"#c2410c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"4 3\"/><text x=\"135.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E₀</text><text x=\"285.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E = 3E₀</text></svg></div><p>Hur stor är partikelns gammafaktor \\(\\gamma\\)?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(E=\\gamma mc^2=\\gamma E_0\\) är \\(\\gamma=E/E_0\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma=3\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Totalenergin är \\(E=\\gamma E_0\\)</p><p>I frågan är totalenergin tre gånger viloenergin: E = 3E₀.</p></li><li><p class=\"facit-rubrik\">Jämför faktorerna framför viloenergin</p><div class=\"facit-matte\">\\[\\begin{aligned}\\gamma&=E/E_0\\\\&=3\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma=3\\).</p></div>",
   "familj": "Total energi och rörelseenergi",
   "formaga": [
     "begrepp"
@@ -58859,7 +58913,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>Einsteins samband \\(E=mc^2\\) är en av fysikens mest kända formler.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Massa och energi kopplas samman av E = mc²\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"60\" width=\"110\" height=\"70\" rx=\"10\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"95.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">massa</text><line x1=\"165.0\" y1=\"95.0\" x2=\"255.0\" y2=\"95.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"255.0,95.0 244.9,99.3 244.9,90.7\" fill=\"#c2410c\"/><text x=\"210.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">E = mc²</text><path d=\"M330 50 L344 82 L378 84 L352 104 L362 138 L330 118 L298 138 L308 104 L282 84 L316 82 Z\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"330.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">energi</text></svg></div><p>Vad betyder sambandet?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Massa är en form av energi. Varje massa \\(m\\) motsvarar viloenergin \\(mc^2\\), och när energi frigörs i till exempel kärnreaktioner minskar den totala massan.</p></li></ol></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Viloenergi och massa hör ihop: \\(E_0=mc^2\\)</p><p>Ett föremål har energi även när det är i vila. Om ett system förlorar energi och allt annat hålls oförändrat minskar dess massa med energin dividerad med c².</p></li><li><p class=\"facit-rubrik\">Sambandet lovar ingen valfri fullständig omvandling</p><p>Formeln anger ekvivalensen mellan massa och energi. Den säger inte att alla material enkelt kan omvandlas helt till användbar energi.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Massa motsvarar energi; viloenergin är massan multiplicerad med ljusfarten i kvadrat.</p></div>",
   "familj": "Viloenergi och E = mc²",
   "formaga": [
     "begrepp"
@@ -58905,7 +58959,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>När 1,0 kg uran klyvs i en kärnreaktor minskar den totala massan med 0,90 g.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Massförlusten 0,90 gram omvandlas till frigjord energi\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"60\" width=\"110\" height=\"70\" rx=\"10\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"95.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Δm = 0,90 g</text><line x1=\"165.0\" y1=\"95.0\" x2=\"255.0\" y2=\"95.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"255.0,95.0 244.9,99.3 244.9,90.7\" fill=\"#c2410c\"/><text x=\"210.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">E = mc²</text><path d=\"M330 50 L344 82 L378 84 L352 104 L362 138 L330 118 L298 138 L308 104 L282 84 L316 82 Z\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"330.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E = ?</text></svg></div><p>Hur mycket energi frigörs?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E=\\Delta m\\,c^2=0{,}90\\cdot10^{-3}\\cdot(2{,}998\\cdot10^8)^2\\approx8{,}1\\cdot10^{13}\\ \\text{J}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(8{,}1\\cdot10^{13}\\) J.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massdefekten är \\(\\Delta m=0{,}90\\ \\mathrm g=9{,}0\\cdot10^{-4}\\) kg</p><p>Det är massminskningen 0,90 g som motsvarar den frigjorda energin, inte hela uranmassan på 1,0 kg.</p></li><li><p class=\"facit-rubrik\">Frigjord energi: \\(E=\\Delta mc^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=9{,}0\\cdot10^{-4}(2{,}998\\cdot10^8)^2\\\\&\\approx8{,}09\\cdot10^{13}\\ \\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(8{,}1\\cdot10^{13}\\) J frigörs.</p></div>",
   "familj": "Viloenergi och E = mc²",
   "formaga": [
     "procedur",
@@ -58934,7 +58988,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "t": "<p>En elektron har gammafaktorn \\(\\gamma=2{,}0\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"150\" viewBox=\"0 0 420 150\" role=\"img\" aria-label=\"Stapel för viloenergin och en dubbelt så hög stapel för den totala energin\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"100\" y=\"80\" width=\"70\" height=\"50\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><rect x=\"250\" y=\"30\" width=\"70\" height=\"100\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"250.0\" y1=\"80.0\" x2=\"320.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-dasharray=\"4 3\"/><text x=\"135.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E₀</text><text x=\"285.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E = 2,0·E₀</text><text x=\"342.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">Eₖ</text></svg></div><p>Hur stor är elektronens rörelseenergi? (Svara i MeV.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Elektronens viloenergi är 0,511 MeV.</p></li><li><div class=\"facit-matte\">\\[E_k=(\\gamma-1)E_0=(2{,}0-1)\\cdot0{,}511\\approx0{,}51\\ \\text{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,51 MeV.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelseenergi: \\(K=(\\gamma-1)E_0\\)</p><p>Elektronens viloenergi är cirka 0,511 MeV. Gamma = 2 betyder att totalenergin är dubbla viloenergin.</p></li><li><p class=\"facit-rubrik\">Dra bort den del som är viloenergi</p><div class=\"facit-matte\">\\[\\begin{aligned}K&=(2{,}0-1)\\cdot0{,}511\\\\&=0{,}511\\ \\mathrm{MeV}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Rörelseenergin är cirka 0,511 MeV.</p></div>",
   "familj": "Total energi och rörelseenergi",
   "formaga": [
     "procedur"

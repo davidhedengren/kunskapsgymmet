@@ -5,7 +5,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "C",
     "poang": "3/1/0",
-    "familj": "Bredden först i labyrint",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -129,7 +129,8 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Bredden först i labyrint"
   },
   {
     "id": "1.02",
@@ -137,7 +138,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "C",
     "poang": "2/2/0",
-    "familj": "Djupet först i labyrint",
+    "familj": "DFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -261,7 +262,8 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Djupet först i labyrint"
   },
   {
     "id": "2.01",
@@ -269,7 +271,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "C",
     "poang": "2/1/0",
-    "familj": "Beräkna g, h och f",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "procedur"
     ],
@@ -471,7 +473,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Beräkna g, h och f"
   },
   {
     "id": "2.02",
@@ -479,7 +482,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "C",
     "poang": "1/3/0",
-    "familj": "Spåra A*",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -603,7 +606,8 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Spåra A*"
   },
   {
     "id": "2.03",
@@ -611,7 +615,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "C",
     "poang": "0/3/0",
-    "familj": "Vägkostnad och girig sökning",
+    "familj": "Vägkostnad i labyrinter",
     "formaga": [
       "procedur",
       "resonemang"
@@ -791,7 +795,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Vägkostnad och girig sökning"
   },
   {
     "id": "3.01",
@@ -1240,7 +1245,7 @@ window.BANKAI = [
     "omr": "ko_stack",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "FIFO-kö och stack",
+    "familj": "Kö och stack steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -1316,15 +1321,16 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "FIFO-kö och stack"
   },
   {
     "id": "1.04",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "bfs",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "BFS – kön steg för steg",
+    "familj": "BFS i träd och grafer",
     "formaga": [
       "procedur"
     ],
@@ -1400,15 +1406,17 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "BFS – kön steg för steg"
   },
   {
     "id": "1.05",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "dfs",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "DFS – kön steg för steg",
+    "familj": "DFS i träd och grafer",
     "formaga": [
       "procedur"
     ],
@@ -1484,7 +1492,9 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "DFS – kön steg för steg"
   },
   {
     "id": "2.04",
@@ -1492,7 +1502,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Uttag ur prioritetskö",
+    "familj": "Uttag ur en prioritetskö",
     "formaga": [
       "procedur"
     ],
@@ -1568,7 +1578,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Uttag ur prioritetskö"
   },
   {
     "id": "2.05",
@@ -1576,7 +1587,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Girig bäst först och A*",
+    "familj": "Prioritetskön i girig bäst först och A*",
     "formaga": [
       "procedur"
     ],
@@ -1710,7 +1721,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Girig bäst först och A*"
   },
   {
     "id": "1.06",
@@ -1718,7 +1730,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Sökning i 3 × 4",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -1841,7 +1853,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Sökning i 3 × 4"
   },
   {
     "id": "1.07",
@@ -1849,7 +1862,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "C",
     "poang": "2/2/0",
-    "familj": "Sökning i 5 × 6",
+    "familj": "DFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -2019,7 +2032,8 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Sökning i 5 × 6"
   },
   {
     "id": "1.08",
@@ -2027,7 +2041,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "C",
     "poang": "1/1/0",
-    "familj": "När målet inte kan nås",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -2135,7 +2149,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "När målet inte kan nås"
   },
   {
     "id": "2.06",
@@ -2143,7 +2158,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "f-värde i 5 × 6",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "procedur",
       "begrepp"
@@ -2220,7 +2235,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a"
     ],
-    "visaSomDelkort": true
+    "visaSomDelkort": true,
+    "familjTidigare": "f-värde i 5 × 6"
   },
   {
     "id": "2.07",
@@ -2228,7 +2244,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "f-värde i 7 × 9",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "procedur",
       "begrepp"
@@ -2284,7 +2300,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a"
     ],
-    "visaSomDelkort": true
+    "visaSomDelkort": true,
+    "familjTidigare": "f-värde i 7 × 9"
   },
   {
     "id": "2.08",
@@ -2292,7 +2309,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "f-värde i 9 × 13",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "procedur",
       "begrepp"
@@ -2369,7 +2386,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a"
     ],
-    "visaSomDelkort": true
+    "visaSomDelkort": true,
+    "familjTidigare": "f-värde i 9 × 13"
   },
   {
     "id": "2.09",
@@ -2377,7 +2395,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "C",
     "poang": "1/1/0",
-    "familj": "Nästa ruta från ett sökläge",
+    "familj": "Girig bäst först jämfört med A*",
     "formaga": [
       "procedur",
       "begrepp"
@@ -2500,7 +2518,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Nästa ruta från ett sökläge"
   },
   {
     "id": "2.10",
@@ -2508,7 +2527,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "C",
     "poang": "1/1/0",
-    "familj": "Tre vägar med olika terräng",
+    "familj": "Vägkostnad i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -2639,7 +2658,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Tre vägar med olika terräng"
   },
   {
     "id": "2.11",
@@ -2647,7 +2667,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "När isvägen lönar sig",
+    "familj": "Vägkostnad i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -2730,15 +2750,16 @@ window.BANKAI = [
     "svarEtiketter": [
       "a"
     ],
-    "visaSomDelkort": true
+    "visaSomDelkort": true,
+    "familjTidigare": "När isvägen lönar sig"
   },
   {
     "id": "1.09",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "bfs",
     "niva": "C",
     "poang": "1/1/0",
-    "familj": "Två mål och ordningen i stacken",
+    "familj": "BFS i träd och grafer",
     "formaga": [
       "procedur",
       "begrepp"
@@ -2866,7 +2887,9 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Två mål och ordningen i stacken"
   },
   {
     "id": "3.04",
@@ -3220,7 +3243,7 @@ window.BANKAI = [
     "omr": "ko_stack",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "FIFO-kö i en bild",
+    "familj": "Kö och stack steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -3316,7 +3339,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "FIFO-kö i en bild"
   },
   {
     "id": "1.11",
@@ -3324,7 +3348,7 @@ window.BANKAI = [
     "omr": "ko_stack",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Stack i en bild",
+    "familj": "Kö och stack steg för steg",
     "formaga": [
       "procedur",
       "begrepp"
@@ -3458,7 +3482,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Stack i en bild"
   },
   {
     "id": "1.12",
@@ -3466,7 +3491,7 @@ window.BANKAI = [
     "omr": "ko_stack",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Vilken struktur användes?",
+    "familj": "Kö och stack steg för steg",
     "formaga": [
       "begrepp",
       "resonemang"
@@ -3563,15 +3588,16 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Vilken struktur användes?"
   },
   {
     "id": "1.13",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "bfs",
     "niva": "C",
     "poang": "2/1/0",
-    "familj": "Kön när en labyrint söks igenom",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -3699,15 +3725,17 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Kön när en labyrint söks igenom"
   },
   {
     "id": "1.14",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "bfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Fortsätt kön i ett sökträd",
+    "familj": "BFS i träd och grafer",
     "formaga": [
       "procedur"
     ],
@@ -3834,7 +3862,9 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Fortsätt kön i ett sökträd"
   },
   {
     "id": "1.15",
@@ -3842,7 +3872,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "C",
     "poang": "2/1/0",
-    "familj": "Avstånd från start",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -3970,7 +4000,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Avstånd från start"
   },
   {
     "id": "1.16",
@@ -3978,7 +4009,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "C",
     "poang": "2/1/0",
-    "familj": "Två lika korta vägar",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -4106,7 +4137,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Två lika korta vägar"
   },
   {
     "id": "1.17",
@@ -4114,7 +4146,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Besökta rutor utanför vägen",
+    "familj": "DFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -4220,7 +4252,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Besökta rutor utanför vägen"
   },
   {
     "id": "1.18",
@@ -4228,7 +4261,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "C",
     "poang": "2/1/0",
-    "familj": "Grannordningen styr DFS",
+    "familj": "DFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -4414,7 +4447,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Grannordningen styr DFS"
   },
   {
     "id": "1.19",
@@ -4422,7 +4456,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "När DFS måste backa",
+    "familj": "DFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -4550,7 +4584,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "När DFS måste backa"
   },
   {
     "id": "2.12",
@@ -4558,7 +4593,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Lika värden i prioritetskön",
+    "familj": "Uttag ur en prioritetskö",
     "formaga": [
       "procedur"
     ],
@@ -4654,7 +4689,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Lika värden i prioritetskön"
   },
   {
     "id": "2.13",
@@ -4662,7 +4698,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Ett bättre värde hittas",
+    "familj": "Prioritetskön i girig bäst först och A*",
     "formaga": [
       "procedur",
       "begrepp"
@@ -4806,7 +4842,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Ett bättre värde hittas"
   },
   {
     "id": "2.14",
@@ -4814,7 +4851,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Girig bäst först och A* väljer olika",
+    "familj": "Prioritetskön i girig bäst först och A*",
     "formaga": [
       "procedur",
       "begrepp"
@@ -5005,7 +5042,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Girig bäst först och A* väljer olika"
   },
   {
     "id": "2.15",
@@ -5013,7 +5051,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "h för tre markerade rutor",
+    "familj": "Heuristiken h",
     "formaga": [
       "procedur"
     ],
@@ -5148,7 +5186,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "h för tre markerade rutor"
   },
   {
     "id": "2.16",
@@ -5156,7 +5195,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "A",
     "poang": "1/1/1",
-    "familj": "Nära målet men långt att gå",
+    "familj": "Heuristiken h",
     "formaga": [
       "procedur",
       "begrepp"
@@ -5316,7 +5355,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Nära målet men långt att gå"
   },
   {
     "id": "2.17",
@@ -5324,7 +5364,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "C",
     "poang": "2/2/0",
-    "familj": "A* och en återvändsgränd nära målet",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -5530,7 +5570,8 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "A* och en återvändsgränd nära målet"
   },
   {
     "id": "2.18",
@@ -5538,7 +5579,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Nästa uttag ur öppna listan",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -5707,7 +5748,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Nästa uttag ur öppna listan"
   },
   {
     "id": "2.19",
@@ -5715,7 +5757,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "C",
     "poang": "1/2/0",
-    "familj": "A* jämfört med BFS",
+    "familj": "Girig bäst först jämfört med A*",
     "formaga": [
       "procedur",
       "begrepp"
@@ -5843,7 +5885,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "A* jämfört med BFS"
   },
   {
     "id": "2.20",
@@ -5851,7 +5894,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Billigaste vägen i en graf",
+    "familj": "Billigaste väg i grafer",
     "formaga": [
       "procedur",
       "begrepp"
@@ -5985,7 +6028,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Billigaste vägen i en graf"
   },
   {
     "id": "2.21",
@@ -5993,7 +6037,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "C",
     "poang": "2/2/0",
-    "familj": "A* steg för steg i en graf",
+    "familj": "Billigaste väg i grafer",
     "formaga": [
       "procedur",
       "begrepp"
@@ -6220,7 +6264,8 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "A* steg för steg i en graf"
   },
   {
     "id": "2.22",
@@ -6228,7 +6273,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Kostnaden för tre vägar",
+    "familj": "Vägkostnad i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -6355,7 +6400,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Kostnaden för tre vägar"
   },
   {
     "id": "3.06",
@@ -7106,7 +7152,7 @@ window.BANKAI = [
     "omr": "ko_stack",
     "niva": "E",
     "poang": "4/0/0",
-    "familj": "Kö eller stack i vardagen",
+    "familj": "Kö, stack och sökning i teorin",
     "formaga": [
       "begrepp"
     ],
@@ -7282,7 +7328,8 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Kö eller stack i vardagen"
   },
   {
     "id": "1.21",
@@ -7290,7 +7337,7 @@ window.BANKAI = [
     "omr": "ko_stack",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Kö och stack sida vid sida",
+    "familj": "Kö och stack steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -7422,15 +7469,16 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Kö och stack sida vid sida"
   },
   {
     "id": "1.22",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "bfs",
     "niva": "C",
     "poang": "2/1/0",
-    "familj": "Hitta felet i kötabellen",
+    "familj": "BFS i träd och grafer",
     "formaga": [
       "procedur",
       "begrepp"
@@ -7558,15 +7606,17 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Hitta felet i kötabellen"
   },
   {
     "id": "1.23",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "bfs",
     "niva": "C",
     "poang": "2/1/0",
-    "familj": "BFS i en graf med slinga",
+    "familj": "BFS i träd och grafer",
     "formaga": [
       "procedur",
       "begrepp"
@@ -7710,7 +7760,9 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "BFS i en graf med slinga"
   },
   {
     "id": "1.24",
@@ -7718,7 +7770,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "BFS i en 5 × 5-labyrint",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -7824,7 +7876,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "BFS i en 5 × 5-labyrint"
   },
   {
     "id": "1.25",
@@ -7832,7 +7885,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Start mitt i labyrinten",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -7959,7 +8012,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Start mitt i labyrinten"
   },
   {
     "id": "1.26",
@@ -7967,7 +8021,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "DFS och BFS i samma träd",
+    "familj": "DFS i träd och grafer",
     "formaga": [
       "procedur",
       "begrepp"
@@ -8090,7 +8144,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "DFS och BFS i samma träd"
   },
   {
     "id": "1.27",
@@ -8098,7 +8153,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "DFS i en liten labyrint",
+    "familj": "DFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -8199,7 +8254,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "DFS i en liten labyrint"
   },
   {
     "id": "2.23",
@@ -8207,7 +8263,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Lika värden avgörs av ordningen",
+    "familj": "Uttag ur en prioritetskö",
     "formaga": [
       "procedur"
     ],
@@ -8287,7 +8343,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Lika värden avgörs av ordningen"
   },
   {
     "id": "2.24",
@@ -8295,7 +8352,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "4/0/0",
-    "familj": "Tre strukturer, samma noder",
+    "familj": "Uttag ur en prioritetskö",
     "formaga": [
       "begrepp"
     ],
@@ -8491,7 +8548,8 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Tre strukturer, samma noder"
   },
   {
     "id": "2.25",
@@ -8499,7 +8557,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "C",
     "poang": "0/2/0",
-    "familj": "f-värde med lera",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "procedur",
       "begrepp"
@@ -8601,7 +8659,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "f-värde med lera"
   },
   {
     "id": "2.26",
@@ -8609,7 +8668,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "C",
     "poang": "1/1/0",
-    "familj": "Hitta felet i f-tabellen",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "procedur",
       "begrepp"
@@ -8711,7 +8770,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Hitta felet i f-tabellen"
   },
   {
     "id": "2.27",
@@ -8719,7 +8779,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "C",
     "poang": "2/1/0",
-    "familj": "Girig bäst först och A* på is",
+    "familj": "Girig bäst först jämfört med A*",
     "formaga": [
       "procedur",
       "begrepp"
@@ -8904,7 +8964,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Girig bäst först och A* på is"
   },
   {
     "id": "2.28",
@@ -8912,7 +8973,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "C",
     "poang": "0/3/0",
-    "familj": "Öppna listan när målet tas ut",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur",
       "begrepp"
@@ -9040,7 +9101,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Öppna listan när målet tas ut"
   },
   {
     "id": "2.29",
@@ -9048,7 +9110,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Billigaste vägen genom leran",
+    "familj": "Vägkostnad i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -9175,7 +9237,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Billigaste vägen genom leran"
   },
   {
     "id": "2.30",
@@ -9183,7 +9246,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "C",
     "poang": "1/2/0",
-    "familj": "Girig bäst först och A* i en graf",
+    "familj": "Billigaste väg i grafer",
     "formaga": [
       "procedur",
       "begrepp"
@@ -9337,7 +9400,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Girig bäst först och A* i en graf"
   },
   {
     "id": "3.11",
@@ -9895,7 +9959,7 @@ window.BANKAI = [
     "omr": "ko_stack",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Stacken i en tabell",
+    "familj": "Kö och stack steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -9975,15 +10039,16 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Stacken i en tabell"
   },
   {
     "id": "1.29",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "dfs",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Stacken när ett träd söks igenom",
+    "familj": "DFS i träd och grafer",
     "formaga": [
       "procedur"
     ],
@@ -10063,7 +10128,9 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Stacken när ett träd söks igenom"
   },
   {
     "id": "1.30",
@@ -10071,7 +10138,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "C",
     "poang": "1/2/0",
-    "familj": "BFS i 4 × 5 med en dold ruta",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -10224,7 +10291,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "BFS i 4 × 5 med en dold ruta"
   },
   {
     "id": "1.31",
@@ -10232,7 +10300,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "C",
     "poang": "1/2/0",
-    "familj": "DFS hittar en kortaste väg",
+    "familj": "DFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -10381,7 +10449,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "DFS hittar en kortaste väg"
   },
   {
     "id": "2.31",
@@ -10389,7 +10458,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Prioritetskön i en tabell",
+    "familj": "Uttag ur en prioritetskö",
     "formaga": [
       "procedur"
     ],
@@ -10469,7 +10538,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Prioritetskön i en tabell"
   },
   {
     "id": "2.32",
@@ -10477,7 +10547,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "C",
     "poang": "1/1/0",
-    "familj": "g, h och f för tre rutor",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "procedur",
       "begrepp"
@@ -10608,7 +10678,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "g, h och f för tre rutor"
   },
   {
     "id": "2.33",
@@ -10616,7 +10687,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "C",
     "poang": "0/2/0",
-    "familj": "A* i en tabell",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -10696,7 +10767,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "A* i en tabell"
   },
   {
     "id": "2.34",
@@ -10704,7 +10776,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "C",
     "poang": "2/1/0",
-    "familj": "Kort väg eller billig väg",
+    "familj": "Vägkostnad i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -10853,7 +10925,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Kort väg eller billig väg"
   },
   {
     "id": "3.15",
@@ -13108,7 +13181,7 @@ window.BANKAI = [
     "omr": "ko_stack",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Kön efter några steg",
+    "familj": "Kö och stack steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -13209,7 +13282,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Kön efter några steg"
   },
   {
     "id": "1.33",
@@ -13217,7 +13291,7 @@ window.BANKAI = [
     "omr": "ko_stack",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Uttag ur en stack",
+    "familj": "Kö och stack steg för steg",
     "formaga": [
       "procedur",
       "begrepp"
@@ -13319,7 +13393,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Uttag ur en stack"
   },
   {
     "id": "1.34",
@@ -13327,7 +13402,7 @@ window.BANKAI = [
     "omr": "ko_stack",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Tredje uttaget med kö och stack",
+    "familj": "Kö och stack steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -13449,15 +13524,16 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Tredje uttaget med kö och stack"
   },
   {
     "id": "1.35",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "bfs",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Den längsta kön",
+    "familj": "BFS i träd och grafer",
     "formaga": [
       "procedur"
     ],
@@ -13558,15 +13634,17 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Den längsta kön"
   },
   {
     "id": "1.36",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "dfs",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Överst i stacken",
+    "familj": "DFS i träd och grafer",
     "formaga": [
       "procedur"
     ],
@@ -13667,15 +13745,17 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Överst i stacken"
   },
   {
     "id": "1.37",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "bfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Kön i en 3 × 4-labyrint",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -13823,7 +13903,9 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Kön i en 3 × 4-labyrint"
   },
   {
     "id": "1.38",
@@ -13831,7 +13913,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "BFS med direkt rättning",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -13958,7 +14040,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "BFS med direkt rättning"
   },
   {
     "id": "1.39",
@@ -13966,7 +14049,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Avstånd i en labyrint",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -14093,7 +14176,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Avstånd i en labyrint"
   },
   {
     "id": "1.40",
@@ -14101,7 +14185,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Kön i en liten labyrint",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -14228,7 +14312,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Kön i en liten labyrint"
   },
   {
     "id": "1.41",
@@ -14236,7 +14321,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "C",
     "poang": "3/1/0",
-    "familj": "DFS med direkt rättning",
+    "familj": "DFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -14401,7 +14486,8 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "DFS med direkt rättning"
   },
   {
     "id": "1.42",
@@ -14409,7 +14495,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "DFS i ett sökträd",
+    "familj": "DFS i träd och grafer",
     "formaga": [
       "procedur"
     ],
@@ -14510,7 +14596,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "DFS i ett sökträd"
   },
   {
     "id": "1.43",
@@ -14518,7 +14605,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "C",
     "poang": "3/1/0",
-    "familj": "DFS och återvändsgränder",
+    "familj": "DFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -14683,7 +14770,8 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "DFS och återvändsgränder"
   },
   {
     "id": "2.35",
@@ -14691,7 +14779,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Tredje uttaget ur prioritetskön",
+    "familj": "Uttag ur en prioritetskö",
     "formaga": [
       "procedur"
     ],
@@ -14792,7 +14880,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Tredje uttaget ur prioritetskön"
   },
   {
     "id": "2.36",
@@ -14800,7 +14889,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Lägst f i öppna listan",
+    "familj": "Prioritetskön i girig bäst först och A*",
     "formaga": [
       "procedur"
     ],
@@ -14901,7 +14990,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Lägst f i öppna listan"
   },
   {
     "id": "2.37",
@@ -14909,7 +14999,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Lika f och lägst h",
+    "familj": "Prioritetskön i girig bäst först och A*",
     "formaga": [
       "procedur"
     ],
@@ -15010,7 +15100,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Lika f och lägst h"
   },
   {
     "id": "2.38",
@@ -15132,7 +15223,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "C",
     "poang": "1/2/0",
-    "familj": "g, h och f med lera",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "procedur"
     ],
@@ -15238,7 +15329,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "g, h och f med lera"
   },
   {
     "id": "2.40",
@@ -15246,7 +15338,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "C",
     "poang": "2/1/0",
-    "familj": "g och h på var sin sida om väggen",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "procedur"
     ],
@@ -15352,7 +15444,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "g och h på var sin sida om väggen"
   },
   {
     "id": "2.41",
@@ -15360,7 +15453,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "C",
     "poang": "1/2/0",
-    "familj": "A* med direkt rättning",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -15487,7 +15580,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "A* med direkt rättning"
   },
   {
     "id": "2.42",
@@ -15495,7 +15589,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "C",
     "poang": "0/2/0",
-    "familj": "Girig bäst först och A* i lera",
+    "familj": "Girig bäst först jämfört med A*",
     "formaga": [
       "procedur",
       "begrepp"
@@ -15576,7 +15670,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Girig bäst först och A* i lera"
   },
   {
     "id": "2.43",
@@ -15584,7 +15679,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "C",
     "poang": "1/2/0",
-    "familj": "A* från ett hörn",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -15711,7 +15806,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "A* från ett hörn"
   },
   {
     "id": "2.44",
@@ -15719,7 +15815,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Is och lera på vägen",
+    "familj": "Vägkostnad i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -15799,7 +15895,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Is och lera på vägen"
   },
   {
     "id": "2.45",
@@ -15807,7 +15904,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Billigaste vägen med en omväg",
+    "familj": "Billigaste väg i grafer",
     "formaga": [
       "procedur",
       "begrepp"
@@ -15888,7 +15985,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Billigaste vägen med en omväg"
   },
   {
     "id": "2.46",
@@ -15896,7 +15994,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "C",
     "poang": "2/1/0",
-    "familj": "A* i en graf, rättas direkt",
+    "familj": "Billigaste väg i grafer",
     "formaga": [
       "procedur"
     ],
@@ -16023,7 +16121,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "A* i en graf, rättas direkt"
   },
   {
     "id": "3.31",
@@ -16793,7 +16892,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "A*:s första val",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -16894,7 +16993,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "A*:s första val"
   },
   {
     "id": "2.48",
@@ -16902,7 +17002,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Girig bäst först tar ett steg",
+    "familj": "Girig bäst först jämfört med A*",
     "formaga": [
       "procedur"
     ],
@@ -17003,7 +17103,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Girig bäst först tar ett steg"
   },
   {
     "id": "2.49",
@@ -17011,7 +17112,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "h för två rutor",
+    "familj": "Heuristiken h",
     "formaga": [
       "procedur"
     ],
@@ -17091,7 +17192,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "h för två rutor"
   },
   {
     "id": "2.50",
@@ -17099,7 +17201,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "f när g är givet",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "procedur"
     ],
@@ -17179,7 +17281,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "f när g är givet"
   },
   {
     "id": "2.51",
@@ -17187,7 +17290,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "g, h och f utan väggar",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "procedur"
     ],
@@ -17293,7 +17396,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "g, h och f utan väggar"
   },
   {
     "id": "2.52",
@@ -17301,7 +17405,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Kostnaden för vägar i en liten graf",
+    "familj": "Billigaste väg i grafer",
     "formaga": [
       "procedur"
     ],
@@ -17423,7 +17527,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Kostnaden för vägar i en liten graf"
   },
   {
     "id": "2.53",
@@ -17431,7 +17536,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Lerrutor längs en väg",
+    "familj": "Vägkostnad i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -17511,7 +17616,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Lerrutor längs en väg"
   },
   {
     "id": "1.44",
@@ -17519,7 +17625,7 @@ window.BANKAI = [
     "omr": "ko_stack",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Ångra-knappen som stack",
+    "familj": "Kö, stack och sökning i teorin",
     "formaga": [
       "begrepp"
     ],
@@ -17620,7 +17726,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Ångra-knappen som stack"
   },
   {
     "id": "1.45",
@@ -17628,7 +17735,7 @@ window.BANKAI = [
     "omr": "ko_stack",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Skrivarkön",
+    "familj": "Kö, stack och sökning i teorin",
     "formaga": [
       "begrepp"
     ],
@@ -17729,15 +17836,16 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Skrivarkön"
   },
   {
     "id": "1.46",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "bfs",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Kön efter två uttag",
+    "familj": "BFS i träd och grafer",
     "formaga": [
       "procedur"
     ],
@@ -17838,15 +17946,17 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Kön efter två uttag"
   },
   {
     "id": "1.47",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "dfs",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Stacken när målet hittas",
+    "familj": "DFS i träd och grafer",
     "formaga": [
       "procedur"
     ],
@@ -17947,15 +18057,17 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Stacken när målet hittas"
   },
   {
     "id": "1.48",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "bfs",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Robotens kö",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -18056,7 +18168,9 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Robotens kö"
   },
   {
     "id": "1.49",
@@ -18064,7 +18178,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Robotens sökning",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -18191,7 +18305,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Robotens sökning"
   },
   {
     "id": "1.50",
@@ -18199,7 +18314,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "BFS i en labyrint med flera vägar",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -18326,7 +18441,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "BFS i en labyrint med flera vägar"
   },
   {
     "id": "1.51",
@@ -18334,7 +18450,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Målet i en ficka",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -18435,7 +18551,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Målet i en ficka"
   },
   {
     "id": "1.52",
@@ -18443,7 +18560,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "C",
     "poang": "3/1/0",
-    "familj": "DFS genom en smal gång",
+    "familj": "DFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -18608,7 +18725,8 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "DFS genom en smal gång"
   },
   {
     "id": "1.53",
@@ -18616,7 +18734,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "C",
     "poang": "3/1/0",
-    "familj": "DFS i 4 × 6 med lång omväg",
+    "familj": "DFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -18781,7 +18899,8 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "DFS i 4 × 6 med lång omväg"
   },
   {
     "id": "1.54",
@@ -18789,7 +18908,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "DFS med höger gren först",
+    "familj": "DFS i träd och grafer",
     "formaga": [
       "procedur"
     ],
@@ -18890,7 +19009,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "DFS med höger gren först"
   },
   {
     "id": "2.54",
@@ -18898,7 +19018,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "C",
     "poang": "1/2/0",
-    "familj": "A* i ett lager",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -19025,7 +19145,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "A* i ett lager"
   },
   {
     "id": "2.55",
@@ -19033,7 +19154,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Lägst f bland grannarna",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -19129,7 +19250,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Lägst f bland grannarna"
   },
   {
     "id": "2.56",
@@ -19137,7 +19259,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Girig bäst först två steg",
+    "familj": "Girig bäst först jämfört med A*",
     "formaga": [
       "procedur"
     ],
@@ -19238,7 +19360,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Girig bäst först två steg"
   },
   {
     "id": "2.57",
@@ -19246,7 +19369,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Öppna listan efter två uttag",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -19347,7 +19470,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Öppna listan efter två uttag"
   },
   {
     "id": "2.58",
@@ -19355,7 +19479,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Två rutor i öppna listan",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -19451,7 +19575,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Två rutor i öppna listan"
   },
   {
     "id": "2.59",
@@ -19459,7 +19584,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "h och f för en ruta i lagret",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "procedur"
     ],
@@ -19539,7 +19664,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "h och f för en ruta i lagret"
   },
   {
     "id": "2.60",
@@ -19547,7 +19673,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Närmast målet enligt h",
+    "familj": "Heuristiken h",
     "formaga": [
       "procedur"
     ],
@@ -19648,7 +19774,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Närmast målet enligt h"
   },
   {
     "id": "2.61",
@@ -19656,7 +19783,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "C",
     "poang": "0/2/0",
-    "familj": "g runt en lång vägg",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "procedur",
       "begrepp"
@@ -19737,7 +19864,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "g runt en lång vägg"
   },
   {
     "id": "2.62",
@@ -19745,7 +19873,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Tre vägar i en graf",
+    "familj": "Billigaste väg i grafer",
     "formaga": [
       "procedur"
     ],
@@ -19841,7 +19969,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Tre vägar i en graf"
   },
   {
     "id": "2.63",
@@ -19849,7 +19978,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Två vägar runt isen",
+    "familj": "Vägkostnad i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -19945,7 +20074,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Två vägar runt isen"
   },
   {
     "id": "2.64",
@@ -19953,7 +20083,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "C",
     "poang": "1/2/0",
-    "familj": "Den billiga omvägen",
+    "familj": "Vägkostnad i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -20060,7 +20190,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Den billiga omvägen"
   },
   {
     "id": "2.65",
@@ -20068,7 +20199,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Akutmottagningens kö",
+    "familj": "Uttag ur en prioritetskö",
     "formaga": [
       "begrepp",
       "procedur"
@@ -20170,7 +20301,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Akutmottagningens kö"
   },
   {
     "id": "2.66",
@@ -20178,7 +20310,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Andra uttaget ur A*:s kö",
+    "familj": "Prioritetskön i girig bäst först och A*",
     "formaga": [
       "procedur"
     ],
@@ -20279,7 +20411,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Andra uttaget ur A*:s kö"
   },
   {
     "id": "3.37",
@@ -21014,10 +21147,10 @@ window.BANKAI = [
   {
     "id": "1.55",
     "kap": 1,
-    "omr": "bfs",
+    "omr": "ko_stack",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "BFS i teorin",
+    "familj": "Kö, stack och sökning i teorin",
     "formaga": [
       "begrepp"
     ],
@@ -21186,15 +21319,17 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "omrTidigare": "bfs",
+    "familjTidigare": "BFS i teorin"
   },
   {
     "id": "1.56",
     "kap": 1,
-    "omr": "dfs",
+    "omr": "ko_stack",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "DFS i teorin",
+    "familj": "Kö, stack och sökning i teorin",
     "formaga": [
       "begrepp"
     ],
@@ -21363,15 +21498,17 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "omrTidigare": "dfs",
+    "familjTidigare": "DFS i teorin"
   },
   {
     "id": "1.57",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "bfs",
     "niva": "C",
     "poang": "1/1/0",
-    "familj": "Kön och upptäckta rutor",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "begrepp",
       "resonemang"
@@ -21494,15 +21631,17 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Kön och upptäckta rutor"
   },
   {
     "id": "1.58",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "ko_stack",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Oinformerad sökning",
+    "familj": "Kö, stack och sökning i teorin",
     "formaga": [
       "begrepp"
     ],
@@ -21624,7 +21763,9 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Oinformerad sökning"
   },
   {
     "id": "1.59",
@@ -21632,7 +21773,7 @@ window.BANKAI = [
     "omr": "ko_stack",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Kö eller stack i sökningen",
+    "familj": "Kö, stack och sökning i teorin",
     "formaga": [
       "begrepp"
     ],
@@ -21754,15 +21895,16 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Kö eller stack i sökningen"
   },
   {
     "id": "1.60",
     "kap": 1,
-    "omr": "dfs",
+    "omr": "ko_stack",
     "niva": "C",
     "poang": "1/1/0",
-    "familj": "Grannordningens betydelse",
+    "familj": "Kö, stack och sökning i teorin",
     "formaga": [
       "begrepp",
       "resonemang"
@@ -21885,7 +22027,9 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "dfs",
+    "familjTidigare": "Grannordningens betydelse"
   },
   {
     "id": "1.61",
@@ -21893,7 +22037,7 @@ window.BANKAI = [
     "omr": "bfs",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "BFS i 4 × 6",
+    "familj": "BFS i labyrinter",
     "formaga": [
       "procedur"
     ],
@@ -22020,7 +22164,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "BFS i 4 × 6"
   },
   {
     "id": "1.62",
@@ -22028,7 +22173,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "C",
     "poang": "3/1/0",
-    "familj": "DFS från en ruta i övre raden",
+    "familj": "DFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -22193,7 +22338,8 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "DFS från en ruta i övre raden"
   },
   {
     "id": "1.63",
@@ -22201,7 +22347,7 @@ window.BANKAI = [
     "omr": "dfs",
     "niva": "C",
     "poang": "3/1/0",
-    "familj": "DFS och en kortare väg",
+    "familj": "DFS i labyrinter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -22366,15 +22512,16 @@ window.BANKAI = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "DFS och en kortare väg"
   },
   {
     "id": "1.64",
     "kap": 1,
-    "omr": "ko_sokning",
+    "omr": "bfs",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Vem lägger in målet?",
+    "familj": "BFS i träd och grafer",
     "formaga": [
       "procedur"
     ],
@@ -22475,7 +22622,9 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "ko_sokning",
+    "familjTidigare": "Vem lägger in målet?"
   },
   {
     "id": "2.67",
@@ -22483,7 +22632,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "g, h och f i ord",
+    "familj": "g, h och f för en ruta",
     "formaga": [
       "begrepp"
     ],
@@ -22652,7 +22801,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "g, h och f i ord"
   },
   {
     "id": "2.68",
@@ -22660,7 +22810,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "C",
     "poang": "2/1/0",
-    "familj": "Manhattanavståndet",
+    "familj": "Heuristiken h",
     "formaga": [
       "begrepp",
       "procedur"
@@ -22809,7 +22959,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Manhattanavståndet"
   },
   {
     "id": "2.69",
@@ -22817,7 +22968,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "C",
     "poang": "2/1/0",
-    "familj": "Girig bäst först eller A*",
+    "familj": "Girig bäst först jämfört med A*",
     "formaga": [
       "begrepp",
       "resonemang"
@@ -22987,7 +23138,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Girig bäst först eller A*"
   },
   {
     "id": "2.70",
@@ -22995,7 +23147,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Informerad sökning",
+    "familj": "Girig bäst först jämfört med A*",
     "formaga": [
       "begrepp"
     ],
@@ -23117,7 +23269,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Informerad sökning"
   },
   {
     "id": "2.71",
@@ -23125,7 +23278,7 @@ window.BANKAI = [
     "omr": "astar_varden",
     "niva": "A",
     "poang": "0/0/2",
-    "familj": "När h är en bra heuristik",
+    "familj": "Heuristiken h",
     "formaga": [
       "begrepp",
       "resonemang"
@@ -23248,7 +23401,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "När h är en bra heuristik"
   },
   {
     "id": "2.72",
@@ -23256,7 +23410,7 @@ window.BANKAI = [
     "omr": "prioritetsko",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Prioritetskön i A*",
+    "familj": "Prioritetskön i girig bäst först och A*",
     "formaga": [
       "begrepp"
     ],
@@ -23378,7 +23532,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Prioritetskön i A*"
   },
   {
     "id": "2.73",
@@ -23386,7 +23541,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Kortast eller billigast",
+    "familj": "Billigaste väg i grafer",
     "formaga": [
       "begrepp"
     ],
@@ -23508,7 +23663,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Kortast eller billigast"
   },
   {
     "id": "2.74",
@@ -23516,7 +23672,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "C",
     "poang": "1/2/0",
-    "familj": "A* längs översta raden",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -23643,7 +23799,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "A* längs översta raden"
   },
   {
     "id": "2.75",
@@ -23651,7 +23808,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Girig bäst först bland fyra grannar",
+    "familj": "Girig bäst först jämfört med A*",
     "formaga": [
       "procedur"
     ],
@@ -23778,7 +23935,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Girig bäst först bland fyra grannar"
   },
   {
     "id": "2.76",
@@ -23786,7 +23944,7 @@ window.BANKAI = [
     "omr": "astar_sokning",
     "niva": "E",
     "poang": "2/0/0",
-    "familj": "Samma h, olika g",
+    "familj": "A* steg för steg",
     "formaga": [
       "procedur"
     ],
@@ -23882,7 +24040,8 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Samma h, olika g"
   },
   {
     "id": "2.77",
@@ -23890,7 +24049,7 @@ window.BANKAI = [
     "omr": "viktade_vagar",
     "niva": "E",
     "poang": "3/0/0",
-    "familj": "Den direkta vägen och omvägen",
+    "familj": "Billigaste väg i grafer",
     "formaga": [
       "procedur"
     ],
@@ -23996,7 +24155,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Den direkta vägen och omvägen"
   },
   {
     "id": "3.43",
@@ -26467,6 +26627,1512 @@ window.BANKAI = [
     "svarEtiketter": [
       "a",
       "b"
+    ]
+  },
+  {
+    "id": "1.65",
+    "kap": 1,
+    "omr": "bfs",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "BFS i träd och grafer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      "S, A, B, C, D, E, F, G, H, I, J",
+      "S, B, F, J"
+    ],
+    "tolerans": [
+      0,
+      null,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 309\" role=\"img\" aria-label=\"Sökträd med S överst. S har barnen A, B och C. A har D och E, B har F, C har G och H. D har I, F har målet J och G har K.\" style=\"width:100%;max-width:360px;height:auto\"><title>Sökträd med S överst. S har barnen A, B och C. A har D och E, B har F, C har G och H. D har I, F har målet J och G har K.</title><line x1=\"180\" y1=\"35\" x2=\"75\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"180\" y1=\"35\" x2=\"180\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"180\" y1=\"35\" x2=\"285\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"110\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"180\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"285\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"285\" y1=\"107\" x2=\"320\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"180\" y1=\"179\" x2=\"180\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"250\" y1=\"179\" x2=\"250\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">I</text><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"110\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"75\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"180\" cy=\"251\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"180\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">J</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"180\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"250\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">K</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">G</text><circle cx=\"320\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"320\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">H</text><circle cx=\"285\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"285\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"180\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"180\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet söks igenom med BFS (vänster gren först).</p><p>a) Hur många noder ligger exakt två steg under S?</p><p>b) I vilken ordning tas noderna ut ur kön, fram till och med målet?</p><p>c) Vilken väg till målet returnerar BFS?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Barnen till A, B och C</p><p>A har D och E, B har F, C har G och H. Det är 2 + 1 + 2 = 5 noder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nivå 0 och nivå 1</p><p>S tas ut först, sedan A, B och C.</p></li><li><p class=\"facit-rubrik\">Nivå 2 tas ut från vänster till höger</p><p>D, E, F, G och H. Deras barn hamnar längst bak i kön.</p></li><li><p class=\"facit-rubrik\">Nivå 3 tills målet</p><p>I lades in före J, så I tas ut före J. Sedan tas J ut och sökningen stoppar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S, A, B, C, D, E, F, G, H, I, J.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Följ föräldrarna bakåt från målet</p><p>J lades in av F, F av B och B av S.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S → B → F → J.</p></div></div></div></div>",
+    "ledtrad": "<p>BFS tar ut noderna nivå för nivå.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 309\" role=\"img\" aria-label=\"Sökträd med S överst. S har barnen A, B och C. A har D och E, B har F, C har G och H. D har I, F har målet J och G har K.\" style=\"width:100%;max-width:360px;height:auto\"><title>Sökträd med S överst. S har barnen A, B och C. A har D och E, B har F, C har G och H. D har I, F har målet J och G har K.</title><line x1=\"180\" y1=\"35\" x2=\"75\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"180\" y1=\"35\" x2=\"180\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"180\" y1=\"35\" x2=\"285\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"110\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"180\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"285\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"285\" y1=\"107\" x2=\"320\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"180\" y1=\"179\" x2=\"180\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"250\" y1=\"179\" x2=\"250\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">I</text><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"110\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"75\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"180\" cy=\"251\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"180\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">J</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"180\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"250\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">K</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">G</text><circle cx=\"320\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"320\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">H</text><circle cx=\"285\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"285\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"180\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"180\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet söks igenom med BFS (vänster gren först).</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många noder ligger exakt två steg under S?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Barnen till A, B och C</p><p>A har D och E, B har F, C har G och H. Det är 2 + 1 + 2 = 5 noder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div>",
+        "ledtrad": "<p>Börja med S:s barn och räkna sedan deras barn.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>I vilken ordning tas noderna ut ur kön, fram till och med målet? (Skriv noderna i ordning, åtskilda med kommatecken.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nivå 0 och nivå 1</p><p>S tas ut först, sedan A, B och C.</p></li><li><p class=\"facit-rubrik\">Nivå 2 tas ut från vänster till höger</p><p>D, E, F, G och H. Deras barn hamnar längst bak i kön.</p></li><li><p class=\"facit-rubrik\">Nivå 3 tills målet</p><p>I lades in före J, så I tas ut före J. Sedan tas J ut och sökningen stoppar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S, A, B, C, D, E, F, G, H, I, J.</p></div>",
+        "ledtrad": "<p>Ta alla noder på en nivå innan du går vidare till nästa nivå.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "S, A, B, C, D, E, F, G, H, I, J",
+        "tolerans": null,
+        "svarFormat": "namnordning",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vilken väg till målet returnerar BFS? (Skriv noderna längs vägen, från start till mål.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Följ föräldrarna bakåt från målet</p><p>J lades in av F, F av B och B av S.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S → B → F → J.</p></div>",
+        "ledtrad": "<p>Vilken nod lade in J i kön?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "S, B, F, J",
+        "tolerans": null,
+        "svarFormat": "namnordning",
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "namnordning",
+      "namnordning"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "1.66",
+    "kap": 1,
+    "omr": "bfs",
+    "niva": "E",
+    "poang": "2/0/0",
+    "familj": "BFS i träd och grafer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "E, F, G, H, I",
+      9
+    ],
+    "tolerans": [
+      null,
+      0
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 309\" role=\"img\" aria-label=\"Sökträd med S överst. S har A och B. A har C och D, B har E och F. C har G, D har målet H och I, E har J.\" style=\"width:100%;max-width:360px;height:auto\"><title>Sökträd med S överst. S har A och B. A har C och D, B har E och F. C har G, D har målet H och I, E har J.</title><line x1=\"188\" y1=\"35\" x2=\"92\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"188\" y1=\"35\" x2=\"285\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"92\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"92\" y1=\"107\" x2=\"145\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"285\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"285\" y1=\"107\" x2=\"320\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"179\" x2=\"110\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"179\" x2=\"180\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"250\" y1=\"179\" x2=\"250\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">G</text><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"110\" cy=\"251\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"110\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">H</text><circle cx=\"180\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">I</text><circle cx=\"145\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"145\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"92\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"92\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"250\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">J</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"320\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"320\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"285\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"285\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"188\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"188\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet söks igenom med BFS (vänster gren först). Nya noder läggs in längst bak i kön.</p><p>a) D tas ut och dess barn läggs in. Vilka noder ligger då i kön, från den som tas ut först till den som står längst bak?</p><p>b) Hur många noder tas ut ur kön, inklusive S och målet H?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uttagen före D</p><p>S, A, B och C tas ut först. Kön efter C är D, E, F och G.</p></li><li><p class=\"facit-rubrik\">D tas ut och lägger in sina barn</p><p>D:s barn H och I läggs in längst bak. Kön blir E, F, G, H och I.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> E, F, G, H, I.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">E, F och G står före H i kön</p><p>De tas ut innan H. Uttagen är S, A, B, C, D, E, F, G, H.</p></li><li><p class=\"facit-rubrik\">Räkna</p><p>Det är 9 noder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9.</p></div></div></div></div>",
+    "ledtrad": "<p>En FIFO-kö tar ut den nod som har legat längst.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 309\" role=\"img\" aria-label=\"Sökträd med S överst. S har A och B. A har C och D, B har E och F. C har G, D har målet H och I, E har J.\" style=\"width:100%;max-width:360px;height:auto\"><title>Sökträd med S överst. S har A och B. A har C och D, B har E och F. C har G, D har målet H och I, E har J.</title><line x1=\"188\" y1=\"35\" x2=\"92\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"188\" y1=\"35\" x2=\"285\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"92\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"92\" y1=\"107\" x2=\"145\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"285\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"285\" y1=\"107\" x2=\"320\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"179\" x2=\"110\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"179\" x2=\"180\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"250\" y1=\"179\" x2=\"250\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">G</text><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"110\" cy=\"251\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"110\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">H</text><circle cx=\"180\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">I</text><circle cx=\"145\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"145\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"92\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"92\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"250\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">J</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"320\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"320\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"285\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"285\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"188\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"188\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet söks igenom med BFS (vänster gren först). Nya noder läggs in längst bak i kön.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>D tas ut och dess barn läggs in. Vilka noder ligger då i kön, från den som tas ut först till den som står längst bak? (Skriv noderna åtskilda med kommatecken.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uttagen före D</p><p>S, A, B och C tas ut först. Kön efter C är D, E, F och G.</p></li><li><p class=\"facit-rubrik\">D tas ut och lägger in sina barn</p><p>D:s barn H och I läggs in längst bak. Kön blir E, F, G, H och I.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> E, F, G, H, I.</p></div>",
+        "ledtrad": "<p>Skriv upp kön efter varje uttag. Nya noder hamnar längst bak.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "E, F, G, H, I",
+        "tolerans": null,
+        "svarFormat": "namnordning",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Hur många noder tas ut ur kön, inklusive S och målet H?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">E, F och G står före H i kön</p><p>De tas ut innan H. Uttagen är S, A, B, C, D, E, F, G, H.</p></li><li><p class=\"facit-rubrik\">Räkna</p><p>Det är 9 noder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9.</p></div>",
+        "ledtrad": "<p>Målet tas ut först när noderna som står före det i kön har tagits ut.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 9,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      }
+    ],
+    "svarFormat": [
+      "namnordning",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
+  },
+  {
+    "id": "1.67",
+    "kap": 1,
+    "omr": "bfs",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "BFS i träd och grafer",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Bara E",
+      "S, A, B, C, D, E, G",
+      3
+    ],
+    "tolerans": [
+      null,
+      null,
+      0
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 263\" role=\"img\" aria-label=\"Graf med noderna S, A, B, C, D, E och målet G. Kanter: S–A, S–B, A–B, A–C, B–D, C–D, C–E, D–G och E–G.\" style=\"width:100%;max-width:420px;height:auto\"><title>Graf med noderna S, A, B, C, D, E och målet G. Kanter: S–A, S–B, A–B, A–C, B–D, C–D, C–E, D–G och E–G.</title><line x1=\"50\" y1=\"130\" x2=\"150\" y2=\"55\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"50\" y1=\"130\" x2=\"150\" y2=\"205\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"55\" x2=\"150\" y2=\"205\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"55\" x2=\"265\" y2=\"55\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"205\" x2=\"265\" y2=\"205\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"265\" y1=\"55\" x2=\"265\" y2=\"205\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"265\" y1=\"55\" x2=\"370\" y2=\"55\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"265\" y1=\"205\" x2=\"370\" y2=\"205\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"370\" y1=\"55\" x2=\"370\" y2=\"205\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"130\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"50\" y=\"136\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><circle cx=\"150\" cy=\"55\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150\" y=\"61\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"150\" cy=\"205\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150\" y=\"211\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"265\" cy=\"55\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"265\" y=\"61\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"265\" cy=\"205\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"265\" y=\"211\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"370\" cy=\"55\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"370\" y=\"61\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"370\" cy=\"205\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"370\" y=\"211\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">G</text><rect x=\"20\" y=\"237\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"249\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"237\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"249\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Grafen söks igenom med BFS. En nods grannar läggs in i bokstavsordning, och en nod som redan har lagts in i kön läggs inte in igen.</p><p>a) Vilka noder läggs in i kön när C tas ut? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Bara E</p><p class=\"ul-alt\"><strong>B.</strong> D och E</p><p class=\"ul-alt\"><strong>C.</strong> A, D och E</p><p class=\"ul-alt\"><strong>D.</strong> Inga noder</p><p>b) I vilken ordning tas noderna ut ur kön, fram till och med målet?</p><p>c) Hur många kanter har vägen som BFS returnerar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">C:s grannar är A, D och E</p><p>A har redan tagits ut, och D lades in när B togs ut. Bara E är ny.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bara E.</p><ul><li><strong>A:</strong> A och D finns redan i sökningen, så bara E läggs in.</li><li><strong>B:</strong> D lades redan in av B och läggs inte in igen.</li><li><strong>C:</strong> A är redan uttagen. En nod läggs in högst en gång.</li><li><strong>D:</strong> E har ännu inte lagts in, så E läggs in nu.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">S och dess grannar</p><p>S tas ut och lägger in A och B.</p></li><li><p class=\"facit-rubrik\">A och B</p><p>A lägger in C (B finns redan). B lägger in D.</p></li><li><p class=\"facit-rubrik\">C och D</p><p>C lägger in E. D lägger in G.</p></li><li><p class=\"facit-rubrik\">E och sedan G</p><p>E har inga nya grannar. Sedan tas G ut och sökningen stoppar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S, A, B, C, D, E, G.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Följ föräldrarna bakåt</p><p>G lades in av D, D av B och B av S. Vägen är S → B → D → G.</p></li><li><p class=\"facit-rubrik\">Räkna kanterna</p><p>4 noder ger 3 kanter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div></div></div></div>",
+    "ledtrad": "<p>I en graf med slingor läggs varje nod in i kön bara en gång.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 263\" role=\"img\" aria-label=\"Graf med noderna S, A, B, C, D, E och målet G. Kanter: S–A, S–B, A–B, A–C, B–D, C–D, C–E, D–G och E–G.\" style=\"width:100%;max-width:420px;height:auto\"><title>Graf med noderna S, A, B, C, D, E och målet G. Kanter: S–A, S–B, A–B, A–C, B–D, C–D, C–E, D–G och E–G.</title><line x1=\"50\" y1=\"130\" x2=\"150\" y2=\"55\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"50\" y1=\"130\" x2=\"150\" y2=\"205\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"55\" x2=\"150\" y2=\"205\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"55\" x2=\"265\" y2=\"55\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"205\" x2=\"265\" y2=\"205\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"265\" y1=\"55\" x2=\"265\" y2=\"205\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"265\" y1=\"55\" x2=\"370\" y2=\"55\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"265\" y1=\"205\" x2=\"370\" y2=\"205\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"370\" y1=\"55\" x2=\"370\" y2=\"205\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"130\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"50\" y=\"136\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><circle cx=\"150\" cy=\"55\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150\" y=\"61\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"150\" cy=\"205\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150\" y=\"211\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"265\" cy=\"55\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"265\" y=\"61\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"265\" cy=\"205\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"265\" y=\"211\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"370\" cy=\"55\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"370\" y=\"61\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"370\" cy=\"205\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"370\" y=\"211\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">G</text><rect x=\"20\" y=\"237\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"249\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"237\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"249\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Grafen söks igenom med BFS. En nods grannar läggs in i bokstavsordning, och en nod som redan har lagts in i kön läggs inte in igen.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilka noder läggs in i kön när C tas ut? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">C:s grannar är A, D och E</p><p>A har redan tagits ut, och D lades in när B togs ut. Bara E är ny.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bara E.</p><ul><li><strong>A:</strong> A och D finns redan i sökningen, så bara E läggs in.</li><li><strong>B:</strong> D lades redan in av B och läggs inte in igen.</li><li><strong>C:</strong> A är redan uttagen. En nod läggs in högst en gång.</li><li><strong>D:</strong> E har ännu inte lagts in, så E läggs in nu.</li></ul></div>",
+        "ledtrad": "<p>Vilka av C:s grannar har redan lagts in i kön?</p>",
+        "alternativ": [
+          {
+            "txt": "Bara E",
+            "ratt": true,
+            "kommentar": "A och D finns redan i sökningen, så bara E läggs in."
+          },
+          {
+            "txt": "D och E",
+            "ratt": false,
+            "kommentar": "D lades redan in av B och läggs inte in igen."
+          },
+          {
+            "txt": "A, D och E",
+            "ratt": false,
+            "kommentar": "A är redan uttagen. En nod läggs in högst en gång."
+          },
+          {
+            "txt": "Inga noder",
+            "ratt": false,
+            "kommentar": "E har ännu inte lagts in, så E läggs in nu."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Bara E",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>I vilken ordning tas noderna ut ur kön, fram till och med målet? (Skriv noderna i ordning, åtskilda med kommatecken.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">S och dess grannar</p><p>S tas ut och lägger in A och B.</p></li><li><p class=\"facit-rubrik\">A och B</p><p>A lägger in C (B finns redan). B lägger in D.</p></li><li><p class=\"facit-rubrik\">C och D</p><p>C lägger in E. D lägger in G.</p></li><li><p class=\"facit-rubrik\">E och sedan G</p><p>E har inga nya grannar. Sedan tas G ut och sökningen stoppar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S, A, B, C, D, E, G.</p></div>",
+        "ledtrad": "<p>Skriv upp kön efter varje uttag och hoppa över noder som redan har lagts in.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "S, A, B, C, D, E, G",
+        "tolerans": null,
+        "svarFormat": "namnordning",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Hur många kanter har vägen som BFS returnerar?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Följ föräldrarna bakåt</p><p>G lades in av D, D av B och B av S. Vägen är S → B → D → G.</p></li><li><p class=\"facit-rubrik\">Räkna kanterna</p><p>4 noder ger 3 kanter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Vilken nod lade in G i kön?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 3,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      "namnordning",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "1.68",
+    "kap": 1,
+    "omr": "bfs",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "BFS i träd och grafer",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      "S, D, E, M",
+      "Nej, BFS räknar hållplatser, inte minuter"
+    ],
+    "tolerans": [
+      0,
+      null,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 273\" role=\"img\" aria-label=\"Tunnelbanekarta med hållplatserna S, A, B, C, D, E, F och M. Linjer: S–A–B–C–M, S–D, D–E–M och D–F–M.\" style=\"width:100%;max-width:470px;height:auto\"><title>Tunnelbanekarta med hållplatserna S, A, B, C, D, E, F och M. Linjer: S–A–B–C–M, S–D, D–E–M och D–F–M.</title><line x1=\"45\" y1=\"130\" x2=\"130\" y2=\"45\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"130\" y1=\"45\" x2=\"240\" y2=\"45\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"45\" x2=\"350\" y2=\"45\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"350\" y1=\"45\" x2=\"430\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"45\" y1=\"130\" x2=\"150\" y2=\"165\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"165\" x2=\"300\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"300\" y1=\"130\" x2=\"430\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"165\" x2=\"300\" y2=\"215\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"300\" y1=\"215\" x2=\"430\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"130\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"45\" y=\"136\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><circle cx=\"130\" cy=\"45\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"130\" y=\"51\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"240\" cy=\"45\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"240\" y=\"51\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"350\" cy=\"45\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"350\" y=\"51\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"430\" cy=\"130\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"430\" y=\"136\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">M</text><circle cx=\"150\" cy=\"165\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150\" y=\"171\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"300\" cy=\"130\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"300\" y=\"136\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"300\" cy=\"215\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"300\" y=\"221\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><rect x=\"20\" y=\"247\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"259\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"247\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"259\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Kartan visar hållplatser i en tunnelbana. Wilma åker från S till M och vill passera så få hållplatser som möjligt. Hon låter en app söka med BFS, där grannarna tas i bokstavsordning.</p><p>a) Hur många steg (sträckor mellan två hållplatser) har resan med färst steg?</p><p>b) Vilken väg returnerar BFS?</p><p>c) Sträckan D–E tar 12 minuter och alla andra sträckor 2 minuter. Är vägen som BFS hittar då säkert den snabbaste? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Nej, BFS räknar hållplatser, inte minuter</p><p class=\"ul-alt\"><strong>B.</strong> Ja, BFS hittar alltid den snabbaste vägen</p><p class=\"ul-alt\"><strong>C.</strong> Ja, för att den har färst steg</p><p class=\"ul-alt\"><strong>D.</strong> Nej, BFS hittar ingen väg alls</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför vägarna</p><p>S → A → B → C → M har 4 steg. S → D → E → M och S → D → F → M har 3 steg.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">E tas ut före F</p><p>D lägger in E och F i bokstavsordning. E tas ut först och lägger in M.</p></li><li><p class=\"facit-rubrik\">Följ föräldrarna bakåt</p><p>M lades in av E, E av D och D av S.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S → D → E → M.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">BFS räknar steg</p><p>BFS hittar en väg med färst steg, men tar inte hänsyn till hur lång tid varje sträcka tar.</p></li><li><p class=\"facit-rubrik\">Jämför tiderna</p><p>S → D → E → M tar 2 + 12 + 2 = 16 minuter. S → D → F → M tar 6 minuter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, BFS räknar hållplatser, inte minuter.</p><ul><li><strong>A:</strong> S → D → F → M tar 6 minuter, mindre än BFS-vägens 16.</li><li><strong>B:</strong> Det gäller bara när alla steg kostar lika mycket.</li><li><strong>C:</strong> Färst steg är inte samma sak som kortast tid när sträckorna tar olika lång tid.</li><li><strong>D:</strong> BFS hittar en väg till M, men inte nödvändigtvis den snabbaste.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>BFS hittar en väg med färst steg.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 273\" role=\"img\" aria-label=\"Tunnelbanekarta med hållplatserna S, A, B, C, D, E, F och M. Linjer: S–A–B–C–M, S–D, D–E–M och D–F–M.\" style=\"width:100%;max-width:470px;height:auto\"><title>Tunnelbanekarta med hållplatserna S, A, B, C, D, E, F och M. Linjer: S–A–B–C–M, S–D, D–E–M och D–F–M.</title><line x1=\"45\" y1=\"130\" x2=\"130\" y2=\"45\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"130\" y1=\"45\" x2=\"240\" y2=\"45\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"240\" y1=\"45\" x2=\"350\" y2=\"45\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"350\" y1=\"45\" x2=\"430\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"45\" y1=\"130\" x2=\"150\" y2=\"165\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"165\" x2=\"300\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"300\" y1=\"130\" x2=\"430\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"165\" x2=\"300\" y2=\"215\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"300\" y1=\"215\" x2=\"430\" y2=\"130\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"130\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"45\" y=\"136\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><circle cx=\"130\" cy=\"45\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"130\" y=\"51\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"240\" cy=\"45\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"240\" y=\"51\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"350\" cy=\"45\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"350\" y=\"51\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"430\" cy=\"130\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"430\" y=\"136\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">M</text><circle cx=\"150\" cy=\"165\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150\" y=\"171\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"300\" cy=\"130\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"300\" y=\"136\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"300\" cy=\"215\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"300\" y=\"221\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><rect x=\"20\" y=\"247\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"259\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"247\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"259\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Kartan visar hållplatser i en tunnelbana. Wilma åker från S till M och vill passera så få hållplatser som möjligt. Hon låter en app söka med BFS, där grannarna tas i bokstavsordning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många steg (sträckor mellan två hållplatser) har resan med färst steg?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför vägarna</p><p>S → A → B → C → M har 4 steg. S → D → E → M och S → D → F → M har 3 steg.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Räkna sträckorna längs några olika vägar från S till M.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 3,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilken väg returnerar BFS? (Skriv noderna längs vägen, från start till mål.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">E tas ut före F</p><p>D lägger in E och F i bokstavsordning. E tas ut först och lägger in M.</p></li><li><p class=\"facit-rubrik\">Följ föräldrarna bakåt</p><p>M lades in av E, E av D och D av S.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S → D → E → M.</p></div>",
+        "ledtrad": "<p>Två vägar är lika korta. Vilken av D:s grannar tas ut först?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "S, D, E, M",
+        "tolerans": null,
+        "svarFormat": "namnordning",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Sträckan D–E tar 12 minuter och alla andra sträckor 2 minuter. Är vägen som BFS hittar då säkert den snabbaste? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">BFS räknar steg</p><p>BFS hittar en väg med färst steg, men tar inte hänsyn till hur lång tid varje sträcka tar.</p></li><li><p class=\"facit-rubrik\">Jämför tiderna</p><p>S → D → E → M tar 2 + 12 + 2 = 16 minuter. S → D → F → M tar 6 minuter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, BFS räknar hållplatser, inte minuter.</p><ul><li><strong>A:</strong> S → D → F → M tar 6 minuter, mindre än BFS-vägens 16.</li><li><strong>B:</strong> Det gäller bara när alla steg kostar lika mycket.</li><li><strong>C:</strong> Färst steg är inte samma sak som kortast tid när sträckorna tar olika lång tid.</li><li><strong>D:</strong> BFS hittar en väg till M, men inte nödvändigtvis den snabbaste.</li></ul></div>",
+        "ledtrad": "<p>Vad är det BFS räknar när den letar efter den kortaste vägen?</p>",
+        "alternativ": [
+          {
+            "txt": "Nej, BFS räknar hållplatser, inte minuter",
+            "ratt": true,
+            "kommentar": "S → D → F → M tar 6 minuter, mindre än BFS-vägens 16."
+          },
+          {
+            "txt": "Ja, BFS hittar alltid den snabbaste vägen",
+            "ratt": false,
+            "kommentar": "Det gäller bara när alla steg kostar lika mycket."
+          },
+          {
+            "txt": "Ja, för att den har färst steg",
+            "ratt": false,
+            "kommentar": "Färst steg är inte samma sak som kortast tid när sträckorna tar olika lång tid."
+          },
+          {
+            "txt": "Nej, BFS hittar ingen väg alls",
+            "ratt": false,
+            "kommentar": "BFS hittar en väg till M, men inte nödvändigtvis den snabbaste."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Nej, BFS räknar hållplatser, inte minuter",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "namnordning",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "1.69",
+    "kap": 1,
+    "omr": "bfs",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "BFS i träd och grafer",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Målet Q",
+      6,
+      "Målet P"
+    ],
+    "tolerans": [
+      null,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 309\" role=\"img\" aria-label=\"Sökträd med S överst. S har A och B. A har C och D, C har målet P och B har målet Q.\" style=\"width:100%;max-width:300px;height:auto\"><title>Sökträd med S överst. S har A och B. A har C och D, C har målet P och B har målet Q.</title><line x1=\"128\" y1=\"35\" x2=\"75\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"128\" y1=\"35\" x2=\"180\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"110\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"180\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">P</text><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"110\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"75\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">Q</text><circle cx=\"180\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"128\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"128\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet har två mål, P och Q. Sökningen stoppar när ett mål tas ut. Barnen tas från vänster till höger.</p><p>a) Vilket mål hittar BFS? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Målet Q</p><p class=\"ul-alt\"><strong>B.</strong> Målet P</p><p class=\"ul-alt\"><strong>C.</strong> Båda samtidigt</p><p class=\"ul-alt\"><strong>D.</strong> Inget mål</p><p>b) Hur många noder tar BFS ut, inklusive S och målet?</p><p>c) Vilket mål hittar DFS (vänster gren först)? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Målet P</p><p class=\"ul-alt\"><strong>B.</strong> Målet Q</p><p class=\"ul-alt\"><strong>C.</strong> Noden D</p><p class=\"ul-alt\"><strong>D.</strong> Inget mål</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Q ligger närmare start</p><p>Q ligger två steg från S och P tre steg. BFS tar ut nivå 2 före nivå 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Målet Q.</p><ul><li><strong>A:</strong> Q ligger på nivå 2 och tas ut innan P har tagits ut.</li><li><strong>B:</strong> P ligger på nivå 3. Det är målet som DFS hittar.</li><li><strong>C:</strong> Noderna tas ut en i taget, och sökningen stoppar vid första målet.</li><li><strong>D:</strong> Båda målen kan nås från S.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uttagen</p><p>S, A, B, C, D, Q. C:s barn P står efter Q i kön.</p></li><li><p class=\"facit-rubrik\">Räkna</p><p>6 noder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">DFS går ned i vänster gren</p><p>S → A → C → P. P är ett mål, så sökningen stoppar innan B undersöks.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Målet P.</p><ul><li><strong>A:</strong> DFS går ned genom A och C och når P innan den kommer till B.</li><li><strong>B:</strong> Q ligger under B, som DFS inte hinner till.</li><li><strong>C:</strong> D är inget mål, och DFS hittar P innan den når D.</li><li><strong>D:</strong> DFS når P längs den vänstra grenen.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>BFS hittar målet på lägst nivå, DFS det första målet längs grenen.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 309\" role=\"img\" aria-label=\"Sökträd med S överst. S har A och B. A har C och D, C har målet P och B har målet Q.\" style=\"width:100%;max-width:300px;height:auto\"><title>Sökträd med S överst. S har A och B. A har C och D, C har målet P och B har målet Q.</title><line x1=\"128\" y1=\"35\" x2=\"75\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"128\" y1=\"35\" x2=\"180\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"110\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"180\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">P</text><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"110\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"75\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">Q</text><circle cx=\"180\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"128\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"128\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet har två mål, P och Q. Sökningen stoppar när ett mål tas ut. Barnen tas från vänster till höger.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilket mål hittar BFS? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Q ligger närmare start</p><p>Q ligger två steg från S och P tre steg. BFS tar ut nivå 2 före nivå 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Målet Q.</p><ul><li><strong>A:</strong> Q ligger på nivå 2 och tas ut innan P har tagits ut.</li><li><strong>B:</strong> P ligger på nivå 3. Det är målet som DFS hittar.</li><li><strong>C:</strong> Noderna tas ut en i taget, och sökningen stoppar vid första målet.</li><li><strong>D:</strong> Båda målen kan nås från S.</li></ul></div>",
+        "ledtrad": "<p>Vilket mål ligger på lägst nivå?</p>",
+        "alternativ": [
+          {
+            "txt": "Målet Q",
+            "ratt": true,
+            "kommentar": "Q ligger på nivå 2 och tas ut innan P har tagits ut."
+          },
+          {
+            "txt": "Målet P",
+            "ratt": false,
+            "kommentar": "P ligger på nivå 3. Det är målet som DFS hittar."
+          },
+          {
+            "txt": "Båda samtidigt",
+            "ratt": false,
+            "kommentar": "Noderna tas ut en i taget, och sökningen stoppar vid första målet."
+          },
+          {
+            "txt": "Inget mål",
+            "ratt": false,
+            "kommentar": "Båda målen kan nås från S."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Målet Q",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Hur många noder tar BFS ut, inklusive S och målet?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uttagen</p><p>S, A, B, C, D, Q. C:s barn P står efter Q i kön.</p></li><li><p class=\"facit-rubrik\">Räkna</p><p>6 noder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6.</p></div>",
+        "ledtrad": "<p>Skriv upp kön efter varje uttag.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 6,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vilket mål hittar DFS (vänster gren först)? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">DFS går ned i vänster gren</p><p>S → A → C → P. P är ett mål, så sökningen stoppar innan B undersöks.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Målet P.</p><ul><li><strong>A:</strong> DFS går ned genom A och C och når P innan den kommer till B.</li><li><strong>B:</strong> Q ligger under B, som DFS inte hinner till.</li><li><strong>C:</strong> D är inget mål, och DFS hittar P innan den når D.</li><li><strong>D:</strong> DFS når P längs den vänstra grenen.</li></ul></div>",
+        "ledtrad": "<p>Följ den vänstra grenen så långt det går.</p>",
+        "alternativ": [
+          {
+            "txt": "Målet P",
+            "ratt": true,
+            "kommentar": "DFS går ned genom A och C och når P innan den kommer till B."
+          },
+          {
+            "txt": "Målet Q",
+            "ratt": false,
+            "kommentar": "Q ligger under B, som DFS inte hinner till."
+          },
+          {
+            "txt": "Noden D",
+            "ratt": false,
+            "kommentar": "D är inget mål, och DFS hittar P innan den når D."
+          },
+          {
+            "txt": "Inget mål",
+            "ratt": false,
+            "kommentar": "DFS når P längs den vänstra grenen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Målet P",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "1.70",
+    "kap": 1,
+    "omr": "bfs",
+    "niva": "E",
+    "poang": "2/0/0",
+    "familj": "BFS i träd och grafer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Mappen D",
+      8
+    ],
+    "tolerans": [
+      null,
+      0
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 309\" role=\"img\" aria-label=\"Mappträd med S överst. S har mapparna A, B och C. A har D, B har E och F, C har G och E har H. Filen ligger i G.\" style=\"width:100%;max-width:300px;height:auto\"><title>Mappträd med S överst. S har mapparna A, B och C. A har D, B har E och F, C har G och E har H. Filen ligger i G.</title><line x1=\"145\" y1=\"35\" x2=\"40\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"35\" x2=\"145\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"35\" x2=\"250\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"107\" x2=\"110\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"250\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"110\" y1=\"179\" x2=\"110\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"40\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"110\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">H</text><circle cx=\"110\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"145\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"145\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">G</text><circle cx=\"250\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"145\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"145\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Varje nod är en mapp på en dator. Ett program letar efter en fil, som ligger i mappen G. Programmet söker med BFS och öppnar undermapparna från vänster till höger.</p><p>a) Vilken mapp undersöks som femte, räknat med S? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Mappen D</p><p class=\"ul-alt\"><strong>B.</strong> Mappen C</p><p class=\"ul-alt\"><strong>C.</strong> Mappen E</p><p class=\"ul-alt\"><strong>D.</strong> Mappen H</p><p>b) Hur många mappar undersöks, inklusive S och mappen med filen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nivå för nivå</p><p>S är först. Sedan A, B och C. Femte mappen är A:s undermapp D.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mappen D.</p><ul><li><strong>A:</strong> S, A, B, C och sedan D.</li><li><strong>B:</strong> C undersöks som fjärde mapp.</li><li><strong>C:</strong> E undersöks som sjätte mapp.</li><li><strong>D:</strong> H ligger på nivå 3 och undersöks aldrig, eftersom filen hittas före.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uttagen</p><p>S, A, B, C, D, E, F, G.</p></li><li><p class=\"facit-rubrik\">Räkna</p><p>8 mappar. H undersöks inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div></div></div></div>",
+    "ledtrad": "<p>BFS undersöker mapparna nivå för nivå.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 309\" role=\"img\" aria-label=\"Mappträd med S överst. S har mapparna A, B och C. A har D, B har E och F, C har G och E har H. Filen ligger i G.\" style=\"width:100%;max-width:300px;height:auto\"><title>Mappträd med S överst. S har mapparna A, B och C. A har D, B har E och F, C har G och E har H. Filen ligger i G.</title><line x1=\"145\" y1=\"35\" x2=\"40\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"35\" x2=\"145\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"35\" x2=\"250\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"107\" x2=\"110\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"250\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"110\" y1=\"179\" x2=\"110\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"40\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"110\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">H</text><circle cx=\"110\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"145\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"145\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">G</text><circle cx=\"250\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"145\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"145\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Varje nod är en mapp på en dator. Ett program letar efter en fil, som ligger i mappen G. Programmet söker med BFS och öppnar undermapparna från vänster till höger.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilken mapp undersöks som femte, räknat med S? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nivå för nivå</p><p>S är först. Sedan A, B och C. Femte mappen är A:s undermapp D.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mappen D.</p><ul><li><strong>A:</strong> S, A, B, C och sedan D.</li><li><strong>B:</strong> C undersöks som fjärde mapp.</li><li><strong>C:</strong> E undersöks som sjätte mapp.</li><li><strong>D:</strong> H ligger på nivå 3 och undersöks aldrig, eftersom filen hittas före.</li></ul></div>",
+        "ledtrad": "<p>Vilka mappar ligger direkt under S?</p>",
+        "alternativ": [
+          {
+            "txt": "Mappen D",
+            "ratt": true,
+            "kommentar": "S, A, B, C och sedan D."
+          },
+          {
+            "txt": "Mappen C",
+            "ratt": false,
+            "kommentar": "C undersöks som fjärde mapp."
+          },
+          {
+            "txt": "Mappen E",
+            "ratt": false,
+            "kommentar": "E undersöks som sjätte mapp."
+          },
+          {
+            "txt": "Mappen H",
+            "ratt": false,
+            "kommentar": "H ligger på nivå 3 och undersöks aldrig, eftersom filen hittas före."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Mappen D",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Hur många mappar undersöks, inklusive S och mappen med filen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uttagen</p><p>S, A, B, C, D, E, F, G.</p></li><li><p class=\"facit-rubrik\">Räkna</p><p>8 mappar. H undersöks inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div>",
+        "ledtrad": "<p>H ligger djupare än G. Undersöks H innan filen hittas?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      }
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
+  },
+  {
+    "id": "1.71",
+    "kap": 1,
+    "omr": "dfs",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "DFS i träd och grafer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "S, A, C, E, D, F, G, M",
+      3,
+      "S, A, D, G, M"
+    ],
+    "tolerans": [
+      null,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 381\" role=\"img\" aria-label=\"Sökträd med S överst. S har A och B. A har C och D, C har E, D har F och G, G har målet M och B har H.\" style=\"width:100%;max-width:300px;height:auto\"><title>Sökträd med S överst. S har A och B. A har C och D, C har E, D har F och G, G har målet M och B har H.</title><line x1=\"171\" y1=\"35\" x2=\"92\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"171\" y1=\"35\" x2=\"250\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"92\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"92\" y1=\"107\" x2=\"145\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"179\" x2=\"110\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"179\" x2=\"180\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"250\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"180\" y1=\"251\" x2=\"180\" y2=\"323\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"110\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"180\" cy=\"323\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"180\" y=\"329\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">M</text><circle cx=\"180\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">G</text><circle cx=\"145\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"145\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"92\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"92\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">H</text><circle cx=\"250\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"171\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"171\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"355\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"367\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"355\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"367\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet söks igenom med DFS (vänster gren först).</p><p>a) Ange i vilken ordning noderna besöks, fram till och med målet.</p><p>b) Hur många av de besökta noderna ingår inte i vägen till målet?</p><p>c) Vilken väg till målet hittar DFS?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ned i vänster gren</p><p>S → A → C → E. E har inga barn, så DFS backar till A.</p></li><li><p class=\"facit-rubrik\">Nästa barn till A</p><p>D besöks, sedan D:s vänstra barn F. F har inga barn, så DFS backar till D.</p></li><li><p class=\"facit-rubrik\">G och målet</p><p>G besöks och sedan M, som är målet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S, A, C, E, D, F, G, M.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vägen till målet</p><p>S → A → D → G → M.</p></li><li><p class=\"facit-rubrik\">Besökta noder utanför vägen</p><p>C, E, F, alltså 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Noderna DFS står i när målet hittas</p><p>S, A, D och G leder ned till M.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S → A → D → G → M.</p></div></div></div></div>",
+    "ledtrad": "<p>DFS följer en gren ända ned innan den backar.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 381\" role=\"img\" aria-label=\"Sökträd med S överst. S har A och B. A har C och D, C har E, D har F och G, G har målet M och B har H.\" style=\"width:100%;max-width:300px;height:auto\"><title>Sökträd med S överst. S har A och B. A har C och D, C har E, D har F och G, G har målet M och B har H.</title><line x1=\"171\" y1=\"35\" x2=\"92\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"171\" y1=\"35\" x2=\"250\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"92\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"92\" y1=\"107\" x2=\"145\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"179\" x2=\"110\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"179\" x2=\"180\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"250\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"180\" y1=\"251\" x2=\"180\" y2=\"323\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"110\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"180\" cy=\"323\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"180\" y=\"329\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">M</text><circle cx=\"180\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">G</text><circle cx=\"145\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"145\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"92\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"92\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">H</text><circle cx=\"250\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"171\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"171\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"355\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"367\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"355\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"367\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet söks igenom med DFS (vänster gren först).</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Ange i vilken ordning noderna besöks, fram till och med målet. (Skriv noderna i ordning, åtskilda med kommatecken.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ned i vänster gren</p><p>S → A → C → E. E har inga barn, så DFS backar till A.</p></li><li><p class=\"facit-rubrik\">Nästa barn till A</p><p>D besöks, sedan D:s vänstra barn F. F har inga barn, så DFS backar till D.</p></li><li><p class=\"facit-rubrik\">G och målet</p><p>G besöks och sedan M, som är målet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S, A, C, E, D, F, G, M.</p></div>",
+        "ledtrad": "<p>Gå så djupt som möjligt till vänster. Backa när en nod saknar obesökta barn.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "S, A, C, E, D, F, G, M",
+        "tolerans": null,
+        "svarFormat": "namnordning",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Hur många av de besökta noderna ingår inte i vägen till målet?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vägen till målet</p><p>S → A → D → G → M.</p></li><li><p class=\"facit-rubrik\">Besökta noder utanför vägen</p><p>C, E, F, alltså 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Jämför besöksordningen med vägen från S till M.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 3,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vilken väg till målet hittar DFS? (Skriv noderna längs vägen, från start till mål.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Noderna DFS står i när målet hittas</p><p>S, A, D och G leder ned till M.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S → A → D → G → M.</p></div>",
+        "ledtrad": "<p>Vilka noder ligger mellan S och M i trädet?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "S, A, D, G, M",
+        "tolerans": null,
+        "svarFormat": "namnordning",
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "namnordning",
+      "numeriskt",
+      "namnordning"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "1.72",
+    "kap": 1,
+    "omr": "dfs",
+    "niva": "E",
+    "poang": "2/0/0",
+    "familj": "DFS i träd och grafer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "B, D, C",
+      "Noden B"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 309\" role=\"img\" aria-label=\"Sökträd med S överst. S har A och B. A har C och D, D har G och B har E och målet F.\" style=\"width:100%;max-width:300px;height:auto\"><title>Sökträd med S överst. S har A och B. A har C och D, D har G och B har E och målet F.</title><line x1=\"145\" y1=\"35\" x2=\"75\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"35\" x2=\"215\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"110\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"215\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"215\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"110\" y1=\"179\" x2=\"110\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"110\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">G</text><circle cx=\"110\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"75\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">F</text><circle cx=\"215\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"215\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"145\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"145\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet söks igenom med DFS och en stack. En nods barn läggs på stacken så att det vänstra barnet hamnar överst. Nästa nod som tas ut är den översta.</p><p>a) A tas ut och dess barn läggs på stacken. Vilka noder ligger då i stacken, från den nedersta till den översta?</p><p>b) Vilken nod tas ut som sjätte, räknat med S? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Noden B</p><p class=\"ul-alt\"><strong>B.</strong> Noden G</p><p class=\"ul-alt\"><strong>C.</strong> Noden E</p><p class=\"ul-alt\"><strong>D.</strong> Noden F</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">S tas ut</p><p>S:s barn läggs på: först B, sedan A överst.</p></li><li><p class=\"facit-rubrik\">A tas ut</p><p>Kvar ligger B. A:s barn läggs på: först D, sedan C överst. Stacken är B, D, C.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B, D, C.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uttagen i ordning</p><p>S, A, C, D, G, B, E, F.</p></li><li><p class=\"facit-rubrik\">Sjätte uttaget</p><p>B tas ut när hela A-grenen är klar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Noden B.</p><ul><li><strong>A:</strong> S, A, C, D och G tas ut först. Sedan ligger B överst.</li><li><strong>B:</strong> G tas ut som femte nod.</li><li><strong>C:</strong> E tas ut som sjunde nod, efter B.</li><li><strong>D:</strong> F tas ut sist, som åttonde nod.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>I en stack tas den senast inlagda noden ut först.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 309\" role=\"img\" aria-label=\"Sökträd med S överst. S har A och B. A har C och D, D har G och B har E och målet F.\" style=\"width:100%;max-width:300px;height:auto\"><title>Sökträd med S överst. S har A och B. A har C och D, D har G och B har E och målet F.</title><line x1=\"145\" y1=\"35\" x2=\"75\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"35\" x2=\"215\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"110\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"215\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"215\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"110\" y1=\"179\" x2=\"110\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"110\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">G</text><circle cx=\"110\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"75\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">F</text><circle cx=\"215\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"215\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"145\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"145\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet söks igenom med DFS och en stack. En nods barn läggs på stacken så att det vänstra barnet hamnar överst. Nästa nod som tas ut är den översta.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>A tas ut och dess barn läggs på stacken. Vilka noder ligger då i stacken, från den nedersta till den översta? (Skriv noderna åtskilda med kommatecken.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">S tas ut</p><p>S:s barn läggs på: först B, sedan A överst.</p></li><li><p class=\"facit-rubrik\">A tas ut</p><p>Kvar ligger B. A:s barn läggs på: först D, sedan C överst. Stacken är B, D, C.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B, D, C.</p></div>",
+        "ledtrad": "<p>Det vänstra barnet ska hamna överst, så det läggs på sist.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "B, D, C",
+        "tolerans": null,
+        "svarFormat": "namnordning",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilken nod tas ut som sjätte, räknat med S? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uttagen i ordning</p><p>S, A, C, D, G, B, E, F.</p></li><li><p class=\"facit-rubrik\">Sjätte uttaget</p><p>B tas ut när hela A-grenen är klar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Noden B.</p><ul><li><strong>A:</strong> S, A, C, D och G tas ut först. Sedan ligger B överst.</li><li><strong>B:</strong> G tas ut som femte nod.</li><li><strong>C:</strong> E tas ut som sjunde nod, efter B.</li><li><strong>D:</strong> F tas ut sist, som åttonde nod.</li></ul></div>",
+        "ledtrad": "<p>Skriv upp stacken efter varje uttag.</p>",
+        "alternativ": [
+          {
+            "txt": "Noden B",
+            "ratt": true,
+            "kommentar": "S, A, C, D och G tas ut först. Sedan ligger B överst."
+          },
+          {
+            "txt": "Noden G",
+            "ratt": false,
+            "kommentar": "G tas ut som femte nod."
+          },
+          {
+            "txt": "Noden E",
+            "ratt": false,
+            "kommentar": "E tas ut som sjunde nod, efter B."
+          },
+          {
+            "txt": "Noden F",
+            "ratt": false,
+            "kommentar": "F tas ut sist, som åttonde nod."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Noden B",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      }
+    ],
+    "svarFormat": [
+      "namnordning",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
+  },
+  {
+    "id": "1.73",
+    "kap": 1,
+    "omr": "dfs",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "DFS i träd och grafer",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "S, A, B, C, E, G",
+      5,
+      "Nej, S → C → E → G har bara 3 kanter"
+    ],
+    "tolerans": [
+      null,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 273\" role=\"img\" aria-label=\"Graf med noderna S, A, B, C, D, E och målet G. Kanter: S–A, S–C, A–B, B–C, B–D, C–E, D–G och E–G.\" style=\"width:100%;max-width:470px;height:auto\"><title>Graf med noderna S, A, B, C, D, E och målet G. Kanter: S–A, S–C, A–B, B–C, B–D, C–E, D–G och E–G.</title><line x1=\"50\" y1=\"130\" x2=\"150\" y2=\"45\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"50\" y1=\"130\" x2=\"205\" y2=\"165\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"45\" x2=\"260\" y2=\"45\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"260\" y1=\"45\" x2=\"205\" y2=\"165\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"260\" y1=\"45\" x2=\"370\" y2=\"45\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"205\" y1=\"165\" x2=\"310\" y2=\"215\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"370\" y1=\"45\" x2=\"420\" y2=\"160\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"310\" y1=\"215\" x2=\"420\" y2=\"160\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"130\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"50\" y=\"136\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><circle cx=\"150\" cy=\"45\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150\" y=\"51\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"260\" cy=\"45\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"260\" y=\"51\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"370\" cy=\"45\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"370\" y=\"51\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"205\" cy=\"165\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"205\" y=\"171\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"310\" cy=\"215\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"310\" y=\"221\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"420\" cy=\"160\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"420\" y=\"166\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">G</text><rect x=\"20\" y=\"247\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"259\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"247\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"259\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Grafen söks igenom med DFS. Grannarna tas i bokstavsordning, och en nod som redan har besökts besöks inte igen.</p><p>a) Ange i vilken ordning noderna besöks, fram till och med målet.</p><p>b) Hur många kanter har vägen som DFS hittar?</p><p>c) Har vägen som DFS hittar färst möjliga kanter? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Nej, S → C → E → G har bara 3 kanter</p><p class=\"ul-alt\"><strong>B.</strong> Ja, DFS hittar alltid en väg med färst kanter</p><p class=\"ul-alt\"><strong>C.</strong> Ja, det finns ingen kortare väg till G</p><p class=\"ul-alt\"><strong>D.</strong> Nej, den kortaste vägen har 4 kanter</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Från S</p><p>S:s grannar är A och C. A kommer först i bokstavsordning.</p></li><li><p class=\"facit-rubrik\">Vidare från A och B</p><p>A går vidare till B. B:s grannar är A, C och D. A är besökt, så C kommer före D.</p></li><li><p class=\"facit-rubrik\">Vidare från C</p><p>C:s obesökta granne är E, och E leder till målet G.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S, A, B, C, E, G.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vägen</p><p>S → A → B → C → E → G.</p></li><li><p class=\"facit-rubrik\">Räkna kanterna</p><p>6 noder ger 5 kanter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför med en annan väg</p><p>S → C → E → G har bara 3 kanter.</p></li><li><p class=\"facit-rubrik\">Varför DFS tog en omväg</p><p>DFS gick först till A, eftersom A kommer före C i bokstavsordning, och fortsatte på djupet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, S → C → E → G har bara 3 kanter.</p><ul><li><strong>A:</strong> DFS stoppar vid första vägen den hittar, inte den kortaste.</li><li><strong>B:</strong> Det gäller BFS. DFS kan gå en lång omväg först.</li><li><strong>C:</strong> Vägen via C och E är kortare.</li><li><strong>D:</strong> Det finns en väg med 3 kanter: S → C → E → G.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>DFS i en graf: gå vidare till första obesökta grannen, backa vid stopp.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 273\" role=\"img\" aria-label=\"Graf med noderna S, A, B, C, D, E och målet G. Kanter: S–A, S–C, A–B, B–C, B–D, C–E, D–G och E–G.\" style=\"width:100%;max-width:470px;height:auto\"><title>Graf med noderna S, A, B, C, D, E och målet G. Kanter: S–A, S–C, A–B, B–C, B–D, C–E, D–G och E–G.</title><line x1=\"50\" y1=\"130\" x2=\"150\" y2=\"45\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"50\" y1=\"130\" x2=\"205\" y2=\"165\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"150\" y1=\"45\" x2=\"260\" y2=\"45\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"260\" y1=\"45\" x2=\"205\" y2=\"165\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"260\" y1=\"45\" x2=\"370\" y2=\"45\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"205\" y1=\"165\" x2=\"310\" y2=\"215\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"370\" y1=\"45\" x2=\"420\" y2=\"160\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"310\" y1=\"215\" x2=\"420\" y2=\"160\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"130\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"50\" y=\"136\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><circle cx=\"150\" cy=\"45\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150\" y=\"51\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"260\" cy=\"45\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"260\" y=\"51\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"370\" cy=\"45\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"370\" y=\"51\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"205\" cy=\"165\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"205\" y=\"171\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"310\" cy=\"215\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"310\" y=\"221\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"420\" cy=\"160\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"420\" y=\"166\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">G</text><rect x=\"20\" y=\"247\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"259\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"247\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"259\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Grafen söks igenom med DFS. Grannarna tas i bokstavsordning, och en nod som redan har besökts besöks inte igen.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Ange i vilken ordning noderna besöks, fram till och med målet. (Skriv noderna i ordning, åtskilda med kommatecken.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Från S</p><p>S:s grannar är A och C. A kommer först i bokstavsordning.</p></li><li><p class=\"facit-rubrik\">Vidare från A och B</p><p>A går vidare till B. B:s grannar är A, C och D. A är besökt, så C kommer före D.</p></li><li><p class=\"facit-rubrik\">Vidare från C</p><p>C:s obesökta granne är E, och E leder till målet G.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> S, A, B, C, E, G.</p></div>",
+        "ledtrad": "<p>Ta alltid den första obesökta grannen i bokstavsordning.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "S, A, B, C, E, G",
+        "tolerans": null,
+        "svarFormat": "namnordning",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Hur många kanter har vägen som DFS hittar?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vägen</p><p>S → A → B → C → E → G.</p></li><li><p class=\"facit-rubrik\">Räkna kanterna</p><p>6 noder ger 5 kanter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div>",
+        "ledtrad": "<p>Varje nod på vägen utom start har en kant in till sig.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Har vägen som DFS hittar färst möjliga kanter? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför med en annan väg</p><p>S → C → E → G har bara 3 kanter.</p></li><li><p class=\"facit-rubrik\">Varför DFS tog en omväg</p><p>DFS gick först till A, eftersom A kommer före C i bokstavsordning, och fortsatte på djupet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, S → C → E → G har bara 3 kanter.</p><ul><li><strong>A:</strong> DFS stoppar vid första vägen den hittar, inte den kortaste.</li><li><strong>B:</strong> Det gäller BFS. DFS kan gå en lång omväg först.</li><li><strong>C:</strong> Vägen via C och E är kortare.</li><li><strong>D:</strong> Det finns en väg med 3 kanter: S → C → E → G.</li></ul></div>",
+        "ledtrad": "<p>Finns det en väg från S till G som går via C direkt?</p>",
+        "alternativ": [
+          {
+            "txt": "Nej, S → C → E → G har bara 3 kanter",
+            "ratt": true,
+            "kommentar": "DFS stoppar vid första vägen den hittar, inte den kortaste."
+          },
+          {
+            "txt": "Ja, DFS hittar alltid en väg med färst kanter",
+            "ratt": false,
+            "kommentar": "Det gäller BFS. DFS kan gå en lång omväg först."
+          },
+          {
+            "txt": "Ja, det finns ingen kortare väg till G",
+            "ratt": false,
+            "kommentar": "Vägen via C och E är kortare."
+          },
+          {
+            "txt": "Nej, den kortaste vägen har 4 kanter",
+            "ratt": false,
+            "kommentar": "Det finns en väg med 3 kanter: S → C → E → G."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Nej, S → C → E → G har bara 3 kanter",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "namnordning",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "1.74",
+    "kap": 1,
+    "omr": "dfs",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "DFS i träd och grafer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9,
+      "Läget E",
+      2
+    ],
+    "tolerans": [
+      0,
+      null,
+      0
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 309\" role=\"img\" aria-label=\"Beslutsträd med S överst. S har A, B och C. A har D och E, D har F. B har G och H, H har målet M. C har I.\" style=\"width:100%;max-width:360px;height:auto\"><title>Beslutsträd med S överst. S har A, B och C. A har D och E, D har F. B har G och H, H har målet M. C har I.</title><line x1=\"198\" y1=\"35\" x2=\"75\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"198\" y1=\"35\" x2=\"215\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"198\" y1=\"35\" x2=\"320\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"110\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"215\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"215\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"250\" y1=\"179\" x2=\"250\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"320\" y1=\"107\" x2=\"320\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"110\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"75\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">G</text><circle cx=\"250\" cy=\"251\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"250\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">M</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">H</text><circle cx=\"215\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"215\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"320\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"320\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">I</text><circle cx=\"320\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"320\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"198\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"198\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>En robot planerar hur den ska ta sig ur ett rum. Varje nod i trädet är ett läge, och barnen är lägen den kan nå därifrån. Roboten söker med DFS och prövar barnen från vänster till höger.</p><p>a) Hur många lägen besöks, inklusive S och målet M?</p><p>b) F är den första återvändsgränden. Vilket läge besöks direkt efter F? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Läget E</p><p class=\"ul-alt\"><strong>B.</strong> Läget B</p><p class=\"ul-alt\"><strong>C.</strong> Läget G</p><p class=\"ul-alt\"><strong>D.</strong> Läget S</p><p>c) Hur många lägen i trädet besöks aldrig?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Besöksordningen</p><p>S, A, D, F, E, B, G, H, M.</p></li><li><p class=\"facit-rubrik\">Räkna</p><p>9 lägen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Backa till närmaste läge med obesökt barn</p><p>D har inga fler barn, men A har E. Därför besöks E.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Läget E.</p><ul><li><strong>A:</strong> DFS backar till A, som har det obesökta barnet E.</li><li><strong>B:</strong> B besöks först när hela A-grenen är klar, alltså efter E.</li><li><strong>C:</strong> G ligger under B och besöks senare.</li><li><strong>D:</strong> S är redan besökt. DFS backar bara förbi den.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla lägen</p><p>Trädet har 11 lägen.</p></li><li><p class=\"facit-rubrik\">Besökta och obesökta</p><p>9 besöks. C, I besöks aldrig, eftersom målet hittas under B.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div></div></div></div>",
+    "ledtrad": "<p>DFS backar till närmaste läge som har ett obesökt barn.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 309\" role=\"img\" aria-label=\"Beslutsträd med S överst. S har A, B och C. A har D och E, D har F. B har G och H, H har målet M. C har I.\" style=\"width:100%;max-width:360px;height:auto\"><title>Beslutsträd med S överst. S har A, B och C. A har D och E, D har F. B har G och H, H har målet M. C har I.</title><line x1=\"198\" y1=\"35\" x2=\"75\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"198\" y1=\"35\" x2=\"215\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"198\" y1=\"35\" x2=\"320\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"107\" x2=\"110\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"215\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"215\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"250\" y1=\"179\" x2=\"250\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"320\" y1=\"107\" x2=\"320\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"110\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"75\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">G</text><circle cx=\"250\" cy=\"251\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"250\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">M</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">H</text><circle cx=\"215\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"215\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"320\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"320\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">I</text><circle cx=\"320\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"320\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"198\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"198\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>En robot planerar hur den ska ta sig ur ett rum. Varje nod i trädet är ett läge, och barnen är lägen den kan nå därifrån. Roboten söker med DFS och prövar barnen från vänster till höger.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många lägen besöks, inklusive S och målet M?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Besöksordningen</p><p>S, A, D, F, E, B, G, H, M.</p></li><li><p class=\"facit-rubrik\">Räkna</p><p>9 lägen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9.</p></div>",
+        "ledtrad": "<p>Följ grenarna från vänster och backa vid återvändsgränder.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 9,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>F är den första återvändsgränden. Vilket läge besöks direkt efter F? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Backa till närmaste läge med obesökt barn</p><p>D har inga fler barn, men A har E. Därför besöks E.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Läget E.</p><ul><li><strong>A:</strong> DFS backar till A, som har det obesökta barnet E.</li><li><strong>B:</strong> B besöks först när hela A-grenen är klar, alltså efter E.</li><li><strong>C:</strong> G ligger under B och besöks senare.</li><li><strong>D:</strong> S är redan besökt. DFS backar bara förbi den.</li></ul></div>",
+        "ledtrad": "<p>Vilken nod ovanför F har fortfarande ett obesökt barn?</p>",
+        "alternativ": [
+          {
+            "txt": "Läget E",
+            "ratt": true,
+            "kommentar": "DFS backar till A, som har det obesökta barnet E."
+          },
+          {
+            "txt": "Läget B",
+            "ratt": false,
+            "kommentar": "B besöks först när hela A-grenen är klar, alltså efter E."
+          },
+          {
+            "txt": "Läget G",
+            "ratt": false,
+            "kommentar": "G ligger under B och besöks senare."
+          },
+          {
+            "txt": "Läget S",
+            "ratt": false,
+            "kommentar": "S är redan besökt. DFS backar bara förbi den."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Läget E",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Hur många lägen i trädet besöks aldrig?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla lägen</p><p>Trädet har 11 lägen.</p></li><li><p class=\"facit-rubrik\">Besökta och obesökta</p><p>9 besöks. C, I besöks aldrig, eftersom målet hittas under B.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div>",
+        "ledtrad": "<p>Hinner DFS fram till C innan målet hittas?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 2,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "1.75",
+    "kap": 1,
+    "omr": "dfs",
+    "niva": "C",
+    "poang": "1/2/0",
+    "familj": "DFS i träd och grafer",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      10,
+      "Målet ligger djupt i den första gren som DFS går in i"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 309\" role=\"img\" aria-label=\"Sökträd med S överst. S har A, B och C. A har D och D har målet M. B har E och F, C har G och H.\" style=\"width:100%;max-width:360px;height:auto\"><title>Sökträd med S överst. S har A, B och C. A har D och D har målet M. B har E och F, C har G och H.</title><line x1=\"162\" y1=\"35\" x2=\"40\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"162\" y1=\"35\" x2=\"145\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"162\" y1=\"35\" x2=\"285\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"107\" x2=\"110\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"285\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"285\" y1=\"107\" x2=\"320\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">M</text><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"40\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"110\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"145\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"145\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">G</text><circle cx=\"320\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"320\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">H</text><circle cx=\"285\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"285\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"162\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"162\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet söks igenom en gång med DFS och en gång med BFS. Barnen tas från vänster till höger.</p><p>a) Hur många noder besöker DFS, inklusive S och målet?</p><p>b) Hur många noder tar BFS ut, inklusive S och målet?</p><p>c) Varför hittar DFS målet med färre besökta noder i det här trädet? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Målet ligger djupt i den första gren som DFS går in i</p><p class=\"ul-alt\"><strong>B.</strong> DFS hittar alltid målet med färre besökta noder</p><p class=\"ul-alt\"><strong>C.</strong> BFS hittar inte målet</p><p class=\"ul-alt\"><strong>D.</strong> DFS använder en uppskattning av avståndet till målet</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">DFS går rakt ned i vänster gren</p><p>S → A → D → M. Målet hittas direkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nivå för nivå</p><p>Nivå 0: S. Nivå 1: A, B, C. Nivå 2: D, E, F, G, H. Nivå 3: M.</p></li><li><p class=\"facit-rubrik\">Räkna</p><p>1 + 3 + 5 + 1 = 10 noder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Målets placering</p><p>Målet ligger djupt i den första grenen som DFS går in i.</p></li><li><p class=\"facit-rubrik\">BFS går på bredden</p><p>BFS måste först ta ut alla noder på nivå 1 och 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Målet ligger djupt i den första gren som DFS går in i.</p><ul><li><strong>A:</strong> DFS når det direkt, medan BFS först tar hela nivå 1 och 2.</li><li><strong>B:</strong> Om målet hade legat under C hade DFS besökt fler noder.</li><li><strong>C:</strong> BFS hittar målet, men först efter 10 uttag.</li><li><strong>D:</strong> DFS är oinformerad och använder ingen uppskattning.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Vilken sökning som går snabbast beror på var målet ligger.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 309\" role=\"img\" aria-label=\"Sökträd med S överst. S har A, B och C. A har D och D har målet M. B har E och F, C har G och H.\" style=\"width:100%;max-width:360px;height:auto\"><title>Sökträd med S överst. S har A, B och C. A har D och D har målet M. B har E och F, C har G och H.</title><line x1=\"162\" y1=\"35\" x2=\"40\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"162\" y1=\"35\" x2=\"145\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"162\" y1=\"35\" x2=\"285\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"107\" x2=\"40\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"107\" x2=\"110\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"145\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"285\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"285\" y1=\"107\" x2=\"320\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">M</text><circle cx=\"40\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"40\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"110\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"145\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"145\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">G</text><circle cx=\"320\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"320\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">H</text><circle cx=\"285\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"285\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"162\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"162\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet söks igenom en gång med DFS och en gång med BFS. Barnen tas från vänster till höger.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många noder besöker DFS, inklusive S och målet?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">DFS går rakt ned i vänster gren</p><p>S → A → D → M. Målet hittas direkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div>",
+        "ledtrad": "<p>Följ den vänstra grenen.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Hur många noder tar BFS ut, inklusive S och målet?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nivå för nivå</p><p>Nivå 0: S. Nivå 1: A, B, C. Nivå 2: D, E, F, G, H. Nivå 3: M.</p></li><li><p class=\"facit-rubrik\">Räkna</p><p>1 + 3 + 5 + 1 = 10 noder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div>",
+        "ledtrad": "<p>BFS måste ta ut hela nivå 2 innan målet på nivå 3.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 10,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Varför hittar DFS målet med färre besökta noder i det här trädet? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Målets placering</p><p>Målet ligger djupt i den första grenen som DFS går in i.</p></li><li><p class=\"facit-rubrik\">BFS går på bredden</p><p>BFS måste först ta ut alla noder på nivå 1 och 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Målet ligger djupt i den första gren som DFS går in i.</p><ul><li><strong>A:</strong> DFS når det direkt, medan BFS först tar hela nivå 1 och 2.</li><li><strong>B:</strong> Om målet hade legat under C hade DFS besökt fler noder.</li><li><strong>C:</strong> BFS hittar målet, men först efter 10 uttag.</li><li><strong>D:</strong> DFS är oinformerad och använder ingen uppskattning.</li></ul></div>",
+        "ledtrad": "<p>Var ligger målet jämfört med den gren som DFS börjar i?</p>",
+        "alternativ": [
+          {
+            "txt": "Målet ligger djupt i den första gren som DFS går in i",
+            "ratt": true,
+            "kommentar": "DFS når det direkt, medan BFS först tar hela nivå 1 och 2."
+          },
+          {
+            "txt": "DFS hittar alltid målet med färre besökta noder",
+            "ratt": false,
+            "kommentar": "Om målet hade legat under C hade DFS besökt fler noder."
+          },
+          {
+            "txt": "BFS hittar inte målet",
+            "ratt": false,
+            "kommentar": "BFS hittar målet, men först efter 10 uttag."
+          },
+          {
+            "txt": "DFS använder en uppskattning av avståndet till målet",
+            "ratt": false,
+            "kommentar": "DFS är oinformerad och använder ingen uppskattning."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Målet ligger djupt i den första gren som DFS går in i",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "1.76",
+    "kap": 1,
+    "omr": "dfs",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "DFS i träd och grafer",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      3,
+      "I vilken ordning barnen undersöks"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 309\" role=\"img\" aria-label=\"Sökträd med S överst. S har A och B. A har C och D, C har E och F. B har målet M.\" style=\"width:100%;max-width:300px;height:auto\"><title>Sökträd med S överst. S har A och B. A har C och D, C har E och F. B har målet M.</title><line x1=\"189\" y1=\"35\" x2=\"128\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"189\" y1=\"35\" x2=\"250\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"128\" y1=\"107\" x2=\"75\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"128\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"179\" x2=\"110\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"250\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"110\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"75\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"128\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"128\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">M</text><circle cx=\"250\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"189\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"189\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet söks igenom med DFS två gånger: en gång med vänster gren först och en gång med höger gren först.</p><p>a) Hur många noder besöks med vänster gren först, inklusive S och målet?</p><p>b) Hur många noder besöks med höger gren först, inklusive S och målet?</p><p>c) Vad avgör hur många noder DFS besöker innan målet i det här trädet? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> I vilken ordning barnen undersöks</p><p class=\"ul-alt\"><strong>B.</strong> Hur många mål trädet har</p><p class=\"ul-alt\"><strong>C.</strong> Om sökningen använder en kö eller en prioritetskö</p><p class=\"ul-alt\"><strong>D.</strong> Ingenting, DFS besöker alltid lika många noder</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Besöksordningen</p><p>S, A, C, E, F, D, B, M.</p></li><li><p class=\"facit-rubrik\">Räkna</p><p>8 noder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Besöksordningen</p><p>S, B, M. B är S:s högra barn, och målet ligger under B.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma träd, olika ordning</p><p>Med vänster först besöks 8 noder, med höger först 3.</p></li><li><p class=\"facit-rubrik\">Slutsats</p><p>DFS följer den första grenen helt innan den prövar nästa. Ordningen avgör vilken gren som kommer först.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> I vilken ordning barnen undersöks.</p><ul><li><strong>A:</strong> Med höger gren först når DFS målet direkt.</li><li><strong>B:</strong> Trädet har bara ett mål i båda sökningarna.</li><li><strong>C:</strong> Båda sökningarna är DFS med samma datastruktur.</li><li><strong>D:</strong> Antalet blev 8 respektive 3 i samma träd.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>DFS följer den första grenen helt innan nästa prövas.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 309\" role=\"img\" aria-label=\"Sökträd med S överst. S har A och B. A har C och D, C har E och F. B har målet M.\" style=\"width:100%;max-width:300px;height:auto\"><title>Sökträd med S överst. S har A och B. A har C och D, C har E och F. B har målet M.</title><line x1=\"189\" y1=\"35\" x2=\"128\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"189\" y1=\"35\" x2=\"250\" y2=\"107\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"128\" y1=\"107\" x2=\"75\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"128\" y1=\"107\" x2=\"180\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"179\" x2=\"40\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"75\" y1=\"179\" x2=\"110\" y2=\"251\" stroke=\"#64748b\" stroke-width=\"2\"/><line x1=\"250\" y1=\"107\" x2=\"250\" y2=\"179\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">E</text><circle cx=\"110\" cy=\"251\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"110\" y=\"257\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">F</text><circle cx=\"75\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">C</text><circle cx=\"180\" cy=\"179\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"180\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">D</text><circle cx=\"128\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"128\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">A</text><circle cx=\"250\" cy=\"179\" r=\"18\" fill=\"#d94343\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><text x=\"250\" y=\"185\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">M</text><circle cx=\"250\" cy=\"107\" r=\"18\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"250\" y=\"113\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#111827\">B</text><circle cx=\"189\" cy=\"35\" r=\"18\" fill=\"#22a05a\" stroke=\"#14532d\" stroke-width=\"2\"/><text x=\"189\" y=\"41\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#fff\">S</text><rect x=\"20\" y=\"283\" width=\"14\" height=\"14\" fill=\"#22a05a\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"41\" y=\"295\" font-size=\"14\" fill=\"#111827\">Start</text><rect x=\"110\" y=\"283\" width=\"14\" height=\"14\" fill=\"#d94343\" stroke=\"#334155\" stroke-width=\"0.8\"/><text x=\"131\" y=\"295\" font-size=\"14\" fill=\"#111827\">Mål</text></svg><p>Trädet söks igenom med DFS två gånger: en gång med vänster gren först och en gång med höger gren först.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många noder besöks med vänster gren först, inklusive S och målet?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Besöksordningen</p><p>S, A, C, E, F, D, B, M.</p></li><li><p class=\"facit-rubrik\">Räkna</p><p>8 noder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div>",
+        "ledtrad": "<p>Hela A-grenen besöks innan B.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Hur många noder besöks med höger gren först, inklusive S och målet?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Besöksordningen</p><p>S, B, M. B är S:s högra barn, och målet ligger under B.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Vilket barn till S undersöks först nu?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 3,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad avgör hur många noder DFS besöker innan målet i det här trädet? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma träd, olika ordning</p><p>Med vänster först besöks 8 noder, med höger först 3.</p></li><li><p class=\"facit-rubrik\">Slutsats</p><p>DFS följer den första grenen helt innan den prövar nästa. Ordningen avgör vilken gren som kommer först.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> I vilken ordning barnen undersöks.</p><ul><li><strong>A:</strong> Med höger gren först når DFS målet direkt.</li><li><strong>B:</strong> Trädet har bara ett mål i båda sökningarna.</li><li><strong>C:</strong> Båda sökningarna är DFS med samma datastruktur.</li><li><strong>D:</strong> Antalet blev 8 respektive 3 i samma träd.</li></ul></div>",
+        "ledtrad": "<p>Jämför svaren i a och b.</p>",
+        "alternativ": [
+          {
+            "txt": "I vilken ordning barnen undersöks",
+            "ratt": true,
+            "kommentar": "Med höger gren först når DFS målet direkt."
+          },
+          {
+            "txt": "Hur många mål trädet har",
+            "ratt": false,
+            "kommentar": "Trädet har bara ett mål i båda sökningarna."
+          },
+          {
+            "txt": "Om sökningen använder en kö eller en prioritetskö",
+            "ratt": false,
+            "kommentar": "Båda sökningarna är DFS med samma datastruktur."
+          },
+          {
+            "txt": "Ingenting, DFS besöker alltid lika många noder",
+            "ratt": false,
+            "kommentar": "Antalet blev 8 respektive 3 i samma träd."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "I vilken ordning barnen undersöks",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
     ]
   }
 ];

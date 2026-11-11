@@ -9,11 +9,11 @@
      alternativ krävs vid ”Välj alla”, namnlistor (namnordning/namnmangd) godtar pilar
      och små bokstäver men inte fel ordning eller ett saknat element;
    - ledtråd och facit visas utan sidledsrullning i mobil- och datorbredd;
-   - AI finns i lärarvyns kurslistor och träningspassen räknar alla 202 uppgifter
+   - AI finns i lärarvyns kurslistor och träningspassen räknar alla uppgifter
      (databasen: sql/2026-11-11-ai1-larare.sql). */
 const {chromium}=require('playwright'),fs=require('fs'),vm=require('vm'),path=require('path'),assert=require('node:assert/strict');
 const root=path.join(__dirname,'..'),out=process.env.REVIEW_OUT||'/tmp/ai1-kurs';fs.mkdirSync(out,{recursive:true});
-const c={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'uppgifterai.js'),'utf8'),c);
+const c={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'uppgifterai.js'),'utf8'),c);vm.runInNewContext(fs.readFileSync(path.join(root,'strukturai.js'),'utf8'),c);
 const bank=JSON.parse(JSON.stringify(c.window.BANKAI)),spel=bank.filter(q=>q.spel!==false);
 (async()=>{const browser=await chromium.launch(process.env.CHROMIUM?{executablePath:process.env.CHROMIUM}:{});try{
  const page=await browser.newPage(),errors=[],failures=[];let checks=0;
@@ -35,12 +35,12 @@ const bank=JSON.parse(JSON.stringify(c.window.BANKAI)),spel=bank.filter(q=>q.spe
 
  // Lärarvyn: träningspass kan välja alla tio områden
  const lar=await page.evaluate(async()=>{const kd=await provKursData('ai');const per=provRakna(kd,null,['E','C','A']);return {omr:Object.keys(per).length,alla:Object.values(per).reduce((x,o)=>x+o.alla,0)};});
- assert.deepEqual(lar,{omr:10,alla:202});
+ assert.deepEqual(lar,{omr:9,alla:spel.length});
  // Kursen och korten
  assert.equal(await page.evaluate(()=>selectCourse('ai')),true);
  const kurs=await page.evaluate(()=>{const cards=getCards();const ids=[...new Set(availableTasks().filter(q=>cards.some(c=>c.kap===q.kap&&c.omr.includes(q.omr))).map(q=>q.ursprungsId||q.id))].sort();
    return {ids,accent:accentKey(),kort:cards.map(c=>c.omr).flat().length};});
- assert.deepEqual(kurs.ids,spel.map(q=>q.id).sort());assert.equal(spel.length,202);assert.equal(kurs.accent,'ai');assert.equal(kurs.kort,10);
+ assert.deepEqual(kurs.ids,spel.map(q=>q.id).sort());assert.equal(spel.length,bank.length);assert.equal(kurs.accent,'ai');assert.equal(kurs.kort,Object.values(c.window.OMRAI).reduce((x,o)=>x+Object.keys(o).length,0));
  await page.screenshot({path:out+'/kursvy.png',fullPage:true});
 
  const delar=await page.evaluate(t=>t.flatMap(expandGameTask),spel);
@@ -83,7 +83,7 @@ const bank=JSON.parse(JSON.stringify(c.window.BANKAI)),spel=bank.filter(q=>q.spe
    await page.evaluate(id=>{prepareReview(id);visaLedtrad();showSolution();},q.id);
    const st=await page.evaluate(()=>({latex:document.querySelectorAll('.katex-error').length,wide:document.documentElement.scrollWidth>innerWidth+1}));
    if(st.latex||st.wide)failures.push({key,...st});
-   if(['1.01a','2.17a','3.05c','2.32a','3.07c'].includes(q.id)){await page.evaluate(()=>window.scrollTo(0,0));await page.locator('.task').screenshot({path:`${out}/${q.id}-${width}.png`});}
+   if(['1.01a','2.17a','3.05c','2.32a','3.07c','1.65b','1.68c','1.72a'].includes(q.id)){await page.evaluate(()=>window.scrollTo(0,0));await page.locator('.task').screenshot({path:`${out}/${q.id}-${width}.png`});}
   }}
  // Symbolraden: bara minustecken för AI
  const sym=await page.evaluate(()=>{const q=reviewBank.find(x=>!(Array.isArray(x.alternativ)&&x.alternativ.length)&&!Array.isArray(x.rättSvar));prepareReview(q.id);return [...document.querySelectorAll('.symtgt')].map(b=>b.textContent.trim());});

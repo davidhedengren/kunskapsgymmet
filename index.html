@@ -3723,8 +3723,9 @@ function courseName(id,track){
 
 const COURSE_ORDER=["ma1","ma2","mato1","mato2","matf1","fy1","fy2","ai","hist"];
 /* Kurser som ännu inte finns i lärarvyn (gruppkurs, träningspass, elevöversikt).
-   Databasens gruppkurs-funktioner godtar bara matematik- och fysikkurserna. */
-const UTAN_LARARVY=new Set(["hist","ai"]);
+   Historia är under uppbyggnad. AI finns i lärarvyn sedan 2026-11-11
+   (databasen: sql/2026-11-11-ai1-larare.sql). */
+const UTAN_LARARVY=new Set(["hist"]);
 
 const DELAT_SPAR={ "ma1|1a":"gul" };
 
@@ -4143,7 +4144,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-11-ai1";
+const BANK_VERSION="2026-11-11-ai1-sjalvrattning";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -7244,7 +7245,10 @@ function expandGameTask(t){
   const synliga=t.spelDelar.map((del,i)=>[del,i]).filter(([del])=>del?.spel!==false);
   const dolda=synliga.length<t.spelDelar.length;
   if(!synliga.length) return [];
-  if(!dolda && t.spelDelar.length<2) return [t];
+  /* Ett ensamt delkort visas normalt som hela uppgiften. visaSomDelkort:true (AI-banken)
+     visar i stället delkortet: inledning, fråga och delkortets egna alternativ, eftersom
+     huvudtexten är skriven för övningsblad och listar alternativen som text. */
+  if(!dolda && t.spelDelar.length<2 && t.visaSomDelkort!==true) return [t];
   const antal=t.spelDelar.length;
   return synliga.map(([del,i])=>{
     const etikett=String(del?.etikett || String.fromCharCode(97+i)).toLowerCase();
@@ -11983,7 +11987,33 @@ function latexElevsvar(svar){
     .replace(/\s+/g," ").trim().replace(/^([+-])\s+/,"$1").replace(/([=<>≤≥]\s*)([+-])\s+/g,"$1$2");
   return x;
 }
+/* AI-kursen: namn på rutor, noder och löv (A1, S, L12) eller tal i en följd.
+   Kommatecken, mellanslag, pilar och ord som "och" eller "till" skiljer elementen
+   åt; ord med flera bokstäver räknas inte. Värden inom parentes, t.ex. E(6) eller
+   lövet 5 (L6), hör till elementet före och räknas inte. Ett inledande "i" ("I B")
+   är en preposition. namnordning kräver samma ordning, namnmangd godtar valfri
+   ordning. Facit "tom" betyder att inget element ska anges ("tom", "inga", 0).
+   Facit kan ange flera godtagbara svar åtskilda med |. */
+function elementLista(x){
+  const s=stadaSvar(x).replace(/^i\s+(?=\S)/i,"").replace(/\([^)]*\)/g," ").toUpperCase();
+  return (s.match(/-?\d+|[A-ZÅÄÖ]+\d*/g)||[]).filter(v=>!/^[A-ZÅÄÖ]{2,}\d*$/.test(v));
+}
+function namnListaRatt(anv,facit,format){
+  if(!stadaSvar(anv)) return false;
+  const a=elementLista(anv);
+  return String(facit).split("|").some(alt=>{
+    const f=elementLista(alt);
+    if(!f.length) return !a.length || (a.length===1 && a[0]==="0");
+    if(a.length!==f.length) return false;
+    if(format==="namnmangd"){
+      const x=[...a].sort(), y=[...f].sort();
+      return x.every((v,i)=>v===y[i]);
+    }
+    return a.every((v,i)=>v===f[i]);
+  });
+}
 function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
+  if(format==="namnordning" || format==="namnmangd") return namnListaRatt(anv,facit,format);
   /* Ett utskrivet litet antal är samma svar som siffran. Avgränsa till
      frågor om antal; ändra inte algebra, mått, enheter eller löptext. */
   if((format==="numeriskt" || !format) && Number.isInteger(facit) && !enhet

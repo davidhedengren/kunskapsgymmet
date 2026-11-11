@@ -1714,8 +1714,8 @@ window.BANK = [
   },
   {
     "id": "2.19",
-    "kap": 2,
-    "omr": "enheter",
+    "kap": 5,
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "bestämma SI-enheten för en storhet ur dess formel, ur text, sökt enhet",
     "poang": "(2/3/0)",
@@ -1938,8 +1938,8 @@ window.BANK = [
   },
   {
     "id": "2.209",
-    "kap": 2,
-    "omr": "enheter",
+    "kap": 5,
+    "omr": "effekt",
     "niva": "E",
     "typ": "omvandla megawatt till watt",
     "poang": "(1/0/0)",
@@ -2605,8 +2605,8 @@ window.BANK = [
   },
   {
     "id": "2.29",
-    "kap": 2,
-    "omr": "enheter",
+    "kap": 5,
+    "omr": "effekt",
     "niva": "E",
     "typ": "omvandla vardagliga energienheter till joule och kilowattimmar, ur text, sökt energi",
     "poang": "(5/0/0)",
@@ -3135,8 +3135,8 @@ window.BANK = [
   },
   {
     "id": "2.33",
-    "kap": 2,
-    "omr": "enheter",
+    "kap": 5,
+    "omr": "arbete",
     "niva": "E",
     "typ": "omvandla energier till joule, ur text, sökt energi",
     "poang": "(6/0/0)",
@@ -3427,8 +3427,8 @@ window.BANK = [
   },
   {
     "id": "2.36",
-    "kap": 2,
-    "omr": "enheter",
+    "kap": 5,
+    "omr": "blandat_energi",
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>En bil drar 0,58 liter bensin per mil. Bensin ger 9,7 kWh per liter. En elbil använder 18 kWh per 100 km.</p><p>a) Hur många liter bensin används på 100 km?</p><p>b) Hur mycket energi tillförs bensinbilen på 100 km? (Svara i kWh.)</p><p>c) Jämför tillförd energi för de två bilarna på 100 km.</p>",
@@ -5486,8 +5486,8 @@ window.BANK = [
     "omr": "enheter",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En färja går i 22 knop. Ange en decimal.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) Ange farten i km/h.</div><div>b) Ange farten.</div></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Knop till km/h: \\(1\\ \\text{knop}=1{,}852\\ \\mathrm{km/h}\\)</p><div class=\"facit-matte\">\\[v=22\\cdot1{,}852\\ \\mathrm{km/h}=40{,}744\\ \\mathrm{km/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}7\\ \\mathrm{km/h}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Knop till km/h: \\(1\\ \\text{knop}=1{,}852\\ \\mathrm{km/h}\\)</p><div class=\"facit-matte\">\\[v=22\\cdot1{,}852\\ \\mathrm{km/h}=40{,}744\\ \\mathrm{km/h}\\]</div></li><li><p class=\"facit-rubrik\">km/h till m/s: dividera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=\\frac{40{,}744}{3{,}6}\\ \\mathrm{m/s}\\approx11{,}3\\ \\mathrm{m/s}\\]</div><p>Använd det oavrundade värdet tills svaret anges.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11,3 m/s.</p></div></div></div>",
+    "t": "<p>Ett tåg kör med farten 14,0 m/s. Ange svaren med en decimal.</p><p>a) Ange farten i km/h.</p><p>b) Ange farten i m/min.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Meter per sekund till kilometer per timme: \\(1\\ \\mathrm{m/s}=3{,}6\\ \\mathrm{km/h}\\)</p><p>En timme är 3600 sekunder och en kilometer är 1000 meter. Omvandlingsfaktorn är därför 3600/1000.</p></li><li><p class=\"facit-rubrik\">Multiplicera tågets fart med 3,6</p><div class=\"facit-matte\">\\[\\begin{aligned}v&=14{,}0\\cdot3{,}6\\\\&=50{,}4\\ \\mathrm{km/h}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tågets fart är 50,4 km/h.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Meter per sekund till meter per minut: \\(1\\ \\mathrm{min}=60\\) s</p><p>Tåget hinner 60 gånger så långt under en minut som under en sekund.</p></li><li><p class=\"facit-rubrik\">Multiplicera med antalet sekunder per minut</p><div class=\"facit-matte\">\\[\\begin{aligned}v&=14{,}0\\cdot60\\\\&=840{,}0\\ \\mathrm{m/min}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tågets fart är 840,0 m/min.</p></div></div></div></div>",
     "familj": "Enhetsomvandling",
     "formaga": [
       "procedur"
@@ -5495,8 +5495,8 @@ window.BANK = [
     "familjNyckel": "enheter__enhetsomvandling",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      40.7,
-      11.3
+      50.4,
+      840
     ],
     "tolerans": [
       0.05,
@@ -5504,14 +5504,14 @@ window.BANK = [
     ],
     "självrättning": true,
     "familjNyckelTidigare": "enheter__prefix_tiopotenser_och_storleksordning",
-    "ledtrad": "<p>Enheten knop anger fart. Vilken fart i km/h motsvarar en enda knop?</p>",
+    "ledtrad": "<p>Hur många sekunder går det på en timme respektive en minut? Hur många meter går det på en kilometer?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarsstruktur": "ordnad",
     "svarEnhet": [
       "km/h",
-      "m/s"
+      "m/min"
     ],
     "svarFormat": [
       "numeriskt",
@@ -5521,9 +5521,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En färja går i 22 knop. Ange en decimal.</p><p>Ange farten i km/h.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Knop till km/h: \\(1\\ \\text{knop}=1{,}852\\ \\mathrm{km/h}\\)</p><div class=\"facit-matte\">\\[v=22\\cdot1{,}852\\ \\mathrm{km/h}=40{,}744\\ \\mathrm{km/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}7\\ \\mathrm{km/h}\\).</p></div>",
-        "ledtrad": "<p>Enheten knop anger fart. Vilken fart i km/h motsvarar en enda knop?</p>",
+        "t": "<p>Ett tåg kör med farten 14,0 m/s. Ange svaren med en decimal.</p><p>Ange farten i km/h.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Meter per sekund till kilometer per timme: \\(1\\ \\mathrm{m/s}=3{,}6\\ \\mathrm{km/h}\\)</p><p>En timme är 3600 sekunder och en kilometer är 1000 meter. Omvandlingsfaktorn är därför 3600/1000.</p></li><li><p class=\"facit-rubrik\">Multiplicera tågets fart med 3,6</p><div class=\"facit-matte\">\\[\\begin{aligned}v&=14{,}0\\cdot3{,}6\\\\&=50{,}4\\ \\mathrm{km/h}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tågets fart är 50,4 km/h.</p></div>",
+        "ledtrad": "<p>Använd att 1 m/s motsvarar 3,6 km/h.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -5532,9 +5532,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>En färja går i 22 knop. Ange en decimal.</p><p>Ange farten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Knop till km/h: \\(1\\ \\text{knop}=1{,}852\\ \\mathrm{km/h}\\)</p><div class=\"facit-matte\">\\[v=22\\cdot1{,}852\\ \\mathrm{km/h}=40{,}744\\ \\mathrm{km/h}\\]</div></li><li><p class=\"facit-rubrik\">km/h till m/s: dividera med \\(3{,}6\\)</p><div class=\"facit-matte\">\\[v=\\frac{40{,}744}{3{,}6}\\ \\mathrm{m/s}\\approx11{,}3\\ \\mathrm{m/s}\\]</div><p>Använd det oavrundade värdet tills svaret anges.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11,3 m/s.</p></div>",
-        "ledtrad": "<p>Enheten knop anger fart. Vilken fart i km/h motsvarar en enda knop?</p>",
+        "t": "<p>Ett tåg kör med farten 14,0 m/s. Ange svaren med en decimal.</p><p>Ange farten i m/min.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Meter per sekund till meter per minut: \\(1\\ \\mathrm{min}=60\\) s</p><p>Tåget hinner 60 gånger så långt under en minut som under en sekund.</p></li><li><p class=\"facit-rubrik\">Multiplicera med antalet sekunder per minut</p><div class=\"facit-matte\">\\[\\begin{aligned}v&=14{,}0\\cdot60\\\\&=840{,}0\\ \\mathrm{m/min}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tågets fart är 840,0 m/min.</p></div>",
+        "ledtrad": "<p>En minut är 60 sekunder.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
@@ -5546,7 +5546,8 @@ window.BANK = [
       "Prefix, tiopotenser och storleksordning"
     ],
     "miniräknare": true,
-    "geogebra": false
+    "geogebra": false,
+    "spelIntro": "<p>Ett tåg kör med farten 14,0 m/s. Ange svaren med en decimal.</p>"
   },
   {
     "id": "2.216",
@@ -5696,8 +5697,8 @@ window.BANK = [
   },
   {
     "id": "2.217",
-    "kap": 2,
-    "omr": "enheter",
+    "kap": 5,
+    "omr": "rorelseenergi",
     "niva": "C",
     "typ": "kontrollera en formel med dimensionsanalys",
     "poang": "(0/1/0)",
@@ -6002,8 +6003,8 @@ window.BANK = [
   },
   {
     "id": "2.220",
-    "kap": 2,
-    "omr": "enheter",
+    "kap": 5,
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "omvandla energitäthet mellan liter och kubikmeter",
     "poang": "(1/0/0)",
@@ -102020,8 +102021,8 @@ window.BANK = [
     "niva": "C",
     "typ": "elektrisk potential från flera punktladdningar",
     "poang": "(0/1/0)",
-    "t": "<p>Två punktladdningar \\(+3{,}0\\,\\mu\\mathrm C\\) och \\(-1{,}0\\,\\mu\\mathrm C\\) ligger \\(0{,}40\\,\\mathrm m\\) från varandra. Bestäm den elektriska potentialen i mittpunkten mellan dem. Sätt nollnivån för potentialen i oändligheten.</p>",
-    "s": "<div class=\"facit-v2\"><p>Mittpunkten ligger 0,20 m från vardera laddningen. Potentialerna adderas med sina tecken. Använd \\(V=kq/r\\).</p><p>Den positiva laddningen ger:</p><p>\\[V_1=\\frac{26\\,970}{0{,}20}=134\\,850\\,\\mathrm V\\]</p><p>Här är \\(kq_1=8{,}99\\cdot10^9\\cdot3{,}0\\cdot10^{-6}=26\\,970\\).</p><p>Den negativa laddningen ger:</p><p>\\[V_2=\\frac{-8\\,990}{0{,}20}=-44\\,950\\,\\mathrm V\\]</p><p>Här är \\(kq_2=8{,}99\\cdot10^9\\cdot(-1{,}0\\cdot10^{-6})=-8\\,990\\).</p><p>\\[V=134\\,850-44\\,950=89\\,900\\,\\mathrm V\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(89\\,900\\) V.</p></div>",
+    "t": "<p><strong>Fördjupning: potential från punktladdningar.</strong></p><p>För en punktladdning gäller \\(V=kq/r\\) med nollnivån i oändligheten. Potentialerna från flera laddningar adderas med sina tecken.</p><p>Två punktladdningar \\(+3{,}0\\,\\mu\\mathrm C\\) och \\(-1{,}0\\,\\mu\\mathrm C\\) ligger \\(0{,}40\\,\\mathrm m\\) från varandra. Bestäm den elektriska potentialen i mittpunkten mellan dem. Sätt nollnivån för potentialen i oändligheten.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mittpunkten ger \\(r=0{,}40/2=0{,}20\\) m</p><p>Båda laddningarna ligger på samma avstånd från punkten. Det är potentialer som ska adderas, inte vektorer för elektriska fältet.</p></li><li><p class=\"facit-rubrik\">Superposition av potential: \\(V=k(q_1+q_2)/r\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}q_1+q_2&=(3{,}0-1{,}0)\\cdot10^{-6}\\ \\mathrm C\\\\V&=\\frac{8{,}99\\cdot10^9\\cdot2{,}0\\cdot10^{-6}}{0{,}20}\\\\&=89900\\ \\mathrm V\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Potentialen är cirka \\(9{,}0\\cdot10^4\\) V relativt oändligheten.</p></div>",
     "familj": "Potentialskillnad och energi (W = qU)",
     "formaga": [
       "resonemang",
@@ -102039,7 +102040,7 @@ window.BANK = [
     "svarEnhet": "V",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true,
+    "spel": false,
     "familjTidigare": [
       "Elektrisk potential och spänning"
     ]
@@ -129124,7 +129125,7 @@ window.BANK = [
     "typ": "isbitar i glas med vatten",
     "poang": "(0/1/0)",
     "t": "<p>Fyra isbitar på 10 g vardera vid −18 °C läggs i 2,5 dl vatten vid 18 °C. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Bortse från energi som går till kärlet och omgivningen.</p><p>Vilken blir sluttemperaturen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kontrollera först om vattnets energi räcker för att värma och smälta all is:</p>\\[\\begin{aligned}&Q_{\\rm vatten\\ till\\ 0}=0{,}25\\cdot4{,}18\\cdot18\\\\ &=18{,}81\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm is\\ till\\ vatten}=0{,}04\\cdot(2{,}2\\cdot18+334)\\\\ &=14{,}944\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet kan avge mer energi än isen behöver. All is smälter. Resten värmer hela vattenmassan, 0,29 kg.</p>\\[\\begin{aligned}&Q_{\\rm kvar}=18{,}81-14{,}944\\\\ &=3{,}866\\,\\mathrm{kJ}\\end{aligned}\\]<p>Använd Q = mcΔT för att värma hela vattenmassan från 0 °C:</p>\\[T=\\frac{3{,}866}{0{,}290\\cdot4{,}18}\\approx3{,}2\\,{}^\\circ\\mathrm C\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\,{}^\\circ\\mathrm C\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kontrollera först om vattnets energi räcker för att värma och smälta all is:</p>\\[\\begin{aligned}&Q_{\\rm vatten\\ till\\ 0}=0{,}25\\cdot4{,}18\\cdot18\\\\ &=18{,}81\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm is\\ till\\ vatten}=0{,}04\\cdot(2{,}2\\cdot18+334)\\\\ &=14{,}944\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet kan avge mer energi än isen behöver. All is smälter. Resten värmer hela vattenmassan, 0,29 kg.</p>\\[\\begin{aligned}&Q_{\\rm kvar}=18{,}81-14{,}944\\\\ &=3{,}866\\,\\mathrm{kJ}\\end{aligned}\\]<p>Använd Q = mcΔT för att värma hela vattenmassan från 0 °C:</p>\\[T=\\frac{3{,}866}{0{,}290\\cdot4{,}18}\\approx3{,}2\\,{}^\\circ\\mathrm C\\]<p>Här används överslagsvärdet 1,0 kg/liter för vattnets densitet. Med 0,997 kg/liter blir vattenmassan 0,24925 kg och sluttemperaturen cirka 3,15084 °C. Även en korrekt avrundning av detta tabellalternativ godtas.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}2\\,{}^\\circ\\mathrm C\\).</p></div>",
     "id": "7.220",
     "miniräknare": true,
     "geogebra": false,
@@ -129143,7 +129144,14 @@ window.BANK = [
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
     "arbetsinsats": 3,
     "spel": true,
-    "svarVardesiffror": 2
+    "svarVardesiffror": 2,
+    "svarTabell": {
+      "0": [
+        3.150839698444662,
+        3.163662807513365,
+        3.1662247721468475
+      ]
+    }
   },
   {
     "kap": 7,
@@ -129152,7 +129160,7 @@ window.BANK = [
     "typ": "vattenånga kondenserar",
     "poang": "(0/3/0)",
     "t": "<p>Räkna på följande blandningar. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p><strong>a)</strong></p><p>50 g vattenånga vid 100 °C blandas med 5,0 liter vatten vid 11 °C.</p><p>Vilken blir sluttemperaturen?</p><p><strong>b)</strong></p><p>0,50 kg is vid 0 °C smälts av vattenånga vid 100 °C. Allt får sluttemperaturen 0 °C.</p><p>Hur mycket vattenånga behövs? (Svara i kg.)</p><p><strong>c)</strong></p><p>Is vid 0 °C och vattenånga vid 100 °C blandas. Sluttemperaturen blir 50 °C.</p><p>Hur många gånger större är isens massa än ångans massa?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>50 g ånga = 0,050 kg. 5,0 liter vatten har massan 5,0 kg. Låt sluttemperaturen vara T. Ångan avger energi när den blir vatten och när detta vatten svalnar från 100 °C till T. Det kalla vattnet tar upp samma energi:</p>\\[\\begin{aligned}&0{,}050[2260+4{,}18(100-T)]\\\\ &=5{,}0\\cdot4{,}18(T-11)\\end{aligned}\\]<p>Multiplicera in, samla termerna med T och lös ekvationen:</p>\\[\\begin{aligned}&133{,}9-0{,}209T=20{,}9T-229{,}9\\\\ &21{,}109T=363{,}8\\end{aligned}\\]\\[\\begin{aligned}&T=\\frac{363{,}8}{21{,}109}\\\\ &\\approx17{,}2\\,{}^\\circ\\mathrm C\\end{aligned}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}2\\,{}^\\circ\\mathrm C\\).</p><p><strong>b)</strong></p>\\[\\begin{aligned}&Q_{\\rm smält}=0{,}5\\cdot334\\\\ &=167\\,\\mathrm{kJ}\\end{aligned}\\]<p>Varje kilogram ånga avger 2260 kJ vid kondensation och 4,18 · 100 = 418 kJ när vattnet svalnar till 0 °C. Totalt blir det 2678 kJ/kg.</p>\\[\\begin{aligned}&m_{\\rm ånga}=\\frac{167}{2678}\\\\ &\\approx0{,}062\\,\\mathrm{kg}\\end{aligned}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}062\\,\\mathrm{kg}\\).</p><p><strong>c)</strong></p><p>Låt massorna av is och ånga vara mᵢ och mₐ. Varje kilogram is tar upp smältenergi och värms sedan till 50 °C. Varje kilogram ånga avger kondensationsenergi och svalnar sedan till 50 °C:</p>\\[\\begin{aligned}&\\frac{Q_{\\rm is}}{m_i}=334+4{,}18\\cdot50\\\\ &=543\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&\\frac{Q_{\\rm ånga}}{m_a}=2260+4{,}18\\cdot50\\\\ &=2469\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p>Energin som avges och tas upp är lika stor: 543mᵢ = 2469mₐ. Dividera med 543mₐ:</p>\\[\\begin{aligned}&\\frac{m_i}{m_a}=\\frac{2469}{543}\\\\ &\\approx4{,}55\\end{aligned}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}55\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massa ur vattenvolym: \\(m_v=\\rho V\\)</p><p>Med överslagsvärdet 1,0 kg/liter är vattenmassan 5,0 kg. Med tabellvärdet 0,997 kg/liter är den i stället 4,985 kg.</p></li><li><p class=\"facit-rubrik\">Energibalans: \\(Q_{av}=Q_{up}\\)</p><p>Ångan kondenserar och det bildade vattnet svalnar från 100 °C till T. Det kalla vattnet värms från 11 °C till T. Energierna nedan anges i kJ. Kondensationen avger 0,050 · 2260 = 113 kJ och avsvalningen ger 0,050 · 4,18 · (100 − T) kJ.</p><div class=\"facit-matte\">\\[\\begin{gathered}Q_{kond}=113\\\\Q_{kyl}=0{,}209(100-T)\\\\Q_{av}=133{,}9-0{,}209T\\\\Q_{up}=4{,}18m_v(T-11)\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lös temperaturbalansen med vald vattenmassa</p><p>Med 5,0 kg vatten blir balansen:</p><div class=\"facit-matte\">\\[\\begin{gathered}Q_{up}=20{,}9T-229{,}9\\\\(20{,}9+0{,}209)T\\\\=133{,}9+229{,}9\\\\T=\\frac{363{,}8}{21{,}109}\\approx17{,}234\\ {}^\\circ\\mathrm C\\end{gathered}\\]</div><p>Med 4,985 kg vatten blir samma ekvation:</p><div class=\"facit-matte\">\\[\\begin{gathered}Q_{up}=20{,}8373(T-11)\\\\21{,}0463T=363{,}1103\\\\T\\approx17{,}253\\ {}^\\circ\\mathrm C\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sluttemperaturen blir cirka 17,2 °C med 1,0 kg/liter eller 17,3 °C med 0,997 kg/liter. Skillnaden beror på tabellvärdet.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Isens smältenergi: \\(Q=m_i l_s\\)</p><div class=\"facit-matte\">\\[Q=0{,}50\\cdot334=167\\ \\mathrm{kJ}\\]</div></li><li><p class=\"facit-rubrik\">Ångan avger både kondensations- och avsvalningsenergi: \\(Q=m_a(l_a+c\\Delta T)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}167&=m_a(2260+418)\\\\&=2678m_a\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut ångmassan</p><div class=\"facit-matte\">\\[m_a=\\frac{167}{2678}\\approx0{,}06236\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det behövs cirka 0,062 kg vattenånga.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Isen smälter och värms: \\(Q_i=m_i(l_s+c\\Delta T)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}Q_i&=m_i(334+4{,}18\\cdot50)\\\\&=543m_i\\ \\mathrm{kJ}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Ångan kondenserar och svalnar: \\(Q_a=m_a(l_a+c\\Delta T)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}Q_a&=m_a(2260+4{,}18\\cdot50)\\\\&=2469m_a\\ \\mathrm{kJ}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Energibalansen ger masskvoten: \\(Q_i=Q_a\\)</p><div class=\"facit-matte\">\\[m_i/m_a=2469/543\\approx4{,}55\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Isens massa ska vara cirka 4,55 gånger ångans massa.</p></div></div></div></div>",
     "id": "7.221",
     "miniräknare": true,
     "geogebra": false,
@@ -129196,7 +129204,7 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Vilken blir sluttemperaturen? ",
         "t": "<p>50 g vattenånga vid 100 °C blandas med 5,0 liter vatten vid 11 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Vilken blir sluttemperaturen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>50 g ånga = 0,050 kg. 5,0 liter vatten har massan 5,0 kg. Låt sluttemperaturen vara T. Ångan avger energi när den blir vatten och när detta vatten svalnar från 100 °C till T. Det kalla vattnet tar upp samma energi:</p>\\[\\begin{aligned}&0{,}050[2260+4{,}18(100-T)]\\\\ &=5{,}0\\cdot4{,}18(T-11)\\end{aligned}\\]<p>Multiplicera in, samla termerna med T och lös ekvationen:</p>\\[\\begin{aligned}&133{,}9-0{,}209T=20{,}9T-229{,}9\\\\ &21{,}109T=363{,}8\\end{aligned}\\]\\[\\begin{aligned}&T=\\frac{363{,}8}{21{,}109}\\\\ &\\approx17{,}2\\,{}^\\circ\\mathrm C\\end{aligned}\\]<p><strong>Svar:</strong> \\(17{,}2\\,{}^\\circ\\mathrm C\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massa ur vattenvolym: \\(m_v=\\rho V\\)</p><p>Med överslagsvärdet 1,0 kg/liter är vattenmassan 5,0 kg. Med tabellvärdet 0,997 kg/liter är den i stället 4,985 kg.</p></li><li><p class=\"facit-rubrik\">Energibalans: \\(Q_{av}=Q_{up}\\)</p><p>Ångan kondenserar och det bildade vattnet svalnar från 100 °C till T. Det kalla vattnet värms från 11 °C till T. Energierna nedan anges i kJ. Kondensationen avger 0,050 · 2260 = 113 kJ och avsvalningen ger 0,050 · 4,18 · (100 − T) kJ.</p><div class=\"facit-matte\">\\[\\begin{gathered}Q_{kond}=113\\\\Q_{kyl}=0{,}209(100-T)\\\\Q_{av}=133{,}9-0{,}209T\\\\Q_{up}=4{,}18m_v(T-11)\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lös temperaturbalansen med vald vattenmassa</p><p>Med 5,0 kg vatten blir balansen:</p><div class=\"facit-matte\">\\[\\begin{gathered}Q_{up}=20{,}9T-229{,}9\\\\(20{,}9+0{,}209)T\\\\=133{,}9+229{,}9\\\\T=\\frac{363{,}8}{21{,}109}\\approx17{,}234\\ {}^\\circ\\mathrm C\\end{gathered}\\]</div><p>Med 4,985 kg vatten blir samma ekvation:</p><div class=\"facit-matte\">\\[\\begin{gathered}Q_{up}=20{,}8373(T-11)\\\\21{,}0463T=363{,}1103\\\\T\\approx17{,}253\\ {}^\\circ\\mathrm C\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sluttemperaturen blir cirka 17,2 °C med 1,0 kg/liter eller 17,3 °C med 0,997 kg/liter. Skillnaden beror på tabellvärdet.</p></div>",
         "ledtrad": "<p>Ångan blir vatten och svalnar. Det kalla vattnet tar upp denna energi.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -129207,7 +129215,7 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Hur mycket vattenånga behövs? ",
         "t": "<p>0,50 kg is vid 0 °C smälts av vattenånga vid 100 °C. Allt får sluttemperaturen 0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Hur mycket vattenånga behövs?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm smält}=0{,}5\\cdot334\\\\ &=167\\,\\mathrm{kJ}\\end{aligned}\\]<p>Varje kilogram ånga avger 2260 kJ vid kondensation och 4,18 · 100 = 418 kJ när vattnet svalnar till 0 °C. Totalt blir det 2678 kJ/kg.</p>\\[\\begin{aligned}&m_{\\rm ånga}=\\frac{167}{2678}\\\\ &\\approx0{,}062\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}062\\,\\mathrm{kg}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Isens smältenergi: \\(Q=m_i l_s\\)</p><div class=\"facit-matte\">\\[Q=0{,}50\\cdot334=167\\ \\mathrm{kJ}\\]</div></li><li><p class=\"facit-rubrik\">Ångan avger både kondensations- och avsvalningsenergi: \\(Q=m_a(l_a+c\\Delta T)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}167&=m_a(2260+418)\\\\&=2678m_a\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut ångmassan</p><div class=\"facit-matte\">\\[m_a=\\frac{167}{2678}\\approx0{,}06236\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det behövs cirka 0,062 kg vattenånga.</p></div>",
         "ledtrad": "<p>Ångan avger energi vid både kondensationen och avsvalningen till 0 °C.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -129218,7 +129226,7 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Hur många gånger större är isens massa än ångans massa? ",
         "t": "<p>Is vid 0 °C och vattenånga vid 100 °C blandas. Sluttemperaturen blir 50 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från energi som går till kärlet och omgivningen.</p><p>Hur många gånger större är isens massa än ångans massa?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt massorna av is och ånga vara mᵢ och mₐ. Varje kilogram is tar upp smältenergi och värms sedan till 50 °C. Varje kilogram ånga avger kondensationsenergi och svalnar sedan till 50 °C:</p>\\[\\begin{aligned}&\\frac{Q_{\\rm is}}{m_i}=334+4{,}18\\cdot50\\\\ &=543\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&\\frac{Q_{\\rm ånga}}{m_a}=2260+4{,}18\\cdot50\\\\ &=2469\\,\\mathrm{kJ/kg}\\end{aligned}\\]<p>Energin som avges och tas upp är lika stor: 543mᵢ = 2469mₐ. Dividera med 543mₐ:</p>\\[\\begin{aligned}&\\frac{m_i}{m_a}=\\frac{2469}{543}\\\\ &\\approx4{,}55\\end{aligned}\\]<p><strong>Svar:</strong> \\(4{,}55\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Isen smälter och värms: \\(Q_i=m_i(l_s+c\\Delta T)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}Q_i&=m_i(334+4{,}18\\cdot50)\\\\&=543m_i\\ \\mathrm{kJ}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Ångan kondenserar och svalnar: \\(Q_a=m_a(l_a+c\\Delta T)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}Q_a&=m_a(2260+4{,}18\\cdot50)\\\\&=2469m_a\\ \\mathrm{kJ}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Energibalansen ger masskvoten: \\(Q_i=Q_a\\)</p><div class=\"facit-matte\">\\[m_i/m_a=2469/543\\approx4{,}55\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Isens massa ska vara cirka 4,55 gånger ångans massa.</p></div>",
         "ledtrad": "<p>Jämför energin som varje kilogram is tar upp med energin som varje kilogram ånga avger.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
@@ -129235,7 +129243,14 @@ window.BANK = [
       3,
       2,
       3
-    ]
+    ],
+    "svarTabell": {
+      "0": [
+        17.252928068116486,
+        17.246724766461607,
+        17.245485582814226
+      ]
+    }
   },
   {
     "kap": 7,
@@ -139386,7 +139401,17 @@ window.BANK = [
     "svarVardesiffror": [
       4,
       4
-    ]
+    ],
+    "svarTabell": {
+      "0": [
+        1.0761641599999998,
+        1.0755940571428573,
+        1.0762186542399999,
+        1.0756485225142858,
+        1.0762240412937552,
+        1.0756539067142248
+      ]
+    }
   },
   {
     "id": "6.202",
@@ -165494,14 +165519,21 @@ window.BANK = [
     "familjTidigare": [
       "Ideala gaslagen"
     ],
-    "svarVardesiffror": 4
+    "svarVardesiffror": 4,
+    "svarTabell": {
+      "0": [
+        103.92499999999998,
+        103.93026249999998,
+        103.9307827269155
+      ]
+    }
   },
   {
     "id": "6.338",
     "kap": 6,
     "omr": "gaslagen",
     "t": "<p>En ideal gas har substansmängden 0,250 mol, temperaturen 300 K och trycket 100 000 Pa.</p><p>Bestäm gasens volym. (Svara i liter.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Gaslagen \\(pV=nRT\\) ger volymen i m³.</p>\\[\\begin{gathered}V=\\frac{nRT}{p}=\\frac{0{,}250\\cdot8{,}31\\cdot300}{100000}\\\\=0{,}0062325\\,\\mathrm{m^3}.\\end{gathered}\\]<p>En kubikmeter är 1000 liter, så volymen är 6,2325 liter.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}23\\,\\mathrm{liter}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ideala gaslagen, lös ut volymen: \\(V=nRT/p\\)</p><p>SI-enheterna ger volymen i m³. Använd samma värde på gaskonstanten genom hela beräkningen.</p></li><li><p class=\"facit-rubrik\">Sätt in n = 0,250 mol, T = 300 K och p = 100000 Pa</p><div class=\"facit-matte\">\\[\\begin{aligned}V&=\\frac{0{,}250\\cdot8{,}31\\cdot300}{100000}\\\\&=0{,}0062325\\ \\mathrm{m^3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kubikmeter till liter: \\(1\\ \\mathrm{m^3}=1000\\) liter</p><div class=\"facit-matte\">\\[\\begin{aligned}V&=0{,}0062325\\cdot1000\\\\&=6{,}2325\\ \\text{liter}\\end{aligned}\\]</div><p>Med R = 8,31 blir svaret 6,23 liter. Med det mer precisa tabellvärdet R ≈ 8,31446 blir det cirka 6,23585 liter, som avrundas till 6,24 liter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Volymen är cirka 6,23–6,24 liter beroende på gaskonstantens tabellvärde.</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Ideala gaslagen och gasmängd",
@@ -165525,7 +165557,14 @@ window.BANK = [
     "familjTidigare": [
       "Ideala gaslagen"
     ],
-    "svarVardesiffror": 3
+    "svarVardesiffror": 3,
+    "svarTabell": {
+      "0": [
+        6.2355,
+        6.2358157499999995,
+        6.23584696361493
+      ]
+    }
   },
   {
     "id": "6.347",
@@ -219528,8 +219567,8 @@ window.BANK = [
 },
 {
   "id": "2.362",
-  "kap": 2,
-  "omr": "enheter",
+  "kap": 5,
+  "omr": "effekt",
   "niva": "C",
   "typ": "energi från en laddare i kJ och kWh",
   "poang": "(0/1/0)",

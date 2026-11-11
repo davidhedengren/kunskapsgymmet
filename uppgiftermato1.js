@@ -6195,7 +6195,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Förklara varför \\(\\frac{x^2-1}{x-1}\\) och \\(x+1\\) inte är samma funktion trots att uttrycken är lika för nästan alla x.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det rationella uttrycket är inte definierat vid \\(x=1\\), medan \\(x+1\\) är definierat där och har värdet 2.</p></li><li><p>De har alltså olika definitionsmängd och är därför inte samma funktion.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det rationella uttrycket är inte definierat vid \\(x=1\\), medan \\(x+1\\) är definierat där och har värdet 2.</p></li><li><p>De har alltså olika definitionsmängd och är därför inte samma funktion.</p></li></ol></div></div>",
     "familj": "Rationella uttryck i problemlösning",
     "geogebra": false,
     "miniräknare": true,
@@ -8330,7 +8330,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>Förklara varför funktionerna</p><p>\\[f(x)=\\frac{x^2-9}{x-3}\\quad\\text{och}\\quad g(x)=x+3\\]</p><p>inte är samma funktion, trots att uttrycken kan förenklas till samma form.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(x\\neq3\\) kan täljaren faktoriseras:</p><p>\\[f(x)=\\frac{(x-3)(x+3)}{x-3}=x+3.\\]</p></li><li><p>Men \\(f\\) är inte definierad för \\(x=3\\), medan \\(g(3)=6\\).</p></li><li><p>Funktionerna har alltså olika definitionsmängder.</p></li><li><p>Deras grafer sammanfaller utom att grafen till \\(f\\) har ett hål i punkten \\((3,6)\\).</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(x\\neq3\\) kan täljaren faktoriseras:</p><p>\\[f(x)=\\frac{(x-3)(x+3)}{x-3}=x+3.\\]</p></li><li><p>Men \\(f\\) är inte definierad för \\(x=3\\), medan \\(g(3)=6\\).</p></li><li><p>Funktionerna har alltså olika definitionsmängder.</p></li><li><p>Deras grafer sammanfaller utom att grafen till \\(f\\) har ett hål i punkten \\((3,6)\\).</p></li></ol></div></div>",
     "familj": "Förkorta rationella uttryck",
     "geogebra": false,
     "miniräknare": true,
@@ -11000,7 +11000,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"395\" height=\"270\" viewBox=\"0 0 395 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Graf med ett hål\"><rect x=\"1\" y=\"1\" width=\"393\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"48.0\" y1=\"20\" x2=\"48.0\" y2=\"234\" stroke=\"#F0EFF2\" /><text x=\"48.0\" y=\"255\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6B6670\">-3</text><line x1=\"92.7\" y1=\"20\" x2=\"92.7\" y2=\"234\" stroke=\"#F0EFF2\" /><text x=\"92.7\" y=\"255\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6B6670\">-2</text><line x1=\"137.4\" y1=\"20\" x2=\"137.4\" y2=\"234\" stroke=\"#F0EFF2\" /><text x=\"137.4\" y=\"255\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6B6670\">-1</text><line x1=\"182.1\" y1=\"20\" x2=\"182.1\" y2=\"234\" stroke=\"#F0EFF2\" /><line x1=\"226.9\" y1=\"20\" x2=\"226.9\" y2=\"234\" stroke=\"#F0EFF2\" /><text x=\"226.9\" y=\"255\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6B6670\">1</text><line x1=\"271.6\" y1=\"20\" x2=\"271.6\" y2=\"234\" stroke=\"#F0EFF2\" /><text x=\"271.6\" y=\"255\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6B6670\">2</text><line x1=\"316.3\" y1=\"20\" x2=\"316.3\" y2=\"234\" stroke=\"#F0EFF2\" /><text x=\"316.3\" y=\"255\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6B6670\">3</text><line x1=\"361.0\" y1=\"20\" x2=\"361.0\" y2=\"234\" stroke=\"#F0EFF2\" /><text x=\"361.0\" y=\"255\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"234.0\" x2=\"365\" y2=\"234.0\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"238.0\" text-anchor=\"end\" font-size=\"11\" fill=\"#6B6670\">-2</text><line x1=\"48\" y1=\"209.2\" x2=\"365\" y2=\"209.2\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"213.2\" text-anchor=\"end\" font-size=\"11\" fill=\"#6B6670\">-1</text><line x1=\"48\" y1=\"184.5\" x2=\"365\" y2=\"184.5\" stroke=\"#F0EFF2\" /><line x1=\"48\" y1=\"159.8\" x2=\"365\" y2=\"159.8\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"163.8\" text-anchor=\"end\" font-size=\"11\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"135.0\" x2=\"365\" y2=\"135.0\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"139.0\" text-anchor=\"end\" font-size=\"11\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"110.2\" x2=\"365\" y2=\"110.2\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"114.2\" text-anchor=\"end\" font-size=\"11\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"85.5\" x2=\"365\" y2=\"85.5\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"89.5\" text-anchor=\"end\" font-size=\"11\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"60.8\" x2=\"365\" y2=\"60.8\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"64.8\" text-anchor=\"end\" font-size=\"11\" fill=\"#6B6670\">5</text><line x1=\"48\" y1=\"36.0\" x2=\"365\" y2=\"36.0\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"40.0\" text-anchor=\"end\" font-size=\"11\" fill=\"#6B6670\">6</text><line x1=\"182.1\" y1=\"20\" x2=\"182.1\" y2=\"234\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><line x1=\"48\" y1=\"184.5\" x2=\"365\" y2=\"184.5\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><path d=\"M 48.0 234.0 L 48.6 233.7 L 49.3 233.3 L 49.9 233.0 L 50.5 232.6 L 51.1 232.3 L 51.8 231.9 L 52.4 231.6 L 53.0 231.2 L 53.6 230.9 L 54.3 230.5 L 54.9 230.2 L 55.5 229.8 L 56.1 229.5 L 56.8 229.1 L 57.4 228.8 L 58.0 228.5 L 58.6 228.1 L 59.3 227.8 L 59.9 227.4 L 60.5 227.1 L 61.1 226.7 L 61.8 226.4 L 62.4 226.0 L 63.0 225.7 L 63.7 225.3 L 64.3 225.0 L 64.9 224.6 L 65.5 224.3 L 66.2 224.0 L 66.8 223.6 L 67.4 223.3 L 68.0 222.9 L 68.7 222.6 L 69.3 222.2 L 69.9 221.9 L 70.5 221.5 L 71.2 221.2 L 71.8 220.8 L 72.4 220.5 L 73.0 220.1 L 73.7 219.8 L 74.3 219.4 L 74.9 219.1 L 75.5 218.8 L 76.2 218.4 L 76.8 218.1 L 77.4 217.7 L 78.0 217.4 L 78.7 217.0 L 79.3 216.7 L 79.9 216.3 L 80.6 216.0 L 81.2 215.6 L 81.8 215.3 L 82.4 214.9 L 83.1 214.6 L 83.7 214.2 L 84.3 213.9 L 84.9 213.6 L 85.6 213.2 L 86.2 212.9 L 86.8 212.5 L 87.4 212.2 L 88.1 211.8 L 88.7 211.5 L 89.3 211.1 L 89.9 210.8 L 90.6 210.4 L 91.2 210.1 L 91.8 209.7 L 92.4 209.4 L 93.1 209.1 L 93.7 208.7 L 94.3 208.4 L 94.9 208.0 L 95.6 207.7 L 96.2 207.3 L 96.8 207.0 L 97.5 206.6 L 98.1 206.3 L 98.7 205.9 L 99.3 205.6 L 100.0 205.2 L 100.6 204.9 L 101.2 204.5 L 101.8 204.2 L 102.5 203.9 L 103.1 203.5 L 103.7 203.2 L 104.3 202.8 L 105.0 202.5 L 105.6 202.1 L 106.2 201.8 L 106.8 201.4 L 107.5 201.1 L 108.1 200.7 L 108.7 200.4 L 109.3 200.0 L 110.0 199.7 L 110.6 199.3 L 111.2 199.0 L 111.9 198.7 L 112.5 198.3 L 113.1 198.0 L 113.7 197.6 L 114.4 197.3 L 115.0 196.9 L 115.6 196.6 L 116.2 196.2 L 116.9 195.9 L 117.5 195.5 L 118.1 195.2 L 118.7 194.8 L 119.4 194.5 L 120.0 194.2 L 120.6 193.8 L 121.2 193.5 L 121.9 193.1 L 122.5 192.8 L 123.1 192.4 L 123.7 192.1 L 124.4 191.7 L 125.0 191.4 L 125.6 191.0 L 126.2 190.7 L 126.9 190.3 L 127.5 190.0 L 128.1 189.6 L 128.8 189.3 L 129.4 189.0 L 130.0 188.6 L 130.6 188.3 L 131.3 187.9 L 131.9 187.6 L 132.5 187.2 L 133.1 186.9 L 133.8 186.5 L 134.4 186.2 L 135.0 185.8 L 135.6 185.5 L 136.3 185.1 L 136.9 184.8 L 137.5 184.5 L 138.1 184.1 L 138.8 183.8 L 139.4 183.4 L 140.0 183.1 L 140.6 182.7 L 141.3 182.4 L 141.9 182.0 L 142.5 181.7 L 143.2 181.3 L 143.8 181.0 L 144.4 180.6 L 145.0 180.3 L 145.7 179.9 L 146.3 179.6 L 146.9 179.3 L 147.5 178.9 L 148.2 178.6 L 148.8 178.2 L 149.4 177.9 L 150.0 177.5 L 150.7 177.2 L 151.3 176.8 L 151.9 176.5 L 152.5 176.1 L 153.2 175.8 L 153.8 175.4 L 154.4 175.1 L 155.0 174.7 L 155.7 174.4 L 156.3 174.1 L 156.9 173.7 L 157.6 173.4 L 158.2 173.0 L 158.8 172.7 L 159.4 172.3 L 160.1 172.0 L 160.7 171.6 L 161.3 171.3 L 161.9 170.9 L 162.6 170.6 L 163.2 170.2 L 163.8 169.9 L 164.4 169.6 L 165.1 169.2 L 165.7 168.9 L 166.3 168.5 L 166.9 168.2 L 167.6 167.8 L 168.2 167.5 L 168.8 167.1 L 169.4 166.8 L 170.1 166.4 L 170.7 166.1 L 171.3 165.7 L 171.9 165.4 L 172.6 165.0 L 173.2 164.7 L 173.8 164.4 L 174.5 164.0 L 175.1 163.7 L 175.7 163.3 L 176.3 163.0 L 177.0 162.6 L 177.6 162.3 L 178.2 161.9 L 178.8 161.6 L 179.5 161.2 L 180.1 160.9 L 180.7 160.5 L 181.3 160.2 L 182.0 159.8 L 182.6 159.5 L 183.2 159.2 L 183.8 158.8 L 184.5 158.5 L 185.1 158.1 L 185.7 157.8 L 186.3 157.4 L 187.0 157.1 L 187.6 156.7 L 188.2 156.4 L 188.8 156.0 L 189.5 155.7 L 190.1 155.3 L 190.7 155.0 L 191.4 154.7 L 192.0 154.3 L 192.6 154.0 L 193.2 153.6 L 193.9 153.3 L 194.5 152.9 L 195.1 152.6 L 195.7 152.2 L 196.4 151.9 L 197.0 151.5 L 197.6 151.2 L 198.2 150.8 L 198.9 150.5 L 199.5 150.1 L 200.1 149.8 L 200.7 149.5 L 201.4 149.1 L 202.0 148.8 L 202.6 148.4 L 203.2 148.1 L 203.9 147.7 L 204.5 147.4 L 205.1 147.0 L 205.8 146.7 L 206.4 146.3 L 207.0 146.0 L 207.6 145.6 L 208.3 145.3 L 208.9 144.9 L 209.5 144.6 L 210.1 144.3 L 210.8 143.9 L 211.4 143.6 L 212.0 143.2 L 212.6 142.9 L 213.3 142.5 L 213.9 142.2 L 214.5 141.8 L 215.1 141.5 L 215.8 141.1 L 216.4 140.8 L 217.0 140.4 L 217.6 140.1 L 218.3 139.8 L 218.9 139.4 L 219.5 139.1 L 220.2 138.7 L 220.8 138.4 L 221.4 138.0 L 222.0 137.7 L 222.7 137.3 L 223.3 137.0 L 223.9 136.6 L 224.5 136.3 L 225.2 135.9 L 225.8 135.6 L 226.4 135.2 L 227.0 134.9 L 227.7 134.6 L 228.3 134.2 L 228.9 133.9 L 229.5 133.5 L 230.2 133.2 L 230.8 132.8 L 231.4 132.5 L 232.0 132.1 L 232.7 131.8 L 233.3 131.4 L 233.9 131.1 L 234.5 130.7 L 235.2 130.4 L 235.8 130.1 L 236.4 129.7 L 237.1 129.4 L 237.7 129.0 L 238.3 128.7 L 238.9 128.3 L 239.6 128.0 L 240.2 127.6 L 240.8 127.3 L 241.4 126.9 L 242.1 126.6 L 242.7 126.2 L 243.3 125.9 L 243.9 125.5 L 244.6 125.2 L 245.2 124.9 L 245.8 124.5 L 246.4 124.2 L 247.1 123.8 L 247.7 123.5 L 248.3 123.1 L 248.9 122.8 L 249.6 122.4 L 250.2 122.1 L 250.8 121.7 L 251.5 121.4 L 252.1 121.0 L 252.7 120.7 L 253.3 120.3 L 254.0 120.0 L 254.6 119.7 L 255.2 119.3 L 255.8 119.0 L 256.5 118.6 L 257.1 118.3 L 257.7 117.9 L 258.3 117.6 L 259.0 117.2 L 259.6 116.9 L 260.2 116.5 L 260.8 116.2 L 261.5 115.8 L 262.1 115.5 L 262.7 115.2 L 263.3 114.8 L 264.0 114.5 L 264.6 114.1 L 265.2 113.8 L 265.8 113.4 L 266.5 113.1 L 267.1 112.7 L 267.7 112.4 L 268.4 112.0 L 269.0 111.7 L 269.6 111.3 L 270.2 111.0 L 270.9 110.6 L 271.5 110.3 L 272.1 110.0 L 272.7 109.6 L 273.4 109.3 L 274.0 108.9 L 274.6 108.6 L 275.2 108.2 L 275.9 107.9 L 276.5 107.5 L 277.1 107.2 L 277.7 106.8 L 278.4 106.5 L 279.0 106.1 L 279.6 105.8 L 280.2 105.4 L 280.9 105.1 L 281.5 104.8 L 282.1 104.4 L 282.8 104.1 L 283.4 103.7 L 284.0 103.4 L 284.6 103.0 L 285.3 102.7 L 285.9 102.3 L 286.5 102.0 L 287.1 101.6 L 287.8 101.3 L 288.4 100.9 L 289.0 100.6 L 289.6 100.3 L 290.3 99.9 L 290.9 99.6 L 291.5 99.2 L 292.1 98.9 L 292.8 98.5 L 293.4 98.2 L 294.0 97.8 L 294.6 97.5 L 295.3 97.1 L 295.9 96.8 L 296.5 96.4 L 297.1 96.1 L 297.8 95.7 L 298.4 95.4 L 299.0 95.1 L 299.7 94.7 L 300.3 94.4 L 300.9 94.0 L 301.5 93.7 L 302.2 93.3 L 302.8 93.0 L 303.4 92.6 L 304.0 92.3 L 304.7 91.9 L 305.3 91.6 L 305.9 91.2 L 306.5 90.9 L 307.2 90.5 L 307.8 90.2 L 308.4 89.9 L 309.0 89.5 L 309.7 89.2 L 310.3 88.8 L 310.9 88.5 L 311.5 88.1 L 312.2 87.8 L 312.8 87.4 L 313.4 87.1 L 314.1 86.7 L 314.7 86.4 L 315.3 86.0 L 315.9 85.7 L 316.6 85.4 L 317.2 85.0 L 317.8 84.7 L 318.4 84.3 L 319.1 84.0 L 319.7 83.6 L 320.3 83.3 L 320.9 82.9 L 321.6 82.6 L 322.2 82.2 L 322.8 81.9 L 323.4 81.5 L 324.1 81.2 L 324.7 80.8 L 325.3 80.5 L 325.9 80.2 L 326.6 79.8 L 327.2 79.5 L 327.8 79.1 L 328.4 78.8 L 329.1 78.4 L 329.7 78.1 L 330.3 77.7 L 331.0 77.4 L 331.6 77.0 L 332.2 76.7 L 332.8 76.3 L 333.5 76.0 L 334.1 75.6 L 334.7 75.3 L 335.3 75.0 L 336.0 74.6 L 336.6 74.3 L 337.2 73.9 L 337.8 73.6 L 338.5 73.2 L 339.1 72.9 L 339.7 72.5 L 340.3 72.2 L 341.0 71.8 L 341.6 71.5 L 342.2 71.1 L 342.8 70.8 L 343.5 70.5 L 344.1 70.1 L 344.7 69.8 L 345.4 69.4 L 346.0 69.1 L 346.6 68.7 L 347.2 68.4 L 347.9 68.0 L 348.5 67.7 L 349.1 67.3 L 349.7 67.0 L 350.4 66.6 L 351.0 66.3 L 351.6 65.9 L 352.2 65.6 L 352.9 65.3 L 353.5 64.9 L 354.1 64.6 L 354.7 64.2 L 355.4 63.9 L 356.0 63.5 L 356.6 63.2 L 357.2 62.8 L 357.9 62.5 L 358.5 62.1 L 359.1 61.8 L 359.7 61.4 L 360.4 61.1 L 361.0 60.8\" fill=\"none\" stroke=\"#C74440\" stroke-width=\"2.5\" /><text x=\"377\" y=\"188.5\" font-size=\"12\" fill=\"#2B2527\">x</text><text x=\"172.1\" y=\"16\" font-size=\"12\" fill=\"#2B2527\">y</text><circle cx=\"226.9\" cy=\"135.0\" r=\"5\" fill=\"#fff\" stroke=\"#C74440\" stroke-width=\"2\" /></svg></span><p>Grafen motsvarar \\(f(x)=\\frac{x^2-1}{x-1}\\) för \\(x\\ne1\\). Bestäm \\(\\lim_{x\\to1}f(x)\\) och förklara varför gränsvärdet kan finnas trots att funktionen inte är definierad där.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Faktorisera täljaren:</p><div class=\"facit-matte\">\\[x^2-1=(x-1)(x+1)\\].</div></div></li><li><p>För \\(x\\ne1\\) är därför \\(f(x)=x+1\\), så gränsvärdet är 2.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Faktorisera täljaren:</p><div class=\"facit-matte\">\\[x^2-1=(x-1)(x+1)\\].</div></div></li><li><p>För \\(x\\ne1\\) är därför \\(f(x)=x+1\\), så gränsvärdet är 2.</p></li></ol></div></div>",
     "familj": "Beräkna gränsvärden",
     "geogebra": false,
     "miniräknare": true,
@@ -13437,7 +13437,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En bakteriekultur kan beskrivas med funktionen</p><p>\\[N(t)=150\\cdot 1{,}12^t.\\]</p><p>a) Vad är startvärdet?<br>b) Vilken procentuell ökning motsvarar tillväxtfaktorn?<br>c) Skriv funktionen med basen \\(e\\), alltså på formen \\(N(t)=150e^{kt}\\), och bestäm \\(k\\) med fyra decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Startvärdet är värdet när</p><div class=\"facit-matte\">\\[t=0\\]:</div></div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[N(0)=150\\cdot 1{,}12^0=150.\\]</p></li><li><p>Alltså är startvärdet \\(150\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tillväxtfaktorn är \\(1{,}12\\), vilket innebär en ökning med \\(12\\,\\%\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(a^t=e^{t\\ln a}\\) kan vi skriva</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[1{,}12^t=e^{t\\ln(1,12)}.\\]</p></li><li><p>Därför blir</p></li><li><p>\\[N(t)=150e^{t\\ln(1,12)}.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså är</p><div class=\"facit-matte\">\\[k=\\ln(1,12)\\approx 0{,}1133\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(\\boxed{150}\\) &nbsp;&nbsp; b) \\(\\boxed{12\\%}\\) &nbsp;&nbsp; c) \\(\\boxed{N(t)=150e^{0{,}1133t}}\\) ungefär.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Startvärdet är värdet när \\(t=0\\)</p><div class=\"facit-matte\">\\[N(0)=150\\cdot1{,}12^0=150\\cdot1=150\\]</div></li><li><p class=\"facit-rubrik\">b) Förändringsfaktorn 1,12 betyder +12 %</p><div class=\"facit-matte\">\\[1{,}12=1+0{,}12\\]</div></li><li><p class=\"facit-rubrik\">c) Byt bas: \\(a^x=e^{x\\ln a}\\), eftersom \\(a=e^{\\ln a}\\)</p><div class=\"facit-matte\">\\[1{,}12^t=e^{t\\ln1{,}12}\\quad\\Rightarrow\\quad k=\\ln1{,}12\\approx0{,}1133\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 150 &nbsp; b) 12 % &nbsp; c) \\(N(t)=150e^{0{,}1133t}\\)</p></div>",
     "familj": "Skriva a^x med basen e",
     "geogebra": false,
     "miniräknare": true,
@@ -13632,39 +13632,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "2.08",
-  "kap": 2,
-  "omr": "derivata_a_x",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Skriv om funktionen</p><p>\\[f(x)=5e^{0{,}4x}\\]</p><p>på formen \\(f(x)=5\\cdot a^x\\). Bestäm värdet på \\(a\\).</p><p>Svara med två decimaler.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Potenslagen \\(a^{uv}=(a^u)^v\\) ger \\(e^{0{,}4x}=(e^{0{,}4})^x\\).</p></li><li><p>Därför är \\(a=e^{0{,}4}\\approx1{,}49\\), så funktionen kan skrivas \\(f(x)=5\\cdot(e^{0{,}4})^x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(1{,}49\\)</strong></p></div>",
-  "familj": "Skriva a^x med basen e",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 1.4918246976412703,
-  "tolerans": 0.005,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Använd potenslagen \\(a^{uv}=(a^u)^v\\) för att få \\(x\\) som exponent på hela basen.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Skriva exponentialfunktioner med basen e"
-  ]
-},
+    "id": "2.08",
+    "kap": 2,
+    "omr": "derivata_a_x",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Skriv om funktionen</p><p>\\[f(x)=5e^{0{,}4x}\\]</p><p>på formen \\(f(x)=5\\cdot a^x\\). Bestäm värdet på \\(a\\).</p><p>Svara med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potenslagen: \\(e^{0{,}4x}=(e^{0{,}4})^x\\)</p><div class=\"facit-matte\">\\[5e^{0{,}4x}=5\\cdot\\left(e^{0{,}4}\\right)^x\\]</div></li><li><p class=\"facit-rubrik\">Basen a är \\(e^{0{,}4}\\)</p><div class=\"facit-matte\">\\[a=e^{0{,}4}\\approx1{,}49\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,49</p></div>",
+    "familj": "Skriva a^x med basen e",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.4918246976412703,
+    "tolerans": 0.005,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd potenslagen \\(a^{uv}=(a^u)^v\\) för att få \\(x\\) som exponent på hela basen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Skriva exponentialfunktioner med basen e"
+    ]
+  },
   {
     "id": "2.09",
     "kap": 2,
@@ -13676,7 +13676,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion \\(s(t)\\) gäller att tangenten till grafen i punkten där \\(t=3\\) har ekvationen</p><p>\\[y=5t-4.\\]</p><p>a) Bestäm \\(s^{\\prime}(3)\\).<br>b) Vad betyder detta värde om \\(s\\) är en sträcka i meter och \\(t\\) mäts i sekunder?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan i en punkt är tangentens lutning i den punkten.</p></li><li><p>Tangentens ekvation är \\(y=5t-4\\), så lutningen är \\(5\\).</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>Alltså är</p></li><li><p>\\[s^{\\prime}(3)=5.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om \\(s\\) är sträcka i meter och \\(t\\) är tid i sekunder betyder derivatan hastigheten vid den aktuella tidpunkten.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{s^{\\prime}(3)=5}\\). Det betyder att hastigheten vid \\(t=3\\) s är \\(\\boxed{5\\text{ m/s}}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Derivatan i en punkt är tangentens lutning</p><div class=\"facit-matte\">\\[y=5t-4\\quad\\Rightarrow\\quad s'(3)=5\\]</div></li><li><p class=\"facit-rubrik\">b) Enheten: meter per sekund</p><p>Derivatan av sträcka (m) med avseende på tid (s) är en hastighet. Vid \\(t=3\\) s är hastigheten 5 m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(s'(3)=5\\) &nbsp; b) hastigheten är 5 m/s vid \\(t=3\\) s</p></div>",
     "familj": "Derivata som tangentens lutning",
     "geogebra": false,
     "miniräknare": true,
@@ -13795,7 +13795,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen</p><p>\\[4e^{0{,}3x}=9\\]</p><p>algebraiskt. Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vi börjar med att isolera exponentialtermen:</p><p>\\[e^{0{,}3x}=\\frac94.\\]</p></li><li><p>Logaritmera båda leden med den naturliga logaritmen:</p><p>\\[\\ln(e^{0,3x})=\\ln\\left(\\frac94\\right).\\]</p></li><li><p>Eftersom \\(\\ln(e^u)=u\\) får vi</p><p>\\[0{,}3x=\\ln\\left(\\frac94\\right).\\]</p></li><li><p>Lös ut \\(x\\):</p><p>\\[x=\\frac{\\ln(9/4)}{0{,}3}.\\]</p></li><li><p>Med räknare:</p><p>\\[x\\approx \\frac{0{,}81093}{0{,}3}\\approx 2{,}70.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x\\approx 2{,}70}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Få potensen ensam: dela med 4</p><div class=\"facit-matte\">\\[e^{0{,}3x}=\\frac94\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera: \\(\\ln(e^u)=u\\)</p><div class=\"facit-matte\">\\[0{,}3x=\\ln\\frac94\\]</div></li><li><p class=\"facit-rubrik\">Dela med 0,3</p><div class=\"facit-matte\">\\[x=\\frac{\\ln(9/4)}{0{,}3}\\approx\\frac{0{,}8109}{0{,}3}\\approx2{,}70\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx2{,}70\\)</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -13807,7 +13807,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd att logaritmen är invers till exponentialfunktionen. Produkt blir summa av logaritmer, kvot blir differens och exponent kan flyttas framför.</p>",
+    "ledtrad": "<p>Dela först med 4 så att \\(e^{0{,}3x}\\) står ensam. Ta sedan ln av båda leden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -13996,40 +13996,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "2.17",
-  "kap": 2,
-  "omr": "begreppet_derivata",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Tabellen visar några värden för en funktion \\(f\\).</p><table class=\"tabell\"><tr><th>\\(x\\)</th><th>1,9</th><th>2,0</th><th>2,1</th></tr><tr><th>\\(f(x)\\)</th><td>4,61</td><td>5,00</td><td>5,41</td></tr></table><p>Använd värdena i tabellen för att approximera \\(f^{\\prime}(2)\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> En bra approximation fås med en symmetrisk ändringskvot:</p><p>\\[f^{\\prime}(2)\\approx \\frac{f(2,1)-f(1,9)}{2{,}1-1{,}9}.\\]</p></li><li><p>Sätt in tabellvärdena:</p><p>\\[f^{\\prime}(2)\\approx \\frac{5{,}41-4{,}61}{0{,}2}=\\frac{0{,}80}{0{,}2}=4{,}0.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{f^{\\prime}(2)\\approx 4}\\).</p></div>",
-  "familj": "Derivata som tangentens lutning",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 4,
-  "tolerans": 0.01,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>En bra approximation fås med en symmetrisk ändringskvot: Derivera funktionen först och sätt sedan in det aktuella x-värdet.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "derivatabegrepp"
-  ],
-  "familjTidigare": [
-    "Derivata som förändringshastighet och tangentlutning"
-  ]
-},
+    "id": "2.17",
+    "kap": 2,
+    "omr": "begreppet_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Tabellen visar några värden för en funktion \\(f\\).</p><table class=\"tabell\"><tr><th>\\(x\\)</th><th>1,9</th><th>2,0</th><th>2,1</th></tr><tr><th>\\(f(x)\\)</th><td>4,61</td><td>5,00</td><td>5,41</td></tr></table><p>Använd värdena i tabellen för att approximera \\(f^{\\prime}(2)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetrisk ändringskvot runt \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(2)\\approx\\frac{f(2{,}1)-f(1{,}9)}{2{,}1-1{,}9}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in tabellvärdena</p><div class=\"facit-matte\">\\[\\frac{5{,}41-4{,}61}{0{,}2}=\\frac{0{,}80}{0{,}2}=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(2)\\approx4\\)</p></div>",
+    "familj": "Derivata som tangentens lutning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd värdena på båda sidor om \\(x=2\\) och beräkna lutningen mellan dem.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "derivatabegrepp"
+    ],
+    "familjTidigare": [
+      "Derivata som förändringshastighet och tangentlutning"
+    ]
+  },
   {
     "id": "2.18",
     "kap": 2,
@@ -14140,69 +14140,69 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "2.20",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Funktionen är \\(f(x)=3e^{0{,}5x}\\).</p><p>a) Bestäm \\(f'(x)\\).</p><p>b) Bestäm tangentens ekvation vid x = 0.</p>",
-  "s": "<p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan av \\(e^{0{,}5x}\\) innehåller faktorn 0,5 från exponenten.</p><div class=\"facit-matte\">\\[f'(x)=3\\cdot0{,}5e^{0{,}5x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(f'(x)=1{,}5e^{0{,}5x}\\).</strong></p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid x = 0 är f(0) = 3. Derivatan är \\(f'(x)=1{,}5e^{0{,}5x}\\), så tangentens lutning är f′(0) = 1,5.</p></li><li><p>Linjen har lutningen 1,5 och skär y-axeln i 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(y=1{,}5x+3\\).</strong></p></div>",
-  "familj": "Tangenter och lutning för e^kx",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    "1.5*e^(0.5*x)",
-    "1.5*x+3"
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "ledtrad": "<p>Bestäm först tangentpunkten och lutningen \\(k=f'(a)\\). Sätt sedan in dem i punkt–riktningsformen \\(y-f(a)=f'(a)(x-a)\\).</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Fördjupade tangentproblem med derivata"
-  ],
-  "svarFormat": [
-    "uttryck",
-    "uttryck"
-  ],
-  "svarsstruktur": "ordnad",
-  "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "etikett": "a",
+    "id": "2.20",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3e^{0{,}5x}\\).</p><p>a) Bestäm \\(f'(x)\\).</p><p>b) Bestäm tangentens ekvation vid x = 0.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) med \\(k=0{,}5\\)</p><div class=\"facit-matte\">\\[f'(x)=3\\cdot0{,}5e^{0{,}5x}=1{,}5e^{0{,}5x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=1{,}5e^{0{,}5x}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten och lutningen i \\(x=0\\)</p><div class=\"facit-matte\">\\[f(0)=3e^0=3,\\qquad f'(0)=1{,}5e^0=1{,}5\\]</div></li><li><p class=\"facit-rubrik\">Tangenten genom \\((0,\\,3)\\)</p><div class=\"facit-matte\">\\[y=1{,}5x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=1{,}5x+3\\)</p></div></div>",
+    "familj": "Tangenter och lutning för e^kx",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1.5*e^(0.5*x)",
+      "1.5*x+3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentpunkten och lutningen \\(k=f'(a)\\). Sätt sedan in dem i punkt–riktningsformen \\(y-f(a)=f'(a)(x-a)\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Fördjupade tangentproblem med derivata"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
         "ledtrad": "<p>När du deriverar \\(e^{ax}\\) multiplicerar du med konstanten \\(a\\).</p>",
-      "t": "<p>Funktionen är \\(f(x)=3e^{0{,}5x}\\).</p><p>Bestäm \\(f'(x)\\).</p>",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan av \\(e^{0{,}5x}\\) innehåller faktorn 0,5 från exponenten.</p><div class=\"facit-matte\">\\[f'(x)=3\\cdot0{,}5e^{0{,}5x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(f'(x)=1{,}5e^{0{,}5x}\\).</strong></p></div>",
-      "traningsniva": 2,
-      "arbetsinsats": 1,
-      "poang": "1/0/0"
-    },
-    {
-      "etikett": "b",
-      "t": "<p>Funktionen är \\(f(x)=3e^{0{,}5x}\\).</p><p>Bestäm tangentens ekvation vid x = 0.</p>",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid x = 0 är f(0) = 3. Derivatan är \\(f'(x)=1{,}5e^{0{,}5x}\\), så tangentens lutning är f′(0) = 1,5.</p></li><li><p>Linjen har lutningen 1,5 och skär y-axeln i 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(y=1{,}5x+3\\).</strong></p></div>",
-      "traningsniva": 2,
-      "arbetsinsats": 2,
-      "poang": "1/0/0"
-    }
-  ]
-},
+        "t": "<p>Funktionen är \\(f(x)=3e^{0{,}5x}\\).</p><p>Bestäm \\(f'(x)\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) med \\(k=0{,}5\\)</p><div class=\"facit-matte\">\\[f'(x)=3\\cdot0{,}5e^{0{,}5x}=1{,}5e^{0{,}5x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=1{,}5e^{0{,}5x}\\)</p></div>",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Funktionen är \\(f(x)=3e^{0{,}5x}\\).</p><p>Bestäm tangentens ekvation vid x = 0.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten och lutningen i \\(x=0\\)</p><div class=\"facit-matte\">\\[f(0)=3e^0=3,\\qquad f'(0)=1{,}5e^0=1{,}5\\]</div></li><li><p class=\"facit-rubrik\">Tangenten genom \\((0,\\,3)\\)</p><div class=\"facit-matte\">\\[y=1{,}5x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=1{,}5x+3\\)</p></div>",
+        "traningsniva": 2,
+        "arbetsinsats": 2,
+        "poang": "1/0/0"
+      }
+    ]
+  },
   {
     "id": "2.21",
     "kap": 2,
@@ -14357,7 +14357,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Antalet bakterier i en odling växer exponentiellt med tiden. Klockan 08.00 finns det 1800 bakterier och klockan 14.00 finns det 8100 bakterier.</p><p>Vid vilken tidpunkt växer bakterieantalet med 900 bakterier per timme?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><p class=\"facit-svar\"><strong>Steg 1: Ställ upp modellen.</strong></p><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(t\\) vara antalet timmar efter 08.00.</p></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[N(t)=1800e^{kt}\\].</div></div></li><li><p>Villkoret \\(N(6)=8100\\) ger</p><p>\\[e^{6k}=4{,}5\\Rightarrow k=\\frac{\\ln(4,5)}6.\\]</p></li></ol><p class=\"facit-svar\"><strong>Steg 2: Bestäm tillväxthastigheten.</strong></p><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[N^{\\prime}(t)=1800\\cdot\\frac{\\ln(4,5)}6e^{\\frac{\\ln(4,5)}6t}.\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[N^{\\prime}(t)=900\\]:</div></div></li><li><p>\\[1800\\cdot\\frac{\\ln(4,5)}6e^{\\frac{\\ln(4,5)}6t}=900.\\]</p></li><li><p>Efter division och logaritmering:</p></li><li><p>\\[t=\\frac{6\\ln\\!\\left(\\frac{3}{\\ln(4,5)}\\right)}{\\ln(4,5)}\\approx 2{,}754.\\]</p></li><li><p>Det är ungefär 2 h 45 min efter 08.00.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(\\boxed{10.45}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modell med t = timmar efter kl. 08.00</p><div class=\"facit-matte\">\\[N(t)=1800e^{kt}\\]</div></li><li><p class=\"facit-rubrik\">Bestäm k med mätningen kl. 14.00 (t = 6)</p><div class=\"facit-matte\">\\[1800e^{6k}=8100\\quad\\Rightarrow\\quad e^{6k}=4{,}5\\]</div><div class=\"facit-matte\">\\[k=\\frac{\\ln4{,}5}{6}\\approx0{,}2507\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\) – tillväxthastigheten ska vara 900</p><div class=\"facit-matte\">\\[1800k\\,e^{kt}=900\\quad\\Rightarrow\\quad e^{kt}=\\frac{900}{1800k}\\approx1{,}994\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[t=\\frac{\\ln1{,}994}{k}\\approx2{,}754\\ \\text{h}\\]</div></li><li><p class=\"facit-rubrik\">Räkna om till klockslag</p><div class=\"facit-matte\">\\[2{,}754\\ \\text{h}\\approx2\\ \\text{h}\\ 45\\ \\text{min}\\]</div><p>08.00 + 2 h 45 min = 10.45.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> omkring kl. 10.45</p></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -14371,7 +14371,7 @@ window.BANKMATO1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "ledtrad": "<p>Bestäm först k ur de två mätningarna. Tillväxthastigheten är derivatan; sätt den lika med 900.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "spel": true,
@@ -14568,7 +14568,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv om \\(f(x)=3\\cdot 2^x\\) på formen \\(f(x)=3e^{kx}\\). Bestäm \\(k\\) med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f(x)=3\\cdot 2^x=3e^{x\\ln 2}\\]</p></li><li><div class=\"facit-berakning\"><p>Jämför med</p><div class=\"facit-matte\">\\[f(x)=3e^{kx}\\]:</div></div><p>\\[k=\\ln 2\\approx 0{,}693\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=\\ln 2\\approx 0{,}693\\), alltså \\(f(x)\\approx 3e^{0{,}693x}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Byt bas: \\(a^x=e^{x\\ln a}\\), eftersom \\(a=e^{\\ln a}\\)</p><div class=\"facit-matte\">\\[2^x=e^{x\\ln2}\\quad\\Rightarrow\\quad 3\\cdot2^x=3e^{x\\ln2}\\]</div></li><li><p class=\"facit-rubrik\">Jämför med \\(3e^{kx}\\)</p><div class=\"facit-matte\">\\[k=\\ln2\\approx0{,}693\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=\\ln2\\approx0{,}693\\)</p></div>",
     "familj": "Skriva a^x med basen e",
     "geogebra": false,
     "miniräknare": true,
@@ -14602,7 +14602,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En bils position längs en rak väg beskrivs av</p><p>\\[s(t)=t^3-6t^2+9t,\\qquad t\\ge0.\\]</p><p>Bestäm de tidpunkter då bilen står stilla.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bilen står stilla när hastigheten \\(v(t)=s'(t)\\) är noll:</p><p>\\[s'(t)=3t^2-12t+9=3(t-1)(t-3).\\]</p></li><li><p>Alltså \\(t=1\\) eller \\(t=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(t=1\\) och \\(t=3\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stilla betyder hastigheten noll</p><div class=\"facit-matte\">\\[v(t)=s'(t)=3t^2-12t+9=0\\]</div></li><li><p class=\"facit-rubrik\">Dela med 3 för normalform</p><div class=\"facit-matte\">\\[t^2-4t+3=0\\]</div></li><li><p class=\"facit-rubrik\">Pq-formeln</p><div class=\"facit-matte\">\\[t=2\\pm\\sqrt{4-3}=2\\pm1\\quad\\Rightarrow\\quad t=1\\ \\text{eller}\\ t=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=1\\) och \\(t=3\\)</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -14704,7 +14704,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv om \\(f(x)=3\\cdot 5^x\\) på formen \\(f(x)=3e^{kx}\\). Bestäm \\(k\\) med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[a^x=e^{x\\ln a}\\]:</div></div><p>\\[5^x=e^{x\\ln(5)}.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså är</p><div class=\"facit-matte\">\\[k=\\ln(5)\\approx 1{,}609\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{f(x)=3e^{1{,}609x}}\\) ungefär.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Byt bas: \\(a^x=e^{x\\ln a}\\), eftersom \\(a=e^{\\ln a}\\)</p><div class=\"facit-matte\">\\[5^x=e^{x\\ln5}\\]</div></li><li><p class=\"facit-rubrik\">Exponenterna ska vara lika</p><div class=\"facit-matte\">\\[kx=x\\ln5\\quad\\Rightarrow\\quad k=\\ln5\\approx1{,}609\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx1{,}609\\)</p></div>",
     "familj": "Skriva a^x med basen e",
     "geogebra": false,
     "miniräknare": true,
@@ -14716,7 +14716,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Tänk så här: Exponentialdelen ändrar i princip inte form vid derivering; det som tillkommer är en faktor från exponenten eller från ln(a). Markera den faktorn tydligt innan du räknar vidare.</p>",
+    "ledtrad": "<p>Vilket tal k uppfyller \\(e^k=5\\)? Då är \\(5^x=(e^k)^x=e^{kx}\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -14838,7 +14838,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv om \\(f(x)=3\\cdot 1{,}08^x\\) på formen \\(f(x)=3e^{kx}\\). Bestäm \\(k\\) med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[a^x=e^{x\\ln a}\\]:</div></div><p>\\[1{,}08^x=e^{x\\ln(1,08)}.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså är</p><div class=\"facit-matte\">\\[k=\\ln(1,08)\\approx 0{,}077\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{f(x)=3e^{0{,}077x}}\\) ungefär.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Basen 1,08 ska skrivas som en potens av e</p><div class=\"facit-matte\">\\[1{,}08=e^{\\ln1{,}08}\\]</div></li><li><p class=\"facit-rubrik\">Då blir exponenten</p><div class=\"facit-matte\">\\[1{,}08^x=e^{x\\ln1{,}08}\\quad\\Rightarrow\\quad k=\\ln1{,}08\\approx0{,}077\\]</div></li><li><p class=\"facit-rubrik\">Rimligt: k är positivt</p><p>Basen är större än 1, så funktionen växer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}077\\)</p></div>",
     "familj": "Skriva a^x med basen e",
     "geogebra": false,
     "miniräknare": true,
@@ -14850,7 +14850,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Tänk så här: För exponentialfunktioner måste man skilja på \\(e^x\\) och \\(a^x\\). Derivatan av \\(e^{kx}\\) ger en extra faktor \\(k\\), medan \\(a^x\\) ger faktorn \\(\\ln a\\). Den faktorn är det vanligaste steget att missa.</p>",
+    "ledtrad": "<p>Vilket tal k uppfyller \\(e^k=1{,}08\\)? Använd naturliga logaritmen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -14972,7 +14972,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv om \\(f(x)=3\\cdot 0{,}93^x\\) på formen \\(f(x)=3e^{kx}\\). Bestäm \\(k\\) med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[a^x=e^{x\\ln a}\\]:</div></div><p>\\[0{,}93^x=e^{x\\ln(0,93)}.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså är</p><div class=\"facit-matte\">\\[k=\\ln(0,93)\\approx -0{,}073\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{f(x)=3e^{-0{,}073x}}\\) ungefär.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Byt bas: \\(a^x=e^{x\\ln a}\\), eftersom \\(a=e^{\\ln a}\\)</p><div class=\"facit-matte\">\\[0{,}93^x=e^{x\\ln0{,}93}\\]</div></li><li><p class=\"facit-rubrik\">k är logaritmen av basen</p><div class=\"facit-matte\">\\[k=\\ln0{,}93\\approx-0{,}073\\]</div></li><li><p class=\"facit-rubrik\">Negativt k: funktionen avtar</p><p>Basen 0,93 är mindre än 1, och då är \\(\\ln\\) av den negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx-0{,}073\\)</p></div>",
     "familj": "Skriva a^x med basen e",
     "geogebra": false,
     "miniräknare": true,
@@ -14984,7 +14984,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera först vilken exponentialregel som passar. Om exponenten själv innehåller x används även derivatan av exponenten som faktor. Behåll exponentialdelen oförändrad och förenkla koefficienterna sist.</p>",
+    "ledtrad": "<p>Skriv 0,93 som \\(e^k\\). Vad blir k? Tänk på vilket tecken k får när basen är mindre än 1.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -15107,39 +15107,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "2.44",
-  "kap": 2,
-  "omr": "naturliga_logaritmer",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Lös ekvationen</p><p>\\[2e^{0{,}4x}=7.\\]</p><p>Svara med två decimaler.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dividera båda leden med 2: \\[e^{0{,}4x}=\\frac{7}{2}.\\]</p></li><li><p>Logaritmera och använd \\(\\ln(e^u)=u\\): \\[0{,}4x=\\ln\\left(\\frac{7}{2}\\right).\\]</p></li><li><p>Dividera med \\(0{,}4\\): \\[x=\\frac{\\ln(7/2)}{0{,}4}\\approx 3{,}13.\\]</p></li><li><p>Behåll det exakta bråket i beräkningen och avrunda först svaret.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(3{,}13\\)</strong></p></div>",
-  "familj": "Naturliga logaritmer och ekvationer",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 3.13190742123842,
-  "tolerans": 0.005,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Först när exponentialtermen är ensam är logaritmeringen enkel att följa. Ta ln på båda sidor, förenkla med logaritmlagarna och lös den återstående ekvationen. Kontrollera till sist att eventuella definitionsvillkor är uppfyllda.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Lösa exponentialekvationer med naturlig logaritm"
-  ]
-},
+    "id": "2.44",
+    "kap": 2,
+    "omr": "naturliga_logaritmer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen</p><p>\\[2e^{0{,}4x}=7.\\]</p><p>Svara med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela båda leden med 2</p><div class=\"facit-matte\">\\[e^{0{,}4x}=3{,}5\\]</div></li><li><p class=\"facit-rubrik\">Ta ln av båda leden</p><div class=\"facit-matte\">\\[0{,}4x=\\ln3{,}5\\]</div></li><li><p class=\"facit-rubrik\">Dela med 0,4</p><div class=\"facit-matte\">\\[x=\\frac{\\ln3{,}5}{0{,}4}\\approx3{,}13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx3{,}13\\)</p></div>",
+    "familj": "Naturliga logaritmer och ekvationer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.13190742123842,
+    "tolerans": 0.005,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Först när exponentialtermen är ensam är logaritmeringen enkel att följa. Ta ln på båda sidor, förenkla med logaritmlagarna och lös den återstående ekvationen. Kontrollera till sist att eventuella definitionsvillkor är uppfyllda.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Lösa exponentialekvationer med naturlig logaritm"
+    ]
+  },
   {
     "id": "2.45",
     "kap": 2,
@@ -15255,39 +15255,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "2.48",
-  "kap": 2,
-  "omr": "naturliga_logaritmer",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Lös ekvationen</p><p>\\[5e^{0{,}2x}=12.\\]</p><p>Svara med två decimaler.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dividera båda leden med 5: \\[e^{0{,}2x}=\\frac{12}{5}.\\]</p></li><li><p>Logaritmera och använd \\(\\ln(e^u)=u\\): \\[0{,}2x=\\ln\\left(\\frac{12}{5}\\right).\\]</p></li><li><p>Dividera med \\(0{,}2\\): \\[x=\\frac{\\ln(12/5)}{0{,}2}\\approx 4{,}38.\\]</p></li><li><p>Behåll det exakta bråket i beräkningen och avrunda först svaret.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4{,}38\\)</strong></p></div>",
-  "familj": "Naturliga logaritmer och ekvationer",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 4.377343686769499,
-  "tolerans": 0.005,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Målet är först att isolera exponentialtermen. När den står ensam kan båda leden logaritmeras, eftersom ln och exponentialfunktionen är inverser. Därefter blir exponenten en vanlig linjär eller algebraisk ekvation.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Lösa exponentialekvationer med naturlig logaritm"
-  ]
-},
+    "id": "2.48",
+    "kap": 2,
+    "omr": "naturliga_logaritmer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen</p><p>\\[5e^{0{,}2x}=12.\\]</p><p>Svara med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exponentialtermen ensam: dela med 5</p><div class=\"facit-matte\">\\[e^{0{,}2x}=2{,}4\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera: \\(\\ln(e^u)=u\\)</p><div class=\"facit-matte\">\\[0{,}2x=\\ln2{,}4\\]</div></li><li><p class=\"facit-rubrik\">Lös ut x</p><div class=\"facit-matte\">\\[x=\\frac{\\ln2{,}4}{0{,}2}\\approx4{,}38\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx4{,}38\\)</p></div>",
+    "familj": "Naturliga logaritmer och ekvationer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.377343686769499,
+    "tolerans": 0.005,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Målet är först att isolera exponentialtermen. När den står ensam kan båda leden logaritmeras, eftersom ln och exponentialfunktionen är inverser. Därefter blir exponenten en vanlig linjär eller algebraisk ekvation.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Lösa exponentialekvationer med naturlig logaritm"
+    ]
+  },
   {
     "id": "2.49",
     "kap": 2,
@@ -15391,39 +15391,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "2.52",
-  "kap": 2,
-  "omr": "naturliga_logaritmer",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Lös ekvationen</p><p>\\[3e^{0{,}5x}=20.\\]</p><p>Svara med två decimaler.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dividera båda leden med 3: \\[e^{0{,}5x}=\\frac{20}{3}.\\]</p></li><li><p>Logaritmera och använd \\(\\ln(e^u)=u\\): \\[0{,}5x=\\ln\\left(\\frac{20}{3}\\right).\\]</p></li><li><p>Dividera med \\(0{,}5\\): \\[x=\\frac{\\ln(20/3)}{0{,}5}\\approx 3{,}79.\\]</p></li><li><p>Behåll det exakta bråket i beräkningen och avrunda först svaret.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(3{,}79\\)</strong></p></div>",
-  "familj": "Naturliga logaritmer och ekvationer",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 3.7942399697717626,
-  "tolerans": 0.005,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Isolera potensen med \\(e\\) eller \\(a^x\\) innan du tar logaritmen. Använd sedan \\(\\ln(e^u)=u\\) eller \\(\\ln(a^x)=x\\ln a\\). Logaritmen är alltså verktyget som ”tar ner” den okända ur exponenten.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Lösa exponentialekvationer med naturlig logaritm"
-  ]
-},
+    "id": "2.52",
+    "kap": 2,
+    "omr": "naturliga_logaritmer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen</p><p>\\[3e^{0{,}5x}=20.\\]</p><p>Svara med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela med 3</p><div class=\"facit-matte\">\\[e^{0{,}5x}=\\frac{20}{3}\\]</div></li><li><p class=\"facit-rubrik\">Naturliga logaritmen tar ner exponenten</p><div class=\"facit-matte\">\\[0{,}5x=\\ln\\frac{20}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med 2</p><div class=\"facit-matte\">\\[x=2\\ln\\frac{20}{3}\\approx3{,}79\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx3{,}79\\)</p></div>",
+    "familj": "Naturliga logaritmer och ekvationer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.7942399697717626,
+    "tolerans": 0.005,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Isolera potensen med \\(e\\) eller \\(a^x\\) innan du tar logaritmen. Använd sedan \\(\\ln(e^u)=u\\) eller \\(\\ln(a^x)=x\\ln a\\). Logaritmen är alltså verktyget som ”tar ner” den okända ur exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Lösa exponentialekvationer med naturlig logaritm"
+    ]
+  },
   {
     "id": "2.53",
     "kap": 2,
@@ -15548,7 +15548,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "4/0/0",
     "t": "<p>Derivera. Endast svar krävs.</p><p>a) \\(2e^{3x}\\)<br>b) \\(5e^{-0{,}5x}\\)<br>c) \\(7^x\\)<br>d) \\(3\\cdot2^x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6e^{3x}\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2{,}5e^{-0{,}5x}\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7^x\\ln7\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3\\cdot2^x\\ln2\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\), här \\(k=3\\)</p><div class=\"facit-matte\">\\[(2e^{3x})'=2\\cdot3e^{3x}=6e^{3x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6e^{3x}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorn \\(-0{,}5\\) från exponenten</p><div class=\"facit-matte\">\\[(5e^{-0{,}5x})'=5\\cdot(-0{,}5)e^{-0{,}5x}=-2{,}5e^{-0{,}5x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2{,}5e^{-0{,}5x}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\) är \\(a^x\\ln a\\)</p><div class=\"facit-matte\">\\[(7^x)'=7^x\\ln7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7^x\\ln7\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorn \\(\\ln2\\) tillkommer, 3 står kvar</p><div class=\"facit-matte\">\\[(3\\cdot2^x)'=3\\cdot2^x\\ln2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\cdot2^x\\ln2\\)</p></div></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -15582,7 +15582,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(2e^{3x}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6e^{3x}\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\), här \\(k=3\\)</p><div class=\"facit-matte\">\\[(2e^{3x})'=2\\cdot3e^{3x}=6e^{3x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6e^{3x}\\)</p></div>",
         "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -15590,7 +15590,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(5e^{-0{,}5x}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2{,}5e^{-0{,}5x}\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorn \\(-0{,}5\\) från exponenten</p><div class=\"facit-matte\">\\[(5e^{-0{,}5x})'=5\\cdot(-0{,}5)e^{-0{,}5x}=-2{,}5e^{-0{,}5x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2{,}5e^{-0{,}5x}\\)</p></div>",
         "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -15598,7 +15598,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(7^x\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7^x\\ln7\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\) är \\(a^x\\ln a\\)</p><div class=\"facit-matte\">\\[(7^x)'=7^x\\ln7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7^x\\ln7\\)</p></div>",
         "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -15606,13 +15606,13 @@ window.BANKMATO1 = [
       {
         "etikett": "d",
         "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(3\\cdot2^x\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3\\cdot2^x\\ln2\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorn \\(\\ln2\\) tillkommer, 3 står kvar</p><div class=\"facit-matte\">\\[(3\\cdot2^x)'=3\\cdot2^x\\ln2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\cdot2^x\\ln2\\)</p></div>",
         "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Exponentialdelen ändrar i princip inte form vid derivering; det som tillkommer är en faktor från exponenten eller från ln(a). Markera den faktorn tydligt innan du räknar vidare.</p>",
+    "ledtrad": "<p>Vid \\(e^{kx}\\) tillkommer faktorn k. Vid \\(a^x\\) tillkommer faktorn \\(\\ln a\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "spel": true,
@@ -15747,7 +15747,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm tangentens ekvation till \\(f(x)=4e^{0{,}5x}\\) vid \\(x=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f(0)=4e^{0}=4\\), så tangeringspunkten är \\((0,4)\\).</p></li><li><p>\\(f^{\\prime}(x)=4\\cdot0{,}5e^{0{,}5x}=2e^{0{,}5x}\\), så lutningen är \\(f^{\\prime}(0)=2\\).</p></li><li><p>Tangenten: \\(y-4=2(x-0)\\), alltså \\(y=2x+4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+4\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangeringspunkten</p><div class=\"facit-matte\">\\[f(0)=4e^0=4\\quad\\Rightarrow\\quad(0,\\,4)\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\)</p><div class=\"facit-matte\">\\[f'(x)=4\\cdot0{,}5e^{0{,}5x}=2e^{0{,}5x}\\quad\\Rightarrow\\quad f'(0)=2\\]</div></li><li><p class=\"facit-rubrik\">Tangenten genom \\((0,\\,4)\\) med lutningen 2</p><div class=\"facit-matte\">\\[y=2x+4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+4\\)</p></div>",
     "familj": "Tangenter och lutning för e^kx",
     "geogebra": false,
     "miniräknare": false,
@@ -15759,7 +15759,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Viktigt steg: Målet är först att isolera exponentialtermen. När den står ensam kan båda leden logaritmeras, eftersom ln och exponentialfunktionen är inverser. Därefter blir exponenten en vanlig linjär eller algebraisk ekvation.</p>",
+    "ledtrad": "<p>Du behöver punkten \\((0,\\,f(0))\\) och lutningen \\(f'(0)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -15883,7 +15883,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Bestäm tangentens ekvation till \\(f(x)=2e^{-0{,}3x}\\) vid \\(x=2\\). Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=-0{,}6e^{-0{,}3x}.\\]</p></li><li><p>Vid \\(x=2\\): \\(f(2)\\approx 1{,}1\\) och \\(f^{\\prime}(2)\\approx -0{,}33\\).</p></li><li><p>Tangenten blir</p><p>\\[y-1{,}1=-0{,}33(x-2).\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\approx -0{,}33x+1{,}76\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) med \\(k=-0{,}3\\)</p><div class=\"facit-matte\">\\[f'(x)=2\\cdot(-0{,}3)e^{-0{,}3x}=-0{,}6e^{-0{,}3x}\\]</div></li><li><p class=\"facit-rubrik\">Punkt och lutning i \\(x=2\\)</p><div class=\"facit-matte\">\\[f(2)=2e^{-0{,}6}\\approx1{,}098\\]</div><div class=\"facit-matte\">\\[f'(2)=-0{,}6e^{-0{,}6}\\approx-0{,}329\\]</div></li><li><p class=\"facit-rubrik\">Enpunktsformen: \\(y-y_1=k(x-x_1)\\)</p><div class=\"facit-matte\">\\[y-1{,}098=-0{,}329(x-2)\\]</div><div class=\"facit-matte\">\\[y\\approx-0{,}33x+1{,}76\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\approx-0{,}33x+1{,}76\\)</p></div>",
     "familj": "Tangenter och lutning för e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -15895,7 +15895,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Viktigt steg: Isolera potensen med \\(e\\) eller \\(a^x\\) innan du tar logaritmen. Använd sedan \\(\\ln(e^u)=u\\) eller \\(\\ln(a^x)=x\\ln a\\). Logaritmen är alltså verktyget som ”tar ner” den okända ur exponenten.</p>",
+    "ledtrad": "<p>Beräkna \\(f(2)\\) och \\(f'(2)\\) med räknaren och använd enpunktsformen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -16629,7 +16629,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/0/3",
     "t": "<p>En population följer modellen \\(P(t)=Ce^{kt}\\). Vid \\(t=0\\) finns 1200 individer och vid \\(t=5\\) finns 2100 individer.</p><p>Bestäm den tidpunkt då populationens tillväxthastighet första gången är 250 individer per tidsenhet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från \\(P(0)=1200\\) fås \\(C=1200\\).</p><p>\\[1200e^{5k}=2100\\Rightarrow k=\\frac{\\ln(2100/1200)}5\\approx 0{,}1119.\\]</p></li><li><p>Derivatan är</p><p>\\[P^{\\prime}(t)=1200k e^{kt}.\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[P^{\\prime}(t)=250\\]:</div></div><p>\\[1200k e^{kt}=250.\\]</p><p>\\[t=\\frac{\\ln(250/(1200k))}{k}\\approx 5{,}55.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär \\(5{,}55\\) tidsenheter efter start.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">C är startvärdet</p><div class=\"facit-matte\">\\[P(0)=C=1200\\]</div></li><li><p class=\"facit-rubrik\">Bestäm k med \\(P(5)=2100\\)</p><div class=\"facit-matte\">\\[e^{5k}=\\frac{2100}{1200}=1{,}75\\quad\\Rightarrow\\quad k=\\frac{\\ln1{,}75}{5}\\approx0{,}1119\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[P'(t)=1200k\\,e^{kt}=250\\quad\\Rightarrow\\quad e^{kt}=\\frac{250}{1200k}\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[t=\\frac{1}{k}\\ln\\frac{250}{1200k}\\approx5{,}55\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär 5,55 tidsenheter</p></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -16643,7 +16643,7 @@ window.BANKMATO1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "ledtrad": "<p>Bestäm C och k ur de två värdena. Sätt sedan derivatan lika med 250.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": true,
@@ -16662,7 +16662,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För \\(f(x)=x^{2} + 1\\), bestäm den genomsnittliga förändringshastigheten från \\(x=0\\) till \\(x=2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd ändringskvoten:</p><p>\\[\\frac{f(2)-f(0)}{2}=\\frac{5-1}{2}=2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Funktionsvärden i ändpunkterna</p><div class=\"facit-matte\">\\[f(0)=1,\\qquad f(2)=5\\]</div></li><li><p class=\"facit-rubrik\">Ändringskvoten \\(\\dfrac{\\Delta f}{\\Delta x}\\)</p><div class=\"facit-matte\">\\[\\frac{5-1}{2-0}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -16675,7 +16675,7 @@ window.BANKMATO1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Viktigt steg: I en modell betyder f'(a) den momentana förändringshastigheten när x=a. Efter beräkningen behöver du därför översätta talet tillbaka till situationens storheter och enheter.</p>",
+    "ledtrad": "<p>Genomsnittlig förändring: dela ändringen i funktionsvärde med ändringen i x.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -16765,7 +16765,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För \\(f(x)=2 e^{\\frac{x}{10}}\\):</p><p>a) Bestäm \\(f'(x)\\).<br>b) Bestäm \\(f'(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=\\frac{e^{\\frac{x}{10}}}{5}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(e^0=1\\) får vi \\(f'(0)=\\frac{1}{5}\\).</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\((\\dfrac{1}{5})e^{x/10}\\), b) \\(\\dfrac{1}{5}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv exponenten som \\(\\tfrac1{10}x\\)</p><div class=\"facit-matte\">\\[f(x)=2e^{x/10}\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) med \\(k=\\tfrac1{10}\\)</p><div class=\"facit-matte\">\\[f'(x)=2\\cdot\\tfrac1{10}e^{x/10}=\\tfrac15e^{x/10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac15e^{x/10}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=0\\): \\(e^0=1\\)</p><div class=\"facit-matte\">\\[f'(0)=\\tfrac15\\cdot1=\\tfrac15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac15\\)</p></div></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -16793,7 +16793,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>För \\(f(x)=2 e^{\\frac{x}{10}}\\):</p><p><div class=\"spel-en-del\">Bestäm \\(f'(x)\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=\\frac{e^{\\frac{x}{10}}}{5}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv exponenten som \\(\\tfrac1{10}x\\)</p><div class=\"facit-matte\">\\[f(x)=2e^{x/10}\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) med \\(k=\\tfrac1{10}\\)</p><div class=\"facit-matte\">\\[f'(x)=2\\cdot\\tfrac1{10}e^{x/10}=\\tfrac15e^{x/10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac15e^{x/10}\\)</p></div>",
         "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -16801,13 +16801,13 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>För \\(f(x)=2 e^{\\frac{x}{10}}\\):</p><p><div class=\"spel-en-del\">Bestäm \\(f'(0)\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(e^0=1\\) får vi \\(f'(0)=\\frac{1}{5}\\).</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=0\\): \\(e^0=1\\)</p><div class=\"facit-matte\">\\[f'(0)=\\tfrac15\\cdot1=\\tfrac15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac15\\)</p></div>",
         "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Exponentialdelen ändrar i princip inte form vid derivering; det som tillkommer är en faktor från exponenten eller från ln(a). Markera den faktorn tydligt innan du räknar vidare.</p>",
+    "ledtrad": "<p>Exponenten \\(\\tfrac{x}{10}\\) har derivatan \\(\\tfrac1{10}\\). Den faktorn tillkommer.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -16961,7 +16961,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivera \\(f(x)=3 \\cdot 2^{x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd regeln</p><div class=\"facit-matte\">\\[(a^x)^{\\prime}=a^x\\ln a\\]:</div></div><p>\\[f^{\\prime}(x)=3\\cdot2^x\\ln2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{3\\cdot2^x\\ln2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\)</p><p>Konstanten 3 följer med som faktor.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(a=2\\)</p><div class=\"facit-matte\">\\[f'(x)=3\\cdot2^x\\ln2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\cdot2^x\\ln2\\)</p></div>",
     "familj": "Derivera a^x",
     "geogebra": false,
     "miniräknare": true,
@@ -16973,7 +16973,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>För exponentialfunktioner måste man skilja på \\(e^x\\) och \\(a^x\\). Derivatan av \\(e^{kx}\\) ger en extra faktor \\(k\\), medan \\(a^x\\) ger faktorn \\(\\ln a\\). Den faktorn är det vanligaste steget att missa.</p>",
+    "ledtrad": "<p>Derivatan av \\(a^x\\) är \\(a^x\\ln a\\). Vad händer med faktorn 3?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -17187,7 +17187,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivera \\(f(x)=2 \\cdot 3^{x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd regeln</p><div class=\"facit-matte\">\\[(a^x)^{\\prime}=a^x\\ln a\\]:</div></div><p>\\[f^{\\prime}(x)=2\\cdot3^x\\ln3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{2\\cdot3^x\\ln3}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\) med \\(a=3\\)</p><div class=\"facit-matte\">\\[(3^x)'=3^x\\ln3\\]</div></li><li><p class=\"facit-rubrik\">Faktorn 2 står kvar</p><div class=\"facit-matte\">\\[f'(x)=2\\cdot3^x\\ln3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\cdot3^x\\ln3\\)</p></div>",
     "familj": "Derivera a^x",
     "geogebra": false,
     "miniräknare": true,
@@ -17199,7 +17199,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Tänk så här: Exponentialdelen ändrar i princip inte form vid derivering; det som tillkommer är en faktor från exponenten eller från ln(a). Markera den faktorn tydligt innan du räknar vidare.</p>",
+    "ledtrad": "<p>Använd \\((a^x)'=a^x\\ln a\\) och behåll konstanten 2.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -17413,7 +17413,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivera \\(f(x)=4 \\cdot 5^{x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd regeln</p><div class=\"facit-matte\">\\[(a^x)^{\\prime}=a^x\\ln a\\]:</div></div><p>\\[f^{\\prime}(x)=4\\cdot5^x\\ln5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{4\\cdot5^x\\ln5}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\)</p><div class=\"facit-matte\">\\[(5^x)'=5^x\\ln5\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med 4</p><div class=\"facit-matte\">\\[f'(x)=4\\cdot5^x\\ln5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\cdot5^x\\ln5\\)</p></div>",
     "familj": "Derivera a^x",
     "geogebra": false,
     "miniräknare": true,
@@ -17425,7 +17425,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Tänk så här: Identifiera först vilken exponentialregel som passar. Om exponenten själv innehåller x används även derivatan av exponenten som faktor. Behåll exponentialdelen oförändrad och förenkla koefficienterna sist.</p>",
+    "ledtrad": "<p>Vilken faktor tillkommer när man deriverar \\(5^x\\)?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -17641,7 +17641,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivera \\(f(x)=2 \\cdot 10^{x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd regeln</p><div class=\"facit-matte\">\\[(a^x)^{\\prime}=a^x\\ln a\\]:</div></div><p>\\[f^{\\prime}(x)=2\\cdot10^x\\ln10.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{2\\cdot10^x\\ln10}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tiopotens: samma regel, \\(a=10\\)</p><div class=\"facit-matte\">\\[(10^x)'=10^x\\ln10\\]</div></li><li><p class=\"facit-rubrik\">Behåll koefficienten 2</p><div class=\"facit-matte\">\\[f'(x)=2\\cdot10^x\\ln10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\cdot10^x\\ln10\\)</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -17653,7 +17653,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Viktigt steg: För exponentialfunktioner måste man skilja på \\(e^x\\) och \\(a^x\\). Derivatan av \\(e^{kx}\\) ger en extra faktor \\(k\\), medan \\(a^x\\) ger faktorn \\(\\ln a\\). Den faktorn är det vanligaste steget att missa.</p>",
+    "ledtrad": "<p>Derivatan av \\(10^x\\) är \\(10^x\\ln10\\). Konstanten 2 följer med.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -17866,7 +17866,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivera \\(f(x)=5 e^{x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\((e^x)^{\\prime}=e^x\\) och \\((a^x)^{\\prime}=a^x\\ln a\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f^{\\prime}(x)=5 e^{x}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(e^x\\) är sin egen derivata</p><div class=\"facit-matte\">\\[(e^x)'=e^x\\]</div></li><li><p class=\"facit-rubrik\">Konstanten 5 följer med</p><div class=\"facit-matte\">\\[f'(x)=5e^x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=5e^x\\)</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -17878,7 +17878,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Tänk så här: Exponentialdelen ändrar i princip inte form vid derivering; det som tillkommer är en faktor från exponenten eller från ln(a). Markera den faktorn tydligt innan du räknar vidare.</p>",
+    "ledtrad": "<p>Vilken funktion är sin egen derivata?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -18093,7 +18093,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivera \\(f(x)=4^{x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>På formelbladet finns regeln</p><div class=\"facit-matte\">\\[(a^x)^{\\prime}=a^x\\ln a\\].</div></div></li><li><p>Med \\(a=4\\) får vi</p><p>\\[f^{\\prime}(x)=4^x\\ln4.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{4^x\\ln4}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\)</p><p>Regeln finns i formelsamlingen.</p></li><li><p class=\"facit-rubrik\">Med \\(a=4\\)</p><div class=\"facit-matte\">\\[f'(x)=4^x\\ln4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4^x\\ln4\\)</p></div>",
     "familj": "Derivera a^x",
     "geogebra": false,
     "miniräknare": true,
@@ -18105,7 +18105,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Viktigt steg: Identifiera först vilken exponentialregel som passar. Om exponenten själv innehåller x används även derivatan av exponenten som faktor. Behåll exponentialdelen oförändrad och förenkla koefficienterna sist.</p>",
+    "ledtrad": "<p>Slå upp derivatan av \\(a^x\\) i formelsamlingen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -18320,7 +18320,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(2^x=16\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv båda leden med samma bas. Då måste exponenterna vara lika.</p><div class=\"facit-matte\">\\[2^x=2^4\\Rightarrow x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> x = 4.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv 16 som en tvåpotens</p><div class=\"facit-matte\">\\[16=2^4\\quad\\Rightarrow\\quad 2^x=2^4\\]</div></li><li><p class=\"facit-rubrik\">Samma bas: exponenterna är lika</p><div class=\"facit-matte\">\\[x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -18332,7 +18332,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Viktigt steg: Målet är först att isolera exponentialtermen. När den står ensam kan båda leden logaritmeras, eftersom ln och exponentialfunktionen är inverser. Därefter blir exponenten en vanlig linjär eller algebraisk ekvation.</p>",
+    "ledtrad": "<p>Vilken potens av 2 är 16?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -18546,7 +18546,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(3^x=27\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv båda leden med samma bas. Då måste exponenterna vara lika.</p><div class=\"facit-matte\">\\[3^x=3^3\\Rightarrow x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> x = 3.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">27 är \\(3^3\\)</p><div class=\"facit-matte\">\\[3^x=3^3\\]</div></li><li><p class=\"facit-rubrik\">Jämför exponenterna</p><div class=\"facit-matte\">\\[x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -18558,7 +18558,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Först när exponentialtermen är ensam är logaritmeringen enkel att följa. Ta ln på båda sidor, förenkla med logaritmlagarna och lös den återstående ekvationen. Kontrollera till sist att eventuella definitionsvillkor är uppfyllda.</p>",
+    "ledtrad": "<p>Skriv 27 som en potens av 3.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -18775,7 +18775,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(5^x=12\\).</p>",
-    "s": "<div class=\"facit-v2\"><p>Ta ln på båda sidor. Exponenten x kan då skrivas framför logaritmen.</p><div class=\"facit-matte\">\\[\\ln(5^x)=\\ln12\\]</div><p>Eftersom ln(5ˣ)=x ln 5 delar vi sedan båda leden med ln 5.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\dfrac{\\ln12}{\\ln5}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta ln av båda leden</p><div class=\"facit-matte\">\\[\\ln(5^x)=\\ln12\\]</div></li><li><p class=\"facit-rubrik\">Logaritmlagen \\(\\ln a^x=x\\ln a\\)</p><div class=\"facit-matte\">\\[x\\ln5=\\ln12\\]</div></li><li><p class=\"facit-rubrik\">Dela med \\(\\ln5\\)</p><div class=\"facit-matte\">\\[x=\\frac{\\ln12}{\\ln5}\\approx1{,}54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\dfrac{\\ln12}{\\ln5}\\)</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -18976,7 +18976,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(e^x=7\\).</p>",
-    "s": "<div class=\"facit-v2\"><p>Ln och exponentialfunktionen med basen e är varandras inverser. Ta ln på båda sidor.</p><div class=\"facit-matte\">\\[\\ln(e^x)=\\ln7\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\ln7\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ln och e-potensen tar ut varandra</p><div class=\"facit-matte\">\\[\\ln(e^x)=x\\]</div></li><li><p class=\"facit-rubrik\">Ta ln av båda leden</p><div class=\"facit-matte\">\\[x=\\ln7\\approx1{,}95\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\ln7\\)</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -19044,7 +19044,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En hiss höjd över entréplanet modelleras under en kort tid av \\(h(t)=3t^2+2t\\) meter, där \\(t\\) mäts i sekunder.</p><p>Bestäm hissens hastighet vid \\(t=4\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hastigheten ges av derivatan.</p><p>\\[h^{\\prime}(t)=6t+2.\\]</p></li><li><div class=\"facit-berakning\"><p>Vid</p><div class=\"facit-matte\">\\[t=4\\]:</div></div><p>\\[h^{\\prime}(4)=6\\cdot4+2=26.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\,\\text{m/s}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är höjdens derivata</p><div class=\"facit-matte\">\\[h'(t)=6t+2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(t=4\\)</p><div class=\"facit-matte\">\\[h'(4)=24+2=26\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 26 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -19142,7 +19142,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(4\\cdot2^x=40\\).</p>",
-    "s": "<div class=\"facit-v2\"><p>Dela först båda leden med 4, så att 2ˣ=10. Ta därefter ln på båda sidor.</p><div class=\"facit-matte\">\\[x\\ln2=\\ln10\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\dfrac{\\ln10}{\\ln2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Få potensen ensam: dela med 4</p><div class=\"facit-matte\">\\[2^x=10\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera och flytta fram exponenten</p><div class=\"facit-matte\">\\[x\\ln2=\\ln10\\]</div></li><li><p class=\"facit-rubrik\">Dela med \\(\\ln2\\)</p><div class=\"facit-matte\">\\[x=\\frac{\\ln10}{\\ln2}\\approx3{,}32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\dfrac{\\ln10}{\\ln2}\\)</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -19275,7 +19275,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En bils position ges av \\(s(t)=t^3-6t^2+15t\\) meter.</p><p>Bestäm bilens hastighet vid \\(t=2\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[s^{\\prime}(t)=3t^2-12t+15.\\]</p><p>\\[s^{\\prime}(2)=12-24+15=3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,\\text{m/s}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[s'(t)=3t^2-12t+15\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=2\\)</p><div class=\"facit-matte\">\\[s'(2)=12-24+15=3\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -19308,7 +19308,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(10^x=0{,}01\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv båda leden med samma bas. Då måste exponenterna vara lika.</p><div class=\"facit-matte\">\\[10^x=10^{-2}\\Rightarrow x=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> x = -2.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">0,01 är \\(10^{-2}\\)</p><div class=\"facit-matte\">\\[0{,}01=\\frac{1}{100}=10^{-2}\\]</div></li><li><p class=\"facit-rubrik\">Samma bas ger samma exponent</p><div class=\"facit-matte\">\\[x=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -19320,7 +19320,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Tänk så här: Isolera potensen med \\(e\\) eller \\(a^x\\) innan du tar logaritmen. Använd sedan \\(\\ln(e^u)=u\\) eller \\(\\ln(a^x)=x\\ln a\\). Logaritmen är alltså verktyget som ”tar ner” den okända ur exponenten.</p>",
+    "ledtrad": "<p>Skriv 0,01 som en tiopotens.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -21515,7 +21515,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För \\(f(x)=7^x\\):</p><p>a) Skriv funktionen med basen \\(e\\).<br>b) Bestäm \\(f^{\\prime}(x)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7^x=e^{x\\ln7}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För exponentialfunktionen \\(a^x\\) gäller \\((a^x)^{\\prime}=a^x\\ln a\\).</p></li><li><p>Därför</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\boxed{f^{\\prime}(x)=7^x\\ln7}.\\]</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: a) \\(e^{x\\cdot \\ln(7)}\\), b) \\(7^x\\cdot \\ln(7)\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv 7 som en potens av e</p><div class=\"facit-matte\">\\[7=e^{\\ln7}\\]</div></li><li><p class=\"facit-rubrik\">Potenslagen \\((e^{\\ln7})^x=e^{x\\ln7}\\)</p><div class=\"facit-matte\">\\[7^x=e^{x\\ln7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^{x\\ln7}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\)</p><div class=\"facit-matte\">\\[f'(x)=7^x\\ln7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7^x\\ln7\\)</p></div></div>",
     "familj": "Skriva a^x med basen e",
     "geogebra": false,
     "miniräknare": true,
@@ -21543,7 +21543,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>För \\(f(x)=7^x\\):</p><p><div class=\"spel-en-del\">Skriv funktionen med basen \\(e\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7^x=e^{x\\ln7}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv 7 som en potens av e</p><div class=\"facit-matte\">\\[7=e^{\\ln7}\\]</div></li><li><p class=\"facit-rubrik\">Potenslagen \\((e^{\\ln7})^x=e^{x\\ln7}\\)</p><div class=\"facit-matte\">\\[7^x=e^{x\\ln7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^{x\\ln7}\\)</p></div>",
         "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -21551,13 +21551,13 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>För \\(f(x)=7^x\\):</p><p><div class=\"spel-en-del\">Bestäm \\(f^{\\prime}(x)\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För exponentialfunktionen \\(a^x\\) gäller \\((a^x)^{\\prime}=a^x\\ln a\\).</p></li><li><p>Därför</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\boxed{f^{\\prime}(x)=7^x\\ln7}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\)</p><div class=\"facit-matte\">\\[f'(x)=7^x\\ln7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7^x\\ln7\\)</p></div>",
         "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Viktigt steg: För exponentialfunktioner måste man skilja på \\(e^x\\) och \\(a^x\\). Derivatan av \\(e^{kx}\\) ger en extra faktor \\(k\\), medan \\(a^x\\) ger faktorn \\(\\ln a\\). Den faktorn är det vanligaste steget att missa.</p>",
+    "ledtrad": "<p>Skriv 7 som \\(e^{\\ln7}\\). Derivatan av \\(a^x\\) är \\(a^x\\ln a\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -21579,7 +21579,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(s(t)\\) anger ett fordons position i meter efter \\(t\\) sekunder.</p><p>Vad betyder uttrycken</p><p>a) \\(\\frac{s(8)-s(5)}{8-5}\\)<br>b) \\(s^{\\prime}(5)\\)</p><p>i denna situation?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvoten är fordonets <strong>medelhastighet</strong> mellan 5 s och 8 s.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(s^{\\prime}(5)\\) är fordonets <strong>hastighet</strong> efter 5 s.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren är en sträcka, nämnaren en tid</p><p>\\(s(8)-s(5)\\) är förflyttningen i meter, \\(8-5\\) är tiden i sekunder.</p></li><li><p class=\"facit-rubrik\">Sträcka delat med tid</p><p>Kvoten är fordonets medelhastighet i m/s mellan 5 s och 8 s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> medelhastighet (m/s) mellan 5 s och 8 s</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är den momentana förändringshastigheten</p><p>\\(s'(5)\\) är hur snabbt positionen ändras just vid \\(t=5\\), i m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> hastigheten (m/s) vid tiden 5 s</p></div></div>",
     "familj": "Derivata som tangentens lutning",
     "geogebra": false,
     "miniräknare": true,
@@ -21608,7 +21608,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Funktionen \\(s(t)\\) anger ett fordons position i meter efter \\(t\\) sekunder.</p><p>Vad betyder uttrycket</p><div class=\"spel-en-del\">\\(\\frac{s(8)-s(5)}{8-5}\\)</div><p>i denna situation?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Täljaren \\(s(8)-s(5)\\) är hur långt fordonet förflyttar sig mellan \\(t=5\\) och \\(t=8\\), i meter.</p></li><li><p>Nämnaren \\(8-5\\) är tiden i sekunder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kvoten är fordonets <strong>medelhastighet</strong> (i m/s) mellan 5 s och 8 s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljaren är en sträcka, nämnaren en tid</p><p>\\(s(8)-s(5)\\) är förflyttningen i meter, \\(8-5\\) är tiden i sekunder.</p></li><li><p class=\"facit-rubrik\">Sträcka delat med tid</p><p>Kvoten är fordonets medelhastighet i m/s mellan 5 s och 8 s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> medelhastighet (m/s) mellan 5 s och 8 s</p></div>",
         "ledtrad": "<p>Vad beskriver täljaren och vad beskriver nämnaren? Vilken storhet får du när du delar en sträcka med en tid?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -21616,7 +21616,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Funktionen \\(s(t)\\) anger ett fordons position i meter efter \\(t\\) sekunder.</p><p>Vad betyder uttrycket</p><div class=\"spel-en-del\">\\(s^{\\prime}(5)\\)</div><p>i denna situation?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan \\(s^{\\prime}(5)\\) är positionens momentana förändringshastighet vid \\(t=5\\), med enheten meter per sekund.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(s^{\\prime}(5)\\) är fordonets <strong>hastighet</strong> (i m/s) vid tiden 5 s.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är den momentana förändringshastigheten</p><p>\\(s'(5)\\) är hur snabbt positionen ändras just vid \\(t=5\\), i m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> hastigheten (m/s) vid tiden 5 s</p></div>",
         "ledtrad": "<p>Derivatan beskriver en momentan förändringshastighet. Vad kallas förändringshastigheten för ett fordons position?</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -21997,7 +21997,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Bestäm det \\(x\\)-värde där funktionen \\(f(x)=2^x\\) har derivatan 10. Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=2^x\\ln2.\\]</p></li><li><p>Sätt lika med 10:</p><p>\\[2^x=\\frac{10}{\\ln2}.\\]</p></li><li><p>Logaritmera:</p><p>\\[x\\ln2=\\ln\\!\\left(\\frac{10}{\\ln2}\\right).\\]</p><p>\\[\\boxed{x=\\frac{\\ln(10/\\ln2)}{\\ln2}\\approx3{,}85}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(3{,}85\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\)</p><div class=\"facit-matte\">\\[f'(x)=2^x\\ln2\\]</div></li><li><p class=\"facit-rubrik\">Sätt derivatan lika med 10</p><div class=\"facit-matte\">\\[2^x\\ln2=10\\quad\\Rightarrow\\quad 2^x=\\frac{10}{\\ln2}\\approx14{,}43\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera båda leden</p><div class=\"facit-matte\">\\[x\\ln2=\\ln14{,}43\\quad\\Rightarrow\\quad x=\\frac{\\ln14{,}43}{\\ln2}\\approx3{,}85\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,85</p></div>",
     "familj": "Derivera a^x",
     "geogebra": false,
     "miniräknare": true,
@@ -22009,7 +22009,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera först vilken exponentialregel som passar. Om exponenten själv innehåller x används även derivatan av exponenten som faktor. Behåll exponentialdelen oförändrad och förenkla koefficienterna sist.</p>",
+    "ledtrad": "<p>Derivera, sätt derivatan lika med 10 och lös ut \\(2^x\\) innan du logaritmerar.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -22181,7 +22181,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En exponentialfunktion har formen \\(f(x)=C\\cdot 4^x\\). Det gäller att \\(f(0)=3\\).</p><p>Bestäm \\(f^{\\prime}(2)\\). Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från \\(f(0)=C=3\\) fås \\(f(x)=3\\cdot4^x\\).</p><p>\\[f^{\\prime}(x)=3\\cdot4^x\\ln4.\\]</p><p>\\[\\boxed{f^{\\prime}(2)=48\\ln4\\approx66{,}5}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(66{,}5\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f(0)=C\\cdot4^0=C\\)</p><div class=\"facit-matte\">\\[C=3\\quad\\Rightarrow\\quad f(x)=3\\cdot4^x\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\)</p><div class=\"facit-matte\">\\[f'(x)=3\\cdot4^x\\ln4\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(2)=3\\cdot16\\cdot\\ln4=48\\ln4\\approx66{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 66,5</p></div>",
     "familj": "Derivera a^x",
     "geogebra": false,
     "miniräknare": true,
@@ -22193,7 +22193,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För exponentialfunktioner måste man skilja på \\(e^x\\) och \\(a^x\\). Derivatan av \\(e^{kx}\\) ger en extra faktor \\(k\\), medan \\(a^x\\) ger faktorn \\(\\ln a\\). Den faktorn är det vanligaste steget att missa.</p>",
+    "ledtrad": "<p>Bestäm först C med \\(f(0)=3\\). Derivera sedan och sätt in \\(x=2\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -22215,7 +22215,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För \\(f(x)=5^x\\), bestäm</p><p>a) \\(f^{\\prime}(x)\\)<br>b) \\(f^{\\prime}(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{f^{\\prime}(x)=5^x\\ln5}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{f^{\\prime}(0)=\\ln5}\\].</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(5^x\\cdot \\ln(5)\\), b) \\(\\ln(5)\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\) med \\(a=5\\)</p><div class=\"facit-matte\">\\[f'(x)=5^x\\ln5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5^x\\ln5\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=0\\): \\(5^0=1\\)</p><div class=\"facit-matte\">\\[f'(0)=1\\cdot\\ln5=\\ln5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\ln5\\)</p></div></div>",
     "familj": "Derivera a^x",
     "geogebra": false,
     "miniräknare": true,
@@ -22243,7 +22243,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>För \\(f(x)=5^x\\), bestäm</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(x)\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{f^{\\prime}(x)=5^x\\ln5}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\) med \\(a=5\\)</p><div class=\"facit-matte\">\\[f'(x)=5^x\\ln5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5^x\\ln5\\)</p></div>",
         "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -22251,13 +22251,13 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>För \\(f(x)=5^x\\), bestäm</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(0)\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{f^{\\prime}(0)=\\ln5}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=0\\): \\(5^0=1\\)</p><div class=\"facit-matte\">\\[f'(0)=1\\cdot\\ln5=\\ln5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\ln5\\)</p></div>",
         "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Identifiera först vilken exponentialregel som passar. Om exponenten själv innehåller x används även derivatan av exponenten som faktor. Behåll exponentialdelen oförändrad och förenkla koefficienterna sist.</p>",
+    "ledtrad": "<p>Derivatan av \\(a^x\\) är \\(a^x\\ln a\\). Vad är \\(5^0\\)?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -22279,7 +22279,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Funktionen \\(g\\) har ett nollställe vid \\(x=4\\). För \\(4\\le x\\le7\\) gäller</p><p>\\[-3\\le g^{\\prime}(x)\\le2.\\]</p><p>Bestäm ett så litet intervall som möjligt som säkert innehåller \\(g(7)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(g(4)=0\\) och intervallets längd är 3 kan förändringen från \\(x=4\\) till \\(x=7\\) som minst vara \\(-3\\cdot3=-9\\) och som mest \\(2\\cdot3=6\\).</p><p>\\[\\boxed{-9\\le g(7)\\le6}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-9\\le g(7)\\le6\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Startvärdet</p><div class=\"facit-matte\">\\[g(4)=0\\]</div></li><li><p class=\"facit-rubrik\">Ändringen på 3 enheter begränsas av derivatans gränser</p><div class=\"facit-matte\">\\[-3\\cdot3\\le g(7)-g(4)\\le2\\cdot3\\]</div></li><li><p class=\"facit-rubrik\">Lägg till \\(g(4)=0\\)</p><div class=\"facit-matte\">\\[-9\\le g(7)\\le6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-9\\le g(7)\\le6\\)</p></div>",
     "familj": "Derivata som tangentens lutning",
     "geogebra": false,
     "miniräknare": true,
@@ -22292,7 +22292,7 @@ window.BANKMATO1 = [
       "begrepp"
     ],
     "svarFormat": "intervall",
-    "ledtrad": "<p>Derivera funktionen först och sätt sedan in det aktuella x-värdet. Tolka tecknet och enheten på derivatan i den givna situationen.</p>",
+    "ledtrad": "<p>Hur mycket kan g som mest öka och som mest minska på sträckan från 4 till 7, om lutningen ligger mellan −3 och 2?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -22886,7 +22886,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En exponentialfunktion \\(f(x)=C\\cdot a^x\\), där \\(C\\gt 0\\) och \\(a\\gt 1\\), uppfyller</p><p>\\[f(2)=50\\quad\\text{och}\\quad f^{\\prime}(2)=20.\\]</p><p>Bestäm basen \\(a\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För en exponentialfunktion gäller</p><p>\\[f^{\\prime}(x)=f(x)\\ln a.\\]</p></li><li><div class=\"facit-berakning\"><p>Vid</p><div class=\"facit-matte\">\\[x=2\\]:</div></div><p>\\[20=50\\ln a\\Rightarrow \\ln a=0{,}4.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[\\boxed{a=e^{0{,}4}\\approx1{,}492}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,492.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ca^x\\) är \\(Ca^x\\ln a\\)</p><div class=\"facit-matte\">\\[f'(x)=f(x)\\cdot\\ln a\\]</div></li><li><p class=\"facit-rubrik\">Sätt in värdena i \\(x=2\\)</p><div class=\"facit-matte\">\\[20=50\\ln a\\quad\\Rightarrow\\quad\\ln a=0{,}4\\]</div></li><li><p class=\"facit-rubrik\">Lös ut a</p><div class=\"facit-matte\">\\[a=e^{0{,}4}\\approx1{,}492\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,492</p></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -22898,7 +22898,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "ledtrad": "<p>Visa att \\(f'(x)=f(x)\\ln a\\). Sätt sedan in \\(f(2)\\) och \\(f'(2)\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true,
@@ -22917,7 +22917,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En population modelleras av \\(P(t)=1200\\cdot1{,}18^t\\).</p><p>Vid vilken tidpunkt är tillväxthastigheten 300 individer per tidsenhet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[P^{\\prime}(t)=1200\\cdot1{,}18^t\\ln1{,}18.\\]</p></li><li><p>Sätt lika med 300:</p><p>\\[1{,}18^t=\\frac{300}{1200\\ln1{,}18}.\\]</p><p>\\[t=\\frac{\\ln\\!\\left(300/(1200\\ln1,18)\\right)}{\\ln1{,}18}\\approx2{,}50.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> efter cirka \\(\\boxed{2{,}5}\\) tidsenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(1{,}18^t\\)</p><div class=\"facit-matte\">\\[P'(t)=1200\\cdot1{,}18^t\\ln1{,}18\\]</div></li><li><p class=\"facit-rubrik\">Sätt lika med 300 och få potensen ensam</p><div class=\"facit-matte\">\\[1{,}18^t=\\frac{300}{1200\\ln1{,}18}\\approx1{,}510\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[t=\\frac{\\ln1{,}510}{\\ln1{,}18}\\approx2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> efter cirka 2,5 tidsenheter</p></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -22931,7 +22931,7 @@ window.BANKMATO1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "ledtrad": "<p>Derivera med regeln för \\(a^t\\) och sätt derivatan lika med 300.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true,
@@ -23463,7 +23463,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=3e^{2x}-5e^{-x}\\).</p><ol><li>Bestäm \\(f'(x)\\).</li><li>Bestäm \\(f'(0)\\).</li></ol>",
-    "s": "<div class=\"facit-v2\"><p>Varje exponentialterm får en faktor från exponentens derivata. Den andra termen får två minustecken.</p><div class=\"facit-matte\">\\[f'(x)=3\\cdot2e^{2x}-5(-1)e^{-x}=6e^{2x}+5e^{-x}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6e^{2x}+5e^{-x}\\).</p></div><div class=\"facit-v2\"><p>Sätt in x = 0. Båda exponentialdelarna blir e⁰ = 1.</p><div class=\"facit-matte\">\\[f'(0)=6\\cdot1+5\\cdot1=11\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 11.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) på varje term</p><div class=\"facit-matte\">\\[(3e^{2x})'=6e^{2x},\\qquad (-5e^{-x})'=-5\\cdot(-1)e^{-x}=5e^{-x}\\]</div></li><li><p class=\"facit-rubrik\">Sätt ihop</p><div class=\"facit-matte\">\\[f'(x)=6e^{2x}+5e^{-x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6e^{2x}+5e^{-x}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vid \\(x=0\\) blir båda e-potenserna 1</p><div class=\"facit-matte\">\\[f'(0)=6\\cdot1+5\\cdot1=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11</p></div></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -23497,7 +23497,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Derivera \\(f(x)=3e^{2x}-5e^{-x}\\). Svara med ett uttryck för \\(f'(x)\\).</p>",
-        "s": "<div class=\"facit-v2\"><p>Varje exponentialterm får en faktor från exponentens derivata. Den andra termen får två minustecken.</p><div class=\"facit-matte\">\\[f'(x)=3\\cdot2e^{2x}-5(-1)e^{-x}=6e^{2x}+5e^{-x}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6e^{2x}+5e^{-x}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) på varje term</p><div class=\"facit-matte\">\\[(3e^{2x})'=6e^{2x},\\qquad (-5e^{-x})'=-5\\cdot(-1)e^{-x}=5e^{-x}\\]</div></li><li><p class=\"facit-rubrik\">Sätt ihop</p><div class=\"facit-matte\">\\[f'(x)=6e^{2x}+5e^{-x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6e^{2x}+5e^{-x}\\)</p></div>",
         "ledtrad": "<p>Derivatan av exponenten 2x är 2, och av −x är −1.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23506,7 +23506,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Derivatan är \\(f'(x)=6e^{2x}+5e^{-x}\\). Bestäm \\(f'(0)\\).</p>",
-        "s": "<div class=\"facit-v2\"><p>Sätt in x = 0. Båda exponentialdelarna blir e⁰ = 1.</p><div class=\"facit-matte\">\\[f'(0)=6\\cdot1+5\\cdot1=11\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 11.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vid \\(x=0\\) blir båda e-potenserna 1</p><div class=\"facit-matte\">\\[f'(0)=6\\cdot1+5\\cdot1=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11</p></div>",
         "ledtrad": "<p>e⁰ = 1.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23569,7 +23569,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Kurvan \\(y=Ce^{kx}\\) går genom punkten \\((0,3)\\) och har där lutningen 6.</p><p>Bestäm \\(C\\) och \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten \\((0,3)\\) ger \\(3=Ce^0=C\\), alltså \\(C=3\\).</p></li><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[y^{\\prime}=Cke^{kx}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Vid</p><div class=\"facit-matte\">\\[x=0\\]:</div></div><p>\\[6=Ck=3k\\Rightarrow k=2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{C=3,k=2}\\), alltså \\(y=3e^{2x}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten \\((0,3)\\) ger C</p><div class=\"facit-matte\">\\[3=Ce^0=C\\]</div></li><li><p class=\"facit-rubrik\">Lutningen 6 i \\(x=0\\): \\(y'=Cke^{kx}\\)</p><div class=\"facit-matte\">\\[6=Ck=3k\\quad\\Rightarrow\\quad k=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C=3\\), \\(k=2\\)</p></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -23592,7 +23592,7 @@ window.BANKMATO1 = [
       "C",
       "k"
     ],
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "ledtrad": "<p>Sätt in punkten för att få C. Lutningen är derivatans värde i \\(x=0\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true,
@@ -23642,7 +23642,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/3",
     "t": "<p>En bakterieodling innehåller 1800 bakterier kl. 08.00. Sex timmar senare finns 7200 bakterier. Antalet modelleras exponentiellt.</p><p>Vid vilken tidpunkt ökar odlingen med 1000 bakterier per timme?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(t\\) vara timmar efter kl.</p></li><li><div class=\"facit-berakning\"><p>08.00 och skriv</p><div class=\"facit-matte\">\\[N(t)=1800e^{kt}\\].</div></div></li><li><p>Villkoret \\(N(6)=7200\\) ger</p><p>\\[e^{6k}=4\\Rightarrow k=\\frac{\\ln4}{6}.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[N^{\\prime}(t)=kN(t)\\].</div></div></li><li><div class=\"facit-berakning\"><p>Vi söker</p><div class=\"facit-matte\">\\[N^{\\prime}=1000\\]:</div></div><p>\\[\\frac{\\ln4}{6}\\cdot1800e^{kt}=1000.\\]</p><p>\\[e^{kt}=\\frac{10}{3\\ln4}.\\]</p><p>\\[t=\\frac{\\ln(10/(3\\ln4))}{\\ln4/6}\\approx3{,}80.\\]</p></li><li><p>Det är cirka 3 h 48 min efter kl.</p></li><li><p>08.00.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär \\(\\boxed{\\text{kl. }11.48}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modell från kl. 08.00</p><div class=\"facit-matte\">\\[N(t)=1800e^{kt}\\]</div><div class=\"facit-matte\">\\[e^{6k}=\\frac{7200}{1800}=4\\quad\\Rightarrow\\quad k=\\frac{\\ln4}{6}\\]</div></li><li><p class=\"facit-rubrik\">Derivatan: \\(N'(t)=k\\,N(t)\\)</p><div class=\"facit-matte\">\\[k\\cdot1800e^{kt}=1000\\quad\\Rightarrow\\quad e^{kt}=\\frac{10}{3\\ln4}\\approx2{,}404\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera och räkna om till klockslag</p><div class=\"facit-matte\">\\[t=\\frac{\\ln2{,}404}{k}\\approx3{,}80\\ \\text{h}\\approx3\\ \\text{h}\\ 48\\ \\text{min}\\]</div><p>08.00 + 3 h 48 min = 11.48.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär kl. 11.48</p></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -25563,7 +25563,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En cyklists sträcka från start ges av</p><p>\\[s(t)=0{,}5t^2+4t\\]</p><p>där \\(s\\) mäts i meter och \\(t\\) i sekunder.</p><p>Bestäm cyklistens hastighet vid \\(t=6\\) s och tolka svaret.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hastigheten är derivatan av sträckan:</p><p>\\[v(t)=s^{\\prime}(t)=t+4.\\]</p></li><li><p>Vid \\(t=6\\): \\(v(6)=10\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cyklisten färdas med \\(10\\,\\text{m/s}\\) efter 6 sekunder.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=0{,}5\\cdot2t+4=t+4\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(t=6\\) och tolka</p><div class=\"facit-matte\">\\[v(6)=10\\ \\text{m/s}\\]</div><p>Efter 6 sekunder cyklar cyklisten 10 meter per sekund.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -27986,7 +27986,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion gäller \\(f(2)=5\\) och \\(f(2,01)=5{,}04\\). Använd värdena för att uppskatta \\(f^{\\prime}(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd en ändringskvot över det mycket korta intervallet:</p><p>\\[f^{\\prime}(2)\\approx\\frac{5{,}04-5}{2{,}01-2}=\\frac{0{,}04}{0{,}01}=4.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f^{\\prime}(2)\\approx4\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ändringskvot över ett mycket kort intervall</p><div class=\"facit-matte\">\\[f'(2)\\approx\\frac{f(2{,}01)-f(2)}{2{,}01-2}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in värdena</p><div class=\"facit-matte\">\\[\\frac{5{,}04-5}{0{,}01}=\\frac{0{,}04}{0{,}01}=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(2)\\approx4\\)</p></div>",
     "familj": "Derivata som tangentens lutning",
     "geogebra": false,
     "miniräknare": false,
@@ -27998,7 +27998,7 @@ window.BANKMATO1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Derivera funktionen först och sätt sedan in det aktuella x-värdet. Tolka tecknet och enheten på derivatan i den givna situationen.</p>",
+    "ledtrad": "<p>Beräkna lutningen mellan punkterna \\((2;\\,5)\\) och \\((2{,}01;\\,5{,}04)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -28054,7 +28054,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För \\(f(x)=x^2\\), bestäm \\(f^{\\prime}(2)\\) med en deriveringsregel.</p><p>Förklara vad värdet betyder för grafen i punkten där \\(x=2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=2x\\]</p></li><li><div class=\"facit-berakning\"><p>så</p><div class=\"facit-matte\">\\[f^{\\prime}(2)=4\\].</div></div></li><li><p>Det betyder att tangenten till grafen i punkten där \\(x=2\\) har riktningskoefficienten 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Deriveringsregeln: \\((x^2)'=2x\\)</p><div class=\"facit-matte\">\\[f'(2)=2\\cdot2=4\\]</div></li><li><p class=\"facit-rubrik\">Tolkning för grafen</p><p>Tangenten i punkten \\((2,\\,4)\\) har lutningen 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -28738,7 +28738,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För \\(f(x)=4^x\\), bestäm \\(f^{\\prime}(x)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(a^x\\) gäller \\((a^x)^{\\prime}=a^x\\ln a\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[\\boxed{f^{\\prime}(x)=4^x\\ln4}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4^xln4\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\)</p><div class=\"facit-matte\">\\[f'(x)=4^x\\ln4\\]</div></li><li><p class=\"facit-rubrik\">Ungefärligt värde på faktorn</p><div class=\"facit-matte\">\\[\\ln4\\approx1{,}386\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4^x\\ln4\\)</p></div>",
     "familj": "Derivera a^x",
     "geogebra": false,
     "miniräknare": true,
@@ -28750,7 +28750,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>För exponentialfunktioner måste man skilja på \\(e^x\\) och \\(a^x\\). Derivatan av \\(e^{kx}\\) ger en extra faktor \\(k\\), medan \\(a^x\\) ger faktorn \\(\\ln a\\). Den faktorn är det vanligaste steget att missa.</p>",
+    "ledtrad": "<p>Använd regeln för derivatan av \\(a^x\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -28805,7 +28805,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivera \\(f(x)=5e^{2x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(e^{kx}\\) är derivatan \\(ke^{kx}\\).</p><p>\\[f^{\\prime}(x)=5\\cdot2e^{2x}=\\boxed{10e^{2x}}.\\]</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: \\(10e^{2x}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) med \\(k=2\\)</p><div class=\"facit-matte\">\\[f'(x)=5\\cdot2e^{2x}=10e^{2x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10e^{2x}\\)</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -28817,7 +28817,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Tänk så här: Exponentialdelen ändrar i princip inte form vid derivering; det som tillkommer är en faktor från exponenten eller från ln(a). Markera den faktorn tydligt innan du räknar vidare.</p>",
+    "ledtrad": "<p>Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -28839,7 +28839,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivera \\(f(x)=7-3e^{-2x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Konstanten 7 får derivatan 0.</p></li><li><div class=\"facit-berakning\"><p>Vidare är</p><div class=\"facit-matte\">\\[(e^{-2x})^{\\prime}=-2e^{-2x}\\].</div></div><p>\\[f^{\\prime}(x)=-3(-2)e^{-2x}=\\boxed{6e^{-2x}}.\\]</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: \\(6e^{-2x}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstanten 7 ger 0</p><div class=\"facit-matte\">\\[(7)'=0\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) med \\(k=-2\\)</p><div class=\"facit-matte\">\\[(-3e^{-2x})'=-3\\cdot(-2)e^{-2x}=6e^{-2x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6e^{-2x}\\)</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -28851,7 +28851,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Viktigt steg: För exponentialfunktioner måste man skilja på \\(e^x\\) och \\(a^x\\). Derivatan av \\(e^{kx}\\) ger en extra faktor \\(k\\), medan \\(a^x\\) ger faktorn \\(\\ln a\\). Den faktorn är det vanligaste steget att missa.</p>",
+    "ledtrad": "<p>Konstanten försvinner. Vad händer med faktorn \\(-2\\) från exponenten?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -28873,7 +28873,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Skriv \\(7^x\\) som en exponentialfunktion med basen \\(e\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(7=e^{\\ln7}\\) gäller</p><p>\\[7^x=(e^{\\ln7})^x=e^{x\\ln7}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{e^{x\\ln7}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje positivt tal kan skrivas som en e-potens</p><div class=\"facit-matte\">\\[7=e^{\\ln7}\\]</div></li><li><p class=\"facit-rubrik\">Upphöj båda leden till x</p><div class=\"facit-matte\">\\[7^x=\\left(e^{\\ln7}\\right)^x=e^{x\\ln7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^{x\\ln7}\\)</p></div>",
     "familj": "Skriva a^x med basen e",
     "geogebra": false,
     "miniräknare": true,
@@ -28885,7 +28885,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Identifiera först vilken exponentialregel som passar. Om exponenten själv innehåller x används även derivatan av exponenten som faktor. Behåll exponentialdelen oförändrad och förenkla koefficienterna sist.</p>",
+    "ledtrad": "<p>Skriv 7 som \\(e^{\\ln7}\\) och använd potenslagen \\((a^m)^n=a^{mn}\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -28907,7 +28907,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen exakt:</p><p>\\[e^x=12.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p>Ta ln på båda sidor. Eftersom ln(eˣ)=x återstår x i vänsterledet.</p><div class=\"facit-matte\">\\[\\ln(e^x)=\\ln12\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\ln12\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta ln av båda leden</p><div class=\"facit-matte\">\\[\\ln(e^x)=\\ln12\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera: \\(\\ln(e^u)=u\\)</p><div class=\"facit-matte\">\\[x=\\ln12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\ln12\\)</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -28941,7 +28941,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen exakt:</p><p>\\[\\ln x=3.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p>Ln x=3 betyder att e upphöjt till 3 är x. Det är sambandet som definierar den naturliga logaritmen.</p><div class=\"facit-matte\">\\[\\ln x=3\\quad\\Longleftrightarrow\\quad x=e^3\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=e^3\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Definitionen: \\(\\ln x=a\\) betyder \\(x=e^a\\)</p><div class=\"facit-matte\">\\[\\ln x=3\\quad\\Leftrightarrow\\quad x=e^3\\]</div></li><li><p class=\"facit-rubrik\">Ungefärligt värde</p><div class=\"facit-matte\">\\[e^3\\approx20{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=e^3\\)</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -28975,7 +28975,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm tangentens ekvation till \\(f(x)=e^x\\) i punkten där \\(x=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f(0)=1\\) och \\(f^{\\prime}(x)=e^x\\), så \\(f^{\\prime}(0)=1\\).</p></li><li><p>Tangenten genom \\((0;1)\\) med lutningen 1 är</p><p>\\[\\boxed{y=x+1}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(y=x+1\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten</p><div class=\"facit-matte\">\\[f(0)=e^0=1\\quad\\Rightarrow\\quad(0,\\,1)\\]</div></li><li><p class=\"facit-rubrik\">Lutningen: \\(f'(x)=e^x\\)</p><div class=\"facit-matte\">\\[f'(0)=1\\]</div></li><li><p class=\"facit-rubrik\">Tangenten genom \\((0,\\,1)\\) med lutningen 1</p><div class=\"facit-matte\">\\[y=x+1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=x+1\\)</p></div>",
     "familj": "Tangenter och lutning för e^kx",
     "geogebra": false,
     "miniräknare": false,
@@ -28987,7 +28987,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Viktigt steg: Isolera potensen med \\(e\\) eller \\(a^x\\) innan du tar logaritmen. Använd sedan \\(\\ln(e^u)=u\\) eller \\(\\ln(a^x)=x\\ln a\\). Logaritmen är alltså verktyget som ”tar ner” den okända ur exponenten.</p>",
+    "ledtrad": "<p>Beräkna \\(f(0)\\) och \\(f'(0)\\) och använd enpunktsformen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -29189,7 +29189,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(f^{\\prime}(0)\\) för \\(f(x)=e^x+x^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f^{\\prime}(x)=e^x+2x\\), så \\(f^{\\prime}(0)=1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera term för term</p><div class=\"facit-matte\">\\[f'(x)=e^x+2x\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=0\\)</p><div class=\"facit-matte\">\\[f'(0)=1+0=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
@@ -29409,40 +29409,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "2.427",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Bestäm x-värdet där \\(f(x)=e^x-x\\) har horisontell tangent.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=e^x-1\\].</div></li><li><p>En horisontell tangent kräver \\(e^x-1=0\\), alltså \\(e^x=1\\) och \\(x=0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(0\\)</strong></p></div>",
-  "familj": "Tangenter och lutning för e^kx",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>En vågrät tangent har lutningen 0. Vilken ekvation får du om derivatan ska vara noll?</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 1,
-  "spel": true,
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Horisontell tangent för exponentialfunktion"
-  ]
-},
+    "id": "2.427",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm x-värdet där \\(f(x)=e^x-x\\) har horisontell tangent.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Horisontell tangent: derivatan är 0</p><div class=\"facit-matte\">\\[f'(x)=e^x-1=0\\]</div></li><li><p class=\"facit-rubrik\">En e-potens är 1 bara när exponenten är 0</p><div class=\"facit-matte\">\\[e^x=1\\quad\\Rightarrow\\quad x=\\ln1=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
+    "familj": "Tangenter och lutning för e^kx",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>En vågrät tangent har lutningen 0. Vilken ekvation får du om derivatan ska vara noll?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Horisontell tangent för exponentialfunktion"
+    ]
+  },
   {
     "id": "2.501",
     "kap": 2,
@@ -29526,7 +29526,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Skriv \\(500\\cdot1{,}06^t\\) på formen \\(500e^{kt}\\). Bestäm \\(k\\) med fyra decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd identiteten</p><div class=\"facit-matte\">\\[a^t=e^{t\\ln a}\\].</div></div></li><li><p>Med \\(a=1{,}06\\) får vi</p><p>\\[1{,}06^t=e^{t\\ln1{,}06}.\\]</p></li><li><p>Därför</p><p>\\[500\\cdot1{,}06^t=500e^{kt}\\quad\\text{med}\\quad k=\\ln1{,}06\\approx0{,}0583.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}0583\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Byt bas: \\(a^x=e^{x\\ln a}\\), eftersom \\(a=e^{\\ln a}\\)</p><div class=\"facit-matte\">\\[1{,}06^t=e^{t\\ln1{,}06}\\]</div></li><li><p class=\"facit-rubrik\">Jämför med \\(500e^{kt}\\)</p><div class=\"facit-matte\">\\[k=\\ln1{,}06\\approx0{,}0583\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}0583\\)</p></div>",
     "familj": "Skriva a^x med basen e",
     "geogebra": false,
     "miniräknare": true,
@@ -29584,143 +29584,143 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "2.509",
-  "kap": 2,
-  "omr": "derivata_a_x",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Skriv om \\(1{,}05^x\\) på formen \\(e^{kx}\\).</p><p>Bestäm konstanten \\(k\\).</p><p>Svara med fyra decimaler.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Basen är \\(1{,}05\\). För att skriva samma förändring med basen \\(e\\) måste \\(e^k=1{,}05\\).</p></li><li><p>Logaritmera: \\[k=\\ln(1{,}05)\\approx 0{,}0488.\\]</p></li><li><p>Ett positivt k betyder att storheten växer.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(0{,}0488\\)</strong></p></div>",
-  "familj": "Skriva a^x med basen e",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.04879016416943205,
-  "tolerans": 5e-05,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Jämför baserna i \\(a^x=(e^k)^x\\). Vilken ekvation måste \\(k\\) uppfylla?</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Skriva exponentialfunktioner med basen e"
-  ]
-},
+    "id": "2.509",
+    "kap": 2,
+    "omr": "derivata_a_x",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Skriv om \\(1{,}05^x\\) på formen \\(e^{kx}\\).</p><p>Bestäm konstanten \\(k\\).</p><p>Svara med fyra decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma förändring per steg: \\(e^k=1{,}05\\)</p><div class=\"facit-matte\">\\[1{,}05^x=(e^k)^x=e^{kx}\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[k=\\ln1{,}05\\approx0{,}0488\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,0488</p></div>",
+    "familj": "Skriva a^x med basen e",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.04879016416943205,
+    "tolerans": 5e-05,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jämför baserna i \\(a^x=(e^k)^x\\). Vilken ekvation måste \\(k\\) uppfylla?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Skriva exponentialfunktioner med basen e"
+    ]
+  },
   {
-  "id": "2.510",
-  "kap": 2,
-  "omr": "derivata_a_x",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Skriv om \\(0{,}8^x\\) på formen \\(e^{kx}\\).</p><p>Bestäm konstanten \\(k\\).</p><p>Svara med fyra decimaler.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Basen är \\(0{,}8\\). För att skriva samma förändring med basen \\(e\\) måste \\(e^k=0{,}8\\).</p></li><li><p>Logaritmera: \\[k=\\ln(0{,}8)\\approx -0{,}2231.\\]</p></li><li><p>Ett negativt k betyder att storheten avtar.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-0{,}2231\\)</strong></p></div>",
-  "familj": "Skriva a^x med basen e",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": -0.2231435513142097,
-  "tolerans": 5e-05,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Jämför baserna i \\(a^x=(e^k)^x\\). Vilken ekvation måste \\(k\\) uppfylla?</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Skriva exponentialfunktioner med basen e"
-  ]
-},
+    "id": "2.510",
+    "kap": 2,
+    "omr": "derivata_a_x",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Skriv om \\(0{,}8^x\\) på formen \\(e^{kx}\\).</p><p>Bestäm konstanten \\(k\\).</p><p>Svara med fyra decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorn 0,8 ska vara \\(e^k\\)</p><div class=\"facit-matte\">\\[e^k=0{,}8\\]</div></li><li><p class=\"facit-rubrik\">Naturliga logaritmen</p><div class=\"facit-matte\">\\[k=\\ln0{,}8\\approx-0{,}2231\\]</div><p>Negativt k: storheten minskar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}2231\\)</p></div>",
+    "familj": "Skriva a^x med basen e",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": -0.2231435513142097,
+    "tolerans": 5e-05,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jämför baserna i \\(a^x=(e^k)^x\\). Vilken ekvation måste \\(k\\) uppfylla?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Skriva exponentialfunktioner med basen e"
+    ]
+  },
   {
-  "id": "2.511",
-  "kap": 2,
-  "omr": "derivata_a_x",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>En storhet ökar med 3 % per tidsenhet och kan skrivas \\(A(t)=A_0e^{kt}\\).</p><p>Bestäm \\(k\\).</p><p>Svara med fyra decimaler.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En ökning med 3 % ger förändringsfaktorn \\(1+0{,}03=1{,}03\\). Samma faktor i exponentialmodellen är \\(e^k\\).</p></li><li><p>Logaritmera: \\[k=\\ln(1{,}03)\\approx 0{,}0296.\\]</p></li><li><p>Ett positivt k betyder att storheten växer.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(0{,}0296\\)</strong></p></div>",
-  "familj": "Skriva a^x med basen e",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.02955880224154443,
-  "tolerans": 5e-05,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Vilken förändringsfaktor motsvarar en tidsenhet? Sätt den lika med \\(e^k\\) och använd naturliga logaritmen.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Skriva exponentialfunktioner med basen e"
-  ]
-},
+    "id": "2.511",
+    "kap": 2,
+    "omr": "derivata_a_x",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En storhet ökar med 3 % per tidsenhet och kan skrivas \\(A(t)=A_0e^{kt}\\).</p><p>Bestäm \\(k\\).</p><p>Svara med fyra decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ökning med 3 % ger förändringsfaktorn 1,03</p><div class=\"facit-matte\">\\[1+0{,}03=1{,}03\\]</div></li><li><p class=\"facit-rubrik\">Sätt \\(e^k=1{,}03\\) och logaritmera</p><div class=\"facit-matte\">\\[k=\\ln1{,}03\\approx0{,}0296\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,0296</p></div>",
+    "familj": "Skriva a^x med basen e",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.02955880224154443,
+    "tolerans": 5e-05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken förändringsfaktor motsvarar en tidsenhet? Sätt den lika med \\(e^k\\) och använd naturliga logaritmen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Skriva exponentialfunktioner med basen e"
+    ]
+  },
   {
-  "id": "2.512",
-  "kap": 2,
-  "omr": "derivata_a_x",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>En storhet minskar med 4 % per tidsenhet och kan skrivas \\(A(t)=A_0e^{kt}\\).</p><p>Bestäm \\(k\\).</p><p>Svara med fyra decimaler.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En minskning med 4 % ger förändringsfaktorn \\(1-0{,}04=0{,}96\\). Samma faktor i exponentialmodellen är \\(e^k\\).</p></li><li><p>Logaritmera: \\[k=\\ln(0{,}96)\\approx -0{,}0408.\\]</p></li><li><p>Ett negativt k betyder att storheten avtar.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-0{,}0408\\)</strong></p></div>",
-  "familj": "Skriva a^x med basen e",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": -0.040821994520255166,
-  "tolerans": 5e-05,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Vilken förändringsfaktor motsvarar en tidsenhet? Sätt den lika med \\(e^k\\) och använd naturliga logaritmen.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Skriva exponentialfunktioner med basen e"
-  ]
-},
+    "id": "2.512",
+    "kap": 2,
+    "omr": "derivata_a_x",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En storhet minskar med 4 % per tidsenhet och kan skrivas \\(A(t)=A_0e^{kt}\\).</p><p>Bestäm \\(k\\).</p><p>Svara med fyra decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minskning med 4 % ger förändringsfaktorn 0,96</p><div class=\"facit-matte\">\\[1-0{,}04=0{,}96\\]</div></li><li><p class=\"facit-rubrik\">Sätt \\(e^k=0{,}96\\)</p><div class=\"facit-matte\">\\[k=\\ln0{,}96\\approx-0{,}0408\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}0408\\)</p></div>",
+    "familj": "Skriva a^x med basen e",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": -0.040821994520255166,
+    "tolerans": 5e-05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken förändringsfaktor motsvarar en tidsenhet? Sätt den lika med \\(e^k\\) och använd naturliga logaritmen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Skriva exponentialfunktioner med basen e"
+    ]
+  },
   {
     "id": "2.513",
     "kap": 2,
@@ -30556,7 +30556,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Under de första sekunderna efter start beskrivs en bils sträcka av</p><p>\\[s(t)=3t+t^2,\\]</p><p>där \\(s\\) mäts i meter och \\(t\\) i sekunder. Bestäm bilens hastighet \\(v\\) som funktion av tiden \\(t\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hastigheten är sträckans derivata:</p><p>\\[v(t)=s'(t)=3+2t.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2t+3\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[s'(t)=3+2t\\]</div></li><li><p class=\"facit-rubrik\">Hastigheten som funktion av tiden</p><div class=\"facit-matte\">\\[v(t)=2t+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v(t)=2t+3\\)</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": true,
@@ -30590,7 +30590,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Derivera</p><p>\\[f(x)=e^x+ex.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[(e^x)'=e^x\\] och \\((ex)'=e\\).</p><p>\\[f'(x)=e^x+e.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(e^x+e\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Termen \\(ex\\) är en konstant gånger x</p><div class=\"facit-matte\">\\[(ex)'=e\\]</div></li><li><p class=\"facit-rubrik\">Och \\((e^x)'=e^x\\)</p><div class=\"facit-matte\">\\[f'(x)=e^x+e\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^x+e\\)</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -30625,7 +30625,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett elefantfosters vikt ges av</p><p>\\[V(t)=0{,}310e^{0{,}271t},\\qquad t\\ge1,\\]</p><p>där \\(V\\) är vikten i kg och \\(t\\) tiden i månader efter befruktningen. När elefantungen föds väger den 120 kg.</p><p>Hur lång tid efter befruktningen föds elefantungen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Lös</p><div class=\"facit-matte\">\\[0{,}310e^{0{,}271t}=120\\]:</div></div><p>\\[t=\\frac{\\ln(120/0,310)}{0{,}271}\\approx21{,}99.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: ungefär 22 månader.</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt vikten lika med 120 kg</p><div class=\"facit-matte\">\\[0{,}310e^{0{,}271t}=120\\]</div></li><li><p class=\"facit-rubrik\">Dela med 0,310</p><div class=\"facit-matte\">\\[e^{0{,}271t}=\\frac{120}{0{,}310}\\approx387{,}1\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera: \\(\\ln(e^u)=u\\)</p><div class=\"facit-matte\">\\[0{,}271t=\\ln387{,}1\\quad\\Rightarrow\\quad t=\\frac{\\ln387{,}1}{0{,}271}\\approx21{,}99\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär 22 månader (21,99)</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -47212,7 +47212,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En läkemedelskoncentration modelleras av</p><p>\\[C(t)=5t\\,e^{-0{,}4t},\\qquad t\\ge0.\\]</p><p>Derivatan är</p><p>\\[C^{\\prime}(t)=5e^{-0{,}4t}(1-0,4t).\\]</p><p>a) När är koncentrationen som störst?<br>b) Bestäm det största värdet med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn \\(5e^{-0{,}4t}\\) är alltid positiv.</p></li><li><p>Derivatans tecken bestäms därför av \\(1-0{,}4t\\).</p><p>\\[1-0{,}4t=0\\Rightarrow t=2{,}5.\\]</p></li><li><p>Derivatan är positiv före 2,5 och negativ efter 2,5, så där fås ett maximum.</p><p>\\[C(2,5)=12{,}5e^{-1}\\approx4{,}60.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{t=2{,}5}\\) och \\(\\boxed{C_{\\max}\\approx4{,}60}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Exponentialfaktorn är alltid positiv</p><p>Derivatans tecken bestäms därför av \\(1-0{,}4t\\).</p></li><li><p class=\"facit-rubrik\">a) \\(C'(t)=0\\)</p><div class=\"facit-matte\">\\[1-0{,}4t=0\\quad\\Rightarrow\\quad t=2{,}5\\]</div></li><li><p class=\"facit-rubrik\">a) Teckenbyte + till − ger maximum</p><p>Före 2,5 är \\(1-0{,}4t\\gt0\\), efter är den negativ.</p></li><li><p class=\"facit-rubrik\">b) Sätt in \\(t=2{,}5\\)</p><div class=\"facit-matte\">\\[C(2{,}5)=5\\cdot2{,}5\\,e^{-1}=12{,}5e^{-1}\\approx4{,}60\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(t=2{,}5\\) &nbsp; b) 4,60</p></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -53742,7 +53742,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rörelse beskrivs av \\(s(t)=2t^3-9t^2+12t\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hastigheten är lägesfunktionens derivata:</p><p>\\[v(t)=s'(t)=6t^2-18t+12.\\]</p><p>\\[v(2)=24-36+12=0.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\) m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=6t^2-18t+12\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=2\\)</p><div class=\"facit-matte\">\\[v(2)=24-36+12=0\\]</div><p>Rörelsen vänder just då.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -53958,7 +53958,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Antalet bakterier modelleras av \\(N(t)=500e^{0{,}2t}\\), där \\(t\\) är tiden i timmar.</p><p>Hur snabbt ökar antalet vid \\(t=0\\)? Svara i bakterier per timme.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[N'(t)=100e^{0{,}2t}.\\]</p><p>\\[N'(0)=100.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100 bakterier per timme.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[N'(t)=500\\cdot0{,}2e^{0{,}2t}=100e^{0{,}2t}\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=0\\)</p><div class=\"facit-matte\">\\[N'(0)=100\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100 bakterier per timme</p></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": false,
@@ -53991,7 +53991,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Antalet individer i en population modelleras av \\(N(t)=1000e^{0{,}1t}\\), där \\(t\\) är tiden i år.</p><p>Hur snabbt ökar antalet efter 5 år? Svara i individer per år med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[N'(t)=100e^{0{,}1t}.\\]</p><p>\\[N'(5)=100e^{0{,}5}\\approx164{,}9.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 164,9 individer per år.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[N'(t)=1000\\cdot0{,}1e^{0{,}1t}=100e^{0{,}1t}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(t=5\\)</p><div class=\"facit-matte\">\\[N'(5)=100e^{0{,}5}\\approx164{,}9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 164,9 individer per år</p></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -67287,7 +67287,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Bestäm \\(f'(x)\\) då</p><p>\\[f(x)=\\frac{1}{3^{-2x}}.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Först</p><div class=\"facit-matte\">\\[f(x)=3^{2x}\\].</div></div></li><li><p>Derivatan blir</p><p>\\[f'(x)=2\\ln(3)\\,3^{2x}=3^{2x}\\ln9.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2\\ln(3)\\cdot 3^{2x}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potenslagen: \\(\\dfrac{1}{a^{-n}}=a^n\\)</p><div class=\"facit-matte\">\\[f(x)=\\frac{1}{3^{-2x}}=3^{2x}=9^x\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\) med \\(a=9\\)</p><div class=\"facit-matte\">\\[f'(x)=9^x\\ln9=3^{2x}\\cdot2\\ln3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\ln3\\cdot3^{2x}\\)</p></div>",
     "familj": "Derivera a^x",
     "geogebra": false,
     "miniräknare": true,
@@ -67425,7 +67425,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{2e^x\\cdot e^{-ax}-e^x}{e^{-ax}-0{,}5}.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorisera täljaren:</p><p>\\[2e^x e^{-ax}-e^x=e^x(2e^{-ax}-1)=2e^x(e^{-ax}-0,5).\\]</p></li><li><p>Där originaluttrycket är definierat kan faktorn \\(e^{-ax}-0{,}5\\) förkortas, så uttrycket blir</p><p>\\[2e^x.\\]</p></li><li><p>Om \\(a\\ne0\\) är \\(x=\\ln2/a\\) inte tillåtet i originaluttrycket.</p></li><li><p>Om \\(a=0\\) uppstår ingen sådan begränsning.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2e^x\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut \\(e^x\\) i täljaren</p><div class=\"facit-matte\">\\[2e^xe^{-ax}-e^x=e^x(2e^{-ax}-1)\\]</div></li><li><p class=\"facit-rubrik\">Skriv parentesen som 2 gånger nämnaren</p><div class=\"facit-matte\">\\[2e^{-ax}-1=2(e^{-ax}-0{,}5)\\]</div></li><li><p class=\"facit-rubrik\">Förkorta \\((e^{-ax}-0{,}5)\\)</p><div class=\"facit-matte\">\\[\\frac{2e^x(e^{-ax}-0{,}5)}{e^{-ax}-0{,}5}=2e^x\\]</div><p>Det gäller där nämnaren inte är 0 (för \\(a\\ne0\\) är \\(x=\\ln2/a\\) förbjudet).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2e^x\\)</p></div>",
     "familj": "Tangenter och lutning för e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -67677,7 +67677,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Pojkars längd modelleras av \\(f(x)=78e^{0{,}07x}\\), där \\(f(x)\\) är längden i cm och \\(x\\) åldern i år.</p><p>Bestäm vid vilken ålder modellen ger längden 125 cm.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Lös</p><div class=\"facit-matte\">\\[78e^{0{,}07x}=125\\]:</div></div><p>\\[x=\\frac{\\ln(125/78)}{0{,}07}\\approx6{,}7.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 6,7 år.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt modellen lika med 125</p><div class=\"facit-matte\">\\[78e^{0{,}07x}=125\\quad\\Rightarrow\\quad e^{0{,}07x}=\\frac{125}{78}\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[0{,}07x=\\ln\\frac{125}{78}\\quad\\Rightarrow\\quad x=\\frac{\\ln(125/78)}{0{,}07}\\approx6{,}7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 6,7 år</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -67713,7 +67713,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Pojkars längd modelleras av \\(f(x)=78e^{0{,}07x}\\), där \\(f(x)\\) är längden i cm och \\(x\\) åldern i år.</p><p>Bestäm hur snabbt pojkar växer enligt modellen då de är exakt 6 år.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=78\\cdot0{,}07e^{0{,}07x}.\\]</p><p>\\[f'(6)\\approx8{,}3\\text{ cm/år}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(8{,}3\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[f'(x)=78\\cdot0{,}07e^{0{,}07x}=5{,}46e^{0{,}07x}\\]</div></li><li><p class=\"facit-rubrik\">Vid 6 år</p><div class=\"facit-matte\">\\[f'(6)=5{,}46e^{0{,}42}\\approx8{,}3\\ \\text{cm/år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,3 cm/år</p></div>",
     "familj": "Derivata i exponentialmodeller",
     "geogebra": false,
     "miniräknare": true,
@@ -67809,41 +67809,41 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "2.547",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"270\" viewBox=\"0 0 380 270\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\" role=\"img\" aria-label=\"Grafen y=2 upphöjt till x med sekant genom (-1;0,5) och (2;4)\"><path d=\"M25 225 H350 M130 245 V20\" stroke=\"currentColor\" fill=\"none\"/><polyline points=\"32.50,210.15 34.50,209.83 36.51,209.50 38.51,209.17 40.52,208.83 42.52,208.48 44.53,208.12 46.53,207.75 48.53,207.38 50.54,207.00 52.54,206.61 54.55,206.22 56.55,205.81 58.55,205.39 60.56,204.97 62.56,204.54 64.57,204.10 66.57,203.65 68.58,203.18 70.58,202.71 72.58,202.23 74.59,201.74 76.59,201.24 78.60,200.72 80.60,200.20 82.60,199.66 84.61,199.12 86.61,198.56 88.62,197.99 90.62,197.40 92.62,196.81 94.63,196.20 96.63,195.57 98.64,194.94 100.64,194.29 102.65,193.63 104.65,192.95 106.65,192.26 108.66,191.55 110.66,190.83 112.67,190.09 114.67,189.33 116.68,188.56 118.68,187.78 120.68,186.97 122.69,186.15 124.69,185.31 126.70,184.45 128.70,183.58 130.70,182.68 132.71,181.77 134.71,180.84 136.72,179.88 138.72,178.91 140.72,177.91 142.73,176.89 144.73,175.85 146.74,174.79 148.74,173.71 150.75,172.60 152.75,171.47 154.75,170.31 156.76,169.13 158.76,167.92 160.77,166.69 162.77,165.43 164.78,164.14 166.78,162.83 168.78,161.49 170.79,160.11 172.79,158.71 174.80,157.28 176.80,155.82 178.80,154.32 180.81,152.80 182.81,151.24 184.82,149.64 186.82,148.02 188.83,146.35 190.83,144.65 192.83,142.92 194.84,141.15 196.84,139.33 198.85,137.48 200.85,135.59 202.85,133.66 204.86,131.69 206.86,129.67 208.87,127.61 210.87,125.51 212.88,123.36 214.88,121.16 216.88,118.92 218.89,116.63 220.89,114.29 222.90,111.90 224.90,109.45 226.90,106.96 228.91,104.41 230.91,101.80 232.92,99.14 234.92,96.42 236.93,93.65 238.93,90.81 240.93,87.91 242.94,84.95 244.94,81.92 246.95,78.83 248.95,75.67 250.95,72.45 252.96,69.15 254.96,65.79 256.97,62.35 258.97,58.83 260.98,55.24 262.98,51.58 264.98,47.83 266.99,44.00 268.99,40.09 271.00,36.10 273.00,32.02\" stroke=\"#2D70B3\" stroke-width=\"2.5\" fill=\"none\"/><line x1=\"65\" y1=\"204\" x2=\"260\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"65\" cy=\"204\" r=\"4\"/><circle cx=\"260\" cy=\"57\" r=\"4\"/><text x=\"20\" y=\"193\" font-size=\"13\">(−1; 0,5)</text><text x=\"270\" y=\"55\" font-size=\"13\">(2; 4)</text><text x=\"353\" y=\"230\" font-size=\"13\">x</text><text x=\"135\" y=\"18\" font-size=\"13\">y</text><text x=\"118\" y=\"242\" font-size=\"12\">0</text><text x=\"200\" y=\"125\" font-size=\"13\">y = 2ˣ</text></svg></span><p>Funktionen \\(f(x)=2^x\\) har punkterna \\((-1;0,5)\\) och \\((2;4)\\) på grafen. En tangent till grafen är parallell med sekanten genom dessa punkter.</p><p>Bestäm x-koordinaten för tangeringspunkten. Svara med två decimaler.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sekantens lutning är \\(k=(4-0{,}5)/(2-(-1))=7/6\\). En parallell tangent måste ha samma lutning.</p></li><li><p>Derivatan är \\(f^{\\prime}(x)=2^x\\ln2\\). Sätt den lika med \\(7/6\\) och isolera potensen: \\[2^x=\\frac{7}{6\\ln2}.\\]</p></li><li><p>Logaritmera och dividera med \\(\\ln2\\): \\[x=\\frac{\\ln(7/(6\\ln2))}{\\ln2}\\approx0{,}75.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(0{,}75\\)</strong></p></div>",
-  "familj": "Tangenter och lutning för e^kx",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.7511587942813458,
-  "tolerans": 0.005,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "resonemang"
-  ],
-  "ledtrad": "<p>Bestäm sekantens lutning. Sätt sedan \\(f'(x)\\) lika med denna lutning och lös exponentialekvationen.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 3,
-  "spel": true,
-  "kalla": "NP Ma3c vt 2022, uppgift 25",
-  "svarFormat": "numeriskt",
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Tangent parallell med sekant för exponentialfunktion"
-  ]
-},
+    "id": "2.547",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"270\" viewBox=\"0 0 380 270\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\" role=\"img\" aria-label=\"Grafen y=2 upphöjt till x med sekant genom (-1;0,5) och (2;4)\"><path d=\"M25 225 H350 M130 245 V20\" stroke=\"currentColor\" fill=\"none\"/><polyline points=\"32.50,210.15 34.50,209.83 36.51,209.50 38.51,209.17 40.52,208.83 42.52,208.48 44.53,208.12 46.53,207.75 48.53,207.38 50.54,207.00 52.54,206.61 54.55,206.22 56.55,205.81 58.55,205.39 60.56,204.97 62.56,204.54 64.57,204.10 66.57,203.65 68.58,203.18 70.58,202.71 72.58,202.23 74.59,201.74 76.59,201.24 78.60,200.72 80.60,200.20 82.60,199.66 84.61,199.12 86.61,198.56 88.62,197.99 90.62,197.40 92.62,196.81 94.63,196.20 96.63,195.57 98.64,194.94 100.64,194.29 102.65,193.63 104.65,192.95 106.65,192.26 108.66,191.55 110.66,190.83 112.67,190.09 114.67,189.33 116.68,188.56 118.68,187.78 120.68,186.97 122.69,186.15 124.69,185.31 126.70,184.45 128.70,183.58 130.70,182.68 132.71,181.77 134.71,180.84 136.72,179.88 138.72,178.91 140.72,177.91 142.73,176.89 144.73,175.85 146.74,174.79 148.74,173.71 150.75,172.60 152.75,171.47 154.75,170.31 156.76,169.13 158.76,167.92 160.77,166.69 162.77,165.43 164.78,164.14 166.78,162.83 168.78,161.49 170.79,160.11 172.79,158.71 174.80,157.28 176.80,155.82 178.80,154.32 180.81,152.80 182.81,151.24 184.82,149.64 186.82,148.02 188.83,146.35 190.83,144.65 192.83,142.92 194.84,141.15 196.84,139.33 198.85,137.48 200.85,135.59 202.85,133.66 204.86,131.69 206.86,129.67 208.87,127.61 210.87,125.51 212.88,123.36 214.88,121.16 216.88,118.92 218.89,116.63 220.89,114.29 222.90,111.90 224.90,109.45 226.90,106.96 228.91,104.41 230.91,101.80 232.92,99.14 234.92,96.42 236.93,93.65 238.93,90.81 240.93,87.91 242.94,84.95 244.94,81.92 246.95,78.83 248.95,75.67 250.95,72.45 252.96,69.15 254.96,65.79 256.97,62.35 258.97,58.83 260.98,55.24 262.98,51.58 264.98,47.83 266.99,44.00 268.99,40.09 271.00,36.10 273.00,32.02\" stroke=\"#2D70B3\" stroke-width=\"2.5\" fill=\"none\"/><line x1=\"65\" y1=\"204\" x2=\"260\" y2=\"57\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"65\" cy=\"204\" r=\"4\"/><circle cx=\"260\" cy=\"57\" r=\"4\"/><text x=\"20\" y=\"193\" font-size=\"13\">(−1; 0,5)</text><text x=\"270\" y=\"55\" font-size=\"13\">(2; 4)</text><text x=\"353\" y=\"230\" font-size=\"13\">x</text><text x=\"135\" y=\"18\" font-size=\"13\">y</text><text x=\"118\" y=\"242\" font-size=\"12\">0</text><text x=\"200\" y=\"125\" font-size=\"13\">y = 2ˣ</text></svg></span><p>Funktionen \\(f(x)=2^x\\) har punkterna \\((-1;0,5)\\) och \\((2;4)\\) på grafen. En tangent till grafen är parallell med sekanten genom dessa punkter.</p><p>Bestäm x-koordinaten för tangeringspunkten. Svara med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sekantens lutning</p><div class=\"facit-matte\">\\[k=\\frac{4-0{,}5}{2-(-1)}=\\frac{3{,}5}{3}=\\frac76\\]</div></li><li><p class=\"facit-rubrik\">Parallell tangent: \\(f'(x)=\\tfrac76\\)</p><div class=\"facit-matte\">\\[2^x\\ln2=\\frac76\\quad\\Rightarrow\\quad 2^x=\\frac{7}{6\\ln2}\\approx1{,}683\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[x=\\frac{\\ln1{,}683}{\\ln2}\\approx0{,}75\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx0{,}75\\)</p></div>",
+    "familj": "Tangenter och lutning för e^kx",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.7511587942813458,
+    "tolerans": 0.005,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Bestäm sekantens lutning. Sätt sedan \\(f'(x)\\) lika med denna lutning och lös exponentialekvationen.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true,
+    "kalla": "NP Ma3c vt 2022, uppgift 25",
+    "svarFormat": "numeriskt",
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Tangent parallell med sekant för exponentialfunktion"
+    ]
+  },
   {
     "id": "3.741",
     "kap": 3,
@@ -68691,7 +68691,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Kaffets temperatur modelleras av</p><p>\\[T(t)=95e^{-0{,}039t},\\]</p><p>där \\(T\\) mäts i °C och \\(t\\) i minuter.</p><p>Bestäm temperaturen då mätningen startar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid start är \\(t=0\\): \\(T(0)=95e^0=95\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 95 °C.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Start betyder \\(t=0\\)</p><div class=\"facit-matte\">\\[T(0)=95e^0=95\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 95 °C</p></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": false,
@@ -68725,7 +68725,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Kaffets temperatur är enligt modellen \\(T(t)=95e^{-0{,}039t}\\), där \\(T\\) mäts i °C och \\(t\\) i minuter.</p><p>Med hur många procent minskar modellens temperatur per minut? Svara i procent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förändringsfaktorn per minut är \\(e^{-0{,}039}\\approx0{,}9618\\).</p></li><li><p>Minskningen är därför \\(1-0{,}9618\\approx0{,}0382\\), alltså cirka <strong>3,82 %</strong> per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(3{,}8\\) %</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förändringsfaktor per minut</p><div class=\"facit-matte\">\\[e^{-0{,}039}\\approx0{,}9618\\]</div></li><li><p class=\"facit-rubrik\">Minskningen är det som fattas till 1</p><div class=\"facit-matte\">\\[1-0{,}9618=0{,}0382=3{,}82\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,82 %</p></div>",
     "familj": "Skriva a^x med basen e",
     "geogebra": false,
     "miniräknare": true,
@@ -72675,7 +72675,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=6e^{4x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=24e^{4x}\\].</div></li><li><p>Eftersom \\(e^0=1\\) blir \\(f'(0)=24\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) med \\(k=4\\)</p><div class=\"facit-matte\">\\[f'(x)=24e^{4x}\\]</div></li><li><p class=\"facit-rubrik\">\\(e^0=1\\)</p><div class=\"facit-matte\">\\[f'(0)=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
@@ -72774,7 +72774,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=3x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den momentana förändringshastigheten är derivatans värde.</p></li><li><p>\\(f'(x)=6x\\), alltså \\(f'(2)=12\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Momentan förändringshastighet är \\(f'(x)\\)</p><div class=\"facit-matte\">\\[f'(x)=6x\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(2)=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
     "familj": "Derivata som tangentens lutning",
     "geogebra": false,
     "miniräknare": false,
@@ -72843,7 +72843,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(e^{2x}=7\\). Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Logaritmera båda leden:</p><p>\\[2x=\\ln 7\\Rightarrow x=\\frac{\\ln 7}{2}\\approx0{,}97.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx0{,}97\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Logaritmera: \\(\\ln(e^u)=u\\)</p><div class=\"facit-matte\">\\[2x=\\ln7\\]</div></li><li><p class=\"facit-rubrik\">Dela med 2</p><div class=\"facit-matte\">\\[x=\\frac{\\ln7}{2}\\approx0{,}97\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx0{,}97\\)</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -72911,7 +72911,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Antalet bakterier modelleras med \\(N(t)=200e^{0{,}08t}\\), där \\(t\\) mäts i timmar. Bestäm den momentana tillväxthastigheten vid \\(t=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[N'(t)=200\\cdot0{,}08e^{0{,}08t}=16e^{0{,}08t}\\].</div></li><li><p>Vid \\(t=0\\) är \\(e^0=1\\), så \\(N'(0)=16\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 bakterier per timme</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[N'(t)=200\\cdot0{,}08e^{0{,}08t}=16e^{0{,}08t}\\]</div></li><li><p class=\"facit-rubrik\">Vid start</p><div class=\"facit-matte\">\\[N'(0)=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 bakterier per timme</p></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": false,
@@ -72943,7 +72943,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En partikels läge ges av \\(s(t)=4t^2+2\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=8t\\].</div></div></li><li><div class=\"facit-berakning\"><p>Därför är</p><div class=\"facit-matte\">\\[v(3)=24\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 m/s</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=8t\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=3\\)</p><div class=\"facit-matte\">\\[v(3)=24\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -72978,7 +72978,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En partikels läge ges av \\(s(t)=t^3-6t^2+15t\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v(t)=s'(t)=3t^2-12t+15\\].</div></li><li><div class=\"facit-berakning\"><p>Vid</p><div class=\"facit-matte\">\\[t=2\\]:</div></div><p>\\[v(2)=12-24+15=3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 m/s</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera läget term för term</p><div class=\"facit-matte\">\\[v(t)=3t^2-12t+15\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(t=2\\)</p><div class=\"facit-matte\">\\[12-24+15=3\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -73208,7 +73208,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=5e^{-x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=-5e^{-x}\\].</div></li><li><p>Eftersom \\(e^0=1\\) blir \\(f'(0)=-5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> -5</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorn \\(-1\\) från exponenten</p><div class=\"facit-matte\">\\[f'(x)=-5e^{-x}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=0\\)</p><div class=\"facit-matte\">\\[f'(0)=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
@@ -73338,7 +73338,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Höjden över marken för ett föremål modelleras av \\(h(t)=20+6t-t^2\\) meter. Bestäm den momentana höjdförändringen vid \\(t=2\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h'(t)=6-2t\\].</div></li><li><p>Vid \\(t=2\\) är</p><p>\\[h'(2)=6-4=2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 m/s</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Höjdens förändringshastighet är \\(h'(t)\\)</p><div class=\"facit-matte\">\\[h'(t)=6-2t\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=2\\)</p><div class=\"facit-matte\">\\[h'(2)=2\\ \\text{m/s}\\]</div><p>Positivt: föremålet stiger fortfarande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -73996,7 +73996,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En cyklists tillryggalagda sträcka modelleras av \\(s(t)=7t^2\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v(t)=s'(t)=14t\\].</div></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[v(3)=42\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 42 m/s</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=14t\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=3\\)</p><div class=\"facit-matte\">\\[v(3)=42\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 42 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -74545,7 +74545,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Man vet att \\(f'(4)=-3\\). Vilken lutning har tangenten till grafen vid \\(x=4\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatans värde i en punkt är tangentens lutning i samma punkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> -3</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatans värde är tangentens lutning</p><div class=\"facit-matte\">\\[f'(4)=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\)</p></div>",
     "familj": "Derivata som tangentens lutning",
     "geogebra": false,
     "miniräknare": true,
@@ -74579,7 +74579,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Tangenten till grafen vid \\(x=2\\) har ekvationen \\(y=5x-7\\). Bestäm \\(f'(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangentens riktningskoefficient är 5.</p></li><li><div class=\"facit-berakning\"><p>Därför är</p><div class=\"facit-matte\">\\[f'(2)=5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangentens riktningskoefficient är derivatan</p><div class=\"facit-matte\">\\[y=5x-7\\quad\\Rightarrow\\quad f'(2)=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
     "familj": "Derivata som tangentens lutning",
     "geogebra": false,
     "miniräknare": true,
@@ -74687,7 +74687,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En befolkningsmodell \\(P(t)\\) har \\(P'(3)=80\\), där \\(t\\) mäts i år och \\(P\\) i personer. Hur snabbt förändras befolkningen vid \\(t=3\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan anger den momentana förändringshastigheten.</p></li><li><p>\\(P'(3)=80\\) betyder att befolkningen då ökar med 80 personer per år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 80 personer per år</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(P'(3)\\) är förändring per år</p><p>Befolkningen ökar med 80 personer per år just vid \\(t=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 80 personer per år</p></div>",
     "familj": "Derivata som tangentens lutning",
     "geogebra": false,
     "miniräknare": true,
@@ -75268,7 +75268,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Temperaturen \\(T(t)\\) mäts i °C och tiden \\(t\\) i timmar. Vid \\(t=5\\) gäller \\(T'(5)=-1,5\\). Ange temperaturens momentana förändringshastighet då.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatavärdet är redan den momentana förändringshastigheten.</p></li><li><p>Det negativa tecknet betyder att temperaturen sjunker.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1{,}5\\) °C per timme</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(T'(5)\\) är redan förändringshastigheten</p><p>Enheten är °C per timme, och minustecknet betyder att temperaturen sjunker.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1{,}5\\) °C per timme</p></div>",
     "familj": "Derivata som tangentens lutning",
     "geogebra": false,
     "miniräknare": true,
@@ -76205,7 +76205,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En partikel har läget \\(s(t)=7t^2\\) meter efter \\(t\\) sekunder. Bestäm partikelns hastighet vid \\(t=2\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Hastigheten är derivatan av läget:</p><div class=\"facit-matte\">\\[v(t)=s'(t)=14t\\].</div></div></li><li><p>Därför är \\(v(2)=28\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28 m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=14t\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=2\\)</p><div class=\"facit-matte\">\\[v(2)=28\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28 m/s</p></div>",
     "familj": "Derivata som tangentens lutning",
     "geogebra": false,
     "miniräknare": false,
@@ -76756,7 +76756,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Volymen vatten i en tank beskrivs av \\(V(t)\\) liter, där \\(t\\) mäts i minuter. Man vet att \\(V'(3)=-2,5\\). Vad betyder detta?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan anger den momentana förändringshastigheten.</p></li><li><p>Minustecknet visar att volymen minskar, och enheten blir liter per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Volymen minskar just då med 2,5 liter per minut.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är en ögonblicklig förändring per minut</p><p>Enheten är liter per minut.</p></li><li><p class=\"facit-rubrik\">Minustecknet</p><p>Volymen minskar, med 2,5 liter per minut just vid \\(t=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Volymen minskar just då med 2,5 liter per minut.</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": true,
@@ -76777,7 +76777,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Tolka derivatavärde"
     ],
-    "alternativ": [{"txt": "Volymen minskar just då med 2,5 liter per minut.", "ratt": true}, {"txt": "Volymen är 2,5 liter vid \\(t=3\\).", "ratt": false}, {"txt": "Volymen har minskat totalt 2,5 liter under de första tre minuterna.", "ratt": false}, {"txt": "Volymen ökar just då med 2,5 liter per minut.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Volymen minskar just då med 2,5 liter per minut.",
+        "ratt": true
+      },
+      {
+        "txt": "Volymen är 2,5 liter vid \\(t=3\\).",
+        "ratt": false,
+        "kommentar": "Det skulle vara \\(V(3)=2{,}5\\). Derivatan anger hur snabbt volymen ändras, inte hur stor den är."
+      },
+      {
+        "txt": "Volymen har minskat totalt 2,5 liter under de första tre minuterna.",
+        "ratt": false,
+        "kommentar": "Derivatan gäller ett ögonblick, inte en total förändring under en period."
+      },
+      {
+        "txt": "Volymen ökar just då med 2,5 liter per minut.",
+        "ratt": false,
+        "kommentar": "Minustecknet betyder att volymen minskar, inte ökar."
+      }
+    ]
   },
   {
     "id": "2.699",
@@ -76859,7 +76879,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=2e^x+3x^2\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[f'(x)=2e^x+6x\\].</div></div></li><li><p>Vid \\(x=0\\) blir \\(f'(0)=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exponentialterm och polynomterm var för sig</p><div class=\"facit-matte\">\\[f'(x)=2e^x+6x\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(x=0\\)</p><div class=\"facit-matte\">\\[f'(0)=2+0=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
@@ -76961,7 +76981,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=2^x\\). Bestäm \\(f'(0)\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(a^x\\) gäller \\(\\frac{d}{dx}a^x=a^x\\ln a\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså är</p><div class=\"facit-matte\">\\[f'(0)=2^0\\ln2=\\ln2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\ln2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\)</p><div class=\"facit-matte\">\\[f'(x)=2^x\\ln2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=0\\): \\(2^0=1\\)</p><div class=\"facit-matte\">\\[f'(0)=\\ln2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\ln2\\)</p></div>",
     "familj": "Derivera a^x",
     "geogebra": false,
     "miniräknare": true,
@@ -76995,7 +77015,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=3^x\\). I en punkt på grafen är \\(f(x)=12\\). Bestäm \\(f'(x)\\) i den punkten exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(f(x)=3^x\\) gäller \\(f'(x)=3^x\\ln3=f(x)\\ln3\\).</p></li><li><p>När \\(f(x)=12\\) är därför derivatan \\(12\\ln3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ln3\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\): \\((a^x)'=a^x\\ln a\\)</p><div class=\"facit-matte\">\\[f'(x)=3^x\\ln3=f(x)\\cdot\\ln3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(f(x)=12\\)</p><div class=\"facit-matte\">\\[f'(x)=12\\ln3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ln3\\)</p></div>",
     "familj": "Derivera a^x",
     "geogebra": false,
     "miniräknare": true,
@@ -77064,7 +77084,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=e^x-x\\). Vid vilket x-värde är tangenten horisontell?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[f'(x)=e^x-1\\].</div></div></li><li><p>En horisontell tangent kräver \\(e^x-1=0\\), alltså \\(e^x=1\\) och \\(x=0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan ska vara 0</p><div class=\"facit-matte\">\\[e^x-1=0\\quad\\Rightarrow\\quad e^x=1\\]</div></li><li><p class=\"facit-rubrik\">\\(e^x=1\\) bara när \\(x=0\\)</p><div class=\"facit-matte\">\\[x=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Tangenter och lutning för e^kx",
     "geogebra": false,
     "miniräknare": false,
@@ -77098,7 +77118,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+2t\\) meter. Bestäm medelhastigheten mellan \\(t=1\\) s och \\(t=3\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medelhastigheten är förändringskvoten: \\(\\frac{s(3)-s(1)}{3-1}=\\frac{15-3}{2}=6\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läget vid start och slut</p><div class=\"facit-matte\">\\[s(1)=3,\\qquad s(3)=15\\]</div></li><li><p class=\"facit-rubrik\">Medelhastighet = förflyttning delat med tid</p><div class=\"facit-matte\">\\[\\frac{15-3}{3-1}=6\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -77511,7 +77531,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Antalet gram av ett ämne beskrivs av \\(N(t)=500e^{-0{,}2t}\\), där \\(t\\) mäts i timmar. Bestäm \\(N'(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[N'(t)=-100e^{-0{,}2t}\\].</div></div></li><li><p>Vid \\(t=0\\) blir \\(N'(0)=-100\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-100\\) g/h.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\) med negativt k</p><div class=\"facit-matte\">\\[N'(t)=500\\cdot(-0{,}2)e^{-0{,}2t}=-100e^{-0{,}2t}\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=0\\)</p><div class=\"facit-matte\">\\[N'(0)=-100\\]</div><p>Mängden minskar med 100 g per timme i början.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-100\\) g/h</p></div>",
     "familj": "Derivata i exponentialmodeller",
     "geogebra": false,
     "miniräknare": false,
@@ -77546,7 +77566,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett sönderfall beskrivs av \\(N(t)=120e^{-0{,}05t}\\). Vid en viss tidpunkt är \\(N(t)=60\\). Hur stor är förändringshastigheten \\(N'(t)\\) just då?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[N'(t)=-0{,}05N(t)\\].</div></div></li><li><p>När \\(N(t)=60\\) blir därför \\(N'(t)=-0{,}05\\cdot60=-3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\) per tidsenhet.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan uttryckt i N</p><div class=\"facit-matte\">\\[N'(t)=-0{,}05\\cdot120e^{-0{,}05t}=-0{,}05\\,N(t)\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(N(t)=60\\)</p><div class=\"facit-matte\">\\[N'(t)=-0{,}05\\cdot60=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\) per tidsenhet</p></div>",
     "familj": "Derivata i exponentialmodeller",
     "geogebra": false,
     "miniräknare": true,
@@ -77996,7 +78016,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En population modelleras av \\(P(t)=200e^{0{,}1t}\\). Bestäm \\(P(5)\\). Avrunda till heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Insättning ger</p><div class=\"facit-matte\">\\[P(5)=200e^{0{,}5}\\approx329{,}7\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 330.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(t=5\\)</p><div class=\"facit-matte\">\\[P(5)=200e^{0{,}5}\\approx329{,}7\\]</div></li><li><p class=\"facit-rubrik\">Avrunda till heltal</p><div class=\"facit-matte\">\\[\\approx330\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 330</p></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -78031,7 +78051,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En population modelleras av \\(P(t)=150e^{0{,}2t}\\). Efter hur lång tid har populationen fördubblats? Avrunda till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Fördubbling innebär \\(150e^{0{,}2t}=300\\), alltså \\(e^{0{,}2t}=2\\).</p></li><li><p>Logaritmering ger \\(0{,}2t=\\ln2\\), så \\(t=\\frac{\\ln2}{0{,}2}\\approx3{,}47\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,47 tidsenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fördubbling: dubbla startvärdet</p><div class=\"facit-matte\">\\[150e^{0{,}2t}=300\\quad\\Rightarrow\\quad e^{0{,}2t}=2\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[0{,}2t=\\ln2\\quad\\Rightarrow\\quad t=\\frac{\\ln2}{0{,}2}\\approx3{,}47\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,47 tidsenheter</p></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -78091,7 +78111,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rörelse beskrivs av lägesfunktionen \\(s(t)=3t^2-2t\\) meter. Bestäm hastigheten vid \\(t=4\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=6t-2\\].</div></div></li><li><p>Vid \\(t=4\\) blir \\(v(4)=22\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 22 m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=6t-2\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=4\\)</p><div class=\"facit-matte\">\\[v(4)=22\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 22 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -78126,7 +78146,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivera \\(f(x)=7e^{x/2}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Exponentens derivata är \\(1/2\\).</p></li><li><div class=\"facit-berakning\"><p>Därför är</p><div class=\"facit-matte\">\\[f'(x)=\\frac72e^{x/2}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac72e^{x/2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) med \\(k=\\tfrac12\\)</p><div class=\"facit-matte\">\\[f'(x)=7\\cdot\\tfrac12e^{x/2}=\\tfrac72e^{x/2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac72e^{x/2}\\)</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -78160,7 +78180,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=2e^{-0{,}5x}\\). Vilket påstående om derivatan gäller för alla reella \\(x\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[f'(x)=-e^{-0{,}5x}\\].</div></div></li><li><p>Exponentialfaktorn är alltid positiv, så derivatan är alltid negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)&lt;0\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) med \\(k=-0{,}5\\)</p><div class=\"facit-matte\">\\[f'(x)=2\\cdot(-0{,}5)e^{-0{,}5x}=-e^{-0{,}5x}\\]</div></li><li><p class=\"facit-rubrik\">En e-potens är alltid positiv</p><p>\\(e^{-0{,}5x}\\gt0\\) för alla x, så \\(-e^{-0{,}5x}\\lt0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)&lt;0\\)</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -78181,7 +78201,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Derivera exponentialfunktioner"
     ],
-    "alternativ": [{"txt": "\\(f'(x)&gt;0\\)", "ratt": false}, {"txt": "\\(f'(x)\\) byter tecken vid \\(x=0\\)", "ratt": false}, {"txt": "\\(f'(x)=0\\)", "ratt": false}, {"txt": "\\(f'(x)&lt;0\\)", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "\\(f'(x)&gt;0\\)",
+        "ratt": false,
+        "kommentar": "Faktorn \\(-0{,}5\\) från exponenten gör derivatan negativ."
+      },
+      {
+        "txt": "\\(f'(x)\\) byter tecken vid \\(x=0\\)",
+        "ratt": false,
+        "kommentar": "Derivatan är \\(-e^{-0{,}5x}\\), som är negativ för alla x och byter inte tecken."
+      },
+      {
+        "txt": "\\(f'(x)=0\\)",
+        "ratt": false,
+        "kommentar": "En e-potens är aldrig 0, så derivatan kan inte vara 0."
+      },
+      {
+        "txt": "\\(f'(x)&lt;0\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "2.739",
@@ -78194,7 +78234,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(3e^{0{,}4x}=12\\). Avrunda svaret till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Dividera med 3:</p><div class=\"facit-matte\">\\[e^{0{,}4x}=4\\].</div></div></li><li><p>Logaritmering ger \\(0{,}4x=\\ln4\\), alltså \\(x=\\frac{\\ln4}{0{,}4}\\approx3{,}47\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,47.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela med 3</p><div class=\"facit-matte\">\\[e^{0{,}4x}=4\\]</div></li><li><p class=\"facit-rubrik\">Ta ln</p><div class=\"facit-matte\">\\[0{,}4x=\\ln4\\]</div></li><li><p class=\"facit-rubrik\">Dela med 0,4</p><div class=\"facit-matte\">\\[x=\\frac{\\ln4}{0{,}4}\\approx3{,}47\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,47</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -80183,7 +80223,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+t+2\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=6t+1\\].</div></div></li><li><p>Därför \\(v(2)=13\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera \\(3t^2+t+2\\)</p><div class=\"facit-matte\">\\[v(t)=6t+1\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(t=2\\)</p><div class=\"facit-matte\">\\[v(2)=13\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -80217,7 +80257,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+2t+0\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=6t+2\\].</div></div></li><li><p>Därför \\(v(2)=14\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=6t+2\\]</div></li><li><p class=\"facit-rubrik\">Hastigheten efter 2 s</p><div class=\"facit-matte\">\\[v(2)=14\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -80483,7 +80523,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+2t+0\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=6t+2\\].</div></div></li><li><p>Därför \\(v(3)=20\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastighetsfunktionen</p><div class=\"facit-matte\">\\[v(t)=s'(t)=6t+2\\]</div></li><li><p class=\"facit-rubrik\">Efter 3 s</p><div class=\"facit-matte\">\\[v(3)=18+2=20\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -83678,7 +83718,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+t+5\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=6t+1\\].</div></div></li><li><p>Därför \\(v(1)=7\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=6t+1\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=1\\)</p><div class=\"facit-matte\">\\[v(1)=7\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -83712,7 +83752,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+2t+2\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=6t+2\\].</div></div></li><li><p>Därför \\(v(1)=8\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(3t^2+2t+2\\)</p><div class=\"facit-matte\">\\[v(t)=6t+2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(t=1\\)</p><div class=\"facit-matte\">\\[v(1)=8\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -83746,7 +83786,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+t+2\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=6t+1\\].</div></div></li><li><p>Därför \\(v(3)=19\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=6t+1\\]</div></li><li><p class=\"facit-rubrik\">Efter 3 sekunder</p><div class=\"facit-matte\">\\[v(3)=19\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -84125,7 +84165,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Temperaturen i en ugn är \\(T(t)=20+4t-0{,}5t^2\\) °C efter \\(t\\) minuter. Hur snabbt ökar temperaturen när \\(t=2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T'(t)=4-t\\), så \\(T'(2)=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 °C per minut</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Temperaturens förändringshastighet är \\(T'(t)\\)</p><div class=\"facit-matte\">\\[T'(t)=4-t\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=2\\)</p><div class=\"facit-matte\">\\[T'(2)=2\\ ^\\circ\\text{C/min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 °C per minut</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -84159,7 +84199,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En tank töms. Vattenvolymen är \\(V(t)=500-3t^2\\) liter efter \\(t\\) minuter. Med vilken hastighet minskar volymen när \\(t=4\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V'(t)=-6t\\) och \\(V'(4)=-24\\).</p></li><li><p>Volymen minskar alltså med 24 liter per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 liter/minut</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymens förändringshastighet \\(V'(t)\\)</p><div class=\"facit-matte\">\\[V'(t)=-6t\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=4\\)</p><div class=\"facit-matte\">\\[V'(4)=-24\\]</div><p>Minustecknet visar att volymen minskar med 24 liter per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 liter/minut</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -84194,7 +84234,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+2t+2\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=2t+2\\].</div></div></li><li><p>Därför \\(v(2)=6\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=2t+2\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=2\\)</p><div class=\"facit-matte\">\\[v(2)=6\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -84228,7 +84268,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En vagn rör sig så att läget är \\(s(t)=t^2-6t+3\\) meter. Vid vilken tidpunkt står vagnen stilla?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=2t-6\\].</div></div></li><li><p>\\(v(t)=0\\Rightarrow t=3\\) s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=3\\) s</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stilla betyder \\(v(t)=0\\)</p><div class=\"facit-matte\">\\[v(t)=2t-6=0\\]</div></li><li><p class=\"facit-rubrik\">Lös ut t</p><div class=\"facit-matte\">\\[t=3\\ \\text{s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=3\\) s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -84263,7 +84303,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Antalet invånare i en ort beskrivs av \\(N(t)=4000+20t+t^2\\), där \\(t\\) är år efter 2020. Med hur många invånare per år ökar befolkningen år 2025?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(N'(t)=20+2t\\) och \\(N'(5)=30\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 invånare per år</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">År 2025 är \\(t=5\\)</p><div class=\"facit-matte\">\\[N'(t)=20+2t\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(t=5\\)</p><div class=\"facit-matte\">\\[N'(5)=30\\ \\text{invånare/år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 invånare per år</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -84298,7 +84338,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Kostnaden för att tillverka \\(x\\) stolar är \\(K(x)=0{,}5x^2+10x+2000\\) kr. Bestäm marginalkostnaden \\(K'(20)\\) och tolka den.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(K'(x)=x+10\\), så \\(K'(20)=30\\).</p></li><li><p>När 20 stolar tillverkas kostar ungefär en stol till 30 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 kr per stol</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Marginalkostnad: derivatan av kostnaden</p><div class=\"facit-matte\">\\[K'(x)=x+10\\]</div></li><li><p class=\"facit-rubrik\">Vid 20 stolar</p><div class=\"facit-matte\">\\[K'(20)=30\\]</div><p>Den 21:a stolen kostar ungefär 30 kr extra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 kr per stol</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -85244,7 +85284,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+4t+2\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=2t+4\\].</div></div></li><li><p>Därför \\(v(3)=10\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=2t+4\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=3\\)</p><div class=\"facit-matte\">\\[v(3)=10\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -85278,7 +85318,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En boll kastas uppåt. Höjden är \\(h(t)=25t-5t^2\\) meter. Bestäm bollens hastighet efter 1 sekund. Är bollen på väg upp eller ner?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(h'(t)=25-10t\\), så \\(h'(1)=15\\) m/s.</p></li><li><p>Hastigheten är positiv, så bollen är på väg upp.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 m/s, uppåt</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är \\(h'(t)\\)</p><div class=\"facit-matte\">\\[h'(t)=25-10t\\]</div></li><li><p class=\"facit-rubrik\">Efter 1 s</p><div class=\"facit-matte\">\\[h'(1)=15\\ \\text{m/s}\\]</div><p>Positiv hastighet: bollen är på väg upp.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 m/s, uppåt</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -85313,7 +85353,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En cyklists läge är \\(s(t)=t^2+4t\\) meter efter \\(t\\) sekunder. När är hastigheten 10 m/s?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v(t)=s'(t)=2t+4\\].</div></li><li><p>\\(2t+4=10\\Rightarrow t=3\\) s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=3\\) s</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=2t+4\\]</div></li><li><p class=\"facit-rubrik\">Hastigheten ska vara 10 m/s</p><div class=\"facit-matte\">\\[2t+4=10\\quad\\Rightarrow\\quad t=3\\ \\text{s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=3\\) s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -85348,7 +85388,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+2t+2\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=2t+2\\].</div></div></li><li><p>Därför \\(v(1)=4\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera läget</p><div class=\"facit-matte\">\\[v(t)=2t+2\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=1\\)</p><div class=\"facit-matte\">\\[v(1)=4\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -85382,7 +85422,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En tank töms. Vattenvolymen är \\(V(t)=500-2t^2\\) liter efter \\(t\\) minuter. Med vilken hastighet minskar volymen när \\(t=4\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V'(t)=-4t\\) och \\(V'(4)=-16\\).</p></li><li><p>Volymen minskar alltså med 16 liter per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 liter/minut</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(V'(t)\\) anger hur snabbt volymen ändras</p><div class=\"facit-matte\">\\[V'(t)=-4t\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=4\\)</p><div class=\"facit-matte\">\\[V'(4)=-16\\]</div><p>Volymen minskar med 16 liter per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 liter/minut</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -85417,7 +85457,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+t+5\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=2t+1\\].</div></div></li><li><p>Därför \\(v(3)=7\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=2t+1\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=3\\)</p><div class=\"facit-matte\">\\[v(3)=7\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 m/s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -85451,7 +85491,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Temperaturen i en ugn är \\(T(t)=20+4t-0{,}5t^2\\) °C efter \\(t\\) minuter. Hur snabbt ökar temperaturen när \\(t=1\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T'(t)=4-t\\), så \\(T'(1)=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 °C per minut</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera temperaturen</p><div class=\"facit-matte\">\\[T'(t)=4-t\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=1\\)</p><div class=\"facit-matte\">\\[T'(1)=3\\ ^\\circ\\text{C/min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 °C per minut</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -85485,7 +85525,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En vagn rör sig så att läget är \\(s(t)=t^2-10t+3\\) meter. Vid vilken tidpunkt står vagnen stilla?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=2t-10\\].</div></div></li><li><p>\\(v(t)=0\\Rightarrow t=5\\) s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=5\\) s</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stilla: hastigheten är noll</p><div class=\"facit-matte\">\\[v(t)=2t-10=0\\]</div></li><li><p class=\"facit-rubrik\">Lös ut t</p><div class=\"facit-matte\">\\[t=5\\ \\text{s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=5\\) s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -87400,7 +87440,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Antalet invånare i en ort beskrivs av \\(N(t)=4000+10t+t^2\\), där \\(t\\) är år efter 2020. Med hur många invånare per år ökar befolkningen år 2023?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(N'(t)=10+2t\\) och \\(N'(3)=16\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 invånare per år</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">År 2023 motsvarar \\(t=3\\)</p><div class=\"facit-matte\">\\[N'(t)=10+2t\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(t=3\\)</p><div class=\"facit-matte\">\\[N'(3)=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 invånare per år</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -87435,7 +87475,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Kostnaden för att tillverka \\(x\\) stolar är \\(K(x)=0{,}5x^2+10x+2000\\) kr. Bestäm marginalkostnaden \\(K'(40)\\) och tolka den.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(K'(x)=x+10\\), så \\(K'(40)=50\\).</p></li><li><p>När 40 stolar tillverkas kostar ungefär en stol till 50 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 kr per stol</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Marginalkostnaden är \\(K'(x)\\)</p><div class=\"facit-matte\">\\[K'(x)=x+10\\]</div></li><li><p class=\"facit-rubrik\">Vid 40 stolar</p><div class=\"facit-matte\">\\[K'(40)=50\\]</div><p>En stol till kostar ungefär 50 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 kr per stol</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -89329,7 +89369,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=8e^{7x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[f'(x)=56e^{7x}\\].</div></div></li><li><p>Eftersom \\(e^0=1\\) blir \\(f'(0)=56\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 56</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exponentens faktor 7 multipliceras med 8</p><div class=\"facit-matte\">\\[f'(x)=56e^{7x}\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(x=0\\)</p><div class=\"facit-matte\">\\[f'(0)=56\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 56</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
@@ -89363,7 +89403,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=2e^{8x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[f'(x)=16e^{8x}\\].</div></div></li><li><p>Eftersom \\(e^0=1\\) blir \\(f'(0)=16\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) med \\(k=8\\)</p><div class=\"facit-matte\">\\[f'(x)=16e^{8x}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in 0</p><div class=\"facit-matte\">\\[f'(0)=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
@@ -89514,7 +89554,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=3e^x\\). Bestäm \\(f'(1)\\) med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=3e^x\\), så \\(f'(1)=3e\\approx8{,}15\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,15</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\((e^x)'=e^x\\)</p><div class=\"facit-matte\">\\[f'(x)=3e^x\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=1\\)</p><div class=\"facit-matte\">\\[f'(1)=3e\\approx8{,}15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,15</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -89548,7 +89588,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=e^{2x}+3x\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=2e^{2x}+3\\), så \\(f'(0)=2+3=5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera varje term</p><div class=\"facit-matte\">\\[f'(x)=2e^{2x}+3\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(x=0\\)</p><div class=\"facit-matte\">\\[f'(0)=2+3=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
@@ -89903,7 +89943,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=6e^{x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[f'(x)=6e^{x}\\].</div></div></li><li><p>Eftersom \\(e^0=1\\) blir \\(f'(0)=6\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^x\\) är \\(e^x\\)</p><div class=\"facit-matte\">\\[f'(x)=6e^x\\]</div></li><li><p class=\"facit-rubrik\">\\(e^0=1\\)</p><div class=\"facit-matte\">\\[f'(0)=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -89937,7 +89977,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Lös ekvationen</p><p>\\[e^{2x}-5e^x+6=0.\\]</p><p>Svara exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[t=e^x\\].</div></div></li><li><p>Då är \\(e^{2x}=t^2\\) och ekvationen blir \\(t^2-5t+6=0\\), alltså \\((t-2)(t-3)=0\\).</p></li><li><p>\\(e^x=2\\) ger \\(x=\\ln2\\).</p></li><li><p>\\(e^x=3\\) ger \\(x=\\ln3\\).</p></li><li><p>Båda är giltiga, eftersom \\(e^x\\) kan anta alla positiva värden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\ln2\\) eller \\(x=\\ln3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inför \\(t=e^x\\), så att \\(e^{2x}=t^2\\)</p><div class=\"facit-matte\">\\[t^2-5t+6=0\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera: summa \\(-5\\), produkt 6</p><div class=\"facit-matte\">\\[(t-2)(t-3)=0\\quad\\Rightarrow\\quad t=2\\ \\text{eller}\\ t=3\\]</div></li><li><p class=\"facit-rubrik\">Tillbaka till x</p><div class=\"facit-matte\">\\[e^x=2\\Rightarrow x=\\ln2,\\qquad e^x=3\\Rightarrow x=\\ln3\\]</div><p>Båda är positiva t, så båda ger en lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\ln2\\) eller \\(x=\\ln3\\)</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "formaga": [
       "problemlösning",
@@ -89980,7 +90020,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=6e^{0{,}5x}\\). I en punkt på grafen är \\(f(x)=18\\). Bestäm tangentens lutning i punkten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=0{,}5\\cdot6e^{0{,}5x}=0{,}5f(x)\\].</div></li><li><div class=\"facit-berakning\"><p>Lutningen är</p><div class=\"facit-matte\">\\[0{,}5\\cdot18=9\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är proportionell mot funktionen</p><div class=\"facit-matte\">\\[f'(x)=6\\cdot0{,}5e^{0{,}5x}=0{,}5\\cdot f(x)\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(f(x)=18\\)</p><div class=\"facit-matte\">\\[f'(x)=0{,}5\\cdot18=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -90004,42 +90044,42 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt"
   },
   {
-  "id": "2.753",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Massan av ett ämne är \\(m(t)=10e^{-0{,}2t}\\) gram efter \\(t\\) timmar. Bestäm \\(m'(0)\\) och tolka svaret.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(m'(t)=-0{,}2\\cdot10e^{-0{,}2t}\\), så \\(m'(0)=-2\\).</p></li><li><p>Massan minskar med 2 gram per timme vid start.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −2 g/h</p></div>",
-  "familj": "Derivera e^kx",
-  "geogebra": false,
-  "miniräknare": false,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "ledtrad": "<p>Glöm inte minustecknet i exponenten.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Tolka derivata i exponentialmodell"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": -2.0,
-  "tolerans": null,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "g/h",
-  "manuellKomplettering": true
-},
+    "id": "2.753",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Massan av ett ämne är \\(m(t)=10e^{-0{,}2t}\\) gram efter \\(t\\) timmar. Bestäm \\(m'(0)\\) och tolka svaret.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\) med \\(k=-0{,}2\\)</p><div class=\"facit-matte\">\\[m'(t)=10\\cdot(-0{,}2)e^{-0{,}2t}=-2e^{-0{,}2t}\\]</div></li><li><p class=\"facit-rubrik\">Vid start</p><div class=\"facit-matte\">\\[m'(0)=-2\\]</div><p>Massan minskar med 2 gram per timme i början.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\) g/h</p></div>",
+    "familj": "Derivera e^kx",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Glöm inte minustecknet i exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Tolka derivata i exponentialmodell"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -2.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "g/h",
+    "manuellKomplettering": true
+  },
   {
     "id": "2.754",
     "kap": 2,
@@ -90051,7 +90091,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En boll kastas uppåt. Höjden är \\(h(t)=15t-5t^2\\) meter. Bestäm bollens hastighet efter 1 sekund. Är bollen på väg upp eller ner?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(h'(t)=15-10t\\), så \\(h'(1)=5\\) m/s.</p></li><li><p>Hastigheten är positiv, så bollen är på väg upp.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 m/s, uppåt</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bollens hastighet är \\(h'(t)\\)</p><div class=\"facit-matte\">\\[h'(t)=15-10t\\]</div></li><li><p class=\"facit-rubrik\">Efter 1 s</p><div class=\"facit-matte\">\\[h'(1)=5\\ \\text{m/s}\\]</div><p>Positivt tecken: bollen stiger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 m/s, uppåt</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -90086,7 +90126,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En cyklists läge är \\(s(t)=t^2+2t\\) meter efter \\(t\\) sekunder. När är hastigheten 10 m/s?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v(t)=s'(t)=2t+2\\].</div></li><li><p>\\(2t+2=10\\Rightarrow t=4\\) s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=4\\) s</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastigheten är lägets derivata: \\(v(t)=s'(t)\\)</p><div class=\"facit-matte\">\\[v(t)=2t+2\\]</div></li><li><p class=\"facit-rubrik\">Sätt hastigheten lika med 10</p><div class=\"facit-matte\">\\[2t+2=10\\quad\\Rightarrow\\quad t=4\\ \\text{s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=4\\) s</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -90155,7 +90195,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Antalet bakterier är \\(N(t)=300e^{0{,}1t}\\) efter \\(t\\) timmar. Hur snabbt växer antalet vid start?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(N'(t)=30e^{0{,}1t}\\), så \\(N'(0)=30\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 bakterier per timme</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tillväxthastigheten är \\(N'(t)\\)</p><div class=\"facit-matte\">\\[N'(t)=300\\cdot0{,}1e^{0{,}1t}=30e^{0{,}1t}\\]</div></li><li><p class=\"facit-rubrik\">Vid start, \\(t=0\\)</p><div class=\"facit-matte\">\\[N'(0)=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 bakterier per timme</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
@@ -90191,7 +90231,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=2e^x\\). Bestäm \\(f'(1)\\) med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=2e^x\\), så \\(f'(1)=2e\\approx5{,}44\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,44</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f'(x)=2e^x\\)</p><div class=\"facit-matte\">\\[f'(1)=2e\\approx5{,}44\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,44</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
@@ -90723,7 +90763,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Temperaturen i en ugn är \\(T(t)=20+6t-0{,}5t^2\\) °C efter \\(t\\) minuter. Hur snabbt ökar temperaturen när \\(t=3\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T'(t)=6-t\\), så \\(T'(3)=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 °C per minut</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Temperaturens derivata</p><div class=\"facit-matte\">\\[T'(t)=6-t\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=3\\)</p><div class=\"facit-matte\">\\[T'(3)=3\\ ^\\circ\\text{C/min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 °C per minut</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -91590,7 +91630,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=e^{2x}+3x\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=2e^{2x}+3\\), så \\(f'(0)=2+3=5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Termvis derivering</p><div class=\"facit-matte\">\\[(e^{2x})'=2e^{2x},\\qquad (3x)'=3\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(x=0\\)</p><div class=\"facit-matte\">\\[f'(0)=2\\cdot1+3=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
@@ -91614,58 +91654,61 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt"
   },
   {
-  "id": "2.771",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Funktionen är \\(f(x)=4e^{0{,}5x}+7\\). Vilket samband gäller för derivatan? (Välj ett alternativ.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Konstanten 7 försvinner vid derivering.</p><div class=\"facit-matte\">\\[f'(x)=2e^{0{,}5x}\\]</div></li><li><p>Den exponentiella delen av f är f(x)−7. Därför är derivatan halva denna del.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(f'(x)=0{,}5(f(x)-7)\\).</strong></p></div>",
-  "familj": "Derivera e^kx",
-  "geogebra": false,
-  "miniräknare": true,
-  "självrättning": true,
-  "formaga": [
-    "begrepp",
-    "resonemang"
-  ],
-  "ledtrad": "<p>Jämför derivatan med den del av f som innehåller e.</p>",
-  "traningsniva": 3,
-  "arbetsinsats": 1,
-  "spel": true,
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Förändringsfaktor från exponentialmodell"
-  ],
-  "svarstyp": "alternativ",
-  "rättSvar": null,
-  "tolerans": null,
-  "svarFormat": "text",
-  "alternativ": [
-    {
-      "txt": "\\(f'(x)=0{,}5f(x)\\)",
-      "ratt": false
-    },
-    {
-      "txt": "\\(f'(x)=0{,}5f(x)+7\\)",
-      "ratt": false
-    },
-    {
-      "txt": "\\(f'(x)=0{,}5(f(x)-7)\\)",
-      "ratt": true
-    },
-    {
-      "txt": "\\(f'(x)=f(x)-7\\)",
-      "ratt": false
-    }
-  ]
-},
+    "id": "2.771",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4e^{0{,}5x}+7\\). Vilket samband gäller för derivatan? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstanten 7 försvinner</p><div class=\"facit-matte\">\\[f'(x)=4\\cdot0{,}5e^{0{,}5x}=2e^{0{,}5x}\\]</div></li><li><p class=\"facit-rubrik\">Uttryck med f</p><div class=\"facit-matte\">\\[4e^{0{,}5x}=f(x)-7\\quad\\Rightarrow\\quad f'(x)=0{,}5\\bigl(f(x)-7\\bigr)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=0{,}5(f(x)-7)\\)</p></div>",
+    "familj": "Derivera e^kx",
+    "geogebra": false,
+    "miniräknare": true,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Jämför derivatan med den del av f som innehåller e.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Förändringsfaktor från exponentialmodell"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "svarFormat": "text",
+    "alternativ": [
+      {
+        "txt": "\\(f'(x)=0{,}5f(x)\\)",
+        "ratt": false,
+        "kommentar": "Konstanten 7 ingår i f men inte i derivatan. Dra bort den först."
+      },
+      {
+        "txt": "\\(f'(x)=0{,}5f(x)+7\\)",
+        "ratt": false,
+        "kommentar": "Konstanten ska dras bort, inte läggas till."
+      },
+      {
+        "txt": "\\(f'(x)=0{,}5(f(x)-7)\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(f'(x)=f(x)-7\\)",
+        "ratt": false,
+        "kommentar": "Faktorn 0,5 från exponenten saknas."
+      }
+    ]
+  },
   {
     "id": "2.772",
     "kap": 2,
@@ -91677,7 +91720,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=7e^{x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[f'(x)=7e^{x}\\].</div></div></li><li><p>Eftersom \\(e^0=1\\) blir \\(f'(0)=7\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^x\\) är \\(e^x\\)</p><div class=\"facit-matte\">\\[f'(x)=7e^x\\]</div></li><li><p class=\"facit-rubrik\">\\(e^0=1\\)</p><div class=\"facit-matte\">\\[f'(0)=7\\cdot1=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
     "familj": "Skriva a^x med basen e",
     "geogebra": false,
     "miniräknare": false,
@@ -91711,7 +91754,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Vid vilket \\(x\\)-värde har graferna till \\(f(x)=2^x\\) och \\(g(x)=3^x\\) samma lutning? Svara exakt eller med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=2^x\\ln2\\) och \\(g'(x)=3^x\\ln3\\).</p><p>\\[2^x\\ln2=3^x\\ln3\\;\\Leftrightarrow\\;\\left(\\frac32\\right)^x=\\frac{\\ln2}{\\ln3}.\\]</p><p>\\[x=\\frac{\\ln\\left(\\frac{\\ln2}{\\ln3}\\right)}{\\ln1{,}5}\\approx-1{,}14.\\]</p></li><li><p>Rimlighet: för negativa \\(x\\) ligger \\(3^x\\) under \\(2^x\\) men har en större faktor \\(\\ln3\\) i derivatan.</p></li><li><p>Lutningarna kan därför vara lika där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx-1{,}14\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera båda</p><div class=\"facit-matte\">\\[f'(x)=2^x\\ln2,\\qquad g'(x)=3^x\\ln3\\]</div></li><li><p class=\"facit-rubrik\">Sätt derivatorna lika och samla potenserna</p><div class=\"facit-matte\">\\[2^x\\ln2=3^x\\ln3\\quad\\Rightarrow\\quad\\left(\\frac32\\right)^x=\\frac{\\ln2}{\\ln3}\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[x\\ln1{,}5=\\ln\\frac{\\ln2}{\\ln3}\\quad\\Rightarrow\\quad x\\approx\\frac{-0{,}4606}{0{,}4055}\\approx-1{,}14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx-1{,}14\\)</p></div>",
     "familj": "Derivera a^x",
     "formaga": [
       "problemlösning",
@@ -91739,7 +91782,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Funktionen \\(f(x)=5\\cdot2^x\\) kan skrivas \\(f(x)=5e^{kx}\\).</p><p>Bestäm \\(k\\) och det \\(x\\) där \\(f'(x)=100\\). Svara med tre respektive två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(2=e^{\\ln2}\\), så \\(2^x=e^{x\\ln2}\\) och \\(k=\\ln2\\approx0{,}693\\).</p><div class=\"facit-matte\">\\[f'(x)=5k\\,e^{kx}=5\\ln2\\cdot2^x\\].</div></li><li><p>\\(f'(x)=100\\) ger \\(2^x=\\frac{100}{5\\ln2}\\approx28{,}85\\).</p><div class=\"facit-matte\">\\[x=\\frac{\\ln28{,}85}{\\ln2}\\approx4{,}85\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=\\ln2\\approx0{,}693\\) och \\(x\\approx4{,}85\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Byt bas: \\(a^x=e^{x\\ln a}\\), eftersom \\(a=e^{\\ln a}\\)</p><div class=\"facit-matte\">\\[5\\cdot2^x=5e^{x\\ln2}\\quad\\Rightarrow\\quad k=\\ln2\\approx0{,}693\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\)</p><div class=\"facit-matte\">\\[f'(x)=5\\ln2\\cdot e^{x\\ln2}=5\\ln2\\cdot2^x\\]</div></li><li><p class=\"facit-rubrik\">Sätt \\(f'(x)=100\\)</p><div class=\"facit-matte\">\\[2^x=\\frac{100}{5\\ln2}\\approx28{,}85\\quad\\Rightarrow\\quad x=\\frac{\\ln28{,}85}{\\ln2}\\approx4{,}85\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}693\\) och \\(x\\approx4{,}85\\)</p></div>",
     "familj": "Skriva a^x med basen e",
     "formaga": [
       "procedur",
@@ -93324,41 +93367,41 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "3.1079",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Massan \\(m(t)\\), i gram, följer modellen \\(m(t)=m_0e^{-0{,}2t}\\), där \\(t\\) mäts i timmar. Vid en viss tidpunkt är minskningshastigheten 3 gram per timme.</p><p>Hur stor är massan vid den tidpunkten?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera modellen: \\(m^{\\prime}(t)=-0{,}2m_0e^{-0{,}2t}=-0{,}2m(t)\\).</p></li><li><p>Massan minskar, så \\(m^{\\prime}(t)=-3\\). Därför gäller \\(-0{,}2m(t)=-3\\), vilket ger \\(m(t)=15\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Massan är 15 gram.</p></div>",
-  "familj": "Derivera e^kx",
-  "geogebra": false,
-  "miniräknare": false,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "ledtrad": "<p>Uttryck derivatan med hjälp av själva massan \\(m(t)\\). Vilket tecken har derivatan när massan minskar?</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "exponential_ln_derivata"
-  ],
-  "familjTidigare": [
-    "Variant: bestäm lutning från funktionsvärde"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 15,
-  "tolerans": null,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "g"
-},
+    "id": "3.1079",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Massan \\(m(t)\\), i gram, följer modellen \\(m(t)=m_0e^{-0{,}2t}\\), där \\(t\\) mäts i timmar. Vid en viss tidpunkt är minskningshastigheten 3 gram per timme.</p><p>Hur stor är massan vid den tidpunkten?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan uttryckt i massan</p><div class=\"facit-matte\">\\[m'(t)=-0{,}2m_0e^{-0{,}2t}=-0{,}2\\,m(t)\\]</div></li><li><p class=\"facit-rubrik\">Minskningen 3 g/h betyder \\(m'(t)=-3\\)</p><div class=\"facit-matte\">\\[-0{,}2\\,m(t)=-3\\quad\\Rightarrow\\quad m(t)=15\\ \\text{g}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 gram</p></div>",
+    "familj": "Derivera e^kx",
+    "geogebra": false,
+    "miniräknare": false,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Uttryck derivatan med hjälp av själva massan \\(m(t)\\). Vilket tecken har derivatan när massan minskar?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "exponential_ln_derivata"
+    ],
+    "familjTidigare": [
+      "Variant: bestäm lutning från funktionsvärde"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "g"
+  },
   {
     "id": "3.1080",
     "kap": 2,
@@ -93370,7 +93413,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Antalet bakterier är \\(N(t)=300e^{0{,}1t}\\) efter \\(t\\) timmar. Hur snabbt växer antalet vid start?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(N'(t)=30e^{0{,}1t}\\), så \\(N'(0)=30\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 bakterier per timme</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera modellen</p><div class=\"facit-matte\">\\[N'(t)=30e^{0{,}1t}\\]</div></li><li><p class=\"facit-rubrik\">Start: \\(t=0\\)</p><div class=\"facit-matte\">\\[N'(0)=30\\cdot1=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 bakterier per timme</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
@@ -93405,7 +93448,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Bestäm konstanten \\(k\\ne0\\) så att tangenten till kurvan \\(y=e^{kx}\\) i punkten där \\(x=1\\) går genom origo.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I \\(x=1\\) är \\(y=e^k\\) och \\(y'=ke^k\\).</p></li><li><p>Tangenten är</p><p>\\[y=e^k+ke^k(x-1).\\]</p></li><li><div class=\"facit-berakning\"><p>Origo ska ligga på tangenten:</p><div class=\"facit-matte\">\\[0=e^k-ke^k=e^k(1-k)\\].</div></div></li><li><p>Eftersom \\(e^k&gt;0\\) måste \\(k=1\\).</p></li><li><p>Kontroll: för \\(y=e^x\\) är tangenten i \\(x=1\\) linjen \\(y=ex\\), som går genom origo.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkt och lutning i \\(x=1\\)</p><div class=\"facit-matte\">\\[y(1)=e^k,\\qquad y'=ke^{kx}\\Rightarrow y'(1)=ke^k\\]</div></li><li><p class=\"facit-rubrik\">Tangenten</p><div class=\"facit-matte\">\\[y=e^k+ke^k(x-1)\\]</div></li><li><p class=\"facit-rubrik\">Origo ska ligga på tangenten</p><div class=\"facit-matte\">\\[0=e^k-ke^k=e^k(1-k)\\quad\\Rightarrow\\quad k=1\\]</div><p>\\(e^k\\) är aldrig 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=1\\)</p></div>",
     "familj": "Tangenter och lutning för e^kx",
     "formaga": [
       "problemlösning",
@@ -93433,7 +93476,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Funktionen är \\(f(x)=e^{2x}-4e^x\\).</p><p>a) För vilket x-värde antar funktionen sitt minsta värde? Svara exakt eller med tre decimaler.</p><p>b) Bestäm funktionens minsta värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>a)</strong> Derivera:</p><p>\\[f'(x)=2e^{2x}-4e^x.\\]</p></li><li><p>Bryt ut \\(2e^x\\):</p><p>\\[f'(x)=2e^x(e^x-2).\\]</p></li><li><p>Eftersom \\(e^x&gt;0\\) blir derivatan noll när \\(e^x=2\\), alltså \\(x=\\ln2\\).</p></li><li><p>För \\(x&lt;\\ln2\\) är \\(e^x-2&lt;0\\); för \\(x&gt;\\ln2\\) är \\(e^x-2&gt;0\\). Funktionen minskar först och ökar sedan, så punkten är ett minimum.</p></li><li><p><strong>b)</strong> Vid \\(x=\\ln2\\) är \\(e^x=2\\). Därför blir</p><p>\\[f(\\ln2)=2^2-4\\cdot2=-4.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: a) \\(x=\\ln2\\approx0{,}693\\). b) Minsta värdet är \\(-4\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och bryt ut \\(2e^x\\)</p><div class=\"facit-matte\">\\[f'(x)=2e^{2x}-4e^x=2e^x(e^x-2)\\]</div></li><li><p class=\"facit-rubrik\">a) \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[e^x=2\\quad\\Rightarrow\\quad x=\\ln2\\approx0{,}693\\]</div><p>Derivatan är negativ före och positiv efter, så det är ett minimum.</p></li><li><p class=\"facit-rubrik\">b) Minsta värdet: sätt in \\(e^x=2\\)</p><div class=\"facit-matte\">\\[f(\\ln2)=2^2-4\\cdot2=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(x=\\ln2\\approx0{,}693\\) &nbsp; b) \\(-4\\)</p></div>",
     "familj": "Derivera e^kx",
     "formaga": [
       "procedur",
@@ -94361,7 +94404,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En tank töms. Vattenvolymen är \\(V(t)=500-3t^2\\) liter efter \\(t\\) minuter. Med vilken hastighet minskar volymen när \\(t=5\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V'(t)=-6t\\) och \\(V'(5)=-30\\).</p></li><li><p>Volymen minskar alltså med 30 liter per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 liter/minut</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av volymen</p><div class=\"facit-matte\">\\[V'(t)=-6t\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=5\\)</p><div class=\"facit-matte\">\\[V'(5)=-30\\]</div><p>Negativt: volymen minskar med 30 liter per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 liter/minut</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -94431,7 +94474,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Volymen av ett klot med radien \\(r\\) cm är \\(V(r)=\\frac43\\pi r^3\\) cm³.</p><p>Använd derivatan för att uppskatta hur mycket volymen ökar när radien ökar från 10,0 cm till 10,1 cm. Svara i cm³ med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V'(r)=4\\pi r^2\\), så \\(V'(10)=400\\pi\\approx1\\,256{,}6\\) cm³ per cm.</p></li><li><p>När radien ökar med \\(0{,}1\\) cm ökar volymen ungefär \\(V'(10)\\cdot0{,}1\\approx125{,}7\\) cm³.</p></li><li><p>Den exakta ökningen är \\(\\frac43\\pi(10{,}1^3-10^3)\\approx126{,}9\\) cm³, så uppskattningen är god.</p></li><li><p>Lägg märke till att \\(V'(r)=4\\pi r^2\\) är klotets area.</p></li><li><p>Ett tunt skal med tjockleken \\(\\Delta r\\) har ungefär volymen area gånger tjocklek.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 125,7 cm³</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan: \\(V'(r)=4\\pi r^2\\)</p><div class=\"facit-matte\">\\[V'(10)=400\\pi\\approx1256{,}6\\ \\text{cm}^3\\text{ per cm}\\]</div></li><li><p class=\"facit-rubrik\">Ändring ≈ derivata · liten ändring i r</p><div class=\"facit-matte\">\\[\\Delta V\\approx V'(10)\\cdot0{,}1\\approx125{,}7\\ \\text{cm}^3\\]</div></li><li><p class=\"facit-rubrik\">Jämför med den exakta ökningen</p><div class=\"facit-matte\">\\[\\tfrac43\\pi(10{,}1^3-10^3)\\approx126{,}9\\ \\text{cm}^3\\]</div><p>Uppskattningen är bra eftersom 0,1 cm är en liten ändring.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär 125,7 cm³</p></div>",
     "familj": "Derivata som förändringshastighet",
     "formaga": [
       "begrepp",
@@ -94460,7 +94503,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>För en funktion \\(f\\) gäller \\(f(2)=5\\) och \\(f'(2)=-3\\).</p><p>Uppskatta \\(f(2{,}1)\\) med hjälp av tangenten, och bestäm var tangenten i \\(x=2\\) skär \\(x\\)-axeln. Svara exakt eller med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangenten i \\(x=2\\): \\(y=5-3(x-2)\\).</p></li><li><div class=\"facit-berakning\"><p>Uppskattning:</p><div class=\"facit-matte\">\\[f(2{,}1)\\approx5-3\\cdot0{,}1=4{,}7\\].</div></div></li><li><div class=\"facit-berakning\"><p>Tangentens nollställe:</p><div class=\"facit-matte\">\\[5-3(x-2)=0.\\]\\[x=2+\\frac53=\\frac{11}{3}.\\]\\[x\\approx3{,}667.\\].</div></div></li><li><div class=\"facit-berakning\"><p>Uppskattningen är bara bra nära</p><div class=\"facit-matte\">\\[x=2\\].</div></div></li><li><p>Vi vet inget om grafens form längre bort.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(2{,}1)\\approx4{,}7\\) och tangenten skär \\(x\\)-axeln i \\(x=\\frac{11}{3}\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangenten i \\(x=2\\): enpunktsformen</p><div class=\"facit-matte\">\\[y=f(2)+f'(2)(x-2)=5-3(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Uppskatta \\(f(2{,}1)\\) med tangenten</p><div class=\"facit-matte\">\\[5-3\\cdot0{,}1=4{,}7\\]</div></li><li><p class=\"facit-rubrik\">Tangentens nollställe</p><div class=\"facit-matte\">\\[5-3(x-2)=0\\quad\\Rightarrow\\quad x=2+\\frac53=\\frac{11}{3}\\approx3{,}667\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(2{,}1)\\approx4{,}7\\); tangenten skär x-axeln i \\(x=\\tfrac{11}{3}\\approx3{,}667\\)</p></div>",
     "familj": "Derivata som tangentens lutning",
     "formaga": [
       "procedur",
@@ -95897,7 +95940,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "5/0/0",
     "t": "<p>Värdet på en elbil kan under de första åtta åren beskrivas med modellen \\(V(t)=240\\,000e^{-0{,}18t}\\), där \\(V\\) mäts i kronor och \\(t\\) är antal år efter köpet. Modellen används för \\(0\\le t\\le8\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Vad är bilen värd efter tre år? Avrunda till närmaste hundratal kronor.</p><p>b) Beräkna \\(V^{\\prime}(3)\\) och tolka svaret. Avrunda till närmaste hundratal kr/år.</p><p>c) Efter hur lång tid har bilen förlorat halva sitt inköpsvärde? Svara med två decimaler i år.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V(3)=240\\,000e^{-0{,}54}\\approx139\\,859,58\\].</div></li><li><p>Bilen är värd ungefär \\(139\\,900\\) kr.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V^{\\prime}(t)=-43\\,200e^{-0{,}18t}\\), så \\(V^{\\prime}(3)\\approx-25\\,174,72\\) kr/år.</p></li><li><p>Vid tre års ålder minskar värdet med ungefär \\(25\\,200\\) kr per år.</p></li><li><p>Det är den momentana hastigheten, inte den exakta förlusten under hela nästa år.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Halva inköpsvärdet är \\(120\\,000\\) kr.</p></li><li><p>\\(240\\,000e^{-0{,}18t}=120\\,000\\) ger \\(t=\\ln(0,5)/(-0,18)\\approx3{,}85\\) år.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(139\\,900\\), b) \\(-25\\,200\\), c) \\(3{,}85\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(t=3\\)</p><div class=\"facit-matte\">\\[V(3)=240\\,000e^{-0{,}54}\\approx139\\,859{,}58\\]</div></li><li><p class=\"facit-rubrik\">Avrunda till hundratal</p><div class=\"facit-matte\">\\[\\approx139\\,900\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 139 900 kr</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[V'(t)=240\\,000\\cdot(-0{,}18)e^{-0{,}18t}=-43\\,200e^{-0{,}18t}\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=3\\)</p><div class=\"facit-matte\">\\[V'(3)=-43\\,200e^{-0{,}54}\\approx-25\\,174{,}72\\]</div><div class=\"facit-matte\">\\[\\approx-25\\,200\\ \\text{kr/år}\\]</div><p>Värdet minskar då med ungefär 25 200 kr per år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-25\\,200\\) kr/år</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halva inköpsvärdet är 120 000 kr</p><div class=\"facit-matte\">\\[240\\,000e^{-0{,}18t}=120\\,000\\quad\\Rightarrow\\quad e^{-0{,}18t}=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[t=\\frac{\\ln0{,}5}{-0{,}18}\\approx3{,}85\\ \\text{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,85 år</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -95938,7 +95981,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Värdet på en elbil kan under de första åtta åren beskrivas med modellen \\(V(t)=240\\,000e^{-0{,}18t}\\), där \\(V\\) mäts i kronor och \\(t\\) är antal år efter köpet. Modellen används för \\(0\\le t\\le8\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Vad är bilen värd efter tre år? Avrunda till närmaste hundratal kronor.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V(3)=240\\,000e^{-0{,}54}\\approx139\\,859,58\\].</div></li><li><p>Bilen är värd ungefär \\(139\\,900\\) kr.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(t=3\\)</p><div class=\"facit-matte\">\\[V(3)=240\\,000e^{-0{,}54}\\approx139\\,859{,}58\\]</div></li><li><p class=\"facit-rubrik\">Avrunda till hundratal</p><div class=\"facit-matte\">\\[\\approx139\\,900\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 139 900 kr</p></div>",
         "ledtrad": "<p>Sätt in 3 i stället för t.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -95948,7 +95991,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Värdet på en elbil kan under de första åtta åren beskrivas med modellen \\(V(t)=240\\,000e^{-0{,}18t}\\), där \\(V\\) mäts i kronor och \\(t\\) är antal år efter köpet. Modellen används för \\(0\\le t\\le8\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna \\(V^{\\prime}(3)\\). Ange förändringshastigheten med tecken, avrundad till närmaste hundratal kr/år.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V^{\\prime}(t)=-43\\,200e^{-0{,}18t}\\), så \\(V^{\\prime}(3)\\approx-25\\,174,72\\) kr/år.</p></li><li><p>Vid tre års ålder minskar värdet med ungefär \\(25\\,200\\) kr per år.</p></li><li><p>Det är den momentana hastigheten, inte den exakta förlusten under hela nästa år.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[V'(t)=240\\,000\\cdot(-0{,}18)e^{-0{,}18t}=-43\\,200e^{-0{,}18t}\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=3\\)</p><div class=\"facit-matte\">\\[V'(3)=-43\\,200e^{-0{,}54}\\approx-25\\,174{,}72\\]</div><div class=\"facit-matte\">\\[\\approx-25\\,200\\ \\text{kr/år}\\]</div><p>Värdet minskar då med ungefär 25 200 kr per år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-25\\,200\\) kr/år</p></div>",
         "ledtrad": "<p>Derivera först. Det negativa tecknet berättar åt vilket håll värdet förändras.</p>",
         "niva": "E",
         "poang": "2/0/0",
@@ -95958,7 +96001,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>Värdet på en elbil kan under de första åtta åren beskrivas med modellen \\(V(t)=240\\,000e^{-0{,}18t}\\), där \\(V\\) mäts i kronor och \\(t\\) är antal år efter köpet. Modellen används för \\(0\\le t\\le8\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Efter hur lång tid har bilen förlorat halva sitt inköpsvärde? Svara med två decimaler i år.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Halva inköpsvärdet är \\(120\\,000\\) kr.</p></li><li><p>\\(240\\,000e^{-0{,}18t}=120\\,000\\) ger \\(t=\\ln(0,5)/(-0,18)\\approx3{,}85\\) år.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halva inköpsvärdet är 120 000 kr</p><div class=\"facit-matte\">\\[240\\,000e^{-0{,}18t}=120\\,000\\quad\\Rightarrow\\quad e^{-0{,}18t}=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[t=\\frac{\\ln0{,}5}{-0{,}18}\\approx3{,}85\\ \\text{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,85 år</p></div>",
         "ledtrad": "<p>Bestäm vilket värde bilen ska ha och lös sedan exponentialekvationen.</p>",
         "niva": "E",
         "poang": "2/0/0",
@@ -95990,7 +96033,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "4/0/0",
     "t": "<p>En förening använder modellen \\(N(t)=1200e^{0{,}035t}\\) för antalet digitala medlemmar, där \\(t\\) är antal månader efter en kampanjstart. Modellen används under de första 18 månaderna.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Hur många medlemmar förutsäger modellen efter sex månader? Avrunda till heltal.</p><p>b) Med vilken hastighet ökar medlemsantalet efter sex månader? Svara med en decimal i medlemmar/månad.</p><p>c) Vid vilken tidpunkt når modellen 1800 medlemmar? Svara med en decimal i månader.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[N(6)=1200e^{0{,}21}\\approx1480{,}41\\].</div></li><li><p>Modellen förutsäger ungefär 1480 medlemmar.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[N^{\\prime}(t)=42e^{0{,}035t}\\].</div></li><li><p>Därför är \\(N^{\\prime}(6)\\approx51{,}8\\) medlemmar/månad.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1200e^{0{,}035t}=1800\\) ger \\(t=\\ln(1,5)/0{,}035\\approx11{,}6\\) månader.</p></li><li><p>Tidpunkten ligger inom modellens användningsperiod.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(1480\\), b) \\(51{,}8\\), c) \\(11{,}6\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(t=6\\)</p><div class=\"facit-matte\">\\[N(6)=1200e^{0{,}21}\\approx1480{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1480 medlemmar</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[N'(t)=1200\\cdot0{,}035e^{0{,}035t}=42e^{0{,}035t}\\]</div></li><li><p class=\"facit-rubrik\">Vid sex månader</p><div class=\"facit-matte\">\\[N'(6)=42e^{0{,}21}\\approx51{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 51,8 medlemmar/månad</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela med 1200</p><div class=\"facit-matte\">\\[e^{0{,}035t}=1{,}5\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[t=\\frac{\\ln1{,}5}{0{,}035}\\approx11{,}6\\ \\text{månader}\\]</div><p>Det ligger inom modellens 18 månader.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11,6 månader</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -96030,7 +96073,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>En förening använder modellen \\(N(t)=1200e^{0{,}035t}\\) för antalet digitala medlemmar, där \\(t\\) är antal månader efter en kampanjstart. Modellen används under de första 18 månaderna.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Hur många medlemmar förutsäger modellen efter sex månader? Avrunda till heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[N(6)=1200e^{0{,}21}\\approx1480{,}41\\].</div></li><li><p>Modellen förutsäger ungefär 1480 medlemmar.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(t=6\\)</p><div class=\"facit-matte\">\\[N(6)=1200e^{0{,}21}\\approx1480{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1480 medlemmar</p></div>",
         "ledtrad": "<p>Sätt in t = 6.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -96040,7 +96083,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>En förening använder modellen \\(N(t)=1200e^{0{,}035t}\\) för antalet digitala medlemmar, där \\(t\\) är antal månader efter en kampanjstart. Modellen används under de första 18 månaderna.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Med vilken hastighet ökar medlemsantalet efter sex månader? Svara med en decimal i medlemmar/månad.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[N^{\\prime}(t)=42e^{0{,}035t}\\].</div></li><li><p>Därför är \\(N^{\\prime}(6)\\approx51{,}8\\) medlemmar/månad.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[N'(t)=1200\\cdot0{,}035e^{0{,}035t}=42e^{0{,}035t}\\]</div></li><li><p class=\"facit-rubrik\">Vid sex månader</p><div class=\"facit-matte\">\\[N'(6)=42e^{0{,}21}\\approx51{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 51,8 medlemmar/månad</p></div>",
         "ledtrad": "<p>Derivatan beskriver hur snabbt medlemsantalet förändras.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -96050,7 +96093,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>En förening använder modellen \\(N(t)=1200e^{0{,}035t}\\) för antalet digitala medlemmar, där \\(t\\) är antal månader efter en kampanjstart. Modellen används under de första 18 månaderna.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Vid vilken tidpunkt når modellen 1800 medlemmar? Svara med en decimal i månader.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1200e^{0{,}035t}=1800\\) ger \\(t=\\ln(1,5)/0{,}035\\approx11{,}6\\) månader.</p></li><li><p>Tidpunkten ligger inom modellens användningsperiod.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela med 1200</p><div class=\"facit-matte\">\\[e^{0{,}035t}=1{,}5\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[t=\\frac{\\ln1{,}5}{0{,}035}\\approx11{,}6\\ \\text{månader}\\]</div><p>Det ligger inom modellens 18 månader.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11,6 månader</p></div>",
         "ledtrad": "<p>Dela först båda leden med 1200.</p>",
         "niva": "E",
         "poang": "2/0/0",
@@ -96082,7 +96125,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "4/0/0",
     "t": "<p>Temperaturen i en dryck beskrivs av \\(T(t)=20+72e^{-0{,}24t}\\), där \\(T\\) mäts i °C och \\(t\\ge0\\) i minuter efter att drycken ställts i ett rum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm dryckens temperatur efter två minuter. Svara med en decimal.</p><p>b) Hur snabbt sjunker temperaturen efter två minuter? Ange minskningens storlek med en decimal i °C/min.</p><p>c) Vilken temperatur närmar sig drycken efter lång tid? Förklara med hjälp av modellen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T(2)=20+72e^{-0{,}48}\\approx64{,}6\\,{}^{\\circ}\\mathrm C\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T^{\\prime}(t)=-17{,}28e^{-0{,}24t}\\].</div></li><li><p>\\(T^{\\prime}(2)\\approx-10{,}7\\) °C/min, så temperaturen sjunker med 10,7 °C/min.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(t\\) växer går \\(e^{-0{,}24t}\\) mot noll.</p></li><li><p>Därför närmar sig \\(T(t)\\) rumstemperaturen \\(20\\,{}^{\\circ}\\mathrm C\\).</p></li><li><p>Modellen når inte exakt 20 °C vid någon ändlig tid.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(64{,}6\\), b) \\(10{,}7\\), c) \\(20\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(t=2\\) – konstanten 20 står kvar</p><div class=\"facit-matte\">\\[T(2)=20+72e^{-0{,}48}\\approx64{,}6\\ ^\\circ\\text{C}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 64,6 °C</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstanten 20 har derivatan 0</p><div class=\"facit-matte\">\\[T'(t)=72\\cdot(-0{,}24)e^{-0{,}24t}=-17{,}28e^{-0{,}24t}\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=2\\)</p><div class=\"facit-matte\">\\[T'(2)\\approx-10{,}7\\ ^\\circ\\text{C/min}\\]</div><p>Temperaturen sjunker med 10,7 °C per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10,7 °C/min</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exponentialtermen försvinner efter lång tid</p><div class=\"facit-matte\">\\[e^{-0{,}24t}\\to0\\quad\\Rightarrow\\quad T(t)\\to20\\]</div></li><li><p class=\"facit-rubrik\">Tolkning</p><p>Drycken närmar sig rumstemperaturen men når den aldrig exakt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 °C</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -96124,7 +96167,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Temperaturen i en dryck beskrivs av \\(T(t)=20+72e^{-0{,}24t}\\), där \\(T\\) mäts i °C och \\(t\\ge0\\) i minuter efter att drycken ställts i ett rum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm dryckens temperatur efter två minuter. Svara med en decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T(2)=20+72e^{-0{,}48}\\approx64{,}6\\,{}^{\\circ}\\mathrm C\\].</div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(t=2\\) – konstanten 20 står kvar</p><div class=\"facit-matte\">\\[T(2)=20+72e^{-0{,}48}\\approx64{,}6\\ ^\\circ\\text{C}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 64,6 °C</p></div>",
         "ledtrad": "<p>Sätt in t = 2 i hela uttrycket, även konstanten 20 ska vara kvar.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -96134,7 +96177,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Temperaturen i en dryck beskrivs av \\(T(t)=20+72e^{-0{,}24t}\\), där \\(T\\) mäts i °C och \\(t\\ge0\\) i minuter efter att drycken ställts i ett rum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Hur snabbt sjunker temperaturen efter två minuter? Ange minskningens storlek med en decimal i °C/min.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T^{\\prime}(t)=-17{,}28e^{-0{,}24t}\\].</div></li><li><p>\\(T^{\\prime}(2)\\approx-10{,}7\\) °C/min, så temperaturen sjunker med 10,7 °C/min.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstanten 20 har derivatan 0</p><div class=\"facit-matte\">\\[T'(t)=72\\cdot(-0{,}24)e^{-0{,}24t}=-17{,}28e^{-0{,}24t}\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=2\\)</p><div class=\"facit-matte\">\\[T'(2)\\approx-10{,}7\\ ^\\circ\\text{C/min}\\]</div><p>Temperaturen sjunker med 10,7 °C per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10,7 °C/min</p></div>",
         "ledtrad": "<p>Derivera. Frågan efterfrågar hur stor minskningen är, så svara med ett positivt tal.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -96144,7 +96187,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>Temperaturen i en dryck beskrivs av \\(T(t)=20+72e^{-0{,}24t}\\), där \\(T\\) mäts i °C och \\(t\\ge0\\) i minuter efter att drycken ställts i ett rum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Vilken temperatur närmar sig drycken efter lång tid? Svara i °C.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(t\\) växer går \\(e^{-0{,}24t}\\) mot noll.</p></li><li><p>Därför närmar sig \\(T(t)\\) rumstemperaturen \\(20\\,{}^{\\circ}\\mathrm C\\).</p></li><li><p>Modellen når inte exakt 20 °C vid någon ändlig tid.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exponentialtermen försvinner efter lång tid</p><div class=\"facit-matte\">\\[e^{-0{,}24t}\\to0\\quad\\Rightarrow\\quad T(t)\\to20\\]</div></li><li><p class=\"facit-rubrik\">Tolkning</p><p>Drycken närmar sig rumstemperaturen men når den aldrig exakt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 °C</p></div>",
         "ledtrad": "<p>Vad händer med exponentialtermen när exponenten blir allt mer negativ?</p>",
         "niva": "E",
         "poang": "2/0/0",
@@ -96179,7 +96222,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Ett tryckeri beskriver kostnaden för en specialbeställning med \\(K(x)=800e^{0{,}006x}\\) kr, där \\(x\\) är antalet tryckta exemplar och \\(0\\le x\\le300\\). I modellen behandlas \\(x\\) som en kontinuerlig variabel. Marginalkostnaden \\(K^{\\prime}(x)\\) anger hur snabbt kostnaden förändras per ytterligare exemplar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Beräkna totalkostnaden för 100 exemplar. Avrunda till hela kronor.</p><p>b) Beräkna genomsnittskostnaden per exemplar vid en beställning på 100 exemplar. Svara med två decimaler.</p><p>c) Beräkna marginalkostnaden vid 100 exemplar. Svara med två decimaler i kr/exemplar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(K(100)=800e^{0{,}6}\\approx1458\\) kr.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(K(100)/100=8e^{0{,}6}\\approx14{,}58\\) kr/exemplar.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[K^{\\prime}(x)=4{,}8e^{0{,}006x}\\].</div></li><li><p>\\(K^{\\prime}(100)\\approx8{,}75\\) kr/exemplar.</p></li><li><p>Det är en lokal förändringshastighet, inte genomsnittskostnaden.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(1458\\), b) \\(14{,}58\\), c) \\(8{,}75\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=100\\)</p><div class=\"facit-matte\">\\[K(100)=800e^{0{,}6}\\approx1458\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1458 kr</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Genomsnitt = totalkostnad delat med antal</p><div class=\"facit-matte\">\\[\\frac{K(100)}{100}=8e^{0{,}6}\\approx14{,}58\\ \\text{kr/exemplar}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14,58 kr/exemplar</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Marginalkostnad = derivatan</p><div class=\"facit-matte\">\\[K'(x)=800\\cdot0{,}006e^{0{,}006x}=4{,}8e^{0{,}006x}\\]</div></li><li><p class=\"facit-rubrik\">Vid 100 exemplar</p><div class=\"facit-matte\">\\[K'(100)=4{,}8e^{0{,}6}\\approx8{,}75\\]</div><p>Det är kostnaden för ett exemplar till, inte genomsnittet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,75 kr/exemplar</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -96219,7 +96262,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Ett tryckeri beskriver kostnaden för en specialbeställning med \\(K(x)=800e^{0{,}006x}\\) kr, där \\(x\\) är antalet tryckta exemplar och \\(0\\le x\\le300\\). I modellen behandlas \\(x\\) som en kontinuerlig variabel. Marginalkostnaden \\(K^{\\prime}(x)\\) anger hur snabbt kostnaden förändras per ytterligare exemplar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna totalkostnaden för 100 exemplar. Avrunda till hela kronor.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(K(100)=800e^{0{,}6}\\approx1458\\) kr.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=100\\)</p><div class=\"facit-matte\">\\[K(100)=800e^{0{,}6}\\approx1458\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1458 kr</p></div>",
         "ledtrad": "<p>Sätt in x = 100.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -96229,7 +96272,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Ett tryckeri beskriver kostnaden för en specialbeställning med \\(K(x)=800e^{0{,}006x}\\) kr, där \\(x\\) är antalet tryckta exemplar och \\(0\\le x\\le300\\). I modellen behandlas \\(x\\) som en kontinuerlig variabel. Marginalkostnaden \\(K^{\\prime}(x)\\) anger hur snabbt kostnaden förändras per ytterligare exemplar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna genomsnittskostnaden per exemplar vid en beställning på 100 exemplar. Svara med två decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(K(100)/100=8e^{0{,}6}\\approx14{,}58\\) kr/exemplar.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Genomsnitt = totalkostnad delat med antal</p><div class=\"facit-matte\">\\[\\frac{K(100)}{100}=8e^{0{,}6}\\approx14{,}58\\ \\text{kr/exemplar}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14,58 kr/exemplar</p></div>",
         "ledtrad": "<p>Fördela totalkostnaden på de 100 exemplaren.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -96239,7 +96282,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>Ett tryckeri beskriver kostnaden för en specialbeställning med \\(K(x)=800e^{0{,}006x}\\) kr, där \\(x\\) är antalet tryckta exemplar och \\(0\\le x\\le300\\). I modellen behandlas \\(x\\) som en kontinuerlig variabel. Marginalkostnaden \\(K^{\\prime}(x)\\) anger hur snabbt kostnaden förändras per ytterligare exemplar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna marginalkostnaden vid 100 exemplar. Svara med två decimaler i kr/exemplar.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[K^{\\prime}(x)=4{,}8e^{0{,}006x}\\].</div></li><li><p>\\(K^{\\prime}(100)\\approx8{,}75\\) kr/exemplar.</p></li><li><p>Det är en lokal förändringshastighet, inte genomsnittskostnaden.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Marginalkostnad = derivatan</p><div class=\"facit-matte\">\\[K'(x)=800\\cdot0{,}006e^{0{,}006x}=4{,}8e^{0{,}006x}\\]</div></li><li><p class=\"facit-rubrik\">Vid 100 exemplar</p><div class=\"facit-matte\">\\[K'(100)=4{,}8e^{0{,}6}\\approx8{,}75\\]</div><p>Det är kostnaden för ett exemplar till, inte genomsnittet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,75 kr/exemplar</p></div>",
         "ledtrad": "<p>Derivera K och sätt sedan in x = 100.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -96271,7 +96314,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Antalet registrerade fynd i ett projekt beskrivs under de första tio veckorna av \\(F(t)=450e^{0{,}12t}\\), där \\(t\\) mäts i veckor.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Skriv modellen på formen \\(F(t)=450a^t\\). Bestäm \\(a\\) med fyra decimaler.</p><p>b) Med hur många procent ökar antalet fynd per vecka enligt modellen? Svara med en decimal.</p><p>c) Med vilken hastighet ökar antalet fynd efter fyra veckor? Svara med en decimal i fynd/vecka.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(e^{0{,}12t}=(e^{0,12})^t\\), så \\(a=e^{0{,}12}\\approx1{,}1275\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Veckofaktorn är \\(e^{0{,}12}\\).</p></li><li><p>Ökningen är \\(100(e^{0,12}-1)\\approx12{,}7\\,\\%\\).</p></li><li><p>Talet 0,12 i exponenten motsvarar alltså inte exakt 12 % per vecka.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(F^{\\prime}(t)=54e^{0{,}12t}\\), så \\(F^{\\prime}(4)\\approx87{,}3\\) fynd/vecka.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(1{,}1275\\), b) \\(12{,}7\\), c) \\(87{,}3\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potenslagen: \\(e^{0{,}12t}=(e^{0{,}12})^t\\)</p><div class=\"facit-matte\">\\[a=e^{0{,}12}\\approx1{,}1275\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,1275</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förändringsfaktorn 1,1275 per vecka</p><div class=\"facit-matte\">\\[1{,}1275-1=0{,}1275\\approx12{,}7\\ \\%\\]</div><p>Talet 0,12 i exponenten är alltså inte exakt 12 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,7 %</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[F'(t)=450\\cdot0{,}12e^{0{,}12t}=54e^{0{,}12t}\\]</div></li><li><p class=\"facit-rubrik\">Efter fyra veckor</p><div class=\"facit-matte\">\\[F'(4)=54e^{0{,}48}\\approx87{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 87,3 fynd/vecka</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -96282,7 +96325,7 @@ window.BANKMATO1 = [
       87.3
     ],
     "tolerans": [
-      0.00005,
+      5e-05,
       0.05,
       0.05
     ],
@@ -96311,7 +96354,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Antalet registrerade fynd i ett projekt beskrivs under de första tio veckorna av \\(F(t)=450e^{0{,}12t}\\), där \\(t\\) mäts i veckor.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Skriv modellen på formen \\(F(t)=450a^t\\). Bestäm \\(a\\) med fyra decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(e^{0{,}12t}=(e^{0,12})^t\\), så \\(a=e^{0{,}12}\\approx1{,}1275\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potenslagen: \\(e^{0{,}12t}=(e^{0{,}12})^t\\)</p><div class=\"facit-matte\">\\[a=e^{0{,}12}\\approx1{,}1275\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,1275</p></div>",
         "ledtrad": "<p>Använd potensregeln för en potens upphöjd till t.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -96321,7 +96364,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Antalet registrerade fynd i ett projekt beskrivs under de första tio veckorna av \\(F(t)=450e^{0{,}12t}\\), där \\(t\\) mäts i veckor.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Med hur många procent ökar antalet fynd per vecka enligt modellen? Svara med en decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Veckofaktorn är \\(e^{0{,}12}\\).</p></li><li><p>Ökningen är \\(100(e^{0,12}-1)\\approx12{,}7\\,\\%\\).</p></li><li><p>Talet 0,12 i exponenten motsvarar alltså inte exakt 12 % per vecka.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förändringsfaktorn 1,1275 per vecka</p><div class=\"facit-matte\">\\[1{,}1275-1=0{,}1275\\approx12{,}7\\ \\%\\]</div><p>Talet 0,12 i exponenten är alltså inte exakt 12 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,7 %</p></div>",
         "ledtrad": "<p>Översätt förändringsfaktorn till en procentuell ökning.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -96331,7 +96374,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>Antalet registrerade fynd i ett projekt beskrivs under de första tio veckorna av \\(F(t)=450e^{0{,}12t}\\), där \\(t\\) mäts i veckor.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Med vilken hastighet ökar antalet fynd efter fyra veckor? Svara med en decimal i fynd/vecka.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(F^{\\prime}(t)=54e^{0{,}12t}\\), så \\(F^{\\prime}(4)\\approx87{,}3\\) fynd/vecka.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[F'(t)=450\\cdot0{,}12e^{0{,}12t}=54e^{0{,}12t}\\]</div></li><li><p class=\"facit-rubrik\">Efter fyra veckor</p><div class=\"facit-matte\">\\[F'(4)=54e^{0{,}48}\\approx87{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 87,3 fynd/vecka</p></div>",
         "ledtrad": "<p>Derivera modellen.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -96363,7 +96406,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "4/0/0",
     "t": "<p>Antalet jästceller i en odling beskrivs av \\(N(t)=2e^{0{,}4t}\\) miljoner, där \\(t\\ge0\\) är tid i timmar. Under den period som undersöks finns tillräckligt med näring.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) En elev löser ekvationen \\(2e^{0{,}4t}=20\\). Vilken fråga om odlingen besvarar eleven?</p><p>b) En annan elev löser \\(0{,}8e^{0{,}4t}=20\\). Vilken fråga om odlingen besvarar den eleven?</p><p>c) Vilken av de två händelserna inträffar först? Beräkna båda tidpunkterna med två decimaler i timmar och motivera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eleven bestämmer hur lång tid det tar tills odlingen innehåller 20 miljoner jästceller.</p></li><li><p>Vänsterledet är antalet celler i miljoner, inte tillväxthastigheten.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[N^{\\prime}(t)=0{,}8e^{0{,}4t}\\].</div></li><li><p>Eleven bestämmer när antalet jästceller ökar med hastigheten 20 miljoner celler per timme.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Antalet når 20 miljoner vid \\(t=\\ln(10)/0{,}4\\approx5{,}76\\) h.</p></li><li><p>Hastigheten når 20 miljoner/h vid \\(t=\\ln(25)/0{,}4\\approx8{,}05\\) h.</p></li><li><p>Alltså inträffar den första händelsen först.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) när antalet celler är 20 miljoner, b) när antalet ökar med 20 miljoner per timme, c) 20 miljoner celler nås först, efter \\(5{,}76\\) h; tillväxthastigheten 20 miljoner/h nås efter \\(8{,}05\\) h</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vänsterledet är \\(N(t)\\), antalet celler i miljoner</p><p>Eleven söker när antalet celler är 20 miljoner.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> när odlingen innehåller 20 miljoner celler</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vänsterledet är derivatan \\(N'(t)\\)</p><div class=\"facit-matte\">\\[N'(t)=2\\cdot0{,}4e^{0{,}4t}=0{,}8e^{0{,}4t}\\]</div><p>Eleven söker när antalet ökar med 20 miljoner celler per timme.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> när antalet ökar med 20 miljoner per timme</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antalet når 20 miljoner</p><div class=\"facit-matte\">\\[2e^{0{,}4t}=20\\quad\\Rightarrow\\quad t=\\frac{\\ln10}{0{,}4}\\approx5{,}76\\ \\text{h}\\]</div></li><li><p class=\"facit-rubrik\">Hastigheten når 20 miljoner/h</p><div class=\"facit-matte\">\\[0{,}8e^{0{,}4t}=20\\quad\\Rightarrow\\quad t=\\frac{\\ln25}{0{,}4}\\approx8{,}05\\ \\text{h}\\]</div></li><li><p class=\"facit-rubrik\">Jämför tiderna</p><p>20 miljoner celler nås först.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,76 h respektive 8,05 h</p></div></div>",
     "familj": "Derivata i exponentialmodeller",
     "geogebra": false,
     "miniräknare": true,
@@ -96413,7 +96456,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Antalet jästceller i en odling beskrivs av \\(N(t)=2e^{0{,}4t}\\) miljoner, där \\(t\\ge0\\) är tid i timmar. Under den period som undersöks finns tillräckligt med näring.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>En elev löser ekvationen \\(2e^{0{,}4t}=20\\). Vilken fråga om odlingen besvarar eleven?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eleven bestämmer hur lång tid det tar tills odlingen innehåller 20 miljoner jästceller.</p></li><li><p>Vänsterledet är antalet celler i miljoner, inte tillväxthastigheten.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vänsterledet är \\(N(t)\\), antalet celler i miljoner</p><p>Eleven söker när antalet celler är 20 miljoner.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> när odlingen innehåller 20 miljoner celler</p></div>",
         "ledtrad": "<p>Läs vad N(t) mäter och vilken enhet det har.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -96423,7 +96466,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Antalet jästceller i en odling beskrivs av \\(N(t)=2e^{0{,}4t}\\) miljoner, där \\(t\\ge0\\) är tid i timmar. Under den period som undersöks finns tillräckligt med näring.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>En annan elev löser \\(0{,}8e^{0{,}4t}=20\\). Vilken fråga om odlingen besvarar den eleven?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[N^{\\prime}(t)=0{,}8e^{0{,}4t}\\].</div></li><li><p>Eleven bestämmer när antalet jästceller ökar med hastigheten 20 miljoner celler per timme.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vänsterledet är derivatan \\(N'(t)\\)</p><div class=\"facit-matte\">\\[N'(t)=2\\cdot0{,}4e^{0{,}4t}=0{,}8e^{0{,}4t}\\]</div><p>Eleven söker när antalet ökar med 20 miljoner celler per timme.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> när antalet ökar med 20 miljoner per timme</p></div>",
         "ledtrad": "<p>Jämför vänsterledet med derivatan av N.</p>",
         "niva": "E",
         "poang": "1/0/0",
@@ -96433,7 +96476,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>Antalet jästceller i en odling beskrivs av \\(N(t)=2e^{0{,}4t}\\) miljoner, där \\(t\\ge0\\) är tid i timmar. Under den period som undersöks finns tillräckligt med näring.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna först tidpunkten då antalet når 20 miljoner och sedan tidpunkten då ökningen är 20 miljoner celler/h. Ange tiderna i denna ordning med två decimaler i timmar.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Antalet når 20 miljoner vid \\(t=\\ln(10)/0{,}4\\approx5{,}76\\) h.</p></li><li><p>Hastigheten når 20 miljoner/h vid \\(t=\\ln(25)/0{,}4\\approx8{,}05\\) h.</p></li><li><p>Alltså inträffar den första händelsen först.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antalet når 20 miljoner</p><div class=\"facit-matte\">\\[2e^{0{,}4t}=20\\quad\\Rightarrow\\quad t=\\frac{\\ln10}{0{,}4}\\approx5{,}76\\ \\text{h}\\]</div></li><li><p class=\"facit-rubrik\">Hastigheten når 20 miljoner/h</p><div class=\"facit-matte\">\\[0{,}8e^{0{,}4t}=20\\quad\\Rightarrow\\quad t=\\frac{\\ln25}{0{,}4}\\approx8{,}05\\ \\text{h}\\]</div></li><li><p class=\"facit-rubrik\">Jämför tiderna</p><p>20 miljoner celler nås först.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,76 h respektive 8,05 h</p></div>",
         "ledtrad": "<p>Lös båda ekvationerna och jämför tiderna.</p>",
         "niva": "E",
         "poang": "2/0/0",
@@ -96468,7 +96511,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/5/0",
     "t": "<p>En mätutrustning köps för 6000 kr. Fyra år senare är den värd 3900 kr. Värdet antas följa \\(V(t)=6000e^{kt}\\), där \\(t\\ge0\\) är åldern i år.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm konstanten \\(k\\) med fyra decimaler.</p><p>b) Beräkna värdets förändringshastighet när utrustningen är fyra år gammal. Ange ett värde med tecken i hela kr/år.</p><p>c) Med hur många procent minskar värdet per år enligt modellen? Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(3900=6000e^{4k}\\), så \\(k=\\ln(0,65)/4\\approx-0{,}1077\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V^{\\prime}(t)=kV(t)\\), så \\(V^{\\prime}(4)=3900\\ln(0,65)/4\\approx-420\\) kr/år.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Årsfaktorn är</p><div class=\"facit-matte\">\\[e^k=0{,}65^{1/4}\\].</div></div></li><li><p>Minskningen är \\(100(1-e^k)\\approx10{,}2\\,\\%\\).</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(-0{,}1077\\), b) \\(-420\\), c) \\(10{,}2\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mätningen efter fyra år</p><div class=\"facit-matte\">\\[6000e^{4k}=3900\\quad\\Rightarrow\\quad e^{4k}=0{,}65\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[k=\\frac{\\ln0{,}65}{4}\\approx-0{,}1077\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx-0{,}1077\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan: \\(V'(t)=k\\,V(t)\\)</p><div class=\"facit-matte\">\\[V'(4)=k\\cdot3900=\\frac{\\ln0{,}65}{4}\\cdot3900\\approx-420\\ \\text{kr/år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-420\\) kr/år</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förändringsfaktorn per år</p><div class=\"facit-matte\">\\[e^k=0{,}65^{1/4}\\approx0{,}898\\]</div></li><li><p class=\"facit-rubrik\">Minskningen i procent</p><div class=\"facit-matte\">\\[1-0{,}898\\approx0{,}102=10{,}2\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10,2 %</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -96479,7 +96522,7 @@ window.BANKMATO1 = [
       10.2
     ],
     "tolerans": [
-      0.00005,
+      5e-05,
       0.5,
       0.05
     ],
@@ -96508,7 +96551,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>En mätutrustning köps för 6000 kr. Fyra år senare är den värd 3900 kr. Värdet antas följa \\(V(t)=6000e^{kt}\\), där \\(t\\ge0\\) är åldern i år.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm konstanten \\(k\\) med fyra decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(3900=6000e^{4k}\\), så \\(k=\\ln(0,65)/4\\approx-0{,}1077\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mätningen efter fyra år</p><div class=\"facit-matte\">\\[6000e^{4k}=3900\\quad\\Rightarrow\\quad e^{4k}=0{,}65\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[k=\\frac{\\ln0{,}65}{4}\\approx-0{,}1077\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx-0{,}1077\\)</p></div>",
         "ledtrad": "<p>Sätt in uppgifterna från mätningen efter fyra år.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -96518,7 +96561,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>En mätutrustning köps för 6000 kr. Fyra år senare är den värd 3900 kr. Värdet antas följa \\(V(t)=6000e^{kt}\\), där \\(t\\ge0\\) är åldern i år.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna värdets förändringshastighet när utrustningen är fyra år gammal. Ange ett värde med tecken i hela kr/år.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V^{\\prime}(t)=kV(t)\\), så \\(V^{\\prime}(4)=3900\\ln(0,65)/4\\approx-420\\) kr/år.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan: \\(V'(t)=k\\,V(t)\\)</p><div class=\"facit-matte\">\\[V'(4)=k\\cdot3900=\\frac{\\ln0{,}65}{4}\\cdot3900\\approx-420\\ \\text{kr/år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-420\\) kr/år</p></div>",
         "ledtrad": "<p>Använd att derivatan av denna modell är k gånger funktionsvärdet.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -96528,7 +96571,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>En mätutrustning köps för 6000 kr. Fyra år senare är den värd 3900 kr. Värdet antas följa \\(V(t)=6000e^{kt}\\), där \\(t\\ge0\\) är åldern i år.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Med hur många procent minskar värdet per år enligt modellen? Svara med en decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Årsfaktorn är</p><div class=\"facit-matte\">\\[e^k=0{,}65^{1/4}\\].</div></div></li><li><p>Minskningen är \\(100(1-e^k)\\approx10{,}2\\,\\%\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förändringsfaktorn per år</p><div class=\"facit-matte\">\\[e^k=0{,}65^{1/4}\\approx0{,}898\\]</div></li><li><p class=\"facit-rubrik\">Minskningen i procent</p><div class=\"facit-matte\">\\[1-0{,}898\\approx0{,}102=10{,}2\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10,2 %</p></div>",
         "ledtrad": "<p>Beräkna förändringsfaktorn för ett år.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -96560,7 +96603,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/5/0",
     "t": "<p>En metalldetalj läggs i ett rum som håller 20 °C. Dess temperatur beskrivs av \\(T(t)=20+220e^{-kt}\\), där \\(k\\gt 0\\) och \\(t\\ge0\\) är tid i minuter. Efter 12 minuter är temperaturen 180 °C.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm \\(k\\) med fyra decimaler.</p><p>b) Hur snabbt sjunker temperaturen efter 12 minuter? Ange minskningens storlek med två decimaler i °C/min.</p><p>c) Efter hur lång tid har temperaturens skillnad mot rummet halverats? Svara med en decimal i minuter. Förklara varför detta inte är samma sak som att detaljens temperatur har halverats.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(180=20+220e^{-12k}\\) ger \\(e^{-12k}=160/220\\), alltså \\(k=-\\ln(160/220)/12\\approx0{,}0265\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T^{\\prime}(t)=-220ke^{-kt}\\].</div></li><li><p>Vid \\(t=12\\) är exponentialtermens temperaturbidrag 160 °C, så \\(T^{\\prime}(12)=-160k\\approx-4{,}25\\) °C/min.</p></li><li><p>Minskningens storlek är 4,25 °C/min.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Temperaturskillnaden är från början 220 °C.</p></li><li><p>\\(220e^{-kt}=110\\) ger \\(t=\\ln(2)/k\\approx26{,}1\\) min.</p></li><li><p>Temperaturen är då \\(20+110=130\\) °C, medan halva starttemperaturen 240 °C är 120 °C.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(0{,}0265\\), b) \\(4{,}25\\), c) \\(26{,}1\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra bort rumstemperaturen</p><div class=\"facit-matte\">\\[180=20+220e^{-12k}\\quad\\Rightarrow\\quad e^{-12k}=\\frac{160}{220}\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[k=-\\frac{1}{12}\\ln\\frac{160}{220}\\approx0{,}0265\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,0265</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan: \\(T'(t)=-k\\cdot220e^{-kt}\\)</p><p>Vid \\(t=12\\) är \\(220e^{-12k}=180-20=160\\).</p></li><li><p class=\"facit-rubrik\">Byt ut \\(220e^{-12k}\\) mot 160</p><div class=\"facit-matte\">\\[T'(12)=-160k\\approx-4{,}25\\ ^\\circ\\text{C/min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,25 °C/min</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skillnaden mot rummet är \\(220e^{-kt}\\)</p><div class=\"facit-matte\">\\[220e^{-kt}=110\\quad\\Rightarrow\\quad t=\\frac{\\ln2}{k}\\approx26{,}1\\ \\text{min}\\]</div></li><li><p class=\"facit-rubrik\">Inte samma sak som halverad temperatur</p><p>Då är temperaturen \\(20+110=130\\) °C, medan halva starttemperaturen vore 120 °C.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 26,1 min</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -96571,7 +96614,7 @@ window.BANKMATO1 = [
       26.1
     ],
     "tolerans": [
-      0.00005,
+      5e-05,
       0.005,
       0.05
     ],
@@ -96602,7 +96645,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>En metalldetalj läggs i ett rum som håller 20 °C. Dess temperatur beskrivs av \\(T(t)=20+220e^{-kt}\\), där \\(k\\gt 0\\) och \\(t\\ge0\\) är tid i minuter. Efter 12 minuter är temperaturen 180 °C.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm \\(k\\) med fyra decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(180=20+220e^{-12k}\\) ger \\(e^{-12k}=160/220\\), alltså \\(k=-\\ln(160/220)/12\\approx0{,}0265\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra bort rumstemperaturen</p><div class=\"facit-matte\">\\[180=20+220e^{-12k}\\quad\\Rightarrow\\quad e^{-12k}=\\frac{160}{220}\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[k=-\\frac{1}{12}\\ln\\frac{160}{220}\\approx0{,}0265\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,0265</p></div>",
         "ledtrad": "<p>Subtrahera rumstemperaturen innan du löser ut k.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -96612,7 +96655,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>En metalldetalj läggs i ett rum som håller 20 °C. Dess temperatur beskrivs av \\(T(t)=20+220e^{-kt}\\), där \\(k\\gt 0\\) och \\(t\\ge0\\) är tid i minuter. Efter 12 minuter är temperaturen 180 °C.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Hur snabbt sjunker temperaturen efter 12 minuter? Ange minskningens storlek med två decimaler i °C/min.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T^{\\prime}(t)=-220ke^{-kt}\\].</div></li><li><p>Vid \\(t=12\\) är exponentialtermens temperaturbidrag 160 °C, så \\(T^{\\prime}(12)=-160k\\approx-4{,}25\\) °C/min.</p></li><li><p>Minskningens storlek är 4,25 °C/min.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan: \\(T'(t)=-k\\cdot220e^{-kt}\\)</p><p>Vid \\(t=12\\) är \\(220e^{-12k}=180-20=160\\).</p></li><li><p class=\"facit-rubrik\">Byt ut \\(220e^{-12k}\\) mot 160</p><div class=\"facit-matte\">\\[T'(12)=-160k\\approx-4{,}25\\ ^\\circ\\text{C/min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,25 °C/min</p></div>",
         "ledtrad": "<p>Uttrycket \\(220e^{-12k}\\) kan avläsas ur mätningen.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -96622,7 +96665,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>En metalldetalj läggs i ett rum som håller 20 °C. Dess temperatur beskrivs av \\(T(t)=20+220e^{-kt}\\), där \\(k\\gt 0\\) och \\(t\\ge0\\) är tid i minuter. Efter 12 minuter är temperaturen 180 °C.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Efter hur lång tid har temperaturens skillnad mot rummet halverats? Svara med en decimal i minuter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Temperaturskillnaden är från början 220 °C.</p></li><li><p>\\(220e^{-kt}=110\\) ger \\(t=\\ln(2)/k\\approx26{,}1\\) min.</p></li><li><p>Temperaturen är då \\(20+110=130\\) °C, medan halva starttemperaturen 240 °C är 120 °C.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skillnaden mot rummet är \\(220e^{-kt}\\)</p><div class=\"facit-matte\">\\[220e^{-kt}=110\\quad\\Rightarrow\\quad t=\\frac{\\ln2}{k}\\approx26{,}1\\ \\text{min}\\]</div></li><li><p class=\"facit-rubrik\">Inte samma sak som halverad temperatur</p><p>Då är temperaturen \\(20+110=130\\) °C, medan halva starttemperaturen vore 120 °C.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 26,1 min</p></div>",
         "ledtrad": "<p>Halvera temperaturöverskottet över 20 °C.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -96657,7 +96700,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/4/0",
     "t": "<p>I ett försök minskar mängden färgämne exponentiellt. Vid försökets början finns 120 mg. Efter tre timmar återstår 81 mg. Modellen skrivs \\(M(t)=120e^{kt}\\), där \\(t\\ge0\\) mäts i timmar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm \\(k\\) med fyra decimaler.</p><p>b) Bestäm halveringstiden med två decimaler i timmar.</p><p>c) Beräkna mängdens förändringshastighet efter fem timmar. Ange ett värde med tecken och två decimaler i mg/h.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(81=120e^{3k}\\) ger \\(k=\\ln(81/120)/3\\approx-0{,}1310\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(e^{kt}=0,5\\) ger \\(t=\\ln(0,5)/k\\approx5{,}29\\) h.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(M^{\\prime}(t)=120ke^{kt}\\), så \\(M^{\\prime}(5)\\approx-8{,}17\\) mg/h.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(-0{,}131\\), b) \\(5{,}29\\), c) \\(-8{,}17\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd mätningen efter tre timmar</p><div class=\"facit-matte\">\\[120e^{3k}=81\\quad\\Rightarrow\\quad k=\\frac{1}{3}\\ln\\frac{81}{120}\\approx-0{,}1310\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx-0{,}1310\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halveringstid: hälften kvar</p><div class=\"facit-matte\">\\[e^{kt}=0{,}5\\quad\\Rightarrow\\quad t=\\frac{\\ln0{,}5}{k}\\approx5{,}29\\ \\text{h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,29 h</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[M'(t)=120k\\,e^{kt}\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=5\\), med oavrundat k</p><div class=\"facit-matte\">\\[M'(5)\\approx-8{,}17\\ \\text{mg/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-8{,}17\\) mg/h</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -96668,7 +96711,7 @@ window.BANKMATO1 = [
       -8.17
     ],
     "tolerans": [
-      0.00005,
+      5e-05,
       0.005,
       0.005
     ],
@@ -96697,7 +96740,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>I ett försök minskar mängden färgämne exponentiellt. Vid försökets början finns 120 mg. Efter tre timmar återstår 81 mg. Modellen skrivs \\(M(t)=120e^{kt}\\), där \\(t\\ge0\\) mäts i timmar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm \\(k\\) med fyra decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(81=120e^{3k}\\) ger \\(k=\\ln(81/120)/3\\approx-0{,}1310\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd mätningen efter tre timmar</p><div class=\"facit-matte\">\\[120e^{3k}=81\\quad\\Rightarrow\\quad k=\\frac{1}{3}\\ln\\frac{81}{120}\\approx-0{,}1310\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx-0{,}1310\\)</p></div>",
         "ledtrad": "<p>Använd de två mängderna för att bestämma förändringen under tre timmar.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -96707,7 +96750,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>I ett försök minskar mängden färgämne exponentiellt. Vid försökets början finns 120 mg. Efter tre timmar återstår 81 mg. Modellen skrivs \\(M(t)=120e^{kt}\\), där \\(t\\ge0\\) mäts i timmar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm halveringstiden med två decimaler i timmar.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(e^{kt}=0,5\\) ger \\(t=\\ln(0,5)/k\\approx5{,}29\\) h.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halveringstid: hälften kvar</p><div class=\"facit-matte\">\\[e^{kt}=0{,}5\\quad\\Rightarrow\\quad t=\\frac{\\ln0{,}5}{k}\\approx5{,}29\\ \\text{h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,29 h</p></div>",
         "ledtrad": "<p>Vid halveringstiden återstår hälften av startmängden.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -96717,7 +96760,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>I ett försök minskar mängden färgämne exponentiellt. Vid försökets början finns 120 mg. Efter tre timmar återstår 81 mg. Modellen skrivs \\(M(t)=120e^{kt}\\), där \\(t\\ge0\\) mäts i timmar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna mängdens förändringshastighet efter fem timmar. Ange ett värde med tecken och två decimaler i mg/h.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(M^{\\prime}(t)=120ke^{kt}\\), så \\(M^{\\prime}(5)\\approx-8{,}17\\) mg/h.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[M'(t)=120k\\,e^{kt}\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=5\\), med oavrundat k</p><div class=\"facit-matte\">\\[M'(5)\\approx-8{,}17\\ \\text{mg/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-8{,}17\\) mg/h</p></div>",
         "ledtrad": "<p>Behåll det exakta värdet på k i beräkningen.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -96749,7 +96792,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/6/0",
     "t": "<p>En damm har vattenytan 900 m². Vid en första mätning täcker flytväxter 240 m² och fem veckor senare 360 m². Så länge det finns fri vattenyta används modellen \\(A(t)=240e^{kt}\\), där \\(t\\) är veckor efter första mätningen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm \\(k\\) med fyra decimaler.</p><p>b) Hur stor yta är täckt när utbredningshastigheten är 40 m²/vecka? Svara i hela m².</p><p>c) Kan utbredningshastigheten bli 80 m²/vecka innan hela dammen är täckt, enligt modellen? Motivera med en beräkning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(360=240e^{5k}\\) ger \\(k=\\ln(1,5)/5\\approx0{,}0811\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A^{\\prime}(t)=kA(t)\\].</div></li><li><p>Då \\(A^{\\prime}(t)=40\\) är \\(A(t)=40/k\\approx493\\) m², vilket är mindre än dammens yta.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(A^{\\prime}=80\\) krävs \\(A=80/k\\approx986{,}5\\) m², vilket överstiger 900 m².</p></li><li><p>När ytan når 900 m² är modellens hastighet endast \\(900k\\approx73{,}0\\) m²/vecka.</p></li></ol><p class=\"facit-svar\">Svaret är nej inom modellens tillåtna område.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mätningen efter fem veckor</p><div class=\"facit-matte\">\\[240e^{5k}=360\\quad\\Rightarrow\\quad k=\\frac{\\ln1{,}5}{5}\\approx0{,}0811\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,0811</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan: \\(A'(t)=k\\,A(t)\\)</p><div class=\"facit-matte\">\\[k\\,A=40\\quad\\Rightarrow\\quad A=\\frac{40}{k}\\approx493\\ \\text{m}^2\\]</div><p>Det är mindre än dammens 900 m², så det inträffar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 493 m²</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vilken yta krävs för 80 m²/vecka?</p><div class=\"facit-matte\">\\[A=\\frac{80}{k}\\approx986{,}5\\ \\text{m}^2\\]</div></li><li><p class=\"facit-rubrik\">Jämför med dammens yta</p><div class=\"facit-matte\">\\[986{,}5\\gt900\\]</div><p>Vid full damm är hastigheten bara \\(900k\\approx73{,}0\\) m²/vecka. Svaret är nej.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, det skulle kräva 986,5 m² men dammen är 900 m².</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -96760,7 +96803,7 @@ window.BANKMATO1 = [
       null
     ],
     "tolerans": [
-      0.00005,
+      5e-05,
       0.5,
       null
     ],
@@ -96790,7 +96833,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>En damm har vattenytan 900 m². Vid en första mätning täcker flytväxter 240 m² och fem veckor senare 360 m². Så länge det finns fri vattenyta används modellen \\(A(t)=240e^{kt}\\), där \\(t\\) är veckor efter första mätningen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm \\(k\\) med fyra decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(360=240e^{5k}\\) ger \\(k=\\ln(1,5)/5\\approx0{,}0811\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mätningen efter fem veckor</p><div class=\"facit-matte\">\\[240e^{5k}=360\\quad\\Rightarrow\\quad k=\\frac{\\ln1{,}5}{5}\\approx0{,}0811\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,0811</p></div>",
         "ledtrad": "<p>Använd mätningen efter fem veckor.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -96800,7 +96843,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>En damm har vattenytan 900 m². Vid en första mätning täcker flytväxter 240 m² och fem veckor senare 360 m². Så länge det finns fri vattenyta används modellen \\(A(t)=240e^{kt}\\), där \\(t\\) är veckor efter första mätningen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Hur stor yta är täckt när utbredningshastigheten är 40 m²/vecka? Svara i hela m².</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A^{\\prime}(t)=kA(t)\\].</div></li><li><p>Då \\(A^{\\prime}(t)=40\\) är \\(A(t)=40/k\\approx493\\) m², vilket är mindre än dammens yta.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan: \\(A'(t)=k\\,A(t)\\)</p><div class=\"facit-matte\">\\[k\\,A=40\\quad\\Rightarrow\\quad A=\\frac{40}{k}\\approx493\\ \\text{m}^2\\]</div><p>Det är mindre än dammens 900 m², så det inträffar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 493 m²</p></div>",
         "ledtrad": "<p>Kan du uttrycka derivatan direkt med hjälp av A(t)?</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -96810,7 +96853,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>En damm har vattenytan 900 m². Vid en första mätning täcker flytväxter 240 m² och fem veckor senare 360 m². Så länge det finns fri vattenyta används modellen \\(A(t)=240e^{kt}\\), där \\(t\\) är veckor efter första mätningen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Kan utbredningshastigheten bli 80 m²/vecka innan hela dammen är täckt, enligt modellen? Motivera med en beräkning.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(A^{\\prime}=80\\) krävs \\(A=80/k\\approx986{,}5\\) m², vilket överstiger 900 m².</p></li><li><p>När ytan når 900 m² är modellens hastighet endast \\(900k\\approx73{,}0\\) m²/vecka.</p></li></ol><p class=\"facit-svar\">Svaret är nej inom modellens tillåtna område.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vilken yta krävs för 80 m²/vecka?</p><div class=\"facit-matte\">\\[A=\\frac{80}{k}\\approx986{,}5\\ \\text{m}^2\\]</div></li><li><p class=\"facit-rubrik\">Jämför med dammens yta</p><div class=\"facit-matte\">\\[986{,}5\\gt900\\]</div><p>Vid full damm är hastigheten bara \\(900k\\approx73{,}0\\) m²/vecka. Svaret är nej.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, det skulle kräva 986,5 m² men dammen är 900 m².</p></div>",
         "ledtrad": "<p>Jämför ytan som krävs med dammens totala yta.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -96845,7 +96888,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/6/0",
     "t": "<p>Energianvändningen i en anläggning modelleras med \\(E(t)=30\\,000\\cdot0{,}92^t\\) kWh/år, där \\(t\\) är antal år efter en ombyggnad. \\(E(t)\\) är den årliga energianvändning som modellen anger vid tidpunkten \\(t\\). En elev skriver \\(E^{\\prime}(t)=-0{,}08\\cdot30\\,000\\cdot0{,}92^t\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Förklara vad eleven har blandat ihop och skriv den korrekta derivatan.</p><p>b) Beräkna \\(E^{\\prime}(4)\\). Avrunda till heltal och ange enheten.</p><p>c) Beräkna den faktiska förändringen av den årliga energianvändningen från år 4 till år 5. Svara i hela kWh/år. Varför blir talet inte samma som i b?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn 0,92 innebär 8 % minskning över ett helt år.</p></li><li><p>Den momentana relativa förändringshastigheten är \\(\\ln(0,92)\\), inte \\(-0{,}08\\).</p></li><li><div class=\"facit-berakning\"><p>Korrekt derivata är</p><div class=\"facit-matte\">\\[E^{\\prime}(t)=30\\,000\\ln(0,92)\\cdot0{,}92^t\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(E^{\\prime}(4)=30\\,000\\ln(0,92)\\cdot0{,}92^4\\approx-1792\\) kWh/år².</p></li><li><p>Den årliga energianvändningen minskar då med ungefär 1792 kWh/år per år.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(E(5)-E(4)=30\\,000\\cdot0{,}92^4(0,92-1)\\approx-1719\\) kWh/år.</p></li><li><p>Det är förändringen över ett helt år.</p></li><li><p>Derivatan i b beskriver hastigheten vid intervallets början; hastighetens storlek minskar under året.</p></li><li><p>Storheterna har dessutom olika enheter.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) se lösningen, b) \\(-1792\\), c) \\(-1719\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätt derivata av \\(a^t\\): \\((a^t)'=a^t\\ln a\\)</p><div class=\"facit-matte\">\\[E'(t)=30\\,000\\ln0{,}92\\cdot0{,}92^t\\]</div></li><li><p class=\"facit-rubrik\">Vad eleven blandade ihop</p><p>0,92 betyder 8 % minskning på ett helt år. Den momentana faktorn är \\(\\ln0{,}92\\approx-0{,}0834\\), inte \\(-0{,}08\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(E'(t)=30\\,000\\ln0{,}92\\cdot0{,}92^t\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(t=4\\)</p><div class=\"facit-matte\">\\[E'(4)=30\\,000\\ln0{,}92\\cdot0{,}92^4\\approx-1792\\ \\text{kWh/år}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1792\\) kWh/år²</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktisk förändring under året</p><div class=\"facit-matte\">\\[E(5)-E(4)=30\\,000\\cdot0{,}92^4(0{,}92-1)\\]</div><div class=\"facit-matte\">\\[\\approx-1719\\ \\text{kWh/år}\\]</div></li><li><p class=\"facit-rubrik\">Varför inte samma som b)?</p><p>Derivatan är hastigheten i början av året. Minskningen avtar under året, så den totala förändringen blir mindre.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1719\\) kWh/år</p></div></div>",
     "familj": "Derivata i exponentialmodeller",
     "geogebra": false,
     "miniräknare": true,
@@ -96887,7 +96930,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Energianvändningen i en anläggning modelleras med \\(E(t)=30\\,000\\cdot0{,}92^t\\) kWh/år, där \\(t\\) är antal år efter en ombyggnad. \\(E(t)\\) är den årliga energianvändning som modellen anger vid tidpunkten \\(t\\). En elev skriver \\(E^{\\prime}(t)=-0{,}08\\cdot30\\,000\\cdot0{,}92^t\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Förklara vad eleven har blandat ihop och skriv den korrekta derivatan.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn 0,92 innebär 8 % minskning över ett helt år.</p></li><li><p>Den momentana relativa förändringshastigheten är \\(\\ln(0,92)\\), inte \\(-0{,}08\\).</p></li><li><div class=\"facit-berakning\"><p>Korrekt derivata är</p><div class=\"facit-matte\">\\[E^{\\prime}(t)=30\\,000\\ln(0,92)\\cdot0{,}92^t\\].</div></div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätt derivata av \\(a^t\\): \\((a^t)'=a^t\\ln a\\)</p><div class=\"facit-matte\">\\[E'(t)=30\\,000\\ln0{,}92\\cdot0{,}92^t\\]</div></li><li><p class=\"facit-rubrik\">Vad eleven blandade ihop</p><p>0,92 betyder 8 % minskning på ett helt år. Den momentana faktorn är \\(\\ln0{,}92\\approx-0{,}0834\\), inte \\(-0{,}08\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(E'(t)=30\\,000\\ln0{,}92\\cdot0{,}92^t\\)</p></div>",
         "ledtrad": "<p>Derivatan av \\(a^t\\) innehåller \\(\\ln a\\).</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -96897,7 +96940,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Energianvändningen i en anläggning modelleras med \\(E(t)=30\\,000\\cdot0{,}92^t\\) kWh/år, där \\(t\\) är antal år efter en ombyggnad. \\(E(t)\\) är den årliga energianvändning som modellen anger vid tidpunkten \\(t\\). En elev skriver \\(E^{\\prime}(t)=-0{,}08\\cdot30\\,000\\cdot0{,}92^t\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna \\(E^{\\prime}(4)\\) i kWh/år². Ange ett värde med tecken, avrundat till heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(E^{\\prime}(4)=30\\,000\\ln(0,92)\\cdot0{,}92^4\\approx-1792\\) kWh/år².</p></li><li><p>Den årliga energianvändningen minskar då med ungefär 1792 kWh/år per år.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(t=4\\)</p><div class=\"facit-matte\">\\[E'(4)=30\\,000\\ln0{,}92\\cdot0{,}92^4\\approx-1792\\ \\text{kWh/år}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1792\\) kWh/år²</p></div>",
         "ledtrad": "<p>E mäts redan i kWh/år och t mäts i år.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -96907,7 +96950,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>Energianvändningen i en anläggning modelleras med \\(E(t)=30\\,000\\cdot0{,}92^t\\) kWh/år, där \\(t\\) är antal år efter en ombyggnad. \\(E(t)\\) är den årliga energianvändning som modellen anger vid tidpunkten \\(t\\). En elev skriver \\(E^{\\prime}(t)=-0{,}08\\cdot30\\,000\\cdot0{,}92^t\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna förändringen av den årliga energianvändningen från år 4 till år 5. Ange ett värde med tecken i hela kWh/år.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(E(5)-E(4)=30\\,000\\cdot0{,}92^4(0,92-1)\\approx-1719\\) kWh/år.</p></li><li><p>Det är förändringen över ett helt år.</p></li><li><p>Derivatan i b beskriver hastigheten vid intervallets början; hastighetens storlek minskar under året.</p></li><li><p>Storheterna har dessutom olika enheter.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktisk förändring under året</p><div class=\"facit-matte\">\\[E(5)-E(4)=30\\,000\\cdot0{,}92^4(0{,}92-1)\\]</div><div class=\"facit-matte\">\\[\\approx-1719\\ \\text{kWh/år}\\]</div></li><li><p class=\"facit-rubrik\">Varför inte samma som b)?</p><p>Derivatan är hastigheten i början av året. Minskningen avtar under året, så den totala förändringen blir mindre.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1719\\) kWh/år</p></div>",
         "ledtrad": "<p>Jämför två funktionsvärden för att få förändringen under intervallet.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -96942,7 +96985,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/5/0",
     "t": "<p>I en förenklad atmosfärsmodell är lufttrycket vid havsytan 101 kPa och minskar med 15 % per kilometer. Höjden \\(h\\) mäts i kilometer. Modellen används för \\(0\\le h\\le9\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Skriv en modell \\(p(h)\\) för lufttrycket och bestäm dess derivata.</p><p>b) På vilken höjd är lufttrycket 45 kPa enligt modellen? Svara med två decimaler i kilometer.</p><p>c) Finns det en höjd inom modellens användningsområde där trycket minskar med 3 kPa/km? Motivera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(p(h)=101\\cdot0{,}85^h\\) och \\(p^{\\prime}(h)=101\\ln(0,85)\\cdot0{,}85^h\\).</p></li><li><p>Derivatans enhet är kPa/km.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(101\\cdot0{,}85^h=45\\) ger \\(h=\\ln(45/101)/\\ln(0,85)\\approx4{,}97\\) km.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ekvationen \\(101\\ln(0,85)\\cdot0{,}85^h=-3\\) ger \\(h\\approx10{,}46\\) km.</p></li><li><p>Detta ligger utanför \\(0\\le h\\le 9\\).</p></li><li><p>På intervallet är minskningens storlek minst \\(-101\\ln(0,85)\\cdot0{,}85^9\\approx3{,}80\\) kPa/km, alltså aldrig 3.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) se lösningen, b) \\(4{,}97\\), c) se lösningen</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">15 % minskning ger faktorn 0,85</p><div class=\"facit-matte\">\\[p(h)=101\\cdot0{,}85^h\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(a^h\\)</p><div class=\"facit-matte\">\\[p'(h)=101\\ln0{,}85\\cdot0{,}85^h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(p(h)=101\\cdot0{,}85^h\\), \\(p'(h)=101\\ln0{,}85\\cdot0{,}85^h\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt trycket lika med 45</p><div class=\"facit-matte\">\\[0{,}85^h=\\frac{45}{101}\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[h=\\frac{\\ln(45/101)}{\\ln0{,}85}\\approx4{,}97\\ \\text{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,97 km</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(p'(h)=-3\\)</p><div class=\"facit-matte\">\\[h=\\frac{\\ln\\bigl(3/(-101\\ln0{,}85)\\bigr)}{\\ln0{,}85}\\approx10{,}46\\ \\text{km}\\]</div></li><li><p class=\"facit-rubrik\">Utanför modellens område</p><p>På \\(0\\le h\\le9\\) är minskningen minst 3,80 kPa/km, så den blir aldrig 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, det skulle kräva h ≈ 10,46 km.</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -96983,7 +97026,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>I en förenklad atmosfärsmodell är lufttrycket vid havsytan 101 kPa och minskar med 15 % per kilometer. Höjden \\(h\\) mäts i kilometer. Modellen används för \\(0\\le h\\le9\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Skriv en modell \\(p(h)\\) för lufttrycket och bestäm dess derivata.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(p(h)=101\\cdot0{,}85^h\\) och \\(p^{\\prime}(h)=101\\ln(0,85)\\cdot0{,}85^h\\).</p></li><li><p>Derivatans enhet är kPa/km.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">15 % minskning ger faktorn 0,85</p><div class=\"facit-matte\">\\[p(h)=101\\cdot0{,}85^h\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(a^h\\)</p><div class=\"facit-matte\">\\[p'(h)=101\\ln0{,}85\\cdot0{,}85^h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(p(h)=101\\cdot0{,}85^h\\), \\(p'(h)=101\\ln0{,}85\\cdot0{,}85^h\\)</p></div>",
         "ledtrad": "<p>Vilken förändringsfaktor motsvarar 15 % minskning?</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -96993,7 +97036,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>I en förenklad atmosfärsmodell är lufttrycket vid havsytan 101 kPa och minskar med 15 % per kilometer. Höjden \\(h\\) mäts i kilometer. Modellen används för \\(0\\le h\\le9\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>På vilken höjd är lufttrycket 45 kPa enligt modellen? Svara med två decimaler i kilometer.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(101\\cdot0{,}85^h=45\\) ger \\(h=\\ln(45/101)/\\ln(0,85)\\approx4{,}97\\) km.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt trycket lika med 45</p><div class=\"facit-matte\">\\[0{,}85^h=\\frac{45}{101}\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[h=\\frac{\\ln(45/101)}{\\ln0{,}85}\\approx4{,}97\\ \\text{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,97 km</p></div>",
         "ledtrad": "<p>Sätt modellens tryck lika med 45.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -97003,7 +97046,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>I en förenklad atmosfärsmodell är lufttrycket vid havsytan 101 kPa och minskar med 15 % per kilometer. Höjden \\(h\\) mäts i kilometer. Modellen används för \\(0\\le h\\le9\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Finns det en höjd inom modellens användningsområde där trycket minskar med 3 kPa/km? Motivera.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ekvationen \\(101\\ln(0,85)\\cdot0{,}85^h=-3\\) ger \\(h\\approx10{,}46\\) km.</p></li><li><p>Detta ligger utanför \\(0\\le h\\le 9\\).</p></li><li><p>På intervallet är minskningens storlek minst \\(-101\\ln(0,85)\\cdot0{,}85^9\\approx3{,}80\\) kPa/km, alltså aldrig 3.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(p'(h)=-3\\)</p><div class=\"facit-matte\">\\[h=\\frac{\\ln\\bigl(3/(-101\\ln0{,}85)\\bigr)}{\\ln0{,}85}\\approx10{,}46\\ \\text{km}\\]</div></li><li><p class=\"facit-rubrik\">Utanför modellens område</p><p>På \\(0\\le h\\le9\\) är minskningen minst 3,80 kPa/km, så den blir aldrig 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, det skulle kräva h ≈ 10,46 km.</p></div>",
         "ledtrad": "<p>Minskning med 3 innebär derivatan −3. Kontrollera sedan den tillåtna höjden.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -97038,7 +97081,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/5/0",
     "t": "<p>Under de första åtta veckorna efter en lansering modelleras antalet supportärenden per vecka med \\(S(t)=45e^{-0{,}7t}+12e^{0{,}08t}\\), där \\(0\\le t\\le8\\). Den första termen beskriver startproblem som avtar, den andra frågor från en växande användargrupp.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Beräkna förändringshastigheten efter två veckor. Ange ett värde med tecken och två decimaler i ärenden/vecka².</p><p>b) När är antalet ärenden per vecka som lägst enligt modellen? Svara med två decimaler i veckor och visa att du har hittat ett minimum.</p><p>c) Varför kan antalet ärenden per vecka börja öka trots att startproblemen fortsätter att minska?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(S^{\\prime}(t)=-31{,}5e^{-0{,}7t}+0{,}96e^{0{,}08t}\\), så \\(S^{\\prime}(2)\\approx-6{,}64\\) ärenden/vecka².</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(S^{\\prime}(t)=0\\) ger \\(31{,}5e^{-0{,}7t}=0{,}96e^{0{,}08t}\\), alltså \\(e^{0{,}78t}=31{,}5/0{,}96\\).</p></li><li><p>Därför är \\(t=\\ln(31,5/0,96)/0{,}78\\approx4{,}48\\) veckor.</p></li><li><p>Derivatan byter från negativ till positiv: efter multiplikation med det positiva talet \\(e^{0{,}7t}\\) får den tecknet hos \\(-31{,}5+0{,}96e^{0{,}78t}\\), som är strikt växande.</p></li><li><p>Punkten ligger inom intervallet och ger dess minimum.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den första termen fortsätter att minska, men dess minskningshastighet närmar sig noll.</p></li><li><p>Den andra termen växer och dess ökningshastighet blir allt större.</p></li><li><p>Efter minimum är den positiva förändringen större än den negativa.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(-6{,}64\\), b) \\(4{,}48\\), c) se lösningen</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera term för term</p><div class=\"facit-matte\">\\[S'(t)=45\\cdot(-0{,}7)e^{-0{,}7t}+12\\cdot0{,}08e^{0{,}08t}\\]</div><div class=\"facit-matte\">\\[=-31{,}5e^{-0{,}7t}+0{,}96e^{0{,}08t}\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=2\\)</p><div class=\"facit-matte\">\\[S'(2)\\approx-6{,}64\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-6{,}64\\) ärenden/vecka²</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(S'(t)=0\\)</p><div class=\"facit-matte\">\\[31{,}5e^{-0{,}7t}=0{,}96e^{0{,}08t}\\quad\\Rightarrow\\quad e^{0{,}78t}=\\frac{31{,}5}{0{,}96}\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[t=\\frac{\\ln(31{,}5/0{,}96)}{0{,}78}\\approx4{,}48\\]</div></li><li><p class=\"facit-rubrik\">Minimum: derivatan byter från − till +</p><p>\\(e^{0{,}7t}S'(t)=-31{,}5+0{,}96e^{0{,}78t}\\) växer hela tiden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,48 veckor</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två termer med olika utveckling</p><p>Startproblemen minskar allt långsammare, medan den växande termen ökar allt snabbare.</p></li><li><p class=\"facit-rubrik\">Efter minimum vinner ökningen</p><p>Då är den positiva förändringen större än den negativa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den växande termens ökning blir större än startproblemens minskning.</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -97080,7 +97123,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Under de första åtta veckorna efter en lansering modelleras antalet supportärenden per vecka med \\(S(t)=45e^{-0{,}7t}+12e^{0{,}08t}\\), där \\(0\\le t\\le8\\). Den första termen beskriver startproblem som avtar, den andra frågor från en växande användargrupp.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna förändringshastigheten efter två veckor. Ange ett värde med tecken och två decimaler i ärenden/vecka².</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(S^{\\prime}(t)=-31{,}5e^{-0{,}7t}+0{,}96e^{0{,}08t}\\), så \\(S^{\\prime}(2)\\approx-6{,}64\\) ärenden/vecka².</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera term för term</p><div class=\"facit-matte\">\\[S'(t)=45\\cdot(-0{,}7)e^{-0{,}7t}+12\\cdot0{,}08e^{0{,}08t}\\]</div><div class=\"facit-matte\">\\[=-31{,}5e^{-0{,}7t}+0{,}96e^{0{,}08t}\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=2\\)</p><div class=\"facit-matte\">\\[S'(2)\\approx-6{,}64\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-6{,}64\\) ärenden/vecka²</p></div>",
         "ledtrad": "<p>Derivera de båda termerna var för sig.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -97090,7 +97133,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Under de första åtta veckorna efter en lansering modelleras antalet supportärenden per vecka med \\(S(t)=45e^{-0{,}7t}+12e^{0{,}08t}\\), där \\(0\\le t\\le8\\). Den första termen beskriver startproblem som avtar, den andra frågor från en växande användargrupp.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>När är antalet supportärenden per vecka som lägst inom modellens intervall? Svara med två decimaler i veckor.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(S^{\\prime}(t)=0\\) ger \\(31{,}5e^{-0{,}7t}=0{,}96e^{0{,}08t}\\), alltså \\(e^{0{,}78t}=31{,}5/0{,}96\\).</p></li><li><p>Därför är \\(t=\\ln(31,5/0,96)/0{,}78\\approx4{,}48\\) veckor.</p></li><li><p>Derivatan byter från negativ till positiv: efter multiplikation med det positiva talet \\(e^{0{,}7t}\\) får den tecknet hos \\(-31{,}5+0{,}96e^{0{,}78t}\\), som är strikt växande.</p></li><li><p>Punkten ligger inom intervallet och ger dess minimum.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(S'(t)=0\\)</p><div class=\"facit-matte\">\\[31{,}5e^{-0{,}7t}=0{,}96e^{0{,}08t}\\quad\\Rightarrow\\quad e^{0{,}78t}=\\frac{31{,}5}{0{,}96}\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[t=\\frac{\\ln(31{,}5/0{,}96)}{0{,}78}\\approx4{,}48\\]</div></li><li><p class=\"facit-rubrik\">Minimum: derivatan byter från − till +</p><p>\\(e^{0{,}7t}S'(t)=-31{,}5+0{,}96e^{0{,}78t}\\) växer hela tiden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,48 veckor</p></div>",
         "ledtrad": "<p>Lös S′(t) = 0. Undersök sedan derivatans tecken på båda sidor.</p>",
         "niva": "C",
         "poang": "0/3/0",
@@ -97100,7 +97143,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>Under de första åtta veckorna efter en lansering modelleras antalet supportärenden per vecka med \\(S(t)=45e^{-0{,}7t}+12e^{0{,}08t}\\), där \\(0\\le t\\le8\\). Den första termen beskriver startproblem som avtar, den andra frågor från en växande användargrupp.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Varför kan antalet ärenden per vecka börja öka trots att startproblemen fortsätter att minska?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den första termen fortsätter att minska, men dess minskningshastighet närmar sig noll.</p></li><li><p>Den andra termen växer och dess ökningshastighet blir allt större.</p></li><li><p>Efter minimum är den positiva förändringen större än den negativa.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två termer med olika utveckling</p><p>Startproblemen minskar allt långsammare, medan den växande termen ökar allt snabbare.</p></li><li><p class=\"facit-rubrik\">Efter minimum vinner ökningen</p><p>Då är den positiva förändringen större än den negativa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den växande termens ökning blir större än startproblemens minskning.</p></div>",
         "ledtrad": "<p>Jämför hur de två bidragen till derivatan utvecklas.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -97135,7 +97178,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/5/0",
     "t": "<p>Medlemsantalen i två föreningar beskrivs under en tioårsperiod av \\(A(t)=1200e^{0{,}03t}\\) och \\(B(t)=800e^{0{,}09t}\\), där \\(t\\) mäts i år från samma startdatum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) När har föreningarna lika många medlemmar? Svara med två decimaler i år.</p><p>b) Beräkna båda föreningarnas tillväxthastigheter vid den tidpunkten. Svara med en decimal i medlemmar/år, först A och sedan B.</p><p>c) Visa utan att avrunda att B:s tillväxthastighet är exakt tre gånger A:s när medlemsantalen är lika.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1200e^{0{,}03t}=800e^{0{,}09t}\\) ger \\(e^{0{,}06t}=1,5\\), alltså \\(t=\\ln(1,5)/0{,}06\\approx6{,}76\\) år.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(t_*=\\ln(1,5)/0{,}06\\) är \\(A^{\\prime}=0{,}03A\\approx44{,}1\\) och \\(B^{\\prime}=0{,}09B\\approx132{,}3\\) medlemmar/år.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(A^{\\prime}=0{,}03A\\) och \\(B^{\\prime}=0{,}09B\\).</p></li><li><p>När \\(A=B\\gt 0\\) blir \\(B^{\\prime}/A^{\\prime}=0{,}09/0{,}03=3\\).</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) efter \\(6{,}76\\) år, b) A: \\(44{,}1\\) medlemmar/år, B: \\(132{,}3\\) medlemmar/år, c) se lösningen</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt medlemsantalen lika</p><div class=\"facit-matte\">\\[1200e^{0{,}03t}=800e^{0{,}09t}\\quad\\Rightarrow\\quad e^{0{,}06t}=1{,}5\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[t=\\frac{\\ln1{,}5}{0{,}06}\\approx6{,}76\\ \\text{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,76 år</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatorna: \\(A'=0{,}03A\\), \\(B'=0{,}09B\\)</p><p>Använd det oavrundade t från a).</p></li><li><p class=\"facit-rubrik\">Då har båda cirka 1470 medlemmar</p><div class=\"facit-matte\">\\[A'\\approx44{,}1,\\qquad B'\\approx132{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: 44,1 och B: 132,3 medlemmar/år</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten av derivatorna</p><div class=\"facit-matte\">\\[\\frac{B'}{A'}=\\frac{0{,}09B}{0{,}03A}\\]</div></li><li><p class=\"facit-rubrik\">När \\(A=B\\) tar medlemsantalen ut varandra</p><div class=\"facit-matte\">\\[\\frac{B'}{A'}=\\frac{0{,}09}{0{,}03}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kvoten är exakt 3.</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -97186,7 +97229,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Medlemsantalen i två föreningar beskrivs under en tioårsperiod av \\(A(t)=1200e^{0{,}03t}\\) och \\(B(t)=800e^{0{,}09t}\\), där \\(t\\) mäts i år från samma startdatum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>När har föreningarna lika många medlemmar? Svara med två decimaler i år.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1200e^{0{,}03t}=800e^{0{,}09t}\\) ger \\(e^{0{,}06t}=1,5\\), alltså \\(t=\\ln(1,5)/0{,}06\\approx6{,}76\\) år.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt medlemsantalen lika</p><div class=\"facit-matte\">\\[1200e^{0{,}03t}=800e^{0{,}09t}\\quad\\Rightarrow\\quad e^{0{,}06t}=1{,}5\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[t=\\frac{\\ln1{,}5}{0{,}06}\\approx6{,}76\\ \\text{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,76 år</p></div>",
         "ledtrad": "<p>Samla exponentialfaktorerna i ett led.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -97196,7 +97239,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Medlemsantalen i två föreningar beskrivs under en tioårsperiod av \\(A(t)=1200e^{0{,}03t}\\) och \\(B(t)=800e^{0{,}09t}\\), där \\(t\\) mäts i år från samma startdatum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna båda föreningarnas tillväxthastigheter vid tidpunkten då deras medlemsantal är lika. Svara med en decimal i medlemmar/år, först A och sedan B.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(t_*=\\ln(1,5)/0{,}06\\) är \\(A^{\\prime}=0{,}03A\\approx44{,}1\\) och \\(B^{\\prime}=0{,}09B\\approx132{,}3\\) medlemmar/år.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatorna: \\(A'=0{,}03A\\), \\(B'=0{,}09B\\)</p><p>Använd det oavrundade t från a).</p></li><li><p class=\"facit-rubrik\">Då har båda cirka 1470 medlemmar</p><div class=\"facit-matte\">\\[A'\\approx44{,}1,\\qquad B'\\approx132{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: 44,1 och B: 132,3 medlemmar/år</p></div>",
         "ledtrad": "<p>Använd det oavrundade värdet på tiden från ekvationen A(t) = B(t).</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -97206,7 +97249,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>Medlemsantalen i två föreningar beskrivs under en tioårsperiod av \\(A(t)=1200e^{0{,}03t}\\) och \\(B(t)=800e^{0{,}09t}\\), där \\(t\\) mäts i år från samma startdatum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Visa utan att avrunda att B:s tillväxthastighet är exakt tre gånger A:s när medlemsantalen är lika.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(A^{\\prime}=0{,}03A\\) och \\(B^{\\prime}=0{,}09B\\).</p></li><li><p>När \\(A=B\\gt 0\\) blir \\(B^{\\prime}/A^{\\prime}=0{,}09/0{,}03=3\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten av derivatorna</p><div class=\"facit-matte\">\\[\\frac{B'}{A'}=\\frac{0{,}09B}{0{,}03A}\\]</div></li><li><p class=\"facit-rubrik\">När \\(A=B\\) tar medlemsantalen ut varandra</p><div class=\"facit-matte\">\\[\\frac{B'}{A'}=\\frac{0{,}09}{0{,}03}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kvoten är exakt 3.</p></div>",
         "ledtrad": "<p>Sätt samma symbol för de lika stora medlemsantalen.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -97241,7 +97284,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/5/0",
     "t": "<p>Biomassan i ett odlingsförsök beskrivs till en början av \\(B(t)=400e^{0{,}16t}\\) gram, där \\(t\\ge0\\) mäts i dygn. Försöket avslutas när biomassan når 5000 gram.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Beräkna den genomsnittliga ökningshastigheten under de första fem dygnen. Svara med en decimal i g/dygn.</p><p>b) Beräkna ökningshastigheten vid slutet av det femte dygnet. Svara med en decimal i g/dygn. Förklara varför den är större än medelhastigheten i a.</p><p>c) En elev beräknar när ökningshastigheten blir 1000 g/dygn. Kan detta inträffa innan försöket avslutas? Motivera utan att först lösa ut tiden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\((B(5)-B(0))/5=400(e^{0,8}-1)/5\\approx98{,}0\\) g/dygn.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(B^{\\prime}(t)=64e^{0{,}16t}\\), så \\(B^{\\prime}(5)\\approx142{,}4\\) g/dygn.</p></li><li><p>Hastigheten ökar under hela intervallet; slutets hastighet är därför större än genomsnittet.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[B^{\\prime}=0{,}16B\\].</div></li><li><p>Hastigheten 1000 g/dygn kräver \\(B=1000/0{,}16=6250\\) g.</p></li><li><p>Det överstiger gränsen 5000 g.</p></li><li><p>Försöket avslutas redan vid hastigheten \\(0{,}16\\cdot5000=800\\) g/dygn.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(98\\), b) \\(142{,}4\\), c) se lösningen</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ändringskvot över fem dygn</p><div class=\"facit-matte\">\\[\\frac{B(5)-B(0)}{5}=\\frac{400(e^{0{,}8}-1)}{5}\\approx98{,}0\\ \\text{g/dygn}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 98,0 g/dygn</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[B'(t)=64e^{0{,}16t}\\quad\\Rightarrow\\quad B'(5)=64e^{0{,}8}\\approx142{,}4\\]</div></li><li><p class=\"facit-rubrik\">Större än medelhastigheten</p><p>Hastigheten ökar hela tiden, så den är störst i slutet av intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 142,4 g/dygn</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(B'=0{,}16B\\)</p><div class=\"facit-matte\">\\[0{,}16B=1000\\quad\\Rightarrow\\quad B=6250\\ \\text{g}\\]</div></li><li><p class=\"facit-rubrik\">Jämför med gränsen 5000 g</p><p>Försöket avslutas redan vid 800 g/dygn. 1000 g/dygn nås inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, det kräver 6250 g biomassa.</p></div></div>",
     "familj": "Derivata i exponentialmodeller",
     "geogebra": false,
     "miniräknare": true,
@@ -97283,7 +97326,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Biomassan i ett odlingsförsök beskrivs till en början av \\(B(t)=400e^{0{,}16t}\\) gram, där \\(t\\ge0\\) mäts i dygn. Försöket avslutas när biomassan når 5000 gram.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna den genomsnittliga ökningshastigheten under de första fem dygnen. Svara med en decimal i g/dygn.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\((B(5)-B(0))/5=400(e^{0,8}-1)/5\\approx98{,}0\\) g/dygn.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ändringskvot över fem dygn</p><div class=\"facit-matte\">\\[\\frac{B(5)-B(0)}{5}=\\frac{400(e^{0{,}8}-1)}{5}\\approx98{,}0\\ \\text{g/dygn}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 98,0 g/dygn</p></div>",
         "ledtrad": "<p>Använd förändringskvoten mellan t = 0 och t = 5.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -97293,7 +97336,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Biomassan i ett odlingsförsök beskrivs till en början av \\(B(t)=400e^{0{,}16t}\\) gram, där \\(t\\ge0\\) mäts i dygn. Försöket avslutas när biomassan når 5000 gram.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna ökningshastigheten vid slutet av det femte dygnet. Svara med en decimal i g/dygn.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(B^{\\prime}(t)=64e^{0{,}16t}\\), så \\(B^{\\prime}(5)\\approx142{,}4\\) g/dygn.</p></li><li><p>Hastigheten ökar under hela intervallet; slutets hastighet är därför större än genomsnittet.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[B'(t)=64e^{0{,}16t}\\quad\\Rightarrow\\quad B'(5)=64e^{0{,}8}\\approx142{,}4\\]</div></li><li><p class=\"facit-rubrik\">Större än medelhastigheten</p><p>Hastigheten ökar hela tiden, så den är störst i slutet av intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 142,4 g/dygn</p></div>",
         "ledtrad": "<p>Skilj på hastigheten vid en tidpunkt och genomsnittet över fem dygn.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -97303,7 +97346,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>Biomassan i ett odlingsförsök beskrivs till en början av \\(B(t)=400e^{0{,}16t}\\) gram, där \\(t\\ge0\\) mäts i dygn. Försöket avslutas när biomassan når 5000 gram.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>En elev beräknar när ökningshastigheten blir 1000 g/dygn. Kan detta inträffa innan försöket avslutas? Motivera utan att först lösa ut tiden.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[B^{\\prime}=0{,}16B\\].</div></li><li><p>Hastigheten 1000 g/dygn kräver \\(B=1000/0{,}16=6250\\) g.</p></li><li><p>Det överstiger gränsen 5000 g.</p></li><li><p>Försöket avslutas redan vid hastigheten \\(0{,}16\\cdot5000=800\\) g/dygn.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(B'=0{,}16B\\)</p><div class=\"facit-matte\">\\[0{,}16B=1000\\quad\\Rightarrow\\quad B=6250\\ \\text{g}\\]</div></li><li><p class=\"facit-rubrik\">Jämför med gränsen 5000 g</p><p>Försöket avslutas redan vid 800 g/dygn. 1000 g/dygn nås inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, det kräver 6250 g biomassa.</p></div>",
         "ledtrad": "<p>Uttryck ökningshastigheten som en multipel av biomassan.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -97338,7 +97381,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/5/0",
     "t": "<p>Massan vätska i en behållare beskrivs under de första fyra timmarna av \\(M(t)=1200e^{-0{,}45t}\\) gram. En elev påstår: ”Eftersom \\(M^{\\prime}(1)\\approx-344\\) g/h försvinner ungefär 344 gram under hela den andra timmen.”</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Beräkna hur mycket vätska som faktiskt försvinner mellan t = 1 och t = 2 enligt modellen. Avrunda till hela gram.</p><p>b) Förklara varför elevens uppskattning är för stor.</p><p>c) Under hur många minuter från t = 1 uppskattar en tangentmodell att 50 gram försvinner? Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(M(1)-M(2)=1200(e^{-0,45}-e^{-0,9})\\approx277\\) g.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M^{\\prime}(t)=-540e^{-0{,}45t}\\].</div></li><li><p>Minskningens storlek är störst i intervallets början och avtar sedan.</p></li><li><p>Om starthastigheten antas gälla under hela timmen överskattas därför den mängd som försvinner.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta M\\approx M^{\\prime}(1)\\Delta t\\].</div></li><li><p>Därför är \\(\\Delta t\\approx50/(540e^{-0,45})\\) timmar, vilket är \\(60\\cdot50/(540e^{-0,45})\\approx8{,}7\\) minuter.</p></li><li><p>Detta är en linjär uppskattning, inte den exakta tiden i exponentialmodellen.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(277\\), b) se lösningen, c) \\(8{,}7\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skillnaden mellan massorna vid t = 1 och t = 2</p><div class=\"facit-matte\">\\[M(1)-M(2)=1200(e^{-0{,}45}-e^{-0{,}9})\\approx277\\ \\text{g}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 277 g</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(M'(t)=-540e^{-0{,}45t}\\) avtar i storlek</p><p>Minskningen är störst i början av timmen. Antar man starthastigheten hela timmen blir resultatet för stort.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Minskningstakten avtar under timmen.</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangentmodell: \\(\\Delta M\\approx M'(1)\\,\\Delta t\\)</p><div class=\"facit-matte\">\\[\\Delta t\\approx\\frac{50}{540e^{-0{,}45}}\\ \\text{h}\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till minuter</p><div class=\"facit-matte\">\\[60\\cdot\\frac{50}{540e^{-0{,}45}}\\approx8{,}7\\ \\text{min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,7 minuter</p></div></div>",
     "familj": "Derivata i exponentialmodeller",
     "geogebra": false,
     "miniräknare": true,
@@ -97380,7 +97423,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Massan vätska i en behållare beskrivs under de första fyra timmarna av \\(M(t)=1200e^{-0{,}45t}\\) gram. En elev påstår: ”Eftersom \\(M^{\\prime}(1)\\approx-344\\) g/h försvinner ungefär 344 gram under hela den andra timmen.”</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna hur mycket vätska som faktiskt försvinner mellan t = 1 och t = 2 enligt modellen. Avrunda till hela gram.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(M(1)-M(2)=1200(e^{-0,45}-e^{-0,9})\\approx277\\) g.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skillnaden mellan massorna vid t = 1 och t = 2</p><div class=\"facit-matte\">\\[M(1)-M(2)=1200(e^{-0{,}45}-e^{-0{,}9})\\approx277\\ \\text{g}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 277 g</p></div>",
         "ledtrad": "<p>Den andra timmen är intervallet från 1 till 2 timmar.</p>",
         "niva": "C",
         "poang": "0/1/0",
@@ -97390,7 +97433,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Massan vätska i en behållare beskrivs under de första fyra timmarna av \\(M(t)=1200e^{-0{,}45t}\\) gram. En elev påstår: ”Eftersom \\(M^{\\prime}(1)\\approx-344\\) g/h försvinner ungefär 344 gram under hela den andra timmen.”</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Förklara varför elevens uppskattning är för stor.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M^{\\prime}(t)=-540e^{-0{,}45t}\\].</div></li><li><p>Minskningens storlek är störst i intervallets början och avtar sedan.</p></li><li><p>Om starthastigheten antas gälla under hela timmen överskattas därför den mängd som försvinner.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(M'(t)=-540e^{-0{,}45t}\\) avtar i storlek</p><p>Minskningen är störst i början av timmen. Antar man starthastigheten hela timmen blir resultatet för stort.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Minskningstakten avtar under timmen.</p></div>",
         "ledtrad": "<p>Hur ändras storleken på den negativa derivatan under timmen?</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -97400,7 +97443,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>Massan vätska i en behållare beskrivs under de första fyra timmarna av \\(M(t)=1200e^{-0{,}45t}\\) gram. En elev påstår: ”Eftersom \\(M^{\\prime}(1)\\approx-344\\) g/h försvinner ungefär 344 gram under hela den andra timmen.”</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Under hur många minuter från t = 1 uppskattar en tangentmodell att 50 gram försvinner? Svara med en decimal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta M\\approx M^{\\prime}(1)\\Delta t\\].</div></li><li><p>Därför är \\(\\Delta t\\approx50/(540e^{-0,45})\\) timmar, vilket är \\(60\\cdot50/(540e^{-0,45})\\approx8{,}7\\) minuter.</p></li><li><p>Detta är en linjär uppskattning, inte den exakta tiden i exponentialmodellen.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangentmodell: \\(\\Delta M\\approx M'(1)\\,\\Delta t\\)</p><div class=\"facit-matte\">\\[\\Delta t\\approx\\frac{50}{540e^{-0{,}45}}\\ \\text{h}\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till minuter</p><div class=\"facit-matte\">\\[60\\cdot\\frac{50}{540e^{-0{,}45}}\\approx8{,}7\\ \\text{min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,7 minuter</p></div>",
         "ledtrad": "<p>Använd förändring ≈ förändringshastighet × tidsintervall och omvandla timmar till minuter.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -97435,7 +97478,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/7/0",
     "t": "<p>När ett filter startas beskrivs föroreningshalten av \\(C(t)=90e^{-0{,}08t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Vattnet får släppas vidare först när halten är högst 30 mg/l och minskningens storlek samtidigt är högst 2 mg/(l·min).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) När blir halten för första gången högst 30 mg/l? Svara med två decimaler i minuter.</p><p>b) Vilken är den tidigaste tidpunkt då båda kraven är uppfyllda? Svara med två decimaler i minuter och förklara vilket krav som avgör.</p><p>c) En operatör vill dessutom kräva att minskningens storlek är minst 3 mg/(l·min). Kan detta krav vara uppfyllt samtidigt som halten är högst 30 mg/l? Motivera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(90e^{-0{,}08t}\\le30\\) ger \\(t\\ge\\ln(3)/0{,}08\\approx13{,}73\\) min.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Minskningens storlek är</p><div class=\"facit-matte\">\\[-C^{\\prime}(t)=0{,}08C(t)\\].</div></div></li><li><p>Kravet \\(0{,}08C\\le2\\) motsvarar \\(C\\le25\\) mg/l och är därför strängare än \\(C\\le30\\).</p></li><li><p>Tidigast gäller båda när \\(90e^{-0{,}08t}=25\\), alltså \\(t=\\ln(90/25)/0{,}08\\approx16{,}01\\) min.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om \\(C\\le30\\) är \\(-C^{\\prime}=0{,}08C\\le2{,}4\\) mg/(l·min), alltså mindre än 3.</p></li><li><p>Kraven kan inte uppfyllas samtidigt.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(13{,}73\\), b) \\(16{,}01\\), c) se lösningen</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halten högst 30</p><div class=\"facit-matte\">\\[90e^{-0{,}08t}\\le30\\quad\\Rightarrow\\quad t\\ge\\frac{\\ln3}{0{,}08}\\approx13{,}73\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13,73 min</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minskningen: \\(-C'(t)=0{,}08C(t)\\)</p><div class=\"facit-matte\">\\[0{,}08C\\le2\\quad\\Rightarrow\\quad C\\le25\\ \\text{mg/l}\\]</div><p>Det kravet är strängare än 30 mg/l.</p></li><li><p class=\"facit-rubrik\">När blir halten 25?</p><div class=\"facit-matte\">\\[t=\\frac{\\ln(90/25)}{0{,}08}\\approx16{,}01\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16,01 min</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Med \\(C\\le30\\) blir minskningen högst 2,4</p><div class=\"facit-matte\">\\[-C'=0{,}08C\\le2{,}4\\lt3\\]</div></li><li><p class=\"facit-rubrik\">Slutsats</p><p>Kraven kan inte gälla samtidigt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej.</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -97476,7 +97519,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>När ett filter startas beskrivs föroreningshalten av \\(C(t)=90e^{-0{,}08t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Vattnet får släppas vidare först när halten är högst 30 mg/l och minskningens storlek samtidigt är högst 2 mg/(l·min).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>När blir halten för första gången högst 30 mg/l? Svara med två decimaler i minuter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(90e^{-0{,}08t}\\le30\\) ger \\(t\\ge\\ln(3)/0{,}08\\approx13{,}73\\) min.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halten högst 30</p><div class=\"facit-matte\">\\[90e^{-0{,}08t}\\le30\\quad\\Rightarrow\\quad t\\ge\\frac{\\ln3}{0{,}08}\\approx13{,}73\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13,73 min</p></div>",
         "ledtrad": "<p>Lös först ekvationen som ger gränsen och avgör åt vilket håll olikheten gäller.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -97486,7 +97529,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>När ett filter startas beskrivs föroreningshalten av \\(C(t)=90e^{-0{,}08t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Vattnet får släppas vidare först när halten är högst 30 mg/l och minskningens storlek samtidigt är högst 2 mg/(l·min).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Vilken är den tidigaste tidpunkt då båda kraven är uppfyllda? Svara med två decimaler i minuter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Minskningens storlek är</p><div class=\"facit-matte\">\\[-C^{\\prime}(t)=0{,}08C(t)\\].</div></div></li><li><p>Kravet \\(0{,}08C\\le2\\) motsvarar \\(C\\le25\\) mg/l och är därför strängare än \\(C\\le30\\).</p></li><li><p>Tidigast gäller båda när \\(90e^{-0{,}08t}=25\\), alltså \\(t=\\ln(90/25)/0{,}08\\approx16{,}01\\) min.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minskningen: \\(-C'(t)=0{,}08C(t)\\)</p><div class=\"facit-matte\">\\[0{,}08C\\le2\\quad\\Rightarrow\\quad C\\le25\\ \\text{mg/l}\\]</div><p>Det kravet är strängare än 30 mg/l.</p></li><li><p class=\"facit-rubrik\">När blir halten 25?</p><div class=\"facit-matte\">\\[t=\\frac{\\ln(90/25)}{0{,}08}\\approx16{,}01\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16,01 min</p></div>",
         "ledtrad": "<p>Skriv även kravet på minskningshastigheten som ett krav på halten.</p>",
         "niva": "C",
         "poang": "0/3/0",
@@ -97496,7 +97539,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>När ett filter startas beskrivs föroreningshalten av \\(C(t)=90e^{-0{,}08t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Vattnet får släppas vidare först när halten är högst 30 mg/l och minskningens storlek samtidigt är högst 2 mg/(l·min).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>En operatör vill dessutom kräva att minskningens storlek är minst 3 mg/(l·min). Kan detta krav vara uppfyllt samtidigt som halten är högst 30 mg/l? Motivera.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om \\(C\\le30\\) är \\(-C^{\\prime}=0{,}08C\\le2{,}4\\) mg/(l·min), alltså mindre än 3.</p></li><li><p>Kraven kan inte uppfyllas samtidigt.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Med \\(C\\le30\\) blir minskningen högst 2,4</p><div class=\"facit-matte\">\\[-C'=0{,}08C\\le2{,}4\\lt3\\]</div></li><li><p class=\"facit-rubrik\">Slutsats</p><p>Kraven kan inte gälla samtidigt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej.</p></div>",
         "ledtrad": "<p>Använd sambandet mellan halten och derivatans storlek.</p>",
         "niva": "C",
         "poang": "0/2/0",
@@ -97531,7 +97574,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/2/3",
     "t": "<p>En varm givare läggs i ett rum med konstant men okänd temperatur. Vid t = 0 visar givaren 80 °C, efter fyra minuter 50 °C och efter åtta minuter 35 °C. Anta att mätvärdena är exakta och att \\(T(t)=L+Ae^{-kt}\\), där \\(k\\gt 0\\), \\(t\\ge0\\) mäts i minuter och \\(L\\) är rumstemperaturen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm \\(L\\), \\(A\\) och \\(k\\). Ange \\(L\\) och \\(A\\) exakt samt \\(k\\) med fyra decimaler. Visa hur mätvärdena används.</p><p>b) När sjunker givarens temperatur med precis 1 °C/min? Svara med två decimaler i minuter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[r=e^{-4k}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Då gäller</p><div class=\"facit-matte\">\\[L+A=80\\],</div></div><div class=\"facit-matte\">\\[L+Ar=50\\],</div><div class=\"facit-matte\">\\[L+Ar^2=35\\].</div></li><li><p>Subtraktion ger \\(A(1-r)=30\\) och \\(Ar(1-r)=15\\).</p></li><li><p>Kvoten ger \\(r=1/2\\), så \\(A=60\\),</p></li><li><p>\\(L=20\\) och \\(k=\\ln(2)/4\\approx0{,}1733\\).</p></li><li><div class=\"facit-berakning\"><p>Modellen är</p><div class=\"facit-matte\">\\[T(t)=20+60e^{-(\\ln2)t/4}\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T^{\\prime}(t)=-60ke^{-kt}\\].</div></li><li><p>\\(60ke^{-kt}=1\\) ger \\(t=\\ln(60k)/k\\approx13{,}51\\) min med \\(k=\\ln2/4\\).</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(L=20\\), \\(A=60\\), \\(k\\approx0{,}1733\\), b) efter \\(13{,}51\\) min</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inför \\(r=e^{-4k}\\) och ställ upp mätningarna</p><div class=\"facit-matte\">\\[L+A=80,\\quad L+Ar=50,\\quad L+Ar^2=35\\]</div></li><li><p class=\"facit-rubrik\">Dra ekvationerna från varandra</p><div class=\"facit-matte\">\\[A(1-r)=30,\\qquad Ar(1-r)=15\\quad\\Rightarrow\\quad r=\\tfrac12\\]</div></li><li><p class=\"facit-rubrik\">Bestäm A, L och k</p><div class=\"facit-matte\">\\[A=60,\\quad L=20,\\quad e^{-4k}=\\tfrac12\\Rightarrow k=\\frac{\\ln2}{4}\\approx0{,}1733\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L=20\\), \\(A=60\\), \\(k\\approx0{,}1733\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan: \\(T'(t)=-60k\\,e^{-kt}\\)</p><div class=\"facit-matte\">\\[60k\\,e^{-kt}=1\\quad\\Rightarrow\\quad t=\\frac{\\ln(60k)}{k}\\approx13{,}51\\ \\text{min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13,51 min</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -97548,7 +97591,7 @@ window.BANKMATO1 = [
       [
         0,
         0,
-        0.00005
+        5e-05
       ],
       0.005
     ],
@@ -97579,7 +97622,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>En varm givare läggs i ett rum med konstant men okänd temperatur. Vid t = 0 visar givaren 80 °C, efter fyra minuter 50 °C och efter åtta minuter 35 °C. Anta att mätvärdena är exakta och att \\(T(t)=L+Ae^{-kt}\\), där \\(k\\gt 0\\), \\(t\\ge0\\) mäts i minuter och \\(L\\) är rumstemperaturen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm konstanterna i modellen. Ange i ordning \\(L\\), \\(A\\) och \\(k\\), med \\(L\\) och \\(A\\) exakt samt \\(k\\) med fyra decimaler.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[r=e^{-4k}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Då gäller</p><div class=\"facit-matte\">\\[L+A=80\\],</div></div></li><li><div class=\"facit-matte\">\\[L+Ar=50\\],</div></li><li><div class=\"facit-matte\">\\[L+Ar^2=35\\].</div></li><li><p>Subtraktion ger \\(A(1-r)=30\\) och \\(Ar(1-r)=15\\).</p></li><li><p>Kvoten ger \\(r=1/2\\), så \\(A=60\\),</p></li><li><p>\\(L=20\\) och \\(k=\\ln(2)/4\\approx0{,}1733\\).</p></li><li><div class=\"facit-berakning\"><p>Modellen är</p><div class=\"facit-matte\">\\[T(t)=20+60e^{-(\\ln2)t/4}\\].</div></div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inför \\(r=e^{-4k}\\) och ställ upp mätningarna</p><div class=\"facit-matte\">\\[L+A=80,\\quad L+Ar=50,\\quad L+Ar^2=35\\]</div></li><li><p class=\"facit-rubrik\">Dra ekvationerna från varandra</p><div class=\"facit-matte\">\\[A(1-r)=30,\\qquad Ar(1-r)=15\\quad\\Rightarrow\\quad r=\\tfrac12\\]</div></li><li><p class=\"facit-rubrik\">Bestäm A, L och k</p><div class=\"facit-matte\">\\[A=60,\\quad L=20,\\quad e^{-4k}=\\tfrac12\\Rightarrow k=\\frac{\\ln2}{4}\\approx0{,}1733\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L=20\\), \\(A=60\\), \\(k\\approx0{,}1733\\)</p></div>",
         "ledtrad": "<p>Jämför temperaturfallen under de två lika långa tidsintervallen. Sätt gärna \\(r=e^{-4k}\\).</p>",
         "niva": "A",
         "poang": "0/0/3",
@@ -97589,7 +97632,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>En varm givare läggs i ett rum med konstant men okänd temperatur. Vid t = 0 visar givaren 80 °C, efter fyra minuter 50 °C och efter åtta minuter 35 °C. Anta att mätvärdena är exakta och att \\(T(t)=L+Ae^{-kt}\\), där \\(k\\gt 0\\), \\(t\\ge0\\) mäts i minuter och \\(L\\) är rumstemperaturen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>När sjunker givarens temperatur med precis 1 °C/min? Svara med två decimaler i minuter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T^{\\prime}(t)=-60ke^{-kt}\\].</div></li><li><p>\\(60ke^{-kt}=1\\) ger \\(t=\\ln(60k)/k\\approx13{,}51\\) min med \\(k=\\ln2/4\\).</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan: \\(T'(t)=-60k\\,e^{-kt}\\)</p><div class=\"facit-matte\">\\[60k\\,e^{-kt}=1\\quad\\Rightarrow\\quad t=\\frac{\\ln(60k)}{k}\\approx13{,}51\\ \\text{min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13,51 min</p></div>",
         "ledtrad": "<p>Bestäm först modellen från de tre mätningarna. Derivera sedan och använd att sjunkande temperatur ger negativ derivata.</p>",
         "niva": "A",
         "poang": "0/2/0",
@@ -97623,7 +97666,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/0/5",
     "t": "<p>Två filter provas på olika vattenprover. Föroreningshalterna modelleras av \\(C_A(t)=120e^{-0{,}10t}\\) och \\(C_B(t)=90e^{-0{,}06t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Med att ett filter minskar halten snabbare menas att dess minskning i mg/(l·min) är större.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm alla tidpunkter då prov A har lägre föroreningshalt än prov B, samtidigt som filter A minskar halten snabbare än filter B. Ange intervallets gränser med två decimaler och motivera vilka ändpunkter som ingår.</p><p>b) Förklara varför jämförelsen av enbart de procentuella minskningarna inte räcker för att avgöra vilket filter som minskar halten snabbast i mg/(l·min).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lägre halt kräver \\(120e^{-0{,}10t}\\lt 90e^{-0{,}06t}\\), vilket ger \\(t\\gt \\ln(4/3)/0{,}04\\approx7{,}19\\).</p></li><li><p>Snabbare minskning kräver \\(12e^{-0{,}10t}\\gt 5{,}4e^{-0{,}06t}\\), vilket ger \\(t\\lt \\ln(12/5,4)/0{,}04\\approx19{,}96\\).</p></li><li><p>Alltså \\(\\ln(4/3)/0{,}04\\lt t\\lt \\ln(12/5,4)/0{,}04\\), ungefär mellan 7,19 och 19,96 minuter.</p></li><li><p>Båda ändpunkterna utesluts eftersom kraven är strikta.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den absoluta minskningshastigheten är \\(0{,}10C_A\\) respektive \\(0{,}06C_B\\).</p></li><li><p>Den beror både på den relativa hastigheten och på den aktuella halten.</p></li><li><p>A har hela tiden större relativ minskningshastighet, men efter den övre gränsen är halten i A så låg att dess absoluta minskning är mindre.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(7{,}19\\lt t\\lt 19{,}96\\) min, ändpunkterna ingår inte, b) se lösningen</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägre halt i A</p><div class=\"facit-matte\">\\[120e^{-0{,}10t}\\lt90e^{-0{,}06t}\\quad\\Rightarrow\\quad t\\gt\\frac{\\ln(4/3)}{0{,}04}\\approx7{,}19\\]</div></li><li><p class=\"facit-rubrik\">Snabbare minskning i A</p><div class=\"facit-matte\">\\[12e^{-0{,}10t}\\gt5{,}4e^{-0{,}06t}\\quad\\Rightarrow\\quad t\\lt\\frac{\\ln(12/5{,}4)}{0{,}04}\\approx19{,}96\\]</div></li><li><p class=\"facit-rubrik\">Båda kraven, utan ändpunkter</p><div class=\"facit-matte\">\\[7{,}19\\lt t\\lt19{,}96\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}19\\lt t\\lt19{,}96\\) min</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minskning i mg/(l·min) = relativ hastighet · halt</p><div class=\"facit-matte\">\\[-C_A'=0{,}10C_A,\\qquad -C_B'=0{,}06C_B\\]</div></li><li><p class=\"facit-rubrik\">Halten spelar också roll</p><p>A har större procentuell minskning, men när halten i A blir låg blir minskningen i mg/(l·min) mindre.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den absoluta minskningen beror också på halten.</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -97669,7 +97712,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Två filter provas på olika vattenprover. Föroreningshalterna modelleras av \\(C_A(t)=120e^{-0{,}10t}\\) och \\(C_B(t)=90e^{-0{,}06t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Med att ett filter minskar halten snabbare menas att dess minskning i mg/(l·min) är större.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm tidsintervallet då A både har lägre halt och minskar halten snabbare än B. Ange först den nedre och sedan den övre gränsen, med två decimaler i minuter. Gränstidpunkterna ska inte ingå.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lägre halt kräver \\(120e^{-0{,}10t}\\lt 90e^{-0{,}06t}\\), vilket ger \\(t\\gt \\ln(4/3)/0{,}04\\approx7{,}19\\).</p></li><li><p>Snabbare minskning kräver \\(12e^{-0{,}10t}\\gt 5{,}4e^{-0{,}06t}\\), vilket ger \\(t\\lt \\ln(12/5,4)/0{,}04\\approx19{,}96\\).</p></li><li><p>Alltså \\(\\ln(4/3)/0{,}04\\lt t\\lt \\ln(12/5,4)/0{,}04\\), ungefär mellan 7,19 och 19,96 minuter.</p></li><li><p>Båda ändpunkterna utesluts eftersom kraven är strikta.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägre halt i A</p><div class=\"facit-matte\">\\[120e^{-0{,}10t}\\lt90e^{-0{,}06t}\\quad\\Rightarrow\\quad t\\gt\\frac{\\ln(4/3)}{0{,}04}\\approx7{,}19\\]</div></li><li><p class=\"facit-rubrik\">Snabbare minskning i A</p><div class=\"facit-matte\">\\[12e^{-0{,}10t}\\gt5{,}4e^{-0{,}06t}\\quad\\Rightarrow\\quad t\\lt\\frac{\\ln(12/5{,}4)}{0{,}04}\\approx19{,}96\\]</div></li><li><p class=\"facit-rubrik\">Båda kraven, utan ändpunkter</p><div class=\"facit-matte\">\\[7{,}19\\lt t\\lt19{,}96\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}19\\lt t\\lt19{,}96\\) min</p></div>",
         "ledtrad": "<p>Skriv ett villkor för halterna och ett annat för minskningshastigheternas storlek.</p>",
         "niva": "A",
         "poang": "0/0/4",
@@ -97679,7 +97722,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Två filter provas på olika vattenprover. Föroreningshalterna modelleras av \\(C_A(t)=120e^{-0{,}10t}\\) och \\(C_B(t)=90e^{-0{,}06t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Med att ett filter minskar halten snabbare menas att dess minskning i mg/(l·min) är större.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Förklara varför jämförelsen av enbart de procentuella minskningarna inte räcker för att avgöra vilket filter som minskar halten snabbast i mg/(l·min).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den absoluta minskningshastigheten är \\(0{,}10C_A\\) respektive \\(0{,}06C_B\\).</p></li><li><p>Den beror både på den relativa hastigheten och på den aktuella halten.</p></li><li><p>A har hela tiden större relativ minskningshastighet, men efter den övre gränsen är halten i A så låg att dess absoluta minskning är mindre.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minskning i mg/(l·min) = relativ hastighet · halt</p><div class=\"facit-matte\">\\[-C_A'=0{,}10C_A,\\qquad -C_B'=0{,}06C_B\\]</div></li><li><p class=\"facit-rubrik\">Halten spelar också roll</p><p>A har större procentuell minskning, men när halten i A blir låg blir minskningen i mg/(l·min) mindre.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den absoluta minskningen beror också på halten.</p></div>",
         "ledtrad": "<p>Vad multipliceras den relativa förändringshastigheten med?</p>",
         "niva": "A",
         "poang": "0/0/1",
@@ -97713,7 +97756,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/2/5",
     "t": "<p>Massan hos ett material som torkar beskrivs av \\(M(t)=L+Ae^{-kt}\\), där \\(L\\gt 0\\), \\(A\\gt 0\\), \\(k\\gt 0\\), massan mäts i gram och \\(t\\ge0\\) i timmar. Från början är massan 180 g och minskar med 30 g/h. Efter tre timmar minskar massan med 7,5 g/h. Anta att uppgifterna är exakta.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm \\(L\\), \\(A\\) och \\(k\\) och skriv modellen. Ange \\(L\\) och \\(A\\) med två decimaler samt \\(k\\) med fyra decimaler. Redovisa hur du använder de båda förändringshastigheterna.</p><p>b) En produktionsledare vill vänta tills massan är 100 g. Går det enligt modellen? Motivera.</p><p>c) Efter hur lång tid har materialet förlorat 80 % av den massa som enligt modellen kan försvinna? Svara med två decimaler i timmar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M^{\\prime}(t)=-kAe^{-kt}\\].</div></li><li><p>Villkoren ger \\(kA=30\\) och \\(kAe^{-3k}=7,5\\).</p></li><li><p>Kvoten ger \\(e^{-3k}=1/4\\), så \\(k=\\ln4/3\\approx0{,}4621\\),</p></li><li><p>\\(A=30/k\\approx64{,}92\\) och \\(L=180-A\\approx115{,}08\\).</p></li><li><p>Alltså \\(M(t)\\approx115{,}08+64{,}92e^{-0{,}4621t}\\); fortsatta beräkningar använder oavrundade konstanter.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För alla ändliga \\(t\\ge0\\) är \\(Ae^{-kt}\\gt 0\\), så \\(M(t)\\gt L\\approx115{,}08\\) g.</p></li><li><p>Massan närmar sig 115,08 g och kan aldrig bli 100 g.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den massa som kan försvinna är \\(A\\), inte hela startmassan 180 g.</p></li><li><p>Efter 80 % förlust återstår \\(0{,}20A\\) av denna del.</p></li><li><p>\\(Ae^{-kt}=0{,}20A\\) ger \\(t=\\ln5/k\\approx3{,}48\\) h.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(L\\approx115{,}08\\), \\(A\\approx64{,}92\\), \\(k\\approx0{,}4621\\), b) nej, massan närmar sig \\(115{,}08\\) g och når aldrig 100 g, c) efter \\(3{,}48\\) h</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan: \\(M'(t)=-kA\\,e^{-kt}\\)</p><div class=\"facit-matte\">\\[kA=30,\\qquad kAe^{-3k}=7{,}5\\]</div></li><li><p class=\"facit-rubrik\">Dela villkoren</p><div class=\"facit-matte\">\\[e^{-3k}=\\frac14\\quad\\Rightarrow\\quad k=\\frac{\\ln4}{3}\\approx0{,}4621\\]</div></li><li><p class=\"facit-rubrik\">A och L</p><div class=\"facit-matte\">\\[A=\\frac{30}{k}\\approx64{,}92,\\qquad L=180-A\\approx115{,}08\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L\\approx115{,}08\\), \\(A\\approx64{,}92\\), \\(k\\approx0{,}4621\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(Ae^{-kt}\\gt0\\) för alla t</p><p>Därför är \\(M(t)\\gt L\\approx115{,}08\\) g, och massan blir aldrig 100 g.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej.</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det som kan försvinna är A</p><p>80 % förlust av A betyder att \\(0{,}20A\\) återstår av den delen.</p></li><li><p class=\"facit-rubrik\">Exponentialdelen ska ha minskat till 20 %</p><div class=\"facit-matte\">\\[e^{-kt}=0{,}2\\quad\\Rightarrow\\quad t=\\frac{\\ln5}{k}\\approx3{,}48\\ \\text{h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,48 h</p></div></div>",
     "familj": "Exponentialmodeller med e och ln",
     "geogebra": false,
     "miniräknare": true,
@@ -97731,7 +97774,7 @@ window.BANKMATO1 = [
       [
         0.005,
         0.005,
-        0.00005
+        5e-05
       ],
       null,
       0.005
@@ -97766,7 +97809,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Massan hos ett material som torkar beskrivs av \\(M(t)=L+Ae^{-kt}\\), där \\(L\\gt 0\\), \\(A\\gt 0\\), \\(k\\gt 0\\), massan mäts i gram och \\(t\\ge0\\) i timmar. Från början är massan 180 g och minskar med 30 g/h. Efter tre timmar minskar massan med 7,5 g/h. Anta att uppgifterna är exakta.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm konstanterna i modellen. Ange i ordning \\(L\\), \\(A\\), \\(k\\), med två decimaler för massorna och fyra för \\(k\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M^{\\prime}(t)=-kAe^{-kt}\\].</div></li><li><p>Villkoren ger \\(kA=30\\) och \\(kAe^{-3k}=7,5\\).</p></li><li><p>Kvoten ger \\(e^{-3k}=1/4\\), så \\(k=\\ln4/3\\approx0{,}4621\\),</p></li><li><p>\\(A=30/k\\approx64{,}92\\) och \\(L=180-A\\approx115{,}08\\).</p></li><li><p>Alltså \\(M(t)\\approx115{,}08+64{,}92e^{-0{,}4621t}\\); fortsatta beräkningar använder oavrundade konstanter.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan: \\(M'(t)=-kA\\,e^{-kt}\\)</p><div class=\"facit-matte\">\\[kA=30,\\qquad kAe^{-3k}=7{,}5\\]</div></li><li><p class=\"facit-rubrik\">Dela villkoren</p><div class=\"facit-matte\">\\[e^{-3k}=\\frac14\\quad\\Rightarrow\\quad k=\\frac{\\ln4}{3}\\approx0{,}4621\\]</div></li><li><p class=\"facit-rubrik\">A och L</p><div class=\"facit-matte\">\\[A=\\frac{30}{k}\\approx64{,}92,\\qquad L=180-A\\approx115{,}08\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L\\approx115{,}08\\), \\(A\\approx64{,}92\\), \\(k\\approx0{,}4621\\)</p></div>",
         "ledtrad": "<p>Derivera modellen och bilda kvoten mellan förändringshastigheternas storlek vid t = 3 och t = 0.</p>",
         "niva": "A",
         "poang": "0/0/3",
@@ -97776,7 +97819,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Massan hos ett material som torkar beskrivs av \\(M(t)=L+Ae^{-kt}\\), där \\(L\\gt 0\\), \\(A\\gt 0\\), \\(k\\gt 0\\), massan mäts i gram och \\(t\\ge0\\) i timmar. Från början är massan 180 g och minskar med 30 g/h. Efter tre timmar minskar massan med 7,5 g/h. Anta att uppgifterna är exakta.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>En produktionsledare vill vänta tills massan är 100 g. Går det enligt modellen? Motivera.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För alla ändliga \\(t\\ge0\\) är \\(Ae^{-kt}\\gt 0\\), så \\(M(t)\\gt L\\approx115{,}08\\) g.</p></li><li><p>Massan närmar sig 115,08 g och kan aldrig bli 100 g.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(Ae^{-kt}\\gt0\\) för alla t</p><p>Därför är \\(M(t)\\gt L\\approx115{,}08\\) g, och massan blir aldrig 100 g.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej.</p></div>",
         "ledtrad": "<p>Vilken massa närmar sig modellen på lång sikt?</p>",
         "niva": "A",
         "poang": "0/2/0",
@@ -97786,7 +97829,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>Massan hos ett material som torkar beskrivs av \\(M(t)=L+Ae^{-kt}\\), där \\(L\\gt 0\\), \\(A\\gt 0\\), \\(k\\gt 0\\), massan mäts i gram och \\(t\\ge0\\) i timmar. Från början är massan 180 g och minskar med 30 g/h. Efter tre timmar minskar massan med 7,5 g/h. Anta att uppgifterna är exakta.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Efter hur lång tid har materialet förlorat 80 % av den massa som enligt modellen kan försvinna? Svara med två decimaler i timmar.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den massa som kan försvinna är \\(A\\), inte hela startmassan 180 g.</p></li><li><p>Efter 80 % förlust återstår \\(0{,}20A\\) av denna del.</p></li><li><p>\\(Ae^{-kt}=0{,}20A\\) ger \\(t=\\ln5/k\\approx3{,}48\\) h.</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det som kan försvinna är A</p><p>80 % förlust av A betyder att \\(0{,}20A\\) återstår av den delen.</p></li><li><p class=\"facit-rubrik\">Exponentialdelen ska ha minskat till 20 %</p><div class=\"facit-matte\">\\[e^{-kt}=0{,}2\\quad\\Rightarrow\\quad t=\\frac{\\ln5}{k}\\approx3{,}48\\ \\text{h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,48 h</p></div>",
         "ledtrad": "<p>Skilj mellan den totala startmassan och den del som kan försvinna.</p>",
         "niva": "A",
         "poang": "0/0/2",
@@ -98177,7 +98220,7 @@ window.BANKMATO1 = [
     "poang": "(1/0/0)",
     "typ": "naturlig logaritm av e",
     "t": "<p>Bestäm \\(\\ln e\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>ln är den naturliga logaritmen. Eftersom e¹ = e är ln e = 1.</p><div class=\"facit-matte\">\\[\\ln e=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\ln e\\) är exponenten som gör \\(e^{?}=e\\)</p><div class=\"facit-matte\">\\[e^1=e\\quad\\Rightarrow\\quad\\ln e=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "ledtrad": "<p>Vilken exponent på e ger e?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -98206,7 +98249,7 @@ window.BANKMATO1 = [
     "poang": "(1/0/0)",
     "typ": "inversen till den naturliga logaritmen",
     "t": "<p>Lös \\(\\ln x=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv ekvationen med basen e. Exponenten 0 ger värdet 1.</p><div class=\"facit-matte\">\\[\\ln x=0\\Rightarrow x=e^0=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> x = 1.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv som e-potens</p><div class=\"facit-matte\">\\[\\ln x=0\\quad\\Leftrightarrow\\quad x=e^0\\]</div></li><li><p class=\"facit-rubrik\">Vilket tal som helst upphöjt till 0 är 1</p><div class=\"facit-matte\">\\[x=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div>",
     "ledtrad": "<p>Skriv om logaritmekvationen som en exponentialekvation.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -103758,7 +103801,7 @@ window.BANKMATO1 = [
   "typ": "hitta indata till ln",
   "poang": "1/0/0",
   "t": "<p>När ett tal \\(x\\) matas in i ln-funktionen blir resultatet −2. Vilket tal matades in? (Svara exakt.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 165\" role=\"img\" aria-label=\"Funktionsmaskin: x går genom ln och ger -2.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"165\" fill=\"white\"/><rect x=\"30\" y=\"65\" width=\"90\" height=\"65\" rx=\"10\" fill=\"white\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"75\" y=\"106\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">x</text><path d=\"M130 97L175 97\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M167.02 101.16L175 97L167.02 92.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"185\" y=\"65\" width=\"110\" height=\"65\" rx=\"10\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"240\" y=\"106\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">ln</text><path d=\"M305 97L350 97\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M342.02 101.16L350 97L342.02 92.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"360\" y=\"65\" width=\"90\" height=\"65\" rx=\"10\" fill=\"white\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"405\" y=\"106\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">−2</text><text x=\"75\" y=\"43\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Indata</text><text x=\"405\" y=\"43\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Utdata</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ln frågar vilken exponent e ska ha. Om ln x=−2 är x därför e upphöjt till −2.</p><div class=\"facit-matte\">\\[\\ln x=-2\\quad\\Longleftrightarrow\\quad x=e^{-2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=e^{-2}\\), vilket också kan skrivas \\(1/e^2\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ln ger exponenten till e</p><div class=\"facit-matte\">\\[\\ln x=-2\\quad\\Leftrightarrow\\quad x=e^{-2}\\]</div></li><li><p class=\"facit-rubrik\">Samma tal som bråk</p><div class=\"facit-matte\">\\[e^{-2}=\\frac{1}{e^2}\\approx0{,}135\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=e^{-2}\\)</p></div>",
   "familj": "Naturliga logaritmer och ekvationer",
   "formaga": [
     "procedur"
@@ -103788,7 +103831,7 @@ window.BANKMATO1 = [
   "typ": "ln och exponentialfunktionen tar ut varandra",
   "poang": "1/0/0",
   "t": "<p>Ett tal passerar två funktioner, som i figuren. Vad är \\(e^{\\ln8}\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 155\" role=\"img\" aria-label=\"Talet 8 går först genom ln och sedan genom exponentialfunktionen med basen e.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"155\" fill=\"white\"/><text x=\"35\" y=\"100\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">8</text><path d=\"M55 92L90 92\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M82.02 96.16L90 92L82.02 87.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"100\" y=\"58\" width=\"90\" height=\"65\" rx=\"10\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"145\" y=\"100\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">ln</text><path d=\"M200 92L240 92\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M232.02 96.16L240 92L232.02 87.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"250\" y=\"58\" width=\"90\" height=\"65\" rx=\"10\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"295\" y=\"100\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">eˣ</text><path d=\"M350 92L390 92\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M382.02 96.16L390 92L382.02 87.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"422\" y=\"100\" font-family=\"Arial,sans-serif\" font-size=\"26\" text-anchor=\"middle\" fill=\"#243447\">?</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ln 8 är den exponent som e ska upphöjas till för att resultatet ska bli 8. Funktionerna tar därför ut varandra.</p><div class=\"facit-matte\">\\[e^{\\ln8}=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ln och \\(e^x\\) tar ut varandra</p><p>\\(\\ln8\\) är exponenten som gör e till 8.</p></li><li><p class=\"facit-rubrik\">Alltså</p><div class=\"facit-matte\">\\[e^{\\ln8}=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
   "familj": "Naturliga logaritmer och ekvationer",
   "formaga": [
     "procedur"
@@ -103818,7 +103861,7 @@ window.BANKMATO1 = [
   "typ": "tecknet på ln mellan noll och ett",
   "poang": "1/0/0",
   "t": "<p>Grafen visar \\(y=\\ln x\\). Vilket tecken har \\(\\ln x\\) när \\(0\\lt x\\lt1\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Grafen y = ln x, som skär x-axeln vid x = 1.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-1152\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M183.333 42L183.333 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"183.333\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M306.667 42L306.667 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"306.667\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-2</text><path d=\"M60 220.5L430 220.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"225.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-1</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"106.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">y</text><path d=\"M76.691 280.0 L78.9 272.607 L81.108 266.033 L83.316 260.112 L85.524 254.728 L87.732 249.792 L89.94 245.233 L92.149 240.999 L94.357 237.046 L96.565 233.34 L98.773 229.851 L100.981 226.556 L103.19 223.433 L105.398 220.466 L107.606 217.64 L109.814 214.942 L112.022 212.362 L114.23 209.888 L116.439 207.513 L118.647 205.23 L120.855 203.031 L123.063 200.91 L125.271 198.862 L127.479 196.883 L129.688 194.967 L131.896 193.111 L134.104 191.311 L136.312 189.563 L138.52 187.866 L140.729 186.216 L142.937 184.61 L145.145 183.047 L147.353 181.523 L149.561 180.038 L151.769 178.589 L153.978 177.174 L156.186 175.792 L158.394 174.442 L160.602 173.121 L162.81 171.829 L165.019 170.565 L167.227 169.327 L169.435 168.114 L171.643 166.925 L173.851 165.76 L176.059 164.617 L178.268 163.495 L180.476 162.395 L182.684 161.314 L184.892 160.253 L187.1 159.21 L189.308 158.185 L191.517 157.178 L193.725 156.187 L195.933 155.212 L198.141 154.254 L200.349 153.31 L202.558 152.381 L204.766 151.467 L206.974 150.566 L209.182 149.679 L211.39 148.804 L213.598 147.943 L215.807 147.093 L218.015 146.256 L220.223 145.43 L222.431 144.616 L224.639 143.812 L226.848 143.02 L229.056 142.237 L231.264 141.465 L233.472 140.703 L235.68 139.95 L237.888 139.207 L240.097 138.473 L242.305 137.748 L244.513 137.032 L246.721 136.324 L248.929 135.624 L251.137 134.933 L253.346 134.249 L255.554 133.574 L257.762 132.906 L259.97 132.245 L262.178 131.592 L264.387 130.945 L266.595 130.306 L268.803 129.673 L271.011 129.047 L273.219 128.428 L275.427 127.815 L277.636 127.208 L279.844 126.607 L282.052 126.013 L284.26 125.424 L286.468 124.841 L288.677 124.264 L290.885 123.692 L293.093 123.125 L295.301 122.564 L297.509 122.009 L299.717 121.458 L301.926 120.912 L304.134 120.372 L306.342 119.836 L308.55 119.305 L310.758 118.779 L312.967 118.257 L315.175 117.74 L317.383 117.227 L319.591 116.719 L321.799 116.215 L324.007 115.715 L326.216 115.22 L328.424 114.728 L330.632 114.241 L332.84 113.757 L335.048 113.278 L337.256 112.802 L339.465 112.33 L341.673 111.862 L343.881 111.397 L346.089 110.936 L348.297 110.478 L350.506 110.024 L352.714 109.574 L354.922 109.127 L357.13 108.683 L359.338 108.242 L361.546 107.805 L363.755 107.371 L365.963 106.94 L368.171 106.512 L370.379 106.087 L372.587 105.665 L374.796 105.247 L377.004 104.831 L379.212 104.418 L381.42 104.007 L383.628 103.6 L385.836 103.195 L388.045 102.794 L390.253 102.394 L392.461 101.998 L394.669 101.604 L396.877 101.213 L399.085 100.824 L401.294 100.438 L403.502 100.054 L405.71 99.673 L407.918 99.294 L410.126 98.917 L412.335 98.543 L414.543 98.172 L416.751 97.802 L418.959 97.435 L421.167 97.07 L423.375 96.708 L425.584 96.347 L427.792 95.989 L430.0 95.633\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-1152)\"/><circle cx=\"183.333\" cy=\"161.0\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I intervallet 0 &lt; x &lt; 1 ligger grafen under x-axeln. Där är funktionsvärdena negativa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ln x är negativt.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av grafen mellan 0 och 1</p><p>Där ligger \\(y=\\ln x\\) under x-axeln.</p></li><li><p class=\"facit-rubrik\">Kontroll med ett tal</p><div class=\"facit-matte\">\\[\\ln0{,}5\\approx-0{,}69\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Negativt</p></div>",
   "familj": "Naturliga logaritmer och ekvationer",
   "formaga": [
     "begrepp",
@@ -103869,7 +103912,7 @@ window.BANKMATO1 = [
   "typ": "ln av en potens med basen e",
   "poang": "1/0/0",
   "t": "<p>Bestäm det exakta värdet av \\(\\ln(e^4)\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den naturliga logaritmen ger exponenten när basen är e.</p><div class=\"facit-matte\">\\[\\ln(e^4)=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Logaritmera: \\(\\ln(e^u)=u\\)</p><div class=\"facit-matte\">\\[\\ln(e^4)=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
   "familj": "Naturliga logaritmer och ekvationer",
   "formaga": [
     "procedur"
@@ -103899,7 +103942,7 @@ window.BANKMATO1 = [
   "typ": "bestäm skärningspunkt med ln och miniräknare",
   "poang": "1/0/0",
   "t": "<p>Kurvan \\(y=e^x\\) skär den streckade linjen \\(y=3\\). Beräkna skärningspunktens x-koordinat. (Svara med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Exponentialkurvan y = e upphöjt till x och den vågräta linjen y = 3.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-1154\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 220.5L430 220.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"225.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"106.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">6</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">8</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">y</text><path d=\"M60.0 250.25 L62.312 249.876 L64.625 249.497 L66.938 249.113 L69.25 248.725 L71.562 248.331 L73.875 247.933 L76.188 247.53 L78.5 247.121 L80.812 246.708 L83.125 246.289 L85.438 245.865 L87.75 245.435 L90.062 245.001 L92.375 244.56 L94.688 244.115 L97.0 243.663 L99.312 243.206 L101.625 242.743 L103.938 242.275 L106.25 241.8 L108.562 241.32 L110.875 240.833 L113.188 240.341 L115.5 239.842 L117.812 239.337 L120.125 238.825 L122.438 238.307 L124.75 237.783 L127.062 237.252 L129.375 236.714 L131.688 236.17 L134.0 235.618 L136.312 235.06 L138.625 234.495 L140.938 233.922 L143.25 233.343 L145.562 232.756 L147.875 232.162 L150.188 231.56 L152.5 230.951 L154.812 230.334 L157.125 229.709 L159.438 229.076 L161.75 228.436 L164.062 227.787 L166.375 227.13 L168.688 226.465 L171.0 225.792 L173.312 225.11 L175.625 224.42 L177.938 223.721 L180.25 223.013 L182.562 222.296 L184.875 221.57 L187.188 220.835 L189.5 220.091 L191.812 219.337 L194.125 218.574 L196.438 217.802 L198.75 217.019 L201.062 216.227 L203.375 215.425 L205.688 214.613 L208.0 213.79 L210.312 212.957 L212.625 212.114 L214.938 211.26 L217.25 210.396 L219.562 209.52 L221.875 208.633 L224.188 207.736 L226.5 206.827 L228.812 205.906 L231.125 204.974 L233.438 204.031 L235.75 203.075 L238.062 202.108 L240.375 201.128 L242.688 200.136 L245.0 199.131 L247.312 198.114 L249.625 197.084 L251.938 196.041 L254.25 194.985 L256.562 193.916 L258.875 192.833 L261.188 191.736 L263.5 190.626 L265.812 189.502 L268.125 188.364 L270.438 187.211 L272.75 186.044 L275.062 184.862 L277.375 183.665 L279.688 182.454 L282.0 181.227 L284.312 179.984 L286.625 178.726 L288.938 177.452 L291.25 176.162 L293.562 174.856 L295.875 173.534 L298.188 172.194 L300.5 170.838 L302.812 169.465 L305.125 168.075 L307.438 166.667 L309.75 165.242 L312.062 163.798 L314.375 162.336 L316.688 160.856 L319.0 159.358 L321.312 157.84 L323.625 156.304 L325.938 154.748 L328.25 153.172 L330.562 151.577 L332.875 149.962 L335.188 148.326 L337.5 146.67 L339.812 144.993 L342.125 143.294 L344.438 141.575 L346.75 139.834 L349.062 138.071 L351.375 136.285 L353.688 134.478 L356.0 132.647 L358.312 130.794 L360.625 128.917 L362.938 127.017 L365.25 125.092 L367.562 123.144 L369.875 121.171 L372.188 119.173 L374.5 117.15 L376.812 115.102 L379.125 113.027 L381.438 110.927 L383.75 108.801 L386.062 106.647 L388.375 104.467 L390.688 102.259 L393.0 100.023 L395.312 97.759 L397.625 95.467 L399.938 93.146 L402.25 90.795 L404.562 88.415 L406.875 86.006 L409.188 83.565 L411.5 81.095 L413.812 78.593 L416.125 76.059 L418.438 73.494 L420.75 70.897 L423.062 68.266 L425.375 65.603 L427.688 62.906 L430.0 60.176\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-1154)\"/><path d=\"M60.0 190.75 L62.312 190.75 L64.625 190.75 L66.938 190.75 L69.25 190.75 L71.562 190.75 L73.875 190.75 L76.188 190.75 L78.5 190.75 L80.812 190.75 L83.125 190.75 L85.438 190.75 L87.75 190.75 L90.062 190.75 L92.375 190.75 L94.688 190.75 L97.0 190.75 L99.312 190.75 L101.625 190.75 L103.938 190.75 L106.25 190.75 L108.562 190.75 L110.875 190.75 L113.188 190.75 L115.5 190.75 L117.812 190.75 L120.125 190.75 L122.438 190.75 L124.75 190.75 L127.062 190.75 L129.375 190.75 L131.688 190.75 L134.0 190.75 L136.312 190.75 L138.625 190.75 L140.938 190.75 L143.25 190.75 L145.562 190.75 L147.875 190.75 L150.188 190.75 L152.5 190.75 L154.812 190.75 L157.125 190.75 L159.438 190.75 L161.75 190.75 L164.062 190.75 L166.375 190.75 L168.688 190.75 L171.0 190.75 L173.312 190.75 L175.625 190.75 L177.938 190.75 L180.25 190.75 L182.562 190.75 L184.875 190.75 L187.188 190.75 L189.5 190.75 L191.812 190.75 L194.125 190.75 L196.438 190.75 L198.75 190.75 L201.062 190.75 L203.375 190.75 L205.688 190.75 L208.0 190.75 L210.312 190.75 L212.625 190.75 L214.938 190.75 L217.25 190.75 L219.562 190.75 L221.875 190.75 L224.188 190.75 L226.5 190.75 L228.812 190.75 L231.125 190.75 L233.438 190.75 L235.75 190.75 L238.062 190.75 L240.375 190.75 L242.688 190.75 L245.0 190.75 L247.312 190.75 L249.625 190.75 L251.938 190.75 L254.25 190.75 L256.562 190.75 L258.875 190.75 L261.188 190.75 L263.5 190.75 L265.812 190.75 L268.125 190.75 L270.438 190.75 L272.75 190.75 L275.062 190.75 L277.375 190.75 L279.688 190.75 L282.0 190.75 L284.312 190.75 L286.625 190.75 L288.938 190.75 L291.25 190.75 L293.562 190.75 L295.875 190.75 L298.188 190.75 L300.5 190.75 L302.812 190.75 L305.125 190.75 L307.438 190.75 L309.75 190.75 L312.062 190.75 L314.375 190.75 L316.688 190.75 L319.0 190.75 L321.312 190.75 L323.625 190.75 L325.938 190.75 L328.25 190.75 L330.562 190.75 L332.875 190.75 L335.188 190.75 L337.5 190.75 L339.812 190.75 L342.125 190.75 L344.438 190.75 L346.75 190.75 L349.062 190.75 L351.375 190.75 L353.688 190.75 L356.0 190.75 L358.312 190.75 L360.625 190.75 L362.938 190.75 L365.25 190.75 L367.562 190.75 L369.875 190.75 L372.188 190.75 L374.5 190.75 L376.812 190.75 L379.125 190.75 L381.438 190.75 L383.75 190.75 L386.062 190.75 L388.375 190.75 L390.688 190.75 L393.0 190.75 L395.312 190.75 L397.625 190.75 L399.938 190.75 L402.25 190.75 L404.562 190.75 L406.875 190.75 L409.188 190.75 L411.5 190.75 L413.812 190.75 L416.125 190.75 L418.438 190.75 L420.75 190.75 L423.062 190.75 L425.375 190.75 L427.688 190.75 L430.0 190.75\" stroke=\"#087f8c\" fill=\"none\" stroke-width=\"3\" stroke-dasharray=\"8 5\" clip-path=\"url(#clip-ma3-1154)\"/><text x=\"41\" y=\"195.75\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">3</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I skärningspunkten är eˣ=3. Ta ln på båda sidor och beräkna sedan värdet med miniräknaren.</p><div class=\"facit-matte\">\\[x=\\ln3\\approx1{,}10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx1{,}10\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I skärningspunkten är \\(e^x=3\\)</p><div class=\"facit-matte\">\\[e^x=3\\]</div></li><li><p class=\"facit-rubrik\">Ta ln</p><div class=\"facit-matte\">\\[x=\\ln3\\approx1{,}10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx1{,}10\\)</p></div>",
   "familj": "Naturliga logaritmer och ekvationer",
   "formaga": [
     "procedur"
@@ -103929,7 +103972,7 @@ window.BANKMATO1 = [
   "typ": "tillåtna indata för naturliga logaritmen",
   "poang": "1/0/0",
   "t": "<p>Vilka av talen kan du ta den naturliga logaritmen av och få ett reellt tal? (Markera alla riktiga alternativ.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ln x är definierad för positiva x. Talet behöver inte vara större än 1. Varken 0 eller negativa tal är tillåtna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5 och 3.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ln x är definierat bara för positiva x</p><p>\\(e^y\\) är alltid positivt, så bara positiva tal kan vara resultat av en e-potens.</p></li><li><p class=\"facit-rubrik\">Pröva talen</p><p>0,5 och 3 är positiva. \\(-2\\) och 0 är det inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5 och 3</p></div>",
   "familj": "Naturliga logaritmer och ekvationer",
   "formaga": [
     "begrepp",
@@ -103980,7 +104023,7 @@ window.BANKMATO1 = [
   "typ": "summa som en enda naturlig logaritm",
   "poang": "1/0/0",
   "t": "<p>Skriv \\(\\ln2+\\ln7\\) som en enda naturlig logaritm.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En summa av logaritmer med samma bas kan skrivas som logaritmen av produkten.</p><div class=\"facit-matte\">\\[\\ln2+\\ln7=\\ln(2\\cdot7)=\\ln14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\ln14\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Logaritmlagen \\(\\ln a+\\ln b=\\ln(ab)\\)</p><div class=\"facit-matte\">\\[\\ln2+\\ln7=\\ln(2\\cdot7)=\\ln14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\ln14\\)</p></div>",
   "familj": "Naturliga logaritmer och ekvationer",
   "formaga": [
     "procedur"
@@ -104010,7 +104053,7 @@ window.BANKMATO1 = [
   "typ": "hitta felaktig logaritmlag",
   "poang": "1/0/0",
   "t": "<p>Nora skriver \\(\\ln(2+3)=\\ln2+\\ln3\\). Vilket påstående är riktigt? (Välj ett alternativ.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vänsterledet är ln 5. På höger sida gäller produktregeln för logaritmer.</p><div class=\"facit-matte\">\\[\\ln2+\\ln3=\\ln(2\\cdot3)=\\ln6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nora har fel. Ln 5 och ln 6 är olika tal.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vänsterledet</p><div class=\"facit-matte\">\\[\\ln(2+3)=\\ln5\\]</div></li><li><p class=\"facit-rubrik\">Logaritmlagen \\(\\ln a+\\ln b=\\ln(ab)\\)</p><div class=\"facit-matte\">\\[\\ln2+\\ln3=\\ln6\\]</div></li><li><p class=\"facit-rubrik\">ln 5 och ln 6 är olika</p><div class=\"facit-matte\">\\[\\ln5\\approx1{,}61,\\qquad\\ln6\\approx1{,}79\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nora har fel: ln 2 + ln 3 är ln 6.</p></div>",
   "familj": "Naturliga logaritmer och ekvationer",
   "formaga": [
     "begrepp",
@@ -107826,7 +107869,7 @@ window.BANKMATO1 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Den blå kurvan har den orange tangenten vid \\(x=3\\). Tangenten går genom de markerade punkterna \\((1,2)\\) och \\((5,10)\\). Bestäm \\(f'(3)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Funktionskurva med tangent och två markerade tangentpunkter\" style=\"width:100%;max-width:500px\"><title>Funktionskurva med tangent och två markerade tangentpunkter</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"126.667\" y1=\"45\" x2=\"126.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"126.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"188.333\" y1=\"45\" x2=\"188.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"188.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"250\" y1=\"45\" x2=\"250\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"250\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"311.667\" y1=\"45\" x2=\"311.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"311.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"373.333\" y1=\"45\" x2=\"373.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"373.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"65\" y1=\"245\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"250\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"216.429\" x2=\"435\" y2=\"216.429\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"221.429\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"187.857\" x2=\"435\" y2=\"187.857\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"192.857\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"65\" y1=\"159.286\" x2=\"435\" y2=\"159.286\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"164.286\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"65\" y1=\"130.714\" x2=\"435\" y2=\"130.714\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"135.714\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><line x1=\"65\" y1=\"102.143\" x2=\"435\" y2=\"102.143\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"107.143\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><line x1=\"65\" y1=\"73.5714\" x2=\"435\" y2=\"73.5714\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"78.5714\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">12</text><line x1=\"65\" y1=\"45\" x2=\"435\" y2=\"45\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"50\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">14</text><line x1=\"65\" y1=\"245\" x2=\"445\" y2=\"245\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"65\" y1=\"245\" x2=\"65\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y</text><path d=\"M65.000 206.429 L66.542 206.354 L68.083 206.275 L69.625 206.190 L71.167 206.100 L72.708 206.004 L74.250 205.904 L75.792 205.797 L77.333 205.686 L78.875 205.569 L80.417 205.446 L81.958 205.319 L83.500 205.186 L85.042 205.047 L86.583 204.904 L88.125 204.754 L89.667 204.600 L91.208 204.440 L92.750 204.275 L94.292 204.104 L95.833 203.929 L97.375 203.747 L98.917 203.561 L100.458 203.369 L102.000 203.171 L103.542 202.969 L105.083 202.761 L106.625 202.547 L108.167 202.329 L109.708 202.104 L111.250 201.875 L112.792 201.640 L114.333 201.400 L115.875 201.154 L117.417 200.904 L118.958 200.647 L120.500 200.386 L122.042 200.119 L123.583 199.846 L125.125 199.569 L126.667 199.286 L128.208 198.997 L129.750 198.704 L131.292 198.404 L132.833 198.100 L134.375 197.790 L135.917 197.475 L137.458 197.154 L139.000 196.829 L140.542 196.497 L142.083 196.161 L143.625 195.819 L145.167 195.471 L146.708 195.119 L148.250 194.761 L149.792 194.397 L151.333 194.029 L152.875 193.654 L154.417 193.275 L155.958 192.890 L157.500 192.500 L159.042 192.104 L160.583 191.704 L162.125 191.297 L163.667 190.886 L165.208 190.469 L166.750 190.046 L168.292 189.619 L169.833 189.186 L171.375 188.747 L172.917 188.304 L174.458 187.854 L176.000 187.400 L177.542 186.940 L179.083 186.475 L180.625 186.004 L182.167 185.529 L183.708 185.047 L185.250 184.561 L186.792 184.069 L188.333 183.571 L189.875 183.069 L191.417 182.561 L192.958 182.047 L194.500 181.529 L196.042 181.004 L197.583 180.475 L199.125 179.940 L200.667 179.400 L202.208 178.854 L203.750 178.304 L205.292 177.747 L206.833 177.186 L208.375 176.619 L209.917 176.046 L211.458 175.469 L213.000 174.886 L214.542 174.297 L216.083 173.704 L217.625 173.104 L219.167 172.500 L220.708 171.890 L222.250 171.275 L223.792 170.654 L225.333 170.029 L226.875 169.397 L228.417 168.761 L229.958 168.119 L231.500 167.471 L233.042 166.819 L234.583 166.161 L236.125 165.497 L237.667 164.829 L239.208 164.154 L240.750 163.475 L242.292 162.790 L243.833 162.100 L245.375 161.404 L246.917 160.704 L248.458 159.997 L250.000 159.286 L251.542 158.569 L253.083 157.846 L254.625 157.119 L256.167 156.386 L257.708 155.647 L259.250 154.904 L260.792 154.154 L262.333 153.400 L263.875 152.640 L265.417 151.875 L266.958 151.104 L268.500 150.329 L270.042 149.547 L271.583 148.761 L273.125 147.969 L274.667 147.171 L276.208 146.369 L277.750 145.561 L279.292 144.747 L280.833 143.929 L282.375 143.104 L283.917 142.275 L285.458 141.440 L287.000 140.600 L288.542 139.754 L290.083 138.904 L291.625 138.047 L293.167 137.186 L294.708 136.319 L296.250 135.446 L297.792 134.569 L299.333 133.686 L300.875 132.797 L302.417 131.904 L303.958 131.004 L305.500 130.100 L307.042 129.190 L308.583 128.275 L310.125 127.354 L311.667 126.429 L313.208 125.497 L314.750 124.561 L316.292 123.619 L317.833 122.671 L319.375 121.719 L320.917 120.761 L322.458 119.797 L324.000 118.829 L325.542 117.854 L327.083 116.875 L328.625 115.890 L330.167 114.900 L331.708 113.904 L333.250 112.904 L334.792 111.897 L336.333 110.886 L337.875 109.869 L339.417 108.846 L340.958 107.819 L342.500 106.786 L344.042 105.747 L345.583 104.704 L347.125 103.654 L348.667 102.600 L350.208 101.540 L351.750 100.475 L353.292 99.404 L354.833 98.329 L356.375 97.247 L357.917 96.161 L359.458 95.069 L361.000 93.971 L362.542 92.869 L364.083 91.761 L365.625 90.647 L367.167 89.529 L368.708 88.404 L370.250 87.275 L371.792 86.140 L373.333 85.000 L374.875 83.854 L376.417 82.704 L377.958 81.547 L379.500 80.386 L381.042 79.219 L382.583 78.046 L384.125 76.869 L385.667 75.686 L387.208 74.497 L388.750 73.304 L390.292 72.104 L391.833 70.900 L393.375 69.690 L394.917 68.475 L396.458 67.254 L398.000 66.029 L399.542 64.797 L401.083 63.561 L402.625 62.319 L404.167 61.071 L405.708 59.819 L407.250 58.561 L408.792 57.297 L410.333 56.029 L411.875 54.754 L413.417 53.475 L414.958 52.190 L416.500 50.900 L418.042 49.604 L419.583 48.304 L421.125 46.997 L422.667 45.686\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/><path d=\"M65.000 245.000 L66.542 244.286 L68.083 243.571 L69.625 242.857 L71.167 242.143 L72.708 241.429 L74.250 240.714 L75.792 240.000 L77.333 239.286 L78.875 238.571 L80.417 237.857 L81.958 237.143 L83.500 236.429 L85.042 235.714 L86.583 235.000 L88.125 234.286 L89.667 233.571 L91.208 232.857 L92.750 232.143 L94.292 231.429 L95.833 230.714 L97.375 230.000 L98.917 229.286 L100.458 228.571 L102.000 227.857 L103.542 227.143 L105.083 226.429 L106.625 225.714 L108.167 225.000 L109.708 224.286 L111.250 223.571 L112.792 222.857 L114.333 222.143 L115.875 221.429 L117.417 220.714 L118.958 220.000 L120.500 219.286 L122.042 218.571 L123.583 217.857 L125.125 217.143 L126.667 216.429 L128.208 215.714 L129.750 215.000 L131.292 214.286 L132.833 213.571 L134.375 212.857 L135.917 212.143 L137.458 211.429 L139.000 210.714 L140.542 210.000 L142.083 209.286 L143.625 208.571 L145.167 207.857 L146.708 207.143 L148.250 206.429 L149.792 205.714 L151.333 205.000 L152.875 204.286 L154.417 203.571 L155.958 202.857 L157.500 202.143 L159.042 201.429 L160.583 200.714 L162.125 200.000 L163.667 199.286 L165.208 198.571 L166.750 197.857 L168.292 197.143 L169.833 196.429 L171.375 195.714 L172.917 195.000 L174.458 194.286 L176.000 193.571 L177.542 192.857 L179.083 192.143 L180.625 191.429 L182.167 190.714 L183.708 190.000 L185.250 189.286 L186.792 188.571 L188.333 187.857 L189.875 187.143 L191.417 186.429 L192.958 185.714 L194.500 185.000 L196.042 184.286 L197.583 183.571 L199.125 182.857 L200.667 182.143 L202.208 181.429 L203.750 180.714 L205.292 180.000 L206.833 179.286 L208.375 178.571 L209.917 177.857 L211.458 177.143 L213.000 176.429 L214.542 175.714 L216.083 175.000 L217.625 174.286 L219.167 173.571 L220.708 172.857 L222.250 172.143 L223.792 171.429 L225.333 170.714 L226.875 170.000 L228.417 169.286 L229.958 168.571 L231.500 167.857 L233.042 167.143 L234.583 166.429 L236.125 165.714 L237.667 165.000 L239.208 164.286 L240.750 163.571 L242.292 162.857 L243.833 162.143 L245.375 161.429 L246.917 160.714 L248.458 160.000 L250.000 159.286 L251.542 158.571 L253.083 157.857 L254.625 157.143 L256.167 156.429 L257.708 155.714 L259.250 155.000 L260.792 154.286 L262.333 153.571 L263.875 152.857 L265.417 152.143 L266.958 151.429 L268.500 150.714 L270.042 150.000 L271.583 149.286 L273.125 148.571 L274.667 147.857 L276.208 147.143 L277.750 146.429 L279.292 145.714 L280.833 145.000 L282.375 144.286 L283.917 143.571 L285.458 142.857 L287.000 142.143 L288.542 141.429 L290.083 140.714 L291.625 140.000 L293.167 139.286 L294.708 138.571 L296.250 137.857 L297.792 137.143 L299.333 136.429 L300.875 135.714 L302.417 135.000 L303.958 134.286 L305.500 133.571 L307.042 132.857 L308.583 132.143 L310.125 131.429 L311.667 130.714 L313.208 130.000 L314.750 129.286 L316.292 128.571 L317.833 127.857 L319.375 127.143 L320.917 126.429 L322.458 125.714 L324.000 125.000 L325.542 124.286 L327.083 123.571 L328.625 122.857 L330.167 122.143 L331.708 121.429 L333.250 120.714 L334.792 120.000 L336.333 119.286 L337.875 118.571 L339.417 117.857 L340.958 117.143 L342.500 116.429 L344.042 115.714 L345.583 115.000 L347.125 114.286 L348.667 113.571 L350.208 112.857 L351.750 112.143 L353.292 111.429 L354.833 110.714 L356.375 110.000 L357.917 109.286 L359.458 108.571 L361.000 107.857 L362.542 107.143 L364.083 106.429 L365.625 105.714 L367.167 105.000 L368.708 104.286 L370.250 103.571 L371.792 102.857 L373.333 102.143 L374.875 101.429 L376.417 100.714 L377.958 100.000 L379.500 99.286 L381.042 98.571 L382.583 97.857 L384.125 97.143 L385.667 96.429 L387.208 95.714 L388.750 95.000 L390.292 94.286 L391.833 93.571 L393.375 92.857 L394.917 92.143 L396.458 91.429 L398.000 90.714 L399.542 90.000 L401.083 89.286 L402.625 88.571 L404.167 87.857 L405.708 87.143 L407.250 86.429 L408.792 85.714 L410.333 85.000 L411.875 84.286 L413.417 83.571 L414.958 82.857 L416.500 82.143 L418.042 81.429 L419.583 80.714 L421.125 80.000 L422.667 79.286 L424.208 78.571 L425.750 77.857 L427.292 77.143 L428.833 76.429 L430.375 75.714 L431.917 75.000 L433.458 74.286 L435.000 73.571\" fill=\"none\" stroke=\"#b65d14\" stroke-width=\"3\"/><circle cx=\"126.667\" cy=\"216.429\" r=\"4\" fill=\"#af3451\"/><circle cx=\"373.333\" cy=\"102.143\" r=\"4\" fill=\"#af3451\"/></svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Derivatan är tangentens lutning.</strong></p><div class=\"facit-matte\">\\[f'(3)=\\frac{10-2}{5-1}=2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(3)=2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är tangentens lutning</p><p>Använd de två markerade punkterna på tangenten.</p></li><li><p class=\"facit-rubrik\">Lutning mellan \\((1,2)\\) och \\((5,10)\\)</p><div class=\"facit-matte\">\\[f'(3)=\\frac{10-2}{5-1}=\\frac84=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(3)=2\\)</p></div>",
     "ledtrad": "<p>Använd två punkter på tangenten, inte två godtyckliga punkter på kurvan.</p>",
     "rättSvar": 2,
     "svarFormat": "numeriskt",
@@ -108006,7 +108049,7 @@ window.BANKMATO1 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Mängden av ett ämne ges av \\(M(t)=300e^{-0{,}2t}\\) mg, där \\(t\\) är tiden i timmar. Hur snabbt förändras mängden efter 5 timmar? (Svara i mg/h, med tecken.)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Beräkna derivatans värde vid t = 5.</strong></p><div class=\"facit-matte\">\\[M'(t)=-60e^{-0{,}2t}\\]</div><div class=\"facit-matte\">\\[M'(5)=-60e^{-1}\\approx-22{,}1\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär −22,1 mg/h. Mängden minskar.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[M'(t)=300\\cdot(-0{,}2)e^{-0{,}2t}=-60e^{-0{,}2t}\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(t=5\\)</p><div class=\"facit-matte\">\\[M'(5)=-60e^{-1}\\approx-22{,}1\\]</div><p>Mängden minskar med cirka 22,1 mg per timme.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-22{,}1\\) mg/h</p></div>",
     "ledtrad": "<p>Frågan gäller förändringshastigheten, inte själva mängden.</p>",
     "rättSvar": -22.072766470286542,
     "svarFormat": "numeriskt",
@@ -110255,266 +110298,266 @@ window.BANKMATO1 = [
     "tolerans": 1e-09
   },
   {
-  "id": "2.1193",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Talet e i grafer och modeller",
-  "niva": "E",
-  "poang": "1/0/0",
-  "traningsniva": 1,
-  "arbetsinsats": 1,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>Figuren visar \\(f(x)=e^x\\) och tangenten vid x = 0. De markerade punkterna (0, 1) och (1, 2) ligger på tangenten. Bestäm \\(f'(0)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 360\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen till e upphöjt till x med tangent i (0,1). Tangenten går även genom (1,2).\"><title>Grafen till e upphöjt till x med tangent i (0,1). Tangenten går även genom (1,2).</title><rect width=\"500\" height=\"360\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M188.33333333333331 50V250\" stroke=\"#d6e1ea\"/><text x=\"188.33333333333331\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,231.606 66.233,231.421 67.467,231.234 68.700,231.046 69.933,230.855 71.167,230.663 72.400,230.469 73.633,230.272 74.867,230.074 76.100,229.874 77.333,229.672 78.567,229.467 79.800,229.261 81.033,229.052 82.267,228.842 83.500,228.629 84.733,228.414 85.967,228.198 87.200,227.978 88.433,227.757 89.667,227.534 90.900,227.308 92.133,227.080 93.367,226.849 94.600,226.617 95.833,226.382 97.067,226.144 98.300,225.905 99.533,225.662 100.767,225.418 102.000,225.171 103.233,224.921 104.467,224.669 105.700,224.415 106.933,224.157 108.167,223.898 109.400,223.635 110.633,223.370 111.867,223.103 113.100,222.832 114.333,222.559 115.567,222.284 116.800,222.005 118.033,221.724 119.267,221.440 120.500,221.153 121.733,220.863 122.967,220.570 124.200,220.274 125.433,219.975 126.667,219.673 127.900,219.369 129.133,219.061 130.367,218.750 131.600,218.436 132.833,218.119 134.067,217.798 135.300,217.475 136.533,217.148 137.767,216.817 139.000,216.484 140.233,216.147 141.467,215.807 142.700,215.463 143.933,215.116 145.167,214.766 146.400,214.411 147.633,214.054 148.867,213.693 150.100,213.328 151.333,212.959 152.567,212.587 153.800,212.211 155.033,211.831 156.267,211.447 157.500,211.060 158.733,210.669 159.967,210.273 161.200,209.874 162.433,209.471 163.667,209.063 164.900,208.652 166.133,208.236 167.367,207.817 168.600,207.393 169.833,206.965 171.067,206.532 172.300,206.095 173.533,205.654 174.767,205.208 176.000,204.758 177.233,204.303 178.467,203.844 179.700,203.380 180.933,202.912 182.167,202.439 183.400,201.961 184.633,201.478 185.867,200.990 187.100,200.498 188.333,200.000 189.567,199.497 190.800,198.990 192.033,198.477 193.267,197.959 194.500,197.436 195.733,196.908 196.967,196.375 198.200,195.836 199.433,195.291 200.667,194.741 201.900,194.186 203.133,193.625 204.367,193.059 205.600,192.486 206.833,191.908 208.067,191.324 209.300,190.735 210.533,190.139 211.767,189.538 213.000,188.930 214.233,188.316 215.467,187.696 216.700,187.070 217.933,186.438 219.167,185.799 220.400,185.153 221.633,184.502 222.867,183.844 224.100,183.179 225.333,182.507 226.567,181.829 227.800,181.144 229.033,180.452 230.267,179.753 231.500,179.047 232.733,178.334 233.967,177.613 235.200,176.886 236.433,176.151 237.667,175.409 238.900,174.659 240.133,173.902 241.367,173.137 242.600,172.365 243.833,171.584 245.067,170.796 246.300,170.000 247.533,169.196 248.767,168.384 250.000,167.564 251.233,166.735 252.467,165.899 253.700,165.053 254.933,164.200 256.167,163.337 257.400,162.466 258.633,161.587 259.867,160.698 261.100,159.801 262.333,158.894 263.567,157.978 264.800,157.054 266.033,156.119 267.267,155.176 268.500,154.223 269.733,153.260 270.967,152.288 272.200,151.306 273.433,150.314 274.667,149.312 275.900,148.300 277.133,147.278 278.367,146.246 279.600,145.203 280.833,144.150 282.067,143.086 283.300,142.012 284.533,140.926 285.767,139.830 287.000,138.723 288.233,137.605 289.467,136.475 290.700,135.334 291.933,134.182 293.167,133.018 294.400,131.842 295.633,130.654 296.867,129.455 298.100,128.244 299.333,127.020 300.567,125.784 301.800,124.535 303.033,123.275 304.267,122.001 305.500,120.715 306.733,119.415 307.967,118.103 309.200,116.777 310.433,115.438 311.667,114.086 312.900,112.720 314.133,111.340 315.367,109.947 316.600,108.539 317.833,107.117 319.067,105.681 320.300,104.231 321.533,102.766 322.767,101.286 324.000,99.792 325.233,98.282 326.467,96.757 327.700,95.217 328.933,93.662 330.167,92.090 331.400,90.503 332.633,88.900 333.867,87.281 335.100,85.646 336.333,83.994 337.567,82.326 338.800,80.641 340.033,78.939 341.267,77.219 342.500,75.483 343.733,73.729 344.967,71.957 346.200,70.168 347.433,68.361 348.667,66.535 349.900,64.691 351.133,62.829 352.367,60.948 353.600,59.048 354.833,57.129 356.067,55.190 357.300,53.232 358.533,51.255\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"65.000,250.000 435.000,100.000\" fill=\"none\" stroke=\"#b35316\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"188.33333333333331\" cy=\"200.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"311.66666666666663\" cy=\"150.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"250\" y=\"340\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Orange linje: tangent.</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är tangentens lutning. När x ökar från 0 till 1 ökar y från 1 till 2.</p><div class=\"facit-matte\">\\[f'(0)=\\frac{2-1}{1-0}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 1.</strong></p></div>",
-  "ledtrad": "<p>Använd de två punkterna på tangenten.</p>",
-  "rättSvar": 1,
-  "svarstyp": "numeriskt",
-  "svarFormat": "numeriskt",
-  "tolerans": 1e-09
-},
+    "id": "2.1193",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Talet e i grafer och modeller",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Figuren visar \\(f(x)=e^x\\) och tangenten vid x = 0. De markerade punkterna (0, 1) och (1, 2) ligger på tangenten. Bestäm \\(f'(0)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 360\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen till e upphöjt till x med tangent i (0,1). Tangenten går även genom (1,2).\"><title>Grafen till e upphöjt till x med tangent i (0,1). Tangenten går även genom (1,2).</title><rect width=\"500\" height=\"360\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M188.33333333333331 50V250\" stroke=\"#d6e1ea\"/><text x=\"188.33333333333331\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,231.606 66.233,231.421 67.467,231.234 68.700,231.046 69.933,230.855 71.167,230.663 72.400,230.469 73.633,230.272 74.867,230.074 76.100,229.874 77.333,229.672 78.567,229.467 79.800,229.261 81.033,229.052 82.267,228.842 83.500,228.629 84.733,228.414 85.967,228.198 87.200,227.978 88.433,227.757 89.667,227.534 90.900,227.308 92.133,227.080 93.367,226.849 94.600,226.617 95.833,226.382 97.067,226.144 98.300,225.905 99.533,225.662 100.767,225.418 102.000,225.171 103.233,224.921 104.467,224.669 105.700,224.415 106.933,224.157 108.167,223.898 109.400,223.635 110.633,223.370 111.867,223.103 113.100,222.832 114.333,222.559 115.567,222.284 116.800,222.005 118.033,221.724 119.267,221.440 120.500,221.153 121.733,220.863 122.967,220.570 124.200,220.274 125.433,219.975 126.667,219.673 127.900,219.369 129.133,219.061 130.367,218.750 131.600,218.436 132.833,218.119 134.067,217.798 135.300,217.475 136.533,217.148 137.767,216.817 139.000,216.484 140.233,216.147 141.467,215.807 142.700,215.463 143.933,215.116 145.167,214.766 146.400,214.411 147.633,214.054 148.867,213.693 150.100,213.328 151.333,212.959 152.567,212.587 153.800,212.211 155.033,211.831 156.267,211.447 157.500,211.060 158.733,210.669 159.967,210.273 161.200,209.874 162.433,209.471 163.667,209.063 164.900,208.652 166.133,208.236 167.367,207.817 168.600,207.393 169.833,206.965 171.067,206.532 172.300,206.095 173.533,205.654 174.767,205.208 176.000,204.758 177.233,204.303 178.467,203.844 179.700,203.380 180.933,202.912 182.167,202.439 183.400,201.961 184.633,201.478 185.867,200.990 187.100,200.498 188.333,200.000 189.567,199.497 190.800,198.990 192.033,198.477 193.267,197.959 194.500,197.436 195.733,196.908 196.967,196.375 198.200,195.836 199.433,195.291 200.667,194.741 201.900,194.186 203.133,193.625 204.367,193.059 205.600,192.486 206.833,191.908 208.067,191.324 209.300,190.735 210.533,190.139 211.767,189.538 213.000,188.930 214.233,188.316 215.467,187.696 216.700,187.070 217.933,186.438 219.167,185.799 220.400,185.153 221.633,184.502 222.867,183.844 224.100,183.179 225.333,182.507 226.567,181.829 227.800,181.144 229.033,180.452 230.267,179.753 231.500,179.047 232.733,178.334 233.967,177.613 235.200,176.886 236.433,176.151 237.667,175.409 238.900,174.659 240.133,173.902 241.367,173.137 242.600,172.365 243.833,171.584 245.067,170.796 246.300,170.000 247.533,169.196 248.767,168.384 250.000,167.564 251.233,166.735 252.467,165.899 253.700,165.053 254.933,164.200 256.167,163.337 257.400,162.466 258.633,161.587 259.867,160.698 261.100,159.801 262.333,158.894 263.567,157.978 264.800,157.054 266.033,156.119 267.267,155.176 268.500,154.223 269.733,153.260 270.967,152.288 272.200,151.306 273.433,150.314 274.667,149.312 275.900,148.300 277.133,147.278 278.367,146.246 279.600,145.203 280.833,144.150 282.067,143.086 283.300,142.012 284.533,140.926 285.767,139.830 287.000,138.723 288.233,137.605 289.467,136.475 290.700,135.334 291.933,134.182 293.167,133.018 294.400,131.842 295.633,130.654 296.867,129.455 298.100,128.244 299.333,127.020 300.567,125.784 301.800,124.535 303.033,123.275 304.267,122.001 305.500,120.715 306.733,119.415 307.967,118.103 309.200,116.777 310.433,115.438 311.667,114.086 312.900,112.720 314.133,111.340 315.367,109.947 316.600,108.539 317.833,107.117 319.067,105.681 320.300,104.231 321.533,102.766 322.767,101.286 324.000,99.792 325.233,98.282 326.467,96.757 327.700,95.217 328.933,93.662 330.167,92.090 331.400,90.503 332.633,88.900 333.867,87.281 335.100,85.646 336.333,83.994 337.567,82.326 338.800,80.641 340.033,78.939 341.267,77.219 342.500,75.483 343.733,73.729 344.967,71.957 346.200,70.168 347.433,68.361 348.667,66.535 349.900,64.691 351.133,62.829 352.367,60.948 353.600,59.048 354.833,57.129 356.067,55.190 357.300,53.232 358.533,51.255\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"65.000,250.000 435.000,100.000\" fill=\"none\" stroke=\"#b35316\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"188.33333333333331\" cy=\"200.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"311.66666666666663\" cy=\"150.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"250\" y=\"340\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Orange linje: tangent.</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är tangentens lutning</p><div class=\"facit-matte\">\\[f'(0)=\\frac{2-1}{1-0}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "ledtrad": "<p>Använd de två punkterna på tangenten.</p>",
+    "rättSvar": 1,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09
+  },
   {
-  "id": "2.1194",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Talet e i grafer och modeller",
-  "niva": "E",
-  "poang": "1/0/0",
-  "traningsniva": 1,
-  "arbetsinsats": 1,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>Grafen till \\(g(x)=e^x+7\\) är grafen till \\(e^x\\) flyttad 7 enheter uppåt. Bestäm \\(g'(x)\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan av eˣ är eˣ. Konstanten 7 har derivatan 0. En förflyttning uppåt ändrar inte lutningen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(g'(x)=e^x\\).</strong></p></div>",
-  "ledtrad": "<p>Vad händer med lutningen om hela grafen flyttas uppåt?</p>",
-  "rättSvar": "e^x",
-  "svarstyp": "uttryck",
-  "svarFormat": "uttryck",
-  "tolerans": null
-},
+    "id": "2.1194",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Talet e i grafer och modeller",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Grafen till \\(g(x)=e^x+7\\) är grafen till \\(e^x\\) flyttad 7 enheter uppåt. Bestäm \\(g'(x)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\((e^x)'=e^x\\), och konstanten 7 ger 0</p><div class=\"facit-matte\">\\[g'(x)=e^x\\]</div></li><li><p class=\"facit-rubrik\">Förflyttning uppåt ändrar inte lutningen</p><p>Graferna har samma form, bara på olika höjd.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(g'(x)=e^x\\)</p></div>",
+    "ledtrad": "<p>Vad händer med lutningen om hela grafen flyttas uppåt?</p>",
+    "rättSvar": "e^x",
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "tolerans": null
+  },
   {
-  "id": "2.1195",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Talet e i grafer och modeller",
-  "niva": "E",
-  "poang": "1/0/0",
-  "traningsniva": 2,
-  "arbetsinsats": 1,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>En växts massa beskrivs av \\(M(t)=Ce^{kt}\\), där M mäts i gram och t i dygn. Tabellen gäller vid samma tidpunkt. Bestäm k.</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Storhet</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Värde</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">Massa</td><td style=\"padding:8px;border:1px solid #8796a5\">80 g</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">Massökning per dygn</td><td style=\"padding:8px;border:1px solid #8796a5\">12 g/dygn</td></tr></tbody></table>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivering ger M′(t) = kCeᵏᵗ = kM(t). Använd båda tabellvärdena vid den aktuella tidpunkten.</p><div class=\"facit-matte\">\\[12=k\\cdot80\\quad\\Rightarrow\\quad k=0{,}15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: k = 0,15.</strong></p></div>",
-  "ledtrad": "<p>Jämför uttrycket för massan med uttrycket för dess förändring.</p>",
-  "rättSvar": 0.15,
-  "svarstyp": "numeriskt",
-  "svarFormat": "numeriskt",
-  "tolerans": 1e-09
-},
+    "id": "2.1195",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Talet e i grafer och modeller",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En växts massa beskrivs av \\(M(t)=Ce^{kt}\\), där M mäts i gram och t i dygn. Tabellen gäller vid samma tidpunkt. Bestäm k.</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Storhet</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Värde</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">Massa</td><td style=\"padding:8px;border:1px solid #8796a5\">80 g</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">Massökning per dygn</td><td style=\"padding:8px;border:1px solid #8796a5\">12 g/dygn</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\)</p><div class=\"facit-matte\">\\[M'(t)=kCe^{kt}=k\\cdot M(t)\\]</div></li><li><p class=\"facit-rubrik\">Sätt in tabellens värden</p><div class=\"facit-matte\">\\[12=k\\cdot80\\quad\\Rightarrow\\quad k=0{,}15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=0{,}15\\)</p></div>",
+    "ledtrad": "<p>Jämför uttrycket för massan med uttrycket för dess förändring.</p>",
+    "rättSvar": 0.15,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09
+  },
   {
-  "id": "2.1196",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Talet e i grafer och modeller",
-  "niva": "C",
-  "poang": "0/1/0",
-  "traningsniva": 3,
-  "arbetsinsats": 2,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>En drycks temperatur är \\(T(t)=20+60e^{-0{,}1t}\\) °C efter t minuter. Hur snabbt sjunker temperaturen när drycken är 40 °C? (Svara med ett positivt tal i °C/min.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"En dryck svalnar från 80 grader och närmar sig rumstemperaturen 20 grader.\"><title>En dryck svalnar från 80 grader och närmar sig rumstemperaturen 20 grader.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M188.33333333333331 50V250\" stroke=\"#d6e1ea\"/><text x=\"188.33333333333331\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">20</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">30</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 210.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"216.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">20</text><path d=\"M65 170.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"176.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">40</text><path d=\"M65 130.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"136.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">60</text><path d=\"M65 90.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"96.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">80</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">100</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Tid t (min)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Temperatur (°C)</text><polyline points=\"65.000,90.000 67.467,92.376 69.933,94.705 72.400,96.988 74.867,99.226 77.333,101.420 79.800,103.570 82.267,105.677 84.733,107.743 87.200,109.768 89.667,111.752 92.133,113.698 94.600,115.605 97.067,117.474 99.533,119.306 102.000,121.102 104.467,122.862 106.933,124.588 109.400,126.279 111.867,127.937 114.333,129.562 116.800,131.154 119.267,132.716 121.733,134.246 124.200,135.746 126.667,137.216 129.133,138.658 131.600,140.070 134.067,141.455 136.533,142.812 139.000,144.143 141.467,145.447 143.933,146.725 146.400,147.978 148.867,149.206 151.333,150.410 153.800,151.590 156.267,152.746 158.733,153.880 161.200,154.991 163.667,156.081 166.133,157.148 168.600,158.195 171.067,159.221 173.533,160.226 176.000,161.212 178.467,162.178 180.933,163.125 183.400,164.053 185.867,164.963 188.333,165.854 190.800,166.729 193.267,167.585 195.733,168.425 198.200,169.249 200.667,170.055 203.133,170.846 205.600,171.622 208.067,172.382 210.533,173.127 213.000,173.857 215.467,174.572 217.933,175.274 220.400,175.962 222.867,176.636 225.333,177.296 227.800,177.944 230.267,178.579 232.733,179.201 235.200,179.811 237.667,180.408 240.133,180.994 242.600,181.569 245.067,182.132 247.533,182.683 250.000,183.224 252.467,183.755 254.933,184.274 257.400,184.784 259.867,185.283 262.333,185.772 264.800,186.252 267.267,186.722 269.733,187.183 272.200,187.635 274.667,188.078 277.133,188.512 279.600,188.938 282.067,189.355 284.533,189.763 287.000,190.164 289.467,190.557 291.933,190.942 294.400,191.319 296.867,191.689 299.333,192.052 301.800,192.407 304.267,192.756 306.733,193.097 309.200,193.432 311.667,193.760 314.133,194.081 316.600,194.397 319.067,194.706 321.533,195.008 324.000,195.305 326.467,195.596 328.933,195.881 331.400,196.161 333.867,196.435 336.333,196.704 338.800,196.967 341.267,197.225 343.733,197.478 346.200,197.726 348.667,197.969 351.133,198.207 353.600,198.441 356.067,198.670 358.533,198.894 361.000,199.114 363.467,199.329 365.933,199.541 368.400,199.748 370.867,199.951 373.333,200.150 375.800,200.345 378.267,200.536 380.733,200.723 383.200,200.907 385.667,201.087 388.133,201.264 390.600,201.437 393.067,201.606 395.533,201.772 398.000,201.935 400.467,202.095 402.933,202.252 405.400,202.405 407.867,202.555 410.333,202.703 412.800,202.847 415.267,202.989 417.733,203.128 420.200,203.264 422.667,203.397 425.133,203.528 427.600,203.656 430.067,203.782 432.533,203.905 435.000,204.026\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När T = 40 är den exponentiella delen 40−20 = 20.</p><div class=\"facit-matte\">\\[60e^{-0{,}1t}=20\\]</div></li><li><p>Derivera modellen.</p><div class=\"facit-matte\">\\[T'(t)=-0{,}1\\cdot60e^{-0{,}1t}\\]</div></li><li><p>Vid den aktuella tidpunkten är derivatan −0,1·20 = −2 °C/min. Temperaturen sjunker alltså med 2 °C per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 2 °C/min.</strong></p></div>",
-  "ledtrad": "<p>Jämför derivatan med temperaturens skillnad från 20 °C.</p>",
-  "rättSvar": 2,
-  "svarstyp": "numeriskt",
-  "svarFormat": "numeriskt",
-  "tolerans": 1e-09,
-  "svarEnhet": "°C/min"
-},
+    "id": "2.1196",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Talet e i grafer och modeller",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En drycks temperatur är \\(T(t)=20+60e^{-0{,}1t}\\) °C efter t minuter. Hur snabbt sjunker temperaturen när drycken är 40 °C? (Svara med ett positivt tal i °C/min.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"En dryck svalnar från 80 grader och närmar sig rumstemperaturen 20 grader.\"><title>En dryck svalnar från 80 grader och närmar sig rumstemperaturen 20 grader.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M188.33333333333331 50V250\" stroke=\"#d6e1ea\"/><text x=\"188.33333333333331\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">20</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">30</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 210.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"216.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">20</text><path d=\"M65 170.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"176.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">40</text><path d=\"M65 130.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"136.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">60</text><path d=\"M65 90.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"96.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">80</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">100</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Tid t (min)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Temperatur (°C)</text><polyline points=\"65.000,90.000 67.467,92.376 69.933,94.705 72.400,96.988 74.867,99.226 77.333,101.420 79.800,103.570 82.267,105.677 84.733,107.743 87.200,109.768 89.667,111.752 92.133,113.698 94.600,115.605 97.067,117.474 99.533,119.306 102.000,121.102 104.467,122.862 106.933,124.588 109.400,126.279 111.867,127.937 114.333,129.562 116.800,131.154 119.267,132.716 121.733,134.246 124.200,135.746 126.667,137.216 129.133,138.658 131.600,140.070 134.067,141.455 136.533,142.812 139.000,144.143 141.467,145.447 143.933,146.725 146.400,147.978 148.867,149.206 151.333,150.410 153.800,151.590 156.267,152.746 158.733,153.880 161.200,154.991 163.667,156.081 166.133,157.148 168.600,158.195 171.067,159.221 173.533,160.226 176.000,161.212 178.467,162.178 180.933,163.125 183.400,164.053 185.867,164.963 188.333,165.854 190.800,166.729 193.267,167.585 195.733,168.425 198.200,169.249 200.667,170.055 203.133,170.846 205.600,171.622 208.067,172.382 210.533,173.127 213.000,173.857 215.467,174.572 217.933,175.274 220.400,175.962 222.867,176.636 225.333,177.296 227.800,177.944 230.267,178.579 232.733,179.201 235.200,179.811 237.667,180.408 240.133,180.994 242.600,181.569 245.067,182.132 247.533,182.683 250.000,183.224 252.467,183.755 254.933,184.274 257.400,184.784 259.867,185.283 262.333,185.772 264.800,186.252 267.267,186.722 269.733,187.183 272.200,187.635 274.667,188.078 277.133,188.512 279.600,188.938 282.067,189.355 284.533,189.763 287.000,190.164 289.467,190.557 291.933,190.942 294.400,191.319 296.867,191.689 299.333,192.052 301.800,192.407 304.267,192.756 306.733,193.097 309.200,193.432 311.667,193.760 314.133,194.081 316.600,194.397 319.067,194.706 321.533,195.008 324.000,195.305 326.467,195.596 328.933,195.881 331.400,196.161 333.867,196.435 336.333,196.704 338.800,196.967 341.267,197.225 343.733,197.478 346.200,197.726 348.667,197.969 351.133,198.207 353.600,198.441 356.067,198.670 358.533,198.894 361.000,199.114 363.467,199.329 365.933,199.541 368.400,199.748 370.867,199.951 373.333,200.150 375.800,200.345 378.267,200.536 380.733,200.723 383.200,200.907 385.667,201.087 388.133,201.264 390.600,201.437 393.067,201.606 395.533,201.772 398.000,201.935 400.467,202.095 402.933,202.252 405.400,202.405 407.867,202.555 410.333,202.703 412.800,202.847 415.267,202.989 417.733,203.128 420.200,203.264 422.667,203.397 425.133,203.528 427.600,203.656 430.067,203.782 432.533,203.905 435.000,204.026\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den exponentiella delen när \\(T=40\\)</p><div class=\"facit-matte\">\\[60e^{-0{,}1t}=40-20=20\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\)</p><div class=\"facit-matte\">\\[T'(t)=60\\cdot(-0{,}1)e^{-0{,}1t}=-0{,}1\\cdot60e^{-0{,}1t}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in värdet 20</p><div class=\"facit-matte\">\\[T'=-0{,}1\\cdot20=-2\\ ^\\circ\\text{C/min}\\]</div><p>Temperaturen sjunker med 2 °C per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 °C/min</p></div>",
+    "ledtrad": "<p>Jämför derivatan med temperaturens skillnad från 20 °C.</p>",
+    "rättSvar": 2,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09,
+    "svarEnhet": "°C/min"
+  },
   {
-  "id": "2.1197",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Talet e i grafer och modeller",
-  "niva": "C",
-  "poang": "0/1/0",
-  "traningsniva": 3,
-  "arbetsinsats": 2,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>Grafen visar \\(f(x)=Ae^{kx}\\) och tangenten vid x = 0. Tangenten går genom de markerade punkterna (0, 3) och (1, 9). Bestäm A och k.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 360\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen till Ae upphöjt till kx och tangenten vid x=0. Tangenten går genom (0,3) och (1,9).\"><title>Grafen till Ae upphöjt till kx och tangenten vid x=0. Tangenten går genom (0,3) och (1,9).</title><rect width=\"500\" height=\"360\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">9</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">12</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,243.233 66.850,243.097 68.700,242.957 70.550,242.815 72.400,242.670 74.250,242.522 76.100,242.370 77.950,242.216 79.800,242.059 81.650,241.899 83.500,241.735 85.350,241.568 87.200,241.398 89.050,241.224 90.900,241.047 92.750,240.866 94.600,240.681 96.450,240.493 98.300,240.301 100.150,240.105 102.000,239.905 103.850,239.701 105.700,239.493 107.550,239.281 109.400,239.064 111.250,238.843 113.100,238.618 114.950,238.388 116.800,238.154 118.650,237.914 120.500,237.670 122.350,237.421 124.200,237.167 126.050,236.908 127.900,236.643 129.750,236.373 131.600,236.098 133.450,235.817 135.300,235.531 137.150,235.238 139.000,234.940 140.850,234.636 142.700,234.326 144.550,234.009 146.400,233.686 148.250,233.356 150.100,233.020 151.950,232.677 153.800,232.327 155.650,231.970 157.500,231.606 159.350,231.234 161.200,230.855 163.050,230.469 164.900,230.074 166.750,229.672 168.600,229.261 170.450,228.842 172.300,228.414 174.150,227.978 176.000,227.534 177.850,227.080 179.700,226.617 181.550,226.144 183.400,225.662 185.250,225.171 187.100,224.669 188.950,224.157 190.800,223.635 192.650,223.103 194.500,222.559 196.350,222.005 198.200,221.440 200.050,220.863 201.900,220.274 203.750,219.673 205.600,219.061 207.450,218.436 209.300,217.798 211.150,217.148 213.000,216.484 214.850,215.807 216.700,215.116 218.550,214.411 220.400,213.693 222.250,212.959 224.100,212.211 225.950,211.447 227.800,210.669 229.650,209.874 231.500,209.063 233.350,208.236 235.200,207.393 237.050,206.532 238.900,205.654 240.750,204.758 242.600,203.844 244.450,202.912 246.300,201.961 248.150,200.990 250.000,200.000 251.850,198.990 253.700,197.959 255.550,196.908 257.400,195.836 259.250,194.741 261.100,193.625 262.950,192.486 264.800,191.324 266.650,190.139 268.500,188.930 270.350,187.696 272.200,186.438 274.050,185.153 275.900,183.844 277.750,182.507 279.600,181.144 281.450,179.753 283.300,178.334 285.150,176.886 287.000,175.409 288.850,173.902 290.700,172.365 292.550,170.796 294.400,169.196 296.250,167.564 298.100,165.899 299.950,164.200 301.800,162.466 303.650,160.698 305.500,158.894 307.350,157.054 309.200,155.176 311.050,153.260 312.900,151.306 314.750,149.312 316.600,147.278 318.450,145.203 320.300,143.086 322.150,140.926 324.000,138.723 325.850,136.475 327.700,134.182 329.550,131.842 331.400,129.455 333.250,127.020 335.100,124.535 336.950,122.001 338.800,119.415 340.650,116.777 342.500,114.086 344.350,111.340 346.200,108.539 348.050,105.681 349.900,102.766 351.750,99.792 353.600,96.757 355.450,93.662 357.300,90.503 359.150,87.281 361.000,83.994 362.850,80.641 364.700,77.219 366.550,73.729 368.400,70.168 370.250,66.535 372.100,62.829 373.950,59.048 375.800,55.190 377.650,51.255\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"157.500,250.000 435.000,100.000\" fill=\"none\" stroke=\"#b35316\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"250.0\" cy=\"200.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"435.0\" cy=\"100.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"250\" y=\"340\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Orange linje: tangent.</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>f(0) = A eftersom e⁰ = 1. Grafen går genom (0, 3), så A = 3.</p></li><li><p>Tangentens lutning är (9−3)/(1−0) = 6. Derivatan vid 0 är Ak.</p><div class=\"facit-matte\">\\[3k=6\\quad\\Rightarrow\\quad k=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: A = 3 och k = 2.</strong></p></div>",
-  "ledtrad": "<p>Använd tangentens punkt och lutning var för sig.</p>",
-  "rättSvar": [
-    3,
-    2
-  ],
-  "svarstyp": "flera_delar",
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "tolerans": [
-    1e-09,
-    1e-09
-  ],
-  "svarsstruktur": "ordnad",
-  "svarEtiketter": [
-    "A",
-    "k"
-  ]
-},
+    "id": "2.1197",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Talet e i grafer och modeller",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Grafen visar \\(f(x)=Ae^{kx}\\) och tangenten vid x = 0. Tangenten går genom de markerade punkterna (0, 3) och (1, 9). Bestäm A och k.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 360\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen till Ae upphöjt till kx och tangenten vid x=0. Tangenten går genom (0,3) och (1,9).\"><title>Grafen till Ae upphöjt till kx och tangenten vid x=0. Tangenten går genom (0,3) och (1,9).</title><rect width=\"500\" height=\"360\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">9</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">12</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,243.233 66.850,243.097 68.700,242.957 70.550,242.815 72.400,242.670 74.250,242.522 76.100,242.370 77.950,242.216 79.800,242.059 81.650,241.899 83.500,241.735 85.350,241.568 87.200,241.398 89.050,241.224 90.900,241.047 92.750,240.866 94.600,240.681 96.450,240.493 98.300,240.301 100.150,240.105 102.000,239.905 103.850,239.701 105.700,239.493 107.550,239.281 109.400,239.064 111.250,238.843 113.100,238.618 114.950,238.388 116.800,238.154 118.650,237.914 120.500,237.670 122.350,237.421 124.200,237.167 126.050,236.908 127.900,236.643 129.750,236.373 131.600,236.098 133.450,235.817 135.300,235.531 137.150,235.238 139.000,234.940 140.850,234.636 142.700,234.326 144.550,234.009 146.400,233.686 148.250,233.356 150.100,233.020 151.950,232.677 153.800,232.327 155.650,231.970 157.500,231.606 159.350,231.234 161.200,230.855 163.050,230.469 164.900,230.074 166.750,229.672 168.600,229.261 170.450,228.842 172.300,228.414 174.150,227.978 176.000,227.534 177.850,227.080 179.700,226.617 181.550,226.144 183.400,225.662 185.250,225.171 187.100,224.669 188.950,224.157 190.800,223.635 192.650,223.103 194.500,222.559 196.350,222.005 198.200,221.440 200.050,220.863 201.900,220.274 203.750,219.673 205.600,219.061 207.450,218.436 209.300,217.798 211.150,217.148 213.000,216.484 214.850,215.807 216.700,215.116 218.550,214.411 220.400,213.693 222.250,212.959 224.100,212.211 225.950,211.447 227.800,210.669 229.650,209.874 231.500,209.063 233.350,208.236 235.200,207.393 237.050,206.532 238.900,205.654 240.750,204.758 242.600,203.844 244.450,202.912 246.300,201.961 248.150,200.990 250.000,200.000 251.850,198.990 253.700,197.959 255.550,196.908 257.400,195.836 259.250,194.741 261.100,193.625 262.950,192.486 264.800,191.324 266.650,190.139 268.500,188.930 270.350,187.696 272.200,186.438 274.050,185.153 275.900,183.844 277.750,182.507 279.600,181.144 281.450,179.753 283.300,178.334 285.150,176.886 287.000,175.409 288.850,173.902 290.700,172.365 292.550,170.796 294.400,169.196 296.250,167.564 298.100,165.899 299.950,164.200 301.800,162.466 303.650,160.698 305.500,158.894 307.350,157.054 309.200,155.176 311.050,153.260 312.900,151.306 314.750,149.312 316.600,147.278 318.450,145.203 320.300,143.086 322.150,140.926 324.000,138.723 325.850,136.475 327.700,134.182 329.550,131.842 331.400,129.455 333.250,127.020 335.100,124.535 336.950,122.001 338.800,119.415 340.650,116.777 342.500,114.086 344.350,111.340 346.200,108.539 348.050,105.681 349.900,102.766 351.750,99.792 353.600,96.757 355.450,93.662 357.300,90.503 359.150,87.281 361.000,83.994 362.850,80.641 364.700,77.219 366.550,73.729 368.400,70.168 370.250,66.535 372.100,62.829 373.950,59.048 375.800,55.190 377.650,51.255\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"157.500,250.000 435.000,100.000\" fill=\"none\" stroke=\"#b35316\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"250.0\" cy=\"200.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"435.0\" cy=\"100.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"250\" y=\"340\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Orange linje: tangent.</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f(0)=A\\) eftersom \\(e^0=1\\)</p><div class=\"facit-matte\">\\[A=3\\]</div></li><li><p class=\"facit-rubrik\">Tangentens lutning</p><div class=\"facit-matte\">\\[f'(0)=\\frac{9-3}{1-0}=6\\]</div></li><li><p class=\"facit-rubrik\">\\(f'(0)=Ak\\)</p><div class=\"facit-matte\">\\[3k=6\\quad\\Rightarrow\\quad k=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A=3\\) och \\(k=2\\)</p></div>",
+    "ledtrad": "<p>Använd tangentens punkt och lutning var för sig.</p>",
+    "rättSvar": [
+      3,
+      2
+    ],
+    "svarstyp": "flera_delar",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "A",
+      "k"
+    ]
+  },
   {
-  "id": "2.1198",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Talet e i grafer och modeller",
-  "niva": "C",
-  "poang": "0/1/0",
-  "traningsniva": 3,
-  "arbetsinsats": 2,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>Funktionerna är \\(f(x)=e^{2x}\\) och \\(g(x)=4e^x\\). Vid vilket x-värde har deras grafer samma lutning? Svara exakt.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Samma lutning betyder att derivatorna är lika.</p><div class=\"facit-matte\">\\[2e^{2x}=4e^x\\]</div></li><li><p>Dividera med 2eˣ, som alltid är positivt.</p><div class=\"facit-matte\">\\[e^x=2\\quad\\Rightarrow\\quad x=\\ln2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=\\ln2\\).</strong></p></div>",
-  "ledtrad": "<p>Det är derivatorna som ska vara lika, inte funktionsvärdena.</p>",
-  "rättSvar": "ln(2)",
-  "svarstyp": "uttryck",
-  "svarFormat": "uttryck",
-  "tolerans": null
-},
+    "id": "2.1198",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Talet e i grafer och modeller",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionerna är \\(f(x)=e^{2x}\\) och \\(g(x)=4e^x\\). Vid vilket x-värde har deras grafer samma lutning? Svara exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma lutning: derivatorna lika</p><div class=\"facit-matte\">\\[2e^{2x}=4e^x\\]</div></li><li><p class=\"facit-rubrik\">Dela med \\(2e^x\\), som aldrig är 0</p><div class=\"facit-matte\">\\[e^x=2\\quad\\Rightarrow\\quad x=\\ln2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\ln2\\)</p></div>",
+    "ledtrad": "<p>Det är derivatorna som ska vara lika, inte funktionsvärdena.</p>",
+    "rättSvar": "ln(2)",
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "tolerans": null
+  },
   {
-  "id": "2.1199",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Talet e i grafer och modeller",
-  "niva": "E",
-  "poang": "1/0/0",
-  "traningsniva": 2,
-  "arbetsinsats": 1,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>En modell är \\(N(t)=500e^{kt}\\), där t mäts i år. Antalet ökar med 10 % på ett år. Bestäm k. (Svara med tre decimaler.)</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Tid (år)</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Antal enligt modellen</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">0</td><td style=\"padding:8px;border:1px solid #8796a5\">500</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">1</td><td style=\"padding:8px;border:1px solid #8796a5\">550</td></tr></tbody></table>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter ett år ska modellen ge 500·1,10 = 550.</p><div class=\"facit-matte\">\\[500e^k=550\\quad\\Rightarrow\\quad e^k=1{,}10\\]</div></li><li><p>Ta naturliga logaritmen.</p><div class=\"facit-matte\">\\[k=\\ln(1{,}10)\\approx0{,}095\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: k ≈ 0,095.</strong></p></div>",
-  "ledtrad": "<p>Vilken förändringsfaktor motsvarar ett års ökning?</p>",
-  "rättSvar": 0.09531017980432493,
-  "svarstyp": "numeriskt",
-  "svarFormat": "numeriskt",
-  "tolerans": 0.0005
-},
+    "id": "2.1199",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Talet e i grafer och modeller",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En modell är \\(N(t)=500e^{kt}\\), där t mäts i år. Antalet ökar med 10 % på ett år. Bestäm k. (Svara med tre decimaler.)</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Tid (år)</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Antal enligt modellen</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">0</td><td style=\"padding:8px;border:1px solid #8796a5\">500</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">1</td><td style=\"padding:8px;border:1px solid #8796a5\">550</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Efter ett år: 10 % mer</p><div class=\"facit-matte\">\\[500e^k=550\\quad\\Rightarrow\\quad e^k=1{,}10\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera</p><div class=\"facit-matte\">\\[k=\\ln1{,}10\\approx0{,}095\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k\\approx0{,}095\\)</p></div>",
+    "ledtrad": "<p>Vilken förändringsfaktor motsvarar ett års ökning?</p>",
+    "rättSvar": 0.09531017980432493,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.0005
+  },
   {
-  "id": "2.1200",
-  "kap": 2,
-  "omr": "talet_e",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "familj": "Talet e i grafer och modeller",
-  "niva": "C",
-  "poang": "0/1/0",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "miniräknare": true,
-  "geogebra": false,
-  "spel": true,
-  "självrättning": true,
-  "t": "<p>Funktionen är \\(f(x)=e^{kx}+ax\\), där k &gt; 0. Det gäller att \\(f'(0)=0\\) och \\(f''(0)=9\\). Bestäm k och a.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera en och två gånger.</p><div class=\"facit-matte\">\\[f'(x)=ke^{kx}+a\\]</div><div class=\"facit-matte\">\\[f''(x)=k^2e^{kx}\\]</div></li><li><p>Vid x = 0 ger den andra derivatan k² = 9. Villkoret k > 0 ger k = 3.</p></li><li><p>Den första derivatan ger k+a = 0, så a = −3.</p></li></ol><p class=\"facit-svar\"><strong>Svar: k = 3 och a = −3.</strong></p></div>",
-  "ledtrad": "<p>Börja med villkoret på andraderivatan.</p>",
-  "rättSvar": [
-    3,
-    -3
-  ],
-  "svarstyp": "flera_delar",
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "tolerans": [
-    1e-09,
-    1e-09
-  ],
-  "svarsstruktur": "ordnad",
-  "svarEtiketter": [
-    "k",
-    "a"
-  ]
-},
+    "id": "2.1200",
+    "kap": 2,
+    "omr": "talet_e",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Talet e i grafer och modeller",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen är \\(f(x)=e^{kx}+ax\\), där k &gt; 0. Det gäller att \\(f'(0)=0\\) och \\(f''(0)=9\\). Bestäm k och a.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera två gånger</p><div class=\"facit-matte\">\\[f'(x)=ke^{kx}+a,\\qquad f''(x)=k^2e^{kx}\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(f''(0)=9\\)</p><div class=\"facit-matte\">\\[k^2=9\\quad\\Rightarrow\\quad k=3\\quad(k\\gt0)\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(f'(0)=0\\)</p><div class=\"facit-matte\">\\[k+a=0\\quad\\Rightarrow\\quad a=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=3\\) och \\(a=-3\\)</p></div>",
+    "ledtrad": "<p>Börja med villkoret på andraderivatan.</p>",
+    "rättSvar": [
+      3,
+      -3
+    ],
+    "svarstyp": "flera_delar",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "k",
+      "a"
+    ]
+  },
   {
   "id": "2.1201",
   "kap": 2,

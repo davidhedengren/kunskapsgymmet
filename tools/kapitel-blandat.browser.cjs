@@ -8,7 +8,7 @@ const out='/tmp/kapitel-blandat-2026-10-22';fs.mkdirSync(out,{recursive:true});
  await page.addInitScript(()=>localStorage.setItem('kunskapsgymmet-beta-info','2'));await page.goto('http://127.0.0.1:8027');await page.waitForFunction(()=>typeof selectCourse==='function');
  await page.evaluate(()=>{session=null;syncOwner=null;arLarare=false;noteNewLevel=()=>{};});
  const reports=[];
- for(const course of process.env.UI_ONLY?[]:['fy1','fy2','ma1','ma2','mato1','mato2','matf1','hist'].filter(c=>!process.env.REVIEW_COURSE||c===process.env.REVIEW_COURSE)){
+ for(const course of process.env.UI_ONLY?[]:['fy1','fy2','ma1','ma2','mato1','mato2','matf1','ai','hist'].filter(c=>!process.env.REVIEW_COURSE||c===process.env.REVIEW_COURSE)){
   const ok=await page.evaluate(c=>selectCourse(c,{render:false}),course);assert.equal(ok,true,course);
   const report=await page.evaluate(()=>{
    const result={course:state.course,tracks:[],issues:[],selected:0};

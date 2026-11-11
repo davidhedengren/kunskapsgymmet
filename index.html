@@ -16,10 +16,10 @@
   if(m) m.content = t==="dark" ? "#090F1B" : "#E7EEF9";
 })();
 </script>
-<title>Kunskapsgymmet – adaptiv träning i matematik, fysik och historia</title>
+<title>Kunskapsgymmet – adaptiv träning i matematik, fysik, AI och historia</title>
 
 
-<meta name="description" content="Träna matematik, fysik och historia med uppgifter som anpassar sig efter hur det går för dig. Kurser i matematik och fysik samt Historia nivå 1.">
+<meta name="description" content="Träna matematik, fysik, AI och historia med uppgifter som anpassar sig efter hur det går för dig. Kurser i matematik och fysik samt Artificiell intelligens nivå 1 och Historia nivå 1.">
 <link rel="canonical" href="https://kunskapsgymmet.se/">
 <meta name="robots" content="index, follow">
 
@@ -27,8 +27,8 @@
 <meta property="og:site_name" content="Kunskapsgymmet">
 <meta property="og:locale" content="sv_SE">
 <meta property="og:url" content="https://kunskapsgymmet.se/">
-<meta property="og:title" content="Kunskapsgymmet – adaptiv träning i matematik, fysik och historia">
-<meta property="og:description" content="Träna matematik, fysik och historia med uppgifter som anpassar sig efter hur det går för dig. Kurser i matematik och fysik samt Historia nivå 1.">
+<meta property="og:title" content="Kunskapsgymmet – adaptiv träning i matematik, fysik, AI och historia">
+<meta property="og:description" content="Träna matematik, fysik, AI och historia med uppgifter som anpassar sig efter hur det går för dig. Kurser i matematik och fysik samt Artificiell intelligens nivå 1 och Historia nivå 1.">
 <meta property="og:image" content="https://kunskapsgymmet.se/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -36,8 +36,8 @@
 <meta property="og:image:alt" content="Kunskapsgymmet – träna på rätt saker, på rätt nivå.">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Kunskapsgymmet – adaptiv träning i matematik, fysik och historia">
-<meta name="twitter:description" content="Träna matematik, fysik och historia med uppgifter som anpassar sig efter hur det går för dig.">
+<meta name="twitter:title" content="Kunskapsgymmet – adaptiv träning i matematik, fysik, AI och historia">
+<meta name="twitter:description" content="Träna matematik, fysik, AI och historia med uppgifter som anpassar sig efter hur det går för dig.">
 <meta name="twitter:image" content="https://kunskapsgymmet.se/og-image.png">
 <meta name="twitter:image:alt" content="Kunskapsgymmet – träna på rätt saker, på rätt nivå.">
 
@@ -50,7 +50,7 @@
   "applicationCategory":"EducationalApplication",
   "operatingSystem":"Webbläsare",
   "inLanguage":"sv-SE",
-  "description":"Adaptiv träning i matematik, fysik och historia för gymnasiet. Uppgifterna anpassas efter elevens resultat.",
+  "description":"Adaptiv träning i matematik, fysik, AI och historia för gymnasiet. Uppgifterna anpassas efter elevens resultat.",
   "author":{"@type":"Person","name":"David Hedengren"},
   "offers":{"@type":"Offer","price":"0","priceCurrency":"SEK"}
 }
@@ -173,6 +173,14 @@ html[data-theme="light"][data-accent="hist"]{
   --glow1:rgba(150,80,42,0.3);--glow2:rgba(186,104,58,0.225);
   --lvl1:#C4997C;--lvl2:#96502A;--lvl3:#6B391D;
 }
+html[data-theme="light"][data-accent="ai"]{
+  --bg:#F3EAF1;
+  --surface:#FFFCFE;--surface2:#F9F3F8;--surface3:#EFE4EC;
+  --glass:rgba(250,244,248,0.78);
+  --acc:#A63D80;--acc2:#88316A;--accInk:#88316A;--accSoft:rgba(166,61,128,0.11);
+  --glow1:rgba(166,61,128,0.3);--glow2:rgba(196,82,154,0.225);
+  --lvl1:#D18FB9;--lvl2:#A63D80;--lvl3:#742A5A;
+}
 html[data-theme="light"][data-accent="fy2"]{
   --bg:#EBECF8;
   --surface:#FDFCFF;--surface2:#F5F6FD;--surface3:#E7E9F6;
@@ -247,6 +255,14 @@ html[data-theme="dark"][data-accent="hist"]{
   --acc:#E8A87C;--acc2:#C87F4E;--accInk:#E8A87C;--accSoft:rgba(232,168,124,0.15);
   --glow1:rgba(232,168,124,0.24);--glow2:rgba(200,127,78,0.195);
   --lvl1:#9A6B4B;--lvl2:#E8A87C;--lvl3:#F3C9AB;
+}
+html[data-theme="dark"][data-accent="ai"]{
+  --bg:#150C13;
+  --surface:#23151F;--surface2:#2B1A26;--surface3:#382331;
+  --glass:rgba(30,17,26,0.74);
+  --acc:#E58AC6;--acc2:#C963A6;--accInk:#E58AC6;--accSoft:rgba(229,138,198,0.15);
+  --glow1:rgba(229,138,198,0.24);--glow2:rgba(201,99,166,0.195);
+  --lvl1:#9A5C84;--lvl2:#E58AC6;--lvl3:#F2BEE0;
 }
 html[data-theme="dark"][data-accent="fy2"]{
   --bg:#0D0E1C;
@@ -758,7 +774,7 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
    Allt hänger på en gemensam vänsterkant: rubrik, ingress, ämnesrubriker
    och kortens innehåll. Korten ligger i ett rutnät med sex spår där varje
    ämne fyller hela bredden, så att grupperna blir rektangulära block
-   (Matematik 3 + 2, Fysik 2, Historia 1).
+   (Matematik 3 + 2, Fysik 2, Artificiell intelligens 1, Historia 1).
    ══════════════════════════════════════════════════════════════ */
 
 /* ── Hero ── */
@@ -3615,7 +3631,7 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
        anpassar sig efter hur det går för dig: nivån justeras efter dina
        svar, och en personlig tränare lägger upp ett pass åt dig varje dag.</p>
     <p>Kurser: Matematik 1, Matematik 2, Matematik fortsättning,
-       Matematik fördjupning, Fysik 1 och Fysik 2.</p>
+       Matematik fördjupning, Fysik 1, Fysik 2 och Artificiell intelligens 1.</p>
     <p>Sidan kräver JavaScript för att fungera. Slå på JavaScript i
        webbläsaren och ladda om.</p>
     <p>Kunskapsgymmet är byggt av David Hedengren, fysik- och
@@ -3674,6 +3690,12 @@ const COURSES = {
     globals:{bank:"BANKMATO2",kap:"KAPNAMNMATO2",kapSpar:"KAPNAMNMATO2SPAR",omr:"OMRMATO2",grupp:"GRUPPMATO2"},
     tracks:["2c"], defaultTrack:"2c", tint:"#4478D2"
   },
+  ai:{
+    name:"Artificiell intelligens nivå 1", code:"AI1", subject:"Artificiell intelligens",
+    files:["strukturai.js","uppgifterai.js"],
+    globals:{bank:"BANKAI",kap:"KAPNAMNAI",kapSpar:"KAPNAMNAISPAR",omr:"OMRAI",grupp:"GRUPPAI"},
+    tracks:[], tint:"#A63D80"
+  },
   hist:{
     name:"Historia nivå 1", code:"Hi1", subject:"Historia",
     files:["strukturhist.js","uppgifterhist.js"],
@@ -3699,7 +3721,10 @@ function courseName(id,track){
   return old?name.replace(/\([^)]*\)$/,`(${old})`):name;
 }
 
-const COURSE_ORDER=["ma1","ma2","mato1","mato2","matf1","fy1","fy2","hist"];
+const COURSE_ORDER=["ma1","ma2","mato1","mato2","matf1","fy1","fy2","ai","hist"];
+/* Kurser som ännu inte finns i lärarvyn (gruppkurs, träningspass, elevöversikt).
+   Databasens gruppkurs-funktioner godtar bara matematik- och fysikkurserna. */
+const UTAN_LARARVY=new Set(["hist","ai"]);
 
 const DELAT_SPAR={ "ma1|1a":"gul" };
 
@@ -4118,7 +4143,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-11-a-uppgifter-fy1-omg2";
+const BANK_VERSION="2026-11-11-ai1";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -5015,14 +5040,15 @@ function checkBadges(fordroj=0){
 }
 
 const ACCENT_BG={
-  ljus:{a:"#F2ECF0",b:"#E6F2F1",c:"#E7EEF9",fy1:"#E4F2F4",fy2:"#EBECF8",hist:"#F3EDE4"},
-  mork:{a:"#120E14",b:"#091216",c:"#090F1B",fy1:"#081217",fy2:"#0D0E1C",hist:"#150F0A"}
+  ljus:{a:"#F2ECF0",b:"#E6F2F1",c:"#E7EEF9",fy1:"#E4F2F4",fy2:"#EBECF8",hist:"#F3EDE4",ai:"#F3EAF1"},
+  mork:{a:"#120E14",b:"#091216",c:"#090F1B",fy1:"#081217",fy2:"#0D0E1C",hist:"#150F0A",ai:"#150C13"}
 };
 function accentKey(){
   if(!state.course) return "c";
   if(state.course==="fy1") return "fy1";
   if(state.course==="fy2") return "fy2";
   if(state.course==="hist") return "hist";
+  if(state.course==="ai") return "ai";
   const m=String(state.track||"").match(/[abc]$/i);
 
   return m ? m[0].toLowerCase() : "c";
@@ -6940,7 +6966,7 @@ function kursLage(id){
 }
 
 /* Kurserna i COURSE_ORDER delas upp per ämne, i den ordning ämnena
-   först förekommer (Matematik, Fysik, Historia). */
+   först förekommer (Matematik, Fysik, Artificiell intelligens, Historia). */
 function kursgrupper(){
   const grupper=[];
   COURSE_ORDER.forEach(id=>{
@@ -12612,6 +12638,7 @@ function sifferlage(facit,enhet,format,t){
 const SYMBOLER={
   matematik:[["−","−"],["x²","@kvadrat"],["xⁿ","@potens"],["a/b","@brak"],["√","@rot"],["(","("],[")",")"],
              ["π","π"],["i","i"],["e","e"],["x","x"],["≈","≈"],["{","{"],["}","}"],["∅","∅"]],
+  ai:       [["−","−"]],
   fysik:    [["−","−"],[",",","],["·10ⁿ","@tiopotens"],["xⁿ","@potens"],["√","@rot"],
              ["π","π"],["a/b","@brak"],["(","("],[")",")"]]
 };
@@ -12627,7 +12654,8 @@ const SYMBOLNAMN={
 };
 
 function symbolrad(t){
-  const amne=COURSES[state.course]?.subject==="Fysik" ? "fysik" : "matematik";
+  const amne=COURSES[state.course]?.subject==="Fysik" ? "fysik"
+    : state.course==="ai" ? "ai" : "matematik";
   const format=JSON.stringify(t?.svarFormat||"").toLowerCase();
   const intervalltecken=amne==="matematik" && /intervall|definitionsmangd_utom/.test(format)
     ? [["≠","≠"],["≤","≤"],["≥","≥"]] : [];
@@ -16834,7 +16862,7 @@ async function provSkapaStart(forval={}){
   const red=forval.redigera||null;
   const kurs = red && COURSES[red.kurs] ? red.kurs
     : forval.kurs && COURSES[forval.kurs] ? forval.kurs
-    : (state.course && COURSES[state.course] && state.course!=="hist" ? state.course : "ma2");
+    : (state.course && COURSES[state.course] && !UTAN_LARARVY.has(state.course) ? state.course : "ma2");
   provSkapa={kurs,spar:red?(red.spar||null):(COURSES[kurs].defaultTrack||null),
              titel:red?red.titel:"",datum:red?(red.datum||""):"",
              grupper:red?(red.grupper||[]).map(g=>Number(g.id)):(forval.grupper||[]).map(Number),grupplista:[],
@@ -16871,7 +16899,7 @@ function provRitaSkapa(){
   const kropp=document.getElementById("provlarare-kropp"); if(!kropp) return;
   const s=provSkapa, kd=s.kd;
   const c=COURSES[s.kurs];
-  const kurser=COURSE_ORDER.filter(id=>COURSES[id] && id!=="hist");
+  const kurser=COURSE_ORDER.filter(id=>COURSES[id] && !UTAN_LARARVY.has(id));
   const per=kd?provRakna(kd,s.spar,s.nivaer):{};
   const totAlla=s.omraden.reduce((a,o)=>a+(per[o]?.alla||0),0);
   kropp.innerHTML=`<div class="provform">
@@ -17256,7 +17284,7 @@ async function larRitaGrupper(){
       </button>`).join("")}</div>`:""}`;
 }
 function larKursAlternativ(val=""){
-  return COURSE_ORDER.filter(id=>COURSES[id]&&id!=="hist").map(id=>`<option value="${esc(id)}"${id===val?" selected":""}>${esc(larKursNamn(id))}</option>`).join("");
+  return COURSE_ORDER.filter(id=>COURSES[id]&&!UTAN_LARARVY.has(id)).map(id=>`<option value="${esc(id)}"${id===val?" selected":""}>${esc(larKursNamn(id))}</option>`).join("");
 }
 function larVisaNyGrupp(){
   const form=document.getElementById("lar-nygrupp-form");if(!form)return;
@@ -17635,7 +17663,7 @@ function larKursOmradenEl(k,kd,elev){
     ${omr.length?`<details class="laralla"><summary>Alla ${omr.length} områden eleven har tränat</summary>
       <div class="provres">${[...omr].sort((a,b)=>a.m-b.m).map(rad).join("")}</div></details>`:""}
     <p class="lartext liten">Procenten är Kunskapsgymmets uppskattning av hur säkert eleven behärskar området, utifrån alla svar.</p>`;
-  if(elev?.id && kd && COURSES[k.kurs] && k.kurs!=="hist"){
+  if(elev?.id && kd && COURSES[k.kurs] && !UTAN_LARARVY.has(k.kurs)){
     // Samma områden som kan väljas i passformuläret. Hoppa över äldre områdes-ID:n
     // och för tunt underlag; välj upp till fem, med lägst behärskning först.
     const ordning=kd.kapitel.flatMap(kap=>kap.omraden);
@@ -17674,7 +17702,7 @@ async function larTaBortElev(){
 /* ── Gruppen per område ── */
 async function larRitaOmraden(){
   const box=document.getElementById("largruppkropp"); if(!box) return;
-  const kurser=COURSE_ORDER.filter(id=>COURSES[id] && id!=="hist");
+  const kurser=COURSE_ORDER.filter(id=>COURSES[id] && !UTAN_LARARVY.has(id));
   if(!kurser.includes(state.larKurs)) state.larKurs=kurser.includes(state.course)?state.course:kurser[0];
   const kurs=state.larKurs;
   box.innerHTML=`<label class="provfalt larkursval"><span>Kurs</span>

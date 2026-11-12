@@ -4,7 +4,8 @@
    Kontrollerar:
    - startsidan: AI ligger som eget ämne ovanför Historia och är öppen;
    - alla självrättande AI-uppgifter syns i kursens kort;
-   - varje delkort: rätt svar godkänns, fel svar underkänns, negativa heltal
+   - varje delkort: rätt svar godkänns, fel svar underkänns, decimalsvar (kapitel 4) godkänns med
+     decimalkomma och underkänns med fel hundradel, negativa heltal
      godkänns med både − och -, varje felaktigt alternativ underkänns, alla rätta
      alternativ krävs vid ”Välj alla”, namnlistor (namnordning/namnmangd) godtar pilar
      och små bokstäver men inte fel ordning eller ett saknat element;
@@ -33,9 +34,9 @@ const bank=JSON.parse(JSON.stringify(c.window.BANKAI)),spel=bank.filter(q=>q.spe
  assert.ok(hem.kort,'kurskortet visas');assert.equal(hem.under,false);assert.ok(hem.larare);
  await page.setViewportSize({width:1280,height:1400});await page.screenshot({path:out+'/startsida.png',fullPage:true});
 
- // Lärarvyn: träningspass kan välja alla tio områden
+ // Lärarvyn: träningspass kan välja alla områden
  const lar=await page.evaluate(async()=>{const kd=await provKursData('ai');const per=provRakna(kd,null,['E','C','A']);return {omr:Object.keys(per).length,alla:Object.values(per).reduce((x,o)=>x+o.alla,0)};});
- assert.deepEqual(lar,{omr:9,alla:spel.length});
+ assert.deepEqual(lar,{omr:Object.values(c.window.OMRAI).reduce((x,o)=>x+Object.keys(o).length,0),alla:spel.length});
  // Kursen och korten
  assert.equal(await page.evaluate(()=>selectCourse('ai')),true);
  const kurs=await page.evaluate(()=>{const cards=getCards();const ids=[...new Set(availableTasks().filter(q=>cards.some(c=>c.kap===q.kap&&c.omr.includes(q.omr))).map(q=>q.ursprungsId||q.id))].sort();
@@ -48,7 +49,7 @@ const bank=JSON.parse(JSON.stringify(c.window.BANKAI)),spel=bank.filter(q=>q.spe
    window.prepareReview=id=>{state.currentTask=reviewBank.find(q=>q.id===id);state.answered=false;state.solutionShown=false;state.hintVisible=false;state.partIndex=0;state.partResults=[];state.aktivRuta=0;state.altValda=new Set();state.altOrdningId=null;window.result=null;renderTraining();hjalpSynk();};},delar);
  const svara=values=>page.evaluate(values=>{const f=[...document.querySelectorAll('input[id^="ans-"],textarea[id^="ans-"]')];if(f.length!==values.length)return {falt:f.length};values.forEach((v,i)=>f[i].value=v);for(let k=0;k<values.length&&!window.result;k++)checkAnswer();return window.result;},values);
  const valj=(id,txt)=>page.evaluate(({id,txt})=>{prepareReview(id);const i=altLista(state.currentTask).findIndex(x=>x.txt===txt);vaxlaAlt(i);kollaAlt();return window.result;},{id,txt});
- let numeriska=0,alternativ=0,negativa=0,listor=0,flerfalt=0;
+ let numeriska=0,alternativ=0,negativa=0,listor=0,flerfalt=0,decimal=0;
  const valjMask=(id,txts)=>page.evaluate(({id,txts})=>{prepareReview(id);for(const txt of txts){const i=altLista(state.currentTask).findIndex(x=>x.txt===txt);vaxlaAlt(i);}kollaAlt();return window.result;},{id,txts});
  const prova=async(q,values,ok,key,vad)=>{await page.evaluate(id=>prepareReview(id),q.id);const r=await svara(values);checks++;if(!Array.isArray(r)||r.every(Boolean)!==ok)failures.push({key,vad,values,ok,r});};
  const forsta=v=>String(v).split('|')[0];
@@ -71,6 +72,7 @@ const bank=JSON.parse(JSON.stringify(c.window.BANKAI)),spel=bank.filter(q=>q.spe
      fel[sist]=typeof facit[sist]==='number'?String(facit[sist]+1):forsta(facit[sist]).split(', ').concat(['Z9']).join(', ');
      await prova(q,fel,false,key,'fel');
      for(let j=0;j<facit.length;j++){
+      if(typeof facit[j]==='number'&&!Number.isInteger(facit[j])){decimal++;const v=[...rattSvar];v[j]=String(facit[j]).replace('.',',');await prova(q,v,true,key,'decimalkomma');v[j]=String(facit[j]+0.01).replace('.',',');await prova(q,v,false,key,'fel hundradel');}
       if(typeof facit[j]==='number'){numeriska++;if(facit[j]<0){negativa++;const v=[...rattSvar];v[j]='−'+Math.abs(facit[j]);await prova(q,v,true,key,'unicode-minus');v[j]=String(Math.abs(facit[j]));await prova(q,v,false,key,'utan minus');}continue;}
       listor++;
       const el=forsta(facit[j]).split(', ');
@@ -83,12 +85,12 @@ const bank=JSON.parse(JSON.stringify(c.window.BANKAI)),spel=bank.filter(q=>q.spe
    await page.evaluate(id=>{prepareReview(id);visaLedtrad();showSolution();},q.id);
    const st=await page.evaluate(()=>({latex:document.querySelectorAll('.katex-error').length,wide:document.documentElement.scrollWidth>innerWidth+1}));
    if(st.latex||st.wide)failures.push({key,...st});
-   if(['1.01a','2.17a','3.05c','2.32a','3.07c','1.65b','1.68c','1.72a','3.79a','2.121b','2.122a','1.107a','2.117e','3.80b'].includes(q.id)){await page.evaluate(()=>window.scrollTo(0,0));await page.locator('.task').screenshot({path:`${out}/${q.id}-${width}.png`});}
+   if(['1.01a','2.17a','3.05c','2.32a','3.07c','1.65b','1.68c','1.72a','3.79a','2.121b','2.122a','1.107a','2.117e','3.80b','4.22d','4.37a','4.40c','4.45a','4.51d','4.60b','4.63c','4.70b','4.80a','4.84c','4.89d','4.94b'].includes(q.id)){await page.evaluate(()=>window.scrollTo(0,0));await page.locator('.task').screenshot({path:`${out}/${q.id}-${width}.png`});}
   }}
  // Symbolraden: bara minustecken för AI
  const sym=await page.evaluate(()=>{const q=reviewBank.find(x=>!(Array.isArray(x.alternativ)&&x.alternativ.length)&&!Array.isArray(x.rättSvar));prepareReview(q.id);return [...document.querySelectorAll('.symtgt')].map(b=>b.textContent.trim());});
  assert.deepEqual(sym,['−']);
- const res={delkort:delar.length,numeriska,alternativ,negativa,listor,flerfalt,checks,failures,errors};
+ const res={delkort:delar.length,decimal,numeriska,alternativ,negativa,listor,flerfalt,checks,failures,errors};
  fs.writeFileSync(out+'/browser.json',JSON.stringify(res,null,2));console.log({...res,failures:failures.slice(0,20)});
  assert.deepEqual(errors,[]);assert.deepEqual(failures,[]);
 }finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

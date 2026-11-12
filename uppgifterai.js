@@ -41504,5 +41504,12812 @@ window.BANKAI = [
       "d",
       "e"
     ]
+  },
+  {
+    "id": "4.01",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Typer av inlärning",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Övervakad inlärning (klassificering)",
+      "Övervakad inlärning (regression)",
+      "Modellen hittar själv mönster i data i stället för att få alla regler av en programmerare"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p><p>a) Ett e-postprogram tränas på 50 000 mejl som användare har märkt som ”spam” eller ”inte spam”. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>b) En mäklarfirma tränar en modell på 3 000 sålda bostäder med yta, läge och slutpris för att kunna förutsäga priset på nya bostäder. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>c) Vad är det som gör maskininlärning annorlunda än vanlig programmering? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Modellen hittar själv mönster i data i stället för att få alla regler av en programmerare</p><p class=\"ul-alt\"><strong>B.</strong> Datorn tänker och förstår som en människa</p><p class=\"ul-alt\"><strong>C.</strong> Maskininlärning kräver ingen data</p><p class=\"ul-alt\"><strong>D.</strong> Maskininlärning gör aldrig fel</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är en kategori</p><p>Varje mejl har en etikett med rätt kategori.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (klassificering).</p><ul><li><strong>A:</strong> Varje mejl har en etikett med rätt kategori.</li><li><strong>B:</strong> Svaret är en kategori, inte ett tal, så det är klassificering.</li><li><strong>C:</strong> Exemplen har kända svar (etiketter), så inlärningen är övervakad.</li><li><strong>D:</strong> Ingen agent provar handlingar för att få belöning. Modellen lär sig av märkta exempel.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är ett tal</p><p>Priset är ett tal, och de sålda bostäderna har kända priser.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (regression).</p><ul><li><strong>A:</strong> Svaret som ska förutsägas är ett tal, inte en kategori.</li><li><strong>B:</strong> Priset är ett tal, och de sålda bostäderna har kända priser.</li><li><strong>C:</strong> Exemplen har kända tal som svar, så inlärningen är övervakad.</li><li><strong>D:</strong> Ingen agent får belöning. Modellen lär sig av exempel med kända tal.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modellen lär sig ur data</p><p>I vanlig programmering skriver människan reglerna. I maskininlärning hittar algoritmen mönstren i exempeldata.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellen hittar själv mönster i data i stället för att få alla regler av en programmerare.</p><ul><li><strong>A:</strong> Reglerna lärs in ur exemplen.</li><li><strong>B:</strong> Modellen hittar statistiska mönster, den förstår inte som en människa.</li><li><strong>C:</strong> Det är tvärtom, maskininlärning bygger på data.</li><li><strong>D:</strong> Modeller gör fel, därför mäter man till exempel träffsäkerhet.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Fråga dig om det finns kända svar och vilken sorts svar som ska förutsägas.</p>",
+    "spelIntro": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Ett e-postprogram tränas på 50 000 mejl som användare har märkt som ”spam” eller ”inte spam”. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är en kategori</p><p>Varje mejl har en etikett med rätt kategori.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (klassificering).</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Varje mejl har en etikett med rätt kategori.</li><li><strong>Övervakad inlärning (regression):</strong> Svaret är en kategori, inte ett tal, så det är klassificering.</li><li><strong>Oövervakad inlärning:</strong> Exemplen har kända svar (etiketter), så inlärningen är övervakad.</li><li><strong>Förstärkningsinlärning:</strong> Ingen agent provar handlingar för att få belöning. Modellen lär sig av märkta exempel.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": true,
+            "kommentar": "Varje mejl har en etikett med rätt kategori."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": false,
+            "kommentar": "Svaret är en kategori, inte ett tal, så det är klassificering."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": false,
+            "kommentar": "Exemplen har kända svar (etiketter), så inlärningen är övervakad."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": false,
+            "kommentar": "Ingen agent provar handlingar för att få belöning. Modellen lär sig av märkta exempel."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Övervakad inlärning (klassificering)",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>En mäklarfirma tränar en modell på 3 000 sålda bostäder med yta, läge och slutpris för att kunna förutsäga priset på nya bostäder. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är ett tal</p><p>Priset är ett tal, och de sålda bostäderna har kända priser.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (regression).</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Svaret som ska förutsägas är ett tal, inte en kategori.</li><li><strong>Övervakad inlärning (regression):</strong> Priset är ett tal, och de sålda bostäderna har kända priser.</li><li><strong>Oövervakad inlärning:</strong> Exemplen har kända tal som svar, så inlärningen är övervakad.</li><li><strong>Förstärkningsinlärning:</strong> Ingen agent får belöning. Modellen lär sig av exempel med kända tal.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": false,
+            "kommentar": "Svaret som ska förutsägas är ett tal, inte en kategori."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": true,
+            "kommentar": "Priset är ett tal, och de sålda bostäderna har kända priser."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": false,
+            "kommentar": "Exemplen har kända tal som svar, så inlärningen är övervakad."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": false,
+            "kommentar": "Ingen agent får belöning. Modellen lär sig av exempel med kända tal."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Övervakad inlärning (regression)",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad är det som gör maskininlärning annorlunda än vanlig programmering? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modellen lär sig ur data</p><p>I vanlig programmering skriver människan reglerna. I maskininlärning hittar algoritmen mönstren i exempeldata.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellen hittar själv mönster i data i stället för att få alla regler av en programmerare.</p><ul><li><strong>Modellen hittar själv mönster i data i stället för att få alla regler av en programmerare:</strong> Reglerna lärs in ur exemplen.</li><li><strong>Datorn tänker och förstår som en människa:</strong> Modellen hittar statistiska mönster, den förstår inte som en människa.</li><li><strong>Maskininlärning kräver ingen data:</strong> Det är tvärtom, maskininlärning bygger på data.</li><li><strong>Maskininlärning gör aldrig fel:</strong> Modeller gör fel, därför mäter man till exempel träffsäkerhet.</li></ul></div>",
+        "ledtrad": "<p>Vem bestämmer reglerna i de två fallen?</p>",
+        "alternativ": [
+          {
+            "txt": "Modellen hittar själv mönster i data i stället för att få alla regler av en programmerare",
+            "ratt": true,
+            "kommentar": "Reglerna lärs in ur exemplen."
+          },
+          {
+            "txt": "Datorn tänker och förstår som en människa",
+            "ratt": false,
+            "kommentar": "Modellen hittar statistiska mönster, den förstår inte som en människa."
+          },
+          {
+            "txt": "Maskininlärning kräver ingen data",
+            "ratt": false,
+            "kommentar": "Det är tvärtom, maskininlärning bygger på data."
+          },
+          {
+            "txt": "Maskininlärning gör aldrig fel",
+            "ratt": false,
+            "kommentar": "Modeller gör fel, därför mäter man till exempel träffsäkerhet."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Modellen hittar själv mönster i data i stället för att få alla regler av en programmerare",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.02",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Typer av inlärning",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Förstärkningsinlärning",
+      "Oövervakad inlärning",
+      "Exemplen som modellen lär sig av"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p><p>a) En robotdammsugare får pluspoäng när den suger upp damm och minuspoäng när den krockar. Efter många körningar har den lärt sig städa effektivt. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>b) En nyhetssajt låter en algoritm dela in 10 000 artiklar i grupper med liknande innehåll, utan att någon har bestämt vilka ämnen som finns. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>c) Vad är träningsdata? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Exemplen som modellen lär sig av</p><p class=\"ul-alt\"><strong>B.</strong> Den data som modellen ska användas på i framtiden</p><p class=\"ul-alt\"><strong>C.</strong> Programkoden för modellen</p><p class=\"ul-alt\"><strong>D.</strong> Svaren som modellen skriver ut</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En agent provar handlingar och får belöning</p><p>Roboten provar handlingar och lär sig av poängen den får.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Förstärkningsinlärning.</p><ul><li><strong>A:</strong> Ingen har märkt exempel med rätt svar. Agenten lär sig av belöningar.</li><li><strong>B:</strong> Agenten lär sig av belöningar för sina handlingar, inte av kända tal.</li><li><strong>C:</strong> Agenten handlar i en miljö och får belöning. Det är inte gruppering av data.</li><li><strong>D:</strong> Roboten provar handlingar och lär sig av poängen den får.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inga givna svar, algoritmen hittar grupper själv</p><p>Ingen artikel har en given etikett. Grupperna hittas i datan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Oövervakad inlärning.</p><ul><li><strong>A:</strong> Det finns inga givna kategorier att lära sig av.</li><li><strong>B:</strong> Det finns inga kända svar att lära sig av, varken tal eller kategorier.</li><li><strong>C:</strong> Ingen artikel har en given etikett. Grupperna hittas i datan.</li><li><strong>D:</strong> Det finns ingen belöning, bara data som ska delas in i grupper.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exemplen som modellen lär sig av</p><p>Träningsdata är de exempel som modellen får se när den tränas, till exempel tusentals bilder med rätt svar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Exemplen som modellen lär sig av.</p><ul><li><strong>A:</strong> Ju fler och mer varierade exempel, desto bättre brukar modellen bli.</li><li><strong>B:</strong> Det är nya fall som modellen inte har sett.</li><li><strong>C:</strong> Koden är instruktioner, inte exempel att lära sig av.</li><li><strong>D:</strong> Det är modellens svar, inte det den lär sig av.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Fråga dig om det finns kända svar och vilken sorts svar som ska förutsägas.</p>",
+    "spelIntro": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>En robotdammsugare får pluspoäng när den suger upp damm och minuspoäng när den krockar. Efter många körningar har den lärt sig städa effektivt. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En agent provar handlingar och får belöning</p><p>Roboten provar handlingar och lär sig av poängen den får.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Förstärkningsinlärning.</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Ingen har märkt exempel med rätt svar. Agenten lär sig av belöningar.</li><li><strong>Övervakad inlärning (regression):</strong> Agenten lär sig av belöningar för sina handlingar, inte av kända tal.</li><li><strong>Oövervakad inlärning:</strong> Agenten handlar i en miljö och får belöning. Det är inte gruppering av data.</li><li><strong>Förstärkningsinlärning:</strong> Roboten provar handlingar och lär sig av poängen den får.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": false,
+            "kommentar": "Ingen har märkt exempel med rätt svar. Agenten lär sig av belöningar."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": false,
+            "kommentar": "Agenten lär sig av belöningar för sina handlingar, inte av kända tal."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": false,
+            "kommentar": "Agenten handlar i en miljö och får belöning. Det är inte gruppering av data."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": true,
+            "kommentar": "Roboten provar handlingar och lär sig av poängen den får."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Förstärkningsinlärning",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>En nyhetssajt låter en algoritm dela in 10 000 artiklar i grupper med liknande innehåll, utan att någon har bestämt vilka ämnen som finns. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inga givna svar, algoritmen hittar grupper själv</p><p>Ingen artikel har en given etikett. Grupperna hittas i datan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Oövervakad inlärning.</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Det finns inga givna kategorier att lära sig av.</li><li><strong>Övervakad inlärning (regression):</strong> Det finns inga kända svar att lära sig av, varken tal eller kategorier.</li><li><strong>Oövervakad inlärning:</strong> Ingen artikel har en given etikett. Grupperna hittas i datan.</li><li><strong>Förstärkningsinlärning:</strong> Det finns ingen belöning, bara data som ska delas in i grupper.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": false,
+            "kommentar": "Det finns inga givna kategorier att lära sig av."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": false,
+            "kommentar": "Det finns inga kända svar att lära sig av, varken tal eller kategorier."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": true,
+            "kommentar": "Ingen artikel har en given etikett. Grupperna hittas i datan."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": false,
+            "kommentar": "Det finns ingen belöning, bara data som ska delas in i grupper."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Oövervakad inlärning",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad är träningsdata? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exemplen som modellen lär sig av</p><p>Träningsdata är de exempel som modellen får se när den tränas, till exempel tusentals bilder med rätt svar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Exemplen som modellen lär sig av.</p><ul><li><strong>Exemplen som modellen lär sig av:</strong> Ju fler och mer varierade exempel, desto bättre brukar modellen bli.</li><li><strong>Den data som modellen ska användas på i framtiden:</strong> Det är nya fall som modellen inte har sett.</li><li><strong>Programkoden för modellen:</strong> Koden är instruktioner, inte exempel att lära sig av.</li><li><strong>Svaren som modellen skriver ut:</strong> Det är modellens svar, inte det den lär sig av.</li></ul></div>",
+        "ledtrad": "<p>Vad behöver modellen för att kunna lära sig?</p>",
+        "alternativ": [
+          {
+            "txt": "Exemplen som modellen lär sig av",
+            "ratt": true,
+            "kommentar": "Ju fler och mer varierade exempel, desto bättre brukar modellen bli."
+          },
+          {
+            "txt": "Den data som modellen ska användas på i framtiden",
+            "ratt": false,
+            "kommentar": "Det är nya fall som modellen inte har sett."
+          },
+          {
+            "txt": "Programkoden för modellen",
+            "ratt": false,
+            "kommentar": "Koden är instruktioner, inte exempel att lära sig av."
+          },
+          {
+            "txt": "Svaren som modellen skriver ut",
+            "ratt": false,
+            "kommentar": "Det är modellens svar, inte det den lär sig av."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Exemplen som modellen lär sig av",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.03",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Typer av inlärning",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Övervakad inlärning (klassificering)",
+      "Förstärkningsinlärning",
+      "Klassificering förutsäger en kategori, regression ett tal"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p><p>a) Ett sjukhus tränar en AI på röntgenbilder där läkare har markerat om det finns en tumör eller inte. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>b) En AI lär sig spela ett datorspel genom att spela tusentals gånger. Den får poäng när den vinner och förlorar poäng när den förlorar. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>c) Vad är skillnaden mellan klassificering och regression? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Klassificering förutsäger en kategori, regression ett tal</p><p class=\"ul-alt\"><strong>B.</strong> Klassificering är oövervakad, regression övervakad</p><p class=\"ul-alt\"><strong>C.</strong> Regression används bara för bilder</p><p class=\"ul-alt\"><strong>D.</strong> Det är två namn på samma sak</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är en kategori</p><p>Bilderna är märkta av läkare med kategorin tumör eller inte tumör.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (klassificering).</p><ul><li><strong>A:</strong> Bilderna är märkta av läkare med kategorin tumör eller inte tumör.</li><li><strong>B:</strong> Svaret är en kategori, inte ett tal, så det är klassificering.</li><li><strong>C:</strong> Exemplen har kända svar (etiketter), så inlärningen är övervakad.</li><li><strong>D:</strong> Ingen agent provar handlingar för att få belöning. Modellen lär sig av märkta exempel.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En agent provar handlingar och får belöning</p><p>AI:n lär sig av belöningen, vinst eller förlust, efter sina drag.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Förstärkningsinlärning.</p><ul><li><strong>A:</strong> Ingen har märkt exempel med rätt svar. Agenten lär sig av belöningar.</li><li><strong>B:</strong> Agenten lär sig av belöningar för sina handlingar, inte av kända tal.</li><li><strong>C:</strong> Agenten handlar i en miljö och får belöning. Det är inte gruppering av data.</li><li><strong>D:</strong> AI:n lär sig av belöningen, vinst eller förlust, efter sina drag.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kategori eller tal</p><p>Klassificering ger en kategori, till exempel spam. Regression ger ett tal, till exempel ett pris.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Klassificering förutsäger en kategori, regression ett tal.</p><ul><li><strong>A:</strong> Till exempel ”spam” jämfört med ”3,2 miljoner kr”.</li><li><strong>B:</strong> Båda är normalt övervakad inlärning.</li><li><strong>C:</strong> Regression används för att förutsäga tal, till exempel temperatur.</li><li><strong>D:</strong> De förutsäger olika slags svar.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Fråga dig om det finns kända svar och vilken sorts svar som ska förutsägas.</p>",
+    "spelIntro": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Ett sjukhus tränar en AI på röntgenbilder där läkare har markerat om det finns en tumör eller inte. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är en kategori</p><p>Bilderna är märkta av läkare med kategorin tumör eller inte tumör.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (klassificering).</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Bilderna är märkta av läkare med kategorin tumör eller inte tumör.</li><li><strong>Övervakad inlärning (regression):</strong> Svaret är en kategori, inte ett tal, så det är klassificering.</li><li><strong>Oövervakad inlärning:</strong> Exemplen har kända svar (etiketter), så inlärningen är övervakad.</li><li><strong>Förstärkningsinlärning:</strong> Ingen agent provar handlingar för att få belöning. Modellen lär sig av märkta exempel.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": true,
+            "kommentar": "Bilderna är märkta av läkare med kategorin tumör eller inte tumör."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": false,
+            "kommentar": "Svaret är en kategori, inte ett tal, så det är klassificering."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": false,
+            "kommentar": "Exemplen har kända svar (etiketter), så inlärningen är övervakad."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": false,
+            "kommentar": "Ingen agent provar handlingar för att få belöning. Modellen lär sig av märkta exempel."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Övervakad inlärning (klassificering)",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>En AI lär sig spela ett datorspel genom att spela tusentals gånger. Den får poäng när den vinner och förlorar poäng när den förlorar. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En agent provar handlingar och får belöning</p><p>AI:n lär sig av belöningen, vinst eller förlust, efter sina drag.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Förstärkningsinlärning.</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Ingen har märkt exempel med rätt svar. Agenten lär sig av belöningar.</li><li><strong>Övervakad inlärning (regression):</strong> Agenten lär sig av belöningar för sina handlingar, inte av kända tal.</li><li><strong>Oövervakad inlärning:</strong> Agenten handlar i en miljö och får belöning. Det är inte gruppering av data.</li><li><strong>Förstärkningsinlärning:</strong> AI:n lär sig av belöningen, vinst eller förlust, efter sina drag.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": false,
+            "kommentar": "Ingen har märkt exempel med rätt svar. Agenten lär sig av belöningar."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": false,
+            "kommentar": "Agenten lär sig av belöningar för sina handlingar, inte av kända tal."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": false,
+            "kommentar": "Agenten handlar i en miljö och får belöning. Det är inte gruppering av data."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": true,
+            "kommentar": "AI:n lär sig av belöningen, vinst eller förlust, efter sina drag."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Förstärkningsinlärning",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad är skillnaden mellan klassificering och regression? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kategori eller tal</p><p>Klassificering ger en kategori, till exempel spam. Regression ger ett tal, till exempel ett pris.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Klassificering förutsäger en kategori, regression ett tal.</p><ul><li><strong>Klassificering förutsäger en kategori, regression ett tal:</strong> Till exempel ”spam” jämfört med ”3,2 miljoner kr”.</li><li><strong>Klassificering är oövervakad, regression övervakad:</strong> Båda är normalt övervakad inlärning.</li><li><strong>Regression används bara för bilder:</strong> Regression används för att förutsäga tal, till exempel temperatur.</li><li><strong>Det är två namn på samma sak:</strong> De förutsäger olika slags svar.</li></ul></div>",
+        "ledtrad": "<p>Vilken sorts svar ger modellen?</p>",
+        "alternativ": [
+          {
+            "txt": "Klassificering förutsäger en kategori, regression ett tal",
+            "ratt": true,
+            "kommentar": "Till exempel ”spam” jämfört med ”3,2 miljoner kr”."
+          },
+          {
+            "txt": "Klassificering är oövervakad, regression övervakad",
+            "ratt": false,
+            "kommentar": "Båda är normalt övervakad inlärning."
+          },
+          {
+            "txt": "Regression används bara för bilder",
+            "ratt": false,
+            "kommentar": "Regression används för att förutsäga tal, till exempel temperatur."
+          },
+          {
+            "txt": "Det är två namn på samma sak",
+            "ratt": false,
+            "kommentar": "De förutsäger olika slags svar."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Klassificering förutsäger en kategori, regression ett tal",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.04",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Typer av inlärning",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Övervakad inlärning (regression)",
+      "Oövervakad inlärning",
+      "Det rätta svaret som hör till varje exempel"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p><p>a) En väderapp tränas på tio års mätningar för att förutsäga hur många millimeter regn som faller i morgon. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>b) En bank letar efter ovanliga kortköp genom att se vilka köp som skiljer sig mycket från alla andra, utan att ha exempel på bedrägerier. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>c) Vad är en etikett i träningsdatan för övervakad inlärning? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Det rätta svaret som hör till varje exempel</p><p class=\"ul-alt\"><strong>B.</strong> Filnamnet på bilden</p><p class=\"ul-alt\"><strong>C.</strong> En egenskap hos bilden, till exempel hur stor den är</p><p class=\"ul-alt\"><strong>D.</strong> Modellens gissning</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är ett tal</p><p>Regnmängden är ett tal, och de gamla mätningarna har kända värden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (regression).</p><ul><li><strong>A:</strong> Svaret som ska förutsägas är ett tal, inte en kategori.</li><li><strong>B:</strong> Regnmängden är ett tal, och de gamla mätningarna har kända värden.</li><li><strong>C:</strong> Exemplen har kända tal som svar, så inlärningen är övervakad.</li><li><strong>D:</strong> Ingen agent får belöning. Modellen lär sig av exempel med kända tal.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inga givna svar, algoritmen hittar grupper själv</p><p>Det finns inga märkta exempel. Algoritmen hittar avvikande köp själv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Oövervakad inlärning.</p><ul><li><strong>A:</strong> Det finns inga givna kategorier att lära sig av.</li><li><strong>B:</strong> Det finns inga kända svar att lära sig av, varken tal eller kategorier.</li><li><strong>C:</strong> Det finns inga märkta exempel. Algoritmen hittar avvikande köp själv.</li><li><strong>D:</strong> Det finns ingen belöning, bara data som ska delas in i grupper.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det rätta svaret</p><p>Etiketten är det rätta svaret för ett exempel, till exempel ”katt” på en bild av en katt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det rätta svaret som hör till varje exempel.</p><ul><li><strong>A:</strong> Modellen jämför sina gissningar med etiketterna.</li><li><strong>B:</strong> Filnamnet säger inget om vad bilden föreställer.</li><li><strong>C:</strong> Egenskaper beskriver exemplet. Etiketten är det rätta svaret.</li><li><strong>D:</strong> Gissningen kommer från modellen. Etiketten är det rätta svaret.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Fråga dig om det finns kända svar och vilken sorts svar som ska förutsägas.</p>",
+    "spelIntro": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>En väderapp tränas på tio års mätningar för att förutsäga hur många millimeter regn som faller i morgon. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är ett tal</p><p>Regnmängden är ett tal, och de gamla mätningarna har kända värden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (regression).</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Svaret som ska förutsägas är ett tal, inte en kategori.</li><li><strong>Övervakad inlärning (regression):</strong> Regnmängden är ett tal, och de gamla mätningarna har kända värden.</li><li><strong>Oövervakad inlärning:</strong> Exemplen har kända tal som svar, så inlärningen är övervakad.</li><li><strong>Förstärkningsinlärning:</strong> Ingen agent får belöning. Modellen lär sig av exempel med kända tal.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": false,
+            "kommentar": "Svaret som ska förutsägas är ett tal, inte en kategori."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": true,
+            "kommentar": "Regnmängden är ett tal, och de gamla mätningarna har kända värden."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": false,
+            "kommentar": "Exemplen har kända tal som svar, så inlärningen är övervakad."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": false,
+            "kommentar": "Ingen agent får belöning. Modellen lär sig av exempel med kända tal."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Övervakad inlärning (regression)",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>En bank letar efter ovanliga kortköp genom att se vilka köp som skiljer sig mycket från alla andra, utan att ha exempel på bedrägerier. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inga givna svar, algoritmen hittar grupper själv</p><p>Det finns inga märkta exempel. Algoritmen hittar avvikande köp själv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Oövervakad inlärning.</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Det finns inga givna kategorier att lära sig av.</li><li><strong>Övervakad inlärning (regression):</strong> Det finns inga kända svar att lära sig av, varken tal eller kategorier.</li><li><strong>Oövervakad inlärning:</strong> Det finns inga märkta exempel. Algoritmen hittar avvikande köp själv.</li><li><strong>Förstärkningsinlärning:</strong> Det finns ingen belöning, bara data som ska delas in i grupper.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": false,
+            "kommentar": "Det finns inga givna kategorier att lära sig av."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": false,
+            "kommentar": "Det finns inga kända svar att lära sig av, varken tal eller kategorier."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": true,
+            "kommentar": "Det finns inga märkta exempel. Algoritmen hittar avvikande köp själv."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": false,
+            "kommentar": "Det finns ingen belöning, bara data som ska delas in i grupper."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Oövervakad inlärning",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad är en etikett i träningsdatan för övervakad inlärning? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det rätta svaret</p><p>Etiketten är det rätta svaret för ett exempel, till exempel ”katt” på en bild av en katt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det rätta svaret som hör till varje exempel.</p><ul><li><strong>Det rätta svaret som hör till varje exempel:</strong> Modellen jämför sina gissningar med etiketterna.</li><li><strong>Filnamnet på bilden:</strong> Filnamnet säger inget om vad bilden föreställer.</li><li><strong>En egenskap hos bilden, till exempel hur stor den är:</strong> Egenskaper beskriver exemplet. Etiketten är det rätta svaret.</li><li><strong>Modellens gissning:</strong> Gissningen kommer från modellen. Etiketten är det rätta svaret.</li></ul></div>",
+        "ledtrad": "<p>Vad jämför modellen sina gissningar med?</p>",
+        "alternativ": [
+          {
+            "txt": "Det rätta svaret som hör till varje exempel",
+            "ratt": true,
+            "kommentar": "Modellen jämför sina gissningar med etiketterna."
+          },
+          {
+            "txt": "Filnamnet på bilden",
+            "ratt": false,
+            "kommentar": "Filnamnet säger inget om vad bilden föreställer."
+          },
+          {
+            "txt": "En egenskap hos bilden, till exempel hur stor den är",
+            "ratt": false,
+            "kommentar": "Egenskaper beskriver exemplet. Etiketten är det rätta svaret."
+          },
+          {
+            "txt": "Modellens gissning",
+            "ratt": false,
+            "kommentar": "Gissningen kommer från modellen. Etiketten är det rätta svaret."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Det rätta svaret som hör till varje exempel",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.05",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Typer av inlärning",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Övervakad inlärning (klassificering)",
+      "Förstärkningsinlärning",
+      "En miniräknare som räknar ut 12 · 34"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p><p>a) En app känner igen vilken växtart en blomma tillhör. Den är tränad på 200 000 foton som botaniker har artbestämt. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>b) Ett trafikljus styrs av en AI som får belöning när köerna blir korta och straff när bilar får vänta länge. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>c) Vilket av exemplen är inte maskininlärning? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> En miniräknare som räknar ut 12 · 34</p><p class=\"ul-alt\"><strong>B.</strong> Ett spamfilter som blir bättre när användare markerar skräppost</p><p class=\"ul-alt\"><strong>C.</strong> En app som känner igen ansikten efter träning på foton</p><p class=\"ul-alt\"><strong>D.</strong> En tjänst som föreslår filmer utifrån vad liknande användare har sett</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är en kategori</p><p>Fotona har etiketter, och svaret är en art, alltså en kategori.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (klassificering).</p><ul><li><strong>A:</strong> Fotona har etiketter, och svaret är en art, alltså en kategori.</li><li><strong>B:</strong> Svaret är en kategori, inte ett tal, så det är klassificering.</li><li><strong>C:</strong> Exemplen har kända svar (etiketter), så inlärningen är övervakad.</li><li><strong>D:</strong> Ingen agent provar handlingar för att få belöning. Modellen lär sig av märkta exempel.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En agent provar handlingar och får belöning</p><p>Trafikljuset provar olika sätt att växla och lär sig av belöningen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Förstärkningsinlärning.</p><ul><li><strong>A:</strong> Ingen har märkt exempel med rätt svar. Agenten lär sig av belöningar.</li><li><strong>B:</strong> Agenten lär sig av belöningar för sina handlingar, inte av kända tal.</li><li><strong>C:</strong> Agenten handlar i en miljö och får belöning. Det är inte gruppering av data.</li><li><strong>D:</strong> Trafikljuset provar olika sätt att växla och lär sig av belöningen.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fasta regler som någon har skrivit</p><p>En miniräknare följer regler som programmeraren har skrivit. Den lär sig ingenting av data.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En miniräknare som räknar ut 12 · 34.</p><ul><li><strong>A:</strong> Den följer fasta regler och lär sig inget av exempel.</li><li><strong>B:</strong> Filtret lär sig av märkta exempel.</li><li><strong>C:</strong> Appen har lärt sig av tusentals exempel.</li><li><strong>D:</strong> Förslagen bygger på mönster i data.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Fråga dig om det finns kända svar och vilken sorts svar som ska förutsägas.</p>",
+    "spelIntro": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>En app känner igen vilken växtart en blomma tillhör. Den är tränad på 200 000 foton som botaniker har artbestämt. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är en kategori</p><p>Fotona har etiketter, och svaret är en art, alltså en kategori.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (klassificering).</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Fotona har etiketter, och svaret är en art, alltså en kategori.</li><li><strong>Övervakad inlärning (regression):</strong> Svaret är en kategori, inte ett tal, så det är klassificering.</li><li><strong>Oövervakad inlärning:</strong> Exemplen har kända svar (etiketter), så inlärningen är övervakad.</li><li><strong>Förstärkningsinlärning:</strong> Ingen agent provar handlingar för att få belöning. Modellen lär sig av märkta exempel.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": true,
+            "kommentar": "Fotona har etiketter, och svaret är en art, alltså en kategori."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": false,
+            "kommentar": "Svaret är en kategori, inte ett tal, så det är klassificering."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": false,
+            "kommentar": "Exemplen har kända svar (etiketter), så inlärningen är övervakad."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": false,
+            "kommentar": "Ingen agent provar handlingar för att få belöning. Modellen lär sig av märkta exempel."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Övervakad inlärning (klassificering)",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Ett trafikljus styrs av en AI som får belöning när köerna blir korta och straff när bilar får vänta länge. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En agent provar handlingar och får belöning</p><p>Trafikljuset provar olika sätt att växla och lär sig av belöningen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Förstärkningsinlärning.</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Ingen har märkt exempel med rätt svar. Agenten lär sig av belöningar.</li><li><strong>Övervakad inlärning (regression):</strong> Agenten lär sig av belöningar för sina handlingar, inte av kända tal.</li><li><strong>Oövervakad inlärning:</strong> Agenten handlar i en miljö och får belöning. Det är inte gruppering av data.</li><li><strong>Förstärkningsinlärning:</strong> Trafikljuset provar olika sätt att växla och lär sig av belöningen.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": false,
+            "kommentar": "Ingen har märkt exempel med rätt svar. Agenten lär sig av belöningar."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": false,
+            "kommentar": "Agenten lär sig av belöningar för sina handlingar, inte av kända tal."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": false,
+            "kommentar": "Agenten handlar i en miljö och får belöning. Det är inte gruppering av data."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": true,
+            "kommentar": "Trafikljuset provar olika sätt att växla och lär sig av belöningen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Förstärkningsinlärning",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vilket av exemplen är inte maskininlärning? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fasta regler som någon har skrivit</p><p>En miniräknare följer regler som programmeraren har skrivit. Den lär sig ingenting av data.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En miniräknare som räknar ut 12 · 34.</p><ul><li><strong>En miniräknare som räknar ut 12 · 34:</strong> Den följer fasta regler och lär sig inget av exempel.</li><li><strong>Ett spamfilter som blir bättre när användare markerar skräppost:</strong> Filtret lär sig av märkta exempel.</li><li><strong>En app som känner igen ansikten efter träning på foton:</strong> Appen har lärt sig av tusentals exempel.</li><li><strong>En tjänst som föreslår filmer utifrån vad liknande användare har sett:</strong> Förslagen bygger på mönster i data.</li></ul></div>",
+        "ledtrad": "<p>Lär sig programmet något av exempel?</p>",
+        "alternativ": [
+          {
+            "txt": "En miniräknare som räknar ut 12 · 34",
+            "ratt": true,
+            "kommentar": "Den följer fasta regler och lär sig inget av exempel."
+          },
+          {
+            "txt": "Ett spamfilter som blir bättre när användare markerar skräppost",
+            "ratt": false,
+            "kommentar": "Filtret lär sig av märkta exempel."
+          },
+          {
+            "txt": "En app som känner igen ansikten efter träning på foton",
+            "ratt": false,
+            "kommentar": "Appen har lärt sig av tusentals exempel."
+          },
+          {
+            "txt": "En tjänst som föreslår filmer utifrån vad liknande användare har sett",
+            "ratt": false,
+            "kommentar": "Förslagen bygger på mönster i data."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "En miniräknare som räknar ut 12 · 34",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.06",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Typer av inlärning",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Oövervakad inlärning",
+      "Övervakad inlärning (regression)",
+      "Modellen lär sig felen och blir dålig"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p><p>a) En streamingtjänst grupperar låtar som låter lika, utan att ha några färdiga genrer att utgå från. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>b) En kollektivtrafikapp tränas på gamla resor för att förutsäga hur många minuter en bussresa tar. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>c) Hälften av etiketterna i en träningsdata är fel, eftersom de som märkte bilderna slarvade. Vad händer troligen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inga givna svar, algoritmen hittar grupper själv</p><p>Låtarna har inga givna grupper. Algoritmen hittar likheterna själv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Oövervakad inlärning.</p><ul><li><strong>A:</strong> Det finns inga givna kategorier att lära sig av.</li><li><strong>B:</strong> Det finns inga kända svar att lära sig av, varken tal eller kategorier.</li><li><strong>C:</strong> Låtarna har inga givna grupper. Algoritmen hittar likheterna själv.</li><li><strong>D:</strong> Det finns ingen belöning, bara data som ska delas in i grupper.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är ett tal</p><p>Restiden är ett tal, och de gamla resorna har kända restider.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (regression).</p><ul><li><strong>A:</strong> Svaret som ska förutsägas är ett tal, inte en kategori.</li><li><strong>B:</strong> Restiden är ett tal, och de gamla resorna har kända restider.</li><li><strong>C:</strong> Exemplen har kända tal som svar, så inlärningen är övervakad.</li><li><strong>D:</strong> Ingen agent får belöning. Modellen lär sig av exempel med kända tal.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skräp in, skräp ut</p><p>Modellen lär sig de mönster som finns i datan, även felen. Dålig data ger en dålig modell.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellen lär sig felen och blir dålig.</p></div></div></div></div>",
+    "ledtrad": "<p>Fråga dig om det finns kända svar och vilken sorts svar som ska förutsägas.</p>",
+    "spelIntro": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>En streamingtjänst grupperar låtar som låter lika, utan att ha några färdiga genrer att utgå från. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inga givna svar, algoritmen hittar grupper själv</p><p>Låtarna har inga givna grupper. Algoritmen hittar likheterna själv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Oövervakad inlärning.</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Det finns inga givna kategorier att lära sig av.</li><li><strong>Övervakad inlärning (regression):</strong> Det finns inga kända svar att lära sig av, varken tal eller kategorier.</li><li><strong>Oövervakad inlärning:</strong> Låtarna har inga givna grupper. Algoritmen hittar likheterna själv.</li><li><strong>Förstärkningsinlärning:</strong> Det finns ingen belöning, bara data som ska delas in i grupper.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": false,
+            "kommentar": "Det finns inga givna kategorier att lära sig av."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": false,
+            "kommentar": "Det finns inga kända svar att lära sig av, varken tal eller kategorier."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": true,
+            "kommentar": "Låtarna har inga givna grupper. Algoritmen hittar likheterna själv."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": false,
+            "kommentar": "Det finns ingen belöning, bara data som ska delas in i grupper."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Oövervakad inlärning",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>En kollektivtrafikapp tränas på gamla resor för att förutsäga hur många minuter en bussresa tar. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är ett tal</p><p>Restiden är ett tal, och de gamla resorna har kända restider.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (regression).</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Svaret som ska förutsägas är ett tal, inte en kategori.</li><li><strong>Övervakad inlärning (regression):</strong> Restiden är ett tal, och de gamla resorna har kända restider.</li><li><strong>Oövervakad inlärning:</strong> Exemplen har kända tal som svar, så inlärningen är övervakad.</li><li><strong>Förstärkningsinlärning:</strong> Ingen agent får belöning. Modellen lär sig av exempel med kända tal.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": false,
+            "kommentar": "Svaret som ska förutsägas är ett tal, inte en kategori."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": true,
+            "kommentar": "Restiden är ett tal, och de gamla resorna har kända restider."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": false,
+            "kommentar": "Exemplen har kända tal som svar, så inlärningen är övervakad."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": false,
+            "kommentar": "Ingen agent får belöning. Modellen lär sig av exempel med kända tal."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Övervakad inlärning (regression)",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Hälften av etiketterna i en träningsdata är fel, eftersom de som märkte bilderna slarvade. Vad händer troligen? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skräp in, skräp ut</p><p>Modellen lär sig de mönster som finns i datan, även felen. Dålig data ger en dålig modell.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellen lär sig felen och blir dålig.</p><ul><li><strong>Modellen lär sig felen och blir dålig:</strong> Modellen kan inte veta vilka etiketter som är fel.</li><li><strong>Modellen rättar själv de felaktiga etiketterna:</strong> Modellen litar på etiketterna, den vet inte vilka som är fel.</li><li><strong>Det spelar ingen roll om det finns tillräckligt med bilder:</strong> Fler bilder med fel etiketter hjälper inte.</li><li><strong>Modellen blir bättre eftersom den får mer variation:</strong> Fel etiketter är inte variation, de är fel svar.</li></ul></div>",
+        "ledtrad": "<p>Kan modellen veta vilka etiketter som är fel?</p>",
+        "alternativ": [
+          {
+            "txt": "Modellen lär sig felen och blir dålig",
+            "ratt": true,
+            "kommentar": "Modellen kan inte veta vilka etiketter som är fel."
+          },
+          {
+            "txt": "Modellen rättar själv de felaktiga etiketterna",
+            "ratt": false,
+            "kommentar": "Modellen litar på etiketterna, den vet inte vilka som är fel."
+          },
+          {
+            "txt": "Det spelar ingen roll om det finns tillräckligt med bilder",
+            "ratt": false,
+            "kommentar": "Fler bilder med fel etiketter hjälper inte."
+          },
+          {
+            "txt": "Modellen blir bättre eftersom den får mer variation",
+            "ratt": false,
+            "kommentar": "Fel etiketter är inte variation, de är fel svar."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Modellen lär sig felen och blir dålig",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.07",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Typer av inlärning",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Övervakad inlärning (klassificering)",
+      "Förstärkningsinlärning",
+      "Samma sak kan se ut på många olika sätt, och modellen behöver se många varianter"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p><p>a) Elever har sorterat 5 000 kommentarer på sociala medier som ”vänlig” eller ”elak”. En modell tränas på dem för att flagga elaka kommentarer. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>b) En robothund lär sig gå. Den får belöning för varje meter den tar sig framåt utan att ramla. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>c) Varför behöver en modell för bildigenkänning ofta mycket träningsdata?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är en kategori</p><p>Kommentarerna har en etikett, vänlig eller elak.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (klassificering).</p><ul><li><strong>A:</strong> Kommentarerna har en etikett, vänlig eller elak.</li><li><strong>B:</strong> Svaret är en kategori, inte ett tal, så det är klassificering.</li><li><strong>C:</strong> Exemplen har kända svar (etiketter), så inlärningen är övervakad.</li><li><strong>D:</strong> Ingen agent provar handlingar för att få belöning. Modellen lär sig av märkta exempel.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En agent provar handlingar och får belöning</p><p>Robothunden lär sig genom att prova rörelser och få belöning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Förstärkningsinlärning.</p><ul><li><strong>A:</strong> Ingen har märkt exempel med rätt svar. Agenten lär sig av belöningar.</li><li><strong>B:</strong> Agenten lär sig av belöningar för sina handlingar, inte av kända tal.</li><li><strong>C:</strong> Agenten handlar i en miljö och får belöning. Det är inte gruppering av data.</li><li><strong>D:</strong> Robothunden lär sig genom att prova rörelser och få belöning.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Många varianter att lära sig</p><p>Samma sak kan se olika ut beroende på ljus, vinkel och bakgrund. Modellen behöver många exempel för att hitta det gemensamma.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Samma sak kan se ut på många olika sätt, och modellen behöver se många varianter.</p></div></div></div></div>",
+    "ledtrad": "<p>Fråga dig om det finns kända svar och vilken sorts svar som ska förutsägas.</p>",
+    "spelIntro": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Elever har sorterat 5 000 kommentarer på sociala medier som ”vänlig” eller ”elak”. En modell tränas på dem för att flagga elaka kommentarer. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är en kategori</p><p>Kommentarerna har en etikett, vänlig eller elak.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (klassificering).</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Kommentarerna har en etikett, vänlig eller elak.</li><li><strong>Övervakad inlärning (regression):</strong> Svaret är en kategori, inte ett tal, så det är klassificering.</li><li><strong>Oövervakad inlärning:</strong> Exemplen har kända svar (etiketter), så inlärningen är övervakad.</li><li><strong>Förstärkningsinlärning:</strong> Ingen agent provar handlingar för att få belöning. Modellen lär sig av märkta exempel.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": true,
+            "kommentar": "Kommentarerna har en etikett, vänlig eller elak."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": false,
+            "kommentar": "Svaret är en kategori, inte ett tal, så det är klassificering."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": false,
+            "kommentar": "Exemplen har kända svar (etiketter), så inlärningen är övervakad."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": false,
+            "kommentar": "Ingen agent provar handlingar för att få belöning. Modellen lär sig av märkta exempel."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Övervakad inlärning (klassificering)",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>En robothund lär sig gå. Den får belöning för varje meter den tar sig framåt utan att ramla. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En agent provar handlingar och får belöning</p><p>Robothunden lär sig genom att prova rörelser och få belöning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Förstärkningsinlärning.</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Ingen har märkt exempel med rätt svar. Agenten lär sig av belöningar.</li><li><strong>Övervakad inlärning (regression):</strong> Agenten lär sig av belöningar för sina handlingar, inte av kända tal.</li><li><strong>Oövervakad inlärning:</strong> Agenten handlar i en miljö och får belöning. Det är inte gruppering av data.</li><li><strong>Förstärkningsinlärning:</strong> Robothunden lär sig genom att prova rörelser och få belöning.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": false,
+            "kommentar": "Ingen har märkt exempel med rätt svar. Agenten lär sig av belöningar."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": false,
+            "kommentar": "Agenten lär sig av belöningar för sina handlingar, inte av kända tal."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": false,
+            "kommentar": "Agenten handlar i en miljö och får belöning. Det är inte gruppering av data."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": true,
+            "kommentar": "Robothunden lär sig genom att prova rörelser och få belöning."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Förstärkningsinlärning",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Varför behöver en modell för bildigenkänning ofta mycket träningsdata? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Många varianter att lära sig</p><p>Samma sak kan se olika ut beroende på ljus, vinkel och bakgrund. Modellen behöver många exempel för att hitta det gemensamma.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Samma sak kan se ut på många olika sätt, och modellen behöver se många varianter.</p><ul><li><strong>Samma sak kan se ut på många olika sätt, och modellen behöver se många varianter:</strong> Då lär den sig det som är gemensamt.</li><li><strong>Datorn har dåligt minne och glömmer gamla bilder:</strong> Det handlar inte om minne utan om variation.</li><li><strong>Mer data gör alltid modellen perfekt:</strong> Mer data hjälper, men ingen modell blir perfekt.</li><li><strong>Det behövs inte, en bild per sak räcker:</strong> En enda bild visar inte hur saken ser ut i andra situationer.</li></ul></div>",
+        "ledtrad": "<p>Hur många olika sätt kan en hund se ut på ett foto?</p>",
+        "alternativ": [
+          {
+            "txt": "Samma sak kan se ut på många olika sätt, och modellen behöver se många varianter",
+            "ratt": true,
+            "kommentar": "Då lär den sig det som är gemensamt."
+          },
+          {
+            "txt": "Datorn har dåligt minne och glömmer gamla bilder",
+            "ratt": false,
+            "kommentar": "Det handlar inte om minne utan om variation."
+          },
+          {
+            "txt": "Mer data gör alltid modellen perfekt",
+            "ratt": false,
+            "kommentar": "Mer data hjälper, men ingen modell blir perfekt."
+          },
+          {
+            "txt": "Det behövs inte, en bild per sak räcker",
+            "ratt": false,
+            "kommentar": "En enda bild visar inte hur saken ser ut i andra situationer."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Samma sak kan se ut på många olika sätt, och modellen behöver se många varianter",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.08",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Typer av inlärning",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Oövervakad inlärning",
+      "Övervakad inlärning (regression)",
+      "Modellens inre värden justeras så att den gör så få fel som möjligt på exemplen"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p><p>a) En klädbutik låter en algoritm dela in kunderna i grupper efter vad de köper, för att kunna skicka olika erbjudanden. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>b) En energiförening tränar en modell på gamla mätningar för att förutsäga hur många kilowattimmar en solpanel producerar i morgon. Vilken sorts inlärning är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Övervakad inlärning (klassificering)</p><p class=\"ul-alt\"><strong>B.</strong> Övervakad inlärning (regression)</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p><p>c) Vad betyder det att träna en modell? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Modellens inre värden justeras så att den gör så få fel som möjligt på exemplen</p><p class=\"ul-alt\"><strong>B.</strong> En människa skriver in alla svar i modellen</p><p class=\"ul-alt\"><strong>C.</strong> Modellen kopierar träningsdatan och slår upp svaret</p><p class=\"ul-alt\"><strong>D.</strong> Datorn laddar ner en färdig modell från internet</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inga givna svar, algoritmen hittar grupper själv</p><p>Kunderna har inga givna grupper. Algoritmen hittar grupperna i köpdatan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Oövervakad inlärning.</p><ul><li><strong>A:</strong> Det finns inga givna kategorier att lära sig av.</li><li><strong>B:</strong> Det finns inga kända svar att lära sig av, varken tal eller kategorier.</li><li><strong>C:</strong> Kunderna har inga givna grupper. Algoritmen hittar grupperna i köpdatan.</li><li><strong>D:</strong> Det finns ingen belöning, bara data som ska delas in i grupper.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är ett tal</p><p>Elproduktionen är ett tal, och de gamla mätningarna har kända värden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (regression).</p><ul><li><strong>A:</strong> Svaret som ska förutsägas är ett tal, inte en kategori.</li><li><strong>B:</strong> Elproduktionen är ett tal, och de gamla mätningarna har kända värden.</li><li><strong>C:</strong> Exemplen har kända tal som svar, så inlärningen är övervakad.</li><li><strong>D:</strong> Ingen agent får belöning. Modellen lär sig av exempel med kända tal.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Justera modellen efter exemplen</p><p>Under träningen justeras modellens inre värden, till exempel vikter, så att den gör så få fel som möjligt på träningsexemplen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellens inre värden justeras så att den gör så få fel som möjligt på exemplen.</p><ul><li><strong>A:</strong> Det är det som sker i träningen.</li><li><strong>B:</strong> Modellen hittar mönstren själv ur exemplen.</li><li><strong>C:</strong> En bra modell ska klara även nya exempel.</li><li><strong>D:</strong> Det är inte träning.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Fråga dig om det finns kända svar och vilken sorts svar som ska förutsägas.</p>",
+    "spelIntro": "<p>Frågorna handlar om olika sorters maskininlärning: övervakad inlärning (klassificering eller regression), oövervakad inlärning och förstärkningsinlärning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>En klädbutik låter en algoritm dela in kunderna i grupper efter vad de köper, för att kunna skicka olika erbjudanden. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inga givna svar, algoritmen hittar grupper själv</p><p>Kunderna har inga givna grupper. Algoritmen hittar grupperna i köpdatan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Oövervakad inlärning.</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Det finns inga givna kategorier att lära sig av.</li><li><strong>Övervakad inlärning (regression):</strong> Det finns inga kända svar att lära sig av, varken tal eller kategorier.</li><li><strong>Oövervakad inlärning:</strong> Kunderna har inga givna grupper. Algoritmen hittar grupperna i köpdatan.</li><li><strong>Förstärkningsinlärning:</strong> Det finns ingen belöning, bara data som ska delas in i grupper.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": false,
+            "kommentar": "Det finns inga givna kategorier att lära sig av."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": false,
+            "kommentar": "Det finns inga kända svar att lära sig av, varken tal eller kategorier."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": true,
+            "kommentar": "Kunderna har inga givna grupper. Algoritmen hittar grupperna i köpdatan."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": false,
+            "kommentar": "Det finns ingen belöning, bara data som ska delas in i grupper."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Oövervakad inlärning",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>En energiförening tränar en modell på gamla mätningar för att förutsäga hur många kilowattimmar en solpanel producerar i morgon. Vilken sorts inlärning är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Märkta exempel där svaret är ett tal</p><p>Elproduktionen är ett tal, och de gamla mätningarna har kända värden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Övervakad inlärning (regression).</p><ul><li><strong>Övervakad inlärning (klassificering):</strong> Svaret som ska förutsägas är ett tal, inte en kategori.</li><li><strong>Övervakad inlärning (regression):</strong> Elproduktionen är ett tal, och de gamla mätningarna har kända värden.</li><li><strong>Oövervakad inlärning:</strong> Exemplen har kända tal som svar, så inlärningen är övervakad.</li><li><strong>Förstärkningsinlärning:</strong> Ingen agent får belöning. Modellen lär sig av exempel med kända tal.</li></ul></div>",
+        "ledtrad": "<p>Finns det kända svar? Är svaret en kategori eller ett tal? Finns det belöningar?</p>",
+        "alternativ": [
+          {
+            "txt": "Övervakad inlärning (klassificering)",
+            "ratt": false,
+            "kommentar": "Svaret som ska förutsägas är ett tal, inte en kategori."
+          },
+          {
+            "txt": "Övervakad inlärning (regression)",
+            "ratt": true,
+            "kommentar": "Elproduktionen är ett tal, och de gamla mätningarna har kända värden."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": false,
+            "kommentar": "Exemplen har kända tal som svar, så inlärningen är övervakad."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": false,
+            "kommentar": "Ingen agent får belöning. Modellen lär sig av exempel med kända tal."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Övervakad inlärning (regression)",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad betyder det att träna en modell? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Justera modellen efter exemplen</p><p>Under träningen justeras modellens inre värden, till exempel vikter, så att den gör så få fel som möjligt på träningsexemplen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellens inre värden justeras så att den gör så få fel som möjligt på exemplen.</p><ul><li><strong>Modellens inre värden justeras så att den gör så få fel som möjligt på exemplen:</strong> Det är det som sker i träningen.</li><li><strong>En människa skriver in alla svar i modellen:</strong> Modellen hittar mönstren själv ur exemplen.</li><li><strong>Modellen kopierar träningsdatan och slår upp svaret:</strong> En bra modell ska klara även nya exempel.</li><li><strong>Datorn laddar ner en färdig modell från internet:</strong> Det är inte träning.</li></ul></div>",
+        "ledtrad": "<p>Vad ändras i modellen när den tränas?</p>",
+        "alternativ": [
+          {
+            "txt": "Modellens inre värden justeras så att den gör så få fel som möjligt på exemplen",
+            "ratt": true,
+            "kommentar": "Det är det som sker i träningen."
+          },
+          {
+            "txt": "En människa skriver in alla svar i modellen",
+            "ratt": false,
+            "kommentar": "Modellen hittar mönstren själv ur exemplen."
+          },
+          {
+            "txt": "Modellen kopierar träningsdatan och slår upp svaret",
+            "ratt": false,
+            "kommentar": "En bra modell ska klara även nya exempel."
+          },
+          {
+            "txt": "Datorn laddar ner en färdig modell från internet",
+            "ratt": false,
+            "kommentar": "Det är inte träning."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Modellens inre värden justeras så att den gör så få fel som möjligt på exemplen",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.09",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Träning, test och överanpassning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      400,
+      100,
+      "För att se hur bra modellen är på nya fall som den inte har sett"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<p>En skola vill förutsäga vilka elever som riskerar att inte klara en kurs. Den har data om 500 tidigare elever. 80 % används för att träna modellen och resten för att testa den.</p><p>a) Hur många exempel används för att träna modellen?</p><p>b) Hur många exempel används för att testa modellen?</p><p>c) Varför testar man modellen på elever som den inte har tränat på?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">80 % av 500</p><p>0,8 · 500 = 400.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 400.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testdatan är det som blir kvar</p><p>500 − 400 = 100.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testet ska visa hur modellen klarar nya fall</p><p>På träningsdatan kan modellen ha lärt sig exemplen utantill. Testdatan visar hur den klarar nya elever.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> För att se hur bra modellen är på nya fall som den inte har sett.</p></div></div></div></div>",
+    "ledtrad": "<p>Träningsdata och testdata ska vara olika exempel.</p>",
+    "spelIntro": "<p>En skola vill förutsäga vilka elever som riskerar att inte klara en kurs. Den har data om 500 tidigare elever. 80 % används för att träna modellen och resten för att testa den.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många exempel används för att träna modellen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">80 % av 500</p><p>0,8 · 500 = 400.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 400.</p></div>",
+        "ledtrad": "<p>Räkna 80 % av 500.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 400,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Hur många exempel används för att testa modellen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testdatan är det som blir kvar</p><p>500 − 400 = 100.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100.</p></div>",
+        "ledtrad": "<p>Det som inte används till träning används till test.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 100,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Varför testar man modellen på elever som den inte har tränat på? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testet ska visa hur modellen klarar nya fall</p><p>På träningsdatan kan modellen ha lärt sig exemplen utantill. Testdatan visar hur den klarar nya elever.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> För att se hur bra modellen är på nya fall som den inte har sett.</p><ul><li><strong>För att se hur bra modellen är på nya fall som den inte har sett:</strong> Det är just nya elever modellen ska användas på.</li><li><strong>För att träningen ska gå snabbare:</strong> Testdatan påverkar inte hur snabbt träningen går.</li><li><strong>För att få mer data att träna på:</strong> Testdatan används inte till träning.</li><li><strong>Det spelar ingen roll vilken data man testar på:</strong> Testar man på träningsdata kan resultatet bli för bra för att vara sant.</li></ul></div>",
+        "ledtrad": "<p>Vad händer om modellen bara har lärt sig träningsexemplen utantill?</p>",
+        "alternativ": [
+          {
+            "txt": "För att se hur bra modellen är på nya fall som den inte har sett",
+            "ratt": true,
+            "kommentar": "Det är just nya elever modellen ska användas på."
+          },
+          {
+            "txt": "För att träningen ska gå snabbare",
+            "ratt": false,
+            "kommentar": "Testdatan påverkar inte hur snabbt träningen går."
+          },
+          {
+            "txt": "För att få mer data att träna på",
+            "ratt": false,
+            "kommentar": "Testdatan används inte till träning."
+          },
+          {
+            "txt": "Det spelar ingen roll vilken data man testar på",
+            "ratt": false,
+            "kommentar": "Testar man på träningsdata kan resultatet bli för bra för att vara sant."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "För att se hur bra modellen är på nya fall som den inte har sett",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.10",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Träning, test och överanpassning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Modell A",
+      "Modell B",
+      "Träna på fler och mer varierade exempel"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Modell</th><th style=\"text-align:left\">Rätt på träningsdata</th><th style=\"text-align:left\">Rätt på testdata</th></tr></thead><tbody><tr><td style=\"text-align:left\">A</td><td style=\"text-align:left\">99 %</td><td style=\"text-align:left\">62 %</td></tr><tr><td style=\"text-align:left\">B</td><td style=\"text-align:left\">86 %</td><td style=\"text-align:left\">84 %</td></tr><tr><td style=\"text-align:left\">C</td><td style=\"text-align:left\">58 %</td><td style=\"text-align:left\">57 %</td></tr></tbody></table><p>Tre modeller har tränats för att känna igen trafikskyltar. Tabellen visar hur stor andel av bilderna de klassar rätt.</p><p>a) Vilken modell är överanpassad? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Modell A</p><p class=\"ul-alt\"><strong>B.</strong> Modell B</p><p class=\"ul-alt\"><strong>C.</strong> Modell C</p><p class=\"ul-alt\"><strong>D.</strong> Ingen av dem</p><p>b) Vilken modell bör användas i en riktig bil? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Modell B</p><p class=\"ul-alt\"><strong>B.</strong> Modell A</p><p class=\"ul-alt\"><strong>C.</strong> Modell C</p><p class=\"ul-alt\"><strong>D.</strong> Det går inte att avgöra</p><p>c) Vad kan man göra för att minska överanpassning?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stor skillnad mellan träning och test</p><p>Modell A är nästan perfekt på träningsdatan men mycket sämre på nya bilder. Den har lärt sig träningsbilderna utantill.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell A.</p><ul><li><strong>A:</strong> 99 % på träning men bara 62 % på test.</li><li><strong>B:</strong> B är nästan lika bra på test som på träning.</li><li><strong>C:</strong> C är dålig på båda. Den är underanpassad, inte överanpassad.</li><li><strong>D:</strong> A visar tydliga tecken på överanpassning.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bäst på nya bilder</p><p>Det är testresultatet som visar hur modellen fungerar på nya skyltar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell B.</p><ul><li><strong>A:</strong> B har bäst resultat på testdatan, 84 %.</li><li><strong>B:</strong> A har bäst träningsresultat, men bara 62 % på nya bilder.</li><li><strong>C:</strong> C klarar bara 57 % av testbilderna.</li><li><strong>D:</strong> Testresultaten visar tydligt att B är bäst på nya bilder.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fler och mer varierade exempel</p><p>Med fler och mer varierade exempel blir det svårare att lära sig utantill.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Träna på fler och mer varierade exempel.</p></div></div></div></div>",
+    "ledtrad": "<p>Överanpassning: bra på träning, dålig på test.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Modell</th><th style=\"text-align:left\">Rätt på träningsdata</th><th style=\"text-align:left\">Rätt på testdata</th></tr></thead><tbody><tr><td style=\"text-align:left\">A</td><td style=\"text-align:left\">99 %</td><td style=\"text-align:left\">62 %</td></tr><tr><td style=\"text-align:left\">B</td><td style=\"text-align:left\">86 %</td><td style=\"text-align:left\">84 %</td></tr><tr><td style=\"text-align:left\">C</td><td style=\"text-align:left\">58 %</td><td style=\"text-align:left\">57 %</td></tr></tbody></table><p>Tre modeller har tränats för att känna igen trafikskyltar. Tabellen visar hur stor andel av bilderna de klassar rätt.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilken modell är överanpassad? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stor skillnad mellan träning och test</p><p>Modell A är nästan perfekt på träningsdatan men mycket sämre på nya bilder. Den har lärt sig träningsbilderna utantill.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell A.</p><ul><li><strong>Modell A:</strong> 99 % på träning men bara 62 % på test.</li><li><strong>Modell B:</strong> B är nästan lika bra på test som på träning.</li><li><strong>Modell C:</strong> C är dålig på båda. Den är underanpassad, inte överanpassad.</li><li><strong>Ingen av dem:</strong> A visar tydliga tecken på överanpassning.</li></ul></div>",
+        "ledtrad": "<p>Jämför resultatet på träningsdata och testdata.</p>",
+        "alternativ": [
+          {
+            "txt": "Modell A",
+            "ratt": true,
+            "kommentar": "99 % på träning men bara 62 % på test."
+          },
+          {
+            "txt": "Modell B",
+            "ratt": false,
+            "kommentar": "B är nästan lika bra på test som på träning."
+          },
+          {
+            "txt": "Modell C",
+            "ratt": false,
+            "kommentar": "C är dålig på båda. Den är underanpassad, inte överanpassad."
+          },
+          {
+            "txt": "Ingen av dem",
+            "ratt": false,
+            "kommentar": "A visar tydliga tecken på överanpassning."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Modell A",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilken modell bör användas i en riktig bil? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bäst på nya bilder</p><p>Det är testresultatet som visar hur modellen fungerar på nya skyltar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell B.</p><ul><li><strong>Modell B:</strong> B har bäst resultat på testdatan, 84 %.</li><li><strong>Modell A:</strong> A har bäst träningsresultat, men bara 62 % på nya bilder.</li><li><strong>Modell C:</strong> C klarar bara 57 % av testbilderna.</li><li><strong>Det går inte att avgöra:</strong> Testresultaten visar tydligt att B är bäst på nya bilder.</li></ul></div>",
+        "ledtrad": "<p>Vilket resultat visar hur modellen klarar nya bilder?</p>",
+        "alternativ": [
+          {
+            "txt": "Modell B",
+            "ratt": true,
+            "kommentar": "B har bäst resultat på testdatan, 84 %."
+          },
+          {
+            "txt": "Modell A",
+            "ratt": false,
+            "kommentar": "A har bäst träningsresultat, men bara 62 % på nya bilder."
+          },
+          {
+            "txt": "Modell C",
+            "ratt": false,
+            "kommentar": "C klarar bara 57 % av testbilderna."
+          },
+          {
+            "txt": "Det går inte att avgöra",
+            "ratt": false,
+            "kommentar": "Testresultaten visar tydligt att B är bäst på nya bilder."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Modell B",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad kan man göra för att minska överanpassning? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fler och mer varierade exempel</p><p>Med fler och mer varierade exempel blir det svårare att lära sig utantill.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Träna på fler och mer varierade exempel.</p><ul><li><strong>Träna på fler och mer varierade exempel:</strong> Då måste modellen hitta allmänna mönster.</li><li><strong>Testa på träningsdatan i stället:</strong> Det döljer bara problemet.</li><li><strong>Träna längre på samma data:</strong> Det brukar göra överanpassningen värre.</li><li><strong>Göra modellen ännu mer komplex:</strong> En mer komplex modell kan lättare lära sig exemplen utantill.</li></ul></div>",
+        "ledtrad": "<p>Vad gör det svårare att lära sig exemplen utantill?</p>",
+        "alternativ": [
+          {
+            "txt": "Träna på fler och mer varierade exempel",
+            "ratt": true,
+            "kommentar": "Då måste modellen hitta allmänna mönster."
+          },
+          {
+            "txt": "Testa på träningsdatan i stället",
+            "ratt": false,
+            "kommentar": "Det döljer bara problemet."
+          },
+          {
+            "txt": "Träna längre på samma data",
+            "ratt": false,
+            "kommentar": "Det brukar göra överanpassningen värre."
+          },
+          {
+            "txt": "Göra modellen ännu mer komplex",
+            "ratt": false,
+            "kommentar": "En mer komplex modell kan lättare lära sig exemplen utantill."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Träna på fler och mer varierade exempel",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.11",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Träning, test och överanpassning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      900,
+      300,
+      "Testresultatet blir bättre än modellen egentligen är"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<p>En app ska känna igen svampar från foton. Utvecklarna har 1 200 foton. 75 % används för att träna modellen och resten för att testa den.</p><p>a) Hur många exempel används för att träna modellen?</p><p>b) Hur många exempel används för att testa modellen?</p><p>c) Några foton råkar finnas både i träningsdatan och i testdatan. Vad blir följden?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">75 % av 1200</p><p>0,75 · 1200 = 900.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 900.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testdatan är det som blir kvar</p><p>1200 − 900 = 300.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 300.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testet blir för lätt</p><p>Modellen har redan sett de fotona. Testresultatet blir då bättre än modellen egentligen är på nya svampar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Testresultatet blir bättre än modellen egentligen är.</p></div></div></div></div>",
+    "ledtrad": "<p>Träningsdata och testdata ska vara olika exempel.</p>",
+    "spelIntro": "<p>En app ska känna igen svampar från foton. Utvecklarna har 1 200 foton. 75 % används för att träna modellen och resten för att testa den.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många exempel används för att träna modellen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">75 % av 1200</p><p>0,75 · 1200 = 900.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 900.</p></div>",
+        "ledtrad": "<p>Räkna 75 % av 1200.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 900,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Hur många exempel används för att testa modellen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testdatan är det som blir kvar</p><p>1200 − 900 = 300.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 300.</p></div>",
+        "ledtrad": "<p>Det som inte används till träning används till test.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 300,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Några foton råkar finnas både i träningsdatan och i testdatan. Vad blir följden? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testet blir för lätt</p><p>Modellen har redan sett de fotona. Testresultatet blir då bättre än modellen egentligen är på nya svampar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Testresultatet blir bättre än modellen egentligen är.</p><ul><li><strong>Testresultatet blir bättre än modellen egentligen är:</strong> Modellen kan ha lärt sig just de fotona utantill.</li><li><strong>Testresultatet blir sämre än modellen egentligen är:</strong> Kända foton är lättare, inte svårare.</li><li><strong>Det påverkar inte testresultatet:</strong> Testet ska bara innehålla foton modellen aldrig sett.</li><li><strong>Modellen slutar fungera:</strong> Modellen fungerar, men testet ger en felaktig bild av hur bra den är.</li></ul></div>",
+        "ledtrad": "<p>Är det svårt att känna igen ett foto man redan har sett?</p>",
+        "alternativ": [
+          {
+            "txt": "Testresultatet blir bättre än modellen egentligen är",
+            "ratt": true,
+            "kommentar": "Modellen kan ha lärt sig just de fotona utantill."
+          },
+          {
+            "txt": "Testresultatet blir sämre än modellen egentligen är",
+            "ratt": false,
+            "kommentar": "Kända foton är lättare, inte svårare."
+          },
+          {
+            "txt": "Det påverkar inte testresultatet",
+            "ratt": false,
+            "kommentar": "Testet ska bara innehålla foton modellen aldrig sett."
+          },
+          {
+            "txt": "Modellen slutar fungera",
+            "ratt": false,
+            "kommentar": "Modellen fungerar, men testet ger en felaktig bild av hur bra den är."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Testresultatet blir bättre än modellen egentligen är",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.12",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Träning, test och överanpassning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1750,
+      750,
+      "Så att testdatan liknar träningsdatan och testet ger en rättvis bild"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<p>En modell ska avgöra om recensioner av restauranger är positiva eller negativa. Det finns 2 500 recensioner. 70 % används för att träna modellen och resten för att testa den. Recensionerna lottas till träning och test.</p><p>a) Hur många exempel används för att träna modellen?</p><p>b) Hur många exempel används för att testa modellen?</p><p>c) Varför lottar man vilka recensioner som hamnar i testdatan, i stället för att ta de sista 750?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">70 % av 2500</p><p>0,7 · 2500 = 1750.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1750.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testdatan är det som blir kvar</p><p>2500 − 1750 = 750.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 750.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testdatan ska likna träningsdatan</p><p>De sista recensionerna kan vara speciella, till exempel alla från samma restaurang eller samma månad. Med lottning blir båda delarna lika varandra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Så att testdatan liknar träningsdatan och testet ger en rättvis bild.</p></div></div></div></div>",
+    "ledtrad": "<p>Träningsdata och testdata ska vara olika exempel.</p>",
+    "spelIntro": "<p>En modell ska avgöra om recensioner av restauranger är positiva eller negativa. Det finns 2 500 recensioner. 70 % används för att träna modellen och resten för att testa den. Recensionerna lottas till träning och test.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många exempel används för att träna modellen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">70 % av 2500</p><p>0,7 · 2500 = 1750.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1750.</p></div>",
+        "ledtrad": "<p>Räkna 70 % av 2500.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 1750,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Hur många exempel används för att testa modellen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testdatan är det som blir kvar</p><p>2500 − 1750 = 750.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 750.</p></div>",
+        "ledtrad": "<p>Det som inte används till träning används till test.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 750,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Varför lottar man vilka recensioner som hamnar i testdatan, i stället för att ta de sista 750? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testdatan ska likna träningsdatan</p><p>De sista recensionerna kan vara speciella, till exempel alla från samma restaurang eller samma månad. Med lottning blir båda delarna lika varandra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Så att testdatan liknar träningsdatan och testet ger en rättvis bild.</p><ul><li><strong>Så att testdatan liknar träningsdatan och testet ger en rättvis bild:</strong> Annars kan testdatan vara helt annorlunda än det modellen tränat på.</li><li><strong>För att modellen ska tränas snabbare:</strong> Lottningen påverkar inte hur snabbt träningen går.</li><li><strong>För att få fler recensioner:</strong> Antalet recensioner är detsamma.</li><li><strong>Det spelar ingen roll hur man delar upp:</strong> En skev uppdelning kan ge ett missvisande testresultat.</li></ul></div>",
+        "ledtrad": "<p>Tänk om de sista 750 recensionerna alla kommer från samma restaurang.</p>",
+        "alternativ": [
+          {
+            "txt": "Så att testdatan liknar träningsdatan och testet ger en rättvis bild",
+            "ratt": true,
+            "kommentar": "Annars kan testdatan vara helt annorlunda än det modellen tränat på."
+          },
+          {
+            "txt": "För att modellen ska tränas snabbare",
+            "ratt": false,
+            "kommentar": "Lottningen påverkar inte hur snabbt träningen går."
+          },
+          {
+            "txt": "För att få fler recensioner",
+            "ratt": false,
+            "kommentar": "Antalet recensioner är detsamma."
+          },
+          {
+            "txt": "Det spelar ingen roll hur man delar upp",
+            "ratt": false,
+            "kommentar": "En skev uppdelning kan ge ett missvisande testresultat."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Så att testdatan liknar träningsdatan och testet ger en rättvis bild",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.13",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Träning, test och överanpassning",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.8,
+      "Den gör fler fel, eftersom barnröster nästan inte fanns i träningsdatan",
+      "Träna på inspelningar från personer i alla åldrar, av alla kön och med olika dialekter"
+    ],
+    "tolerans": [
+      0,
+      null,
+      null
+    ],
+    "t": "<p>En röstassistent tränas på 800 inspelningar av människor som säger kommandon. 640 av inspelningarna kommer från vuxna män.</p><p>a) Hur stor andel av inspelningarna kommer från vuxna män?</p><p>b) Vad händer troligen när ett barn pratar med röstassistenten?</p><p>c) Vad är bästa sättet att få röstassistenten att fungera för fler? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Träna på inspelningar från personer i alla åldrar, av alla kön och med olika dialekter</p><p class=\"ul-alt\"><strong>B.</strong> Träna längre på samma inspelningar</p><p class=\"ul-alt\"><strong>C.</strong> Be barn att prata med mörkare röst</p><p class=\"ul-alt\"><strong>D.</strong> Ta bort inspelningarna med vuxna män</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andel = delen / det hela</p><p>640 / 800 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Barnröster liknar inte träningsdatan</p><p>Modellen har nästan bara hört vuxna män. Barnröster är ljusare och kan därför tolkas fel oftare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den gör fler fel, eftersom barnröster nästan inte fanns i träningsdatan.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mer varierad träningsdata</p><p>Träningsdatan bör innehålla röster av alla åldrar, kön och dialekter som assistenten ska användas av.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Träna på inspelningar från personer i alla åldrar, av alla kön och med olika dialekter.</p><ul><li><strong>A:</strong> Då liknar träningsdatan verkligheten.</li><li><strong>B:</strong> Samma data ger samma brister.</li><li><strong>C:</strong> Tekniken ska anpassas till användarna, inte tvärtom.</li><li><strong>D:</strong> Då blir datan bara skev åt ett annat håll.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Träningsdatan ska likna de fall modellen möter.</p>",
+    "spelIntro": "<p>En röstassistent tränas på 800 inspelningar av människor som säger kommandon. 640 av inspelningarna kommer från vuxna män.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur stor andel av inspelningarna kommer från vuxna män? (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andel = delen / det hela</p><p>640 / 800 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div>",
+        "ledtrad": "<p>Dela antalet inspelningar med vuxna män med antalet inspelningar.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad händer troligen när ett barn pratar med röstassistenten? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Barnröster liknar inte träningsdatan</p><p>Modellen har nästan bara hört vuxna män. Barnröster är ljusare och kan därför tolkas fel oftare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den gör fler fel, eftersom barnröster nästan inte fanns i träningsdatan.</p><ul><li><strong>Den gör fler fel, eftersom barnröster nästan inte fanns i träningsdatan:</strong> Modellen fungerar bäst på data som liknar träningsdatan.</li><li><strong>Den fungerar lika bra för alla:</strong> Den har lärt sig mönster från vuxna mansröster.</li><li><strong>Den fungerar bättre, eftersom barn pratar tydligt:</strong> Det avgörande är vad modellen har tränats på.</li><li><strong>Den lär sig barnrösten direkt:</strong> En färdigtränad modell lär sig inte av sig själv under användningen.</li></ul></div>",
+        "ledtrad": "<p>Vilka röster har modellen tränats på?</p>",
+        "alternativ": [
+          {
+            "txt": "Den gör fler fel, eftersom barnröster nästan inte fanns i träningsdatan",
+            "ratt": true,
+            "kommentar": "Modellen fungerar bäst på data som liknar träningsdatan."
+          },
+          {
+            "txt": "Den fungerar lika bra för alla",
+            "ratt": false,
+            "kommentar": "Den har lärt sig mönster från vuxna mansröster."
+          },
+          {
+            "txt": "Den fungerar bättre, eftersom barn pratar tydligt",
+            "ratt": false,
+            "kommentar": "Det avgörande är vad modellen har tränats på."
+          },
+          {
+            "txt": "Den lär sig barnrösten direkt",
+            "ratt": false,
+            "kommentar": "En färdigtränad modell lär sig inte av sig själv under användningen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Den gör fler fel, eftersom barnröster nästan inte fanns i träningsdatan",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad är bästa sättet att få röstassistenten att fungera för fler? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mer varierad träningsdata</p><p>Träningsdatan bör innehålla röster av alla åldrar, kön och dialekter som assistenten ska användas av.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Träna på inspelningar från personer i alla åldrar, av alla kön och med olika dialekter.</p><ul><li><strong>Träna på inspelningar från personer i alla åldrar, av alla kön och med olika dialekter:</strong> Då liknar träningsdatan verkligheten.</li><li><strong>Träna längre på samma inspelningar:</strong> Samma data ger samma brister.</li><li><strong>Be barn att prata med mörkare röst:</strong> Tekniken ska anpassas till användarna, inte tvärtom.</li><li><strong>Ta bort inspelningarna med vuxna män:</strong> Då blir datan bara skev åt ett annat håll.</li></ul></div>",
+        "ledtrad": "<p>Vad saknas i datan?</p>",
+        "alternativ": [
+          {
+            "txt": "Träna på inspelningar från personer i alla åldrar, av alla kön och med olika dialekter",
+            "ratt": true,
+            "kommentar": "Då liknar träningsdatan verkligheten."
+          },
+          {
+            "txt": "Träna längre på samma inspelningar",
+            "ratt": false,
+            "kommentar": "Samma data ger samma brister."
+          },
+          {
+            "txt": "Be barn att prata med mörkare röst",
+            "ratt": false,
+            "kommentar": "Tekniken ska anpassas till användarna, inte tvärtom."
+          },
+          {
+            "txt": "Ta bort inspelningarna med vuxna män",
+            "ratt": false,
+            "kommentar": "Då blir datan bara skev åt ett annat håll."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Träna på inspelningar från personer i alla åldrar, av alla kön och med olika dialekter",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.14",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Träning, test och överanpassning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Modell A",
+      "Modell C",
+      10
+    ],
+    "tolerans": [
+      null,
+      null,
+      0
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Modell</th><th style=\"text-align:left\">Medelfel på träningsdata</th><th style=\"text-align:left\">Medelfel på testdata</th></tr></thead><tbody><tr><td style=\"text-align:left\">A</td><td style=\"text-align:left\">20 000 kr</td><td style=\"text-align:left\">180 000 kr</td></tr><tr><td style=\"text-align:left\">B</td><td style=\"text-align:left\">60 000 kr</td><td style=\"text-align:left\">70 000 kr</td></tr><tr><td style=\"text-align:left\">C</td><td style=\"text-align:left\">150 000 kr</td><td style=\"text-align:left\">160 000 kr</td></tr></tbody></table><p>Tre modeller förutsäger priset på begagnade bilar. Tabellen visar hur mycket fel de i genomsnitt gissar. Ett lägre fel är bättre.</p><p>a) Vilken modell är överanpassad? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Modell A</p><p class=\"ul-alt\"><strong>B.</strong> Modell B</p><p class=\"ul-alt\"><strong>C.</strong> Modell C</p><p class=\"ul-alt\"><strong>D.</strong> Ingen av dem</p><p>b) Vilken modell är underanpassad? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Modell C</p><p class=\"ul-alt\"><strong>B.</strong> Modell A</p><p class=\"ul-alt\"><strong>C.</strong> Modell B</p><p class=\"ul-alt\"><strong>D.</strong> Ingen av dem</p><p>c) Hur många tusen kronor större är felet på testdatan än på träningsdatan för modell B?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Litet fel på träning, stort på test</p><p>A gissar nästan rätt på träningsbilarna men mycket fel på nya bilar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell A.</p><ul><li><strong>A:</strong> Felet ökar från 20 000 kr till 180 000 kr på nya bilar.</li><li><strong>B:</strong> B är nästan lika bra på nya bilar.</li><li><strong>C:</strong> C har stort fel på båda. Den är underanpassad.</li><li><strong>D:</strong> A visar tydliga tecken på överanpassning.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stort fel överallt</p><p>C gör stora fel både på träningsdata och testdata. Den har inte ens lärt sig träningsexemplen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell C.</p><ul><li><strong>A:</strong> Den är för enkel för att fånga sambandet.</li><li><strong>B:</strong> A har lärt sig träningsdatan för bra, det är överanpassning.</li><li><strong>C:</strong> B har lagom fel på båda.</li><li><strong>D:</strong> C har stort fel redan på träningsdatan.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testfel minus träningsfel</p><p>70 000 − 60 000 = 10 000 kr, alltså 10 tusen kronor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div></div></div></div>",
+    "ledtrad": "<p>Lågt fel är bra här. Jämför träning och test.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Modell</th><th style=\"text-align:left\">Medelfel på träningsdata</th><th style=\"text-align:left\">Medelfel på testdata</th></tr></thead><tbody><tr><td style=\"text-align:left\">A</td><td style=\"text-align:left\">20 000 kr</td><td style=\"text-align:left\">180 000 kr</td></tr><tr><td style=\"text-align:left\">B</td><td style=\"text-align:left\">60 000 kr</td><td style=\"text-align:left\">70 000 kr</td></tr><tr><td style=\"text-align:left\">C</td><td style=\"text-align:left\">150 000 kr</td><td style=\"text-align:left\">160 000 kr</td></tr></tbody></table><p>Tre modeller förutsäger priset på begagnade bilar. Tabellen visar hur mycket fel de i genomsnitt gissar. Ett lägre fel är bättre.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilken modell är överanpassad? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Litet fel på träning, stort på test</p><p>A gissar nästan rätt på träningsbilarna men mycket fel på nya bilar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell A.</p><ul><li><strong>Modell A:</strong> Felet ökar från 20 000 kr till 180 000 kr på nya bilar.</li><li><strong>Modell B:</strong> B är nästan lika bra på nya bilar.</li><li><strong>Modell C:</strong> C har stort fel på båda. Den är underanpassad.</li><li><strong>Ingen av dem:</strong> A visar tydliga tecken på överanpassning.</li></ul></div>",
+        "ledtrad": "<p>Här är ett lågt tal bra. Jämför träning och test.</p>",
+        "alternativ": [
+          {
+            "txt": "Modell A",
+            "ratt": true,
+            "kommentar": "Felet ökar från 20 000 kr till 180 000 kr på nya bilar."
+          },
+          {
+            "txt": "Modell B",
+            "ratt": false,
+            "kommentar": "B är nästan lika bra på nya bilar."
+          },
+          {
+            "txt": "Modell C",
+            "ratt": false,
+            "kommentar": "C har stort fel på båda. Den är underanpassad."
+          },
+          {
+            "txt": "Ingen av dem",
+            "ratt": false,
+            "kommentar": "A visar tydliga tecken på överanpassning."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Modell A",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilken modell är underanpassad? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stort fel överallt</p><p>C gör stora fel både på träningsdata och testdata. Den har inte ens lärt sig träningsexemplen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell C.</p><ul><li><strong>Modell C:</strong> Den är för enkel för att fånga sambandet.</li><li><strong>Modell A:</strong> A har lärt sig träningsdatan för bra, det är överanpassning.</li><li><strong>Modell B:</strong> B har lagom fel på båda.</li><li><strong>Ingen av dem:</strong> C har stort fel redan på träningsdatan.</li></ul></div>",
+        "ledtrad": "<p>Vilken modell klarar inte ens träningsdatan?</p>",
+        "alternativ": [
+          {
+            "txt": "Modell C",
+            "ratt": true,
+            "kommentar": "Den är för enkel för att fånga sambandet."
+          },
+          {
+            "txt": "Modell A",
+            "ratt": false,
+            "kommentar": "A har lärt sig träningsdatan för bra, det är överanpassning."
+          },
+          {
+            "txt": "Modell B",
+            "ratt": false,
+            "kommentar": "B har lagom fel på båda."
+          },
+          {
+            "txt": "Ingen av dem",
+            "ratt": false,
+            "kommentar": "C har stort fel redan på träningsdatan."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Modell C",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Hur många tusen kronor större är felet på testdatan än på träningsdatan för modell B?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testfel minus träningsfel</p><p>70 000 − 60 000 = 10 000 kr, alltså 10 tusen kronor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div>",
+        "ledtrad": "<p>Dra träningsfelet från testfelet.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 10,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.15",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Träning, test och överanpassning",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      24,
+      "Trädet börjar lära sig detaljer som bara gäller träningsdatan"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Trädets djup</th><th style=\"text-align:left\">1</th><th style=\"text-align:left\">2</th><th style=\"text-align:left\">3</th><th style=\"text-align:left\">4</th><th style=\"text-align:left\">5</th><th style=\"text-align:left\">6</th></tr></thead><tbody><tr><td style=\"text-align:left\">Rätt på träningsdata (%)</td><td style=\"text-align:left\">70</td><td style=\"text-align:left\">80</td><td style=\"text-align:left\">88</td><td style=\"text-align:left\">94</td><td style=\"text-align:left\">98</td><td style=\"text-align:left\">100</td></tr><tr><td style=\"text-align:left\">Rätt på testdata (%)</td><td style=\"text-align:left\">68</td><td style=\"text-align:left\">78</td><td style=\"text-align:left\">85</td><td style=\"text-align:left\">84</td><td style=\"text-align:left\">80</td><td style=\"text-align:left\">76</td></tr></tbody></table><p>Ett beslutsträd ska förutsäga om en kund kommer att köpa en vara. Ju djupare trädet är, desto fler frågor kan det ställa. Tabellen visar resultatet för olika djup.</p><p>a) Vilket djup ger bäst resultat på testdatan?</p><p>b) Hur många procentenheter skiljer det mellan träning och test vid djup 6?</p><p>c) Varför blir testresultatet sämre när trädet blir djupare än 3?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största värdet på raden för testdata</p><p>Testresultaten är 68, 78, 85, 84, 80 och 76 %. Störst är 85 % vid djup 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träning minus test</p><p>100 − 76 = 24 procentenheter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trädet lär sig träningsdatan utantill</p><p>Ett mycket djupt träd kan ställa så många frågor att det passar varje träningsexempel, även slumpmässiga detaljer. Det är överanpassning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Trädet börjar lära sig detaljer som bara gäller träningsdatan.</p></div></div></div></div>",
+    "ledtrad": "<p>Det bästa djupet ger bäst resultat på testdatan.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Trädets djup</th><th style=\"text-align:left\">1</th><th style=\"text-align:left\">2</th><th style=\"text-align:left\">3</th><th style=\"text-align:left\">4</th><th style=\"text-align:left\">5</th><th style=\"text-align:left\">6</th></tr></thead><tbody><tr><td style=\"text-align:left\">Rätt på träningsdata (%)</td><td style=\"text-align:left\">70</td><td style=\"text-align:left\">80</td><td style=\"text-align:left\">88</td><td style=\"text-align:left\">94</td><td style=\"text-align:left\">98</td><td style=\"text-align:left\">100</td></tr><tr><td style=\"text-align:left\">Rätt på testdata (%)</td><td style=\"text-align:left\">68</td><td style=\"text-align:left\">78</td><td style=\"text-align:left\">85</td><td style=\"text-align:left\">84</td><td style=\"text-align:left\">80</td><td style=\"text-align:left\">76</td></tr></tbody></table><p>Ett beslutsträd ska förutsäga om en kund kommer att köpa en vara. Ju djupare trädet är, desto fler frågor kan det ställa. Tabellen visar resultatet för olika djup.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilket djup ger bäst resultat på testdatan?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största värdet på raden för testdata</p><p>Testresultaten är 68, 78, 85, 84, 80 och 76 %. Störst är 85 % vid djup 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Titta bara på raden för testdata.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 3,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Hur många procentenheter skiljer det mellan träning och test vid djup 6?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träning minus test</p><p>100 − 76 = 24 procentenheter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24.</p></div>",
+        "ledtrad": "<p>Ta resultatet på träningsdata minus resultatet på testdata.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 24,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Varför blir testresultatet sämre när trädet blir djupare än 3? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Trädet lär sig träningsdatan utantill</p><p>Ett mycket djupt träd kan ställa så många frågor att det passar varje träningsexempel, även slumpmässiga detaljer. Det är överanpassning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Trädet börjar lära sig detaljer som bara gäller träningsdatan.</p><ul><li><strong>Trädet börjar lära sig detaljer som bara gäller träningsdatan:</strong> Det är överanpassning: 100 % på träning men sämre på test.</li><li><strong>Ett djupare träd är alltid sämre:</strong> Djup 2 och 3 är bättre än djup 1.</li><li><strong>Testdatan blir svårare när trädet växer:</strong> Testdatan är densamma hela tiden.</li><li><strong>Trädet glömmer det det lärde sig först:</strong> Träningsresultatet fortsätter att öka.</li></ul></div>",
+        "ledtrad": "<p>Vad händer med resultatet på träningsdatan samtidigt?</p>",
+        "alternativ": [
+          {
+            "txt": "Trädet börjar lära sig detaljer som bara gäller träningsdatan",
+            "ratt": true,
+            "kommentar": "Det är överanpassning: 100 % på träning men sämre på test."
+          },
+          {
+            "txt": "Ett djupare träd är alltid sämre",
+            "ratt": false,
+            "kommentar": "Djup 2 och 3 är bättre än djup 1."
+          },
+          {
+            "txt": "Testdatan blir svårare när trädet växer",
+            "ratt": false,
+            "kommentar": "Testdatan är densamma hela tiden."
+          },
+          {
+            "txt": "Trädet glömmer det det lärde sig först",
+            "ratt": false,
+            "kommentar": "Träningsresultatet fortsätter att öka."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Trädet börjar lära sig detaljer som bara gäller träningsdatan",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.16",
+    "kap": 4,
+    "omr": "ml_grunder",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Träning, test och överanpassning",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Det går inte att veta hur bra den är förrän den har testats på ny data",
+      "Den är för enkel och gör många fel redan på träningsdatan",
+      "Överanpassning"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Frågorna handlar om överanpassning och underanpassning.</p><p>a) En modell får 100 % rätt på träningsdatan. Vad kan man säga om den?</p><p>b) Vad betyder det att en modell är underanpassad? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Den är för enkel och gör många fel redan på träningsdatan</p><p class=\"ul-alt\"><strong>B.</strong> Den är bra på träningsdatan men dålig på ny data</p><p class=\"ul-alt\"><strong>C.</strong> Den har för lite testdata</p><p class=\"ul-alt\"><strong>D.</strong> Den är perfekt anpassad</p><p>c) En lärare ger exakt samma frågor på provet som på övningsbladet. En elev har lärt sig svaren utantill och får alla rätt. Vilket begrepp liknar det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Överanpassning</p><p class=\"ul-alt\"><strong>B.</strong> Underanpassning</p><p class=\"ul-alt\"><strong>C.</strong> Oövervakad inlärning</p><p class=\"ul-alt\"><strong>D.</strong> Förstärkningsinlärning</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testdatan avgör</p><p>Det kan betyda att modellen är bra, men också att den har lärt sig träningsexemplen utantill. Först testdatan visar vilket.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det går inte att veta hur bra den är förrän den har testats på ny data.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">För enkel modell</p><p>Modellen är för enkel för att fånga sambandet och gör många fel, även på träningsdatan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den är för enkel och gör många fel redan på träningsdatan.</p><ul><li><strong>A:</strong> Till exempel en rak linje för ett samband som böjer sig.</li><li><strong>B:</strong> Det är överanpassning.</li><li><strong>C:</strong> Underanpassning handlar om modellen, inte om testdatan.</li><li><strong>D:</strong> Underanpassad betyder att den inte har lärt sig tillräckligt.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utantillinlärning är överanpassning</p><p>Eleven har lärt sig exemplen, inte metoden. Med nya frågor hade det gått sämre, precis som för en överanpassad modell.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Överanpassning.</p><ul><li><strong>A:</strong> Bra på kända exempel, osäker på nya.</li><li><strong>B:</strong> Eleven klarar ju de kända frågorna perfekt.</li><li><strong>C:</strong> Eleven har facit att lära sig av.</li><li><strong>D:</strong> Det handlar inte om belöning för handlingar.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Överanpassad: lär sig exemplen utantill. Underanpassad: för enkel.</p>",
+    "spelIntro": "<p>Frågorna handlar om överanpassning och underanpassning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>En modell får 100 % rätt på träningsdatan. Vad kan man säga om den? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testdatan avgör</p><p>Det kan betyda att modellen är bra, men också att den har lärt sig träningsexemplen utantill. Först testdatan visar vilket.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det går inte att veta hur bra den är förrän den har testats på ny data.</p><ul><li><strong>Det går inte att veta hur bra den är förrän den har testats på ny data:</strong> Modellen kan vara överanpassad.</li><li><strong>Den är perfekt och kommer aldrig att göra fel:</strong> Nya exempel kan se annorlunda ut än träningsexemplen.</li><li><strong>Den är säkert överanpassad:</strong> Det är möjligt, men inte säkert. Testet visar det.</li><li><strong>Den har tränats för kort tid:</strong> Kort träning ger snarare sämre resultat på träningsdatan.</li></ul></div>",
+        "ledtrad": "<p>Vad visar resultatet på träningsdatan, och vad visar det inte?</p>",
+        "alternativ": [
+          {
+            "txt": "Det går inte att veta hur bra den är förrän den har testats på ny data",
+            "ratt": true,
+            "kommentar": "Modellen kan vara överanpassad."
+          },
+          {
+            "txt": "Den är perfekt och kommer aldrig att göra fel",
+            "ratt": false,
+            "kommentar": "Nya exempel kan se annorlunda ut än träningsexemplen."
+          },
+          {
+            "txt": "Den är säkert överanpassad",
+            "ratt": false,
+            "kommentar": "Det är möjligt, men inte säkert. Testet visar det."
+          },
+          {
+            "txt": "Den har tränats för kort tid",
+            "ratt": false,
+            "kommentar": "Kort träning ger snarare sämre resultat på träningsdatan."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Det går inte att veta hur bra den är förrän den har testats på ny data",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad betyder det att en modell är underanpassad? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">För enkel modell</p><p>Modellen är för enkel för att fånga sambandet och gör många fel, även på träningsdatan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den är för enkel och gör många fel redan på träningsdatan.</p><ul><li><strong>Den är för enkel och gör många fel redan på träningsdatan:</strong> Till exempel en rak linje för ett samband som böjer sig.</li><li><strong>Den är bra på träningsdatan men dålig på ny data:</strong> Det är överanpassning.</li><li><strong>Den har för lite testdata:</strong> Underanpassning handlar om modellen, inte om testdatan.</li><li><strong>Den är perfekt anpassad:</strong> Underanpassad betyder att den inte har lärt sig tillräckligt.</li></ul></div>",
+        "ledtrad": "<p>Hur går det för modellen på träningsdatan?</p>",
+        "alternativ": [
+          {
+            "txt": "Den är för enkel och gör många fel redan på träningsdatan",
+            "ratt": true,
+            "kommentar": "Till exempel en rak linje för ett samband som böjer sig."
+          },
+          {
+            "txt": "Den är bra på träningsdatan men dålig på ny data",
+            "ratt": false,
+            "kommentar": "Det är överanpassning."
+          },
+          {
+            "txt": "Den har för lite testdata",
+            "ratt": false,
+            "kommentar": "Underanpassning handlar om modellen, inte om testdatan."
+          },
+          {
+            "txt": "Den är perfekt anpassad",
+            "ratt": false,
+            "kommentar": "Underanpassad betyder att den inte har lärt sig tillräckligt."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Den är för enkel och gör många fel redan på träningsdatan",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>En lärare ger exakt samma frågor på provet som på övningsbladet. En elev har lärt sig svaren utantill och får alla rätt. Vilket begrepp liknar det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utantillinlärning är överanpassning</p><p>Eleven har lärt sig exemplen, inte metoden. Med nya frågor hade det gått sämre, precis som för en överanpassad modell.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Överanpassning.</p><ul><li><strong>Överanpassning:</strong> Bra på kända exempel, osäker på nya.</li><li><strong>Underanpassning:</strong> Eleven klarar ju de kända frågorna perfekt.</li><li><strong>Oövervakad inlärning:</strong> Eleven har facit att lära sig av.</li><li><strong>Förstärkningsinlärning:</strong> Det handlar inte om belöning för handlingar.</li></ul></div>",
+        "ledtrad": "<p>Skulle eleven klara nya frågor av samma slag?</p>",
+        "alternativ": [
+          {
+            "txt": "Överanpassning",
+            "ratt": true,
+            "kommentar": "Bra på kända exempel, osäker på nya."
+          },
+          {
+            "txt": "Underanpassning",
+            "ratt": false,
+            "kommentar": "Eleven klarar ju de kända frågorna perfekt."
+          },
+          {
+            "txt": "Oövervakad inlärning",
+            "ratt": false,
+            "kommentar": "Eleven har facit att lära sig av."
+          },
+          {
+            "txt": "Förstärkningsinlärning",
+            "ratt": false,
+            "kommentar": "Det handlar inte om belöning för handlingar."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Överanpassning",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.20",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "E",
+    "poang": "4/0/0",
+    "familj": "Beräkna utvärderingsmått",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      0.92,
+      0.9,
+      0.9
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: spam</th><th style=\"text-align:left\">Förutsagt: inte spam</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: spam</strong></td><td style=\"text-align:left\">36</td><td style=\"text-align:left\">4</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: inte spam</strong></td><td style=\"text-align:left\">4</td><td style=\"text-align:left\">56</td></tr></tbody></table><p>Ett spamfilter har testats på 100 e-postmeddelanden. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är spam.</p><p>a) Hur många fall klassade modellen fel?</p><p>b) Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt.</p><p>c) Bestäm precisionen, alltså andelen av fallen som modellen kallade spam som verkligen var spam.</p><p>d) Bestäm recall (täckningen), alltså andelen av alla verkliga fall av spam som modellen hittade.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Felen ligger utanför diagonalen: FP + FN</p><p>4 + 4 = 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(36 + 56) / 100 = 92/100 = 0,92.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,92.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>36 / (36 + 4) = 36/40 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>36 / (36 + 4) = 36/40 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div></div></div></div>",
+    "ledtrad": "<p>Leta först upp TP, FN, FP och TN i matrisen.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: spam</th><th style=\"text-align:left\">Förutsagt: inte spam</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: spam</strong></td><td style=\"text-align:left\">36</td><td style=\"text-align:left\">4</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: inte spam</strong></td><td style=\"text-align:left\">4</td><td style=\"text-align:left\">56</td></tr></tbody></table><p>Ett spamfilter har testats på 100 e-postmeddelanden. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är spam.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många fall klassade modellen fel?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Felen ligger utanför diagonalen: FP + FN</p><p>4 + 4 = 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div>",
+        "ledtrad": "<p>Rätt klassade fall ligger på diagonalen. Var ligger felen?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(36 + 56) / 100 = 92/100 = 0,92.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,92.</p></div>",
+        "ledtrad": "<p>Rätt klassade fall finns på diagonalen.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.92,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm precisionen, alltså andelen av fallen som modellen kallade spam som verkligen var spam. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>36 / (36 + 4) = 36/40 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div>",
+        "ledtrad": "<p>Använd kolumnen ”Förutsagt: spam”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.9,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Bestäm recall (täckningen), alltså andelen av alla verkliga fall av spam som modellen hittade. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>36 / (36 + 4) = 36/40 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div>",
+        "ledtrad": "<p>Använd raden ”Verkligt: spam”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.9,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.21",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "C",
+    "poang": "4/1/0",
+    "familj": "Beräkna utvärderingsmått",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      0.84,
+      0.9,
+      0.375,
+      "Recall, så att så få sjuka som möjligt missas"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: cancer</th><th style=\"text-align:left\">Förutsagt: frisk</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: cancer</strong></td><td style=\"text-align:left\">18</td><td style=\"text-align:left\">2</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: frisk</strong></td><td style=\"text-align:left\">30</td><td style=\"text-align:left\">150</td></tr></tbody></table><p>En AI som granskar röntgenbilder har testats på 200 patienter för att hitta lungcancer. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är cancer.</p><p>a) Hur många av fallen var verkligen cancer?</p><p>b) Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt.</p><p>c) Bestäm recall (täckningen), alltså andelen av alla verkliga fall av cancer som modellen hittade.</p><p>d) Bestäm precisionen, alltså andelen av fallen som modellen kallade cancer som verkligen var cancer.</p><p>e) Vilket mått är viktigast att få högt när AI:n letar efter cancer?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Raden för den positiva klassen: TP + FN</p><p>18 + 2 = 20.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(18 + 150) / 200 = 168/200 = 0,84.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,84.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>18 / (18 + 2) = 18/20 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>18 / (18 + 30) = 18/48 = 0,375.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,375.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Missade sjuka är farligast</p><p>En missad cancer (falskt negativ) kan vara livsfarlig. Ett falskt larm leder till en extra undersökning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Recall, så att så få sjuka som möjligt missas.</p></div></div></div></div>",
+    "ledtrad": "<p>Leta först upp TP, FN, FP och TN i matrisen.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: cancer</th><th style=\"text-align:left\">Förutsagt: frisk</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: cancer</strong></td><td style=\"text-align:left\">18</td><td style=\"text-align:left\">2</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: frisk</strong></td><td style=\"text-align:left\">30</td><td style=\"text-align:left\">150</td></tr></tbody></table><p>En AI som granskar röntgenbilder har testats på 200 patienter för att hitta lungcancer. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är cancer.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många av fallen var verkligen cancer?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Raden för den positiva klassen: TP + FN</p><p>18 + 2 = 20.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20.</p></div>",
+        "ledtrad": "<p>Lägg ihop raden ”Verkligt: cancer”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 20,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(18 + 150) / 200 = 168/200 = 0,84.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,84.</p></div>",
+        "ledtrad": "<p>Rätt klassade fall finns på diagonalen.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.84,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm recall (täckningen), alltså andelen av alla verkliga fall av cancer som modellen hittade. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>18 / (18 + 2) = 18/20 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div>",
+        "ledtrad": "<p>Använd raden ”Verkligt: cancer”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.9,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Bestäm precisionen, alltså andelen av fallen som modellen kallade cancer som verkligen var cancer. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>18 / (18 + 30) = 18/48 = 0,375.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,375.</p></div>",
+        "ledtrad": "<p>Använd kolumnen ”Förutsagt: cancer”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.375,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "d"
+      },
+      {
+        "fraga": "<p>Vilket mått är viktigast att få högt när AI:n letar efter cancer? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Missade sjuka är farligast</p><p>En missad cancer (falskt negativ) kan vara livsfarlig. Ett falskt larm leder till en extra undersökning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Recall, så att så få sjuka som möjligt missas.</p><ul><li><strong>Recall, så att så få sjuka som möjligt missas:</strong> Recall är 0,9: 2 av 20 sjuka missas.</li><li><strong>Precision, så att så få friska som möjligt får larm:</strong> Ett falskt larm är jobbigt, men en missad cancer är farligare.</li><li><strong>Träffsäkerheten, eftersom den räknar med alla patienter:</strong> De flesta är friska, så träffsäkerheten kan bli hög även om sjuka missas.</li><li><strong>Alla mått är lika viktiga här:</strong> Felen har olika följder, så måtten väger olika tungt.</li></ul></div>",
+        "ledtrad": "<p>Vilket fel är farligast: att missa en sjuk eller att larma för en frisk?</p>",
+        "alternativ": [
+          {
+            "txt": "Recall, så att så få sjuka som möjligt missas",
+            "ratt": true,
+            "kommentar": "Recall är 0,9: 2 av 20 sjuka missas."
+          },
+          {
+            "txt": "Precision, så att så få friska som möjligt får larm",
+            "ratt": false,
+            "kommentar": "Ett falskt larm är jobbigt, men en missad cancer är farligare."
+          },
+          {
+            "txt": "Träffsäkerheten, eftersom den räknar med alla patienter",
+            "ratt": false,
+            "kommentar": "De flesta är friska, så träffsäkerheten kan bli hög även om sjuka missas."
+          },
+          {
+            "txt": "Alla mått är lika viktiga här",
+            "ratt": false,
+            "kommentar": "Felen har olika följder, så måtten väger olika tungt."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Recall, så att så få sjuka som möjligt missas",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "e"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ]
+  },
+  {
+    "id": "4.22",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "E",
+    "poang": "4/0/0",
+    "familj": "Beräkna utvärderingsmått",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.8,
+      0.75,
+      0.9,
+      5
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: katt</th><th style=\"text-align:left\">Förutsagt: hund</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: katt</strong></td><td style=\"text-align:left\">45</td><td style=\"text-align:left\">5</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: hund</strong></td><td style=\"text-align:left\">15</td><td style=\"text-align:left\">35</td></tr></tbody></table><p>En app som känner igen djur på bilder har testats på 100 bilder av katter och hundar. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är katt.</p><p>a) Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt.</p><p>b) Bestäm precisionen, alltså andelen av fallen som modellen kallade katt som verkligen var katt.</p><p>c) Bestäm recall (täckningen), alltså andelen av alla verkliga fall av katt som modellen hittade.</p><p>d) Hur många fall av katt missade modellen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(45 + 35) / 100 = 80/100 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>45 / (45 + 15) = 45/60 = 0,75.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,75.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>45 / (45 + 5) = 45/50 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Falskt negativa (FN)</p><p>Raden ”Verkligt: katt” och kolumnen ”Förutsagt: hund”: 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div></div></div></div>",
+    "ledtrad": "<p>Leta först upp TP, FN, FP och TN i matrisen.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: katt</th><th style=\"text-align:left\">Förutsagt: hund</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: katt</strong></td><td style=\"text-align:left\">45</td><td style=\"text-align:left\">5</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: hund</strong></td><td style=\"text-align:left\">15</td><td style=\"text-align:left\">35</td></tr></tbody></table><p>En app som känner igen djur på bilder har testats på 100 bilder av katter och hundar. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är katt.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(45 + 35) / 100 = 80/100 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div>",
+        "ledtrad": "<p>Rätt klassade fall finns på diagonalen.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm precisionen, alltså andelen av fallen som modellen kallade katt som verkligen var katt. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>45 / (45 + 15) = 45/60 = 0,75.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,75.</p></div>",
+        "ledtrad": "<p>Använd kolumnen ”Förutsagt: katt”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.75,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm recall (täckningen), alltså andelen av alla verkliga fall av katt som modellen hittade. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>45 / (45 + 5) = 45/50 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div>",
+        "ledtrad": "<p>Använd raden ”Verkligt: katt”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.9,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Hur många fall av katt missade modellen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Falskt negativa (FN)</p><p>Raden ”Verkligt: katt” och kolumnen ”Förutsagt: hund”: 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div>",
+        "ledtrad": "<p>Leta efter fall som verkligen var katt men fick fel klass.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.23",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "C",
+    "poang": "3/1/0",
+    "familj": "Beräkna utvärderingsmått",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.986,
+      0.4,
+      0.8,
+      "Nästan alla köp är äkta, så hög träffsäkerhet kan nås utan att hitta bedrägerierna"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: bedrägeri</th><th style=\"text-align:left\">Förutsagt: äkta</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: bedrägeri</strong></td><td style=\"text-align:left\">8</td><td style=\"text-align:left\">12</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: äkta</strong></td><td style=\"text-align:left\">2</td><td style=\"text-align:left\">978</td></tr></tbody></table><p>En bank använder AI för att hitta bedrägliga kortköp. Den har testats på 1 000 köp. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är bedrägeri.</p><p>a) Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt.</p><p>b) Bestäm recall (täckningen), alltså andelen av alla verkliga fall av bedrägeri som modellen hittade.</p><p>c) Bestäm precisionen, alltså andelen av fallen som modellen kallade bedrägeri som verkligen var bedrägeri.</p><p>d) Träffsäkerheten är 0,986. Varför betyder det inte att modellen är bra?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(8 + 978) / 1000 = 986/1000 = 0,986.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,986.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>8 / (8 + 12) = 8/20 = 0,4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,4.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>8 / (8 + 2) = 8/10 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nästan alla köp är äkta</p><p>En modell som alltid säger ”äkta” får 980 av 1000 rätt utan att hitta ett enda bedrägeri.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nästan alla köp är äkta, så hög träffsäkerhet kan nås utan att hitta bedrägerierna.</p></div></div></div></div>",
+    "ledtrad": "<p>Leta först upp TP, FN, FP och TN i matrisen.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: bedrägeri</th><th style=\"text-align:left\">Förutsagt: äkta</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: bedrägeri</strong></td><td style=\"text-align:left\">8</td><td style=\"text-align:left\">12</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: äkta</strong></td><td style=\"text-align:left\">2</td><td style=\"text-align:left\">978</td></tr></tbody></table><p>En bank använder AI för att hitta bedrägliga kortköp. Den har testats på 1 000 köp. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är bedrägeri.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(8 + 978) / 1000 = 986/1000 = 0,986.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,986.</p></div>",
+        "ledtrad": "<p>Rätt klassade fall finns på diagonalen.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.986,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm recall (täckningen), alltså andelen av alla verkliga fall av bedrägeri som modellen hittade. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>8 / (8 + 12) = 8/20 = 0,4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,4.</p></div>",
+        "ledtrad": "<p>Använd raden ”Verkligt: bedrägeri”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm precisionen, alltså andelen av fallen som modellen kallade bedrägeri som verkligen var bedrägeri. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>8 / (8 + 2) = 8/10 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div>",
+        "ledtrad": "<p>Använd kolumnen ”Förutsagt: bedrägeri”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Träffsäkerheten är 0,986. Varför betyder det inte att modellen är bra? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nästan alla köp är äkta</p><p>En modell som alltid säger ”äkta” får 980 av 1000 rätt utan att hitta ett enda bedrägeri.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nästan alla köp är äkta, så hög träffsäkerhet kan nås utan att hitta bedrägerierna.</p><ul><li><strong>Nästan alla köp är äkta, så hög träffsäkerhet kan nås utan att hitta bedrägerierna:</strong> Recall är bara 0,4: 12 av 20 bedrägerier missas.</li><li><strong>Träffsäkerheten räknas fel när det finns många fall:</strong> Beräkningen är rätt. Problemet är att klasserna är ojämnt fördelade.</li><li><strong>Modellen är bra, talet är nära 1:</strong> Den missar ändå mer än hälften av bedrägerierna.</li><li><strong>Träffsäkerheten säger bara något om falska larm:</strong> Den räknar med alla fall, men domineras av de många äkta köpen.</li></ul></div>",
+        "ledtrad": "<p>Hur många rätt skulle en modell få om den alltid sa ”äkta”?</p>",
+        "alternativ": [
+          {
+            "txt": "Nästan alla köp är äkta, så hög träffsäkerhet kan nås utan att hitta bedrägerierna",
+            "ratt": true,
+            "kommentar": "Recall är bara 0,4: 12 av 20 bedrägerier missas."
+          },
+          {
+            "txt": "Träffsäkerheten räknas fel när det finns många fall",
+            "ratt": false,
+            "kommentar": "Beräkningen är rätt. Problemet är att klasserna är ojämnt fördelade."
+          },
+          {
+            "txt": "Modellen är bra, talet är nära 1",
+            "ratt": false,
+            "kommentar": "Den missar ändå mer än hälften av bedrägerierna."
+          },
+          {
+            "txt": "Träffsäkerheten säger bara något om falska larm",
+            "ratt": false,
+            "kommentar": "Den räknar med alla fall, men domineras av de många äkta köpen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Nästan alla köp är äkta, så hög träffsäkerhet kan nås utan att hitta bedrägerierna",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.24",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "C",
+    "poang": "3/1/0",
+    "familj": "Beräkna utvärderingsmått",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      0.95,
+      0.95,
+      "Falskt positivt: någon annan låser upp mobilen"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: ägaren</th><th style=\"text-align:left\">Förutsagt: någon annan</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: ägaren</strong></td><td style=\"text-align:left\">95</td><td style=\"text-align:left\">5</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: någon annan</strong></td><td style=\"text-align:left\">5</td><td style=\"text-align:left\">95</td></tr></tbody></table><p>En mobil låses upp med ansiktsigenkänning. Den har testats med 200 försök. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är ägaren.</p><p>a) Hur många fall klassades som ägaren fast de egentligen var någon annan?</p><p>b) Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt.</p><p>c) Bestäm precisionen, alltså andelen av fallen som modellen kallade ägaren som verkligen var ägaren.</p><p>d) Vilket fel är allvarligast för en mobil som låses upp med ansiktet?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Falskt positiva (FP)</p><p>Raden ”Verkligt: någon annan” och kolumnen ”Förutsagt: ägaren”: 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(95 + 95) / 200 = 190/200 = 0,95.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,95.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>95 / (95 + 5) = 95/100 = 0,95.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,95.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En främling som kommer in</p><p>Ett falskt positivt betyder att någon annan låser upp mobilen. Ett falskt negativt betyder bara att ägaren får försöka igen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Falskt positivt: någon annan låser upp mobilen.</p></div></div></div></div>",
+    "ledtrad": "<p>Leta först upp TP, FN, FP och TN i matrisen.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: ägaren</th><th style=\"text-align:left\">Förutsagt: någon annan</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: ägaren</strong></td><td style=\"text-align:left\">95</td><td style=\"text-align:left\">5</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: någon annan</strong></td><td style=\"text-align:left\">5</td><td style=\"text-align:left\">95</td></tr></tbody></table><p>En mobil låses upp med ansiktsigenkänning. Den har testats med 200 försök. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är ägaren.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många fall klassades som ägaren fast de egentligen var någon annan?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Falskt positiva (FP)</p><p>Raden ”Verkligt: någon annan” och kolumnen ”Förutsagt: ägaren”: 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div>",
+        "ledtrad": "<p>Leta upp rätt rad och kolumn.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(95 + 95) / 200 = 190/200 = 0,95.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,95.</p></div>",
+        "ledtrad": "<p>Rätt klassade fall finns på diagonalen.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.95,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm precisionen, alltså andelen av fallen som modellen kallade ägaren som verkligen var ägaren. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>95 / (95 + 5) = 95/100 = 0,95.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,95.</p></div>",
+        "ledtrad": "<p>Använd kolumnen ”Förutsagt: ägaren”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.95,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Vilket fel är allvarligast för en mobil som låses upp med ansiktet? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En främling som kommer in</p><p>Ett falskt positivt betyder att någon annan låser upp mobilen. Ett falskt negativt betyder bara att ägaren får försöka igen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Falskt positivt: någon annan låser upp mobilen.</p><ul><li><strong>Falskt positivt: någon annan låser upp mobilen:</strong> Det är ett säkerhetsproblem. Därför vill man ha mycket hög precision.</li><li><strong>Falskt negativt: ägaren känns inte igen:</strong> Det är irriterande, men ägaren kan använda en kod i stället.</li><li><strong>Sant negativt: någon annan nekas:</strong> Det är ett rätt beslut, inget fel.</li><li><strong>Alla fel är lika allvarliga:</strong> Att släppa in en främling är värre än att neka ägaren en gång.</li></ul></div>",
+        "ledtrad": "<p>Vad händer vid varje sorts fel?</p>",
+        "alternativ": [
+          {
+            "txt": "Falskt positivt: någon annan låser upp mobilen",
+            "ratt": true,
+            "kommentar": "Det är ett säkerhetsproblem. Därför vill man ha mycket hög precision."
+          },
+          {
+            "txt": "Falskt negativt: ägaren känns inte igen",
+            "ratt": false,
+            "kommentar": "Det är irriterande, men ägaren kan använda en kod i stället."
+          },
+          {
+            "txt": "Sant negativt: någon annan nekas",
+            "ratt": false,
+            "kommentar": "Det är ett rätt beslut, inget fel."
+          },
+          {
+            "txt": "Alla fel är lika allvarliga",
+            "ratt": false,
+            "kommentar": "Att släppa in en främling är värre än att neka ägaren en gång."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Falskt positivt: någon annan låser upp mobilen",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.25",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "E",
+    "poang": "4/0/0",
+    "familj": "Beräkna utvärderingsmått",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      0.896,
+      0.9,
+      0.8
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: fotgängare</th><th style=\"text-align:left\">Förutsagt: ingen fotgängare</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: fotgängare</strong></td><td style=\"text-align:left\">72</td><td style=\"text-align:left\">8</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: ingen fotgängare</strong></td><td style=\"text-align:left\">18</td><td style=\"text-align:left\">152</td></tr></tbody></table><p>En självkörande bil ska upptäcka fotgängare. Systemet har testats på 250 bilder från bilens kamera. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är fotgängare.</p><p>a) Hur många fall av fotgängare missade modellen?</p><p>b) Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt.</p><p>c) Bestäm recall (täckningen), alltså andelen av alla verkliga fall av fotgängare som modellen hittade.</p><p>d) Bestäm precisionen, alltså andelen av fallen som modellen kallade fotgängare som verkligen var fotgängare.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Falskt negativa (FN)</p><p>Raden ”Verkligt: fotgängare” och kolumnen ”Förutsagt: ingen fotgängare”: 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(72 + 152) / 250 = 224/250 = 0,896.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,896.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>72 / (72 + 8) = 72/80 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>72 / (72 + 18) = 72/90 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div></div></div></div>",
+    "ledtrad": "<p>Leta först upp TP, FN, FP och TN i matrisen.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: fotgängare</th><th style=\"text-align:left\">Förutsagt: ingen fotgängare</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: fotgängare</strong></td><td style=\"text-align:left\">72</td><td style=\"text-align:left\">8</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: ingen fotgängare</strong></td><td style=\"text-align:left\">18</td><td style=\"text-align:left\">152</td></tr></tbody></table><p>En självkörande bil ska upptäcka fotgängare. Systemet har testats på 250 bilder från bilens kamera. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är fotgängare.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många fall av fotgängare missade modellen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Falskt negativa (FN)</p><p>Raden ”Verkligt: fotgängare” och kolumnen ”Förutsagt: ingen fotgängare”: 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div>",
+        "ledtrad": "<p>Leta efter fall som verkligen var fotgängare men fick fel klass.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(72 + 152) / 250 = 224/250 = 0,896.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,896.</p></div>",
+        "ledtrad": "<p>Rätt klassade fall finns på diagonalen.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.896,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm recall (täckningen), alltså andelen av alla verkliga fall av fotgängare som modellen hittade. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>72 / (72 + 8) = 72/80 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div>",
+        "ledtrad": "<p>Använd raden ”Verkligt: fotgängare”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.9,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Bestäm precisionen, alltså andelen av fallen som modellen kallade fotgängare som verkligen var fotgängare. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>72 / (72 + 18) = 72/90 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div>",
+        "ledtrad": "<p>Använd kolumnen ”Förutsagt: fotgängare”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.26",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "E",
+    "poang": "4/0/0",
+    "familj": "Beräkna utvärderingsmått",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      0.86,
+      0.8,
+      0.96
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: burk</th><th style=\"text-align:left\">Förutsagt: flaska</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: burk</strong></td><td style=\"text-align:left\">192</td><td style=\"text-align:left\">8</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: flaska</strong></td><td style=\"text-align:left\">48</td><td style=\"text-align:left\">152</td></tr></tbody></table><p>En AI sorterar burkar och flaskor vid en pantstation. Den har testats på 400 föremål. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är burk.</p><p>a) Hur många fall av burk missade modellen?</p><p>b) Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt.</p><p>c) Bestäm precisionen, alltså andelen av fallen som modellen kallade burk som verkligen var burk.</p><p>d) Bestäm recall (täckningen), alltså andelen av alla verkliga fall av burk som modellen hittade.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Falskt negativa (FN)</p><p>Raden ”Verkligt: burk” och kolumnen ”Förutsagt: flaska”: 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(192 + 152) / 400 = 344/400 = 0,86.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,86.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>192 / (192 + 48) = 192/240 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>192 / (192 + 8) = 192/200 = 0,96.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,96.</p></div></div></div></div>",
+    "ledtrad": "<p>Leta först upp TP, FN, FP och TN i matrisen.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: burk</th><th style=\"text-align:left\">Förutsagt: flaska</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: burk</strong></td><td style=\"text-align:left\">192</td><td style=\"text-align:left\">8</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: flaska</strong></td><td style=\"text-align:left\">48</td><td style=\"text-align:left\">152</td></tr></tbody></table><p>En AI sorterar burkar och flaskor vid en pantstation. Den har testats på 400 föremål. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är burk.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många fall av burk missade modellen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Falskt negativa (FN)</p><p>Raden ”Verkligt: burk” och kolumnen ”Förutsagt: flaska”: 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div>",
+        "ledtrad": "<p>Leta efter fall som verkligen var burk men fick fel klass.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(192 + 152) / 400 = 344/400 = 0,86.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,86.</p></div>",
+        "ledtrad": "<p>Rätt klassade fall finns på diagonalen.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.86,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm precisionen, alltså andelen av fallen som modellen kallade burk som verkligen var burk. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>192 / (192 + 48) = 192/240 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div>",
+        "ledtrad": "<p>Använd kolumnen ”Förutsagt: burk”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Bestäm recall (täckningen), alltså andelen av alla verkliga fall av burk som modellen hittade. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>192 / (192 + 8) = 192/200 = 0,96.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,96.</p></div>",
+        "ledtrad": "<p>Använd raden ”Verkligt: burk”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.96,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.27",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "C",
+    "poang": "3/1/0",
+    "familj": "Beräkna utvärderingsmått",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      0.5,
+      0.8,
+      "Hälften av de utpekade eleverna har inte fuskat"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: fusk</th><th style=\"text-align:left\">Förutsagt: inte fusk</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: fusk</strong></td><td style=\"text-align:left\">4</td><td style=\"text-align:left\">1</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: inte fusk</strong></td><td style=\"text-align:left\">4</td><td style=\"text-align:left\">41</td></tr></tbody></table><p>En skola testar en AI som ska upptäcka fusk i inlämningar. Den har testats på 50 inlämningar. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är fusk.</p><p>a) Hur många fall klassades som fusk fast de egentligen var inte fusk?</p><p>b) Bestäm precisionen, alltså andelen av fallen som modellen kallade fusk som verkligen var fusk.</p><p>c) Bestäm recall (täckningen), alltså andelen av alla verkliga fall av fusk som modellen hittade.</p><p>d) Precisionen är 0,5. Vad betyder det för eleverna?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Falskt positiva (FP)</p><p>Raden ”Verkligt: inte fusk” och kolumnen ”Förutsagt: fusk”: 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>4 / (4 + 4) = 4/8 = 0,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>4 / (4 + 1) = 4/5 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hälften av de utpekade är oskyldiga</p><p>Av de 8 inlämningar AI:n pekade ut var bara 4 fusk. 4 elever skulle anklagas felaktigt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hälften av de utpekade eleverna har inte fuskat.</p></div></div></div></div>",
+    "ledtrad": "<p>Leta först upp TP, FN, FP och TN i matrisen.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: fusk</th><th style=\"text-align:left\">Förutsagt: inte fusk</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: fusk</strong></td><td style=\"text-align:left\">4</td><td style=\"text-align:left\">1</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: inte fusk</strong></td><td style=\"text-align:left\">4</td><td style=\"text-align:left\">41</td></tr></tbody></table><p>En skola testar en AI som ska upptäcka fusk i inlämningar. Den har testats på 50 inlämningar. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är fusk.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många fall klassades som fusk fast de egentligen var inte fusk?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Falskt positiva (FP)</p><p>Raden ”Verkligt: inte fusk” och kolumnen ”Förutsagt: fusk”: 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div>",
+        "ledtrad": "<p>Leta upp rätt rad och kolumn.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm precisionen, alltså andelen av fallen som modellen kallade fusk som verkligen var fusk. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>4 / (4 + 4) = 4/8 = 0,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5.</p></div>",
+        "ledtrad": "<p>Använd kolumnen ”Förutsagt: fusk”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm recall (täckningen), alltså andelen av alla verkliga fall av fusk som modellen hittade. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>4 / (4 + 1) = 4/5 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div>",
+        "ledtrad": "<p>Använd raden ”Verkligt: fusk”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Precisionen är 0,5. Vad betyder det för eleverna? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hälften av de utpekade är oskyldiga</p><p>Av de 8 inlämningar AI:n pekade ut var bara 4 fusk. 4 elever skulle anklagas felaktigt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hälften av de utpekade eleverna har inte fuskat.</p><ul><li><strong>Hälften av de utpekade eleverna har inte fuskat:</strong> Därför måste en lärare granska varje fall. AI:n kan inte döma själv.</li><li><strong>AI:n hittar hälften av allt fusk:</strong> Det beskriver recall, som här är 0,8.</li><li><strong>Hälften av alla inlämningar är fusk:</strong> Bara 5 av 50 inlämningar var fusk.</li><li><strong>AI:n gör aldrig fel på elever som inte fuskat:</strong> 4 elever som inte fuskat pekades ut.</li></ul></div>",
+        "ledtrad": "<p>Räknar precisionen på alla inlämningar eller bara på de utpekade?</p>",
+        "alternativ": [
+          {
+            "txt": "Hälften av de utpekade eleverna har inte fuskat",
+            "ratt": true,
+            "kommentar": "Därför måste en lärare granska varje fall. AI:n kan inte döma själv."
+          },
+          {
+            "txt": "AI:n hittar hälften av allt fusk",
+            "ratt": false,
+            "kommentar": "Det beskriver recall, som här är 0,8."
+          },
+          {
+            "txt": "Hälften av alla inlämningar är fusk",
+            "ratt": false,
+            "kommentar": "Bara 5 av 50 inlämningar var fusk."
+          },
+          {
+            "txt": "AI:n gör aldrig fel på elever som inte fuskat",
+            "ratt": false,
+            "kommentar": "4 elever som inte fuskat pekades ut."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Hälften av de utpekade eleverna har inte fuskat",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.28",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "E",
+    "poang": "5/0/0",
+    "familj": "Beräkna utvärderingsmått",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      50,
+      0.93,
+      0.8,
+      0.96,
+      "Falskt positivt"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: orden sades</th><th style=\"text-align:left\">Förutsagt: orden sades inte</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: orden sades</strong></td><td style=\"text-align:left\">48</td><td style=\"text-align:left\">2</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: orden sades inte</strong></td><td style=\"text-align:left\">12</td><td style=\"text-align:left\">138</td></tr></tbody></table><p>En röstassistent ska vakna när någon säger ”Hej Nova”. Den har testats med 200 korta ljudklipp. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är orden sades.</p><p>a) Hur många av fallen var verkligen orden sades?</p><p>b) Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt.</p><p>c) Bestäm precisionen, alltså andelen av fallen som modellen kallade orden sades som verkligen var orden sades.</p><p>d) Bestäm recall (täckningen), alltså andelen av alla verkliga fall av orden sades som modellen hittade.</p><p>e) Ibland vaknar röstassistenten fast ingen har sagt ”Hej Nova”. Vilken sorts fel är det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Falskt positivt</p><p class=\"ul-alt\"><strong>B.</strong> Falskt negativt</p><p class=\"ul-alt\"><strong>C.</strong> Sant positivt</p><p class=\"ul-alt\"><strong>D.</strong> Sant negativt</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Raden för den positiva klassen: TP + FN</p><p>48 + 2 = 50.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(48 + 138) / 200 = 186/200 = 0,93.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,93.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>48 / (48 + 12) = 48/60 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>48 / (48 + 2) = 48/50 = 0,96.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,96.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Falskt positivt</p><p>Assistenten svarar ”ordet sades” fast det inte sades. Det är ett falskt positivt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Falskt positivt.</p><ul><li><strong>A:</strong> Det hände 12 gånger i testet.</li><li><strong>B:</strong> Ett falskt negativt är när någon säger orden men assistenten inte vaknar.</li><li><strong>C:</strong> Ett sant positivt är när orden sades och assistenten vaknade.</li><li><strong>D:</strong> Ett sant negativt är när orden inte sades och assistenten sov vidare.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Leta först upp TP, FN, FP och TN i matrisen.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: orden sades</th><th style=\"text-align:left\">Förutsagt: orden sades inte</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: orden sades</strong></td><td style=\"text-align:left\">48</td><td style=\"text-align:left\">2</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: orden sades inte</strong></td><td style=\"text-align:left\">12</td><td style=\"text-align:left\">138</td></tr></tbody></table><p>En röstassistent ska vakna när någon säger ”Hej Nova”. Den har testats med 200 korta ljudklipp. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är orden sades.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många av fallen var verkligen orden sades?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Raden för den positiva klassen: TP + FN</p><p>48 + 2 = 50.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50.</p></div>",
+        "ledtrad": "<p>Lägg ihop raden ”Verkligt: orden sades”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 50,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(48 + 138) / 200 = 186/200 = 0,93.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,93.</p></div>",
+        "ledtrad": "<p>Rätt klassade fall finns på diagonalen.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.93,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm precisionen, alltså andelen av fallen som modellen kallade orden sades som verkligen var orden sades. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>48 / (48 + 12) = 48/60 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div>",
+        "ledtrad": "<p>Använd kolumnen ”Förutsagt: orden sades”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Bestäm recall (täckningen), alltså andelen av alla verkliga fall av orden sades som modellen hittade. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>48 / (48 + 2) = 48/50 = 0,96.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,96.</p></div>",
+        "ledtrad": "<p>Använd raden ”Verkligt: orden sades”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.96,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "d"
+      },
+      {
+        "fraga": "<p>Ibland vaknar röstassistenten fast ingen har sagt ”Hej Nova”. Vilken sorts fel är det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Falskt positivt</p><p>Assistenten svarar ”ordet sades” fast det inte sades. Det är ett falskt positivt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Falskt positivt.</p><ul><li><strong>Falskt positivt:</strong> Det hände 12 gånger i testet.</li><li><strong>Falskt negativt:</strong> Ett falskt negativt är när någon säger orden men assistenten inte vaknar.</li><li><strong>Sant positivt:</strong> Ett sant positivt är när orden sades och assistenten vaknade.</li><li><strong>Sant negativt:</strong> Ett sant negativt är när orden inte sades och assistenten sov vidare.</li></ul></div>",
+        "ledtrad": "<p>Vad svarar assistenten, och vad var sant?</p>",
+        "alternativ": [
+          {
+            "txt": "Falskt positivt",
+            "ratt": true,
+            "kommentar": "Det hände 12 gånger i testet."
+          },
+          {
+            "txt": "Falskt negativt",
+            "ratt": false,
+            "kommentar": "Ett falskt negativt är när någon säger orden men assistenten inte vaknar."
+          },
+          {
+            "txt": "Sant positivt",
+            "ratt": false,
+            "kommentar": "Ett sant positivt är när orden sades och assistenten vaknade."
+          },
+          {
+            "txt": "Sant negativt",
+            "ratt": false,
+            "kommentar": "Ett sant negativt är när orden inte sades och assistenten sov vidare."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Falskt positivt",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "e"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ]
+  },
+  {
+    "id": "4.29",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "E",
+    "poang": "4/0/0",
+    "familj": "Beräkna utvärderingsmått",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.8,
+      0.7,
+      0.875,
+      "Precision"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: ogräs</th><th style=\"text-align:left\">Förutsagt: nyttig planta</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: ogräs</strong></td><td style=\"text-align:left\">70</td><td style=\"text-align:left\">30</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: nyttig planta</strong></td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">90</td></tr></tbody></table><p>En ogräsrobot ska bara spruta på ogräs. Den har testats på 200 plantor i ett grönsaksland. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är ogräs.</p><p>a) Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt.</p><p>b) Bestäm recall (täckningen), alltså andelen av alla verkliga fall av ogräs som modellen hittade.</p><p>c) Bestäm precisionen, alltså andelen av fallen som modellen kallade ogräs som verkligen var ogräs.</p><p>d) Om roboten sprutar på en nyttig planta skadas den. Vilket mått visar hur stor andel av de besprutade plantorna som verkligen var ogräs? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Precision</p><p class=\"ul-alt\"><strong>B.</strong> Recall</p><p class=\"ul-alt\"><strong>C.</strong> Träffsäkerhet</p><p class=\"ul-alt\"><strong>D.</strong> Antalet sant negativa</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(70 + 90) / 200 = 160/200 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>70 / (70 + 30) = 70/100 = 0,7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,7.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>70 / (70 + 10) = 70/80 = 0,875.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,875.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision</p><p>Roboten sprutar på allt den förutsäger är ogräs. Precisionen är andelen av dem som verkligen var ogräs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Precision.</p><ul><li><strong>A:</strong> Precisionen är 0,875.</li><li><strong>B:</strong> Recall visar hur stor andel av allt ogräs som besprutades.</li><li><strong>C:</strong> Träffsäkerheten räknar med alla plantor, även de som inte besprutades.</li><li><strong>D:</strong> Sant negativa är nyttiga plantor som roboten lät vara.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Leta först upp TP, FN, FP och TN i matrisen.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: ogräs</th><th style=\"text-align:left\">Förutsagt: nyttig planta</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: ogräs</strong></td><td style=\"text-align:left\">70</td><td style=\"text-align:left\">30</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: nyttig planta</strong></td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">90</td></tr></tbody></table><p>En ogräsrobot ska bara spruta på ogräs. Den har testats på 200 plantor i ett grönsaksland. Klassificeringsmatrisen visar resultatet. Raderna är den verkliga klassen och kolumnerna det modellen förutsade. Positiv klass är ogräs.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Bestäm träffsäkerheten (accuracy), alltså andelen av alla fall som modellen klassar rätt. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(70 + 90) / 200 = 160/200 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div>",
+        "ledtrad": "<p>Rätt klassade fall finns på diagonalen.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm recall (täckningen), alltså andelen av alla verkliga fall av ogräs som modellen hittade. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>70 / (70 + 30) = 70/100 = 0,7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,7.</p></div>",
+        "ledtrad": "<p>Använd raden ”Verkligt: ogräs”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.7,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm precisionen, alltså andelen av fallen som modellen kallade ogräs som verkligen var ogräs. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>70 / (70 + 10) = 70/80 = 0,875.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,875.</p></div>",
+        "ledtrad": "<p>Använd kolumnen ”Förutsagt: ogräs”.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.875,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Om roboten sprutar på en nyttig planta skadas den. Vilket mått visar hur stor andel av de besprutade plantorna som verkligen var ogräs? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision</p><p>Roboten sprutar på allt den förutsäger är ogräs. Precisionen är andelen av dem som verkligen var ogräs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Precision.</p><ul><li><strong>Precision:</strong> Precisionen är 0,875.</li><li><strong>Recall:</strong> Recall visar hur stor andel av allt ogräs som besprutades.</li><li><strong>Träffsäkerhet:</strong> Träffsäkerheten räknar med alla plantor, även de som inte besprutades.</li><li><strong>Antalet sant negativa:</strong> Sant negativa är nyttiga plantor som roboten lät vara.</li></ul></div>",
+        "ledtrad": "<p>Vilken kolumn i matrisen beskriver de besprutade plantorna?</p>",
+        "alternativ": [
+          {
+            "txt": "Precision",
+            "ratt": true,
+            "kommentar": "Precisionen är 0,875."
+          },
+          {
+            "txt": "Recall",
+            "ratt": false,
+            "kommentar": "Recall visar hur stor andel av allt ogräs som besprutades."
+          },
+          {
+            "txt": "Träffsäkerhet",
+            "ratt": false,
+            "kommentar": "Träffsäkerheten räknar med alla plantor, även de som inte besprutades."
+          },
+          {
+            "txt": "Antalet sant negativa",
+            "ratt": false,
+            "kommentar": "Sant negativa är nyttiga plantor som roboten lät vara."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Precision",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.30",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Tolka klassificeringsmatrisen",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Falskt negativ (FN)",
+      "På diagonalen: TP och TN",
+      "Recall ökar, men precisionen brukar minska"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: sjuk</th><th style=\"text-align:left\">Förutsagt: frisk</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: sjuk</strong></td><td style=\"text-align:left\">sant positiv (TP)</td><td style=\"text-align:left\">falskt negativ (FN)</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: frisk</strong></td><td style=\"text-align:left\">falskt positiv (FP)</td><td style=\"text-align:left\">sant negativ (TN)</td></tr></tbody></table><p>En klassificeringsmatris har fyra rutor. Här gäller den ett test för en sjukdom, där positiv betyder sjuk.</p><p>a) En sjuk person får beskedet att den är frisk. Vilken ruta hamnar personen i? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Falskt negativ (FN)</p><p class=\"ul-alt\"><strong>B.</strong> Falskt positiv (FP)</p><p class=\"ul-alt\"><strong>C.</strong> Sant negativ (TN)</p><p class=\"ul-alt\"><strong>D.</strong> Sant positiv (TP)</p><p>b) Var i matrisen finns alla fall som testet klassade rätt? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> På diagonalen: TP och TN</p><p class=\"ul-alt\"><strong>B.</strong> I den översta raden</p><p class=\"ul-alt\"><strong>C.</strong> I den vänstra kolumnen</p><p class=\"ul-alt\"><strong>D.</strong> I rutorna FP och FN</p><p>c) Testet ändras så att det säger ”sjuk” mycket oftare än förut. Vad händer troligen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testet har fel och svarar negativt</p><p>”Falskt” betyder att testet har fel. ”Negativt” betyder att testet svarar frisk.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Falskt negativ (FN).</p><ul><li><strong>A:</strong> Testet missar en sjuk person.</li><li><strong>B:</strong> FP är en frisk person som testet säger är sjuk.</li><li><strong>C:</strong> TN är en frisk person som testet säger är frisk.</li><li><strong>D:</strong> TP är en sjuk person som testet säger är sjuk.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Diagonalen</p><p>TP och TN ligger på diagonalen från övre vänstra till nedre högra hörnet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> På diagonalen: TP och TN.</p><ul><li><strong>A:</strong> Där stämmer verklig och förutsagd klass.</li><li><strong>B:</strong> Översta raden är alla sjuka, både rätt och fel klassade.</li><li><strong>C:</strong> Vänstra kolumnen är alla som fick beskedet sjuk, både rätt och fel.</li><li><strong>D:</strong> Det är just felen.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fler sjuka hittas, men fler falska larm</p><p>Fler sjuka hittas, så recall ökar. Men fler friska får också larm, så precisionen brukar minska.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Recall ökar, men precisionen brukar minska.</p></div></div></div></div>",
+    "ledtrad": "<p>Sant/falskt: har testet rätt? Positivt/negativt: vad svarar testet?</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: sjuk</th><th style=\"text-align:left\">Förutsagt: frisk</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: sjuk</strong></td><td style=\"text-align:left\">sant positiv (TP)</td><td style=\"text-align:left\">falskt negativ (FN)</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: frisk</strong></td><td style=\"text-align:left\">falskt positiv (FP)</td><td style=\"text-align:left\">sant negativ (TN)</td></tr></tbody></table><p>En klassificeringsmatris har fyra rutor. Här gäller den ett test för en sjukdom, där positiv betyder sjuk.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>En sjuk person får beskedet att den är frisk. Vilken ruta hamnar personen i? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Testet har fel och svarar negativt</p><p>”Falskt” betyder att testet har fel. ”Negativt” betyder att testet svarar frisk.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Falskt negativ (FN).</p><ul><li><strong>Falskt negativ (FN):</strong> Testet missar en sjuk person.</li><li><strong>Falskt positiv (FP):</strong> FP är en frisk person som testet säger är sjuk.</li><li><strong>Sant negativ (TN):</strong> TN är en frisk person som testet säger är frisk.</li><li><strong>Sant positiv (TP):</strong> TP är en sjuk person som testet säger är sjuk.</li></ul></div>",
+        "ledtrad": "<p>”Falskt” eller ”sant” säger om testet har rätt. ”Positivt” eller ”negativt” säger vad testet svarar.</p>",
+        "alternativ": [
+          {
+            "txt": "Falskt negativ (FN)",
+            "ratt": true,
+            "kommentar": "Testet missar en sjuk person."
+          },
+          {
+            "txt": "Falskt positiv (FP)",
+            "ratt": false,
+            "kommentar": "FP är en frisk person som testet säger är sjuk."
+          },
+          {
+            "txt": "Sant negativ (TN)",
+            "ratt": false,
+            "kommentar": "TN är en frisk person som testet säger är frisk."
+          },
+          {
+            "txt": "Sant positiv (TP)",
+            "ratt": false,
+            "kommentar": "TP är en sjuk person som testet säger är sjuk."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Falskt negativ (FN)",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Var i matrisen finns alla fall som testet klassade rätt? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Diagonalen</p><p>TP och TN ligger på diagonalen från övre vänstra till nedre högra hörnet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> På diagonalen: TP och TN.</p><ul><li><strong>På diagonalen: TP och TN:</strong> Där stämmer verklig och förutsagd klass.</li><li><strong>I den översta raden:</strong> Översta raden är alla sjuka, både rätt och fel klassade.</li><li><strong>I den vänstra kolumnen:</strong> Vänstra kolumnen är alla som fick beskedet sjuk, både rätt och fel.</li><li><strong>I rutorna FP och FN:</strong> Det är just felen.</li></ul></div>",
+        "ledtrad": "<p>Var stämmer den verkliga klassen med den förutsagda?</p>",
+        "alternativ": [
+          {
+            "txt": "På diagonalen: TP och TN",
+            "ratt": true,
+            "kommentar": "Där stämmer verklig och förutsagd klass."
+          },
+          {
+            "txt": "I den översta raden",
+            "ratt": false,
+            "kommentar": "Översta raden är alla sjuka, både rätt och fel klassade."
+          },
+          {
+            "txt": "I den vänstra kolumnen",
+            "ratt": false,
+            "kommentar": "Vänstra kolumnen är alla som fick beskedet sjuk, både rätt och fel."
+          },
+          {
+            "txt": "I rutorna FP och FN",
+            "ratt": false,
+            "kommentar": "Det är just felen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "På diagonalen: TP och TN",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Testet ändras så att det säger ”sjuk” mycket oftare än förut. Vad händer troligen? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fler sjuka hittas, men fler falska larm</p><p>Fler sjuka hittas, så recall ökar. Men fler friska får också larm, så precisionen brukar minska.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Recall ökar, men precisionen brukar minska.</p><ul><li><strong>Recall ökar, men precisionen brukar minska:</strong> Det är en avvägning mellan att hitta alla och att undvika falska larm.</li><li><strong>Både precision och recall ökar:</strong> Fler larm ger fler falska positiva, så precisionen brukar sjunka.</li><li><strong>Precisionen ökar, men recall minskar:</strong> Det är tvärtom: fler larm ger högre recall.</li><li><strong>Ingenting ändras:</strong> Fler larm ändrar både FN och FP.</li></ul></div>",
+        "ledtrad": "<p>Vad händer med antalet FN och FP när testet larmar oftare?</p>",
+        "alternativ": [
+          {
+            "txt": "Recall ökar, men precisionen brukar minska",
+            "ratt": true,
+            "kommentar": "Det är en avvägning mellan att hitta alla och att undvika falska larm."
+          },
+          {
+            "txt": "Både precision och recall ökar",
+            "ratt": false,
+            "kommentar": "Fler larm ger fler falska positiva, så precisionen brukar sjunka."
+          },
+          {
+            "txt": "Precisionen ökar, men recall minskar",
+            "ratt": false,
+            "kommentar": "Det är tvärtom: fler larm ger högre recall."
+          },
+          {
+            "txt": "Ingenting ändras",
+            "ratt": false,
+            "kommentar": "Fler larm ändrar både FN och FP."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Recall ökar, men precisionen brukar minska",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.31",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Tolka klassificeringsmatrisen",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.98,
+      0,
+      "Hög träffsäkerhet kan vara missvisande när en klass är mycket vanligare än den andra"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: bedrägeri</th><th style=\"text-align:left\">Förutsagt: äkta</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: bedrägeri</strong></td><td style=\"text-align:left\">0</td><td style=\"text-align:left\">20</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: äkta</strong></td><td style=\"text-align:left\">0</td><td style=\"text-align:left\">980</td></tr></tbody></table><p>En lat modell säger alltid ”äkta” om alla 1 000 kortköp, varav 20 egentligen är bedrägerier.</p><p>a) Bestäm träffsäkerheten för den lata modellen.</p><p>b) Hur stor är recall för den lata modellen?</p><p>c) Vad visar exemplet?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(0 + 980) / 1 000 = 0,98.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,98.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>0 / (0 + 20) = 0. Den hittar inget bedrägeri.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerheten räcker inte när en klass är ovanlig</p><p>När en klass är mycket vanligare kan en modell få hög träffsäkerhet utan att vara till någon nytta.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hög träffsäkerhet kan vara missvisande när en klass är mycket vanligare än den andra.</p></div></div></div></div>",
+    "ledtrad": "<p>Jämför träffsäkerhet och recall.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\"></th><th style=\"text-align:left\">Förutsagt: bedrägeri</th><th style=\"text-align:left\">Förutsagt: äkta</th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>Verkligt: bedrägeri</strong></td><td style=\"text-align:left\">0</td><td style=\"text-align:left\">20</td></tr><tr><td style=\"text-align:left\"><strong>Verkligt: äkta</strong></td><td style=\"text-align:left\">0</td><td style=\"text-align:left\">980</td></tr></tbody></table><p>En lat modell säger alltid ”äkta” om alla 1 000 kortköp, varav 20 egentligen är bedrägerier.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Bestäm träffsäkerheten för den lata modellen. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(0 + 980) / 1 000 = 0,98.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,98.</p></div>",
+        "ledtrad": "<p>Räkna de rätt klassade fallen på diagonalen.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.98,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Hur stor är recall för den lata modellen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>0 / (0 + 20) = 0. Den hittar inget bedrägeri.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div>",
+        "ledtrad": "<p>Hur många bedrägerier hittar den?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad visar exemplet? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerheten räcker inte när en klass är ovanlig</p><p>När en klass är mycket vanligare kan en modell få hög träffsäkerhet utan att vara till någon nytta.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hög träffsäkerhet kan vara missvisande när en klass är mycket vanligare än den andra.</p><ul><li><strong>Hög träffsäkerhet kan vara missvisande när en klass är mycket vanligare än den andra:</strong> Därför används också precision och recall.</li><li><strong>Modellen är bra eftersom träffsäkerheten är 0,98:</strong> Den hittar inte ett enda bedrägeri.</li><li><strong>Recall är alltid lika med träffsäkerheten:</strong> Här är träffsäkerheten 0,98 men recall 0.</li><li><strong>Man ska alltid välja den modell som har högst träffsäkerhet:</strong> Den lata modellen har hög träffsäkerhet men är oanvändbar.</li></ul></div>",
+        "ledtrad": "<p>Är modellen användbar för banken?</p>",
+        "alternativ": [
+          {
+            "txt": "Hög träffsäkerhet kan vara missvisande när en klass är mycket vanligare än den andra",
+            "ratt": true,
+            "kommentar": "Därför används också precision och recall."
+          },
+          {
+            "txt": "Modellen är bra eftersom träffsäkerheten är 0,98",
+            "ratt": false,
+            "kommentar": "Den hittar inte ett enda bedrägeri."
+          },
+          {
+            "txt": "Recall är alltid lika med träffsäkerheten",
+            "ratt": false,
+            "kommentar": "Här är träffsäkerheten 0,98 men recall 0."
+          },
+          {
+            "txt": "Man ska alltid välja den modell som har högst träffsäkerhet",
+            "ratt": false,
+            "kommentar": "Den lata modellen har hög träffsäkerhet men är oanvändbar."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Hög träffsäkerhet kan vara missvisande när en klass är mycket vanligare än den andra",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.32",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Tolka klassificeringsmatrisen",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.9,
+      0.75,
+      "Modell A, eftersom den missar färre sjuka"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<p>Två modeller ska hitta en ovanlig sjukdom. Båda har testats på samma 1 000 personer, varav 50 är sjuka.</p><table class=\"data\"><thead><tr><th style=\"text-align:left\">Modell</th><th style=\"text-align:left\">TP</th><th style=\"text-align:left\">FN</th><th style=\"text-align:left\">FP</th><th style=\"text-align:left\">TN</th></tr></thead><tbody><tr><td style=\"text-align:left\">A</td><td style=\"text-align:left\">45</td><td style=\"text-align:left\">5</td><td style=\"text-align:left\">95</td><td style=\"text-align:left\">855</td></tr><tr><td style=\"text-align:left\">B</td><td style=\"text-align:left\">30</td><td style=\"text-align:left\">20</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">940</td></tr></tbody></table><p>a) Bestäm recall för modell A.</p><p>b) Bestäm precisionen för modell B.</p><p>c) Sjukdomen är farlig men går att bota om den upptäcks. Ett larm leder till ett enkelt blodprov. Vilken modell bör användas? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Modell A, eftersom den missar färre sjuka</p><p class=\"ul-alt\"><strong>B.</strong> Modell B, eftersom den har högre precision</p><p class=\"ul-alt\"><strong>C.</strong> Modell B, eftersom den har högre träffsäkerhet</p><p class=\"ul-alt\"><strong>D.</strong> Det spelar ingen roll</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>45 / (45 + 5) = 45/50 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>30 / (30 + 10) = 30/40 = 0,75.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,75.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hitta så många sjuka som möjligt</p><p>A hittar 45 av 50 sjuka (recall 0,9), B bara 30 (recall 0,6). Ett falskt larm kostar bara ett blodprov.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell A, eftersom den missar färre sjuka.</p><ul><li><strong>A:</strong> Recall är viktigast när en missad sjuk är farlig och ett falskt larm är billigt.</li><li><strong>B:</strong> B missar 20 sjuka, vilket är värre än några extra blodprov.</li><li><strong>C:</strong> Träffsäkerheten domineras av de 950 friska.</li><li><strong>D:</strong> A hittar 15 fler sjuka än B.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Välj mått efter vilket fel som är värst.</p>",
+    "spelIntro": "<p>Två modeller ska hitta en ovanlig sjukdom. Båda har testats på samma 1 000 personer, varav 50 är sjuka.</p><table class=\"data\"><thead><tr><th style=\"text-align:left\">Modell</th><th style=\"text-align:left\">TP</th><th style=\"text-align:left\">FN</th><th style=\"text-align:left\">FP</th><th style=\"text-align:left\">TN</th></tr></thead><tbody><tr><td style=\"text-align:left\">A</td><td style=\"text-align:left\">45</td><td style=\"text-align:left\">5</td><td style=\"text-align:left\">95</td><td style=\"text-align:left\">855</td></tr><tr><td style=\"text-align:left\">B</td><td style=\"text-align:left\">30</td><td style=\"text-align:left\">20</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">940</td></tr></tbody></table>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Bestäm recall för modell A. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>45 / (45 + 5) = 45/50 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div>",
+        "ledtrad": "<p>Hur stor andel av de 50 sjuka hittar A?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.9,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm precisionen för modell B. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>30 / (30 + 10) = 30/40 = 0,75.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,75.</p></div>",
+        "ledtrad": "<p>Hur stor andel av B:s larm gäller sjuka?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.75,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Sjukdomen är farlig men går att bota om den upptäcks. Ett larm leder till ett enkelt blodprov. Vilken modell bör användas? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hitta så många sjuka som möjligt</p><p>A hittar 45 av 50 sjuka (recall 0,9), B bara 30 (recall 0,6). Ett falskt larm kostar bara ett blodprov.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell A, eftersom den missar färre sjuka.</p><ul><li><strong>Modell A, eftersom den missar färre sjuka:</strong> Recall är viktigast när en missad sjuk är farlig och ett falskt larm är billigt.</li><li><strong>Modell B, eftersom den har högre precision:</strong> B missar 20 sjuka, vilket är värre än några extra blodprov.</li><li><strong>Modell B, eftersom den har högre träffsäkerhet:</strong> Träffsäkerheten domineras av de 950 friska.</li><li><strong>Det spelar ingen roll:</strong> A hittar 15 fler sjuka än B.</li></ul></div>",
+        "ledtrad": "<p>Vilket fel är värst: en missad sjuk eller ett onödigt blodprov?</p>",
+        "alternativ": [
+          {
+            "txt": "Modell A, eftersom den missar färre sjuka",
+            "ratt": true,
+            "kommentar": "Recall är viktigast när en missad sjuk är farlig och ett falskt larm är billigt."
+          },
+          {
+            "txt": "Modell B, eftersom den har högre precision",
+            "ratt": false,
+            "kommentar": "B missar 20 sjuka, vilket är värre än några extra blodprov."
+          },
+          {
+            "txt": "Modell B, eftersom den har högre träffsäkerhet",
+            "ratt": false,
+            "kommentar": "Träffsäkerheten domineras av de 950 friska."
+          },
+          {
+            "txt": "Det spelar ingen roll",
+            "ratt": false,
+            "kommentar": "A hittar 15 fler sjuka än B."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Modell A, eftersom den missar färre sjuka",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.33",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "A",
+    "poang": "1/1/1",
+    "familj": "Tolka klassificeringsmatrisen",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Mycket spam kommer in i inkorgen, men nästan inga riktiga mejl hamnar i skräpposten",
+      "Alla fall som modellen förutsade som positiva",
+      "Antalet falskt positiva är lika med antalet falskt negativa"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Frågorna handlar om utvärderingsmåtten precision och recall.</p><p>a) Ett spamfilter har hög precision men låg recall. Vad märker användaren? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Mycket spam kommer in i inkorgen, men nästan inga riktiga mejl hamnar i skräpposten</p><p class=\"ul-alt\"><strong>B.</strong> Många riktiga mejl hamnar i skräpposten</p><p class=\"ul-alt\"><strong>C.</strong> Filtret stoppar allt spam</p><p class=\"ul-alt\"><strong>D.</strong> Ingenting, precision och recall betyder samma sak</p><p>b) Vad räknar precisionen på? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Alla fall som modellen förutsade som positiva</p><p class=\"ul-alt\"><strong>B.</strong> Alla fall som verkligen är positiva</p><p class=\"ul-alt\"><strong>C.</strong> Alla fall i testet</p><p class=\"ul-alt\"><strong>D.</strong> Bara de fall som modellen klassade fel</p><p>c) En modell har precisionen 0,8 och recall 0,8. Vad måste då gälla för antalen i matrisen? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Antalet falskt positiva är lika med antalet falskt negativa</p><p class=\"ul-alt\"><strong>B.</strong> TP är lika med TN</p><p class=\"ul-alt\"><strong>C.</strong> Träffsäkerheten är också 0,8</p><p class=\"ul-alt\"><strong>D.</strong> Det finns inga fel alls</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Få fel i skräpposten, men mycket spam kommer igenom</p><p>Hög precision: det som hamnar i skräpposten är nästan alltid spam. Låg recall: mycket spam hamnar ändå i inkorgen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mycket spam kommer in i inkorgen, men nästan inga riktiga mejl hamnar i skräpposten.</p><ul><li><strong>A:</strong> Filtret är försiktigt.</li><li><strong>B:</strong> Det vore låg precision.</li><li><strong>C:</strong> Det vore hög recall.</li><li><strong>D:</strong> Precision gäller det som stoppas, recall allt spam som finns.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det modellen kallade positivt</p><p>Precision = TP / (TP + FP): av alla positiva förutsägelser, hur stor andel var rätt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla fall som modellen förutsade som positiva.</p><ul><li><strong>A:</strong> Precisionen säger hur ofta ett larm stämmer.</li><li><strong>B:</strong> Det är vad recall räknar på.</li><li><strong>C:</strong> Det är vad träffsäkerheten räknar på.</li><li><strong>D:</strong> Precisionen räknar på både rätt och fel bland de positiva förutsägelserna.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma täljare, samma nämnare</p><p>Precision = TP / (TP + FP) och recall = TP / (TP + FN) har samma täljare. Är de lika stora måste nämnarna vara lika, alltså FP = FN.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Antalet falskt positiva är lika med antalet falskt negativa.</p><ul><li><strong>A:</strong> TP + FP = TP + FN ger FP = FN.</li><li><strong>B:</strong> TN finns inte med i någon av formlerna.</li><li><strong>C:</strong> Träffsäkerheten beror på TN, som inte syns i precision och recall.</li><li><strong>D:</strong> Med 0,8 finns det fel, men lika många av varje sort.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Precision: kolumnen förutsagt positiv. Recall: raden verkligt positiv.</p>",
+    "spelIntro": "<p>Frågorna handlar om utvärderingsmåtten precision och recall.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Ett spamfilter har hög precision men låg recall. Vad märker användaren? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Få fel i skräpposten, men mycket spam kommer igenom</p><p>Hög precision: det som hamnar i skräpposten är nästan alltid spam. Låg recall: mycket spam hamnar ändå i inkorgen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mycket spam kommer in i inkorgen, men nästan inga riktiga mejl hamnar i skräpposten.</p><ul><li><strong>Mycket spam kommer in i inkorgen, men nästan inga riktiga mejl hamnar i skräpposten:</strong> Filtret är försiktigt.</li><li><strong>Många riktiga mejl hamnar i skräpposten:</strong> Det vore låg precision.</li><li><strong>Filtret stoppar allt spam:</strong> Det vore hög recall.</li><li><strong>Ingenting, precision och recall betyder samma sak:</strong> Precision gäller det som stoppas, recall allt spam som finns.</li></ul></div>",
+        "ledtrad": "<p>Vad mäter precision och vad mäter recall?</p>",
+        "alternativ": [
+          {
+            "txt": "Mycket spam kommer in i inkorgen, men nästan inga riktiga mejl hamnar i skräpposten",
+            "ratt": true,
+            "kommentar": "Filtret är försiktigt."
+          },
+          {
+            "txt": "Många riktiga mejl hamnar i skräpposten",
+            "ratt": false,
+            "kommentar": "Det vore låg precision."
+          },
+          {
+            "txt": "Filtret stoppar allt spam",
+            "ratt": false,
+            "kommentar": "Det vore hög recall."
+          },
+          {
+            "txt": "Ingenting, precision och recall betyder samma sak",
+            "ratt": false,
+            "kommentar": "Precision gäller det som stoppas, recall allt spam som finns."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Mycket spam kommer in i inkorgen, men nästan inga riktiga mejl hamnar i skräpposten",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad räknar precisionen på? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det modellen kallade positivt</p><p>Precision = TP / (TP + FP): av alla positiva förutsägelser, hur stor andel var rätt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla fall som modellen förutsade som positiva.</p><ul><li><strong>Alla fall som modellen förutsade som positiva:</strong> Precisionen säger hur ofta ett larm stämmer.</li><li><strong>Alla fall som verkligen är positiva:</strong> Det är vad recall räknar på.</li><li><strong>Alla fall i testet:</strong> Det är vad träffsäkerheten räknar på.</li><li><strong>Bara de fall som modellen klassade fel:</strong> Precisionen räknar på både rätt och fel bland de positiva förutsägelserna.</li></ul></div>",
+        "ledtrad": "<p>Vilken kolumn i matrisen används?</p>",
+        "alternativ": [
+          {
+            "txt": "Alla fall som modellen förutsade som positiva",
+            "ratt": true,
+            "kommentar": "Precisionen säger hur ofta ett larm stämmer."
+          },
+          {
+            "txt": "Alla fall som verkligen är positiva",
+            "ratt": false,
+            "kommentar": "Det är vad recall räknar på."
+          },
+          {
+            "txt": "Alla fall i testet",
+            "ratt": false,
+            "kommentar": "Det är vad träffsäkerheten räknar på."
+          },
+          {
+            "txt": "Bara de fall som modellen klassade fel",
+            "ratt": false,
+            "kommentar": "Precisionen räknar på både rätt och fel bland de positiva förutsägelserna."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Alla fall som modellen förutsade som positiva",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>En modell har precisionen 0,8 och recall 0,8. Vad måste då gälla för antalen i matrisen? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma täljare, samma nämnare</p><p>Precision = TP / (TP + FP) och recall = TP / (TP + FN) har samma täljare. Är de lika stora måste nämnarna vara lika, alltså FP = FN.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Antalet falskt positiva är lika med antalet falskt negativa.</p><ul><li><strong>Antalet falskt positiva är lika med antalet falskt negativa:</strong> TP + FP = TP + FN ger FP = FN.</li><li><strong>TP är lika med TN:</strong> TN finns inte med i någon av formlerna.</li><li><strong>Träffsäkerheten är också 0,8:</strong> Träffsäkerheten beror på TN, som inte syns i precision och recall.</li><li><strong>Det finns inga fel alls:</strong> Med 0,8 finns det fel, men lika många av varje sort.</li></ul></div>",
+        "ledtrad": "<p>Skriv upp formlerna för precision och recall och jämför dem.</p>",
+        "alternativ": [
+          {
+            "txt": "Antalet falskt positiva är lika med antalet falskt negativa",
+            "ratt": true,
+            "kommentar": "TP + FP = TP + FN ger FP = FN."
+          },
+          {
+            "txt": "TP är lika med TN",
+            "ratt": false,
+            "kommentar": "TN finns inte med i någon av formlerna."
+          },
+          {
+            "txt": "Träffsäkerheten är också 0,8",
+            "ratt": false,
+            "kommentar": "Träffsäkerheten beror på TN, som inte syns i precision och recall."
+          },
+          {
+            "txt": "Det finns inga fel alls",
+            "ratt": false,
+            "kommentar": "Med 0,8 finns det fel, men lika många av varje sort."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 5,
+        "arbetsinsats": 1,
+        "niva": "A",
+        "poang": "0/0/1",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Antalet falskt positiva är lika med antalet falskt negativa",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.34",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Tolka klassificeringsmatrisen",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        36,
+        4,
+        9,
+        151
+      ],
+      0.9,
+      0.8
+    ],
+    "tolerans": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      0,
+      0
+    ],
+    "t": "<p>Ett snabbtest för halsfluss prövas på 200 patienter. 40 av dem har halsfluss. Testet ger positivt svar för 36 av dem som har halsfluss och för 9 av dem som inte har det.</p><p>a) Fyll i klassificeringsmatrisen. Positiv klass är halsfluss.</p><p>b) Bestäm testets recall.</p><p>c) Bestäm testets precision.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sant positiva och falskt negativa bland de 40 sjuka</p><p>TP = 36. FN = 40 − 36 = 4.</p></li><li><p class=\"facit-rubrik\">Falskt positiva och sant negativa bland de 160 friska</p><p>FP = 9. TN = 160 − 9 = 151.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> TP = 36, FN = 4, FP = 9, TN = 151.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>36 / 40 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>36 / (36 + 9) = 36/45 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div></div></div></div>",
+    "ledtrad": "<p>Dela först upp patienterna i sjuka och friska.</p>",
+    "spelIntro": "<p>Ett snabbtest för halsfluss prövas på 200 patienter. 40 av dem har halsfluss. Testet ger positivt svar för 36 av dem som har halsfluss och för 9 av dem som inte har det.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Fyll i klassificeringsmatrisen. Positiv klass är halsfluss.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sant positiva och falskt negativa bland de 40 sjuka</p><p>TP = 36. FN = 40 − 36 = 4.</p></li><li><p class=\"facit-rubrik\">Falskt positiva och sant negativa bland de 160 friska</p><p>FP = 9. TN = 160 − 9 = 151.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> TP = 36, FN = 4, FP = 9, TN = 151.</p></div>",
+        "ledtrad": "<p>Hur många är friska? Dela upp de sjuka och de friska var för sig.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "flera_delar",
+        "rättSvar": [
+          36,
+          4,
+          9,
+          151
+        ],
+        "tolerans": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "svarFormat": [
+          "numeriskt",
+          "numeriskt",
+          "numeriskt",
+          "numeriskt"
+        ],
+        "svarEnhet": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "svarEtiketter": [
+          "TP",
+          "FN",
+          "FP",
+          "TN"
+        ],
+        "svarsstruktur": "ordnad",
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm testets recall. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>36 / 40 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div>",
+        "ledtrad": "<p>Hur stor andel av de sjuka får positivt svar?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.9,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm testets precision. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>36 / (36 + 9) = 36/45 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div>",
+        "ledtrad": "<p>Hur stor andel av de positiva svaren är rätt?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.35",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Tolka klassificeringsmatrisen",
+    "formaga": [
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Falskt negativt: det brinner men varnaren larmar inte",
+      "Falskt positivt: ett riktigt mejl hamnar i skräpposten",
+      "Falskt positivt: en giftig svamp kallas ätlig"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Vilket fel som är värst beror på vad modellen används till. Frågorna handlar om tre olika AI-system.</p><p>a) En brandvarnare med AI avgör om det brinner (positiv) eller inte. Vilket fel är allvarligast? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Falskt negativt: det brinner men varnaren larmar inte</p><p class=\"ul-alt\"><strong>B.</strong> Falskt positivt: varnaren larmar fast det inte brinner</p><p class=\"ul-alt\"><strong>C.</strong> Sant positivt</p><p class=\"ul-alt\"><strong>D.</strong> Båda felen är lika allvarliga</p><p>b) Ett spamfilter avgör om ett mejl är spam (positiv) eller inte. Vilket fel är oftast allvarligast för användaren? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Falskt positivt: ett riktigt mejl hamnar i skräpposten</p><p class=\"ul-alt\"><strong>B.</strong> Falskt negativt: ett spammejl kommer in i inkorgen</p><p class=\"ul-alt\"><strong>C.</strong> Sant negativt</p><p class=\"ul-alt\"><strong>D.</strong> Inget av felen spelar roll</p><p>c) En svampapp avgör om en svamp är ätlig (positiv) eller inte. Vilket fel är allvarligast? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Falskt positivt: en giftig svamp kallas ätlig</p><p class=\"ul-alt\"><strong>B.</strong> Falskt negativt: en ätlig svamp kallas giftig</p><p class=\"ul-alt\"><strong>C.</strong> Sant negativt</p><p class=\"ul-alt\"><strong>D.</strong> Båda är lika farliga</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Missad brand</p><p>Ett falskt negativt betyder att det brinner utan att varnaren larmar. Ett falskt larm är bara irriterande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Falskt negativt: det brinner men varnaren larmar inte.</p><ul><li><strong>A:</strong> Det kan kosta liv.</li><li><strong>B:</strong> Det är jobbigt men ofarligt.</li><li><strong>C:</strong> Det är ett rätt larm, inget fel.</li><li><strong>D:</strong> En missad brand är mycket värre än ett falskt larm.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Viktigt mejl i skräpposten</p><p>Ett falskt positivt betyder att ett viktigt mejl, kanske en kallelse till en anställningsintervju, hamnar i skräpposten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Falskt positivt: ett riktigt mejl hamnar i skräpposten.</p><ul><li><strong>A:</strong> Då kan man missa något viktigt.</li><li><strong>B:</strong> Det är irriterande, men lätt att ta bort.</li><li><strong>C:</strong> Ett riktigt mejl i inkorgen är rätt.</li><li><strong>D:</strong> Ett missat viktigt mejl kan få stora följder.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Giftig svamp som kallas ätlig</p><p>Ett falskt positivt betyder att en giftig svamp kallas ätlig. Det kan vara livsfarligt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Falskt positivt: en giftig svamp kallas ätlig.</p><ul><li><strong>A:</strong> Därför ska appen ha mycket hög precision, och man ska aldrig lita på den ensam.</li><li><strong>B:</strong> Då slänger man bara en god svamp.</li><li><strong>C:</strong> En giftig svamp som kallas giftig är rätt.</li><li><strong>D:</strong> Att äta en giftig svamp är mycket värre.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Fundera på vad som händer i verkligheten vid varje sorts fel.</p>",
+    "spelIntro": "<p>Vilket fel som är värst beror på vad modellen används till. Frågorna handlar om tre olika AI-system.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>En brandvarnare med AI avgör om det brinner (positiv) eller inte. Vilket fel är allvarligast? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Missad brand</p><p>Ett falskt negativt betyder att det brinner utan att varnaren larmar. Ett falskt larm är bara irriterande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Falskt negativt: det brinner men varnaren larmar inte.</p><ul><li><strong>Falskt negativt: det brinner men varnaren larmar inte:</strong> Det kan kosta liv.</li><li><strong>Falskt positivt: varnaren larmar fast det inte brinner:</strong> Det är jobbigt men ofarligt.</li><li><strong>Sant positivt:</strong> Det är ett rätt larm, inget fel.</li><li><strong>Båda felen är lika allvarliga:</strong> En missad brand är mycket värre än ett falskt larm.</li></ul></div>",
+        "ledtrad": "<p>Vad händer i värsta fall vid varje fel?</p>",
+        "alternativ": [
+          {
+            "txt": "Falskt negativt: det brinner men varnaren larmar inte",
+            "ratt": true,
+            "kommentar": "Det kan kosta liv."
+          },
+          {
+            "txt": "Falskt positivt: varnaren larmar fast det inte brinner",
+            "ratt": false,
+            "kommentar": "Det är jobbigt men ofarligt."
+          },
+          {
+            "txt": "Sant positivt",
+            "ratt": false,
+            "kommentar": "Det är ett rätt larm, inget fel."
+          },
+          {
+            "txt": "Båda felen är lika allvarliga",
+            "ratt": false,
+            "kommentar": "En missad brand är mycket värre än ett falskt larm."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Falskt negativt: det brinner men varnaren larmar inte",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Ett spamfilter avgör om ett mejl är spam (positiv) eller inte. Vilket fel är oftast allvarligast för användaren? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Viktigt mejl i skräpposten</p><p>Ett falskt positivt betyder att ett viktigt mejl, kanske en kallelse till en anställningsintervju, hamnar i skräpposten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Falskt positivt: ett riktigt mejl hamnar i skräpposten.</p><ul><li><strong>Falskt positivt: ett riktigt mejl hamnar i skräpposten:</strong> Då kan man missa något viktigt.</li><li><strong>Falskt negativt: ett spammejl kommer in i inkorgen:</strong> Det är irriterande, men lätt att ta bort.</li><li><strong>Sant negativt:</strong> Ett riktigt mejl i inkorgen är rätt.</li><li><strong>Inget av felen spelar roll:</strong> Ett missat viktigt mejl kan få stora följder.</li></ul></div>",
+        "ledtrad": "<p>Vad är värst: att se ett spammejl eller att missa ett viktigt mejl?</p>",
+        "alternativ": [
+          {
+            "txt": "Falskt positivt: ett riktigt mejl hamnar i skräpposten",
+            "ratt": true,
+            "kommentar": "Då kan man missa något viktigt."
+          },
+          {
+            "txt": "Falskt negativt: ett spammejl kommer in i inkorgen",
+            "ratt": false,
+            "kommentar": "Det är irriterande, men lätt att ta bort."
+          },
+          {
+            "txt": "Sant negativt",
+            "ratt": false,
+            "kommentar": "Ett riktigt mejl i inkorgen är rätt."
+          },
+          {
+            "txt": "Inget av felen spelar roll",
+            "ratt": false,
+            "kommentar": "Ett missat viktigt mejl kan få stora följder."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Falskt positivt: ett riktigt mejl hamnar i skräpposten",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>En svampapp avgör om en svamp är ätlig (positiv) eller inte. Vilket fel är allvarligast? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Giftig svamp som kallas ätlig</p><p>Ett falskt positivt betyder att en giftig svamp kallas ätlig. Det kan vara livsfarligt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Falskt positivt: en giftig svamp kallas ätlig.</p><ul><li><strong>Falskt positivt: en giftig svamp kallas ätlig:</strong> Därför ska appen ha mycket hög precision, och man ska aldrig lita på den ensam.</li><li><strong>Falskt negativt: en ätlig svamp kallas giftig:</strong> Då slänger man bara en god svamp.</li><li><strong>Sant negativt:</strong> En giftig svamp som kallas giftig är rätt.</li><li><strong>Båda är lika farliga:</strong> Att äta en giftig svamp är mycket värre.</li></ul></div>",
+        "ledtrad": "<p>Här är ”positiv” att svampen är ätlig. Vad händer vid varje fel?</p>",
+        "alternativ": [
+          {
+            "txt": "Falskt positivt: en giftig svamp kallas ätlig",
+            "ratt": true,
+            "kommentar": "Därför ska appen ha mycket hög precision, och man ska aldrig lita på den ensam."
+          },
+          {
+            "txt": "Falskt negativt: en ätlig svamp kallas giftig",
+            "ratt": false,
+            "kommentar": "Då slänger man bara en god svamp."
+          },
+          {
+            "txt": "Sant negativt",
+            "ratt": false,
+            "kommentar": "En giftig svamp som kallas giftig är rätt."
+          },
+          {
+            "txt": "Båda är lika farliga",
+            "ratt": false,
+            "kommentar": "Att äta en giftig svamp är mycket värre."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Falskt positivt: en giftig svamp kallas ätlig",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.36",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "C",
+    "poang": "1/2/0",
+    "familj": "Tolka klassificeringsmatrisen",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40,
+      40,
+      0.75
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "t": "<p>En modell för att hitta diabetes har testats på 200 personer, varav 50 har diabetes. Modellen har recall 0,8 och precision 0,5.</p><p>a) Hur många av de 50 med diabetes hittar modellen (TP)?</p><p>b) Hur många falskt positiva (FP) har modellen?</p><p>c) Bestäm modellens träffsäkerhet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>TP = 0,8 · 50 = 40.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>0,5 = 40 / (40 + FP), så 40 + FP = 80.</p></li><li><p class=\"facit-rubrik\">Lös ut FP</p><p>FP = 80 − 40 = 40.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyll i resten av matrisen</p><p>FN = 50 − 40 = 10. TN = 150 − 40 = 110.</p></li><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(40 + 110) / 200 = 150/200 = 0,75.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,75.</p></div></div></div></div>",
+    "ledtrad": "<p>Använd formlerna baklänges.</p>",
+    "spelIntro": "<p>En modell för att hitta diabetes har testats på 200 personer, varav 50 har diabetes. Modellen har recall 0,8 och precision 0,5.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många av de 50 med diabetes hittar modellen (TP)?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>TP = 0,8 · 50 = 40.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40.</p></div>",
+        "ledtrad": "<p>Recall är andelen av de sjuka som hittas.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 40,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Hur många falskt positiva (FP) har modellen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>0,5 = 40 / (40 + FP), så 40 + FP = 80.</p></li><li><p class=\"facit-rubrik\">Lös ut FP</p><p>FP = 80 − 40 = 40.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40.</p></div>",
+        "ledtrad": "<p>Hälften av alla positiva svar är rätt. Hur många positiva svar ger modellen totalt?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 40,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm modellens träffsäkerhet. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyll i resten av matrisen</p><p>FN = 50 − 40 = 10. TN = 150 − 40 = 110.</p></li><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(40 + 110) / 200 = 150/200 = 0,75.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,75.</p></div>",
+        "ledtrad": "<p>Räkna ut FN och TN först.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.75,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.37",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "C",
+    "poang": "3/1/0",
+    "familj": "Tolka klassificeringsmatrisen",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      0.9,
+      0.8,
+      "Äpple och päron"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Verklig ↓<br>Förutsagd →</th><th style=\"text-align:left\"><strong>äpple</strong></th><th style=\"text-align:left\"><strong>päron</strong></th><th style=\"text-align:left\"><strong>banan</strong></th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>äpple</strong></td><td style=\"text-align:left\">18</td><td style=\"text-align:left\">2</td><td style=\"text-align:left\">0</td></tr><tr><td style=\"text-align:left\"><strong>päron</strong></td><td style=\"text-align:left\">3</td><td style=\"text-align:left\">16</td><td style=\"text-align:left\">1</td></tr><tr><td style=\"text-align:left\"><strong>banan</strong></td><td style=\"text-align:left\">0</td><td style=\"text-align:left\">0</td><td style=\"text-align:left\">20</td></tr></tbody></table><p>En AI i en fruktdisk känner igen tre sorters frukt. Den har testats på 60 frukter. Raderna är den verkliga frukten och kolumnerna det AI:n gissade.</p><p>a) Hur många päron gissades vara äpplen?</p><p>b) Bestäm träffsäkerheten.</p><p>c) Bestäm recall för päron, alltså andelen av alla päron som AI:n kände igen.</p><p>d) Vilka två frukter blandar AI:n oftast ihop? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Äpple och päron</p><p class=\"ul-alt\"><strong>B.</strong> Päron och banan</p><p class=\"ul-alt\"><strong>C.</strong> Äpple och banan</p><p class=\"ul-alt\"><strong>D.</strong> Ingen förväxlas</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Raden för verkligt päron och kolumnen för förutsagt äpple</p><p>Där står 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = rätt klassade / alla</p><p>Diagonalen: 18 + 16 + 20 = 54. 54 / 60 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = rätt päron / alla päron</p><p>16 / (3 + 16 + 1) = 16/20 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Störst tal utanför diagonalen</p><p>Äpple och päron förväxlas 2 + 3 = 5 gånger. Banan förväxlas bara en gång.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Äpple och päron.</p><ul><li><strong>A:</strong> De liknar varandra i form och färg.</li><li><strong>B:</strong> Ett päron gissades vara banan en gång, mer än så är det inte.</li><li><strong>C:</strong> De förväxlas aldrig i testet.</li><li><strong>D:</strong> Det finns 6 fel utanför diagonalen.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Diagonalen är rätt, resten är förväxlingar.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Verklig ↓<br>Förutsagd →</th><th style=\"text-align:left\"><strong>äpple</strong></th><th style=\"text-align:left\"><strong>päron</strong></th><th style=\"text-align:left\"><strong>banan</strong></th></tr></thead><tbody><tr><td style=\"text-align:left\"><strong>äpple</strong></td><td style=\"text-align:left\">18</td><td style=\"text-align:left\">2</td><td style=\"text-align:left\">0</td></tr><tr><td style=\"text-align:left\"><strong>päron</strong></td><td style=\"text-align:left\">3</td><td style=\"text-align:left\">16</td><td style=\"text-align:left\">1</td></tr><tr><td style=\"text-align:left\"><strong>banan</strong></td><td style=\"text-align:left\">0</td><td style=\"text-align:left\">0</td><td style=\"text-align:left\">20</td></tr></tbody></table><p>En AI i en fruktdisk känner igen tre sorters frukt. Den har testats på 60 frukter. Raderna är den verkliga frukten och kolumnerna det AI:n gissade.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många päron gissades vara äpplen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Raden för verkligt päron och kolumnen för förutsagt äpple</p><p>Där står 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Leta upp raden för päron.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 3,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm träffsäkerheten. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = rätt klassade / alla</p><p>Diagonalen: 18 + 16 + 20 = 54. 54 / 60 = 0,9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9.</p></div>",
+        "ledtrad": "<p>De rätt klassade ligger på diagonalen.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.9,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm recall för päron, alltså andelen av alla päron som AI:n kände igen. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = rätt päron / alla päron</p><p>16 / (3 + 16 + 1) = 16/20 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div>",
+        "ledtrad": "<p>Använd hela raden för päron.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Vilka två frukter blandar AI:n oftast ihop? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Störst tal utanför diagonalen</p><p>Äpple och päron förväxlas 2 + 3 = 5 gånger. Banan förväxlas bara en gång.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Äpple och päron.</p><ul><li><strong>Äpple och päron:</strong> De liknar varandra i form och färg.</li><li><strong>Päron och banan:</strong> Ett päron gissades vara banan en gång, mer än så är det inte.</li><li><strong>Äpple och banan:</strong> De förväxlas aldrig i testet.</li><li><strong>Ingen förväxlas:</strong> Det finns 6 fel utanför diagonalen.</li></ul></div>",
+        "ledtrad": "<p>Titta på talen utanför diagonalen.</p>",
+        "alternativ": [
+          {
+            "txt": "Äpple och päron",
+            "ratt": true,
+            "kommentar": "De liknar varandra i form och färg."
+          },
+          {
+            "txt": "Päron och banan",
+            "ratt": false,
+            "kommentar": "Ett päron gissades vara banan en gång, mer än så är det inte."
+          },
+          {
+            "txt": "Äpple och banan",
+            "ratt": false,
+            "kommentar": "De förväxlas aldrig i testet."
+          },
+          {
+            "txt": "Ingen förväxlas",
+            "ratt": false,
+            "kommentar": "Det finns 6 fel utanför diagonalen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Äpple och päron",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.38",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "C",
+    "poang": "3/1/0",
+    "familj": "Tolka klassificeringsmatrisen",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.72,
+      0.96,
+      0.8,
+      "Den försiktiga, eftersom färre riktiga mejl hamnar i skräpposten"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "t": "<p>Ett spamfilter kan ställas in på två sätt. Båda inställningarna har testats på samma 200 mejl, varav 50 är spam.</p><table class=\"data\"><thead><tr><th style=\"text-align:left\">Inställning</th><th style=\"text-align:left\">TP</th><th style=\"text-align:left\">FN</th><th style=\"text-align:left\">FP</th><th style=\"text-align:left\">TN</th></tr></thead><tbody><tr><td style=\"text-align:left\">Försiktig</td><td style=\"text-align:left\">36</td><td style=\"text-align:left\">14</td><td style=\"text-align:left\">4</td><td style=\"text-align:left\">146</td></tr><tr><td style=\"text-align:left\">Hård</td><td style=\"text-align:left\">48</td><td style=\"text-align:left\">2</td><td style=\"text-align:left\">12</td><td style=\"text-align:left\">138</td></tr></tbody></table><p>a) Bestäm recall för den försiktiga inställningen.</p><p>b) Bestäm recall för den hårda inställningen.</p><p>c) Bestäm precisionen för den hårda inställningen.</p><p>d) En skola får viktiga mejl från vårdnadshavare som inte får hamna i skräpposten. Vilken inställning bör skolan välja? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Den försiktiga, eftersom färre riktiga mejl hamnar i skräpposten</p><p class=\"ul-alt\"><strong>B.</strong> Den hårda, eftersom den stoppar mer spam</p><p class=\"ul-alt\"><strong>C.</strong> Den hårda, eftersom den har högre recall</p><p class=\"ul-alt\"><strong>D.</strong> Det spelar ingen roll</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>36 / 50 = 0,72.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,72.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>48 / 50 = 0,96.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,96.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>48 / (48 + 12) = 48/60 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Få falskt positiva</p><p>Den försiktiga inställningen stoppar bara 4 riktiga mejl, mot 12 för den hårda. Skolan får i stället lite mer spam.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den försiktiga, eftersom färre riktiga mejl hamnar i skräpposten.</p><ul><li><strong>A:</strong> 4 falskt positiva jämfört med 12.</li><li><strong>B:</strong> Den stoppar mer spam men också tre gånger så många riktiga mejl.</li><li><strong>C:</strong> Hög recall är bra, men här är falskt positiva det värsta felet.</li><li><strong>D:</strong> Inställningarna gör olika slags fel.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>En hårdare inställning ger högre recall men oftast lägre precision.</p>",
+    "spelIntro": "<p>Ett spamfilter kan ställas in på två sätt. Båda inställningarna har testats på samma 200 mejl, varav 50 är spam.</p><table class=\"data\"><thead><tr><th style=\"text-align:left\">Inställning</th><th style=\"text-align:left\">TP</th><th style=\"text-align:left\">FN</th><th style=\"text-align:left\">FP</th><th style=\"text-align:left\">TN</th></tr></thead><tbody><tr><td style=\"text-align:left\">Försiktig</td><td style=\"text-align:left\">36</td><td style=\"text-align:left\">14</td><td style=\"text-align:left\">4</td><td style=\"text-align:left\">146</td></tr><tr><td style=\"text-align:left\">Hård</td><td style=\"text-align:left\">48</td><td style=\"text-align:left\">2</td><td style=\"text-align:left\">12</td><td style=\"text-align:left\">138</td></tr></tbody></table>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Bestäm recall för den försiktiga inställningen. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>36 / 50 = 0,72.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,72.</p></div>",
+        "ledtrad": "<p>Hur stor andel av spammet stoppas?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.72,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm recall för den hårda inställningen. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Recall = TP / (TP + FN)</p><p>48 / 50 = 0,96.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,96.</p></div>",
+        "ledtrad": "<p>Samma formel, andra raden.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.96,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bestäm precisionen för den hårda inställningen. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Precision = TP / (TP + FP)</p><p>48 / (48 + 12) = 48/60 = 0,8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8.</p></div>",
+        "ledtrad": "<p>Hur stor andel av det som stoppas är spam?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>En skola får viktiga mejl från vårdnadshavare som inte får hamna i skräpposten. Vilken inställning bör skolan välja? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Få falskt positiva</p><p>Den försiktiga inställningen stoppar bara 4 riktiga mejl, mot 12 för den hårda. Skolan får i stället lite mer spam.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den försiktiga, eftersom färre riktiga mejl hamnar i skräpposten.</p><ul><li><strong>Den försiktiga, eftersom färre riktiga mejl hamnar i skräpposten:</strong> 4 falskt positiva jämfört med 12.</li><li><strong>Den hårda, eftersom den stoppar mer spam:</strong> Den stoppar mer spam men också tre gånger så många riktiga mejl.</li><li><strong>Den hårda, eftersom den har högre recall:</strong> Hög recall är bra, men här är falskt positiva det värsta felet.</li><li><strong>Det spelar ingen roll:</strong> Inställningarna gör olika slags fel.</li></ul></div>",
+        "ledtrad": "<p>Vilken ruta i matrisen motsvarar ett viktigt mejl i skräpposten?</p>",
+        "alternativ": [
+          {
+            "txt": "Den försiktiga, eftersom färre riktiga mejl hamnar i skräpposten",
+            "ratt": true,
+            "kommentar": "4 falskt positiva jämfört med 12."
+          },
+          {
+            "txt": "Den hårda, eftersom den stoppar mer spam",
+            "ratt": false,
+            "kommentar": "Den stoppar mer spam men också tre gånger så många riktiga mejl."
+          },
+          {
+            "txt": "Den hårda, eftersom den har högre recall",
+            "ratt": false,
+            "kommentar": "Hög recall är bra, men här är falskt positiva det värsta felet."
+          },
+          {
+            "txt": "Det spelar ingen roll",
+            "ratt": false,
+            "kommentar": "Inställningarna gör olika slags fel."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Den försiktiga, eftersom färre riktiga mejl hamnar i skräpposten",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.39",
+    "kap": 4,
+    "omr": "klassmatris",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Tolka klassificeringsmatrisen",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.98,
+      0.98,
+      "System A, eftersom det hittar alla bränder"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<p>Två AI-system ska upptäcka brand i ett lager. De har testats i 1 000 situationer, varav 10 var bränder.</p><table class=\"data\"><thead><tr><th style=\"text-align:left\">System</th><th style=\"text-align:left\">TP</th><th style=\"text-align:left\">FN</th><th style=\"text-align:left\">FP</th><th style=\"text-align:left\">TN</th></tr></thead><tbody><tr><td style=\"text-align:left\">A</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">0</td><td style=\"text-align:left\">20</td><td style=\"text-align:left\">970</td></tr><tr><td style=\"text-align:left\">B</td><td style=\"text-align:left\">0</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">980</td></tr></tbody></table><p>a) Bestäm träffsäkerheten för system A.</p><p>b) Bestäm träffsäkerheten för system B.</p><p>c) Vilket system bör lagret välja?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(10 + 970) / 1 000 = 0,98.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,98.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(0 + 980) / 1 000 = 0,98.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,98.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma träffsäkerhet, olika fel</p><p>A hittar alla 10 bränder men larmar falskt 20 gånger. B hittar inte en enda brand.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> System A, eftersom det hittar alla bränder.</p></div></div></div></div>",
+    "ledtrad": "<p>Samma träffsäkerhet kan dölja helt olika fel.</p>",
+    "spelIntro": "<p>Två AI-system ska upptäcka brand i ett lager. De har testats i 1 000 situationer, varav 10 var bränder.</p><table class=\"data\"><thead><tr><th style=\"text-align:left\">System</th><th style=\"text-align:left\">TP</th><th style=\"text-align:left\">FN</th><th style=\"text-align:left\">FP</th><th style=\"text-align:left\">TN</th></tr></thead><tbody><tr><td style=\"text-align:left\">A</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">0</td><td style=\"text-align:left\">20</td><td style=\"text-align:left\">970</td></tr><tr><td style=\"text-align:left\">B</td><td style=\"text-align:left\">0</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">980</td></tr></tbody></table>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Bestäm träffsäkerheten för system A. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(10 + 970) / 1 000 = 0,98.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,98.</p></div>",
+        "ledtrad": "<p>Rätt klassade är TP och TN.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.98,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm träffsäkerheten för system B. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Träffsäkerhet = (TP + TN) / alla</p><p>(0 + 980) / 1 000 = 0,98.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,98.</p></div>",
+        "ledtrad": "<p>Samma formel för B.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.98,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vilket system bör lagret välja? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma träffsäkerhet, olika fel</p><p>A hittar alla 10 bränder men larmar falskt 20 gånger. B hittar inte en enda brand.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> System A, eftersom det hittar alla bränder.</p><ul><li><strong>System A, eftersom det hittar alla bränder:</strong> Falska larm är bättre än missade bränder.</li><li><strong>System B, eftersom det har färre falska larm:</strong> B missar alla bränder, det är oanvändbart.</li><li><strong>Det spelar ingen roll, de är lika bra:</strong> De har samma träffsäkerhet men gör helt olika fel.</li><li><strong>System B, eftersom det har fler sant negativa:</strong> Det beror bara på att B aldrig larmar.</li></ul></div>",
+        "ledtrad": "<p>Jämför FN för de två systemen.</p>",
+        "alternativ": [
+          {
+            "txt": "System A, eftersom det hittar alla bränder",
+            "ratt": true,
+            "kommentar": "Falska larm är bättre än missade bränder."
+          },
+          {
+            "txt": "System B, eftersom det har färre falska larm",
+            "ratt": false,
+            "kommentar": "B missar alla bränder, det är oanvändbart."
+          },
+          {
+            "txt": "Det spelar ingen roll, de är lika bra",
+            "ratt": false,
+            "kommentar": "De har samma träffsäkerhet men gör helt olika fel."
+          },
+          {
+            "txt": "System B, eftersom det har fler sant negativa",
+            "ratt": false,
+            "kommentar": "Det beror bara på att B aldrig larmar."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "System A, eftersom det hittar alla bränder",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.40",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Linjär regression",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      1,
+      0.75
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med fyra dagar och regressionslinjen y = 1,5x + 2.\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med fyra dagar och regressionslinjen y = 1,5x + 2.</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"73.8\" y1=\"254.0\" x2=\"73.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"73.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"107.6\" y1=\"254.0\" x2=\"107.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"107.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"141.3\" y1=\"254.0\" x2=\"141.3\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"141.3\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"175.1\" y1=\"254.0\" x2=\"175.1\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"175.1\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"208.9\" y1=\"254.0\" x2=\"208.9\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"208.9\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"242.7\" y1=\"254.0\" x2=\"242.7\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"242.7\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"276.4\" y1=\"254.0\" x2=\"276.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"276.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"310.2\" y1=\"254.0\" x2=\"310.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"310.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"225.5\" x2=\"344.0\" y2=\"225.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"229.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"197.0\" x2=\"344.0\" y2=\"197.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"201.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"168.5\" x2=\"344.0\" y2=\"168.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"172.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"111.5\" x2=\"344.0\" y2=\"111.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"115.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"83.0\" x2=\"344.0\" y2=\"83.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"87.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">12</text><line x1=\"40.0\" y1=\"54.5\" x2=\"344.0\" y2=\"54.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"58.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">14</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">16</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">soltimmar</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">sålda glassar (tiotal)</text><line x1=\"40.0\" y1=\"225.5\" x2=\"344.0\" y2=\"33.1\" stroke=\"#7c3aed\" stroke-width=\"2.5\"/><circle cx=\"107.6\" cy=\"182.8\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"175.1\" cy=\"125.8\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"242.7\" cy=\"111.5\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"310.2\" cy=\"40.2\" r=\"6\" fill=\"#2563eb\"/></svg><p>En kiosk vill förutsäga hur många glassar den säljer utifrån antalet soltimmar. Fyra dagar är markerade: (2, 5), (4, 9), (6, 10) och (8, 15). En AI har anpassat linjen y = 1,5x + 2, där x är antalet soltimmar och y antalet glassar i tiotal.</p><p>a) Hur många glassar (i tiotal) förutsäger modellen en dag med 4 soltimmar?</p><p>b) Den dagen såldes 9 tiotal glassar. Hur stort är modellens fel den dagen, alltså verkligt värde minus förutsagt värde?</p><p>c) Räkna ut felet för varje dag, kvadrera felen och ta medelvärdet. Hur stort blir det? Talet kallas medelkvadratfel.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in x = 4 i y = 1,5x + 2</p><p>1,5 · 4 + 2 = 6 + 2 = 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>9 − 8 = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förutsägelser med y = 1,5x + 2</p><p>x = 2: 5. x = 4: 8. x = 6: 11. x = 8: 14.</p></li><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>5 − 5 = 0, 9 − 8 = 1, 10 − 11 = −1 och 15 − 14 = 1.</p></li><li><p class=\"facit-rubrik\">Medelkvadratfel = medelvärdet av felen i kvadrat</p><p>(0² + 1² + (−1)² + 1²) / 4 = 3/4 = 0,75.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,75.</p></div></div></div></div>",
+    "ledtrad": "<p>Förutsägelse: sätt in x. Fel: verkligt minus förutsagt.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med fyra dagar och regressionslinjen y = 1,5x + 2.\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med fyra dagar och regressionslinjen y = 1,5x + 2.</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"73.8\" y1=\"254.0\" x2=\"73.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"73.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"107.6\" y1=\"254.0\" x2=\"107.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"107.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"141.3\" y1=\"254.0\" x2=\"141.3\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"141.3\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"175.1\" y1=\"254.0\" x2=\"175.1\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"175.1\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"208.9\" y1=\"254.0\" x2=\"208.9\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"208.9\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"242.7\" y1=\"254.0\" x2=\"242.7\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"242.7\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"276.4\" y1=\"254.0\" x2=\"276.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"276.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"310.2\" y1=\"254.0\" x2=\"310.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"310.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"225.5\" x2=\"344.0\" y2=\"225.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"229.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"197.0\" x2=\"344.0\" y2=\"197.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"201.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"168.5\" x2=\"344.0\" y2=\"168.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"172.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"111.5\" x2=\"344.0\" y2=\"111.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"115.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"83.0\" x2=\"344.0\" y2=\"83.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"87.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">12</text><line x1=\"40.0\" y1=\"54.5\" x2=\"344.0\" y2=\"54.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"58.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">14</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">16</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">soltimmar</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">sålda glassar (tiotal)</text><line x1=\"40.0\" y1=\"225.5\" x2=\"344.0\" y2=\"33.1\" stroke=\"#7c3aed\" stroke-width=\"2.5\"/><circle cx=\"107.6\" cy=\"182.8\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"175.1\" cy=\"125.8\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"242.7\" cy=\"111.5\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"310.2\" cy=\"40.2\" r=\"6\" fill=\"#2563eb\"/></svg><p>En kiosk vill förutsäga hur många glassar den säljer utifrån antalet soltimmar. Fyra dagar är markerade: (2, 5), (4, 9), (6, 10) och (8, 15). En AI har anpassat linjen y = 1,5x + 2, där x är antalet soltimmar och y antalet glassar i tiotal.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många glassar (i tiotal) förutsäger modellen en dag med 4 soltimmar?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in x = 4 i y = 1,5x + 2</p><p>1,5 · 4 + 2 = 6 + 2 = 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div>",
+        "ledtrad": "<p>Sätt in x = 4 i linjens ekvation.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Den dagen såldes 9 tiotal glassar. Hur stort är modellens fel den dagen, alltså verkligt värde minus förutsagt värde?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>9 − 8 = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Jämför det verkliga värdet med modellens förutsägelse.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 1,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Räkna ut felet för varje dag, kvadrera felen och ta medelvärdet. Hur stort blir det? Talet kallas medelkvadratfel. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förutsägelser med y = 1,5x + 2</p><p>x = 2: 5. x = 4: 8. x = 6: 11. x = 8: 14.</p></li><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>5 − 5 = 0, 9 − 8 = 1, 10 − 11 = −1 och 15 − 14 = 1.</p></li><li><p class=\"facit-rubrik\">Medelkvadratfel = medelvärdet av felen i kvadrat</p><p>(0² + 1² + (−1)² + 1²) / 4 = 3/4 = 0,75.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,75.</p></div>",
+        "ledtrad": "<p>Räkna felet för varje dag, kvadrera och ta medelvärdet.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.75,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.41",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Linjär regression",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3200,
+      "Priset ökar med 40 tusen kronor för varje extra kvadratmeter",
+      "Den är osäker, eftersom 400 m² ligger långt utanför de data modellen tränats på"
+    ],
+    "tolerans": [
+      0,
+      null,
+      null
+    ],
+    "t": "<p>En AI ska förutsäga priset på en lägenhet utifrån ytan. Den använder modellen pris = k · yta + m, där priset är i tusental kronor och ytan i kvadratmeter. Modellen har tränats på lägenheter mellan 20 och 120 m² och fått k = 40 och m = 600.</p><p>a) Vilket pris (i tusental kronor) förutsäger modellen för en lägenhet på 65 m²?</p><p>b) Vad betyder k = 40 i modellen? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Priset ökar med 40 tusen kronor för varje extra kvadratmeter</p><p class=\"ul-alt\"><strong>B.</strong> Alla lägenheter kostar 40 tusen kronor</p><p class=\"ul-alt\"><strong>C.</strong> Lägenheten är 40 m²</p><p class=\"ul-alt\"><strong>D.</strong> Priset när ytan är 0</p><p>c) Någon använder modellen för en villa på 400 m². Vad är rimligt att säga om förutsägelsen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">pris = k · yta + m</p><p>40 · 65 + 600 = 2 600 + 600 = 3 200.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3200.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen</p><p>För varje extra kvadratmeter ökar det förutsagda priset med 40 tusen kronor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Priset ökar med 40 tusen kronor för varje extra kvadratmeter.</p><ul><li><strong>A:</strong> k är linjens lutning.</li><li><strong>B:</strong> Priset beror på ytan.</li><li><strong>C:</strong> k är inte en yta utan en ökning per kvadratmeter.</li><li><strong>D:</strong> Det är m, där linjen skär y-axeln.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Långt utanför mätvärdena</p><p>Modellen har bara sett lägenheter mellan 20 och 120 m². Det linjära sambandet behöver inte gälla för så stora bostäder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den är osäker, eftersom 400 m² ligger långt utanför de data modellen tränats på.</p></div></div></div></div>",
+    "ledtrad": "<p>k är lutningen, m är värdet när x = 0.</p>",
+    "spelIntro": "<p>En AI ska förutsäga priset på en lägenhet utifrån ytan. Den använder modellen pris = k · yta + m, där priset är i tusental kronor och ytan i kvadratmeter. Modellen har tränats på lägenheter mellan 20 och 120 m² och fått k = 40 och m = 600.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilket pris (i tusental kronor) förutsäger modellen för en lägenhet på 65 m²?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">pris = k · yta + m</p><p>40 · 65 + 600 = 2 600 + 600 = 3 200.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3200.</p></div>",
+        "ledtrad": "<p>Sätt in ytan i formeln.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 3200,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad betyder k = 40 i modellen? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen</p><p>För varje extra kvadratmeter ökar det förutsagda priset med 40 tusen kronor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Priset ökar med 40 tusen kronor för varje extra kvadratmeter.</p><ul><li><strong>Priset ökar med 40 tusen kronor för varje extra kvadratmeter:</strong> k är linjens lutning.</li><li><strong>Alla lägenheter kostar 40 tusen kronor:</strong> Priset beror på ytan.</li><li><strong>Lägenheten är 40 m²:</strong> k är inte en yta utan en ökning per kvadratmeter.</li><li><strong>Priset när ytan är 0:</strong> Det är m, där linjen skär y-axeln.</li></ul></div>",
+        "ledtrad": "<p>Hur mycket ändras priset när ytan ökar med 1?</p>",
+        "alternativ": [
+          {
+            "txt": "Priset ökar med 40 tusen kronor för varje extra kvadratmeter",
+            "ratt": true,
+            "kommentar": "k är linjens lutning."
+          },
+          {
+            "txt": "Alla lägenheter kostar 40 tusen kronor",
+            "ratt": false,
+            "kommentar": "Priset beror på ytan."
+          },
+          {
+            "txt": "Lägenheten är 40 m²",
+            "ratt": false,
+            "kommentar": "k är inte en yta utan en ökning per kvadratmeter."
+          },
+          {
+            "txt": "Priset när ytan är 0",
+            "ratt": false,
+            "kommentar": "Det är m, där linjen skär y-axeln."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Priset ökar med 40 tusen kronor för varje extra kvadratmeter",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Någon använder modellen för en villa på 400 m². Vad är rimligt att säga om förutsägelsen? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Långt utanför mätvärdena</p><p>Modellen har bara sett lägenheter mellan 20 och 120 m². Det linjära sambandet behöver inte gälla för så stora bostäder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den är osäker, eftersom 400 m² ligger långt utanför de data modellen tränats på.</p><ul><li><strong>Den är osäker, eftersom 400 m² ligger långt utanför de data modellen tränats på:</strong> Modellen vet inget om så stora bostäder.</li><li><strong>Den är säker, eftersom en linje gäller för alla x:</strong> Ett samband som gäller inom ett intervall behöver inte gälla långt utanför det.</li><li><strong>Modellen kan inte räkna ut något alls:</strong> Den kan räkna ut ett tal, men talet är osäkert.</li><li><strong>Priset blir alltid för lågt:</strong> Man vet inte om det blir för högt eller för lågt.</li></ul></div>",
+        "ledtrad": "<p>Har modellen sett några bostäder i den storleken?</p>",
+        "alternativ": [
+          {
+            "txt": "Den är osäker, eftersom 400 m² ligger långt utanför de data modellen tränats på",
+            "ratt": true,
+            "kommentar": "Modellen vet inget om så stora bostäder."
+          },
+          {
+            "txt": "Den är säker, eftersom en linje gäller för alla x",
+            "ratt": false,
+            "kommentar": "Ett samband som gäller inom ett intervall behöver inte gälla långt utanför det."
+          },
+          {
+            "txt": "Modellen kan inte räkna ut något alls",
+            "ratt": false,
+            "kommentar": "Den kan räkna ut ett tal, men talet är osäkert."
+          },
+          {
+            "txt": "Priset blir alltid för lågt",
+            "ratt": false,
+            "kommentar": "Man vet inte om det blir för högt eller för lågt."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Den är osäker, eftersom 400 m² ligger långt utanför de data modellen tränats på",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.42",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Linjär regression",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      54,
+      -4,
+      "Modellen förutsäger 30 poäng för en elev som inte pluggar alls"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med studietid och provpoäng och linjen y = 4x + 30.\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med studietid och provpoäng och linjen y = 4x + 30.</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"70.4\" y1=\"254.0\" x2=\"70.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"70.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"100.8\" y1=\"254.0\" x2=\"100.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"100.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"131.2\" y1=\"254.0\" x2=\"131.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"131.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"161.6\" y1=\"254.0\" x2=\"161.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"161.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"222.4\" y1=\"254.0\" x2=\"222.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"222.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"252.8\" y1=\"254.0\" x2=\"252.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"252.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"283.2\" y1=\"254.0\" x2=\"283.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"283.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"313.6\" y1=\"254.0\" x2=\"313.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"313.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"225.5\" x2=\"344.0\" y2=\"225.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"229.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"197.0\" x2=\"344.0\" y2=\"197.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"201.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">20</text><line x1=\"40.0\" y1=\"168.5\" x2=\"344.0\" y2=\"168.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"172.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">30</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">40</text><line x1=\"40.0\" y1=\"111.5\" x2=\"344.0\" y2=\"111.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"115.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">50</text><line x1=\"40.0\" y1=\"83.0\" x2=\"344.0\" y2=\"83.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"87.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">60</text><line x1=\"40.0\" y1=\"54.5\" x2=\"344.0\" y2=\"54.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"58.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">70</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">80</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">timmar</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">poäng</text><line x1=\"40.0\" y1=\"168.5\" x2=\"344.0\" y2=\"54.5\" stroke=\"#7c3aed\" stroke-width=\"2.5\"/><circle cx=\"70.4\" cy=\"159.9\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"131.2\" cy=\"128.6\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"192.0\" cy=\"117.2\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"283.2\" cy=\"88.7\" r=\"6\" fill=\"#2563eb\"/></svg><p>En AI har studerat elevers studietid och provresultat. Den har anpassat modellen poäng = 4 · timmar + 30.</p><p>a) Hur många poäng förutsäger modellen för en elev som pluggar 6 timmar?</p><p>b) En elev pluggade 8 timmar och fick 58 poäng. Hur stort är modellens fel för eleven, alltså verkligt värde minus förutsagt värde?</p><p>c) Vad betyder talet 30 i modellen? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Modellen förutsäger 30 poäng för en elev som inte pluggar alls</p><p class=\"ul-alt\"><strong>B.</strong> Varje timme ger 30 poäng till</p><p class=\"ul-alt\"><strong>C.</strong> Provet har 30 frågor</p><p class=\"ul-alt\"><strong>D.</strong> Ingen elev får under 30 poäng</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in 6 timmar</p><p>4 · 6 + 30 = 24 + 30 = 54.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 54.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modellens förutsägelse</p><p>4 · 8 + 30 = 62.</p></li><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>58 − 62 = −4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −4.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värdet när x = 0</p><p>Med 0 timmars plugg förutsäger modellen 30 poäng.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellen förutsäger 30 poäng för en elev som inte pluggar alls.</p><ul><li><strong>A:</strong> 30 är värdet när timmar = 0.</li><li><strong>B:</strong> Varje timme ger 4 poäng till, det är lutningen.</li><li><strong>C:</strong> Modellen säger inget om antalet frågor.</li><li><strong>D:</strong> Verkliga elever kan få färre poäng än modellen förutsäger.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Fel = verkligt − förutsagt. Felet kan vara negativt.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med studietid och provpoäng och linjen y = 4x + 30.\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med studietid och provpoäng och linjen y = 4x + 30.</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"70.4\" y1=\"254.0\" x2=\"70.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"70.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"100.8\" y1=\"254.0\" x2=\"100.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"100.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"131.2\" y1=\"254.0\" x2=\"131.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"131.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"161.6\" y1=\"254.0\" x2=\"161.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"161.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"222.4\" y1=\"254.0\" x2=\"222.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"222.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"252.8\" y1=\"254.0\" x2=\"252.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"252.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"283.2\" y1=\"254.0\" x2=\"283.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"283.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"313.6\" y1=\"254.0\" x2=\"313.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"313.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"225.5\" x2=\"344.0\" y2=\"225.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"229.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"197.0\" x2=\"344.0\" y2=\"197.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"201.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">20</text><line x1=\"40.0\" y1=\"168.5\" x2=\"344.0\" y2=\"168.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"172.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">30</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">40</text><line x1=\"40.0\" y1=\"111.5\" x2=\"344.0\" y2=\"111.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"115.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">50</text><line x1=\"40.0\" y1=\"83.0\" x2=\"344.0\" y2=\"83.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"87.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">60</text><line x1=\"40.0\" y1=\"54.5\" x2=\"344.0\" y2=\"54.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"58.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">70</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">80</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">timmar</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">poäng</text><line x1=\"40.0\" y1=\"168.5\" x2=\"344.0\" y2=\"54.5\" stroke=\"#7c3aed\" stroke-width=\"2.5\"/><circle cx=\"70.4\" cy=\"159.9\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"131.2\" cy=\"128.6\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"192.0\" cy=\"117.2\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"283.2\" cy=\"88.7\" r=\"6\" fill=\"#2563eb\"/></svg><p>En AI har studerat elevers studietid och provresultat. Den har anpassat modellen poäng = 4 · timmar + 30.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många poäng förutsäger modellen för en elev som pluggar 6 timmar?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in 6 timmar</p><p>4 · 6 + 30 = 24 + 30 = 54.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 54.</p></div>",
+        "ledtrad": "<p>Sätt in antalet timmar i formeln.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 54,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>En elev pluggade 8 timmar och fick 58 poäng. Hur stort är modellens fel för eleven, alltså verkligt värde minus förutsagt värde?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modellens förutsägelse</p><p>4 · 8 + 30 = 62.</p></li><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>58 − 62 = −4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −4.</p></div>",
+        "ledtrad": "<p>Räkna först ut vad modellen förutsäger för 8 timmar.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": -4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad betyder talet 30 i modellen? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värdet när x = 0</p><p>Med 0 timmars plugg förutsäger modellen 30 poäng.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellen förutsäger 30 poäng för en elev som inte pluggar alls.</p><ul><li><strong>Modellen förutsäger 30 poäng för en elev som inte pluggar alls:</strong> 30 är värdet när timmar = 0.</li><li><strong>Varje timme ger 30 poäng till:</strong> Varje timme ger 4 poäng till, det är lutningen.</li><li><strong>Provet har 30 frågor:</strong> Modellen säger inget om antalet frågor.</li><li><strong>Ingen elev får under 30 poäng:</strong> Verkliga elever kan få färre poäng än modellen förutsäger.</li></ul></div>",
+        "ledtrad": "<p>Vad blir poängen om timmar = 0?</p>",
+        "alternativ": [
+          {
+            "txt": "Modellen förutsäger 30 poäng för en elev som inte pluggar alls",
+            "ratt": true,
+            "kommentar": "30 är värdet när timmar = 0."
+          },
+          {
+            "txt": "Varje timme ger 30 poäng till",
+            "ratt": false,
+            "kommentar": "Varje timme ger 4 poäng till, det är lutningen."
+          },
+          {
+            "txt": "Provet har 30 frågor",
+            "ratt": false,
+            "kommentar": "Modellen säger inget om antalet frågor."
+          },
+          {
+            "txt": "Ingen elev får under 30 poäng",
+            "ratt": false,
+            "kommentar": "Verkliga elever kan få färre poäng än modellen förutsäger."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Modellen förutsäger 30 poäng för en elev som inte pluggar alls",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.43",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "C",
+    "poang": "3/1/0",
+    "familj": "Linjär regression",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      120,
+      "Bilen tappar 20 tusen kronor i värde för varje år",
+      10,
+      "Nej, modellen bygger bara på bilar upp till 7 år, och värdet sjunker troligen långsammare för äldre bilar"
+    ],
+    "tolerans": [
+      0,
+      null,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med bilars ålder och värde och linjen y = −20x + 200.\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med bilars ålder och värde och linjen y = −20x + 200.</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"70.4\" y1=\"254.0\" x2=\"70.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"70.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"100.8\" y1=\"254.0\" x2=\"100.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"100.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"131.2\" y1=\"254.0\" x2=\"131.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"131.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"161.6\" y1=\"254.0\" x2=\"161.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"161.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"222.4\" y1=\"254.0\" x2=\"222.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"222.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"252.8\" y1=\"254.0\" x2=\"252.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"252.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"283.2\" y1=\"254.0\" x2=\"283.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"283.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"313.6\" y1=\"254.0\" x2=\"313.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"313.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"197.0\" x2=\"344.0\" y2=\"197.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"201.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">50</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">100</text><line x1=\"40.0\" y1=\"83.0\" x2=\"344.0\" y2=\"83.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"87.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">150</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">200</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">ålder (år)</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">värde (tkr)</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#7c3aed\" stroke-width=\"2.5\"/><circle cx=\"70.4\" cy=\"43.1\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"131.2\" cy=\"100.1\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"192.0\" cy=\"145.7\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"252.8\" cy=\"179.9\" r=\"6\" fill=\"#2563eb\"/></svg><p>En bilhandlare använder modellen värde = −20 · ålder + 200 för en viss bilmodell. Värdet är i tusental kronor och åldern i år. Modellen bygger på bilar som är 1 till 7 år gamla.</p><p>a) Vilket värde (i tusental kronor) förutsäger modellen för en bil som är 4 år?</p><p>b) Vad betyder talet −20 i modellen? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Bilen tappar 20 tusen kronor i värde för varje år</p><p class=\"ul-alt\"><strong>B.</strong> Bilen kostar 20 tusen kronor</p><p class=\"ul-alt\"><strong>C.</strong> Bilen ökar 20 tusen kronor i värde varje år</p><p class=\"ul-alt\"><strong>D.</strong> Bilen är 20 år gammal</p><p>c) Vid vilken ålder förutsäger modellen att bilen är värd 0 kr?</p><p>d) Är det rimligt att en 10 år gammal bil är värd 0 kr?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in ålder = 4</p><p>−20 · 4 + 200 = −80 + 200 = 120.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 120.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Negativ lutning</p><p>Värdet minskar med 20 tusen kronor för varje år bilen blir äldre.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bilen tappar 20 tusen kronor i värde för varje år.</p><ul><li><strong>A:</strong> Negativ lutning betyder att y minskar när x ökar.</li><li><strong>B:</strong> En ny bil är värd 200 tusen kronor enligt modellen.</li><li><strong>C:</strong> Minustecknet betyder att värdet minskar.</li><li><strong>D:</strong> −20 är en ändring per år, inte en ålder.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt värdet till 0</p><p>−20 · ålder + 200 = 0.</p></li><li><p class=\"facit-rubrik\">Lös ut åldern</p><p>20 · ålder = 200, så ålder = 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utanför de data modellen bygger på</p><p>Modellen bygger på bilar som är 1–7 år. Gamla bilar har oftast kvar ett visst värde, så sambandet slutar troligen vara linjärt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, modellen bygger bara på bilar upp till 7 år, och värdet sjunker troligen långsammare för äldre bilar.</p></div></div></div></div>",
+    "ledtrad": "<p>En negativ lutning betyder att y minskar när x ökar.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med bilars ålder och värde och linjen y = −20x + 200.\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med bilars ålder och värde och linjen y = −20x + 200.</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"70.4\" y1=\"254.0\" x2=\"70.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"70.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"100.8\" y1=\"254.0\" x2=\"100.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"100.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"131.2\" y1=\"254.0\" x2=\"131.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"131.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"161.6\" y1=\"254.0\" x2=\"161.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"161.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"222.4\" y1=\"254.0\" x2=\"222.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"222.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"252.8\" y1=\"254.0\" x2=\"252.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"252.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"283.2\" y1=\"254.0\" x2=\"283.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"283.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"313.6\" y1=\"254.0\" x2=\"313.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"313.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"197.0\" x2=\"344.0\" y2=\"197.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"201.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">50</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">100</text><line x1=\"40.0\" y1=\"83.0\" x2=\"344.0\" y2=\"83.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"87.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">150</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">200</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">ålder (år)</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">värde (tkr)</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#7c3aed\" stroke-width=\"2.5\"/><circle cx=\"70.4\" cy=\"43.1\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"131.2\" cy=\"100.1\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"192.0\" cy=\"145.7\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"252.8\" cy=\"179.9\" r=\"6\" fill=\"#2563eb\"/></svg><p>En bilhandlare använder modellen värde = −20 · ålder + 200 för en viss bilmodell. Värdet är i tusental kronor och åldern i år. Modellen bygger på bilar som är 1 till 7 år gamla.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilket värde (i tusental kronor) förutsäger modellen för en bil som är 4 år?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in ålder = 4</p><p>−20 · 4 + 200 = −80 + 200 = 120.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 120.</p></div>",
+        "ledtrad": "<p>Sätt in åldern i formeln.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 120,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad betyder talet −20 i modellen? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Negativ lutning</p><p>Värdet minskar med 20 tusen kronor för varje år bilen blir äldre.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bilen tappar 20 tusen kronor i värde för varje år.</p><ul><li><strong>Bilen tappar 20 tusen kronor i värde för varje år:</strong> Negativ lutning betyder att y minskar när x ökar.</li><li><strong>Bilen kostar 20 tusen kronor:</strong> En ny bil är värd 200 tusen kronor enligt modellen.</li><li><strong>Bilen ökar 20 tusen kronor i värde varje år:</strong> Minustecknet betyder att värdet minskar.</li><li><strong>Bilen är 20 år gammal:</strong> −20 är en ändring per år, inte en ålder.</li></ul></div>",
+        "ledtrad": "<p>Vad händer med värdet när åldern ökar med 1?</p>",
+        "alternativ": [
+          {
+            "txt": "Bilen tappar 20 tusen kronor i värde för varje år",
+            "ratt": true,
+            "kommentar": "Negativ lutning betyder att y minskar när x ökar."
+          },
+          {
+            "txt": "Bilen kostar 20 tusen kronor",
+            "ratt": false,
+            "kommentar": "En ny bil är värd 200 tusen kronor enligt modellen."
+          },
+          {
+            "txt": "Bilen ökar 20 tusen kronor i värde varje år",
+            "ratt": false,
+            "kommentar": "Minustecknet betyder att värdet minskar."
+          },
+          {
+            "txt": "Bilen är 20 år gammal",
+            "ratt": false,
+            "kommentar": "−20 är en ändring per år, inte en ålder."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Bilen tappar 20 tusen kronor i värde för varje år",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vid vilken ålder förutsäger modellen att bilen är värd 0 kr?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt värdet till 0</p><p>−20 · ålder + 200 = 0.</p></li><li><p class=\"facit-rubrik\">Lös ut åldern</p><p>20 · ålder = 200, så ålder = 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div>",
+        "ledtrad": "<p>Lös ekvationen −20 · ålder + 200 = 0.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 10,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Är det rimligt att en 10 år gammal bil är värd 0 kr? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utanför de data modellen bygger på</p><p>Modellen bygger på bilar som är 1–7 år. Gamla bilar har oftast kvar ett visst värde, så sambandet slutar troligen vara linjärt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, modellen bygger bara på bilar upp till 7 år, och värdet sjunker troligen långsammare för äldre bilar.</p><ul><li><strong>Nej, modellen bygger bara på bilar upp till 7 år, och värdet sjunker troligen långsammare för äldre bilar:</strong> En modell ska inte användas långt utanför de data den bygger på.</li><li><strong>Ja, modellen räknar alltid rätt:</strong> Modellen är en förenkling som bara gäller inom ett visst intervall.</li><li><strong>Ja, alla bilar är värdelösa efter 10 år:</strong> Många tio år gamla bilar säljs för pengar.</li><li><strong>Nej, eftersom lutningen borde vara positiv:</strong> Bilar tappar i värde, så en negativ lutning är rimlig.</li></ul></div>",
+        "ledtrad": "<p>Vilka åldrar fanns i datan?</p>",
+        "alternativ": [
+          {
+            "txt": "Nej, modellen bygger bara på bilar upp till 7 år, och värdet sjunker troligen långsammare för äldre bilar",
+            "ratt": true,
+            "kommentar": "En modell ska inte användas långt utanför de data den bygger på."
+          },
+          {
+            "txt": "Ja, modellen räknar alltid rätt",
+            "ratt": false,
+            "kommentar": "Modellen är en förenkling som bara gäller inom ett visst intervall."
+          },
+          {
+            "txt": "Ja, alla bilar är värdelösa efter 10 år",
+            "ratt": false,
+            "kommentar": "Många tio år gamla bilar säljs för pengar."
+          },
+          {
+            "txt": "Nej, eftersom lutningen borde vara positiv",
+            "ratt": false,
+            "kommentar": "Bilar tappar i värde, så en negativ lutning är rimlig."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Nej, modellen bygger bara på bilar upp till 7 år, och värdet sjunker troligen långsammare för äldre bilar",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.44",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "C",
+    "poang": "3/1/0",
+    "familj": "Linjär regression",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      60,
+      10,
+      12.5,
+      "Modellen gäller bara mellan 0 och 12,5 timmar, eftersom batteriet inte kan bli negativt"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "t": "<p>En AI har lärt sig hur fort batteriet i en mobil laddas ur när man spelar ett visst spel. Modellen är batteri = 100 − 8 · t, där batteriet är i procent och t är tiden i timmar.</p><p>a) Hur många procent förutsäger modellen att det finns kvar efter 5 timmar?</p><p>b) Efter hur många timmar förutsäger modellen att batteriet är nere på 20 %?</p><p>c) Efter hur många timmar förutsäger modellen att batteriet är helt tomt?</p><p>d) Modellen ger −20 % efter 15 timmar. Vad visar det?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in t = 5</p><p>100 − 8 · 5 = 100 − 40 = 60.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt batteriet till 20</p><p>100 − 8t = 20.</p></li><li><p class=\"facit-rubrik\">Lös ut t</p><p>8t = 80, så t = 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt batteriet till 0</p><p>100 − 8t = 0.</p></li><li><p class=\"facit-rubrik\">Lös ut t</p><p>8t = 100, så t = 12,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modellen gäller bara i ett visst intervall</p><p>Ett batteri kan inte ha mindre än 0 %. Den linjära modellen gäller bara så länge batteriet laddas ur, alltså mellan 0 och 12,5 timmar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellen gäller bara mellan 0 och 12,5 timmar, eftersom batteriet inte kan bli negativt.</p></div></div></div></div>",
+    "ledtrad": "<p>Sätt in värden eller lös ekvationen för t.</p>",
+    "spelIntro": "<p>En AI har lärt sig hur fort batteriet i en mobil laddas ur när man spelar ett visst spel. Modellen är batteri = 100 − 8 · t, där batteriet är i procent och t är tiden i timmar.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många procent förutsäger modellen att det finns kvar efter 5 timmar?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in t = 5</p><p>100 − 8 · 5 = 100 − 40 = 60.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60.</p></div>",
+        "ledtrad": "<p>Sätt in t = 5.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 60,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Efter hur många timmar förutsäger modellen att batteriet är nere på 20 %?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt batteriet till 20</p><p>100 − 8t = 20.</p></li><li><p class=\"facit-rubrik\">Lös ut t</p><p>8t = 80, så t = 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div>",
+        "ledtrad": "<p>Lös ekvationen 100 − 8t = 20.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 10,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Efter hur många timmar förutsäger modellen att batteriet är helt tomt? (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt batteriet till 0</p><p>100 − 8t = 0.</p></li><li><p class=\"facit-rubrik\">Lös ut t</p><p>8t = 100, så t = 12,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,5.</p></div>",
+        "ledtrad": "<p>Lös ekvationen 100 − 8t = 0.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 12.5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Modellen ger −20 % efter 15 timmar. Vad visar det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modellen gäller bara i ett visst intervall</p><p>Ett batteri kan inte ha mindre än 0 %. Den linjära modellen gäller bara så länge batteriet laddas ur, alltså mellan 0 och 12,5 timmar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modellen gäller bara mellan 0 och 12,5 timmar, eftersom batteriet inte kan bli negativt.</p><ul><li><strong>Modellen gäller bara mellan 0 och 12,5 timmar, eftersom batteriet inte kan bli negativt:</strong> Utanför det intervallet säger modellen inget vettigt.</li><li><strong>Batteriet har lånat ström av telefonen:</strong> Ett batteri kan inte ha negativ laddning.</li><li><strong>Modellen har räknat fel:</strong> Räkningen stämmer, men modellen används utanför sitt intervall.</li><li><strong>Mobilen laddas upp igen:</strong> Modellen beskriver bara urladdning.</li></ul></div>",
+        "ledtrad": "<p>Kan ett batteri ha mindre än 0 %?</p>",
+        "alternativ": [
+          {
+            "txt": "Modellen gäller bara mellan 0 och 12,5 timmar, eftersom batteriet inte kan bli negativt",
+            "ratt": true,
+            "kommentar": "Utanför det intervallet säger modellen inget vettigt."
+          },
+          {
+            "txt": "Batteriet har lånat ström av telefonen",
+            "ratt": false,
+            "kommentar": "Ett batteri kan inte ha negativ laddning."
+          },
+          {
+            "txt": "Modellen har räknat fel",
+            "ratt": false,
+            "kommentar": "Räkningen stämmer, men modellen används utanför sitt intervall."
+          },
+          {
+            "txt": "Mobilen laddas upp igen",
+            "ratt": false,
+            "kommentar": "Modellen beskriver bara urladdning."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Modellen gäller bara mellan 0 och 12,5 timmar, eftersom batteriet inte kan bli negativt",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.45",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Linjär regression",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.5,
+      2.5,
+      "Linje A, eftersom den har lägre medelkvadratfel"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med fyra mätningar och två linjer, A: y = 2x och B: y = x + 2.\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med fyra mätningar och två linjer, A: y = 2x och B: y = x + 2.</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"100.8\" y1=\"254.0\" x2=\"100.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"100.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"161.6\" y1=\"254.0\" x2=\"161.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"161.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"222.4\" y1=\"254.0\" x2=\"222.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"222.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"283.2\" y1=\"254.0\" x2=\"283.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"283.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"231.2\" x2=\"344.0\" y2=\"231.2\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"235.2\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"208.4\" x2=\"344.0\" y2=\"208.4\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"212.4\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"185.6\" x2=\"344.0\" y2=\"185.6\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"189.6\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"162.8\" x2=\"344.0\" y2=\"162.8\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"166.8\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"117.2\" x2=\"344.0\" y2=\"117.2\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"121.2\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"94.4\" x2=\"344.0\" y2=\"94.4\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"98.4\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"71.6\" x2=\"344.0\" y2=\"71.6\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"75.6\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"48.8\" x2=\"344.0\" y2=\"48.8\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"52.8\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">veckor</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">höjd (dm)</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#7c3aed\" stroke-width=\"2.5\"/><text x=\"340.0\" y=\"20.0\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#7c3aed\">A</text><line x1=\"40.0\" y1=\"208.4\" x2=\"344.0\" y2=\"94.4\" stroke=\"#0f766e\" stroke-width=\"2.5\"/><text x=\"340.0\" y=\"110.4\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#0f766e\">B</text><circle cx=\"100.8\" cy=\"208.4\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"161.6\" cy=\"162.8\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"222.4\" cy=\"140.0\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"283.2\" cy=\"48.8\" r=\"6\" fill=\"#2563eb\"/></svg><p>En odlare mäter hur höga solrosorna är. Mätningarna är (1, 2), (2, 4), (3, 5) och (4, 9), där x är antalet veckor och y höjden i dm. Två AI-modeller föreslår var sin linje: A: y = 2x och B: y = x + 2.</p><p>a) Bestäm medelkvadratfelet för linje A, alltså medelvärdet av felen i kvadrat.</p><p>b) Bestäm medelkvadratfelet för linje B.</p><p>c) Vilken linje passar bäst till mätningarna? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Linje A, eftersom den har lägre medelkvadratfel</p><p class=\"ul-alt\"><strong>B.</strong> Linje B, eftersom den går genom två punkter exakt</p><p class=\"ul-alt\"><strong>C.</strong> Linje B, eftersom den har högre medelkvadratfel</p><p class=\"ul-alt\"><strong>D.</strong> De passar lika bra</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förutsägelser med y = 2x</p><p>2, 4, 6 och 8.</p></li><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>0, 0, −1 och 1.</p></li><li><p class=\"facit-rubrik\">Medelkvadratfel = medelvärdet av felen i kvadrat</p><p>(0 + 0 + 1 + 1) / 4 = 0,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förutsägelser med y = x + 2</p><p>3, 4, 5 och 6.</p></li><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>−1, 0, 0 och 3.</p></li><li><p class=\"facit-rubrik\">Medelkvadratfel = medelvärdet av felen i kvadrat</p><p>(1 + 0 + 0 + 9) / 4 = 2,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägst medelkvadratfel</p><p>A har medelkvadratfelet 0,5 och B har 2,5. Ett lägre medelkvadratfel betyder att linjen ligger närmare punkterna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Linje A, eftersom den har lägre medelkvadratfel.</p><ul><li><strong>A:</strong> Linjär regression väljer just den linje som har lägst medelkvadratfel.</li><li><strong>B:</strong> B missar den sista punkten med 3, och det väger tungt i kvadrat.</li><li><strong>C:</strong> Ett högre medelkvadratfel betyder att linjen ligger längre från punkterna.</li><li><strong>D:</strong> Medelkvadratfelen skiljer sig mycket, 0,5 mot 2,5.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Den bästa linjen har lägst medelkvadratfel.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med fyra mätningar och två linjer, A: y = 2x och B: y = x + 2.\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med fyra mätningar och två linjer, A: y = 2x och B: y = x + 2.</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"100.8\" y1=\"254.0\" x2=\"100.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"100.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"161.6\" y1=\"254.0\" x2=\"161.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"161.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"222.4\" y1=\"254.0\" x2=\"222.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"222.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"283.2\" y1=\"254.0\" x2=\"283.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"283.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"231.2\" x2=\"344.0\" y2=\"231.2\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"235.2\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"208.4\" x2=\"344.0\" y2=\"208.4\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"212.4\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"185.6\" x2=\"344.0\" y2=\"185.6\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"189.6\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"162.8\" x2=\"344.0\" y2=\"162.8\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"166.8\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"117.2\" x2=\"344.0\" y2=\"117.2\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"121.2\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"94.4\" x2=\"344.0\" y2=\"94.4\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"98.4\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"71.6\" x2=\"344.0\" y2=\"71.6\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"75.6\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"48.8\" x2=\"344.0\" y2=\"48.8\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"52.8\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">veckor</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">höjd (dm)</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#7c3aed\" stroke-width=\"2.5\"/><text x=\"340.0\" y=\"20.0\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#7c3aed\">A</text><line x1=\"40.0\" y1=\"208.4\" x2=\"344.0\" y2=\"94.4\" stroke=\"#0f766e\" stroke-width=\"2.5\"/><text x=\"340.0\" y=\"110.4\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#0f766e\">B</text><circle cx=\"100.8\" cy=\"208.4\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"161.6\" cy=\"162.8\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"222.4\" cy=\"140.0\" r=\"6\" fill=\"#2563eb\"/><circle cx=\"283.2\" cy=\"48.8\" r=\"6\" fill=\"#2563eb\"/></svg><p>En odlare mäter hur höga solrosorna är. Mätningarna är (1, 2), (2, 4), (3, 5) och (4, 9), där x är antalet veckor och y höjden i dm. Två AI-modeller föreslår var sin linje: A: y = 2x och B: y = x + 2.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Bestäm medelkvadratfelet för linje A, alltså medelvärdet av felen i kvadrat. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förutsägelser med y = 2x</p><p>2, 4, 6 och 8.</p></li><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>0, 0, −1 och 1.</p></li><li><p class=\"facit-rubrik\">Medelkvadratfel = medelvärdet av felen i kvadrat</p><p>(0 + 0 + 1 + 1) / 4 = 0,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5.</p></div>",
+        "ledtrad": "<p>Räkna felet för varje punkt, kvadrera och ta medelvärdet.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm medelkvadratfelet för linje B. (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förutsägelser med y = x + 2</p><p>3, 4, 5 och 6.</p></li><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>−1, 0, 0 och 3.</p></li><li><p class=\"facit-rubrik\">Medelkvadratfel = medelvärdet av felen i kvadrat</p><p>(1 + 0 + 0 + 9) / 4 = 2,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5.</p></div>",
+        "ledtrad": "<p>Gör på samma sätt som för A.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vilken linje passar bäst till mätningarna? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägst medelkvadratfel</p><p>A har medelkvadratfelet 0,5 och B har 2,5. Ett lägre medelkvadratfel betyder att linjen ligger närmare punkterna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Linje A, eftersom den har lägre medelkvadratfel.</p><ul><li><strong>Linje A, eftersom den har lägre medelkvadratfel:</strong> Linjär regression väljer just den linje som har lägst medelkvadratfel.</li><li><strong>Linje B, eftersom den går genom två punkter exakt:</strong> B missar den sista punkten med 3, och det väger tungt i kvadrat.</li><li><strong>Linje B, eftersom den har högre medelkvadratfel:</strong> Ett högre medelkvadratfel betyder att linjen ligger längre från punkterna.</li><li><strong>De passar lika bra:</strong> Medelkvadratfelen skiljer sig mycket, 0,5 mot 2,5.</li></ul></div>",
+        "ledtrad": "<p>Är ett högt eller lågt medelkvadratfel bra?</p>",
+        "alternativ": [
+          {
+            "txt": "Linje A, eftersom den har lägre medelkvadratfel",
+            "ratt": true,
+            "kommentar": "Linjär regression väljer just den linje som har lägst medelkvadratfel."
+          },
+          {
+            "txt": "Linje B, eftersom den går genom två punkter exakt",
+            "ratt": false,
+            "kommentar": "B missar den sista punkten med 3, och det väger tungt i kvadrat."
+          },
+          {
+            "txt": "Linje B, eftersom den har högre medelkvadratfel",
+            "ratt": false,
+            "kommentar": "Ett högre medelkvadratfel betyder att linjen ligger längre från punkterna."
+          },
+          {
+            "txt": "De passar lika bra",
+            "ratt": false,
+            "kommentar": "Medelkvadratfelen skiljer sig mycket, 0,5 mot 2,5."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Linje A, eftersom den har lägre medelkvadratfel",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.46",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Linjär regression",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -3,
+      13,
+      "Så att positiva och negativa fel inte tar ut varandra, och så att stora fel väger tyngre"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Utetemperatur (°C)</th><th style=\"text-align:left\">Verklig förbrukning (kWh)</th></tr></thead><tbody><tr><td style=\"text-align:left\">0</td><td style=\"text-align:left\">50</td></tr><tr><td style=\"text-align:left\">5</td><td style=\"text-align:left\">42</td></tr><tr><td style=\"text-align:left\">10</td><td style=\"text-align:left\">27</td></tr></tbody></table><p>En AI förutsäger hur mycket el ett hus använder för uppvärmning under ett dygn. Den använder modellen förbrukning = 50 − 2 · temperatur.</p><p>a) Hur stort är modellens fel den dag då det var 10 °C ute, alltså verklig förbrukning minus förutsagd?</p><p>b) Bestäm summan av felen i kvadrat för de tre dagarna.</p><p>c) Varför kvadreras felen innan de läggs ihop?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modellens förutsägelse</p><p>50 − 2 · 10 = 30.</p></li><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>27 − 30 = −3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −3.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förutsägelser</p><p>0 °C: 50. 5 °C: 40. 10 °C: 30.</p></li><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>0, 2 och −3.</p></li><li><p class=\"facit-rubrik\">Kvadrera och summera</p><p>0² + 2² + (−3)² = 0 + 4 + 9 = 13.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Positiva och negativa fel ska inte ta ut varandra</p><p>Utan kvadrering blir 2 + (−3) = −1, som om felen nästan försvann. Kvadraterna är alltid positiva, och stora fel väger tyngre.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Så att positiva och negativa fel inte tar ut varandra, och så att stora fel väger tyngre.</p></div></div></div></div>",
+    "ledtrad": "<p>Fel = verkligt − förutsagt.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Utetemperatur (°C)</th><th style=\"text-align:left\">Verklig förbrukning (kWh)</th></tr></thead><tbody><tr><td style=\"text-align:left\">0</td><td style=\"text-align:left\">50</td></tr><tr><td style=\"text-align:left\">5</td><td style=\"text-align:left\">42</td></tr><tr><td style=\"text-align:left\">10</td><td style=\"text-align:left\">27</td></tr></tbody></table><p>En AI förutsäger hur mycket el ett hus använder för uppvärmning under ett dygn. Den använder modellen förbrukning = 50 − 2 · temperatur.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur stort är modellens fel den dag då det var 10 °C ute, alltså verklig förbrukning minus förutsagd?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modellens förutsägelse</p><p>50 − 2 · 10 = 30.</p></li><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>27 − 30 = −3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −3.</p></div>",
+        "ledtrad": "<p>Räkna först ut vad modellen förutsäger vid 10 °C.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": -3,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm summan av felen i kvadrat för de tre dagarna.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förutsägelser</p><p>0 °C: 50. 5 °C: 40. 10 °C: 30.</p></li><li><p class=\"facit-rubrik\">Fel = verkligt − förutsagt</p><p>0, 2 och −3.</p></li><li><p class=\"facit-rubrik\">Kvadrera och summera</p><p>0² + 2² + (−3)² = 0 + 4 + 9 = 13.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13.</p></div>",
+        "ledtrad": "<p>Räkna felet för varje dag och kvadrera det.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 13,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Varför kvadreras felen innan de läggs ihop? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Positiva och negativa fel ska inte ta ut varandra</p><p>Utan kvadrering blir 2 + (−3) = −1, som om felen nästan försvann. Kvadraterna är alltid positiva, och stora fel väger tyngre.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Så att positiva och negativa fel inte tar ut varandra, och så att stora fel väger tyngre.</p><ul><li><strong>Så att positiva och negativa fel inte tar ut varandra, och så att stora fel väger tyngre:</strong> Därför används medelkvadratfel.</li><li><strong>För att talen ska bli större och lättare att läsa:</strong> Syftet är inte att få stora tal.</li><li><strong>För att felen alltid är negativa:</strong> Felen kan vara både positiva och negativa.</li><li><strong>För att det är så man räknar ut lutningen:</strong> Lutningen räknas inte ut genom att kvadrera felen.</li></ul></div>",
+        "ledtrad": "<p>Vad händer om man bara lägger ihop 0, 2 och −3?</p>",
+        "alternativ": [
+          {
+            "txt": "Så att positiva och negativa fel inte tar ut varandra, och så att stora fel väger tyngre",
+            "ratt": true,
+            "kommentar": "Därför används medelkvadratfel."
+          },
+          {
+            "txt": "För att talen ska bli större och lättare att läsa",
+            "ratt": false,
+            "kommentar": "Syftet är inte att få stora tal."
+          },
+          {
+            "txt": "För att felen alltid är negativa",
+            "ratt": false,
+            "kommentar": "Felen kan vara både positiva och negativa."
+          },
+          {
+            "txt": "För att det är så man räknar ut lutningen",
+            "ratt": false,
+            "kommentar": "Lutningen räknas inte ut genom att kvadrera felen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Så att positiva och negativa fel inte tar ut varandra, och så att stora fel väger tyngre",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.47",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Linjär regression",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Båda beror troligen på något annat, till exempel varmt väder",
+      "Den väljer k och m så att medelkvadratfelet blir så litet som möjligt",
+      "Temperaturen under ett dygn, som stiger till eftermiddagen och sjunker på kvällen"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Frågorna handlar om vad linjär regression kan och inte kan visa.</p><p>a) En AI hittar ett tydligt samband: dagar då många glassar säljs drunknar också fler människor. Vilken slutsats är rimlig?</p><p>b) Vad gör linjär regression när den tränas? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Den väljer k och m så att medelkvadratfelet blir så litet som möjligt</p><p class=\"ul-alt\"><strong>B.</strong> Den drar en linje genom de två första punkterna</p><p class=\"ul-alt\"><strong>C.</strong> Den väljer en linje som går genom alla punkter</p><p class=\"ul-alt\"><strong>D.</strong> Den gissar en linje slumpmässigt</p><p>c) Vilken data passar sämst för en linjär modell? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Temperaturen under ett dygn, som stiger till eftermiddagen och sjunker på kvällen</p><p class=\"ul-alt\"><strong>B.</strong> Priset på bananer, som ökar lika mycket för varje kilo</p><p class=\"ul-alt\"><strong>C.</strong> Sträckan en bil kör i jämn fart</p><p class=\"ul-alt\"><strong>D.</strong> Kostnaden för bussbiljetter, som är lika för alla resor</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samband är inte orsak</p><p>Båda beror på en tredje sak: varmt väder. Då äter fler glass och fler badar. Glass orsakar inte drunkning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Båda beror troligen på något annat, till exempel varmt väder.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Väljer linjen med minst fel</p><p>Algoritmen väljer k och m så att medelkvadratfelet blir så litet som möjligt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den väljer k och m så att medelkvadratfelet blir så litet som möjligt.</p><ul><li><strong>A:</strong> Då ligger linjen så nära punkterna som möjligt.</li><li><strong>B:</strong> Alla punkter används, inte bara två.</li><li><strong>C:</strong> Oftast finns ingen rak linje som går genom alla punkter.</li><li><strong>D:</strong> Linjen väljs så att felet blir minst.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett samband som böjer sig</p><p>En rak linje kan inte följa ett samband som först ökar och sedan minskar. Modellen blir då underanpassad.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen under ett dygn, som stiger till eftermiddagen och sjunker på kvällen.</p><ul><li><strong>A:</strong> Sambandet böjer sig, så en rak linje passar dåligt.</li><li><strong>B:</strong> Det är ett linjärt samband.</li><li><strong>C:</strong> Sträckan ökar lika mycket varje minut, alltså linjärt.</li><li><strong>D:</strong> Kostnaden växer lika mycket per resa.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Regression hittar samband, inte orsaker.</p>",
+    "spelIntro": "<p>Frågorna handlar om vad linjär regression kan och inte kan visa.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>En AI hittar ett tydligt samband: dagar då många glassar säljs drunknar också fler människor. Vilken slutsats är rimlig? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samband är inte orsak</p><p>Båda beror på en tredje sak: varmt väder. Då äter fler glass och fler badar. Glass orsakar inte drunkning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Båda beror troligen på något annat, till exempel varmt väder.</p><ul><li><strong>Båda beror troligen på något annat, till exempel varmt väder:</strong> Ett samband i data visar inte vad som orsakar vad.</li><li><strong>Glass gör att människor drunknar:</strong> Ett samband betyder inte att det ena orsakar det andra.</li><li><strong>Man bör förbjuda glass vid stränder:</strong> Det bygger på en felaktig slutsats om orsak.</li><li><strong>Sambandet måste vara ett räknefel:</strong> Sambandet finns, men det har en annan förklaring.</li></ul></div>",
+        "ledtrad": "<p>Finns det något som får båda att öka samtidigt?</p>",
+        "alternativ": [
+          {
+            "txt": "Båda beror troligen på något annat, till exempel varmt väder",
+            "ratt": true,
+            "kommentar": "Ett samband i data visar inte vad som orsakar vad."
+          },
+          {
+            "txt": "Glass gör att människor drunknar",
+            "ratt": false,
+            "kommentar": "Ett samband betyder inte att det ena orsakar det andra."
+          },
+          {
+            "txt": "Man bör förbjuda glass vid stränder",
+            "ratt": false,
+            "kommentar": "Det bygger på en felaktig slutsats om orsak."
+          },
+          {
+            "txt": "Sambandet måste vara ett räknefel",
+            "ratt": false,
+            "kommentar": "Sambandet finns, men det har en annan förklaring."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Båda beror troligen på något annat, till exempel varmt väder",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad gör linjär regression när den tränas? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Väljer linjen med minst fel</p><p>Algoritmen väljer k och m så att medelkvadratfelet blir så litet som möjligt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den väljer k och m så att medelkvadratfelet blir så litet som möjligt.</p><ul><li><strong>Den väljer k och m så att medelkvadratfelet blir så litet som möjligt:</strong> Då ligger linjen så nära punkterna som möjligt.</li><li><strong>Den drar en linje genom de två första punkterna:</strong> Alla punkter används, inte bara två.</li><li><strong>Den väljer en linje som går genom alla punkter:</strong> Oftast finns ingen rak linje som går genom alla punkter.</li><li><strong>Den gissar en linje slumpmässigt:</strong> Linjen väljs så att felet blir minst.</li></ul></div>",
+        "ledtrad": "<p>Vad är det som ska bli så litet som möjligt?</p>",
+        "alternativ": [
+          {
+            "txt": "Den väljer k och m så att medelkvadratfelet blir så litet som möjligt",
+            "ratt": true,
+            "kommentar": "Då ligger linjen så nära punkterna som möjligt."
+          },
+          {
+            "txt": "Den drar en linje genom de två första punkterna",
+            "ratt": false,
+            "kommentar": "Alla punkter används, inte bara två."
+          },
+          {
+            "txt": "Den väljer en linje som går genom alla punkter",
+            "ratt": false,
+            "kommentar": "Oftast finns ingen rak linje som går genom alla punkter."
+          },
+          {
+            "txt": "Den gissar en linje slumpmässigt",
+            "ratt": false,
+            "kommentar": "Linjen väljs så att felet blir minst."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Den väljer k och m så att medelkvadratfelet blir så litet som möjligt",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vilken data passar sämst för en linjär modell? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett samband som böjer sig</p><p>En rak linje kan inte följa ett samband som först ökar och sedan minskar. Modellen blir då underanpassad.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen under ett dygn, som stiger till eftermiddagen och sjunker på kvällen.</p><ul><li><strong>Temperaturen under ett dygn, som stiger till eftermiddagen och sjunker på kvällen:</strong> Sambandet böjer sig, så en rak linje passar dåligt.</li><li><strong>Priset på bananer, som ökar lika mycket för varje kilo:</strong> Det är ett linjärt samband.</li><li><strong>Sträckan en bil kör i jämn fart:</strong> Sträckan ökar lika mycket varje minut, alltså linjärt.</li><li><strong>Kostnaden för bussbiljetter, som är lika för alla resor:</strong> Kostnaden växer lika mycket per resa.</li></ul></div>",
+        "ledtrad": "<p>Vilket samband kan inte beskrivas med en rak linje?</p>",
+        "alternativ": [
+          {
+            "txt": "Temperaturen under ett dygn, som stiger till eftermiddagen och sjunker på kvällen",
+            "ratt": true,
+            "kommentar": "Sambandet böjer sig, så en rak linje passar dåligt."
+          },
+          {
+            "txt": "Priset på bananer, som ökar lika mycket för varje kilo",
+            "ratt": false,
+            "kommentar": "Det är ett linjärt samband."
+          },
+          {
+            "txt": "Sträckan en bil kör i jämn fart",
+            "ratt": false,
+            "kommentar": "Sträckan ökar lika mycket varje minut, alltså linjärt."
+          },
+          {
+            "txt": "Kostnaden för bussbiljetter, som är lika för alla resor",
+            "ratt": false,
+            "kommentar": "Kostnaden växer lika mycket per resa."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Temperaturen under ett dygn, som stiger till eftermiddagen och sjunker på kvällen",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.48",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "C",
+    "poang": "1/2/0",
+    "familj": "Gradientnedstigning",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.6,
+      "Lutningen pekar åt det håll där felet ökar, så man går åt andra hållet",
+      "Stegen hoppar förbi minimum, så felet kan öka i stället för att minska"
+    ],
+    "tolerans": [
+      0,
+      null,
+      null
+    ],
+    "t": "<p>Modellen tränas med gradientnedstigning. Vikten w uppdateras med regeln w<sub>ny</sub> = w − α · lutning. α (alfa) kallas inlärningstakten och bestämmer hur långa stegen blir. Lutningen visar hur felet ändras: är den positiv blir felet större om w ökar.</p><p>a) Just nu är w = 3, lutningen är 4 och α = 0,1. Vilket värde får w efter ett steg?</p><p>b) Varför dras α · lutning bort från w, i stället för att läggas till?</p><p>c) Vad kan hända om inlärningstakten α är alldeles för stor?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uppdateringsregeln: w<sub>ny</sub> = w − α · lutning</p><p>3 − 0,1 · 4 = 3 − 0,4 = 2,6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,6.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gå nedför</p><p>Lutningen pekar åt det håll där felet ökar. Genom att gå åt motsatt håll minskar felet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lutningen pekar åt det håll där felet ökar, så man går åt andra hållet.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">För långa steg</p><p>Stegen blir så långa att man hoppar förbi minimum, och felet kan öka i stället för att minska.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stegen hoppar förbi minimum, så felet kan öka i stället för att minska.</p></div></div></div></div>",
+    "ledtrad": "<p>w<sub>ny</sub> = w − α · lutning.</p>",
+    "spelIntro": "<p>Modellen tränas med gradientnedstigning. Vikten w uppdateras med regeln w<sub>ny</sub> = w − α · lutning. α (alfa) kallas inlärningstakten och bestämmer hur långa stegen blir. Lutningen visar hur felet ändras: är den positiv blir felet större om w ökar.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Just nu är w = 3, lutningen är 4 och α = 0,1. Vilket värde får w efter ett steg? (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uppdateringsregeln: w<sub>ny</sub> = w − α · lutning</p><p>3 − 0,1 · 4 = 3 − 0,4 = 2,6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,6.</p></div>",
+        "ledtrad": "<p>Multiplicera α med lutningen och dra av från w.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.6,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Varför dras α · lutning bort från w, i stället för att läggas till? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gå nedför</p><p>Lutningen pekar åt det håll där felet ökar. Genom att gå åt motsatt håll minskar felet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lutningen pekar åt det håll där felet ökar, så man går åt andra hållet.</p><ul><li><strong>Lutningen pekar åt det håll där felet ökar, så man går åt andra hållet:</strong> Därför heter det gradientnedstigning.</li><li><strong>För att w alltid ska bli mindre:</strong> Om lutningen är negativ blir w större.</li><li><strong>Det spelar ingen roll om man lägger till eller drar av:</strong> Lägger man till ökar felet.</li><li><strong>För att α alltid är negativt:</strong> α är ett litet positivt tal.</li></ul></div>",
+        "ledtrad": "<p>Vad händer med felet om man går i lutningens riktning?</p>",
+        "alternativ": [
+          {
+            "txt": "Lutningen pekar åt det håll där felet ökar, så man går åt andra hållet",
+            "ratt": true,
+            "kommentar": "Därför heter det gradientnedstigning."
+          },
+          {
+            "txt": "För att w alltid ska bli mindre",
+            "ratt": false,
+            "kommentar": "Om lutningen är negativ blir w större."
+          },
+          {
+            "txt": "Det spelar ingen roll om man lägger till eller drar av",
+            "ratt": false,
+            "kommentar": "Lägger man till ökar felet."
+          },
+          {
+            "txt": "För att α alltid är negativt",
+            "ratt": false,
+            "kommentar": "α är ett litet positivt tal."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Lutningen pekar åt det håll där felet ökar, så man går åt andra hållet",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad kan hända om inlärningstakten α är alldeles för stor? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">För långa steg</p><p>Stegen blir så långa att man hoppar förbi minimum, och felet kan öka i stället för att minska.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stegen hoppar förbi minimum, så felet kan öka i stället för att minska.</p><ul><li><strong>Stegen hoppar förbi minimum, så felet kan öka i stället för att minska:</strong> Därför väljer man ett lagom α.</li><li><strong>Träningen går långsammare:</strong> Det händer om α är för litet.</li><li><strong>Modellen blir alltid bättre ju större α är:</strong> För stora steg kan göra att träningen aldrig hittar minimum.</li><li><strong>Ingenting, α påverkar inte träningen:</strong> α bestämmer hur långa stegen är.</li></ul></div>",
+        "ledtrad": "<p>Tänk dig att du går nedför en backe med jättekliv.</p>",
+        "alternativ": [
+          {
+            "txt": "Stegen hoppar förbi minimum, så felet kan öka i stället för att minska",
+            "ratt": true,
+            "kommentar": "Därför väljer man ett lagom α."
+          },
+          {
+            "txt": "Träningen går långsammare",
+            "ratt": false,
+            "kommentar": "Det händer om α är för litet."
+          },
+          {
+            "txt": "Modellen blir alltid bättre ju större α är",
+            "ratt": false,
+            "kommentar": "För stora steg kan göra att träningen aldrig hittar minimum."
+          },
+          {
+            "txt": "Ingenting, α påverkar inte träningen",
+            "ratt": false,
+            "kommentar": "α bestämmer hur långa stegen är."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Stegen hoppar förbi minimum, så felet kan öka i stället för att minska",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.49",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Gradientnedstigning",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.5,
+      3.75,
+      "5"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<p>Felet för en modell är E(w) = (w − 5)², och lutningen är 2(w − 5). Gradientnedstigning startar i w = 0 med inlärningstakten α = 0,25 och regeln w<sub>ny</sub> = w − α · lutning.</p><p>a) Vilket värde har w efter första steget?</p><p>b) Vilket värde har w efter andra steget?</p><p>c) Mot vilket värde närmar sig w om man fortsätter? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> 5</p><p class=\"ul-alt\"><strong>B.</strong> 0</p><p class=\"ul-alt\"><strong>C.</strong> Det växer utan gräns</p><p class=\"ul-alt\"><strong>D.</strong> 2,5</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 2(w − 5) i w = 0</p><p>2(0 − 5) = −10.</p></li><li><p class=\"facit-rubrik\">w<sub>ny</sub> = w − α · lutning</p><p>0 − 0,25 · (−10) = 2,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 2(w − 5) i w = 2,5</p><p>2(2,5 − 5) = −5.</p></li><li><p class=\"facit-rubrik\">w<sub>ny</sub> = w − α · lutning</p><p>2,5 − 0,25 · (−5) = 3,75.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,75.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minimum av felet</p><p>E(w) = (w − 5)² är minst när w = 5. Varje steg tar w halvvägs dit.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p><ul><li><strong>A:</strong> Där är felet 0 och lutningen 0, så stegen blir allt kortare.</li><li><strong>B:</strong> w rör sig bort från 0, mot minimum.</li><li><strong>C:</strong> Stegen blir kortare ju närmare 5 man kommer.</li><li><strong>D:</strong> 2,5 är bara värdet efter första steget.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Lutningen blir mindre nära minimum, så stegen blir kortare.</p>",
+    "spelIntro": "<p>Felet för en modell är E(w) = (w − 5)², och lutningen är 2(w − 5). Gradientnedstigning startar i w = 0 med inlärningstakten α = 0,25 och regeln w<sub>ny</sub> = w − α · lutning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilket värde har w efter första steget? (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 2(w − 5) i w = 0</p><p>2(0 − 5) = −10.</p></li><li><p class=\"facit-rubrik\">w<sub>ny</sub> = w − α · lutning</p><p>0 − 0,25 · (−10) = 2,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5.</p></div>",
+        "ledtrad": "<p>Räkna först ut lutningen i w = 0.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 2.5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilket värde har w efter andra steget? (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 2(w − 5) i w = 2,5</p><p>2(2,5 − 5) = −5.</p></li><li><p class=\"facit-rubrik\">w<sub>ny</sub> = w − α · lutning</p><p>2,5 − 0,25 · (−5) = 3,75.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,75.</p></div>",
+        "ledtrad": "<p>Upprepa med det nya w.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 3.75,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Mot vilket värde närmar sig w om man fortsätter? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minimum av felet</p><p>E(w) = (w − 5)² är minst när w = 5. Varje steg tar w halvvägs dit.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p><ul><li><strong>5:</strong> Där är felet 0 och lutningen 0, så stegen blir allt kortare.</li><li><strong>0:</strong> w rör sig bort från 0, mot minimum.</li><li><strong>Det växer utan gräns:</strong> Stegen blir kortare ju närmare 5 man kommer.</li><li><strong>2,5:</strong> 2,5 är bara värdet efter första steget.</li></ul></div>",
+        "ledtrad": "<p>Var är felet minst?</p>",
+        "alternativ": [
+          {
+            "txt": "5",
+            "ratt": true,
+            "kommentar": "Där är felet 0 och lutningen 0, så stegen blir allt kortare."
+          },
+          {
+            "txt": "0",
+            "ratt": false,
+            "kommentar": "w rör sig bort från 0, mot minimum."
+          },
+          {
+            "txt": "Det växer utan gräns",
+            "ratt": false,
+            "kommentar": "Stegen blir kortare ju närmare 5 man kommer."
+          },
+          {
+            "txt": "2,5",
+            "ratt": false,
+            "kommentar": "2,5 är bara värdet efter första steget."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "5",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.50",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Gradientnedstigning",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -6,
+      4,
+      "w står kvar på 4, eftersom lutningen där är 0"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<p>Felet för en modell är E(w) = (w − 4)², och lutningen är 2(w − 4). Just nu är w = 1. Inlärningstakten är α = 0,5 och regeln är w<sub>ny</sub> = w − α · lutning.</p><p>a) Vad är lutningen i w = 1?</p><p>b) Vilket värde får w efter ett steg?</p><p>c) Vad händer i nästa steg? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> w står kvar på 4, eftersom lutningen där är 0</p><p class=\"ul-alt\"><strong>B.</strong> w fortsätter att öka med 3</p><p class=\"ul-alt\"><strong>C.</strong> w går tillbaka till 1</p><p class=\"ul-alt\"><strong>D.</strong> w blir negativt</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 2(w − 4)</p><p>2(1 − 4) = 2 · (−3) = −6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −6.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">w<sub>ny</sub> = w − α · lutning</p><p>1 − 0,5 · (−6) = 1 + 3 = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen är 0 i minimum</p><p>I w = 4 är lutningen 2(4 − 4) = 0. Steget blir 0, så w står kvar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> w står kvar på 4, eftersom lutningen där är 0.</p><ul><li><strong>A:</strong> w = 4 är minimum av felet.</li><li><strong>B:</strong> Stegets längd beror på lutningen, som nu är 0.</li><li><strong>C:</strong> Det finns inget som drar tillbaka w.</li><li><strong>D:</strong> Med lutningen 0 ändras inte w.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>En negativ lutning gör att w ökar.</p>",
+    "spelIntro": "<p>Felet för en modell är E(w) = (w − 4)², och lutningen är 2(w − 4). Just nu är w = 1. Inlärningstakten är α = 0,5 och regeln är w<sub>ny</sub> = w − α · lutning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vad är lutningen i w = 1?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 2(w − 4)</p><p>2(1 − 4) = 2 · (−3) = −6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −6.</p></div>",
+        "ledtrad": "<p>Sätt in w = 1 i 2(w − 4).</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": -6,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilket värde får w efter ett steg?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">w<sub>ny</sub> = w − α · lutning</p><p>1 − 0,5 · (−6) = 1 + 3 = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div>",
+        "ledtrad": "<p>Minus en negativ lutning gör att w ökar.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad händer i nästa steg? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen är 0 i minimum</p><p>I w = 4 är lutningen 2(4 − 4) = 0. Steget blir 0, så w står kvar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> w står kvar på 4, eftersom lutningen där är 0.</p><ul><li><strong>w står kvar på 4, eftersom lutningen där är 0:</strong> w = 4 är minimum av felet.</li><li><strong>w fortsätter att öka med 3:</strong> Stegets längd beror på lutningen, som nu är 0.</li><li><strong>w går tillbaka till 1:</strong> Det finns inget som drar tillbaka w.</li><li><strong>w blir negativt:</strong> Med lutningen 0 ändras inte w.</li></ul></div>",
+        "ledtrad": "<p>Räkna lutningen i w = 4.</p>",
+        "alternativ": [
+          {
+            "txt": "w står kvar på 4, eftersom lutningen där är 0",
+            "ratt": true,
+            "kommentar": "w = 4 är minimum av felet."
+          },
+          {
+            "txt": "w fortsätter att öka med 3",
+            "ratt": false,
+            "kommentar": "Stegets längd beror på lutningen, som nu är 0."
+          },
+          {
+            "txt": "w går tillbaka till 1",
+            "ratt": false,
+            "kommentar": "Det finns inget som drar tillbaka w."
+          },
+          {
+            "txt": "w blir negativt",
+            "ratt": false,
+            "kommentar": "Med lutningen 0 ändras inte w."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "w står kvar på 4, eftersom lutningen där är 0",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.51",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "C",
+    "poang": "1/1/0",
+    "familj": "Gradientnedstigning",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      "Längre från minimum, eftersom steget hoppade förbi"
+    ],
+    "tolerans": [
+      0,
+      null
+    ],
+    "t": "<p>Felet för en modell är E(w) = (w − 2)², och felet är minst när w = 2. Lutningen är 2(w − 2). Gradientnedstigning startar i w = 4 med en stor inlärningstakt, α = 1,5, och regeln w<sub>ny</sub> = w − α · lutning.</p><p>a) Vilket värde har w efter första steget?</p><p>b) Före steget låg w 2 från minimum. Var ligger w efter steget? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Längre från minimum, eftersom steget hoppade förbi</p><p class=\"ul-alt\"><strong>B.</strong> Närmare minimum</p><p class=\"ul-alt\"><strong>C.</strong> Precis i minimum</p><p class=\"ul-alt\"><strong>D.</strong> På samma avstånd som förut</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 2(w − 2) i w = 4</p><p>2(4 − 2) = 4.</p></li><li><p class=\"facit-rubrik\">w<sub>ny</sub> = w − α · lutning</p><p>4 − 1,5 · 4 = 4 − 6 = −2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −2.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Steget gick för långt</p><p>w = −2 ligger 4 från minimum w = 2. Steget var så långt att w hoppade förbi minimum och hamnade längre bort än förut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Längre från minimum, eftersom steget hoppade förbi.</p><ul><li><strong>A:</strong> Inlärningstakten α är för stor.</li><li><strong>B:</strong> Avståndet ökade från 2 till 4.</li><li><strong>C:</strong> Minimum är w = 2, inte w = −2.</li><li><strong>D:</strong> Avståndet ökade från 2 till 4.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>För stort α kan få w att hoppa förbi minimum.</p>",
+    "spelIntro": "<p>Felet för en modell är E(w) = (w − 2)², och felet är minst när w = 2. Lutningen är 2(w − 2). Gradientnedstigning startar i w = 4 med en stor inlärningstakt, α = 1,5, och regeln w<sub>ny</sub> = w − α · lutning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilket värde har w efter första steget?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 2(w − 2) i w = 4</p><p>2(4 − 2) = 4.</p></li><li><p class=\"facit-rubrik\">w<sub>ny</sub> = w − α · lutning</p><p>4 − 1,5 · 4 = 4 − 6 = −2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −2.</p></div>",
+        "ledtrad": "<p>Räkna först ut lutningen i w = 4.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": -2,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Före steget låg w 2 från minimum. Var ligger w efter steget? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Steget gick för långt</p><p>w = −2 ligger 4 från minimum w = 2. Steget var så långt att w hoppade förbi minimum och hamnade längre bort än förut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Längre från minimum, eftersom steget hoppade förbi.</p><ul><li><strong>Längre från minimum, eftersom steget hoppade förbi:</strong> Inlärningstakten α är för stor.</li><li><strong>Närmare minimum:</strong> Avståndet ökade från 2 till 4.</li><li><strong>Precis i minimum:</strong> Minimum är w = 2, inte w = −2.</li><li><strong>På samma avstånd som förut:</strong> Avståndet ökade från 2 till 4.</li></ul></div>",
+        "ledtrad": "<p>Jämför avståndet från 4 till 2 med avståndet från −2 till 2.</p>",
+        "alternativ": [
+          {
+            "txt": "Längre från minimum, eftersom steget hoppade förbi",
+            "ratt": true,
+            "kommentar": "Inlärningstakten α är för stor."
+          },
+          {
+            "txt": "Närmare minimum",
+            "ratt": false,
+            "kommentar": "Avståndet ökade från 2 till 4."
+          },
+          {
+            "txt": "Precis i minimum",
+            "ratt": false,
+            "kommentar": "Minimum är w = 2, inte w = −2."
+          },
+          {
+            "txt": "På samma avstånd som förut",
+            "ratt": false,
+            "kommentar": "Avståndet ökade från 2 till 4."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Längre från minimum, eftersom steget hoppade förbi",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
+  },
+  {
+    "id": "4.52",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Gradientnedstigning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "α = 0,001",
+      "α = 2",
+      "α = 0,1"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Epok</th><th style=\"text-align:left\">1</th><th style=\"text-align:left\">2</th><th style=\"text-align:left\">3</th><th style=\"text-align:left\">4</th></tr></thead><tbody><tr><td style=\"text-align:left\">α = 0,001</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">9,9</td><td style=\"text-align:left\">9,8</td><td style=\"text-align:left\">9,7</td></tr><tr><td style=\"text-align:left\">α = 0,1</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">4</td><td style=\"text-align:left\">1,6</td><td style=\"text-align:left\">0,6</td></tr><tr><td style=\"text-align:left\">α = 2</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">30</td><td style=\"text-align:left\">95</td><td style=\"text-align:left\">280</td></tr></tbody></table><p>Samma modell tränas med tre olika inlärningstakter. Tabellen visar felet efter varje epok (varv genom träningsdatan).</p><p>a) Vilken inlärningstakt är för liten? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> α = 0,001</p><p class=\"ul-alt\"><strong>B.</strong> α = 0,1</p><p class=\"ul-alt\"><strong>C.</strong> α = 2</p><p class=\"ul-alt\"><strong>D.</strong> Ingen av dem</p><p>b) Vilken inlärningstakt är för stor? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> α = 2</p><p class=\"ul-alt\"><strong>B.</strong> α = 0,1</p><p class=\"ul-alt\"><strong>C.</strong> α = 0,001</p><p class=\"ul-alt\"><strong>D.</strong> Alla, eftersom felet inte blir 0</p><p>c) Vilken inlärningstakt bör väljas? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> α = 0,1</p><p class=\"ul-alt\"><strong>B.</strong> α = 2</p><p class=\"ul-alt\"><strong>C.</strong> α = 0,001</p><p class=\"ul-alt\"><strong>D.</strong> Den största, eftersom den lär sig mest</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Felet minskar mycket långsamt</p><p>Med α = 0,001 minskar felet bara med 0,1 per epok. Träningen skulle ta mycket lång tid.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> α = 0,001.</p><ul><li><strong>A:</strong> Små steg gör att det går långsamt.</li><li><strong>B:</strong> Där minskar felet snabbt.</li><li><strong>C:</strong> Där ökar felet, så α är för stort.</li><li><strong>D:</strong> α = 0,001 ger mycket långsam träning.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Felet ökar</p><p>Med α = 2 ökar felet för varje epok. Stegen är så långa att minimum hoppas över.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> α = 2.</p><ul><li><strong>A:</strong> Felet går från 10 till 280.</li><li><strong>B:</strong> Där minskar felet.</li><li><strong>C:</strong> Där minskar felet, om än långsamt.</li><li><strong>D:</strong> Felet behöver inte bli 0 efter fyra epoker.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Snabbt och stabilt</p><p>α = 0,1 ger ett fel som minskar snabbt och hela tiden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> α = 0,1.</p><ul><li><strong>A:</strong> Felet går från 10 till 0,6 på fyra epoker.</li><li><strong>B:</strong> Felet växer, träningen fungerar inte.</li><li><strong>C:</strong> Den fungerar men är alldeles för långsam.</li><li><strong>D:</strong> Den största ger växande fel.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Jämför hur felet ändras i varje rad.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Epok</th><th style=\"text-align:left\">1</th><th style=\"text-align:left\">2</th><th style=\"text-align:left\">3</th><th style=\"text-align:left\">4</th></tr></thead><tbody><tr><td style=\"text-align:left\">α = 0,001</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">9,9</td><td style=\"text-align:left\">9,8</td><td style=\"text-align:left\">9,7</td></tr><tr><td style=\"text-align:left\">α = 0,1</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">4</td><td style=\"text-align:left\">1,6</td><td style=\"text-align:left\">0,6</td></tr><tr><td style=\"text-align:left\">α = 2</td><td style=\"text-align:left\">10</td><td style=\"text-align:left\">30</td><td style=\"text-align:left\">95</td><td style=\"text-align:left\">280</td></tr></tbody></table><p>Samma modell tränas med tre olika inlärningstakter. Tabellen visar felet efter varje epok (varv genom träningsdatan).</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilken inlärningstakt är för liten? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Felet minskar mycket långsamt</p><p>Med α = 0,001 minskar felet bara med 0,1 per epok. Träningen skulle ta mycket lång tid.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> α = 0,001.</p><ul><li><strong>α = 0,001:</strong> Små steg gör att det går långsamt.</li><li><strong>α = 0,1:</strong> Där minskar felet snabbt.</li><li><strong>α = 2:</strong> Där ökar felet, så α är för stort.</li><li><strong>Ingen av dem:</strong> α = 0,001 ger mycket långsam träning.</li></ul></div>",
+        "ledtrad": "<p>Vilken rad ändras nästan inte alls?</p>",
+        "alternativ": [
+          {
+            "txt": "α = 0,001",
+            "ratt": true,
+            "kommentar": "Små steg gör att det går långsamt."
+          },
+          {
+            "txt": "α = 0,1",
+            "ratt": false,
+            "kommentar": "Där minskar felet snabbt."
+          },
+          {
+            "txt": "α = 2",
+            "ratt": false,
+            "kommentar": "Där ökar felet, så α är för stort."
+          },
+          {
+            "txt": "Ingen av dem",
+            "ratt": false,
+            "kommentar": "α = 0,001 ger mycket långsam träning."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "α = 0,001",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilken inlärningstakt är för stor? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Felet ökar</p><p>Med α = 2 ökar felet för varje epok. Stegen är så långa att minimum hoppas över.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> α = 2.</p><ul><li><strong>α = 2:</strong> Felet går från 10 till 280.</li><li><strong>α = 0,1:</strong> Där minskar felet.</li><li><strong>α = 0,001:</strong> Där minskar felet, om än långsamt.</li><li><strong>Alla, eftersom felet inte blir 0:</strong> Felet behöver inte bli 0 efter fyra epoker.</li></ul></div>",
+        "ledtrad": "<p>Vilken rad växer?</p>",
+        "alternativ": [
+          {
+            "txt": "α = 2",
+            "ratt": true,
+            "kommentar": "Felet går från 10 till 280."
+          },
+          {
+            "txt": "α = 0,1",
+            "ratt": false,
+            "kommentar": "Där minskar felet."
+          },
+          {
+            "txt": "α = 0,001",
+            "ratt": false,
+            "kommentar": "Där minskar felet, om än långsamt."
+          },
+          {
+            "txt": "Alla, eftersom felet inte blir 0",
+            "ratt": false,
+            "kommentar": "Felet behöver inte bli 0 efter fyra epoker."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "α = 2",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vilken inlärningstakt bör väljas? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Snabbt och stabilt</p><p>α = 0,1 ger ett fel som minskar snabbt och hela tiden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> α = 0,1.</p><ul><li><strong>α = 0,1:</strong> Felet går från 10 till 0,6 på fyra epoker.</li><li><strong>α = 2:</strong> Felet växer, träningen fungerar inte.</li><li><strong>α = 0,001:</strong> Den fungerar men är alldeles för långsam.</li><li><strong>Den största, eftersom den lär sig mest:</strong> Den största ger växande fel.</li></ul></div>",
+        "ledtrad": "<p>Vilken rad minskar snabbt utan att öka?</p>",
+        "alternativ": [
+          {
+            "txt": "α = 0,1",
+            "ratt": true,
+            "kommentar": "Felet går från 10 till 0,6 på fyra epoker."
+          },
+          {
+            "txt": "α = 2",
+            "ratt": false,
+            "kommentar": "Felet växer, träningen fungerar inte."
+          },
+          {
+            "txt": "α = 0,001",
+            "ratt": false,
+            "kommentar": "Den fungerar men är alldeles för långsam."
+          },
+          {
+            "txt": "Den största, eftersom den lär sig mest",
+            "ratt": false,
+            "kommentar": "Den största ger växande fel."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "α = 0,1",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.53",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Gradientnedstigning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.6,
+      "Felet är som minst där, så w ändras inte längre",
+      "Ett lokalt minimum"
+    ],
+    "tolerans": [
+      0,
+      null,
+      null
+    ],
+    "t": "<p>Modellen tränas med gradientnedstigning. Vikten w uppdateras med regeln w<sub>ny</sub> = w − α · lutning. α (alfa) kallas inlärningstakten och bestämmer hur långa stegen blir. Lutningen visar hur felet ändras: är den positiv blir felet större om w ökar.</p><p>a) Just nu är w = 5, lutningen är 0,8 och α = 0,5. Vilket värde får w efter ett steg?</p><p>b) Efter många steg är lutningen 0. Vad betyder det? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Felet är som minst där, så w ändras inte längre</p><p class=\"ul-alt\"><strong>B.</strong> Felet är 0</p><p class=\"ul-alt\"><strong>C.</strong> Inlärningstakten har blivit 0</p><p class=\"ul-alt\"><strong>D.</strong> Modellen har slutat fungera</p><p>c) Felet har flera dalar, och gradientnedstigning stannar i en dal som inte är den djupaste. Vad kallas det?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uppdateringsregeln: w<sub>ny</sub> = w − α · lutning</p><p>5 − 0,5 · 0,8 = 5 − 0,4 = 4,6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,6.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Felet ändras inte där</p><p>Lutningen 0 betyder att felet varken ökar eller minskar om w ändras lite. Man har nått ett minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Felet är som minst där, så w ändras inte längre.</p><ul><li><strong>A:</strong> Steget α · 0 är 0.</li><li><strong>B:</strong> Felet kan vara större än 0 även i minimum.</li><li><strong>C:</strong> α är densamma, det är lutningen som är 0.</li><li><strong>D:</strong> Det betyder tvärtom att träningen har hittat ett minimum.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lokalt minimum</p><p>Gradientnedstigning går alltid nedför från där den startar. Den kan fastna i en grund dal, ett lokalt minimum, utan att hitta den djupaste.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum.</p></div></div></div></div>",
+    "ledtrad": "<p>Lutningen 0 betyder att stegen slutar.</p>",
+    "spelIntro": "<p>Modellen tränas med gradientnedstigning. Vikten w uppdateras med regeln w<sub>ny</sub> = w − α · lutning. α (alfa) kallas inlärningstakten och bestämmer hur långa stegen blir. Lutningen visar hur felet ändras: är den positiv blir felet större om w ökar.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Just nu är w = 5, lutningen är 0,8 och α = 0,5. Vilket värde får w efter ett steg? (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uppdateringsregeln: w<sub>ny</sub> = w − α · lutning</p><p>5 − 0,5 · 0,8 = 5 − 0,4 = 4,6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,6.</p></div>",
+        "ledtrad": "<p>Räkna α · lutning först.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 4.6,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Efter många steg är lutningen 0. Vad betyder det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Felet ändras inte där</p><p>Lutningen 0 betyder att felet varken ökar eller minskar om w ändras lite. Man har nått ett minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Felet är som minst där, så w ändras inte längre.</p><ul><li><strong>Felet är som minst där, så w ändras inte längre:</strong> Steget α · 0 är 0.</li><li><strong>Felet är 0:</strong> Felet kan vara större än 0 även i minimum.</li><li><strong>Inlärningstakten har blivit 0:</strong> α är densamma, det är lutningen som är 0.</li><li><strong>Modellen har slutat fungera:</strong> Det betyder tvärtom att träningen har hittat ett minimum.</li></ul></div>",
+        "ledtrad": "<p>Vad blir α · lutning om lutningen är 0?</p>",
+        "alternativ": [
+          {
+            "txt": "Felet är som minst där, så w ändras inte längre",
+            "ratt": true,
+            "kommentar": "Steget α · 0 är 0."
+          },
+          {
+            "txt": "Felet är 0",
+            "ratt": false,
+            "kommentar": "Felet kan vara större än 0 även i minimum."
+          },
+          {
+            "txt": "Inlärningstakten har blivit 0",
+            "ratt": false,
+            "kommentar": "α är densamma, det är lutningen som är 0."
+          },
+          {
+            "txt": "Modellen har slutat fungera",
+            "ratt": false,
+            "kommentar": "Det betyder tvärtom att träningen har hittat ett minimum."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Felet är som minst där, så w ändras inte längre",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Felet har flera dalar, och gradientnedstigning stannar i en dal som inte är den djupaste. Vad kallas det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lokalt minimum</p><p>Gradientnedstigning går alltid nedför från där den startar. Den kan fastna i en grund dal, ett lokalt minimum, utan att hitta den djupaste.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum.</p><ul><li><strong>Ett lokalt minimum:</strong> Lutningen är 0 där, så stegen slutar, fast felet kunde vara lägre någon annanstans.</li><li><strong>Ett globalt minimum:</strong> Det globala minimum är den djupaste dalen.</li><li><strong>Överanpassning:</strong> Överanpassning handlar om skillnaden mellan träning och test.</li><li><strong>Ett för litet α:</strong> Även med lagom α kan man fastna i en grund dal.</li></ul></div>",
+        "ledtrad": "<p>Ser algoritmen hela landskapet eller bara lutningen där den står?</p>",
+        "alternativ": [
+          {
+            "txt": "Ett lokalt minimum",
+            "ratt": true,
+            "kommentar": "Lutningen är 0 där, så stegen slutar, fast felet kunde vara lägre någon annanstans."
+          },
+          {
+            "txt": "Ett globalt minimum",
+            "ratt": false,
+            "kommentar": "Det globala minimum är den djupaste dalen."
+          },
+          {
+            "txt": "Överanpassning",
+            "ratt": false,
+            "kommentar": "Överanpassning handlar om skillnaden mellan träning och test."
+          },
+          {
+            "txt": "Ett för litet α",
+            "ratt": false,
+            "kommentar": "Även med lagom α kan man fastna i en grund dal."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Ett lokalt minimum",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.54",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "E",
+    "poang": "4/0/0",
+    "familj": "Gradientnedstigning",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      16,
+      8,
+      4,
+      7
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "t": "<p>En modell har felet E(w) = (w − 6)², med lutningen 2(w − 6). Gradientnedstigning startar i w = 10 med α = 0,25 och regeln w<sub>ny</sub> = w − α · lutning.</p><p>a) Hur stort är felet i startpunkten w = 10?</p><p>b) Vilket värde har w efter första steget?</p><p>c) Hur stort är felet efter första steget?</p><p>d) Vilket värde har w efter andra steget?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Felet E(w) = (w − 6)²</p><p>(10 − 6)² = 4² = 16.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 2(w − 6) i w = 10</p><p>2 · 4 = 8.</p></li><li><p class=\"facit-rubrik\">w<sub>ny</sub> = w − α · lutning</p><p>10 − 0,25 · 8 = 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Felet E(w) = (w − 6)² i det nya w</p><p>(8 − 6)² = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 2(w − 6) i w = 8</p><p>2 · 2 = 4.</p></li><li><p class=\"facit-rubrik\">w<sub>ny</sub> = w − α · lutning</p><p>8 − 0,25 · 4 = 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7.</p></div></div></div></div>",
+    "ledtrad": "<p>Varje steg halverar här avståndet till w = 6.</p>",
+    "spelIntro": "<p>En modell har felet E(w) = (w − 6)², med lutningen 2(w − 6). Gradientnedstigning startar i w = 10 med α = 0,25 och regeln w<sub>ny</sub> = w − α · lutning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur stort är felet i startpunkten w = 10?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Felet E(w) = (w − 6)²</p><p>(10 − 6)² = 4² = 16.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16.</p></div>",
+        "ledtrad": "<p>Sätt in w = 10 i E(w).</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 16,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilket värde har w efter första steget?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 2(w − 6) i w = 10</p><p>2 · 4 = 8.</p></li><li><p class=\"facit-rubrik\">w<sub>ny</sub> = w − α · lutning</p><p>10 − 0,25 · 8 = 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div>",
+        "ledtrad": "<p>Räkna lutningen i w = 10 först.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 8,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Hur stort är felet efter första steget?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Felet E(w) = (w − 6)² i det nya w</p><p>(8 − 6)² = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div>",
+        "ledtrad": "<p>Sätt in det nya w i E(w).</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Vilket värde har w efter andra steget?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 2(w − 6) i w = 8</p><p>2 · 2 = 4.</p></li><li><p class=\"facit-rubrik\">w<sub>ny</sub> = w − α · lutning</p><p>8 − 0,25 · 4 = 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7.</p></div>",
+        "ledtrad": "<p>Upprepa med w = 8.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 7,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.55",
+    "kap": 4,
+    "omr": "regression",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Gradientnedstigning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Förutsäga, räkna ut felet, räkna ut lutningen, uppdatera vikten",
+      -1.4,
+      "Hur mycket och åt vilket håll felet ändras när w ändras lite"
+    ],
+    "tolerans": [
+      null,
+      0,
+      null
+    ],
+    "t": "<p>Modellen tränas med gradientnedstigning. Vikten w uppdateras med regeln w<sub>ny</sub> = w − α · lutning. α (alfa) kallas inlärningstakten och bestämmer hur långa stegen blir. Lutningen visar hur felet ändras: är den positiv blir felet större om w ökar.</p><p>a) I vilken ordning sker ett steg när en modell tränas med gradientnedstigning? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Förutsäga, räkna ut felet, räkna ut lutningen, uppdatera vikten</p><p class=\"ul-alt\"><strong>B.</strong> Uppdatera vikten, förutsäga, räkna ut felet</p><p class=\"ul-alt\"><strong>C.</strong> Räkna ut lutningen, förutsäga, uppdatera vikten</p><p class=\"ul-alt\"><strong>D.</strong> Räkna ut felet, förutsäga, uppdatera vikten</p><p>b) Just nu är w = −2, lutningen är −3 och α = 0,2. Vilket värde får w efter ett steg?</p><p>c) Vad visar lutningen av felet? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Hur mycket och åt vilket håll felet ändras när w ändras lite</p><p class=\"ul-alt\"><strong>B.</strong> Hur stort felet är</p><p class=\"ul-alt\"><strong>C.</strong> Hur många steg som är kvar</p><p class=\"ul-alt\"><strong>D.</strong> Hur bra modellen är på testdata</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förutsäg, mät felet, räkna lutningen, uppdatera</p><p>Modellen förutsäger först, sedan jämförs förutsägelsen med facit. Lutningen av felet visar hur vikten ska ändras, och sist uppdateras vikten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Förutsäga, räkna ut felet, räkna ut lutningen, uppdatera vikten.</p><ul><li><strong>A:</strong> Sedan upprepas samma steg många gånger.</li><li><strong>B:</strong> Man vet inte hur vikten ska ändras innan felet är känt.</li><li><strong>C:</strong> Lutningen är lutningen av felet, så felet måste räknas ut först.</li><li><strong>D:</strong> Felet kan inte räknas ut innan modellen har förutsagt.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uppdateringsregeln: w<sub>ny</sub> = w − α · lutning</p><p>−2 − 0,2 · (−3) = −2 + 0,6 = −1,4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1,4.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hur felet ändras när w ändras</p><p>Lutningen visar hur snabbt felet ökar eller minskar när w ändras lite, och åt vilket håll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hur mycket och åt vilket håll felet ändras när w ändras lite.</p><ul><li><strong>A:</strong> Därför kan den användas för att välja riktning.</li><li><strong>B:</strong> Felet kan vara stort fast lutningen är 0.</li><li><strong>C:</strong> Lutningen säger inget om antalet steg.</li><li><strong>D:</strong> Lutningen räknas på träningsfelet.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>w<sub>ny</sub> = w − α · lutning.</p>",
+    "spelIntro": "<p>Modellen tränas med gradientnedstigning. Vikten w uppdateras med regeln w<sub>ny</sub> = w − α · lutning. α (alfa) kallas inlärningstakten och bestämmer hur långa stegen blir. Lutningen visar hur felet ändras: är den positiv blir felet större om w ökar.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>I vilken ordning sker ett steg när en modell tränas med gradientnedstigning? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förutsäg, mät felet, räkna lutningen, uppdatera</p><p>Modellen förutsäger först, sedan jämförs förutsägelsen med facit. Lutningen av felet visar hur vikten ska ändras, och sist uppdateras vikten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Förutsäga, räkna ut felet, räkna ut lutningen, uppdatera vikten.</p><ul><li><strong>Förutsäga, räkna ut felet, räkna ut lutningen, uppdatera vikten:</strong> Sedan upprepas samma steg många gånger.</li><li><strong>Uppdatera vikten, förutsäga, räkna ut felet:</strong> Man vet inte hur vikten ska ändras innan felet är känt.</li><li><strong>Räkna ut lutningen, förutsäga, uppdatera vikten:</strong> Lutningen är lutningen av felet, så felet måste räknas ut först.</li><li><strong>Räkna ut felet, förutsäga, uppdatera vikten:</strong> Felet kan inte räknas ut innan modellen har förutsagt.</li></ul></div>",
+        "ledtrad": "<p>Vad behövs för att kunna räkna ut felet?</p>",
+        "alternativ": [
+          {
+            "txt": "Förutsäga, räkna ut felet, räkna ut lutningen, uppdatera vikten",
+            "ratt": true,
+            "kommentar": "Sedan upprepas samma steg många gånger."
+          },
+          {
+            "txt": "Uppdatera vikten, förutsäga, räkna ut felet",
+            "ratt": false,
+            "kommentar": "Man vet inte hur vikten ska ändras innan felet är känt."
+          },
+          {
+            "txt": "Räkna ut lutningen, förutsäga, uppdatera vikten",
+            "ratt": false,
+            "kommentar": "Lutningen är lutningen av felet, så felet måste räknas ut först."
+          },
+          {
+            "txt": "Räkna ut felet, förutsäga, uppdatera vikten",
+            "ratt": false,
+            "kommentar": "Felet kan inte räknas ut innan modellen har förutsagt."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Förutsäga, räkna ut felet, räkna ut lutningen, uppdatera vikten",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Just nu är w = −2, lutningen är −3 och α = 0,2. Vilket värde får w efter ett steg? (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uppdateringsregeln: w<sub>ny</sub> = w − α · lutning</p><p>−2 − 0,2 · (−3) = −2 + 0,6 = −1,4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1,4.</p></div>",
+        "ledtrad": "<p>Minus gånger minus blir plus.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": -1.4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad visar lutningen av felet? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hur felet ändras när w ändras</p><p>Lutningen visar hur snabbt felet ökar eller minskar när w ändras lite, och åt vilket håll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hur mycket och åt vilket håll felet ändras när w ändras lite.</p><ul><li><strong>Hur mycket och åt vilket håll felet ändras när w ändras lite:</strong> Därför kan den användas för att välja riktning.</li><li><strong>Hur stort felet är:</strong> Felet kan vara stort fast lutningen är 0.</li><li><strong>Hur många steg som är kvar:</strong> Lutningen säger inget om antalet steg.</li><li><strong>Hur bra modellen är på testdata:</strong> Lutningen räknas på träningsfelet.</li></ul></div>",
+        "ledtrad": "<p>Tänk på lutningen i en backe.</p>",
+        "alternativ": [
+          {
+            "txt": "Hur mycket och åt vilket håll felet ändras när w ändras lite",
+            "ratt": true,
+            "kommentar": "Därför kan den användas för att välja riktning."
+          },
+          {
+            "txt": "Hur stort felet är",
+            "ratt": false,
+            "kommentar": "Felet kan vara stort fast lutningen är 0."
+          },
+          {
+            "txt": "Hur många steg som är kvar",
+            "ratt": false,
+            "kommentar": "Lutningen säger inget om antalet steg."
+          },
+          {
+            "txt": "Hur bra modellen är på testdata",
+            "ratt": false,
+            "kommentar": "Lutningen räknas på träningsfelet."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Hur mycket och åt vilket håll felet ändras när w ändras lite",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.60",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Klassificera med kNN",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      "P2, P7, P1",
+      "Äpple"
+    ],
+    "tolerans": [
+      0,
+      null,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med sju frukter och en ny frukt i (3, 4).\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med sju frukter och en ny frukt i (3, 4).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"78.0\" y1=\"254.0\" x2=\"78.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"78.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"116.0\" y1=\"254.0\" x2=\"116.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"116.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"154.0\" y1=\"254.0\" x2=\"154.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"154.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"230.0\" y1=\"254.0\" x2=\"230.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"230.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"268.0\" y1=\"254.0\" x2=\"268.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"268.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"306.0\" y1=\"254.0\" x2=\"306.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"306.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"225.5\" x2=\"344.0\" y2=\"225.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"229.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"197.0\" x2=\"344.0\" y2=\"197.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"201.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"168.5\" x2=\"344.0\" y2=\"168.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"172.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"111.5\" x2=\"344.0\" y2=\"111.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"115.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"83.0\" x2=\"344.0\" y2=\"83.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"87.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"54.5\" x2=\"344.0\" y2=\"54.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"58.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">vikt</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">sötma</text><circle cx=\"78.0\" cy=\"197.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"86.0\" y=\"189.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><circle cx=\"116.0\" cy=\"140.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"124.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><circle cx=\"154.0\" cy=\"225.5\" r=\"6\" fill=\"#2563eb\"/><text x=\"162.0\" y=\"217.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><rect x=\"262.0\" y=\"77.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"276.0\" y=\"75.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><rect x=\"300.0\" y=\"134.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"314.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><rect x=\"224.0\" y=\"48.5\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"238.0\" y=\"46.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><rect x=\"186.0\" y=\"105.5\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"200.0\" y=\"103.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P7</text><circle cx=\"154.0\" cy=\"140.0\" r=\"7\" fill=\"#fff\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"162.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Ny</text></svg><p>Blå cirklar: äpple. Orange kvadrater: päron. Vit ring: den nya punkten.</p><p>En AI sorterar frukt utifrån vikt och sötma, båda i en skala 0–8. Sju frukter är redan klassade. En ny frukt har vikt 3 och sötma 4. AI:n använder k närmaste grannar (kNN). Avståndet i kvadrat mellan två punkter är (Δx)² + (Δy)², och den nya punkten får den klass som flest av de k närmaste grannarna har.</p><p>a) Beräkna avståndet i kvadrat från den nya frukten till P7 (4, 5).</p><p>b) Vilka tre frukter ligger närmast den nya frukten?</p><p>c) Vad klassas den nya frukten som med k = 3? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Äpple</p><p class=\"ul-alt\"><strong>B.</strong> Päron</p><p class=\"ul-alt\"><strong>C.</strong> Det blir oavgjort</p><p class=\"ul-alt\"><strong>D.</strong> Det går inte att avgöra utan fler punkter</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(4 − 3)² + (5 − 4)² = 1 + 1 = 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat till de närmaste</p><p>P2: (2 − 3)² + (4 − 4)² = 1. P7: (4 − 3)² + (5 − 4)² = 2. P1: (1 − 3)² + (2 − 4)² = 8. P3: (3 − 3)² + (1 − 4)² = 9.</p></li><li><p class=\"facit-rubrik\">De tre minsta</p><p>P2 (1), P7 (2) och P1 (8).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P2, P7, P1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De 3 närmaste grannarna</p><p>Avstånd i kvadrat: P2 (äpple, 1), P7 (päron, 2), P1 (äpple, 8).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Äpple.</p><ul><li><strong>A:</strong> 2 av de 3 närmaste är äpple.</li><li><strong>B:</strong> Bara 1 av de 3 närmaste är päron.</li><li><strong>C:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>D:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Hitta de k närmaste och låt dem rösta.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med sju frukter och en ny frukt i (3, 4).\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med sju frukter och en ny frukt i (3, 4).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"78.0\" y1=\"254.0\" x2=\"78.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"78.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"116.0\" y1=\"254.0\" x2=\"116.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"116.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"154.0\" y1=\"254.0\" x2=\"154.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"154.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"230.0\" y1=\"254.0\" x2=\"230.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"230.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"268.0\" y1=\"254.0\" x2=\"268.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"268.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"306.0\" y1=\"254.0\" x2=\"306.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"306.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"225.5\" x2=\"344.0\" y2=\"225.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"229.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"197.0\" x2=\"344.0\" y2=\"197.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"201.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"168.5\" x2=\"344.0\" y2=\"168.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"172.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"111.5\" x2=\"344.0\" y2=\"111.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"115.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"83.0\" x2=\"344.0\" y2=\"83.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"87.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"54.5\" x2=\"344.0\" y2=\"54.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"58.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">vikt</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">sötma</text><circle cx=\"78.0\" cy=\"197.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"86.0\" y=\"189.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><circle cx=\"116.0\" cy=\"140.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"124.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><circle cx=\"154.0\" cy=\"225.5\" r=\"6\" fill=\"#2563eb\"/><text x=\"162.0\" y=\"217.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><rect x=\"262.0\" y=\"77.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"276.0\" y=\"75.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><rect x=\"300.0\" y=\"134.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"314.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><rect x=\"224.0\" y=\"48.5\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"238.0\" y=\"46.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><rect x=\"186.0\" y=\"105.5\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"200.0\" y=\"103.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P7</text><circle cx=\"154.0\" cy=\"140.0\" r=\"7\" fill=\"#fff\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"162.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Ny</text></svg><p>Blå cirklar: äpple. Orange kvadrater: päron. Vit ring: den nya punkten.</p><p>En AI sorterar frukt utifrån vikt och sötma, båda i en skala 0–8. Sju frukter är redan klassade. En ny frukt har vikt 3 och sötma 4. AI:n använder k närmaste grannar (kNN). Avståndet i kvadrat mellan två punkter är (Δx)² + (Δy)², och den nya punkten får den klass som flest av de k närmaste grannarna har.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna avståndet i kvadrat från den nya frukten till P7 (4, 5).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(4 − 3)² + (5 − 4)² = 1 + 1 = 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div>",
+        "ledtrad": "<p>Räkna skillnaden i x och i y, kvadrera och lägg ihop.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 2,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilka tre frukter ligger närmast den nya frukten? (Skriv punkternas namn, åtskilda med kommatecken.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat till de närmaste</p><p>P2: (2 − 3)² + (4 − 4)² = 1. P7: (4 − 3)² + (5 − 4)² = 2. P1: (1 − 3)² + (2 − 4)² = 8. P3: (3 − 3)² + (1 − 4)² = 9.</p></li><li><p class=\"facit-rubrik\">De tre minsta</p><p>P2 (1), P7 (2) och P1 (8).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P2, P7, P1.</p></div>",
+        "ledtrad": "<p>Jämför avstånden i kvadrat, då slipper du räkna med rötter.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "P2, P7, P1",
+        "tolerans": null,
+        "svarFormat": "namnmangd",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad klassas den nya frukten som med k = 3? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De 3 närmaste grannarna</p><p>Avstånd i kvadrat: P2 (äpple, 1), P7 (päron, 2), P1 (äpple, 8).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Äpple.</p><ul><li><strong>Äpple:</strong> 2 av de 3 närmaste är äpple.</li><li><strong>Päron:</strong> Bara 1 av de 3 närmaste är päron.</li><li><strong>Det blir oavgjort:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>Det går inte att avgöra utan fler punkter:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div>",
+        "ledtrad": "<p>Jämför avstånden i kvadrat och räkna klasserna bland de närmaste.</p>",
+        "alternativ": [
+          {
+            "txt": "Äpple",
+            "ratt": true,
+            "kommentar": "2 av de 3 närmaste är äpple."
+          },
+          {
+            "txt": "Päron",
+            "ratt": false,
+            "kommentar": "Bara 1 av de 3 närmaste är päron."
+          },
+          {
+            "txt": "Det blir oavgjort",
+            "ratt": false,
+            "kommentar": "Med ett udda k och två klasser kan det inte bli oavgjort."
+          },
+          {
+            "txt": "Det går inte att avgöra utan fler punkter",
+            "ratt": false,
+            "kommentar": "De givna punkterna räcker för att avgöra klassen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Äpple",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "namnmangd",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.61",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Klassificera med kNN",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      17,
+      "Stannar kvar",
+      "Stannar kvar"
+    ],
+    "tolerans": [
+      0,
+      null,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med fem kunder och en ny kund i (5, 1).\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med fem kunder och en ny kund i (5, 1).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"78.0\" y1=\"254.0\" x2=\"78.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"78.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"116.0\" y1=\"254.0\" x2=\"116.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"116.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"154.0\" y1=\"254.0\" x2=\"154.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"154.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"230.0\" y1=\"254.0\" x2=\"230.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"230.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"268.0\" y1=\"254.0\" x2=\"268.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"268.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"306.0\" y1=\"254.0\" x2=\"306.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"306.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"216.0\" x2=\"344.0\" y2=\"216.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"220.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"178.0\" x2=\"344.0\" y2=\"178.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"182.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"102.0\" x2=\"344.0\" y2=\"102.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"106.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"64.0\" x2=\"344.0\" y2=\"64.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"68.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">köp per månad</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">snittbelopp (hundratal kr)</text><circle cx=\"78.0\" cy=\"216.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"86.0\" y=\"208.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><rect x=\"186.0\" y=\"58.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"200.0\" y=\"56.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><circle cx=\"268.0\" cy=\"216.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"276.0\" y=\"208.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><rect x=\"224.0\" y=\"134.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"238.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><rect x=\"300.0\" y=\"58.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"314.0\" y=\"56.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><circle cx=\"230.0\" cy=\"216.0\" r=\"7\" fill=\"#fff\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"238.0\" y=\"208.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Ny</text></svg><p>Blå cirklar: stannar kvar. Orange kvadrater: slutar. Vit ring: den nya punkten.</p><p>Ett företag vill förutsäga vilka kunder som tänker sluta. Fem kunder är markerade. En ny kund ligger i punkten (5, 1). AI:n använder k närmaste grannar (kNN). Avståndet i kvadrat mellan två punkter är (Δx)² + (Δy)², och den nya punkten får den klass som flest av de k närmaste grannarna har.</p><p>a) Beräkna avståndet i kvadrat från den nya kunden till P2 (4, 5).</p><p>b) Vad blir klassen för den nya kunden med k = 1? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Stannar kvar</p><p class=\"ul-alt\"><strong>B.</strong> Slutar</p><p class=\"ul-alt\"><strong>C.</strong> Det blir oavgjort</p><p class=\"ul-alt\"><strong>D.</strong> Det går inte att avgöra utan fler punkter</p><p>c) Vad blir klassen för den nya kunden med k = 3? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Stannar kvar</p><p class=\"ul-alt\"><strong>B.</strong> Slutar</p><p class=\"ul-alt\"><strong>C.</strong> Det blir oavgjort</p><p class=\"ul-alt\"><strong>D.</strong> Det går inte att avgöra utan fler punkter</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(4 − 5)² + (5 − 1)² = 1 + 16 = 17.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den närmaste grannen</p><p>Avstånd i kvadrat: P3 (stannar kvar, 1).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stannar kvar.</p><ul><li><strong>A:</strong> 1 av de 1 närmaste är stannar kvar.</li><li><strong>B:</strong> Den närmaste grannen, P3, är stannar kvar.</li><li><strong>C:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>D:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De 3 närmaste grannarna</p><p>Avstånd i kvadrat: P3 (stannar kvar, 1), P4 (slutar, 4), P1 (stannar kvar, 16).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stannar kvar.</p><ul><li><strong>A:</strong> 2 av de 3 närmaste är stannar kvar.</li><li><strong>B:</strong> Bara 1 av de 3 närmaste är slutar.</li><li><strong>C:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>D:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Jämför avstånden i kvadrat.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med fem kunder och en ny kund i (5, 1).\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med fem kunder och en ny kund i (5, 1).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"78.0\" y1=\"254.0\" x2=\"78.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"78.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"116.0\" y1=\"254.0\" x2=\"116.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"116.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"154.0\" y1=\"254.0\" x2=\"154.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"154.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"230.0\" y1=\"254.0\" x2=\"230.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"230.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"268.0\" y1=\"254.0\" x2=\"268.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"268.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"306.0\" y1=\"254.0\" x2=\"306.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"306.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"216.0\" x2=\"344.0\" y2=\"216.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"220.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"178.0\" x2=\"344.0\" y2=\"178.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"182.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"102.0\" x2=\"344.0\" y2=\"102.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"106.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"64.0\" x2=\"344.0\" y2=\"64.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"68.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">köp per månad</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">snittbelopp (hundratal kr)</text><circle cx=\"78.0\" cy=\"216.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"86.0\" y=\"208.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><rect x=\"186.0\" y=\"58.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"200.0\" y=\"56.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><circle cx=\"268.0\" cy=\"216.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"276.0\" y=\"208.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><rect x=\"224.0\" y=\"134.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"238.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><rect x=\"300.0\" y=\"58.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"314.0\" y=\"56.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><circle cx=\"230.0\" cy=\"216.0\" r=\"7\" fill=\"#fff\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"238.0\" y=\"208.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Ny</text></svg><p>Blå cirklar: stannar kvar. Orange kvadrater: slutar. Vit ring: den nya punkten.</p><p>Ett företag vill förutsäga vilka kunder som tänker sluta. Fem kunder är markerade. En ny kund ligger i punkten (5, 1). AI:n använder k närmaste grannar (kNN). Avståndet i kvadrat mellan två punkter är (Δx)² + (Δy)², och den nya punkten får den klass som flest av de k närmaste grannarna har.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna avståndet i kvadrat från den nya kunden till P2 (4, 5).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(4 − 5)² + (5 − 1)² = 1 + 16 = 17.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17.</p></div>",
+        "ledtrad": "<p>Kvadrera skillnaden i x och i y och lägg ihop.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 17,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad blir klassen för den nya kunden med k = 1? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den närmaste grannen</p><p>Avstånd i kvadrat: P3 (stannar kvar, 1).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stannar kvar.</p><ul><li><strong>Stannar kvar:</strong> 1 av de 1 närmaste är stannar kvar.</li><li><strong>Slutar:</strong> Den närmaste grannen, P3, är stannar kvar.</li><li><strong>Det blir oavgjort:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>Det går inte att avgöra utan fler punkter:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div>",
+        "ledtrad": "<p>Jämför avstånden i kvadrat och räkna klasserna bland de närmaste.</p>",
+        "alternativ": [
+          {
+            "txt": "Stannar kvar",
+            "ratt": true,
+            "kommentar": "1 av de 1 närmaste är stannar kvar."
+          },
+          {
+            "txt": "Slutar",
+            "ratt": false,
+            "kommentar": "Den närmaste grannen, P3, är stannar kvar."
+          },
+          {
+            "txt": "Det blir oavgjort",
+            "ratt": false,
+            "kommentar": "Med ett udda k och två klasser kan det inte bli oavgjort."
+          },
+          {
+            "txt": "Det går inte att avgöra utan fler punkter",
+            "ratt": false,
+            "kommentar": "De givna punkterna räcker för att avgöra klassen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Stannar kvar",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad blir klassen för den nya kunden med k = 3? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De 3 närmaste grannarna</p><p>Avstånd i kvadrat: P3 (stannar kvar, 1), P4 (slutar, 4), P1 (stannar kvar, 16).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stannar kvar.</p><ul><li><strong>Stannar kvar:</strong> 2 av de 3 närmaste är stannar kvar.</li><li><strong>Slutar:</strong> Bara 1 av de 3 närmaste är slutar.</li><li><strong>Det blir oavgjort:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>Det går inte att avgöra utan fler punkter:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div>",
+        "ledtrad": "<p>Jämför avstånden i kvadrat och räkna klasserna bland de närmaste.</p>",
+        "alternativ": [
+          {
+            "txt": "Stannar kvar",
+            "ratt": true,
+            "kommentar": "2 av de 3 närmaste är stannar kvar."
+          },
+          {
+            "txt": "Slutar",
+            "ratt": false,
+            "kommentar": "Bara 1 av de 3 närmaste är slutar."
+          },
+          {
+            "txt": "Det blir oavgjort",
+            "ratt": false,
+            "kommentar": "Med ett udda k och två klasser kan det inte bli oavgjort."
+          },
+          {
+            "txt": "Det går inte att avgöra utan fler punkter",
+            "ratt": false,
+            "kommentar": "De givna punkterna räcker för att avgöra klassen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Stannar kvar",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.62",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Klassificera med kNN",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Den nya punkten får samma klass som den allra närmaste grannen",
+      "Då kan det inte bli oavgjort mellan de två klasserna",
+      "Alla nya punkter får samma klass, den vanligaste i datan"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Frågorna handlar om hur valet av k påverkar k närmaste grannar (kNN).</p><p>a) Vad händer med kNN om k = 1? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Den nya punkten får samma klass som den allra närmaste grannen</p><p class=\"ul-alt\"><strong>B.</strong> Den nya punkten får den vanligaste klassen i hela datan</p><p class=\"ul-alt\"><strong>C.</strong> kNN fungerar inte med k = 1</p><p class=\"ul-alt\"><strong>D.</strong> Alla punkter röstar lika</p><p>b) Varför väljer man ofta ett udda k när det finns två klasser? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Då kan det inte bli oavgjort mellan de två klasserna</p><p class=\"ul-alt\"><strong>B.</strong> Udda tal ger alltid rätt svar</p><p class=\"ul-alt\"><strong>C.</strong> Datorn räknar snabbare med udda tal</p><p class=\"ul-alt\"><strong>D.</strong> Jämna k är inte tillåtna</p><p>c) Vad händer om k är lika stort som antalet punkter i datan?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bara den allra närmaste räknas</p><p>Klassen avgörs av en enda granne. En enda konstig punkt kan då ge fel klass.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den nya punkten får samma klass som den allra närmaste grannen.</p><ul><li><strong>A:</strong> Det gör metoden känslig för enstaka avvikande punkter.</li><li><strong>B:</strong> Det händer om k är lika med antalet punkter.</li><li><strong>C:</strong> Det fungerar, men blir känsligt för brus.</li><li><strong>D:</strong> Bara en punkt röstar.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Undvika oavgjort</p><p>Med ett udda antal röster kan det inte bli lika mellan två klasser.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Då kan det inte bli oavgjort mellan de två klasserna.</p><ul><li><strong>A:</strong> Till exempel 2 mot 1 eller 3 mot 2.</li><li><strong>B:</strong> Ett udda k undviker bara oavgjort, det garanterar inte rätt svar.</li><li><strong>C:</strong> Det har inget med beräkningshastighet att göra.</li><li><strong>D:</strong> Jämna k är tillåtna, men kan ge oavgjort.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla röstar</p><p>Alla nya punkter får då den klass som är vanligast i hela datan, oavsett var de ligger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla nya punkter får samma klass, den vanligaste i datan.</p></div></div></div></div>",
+    "ledtrad": "<p>Litet k är känsligt för brus, stort k suddar ut gränserna.</p>",
+    "spelIntro": "<p>Frågorna handlar om hur valet av k påverkar k närmaste grannar (kNN).</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vad händer med kNN om k = 1? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bara den allra närmaste räknas</p><p>Klassen avgörs av en enda granne. En enda konstig punkt kan då ge fel klass.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den nya punkten får samma klass som den allra närmaste grannen.</p><ul><li><strong>Den nya punkten får samma klass som den allra närmaste grannen:</strong> Det gör metoden känslig för enstaka avvikande punkter.</li><li><strong>Den nya punkten får den vanligaste klassen i hela datan:</strong> Det händer om k är lika med antalet punkter.</li><li><strong>kNN fungerar inte med k = 1:</strong> Det fungerar, men blir känsligt för brus.</li><li><strong>Alla punkter röstar lika:</strong> Bara en punkt röstar.</li></ul></div>",
+        "ledtrad": "<p>Hur många grannar röstar?</p>",
+        "alternativ": [
+          {
+            "txt": "Den nya punkten får samma klass som den allra närmaste grannen",
+            "ratt": true,
+            "kommentar": "Det gör metoden känslig för enstaka avvikande punkter."
+          },
+          {
+            "txt": "Den nya punkten får den vanligaste klassen i hela datan",
+            "ratt": false,
+            "kommentar": "Det händer om k är lika med antalet punkter."
+          },
+          {
+            "txt": "kNN fungerar inte med k = 1",
+            "ratt": false,
+            "kommentar": "Det fungerar, men blir känsligt för brus."
+          },
+          {
+            "txt": "Alla punkter röstar lika",
+            "ratt": false,
+            "kommentar": "Bara en punkt röstar."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Den nya punkten får samma klass som den allra närmaste grannen",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Varför väljer man ofta ett udda k när det finns två klasser? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Undvika oavgjort</p><p>Med ett udda antal röster kan det inte bli lika mellan två klasser.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Då kan det inte bli oavgjort mellan de två klasserna.</p><ul><li><strong>Då kan det inte bli oavgjort mellan de två klasserna:</strong> Till exempel 2 mot 1 eller 3 mot 2.</li><li><strong>Udda tal ger alltid rätt svar:</strong> Ett udda k undviker bara oavgjort, det garanterar inte rätt svar.</li><li><strong>Datorn räknar snabbare med udda tal:</strong> Det har inget med beräkningshastighet att göra.</li><li><strong>Jämna k är inte tillåtna:</strong> Jämna k är tillåtna, men kan ge oavgjort.</li></ul></div>",
+        "ledtrad": "<p>Vad kan hända med fyra grannar och två klasser?</p>",
+        "alternativ": [
+          {
+            "txt": "Då kan det inte bli oavgjort mellan de två klasserna",
+            "ratt": true,
+            "kommentar": "Till exempel 2 mot 1 eller 3 mot 2."
+          },
+          {
+            "txt": "Udda tal ger alltid rätt svar",
+            "ratt": false,
+            "kommentar": "Ett udda k undviker bara oavgjort, det garanterar inte rätt svar."
+          },
+          {
+            "txt": "Datorn räknar snabbare med udda tal",
+            "ratt": false,
+            "kommentar": "Det har inget med beräkningshastighet att göra."
+          },
+          {
+            "txt": "Jämna k är inte tillåtna",
+            "ratt": false,
+            "kommentar": "Jämna k är tillåtna, men kan ge oavgjort."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Då kan det inte bli oavgjort mellan de två klasserna",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad händer om k är lika stort som antalet punkter i datan? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla röstar</p><p>Alla nya punkter får då den klass som är vanligast i hela datan, oavsett var de ligger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla nya punkter får samma klass, den vanligaste i datan.</p><ul><li><strong>Alla nya punkter får samma klass, den vanligaste i datan:</strong> Var punkten ligger spelar ingen roll längre.</li><li><strong>Klassificeringen blir perfekt:</strong> Den blir tvärtom dålig, alla får samma svar.</li><li><strong>Bara de närmaste punkterna röstar:</strong> Alla punkter röstar när k är lika med antalet punkter.</li><li><strong>Det blir alltid oavgjort:</strong> Det blir den vanligaste klassen.</li></ul></div>",
+        "ledtrad": "<p>Hur många av punkterna är med och röstar?</p>",
+        "alternativ": [
+          {
+            "txt": "Alla nya punkter får samma klass, den vanligaste i datan",
+            "ratt": true,
+            "kommentar": "Var punkten ligger spelar ingen roll längre."
+          },
+          {
+            "txt": "Klassificeringen blir perfekt",
+            "ratt": false,
+            "kommentar": "Den blir tvärtom dålig, alla får samma svar."
+          },
+          {
+            "txt": "Bara de närmaste punkterna röstar",
+            "ratt": false,
+            "kommentar": "Alla punkter röstar när k är lika med antalet punkter."
+          },
+          {
+            "txt": "Det blir alltid oavgjort",
+            "ratt": false,
+            "kommentar": "Det blir den vanligaste klassen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Alla nya punkter får samma klass, den vanligaste i datan",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.63",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Klassificera med kNN",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      "Romantik",
+      "Action"
+    ],
+    "tolerans": [
+      0,
+      null,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med åtta filmer och en ny film i (4, 4).\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med åtta filmer och en ny film i (4, 4).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"73.8\" y1=\"254.0\" x2=\"73.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"73.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"107.6\" y1=\"254.0\" x2=\"107.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"107.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"141.3\" y1=\"254.0\" x2=\"141.3\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"141.3\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"175.1\" y1=\"254.0\" x2=\"175.1\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"175.1\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"208.9\" y1=\"254.0\" x2=\"208.9\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"208.9\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"242.7\" y1=\"254.0\" x2=\"242.7\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"242.7\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"276.4\" y1=\"254.0\" x2=\"276.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"276.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"310.2\" y1=\"254.0\" x2=\"310.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"310.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"228.7\" x2=\"344.0\" y2=\"228.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"232.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"203.3\" x2=\"344.0\" y2=\"203.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"207.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"178.0\" x2=\"344.0\" y2=\"178.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"182.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"152.7\" x2=\"344.0\" y2=\"152.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"156.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"127.3\" x2=\"344.0\" y2=\"127.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"131.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"102.0\" x2=\"344.0\" y2=\"102.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"106.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"76.7\" x2=\"344.0\" y2=\"76.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"80.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"51.3\" x2=\"344.0\" y2=\"51.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"55.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">biljakter</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">kärleksscener</text><circle cx=\"242.7\" cy=\"228.7\" r=\"6\" fill=\"#2563eb\"/><text x=\"250.7\" y=\"220.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><circle cx=\"310.2\" cy=\"203.3\" r=\"6\" fill=\"#2563eb\"/><text x=\"318.2\" y=\"195.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><circle cx=\"276.4\" cy=\"152.7\" r=\"6\" fill=\"#2563eb\"/><text x=\"284.4\" y=\"144.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><circle cx=\"208.9\" cy=\"203.3\" r=\"6\" fill=\"#2563eb\"/><text x=\"216.9\" y=\"195.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><rect x=\"67.8\" y=\"96.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"81.8\" y=\"94.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><rect x=\"101.6\" y=\"45.3\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"115.6\" y=\"43.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><rect x=\"135.3\" y=\"121.3\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"149.3\" y=\"119.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P7</text><rect x=\"67.8\" y=\"172.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"81.8\" y=\"170.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P8</text><circle cx=\"175.1\" cy=\"152.7\" r=\"7\" fill=\"#fff\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"183.1\" y=\"144.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Ny</text></svg><p>Blå cirklar: action. Orange kvadrater: romantik. Vit ring: den nya punkten.</p><p>En streamingtjänst klassar filmer efter antalet biljakter och kärleksscener. Åtta filmer är redan klassade. En ny film har 4 biljakter och 4 kärleksscener. AI:n använder k närmaste grannar (kNN). Avståndet i kvadrat mellan två punkter är (Δx)² + (Δy)², och den nya punkten får den klass som flest av de k närmaste grannarna har.</p><p>a) Beräkna avståndet i kvadrat från den nya filmen till P4 (5, 2).</p><p>b) Vad klassas den nya filmen som med k = 1? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Romantik</p><p class=\"ul-alt\"><strong>B.</strong> Action</p><p class=\"ul-alt\"><strong>C.</strong> Det blir oavgjort</p><p class=\"ul-alt\"><strong>D.</strong> Det går inte att avgöra utan fler punkter</p><p>c) Vad klassas den nya filmen som med k = 3? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Action</p><p class=\"ul-alt\"><strong>B.</strong> Romantik</p><p class=\"ul-alt\"><strong>C.</strong> Det blir oavgjort</p><p class=\"ul-alt\"><strong>D.</strong> Det går inte att avgöra utan fler punkter</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(5 − 4)² + (2 − 4)² = 1 + 4 = 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den närmaste grannen</p><p>Avstånd i kvadrat: P7 (romantik, 2).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Romantik.</p><ul><li><strong>A:</strong> 1 av de 1 närmaste är romantik.</li><li><strong>B:</strong> Den närmaste grannen, P7, är romantik.</li><li><strong>C:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>D:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De 3 närmaste grannarna</p><p>Avstånd i kvadrat: P7 (romantik, 2), P4 (action, 5), P3 (action, 9).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Action.</p><ul><li><strong>A:</strong> 2 av de 3 närmaste är action.</li><li><strong>B:</strong> Bara 1 av de 3 närmaste är romantik.</li><li><strong>C:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>D:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Svaret kan bli olika för olika k.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med åtta filmer och en ny film i (4, 4).\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med åtta filmer och en ny film i (4, 4).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"73.8\" y1=\"254.0\" x2=\"73.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"73.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"107.6\" y1=\"254.0\" x2=\"107.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"107.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"141.3\" y1=\"254.0\" x2=\"141.3\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"141.3\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"175.1\" y1=\"254.0\" x2=\"175.1\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"175.1\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"208.9\" y1=\"254.0\" x2=\"208.9\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"208.9\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"242.7\" y1=\"254.0\" x2=\"242.7\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"242.7\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"276.4\" y1=\"254.0\" x2=\"276.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"276.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"310.2\" y1=\"254.0\" x2=\"310.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"310.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"228.7\" x2=\"344.0\" y2=\"228.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"232.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"203.3\" x2=\"344.0\" y2=\"203.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"207.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"178.0\" x2=\"344.0\" y2=\"178.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"182.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"152.7\" x2=\"344.0\" y2=\"152.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"156.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"127.3\" x2=\"344.0\" y2=\"127.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"131.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"102.0\" x2=\"344.0\" y2=\"102.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"106.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"76.7\" x2=\"344.0\" y2=\"76.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"80.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"51.3\" x2=\"344.0\" y2=\"51.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"55.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">biljakter</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">kärleksscener</text><circle cx=\"242.7\" cy=\"228.7\" r=\"6\" fill=\"#2563eb\"/><text x=\"250.7\" y=\"220.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><circle cx=\"310.2\" cy=\"203.3\" r=\"6\" fill=\"#2563eb\"/><text x=\"318.2\" y=\"195.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><circle cx=\"276.4\" cy=\"152.7\" r=\"6\" fill=\"#2563eb\"/><text x=\"284.4\" y=\"144.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><circle cx=\"208.9\" cy=\"203.3\" r=\"6\" fill=\"#2563eb\"/><text x=\"216.9\" y=\"195.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><rect x=\"67.8\" y=\"96.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"81.8\" y=\"94.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><rect x=\"101.6\" y=\"45.3\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"115.6\" y=\"43.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><rect x=\"135.3\" y=\"121.3\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"149.3\" y=\"119.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P7</text><rect x=\"67.8\" y=\"172.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"81.8\" y=\"170.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P8</text><circle cx=\"175.1\" cy=\"152.7\" r=\"7\" fill=\"#fff\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"183.1\" y=\"144.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Ny</text></svg><p>Blå cirklar: action. Orange kvadrater: romantik. Vit ring: den nya punkten.</p><p>En streamingtjänst klassar filmer efter antalet biljakter och kärleksscener. Åtta filmer är redan klassade. En ny film har 4 biljakter och 4 kärleksscener. AI:n använder k närmaste grannar (kNN). Avståndet i kvadrat mellan två punkter är (Δx)² + (Δy)², och den nya punkten får den klass som flest av de k närmaste grannarna har.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna avståndet i kvadrat från den nya filmen till P4 (5, 2).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(5 − 4)² + (2 − 4)² = 1 + 4 = 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div>",
+        "ledtrad": "<p>Kvadrera skillnaden i x och i y och lägg ihop.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad klassas den nya filmen som med k = 1? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den närmaste grannen</p><p>Avstånd i kvadrat: P7 (romantik, 2).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Romantik.</p><ul><li><strong>Romantik:</strong> 1 av de 1 närmaste är romantik.</li><li><strong>Action:</strong> Den närmaste grannen, P7, är romantik.</li><li><strong>Det blir oavgjort:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>Det går inte att avgöra utan fler punkter:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div>",
+        "ledtrad": "<p>Jämför avstånden i kvadrat och räkna klasserna bland de närmaste.</p>",
+        "alternativ": [
+          {
+            "txt": "Romantik",
+            "ratt": true,
+            "kommentar": "1 av de 1 närmaste är romantik."
+          },
+          {
+            "txt": "Action",
+            "ratt": false,
+            "kommentar": "Den närmaste grannen, P7, är romantik."
+          },
+          {
+            "txt": "Det blir oavgjort",
+            "ratt": false,
+            "kommentar": "Med ett udda k och två klasser kan det inte bli oavgjort."
+          },
+          {
+            "txt": "Det går inte att avgöra utan fler punkter",
+            "ratt": false,
+            "kommentar": "De givna punkterna räcker för att avgöra klassen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Romantik",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad klassas den nya filmen som med k = 3? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De 3 närmaste grannarna</p><p>Avstånd i kvadrat: P7 (romantik, 2), P4 (action, 5), P3 (action, 9).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Action.</p><ul><li><strong>Action:</strong> 2 av de 3 närmaste är action.</li><li><strong>Romantik:</strong> Bara 1 av de 3 närmaste är romantik.</li><li><strong>Det blir oavgjort:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>Det går inte att avgöra utan fler punkter:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div>",
+        "ledtrad": "<p>Jämför avstånden i kvadrat och räkna klasserna bland de närmaste.</p>",
+        "alternativ": [
+          {
+            "txt": "Action",
+            "ratt": true,
+            "kommentar": "2 av de 3 närmaste är action."
+          },
+          {
+            "txt": "Romantik",
+            "ratt": false,
+            "kommentar": "Bara 1 av de 3 närmaste är romantik."
+          },
+          {
+            "txt": "Det blir oavgjort",
+            "ratt": false,
+            "kommentar": "Med ett udda k och två klasser kan det inte bli oavgjort."
+          },
+          {
+            "txt": "Det går inte att avgöra utan fler punkter",
+            "ratt": false,
+            "kommentar": "De givna punkterna räcker för att avgöra klassen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Action",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.64",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Klassificera med kNN",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "P5, P4, P3",
+      "Ätlig",
+      "Varna för att den är osäker och inte säga att svampen är ätlig"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med åtta svampar och en ny svamp i (4, 4).\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med åtta svampar och en ny svamp i (4, 4).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"78.0\" y1=\"254.0\" x2=\"78.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"78.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"116.0\" y1=\"254.0\" x2=\"116.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"116.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"154.0\" y1=\"254.0\" x2=\"154.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"154.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"230.0\" y1=\"254.0\" x2=\"230.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"230.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"268.0\" y1=\"254.0\" x2=\"268.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"268.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"306.0\" y1=\"254.0\" x2=\"306.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"306.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"225.5\" x2=\"344.0\" y2=\"225.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"229.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"197.0\" x2=\"344.0\" y2=\"197.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"201.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"168.5\" x2=\"344.0\" y2=\"168.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"172.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"111.5\" x2=\"344.0\" y2=\"111.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"115.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"83.0\" x2=\"344.0\" y2=\"83.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"87.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"54.5\" x2=\"344.0\" y2=\"54.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"58.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">hattbredd (cm)</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">fotlängd (cm)</text><circle cx=\"116.0\" cy=\"83.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"124.0\" y=\"75.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><circle cx=\"154.0\" cy=\"54.5\" r=\"6\" fill=\"#2563eb\"/><text x=\"162.0\" y=\"46.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><circle cx=\"192.0\" cy=\"83.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"200.0\" y=\"75.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><circle cx=\"154.0\" cy=\"111.5\" r=\"6\" fill=\"#2563eb\"/><text x=\"162.0\" y=\"103.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><rect x=\"224.0\" y=\"134.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"238.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><rect x=\"262.0\" y=\"162.5\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"276.0\" y=\"160.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><rect x=\"300.0\" y=\"191.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"314.0\" y=\"189.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P7</text><rect x=\"262.0\" y=\"219.5\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"276.0\" y=\"217.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P8</text><circle cx=\"192.0\" cy=\"140.0\" r=\"7\" fill=\"#fff\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"200.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Ny</text></svg><p>Blå cirklar: ätlig. Orange kvadrater: giftig. Vit ring: den nya punkten.</p><p>En svampapp jämför hattbredd och fotlängd med åtta svampar som redan är artbestämda. En ny svamp har hattbredd 4 cm och fotlängd 4 cm. AI:n använder k närmaste grannar (kNN). Avståndet i kvadrat mellan två punkter är (Δx)² + (Δy)², och den nya punkten får den klass som flest av de k närmaste grannarna har.</p><p>a) Vilka tre svampar ligger närmast den nya svampen?</p><p>b) Vad klassas den nya svampen som med k = 3? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Ätlig</p><p class=\"ul-alt\"><strong>B.</strong> Giftig</p><p class=\"ul-alt\"><strong>C.</strong> Det blir oavgjort</p><p class=\"ul-alt\"><strong>D.</strong> Det går inte att avgöra utan fler punkter</p><p>c) Med k = 3 blir svaret ätlig, men den allra närmaste svampen är giftig. Vad bör appen göra?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat till de närmaste</p><p>P5: (5 − 4)² + (4 − 4)² = 1. P4: (3 − 4)² + (5 − 4)² = 2. P3: (4 − 4)² + (6 − 4)² = 4. P6: (6 − 4)² + (3 − 4)² = 5.</p></li><li><p class=\"facit-rubrik\">De tre minsta</p><p>P5 (1), P4 (2) och P3 (4).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P5, P4, P3.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De 3 närmaste grannarna</p><p>Avstånd i kvadrat: P5 (giftig, 1), P4 (ätlig, 2), P3 (ätlig, 4).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ätlig.</p><ul><li><strong>A:</strong> 2 av de 3 närmaste är ätlig.</li><li><strong>B:</strong> Bara 1 av de 3 närmaste är giftig.</li><li><strong>C:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>D:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Visa osäkerheten</p><p>Grannarna är oense, och ett fel kan vara livsfarligt. Appen bör tala om att den är osäker och inte säga att svampen är ätlig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Varna för att den är osäker och inte säga att svampen är ätlig.</p></div></div></div></div>",
+    "ledtrad": "<p>Tänk på vad ett fel skulle innebära.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med åtta svampar och en ny svamp i (4, 4).\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med åtta svampar och en ny svamp i (4, 4).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"78.0\" y1=\"254.0\" x2=\"78.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"78.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"116.0\" y1=\"254.0\" x2=\"116.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"116.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"154.0\" y1=\"254.0\" x2=\"154.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"154.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"230.0\" y1=\"254.0\" x2=\"230.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"230.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"268.0\" y1=\"254.0\" x2=\"268.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"268.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"306.0\" y1=\"254.0\" x2=\"306.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"306.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"225.5\" x2=\"344.0\" y2=\"225.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"229.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"197.0\" x2=\"344.0\" y2=\"197.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"201.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"168.5\" x2=\"344.0\" y2=\"168.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"172.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"111.5\" x2=\"344.0\" y2=\"111.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"115.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"83.0\" x2=\"344.0\" y2=\"83.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"87.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"54.5\" x2=\"344.0\" y2=\"54.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"58.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">hattbredd (cm)</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">fotlängd (cm)</text><circle cx=\"116.0\" cy=\"83.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"124.0\" y=\"75.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><circle cx=\"154.0\" cy=\"54.5\" r=\"6\" fill=\"#2563eb\"/><text x=\"162.0\" y=\"46.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><circle cx=\"192.0\" cy=\"83.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"200.0\" y=\"75.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><circle cx=\"154.0\" cy=\"111.5\" r=\"6\" fill=\"#2563eb\"/><text x=\"162.0\" y=\"103.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><rect x=\"224.0\" y=\"134.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"238.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><rect x=\"262.0\" y=\"162.5\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"276.0\" y=\"160.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><rect x=\"300.0\" y=\"191.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"314.0\" y=\"189.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P7</text><rect x=\"262.0\" y=\"219.5\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"276.0\" y=\"217.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P8</text><circle cx=\"192.0\" cy=\"140.0\" r=\"7\" fill=\"#fff\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"200.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Ny</text></svg><p>Blå cirklar: ätlig. Orange kvadrater: giftig. Vit ring: den nya punkten.</p><p>En svampapp jämför hattbredd och fotlängd med åtta svampar som redan är artbestämda. En ny svamp har hattbredd 4 cm och fotlängd 4 cm. AI:n använder k närmaste grannar (kNN). Avståndet i kvadrat mellan två punkter är (Δx)² + (Δy)², och den nya punkten får den klass som flest av de k närmaste grannarna har.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilka tre svampar ligger närmast den nya svampen? (Skriv punkternas namn, åtskilda med kommatecken.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat till de närmaste</p><p>P5: (5 − 4)² + (4 − 4)² = 1. P4: (3 − 4)² + (5 − 4)² = 2. P3: (4 − 4)² + (6 − 4)² = 4. P6: (6 − 4)² + (3 − 4)² = 5.</p></li><li><p class=\"facit-rubrik\">De tre minsta</p><p>P5 (1), P4 (2) och P3 (4).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P5, P4, P3.</p></div>",
+        "ledtrad": "<p>Jämför avstånden i kvadrat.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "P5, P4, P3",
+        "tolerans": null,
+        "svarFormat": "namnmangd",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad klassas den nya svampen som med k = 3? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De 3 närmaste grannarna</p><p>Avstånd i kvadrat: P5 (giftig, 1), P4 (ätlig, 2), P3 (ätlig, 4).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ätlig.</p><ul><li><strong>Ätlig:</strong> 2 av de 3 närmaste är ätlig.</li><li><strong>Giftig:</strong> Bara 1 av de 3 närmaste är giftig.</li><li><strong>Det blir oavgjort:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>Det går inte att avgöra utan fler punkter:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div>",
+        "ledtrad": "<p>Jämför avstånden i kvadrat och räkna klasserna bland de närmaste.</p>",
+        "alternativ": [
+          {
+            "txt": "Ätlig",
+            "ratt": true,
+            "kommentar": "2 av de 3 närmaste är ätlig."
+          },
+          {
+            "txt": "Giftig",
+            "ratt": false,
+            "kommentar": "Bara 1 av de 3 närmaste är giftig."
+          },
+          {
+            "txt": "Det blir oavgjort",
+            "ratt": false,
+            "kommentar": "Med ett udda k och två klasser kan det inte bli oavgjort."
+          },
+          {
+            "txt": "Det går inte att avgöra utan fler punkter",
+            "ratt": false,
+            "kommentar": "De givna punkterna räcker för att avgöra klassen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Ätlig",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Med k = 3 blir svaret ätlig, men den allra närmaste svampen är giftig. Vad bör appen göra? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Visa osäkerheten</p><p>Grannarna är oense, och ett fel kan vara livsfarligt. Appen bör tala om att den är osäker och inte säga att svampen är ätlig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Varna för att den är osäker och inte säga att svampen är ätlig.</p><ul><li><strong>Varna för att den är osäker och inte säga att svampen är ätlig:</strong> När ett falskt ”ätlig” kan vara farligt ska appen vara försiktig.</li><li><strong>Säga ätlig, eftersom majoriteten bestämmer:</strong> Majoriteten är bara 2 mot 1, och ett fel kan vara livsfarligt.</li><li><strong>Byta till k = 1 så att svaret blir giftig:</strong> Att välja k efter önskat svar är inte en bra metod.</li><li><strong>Gissa slumpmässigt:</strong> En gissning hjälper inte användaren.</li></ul></div>",
+        "ledtrad": "<p>Hur allvarligt är det om appen säger ätlig om en giftig svamp?</p>",
+        "alternativ": [
+          {
+            "txt": "Varna för att den är osäker och inte säga att svampen är ätlig",
+            "ratt": true,
+            "kommentar": "När ett falskt ”ätlig” kan vara farligt ska appen vara försiktig."
+          },
+          {
+            "txt": "Säga ätlig, eftersom majoriteten bestämmer",
+            "ratt": false,
+            "kommentar": "Majoriteten är bara 2 mot 1, och ett fel kan vara livsfarligt."
+          },
+          {
+            "txt": "Byta till k = 1 så att svaret blir giftig",
+            "ratt": false,
+            "kommentar": "Att välja k efter önskat svar är inte en bra metod."
+          },
+          {
+            "txt": "Gissa slumpmässigt",
+            "ratt": false,
+            "kommentar": "En gissning hjälper inte användaren."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Varna för att den är osäker och inte säga att svampen är ätlig",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "namnmangd",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.65",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "E",
+    "poang": "4/0/0",
+    "familj": "Klassificera med kNN",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      "P4, P3, P7",
+      "Lugn",
+      4
+    ],
+    "tolerans": [
+      0,
+      null,
+      null,
+      0
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med åtta låtar och en ny låt i (5, 4).\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med åtta låtar och en ny låt i (5, 4).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"70.4\" y1=\"254.0\" x2=\"70.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"70.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"100.8\" y1=\"254.0\" x2=\"100.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"100.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"131.2\" y1=\"254.0\" x2=\"131.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"131.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"161.6\" y1=\"254.0\" x2=\"161.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"161.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"222.4\" y1=\"254.0\" x2=\"222.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"222.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"252.8\" y1=\"254.0\" x2=\"252.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"252.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"283.2\" y1=\"254.0\" x2=\"283.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"283.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"313.6\" y1=\"254.0\" x2=\"313.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"313.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"231.2\" x2=\"344.0\" y2=\"231.2\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"235.2\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"208.4\" x2=\"344.0\" y2=\"208.4\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"212.4\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"185.6\" x2=\"344.0\" y2=\"185.6\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"189.6\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"162.8\" x2=\"344.0\" y2=\"162.8\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"166.8\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"117.2\" x2=\"344.0\" y2=\"117.2\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"121.2\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"94.4\" x2=\"344.0\" y2=\"94.4\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"98.4\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"71.6\" x2=\"344.0\" y2=\"71.6\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"75.6\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"48.8\" x2=\"344.0\" y2=\"48.8\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"52.8\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">tempo</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">ljudstyrka</text><circle cx=\"100.8\" cy=\"208.4\" r=\"6\" fill=\"#2563eb\"/><text x=\"108.8\" y=\"200.4\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><circle cx=\"131.2\" cy=\"231.2\" r=\"6\" fill=\"#2563eb\"/><text x=\"139.2\" y=\"223.2\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><circle cx=\"100.8\" cy=\"162.8\" r=\"6\" fill=\"#2563eb\"/><text x=\"108.8\" y=\"154.8\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><circle cx=\"161.6\" cy=\"185.6\" r=\"6\" fill=\"#2563eb\"/><text x=\"169.6\" y=\"177.6\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><rect x=\"246.8\" y=\"65.6\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"260.8\" y=\"63.6\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><rect x=\"277.2\" y=\"111.2\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"291.2\" y=\"109.2\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><rect x=\"216.4\" y=\"88.4\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"230.4\" y=\"86.4\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P7</text><rect x=\"307.6\" y=\"42.8\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"321.6\" y=\"40.8\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P8</text><circle cx=\"192.0\" cy=\"162.8\" r=\"7\" fill=\"#fff\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"200.0\" y=\"154.8\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Ny</text></svg><p>Blå cirklar: lugn. Orange kvadrater: energisk. Vit ring: den nya punkten.</p><p>En musikapp sorterar låtar efter tempo och ljudstyrka, båda i en skala 0–10. Åtta låtar är redan sorterade som lugna eller energiska. En ny låt har tempo 5 och ljudstyrka 4. AI:n använder k närmaste grannar (kNN). Avståndet i kvadrat mellan två punkter är (Δx)² + (Δy)², och den nya punkten får den klass som flest av de k närmaste grannarna har.</p><p>a) Beräkna avståndet i kvadrat från den nya låten till P7 (6, 7).</p><p>b) Vilka tre låtar ligger närmast den nya låten?</p><p>c) Vad klassas den nya låten som med k = 3? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Lugn</p><p class=\"ul-alt\"><strong>B.</strong> Energisk</p><p class=\"ul-alt\"><strong>C.</strong> Det blir oavgjort</p><p class=\"ul-alt\"><strong>D.</strong> Det går inte att avgöra utan fler punkter</p><p>d) Man kan också mäta med Manhattanavstånd, |Δx| + |Δy|, som i A*. Vilket Manhattanavstånd har den nya låten till P7?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(6 − 5)² + (7 − 4)² = 1 + 9 = 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat till de närmaste</p><p>P4: (4 − 5)² + (3 − 4)² = 2. P3: (2 − 5)² + (4 − 4)² = 9. P7: (6 − 5)² + (7 − 4)² = 10. P1: (2 − 5)² + (2 − 4)² = 13.</p></li><li><p class=\"facit-rubrik\">De tre minsta</p><p>P4 (2), P3 (9) och P7 (10).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P4, P3, P7.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De 3 närmaste grannarna</p><p>Avstånd i kvadrat: P4 (lugn, 2), P3 (lugn, 9), P7 (energisk, 10).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lugn.</p><ul><li><strong>A:</strong> 2 av de 3 närmaste är lugn.</li><li><strong>B:</strong> Bara 1 av de 3 närmaste är energisk.</li><li><strong>C:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>D:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Manhattanavstånd: |Δx| + |Δy|</p><p>|6 − 5| + |7 − 4| = 1 + 3 = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div></div></div></div>",
+    "ledtrad": "<p>Jämför avstånden i kvadrat.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med åtta låtar och en ny låt i (5, 4).\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med åtta låtar och en ny låt i (5, 4).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"70.4\" y1=\"254.0\" x2=\"70.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"70.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"100.8\" y1=\"254.0\" x2=\"100.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"100.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"131.2\" y1=\"254.0\" x2=\"131.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"131.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"161.6\" y1=\"254.0\" x2=\"161.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"161.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"222.4\" y1=\"254.0\" x2=\"222.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"222.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"252.8\" y1=\"254.0\" x2=\"252.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"252.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"283.2\" y1=\"254.0\" x2=\"283.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"283.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"313.6\" y1=\"254.0\" x2=\"313.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"313.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"231.2\" x2=\"344.0\" y2=\"231.2\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"235.2\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"208.4\" x2=\"344.0\" y2=\"208.4\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"212.4\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"185.6\" x2=\"344.0\" y2=\"185.6\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"189.6\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"162.8\" x2=\"344.0\" y2=\"162.8\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"166.8\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"117.2\" x2=\"344.0\" y2=\"117.2\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"121.2\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"94.4\" x2=\"344.0\" y2=\"94.4\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"98.4\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"71.6\" x2=\"344.0\" y2=\"71.6\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"75.6\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"48.8\" x2=\"344.0\" y2=\"48.8\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"52.8\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">tempo</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">ljudstyrka</text><circle cx=\"100.8\" cy=\"208.4\" r=\"6\" fill=\"#2563eb\"/><text x=\"108.8\" y=\"200.4\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><circle cx=\"131.2\" cy=\"231.2\" r=\"6\" fill=\"#2563eb\"/><text x=\"139.2\" y=\"223.2\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><circle cx=\"100.8\" cy=\"162.8\" r=\"6\" fill=\"#2563eb\"/><text x=\"108.8\" y=\"154.8\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><circle cx=\"161.6\" cy=\"185.6\" r=\"6\" fill=\"#2563eb\"/><text x=\"169.6\" y=\"177.6\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><rect x=\"246.8\" y=\"65.6\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"260.8\" y=\"63.6\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><rect x=\"277.2\" y=\"111.2\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"291.2\" y=\"109.2\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><rect x=\"216.4\" y=\"88.4\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"230.4\" y=\"86.4\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P7</text><rect x=\"307.6\" y=\"42.8\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"321.6\" y=\"40.8\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P8</text><circle cx=\"192.0\" cy=\"162.8\" r=\"7\" fill=\"#fff\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"200.0\" y=\"154.8\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Ny</text></svg><p>Blå cirklar: lugn. Orange kvadrater: energisk. Vit ring: den nya punkten.</p><p>En musikapp sorterar låtar efter tempo och ljudstyrka, båda i en skala 0–10. Åtta låtar är redan sorterade som lugna eller energiska. En ny låt har tempo 5 och ljudstyrka 4. AI:n använder k närmaste grannar (kNN). Avståndet i kvadrat mellan två punkter är (Δx)² + (Δy)², och den nya punkten får den klass som flest av de k närmaste grannarna har.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna avståndet i kvadrat från den nya låten till P7 (6, 7).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(6 − 5)² + (7 − 4)² = 1 + 9 = 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div>",
+        "ledtrad": "<p>Kvadrera skillnaden i x och i y och lägg ihop.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 10,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilka tre låtar ligger närmast den nya låten? (Skriv punkternas namn, åtskilda med kommatecken.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat till de närmaste</p><p>P4: (4 − 5)² + (3 − 4)² = 2. P3: (2 − 5)² + (4 − 4)² = 9. P7: (6 − 5)² + (7 − 4)² = 10. P1: (2 − 5)² + (2 − 4)² = 13.</p></li><li><p class=\"facit-rubrik\">De tre minsta</p><p>P4 (2), P3 (9) och P7 (10).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P4, P3, P7.</p></div>",
+        "ledtrad": "<p>Räkna avståndet i kvadrat till punkterna nära den nya låten.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "P4, P3, P7",
+        "tolerans": null,
+        "svarFormat": "namnmangd",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad klassas den nya låten som med k = 3? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De 3 närmaste grannarna</p><p>Avstånd i kvadrat: P4 (lugn, 2), P3 (lugn, 9), P7 (energisk, 10).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lugn.</p><ul><li><strong>Lugn:</strong> 2 av de 3 närmaste är lugn.</li><li><strong>Energisk:</strong> Bara 1 av de 3 närmaste är energisk.</li><li><strong>Det blir oavgjort:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>Det går inte att avgöra utan fler punkter:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div>",
+        "ledtrad": "<p>Jämför avstånden i kvadrat och räkna klasserna bland de närmaste.</p>",
+        "alternativ": [
+          {
+            "txt": "Lugn",
+            "ratt": true,
+            "kommentar": "2 av de 3 närmaste är lugn."
+          },
+          {
+            "txt": "Energisk",
+            "ratt": false,
+            "kommentar": "Bara 1 av de 3 närmaste är energisk."
+          },
+          {
+            "txt": "Det blir oavgjort",
+            "ratt": false,
+            "kommentar": "Med ett udda k och två klasser kan det inte bli oavgjort."
+          },
+          {
+            "txt": "Det går inte att avgöra utan fler punkter",
+            "ratt": false,
+            "kommentar": "De givna punkterna räcker för att avgöra klassen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Lugn",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Man kan också mäta med Manhattanavstånd, |Δx| + |Δy|, som i A*. Vilket Manhattanavstånd har den nya låten till P7?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Manhattanavstånd: |Δx| + |Δy|</p><p>|6 − 5| + |7 − 4| = 1 + 3 = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div>",
+        "ledtrad": "<p>Lägg ihop skillnaderna i x och y utan att kvadrera.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "namnmangd",
+      null,
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.66",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Klassificera med kNN",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      "P8, P5, P7",
+      "Spam"
+    ],
+    "tolerans": [
+      0,
+      null,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med åtta mejl och ett nytt mejl i (5, 4).\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med åtta mejl och ett nytt mejl i (5, 4).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"78.0\" y1=\"254.0\" x2=\"78.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"78.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"116.0\" y1=\"254.0\" x2=\"116.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"116.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"154.0\" y1=\"254.0\" x2=\"154.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"154.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"230.0\" y1=\"254.0\" x2=\"230.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"230.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"268.0\" y1=\"254.0\" x2=\"268.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"268.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"306.0\" y1=\"254.0\" x2=\"306.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"306.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"225.5\" x2=\"344.0\" y2=\"225.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"229.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"197.0\" x2=\"344.0\" y2=\"197.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"201.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"168.5\" x2=\"344.0\" y2=\"168.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"172.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"111.5\" x2=\"344.0\" y2=\"111.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"115.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"83.0\" x2=\"344.0\" y2=\"83.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"87.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"54.5\" x2=\"344.0\" y2=\"54.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"58.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">länkar</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">utropstecken</text><circle cx=\"78.0\" cy=\"254.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"86.0\" y=\"246.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><circle cx=\"40.0\" cy=\"225.5\" r=\"6\" fill=\"#2563eb\"/><text x=\"48.0\" y=\"217.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><circle cx=\"116.0\" cy=\"225.5\" r=\"6\" fill=\"#2563eb\"/><text x=\"124.0\" y=\"217.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><circle cx=\"78.0\" cy=\"197.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"86.0\" y=\"189.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><rect x=\"262.0\" y=\"105.5\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"276.0\" y=\"103.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><rect x=\"224.0\" y=\"48.5\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"238.0\" y=\"46.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><rect x=\"300.0\" y=\"77.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"314.0\" y=\"75.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P7</text><rect x=\"186.0\" y=\"134.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"200.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P8</text><circle cx=\"230.0\" cy=\"140.0\" r=\"7\" fill=\"#fff\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"238.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Ny</text></svg><p>Blå cirklar: inte spam. Orange kvadrater: spam. Vit ring: den nya punkten.</p><p>Ett e-postprogram jämför antalet länkar och utropstecken i ett nytt mejl med åtta mejl som redan är sorterade. Det nya mejlet har 5 länkar och 4 utropstecken. AI:n använder k närmaste grannar (kNN). Avståndet i kvadrat mellan två punkter är (Δx)² + (Δy)², och den nya punkten får den klass som flest av de k närmaste grannarna har.</p><p>a) Beräkna avståndet i kvadrat från det nya mejlet till P4 (1, 2).</p><p>b) Vilka tre mejl ligger närmast det nya mejlet?</p><p>c) Vad klassas det nya mejlet som med k = 3? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Spam</p><p class=\"ul-alt\"><strong>B.</strong> Inte spam</p><p class=\"ul-alt\"><strong>C.</strong> Det blir oavgjort</p><p class=\"ul-alt\"><strong>D.</strong> Det går inte att avgöra utan fler punkter</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(1 − 5)² + (2 − 4)² = 16 + 4 = 20.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat till de närmaste</p><p>P8: (4 − 5)² + (4 − 4)² = 1. P5: (6 − 5)² + (5 − 4)² = 2. P7: (7 − 5)² + (6 − 4)² = 8. P6: (5 − 5)² + (7 − 4)² = 9.</p></li><li><p class=\"facit-rubrik\">De tre minsta</p><p>P8 (1), P5 (2) och P7 (8).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P8, P5, P7.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De 3 närmaste grannarna</p><p>Avstånd i kvadrat: P8 (spam, 1), P5 (spam, 2), P7 (spam, 8).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Spam.</p><ul><li><strong>A:</strong> 3 av de 3 närmaste är spam.</li><li><strong>B:</strong> Bara 0 av de 3 närmaste är inte spam.</li><li><strong>C:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>D:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>De närmaste grannarna röstar om klassen.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punktdiagram med åtta mejl och ett nytt mejl i (5, 4).\" style=\"width:100%;max-width:360px;height:auto\"><title>Punktdiagram med åtta mejl och ett nytt mejl i (5, 4).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"78.0\" y1=\"254.0\" x2=\"78.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"78.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"116.0\" y1=\"254.0\" x2=\"116.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"116.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"154.0\" y1=\"254.0\" x2=\"154.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"154.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"230.0\" y1=\"254.0\" x2=\"230.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"230.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"268.0\" y1=\"254.0\" x2=\"268.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"268.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"306.0\" y1=\"254.0\" x2=\"306.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"306.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"225.5\" x2=\"344.0\" y2=\"225.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"229.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"197.0\" x2=\"344.0\" y2=\"197.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"201.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"168.5\" x2=\"344.0\" y2=\"168.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"172.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"140.0\" x2=\"344.0\" y2=\"140.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"144.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"111.5\" x2=\"344.0\" y2=\"111.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"115.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"83.0\" x2=\"344.0\" y2=\"83.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"87.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"54.5\" x2=\"344.0\" y2=\"54.5\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"58.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">länkar</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">utropstecken</text><circle cx=\"78.0\" cy=\"254.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"86.0\" y=\"246.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><circle cx=\"40.0\" cy=\"225.5\" r=\"6\" fill=\"#2563eb\"/><text x=\"48.0\" y=\"217.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><circle cx=\"116.0\" cy=\"225.5\" r=\"6\" fill=\"#2563eb\"/><text x=\"124.0\" y=\"217.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><circle cx=\"78.0\" cy=\"197.0\" r=\"6\" fill=\"#2563eb\"/><text x=\"86.0\" y=\"189.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><rect x=\"262.0\" y=\"105.5\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"276.0\" y=\"103.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><rect x=\"224.0\" y=\"48.5\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"238.0\" y=\"46.5\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><rect x=\"300.0\" y=\"77.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"314.0\" y=\"75.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P7</text><rect x=\"186.0\" y=\"134.0\" width=\"12\" height=\"12\" fill=\"#ea580c\"/><text x=\"200.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P8</text><circle cx=\"230.0\" cy=\"140.0\" r=\"7\" fill=\"#fff\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"238.0\" y=\"132.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Ny</text></svg><p>Blå cirklar: inte spam. Orange kvadrater: spam. Vit ring: den nya punkten.</p><p>Ett e-postprogram jämför antalet länkar och utropstecken i ett nytt mejl med åtta mejl som redan är sorterade. Det nya mejlet har 5 länkar och 4 utropstecken. AI:n använder k närmaste grannar (kNN). Avståndet i kvadrat mellan två punkter är (Δx)² + (Δy)², och den nya punkten får den klass som flest av de k närmaste grannarna har.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna avståndet i kvadrat från det nya mejlet till P4 (1, 2).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(1 − 5)² + (2 − 4)² = 16 + 4 = 20.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20.</p></div>",
+        "ledtrad": "<p>Kvadrera skillnaden i x och i y och lägg ihop.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 20,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilka tre mejl ligger närmast det nya mejlet? (Skriv punkternas namn, åtskilda med kommatecken.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat till de närmaste</p><p>P8: (4 − 5)² + (4 − 4)² = 1. P5: (6 − 5)² + (5 − 4)² = 2. P7: (7 − 5)² + (6 − 4)² = 8. P6: (5 − 5)² + (7 − 4)² = 9.</p></li><li><p class=\"facit-rubrik\">De tre minsta</p><p>P8 (1), P5 (2) och P7 (8).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P8, P5, P7.</p></div>",
+        "ledtrad": "<p>Börja med punkterna som ligger nära (5, 4) i diagrammet.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "P8, P5, P7",
+        "tolerans": null,
+        "svarFormat": "namnmangd",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad klassas det nya mejlet som med k = 3? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De 3 närmaste grannarna</p><p>Avstånd i kvadrat: P8 (spam, 1), P5 (spam, 2), P7 (spam, 8).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Spam.</p><ul><li><strong>Spam:</strong> 3 av de 3 närmaste är spam.</li><li><strong>Inte spam:</strong> Bara 0 av de 3 närmaste är inte spam.</li><li><strong>Det blir oavgjort:</strong> Med ett udda k och två klasser kan det inte bli oavgjort.</li><li><strong>Det går inte att avgöra utan fler punkter:</strong> De givna punkterna räcker för att avgöra klassen.</li></ul></div>",
+        "ledtrad": "<p>Jämför avstånden i kvadrat och räkna klasserna bland de närmaste.</p>",
+        "alternativ": [
+          {
+            "txt": "Spam",
+            "ratt": true,
+            "kommentar": "3 av de 3 närmaste är spam."
+          },
+          {
+            "txt": "Inte spam",
+            "ratt": false,
+            "kommentar": "Bara 0 av de 3 närmaste är inte spam."
+          },
+          {
+            "txt": "Det blir oavgjort",
+            "ratt": false,
+            "kommentar": "Med ett udda k och två klasser kan det inte bli oavgjort."
+          },
+          {
+            "txt": "Det går inte att avgöra utan fler punkter",
+            "ratt": false,
+            "kommentar": "De givna punkterna räcker för att avgöra klassen."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Spam",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "namnmangd",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.67",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "C",
+    "poang": "2/2/0",
+    "familj": "Klassificera med kNN",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13,
+      100,
+      "Vikten mäts med större tal och styr därför nästan hela avståndet",
+      "Räknar om vikt och längd så att båda får tal av ungefär samma storlek"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Frukt</th><th style=\"text-align:left\">Vikt (g)</th><th style=\"text-align:left\">Längd (cm)</th></tr></thead><tbody><tr><td style=\"text-align:left\">Ny frukt</td><td style=\"text-align:left\">150</td><td style=\"text-align:left\">6</td></tr><tr><td style=\"text-align:left\">A</td><td style=\"text-align:left\">152</td><td style=\"text-align:left\">9</td></tr><tr><td style=\"text-align:left\">B</td><td style=\"text-align:left\">160</td><td style=\"text-align:left\">6</td></tr></tbody></table><p>En AI jämför frukter med kNN. Varje frukt beskrivs med vikt i gram och längd i centimeter, och avståndet i kvadrat är (Δvikt)² + (Δlängd)².</p><p>a) Beräkna avståndet i kvadrat mellan den nya frukten och frukt A.</p><p>b) Beräkna avståndet i kvadrat mellan den nya frukten och frukt B.</p><p>c) Längden skiljer 3 cm för A, vilket är mycket för en frukt, men A räknas ändå som närmast. Varför? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Vikten mäts med större tal och styr därför nästan hela avståndet</p><p class=\"ul-alt\"><strong>B.</strong> Längden spelar aldrig någon roll för frukter</p><p class=\"ul-alt\"><strong>C.</strong> Avståndet är fel uträknat</p><p class=\"ul-alt\"><strong>D.</strong> A och B är lika långt bort</p><p>d) Vad gör man för att vikt och längd ska få lika stor betydelse?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δvikt)² + (Δlängd)²</p><p>(152 − 150)² + (9 − 6)² = 4 + 9 = 13.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δvikt)² + (Δlängd)²</p><p>(160 − 150)² + (6 − 6)² = 100 + 0 = 100.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gram är stora tal</p><p>Vikten mäts i gram och varierar med tiotals enheter, längden i cm varierar bara några enheter. Vikten får därför nästan all betydelse för avståndet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vikten mäts med större tal och styr därför nästan hela avståndet.</p><ul><li><strong>A:</strong> En skillnad på 10 g väger lika mycket som 10 cm.</li><li><strong>B:</strong> Längden kan vara viktig, men den drunknar här i vikten.</li><li><strong>C:</strong> Uträkningen stämmer, problemet är skalan.</li><li><strong>D:</strong> 13 och 100 är olika avstånd.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna om till samma skala</p><p>Man räknar om båda, till exempel så att de går från 0 till 1. Då väger en stor skillnad i längd lika mycket som en stor skillnad i vikt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Räknar om vikt och längd så att båda får tal av ungefär samma storlek.</p></div></div></div></div>",
+    "ledtrad": "<p>Egenskaper som mäts med stora tal styr avståndet.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">Frukt</th><th style=\"text-align:left\">Vikt (g)</th><th style=\"text-align:left\">Längd (cm)</th></tr></thead><tbody><tr><td style=\"text-align:left\">Ny frukt</td><td style=\"text-align:left\">150</td><td style=\"text-align:left\">6</td></tr><tr><td style=\"text-align:left\">A</td><td style=\"text-align:left\">152</td><td style=\"text-align:left\">9</td></tr><tr><td style=\"text-align:left\">B</td><td style=\"text-align:left\">160</td><td style=\"text-align:left\">6</td></tr></tbody></table><p>En AI jämför frukter med kNN. Varje frukt beskrivs med vikt i gram och längd i centimeter, och avståndet i kvadrat är (Δvikt)² + (Δlängd)².</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna avståndet i kvadrat mellan den nya frukten och frukt A.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δvikt)² + (Δlängd)²</p><p>(152 − 150)² + (9 − 6)² = 4 + 9 = 13.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13.</p></div>",
+        "ledtrad": "<p>Kvadrera skillnaden i vikt och i längd och lägg ihop.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 13,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Beräkna avståndet i kvadrat mellan den nya frukten och frukt B.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δvikt)² + (Δlängd)²</p><p>(160 − 150)² + (6 − 6)² = 100 + 0 = 100.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100.</p></div>",
+        "ledtrad": "<p>Samma sak för frukt B.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 100,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Längden skiljer 3 cm för A, vilket är mycket för en frukt, men A räknas ändå som närmast. Varför? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gram är stora tal</p><p>Vikten mäts i gram och varierar med tiotals enheter, längden i cm varierar bara några enheter. Vikten får därför nästan all betydelse för avståndet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vikten mäts med större tal och styr därför nästan hela avståndet.</p><ul><li><strong>Vikten mäts med större tal och styr därför nästan hela avståndet:</strong> En skillnad på 10 g väger lika mycket som 10 cm.</li><li><strong>Längden spelar aldrig någon roll för frukter:</strong> Längden kan vara viktig, men den drunknar här i vikten.</li><li><strong>Avståndet är fel uträknat:</strong> Uträkningen stämmer, problemet är skalan.</li><li><strong>A och B är lika långt bort:</strong> 13 och 100 är olika avstånd.</li></ul></div>",
+        "ledtrad": "<p>Jämför storleken på skillnaderna i gram och i cm.</p>",
+        "alternativ": [
+          {
+            "txt": "Vikten mäts med större tal och styr därför nästan hela avståndet",
+            "ratt": true,
+            "kommentar": "En skillnad på 10 g väger lika mycket som 10 cm."
+          },
+          {
+            "txt": "Längden spelar aldrig någon roll för frukter",
+            "ratt": false,
+            "kommentar": "Längden kan vara viktig, men den drunknar här i vikten."
+          },
+          {
+            "txt": "Avståndet är fel uträknat",
+            "ratt": false,
+            "kommentar": "Uträkningen stämmer, problemet är skalan."
+          },
+          {
+            "txt": "A och B är lika långt bort",
+            "ratt": false,
+            "kommentar": "13 och 100 är olika avstånd."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Vikten mäts med större tal och styr därför nästan hela avståndet",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Vad gör man för att vikt och längd ska få lika stor betydelse? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna om till samma skala</p><p>Man räknar om båda, till exempel så att de går från 0 till 1. Då väger en stor skillnad i längd lika mycket som en stor skillnad i vikt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Räknar om vikt och längd så att båda får tal av ungefär samma storlek.</p><ul><li><strong>Räknar om vikt och längd så att båda får tal av ungefär samma storlek:</strong> Då styr inte vikten hela avståndet.</li><li><strong>Tar bort längden:</strong> Då försvinner information.</li><li><strong>Väljer ett större k:</strong> Det ändrar inte vilka punkter som räknas som nära.</li><li><strong>Mäter vikten i milligram:</strong> Då blir talen ännu större och vikten styr ännu mer.</li></ul></div>",
+        "ledtrad": "<p>Hur kan man göra så att talen blir lika stora?</p>",
+        "alternativ": [
+          {
+            "txt": "Räknar om vikt och längd så att båda får tal av ungefär samma storlek",
+            "ratt": true,
+            "kommentar": "Då styr inte vikten hela avståndet."
+          },
+          {
+            "txt": "Tar bort längden",
+            "ratt": false,
+            "kommentar": "Då försvinner information."
+          },
+          {
+            "txt": "Väljer ett större k",
+            "ratt": false,
+            "kommentar": "Det ändrar inte vilka punkter som räknas som nära."
+          },
+          {
+            "txt": "Mäter vikten i milligram",
+            "ratt": false,
+            "kommentar": "Då blir talen ännu större och vikten styr ännu mer."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Räknar om vikt och längd så att båda får tal av ungefär samma storlek",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.68",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Klustring med k-means",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "P1, P2, P3",
+      [
+        7,
+        5
+      ],
+      "Den grupperar data utan etiketter, men man väljer själv antalet kluster k"
+    ],
+    "tolerans": [
+      null,
+      [
+        0,
+        0
+      ],
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Sex användare och två klustercentrum, C1 i (2, 2) och C2 i (6, 6).\" style=\"width:100%;max-width:360px;height:auto\"><title>Sex användare och två klustercentrum, C1 i (2, 2) och C2 i (6, 6).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"73.8\" y1=\"254.0\" x2=\"73.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"73.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"107.6\" y1=\"254.0\" x2=\"107.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"107.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"141.3\" y1=\"254.0\" x2=\"141.3\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"141.3\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"175.1\" y1=\"254.0\" x2=\"175.1\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"175.1\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"208.9\" y1=\"254.0\" x2=\"208.9\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"208.9\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"242.7\" y1=\"254.0\" x2=\"242.7\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"242.7\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"276.4\" y1=\"254.0\" x2=\"276.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"276.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"310.2\" y1=\"254.0\" x2=\"310.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"310.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"221.4\" x2=\"344.0\" y2=\"221.4\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"225.4\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"188.9\" x2=\"344.0\" y2=\"188.9\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"192.9\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"156.3\" x2=\"344.0\" y2=\"156.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"160.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"123.7\" x2=\"344.0\" y2=\"123.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"127.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"91.1\" x2=\"344.0\" y2=\"91.1\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"95.1\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"58.6\" x2=\"344.0\" y2=\"58.6\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"62.6\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">pop</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">rock</text><polygon points=\"73.8,214.4 80.8,227.4 66.8,227.4\" fill=\"#16a34a\"/><text x=\"81.8\" y=\"213.4\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><polygon points=\"107.6,214.4 114.6,227.4 100.6,227.4\" fill=\"#16a34a\"/><text x=\"115.6\" y=\"213.4\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><polygon points=\"73.8,149.3 80.8,162.3 66.8,162.3\" fill=\"#16a34a\"/><text x=\"81.8\" y=\"148.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><polygon points=\"242.7,84.1 249.7,97.1 235.7,97.1\" fill=\"#16a34a\"/><text x=\"250.7\" y=\"83.1\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><polygon points=\"276.4,51.6 283.4,64.6 269.4,64.6\" fill=\"#16a34a\"/><text x=\"284.4\" y=\"50.6\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><polygon points=\"310.2,116.7 317.2,129.7 303.2,129.7\" fill=\"#16a34a\"/><text x=\"318.2\" y=\"115.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><path d=\"M100.6,181.9 L114.6,195.9 M114.6,181.9 L100.6,195.9\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"97.6\" y=\"179.9\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">C1</text><path d=\"M235.7,51.6 L249.7,65.6 M249.7,51.6 L235.7,65.6\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"232.7\" y=\"49.6\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">C2</text></svg><p>Gröna trianglar: användare. Kryss: klustercentrum.</p><p>En musiktjänst grupperar sex användare efter hur många timmar pop och rock de lyssnar på per vecka. Den använder k-means med k = 2. Klustercentrum C1 ligger i (2, 2) och C2 i (6, 6). Algoritmen k-means gör så här: varje punkt tillhör det närmaste centrumet, och sedan flyttas varje centrum till medelvärdet av sina punkter.</p><p>a) Vilka användare tillhör C1?</p><p>b) Var hamnar C2 när det flyttas till medelvärdet av sina punkter?</p><p>c) Vad är typiskt för k-means? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Den grupperar data utan etiketter, men man väljer själv antalet kluster k</p><p class=\"ul-alt\"><strong>B.</strong> Den behöver veta vilken grupp varje punkt hör till från början</p><p class=\"ul-alt\"><strong>C.</strong> Den hittar alltid rätt antal grupper själv</p><p class=\"ul-alt\"><strong>D.</strong> Den förutsäger ett tal, som regression</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför avståndet till C1 och C2</p><p>P1, P2 och P3 ligger nära (2, 2). P4, P5 och P6 ligger nära (6, 6).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P1, P2, P3.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkterna i C2</p><p>P4 (6, 5), P5 (7, 6) och P6 (8, 4).</p></li><li><p class=\"facit-rubrik\">Medelvärdet av x och av y</p><p>x = (6 + 7 + 8) / 3 = 7. y = (5 + 6 + 4) / 3 = 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C2 = (7, 5).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Oövervakad gruppering</p><p>k-means hittar grupper utan etiketter, men man måste själv välja hur många grupper (k) det ska bli.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den grupperar data utan etiketter, men man väljer själv antalet kluster k.</p><ul><li><strong>A:</strong> Det är oövervakad inlärning.</li><li><strong>B:</strong> Det vore övervakad inlärning.</li><li><strong>C:</strong> Antalet kluster k väljs i förväg.</li><li><strong>D:</strong> k-means delar in i grupper.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Tilldela till närmaste centrum, flytta centrum till medelvärdet.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Sex användare och två klustercentrum, C1 i (2, 2) och C2 i (6, 6).\" style=\"width:100%;max-width:360px;height:auto\"><title>Sex användare och två klustercentrum, C1 i (2, 2) och C2 i (6, 6).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"73.8\" y1=\"254.0\" x2=\"73.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"73.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"107.6\" y1=\"254.0\" x2=\"107.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"107.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"141.3\" y1=\"254.0\" x2=\"141.3\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"141.3\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"175.1\" y1=\"254.0\" x2=\"175.1\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"175.1\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"208.9\" y1=\"254.0\" x2=\"208.9\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"208.9\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"242.7\" y1=\"254.0\" x2=\"242.7\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"242.7\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"276.4\" y1=\"254.0\" x2=\"276.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"276.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"310.2\" y1=\"254.0\" x2=\"310.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"310.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"221.4\" x2=\"344.0\" y2=\"221.4\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"225.4\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"188.9\" x2=\"344.0\" y2=\"188.9\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"192.9\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"156.3\" x2=\"344.0\" y2=\"156.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"160.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"123.7\" x2=\"344.0\" y2=\"123.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"127.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"91.1\" x2=\"344.0\" y2=\"91.1\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"95.1\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"58.6\" x2=\"344.0\" y2=\"58.6\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"62.6\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">pop</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">rock</text><polygon points=\"73.8,214.4 80.8,227.4 66.8,227.4\" fill=\"#16a34a\"/><text x=\"81.8\" y=\"213.4\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><polygon points=\"107.6,214.4 114.6,227.4 100.6,227.4\" fill=\"#16a34a\"/><text x=\"115.6\" y=\"213.4\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><polygon points=\"73.8,149.3 80.8,162.3 66.8,162.3\" fill=\"#16a34a\"/><text x=\"81.8\" y=\"148.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><polygon points=\"242.7,84.1 249.7,97.1 235.7,97.1\" fill=\"#16a34a\"/><text x=\"250.7\" y=\"83.1\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><polygon points=\"276.4,51.6 283.4,64.6 269.4,64.6\" fill=\"#16a34a\"/><text x=\"284.4\" y=\"50.6\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><polygon points=\"310.2,116.7 317.2,129.7 303.2,129.7\" fill=\"#16a34a\"/><text x=\"318.2\" y=\"115.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><path d=\"M100.6,181.9 L114.6,195.9 M114.6,181.9 L100.6,195.9\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"97.6\" y=\"179.9\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">C1</text><path d=\"M235.7,51.6 L249.7,65.6 M249.7,51.6 L235.7,65.6\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"232.7\" y=\"49.6\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">C2</text></svg><p>Gröna trianglar: användare. Kryss: klustercentrum.</p><p>En musiktjänst grupperar sex användare efter hur många timmar pop och rock de lyssnar på per vecka. Den använder k-means med k = 2. Klustercentrum C1 ligger i (2, 2) och C2 i (6, 6). Algoritmen k-means gör så här: varje punkt tillhör det närmaste centrumet, och sedan flyttas varje centrum till medelvärdet av sina punkter.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilka användare tillhör C1? (Skriv punkternas namn, åtskilda med kommatecken.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför avståndet till C1 och C2</p><p>P1, P2 och P3 ligger nära (2, 2). P4, P5 och P6 ligger nära (6, 6).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P1, P2, P3.</p></div>",
+        "ledtrad": "<p>Jämför avståndet till de två centrumen för varje punkt.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "P1, P2, P3",
+        "tolerans": null,
+        "svarFormat": "namnmangd",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Var hamnar C2 när det flyttas till medelvärdet av sina punkter?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkterna i C2</p><p>P4 (6, 5), P5 (7, 6) och P6 (8, 4).</p></li><li><p class=\"facit-rubrik\">Medelvärdet av x och av y</p><p>x = (6 + 7 + 8) / 3 = 7. y = (5 + 6 + 4) / 3 = 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C2 = (7, 5).</p></div>",
+        "ledtrad": "<p>Ta medelvärdet av x-koordinaterna och av y-koordinaterna.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "flera_delar",
+        "rättSvar": [
+          7,
+          5
+        ],
+        "tolerans": [
+          0,
+          0
+        ],
+        "svarFormat": [
+          "numeriskt",
+          "numeriskt"
+        ],
+        "svarEnhet": [
+          null,
+          null
+        ],
+        "svarEtiketter": [
+          "x",
+          "y"
+        ],
+        "svarsstruktur": "ordnad",
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad är typiskt för k-means? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Oövervakad gruppering</p><p>k-means hittar grupper utan etiketter, men man måste själv välja hur många grupper (k) det ska bli.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den grupperar data utan etiketter, men man väljer själv antalet kluster k.</p><ul><li><strong>Den grupperar data utan etiketter, men man väljer själv antalet kluster k:</strong> Det är oövervakad inlärning.</li><li><strong>Den behöver veta vilken grupp varje punkt hör till från början:</strong> Det vore övervakad inlärning.</li><li><strong>Den hittar alltid rätt antal grupper själv:</strong> Antalet kluster k väljs i förväg.</li><li><strong>Den förutsäger ett tal, som regression:</strong> k-means delar in i grupper.</li></ul></div>",
+        "ledtrad": "<p>Behöver k-means några rätta svar?</p>",
+        "alternativ": [
+          {
+            "txt": "Den grupperar data utan etiketter, men man väljer själv antalet kluster k",
+            "ratt": true,
+            "kommentar": "Det är oövervakad inlärning."
+          },
+          {
+            "txt": "Den behöver veta vilken grupp varje punkt hör till från början",
+            "ratt": false,
+            "kommentar": "Det vore övervakad inlärning."
+          },
+          {
+            "txt": "Den hittar alltid rätt antal grupper själv",
+            "ratt": false,
+            "kommentar": "Antalet kluster k väljs i förväg."
+          },
+          {
+            "txt": "Den förutsäger ett tal, som regression",
+            "ratt": false,
+            "kommentar": "k-means delar in i grupper."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Den grupperar data utan etiketter, men man väljer själv antalet kluster k",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "namnmangd",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.69",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Klustring med k-means",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      12,
+      "Algoritmen är klar, eftersom ingen punkt kommer att byta kluster"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<p>En webbutik grupperar sex kunder efter hur många minuter de stannar på sidan: 2, 3, 4, 10, 11 och 15 minuter. Den använder k-means med k = 2 och startcentrum 3 och 12. Algoritmen k-means gör så här: varje punkt tillhör det närmaste centrumet, och sedan flyttas varje centrum till medelvärdet av sina punkter.</p><p>a) Hur många kunder hamnar i klustret med centrum 3?</p><p>b) Vilket blir det nya centrumet för det andra klustret?</p><p>c) Centrumen ändras inte när de räknas om. Vad betyder det?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Närmaste centrum för varje kund</p><p>2, 3 och 4 ligger närmast 3. 10, 11 och 15 ligger närmast 12.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medelvärdet av klustrets punkter</p><p>(10 + 11 + 15) / 3 = 36 / 3 = 12.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Algoritmen är klar</p><p>När centrumen står still byter ingen punkt kluster i nästa varv. Då stannar k-means.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Algoritmen är klar, eftersom ingen punkt kommer att byta kluster.</p></div></div></div></div>",
+    "ledtrad": "<p>Tilldela, räkna om medelvärdet, upprepa tills inget ändras.</p>",
+    "spelIntro": "<p>En webbutik grupperar sex kunder efter hur många minuter de stannar på sidan: 2, 3, 4, 10, 11 och 15 minuter. Den använder k-means med k = 2 och startcentrum 3 och 12. Algoritmen k-means gör så här: varje punkt tillhör det närmaste centrumet, och sedan flyttas varje centrum till medelvärdet av sina punkter.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många kunder hamnar i klustret med centrum 3?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Närmaste centrum för varje kund</p><p>2, 3 och 4 ligger närmast 3. 10, 11 och 15 ligger närmast 12.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Jämför avståndet till 3 och till 12 för varje kund.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 3,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilket blir det nya centrumet för det andra klustret?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medelvärdet av klustrets punkter</p><p>(10 + 11 + 15) / 3 = 36 / 3 = 12.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12.</p></div>",
+        "ledtrad": "<p>Ta medelvärdet av kunderna i klustret.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 12,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Centrumen ändras inte när de räknas om. Vad betyder det? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Algoritmen är klar</p><p>När centrumen står still byter ingen punkt kluster i nästa varv. Då stannar k-means.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Algoritmen är klar, eftersom ingen punkt kommer att byta kluster.</p><ul><li><strong>Algoritmen är klar, eftersom ingen punkt kommer att byta kluster:</strong> Då har k-means hittat en stabil gruppering.</li><li><strong>Algoritmen har gjort fel:</strong> Att centrumen står still är just målet.</li><li><strong>Man måste byta k:</strong> k väljs i förväg och behöver inte ändras.</li><li><strong>Alla punkter tillhör samma kluster:</strong> Det finns fortfarande två kluster med tre punkter i varje.</li></ul></div>",
+        "ledtrad": "<p>Vad händer i nästa varv om centrumen inte flyttas?</p>",
+        "alternativ": [
+          {
+            "txt": "Algoritmen är klar, eftersom ingen punkt kommer att byta kluster",
+            "ratt": true,
+            "kommentar": "Då har k-means hittat en stabil gruppering."
+          },
+          {
+            "txt": "Algoritmen har gjort fel",
+            "ratt": false,
+            "kommentar": "Att centrumen står still är just målet."
+          },
+          {
+            "txt": "Man måste byta k",
+            "ratt": false,
+            "kommentar": "k väljs i förväg och behöver inte ändras."
+          },
+          {
+            "txt": "Alla punkter tillhör samma kluster",
+            "ratt": false,
+            "kommentar": "Det finns fortfarande två kluster med tre punkter i varje."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Algoritmen är klar, eftersom ingen punkt kommer att byta kluster",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.70",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Klustring med k-means",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "P4, P5, P6",
+      [
+        2,
+        2
+      ],
+      [
+        8,
+        7
+      ]
+    ],
+    "tolerans": [
+      null,
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Sex elever och två klustercentrum, C1 i (3, 3) och C2 i (8, 6).\" style=\"width:100%;max-width:360px;height:auto\"><title>Sex elever och två klustercentrum, C1 i (3, 3) och C2 i (8, 6).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"70.4\" y1=\"254.0\" x2=\"70.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"70.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"100.8\" y1=\"254.0\" x2=\"100.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"100.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"131.2\" y1=\"254.0\" x2=\"131.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"131.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"161.6\" y1=\"254.0\" x2=\"161.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"161.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"222.4\" y1=\"254.0\" x2=\"222.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"222.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"252.8\" y1=\"254.0\" x2=\"252.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"252.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"283.2\" y1=\"254.0\" x2=\"283.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"283.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"313.6\" y1=\"254.0\" x2=\"313.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"313.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"228.7\" x2=\"344.0\" y2=\"228.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"232.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"203.3\" x2=\"344.0\" y2=\"203.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"207.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"178.0\" x2=\"344.0\" y2=\"178.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"182.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"152.7\" x2=\"344.0\" y2=\"152.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"156.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"127.3\" x2=\"344.0\" y2=\"127.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"131.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"102.0\" x2=\"344.0\" y2=\"102.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"106.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"76.7\" x2=\"344.0\" y2=\"76.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"80.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"51.3\" x2=\"344.0\" y2=\"51.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"55.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">läsning</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">räkning</text><polygon points=\"70.4,196.3 77.4,209.3 63.4,209.3\" fill=\"#16a34a\"/><text x=\"78.4\" y=\"195.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><polygon points=\"131.2,221.7 138.2,234.7 124.2,234.7\" fill=\"#16a34a\"/><text x=\"139.2\" y=\"220.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><polygon points=\"100.8,171.0 107.8,184.0 93.8,184.0\" fill=\"#16a34a\"/><text x=\"108.8\" y=\"170.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><polygon points=\"252.8,44.3 259.8,57.3 245.8,57.3\" fill=\"#16a34a\"/><text x=\"260.8\" y=\"43.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><polygon points=\"283.2,44.3 290.2,57.3 276.2,57.3\" fill=\"#16a34a\"/><text x=\"291.2\" y=\"43.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><polygon points=\"313.6,120.3 320.6,133.3 306.6,133.3\" fill=\"#16a34a\"/><text x=\"321.6\" y=\"119.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><path d=\"M124.2,171.0 L138.2,185.0 M138.2,171.0 L124.2,185.0\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"141.2\" y=\"197.0\" text-anchor=\"start\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">C1</text><path d=\"M276.2,95.0 L290.2,109.0 M290.2,95.0 L276.2,109.0\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"273.2\" y=\"93.0\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">C2</text></svg><p>Gröna trianglar: elever. Kryss: klustercentrum.</p><p>En läxhjälpstjänst vill dela in sex elever i två grupper efter hur många timmar per vecka de lägger på läsning och räkning. Den använder k-means med k = 2 och startcentrum C1 (3, 3) och C2 (8, 6). Algoritmen k-means gör så här: varje punkt tillhör det närmaste centrumet, och sedan flyttas varje centrum till medelvärdet av sina punkter.</p><p>a) Vilka elever tillhör C2?</p><p>b) Var hamnar C1 när det flyttas till medelvärdet av sina punkter?</p><p>c) Var hamnar C2?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat till C1 och C2</p><p>P4: 41 och 5. P5: 50 och 4. P6: 40 och 2. P1, P2 och P3 ligger närmare C1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P4, P5, P6.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkterna i C1</p><p>P1 (1, 2), P2 (3, 1) och P3 (2, 3).</p></li><li><p class=\"facit-rubrik\">Medelvärdet av x och av y</p><p>x = (1 + 3 + 2) / 3 = 2. y = (2 + 1 + 3) / 3 = 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C1 = (2, 2).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkterna i C2</p><p>P4 (7, 8), P5 (8, 8) och P6 (9, 5).</p></li><li><p class=\"facit-rubrik\">Medelvärdet av x och av y</p><p>x = (7 + 8 + 9) / 3 = 8. y = (8 + 8 + 5) / 3 = 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C2 = (8, 7).</p></div></div></div></div>",
+    "ledtrad": "<p>Centrum = medelvärdet av klustrets punkter.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Sex elever och två klustercentrum, C1 i (3, 3) och C2 i (8, 6).\" style=\"width:100%;max-width:360px;height:auto\"><title>Sex elever och två klustercentrum, C1 i (3, 3) och C2 i (8, 6).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"70.4\" y1=\"254.0\" x2=\"70.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"70.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"100.8\" y1=\"254.0\" x2=\"100.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"100.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"131.2\" y1=\"254.0\" x2=\"131.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"131.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"161.6\" y1=\"254.0\" x2=\"161.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"161.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"192.0\" y1=\"254.0\" x2=\"192.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"192.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"222.4\" y1=\"254.0\" x2=\"222.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"222.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"252.8\" y1=\"254.0\" x2=\"252.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"252.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"283.2\" y1=\"254.0\" x2=\"283.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"283.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"313.6\" y1=\"254.0\" x2=\"313.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"313.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"228.7\" x2=\"344.0\" y2=\"228.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"232.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"203.3\" x2=\"344.0\" y2=\"203.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"207.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"178.0\" x2=\"344.0\" y2=\"178.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"182.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"152.7\" x2=\"344.0\" y2=\"152.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"156.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"127.3\" x2=\"344.0\" y2=\"127.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"131.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"102.0\" x2=\"344.0\" y2=\"102.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"106.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"76.7\" x2=\"344.0\" y2=\"76.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"80.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"51.3\" x2=\"344.0\" y2=\"51.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"55.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">läsning</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">räkning</text><polygon points=\"70.4,196.3 77.4,209.3 63.4,209.3\" fill=\"#16a34a\"/><text x=\"78.4\" y=\"195.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><polygon points=\"131.2,221.7 138.2,234.7 124.2,234.7\" fill=\"#16a34a\"/><text x=\"139.2\" y=\"220.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><polygon points=\"100.8,171.0 107.8,184.0 93.8,184.0\" fill=\"#16a34a\"/><text x=\"108.8\" y=\"170.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><polygon points=\"252.8,44.3 259.8,57.3 245.8,57.3\" fill=\"#16a34a\"/><text x=\"260.8\" y=\"43.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><polygon points=\"283.2,44.3 290.2,57.3 276.2,57.3\" fill=\"#16a34a\"/><text x=\"291.2\" y=\"43.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><polygon points=\"313.6,120.3 320.6,133.3 306.6,133.3\" fill=\"#16a34a\"/><text x=\"321.6\" y=\"119.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><path d=\"M124.2,171.0 L138.2,185.0 M138.2,171.0 L124.2,185.0\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"141.2\" y=\"197.0\" text-anchor=\"start\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">C1</text><path d=\"M276.2,95.0 L290.2,109.0 M290.2,95.0 L276.2,109.0\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"273.2\" y=\"93.0\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">C2</text></svg><p>Gröna trianglar: elever. Kryss: klustercentrum.</p><p>En läxhjälpstjänst vill dela in sex elever i två grupper efter hur många timmar per vecka de lägger på läsning och räkning. Den använder k-means med k = 2 och startcentrum C1 (3, 3) och C2 (8, 6). Algoritmen k-means gör så här: varje punkt tillhör det närmaste centrumet, och sedan flyttas varje centrum till medelvärdet av sina punkter.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vilka elever tillhör C2? (Skriv punkternas namn, åtskilda med kommatecken.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat till C1 och C2</p><p>P4: 41 och 5. P5: 50 och 4. P6: 40 och 2. P1, P2 och P3 ligger närmare C1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P4, P5, P6.</p></div>",
+        "ledtrad": "<p>Jämför avståndet till de två centrumen för varje elev.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "kort_text",
+        "rättSvar": "P4, P5, P6",
+        "tolerans": null,
+        "svarFormat": "namnmangd",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Var hamnar C1 när det flyttas till medelvärdet av sina punkter?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkterna i C1</p><p>P1 (1, 2), P2 (3, 1) och P3 (2, 3).</p></li><li><p class=\"facit-rubrik\">Medelvärdet av x och av y</p><p>x = (1 + 3 + 2) / 3 = 2. y = (2 + 1 + 3) / 3 = 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C1 = (2, 2).</p></div>",
+        "ledtrad": "<p>Ta medelvärdet av x och av y för punkterna i C1.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "flera_delar",
+        "rättSvar": [
+          2,
+          2
+        ],
+        "tolerans": [
+          0,
+          0
+        ],
+        "svarFormat": [
+          "numeriskt",
+          "numeriskt"
+        ],
+        "svarEnhet": [
+          null,
+          null
+        ],
+        "svarEtiketter": [
+          "x",
+          "y"
+        ],
+        "svarsstruktur": "ordnad",
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Var hamnar C2?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkterna i C2</p><p>P4 (7, 8), P5 (8, 8) och P6 (9, 5).</p></li><li><p class=\"facit-rubrik\">Medelvärdet av x och av y</p><p>x = (7 + 8 + 9) / 3 = 8. y = (8 + 8 + 5) / 3 = 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C2 = (8, 7).</p></div>",
+        "ledtrad": "<p>Ta medelvärdet av x och av y för punkterna i C2.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "flera_delar",
+        "rättSvar": [
+          8,
+          7
+        ],
+        "tolerans": [
+          0,
+          0
+        ],
+        "svarFormat": [
+          "numeriskt",
+          "numeriskt"
+        ],
+        "svarEnhet": [
+          null,
+          null
+        ],
+        "svarEtiketter": [
+          "x",
+          "y"
+        ],
+        "svarsstruktur": "ordnad",
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "namnmangd",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.71",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Klustring med k-means",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      8.5,
+      "Varje ställe hamnar mitt bland husen som ligger närmast det"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<p>Ett företag ska bygga tre utlämningsställen för paket längs en lång landsväg. Åtta hus ligger vid kilometer 1, 2, 3, 8, 9, 13, 14 och 15. Företaget använder k-means med k = 3 och startcentrum vid kilometer 2, 9 och 14. Algoritmen k-means gör så här: varje punkt tillhör det närmaste centrumet, och sedan flyttas varje centrum till medelvärdet av sina punkter.</p><p>a) Hur många hus hamnar i klustret med centrum vid kilometer 9?</p><p>b) Vid vilken kilometer hamnar centrumet när det flyttas till medelvärdet av sina hus?</p><p>c) Varför passar k-means för att placera utlämningsställena?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Närmaste centrum för varje hus</p><p>8 och 9 ligger närmast 9. 1–3 ligger närmast 2 och 13–15 närmast 14.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medelvärdet av husen 8 och 9</p><p>(8 + 9) / 2 = 8,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kort väg för alla</p><p>k-means placerar varje centrum mitt bland sina punkter, så att avstånden från husen till närmaste ställe blir små.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Varje ställe hamnar mitt bland husen som ligger närmast det.</p></div></div></div></div>",
+    "ledtrad": "<p>Varje centrum flyttas till mitten av sina punkter.</p>",
+    "spelIntro": "<p>Ett företag ska bygga tre utlämningsställen för paket längs en lång landsväg. Åtta hus ligger vid kilometer 1, 2, 3, 8, 9, 13, 14 och 15. Företaget använder k-means med k = 3 och startcentrum vid kilometer 2, 9 och 14. Algoritmen k-means gör så här: varje punkt tillhör det närmaste centrumet, och sedan flyttas varje centrum till medelvärdet av sina punkter.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många hus hamnar i klustret med centrum vid kilometer 9?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Närmaste centrum för varje hus</p><p>8 och 9 ligger närmast 9. 1–3 ligger närmast 2 och 13–15 närmast 14.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div>",
+        "ledtrad": "<p>Jämför avståndet från varje hus till de tre centrumen.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 2,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vid vilken kilometer hamnar centrumet när det flyttas till medelvärdet av sina hus? (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medelvärdet av husen 8 och 9</p><p>(8 + 9) / 2 = 8,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,5.</p></div>",
+        "ledtrad": "<p>Ta medelvärdet av husen i klustret.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 8.5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Varför passar k-means för att placera utlämningsställena? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kort väg för alla</p><p>k-means placerar varje centrum mitt bland sina punkter, så att avstånden från husen till närmaste ställe blir små.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Varje ställe hamnar mitt bland husen som ligger närmast det.</p><ul><li><strong>Varje ställe hamnar mitt bland husen som ligger närmast det:</strong> Då blir avståndet till närmaste utlämningsställe kort för alla hus.</li><li><strong>k-means bestämmer själv hur många ställen som behövs:</strong> Antalet, k = 3, väljs i förväg.</li><li><strong>k-means placerar ställena så långt från varandra som möjligt:</strong> Målet är att vara nära husen, inte långt från varandra.</li><li><strong>k-means använder husens adresser som etiketter:</strong> k-means använder inga etiketter.</li></ul></div>",
+        "ledtrad": "<p>Vad händer med avstånden när ett centrum flyttas till medelvärdet?</p>",
+        "alternativ": [
+          {
+            "txt": "Varje ställe hamnar mitt bland husen som ligger närmast det",
+            "ratt": true,
+            "kommentar": "Då blir avståndet till närmaste utlämningsställe kort för alla hus."
+          },
+          {
+            "txt": "k-means bestämmer själv hur många ställen som behövs",
+            "ratt": false,
+            "kommentar": "Antalet, k = 3, väljs i förväg."
+          },
+          {
+            "txt": "k-means placerar ställena så långt från varandra som möjligt",
+            "ratt": false,
+            "kommentar": "Målet är att vara nära husen, inte långt från varandra."
+          },
+          {
+            "txt": "k-means använder husens adresser som etiketter",
+            "ratt": false,
+            "kommentar": "k-means använder inga etiketter."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Varje ställe hamnar mitt bland husen som ligger närmast det",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.72",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "C",
+    "poang": "2/2/0",
+    "familj": "Klustring med k-means",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      7,
+      "Mätningen 2",
+      1.5
+    ],
+    "tolerans": [
+      0,
+      0,
+      null,
+      0
+    ],
+    "t": "<p>Sex sensorer i en fabrik mäter temperaturen 1, 2, 6, 7, 8 och 12 grader över det normala. En AI grupperar mätningarna med k-means, k = 2, och startcentrum C1 = 1 och C2 = 2. Algoritmen k-means gör så här: varje punkt tillhör det närmaste centrumet, och sedan flyttas varje centrum till medelvärdet av sina punkter.</p><p>a) Hur många mätningar tillhör C2 efter den första tilldelningen?</p><p>b) Vilket värde får C2 när det flyttas till medelvärdet av sina mätningar?</p><p>c) Nu är C1 = 1 och C2 = 7. Vilken mätning byter kluster i nästa tilldelning? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Mätningen 2</p><p class=\"ul-alt\"><strong>B.</strong> Mätningen 6</p><p class=\"ul-alt\"><strong>C.</strong> Mätningen 12</p><p class=\"ul-alt\"><strong>D.</strong> Ingen mätning byter kluster</p><p>d) Vilket värde får C1 efter den andra flytten?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Närmaste centrum</p><p>1 ligger närmast C1. 2, 6, 7, 8 och 12 ligger närmast C2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medelvärdet av klustrets mätningar</p><p>(2 + 6 + 7 + 8 + 12) / 5 = 35 / 5 = 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mätningen 2 ligger nu närmare C1</p><p>Avståndet från 2 till C1 = 1 är 1, och till C2 = 7 är det 5. Mätningen 2 byter därför till C1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mätningen 2.</p><ul><li><strong>A:</strong> Den ligger 1 från C1 och 5 från C2.</li><li><strong>B:</strong> 6 ligger 5 från C1 och 1 från C2, så den stannar i C2.</li><li><strong>C:</strong> 12 ligger närmare C2.</li><li><strong>D:</strong> Mätningen 2 ligger nu närmare C1.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkterna i C1</p><p>1 och 2.</p></li><li><p class=\"facit-rubrik\">Medelvärdet</p><p>(1 + 2) / 2 = 1,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,5.</p></div></div></div></div>",
+    "ledtrad": "<p>Tilldela och flytta om och om igen tills inget ändras.</p>",
+    "spelIntro": "<p>Sex sensorer i en fabrik mäter temperaturen 1, 2, 6, 7, 8 och 12 grader över det normala. En AI grupperar mätningarna med k-means, k = 2, och startcentrum C1 = 1 och C2 = 2. Algoritmen k-means gör så här: varje punkt tillhör det närmaste centrumet, och sedan flyttas varje centrum till medelvärdet av sina punkter.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur många mätningar tillhör C2 efter den första tilldelningen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Närmaste centrum</p><p>1 ligger närmast C1. 2, 6, 7, 8 och 12 ligger närmast C2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div>",
+        "ledtrad": "<p>Jämför avståndet till 1 och till 2 för varje mätning.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilket värde får C2 när det flyttas till medelvärdet av sina mätningar?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medelvärdet av klustrets mätningar</p><p>(2 + 6 + 7 + 8 + 12) / 5 = 35 / 5 = 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7.</p></div>",
+        "ledtrad": "<p>Ta medelvärdet av de fem mätningarna.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 7,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Nu är C1 = 1 och C2 = 7. Vilken mätning byter kluster i nästa tilldelning? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mätningen 2 ligger nu närmare C1</p><p>Avståndet från 2 till C1 = 1 är 1, och till C2 = 7 är det 5. Mätningen 2 byter därför till C1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mätningen 2.</p><ul><li><strong>Mätningen 2:</strong> Den ligger 1 från C1 och 5 från C2.</li><li><strong>Mätningen 6:</strong> 6 ligger 5 från C1 och 1 från C2, så den stannar i C2.</li><li><strong>Mätningen 12:</strong> 12 ligger närmare C2.</li><li><strong>Ingen mätning byter kluster:</strong> Mätningen 2 ligger nu närmare C1.</li></ul></div>",
+        "ledtrad": "<p>Räkna avståndet till 1 och till 7 för mätningarna nära mitten.</p>",
+        "alternativ": [
+          {
+            "txt": "Mätningen 2",
+            "ratt": true,
+            "kommentar": "Den ligger 1 från C1 och 5 från C2."
+          },
+          {
+            "txt": "Mätningen 6",
+            "ratt": false,
+            "kommentar": "6 ligger 5 från C1 och 1 från C2, så den stannar i C2."
+          },
+          {
+            "txt": "Mätningen 12",
+            "ratt": false,
+            "kommentar": "12 ligger närmare C2."
+          },
+          {
+            "txt": "Ingen mätning byter kluster",
+            "ratt": false,
+            "kommentar": "Mätningen 2 ligger nu närmare C1."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Mätningen 2",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Vilket värde får C1 efter den andra flytten? (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkterna i C1</p><p>1 och 2.</p></li><li><p class=\"facit-rubrik\">Medelvärdet</p><p>(1 + 2) / 2 = 1,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,5.</p></div>",
+        "ledtrad": "<p>Vilka mätningar tillhör C1 nu?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 1.5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null,
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.73",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Klustring med k-means",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Antalet kluster, alltså grupper",
+      "kNN klassar med hjälp av grannar som har en klass, k-means delar in data utan klasser i grupper",
+      "Alla punkter hamnar i samma grupp, med centrum i medelvärdet av alla punkter"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "t": "<p>Frågorna handlar om vad k betyder i k-means och i kNN.</p><p>a) Vad betyder k i k-means? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Antalet kluster, alltså grupper</p><p class=\"ul-alt\"><strong>B.</strong> Antalet punkter i varje grupp</p><p class=\"ul-alt\"><strong>C.</strong> Antalet varv som algoritmen kör</p><p class=\"ul-alt\"><strong>D.</strong> Antalet grannar som röstar</p><p>b) Vad är skillnaden mellan kNN och k-means? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> kNN klassar med hjälp av grannar som har en klass, k-means delar in data utan klasser i grupper</p><p class=\"ul-alt\"><strong>B.</strong> De är samma algoritm med olika namn</p><p class=\"ul-alt\"><strong>C.</strong> k-means behöver färdiga klasser, kNN behöver inga</p><p class=\"ul-alt\"><strong>D.</strong> Båda förutsäger tal, som regression</p><p>c) Vad händer om man kör k-means med k = 1? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Alla punkter hamnar i samma grupp, med centrum i medelvärdet av alla punkter</p><p class=\"ul-alt\"><strong>B.</strong> Varje punkt blir en egen grupp</p><p class=\"ul-alt\"><strong>C.</strong> Algoritmen fungerar inte</p><p class=\"ul-alt\"><strong>D.</strong> Punkterna delas i två lika stora grupper</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antalet grupper</p><p>k är antalet kluster, alltså hur många grupper datan ska delas in i. Man väljer k innan algoritmen startar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Antalet kluster, alltså grupper.</p><ul><li><strong>A:</strong> Med k = 3 delas datan in i tre grupper.</li><li><strong>B:</strong> Grupperna kan bli olika stora.</li><li><strong>C:</strong> Algoritmen kör tills inget ändras.</li><li><strong>D:</strong> Det gäller k i kNN.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Klassificering eller gruppering</p><p>kNN klassar en ny punkt med hjälp av grannar som redan har en klass. k-means delar in punkter utan klasser i k grupper.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> kNN klassar med hjälp av grannar som har en klass, k-means delar in data utan klasser i grupper.</p><ul><li><strong>A:</strong> k betyder antal grannar i kNN och antal grupper i k-means.</li><li><strong>B:</strong> De löser olika problem.</li><li><strong>C:</strong> Det är tvärtom: kNN behöver färdiga klasser.</li><li><strong>D:</strong> kNN ger en klass och k-means en grupp.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En enda grupp</p><p>Alla punkter hamnar i samma kluster, och centrumet hamnar i medelvärdet av alla punkter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla punkter hamnar i samma grupp, med centrum i medelvärdet av alla punkter.</p><ul><li><strong>A:</strong> Det finns bara ett centrum att vara närmast.</li><li><strong>B:</strong> Det händer om k är lika med antalet punkter.</li><li><strong>C:</strong> Den fungerar, men resultatet blir inte intressant.</li><li><strong>D:</strong> Med k = 1 finns bara en grupp.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>k i k-means är antalet grupper.</p>",
+    "spelIntro": "<p>Frågorna handlar om vad k betyder i k-means och i kNN.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vad betyder k i k-means? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antalet grupper</p><p>k är antalet kluster, alltså hur många grupper datan ska delas in i. Man väljer k innan algoritmen startar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Antalet kluster, alltså grupper.</p><ul><li><strong>Antalet kluster, alltså grupper:</strong> Med k = 3 delas datan in i tre grupper.</li><li><strong>Antalet punkter i varje grupp:</strong> Grupperna kan bli olika stora.</li><li><strong>Antalet varv som algoritmen kör:</strong> Algoritmen kör tills inget ändras.</li><li><strong>Antalet grannar som röstar:</strong> Det gäller k i kNN.</li></ul></div>",
+        "ledtrad": "<p>Hur många centrum finns det?</p>",
+        "alternativ": [
+          {
+            "txt": "Antalet kluster, alltså grupper",
+            "ratt": true,
+            "kommentar": "Med k = 3 delas datan in i tre grupper."
+          },
+          {
+            "txt": "Antalet punkter i varje grupp",
+            "ratt": false,
+            "kommentar": "Grupperna kan bli olika stora."
+          },
+          {
+            "txt": "Antalet varv som algoritmen kör",
+            "ratt": false,
+            "kommentar": "Algoritmen kör tills inget ändras."
+          },
+          {
+            "txt": "Antalet grannar som röstar",
+            "ratt": false,
+            "kommentar": "Det gäller k i kNN."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Antalet kluster, alltså grupper",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad är skillnaden mellan kNN och k-means? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Klassificering eller gruppering</p><p>kNN klassar en ny punkt med hjälp av grannar som redan har en klass. k-means delar in punkter utan klasser i k grupper.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> kNN klassar med hjälp av grannar som har en klass, k-means delar in data utan klasser i grupper.</p><ul><li><strong>kNN klassar med hjälp av grannar som har en klass, k-means delar in data utan klasser i grupper:</strong> k betyder antal grannar i kNN och antal grupper i k-means.</li><li><strong>De är samma algoritm med olika namn:</strong> De löser olika problem.</li><li><strong>k-means behöver färdiga klasser, kNN behöver inga:</strong> Det är tvärtom: kNN behöver färdiga klasser.</li><li><strong>Båda förutsäger tal, som regression:</strong> kNN ger en klass och k-means en grupp.</li></ul></div>",
+        "ledtrad": "<p>Vilken av metoderna behöver punkter som redan har en klass?</p>",
+        "alternativ": [
+          {
+            "txt": "kNN klassar med hjälp av grannar som har en klass, k-means delar in data utan klasser i grupper",
+            "ratt": true,
+            "kommentar": "k betyder antal grannar i kNN och antal grupper i k-means."
+          },
+          {
+            "txt": "De är samma algoritm med olika namn",
+            "ratt": false,
+            "kommentar": "De löser olika problem."
+          },
+          {
+            "txt": "k-means behöver färdiga klasser, kNN behöver inga",
+            "ratt": false,
+            "kommentar": "Det är tvärtom: kNN behöver färdiga klasser."
+          },
+          {
+            "txt": "Båda förutsäger tal, som regression",
+            "ratt": false,
+            "kommentar": "kNN ger en klass och k-means en grupp."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "kNN klassar med hjälp av grannar som har en klass, k-means delar in data utan klasser i grupper",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad händer om man kör k-means med k = 1? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En enda grupp</p><p>Alla punkter hamnar i samma kluster, och centrumet hamnar i medelvärdet av alla punkter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla punkter hamnar i samma grupp, med centrum i medelvärdet av alla punkter.</p><ul><li><strong>Alla punkter hamnar i samma grupp, med centrum i medelvärdet av alla punkter:</strong> Det finns bara ett centrum att vara närmast.</li><li><strong>Varje punkt blir en egen grupp:</strong> Det händer om k är lika med antalet punkter.</li><li><strong>Algoritmen fungerar inte:</strong> Den fungerar, men resultatet blir inte intressant.</li><li><strong>Punkterna delas i två lika stora grupper:</strong> Med k = 1 finns bara en grupp.</li></ul></div>",
+        "ledtrad": "<p>Hur många centrum finns det med k = 1?</p>",
+        "alternativ": [
+          {
+            "txt": "Alla punkter hamnar i samma grupp, med centrum i medelvärdet av alla punkter",
+            "ratt": true,
+            "kommentar": "Det finns bara ett centrum att vara närmast."
+          },
+          {
+            "txt": "Varje punkt blir en egen grupp",
+            "ratt": false,
+            "kommentar": "Det händer om k är lika med antalet punkter."
+          },
+          {
+            "txt": "Algoritmen fungerar inte",
+            "ratt": false,
+            "kommentar": "Den fungerar, men resultatet blir inte intressant."
+          },
+          {
+            "txt": "Punkterna delas i två lika stora grupper",
+            "ratt": false,
+            "kommentar": "Med k = 1 finns bara en grupp."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Alla punkter hamnar i samma grupp, med centrum i medelvärdet av alla punkter",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.74",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Klustring med k-means",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      34,
+      [
+        3,
+        3
+      ]
+    ],
+    "tolerans": [
+      0,
+      0,
+      [
+        0,
+        0
+      ]
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Sex bostadsområden och två startcentrum, C1 i (1, 1) och C2 i (8, 8).\" style=\"width:100%;max-width:360px;height:auto\"><title>Sex bostadsområden och två startcentrum, C1 i (1, 1) och C2 i (8, 8).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"67.6\" y1=\"254.0\" x2=\"67.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"67.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"95.3\" y1=\"254.0\" x2=\"95.3\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"95.3\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"122.9\" y1=\"254.0\" x2=\"122.9\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"122.9\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"150.5\" y1=\"254.0\" x2=\"150.5\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"150.5\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"178.2\" y1=\"254.0\" x2=\"178.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"178.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"205.8\" y1=\"254.0\" x2=\"205.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"205.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"233.5\" y1=\"254.0\" x2=\"233.5\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"233.5\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"261.1\" y1=\"254.0\" x2=\"261.1\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"261.1\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"288.7\" y1=\"254.0\" x2=\"288.7\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"288.7\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"316.4\" y1=\"254.0\" x2=\"316.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"316.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">11</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"228.7\" x2=\"344.0\" y2=\"228.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"232.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"203.3\" x2=\"344.0\" y2=\"203.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"207.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"178.0\" x2=\"344.0\" y2=\"178.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"182.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"152.7\" x2=\"344.0\" y2=\"152.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"156.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"127.3\" x2=\"344.0\" y2=\"127.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"131.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"102.0\" x2=\"344.0\" y2=\"102.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"106.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"76.7\" x2=\"344.0\" y2=\"76.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"80.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"51.3\" x2=\"344.0\" y2=\"51.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"55.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">x (km)</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">y (km)</text><polygon points=\"95.3,221.7 102.3,234.7 88.3,234.7\" fill=\"#16a34a\"/><text x=\"103.3\" y=\"220.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><polygon points=\"150.5,171.0 157.5,184.0 143.5,184.0\" fill=\"#16a34a\"/><text x=\"158.5\" y=\"170.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><polygon points=\"122.9,120.3 129.9,133.3 115.9,133.3\" fill=\"#16a34a\"/><text x=\"130.9\" y=\"119.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><polygon points=\"261.1,95.0 268.1,108.0 254.1,108.0\" fill=\"#16a34a\"/><text x=\"269.1\" y=\"94.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><polygon points=\"288.7,44.3 295.7,57.3 281.7,57.3\" fill=\"#16a34a\"/><text x=\"296.7\" y=\"43.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><polygon points=\"316.4,69.7 323.4,82.7 309.4,82.7\" fill=\"#16a34a\"/><text x=\"324.4\" y=\"68.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><path d=\"M60.6,221.7 L74.6,235.7 M74.6,221.7 L60.6,235.7\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"57.6\" y=\"219.7\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">C1</text><path d=\"M254.1,44.3 L268.1,58.3 M268.1,44.3 L254.1,58.3\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"251.1\" y=\"42.3\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">C2</text></svg><p>Gröna trianglar: bostadsområden. Kryss: klustercentrum.</p><p>En kommun ska bygga två laddstationer för elbilar. Sex bostadsområden är markerade på en karta. Kommunen använder k-means med k = 2 och startcentrum C1 (1, 1) och C2 (8, 8). Algoritmen k-means gör så här: varje punkt tillhör det närmaste centrumet, och sedan flyttas varje centrum till medelvärdet av sina punkter.</p><p>a) Beräkna avståndet i kvadrat från P3 (3, 5) till C1.</p><p>b) Beräkna avståndet i kvadrat från P3 till C2.</p><p>c) P1, P2 och P3 tillhör C1. Var hamnar C1 när det flyttas till medelvärdet?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(3 − 1)² + (5 − 1)² = 4 + 16 = 20.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(3 − 8)² + (5 − 8)² = 25 + 9 = 34.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 34.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medelvärdet av x och av y</p><p>x = (2 + 4 + 3) / 3 = 3. y = (1 + 3 + 5) / 3 = 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C1 = (3, 3).</p></div></div></div></div>",
+    "ledtrad": "<p>Närmaste centrum först, sedan medelvärdet.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Sex bostadsområden och två startcentrum, C1 i (1, 1) och C2 i (8, 8).\" style=\"width:100%;max-width:360px;height:auto\"><title>Sex bostadsområden och två startcentrum, C1 i (1, 1) och C2 i (8, 8).</title><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"40.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"67.6\" y1=\"254.0\" x2=\"67.6\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"67.6\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"95.3\" y1=\"254.0\" x2=\"95.3\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"95.3\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"122.9\" y1=\"254.0\" x2=\"122.9\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"122.9\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"150.5\" y1=\"254.0\" x2=\"150.5\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"150.5\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"178.2\" y1=\"254.0\" x2=\"178.2\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"178.2\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"205.8\" y1=\"254.0\" x2=\"205.8\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"205.8\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"233.5\" y1=\"254.0\" x2=\"233.5\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"233.5\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"261.1\" y1=\"254.0\" x2=\"261.1\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"261.1\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"288.7\" y1=\"254.0\" x2=\"288.7\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"288.7\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"316.4\" y1=\"254.0\" x2=\"316.4\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"316.4\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">10</text><line x1=\"344.0\" y1=\"254.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"344.0\" y=\"271.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#374151\">11</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"258.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">0</text><line x1=\"40.0\" y1=\"228.7\" x2=\"344.0\" y2=\"228.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"232.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">1</text><line x1=\"40.0\" y1=\"203.3\" x2=\"344.0\" y2=\"203.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"207.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">2</text><line x1=\"40.0\" y1=\"178.0\" x2=\"344.0\" y2=\"178.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"182.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">3</text><line x1=\"40.0\" y1=\"152.7\" x2=\"344.0\" y2=\"152.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"156.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">4</text><line x1=\"40.0\" y1=\"127.3\" x2=\"344.0\" y2=\"127.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"131.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">5</text><line x1=\"40.0\" y1=\"102.0\" x2=\"344.0\" y2=\"102.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"106.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">6</text><line x1=\"40.0\" y1=\"76.7\" x2=\"344.0\" y2=\"76.7\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"80.7\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">7</text><line x1=\"40.0\" y1=\"51.3\" x2=\"344.0\" y2=\"51.3\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"55.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">8</text><line x1=\"40.0\" y1=\"26.0\" x2=\"344.0\" y2=\"26.0\" stroke=\"#e5e7eb\"/><text x=\"33.0\" y=\"30.0\" text-anchor=\"end\" font-size=\"13\" fill=\"#374151\">9</text><line x1=\"40.0\" y1=\"254.0\" x2=\"344.0\" y2=\"254.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"254.0\" x2=\"40.0\" y2=\"26.0\" stroke=\"#374151\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"294\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">x (km)</text><text x=\"10.0\" y=\"14\" font-size=\"13\" fill=\"#111827\">y (km)</text><polygon points=\"95.3,221.7 102.3,234.7 88.3,234.7\" fill=\"#16a34a\"/><text x=\"103.3\" y=\"220.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P1</text><polygon points=\"150.5,171.0 157.5,184.0 143.5,184.0\" fill=\"#16a34a\"/><text x=\"158.5\" y=\"170.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P2</text><polygon points=\"122.9,120.3 129.9,133.3 115.9,133.3\" fill=\"#16a34a\"/><text x=\"130.9\" y=\"119.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P3</text><polygon points=\"261.1,95.0 268.1,108.0 254.1,108.0\" fill=\"#16a34a\"/><text x=\"269.1\" y=\"94.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P4</text><polygon points=\"288.7,44.3 295.7,57.3 281.7,57.3\" fill=\"#16a34a\"/><text x=\"296.7\" y=\"43.3\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P5</text><polygon points=\"316.4,69.7 323.4,82.7 309.4,82.7\" fill=\"#16a34a\"/><text x=\"324.4\" y=\"68.7\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">P6</text><path d=\"M60.6,221.7 L74.6,235.7 M74.6,221.7 L60.6,235.7\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"57.6\" y=\"219.7\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">C1</text><path d=\"M254.1,44.3 L268.1,58.3 M268.1,44.3 L254.1,58.3\" stroke=\"#111827\" stroke-width=\"3\"/><text x=\"251.1\" y=\"42.3\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">C2</text></svg><p>Gröna trianglar: bostadsområden. Kryss: klustercentrum.</p><p>En kommun ska bygga två laddstationer för elbilar. Sex bostadsområden är markerade på en karta. Kommunen använder k-means med k = 2 och startcentrum C1 (1, 1) och C2 (8, 8). Algoritmen k-means gör så här: varje punkt tillhör det närmaste centrumet, och sedan flyttas varje centrum till medelvärdet av sina punkter.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna avståndet i kvadrat från P3 (3, 5) till C1.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(3 − 1)² + (5 − 1)² = 4 + 16 = 20.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20.</p></div>",
+        "ledtrad": "<p>Kvadrera skillnaden i x och i y och lägg ihop.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 20,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Beräkna avståndet i kvadrat från P3 till C2.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd i kvadrat: (Δx)² + (Δy)²</p><p>(3 − 8)² + (5 − 8)² = 25 + 9 = 34.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 34.</p></div>",
+        "ledtrad": "<p>Samma sak för C2. Vilket centrum ligger närmast?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 34,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>P1, P2 och P3 tillhör C1. Var hamnar C1 när det flyttas till medelvärdet?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medelvärdet av x och av y</p><p>x = (2 + 4 + 3) / 3 = 3. y = (1 + 3 + 5) / 3 = 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C1 = (3, 3).</p></div>",
+        "ledtrad": "<p>Ta medelvärdet av x och av y för de tre punkterna.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "flera_delar",
+        "rättSvar": [
+          3,
+          3
+        ],
+        "tolerans": [
+          0,
+          0
+        ],
+        "svarFormat": [
+          "numeriskt",
+          "numeriskt"
+        ],
+        "svarEnhet": [
+          null,
+          null
+        ],
+        "svarEtiketter": [
+          "x",
+          "y"
+        ],
+        "svarsstruktur": "ordnad",
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.75",
+    "kap": 4,
+    "omr": "knn_kmeans",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Klustring med k-means",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      14,
+      "Gruppering A"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<p>Fyra kunder har handlat för 2, 4, 9 och 11 hundralappar. Två olika grupperingar ska jämföras med summan av alla avstånd i kvadrat från varje kund till det närmaste centrumet. Gruppering A har centrum 3 och 10. Gruppering B har centrum 5 och 11.</p><p>a) Bestäm summan av avstånden i kvadrat för gruppering A.</p><p>b) Bestäm summan av avstånden i kvadrat för gruppering B.</p><p>c) Vilken gruppering är bäst enligt k-means? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Gruppering A</p><p class=\"ul-alt\"><strong>B.</strong> Gruppering B</p><p class=\"ul-alt\"><strong>C.</strong> De är lika bra</p><p class=\"ul-alt\"><strong>D.</strong> Gruppering B, eftersom ett centrum ligger exakt på en kund</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd till närmaste centrum (3 eller 10)</p><p>2: 1, 4: 1, 9: 1 och 11: 1.</p></li><li><p class=\"facit-rubrik\">Kvadrera och summera</p><p>1² + 1² + 1² + 1² = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd till närmaste centrum (5 eller 11)</p><p>2: 3, 4: 1, 9: 2 och 11: 0.</p></li><li><p class=\"facit-rubrik\">Kvadrera och summera</p><p>9 + 1 + 4 + 0 = 14.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minst summa</p><p>Gruppering A har summan 4 och B har 14. k-means försöker göra summan så liten som möjligt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Gruppering A.</p><ul><li><strong>A:</strong> Summan 4 är mindre än 14.</li><li><strong>B:</strong> B har större summa, 14.</li><li><strong>C:</strong> Summorna skiljer sig, 4 och 14.</li><li><strong>D:</strong> Det som räknas är summan för alla kunder.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>k-means vill ha så liten summa av avstånd i kvadrat som möjligt.</p>",
+    "spelIntro": "<p>Fyra kunder har handlat för 2, 4, 9 och 11 hundralappar. Två olika grupperingar ska jämföras med summan av alla avstånd i kvadrat från varje kund till det närmaste centrumet. Gruppering A har centrum 3 och 10. Gruppering B har centrum 5 och 11.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Bestäm summan av avstånden i kvadrat för gruppering A.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd till närmaste centrum (3 eller 10)</p><p>2: 1, 4: 1, 9: 1 och 11: 1.</p></li><li><p class=\"facit-rubrik\">Kvadrera och summera</p><p>1² + 1² + 1² + 1² = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div>",
+        "ledtrad": "<p>Ta varje kunds avstånd till närmaste centrum.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Bestäm summan av avstånden i kvadrat för gruppering B.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd till närmaste centrum (5 eller 11)</p><p>2: 3, 4: 1, 9: 2 och 11: 0.</p></li><li><p class=\"facit-rubrik\">Kvadrera och summera</p><p>9 + 1 + 4 + 0 = 14.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14.</p></div>",
+        "ledtrad": "<p>Kunden 9 ligger närmare 11 än 5.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 14,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vilken gruppering är bäst enligt k-means? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minst summa</p><p>Gruppering A har summan 4 och B har 14. k-means försöker göra summan så liten som möjligt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Gruppering A.</p><ul><li><strong>Gruppering A:</strong> Summan 4 är mindre än 14.</li><li><strong>Gruppering B:</strong> B har större summa, 14.</li><li><strong>De är lika bra:</strong> Summorna skiljer sig, 4 och 14.</li><li><strong>Gruppering B, eftersom ett centrum ligger exakt på en kund:</strong> Det som räknas är summan för alla kunder.</li></ul></div>",
+        "ledtrad": "<p>Är en liten eller stor summa bäst?</p>",
+        "alternativ": [
+          {
+            "txt": "Gruppering A",
+            "ratt": true,
+            "kommentar": "Summan 4 är mindre än 14."
+          },
+          {
+            "txt": "Gruppering B",
+            "ratt": false,
+            "kommentar": "B har större summa, 14."
+          },
+          {
+            "txt": "De är lika bra",
+            "ratt": false,
+            "kommentar": "Summorna skiljer sig, 4 och 14."
+          },
+          {
+            "txt": "Gruppering B, eftersom ett centrum ligger exakt på en kund",
+            "ratt": false,
+            "kommentar": "Det som räknas är summan för alla kunder."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Gruppering A",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.80",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Viktad summa och bias",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      1,
+      "Ett tal som läggs till den viktade summan, oavsett vad indata är"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\" role=\"img\" aria-label=\"En neuron med indata x₁ = 1 och x₂ = 0, vikterna 2 och −3 och bias −1.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med indata x₁ = 1 och x₂ = 0, vikterna 2 och −3 och bias −1.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁ = 1</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂ = 0</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = −3</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −1</text><line x1=\"260\" y1=\"85.0\" x2=\"300\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"90.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>En app avgör om det är cykelväder. x₁ = 1 om solen skiner och x₂ = 1 om det regnar, annars 0. I dag skiner solen och det regnar inte. Neuronen har vikterna w₁ = 2 och w₂ = −3 och bias b = −1. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p><p>a) Beräkna den viktade summan w₁x₁ + w₂x₂.</p><p>b) Lägg till bias. Vad blir z?</p><p>c) Vad är bias? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Ett tal som läggs till den viktade summan, oavsett vad indata är</p><p class=\"ul-alt\"><strong>B.</strong> Vikten för det viktigaste indatat</p><p class=\"ul-alt\"><strong>C.</strong> Ett indata som är 0 eller 1</p><p class=\"ul-alt\"><strong>D.</strong> Svaret som neuronen skickar ut</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Viktad summa: w₁x₁ + w₂x₂</p><p>2 · 1 + (−3) · 0 = 2 + 0 = 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = viktad summa + b</p><p>2 + (−1) = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett tal som alltid läggs till</p><p>Bias läggs till den viktade summan, oavsett vad indata är. Den flyttar z uppåt eller nedåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett tal som läggs till den viktade summan, oavsett vad indata är.</p><ul><li><strong>A:</strong> Här är bias −1, så z blir 1 mindre än den viktade summan.</li><li><strong>B:</strong> Bias hör inte till något indata, den läggs alltid till.</li><li><strong>C:</strong> Bias är inget indata, den är en del av neuronen.</li><li><strong>D:</strong> Utdata räknas ut från z, och bias är bara en del av z.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Viktad summa först, sedan bias.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\" role=\"img\" aria-label=\"En neuron med indata x₁ = 1 och x₂ = 0, vikterna 2 och −3 och bias −1.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med indata x₁ = 1 och x₂ = 0, vikterna 2 och −3 och bias −1.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁ = 1</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂ = 0</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = −3</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −1</text><line x1=\"260\" y1=\"85.0\" x2=\"300\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"90.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>En app avgör om det är cykelväder. x₁ = 1 om solen skiner och x₂ = 1 om det regnar, annars 0. I dag skiner solen och det regnar inte. Neuronen har vikterna w₁ = 2 och w₂ = −3 och bias b = −1. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna den viktade summan w₁x₁ + w₂x₂.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Viktad summa: w₁x₁ + w₂x₂</p><p>2 · 1 + (−3) · 0 = 2 + 0 = 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div>",
+        "ledtrad": "<p>Multiplicera varje indata med sin vikt och lägg ihop.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 2,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Lägg till bias. Vad blir z?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = viktad summa + b</p><p>2 + (−1) = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Bias är −1.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 1,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad är bias? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett tal som alltid läggs till</p><p>Bias läggs till den viktade summan, oavsett vad indata är. Den flyttar z uppåt eller nedåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett tal som läggs till den viktade summan, oavsett vad indata är.</p><ul><li><strong>Ett tal som läggs till den viktade summan, oavsett vad indata är:</strong> Här är bias −1, så z blir 1 mindre än den viktade summan.</li><li><strong>Vikten för det viktigaste indatat:</strong> Bias hör inte till något indata, den läggs alltid till.</li><li><strong>Ett indata som är 0 eller 1:</strong> Bias är inget indata, den är en del av neuronen.</li><li><strong>Svaret som neuronen skickar ut:</strong> Utdata räknas ut från z, och bias är bara en del av z.</li></ul></div>",
+        "ledtrad": "<p>Står bias bredvid något indata i figuren?</p>",
+        "alternativ": [
+          {
+            "txt": "Ett tal som läggs till den viktade summan, oavsett vad indata är",
+            "ratt": true,
+            "kommentar": "Här är bias −1, så z blir 1 mindre än den viktade summan."
+          },
+          {
+            "txt": "Vikten för det viktigaste indatat",
+            "ratt": false,
+            "kommentar": "Bias hör inte till något indata, den läggs alltid till."
+          },
+          {
+            "txt": "Ett indata som är 0 eller 1",
+            "ratt": false,
+            "kommentar": "Bias är inget indata, den är en del av neuronen."
+          },
+          {
+            "txt": "Svaret som neuronen skickar ut",
+            "ratt": false,
+            "kommentar": "Utdata räknas ut från z, och bias är bara en del av z."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Ett tal som läggs till den viktade summan, oavsett vad indata är",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.81",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Viktad summa och bias",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      2,
+      -2
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 1 och 2 och bias −5.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med två indata, vikterna 1 och 2 och bias −5.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 1</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 2</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −5</text><line x1=\"260\" y1=\"85.0\" x2=\"300\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"90.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>Ett spamfilter använder en neuron. x₁ är antalet länkar i mejlet och x₂ antalet gånger ordet ”gratis” står i mejlet. Vikterna är w₁ = 1 och w₂ = 2 och bias är b = −5. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p><p>a) Ett mejl har 3 länkar och 2 ”gratis”. Beräkna den viktade summan.</p><p>b) Vad blir z för samma mejl?</p><p>c) Ett annat mejl har 1 länk och 1 ”gratis”. Beräkna z.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Viktad summa: w₁x₁ + w₂x₂</p><p>1 · 3 + 2 · 2 = 3 + 4 = 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = viktad summa + b</p><p>7 + (−5) = 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>1 · 1 + 2 · 1 + (−5) = 1 + 2 − 5 = −2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −2.</p></div></div></div></div>",
+    "ledtrad": "<p>z = w₁x₁ + w₂x₂ + b.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 1 och 2 och bias −5.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med två indata, vikterna 1 och 2 och bias −5.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 1</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 2</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −5</text><line x1=\"260\" y1=\"85.0\" x2=\"300\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"90.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>Ett spamfilter använder en neuron. x₁ är antalet länkar i mejlet och x₂ antalet gånger ordet ”gratis” står i mejlet. Vikterna är w₁ = 1 och w₂ = 2 och bias är b = −5. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Ett mejl har 3 länkar och 2 ”gratis”. Beräkna den viktade summan.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Viktad summa: w₁x₁ + w₂x₂</p><p>1 · 3 + 2 · 2 = 3 + 4 = 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7.</p></div>",
+        "ledtrad": "<p>Sätt in x₁ = 3 och x₂ = 2.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 7,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad blir z för samma mejl?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = viktad summa + b</p><p>7 + (−5) = 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div>",
+        "ledtrad": "<p>Lägg till bias.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 2,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Ett annat mejl har 1 länk och 1 ”gratis”. Beräkna z.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>1 · 1 + 2 · 1 + (−5) = 1 + 2 − 5 = −2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −2.</p></div>",
+        "ledtrad": "<p>Räkna på samma sätt med x₁ = 1 och x₂ = 1.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": -2,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.82",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Viktad summa och bias",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      4,
+      "Komedibetyget, eftersom det har störst vikt"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\" role=\"img\" aria-label=\"En neuron med indata 4 och 2, vikterna 1 och 3 och bias −6.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med indata 4 och 2, vikterna 1 och 3 och bias −6.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁ = 4</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 1</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂ = 2</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 3</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −6</text><line x1=\"260\" y1=\"85.0\" x2=\"300\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"90.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>En filmtjänst använder en neuron för att avgöra om den ska föreslå en film för dig. x₁ är ditt betyg på actionfilmer (4) och x₂ ditt betyg på komedier (2). Vikterna är w₁ = 1 och w₂ = 3 och bias är b = −6. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p><p>a) Hur mycket bidrar komedibetyget till den viktade summan, alltså w₂x₂?</p><p>b) Beräkna z.</p><p>c) Vilket betyg påverkar z mest om det ökar med 1? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Komedibetyget, eftersom det har störst vikt</p><p class=\"ul-alt\"><strong>B.</strong> Actionbetyget, eftersom det är högst</p><p class=\"ul-alt\"><strong>C.</strong> Båda påverkar lika mycket</p><p class=\"ul-alt\"><strong>D.</strong> Bias, eftersom den är störst</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bidrag från x₂: w₂x₂</p><p>3 · 2 = 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>1 · 4 + 3 · 2 + (−6) = 4 + 6 − 6 = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Störst vikt</p><p>Om komedibetyget ökar med 1 ökar z med 3. Om actionbetyget ökar med 1 ökar z bara med 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Komedibetyget, eftersom det har störst vikt.</p><ul><li><strong>A:</strong> Vikten 3 är större än vikten 1.</li><li><strong>B:</strong> Betyget är högre, men en ökning med 1 ger bara 1 · 1 = 1.</li><li><strong>C:</strong> Vikterna är olika, 1 och 3.</li><li><strong>D:</strong> Bias ändras inte när betygen ändras.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Varje indata bidrar med vikt gånger värde.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\" role=\"img\" aria-label=\"En neuron med indata 4 och 2, vikterna 1 och 3 och bias −6.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med indata 4 och 2, vikterna 1 och 3 och bias −6.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁ = 4</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 1</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂ = 2</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 3</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −6</text><line x1=\"260\" y1=\"85.0\" x2=\"300\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"90.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>En filmtjänst använder en neuron för att avgöra om den ska föreslå en film för dig. x₁ är ditt betyg på actionfilmer (4) och x₂ ditt betyg på komedier (2). Vikterna är w₁ = 1 och w₂ = 3 och bias är b = −6. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Hur mycket bidrar komedibetyget till den viktade summan, alltså w₂x₂?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bidrag från x₂: w₂x₂</p><p>3 · 2 = 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6.</p></div>",
+        "ledtrad": "<p>Multiplicera komedibetyget med dess vikt.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 6,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Beräkna z.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>1 · 4 + 3 · 2 + (−6) = 4 + 6 − 6 = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div>",
+        "ledtrad": "<p>Lägg ihop båda bidragen och bias.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vilket betyg påverkar z mest om det ökar med 1? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Störst vikt</p><p>Om komedibetyget ökar med 1 ökar z med 3. Om actionbetyget ökar med 1 ökar z bara med 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Komedibetyget, eftersom det har störst vikt.</p><ul><li><strong>Komedibetyget, eftersom det har störst vikt:</strong> Vikten 3 är större än vikten 1.</li><li><strong>Actionbetyget, eftersom det är högst:</strong> Betyget är högre, men en ökning med 1 ger bara 1 · 1 = 1.</li><li><strong>Båda påverkar lika mycket:</strong> Vikterna är olika, 1 och 3.</li><li><strong>Bias, eftersom den är störst:</strong> Bias ändras inte när betygen ändras.</li></ul></div>",
+        "ledtrad": "<p>Vad händer med z om x₁ ökar med 1? Om x₂ ökar med 1?</p>",
+        "alternativ": [
+          {
+            "txt": "Komedibetyget, eftersom det har störst vikt",
+            "ratt": true,
+            "kommentar": "Vikten 3 är större än vikten 1."
+          },
+          {
+            "txt": "Actionbetyget, eftersom det är högst",
+            "ratt": false,
+            "kommentar": "Betyget är högre, men en ökning med 1 ger bara 1 · 1 = 1."
+          },
+          {
+            "txt": "Båda påverkar lika mycket",
+            "ratt": false,
+            "kommentar": "Vikterna är olika, 1 och 3."
+          },
+          {
+            "txt": "Bias, eftersom den är störst",
+            "ratt": false,
+            "kommentar": "Bias ändras inte när betygen ändras."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Komedibetyget, eftersom det har störst vikt",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.83",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Viktad summa och bias",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      -4,
+      "Ett nästan tomt batteri gör att roboten hellre låter bli att städa"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 250\" role=\"img\" aria-label=\"En neuron med tre indata, vikterna 4, −5 och −2 och bias −1.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med tre indata, vikterna 4, −5 och −2 och bias −1.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"61\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 4</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"117\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = −5</text><rect x=\"6\" y=\"187\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"211\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₃</text><line x1=\"90\" y1=\"205\" x2=\"200\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"200\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₃ = −2</text><circle cx=\"230\" cy=\"125.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"133.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"87.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −1</text><line x1=\"260\" y1=\"125.0\" x2=\"300\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"130.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>En robotdammsugare bestämmer om den ska städa. x₁ = 1 om golvet är smutsigt, x₂ = 1 om batteriet är nästan slut och x₃ = 1 om någon är hemma, annars 0. Vikterna är 4, −5 och −2 och bias är −1. Ju större z är, desto mer vill roboten städa. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p><p>a) Golvet är smutsigt, batteriet är fullt och någon är hemma. Beräkna z.</p><p>b) Nu är batteriet också nästan slut. Beräkna z.</p><p>c) Vad betyder det att batteriet har vikten −5? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Ett nästan tomt batteri gör att roboten hellre låter bli att städa</p><p class=\"ul-alt\"><strong>B.</strong> Roboten städar mer när batteriet är svagt</p><p class=\"ul-alt\"><strong>C.</strong> Batteriet laddas ur fem gånger snabbare</p><p class=\"ul-alt\"><strong>D.</strong> En negativ vikt påverkar inte z</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Indata (x₁, x₂, x₃) = (1, 0, 1)</p><p>z = 4 · 1 + (−5) · 0 + (−2) · 1 + (−1) = 4 − 2 − 1 = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Indata (x₁, x₂, x₃) = (1, 1, 1)</p><p>z = 4 − 5 − 2 − 1 = −4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −4.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Negativ vikt drar ner z</p><p>När batteriet är nästan slut minskar z med 5. Roboten vill då mycket mindre städa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett nästan tomt batteri gör att roboten hellre låter bli att städa.</p><ul><li><strong>A:</strong> En negativ vikt drar ner z.</li><li><strong>B:</strong> Den negativa vikten gör tvärtom.</li><li><strong>C:</strong> Vikten säger inget om hur batteriet laddas ur.</li><li><strong>D:</strong> z ändrades från 1 till −4 när batteriet blev svagt.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Positiva vikter drar upp z, negativa drar ner.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 250\" role=\"img\" aria-label=\"En neuron med tre indata, vikterna 4, −5 och −2 och bias −1.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med tre indata, vikterna 4, −5 och −2 och bias −1.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"61\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 4</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"117\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = −5</text><rect x=\"6\" y=\"187\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"211\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₃</text><line x1=\"90\" y1=\"205\" x2=\"200\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"200\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₃ = −2</text><circle cx=\"230\" cy=\"125.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"133.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"87.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −1</text><line x1=\"260\" y1=\"125.0\" x2=\"300\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"130.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>En robotdammsugare bestämmer om den ska städa. x₁ = 1 om golvet är smutsigt, x₂ = 1 om batteriet är nästan slut och x₃ = 1 om någon är hemma, annars 0. Vikterna är 4, −5 och −2 och bias är −1. Ju större z är, desto mer vill roboten städa. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Golvet är smutsigt, batteriet är fullt och någon är hemma. Beräkna z.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Indata (x₁, x₂, x₃) = (1, 0, 1)</p><p>z = 4 · 1 + (−5) · 0 + (−2) · 1 + (−1) = 4 − 2 − 1 = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Sätt in 1, 0 och 1 och glöm inte bias.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 1,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Nu är batteriet också nästan slut. Beräkna z.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Indata (x₁, x₂, x₃) = (1, 1, 1)</p><p>z = 4 − 5 − 2 − 1 = −4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −4.</p></div>",
+        "ledtrad": "<p>Nu är alla tre indata 1.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": -4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad betyder det att batteriet har vikten −5? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Negativ vikt drar ner z</p><p>När batteriet är nästan slut minskar z med 5. Roboten vill då mycket mindre städa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett nästan tomt batteri gör att roboten hellre låter bli att städa.</p><ul><li><strong>Ett nästan tomt batteri gör att roboten hellre låter bli att städa:</strong> En negativ vikt drar ner z.</li><li><strong>Roboten städar mer när batteriet är svagt:</strong> Den negativa vikten gör tvärtom.</li><li><strong>Batteriet laddas ur fem gånger snabbare:</strong> Vikten säger inget om hur batteriet laddas ur.</li><li><strong>En negativ vikt påverkar inte z:</strong> z ändrades från 1 till −4 när batteriet blev svagt.</li></ul></div>",
+        "ledtrad": "<p>Vad hände med z mellan de två situationerna?</p>",
+        "alternativ": [
+          {
+            "txt": "Ett nästan tomt batteri gör att roboten hellre låter bli att städa",
+            "ratt": true,
+            "kommentar": "En negativ vikt drar ner z."
+          },
+          {
+            "txt": "Roboten städar mer när batteriet är svagt",
+            "ratt": false,
+            "kommentar": "Den negativa vikten gör tvärtom."
+          },
+          {
+            "txt": "Batteriet laddas ur fem gånger snabbare",
+            "ratt": false,
+            "kommentar": "Vikten säger inget om hur batteriet laddas ur."
+          },
+          {
+            "txt": "En negativ vikt påverkar inte z",
+            "ratt": false,
+            "kommentar": "z ändrades från 1 till −4 när batteriet blev svagt."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Ett nästan tomt batteri gör att roboten hellre låter bli att städa",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.84",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Viktad summa och bias",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      1,
+      4
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 0,5 och −1 och bias 1.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med två indata, vikterna 0,5 och −1 och bias 1.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 0,5</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = −1</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = 1</text><line x1=\"260\" y1=\"85.0\" x2=\"300\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"90.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>Skolbiblioteket använder en neuron för att avgöra om en bok ska köpas in. x₁ är antalet elever som har önskat boken och x₂ är priset i hundralappar. Vikterna är w₁ = 0,5 och w₂ = −1 och bias är b = 1. Boken köps in om z är minst 0. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p><p>a) Sex elever har önskat en bok som kostar 3 hundralappar. Hur mycket bidrar önskningarna till den viktade summan, alltså w₁x₁?</p><p>b) Beräkna z för boken.</p><p>c) En annan bok kostar också 3 hundralappar. Hur många elever måste minst ha önskat den för att z ska bli minst 0?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bidrag från x₁: w₁x₁</p><p>0,5 · 6 = 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>0,5 · 6 + (−1) · 3 + 1 = 3 − 3 + 1 = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z med priset 3</p><p>z = 0,5 · x₁ − 3 + 1 = 0,5 · x₁ − 2.</p></li><li><p class=\"facit-rubrik\">När blir z minst 0?</p><p>0,5 · x₁ − 2 ≥ 0 när x₁ ≥ 4. Kontroll: 4 önskningar ger z = 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div></div></div></div>",
+    "ledtrad": "<p>z = w₁x₁ + w₂x₂ + b.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 0,5 och −1 och bias 1.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med två indata, vikterna 0,5 och −1 och bias 1.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 0,5</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = −1</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = 1</text><line x1=\"260\" y1=\"85.0\" x2=\"300\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"90.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>Skolbiblioteket använder en neuron för att avgöra om en bok ska köpas in. x₁ är antalet elever som har önskat boken och x₂ är priset i hundralappar. Vikterna är w₁ = 0,5 och w₂ = −1 och bias är b = 1. Boken köps in om z är minst 0. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Sex elever har önskat en bok som kostar 3 hundralappar. Hur mycket bidrar önskningarna till den viktade summan, alltså w₁x₁?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bidrag från x₁: w₁x₁</p><p>0,5 · 6 = 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Multiplicera antalet önskningar med 0,5.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 3,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Beräkna z för boken.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>0,5 · 6 + (−1) · 3 + 1 = 3 − 3 + 1 = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Lägg ihop båda bidragen och bias.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 1,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>En annan bok kostar också 3 hundralappar. Hur många elever måste minst ha önskat den för att z ska bli minst 0?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z med priset 3</p><p>z = 0,5 · x₁ − 3 + 1 = 0,5 · x₁ − 2.</p></li><li><p class=\"facit-rubrik\">När blir z minst 0?</p><p>0,5 · x₁ − 2 ≥ 0 när x₁ ≥ 4. Kontroll: 4 önskningar ger z = 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div>",
+        "ledtrad": "<p>Pröva till exempel med 3, 4 och 5 önskningar.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.85",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Viktad summa och bias",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1,
+      1,
+      "z ökade med 2"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\" role=\"img\" aria-label=\"En neuron med indata 1 och 1, vikterna 2 och 3 och bias −6.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med indata 1 och 1, vikterna 2 och 3 och bias −6.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁ = 1</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂ = 1</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 3</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −6</text><line x1=\"260\" y1=\"85.0\" x2=\"300\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"90.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>En neuron har vikterna w₁ = 2 och w₂ = 3 och bias b = −6. Indata är x₁ = 1 och x₂ = 1. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p><p>a) Beräkna z.</p><p>b) Under träningen ändras bias till −4. Beräkna z igen.</p><p>c) Bias ökade med 2. Hur ändrades z? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> z ökade med 2</p><p class=\"ul-alt\"><strong>B.</strong> z ökade med 4</p><p class=\"ul-alt\"><strong>C.</strong> z minskade med 2</p><p class=\"ul-alt\"><strong>D.</strong> z ändrades inte</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>2 · 1 + 3 · 1 + (−6) = 5 − 6 = −1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma viktade summa, nytt bias</p><p>5 + (−4) = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z ändras lika mycket som bias</p><p>Bias läggs till direkt, så z ökar med lika mycket som bias, från −1 till 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> z ökade med 2.</p><ul><li><strong>A:</strong> z gick från −1 till 1.</li><li><strong>B:</strong> z gick från −1 till 1, det är en ökning med 2.</li><li><strong>C:</strong> Ett större bias gör z större.</li><li><strong>D:</strong> z gick från −1 till 1.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Bias läggs till den viktade summan.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\" role=\"img\" aria-label=\"En neuron med indata 1 och 1, vikterna 2 och 3 och bias −6.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med indata 1 och 1, vikterna 2 och 3 och bias −6.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁ = 1</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂ = 1</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 3</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −6</text><line x1=\"260\" y1=\"85.0\" x2=\"300\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"90.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>En neuron har vikterna w₁ = 2 och w₂ = 3 och bias b = −6. Indata är x₁ = 1 och x₂ = 1. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna z.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>2 · 1 + 3 · 1 + (−6) = 5 − 6 = −1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1.</p></div>",
+        "ledtrad": "<p>Viktad summa först, sedan bias.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": -1,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Under träningen ändras bias till −4. Beräkna z igen.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma viktade summa, nytt bias</p><p>5 + (−4) = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Bara bias har ändrats.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 1,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Bias ökade med 2. Hur ändrades z? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z ändras lika mycket som bias</p><p>Bias läggs till direkt, så z ökar med lika mycket som bias, från −1 till 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> z ökade med 2.</p><ul><li><strong>z ökade med 2:</strong> z gick från −1 till 1.</li><li><strong>z ökade med 4:</strong> z gick från −1 till 1, det är en ökning med 2.</li><li><strong>z minskade med 2:</strong> Ett större bias gör z större.</li><li><strong>z ändrades inte:</strong> z gick från −1 till 1.</li></ul></div>",
+        "ledtrad": "<p>Jämför de två z-värdena.</p>",
+        "alternativ": [
+          {
+            "txt": "z ökade med 2",
+            "ratt": true,
+            "kommentar": "z gick från −1 till 1."
+          },
+          {
+            "txt": "z ökade med 4",
+            "ratt": false,
+            "kommentar": "z gick från −1 till 1, det är en ökning med 2."
+          },
+          {
+            "txt": "z minskade med 2",
+            "ratt": false,
+            "kommentar": "Ett större bias gör z större."
+          },
+          {
+            "txt": "z ändrades inte",
+            "ratt": false,
+            "kommentar": "z gick från −1 till 1."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "z ökade med 2",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.86",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Viktad summa och bias",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      -3,
+      10
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\" role=\"img\" aria-label=\"En neuron med indata 3 och 4, vikterna 2 och 1 och okänt bias.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med indata 3 och 4, vikterna 2 och 1 och okänt bias.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁ = 3</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂ = 4</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 1</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = ?</text><line x1=\"260\" y1=\"85.0\" x2=\"300\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"90.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>En neuron har indata x₁ = 3 och x₂ = 4 och vikterna w₁ = 2 och w₂ = 1. Bias är okänt, men neuronen räknar ut z = 7. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p><p>a) Beräkna den viktade summan.</p><p>b) Vilket värde har bias b?</p><p>c) Vad skulle z bli om bias i stället var 0?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Viktad summa: w₁x₁ + w₂x₂</p><p>2 · 3 + 1 · 4 = 6 + 4 = 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = viktad summa + b</p><p>7 = 10 + b.</p></li><li><p class=\"facit-rubrik\">Lös ut b</p><p>b = 7 − 10 = −3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −3.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = viktad summa + 0</p><p>10 + 0 = 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div></div></div></div>",
+    "ledtrad": "<p>z = viktad summa + bias.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\" role=\"img\" aria-label=\"En neuron med indata 3 och 4, vikterna 2 och 1 och okänt bias.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med indata 3 och 4, vikterna 2 och 1 och okänt bias.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁ = 3</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂ = 4</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 1</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = ?</text><line x1=\"260\" y1=\"85.0\" x2=\"300\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"90.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>En neuron har indata x₁ = 3 och x₂ = 4 och vikterna w₁ = 2 och w₂ = 1. Bias är okänt, men neuronen räknar ut z = 7. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna den viktade summan.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Viktad summa: w₁x₁ + w₂x₂</p><p>2 · 3 + 1 · 4 = 6 + 4 = 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div>",
+        "ledtrad": "<p>Multiplicera och lägg ihop.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 10,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilket värde har bias b?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = viktad summa + b</p><p>7 = 10 + b.</p></li><li><p class=\"facit-rubrik\">Lös ut b</p><p>b = 7 − 10 = −3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −3.</p></div>",
+        "ledtrad": "<p>Vilket tal ska läggas till 10 för att få 7?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": -3,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad skulle z bli om bias i stället var 0?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = viktad summa + 0</p><p>10 + 0 = 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div>",
+        "ledtrad": "<p>Då är z bara den viktade summan.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 10,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.87",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Viktad summa och bias",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      -4,
+      "Att djuret skäller"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 250\" role=\"img\" aria-label=\"En neuron med tre indata, vikterna 2, 3 och −4 och bias −2.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med tre indata, vikterna 2, 3 och −4 och bias −2.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"61\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"117\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 3</text><rect x=\"6\" y=\"187\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"211\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₃</text><line x1=\"90\" y1=\"205\" x2=\"200\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"200\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₃ = −4</text><circle cx=\"230\" cy=\"125.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"133.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"87.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −2</text><line x1=\"260\" y1=\"125.0\" x2=\"300\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"130.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>En neuron ska avgöra om ett djur på en bild är en katt. x₁ = 1 om djuret har spetsiga öron, x₂ = 1 om det har långa morrhår och x₃ = 1 om det skäller, annars 0. Vikterna är 2, 3 och −4 och bias är −2. Ju större z är, desto mer liknar djuret en katt. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p><p>a) Djuret har spetsiga öron och långa morrhår och skäller inte. Beräkna z.</p><p>b) Ett annat djur har spetsiga öron men inga långa morrhår, och det skäller. Beräkna z.</p><p>c) Vilket indata talar mest emot att djuret är en katt? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Att djuret skäller</p><p class=\"ul-alt\"><strong>B.</strong> Att djuret har spetsiga öron</p><p class=\"ul-alt\"><strong>C.</strong> Att djuret har långa morrhår</p><p class=\"ul-alt\"><strong>D.</strong> Bias</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Indata (x₁, x₂, x₃) = (1, 1, 0)</p><p>z = 2 + 3 + 0 − 2 = 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Indata (x₁, x₂, x₃) = (1, 0, 1)</p><p>z = 2 + 0 − 4 − 2 = −4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −4.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den negativa vikten</p><p>Att djuret skäller har vikten −4. Den drar ner z mest.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Att djuret skäller.</p><ul><li><strong>A:</strong> Vikten −4 drar ner z med 4.</li><li><strong>B:</strong> Vikten 2 drar upp z.</li><li><strong>C:</strong> Vikten 3 drar upp z mest av alla.</li><li><strong>D:</strong> Bias är inget indata, den gäller alla djur.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Positiva vikter talar för katt, negativa emot.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 250\" role=\"img\" aria-label=\"En neuron med tre indata, vikterna 2, 3 och −4 och bias −2.\" style=\"width:100%;max-width:340px;height:auto\"><title>En neuron med tre indata, vikterna 2, 3 och −4 och bias −2.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"61\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"117\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 3</text><rect x=\"6\" y=\"187\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"211\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₃</text><line x1=\"90\" y1=\"205\" x2=\"200\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"200\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₃ = −4</text><circle cx=\"230\" cy=\"125.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"133.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"87.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −2</text><line x1=\"260\" y1=\"125.0\" x2=\"300\" y2=\"125.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"306\" y=\"130.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">z</text></svg><p>En neuron ska avgöra om ett djur på en bild är en katt. x₁ = 1 om djuret har spetsiga öron, x₂ = 1 om det har långa morrhår och x₃ = 1 om det skäller, annars 0. Vikterna är 2, 3 och −4 och bias är −2. Ju större z är, desto mer liknar djuret en katt. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Djuret har spetsiga öron och långa morrhår och skäller inte. Beräkna z.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Indata (x₁, x₂, x₃) = (1, 1, 0)</p><p>z = 2 + 3 + 0 − 2 = 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Sätt in 1, 1 och 0.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 3,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Ett annat djur har spetsiga öron men inga långa morrhår, och det skäller. Beräkna z.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Indata (x₁, x₂, x₃) = (1, 0, 1)</p><p>z = 2 + 0 − 4 − 2 = −4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −4.</p></div>",
+        "ledtrad": "<p>Sätt in 1, 0 och 1.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": -4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vilket indata talar mest emot att djuret är en katt? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den negativa vikten</p><p>Att djuret skäller har vikten −4. Den drar ner z mest.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Att djuret skäller.</p><ul><li><strong>Att djuret skäller:</strong> Vikten −4 drar ner z med 4.</li><li><strong>Att djuret har spetsiga öron:</strong> Vikten 2 drar upp z.</li><li><strong>Att djuret har långa morrhår:</strong> Vikten 3 drar upp z mest av alla.</li><li><strong>Bias:</strong> Bias är inget indata, den gäller alla djur.</li></ul></div>",
+        "ledtrad": "<p>Vilken vikt är negativ?</p>",
+        "alternativ": [
+          {
+            "txt": "Att djuret skäller",
+            "ratt": true,
+            "kommentar": "Vikten −4 drar ner z med 4."
+          },
+          {
+            "txt": "Att djuret har spetsiga öron",
+            "ratt": false,
+            "kommentar": "Vikten 2 drar upp z."
+          },
+          {
+            "txt": "Att djuret har långa morrhår",
+            "ratt": false,
+            "kommentar": "Vikten 3 drar upp z mest av alla."
+          },
+          {
+            "txt": "Bias",
+            "ratt": false,
+            "kommentar": "Bias är inget indata, den gäller alla djur."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Att djuret skäller",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.88",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "E",
+    "poang": "4/0/0",
+    "familj": "Aktiveringsfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      0,
+      1,
+      "Många neuroner i lager, där utdata från ett lager blir indata till nästa"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">z</th><th style=\"text-align:left\">3</th><th style=\"text-align:left\">−2</th><th style=\"text-align:left\">0</th></tr></thead><tbody><tr><td style=\"text-align:left\">Utdata</td><td style=\"text-align:left\">?</td><td style=\"text-align:left\">?</td><td style=\"text-align:left\">?</td></tr></tbody></table><p>En neuron använder en aktiveringsfunktion för att bestämma vad den skickar ut. Stegfunktionen skickar ut 1 om z ≥ 0 och annars 0.</p><p>a) Vad skickar stegfunktionen ut när z = 3?</p><p>b) Vad skickar stegfunktionen ut när z = −2?</p><p>c) Vad skickar stegfunktionen ut när z = 0?</p><p>d) Vad är ett neuralt nätverk? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Många neuroner i lager, där utdata från ett lager blir indata till nästa</p><p class=\"ul-alt\"><strong>B.</strong> En kopia av en människohjärna</p><p class=\"ul-alt\"><strong>C.</strong> En enda neuron med många vikter</p><p class=\"ul-alt\"><strong>D.</strong> Ett nätverk av datorer som är kopplade till internet</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stegfunktionen: 1 om z ≥ 0, annars 0</p><p>3 ≥ 0, så utdata är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stegfunktionen: 1 om z ≥ 0, annars 0</p><p>−2 är mindre än 0, så utdata är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stegfunktionen: 1 om z ≥ 0, annars 0</p><p>0 ≥ 0 stämmer, så utdata är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Många neuroner i lager</p><p>Ett neuralt nätverk består av många neuroner i lager. Det som ett lager skickar ut blir indata till nästa lager.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Många neuroner i lager, där utdata från ett lager blir indata till nästa.</p><ul><li><strong>A:</strong> Varje neuron räknar på samma sätt som här.</li><li><strong>B:</strong> Nätverket är inspirerat av hjärnan, men det är bara räkningar med tal.</li><li><strong>C:</strong> En enda neuron är inget nätverk.</li><li><strong>D:</strong> Det handlar om neuroner i ett program, inte om datorer i ett nätverk.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Stegfunktionen ger 1 om z ≥ 0, annars 0.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">z</th><th style=\"text-align:left\">3</th><th style=\"text-align:left\">−2</th><th style=\"text-align:left\">0</th></tr></thead><tbody><tr><td style=\"text-align:left\">Utdata</td><td style=\"text-align:left\">?</td><td style=\"text-align:left\">?</td><td style=\"text-align:left\">?</td></tr></tbody></table><p>En neuron använder en aktiveringsfunktion för att bestämma vad den skickar ut. Stegfunktionen skickar ut 1 om z ≥ 0 och annars 0.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vad skickar stegfunktionen ut när z = 3?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stegfunktionen: 1 om z ≥ 0, annars 0</p><p>3 ≥ 0, så utdata är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Är z minst 0?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 1,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad skickar stegfunktionen ut när z = −2?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stegfunktionen: 1 om z ≥ 0, annars 0</p><p>−2 är mindre än 0, så utdata är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div>",
+        "ledtrad": "<p>Är z minst 0?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad skickar stegfunktionen ut när z = 0?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stegfunktionen: 1 om z ≥ 0, annars 0</p><p>0 ≥ 0 stämmer, så utdata är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Läs regeln noga: står det z > 0 eller z ≥ 0?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 1,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Vad är ett neuralt nätverk? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Många neuroner i lager</p><p>Ett neuralt nätverk består av många neuroner i lager. Det som ett lager skickar ut blir indata till nästa lager.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Många neuroner i lager, där utdata från ett lager blir indata till nästa.</p><ul><li><strong>Många neuroner i lager, där utdata från ett lager blir indata till nästa:</strong> Varje neuron räknar på samma sätt som här.</li><li><strong>En kopia av en människohjärna:</strong> Nätverket är inspirerat av hjärnan, men det är bara räkningar med tal.</li><li><strong>En enda neuron med många vikter:</strong> En enda neuron är inget nätverk.</li><li><strong>Ett nätverk av datorer som är kopplade till internet:</strong> Det handlar om neuroner i ett program, inte om datorer i ett nätverk.</li></ul></div>",
+        "ledtrad": "<p>Vad händer med det en neuron skickar ut?</p>",
+        "alternativ": [
+          {
+            "txt": "Många neuroner i lager, där utdata från ett lager blir indata till nästa",
+            "ratt": true,
+            "kommentar": "Varje neuron räknar på samma sätt som här."
+          },
+          {
+            "txt": "En kopia av en människohjärna",
+            "ratt": false,
+            "kommentar": "Nätverket är inspirerat av hjärnan, men det är bara räkningar med tal."
+          },
+          {
+            "txt": "En enda neuron med många vikter",
+            "ratt": false,
+            "kommentar": "En enda neuron är inget nätverk."
+          },
+          {
+            "txt": "Ett nätverk av datorer som är kopplade till internet",
+            "ratt": false,
+            "kommentar": "Det handlar om neuroner i ett program, inte om datorer i ett nätverk."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Många neuroner i lager, där utdata från ett lager blir indata till nästa",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.89",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "E",
+    "poang": "4/0/0",
+    "familj": "Aktiveringsfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      0,
+      0.5,
+      "Stegfunktionen ger 1 och ReLU ger 5"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "t": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">z</th><th style=\"text-align:left\">5</th><th style=\"text-align:left\">−3</th><th style=\"text-align:left\">0,5</th></tr></thead><tbody><tr><td style=\"text-align:left\">Utdata</td><td style=\"text-align:left\">?</td><td style=\"text-align:left\">?</td><td style=\"text-align:left\">?</td></tr></tbody></table><p>En annan vanlig aktiveringsfunktion är ReLU. ReLU skickar ut z om z är positivt och annars 0.</p><p>a) Vad skickar ReLU ut när z = 5?</p><p>b) Vad skickar ReLU ut när z = −3?</p><p>c) Vad skickar ReLU ut när z = 0,5?</p><p>d) z = 5 skickas in i både stegfunktionen och ReLU. Vad blir skillnaden? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Stegfunktionen ger 1 och ReLU ger 5</p><p class=\"ul-alt\"><strong>B.</strong> Båda ger 1</p><p class=\"ul-alt\"><strong>C.</strong> Båda ger 5</p><p class=\"ul-alt\"><strong>D.</strong> Stegfunktionen ger 5 och ReLU ger 1</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ReLU: z om z är positivt, annars 0</p><p>5 är positivt, så utdata är 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ReLU: z om z är positivt, annars 0</p><p>−3 är negativt, så utdata är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ReLU: z om z är positivt, annars 0</p><p>0,5 är positivt, så utdata är 0,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ReLU behåller storleken</p><p>Stegfunktionen skickar ut 1, eftersom 5 ≥ 0. ReLU skickar ut hela talet 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stegfunktionen ger 1 och ReLU ger 5.</p><ul><li><strong>A:</strong> ReLU visar också hur stort z är.</li><li><strong>B:</strong> ReLU ger z när z är positivt, alltså 5.</li><li><strong>C:</strong> Stegfunktionen ger bara 0 eller 1.</li><li><strong>D:</strong> Det är tvärtom: ReLU ger 5.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>ReLU: positiva z släpps igenom, annars 0.</p>",
+    "spelIntro": "<table class=\"data\"><thead><tr><th style=\"text-align:left\">z</th><th style=\"text-align:left\">5</th><th style=\"text-align:left\">−3</th><th style=\"text-align:left\">0,5</th></tr></thead><tbody><tr><td style=\"text-align:left\">Utdata</td><td style=\"text-align:left\">?</td><td style=\"text-align:left\">?</td><td style=\"text-align:left\">?</td></tr></tbody></table><p>En annan vanlig aktiveringsfunktion är ReLU. ReLU skickar ut z om z är positivt och annars 0.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Vad skickar ReLU ut när z = 5?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ReLU: z om z är positivt, annars 0</p><p>5 är positivt, så utdata är 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div>",
+        "ledtrad": "<p>Är z positivt?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad skickar ReLU ut när z = −3?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ReLU: z om z är positivt, annars 0</p><p>−3 är negativt, så utdata är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div>",
+        "ledtrad": "<p>Är z positivt?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad skickar ReLU ut när z = 0,5? (Svara i decimalform.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ReLU: z om z är positivt, annars 0</p><p>0,5 är positivt, så utdata är 0,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5.</p></div>",
+        "ledtrad": "<p>ReLU släpper igenom positiva tal.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0.5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>z = 5 skickas in i både stegfunktionen och ReLU. Vad blir skillnaden? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ReLU behåller storleken</p><p>Stegfunktionen skickar ut 1, eftersom 5 ≥ 0. ReLU skickar ut hela talet 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stegfunktionen ger 1 och ReLU ger 5.</p><ul><li><strong>Stegfunktionen ger 1 och ReLU ger 5:</strong> ReLU visar också hur stort z är.</li><li><strong>Båda ger 1:</strong> ReLU ger z när z är positivt, alltså 5.</li><li><strong>Båda ger 5:</strong> Stegfunktionen ger bara 0 eller 1.</li><li><strong>Stegfunktionen ger 5 och ReLU ger 1:</strong> Det är tvärtom: ReLU ger 5.</li></ul></div>",
+        "ledtrad": "<p>Vilka värden kan stegfunktionen skicka ut?</p>",
+        "alternativ": [
+          {
+            "txt": "Stegfunktionen ger 1 och ReLU ger 5",
+            "ratt": true,
+            "kommentar": "ReLU visar också hur stort z är."
+          },
+          {
+            "txt": "Båda ger 1",
+            "ratt": false,
+            "kommentar": "ReLU ger z när z är positivt, alltså 5."
+          },
+          {
+            "txt": "Båda ger 5",
+            "ratt": false,
+            "kommentar": "Stegfunktionen ger bara 0 eller 1."
+          },
+          {
+            "txt": "Stegfunktionen ger 5 och ReLU ger 1",
+            "ratt": false,
+            "kommentar": "Det är tvärtom: ReLU ger 5."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Stegfunktionen ger 1 och ReLU ger 5",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.90",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "C",
+    "poang": "3/1/0",
+    "familj": "Aktiveringsfunktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      1,
+      0,
+      "Den skickar ut 1 om minst ett indata är 1 (ELLER)"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 2 och 2, bias −1 och en stegfunktion.\" style=\"width:100%;max-width:410px;height:auto\"><title>En neuron med två indata, vikterna 2 och 2, bias −1 och en stegfunktion.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 2</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −1</text><line x1=\"260\" y1=\"85.0\" x2=\"290\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"290\" y=\"65.0\" width=\"62\" height=\"40\" rx=\"6\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"321\" y=\"90.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">steg</text><line x1=\"352\" y1=\"85.0\" x2=\"380\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"384\" y=\"90.0\" font-size=\"14\" fill=\"#111827\">ut</text></svg><p>Indata är 0 eller 1. Neuronen har vikterna w₁ = 2 och w₂ = 2 och bias b = −1. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b. Stegfunktionen skickar ut 1 om z ≥ 0 och annars 0.</p><p>a) Beräkna z när x₁ = 1 och x₂ = 0.</p><p>b) Vad skickar neuronen ut när x₁ = 1 och x₂ = 0?</p><p>c) Vad skickar neuronen ut när båda indata är 0?</p><p>d) Neuronen prövas med alla fyra kombinationer av 0 och 1. Vilken regel följer den? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Den skickar ut 1 om minst ett indata är 1 (ELLER)</p><p class=\"ul-alt\"><strong>B.</strong> Den skickar ut 1 bara om båda indata är 1 (OCH)</p><p class=\"ul-alt\"><strong>C.</strong> Den skickar alltid ut 1</p><p class=\"ul-alt\"><strong>D.</strong> Den skickar alltid ut 0</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>2 · 1 + 2 · 0 + (−1) = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stegfunktionen</p><p>z = 1 ≥ 0, så utdata är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna z</p><p>2 · 0 + 2 · 0 + (−1) = −1.</p></li><li><p class=\"facit-rubrik\">Stegfunktionen</p><p>z = −1 < 0, så utdata är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ELLER</p><p>Bara (0, 0) ger z < 0. Om minst ett indata är 1 blir z minst 1, och neuronen skickar ut 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den skickar ut 1 om minst ett indata är 1 (ELLER).</p><ul><li><strong>A:</strong> (0, 0) → 0, (0, 1) → 1, (1, 0) → 1, (1, 1) → 1.</li><li><strong>B:</strong> (1, 0) ger z = 1 och utdata 1.</li><li><strong>C:</strong> (0, 0) ger z = −1 och utdata 0.</li><li><strong>D:</strong> (1, 0) ger utdata 1.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Räkna z först, sedan stegfunktionen.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 2 och 2, bias −1 och en stegfunktion.\" style=\"width:100%;max-width:410px;height:auto\"><title>En neuron med två indata, vikterna 2 och 2, bias −1 och en stegfunktion.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 2</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −1</text><line x1=\"260\" y1=\"85.0\" x2=\"290\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"290\" y=\"65.0\" width=\"62\" height=\"40\" rx=\"6\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"321\" y=\"90.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">steg</text><line x1=\"352\" y1=\"85.0\" x2=\"380\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"384\" y=\"90.0\" font-size=\"14\" fill=\"#111827\">ut</text></svg><p>Indata är 0 eller 1. Neuronen har vikterna w₁ = 2 och w₂ = 2 och bias b = −1. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b. Stegfunktionen skickar ut 1 om z ≥ 0 och annars 0.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna z när x₁ = 1 och x₂ = 0.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>2 · 1 + 2 · 0 + (−1) = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Sätt in indata och lägg till bias.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 1,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad skickar neuronen ut när x₁ = 1 och x₂ = 0?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stegfunktionen</p><p>z = 1 ≥ 0, så utdata är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Använd z från förra frågan.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 1,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad skickar neuronen ut när båda indata är 0?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna z</p><p>2 · 0 + 2 · 0 + (−1) = −1.</p></li><li><p class=\"facit-rubrik\">Stegfunktionen</p><p>z = −1 < 0, så utdata är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div>",
+        "ledtrad": "<p>Bara bias finns kvar i z.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Neuronen prövas med alla fyra kombinationer av 0 och 1. Vilken regel följer den? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ELLER</p><p>Bara (0, 0) ger z < 0. Om minst ett indata är 1 blir z minst 1, och neuronen skickar ut 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den skickar ut 1 om minst ett indata är 1 (ELLER).</p><ul><li><strong>Den skickar ut 1 om minst ett indata är 1 (ELLER):</strong> (0, 0) → 0, (0, 1) → 1, (1, 0) → 1, (1, 1) → 1.</li><li><strong>Den skickar ut 1 bara om båda indata är 1 (OCH):</strong> (1, 0) ger z = 1 och utdata 1.</li><li><strong>Den skickar alltid ut 1:</strong> (0, 0) ger z = −1 och utdata 0.</li><li><strong>Den skickar alltid ut 0:</strong> (1, 0) ger utdata 1.</li></ul></div>",
+        "ledtrad": "<p>Räkna z för alla fyra kombinationerna.</p>",
+        "alternativ": [
+          {
+            "txt": "Den skickar ut 1 om minst ett indata är 1 (ELLER)",
+            "ratt": true,
+            "kommentar": "(0, 0) → 0, (0, 1) → 1, (1, 0) → 1, (1, 1) → 1."
+          },
+          {
+            "txt": "Den skickar ut 1 bara om båda indata är 1 (OCH)",
+            "ratt": false,
+            "kommentar": "(1, 0) ger z = 1 och utdata 1."
+          },
+          {
+            "txt": "Den skickar alltid ut 1",
+            "ratt": false,
+            "kommentar": "(0, 0) ger z = −1 och utdata 0."
+          },
+          {
+            "txt": "Den skickar alltid ut 0",
+            "ratt": false,
+            "kommentar": "(1, 0) ger utdata 1."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Den skickar ut 1 om minst ett indata är 1 (ELLER)",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.91",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Aktiveringsfunktioner",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      0,
+      "Bara när båda indata är 1 blir z minst 0"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 2 och 2, bias −3 och en stegfunktion.\" style=\"width:100%;max-width:410px;height:auto\"><title>En neuron med två indata, vikterna 2 och 2, bias −3 och en stegfunktion.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 2</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −3</text><line x1=\"260\" y1=\"85.0\" x2=\"290\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"290\" y=\"65.0\" width=\"62\" height=\"40\" rx=\"6\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"321\" y=\"90.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">steg</text><line x1=\"352\" y1=\"85.0\" x2=\"380\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"384\" y=\"90.0\" font-size=\"14\" fill=\"#111827\">ut</text></svg><p>En dörr öppnas bara om man både visar ett passerkort (x₁ = 1) och slår rätt kod (x₂ = 1). Neuronen har vikterna 2 och 2 och bias −3. Utdata 1 betyder att dörren öppnas. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b. Stegfunktionen skickar ut 1 om z ≥ 0 och annars 0.</p><p>a) Beräkna z när båda indata är 1.</p><p>b) Någon visar passerkortet men slår fel kod. Vad skickar neuronen ut?</p><p>c) Varför fungerar neuronen som det ska för dörren? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Bara när båda indata är 1 blir z minst 0</p><p class=\"ul-alt\"><strong>B.</strong> Det räcker med ett av indata</p><p class=\"ul-alt\"><strong>C.</strong> Bias är positivt</p><p class=\"ul-alt\"><strong>D.</strong> Vikterna är olika stora</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>2 + 2 − 3 = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna z</p><p>2 · 1 + 2 · 0 − 3 = −1.</p></li><li><p class=\"facit-rubrik\">Stegfunktionen</p><p>z = −1 < 0, så utdata är 0. Dörren förblir stängd.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bara båda tillsammans räcker</p><p>Ett indata ensamt ger z = 2 − 3 = −1, alltså 0. Båda ger z = 1, alltså 1. Det är regeln OCH.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bara när båda indata är 1 blir z minst 0.</p><ul><li><strong>A:</strong> Ett ensamt indata räcker inte för att komma över −3.</li><li><strong>B:</strong> Ett indata ger z = −1, och då skickas 0 ut.</li><li><strong>C:</strong> Bias är −3, alltså negativt.</li><li><strong>D:</strong> Båda vikterna är 2.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Ett negativt bias gör att det krävs mer för att få utdata 1.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 2 och 2, bias −3 och en stegfunktion.\" style=\"width:100%;max-width:410px;height:auto\"><title>En neuron med två indata, vikterna 2 och 2, bias −3 och en stegfunktion.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 2</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −3</text><line x1=\"260\" y1=\"85.0\" x2=\"290\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"290\" y=\"65.0\" width=\"62\" height=\"40\" rx=\"6\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"321\" y=\"90.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">steg</text><line x1=\"352\" y1=\"85.0\" x2=\"380\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"384\" y=\"90.0\" font-size=\"14\" fill=\"#111827\">ut</text></svg><p>En dörr öppnas bara om man både visar ett passerkort (x₁ = 1) och slår rätt kod (x₂ = 1). Neuronen har vikterna 2 och 2 och bias −3. Utdata 1 betyder att dörren öppnas. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b. Stegfunktionen skickar ut 1 om z ≥ 0 och annars 0.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna z när båda indata är 1.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>2 + 2 − 3 = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Sätt in x₁ = 1 och x₂ = 1.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 1,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Någon visar passerkortet men slår fel kod. Vad skickar neuronen ut?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna z</p><p>2 · 1 + 2 · 0 − 3 = −1.</p></li><li><p class=\"facit-rubrik\">Stegfunktionen</p><p>z = −1 < 0, så utdata är 0. Dörren förblir stängd.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div>",
+        "ledtrad": "<p>Här är x₁ = 1 och x₂ = 0.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Varför fungerar neuronen som det ska för dörren? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bara båda tillsammans räcker</p><p>Ett indata ensamt ger z = 2 − 3 = −1, alltså 0. Båda ger z = 1, alltså 1. Det är regeln OCH.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bara när båda indata är 1 blir z minst 0.</p><ul><li><strong>Bara när båda indata är 1 blir z minst 0:</strong> Ett ensamt indata räcker inte för att komma över −3.</li><li><strong>Det räcker med ett av indata:</strong> Ett indata ger z = −1, och då skickas 0 ut.</li><li><strong>Bias är positivt:</strong> Bias är −3, alltså negativt.</li><li><strong>Vikterna är olika stora:</strong> Båda vikterna är 2.</li></ul></div>",
+        "ledtrad": "<p>Pröva med bara ett indata lika med 1.</p>",
+        "alternativ": [
+          {
+            "txt": "Bara när båda indata är 1 blir z minst 0",
+            "ratt": true,
+            "kommentar": "Ett ensamt indata räcker inte för att komma över −3."
+          },
+          {
+            "txt": "Det räcker med ett av indata",
+            "ratt": false,
+            "kommentar": "Ett indata ger z = −1, och då skickas 0 ut."
+          },
+          {
+            "txt": "Bias är positivt",
+            "ratt": false,
+            "kommentar": "Bias är −3, alltså negativt."
+          },
+          {
+            "txt": "Vikterna är olika stora",
+            "ratt": false,
+            "kommentar": "Båda vikterna är 2."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Bara när båda indata är 1 blir z minst 0",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.92",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Aktiveringsfunktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      5,
+      0
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 2 och −1, bias 1 och aktiveringsfunktionen ReLU.\" style=\"width:100%;max-width:410px;height:auto\"><title>En neuron med två indata, vikterna 2 och −1, bias 1 och aktiveringsfunktionen ReLU.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = −1</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = 1</text><line x1=\"260\" y1=\"85.0\" x2=\"290\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"290\" y=\"65.0\" width=\"62\" height=\"40\" rx=\"6\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"321\" y=\"90.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">ReLU</text><line x1=\"352\" y1=\"85.0\" x2=\"380\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"384\" y=\"90.0\" font-size=\"14\" fill=\"#111827\">ut</text></svg><p>En neuron har vikterna w₁ = 2 och w₂ = −1 och bias b = 1. Den använder ReLU. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b. ReLU skickar ut z om z är positivt och annars 0.</p><p>a) Beräkna z när x₁ = 3 och x₂ = 2.</p><p>b) Vad skickar neuronen ut när x₁ = 3 och x₂ = 2?</p><p>c) Vad skickar neuronen ut när x₁ = 1 och x₂ = 4?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>2 · 3 + (−1) · 2 + 1 = 6 − 2 + 1 = 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ReLU</p><p>z = 5 är positivt, så utdata är 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna z</p><p>2 · 1 + (−1) · 4 + 1 = 2 − 4 + 1 = −1.</p></li><li><p class=\"facit-rubrik\">ReLU</p><p>z = −1 är negativt, så utdata är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div></div></div></div>",
+    "ledtrad": "<p>Räkna z, använd sedan ReLU.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 2 och −1, bias 1 och aktiveringsfunktionen ReLU.\" style=\"width:100%;max-width:410px;height:auto\"><title>En neuron med två indata, vikterna 2 och −1, bias 1 och aktiveringsfunktionen ReLU.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = −1</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = 1</text><line x1=\"260\" y1=\"85.0\" x2=\"290\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"290\" y=\"65.0\" width=\"62\" height=\"40\" rx=\"6\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"321\" y=\"90.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">ReLU</text><line x1=\"352\" y1=\"85.0\" x2=\"380\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"384\" y=\"90.0\" font-size=\"14\" fill=\"#111827\">ut</text></svg><p>En neuron har vikterna w₁ = 2 och w₂ = −1 och bias b = 1. Den använder ReLU. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b. ReLU skickar ut z om z är positivt och annars 0.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna z när x₁ = 3 och x₂ = 2.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = w₁x₁ + w₂x₂ + b</p><p>2 · 3 + (−1) · 2 + 1 = 6 − 2 + 1 = 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div>",
+        "ledtrad": "<p>Multiplicera, lägg ihop och lägg till bias.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad skickar neuronen ut när x₁ = 3 och x₂ = 2?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ReLU</p><p>z = 5 är positivt, så utdata är 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div>",
+        "ledtrad": "<p>Använd z från förra frågan.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 5,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad skickar neuronen ut när x₁ = 1 och x₂ = 4?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna z</p><p>2 · 1 + (−1) · 4 + 1 = 2 − 4 + 1 = −1.</p></li><li><p class=\"facit-rubrik\">ReLU</p><p>z = −1 är negativt, så utdata är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div>",
+        "ledtrad": "<p>Räkna z först. Vad gör ReLU med negativa tal?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.93",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "C",
+    "poang": "3/1/0",
+    "familj": "Aktiveringsfunktioner",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1,
+      0,
+      1,
+      "Att prognosen säger regn"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 1 och 3, bias −2 och en stegfunktion.\" style=\"width:100%;max-width:410px;height:auto\"><title>En neuron med två indata, vikterna 1 och 3, bias −2 och en stegfunktion.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 1</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 3</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −2</text><line x1=\"260\" y1=\"85.0\" x2=\"290\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"290\" y=\"65.0\" width=\"62\" height=\"40\" rx=\"6\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"321\" y=\"90.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">steg</text><line x1=\"352\" y1=\"85.0\" x2=\"380\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"384\" y=\"90.0\" font-size=\"14\" fill=\"#111827\">ut</text></svg><p>En app säger ”ta med paraply” när neuronen skickar ut 1. x₁ = 1 om det är molnigt och x₂ = 1 om väderprognosen säger regn, annars 0. Vikterna är w₁ = 1 och w₂ = 3 och bias är b = −2. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b. Stegfunktionen skickar ut 1 om z ≥ 0 och annars 0.</p><p>a) Det är molnigt men prognosen säger inte regn. Beräkna z.</p><p>b) Vad skickar neuronen ut i den situationen?</p><p>c) Det är inte molnigt, men prognosen säger regn. Vad skickar neuronen ut?</p><p>d) Vilket indata räcker ensamt för att appen ska säga ”ta med paraply”? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Att prognosen säger regn</p><p class=\"ul-alt\"><strong>B.</strong> Att det är molnigt</p><p class=\"ul-alt\"><strong>C.</strong> Båda räcker ensamma</p><p class=\"ul-alt\"><strong>D.</strong> Inget av dem räcker ensamt</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Indata (x₁, x₂) = (1, 0)</p><p>z = 1 · 1 + 3 · 0 + (−2) = −1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stegfunktionen</p><p>z = −1 < 0, så utdata är 0. Appen säger inget om paraply.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna z</p><p>1 · 0 + 3 · 1 + (−2) = 1.</p></li><li><p class=\"facit-rubrik\">Stegfunktionen</p><p>z = 1 ≥ 0, så utdata är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den stora vikten</p><p>Regn i prognosen ger 3 − 2 = 1 ≥ 0. Moln ensamt ger 1 − 2 = −1 < 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Att prognosen säger regn.</p><ul><li><strong>A:</strong> Vikten 3 räcker för att komma över bias −2.</li><li><strong>B:</strong> Moln ensamt ger z = −1, och då blir utdata 0.</li><li><strong>C:</strong> Moln ensamt räcker inte.</li><li><strong>D:</strong> Regn i prognosen räcker, z blir 1.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>En stor vikt kan ensam få z över 0.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 1 och 3, bias −2 och en stegfunktion.\" style=\"width:100%;max-width:410px;height:auto\"><title>En neuron med två indata, vikterna 1 och 3, bias −2 och en stegfunktion.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 1</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 3</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = −2</text><line x1=\"260\" y1=\"85.0\" x2=\"290\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"290\" y=\"65.0\" width=\"62\" height=\"40\" rx=\"6\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"321\" y=\"90.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">steg</text><line x1=\"352\" y1=\"85.0\" x2=\"380\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"384\" y=\"90.0\" font-size=\"14\" fill=\"#111827\">ut</text></svg><p>En app säger ”ta med paraply” när neuronen skickar ut 1. x₁ = 1 om det är molnigt och x₂ = 1 om väderprognosen säger regn, annars 0. Vikterna är w₁ = 1 och w₂ = 3 och bias är b = −2. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b. Stegfunktionen skickar ut 1 om z ≥ 0 och annars 0.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Det är molnigt men prognosen säger inte regn. Beräkna z.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Indata (x₁, x₂) = (1, 0)</p><p>z = 1 · 1 + 3 · 0 + (−2) = −1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1.</p></div>",
+        "ledtrad": "<p>Sätt in x₁ = 1 och x₂ = 0.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": -1,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vad skickar neuronen ut i den situationen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stegfunktionen</p><p>z = −1 < 0, så utdata är 0. Appen säger inget om paraply.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div>",
+        "ledtrad": "<p>Är z minst 0?</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 0,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Det är inte molnigt, men prognosen säger regn. Vad skickar neuronen ut?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna z</p><p>1 · 0 + 3 · 1 + (−2) = 1.</p></li><li><p class=\"facit-rubrik\">Stegfunktionen</p><p>z = 1 ≥ 0, så utdata är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+        "ledtrad": "<p>Räkna z med x₁ = 0 och x₂ = 1.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 1,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "c"
+      },
+      {
+        "fraga": "<p>Vilket indata räcker ensamt för att appen ska säga ”ta med paraply”? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den stora vikten</p><p>Regn i prognosen ger 3 − 2 = 1 ≥ 0. Moln ensamt ger 1 − 2 = −1 < 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Att prognosen säger regn.</p><ul><li><strong>Att prognosen säger regn:</strong> Vikten 3 räcker för att komma över bias −2.</li><li><strong>Att det är molnigt:</strong> Moln ensamt ger z = −1, och då blir utdata 0.</li><li><strong>Båda räcker ensamma:</strong> Moln ensamt räcker inte.</li><li><strong>Inget av dem räcker ensamt:</strong> Regn i prognosen räcker, z blir 1.</li></ul></div>",
+        "ledtrad": "<p>Jämför z för (1, 0) och (0, 1).</p>",
+        "alternativ": [
+          {
+            "txt": "Att prognosen säger regn",
+            "ratt": true,
+            "kommentar": "Vikten 3 räcker för att komma över bias −2."
+          },
+          {
+            "txt": "Att det är molnigt",
+            "ratt": false,
+            "kommentar": "Moln ensamt ger z = −1, och då blir utdata 0."
+          },
+          {
+            "txt": "Båda räcker ensamma",
+            "ratt": false,
+            "kommentar": "Moln ensamt räcker inte."
+          },
+          {
+            "txt": "Inget av dem räcker ensamt",
+            "ratt": false,
+            "kommentar": "Regn i prognosen räcker, z blir 1."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Att prognosen säger regn",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "d"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
+  },
+  {
+    "id": "4.94",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "C",
+    "poang": "2/1/0",
+    "familj": "Aktiveringsfunktioner",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      "b = −3",
+      "b = 1"
+    ],
+    "tolerans": [
+      0,
+      null,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 2 och 2, okänt bias och en stegfunktion.\" style=\"width:100%;max-width:410px;height:auto\"><title>En neuron med två indata, vikterna 2 och 2, okänt bias och en stegfunktion.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 2</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = ?</text><line x1=\"260\" y1=\"85.0\" x2=\"290\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"290\" y=\"65.0\" width=\"62\" height=\"40\" rx=\"6\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"321\" y=\"90.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">steg</text><line x1=\"352\" y1=\"85.0\" x2=\"380\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"384\" y=\"90.0\" font-size=\"14\" fill=\"#111827\">ut</text></svg><p>En neuron har vikterna w₁ = 2 och w₂ = 2. Indata är 0 eller 1. Man vill välja bias b så att neuronen gör olika saker. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b. Stegfunktionen skickar ut 1 om z ≥ 0 och annars 0.</p><p>a) Beräkna den viktade summan när båda indata är 1.</p><p>b) Vilket bias gör att neuronen bara skickar ut 1 när båda indata är 1? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> b = −3</p><p class=\"ul-alt\"><strong>B.</strong> b = −1</p><p class=\"ul-alt\"><strong>C.</strong> b = −5</p><p class=\"ul-alt\"><strong>D.</strong> b = 1</p><p>c) Vilket bias gör att neuronen skickar ut 1 även när båda indata är 0? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> b = 1</p><p class=\"ul-alt\"><strong>B.</strong> b = −1</p><p class=\"ul-alt\"><strong>C.</strong> b = −3</p><p class=\"ul-alt\"><strong>D.</strong> b = −5</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Viktad summa: w₁x₁ + w₂x₂</p><p>2 · 1 + 2 · 1 = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva varje bias</p><p>Med b = −3 ger båda indata z = 4 − 3 = 1 ≥ 0, men ett indata ger z = 2 − 3 = −1 < 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> b = −3.</p><ul><li><strong>A:</strong> Bara (1, 1) ger z ≥ 0.</li><li><strong>B:</strong> Då ger även ett ensamt indata z = 1, och utdata 1.</li><li><strong>C:</strong> Då blir z negativt även när båda är 1, så utdata är alltid 0.</li><li><strong>D:</strong> Då blir z positivt även när båda är 0.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = b när båda är 0</p><p>När båda indata är 0 är z = b. Då måste b vara minst 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> b = 1.</p><ul><li><strong>A:</strong> z = 1 ≥ 0 när båda är 0.</li><li><strong>B:</strong> Då är z = −1 när båda är 0.</li><li><strong>C:</strong> Då är z = −3 när båda är 0.</li><li><strong>D:</strong> Då är z = −5 när båda är 0.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>När båda indata är 0 är z lika med bias.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 170\" role=\"img\" aria-label=\"En neuron med två indata, vikterna 2 och 2, okänt bias och en stegfunktion.\" style=\"width:100%;max-width:410px;height:auto\"><title>En neuron med två indata, vikterna 2 och 2, okänt bias och en stegfunktion.</title><rect x=\"6\" y=\"27\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"51\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₁</text><line x1=\"90\" y1=\"45\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₁ = 2</text><rect x=\"6\" y=\"107\" width=\"84\" height=\"36\" rx=\"18\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"48\" y=\"131\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#111827\">x₂</text><line x1=\"90\" y1=\"125\" x2=\"200\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"150\" y=\"131\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">w₂ = 2</text><circle cx=\"230\" cy=\"85.0\" r=\"30\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"230\" y=\"93.0\" text-anchor=\"middle\" font-size=\"24\" fill=\"#111827\">Σ</text><text x=\"230\" y=\"47.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">b = ?</text><line x1=\"260\" y1=\"85.0\" x2=\"290\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"290\" y=\"65.0\" width=\"62\" height=\"40\" rx=\"6\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"321\" y=\"90.0\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">steg</text><line x1=\"352\" y1=\"85.0\" x2=\"380\" y2=\"85.0\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"384\" y=\"90.0\" font-size=\"14\" fill=\"#111827\">ut</text></svg><p>En neuron har vikterna w₁ = 2 och w₂ = 2. Indata är 0 eller 1. Man vill välja bias b så att neuronen gör olika saker. En artificiell neuron multiplicerar varje indata med sin vikt och lägger ihop produkterna. Det kallas den viktade summan. Sedan läggs bias b till: z = w₁x₁ + w₂x₂ + b. Stegfunktionen skickar ut 1 om z ≥ 0 och annars 0.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna den viktade summan när båda indata är 1.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Viktad summa: w₁x₁ + w₂x₂</p><p>2 · 1 + 2 · 1 = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div>",
+        "ledtrad": "<p>Multiplicera och lägg ihop.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 4,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Vilket bias gör att neuronen bara skickar ut 1 när båda indata är 1? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva varje bias</p><p>Med b = −3 ger båda indata z = 4 − 3 = 1 ≥ 0, men ett indata ger z = 2 − 3 = −1 < 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> b = −3.</p><ul><li><strong>b = −3:</strong> Bara (1, 1) ger z ≥ 0.</li><li><strong>b = −1:</strong> Då ger även ett ensamt indata z = 1, och utdata 1.</li><li><strong>b = −5:</strong> Då blir z negativt även när båda är 1, så utdata är alltid 0.</li><li><strong>b = 1:</strong> Då blir z positivt även när båda är 0.</li></ul></div>",
+        "ledtrad": "<p>Räkna z för (1, 1) och för (1, 0) med varje bias.</p>",
+        "alternativ": [
+          {
+            "txt": "b = −3",
+            "ratt": true,
+            "kommentar": "Bara (1, 1) ger z ≥ 0."
+          },
+          {
+            "txt": "b = −1",
+            "ratt": false,
+            "kommentar": "Då ger även ett ensamt indata z = 1, och utdata 1."
+          },
+          {
+            "txt": "b = −5",
+            "ratt": false,
+            "kommentar": "Då blir z negativt även när båda är 1, så utdata är alltid 0."
+          },
+          {
+            "txt": "b = 1",
+            "ratt": false,
+            "kommentar": "Då blir z positivt även när båda är 0."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "b = −3",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vilket bias gör att neuronen skickar ut 1 även när båda indata är 0? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">z = b när båda är 0</p><p>När båda indata är 0 är z = b. Då måste b vara minst 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> b = 1.</p><ul><li><strong>b = 1:</strong> z = 1 ≥ 0 när båda är 0.</li><li><strong>b = −1:</strong> Då är z = −1 när båda är 0.</li><li><strong>b = −3:</strong> Då är z = −3 när båda är 0.</li><li><strong>b = −5:</strong> Då är z = −5 när båda är 0.</li></ul></div>",
+        "ledtrad": "<p>Vad blir z när båda indata är 0?</p>",
+        "alternativ": [
+          {
+            "txt": "b = 1",
+            "ratt": true,
+            "kommentar": "z = 1 ≥ 0 när båda är 0."
+          },
+          {
+            "txt": "b = −1",
+            "ratt": false,
+            "kommentar": "Då är z = −1 när båda är 0."
+          },
+          {
+            "txt": "b = −3",
+            "ratt": false,
+            "kommentar": "Då är z = −3 när båda är 0."
+          },
+          {
+            "txt": "b = −5",
+            "ratt": false,
+            "kommentar": "Då är z = −5 när båda är 0."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "b = 1",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "id": "4.95",
+    "kap": 4,
+    "omr": "neurala",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Aktiveringsfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      7,
+      "Vikterna och bias"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 116\" role=\"img\" aria-label=\"Ett nätverk med indata x, en neuron h i ett dolt lager och en utneuron.\" style=\"width:100%;max-width:400px;height:auto\"><title>Ett nätverk med indata x, en neuron h i ett dolt lager och en utneuron.</title><line x1=\"60\" y1=\"64\" x2=\"180\" y2=\"64\" stroke=\"#94a3b8\" stroke-width=\"1.2\"/><line x1=\"180\" y1=\"64\" x2=\"300\" y2=\"64\" stroke=\"#94a3b8\" stroke-width=\"1.2\"/><text x=\"60\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Indata</text><circle cx=\"60\" cy=\"64\" r=\"16\" fill=\"#dbeafe\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"60\" y=\"69\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#111827\">x</text><text x=\"180\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Dolt lager</text><circle cx=\"180\" cy=\"64\" r=\"16\" fill=\"#fef3c7\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"180\" y=\"69\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#111827\">h</text><text x=\"300\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Utdata</text><circle cx=\"300\" cy=\"64\" r=\"16\" fill=\"#dcfce7\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"300\" y=\"69\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#111827\">ut</text></svg><p>Ett litet nätverk har två neuroner efter varandra. Båda använder ReLU. ReLU skickar ut z om z är positivt och annars 0.</p><p>Den första neuronen räknar h = ReLU(2x − 1). Den andra tar h som indata och räknar ut = ReLU(3h − 2). Indata är x = 2.</p><p>a) Beräkna h.</p><p>b) Beräkna nätverkets utdata.</p><p>c) Vad är det som ändras när ett neuralt nätverk tränas? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Vikterna och bias</p><p class=\"ul-alt\"><strong>B.</strong> Indata</p><p class=\"ul-alt\"><strong>C.</strong> Aktiveringsfunktionen byts ut varje gång</p><p class=\"ul-alt\"><strong>D.</strong> Antalet neuroner växer av sig självt</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">h = ReLU(2x − 1)</p><p>2 · 2 − 1 = 3. Talet är positivt, så h = 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ut = ReLU(3h − 2)</p><p>3 · 3 − 2 = 7. Talet är positivt, så utdata är 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vikter och bias</p><p>Under träningen ändras vikterna och bias lite i taget, så att nätverket gör färre fel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vikterna och bias.</p><ul><li><strong>A:</strong> Här är det talen 2, −1, 3 och −2.</li><li><strong>B:</strong> Indata kommer från omvärlden, till exempel en bild.</li><li><strong>C:</strong> ReLU är densamma, det är talen som ändras.</li><li><strong>D:</strong> Antalet neuroner bestäms av den som bygger nätverket.</li></ul></div></div></div></div>",
+    "ledtrad": "<p>Utdata från den första neuronen blir indata till den andra.</p>",
+    "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 116\" role=\"img\" aria-label=\"Ett nätverk med indata x, en neuron h i ett dolt lager och en utneuron.\" style=\"width:100%;max-width:400px;height:auto\"><title>Ett nätverk med indata x, en neuron h i ett dolt lager och en utneuron.</title><line x1=\"60\" y1=\"64\" x2=\"180\" y2=\"64\" stroke=\"#94a3b8\" stroke-width=\"1.2\"/><line x1=\"180\" y1=\"64\" x2=\"300\" y2=\"64\" stroke=\"#94a3b8\" stroke-width=\"1.2\"/><text x=\"60\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Indata</text><circle cx=\"60\" cy=\"64\" r=\"16\" fill=\"#dbeafe\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"60\" y=\"69\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#111827\">x</text><text x=\"180\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Dolt lager</text><circle cx=\"180\" cy=\"64\" r=\"16\" fill=\"#fef3c7\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"180\" y=\"69\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#111827\">h</text><text x=\"300\" y=\"22\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#111827\">Utdata</text><circle cx=\"300\" cy=\"64\" r=\"16\" fill=\"#dcfce7\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"300\" y=\"69\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#111827\">ut</text></svg><p>Ett litet nätverk har två neuroner efter varandra. Båda använder ReLU. ReLU skickar ut z om z är positivt och annars 0.</p><p>Den första neuronen räknar h = ReLU(2x − 1). Den andra tar h som indata och räknar ut = ReLU(3h − 2). Indata är x = 2.</p>",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "fraga": "<p>Beräkna h.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">h = ReLU(2x − 1)</p><p>2 · 2 − 1 = 3. Talet är positivt, så h = 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+        "ledtrad": "<p>Sätt in x = 2.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 3,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "a"
+      },
+      {
+        "fraga": "<p>Beräkna nätverkets utdata.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">ut = ReLU(3h − 2)</p><p>3 · 3 − 2 = 7. Talet är positivt, så utdata är 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7.</p></div>",
+        "ledtrad": "<p>Använd h från förra frågan som indata.</p>",
+        "alternativ": [],
+        "visaAlternativ": false,
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "numeriskt",
+        "rättSvar": 7,
+        "tolerans": 0,
+        "svarFormat": "numeriskt",
+        "svarEnhet": null,
+        "etikett": "b"
+      },
+      {
+        "fraga": "<p>Vad är det som ändras när ett neuralt nätverk tränas? Välj ett alternativ.</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vikter och bias</p><p>Under träningen ändras vikterna och bias lite i taget, så att nätverket gör färre fel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vikterna och bias.</p><ul><li><strong>Vikterna och bias:</strong> Här är det talen 2, −1, 3 och −2.</li><li><strong>Indata:</strong> Indata kommer från omvärlden, till exempel en bild.</li><li><strong>Aktiveringsfunktionen byts ut varje gång:</strong> ReLU är densamma, det är talen som ändras.</li><li><strong>Antalet neuroner växer av sig självt:</strong> Antalet neuroner bestäms av den som bygger nätverket.</li></ul></div>",
+        "ledtrad": "<p>Vilka tal i formlerna skulle man kunna justera?</p>",
+        "alternativ": [
+          {
+            "txt": "Vikterna och bias",
+            "ratt": true,
+            "kommentar": "Här är det talen 2, −1, 3 och −2."
+          },
+          {
+            "txt": "Indata",
+            "ratt": false,
+            "kommentar": "Indata kommer från omvärlden, till exempel en bild."
+          },
+          {
+            "txt": "Aktiveringsfunktionen byts ut varje gång",
+            "ratt": false,
+            "kommentar": "ReLU är densamma, det är talen som ändras."
+          },
+          {
+            "txt": "Antalet neuroner växer av sig självt",
+            "ratt": false,
+            "kommentar": "Antalet neuroner bestäms av den som bygger nätverket."
+          }
+        ],
+        "visaAlternativ": true,
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true,
+        "geogebra": false,
+        "självrättning": true,
+        "spel": true,
+        "svarstyp": "alternativ",
+        "rättSvar": "Vikterna och bias",
+        "tolerans": null,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "etikett": "c"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   }
 ];

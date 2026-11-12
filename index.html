@@ -9157,16 +9157,60 @@ function formFranHistorik(cp,area,prior){
   }
   return n ? {...st,n,r:formRattFranHistorik(cp,area)} : null;
 }
+/* Rättvis omräkning av äldre profiler (användarbeslut 2026-11-12, efter att en elev tappade
+   20 av 35 starka moment i Ma5 bara genom att öppna kursen). Två fel rättas:
+   1. Kursmätaren på startsidan räknade en kurs som inte var öppen med den gamla regeln
+      (andel rätt eller förmåga utan krav på visad nivå), och kursen räknades om med den nya
+      först när den öppnades. Nu räknas båda med samma funktion, formagaRattvis.
+   2. Historiken sparar bara de 300 senaste svaren per kurs. Omräkningen läste bara historiken,
+      så äldre svar på nivå 3–5 försvann. Nu räknas också nivåstatistiken (cp.levels), som har
+      alla svar. Varje nivå i den börjar med upp till tre påhittade startsvar (levelStats), så bara
+      svaren utöver tre räknas, högst sex per nivå.
+   Förmågan och antalet rätt per nivå blir det största av det sparade värdet, nivåstatistiken
+   och (när kursen är öppen och nivåerna går att slå upp) historiken. Omräkningen kan alltså
+   aldrig sänka ett läge. Den görs en gång per område och markeras med v. */
+const FORM_VERSION=2;
+function formGiltig(st){ return !!st && Number.isFinite(st.mu) && Number.isFinite(st.sd); }
+function formFranNivastatistik(cp,area,prior){
+  const a=cp.levels?.[area];
+  if(!a) return null;
+  let st={...prior}, n=0; const r={};
+  for(const L of NIVAER){
+    const x=a[L]; if(!x) continue;
+    const k=Math.min(6,Math.max(0,Math.floor(x.n||0)-3));
+    if(!k) continue;
+    const rr=Math.round(Math.max(0,Math.min(1,x.s))*k);
+    for(let i=0;i<k;i++){ st=formBayes(st,FORM_B[L],i<rr?1:0); n++; }
+    if(rr) r[L]=rr;
+  }
+  return n ? {...st,n,r} : null;
+}
+function formagaRattvis(area,cp,aktiv){
+  const sparad=cp?.formaga?.[area];
+  if(formGiltig(sparad) && sparad.v>=FORM_VERSION) return sparad;
+  const prior=formKursPrior(cp,area);
+  const kand=[];
+  if(formGiltig(sparad)) kand.push(sparad);
+  const niv=formFranNivastatistik(cp,area,prior); if(niv) kand.push(niv);
+  if(aktiv && (cp.history||[]).some(h=>h?.area===area)){
+    const hist=formFranHistorik(cp,area,prior); if(hist) kand.push(hist);
+  }
+  if(!kand.length) return null;
+  const p3=st=>formForvantad(st,FORM_B["3"]);
+  const bast=kand.reduce((x,y)=>p3(y)>p3(x)?y:x);
+  const r={};
+  for(const k of kand) for(const [L,x] of Object.entries(k.r||{})) r[L]=Math.max(r[L]||0,x||0);
+  return {mu:bast.mu,sd:bast.sd,n:Math.max(...kand.map(k=>k.n||0)),r,v:FORM_VERSION,at:sparad?.at||Date.now()};
+}
+/* Förmågan i en kurs som inte är öppen: samma omräkning, men utan historiken (nivåerna finns
+   bara i den öppna kursens bank) och utan att spara. */
+function formagaInaktiv(area,cp){ return formagaRattvis(area,cp,false); }
 function formagaLas(area,cp=ensureCourseProfile()){
   const sparad=cp.formaga?.[area];
-  if(sparad && Number.isFinite(sparad.mu) && Number.isFinite(sparad.sd)){
-    if(!sparad.r) sparad.r=formRattFranHistorik(cp,area);   // sparad före lägena 2026-11-05
-    return sparad;
-  }
-  const prior=formKursPrior(cp,area);
-  const gammal=(cp.history||[]).some(h=>h?.area===area) || cp.levels?.[area] ? formFranHistorik(cp,area,prior) : null;
-  if(gammal){ (cp.formaga ||= {})[area]={...gammal,at:Date.now()}; return cp.formaga[area]; }
-  return prior;
+  if(formGiltig(sparad) && sparad.v>=FORM_VERSION) return sparad;
+  const ny=formagaRattvis(area,cp,cp===ensureCourseProfile());
+  if(ny){ (cp.formaga ||= {})[area]=ny; return ny; }
+  return formKursPrior(cp,area);
 }
 /* Gissningschans: flervalskort med ett rätt alternativ. */
 function formGissning(t){
@@ -9180,7 +9224,7 @@ function formagaUppdatera(t,y,cp=ensureCourseProfile()){
   const st=formagaLas(area,cp);
   const ny=formBayes(st,FORM_B[L],Math.max(0,Math.min(1,y)),formGissning(t),t.ursprungsId?FORM_KEDJA_VIKT:1);
   const r={...(st.r||{})}; if(y>=1) r[L]=(r[L]||0)+1;
-  (cp.formaga ||= {})[area]={...ny,r,at:Date.now()};
+  (cp.formaga ||= {})[area]={...ny,r,v:FORM_VERSION,at:Date.now()};
 }
 /* Fas 2: hur väl ett område sitter, 0–1, ur förmågan: medelchansen att klara nivå 2 och 3.
    Ersätter andel rätt (cp.areas) i etiketter, prickar, passval och kursöversikter. Andel rätt
@@ -9194,7 +9238,7 @@ function omradeHar(area,cp=ensureCourseProfile()){
 }
 function omradeM(area,cp=ensureCourseProfile()){
   const aktiv=cp===ensureCourseProfile();
-  const st=aktiv ? formagaLas(area,cp) : cp?.formaga?.[area];
+  const st=aktiv ? formagaLas(area,cp) : formagaInaktiv(area,cp);
   if(!st || !Number.isFinite(st.mu)) return typeof cp?.areas?.[area]==="number" ? cp.areas[area] : 0;
   return OMRADE_NIVAER.reduce((x,L)=>x+formForvantad(st,FORM_B[L]),0)/OMRADE_NIVAER.length;
 }
@@ -9250,7 +9294,7 @@ function mycketGrad(st,hoga){
 function lageFor(area,cp=ensureCourseProfile()){
   if(!omradeHar(area,cp)) return LAGEN.ny;
   const aktiv=cp===ensureCourseProfile();
-  const st=aktiv ? formagaLas(area,cp) : cp?.formaga?.[area];
+  const st=aktiv ? formagaLas(area,cp) : formagaInaktiv(area,cp);
   if(!st || !Number.isFinite(st.mu)){
     const m=typeof cp?.areas?.[area]==="number" ? cp.areas[area] : 0;
     return m>=.78 ? LAGEN.stark : m>=.55 ? LAGEN.pagang : LAGEN.behover;

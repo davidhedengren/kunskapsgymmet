@@ -31621,7 +31621,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>En rektangel har omkretsen 40 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"240\" viewBox=\"0 0 390 240\" role=\"img\" aria-label=\"Rektangel med markerade sidlängder\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"238\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"96\" y=\"62\" width=\"205\" height=\"126\" fill=\"#F5F8FC\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"198\" y=\"209\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2A5D9E\">x</text><text x=\"62\" y=\"128\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2A5D9E\">20-x</text></svg></span><p>Bestäm rektangelns största möjliga area med hjälp av derivata.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt ena sidan vara \\(x\\) cm.</p></li><li><p>Om den andra sidan är \\(y\\) gäller</p><p>\\[2x+2y=40\\Rightarrow y=20-x.\\]</p></li><li><p>Arean blir</p><p>\\[A(x)=x(20-x)=20x-x^2.\\]</p><p>\\[A^{\\prime}(x)=20-2x.\\]</p><p>\\[20-2x=0\\Rightarrow x=10.\\]</p></li><li><div class=\"facit-berakning\"><p>Då är även</p><div class=\"facit-matte\">\\[y=20-10=10\\].</div></div></li><li><p>Eftersom \\(A^{\\prime\\prime}(x)=-2&lt;0\\) ger punkten ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> sidlängderna är \\(10\\) cm och \\(10\\) cm och största arean är \\(\\boxed{100\\text{ cm}^2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omkretsen 40 ger den andra sidan</p><div class=\"facit-matte\">\\[2x+2y=40\\quad\\Rightarrow\\quad y=20-x\\]</div></li><li><p class=\"facit-rubrik\">Arean som funktion av x</p><div class=\"facit-matte\">\\[A(x)=x(20-x)=20x-x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=20-2x=0\\quad\\Rightarrow\\quad x=10,\\qquad y=10\\]</div></li><li><p class=\"facit-rubrik\">\\(A''(x)=-2\\lt0\\) ger maximum</p><div class=\"facit-matte\">\\[A(10)=10\\cdot10=100\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100 cm²</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -31835,7 +31835,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En rektangel har arean \\(144\\text{ cm}^2\\). Bestäm med hjälp av derivata den minsta möjliga omkretsen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt ena sidan vara \\(x&gt;0\\).</p></li><li><p>Då är den andra sidan \\(144/x\\), så omkretsen blir</p><p>\\[O(x)=2x+\\frac{288}{x}.\\]</p><p>\\[O'(x)=2-\\frac{288}{x^2}.\\]</p><p>\\[O'(x)=0\\Rightarrow x^2=144\\Rightarrow x=12.\\]</p></li><li><p>Den andra sidan är också 12 cm.</p></li><li><p>Derivatan går från negativ till positiv, så detta ger ett minimum.</p><p>\\[O_{\\min}=2\\cdot12+2\\cdot12=48\\text{ cm}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{48\\text{ cm}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean 144 ger den andra sidan</p><div class=\"facit-matte\">\\[y=\\frac{144}{x}\\]</div></li><li><p class=\"facit-rubrik\">Omkretsen som funktion av x</p><div class=\"facit-matte\">\\[O(x)=2x+\\frac{288}{x}=2x+288x^{-1}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(O'(x)=0\\)</p><div class=\"facit-matte\">\\[O'(x)=2-\\frac{288}{x^2}=0\\quad\\Rightarrow\\quad x^2=144\\]</div><div class=\"facit-matte\">\\[\\Rightarrow x=12\\]</div></li><li><p class=\"facit-rubrik\">Minsta omkretsen: en kvadrat med sidan 12</p><div class=\"facit-matte\">\\[O(12)=24+24=48\\ \\text{cm}\\]</div><p>\\(O'\\) går från − till +, alltså minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 48 cm</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -31911,7 +31911,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till \\(f(x)=2 x + 3\\) som uppfyller \\(F(1)=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla primitiva funktioner har formen</p><p>\\[F(x)=x^{2} + 3 x+C.\\]</p></li><li><p>Villkoret ger</p><p>\\[0=4+C\\]</p></li><li><div class=\"facit-berakning\"><p>så</p><div class=\"facit-matte\">\\[C=-4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=x^{2} + 3 x - 4}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla primitiva funktioner till \\(2x+3\\)</p><div class=\"facit-matte\">\\[F(x)=x^2+3x+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(1)=0\\) bestämmer C</p><div class=\"facit-matte\">\\[1+3+C=0\\quad\\Rightarrow\\quad C=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^2+3x-4\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -32049,7 +32049,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Från en kvadratisk kartong med sidan 24 cm klipps lika stora kvadrater med sidan \\(x\\) bort i varje hörn. Kanterna viks upp till en öppen låda.</p><p>Bestäm \\(x\\) så att lådans volym blir så stor som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lådans höjd blir \\(x\\) och botten får sidan \\(24-2x\\).</p></li><li><p>Volymen är</p><p>\\[V(x)=x(24-2x)^2.\\]</p></li><li><p>Derivera:</p><p>\\[V^{\\prime}(x)=(24-2x)(24-6x).\\]</p></li><li><p>I det fysiskt relevanta intervallet \\(0&lt;x&lt;12{,}0\\) ger \\(24-6x=0\\):</p><p>\\[x=24/6=4.\\]</p></li><li><p>Ändpunkterna ger volym 0 och teckenstudium visar att denna punkt ger maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=4\\text{ cm}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Höjd x och kvadratisk botten med sidan \\(24-2x\\)</p><div class=\"facit-matte\">\\[V(x)=x(24-2x)^2,\\qquad0\\lt x\\lt12\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera ut innan du deriverar</p><div class=\"facit-matte\">\\[V(x)=x(576-96x+4x^2)=4x^3-96x^2+576x\\]</div></li><li><p class=\"facit-rubrik\">\\(V'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[V'(x)=12x^2-192x+576=0\\]</div><div class=\"facit-matte\">\\[\\Leftrightarrow x^2-16x+48=0\\]</div><div class=\"facit-matte\">\\[x=8\\pm\\sqrt{64-48}=8\\pm4\\]</div></li><li><p class=\"facit-rubrik\">Bara \\(x=4\\) ligger i intervallet</p><p>\\(x=12\\) ger botten med sidan 0. Volymen är 0 i ändpunkterna, så x = 4 ger maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\) cm</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -32119,7 +32119,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till \\(f(x)=4 e^{2 x}\\) som uppfyller \\(F(0)=7\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla primitiva funktioner har formen</p><p>\\[F(x)=2 e^{2 x}+C.\\]</p></li><li><p>Villkoret ger</p><p>\\[7=2+C\\]</p></li><li><div class=\"facit-berakning\"><p>så</p><div class=\"facit-matte\">\\[C=5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=2 e^{2 x} + 5}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(e^{2x}\\) har faktorn \\(\\tfrac12\\)</p><div class=\"facit-matte\">\\[F(x)=4\\cdot\\frac12e^{2x}+C=2e^{2x}+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=7\\) bestämmer C, med \\(e^0=1\\)</p><div class=\"facit-matte\">\\[2+C=7\\quad\\Rightarrow\\quad C=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=2e^{2x}+5\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -32257,7 +32257,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Ett företag säljer \\(x\\) hundra enheter av en vara per vecka. Priset per enhet modelleras av \\(p(x)=120-2x\\) kr.</p><p>Bestäm det värde på \\(x\\) som maximerar intäkten och ange den maximala intäkten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Intäkten är</p><div class=\"facit-matte\">\\[R(x)=100x(120-2x)\\].</div></div></li><li><p>Faktoren 100 påverkar inte var maximum ligger.</p></li><li><p>\\(R^{\\prime}(x)=100(120-4x)\\), så \\(x=30\\).</p></li><li><p>Då säljs 3000 enheter till 60 kr styck och intäkten är 180 000 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=30\\), maximal intäkt \\(180\\,000\\) kr</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Intäkt = antal · pris (x hundra enheter)</p><div class=\"facit-matte\">\\[R(x)=100x(120-2x)=12\\,000x-200x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(R'(x)=0\\)</p><div class=\"facit-matte\">\\[R'(x)=12\\,000-400x=0\\quad\\Rightarrow\\quad x=30\\]</div></li><li><p class=\"facit-rubrik\">3000 enheter till 60 kr</p><div class=\"facit-matte\">\\[R(30)=100\\cdot30\\cdot60=180\\,000\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30\\), maximal intäkt \\(180\\,000\\) kr</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -33320,8 +33320,8 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Två produktionslinjer har kostnaderna</p><p>\\[K_1(x)=2x^2+20,\\qquad K_2(x)=x^3-6x^2+18x+12.\\]</p><p>På intervallet \\(0\\le x\\le4\\), för vilket \\(x\\) överstiger \\(K_2(x)\\) värdet på \\(K_1(x)\\) med så mycket som möjligt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bilda differensen</p><p>\\[D(x)=K_2(x)-K_1(x)=x^3-8x^2+18x-8.\\]</p><p>\\[D^{\\prime}(x)=3x^2-16x+18=0\\]</p></li><li><div class=\"facit-berakning\"><p>Dividera med 3 och använd pq-formeln:</p><div class=\"facit-matte\">\\[x=\\frac83\\pm\\sqrt{\\frac{64}9-6}=\\frac{8\\pm\\sqrt{10}}3\\].</div></div></li><li><p>Båda ligger i intervallet, så de måste jämföras med ändpunkterna.</p></li><li><p>Det största värdet på \\(D\\) fås vid</p><p>\\[x=\\frac{8-\\sqrt{10}}3\\approx1{,}61.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(1{,}61\\)</strong></p></div>",
+    "t": "<p>Två produktionslinjer har kostnaderna</p><p>\\[K_1(x)=2x^2+20,\\]\\[K_2(x)=x^3-6x^2+18x+12.\\]</p><p>På intervallet \\(0\\le x\\le4\\), för vilket \\(x\\) överstiger \\(K_2(x)\\) värdet på \\(K_1(x)\\) med så mycket som möjligt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skillnaden \\(K_2-K_1\\) som funktion</p><div class=\"facit-matte\">\\[D(x)=K_2(x)-K_1(x)=x^3-8x^2+18x-8\\]</div></li><li><p class=\"facit-rubrik\">\\(D'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[3x^2-16x+18=0\\quad\\Leftrightarrow\\quad x^2-\\frac{16}{3}x+6=0\\]</div><div class=\"facit-matte\">\\[x=\\frac83\\pm\\sqrt{\\frac{64}{9}-6}=\\frac{8\\pm\\sqrt{10}}{3}\\]</div></li><li><p class=\"facit-rubrik\">Slutet intervall: jämför derivatans nollställen med ändpunkterna</p><div class=\"facit-matte\">\\[D(0)=-8,\\quad D(1{,}61)\\approx4{,}42\\]</div><div class=\"facit-matte\">\\[D(3{,}72)\\approx-0{,}27,\\quad D(4)=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\dfrac{8-\\sqrt{10}}{3}\\approx1{,}61\\)</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -33532,7 +33532,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Från hörnen på ett 30 cm × 20 cm stort kartongark klipps fyra lika stora kvadrater med sidan \\(x\\) bort. Kanterna viks upp till en öppen låda.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"250\" viewBox=\"0 0 390 250\" role=\"img\" aria-label=\"Rektangulärt ark med fyra kvadrater bortklippta\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"248\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"58\" y=\"54\" width=\"274\" height=\"145\" fill=\"#F8FAFC\" stroke=\"#2B2527\" stroke-width=\"2\" /><rect x=\"58\" y=\"54\" width=\"38\" height=\"38\" fill=\"#FBF0EE\" stroke=\"#B43123\" stroke-width=\"1.5\" /><rect x=\"294\" y=\"54\" width=\"38\" height=\"38\" fill=\"#FBF0EE\" stroke=\"#B43123\" stroke-width=\"1.5\" /><rect x=\"58\" y=\"161\" width=\"38\" height=\"38\" fill=\"#FBF0EE\" stroke=\"#B43123\" stroke-width=\"1.5\" /><rect x=\"294\" y=\"161\" width=\"38\" height=\"38\" fill=\"#FBF0EE\" stroke=\"#B43123\" stroke-width=\"1.5\" /><text x=\"77\" y=\"79\" text-anchor=\"middle\" font-size=\"12\" fill=\"#B43123\">x</text><text x=\"195\" y=\"222\" text-anchor=\"middle\" font-size=\"12\">30 cm</text><text x=\"348\" y=\"129\" font-size=\"12\">20 cm</text></svg></span><p>Bestäm \\(x\\) så att lådans volym blir så stor som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter vikningen blir höjden \\(x\\), längden \\(30-2x\\) och bredden \\(20-2x\\).</p></li><li><p>Därför</p><p>\\[V(x)=x(30-2x)(20-2x),\\qquad 0&lt;x&lt;10.\\]</p></li><li><p>Utveckla före derivering:</p><p>\\[V(x)=4x^3-100x^2+600x.\\]</p><p>\\[V^{\\prime}(x)=12x^2-200x+600.\\]</p></li><li><p>Ekvationen \\(V^{\\prime}(x)=0\\) ger två rötter, men bara \\(x\\approx 3{,}92\\) ligger i intervallet \\(0&lt;x&lt;10\\) och ger maximum.</p></li><li><p>Volymen blir då ungefär \\(1056{,}3\\text{ cm}^3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x\\approx 3{,}92\\text{ cm}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lådans mått: x, \\(30-2x\\) och \\(20-2x\\)</p><div class=\"facit-matte\">\\[V(x)=x(30-2x)(20-2x)=4x^3-100x^2+600x\\]</div><div class=\"facit-matte\">\\[0\\lt x\\lt10\\]</div></li><li><p class=\"facit-rubrik\">\\(V'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[12x^2-200x+600=0\\quad\\Leftrightarrow\\quad x^2-\\frac{50}{3}x+50=0\\]</div><div class=\"facit-matte\">\\[x=\\frac{25}{3}\\pm\\sqrt{\\frac{625}{9}-50}\\approx8{,}33\\pm4{,}41\\]</div></li><li><p class=\"facit-rubrik\">Bara \\(x\\approx3{,}92\\) ligger i intervallet</p><p>Den andra roten, cirka 12,7, är för stor. Volymen blir cirka 1056 cm³.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx3{,}92\\) cm</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -33739,7 +33739,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En rektangulär hundrastgård ska byggas intill en rak flod. Sidan mot floden behöver inget stängsel. Till de övriga tre sidorna finns 60 m stängsel.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"240\" viewBox=\"0 0 390 240\" role=\"img\" aria-label=\"Rektangel med markerade sidlängder\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"238\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"96\" y=\"62\" width=\"205\" height=\"126\" fill=\"#F5F8FC\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"198\" y=\"209\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2A5D9E\">x</text><text x=\"62\" y=\"128\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2A5D9E\">(60-x)/2</text></svg></span><p>Bestäm måtten som ger största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt sidan parallell med floden vara \\(x\\).</p></li><li><p>De två andra sidorna får då vardera längden \\((60-x)/2\\).</p><p>\\[A(x)=x\\frac{60-x}2=30x-\\frac{x^2}2.\\]</p><p>\\[A^{\\prime}(x)=30-x.\\]</p></li><li><p>Maximum fås när \\(30-x=0\\), alltså \\(x=30\\).</p></li><li><p>De två övriga sidorna blir \\(15\\) m.</p></li><li><p>Andraderivatan är \\(-1&lt;0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{30\\text{ m}\\times15\\text{ m}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stängsel på tre sidor: \\(x+2\\cdot\\text{sida}=60\\)</p><div class=\"facit-matte\">\\[\\text{sida}=\\frac{60-x}{2}\\]</div></li><li><p class=\"facit-rubrik\">Arean som funktion av x</p><div class=\"facit-matte\">\\[A(x)=x\\cdot\\frac{60-x}{2}=30x-\\frac{x^2}{2}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=30-x=0\\quad\\Rightarrow\\quad x=30,\\qquad\\text{sida}=15\\]</div><p>\\(A''=-1\\lt0\\), alltså maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 m × 15 m</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -33963,7 +33963,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En rektangel är symmetrisk kring y-axeln. Dess övre hörn ligger på parabeln \\(y=9-x^2\\) och dess undre sida ligger på x-axeln.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"250\" viewBox=\"0 0 390 250\" role=\"img\" aria-label=\"Parabeln y=9-x^2\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"248\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"67.3\" y1=\"20\" x2=\"67.3\" y2=\"216\" stroke=\"#EEEDEF\" /><text x=\"67.3\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">-3</text><line x1=\"113.9\" y1=\"20\" x2=\"113.9\" y2=\"216\" stroke=\"#EEEDEF\" /><text x=\"113.9\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">-2</text><line x1=\"160.4\" y1=\"20\" x2=\"160.4\" y2=\"216\" stroke=\"#EEEDEF\" /><text x=\"160.4\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">-1</text><line x1=\"207.0\" y1=\"20\" x2=\"207.0\" y2=\"216\" stroke=\"#EEEDEF\" /><line x1=\"253.6\" y1=\"20\" x2=\"253.6\" y2=\"216\" stroke=\"#EEEDEF\" /><text x=\"253.6\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">1</text><line x1=\"300.1\" y1=\"20\" x2=\"300.1\" y2=\"216\" stroke=\"#EEEDEF\" /><text x=\"300.1\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">2</text><line x1=\"346.7\" y1=\"20\" x2=\"346.7\" y2=\"216\" stroke=\"#EEEDEF\" /><text x=\"346.7\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">3</text><line x1=\"44\" y1=\"216.0\" x2=\"370\" y2=\"216.0\" stroke=\"#EEEDEF\" /><line x1=\"44\" y1=\"196.4\" x2=\"370\" y2=\"196.4\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"199.4\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">1</text><line x1=\"44\" y1=\"176.8\" x2=\"370\" y2=\"176.8\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"179.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">2</text><line x1=\"44\" y1=\"157.2\" x2=\"370\" y2=\"157.2\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"160.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">3</text><line x1=\"44\" y1=\"137.6\" x2=\"370\" y2=\"137.6\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"140.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">4</text><line x1=\"44\" y1=\"118.0\" x2=\"370\" y2=\"118.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"121.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">5</text><line x1=\"44\" y1=\"98.4\" x2=\"370\" y2=\"98.4\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"101.4\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">6</text><line x1=\"44\" y1=\"78.8\" x2=\"370\" y2=\"78.8\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"81.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">7</text><line x1=\"44\" y1=\"59.2\" x2=\"370\" y2=\"59.2\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"62.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">8</text><line x1=\"44\" y1=\"39.6\" x2=\"370\" y2=\"39.6\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"42.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">9</text><line x1=\"44\" y1=\"20.0\" x2=\"370\" y2=\"20.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"23.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">10</text><line x1=\"207.0\" y1=\"20\" x2=\"207.0\" y2=\"216\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><line x1=\"44\" y1=\"216.0\" x2=\"370\" y2=\"216.0\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><path d=\"M 60.3 234.1 L 61.7 230.5 L 63.0 226.9 L 64.4 223.4 L 65.7 219.9 L 67.1 216.5 L 68.4 213.1 L 69.8 209.7 L 71.2 206.3 L 72.5 203.0 L 73.9 199.7 L 75.2 196.5 L 76.6 193.3 L 78.0 190.1 L 79.3 186.9 L 80.7 183.8 L 82.0 180.7 L 83.4 177.7 L 84.8 174.7 L 86.1 171.7 L 87.5 168.7 L 88.8 165.8 L 90.2 162.9 L 91.5 160.1 L 92.9 157.2 L 94.3 154.5 L 95.6 151.7 L 97.0 149.0 L 98.3 146.3 L 99.7 143.7 L 101.1 141.0 L 102.4 138.5 L 103.8 135.9 L 105.1 133.4 L 106.5 130.9 L 107.8 128.5 L 109.2 126.0 L 110.6 123.7 L 111.9 121.3 L 113.3 119.0 L 114.6 116.7 L 116.0 114.4 L 117.4 112.2 L 118.7 110.0 L 120.1 107.9 L 121.4 105.8 L 122.8 103.7 L 124.1 101.6 L 125.5 99.6 L 126.9 97.6 L 128.2 95.7 L 129.6 93.8 L 130.9 91.9 L 132.3 90.0 L 133.7 88.2 L 135.0 86.4 L 136.4 84.7 L 137.7 83.0 L 139.1 81.3 L 140.4 79.6 L 141.8 78.0 L 143.2 76.4 L 144.5 74.9 L 145.9 73.4 L 147.2 71.9 L 148.6 70.4 L 149.9 69.0 L 151.3 67.6 L 152.7 66.3 L 154.0 65.0 L 155.4 63.7 L 156.7 62.4 L 158.1 61.2 L 159.5 60.0 L 160.8 58.9 L 162.2 57.8 L 163.5 56.7 L 164.9 55.6 L 166.2 54.6 L 167.6 53.6 L 169.0 52.7 L 170.3 51.8 L 171.7 50.9 L 173.0 50.0 L 174.4 49.2 L 175.8 48.4 L 177.1 47.7 L 178.5 47.0 L 179.8 46.3 L 181.2 45.6 L 182.5 45.0 L 183.9 44.4 L 185.3 43.9 L 186.6 43.4 L 188.0 42.9 L 189.3 42.4 L 190.7 42.0 L 192.1 41.6 L 193.4 41.3 L 194.8 41.0 L 196.1 40.7 L 197.5 40.4 L 198.9 40.2 L 200.2 40.0 L 201.6 39.9 L 202.9 39.8 L 204.3 39.7 L 205.6 39.6 L 207.0 39.6 L 208.4 39.6 L 209.7 39.7 L 211.1 39.8 L 212.4 39.9 L 213.8 40.0 L 215.2 40.2 L 216.5 40.4 L 217.9 40.7 L 219.2 41.0 L 220.6 41.3 L 221.9 41.6 L 223.3 42.0 L 224.7 42.4 L 226.0 42.9 L 227.4 43.4 L 228.7 43.9 L 230.1 44.4 L 231.5 45.0 L 232.8 45.6 L 234.2 46.3 L 235.5 47.0 L 236.9 47.7 L 238.2 48.4 L 239.6 49.2 L 241.0 50.0 L 242.3 50.9 L 243.7 51.8 L 245.0 52.7 L 246.4 53.6 L 247.8 54.6 L 249.1 55.6 L 250.5 56.7 L 251.8 57.8 L 253.2 58.9 L 254.5 60.0 L 255.9 61.2 L 257.3 62.4 L 258.6 63.7 L 260.0 65.0 L 261.3 66.3 L 262.7 67.6 L 264.0 69.0 L 265.4 70.4 L 266.8 71.9 L 268.1 73.4 L 269.5 74.9 L 270.8 76.4 L 272.2 78.0 L 273.6 79.6 L 274.9 81.3 L 276.3 83.0 L 277.6 84.7 L 279.0 86.4 L 280.4 88.2 L 281.7 90.0 L 283.1 91.9 L 284.4 93.8 L 285.8 95.7 L 287.1 97.6 L 288.5 99.6 L 289.9 101.6 L 291.2 103.7 L 292.6 105.8 L 293.9 107.9 L 295.3 110.0 L 296.6 112.2 L 298.0 114.4 L 299.4 116.7 L 300.7 119.0 L 302.1 121.3 L 303.4 123.7 L 304.8 126.0 L 306.2 128.5 L 307.5 130.9 L 308.9 133.4 L 310.2 135.9 L 311.6 138.5 L 313.0 141.0 L 314.3 143.7 L 315.7 146.3 L 317.0 149.0 L 318.4 151.7 L 319.7 154.5 L 321.1 157.2 L 322.5 160.1 L 323.8 162.9 L 325.2 165.8 L 326.5 168.7 L 327.9 171.7 L 329.2 174.7 L 330.6 177.7 L 332.0 180.7 L 333.3 183.8 L 334.7 186.9 L 336.0 190.1 L 337.4 193.3 L 338.8 196.5 L 340.1 199.7 L 341.5 203.0 L 342.8 206.3 L 344.2 209.7 L 345.5 213.1 L 346.9 216.5 L 348.3 219.9 L 349.6 223.4 L 351.0 226.9 L 352.3 230.5 L 353.7 234.1\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" /></svg></span><p>Bestäm rektangelns största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt det övre högra hörnet vara \\((x,9-x^2)\\), där \\(0&lt;x&lt;3\\).</p></li><li><p>Rektangelns bredd är då \\(2x\\) och höjden \\(9-x^2\\).</p><p>\\[A(x)=2x(9-x^2)=18x-2x^3.\\]</p><p>\\[A^{\\prime}(x)=18-6x^2.\\]</p><p>\\[18-6x^2=0\\Rightarrow x=\\sqrt3.\\]</p></li><li><p>Då är höjden \\(9-3=6\\) och bredden \\(2\\sqrt3\\).</p></li><li><p>Arean blir</p><p>\\[A_{\\max}=12\\sqrt3\\approx20{,}8.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{12\\sqrt3}\\) areaenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hörnet \\((x,\\ 9-x^2)\\) ger bredd och höjd</p><div class=\"facit-matte\">\\[\\text{bredd}=2x,\\qquad\\text{höjd}=9-x^2,\\qquad 0\\lt x\\lt3\\]</div></li><li><p class=\"facit-rubrik\">Arean som funktion av x</p><div class=\"facit-matte\">\\[A(x)=2x(9-x^2)=18x-2x^3\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=18-6x^2=0\\quad\\Rightarrow\\quad x^2=3\\quad\\Rightarrow\\quad x=\\sqrt3\\]</div></li><li><p class=\"facit-rubrik\">Största arean, med höjden \\(9-3=6\\)</p><div class=\"facit-matte\">\\[A=2\\sqrt3\\cdot(9-3)=12\\sqrt3\\approx20{,}8\\]</div><p>\\(A''(x)=-12x\\lt0\\), alltså maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\sqrt3\\) areaenheter</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -34172,7 +34172,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En affisch ska ha en tryckt rektangel med arean 600 cm². Marginalen ska vara 2 cm på vardera sidan och 3 cm upptill och nedtill.</p><p>Bestäm den tryckta rektangelns mått så att hela affischens area blir så liten som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt den tryckta rektangelns bredd vara \\(x\\) cm.</p></li><li><p>Höjden blir då \\(600/x\\).</p></li><li><p>Hela affischens mått är \\(x+4\\) och \\(600/x+6\\), så</p><p>\\[A(x)=(x+4)\\left(\\frac{600}{x}+6\\right)=624+6x+\\frac{2400}{x}.\\]</p><p>\\[A^{\\prime}(x)=6-\\frac{2400}{x^2}.\\]</p><p>\\[6-\\frac{2400}{x^2}=0\\Rightarrow x^2=400\\Rightarrow x=20.\\]</p></li><li><p>Höjden blir \\(600/20=30\\) cm.</p></li><li><p>Derivatan byter från negativ till positiv, så detta ger minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> den tryckta ytan ska vara \\(\\boxed{20\\text{ cm}\\times30\\text{ cm}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tryckytan 600 ger höjden</p><div class=\"facit-matte\">\\[\\text{bredd }x,\\qquad\\text{höjd }\\frac{600}{x}\\]</div></li><li><p class=\"facit-rubrik\">Hela affischen med marginalerna 2 och 3 cm</p><div class=\"facit-matte\">\\[A(x)=(x+4)\\left(\\frac{600}{x}+6\\right)=624+6x+\\frac{2400}{x}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=6-\\frac{2400}{x^2}=0\\]</div><div class=\"facit-matte\">\\[\\Rightarrow x^2=400\\quad\\Rightarrow\\quad x=20\\]</div></li><li><p class=\"facit-rubrik\">Tryckytans höjd när bredden är 20 cm</p><div class=\"facit-matte\">\\[\\frac{600}{20}=30\\ \\text{cm}\\]</div><p>\\(A'\\) går från − till +, alltså minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 cm × 30 cm</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -34613,7 +34613,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En sluten cylindrisk burk ska rymma 500 cm³. Radien är \\(r\\) cm.</p><p>Bestäm radien som minimerar burkens totala plåtarea. Bortse från materialspill.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymvillkoret \\(\\pi r^2h=500\\) ger</p><p>\\[h=\\frac{500}{\\pi r^2}.\\]</p></li><li><p>För en sluten cylinder är arean</p><p>\\[A=2\\pi r^2+2\\pi rh=2\\pi r^2+\\frac{1000}{r}.\\]</p><p>\\[A^{\\prime}(r)=4\\pi r-\\frac{1000}{r^2}=0\\Rightarrow r^3=\\frac{250}{\\pi}.\\]</p><p>\\[\\boxed{r=\\sqrt[3]{250/\\pi}\\approx4,3\\text{ cm}}.\\]</p></li><li><p>Derivatan går från negativ till positiv, så arean blir minimal.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4{,}3\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymen ger höjden</p><div class=\"facit-matte\">\\[\\pi r^2h=500\\quad\\Rightarrow\\quad h=\\frac{500}{\\pi r^2}\\]</div></li><li><p class=\"facit-rubrik\">Total area för sluten burk</p><div class=\"facit-matte\">\\[A(r)=2\\pi r^2+2\\pi rh=2\\pi r^2+\\frac{1000}{r}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(r)=0\\)</p><div class=\"facit-matte\">\\[A'(r)=4\\pi r-\\frac{1000}{r^2}=0\\quad\\Rightarrow\\quad r^3=\\frac{250}{\\pi}\\]</div><div class=\"facit-matte\">\\[r=\\sqrt[3]{250/\\pi}\\approx4{,}3\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,3 cm</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -34830,7 +34830,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En rektangulär hundrastgård ska omges av totalt 48 m stängsel. Bestäm med hjälp av derivata de sidlängder som ger största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt ena sidan vara \\(x\\) meter.</p></li><li><p>Då måste den andra sidan vara \\(24-x\\), eftersom \\(2x+2y=48\\).</p></li><li><p>Arean är</p><p>\\[A(x)=x(24-x)=24x-x^2.\\]</p></li><li><p>Derivera:</p><p>\\[A^{\\prime}(x)=24-2x.\\]</p><p>\\[24-2x=0\\Rightarrow x=12.\\]</p></li><li><p>Andraderivatan är \\(A^{\\prime\\prime}(x)=-2&lt;0\\), så punkten ger ett maximum.</p></li><li><p>Den andra sidan blir också 12 m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{12\\text{ m}\\times 12\\text{ m}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">48 m stängsel runt fyra sidor</p><div class=\"facit-matte\">\\[2x+2y=48\\quad\\Rightarrow\\quad y=24-x\\]</div></li><li><p class=\"facit-rubrik\">Arean som funktion av x</p><div class=\"facit-matte\">\\[A(x)=x(24-x)=24x-x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=24-2x=0\\quad\\Rightarrow\\quad x=12,\\qquad y=12\\]</div><p>\\(A''=-2\\lt0\\), alltså maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 m × 12 m</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -34862,7 +34862,7 @@ window.BANKMATO1 = [
       "sida 1",
       "sida 2"
     ],
-    "ledtrad": "<p>Välj \\(x\\) för en av sidlängderna och använd stängselvillkoret för att uttrycka den andra sidan med \\(x\\). Arean ska sedan skrivas som en funktion av en enda variabel innan derivatan används.</p>",
+    "ledtrad": "<p>Halva stängslet, 24 m, räcker till en lång och en kort sida. Skriv arean som funktion av x.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true,
@@ -35054,7 +35054,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En rektangulär hage byggs intill en lång rak vägg. Endast de tre övriga sidorna ska stängslas och totalt finns 52 m stängsel.</p><p>Bestäm med derivata de sidlängder som ger största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt de två sidorna vinkelräta mot väggen vara \\(x\\) meter och sidan parallell med väggen vara \\(y\\) meter.</p><p>\\[2x+y=52\\Rightarrow y=52-2x.\\]</p></li><li><p>Arean blir</p><p>\\[A(x)=x(52-2x)=52x-2x^2.\\]</p><p>\\[A^{\\prime}(x)=52-4x=0\\Rightarrow x=13.\\]</p></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[y=26\\].</div></div></li><li><p>Andraderivatan är negativ, så detta ger maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{13\\text{ m}\\times26\\text{ m}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tre sidor stängslas</p><div class=\"facit-matte\">\\[2x+y=52\\quad\\Rightarrow\\quad y=52-2x\\]</div></li><li><p class=\"facit-rubrik\">Arean som funktion av x</p><div class=\"facit-matte\">\\[A(x)=x(52-2x)=52x-2x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=52-4x=0\\quad\\Rightarrow\\quad x=13,\\qquad y=26\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13 m × 26 m</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -35510,7 +35510,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Arean av en rektangel med en viss fast omkrets kan beskrivas av</p><p>\\[A(x)=x(26-x),\\qquad 0&lt;x&lt;26.\\]</p><p>Bestäm det värde på \\(x\\) som ger störst area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A(x)=26x-x^2\\Rightarrow A'(x)=26-2x.\\]</p><p>\\[26-2x=0\\Rightarrow x=13.\\]</p></li><li><p>Eftersom \\(A'\\) är positiv före 13 och negativ efter 13 blir arean maximal där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=13}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera ut \\(x(26-x)\\) och derivera</p><div class=\"facit-matte\">\\[A(x)=26x-x^2,\\qquad A'(x)=26-2x\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[26-2x=0\\quad\\Rightarrow\\quad x=13\\]</div><p>\\(A'\\) går från + till −.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=13\\)</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": false,
@@ -35677,7 +35677,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En rektangulär hage ska delas i två lika delar med ett extra stängsel parallellt med kortsidan. Totalt finns 80 m stängsel.</p><p>Låt rektangelns längd vara \\(x\\) och kortsidan \\(y\\).</p><p>Bestäm måtten som ger största möjliga totalarea.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två långsidor och tre kortsidor ska stängslas:</p><p>\\[2x+3y=80\\Rightarrow y=\\frac{80-2x}{3}.\\]</p></li><li><p>Arean är</p><p>\\[A(x)=xy=\\frac{80x-2x^2}{3}.\\]</p><p>\\[A'(x)=\\frac{80-4x}{3}=0\\Rightarrow x=20.\\]</p><p>\\[y=\\frac{80-40}{3}=\\frac{40}{3}\\approx13{,}3.\\]</p></li><li><p>Andraderivatan är negativ, så arean är maximal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) m gånger \\(40/3\\) m (cirka \\(13{,}3\\) m).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två långsidor och tre kortsidor</p><div class=\"facit-matte\">\\[2x+3y=80\\quad\\Rightarrow\\quad y=\\frac{80-2x}{3}\\]</div></li><li><p class=\"facit-rubrik\">Total area uttryckt i x</p><div class=\"facit-matte\">\\[A(x)=\\frac{80x-2x^2}{3}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=\\frac{80-4x}{3}=0\\]</div><div class=\"facit-matte\">\\[\\Rightarrow x=20,\\qquad y=\\frac{40}{3}\\approx13{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 m × \\(\\tfrac{40}{3}\\) m (cirka 13,3 m)</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -36084,7 +36084,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En rektangulär hage byggs intill en rak flod. Sidan mot floden behöver inget stängsel. Stängslet på de två kortsidorna kostar 120 kr/m och stängslet på sidan parallell med floden kostar 80 kr/m. Budgeten är 9 600 kr.</p><p>Bestäm hagans mått så att arean blir så stor som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt varje kortsida vara \\(x\\) meter och sidan parallell med floden \\(y\\) meter.</p></li><li><p>Kostnadsvillkoret är</p><p>\\[2\\cdot120x+80y=9600.\\]</p></li><li><p>Efter division med 80:</p><p>\\[3x+y=120\\Rightarrow y=120-3x.\\]</p></li><li><p>Arean blir</p><p>\\[A(x)=x(120-3x)=120x-3x^2.\\]</p><p>\\[A'(x)=120-6x=0\\Rightarrow x=20.\\]</p></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[y=60\\].</div></div></li><li><p>Eftersom \\(A''(x)=-6&lt;0\\) fås maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) m gånger \\(60\\) m.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kostnadsvillkoret med budgeten 9 600 kr</p><div class=\"facit-matte\">\\[2\\cdot120x+80y=9600\\quad\\Rightarrow\\quad 3x+y=120\\]</div><div class=\"facit-matte\">\\[\\Rightarrow y=120-3x\\]</div></li><li><p class=\"facit-rubrik\">Arean som funktion av x</p><div class=\"facit-matte\">\\[A(x)=x(120-3x)=120x-3x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=120-6x=0\\quad\\Rightarrow\\quad x=20,\\qquad y=60\\]</div><p>\\(A''=-6\\lt0\\), alltså maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 m × 60 m</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -36353,7 +36353,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel ligger i första kvadranten med sidor längs koordinataxlarna. Det övre högra hörnet ligger på linjen</p><p>\\[y=12-2x.\\]</p><p>Bestäm rektangelns största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om hörnets x-koordinat är \\(x\\), är höjden \\(12-2x\\).</p><p>\\[A(x)=x(12-2x)=12x-2x^2.\\]</p><p>\\[A'(x)=12-4x=0\\Rightarrow x=3.\\]</p></li><li><p>Höjden blir \\(12-2\\cdot3=6\\), så</p><p>\\[A_{\\max}=3\\cdot6=18.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{18}\\) areaenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Höjden är y-värdet på linjen</p><div class=\"facit-matte\">\\[A(x)=x(12-2x)=12x-2x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=12-4x=0\\quad\\Rightarrow\\quad x=3\\]</div></li><li><p class=\"facit-rubrik\">Höjden och arean</p><div class=\"facit-matte\">\\[y=12-6=6,\\qquad A=3\\cdot6=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18 areaenheter</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -36365,7 +36365,7 @@ window.BANKMATO1 = [
       "procedur",
       "modellering"
     ],
-    "ledtrad": "<p>Skriv höjden med hjälp av \\(x\\) och bilda arean \\(A=x\\cdot y\\).</p>",
+    "ledtrad": "<p>Hörnet ligger på linjen, så höjden är \\(12-2x\\). Skriv arean som funktion av x.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -36387,7 +36387,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till \\(f(x)=2 x + 3\\) som uppfyller \\(F(1)=5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Alla primitiva funktioner är</p><div class=\"facit-matte\">\\[F(x)=x \\left(x + 3\\right)+C\\].</div></div></li><li><div class=\"facit-berakning\"><p>Villkoret ger</p><div class=\"facit-matte\">\\[C=1\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=x^{2} + 3 x + 1}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla primitiva funktioner till \\(2x+3\\)</p><div class=\"facit-matte\">\\[F(x)=x^2+3x+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(1)=5\\) bestämmer C</p><div class=\"facit-matte\">\\[1+3+C=5\\quad\\Rightarrow\\quad C=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^2+3x+1\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -36524,7 +36524,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till \\(f(x)=3 x^{2} - 1\\) som uppfyller \\(F(0)=4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Alla primitiva funktioner är</p><div class=\"facit-matte\">\\[F(x)=x^{3} - x+C\\].</div></div></li><li><div class=\"facit-berakning\"><p>Villkoret ger</p><div class=\"facit-matte\">\\[C=4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=x^{3} - x + 4}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla primitiva funktioner till \\(3x^2-1\\)</p><div class=\"facit-matte\">\\[F(x)=x^3-x+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=4\\) bestämmer C</p><div class=\"facit-matte\">\\[0-0+C=4\\quad\\Rightarrow\\quad C=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3-x+4\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -36536,7 +36536,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>En primitiv funktion ska ge tillbaka den ursprungliga funktionen när den deriveras. Öka därför exponenten med ett och dividera med den nya exponenten. Glöm inte +C när alla primitiva funktioner efterfrågas; ett extra villkor används sedan för att bestämma C.</p>",
+    "ledtrad": "<p>Bestäm alla primitiva funktioner till \\(3x^2-1\\). Sätt sedan in \\(x=0\\) och använd \\(F(0)=4\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -36799,7 +36799,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till \\(f(x)=2 e^{x}\\) som uppfyller \\(F(0)=5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Alla primitiva funktioner är</p><div class=\"facit-matte\">\\[F(x)=2 e^{x}+C\\].</div></div></li><li><div class=\"facit-berakning\"><p>Villkoret ger</p><div class=\"facit-matte\">\\[C=3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=2 e^{x} + 3}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(e^x\\) är sin egen primitiva funktion</p><div class=\"facit-matte\">\\[F(x)=2e^x+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=5\\) bestämmer C</p><div class=\"facit-matte\">\\[2+C=5\\quad\\Rightarrow\\quad C=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=2e^x+3\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -36934,7 +36934,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till \\(f(x)=2^{x}\\) som uppfyller \\(F(0)=3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion till \\(2^x\\) är</p><p>\\[\\frac{2^x}{\\ln2}.\\]</p><p>\\[F(x)=\\frac{2^x}{\\ln2}+C.\\]</p></li><li><p>Villkoret \\(F(0)=3\\) ger</p><p>\\[\\frac1{\\ln2}+C=3\\Rightarrow C=3-\\frac1{\\ln2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=\\frac{2^x-1}{\\ln2}+3}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(a^x\\): \\(\\dfrac{a^x}{\\ln a}\\)</p><div class=\"facit-matte\">\\[F(x)=\\frac{2^x}{\\ln2}+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=3\\) bestämmer C, med \\(2^0=1\\)</p><div class=\"facit-matte\">\\[\\frac1{\\ln2}+C=3\\quad\\Rightarrow\\quad C=3-\\frac1{\\ln2}\\]</div></li><li><p class=\"facit-rubrik\">Skriv bråken på samma nämnare</p><div class=\"facit-matte\">\\[F(x)=\\frac{2^x}{\\ln2}-\\frac1{\\ln2}+3=\\frac{2^x-1}{\\ln2}+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\dfrac{2^x-1}{\\ln2}+3\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -37482,7 +37482,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En funktion \\(F\\) är en primitiv funktion till \\(f\\). Dessutom är \\(F(1)=4\\) och \\(\\int_1^3 f(x)\\,dx=7\\). Bestäm \\(F(3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Analysens huvudsats ger</p><div class=\"facit-matte\">\\[\\int_1^3f(x)dx=F(3)-F(1)=7\\].</div></div></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[F(3)=11\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(11\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integralkalkylens huvudsats: integralen är ändringen i F</p><div class=\"facit-matte\">\\[\\int_1^3f(x)\\,dx=F(3)-F(1)\\]</div></li><li><p class=\"facit-rubrik\">Sätt in och lös ut \\(F(3)\\)</p><div class=\"facit-matte\">\\[F(3)-4=7\\quad\\Rightarrow\\quad F(3)=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -38705,7 +38705,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Volymen av en öppen låda beskrivs av</p><p>\\[V(x)=x(30-2x)(20-2x),\\qquad 0&lt;x&lt;10.\\]</p><p>Bestäm det värde på \\(x\\) som ger störst volym. Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utveckla och derivera:</p><p>\\[V(x)=600x-100x^2+4x^3,\\]</p><p>\\[V'(x)=600-200x+12x^2.\\]</p><p>\\[3x^2-50x+150=0\\Rightarrow x=\\frac{25\\pm5\\sqrt7}{3}.\\]</p></li><li><p>Endast det mindre värdet ligger mellan 0 och 10:</p><p>\\[x=\\frac{25-5\\sqrt7}{3}\\approx3{,}92.\\]</p></li><li><p>Derivatan byter från positiv till negativ där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{3{,}92\\text{ cm}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera ut volymen</p><div class=\"facit-matte\">\\[V(x)=4x^3-100x^2+600x\\]</div><div class=\"facit-matte\">\\[V'(x)=12x^2-200x+600\\]</div></li><li><p class=\"facit-rubrik\">\\(V'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[x^2-\\frac{50}{3}x+50=0\\]</div><div class=\"facit-matte\">\\[\\Rightarrow x=\\frac{25}{3}\\pm\\sqrt{\\frac{625}{9}-50}=\\frac{25\\pm5\\sqrt7}{3}\\]</div></li><li><p class=\"facit-rubrik\">Bara den mindre roten ligger i \\(0\\lt x\\lt10\\)</p><div class=\"facit-matte\">\\[x=\\frac{25-5\\sqrt7}{3}\\approx3{,}92\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,92</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": true,
@@ -38773,7 +38773,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till \\(f(x)=3x^2+2x-4\\) som uppfyller \\(F(1)=5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är</p><p>\\[F(x)=x^3+x^2-4x+C.\\]</p></li><li><div class=\"facit-berakning\"><p>Villkoret ger</p><div class=\"facit-matte\">\\[5=1+1-4+C\\Rightarrow C=7\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=x^3+x^2-4x+7}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla primitiva funktioner</p><div class=\"facit-matte\">\\[F(x)=x^3+x^2-4x+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(1)=5\\) bestämmer C</p><div class=\"facit-matte\">\\[1+1-4+C=5\\quad\\Rightarrow\\quad C=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3+x^2-4x+7\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -38841,7 +38841,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En sluten låda har kvadratisk botten med sidan \\(x\\) cm och volymen 250 cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"240\" viewBox=\"0 0 400 240\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Sluten låda med kvadratisk botten\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"238\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"90,78 255,78 310,42 145,42\" fill=\"#EEF3F8\" stroke=\"#2B2527\" stroke-width=\"2\" /><polygon points=\"90,78 255,78 255,190 90,190\" fill=\"#F6F8FB\" stroke=\"#2B2527\" stroke-width=\"2\" /><polygon points=\"255,78 310,42 310,154 255,190\" fill=\"#E2EAF3\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"172\" y=\"214\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2A5D9E\">x</text><text x=\"292\" y=\"185\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2A5D9E\">x</text><text x=\"68\" y=\"137\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2A5D9E\">h</text></svg></span><p>Bottenmaterialet kostar 1,20 kr/cm² medan lock och sidytor kostar 0,30 kr/cm². Bestäm den minsta möjliga materialkostnaden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymvillkoret är \\(x^2h=250\\), alltså</p><p>\\[h=\\frac{250}{x^2}.\\]</p></li><li><p>Kostnaden består av botten, lock och fyra sidoytor:</p><p>\\[K(x)=1{,}20x^2+0{,}30x^2+4\\cdot0{,}30xh=1{,}50x^2+\\frac{300}{x}.\\]</p></li><li><p>Derivera:</p><p>\\[K'(x)=3x-\\frac{300}{x^2}.\\]</p></li><li><p>Villkoret \\(K'(x)=0\\) ger</p><p>\\[3x^3=300\\Rightarrow x=\\sqrt[3]{100}\\approx4,64.\\]</p></li><li><p>Kostnaden blir då</p><p>\\[K(4,64)\\approx96{,}95.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> den minsta materialkostnaden är cirka \\(\\boxed{97\\text{ kr}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymen ger höjden</p><div class=\"facit-matte\">\\[x^2h=250\\quad\\Rightarrow\\quad h=\\frac{250}{x^2}\\]</div></li><li><p class=\"facit-rubrik\">Kostnad: botten, lock och fyra sidor</p><div class=\"facit-matte\">\\[K(x)=1{,}20x^2+0{,}30x^2+4\\cdot0{,}30\\cdot x\\cdot\\frac{250}{x^2}\\]</div><div class=\"facit-matte\">\\[=1{,}50x^2+\\frac{300}{x}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(K'(x)=0\\)</p><div class=\"facit-matte\">\\[K'(x)=3x-\\frac{300}{x^2}=0\\quad\\Rightarrow\\quad x^3=100\\]</div><div class=\"facit-matte\">\\[\\Rightarrow x\\approx4{,}64\\]</div></li><li><p class=\"facit-rubrik\">Minsta kostnaden vid \\(x\\approx4{,}64\\)</p><div class=\"facit-matte\">\\[K(4{,}64)\\approx1{,}5\\cdot21{,}54+\\frac{300}{4{,}64}\\approx96{,}95\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 97 kr</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -38979,7 +38979,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En kon har radien \\(r\\) och höjden \\(h\\). Summan av radien och höjden är 18 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"245\" viewBox=\"0 0 400 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Kon med radie r och höjd h\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"243\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\" /><ellipse cx=\"200\" cy=\"190\" rx=\"95\" ry=\"28\" fill=\"#F5F8FC\" stroke=\"#2B2527\" stroke-width=\"2\" /><path d=\"M105 190 L200 45 L295 190\" fill=\"#F9FAFC\" stroke=\"#2B2527\" stroke-width=\"2\" /><path d=\"M105 190 C135 168 265 168 295 190\" fill=\"none\" stroke=\"#A9B4C2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\" /><line x1=\"200\" y1=\"45\" x2=\"200\" y2=\"190\" stroke=\"#2A5D9E\" stroke-width=\"1.7\" /><line x1=\"200\" y1=\"190\" x2=\"295\" y2=\"190\" stroke=\"#2A5D9E\" stroke-width=\"1.7\" /><text x=\"210\" y=\"120\" font-size=\"12\" fill=\"#2A5D9E\">h</text><text x=\"247\" y=\"183\" font-size=\"12\" fill=\"#2A5D9E\">r</text></svg></span><p>Bestäm konens maximala volym exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Villkoret ger</p><div class=\"facit-matte\">\\[h=18-r\\].</div></div><p>\\[V(r)=\\frac{\\pi r^2(18-r)}3,\\qquad 0&lt;r&lt;18.\\]</p><p>\\[V'(r)=\\pi r(12-r).\\]</p></li><li><p>Den inre kritiska punkten är \\(r=12\\), vilket ger \\(h=6\\).</p></li><li><p>Derivatan går från positiv till negativ där, alltså fås ett maximum.</p><p>\\[V_{\\max}=\\frac13\\pi\\cdot12^2\\cdot6=288\\pi.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{288\\pi\\text{ cm}^3}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Villkoret ger höjden</p><div class=\"facit-matte\">\\[h=18-r,\\qquad V(r)=\\frac{\\pi r^2(18-r)}{3}=6\\pi r^2-\\frac{\\pi r^3}{3}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(V'(r)=0\\)</p><div class=\"facit-matte\">\\[V'(r)=12\\pi r-\\pi r^2=\\pi r(12-r)=0\\quad\\Rightarrow\\quad r=12\\]</div></li><li><p class=\"facit-rubrik\">Största volymen med \\(h=6\\)</p><div class=\"facit-matte\">\\[V=\\frac{\\pi\\cdot144\\cdot6}{3}=288\\pi\\ \\text{cm}^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(288\\pi\\) cm³</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -39258,7 +39258,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En lantbrukare har 480 m stängsel för ett rektangulärt område som delas i tre lika stora hagar med två stängsel parallella med kortsidan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"240\" viewBox=\"0 0 400 240\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Rektangulärt område indelat i tre hagar\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"238\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"60\" y=\"55\" width=\"280\" height=\"135\" fill=\"#F7FAF7\" stroke=\"#2B2527\" stroke-width=\"2\" /><line x1=\"153\" y1=\"55\" x2=\"153\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\" /><line x1=\"247\" y1=\"55\" x2=\"247\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"200\" y=\"218\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2A5D9E\">x</text><text x=\"42\" y=\"125\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2A5D9E\">y</text></svg></span><p>Bestäm måtten som ger största möjliga totalarea.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt längden vara \\(x\\) och kortsidan \\(y\\).</p></li><li><p>Stängslet ger</p><p>\\[2x+4y=480\\Rightarrow y=120-\\frac x2.\\]</p><p>\\[A(x)=xy=120x-\\frac{x^2}{2}.\\]</p><p>\\[A^{\\prime}(x)=120-x=0\\Rightarrow x=120.\\]</p></li><li><div class=\"facit-berakning\"><p>Då</p><div class=\"facit-matte\">\\[y=60\\].</div></div></li><li><p>Andraderivatan är \\(-1&lt;0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{120\\text{ m}\\times60\\text{ m}}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två långsidor och fyra kortsidor</p><div class=\"facit-matte\">\\[2x+4y=480\\quad\\Rightarrow\\quad y=120-\\frac x2\\]</div></li><li><p class=\"facit-rubrik\">Total area uttryckt i x</p><div class=\"facit-matte\">\\[A(x)=x\\left(120-\\frac x2\\right)=120x-\\frac{x^2}{2}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=120-x=0\\quad\\Rightarrow\\quad x=120,\\qquad y=60\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 120 m × 60 m</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -39999,7 +39999,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Ett fönster består av en rektangel med en halvcirkel ovanpå. Fönstrets ytteromkrets är 8 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"250\" viewBox=\"0 0 400 250\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Fönster med rektangel och halvcirkel\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"248\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"110\" y=\"92\" width=\"180\" height=\"115\" fill=\"#F5F8FC\" stroke=\"#2B2527\" stroke-width=\"2\" /><path d=\"M110 92 A90 90 0 0 1 290 92\" fill=\"#EEF3F8\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"200\" y=\"225\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2A5D9E\">bredd x</text><text x=\"92\" y=\"155\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2A5D9E\">h</text></svg></span><p>Bestäm fönstrets bredd så att arean blir maximal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt bredden vara \\(x\\).</p></li><li><p>Halvcirkelns radie är \\(x/2\\).</p></li><li><p>Om rektangelns höjd är \\(h\\) ger omkretsen</p><p>\\[x+2h+\\frac{\\pi x}{2}=8\\Rightarrow h=4-\\frac x2-\\frac{\\pi x}{4}.\\]</p></li><li><p>Arean är</p><p>\\[A=xh+\\frac12\\pi\\left(\\frac x2\\right)^2=4x-\\frac{x^2}{2}-\\frac{\\pi x^2}{8}.\\]</p><p>\\[A^{\\prime}=4-x-\\frac{\\pi x}{4}=0.\\]</p><p>\\[\\boxed{x=\\frac{16}{4+\\pi}\\text{ m}\\approx2{,}24\\text{ m}}.\\]</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: \\(2{,}24\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omkretsen: bredd + två sidor + halvcirkelbåge</p><div class=\"facit-matte\">\\[x+2h+\\frac{\\pi x}{2}=8\\quad\\Rightarrow\\quad h=4-\\frac x2-\\frac{\\pi x}{4}\\]</div></li><li><p class=\"facit-rubrik\">Area: rektangel + halvcirkel med radien \\(\\tfrac x2\\)</p><div class=\"facit-matte\">\\[A=xh+\\frac12\\pi\\left(\\frac x2\\right)^2=4x-\\frac{x^2}{2}-\\frac{\\pi x^2}{8}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=4-x-\\frac{\\pi x}{4}=0\\quad\\Rightarrow\\quad x=\\frac{16}{4+\\pi}\\approx2{,}24\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,24 m</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -40013,7 +40013,7 @@ window.BANKMATO1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Låt ena sidan vara \\(x\\). Använd omkretsvillkoret för att skriva den andra sidan med \\(x\\), och bygg sedan areafunktionen \\(A(x)\\). Först därefter deriverar du och kontrollerar att den punkten där derivatan är noll ger ett maximum.</p>",
+    "ledtrad": "<p>Uttryck rektangelns höjd med bredden x via omkretsen. Arean är rektangeln plus halvcirkeln.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "spel": true,
@@ -40141,7 +40141,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En 40 cm bred plåtremsa viks längs två linjer så att tvärsnittet blir en symmetrisk öppen ränna. Bottenbredden är \\(x\\) cm och vardera sidstycket har då bredden \\((40-x)/2\\). Sidorna viks 60° mot botten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"245\" viewBox=\"0 0 400 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Tvärsnitt av öppen ränna med bottenbredd x och två sidstycken vikta 60 grader\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><polygon points=\"70,90 125,185 275,185 330,90\" fill=\"#EEF3F8\" stroke=\"none\"/><polyline points=\"70,90 125,185 275,185 330,90\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"125\" y1=\"207\" x2=\"275\" y2=\"207\" stroke=\"#2A5D9E\" stroke-width=\"1.5\"/><line x1=\"125\" y1=\"202\" x2=\"125\" y2=\"212\" stroke=\"#2A5D9E\" stroke-width=\"1.5\"/><line x1=\"275\" y1=\"202\" x2=\"275\" y2=\"212\" stroke=\"#2A5D9E\" stroke-width=\"1.5\"/><text x=\"200\" y=\"225\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2A5D9E\">x</text><text x=\"54\" y=\"130\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2A5D9E\">(40−x)/2</text><line x1=\"125\" y1=\"185\" x2=\"82\" y2=\"185\" stroke=\"#8A858C\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><polyline points=\"97.0,185.0 97.1,182.6 97.4,180.1 98.0,177.8 98.7,175.4 99.6,173.2 100.8,171.0 102.1,168.9 103.6,167.0 105.2,165.2 107.0,163.6 108.9,162.1 111.0,160.8\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.6\"/><text x=\"88\" y=\"157\" font-size=\"12\" fill=\"#B43123\">60°</text></svg></span><p>Bestäm den bottenbredd \\(x\\) som maximerar tvärsnittsarean.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sidstyckets längd är</p><div class=\"facit-matte\">\\[s=(40-x)/2\\].</div></div></li><li><p>Höjden blir \\(h=s\\sin60^\\circ\\), och den övre bredden är \\(x+2s\\cos60^\\circ=x+s\\).</p></li><li><p>Tvärsnittet är en trapets:</p><p>\\[A(x)=\\frac{x+(x+s)}2\\,h.\\]</p></li><li><p>Med \\(s=(40-x)/2\\) fås</p><p>\\[A(x)=\\frac{\\sqrt3}{16}(40-x)(3x+40).\\]</p><p>\\[A^{\\prime}(x)=\\frac{\\sqrt3}{16}(80-6x)=0\\Rightarrow \\boxed{x=\\frac{40}{3}\\text{ cm}}.\\]</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: \\(x=\\dfrac{40}{3}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sidstycket \\(s=\\tfrac{40-x}{2}\\) vikt 60°</p><div class=\"facit-matte\">\\[h=s\\sin60^\\circ\\]</div><div class=\"facit-matte\">\\[\\text{övre bredd}=x+2s\\cos60^\\circ=x+s\\]</div></li><li><p class=\"facit-rubrik\">Tvärsnittet är ett parallelltrapets</p><div class=\"facit-matte\">\\[A=\\frac{x+(x+s)}{2}\\cdot h=\\frac{\\sqrt3}{16}(40-x)(3x+40)\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera ut och derivera</p><div class=\"facit-matte\">\\[A(x)=\\frac{\\sqrt3}{16}\\left(-3x^2+80x+1600\\right)\\]</div><div class=\"facit-matte\">\\[A'(x)=\\frac{\\sqrt3}{16}(-6x+80)=0\\quad\\Rightarrow\\quad x=\\frac{40}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\dfrac{40}{3}\\) cm</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -40463,7 +40463,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En låda har höjden \\(x\\) dm och kvadratisk botten med sidan \\(14-x\\) dm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"235\" viewBox=\"0 0 380 235\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Rätblock med höjd x och kvadratisk botten med sidan 14 minus x\">\\n<polygon points=\"90,65 245,65 300,105 145,105\" fill=\"#E7D4BA\" stroke=\"#2B2527\" stroke-width=\"2\" /><polygon points=\"145,105 300,105 300,190 145,190\" fill=\"#D9BD96\" stroke=\"#2B2527\" stroke-width=\"2\" /><polygon points=\"90,65 145,105 145,190 90,150\" fill=\"#CFAE80\" stroke=\"#2B2527\" stroke-width=\"2\" />\\n<text x=\"112\" y=\"130\" font-family=\"IBM Plex Mono,monospace\" font-size=\"15\">x</text><text x=\"188\" y=\"207\" font-family=\"IBM Plex Mono,monospace\" font-size=\"14\">14 - x</text><text x=\"266\" y=\"157\" font-family=\"IBM Plex Mono,monospace\" font-size=\"14\">14 - x</text></svg></span><p>Bestäm med derivata den största möjliga volymen för \\(0&lt;x&lt;14\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymen är</p><p>\\[V(x)=x(14-x)^2.\\]</p></li><li><p>Derivera:</p><p>\\[V^{\\prime}(x)=(14-x)(14-3x).\\]</p></li><li><p>Nollställena är \\(x=14\\), som ligger vid gränsen och ger volymen 0 och \\(x=14/3\\).</p></li><li><p>Den inre nollstället till derivatan ger maximum.</p><p>\\[V\\left(\\frac{14}{3}\\right)=\\frac{14}{3}\\left(\\frac{28}{3}\\right)^2=\\frac{10976}{27}\\approx406{,}5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{V_{\\max}\\approx406{,}5\\text{ dm}^3}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera ut volymen</p><div class=\"facit-matte\">\\[V(x)=x(14-x)^2=x^3-28x^2+196x\\]</div></li><li><p class=\"facit-rubrik\">\\(V'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[3x^2-56x+196=0\\quad\\Leftrightarrow\\quad x^2-\\frac{56}{3}x+\\frac{196}{3}=0\\]</div><div class=\"facit-matte\">\\[x=\\frac{28}{3}\\pm\\frac{14}{3}\\quad\\Rightarrow\\quad x=14\\ \\text{eller}\\ x=\\frac{14}{3}\\]</div></li><li><p class=\"facit-rubrik\">\\(x=14\\) ger volymen 0 – maximum vid \\(\\tfrac{14}{3}\\)</p><div class=\"facit-matte\">\\[V\\left(\\frac{14}{3}\\right)=\\frac{14}{3}\\cdot\\left(\\frac{28}{3}\\right)^2=\\frac{10976}{27}\\approx406{,}5\\ \\text{dm}^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 406,5 dm³</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -40499,7 +40499,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En rektangulär plåt är 26 cm lång och 16 cm bred. Genom att skära bort en kvadrat med sidan \\(x\\) i ett hörn och använda två befintliga väggar som sidor bildas ett öppet förvaringsfack vars volym kan modelleras med</p><p>\\[V(x)=x(16-x)(26-x).\\]</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"240\" viewBox=\"0 0 400 240\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Rektangulär plåt som viks till låda\"><rect x=\"70\" y=\"45\" width=\"250\" height=\"145\" fill=\"#EEF0F2\" stroke=\"#2B2527\" stroke-width=\"2\" /><rect x=\"70\" y=\"45\" width=\"55\" height=\"55\" fill=\"#fff\" stroke=\"#B43123\" stroke-dasharray=\"5 4\" /><path d=\"M125 100 H320 M125 45 V190\" stroke=\"#2A5D9E\" stroke-dasharray=\"5 4\" /><text x=\"185\" y=\"35\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">26 cm</text><text x=\"25\" y=\"120\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">16 cm</text><text x=\"90\" y=\"78\" font-family=\"IBM Plex Mono,monospace\" font-size=\"14\">x</text><text x=\"133\" y=\"90\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">viklinjer</text></svg></span><p>Bestäm det värde på \\(x\\) som ger störst volym.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utveckla eller derivera direkt:</p><p>\\[V(x)=416x-42x^2+x^3,\\qquad V^{\\prime}(x)=416-84x+3x^2.\\]</p><p>\\[3x^2-84x+416=0\\Rightarrow x=14\\pm\\frac{2\\sqrt{129}}3.\\]</p></li><li><p>Endast det mindre värdet ligger i intervallet \\(0&lt;x&lt;16\\):</p><p>\\[x=14-\\frac{2\\sqrt{129}}3\\approx6{,}43.\\]</p></li><li><p>Det ger maximum eftersom volymen är 0 vid intervallets rand och positiv däremellan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x\\approx6{,}43\\text{ cm}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera ut volymen</p><div class=\"facit-matte\">\\[V(x)=x(16-x)(26-x)=x^3-42x^2+416x\\]</div></li><li><p class=\"facit-rubrik\">\\(V'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[3x^2-84x+416=0\\quad\\Leftrightarrow\\quad x^2-28x+\\frac{416}{3}=0\\]</div><div class=\"facit-matte\">\\[x=14\\pm\\sqrt{196-\\frac{416}{3}}\\approx14\\pm7{,}57\\]</div></li><li><p class=\"facit-rubrik\">Bara den mindre roten ligger i \\(0\\lt x\\lt16\\)</p><div class=\"facit-matte\">\\[x\\approx6{,}43\\ \\text{cm}\\]</div><p>Volymen är 0 i ändpunkterna och positiv emellan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx6{,}43\\) cm</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -40513,7 +40513,7 @@ window.BANKMATO1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera den storhet som ska maximeras eller minimeras som en funktion av en enda variabel. Använd villkoren i texten för att eliminera övriga variabler innan du deriverar.</p>",
+    "ledtrad": "<p>Multiplicera ut \\(V(x)\\), derivera och lös \\(V'(x)=0\\) med pq-formeln. Vilken rot ligger i intervallet?</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "spel": true,
@@ -40535,7 +40535,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/4/0",
     "t": "<p>En sluten cylinder ska rymma \\(750\\text{ cm}^3\\). Bestäm radie och höjd så att cylinderns totala area blir så liten som möjligt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"280\" height=\"270\" viewBox=\"0 0 280 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Cylinder med radie r och höjd h\"><ellipse cx=\"135\" cy=\"55\" rx=\"70\" ry=\"24\" fill=\"#F6E2C3\" stroke=\"#2B2527\" stroke-width=\"2\" /><path d=\"M65 55 V205 M205 55 V205\" stroke=\"#2B2527\" stroke-width=\"2\" /><ellipse cx=\"135\" cy=\"205\" rx=\"70\" ry=\"24\" fill=\"#F1D4A8\" stroke=\"#2B2527\" stroke-width=\"2\" /><path d=\"M135 205 H200\" stroke=\"#2A5D9E\" stroke-width=\"2\" /><text x=\"165\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"15\">r</text><path d=\"M222 55 V205\" stroke=\"#B43123\" stroke-width=\"2\" /><text x=\"230\" y=\"135\" font-family=\"IBM Plex Mono,monospace\" font-size=\"15\">h</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymvillkoret är \\(\\pi r^2h=750\\), alltså \\(h=750/(\\pi r^2)\\).</p></li><li><p>Arean blir</p><p>\\[A(r)=2\\pi r^2+2\\pi rh=2\\pi r^2+\\frac{1500}{r}.\\]</p><p>\\[A^{\\prime}(r)=4\\pi r-\\frac{1500}{r^2}.\\]</p></li><li><p>Sätt lika med noll:</p><p>\\[4\\pi r^3=1500\\Rightarrow r^3=\\frac{375}{\\pi}.\\]</p><p>\\[r=\\sqrt[3]{\\frac{375}{\\pi}}\\approx4,92\\text{ cm}.\\]</p></li><li><div class=\"facit-berakning\"><p>Då</p><div class=\"facit-matte\">\\[h=750/(\\pi r^2)\\approx9{,}85\\text{ cm}=2r\\].</div></div></li><li><p>Andraderivatan är positiv för \\(r&gt;0\\), så punkten ger minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{r\\approx4{,}92\\text{ cm},\\ h\\approx9{,}85\\text{ cm}}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymen ger höjden</p><div class=\"facit-matte\">\\[\\pi r^2h=750\\quad\\Rightarrow\\quad h=\\frac{750}{\\pi r^2}\\]</div></li><li><p class=\"facit-rubrik\">Total area för sluten cylinder</p><div class=\"facit-matte\">\\[A(r)=2\\pi r^2+\\frac{1500}{r}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(r)=0\\)</p><div class=\"facit-matte\">\\[4\\pi r-\\frac{1500}{r^2}=0\\quad\\Rightarrow\\quad r=\\sqrt[3]{\\frac{375}{\\pi}}\\approx4{,}92\\ \\text{cm}\\]</div></li><li><p class=\"facit-rubrik\">Höjden blir dubbla radien</p><div class=\"facit-matte\">\\[h=\\frac{750}{\\pi r^2}\\approx9{,}85\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> r ≈ 4,92 cm, h ≈ 9,85 cm</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -40624,7 +40624,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Två positiva tal har produkten 48. Bestäm det minsta möjliga värdet av talens summa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt det ena talet vara \\(x&gt;0\\).</p></li><li><p>Då är det andra \\(48/x\\), så summan är</p><p>\\[S(x)=x+\\frac{48}{x}.\\]</p><p>\\[S'(x)=1-\\frac{48}{x^2}.\\]</p><p>\\[S'(x)=0\\Rightarrow x^2=48\\Rightarrow x=4\\sqrt3.\\]</p></li><li><p>Det andra talet är också \\(4\\sqrt3\\).</p></li><li><p>Eftersom \\(S'\\) går från negativ till positiv fås ett minimum.</p><p>\\[S_{\\min}=8\\sqrt3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{8\\sqrt3}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Produkten 48 ger det andra talet</p><div class=\"facit-matte\">\\[S(x)=x+\\frac{48}{x},\\qquad x\\gt0\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(S'(x)=0\\)</p><div class=\"facit-matte\">\\[1-\\frac{48}{x^2}=0\\quad\\Rightarrow\\quad x=\\sqrt{48}=4\\sqrt3\\]</div></li><li><p class=\"facit-rubrik\">Båda talen är \\(4\\sqrt3\\)</p><div class=\"facit-matte\">\\[S=8\\sqrt3\\]</div><p>\\(S'\\) går från − till +, alltså minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\sqrt3\\)</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": true,
@@ -40659,7 +40659,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/3",
     "t": "<p>Summan av två positiva tal är 10. Bestäm talen så att produkten av talens produkt och deras differens blir så stor som möjligt. Anta att det större talet skrivs först i differensen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt det större talet vara \\(x\\).</p></li><li><p>Då är det mindre \\(10-x\\), där \\(5&lt;x&lt;10\\).</p></li><li><p>Uttrycket som ska maximeras är</p><p>\\[D(x)=x(10-x)(2x-10).\\]</p></li><li><p>Derivering ger</p><p>\\[D'(x)=-6x^2+60x-100.\\]</p></li><li><p>Villkoret \\(D'(x)=0\\) ger</p><p>\\[3x^2-30x+50=0\\Rightarrow x=5\\pm\\frac{5\\sqrt3}{3}.\\]</p></li><li><p>I det tillåtna intervallet ligger</p><p>\\[x=5+\\frac{5\\sqrt3}{3}\\approx7{,}89.\\]</p></li><li><p>Det mindre talet är då \\(10-x\\approx2{,}11\\).</p></li><li><p>Derivatan byter från positiv till negativ vid den aktuella punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär \\(\\boxed{7{,}89\\text{ och }2{,}11}\\), med det större talet först.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det större talet x, det mindre \\(10-x\\)</p><div class=\"facit-matte\">\\[D(x)=x(10-x)(2x-10),\\qquad5\\lt x\\lt10\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera ut innan du deriverar</p><div class=\"facit-matte\">\\[D(x)=-2x^3+30x^2-100x\\]</div><div class=\"facit-matte\">\\[D'(x)=-6x^2+60x-100\\]</div></li><li><p class=\"facit-rubrik\">\\(D'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[x^2-10x+\\frac{50}{3}=0\\]</div><div class=\"facit-matte\">\\[\\Rightarrow x=5\\pm\\sqrt{25-\\frac{50}{3}}=5\\pm\\frac{5\\sqrt3}{3}\\]</div></li><li><p class=\"facit-rubrik\">Bara \\(x\\approx7{,}89\\) ligger i intervallet</p><div class=\"facit-matte\">\\[10-7{,}89=2{,}11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,89 och 2,11</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": true,
@@ -40704,7 +40704,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangulär hage byggs mot en lång vägg. Det finns 50 m stängsel till de tre övriga sidorna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Rektangulär hage mot en vägg\"><rect x=\"60\" y=\"45\" width=\"260\" height=\"22\" fill=\"#D8D8D8\" /><text x=\"170\" y=\"60\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">vägg</text><path d=\"M90 67 V190 H290 V67\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"4\" /><text x=\"73\" y=\"132\" font-family=\"IBM Plex Mono,monospace\" font-size=\"15\">x</text><text x=\"190\" y=\"210\" font-family=\"IBM Plex Mono,monospace\" font-size=\"15\">y</text></svg></span><p>Bestäm måtten som ger största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt de två korta sidorna vara \\(x\\) och sidan parallell med väggen vara \\(y\\).</p></li><li><div class=\"facit-berakning\"><p>Då</p><div class=\"facit-matte\">\\[2x+y=50\\Rightarrow y=50-2x\\].</div></div><p>\\[A(x)=x(50-2x)=50x-2x^2.\\]</p><p>\\[A^{\\prime}(x)=50-4x=0\\Rightarrow x=12{,}5.\\]</p></li><li><div class=\"facit-berakning\"><p>Då</p><div class=\"facit-matte\">\\[y=25\\].</div></div></li><li><p>Andraderivatan \\(-4&lt;0\\) visar maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{12{,}5\\text{ m}\\times25\\text{ m}}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tre sidor stängslas</p><div class=\"facit-matte\">\\[2x+y=50\\quad\\Rightarrow\\quad y=50-2x\\]</div></li><li><p class=\"facit-rubrik\">Arean som funktion av x</p><div class=\"facit-matte\">\\[A(x)=x(50-2x)=50x-2x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=50-4x=0\\quad\\Rightarrow\\quad x=12{,}5,\\qquad y=25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,5 m × 25 m</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -40736,7 +40736,7 @@ window.BANKMATO1 = [
       "sida 1",
       "sida 2"
     ],
-    "ledtrad": "<p>Välj \\(x\\) för en av sidlängderna och använd stängselvillkoret för att uttrycka den andra sidan med \\(x\\). Arean ska sedan skrivas som en funktion av en enda variabel innan derivatan används.</p>",
+    "ledtrad": "<p>Väggen behöver inget stängsel: \\(2x+y=50\\). Skriv arean som funktion av x.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -40758,7 +40758,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/4/0",
     "t": "<p>En rektangulär affisch ska ha en tryckyta på exakt \\(600\\text{ cm}^2\\). Marginalerna ska vara 2 cm på vänster och höger sida samt 3 cm upptill och nedtill.</p><p>Bestäm affischens yttermått så att dess totala area blir så liten som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt tryckytans bredd vara \\(x\\), då är höjden \\(600/x\\).</p></li><li><p>Affischens yttermått blir \\(x+4\\) och \\(600/x+6\\).</p></li><li><p>Total area:</p><p>\\[A(x)=(x+4)\\left(\\frac{600}{x}+6\\right)=624+6x+\\frac{2400}{x}.\\]</p><p>\\[A^{\\prime}(x)=6-\\frac{2400}{x^2}=0\\Rightarrow x^2=400\\Rightarrow x=20.\\]</p></li><li><p>Tryckytans höjd är \\(30\\).</p></li><li><p>Yttermåtten blir \\(24\\) cm och \\(36\\) cm.</p></li><li><p>Andraderivatan är positiv för \\(x&gt;0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{24\\text{ cm}\\times36\\text{ cm}}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tryckytan 600 ger höjden</p><div class=\"facit-matte\">\\[\\text{bredd }x,\\qquad\\text{höjd }\\frac{600}{x}\\]</div></li><li><p class=\"facit-rubrik\">Hela affischen med marginalerna</p><div class=\"facit-matte\">\\[A(x)=(x+4)\\left(\\frac{600}{x}+6\\right)=624+6x+\\frac{2400}{x}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[6-\\frac{2400}{x^2}=0\\quad\\Rightarrow\\quad x=20,\\qquad\\frac{600}{20}=30\\]</div></li><li><p class=\"facit-rubrik\">Lägg till marginalerna för yttermåtten</p><div class=\"facit-matte\">\\[20+4=24\\ \\text{cm},\\qquad 30+6=36\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 cm × 36 cm</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -40883,7 +40883,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till</p><p>\\[f(x)=3x^2+2x-3\\]</p><p>som uppfyller \\(F(1)=4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är</p><p>\\[F(x)=x^3+x^2-3x+C.\\]</p></li><li><div class=\"facit-berakning\"><p>Villkoret ger</p><div class=\"facit-matte\">\\[4=1+1-3+C=-1+C\\Rightarrow C=5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=x^3+x^2-3x+5}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla primitiva funktioner</p><div class=\"facit-matte\">\\[F(x)=x^3+x^2-3x+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(1)=4\\) bestämmer C</p><div class=\"facit-matte\">\\[1+1-3+C=4\\quad\\Rightarrow\\quad C=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3+x^2-3x+5\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -40895,7 +40895,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>En primitiv funktion ska ge tillbaka den ursprungliga funktionen när den deriveras. Öka därför exponenten med ett och dividera med den nya exponenten. Glöm inte +C när alla primitiva funktioner efterfrågas; ett extra villkor används sedan för att bestämma C.</p>",
+    "ledtrad": "<p>Bestäm alla primitiva funktioner term för term. Sätt sedan in \\(x=1\\) och använd \\(F(1)=4\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -41358,7 +41358,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två positiva tal har summan 18. Bestäm talen så att deras produkt blir så stor som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt det ena talet vara \\(x\\).</p></li><li><p>Det andra är \\(18-x\\), där \\(0&lt;x&lt;18\\).</p></li><li><p>Produkten är</p><p>\\[P(x)=x(18-x)=18x-x^2.\\]</p><p>\\[P'(x)=18-2x=0\\Rightarrow x=9.\\]</p></li><li><p>Det andra talet är också 9.</p></li><li><p>Derivatan byter från positiv till negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{9\\text{ och }9}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen x och \\(18-x\\)</p><div class=\"facit-matte\">\\[P(x)=x(18-x)=18x-x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(P'(x)=0\\)</p><div class=\"facit-matte\">\\[P'(x)=18-2x=0\\quad\\Rightarrow\\quad x=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9 och 9</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": true,
@@ -41394,7 +41394,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rätvinklig triangel har två kateter vars sammanlagda längd är 22 cm.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" role=\"img\" aria-label=\"Rätvinklig triangel med kateter x och summan minus x\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"80,188 310,188 80,58\" fill=\"#EEF3F8\" stroke=\"#2D70B3\" stroke-width=\"2\"/><rect x=\"80\" y=\"174\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"#555\"/><text x=\"186\" y=\"210\" text-anchor=\"middle\" font-size=\"13\">x</text><text x=\"50\" y=\"128\" font-size=\"13\">22 − x</text></svg></span><p>Bestäm den största möjliga arean.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt den ena kateten vara \\(x\\).</p></li><li><p>Då är den andra \\(22-x\\).</p><p>\\[A(x)=\\frac12x(22-x)=11x-\\frac12x^2.\\]</p><p>\\[A^{\\prime}(x)=11-x=0\\Rightarrow x=11.\\]</p></li><li><p>Den andra kateten blir också 11 cm, och</p><p>\\[A_{\\max}=\\frac12\\cdot11\\cdot11=\\boxed{60{,}5\\text{ cm}^2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(60{,}5\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kateterna x och \\(22-x\\)</p><div class=\"facit-matte\">\\[A(x)=\\frac12x(22-x)=11x-\\frac{x^2}{2}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=11-x=0\\quad\\Rightarrow\\quad x=11\\]</div></li><li><p class=\"facit-rubrik\">Båda kateterna är 11 cm</p><div class=\"facit-matte\">\\[A=\\frac12\\cdot11\\cdot11=60{,}5\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60,5 cm²</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -41429,7 +41429,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel ska ha arean 72 cm².</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"220\" viewBox=\"0 0 390 220\" role=\"img\" aria-label=\"Rektangel med given area\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"92\" y=\"58\" width=\"205\" height=\"105\" fill=\"#F7F4E8\" stroke=\"#8C6A43\" stroke-width=\"2\"/><text x=\"194\" y=\"116\" text-anchor=\"middle\" font-size=\"14\">area 72 cm²</text><text x=\"194\" y=\"185\" text-anchor=\"middle\" font-size=\"13\">x</text><text x=\"65\" y=\"115\" font-size=\"13\">72/x</text></svg></span><p>Bestäm de mått som ger minsta möjliga omkrets.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt ena sidan vara \\(x\\) cm.</p></li><li><p>Då är den andra \\(72/x\\) cm.</p><p>\\[P(x)=2x+\\frac{144}{x}.\\]</p><p>\\[P^{\\prime}(x)=2-\\frac{144}{x^2}=0\\Rightarrow x^2=72.\\]</p></li><li><p>Alltså är båda sidor \\(\\sqrt{72}=6\\sqrt2\\) cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> rektangeln är en kvadrat med sidan \\(\\boxed{6\\sqrt2\\text{ cm}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean 72 ger den andra sidan</p><div class=\"facit-matte\">\\[O(x)=2x+\\frac{144}{x}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(O'(x)=0\\)</p><div class=\"facit-matte\">\\[2-\\frac{144}{x^2}=0\\quad\\Rightarrow\\quad x^2=72\\quad\\Rightarrow\\quad x=\\sqrt{72}=6\\sqrt2\\]</div></li><li><p class=\"facit-rubrik\">Den andra sidan är också \\(6\\sqrt2\\)</p><div class=\"facit-matte\">\\[\\frac{72}{6\\sqrt2}=\\frac{12}{\\sqrt2}=6\\sqrt2\\]</div><p>Rektangeln är en kvadrat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> båda sidorna \\(6\\sqrt2\\) cm</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -41645,7 +41645,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangulär hage byggs mot en rak vägg. Endast tre sidor behöver stängsel och totalt finns 80 m stängsel.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulär hage intill en vägg\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"55\" y1=\"42\" x2=\"335\" y2=\"42\" stroke=\"#777\" stroke-width=\"6\"/><text x=\"195\" y=\"27\" text-anchor=\"middle\" font-size=\"13\">vägg</text>\n    <line x1=\"80\" y1=\"46\" x2=\"80\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"310\" y1=\"46\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"80\" y1=\"174\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/>\n    <text x=\"62\" y=\"115\" font-size=\"13\">x</text><text x=\"195\" y=\"194\" text-anchor=\"middle\" font-size=\"13\">y</text><text x=\"195\" y=\"220\" text-anchor=\"middle\" font-size=\"12\" fill=\"#6B6670\">totalt 80 m stängsel</text></svg></span><p>Låt \\(x\\) vara längden på var och en av de två sidorna vinkelräta mot väggen.</p><p>Vilken funktion beskriver hagans area?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De två sidorna vinkelräta mot väggen använder tillsammans \\(2x\\) meter stängsel.</p></li><li><p>Sidan parallellt med väggen blir därför \\(80-2x\\) meter.</p></li><li><p>Arean är längd gånger bredd:</p><p>\\[A(x)=x(80-2x).\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A(x)=x(80-2x)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De två sidorna x tar \\(2x\\) av stängslet</p><div class=\"facit-matte\">\\[\\text{sidan längs väggen}=80-2x\\]</div></li><li><p class=\"facit-rubrik\">Area = längd · bredd</p><div class=\"facit-matte\">\\[A(x)=x(80-2x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A(x)=x(80-2x)\\)</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -41667,7 +41667,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Ställa upp optimeringsmodeller"
     ],
-    "alternativ": [{"txt": "\\(A(x)=x(80-x)\\)", "ratt": false}, {"txt": "\\(A(x)=2x(80-2x)\\)", "ratt": false}, {"txt": "\\(A(x)=x(80-2x)\\)", "ratt": true}, {"txt": "\\(A(x)=x(40-x)\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(A(x)=x(80-x)\\)",
+        "ratt": false,
+        "kommentar": "Den tredje sidan ska vara \\(80-2x\\), eftersom två sidor har längden x."
+      },
+      {
+        "txt": "\\(A(x)=2x(80-2x)\\)",
+        "ratt": false,
+        "kommentar": "Arean är x gånger den tredje sidan, inte 2x gånger."
+      },
+      {
+        "txt": "\\(A(x)=x(80-2x)\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(A(x)=x(40-x)\\)",
+        "ratt": false,
+        "kommentar": "Det gäller om alla fyra sidor stängslas, men väggen behöver inget stängsel."
+      }
+    ]
   },
   {
     "id": "3.304",
@@ -41885,7 +41905,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm funktionen \\(F\\) om \\(F^{\\prime}(x)=6 x - 2\\) och \\(F(1)=5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En primitiv funktion är</p><div class=\"facit-matte\">\\[F(x)=3 x^{2} - 2 x+C\\].</div></div></li><li><p>Villkoret \\(F(1)=5\\) ger \\(C=4\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså är</p><div class=\"facit-matte\">\\[\\boxed{F(x)=3 x^{2} - 2 x + 4}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=3x^{2}-2x+4\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">F är en primitiv funktion till \\(F'\\)</p><div class=\"facit-matte\">\\[F(x)=3x^2-2x+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(1)=5\\) bestämmer C</p><div class=\"facit-matte\">\\[3-2+C=5\\quad\\Rightarrow\\quad C=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=3x^2-2x+4\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -41919,7 +41939,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm funktionen \\(F\\) om \\(F^{\\prime}(x)=3 x^{2} + 4\\) och \\(F(-1)=2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion till \\(3x^2+4\\) är</p><p>\\[F(x)=x^3+4x+C.\\]</p></li><li><p>Villkoret \\(F(-1)=2\\) ger</p><p>\\[-1-4+C=2\\Rightarrow C=7.\\]</p><p>\\[\\boxed{F(x)=x^3+4x+7}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=x^{3}+4x+7\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">F är en primitiv funktion till \\(F'\\)</p><div class=\"facit-matte\">\\[F(x)=x^3+4x+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(-1)=2\\) bestämmer C</p><div class=\"facit-matte\">\\[-1-4+C=2\\quad\\Rightarrow\\quad C=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3+4x+7\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -41953,7 +41973,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm funktionen \\(F\\) om \\(F^{\\prime}(x)=2 x^{3} - 6 x\\) och \\(F(0)=3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrera \\(F^{\\prime}(x)\\):</p><p>\\[F(x)=\\frac{x^4}{2}-3x^2+C.\\]</p></li><li><p>Eftersom \\(F(0)=3\\) fås direkt \\(C=3\\).</p><p>\\[\\boxed{F(x)=\\frac{x^4}{2}-3x^2+3}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=\\dfrac{x^{4}}{2}-3x^{2}+3\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">F är en primitiv funktion till \\(F'\\)</p><div class=\"facit-matte\">\\[F(x)=\\frac{2x^4}{4}-\\frac{6x^2}{2}+C=\\frac{x^4}{2}-3x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=3\\) bestämmer C</p><div class=\"facit-matte\">\\[C=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\dfrac{x^4}{2}-3x^2+3\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -41987,7 +42007,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>För en funktion \\(F\\) gäller</p><p>\\[F^{\\prime}(x)=3x^2-6x.\\]</p><p>Funktionen har det lokala minimivärdet \\(-1\\). Bestäm \\(F(x)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En allmän primitiv funktion är</p><p>\\[F(x)=x^3-3x^2+C.\\]</p></li><li><p>För att hitta var det lokala minimumet ligger studerar vi derivatan:</p><p>\\[F^{\\prime}(x)=3x(x-2).\\]</p></li><li><p>Derivatan går från negativ till positiv vid \\(x=2\\), så där finns en lokal minimipunkt.</p></li><li><p>Villkoret \\(F(2)=-1\\) ger</p><p>\\[8-12+C=-1\\Rightarrow C=3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=x^3-3x^2+3}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla primitiva funktioner</p><div class=\"facit-matte\">\\[F(x)=x^3-3x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Var ligger minimipunkten? Teckentabell för \\(F'(x)=3x(x-2)\\)</p><p>\\(F'\\) går från − till + vid \\(x=2\\) (och från + till − vid \\(x=0\\)).</p><div class=\"facit-matte\">\\[\\text{minimipunkt vid }x=2\\]</div></li><li><p class=\"facit-rubrik\">Minimivärdet \\(F(2)=-1\\) bestämmer C</p><div class=\"facit-matte\">\\[8-12+C=-1\\quad\\Rightarrow\\quad C=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3-3x^2+3\\)</p></div>",
     "familj": "Återskapa funktion från derivata",
     "geogebra": false,
     "miniräknare": true,
@@ -42023,7 +42043,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till \\(f(x)=4x-1\\) vars graf går genom punkten \\((2,5)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En primitiv funktion är</p><div class=\"facit-matte\">\\[F(x)=2x^2-x+C\\].</div></div></li><li><p>Villkoret \\(F(2)=5\\) ger \\(8-2+C=5\\), alltså \\(C=-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=2x^2-x-1}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla primitiva funktioner till \\(4x-1\\)</p><div class=\"facit-matte\">\\[F(x)=2x^2-x+C\\]</div></li><li><p class=\"facit-rubrik\">Punkten \\((2,5)\\) ger \\(F(2)=5\\)</p><div class=\"facit-matte\">\\[8-2+C=5\\quad\\Rightarrow\\quad C=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=2x^2-x-1\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -43016,7 +43036,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har omkretsen 28 cm.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"220\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"Rektangel med markerade sidlängder\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"85\" y=\"55\" width=\"180\" height=\"95\" fill=\"#F7F4E8\" stroke=\"#8C6A43\" stroke-width=\"2\" /><text x=\"175.0\" y=\"41\" text-anchor=\"middle\" font-size=\"14\">x</text><text x=\"65\" y=\"102.5\" font-size=\"14\">14 - x</text></svg></span><p>Bestäm med derivata den största möjliga arean.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om ena sidan är \\(x\\) cm blir den andra \\(14-x\\) cm.</p><p>\\[A(x)=x(14-x)=14x-x^2.\\]</p><div class=\"facit-matte\">\\[A^{\\prime}(x)=14-2x\\].</div></li><li><div class=\"facit-berakning\"><p>Derivatan är noll när</p><div class=\"facit-matte\">\\[x=7\\].</div></div></li><li><p>Då är båda sidorna \\(7\\) cm och största arean är \\(\\boxed{49\\text{ cm}^2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 49.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omkretsen 28 ger den andra sidan</p><div class=\"facit-matte\">\\[A(x)=x(14-x)=14x-x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=14-2x=0\\quad\\Rightarrow\\quad x=7\\]</div></li><li><p class=\"facit-rubrik\">En kvadrat med sidan 7 cm</p><div class=\"facit-matte\">\\[A=7\\cdot7=49\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 49 cm²</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -43029,7 +43049,7 @@ window.BANKMATO1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Låt ena sidan vara \\(x\\). Använd omkretsvillkoret för att skriva den andra sidan med \\(x\\), och bygg sedan areafunktionen \\(A(x)\\). Först därefter deriverar du och kontrollerar att den punkten där derivatan är noll ger ett maximum.</p>",
+    "ledtrad": "<p>Halva omkretsen är 14, så sidorna är x och \\(14-x\\). Skriv arean och derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -43051,7 +43071,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel ska ha arean 64 cm².</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"220\" viewBox=\"0 0 390 220\" role=\"img\" aria-label=\"Rektangel med given area\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"92\" y=\"58\" width=\"205\" height=\"105\" fill=\"#F7F4E8\" stroke=\"#8C6A43\" stroke-width=\"2\"/><text x=\"194\" y=\"116\" text-anchor=\"middle\" font-size=\"14\">area 64 cm²</text><text x=\"194\" y=\"185\" text-anchor=\"middle\" font-size=\"13\">x</text><text x=\"65\" y=\"115\" font-size=\"13\">64/x</text></svg></span><p>Bestäm med derivata den minsta möjliga omkretsen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt ena sidan vara \\(x\\), då är den andra \\(64/x\\).</p><p>\\[P(x)=2x+\\frac{128}{x}.\\]</p><p>\\[P^{\\prime}(x)=2-\\frac{128}{x^2}=0\\Rightarrow x=8.\\]</p></li><li><p>Den andra sidan är också 8 cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta omkretsen är \\(\\boxed{32\\text{ cm}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean 64 ger den andra sidan</p><div class=\"facit-matte\">\\[P(x)=2x+\\frac{128}{x}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(P'(x)=0\\)</p><div class=\"facit-matte\">\\[2-\\frac{128}{x^2}=0\\quad\\Rightarrow\\quad x=8\\]</div></li><li><p class=\"facit-rubrik\">En kvadrat med sidan 8 cm</p><div class=\"facit-matte\">\\[P=4\\cdot8=32\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 32 cm</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -43086,7 +43106,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett rektangulärt område delas i tre lika stora fack med två inre stängsel. Totalt finns 54 m stängsel.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulärt område med inre skiljestängsel\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"95\" y=\"55\" width=\"200\" height=\"115\" fill=\"#EEF3F8\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"161.7\" y1=\"55\" x2=\"161.7\" y2=\"170\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"228.3\" y1=\"55\" x2=\"228.3\" y2=\"170\" stroke=\"#2D70B3\" stroke-width=\"2\"/><text x=\"195\" y=\"193\" text-anchor=\"middle\" font-size=\"13\">y</text><text x=\"73\" y=\"118\" font-size=\"13\">x</text><text x=\"195\" y=\"220\" text-anchor=\"middle\" font-size=\"12\" fill=\"#6B6670\">totalt 54 m stängsel</text></svg></span><p>Låt \\(x\\) vara fackens höjd och \\(y\\) hela rektangelns bredd.</p><p>Vilket villkor beskriver stängsellängden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det finns två yttre lodräta sidor och två inre skiljestängsel.</p></li><li><p>Det ger totalt fyra sträckor med längden \\(x\\).</p></li><li><p>Överkant och underkant ger två sträckor med längden \\(y\\).</p></li><li><p>Därför gäller</p><p>\\[4x+2y=54.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x+2y=54\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sträckor med längden x</p><p>Två yttre lodräta sidor och två inre skiljestängsel ger fyra sträckor.</p></li><li><p class=\"facit-rubrik\">Sträckor med längden y</p><p>Överkant och underkant ger två sträckor.</p><div class=\"facit-matte\">\\[4x+2y=54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x+2y=54\\)</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -43108,7 +43128,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Ställa upp optimeringsmodeller"
     ],
-    "alternativ": [{"txt": "\\(2x+4y=54\\)", "ratt": false}, {"txt": "\\(3x+2y=54\\)", "ratt": false}, {"txt": "\\(4x+3y=54\\)", "ratt": false}, {"txt": "\\(4x+2y=54\\)", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "\\(2x+4y=54\\)",
+        "ratt": false,
+        "kommentar": "Det är x som förekommer fyra gånger, inte y."
+      },
+      {
+        "txt": "\\(3x+2y=54\\)",
+        "ratt": false,
+        "kommentar": "Två inre stängsel plus två yttre sidor ger fyra x, inte tre."
+      },
+      {
+        "txt": "\\(4x+3y=54\\)",
+        "ratt": false,
+        "kommentar": "Överkant och underkant ger bara två y."
+      },
+      {
+        "txt": "\\(4x+2y=54\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "3.344",
@@ -43121,7 +43161,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rätvinklig triangel har kateter vars sammanlagda längd är 20 cm.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" role=\"img\" aria-label=\"Rätvinklig triangel med kateter x och summan minus x\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"80,188 310,188 80,58\" fill=\"#EEF3F8\" stroke=\"#2D70B3\" stroke-width=\"2\"/><rect x=\"80\" y=\"174\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"#555\"/><text x=\"186\" y=\"210\" text-anchor=\"middle\" font-size=\"13\">x</text><text x=\"50\" y=\"128\" font-size=\"13\">20 − x</text></svg></span><p>Bestäm med derivata den största möjliga arean.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt kateterna vara \\(x\\) och \\(20-x\\).</p><p>\\[A(x)=\\frac12x(20-x)=10x-\\frac12x^2.\\]</p><p>\\[A^{\\prime}(x)=10-x.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatan är 0 för</p><div class=\"facit-matte\">\\[x=10\\].</div></div></li><li><p>Då är båda kateterna 10 cm och</p><p>\\[A_{\\max}=\\frac12\\cdot10\\cdot10=\\boxed{50\\text{ cm}^2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(50\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kateterna x och \\(20-x\\)</p><div class=\"facit-matte\">\\[A(x)=\\frac12x(20-x)=10x-\\frac{x^2}{2}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=10-x=0\\quad\\Rightarrow\\quad x=10\\]</div></li><li><p class=\"facit-rubrik\">Båda kateterna är 10 cm</p><div class=\"facit-matte\">\\[A=\\frac12\\cdot10\\cdot10=50\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 cm²</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -43156,7 +43196,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangulär hage byggs mot en rak vägg. Totalt 30 m stängsel används till de tre övriga sidorna.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"220\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"Rektangel med markerade sidlängder\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"85\" y1=\"55\" x2=\"265\" y2=\"55\" stroke=\"#585156\" stroke-width=\"5\" /><line x1=\"85\" y1=\"55\" x2=\"85\" y2=\"150\" stroke=\"#2D70B3\" stroke-width=\"2.2\" /><line x1=\"265\" y1=\"55\" x2=\"265\" y2=\"150\" stroke=\"#2D70B3\" stroke-width=\"2.2\" /><line x1=\"85\" y1=\"150\" x2=\"265\" y2=\"150\" stroke=\"#2D70B3\" stroke-width=\"2.2\" /><text x=\"67\" y=\"102.5\" font-size=\"14\">x</text><text x=\"273\" y=\"102.5\" font-size=\"14\">x</text><text x=\"175.0\" y=\"172\" text-anchor=\"middle\" font-size=\"14\">30 - 2x</text><text x=\"175.0\" y=\"43\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">vägg</text></svg></span><p>Bestäm den största möjliga arean.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt de två korta sidorna vara \\(x\\) m.</p></li><li><p>Den tredje stängselsidan blir då \\(30-2x\\) m.</p><p>\\[A(x)=x(30-2x)=30x-2x^2.\\]</p></li><li><p>\\(A^{\\prime}(x)=30-4x\\), så derivatan är noll när \\(x=7,5\\).</p></li><li><p>Den tredje sidan blir då \\(15\\) m och största arean är \\(\\boxed{112{,}5\\text{ m}^2}\\).</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: \\(112{,}5\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sidan längs väggen är \\(30-2x\\)</p><div class=\"facit-matte\">\\[A(x)=x(30-2x)=30x-2x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=30-4x=0\\quad\\Rightarrow\\quad x=7{,}5\\]</div></li><li><p class=\"facit-rubrik\">Största arean med \\(x=7{,}5\\)</p><div class=\"facit-matte\">\\[A=7{,}5\\cdot15=112{,}5\\ \\text{m}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 112,5 m²</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -43169,7 +43209,7 @@ window.BANKMATO1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Välj \\(x\\) för en av sidlängderna och använd stängselvillkoret för att uttrycka den andra sidan med \\(x\\). Arean ska sedan skrivas som en funktion av en enda variabel innan derivatan används.</p>",
+    "ledtrad": "<p>De två korta sidorna är x, så sidan längs väggen är \\(30-2x\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -43191,7 +43231,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Två lika stora hagar ska byggas bredvid varandra mot en rak vägg. Totalt finns 48 m stängsel.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulär hage intill en vägg\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"55\" y1=\"42\" x2=\"335\" y2=\"42\" stroke=\"#777\" stroke-width=\"6\"/><text x=\"195\" y=\"27\" text-anchor=\"middle\" font-size=\"13\">vägg</text>\n    <line x1=\"80\" y1=\"46\" x2=\"80\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"310\" y1=\"46\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"80\" y1=\"174\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"200.0\" y1=\"46\" x2=\"200.0\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\" />\n    <text x=\"62\" y=\"115\" font-size=\"13\">x</text><text x=\"195\" y=\"194\" text-anchor=\"middle\" font-size=\"13\">y</text><text x=\"195\" y=\"220\" text-anchor=\"middle\" font-size=\"12\" fill=\"#6B6670\">totalt 48 m stängsel</text></svg></span><p>Bestäm de yttre måtten så att den sammanlagda arean blir så stor som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt djupet vara \\(x\\) och den totala bredden vara \\(y\\).</p></li><li><p>Tre stängselsträckor har längden \\(x\\), så</p><p>\\[3x+y=48\\Rightarrow y=48-3x.\\]</p><p>\\[A(x)=x(48-3x)=48x-3x^2.\\]</p><p>\\[A^{\\prime}(x)=48-6x=0\\Rightarrow x=8.\\]</p></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[y=24\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> de yttre måtten är \\(\\boxed{8\\text{ m}\\times24\\text{ m}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tre sträckor med längden x mot väggen</p><div class=\"facit-matte\">\\[3x+y=48\\quad\\Rightarrow\\quad y=48-3x\\]</div></li><li><p class=\"facit-rubrik\">Total area uttryckt i x</p><div class=\"facit-matte\">\\[A(x)=x(48-3x)=48x-3x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=48-6x=0\\quad\\Rightarrow\\quad x=8,\\qquad y=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 m × 24 m</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -43237,7 +43277,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Ett rektangulärt område med arean 200 m² ska stängslas in intill en rak strand. Sidan mot stranden behöver inget stängsel.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulärt område intill en strand\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"55\" y1=\"42\" x2=\"335\" y2=\"42\" stroke=\"#777\" stroke-width=\"6\"/><text x=\"195\" y=\"27\" text-anchor=\"middle\" font-size=\"13\">strand</text>\n    <line x1=\"80\" y1=\"46\" x2=\"80\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"310\" y1=\"46\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"80\" y1=\"174\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/>\n    <text x=\"62\" y=\"115\" font-size=\"13\">x</text><text x=\"195\" y=\"194\" text-anchor=\"middle\" font-size=\"13\">y</text><text x=\"195\" y=\"220\" text-anchor=\"middle\" font-size=\"12\" fill=\"#6B6670\">totalt så kort som möjligt m stängsel</text></svg></span><p>Bestäm måtten så att så lite stängsel som möjligt behövs.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt djupet vara \\(x\\) och sidan längs stranden vara \\(y\\).</p></li><li><p>Areavillkoret är</p><p>\\[xy=200\\Rightarrow y=\\frac{200}{x}.\\]</p></li><li><p>Stängsellängden är</p><p>\\[L(x)=2x+y=2x+\\frac{200}{x}.\\]</p><p>\\[L^{\\prime}(x)=2-\\frac{200}{x^2}=0\\Rightarrow x=10.\\]</p></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[y=20\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> måtten ska vara \\(\\boxed{10\\text{ m}\\times20\\text{ m}}\\), vilket kräver 40 m stängsel.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean 200 ger sidan längs stranden</p><div class=\"facit-matte\">\\[y=\\frac{200}{x}\\]</div></li><li><p class=\"facit-rubrik\">Stängsel på de tre sidorna</p><div class=\"facit-matte\">\\[L(x)=2x+\\frac{200}{x}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(L'(x)=0\\)</p><div class=\"facit-matte\">\\[2-\\frac{200}{x^2}=0\\quad\\Rightarrow\\quad x=10,\\qquad y=20\\]</div><p>Det kräver 40 m stängsel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 m × 20 m</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -43283,7 +43323,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En liten teater modellerar dagsintäkten med \\(I(x)=-4x^2+80x+200\\), där \\(x\\) är antalet tiokronors höjningar från ett grundpris och \\(I\\) mäts i kronor. Bestäm det \\(x\\)-värde som ger störst intäkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[I^{\\prime}(x)=-8x+80\\].</div></div></li><li><p>Sätt derivatan lika med noll:</p><p>\\[-8x+80=0\\Rightarrow x=10.\\]</p></li><li><p>Det största modellvärdet blir \\(I(10)=600\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\), vilket motsvarar en prishöjning med 100 kr.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(I'(x)=0\\)</p><div class=\"facit-matte\">\\[I'(x)=-8x+80=0\\quad\\Rightarrow\\quad x=10\\]</div></li><li><p class=\"facit-rubrik\">Nedåtvänd parabel ger maximum</p><div class=\"facit-matte\">\\[I(10)=-400+800+200=600\\ \\text{kr}\\]</div><p>Tio höjningar med 10 kr, alltså 100 kr dyrare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\)</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": false,
@@ -43296,7 +43336,7 @@ window.BANKMATO1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Här är målfunktionen redan given. Derivera den direkt, bestäm de punkterna där derivatan är noll och kontrollera med derivatans tecken eller andraderivatan vilken kandidat som ger det efterfrågade max- eller minvärdet.</p>",
+    "ledtrad": "<p>Derivera \\(I(x)\\) och lös \\(I'(x)=0\\). Vad betyder x i sammanhanget?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -43308,51 +43348,51 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "3.349",
-  "kap": 3,
-  "omr": "fler_extremvarde",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Höjden hos en boll modelleras av \\(h(t)=-2t^2+24t+50\\), där \\(h\\) mäts i meter och \\(t\\) i sekunder. När är bollen som högst och vilken är den största höjden?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[h^{\\prime}(t)=-4t+24\\].</div></div></li><li><p>Sätt derivatan lika med noll:</p><p>\\[-4t+24=0\\Rightarrow t=6.\\]</p></li><li><div class=\"facit-berakning\"><p>Höjden blir</p><div class=\"facit-matte\">\\[h(6)=122\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> bollen är som högst efter \\(\\boxed{6\\text{ s}}\\), och den största höjden är \\(\\boxed{122\\text{ m}}\\).</p></div></div>",
-  "familj": "Optimering i givna modeller",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    6,
-    122
-  ],
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "ledtrad": "<p>Derivera höjdfunktionen för att hitta tidpunkten då höjden slutar öka. Beräkna sedan höjden vid den tidpunkten.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarsstruktur": "ordnad",
-  "svarEtiketter": [
-    "tid (s)",
-    "största höjd (m)"
-  ],
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "omrTidigare": [
-    "extremvardesproblem"
-  ],
-  "familjTidigare": [
-    "Optimera tillämpade andragradsmodeller"
-  ]
-},
+    "id": "3.349",
+    "kap": 3,
+    "omr": "fler_extremvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Höjden hos en boll modelleras av \\(h(t)=-2t^2+24t+50\\), där \\(h\\) mäts i meter och \\(t\\) i sekunder. När är bollen som högst och vilken är den största höjden?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(h'(t)=0\\)</p><div class=\"facit-matte\">\\[h'(t)=-4t+24=0\\quad\\Rightarrow\\quad t=6\\]</div></li><li><p class=\"facit-rubrik\">Största höjden vid \\(t=6\\)</p><div class=\"facit-matte\">\\[h(6)=-72+144+50=122\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> efter 6 s, höjden 122 m</p></div>",
+    "familj": "Optimering i givna modeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      122
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Derivera höjdfunktionen för att hitta tidpunkten då höjden slutar öka. Beräkna sedan höjden vid den tidpunkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "tid (s)",
+      "största höjd (m)"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "omrTidigare": [
+      "extremvardesproblem"
+    ],
+    "familjTidigare": [
+      "Optimera tillämpade andragradsmodeller"
+    ]
+  },
   {
     "id": "3.350",
     "kap": 3,
@@ -43364,7 +43404,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En odlares förenklade vinstmodell är \\(V(x)=-5x^2+60x\\), där \\(x\\) anger antal hundratal plantor och \\(V\\) mäts i tusen kronor. Bestäm det \\(x\\)-värde som ger störst vinst.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[V^{\\prime}(x)=-10x+60\\].</div></div></li><li><p>Sätt derivatan lika med noll:</p><p>\\[-10x+60=0\\Rightarrow x=6.\\]</p></li><li><div class=\"facit-berakning\"><p>Då blir</p><div class=\"facit-matte\">\\[V(6)=180\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\), alltså 600 plantor, ger enligt modellen störst vinst: \\(\\boxed{180\\,000\\text{ kr}}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(V'(x)=0\\)</p><div class=\"facit-matte\">\\[V'(x)=-10x+60=0\\quad\\Rightarrow\\quad x=6\\]</div></li><li><p class=\"facit-rubrik\">Nedåtvänd parabel ger maximum</p><div class=\"facit-matte\">\\[V(6)=-180+360=180\\ \\text{tkr}\\]</div><p>600 plantor ger störst vinst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": false,
@@ -43377,7 +43417,7 @@ window.BANKMATO1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Här är målfunktionen redan given. Derivera den direkt, bestäm de punkterna där derivatan är noll och kontrollera med derivatans tecken eller andraderivatan vilken kandidat som ger det efterfrågade max- eller minvärdet.</p>",
+    "ledtrad": "<p>Derivera vinstfunktionen och lös \\(V'(x)=0\\). x räknas i hundratal plantor.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -43469,7 +43509,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion \\(F\\) gäller att \\(F^{\\prime}(x)=2 x\\). Punkten \\((1;4)\\) ligger på grafen till \\(F\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"260\" viewBox=\"0 0 390 260\" role=\"img\" aria-label=\"Graf till F\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"73.7\" y1=\"28\" x2=\"73.7\" y2=\"224\" stroke=\"#F0EFF2\" /><text x=\"73.7\" y=\"246\" text-anchor=\"middle\" font-size=\"11\" fill=\"#5B5560\">-2</text><line x1=\"125.0\" y1=\"28\" x2=\"125.0\" y2=\"224\" stroke=\"#F0EFF2\" /><text x=\"125.0\" y=\"246\" text-anchor=\"middle\" font-size=\"11\" fill=\"#5B5560\">-1</text><line x1=\"176.3\" y1=\"28\" x2=\"176.3\" y2=\"224\" stroke=\"#F0EFF2\" /><line x1=\"227.7\" y1=\"28\" x2=\"227.7\" y2=\"224\" stroke=\"#F0EFF2\" /><text x=\"227.7\" y=\"246\" text-anchor=\"middle\" font-size=\"11\" fill=\"#5B5560\">1</text><line x1=\"279.0\" y1=\"28\" x2=\"279.0\" y2=\"224\" stroke=\"#F0EFF2\" /><text x=\"279.0\" y=\"246\" text-anchor=\"middle\" font-size=\"11\" fill=\"#5B5560\">2</text><line x1=\"330.3\" y1=\"28\" x2=\"330.3\" y2=\"224\" stroke=\"#F0EFF2\" /><text x=\"330.3\" y=\"246\" text-anchor=\"middle\" font-size=\"11\" fill=\"#5B5560\">3</text><line x1=\"48\" y1=\"212.5\" x2=\"362\" y2=\"212.5\" stroke=\"#F0EFF2\" /><line x1=\"48\" y1=\"155.0\" x2=\"362\" y2=\"155.0\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"159.0\" text-anchor=\"end\" font-size=\"11\" fill=\"#5B5560\">5</text><line x1=\"48\" y1=\"97.5\" x2=\"362\" y2=\"97.5\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"101.5\" text-anchor=\"end\" font-size=\"11\" fill=\"#5B5560\">10</text><line x1=\"48\" y1=\"40.0\" x2=\"362\" y2=\"40.0\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"44.0\" text-anchor=\"end\" font-size=\"11\" fill=\"#5B5560\">15</text><line x1=\"176.3\" y1=\"28\" x2=\"176.3\" y2=\"224\" stroke=\"#2B2527\" stroke-width=\"1.4\" /><line x1=\"48\" y1=\"212.5\" x2=\"362\" y2=\"212.5\" stroke=\"#2B2527\" stroke-width=\"1.4\" /><text x=\"372\" y=\"216.5\" font-size=\"12\">x</text><text x=\"48\" y=\"18\" font-size=\"12\">y</text><path d=\"M 48.0 106.1 L 48.8 107.0 L 49.5 107.8 L 50.3 108.7 L 51.1 109.5 L 51.9 110.4 L 52.6 111.2 L 53.4 112.0 L 54.2 112.9 L 54.9 113.7 L 55.7 114.5 L 56.5 115.3 L 57.2 116.1 L 58.0 116.9 L 58.8 117.7 L 59.6 118.5 L 60.3 119.3 L 61.1 120.0 L 61.9 120.8 L 62.6 121.6 L 63.4 122.3 L 64.2 123.1 L 64.9 123.8 L 65.7 124.6 L 66.5 125.3 L 67.2 126.1 L 68.0 126.8 L 68.8 127.5 L 69.6 128.2 L 70.3 129.0 L 71.1 129.7 L 71.9 130.4 L 72.6 131.1 L 73.4 131.8 L 74.2 132.5 L 74.9 133.1 L 75.7 133.8 L 76.5 134.5 L 77.3 135.2 L 78.0 135.8 L 78.8 136.5 L 79.6 137.1 L 80.3 137.8 L 81.1 138.4 L 81.9 139.1 L 82.7 139.7 L 83.4 140.3 L 84.2 140.9 L 85.0 141.6 L 85.7 142.2 L 86.5 142.8 L 87.3 143.4 L 88.0 144.0 L 88.8 144.6 L 89.6 145.2 L 90.3 145.7 L 91.1 146.3 L 91.9 146.9 L 92.7 147.4 L 93.4 148.0 L 94.2 148.6 L 95.0 149.1 L 95.7 149.7 L 96.5 150.2 L 97.3 150.7 L 98.1 151.3 L 98.8 151.8 L 99.6 152.3 L 100.4 152.8 L 101.1 153.3 L 101.9 153.8 L 102.7 154.3 L 103.4 154.8 L 104.2 155.3 L 105.0 155.8 L 105.8 156.3 L 106.5 156.7 L 107.3 157.2 L 108.1 157.7 L 108.8 158.1 L 109.6 158.6 L 110.4 159.0 L 111.1 159.5 L 111.9 159.9 L 112.7 160.3 L 113.5 160.7 L 114.2 161.2 L 115.0 161.6 L 115.8 162.0 L 116.5 162.4 L 117.3 162.8 L 118.1 163.2 L 118.8 163.6 L 119.6 164.0 L 120.4 164.3 L 121.2 164.7 L 121.9 165.1 L 122.7 165.4 L 123.5 165.8 L 124.2 166.2 L 125.0 166.5 L 125.8 166.8 L 126.5 167.2 L 127.3 167.5 L 128.1 167.8 L 128.9 168.2 L 129.6 168.5 L 130.4 168.8 L 131.2 169.1 L 131.9 169.4 L 132.7 169.7 L 133.5 170.0 L 134.2 170.3 L 135.0 170.5 L 135.8 170.8 L 136.6 171.1 L 137.3 171.4 L 138.1 171.6 L 138.9 171.9 L 139.6 172.1 L 140.4 172.4 L 141.2 172.6 L 141.9 172.8 L 142.7 173.1 L 143.5 173.3 L 144.2 173.5 L 145.0 173.7 L 145.8 173.9 L 146.6 174.1 L 147.3 174.3 L 148.1 174.5 L 148.9 174.7 L 149.6 174.9 L 150.4 175.1 L 151.2 175.2 L 151.9 175.4 L 152.7 175.6 L 153.5 175.7 L 154.3 175.9 L 155.0 176.0 L 155.8 176.2 L 156.6 176.3 L 157.3 176.4 L 158.1 176.6 L 158.9 176.7 L 159.6 176.8 L 160.4 176.9 L 161.2 177.0 L 162.0 177.1 L 162.7 177.2 L 163.5 177.3 L 164.3 177.4 L 165.0 177.4 L 165.8 177.5 L 166.6 177.6 L 167.4 177.6 L 168.1 177.7 L 168.9 177.8 L 169.7 177.8 L 170.4 177.8 L 171.2 177.9 L 172.0 177.9 L 172.7 177.9 L 173.5 178.0 L 174.3 178.0 L 175.1 178.0 L 175.8 178.0 L 176.6 178.0 L 177.4 178.0 L 178.1 178.0 L 178.9 178.0 L 179.7 178.0 L 180.4 177.9 L 181.2 177.9 L 182.0 177.9 L 182.8 177.8 L 183.5 177.8 L 184.3 177.7 L 185.1 177.7 L 185.8 177.6 L 186.6 177.5 L 187.4 177.5 L 188.1 177.4 L 188.9 177.3 L 189.7 177.2 L 190.4 177.1 L 191.2 177.0 L 192.0 176.9 L 192.8 176.8 L 193.5 176.7 L 194.3 176.6 L 195.1 176.5 L 195.8 176.3 L 196.6 176.2 L 197.4 176.1 L 198.2 175.9 L 198.9 175.8 L 199.7 175.6 L 200.5 175.5 L 201.2 175.3 L 202.0 175.1 L 202.8 174.9 L 203.5 174.8 L 204.3 174.6 L 205.1 174.4 L 205.9 174.2 L 206.6 174.0 L 207.4 173.8 L 208.2 173.6 L 208.9 173.4 L 209.7 173.1 L 210.5 172.9 L 211.2 172.7 L 212.0 172.4 L 212.8 172.2 L 213.5 172.0 L 214.3 171.7 L 215.1 171.4 L 215.9 171.2 L 216.6 170.9 L 217.4 170.6 L 218.2 170.4 L 218.9 170.1 L 219.7 169.8 L 220.5 169.5 L 221.2 169.2 L 222.0 168.9 L 222.8 168.6 L 223.6 168.3 L 224.3 167.9 L 225.1 167.6 L 225.9 167.3 L 226.6 167.0 L 227.4 166.6 L 228.2 166.3 L 229.0 165.9 L 229.7 165.6 L 230.5 165.2 L 231.3 164.8 L 232.0 164.5 L 232.8 164.1 L 233.6 163.7 L 234.3 163.3 L 235.1 162.9 L 235.9 162.5 L 236.6 162.1 L 237.4 161.7 L 238.2 161.3 L 239.0 160.9 L 239.7 160.5 L 240.5 160.0 L 241.3 159.6 L 242.0 159.2 L 242.8 158.7 L 243.6 158.3 L 244.4 157.8 L 245.1 157.4 L 245.9 156.9 L 246.7 156.4 L 247.4 155.9 L 248.2 155.5 L 249.0 155.0 L 249.7 154.5 L 250.5 154.0 L 251.3 153.5 L 252.0 153.0 L 252.8 152.5 L 253.6 152.0 L 254.4 151.4 L 255.1 150.9 L 255.9 150.4 L 256.7 149.8 L 257.4 149.3 L 258.2 148.7 L 259.0 148.2 L 259.8 147.6 L 260.5 147.1 L 261.3 146.5 L 262.1 145.9 L 262.8 145.3 L 263.6 144.8 L 264.4 144.2 L 265.1 143.6 L 265.9 143.0 L 266.7 142.4 L 267.5 141.8 L 268.2 141.2 L 269.0 140.5 L 269.8 139.9 L 270.5 139.3 L 271.3 138.6 L 272.1 138.0 L 272.8 137.4 L 273.6 136.7 L 274.4 136.0 L 275.1 135.4 L 275.9 134.7 L 276.7 134.0 L 277.5 133.4 L 278.2 132.7 L 279.0 132.0 L 279.8 131.3 L 280.5 130.6 L 281.3 129.9 L 282.1 129.2 L 282.9 128.5 L 283.6 127.8 L 284.4 127.0 L 285.2 126.3 L 285.9 125.6 L 286.7 124.8 L 287.5 124.1 L 288.2 123.3 L 289.0 122.6 L 289.8 121.8 L 290.5 121.1 L 291.3 120.3 L 292.1 119.5 L 292.9 118.7 L 293.6 118.0 L 294.4 117.2 L 295.2 116.4 L 295.9 115.6 L 296.7 114.8 L 297.5 113.9 L 298.2 113.1 L 299.0 112.3 L 299.8 111.5 L 300.6 110.7 L 301.3 109.8 L 302.1 109.0 L 302.9 108.1 L 303.6 107.3 L 304.4 106.4 L 305.2 105.5 L 305.9 104.7 L 306.7 103.8 L 307.5 102.9 L 308.3 102.0 L 309.0 101.2 L 309.8 100.3 L 310.6 99.4 L 311.3 98.5 L 312.1 97.5 L 312.9 96.6 L 313.6 95.7 L 314.4 94.8 L 315.2 93.9 L 316.0 92.9 L 316.7 92.0 L 317.5 91.0 L 318.3 90.1 L 319.0 89.1 L 319.8 88.2 L 320.6 87.2 L 321.4 86.2 L 322.1 85.2 L 322.9 84.3 L 323.7 83.3 L 324.4 82.3 L 325.2 81.3 L 326.0 80.3 L 326.7 79.3 L 327.5 78.3 L 328.3 77.2 L 329.1 76.2 L 329.8 75.2 L 330.6 74.2 L 331.4 73.1 L 332.1 72.1 L 332.9 71.0 L 333.7 70.0 L 334.4 68.9 L 335.2 67.8 L 336.0 66.8 L 336.8 65.7 L 337.5 64.6 L 338.3 63.5 L 339.1 62.4 L 339.8 61.3 L 340.6 60.2 L 341.4 59.1 L 342.1 58.0 L 342.9 56.9 L 343.7 55.8 L 344.4 54.7 L 345.2 53.5 L 346.0 52.4 L 346.8 51.2 L 347.5 50.1 L 348.3 48.9 L 349.1 47.8 L 349.8 46.6 L 350.6 45.5 L 351.4 44.3 L 352.1 43.1 L 352.9 41.9 L 353.7 40.7 L 354.5 39.5 L 355.2 38.3 L 356.0 37.1\" fill=\"none\" stroke=\"#C74440\" stroke-width=\"2.5\" /><circle cx=\"227.7\" cy=\"166.5\" r=\"4\" fill=\"#2D70B3\" /><text x=\"234.7\" y=\"159.5\" font-size=\"11\" fill=\"#2D70B3\">(1; 4)</text></svg></span><p>Bestäm \\(F(x)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(F^{\\prime}(x)=2x\\) gäller</p><p>\\[F(x)=x^2+C.\\]</p></li><li><p>Punkten \\((1,4)\\) ger \\(F(1)=4\\):</p><p>\\[1+C=4\\Rightarrow C=3.\\]</p><p>\\[\\boxed{F(x)=x^2+3}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=x^{2}+3\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(F'(x)=2x\\)</p><div class=\"facit-matte\">\\[F(x)=x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Punkten \\((1;4)\\) ger \\(F(1)=4\\)</p><div class=\"facit-matte\">\\[1+C=4\\quad\\Rightarrow\\quad C=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^2+3\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -43504,7 +43544,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion \\(F\\) gäller att \\(F^{\\prime}(x)=3 x^{2}\\). Punkten \\((1;2)\\) ligger på grafen till \\(F\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"260\" viewBox=\"0 0 390 260\" role=\"img\" aria-label=\"Graf till F\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"59.8\" y1=\"28\" x2=\"59.8\" y2=\"224\" stroke=\"#F0EFF2\" /><text x=\"59.8\" y=\"246\" text-anchor=\"middle\" font-size=\"11\" fill=\"#5B5560\">-2</text><line x1=\"119.1\" y1=\"28\" x2=\"119.1\" y2=\"224\" stroke=\"#F0EFF2\" /><text x=\"119.1\" y=\"246\" text-anchor=\"middle\" font-size=\"11\" fill=\"#5B5560\">-1</text><line x1=\"178.3\" y1=\"28\" x2=\"178.3\" y2=\"224\" stroke=\"#F0EFF2\" /><line x1=\"237.5\" y1=\"28\" x2=\"237.5\" y2=\"224\" stroke=\"#F0EFF2\" /><text x=\"237.5\" y=\"246\" text-anchor=\"middle\" font-size=\"11\" fill=\"#5B5560\">1</text><line x1=\"296.8\" y1=\"28\" x2=\"296.8\" y2=\"224\" stroke=\"#F0EFF2\" /><text x=\"296.8\" y=\"246\" text-anchor=\"middle\" font-size=\"11\" fill=\"#5B5560\">2</text><line x1=\"356.0\" y1=\"28\" x2=\"356.0\" y2=\"224\" stroke=\"#F0EFF2\" /><text x=\"356.0\" y=\"246\" text-anchor=\"middle\" font-size=\"11\" fill=\"#5B5560\">3</text><line x1=\"48\" y1=\"181.5\" x2=\"362\" y2=\"181.5\" stroke=\"#F0EFF2\" /><line x1=\"48\" y1=\"134.4\" x2=\"362\" y2=\"134.4\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"138.4\" text-anchor=\"end\" font-size=\"11\" fill=\"#5B5560\">10</text><line x1=\"48\" y1=\"87.2\" x2=\"362\" y2=\"87.2\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"91.2\" text-anchor=\"end\" font-size=\"11\" fill=\"#5B5560\">20</text><line x1=\"48\" y1=\"40.0\" x2=\"362\" y2=\"40.0\" stroke=\"#F0EFF2\" /><text x=\"39\" y=\"44.0\" text-anchor=\"end\" font-size=\"11\" fill=\"#5B5560\">30</text><line x1=\"178.3\" y1=\"28\" x2=\"178.3\" y2=\"224\" stroke=\"#2B2527\" stroke-width=\"1.4\" /><line x1=\"48\" y1=\"181.5\" x2=\"362\" y2=\"181.5\" stroke=\"#2B2527\" stroke-width=\"1.4\" /><text x=\"372\" y=\"185.5\" font-size=\"12\">x</text><text x=\"48\" y=\"18\" font-size=\"12\">y</text><path d=\"M 48.0 227.1 L 48.8 226.2 L 49.5 225.3 L 50.3 224.4 L 51.1 223.6 L 51.8 222.7 L 52.6 221.9 L 53.4 221.1 L 54.2 220.3 L 54.9 219.5 L 55.7 218.7 L 56.5 217.9 L 57.2 217.1 L 58.0 216.3 L 58.8 215.6 L 59.5 214.8 L 60.3 214.1 L 61.1 213.4 L 61.9 212.7 L 62.6 212.0 L 63.4 211.3 L 64.2 210.6 L 64.9 209.9 L 65.7 209.2 L 66.5 208.6 L 67.2 207.9 L 68.0 207.3 L 68.8 206.6 L 69.6 206.0 L 70.3 205.4 L 71.1 204.8 L 71.9 204.2 L 72.6 203.6 L 73.4 203.0 L 74.2 202.5 L 75.0 201.9 L 75.7 201.3 L 76.5 200.8 L 77.3 200.2 L 78.0 199.7 L 78.8 199.2 L 79.6 198.7 L 80.3 198.2 L 81.1 197.7 L 81.9 197.2 L 82.7 196.7 L 83.4 196.2 L 84.2 195.7 L 85.0 195.3 L 85.7 194.8 L 86.5 194.4 L 87.3 194.0 L 88.0 193.5 L 88.8 193.1 L 89.6 192.7 L 90.3 192.3 L 91.1 191.9 L 91.9 191.5 L 92.7 191.1 L 93.4 190.7 L 94.2 190.3 L 95.0 190.0 L 95.7 189.6 L 96.5 189.2 L 97.3 188.9 L 98.0 188.6 L 98.8 188.2 L 99.6 187.9 L 100.4 187.6 L 101.1 187.3 L 101.9 186.9 L 102.7 186.6 L 103.4 186.3 L 104.2 186.1 L 105.0 185.8 L 105.8 185.5 L 106.5 185.2 L 107.3 185.0 L 108.1 184.7 L 108.8 184.4 L 109.6 184.2 L 110.4 183.9 L 111.1 183.7 L 111.9 183.5 L 112.7 183.2 L 113.5 183.0 L 114.2 182.8 L 115.0 182.6 L 115.8 182.4 L 116.5 182.2 L 117.3 182.0 L 118.1 181.8 L 118.8 181.6 L 119.6 181.4 L 120.4 181.2 L 121.2 181.1 L 121.9 180.9 L 122.7 180.7 L 123.5 180.6 L 124.2 180.4 L 125.0 180.3 L 125.8 180.1 L 126.5 180.0 L 127.3 179.8 L 128.1 179.7 L 128.9 179.6 L 129.6 179.4 L 130.4 179.3 L 131.2 179.2 L 131.9 179.1 L 132.7 179.0 L 133.5 178.9 L 134.2 178.8 L 135.0 178.7 L 135.8 178.6 L 136.6 178.5 L 137.3 178.4 L 138.1 178.3 L 138.9 178.2 L 139.6 178.1 L 140.4 178.1 L 141.2 178.0 L 141.9 177.9 L 142.7 177.8 L 143.5 177.8 L 144.2 177.7 L 145.0 177.7 L 145.8 177.6 L 146.6 177.5 L 147.3 177.5 L 148.1 177.4 L 148.9 177.4 L 149.6 177.4 L 150.4 177.3 L 151.2 177.3 L 151.9 177.2 L 152.7 177.2 L 153.5 177.2 L 154.3 177.1 L 155.0 177.1 L 155.8 177.1 L 156.6 177.1 L 157.3 177.0 L 158.1 177.0 L 158.9 177.0 L 159.6 177.0 L 160.4 177.0 L 161.2 176.9 L 162.0 176.9 L 162.7 176.9 L 163.5 176.9 L 164.3 176.9 L 165.0 176.9 L 165.8 176.9 L 166.6 176.9 L 167.4 176.9 L 168.1 176.8 L 168.9 176.8 L 169.7 176.8 L 170.4 176.8 L 171.2 176.8 L 172.0 176.8 L 172.7 176.8 L 173.5 176.8 L 174.3 176.8 L 175.1 176.8 L 175.8 176.8 L 176.6 176.8 L 177.4 176.8 L 178.1 176.8 L 178.9 176.8 L 179.7 176.8 L 180.4 176.8 L 181.2 176.8 L 182.0 176.8 L 182.7 176.8 L 183.5 176.8 L 184.3 176.8 L 185.1 176.8 L 185.8 176.8 L 186.6 176.8 L 187.4 176.8 L 188.1 176.8 L 188.9 176.8 L 189.7 176.8 L 190.4 176.8 L 191.2 176.8 L 192.0 176.8 L 192.8 176.8 L 193.5 176.7 L 194.3 176.7 L 195.1 176.7 L 195.8 176.7 L 196.6 176.7 L 197.4 176.7 L 198.2 176.6 L 198.9 176.6 L 199.7 176.6 L 200.5 176.6 L 201.2 176.5 L 202.0 176.5 L 202.8 176.5 L 203.5 176.5 L 204.3 176.4 L 205.1 176.4 L 205.8 176.3 L 206.6 176.3 L 207.4 176.3 L 208.2 176.2 L 208.9 176.2 L 209.7 176.1 L 210.5 176.1 L 211.2 176.0 L 212.0 176.0 L 212.8 175.9 L 213.5 175.8 L 214.3 175.8 L 215.1 175.7 L 215.9 175.6 L 216.6 175.5 L 217.4 175.5 L 218.2 175.4 L 218.9 175.3 L 219.7 175.2 L 220.5 175.1 L 221.2 175.0 L 222.0 174.9 L 222.8 174.8 L 223.6 174.7 L 224.3 174.6 L 225.1 174.5 L 225.9 174.4 L 226.6 174.3 L 227.4 174.1 L 228.2 174.0 L 229.0 173.9 L 229.7 173.7 L 230.5 173.6 L 231.3 173.4 L 232.0 173.3 L 232.8 173.1 L 233.6 173.0 L 234.3 172.8 L 235.1 172.7 L 235.9 172.5 L 236.7 172.3 L 237.4 172.1 L 238.2 171.9 L 239.0 171.8 L 239.7 171.6 L 240.5 171.4 L 241.3 171.2 L 242.0 170.9 L 242.8 170.7 L 243.6 170.5 L 244.3 170.3 L 245.1 170.0 L 245.9 169.8 L 246.7 169.6 L 247.4 169.3 L 248.2 169.1 L 249.0 168.8 L 249.7 168.5 L 250.5 168.3 L 251.3 168.0 L 252.0 167.7 L 252.8 167.4 L 253.6 167.1 L 254.4 166.8 L 255.1 166.5 L 255.9 166.2 L 256.7 165.9 L 257.4 165.6 L 258.2 165.2 L 259.0 164.9 L 259.8 164.6 L 260.5 164.2 L 261.3 163.8 L 262.1 163.5 L 262.8 163.1 L 263.6 162.7 L 264.4 162.3 L 265.1 162.0 L 265.9 161.6 L 266.7 161.2 L 267.5 160.7 L 268.2 160.3 L 269.0 159.9 L 269.8 159.5 L 270.5 159.0 L 271.3 158.6 L 272.1 158.1 L 272.8 157.6 L 273.6 157.2 L 274.4 156.7 L 275.1 156.2 L 275.9 155.7 L 276.7 155.2 L 277.5 154.7 L 278.2 154.2 L 279.0 153.6 L 279.8 153.1 L 280.5 152.6 L 281.3 152.0 L 282.1 151.4 L 282.9 150.9 L 283.6 150.3 L 284.4 149.7 L 285.2 149.1 L 285.9 148.5 L 286.7 147.9 L 287.5 147.3 L 288.2 146.7 L 289.0 146.0 L 289.8 145.4 L 290.5 144.7 L 291.3 144.0 L 292.1 143.4 L 292.9 142.7 L 293.6 142.0 L 294.4 141.3 L 295.2 140.6 L 295.9 139.9 L 296.7 139.1 L 297.5 138.4 L 298.2 137.6 L 299.0 136.9 L 299.8 136.1 L 300.6 135.3 L 301.3 134.5 L 302.1 133.7 L 302.9 132.9 L 303.6 132.1 L 304.4 131.3 L 305.2 130.5 L 305.9 129.6 L 306.7 128.7 L 307.5 127.9 L 308.3 127.0 L 309.0 126.1 L 309.8 125.2 L 310.6 124.3 L 311.3 123.4 L 312.1 122.4 L 312.9 121.5 L 313.7 120.5 L 314.4 119.6 L 315.2 118.6 L 316.0 117.6 L 316.7 116.6 L 317.5 115.6 L 318.3 114.6 L 319.0 113.5 L 319.8 112.5 L 320.6 111.4 L 321.3 110.4 L 322.1 109.3 L 322.9 108.2 L 323.7 107.1 L 324.4 106.0 L 325.2 104.9 L 326.0 103.7 L 326.7 102.6 L 327.5 101.4 L 328.3 100.2 L 329.1 99.0 L 329.8 97.9 L 330.6 96.6 L 331.4 95.4 L 332.1 94.2 L 332.9 92.9 L 333.7 91.7 L 334.4 90.4 L 335.2 89.1 L 336.0 87.8 L 336.8 86.5 L 337.5 85.2 L 338.3 83.9 L 339.1 82.5 L 339.8 81.1 L 340.6 79.8 L 341.4 78.4 L 342.1 77.0 L 342.9 75.6 L 343.7 74.1 L 344.4 72.7 L 345.2 71.2 L 346.0 69.8 L 346.8 68.3 L 347.5 66.8 L 348.3 65.3 L 349.1 63.8 L 349.8 62.2 L 350.6 60.7 L 351.4 59.1 L 352.1 57.5 L 352.9 55.9 L 353.7 54.3 L 354.5 52.7 L 355.2 51.1 L 356.0 49.4\" fill=\"none\" stroke=\"#C74440\" stroke-width=\"2.5\" /><circle cx=\"237.5\" cy=\"172.1\" r=\"4\" fill=\"#2D70B3\" /><text x=\"244.5\" y=\"165.1\" font-size=\"11\" fill=\"#2D70B3\">(1; 2)</text></svg></span><p>Bestäm \\(F(x)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion till \\(3 x^{2}\\) är \\(x^{3}+C\\).</p></li><li><p>Villkoret \\(F(1)=2\\) ger \\(C=1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=x^{3} + 1}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(F'(x)=3x^2\\)</p><div class=\"facit-matte\">\\[F(x)=x^3+C\\]</div></li><li><p class=\"facit-rubrik\">Punkten \\((1;2)\\) ger \\(F(1)=2\\)</p><div class=\"facit-matte\">\\[1+C=2\\quad\\Rightarrow\\quad C=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3+1\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -44237,7 +44277,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En boll kastas rakt upp. Höjden över marken efter \\(t\\) sekunder beskrivs av \\(h(t)=-5t^2+30t+2\\). Bestäm bollens största höjd och när den nås.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" role=\"img\" aria-label=\"Modellens graf\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"50\" y1=\"228\" x2=\"355\" y2=\"228\" stroke=\"#333\" /><line x1=\"50\" y1=\"30\" x2=\"50\" y2=\"228\" stroke=\"#333\" /><path d=\"M 50.0 211.2 L 51.5 208.2 L 53.0 205.2 L 54.6 202.2 L 56.1 199.3 L 57.6 196.4 L 59.1 193.6 L 60.7 190.7 L 62.2 187.9 L 63.7 185.2 L 65.2 182.4 L 66.8 179.7 L 68.3 177.0 L 69.8 174.4 L 71.3 171.8 L 72.9 169.2 L 74.4 166.6 L 75.9 164.1 L 77.5 161.6 L 79.0 159.1 L 80.5 156.7 L 82.0 154.3 L 83.5 151.9 L 85.1 149.6 L 86.6 147.2 L 88.1 145.0 L 89.7 142.7 L 91.2 140.5 L 92.7 138.3 L 94.2 136.1 L 95.8 134.0 L 97.3 131.9 L 98.8 129.8 L 100.3 127.8 L 101.8 125.8 L 103.4 123.8 L 104.9 121.8 L 106.4 119.9 L 107.9 118.0 L 109.5 116.1 L 111.0 114.3 L 112.5 112.5 L 114.0 110.7 L 115.6 109.0 L 117.1 107.3 L 118.6 105.6 L 120.1 104.0 L 121.7 102.3 L 123.2 100.7 L 124.7 99.2 L 126.2 97.7 L 127.8 96.2 L 129.3 94.7 L 130.8 93.3 L 132.4 91.8 L 133.9 90.5 L 135.4 89.1 L 136.9 87.8 L 138.4 86.5 L 140.0 85.3 L 141.5 84.0 L 143.0 82.8 L 144.6 81.7 L 146.1 80.5 L 147.6 79.4 L 149.1 78.4 L 150.7 77.3 L 152.2 76.3 L 153.7 75.3 L 155.2 74.4 L 156.8 73.4 L 158.3 72.5 L 159.8 71.7 L 161.3 70.9 L 162.9 70.1 L 164.4 69.3 L 165.9 68.5 L 167.4 67.8 L 168.9 67.1 L 170.5 66.5 L 172.0 65.9 L 173.5 65.3 L 175.1 64.7 L 176.6 64.2 L 178.1 63.7 L 179.6 63.2 L 181.2 62.8 L 182.7 62.4 L 184.2 62.0 L 185.7 61.6 L 187.2 61.3 L 188.8 61.0 L 190.3 60.8 L 191.8 60.6 L 193.3 60.4 L 194.9 60.2 L 196.4 60.1 L 197.9 60.0 L 199.4 59.9 L 201.0 59.8 L 202.5 59.8 L 204.0 59.8 L 205.6 59.9 L 207.1 60.0 L 208.6 60.1 L 210.1 60.2 L 211.7 60.4 L 213.2 60.6 L 214.7 60.8 L 216.2 61.0 L 217.7 61.3 L 219.3 61.6 L 220.8 62.0 L 222.3 62.4 L 223.8 62.8 L 225.4 63.2 L 226.9 63.7 L 228.4 64.2 L 229.9 64.7 L 231.5 65.3 L 233.0 65.9 L 234.5 66.5 L 236.0 67.1 L 237.6 67.8 L 239.1 68.5 L 240.6 69.3 L 242.2 70.1 L 243.7 70.9 L 245.2 71.7 L 246.7 72.5 L 248.2 73.4 L 249.8 74.4 L 251.3 75.3 L 252.8 76.3 L 254.3 77.3 L 255.9 78.4 L 257.4 79.4 L 258.9 80.5 L 260.4 81.7 L 262.0 82.8 L 263.5 84.0 L 265.0 85.3 L 266.5 86.5 L 268.1 87.8 L 269.6 89.1 L 271.1 90.5 L 272.6 91.8 L 274.2 93.3 L 275.7 94.7 L 277.2 96.2 L 278.8 97.7 L 280.3 99.2 L 281.8 100.7 L 283.3 102.3 L 284.9 104.0 L 286.4 105.6 L 287.9 107.3 L 289.4 109.0 L 291.0 110.7 L 292.5 112.5 L 294.0 114.3 L 295.5 116.1 L 297.1 118.0 L 298.6 119.9 L 300.1 121.8 L 301.6 123.8 L 303.2 125.8 L 304.7 127.8 L 306.2 129.8 L 307.7 131.9 L 309.2 134.0 L 310.8 136.1 L 312.3 138.3 L 313.8 140.5 L 315.4 142.7 L 316.9 145.0 L 318.4 147.2 L 319.9 149.6 L 321.4 151.9 L 323.0 154.3 L 324.5 156.7 L 326.0 159.1 L 327.6 161.6 L 329.1 164.1 L 330.6 166.6 L 332.1 169.2 L 333.7 171.8 L 335.2 174.4 L 336.7 177.0 L 338.2 179.7 L 339.8 182.4 L 341.3 185.2 L 342.8 187.9 L 344.3 190.7 L 345.9 193.6 L 347.4 196.4 L 348.9 199.3 L 350.4 202.2 L 352.0 205.2 L 353.5 208.2 L 355.0 211.2\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.5\" /></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[h^{\\prime}(t)=-10t+30.\\]</p><p>\\[h^{\\prime}(t)=0\\Rightarrow t=3.\\]</p></li><li><p>Före \\(t=3\\) är derivatan positiv och efter \\(t=3\\) negativ, så höjden är maximal då.</p><p>\\[h(3)=-5\\cdot9+30\\cdot3+2=47.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> bollen når sin största höjd \\(\\boxed{47\\text{ m}}\\) efter \\(\\boxed{3\\text{ s}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(h'(t)=0\\)</p><div class=\"facit-matte\">\\[h'(t)=-10t+30=0\\quad\\Rightarrow\\quad t=3\\]</div></li><li><p class=\"facit-rubrik\">Största höjden vid \\(t=3\\)</p><div class=\"facit-matte\">\\[h(3)=-45+90+2=47\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 47 m efter 3 s</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": false,
@@ -44283,7 +44323,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En odlares skörd per hektar modelleras av \\(S(x)=-2x^2+24x+35\\), där \\(x\\) är mängden gödsel i en viss enhet. Bestäm den gödselmängd som ger störst skörd.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är</p><p>\\[S^{\\prime}(x)=-4x+24=-4(x-6).\\]</p></li><li><p>Derivatan är positiv före \\(x=6\\) och negativ efter \\(x=6\\), så modellen har sitt maximum där.</p><p>\\[S(6)=107.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> gödselmängden ska vara \\(\\boxed{x=6}\\) i modellens enhet. Det maximala modellvärdet är 107.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(S'(x)=0\\)</p><div class=\"facit-matte\">\\[S'(x)=-4x+24=0\\quad\\Rightarrow\\quad x=6\\]</div></li><li><p class=\"facit-rubrik\">\\(S'\\) går från + till −</p><p>Maxvärdet är \\(S(6)=107\\), men frågan gäller gödselmängden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": false,
@@ -44308,131 +44348,131 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "3.373",
-  "kap": 3,
-  "omr": "fler_extremvarde",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Kostnaden per tillverkad serie modelleras av \\(K(x)=0{,}5x^2-20x+340\\), där \\(x\\) är antalet serier. Bestäm det minsta värdet på \\(K\\) och för vilket \\(x\\) det fås.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[K^{\\prime}(x)=x-20.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatan är noll när</p><div class=\"facit-matte\">\\[x=20\\].</div></div></li><li><p>Eftersom koefficienten framför \\(x^2\\) är positiv är detta ett minimum.</p><p>\\[K(20)=0{,}5\\cdot20^2-20\\cdot20+340=140.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> det minsta värdet är \\(\\boxed{140}\\), och det fås för \\(\\boxed{x=20}\\).</p></div>",
-  "familj": "Ekonomisk optimering",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    140,
-    20
-  ],
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "ledtrad": "<p>Derivera \\(K(x)\\), bestäm var derivatan är noll och beräkna sedan \\(K\\) där.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarsstruktur": "ordnad",
-  "svarEtiketter": [
-    "minsta K-värde",
-    "x-värde"
-  ],
-  "omrTidigare": [
-    "extremvardesproblem"
-  ],
-  "familjTidigare": [
-    "Ekonomisk optimering med derivata"
-  ]
-},
+    "id": "3.373",
+    "kap": 3,
+    "omr": "fler_extremvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Kostnaden per tillverkad serie modelleras av \\(K(x)=0{,}5x^2-20x+340\\), där \\(x\\) är antalet serier. Bestäm det minsta värdet på \\(K\\) och för vilket \\(x\\) det fås.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(K'(x)=0\\)</p><div class=\"facit-matte\">\\[K'(x)=x-20=0\\quad\\Rightarrow\\quad x=20\\]</div></li><li><p class=\"facit-rubrik\">Uppåtvänd parabel ger minimum</p><div class=\"facit-matte\">\\[K(20)=200-400+340=140\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta värdet 140 för \\(x=20\\)</p></div>",
+    "familj": "Ekonomisk optimering",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      140,
+      20
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Derivera \\(K(x)\\), bestäm var derivatan är noll och beräkna sedan \\(K\\) där.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "minsta K-värde",
+      "x-värde"
+    ],
+    "omrTidigare": [
+      "extremvardesproblem"
+    ],
+    "familjTidigare": [
+      "Ekonomisk optimering med derivata"
+    ]
+  },
   {
-  "id": "3.374",
-  "kap": 3,
-  "omr": "fler_extremvarde",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Temperaturen i ett växthus under en del av dagen modelleras av \\(T(t)=-0{,}4t^2+4{,}8t+18\\), där \\(T\\) mäts i °C och \\(t\\) är timmar efter kl. 08.00.</p><p>Bestäm den högsta temperaturen enligt modellen och vid vilket klockslag den inträffar.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är</p><p>\\[T^{\\prime}(t)=-0{,}8t+4{,}8.\\]</p><p>\\[T^{\\prime}(t)=0\\Rightarrow t=6.\\]</p></li><li><p>Eftersom parabeln är nedåtvänd ger detta maximum.</p><p>\\[T(6)=-0{,}4\\cdot36+4{,}8\\cdot6+18=32{,}4.\\]</p></li><li><p>Sex timmar efter kl. 08.00 är kl. 14.00.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{32{,}4\\ ^\\circ\\mathrm C}\\) kl. \\(\\boxed{14.00}\\).</p></div>",
-  "familj": "Optimering i givna modeller",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    32.4,
-    14
-  ],
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "ledtrad": "<p>Bestäm först hur många timmar efter kl. 08.00 temperaturen är som störst. Översätt sedan \\(t\\)-värdet till ett klockslag.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarsstruktur": "ordnad",
-  "svarEtiketter": [
-    "temperatur (°C)",
-    "klockslag (timme)"
-  ],
-  "omrTidigare": [
-    "extremvardesproblem"
-  ],
-  "familjTidigare": [
-    "Optimera tillämpade andragradsmodeller"
-  ]
-},
+    "id": "3.374",
+    "kap": 3,
+    "omr": "fler_extremvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Temperaturen i ett växthus under en del av dagen modelleras av \\(T(t)=-0{,}4t^2+4{,}8t+18\\), där \\(T\\) mäts i °C och \\(t\\) är timmar efter kl. 08.00.</p><p>Bestäm den högsta temperaturen enligt modellen och vid vilket klockslag den inträffar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(T'(t)=0\\)</p><div class=\"facit-matte\">\\[T'(t)=-0{,}8t+4{,}8=0\\quad\\Rightarrow\\quad t=6\\]</div></li><li><p class=\"facit-rubrik\">Högsta temperaturen vid \\(t=6\\)</p><div class=\"facit-matte\">\\[T(6)=-14{,}4+28{,}8+18=32{,}4\\ ^\\circ\\text{C}\\]</div></li><li><p class=\"facit-rubrik\">6 timmar efter kl. 08.00</p><p>Klockan är 14.00.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 32,4 °C kl. 14.00</p></div>",
+    "familj": "Optimering i givna modeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      32.4,
+      14
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Bestäm först hur många timmar efter kl. 08.00 temperaturen är som störst. Översätt sedan \\(t\\)-värdet till ett klockslag.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "temperatur (°C)",
+      "klockslag (timme)"
+    ],
+    "omrTidigare": [
+      "extremvardesproblem"
+    ],
+    "familjTidigare": [
+      "Optimera tillämpade andragradsmodeller"
+    ]
+  },
   {
-  "id": "3.375",
-  "kap": 3,
-  "omr": "extremvarde_modellering",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Arean av ett rektangulärt område beskrivs av \\(A(x)=30x-x^2\\) där \\(x\\) mäts i meter och \\(A\\) i m², för \\(0\\lt x\\lt30\\). Bestäm den största möjliga arean.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera arean: \\(A^{\\prime}(x)=30-2x\\). Villkoret \\(A^{\\prime}(x)=0\\) ger \\(x=15\\), som ligger i det tillåtna intervallet.</p></li><li><p>Derivatan är positiv före 15 och negativ efter 15. Arean har därför sitt största värde där.</p><p>\\[A(15)=30\\cdot15-15^2=225.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den största arean är 225 m². Ändpunkterna 0 och 30 ingår inte i intervallet.</p></div>",
-  "familj": "Rektanglar och trianglar i figurer",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 225,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Areafunktionen är redan given. Derivera \\(A(x)\\) och bestäm var derivatan byter från positiv till negativ.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "extremvardesproblem"
-  ],
-  "familjTidigare": [
-    "Geometrisk optimering med derivata"
-  ]
-},
+    "id": "3.375",
+    "kap": 3,
+    "omr": "extremvarde_modellering",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Arean av ett rektangulärt område beskrivs av \\(A(x)=30x-x^2\\) där \\(x\\) mäts i meter och \\(A\\) i m², för \\(0\\lt x\\lt30\\). Bestäm den största möjliga arean.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=30-2x=0\\quad\\Rightarrow\\quad x=15\\]</div></li><li><p class=\"facit-rubrik\">\\(A'\\) går från + till − vid 15</p><div class=\"facit-matte\">\\[A(15)=450-225=225\\ \\text{m}^2\\]</div><p>Ändpunkterna 0 och 30 ingår inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 225 m²</p></div>",
+    "familj": "Rektanglar och trianglar i figurer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 225,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Areafunktionen är redan given. Derivera \\(A(x)\\) och bestäm var derivatan byter från positiv till negativ.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "extremvardesproblem"
+    ],
+    "familjTidigare": [
+      "Geometrisk optimering med derivata"
+    ]
+  },
   {
     "id": "3.376",
     "kap": 3,
@@ -44469,40 +44509,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "3.377",
-  "kap": 3,
-  "omr": "fler_extremvarde",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>En fontänstråles höjd i meter kan modelleras med \\(h(x)=-0{,}25x^2+2x+0{,}5\\), där \\(x\\) är det horisontella avståndet i meter. Bestäm strålens största höjd.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" role=\"img\" aria-label=\"Fontänstrålens höjd över marken\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><path d=\"M40 220 H350 M50 230 V25\" fill=\"none\" stroke=\"currentColor\"/><text x=\"325\" y=\"249\" font-size=\"13\">x (m)</text><text x=\"12\" y=\"18\" font-size=\"13\">h (m)</text><path d=\"M50 217 v6\" stroke=\"currentColor\"/><text x=\"50\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">0</text><path d=\"M114 217 v6\" stroke=\"currentColor\"/><text x=\"114\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">2</text><path d=\"M178 217 v6\" stroke=\"currentColor\"/><text x=\"178\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">4</text><path d=\"M242 217 v6\" stroke=\"currentColor\"/><text x=\"242\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">6</text><path d=\"M306 217 v6\" stroke=\"currentColor\"/><text x=\"306\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">8</text><path d=\"M47 184 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"188\" text-anchor=\"end\" font-size=\"12\">1</text><path d=\"M47 148 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"152\" text-anchor=\"end\" font-size=\"12\">2</text><path d=\"M47 112 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"116\" text-anchor=\"end\" font-size=\"12\">3</text><path d=\"M47 76 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"80\" text-anchor=\"end\" font-size=\"12\">4</text><path d=\"M47 40 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"44\" text-anchor=\"end\" font-size=\"12\">5</text><polyline points=\"50.00,202.00 52.64,196.13 55.28,190.38 57.91,184.75 60.55,179.24 63.19,173.86 65.83,168.59 68.46,163.45 71.10,158.44 73.74,153.54 76.38,148.77 79.01,144.12 81.65,139.59 84.29,135.18 86.93,130.90 89.56,126.74 92.20,122.70 94.84,118.78 97.48,114.99 100.12,111.31 102.75,107.76 105.39,104.34 108.03,101.03 110.67,97.85 113.30,94.79 115.94,91.85 118.58,89.03 121.22,86.34 123.85,83.77 126.49,81.32 129.13,78.99 131.77,76.79 134.40,74.70 137.04,72.74 139.68,70.91 142.32,69.19 144.96,67.60 147.59,66.13 150.23,64.78 152.87,63.55 155.51,62.45 158.14,61.47 160.78,60.61 163.42,59.87 166.06,59.25 168.69,58.76 171.33,58.39 173.97,58.14 176.61,58.02 179.24,58.01 181.88,58.13 184.52,58.37 187.16,58.74 189.80,59.22 192.43,59.83 195.07,60.56 197.71,61.41 200.35,62.39 202.98,63.49 205.62,64.71 208.26,66.05 210.90,67.51 213.53,69.10 216.17,70.81 218.81,72.64 221.45,74.59 224.08,76.67 226.72,78.86 229.36,81.18 232.00,83.63 234.64,86.19 237.27,88.88 239.91,91.69 242.55,94.62 245.19,97.67 247.82,100.85 250.46,104.15 253.10,107.57 255.74,111.11 258.37,114.78 261.01,118.56 263.65,122.47 266.29,126.51 268.92,130.66 271.56,134.94 274.20,139.34 276.84,143.86 279.48,148.50 282.11,153.27 284.75,158.16 287.39,163.17 290.03,168.30 292.66,173.56 295.30,178.93 297.94,184.43 300.58,190.06 303.21,195.80 305.85,201.67 308.49,207.66 311.13,213.77 313.76,220.00\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.5\"/></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är \\(h^{\\prime}(x)=-0{,}5x+2\\). Den är noll vid \\(x=4\\).</p></li><li><p>Parabeln är nedåtvänd, så detta ger strålens största höjd:</p><p>\\[h(4)=-0{,}25\\cdot4^2+2\\cdot4+0{,}5=4{,}5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Strålens största höjd är 4,5 m.</p></div>",
-  "familj": "Optimering i givna modeller",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 4.5,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Höjdfunktionen är redan given. Bestäm var \\(h^{\\prime}(x)=0\\) och kontrollera att det är ett maximum.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "extremvardesproblem"
-  ],
-  "familjTidigare": [
-    "Optimera tillämpade andragradsmodeller"
-  ]
-},
+    "id": "3.377",
+    "kap": 3,
+    "omr": "fler_extremvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En fontänstråles höjd i meter kan modelleras med \\(h(x)=-0{,}25x^2+2x+0{,}5\\), där \\(x\\) är det horisontella avståndet i meter. Bestäm strålens största höjd.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" role=\"img\" aria-label=\"Fontänstrålens höjd över marken\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><path d=\"M40 220 H350 M50 230 V25\" fill=\"none\" stroke=\"currentColor\"/><text x=\"325\" y=\"249\" font-size=\"13\">x (m)</text><text x=\"12\" y=\"18\" font-size=\"13\">h (m)</text><path d=\"M50 217 v6\" stroke=\"currentColor\"/><text x=\"50\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">0</text><path d=\"M114 217 v6\" stroke=\"currentColor\"/><text x=\"114\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">2</text><path d=\"M178 217 v6\" stroke=\"currentColor\"/><text x=\"178\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">4</text><path d=\"M242 217 v6\" stroke=\"currentColor\"/><text x=\"242\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">6</text><path d=\"M306 217 v6\" stroke=\"currentColor\"/><text x=\"306\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">8</text><path d=\"M47 184 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"188\" text-anchor=\"end\" font-size=\"12\">1</text><path d=\"M47 148 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"152\" text-anchor=\"end\" font-size=\"12\">2</text><path d=\"M47 112 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"116\" text-anchor=\"end\" font-size=\"12\">3</text><path d=\"M47 76 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"80\" text-anchor=\"end\" font-size=\"12\">4</text><path d=\"M47 40 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"44\" text-anchor=\"end\" font-size=\"12\">5</text><polyline points=\"50.00,202.00 52.64,196.13 55.28,190.38 57.91,184.75 60.55,179.24 63.19,173.86 65.83,168.59 68.46,163.45 71.10,158.44 73.74,153.54 76.38,148.77 79.01,144.12 81.65,139.59 84.29,135.18 86.93,130.90 89.56,126.74 92.20,122.70 94.84,118.78 97.48,114.99 100.12,111.31 102.75,107.76 105.39,104.34 108.03,101.03 110.67,97.85 113.30,94.79 115.94,91.85 118.58,89.03 121.22,86.34 123.85,83.77 126.49,81.32 129.13,78.99 131.77,76.79 134.40,74.70 137.04,72.74 139.68,70.91 142.32,69.19 144.96,67.60 147.59,66.13 150.23,64.78 152.87,63.55 155.51,62.45 158.14,61.47 160.78,60.61 163.42,59.87 166.06,59.25 168.69,58.76 171.33,58.39 173.97,58.14 176.61,58.02 179.24,58.01 181.88,58.13 184.52,58.37 187.16,58.74 189.80,59.22 192.43,59.83 195.07,60.56 197.71,61.41 200.35,62.39 202.98,63.49 205.62,64.71 208.26,66.05 210.90,67.51 213.53,69.10 216.17,70.81 218.81,72.64 221.45,74.59 224.08,76.67 226.72,78.86 229.36,81.18 232.00,83.63 234.64,86.19 237.27,88.88 239.91,91.69 242.55,94.62 245.19,97.67 247.82,100.85 250.46,104.15 253.10,107.57 255.74,111.11 258.37,114.78 261.01,118.56 263.65,122.47 266.29,126.51 268.92,130.66 271.56,134.94 274.20,139.34 276.84,143.86 279.48,148.50 282.11,153.27 284.75,158.16 287.39,163.17 290.03,168.30 292.66,173.56 295.30,178.93 297.94,184.43 300.58,190.06 303.21,195.80 305.85,201.67 308.49,207.66 311.13,213.77 313.76,220.00\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.5\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(h'(x)=0\\)</p><div class=\"facit-matte\">\\[h'(x)=-0{,}5x+2=0\\quad\\Rightarrow\\quad x=4\\]</div></li><li><p class=\"facit-rubrik\">Största höjden vid \\(x=4\\)</p><div class=\"facit-matte\">\\[h(4)=-4+8+0{,}5=4{,}5\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,5 m</p></div>",
+    "familj": "Optimering i givna modeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Höjdfunktionen är redan given. Bestäm var \\(h^{\\prime}(x)=0\\) och kontrollera att det är ett maximum.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "extremvardesproblem"
+    ],
+    "familjTidigare": [
+      "Optimera tillämpade andragradsmodeller"
+    ]
+  },
   {
     "id": "3.378",
     "kap": 3,
@@ -44514,7 +44554,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Vinsten i tusentals kronor för en produkt modelleras av \\(V(x)=-x^2+18x-45\\), där \\(x\\) är antalet hundratal sålda produkter. Bestäm den största vinsten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är \\[- 2 \\left(x - 9\\right).\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatans nollställen i det aktuella intervallet är</p><div class=\"facit-matte\">\\[x=9\\].</div></div></li><li><p>För att bestämma största och minsta värde på intervallet jämför vi funktionens värden i derivatans nollställen och i intervallets ändpunkter.</p></li></ol><ul><li>\\(x=0\\): värdet är \\(-45\\)</li><li>\\(x=18\\): värdet är \\(-45\\)</li><li>\\(x=9\\): värdet är \\(36\\)</li></ul><p class=\"facit-svar\"><strong>Svar:</strong> det största värdet är \\(\\boxed{36}\\) tusen kr, och det fås för \\(x=9\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(V'(x)=0\\)</p><div class=\"facit-matte\">\\[V'(x)=-2x+18=0\\quad\\Rightarrow\\quad x=9\\]</div></li><li><p class=\"facit-rubrik\">Nedåtvänd parabel ger maximum</p><div class=\"facit-matte\">\\[V(9)=-81+162-45=36\\ \\text{tkr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 36 tusen kr</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": false,
@@ -44527,7 +44567,7 @@ window.BANKMATO1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Här är målfunktionen redan given. Derivera den direkt, bestäm de punkterna där derivatan är noll och kontrollera med derivatans tecken eller andraderivatan vilken kandidat som ger det efterfrågade max- eller minvärdet.</p>",
+    "ledtrad": "<p>Derivera vinstfunktionen, lös \\(V'(x)=0\\) och sätt in x-värdet i \\(V(x)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -44549,7 +44589,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En plants höjdökning per vecka modelleras under en period av \\(H(t)=-0{,}1t^2+2t+4\\). När är modellens värde som störst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[H^{\\prime}(t)=-0{,}2t+2.\\]</p><p>\\[H^{\\prime}(t)=0\\Rightarrow t=10.\\]</p></li><li><p>Eftersom koefficienten framför \\(t^2\\) är negativ är detta ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> modellens värde är som störst när \\(\\boxed{t=10}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(H'(t)=0\\)</p><div class=\"facit-matte\">\\[H'(t)=-0{,}2t+2=0\\quad\\Rightarrow\\quad t=10\\]</div></li><li><p class=\"facit-rubrik\">Nedåtvänd parabel ger maximum</p><p>Koefficienten framför \\(t^2\\) är negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=10\\)</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": false,
@@ -44620,7 +44660,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En brobåges höjd över körbanan modelleras av</p><p>\\[h(x)=-0{,}02x^2+0{,}8x+3.\\]</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"225\" viewBox=\"0 0 390 225\" role=\"img\" aria-label=\"Parabelformad brobåge över en körbana\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"223\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"48\" y1=\"190\" x2=\"342\" y2=\"190\" stroke=\"#555\" stroke-width=\"2\"/><path d=\"M65 190 Q195 35 325 190\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"3\"/><line x1=\"195\" y1=\"190\" x2=\"195\" y2=\"62\" stroke=\"#8A858C\" stroke-dasharray=\"4 3\"/><text x=\"205\" y=\"78\" font-size=\"12\">h</text><text x=\"310\" y=\"211\" font-size=\"12\">x</text></svg></span><p>Bestäm bågens största höjd enligt modellen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är \\[- \\frac{x - 20}{25}.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatans nollställen i det aktuella intervallet är</p><div class=\"facit-matte\">\\[x=20\\].</div></div></li><li><p>För att bestämma största och minsta värde på intervallet jämför vi funktionens värden i derivatans nollställen och i intervallets ändpunkter.</p></li></ol><ul><li>\\(x=0\\): värdet är \\(3\\)</li><li>\\(x=40\\): värdet är \\(3\\)</li><li>\\(x=20\\): värdet är \\(11\\)</li></ul><p class=\"facit-svar\"><strong>Svar:</strong> det största värdet är \\(\\boxed{11}\\) m, och det fås för \\(x=20\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(h'(x)=0\\)</p><div class=\"facit-matte\">\\[h'(x)=-0{,}04x+0{,}8=0\\quad\\Rightarrow\\quad x=20\\]</div></li><li><p class=\"facit-rubrik\">Största höjden vid \\(x=20\\)</p><div class=\"facit-matte\">\\[h(20)=-8+16+3=11\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11 m</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": false,
@@ -44655,7 +44695,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ljudnivån i en förenklad modell beskrivs av \\(L(t)=-t^2+10t+58\\) under intervallet \\(0\\le t\\le 8\\). Bestäm modellens största värde på intervallet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är \\[- 2 \\left(t - 5\\right).\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatans nollställen i det aktuella intervallet är</p><div class=\"facit-matte\">\\[t=5\\].</div></div></li><li><p>För att bestämma största och minsta värde på intervallet jämför vi funktionens värden i derivatans nollställen och i intervallets ändpunkter.</p></li></ol><ul><li>\\(t=0\\): värdet är \\(58\\)</li><li>\\(t=8\\): värdet är \\(74\\)</li><li>\\(t=5\\): värdet är \\(83\\)</li></ul><p class=\"facit-svar\"><strong>Svar:</strong> det största värdet är \\(\\boxed{83}\\), och det fås för \\(t=5\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(L'(t)=0\\)</p><div class=\"facit-matte\">\\[L'(t)=-2t+10=0\\quad\\Rightarrow\\quad t=5\\]</div></li><li><p class=\"facit-rubrik\">Slutet intervall: jämför derivatans nollställen med ändpunkterna</p><div class=\"facit-matte\">\\[L(0)=58,\\quad L(5)=83,\\quad L(8)=74\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 83</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": false,
@@ -44759,7 +44799,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangulär hage ska byggas mot en rak vägg. Totalt finns 60 m stängsel och väggen behöver inget stängsel.</p><p>Låt \\(x\\) vara djupet, alltså längden på var och en av de två sidorna vinkelräta mot väggen.</p><p>Vilken funktion beskriver hagans area?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två sidor använder tillsammans \\(2x\\) meter stängsel.</p></li><li><p>Den tredje stängslade sidan blir därför \\(60-2x\\) meter.</p></li><li><p>Arean blir</p><p>\\[A(x)=x(60-2x).\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A(x)=x(60-2x)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De två sidorna x tar \\(2x\\) av stängslet</p><div class=\"facit-matte\">\\[\\text{sidan längs väggen}=60-2x\\]</div></li><li><p class=\"facit-rubrik\">Area = djup · bredd</p><div class=\"facit-matte\">\\[A(x)=x(60-2x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A(x)=x(60-2x)\\)</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -44781,7 +44821,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Ställa upp optimeringsmodeller"
     ],
-    "alternativ": [{"txt": "\\(A(x)=x(60-x)\\)", "ratt": false}, {"txt": "\\(A(x)=2x(60-2x)\\)", "ratt": false}, {"txt": "\\(A(x)=x(60-2x)\\)", "ratt": true}, {"txt": "\\(A(x)=x(30-x)\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(A(x)=x(60-x)\\)",
+        "ratt": false,
+        "kommentar": "Två sidor har längden x, så den tredje är \\(60-2x\\)."
+      },
+      {
+        "txt": "\\(A(x)=2x(60-2x)\\)",
+        "ratt": false,
+        "kommentar": "Arean är x gånger den tredje sidan, inte 2x gånger."
+      },
+      {
+        "txt": "\\(A(x)=x(60-2x)\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(A(x)=x(30-x)\\)",
+        "ratt": false,
+        "kommentar": "Det gäller om alla fyra sidor stängslas."
+      }
+    ]
   },
   {
     "id": "3.386",
@@ -44794,7 +44854,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Tre lika stora hagar ska byggas bredvid varandra mot en rak vägg. Totalt finns 84 m stängsel.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulär hage intill en vägg\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"55\" y1=\"42\" x2=\"335\" y2=\"42\" stroke=\"#777\" stroke-width=\"6\"/><text x=\"195\" y=\"27\" text-anchor=\"middle\" font-size=\"13\">vägg</text>\n    <line x1=\"80\" y1=\"46\" x2=\"80\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"310\" y1=\"46\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"80\" y1=\"174\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"163.3\" y1=\"46\" x2=\"163.3\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\" /><line x1=\"236.7\" y1=\"46\" x2=\"236.7\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\" />\n    <text x=\"62\" y=\"115\" font-size=\"13\">x</text><text x=\"195\" y=\"194\" text-anchor=\"middle\" font-size=\"13\">y</text><text x=\"195\" y=\"220\" text-anchor=\"middle\" font-size=\"12\" fill=\"#6B6670\">totalt 84 m stängsel</text></svg></span><p>Bestäm de yttre måtten så att den sammanlagda arean blir så stor som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt djupet vara \\(x\\) och hela bredden vara \\(y\\).</p></li><li><p>Med två inre skiljestängsel finns fyra sträckor av längd \\(x\\):</p><p>\\[4x+y=84\\Rightarrow y=84-4x.\\]</p><p>\\[A(x)=x(84-4x)=84x-4x^2.\\]</p><p>\\[A^{\\prime}(x)=84-8x=0\\Rightarrow x=10{,}5.\\]</p></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[y=42\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> de yttre måtten ska vara \\(\\boxed{10{,}5\\text{ m}\\times42\\text{ m}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyra sträckor med längden x</p><div class=\"facit-matte\">\\[4x+y=84\\quad\\Rightarrow\\quad y=84-4x\\]</div></li><li><p class=\"facit-rubrik\">Total area uttryckt i x</p><div class=\"facit-matte\">\\[A(x)=x(84-4x)=84x-4x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=84-8x=0\\quad\\Rightarrow\\quad x=10{,}5,\\qquad y=42\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10,5 m × 42 m</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -44843,7 +44903,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Man ska bygga två lika stora hagar bredvid varandra mot en rak vägg. Totalt finns 96 m stängsel och väggen behöver inget stängsel.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulärt område intill en vägg\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"68\" y1=\"38\" x2=\"330\" y2=\"38\" stroke=\"#777\" stroke-width=\"5\" /><text x=\"199\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" fill=\"#555\">vägg</text><line x1=\"95\" y1=\"65\" x2=\"95\" y2=\"175\" stroke=\"#355C7D\" stroke-width=\"3\" /><line x1=\"95\" y1=\"175\" x2=\"300\" y2=\"175\" stroke=\"#355C7D\" stroke-width=\"3\" /><line x1=\"300\" y1=\"65\" x2=\"300\" y2=\"175\" stroke=\"#355C7D\" stroke-width=\"3\" /><line x1=\"197.5\" y1=\"65\" x2=\"197.5\" y2=\"175\" stroke=\"#355C7D\" stroke-width=\"3\" /><text x=\"75\" y=\"123\" font-size=\"15\" fill=\"#222\">x</text><text x=\"197\" y=\"199\" text-anchor=\"middle\" font-size=\"14\" fill=\"#222\">96 - 3x</text></svg></span><p>Bestäm de mått som ger största möjliga area. Ställ först upp en funktion för arean.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt djupet vara \\(x\\) m.</p></li><li><p>Två ytterkanter och ett skiljestängsel ger tre sträckor med längden \\(x\\), så den sida som är parallell med väggen blir \\(96-3x\\).</p><p>\\[A(x)=x(96-3x)=96x-3x^2.\\]</p><p>\\[A^{\\prime}(x)=96-6x=0\\Rightarrow x=16.\\]</p></li><li><p>Då är bredden \\(96-3\\cdot16=48\\) m.</p></li><li><p>Derivatan byter från positiv till negativ, så dessa mått ger maximal area.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{16\\text{ m}\\times48\\text{ m}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tre sträckor x – sidan längs väggen blir \\(96-3x\\)</p><div class=\"facit-matte\">\\[A(x)=x(96-3x)=96x-3x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=96-6x=0\\quad\\Rightarrow\\quad x=16\\]</div></li><li><p class=\"facit-rubrik\">Bredden längs väggen</p><div class=\"facit-matte\">\\[96-48=48\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 m × 48 m</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -44862,7 +44922,7 @@ window.BANKMATO1 = [
       "numeriskt",
       "numeriskt"
     ],
-    "ledtrad": "<p>Välj \\(x\\) för en av sidlängderna och använd stängselvillkoret för att uttrycka den andra sidan med \\(x\\). Arean ska sedan skrivas som en funktion av en enda variabel innan derivatan används.</p>",
+    "ledtrad": "<p>Två ytterkanter och ett skiljestängsel ger tre sträckor med längden x. Resten går längs väggen.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "spel": true,
@@ -44889,7 +44949,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En affisch ska innehålla en tryckt yta på 384 cm². Sidmarginalerna ska vara 2 cm och marginalerna upptill och nedtill 3 cm.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"330\" height=\"245\" viewBox=\"0 0 330 245\" role=\"img\" aria-label=\"Affisch med markerade marginaler\"><rect x=\"1\" y=\"1\" width=\"328\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"65\" y=\"34\" width=\"200\" height=\"170\" fill=\"#F4F4F4\" stroke=\"#333\" stroke-width=\"2\" /><rect x=\"91\" y=\"64\" width=\"148\" height=\"110\" fill=\"#E6F0FA\" stroke=\"#2D70B3\" stroke-width=\"2\" /><text x=\"165\" y=\"121\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2D70B3\">tryckt yta</text><line x1=\"65\" y1=\"23\" x2=\"91\" y2=\"23\" stroke=\"#666\" stroke-width=\"1.4\" /><line x1=\"65\" y1=\"18\" x2=\"65\" y2=\"28\" stroke=\"#666\" stroke-width=\"1.4\" /><line x1=\"91\" y1=\"18\" x2=\"91\" y2=\"28\" stroke=\"#666\" stroke-width=\"1.4\" /><line x1=\"65\" y1=\"28\" x2=\"65\" y2=\"34\" stroke=\"#999\" stroke-width=\"1\" /><line x1=\"91\" y1=\"28\" x2=\"91\" y2=\"64\" stroke=\"#999\" stroke-width=\"1\" /><text x=\"78\" y=\"15\" text-anchor=\"middle\" font-size=\"11\" fill=\"#555\">2 cm</text><line x1=\"52\" y1=\"34\" x2=\"52\" y2=\"64\" stroke=\"#666\" stroke-width=\"1.4\" /><line x1=\"47\" y1=\"34\" x2=\"57\" y2=\"34\" stroke=\"#666\" stroke-width=\"1.4\" /><line x1=\"47\" y1=\"64\" x2=\"57\" y2=\"64\" stroke=\"#666\" stroke-width=\"1.4\" /><line x1=\"57\" y1=\"34\" x2=\"65\" y2=\"34\" stroke=\"#999\" stroke-width=\"1\" /><line x1=\"57\" y1=\"64\" x2=\"91\" y2=\"64\" stroke=\"#999\" stroke-width=\"1\" /><text x=\"40\" y=\"53\" text-anchor=\"middle\" font-size=\"11\" fill=\"#555\">3 cm</text></svg></span><p>Bestäm affischens mått så att hela affischens area blir så liten som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt den tryckta bredden vara \\(x\\) cm.</p></li><li><p>Den tryckta höjden blir då \\(384/x\\) cm.</p></li><li><p>Affischens area är</p><p>\\[A(x)=(x+4)\\left(\\frac{384}{x}+6\\right)=408+6x+\\frac{1536}{x}.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[A^{\\prime}(x)=6-\\frac{1536}{x^2}\\].</div></div><p>\\[A^{\\prime}(x)=0\\Rightarrow x^2=256\\Rightarrow x=16.\\]</p></li><li><p>Den tryckta höjden blir 24 cm.</p></li><li><p>Affischens yttermått blir därför \\(20\\text{ cm}\\times30\\text{ cm}\\).</p></li><li><p>Andraderivatan är positiv för \\(x&gt;0\\), så detta ger en minimipunkt.</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: bredd (cm): \\(20\\), höjd (cm): \\(30\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tryckytan 384 ger höjden</p><div class=\"facit-matte\">\\[\\text{bredd }x,\\qquad\\text{höjd }\\frac{384}{x}\\]</div></li><li><p class=\"facit-rubrik\">Hela affischen med marginalerna</p><div class=\"facit-matte\">\\[A(x)=(x+4)\\left(\\frac{384}{x}+6\\right)=408+6x+\\frac{1536}{x}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[6-\\frac{1536}{x^2}=0\\quad\\Rightarrow\\quad x^2=256\\quad\\Rightarrow\\quad x=16\\]</div></li><li><p class=\"facit-rubrik\">Tryckytan 16 × 24 cm, plus marginalerna</p><div class=\"facit-matte\">\\[16+4=20\\ \\text{cm},\\qquad 24+6=30\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> bredd 20 cm, höjd 30 cm</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -44938,7 +44998,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Av en kartong som är 32 cm × 20 cm klipps lika stora kvadrater med sidan \\(x\\) bort i hörnen. Kartongen viks sedan till en öppen låda.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"410\" height=\"250\" viewBox=\"0 0 410 250\" role=\"img\" aria-label=\"Kartong där kvadrater klipps bort i hörnen\"><rect x=\"1\" y=\"1\" width=\"408\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"70\" y=\"45\" width=\"270\" height=\"150\" fill=\"#F8E9C8\" stroke=\"#8C6A43\" stroke-width=\"2\" /><rect x=\"70\" y=\"45\" width=\"32\" height=\"32\" fill=\"#fff\" stroke=\"#C74440\" stroke-dasharray=\"5 4\" /><rect x=\"308\" y=\"45\" width=\"32\" height=\"32\" fill=\"#fff\" stroke=\"#C74440\" stroke-dasharray=\"5 4\" /><rect x=\"70\" y=\"163\" width=\"32\" height=\"32\" fill=\"#fff\" stroke=\"#C74440\" stroke-dasharray=\"5 4\" /><rect x=\"308\" y=\"163\" width=\"32\" height=\"32\" fill=\"#fff\" stroke=\"#C74440\" stroke-dasharray=\"5 4\" /><text x=\"205.0\" y=\"223\" text-anchor=\"middle\" font-size=\"14\">32 cm</text><text x=\"44\" y=\"120.0\" text-anchor=\"middle\" font-size=\"14\">20 cm</text><text x=\"86\" y=\"68\" font-size=\"14\" fill=\"#C74440\">x</text></svg></span><p>Bestäm \\(x\\) så att lådans volym blir så stor som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lådans höjd är \\(x\\), längden \\(32-2x\\) och bredden \\(20-2x\\).</p></li><li><p>Därför</p><p>\\[V(x)=x(32-2x)(20-2x)=4x^3-104x^2+640x.\\]</p></li><li><p>Derivatan är</p><p>\\[V^{\\prime}(x)=4(x-4)(3x-40).\\]</p></li><li><p>Det geometriskt möjliga intervallet är \\(0&lt;x&lt;10\\).</p></li><li><p>Av derivatans nollställen ligger därför bara \\(x=4\\) i intervallet.</p></li><li><p>Derivatan går från positiv till negativ där, så volymen blir maximal.</p><p>\\[V(4)=4\\cdot24\\cdot12=\\boxed{1152\\text{ cm}^3}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=4\\text{ cm}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera ut volymen</p><div class=\"facit-matte\">\\[V(x)=x(32-2x)(20-2x)=4x^3-104x^2+640x\\]</div><div class=\"facit-matte\">\\[0\\lt x\\lt10\\]</div></li><li><p class=\"facit-rubrik\">\\(V'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[12x^2-208x+640=0\\quad\\Leftrightarrow\\quad x^2-\\frac{52}{3}x+\\frac{160}{3}=0\\]</div><div class=\"facit-matte\">\\[x=\\frac{26}{3}\\pm\\frac{14}{3}\\quad\\Rightarrow\\quad x=4\\ \\text{eller}\\ x=\\frac{40}{3}\\]</div></li><li><p class=\"facit-rubrik\">Bara \\(x=4\\) ligger i intervallet</p><div class=\"facit-matte\">\\[V(4)=4\\cdot24\\cdot12=1152\\ \\text{cm}^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\) cm</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -44963,42 +45023,42 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "3.390",
-  "kap": 3,
-  "omr": "extremvarde_modellering",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "A",
-  "poang": "0/0/4",
-  "t": "<p>Ett rektangulärt spegelglas är 14 cm brett och 10 cm högt. Ett hörn har skurits bort längs en rät linje. På överkanten är den bortskurna sträckan 7 cm och på högerkanten 5 cm.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" role=\"img\" aria-label=\"Rektangulärt spegelglas med avskuret hörn och inskriven rektangel\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"70\" y=\"35\" width=\"250\" height=\"170\" fill=\"#F2F6FB\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"195,35 320,35 320,120\" fill=\"#fff\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"195\" y1=\"35\" x2=\"320\" y2=\"120\" stroke=\"#B43123\" stroke-width=\"2\"/><rect x=\"70\" y=\"79.2\" width=\"190\" height=\"125.8\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.5\"/><circle cx=\"260\" cy=\"79.2\" r=\"4\" fill=\"#2D70B3\"/><text x=\"160\" y=\"224\" text-anchor=\"middle\" font-size=\"12\">bredd x</text><text x=\"250\" y=\"28\" font-size=\"12\">7 cm</text><text x=\"326\" y=\"82\" font-size=\"12\">5 cm</text><text x=\"35\" y=\"125\" font-size=\"12\">10 cm</text><text x=\"220\" y=\"240\" font-size=\"12\">14 cm</text></svg></span><p>En så stor rektangulär spegel som möjligt ska skäras ut med nedre vänstra hörnet kvar och det övre högra hörnet på den sneda kanten. Bestäm spegelns bredd.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt origo i glasets nedre vänstra hörn.</p></li><li><p>Den sneda kanten går genom punkterna \\((7,10)\\) och \\((14,5)\\).</p></li><li><p>Dess lutning är</p><p>\\[\\frac{5-10}{14-7}=-\\frac57,\\]</p></li><li><p>så linjen kan skrivas</p><p>\\[y=15-\\frac57x.\\]</p></li><li><p>Om spegelns övre högra hörn är \\((x,y)\\) blir arean</p><p>\\[A(x)=xy=x\\left(15-\\frac57x\\right)=15x-\\frac57x^2.\\]</p><p>\\[A^{\\prime}(x)=15-\\frac{10}{7}x=0\\Rightarrow x=\\frac{21}{2}=10{,}5.\\]</p></li><li><p>Villkoret på hörnet ger \\(7\\le x\\le14\\). Arean är en nedåtvänd parabel, så den stationära punkten \\(x=10{,}5\\) i intervallet ger största möjliga area.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> spegelns bredd ska vara \\(\\boxed{10{,}5\\text{ cm}}\\).</p></div>",
-  "familj": "Rektanglar och trianglar i figurer",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 10.5,
-  "tolerans": 0.01,
-  "självrättning": true,
-  "formaga": [
-    "modellering",
-    "procedur",
-    "resonemang"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Bestäm först ekvationen för den sneda kanten. Ett hörn på spegeln ligger på den linjen, vilket ger höjden som funktion av bredden.</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 4,
-  "spel": true,
-  "kalla": "Inspirerad av NP Ma3c vt 2014, uppgift 25",
-  "omrTidigare": [
-    "extremvardesproblem"
-  ],
-  "familjTidigare": [
-    "Geometrisk optimering med linjevillkor"
-  ]
-},
+    "id": "3.390",
+    "kap": 3,
+    "omr": "extremvarde_modellering",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>Ett rektangulärt spegelglas är 14 cm brett och 10 cm högt. Ett hörn har skurits bort längs en rät linje. På överkanten är den bortskurna sträckan 7 cm och på högerkanten 5 cm.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" role=\"img\" aria-label=\"Rektangulärt spegelglas med avskuret hörn och inskriven rektangel\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"70\" y=\"35\" width=\"250\" height=\"170\" fill=\"#F2F6FB\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"195,35 320,35 320,120\" fill=\"#fff\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"195\" y1=\"35\" x2=\"320\" y2=\"120\" stroke=\"#B43123\" stroke-width=\"2\"/><rect x=\"70\" y=\"79.2\" width=\"190\" height=\"125.8\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.5\"/><circle cx=\"260\" cy=\"79.2\" r=\"4\" fill=\"#2D70B3\"/><text x=\"160\" y=\"224\" text-anchor=\"middle\" font-size=\"12\">bredd x</text><text x=\"250\" y=\"28\" font-size=\"12\">7 cm</text><text x=\"326\" y=\"82\" font-size=\"12\">5 cm</text><text x=\"35\" y=\"125\" font-size=\"12\">10 cm</text><text x=\"220\" y=\"240\" font-size=\"12\">14 cm</text></svg></span><p>En så stor rektangulär spegel som möjligt ska skäras ut med nedre vänstra hörnet kvar och det övre högra hörnet på den sneda kanten. Bestäm spegelns bredd.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den sneda kanten genom \\((7,10)\\) och \\((14,5)\\)</p><div class=\"facit-matte\">\\[k=\\frac{5-10}{14-7}=-\\frac57\\quad\\Rightarrow\\quad y=15-\\frac57x\\]</div></li><li><p class=\"facit-rubrik\">Spegelns area med hörnet \\((x,y)\\) på kanten</p><div class=\"facit-matte\">\\[A(x)=x\\left(15-\\frac57x\\right)=15x-\\frac57x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=15-\\frac{10}{7}x=0\\quad\\Rightarrow\\quad x=10{,}5\\]</div><p>Det ligger i det tillåtna intervallet \\(7\\le x\\le14\\), och parabeln vänder nedåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10,5 cm</p></div>",
+    "familj": "Rektanglar och trianglar i figurer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.5,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först ekvationen för den sneda kanten. Ett hörn på spegeln ligger på den linjen, vilket ger höjden som funktion av bredden.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": true,
+    "kalla": "Inspirerad av NP Ma3c vt 2014, uppgift 25",
+    "omrTidigare": [
+      "extremvardesproblem"
+    ],
+    "familjTidigare": [
+      "Geometrisk optimering med linjevillkor"
+    ]
+  },
   {
     "id": "3.391",
     "kap": 3,
@@ -45010,7 +45070,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En sluten cylindrisk behållare ska rymma 1000 cm³. Bestäm radie och höjd så att materialåtgången blir så liten som möjligt.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"260\" viewBox=\"0 0 300 260\" role=\"img\" aria-label=\"Cylinder med radie r och höjd h\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><ellipse cx=\"150\" cy=\"55\" rx=\"62\" ry=\"20\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" stroke-width=\"2\" /><line x1=\"88\" y1=\"55\" x2=\"88\" y2=\"195\" stroke=\"#2D70B3\" stroke-width=\"2\" /><line x1=\"212\" y1=\"55\" x2=\"212\" y2=\"195\" stroke=\"#2D70B3\" stroke-width=\"2\" /><ellipse cx=\"150\" cy=\"195\" rx=\"62\" ry=\"20\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" stroke-width=\"2\" /><line x1=\"150\" y1=\"195\" x2=\"210\" y2=\"195\" stroke=\"#333\" /><text x=\"181\" y=\"188\" font-size=\"14\">r</text><text x=\"226\" y=\"129\" font-size=\"14\">h</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymvillkoret är \\(\\pi r^2h=1000\\), alltså \\(h=\\frac{1000}{\\pi r^2}\\).</p></li><li><p>Arean blir</p><p>\\[A(r)=2 \\pi r^{2} + \\frac{2000}{r}.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[A^{\\prime}(r)=4 \\pi r - \\frac{2000}{r^{2}}\\].</div></div></li><li><p>Nollstället ger \\(r=\\frac{5 \\cdot 2^{\\frac{2}{3}}}{\\sqrt[3]{\\pi}}\\approx 5,42\\) cm.</p></li><li><p>Då blir \\(h=\\frac{10 \\cdot 2^{\\frac{2}{3}}}{\\sqrt[3]{\\pi}}\\approx 10,84\\) cm.</p></li><li><p>Andraderivatan är positiv för \\(r&gt;0\\), så detta ger en minimipunkt.</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: radie (cm): \\(5{,}42\\), höjd (cm): \\(10{,}84\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymen ger höjden</p><div class=\"facit-matte\">\\[h=\\frac{1000}{\\pi r^2},\\qquad A(r)=2\\pi r^2+\\frac{2000}{r}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(r)=0\\)</p><div class=\"facit-matte\">\\[4\\pi r-\\frac{2000}{r^2}=0\\quad\\Rightarrow\\quad r=\\sqrt[3]{\\frac{500}{\\pi}}\\approx5{,}42\\ \\text{cm}\\]</div></li><li><p class=\"facit-rubrik\">Höjden blir dubbla radien</p><div class=\"facit-matte\">\\[h=\\frac{1000}{\\pi r^2}\\approx10{,}84\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> radie 5,42 cm, höjd 10,84 cm</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -45059,7 +45119,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En öppen cylindrisk behållare ska rymma 500 cm³. Bestäm radie och höjd så att materialåtgången blir så liten som möjligt.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"260\" viewBox=\"0 0 300 260\" role=\"img\" aria-label=\"Cylinder med radie r och höjd h\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><ellipse cx=\"150\" cy=\"55\" rx=\"62\" ry=\"20\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2\" /><line x1=\"88\" y1=\"55\" x2=\"88\" y2=\"195\" stroke=\"#2D70B3\" stroke-width=\"2\" /><line x1=\"212\" y1=\"55\" x2=\"212\" y2=\"195\" stroke=\"#2D70B3\" stroke-width=\"2\" /><ellipse cx=\"150\" cy=\"195\" rx=\"62\" ry=\"20\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" stroke-width=\"2\" /><line x1=\"150\" y1=\"195\" x2=\"210\" y2=\"195\" stroke=\"#333\" /><text x=\"181\" y=\"188\" font-size=\"14\">r</text><text x=\"226\" y=\"129\" font-size=\"14\">h</text><path d=\"M90 55 Q150 75 210 55\" fill=\"none\" stroke=\"#999\" stroke-dasharray=\"5 4\" /></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymvillkoret är \\(\\pi r^2h=500\\), alltså \\(h=\\frac{500}{\\pi r^2}\\).</p></li><li><p>Arean blir</p><p>\\[A(r)=\\pi r^{2} + \\frac{1000}{r}.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[A^{\\prime}(r)=2 \\pi r - \\frac{1000}{r^{2}}\\].</div></div></li><li><p>Nollstället ger \\(r=\\frac{5 \\cdot 2^{\\frac{2}{3}}}{\\sqrt[3]{\\pi}}\\approx 5,42\\) cm.</p></li><li><p>Då blir \\(h=\\frac{5 \\cdot 2^{\\frac{2}{3}}}{\\sqrt[3]{\\pi}}\\approx 5,42\\) cm.</p></li><li><p>Andraderivatan är positiv för \\(r&gt;0\\), så detta ger en minimipunkt.</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: radie (cm): \\(5{,}42\\), höjd (cm): \\(5{,}42\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Öppen burk: bara en bottenyta</p><div class=\"facit-matte\">\\[h=\\frac{500}{\\pi r^2},\\qquad A(r)=\\pi r^2+\\frac{1000}{r}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(r)=0\\)</p><div class=\"facit-matte\">\\[2\\pi r-\\frac{1000}{r^2}=0\\quad\\Rightarrow\\quad r=\\sqrt[3]{\\frac{500}{\\pi}}\\approx5{,}42\\ \\text{cm}\\]</div></li><li><p class=\"facit-rubrik\">Höjden blir lika med radien</p><div class=\"facit-matte\">\\[h=\\frac{500}{\\pi r^2}\\approx5{,}42\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> radie 5,42 cm, höjd 5,42 cm</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -45108,7 +45168,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>För en kon gäller att summan av radien och höjden är 18 cm.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"260\" viewBox=\"0 0 300 260\" role=\"img\" aria-label=\"Kon med radie r och höjd h\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><ellipse cx=\"150\" cy=\"202\" rx=\"70\" ry=\"22\" fill=\"#F8EFE6\" stroke=\"#8C6A43\" stroke-width=\"2\" /><line x1=\"150\" y1=\"40\" x2=\"80\" y2=\"202\" stroke=\"#8C6A43\" stroke-width=\"2\" /><line x1=\"150\" y1=\"40\" x2=\"220\" y2=\"202\" stroke=\"#8C6A43\" stroke-width=\"2\" /><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"202\" stroke=\"#777\" stroke-dasharray=\"5 4\" /><line x1=\"150\" y1=\"202\" x2=\"218\" y2=\"202\" stroke=\"#333\" /><text x=\"183\" y=\"194\" font-size=\"14\">r</text><text x=\"160\" y=\"125\" font-size=\"14\">h</text></svg></span><p>Bestäm den största möjliga volymen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(r+h=18\\) är \\(h=18-r\\).</p></li><li><p>Volymen blir</p><p>\\[V(r)=\\frac{\\pi r^2(18-r)}{3}=6\\pi r^2-\\frac{\\pi r^3}{3}.\\]</p></li><li><p>Nu kan funktionen deriveras term för term:</p><p>\\[V^{\\prime}(r)=12\\pi r-\\pi r^2=\\pi r(12-r).\\]</p></li><li><p>I intervallet \\(0&lt;r&lt;18\\) är det relevanta nollstället \\(r=12\\).</p></li><li><p>Då är \\(h=6\\) cm och volymen \\(\\boxed{288\\pi\\text{ cm}^3}\\).</p></li><li><p>Derivatan är positiv före \\(r=12\\) och negativ efter, så funktionen har en maximipunkt där.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(288\\pi \\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konens volym med \\(h=18-r\\)</p><div class=\"facit-matte\">\\[V(r)=\\frac{\\pi r^2(18-r)}{3}=6\\pi r^2-\\frac{\\pi r^3}{3}\\]</div></li><li><p class=\"facit-rubrik\">Derivatan är 0 vid \\(r=12\\)</p><div class=\"facit-matte\">\\[V'(r)=12\\pi r-\\pi r^2=\\pi r(12-r)\\]</div></li><li><p class=\"facit-rubrik\">\\(V'\\) går från + till −, så maximum</p><div class=\"facit-matte\">\\[V(12)=\\frac{\\pi\\cdot144\\cdot6}{3}=288\\pi\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(288\\pi\\) cm³</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -45177,7 +45237,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har arean 144 cm². Låt den ena sidan vara \\(x\\) cm.</p><p>Vilken funktion ska minimeras för att hitta den rektangel som har minst omkrets?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Areavillkoret \\(xy=144\\) ger \\(y=144/x\\).</p></li><li><p>Rektangelns omkrets är</p><p>\\[O=2x+2y=2x+\\frac{288}{x}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(O(x)=2x+\\frac{288}{x}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean 144 ger den andra sidan</p><div class=\"facit-matte\">\\[y=\\frac{144}{x}\\]</div></li><li><p class=\"facit-rubrik\">Omkretsen har två sidor av varje längd</p><div class=\"facit-matte\">\\[O=2x+2\\cdot\\frac{144}{x}=2x+\\frac{288}{x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(O(x)=2x+\\frac{288}{x}\\)</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -45199,7 +45259,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Ställa upp optimeringsmodeller"
     ],
-    "alternativ": [{"txt": "\\(O(x)=2x+144x\\)", "ratt": false}, {"txt": "\\(O(x)=x+\\frac{144}{x}\\)", "ratt": false}, {"txt": "\\(O(x)=2x+\\frac{288}{x}\\)", "ratt": true}, {"txt": "\\(O(x)=144-2x\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(O(x)=2x+144x\\)",
+        "ratt": false,
+        "kommentar": "Den andra sidan är \\(\\tfrac{144}{x}\\), inte \\(144x\\)."
+      },
+      {
+        "txt": "\\(O(x)=x+\\frac{144}{x}\\)",
+        "ratt": false,
+        "kommentar": "Det är halva omkretsen; varje sida förekommer två gånger."
+      },
+      {
+        "txt": "\\(O(x)=2x+\\frac{288}{x}\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(O(x)=144-2x\\)",
+        "ratt": false,
+        "kommentar": "Uttrycket kommer inte från areavillkoret \\(xy=144\\)."
+      }
+    ]
   },
   {
     "id": "3.396",
@@ -45246,7 +45326,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Summan av två positiva tal är 24. Bestäm talen så att deras produkt blir så stor som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt det ena talet vara \\(x\\).</p></li><li><p>Det andra är då \\(24-x\\).</p></li><li><div class=\"facit-berakning\"><p>Produkten blir</p><div class=\"facit-matte\">\\[P(x)=x(24-x)=24x-x^2\\].</div></div></li><li><p>\\(P^{\\prime}(x)=24-2x\\), så derivatans nollställe är \\(x=12\\).</p></li><li><p>Tecknet går från positivt till negativt, alltså fås en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> talen är \\(\\boxed{12\\text{ och }12}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen x och \\(24-x\\)</p><div class=\"facit-matte\">\\[P(x)=x(24-x)=24x-x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(P'(x)=0\\)</p><div class=\"facit-matte\">\\[P'(x)=24-2x=0\\quad\\Rightarrow\\quad x=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 och 12</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": true,
@@ -45290,7 +45370,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har omkretsen 40 cm. Låt ena sidan vara \\(x\\) cm.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"240\" viewBox=\"0 0 390 240\" role=\"img\" aria-label=\"Rektangel med given omkrets\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"86\" y=\"55\" width=\"210\" height=\"118\" fill=\"#EEF3F8\" stroke=\"#2D70B3\" stroke-width=\"2\"/><text x=\"191\" y=\"196\" text-anchor=\"middle\" font-size=\"13\">x</text><text x=\"58\" y=\"119\" font-size=\"13\">20 - x</text><text x=\"191\" y=\"224\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6B6670\">halva omkretsen är 20 cm</text></svg></span><p>Bestäm med derivata den största möjliga arean.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom omkretsen är 40 cm gäller \\(2x+2y=40\\), alltså \\(y=20-x\\).</p></li><li><p>Arean är</p><p>\\[A(x)=x(20-x)=20x-x^2.\\]</p><p>\\[A^{\\prime}(x)=20-2x.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatan är 0 när</p><div class=\"facit-matte\">\\[x=10\\].</div></div></li><li><div class=\"facit-berakning\"><p>Då är också</p><div class=\"facit-matte\">\\[y=10\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> den största arean är \\(\\boxed{100\\text{ cm}^2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omkretsen 40 ger den andra sidan</p><div class=\"facit-matte\">\\[y=20-x,\\qquad A(x)=x(20-x)=20x-x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=20-2x=0\\quad\\Rightarrow\\quad x=10\\]</div></li><li><p class=\"facit-rubrik\">Båda sidorna är 10 cm</p><div class=\"facit-matte\">\\[A=10\\cdot10=100\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100 cm²</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -45325,7 +45405,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Biljetten till en konsert kostar 120 kr och då väntas 400 besökare. För varje höjning med 10 kr beräknas antalet besökare minska med 20.</p><p>Bestäm det biljettpris som ger största möjliga biljettintäkt enligt modellen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(x\\) vara antalet prishöjningar med 10 kr.</p></li><li><p>Priset blir \\(120+10x\\) och antalet besökare \\(400-20x\\).</p></li><li><p>Intäkten blir</p><p>\\[I(x)=(120+10x)(400-20x)=- 200 x^{2} + 1600 x + 48000.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[I^{\\prime}(x)=1600 - 400 x\\].</div></div></li><li><div class=\"facit-berakning\"><p>Nollstället är</p><div class=\"facit-matte\">\\[x=4\\].</div></div></li><li><p>Eftersom derivatan byter från positiv till negativ fås största intäkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> biljettpriset bör vara \\(\\boxed{160\\text{ kr}}\\). Då blir intäkten \\(51200\\) kr.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pris och antal efter x höjningar</p><div class=\"facit-matte\">\\[\\text{pris}=120+10x,\\qquad\\text{antal}=400-20x\\]</div></li><li><p class=\"facit-rubrik\">Intäkt = pris · antal</p><div class=\"facit-matte\">\\[I(x)=(120+10x)(400-20x)\\]</div><div class=\"facit-matte\">\\[=48\\,000+1600x-200x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(I'(x)=0\\)</p><div class=\"facit-matte\">\\[I'(x)=1600-400x=0\\quad\\Rightarrow\\quad x=4\\]</div></li><li><p class=\"facit-rubrik\">Fyra höjningar med 10 kr</p><div class=\"facit-matte\">\\[120+40=160\\ \\text{kr}\\]</div><p>Intäkten blir då 51 200 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 160 kr</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -45350,40 +45430,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "3.400",
-  "kap": 3,
-  "omr": "fler_extremvarde",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "1/2/0",
-  "t": "<p>Ett företag modellerar den genomsnittliga kostnaden per producerad enhet med</p><p>\\[M(x)=\\frac{1800}{x}+20+0{,}02x,\\qquad x&gt;0.\\]</p><p>Bestäm den produktionsnivå \\(x\\) som ger lägst genomsnittlig kostnad.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är</p><p>\\[M^{\\prime}(x)=-\\frac{1800}{x^2}+0{,}02.\\]</p></li><li><p>Sätt derivatan lika med 0:</p><p>\\[-\\frac{1800}{x^2}+0{,}02=0\\Rightarrow x^2=90000.\\]</p></li><li><p>Eftersom \\(x&gt;0\\) fås \\(x=300\\).</p></li><li><p>För \\(x&lt;300\\) är derivatan negativ och för \\(x&gt;300\\) positiv, så kostnaden har ett minimum där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=300}\\) enheter.</p></div>",
-  "familj": "Ekonomisk optimering",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 300,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Derivera kostnaden per enhet. Vid ett minimum ska derivatan byta från negativ till positiv.</p>",
-  "traningsniva": 3,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "extremvardesproblem"
-  ],
-  "familjTidigare": [
-    "Minimera genomsnittskostnad med derivata"
-  ]
-},
+    "id": "3.400",
+    "kap": 3,
+    "omr": "fler_extremvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "1/2/0",
+    "t": "<p>Ett företag modellerar den genomsnittliga kostnaden per producerad enhet med</p><p>\\[M(x)=\\frac{1800}{x}+20+0{,}02x,\\qquad x&gt;0.\\]</p><p>Bestäm den produktionsnivå \\(x\\) som ger lägst genomsnittlig kostnad.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(M'(x)=0\\)</p><div class=\"facit-matte\">\\[M'(x)=-\\frac{1800}{x^2}+0{,}02=0\\]</div><div class=\"facit-matte\">\\[\\Rightarrow x^2=90\\,000\\quad\\Rightarrow\\quad x=300\\]</div></li><li><p class=\"facit-rubrik\">\\(M'\\) går från − till +</p><p>Derivatan är negativ för \\(x\\lt300\\) och positiv efter, alltså minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=300\\) enheter</p></div>",
+    "familj": "Ekonomisk optimering",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Derivera kostnaden per enhet. Vid ett minimum ska derivatan byta från negativ till positiv.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "extremvardesproblem"
+    ],
+    "familjTidigare": [
+      "Minimera genomsnittskostnad med derivata"
+    ]
+  },
   {
     "id": "3.401",
     "kap": 3,
@@ -45395,7 +45475,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En rektangel är symmetriskt placerad under parabeln \\(y=12-x^2\\), med den nedre sidan på \\(x\\)-axeln och de övre hörnen på parabeln.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"280\" viewBox=\"0 0 390 280\" role=\"img\" aria-label=\"Rektangel inskriven under en parabel\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"45\" y1=\"238\" x2=\"350\" y2=\"238\" stroke=\"#333\" /><line x1=\"195\" y1=\"30\" x2=\"195\" y2=\"245\" stroke=\"#333\" /><path d=\"M 62.0 241.8 L 63.7 237.2 L 65.3 232.7 L 67.0 228.2 L 68.6 223.8 L 70.3 219.5 L 72.0 215.2 L 73.6 211.0 L 75.3 206.8 L 77.0 202.7 L 78.6 198.7 L 80.3 194.7 L 82.0 190.8 L 83.6 186.9 L 85.3 183.1 L 86.9 179.3 L 88.6 175.6 L 90.3 172.0 L 91.9 168.4 L 93.6 164.8 L 95.2 161.4 L 96.9 157.9 L 98.6 154.6 L 100.2 151.3 L 101.9 148.0 L 103.6 144.9 L 105.2 141.7 L 106.9 138.6 L 108.5 135.6 L 110.2 132.7 L 111.9 129.8 L 113.5 126.9 L 115.2 124.2 L 116.9 121.4 L 118.5 118.8 L 120.2 116.1 L 121.8 113.6 L 123.5 111.1 L 125.2 108.6 L 126.8 106.3 L 128.5 103.9 L 130.2 101.7 L 131.8 99.5 L 133.5 97.3 L 135.2 95.2 L 136.8 93.2 L 138.5 91.2 L 140.1 89.3 L 141.8 87.4 L 143.5 85.6 L 145.1 83.8 L 146.8 82.1 L 148.4 80.5 L 150.1 78.9 L 151.8 77.4 L 153.4 75.9 L 155.1 74.5 L 156.8 73.2 L 158.4 71.9 L 160.1 70.7 L 161.8 69.5 L 163.4 68.4 L 165.1 67.3 L 166.7 66.3 L 168.4 65.3 L 170.1 64.5 L 171.7 63.6 L 173.4 62.9 L 175.1 62.1 L 176.7 61.5 L 178.4 60.9 L 180.0 60.3 L 181.7 59.8 L 183.4 59.4 L 185.0 59.0 L 186.7 58.7 L 188.3 58.5 L 190.0 58.3 L 191.7 58.1 L 193.3 58.0 L 195.0 58.0 L 196.7 58.0 L 198.3 58.1 L 200.0 58.3 L 201.7 58.5 L 203.3 58.7 L 205.0 59.0 L 206.6 59.4 L 208.3 59.8 L 210.0 60.3 L 211.6 60.9 L 213.3 61.5 L 215.0 62.1 L 216.6 62.9 L 218.3 63.6 L 219.9 64.5 L 221.6 65.3 L 223.3 66.3 L 224.9 67.3 L 226.6 68.4 L 228.2 69.5 L 229.9 70.7 L 231.6 71.9 L 233.2 73.2 L 234.9 74.5 L 236.6 75.9 L 238.2 77.4 L 239.9 78.9 L 241.5 80.5 L 243.2 82.1 L 244.9 83.8 L 246.5 85.6 L 248.2 87.4 L 249.9 89.3 L 251.5 91.2 L 253.2 93.2 L 254.9 95.2 L 256.5 97.3 L 258.2 99.5 L 259.8 101.7 L 261.5 103.9 L 263.2 106.3 L 264.8 108.6 L 266.5 111.1 L 268.1 113.6 L 269.8 116.1 L 271.5 118.8 L 273.1 121.4 L 274.8 124.1 L 276.5 126.9 L 278.1 129.8 L 279.8 132.7 L 281.5 135.6 L 283.1 138.6 L 284.8 141.7 L 286.4 144.9 L 288.1 148.0 L 289.8 151.3 L 291.4 154.6 L 293.1 157.9 L 294.8 161.4 L 296.4 164.8 L 298.1 168.4 L 299.7 172.0 L 301.4 175.6 L 303.1 179.3 L 304.7 183.1 L 306.4 186.9 L 308.0 190.8 L 309.7 194.7 L 311.4 198.7 L 313.0 202.7 L 314.7 206.8 L 316.4 211.0 L 318.0 215.2 L 319.7 219.5 L 321.4 223.8 L 323.0 228.2 L 324.7 232.7 L 326.3 237.2 L 328.0 241.8\" fill=\"none\" stroke=\"#C74440\" stroke-width=\"2.5\" /><rect x=\"119\" y=\"118\" width=\"152\" height=\"120\" fill=\"#E8F0FB\" fill-opacity=\"0.7\" stroke=\"#2D70B3\" stroke-width=\"2\" /><text x=\"306\" y=\"52\" font-size=\"13\" fill=\"#C74440\">y = 12 - x²</text></svg></span><p>Bestäm rektangelns största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt det högra övre hörnet ha \\(x\\)-koordinaten \\(x&gt;0\\).</p></li><li><p>Rektangelns bredd är då \\(2x\\) och höjden \\(12-x^2\\).</p><p>\\[A(x)=2x(12-x^2)=24x-2x^3.\\]</p><p>\\[A^{\\prime}(x)=24-6x^2.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatans nollställe i intervallet är</p><div class=\"facit-matte\">\\[x=2\\].</div></div></li><li><p>Tecknet går från positivt till negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största arean är \\(\\boxed{32}\\) areaenheter.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hörnet \\((x,\\ 12-x^2)\\) ger bredd och höjd</p><div class=\"facit-matte\">\\[A(x)=2x(12-x^2)=24x-2x^3\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=24-6x^2=0\\quad\\Rightarrow\\quad x^2=4\\quad\\Rightarrow\\quad x=2\\]</div></li><li><p class=\"facit-rubrik\">Största arean med \\(x=2\\)</p><div class=\"facit-matte\">\\[A=2\\cdot2\\cdot(12-4)=32\\]</div><p>\\(A'\\) går från + till −.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 32 areaenheter</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -45533,7 +45613,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Tre lika stora rektangulära hundrastgårdar ska byggas bredvid varandra mot en lång vägg. Totalt finns 120 m stängsel. Väggen utgör ena långsidan.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulärt område intill en vägg\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"68\" y1=\"38\" x2=\"330\" y2=\"38\" stroke=\"#777\" stroke-width=\"5\" /><text x=\"199\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" fill=\"#555\">vägg</text><line x1=\"95\" y1=\"65\" x2=\"95\" y2=\"175\" stroke=\"#355C7D\" stroke-width=\"3\" /><line x1=\"95\" y1=\"175\" x2=\"300\" y2=\"175\" stroke=\"#355C7D\" stroke-width=\"3\" /><line x1=\"300\" y1=\"65\" x2=\"300\" y2=\"175\" stroke=\"#355C7D\" stroke-width=\"3\" /><text x=\"75\" y=\"123\" font-size=\"15\" fill=\"#222\">x</text><text x=\"197\" y=\"199\" text-anchor=\"middle\" font-size=\"14\" fill=\"#222\">120 - 4x</text><line x1=\"163.3\" y1=\"65\" x2=\"163.3\" y2=\"175\" stroke=\"#355C7D\" stroke-width=\"3\" /><line x1=\"231.7\" y1=\"65\" x2=\"231.7\" y2=\"175\" stroke=\"#355C7D\" stroke-width=\"3\" /></svg></span><p>Bestäm djupet och bredden för <em>varje</em> rastgård när den sammanlagda arean är så stor som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt djupet vara \\(x\\) m.</p></li><li><p>Fyra stängseldelar med längden \\(x\\) behövs vinkelrätt mot väggen.</p></li><li><p>Den sammanlagda frontlängden blir därför \\(120-4x\\).</p></li><li><p>Den totala arean blir</p><p>\\[A(x)=x(120-4x)=120x-4x^2.\\]</p></li><li><p>Derivatan är \\(A^{\\prime}(x)=120-8x\\), så nollstället är \\(x=15\\).</p></li><li><p>Derivatan byter från positiv till negativ.</p></li><li><p>Frontlängden blir 60 m, alltså blir varje rastgård 20 m bred och 15 m djup.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största sammanlagda area är \\(\\boxed{900\\text{ m}^2}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyra stängseldelar med längden x</p><div class=\"facit-matte\">\\[\\text{frontlängd}=120-4x\\]</div><div class=\"facit-matte\">\\[A(x)=x(120-4x)=120x-4x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=120-8x=0\\quad\\Rightarrow\\quad x=15\\]</div></li><li><p class=\"facit-rubrik\">Fronten 60 m delas på tre gårdar</p><div class=\"facit-matte\">\\[\\frac{60}{3}=20\\ \\text{m}\\]</div><p>Sammanlagd area: \\(15\\cdot60=900\\ \\text{m}^2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> varje gård 15 m djup och 20 m bred</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -45578,7 +45658,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En rektangel har omkretsen 72 cm.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" role=\"img\" aria-label=\"Rektangel med markerad diagonal\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"80\" y=\"55\" width=\"230\" height=\"130\" fill=\"#F7F4E8\" stroke=\"#8C6A43\" stroke-width=\"2\"/><line x1=\"80\" y1=\"185\" x2=\"310\" y2=\"55\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"195\" y=\"207\" text-anchor=\"middle\" font-size=\"13\">x</text><text x=\"52\" y=\"123\" font-size=\"13\">36 - x</text><text x=\"190\" y=\"111\" font-size=\"13\" fill=\"#B43123\">d</text></svg></span><p>Bestäm de sidlängder som gör rektangelns diagonal så kort som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt ena sidan vara \\(x\\) cm.</p></li><li><p>Den andra är \\(36-x\\) cm.</p></li><li><div class=\"facit-berakning\"><p>Enligt Pythagoras sats gäller</p><div class=\"facit-matte\">\\[d^2=x^2+(36-x)^2\\].</div></div></li><li><p>Eftersom \\(d&gt;0\\) blir diagonalen minst när \\(d^2\\) är minst.</p><p>\\[D(x)=x^2+(36-x)^2=2x^2-72x+1296.\\]</p></li><li><p>\\(D^{\\prime}(x)=4x-72\\), så nollstället är \\(x=18\\).</p></li><li><p>Andraderivatan är \\(4&gt;0\\), alltså fås en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> rektangeln ska vara \\(\\boxed{18\\text{ cm}\\times18\\text{ cm}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pythagoras sats för diagonalen</p><div class=\"facit-matte\">\\[d^2=x^2+(36-x)^2\\]</div><p>d är minst när \\(d^2\\) är minst.</p></li><li><p class=\"facit-rubrik\">Multiplicera ut \\(d^2\\)</p><div class=\"facit-matte\">\\[D(x)=2x^2-72x+1296\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(D'(x)=0\\)</p><div class=\"facit-matte\">\\[D'(x)=4x-72=0\\quad\\Rightarrow\\quad x=18\\]</div><p>\\(D''=4\\gt0\\), alltså minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18 cm × 18 cm</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -45665,7 +45745,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En rektangulär odlingsyta ligger längs en rak kanal. Sidan mot kanalen behöver inget stängsel. Dessutom ska en skiljevägg dras vinkelrätt mot kanalen.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulär inhägnad intill en kant\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"58\" y1=\"45\" x2=\"334\" y2=\"45\" stroke=\"#777\" stroke-width=\"6\"/><text x=\"196\" y=\"28\" text-anchor=\"middle\" font-size=\"13\">kanal</text><line x1=\"78\" y1=\"50\" x2=\"78\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"310\" y1=\"50\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"78\" y1=\"174\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"198.0\" y1=\"52\" x2=\"198.0\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><text x=\"61\" y=\"118\" font-size=\"13\">x</text><text x=\"194\" y=\"194\" text-anchor=\"middle\" font-size=\"13\">y</text><text x=\"194\" y=\"220\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6B6670\">100 m stängsel</text></svg></span><p>Totalt finns 100 m stängsel. Bestäm största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt djupet vara \\(x\\) m.</p></li><li><p>Tre stängseldelar med längden \\(x\\) behövs: två ytterkanter och skiljeväggen.</p></li><li><p>Sidan parallell med kanalen blir \\(100-3x\\).</p><p>\\[A(x)=x(100-3x)=100x-3x^2.\\]</p></li><li><p>\\(A^{\\prime}(x)=100-6x\\), alltså \\(x=50/3\\).</p></li><li><p>Derivatan byter från positiv till negativ, så detta ger en maximipunkt.</p></li><li><p>Den andra sidan blir 50 m och största arean \\(\\boxed{2500/3\\text{ m}^2\\approx833{,}33\\text{ m}^2}\\).</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: \\(833{,}33\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tre sträckor x: två kanter och skiljeväggen</p><div class=\"facit-matte\">\\[A(x)=x(100-3x)=100x-3x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=100-6x=0\\quad\\Rightarrow\\quad x=\\frac{50}{3}\\]</div></li><li><p class=\"facit-rubrik\">Största arean med \\(x=\\tfrac{50}{3}\\)</p><div class=\"facit-matte\">\\[A=\\frac{50}{3}\\cdot50=\\frac{2500}{3}\\approx833{,}33\\ \\text{m}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 833,33 m²</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -45678,7 +45758,7 @@ window.BANKMATO1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Välj \\(x\\) för en av sidlängderna och använd stängselvillkoret för att uttrycka den andra sidan med \\(x\\). Arean ska sedan skrivas som en funktion av en enda variabel innan derivatan används.</p>",
+    "ledtrad": "<p>Två ytterkanter och skiljeväggen är vinkelräta mot kanalen. Resten av stängslet går längs kanalen.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "spel": true,
@@ -45700,7 +45780,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Ett företag modellerar intäkten och kostnaden vid produktion av \\(x\\) enheter med</p><p>\\[R(x)=80x-0{,}10x^2,\\qquad K(x)=20x+500.\\]</p><p>Bestäm den produktionsnivå som ger största möjliga vinst enligt modellen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinsten är intäkt minus kostnad:</p><p>\\[V(x)=R(x)-K(x)=-0{,}10x^2+60x-500.\\]</p></li><li><p>Derivatan är</p><p>\\[V^{\\prime}(x)=-0{,}20x+60.\\]</p></li><li><p>Ur \\(V^{\\prime}(x)=0\\) fås \\(x=300\\).</p></li><li><p>Eftersom vinstfunktionen är en nedåtvänd parabel ger detta ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{300}\\) enheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinst = intäkt − kostnad</p><div class=\"facit-matte\">\\[V(x)=80x-0{,}10x^2-20x-500\\]</div><div class=\"facit-matte\">\\[=-0{,}10x^2+60x-500\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(V'(x)=0\\)</p><div class=\"facit-matte\">\\[V'(x)=-0{,}20x+60=0\\quad\\Rightarrow\\quad x=300\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 300 enheter</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -45769,7 +45849,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En biograf modellerar antalet sålda biljetter som</p><p>\\[N(p)=480-1{,}5p,\\]</p><p>där \\(p\\) är biljettpriset i kronor. Bestäm det biljettpris som enligt modellen ger störst intäkt och bestäm den största intäkten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Intäkten blir</p><p>\\[I(p)=pN(p)=480p-1{,}5p^2.\\]</p><p>\\[I^{\\prime}(p)=480-3p.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatan är 0 när</p><div class=\"facit-matte\">\\[p=160\\].</div></div></li><li><p>Eftersom koefficienten framför \\(p^2\\) är negativ ger detta ett maximum.</p><p>\\[I(160)=38\\,400.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{160\\text{ kr}}\\) och \\(\\boxed{38\\,400\\text{ kr}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Intäkt = pris · antal</p><div class=\"facit-matte\">\\[I(p)=p(480-1{,}5p)=480p-1{,}5p^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(I'(p)=0\\)</p><div class=\"facit-matte\">\\[I'(p)=480-3p=0\\quad\\Rightarrow\\quad p=160\\]</div></li><li><p class=\"facit-rubrik\">Största intäkten vid \\(p=160\\)</p><div class=\"facit-matte\">\\[I(160)=160\\cdot240=38\\,400\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 160 kr och 38 400 kr</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -45814,7 +45894,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangulär hage byggs mot en lång vägg. Det finns 120 m stängsel till de tre övriga sidorna.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulär inhägnad intill en kant\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"58\" y1=\"45\" x2=\"334\" y2=\"45\" stroke=\"#777\" stroke-width=\"6\"/><text x=\"196\" y=\"28\" text-anchor=\"middle\" font-size=\"13\">vägg</text><line x1=\"78\" y1=\"50\" x2=\"78\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"310\" y1=\"50\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"78\" y1=\"174\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><text x=\"61\" y=\"118\" font-size=\"13\">x</text><text x=\"194\" y=\"194\" text-anchor=\"middle\" font-size=\"13\">y</text><text x=\"194\" y=\"220\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6B6670\">120 m stängsel</text></svg></span><p>Låt \\(x\\) vara längden på de två lika sidorna. a) Ställ upp areafunktionen \\(A(x)\\).<br>b) Bestäm största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om de två lika sidorna är \\(x\\) meter blir den tredje sidan \\(120-2x\\) meter.</p><p>\\[A(x)=x(120-2x)=120x-2x^2.\\]</p><p>\\[A^{\\prime}(x)=120-4x=0\\Rightarrow x=30.\\]</p></li><li><p>Då är den tredje sidan 60 m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största arean är \\(\\boxed{1800\\text{ m}^2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Den tredje sidan är \\(120-2x\\)</p><div class=\"facit-matte\">\\[A(x)=x(120-2x)\\]</div></li><li><p class=\"facit-rubrik\">b) Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A(x)=120x-2x^2,\\qquad A'(x)=120-4x=0\\]</div><div class=\"facit-matte\">\\[\\Rightarrow x=30\\]</div></li><li><p class=\"facit-rubrik\">Arean med \\(x=30\\) och tredje sidan 60</p><div class=\"facit-matte\">\\[A=30\\cdot60=1800\\ \\text{m}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(A(x)=x(120-2x)\\), b) 1800 m²</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -45836,7 +45916,7 @@ window.BANKMATO1 = [
       "uttryck",
       "numeriskt"
     ],
-    "ledtrad": "<p>Välj \\(x\\) för en av sidlängderna och använd stängselvillkoret för att uttrycka den andra sidan med \\(x\\). Arean ska sedan skrivas som en funktion av en enda variabel innan derivatan används.</p>",
+    "ledtrad": "<p>Två sidor är x. Hur lång blir den tredje sidan av de 120 metrarna?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -45859,7 +45939,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En öppen låda görs av en kartong 32 cm × 20 cm genom att kvadrater med sidan \\(x\\) klipps bort i hörnen.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" role=\"img\" aria-label=\"Kartong där kvadrater med sidan x klipps bort i hörnen\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"68\" y=\"43\" width=\"255\" height=\"150\" fill=\"#F8E9C8\" stroke=\"#8C6A43\" stroke-width=\"2\"/><rect x=\"68\" y=\"43\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#B43123\" stroke-dasharray=\"4 3\"/><rect x=\"289\" y=\"43\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#B43123\" stroke-dasharray=\"4 3\"/><rect x=\"68\" y=\"159\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#B43123\" stroke-dasharray=\"4 3\"/><rect x=\"289\" y=\"159\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#B43123\" stroke-dasharray=\"4 3\"/><text x=\"196\" y=\"220\" text-anchor=\"middle\" font-size=\"13\">32 cm</text><text x=\"42\" y=\"122\" font-size=\"13\">20 cm</text><text x=\"84\" y=\"65\" font-size=\"13\" fill=\"#B43123\">x</text></svg></span><p>a) Ställ upp volymfunktionen \\(V(x)\\).<br>b) Bestäm maximal volym.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lådans mått blir \\(x\\),</p></li><li><p>\\(32-2x\\) och \\(20-2x\\), så</p><p>\\[V(x)=x(32-2x)(20-2x)=4x^3-104x^2+640x.\\]</p><p>\\[V^{\\prime}(x)=12x^2-208x+640=4(3x^2-52x+160).\\]</p></li><li><p>Derivatan är 0 vid \\(x=4\\) och \\(x=40/3\\).</p></li><li><p>Endast \\(x=4\\) ligger i det möjliga intervallet \\(0&lt;x&lt;10\\).</p><p>\\[V(4)=4\\cdot24\\cdot12=\\boxed{1152\\text{ cm}^3}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: a) \\(x(32-2x)(20-2x)\\), b) \\(1152\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Höjd x och botten \\((32-2x)(20-2x)\\)</p><div class=\"facit-matte\">\\[V(x)=x(32-2x)(20-2x)=4x^3-104x^2+640x\\]</div></li><li><p class=\"facit-rubrik\">b) \\(V'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[x^2-\\frac{52}{3}x+\\frac{160}{3}=0\\quad\\Rightarrow\\quad x=4\\ \\text{eller}\\ x=\\frac{40}{3}\\]</div></li><li><p class=\"facit-rubrik\">Bara \\(x=4\\) ligger i \\(0\\lt x\\lt10\\)</p><div class=\"facit-matte\">\\[V(4)=4\\cdot24\\cdot12=1152\\ \\text{cm}^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(V(x)=x(32-2x)(20-2x)\\), b) 1152 cm³</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -45894,40 +45974,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "3.414",
-  "kap": 3,
-  "omr": "fler_extremvarde",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "1/2/0",
-  "t": "<p>Kostnaden per dag för att köra en maskin med hastigheten \\(x\\) enheter per timme modelleras av \\(K(x)=0{,}04x^3-2{,}4x^2+60x+500\\) för \\(10\\le x\\le40\\). Bestäm minsta kostnad i intervallet.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[K^{\\prime}(x)=0{,}12x^2-4{,}8x+60.\\]</p></li><li><div class=\"facit-berakning\"><p>Andragradaren har ingen reell nollpunkt och är positiv, till exempel är</p><div class=\"facit-matte\">\\[K^{\\prime}(20)=12&gt;0\\].</div></div></li><li><p>Funktionen är därför växande på hela intervallet.</p></li><li><p>Minsta värdet fås vid vänstra ändpunkten:</p><p>\\[K(10)=900.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{900}\\) kostnadsenheter.</p></div>",
-  "familj": "Ekonomisk optimering",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 900,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Kontrollera först om derivatan kan bli 0. Om funktionen är växande på hela intervallet ligger minimum vid en ändpunkt.</p>",
-  "traningsniva": 3,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "derivata_tillampningar"
-  ],
-  "familjTidigare": [
-    "Ekonomisk optimering med derivata"
-  ]
-},
+    "id": "3.414",
+    "kap": 3,
+    "omr": "fler_extremvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "1/2/0",
+    "t": "<p>Kostnaden per dag för att köra en maskin med hastigheten \\(x\\) enheter per timme modelleras av \\(K(x)=0{,}04x^3-2{,}4x^2+60x+500\\) för \\(10\\le x\\le40\\). Bestäm minsta kostnad i intervallet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kan \\(K'(x)=0\\)? pq-formeln</p><div class=\"facit-matte\">\\[0{,}12x^2-4{,}8x+60=0\\quad\\Leftrightarrow\\quad x^2-40x+500=0\\]</div><div class=\"facit-matte\">\\[x=20\\pm\\sqrt{400-500}\\]</div><p>Talet under roten är negativt: inga nollställen.</p></li><li><p class=\"facit-rubrik\">\\(K'\\gt0\\): K är växande på hela intervallet</p><p>Till exempel är \\(K'(20)=12\\gt0\\).</p></li><li><p class=\"facit-rubrik\">Minsta värdet i vänstra ändpunkten</p><div class=\"facit-matte\">\\[K(10)=40-240+600+500=900\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 900 kostnadsenheter</p></div>",
+    "familj": "Ekonomisk optimering",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 900,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera först om derivatan kan bli 0. Om funktionen är växande på hela intervallet ligger minimum vid en ändpunkt.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ],
+    "familjTidigare": [
+      "Ekonomisk optimering med derivata"
+    ]
+  },
   {
     "id": "3.415",
     "kap": 3,
@@ -45939,7 +46019,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En rektangel har ena hörnet i origo och det motsatta hörnet på parabeln \\(y=12-x^2\\) i första kvadranten.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"240\" viewBox=\"0 0 390 240\" role=\"img\" aria-label=\"Rektangel från origo till en punkt på parabeln i första kvadranten\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"55\" y1=\"205\" x2=\"345\" y2=\"205\" stroke=\"#2B2527\"/><line x1=\"70\" y1=\"28\" x2=\"70\" y2=\"218\" stroke=\"#2B2527\"/><path d=\"M70 42 Q185 72 330 205\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.5\"/><rect x=\"70\" y=\"105\" width=\"145\" height=\"100\" fill=\"#E7F0FA\" fill-opacity=\"0.85\" stroke=\"#2D70B3\" stroke-width=\"2\"/><circle cx=\"215\" cy=\"105\" r=\"4\" fill=\"#B43123\"/><text x=\"224\" y=\"96\" font-size=\"12\">(x, 12-x²)</text><text x=\"260\" y=\"60\" font-size=\"12\" fill=\"#B43123\">y=12-x²</text><text x=\"143\" y=\"226\" text-anchor=\"middle\" font-size=\"12\">x</text></svg></span><p>a) Ställ upp rektangelns area som funktion av \\(x\\).<br>b) Bestäm största area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rektangelns höjd är \\(12-x^2\\), så arean är</p><p>\\[A(x)=x(12-x^2)=12x-x^3.\\]</p><p>\\[A^{\\prime}(x)=12-3x^2.\\]</p></li><li><p>I första kvadranten fås \\(A^{\\prime}(x)=0\\) när \\(x=2\\).</p></li><li><p>Då är höjden \\(8\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största arean är \\(\\boxed{16}\\) areaenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Höjden är \\(12-x^2\\)</p><div class=\"facit-matte\">\\[A(x)=x(12-x^2)=12x-x^3\\]</div></li><li><p class=\"facit-rubrik\">b) Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=12-3x^2=0\\quad\\Rightarrow\\quad x=2\\]</div></li><li><p class=\"facit-rubrik\">Höjden och arean</p><div class=\"facit-matte\">\\[12-4=8,\\qquad A=2\\cdot8=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(A(x)=x(12-x^2)\\), b) 16</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -45961,7 +46041,7 @@ window.BANKMATO1 = [
       "uttryck",
       "numeriskt"
     ],
-    "ledtrad": "<p>Definiera den storhet som ska maximeras eller minimeras som en funktion av en enda variabel. Använd villkoren i texten för att eliminera övriga variabler innan du deriverar.</p>",
+    "ledtrad": "<p>Det motsatta hörnet är \\((x,\\ 12-x^2)\\). Bredden är x och höjden \\(12-x^2\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -46073,7 +46153,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(F\\) är en primitiv funktion till</p><p>\\[f(x)=3x^2-4x.\\]</p><p>Grafen till \\(F\\) går genom punkten \\((2,5)\\). Bestäm \\(F(x)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla primitiva funktioner är</p><p>\\[F(x)=x^3-2x^2+C.\\]</p></li><li><p>Villkoret \\(F(2)=5\\) ger</p><p>\\[8-8+C=5\\Rightarrow C=5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=x^3-2x^2+5}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla primitiva funktioner till \\(3x^2-4x\\)</p><div class=\"facit-matte\">\\[F(x)=x^3-2x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Punkten \\((2,5)\\) ger \\(F(2)=5\\)</p><div class=\"facit-matte\">\\[8-8+C=5\\quad\\Rightarrow\\quad C=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3-2x^2+5\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -46210,7 +46290,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En primitiv funktion skrivs \\(F(x)=x^2-4x+C\\). Man vet att \\(F(3)=5\\). Bestäm \\(C\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in punktens x- och y-värde:</p><p>\\[5=3^2-4\\cdot3+C=-3+C.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[C=8\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{C=8}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=3\\) och \\(F(3)=5\\)</p><div class=\"facit-matte\">\\[5=3^2-4\\cdot3+C=-3+C\\quad\\Rightarrow\\quad C=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C=8\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -46244,7 +46324,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till \\(f(x)=3x^2-6x\\) som uppfyller \\(F(0)=2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är \\(x^3-3x^2+C\\).</p></li><li><p>Villkoret \\(F(0)=2\\) ger \\(C=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=x^3-3x^2+2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla primitiva funktioner till \\(3x^2-6x\\)</p><div class=\"facit-matte\">\\[F(x)=x^3-3x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=2\\) bestämmer C</p><div class=\"facit-matte\">\\[C=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3-3x^2+2\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -46697,51 +46777,51 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "3.436",
-  "kap": 3,
-  "omr": "fler_extremvarde",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Intäkten från en föreställning beskrivs av \\(I(x)=-2x^2+800x\\), där \\(x\\) är biljettpriset i kronor.</p><p>a) Bestäm det biljettpris som ger maximal intäkt.<br>b) Bestäm den maximala intäkten.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[I^{\\prime}(x)=-4x+800\\].</div></div></li><li><p>Sätt \\(I^{\\prime}(x)=0\\): \\(x=200\\).</p></li><li><p>Eftersom \\(I^{\\prime\\prime}(x)=-4&lt;0\\) är det en maximipunkt.</p></li><li><p>Den maximala intäkten är \\(I(200)=80\\,000\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a) \\(200\\), b) \\(80\\,000\\)</strong></p></div>",
-  "familj": "Ekonomisk optimering",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    200,
-    80000
-  ],
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarsstruktur": "ordnad",
-  "svarEtiketter": [
-    "a",
-    "b"
-  ],
-  "ledtrad": "<p>Derivera intäktsfunktionen och sätt derivatan lika med 0. Parabeln är nedåtvänd.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "derivata_tillampningar"
-  ],
-  "familjTidigare": [
-    "Ekonomisk optimering med derivata"
-  ]
-},
+    "id": "3.436",
+    "kap": 3,
+    "omr": "fler_extremvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Intäkten från en föreställning beskrivs av \\(I(x)=-2x^2+800x\\), där \\(x\\) är biljettpriset i kronor.</p><p>a) Bestäm det biljettpris som ger maximal intäkt.<br>b) Bestäm den maximala intäkten.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Lös \\(I'(x)=0\\)</p><div class=\"facit-matte\">\\[I'(x)=-4x+800=0\\quad\\Rightarrow\\quad x=200\\]</div></li><li><p class=\"facit-rubrik\">b) Maximala intäkten</p><div class=\"facit-matte\">\\[I(200)=-80\\,000+160\\,000=80\\,000\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 200 kr, b) 80 000 kr</p></div>",
+    "familj": "Ekonomisk optimering",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      200,
+      80000
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "ledtrad": "<p>Derivera intäktsfunktionen och sätt derivatan lika med 0. Parabeln är nedåtvänd.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ],
+    "familjTidigare": [
+      "Ekonomisk optimering med derivata"
+    ]
+  },
   {
     "id": "3.437",
     "kap": 3,
@@ -46753,7 +46833,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>I en rätvinklig triangel är summan av basen och höjden 36 cm.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" role=\"img\" aria-label=\"Rätvinklig triangel med bas x och höjd total minus x\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"82,190 310,190 82,58\" fill=\"#EEF3F8\" stroke=\"#2D70B3\" stroke-width=\"2\"/><rect x=\"82\" y=\"176\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"#555\"/><text x=\"192\" y=\"213\" text-anchor=\"middle\" font-size=\"13\">x</text><text x=\"44\" y=\"126\" font-size=\"13\">36 - x</text></svg></span><p>Bestäm triangelns största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt basen vara \\(x\\) cm.</p></li><li><p>Då är höjden \\(36-x\\) cm.</p><p>\\[A(x)=\\frac{x(36-x)}2=18x-\\frac{x^2}{2}.\\]</p><p>\\[A^{\\prime}(x)=18-x.\\]</p></li><li><p>Maximum fås vid \\(x=18\\), så även höjden är 18 cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{162\\text{ cm}^2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bas x och höjd \\(36-x\\)</p><div class=\"facit-matte\">\\[A(x)=\\frac{x(36-x)}{2}=18x-\\frac{x^2}{2}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=18-x=0\\quad\\Rightarrow\\quad x=18\\]</div></li><li><p class=\"facit-rubrik\">Bas och höjd är båda 18 cm</p><div class=\"facit-matte\">\\[A=\\frac{18\\cdot18}{2}=162\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 162 cm²</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -46788,7 +46868,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Två positiva tal har produkten 45. Bestäm talens minsta möjliga summa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt det ena talet vara \\(x\\).</p></li><li><p>Då är det andra \\(45/x\\).</p></li><li><div class=\"facit-berakning\"><p>Summan är</p><div class=\"facit-matte\">\\[S(x)=x+45/x\\],</div></div><p>\\(x&gt;0\\).</p><div class=\"facit-matte\">\\[S^{\\prime}(x)=1-45/x^2\\].</div></li><li><div class=\"facit-berakning\"><p>Nollstället är</p><div class=\"facit-matte\">\\[x=3\\sqrt5\\].</div></div></li><li><p>Då är båda talen \\(3\\sqrt5\\), och minsta summan är \\(6\\sqrt5\\).</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: \\(6\\sqrt{5}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Produkten 45 ger det andra talet</p><div class=\"facit-matte\">\\[S(x)=x+\\frac{45}{x},\\qquad x\\gt0\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(S'(x)=0\\)</p><div class=\"facit-matte\">\\[1-\\frac{45}{x^2}=0\\quad\\Rightarrow\\quad x=\\sqrt{45}=3\\sqrt5\\]</div></li><li><p class=\"facit-rubrik\">Båda talen är \\(3\\sqrt5\\)</p><div class=\"facit-matte\">\\[S=6\\sqrt5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\sqrt5\\)</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": true,
@@ -46857,7 +46937,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Funktionerna \\(f(x)=x^3-4x+2\\) och \\(g(x)=2x^2-1\\) är givna.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"255\" viewBox=\"0 0 390 255\" role=\"img\" aria-label=\"Två grafer vars lodräta avstånd ska maximeras\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"48.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"111.6\" y1=\"22\" x2=\"111.6\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"111.6\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-1</text><line x1=\"175.2\" y1=\"22\" x2=\"175.2\" y2=\"217\" stroke=\"#F0EFF2\"/><line x1=\"238.8\" y1=\"22\" x2=\"238.8\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"238.8\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"302.4\" y1=\"22\" x2=\"302.4\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"302.4\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"366.0\" y1=\"22\" x2=\"366.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"366.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"200.8\" x2=\"366\" y2=\"200.8\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"203.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-4</text><line x1=\"48\" y1=\"168.2\" x2=\"366\" y2=\"168.2\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"135.8\" x2=\"366\" y2=\"135.8\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"138.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"103.2\" x2=\"366\" y2=\"103.2\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"106.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">8</text><line x1=\"48\" y1=\"70.8\" x2=\"366\" y2=\"70.8\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"73.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">12</text><line x1=\"48\" y1=\"38.2\" x2=\"366\" y2=\"38.2\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"41.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">16</text><line x1=\"48\" y1=\"168.2\" x2=\"366\" y2=\"168.2\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"175.2\" y1=\"22\" x2=\"175.2\" y2=\"217\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M48.0 152.0 L49.8 150.2 L51.5 148.5 L53.3 146.9 L55.1 145.4 L56.8 143.9 L58.6 142.5 L60.4 141.1 L62.1 139.9 L63.9 138.7 L65.7 137.5 L67.4 136.5 L69.2 135.4 L71.0 134.5 L72.7 133.6 L74.5 132.8 L76.3 132.0 L78.0 131.3 L79.8 130.7 L81.6 130.1 L83.3 129.5 L85.1 129.1 L86.9 128.6 L88.6 128.3 L90.4 127.9 L92.2 127.6 L93.9 127.4 L95.7 127.2 L97.5 127.1 L99.2 127.0 L101.0 127.0 L102.8 127.0 L104.5 127.0 L106.3 127.1 L108.1 127.3 L109.8 127.4 L111.6 127.6 L113.4 127.9 L115.1 128.2 L116.9 128.5 L118.7 128.8 L120.4 129.2 L122.2 129.6 L124.0 130.1 L125.7 130.5 L127.5 131.1 L129.3 131.6 L131.0 132.2 L132.8 132.7 L134.6 133.4 L136.3 134.0 L138.1 134.7 L139.9 135.3 L141.6 136.0 L143.4 136.8 L145.2 137.5 L146.9 138.3 L148.7 139.0 L150.5 139.8 L152.2 140.6 L154.0 141.5 L155.8 142.3 L157.5 143.1 L159.3 144.0 L161.1 144.9 L162.8 145.7 L164.6 146.6 L166.4 147.5 L168.1 148.4 L169.9 149.3 L171.7 150.2 L173.4 151.1 L175.2 152.0 L177.0 152.9 L178.7 153.8 L180.5 154.7 L182.3 155.6 L184.0 156.5 L185.8 157.4 L187.6 158.3 L189.3 159.1 L191.1 160.0 L192.9 160.9 L194.6 161.7 L196.4 162.5 L198.2 163.4 L199.9 164.2 L201.7 165.0 L203.5 165.7 L205.2 166.5 L207.0 167.2 L208.8 168.0 L210.5 168.7 L212.3 169.3 L214.1 170.0 L215.8 170.6 L217.6 171.3 L219.4 171.8 L221.1 172.4 L222.9 172.9 L224.7 173.5 L226.4 173.9 L228.2 174.4 L230.0 174.8 L231.7 175.2 L233.5 175.5 L235.3 175.8 L237.0 176.1 L238.8 176.4 L240.6 176.6 L242.3 176.7 L244.1 176.9 L245.9 177.0 L247.6 177.0 L249.4 177.0 L251.2 177.0 L252.9 176.9 L254.7 176.8 L256.5 176.6 L258.2 176.4 L260.0 176.1 L261.8 175.7 L263.5 175.4 L265.3 174.9 L267.1 174.5 L268.8 173.9 L270.6 173.3 L272.4 172.7 L274.1 172.0 L275.9 171.2 L277.7 170.4 L279.4 169.5 L281.2 168.6 L283.0 167.5 L284.7 166.5 L286.5 165.3 L288.3 164.1 L290.0 162.9 L291.8 161.5 L293.6 160.1 L295.3 158.6 L297.1 157.1 L298.9 155.5 L300.6 153.8 L302.4 152.0 L304.2 150.2 L305.9 148.2 L307.7 146.2 L309.5 144.2 L311.2 142.0 L313.0 139.8 L314.8 137.5 L316.5 135.1 L318.3 132.6 L320.1 130.0 L321.8 127.4 L323.6 124.6 L325.4 121.8 L327.1 118.9 L328.9 115.9 L330.7 112.8 L332.4 109.6 L334.2 106.3 L336.0 102.9 L337.7 99.4 L339.5 95.9 L341.3 92.2 L343.0 88.5 L344.8 84.6 L346.6 80.6 L348.3 76.6 L350.1 72.4 L351.9 68.1 L353.6 63.8 L355.4 59.3 L357.2 54.7 L358.9 50.0 L360.7 45.2 L362.5 40.3 L364.2 35.3 L366.0 30.1\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.4\"/><path d=\"M48.0 111.4 L49.8 113.2 L51.5 114.9 L53.3 116.7 L55.1 118.4 L56.8 120.1 L58.6 121.8 L60.4 123.4 L62.1 125.0 L63.9 126.6 L65.7 128.2 L67.4 129.7 L69.2 131.2 L71.0 132.7 L72.7 134.2 L74.5 135.6 L76.3 137.1 L78.0 138.4 L79.8 139.8 L81.6 141.2 L83.3 142.5 L85.1 143.8 L86.9 145.0 L88.6 146.3 L90.4 147.5 L92.2 148.7 L93.9 149.8 L95.7 151.0 L97.5 152.1 L99.2 153.2 L101.0 154.3 L102.8 155.3 L104.5 156.3 L106.3 157.3 L108.1 158.3 L109.8 159.2 L111.6 160.1 L113.4 161.0 L115.1 161.9 L116.9 162.7 L118.7 163.5 L120.4 164.3 L122.2 165.1 L124.0 165.8 L125.7 166.5 L127.5 167.2 L129.3 167.9 L131.0 168.5 L132.8 169.2 L134.6 169.7 L136.3 170.3 L138.1 170.8 L139.9 171.4 L141.6 171.8 L143.4 172.3 L145.2 172.8 L146.9 173.2 L148.7 173.6 L150.5 173.9 L152.2 174.3 L154.0 174.6 L155.8 174.9 L157.5 175.1 L159.3 175.4 L161.1 175.6 L162.8 175.8 L164.6 175.9 L166.4 176.1 L168.1 176.2 L169.9 176.3 L171.7 176.3 L173.4 176.4 L175.2 176.4 L177.0 176.4 L178.7 176.3 L180.5 176.3 L182.3 176.2 L184.0 176.1 L185.8 175.9 L187.6 175.8 L189.3 175.6 L191.1 175.4 L192.9 175.1 L194.6 174.9 L196.4 174.6 L198.2 174.3 L199.9 173.9 L201.7 173.6 L203.5 173.2 L205.2 172.8 L207.0 172.3 L208.8 171.8 L210.5 171.4 L212.3 170.8 L214.1 170.3 L215.8 169.7 L217.6 169.2 L219.4 168.5 L221.1 167.9 L222.9 167.2 L224.7 166.5 L226.4 165.8 L228.2 165.1 L230.0 164.3 L231.7 163.5 L233.5 162.7 L235.3 161.9 L237.0 161.0 L238.8 160.1 L240.6 159.2 L242.3 158.3 L244.1 157.3 L245.9 156.3 L247.6 155.3 L249.4 154.3 L251.2 153.2 L252.9 152.1 L254.7 151.0 L256.5 149.8 L258.2 148.7 L260.0 147.5 L261.8 146.3 L263.5 145.0 L265.3 143.8 L267.1 142.5 L268.8 141.2 L270.6 139.8 L272.4 138.4 L274.1 137.1 L275.9 135.6 L277.7 134.2 L279.4 132.7 L281.2 131.2 L283.0 129.7 L284.7 128.2 L286.5 126.6 L288.3 125.0 L290.0 123.4 L291.8 121.8 L293.6 120.1 L295.3 118.4 L297.1 116.7 L298.9 114.9 L300.6 113.2 L302.4 111.4 L304.2 109.6 L305.9 107.7 L307.7 105.8 L309.5 104.0 L311.2 102.0 L313.0 100.1 L314.8 98.1 L316.5 96.1 L318.3 94.1 L320.1 92.1 L321.8 90.0 L323.6 87.9 L325.4 85.8 L327.1 83.6 L328.9 81.5 L330.7 79.3 L332.4 77.1 L334.2 74.8 L336.0 72.5 L337.7 70.2 L339.5 67.9 L341.3 65.6 L343.0 63.2 L344.8 60.8 L346.6 58.4 L348.3 56.0 L350.1 53.5 L351.9 51.0 L353.6 48.5 L355.4 45.9 L357.2 43.4 L358.9 40.8 L360.7 38.1 L362.5 35.5 L364.2 32.8 L366.0 30.1\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/><text x=\"361\" y=\"37\" text-anchor=\"end\" font-size=\"11\" fill=\"#2D70B3\">f</text><text x=\"361\" y=\"53\" text-anchor=\"end\" font-size=\"11\" fill=\"#B43123\">g</text></svg></span><p>Bestäm det största avståndet i y-led mellan graferna i intervallet \\(-2\\le x\\le3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[D(x)=f(x)-g(x)=x^3-2x^2-4x+3\\].</div></div></li><li><p>Avståndet är \\(|D(x)|\\).</p></li><li><p>Kandidater för extremvärden av \\(|D|\\) finns vid intervallets ändpunkter, vid nollställen till \\(D\\) och där \\(D^{\\prime}(x)=0\\).</p><p>\\[D^{\\prime}(x)=3x^2-4x-4=0\\Rightarrow x=-\\frac23\\text{ eller }x=2.\\]</p></li><li><div class=\"facit-berakning\"><p>Jämförelse ger</p><div class=\"facit-matte\">\\[|D(-2)|=5\\],</div></div></li><li><p>\\(|D(2)|=5\\) och övriga kandidater ger mindre värden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största lodräta avståndet är \\(\\boxed{5}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det lodräta avståndet är \\(|D(x)|\\)</p><div class=\"facit-matte\">\\[D(x)=f(x)-g(x)=x^3-2x^2-4x+3\\]</div></li><li><p class=\"facit-rubrik\">\\(D'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[3x^2-4x-4=0\\quad\\Leftrightarrow\\quad x^2-\\frac43x-\\frac43=0\\]</div><div class=\"facit-matte\">\\[x=\\frac23\\pm\\sqrt{\\frac49+\\frac{12}{9}}=\\frac23\\pm\\frac43\\quad\\Rightarrow\\quad x=2,\\ x=-\\frac23\\]</div></li><li><p class=\"facit-rubrik\">Jämför kandidaterna, även ändpunkterna</p><div class=\"facit-matte\">\\[|D(-2)|=5,\\quad\\left|D\\!\\left(-\\tfrac23\\right)\\right|=\\tfrac{121}{27}\\approx4{,}5\\]</div><div class=\"facit-matte\">\\[|D(2)|=5,\\quad|D(3)|=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -46892,7 +46972,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Effekten från en solpanel under en del av dagen modelleras av</p><p>\\[P(t)=-t^3+9t^2,\\qquad 0\\le t\\le8,\\]</p><p>där \\(P\\) mäts i watt och \\(t\\) i timmar efter periodens början.</p><p>a) När är effekten som störst?<br>b) Hur stor är den största effekten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är</p><p>\\[P^{\\prime}(t)=-3t^2+18t=3t(6-t).\\]</p></li><li><div class=\"facit-berakning\"><p>Kandidaterna i intervallet är</p><div class=\"facit-matte\">\\[t=0\\],</div></div></li><li><p>\\(t=6\\) och ändpunkten \\(t=8\\).</p></li><li><p>Funktionsvärdena är</p><p>\\[P(0)=0,\\qquad P(6)=108,\\qquad P(8)=64.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> effekten är störst efter \\(\\boxed{6\\text{ h}}\\) och är då \\(\\boxed{108\\text{ W}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(P'(t)\\)</p><div class=\"facit-matte\">\\[P'(t)=-3t^2+18t=3t(6-t)=0\\]</div><div class=\"facit-matte\">\\[\\Rightarrow t=0,\\ t=6\\]</div></li><li><p class=\"facit-rubrik\">Slutet intervall: jämför derivatans nollställen med ändpunkterna</p><div class=\"facit-matte\">\\[P(0)=0,\\quad P(6)=-216+324=108\\]</div><div class=\"facit-matte\">\\[P(8)=-512+576=64\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) efter 6 h, b) 108 W</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": false,
@@ -47157,7 +47237,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En 30 cm bred plåt ska vikas längs två linjer så att en öppen rektangulär ränna bildas. Kanterna viks upp 90°.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" role=\"img\" aria-label=\"Öppen ränna som viks av en plåt\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><path d=\"M88 62 L130 182 L260 182 L302 62\" fill=\"#EAF2FB\" stroke=\"#2D70B3\" stroke-width=\"2.5\"/><line x1=\"88\" y1=\"62\" x2=\"302\" y2=\"62\" stroke=\"#8A858C\" stroke-dasharray=\"5 4\"/><text x=\"108\" y=\"118\" font-size=\"13\">x</text><text x=\"282\" y=\"118\" font-size=\"13\">x</text><text x=\"195\" y=\"205\" text-anchor=\"middle\" font-size=\"13\">botten</text><text x=\"195\" y=\"40\" text-anchor=\"middle\" font-size=\"12\">plåtens tvärsnitt efter vikning</text></svg></span><p>Om varje uppvikt sida har höjden \\(x\\) cm, bestäm \\(x\\) så att rännans tvärsnittsarea blir så stor som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bottenbredden är \\(30-2x\\).</p></li><li><p>Tvärsnittsarean blir</p><p>\\[A(x)=x(30-2x)=30x-2x^2,\\qquad 0&lt;x&lt;15.\\]</p><p>\\[A^{\\prime}(x)=30-4x=0\\Rightarrow x=7{,}5.\\]</p></li><li><p>Parabeln är nedåtvänd, så detta ger maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=7,5\\text{ cm}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bottenbredden minskar med \\(2x\\)</p><div class=\"facit-matte\">\\[A(x)=x(30-2x)=30x-2x^2,\\qquad0\\lt x\\lt15\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=30-4x=0\\quad\\Rightarrow\\quad x=7{,}5\\]</div><p>Parabeln vänder nedåt, så det är maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7{,}5\\) cm</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -47192,7 +47272,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Volymen av en förpackning kan beskrivas av</p><p>\\[V(x)=x^2(12-x),\\qquad 0&lt;x&lt;12.\\]</p><p>Bestäm det värde på \\(x\\) som ger störst volym.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utveckla eller derivera direkt:</p><p>\\[V(x)=12x^2-x^3,\\qquad V^{\\prime}(x)=24x-3x^2=3x(8-x).\\]</p></li><li><div class=\"facit-berakning\"><p>I intervallet är det relevanta nollstället</p><div class=\"facit-matte\">\\[x=8\\].</div></div></li><li><p>Derivatan är positiv före 8 och negativ efter 8, alltså fås ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=8}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera ut \\(x^2(12-x)\\)</p><div class=\"facit-matte\">\\[V(x)=12x^2-x^3\\]</div><div class=\"facit-matte\">\\[V'(x)=24x-3x^2=3x(8-x)\\]</div></li><li><p class=\"facit-rubrik\">\\(V'=0\\) vid \\(x=8\\) i intervallet</p><p>\\(V'\\) är positiv före 8 och negativ efter, alltså maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": false,
@@ -47226,7 +47306,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En rektangel ska ha arean 72 cm². Bestäm den minsta möjliga omkretsen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt sidorna vara x och 72/x.</p><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[O \\left(x\\right)=2 x+\\frac{144}{x}\\]</div></div></li><li><p>O'(x)=2-144/x²=0 ger x=6√2, vilket även ger den andra sidan 6√2.</p></li><li><p>Minsta omkrets är 24√2 cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(24\\sqrt{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean 72 ger den andra sidan</p><div class=\"facit-matte\">\\[O(x)=2x+\\frac{144}{x}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(O'(x)=0\\)</p><div class=\"facit-matte\">\\[2-\\frac{144}{x^2}=0\\quad\\Rightarrow\\quad x=\\sqrt{72}=6\\sqrt2\\]</div></li><li><p class=\"facit-rubrik\">Kvadrat med sidan \\(6\\sqrt2\\)</p><div class=\"facit-matte\">\\[O=4\\cdot6\\sqrt2=24\\sqrt2\\approx33{,}9\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\sqrt2\\) cm</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -47261,7 +47341,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En rektangel ska skrivas in i en halvcirkel med radien 6 cm så att rektangelns bas ligger på diametern.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" role=\"img\" aria-label=\"Rektangel inskriven i en halvcirkel\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><path d=\"M68 190 A127 127 0 0 1 322 190\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.5\"/><line x1=\"68\" y1=\"190\" x2=\"322\" y2=\"190\" stroke=\"#2B2527\"/><rect x=\"125\" y=\"92\" width=\"140\" height=\"98\" fill=\"#E7F0FA\" fill-opacity=\"0.85\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"195\" y1=\"190\" x2=\"322\" y2=\"190\" stroke=\"#8A858C\" stroke-dasharray=\"4 3\"/><text x=\"254\" y=\"182\" font-size=\"13\">6</text></svg></span><p>Bestäm rektangelns största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt halva rektangelns bredd vara \\(x\\).</p></li><li><p>Höjden blir då \\(\\sqrt{36-x^2}\\).</p></li><li><p>Arean är</p><p>\\[A(x)=2x\\sqrt{36-x^2}.\\]</p></li><li><p>Det är enklare att maximera \\(A^2=4x^2(36-x^2)\\), eftersom \\(A&gt;0\\).</p><p>\\[(A^2)^{\\prime}=288x-16x^3=16x(18-x^2).\\]</p></li><li><div class=\"facit-berakning\"><p>Den positiva lösningen är</p><div class=\"facit-matte\">\\[x=3\\sqrt2\\].</div></div></li><li><p>Då är höjden också \\(3\\sqrt2\\) och bredden \\(6\\sqrt2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största arean är \\(\\boxed{36\\text{ cm}^2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hörnet på cirkeln: höjden \\(\\sqrt{36-x^2}\\)</p><div class=\"facit-matte\">\\[A(x)=2x\\sqrt{36-x^2}\\]</div></li><li><p class=\"facit-rubrik\">Maximera \\(A^2\\) – samma x ger max eftersom \\(A\\gt0\\)</p><div class=\"facit-matte\">\\[A^2=4x^2(36-x^2)=144x^2-4x^4\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(A^2\\) är 0</p><div class=\"facit-matte\">\\[288x-16x^3=16x(18-x^2)=0\\]</div><div class=\"facit-matte\">\\[\\Rightarrow x=\\sqrt{18}=3\\sqrt2\\]</div></li><li><p class=\"facit-rubrik\">Bredd \\(6\\sqrt2\\), höjd \\(3\\sqrt2\\)</p><div class=\"facit-matte\">\\[A=6\\sqrt2\\cdot3\\sqrt2=36\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 36 cm²</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -47332,50 +47412,50 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "3.453",
-  "kap": 3,
-  "omr": "fler_extremvarde",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Vinsten från en produkt modelleras av \\(V(x)=-0{,}5x^2+60x-500\\).</p><p>a) Vid vilket \\(x\\)-värde är vinsten störst?<br>b) Hur stor är den största vinsten?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V'(x)=-x+60\\]</div><div class=\"facit-matte\">\\[V'(x)=0\\Rightarrow -x+60=0\\Rightarrow x=60.\\]</div><div class=\"facit-matte\">\\[V(60)=1300.\\]</div></li><li><p>Eftersom derivatan byter tecken från positiv till negativ vid x=60 får modellen ett maximum där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> maximum är 1300 när x=60.</p></div>",
-  "familj": "Ekonomisk optimering",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    60,
-    1300
-  ],
-  "tolerans": [
-    0,
-    0
-  ],
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "ledtrad": "<p>Derivatan är linjär. Sätt \\(V^{\\prime}(x)=0\\) och sätt sedan in x-värdet i vinstfunktionen.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarsstruktur": "ordnad",
-  "omrTidigare": [
-    "derivata_tillampningar"
-  ],
-  "familjTidigare": [
-    "Ekonomisk optimering med derivata"
-  ]
-},
+    "id": "3.453",
+    "kap": 3,
+    "omr": "fler_extremvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Vinsten från en produkt modelleras av \\(V(x)=-0{,}5x^2+60x-500\\).</p><p>a) Vid vilket \\(x\\)-värde är vinsten störst?<br>b) Hur stor är den största vinsten?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Lös \\(V'(x)=0\\)</p><div class=\"facit-matte\">\\[V'(x)=-x+60=0\\quad\\Rightarrow\\quad x=60\\]</div></li><li><p class=\"facit-rubrik\">b) Största vinsten</p><div class=\"facit-matte\">\\[V(60)=-1800+3600-500=1300\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(x=60\\), b) 1300</p></div>",
+    "familj": "Ekonomisk optimering",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      60,
+      1300
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Derivatan är linjär. Sätt \\(V^{\\prime}(x)=0\\) och sätt sedan in x-värdet i vinstfunktionen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ],
+    "familjTidigare": [
+      "Ekonomisk optimering med derivata"
+    ]
+  },
   {
     "id": "3.454",
     "kap": 2,
@@ -47433,7 +47513,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En rätvinklig triangel har hypotenusan 10 cm.</p><p>Bestäm triangelns största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt kateterna vara \\(x\\) och \\(y\\).</p></li><li><p>Då gäller \\(x^2+y^2=100\\), så \\(y=\\sqrt{100-x^2}\\).</p></li><li><p>Arean är</p><p>\\[A(x)=\\frac12x\\sqrt{100-x^2}.\\]</p></li><li><p>Eftersom \\(A&gt;0\\) kan vi i stället maximera</p><p>\\[4A^2=x^2(100-x^2)=100x^2-x^4.\\]</p></li><li><p>Derivatan är \\(200x-4x^3=4x(50-x^2)\\), så den positiva kandidaten är \\(x=5\\sqrt2\\).</p></li><li><div class=\"facit-berakning\"><p>Då är även</p><div class=\"facit-matte\">\\[y=5\\sqrt2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största arean är \\(\\boxed{25\\text{ cm}^2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pythagoras: \\(y=\\sqrt{100-x^2}\\)</p><div class=\"facit-matte\">\\[A(x)=\\frac12x\\sqrt{100-x^2}\\]</div></li><li><p class=\"facit-rubrik\">Maximera \\(4A^2\\) i stället</p><div class=\"facit-matte\">\\[4A^2=x^2(100-x^2)=100x^2-x^4\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(4A^2\\) är 0</p><div class=\"facit-matte\">\\[200x-4x^3=4x(50-x^2)=0\\quad\\Rightarrow\\quad x=5\\sqrt2\\]</div></li><li><p class=\"facit-rubrik\">Då är också \\(y=5\\sqrt2\\)</p><div class=\"facit-matte\">\\[A=\\frac12\\cdot5\\sqrt2\\cdot5\\sqrt2=25\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25 cm²</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -47459,50 +47539,50 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "3.456",
-  "kap": 3,
-  "omr": "fler_extremvarde",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Bränsleförbrukningen för en bil modelleras i ett visst hastighetsintervall av</p><p>\\[B(v)=0{,}002v^2-0{,}24v+12,\\]</p><p>där \\(v\\) är hastigheten i km/h och \\(B\\) är liter per 100 km.</p><p>a) Vid vilken hastighet är förbrukningen minst?<br>b) Hur stor är den minsta förbrukningen enligt modellen?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är</p><p>\\[B^{\\prime}(v)=0{,}004v-0{,}24.\\]</p></li><li><p>Ur \\(B^{\\prime}(v)=0\\) fås \\(v=60\\).</p></li><li><p>Eftersom andraderivatan \\(B^{\\prime\\prime}(v)=0{,}004&gt;0\\) är detta ett minimum.</p><p>\\[B(60)=0{,}002\\cdot60^2-0{,}24\\cdot60+12=4{,}8.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{60\\text{ km/h}}\\) och \\(\\boxed{4{,}8\\text{ l/100 km}}\\).</p></div>",
-  "familj": "Optimering i givna modeller",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    60,
-    4.8
-  ],
-  "tolerans": [
-    0,
-    0.01
-  ],
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "ledtrad": "<p>Derivera modellen och bestäm var derivatan är 0. Kontrollera därefter att punkten ger ett minimum.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarsstruktur": "ordnad",
-  "omrTidigare": [
-    "derivata_tillampningar"
-  ],
-  "familjTidigare": [
-    "Optimera given modell med derivata"
-  ]
-},
+    "id": "3.456",
+    "kap": 3,
+    "omr": "fler_extremvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bränsleförbrukningen för en bil modelleras i ett visst hastighetsintervall av</p><p>\\[B(v)=0{,}002v^2-0{,}24v+12,\\]</p><p>där \\(v\\) är hastigheten i km/h och \\(B\\) är liter per 100 km.</p><p>a) Vid vilken hastighet är förbrukningen minst?<br>b) Hur stor är den minsta förbrukningen enligt modellen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Lös \\(B'(v)=0\\)</p><div class=\"facit-matte\">\\[B'(v)=0{,}004v-0{,}24=0\\quad\\Rightarrow\\quad v=60\\]</div><p>\\(B''=0{,}004\\gt0\\), alltså minimum.</p></li><li><p class=\"facit-rubrik\">b) Minsta förbrukningen</p><div class=\"facit-matte\">\\[B(60)=7{,}2-14{,}4+12=4{,}8\\ \\text{l/100 km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 60 km/h, b) 4,8 l/100 km</p></div>",
+    "familj": "Optimering i givna modeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      60,
+      4.8
+    ],
+    "tolerans": [
+      0,
+      0.01
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Derivera modellen och bestäm var derivatan är 0. Kontrollera därefter att punkten ger ett minimum.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ],
+    "familjTidigare": [
+      "Optimera given modell med derivata"
+    ]
+  },
   {
     "id": "3.457",
     "kap": 3,
@@ -47514,7 +47594,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En affisch ska ha 400 cm² tryckyta. Sidmarginalerna är 2 cm och marginalerna upptill och nedtill 3 cm.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"250\" viewBox=\"0 0 390 250\" role=\"img\" aria-label=\"Affisch med markerad tryckyta och marginaler\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"75\" y=\"28\" width=\"240\" height=\"180\" fill=\"#F4F4F4\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"105\" y=\"64\" width=\"180\" height=\"108\" fill=\"#EAF2FB\" stroke=\"#2D70B3\" stroke-width=\"2\"/><text x=\"195\" y=\"121\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2D70B3\">tryckyta 400 cm²</text><line x1=\"75\" y1=\"220\" x2=\"105\" y2=\"220\" stroke=\"#8A858C\"/><text x=\"90\" y=\"237\" text-anchor=\"middle\" font-size=\"12\">2 cm</text><line x1=\"326\" y1=\"28\" x2=\"326\" y2=\"64\" stroke=\"#8A858C\"/><text x=\"336\" y=\"50\" font-size=\"12\">3 cm</text></svg></span><p>Bestäm minsta möjliga pappersarea.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt tryckbredden vara \\(x\\) cm.</p></li><li><p>Då är tryckhöjden \\(400/x\\) cm.</p></li><li><p>Pappersarean blir \\[A(x)=(x+4)\\left(\\frac{400}{x}+6\\right)=424+6x+\\frac{1600}{x}.\\]</p><div class=\"facit-matte\">\\[A^{\\prime}(x)=6-1600/x^2\\].</div></li><li><p>Nollstället ger \\(x=20\\sqrt{2/3}\\approx16{,}33\\) cm.</p></li><li><p>Den minsta pappersarean blir ungefär \\(\\boxed{619{,}96\\text{ cm}^2}\\).</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: \\(619{,}96\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pappersarean med tryckbredden x</p><div class=\"facit-matte\">\\[A(x)=(x+4)\\left(\\frac{400}{x}+6\\right)=424+6x+\\frac{1600}{x}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[6-\\frac{1600}{x^2}=0\\quad\\Rightarrow\\quad x=\\sqrt{\\frac{800}{3}}\\approx16{,}33\\]</div></li><li><p class=\"facit-rubrik\">Minsta pappersarean vid \\(x\\approx16{,}33\\)</p><div class=\"facit-matte\">\\[A\\approx424+6\\cdot16{,}33+\\frac{1600}{16{,}33}\\approx619{,}96\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 619,96 cm²</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -47549,7 +47629,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En rektangulär inhägnad delas i fyra lika delar med tre stängsel parallella med ena sidan.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulär inhägnad med skiljestängsel\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"92\" y=\"55\" width=\"205\" height=\"115\" fill=\"#EEF3F8\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"143.2\" y1=\"55\" x2=\"143.2\" y2=\"170\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"194.5\" y1=\"55\" x2=\"194.5\" y2=\"170\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"245.8\" y1=\"55\" x2=\"245.8\" y2=\"170\" stroke=\"#2D70B3\" stroke-width=\"2\"/><text x=\"195\" y=\"193\" text-anchor=\"middle\" font-size=\"13\">y</text><text x=\"68\" y=\"118\" font-size=\"13\">x</text><text x=\"195\" y=\"220\" text-anchor=\"middle\" font-size=\"11\" fill=\"#6B6670\">totalt 180 m stängsel</text></svg></span><p>Totalt finns 180 m stängsel. Bestäm största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt de fem parallella stängseldelarna ha längden \\(x\\) meter.</p></li><li><p>Då återstår \\(180-5x\\) meter till de två andra sidorna, så \\(y=(180-5x)/2\\).</p></li><li><p>Arean blir \\[A(x)=xy=90x-2{,}5x^2.\\]</p></li><li><p>\\(A^{\\prime}(x)=90-5x\\), så maximum fås för \\(x=18\\) m.</p></li><li><p>Då är \\(y=45\\) m och den största arean \\(\\boxed{810\\text{ m}^2}\\).</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: \\(810\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fem parallella sträckor x, två sträckor y</p><div class=\"facit-matte\">\\[5x+2y=180\\quad\\Rightarrow\\quad y=\\frac{180-5x}{2}\\]</div></li><li><p class=\"facit-rubrik\">Total area uttryckt i x</p><div class=\"facit-matte\">\\[A(x)=x\\cdot\\frac{180-5x}{2}=90x-2{,}5x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=90-5x=0\\quad\\Rightarrow\\quad x=18,\\qquad y=45\\]</div></li><li><p class=\"facit-rubrik\">Arean med \\(x=18\\) och \\(y=45\\)</p><div class=\"facit-matte\">\\[A=18\\cdot45=810\\ \\text{m}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 810 m²</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
@@ -47562,7 +47642,7 @@ window.BANKMATO1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Välj \\(x\\) för en av sidlängderna och använd stängselvillkoret för att uttrycka den andra sidan med \\(x\\). Arean ska sedan skrivas som en funktion av en enda variabel innan derivatan används.</p>",
+    "ledtrad": "<p>Tre inre stängsel plus två yttre sidor ger fem sträckor av samma längd. Resten räcker till två sidor.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true,
@@ -47619,7 +47699,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Temperaturen i en ugn modelleras under \\(0\\le t\\le 8\\) av \\(T(t)=-0{,}5t^3+4t^2+20\\). a) Bestäm den minsta temperaturen under intervallet.<br>b) Bestäm den största temperaturen under intervallet med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rita funktionen på intervallet och bestäm derivatans nollställen.</p></li><li><p>\\(T^{\\prime}(t)=-1{,}5t^2+8t=t(8-1,5t)\\), så det relevanta inre nollstället är \\(t=16/3\\approx5{,}33\\).</p></li><li><div class=\"facit-berakning\"><p>Jämför med ändpunkterna:</p><div class=\"facit-matte\">\\[T(0)=20\\],</div></div></li><li><p>\\(T(8)=20\\) och \\(T(16/3)\\approx57{,}93\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta temperatur är \\(20\\) och största ungefär \\(57{,}93\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(T'(t)\\)</p><div class=\"facit-matte\">\\[T'(t)=-1{,}5t^2+8t=t(8-1{,}5t)=0\\]</div><div class=\"facit-matte\">\\[\\Rightarrow t=0,\\ t=\\frac{16}{3}\\]</div></li><li><p class=\"facit-rubrik\">Slutet intervall: jämför derivatans nollställen med ändpunkterna</p><div class=\"facit-matte\">\\[T(0)=20,\\quad T\\!\\left(\\tfrac{16}{3}\\right)\\approx57{,}93\\]</div><div class=\"facit-matte\">\\[T(8)=-256+256+20=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 20, b) 57,93</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": true,
@@ -49771,7 +49851,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En festival säljer biljetter. Om priset är \\(p\\) kronor modelleras antalet sålda biljetter av \\(N(p)=1800-3{,}2p\\). Bestäm det biljettpris som ger störst intäkt och den största intäkten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Intäkten blir</p><p>\\[I(p)=p(1800-3,2p)=1800p-3{,}2p^2.\\]</p><p>\\[I'(p)=1800-6{,}4p=0\\Rightarrow p=281{,}25.\\]</p><p>\\[I(281,25)=253125.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> biljettpriset \\(281{,}25\\) kr ger största intäkten \\(253\\,125\\) kr.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Intäkt = pris · antal</p><div class=\"facit-matte\">\\[I(p)=p(1800-3{,}2p)=1800p-3{,}2p^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(I'(p)=0\\)</p><div class=\"facit-matte\">\\[I'(p)=1800-6{,}4p=0\\quad\\Rightarrow\\quad p=281{,}25\\]</div></li><li><p class=\"facit-rubrik\">Största intäkten vid \\(p=281{,}25\\)</p><div class=\"facit-matte\">\\[I(281{,}25)=281{,}25\\cdot900=253\\,125\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 281,25 kr och 253 125 kr</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -49888,7 +49968,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En modell för effekten från en solpanel under en dag är \\(P(t)=760e^{-0{,}08(t-6)^2}\\) watt för \\(0\\le t\\le12\\). Här är \\(t\\) antalet timmar efter att mätningen börjar. Bestäm när effekten är störst och hur stor den är.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn \\(e^{-0{,}08(t-6)^2}\\) är som störst när exponenten är 0.</p></li><li><div class=\"facit-berakning\"><p>Det sker vid</p><div class=\"facit-matte\">\\[t=6\\].</div></div><p>\\[P(6)=760e^0=760.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> efter 6 timmar är effekten som störst, \\(760\\) W.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exponenten \\(-0{,}08(t-6)^2\\) är högst 0</p><p>Kvadraten är aldrig negativ, så exponenten är störst, 0, när \\(t=6\\).</p></li><li><p class=\"facit-rubrik\">Störst effekt vid \\(t=6\\)</p><div class=\"facit-matte\">\\[P(6)=760e^0=760\\ \\text{W}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> efter 6 timmar, 760 W</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": false,
@@ -49937,7 +50017,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Ett företag modellerar kostnaden per producerad enhet med \\(K(x)=0{,}001x^3-0{,}30x^2+18x+1000\\) för \\(20\\le x\\le180\\). Bestäm den minsta kostnaden per enhet i intervallet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Undersök funktionen i intervallet och jämför intervallets ändpunkter med de punkter där tangentlutningen är 0.</p></li><li><p>Den lägsta kostnaden fås vid \\(x\\approx163{,}25\\) och är ungefär \\(\\boxed{294{,}04}\\) kronor per enhet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 294,04.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(K'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[0{,}003x^2-0{,}6x+18=0\\]</div><div class=\"facit-matte\">\\[\\Leftrightarrow x^2-200x+6000=0\\]</div><div class=\"facit-matte\">\\[x=100\\pm\\sqrt{4000}\\approx100\\pm63{,}25\\]</div></li><li><p class=\"facit-rubrik\">Kandidater i intervallet och ändpunkterna</p><div class=\"facit-matte\">\\[K(20)=1248,\\quad K(36{,}75)\\approx1306\\]</div><div class=\"facit-matte\">\\[K(163{,}25)\\approx294{,}04,\\quad K(180)=352\\]</div></li><li><p class=\"facit-rubrik\">Det minsta av kandidaternas värden</p><div class=\"facit-matte\">\\[K_{\\min}\\approx294{,}04\\ \\text{kr per enhet}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 294,04 kr per enhet</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -50021,7 +50101,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En punkt \\(P=(x,x^2)\\) ligger på parabeln \\(y=x^2\\) i första kvadranten. Punkten \\(A=(3,0)\\) är given.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"255\" viewBox=\"0 0 390 255\" role=\"img\" aria-label=\"Parabel och punkt A på x-axeln\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"217\" stroke=\"#F0EFF2\"/><line x1=\"141.5\" y1=\"22\" x2=\"141.5\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"141.5\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"235.1\" y1=\"22\" x2=\"235.1\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"235.1\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"328.6\" y1=\"22\" x2=\"328.6\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"328.6\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"217.0\" x2=\"366\" y2=\"217.0\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"178.0\" x2=\"366\" y2=\"178.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"181.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"139.0\" x2=\"366\" y2=\"139.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"142.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"100.0\" x2=\"366\" y2=\"100.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"103.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"48\" y1=\"61.0\" x2=\"366\" y2=\"61.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"64.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">8</text><line x1=\"48\" y1=\"22.0\" x2=\"366\" y2=\"22.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"25.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">10</text><line x1=\"48\" y1=\"217.0\" x2=\"366\" y2=\"217.0\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"217\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M48.0 217.0 L49.8 217.0 L51.5 217.0 L53.3 216.9 L55.1 216.9 L56.8 216.8 L58.6 216.7 L60.4 216.7 L62.1 216.6 L63.9 216.4 L65.7 216.3 L67.4 216.2 L69.2 216.0 L71.0 215.8 L72.7 215.6 L74.5 215.4 L76.3 215.2 L78.0 215.0 L79.8 214.7 L81.6 214.5 L83.3 214.2 L85.1 213.9 L86.9 213.6 L88.6 213.3 L90.4 213.0 L92.2 212.7 L93.9 212.3 L95.7 211.9 L97.5 211.5 L99.2 211.1 L101.0 210.7 L102.8 210.3 L104.5 209.9 L106.3 209.4 L108.1 209.0 L109.8 208.5 L111.6 208.0 L113.4 207.5 L115.1 207.0 L116.9 206.4 L118.7 205.9 L120.4 205.3 L122.2 204.7 L124.0 204.1 L125.7 203.5 L127.5 202.9 L129.3 202.3 L131.0 201.6 L132.8 201.0 L134.6 200.3 L136.3 199.6 L138.1 198.9 L139.9 198.2 L141.6 197.5 L143.4 196.7 L145.2 196.0 L146.9 195.2 L148.7 194.4 L150.5 193.6 L152.2 192.8 L154.0 192.0 L155.8 191.1 L157.5 190.3 L159.3 189.4 L161.1 188.5 L162.8 187.6 L164.6 186.7 L166.4 185.8 L168.1 184.8 L169.9 183.9 L171.7 182.9 L173.4 181.9 L175.2 180.9 L177.0 179.9 L178.7 178.9 L180.5 177.9 L182.3 176.8 L184.0 175.7 L185.8 174.7 L187.6 173.6 L189.3 172.5 L191.1 171.4 L192.9 170.2 L194.6 169.1 L196.4 167.9 L198.2 166.7 L199.9 165.5 L201.7 164.3 L203.5 163.1 L205.2 161.9 L207.0 160.6 L208.8 159.4 L210.5 158.1 L212.3 156.8 L214.1 155.5 L215.8 154.2 L217.6 152.9 L219.4 151.5 L221.1 150.2 L222.9 148.8 L224.7 147.4 L226.4 146.0 L228.2 144.6 L230.0 143.2 L231.7 141.7 L233.5 140.3 L235.3 138.8 L237.0 137.3 L238.8 135.8 L240.6 134.3 L242.3 132.8 L244.1 131.3 L245.9 129.7 L247.6 128.2 L249.4 126.6 L251.2 125.0 L252.9 123.4 L254.7 121.8 L256.5 120.1 L258.2 118.5 L260.0 116.8 L261.8 115.1 L263.5 113.4 L265.3 111.7 L267.1 110.0 L268.8 108.3 L270.6 106.5 L272.4 104.8 L274.1 103.0 L275.9 101.2 L277.7 99.4 L279.4 97.6 L281.2 95.8 L283.0 93.9 L284.7 92.1 L286.5 90.2 L288.3 88.3 L290.0 86.4 L291.8 84.5 L293.6 82.6 L295.3 80.6 L297.1 78.7 L298.9 76.7 L300.6 74.7 L302.4 72.7 L304.2 70.7 L305.9 68.7 L307.7 66.7 L309.5 64.6 L311.2 62.5 L313.0 60.5 L314.8 58.4 L316.5 56.3 L318.3 54.1 L320.1 52.0 L321.8 49.8 L323.6 47.7 L325.4 45.5 L327.1 43.3 L328.9 41.1 L330.7 38.9 L332.4 36.7 L334.2 34.4 L336.0 32.1 L337.7 29.9 L339.5 27.6 L341.3 25.3 L343.0 23.0 L344.8 22.0 L346.6 22.0 L348.3 22.0 L350.1 22.0 L351.9 22.0 L353.6 22.0 L355.4 22.0 L357.2 22.0 L358.9 22.0 L360.7 22.0 L362.5 22.0 L364.2 22.0 L366.0 22.0\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.4\"/><circle cx=\"328.6\" cy=\"217.0\" r=\"4\" fill=\"#B43123\"/><text x=\"335.6\" y=\"210.0\" font-size=\"11\" fill=\"#2B2527\">A</text><text x=\"361\" y=\"37\" text-anchor=\"end\" font-size=\"11\" fill=\"#2D70B3\">y=x²</text></svg></span><p>Bestäm den punkt \\(P\\) på parabeln som ligger närmast \\(A\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det kvadrerade avståndet är</p><p>\\[D(x)=(x-3)^2+x^4.\\]</p><p>\\[D^{\\prime}(x)=2(x-3)+4x^3=4x^3+2x-6.\\]</p></li><li><p>\\(x=1\\) är en lösning och polynomet är strikt växande, så det är den enda kritiska punkten.</p></li><li><div class=\"facit-berakning\"><p>Punkten är därför</p><div class=\"facit-matte\">\\[\\boxed{P=(1,1)}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: x-koordinat: \\(1\\), y-koordinat: \\(1\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minimera avståndets kvadrat</p><div class=\"facit-matte\">\\[D(x)=(x-3)^2+(x^2-0)^2=x^4+x^2-6x+9\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(D'(x)=0\\)</p><div class=\"facit-matte\">\\[D'(x)=4x^3+2x-6=0\\quad\\Rightarrow\\quad x=1\\]</div><p>\\(4+2-6=0\\). \\(D'\\) är växande, så x = 1 är den enda lösningen.</p></li><li><p class=\"facit-rubrik\">Punkten på parabeln</p><div class=\"facit-matte\">\\[P=(1,\\ 1^2)=(1,1)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> x = 1, y = 1</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": true,
@@ -50105,7 +50185,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En rektangulär skärm ska ha bildytan 6000 cm². Skärmens ram är lika bred runt hela bildytan, så för att minska materialåtgången vill man minimera bildytans omkrets.</p><p>Bestäm bildytans mått som ger minsta omkrets.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt ena sidan vara \\(x\\).</p></li><li><p>Då är den andra \\(6000/x\\).</p><p>\\[P(x)=2x+\\frac{12000}{x}.\\]</p><p>\\[P^{\\prime}(x)=2-\\frac{12000}{x^2}=0\\Rightarrow x^2=6000.\\]</p></li><li><p>Alltså blir båda sidorna \\(\\sqrt{6000}=20\\sqrt{15}\\approx77{,}46\\) cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> bildytan ska vara kvadratisk, cirka \\(\\boxed{77{,}5\\text{ cm}\\times77{,}5\\text{ cm}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bildytan 6000 ger den andra sidan</p><div class=\"facit-matte\">\\[P(x)=2x+\\frac{12\\,000}{x}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(P'(x)=0\\)</p><div class=\"facit-matte\">\\[2-\\frac{12\\,000}{x^2}=0\\quad\\Rightarrow\\quad x^2=6000\\]</div><div class=\"facit-matte\">\\[\\Rightarrow x=\\sqrt{6000}\\approx77{,}46\\]</div></li><li><p class=\"facit-rubrik\">Den andra sidan är lika lång</p><div class=\"facit-matte\">\\[\\frac{6000}{77{,}46}\\approx77{,}46\\]</div><p>Bildytan blir kvadratisk.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 77,46 cm × 77,46 cm</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -50188,7 +50268,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En fabrik modellerar dagsvinsten med \\(V(x)=-0{,}002x^3+1{,}2x^2+120x-8000\\) för \\(0\\le x\\le500\\). Bestäm största möjliga dagsvinst enligt modellen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Undersök modellen i intervallet \\(0\\le x\\le500\\).</p></li><li><p>En inre punkt där tangentlutningen är 0 fås vid \\(x\\approx444{,}95\\).</p></li><li><p>Jämförelse med ändpunkterna visar att största värdet är ungefär \\(\\boxed{106\\,788\\text{ kr}}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 106788.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(V'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[-0{,}006x^2+2{,}4x+120=0\\]</div><div class=\"facit-matte\">\\[\\Leftrightarrow x^2-400x-20\\,000=0\\]</div><div class=\"facit-matte\">\\[x=200\\pm\\sqrt{60\\,000}\\approx200\\pm244{,}95\\]</div></li><li><p class=\"facit-rubrik\">Bara \\(x\\approx444{,}95\\) ligger i intervallet</p><p>Den andra roten är negativ.</p></li><li><p class=\"facit-rubrik\">Slutet intervall: jämför derivatans nollställen med ändpunkterna</p><div class=\"facit-matte\">\\[V(0)=-8000,\\quad V(444{,}95)\\approx106\\,788\\]</div><div class=\"facit-matte\">\\[V(500)=102\\,000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 106 788 kr</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -50257,7 +50337,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Två positiva tal har summan 18. Produkten av det mindre talet och kvadraten på det större talet ska bli så stor som möjligt.</p><p>Bestäm talen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt det mindre talet vara \\(x\\).</p></li><li><p>Då är det större \\(18-x\\), med \\(0&lt;x\\le9\\).</p><p>\\[P(x)=x(18-x)^2.\\]</p><p>\\[P'(x)=(18-x)(18-3x).\\]</p></li><li><div class=\"facit-berakning\"><p>I intervallet fås maximum vid</p><div class=\"facit-matte\">\\[x=6\\].</div></div></li><li><p>Det större talet är då \\(12\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 och 12.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det mindre talet x, det större \\(18-x\\)</p><div class=\"facit-matte\">\\[P(x)=x(18-x)^2=x^3-36x^2+324x\\]</div></li><li><p class=\"facit-rubrik\">\\(P'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[3x^2-72x+324=0\\quad\\Leftrightarrow\\quad x^2-24x+108=0\\]</div><div class=\"facit-matte\">\\[x=12\\pm\\sqrt{144-108}=12\\pm6\\]</div></li><li><p class=\"facit-rubrik\">Bara \\(x=6\\) ligger i \\(0\\lt x\\le9\\)</p><div class=\"facit-matte\">\\[18-6=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 och 12</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": true,
@@ -51221,7 +51301,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Vinsten vid försäljning av \\(x\\) hundratal biljetter modelleras av \\(V(x)=-3x^2+30x-20\\) tusen kronor.</p><p>Hur många biljetter ska säljas för att vinsten enligt modellen ska vara som störst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[V'(x)=-6x+30.\\]</p><p>\\[V'(x)=0\\Rightarrow x=5.\\]</p></li><li><p>Eftersom \\(x\\) mäts i hundratal motsvarar detta \\(5\\cdot100=500\\) biljetter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 500 biljetter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(V'(x)=0\\)</p><div class=\"facit-matte\">\\[V'(x)=-6x+30=0\\quad\\Rightarrow\\quad x=5\\]</div></li><li><p class=\"facit-rubrik\">x räknas i hundratal</p><div class=\"facit-matte\">\\[5\\cdot100=500\\ \\text{biljetter}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 500 biljetter</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": false,
@@ -51393,7 +51473,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Ett 20 m långt snöre delas i två delar. Av den ena delen formas en kvadrat och av den andra en cirkel.</p><p>Hur många meter snöre ska användas till kvadraten för att den sammanlagda arean av kvadraten och cirkeln ska bli så liten som möjligt? Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(x\\) meter användas till kvadraten.</p></li><li><p>Då är kvadratens sida \\(x/4\\) och dess area \\(x^2/16\\).</p></li><li><p>Cirkelns omkrets är \\(20-x\\), så radien är \\((20-x)/(2\\pi)\\) och arean</p><p>\\[\\frac{(20-x)^2}{4\\pi}.\\]</p></li><li><p>Totala arean är</p><p>\\[A(x)=\\frac{x^2}{16}+\\frac{(20-x)^2}{4\\pi}.\\]</p><p>\\[A'(x)=\\frac{x}{8}-\\frac{20-x}{2\\pi}=0\\]</p></li><li><p>ger</p><p>\\[x=\\frac{80}{4+\\pi}\\approx11{,}20.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(11{,}2\\) m till kvadraten.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">x meter till kvadraten, resten till cirkeln</p><div class=\"facit-matte\">\\[\\text{kvadrat: }\\left(\\frac x4\\right)^2=\\frac{x^2}{16},\\qquad\\text{cirkel: }r=\\frac{20-x}{2\\pi}\\]</div></li><li><p class=\"facit-rubrik\">Kvadratens och cirkelns sammanlagda area</p><div class=\"facit-matte\">\\[A(x)=\\frac{x^2}{16}+\\frac{(20-x)^2}{4\\pi}=\\frac{x^2}{16}+\\frac{400-40x+x^2}{4\\pi}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[\\frac x8+\\frac{-40+2x}{4\\pi}=0\\quad\\Rightarrow\\quad x=\\frac{80}{4+\\pi}\\approx11{,}2\\]</div><p>\\(A''\\gt0\\), alltså minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11,2 m</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -51462,7 +51542,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två positiva tal har summan 24. Bestäm talen så att summan av deras kvadrater blir så liten som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt talen vara \\(x\\) och \\(24-x\\).</p><p>\\[S(x)=x^2+(24-x)^2.\\]</p><p>\\[S'(x)=4x-48=0\\Rightarrow x=12.\\]</p></li><li><p>Det andra talet är också 12.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 och 12.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen x och \\(24-x\\)</p><div class=\"facit-matte\">\\[S(x)=x^2+(24-x)^2=2x^2-48x+576\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(S'(x)=0\\)</p><div class=\"facit-matte\">\\[S'(x)=4x-48=0\\quad\\Rightarrow\\quad x=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 och 12</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": true,
@@ -51511,7 +51591,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En rektangel har diagonalen 20 cm.</p><p>Bestäm rektangelns största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt sidlängderna vara \\(x\\) och \\(y\\).</p></li><li><p>Pythagoras sats ger</p><p>\\[x^2+y^2=400.\\]</p></li><li><div class=\"facit-berakning\"><p>Eftersom arean är positiv kan vi maximera</p><div class=\"facit-matte\">\\[A^2=x^2y^2\\].</div></div></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[y^2=400-x^2\\]:</div></div><p>\\[A^2(x)=x^2(400-x^2).\\]</p><p>\\[(A^2)'=800x-4x^3=4x(200-x^2).\\]</p></li><li><p>Maximum fås när \\(x^2=200\\), alltså \\(x=y=10\\sqrt2\\).</p><p>\\[A_{max}=xy=200\\text{ cm}^2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\text{ cm}^2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pythagoras: \\(y^2=400-x^2\\)</p><div class=\"facit-matte\">\\[A^2=x^2y^2=x^2(400-x^2)=400x^2-x^4\\]</div></li><li><p class=\"facit-rubrik\">Derivatan av \\(A^2\\) är 0</p><div class=\"facit-matte\">\\[800x-4x^3=4x(200-x^2)=0\\quad\\Rightarrow\\quad x^2=200\\]</div></li><li><p class=\"facit-rubrik\">Kvadrat med sidan \\(10\\sqrt2\\)</p><div class=\"facit-matte\">\\[A=10\\sqrt2\\cdot10\\sqrt2=200\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 200 cm²</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -51648,7 +51728,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En sluten låda med kvadratisk botten ska rymma \\(500\\text{ cm}^3\\).</p><p>Bestäm bottenkantens längd och lådans höjd så att den totala materialarean blir så liten som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt bottenkanten vara \\(x\\) cm och höjden \\(h\\) cm.</p></li><li><p>Volymvillkoret ger</p><p>\\[x^2h=500\\Rightarrow h=\\frac{500}{x^2}.\\]</p></li><li><p>En sluten låda har två kvadratiska ytor och fyra sidoytor:</p><p>\\[A(x)=2x^2+4xh=2x^2+\\frac{2000}{x}.\\]</p><p>\\[A'(x)=4x-\\frac{2000}{x^2}=0\\Rightarrow x^3=500.\\]</p></li><li><p>Alltså \\(x\\approx7{,}94\\) cm.</p></li><li><p>Då blir \\(h=500/x^2\\approx7{,}94\\) cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär \\(7{,}94\\text{ cm}\\times7{,}94\\text{ cm}\\times7{,}94\\text{ cm}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymen ger höjden</p><div class=\"facit-matte\">\\[x^2h=500\\quad\\Rightarrow\\quad h=\\frac{500}{x^2}\\]</div></li><li><p class=\"facit-rubrik\">Två kvadratiska ytor och fyra sidoytor</p><div class=\"facit-matte\">\\[A(x)=2x^2+4x\\cdot\\frac{500}{x^2}=2x^2+\\frac{2000}{x}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[4x-\\frac{2000}{x^2}=0\\quad\\Rightarrow\\quad x^3=500\\quad\\Rightarrow\\quad x\\approx7{,}94\\]</div></li><li><p class=\"facit-rubrik\">Höjden blir lika stor – en kub</p><div class=\"facit-matte\">\\[h=\\frac{500}{7{,}94^2}\\approx7{,}94\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär 7,94 cm × 7,94 cm × 7,94 cm</p></div>",
     "familj": "Lådor, burkar och volymer",
     "geogebra": false,
     "miniräknare": true,
@@ -52884,7 +52964,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till</p><p>\\[f(x)=4x^3-2x+5\\]</p><p>som uppfyller \\(F(0)=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrera term för term:</p><p>\\[F(x)=x^4-x^2+5x+C.\\]</p></li><li><p>Villkoret \\(F(0)=0\\) ger \\(C=0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^4-x^2+5x\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion term för term</p><div class=\"facit-matte\">\\[F(x)=x^4-x^2+5x+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=0\\) bestämmer C</p><div class=\"facit-matte\">\\[C=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^4-x^2+5x\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -52918,7 +52998,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Det gäller att \\(F'(x)=6x^2+3\\) och \\(F(1)=10\\).</p><p>Bestäm \\(F(x)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion till \\(6x^2+3\\) är</p><p>\\[F(x)=2x^3+3x+C.\\]</p></li><li><p>Villkoret \\(F(1)=10\\) ger</p><p>\\[2+3+C=10\\Rightarrow C=5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=2x^3+3x+5\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(6x^2+3\\)</p><div class=\"facit-matte\">\\[F(x)=2x^3+3x+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(1)=10\\) bestämmer C</p><div class=\"facit-matte\">\\[2+3+C=10\\quad\\Rightarrow\\quad C=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=2x^3+3x+5\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -53021,7 +53101,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till \\(f(x)=e^{2x}+4\\) som uppfyller \\(F(0)=3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är</p><p>\\[F(x)=\\frac12e^{2x}+4x+C.\\]</p></li><li><p>Villkoret \\(F(0)=3\\) ger</p><p>\\[\\frac12+C=3\\Rightarrow C=\\frac52.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\displaystyle F(x)=\\frac12e^{2x}+4x+\\frac52\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(e^{2x}\\) har faktorn \\(\\tfrac12\\)</p><div class=\"facit-matte\">\\[F(x)=\\frac12e^{2x}+4x+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=3\\) bestämmer C</p><div class=\"facit-matte\">\\[\\frac12+C=3\\quad\\Rightarrow\\quad C=\\frac52\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\dfrac12e^{2x}+4x+\\dfrac52\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -53785,7 +53865,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till \\(f(x)=8x^3\\) som uppfyller \\(F(0)=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion till \\(8x^3\\) är \\(2x^4+C\\).</p></li><li><p>Villkoret \\(F(0)=0\\) ger \\(C=0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=2x^4\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(8x^3\\)</p><div class=\"facit-matte\">\\[F(x)=8\\cdot\\frac{x^4}{4}+C=2x^4+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=0\\) bestämmer C</p><div class=\"facit-matte\">\\[C=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=2x^4\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -55677,7 +55757,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Arean för en rektangulär rastgård kan beskrivas av</p><p>\\[A(x)=12x-1{,}5x^2.\\]</p><p>Bestäm med hjälp av derivata det värde på \\(x\\) som ger så stor area som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A'(x)=12-3x.\\]</p><p>\\[A'(x)=0\\Rightarrow x=4.\\]</p></li><li><p>Eftersom andragradskoefficienten är negativ är detta ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=12-3x=0\\quad\\Rightarrow\\quad x=4\\]</div></li><li><p class=\"facit-rubrik\">\\(A''(x)=-3\\lt0\\) ger maximum</p><p>Parabeln vänder nedåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
@@ -68209,7 +68289,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm den primitiva funktion \\(F\\) till \\(f(x)=x^2\\) som uppfyller \\(F(0)=2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla primitiva funktioner har formen</p><p>\\[F(x)=\\frac{x^3}{3}+C.\\]</p></li><li><p>Villkoret \\(F(0)=2\\) ger \\(C=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3/3+2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla primitiva funktioner till \\(x^2\\)</p><div class=\"facit-matte\">\\[F(x)=\\frac{x^3}{3}+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=2\\) bestämmer C</p><div class=\"facit-matte\">\\[C=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\dfrac{x^3}{3}+2\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -68425,7 +68505,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En blomrabatts area beskrivs av \\(A(x)=6x-3x^2\\), där \\(x\\) är bredden i meter.</p><p>Bestäm med hjälp av derivata det värde på \\(x\\) som ger maximal area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A'(x)=6-6x.\\]</p><p>\\[A'(x)=0\\Rightarrow x=1.\\]</p></li><li><p>Eftersom parabeln är nedåtvänd fås maximum vid \\(x=1\\) m.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(1\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=6-6x=0\\quad\\Rightarrow\\quad x=1\\]</div></li><li><p class=\"facit-rubrik\">\\(A''(x)=-6\\lt0\\) ger maximum</p><p>Parabeln vänder nedåt, så x = 1 m ger störst area.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
@@ -70735,7 +70815,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"220\" viewBox=\"0 0 390 220\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Rektangel med omkretsvillkor\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"80\" y=\"45\" width=\"230\" height=\"130\" fill=\"#F3F8F1\" stroke=\"#4D8C57\" stroke-width=\"3\"/><text x=\"195.0\" y=\"200\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2B2527\">x</text><text x=\"60\" y=\"110.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2B2527\">30−x</text></svg></span><p>En rektangel har omkretsen 60 cm.</p><p>a) Bestäm den ena sidlängden \\(x\\) som ger största möjliga area.<br>b) Bestäm den andra sidlängden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt ena sidan vara \\(x\\).</p></li><li><p>Då är den andra \\(30-x\\).</p></li><li><p>\\[A(x)=x(30-x)=30x-x^2,\\qquad A^{\\prime}(x)=30-2x.\\] Villkoret \\(A^{\\prime}(x)=0\\) ger \\(x=15\\).</p></li><li><p>Den andra sidan är då också 15 cm.<br>Svar:</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\boxed{15\\text{ cm}}\\) &nbsp;</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\boxed{15\\text{ cm}}\\).</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halva omkretsen är 30</p><div class=\"facit-matte\">\\[A(x)=x(30-x)=30x-x^2\\]</div></li><li><p class=\"facit-rubrik\">a) Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=30-2x=0\\quad\\Rightarrow\\quad x=15\\]</div></li><li><p class=\"facit-rubrik\">b) Den andra sidan</p><div class=\"facit-matte\">\\[30-15=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 15 cm, b) 15 cm</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -76820,7 +76900,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rektangel har omkretsen 48 cm. Om ena sidan är \\(x\\) cm är den andra \\(24-x\\) cm. Vilket värde på \\(x\\) ger störst area?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[A(x)=x(24-x)=24x-x^2\\].</div></div></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[A'(x)=24-2x\\].</div></div></li><li><p>Villkoret \\(A'(x)=0\\) ger \\(x=12\\), vilket ger maximal area.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 cm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean som funktion av x</p><div class=\"facit-matte\">\\[A(x)=x(24-x)=24x-x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=24-2x=0\\quad\\Rightarrow\\quad x=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 cm</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -79268,7 +79348,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Höjden för en boll modelleras av \\(h(t)=-(t-3)^2+10\\) meter. Vid vilken tidpunkt är bollen som högst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket är skrivet i vertexform.</p></li><li><p>Kvadraten blir 0 när \\(t=3\\), och då är höjden maximal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vertexformen \\(-(t-3)^2+10\\)</p><p>\\(-(t-3)^2\\) är högst 0, och det inträffar när \\(t=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 s</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": false,
@@ -79373,7 +79453,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=4x\\) och \\(F(0)=2\\). Bestäm \\(F(x)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion till \\(4x\\) är \\(2x^2+C\\).</p></li><li><p>Villkoret \\(F(0)=2\\) ger \\(C=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=2x^2+2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(4x\\)</p><div class=\"facit-matte\">\\[F(x)=2x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=2\\) bestämmer C</p><div class=\"facit-matte\">\\[C=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=2x^2+2\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -79794,7 +79874,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vinsten i tusen kronor vid försäljning av \\(x\\) enheter modelleras av \\(V(x)=-2x^2+80x-300\\). Vid vilket \\(x\\) blir vinsten störst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[V'(x)=-4x+80\\].</div></div></li><li><p>Villkoret \\(V'(x)=0\\) ger \\(x=20\\).</p></li><li><p>Eftersom andragradskoefficienten är negativ är detta ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 enheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(V'(x)=0\\)</p><div class=\"facit-matte\">\\[V'(x)=-4x+80=0\\quad\\Rightarrow\\quad x=20\\]</div></li><li><p class=\"facit-rubrik\">Nedåtvänd parabel ger maximum</p><p>Andragradskoefficienten −2 är negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 enheter</p></div>",
     "familj": "Ekonomisk optimering",
     "geogebra": false,
     "miniräknare": false,
@@ -79864,7 +79944,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(1)=0\\). Vilket uttryck beskriver \\(F(x)\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion till \\(3x^2\\) är \\(x^3+C\\).</p></li><li><p>Villkoret \\(F(1)=0\\) ger \\(1+C=0\\), alltså \\(C=-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^3-1\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(3x^2\\)</p><div class=\"facit-matte\">\\[F(x)=x^3+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(1)=0\\) bestämmer C</p><div class=\"facit-matte\">\\[1+C=0\\quad\\Rightarrow\\quad C=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^3-1\\)</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -79886,7 +79966,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Bestämma primitiv funktion med begynnelsevillkor"
     ],
-    "alternativ": [{"txt": "\\(3x^3-3\\)", "ratt": false}, {"txt": "\\(x^3+1\\)", "ratt": false}, {"txt": "\\(x^3-1\\)", "ratt": true}, {"txt": "\\(x^2-1\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(3x^3-3\\)",
+        "ratt": false,
+        "kommentar": "Derivatan av \\(3x^3\\) är \\(9x^2\\), inte \\(3x^2\\)."
+      },
+      {
+        "txt": "\\(x^3+1\\)",
+        "ratt": false,
+        "kommentar": "\\(F(1)=1+1=2\\), inte 0."
+      },
+      {
+        "txt": "\\(x^3-1\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(x^2-1\\)",
+        "ratt": false,
+        "kommentar": "Derivatan av \\(x^2\\) är \\(2x\\), inte \\(3x^2\\)."
+      }
+    ]
   },
   {
     "id": "3.814",
@@ -80175,7 +80275,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Två modeller ges av \\(A(x)=-x^2+8x+10\\) och \\(B(x)=2x+1\\). Vid vilket x-värde är skillnaden \\(A(x)-B(x)\\) som störst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skillnaden är</p><div class=\"facit-matte\">\\[D(x)=A(x)-B(x)=-x^2+6x+9\\].</div></div></li><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[D'(x)=-2x+6\\].</div></div></li><li><p>Villkoret \\(D'(x)=0\\) ger \\(x=3\\), och eftersom andragradskoefficienten är negativ är det ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skillnaden mellan modellerna</p><div class=\"facit-matte\">\\[D(x)=-x^2+8x+10-(2x+1)=-x^2+6x+9\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(D'(x)=0\\)</p><div class=\"facit-matte\">\\[D'(x)=-2x+6=0\\quad\\Rightarrow\\quad x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Optimering i givna modeller",
     "geogebra": false,
     "miniräknare": false,
@@ -80333,7 +80433,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En primitiv funktion till \\(f(x)=6x\\) skrivs \\(F(x)=3x^2+C\\). Man vet att \\(F(1)=5\\). Bestäm \\(C\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in \\(x=1\\): \\(3+C=5\\).</p></li><li><div class=\"facit-berakning\"><p>Därför är</p><div class=\"facit-matte\">\\[C=2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=1\\) och \\(F(1)=5\\)</p><div class=\"facit-matte\">\\[3\\cdot1^2+C=5\\quad\\Rightarrow\\quad C=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": false,
@@ -80571,7 +80671,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=1\\). Bestäm \\(F(1)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> En primitiv funktion är</p><div class=\"facit-matte\">\\[F(x)=x^2+C\\].</div></div></li><li><p>Villkoret \\(F(0)=1\\) ger \\(C=1\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[F(1)=2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(2x\\)</p><div class=\"facit-matte\">\\[F(x)=x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=1\\) bestämmer C</p><div class=\"facit-matte\">\\[C=1\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=1\\)</p><div class=\"facit-matte\">\\[F(1)=1+1=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": false,
@@ -81566,7 +81666,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=2\\). Bestäm \\(F(1)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> En primitiv funktion är</p><div class=\"facit-matte\">\\[F(x)=x^2+C\\].</div></div></li><li><p>Villkoret \\(F(0)=2\\) ger \\(C=2\\).</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[F(1)=3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(2x\\)</p><div class=\"facit-matte\">\\[F(x)=x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=2\\) bestämmer C</p><div class=\"facit-matte\">\\[C=2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=1\\)</p><div class=\"facit-matte\">\\[F(1)=1+2=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Återskapa funktion från derivata",
     "geogebra": false,
     "miniräknare": false,
@@ -81600,7 +81700,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=9x^2\\) och \\(F(0)=-1\\). Bestäm \\(F(1)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[F(x)=3x^3+C\\].</div></div></li><li><p>Av \\(F(0)=-1\\) fås \\(C=-1\\).</p></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[F(1)=2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(9x^2\\)</p><div class=\"facit-matte\">\\[F(x)=3x^3+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=-1\\) bestämmer C</p><div class=\"facit-matte\">\\[C=-1\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=1\\)</p><div class=\"facit-matte\">\\[F(1)=3-1=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Återskapa funktion från derivata",
     "geogebra": false,
     "miniräknare": false,
@@ -81804,7 +81904,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har omkretsen \\(40\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(20-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Arean är</p><div class=\"facit-matte\">\\[A(x)=x(20-x)=-x^2+20x\\].</div></div></li><li><div class=\"facit-berakning\"><p>Parabelns symmetrilinje är</p><div class=\"facit-matte\">\\[x=20/2=10\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean är en nedåtvänd parabel</p><div class=\"facit-matte\">\\[A(x)=x(20-x)=-x^2+20x\\]</div></li><li><p class=\"facit-rubrik\">Nollställena 0 och 20 – symmetrilinjen mitt emellan</p><div class=\"facit-matte\">\\[x=\\frac{0+20}{2}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -82045,7 +82145,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=6x^2-2x\\) och \\(F(1)=7\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=2x^3-x^2+C\\].</div><div class=\"facit-matte\">\\[F(1)=1+C=7\\Rightarrow C=6\\].</div><div class=\"facit-matte\">\\[F(2)=16-4+6=18\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion term för term</p><div class=\"facit-matte\">\\[F(x)=2x^3-x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(1)=7\\) bestämmer C</p><div class=\"facit-matte\">\\[2-1+C=7\\quad\\Rightarrow\\quad C=6\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[F(2)=16-4+6=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18</p></div>",
     "familj": "Återskapa funktion från derivata",
     "geogebra": false,
     "miniräknare": false,
@@ -82053,7 +82153,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Ta fram en primitiv funktion term för term.</p>",
+    "ledtrad": "<p>Bestäm F term för term med C kvar. Använd \\(F(1)=7\\) och sätt sedan in \\(x=2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -82079,7 +82179,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(0)=-1\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[F(x)=x^3+C\\].</div></div></li><li><p>Av \\(F(0)=-1\\) fås \\(C=-1\\).</p></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[F(2)=7\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(3x^2\\)</p><div class=\"facit-matte\">\\[F(x)=x^3+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=-1\\) bestämmer C</p><div class=\"facit-matte\">\\[C=-1\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[F(2)=8-1=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
     "familj": "Återskapa funktion från derivata",
     "geogebra": false,
     "miniräknare": false,
@@ -82217,7 +82317,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har omkretsen \\(12\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(6-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Arean är</p><div class=\"facit-matte\">\\[A(x)=x(6-x)=-x^2+6x\\].</div></div></li><li><div class=\"facit-berakning\"><p>Parabelns symmetrilinje är</p><div class=\"facit-matte\">\\[x=6/2=3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean är en nedåtvänd parabel</p><div class=\"facit-matte\">\\[A(x)=x(6-x)=-x^2+6x\\]</div></li><li><p class=\"facit-rubrik\">Nollställena 0 och 6 – symmetrilinjen mitt emellan</p><div class=\"facit-matte\">\\[x=\\frac{0+6}{2}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -82368,7 +82468,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har omkretsen \\(60\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(30-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Arean är</p><div class=\"facit-matte\">\\[A(x)=x(30-x)=-x^2+30x\\].</div></div></li><li><div class=\"facit-berakning\"><p>Parabelns symmetrilinje är</p><div class=\"facit-matte\">\\[x=30/2=15\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean är en nedåtvänd parabel</p><div class=\"facit-matte\">\\[A(x)=x(30-x)=-x^2+30x\\]</div></li><li><p class=\"facit-rubrik\">Nollställena 0 och 30 – symmetrilinjen mitt emellan</p><div class=\"facit-matte\">\\[x=\\frac{0+30}{2}=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -82436,7 +82536,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangulär hage ska byggas mot en vägg. Väggen ersätter en långsida, och 80 m stängsel räcker till de tre andra sidorna. Hur långa ska sidorna vinkelräta mot väggen vara för att arean ska bli så stor som möjligt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla de vinkelräta sidorna x.</p></li><li><p>Då blir långsidan \\(80-2x\\) och arean \\(A(x)=x(80-2x)\\).</p></li><li><p>\\(A'(x)=80-4x=0\\Rightarrow x=20\\) m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 m</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sidan längs väggen är \\(80-2x\\)</p><div class=\"facit-matte\">\\[A(x)=x(80-2x)=80x-2x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=80-4x=0\\quad\\Rightarrow\\quad x=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 m</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -82801,7 +82901,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två positiva tal har summan 40. Hur stor kan deras produkt högst bli?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talen är \\(x\\) och \\(40-x\\).</p></li><li><div class=\"facit-berakning\"><p>Produkten</p><div class=\"facit-matte\">\\[P(x)=x(40-x)\\].</div></div></li><li><p>\\(P'(x)=40-2x=0\\Rightarrow x=20\\), och \\(P=400\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 400</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen x och \\(40-x\\)</p><div class=\"facit-matte\">\\[P(x)=x(40-x)=40x-x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(P'(x)=0\\)</p><div class=\"facit-matte\">\\[P'(x)=40-2x=0\\quad\\Rightarrow\\quad x=20\\]</div></li><li><p class=\"facit-rubrik\">Största produkten vid \\(x=20\\)</p><div class=\"facit-matte\">\\[P(20)=20\\cdot20=400\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 400</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -82871,7 +82971,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har omkretsen 24 cm. Hur stor kan arean högst bli?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sidorna är \\(x\\) och \\(12-x\\), så \\(A(x)=x(12-x)\\).</p></li><li><p>\\(A'(x)=12-2x=0\\Rightarrow x=6\\), och \\(A=36\\) cm².</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 36 cm²</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halva omkretsen är 12</p><div class=\"facit-matte\">\\[A(x)=x(12-x)=12x-x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=12-2x=0\\quad\\Rightarrow\\quad x=6\\]</div></li><li><p class=\"facit-rubrik\">Kvadrat med sidan 6 cm</p><div class=\"facit-matte\">\\[A=6\\cdot6=36\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 36 cm²</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -82906,7 +83006,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En leksaksbil kör rakt bort från en startlinje med hastigheten \\(v(t)=6t\\) m/s, där \\(t\\) är tiden i sekunder från start. Vid \\(t=0\\) är bilen 2 m från linjen. Hur långt från startlinjen är den efter 3 sekunder? Svara i meter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(s(t)\\) vara avståndet till linjen i meter. Eftersom bilen kör bort från linjen är \\(s^{\\prime}(t)=v(t)=6t\\).</p></li><li><p>Integrering ger \\[s(t)=3t^2+C.\\] Startavståndet ger \\(s(0)=2\\), alltså \\(C=2\\).</p></li><li><p>På tre sekunder kör bilen \\(3\\cdot3^2=27\\) m. Med startavståndet blir det \\[s(3)=27+2=29\\text{ m}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(29\\) m</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avståndet är en primitiv funktion till hastigheten</p><div class=\"facit-matte\">\\[s(t)=3t^2+C\\]</div></li><li><p class=\"facit-rubrik\">Startavståndet \\(s(0)=2\\)</p><div class=\"facit-matte\">\\[C=2\\]</div></li><li><p class=\"facit-rubrik\">Avståndet efter 3 s</p><div class=\"facit-matte\">\\[s(3)=27+2=29\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 29 m</p></div>",
     "familj": "Återskapa funktion från derivata",
     "geogebra": false,
     "miniräknare": true,
@@ -82942,7 +83042,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Vatten rinner in i en tank med hastigheten \\(q(t)=4t\\) liter per minut, där \\(t\\) är antalet minuter från start. Från början finns 10 liter i tanken. Hur mycket vatten finns efter 3 minuter?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Inflödet är volymens förändringshastighet, så \\(V^{\\prime}(t)=4t\\). Integrering ger \\[V(t)=2t^2+C.\\]</p></li><li><p>Från början finns 10 liter: \\(V(0)=C=10\\). Därför är \\[V(3)=2\\cdot3^2+10=28\\text{ liter}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(28\\) liter</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymen är en primitiv funktion till inflödet</p><div class=\"facit-matte\">\\[V(t)=2t^2+C\\]</div></li><li><p class=\"facit-rubrik\">Startvolymen \\(V(0)=10\\)</p><div class=\"facit-matte\">\\[C=10\\]</div></li><li><p class=\"facit-rubrik\">Volymen efter 3 min</p><div class=\"facit-matte\">\\[V(3)=18+10=28\\ \\text{liter}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28 liter</p></div>",
     "familj": "Återskapa funktion från derivata",
     "geogebra": false,
     "miniräknare": true,
@@ -83183,7 +83283,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har ett hörn i origo och det motsatta hörnet på linjen \\(y=12-2x\\), där \\(x\\gt0\\) och \\(y\\gt0\\). Bestäm det x som ger störst area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[A(x)=x(12-2x)=12x-2x^2\\].</div></div><div class=\"facit-matte\">\\[A'(x)=12-4x=0\\Rightarrow x=3\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Höjden är y-värdet på linjen</p><div class=\"facit-matte\">\\[A(x)=x(12-2x)=12x-2x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=12-4x=0\\quad\\Rightarrow\\quad x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -83286,7 +83386,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två lika stora rektangulära hagar ska ligga bredvid varandra och dela en sida. Totalt finns 60 m stängsel, som ska räcka till tre parallella sidor och två långsidor. Hur långa ska de tre parallella sidorna vara för störst total area?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla de parallella sidorna x.</p></li><li><p>Långsidorna blir \\(\\frac{60-3x}{2}\\) och arean \\(A(x)=x\\cdot\\frac{60-3x}{2}\\).</p></li><li><p>\\(A'(x)=\\frac{60-6x}{2}=0\\Rightarrow x=10\\) m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 m</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tre sidor x tar \\(3x\\) av stängslet</p><div class=\"facit-matte\">\\[2y=60-3x\\quad\\Rightarrow\\quad y=\\frac{60-3x}{2}\\]</div></li><li><p class=\"facit-rubrik\">Total area uttryckt i x</p><div class=\"facit-matte\">\\[A(x)=x\\cdot\\frac{60-3x}{2}=30x-1{,}5x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=30-3x=0\\quad\\Rightarrow\\quad x=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 m</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -83356,7 +83456,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangulär hage ska byggas mot en vägg. Väggen ersätter en långsida, och 60 m stängsel räcker till de tre andra sidorna. Hur långa ska sidorna vinkelräta mot väggen vara för att arean ska bli så stor som möjligt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla de vinkelräta sidorna x.</p></li><li><p>Då blir långsidan \\(60-2x\\) och arean \\(A(x)=x(60-2x)\\).</p></li><li><p>\\(A'(x)=60-4x=0\\Rightarrow x=15\\) m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 m</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sidan längs väggen är \\(60-2x\\)</p><div class=\"facit-matte\">\\[A(x)=x(60-2x)=60x-2x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=60-4x=0\\quad\\Rightarrow\\quad x=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 m</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -83428,7 +83528,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två positiva tal har summan 40. Hur stor kan deras produkt högst bli?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talen är \\(x\\) och \\(40-x\\).</p></li><li><div class=\"facit-berakning\"><p>Produkten</p><div class=\"facit-matte\">\\[P(x)=x(40-x)\\].</div></div></li><li><p>\\(P'(x)=40-2x=0\\Rightarrow x=20\\), och \\(P=400\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 400</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen x och \\(40-x\\)</p><div class=\"facit-matte\">\\[P(x)=x(40-x)=40x-x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(P'(x)=0\\)</p><div class=\"facit-matte\">\\[P'(x)=40-2x=0\\quad\\Rightarrow\\quad x=20\\]</div></li><li><p class=\"facit-rubrik\">Största produkten vid \\(x=20\\)</p><div class=\"facit-matte\">\\[P(20)=20\\cdot20=400\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 400</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -83617,7 +83717,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har omkretsen 48 cm. Hur stor kan arean högst bli?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sidorna är \\(x\\) och \\(24-x\\), så \\(A(x)=x(24-x)\\).</p></li><li><p>\\(A'(x)=24-2x=0\\Rightarrow x=12\\), och \\(A=144\\) cm².</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 144 cm²</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halva omkretsen är 24</p><div class=\"facit-matte\">\\[A(x)=x(24-x)=24x-x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=24-2x=0\\quad\\Rightarrow\\quad x=12\\]</div></li><li><p class=\"facit-rubrik\">Kvadrat med sidan 12 cm</p><div class=\"facit-matte\">\\[A=12\\cdot12=144\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 144 cm²</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -84183,7 +84283,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har omkretsen \\(44\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(22-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Arean är</p><div class=\"facit-matte\">\\[A(x)=x(22-x)=-x^2+22x\\].</div></div></li><li><div class=\"facit-berakning\"><p>Parabelns symmetrilinje är</p><div class=\"facit-matte\">\\[x=22/2=11\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean är en nedåtvänd parabel</p><div class=\"facit-matte\">\\[A(x)=x(22-x)=-x^2+22x\\]</div></li><li><p class=\"facit-rubrik\">Nollställena 0 och 22 – symmetrilinjen mitt emellan</p><div class=\"facit-matte\">\\[x=\\frac{0+22}{2}=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -84251,7 +84351,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har omkretsen \\(56\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(28-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Arean är</p><div class=\"facit-matte\">\\[A(x)=x(28-x)=-x^2+28x\\].</div></div></li><li><div class=\"facit-berakning\"><p>Parabelns symmetrilinje är</p><div class=\"facit-matte\">\\[x=28/2=14\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean är en nedåtvänd parabel</p><div class=\"facit-matte\">\\[A(x)=x(28-x)=-x^2+28x\\]</div></li><li><p class=\"facit-rubrik\">Nollställena 0 och 28 – symmetrilinjen mitt emellan</p><div class=\"facit-matte\">\\[x=\\frac{0+28}{2}=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -84558,7 +84658,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vatten rinner in i en tank med hastigheten \\(q(t)=2t\\) liter per minut, där \\(t\\) är antalet minuter från start. Efter 3 minuter finns 29 liter i tanken. Hur många liter fanns från början?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymen uppfyller \\(V^{\\prime}(t)=2t\\), så \\[V(t)=t^2+C.\\]</p></li><li><p>Efter tre minuter gäller \\[29=3^2+C=9+C.\\] Alltså är \\(C=20\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Från början fanns \\(V(0)=20\\) liter. De 9 liter som tillkommit ska dras bort från slutvolymen.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymen är en primitiv funktion till inflödet</p><div class=\"facit-matte\">\\[V(t)=t^2+C\\]</div></li><li><p class=\"facit-rubrik\">Volymen efter 3 min är 29 liter</p><div class=\"facit-matte\">\\[9+C=29\\quad\\Rightarrow\\quad C=20\\]</div></li><li><p class=\"facit-rubrik\">Startvolymen är C</p><div class=\"facit-matte\">\\[V(0)=20\\ \\text{liter}\\]</div><p>De 9 liter som runnit in dras bort från 29.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 liter</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -84594,7 +84694,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=9x^2\\) och \\(F(0)=2\\). Bestäm \\(F(1)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[F(x)=3x^3+C\\].</div></div></li><li><p>Av \\(F(0)=2\\) fås \\(C=2\\).</p></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[F(1)=5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(9x^2\\)</p><div class=\"facit-matte\">\\[F(x)=3x^3+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=2\\) bestämmer C</p><div class=\"facit-matte\">\\[C=2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=1\\)</p><div class=\"facit-matte\">\\[F(1)=3+2=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": false,
@@ -86653,7 +86753,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har ett hörn i origo och det motsatta hörnet på linjen \\(y=10-2x\\), där \\(x\\gt0\\) och \\(y\\gt0\\). Bestäm det x som ger störst area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[A(x)=x(10-2x)=10x-2x^2\\].</div></div><div class=\"facit-matte\">\\[A'(x)=10-4x=0\\Rightarrow x=2{,}5\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2{,}5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Höjden är y-värdet på linjen</p><div class=\"facit-matte\">\\[A(x)=x(10-2x)=10x-2x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=10-4x=0\\quad\\Rightarrow\\quad x=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2{,}5\\)</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -86926,7 +87026,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=4x^3\\) och \\(F(1)=5\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=x^4+C\\].</div></li><li><p>\\(F(1)=1+C=5\\) ger \\(C=4\\).</p><div class=\"facit-matte\">\\[F(2)=16+4=20\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(4x^3\\)</p><div class=\"facit-matte\">\\[F(x)=x^4+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(1)=5\\) bestämmer C</p><div class=\"facit-matte\">\\[1+C=5\\quad\\Rightarrow\\quad C=4\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[F(2)=16+4=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": false,
@@ -86960,7 +87060,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=e^x\\) och \\(F(0)=4\\). Bestäm \\(F(1)\\) med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=e^x+C\\].</div></li><li><p>\\(F(0)=1+C=4\\) ger \\(C=3\\).</p><div class=\"facit-matte\">\\[F(1)=e+3\\approx5{,}72\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,72</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(e^x\\) är sin egen primitiva funktion</p><div class=\"facit-matte\">\\[F(x)=e^x+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=4\\) bestämmer C</p><div class=\"facit-matte\">\\[1+C=4\\quad\\Rightarrow\\quad C=3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=1\\)</p><div class=\"facit-matte\">\\[F(1)=e+3\\approx5{,}72\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,72</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
@@ -86994,7 +87094,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=6x^2-2x\\) och \\(F(1)=2\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=2x^3-x^2+C\\].</div><div class=\"facit-matte\">\\[F(1)=1+C=2\\Rightarrow C=1\\].</div><div class=\"facit-matte\">\\[F(2)=16-4+1=13\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion term för term</p><div class=\"facit-matte\">\\[F(x)=2x^3-x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(1)=2\\) bestämmer C</p><div class=\"facit-matte\">\\[2-1+C=2\\quad\\Rightarrow\\quad C=1\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[F(2)=16-4+1=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": false,
@@ -87002,7 +87102,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Ta fram en primitiv funktion term för term.</p>",
+    "ledtrad": "<p>Bestäm F term för term med C kvar. Använd \\(F(1)=2\\) och sätt sedan in \\(x=2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -87028,7 +87128,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=4x^3\\) och \\(F(1)=3\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=x^4+C\\].</div></li><li><p>\\(F(1)=1+C=3\\) ger \\(C=2\\).</p><div class=\"facit-matte\">\\[F(2)=16+2=18\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(4x^3\\)</p><div class=\"facit-matte\">\\[F(x)=x^4+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(1)=3\\) bestämmer C</p><div class=\"facit-matte\">\\[1+C=3\\quad\\Rightarrow\\quad C=2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[F(2)=16+2=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": false,
@@ -88301,7 +88401,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har omkretsen 20 cm. Om den ena sidan är \\(x\\) cm är den andra \\(10-x\\) cm. Vilket x-värde ger störst area? Svara i cm.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv arean som en andragradsfunktion. Parabeln är vänd nedåt, så dess symmetrilinje ger maximum.</p><div class=\"facit-matte\">\\[A(x)=x(10-x)=-x^2+10x,\\qquad x=\\frac{10}{2}=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> x = 5 cm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean är en nedåtvänd parabel</p><div class=\"facit-matte\">\\[A(x)=x(10-x)=-x^2+10x\\]</div></li><li><p class=\"facit-rubrik\">Nollställena 0 och 10 – symmetrilinjen mitt emellan</p><div class=\"facit-matte\">\\[x=\\frac{0+10}{2}=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 cm</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -91189,7 +91289,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangulär hage ska byggas mot en vägg. Väggen ersätter en långsida, och 40 m stängsel räcker till de tre andra sidorna. Hur långa ska sidorna vinkelräta mot väggen vara för att arean ska bli så stor som möjligt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla de vinkelräta sidorna x.</p></li><li><p>Då blir långsidan \\(40-2x\\) och arean \\(A(x)=x(40-2x)\\).</p></li><li><p>\\(A'(x)=40-4x=0\\Rightarrow x=10\\) m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 m</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sidan längs väggen är \\(40-2x\\)</p><div class=\"facit-matte\">\\[A(x)=x(40-2x)=40x-2x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=40-4x=0\\quad\\Rightarrow\\quad x=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 m</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -93607,7 +93707,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=2\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrera först: \\[F(x)=x^2+C.\\]</p></li><li><p>Villkoret \\(F(0)=2\\) ger \\(C=2\\). Sätt därefter in \\(x=2\\): \\[F(2)=2^2+2=6.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(2x\\)</p><div class=\"facit-matte\">\\[F(x)=x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(0)=2\\) bestämmer C</p><div class=\"facit-matte\">\\[C=2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[F(2)=4+2=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": false,
@@ -93641,7 +93741,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>För funktionen \\(f\\) gäller att \\(f'(x)=6x-4\\). Grafen till \\(f\\) tangerar \\(x\\)-axeln.</p><p>Bestäm \\(f(0)\\). Svara exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrering ger \\[f(x)=3x^2-4x+C.\\]</p></li><li><p>Vid tangeringen med x-axeln är både funktionsvärdet och derivatan noll. Lös \\[6x-4=0\\quad\\Rightarrow\\quad x=\\frac23.\\]</p></li><li><p>Använd sedan att \\(f(2/3)=0\\): \\[\\frac43-\\frac83+C=0.\\] Därför är \\(C=4/3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(0)=C=\\frac43\\). Parabeln är uppåtvänd och har sitt minimum på x-axeln, så villkoret är uppfyllt.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(f'(x)=6x-4\\)</p><div class=\"facit-matte\">\\[f(x)=3x^2-4x+C\\]</div></li><li><p class=\"facit-rubrik\">Tangeringen sker där \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[6x-4=0\\quad\\Rightarrow\\quad x=\\frac23\\]</div></li><li><p class=\"facit-rubrik\">Där är också \\(f(x)=0\\)</p><div class=\"facit-matte\">\\[3\\cdot\\frac49-\\frac83+C=0\\quad\\Rightarrow\\quad\\frac43-\\frac83+C=0\\]</div><div class=\"facit-matte\">\\[\\Rightarrow C=\\frac43\\]</div></li><li><p class=\"facit-rubrik\">\\(f(0)\\) är konstanten C</p><div class=\"facit-matte\">\\[f(0)=\\frac43\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{4}{3}\\)</p></div>",
     "familj": "Återskapa funktion från derivata",
     "formaga": [
       "problemlösning",
@@ -93656,10 +93756,9 @@ window.BANKMATO1 = [
     "arbetsinsats": 3,
     "svarstyp": "uttryck",
     "rättSvar": "4/3",
-    "tolerans": null
-  ,
-  "svarFormat": "uttryck"
-},
+    "tolerans": null,
+    "svarFormat": "uttryck"
+  },
   {
     "id": "2.775",
     "kap": 3,
@@ -93943,7 +94042,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två positiva tal har summan 40. Hur stor kan deras produkt högst bli?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talen är \\(x\\) och \\(40-x\\).</p></li><li><div class=\"facit-berakning\"><p>Produkten</p><div class=\"facit-matte\">\\[P(x)=x(40-x)\\].</div></div></li><li><p>\\(P'(x)=40-2x=0\\Rightarrow x=20\\), och \\(P=400\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 400</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Talen x och \\(40-x\\)</p><div class=\"facit-matte\">\\[P(x)=x(40-x)=40x-x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(P'(x)=0\\)</p><div class=\"facit-matte\">\\[P'(x)=40-2x=0\\quad\\Rightarrow\\quad x=20\\]</div></li><li><p class=\"facit-rubrik\">Största produkten vid \\(x=20\\)</p><div class=\"facit-matte\">\\[P(20)=20\\cdot20=400\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 400</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -94627,7 +94726,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har omkretsen 48 cm. Hur stor kan arean högst bli?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sidorna är \\(x\\) och \\(24-x\\), så \\(A(x)=x(24-x)\\).</p></li><li><p>\\(A'(x)=24-2x=0\\Rightarrow x=12\\), och \\(A=144\\) cm².</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 144 cm²</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halva omkretsen är 24</p><div class=\"facit-matte\">\\[A(x)=x(24-x)=24x-x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=24-2x=0\\quad\\Rightarrow\\quad x=12\\]</div></li><li><p class=\"facit-rubrik\">Kvadrat med sidan 12 cm</p><div class=\"facit-matte\">\\[A=12\\cdot12=144\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 144 cm²</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -95553,7 +95652,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel har ett hörn i origo och det motsatta hörnet på linjen \\(y=10-2x\\), där \\(x\\gt0\\) och \\(y\\gt0\\). Bestäm det x som ger störst area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[A(x)=x(10-2x)=10x-2x^2\\].</div></div><div class=\"facit-matte\">\\[A'(x)=10-4x=0\\Rightarrow x=2{,}5\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2{,}5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Höjden är y-värdet på linjen</p><div class=\"facit-matte\">\\[A(x)=x(10-2x)=10x-2x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=10-4x=0\\quad\\Rightarrow\\quad x=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2{,}5\\)</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
@@ -99030,7 +99129,7 @@ window.BANKMATO1 = [
     "poang": "(1/0/0)",
     "typ": "skriva en areafunktion från givna sidor",
     "t": "<p>En rektangel har bredden \\(x\\) cm och höjden \\(8-x\\) cm, där \\(0\\lt x\\lt 8\\). Skriv en funktion \\(A(x)\\) för arean.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"En rektangel med sidlängderna x cm och 8 − x cm. Figuren är schematisk.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><rect x=\"80\" y=\"65\" width=\"250\" height=\"115\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"205\" y=\"217\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">x cm</text><text x=\"385\" y=\"130\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">8 − x cm</text><text x=\"230\" y=\"268\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Schematisk figur</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rektangelns area är bredden multiplicerad med höjden.</p><div class=\"facit-matte\">\\[A(x)=x(8-x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A(x)=x(8-x)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rektangelns area = bredd · höjd</p><div class=\"facit-matte\">\\[A(x)=x(8-x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A(x)=x(8-x)\\)</p></div>",
     "ledtrad": "<p>Hur beräknar du en rektangels area?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -99059,7 +99158,7 @@ window.BANKMATO1 = [
     "poang": "(1/0/0)",
     "typ": "skriva den andra sidan med samma variabel",
     "t": "<p>En rektangels två olika sidlängder ska tillsammans vara 10 cm. Den ena sidan är \\(x\\) cm. Skriv den andra sidlängden \\(y\\) med hjälp av \\(x\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"En rektangel med sidlängderna x cm och y cm. Figuren är schematisk.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><rect x=\"80\" y=\"65\" width=\"250\" height=\"115\" fill=\"#dbeafe\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"205\" y=\"217\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">x cm</text><text x=\"385\" y=\"130\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">y cm</text><text x=\"230\" y=\"268\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">Schematisk figur</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dra bort den kända sidlängden från de sammanlagda 10 cm.</p><div class=\"facit-matte\">\\[y=10-x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=10-x\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summan av sidorna är 10</p><div class=\"facit-matte\">\\[x+y=10\\quad\\Rightarrow\\quad y=10-x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=10-x\\)</p></div>",
     "ledtrad": "<p>Skriv ett samband för summan av de två sidorna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -99390,7 +99489,7 @@ window.BANKMATO1 = [
     "poang": "(1/0/0)",
     "typ": "konstanten när x är noll",
     "t": "<p>En primitiv funktion skrivs \\(F(x)=x^2+C\\). Man vet att \\(F(0)=4\\). Bestäm \\(C\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in x = 0. Då blir kvadrattermen 0, och bara konstanten finns kvar.</p><div class=\"facit-matte\">\\[F(0)=0^2+C=4\\Rightarrow C=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C = 4.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=0\\): kvadrattermen blir 0</p><div class=\"facit-matte\">\\[F(0)=0^2+C=4\\quad\\Rightarrow\\quad C=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C=4\\)</p></div>",
     "ledtrad": "<p>Sätt in det givna x-värdet i F(x).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -106304,7 +106403,7 @@ window.BANKMATO1 = [
   "typ": "välja primitiv graf från ett startvärde",
   "poang": "1/0/0",
   "t": "<p>De tre kurvorna är primitiva funktioner till \\(f(x)=2x\\). Vilken kurva uppfyller \\(F(0)=2\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Tre parabler: A skär y-axeln vid −2, B vid 2 och C vid 0.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-villkor1195\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M121.667 42L121.667 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"121.667\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M368.333 42L368.333 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"368.333\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M60 250.25L430 250.25\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"255.25\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-2</text><path d=\"M60 190.75L430 190.75\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"195.75\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 131.25L430 131.25\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"136.25\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 71.75L430 71.75\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"76.75\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 190.75L430 190.75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">F(x)</text><path d=\"M60.0 183.312 L62.313 184.975 L64.625 186.618 L66.937 188.239 L69.25 189.839 L71.562 191.418 L73.875 192.977 L76.188 194.514 L78.5 196.031 L80.812 197.526 L83.125 199.001 L85.438 200.455 L87.75 201.888 L90.062 203.3 L92.375 204.691 L94.688 206.061 L97.0 207.41 L99.312 208.738 L101.625 210.046 L103.938 211.332 L106.25 212.598 L108.562 213.842 L110.875 215.066 L113.188 216.269 L115.5 217.451 L117.812 218.612 L120.125 219.752 L122.438 220.871 L124.75 221.969 L127.062 223.046 L129.375 224.103 L131.688 225.138 L134.0 226.153 L136.312 227.146 L138.625 228.119 L140.938 229.071 L143.25 230.001 L145.562 230.911 L147.875 231.8 L150.188 232.668 L152.5 233.516 L154.812 234.342 L157.125 235.147 L159.438 235.932 L161.75 236.695 L164.062 237.438 L166.375 238.159 L168.688 238.86 L171.0 239.54 L173.312 240.199 L175.625 240.837 L177.938 241.454 L180.25 242.05 L182.562 242.625 L184.875 243.18 L187.188 243.713 L189.5 244.226 L191.813 244.717 L194.125 245.188 L196.438 245.638 L198.75 246.066 L201.062 246.474 L203.375 246.861 L205.687 247.227 L208.0 247.572 L210.312 247.897 L212.625 248.2 L214.938 248.482 L217.25 248.744 L219.562 248.984 L221.875 249.204 L224.188 249.403 L226.5 249.581 L228.812 249.738 L231.125 249.873 L233.438 249.989 L235.75 250.083 L238.062 250.156 L240.375 250.208 L242.688 250.24 L245.0 250.25 L247.312 250.24 L249.625 250.208 L251.938 250.156 L254.25 250.083 L256.562 249.989 L258.875 249.873 L261.188 249.738 L263.5 249.581 L265.812 249.403 L268.125 249.204 L270.438 248.984 L272.75 248.744 L275.062 248.482 L277.375 248.2 L279.688 247.897 L282.0 247.572 L284.312 247.227 L286.625 246.861 L288.938 246.474 L291.25 246.066 L293.562 245.638 L295.875 245.188 L298.188 244.717 L300.5 244.226 L302.812 243.713 L305.125 243.18 L307.438 242.625 L309.75 242.05 L312.062 241.454 L314.375 240.837 L316.687 240.199 L319.0 239.54 L321.312 238.86 L323.625 238.159 L325.938 237.438 L328.25 236.695 L330.562 235.932 L332.875 235.147 L335.188 234.342 L337.5 233.516 L339.812 232.668 L342.125 231.8 L344.438 230.911 L346.75 230.001 L349.062 229.071 L351.375 228.119 L353.688 227.146 L356.0 226.153 L358.313 225.138 L360.625 224.103 L362.937 223.046 L365.25 221.969 L367.562 220.871 L369.875 219.752 L372.188 218.612 L374.5 217.451 L376.812 216.269 L379.125 215.066 L381.438 213.842 L383.75 212.598 L386.062 211.332 L388.375 210.046 L390.688 208.738 L393.0 207.41 L395.312 206.061 L397.625 204.691 L399.938 203.3 L402.25 201.888 L404.562 200.455 L406.875 199.001 L409.188 197.526 L411.5 196.031 L413.812 194.514 L416.125 192.977 L418.438 191.418 L420.75 189.839 L423.062 188.239 L425.375 186.618 L427.688 184.975 L430.0 183.312\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-villkor1195)\"/><path d=\"M430 183.312L439 183.312\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><text x=\"451\" y=\"189.312\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#2b67a2\">A</text><path d=\"M60.0 64.312 L62.313 65.975 L64.625 67.618 L66.937 69.239 L69.25 70.839 L71.562 72.418 L73.875 73.977 L76.188 75.514 L78.5 77.031 L80.812 78.526 L83.125 80.001 L85.438 81.455 L87.75 82.888 L90.062 84.3 L92.375 85.691 L94.688 87.061 L97.0 88.41 L99.312 89.738 L101.625 91.046 L103.938 92.332 L106.25 93.598 L108.562 94.842 L110.875 96.066 L113.188 97.269 L115.5 98.451 L117.812 99.612 L120.125 100.752 L122.438 101.871 L124.75 102.969 L127.062 104.046 L129.375 105.103 L131.688 106.138 L134.0 107.152 L136.312 108.146 L138.625 109.119 L140.938 110.071 L143.25 111.001 L145.562 111.911 L147.875 112.8 L150.188 113.668 L152.5 114.516 L154.812 115.342 L157.125 116.147 L159.438 116.932 L161.75 117.695 L164.062 118.438 L166.375 119.159 L168.688 119.86 L171.0 120.54 L173.312 121.199 L175.625 121.837 L177.938 122.454 L180.25 123.05 L182.562 123.625 L184.875 124.18 L187.188 124.713 L189.5 125.226 L191.813 125.717 L194.125 126.188 L196.438 126.638 L198.75 127.066 L201.062 127.474 L203.375 127.861 L205.687 128.227 L208.0 128.572 L210.312 128.897 L212.625 129.2 L214.938 129.482 L217.25 129.744 L219.562 129.984 L221.875 130.204 L224.188 130.403 L226.5 130.581 L228.812 130.738 L231.125 130.873 L233.438 130.989 L235.75 131.083 L238.062 131.156 L240.375 131.208 L242.688 131.24 L245.0 131.25 L247.312 131.24 L249.625 131.208 L251.938 131.156 L254.25 131.083 L256.562 130.989 L258.875 130.873 L261.188 130.738 L263.5 130.581 L265.812 130.403 L268.125 130.204 L270.438 129.984 L272.75 129.744 L275.062 129.482 L277.375 129.2 L279.688 128.897 L282.0 128.572 L284.312 128.227 L286.625 127.861 L288.938 127.474 L291.25 127.066 L293.562 126.638 L295.875 126.188 L298.188 125.717 L300.5 125.226 L302.812 124.713 L305.125 124.18 L307.438 123.625 L309.75 123.05 L312.062 122.454 L314.375 121.837 L316.687 121.199 L319.0 120.54 L321.312 119.86 L323.625 119.159 L325.938 118.438 L328.25 117.695 L330.562 116.932 L332.875 116.147 L335.188 115.342 L337.5 114.516 L339.812 113.668 L342.125 112.8 L344.438 111.911 L346.75 111.001 L349.062 110.071 L351.375 109.119 L353.688 108.146 L356.0 107.153 L358.313 106.138 L360.625 105.103 L362.937 104.046 L365.25 102.969 L367.562 101.871 L369.875 100.752 L372.188 99.612 L374.5 98.451 L376.812 97.269 L379.125 96.066 L381.438 94.842 L383.75 93.598 L386.062 92.332 L388.375 91.046 L390.688 89.738 L393.0 88.41 L395.312 87.061 L397.625 85.691 L399.938 84.3 L402.25 82.888 L404.562 81.455 L406.875 80.001 L409.188 78.526 L411.5 77.031 L413.812 75.514 L416.125 73.977 L418.438 72.418 L420.75 70.839 L423.062 69.239 L425.375 67.618 L427.688 65.975 L430.0 64.312\" stroke=\"#087f8c\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-villkor1195)\"/><path d=\"M430 64.312L439 64.312\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"1.5\"/><text x=\"451\" y=\"70.312\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#087f8c\">B</text><path d=\"M60.0 123.812 L62.313 125.475 L64.625 127.118 L66.937 128.739 L69.25 130.339 L71.562 131.918 L73.875 133.477 L76.188 135.014 L78.5 136.531 L80.812 138.026 L83.125 139.501 L85.438 140.955 L87.75 142.388 L90.062 143.8 L92.375 145.191 L94.688 146.561 L97.0 147.91 L99.312 149.238 L101.625 150.546 L103.938 151.832 L106.25 153.098 L108.562 154.342 L110.875 155.566 L113.188 156.769 L115.5 157.951 L117.812 159.112 L120.125 160.252 L122.438 161.371 L124.75 162.469 L127.062 163.546 L129.375 164.603 L131.688 165.638 L134.0 166.653 L136.312 167.646 L138.625 168.619 L140.938 169.571 L143.25 170.501 L145.562 171.411 L147.875 172.3 L150.188 173.168 L152.5 174.016 L154.812 174.842 L157.125 175.647 L159.438 176.432 L161.75 177.195 L164.062 177.938 L166.375 178.659 L168.688 179.36 L171.0 180.04 L173.312 180.699 L175.625 181.337 L177.938 181.954 L180.25 182.55 L182.562 183.125 L184.875 183.68 L187.188 184.213 L189.5 184.726 L191.813 185.217 L194.125 185.688 L196.438 186.138 L198.75 186.566 L201.062 186.974 L203.375 187.361 L205.687 187.727 L208.0 188.072 L210.312 188.397 L212.625 188.7 L214.938 188.982 L217.25 189.244 L219.562 189.484 L221.875 189.704 L224.188 189.903 L226.5 190.081 L228.812 190.238 L231.125 190.373 L233.438 190.489 L235.75 190.583 L238.062 190.656 L240.375 190.708 L242.688 190.74 L245.0 190.75 L247.312 190.74 L249.625 190.708 L251.938 190.656 L254.25 190.583 L256.562 190.489 L258.875 190.373 L261.188 190.238 L263.5 190.081 L265.812 189.903 L268.125 189.704 L270.438 189.484 L272.75 189.244 L275.062 188.982 L277.375 188.7 L279.688 188.397 L282.0 188.072 L284.312 187.727 L286.625 187.361 L288.938 186.974 L291.25 186.566 L293.562 186.138 L295.875 185.688 L298.188 185.217 L300.5 184.726 L302.812 184.213 L305.125 183.68 L307.438 183.125 L309.75 182.55 L312.062 181.954 L314.375 181.337 L316.687 180.699 L319.0 180.04 L321.312 179.36 L323.625 178.659 L325.938 177.938 L328.25 177.195 L330.562 176.432 L332.875 175.647 L335.188 174.842 L337.5 174.016 L339.812 173.168 L342.125 172.3 L344.438 171.411 L346.75 170.501 L349.062 169.571 L351.375 168.619 L353.688 167.646 L356.0 166.653 L358.313 165.638 L360.625 164.603 L362.937 163.546 L365.25 162.469 L367.562 161.371 L369.875 160.252 L372.188 159.112 L374.5 157.951 L376.812 156.769 L379.125 155.566 L381.438 154.342 L383.75 153.098 L386.062 151.832 L388.375 150.546 L390.688 149.238 L393.0 147.91 L395.312 146.561 L397.625 145.191 L399.938 143.8 L402.25 142.388 L404.562 140.955 L406.875 139.501 L409.188 138.026 L411.5 136.531 L413.812 135.014 L416.125 133.477 L418.438 131.918 L420.75 130.339 L423.062 128.739 L425.375 127.118 L427.688 125.475 L430.0 123.812\" stroke=\"#b74738\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-villkor1195)\"/><path d=\"M430 123.812L439 123.812\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"1.5\"/><text x=\"451\" y=\"129.812\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#b74738\">C</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Villkoret anger värdet på F när x=0, alltså var grafen skär den lodräta axeln. Kurva B skär axeln vid 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kurva B.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(F(0)=2\\): grafen skär y-axeln i 2</p><p>Läs av där \\(x=0\\).</p></li><li><p class=\"facit-rubrik\">Kurva B går genom \\((0,2)\\)</p><p>A skär vid −2 och C vid 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kurva B.</p></div>",
   "familj": "Primitiv funktion genom en given punkt",
   "formaga": [
     "begrepp",
@@ -106350,7 +106449,7 @@ window.BANKMATO1 = [
   "typ": "konstant derivata ger ändring från ett känt värde",
   "poang": "1/0/0",
   "t": "<p>Funktionen har derivatan \\(F^{\\prime}(x)=2\\) för alla \\(x\\). Dessutom är \\(F(3)=10\\). Bestäm \\(F(4)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Derivatan F′ är konstant lika med 2. Intervallet från x=3 till x=4 är markerat.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-villkor1196\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M134.0 42L134.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"134.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M208.0 42L208.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"208.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M282.0 42L282.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"282.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M356.0 42L356.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"356.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">5</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 200.667L430 200.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"205.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1</text><path d=\"M60 121.333L430 121.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"126.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">3</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">F′(x)</text><rect x=\"282.0\" y=\"121.333\" width=\"74.0\" height=\"158.667\" fill=\"#087f8c\" opacity=\"0.14\"/><path d=\"M60.0 121.333 L62.312 121.333 L64.625 121.333 L66.938 121.333 L69.25 121.333 L71.562 121.333 L73.875 121.333 L76.188 121.333 L78.5 121.333 L80.812 121.333 L83.125 121.333 L85.438 121.333 L87.75 121.333 L90.062 121.333 L92.375 121.333 L94.688 121.333 L97.0 121.333 L99.312 121.333 L101.625 121.333 L103.938 121.333 L106.25 121.333 L108.562 121.333 L110.875 121.333 L113.188 121.333 L115.5 121.333 L117.812 121.333 L120.125 121.333 L122.438 121.333 L124.75 121.333 L127.062 121.333 L129.375 121.333 L131.688 121.333 L134.0 121.333 L136.312 121.333 L138.625 121.333 L140.938 121.333 L143.25 121.333 L145.562 121.333 L147.875 121.333 L150.188 121.333 L152.5 121.333 L154.812 121.333 L157.125 121.333 L159.438 121.333 L161.75 121.333 L164.062 121.333 L166.375 121.333 L168.688 121.333 L171.0 121.333 L173.312 121.333 L175.625 121.333 L177.938 121.333 L180.25 121.333 L182.562 121.333 L184.875 121.333 L187.188 121.333 L189.5 121.333 L191.812 121.333 L194.125 121.333 L196.438 121.333 L198.75 121.333 L201.062 121.333 L203.375 121.333 L205.688 121.333 L208.0 121.333 L210.312 121.333 L212.625 121.333 L214.938 121.333 L217.25 121.333 L219.562 121.333 L221.875 121.333 L224.188 121.333 L226.5 121.333 L228.812 121.333 L231.125 121.333 L233.438 121.333 L235.75 121.333 L238.062 121.333 L240.375 121.333 L242.688 121.333 L245.0 121.333 L247.312 121.333 L249.625 121.333 L251.938 121.333 L254.25 121.333 L256.562 121.333 L258.875 121.333 L261.188 121.333 L263.5 121.333 L265.812 121.333 L268.125 121.333 L270.438 121.333 L272.75 121.333 L275.062 121.333 L277.375 121.333 L279.688 121.333 L282.0 121.333 L284.312 121.333 L286.625 121.333 L288.938 121.333 L291.25 121.333 L293.562 121.333 L295.875 121.333 L298.188 121.333 L300.5 121.333 L302.812 121.333 L305.125 121.333 L307.438 121.333 L309.75 121.333 L312.062 121.333 L314.375 121.333 L316.688 121.333 L319.0 121.333 L321.312 121.333 L323.625 121.333 L325.938 121.333 L328.25 121.333 L330.562 121.333 L332.875 121.333 L335.188 121.333 L337.5 121.333 L339.812 121.333 L342.125 121.333 L344.438 121.333 L346.75 121.333 L349.062 121.333 L351.375 121.333 L353.688 121.333 L356.0 121.333 L358.312 121.333 L360.625 121.333 L362.938 121.333 L365.25 121.333 L367.562 121.333 L369.875 121.333 L372.188 121.333 L374.5 121.333 L376.812 121.333 L379.125 121.333 L381.438 121.333 L383.75 121.333 L386.062 121.333 L388.375 121.333 L390.688 121.333 L393.0 121.333 L395.312 121.333 L397.625 121.333 L399.938 121.333 L402.25 121.333 L404.562 121.333 L406.875 121.333 L409.188 121.333 L411.5 121.333 L413.812 121.333 L416.125 121.333 L418.438 121.333 L420.75 121.333 L423.062 121.333 L425.375 121.333 L427.688 121.333 L430.0 121.333\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-villkor1196)\"/></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är konstant. När x ökar med 1 ökar F därför med 2.</p><div class=\"facit-matte\">\\[\\begin{aligned}F(4)&=F(3)+2\\cdot(4-3)\\\\&=10+2=12\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(4)=12\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstant derivata: F ökar 2 per steg i x</p><div class=\"facit-matte\">\\[F(4)=F(3)+2\\cdot(4-3)\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(F(3)=10\\)</p><div class=\"facit-matte\">\\[F(4)=10+2=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(4)=12\\)</p></div>",
   "familj": "Primitiv funktion genom en given punkt",
   "formaga": [
     "procedur"
@@ -106380,7 +106479,7 @@ window.BANKMATO1 = [
   "typ": "rätta konstanten med ett negativt punktvillkor",
   "poang": "1/0/0",
   "t": "<p>En primitiv funktion \\(F\\) till \\(f(x)=3x^2\\) ska gå genom punkten \\(P=(-1,4)\\). Kim föreslår \\(F(x)=x^3+3\\).</p><p>Bestäm den funktion \\(F(x)\\) som uppfyller båda villkoren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Punkten P vid x=−1 och F(x)=4. Funktionskurvan är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-villkor1197\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-2</text><path d=\"M152.5 42L152.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"152.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M337.5 42L337.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"337.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 200.667L430 200.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"205.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 121.333L430 121.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"126.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">6</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">F(x)</text><circle cx=\"152.5\" cy=\"121.333\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"132.5\" y=\"107.333\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">P</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är x³+C. Sätt in punktens x- och y-värde. Eftersom (−1)³=−1 måste konstanten vara 5, inte 3.</p><div class=\"facit-matte\">\\[\\begin{aligned}F(-1)&=(-1)^3+C=4\\\\-1+C&=4\\quad\\Rightarrow\\quad C=5\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3+5\\). Derivatan är 3x² och F(−1)=4.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(3x^2\\)</p><div class=\"facit-matte\">\\[F(x)=x^3+C\\]</div></li><li><p class=\"facit-rubrik\">Punkten \\(P=(-1,4)\\): \\((-1)^3=-1\\)</p><div class=\"facit-matte\">\\[-1+C=4\\quad\\Rightarrow\\quad C=5\\]</div><p>Kims förslag med C = 3 ger \\(F(-1)=2\\), inte 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3+5\\)</p></div>",
   "familj": "Primitiv funktion genom en given punkt",
   "formaga": [
     "procedur"
@@ -106410,7 +106509,7 @@ window.BANKMATO1 = [
   "typ": "bestämma en parameter och integrationskonstant från två punkter",
   "poang": "0/1/0",
   "t": "<p>För en funktion gäller \\(F^{\\prime}(x)=ax+2\\), där \\(a\\) är en konstant. Grafen till \\(F\\) går genom \\(P=(1,2)\\) och \\(Q=(3,14)\\).</p><p>Bestäm \\(F(x)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Två punkter på en okänd funktionskurva: P=(1,2) och Q=(3,14).\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-villkor1198\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M152.5 42L152.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"152.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M337.5 42L337.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"337.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 220.5L430 220.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"225.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">8</text><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"106.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">12</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">16</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">F(x)</text><circle cx=\"152.5\" cy=\"250.25\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"166.5\" y=\"262.25\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">P</text><circle cx=\"337.5\" cy=\"71.75\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"351.5\" y=\"89.75\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Q</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrera uttrycket med a kvar. De två punkterna ger två ekvationer. Subtrahera dem för att få bort C.</p><div class=\"facit-matte\">\\[\\begin{aligned}F(x)&=\\frac a2x^2+2x+C\\\\F(1)=2&\\Rightarrow\\frac a2+C=0\\\\F(3)=14&\\Rightarrow\\frac{9a}2+C=8\\\\4a&=8\\Rightarrow a=2\\\\1+C&=0\\Rightarrow C=-1\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^2+2x-1\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion med a och C kvar</p><div class=\"facit-matte\">\\[F(x)=\\frac a2x^2+2x+C\\]</div></li><li><p class=\"facit-rubrik\">Två punkter ger två ekvationer</p><div class=\"facit-matte\">\\[F(1)=2:\\ \\ \\frac a2+C=0\\]</div><div class=\"facit-matte\">\\[F(3)=14:\\ \\ \\frac{9a}{2}+C=8\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera ekvationerna så att C försvinner</p><div class=\"facit-matte\">\\[4a=8\\quad\\Rightarrow\\quad a=2,\\qquad C=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^2+2x-1\\)</p></div>",
   "familj": "Primitiv funktion genom en given punkt",
   "formaga": [
     "procedur",
@@ -106441,7 +106540,7 @@ window.BANKMATO1 = [
   "typ": "bestämma integrationskonstant från en integral av den sökta funktionen",
   "poang": "0/1/0",
   "t": "<p>Funktionen \\(F\\) uppfyller</p><p>\\[\\begin{aligned}F^{\\prime}(x)&=2x\\\\\\int_0^2 F(x)\\,dx&=\\frac{14}{3}.\\end{aligned}\\]</p><p>Bestäm \\(F(x)\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Först ger derivatan F(x)=x²+C. Sätt in detta uttryck i integralen. Integralen gäller F, inte dess derivata.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\int_0^2(x^2+C)\\,dx&=\\frac{14}{3}\\\\\\left[\\frac{x^3}{3}+Cx\\right]_0^2&=\\frac{14}{3}\\\\\\frac83+2C&=\\frac{14}{3}\\\\C&=1\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^2+1\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(F'(x)=2x\\)</p><div class=\"facit-matte\">\\[F(x)=x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Sätt in i integralvillkoret</p><div class=\"facit-matte\">\\[\\int_0^2(x^2+C)\\,dx=\\left[\\frac{x^3}{3}+Cx\\right]_0^2=\\frac83+2C\\]</div></li><li><p class=\"facit-rubrik\">Integralen ska vara \\(\\tfrac{14}{3}\\)</p><div class=\"facit-matte\">\\[\\frac83+2C=\\frac{14}{3}\\quad\\Rightarrow\\quad 2C=2\\quad\\Rightarrow\\quad C=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^2+1\\)</p></div>",
   "familj": "Återskapa funktion från derivata",
   "formaga": [
     "procedur",
@@ -106472,7 +106571,7 @@ window.BANKMATO1 = [
   "typ": "avgöra om ett skillnadsvillkor verkligen bestämmer konstanten",
   "poang": "0/1/0",
   "t": "<p>En funktion uppfyller båda sambanden i tabellen.</p><table class=\"data\" style=\"width:100%;max-width:340px;text-align:center\"><tr><th>Givet samband</th></tr><tr><td>\\(F^{\\prime}(x)=2x\\)</td></tr><tr><td>\\(F(2)-F(0)=4\\)</td></tr></table><p>Räcker detta för att bestämma värdet på \\(F(0)\\)? (Välj ett alternativ.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla primitiva funktioner har formen F(x)=x²+C. När skillnaden beräknas försvinner konstanten. Därför är det andra villkoret uppfyllt för vilket C som helst.</p><div class=\"facit-matte\">\\[F(2)-F(0)=(4+C)-C=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej. F(0)=C kan vara vilket reellt tal som helst. Ett värde på F i en bestämd punkt skulle behövas.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla primitiva funktioner till \\(2x\\)</p><div class=\"facit-matte\">\\[F(x)=x^2+C\\]</div></li><li><p class=\"facit-rubrik\">C försvinner i skillnaden</p><div class=\"facit-matte\">\\[F(2)-F(0)=(4+C)-C=4\\]</div><p>Villkoret gäller för alla C, så \\(F(0)=C\\) kan inte bestämmas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, alla funktioner F(x)=x²+C uppfyller båda villkoren.</p></div>",
   "familj": "Återskapa funktion från derivata",
   "formaga": [
     "begrepp",
@@ -108727,7 +108826,7 @@ window.BANKMATO1 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>En funktion uppfyller \\(F'(x)=4x+3\\) och \\(F(1)=10\\). Bestäm \\(F(x)\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Bestäm först en primitiv funktion, sedan konstanten.</strong></p><div class=\"facit-matte\">\\[F(x)=2x^2+3x+C\\]</div><div class=\"facit-matte\">\\[F(1)=2+3+C=10\\Rightarrow C=5\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=2x^2+3x+5\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">F är en primitiv funktion till \\(F'\\)</p><div class=\"facit-matte\">\\[F(x)=2x^2+3x+C\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(F(1)=10\\) bestämmer C</p><div class=\"facit-matte\">\\[2+3+C=10\\quad\\Rightarrow\\quad C=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=2x^2+3x+5\\)</p></div>",
     "ledtrad": "<p>Villkoret F(1) bestämmer den annars fria konstanten.</p>",
     "rättSvar": "2*x^2+3*x+5",
     "svarFormat": "uttryck",
@@ -108800,7 +108899,7 @@ window.BANKMATO1 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Ett rektangulärt odlingsland ligger längs en vägg. De övriga tre sidorna ska inhägnas med sammanlagt 60 m staket. Vilken är den största möjliga arean? (Svara i m².)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Odlingsland längs en vägg\" style=\"width:100%;max-width:500px\"><title>Odlingsland längs en vägg</title><rect width=\"500\" height=\"260\" rx=\"12\" fill=\"#fff\"/><rect x=\"105\" y=\"65\" width=\"290\" height=\"145\" fill=\"#e8f3f8\" stroke=\"#24435e\" stroke-width=\"3\"/><text x=\"250\" y=\"238\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y m</text><text x=\"410\" y=\"145\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172e46\">x m</text><line x1=\"80\" y1=\"65\" x2=\"420\" y2=\"65\" stroke=\"#596777\" stroke-width=\"9\"/><text x=\"250\" y=\"40\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Vägg</text></svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Skriv arean med en variabel och undersök derivatan.</strong></p><p>Om de två korta sidorna är x meter blir den tredje sidan \\(60-2x\\) meter.</p><div class=\"facit-matte\">\\[A(x)=x(60-2x)\\]</div><div class=\"facit-matte\">\\[A'(x)=60-4x=0\\Rightarrow x=15\\]</div><p>Derivatan går från positiv till negativ. Den andra sidan är 30 m och arean blir \\(15\\cdot30=450\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> 450 m².</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den tredje sidan är \\(60-2x\\)</p><div class=\"facit-matte\">\\[A(x)=x(60-2x)=60x-2x^2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=60-4x=0\\quad\\Rightarrow\\quad x=15\\]</div></li><li><p class=\"facit-rubrik\">\\(A'\\) går från + till −</p><div class=\"facit-matte\">\\[A=15\\cdot30=450\\ \\text{m}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 450 m²</p></div>",
     "ledtrad": "<p>Väggen ersätter staket på en sida.</p>",
     "rättSvar": 450,
     "svarFormat": "numeriskt",
@@ -108837,7 +108936,7 @@ window.BANKMATO1 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>För funktionen \\(f\\) gäller \\(f'(x)=6x^2-4x\\) och \\(f(0)=7\\). Bestäm \\(f(2)\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Funktionsvärdet ändras med integralen av derivatan.</strong></p><div class=\"facit-matte\">\\[f(2)=7+\\int_0^2(6x^2-4x)\\,dx\\]</div><div class=\"facit-matte\">\\[=7+[2x^3-2x^2]_0^2\\]</div><div class=\"facit-matte\">\\[=7+16-8=15\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(2)=15\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Huvudsatsen: \\(f(2)-f(0)=\\int_0^2f'(x)\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_0^2(6x^2-4x)\\,dx=\\left[2x^3-2x^2\\right]_0^2=16-8=8\\]</div></li><li><p class=\"facit-rubrik\">Lägg till startvärdet \\(f(0)=7\\)</p><div class=\"facit-matte\">\\[f(2)=7+8=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(2)=15\\)</p></div>",
     "ledtrad": "<p>Startvärdet måste läggas till förändringen.</p>",
     "rättSvar": 15,
     "svarFormat": "numeriskt",

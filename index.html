@@ -4144,7 +4144,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-12-ai1-maskininlarning";
+const BANK_VERSION="2026-11-12-fellogg-1841";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10838,6 +10838,9 @@ function textSvarRatt(anv,facit){
      && /^(?:omöjligt|omojligt|det är omöjligt|∅|ø)$/.test(a)) return true;
   /* ja/nej/sant/falskt följt av en motivering */
   if(/^(?:ja|nej|sant|falskt)$/.test(f)) return a.split(" ")[0]===f;
+  /* Klockslag: "12", "kl. 12" och "klockan 12.00" godtas för facit "12.00" (felrapport Ma5 2.389, 2026-11-12). */
+  const klocka=x=>{ const m=x.replace(/^(?:kl|klockan)\s+/,"").match(/^(\d{1,2})(?: (\d{2}))?$/); return m?[+m[1],+(m[2]||0)]:null; };
+  if(/^\d{1,2} \d{2}$/.test(f)){ const ka=klocka(a), kf=klocka(f); if(ka && ka[0]===kf[0] && ka[1]===kf[1]) return true; }
   /* "ingen eller mycket svag korrelation": varje alternativ godkänns */
   const alt=f.includes(" eller ")?f.split(" eller "):[f];
   const svans=alt.length>1?(alt[alt.length-1].match(/\s(\S+)$/)||[,""])[1]:"";
@@ -11525,7 +11528,8 @@ function formatRatt(anv,facit,meta){
     case "lösningsmängd": case "losningsmangd": case "mängd": case "mangd": {
       /* Ett extra avslutande listskiljetecken påverkar inte mängdens element.
          Avgränsa toleransen till mängdformatet; decimaltal och koordinater lämnas orörda. */
-      const mangdSvar=String(a).replace(/[,;]\s*$/,"").trim();
+      /* "A∩B = {5, 7}": ett namn på mängden före likhetstecknet tas bort (felrapport Ma5 1.161, 2026-11-12). */
+      const mangdSvar=String(a).replace(/[,;]\s*$/,"").replace(/^[^{}=]*=\s*(?=\{)/,"").trim();
       /* Den tomma mängden kan skrivas {}, ∅, Ø eller "tomma mängden". */
       const tom=x=>/^\s*(\{\s*\}|∅|Ø|ø|tomma mängden|den tomma mängden|saknar lösning|inga lösningar)\s*$/i.test(String(x));
       if(tom(f)||tom(mangdSvar)) return tom(f)&&tom(mangdSvar);
@@ -18323,7 +18327,8 @@ const FORMELBLAD={
   ma2:  {fil:"formelblad/ma2.pdf",  namn:"Matematik nivå 2 och Matematik 2"},
   mato1:{fil:"formelblad/mato1.pdf",namn:"Fortsättning nivå 1 och Matematik 3"},
   mato2:{fil:"formelblad/mato2.pdf",namn:"Fortsättning nivå 2 och Matematik 4"},
-  matf1:{fil:"formelblad/matf1.pdf",namn:"Matematik 5"}
+  matf1:{fil:"formelblad/matf1.pdf",namn:"Matematik 5"},
+  ai:   {fil:"formelblad/ai.pdf",    namn:"Artificiell intelligens 1"}
 };
 const PDFJS_URL="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js";
 const PDFJS_WORKER="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js";

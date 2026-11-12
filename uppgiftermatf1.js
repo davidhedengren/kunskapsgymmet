@@ -8284,10 +8284,10 @@ window.BANKMATF1 = [
     "kap": 2,
     "omr": "gemensamma_faktorer",
     "niva": "C",
-    "typ": "bevisa egenskap hos SGD med heltalskombination",
+    "typ": "bevisa egenskap hos sgd med Euklides algoritm",
     "poang": "0/3/0",
-    "t": "<p>Låt \\(d\\) vara ett positivt heltal som delar både 26 och 42. Visa att \\(d\\) även delar deras största gemensamma delare 2, genom att skriva 2 som en heltalskombination av 26 och 42.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Euklides algoritm baklänges ger en heltalskombination av talen:</p></li><li><p>\\[2=-8\\cdot 26+(5)\\cdot 42.\\]</p></li><li><p>Eftersom \\(d\\) delar både 26 och 42 delar \\(d\\) varje heltalskombination av dem.</p></li><li><p>Därför \\(d\\mid 2\\).</p></li><li><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p></li></ol></div>",
+    "t": "<p>Låt \\(d\\) vara ett positivt heltal som delar både 26 och 42. Visa att \\(d\\) också delar \\(\\mathrm{sgd}(26,\\,42)=2\\). Använd stegen i Euklides algoritm och att ett tal som delar två tal också delar deras skillnad.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Om \\(d\\mid a\\) och \\(d\\mid b\\) så gäller \\(d\\mid a-kb\\)</p><p>Skriv \\(a=dm\\) och \\(b=dn\\), där \\(m\\) och \\(n\\) är heltal. Då är \\(a-kb=d(m-kn)\\), alltså en multipel av \\(d\\).</p></li><li><p class=\"facit-rubrik\">Euklides algoritm för 42 och 26</p><div class=\"facit-matte\">\\[\\begin{aligned}&42=26\\cdot1+16\\\\&26=16\\cdot1+10\\\\&16=10\\cdot1+6\\\\&10=6\\cdot1+4\\\\&6=4\\cdot1+2\\\\&4=2\\cdot2+0\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Varje ny rest är en skillnad av två tal som \\(d\\) delar</p><div class=\"facit-matte\">\\[\\begin{aligned}&16=42-26\\cdot1\\ \\Rightarrow\\ d\\mid16\\\\&10=26-16\\cdot1\\ \\Rightarrow\\ d\\mid10\\\\&6=16-10\\cdot1\\ \\Rightarrow\\ d\\mid6\\\\&4=10-6\\cdot1\\ \\Rightarrow\\ d\\mid4\\\\&2=6-4\\cdot1\\ \\Rightarrow\\ d\\mid2\\end{aligned}\\]</div><p>I varje rad delar \\(d\\) de två talen till höger, så \\(d\\) delar också resten.</p></li><li><p class=\"facit-rubrik\">Den sista resten som inte är 0 är \\(\\mathrm{sgd}(26,\\,42)=2\\)</p><p>Alltså delar \\(d\\) talet 2. De enda positiva delarna till 2 är 1 och 2, och båda delar 26 och 42.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Varje gemensam delare \\(d\\) till 26 och 42 delar \\(\\mathrm{sgd}(26,\\,42)=2\\), så \\(d=1\\) eller \\(d=2\\).</p></div>",
     "id": "2.327",
     "miniräknare": false,
     "geogebra": false,
@@ -8301,7 +8301,7 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Använd Euklides algoritm. Om en heltalskombination efterfrågas, substituera sedan bakåt från den sista icke-nollresten.</p>",
+    "ledtrad": "<p>Skriv \\(42=26\\cdot1+16\\). Varför måste \\(d\\) dela 16 om \\(d\\) delar både 42 och 26?</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "delbarhet"
@@ -8482,10 +8482,10 @@ window.BANKMATF1 = [
     "kap": 2,
     "omr": "gemensamma_faktorer",
     "niva": "C",
-    "typ": "linjär kombination av sgd",
+    "typ": "Euklides algoritm, sgd och mgm",
     "poang": "0/2/0",
-    "t": "<p>Visa att \\(\\mathrm{sgd}(84,30)=6\\) och skriv 6 som en heltalskombination av 84 och 30.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Primtalsfaktorisera talen och jämför faktorerna.</p></li><li><p>SGD innehåller de gemensamma primfaktorerna med minsta förekommande exponent, medan MGM använder varje primfaktor med största förekommande exponent.</p></li><li><p>Euklides algoritm:</p></li><li><p>\\[84=2\\cdot30+24,\\qquad30=1\\cdot24+6.\\]</p></li><li><p>Alltså sgd = 6.</p></li><li><p>Bakåtsubstitution:</p></li><li><p>\\[6=30-24=30-(84-2\\cdot30)=3\\cdot30-84.\\]</p></li></ol></div>",
+    "t": "<p>Visa med Euklides algoritm att \\(\\mathrm{sgd}(84,\\,30)=6\\). Bestäm sedan \\(\\mathrm{mgm}(84,\\,30)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Euklides algoritm: dela med resten tills resten blir 0</p><div class=\"facit-matte\">\\[\\begin{aligned}&84=30\\cdot2+24\\\\&30=24\\cdot1+6\\\\&24=6\\cdot4+0\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Den sista resten som inte är 0 är \\(\\mathrm{sgd}\\)</p><div class=\"facit-matte\">\\[\\mathrm{sgd}(84,\\,30)=6\\]</div><p>Det var det som skulle visas.</p></li><li><p class=\"facit-rubrik\">Sambandet \\(\\mathrm{sgd}(a,b)\\cdot \\mathrm{mgm}(a,b)=a\\cdot b\\)</p><div class=\"facit-matte\">\\[\\mathrm{mgm}(84,\\,30)=\\frac{84\\cdot30}{6}=420\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med primtalsfaktorisering</p><div class=\"facit-matte\">\\[\\begin{aligned}&84=2^2\\cdot3\\cdot7\\\\&30=2\\cdot3\\cdot5\\\\&\\mathrm{mgm}=2^2\\cdot3\\cdot5\\cdot7=420\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\mathrm{sgd}(84,\\,30)=6\\) och \\(\\mathrm{mgm}(84,\\,30)=420\\).</p></div>",
     "id": "2.115",
     "miniräknare": false,
     "geogebra": false,
@@ -8499,8 +8499,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Använd Euklides algoritm. Om en heltalskombination efterfrågas, substituera sedan bakåt från den sista icke-nollresten.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Dela 84 med 30 och fortsätt med divisorn och resten tills resten blir 0. Hur hänger sgd och mgm ihop med produkten av talen?</p>",
+    "traningsniva": 3,
     "omrTidigare": [
       "delbarhet"
     ],
@@ -9311,10 +9311,10 @@ window.BANKMATF1 = [
     "kap": 2,
     "omr": "gemensamma_faktorer",
     "niva": "C",
-    "typ": "Euklides algoritm och heltalskombination",
-    "poang": "0/3/0",
-    "t": "<p>Bestäm \\(\\mathrm{{sgd}}(612,342)\\) och skriv sedan denna största gemensamma delare som en heltalskombination av \\(612\\) och \\(342\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vi börjar med Euklides algoritm:</p></li><li><p>\\[612=342\\cdot1+270\\]</p></li><li><p>\\[342=270\\cdot1+72\\]</p></li><li><p>\\[270=72\\cdot3+54\\]</p></li><li><p>\\[72=54\\cdot1+18\\]</p></li><li><p>\\[54=18\\cdot3+0\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså är</p><div class=\"facit-matte\">\\[\\mathrm{{sgd}}(612,342)=18\\].</div></div></li><li><p>Nu går vi baklänges:</p></li><li><p>\\[18=72-54\\]</p></li><li><p>och \\(54=270-72\\cdot3\\), alltså</p></li><li><p>\\[18=72-(270-72\\cdot3)=4\\cdot72-270.\\]</p></li><li><p>Vidare är \\(72=342-270\\), så</p></li><li><p>\\[18=4(342-270)-270=4\\cdot342-5\\cdot270.\\]</p></li><li><p>Slutligen är \\(270=612-342\\), alltså</p></li><li><p>\\[18=4\\cdot342-5(612-342)=-5\\cdot612+9\\cdot342.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\mathrm{{sgd}}(612,342)=18\\) och \\(18=-5\\cdot612+9\\cdot342\\).</strong></p></div>",
+    "typ": "Euklides algoritm, sgd och mgm",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm \\(\\mathrm{sgd}(612,\\,342)\\) med Euklides algoritm. Bestäm sedan \\(\\mathrm{mgm}(612,\\,342)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Euklides algoritm: dela med resten tills resten blir 0</p><div class=\"facit-matte\">\\[\\begin{aligned}&612=342\\cdot1+270\\\\&342=270\\cdot1+72\\\\&270=72\\cdot3+54\\\\&72=54\\cdot1+18\\\\&54=18\\cdot3+0\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Den sista resten som inte är 0 är \\(\\mathrm{sgd}\\)</p><div class=\"facit-matte\">\\[\\mathrm{sgd}(612,\\,342)=18\\]</div></li><li><p class=\"facit-rubrik\">Sambandet \\(\\mathrm{sgd}(a,b)\\cdot \\mathrm{mgm}(a,b)=a\\cdot b\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\mathrm{mgm}(612,\\,342)=\\frac{612\\cdot342}{18}\\\\&=612\\cdot19=11\\,628\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med primtalsfaktorisering</p><div class=\"facit-matte\">\\[\\begin{aligned}&612=2^2\\cdot3^2\\cdot17\\\\&342=2\\cdot3^2\\cdot19\\\\&\\mathrm{sgd}=2\\cdot3^2=18\\\\&\\mathrm{mgm}=2^2\\cdot3^2\\cdot17\\cdot19=11\\,628\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\mathrm{sgd}(612,\\,342)=18\\) och \\(\\mathrm{mgm}(612,\\,342)=11\\,628\\).</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Största gemensamma delare och minsta gemensamma multipel",
@@ -9326,8 +9326,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Använd Euklides algoritm. Om en heltalskombination efterfrågas, gå sedan baklänges genom divisionerna.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Dela det större talet med det mindre och fortsätt med divisorn och resten tills resten blir 0. Hur hänger sgd och mgm ihop med produkten av talen?</p>",
+    "traningsniva": 3,
     "omrTidigare": [
       "delbarhet"
     ],

@@ -15041,7 +15041,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm alla x-värden där derivatan till \\(f(x)=x^{3} - 3 x^{2} - 9 x\\) är noll.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera term för term</p><div class=\"facit-matte\">\\[f'(x)=3x^2-6x-9\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut 3 och faktorisera</p><div class=\"facit-matte\">\\[f'(x)=3(x^2-2x-3)=3(x-3)(x+1)\\]</div><p>Talen −3 och 1 har produkten −3 och summan −2.</p></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är 0 när någon faktor är 0</p><div class=\"facit-matte\">\\[x-3=0\\ \\text{eller}\\ x+1=0\\quad\\Rightarrow\\quad x=3,\\ x=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\) och \\(x=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera term för term</p><div class=\"facit-matte\">\\[f'(x)=3x^2-6x-9\\]</div></li><li><p class=\"facit-rubrik\">Sätt \\(f'(x)=0\\) och dela med 3</p><div class=\"facit-matte\">\\[x^2-2x-3=0\\]</div></li><li><p class=\"facit-rubrik\">pq-formeln med \\(p=-2\\) och \\(q=-3\\)</p><div class=\"facit-matte\">\\[x=1\\pm\\sqrt{1^2+3}=1\\pm2\\]</div><div class=\"facit-matte\">\\[x=-1\\quad\\text{eller}\\quad x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\) och \\(x=3\\)</p></div>",
     "familj": "Derivatans tecken",
     "geogebra": false,
     "miniräknare": false,
@@ -15064,7 +15064,7 @@ window.BANKMATO1 = [
       "Analysera derivatans tecken och nollställen",
       "Derivatans tecken och nollställen"
     ],
-    "ledtrad": "<p>Derivera, bryt ut 3 och faktorisera \\(f'(x)\\). Använd sedan nollproduktmetoden.</p>",
+    "ledtrad": "<p>Sätt \\(f'(x)=0\\), dela med 3 och använd pq-formeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -15669,7 +15669,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En funktion har formen</p><p>\\[f(x)=a\\sqrt{x}+\\frac{b}{\\sqrt{x}},\\qquad x&gt;0.\\]</p><p>Det gäller att \\(f(4)=5\\) och \\(f^{\\prime}(4)=\\frac{3}{8}\\).</p><p>Bestäm \\(a\\) och \\(b\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv rötterna som potenser</p><div class=\"facit-matte\">\\[f(x)=ax^{1/2}+bx^{-1/2}\\]</div></li><li><p class=\"facit-rubrik\">Potensregeln: \\((x^n)'=nx^{n-1}\\)</p><div class=\"facit-matte\">\\[f'(x)=\\frac a2x^{-1/2}-\\frac b2x^{-3/2}\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(f(4)=5\\), med \\(\\sqrt4=2\\)</p><div class=\"facit-matte\">\\[2a+\\frac b2=5\\]</div><div class=\"facit-matte\">\\[4a+b=10\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(f'(4)=\\tfrac38\\), med \\(4^{-3/2}=\\tfrac18\\)</p><div class=\"facit-matte\">\\[\\frac a4-\\frac b{16}=\\frac38\\]</div><div class=\"facit-matte\">\\[4a-b=6\\]</div><p>Multiplicera med 16.</p></li><li><p class=\"facit-rubrik\">Addera ekvationerna</p><div class=\"facit-matte\">\\[8a=16\\quad\\Rightarrow\\quad a=2\\]</div><div class=\"facit-matte\">\\[b=10-8=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2\\) och \\(b=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv rötterna som potenser</p><div class=\"facit-matte\">\\[f(x)=ax^{1/2}+bx^{-1/2}\\]</div></li><li><p class=\"facit-rubrik\">Potensregeln: \\((x^n)'=nx^{n-1}\\)</p><div class=\"facit-matte\">\\[f'(x)=\\frac a2x^{-1/2}-\\frac b2x^{-3/2}\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(f(4)=5\\), med \\(\\sqrt4=2\\)</p><div class=\"facit-matte\">\\[2a+\\frac b2=5\\]</div><div class=\"facit-matte\">\\[4a+b=10\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(f'(4)=\\tfrac38\\), med \\(4^{-3/2}=\\tfrac18\\)</p><div class=\"facit-matte\">\\[\\frac a4-\\frac b{16}=\\frac38\\]</div><div class=\"facit-matte\">\\[4a-b=6\\]</div><p>Multiplicera med 16.</p></li><li><p class=\"facit-rubrik\">Addera ekvationerna så att b försvinner</p><div class=\"facit-matte\">\\[8a=16\\quad\\Rightarrow\\quad a=2\\]</div><div class=\"facit-matte\">\\[b=10-8=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2\\) och \\(b=2\\)</p></div>",
     "familj": "Parameterproblem med derivata",
     "geogebra": false,
     "miniräknare": true,
@@ -16299,7 +16299,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd derivatans definition för att bestämma \\(f'(4)\\) när \\(f(x)=5x+2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Funktionsvärdena</p><div class=\"facit-matte\">\\[f(4+h)=5(4+h)+2=22+5h,\\qquad f(4)=22\\]</div></li><li><p class=\"facit-rubrik\">Differenskvoten</p><div class=\"facit-matte\">\\[\\frac{22+5h-22}{h}=\\frac{5h}{h}=5\\]</div></li><li><p class=\"facit-rubrik\">Kvoten är 5 för alla h, alltså även gränsvärdet</p><p>En rät linje har samma lutning överallt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(4)=5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(4+h\\) och 4 i \\(f(x)=5x+2\\)</p><div class=\"facit-matte\">\\[f(4+h)=5(4+h)+2=22+5h,\\qquad f(4)=22\\]</div></li><li><p class=\"facit-rubrik\">Differenskvoten blir 5 för varje h</p><div class=\"facit-matte\">\\[\\frac{22+5h-22}{h}=\\frac{5h}{h}=5\\]</div></li><li><p class=\"facit-rubrik\">Kvoten är 5 för alla h, alltså även gränsvärdet</p><p>En rät linje har samma lutning överallt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(4)=5\\)</p></div>",
     "familj": "Derivatans definition",
     "geogebra": false,
     "miniräknare": false,
@@ -16357,7 +16357,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Använd derivatans definition för att bestämma \\(f'(1)\\) när \\(f(x)=x^3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla \\((1+h)^3=(1+h)(1+h)^2\\)</p><div class=\"facit-matte\">\\[(1+h)^3=1+3h+3h^2+h^3\\]</div></li><li><p class=\"facit-rubrik\">Differenskvoten</p><div class=\"facit-matte\">\\[\\frac{(1+h)^3-1}{h}=\\frac{3h+3h^2+h^3}{h}=3+3h+h^2\\]</div></li><li><p class=\"facit-rubrik\">Låt h gå mot 0</p><div class=\"facit-matte\">\\[f'(1)=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(1)=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla \\((1+h)^3=(1+h)(1+h)^2\\)</p><div class=\"facit-matte\">\\[(1+h)^3=1+3h+3h^2+h^3\\]</div></li><li><p class=\"facit-rubrik\">Dra bort 1 och dela med h</p><div class=\"facit-matte\">\\[\\frac{(1+h)^3-1}{h}=\\frac{3h+3h^2+h^3}{h}=3+3h+h^2\\]</div></li><li><p class=\"facit-rubrik\">Låt h gå mot 0</p><div class=\"facit-matte\">\\[f'(1)=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(1)=3\\)</p></div>",
     "familj": "Derivatans definition",
     "geogebra": false,
     "miniräknare": false,
@@ -16444,7 +16444,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/0/2",
     "t": "<p>Använd derivatans definition för att bestämma \\(f'(4)\\) när \\(f(x)=\\sqrt x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatans definition: \\(f'(a)=\\lim\\limits_{h\\to0}\\dfrac{f(a+h)-f(a)}{h}\\)</p><div class=\"facit-matte\">\\[\\frac{\\sqrt{4+h}-2}{h}\\]</div><p>Att sätta \\(h=0\\) ger \\(\\tfrac00\\).</p></li><li><p class=\"facit-rubrik\">Förläng med konjugatet \\(\\sqrt{4+h}+2\\)</p><div class=\"facit-matte\">\\[\\frac{(\\sqrt{4+h}-2)(\\sqrt{4+h}+2)}{h(\\sqrt{4+h}+2)}=\\frac{4+h-4}{h(\\sqrt{4+h}+2)}\\]</div></li><li><p class=\"facit-rubrik\">Stryk h</p><div class=\"facit-matte\">\\[=\\frac{1}{\\sqrt{4+h}+2}\\]</div></li><li><p class=\"facit-rubrik\">Låt h gå mot 0</p><div class=\"facit-matte\">\\[f'(4)=\\frac{1}{2+2}=\\frac14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(4)=\\tfrac14\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatans definition: \\(f'(a)=\\lim\\limits_{h\\to0}\\dfrac{f(a+h)-f(a)}{h}\\)</p><div class=\"facit-matte\">\\[\\frac{\\sqrt{4+h}-2}{h}\\]</div><p>Att sätta \\(h=0\\) ger \\(\\tfrac00\\).</p></li><li><p class=\"facit-rubrik\">Förläng med konjugatet \\(\\sqrt{4+h}+2\\)</p><div class=\"facit-matte\">\\[\\frac{(\\sqrt{4+h}-2)(\\sqrt{4+h}+2)}{h(\\sqrt{4+h}+2)}=\\frac{4+h-4}{h(\\sqrt{4+h}+2)}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta bort h i täljare och nämnare</p><div class=\"facit-matte\">\\[=\\frac{1}{\\sqrt{4+h}+2}\\]</div></li><li><p class=\"facit-rubrik\">Låt h gå mot 0</p><div class=\"facit-matte\">\\[f'(4)=\\frac{1}{2+2}=\\frac14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(4)=\\tfrac14\\)</p></div>",
     "familj": "Derivatans definition",
     "geogebra": false,
     "miniräknare": false,
@@ -17976,7 +17976,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=2x^2-5x+1\\).</p><p>Bestäm det \\(x\\)-värde där \\(f'(x)=7\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan</p><div class=\"facit-matte\">\\[f'(x)=4x-5\\]</div></li><li><p class=\"facit-rubrik\">Sätt derivatan lika med 7</p><div class=\"facit-matte\">\\[4x-5=7\\quad\\Rightarrow\\quad4x=12\\quad\\Rightarrow\\quad x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera \\(2x^2-5x+1\\)</p><div class=\"facit-matte\">\\[f'(x)=4x-5\\]</div></li><li><p class=\"facit-rubrik\">Sätt derivatan lika med 7</p><div class=\"facit-matte\">\\[4x-5=7\\quad\\Rightarrow\\quad4x=12\\quad\\Rightarrow\\quad x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Lösa ekvationer med derivata",
     "geogebra": false,
     "miniräknare": false,
@@ -19268,7 +19268,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För \\(f(x)=x^{2} \\left(x^{2} - 4\\right)\\), bestäm \\(f^{\\prime}(1)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv som summa</p><div class=\"facit-matte\">\\[f(x)=x^4-4x^2\\]</div></li><li><p class=\"facit-rubrik\">Derivatan</p><div class=\"facit-matte\">\\[f'(x)=4x^3-8x\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(x=1\\)</p><div class=\"facit-matte\">\\[f'(1)=4-8=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv som summa</p><div class=\"facit-matte\">\\[f(x)=x^4-4x^2\\]</div></li><li><p class=\"facit-rubrik\">Potensregeln på båda termerna</p><div class=\"facit-matte\">\\[f'(x)=4x^3-8x\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(x=1\\)</p><div class=\"facit-matte\">\\[f'(1)=4-8=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\)</p></div>",
     "familj": "Beräkna derivatans värde",
     "geogebra": false,
     "miniräknare": false,
@@ -19601,7 +19601,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För \\(f(x)=x \\left(5 x - 3\\right)\\), bestäm \\(f^{\\prime}(4)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in</p><div class=\"facit-matte\">\\[f(x)=5x^2-3x\\]</div></li><li><p class=\"facit-rubrik\">Andragradsterm och linjär term</p><div class=\"facit-matte\">\\[f'(x)=10x-3\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(x=4\\)</p><div class=\"facit-matte\">\\[f'(4)=40-3=37\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 37</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in x i parentesen</p><div class=\"facit-matte\">\\[f(x)=5x^2-3x\\]</div></li><li><p class=\"facit-rubrik\">Andragradsterm och linjär term</p><div class=\"facit-matte\">\\[f'(x)=10x-3\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(x=4\\)</p><div class=\"facit-matte\">\\[f'(4)=40-3=37\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 37</p></div>",
     "familj": "Beräkna derivatans värde",
     "geogebra": false,
     "miniräknare": false,
@@ -20761,7 +20761,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm de x-värden där \\(f(x)=x^3-6x^2+9x\\) har lutningen 0.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 0 betyder \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=3x^2-12x+9=3(x^2-4x+3)\\]</div></li><li><p class=\"facit-rubrik\">Två tal med produkten 3 och summan −4</p><div class=\"facit-matte\">\\[f'(x)=3(x-1)(x-3)\\]</div><p>Talen är −1 och −3.</p></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är 0 när någon faktor är 0</p><div class=\"facit-matte\">\\[x=1\\quad\\text{och}\\quad x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\) och \\(x=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen 0 betyder \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[3x^2-12x+9=0\\]</div></li><li><p class=\"facit-rubrik\">Dela med 3 och använd pq-formeln</p><div class=\"facit-matte\">\\[x^2-4x+3=0\\]</div><div class=\"facit-matte\">\\[x=2\\pm\\sqrt{2^2-3}=2\\pm1\\]</div></li><li><p class=\"facit-rubrik\">Lutningen är 0 i två punkter</p><div class=\"facit-matte\">\\[x=1\\quad\\text{och}\\quad x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\) och \\(x=3\\)</p></div>",
     "familj": "Derivatans tecken",
     "geogebra": false,
     "miniräknare": false,
@@ -20784,7 +20784,7 @@ window.BANKMATO1 = [
       "Analysera derivatans tecken och nollställen",
       "Derivatans tecken och nollställen"
     ],
-    "ledtrad": "<p>Lutningen är derivatans värde. Lös \\(f'(x)=0\\) genom att bryta ut 3 och faktorisera.</p>",
+    "ledtrad": "<p>Lutningen är derivatans värde. Lös \\(f'(x)=0\\) med pq-formeln efter att ha delat med 3.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -21095,7 +21095,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Bestäm det minsta värdet av \\(f^{\\prime}(x)\\) om \\(f(x)=x^3-6x^2+5x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är en andragradsfunktion</p><div class=\"facit-matte\">\\[f'(x)=3x^2-12x+5\\]</div></li><li><p class=\"facit-rubrik\">Kvadratkomplettera</p><div class=\"facit-matte\">\\[3x^2-12x+5=3(x^2-4x)+5\\]</div><div class=\"facit-matte\">\\[=3\\bigl((x-2)^2-4\\bigr)+5\\]</div><div class=\"facit-matte\">\\[=3(x-2)^2-7\\]</div></li><li><p class=\"facit-rubrik\">Minst när kvadraten är 0</p><p>\\(3(x-2)^2\\ge0\\), så minsta värdet \\(-7\\) antas när \\(x=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-7\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är en andragradsfunktion</p><div class=\"facit-matte\">\\[f'(x)=3x^2-12x+5\\]</div></li><li><p class=\"facit-rubrik\">Kvadratkomplettera derivatan</p><div class=\"facit-matte\">\\[3x^2-12x+5=3(x^2-4x)+5\\]</div><div class=\"facit-matte\">\\[=3\\bigl((x-2)^2-4\\bigr)+5\\]</div><div class=\"facit-matte\">\\[=3(x-2)^2-7\\]</div></li><li><p class=\"facit-rubrik\">Minst när kvadraten är 0</p><p>\\(3(x-2)^2\\ge0\\), så minsta värdet \\(-7\\) antas när \\(x=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-7\\)</p></div>",
     "familj": "Beräkna derivatans värde",
     "geogebra": false,
     "miniräknare": false,
@@ -23178,7 +23178,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En tabell visar en bils hastighet \\(v(t)\\):</p><table><tr><th>t (s)</th><th>4,9</th><th>5,0</th><th>5,1</th></tr><tr><th>v (m/s)</th><td>19,50</td><td>20,00</td><td>20,50</td></tr></table><p>Uppskatta bilens acceleration vid \\(t=5,0\\) s med värdena på båda sidor om tidpunkten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En symmetrisk uppskattning ger</p><p>\\[a(5)\\approx\\frac{20{,}50-19{,}50}{5{,}1-4{,}9}=\\frac{1{,}00}{0{,}2}=5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(5\\,\\text{m/s}^2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Accelerationen är hastighetens derivata</p><p>Uppskatta \\(v'(5{,}0)\\) med värdena 0,1 s före och efter.</p></li><li><p class=\"facit-rubrik\">Symmetrisk differenskvot: \\(f'(a)\\approx\\dfrac{f(a+h)-f(a-h)}{2h}\\)</p><div class=\"facit-matte\">\\[a(5)\\approx\\frac{20{,}50-19{,}50}{5{,}1-4{,}9}=\\frac{1{,}00}{0{,}2}=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(5\\ \\text{m/s}^2\\)</p></div>",
     "familj": "Numerisk derivering och tangenter med digitalt verktyg",
     "geogebra": false,
     "miniräknare": true,
@@ -23321,7 +23321,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm \\(f^{\\prime\\prime}(x)\\) om</p><p>\\[f(x)=5x^4-2x^3+7x.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förstaderivatan</p><div class=\"facit-matte\">\\[f'(x)=20x^3-6x^2+7\\]</div></li><li><p class=\"facit-rubrik\">Andraderivatan: derivera derivatan, \\(f''(x)=\\bigl(f'(x)\\bigr)'\\)</p><div class=\"facit-matte\">\\[f''(x)=60x^2-12x\\]</div><p>Konstanten 7 försvinner i andra deriveringen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f''(x)=60x^2-12x\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förstaderivatan med potensregeln</p><div class=\"facit-matte\">\\[f'(x)=20x^3-6x^2+7\\]</div></li><li><p class=\"facit-rubrik\">Andraderivatan: derivera derivatan, \\(f''(x)=\\bigl(f'(x)\\bigr)'\\)</p><div class=\"facit-matte\">\\[f''(x)=60x^2-12x\\]</div><p>Konstanten 7 försvinner i andra deriveringen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f''(x)=60x^2-12x\\)</p></div>",
     "familj": "Andraderivatan och funktionens graf",
     "geogebra": false,
     "miniräknare": true,
@@ -23420,7 +23420,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Bestäm \\(f^{\\prime\\prime}(x)\\) för</p><p>\\[f(x)=4x^{5/2}+\\frac6{x^3}.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråket som potens</p><div class=\"facit-matte\">\\[f(x)=4x^{5/2}+6x^{-3}\\]</div></li><li><p class=\"facit-rubrik\">Förstaderivatan med potensregeln</p><div class=\"facit-matte\">\\[f'(x)=10x^{3/2}-18x^{-4}\\]</div></li><li><p class=\"facit-rubrik\">Andraderivatan</p><div class=\"facit-matte\">\\[f''(x)=15x^{1/2}+72x^{-5}\\]</div><div class=\"facit-matte\">\\[=15\\sqrt x+\\frac{72}{x^5}\\]</div><p>Minus gånger minus ger plus: \\(-18\\cdot(-4)=72\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\sqrt x+\\dfrac{72}{x^5}\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråket som potens</p><div class=\"facit-matte\">\\[f(x)=4x^{5/2}+6x^{-3}\\]</div></li><li><p class=\"facit-rubrik\">Förstaderivatan med potensregeln</p><div class=\"facit-matte\">\\[f'(x)=10x^{3/2}-18x^{-4}\\]</div></li><li><p class=\"facit-rubrik\">Derivera en gång till: \\(-18\\cdot(-4)=72\\)</p><div class=\"facit-matte\">\\[f''(x)=15x^{1/2}+72x^{-5}\\]</div><div class=\"facit-matte\">\\[=15\\sqrt x+\\frac{72}{x^5}\\]</div><p>Minus gånger minus ger plus: \\(-18\\cdot(-4)=72\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\sqrt x+\\dfrac{72}{x^5}\\)</p></div>",
     "familj": "Andraderivatan och funktionens graf",
     "geogebra": false,
     "miniräknare": true,
@@ -24508,7 +24508,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>För funktionen \\(f\\) gäller</p><p>\\[f^{\\prime}(x)=3x^2-12x+9.\\]</p><p>Bestäm de \\(x\\)-värden där grafen har extrempunkter och avgör deras karaktär.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorisera:</p><p>\\[f^{\\prime}(x)=3(x-1)(x-3).\\]</p></li><li><p>Derivatan är positiv före \\(1\\), negativ mellan \\(1\\) och \\(3\\), och positiv efter \\(3\\).</p></li><li><p>Alltså har grafen en maximipunkt vid \\(x=1\\) och en minimipunkt vid \\(x=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: maximipunkt vid \\(x=1\\) och minimipunkt vid \\(x=3\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[3x^2-12x+9=0\\quad\\Leftrightarrow\\quad x^2-4x+3=0\\]</div><div class=\"facit-matte\">\\[x=2\\pm\\sqrt{4-3}=2\\pm1\\]</div><p>Nollställena är \\(x=1\\) och \\(x=3\\), så \\(f'(x)=3(x-1)(x-3)\\).</p></li><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=3(x-1)(x-3)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 1 &  & 3 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Teckenbytena avgör punkternas karaktär</p><p>Från + till − vid \\(x=1\\): maximipunkt. Från − till + vid \\(x=3\\): minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> maximipunkt vid \\(x=1\\) och minimipunkt vid \\(x=3\\)</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -25485,7 +25485,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>Bestäm \\(f^{\\prime\\prime}(x)\\) om \\(f(x)=2x^5-3x^3+x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förstaderivatan</p><div class=\"facit-matte\">\\[f'(x)=10x^4-9x^2+1\\]</div></li><li><p class=\"facit-rubrik\">Andraderivatan: derivera derivatan, \\(f''(x)=\\bigl(f'(x)\\bigr)'\\)</p><div class=\"facit-matte\">\\[f''(x)=40x^3-18x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f''(x)=40x^3-18x\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förstaderivatan med potensregeln</p><div class=\"facit-matte\">\\[f'(x)=10x^4-9x^2+1\\]</div></li><li><p class=\"facit-rubrik\">Andraderivatan: derivera derivatan, \\(f''(x)=\\bigl(f'(x)\\bigr)'\\)</p><div class=\"facit-matte\">\\[f''(x)=40x^3-18x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f''(x)=40x^3-18x\\)</p></div>",
     "familj": "Andraderivatan och funktionens graf",
     "geogebra": false,
     "miniräknare": true,
@@ -25519,7 +25519,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=x^3-3x\\).</p><ol><li>Bestäm \\(f'(2)\\).</li><li>Bestäm tangentens ekvation vid \\(x=2\\). Skriv ekvationen som \\(y=\\ldots\\).</li></ol>",
-    "s": "<div class=\"facit-v2\"><p>Derivera först, och sätt sedan in x = 2.</p><div class=\"facit-matte\">\\[f'(x)=3x^2-3,\\qquad f'(2)=3\\cdot4-3=9\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 9.</p></div><div class=\"facit-v2\"><p>Använd den givna punkten och lutningen i linjens ekvation.</p><div class=\"facit-matte\">\\[y-2=9(x-2)\\Rightarrow y=9x-16\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=9x-16\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensregeln på båda termerna</p><div class=\"facit-matte\">\\[f'(x)=3x^2-3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(2)=3\\cdot4-3=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkt–riktningsformen: \\(y-y_1=k(x-x_1)\\)</p><p>Punkten är \\((2,2)\\) och lutningen är 9.</p><div class=\"facit-matte\">\\[y-2=9(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Lös ut y</p><div class=\"facit-matte\">\\[y=9x-18+2=9x-16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=9x-16\\)</p></div></div>",
     "familj": "Numerisk derivering och tangenter med digitalt verktyg",
     "geogebra": false,
     "miniräknare": true,
@@ -25563,14 +25563,14 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Funktionen är \\(f(x)=x^3-3x\\). Bestäm \\(f'(2)\\).</p>",
-        "s": "<div class=\"facit-v2\"><p>Derivera först, och sätt sedan in x = 2.</p><div class=\"facit-matte\">\\[f'(x)=3x^2-3,\\qquad f'(2)=3\\cdot4-3=9\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 9.</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensregeln på båda termerna</p><div class=\"facit-matte\">\\[f'(x)=3x^2-3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(2)=3\\cdot4-3=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div>",
         "ledtrad": "<p>Använd potensregeln och sätt sedan in x = 2.</p>",
         "traningsniva": 2
       },
       {
         "etikett": "b",
         "t": "<p>En tangent går genom punkten \\((2,2)\\) och har lutningen 9. Bestäm tangentens ekvation. Skriv \\(y=\\ldots\\).</p>",
-        "s": "<div class=\"facit-v2\"><p>Använd den givna punkten och lutningen i linjens ekvation.</p><div class=\"facit-matte\">\\[y-2=9(x-2)\\Rightarrow y=9x-16\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=9x-16\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkt–riktningsformen: \\(y-y_1=k(x-x_1)\\)</p><p>Punkten är \\((2,2)\\) och lutningen är 9.</p><div class=\"facit-matte\">\\[y-2=9(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Lös ut y</p><div class=\"facit-matte\">\\[y=9x-18+2=9x-16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=9x-16\\)</p></div>",
         "ledtrad": "<p>Använd y − y₀ = k(x − x₀).</p>",
         "traningsniva": 2
       }
@@ -25722,7 +25722,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Rita \\(f(x)=x^3-2x+1\\) och tangenten i punkten där \\(x=1\\). Ange tangentens ekvation.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=3x^2-2.\\]</p></li><li><p>Vid \\(x=1\\) är lutningen 1 och \\(f(1)=0\\).</p></li><li><div class=\"facit-berakning\"><p>Tangenten är därför</p><div class=\"facit-matte\">\\[y=x-1\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(y=x-1\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangentpunkten där \\(x=1\\)</p><div class=\"facit-matte\">\\[f(1)=1-2+1=0\\]</div><p>Tangenten går genom \\((1,0)\\).</p></li><li><p class=\"facit-rubrik\">Tangentens lutning är \\(f'(1)\\)</p><div class=\"facit-matte\">\\[f'(x)=3x^2-2\\quad\\Rightarrow\\quad f'(1)=1\\]</div></li><li><p class=\"facit-rubrik\">Punkt–riktningsformen: \\(y-y_1=k(x-x_1)\\)</p><div class=\"facit-matte\">\\[y-0=1\\cdot(x-1)\\quad\\Rightarrow\\quad y=x-1\\]</div></li><li><p class=\"facit-rubrik\">Grafen bekräftar att linjen tangerar kurvan</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"260\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"Grafen till f(x) = x³ − 2x + 1 och tangenten y = x − 1, som tangerar kurvan i punkten (1, 0).\"><title>Grafen till f(x) = x³ − 2x + 1 och tangenten y = x − 1, som tangerar kurvan i punkten (1, 0).</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"34.0\" y1=\"18\" x2=\"34.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"34.0\" y=\"161.6\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">−2</text><line x1=\"102.9\" y1=\"18\" x2=\"102.9\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"102.9\" y=\"161.6\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">−1</text><line x1=\"171.8\" y1=\"18\" x2=\"171.8\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"240.7\" y1=\"18\" x2=\"240.7\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"240.7\" y=\"161.6\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">1</text><line x1=\"309.6\" y1=\"18\" x2=\"309.6\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"309.6\" y=\"161.6\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">2</text><line x1=\"34\" y1=\"234.0\" x2=\"344\" y2=\"234.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"166.8\" y=\"238.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">−4</text><line x1=\"34\" y1=\"190.8\" x2=\"344\" y2=\"190.8\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"166.8\" y=\"194.8\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">−2</text><line x1=\"34\" y1=\"147.6\" x2=\"344\" y2=\"147.6\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"34\" y1=\"104.4\" x2=\"344\" y2=\"104.4\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"166.8\" y=\"108.4\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">2</text><line x1=\"34\" y1=\"61.2\" x2=\"344\" y2=\"61.2\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"166.8\" y=\"65.2\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">4</text><line x1=\"34\" y1=\"18.0\" x2=\"344\" y2=\"18.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"166.8\" y=\"22.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">6</text><line x1=\"34\" y1=\"147.6\" x2=\"350\" y2=\"147.6\" stroke=\"#243447\" stroke-width=\"1.5\"/><line x1=\"171.8\" y1=\"234\" x2=\"171.8\" y2=\"10\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"356\" y=\"142.6\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" text-anchor=\"end\">x</text><text x=\"177.8\" y=\"12\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\">y</text><text x=\"166.8\" y=\"161.6\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\">0</text><polyline points=\"34.0,212.4 34.8,210.0 35.5,207.6 36.3,205.3 37.1,202.9 37.9,200.7 38.6,198.4 39.4,196.2 40.2,194.0 41.0,191.8 41.8,189.7 42.5,187.6 43.3,185.5 44.1,183.5 44.9,181.5 45.6,179.5 46.4,177.6 47.2,175.7 48.0,173.8 48.7,171.9 49.5,170.1 50.3,168.3 51.1,166.6 51.8,164.8 52.6,163.1 53.4,161.4 54.2,159.8 54.9,158.1 55.7,156.5 56.5,155.0 57.2,153.4 58.0,151.9 58.8,150.4 59.6,149.0 60.4,147.5 61.1,146.1 61.9,144.7 62.7,143.4 63.5,142.1 64.2,140.8 65.0,139.5 65.8,138.2 66.5,137.0 67.3,135.8 68.1,134.6 68.9,133.5 69.7,132.3 70.4,131.2 71.2,130.2 72.0,129.1 72.8,128.1 73.5,127.1 74.3,126.1 75.1,125.1 75.8,124.2 76.6,123.3 77.4,122.4 78.2,121.5 78.9,120.6 79.7,119.8 80.5,119.0 81.3,118.2 82.0,117.5 82.8,116.7 83.6,116.0 84.4,115.3 85.2,114.6 85.9,114.0 86.7,113.3 87.5,112.7 88.2,112.1 89.0,111.5 89.8,111.0 90.6,110.5 91.3,109.9 92.1,109.4 92.9,109.0 93.7,108.5 94.4,108.1 95.2,107.6 96.0,107.2 96.8,106.8 97.5,106.5 98.3,106.1 99.1,105.8 99.9,105.5 100.7,105.2 101.4,104.9 102.2,104.6 103.0,104.4 103.8,104.1 104.5,103.9 105.3,103.7 106.1,103.5 106.9,103.4 107.6,103.2 108.4,103.1 109.2,103.0 110.0,102.8 110.7,102.7 111.5,102.7 112.3,102.6 113.0,102.6 113.8,102.5 114.6,102.5 115.4,102.5 116.1,102.5 116.9,102.5 117.7,102.5 118.5,102.6 119.2,102.6 120.0,102.7 120.8,102.8 121.6,102.9 122.3,103.0 123.1,103.1 123.9,103.2 124.7,103.4 125.4,103.5 126.2,103.7 127.0,103.9 127.8,104.0 128.6,104.2 129.3,104.4 130.1,104.6 130.9,104.9 131.7,105.1 132.4,105.3 133.2,105.6 134.0,105.9 134.8,106.1 135.5,106.4 136.3,106.7 137.1,107.0 137.9,107.3 138.6,107.6 139.4,107.9 140.2,108.3 140.9,108.6 141.7,108.9 142.5,109.3 143.3,109.7 144.1,110.0 144.8,110.4 145.6,110.8 146.4,111.2 147.1,111.5 147.9,111.9 148.7,112.3 149.5,112.7 150.2,113.2 151.0,113.6 151.8,114.0 152.6,114.4 153.4,114.9 154.1,115.3 154.9,115.7 155.7,116.2 156.4,116.6 157.2,117.1 158.0,117.5 158.8,118.0 159.6,118.5 160.3,118.9 161.1,119.4 161.9,119.9 162.7,120.3 163.4,120.8 164.2,121.3 165.0,121.8 165.8,122.2 166.5,122.7 167.3,123.2 168.1,123.7 168.8,124.2 169.6,124.7 170.4,125.1 171.2,125.6 171.9,126.1 172.7,126.6 173.5,127.1 174.3,127.6 175.0,128.0 175.8,128.5 176.6,129.0 177.4,129.5 178.1,130.0 178.9,130.5 179.7,130.9 180.5,131.4 181.2,131.9 182.0,132.4 182.8,132.8 183.6,133.3 184.4,133.8 185.1,134.2 185.9,134.7 186.7,135.1 187.4,135.6 188.2,136.0 189.0,136.5 189.8,136.9 190.6,137.3 191.3,137.8 192.1,138.2 192.9,138.6 193.7,139.0 194.4,139.4 195.2,139.8 196.0,140.2 196.7,140.6 197.5,141.0 198.3,141.4 199.1,141.8 199.9,142.1 200.6,142.5 201.4,142.9 202.2,143.2 203.0,143.5 203.7,143.9 204.5,144.2 205.3,144.5 206.1,144.8 206.8,145.1 207.6,145.4 208.4,145.7 209.1,146.0 209.9,146.3 210.7,146.5 211.5,146.8 212.2,147.0 213.0,147.2 213.8,147.4 214.6,147.7 215.3,147.9 216.1,148.0 216.9,148.2 217.7,148.4 218.5,148.6 219.2,148.7 220.0,148.8 220.8,149.0 221.5,149.1 222.3,149.2 223.1,149.3 223.9,149.3 224.7,149.4 225.4,149.4 226.2,149.5 227.0,149.5 227.8,149.5 228.5,149.5 229.3,149.5 230.1,149.5 230.8,149.4 231.6,149.4 232.4,149.3 233.2,149.2 234.0,149.1 234.7,149.0 235.5,148.9 236.3,148.7 237.0,148.6 237.8,148.4 238.6,148.2 239.4,148.0 240.2,147.8 240.9,147.5 241.7,147.3 242.5,147.0 243.2,146.7 244.0,146.4 244.8,146.1 245.6,145.7 246.4,145.4 247.1,145.0 247.9,144.6 248.7,144.2 249.4,143.7 250.2,143.3 251.0,142.8 251.8,142.3 252.5,141.8 253.3,141.3 254.1,140.8 254.9,140.2 255.6,139.6 256.4,139.0 257.2,138.4 258.0,137.7 258.8,137.1 259.5,136.4 260.3,135.7 261.1,135.0 261.9,134.2 262.6,133.4 263.4,132.6 264.2,131.8 264.9,131.0 265.7,130.1 266.5,129.2 267.3,128.3 268.1,127.4 268.8,126.5 269.6,125.5 270.4,124.5 271.1,123.5 271.9,122.4 272.7,121.4 273.5,120.3 274.2,119.2 275.0,118.0 275.8,116.9 276.6,115.7 277.4,114.5 278.1,113.2 278.9,112.0 279.7,110.7 280.5,109.4 281.2,108.0 282.0,106.6 282.8,105.3 283.6,103.8 284.3,102.4 285.1,100.9 285.9,99.4 286.6,97.9 287.4,96.3 288.2,94.7 289.0,93.1 289.8,91.5 290.5,89.8 291.3,88.1 292.1,86.4 292.8,84.7 293.6,82.9 294.4,81.1 295.2,79.2 296.0,77.4 296.7,75.5 297.5,73.5 298.3,71.6 299.1,69.6 299.8,67.6 300.6,65.5 301.4,63.5 302.1,61.3 302.9,59.2 303.7,57.0 304.5,54.8 305.2,52.6 306.0,50.3 306.8,48.0 307.6,45.7 308.4,43.3 309.1,40.9 309.9,38.5 310.7,36.1 311.4,33.6 312.2,31.0 313.0,28.5 313.8,25.9 314.5,23.3 315.3,20.6 316.1,17.9 316.9,15.2\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.4\"/><text x=\"61.6\" y=\"137.4\" font-family=\"Arial,sans-serif\" fill=\"#c0392b\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">f</text><polyline points=\"34.0,212.4 34.8,212.2 35.5,211.9 36.3,211.7 37.1,211.4 37.9,211.2 38.6,210.9 39.4,210.7 40.2,210.5 41.0,210.2 41.8,210.0 42.5,209.7 43.3,209.5 44.1,209.2 44.9,209.0 45.6,208.8 46.4,208.5 47.2,208.3 48.0,208.0 48.7,207.8 49.5,207.5 50.3,207.3 51.1,207.1 51.8,206.8 52.6,206.6 53.4,206.3 54.2,206.1 54.9,205.8 55.7,205.6 56.5,205.4 57.2,205.1 58.0,204.9 58.8,204.6 59.6,204.4 60.4,204.1 61.1,203.9 61.9,203.7 62.7,203.4 63.5,203.2 64.2,202.9 65.0,202.7 65.8,202.4 66.5,202.2 67.3,202.0 68.1,201.7 68.9,201.5 69.7,201.2 70.4,201.0 71.2,200.7 72.0,200.5 72.8,200.2 73.5,200.0 74.3,199.8 75.1,199.5 75.8,199.3 76.6,199.0 77.4,198.8 78.2,198.5 78.9,198.3 79.7,198.1 80.5,197.8 81.3,197.6 82.0,197.3 82.8,197.1 83.6,196.8 84.4,196.6 85.2,196.4 85.9,196.1 86.7,195.9 87.5,195.6 88.2,195.4 89.0,195.1 89.8,194.9 90.6,194.7 91.3,194.4 92.1,194.2 92.9,193.9 93.7,193.7 94.4,193.4 95.2,193.2 96.0,193.0 96.8,192.7 97.5,192.5 98.3,192.2 99.1,192.0 99.9,191.7 100.7,191.5 101.4,191.3 102.2,191.0 103.0,190.8 103.8,190.5 104.5,190.3 105.3,190.0 106.1,189.8 106.9,189.6 107.6,189.3 108.4,189.1 109.2,188.8 110.0,188.6 110.7,188.3 111.5,188.1 112.3,187.9 113.0,187.6 113.8,187.4 114.6,187.1 115.4,186.9 116.1,186.6 116.9,186.4 117.7,186.2 118.5,185.9 119.2,185.7 120.0,185.4 120.8,185.2 121.6,184.9 122.3,184.7 123.1,184.5 123.9,184.2 124.7,184.0 125.4,183.7 126.2,183.5 127.0,183.2 127.8,183.0 128.6,182.8 129.3,182.5 130.1,182.3 130.9,182.0 131.7,181.8 132.4,181.5 133.2,181.3 134.0,181.1 134.8,180.8 135.5,180.6 136.3,180.3 137.1,180.1 137.9,179.8 138.6,179.6 139.4,179.4 140.2,179.1 140.9,178.9 141.7,178.6 142.5,178.4 143.3,178.1 144.1,177.9 144.8,177.7 145.6,177.4 146.4,177.2 147.1,176.9 147.9,176.7 148.7,176.4 149.5,176.2 150.2,175.9 151.0,175.7 151.8,175.5 152.6,175.2 153.4,175.0 154.1,174.7 154.9,174.5 155.7,174.2 156.4,174.0 157.2,173.8 158.0,173.5 158.8,173.3 159.6,173.0 160.3,172.8 161.1,172.5 161.9,172.3 162.7,172.1 163.4,171.8 164.2,171.6 165.0,171.3 165.8,171.1 166.5,170.8 167.3,170.6 168.1,170.4 168.8,170.1 169.6,169.9 170.4,169.6 171.2,169.4 171.9,169.1 172.7,168.9 173.5,168.7 174.3,168.4 175.0,168.2 175.8,167.9 176.6,167.7 177.4,167.4 178.1,167.2 178.9,167.0 179.7,166.7 180.5,166.5 181.2,166.2 182.0,166.0 182.8,165.7 183.6,165.5 184.4,165.3 185.1,165.0 185.9,164.8 186.7,164.5 187.4,164.3 188.2,164.0 189.0,163.8 189.8,163.6 190.6,163.3 191.3,163.1 192.1,162.8 192.9,162.6 193.7,162.3 194.4,162.1 195.2,161.9 196.0,161.6 196.7,161.4 197.5,161.1 198.3,160.9 199.1,160.6 199.9,160.4 200.6,160.2 201.4,159.9 202.2,159.7 203.0,159.4 203.7,159.2 204.5,158.9 205.3,158.7 206.1,158.5 206.8,158.2 207.6,158.0 208.4,157.7 209.1,157.5 209.9,157.2 210.7,157.0 211.5,156.8 212.2,156.5 213.0,156.3 213.8,156.0 214.6,155.8 215.3,155.5 216.1,155.3 216.9,155.1 217.7,154.8 218.5,154.6 219.2,154.3 220.0,154.1 220.8,153.8 221.5,153.6 222.3,153.4 223.1,153.1 223.9,152.9 224.7,152.6 225.4,152.4 226.2,152.1 227.0,151.9 227.8,151.7 228.5,151.4 229.3,151.2 230.1,150.9 230.8,150.7 231.6,150.4 232.4,150.2 233.2,149.9 234.0,149.7 234.7,149.5 235.5,149.2 236.3,149.0 237.0,148.7 237.8,148.5 238.6,148.2 239.4,148.0 240.2,147.8 240.9,147.5 241.7,147.3 242.5,147.0 243.2,146.8 244.0,146.5 244.8,146.3 245.6,146.1 246.4,145.8 247.1,145.6 247.9,145.3 248.7,145.1 249.4,144.8 250.2,144.6 251.0,144.4 251.8,144.1 252.5,143.9 253.3,143.6 254.1,143.4 254.9,143.1 255.6,142.9 256.4,142.7 257.2,142.4 258.0,142.2 258.8,141.9 259.5,141.7 260.3,141.4 261.1,141.2 261.9,141.0 262.6,140.7 263.4,140.5 264.2,140.2 264.9,140.0 265.7,139.7 266.5,139.5 267.3,139.3 268.1,139.0 268.8,138.8 269.6,138.5 270.4,138.3 271.1,138.0 271.9,137.8 272.7,137.6 273.5,137.3 274.2,137.1 275.0,136.8 275.8,136.6 276.6,136.3 277.4,136.1 278.1,135.9 278.9,135.6 279.7,135.4 280.5,135.1 281.2,134.9 282.0,134.6 282.8,134.4 283.6,134.2 284.3,133.9 285.1,133.7 285.9,133.4 286.6,133.2 287.4,132.9 288.2,132.7 289.0,132.5 289.8,132.2 290.5,132.0 291.3,131.7 292.1,131.5 292.8,131.2 293.6,131.0 294.4,130.8 295.2,130.5 296.0,130.3 296.7,130.0 297.5,129.8 298.3,129.5 299.1,129.3 299.8,129.1 300.6,128.8 301.4,128.6 302.1,128.3 302.9,128.1 303.7,127.8 304.5,127.6 305.2,127.3 306.0,127.1 306.8,126.9 307.6,126.6 308.4,126.4 309.1,126.1 309.9,125.9 310.7,125.6 311.4,125.4 312.2,125.2 313.0,124.9 313.8,124.7 314.5,124.4 315.3,124.2 316.1,123.9 316.9,123.7 317.6,123.5 318.4,123.2 319.2,123.0 320.0,122.7 320.8,122.5 321.5,122.2 322.3,122.0 323.1,121.8 323.8,121.5 324.6,121.3 325.4,121.0 326.2,120.8 327.0,120.5 327.7,120.3 328.5,120.1 329.3,119.8 330.1,119.6 330.8,119.3 331.6,119.1 332.4,118.8 333.2,118.6 333.9,118.4 334.7,118.1 335.5,117.9 336.2,117.6 337.0,117.4 337.8,117.1 338.6,116.9 339.4,116.7 340.1,116.4 340.9,116.2 341.7,115.9 342.4,115.7 343.2,115.4 344.0,115.2\" fill=\"none\" stroke=\"#1f6fb2\" stroke-width=\"2.4\"/><text x=\"323.3\" y=\"113.7\" font-family=\"Arial,sans-serif\" fill=\"#1f6fb2\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">tangent</text><circle cx=\"240.7\" cy=\"147.6\" r=\"4.5\" fill=\"#f1c40f\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"247.7\" y=\"163.6\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"start\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">(1, 0)</text></svg></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=x-1\\)</p></div>",
     "familj": "Numerisk derivering och tangenter med digitalt verktyg",
     "geogebra": false,
     "miniräknare": true,
@@ -25857,7 +25857,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Använd ett digitalt verktyg för att rita \\(f(x)=2^x\\) och tangenten vid \\(x=1\\).</p><p>Bestäm tangentens ekvation. Ange koefficienterna med tre decimaler och skriv endast ekvationen i svarsfältet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[f^{\\prime}(x)=2^x\\ln2\\].</div></div></li><li><p>Vid \\(x=1\\) är lutningen \\(2\\ln2\\approx1{,}386\\), och punkten är \\((1,2)\\).</p></li><li><p>Tangenten kan skrivas \\(y-2=1{,}386(x-1)\\), alltså ungefär \\(\\boxed{y=1{,}386x+0{,}614}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> y=1,386x+0,614.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangentpunkten där \\(x=1\\)</p><div class=\"facit-matte\">\\[f(1)=2^1=2\\]</div><p>Tangenten går genom \\((1,2)\\).</p></li><li><p class=\"facit-rubrik\">Lutningen \\(f'(1)\\) med verktyget</p><div class=\"facit-matte\">\\[f'(x)=2^x\\ln2\\quad\\Rightarrow\\quad f'(1)=2\\ln2\\approx1{,}386\\]</div><p>I GeoGebra ger kommandot Tangent(1, f) direkt hela linjen.</p></li><li><p class=\"facit-rubrik\">Punkt–riktningsformen: \\(y-y_1=k(x-x_1)\\)</p><div class=\"facit-matte\">\\[y-2=1{,}386(x-1)\\]</div><div class=\"facit-matte\">\\[y\\approx1{,}386x+0{,}614\\]</div><p>Konstanttermen: \\(2-2\\ln2\\approx0{,}614\\).</p></li><li><p class=\"facit-rubrik\">Rita kurvan och tangenten</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"260\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"Grafen till f(x) = 2^x och tangenten i punkten (1, 2), med lutningen ungefär 1,386.\"><title>Grafen till f(x) = 2^x och tangenten i punkten (1, 2), med lutningen ungefär 1,386.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"34.0\" y1=\"18\" x2=\"34.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"34.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">−1</text><line x1=\"111.5\" y1=\"18\" x2=\"111.5\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"189.0\" y1=\"18\" x2=\"189.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"189.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">1</text><line x1=\"266.5\" y1=\"18\" x2=\"266.5\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"266.5\" y=\"224.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">2</text><line x1=\"344.0\" y1=\"18\" x2=\"344.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"344.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">3</text><line x1=\"34\" y1=\"234.0\" x2=\"344\" y2=\"234.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"106.5\" y=\"238.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">−1</text><line x1=\"34\" y1=\"210.0\" x2=\"344\" y2=\"210.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"34\" y1=\"186.0\" x2=\"344\" y2=\"186.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"106.5\" y=\"190.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">1</text><line x1=\"34\" y1=\"162.0\" x2=\"344\" y2=\"162.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"106.5\" y=\"166.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">2</text><line x1=\"34\" y1=\"138.0\" x2=\"344\" y2=\"138.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"106.5\" y=\"142.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">3</text><line x1=\"34\" y1=\"114.0\" x2=\"344\" y2=\"114.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"106.5\" y=\"118.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">4</text><line x1=\"34\" y1=\"90.0\" x2=\"344\" y2=\"90.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"106.5\" y=\"94.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">5</text><line x1=\"34\" y1=\"66.0\" x2=\"344\" y2=\"66.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"106.5\" y=\"70.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">6</text><line x1=\"34\" y1=\"42.0\" x2=\"344\" y2=\"42.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"106.5\" y=\"46.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">7</text><line x1=\"34\" y1=\"18.0\" x2=\"344\" y2=\"18.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"106.5\" y=\"22.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">8</text><line x1=\"34\" y1=\"210.0\" x2=\"350\" y2=\"210.0\" stroke=\"#243447\" stroke-width=\"1.5\"/><line x1=\"111.5\" y1=\"234\" x2=\"111.5\" y2=\"10\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"356\" y=\"205.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" text-anchor=\"end\">x</text><text x=\"117.5\" y=\"12\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\">y</text><text x=\"106.5\" y=\"224.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\">0</text><polyline points=\"34.0,198.0 34.8,197.9 35.6,197.8 36.3,197.7 37.1,197.7 37.9,197.6 38.7,197.5 39.4,197.4 40.2,197.3 41.0,197.2 41.8,197.1 42.5,197.0 43.3,197.0 44.1,196.9 44.9,196.8 45.6,196.7 46.4,196.6 47.2,196.5 47.9,196.4 48.7,196.3 49.5,196.2 50.3,196.1 51.0,196.0 51.8,195.9 52.6,195.8 53.4,195.7 54.2,195.6 54.9,195.5 55.7,195.4 56.5,195.3 57.2,195.2 58.0,195.1 58.8,195.0 59.6,194.9 60.4,194.8 61.1,194.7 61.9,194.6 62.7,194.5 63.5,194.4 64.2,194.3 65.0,194.2 65.8,194.1 66.5,193.9 67.3,193.8 68.1,193.7 68.9,193.6 69.7,193.5 70.4,193.4 71.2,193.3 72.0,193.1 72.8,193.0 73.5,192.9 74.3,192.8 75.1,192.7 75.8,192.6 76.6,192.4 77.4,192.3 78.2,192.2 78.9,192.1 79.7,191.9 80.5,191.8 81.3,191.7 82.0,191.6 82.8,191.4 83.6,191.3 84.4,191.2 85.2,191.0 85.9,190.9 86.7,190.8 87.5,190.6 88.2,190.5 89.0,190.4 89.8,190.2 90.6,190.1 91.3,190.0 92.1,189.8 92.9,189.7 93.7,189.5 94.5,189.4 95.2,189.3 96.0,189.1 96.8,189.0 97.5,188.8 98.3,188.7 99.1,188.5 99.9,188.4 100.7,188.2 101.4,188.1 102.2,187.9 103.0,187.8 103.8,187.6 104.5,187.5 105.3,187.3 106.1,187.1 106.8,187.0 107.6,186.8 108.4,186.7 109.2,186.5 110.0,186.3 110.7,186.2 111.5,186.0 112.3,185.8 113.0,185.7 113.8,185.5 114.6,185.3 115.4,185.2 116.2,185.0 116.9,184.8 117.7,184.6 118.5,184.5 119.2,184.3 120.0,184.1 120.8,183.9 121.6,183.7 122.3,183.6 123.1,183.4 123.9,183.2 124.7,183.0 125.4,182.8 126.2,182.6 127.0,182.4 127.8,182.2 128.6,182.0 129.3,181.9 130.1,181.7 130.9,181.5 131.7,181.3 132.4,181.1 133.2,180.9 134.0,180.7 134.8,180.5 135.5,180.2 136.3,180.0 137.1,179.8 137.9,179.6 138.6,179.4 139.4,179.2 140.2,179.0 140.9,178.8 141.7,178.6 142.5,178.3 143.3,178.1 144.1,177.9 144.8,177.7 145.6,177.4 146.4,177.2 147.1,177.0 147.9,176.8 148.7,176.5 149.5,176.3 150.2,176.1 151.0,175.8 151.8,175.6 152.6,175.3 153.4,175.1 154.1,174.9 154.9,174.6 155.7,174.4 156.4,174.1 157.2,173.9 158.0,173.6 158.8,173.4 159.6,173.1 160.3,172.9 161.1,172.6 161.9,172.3 162.7,172.1 163.4,171.8 164.2,171.5 165.0,171.3 165.8,171.0 166.5,170.7 167.3,170.5 168.1,170.2 168.8,169.9 169.6,169.6 170.4,169.4 171.2,169.1 171.9,168.8 172.7,168.5 173.5,168.2 174.3,167.9 175.1,167.6 175.8,167.3 176.6,167.0 177.4,166.7 178.2,166.4 178.9,166.1 179.7,165.8 180.5,165.5 181.2,165.2 182.0,164.9 182.8,164.6 183.6,164.3 184.3,164.0 185.1,163.6 185.9,163.3 186.7,163.0 187.4,162.7 188.2,162.3 189.0,162.0 189.8,161.7 190.6,161.3 191.3,161.0 192.1,160.7 192.9,160.3 193.7,160.0 194.4,159.6 195.2,159.3 196.0,158.9 196.8,158.6 197.5,158.2 198.3,157.8 199.1,157.5 199.9,157.1 200.6,156.7 201.4,156.4 202.2,156.0 203.0,155.6 203.7,155.2 204.5,154.9 205.3,154.5 206.1,154.1 206.8,153.7 207.6,153.3 208.4,152.9 209.1,152.5 209.9,152.1 210.7,151.7 211.5,151.3 212.2,150.9 213.0,150.5 213.8,150.1 214.6,149.7 215.3,149.2 216.1,148.8 216.9,148.4 217.7,148.0 218.4,147.5 219.2,147.1 220.0,146.7 220.8,146.2 221.5,145.8 222.3,145.3 223.1,144.9 223.9,144.4 224.7,144.0 225.4,143.5 226.2,143.1 227.0,142.6 227.8,142.1 228.5,141.6 229.3,141.2 230.1,140.7 230.8,140.2 231.6,139.7 232.4,139.2 233.2,138.7 234.0,138.2 234.7,137.7 235.5,137.2 236.3,136.7 237.1,136.2 237.8,135.7 238.6,135.2 239.4,134.7 240.2,134.2 240.9,133.6 241.7,133.1 242.5,132.6 243.2,132.0 244.0,131.5 244.8,130.9 245.6,130.4 246.4,129.8 247.1,129.3 247.9,128.7 248.7,128.1 249.4,127.6 250.2,127.0 251.0,126.4 251.8,125.8 252.5,125.3 253.3,124.7 254.1,124.1 254.9,123.5 255.6,122.9 256.4,122.3 257.2,121.7 258.0,121.0 258.8,120.4 259.5,119.8 260.3,119.2 261.1,118.5 261.9,117.9 262.6,117.3 263.4,116.6 264.2,116.0 264.9,115.3 265.7,114.7 266.5,114.0 267.3,113.3 268.1,112.7 268.8,112.0 269.6,111.3 270.4,110.6 271.1,109.9 271.9,109.2 272.7,108.5 273.5,107.8 274.2,107.1 275.0,106.4 275.8,105.7 276.6,104.9 277.4,104.2 278.1,103.5 278.9,102.7 279.7,102.0 280.5,101.2 281.2,100.5 282.0,99.7 282.8,99.0 283.6,98.2 284.3,97.4 285.1,96.6 285.9,95.8 286.6,95.0 287.4,94.2 288.2,93.4 289.0,92.6 289.8,91.8 290.5,91.0 291.3,90.2 292.1,89.3 292.8,88.5 293.6,87.6 294.4,86.8 295.2,85.9 295.9,85.1 296.7,84.2 297.5,83.3 298.3,82.4 299.1,81.6 299.8,80.7 300.6,79.8 301.4,78.9 302.1,77.9 302.9,77.0 303.7,76.1 304.5,75.2 305.2,74.2 306.0,73.3 306.8,72.3 307.6,71.4 308.4,70.4 309.1,69.4 309.9,68.5 310.7,67.5 311.4,66.5 312.2,65.5 313.0,64.5 313.8,63.5 314.6,62.5 315.3,61.4 316.1,60.4 316.9,59.4 317.7,58.3 318.4,57.3 319.2,56.2 320.0,55.1 320.8,54.0 321.5,53.0 322.3,51.9 323.1,50.8 323.9,49.7 324.6,48.5 325.4,47.4 326.2,46.3 326.9,45.2 327.7,44.0 328.5,42.9 329.3,41.7 330.1,40.5 330.8,39.3 331.6,38.2 332.4,37.0 333.1,35.8 333.9,34.5 334.7,33.3 335.5,32.1 336.2,30.9 337.0,29.6 337.8,28.4 338.6,27.1 339.4,25.8 340.1,24.5 340.9,23.3 341.7,22.0 342.4,20.6 343.2,19.3 344.0,18.0\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.4\"/><text x=\"65.0\" y=\"186.2\" font-family=\"Arial,sans-serif\" fill=\"#c0392b\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">y = 2ˣ</text><polyline points=\"34.0,228.5 34.8,228.2 35.6,227.9 36.3,227.5 37.1,227.2 37.9,226.9 38.7,226.5 39.4,226.2 40.2,225.9 41.0,225.5 41.8,225.2 42.5,224.9 43.3,224.5 44.1,224.2 44.9,223.9 45.6,223.6 46.4,223.2 47.2,222.9 47.9,222.6 48.7,222.2 49.5,221.9 50.3,221.6 51.0,221.2 51.8,220.9 52.6,220.6 53.4,220.2 54.2,219.9 54.9,219.6 55.7,219.2 56.5,218.9 57.2,218.6 58.0,218.2 58.8,217.9 59.6,217.6 60.4,217.2 61.1,216.9 61.9,216.6 62.7,216.2 63.5,215.9 64.2,215.6 65.0,215.2 65.8,214.9 66.5,214.6 67.3,214.2 68.1,213.9 68.9,213.6 69.7,213.2 70.4,212.9 71.2,212.6 72.0,212.2 72.8,211.9 73.5,211.6 74.3,211.2 75.1,210.9 75.8,210.6 76.6,210.2 77.4,209.9 78.2,209.6 78.9,209.2 79.7,208.9 80.5,208.6 81.3,208.2 82.0,207.9 82.8,207.6 83.6,207.2 84.4,206.9 85.2,206.6 85.9,206.3 86.7,205.9 87.5,205.6 88.2,205.3 89.0,204.9 89.8,204.6 90.6,204.3 91.3,203.9 92.1,203.6 92.9,203.3 93.7,202.9 94.5,202.6 95.2,202.3 96.0,201.9 96.8,201.6 97.5,201.3 98.3,200.9 99.1,200.6 99.9,200.3 100.7,199.9 101.4,199.6 102.2,199.3 103.0,198.9 103.8,198.6 104.5,198.3 105.3,197.9 106.1,197.6 106.8,197.3 107.6,196.9 108.4,196.6 109.2,196.3 110.0,195.9 110.7,195.6 111.5,195.3 112.3,194.9 113.0,194.6 113.8,194.3 114.6,193.9 115.4,193.6 116.2,193.3 116.9,192.9 117.7,192.6 118.5,192.3 119.2,191.9 120.0,191.6 120.8,191.3 121.6,190.9 122.3,190.6 123.1,190.3 123.9,189.9 124.7,189.6 125.4,189.3 126.2,188.9 127.0,188.6 127.8,188.3 128.6,188.0 129.3,187.6 130.1,187.3 130.9,187.0 131.7,186.6 132.4,186.3 133.2,186.0 134.0,185.6 134.8,185.3 135.5,185.0 136.3,184.6 137.1,184.3 137.9,184.0 138.6,183.6 139.4,183.3 140.2,183.0 140.9,182.6 141.7,182.3 142.5,182.0 143.3,181.6 144.1,181.3 144.8,181.0 145.6,180.6 146.4,180.3 147.1,180.0 147.9,179.6 148.7,179.3 149.5,179.0 150.2,178.6 151.0,178.3 151.8,178.0 152.6,177.6 153.4,177.3 154.1,177.0 154.9,176.6 155.7,176.3 156.4,176.0 157.2,175.6 158.0,175.3 158.8,175.0 159.6,174.6 160.3,174.3 161.1,174.0 161.9,173.6 162.7,173.3 163.4,173.0 164.2,172.6 165.0,172.3 165.8,172.0 166.5,171.6 167.3,171.3 168.1,171.0 168.8,170.7 169.6,170.3 170.4,170.0 171.2,169.7 171.9,169.3 172.7,169.0 173.5,168.7 174.3,168.3 175.1,168.0 175.8,167.7 176.6,167.3 177.4,167.0 178.2,166.7 178.9,166.3 179.7,166.0 180.5,165.7 181.2,165.3 182.0,165.0 182.8,164.7 183.6,164.3 184.3,164.0 185.1,163.7 185.9,163.3 186.7,163.0 187.4,162.7 188.2,162.3 189.0,162.0 189.8,161.7 190.6,161.3 191.3,161.0 192.1,160.7 192.9,160.3 193.7,160.0 194.4,159.7 195.2,159.3 196.0,159.0 196.8,158.7 197.5,158.3 198.3,158.0 199.1,157.7 199.9,157.3 200.6,157.0 201.4,156.7 202.2,156.3 203.0,156.0 203.7,155.7 204.5,155.3 205.3,155.0 206.1,154.7 206.8,154.3 207.6,154.0 208.4,153.7 209.1,153.3 209.9,153.0 210.7,152.7 211.5,152.4 212.2,152.0 213.0,151.7 213.8,151.4 214.6,151.0 215.3,150.7 216.1,150.4 216.9,150.0 217.7,149.7 218.4,149.4 219.2,149.0 220.0,148.7 220.8,148.4 221.5,148.0 222.3,147.7 223.1,147.4 223.9,147.0 224.7,146.7 225.4,146.4 226.2,146.0 227.0,145.7 227.8,145.4 228.5,145.0 229.3,144.7 230.1,144.4 230.8,144.0 231.6,143.7 232.4,143.4 233.2,143.0 234.0,142.7 234.7,142.4 235.5,142.0 236.3,141.7 237.1,141.4 237.8,141.0 238.6,140.7 239.4,140.4 240.2,140.0 240.9,139.7 241.7,139.4 242.5,139.0 243.2,138.7 244.0,138.4 244.8,138.0 245.6,137.7 246.4,137.4 247.1,137.0 247.9,136.7 248.7,136.4 249.4,136.0 250.2,135.7 251.0,135.4 251.8,135.1 252.5,134.7 253.3,134.4 254.1,134.1 254.9,133.7 255.6,133.4 256.4,133.1 257.2,132.7 258.0,132.4 258.8,132.1 259.5,131.7 260.3,131.4 261.1,131.1 261.9,130.7 262.6,130.4 263.4,130.1 264.2,129.7 264.9,129.4 265.7,129.1 266.5,128.7 267.3,128.4 268.1,128.1 268.8,127.7 269.6,127.4 270.4,127.1 271.1,126.7 271.9,126.4 272.7,126.1 273.5,125.7 274.2,125.4 275.0,125.1 275.8,124.7 276.6,124.4 277.4,124.1 278.1,123.7 278.9,123.4 279.7,123.1 280.5,122.7 281.2,122.4 282.0,122.1 282.8,121.7 283.6,121.4 284.3,121.1 285.1,120.7 285.9,120.4 286.6,120.1 287.4,119.7 288.2,119.4 289.0,119.1 289.8,118.7 290.5,118.4 291.3,118.1 292.1,117.7 292.8,117.4 293.6,117.1 294.4,116.8 295.2,116.4 295.9,116.1 296.7,115.8 297.5,115.4 298.3,115.1 299.1,114.8 299.8,114.4 300.6,114.1 301.4,113.8 302.1,113.4 302.9,113.1 303.7,112.8 304.5,112.4 305.2,112.1 306.0,111.8 306.8,111.4 307.6,111.1 308.4,110.8 309.1,110.4 309.9,110.1 310.7,109.8 311.4,109.4 312.2,109.1 313.0,108.8 313.8,108.4 314.6,108.1 315.3,107.8 316.1,107.4 316.9,107.1 317.7,106.8 318.4,106.4 319.2,106.1 320.0,105.8 320.8,105.4 321.5,105.1 322.3,104.8 323.1,104.4 323.9,104.1 324.6,103.8 325.4,103.4 326.2,103.1 326.9,102.8 327.7,102.4 328.5,102.1 329.3,101.8 330.1,101.4 330.8,101.1 331.6,100.8 332.4,100.4 333.1,100.1 333.9,99.8 334.7,99.5 335.5,99.1 336.2,98.8 337.0,98.5 337.8,98.1 338.6,97.8 339.4,97.5 340.1,97.1 340.9,96.8 341.7,96.5 342.4,96.1 343.2,95.8 344.0,95.5\" fill=\"none\" stroke=\"#1f6fb2\" stroke-width=\"2.4\"/><text x=\"313.0\" y=\"100.8\" font-family=\"Arial,sans-serif\" fill=\"#1f6fb2\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">tangent</text><circle cx=\"189.0\" cy=\"162.0\" r=\"4.5\" fill=\"#f1c40f\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"182.0\" y=\"154.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">(1, 2)</text></svg></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=1{,}386x+0{,}614\\)</p></div>",
     "familj": "Numerisk derivering och tangenter med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -25892,7 +25892,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Antalet bakterier beskrivs av \\(N(t)=800\\cdot1{,}18^t\\), där \\(t\\) är tiden i timmar.</p><p>Bestäm grafiskt när antalet passerar 3 000. Svara i timmar med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rita modellen och den horisontella linjen för det efterfrågade värdet. Skärningspunktens t-koordinat ger tidpunkten.</p></li><li><p>Skärningen ligger vid ungefär \\(t=7,98574\\), alltså <strong>8,0 timmar</strong> med en decimal.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(8\\) h</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ekvationen som ska lösas</p><div class=\"facit-matte\">\\[800\\cdot1{,}18^t=3\\,000\\]</div></li><li><p class=\"facit-rubrik\">Rita modellen och den vågräta linjen</p><p>Rita \\(N(t)\\) och \\(y=3\\,000\\) i GeoGebra och använd Skärning. Grafen är ritad i tusental.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"260\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"Grafen till N(t) = 800 · 1,18^t i tusental och linjen N = 3 000. De skär varandra vid t ≈ 7,99.\"><title>Grafen till N(t) = 800 · 1,18^t i tusental och linjen N = 3 000. De skär varandra vid t ≈ 7,99.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"34.0\" y1=\"18\" x2=\"34.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"85.7\" y1=\"18\" x2=\"85.7\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"85.7\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">2</text><line x1=\"137.3\" y1=\"18\" x2=\"137.3\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"137.3\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">4</text><line x1=\"189.0\" y1=\"18\" x2=\"189.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"189.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">6</text><line x1=\"240.7\" y1=\"18\" x2=\"240.7\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"240.7\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">8</text><line x1=\"292.3\" y1=\"18\" x2=\"292.3\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"292.3\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">10</text><line x1=\"344.0\" y1=\"18\" x2=\"344.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"344.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">12</text><line x1=\"34\" y1=\"234.0\" x2=\"344\" y2=\"234.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"34\" y1=\"198.0\" x2=\"344\" y2=\"198.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"202.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">1</text><line x1=\"34\" y1=\"162.0\" x2=\"344\" y2=\"162.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"166.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">2</text><line x1=\"34\" y1=\"126.0\" x2=\"344\" y2=\"126.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">3</text><line x1=\"34\" y1=\"90.0\" x2=\"344\" y2=\"90.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"94.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">4</text><line x1=\"34\" y1=\"54.0\" x2=\"344\" y2=\"54.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">5</text><line x1=\"34\" y1=\"18.0\" x2=\"344\" y2=\"18.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"22.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">6</text><line x1=\"34\" y1=\"234.0\" x2=\"350\" y2=\"234.0\" stroke=\"#243447\" stroke-width=\"1.5\"/><line x1=\"34.0\" y1=\"234\" x2=\"34.0\" y2=\"10\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"356\" y=\"229.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" text-anchor=\"end\">t (h)</text><text x=\"40.0\" y=\"12\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\">N (tusental)</text><text x=\"29.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\">0</text><polyline points=\"34.0,205.2 34.8,205.1 35.5,204.9 36.3,204.8 37.1,204.6 37.9,204.5 38.6,204.3 39.4,204.2 40.2,204.0 41.0,203.9 41.8,203.7 42.5,203.6 43.3,203.4 44.1,203.3 44.9,203.1 45.6,203.0 46.4,202.8 47.2,202.7 48.0,202.5 48.7,202.4 49.5,202.2 50.3,202.0 51.0,201.9 51.8,201.7 52.6,201.6 53.4,201.4 54.2,201.2 54.9,201.1 55.7,200.9 56.5,200.7 57.2,200.6 58.0,200.4 58.8,200.2 59.6,200.1 60.4,199.9 61.1,199.7 61.9,199.6 62.7,199.4 63.4,199.2 64.2,199.0 65.0,198.9 65.8,198.7 66.5,198.5 67.3,198.3 68.1,198.2 68.9,198.0 69.7,197.8 70.4,197.6 71.2,197.4 72.0,197.3 72.8,197.1 73.5,196.9 74.3,196.7 75.1,196.5 75.8,196.3 76.6,196.2 77.4,196.0 78.2,195.8 78.9,195.6 79.7,195.4 80.5,195.2 81.3,195.0 82.0,194.8 82.8,194.6 83.6,194.4 84.4,194.2 85.2,194.0 85.9,193.8 86.7,193.6 87.5,193.4 88.2,193.2 89.0,193.0 89.8,192.8 90.6,192.6 91.4,192.4 92.1,192.2 92.9,192.0 93.7,191.8 94.4,191.6 95.2,191.4 96.0,191.2 96.8,190.9 97.5,190.7 98.3,190.5 99.1,190.3 99.9,190.1 100.7,189.9 101.4,189.6 102.2,189.4 103.0,189.2 103.8,189.0 104.5,188.7 105.3,188.5 106.1,188.3 106.8,188.1 107.6,187.8 108.4,187.6 109.2,187.4 110.0,187.1 110.7,186.9 111.5,186.7 112.3,186.4 113.0,186.2 113.8,186.0 114.6,185.7 115.4,185.5 116.2,185.2 116.9,185.0 117.7,184.8 118.5,184.5 119.2,184.3 120.0,184.0 120.8,183.8 121.6,183.5 122.3,183.3 123.1,183.0 123.9,182.8 124.7,182.5 125.4,182.3 126.2,182.0 127.0,181.7 127.8,181.5 128.6,181.2 129.3,181.0 130.1,180.7 130.9,180.4 131.7,180.2 132.4,179.9 133.2,179.6 134.0,179.4 134.8,179.1 135.5,178.8 136.3,178.5 137.1,178.3 137.8,178.0 138.6,177.7 139.4,177.4 140.2,177.1 140.9,176.9 141.7,176.6 142.5,176.3 143.3,176.0 144.1,175.7 144.8,175.4 145.6,175.1 146.4,174.8 147.1,174.5 147.9,174.2 148.7,173.9 149.5,173.6 150.2,173.3 151.0,173.0 151.8,172.7 152.6,172.4 153.4,172.1 154.1,171.8 154.9,171.5 155.7,171.2 156.4,170.9 157.2,170.6 158.0,170.3 158.8,169.9 159.6,169.6 160.3,169.3 161.1,169.0 161.9,168.7 162.7,168.3 163.4,168.0 164.2,167.7 165.0,167.3 165.8,167.0 166.5,166.7 167.3,166.3 168.1,166.0 168.8,165.7 169.6,165.3 170.4,165.0 171.2,164.6 171.9,164.3 172.7,164.0 173.5,163.6 174.3,163.3 175.1,162.9 175.8,162.5 176.6,162.2 177.4,161.8 178.2,161.5 178.9,161.1 179.7,160.8 180.5,160.4 181.2,160.0 182.0,159.7 182.8,159.3 183.6,158.9 184.4,158.5 185.1,158.2 185.9,157.8 186.7,157.4 187.5,157.0 188.2,156.6 189.0,156.3 189.8,155.9 190.6,155.5 191.3,155.1 192.1,154.7 192.9,154.3 193.7,153.9 194.4,153.5 195.2,153.1 196.0,152.7 196.8,152.3 197.5,151.9 198.3,151.5 199.1,151.1 199.9,150.7 200.6,150.2 201.4,149.8 202.2,149.4 203.0,149.0 203.7,148.6 204.5,148.1 205.3,147.7 206.1,147.3 206.8,146.8 207.6,146.4 208.4,146.0 209.2,145.5 209.9,145.1 210.7,144.7 211.5,144.2 212.3,143.8 213.0,143.3 213.8,142.9 214.6,142.4 215.3,142.0 216.1,141.5 216.9,141.0 217.7,140.6 218.4,140.1 219.2,139.6 220.0,139.2 220.8,138.7 221.5,138.2 222.3,137.7 223.1,137.3 223.9,136.8 224.7,136.3 225.4,135.8 226.2,135.3 227.0,134.8 227.8,134.3 228.5,133.8 229.3,133.3 230.1,132.8 230.8,132.3 231.6,131.8 232.4,131.3 233.2,130.8 234.0,130.3 234.7,129.8 235.5,129.3 236.3,128.7 237.1,128.2 237.8,127.7 238.6,127.2 239.4,126.6 240.2,126.1 240.9,125.6 241.7,125.0 242.5,124.5 243.2,123.9 244.0,123.4 244.8,122.8 245.6,122.3 246.4,121.7 247.1,121.2 247.9,120.6 248.7,120.0 249.4,119.5 250.2,118.9 251.0,118.3 251.8,117.8 252.6,117.2 253.3,116.6 254.1,116.0 254.9,115.4 255.6,114.8 256.4,114.2 257.2,113.6 258.0,113.0 258.8,112.4 259.5,111.8 260.3,111.2 261.1,110.6 261.9,110.0 262.6,109.4 263.4,108.8 264.2,108.1 264.9,107.5 265.7,106.9 266.5,106.3 267.3,105.6 268.1,105.0 268.8,104.3 269.6,103.7 270.4,103.0 271.1,102.4 271.9,101.7 272.7,101.1 273.5,100.4 274.2,99.8 275.0,99.1 275.8,98.4 276.6,97.7 277.4,97.1 278.1,96.4 278.9,95.7 279.7,95.0 280.4,94.3 281.2,93.6 282.0,92.9 282.8,92.2 283.6,91.5 284.3,90.8 285.1,90.1 285.9,89.4 286.6,88.7 287.4,87.9 288.2,87.2 289.0,86.5 289.8,85.7 290.5,85.0 291.3,84.3 292.1,83.5 292.8,82.8 293.6,82.0 294.4,81.3 295.2,80.5 296.0,79.7 296.7,79.0 297.5,78.2 298.3,77.4 299.1,76.6 299.8,75.9 300.6,75.1 301.4,74.3 302.2,73.5 302.9,72.7 303.7,71.9 304.5,71.1 305.2,70.3 306.0,69.4 306.8,68.6 307.6,67.8 308.3,67.0 309.1,66.1 309.9,65.3 310.7,64.5 311.4,63.6 312.2,62.8 313.0,61.9 313.8,61.1 314.5,60.2 315.3,59.3 316.1,58.5 316.9,57.6 317.7,56.7 318.4,55.8 319.2,55.0 320.0,54.1 320.8,53.2 321.5,52.3 322.3,51.4 323.1,50.5 323.9,49.5 324.6,48.6 325.4,47.7 326.2,46.8 326.9,45.8 327.7,44.9 328.5,44.0 329.3,43.0 330.1,42.1 330.8,41.1 331.6,40.1 332.4,39.2 333.1,38.2 333.9,37.2 334.7,36.3 335.5,35.3 336.2,34.3 337.0,33.3 337.8,32.3 338.6,31.3 339.4,30.3 340.1,29.3 340.9,28.2 341.7,27.2 342.4,26.2 343.2,25.2 344.0,24.1\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.4\"/><text x=\"307.8\" y=\"59.5\" font-family=\"Arial,sans-serif\" fill=\"#c0392b\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">N(t)</text><polyline points=\"34.0,126.0 34.8,126.0 35.5,126.0 36.3,126.0 37.1,126.0 37.9,126.0 38.6,126.0 39.4,126.0 40.2,126.0 41.0,126.0 41.8,126.0 42.5,126.0 43.3,126.0 44.1,126.0 44.9,126.0 45.6,126.0 46.4,126.0 47.2,126.0 48.0,126.0 48.7,126.0 49.5,126.0 50.3,126.0 51.0,126.0 51.8,126.0 52.6,126.0 53.4,126.0 54.2,126.0 54.9,126.0 55.7,126.0 56.5,126.0 57.2,126.0 58.0,126.0 58.8,126.0 59.6,126.0 60.4,126.0 61.1,126.0 61.9,126.0 62.7,126.0 63.4,126.0 64.2,126.0 65.0,126.0 65.8,126.0 66.5,126.0 67.3,126.0 68.1,126.0 68.9,126.0 69.7,126.0 70.4,126.0 71.2,126.0 72.0,126.0 72.8,126.0 73.5,126.0 74.3,126.0 75.1,126.0 75.8,126.0 76.6,126.0 77.4,126.0 78.2,126.0 78.9,126.0 79.7,126.0 80.5,126.0 81.3,126.0 82.0,126.0 82.8,126.0 83.6,126.0 84.4,126.0 85.2,126.0 85.9,126.0 86.7,126.0 87.5,126.0 88.2,126.0 89.0,126.0 89.8,126.0 90.6,126.0 91.4,126.0 92.1,126.0 92.9,126.0 93.7,126.0 94.4,126.0 95.2,126.0 96.0,126.0 96.8,126.0 97.5,126.0 98.3,126.0 99.1,126.0 99.9,126.0 100.7,126.0 101.4,126.0 102.2,126.0 103.0,126.0 103.8,126.0 104.5,126.0 105.3,126.0 106.1,126.0 106.8,126.0 107.6,126.0 108.4,126.0 109.2,126.0 110.0,126.0 110.7,126.0 111.5,126.0 112.3,126.0 113.0,126.0 113.8,126.0 114.6,126.0 115.4,126.0 116.2,126.0 116.9,126.0 117.7,126.0 118.5,126.0 119.2,126.0 120.0,126.0 120.8,126.0 121.6,126.0 122.3,126.0 123.1,126.0 123.9,126.0 124.7,126.0 125.4,126.0 126.2,126.0 127.0,126.0 127.8,126.0 128.6,126.0 129.3,126.0 130.1,126.0 130.9,126.0 131.7,126.0 132.4,126.0 133.2,126.0 134.0,126.0 134.8,126.0 135.5,126.0 136.3,126.0 137.1,126.0 137.8,126.0 138.6,126.0 139.4,126.0 140.2,126.0 140.9,126.0 141.7,126.0 142.5,126.0 143.3,126.0 144.1,126.0 144.8,126.0 145.6,126.0 146.4,126.0 147.1,126.0 147.9,126.0 148.7,126.0 149.5,126.0 150.2,126.0 151.0,126.0 151.8,126.0 152.6,126.0 153.4,126.0 154.1,126.0 154.9,126.0 155.7,126.0 156.4,126.0 157.2,126.0 158.0,126.0 158.8,126.0 159.6,126.0 160.3,126.0 161.1,126.0 161.9,126.0 162.7,126.0 163.4,126.0 164.2,126.0 165.0,126.0 165.8,126.0 166.5,126.0 167.3,126.0 168.1,126.0 168.8,126.0 169.6,126.0 170.4,126.0 171.2,126.0 171.9,126.0 172.7,126.0 173.5,126.0 174.3,126.0 175.1,126.0 175.8,126.0 176.6,126.0 177.4,126.0 178.2,126.0 178.9,126.0 179.7,126.0 180.5,126.0 181.2,126.0 182.0,126.0 182.8,126.0 183.6,126.0 184.4,126.0 185.1,126.0 185.9,126.0 186.7,126.0 187.5,126.0 188.2,126.0 189.0,126.0 189.8,126.0 190.6,126.0 191.3,126.0 192.1,126.0 192.9,126.0 193.7,126.0 194.4,126.0 195.2,126.0 196.0,126.0 196.8,126.0 197.5,126.0 198.3,126.0 199.1,126.0 199.9,126.0 200.6,126.0 201.4,126.0 202.2,126.0 203.0,126.0 203.7,126.0 204.5,126.0 205.3,126.0 206.1,126.0 206.8,126.0 207.6,126.0 208.4,126.0 209.2,126.0 209.9,126.0 210.7,126.0 211.5,126.0 212.3,126.0 213.0,126.0 213.8,126.0 214.6,126.0 215.3,126.0 216.1,126.0 216.9,126.0 217.7,126.0 218.4,126.0 219.2,126.0 220.0,126.0 220.8,126.0 221.5,126.0 222.3,126.0 223.1,126.0 223.9,126.0 224.7,126.0 225.4,126.0 226.2,126.0 227.0,126.0 227.8,126.0 228.5,126.0 229.3,126.0 230.1,126.0 230.8,126.0 231.6,126.0 232.4,126.0 233.2,126.0 234.0,126.0 234.7,126.0 235.5,126.0 236.3,126.0 237.1,126.0 237.8,126.0 238.6,126.0 239.4,126.0 240.2,126.0 240.9,126.0 241.7,126.0 242.5,126.0 243.2,126.0 244.0,126.0 244.8,126.0 245.6,126.0 246.4,126.0 247.1,126.0 247.9,126.0 248.7,126.0 249.4,126.0 250.2,126.0 251.0,126.0 251.8,126.0 252.6,126.0 253.3,126.0 254.1,126.0 254.9,126.0 255.6,126.0 256.4,126.0 257.2,126.0 258.0,126.0 258.8,126.0 259.5,126.0 260.3,126.0 261.1,126.0 261.9,126.0 262.6,126.0 263.4,126.0 264.2,126.0 264.9,126.0 265.7,126.0 266.5,126.0 267.3,126.0 268.1,126.0 268.8,126.0 269.6,126.0 270.4,126.0 271.1,126.0 271.9,126.0 272.7,126.0 273.5,126.0 274.2,126.0 275.0,126.0 275.8,126.0 276.6,126.0 277.4,126.0 278.1,126.0 278.9,126.0 279.7,126.0 280.4,126.0 281.2,126.0 282.0,126.0 282.8,126.0 283.6,126.0 284.3,126.0 285.1,126.0 285.9,126.0 286.6,126.0 287.4,126.0 288.2,126.0 289.0,126.0 289.8,126.0 290.5,126.0 291.3,126.0 292.1,126.0 292.8,126.0 293.6,126.0 294.4,126.0 295.2,126.0 296.0,126.0 296.7,126.0 297.5,126.0 298.3,126.0 299.1,126.0 299.8,126.0 300.6,126.0 301.4,126.0 302.2,126.0 302.9,126.0 303.7,126.0 304.5,126.0 305.2,126.0 306.0,126.0 306.8,126.0 307.6,126.0 308.3,126.0 309.1,126.0 309.9,126.0 310.7,126.0 311.4,126.0 312.2,126.0 313.0,126.0 313.8,126.0 314.5,126.0 315.3,126.0 316.1,126.0 316.9,126.0 317.7,126.0 318.4,126.0 319.2,126.0 320.0,126.0 320.8,126.0 321.5,126.0 322.3,126.0 323.1,126.0 323.9,126.0 324.6,126.0 325.4,126.0 326.2,126.0 326.9,126.0 327.7,126.0 328.5,126.0 329.3,126.0 330.1,126.0 330.8,126.0 331.6,126.0 332.4,126.0 333.1,126.0 333.9,126.0 334.7,126.0 335.5,126.0 336.2,126.0 337.0,126.0 337.8,126.0 338.6,126.0 339.4,126.0 340.1,126.0 340.9,126.0 341.7,126.0 342.4,126.0 343.2,126.0 344.0,126.0\" fill=\"none\" stroke=\"#1f6fb2\" stroke-width=\"2.4\"/><text x=\"96.0\" y=\"118.0\" font-family=\"Arial,sans-serif\" fill=\"#1f6fb2\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">N = 3 000</text><line x1=\"240.3\" y1=\"126.0\" x2=\"240.3\" y2=\"234.0\" stroke=\"#243447\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><circle cx=\"240.3\" cy=\"126.0\" r=\"4.5\" fill=\"#f1c40f\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"233.3\" y=\"118.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">t ≈ 7,99</text></svg></div></li><li><p class=\"facit-rubrik\">Avläsning och avrundning till en decimal</p><div class=\"facit-matte\">\\[t\\approx7{,}986\\approx8{,}0\\ \\text{h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,0 h</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -25905,7 +25905,7 @@ window.BANKMATO1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Tänk så här: När ett tröskelvärde efterfrågas kan modellen jämföras med en horisontell linje y=c. Skärningspunktens x-koordinat ger då tidpunkten. Kontrollera att den valda skärningen ligger i modellens meningsfulla tidsintervall.</p>",
+    "ledtrad": "<p>Rita \\(N(t)\\) och den vågräta linjen \\(y=3\\,000\\). Var skär de varandra?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -25928,7 +25928,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Värdet av en investering beskrivs av \\(V(t)=25000\\cdot1{,}045^t\\) kronor, där \\(t\\) är tiden i år.</p><p>Bestäm grafiskt när värdet passerar 40 000 kr. Svara i år med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rita modellen och den horisontella linjen för det efterfrågade värdet. Skärningspunktens t-koordinat ger tidpunkten.</p></li><li><p>Skärningen ligger vid ungefär \\(t=10,67780\\), alltså <strong>10,7 år</strong> med en decimal.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(10{,}7\\) år</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ekvationen som ska lösas</p><div class=\"facit-matte\">\\[25\\,000\\cdot1{,}045^t=40\\,000\\]</div></li><li><p class=\"facit-rubrik\">Rita modellen och den vågräta linjen</p><p>Rita \\(V(t)\\) och \\(y=40\\,000\\) och använd Skärning. Grafen är ritad i tusen kronor.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"260\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"Grafen till V(t) = 25 000 · 1,045^t i tusen kronor och linjen V = 40 000. De skär varandra vid t ≈ 10,68.\"><title>Grafen till V(t) = 25 000 · 1,045^t i tusen kronor och linjen V = 40 000. De skär varandra vid t ≈ 10,68.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"34.0\" y1=\"18\" x2=\"34.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"137.3\" y1=\"18\" x2=\"137.3\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"137.3\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">5</text><line x1=\"240.7\" y1=\"18\" x2=\"240.7\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"240.7\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">10</text><line x1=\"344.0\" y1=\"18\" x2=\"344.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"344.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">15</text><line x1=\"34\" y1=\"234.0\" x2=\"344\" y2=\"234.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"34\" y1=\"190.8\" x2=\"344\" y2=\"190.8\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"194.8\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">10</text><line x1=\"34\" y1=\"147.6\" x2=\"344\" y2=\"147.6\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"151.6\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">20</text><line x1=\"34\" y1=\"104.4\" x2=\"344\" y2=\"104.4\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"108.4\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">30</text><line x1=\"34\" y1=\"61.2\" x2=\"344\" y2=\"61.2\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"65.2\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">40</text><line x1=\"34\" y1=\"18.0\" x2=\"344\" y2=\"18.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"22.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">50</text><line x1=\"34\" y1=\"234.0\" x2=\"350\" y2=\"234.0\" stroke=\"#243447\" stroke-width=\"1.5\"/><line x1=\"34.0\" y1=\"234\" x2=\"34.0\" y2=\"10\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"356\" y=\"229.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" text-anchor=\"end\">t (år)</text><text x=\"40.0\" y=\"12\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\">V (tusen kr)</text><text x=\"29.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\">0</text><polyline points=\"34.0,126.0 34.8,125.8 35.5,125.6 36.3,125.5 37.1,125.3 37.9,125.1 38.6,124.9 39.4,124.7 40.2,124.6 41.0,124.4 41.8,124.2 42.5,124.0 43.3,123.8 44.1,123.7 44.9,123.5 45.6,123.3 46.4,123.1 47.2,122.9 48.0,122.7 48.7,122.6 49.5,122.4 50.3,122.2 51.0,122.0 51.8,121.8 52.6,121.6 53.4,121.5 54.2,121.3 54.9,121.1 55.7,120.9 56.5,120.7 57.2,120.5 58.0,120.3 58.8,120.1 59.6,120.0 60.3,119.8 61.1,119.6 61.9,119.4 62.7,119.2 63.5,119.0 64.2,118.8 65.0,118.6 65.8,118.4 66.5,118.2 67.3,118.1 68.1,117.9 68.9,117.7 69.7,117.5 70.4,117.3 71.2,117.1 72.0,116.9 72.8,116.7 73.5,116.5 74.3,116.3 75.1,116.1 75.8,115.9 76.6,115.7 77.4,115.5 78.2,115.3 78.9,115.1 79.7,115.0 80.5,114.8 81.3,114.6 82.0,114.4 82.8,114.2 83.6,114.0 84.4,113.8 85.2,113.6 85.9,113.4 86.7,113.2 87.5,113.0 88.2,112.8 89.0,112.6 89.8,112.4 90.6,112.2 91.3,112.0 92.1,111.8 92.9,111.6 93.7,111.4 94.4,111.2 95.2,111.0 96.0,110.8 96.8,110.6 97.6,110.3 98.3,110.1 99.1,109.9 99.9,109.7 100.7,109.5 101.4,109.3 102.2,109.1 103.0,108.9 103.8,108.7 104.5,108.5 105.3,108.3 106.1,108.1 106.8,107.9 107.6,107.7 108.4,107.5 109.2,107.2 110.0,107.0 110.7,106.8 111.5,106.6 112.3,106.4 113.0,106.2 113.8,106.0 114.6,105.8 115.4,105.6 116.2,105.3 116.9,105.1 117.7,104.9 118.5,104.7 119.2,104.5 120.0,104.3 120.8,104.1 121.6,103.9 122.4,103.6 123.1,103.4 123.9,103.2 124.7,103.0 125.4,102.8 126.2,102.6 127.0,102.3 127.8,102.1 128.6,101.9 129.3,101.7 130.1,101.5 130.9,101.3 131.7,101.0 132.4,100.8 133.2,100.6 134.0,100.4 134.8,100.2 135.5,99.9 136.3,99.7 137.1,99.5 137.9,99.3 138.6,99.0 139.4,98.8 140.2,98.6 140.9,98.4 141.7,98.1 142.5,97.9 143.3,97.7 144.1,97.5 144.8,97.2 145.6,97.0 146.4,96.8 147.1,96.6 147.9,96.3 148.7,96.1 149.5,95.9 150.2,95.7 151.0,95.4 151.8,95.2 152.6,95.0 153.4,94.7 154.1,94.5 154.9,94.3 155.7,94.1 156.4,93.8 157.2,93.6 158.0,93.4 158.8,93.1 159.6,92.9 160.3,92.7 161.1,92.4 161.9,92.2 162.7,92.0 163.4,91.7 164.2,91.5 165.0,91.3 165.8,91.0 166.5,90.8 167.3,90.5 168.1,90.3 168.8,90.1 169.6,89.8 170.4,89.6 171.2,89.4 171.9,89.1 172.7,88.9 173.5,88.6 174.3,88.4 175.1,88.2 175.8,87.9 176.6,87.7 177.4,87.4 178.1,87.2 178.9,86.9 179.7,86.7 180.5,86.5 181.2,86.2 182.0,86.0 182.8,85.7 183.6,85.5 184.4,85.2 185.1,85.0 185.9,84.7 186.7,84.5 187.4,84.3 188.2,84.0 189.0,83.8 189.8,83.5 190.6,83.3 191.3,83.0 192.1,82.8 192.9,82.5 193.7,82.3 194.4,82.0 195.2,81.8 196.0,81.5 196.8,81.3 197.5,81.0 198.3,80.8 199.1,80.5 199.9,80.2 200.6,80.0 201.4,79.7 202.2,79.5 203.0,79.2 203.7,79.0 204.5,78.7 205.3,78.5 206.0,78.2 206.8,77.9 207.6,77.7 208.4,77.4 209.1,77.2 209.9,76.9 210.7,76.6 211.5,76.4 212.2,76.1 213.0,75.9 213.8,75.6 214.6,75.3 215.4,75.1 216.1,74.8 216.9,74.6 217.7,74.3 218.5,74.0 219.2,73.8 220.0,73.5 220.8,73.2 221.5,73.0 222.3,72.7 223.1,72.4 223.9,72.2 224.7,71.9 225.4,71.6 226.2,71.4 227.0,71.1 227.8,70.8 228.5,70.6 229.3,70.3 230.1,70.0 230.8,69.7 231.6,69.5 232.4,69.2 233.2,68.9 234.0,68.7 234.7,68.4 235.5,68.1 236.3,67.8 237.0,67.6 237.8,67.3 238.6,67.0 239.4,66.7 240.1,66.5 240.9,66.2 241.7,65.9 242.5,65.6 243.2,65.4 244.0,65.1 244.8,64.8 245.6,64.5 246.4,64.2 247.1,64.0 247.9,63.7 248.7,63.4 249.5,63.1 250.2,62.8 251.0,62.5 251.8,62.3 252.5,62.0 253.3,61.7 254.1,61.4 254.9,61.1 255.6,60.8 256.4,60.6 257.2,60.3 258.0,60.0 258.8,59.7 259.5,59.4 260.3,59.1 261.1,58.8 261.9,58.5 262.6,58.2 263.4,58.0 264.2,57.7 264.9,57.4 265.7,57.1 266.5,56.8 267.3,56.5 268.1,56.2 268.8,55.9 269.6,55.6 270.4,55.3 271.1,55.0 271.9,54.7 272.7,54.4 273.5,54.1 274.2,53.8 275.0,53.5 275.8,53.2 276.6,52.9 277.4,52.6 278.1,52.4 278.9,52.1 279.7,51.7 280.5,51.4 281.2,51.1 282.0,50.8 282.8,50.5 283.5,50.2 284.3,49.9 285.1,49.6 285.9,49.3 286.6,49.0 287.4,48.7 288.2,48.4 289.0,48.1 289.8,47.8 290.5,47.5 291.3,47.2 292.1,46.9 292.9,46.6 293.6,46.3 294.4,45.9 295.2,45.6 296.0,45.3 296.7,45.0 297.5,44.7 298.3,44.4 299.1,44.1 299.8,43.8 300.6,43.4 301.4,43.1 302.1,42.8 302.9,42.5 303.7,42.2 304.5,41.9 305.2,41.5 306.0,41.2 306.8,40.9 307.6,40.6 308.4,40.3 309.1,40.0 309.9,39.6 310.7,39.3 311.4,39.0 312.2,38.7 313.0,38.3 313.8,38.0 314.5,37.7 315.3,37.4 316.1,37.0 316.9,36.7 317.6,36.4 318.4,36.1 319.2,35.7 320.0,35.4 320.8,35.1 321.5,34.8 322.3,34.4 323.1,34.1 323.9,33.8 324.6,33.4 325.4,33.1 326.2,32.8 327.0,32.4 327.7,32.1 328.5,31.8 329.3,31.4 330.1,31.1 330.8,30.8 331.6,30.4 332.4,30.1 333.1,29.8 333.9,29.4 334.7,29.1 335.5,28.8 336.2,28.4 337.0,28.1 337.8,27.7 338.6,27.4 339.4,27.0 340.1,26.7 340.9,26.4 341.7,26.0 342.4,25.7 343.2,25.3 344.0,25.0\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.4\"/><text x=\"313.0\" y=\"30.3\" font-family=\"Arial,sans-serif\" fill=\"#c0392b\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">V(t)</text><polyline points=\"34.0,61.2 34.8,61.2 35.5,61.2 36.3,61.2 37.1,61.2 37.9,61.2 38.6,61.2 39.4,61.2 40.2,61.2 41.0,61.2 41.8,61.2 42.5,61.2 43.3,61.2 44.1,61.2 44.9,61.2 45.6,61.2 46.4,61.2 47.2,61.2 48.0,61.2 48.7,61.2 49.5,61.2 50.3,61.2 51.0,61.2 51.8,61.2 52.6,61.2 53.4,61.2 54.2,61.2 54.9,61.2 55.7,61.2 56.5,61.2 57.2,61.2 58.0,61.2 58.8,61.2 59.6,61.2 60.3,61.2 61.1,61.2 61.9,61.2 62.7,61.2 63.5,61.2 64.2,61.2 65.0,61.2 65.8,61.2 66.5,61.2 67.3,61.2 68.1,61.2 68.9,61.2 69.7,61.2 70.4,61.2 71.2,61.2 72.0,61.2 72.8,61.2 73.5,61.2 74.3,61.2 75.1,61.2 75.8,61.2 76.6,61.2 77.4,61.2 78.2,61.2 78.9,61.2 79.7,61.2 80.5,61.2 81.3,61.2 82.0,61.2 82.8,61.2 83.6,61.2 84.4,61.2 85.2,61.2 85.9,61.2 86.7,61.2 87.5,61.2 88.2,61.2 89.0,61.2 89.8,61.2 90.6,61.2 91.3,61.2 92.1,61.2 92.9,61.2 93.7,61.2 94.4,61.2 95.2,61.2 96.0,61.2 96.8,61.2 97.6,61.2 98.3,61.2 99.1,61.2 99.9,61.2 100.7,61.2 101.4,61.2 102.2,61.2 103.0,61.2 103.8,61.2 104.5,61.2 105.3,61.2 106.1,61.2 106.8,61.2 107.6,61.2 108.4,61.2 109.2,61.2 110.0,61.2 110.7,61.2 111.5,61.2 112.3,61.2 113.0,61.2 113.8,61.2 114.6,61.2 115.4,61.2 116.2,61.2 116.9,61.2 117.7,61.2 118.5,61.2 119.2,61.2 120.0,61.2 120.8,61.2 121.6,61.2 122.4,61.2 123.1,61.2 123.9,61.2 124.7,61.2 125.4,61.2 126.2,61.2 127.0,61.2 127.8,61.2 128.6,61.2 129.3,61.2 130.1,61.2 130.9,61.2 131.7,61.2 132.4,61.2 133.2,61.2 134.0,61.2 134.8,61.2 135.5,61.2 136.3,61.2 137.1,61.2 137.9,61.2 138.6,61.2 139.4,61.2 140.2,61.2 140.9,61.2 141.7,61.2 142.5,61.2 143.3,61.2 144.1,61.2 144.8,61.2 145.6,61.2 146.4,61.2 147.1,61.2 147.9,61.2 148.7,61.2 149.5,61.2 150.2,61.2 151.0,61.2 151.8,61.2 152.6,61.2 153.4,61.2 154.1,61.2 154.9,61.2 155.7,61.2 156.4,61.2 157.2,61.2 158.0,61.2 158.8,61.2 159.6,61.2 160.3,61.2 161.1,61.2 161.9,61.2 162.7,61.2 163.4,61.2 164.2,61.2 165.0,61.2 165.8,61.2 166.5,61.2 167.3,61.2 168.1,61.2 168.8,61.2 169.6,61.2 170.4,61.2 171.2,61.2 171.9,61.2 172.7,61.2 173.5,61.2 174.3,61.2 175.1,61.2 175.8,61.2 176.6,61.2 177.4,61.2 178.1,61.2 178.9,61.2 179.7,61.2 180.5,61.2 181.2,61.2 182.0,61.2 182.8,61.2 183.6,61.2 184.4,61.2 185.1,61.2 185.9,61.2 186.7,61.2 187.4,61.2 188.2,61.2 189.0,61.2 189.8,61.2 190.6,61.2 191.3,61.2 192.1,61.2 192.9,61.2 193.7,61.2 194.4,61.2 195.2,61.2 196.0,61.2 196.8,61.2 197.5,61.2 198.3,61.2 199.1,61.2 199.9,61.2 200.6,61.2 201.4,61.2 202.2,61.2 203.0,61.2 203.7,61.2 204.5,61.2 205.3,61.2 206.0,61.2 206.8,61.2 207.6,61.2 208.4,61.2 209.1,61.2 209.9,61.2 210.7,61.2 211.5,61.2 212.2,61.2 213.0,61.2 213.8,61.2 214.6,61.2 215.4,61.2 216.1,61.2 216.9,61.2 217.7,61.2 218.5,61.2 219.2,61.2 220.0,61.2 220.8,61.2 221.5,61.2 222.3,61.2 223.1,61.2 223.9,61.2 224.7,61.2 225.4,61.2 226.2,61.2 227.0,61.2 227.8,61.2 228.5,61.2 229.3,61.2 230.1,61.2 230.8,61.2 231.6,61.2 232.4,61.2 233.2,61.2 234.0,61.2 234.7,61.2 235.5,61.2 236.3,61.2 237.0,61.2 237.8,61.2 238.6,61.2 239.4,61.2 240.1,61.2 240.9,61.2 241.7,61.2 242.5,61.2 243.2,61.2 244.0,61.2 244.8,61.2 245.6,61.2 246.4,61.2 247.1,61.2 247.9,61.2 248.7,61.2 249.5,61.2 250.2,61.2 251.0,61.2 251.8,61.2 252.5,61.2 253.3,61.2 254.1,61.2 254.9,61.2 255.6,61.2 256.4,61.2 257.2,61.2 258.0,61.2 258.8,61.2 259.5,61.2 260.3,61.2 261.1,61.2 261.9,61.2 262.6,61.2 263.4,61.2 264.2,61.2 264.9,61.2 265.7,61.2 266.5,61.2 267.3,61.2 268.1,61.2 268.8,61.2 269.6,61.2 270.4,61.2 271.1,61.2 271.9,61.2 272.7,61.2 273.5,61.2 274.2,61.2 275.0,61.2 275.8,61.2 276.6,61.2 277.4,61.2 278.1,61.2 278.9,61.2 279.7,61.2 280.5,61.2 281.2,61.2 282.0,61.2 282.8,61.2 283.5,61.2 284.3,61.2 285.1,61.2 285.9,61.2 286.6,61.2 287.4,61.2 288.2,61.2 289.0,61.2 289.8,61.2 290.5,61.2 291.3,61.2 292.1,61.2 292.9,61.2 293.6,61.2 294.4,61.2 295.2,61.2 296.0,61.2 296.7,61.2 297.5,61.2 298.3,61.2 299.1,61.2 299.8,61.2 300.6,61.2 301.4,61.2 302.1,61.2 302.9,61.2 303.7,61.2 304.5,61.2 305.2,61.2 306.0,61.2 306.8,61.2 307.6,61.2 308.4,61.2 309.1,61.2 309.9,61.2 310.7,61.2 311.4,61.2 312.2,61.2 313.0,61.2 313.8,61.2 314.5,61.2 315.3,61.2 316.1,61.2 316.9,61.2 317.6,61.2 318.4,61.2 319.2,61.2 320.0,61.2 320.8,61.2 321.5,61.2 322.3,61.2 323.1,61.2 323.9,61.2 324.6,61.2 325.4,61.2 326.2,61.2 327.0,61.2 327.7,61.2 328.5,61.2 329.3,61.2 330.1,61.2 330.8,61.2 331.6,61.2 332.4,61.2 333.1,61.2 333.9,61.2 334.7,61.2 335.5,61.2 336.2,61.2 337.0,61.2 337.8,61.2 338.6,61.2 339.4,61.2 340.1,61.2 340.9,61.2 341.7,61.2 342.4,61.2 343.2,61.2 344.0,61.2\" fill=\"none\" stroke=\"#1f6fb2\" stroke-width=\"2.4\"/><text x=\"96.0\" y=\"53.2\" font-family=\"Arial,sans-serif\" fill=\"#1f6fb2\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">V = 40 000</text><line x1=\"254.7\" y1=\"61.2\" x2=\"254.7\" y2=\"234.0\" stroke=\"#243447\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><circle cx=\"254.7\" cy=\"61.2\" r=\"4.5\" fill=\"#f1c40f\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"247.7\" y=\"53.2\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">t ≈ 10,68</text></svg></div></li><li><p class=\"facit-rubrik\">Avläsning och avrundning till en decimal</p><div class=\"facit-matte\">\\[t\\approx10{,}678\\approx10{,}7\\ \\text{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10,7 år</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -25942,7 +25942,7 @@ window.BANKMATO1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Tänk så här: När ett tröskelvärde efterfrågas kan modellen jämföras med en horisontell linje y=c. Skärningspunktens x-koordinat ger då tidpunkten. Kontrollera att den valda skärningen ligger i modellens meningsfulla tidsintervall.</p>",
+    "ledtrad": "<p>Rita \\(V(t)\\) och den vågräta linjen \\(y=40\\,000\\). Var skär de varandra?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -25965,7 +25965,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Antalet individer i en population beskrivs av \\(P(t)=1200e^{0{,}08t}\\), där \\(t\\) är tiden i år.</p><p>Använd ett digitalt verktyg för att bestämma när tillväxthastigheten är 150 individer per år. Svara i år med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan beskriver tillväxthastigheten:</p><p>\\[P'(t)=96e^{0{,}08t}.\\]</p></li><li><p>Rita \\(y=96e^{0{,}08x}\\) och \\(y=150\\) i GeoGebra. Skärningspunktens x-koordinat ger tiden.</p></li><li><p>För kontroll kan ekvationen också lösas med logaritmer:</p><p>\\[t=\\frac{\\ln(150/96)}{0{,}08}\\approx5{,}5786.\\]</p></li><li><p><strong>Tillväxthastigheten är 150 individer per år efter cirka 5,6 år.</strong></p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(5{,}6\\) år</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tillväxthastigheten är derivatan</p><div class=\"facit-matte\">\\[P'(t)=1200\\cdot0{,}08e^{0{,}08t}=96e^{0{,}08t}\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(P'(t)=150\\) grafiskt</p><p>Rita \\(y=96e^{0{,}08x}\\) och \\(y=150\\) och använd Skärning.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"260\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"Grafen till P'(t) = 96e^(0,08t) och linjen y = 150. De skär varandra vid t ≈ 5,58.\"><title>Grafen till P'(t) = 96e^(0,08t) och linjen y = 150. De skär varandra vid t ≈ 5,58.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"34.0\" y1=\"18\" x2=\"34.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"96.0\" y1=\"18\" x2=\"96.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"96.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">2</text><line x1=\"158.0\" y1=\"18\" x2=\"158.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"158.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">4</text><line x1=\"220.0\" y1=\"18\" x2=\"220.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"220.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">6</text><line x1=\"282.0\" y1=\"18\" x2=\"282.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"282.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">8</text><line x1=\"344.0\" y1=\"18\" x2=\"344.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"344.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">10</text><line x1=\"34\" y1=\"234.0\" x2=\"344\" y2=\"234.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"34\" y1=\"190.8\" x2=\"344\" y2=\"190.8\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"194.8\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">50</text><line x1=\"34\" y1=\"147.6\" x2=\"344\" y2=\"147.6\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"151.6\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">100</text><line x1=\"34\" y1=\"104.4\" x2=\"344\" y2=\"104.4\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"108.4\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">150</text><line x1=\"34\" y1=\"61.2\" x2=\"344\" y2=\"61.2\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"65.2\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">200</text><line x1=\"34\" y1=\"18.0\" x2=\"344\" y2=\"18.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"22.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">250</text><line x1=\"34\" y1=\"234.0\" x2=\"350\" y2=\"234.0\" stroke=\"#243447\" stroke-width=\"1.5\"/><line x1=\"34.0\" y1=\"234\" x2=\"34.0\" y2=\"10\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"356\" y=\"229.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" text-anchor=\"end\">t (år)</text><text x=\"40.0\" y=\"12\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\">P'(t)</text><text x=\"29.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\">0</text><polyline points=\"34.0,151.1 34.8,150.9 35.5,150.7 36.3,150.6 37.1,150.4 37.9,150.2 38.6,150.1 39.4,149.9 40.2,149.7 41.0,149.5 41.8,149.4 42.5,149.2 43.3,149.0 44.1,148.9 44.9,148.7 45.6,148.5 46.4,148.4 47.2,148.2 48.0,148.0 48.7,147.8 49.5,147.7 50.3,147.5 51.0,147.3 51.8,147.2 52.6,147.0 53.4,146.8 54.2,146.6 54.9,146.5 55.7,146.3 56.5,146.1 57.2,145.9 58.0,145.8 58.8,145.6 59.6,145.4 60.3,145.2 61.1,145.0 61.9,144.9 62.7,144.7 63.5,144.5 64.2,144.3 65.0,144.1 65.8,144.0 66.6,143.8 67.3,143.6 68.1,143.4 68.9,143.2 69.7,143.1 70.4,142.9 71.2,142.7 72.0,142.5 72.8,142.3 73.5,142.1 74.3,142.0 75.1,141.8 75.8,141.6 76.6,141.4 77.4,141.2 78.2,141.0 78.9,140.9 79.7,140.7 80.5,140.5 81.3,140.3 82.0,140.1 82.8,139.9 83.6,139.7 84.4,139.5 85.1,139.4 85.9,139.2 86.7,139.0 87.5,138.8 88.2,138.6 89.0,138.4 89.8,138.2 90.6,138.0 91.3,137.8 92.1,137.6 92.9,137.4 93.7,137.2 94.5,137.1 95.2,136.9 96.0,136.7 96.8,136.5 97.5,136.3 98.3,136.1 99.1,135.9 99.9,135.7 100.7,135.5 101.4,135.3 102.2,135.1 103.0,134.9 103.8,134.7 104.5,134.5 105.3,134.3 106.1,134.1 106.9,133.9 107.6,133.7 108.4,133.5 109.2,133.3 110.0,133.1 110.7,132.9 111.5,132.7 112.3,132.5 113.0,132.3 113.8,132.1 114.6,131.9 115.4,131.7 116.2,131.5 116.9,131.3 117.7,131.1 118.5,130.9 119.2,130.6 120.0,130.4 120.8,130.2 121.6,130.0 122.4,129.8 123.1,129.6 123.9,129.4 124.7,129.2 125.5,129.0 126.2,128.8 127.0,128.6 127.8,128.3 128.6,128.1 129.3,127.9 130.1,127.7 130.9,127.5 131.7,127.3 132.4,127.1 133.2,126.9 134.0,126.6 134.8,126.4 135.5,126.2 136.3,126.0 137.1,125.8 137.9,125.6 138.6,125.3 139.4,125.1 140.2,124.9 140.9,124.7 141.7,124.5 142.5,124.3 143.3,124.0 144.1,123.8 144.8,123.6 145.6,123.4 146.4,123.2 147.1,122.9 147.9,122.7 148.7,122.5 149.5,122.3 150.2,122.0 151.0,121.8 151.8,121.6 152.6,121.4 153.4,121.1 154.1,120.9 154.9,120.7 155.7,120.5 156.4,120.2 157.2,120.0 158.0,119.8 158.8,119.5 159.6,119.3 160.3,119.1 161.1,118.9 161.9,118.6 162.7,118.4 163.4,118.2 164.2,117.9 165.0,117.7 165.8,117.5 166.5,117.2 167.3,117.0 168.1,116.8 168.8,116.5 169.6,116.3 170.4,116.1 171.2,115.8 171.9,115.6 172.7,115.4 173.5,115.1 174.3,114.9 175.0,114.6 175.8,114.4 176.6,114.2 177.4,113.9 178.2,113.7 178.9,113.4 179.7,113.2 180.5,113.0 181.2,112.7 182.0,112.5 182.8,112.2 183.6,112.0 184.3,111.7 185.1,111.5 185.9,111.2 186.7,111.0 187.4,110.8 188.2,110.5 189.0,110.3 189.8,110.0 190.6,109.8 191.3,109.5 192.1,109.3 192.9,109.0 193.7,108.8 194.4,108.5 195.2,108.3 196.0,108.0 196.8,107.8 197.5,107.5 198.3,107.3 199.1,107.0 199.8,106.7 200.6,106.5 201.4,106.2 202.2,106.0 203.0,105.7 203.7,105.5 204.5,105.2 205.3,105.0 206.0,104.7 206.8,104.4 207.6,104.2 208.4,103.9 209.2,103.7 209.9,103.4 210.7,103.1 211.5,102.9 212.2,102.6 213.0,102.3 213.8,102.1 214.6,101.8 215.3,101.6 216.1,101.3 216.9,101.0 217.7,100.8 218.4,100.5 219.2,100.2 220.0,100.0 220.8,99.7 221.5,99.4 222.3,99.1 223.1,98.9 223.9,98.6 224.7,98.3 225.4,98.1 226.2,97.8 227.0,97.5 227.8,97.2 228.5,97.0 229.3,96.7 230.1,96.4 230.8,96.2 231.6,95.9 232.4,95.6 233.2,95.3 234.0,95.0 234.7,94.8 235.5,94.5 236.3,94.2 237.1,93.9 237.8,93.6 238.6,93.4 239.4,93.1 240.2,92.8 240.9,92.5 241.7,92.2 242.5,92.0 243.2,91.7 244.0,91.4 244.8,91.1 245.6,90.8 246.3,90.5 247.1,90.2 247.9,89.9 248.7,89.7 249.5,89.4 250.2,89.1 251.0,88.8 251.8,88.5 252.5,88.2 253.3,87.9 254.1,87.6 254.9,87.3 255.7,87.0 256.4,86.7 257.2,86.5 258.0,86.2 258.8,85.9 259.5,85.6 260.3,85.3 261.1,85.0 261.9,84.7 262.6,84.4 263.4,84.1 264.2,83.8 264.9,83.5 265.7,83.2 266.5,82.9 267.3,82.6 268.1,82.3 268.8,82.0 269.6,81.7 270.4,81.3 271.1,81.0 271.9,80.7 272.7,80.4 273.5,80.1 274.2,79.8 275.0,79.5 275.8,79.2 276.6,78.9 277.3,78.6 278.1,78.3 278.9,78.0 279.7,77.6 280.5,77.3 281.2,77.0 282.0,76.7 282.8,76.4 283.6,76.1 284.3,75.8 285.1,75.4 285.9,75.1 286.6,74.8 287.4,74.5 288.2,74.2 289.0,73.8 289.8,73.5 290.5,73.2 291.3,72.9 292.1,72.6 292.8,72.2 293.6,71.9 294.4,71.6 295.2,71.3 295.9,70.9 296.7,70.6 297.5,70.3 298.3,70.0 299.1,69.6 299.8,69.3 300.6,69.0 301.4,68.6 302.1,68.3 302.9,68.0 303.7,67.6 304.5,67.3 305.2,67.0 306.0,66.6 306.8,66.3 307.6,66.0 308.4,65.6 309.1,65.3 309.9,65.0 310.7,64.6 311.4,64.3 312.2,63.9 313.0,63.6 313.8,63.3 314.6,62.9 315.3,62.6 316.1,62.2 316.9,61.9 317.7,61.5 318.4,61.2 319.2,60.8 320.0,60.5 320.8,60.2 321.5,59.8 322.3,59.5 323.1,59.1 323.8,58.8 324.6,58.4 325.4,58.1 326.2,57.7 326.9,57.4 327.7,57.0 328.5,56.6 329.3,56.3 330.1,55.9 330.8,55.6 331.6,55.2 332.4,54.9 333.2,54.5 333.9,54.1 334.7,53.8 335.5,53.4 336.2,53.1 337.0,52.7 337.8,52.3 338.6,52.0 339.4,51.6 340.1,51.2 340.9,50.9 341.7,50.5 342.4,50.1 343.2,49.8 344.0,49.4\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.4\"/><text x=\"313.0\" y=\"55.6\" font-family=\"Arial,sans-serif\" fill=\"#c0392b\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P'(t)</text><polyline points=\"34.0,104.4 34.8,104.4 35.5,104.4 36.3,104.4 37.1,104.4 37.9,104.4 38.6,104.4 39.4,104.4 40.2,104.4 41.0,104.4 41.8,104.4 42.5,104.4 43.3,104.4 44.1,104.4 44.9,104.4 45.6,104.4 46.4,104.4 47.2,104.4 48.0,104.4 48.7,104.4 49.5,104.4 50.3,104.4 51.0,104.4 51.8,104.4 52.6,104.4 53.4,104.4 54.2,104.4 54.9,104.4 55.7,104.4 56.5,104.4 57.2,104.4 58.0,104.4 58.8,104.4 59.6,104.4 60.3,104.4 61.1,104.4 61.9,104.4 62.7,104.4 63.5,104.4 64.2,104.4 65.0,104.4 65.8,104.4 66.6,104.4 67.3,104.4 68.1,104.4 68.9,104.4 69.7,104.4 70.4,104.4 71.2,104.4 72.0,104.4 72.8,104.4 73.5,104.4 74.3,104.4 75.1,104.4 75.8,104.4 76.6,104.4 77.4,104.4 78.2,104.4 78.9,104.4 79.7,104.4 80.5,104.4 81.3,104.4 82.0,104.4 82.8,104.4 83.6,104.4 84.4,104.4 85.1,104.4 85.9,104.4 86.7,104.4 87.5,104.4 88.2,104.4 89.0,104.4 89.8,104.4 90.6,104.4 91.3,104.4 92.1,104.4 92.9,104.4 93.7,104.4 94.5,104.4 95.2,104.4 96.0,104.4 96.8,104.4 97.5,104.4 98.3,104.4 99.1,104.4 99.9,104.4 100.7,104.4 101.4,104.4 102.2,104.4 103.0,104.4 103.8,104.4 104.5,104.4 105.3,104.4 106.1,104.4 106.9,104.4 107.6,104.4 108.4,104.4 109.2,104.4 110.0,104.4 110.7,104.4 111.5,104.4 112.3,104.4 113.0,104.4 113.8,104.4 114.6,104.4 115.4,104.4 116.2,104.4 116.9,104.4 117.7,104.4 118.5,104.4 119.2,104.4 120.0,104.4 120.8,104.4 121.6,104.4 122.4,104.4 123.1,104.4 123.9,104.4 124.7,104.4 125.5,104.4 126.2,104.4 127.0,104.4 127.8,104.4 128.6,104.4 129.3,104.4 130.1,104.4 130.9,104.4 131.7,104.4 132.4,104.4 133.2,104.4 134.0,104.4 134.8,104.4 135.5,104.4 136.3,104.4 137.1,104.4 137.9,104.4 138.6,104.4 139.4,104.4 140.2,104.4 140.9,104.4 141.7,104.4 142.5,104.4 143.3,104.4 144.1,104.4 144.8,104.4 145.6,104.4 146.4,104.4 147.1,104.4 147.9,104.4 148.7,104.4 149.5,104.4 150.2,104.4 151.0,104.4 151.8,104.4 152.6,104.4 153.4,104.4 154.1,104.4 154.9,104.4 155.7,104.4 156.4,104.4 157.2,104.4 158.0,104.4 158.8,104.4 159.6,104.4 160.3,104.4 161.1,104.4 161.9,104.4 162.7,104.4 163.4,104.4 164.2,104.4 165.0,104.4 165.8,104.4 166.5,104.4 167.3,104.4 168.1,104.4 168.8,104.4 169.6,104.4 170.4,104.4 171.2,104.4 171.9,104.4 172.7,104.4 173.5,104.4 174.3,104.4 175.0,104.4 175.8,104.4 176.6,104.4 177.4,104.4 178.2,104.4 178.9,104.4 179.7,104.4 180.5,104.4 181.2,104.4 182.0,104.4 182.8,104.4 183.6,104.4 184.3,104.4 185.1,104.4 185.9,104.4 186.7,104.4 187.4,104.4 188.2,104.4 189.0,104.4 189.8,104.4 190.6,104.4 191.3,104.4 192.1,104.4 192.9,104.4 193.7,104.4 194.4,104.4 195.2,104.4 196.0,104.4 196.8,104.4 197.5,104.4 198.3,104.4 199.1,104.4 199.8,104.4 200.6,104.4 201.4,104.4 202.2,104.4 203.0,104.4 203.7,104.4 204.5,104.4 205.3,104.4 206.0,104.4 206.8,104.4 207.6,104.4 208.4,104.4 209.2,104.4 209.9,104.4 210.7,104.4 211.5,104.4 212.2,104.4 213.0,104.4 213.8,104.4 214.6,104.4 215.3,104.4 216.1,104.4 216.9,104.4 217.7,104.4 218.4,104.4 219.2,104.4 220.0,104.4 220.8,104.4 221.5,104.4 222.3,104.4 223.1,104.4 223.9,104.4 224.7,104.4 225.4,104.4 226.2,104.4 227.0,104.4 227.8,104.4 228.5,104.4 229.3,104.4 230.1,104.4 230.8,104.4 231.6,104.4 232.4,104.4 233.2,104.4 234.0,104.4 234.7,104.4 235.5,104.4 236.3,104.4 237.1,104.4 237.8,104.4 238.6,104.4 239.4,104.4 240.2,104.4 240.9,104.4 241.7,104.4 242.5,104.4 243.2,104.4 244.0,104.4 244.8,104.4 245.6,104.4 246.3,104.4 247.1,104.4 247.9,104.4 248.7,104.4 249.5,104.4 250.2,104.4 251.0,104.4 251.8,104.4 252.5,104.4 253.3,104.4 254.1,104.4 254.9,104.4 255.7,104.4 256.4,104.4 257.2,104.4 258.0,104.4 258.8,104.4 259.5,104.4 260.3,104.4 261.1,104.4 261.9,104.4 262.6,104.4 263.4,104.4 264.2,104.4 264.9,104.4 265.7,104.4 266.5,104.4 267.3,104.4 268.1,104.4 268.8,104.4 269.6,104.4 270.4,104.4 271.1,104.4 271.9,104.4 272.7,104.4 273.5,104.4 274.2,104.4 275.0,104.4 275.8,104.4 276.6,104.4 277.3,104.4 278.1,104.4 278.9,104.4 279.7,104.4 280.5,104.4 281.2,104.4 282.0,104.4 282.8,104.4 283.6,104.4 284.3,104.4 285.1,104.4 285.9,104.4 286.6,104.4 287.4,104.4 288.2,104.4 289.0,104.4 289.8,104.4 290.5,104.4 291.3,104.4 292.1,104.4 292.8,104.4 293.6,104.4 294.4,104.4 295.2,104.4 295.9,104.4 296.7,104.4 297.5,104.4 298.3,104.4 299.1,104.4 299.8,104.4 300.6,104.4 301.4,104.4 302.1,104.4 302.9,104.4 303.7,104.4 304.5,104.4 305.2,104.4 306.0,104.4 306.8,104.4 307.6,104.4 308.4,104.4 309.1,104.4 309.9,104.4 310.7,104.4 311.4,104.4 312.2,104.4 313.0,104.4 313.8,104.4 314.6,104.4 315.3,104.4 316.1,104.4 316.9,104.4 317.7,104.4 318.4,104.4 319.2,104.4 320.0,104.4 320.8,104.4 321.5,104.4 322.3,104.4 323.1,104.4 323.8,104.4 324.6,104.4 325.4,104.4 326.2,104.4 326.9,104.4 327.7,104.4 328.5,104.4 329.3,104.4 330.1,104.4 330.8,104.4 331.6,104.4 332.4,104.4 333.2,104.4 333.9,104.4 334.7,104.4 335.5,104.4 336.2,104.4 337.0,104.4 337.8,104.4 338.6,104.4 339.4,104.4 340.1,104.4 340.9,104.4 341.7,104.4 342.4,104.4 343.2,104.4 344.0,104.4\" fill=\"none\" stroke=\"#1f6fb2\" stroke-width=\"2.4\"/><text x=\"96.0\" y=\"96.4\" font-family=\"Arial,sans-serif\" fill=\"#1f6fb2\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">y = 150</text><line x1=\"206.9\" y1=\"104.4\" x2=\"206.9\" y2=\"234.0\" stroke=\"#243447\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><circle cx=\"206.9\" cy=\"104.4\" r=\"4.5\" fill=\"#f1c40f\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"199.9\" y=\"96.4\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">t ≈ 5,58</text></svg></div></li><li><p class=\"facit-rubrik\">Kontroll med naturliga logaritmen</p><div class=\"facit-matte\">\\[e^{0{,}08t}=\\frac{150}{96}\\quad\\Rightarrow\\quad t=\\frac{\\ln(150/96)}{0{,}08}\\approx5{,}579\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,6 år</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -25979,7 +25979,7 @@ window.BANKMATO1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Viktigt steg: När ett tröskelvärde efterfrågas kan modellen jämföras med en horisontell linje y=c. Skärningspunktens x-koordinat ger då tidpunkten. Kontrollera att den valda skärningen ligger i modellens meningsfulla tidsintervall.</p>",
+    "ledtrad": "<p>Tillväxthastigheten är \\(P'(t)\\). Derivera och bestäm när derivatan är 150.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -26002,7 +26002,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Två modeller är \\(f(t)=60\\cdot1{,}08^t\\) och \\(g(t)=100\\cdot1{,}03^t\\). Tiden \\(t\\) mäts i samma tidsenheter i båda modellerna.</p><p>Rita graferna och bestäm när \\(f\\) blir större än \\(g\\) för första gången. Svara i tidsenheter med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rita de båda modellerna i samma koordinatsystem och bestäm skärningspunkten. Vid skärningen är modellernas värden lika.</p></li><li><p>Skärningen ligger vid ungefär \\(t=10,77640\\), alltså <strong>10,8 tidsenheter</strong> med en decimal.</p></li><li><p>Efter skärningen är \\(f(t)\\) större än \\(g(t)\\), eftersom dess förändringsfaktor 1,08 är större än 1,03.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(10{,}8\\) tidsenheter</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ekvationen för skärningen</p><div class=\"facit-matte\">\\[60\\cdot1{,}08^t=100\\cdot1{,}03^t\\]</div></li><li><p class=\"facit-rubrik\">Rita båda modellerna och använd Skärning</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"260\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"Graferna till f(t) = 60 · 1,08^t och g(t) = 100 · 1,03^t. De skär varandra vid t ≈ 10,78, och därefter ligger f över g.\"><title>Graferna till f(t) = 60 · 1,08^t och g(t) = 100 · 1,03^t. De skär varandra vid t ≈ 10,78, och därefter ligger f över g.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"34.0\" y1=\"18\" x2=\"34.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"137.3\" y1=\"18\" x2=\"137.3\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"137.3\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">5</text><line x1=\"240.7\" y1=\"18\" x2=\"240.7\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"240.7\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">10</text><line x1=\"344.0\" y1=\"18\" x2=\"344.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"344.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">15</text><line x1=\"34\" y1=\"234.0\" x2=\"344\" y2=\"234.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"34\" y1=\"180.0\" x2=\"344\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"184.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">50</text><line x1=\"34\" y1=\"126.0\" x2=\"344\" y2=\"126.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">100</text><line x1=\"34\" y1=\"72.0\" x2=\"344\" y2=\"72.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"76.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">150</text><line x1=\"34\" y1=\"18.0\" x2=\"344\" y2=\"18.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"22.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">200</text><line x1=\"34\" y1=\"234.0\" x2=\"350\" y2=\"234.0\" stroke=\"#243447\" stroke-width=\"1.5\"/><line x1=\"34.0\" y1=\"234\" x2=\"34.0\" y2=\"10\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"356\" y=\"229.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" text-anchor=\"end\">t</text><text x=\"40.0\" y=\"12\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\">y</text><text x=\"29.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\">0</text><polyline points=\"34.0,169.2 34.8,169.0 35.5,168.8 36.3,168.6 37.1,168.4 37.9,168.3 38.6,168.1 39.4,167.9 40.2,167.7 41.0,167.5 41.8,167.3 42.5,167.1 43.3,166.9 44.1,166.7 44.9,166.5 45.6,166.3 46.4,166.1 47.2,165.9 48.0,165.7 48.7,165.5 49.5,165.3 50.3,165.2 51.0,165.0 51.8,164.8 52.6,164.6 53.4,164.4 54.2,164.2 54.9,163.9 55.7,163.7 56.5,163.5 57.2,163.3 58.0,163.1 58.8,162.9 59.6,162.7 60.3,162.5 61.1,162.3 61.9,162.1 62.7,161.9 63.5,161.7 64.2,161.5 65.0,161.3 65.8,161.1 66.5,160.8 67.3,160.6 68.1,160.4 68.9,160.2 69.7,160.0 70.4,159.8 71.2,159.6 72.0,159.4 72.8,159.1 73.5,158.9 74.3,158.7 75.1,158.5 75.8,158.3 76.6,158.1 77.4,157.8 78.2,157.6 78.9,157.4 79.7,157.2 80.5,156.9 81.3,156.7 82.0,156.5 82.8,156.3 83.6,156.1 84.4,155.8 85.2,155.6 85.9,155.4 86.7,155.1 87.5,154.9 88.2,154.7 89.0,154.5 89.8,154.2 90.6,154.0 91.3,153.8 92.1,153.5 92.9,153.3 93.7,153.1 94.4,152.8 95.2,152.6 96.0,152.4 96.8,152.1 97.6,151.9 98.3,151.7 99.1,151.4 99.9,151.2 100.7,150.9 101.4,150.7 102.2,150.5 103.0,150.2 103.8,150.0 104.5,149.7 105.3,149.5 106.1,149.2 106.8,149.0 107.6,148.8 108.4,148.5 109.2,148.3 110.0,148.0 110.7,147.8 111.5,147.5 112.3,147.3 113.0,147.0 113.8,146.8 114.6,146.5 115.4,146.3 116.2,146.0 116.9,145.8 117.7,145.5 118.5,145.2 119.2,145.0 120.0,144.7 120.8,144.5 121.6,144.2 122.4,144.0 123.1,143.7 123.9,143.4 124.7,143.2 125.4,142.9 126.2,142.6 127.0,142.4 127.8,142.1 128.6,141.9 129.3,141.6 130.1,141.3 130.9,141.1 131.7,140.8 132.4,140.5 133.2,140.2 134.0,140.0 134.8,139.7 135.5,139.4 136.3,139.2 137.1,138.9 137.9,138.6 138.6,138.3 139.4,138.1 140.2,137.8 140.9,137.5 141.7,137.2 142.5,136.9 143.3,136.7 144.1,136.4 144.8,136.1 145.6,135.8 146.4,135.5 147.1,135.2 147.9,135.0 148.7,134.7 149.5,134.4 150.2,134.1 151.0,133.8 151.8,133.5 152.6,133.2 153.4,132.9 154.1,132.6 154.9,132.4 155.7,132.1 156.4,131.8 157.2,131.5 158.0,131.2 158.8,130.9 159.6,130.6 160.3,130.3 161.1,130.0 161.9,129.7 162.7,129.4 163.4,129.1 164.2,128.8 165.0,128.5 165.8,128.2 166.5,127.9 167.3,127.5 168.1,127.2 168.8,126.9 169.6,126.6 170.4,126.3 171.2,126.0 171.9,125.7 172.7,125.4 173.5,125.1 174.3,124.7 175.1,124.4 175.8,124.1 176.6,123.8 177.4,123.5 178.1,123.2 178.9,122.8 179.7,122.5 180.5,122.2 181.2,121.9 182.0,121.5 182.8,121.2 183.6,120.9 184.4,120.6 185.1,120.2 185.9,119.9 186.7,119.6 187.4,119.3 188.2,118.9 189.0,118.6 189.8,118.3 190.6,117.9 191.3,117.6 192.1,117.2 192.9,116.9 193.7,116.6 194.4,116.2 195.2,115.9 196.0,115.6 196.8,115.2 197.5,114.9 198.3,114.5 199.1,114.2 199.9,113.8 200.6,113.5 201.4,113.1 202.2,112.8 203.0,112.4 203.7,112.1 204.5,111.7 205.3,111.4 206.0,111.0 206.8,110.7 207.6,110.3 208.4,110.0 209.1,109.6 209.9,109.2 210.7,108.9 211.5,108.5 212.2,108.1 213.0,107.8 213.8,107.4 214.6,107.1 215.4,106.7 216.1,106.3 216.9,106.0 217.7,105.6 218.5,105.2 219.2,104.8 220.0,104.5 220.8,104.1 221.5,103.7 222.3,103.3 223.1,103.0 223.9,102.6 224.7,102.2 225.4,101.8 226.2,101.4 227.0,101.1 227.8,100.7 228.5,100.3 229.3,99.9 230.1,99.5 230.8,99.1 231.6,98.7 232.4,98.3 233.2,98.0 234.0,97.6 234.7,97.2 235.5,96.8 236.3,96.4 237.0,96.0 237.8,95.6 238.6,95.2 239.4,94.8 240.1,94.4 240.9,94.0 241.7,93.6 242.5,93.2 243.2,92.7 244.0,92.3 244.8,91.9 245.6,91.5 246.4,91.1 247.1,90.7 247.9,90.3 248.7,89.9 249.5,89.5 250.2,89.0 251.0,88.6 251.8,88.2 252.5,87.8 253.3,87.3 254.1,86.9 254.9,86.5 255.6,86.1 256.4,85.6 257.2,85.2 258.0,84.8 258.8,84.4 259.5,83.9 260.3,83.5 261.1,83.1 261.9,82.6 262.6,82.2 263.4,81.7 264.2,81.3 264.9,80.9 265.7,80.4 266.5,80.0 267.3,79.5 268.1,79.1 268.8,78.6 269.6,78.2 270.4,77.7 271.1,77.3 271.9,76.8 272.7,76.4 273.5,75.9 274.2,75.5 275.0,75.0 275.8,74.5 276.6,74.1 277.4,73.6 278.1,73.2 278.9,72.7 279.7,72.2 280.5,71.8 281.2,71.3 282.0,70.8 282.8,70.4 283.5,69.9 284.3,69.4 285.1,68.9 285.9,68.5 286.6,68.0 287.4,67.5 288.2,67.0 289.0,66.5 289.8,66.0 290.5,65.6 291.3,65.1 292.1,64.6 292.9,64.1 293.6,63.6 294.4,63.1 295.2,62.6 296.0,62.1 296.7,61.6 297.5,61.1 298.3,60.6 299.1,60.1 299.8,59.6 300.6,59.1 301.4,58.6 302.1,58.1 302.9,57.6 303.7,57.1 304.5,56.6 305.2,56.1 306.0,55.6 306.8,55.0 307.6,54.5 308.4,54.0 309.1,53.5 309.9,53.0 310.7,52.4 311.4,51.9 312.2,51.4 313.0,50.9 313.8,50.3 314.5,49.8 315.3,49.3 316.1,48.7 316.9,48.2 317.6,47.7 318.4,47.1 319.2,46.6 320.0,46.0 320.8,45.5 321.5,44.9 322.3,44.4 323.1,43.9 323.9,43.3 324.6,42.8 325.4,42.2 326.2,41.6 327.0,41.1 327.7,40.5 328.5,40.0 329.3,39.4 330.1,38.8 330.8,38.3 331.6,37.7 332.4,37.2 333.1,36.6 333.9,36.0 334.7,35.4 335.5,34.9 336.2,34.3 337.0,33.7 337.8,33.1 338.6,32.6 339.4,32.0 340.1,31.4 340.9,30.8 341.7,30.2 342.4,29.6 343.2,29.0 344.0,28.4\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.4\"/><text x=\"319.2\" y=\"38.6\" font-family=\"Arial,sans-serif\" fill=\"#c0392b\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">f</text><polyline points=\"34.0,126.0 34.8,125.9 35.5,125.8 36.3,125.6 37.1,125.5 37.9,125.4 38.6,125.3 39.4,125.2 40.2,125.0 41.0,124.9 41.8,124.8 42.5,124.7 43.3,124.6 44.1,124.4 44.9,124.3 45.6,124.2 46.4,124.1 47.2,123.9 48.0,123.8 48.7,123.7 49.5,123.6 50.3,123.5 51.0,123.3 51.8,123.2 52.6,123.1 53.4,123.0 54.2,122.8 54.9,122.7 55.7,122.6 56.5,122.5 57.2,122.3 58.0,122.2 58.8,122.1 59.6,122.0 60.3,121.9 61.1,121.7 61.9,121.6 62.7,121.5 63.5,121.4 64.2,121.2 65.0,121.1 65.8,121.0 66.5,120.9 67.3,120.7 68.1,120.6 68.9,120.5 69.7,120.4 70.4,120.2 71.2,120.1 72.0,120.0 72.8,119.8 73.5,119.7 74.3,119.6 75.1,119.5 75.8,119.3 76.6,119.2 77.4,119.1 78.2,119.0 78.9,118.8 79.7,118.7 80.5,118.6 81.3,118.4 82.0,118.3 82.8,118.2 83.6,118.1 84.4,117.9 85.2,117.8 85.9,117.7 86.7,117.5 87.5,117.4 88.2,117.3 89.0,117.2 89.8,117.0 90.6,116.9 91.3,116.8 92.1,116.6 92.9,116.5 93.7,116.4 94.4,116.2 95.2,116.1 96.0,116.0 96.8,115.9 97.6,115.7 98.3,115.6 99.1,115.5 99.9,115.3 100.7,115.2 101.4,115.1 102.2,114.9 103.0,114.8 103.8,114.7 104.5,114.5 105.3,114.4 106.1,114.3 106.8,114.1 107.6,114.0 108.4,113.9 109.2,113.7 110.0,113.6 110.7,113.5 111.5,113.3 112.3,113.2 113.0,113.1 113.8,112.9 114.6,112.8 115.4,112.7 116.2,112.5 116.9,112.4 117.7,112.3 118.5,112.1 119.2,112.0 120.0,111.9 120.8,111.7 121.6,111.6 122.4,111.5 123.1,111.3 123.9,111.2 124.7,111.0 125.4,110.9 126.2,110.8 127.0,110.6 127.8,110.5 128.6,110.4 129.3,110.2 130.1,110.1 130.9,109.9 131.7,109.8 132.4,109.7 133.2,109.5 134.0,109.4 134.8,109.3 135.5,109.1 136.3,109.0 137.1,108.8 137.9,108.7 138.6,108.6 139.4,108.4 140.2,108.3 140.9,108.1 141.7,108.0 142.5,107.9 143.3,107.7 144.1,107.6 144.8,107.4 145.6,107.3 146.4,107.2 147.1,107.0 147.9,106.9 148.7,106.7 149.5,106.6 150.2,106.5 151.0,106.3 151.8,106.2 152.6,106.0 153.4,105.9 154.1,105.8 154.9,105.6 155.7,105.5 156.4,105.3 157.2,105.2 158.0,105.0 158.8,104.9 159.6,104.8 160.3,104.6 161.1,104.5 161.9,104.3 162.7,104.2 163.4,104.0 164.2,103.9 165.0,103.7 165.8,103.6 166.5,103.5 167.3,103.3 168.1,103.2 168.8,103.0 169.6,102.9 170.4,102.7 171.2,102.6 171.9,102.4 172.7,102.3 173.5,102.2 174.3,102.0 175.1,101.9 175.8,101.7 176.6,101.6 177.4,101.4 178.1,101.3 178.9,101.1 179.7,101.0 180.5,100.8 181.2,100.7 182.0,100.5 182.8,100.4 183.6,100.2 184.4,100.1 185.1,99.9 185.9,99.8 186.7,99.6 187.4,99.5 188.2,99.3 189.0,99.2 189.8,99.0 190.6,98.9 191.3,98.7 192.1,98.6 192.9,98.4 193.7,98.3 194.4,98.1 195.2,98.0 196.0,97.8 196.8,97.7 197.5,97.5 198.3,97.4 199.1,97.2 199.9,97.1 200.6,96.9 201.4,96.8 202.2,96.6 203.0,96.5 203.7,96.3 204.5,96.2 205.3,96.0 206.0,95.9 206.8,95.7 207.6,95.6 208.4,95.4 209.1,95.3 209.9,95.1 210.7,94.9 211.5,94.8 212.2,94.6 213.0,94.5 213.8,94.3 214.6,94.2 215.4,94.0 216.1,93.9 216.9,93.7 217.7,93.6 218.5,93.4 219.2,93.2 220.0,93.1 220.8,92.9 221.5,92.8 222.3,92.6 223.1,92.5 223.9,92.3 224.7,92.1 225.4,92.0 226.2,91.8 227.0,91.7 227.8,91.5 228.5,91.4 229.3,91.2 230.1,91.0 230.8,90.9 231.6,90.7 232.4,90.6 233.2,90.4 234.0,90.2 234.7,90.1 235.5,89.9 236.3,89.8 237.0,89.6 237.8,89.4 238.6,89.3 239.4,89.1 240.1,89.0 240.9,88.8 241.7,88.6 242.5,88.5 243.2,88.3 244.0,88.2 244.8,88.0 245.6,87.8 246.4,87.7 247.1,87.5 247.9,87.3 248.7,87.2 249.5,87.0 250.2,86.9 251.0,86.7 251.8,86.5 252.5,86.4 253.3,86.2 254.1,86.0 254.9,85.9 255.6,85.7 256.4,85.5 257.2,85.4 258.0,85.2 258.8,85.1 259.5,84.9 260.3,84.7 261.1,84.6 261.9,84.4 262.6,84.2 263.4,84.1 264.2,83.9 264.9,83.7 265.7,83.6 266.5,83.4 267.3,83.2 268.1,83.1 268.8,82.9 269.6,82.7 270.4,82.6 271.1,82.4 271.9,82.2 272.7,82.1 273.5,81.9 274.2,81.7 275.0,81.5 275.8,81.4 276.6,81.2 277.4,81.0 278.1,80.9 278.9,80.7 279.7,80.5 280.5,80.4 281.2,80.2 282.0,80.0 282.8,79.8 283.5,79.7 284.3,79.5 285.1,79.3 285.9,79.2 286.6,79.0 287.4,78.8 288.2,78.6 289.0,78.5 289.8,78.3 290.5,78.1 291.3,78.0 292.1,77.8 292.9,77.6 293.6,77.4 294.4,77.3 295.2,77.1 296.0,76.9 296.7,76.7 297.5,76.6 298.3,76.4 299.1,76.2 299.8,76.0 300.6,75.9 301.4,75.7 302.1,75.5 302.9,75.3 303.7,75.2 304.5,75.0 305.2,74.8 306.0,74.6 306.8,74.5 307.6,74.3 308.4,74.1 309.1,73.9 309.9,73.7 310.7,73.6 311.4,73.4 312.2,73.2 313.0,73.0 313.8,72.9 314.5,72.7 315.3,72.5 316.1,72.3 316.9,72.1 317.6,72.0 318.4,71.8 319.2,71.6 320.0,71.4 320.8,71.2 321.5,71.1 322.3,70.9 323.1,70.7 323.9,70.5 324.6,70.3 325.4,70.2 326.2,70.0 327.0,69.8 327.7,69.6 328.5,69.4 329.3,69.2 330.1,69.1 330.8,68.9 331.6,68.7 332.4,68.5 333.1,68.3 333.9,68.1 334.7,68.0 335.5,67.8 336.2,67.6 337.0,67.4 337.8,67.2 338.6,67.0 339.4,66.9 340.1,66.7 340.9,66.5 341.7,66.3 342.4,66.1 343.2,65.9 344.0,65.7\" fill=\"none\" stroke=\"#1f6fb2\" stroke-width=\"2.4\"/><text x=\"85.7\" y=\"109.7\" font-family=\"Arial,sans-serif\" fill=\"#1f6fb2\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">g</text><line x1=\"256.7\" y1=\"85.5\" x2=\"256.7\" y2=\"234.0\" stroke=\"#243447\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><circle cx=\"256.7\" cy=\"85.5\" r=\"4.5\" fill=\"#f1c40f\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"249.7\" y=\"77.5\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">t ≈ 10,78</text></svg></div></li><li><p class=\"facit-rubrik\">Efter skärningen är f störst</p><p>f växer med 8 % per tidsenhet och g bara med 3 %, så f går om g vid skärningen.</p><div class=\"facit-matte\">\\[t\\approx10{,}776\\approx10{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10,8 tidsenheter</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -26016,7 +26016,7 @@ window.BANKMATO1 = [
     ],
     "svarFormat": "numeriskt",
     "spel": true,
-    "ledtrad": "<p>Använd verktyget för att bestämma derivata, nollställen eller extrempunkter, men koppla varje digitalt värde till ett matematiskt villkor som \\(f'(x)=0\\) eller ett teckenbyte hos derivatan.</p>",
+    "ledtrad": "<p>Rita båda modellerna i samma koordinatsystem. Var skär graferna varandra?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -26747,7 +26747,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm \\(f^{\\prime\\prime}(1)\\) för \\(f(x)=x^{4} - 2 x^{2} + 3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\begin{aligned}f^{\\prime}(x)&=4x^3-4x,\\\\f^{\\prime\\prime}(x)&=12x^2-4.\\end{aligned}\\]</p><p>\\[f^{\\prime\\prime}(1)=8.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(8\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förstaderivatan med potensregeln</p><div class=\"facit-matte\">\\[f'(x)=4x^3-4x\\]</div></li><li><p class=\"facit-rubrik\">Derivera en gång till</p><div class=\"facit-matte\">\\[f''(x)=12x^2-4\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=1\\)</p><div class=\"facit-matte\">\\[f''(1)=12-4=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": false,
     "miniräknare": true,
@@ -26759,7 +26759,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Det digitala verktyget används för att hitta derivatan eller lösa derivataekvationen, men den matematiska idén är fortfarande att punkter med horisontell tangent uppstår där f'(x)=0. För växande/avtagande behöver derivatans tecken på intervallen också tolkas.</p>",
+    "ledtrad": "<p>Derivera två gånger med potensregeln och sätt in \\(x=1\\) sist.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -26781,7 +26781,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm \\(f^{\\prime\\prime}(2)\\) för \\(f(x)=x^{5} - 5 x^{3} + 2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\begin{aligned}f^{\\prime}(x)&=5x^4-15x^2,\\\\f^{\\prime\\prime}(x)&=20x^3-30x.\\end{aligned}\\]</p><p>\\[f^{\\prime\\prime}(2)=160-60=100.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(100\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förstaderivatan med potensregeln</p><div class=\"facit-matte\">\\[f'(x)=5x^4-15x^2\\]</div></li><li><p class=\"facit-rubrik\">Derivera en gång till</p><div class=\"facit-matte\">\\[f''(x)=20x^3-30x\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[f''(2)=20\\cdot8-30\\cdot2=160-60=100\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": false,
     "miniräknare": true,
@@ -26793,7 +26793,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Det digitala verktyget används för att hitta derivatan eller lösa derivataekvationen, men den matematiska idén är fortfarande att punkter med horisontell tangent uppstår där f'(x)=0. För växande/avtagande behöver derivatans tecken på intervallen också tolkas.</p>",
+    "ledtrad": "<p>Derivera två gånger med potensregeln och sätt in \\(x=2\\) sist.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -26815,7 +26815,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f^{\\prime\\prime}(2)\\) för \\(f(x)=3^x\\). Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Andraderivatan beskriver hur förstaderivatan förändras. Derivera två gånger:</p><div class=\"facit-matte\">\\[f^{\\prime}(x)=3^x\\ln3,\\]</div><div class=\"facit-matte\">\\[f^{\\prime\\prime}(x)=3^x(\\ln3)^2.\\]</div></li><li><p>Sätt in x = 2 och behåll precisionen fram till sista avrundningen:</p><div class=\"facit-matte\">\\[f^{\\prime\\prime}(2)=9(\\ln3)^2\\approx10{,}8625.\\]</div></li><li><p>Med en decimal blir svaret <strong>10,9</strong>. Talet 10,8 är en avkortning och inte korrekt avrundning.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(10{,}9\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(a^x\\) är \\(a^x\\ln a\\)</p><div class=\"facit-matte\">\\[f'(x)=3^x\\ln3\\]</div></li><li><p class=\"facit-rubrik\">Derivera en gång till: \\(\\ln3\\) är en konstant</p><div class=\"facit-matte\">\\[f''(x)=3^x(\\ln3)^2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\) och avrunda först sist</p><div class=\"facit-matte\">\\[f''(2)=9(\\ln3)^2\\approx10{,}8625\\approx10{,}9\\]</div><p>10,8 vore att stryka decimaler, inte att avrunda.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10,9</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -29796,7 +29796,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=x^2-4x+1\\).</p><p>Bestäm det största positiva nollstället till derivatan. Om inget positivt nollställe finns, svara 0.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan</p><div class=\"facit-matte\">\\[f'(x)=2x-4\\]</div></li><li><p class=\"facit-rubrik\">Sätt derivatan lika med 0</p><div class=\"facit-matte\">\\[2x-4=0\\quad\\Rightarrow\\quad x=2\\]</div><p>Det enda nollstället är positivt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera \\(x^2-4x+1\\)</p><div class=\"facit-matte\">\\[f'(x)=2x-4\\]</div></li><li><p class=\"facit-rubrik\">Sätt derivatan lika med 0</p><div class=\"facit-matte\">\\[2x-4=0\\quad\\Rightarrow\\quad x=2\\]</div><p>Det enda nollstället är positivt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Derivatans tecken",
     "geogebra": false,
     "miniräknare": false,
@@ -29832,7 +29832,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=x^3-3x\\).</p><p>Bestäm det största positiva nollstället till derivatan. Om inget positivt nollställe finns, svara 0.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan</p><div class=\"facit-matte\">\\[f'(x)=3x^2-3=3(x-1)(x+1)\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är 0 när någon faktor är 0</p><div class=\"facit-matte\">\\[x=-1\\quad\\text{och}\\quad x=1\\]</div><p>Det största positiva är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och faktorisera med konjugatregeln</p><div class=\"facit-matte\">\\[f'(x)=3x^2-3=3(x-1)(x+1)\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är 0 när någon faktor är 0</p><div class=\"facit-matte\">\\[x=-1\\quad\\text{och}\\quad x=1\\]</div><p>Det största positiva är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Derivatans tecken",
     "geogebra": false,
     "miniräknare": false,
@@ -29868,7 +29868,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=x^4-8x^2\\).</p><p>Bestäm det största positiva nollstället till derivatan. Om inget positivt nollställe finns, svara 0.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan</p><div class=\"facit-matte\">\\[f'(x)=4x^3-16x=4x(x-2)(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är 0 när någon faktor är 0</p><div class=\"facit-matte\">\\[x=-2,\\quad x=0,\\quad x=2\\]</div><p>Det största positiva är 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och bryt ut 4x</p><div class=\"facit-matte\">\\[f'(x)=4x^3-16x=4x(x-2)(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är 0 när någon faktor är 0</p><div class=\"facit-matte\">\\[x=-2,\\quad x=0,\\quad x=2\\]</div><p>Det största positiva är 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Derivatans tecken",
     "geogebra": false,
     "miniräknare": false,
@@ -29960,7 +29960,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=x^4-4x^3\\).</p><p>Bestäm det största positiva nollstället till derivatan. Om inget positivt nollställe finns, svara 0.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan</p><div class=\"facit-matte\">\\[f'(x)=4x^3-12x^2\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(4x^2\\)</p><div class=\"facit-matte\">\\[f'(x)=4x^2(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är 0 när någon faktor är 0</p><div class=\"facit-matte\">\\[x=0\\quad\\text{och}\\quad x=3\\]</div><p>Det största positiva är 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera \\(x^4-4x^3\\)</p><div class=\"facit-matte\">\\[f'(x)=4x^3-12x^2\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(4x^2\\)</p><div class=\"facit-matte\">\\[f'(x)=4x^2(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är 0 när någon faktor är 0</p><div class=\"facit-matte\">\\[x=0\\quad\\text{och}\\quad x=3\\]</div><p>Det största positiva är 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Derivatans tecken",
     "geogebra": false,
     "miniräknare": false,
@@ -30101,9 +30101,9 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Funktionerna ges av</p><p>\\[f(x)=\\frac{12}{x}+8x,\\qquad g(x)=\\sqrt{x}.\\]</p><p>Lös ekvationen \\(f'(x)=g'(x)\\). Svara med minst två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=8-\\frac{12}{x^2},\\qquad g'(x)=\\frac1{2\\sqrt{x}}.\\]</p></li><li><p>Den positiva lösningen till</p><p>\\[8-\\frac{12}{x^2}=\\frac1{2\\sqrt{x}}\\]</p></li><li><p>är numeriskt <strong>\\(x\\approx1{,}26\\)</strong>.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(1{,}26\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(\\tfrac{12}{x}=12x^{-1}\\) och \\(\\sqrt x=x^{1/2}\\)</p><div class=\"facit-matte\">\\[f'(x)=8-12x^{-2}=8-\\frac{12}{x^2}\\]</div><div class=\"facit-matte\">\\[g'(x)=\\tfrac12x^{-1/2}=\\frac{1}{2\\sqrt x}\\]</div></li><li><p class=\"facit-rubrik\">Ekvationen går inte att lösa för hand</p><div class=\"facit-matte\">\\[8-\\frac{12}{x^2}=\\frac{1}{2\\sqrt x}\\]</div><p>Rita båda derivatorna och läs av skärningen.</p></li><li><p class=\"facit-rubrik\">Lös ekvationen grafiskt</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"260\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"Graferna till f'(x) = 8 − 12/x² och g'(x) = 1/(2√x). De skär varandra vid x ≈ 1,26.\"><title>Graferna till f'(x) = 8 − 12/x² och g'(x) = 1/(2√x). De skär varandra vid x ≈ 1,26.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"34.0\" y1=\"18\" x2=\"34.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"85.7\" y1=\"18\" x2=\"85.7\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"85.7\" y=\"200.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">0,5</text><line x1=\"137.3\" y1=\"18\" x2=\"137.3\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"137.3\" y=\"200.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">1</text><line x1=\"189.0\" y1=\"18\" x2=\"189.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"189.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">1,5</text><line x1=\"240.7\" y1=\"18\" x2=\"240.7\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"240.7\" y=\"200.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">2</text><line x1=\"292.3\" y1=\"18\" x2=\"292.3\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"292.3\" y=\"200.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">2,5</text><line x1=\"344.0\" y1=\"18\" x2=\"344.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"344.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">3</text><line x1=\"34\" y1=\"234.0\" x2=\"344\" y2=\"234.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">−2</text><line x1=\"34\" y1=\"210.0\" x2=\"344\" y2=\"210.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"214.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">−1</text><line x1=\"34\" y1=\"186.0\" x2=\"344\" y2=\"186.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"34\" y1=\"162.0\" x2=\"344\" y2=\"162.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"166.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">1</text><line x1=\"34\" y1=\"138.0\" x2=\"344\" y2=\"138.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"142.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">2</text><line x1=\"34\" y1=\"114.0\" x2=\"344\" y2=\"114.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"118.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">3</text><line x1=\"34\" y1=\"90.0\" x2=\"344\" y2=\"90.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"94.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">4</text><line x1=\"34\" y1=\"66.0\" x2=\"344\" y2=\"66.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"70.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">5</text><line x1=\"34\" y1=\"42.0\" x2=\"344\" y2=\"42.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">6</text><line x1=\"34\" y1=\"18.0\" x2=\"344\" y2=\"18.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"22.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">7</text><line x1=\"34\" y1=\"186.0\" x2=\"350\" y2=\"186.0\" stroke=\"#243447\" stroke-width=\"1.5\"/><line x1=\"34.0\" y1=\"234\" x2=\"34.0\" y2=\"10\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"356\" y=\"181.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" text-anchor=\"end\">x</text><text x=\"40.0\" y=\"12\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\">y</text><text x=\"29.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\">0</text><polyline points=\"146.4,237.5 147.1,234.2 147.9,230.9 148.7,227.7 149.5,224.6 150.2,221.6 151.0,218.6 151.8,215.6 152.6,212.7 153.4,209.9 154.1,207.1 154.9,204.4 155.7,201.7 156.4,199.1 157.2,196.5 158.0,194.0 158.8,191.5 159.6,189.1 160.3,186.7 161.1,184.4 161.9,182.1 162.7,179.8 163.4,177.6 164.2,175.4 165.0,173.3 165.8,171.2 166.5,169.1 167.3,167.1 168.1,165.1 168.8,163.1 169.6,161.2 170.4,159.3 171.2,157.4 171.9,155.6 172.7,153.8 173.5,152.0 174.3,150.3 175.1,148.6 175.8,146.9 176.6,145.2 177.4,143.6 178.2,142.0 178.9,140.4 179.7,138.9 180.5,137.3 181.2,135.8 182.0,134.3 182.8,132.9 183.6,131.5 184.4,130.0 185.1,128.6 185.9,127.3 186.7,125.9 187.5,124.6 188.2,123.3 189.0,122.0 189.8,120.7 190.6,119.5 191.3,118.2 192.1,117.0 192.9,115.8 193.7,114.7 194.4,113.5 195.2,112.3 196.0,111.2 196.8,110.1 197.5,109.0 198.3,107.9 199.1,106.9 199.9,105.8 200.6,104.8 201.4,103.7 202.2,102.7 203.0,101.7 203.7,100.8 204.5,99.8 205.3,98.8 206.1,97.9 206.8,97.0 207.6,96.0 208.4,95.1 209.2,94.2 209.9,93.4 210.7,92.5 211.5,91.6 212.3,90.8 213.0,90.0 213.8,89.1 214.6,88.3 215.3,87.5 216.1,86.7 216.9,85.9 217.7,85.2 218.4,84.4 219.2,83.6 220.0,82.9 220.8,82.2 221.5,81.4 222.3,80.7 223.1,80.0 223.9,79.3 224.7,78.6 225.4,77.9 226.2,77.2 227.0,76.6 227.8,75.9 228.5,75.3 229.3,74.6 230.1,74.0 230.8,73.4 231.6,72.7 232.4,72.1 233.2,71.5 234.0,70.9 234.7,70.3 235.5,69.7 236.3,69.2 237.1,68.6 237.8,68.0 238.6,67.5 239.4,66.9 240.2,66.4 240.9,65.8 241.7,65.3 242.5,64.8 243.2,64.2 244.0,63.7 244.8,63.2 245.6,62.7 246.4,62.2 247.1,61.7 247.9,61.2 248.7,60.7 249.4,60.2 250.2,59.8 251.0,59.3 251.8,58.8 252.6,58.4 253.3,57.9 254.1,57.5 254.9,57.0 255.6,56.6 256.4,56.2 257.2,55.7 258.0,55.3 258.8,54.9 259.5,54.5 260.3,54.0 261.1,53.6 261.9,53.2 262.6,52.8 263.4,52.4 264.2,52.0 264.9,51.7 265.7,51.3 266.5,50.9 267.3,50.5 268.1,50.1 268.8,49.8 269.6,49.4 270.4,49.0 271.1,48.7 271.9,48.3 272.7,48.0 273.5,47.6 274.2,47.3 275.0,46.9 275.8,46.6 276.6,46.3 277.4,45.9 278.1,45.6 278.9,45.3 279.7,45.0 280.4,44.6 281.2,44.3 282.0,44.0 282.8,43.7 283.6,43.4 284.3,43.1 285.1,42.8 285.9,42.5 286.6,42.2 287.4,41.9 288.2,41.6 289.0,41.3 289.8,41.0 290.5,40.7 291.3,40.5 292.1,40.2 292.8,39.9 293.6,39.6 294.4,39.4 295.2,39.1 296.0,38.8 296.7,38.6 297.5,38.3 298.3,38.0 299.1,37.8 299.8,37.5 300.6,37.3 301.4,37.0 302.2,36.8 302.9,36.5 303.7,36.3 304.5,36.0 305.2,35.8 306.0,35.6 306.8,35.3 307.6,35.1 308.3,34.9 309.1,34.6 309.9,34.4 310.7,34.2 311.4,33.9 312.2,33.7 313.0,33.5 313.8,33.3 314.5,33.1 315.3,32.9 316.1,32.6 316.9,32.4 317.7,32.2 318.4,32.0 319.2,31.8 320.0,31.6 320.8,31.4 321.5,31.2 322.3,31.0 323.1,30.8 323.9,30.6 324.6,30.4 325.4,30.2 326.2,30.0 326.9,29.8 327.7,29.6 328.5,29.5 329.3,29.3 330.1,29.1 330.8,28.9 331.6,28.7 332.4,28.5 333.1,28.4 333.9,28.2 334.7,28.0 335.5,27.8 336.2,27.7 337.0,27.5 337.8,27.3 338.6,27.2 339.4,27.0 340.1,26.8 340.9,26.6 341.7,26.5 342.4,26.3 343.2,26.2 344.0,26.0\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.4\"/><text x=\"302.7\" y=\"28.6\" font-family=\"Arial,sans-serif\" fill=\"#c0392b\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">f'</text><polyline points=\"34.8,47.4 35.5,88.0 36.3,106.0 37.1,116.7 37.9,124.0 38.6,129.4 39.4,133.6 40.2,137.0 41.0,139.8 41.8,142.2 42.5,144.2 43.3,146.0 44.1,147.6 44.9,149.0 45.6,150.2 46.4,151.4 47.2,152.4 48.0,153.3 48.7,154.2 49.5,155.0 50.3,155.8 51.0,156.5 51.8,157.1 52.6,157.7 53.4,158.3 54.2,158.8 54.9,159.3 55.7,159.8 56.5,160.3 57.2,160.7 58.0,161.1 58.8,161.5 59.6,161.9 60.4,162.2 61.1,162.6 61.9,162.9 62.7,163.2 63.4,163.5 64.2,163.8 65.0,164.1 65.8,164.4 66.5,164.6 67.3,164.9 68.1,165.1 68.9,165.3 69.7,165.6 70.4,165.8 71.2,166.0 72.0,166.2 72.8,166.4 73.5,166.6 74.3,166.8 75.1,167.0 75.8,167.1 76.6,167.3 77.4,167.5 78.2,167.6 78.9,167.8 79.7,168.0 80.5,168.1 81.3,168.3 82.0,168.4 82.8,168.5 83.6,168.7 84.4,168.8 85.2,168.9 85.9,169.1 86.7,169.2 87.5,169.3 88.2,169.4 89.0,169.6 89.8,169.7 90.6,169.8 91.4,169.9 92.1,170.0 92.9,170.1 93.7,170.2 94.4,170.3 95.2,170.4 96.0,170.5 96.8,170.6 97.5,170.7 98.3,170.8 99.1,170.9 99.9,171.0 100.7,171.1 101.4,171.1 102.2,171.2 103.0,171.3 103.8,171.4 104.5,171.5 105.3,171.6 106.1,171.6 106.8,171.7 107.6,171.8 108.4,171.9 109.2,171.9 110.0,172.0 110.7,172.1 111.5,172.1 112.3,172.2 113.0,172.3 113.8,172.3 114.6,172.4 115.4,172.5 116.2,172.5 116.9,172.6 117.7,172.7 118.5,172.7 119.2,172.8 120.0,172.8 120.8,172.9 121.6,173.0 122.3,173.0 123.1,173.1 123.9,173.1 124.7,173.2 125.4,173.2 126.2,173.3 127.0,173.4 127.8,173.4 128.6,173.5 129.3,173.5 130.1,173.6 130.9,173.6 131.7,173.7 132.4,173.7 133.2,173.8 134.0,173.8 134.8,173.8 135.5,173.9 136.3,173.9 137.1,174.0 137.8,174.0 138.6,174.1 139.4,174.1 140.2,174.2 140.9,174.2 141.7,174.2 142.5,174.3 143.3,174.3 144.1,174.4 144.8,174.4 145.6,174.5 146.4,174.5 147.1,174.5 147.9,174.6 148.7,174.6 149.5,174.6 150.2,174.7 151.0,174.7 151.8,174.8 152.6,174.8 153.4,174.8 154.1,174.9 154.9,174.9 155.7,174.9 156.4,175.0 157.2,175.0 158.0,175.0 158.8,175.1 159.6,175.1 160.3,175.1 161.1,175.2 161.9,175.2 162.7,175.2 163.4,175.3 164.2,175.3 165.0,175.3 165.8,175.4 166.5,175.4 167.3,175.4 168.1,175.5 168.8,175.5 169.6,175.5 170.4,175.6 171.2,175.6 171.9,175.6 172.7,175.6 173.5,175.7 174.3,175.7 175.1,175.7 175.8,175.8 176.6,175.8 177.4,175.8 178.2,175.8 178.9,175.9 179.7,175.9 180.5,175.9 181.2,175.9 182.0,176.0 182.8,176.0 183.6,176.0 184.4,176.1 185.1,176.1 185.9,176.1 186.7,176.1 187.5,176.2 188.2,176.2 189.0,176.2 189.8,176.2 190.6,176.3 191.3,176.3 192.1,176.3 192.9,176.3 193.7,176.3 194.4,176.4 195.2,176.4 196.0,176.4 196.8,176.4 197.5,176.5 198.3,176.5 199.1,176.5 199.9,176.5 200.6,176.6 201.4,176.6 202.2,176.6 203.0,176.6 203.7,176.6 204.5,176.7 205.3,176.7 206.1,176.7 206.8,176.7 207.6,176.7 208.4,176.8 209.2,176.8 209.9,176.8 210.7,176.8 211.5,176.8 212.3,176.9 213.0,176.9 213.8,176.9 214.6,176.9 215.3,176.9 216.1,177.0 216.9,177.0 217.7,177.0 218.4,177.0 219.2,177.0 220.0,177.1 220.8,177.1 221.5,177.1 222.3,177.1 223.1,177.1 223.9,177.1 224.7,177.2 225.4,177.2 226.2,177.2 227.0,177.2 227.8,177.2 228.5,177.3 229.3,177.3 230.1,177.3 230.8,177.3 231.6,177.3 232.4,177.3 233.2,177.4 234.0,177.4 234.7,177.4 235.5,177.4 236.3,177.4 237.1,177.4 237.8,177.5 238.6,177.5 239.4,177.5 240.2,177.5 240.9,177.5 241.7,177.5 242.5,177.6 243.2,177.6 244.0,177.6 244.8,177.6 245.6,177.6 246.4,177.6 247.1,177.6 247.9,177.7 248.7,177.7 249.4,177.7 250.2,177.7 251.0,177.7 251.8,177.7 252.6,177.7 253.3,177.8 254.1,177.8 254.9,177.8 255.6,177.8 256.4,177.8 257.2,177.8 258.0,177.8 258.8,177.9 259.5,177.9 260.3,177.9 261.1,177.9 261.9,177.9 262.6,177.9 263.4,177.9 264.2,178.0 264.9,178.0 265.7,178.0 266.5,178.0 267.3,178.0 268.1,178.0 268.8,178.0 269.6,178.1 270.4,178.1 271.1,178.1 271.9,178.1 272.7,178.1 273.5,178.1 274.2,178.1 275.0,178.1 275.8,178.2 276.6,178.2 277.4,178.2 278.1,178.2 278.9,178.2 279.7,178.2 280.4,178.2 281.2,178.2 282.0,178.3 282.8,178.3 283.6,178.3 284.3,178.3 285.1,178.3 285.9,178.3 286.6,178.3 287.4,178.3 288.2,178.3 289.0,178.4 289.8,178.4 290.5,178.4 291.3,178.4 292.1,178.4 292.8,178.4 293.6,178.4 294.4,178.4 295.2,178.5 296.0,178.5 296.7,178.5 297.5,178.5 298.3,178.5 299.1,178.5 299.8,178.5 300.6,178.5 301.4,178.5 302.2,178.6 302.9,178.6 303.7,178.6 304.5,178.6 305.2,178.6 306.0,178.6 306.8,178.6 307.6,178.6 308.3,178.6 309.1,178.6 309.9,178.7 310.7,178.7 311.4,178.7 312.2,178.7 313.0,178.7 313.8,178.7 314.5,178.7 315.3,178.7 316.1,178.7 316.9,178.7 317.7,178.8 318.4,178.8 319.2,178.8 320.0,178.8 320.8,178.8 321.5,178.8 322.3,178.8 323.1,178.8 323.9,178.8 324.6,178.8 325.4,178.9 326.2,178.9 326.9,178.9 327.7,178.9 328.5,178.9 329.3,178.9 330.1,178.9 330.8,178.9 331.6,178.9 332.4,178.9 333.1,178.9 333.9,179.0 334.7,179.0 335.5,179.0 336.2,179.0 337.0,179.0 337.8,179.0 338.6,179.0 339.4,179.0 340.1,179.0 340.9,179.0 341.7,179.0 342.4,179.1 343.2,179.1 344.0,179.1\" fill=\"none\" stroke=\"#1f6fb2\" stroke-width=\"2.4\"/><text x=\"302.7\" y=\"170.6\" font-family=\"Arial,sans-serif\" fill=\"#1f6fb2\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">g'</text><line x1=\"164.2\" y1=\"175.3\" x2=\"164.2\" y2=\"186.0\" stroke=\"#243447\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><circle cx=\"164.2\" cy=\"175.3\" r=\"4.5\" fill=\"#f1c40f\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"171.2\" y=\"191.3\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"start\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">x ≈ 1,26</text></svg></div><div class=\"facit-matte\">\\[x\\approx1{,}260\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx1{,}26\\)</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
-    "geogebra": false,
+    "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.26033,
@@ -30113,7 +30113,7 @@ window.BANKMATO1 = [
       "procedur",
       "problemlösning"
     ],
-    "ledtrad": "<p>Derivera båda funktionerna och lös sedan den resulterande ekvationen numeriskt.</p>",
+    "ledtrad": "<p>Derivera båda funktionerna. Lös sedan ekvationen grafiskt genom att rita båda derivatorna.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true,
@@ -34597,7 +34597,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion gäller</p><p>\\[f^{\\prime}(x)=3x^2-12x+9.\\]</p><p>För vilka x-värden har grafen till \\(f\\) en horisontell tangent?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En horisontell tangent har lutningen 0, alltså ska</p><div class=\"facit-matte\">\\[f^{\\prime}(x)=0\\].</div></div><p>\\[3x^2-12x+9=3(x-1)(x-3)=0.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=1\\text{ och }x=3}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Horisontell tangent betyder \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[3x^2-12x+9=0\\]</div></li><li><p class=\"facit-rubrik\">Dela med 3 och använd pq-formeln</p><div class=\"facit-matte\">\\[x^2-4x+3=0\\]</div><div class=\"facit-matte\">\\[x=2\\pm\\sqrt{2^2-3}=2\\pm1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\) och \\(x=3\\)</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -37980,7 +37980,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen ges av \\(f(x)=x^2+3x\\).</p><p>Bestäm \\(f^{\\prime}(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan</p><div class=\"facit-matte\">\\[f'(x)=2x+3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(2)=4+3=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera \\(x^2+3x\\) term för term</p><div class=\"facit-matte\">\\[f'(x)=2x+3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(2)=4+3=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
     "familj": "Beräkna derivatans värde",
     "geogebra": false,
     "miniräknare": false,
@@ -42848,7 +42848,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Funktionen</p><p>\\[f(x)=x^2+ax+9\\]</p><p>har sin minimipunkt när \\(x=4\\). Bestäm \\(a\\) och funktionens minimivärde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=2x+a.\\]</p></li><li><p>Eftersom minimum ligger vid \\(x=4\\) måste \\(f^{\\prime}(4)=0\\):</p><p>\\[8+a=0\\Rightarrow a=-8.\\]</p><p>\\[f(4)=16-32+9=-7.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{a=-8}\\) och minimivärdet är \\(\\boxed{-7}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I minimipunkten är \\(f'(4)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=2x+a\\quad\\Rightarrow\\quad 8+a=0\\quad\\Rightarrow\\quad a=-8\\]</div></li><li><p class=\"facit-rubrik\">Minimivärdet är \\(f(4)\\)</p><div class=\"facit-matte\">\\[f(x)=x^2-8x+9\\]</div><div class=\"facit-matte\">\\[f(4)=16-32+9=-7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-8\\) och minimivärdet är \\(-7\\)</p></div>",
     "familj": "Extrempunkter med parameter",
     "geogebra": false,
     "miniräknare": true,
@@ -42894,7 +42894,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>För \\(b&gt;0\\) ges funktionen</p><p>\\[f(x)=-x^2+bx+3.\\]</p><p>Funktionens största värde är 12. Bestäm \\(b\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=-2x+b.\\]</p></li><li><div class=\"facit-berakning\"><p>Maximipunkten ligger vid</p><div class=\"facit-matte\">\\[x=b/2\\].</div></div></li><li><p>Funktionsvärdet där är</p><p>\\[f\\!\\left(\\frac b2\\right)=-\\frac{b^2}{4}+\\frac{b^2}{2}+3=\\frac{b^2}{4}+3.\\]</p></li><li><p>Villkoret ger</p><p>\\[\\frac{b^2}{4}+3=12\\Rightarrow b^2=36.\\]</p></li><li><p>Eftersom \\(b&gt;0\\) fås \\(\\boxed{b=6}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(6\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är 0 i maximipunkten</p><div class=\"facit-matte\">\\[f'(x)=-2x+b=0\\quad\\Rightarrow\\quad x=\\frac b2\\]</div><p>Parabeln vänder nedåt, så punkten är en maximipunkt.</p></li><li><p class=\"facit-rubrik\">Största värdet är \\(f(\\tfrac b2)\\)</p><div class=\"facit-matte\">\\[f\\!\\left(\\frac b2\\right)=-\\frac{b^2}{4}+\\frac{b^2}{2}+3=\\frac{b^2}{4}+3\\]</div></li><li><p class=\"facit-rubrik\">Sätt största värdet lika med 12</p><div class=\"facit-matte\">\\[\\frac{b^2}{4}+3=12\\quad\\Rightarrow\\quad b^2=36\\]</div><p>Eftersom \\(b>0\\) är \\(b=6\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Extrempunkter med parameter",
     "geogebra": false,
     "miniräknare": true,
@@ -42929,7 +42929,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En storhet \\(A\\) uppfyller</p><p>\\[A^{\\prime}(x)=12-2x\\quad\\text{för }0\\le x\\le10,\\]</p><p>och \\(A(0)=5\\).</p><p>Bestäm det största värdet på \\(A\\) i intervallet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv för \\(x&lt;6\\) och negativ för \\(x&gt;6\\), så \\(A\\) har sitt maximum vid \\(x=6\\).</p></li><li><p>En primitiv funktion till \\(12-2x\\) är \\(12x-x^2\\).</p></li><li><p>Eftersom \\(A(0)=5\\) gäller</p><p>\\[A(x)=12x-x^2+5.\\]</p><p>\\[A(6)=72-36+5=\\boxed{41}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(41\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tecknet på \\(A'(x)=12-2x\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 6 & \\\\ \\hline A'(x) & + & 0 & -\\\\ A(x) & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div><p>A växer fram till \\(x=6\\) och avtar sedan, så största värdet är \\(A(6)\\).</p></li><li><p class=\"facit-rubrik\">Bestäm A med en primitiv funktion och \\(A(0)=5\\)</p><div class=\"facit-matte\">\\[A(x)=12x-x^2+C,\\qquad A(0)=C=5\\]</div></li><li><p class=\"facit-rubrik\">Största värdet är \\(A(6)\\)</p><div class=\"facit-matte\">\\[A(6)=72-36+5=41\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 41</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -43690,7 +43690,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion gäller</p><p>\\[f^{\\prime}(x)=3(x-1)(x+3).\\]</p><p>Vid vilket x-värde har \\(f\\) en maximipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll vid \\(x=-3\\) och \\(x=1\\).</p></li><li><p>För \\(x&lt;-3\\) är båda faktorerna negativa, så \\(f^{\\prime}(x)&gt;0\\).</p></li><li><p>För \\(-3\\lt x&lt;1\\) har faktorerna olika tecken, så \\(f^{\\prime}(x)&lt;0\\).</p></li><li><p>Vid \\(x=-3\\) går derivatan alltså från positiv till negativ.</p></li><li><p>Där har \\(f\\) en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=-3}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=3(x-1)(x+3)\\)</p><div class=\"facit-matte\">\\[x=-3\\quad\\text{och}\\quad x=1\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-3\\) och 1</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -3 &  & 1 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − vid \\(x=-3\\)</p><p>Där har f sin maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -43729,7 +43729,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>För en funktion gäller</p><p>\\[f^{\\prime}(x)=3(x+1)(x-3).\\]</p><p>Vilken beskrivning är korrekt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll vid \\(x=-1\\) och \\(x=3\\).</p></li><li><p>Ett teckenstudium ger</p><p>\\[f^{\\prime}(x)&gt;0\\text{ för }x&lt;-1,\\qquad f^{\\prime}(x)&lt;0\\text{ för }-1\\lt x&lt;3,\\qquad f^{\\prime}(x)&gt;0\\text{ för }x&gt;3.\\]</p></li><li><p>Funktionen växer alltså, avtar och växer igen.</p></li><li><p>Teckenbytet \\(+\\to-\\) vid \\(x=-1\\) ger en maximipunkt och \\(-\\to+\\) vid \\(x=3\\) en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f\\) växer för \\(x<-1\\) och \\(x>3\\), avtar för \\(-1\\lt x<3\\), har en maximipunkt vid \\(x=-1\\) och en minimipunkt vid \\(x=3\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=3(x+1)(x-3)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -1 &  & 3 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Läs av tabellen</p><p>f växer för \\(x\\lt-1\\) och \\(x\\gt3\\) och avtar däremellan. Maximipunkt vid \\(x=-1\\), minimipunkt vid \\(x=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f\\) växer för \\(x<-1\\) och \\(x>3\\), avtar för \\(-1\\lt x<3\\), har en maximipunkt vid \\(x=-1\\) och en minimipunkt vid \\(x=3\\).</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -43751,7 +43751,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Grafanalys från faktoriserad derivata"
     ],
-    "alternativ": [{"txt": "\\(f\\) växer för \\(x<-1\\) och \\(x>3\\), avtar för \\(-1\\lt x<3\\), har en maximipunkt vid \\(x=-1\\) och en minimipunkt vid \\(x=3\\).", "ratt": true}, {"txt": "\\(f\\) växer för \\(x<-1\\) och \\(x>3\\), avtar för \\(-1\\lt x<3\\), har en minimipunkt vid \\(x=-1\\) och en maximipunkt vid \\(x=3\\).", "ratt": false}, {"txt": "\\(f\\) avtar för \\(x<-1\\) och \\(x>3\\), växer för \\(-1\\lt x<3\\), har en minimipunkt vid \\(x=-1\\) och en maximipunkt vid \\(x=3\\).", "ratt": false}, {"txt": "\\(f\\) avtar för \\(x<-1\\), växer för \\(-1\\lt x<3\\) och avtar för \\(x>3\\), med maximipunkter vid både \\(x=-1\\) och \\(x=3\\).", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(f\\) växer för \\(x<-1\\) och \\(x>3\\), avtar för \\(-1\\lt x<3\\), har en maximipunkt vid \\(x=-1\\) och en minimipunkt vid \\(x=3\\).",
+        "ratt": true
+      },
+      {
+        "txt": "\\(f\\) växer för \\(x<-1\\) och \\(x>3\\), avtar för \\(-1\\lt x<3\\), har en minimipunkt vid \\(x=-1\\) och en maximipunkt vid \\(x=3\\).",
+        "ratt": false,
+        "kommentar": "Teckenbytet från + till − vid \\(x=-1\\) ger en maximipunkt, inte en minimipunkt."
+      },
+      {
+        "txt": "\\(f\\) avtar för \\(x<-1\\) och \\(x>3\\), växer för \\(-1\\lt x<3\\), har en minimipunkt vid \\(x=-1\\) och en maximipunkt vid \\(x=3\\).",
+        "ratt": false,
+        "kommentar": "f' är positiv för \\(x\\lt-1\\), så f växer där."
+      },
+      {
+        "txt": "\\(f\\) avtar för \\(x<-1\\), växer för \\(-1\\lt x<3\\) och avtar för \\(x>3\\), med maximipunkter vid både \\(x=-1\\) och \\(x=3\\).",
+        "ratt": false,
+        "kommentar": "Vid \\(x=3\\) går derivatan från − till +, och f växer för \\(x\\gt3\\)."
+      }
+    ]
   },
   {
     "id": "3.362",
@@ -43764,7 +43784,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>För en funktion gäller</p><p>\\[f^{\\prime}(x)=x(x-2)^2.\\]</p><p>Derivatan är noll vid \\(x=0\\) och \\(x=2\\). Vilken beskrivning är korrekt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn \\((x-2)^2\\) är aldrig negativ och byter inte tecken vid \\(x=2\\).</p></li><li><p>Derivatans tecken bestäms därför av \\(x\\).</p></li><li><p>Vid \\(x=0\\) går derivatan från negativ till positiv, så där finns en minimipunkt.</p></li><li><p>Vid \\(x=2\\) är derivatan positiv på båda sidor, så där finns ingen extrempunkt utan en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) ger en minimipunkt och \\(x=2\\) en terrasspunkt.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\((x-2)^2\\) är aldrig negativ</p><p>Derivatans tecken bestäms av faktorn x, utom i \\(x=2\\) där den är 0.</p></li><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=x(x-2)^2\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 0 &  & 2 & \\\\ \\hline f'(x) & - & 0 & + & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) ger en minimipunkt och \\(x=2\\) en terrasspunkt.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -43786,7 +43806,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Dubbelrot i derivatan"
     ],
-    "alternativ": [{"txt": "\\(x=0\\) ger en maximipunkt och \\(x=2\\) en minimipunkt.", "ratt": false}, {"txt": "\\(x=0\\) ger en minimipunkt och \\(x=2\\) en terrasspunkt.", "ratt": true}, {"txt": "\\(x=0\\) ger en terrasspunkt och \\(x=2\\) en maximipunkt.", "ratt": false}, {"txt": "Både \\(x=0\\) och \\(x=2\\) ger minimipunkter.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(x=0\\) ger en maximipunkt och \\(x=2\\) en minimipunkt.",
+        "ratt": false,
+        "kommentar": "Vid \\(x=0\\) går f' från − till +, vilket ger en minimipunkt."
+      },
+      {
+        "txt": "\\(x=0\\) ger en minimipunkt och \\(x=2\\) en terrasspunkt.",
+        "ratt": true
+      },
+      {
+        "txt": "\\(x=0\\) ger en terrasspunkt och \\(x=2\\) en maximipunkt.",
+        "ratt": false,
+        "kommentar": "f' byter tecken vid \\(x=0\\), så där finns en extrempunkt."
+      },
+      {
+        "txt": "Både \\(x=0\\) och \\(x=2\\) ger minimipunkter.",
+        "ratt": false,
+        "kommentar": "Vid \\(x=2\\) är f' positiv på båda sidor, så där finns ingen extrempunkt."
+      }
+    ]
   },
   {
     "id": "3.363",
@@ -43935,7 +43975,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion gäller</p><p>\\[f^{\\prime}(x)=x(x-2)(x+2).\\]</p><p>Hur många extrempunkter har grafen till \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är noll vid</p><div class=\"facit-matte\">\\[x=-2,0,2\\].</div></div></li><li><p>Alla tre nollställena är enkla, så derivatan byter tecken vid vart och ett.</p></li><li><p>Varje teckenbyte ger en extrempunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{3}\\) extrempunkter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är 0 när någon faktor är 0</p><div class=\"facit-matte\">\\[x(x-2)(x+2)=0\\quad\\Rightarrow\\quad x=-2,\\ 0,\\ 2\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: tecknen växlar \\(-,+,-,+\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccccc}x &  & -2 &  & 0 &  & 2 & \\\\ \\hline f'(x) & - & 0 & + & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Tecknet byts vid alla tre nollställena</p><p>Det ger två minimipunkter och en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -53243,7 +53283,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en deriverbar funktion gäller \\[f^{\\prime}(x)=(x-1)(x-3).\\]</p><p>Vid vilket x-värde har f en lokal maximipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll vid \\(x=1\\) och \\(x=3\\).</p></li><li><p>För \\(x\\lt1\\) är \\(f'(x)\\gt0\\), för \\(1\\lt x\\lt3\\) är \\(f'(x)\\lt0\\), och för \\(x\\gt3\\) är \\(f'(x)\\gt0\\).</p></li><li><p>Vid \\(x=1\\) går funktionen alltså från växande till avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x-1)(x-3)\\)</p><div class=\"facit-matte\">\\[x=1\\quad\\text{och}\\quad x=3\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 1 och 3</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 1 &  & 3 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − vid \\(x=1\\)</p><p>Där går f från växande till avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -53280,7 +53320,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en deriverbar funktion gäller \\[f^{\\prime}(x)=-(x+2)(x-1).\\]</p><p>Vid vilket x-värde har f en lokal minimipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll vid \\(x=-2\\) och \\(x=1\\).</p></li><li><p>Vid \\(x=-2\\) byter \\(f'\\) tecken från negativt till positivt, så där går funktionen från avtagande till växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=-(x+2)(x-1)\\)</p><div class=\"facit-matte\">\\[x=-2\\quad\\text{och}\\quad x=1\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell – minustecknet vänder alla tecken</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -2 &  & 1 & \\\\ \\hline f'(x) & - & 0 & + & 0 & -\\\\ f(x) & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + vid \\(x=-2\\)</p><p>Där har f sin minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -53317,7 +53357,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en deriverbar funktion gäller</p><p>\\[f'(x)=x(x-4).\\]</p><p>Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll vid \\(x=0\\) och \\(x=4\\).</p></li><li><p>Tecknet är positivt före 0, negativt mellan 0 och 4 och positivt efter 4.</p></li><li><p>Derivatan byter alltså tecken vid båda nollställena.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\) lokala extrempunkter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=x(x-4)\\)</p><div class=\"facit-matte\">\\[x=0\\quad\\text{och}\\quad x=4\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 0 och 4</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 0 &  & 4 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Tecknet byts vid båda nollställena</p><p>Det ger en maximipunkt och en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -53390,7 +53430,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>För en deriverbar funktion gäller \\[f^{\\prime}(x)=3(x-2)^2.\\]</p><p>Hur många extrempunkter ger derivatans enda nollställe?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(3(x-2)^2\\ge0\\) är derivatan positiv på båda sidor om \\(x=2\\) och noll bara i själva punkten.</p></li><li><p>Något teckenbyte sker alltså inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\) extrempunkter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(3(x-2)^2\\) är aldrig negativ</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 2 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Inget teckenbyte vid \\(x=2\\)</p><p>Derivatan är positiv på båda sidor. Punkten är en terrasspunkt, ingen extrempunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -53427,7 +53467,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>För en deriverbar funktion gäller</p><p>\\[f'(x)=-(x+1)^2.\\]</p><p>Vad kan du säga om punkten där \\(x=-1\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ på båda sidor om \\(x=-1\\) och noll i själva punkten.</p></li><li><p>Funktionen är alltså avtagande både före och efter punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En horisontell tangent utan extrempunkt, eftersom \\(f'\\) inte byter tecken.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(-(x+1)^2\\) är aldrig positiv</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & -1 & \\\\ \\hline f'(x) & - & 0 & -\\\\ f(x) & \\searrow & \\text{terrass} & \\searrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Inget teckenbyte vid \\(x=-1\\)</p><p>f avtar både före och efter. Tangenten är vågrät, men punkten är ingen extrempunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En horisontell tangent utan extrempunkt, eftersom \\(f'\\) inte byter tecken.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -53451,7 +53491,27 @@ window.BANKMATO1 = [
       "Terrasspunkter och teckenbyten i derivatan",
       "Deriverbarhet"
     ],
-    "alternativ": [{"txt": "En lokal maximipunkt, eftersom \\(f'\\) byter från positivt till negativt.", "ratt": false}, {"txt": "En lokal minimipunkt, eftersom \\(f'\\) byter från negativt till positivt.", "ratt": false}, {"txt": "En horisontell tangent utan extrempunkt, eftersom \\(f'\\) inte byter tecken.", "ratt": true}, {"txt": "En punkt där funktionen inte är deriverbar, eftersom \\(f'\\) blir noll.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "En lokal maximipunkt, eftersom \\(f'\\) byter från positivt till negativt.",
+        "ratt": false,
+        "kommentar": "Derivatan är negativ på båda sidor, inte positiv före \\(x=-1\\)."
+      },
+      {
+        "txt": "En lokal minimipunkt, eftersom \\(f'\\) byter från negativt till positivt.",
+        "ratt": false,
+        "kommentar": "Derivatan är negativ på båda sidor, inte positiv efter \\(x=-1\\)."
+      },
+      {
+        "txt": "En horisontell tangent utan extrempunkt, eftersom \\(f'\\) inte byter tecken.",
+        "ratt": true
+      },
+      {
+        "txt": "En punkt där funktionen inte är deriverbar, eftersom \\(f'\\) blir noll.",
+        "ratt": false,
+        "kommentar": "Derivatan finns och är 0 i \\(x=-1\\). Då är tangenten vågrät."
+      }
+    ]
   },
   {
     "id": "3.639",
@@ -53464,7 +53524,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>För en deriverbar funktion gäller \\[f^{\\prime}(x)=(x+3)(x-1)(x-4).\\]</p><p>Hur många lokala minimipunkter har f?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatans nollställen är \\(-3\\),</p></li><li><p>\\(1\\) och \\(4\\).</p></li><li><p>Eftersom alla tre är enkla nollställen växlar derivatans tecken:</p><p>\\[-,\\ +,\\ -,\\ +.\\]</p></li><li><p>Lokala minimipunkter fås där tecknet går från minus till plus, alltså vid \\(x=-3\\) och \\(x=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\) lokala minimipunkter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställena i ordning</p><div class=\"facit-matte\">\\[x=-3,\\quad x=1,\\quad x=4\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: tecknen växlar \\(-,+,-,+\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccccc}x &  & -3 &  & 1 &  & 4 & \\\\ \\hline f'(x) & - & 0 & + & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger minimum</p><p>Det händer vid \\(x=-3\\) och vid \\(x=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -53501,7 +53561,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>För en deriverbar funktion gäller \\[f^{\\prime}(x)=-(x+2)(x-2)(x-5).\\]</p><p>Vid vilket x-värde har f sin lokala minimipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Nollställena till derivatan är</p><div class=\"facit-matte\">\\[x=-2\\],</div></div></li><li><p>\\(x=2\\) och \\(x=5\\).</p></li><li><p>Teckenföljden för \\(f'\\) blir</p><p>\\[+,\\ -,\\ +,\\ -.\\]</p></li><li><p>Vid \\(x=2\\) går derivatan från negativ till positiv, vilket ger en lokal minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställena i ordning</p><div class=\"facit-matte\">\\[x=-2,\\quad x=2,\\quad x=5\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell – tänk på minustecknet</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccccc}x &  & -2 &  & 2 &  & 5 & \\\\ \\hline f'(x) & + & 0 & - & 0 & + & 0 & -\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + vid \\(x=2\\)</p><p>Där finns den lokala minimipunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -54246,7 +54306,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En funktion har derivatan \\(f'(x)=(x+3)(x-1)\\). Vid vilket x-värde har funktionen en lokal maximipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nollställena till \\(f'\\) är \\(-3\\) och \\(1\\).</p></li><li><p>Tecknet är positivt före \\(-3\\), negativt mellan nollställena och positivt efter \\(1\\).</p></li><li><p>Vid \\(x=-3\\) går funktionen därför från växande till avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x+3)(x-1)\\)</p><div class=\"facit-matte\">\\[x=-3\\quad\\text{och}\\quad x=1\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-3\\) och 1</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -3 &  & 1 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − vid \\(x=-3\\) ger maximum</p><p>f går från växande till avtagande där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -54281,7 +54341,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En funktion har derivatan</p><p>\\[f'(x)=(x+3)(x-1).\\]</p><p>Bestäm avståndet mellan extrempunkternas x-värden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll vid \\(x=-3\\) och \\(x=1\\).</p></li><li><p>Eftersom båda nollställena är enkla byter derivatan tecken vid båda, så båda motsvarar extrempunkter.</p></li><li><p>Avståndet mellan x-värdena är</p><p>\\[1-(-3)=4.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Extrempunkterna ligger vid nollställena \\(-3\\) och \\(1\\)</p><p>Båda nollställena är enkla, så derivatan byter tecken vid båda.</p></li><li><p class=\"facit-rubrik\">Avståndet mellan x-värdena</p><div class=\"facit-matte\">\\[1-(-3)=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -54316,7 +54376,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En funktion har derivatan \\(f'(x)=-2(x-4)\\). Vid vilket x-värde finns extrempunkten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[-2(x-4)=0\\Rightarrow x=4.\\]</p></li><li><p>Derivatan är positiv före 4 och negativ efter 4, så punkten är en lokal maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är 0 när \\(x=4\\)</p><div class=\"facit-matte\">\\[-2(x-4)=0\\quad\\Rightarrow\\quad x=4\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=-2(x-4)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 4 & \\\\ \\hline f'(x) & + & 0 & -\\\\ f(x) & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div><p>Punkten är en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -54350,7 +54410,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f(x)=e^x\\) har derivatan \\(f'(x)=e^x\\). Hur många lokala extrempunkter har funktionen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(e^x\\gt0\\) för alla reella \\(x\\).</p></li><li><p>Därför är \\(f'(x)\\) alltid positiv och funktionen strikt växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\) lokala extrempunkter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(e^x\\) är alltid positivt</p><div class=\"facit-matte\">\\[f'(x)=e^x>0\\ \\text{för alla }x\\]</div><p>Derivatan blir aldrig 0 och byter aldrig tecken. Funktionen är växande överallt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -54419,7 +54479,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>En funktion har derivatan</p><p>\\[f'(x)=(x-1)^2(x+3).\\]</p><p>Hur ska punkten med \\(x=1\\) klassificeras?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn \\((x-1)^2\\) är positiv på båda sidor om \\(x=1\\) och noll i själva punkten.</p></li><li><p>Faktoren \\(x+3\\) är positiv nära \\(x=1\\).</p></li><li><p>Därför byter \\(f'(x)\\) inte tecken vid \\(x=1\\), trots att derivatan är noll där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Terrasspunkt, eftersom \\(f'=0\\) men derivatan inte byter tecken.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tecknet nära \\(x=1\\)</p><p>\\((x-1)^2\\ge0\\) och \\(x+3>0\\) nära \\(x=1\\).</p></li><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-1)^2(x+3)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -3 &  & 1 & \\\\ \\hline f'(x) & - & 0 & + & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Inget teckenbyte vid \\(x=1\\)</p><p>Derivatan är 0 men positiv på båda sidor: en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Terrasspunkt, eftersom \\(f'=0\\) men derivatan inte byter tecken.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -54441,7 +54501,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Terrasspunkter och teckenbyten i derivatan"
     ],
-    "alternativ": [{"txt": "Lokal maximipunkt, eftersom \\(f'\\) byter från positivt till negativt.", "ratt": false}, {"txt": "Lokal minimipunkt, eftersom \\(f'\\) byter från negativt till positivt.", "ratt": false}, {"txt": "Terrasspunkt, eftersom \\(f'=0\\) men derivatan inte byter tecken.", "ratt": true}, {"txt": "Ingen horisontell tangent, eftersom derivatan inte är definierad där.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Lokal maximipunkt, eftersom \\(f'\\) byter från positivt till negativt.",
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor om \\(x=1\\)."
+      },
+      {
+        "txt": "Lokal minimipunkt, eftersom \\(f'\\) byter från negativt till positivt.",
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor om \\(x=1\\)."
+      },
+      {
+        "txt": "Terrasspunkt, eftersom \\(f'=0\\) men derivatan inte byter tecken.",
+        "ratt": true
+      },
+      {
+        "txt": "Ingen horisontell tangent, eftersom derivatan inte är definierad där.",
+        "ratt": false,
+        "kommentar": "\\(f'(1)=0\\), så tangenten är vågrät."
+      }
+    ]
   },
   {
     "id": "3.713",
@@ -54627,7 +54707,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=x^2-6x+4\\).</p><p>Bestäm det positiva x-värdet för en lokal extrempunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=2x-6.\\]</p><p>\\[2x-6=0\\Rightarrow x=3.\\]</p></li><li><p>Derivatan går från negativ till positiv, så punkten är en lokal minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=2x-6=0\\quad\\Rightarrow\\quad x=3\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=2x-6\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 3 & \\\\ \\hline f'(x) & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div><p>Punkten är en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": false,
@@ -54662,7 +54742,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är</p><p>\\[f(x)=-x^2+8x-1.\\]</p><p>Bestäm funktionens lokala maximivärde med hjälp av derivata.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=-2x+8.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatan är noll när</p><div class=\"facit-matte\">\\[x=4\\].</div></div></li><li><p>Eftersom derivatan går från positiv till negativ där är det en maximipunkt.</p><p>\\[f(4)=-16+32-1=15.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> maximivärdet är \\(15\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=-2x+8=0\\quad\\Rightarrow\\quad x=4\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=-2x+8\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 4 & \\\\ \\hline f'(x) & + & 0 & -\\\\ f(x) & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Maximivärdet är \\(f(4)\\)</p><div class=\"facit-matte\">\\[f(4)=-16+32-1=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> maximivärdet är 15</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": false,
@@ -54697,7 +54777,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är</p><p>\\[f(x)=x^3-3x^2.\\]</p><p>Hur många lokala extrempunkter har funktionen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=3x^2-6x=3x(x-2).\\]</p></li><li><p>Derivatan är positiv före 0, negativ mellan 0 och 2 och positiv efter 2.</p></li><li><p>Den byter alltså tecken vid båda nollställena.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\) lokala extrempunkter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och bryt ut 3x</p><div class=\"facit-matte\">\\[f'(x)=3x^2-6x=3x(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 0 och 2</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 0 &  & 2 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Tecknet byts vid båda nollställena</p><p>Maximipunkt vid \\(x=0\\) och minimipunkt vid \\(x=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": false,
@@ -54732,7 +54812,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är</p><p>\\[f(x)=x^3-12x.\\]</p><p>Bestäm avståndet mellan extrempunkternas x-värden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=3x^2-12=3(x-2)(x+2).\\]</p></li><li><p>Extrempunkternas x-värden är \\(-2\\) och \\(2\\).</p></li><li><p>Avståndet mellan dem är</p><p>\\[2-(-2)=4.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och faktorisera med konjugatregeln</p><div class=\"facit-matte\">\\[f'(x)=3x^2-12=3(x-2)(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är 0 när någon faktor är 0</p><div class=\"facit-matte\">\\[x=-2\\quad\\text{och}\\quad x=2\\]</div><p>Båda är enkla nollställen, alltså extrempunkter.</p></li><li><p class=\"facit-rubrik\">Avståndet mellan x-värdena</p><div class=\"facit-matte\">\\[2-(-2)=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": false,
@@ -54767,7 +54847,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Funktionen är</p><p>\\[f(x)=x^4-8x^2.\\]</p><p>Vid vilket x-värde har funktionen en lokal maximipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=4x^3-16x=4x(x-2)(x+2).\\]</p></li><li><p>Nollställena är \\(-2\\),</p></li><li><p>\\(0\\) och \\(2\\).</p></li><li><p>Tecknet hos derivatan är \\(-,+,-,+\\) från vänster till höger.</p></li><li><p>Vid \\(x=0\\) går derivatan från positiv till negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och bryt ut 4x</p><div class=\"facit-matte\">\\[f'(x)=4x^3-16x=4x(x-2)(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: tecknen växlar \\(-,+,-,+\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccccc}x &  & -2 &  & 0 &  & 2 & \\\\ \\hline f'(x) & - & 0 & + & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − vid \\(x=0\\)</p><p>Där finns maximipunkten. Vid \\(\\pm2\\) finns minimipunkter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\)</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": false,
@@ -67691,7 +67771,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen ges av \\(f(x)=(2x-1)^5\\). Använd ett digitalt verktyg för att bestämma \\(f'(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett digitalt verktyg ger \\(f'(x)=10(2x-1)^4\\), och därmed</p><p>\\[f'(2)=10\\cdot3^4=810.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(810\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan med verktyget</p><div class=\"facit-matte\">\\[f'(x)=10(2x-1)^4\\]</div><p>I GeoGebra: skriv f(x)=(2x−1)^5 och sedan Derivata(f).</p></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(2)=10\\cdot3^4=10\\cdot81=810\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 810</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -68744,7 +68824,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm det värde på \\(x\\) där derivatan till \\(f(x)=x^2+5x\\) är lika med derivatan till \\(g(x)=-5x^2+14x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera båda</p><div class=\"facit-matte\">\\[f'(x)=2x+5,\\qquad g'(x)=-10x+14\\]</div></li><li><p class=\"facit-rubrik\">Sätt derivatorna lika</p><div class=\"facit-matte\">\\[2x+5=-10x+14\\]</div><div class=\"facit-matte\">\\[12x=9\\quad\\Rightarrow\\quad x=0{,}75\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,75</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera f och g var för sig</p><div class=\"facit-matte\">\\[f'(x)=2x+5,\\qquad g'(x)=-10x+14\\]</div></li><li><p class=\"facit-rubrik\">Sätt derivatorna lika</p><div class=\"facit-matte\">\\[2x+5=-10x+14\\]</div><div class=\"facit-matte\">\\[12x=9\\quad\\Rightarrow\\quad x=0{,}75\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,75</p></div>",
     "familj": "Derivera polynom",
     "geogebra": false,
     "miniräknare": false,
@@ -72961,7 +73041,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f'(2)\\) när \\(f(x)=2x^3+x^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Ett derivataverktyg ger</p><div class=\"facit-matte\">\\[f'(x)=6x^2+2x\\].</div></div></li><li><p>Vid \\(x=2\\) blir</p><p>\\[f'(2)=6\\cdot4+4=28.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verktygets derivata av \\(2x^3+x^2\\)</p><div class=\"facit-matte\">\\[f'(x)=6x^2+2x\\]</div><p>Verktygets derivata stämmer med potensregeln.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(2)=24+4=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28</p></div>",
     "familj": "Numerisk derivering och tangenter med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -73097,7 +73177,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=4x^3-2x\\). Bestäm \\(f'(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan</p><div class=\"facit-matte\">\\[f'(x)=12x^2-2\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(2)=48-2=46\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 46</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(4x^3-2x\\)</p><div class=\"facit-matte\">\\[f'(x)=12x^2-2\\]</div></li><li><p class=\"facit-rubrik\">Vid \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(2)=48-2=46\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 46</p></div>",
     "familj": "Beräkna derivatans värde",
     "geogebra": false,
     "miniräknare": false,
@@ -73457,7 +73537,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+3)(x-3)\\). Vid vilket \\(x\\)-värde har \\(f\\) en lokal maximipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv före \\(-3\\), negativ mellan \\(-3\\) och 3 och positiv efter 3.</p></li><li><p>Vid \\(x=-3\\) byter alltså \\(f'\\) tecken från positivt till negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x+3)(x-3)\\)</p><div class=\"facit-matte\">\\[x=-3\\quad\\text{och}\\quad x=3\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-3\\) och 3</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -3 &  & 3 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − vid \\(x=-3\\)</p><p>Där finns maximipunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -73523,7 +73603,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=x^2\\). Bestäm det positiva \\(x\\)-värde där \\(f'(x)=16\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan</p><div class=\"facit-matte\">\\[f'(x)=2x\\]</div></li><li><p class=\"facit-rubrik\">Sätt derivatan lika med 16</p><div class=\"facit-matte\">\\[2x=16\\quad\\Rightarrow\\quad x=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(x^2\\)</p><div class=\"facit-matte\">\\[f'(x)=2x\\]</div></li><li><p class=\"facit-rubrik\">Sätt derivatan lika med 16</p><div class=\"facit-matte\">\\[2x=16\\quad\\Rightarrow\\quad x=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
     "familj": "Lösa ekvationer med derivata",
     "geogebra": false,
     "miniräknare": false,
@@ -73591,7 +73671,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-10)\\). Vid vilket \\(x\\)-värde har \\(f\\) en lokal minimipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'\\) är positiv före 8, negativ mellan 8 och 10 och positiv efter 10.</p></li><li><div class=\"facit-berakning\"><p>Teckenbytet negativt till positivt sker vid</p><div class=\"facit-matte\">\\[x=10\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x-8)(x-10)\\)</p><div class=\"facit-matte\">\\[x=8\\quad\\text{och}\\quad x=10\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 8 och 10</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 8 &  & 10 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + vid \\(x=10\\)</p><p>Där finns minimipunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -73626,7 +73706,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+4)(x-5)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan har två enkla nollställen, \\(-4\\) och 5.</p></li><li><p>Eftersom tecknet byts vid båda får \\(f\\) en maximipunkt och en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 extrempunkter</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x+4)(x-5)\\)</p><div class=\"facit-matte\">\\[x=-4\\quad\\text{och}\\quad x=5\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-4\\) och 5</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -4 &  & 5 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Teckenbyte vid båda</p><p>En maximipunkt vid −4 och en minimipunkt vid 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -73830,7 +73910,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-7)\\). Vid vilket \\(x\\)-värde har \\(f\\) en lokal maximipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv före 5 och negativ mellan 5 och 7.</p></li><li><div class=\"facit-berakning\"><p>Teckenbytet positivt till negativt sker vid</p><div class=\"facit-matte\">\\[x=5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x-5)(x-7)\\)</p><div class=\"facit-matte\">\\[x=5\\quad\\text{och}\\quad x=7\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 5 och 7</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 5 &  & 7 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − vid \\(x=5\\)</p><p>Där finns maximipunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -73865,7 +73945,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-4)(x-8)\\). På hur många separata x-områden är \\(f\\) avtagande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ mellan nollställena 4 och 8 och positiv utanför.</p></li><li><p>Funktionen är därför avtagande på ett enda sammanhängande x-område.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-4)(x-8)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 4 &  & 8 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Negativ derivata bara mellan 4 och 8</p><p>f är avtagande på ett enda sammanhängande område, \\(4\\le x\\le8\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -74115,7 +74195,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-6)(x-10)\\). Hur stor är längden på det sammanhängande x-område där \\(f\\) är avtagande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är 0 vid \\(x=6\\) och \\(x=10\\).</p></li><li><p>Mellan dessa värden är produkten negativ, så funktionen avtar där.</p></li><li><div class=\"facit-berakning\"><p>Områdets längd är</p><div class=\"facit-matte\">\\[10-6=4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-6)(x-10)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 6 &  & 10 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">f avtar mellan 6 och 10</p><div class=\"facit-matte\">\\[10-6=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -74150,7 +74230,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+6)(x+1)\\). Vid vilket \\(x\\)-värde har \\(f\\) en lokal minimipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ mellan \\(-6\\) och \\(-1\\) och positiv efter \\(-1\\).</p></li><li><p>Alltså har \\(f\\) en lokal minimipunkt vid \\(x=-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x+6)(x+1)\\)</p><div class=\"facit-matte\">\\[x=-6\\quad\\text{och}\\quad x=-1\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-6\\) och \\(-1\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -6 &  & -1 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + vid \\(x=-1\\)</p><p>Där finns minimipunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -74184,7 +74264,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionerna är \\(f(x)=x^2+7\\) och \\(g(x)=x^2-4\\). Bestäm \\(f'(2)-g'(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstanttermerna 7 och −4 försvinner</p><div class=\"facit-matte\">\\[f'(x)=2x,\\qquad g'(x)=2x\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden</p><div class=\"facit-matte\">\\[f'(2)-g'(2)=4-4=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstanttermerna 7 och −4 försvinner</p><div class=\"facit-matte\">\\[f'(x)=2x,\\qquad g'(x)=2x\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden mellan derivatorna i \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(2)-g'(2)=4-4=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Derivera polynom",
     "geogebra": false,
     "miniräknare": false,
@@ -74321,7 +74401,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+2)^2\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\((x+2)^2\\) är aldrig negativ.</p></li><li><p>Derivatan är 0 vid \\(x=-2\\), men den byter inte tecken där.</p></li><li><p>Funktionen fortsätter alltså att växa på båda sidor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0 extrempunkter</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\((x+2)^2\\) är aldrig negativ</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & -2 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Inget teckenbyte vid \\(x=-2\\)</p><p>Funktionen växer på båda sidor om \\(x=-2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -74355,7 +74435,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-1)^3\\). Vid vilket \\(x\\)-värde har \\(f\\) en lokal minimipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(x&lt;1\\) är \\(f'(x)&lt;0\\), och för \\(x&gt;1\\) är \\(f'(x)&gt;0\\).</p></li><li><div class=\"facit-berakning\"><p>Funktionen går alltså från att avta till att växa vid</p><div class=\"facit-matte\">\\[x=1\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En udda potens behåller faktorns tecken</p><p>\\((x-1)^3\\) har samma tecken som \\(x-1\\).</p></li><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-1)^3\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 1 & \\\\ \\hline f'(x) & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -74561,7 +74641,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-2)^2\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är 0 vid \\(x=2\\) men positiv på båda sidor.</p></li><li><p>Funktionen växer alltså både före och efter punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0 extrempunkter</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\((x-2)^2\\) är aldrig negativ</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 2 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Inget teckenbyte vid \\(x=2\\)</p><p>Funktionen växer både före och efter \\(x=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -74595,7 +74675,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+1)^2(x-3)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=-1\\) har derivatan ett dubbelt nollställe och byter inte tecken.</p></li><li><p>Vid \\(x=3\\) är nollstället enkelt och tecknet byts.</p></li><li><p>Därför finns en lokal extrempunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x+1)^2(x-3)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -1 &  & 3 & \\\\ \\hline f'(x) & - & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{terrass} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Dubbelt nollställe vid −1, enkelt vid 3</p><p>Bara vid \\(x=3\\) byts tecknet, så det finns en extrempunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -74805,7 +74885,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=x^3-3x\\). Vid vilket \\(x\\)-värde har \\(f\\) en lokal maximipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=3x^2-3=3(x-1)(x+1)\\].</div></li><li><div class=\"facit-berakning\"><p>Derivatan går från positiv till negativ vid</p><div class=\"facit-matte\">\\[x=-1\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera, bryt ut 3 och använd konjugatregeln</p><div class=\"facit-matte\">\\[f'(x)=3x^2-3=3(x-1)(x+1)\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-1\\) och 1</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -1 &  & 1 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": false,
@@ -74839,7 +74919,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=x^3-12x\\). Vid vilket positivt \\(x\\)-värde har \\(f\\) en lokal minimipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=3x^2-12=3(x-2)(x+2)\\].</div></li><li><p>Vid \\(x=2\\) går derivatan från negativ till positiv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera, bryt ut 3 och använd konjugatregeln</p><div class=\"facit-matte\">\\[f'(x)=3x^2-12=3(x-2)(x+2)\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-2\\) och 2</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -2 &  & 2 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div><p>Från − till + vid \\(x=2\\): minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": false,
@@ -75044,7 +75124,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För funktionsfamiljen \\(f_a(x)=x^2+ax\\), bestäm det \\(x\\)-värde där derivatan är 0. Svara med ett uttryck i \\(a\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_a'(x)=2x+a\\].</div></li><li><p>Villkoret \\(2x+a=0\\) ger</p><p>\\[x=-\\frac{a}{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-a/2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera med a som konstant</p><div class=\"facit-matte\">\\[f_a'(x)=2x+a\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(f_a'(x)=0\\)</p><div class=\"facit-matte\">\\[2x+a=0\\quad\\Rightarrow\\quad x=-\\frac a2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac a2\\)</p></div>",
     "familj": "Extrempunkter med parameter",
     "geogebra": false,
     "miniräknare": true,
@@ -75215,7 +75295,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+2)(x-5)\\). På hur många separata x-områden är \\(f\\) växande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv när \\(x&lt;-2\\) och när \\(x&gt;5\\), men negativ däremellan.</p></li><li><p>Det finns alltså två separata områden där funktionen är växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x+2)(x-5)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -2 &  & 5 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Positiv derivata på två skilda områden</p><p>f växer för \\(x\\le-2\\) och för \\(x\\ge5\\), men avtar däremellan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -75249,7 +75329,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=-(x+1)(x-3)\\). På hur många separata x-områden är \\(f\\) växande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Minustecknet gör derivatan positiv mellan nollställena \\(-1\\) och 3 och negativ utanför.</p></li><li><p>Funktionen är alltså växande på ett sammanhängande område.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=-(x+1)(x-3)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -1 &  & 3 & \\\\ \\hline f'(x) & - & 0 & + & 0 & -\\\\ f(x) & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Minustecknet gör derivatan positiv mellan nollställena</p><p>f växer bara på området \\(-1\\le x\\le3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -75317,7 +75397,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För \\(a&gt;0\\) gäller \\(f_a'(x)=3(x^2-a)\\). Hur många olika x-värden uppfyller \\(f_a'(x)=0\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x^2-a=0\\) ger \\(x=\\pm\\sqrt{a}\\).</p></li><li><p>Eftersom \\(a&gt;0\\) är dessa två olika reella tal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f_a'(x)=0\\)</p><div class=\"facit-matte\">\\[x^2-a=0\\quad\\Rightarrow\\quad x=\\pm\\sqrt a\\]</div></li><li><p class=\"facit-rubrik\">\\(a>0\\) ger två olika reella tal</p><p>\\(\\sqrt a\\) och \\(-\\sqrt a\\) är olika när \\(a>0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Extrempunkter med parameter",
     "geogebra": false,
     "miniräknare": true,
@@ -75386,7 +75466,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion gäller \\(f(1,9)=3{,}61\\) och \\(f(2,1)=4{,}41\\). Uppskatta \\(f'(2)\\) med en symmetrisk differenskvot.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En symmetrisk uppskattning kring \\(x=2\\) är</p><p>\\[f'(2)\\approx\\frac{f(2,1)-f(1,9)}{2{,}1-1{,}9}=\\frac{4{,}41-3{,}61}{0{,}2}=4.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetrisk differenskvot: \\(f'(a)\\approx\\dfrac{f(a+h)-f(a-h)}{2h}\\) med \\(h=0{,}1\\)</p><div class=\"facit-matte\">\\[f'(2)\\approx\\frac{4{,}41-3{,}61}{2{,}1-1{,}9}=\\frac{0{,}80}{0{,}2}=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Numerisk derivering och tangenter med digitalt verktyg",
     "geogebra": false,
     "miniräknare": false,
@@ -75421,7 +75501,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En lägesfunktion har värdena \\(s(2,99)=8{,}9401\\) och \\(s(3,01)=9{,}0601\\). Uppskatta \\(s'(3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd differenskvoten över det korta symmetriska intervallet:</p><p>\\[s'(3)\\approx\\frac{9{,}0601-8{,}9401}{3{,}01-2{,}99}=\\frac{0{,}12}{0{,}02}=6.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetrisk differenskvot: \\(f'(a)\\approx\\dfrac{f(a+h)-f(a-h)}{2h}\\) med \\(h=0{,}01\\)</p><div class=\"facit-matte\">\\[s'(3)\\approx\\frac{9{,}0601-8{,}9401}{3{,}01-2{,}99}\\]</div><div class=\"facit-matte\">\\[=\\frac{0{,}12}{0{,}02}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Numerisk derivering och tangenter med digitalt verktyg",
     "geogebra": false,
     "miniräknare": false,
@@ -75595,7 +75675,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=x^2\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är 0 vid \\(x=0\\), men den är positiv på båda sidor om 0.</p></li><li><p>Därför byter den inte tecken och \\(f\\) har ingen lokal extrempunkt där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x^2\\) är aldrig negativ</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 0 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Inget teckenbyte vid \\(x=0\\)</p><p>Där finns en terrasspunkt, inte en extrempunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -75629,7 +75709,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=x^3\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ för \\(x&lt;0\\), 0 vid \\(x=0\\) och positiv för \\(x&gt;0\\).</p></li><li><p>Teckenbytet negativt till positivt ger en lokal minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x^3\\) har samma tecken som x</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 0 & \\\\ \\hline f'(x) & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + vid \\(x=0\\)</p><p>Det ger en lokal minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -75663,7 +75743,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=3(x+2)(x-1)\\). Vid vilket \\(x\\)-värde har \\(f\\) en lokal maximipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv före \\(-2\\), negativ mellan \\(-2\\) och 1 och positiv efter 1.</p></li><li><div class=\"facit-berakning\"><p>Därför finns maximipunkten vid</p><div class=\"facit-matte\">\\[x=-2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=3(x+2)(x-1)\\)</p><div class=\"facit-matte\">\\[x=-2\\quad\\text{och}\\quad x=1\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-2\\) och 1</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -2 &  & 1 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − vid \\(x=-2\\)</p><p>Där finns maximipunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -75697,7 +75777,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=3(x+2)(x-1)\\). Vid vilket \\(x\\)-värde har \\(f\\) en lokal minimipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=1\\) går derivatan från negativ till positiv.</p></li><li><p>Därför har \\(f\\) en lokal minimipunkt där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=3(x+2)(x-1)\\)</p><div class=\"facit-matte\">\\[x=-2\\quad\\text{och}\\quad x=1\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är positiv till höger om 1</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -2 &  & 1 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + vid \\(x=1\\)</p><p>Där finns minimipunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -75731,7 +75811,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-4)^2(x+1)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=4\\) har derivatan ett dubbelt nollställe och byter inte tecken.</p></li><li><p>Vid \\(x=-1\\) är nollstället enkelt och tecknet byts.</p></li><li><p>Alltså finns en lokal extrempunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-4)^2(x+1)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -1 &  & 4 & \\\\ \\hline f'(x) & - & 0 & + & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Bara det enkla nollstället ger teckenbyte</p><p>Vid \\(x=-1\\) finns en extrempunkt. Vid \\(x=4\\) finns en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -75765,7 +75845,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+2)^2(x-3)^2\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda faktorerna är kvadrater, så \\(f'(x)\\ge0\\) för alla \\(x\\).</p></li><li><p>Derivatan blir 0 vid \\(-2\\) och 3 men byter inte tecken vid någon av punkterna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En produkt av två kvadrater är aldrig negativ</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -2 &  & 3 & \\\\ \\hline f'(x) & + & 0 & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Inget teckenbyte vid något nollställe</p><p>Båda punkterna är terrasspunkter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -75799,7 +75879,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+1)^2(x-4)\\). Vilket x-värde där \\(f'(x)=0\\) ger <em>inte</em> en extrempunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nollställena är \\(x=-1\\) och \\(x=4\\).</p></li><li><p>Faktorn \\((x+1)^2\\) har jämn multiplicitet, så derivatan byter inte tecken vid \\(x=-1\\).</p></li><li><p>Där uppstår ingen extrempunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x+1)^2(x-4)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -1 &  & 4 & \\\\ \\hline f'(x) & - & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{terrass} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Kvadratfaktorn ger inget teckenbyte vid \\(x=-1\\)</p><p>Där finns ingen extrempunkt, bara en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -75833,7 +75913,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-2)^3(x+5)^2\\). Vilket x-värde där \\(f'(x)=0\\) ger en extrempunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=-5\\) har derivatan ett nollställe med jämn multiplicitet och byter inte tecken.</p></li><li><p>Vid \\(x=2\\) är multipliciteten udda, så derivatan byter tecken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-2)^3(x+5)^2\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -5 &  & 2 & \\\\ \\hline f'(x) & - & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{terrass} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Udda potens ger teckenbyte, jämn potens inte</p><p>Vid \\(x=2\\) byts tecknet, vid \\(x=-5\\) inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -75902,7 +75982,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) är deriverbar i en omgivning av \\(x=3\\) och har en lokal extrempunkt vid \\(x=3\\). Bestäm \\(f'(3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en inre lokal extrempunkt för en deriverbar funktion är tangentens lutning 0.</p></li><li><div class=\"facit-berakning\"><p>Därför är</p><div class=\"facit-matte\">\\[f'(3)=0\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I en inre extrempunkt är tangenten vågrät</p><p>Funktionen är deriverbar runt \\(x=3\\), så lutningen där måste vara 0.</p><div class=\"facit-matte\">\\[f'(3)=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -75938,7 +76018,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en deriverbar funktion gäller \\(f'(x)&lt;0\\) när \\(x&lt;2\\) och \\(f'(x)&gt;0\\) när \\(x&gt;2\\). Vid vilket \\(x\\)-värde har funktionen en lokal minimipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen avtar före \\(x=2\\) och växer efter \\(x=2\\).</p></li><li><div class=\"facit-berakning\"><p>Därför finns en lokal minimipunkt vid</p><div class=\"facit-matte\">\\[x=2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tecknen står i uppgiften</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 2 & \\\\ \\hline f'(x) & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + vid \\(x=2\\)</p><p>f avtar före och växer efter, alltså en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -75972,7 +76052,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en deriverbar funktion gäller: \\(f'(x)&gt;0\\) när \\(x&lt;-1\\), \\(f'(x)&lt;0\\) när \\(-1&lt;x&lt;4\\), och \\(f'(x)&gt;0\\) när \\(x&gt;4\\). Hur många lokala extrempunkter har funktionen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=-1\\) går derivatan från positiv till negativ: en maximipunkt.</p></li><li><p>Vid \\(x=4\\) går den från negativ till positiv: en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell enligt uppgiften</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -1 &  & 4 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Teckenbyte både vid \\(x=-1\\) och vid \\(x=4\\)</p><p>Maximipunkt vid \\(x=-1\\) och minimipunkt vid \\(x=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -76006,7 +76086,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=x^3-12x+1\\). Bestäm funktionsvärdet i den lokala maximipunkten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=3x^2-12\\), så nollställena är \\(x=\\pm2\\).</p></li><li><p>Vid \\(x=-2\\) går derivatan från positiv till negativ, alltså finns maximipunkten där.</p><p>\\[f(-2)=-8+24+1=17.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=3x^2-12=0\\quad\\Rightarrow\\quad x=\\pm2\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-2\\) och 2</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -2 &  & 2 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div><p>Maximipunkten ligger vid \\(x=-2\\).</p></li><li><p class=\"facit-rubrik\">Funktionsvärdet i maximipunkten</p><div class=\"facit-matte\">\\[f(-2)=-8+24+1=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": false,
@@ -76041,7 +76121,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=x^3-3x\\). Bestäm funktionsvärdet i den lokala minimipunkten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=3x^2-3\\), så nollställena är \\(x=-1\\) och \\(x=1\\).</p></li><li><div class=\"facit-berakning\"><p>Minimipunkten ligger vid</p><div class=\"facit-matte\">\\[x=1\\].</div></div><p>\\[f(1)=1-3=-2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> -2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=3x^2-3=0\\quad\\Rightarrow\\quad x=\\pm1\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-1\\) och 1</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -1 &  & 1 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div><p>Minimipunkten ligger vid \\(x=1\\).</p></li><li><p class=\"facit-rubrik\">Funktionsvärdet i minimipunkten</p><div class=\"facit-matte\">\\[f(1)=1-3=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": false,
@@ -76186,7 +76266,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är positiv före \\(x=-1\\), negativ mellan \\(x=-1\\) och \\(x=4\\), och positiv efter \\(x=4\\). Vid vilket \\(x\\)-värde har funktionen sin lokala minimipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=4\\) byter derivatan tecken från negativt till positivt.</p></li><li><p>Därför har funktionen en lokal minimipunkt där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell enligt uppgiften</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -1 &  & 4 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + vid \\(x=4\\)</p><p>Där finns minimipunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -76220,7 +76300,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f_a(x)=x^2-2ax\\). Funktionen har en extrempunkt vid \\(x=8\\). Bestäm \\(a\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f_a'(x)=2x-2a\\].</div></li><li><div class=\"facit-berakning\"><p>I extrempunkten gäller</p><div class=\"facit-matte\">\\[f_a'(8)=0\\]:</div></div><p>\\[16-2a=0\\Rightarrow a=8.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=8\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera med a som konstant</p><div class=\"facit-matte\">\\[f_a'(x)=2x-2a\\]</div></li><li><p class=\"facit-rubrik\">I extrempunkten är \\(f_a'(8)=0\\)</p><div class=\"facit-matte\">\\[16-2a=0\\quad\\Rightarrow\\quad a=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=8\\)</p></div>",
     "familj": "Extrempunkter med parameter",
     "geogebra": false,
     "miniräknare": true,
@@ -76255,7 +76335,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-5)^2\\). Vilket påstående om \\(f\\) vid \\(x=5\\) är korrekt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(f'(x)=(x-5)^2\\) är derivatan 0 vid \\(x=5\\), men positiv på båda sidor.</p></li><li><p>Funktionen är alltså växande både före och efter punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f\\) har ingen extrempunkt, eftersom \\(f'\\) inte byter tecken.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\((x-5)^2\\) är aldrig negativ</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 5 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Inget teckenbyte vid \\(x=5\\)</p><p>f växer både före och efter \\(x=5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f\\) har ingen extrempunkt, eftersom \\(f'\\) inte byter tecken.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -76276,7 +76356,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Terrasspunkter och teckenbyten i derivatan"
     ],
-    "alternativ": [{"txt": "\\(f\\) har ett lokalt maximum, eftersom \\(f'\\) byter från positiv till negativ.", "ratt": false}, {"txt": "\\(f\\) har ingen extrempunkt, eftersom \\(f'\\) inte byter tecken.", "ratt": true}, {"txt": "\\(f\\) har ett lokalt minimum, eftersom \\(f'\\) byter från negativ till positiv.", "ratt": false}, {"txt": "\\(f\\) har ingen extrempunkt, eftersom \\(f'(5)\\) inte är 0.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(f\\) har ett lokalt maximum, eftersom \\(f'\\) byter från positiv till negativ.",
+        "ratt": false,
+        "kommentar": "Derivatan är positiv även efter \\(x=5\\)."
+      },
+      {
+        "txt": "\\(f\\) har ingen extrempunkt, eftersom \\(f'\\) inte byter tecken.",
+        "ratt": true
+      },
+      {
+        "txt": "\\(f\\) har ett lokalt minimum, eftersom \\(f'\\) byter från negativ till positiv.",
+        "ratt": false,
+        "kommentar": "Derivatan är aldrig negativ, så den kan inte gå från negativ till positiv."
+      },
+      {
+        "txt": "\\(f\\) har ingen extrempunkt, eftersom \\(f'(5)\\) inte är 0.",
+        "ratt": false,
+        "kommentar": "\\(f'(5)=(5-5)^2=0\\)."
+      }
+    ]
   },
   {
     "id": "2.682",
@@ -76324,7 +76424,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f'(2)\\) när \\(f(x)=\\frac{x^3}{x+1}\\). Avrunda till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med ett digitalt derivatakommando fås \\(f'(2)\\approx3{,}111\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,11.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mata in funktionen exakt</p><p>Skriv f(x)=x^3/(x+1) med parentes runt nämnaren.</p></li><li><p class=\"facit-rubrik\">Låt verktyget beräkna \\(f'(2)\\)</p><div class=\"facit-matte\">\\[f'(2)=\\frac{28}{9}\\approx3{,}111\\]</div><p>Kommandot f'(2) ger värdet direkt.</p></li><li><p class=\"facit-rubrik\">Avrunda till två decimaler</p><div class=\"facit-matte\">\\[3{,}111\\approx3{,}11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,11</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -76358,7 +76458,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd ett digitalt verktyg för att lösa \\(f'(x)=0\\) för \\(f(x)=x^3-3x\\). Ange det positiva x-värdet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Verktyget ger</p><div class=\"facit-matte\">\\[f'(x)=3x^2-3\\].</div></div></li><li><p>Ekvationen \\(f'(x)=0\\) har lösningarna \\(x=-1\\) och \\(x=1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(x^3-3x\\) i verktyget</p><div class=\"facit-matte\">\\[f'(x)=3x^2-3\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[x^2=1\\quad\\Rightarrow\\quad x=-1\\ \\text{eller}\\ x=1\\]</div><p>Det positiva värdet är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -76392,7 +76492,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd ett digitalt verktyg för att undersöka \\(f(x)=x^4-4x^2\\). Hur många extrempunkter har grafen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är \\(f'(x)=4x(x^2-2)\\), som är 0 för \\(x=-\\sqrt2{,}0,\\sqrt2\\).</p></li><li><p>Derivatan byter tecken vid alla tre värdena, så grafen har tre extrempunkter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatans nollställen efter utbrytning av 4x</p><div class=\"facit-matte\">\\[f'(x)=4x^3-8x=4x(x^2-2)\\]</div><div class=\"facit-matte\">\\[x=-\\sqrt2,\\quad x=0,\\quad x=\\sqrt2\\]</div></li><li><p class=\"facit-rubrik\">Byter derivatan tecken vid varje nollställe?</p><p>Ja. Grafen har dal, topp och dal, så alla tre är extrempunkter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -76427,7 +76527,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd ett digitalt verktyg för att bestämma vid vilket x-värde \\(f(x)=-x^3+3x^2+1\\) har ett lokalt maximum för \\(0&lt;x&lt;3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[f'(x)=-3x^2+6x=-3x(x-2)\\].</div></div></li><li><p>Inne i området är derivatan 0 vid \\(x=2\\), där tecknet går från positivt till negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och bryt ut \\(-3x\\)</p><div class=\"facit-matte\">\\[f'(x)=-3x^2+6x=-3x(x-2)\\]</div></li><li><p class=\"facit-rubrik\">Nollstället inne i \\(0\\lt x\\lt3\\)</p><div class=\"facit-matte\">\\[x=2\\]</div><p>\\(x=0\\) ligger på intervallets gräns och räknas inte.</p></li><li><p class=\"facit-rubrik\">Teckenbyte från + till − ger maximum</p><div class=\"facit-matte\">\\[f'(1)=3\\gt0,\\qquad f'(2{,}5)=-3{,}75\\lt0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -76461,7 +76561,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f'(1,5)\\) när \\(f(x)=x^5-2x^2\\). Avrunda till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Verktyget ger</p><div class=\"facit-matte\">\\[f'(x)=5x^4-4x\\].</div></div></li><li><div class=\"facit-berakning\"><p>Därför är</p><div class=\"facit-matte\">\\[f'(1,5)=19{,}3125\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19,31.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verktygets derivata av \\(x^5-2x^2\\)</p><div class=\"facit-matte\">\\[f'(x)=5x^4-4x\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=1{,}5\\)</p><div class=\"facit-matte\">\\[f'(1{,}5)=5\\cdot5{,}0625-6=19{,}3125\\approx19{,}31\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19,31</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -76565,7 +76665,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-9)\\). För vilka x-värden är \\(f\\) avtagande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mellan nollställena har faktorerna olika tecken, så \\(f'(x)&lt;0\\) när \\(5&lt;x&lt;9\\).</p></li><li><p>Där är \\(f\\) avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5&lt;x&lt;9\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">f är avtagande där \\(f'(x)\\lt0\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 5 &  & 9 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Faktorerna har olika tecken mellan 5 och 9</p><div class=\"facit-matte\">\\[5\\lt x\\lt9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5&lt;x&lt;9\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -76586,7 +76686,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Derivatans tecken och monotoni"
     ],
-    "alternativ": [{"txt": "\\(x&lt;5\\) eller \\(x&gt;9\\)", "ratt": false}, {"txt": "\\(x&gt;5\\)", "ratt": false}, {"txt": "\\(x&lt;9\\)", "ratt": false}, {"txt": "\\(5&lt;x&lt;9\\)", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "\\(x&lt;5\\) eller \\(x&gt;9\\)",
+        "ratt": false,
+        "kommentar": "Där är derivatan positiv, så f växer."
+      },
+      {
+        "txt": "\\(x&gt;5\\)",
+        "ratt": false,
+        "kommentar": "För \\(x\\gt9\\) är derivatan positiv igen."
+      },
+      {
+        "txt": "\\(x&lt;9\\)",
+        "ratt": false,
+        "kommentar": "För \\(x\\lt5\\) är derivatan positiv."
+      },
+      {
+        "txt": "\\(5&lt;x&lt;9\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "2.691",
@@ -76599,7 +76719,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-2)^2\\). Vilket påstående om \\(x=2\\) är korrekt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är 0 vid \\(x=2\\), men \\(f'(x)&gt;0\\) på båda sidor.</p></li><li><p>Funktionen fortsätter alltså att växa genom punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f\\) har ingen extrempunkt eftersom \\(f'\\) är positiv på båda sidor.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\((x-2)^2\\) är aldrig negativ</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 2 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Positiv på båda sidor om \\(x=2\\)</p><p>Ingen extrempunkt, bara en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f\\) har ingen extrempunkt eftersom \\(f'\\) är positiv på båda sidor.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -76620,7 +76740,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Terrasspunkter och teckenbyten i derivatan"
     ],
-    "alternativ": [{"txt": "\\(f\\) har ingen extrempunkt eftersom \\(f'\\) är positiv på båda sidor.", "ratt": true}, {"txt": "\\(f\\) har ett lokalt minimum eftersom \\(f'\\) byter från negativ till positiv.", "ratt": false}, {"txt": "\\(f\\) har ett lokalt maximum eftersom \\(f'\\) byter från positiv till negativ.", "ratt": false}, {"txt": "\\(f\\) har ingen extrempunkt eftersom \\(f'(2)\\) inte är 0.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(f\\) har ingen extrempunkt eftersom \\(f'\\) är positiv på båda sidor.",
+        "ratt": true
+      },
+      {
+        "txt": "\\(f\\) har ett lokalt minimum eftersom \\(f'\\) byter från negativ till positiv.",
+        "ratt": false,
+        "kommentar": "Derivatan är positiv även till vänster om 2."
+      },
+      {
+        "txt": "\\(f\\) har ett lokalt maximum eftersom \\(f'\\) byter från positiv till negativ.",
+        "ratt": false,
+        "kommentar": "Derivatan är positiv även till höger om 2."
+      },
+      {
+        "txt": "\\(f\\) har ingen extrempunkt eftersom \\(f'(2)\\) inte är 0.",
+        "ratt": false,
+        "kommentar": "\\(f'(2)=0\\). Det som saknas är teckenbytet."
+      }
+    ]
   },
   {
     "id": "2.692",
@@ -76633,7 +76773,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-10)\\). Hur många extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan har två enkla nollställen, \\(x=5\\) och \\(x=10\\).</p></li><li><p>Tecknet är positivt före 5, negativt mellan 5 och 10 och positivt efter 10.</p></li><li><p>Alltså uppstår en extrempunkt vid varje nollställe.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x-5)(x-10)\\)</p><div class=\"facit-matte\">\\[x=5\\quad\\text{och}\\quad x=10\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 5 och 10</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 5 &  & 10 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Teckenbyte vid båda nollställena</p><p>En maximipunkt och en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -76668,7 +76808,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion gäller \\(f'(x)=2x-6\\) och \\(f(3)=5\\). Bestäm y-koordinaten för funktionens extrempunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Extrempunkten kan ligga där \\(f'(x)=0\\): \\(2x-6=0\\) ger \\(x=3\\).</p></li><li><p>Eftersom \\(f(3)=5\\) är y-koordinaten 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[2x-6=0\\quad\\Rightarrow\\quad x=3\\]</div></li><li><p class=\"facit-rubrik\">y-koordinaten är \\(f(3)\\), som är given</p><div class=\"facit-matte\">\\[f(3)=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -76703,7 +76843,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+8)(x+2)\\). Vad har \\(f\\) vid \\(x=-8\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(x&lt;-8\\) är båda faktorerna negativa och derivatan positiv.</p></li><li><p>Mellan \\(-8\\) och \\(-2\\) är derivatan negativ.</p></li><li><p>Tecknet går alltså från positivt till negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt maximum, eftersom \\(f'\\) byter från positiv till negativ.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x+8)(x+2)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -8 &  & -2 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − vid \\(x=-8\\)</p><p>f går från växande till avtagande, alltså ett lokalt maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt maximum, eftersom \\(f'\\) byter från positiv till negativ.</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -76724,7 +76864,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Extrempunkter från derivatans tecken"
     ],
-    "alternativ": [{"txt": "Ingen extrempunkt, eftersom \\(f'\\) inte byter tecken.", "ratt": false}, {"txt": "Ett lokalt minimum, eftersom \\(f'\\) byter från negativ till positiv.", "ratt": false}, {"txt": "Ett lokalt maximum, eftersom \\(f'\\) byter från positiv till negativ.", "ratt": true}, {"txt": "Det går inte att avgöra från den faktoriserade derivatan.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Ingen extrempunkt, eftersom \\(f'\\) inte byter tecken.",
+        "ratt": false,
+        "kommentar": "Nollstället \\(-8\\) är enkelt, så tecknet byts."
+      },
+      {
+        "txt": "Ett lokalt minimum, eftersom \\(f'\\) byter från negativ till positiv.",
+        "ratt": false,
+        "kommentar": "Före \\(-8\\) är derivatan positiv och efter negativ, inte tvärtom."
+      },
+      {
+        "txt": "Ett lokalt maximum, eftersom \\(f'\\) byter från positiv till negativ.",
+        "ratt": true
+      },
+      {
+        "txt": "Det går inte att avgöra från den faktoriserade derivatan.",
+        "ratt": false,
+        "kommentar": "Faktorernas tecken räcker för att göra teckentabellen."
+      }
+    ]
   },
   {
     "id": "2.695",
@@ -76771,7 +76931,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=6x-4\\). Vilken typ av extrempunkt har \\(f\\) där \\(f'(x)=0\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Nollstället är</p><div class=\"facit-matte\">\\[x=2/3\\].</div></div></li><li><p>Eftersom \\(6x-4\\) är negativt före detta värde och positivt efteråt går funktionen från avtagande till växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lokalt minimum, eftersom derivatan går från negativ till positiv.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är 0 när \\(x=\\tfrac23\\)</p><div class=\"facit-matte\">\\[6x-4=0\\quad\\Rightarrow\\quad x=\\frac23\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=6x-4\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & \\tfrac23 & \\\\ \\hline f'(x) & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lokalt minimum, eftersom derivatan går från negativ till positiv.</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -76792,7 +76952,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Från derivata till funktion och graf"
     ],
-    "alternativ": [{"txt": "Lokalt maximum, eftersom derivatan går från positiv till negativ.", "ratt": false}, {"txt": "Lokalt minimum, eftersom derivatan går från negativ till positiv.", "ratt": true}, {"txt": "Ingen extrempunkt, eftersom derivatan inte byter tecken.", "ratt": false}, {"txt": "Det går inte att avgöra utan att känna till \\(f(x)\\).", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Lokalt maximum, eftersom derivatan går från positiv till negativ.",
+        "ratt": false,
+        "kommentar": "\\(6x-4\\) är negativ före \\(\\tfrac23\\), inte positiv."
+      },
+      {
+        "txt": "Lokalt minimum, eftersom derivatan går från negativ till positiv.",
+        "ratt": true
+      },
+      {
+        "txt": "Ingen extrempunkt, eftersom derivatan inte byter tecken.",
+        "ratt": false,
+        "kommentar": "\\(6x-4\\) byter tecken vid \\(\\tfrac23\\)."
+      },
+      {
+        "txt": "Det går inte att avgöra utan att känna till \\(f(x)\\).",
+        "ratt": false,
+        "kommentar": "Derivatans tecken räcker för att avgöra punktens typ."
+      }
+    ]
   },
   {
     "id": "2.697",
@@ -76805,7 +76985,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+12)(x+5)\\). Vid vilket x-värde har \\(f\\) ett lokalt maximum?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv för \\(x&lt;-12\\), negativ för \\(-12&lt;x&lt;-5\\) och positiv för \\(x&gt;-5\\).</p></li><li><p>Vid \\(x=-12\\) går alltså funktionen från växande till avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-12\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x+12)(x+5)\\)</p><div class=\"facit-matte\">\\[x=-12\\quad\\text{och}\\quad x=-5\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-12\\) och \\(-5\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -12 &  & -5 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − vid \\(x=-12\\)</p><p>Där har f sitt lokala maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-12\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -76929,7 +77109,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+2)(x-1)\\). För vilka x-värden är \\(f\\) växande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv när båda faktorerna har samma tecken, alltså för \\(x&lt;-2\\) och \\(x&gt;1\\).</p></li><li><p>Där är \\(f\\) växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x&lt;-2\\) eller \\(x&gt;1\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">f är växande där \\(f'(x)\\gt0\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -2 &  & 1 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Positiv derivata utanför nollställena</p><div class=\"facit-matte\">\\[x\\lt-2\\quad\\text{eller}\\quad x\\gt1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x&lt;-2\\) eller \\(x&gt;1\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -76950,7 +77130,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Derivatans tecken och monotoni"
     ],
-    "alternativ": [{"txt": "\\(x&gt;-2\\)", "ratt": false}, {"txt": "\\(-2&lt;x&lt;1\\)", "ratt": false}, {"txt": "\\(x&lt;1\\)", "ratt": false}, {"txt": "\\(x&lt;-2\\) eller \\(x&gt;1\\)", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "\\(x&gt;-2\\)",
+        "ratt": false,
+        "kommentar": "Mellan −2 och 1 är derivatan negativ."
+      },
+      {
+        "txt": "\\(-2&lt;x&lt;1\\)",
+        "ratt": false,
+        "kommentar": "Där är derivatan negativ, så f avtar."
+      },
+      {
+        "txt": "\\(x&lt;1\\)",
+        "ratt": false,
+        "kommentar": "Mellan −2 och 1 är derivatan negativ."
+      },
+      {
+        "txt": "\\(x&lt;-2\\) eller \\(x&gt;1\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "2.701",
@@ -76997,7 +77197,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=x^3-3x\\). Vid två x-värden är tangenten horisontell. Ange det positiva x-värdet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Horisontell tangent betyder \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[3x^2-3=0\\quad\\Rightarrow\\quad x^2=1\\]</div></li><li><p class=\"facit-rubrik\">Två lösningar</p><div class=\"facit-matte\">\\[x=-1\\quad\\text{och}\\quad x=1\\]</div><p>Det positiva x-värdet är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Horisontell tangent betyder \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[3x^2-3=0\\quad\\Rightarrow\\quad x^2=1\\]</div></li><li><p class=\"facit-rubrik\">Kvadratroten ger två lösningar</p><div class=\"facit-matte\">\\[x=-1\\quad\\text{och}\\quad x=1\\]</div><p>Det positiva x-värdet är 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Lösa ekvationer med derivata",
     "geogebra": false,
     "miniräknare": false,
@@ -77272,7 +77472,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-8)\\). Vad har \\(f\\) vid \\(x=2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan går från positiv till negativ vid \\(x=2\\), så där har funktionen ett lokalt maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt maximum.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-2)(x-8)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 2 &  & 8 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − vid \\(x=2\\)</p><p>Det ger ett lokalt maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt maximum.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -77293,7 +77493,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Bestäm och klassificera extrempunkter"
     ],
-    "alternativ": [{"txt": "Ett lokalt maximum.", "ratt": true}, {"txt": "Ett lokalt minimum.", "ratt": false}, {"txt": "En terrasspunkt men ingen extrempunkt.", "ratt": false}, {"txt": "Ingen punkt med horisontell tangent.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Ett lokalt maximum.",
+        "ratt": true
+      },
+      {
+        "txt": "Ett lokalt minimum.",
+        "ratt": false,
+        "kommentar": "Vid \\(x=2\\) går derivatan från + till −, inte från − till +."
+      },
+      {
+        "txt": "En terrasspunkt men ingen extrempunkt.",
+        "ratt": false,
+        "kommentar": "Derivatan byter tecken vid \\(x=2\\), så det är ingen terrasspunkt."
+      },
+      {
+        "txt": "Ingen punkt med horisontell tangent.",
+        "ratt": false,
+        "kommentar": "\\(f'(2)=0\\), så tangenten är vågrät."
+      }
+    ]
   },
   {
     "id": "2.711",
@@ -77306,7 +77526,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-8)\\). Vad har \\(f\\) vid \\(x=8\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan går från negativ till positiv vid \\(x=8\\), så där har funktionen ett lokalt minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-2)(x-8)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 2 &  & 8 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + vid \\(x=8\\)</p><p>Det ger ett lokalt minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -77327,7 +77547,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Bestäm och klassificera extrempunkter"
     ],
-    "alternativ": [{"txt": "Ett lokalt maximum.", "ratt": false}, {"txt": "Ett lokalt minimum.", "ratt": true}, {"txt": "En terrasspunkt men ingen extrempunkt.", "ratt": false}, {"txt": "Ingen punkt med horisontell tangent.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Ett lokalt maximum.",
+        "ratt": false,
+        "kommentar": "Vid \\(x=8\\) går derivatan från − till +, inte från + till −."
+      },
+      {
+        "txt": "Ett lokalt minimum.",
+        "ratt": true
+      },
+      {
+        "txt": "En terrasspunkt men ingen extrempunkt.",
+        "ratt": false,
+        "kommentar": "Derivatan byter tecken vid \\(x=8\\), så det är ingen terrasspunkt."
+      },
+      {
+        "txt": "Ingen punkt med horisontell tangent.",
+        "ratt": false,
+        "kommentar": "\\(f'(8)=0\\), så tangenten är vågrät."
+      }
+    ]
   },
   {
     "id": "2.712",
@@ -77340,7 +77580,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd ett digitalt verktyg för att lösa \\(f'(x)=0\\) när \\(f(x)=x^4-3x+1\\). Avrunda lösningen till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[f'(x)=4x^3-3\\].</div></div></li><li><p>Den har den reella lösningen \\(x\\approx0{,}91\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,91.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(x^4-3x+1\\)</p><div class=\"facit-matte\">\\[f'(x)=4x^3-3\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[x^3=\\frac34\\quad\\Rightarrow\\quad x=\\sqrt[3]{0{,}75}\\approx0{,}9086\\]</div></li><li><p class=\"facit-rubrik\">Avrunda till två decimaler</p><div class=\"facit-matte\">\\[x\\approx0{,}91\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,91</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -77374,7 +77614,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd ett digitalt verktyg för att lösa \\(f'(x)=0\\) när \\(f(x)=e^x-2x\\). Avrunda x-värdet till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[f'(x)=e^x-2\\].</div></div></li><li><p>Ekvationen \\(e^x=2\\) ger \\(x=\\ln2\\approx0{,}69\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,69.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^x\\) är \\(e^x\\)</p><div class=\"facit-matte\">\\[f'(x)=e^x-2\\]</div></li><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\) med naturliga logaritmen</p><div class=\"facit-matte\">\\[e^x=2\\quad\\Rightarrow\\quad x=\\ln2\\approx0{,}693\\]</div></li><li><p class=\"facit-rubrik\">Avrunda till två decimaler</p><div class=\"facit-matte\">\\[x\\approx0{,}69\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,69</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -77546,7 +77786,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-2)^2\\). Vilket påstående är korrekt om \\(x=2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är 0 vid \\(x=2\\) men positiv på båda sidor.</p></li><li><p>Funktionen fortsätter därför att växa och har ingen extrempunkt där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Där finns en terrasspunkt men ingen extrempunkt.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\((x-2)^2\\) är aldrig negativ</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 2 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Vågrät tangent utan teckenbyte</p><p>Funktionen fortsätter att växa genom punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Där finns en terrasspunkt men ingen extrempunkt.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -77567,7 +77807,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Terrasspunkter och teckenbyten i derivatan"
     ],
-    "alternativ": [{"txt": "Där finns ett lokalt maximum.", "ratt": false}, {"txt": "Där finns ett lokalt minimum.", "ratt": false}, {"txt": "Där finns en terrasspunkt men ingen extrempunkt.", "ratt": true}, {"txt": "Där finns ingen horisontell tangent.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Där finns ett lokalt maximum.",
+        "ratt": false,
+        "kommentar": "Derivatan är positiv även till höger om 2."
+      },
+      {
+        "txt": "Där finns ett lokalt minimum.",
+        "ratt": false,
+        "kommentar": "Derivatan är positiv även till vänster om 2."
+      },
+      {
+        "txt": "Där finns en terrasspunkt men ingen extrempunkt.",
+        "ratt": true
+      },
+      {
+        "txt": "Där finns ingen horisontell tangent.",
+        "ratt": false,
+        "kommentar": "\\(f'(2)=0\\), så tangenten är vågrät."
+      }
+    ]
   },
   {
     "id": "2.719",
@@ -77580,7 +77840,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+1)^2(x-3)\\). Vid vilket av derivatans nollställen byter \\(f'\\) inte tecken?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nollstället \\(x=-1\\) kommer från en kvadratfaktor och har jämn multiplicitet.</p></li><li><p>Faktoren ändrar därför inte tecken där.</p></li><li><p>Vid \\(x=3\\) byter derivatan tecken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x+1)^2(x-3)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -1 &  & 3 & \\\\ \\hline f'(x) & - & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{terrass} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Kvadratfaktorn byter inte tecken</p><p>Vid \\(x=-1\\) är derivatan negativ på båda sidor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -77876,7 +78136,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en deriverbar funktion gäller att \\(f'(x)&gt;0\\) när \\(x&lt;1\\), \\(f'(x)&lt;0\\) när \\(1&lt;x&lt;4\\) och \\(f'(x)&gt;0\\) när \\(x&gt;4\\). Hur många extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=1\\) byter derivatan från positiv till negativ och vid \\(x=4\\) från negativ till positiv.</p></li><li><p>Båda teckenbytena ger extrempunkter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell enligt uppgiften</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 1 &  & 4 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Båda teckenbytena ger extrempunkter</p><p>Maximum vid \\(x=1\\), minimum vid \\(x=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -77910,7 +78170,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-2)^2(x+1)\\). Hur många extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är 0 vid \\(x=-1\\) och \\(x=2\\).</p></li><li><p>Vid \\(x=-1\\) byter derivatan tecken, men vid det dubbla nollstället \\(x=2\\) gör den inte det.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-2)^2(x+1)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -1 &  & 2 & \\\\ \\hline f'(x) & - & 0 & + & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Bara det enkla nollstället \\(x=-1\\) ger teckenbyte</p><p>Vid \\(x=2\\) finns en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -78052,7 +78312,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=x^2-9\\). Ett nollställe är \\(x=3\\). Vilket är det andra nollstället?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket \\(x^2-9\\) är symmetriskt kring y-axeln.</p></li><li><p>Om 3 är ett nollställe är därför även \\(-3\\) ett nollställe.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(x^2-9=0\\)</p><div class=\"facit-matte\">\\[x^2=9\\quad\\Rightarrow\\quad x=\\pm3\\]</div><p>Både 3 och −3 i kvadrat blir 9.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -78086,7 +78346,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan \\(f'\\) är en udda funktion. Om \\(f'(4)=0\\), vilket annat nollställe följer direkt av symmetrin?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>För en udda funktion gäller</p><div class=\"facit-matte\">\\[f'(-x)=-f'(x)\\].</div></div></li><li><p>Eftersom \\(f'(4)=0\\) blir därför även \\(f'(-4)=0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Udda funktion: \\(f'(-x)=-f'(x)\\)</p><div class=\"facit-matte\">\\[f'(-4)=-f'(4)=-0=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\)</p></div>",
     "familj": "Extrempunkter med parameter",
     "geogebra": false,
     "miniräknare": true,
@@ -78536,7 +78796,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-4)(x-13)\\). Vid vilket x-värde har \\(f\\) ett lokalt maximum?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv före \\(x=4\\) och negativ mellan 4 och 13.</p></li><li><p>Vid \\(x=4\\) går funktionen därför från växande till avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x-4)(x-13)\\)</p><div class=\"facit-matte\">\\[x=4\\quad\\text{och}\\quad x=13\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 4 och 13</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 4 &  & 13 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − vid \\(x=4\\)</p><p>Där har f sitt lokala maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -78917,7 +79177,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-6)\\). Vid vilket x-värde har \\(f\\) ett lokalt minimum?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv före 2, negativ mellan 2 och 6 och positiv efter 6.</p></li><li><p>Vid \\(x=6\\) går funktionen därför från avtagande till växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x-2)(x-6)\\)</p><div class=\"facit-matte\">\\[x=2\\quad\\text{och}\\quad x=6\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 2 och 6</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 2 &  & 6 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + vid \\(x=6\\)</p><p>Där har f sitt lokala minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -78952,7 +79212,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-6)\\). Vilket påstående om \\(f\\) är korrekt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mellan 2 och 6 har faktorerna olika tecken, så \\(f'(x)&lt;0\\) där.</p></li><li><p>Alltså är \\(f\\) avtagande när \\(2&lt;x&lt;6\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Funktionen avtar när \\(2&lt;x&lt;6\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-2)(x-6)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 2 &  & 6 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Negativ derivata mellan 2 och 6</p><p>Där är f avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Funktionen avtar när \\(2&lt;x&lt;6\\).</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -78973,7 +79233,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Bestämma växande och avtagande med derivata"
     ],
-    "alternativ": [{"txt": "Funktionen växer för alla x.", "ratt": false}, {"txt": "Funktionen har ingen extrempunkt.", "ratt": false}, {"txt": "Funktionen avtar när \\(x&lt;2\\) och när \\(x&gt;6\\).", "ratt": false}, {"txt": "Funktionen avtar när \\(2&lt;x&lt;6\\).", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "Funktionen växer för alla x.",
+        "ratt": false,
+        "kommentar": "Derivatan är negativ mellan 2 och 6, så f avtar där."
+      },
+      {
+        "txt": "Funktionen har ingen extrempunkt.",
+        "ratt": false,
+        "kommentar": "Derivatan byter tecken vid 2 och 6, så f har två extrempunkter."
+      },
+      {
+        "txt": "Funktionen avtar när \\(x&lt;2\\) och när \\(x&gt;6\\).",
+        "ratt": false,
+        "kommentar": "Där är derivatan positiv, så f växer."
+      },
+      {
+        "txt": "Funktionen avtar när \\(2&lt;x&lt;6\\).",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "3.803",
@@ -79195,7 +79475,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion gäller \\(f'(x)=(x-1)^2\\). Vilket påstående om \\(x=1\\) är korrekt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är 0 vid \\(x=1\\) men positiv på båda sidor.</p></li><li><p>Funktionen växer därför både före och efter punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Punkten har horisontell tangent men är ingen extrempunkt.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\((x-1)^2\\) är aldrig negativ</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 1 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Vågrät tangent utan teckenbyte</p><p>f växer på båda sidor om \\(x=1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Punkten har horisontell tangent men är ingen extrempunkt.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -79216,7 +79496,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Dubbelrot i derivatan och terrasspunkt"
     ],
-    "alternativ": [{"txt": "Punkten är ett lokalt maximum.", "ratt": false}, {"txt": "Punkten har horisontell tangent men är ingen extrempunkt.", "ratt": true}, {"txt": "Punkten är ett lokalt minimum.", "ratt": false}, {"txt": "Punkten kan inte ha horisontell tangent.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Punkten är ett lokalt maximum.",
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor om 1."
+      },
+      {
+        "txt": "Punkten har horisontell tangent men är ingen extrempunkt.",
+        "ratt": true
+      },
+      {
+        "txt": "Punkten är ett lokalt minimum.",
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor om 1."
+      },
+      {
+        "txt": "Punkten kan inte ha horisontell tangent.",
+        "ratt": false,
+        "kommentar": "\\(f'(1)=0\\), så tangenten är vågrät."
+      }
+    ]
   },
   {
     "id": "3.810",
@@ -79229,7 +79529,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-4)^2(x-6)\\). Vid vilket x-värde finns en terrasspunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=4\\) är derivatan 0 men kvadratfaktorn gör att tecknet inte byts.</p></li><li><p>Vid \\(x=6\\) byter derivatan däremot tecken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-4)^2(x-6)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 4 &  & 6 & \\\\ \\hline f'(x) & - & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{terrass} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Kvadratfaktorn ger terrasspunkt vid \\(x=4\\)</p><p>Vid \\(x=6\\) byter derivatan tecken och ger en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -79715,7 +80015,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en deriverbar funktion gäller att \\(f'(x)&gt;0\\) när \\(x&lt;2\\), \\(f'(x)&lt;0\\) när \\(2&lt;x&lt;5\\) och \\(f'(x)&gt;0\\) när \\(x&gt;5\\). Vad har \\(f\\) vid \\(x=2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=2\\) går derivatan från positiv till negativ.</p></li><li><p>Funktionen går alltså från växande till avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt maximum.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell enligt uppgiften</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 2 &  & 5 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − vid \\(x=2\\)</p><p>f går från växande till avtagande: ett lokalt maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt maximum.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -79736,7 +80036,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Extrempunkt eller terrasspunkt från teckenstudium"
     ],
-    "alternativ": [{"txt": "Ingen horisontell tangent.", "ratt": false}, {"txt": "Ett lokalt minimum.", "ratt": false}, {"txt": "En terrasspunkt men ingen extrempunkt.", "ratt": false}, {"txt": "Ett lokalt maximum.", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "Ingen horisontell tangent.",
+        "ratt": false,
+        "kommentar": "En deriverbar funktion har vågrät tangent i en inre extrempunkt."
+      },
+      {
+        "txt": "Ett lokalt minimum.",
+        "ratt": false,
+        "kommentar": "Vid \\(x=2\\) går derivatan från + till −, inte från − till +."
+      },
+      {
+        "txt": "En terrasspunkt men ingen extrempunkt.",
+        "ratt": false,
+        "kommentar": "Derivatan byter tecken vid \\(x=2\\), så det är ingen terrasspunkt."
+      },
+      {
+        "txt": "Ett lokalt maximum.",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "3.824",
@@ -79749,7 +80069,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en deriverbar funktion gäller att \\(f'(x)&gt;0\\) när \\(x&lt;1\\), \\(f'(x)&gt;0\\) när \\(1&lt;x&lt;4\\) och \\(f'(x)&lt;0\\) när \\(x&gt;4\\). Hur många extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=1\\) byter derivatan inte tecken, så där uppstår ingen extrempunkt.</p></li><li><p>Vid \\(x=4\\) går derivatan från positiv till negativ och ger ett lokalt maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell enligt uppgiften</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 1 &  & 4 & \\\\ \\hline f'(x) & + & 0 & + & 0 & -\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Bara teckenbytet vid \\(x=4\\) ger en extrempunkt</p><p>Vid \\(x=1\\) är derivatan positiv på båda sidor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
@@ -79885,7 +80205,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+4)(x-3)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll.</p></li><li><p>Nollställena är -4 och 3; det minsta är -4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> -4</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är 0 när någon faktor är 0</p><div class=\"facit-matte\">\\[x+4=0\\ \\Rightarrow\\ x=-4,\\qquad x-3=0\\ \\Rightarrow\\ x=3\\]</div></li><li><p class=\"facit-rubrik\">Det minsta av \\(-4\\) och 3</p><div class=\"facit-matte\">\\[-4\\lt3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -79919,7 +80239,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-9)\\), där 2 och 9 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje faktor ger ett nollställe</p><div class=\"facit-matte\">\\[x-2=0\\ \\Rightarrow\\ x=2,\\qquad x-9=0\\ \\Rightarrow\\ x=9\\]</div></li><li><p class=\"facit-rubrik\">2 och 9 är olika</p><p>Derivatan har alltså två nollställen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -80089,7 +80409,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-16)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll.</p></li><li><p>Nollställena är 8 och 16; det minsta är 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är 0 när någon faktor är 0</p><div class=\"facit-matte\">\\[x-8=0\\ \\Rightarrow\\ x=8,\\qquad x-16=0\\ \\Rightarrow\\ x=16\\]</div></li><li><p class=\"facit-rubrik\">Det minsta av 8 och 16</p><div class=\"facit-matte\">\\[8\\lt16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -80123,7 +80443,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+6)(x-2)\\), där -6 och 2 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje faktor ger ett nollställe</p><div class=\"facit-matte\">\\[x+6=0\\ \\Rightarrow\\ x=-6,\\qquad x-2=0\\ \\Rightarrow\\ x=2\\]</div></li><li><p class=\"facit-rubrik\">−6 och 2 är olika</p><p>Derivatan har alltså två nollställen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -80157,7 +80477,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+7)(x+5)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll.</p></li><li><p>Nollställena är -7 och -5; det minsta är -7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> -7</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollproduktmetoden: en produkt är 0 när någon faktor är 0</p><div class=\"facit-matte\">\\[x+7=0\\ \\Rightarrow\\ x=-7,\\qquad x+5=0\\ \\Rightarrow\\ x=-5\\]</div></li><li><p class=\"facit-rubrik\">Det minsta av \\(-7\\) och \\(-5\\)</p><div class=\"facit-matte\">\\[-7\\lt-5\\]</div><p>På tallinjen ligger −7 längst till vänster.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-7\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -80191,7 +80511,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+9)(x+3)\\), där -9 och -3 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje faktor ger ett nollställe</p><div class=\"facit-matte\">\\[x+9=0\\ \\Rightarrow\\ x=-9,\\qquad x+3=0\\ \\Rightarrow\\ x=-3\\]</div></li><li><p class=\"facit-rubrik\">−9 och −3 är olika</p><p>Derivatan har alltså två nollställen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -80293,7 +80613,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+6)(x-7)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-6\\) och \\(x=7\\).</p></li><li><p>Den är positiv till vänster om −6, negativ mellan −6 och 7 och positiv till höger om 7.</p></li><li><p>Funktionen växer och avtar sedan vid \\(x=-6\\), så där finns en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x+6)(x-7)\\)</p><div class=\"facit-matte\">\\[x=-6\\quad\\text{och}\\quad x=7\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-6\\) och 7</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -6 &  & 7 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − ger lokalt maximum vid \\(x=-6\\)</p><p>Funktionen växer fram till −6 och avtar sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -80395,7 +80715,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-5)(x-7)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=5\\) och \\(x=7\\).</p></li><li><p>Mellan dem är derivatan negativ och till höger om 7 positiv.</p></li><li><p>Funktionen avtar och växer sedan vid \\(x=7\\), så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x-5)(x-7)\\)</p><div class=\"facit-matte\">\\[x=5\\quad\\text{och}\\quad x=7\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 5 och 7</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 5 &  & 7 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger lokalt minimum vid \\(x=7\\)</p><p>Funktionen avtar mellan 5 och 7 och växer sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -80429,7 +80749,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+11)(x+9)\\), där -11 och -9 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje faktor ger ett nollställe</p><div class=\"facit-matte\">\\[x+11=0\\ \\Rightarrow\\ x=-11,\\qquad x+9=0\\ \\Rightarrow\\ x=-9\\]</div></li><li><p class=\"facit-rubrik\">−11 och −9 är olika</p><p>Derivatan har alltså två nollställen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -80695,7 +81015,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(g\\) har derivatan \\(g'(x)=-(x+6)(x+4)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-6\\) och \\(x=-4\\).</p></li><li><p>Minustecknet gör att derivatan är negativ till vänster om −6 och positiv mellan −6 och −4.</p></li><li><div class=\"facit-berakning\"><p>Alltså finns minimipunkten vid</p><div class=\"facit-matte\">\\[x=-6\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(g'(x)=-(x+6)(x+4)\\)</p><div class=\"facit-matte\">\\[x=-6\\quad\\text{och}\\quad x=-4\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell – minustecknet framför vänder alla tecken</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -6 &  & -4 & \\\\ \\hline g'(x) & - & 0 & + & 0 & -\\\\ g(x) & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger lokalt minimum vid \\(x=-6\\)</p><p>Utan minustecknet hade det varit ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -80729,7 +81049,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x+5)^2\\). Vilken sorts punkt har grafen där \\(x=-5\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-5\\) men positiv på båda sidor eftersom kvadraten aldrig är negativ.</p></li><li><p>Funktionen växer både före och efter punkten, så det är en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En terrasspunkt.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & -5 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Inget teckenbyte vid \\(x=-5\\)</p><p>Funktionen växer på båda sidor. Punkten har vågrät tangent men är ingen extrempunkt: en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En terrasspunkt</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -80757,11 +81077,13 @@ window.BANKMATO1 = [
       },
       {
         "txt": "En maximipunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor, så den går inte från + till −."
       },
       {
         "txt": "En minimipunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor, så den går inte från − till +."
       }
     ]
   },
@@ -80776,7 +81098,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+1)(x-6)\\), där -1 och 6 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje faktor ger ett nollställe</p><div class=\"facit-matte\">\\[x+1=0\\ \\Rightarrow\\ x=-1,\\qquad x-6=0\\ \\Rightarrow\\ x=6\\]</div></li><li><p class=\"facit-rubrik\">−1 och 6 är olika</p><p>Derivatan har alltså två nollställen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -81150,7 +81472,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x-2)^2(x-4)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=2\\) och \\(x=4\\).</p></li><li><p>Vid \\(x=2\\) byter derivatan inte tecken (kvadrat), så där finns en terrasspunkt.</p></li><li><p>Vid \\(x=4\\) byter den tecken från minus till plus, så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-2)^2(x-4)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 2 &  & 4 & \\\\ \\hline f'(x) & - & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{terrass} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Terrasspunkt vid 2, minimipunkt vid 4</p><p>Bara teckenbytet vid \\(x=4\\) ger en extrempunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -81184,7 +81506,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+4)(x-4)\\), där -4 och 4 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje faktor ger ett nollställe</p><div class=\"facit-matte\">\\[x+4=0\\ \\Rightarrow\\ x=-4,\\qquad x-4=0\\ \\Rightarrow\\ x=4\\]</div></li><li><p class=\"facit-rubrik\">−4 och 4 är olika</p><p>Derivatan har alltså två nollställen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -81405,7 +81727,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-2)(x-7)\\). För vilka x är \\(f\\) avtagande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ mellan nollställena 2 och 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\lt x\\lt 7\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">f är avtagande där \\(f'(x)\\lt0\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 2 &  & 7 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Negativ derivata mellan nollställena</p><div class=\"facit-matte\">\\[2\\lt x\\lt7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\lt x\\lt 7\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -81433,15 +81755,18 @@ window.BANKMATO1 = [
       },
       {
         "txt": "\\(x\\lt 2\\) eller \\(x\\gt 7\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Där är derivatan positiv, så f växer."
       },
       {
         "txt": "\\(x\\gt 7\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "För \\(x\\gt7\\) är derivatan positiv, så f växer där."
       },
       {
         "txt": "\\(x\\lt 2\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "För \\(x\\lt2\\) är derivatan positiv, så f växer där."
       }
     ]
   },
@@ -81456,7 +81781,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x+9)(x+5)\\), där -9 och -5 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje faktor ger ett nollställe</p><div class=\"facit-matte\">\\[x+9=0\\ \\Rightarrow\\ x=-9,\\qquad x+5=0\\ \\Rightarrow\\ x=-5\\]</div></li><li><p class=\"facit-rubrik\">−9 och −5 är olika</p><p>Derivatan har alltså två nollställen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -81558,7 +81883,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=x^2-9x+14\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Faktorisera derivatan:</p><div class=\"facit-matte\">\\[f'(x)=(x-2)(x-7)\\].</div></div></li><li><p>Nollställena är 2 och 7.</p></li><li><p>Derivatan går från plus till minus vid \\(x=2\\), så där är maximipunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[x^2-9x+14=0\\]</div><div class=\"facit-matte\">\\[x=4{,}5\\pm\\sqrt{20{,}25-14}=4{,}5\\pm2{,}5\\]</div><div class=\"facit-matte\">\\[x=2\\quad\\text{eller}\\quad x=7\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-2)(x-7)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 2 &  & 7 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − ger lokalt maximum vid \\(x=2\\)</p><p>Vid 7 finns i stället en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -81592,7 +81917,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Vattennivån i en damm under ett dygn beskrivs av \\(h(t)\\), där \\(t\\) är tiden i timmar. Nivåns förändringshastighet är \\(h'(t)=(t-3)(t-4)\\) cm/h.</p><p>Vid vilken tidpunkt har vattennivån ett lokalt minimum?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(h'(t)=0\\) för \\(t=3\\) och \\(t=4\\).</p></li><li><p>Mellan dem är \\(h'(t)\\lt0\\) och efter \\(t=4\\) är \\(h'(t)\\gt0\\).</p></li><li><div class=\"facit-berakning\"><p>Nivån sjunker och börjar sedan stiga vid</p><div class=\"facit-matte\">\\[t=4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=4\\) h</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förändringshastigheten \\(h'(t)\\) är 0 vid \\(t=3\\) och \\(t=4\\)</p><div class=\"facit-matte\">\\[(t-3)(t-4)=0\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(h'\\) är negativ mellan 3 och 4</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}t &  & 3 &  & 4 & \\\\ \\hline h'(t) & + & 0 & - & 0 & +\\\\ h(t) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Nivån slutar sjunka och börjar stiga vid \\(t=4\\)</p><p>Där har vattennivån ett lokalt minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=4\\) h</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -81696,7 +82021,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion gäller \\(f'(x)=3(x+4)\\). Har \\(f\\) ett lokalt maximum eller ett lokalt minimum där \\(x=-4\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ för \\(x\\lt -4\\) och positiv för \\(x\\gt -4\\).</p></li><li><p>Funktionen avtar och växer sedan, alltså ett minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är 0 när \\(x=-4\\)</p><div class=\"facit-matte\">\\[3(x+4)=0\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för den linjära derivatan</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & -4 & \\\\ \\hline f'(x) & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -81724,11 +82049,13 @@ window.BANKMATO1 = [
       },
       {
         "txt": "Ett lokalt maximum",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan går från − till + vid \\(x=-4\\), inte från + till −."
       },
       {
         "txt": "En terrasspunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan byter tecken vid \\(x=-4\\), så det är ingen terrasspunkt."
       }
     ]
   },
@@ -81743,7 +82070,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-6)(x-12)\\), där 6 och 12 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje faktor ger ett nollställe</p><div class=\"facit-matte\">\\[x-6=0\\ \\Rightarrow\\ x=6,\\qquad x-12=0\\ \\Rightarrow\\ x=12\\]</div></li><li><p class=\"facit-rubrik\">6 och 12 är olika</p><p>Derivatan har alltså två nollställen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -81983,7 +82310,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vattennivån i en damm under ett dygn beskrivs av \\(h(t)\\), där \\(t\\) är tiden i timmar. Nivåns förändringshastighet är \\(h'(t)=(t-6)(t-9)\\) cm/h.</p><p>Vid vilken tidpunkt har vattennivån ett lokalt minimum?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(h'(t)=0\\) för \\(t=6\\) och \\(t=9\\).</p></li><li><p>Mellan dem är \\(h'(t)\\lt0\\) och efter \\(t=9\\) är \\(h'(t)\\gt0\\).</p></li><li><div class=\"facit-berakning\"><p>Nivån sjunker och börjar sedan stiga vid</p><div class=\"facit-matte\">\\[t=9\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=9\\) h</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förändringshastigheten \\(h'(t)\\) är 0 vid \\(t=6\\) och \\(t=9\\)</p><div class=\"facit-matte\">\\[(t-6)(t-9)=0\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(h'\\) är negativ mellan 6 och 9</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}t &  & 6 &  & 9 & \\\\ \\hline h'(t) & + & 0 & - & 0 & +\\\\ h(t) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Nivån slutar sjunka och börjar stiga vid \\(t=9\\)</p><p>Där har vattennivån ett lokalt minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=9\\) h</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -82019,7 +82346,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x-3)^2(x-4)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=3\\) och \\(x=4\\).</p></li><li><p>Vid \\(x=3\\) byter derivatan inte tecken (kvadrat), så där finns en terrasspunkt.</p></li><li><p>Vid \\(x=4\\) byter den tecken från minus till plus, så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-3)^2(x-4)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 3 &  & 4 & \\\\ \\hline f'(x) & - & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{terrass} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Terrasspunkt vid 3, minimipunkt vid 4</p><p>Bara teckenbytet vid \\(x=4\\) ger en extrempunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -82661,7 +82988,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+2)(x+1)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-2\\) och \\(x=-1\\).</p></li><li><p>Den är positiv till vänster om −2, negativ mellan −2 och −1 och positiv till höger om −1.</p></li><li><p>Funktionen växer och avtar sedan vid \\(x=-2\\), så där finns en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x+2)(x+1)\\)</p><div class=\"facit-matte\">\\[x=-2\\quad\\text{och}\\quad x=-1\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-2\\) och \\(-1\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -2 &  & -1 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − ger lokalt maximum vid \\(x=-2\\)</p><p>Det vänstra nollstället ger maximum när derivatan är en uppåtvänd parabel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -82905,7 +83232,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+6)(x+3)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-6\\) och \\(x=-3\\).</p></li><li><p>Mellan dem är derivatan negativ och till höger om −3 positiv.</p></li><li><p>Funktionen avtar och växer sedan vid \\(x=-3\\), så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x+6)(x+3)\\)</p><div class=\"facit-matte\">\\[x=-6\\quad\\text{och}\\quad x=-3\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-6\\) och \\(-3\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -6 &  & -3 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger lokalt minimum vid \\(x=-3\\)</p><p>Funktionen avtar mellan −6 och −3 och växer sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -82939,7 +83266,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(f'(x)=(x-6)(x-14)\\), där 6 och 14 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje faktor ger ett nollställe</p><div class=\"facit-matte\">\\[x-6=0\\ \\Rightarrow\\ x=6,\\qquad x-14=0\\ \\Rightarrow\\ x=14\\]</div></li><li><p class=\"facit-rubrik\">6 och 14 är olika</p><p>Derivatan har alltså två nollställen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -83265,7 +83592,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(g\\) har derivatan \\(g'(x)=-(x+5)(x-3)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-5\\) och \\(x=3\\).</p></li><li><p>Minustecknet gör att derivatan är negativ till vänster om −5 och positiv mellan −5 och 3.</p></li><li><div class=\"facit-berakning\"><p>Alltså finns minimipunkten vid</p><div class=\"facit-matte\">\\[x=-5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(g'(x)=-(x+5)(x-3)\\)</p><div class=\"facit-matte\">\\[x=-5\\quad\\text{och}\\quad x=3\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell – minustecknet framför vänder alla tecken</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -5 &  & 3 & \\\\ \\hline g'(x) & - & 0 & + & 0 & -\\\\ g(x) & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger lokalt minimum vid \\(x=-5\\)</p><p>g avtar fram till −5 och växer sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -83299,7 +83626,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+2)(x-8)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-2\\) och \\(x=8\\).</p></li><li><p>Den är positiv till vänster om −2, negativ mellan −2 och 8 och positiv till höger om 8.</p></li><li><p>Funktionen växer och avtar sedan vid \\(x=-2\\), så där finns en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x+2)(x-8)\\)</p><div class=\"facit-matte\">\\[x=-2\\quad\\text{och}\\quad x=8\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-2\\) och 8</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -2 &  & 8 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − ger lokalt maximum vid \\(x=-2\\)</p><p>Funktionen växer fram till −2 och avtar sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -83333,7 +83660,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x-6)^2\\). Vilken sorts punkt har grafen där \\(x=6\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=6\\) men positiv på båda sidor eftersom kvadraten aldrig är negativ.</p></li><li><p>Funktionen växer både före och efter punkten, så det är en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En terrasspunkt.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 6 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Inget teckenbyte vid \\(x=6\\)</p><p>Funktionen växer på båda sidor. Punkten har vågrät tangent men är ingen extrempunkt: en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En terrasspunkt</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -83361,11 +83688,13 @@ window.BANKMATO1 = [
       },
       {
         "txt": "En maximipunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor, så den går inte från + till −."
       },
       {
         "txt": "En minimipunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor, så den går inte från − till +."
       }
     ]
   },
@@ -83380,7 +83709,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+4)(x-2)\\). För vilka x är \\(f\\) avtagande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ mellan nollställena −4 och 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\lt x\\lt 2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">f är avtagande där \\(f'(x)\\lt0\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -4 &  & 2 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Negativ derivata mellan nollställena</p><div class=\"facit-matte\">\\[-4\\lt x\\lt2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\lt x\\lt 2\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -83408,15 +83737,18 @@ window.BANKMATO1 = [
       },
       {
         "txt": "\\(x\\lt -4\\) eller \\(x\\gt 2\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Där är derivatan positiv, så f växer."
       },
       {
         "txt": "\\(x\\gt 2\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "För \\(x\\gt2\\) är derivatan positiv, så f växer där."
       },
       {
         "txt": "\\(x\\lt -4\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "För \\(x\\lt-4\\) är derivatan positiv, så f växer där."
       }
     ]
   },
@@ -83431,7 +83763,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x+1)^2(x-1)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-1\\) och \\(x=1\\).</p></li><li><p>Vid \\(x=-1\\) byter derivatan inte tecken (kvadrat), så där finns en terrasspunkt.</p></li><li><p>Vid \\(x=1\\) byter den tecken från minus till plus, så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x+1)^2(x-1)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -1 &  & 1 & \\\\ \\hline f'(x) & - & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{terrass} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Terrasspunkt vid −1, minimipunkt vid 1</p><p>Bara teckenbytet vid \\(x=1\\) ger en extrempunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -83465,7 +83797,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-3)(x-6)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=3\\) och \\(x=6\\).</p></li><li><p>Den är positiv till vänster om 3, negativ mellan 3 och 6 och positiv till höger om 6.</p></li><li><p>Funktionen växer och avtar sedan vid \\(x=3\\), så där finns en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x-3)(x-6)\\)</p><div class=\"facit-matte\">\\[x=3\\quad\\text{och}\\quad x=6\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 3 och 6</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 3 &  & 6 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − ger lokalt maximum vid \\(x=3\\)</p><p>Funktionen växer fram till 3 och avtar sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -83499,7 +83831,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+4)(x+2)\\). För vilka x är \\(f\\) avtagande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ mellan nollställena −4 och −2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\lt x\\lt -2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">f är avtagande där \\(f'(x)\\lt0\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -4 &  & -2 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Negativ derivata mellan nollställena</p><div class=\"facit-matte\">\\[-4\\lt x\\lt-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\lt x\\lt -2\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -83527,15 +83859,18 @@ window.BANKMATO1 = [
       },
       {
         "txt": "\\(x\\lt -4\\) eller \\(x\\gt -2\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Där är derivatan positiv, så f växer."
       },
       {
         "txt": "\\(x\\gt -2\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "För \\(x\\gt-2\\) är derivatan positiv, så f växer där."
       },
       {
         "txt": "\\(x\\lt -4\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "För \\(x\\lt-4\\) är derivatan positiv, så f växer där."
       }
     ]
   },
@@ -83550,7 +83885,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-5)(x-6)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=5\\) och \\(x=6\\).</p></li><li><p>Mellan dem är derivatan negativ och till höger om 6 positiv.</p></li><li><p>Funktionen avtar och växer sedan vid \\(x=6\\), så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x-5)(x-6)\\)</p><div class=\"facit-matte\">\\[x=5\\quad\\text{och}\\quad x=6\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 5 och 6</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 5 &  & 6 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger lokalt minimum vid \\(x=6\\)</p><p>Funktionen avtar mellan 5 och 6 och växer sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -84856,7 +85191,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=x^2+3x-4\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Faktorisera derivatan:</p><div class=\"facit-matte\">\\[f'(x)=(x+4)(x-1)\\].</div></div></li><li><p>Nollställena är −4 och 1.</p></li><li><p>Derivatan går från plus till minus vid \\(x=-4\\), så där är maximipunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[x^2+3x-4=0\\]</div><div class=\"facit-matte\">\\[x=-1{,}5\\pm\\sqrt{2{,}25+4}=-1{,}5\\pm2{,}5\\]</div><div class=\"facit-matte\">\\[x=-4\\quad\\text{eller}\\quad x=1\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x+4)(x-1)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -4 &  & 1 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − ger lokalt maximum vid \\(x=-4\\)</p><p>Vid 1 finns i stället en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-4\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -84890,7 +85225,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion gäller \\(f'(x)=5(x+2)\\). Har \\(f\\) ett lokalt maximum eller ett lokalt minimum där \\(x=-2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ för \\(x\\lt -2\\) och positiv för \\(x\\gt -2\\).</p></li><li><p>Funktionen avtar och växer sedan, alltså ett minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är 0 när \\(x=-2\\)</p><div class=\"facit-matte\">\\[5(x+2)=0\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för den linjära derivatan</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & -2 & \\\\ \\hline f'(x) & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -84918,11 +85253,13 @@ window.BANKMATO1 = [
       },
       {
         "txt": "Ett lokalt maximum",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan går från − till + vid \\(x=-2\\), inte från + till −."
       },
       {
         "txt": "En terrasspunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan byter tecken vid \\(x=-2\\), så det är ingen terrasspunkt."
       }
     ]
   },
@@ -84937,7 +85274,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vattennivån i en damm under ett dygn beskrivs av \\(h(t)\\), där \\(t\\) är tiden i timmar. Nivåns förändringshastighet är \\(h'(t)=(t-3)(t-9)\\) cm/h.</p><p>Vid vilken tidpunkt har vattennivån ett lokalt minimum?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(h'(t)=0\\) för \\(t=3\\) och \\(t=9\\).</p></li><li><p>Mellan dem är \\(h'(t)\\lt0\\) och efter \\(t=9\\) är \\(h'(t)\\gt0\\).</p></li><li><div class=\"facit-berakning\"><p>Nivån sjunker och börjar sedan stiga vid</p><div class=\"facit-matte\">\\[t=9\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=9\\) h</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förändringshastigheten \\(h'(t)\\) är 0 vid \\(t=3\\) och \\(t=9\\)</p><div class=\"facit-matte\">\\[(t-3)(t-9)=0\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(h'\\) är negativ mellan 3 och 9</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}t &  & 3 &  & 9 & \\\\ \\hline h'(t) & + & 0 & - & 0 & +\\\\ h(t) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Nivån slutar sjunka och börjar stiga vid \\(t=9\\)</p><p>Vid \\(t=3\\) har nivån i stället ett lokalt maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=9\\) h</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -84973,7 +85310,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=x^2-36\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Faktorisera derivatan:</p><div class=\"facit-matte\">\\[f'(x)=(x+6)(x-6)\\].</div></div></li><li><p>Nollställena är −6 och 6.</p></li><li><p>Derivatan går från plus till minus vid \\(x=-6\\), så där är maximipunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(x^2-36=0\\) med kvadratrötter</p><div class=\"facit-matte\">\\[x^2=36\\quad\\Rightarrow\\quad x=\\pm6\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x+6)(x-6)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -6 &  & 6 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − ger lokalt maximum vid \\(x=-6\\)</p><p>Vid 6 finns i stället en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -85007,7 +85344,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+3)(x+2)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-3\\) och \\(x=-2\\).</p></li><li><p>Den är positiv till vänster om −3, negativ mellan −3 och −2 och positiv till höger om −2.</p></li><li><p>Funktionen växer och avtar sedan vid \\(x=-3\\), så där finns en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x+3)(x+2)\\)</p><div class=\"facit-matte\">\\[x=-3\\quad\\text{och}\\quad x=-2\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-3\\) och \\(-2\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -3 &  & -2 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − ger lokalt maximum vid \\(x=-3\\)</p><p>Funktionen växer fram till −3 och avtar sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -85041,7 +85378,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion gäller \\(f'(x)=4(x+3)\\). Har \\(f\\) ett lokalt maximum eller ett lokalt minimum där \\(x=-3\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ för \\(x\\lt -3\\) och positiv för \\(x\\gt -3\\).</p></li><li><p>Funktionen avtar och växer sedan, alltså ett minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är 0 när \\(x=-3\\)</p><div class=\"facit-matte\">\\[4(x+3)=0\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för den linjära derivatan</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & -3 & \\\\ \\hline f'(x) & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -85069,11 +85406,13 @@ window.BANKMATO1 = [
       },
       {
         "txt": "Ett lokalt maximum",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan går från − till + vid \\(x=-3\\), inte från + till −."
       },
       {
         "txt": "En terrasspunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan byter tecken vid \\(x=-3\\), så det är ingen terrasspunkt."
       }
     ]
   },
@@ -85088,7 +85427,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-1)(x-6)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=1\\) och \\(x=6\\).</p></li><li><p>Mellan dem är derivatan negativ och till höger om 6 positiv.</p></li><li><p>Funktionen avtar och växer sedan vid \\(x=6\\), så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x-1)(x-6)\\)</p><div class=\"facit-matte\">\\[x=1\\quad\\text{och}\\quad x=6\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 1 och 6</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 1 &  & 6 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger lokalt minimum vid \\(x=6\\)</p><p>Funktionen avtar mellan 1 och 6 och växer sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -85122,7 +85461,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(g\\) har derivatan \\(g'(x)=-(x+6)(x-6)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-6\\) och \\(x=6\\).</p></li><li><p>Minustecknet gör att derivatan är negativ till vänster om −6 och positiv mellan −6 och 6.</p></li><li><div class=\"facit-berakning\"><p>Alltså finns minimipunkten vid</p><div class=\"facit-matte\">\\[x=-6\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(g'(x)=-(x+6)(x-6)\\)</p><div class=\"facit-matte\">\\[x=-6\\quad\\text{och}\\quad x=6\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell – minustecknet framför vänder alla tecken</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -6 &  & 6 & \\\\ \\hline g'(x) & - & 0 & + & 0 & -\\\\ g(x) & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger lokalt minimum vid \\(x=-6\\)</p><p>g avtar fram till −6 och växer sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -85156,7 +85495,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(g\\) har derivatan \\(g'(x)=-(x-2)(x-6)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=2\\) och \\(x=6\\).</p></li><li><p>Minustecknet gör att derivatan är negativ till vänster om 2 och positiv mellan 2 och 6.</p></li><li><div class=\"facit-berakning\"><p>Alltså finns minimipunkten vid</p><div class=\"facit-matte\">\\[x=2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(g'(x)=-(x-2)(x-6)\\)</p><div class=\"facit-matte\">\\[x=2\\quad\\text{och}\\quad x=6\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell – minustecknet framför vänder alla tecken</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 2 &  & 6 & \\\\ \\hline g'(x) & - & 0 & + & 0 & -\\\\ g(x) & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger lokalt minimum vid \\(x=2\\)</p><p>g avtar fram till 2 och växer sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -85190,7 +85529,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x-2)^2\\). Vilken sorts punkt har grafen där \\(x=2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=2\\) men positiv på båda sidor eftersom kvadraten aldrig är negativ.</p></li><li><p>Funktionen växer både före och efter punkten, så det är en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En terrasspunkt.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 2 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Inget teckenbyte vid \\(x=2\\)</p><p>Funktionen växer på båda sidor, så punkten är en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En terrasspunkt</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -85218,11 +85557,13 @@ window.BANKMATO1 = [
       },
       {
         "txt": "En maximipunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor, så den går inte från + till −."
       },
       {
         "txt": "En minimipunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor, så den går inte från − till +."
       }
     ]
   },
@@ -85237,7 +85578,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x+4)^2\\). Vilken sorts punkt har grafen där \\(x=-4\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-4\\) men positiv på båda sidor eftersom kvadraten aldrig är negativ.</p></li><li><p>Funktionen växer både före och efter punkten, så det är en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En terrasspunkt.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & -4 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Inget teckenbyte vid \\(x=-4\\)</p><p>Funktionen växer på båda sidor, så punkten är en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En terrasspunkt</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -85265,11 +85606,13 @@ window.BANKMATO1 = [
       },
       {
         "txt": "En maximipunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor, så den går inte från + till −."
       },
       {
         "txt": "En minimipunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor, så den går inte från − till +."
       }
     ]
   },
@@ -85284,7 +85627,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Vattennivån i en damm under ett dygn beskrivs av \\(h(t)\\), där \\(t\\) är tiden i timmar. Nivåns förändringshastighet är \\(h'(t)=(t-8)(t-9)\\) cm/h.</p><p>Vid vilken tidpunkt har vattennivån ett lokalt minimum?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(h'(t)=0\\) för \\(t=8\\) och \\(t=9\\).</p></li><li><p>Mellan dem är \\(h'(t)\\lt0\\) och efter \\(t=9\\) är \\(h'(t)\\gt0\\).</p></li><li><div class=\"facit-berakning\"><p>Nivån sjunker och börjar sedan stiga vid</p><div class=\"facit-matte\">\\[t=9\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=9\\) h</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förändringshastigheten \\(h'(t)\\) är 0 vid \\(t=8\\) och \\(t=9\\)</p><div class=\"facit-matte\">\\[(t-8)(t-9)=0\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(h'\\) är negativ mellan 8 och 9</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}t &  & 8 &  & 9 & \\\\ \\hline h'(t) & + & 0 & - & 0 & +\\\\ h(t) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Nivån slutar sjunka och börjar stiga vid \\(t=9\\)</p><p>Där har vattennivån ett lokalt minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=9\\) h</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -85320,7 +85663,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x-4)^2(x-8)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=4\\) och \\(x=8\\).</p></li><li><p>Vid \\(x=4\\) byter derivatan inte tecken (kvadrat), så där finns en terrasspunkt.</p></li><li><p>Vid \\(x=8\\) byter den tecken från minus till plus, så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x-4)^2(x-8)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 4 &  & 8 & \\\\ \\hline f'(x) & - & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{terrass} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Terrasspunkt vid 4, minimipunkt vid 8</p><p>Bara teckenbytet vid \\(x=8\\) ger en extrempunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -85354,7 +85697,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x+2)^2(x-5)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-2\\) och \\(x=5\\).</p></li><li><p>Vid \\(x=-2\\) byter derivatan inte tecken (kvadrat), så där finns en terrasspunkt.</p></li><li><p>Vid \\(x=5\\) byter den tecken från minus till plus, så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x+2)^2(x-5)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -2 &  & 5 & \\\\ \\hline f'(x) & - & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{terrass} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Terrasspunkt vid −2, minimipunkt vid 5</p><p>Bara teckenbytet vid \\(x=5\\) ger en extrempunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -85936,7 +86279,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+3)(x-2)\\). För vilka x är \\(f\\) avtagande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ mellan nollställena −3 och 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\lt x\\lt 2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">f är avtagande där \\(f'(x)\\lt0\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -3 &  & 2 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Negativ derivata mellan nollställena</p><div class=\"facit-matte\">\\[-3\\lt x\\lt2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\lt x\\lt 2\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -85964,15 +86307,18 @@ window.BANKMATO1 = [
       },
       {
         "txt": "\\(x\\lt -3\\) eller \\(x\\gt 2\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Där är derivatan positiv, så f växer."
       },
       {
         "txt": "\\(x\\gt 2\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "För \\(x\\gt2\\) är derivatan positiv, så f växer där."
       },
       {
         "txt": "\\(x\\lt -3\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "För \\(x\\lt-3\\) är derivatan positiv, så f växer där."
       }
     ]
   },
@@ -85987,7 +86333,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-3)(x-5)\\). För vilka x är \\(f\\) avtagande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ mellan nollställena 3 och 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\lt x\\lt 5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">f är avtagande där \\(f'(x)\\lt0\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 3 &  & 5 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Negativ derivata mellan nollställena</p><div class=\"facit-matte\">\\[3\\lt x\\lt5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\lt x\\lt 5\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -86015,15 +86361,18 @@ window.BANKMATO1 = [
       },
       {
         "txt": "\\(x\\lt 3\\) eller \\(x\\gt 5\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Där är derivatan positiv, så f växer."
       },
       {
         "txt": "\\(x\\gt 5\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "För \\(x\\gt5\\) är derivatan positiv, så f växer där."
       },
       {
         "txt": "\\(x\\lt 3\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "För \\(x\\lt3\\) är derivatan positiv, så f växer där."
       }
     ]
   },
@@ -86624,7 +86973,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=x^2-x-30\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Faktorisera derivatan:</p><div class=\"facit-matte\">\\[f'(x)=(x+5)(x-6)\\].</div></div></li><li><p>Nollställena är −5 och 6.</p></li><li><p>Derivatan går från plus till minus vid \\(x=-5\\), så där är maximipunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[x^2-x-30=0\\]</div><div class=\"facit-matte\">\\[x=0{,}5\\pm\\sqrt{0{,}25+30}=0{,}5\\pm5{,}5\\]</div><div class=\"facit-matte\">\\[x=-5\\quad\\text{eller}\\quad x=6\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=(x+5)(x-6)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -5 &  & 6 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − ger lokalt maximum vid \\(x=-5\\)</p><p>Vid 6 finns i stället en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -87325,7 +87674,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion gäller \\(f'(x)=3(x+4)\\). Har \\(f\\) ett lokalt maximum eller ett lokalt minimum där \\(x=-4\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ för \\(x\\lt -4\\) och positiv för \\(x\\gt -4\\).</p></li><li><p>Funktionen avtar och växer sedan, alltså ett minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är 0 när \\(x=-4\\)</p><div class=\"facit-matte\">\\[3(x+4)=0\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för den linjära derivatan</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & -4 & \\\\ \\hline f'(x) & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -87353,11 +87702,13 @@ window.BANKMATO1 = [
       },
       {
         "txt": "Ett lokalt maximum",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan går från − till + vid \\(x=-4\\), inte från + till −."
       },
       {
         "txt": "En terrasspunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan byter tecken vid \\(x=-4\\), så det är ingen terrasspunkt."
       }
     ]
   },
@@ -87372,7 +87723,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=x^2-36\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Faktorisera derivatan:</p><div class=\"facit-matte\">\\[f'(x)=(x+6)(x-6)\\].</div></div></li><li><p>Nollställena är −6 och 6.</p></li><li><p>Derivatan går från plus till minus vid \\(x=-6\\), så där är maximipunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(x^2-36=0\\): båda kvadratrötterna</p><div class=\"facit-matte\">\\[x^2=36\\quad\\Rightarrow\\quad x=-6\\ \\text{eller}\\ x=6\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=x^2-36\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -6 &  & 6 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − ger lokalt maximum vid \\(x=-6\\)</p><p>Derivatan är positiv till vänster om −6 och negativ mellan −6 och 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -87927,7 +88278,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vattennivån i en damm under ett dygn beskrivs av \\(h(t)\\), där \\(t\\) är tiden i timmar. Nivåns förändringshastighet är \\(h'(t)=(t-5)(t-8)\\) cm/h.</p><p>Vid vilken tidpunkt har vattennivån ett lokalt minimum?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(h'(t)=0\\) för \\(t=5\\) och \\(t=8\\).</p></li><li><p>Mellan dem är \\(h'(t)\\lt0\\) och efter \\(t=8\\) är \\(h'(t)\\gt0\\).</p></li><li><div class=\"facit-berakning\"><p>Nivån sjunker och börjar sedan stiga vid</p><div class=\"facit-matte\">\\[t=8\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=8\\) h</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förändringshastigheten \\(h'(t)\\) är 0 vid \\(t=5\\) och \\(t=8\\)</p><div class=\"facit-matte\">\\[(t-5)(t-8)=0\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(h'\\) är negativ mellan 5 och 8</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}t &  & 5 &  & 8 & \\\\ \\hline h'(t) & + & 0 & - & 0 & +\\\\ h(t) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Nivån slutar sjunka och börjar stiga vid \\(t=8\\)</p><p>Där har vattennivån ett lokalt minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=8\\) h</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -87963,7 +88314,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+6)(x-5)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-6\\) och \\(x=5\\).</p></li><li><p>Den är positiv till vänster om −6, negativ mellan −6 och 5 och positiv till höger om 5.</p></li><li><p>Funktionen växer och avtar sedan vid \\(x=-6\\), så där finns en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x+6)(x-5)\\)</p><div class=\"facit-matte\">\\[x=-6\\quad\\text{och}\\quad x=5\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-6\\) och 5</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -6 &  & 5 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − ger lokalt maximum vid \\(x=-6\\)</p><p>Funktionen växer fram till −6 och avtar sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -88031,7 +88382,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+6)(x-7)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-6\\) och \\(x=7\\).</p></li><li><p>Den är positiv till vänster om −6, negativ mellan −6 och 7 och positiv till höger om 7.</p></li><li><p>Funktionen växer och avtar sedan vid \\(x=-6\\), så där finns en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x+6)(x-7)\\)</p><div class=\"facit-matte\">\\[x=-6\\quad\\text{och}\\quad x=7\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är positiv före \\(-6\\) och efter 7</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -6 &  & 7 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från + till − ger lokalt maximum vid \\(x=-6\\)</p><p>Vid 7 går derivatan i stället från − till +, vilket ger minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-6\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -88065,7 +88416,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+6)(x-4)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-6\\) och \\(x=4\\).</p></li><li><p>Mellan dem är derivatan negativ och till höger om 4 positiv.</p></li><li><p>Funktionen avtar och växer sedan vid \\(x=4\\), så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x+6)(x-4)\\)</p><div class=\"facit-matte\">\\[x=-6\\quad\\text{och}\\quad x=4\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan \\(-6\\) och 4</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -6 &  & 4 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger lokalt minimum vid \\(x=4\\)</p><p>Funktionen avtar mellan −6 och 4 och växer sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -89898,7 +90249,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f'(1)\\) när \\(f(x)=2x^3+2x^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Derivatan är</p><div class=\"facit-matte\">\\[f'(x)=6x^2+4x\\].</div></div></li><li><p>Vid \\(x=1\\) blir värdet 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verktygets derivata av \\(2x^3+2x^2\\)</p><div class=\"facit-matte\">\\[f'(x)=6x^2+4x\\]</div><p>Verktygets svar kan kontrolleras med potensregeln.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(x=1\\)</p><div class=\"facit-matte\">\\[f'(1)=6+4=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Analysera funktioner med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -93090,7 +93441,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-7)(x-8)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=7\\) och \\(x=8\\).</p></li><li><p>Mellan dem är derivatan negativ och till höger om 8 positiv.</p></li><li><p>Funktionen avtar och växer sedan vid \\(x=8\\), så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x-7)(x-8)\\)</p><div class=\"facit-matte\">\\[x=7\\quad\\text{och}\\quad x=8\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 7 och 8</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 7 &  & 8 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger lokalt minimum vid \\(x=8\\)</p><p>Funktionen avtar mellan 7 och 8 och växer sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -93260,7 +93611,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(g\\) har derivatan \\(g'(x)=-(x+3)(x-5)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-3\\) och \\(x=5\\).</p></li><li><p>Minustecknet gör att derivatan är negativ till vänster om −3 och positiv mellan −3 och 5.</p></li><li><div class=\"facit-berakning\"><p>Alltså finns minimipunkten vid</p><div class=\"facit-matte\">\\[x=-3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(g'(x)=-(x+3)(x-5)\\)</p><div class=\"facit-matte\">\\[x=-3\\quad\\text{och}\\quad x=5\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell – minustecknet framför vänder alla tecken</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -3 &  & 5 & \\\\ \\hline g'(x) & - & 0 & + & 0 & -\\\\ g(x) & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger lokalt minimum vid \\(x=-3\\)</p><p>g avtar fram till −3 och växer sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-3\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -93294,7 +93645,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(g\\) har derivatan \\(g'(x)=-(x+2)(x-6)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-2\\) och \\(x=6\\).</p></li><li><p>Minustecknet gör att derivatan är negativ till vänster om −2 och positiv mellan −2 och 6.</p></li><li><div class=\"facit-berakning\"><p>Alltså finns minimipunkten vid</p><div class=\"facit-matte\">\\[x=-2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(g'(x)=-(x+2)(x-6)\\)</p><div class=\"facit-matte\">\\[x=-2\\quad\\text{och}\\quad x=6\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell – minustecknet framför vänder alla tecken</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -2 &  & 6 & \\\\ \\hline g'(x) & - & 0 & + & 0 & -\\\\ g(x) & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger lokalt minimum vid \\(x=-2\\)</p><p>g avtar fram till −2 och växer sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -93759,7 +94110,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x+4)^2\\). Vilken sorts punkt har grafen där \\(x=-4\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-4\\) men positiv på båda sidor eftersom kvadraten aldrig är negativ.</p></li><li><p>Funktionen växer både före och efter punkten, så det är en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En terrasspunkt.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ: \\((x+4)^2\\ge0\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & -4 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Derivatan är 0 men byter inte tecken</p><p>Grafen planar ut i \\(x=-4\\) och fortsätter sedan uppåt: en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En terrasspunkt</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -93787,11 +94138,13 @@ window.BANKMATO1 = [
       },
       {
         "txt": "En maximipunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor, så den går inte från + till −."
       },
       {
         "txt": "En minimipunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor, så den går inte från − till +."
       }
     ]
   },
@@ -93806,7 +94159,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion gäller \\(f'(x)=4(x+6)\\). Har \\(f\\) ett lokalt maximum eller ett lokalt minimum där \\(x=-6\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ för \\(x\\lt -6\\) och positiv för \\(x\\gt -6\\).</p></li><li><p>Funktionen avtar och växer sedan, alltså ett minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är 0 när \\(x=-6\\)</p><div class=\"facit-matte\">\\[4(x+6)=0\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell för den linjära derivatan</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & -6 & \\\\ \\hline f'(x) & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -93834,11 +94187,13 @@ window.BANKMATO1 = [
       },
       {
         "txt": "Ett lokalt maximum",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan går från − till + vid \\(x=-6\\), inte från + till −."
       },
       {
         "txt": "En terrasspunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan byter tecken vid \\(x=-6\\), så det är ingen terrasspunkt."
       }
     ]
   },
@@ -94371,7 +94726,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x-3)^2(x-4)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=3\\) och \\(x=4\\).</p></li><li><p>Vid \\(x=3\\) byter derivatan inte tecken (kvadrat), så där finns en terrasspunkt.</p></li><li><p>Vid \\(x=4\\) byter den tecken från minus till plus, så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadratfaktorn \\((x-3)^2\\) byter inte tecken</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 3 &  & 4 & \\\\ \\hline f'(x) & - & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{terrass} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Bara nollstället \\(x=4\\) ger en extrempunkt</p><p>Där går derivatan från − till +: en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -94405,7 +94760,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-1)(x-7)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=1\\) och \\(x=7\\).</p></li><li><p>Mellan dem är derivatan negativ och till höger om 7 positiv.</p></li><li><p>Funktionen avtar och växer sedan vid \\(x=7\\), så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=(x-1)(x-7)\\)</p><div class=\"facit-matte\">\\[x=1\\quad\\text{och}\\quad x=7\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 1 och 7</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 1 &  & 7 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + ger lokalt minimum vid \\(x=7\\)</p><p>Funktionen avtar mellan 1 och 7 och växer sedan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -94786,7 +95141,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-5)(x-6)\\). För vilka x är \\(f\\) avtagande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ mellan nollställena 5 och 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\lt x\\lt 6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">f är avtagande där \\(f'(x)\\lt0\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 5 &  & 6 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Negativ derivata mellan nollställena</p><div class=\"facit-matte\">\\[5\\lt x\\lt6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\lt x\\lt 6\\)</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -94814,15 +95169,18 @@ window.BANKMATO1 = [
       },
       {
         "txt": "\\(x\\lt 5\\) eller \\(x\\gt 6\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Där är derivatan positiv, så f växer."
       },
       {
         "txt": "\\(x\\gt 6\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "För \\(x\\gt6\\) är derivatan positiv, så f växer där."
       },
       {
         "txt": "\\(x\\lt 5\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "För \\(x\\lt5\\) är derivatan positiv, så f växer där."
       }
     ]
   },
@@ -94837,7 +95195,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x+2)^2\\). Vilken sorts punkt har grafen där \\(x=-2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll för \\(x=-2\\) men positiv på båda sidor eftersom kvadraten aldrig är negativ.</p></li><li><p>Funktionen växer både före och efter punkten, så det är en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En terrasspunkt.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ: \\((x+2)^2\\ge0\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & -2 & \\\\ \\hline f'(x) & + & 0 & +\\\\ f(x) & \\nearrow & \\text{terrass} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Derivatan är 0 men byter inte tecken</p><p>Grafen planar ut i \\(x=-2\\) och fortsätter sedan uppåt: en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En terrasspunkt</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
@@ -94865,11 +95223,13 @@ window.BANKMATO1 = [
       },
       {
         "txt": "En maximipunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor, så den går inte från + till −."
       },
       {
         "txt": "En minimipunkt",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Derivatan är positiv på båda sidor, så den går inte från − till +."
       }
     ]
   },
@@ -98274,7 +98634,7 @@ window.BANKMATO1 = [
     "poang": "(1/0/0)",
     "typ": "välja ekvation för en horisontell tangent",
     "t": "<p>Derivatan är \\(f^{\\prime}(x)=6x-12\\). Vilken ekvation hittar punkten där tangenten är vågrät? Välj ett alternativ.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En vågrät linje har lutningen 0</p><p>Lutningen är derivatans värde, så derivatan ska vara 0.</p></li><li><p class=\"facit-rubrik\">Ekvationen</p><div class=\"facit-matte\">\\[6x-12=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6x-12=0\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En vågrät linje har lutningen 0</p><p>Lutningen är derivatans värde, så derivatan ska vara 0.</p></li><li><p class=\"facit-rubrik\">Sätt derivatan lika med 0</p><div class=\"facit-matte\">\\[6x-12=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6x-12=0\\)</p></div>",
     "ledtrad": "<p>Vad har en vågrät linje för lutning?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -100105,7 +100465,7 @@ window.BANKMATO1 = [
   "poang": "1/0/0",
   "typ": "differenskvoten som sekantens lutning",
   "t": "<p>Figuren visar grafen till \\(f\\) och sekanten genom \\(P=(a,\\ f(a))\\) och \\(Q=(a+h,\\ f(a+h))\\). Vilket uttryck är sekantens lutning? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Graf med punkterna P vid x = a och Q vid x = a + h, en röd sekant genom dem och en rätvinklig triangel med sidorna h och f(a+h) − f(a).\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"82.8\" y1=\"221.0\" x2=\"84.8\" y2=\"221.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"84.8\" y1=\"221.0\" x2=\"86.9\" y2=\"220.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"86.9\" y1=\"220.9\" x2=\"88.9\" y2=\"220.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"88.9\" y1=\"220.8\" x2=\"91.0\" y2=\"220.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"91.0\" y1=\"220.6\" x2=\"93.0\" y2=\"220.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"93.0\" y1=\"220.4\" x2=\"95.1\" y2=\"220.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"95.1\" y1=\"220.1\" x2=\"97.1\" y2=\"219.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"97.1\" y1=\"219.8\" x2=\"99.2\" y2=\"219.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"99.2\" y1=\"219.4\" x2=\"101.2\" y2=\"218.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"101.2\" y1=\"218.9\" x2=\"103.3\" y2=\"218.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"103.3\" y1=\"218.4\" x2=\"105.3\" y2=\"217.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"105.3\" y1=\"217.9\" x2=\"107.4\" y2=\"217.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"107.4\" y1=\"217.3\" x2=\"109.4\" y2=\"216.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"109.4\" y1=\"216.7\" x2=\"111.5\" y2=\"216.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"111.5\" y1=\"216.0\" x2=\"113.5\" y2=\"215.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"113.5\" y1=\"215.2\" x2=\"115.6\" y2=\"214.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"115.6\" y1=\"214.4\" x2=\"117.6\" y2=\"213.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"117.6\" y1=\"213.6\" x2=\"119.7\" y2=\"212.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"119.7\" y1=\"212.7\" x2=\"121.8\" y2=\"211.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"121.8\" y1=\"211.7\" x2=\"123.8\" y2=\"210.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"123.8\" y1=\"210.7\" x2=\"125.9\" y2=\"209.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"125.9\" y1=\"209.7\" x2=\"127.9\" y2=\"208.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"127.9\" y1=\"208.6\" x2=\"130.0\" y2=\"207.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"130.0\" y1=\"207.4\" x2=\"132.0\" y2=\"206.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"132.0\" y1=\"206.2\" x2=\"134.1\" y2=\"205.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"134.1\" y1=\"205.0\" x2=\"136.1\" y2=\"203.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"136.1\" y1=\"203.7\" x2=\"138.2\" y2=\"202.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"138.2\" y1=\"202.3\" x2=\"140.2\" y2=\"200.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"140.2\" y1=\"200.9\" x2=\"142.3\" y2=\"199.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"142.3\" y1=\"199.4\" x2=\"144.3\" y2=\"197.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"144.3\" y1=\"197.9\" x2=\"146.4\" y2=\"196.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"196.4\" x2=\"148.4\" y2=\"194.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"148.4\" y1=\"194.7\" x2=\"150.5\" y2=\"193.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"150.5\" y1=\"193.1\" x2=\"152.5\" y2=\"191.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"152.5\" y1=\"191.4\" x2=\"154.6\" y2=\"189.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"189.6\" x2=\"156.6\" y2=\"187.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"156.6\" y1=\"187.8\" x2=\"158.7\" y2=\"185.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"158.7\" y1=\"185.9\" x2=\"160.7\" y2=\"184.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"160.7\" y1=\"184.0\" x2=\"162.8\" y2=\"182.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"162.8\" y1=\"182.0\" x2=\"164.9\" y2=\"180.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"164.9\" y1=\"180.0\" x2=\"166.9\" y2=\"177.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"166.9\" y1=\"177.9\" x2=\"169.0\" y2=\"175.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"169.0\" y1=\"175.8\" x2=\"171.0\" y2=\"173.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"171.0\" y1=\"173.6\" x2=\"173.1\" y2=\"171.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"173.1\" y1=\"171.3\" x2=\"175.1\" y2=\"169.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"175.1\" y1=\"169.1\" x2=\"177.2\" y2=\"166.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"177.2\" y1=\"166.7\" x2=\"179.2\" y2=\"164.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"179.2\" y1=\"164.3\" x2=\"181.3\" y2=\"161.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"181.3\" y1=\"161.9\" x2=\"183.3\" y2=\"159.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"183.3\" y1=\"159.4\" x2=\"185.4\" y2=\"156.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"185.4\" y1=\"156.9\" x2=\"187.4\" y2=\"154.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"187.4\" y1=\"154.3\" x2=\"189.5\" y2=\"151.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"189.5\" y1=\"151.6\" x2=\"191.5\" y2=\"148.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"191.5\" y1=\"148.9\" x2=\"193.6\" y2=\"146.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"193.6\" y1=\"146.2\" x2=\"195.6\" y2=\"143.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"195.6\" y1=\"143.4\" x2=\"197.7\" y2=\"140.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"197.7\" y1=\"140.6\" x2=\"199.7\" y2=\"137.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"199.7\" y1=\"137.7\" x2=\"201.8\" y2=\"134.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"201.8\" y1=\"134.7\" x2=\"203.8\" y2=\"131.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"203.8\" y1=\"131.7\" x2=\"205.9\" y2=\"128.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"205.9\" y1=\"128.7\" x2=\"207.9\" y2=\"125.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"207.9\" y1=\"125.6\" x2=\"210.0\" y2=\"122.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"122.4\" x2=\"212.1\" y2=\"119.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"212.1\" y1=\"119.2\" x2=\"214.1\" y2=\"115.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"214.1\" y1=\"115.9\" x2=\"216.2\" y2=\"112.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"216.2\" y1=\"112.6\" x2=\"218.2\" y2=\"109.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"218.2\" y1=\"109.3\" x2=\"220.3\" y2=\"105.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"220.3\" y1=\"105.9\" x2=\"222.3\" y2=\"102.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"222.3\" y1=\"102.4\" x2=\"224.4\" y2=\"98.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"224.4\" y1=\"98.9\" x2=\"226.4\" y2=\"95.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"226.4\" y1=\"95.3\" x2=\"228.5\" y2=\"91.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"228.5\" y1=\"91.7\" x2=\"230.5\" y2=\"88.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"230.5\" y1=\"88.0\" x2=\"232.6\" y2=\"84.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"232.6\" y1=\"84.3\" x2=\"234.6\" y2=\"80.5\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"234.6\" y1=\"80.5\" x2=\"236.7\" y2=\"76.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"236.7\" y1=\"76.7\" x2=\"238.7\" y2=\"72.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"238.7\" y1=\"72.8\" x2=\"240.8\" y2=\"68.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"240.8\" y1=\"68.9\" x2=\"242.8\" y2=\"64.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"242.8\" y1=\"64.9\" x2=\"244.9\" y2=\"60.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"244.9\" y1=\"60.9\" x2=\"246.9\" y2=\"56.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"246.9\" y1=\"56.8\" x2=\"249.0\" y2=\"52.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"249.0\" y1=\"52.7\" x2=\"251.0\" y2=\"48.5\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"251.0\" y1=\"48.5\" x2=\"253.1\" y2=\"44.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"253.1\" y1=\"44.3\" x2=\"255.1\" y2=\"40.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"82.8\" y1=\"241.5\" x2=\"337.2\" y2=\"241.5\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"82.8\" y1=\"241.5\" x2=\"82.8\" y2=\"44.5\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"144.3\" y1=\"197.9\" x2=\"210.0\" y2=\"197.9\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"210.0\" y1=\"197.9\" x2=\"210.0\" y2=\"122.4\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"95.1\" y1=\"254.6\" x2=\"242.8\" y2=\"84.6\" stroke=\"#c8372d\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><circle cx=\"144.3\" cy=\"197.9\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"132.3\" y=\"189.9\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">P</text><circle cx=\"210.0\" cy=\"122.4\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"200.0\" y=\"112.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">Q</text><text x=\"177.2\" y=\"216.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">h</text><text x=\"265.4\" y=\"164.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">f(a+h) − f(a)</text><text x=\"144.3\" y=\"260.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">a</text><text x=\"210.0\" y=\"260.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">a+h</text><line x1=\"144.3\" y1=\"241.5\" x2=\"144.3\" y2=\"197.9\" stroke=\"#172b3a\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"210.0\" y1=\"241.5\" x2=\"210.0\" y2=\"197.9\" stroke=\"#172b3a\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutning = ändring i y delat med ändring i x</p><p>Från P till Q ändras x med h och y med \\(f(a+h)-f(a)\\).</p></li><li><p class=\"facit-rubrik\">Differenskvoten</p><div class=\"facit-matte\">\\[\\frac{f(a+h)-f(a)}{h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> (f(a+h) − f(a)) / h</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutning = ändring i y delat med ändring i x</p><p>Från P till Q ändras x med h och y med \\(f(a+h)-f(a)\\).</p></li><li><p class=\"facit-rubrik\">Lutningen för sekanten PQ</p><div class=\"facit-matte\">\\[\\frac{f(a+h)-f(a)}{h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> (f(a+h) − f(a)) / h</p></div>",
   "familj": "Tolka differenskvoter och gränsvärden",
   "formaga": [
     "begrepp"
@@ -100205,7 +100565,7 @@ window.BANKMATO1 = [
   "poang": "1/0/0",
   "typ": "differenskvot för ett litet h",
   "t": "<p>För \\(f(x)=x^2\\) och \\(a=3\\): beräkna differenskvoten \\(\\dfrac{f(3+h)-f(3)}{h}\\) när \\(h=0{,}1\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna ut \\(f(3{,}1)\\)</p><div class=\"facit-matte\">\\[f(3{,}1)=3{,}1^2=9{,}61\\]</div></li><li><p class=\"facit-rubrik\">Differenskvoten</p><div class=\"facit-matte\">\\[\\frac{9{,}61-9}{0{,}1}=\\frac{0{,}61}{0{,}1}=6{,}1\\]</div><p>Nära det exakta \\(f'(3)=6\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,1</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna ut \\(f(3{,}1)\\)</p><div class=\"facit-matte\">\\[f(3{,}1)=3{,}1^2=9{,}61\\]</div></li><li><p class=\"facit-rubrik\">Differenskvoten mellan 3 och 3,1</p><div class=\"facit-matte\">\\[\\frac{9{,}61-9}{0{,}1}=\\frac{0{,}61}{0{,}1}=6{,}1\\]</div><p>Nära det exakta \\(f'(3)=6\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,1</p></div>",
   "familj": "Derivatans definition",
   "formaga": [
     "procedur"
@@ -100234,7 +100594,7 @@ window.BANKMATO1 = [
   "poang": "1/0/0",
   "typ": "symmetrisk differenskvot ur tabell",
   "t": "<p>Tabellen visar några värden för en funktion \\(f\\). Uppskatta \\(f'(2)\\) med den symmetriska differenskvoten \\(\\dfrac{f(2{,}1)-f(1{,}9)}{0{,}2}\\).</p><table class=\"data\" style=\"width:100%;max-width:360px;text-align:center\"><thead><tr><th>x</th><th>1,9</th><th>2,0</th><th>2,1</th></tr></thead><tbody><tr><td>f(x)</td><td>3,61</td><td>4,00</td><td>4,41</td></tr></tbody></table>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetrisk differenskvot</p><div class=\"facit-matte\">\\[\\frac{f(2{,}1)-f(1{,}9)}{0{,}2}=\\frac{4{,}41-3{,}61}{0{,}2}=\\frac{0{,}80}{0{,}2}=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Symmetrisk differenskvot runt \\(x=2\\) med steget 0,1 åt båda hållen</p><div class=\"facit-matte\">\\[\\frac{f(2{,}1)-f(1{,}9)}{0{,}2}=\\frac{4{,}41-3{,}61}{0{,}2}=\\frac{0{,}80}{0{,}2}=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
   "familj": "Derivatans definition",
   "formaga": [
     "procedur"
@@ -101342,7 +101702,7 @@ window.BANKMATO1 = [
   "poang": "1/0/0",
   "typ": "maximipunkt med andraderivatan",
   "t": "<p>Funktionen \\(f(x)=2x^3+3x^2-12x\\) har två extrempunkter. Använd andraderivatan för att avgöra vid vilket \\(x\\) funktionen har sin lokala maximipunkt.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Extrempunkterna där \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=6x^2+6x-12=6(x+2)(x-1)\\]</div><div class=\"facit-matte\">\\[x=-2\\quad\\text{och}\\quad x=1\\]</div></li><li><p class=\"facit-rubrik\">Andraderivatan</p><div class=\"facit-matte\">\\[f''(x)=12x+6\\]</div></li><li><p class=\"facit-rubrik\">Negativ \\(f''\\) ger maximipunkt</p><div class=\"facit-matte\">\\[f''(-2)=-18\\lt0,\\qquad f''(1)=18\\gt0\\]</div><p>Maximipunkten ligger vid \\(x=-2\\) och minimipunkten vid \\(x=1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Extrempunkterna där \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=6x^2+6x-12=6(x+2)(x-1)\\]</div><div class=\"facit-matte\">\\[x=-2\\quad\\text{och}\\quad x=1\\]</div></li><li><p class=\"facit-rubrik\">Andraderivatan avgör vilken punkt som är maximum</p><div class=\"facit-matte\">\\[f''(x)=12x+6\\]</div></li><li><p class=\"facit-rubrik\">Negativ \\(f''\\) ger maximipunkt</p><div class=\"facit-matte\">\\[f''(-2)=-18\\lt0,\\qquad f''(1)=18\\gt0\\]</div><p>Maximipunkten ligger vid \\(x=-2\\) och minimipunkten vid \\(x=1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div>",
   "familj": "Andraderivatans tecken och grafens form",
   "formaga": [
     "procedur"
@@ -101573,7 +101933,7 @@ window.BANKMATO1 = [
   "poang": "1/0/0",
   "typ": "andraderivatans nollställe ur derivatans graf",
   "t": "<p>Figuren visar grafen till derivatan \\(f^{\\prime}\\). För vilket \\(x\\) är \\(f^{\\prime\\prime}(x)=0\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 360\" role=\"img\" aria-label=\"Grafen till derivatan f′. Den är en parabel med sin högsta punkt i (1, 4) och nollställen i x = −1 och x = 3.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"77.2\" y1=\"22\" x2=\"77.2\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"106.3\" y1=\"22\" x2=\"106.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"135.5\" y1=\"22\" x2=\"135.5\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"164.7\" y1=\"22\" x2=\"164.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"193.8\" y1=\"22\" x2=\"193.8\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"252.2\" y1=\"22\" x2=\"252.2\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"281.3\" y1=\"22\" x2=\"281.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"310.5\" y1=\"22\" x2=\"310.5\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"339.7\" y1=\"22\" x2=\"339.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"368.8\" y1=\"22\" x2=\"368.8\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"318.0\" x2=\"398\" y2=\"318.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"291.1\" x2=\"398\" y2=\"291.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"264.2\" x2=\"398\" y2=\"264.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"237.3\" x2=\"398\" y2=\"237.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"210.4\" x2=\"398\" y2=\"210.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"183.5\" x2=\"398\" y2=\"183.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"156.5\" x2=\"398\" y2=\"156.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"129.6\" x2=\"398\" y2=\"129.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"102.7\" x2=\"398\" y2=\"102.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"75.8\" x2=\"398\" y2=\"75.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"48.9\" x2=\"398\" y2=\"48.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"156.5\" x2=\"408\" y2=\"156.5\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,156.5 402,151.5 402,161.5\" fill=\"#172b3a\"/><line x1=\"164.7\" y1=\"318\" x2=\"164.7\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"164.7,8 159.7,18 169.7,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"147.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"172.7\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"48.0\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"106.3\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"223.0\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"281.3\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"339.7\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"398.0\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"158.7\" y=\"322.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−6</text><text x=\"158.7\" y=\"268.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"158.7\" y=\"214.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"158.7\" y=\"106.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"158.7\" y=\"52.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"158.7\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k9a9105ee\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"296\"/></clipPath><polyline clip-path=\"url(#k9a9105ee)\" points=\"48.0,291.1 48.9,288.7 49.8,286.3 50.6,283.9 51.5,281.5 52.4,279.1 53.3,276.8 54.1,274.4 55.0,272.1 55.9,269.8 56.7,267.5 57.6,265.2 58.5,262.9 59.4,260.6 60.2,258.4 61.1,256.1 62.0,253.9 62.9,251.7 63.8,249.5 64.6,247.3 65.5,245.1 66.4,242.9 67.2,240.7 68.1,238.6 69.0,236.5 69.9,234.3 70.8,232.2 71.6,230.1 72.5,228.0 73.4,226.0 74.2,223.9 75.1,221.8 76.0,219.8 76.9,217.8 77.8,215.7 78.6,213.7 79.5,211.8 80.4,209.8 81.2,207.8 82.1,205.8 83.0,203.9 83.9,202.0 84.8,200.1 85.6,198.1 86.5,196.3 87.4,194.4 88.2,192.5 89.1,190.6 90.0,188.8 90.9,187.0 91.8,185.1 92.6,183.3 93.5,181.5 94.4,179.7 95.2,178.0 96.1,176.2 97.0,174.5 97.9,172.7 98.8,171.0 99.6,169.3 100.5,167.6 101.4,165.9 102.2,164.2 103.1,162.5 104.0,160.9 104.9,159.3 105.8,157.6 106.6,156.0 107.5,154.4 108.4,152.8 109.2,151.2 110.1,149.7 111.0,148.1 111.9,146.6 112.8,145.0 113.6,143.5 114.5,142.0 115.4,140.5 116.2,139.0 117.1,137.6 118.0,136.1 118.9,134.6 119.8,133.2 120.6,131.8 121.5,130.4 122.4,129.0 123.2,127.6 124.1,126.2 125.0,124.9 125.9,123.5 126.8,122.2 127.6,120.8 128.5,119.5 129.4,118.2 130.2,116.9 131.1,115.7 132.0,114.4 132.9,113.1 133.8,111.9 134.6,110.7 135.5,109.5 136.4,108.2 137.2,107.1 138.1,105.9 139.0,104.7 139.9,103.6 140.8,102.4 141.6,101.3 142.5,100.2 143.4,99.0 144.2,98.0 145.1,96.9 146.0,95.8 146.9,94.7 147.8,93.7 148.6,92.7 149.5,91.6 150.4,90.6 151.2,89.6 152.1,88.6 153.0,87.7 153.9,86.7 154.8,85.7 155.6,84.8 156.5,83.9 157.4,83.0 158.2,82.1 159.1,81.2 160.0,80.3 160.9,79.4 161.8,78.6 162.6,77.7 163.5,76.9 164.4,76.1 165.2,75.3 166.1,74.5 167.0,73.7 167.9,72.9 168.8,72.2 169.6,71.4 170.5,70.7 171.4,70.0 172.2,69.3 173.1,68.6 174.0,67.9 174.9,67.2 175.8,66.6 176.6,65.9 177.5,65.3 178.4,64.7 179.2,64.0 180.1,63.4 181.0,62.9 181.9,62.3 182.8,61.7 183.6,61.2 184.5,60.6 185.4,60.1 186.2,59.6 187.1,59.1 188.0,58.6 188.9,58.1 189.8,57.7 190.6,57.2 191.5,56.8 192.4,56.3 193.2,55.9 194.1,55.5 195.0,55.1 195.9,54.7 196.8,54.4 197.6,54.0 198.5,53.7 199.4,53.3 200.2,53.0 201.1,52.7 202.0,52.4 202.9,52.1 203.8,51.8 204.6,51.6 205.5,51.3 206.4,51.1 207.2,50.9 208.1,50.7 209.0,50.5 209.9,50.3 210.8,50.1 211.6,49.9 212.5,49.8 213.4,49.6 214.2,49.5 215.1,49.4 216.0,49.3 216.9,49.2 217.8,49.1 218.6,49.1 219.5,49.0 220.4,49.0 221.3,48.9 222.1,48.9 223.0,48.9 223.9,48.9 224.8,48.9 225.6,49.0 226.5,49.0 227.4,49.1 228.2,49.1 229.1,49.2 230.0,49.3 230.9,49.4 231.8,49.5 232.6,49.6 233.5,49.8 234.4,49.9 235.2,50.1 236.1,50.3 237.0,50.5 237.9,50.7 238.8,50.9 239.6,51.1 240.5,51.3 241.4,51.6 242.3,51.8 243.1,52.1 244.0,52.4 244.9,52.7 245.8,53.0 246.6,53.3 247.5,53.7 248.4,54.0 249.3,54.4 250.1,54.7 251.0,55.1 251.9,55.5 252.8,55.9 253.6,56.3 254.5,56.8 255.4,57.2 256.2,57.7 257.1,58.1 258.0,58.6 258.9,59.1 259.8,59.6 260.6,60.1 261.5,60.6 262.4,61.2 263.2,61.7 264.1,62.3 265.0,62.9 265.9,63.4 266.8,64.0 267.6,64.7 268.5,65.3 269.4,65.9 270.2,66.6 271.1,67.2 272.0,67.9 272.9,68.6 273.8,69.3 274.6,70.0 275.5,70.7 276.4,71.4 277.2,72.2 278.1,72.9 279.0,73.7 279.9,74.5 280.8,75.3 281.6,76.1 282.5,76.9 283.4,77.7 284.2,78.6 285.1,79.4 286.0,80.3 286.9,81.2 287.8,82.1 288.6,83.0 289.5,83.9 290.4,84.8 291.2,85.7 292.1,86.7 293.0,87.7 293.9,88.6 294.8,89.6 295.6,90.6 296.5,91.6 297.4,92.7 298.2,93.7 299.1,94.7 300.0,95.8 300.9,96.9 301.8,98.0 302.6,99.0 303.5,100.2 304.4,101.3 305.2,102.4 306.1,103.6 307.0,104.7 307.9,105.9 308.8,107.1 309.6,108.2 310.5,109.5 311.4,110.7 312.2,111.9 313.1,113.1 314.0,114.4 314.9,115.7 315.8,116.9 316.6,118.2 317.5,119.5 318.4,120.8 319.2,122.2 320.1,123.5 321.0,124.9 321.9,126.2 322.8,127.6 323.6,129.0 324.5,130.4 325.4,131.8 326.2,133.2 327.1,134.6 328.0,136.1 328.9,137.6 329.8,139.0 330.6,140.5 331.5,142.0 332.4,143.5 333.2,145.0 334.1,146.6 335.0,148.1 335.9,149.7 336.8,151.2 337.6,152.8 338.5,154.4 339.4,156.0 340.2,157.6 341.1,159.3 342.0,160.9 342.9,162.5 343.8,164.2 344.6,165.9 345.5,167.6 346.4,169.3 347.2,171.0 348.1,172.7 349.0,174.5 349.9,176.2 350.8,178.0 351.6,179.7 352.5,181.5 353.4,183.3 354.2,185.1 355.1,187.0 356.0,188.8 356.9,190.6 357.7,192.5 358.6,194.4 359.5,196.3 360.4,198.1 361.2,200.1 362.1,202.0 363.0,203.9 363.9,205.8 364.7,207.8 365.6,209.8 366.5,211.8 367.4,213.7 368.2,215.7 369.1,217.8 370.0,219.8 370.9,221.8 371.8,223.9 372.6,226.0 373.5,228.0 374.4,230.1 375.2,232.2 376.1,234.3 377.0,236.5 377.9,238.6 378.8,240.7 379.6,242.9 380.5,245.1 381.4,247.3 382.2,249.5 383.1,251.7 384.0,253.9 384.9,256.1 385.8,258.4 386.6,260.6 387.5,262.9 388.4,265.2 389.2,267.5 390.1,269.8 391.0,272.1 391.9,274.4 392.8,276.8 393.6,279.1 394.5,281.5 395.4,283.9 396.2,286.3 397.1,288.7 398.0,291.1\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"287.2\" y=\"43.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">y = f′(x)</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f''\\) är lutningen hos grafen till \\(f'\\)</p><p>Sök var grafen i figuren har en vågrät tangent.</p></li><li><p class=\"facit-rubrik\">Parabelns topp</p><p>Toppen ligger vid \\(x=1\\), så \\(f''(1)=0\\). Nollställena \\(x=-1\\) och \\(x=3\\) svarar mot extrempunkter hos f, vilket är en annan fråga.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f''\\) är lutningen hos grafen till \\(f'\\)</p><p>Sök var grafen i figuren har en vågrät tangent.</p></li><li><p class=\"facit-rubrik\">Parabelns topp ligger vid \\(x=1\\)</p><p>Toppen ligger vid \\(x=1\\), så \\(f''(1)=0\\). Nollställena \\(x=-1\\) och \\(x=3\\) svarar mot extrempunkter hos f, vilket är en annan fråga.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\)</p></div>",
   "familj": "Andraderivatans tecken och grafens form",
   "formaga": [
     "begrepp"
@@ -103572,7 +103932,7 @@ window.BANKMATO1 = [
   "typ": "sätta in funktionen i differenskvoten",
   "poang": "1/0/0",
   "t": "<p>För \\(f(x)=2x^2\\) ska vi bestämma \\(f\\prime(1)\\) med derivatans definition. Vilken differenskvot ska vi ta gränsvärdet av när \\(h\\to0\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Parabeln y = 2x² med P vid x = 1 och Q vid x = 1+h.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-1147\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 220.5L430 220.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"225.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"106.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">6</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">8</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">y</text><path d=\"M60.0 280.0 L62.312 279.991 L64.625 279.963 L66.938 279.916 L69.25 279.851 L71.562 279.768 L73.875 279.665 L76.188 279.544 L78.5 279.405 L80.812 279.247 L83.125 279.07 L85.438 278.875 L87.75 278.661 L90.062 278.429 L92.375 278.178 L94.688 277.908 L97.0 277.62 L99.312 277.313 L101.625 276.988 L103.938 276.644 L106.25 276.281 L108.562 275.9 L110.875 275.5 L113.188 275.082 L115.5 274.645 L117.812 274.189 L120.125 273.715 L122.438 273.223 L124.75 272.711 L127.062 272.181 L129.375 271.633 L131.688 271.066 L134.0 270.48 L136.312 269.876 L138.625 269.253 L140.938 268.611 L143.25 267.951 L145.562 267.273 L147.875 266.575 L150.188 265.859 L152.5 265.125 L154.812 264.372 L157.125 263.6 L159.438 262.81 L161.75 262.001 L164.062 261.174 L166.375 260.328 L168.688 259.463 L171.0 258.58 L173.312 257.678 L175.625 256.758 L177.938 255.819 L180.25 254.861 L182.562 253.885 L184.875 252.89 L187.188 251.877 L189.5 250.845 L191.812 249.794 L194.125 248.725 L196.438 247.638 L198.75 246.531 L201.062 245.406 L203.375 244.263 L205.688 243.101 L208.0 241.92 L210.312 240.721 L212.625 239.503 L214.938 238.266 L217.25 237.011 L219.562 235.738 L221.875 234.445 L224.188 233.134 L226.5 231.805 L228.812 230.457 L231.125 229.09 L233.438 227.705 L235.75 226.301 L238.062 224.879 L240.375 223.438 L242.688 221.978 L245.0 220.5 L247.312 219.003 L249.625 217.488 L251.938 215.954 L254.25 214.401 L256.562 212.83 L258.875 211.24 L261.188 209.632 L263.5 208.005 L265.812 206.359 L268.125 204.695 L270.438 203.013 L272.75 201.311 L275.062 199.591 L277.375 197.853 L279.688 196.096 L282.0 194.32 L284.312 192.526 L286.625 190.713 L288.938 188.881 L291.25 187.031 L293.562 185.163 L295.875 183.275 L298.188 181.369 L300.5 179.445 L302.812 177.502 L305.125 175.54 L307.438 173.56 L309.75 171.561 L312.062 169.544 L314.375 167.508 L316.688 165.453 L319.0 163.38 L321.312 161.288 L323.625 159.178 L325.938 157.049 L328.25 154.901 L330.562 152.735 L332.875 150.55 L335.188 148.347 L337.5 146.125 L339.812 143.884 L342.125 141.625 L344.438 139.348 L346.75 137.051 L349.062 134.736 L351.375 132.403 L353.688 130.051 L356.0 127.68 L358.312 125.291 L360.625 122.883 L362.938 120.456 L365.25 118.011 L367.562 115.548 L369.875 113.065 L372.188 110.564 L374.5 108.045 L376.812 105.507 L379.125 102.95 L381.438 100.375 L383.75 97.781 L386.062 95.169 L388.375 92.538 L390.688 89.888 L393.0 87.22 L395.312 84.533 L397.625 81.828 L399.938 79.104 L402.25 76.361 L404.562 73.6 L406.875 70.82 L409.188 68.022 L411.5 65.205 L413.812 62.369 L416.125 59.515 L418.438 56.643 L420.75 53.751 L423.062 50.841 L425.375 47.913 L427.688 44.966 L430.0 42.0\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-1147)\"/><circle cx=\"245.0\" cy=\"220.5\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"219.0\" y=\"202.5\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">P</text><circle cx=\"337.5\" cy=\"146.125\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"311.5\" y=\"128.125\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Q</text><path d=\"M337.5 146.125L337.5 280\" fill=\"none\" stroke=\"#8193a6\" stroke-width=\"1\"/><text x=\"337.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1+h</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Funktionsvärdena</p><div class=\"facit-matte\">\\[f(1+h)=2(1+h)^2,\\qquad f(1)=2\\cdot1^2=2\\]</div></li><li><p class=\"facit-rubrik\">Differenskvoten</p><div class=\"facit-matte\">\\[\\frac{f(1+h)-f(1)}{h}=\\frac{2(1+h)^2-2}{h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{2(1+h)^2-2}{h}\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(1+h\\) och 1 i \\(f(x)=2x^2\\)</p><div class=\"facit-matte\">\\[f(1+h)=2(1+h)^2,\\qquad f(1)=2\\cdot1^2=2\\]</div></li><li><p class=\"facit-rubrik\">Ändringen i f delat med h</p><div class=\"facit-matte\">\\[\\frac{f(1+h)-f(1)}{h}=\\frac{2(1+h)^2-2}{h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{2(1+h)^2-2}{h}\\)</p></div>",
   "familj": "Tolka differenskvoter och gränsvärden",
   "formaga": [
     "begrepp",
@@ -105349,7 +105709,7 @@ window.BANKMATO1 = [
   "typ": "felsöka potensregeln utan att blanda ihop koefficient och exponent",
   "poang": "1/0/0",
   "t": "<p>Noor deriverar \\(f(x)=4x^3\\) och skriver \\(f^{\\prime}(x)=12x^3\\). Vad behöver ändras i Noors svar? (Välj ett alternativ.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätt derivata</p><div class=\"facit-matte\">\\[f'(x)=4\\cdot3x^{3-1}=12x^2\\]</div></li><li><p class=\"facit-rubrik\">Jämför med Noors svar</p><p>Faktorn 12 stämmer, men exponenten ska minskas från 3 till 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Exponenten 3 ska bytas mot 2.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensregeln ger den rätta derivatan</p><div class=\"facit-matte\">\\[f'(x)=4\\cdot3x^{3-1}=12x^2\\]</div></li><li><p class=\"facit-rubrik\">Jämför med Noors svar</p><p>Faktorn 12 stämmer, men exponenten ska minskas från 3 till 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Exponenten 3 ska bytas mot 2.</p></div>",
   "familj": "Derivera polynom",
   "formaga": [
     "begrepp",
@@ -105592,7 +105952,7 @@ window.BANKMATO1 = [
   "typ": "samma hastighet trots olika sträcka",
   "poang": "0/1/0",
   "t": "<p>Två vagnar A och B startar samtidigt. Efter \\(t\\) sekunder har de färdats \\(s_A(t)=t^3\\) respektive \\(s_B(t)=6t^2\\) meter. Modellerna gäller för \\(0\\le t\\le5\\).</p><p>Vid vilka två tidpunkter har vagnarna samma hastighet? (Svara i sekunder. Ordningen spelar ingen roll.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Sträcka mot tid för vagn A, s=t³, och vagn B, s=6t², mellan 0 och 5 sekunder.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-regel1174\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M134.0 42L134.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"134.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M208.0 42L208.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"208.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M282.0 42L282.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"282.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M356.0 42L356.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"356.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">5</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 220.5L430 220.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"225.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">40</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">80</text><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"106.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">120</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">160</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">Tid (s)</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Sträcka (m)</text><path d=\"M60.0 280.0 L62.312 280.0 L64.625 280.0 L66.938 279.999 L69.25 279.997 L71.562 279.994 L73.875 279.99 L76.188 279.984 L78.5 279.977 L80.812 279.967 L83.125 279.955 L85.438 279.94 L87.75 279.922 L90.062 279.9 L92.375 279.875 L94.688 279.847 L97.0 279.814 L99.312 279.777 L101.625 279.735 L103.938 279.689 L106.25 279.637 L108.562 279.58 L110.875 279.517 L113.188 279.448 L115.5 279.372 L117.812 279.291 L120.125 279.202 L122.438 279.106 L124.75 279.003 L127.062 278.893 L129.375 278.774 L131.688 278.648 L134.0 278.512 L136.312 278.369 L138.625 278.216 L140.938 278.054 L143.25 277.882 L145.562 277.701 L147.875 277.509 L150.188 277.307 L152.5 277.095 L154.812 276.871 L157.125 276.637 L159.438 276.391 L161.75 276.133 L164.062 275.863 L166.375 275.581 L168.688 275.287 L171.0 274.98 L173.312 274.659 L175.625 274.326 L177.938 273.978 L180.25 273.617 L182.562 273.242 L184.875 272.852 L187.188 272.447 L189.5 272.028 L191.812 271.593 L194.125 271.143 L196.438 270.677 L198.75 270.195 L201.062 269.696 L203.375 269.181 L205.688 268.649 L208.0 268.1 L210.312 267.533 L212.625 266.949 L214.938 266.347 L217.25 265.726 L219.562 265.087 L221.875 264.43 L224.188 263.753 L226.5 263.056 L228.812 262.341 L231.125 261.605 L233.438 260.849 L235.75 260.073 L238.062 259.276 L240.375 258.458 L242.688 257.619 L245.0 256.758 L247.312 255.875 L249.625 254.971 L251.938 254.044 L254.25 253.094 L256.562 252.122 L258.875 251.126 L261.188 250.107 L263.5 249.065 L265.812 247.998 L268.125 246.907 L270.438 245.792 L272.75 244.652 L275.062 243.486 L277.375 242.296 L279.688 241.08 L282.0 239.838 L284.312 238.569 L286.625 237.275 L288.938 235.953 L291.25 234.605 L293.562 233.23 L295.875 231.827 L298.188 230.396 L300.5 228.937 L302.812 227.45 L305.125 225.934 L307.438 224.389 L309.75 222.816 L312.062 221.212 L314.375 219.579 L316.688 217.917 L319.0 216.223 L321.312 214.5 L323.625 212.745 L325.938 210.96 L328.25 209.143 L330.562 207.295 L332.875 205.415 L335.188 203.502 L337.5 201.558 L339.812 199.58 L342.125 197.57 L344.438 195.526 L346.75 193.449 L349.062 191.338 L351.375 189.193 L353.688 187.014 L356.0 184.8 L358.312 182.551 L360.625 180.267 L362.938 177.948 L365.25 175.593 L367.562 173.202 L369.875 170.775 L372.188 168.312 L374.5 165.811 L376.812 163.274 L379.125 160.699 L381.438 158.087 L383.75 155.436 L386.062 152.748 L388.375 150.021 L390.688 147.256 L393.0 144.452 L395.312 141.608 L397.625 138.725 L399.938 135.802 L402.25 132.839 L404.562 129.836 L406.875 126.792 L409.188 123.708 L411.5 120.582 L413.812 117.415 L416.125 114.206 L418.438 110.955 L420.75 107.662 L423.062 104.327 L425.375 100.948 L427.688 97.527 L430.0 94.062\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-regel1174)\"/><path d=\"M60.0 280.0 L62.312 279.991 L64.625 279.965 L66.938 279.922 L69.25 279.861 L71.562 279.782 L73.875 279.686 L76.188 279.573 L78.5 279.442 L80.812 279.294 L83.125 279.128 L85.438 278.945 L87.75 278.745 L90.062 278.527 L92.375 278.292 L94.688 278.039 L97.0 277.769 L99.312 277.481 L101.625 277.176 L103.938 276.854 L106.25 276.514 L108.562 276.156 L110.875 275.782 L113.188 275.389 L115.5 274.98 L117.812 274.553 L120.125 274.108 L122.438 273.646 L124.75 273.167 L127.062 272.67 L129.375 272.156 L131.688 271.624 L134.0 271.075 L136.312 270.508 L138.625 269.925 L140.938 269.323 L143.25 268.704 L145.562 268.068 L147.875 267.414 L150.188 266.743 L152.5 266.055 L154.812 265.349 L157.125 264.625 L159.438 263.884 L161.75 263.126 L164.062 262.35 L166.375 261.557 L168.688 260.747 L171.0 259.919 L173.312 259.073 L175.625 258.21 L177.938 257.33 L180.25 256.432 L182.562 255.517 L184.875 254.585 L187.188 253.635 L189.5 252.667 L191.812 251.682 L194.125 250.68 L196.438 249.66 L198.75 248.623 L201.062 247.568 L203.375 246.496 L205.688 245.407 L208.0 244.3 L210.312 243.176 L212.625 242.034 L214.938 240.875 L217.25 239.698 L219.562 238.504 L221.875 237.292 L224.188 236.064 L226.5 234.817 L228.812 233.553 L231.125 232.272 L233.438 230.974 L235.75 229.657 L238.062 228.324 L240.375 226.973 L242.688 225.605 L245.0 224.219 L247.312 222.816 L249.625 221.395 L251.938 219.957 L254.25 218.501 L256.562 217.028 L258.875 215.538 L261.188 214.03 L263.5 212.505 L265.812 210.962 L268.125 209.402 L270.438 207.824 L272.75 206.229 L275.062 204.617 L277.375 202.987 L279.688 201.34 L282.0 199.675 L284.312 197.993 L286.625 196.293 L288.938 194.576 L291.25 192.842 L293.562 191.09 L295.875 189.321 L298.188 187.534 L300.5 185.73 L302.812 183.908 L305.125 182.069 L307.438 180.213 L309.75 178.339 L312.062 176.447 L314.375 174.539 L316.688 172.612 L319.0 170.669 L321.312 168.708 L323.625 166.729 L325.938 164.733 L328.25 162.72 L330.562 160.689 L332.875 158.641 L335.188 156.575 L337.5 154.492 L339.812 152.392 L342.125 150.274 L344.438 148.138 L346.75 145.986 L349.062 143.815 L351.375 141.628 L353.688 139.423 L356.0 137.2 L358.312 134.96 L360.625 132.703 L362.938 130.428 L365.25 128.136 L367.562 125.826 L369.875 123.499 L372.188 121.154 L374.5 118.792 L376.812 116.413 L379.125 114.016 L381.438 111.602 L383.75 109.17 L386.062 106.721 L388.375 104.254 L390.688 101.77 L393.0 99.269 L395.312 96.75 L397.625 94.214 L399.938 91.66 L402.25 89.089 L404.562 86.5 L406.875 83.894 L409.188 81.271 L411.5 78.63 L413.812 75.971 L416.125 73.296 L418.438 70.602 L420.75 67.892 L423.062 65.164 L425.375 62.418 L427.688 59.655 L430.0 56.875\" stroke=\"#087f8c\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-regel1174)\"/><path d=\"M430 94.062L439 94.062\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><text x=\"451\" y=\"100.062\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#2b67a2\">A</text><path d=\"M430 56.875L439 56.875\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"1.5\"/><text x=\"451\" y=\"62.875\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#087f8c\">B</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastighet = sträckans derivata</p><div class=\"facit-matte\">\\[v_A(t)=3t^2,\\qquad v_B(t)=12t\\]</div></li><li><p class=\"facit-rubrik\">Sätt hastigheterna lika och faktorisera – dela inte med t</p><div class=\"facit-matte\">\\[3t^2-12t=0\\quad\\Rightarrow\\quad3t(t-4)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden</p><div class=\"facit-matte\">\\[t=0\\ \\text{s}\\quad\\text{och}\\quad t=4\\ \\text{s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=0\\) s och \\(t=4\\) s</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hastighet = sträckans derivata</p><div class=\"facit-matte\">\\[v_A(t)=3t^2,\\qquad v_B(t)=12t\\]</div></li><li><p class=\"facit-rubrik\">Sätt hastigheterna lika och faktorisera – dela inte med t</p><div class=\"facit-matte\">\\[3t^2-12t=0\\quad\\Rightarrow\\quad3t(t-4)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden ger två tidpunkter</p><div class=\"facit-matte\">\\[t=0\\ \\text{s}\\quad\\text{och}\\quad t=4\\ \\text{s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=0\\) s och \\(t=4\\) s</p></div>",
   "familj": "Beräkna derivatans värde",
   "formaga": [
     "problemlosning",
@@ -106362,7 +106722,7 @@ window.BANKMATO1 = [
   "typ": "beräkna andraderivatan i en markerad minimipunkt",
   "poang": "1/0/0",
   "t": "<p>Funktionen är \\(f(x)=x^3-3x\\). Punkten \\(P=(1,-2)\\) är markerad i grafen.</p><p>Beräkna \\(f^{\\prime\\prime}(1)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Grafen till f(x)=x³−3x med punkten P=(1,−2) markerad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-andra1204\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><path d=\"M60 157V165\" stroke=\"#243447\" stroke-width=\"1.2\"/><text x=\"60.0\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-2</text><path d=\"M152.5 42L152.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><path d=\"M152.5 157V165\" stroke=\"#243447\" stroke-width=\"1.2\"/><text x=\"152.5\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><path d=\"M245 157V165\" stroke=\"#243447\" stroke-width=\"1.2\"/><text x=\"245.0\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M337.5 42L337.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><path d=\"M337.5 157V165\" stroke=\"#243447\" stroke-width=\"1.2\"/><text x=\"337.5\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><path d=\"M430 157V165\" stroke=\"#243447\" stroke-width=\"1.2\"/><text x=\"430.0\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"234\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-3</text><path d=\"M60 240.333L430 240.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"234\" y=\"245.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-2</text><path d=\"M60 200.667L430 200.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"234\" y=\"205.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-1</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><path d=\"M60 121.333L430 121.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"234\" y=\"126.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1</text><path d=\"M60 81.667L430 81.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"234\" y=\"86.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"234\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">3</text><path d=\"M60 161.0L443 161.0 M435 157L443 161.0L435 165\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"449\" y=\"166\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">x</text><text x=\"245\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">f(x)</text><path d=\"M60.0 240.333 L62.312 231.556 L64.625 223.073 L66.938 214.88 L69.25 206.974 L71.562 199.35 L73.875 192.004 L76.188 184.934 L78.5 178.136 L80.812 171.605 L83.125 165.339 L85.438 159.332 L87.75 153.582 L90.062 148.085 L92.375 142.838 L94.688 137.835 L97.0 133.075 L99.312 128.552 L101.625 124.264 L103.938 120.206 L106.25 116.375 L108.562 112.767 L110.875 109.379 L113.188 106.206 L115.5 103.245 L117.812 100.493 L120.125 97.945 L122.438 95.598 L124.75 93.448 L127.063 91.491 L129.375 89.724 L131.688 88.143 L134.0 86.744 L136.312 85.524 L138.625 84.478 L140.938 83.604 L143.25 82.896 L145.562 82.353 L147.875 81.969 L150.188 81.742 L152.5 81.667 L154.812 81.74 L157.125 81.959 L159.438 82.319 L161.75 82.817 L164.062 83.449 L166.375 84.21 L168.688 85.098 L171.0 86.109 L173.312 87.239 L175.625 88.484 L177.938 89.841 L180.25 91.306 L182.562 92.874 L184.875 94.543 L187.188 96.309 L189.5 98.168 L191.812 100.116 L194.125 102.15 L196.438 104.265 L198.75 106.458 L201.062 108.726 L203.375 111.065 L205.688 113.47 L208.0 115.939 L210.312 118.467 L212.625 121.051 L214.938 123.687 L217.25 126.371 L219.562 129.1 L221.875 131.87 L224.188 134.677 L226.5 137.517 L228.812 140.388 L231.125 143.284 L233.438 146.202 L235.75 149.14 L238.062 152.092 L240.375 155.055 L242.688 158.026 L245.0 161.0 L247.312 163.974 L249.625 166.945 L251.938 169.908 L254.25 172.86 L256.562 175.798 L258.875 178.716 L261.188 181.612 L263.5 184.483 L265.812 187.323 L268.125 190.13 L270.438 192.9 L272.75 195.629 L275.062 198.313 L277.375 200.949 L279.688 203.533 L282.0 206.061 L284.312 208.53 L286.625 210.935 L288.938 213.274 L291.25 215.542 L293.562 217.735 L295.875 219.85 L298.188 221.884 L300.5 223.832 L302.812 225.691 L305.125 227.457 L307.438 229.126 L309.75 230.694 L312.062 232.159 L314.375 233.516 L316.688 234.761 L319.0 235.891 L321.312 236.902 L323.625 237.79 L325.938 238.551 L328.25 239.183 L330.562 239.681 L332.875 240.041 L335.188 240.26 L337.5 240.333 L339.812 240.258 L342.125 240.031 L344.438 239.647 L346.75 239.104 L349.062 238.396 L351.375 237.522 L353.688 236.476 L356.0 235.256 L358.312 233.857 L360.625 232.276 L362.938 230.509 L365.25 228.552 L367.562 226.402 L369.875 224.055 L372.188 221.507 L374.5 218.755 L376.812 215.794 L379.125 212.621 L381.438 209.233 L383.75 205.625 L386.062 201.794 L388.375 197.736 L390.688 193.448 L393.0 188.925 L395.312 184.165 L397.625 179.162 L399.938 173.915 L402.25 168.418 L404.562 162.668 L406.875 156.661 L409.188 150.395 L411.5 143.864 L413.812 137.066 L416.125 129.996 L418.438 122.65 L420.75 115.026 L423.062 107.12 L425.375 98.927 L427.688 90.444 L430.0 81.667\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-andra1204)\"/><circle cx=\"337.5\" cy=\"240.333\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"351.5\" y=\"258.33299999999997\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">P</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förstaderivatan</p><div class=\"facit-matte\">\\[f'(x)=3x^2-3\\]</div></li><li><p class=\"facit-rubrik\">Derivera en gång till</p><div class=\"facit-matte\">\\[f''(x)=6x\\]</div></li><li><p class=\"facit-rubrik\">Sätt in x-värdet 1, inte punktens y-värde</p><div class=\"facit-matte\">\\[f''(1)=6\\]</div><p>Positiv andraderivata stämmer med att P är en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f''(1)=6\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förstaderivatan av \\(x^3-3x\\)</p><div class=\"facit-matte\">\\[f'(x)=3x^2-3\\]</div></li><li><p class=\"facit-rubrik\">Derivera en gång till</p><div class=\"facit-matte\">\\[f''(x)=6x\\]</div></li><li><p class=\"facit-rubrik\">Sätt in x-värdet 1, inte punktens y-värde</p><div class=\"facit-matte\">\\[f''(1)=6\\]</div><p>Positiv andraderivata stämmer med att P är en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f''(1)=6\\)</p></div>",
   "familj": "Andraderivatans tecken och grafens form",
   "formaga": [
     "procedur",
@@ -108045,7 +108405,7 @@ window.BANKMATO1 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Funktionen \\(f(x)=x^3-6x^2+9\\) har en lokal minimipunkt. Bestäm punktens \\(x\\)-koordinat.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Derivatans tecken avgör vilken stationär punkt som är ett minimum.</strong></p><div class=\"facit-matte\">\\[f'(x)=3x^2-12x=3x(x-4)\\]</div><p>Derivatan är noll vid 0 och 4. Strax före 4 är den negativ och strax efter 4 positiv: funktionen vänder från att minska till att öka.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och bryt ut 3x</p><div class=\"facit-matte\">\\[f'(x)=3x^2-12x=3x(x-4)\\]</div></li><li><p class=\"facit-rubrik\">Teckentabell: \\(f'\\) är negativ mellan 0 och 4</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & 0 &  & 4 & \\\\ \\hline f'(x) & + & 0 & - & 0 & +\\\\ f(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från − till + vid \\(x=4\\) ger minimum</p><p>Vid \\(x=0\\) finns i stället en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
     "ledtrad": "<p>En minimipunkt har övergång från negativ till positiv derivata.</p>",
     "rättSvar": 4,
     "svarFormat": "numeriskt",
@@ -108551,7 +108911,7 @@ window.BANKMATO1 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Funktionen \\(f(x)=x^4-ax^2\\) har lokala minimipunkter vid \\(x=-2\\) och \\(x=2\\). Bestäm \\(a\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Använd en minimipunkt och kontrollera att den verkligen är ett minimum.</strong></p><div class=\"facit-matte\">\\[f'(x)=4x^3-2ax\\]</div><div class=\"facit-matte\">\\[f'(2)=32-4a=0\\Rightarrow a=8\\]</div><p>Då är \\(f''(x)=12x^2-16\\), som är 32 vid både −2 och 2. Båda punkterna är alltså lokala minima.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=8\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är 0 i minimipunkten \\(x=2\\)</p><div class=\"facit-matte\">\\[f'(x)=4x^3-2ax\\quad\\Rightarrow\\quad f'(2)=32-4a=0\\]</div><div class=\"facit-matte\">\\[a=8\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med teckentabell för \\(f'(x)=4x^3-16x=4x(x-2)(x+2)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccccc}x &  & -2 &  & 0 &  & 2 & \\\\ \\hline f'(x) & - & 0 & + & 0 & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div><p>Både \\(x=-2\\) och \\(x=2\\) är minimipunkter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=8\\)</p></div>",
     "ledtrad": "<p>Derivatan måste vara noll i minimipunkterna.</p>",
     "rättSvar": 8,
     "svarFormat": "numeriskt",
@@ -108578,7 +108938,7 @@ window.BANKMATO1 = [
   "poang": "1/0/0",
   "typ": "derivatans nollställe ur graf",
   "t": "<p>Figuren visar grafen till <strong>derivatan</strong> \\(f'(x)\\), inte till \\(f(x)\\). För vilket \\(x\\) har grafen till \\(f\\) en horisontell tangent?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 340\" role=\"img\" aria-label=\"Grafen till derivatan f′(x) är en rät linje som skär x-axeln i x = 2. Den går genom (0, −4) och (4, 4).\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"103.0\" y1=\"22\" x2=\"103.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"158.0\" y1=\"22\" x2=\"158.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"213.0\" y1=\"22\" x2=\"213.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"268.0\" y1=\"22\" x2=\"268.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"323.0\" y1=\"22\" x2=\"323.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"298.0\" x2=\"378\" y2=\"298.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"270.4\" x2=\"378\" y2=\"270.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"242.8\" x2=\"378\" y2=\"242.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"215.2\" x2=\"378\" y2=\"215.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"187.6\" x2=\"378\" y2=\"187.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"160.0\" x2=\"378\" y2=\"160.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"132.4\" x2=\"378\" y2=\"132.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"104.8\" x2=\"378\" y2=\"104.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"77.2\" x2=\"378\" y2=\"77.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"49.6\" x2=\"378\" y2=\"49.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"378\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"160.0\" x2=\"388\" y2=\"160.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,160.0 382,155.0 382,165.0\" fill=\"#172b3a\"/><line x1=\"103.0\" y1=\"298\" x2=\"103.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"103.0,8 98.0,18 108.0,18\" fill=\"#172b3a\"/><text x=\"390\" y=\"151.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"111.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"48.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"158.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"213.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"268.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"323.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"378.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"97.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−5</text><text x=\"97.0\" y=\"274.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"97.0\" y=\"246.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"97.0\" y=\"219.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"97.0\" y=\"191.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"97.0\" y=\"136.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"97.0\" y=\"108.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"97.0\" y=\"81.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"97.0\" y=\"53.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"97.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"97.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k5032dd69\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"276\"/></clipPath><polyline clip-path=\"url(#k5032dd69)\" points=\"48.0,325.6 48.8,324.8 49.6,323.9 50.5,323.1 51.3,322.3 52.1,321.5 52.9,320.6 53.8,319.8 54.6,319.0 55.4,318.1 56.2,317.3 57.1,316.5 57.9,315.7 58.7,314.8 59.5,314.0 60.4,313.2 61.2,312.4 62.0,311.5 62.9,310.7 63.7,309.9 64.5,309.0 65.3,308.2 66.2,307.4 67.0,306.6 67.8,305.7 68.6,304.9 69.5,304.1 70.3,303.2 71.1,302.4 71.9,301.6 72.8,300.8 73.6,299.9 74.4,299.1 75.2,298.3 76.0,297.4 76.9,296.6 77.7,295.8 78.5,295.0 79.3,294.1 80.2,293.3 81.0,292.5 81.8,291.7 82.7,290.8 83.5,290.0 84.3,289.2 85.1,288.3 85.9,287.5 86.8,286.7 87.6,285.9 88.4,285.0 89.2,284.2 90.1,283.4 90.9,282.5 91.7,281.7 92.6,280.9 93.4,280.1 94.2,279.2 95.0,278.4 95.8,277.6 96.7,276.7 97.5,275.9 98.3,275.1 99.2,274.3 100.0,273.4 100.8,272.6 101.6,271.8 102.5,271.0 103.3,270.1 104.1,269.3 104.9,268.5 105.8,267.6 106.6,266.8 107.4,266.0 108.2,265.2 109.1,264.3 109.9,263.5 110.7,262.7 111.5,261.8 112.3,261.0 113.2,260.2 114.0,259.4 114.8,258.5 115.6,257.7 116.5,256.9 117.3,256.0 118.1,255.2 119.0,254.4 119.8,253.6 120.6,252.7 121.4,251.9 122.2,251.1 123.1,250.3 123.9,249.4 124.7,248.6 125.5,247.8 126.4,246.9 127.2,246.1 128.0,245.3 128.8,244.5 129.7,243.6 130.5,242.8 131.3,242.0 132.2,241.1 133.0,240.3 133.8,239.5 134.6,238.7 135.4,237.8 136.3,237.0 137.1,236.2 137.9,235.3 138.8,234.5 139.6,233.7 140.4,232.9 141.2,232.0 142.1,231.2 142.9,230.4 143.7,229.6 144.5,228.7 145.3,227.9 146.2,227.1 147.0,226.2 147.8,225.4 148.6,224.6 149.5,223.8 150.3,222.9 151.1,222.1 151.9,221.3 152.8,220.4 153.6,219.6 154.4,218.8 155.2,218.0 156.1,217.1 156.9,216.3 157.7,215.5 158.5,214.6 159.4,213.8 160.2,213.0 161.0,212.2 161.8,211.3 162.7,210.5 163.5,209.7 164.3,208.9 165.1,208.0 166.0,207.2 166.8,206.4 167.6,205.5 168.4,204.7 169.3,203.9 170.1,203.1 170.9,202.2 171.8,201.4 172.6,200.6 173.4,199.7 174.2,198.9 175.1,198.1 175.9,197.3 176.7,196.4 177.5,195.6 178.3,194.8 179.2,193.9 180.0,193.1 180.8,192.3 181.7,191.5 182.5,190.6 183.3,189.8 184.1,189.0 185.0,188.2 185.8,187.3 186.6,186.5 187.4,185.7 188.2,184.8 189.1,184.0 189.9,183.2 190.7,182.4 191.6,181.5 192.4,180.7 193.2,179.9 194.0,179.0 194.8,178.2 195.7,177.4 196.5,176.6 197.3,175.7 198.2,174.9 199.0,174.1 199.8,173.2 200.6,172.4 201.5,171.6 202.3,170.8 203.1,169.9 203.9,169.1 204.8,168.3 205.6,167.5 206.4,166.6 207.2,165.8 208.1,165.0 208.9,164.1 209.7,163.3 210.5,162.5 211.4,161.7 212.2,160.8 213.0,160.0 213.8,159.2 214.7,158.3 215.5,157.5 216.3,156.7 217.1,155.9 218.0,155.0 218.8,154.2 219.6,153.4 220.4,152.5 221.2,151.7 222.1,150.9 222.9,150.1 223.7,149.2 224.6,148.4 225.4,147.6 226.2,146.8 227.0,145.9 227.9,145.1 228.7,144.3 229.5,143.4 230.3,142.6 231.2,141.8 232.0,141.0 232.8,140.1 233.6,139.3 234.5,138.5 235.3,137.6 236.1,136.8 236.9,136.0 237.8,135.2 238.6,134.3 239.4,133.5 240.2,132.7 241.0,131.8 241.9,131.0 242.7,130.2 243.5,129.4 244.3,128.5 245.2,127.7 246.0,126.9 246.8,126.1 247.7,125.2 248.5,124.4 249.3,123.6 250.1,122.7 250.9,121.9 251.8,121.1 252.6,120.3 253.4,119.4 254.2,118.6 255.1,117.8 255.9,116.9 256.7,116.1 257.6,115.3 258.4,114.5 259.2,113.6 260.0,112.8 260.9,112.0 261.7,111.1 262.5,110.3 263.3,109.5 264.1,108.7 265.0,107.8 265.8,107.0 266.6,106.2 267.5,105.4 268.3,104.5 269.1,103.7 269.9,102.9 270.8,102.0 271.6,101.2 272.4,100.4 273.2,99.6 274.1,98.7 274.9,97.9 275.7,97.1 276.5,96.2 277.4,95.4 278.2,94.6 279.0,93.8 279.8,92.9 280.7,92.1 281.5,91.3 282.3,90.4 283.1,89.6 283.9,88.8 284.8,88.0 285.6,87.1 286.4,86.3 287.2,85.5 288.1,84.7 288.9,83.8 289.7,83.0 290.5,82.2 291.4,81.3 292.2,80.5 293.0,79.7 293.9,78.9 294.7,78.0 295.5,77.2 296.3,76.4 297.1,75.5 298.0,74.7 298.8,73.9 299.6,73.1 300.5,72.2 301.3,71.4 302.1,70.6 302.9,69.7 303.8,68.9 304.6,68.1 305.4,67.3 306.2,66.4 307.1,65.6 307.9,64.8 308.7,64.0 309.5,63.1 310.3,62.3 311.2,61.5 312.0,60.6 312.8,59.8 313.7,59.0 314.5,58.2 315.3,57.3 316.1,56.5 316.9,55.7 317.8,54.8 318.6,54.0 319.4,53.2 320.2,52.4 321.1,51.5 321.9,50.7 322.7,49.9 323.6,49.0 324.4,48.2 325.2,47.4 326.0,46.6 326.9,45.7 327.7,44.9 328.5,44.1 329.3,43.3 330.1,42.4 331.0,41.6 331.8,40.8 332.6,39.9 333.5,39.1 334.3,38.3 335.1,37.5 335.9,36.6 336.8,35.8 337.6,35.0 338.4,34.1 339.2,33.3 340.0,32.5 340.9,31.7 341.7,30.8 342.5,30.0 343.4,29.2 344.2,28.3 345.0,27.5 345.8,26.7 346.6,25.9 347.5,25.0 348.3,24.2 349.1,23.4 349.9,22.6 350.8,21.7 351.6,20.9 352.4,20.1 353.2,19.2 354.1,18.4 354.9,17.6 355.7,16.8 356.6,15.9 357.4,15.1 358.2,14.3 359.0,13.4 359.8,12.6 360.7,11.8 361.5,11.0 362.3,10.1 363.2,9.3 364.0,8.5 364.8,7.6 365.6,6.8 366.4,6.0 367.3,5.2 368.1,4.3 368.9,3.5 369.8,2.7 370.6,1.9 371.4,1.0 372.2,0.2 373.1,-0.6 373.9,-1.5 374.7,-2.3 375.5,-3.1 376.4,-3.9 377.2,-4.8 378.0,-5.6\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"229.5\" y=\"66.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">y=f′(x)</text><circle cx=\"213.0\" cy=\"160.0\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Horisontell tangent betyder \\(f'(x)=0\\)</p><p>Sök var grafen till \\(f'\\) skär x-axeln.</p></li><li><p class=\"facit-rubrik\">Avläs skärningen</p><p>Derivatans graf skär x-axeln i \\(x=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Horisontell tangent betyder \\(f'(x)=0\\)</p><p>Sök var grafen till \\(f'\\) skär x-axeln.</p></li><li><p class=\"facit-rubrik\">Derivatans graf skär x-axeln</p><p>Derivatans graf skär x-axeln i \\(x=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
   "familj": "Derivatans tecken",
   "formaga": [
     "begrepp"

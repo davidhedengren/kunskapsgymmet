@@ -83,7 +83,7 @@ const bank=JSON.parse(JSON.stringify(c.window.BANKAI)),spel=bank.filter(q=>q.spe
    await page.evaluate(id=>{prepareReview(id);visaLedtrad();showSolution();},q.id);
    const st=await page.evaluate(()=>({latex:document.querySelectorAll('.katex-error').length,wide:document.documentElement.scrollWidth>innerWidth+1}));
    if(st.latex||st.wide)failures.push({key,...st});
-   if(['1.01a','2.17a','3.05c','2.32a','3.07c','1.65b','1.68c','1.72a','2.78a','2.79c','2.86c','2.87c'].includes(q.id)){await page.evaluate(()=>window.scrollTo(0,0));await page.locator('.task').screenshot({path:`${out}/${q.id}-${width}.png`});}
+   if(['1.01a','2.17a','3.05c','2.32a','3.07c','1.65b','1.68c','1.72a','2.78a','2.79c','2.86c','2.87c','1.78a','1.92a','2.101c','3.67b'].includes(q.id)){await page.evaluate(()=>window.scrollTo(0,0));await page.locator('.task').screenshot({path:`${out}/${q.id}-${width}.png`});}
   }}
  // Symbolraden: bara minustecken för AI
  const sym=await page.evaluate(()=>{const q=reviewBank.find(x=>!(Array.isArray(x.alternativ)&&x.alternativ.length)&&!Array.isArray(x.rättSvar));prepareReview(q.id);return [...document.querySelectorAll('.symtgt')].map(b=>b.textContent.trim());});

@@ -39726,7 +39726,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Grafen till en funktion \\(f\\) ligger under x-axeln mellan \\(x=0\\) och \\(x=2\\). Området där har geometrisk area 3. Mellan \\(x=2\\) och \\(x=5\\) ligger grafen över x-axeln och området där har geometrisk area 5.</p><p>Bestäm</p><p>a) \\(\\int_0^5 f(x)\\,dx\\)</p><p>b) den totala geometriska arean mellan grafen och x-axeln.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Området under x-axeln bidrar med \\(-3\\) till integralen och området över x-axeln med \\(+5\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\int_0^5 f(x)\\,dx=-3+5=2.\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Geometrisk area räknas utan tecken:</p><div class=\"facit-matte\">\\[3+5=8\\].</div></div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(2\\), b) \\(8\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integralen räknar delar under x-axeln negativt</p><p>Delen mellan 0 och 2 ger \\(-3\\), delen mellan 2 och 5 ger \\(+5\\).</p></li><li><p class=\"facit-rubrik\">Summera med tecken</p><div class=\"facit-matte\">\\[\\int_0^5f(x)\\,dx=-3+5=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Geometrisk area räknar alla delar positivt</p><div class=\"facit-matte\">\\[3+5=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -39754,7 +39754,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Grafen till en funktion \\(f\\) ligger under x-axeln mellan \\(x=0\\) och \\(x=2\\). Området där har geometrisk area 3. Mellan \\(x=2\\) och \\(x=5\\) ligger grafen över x-axeln och området där har geometrisk area 5.</p><p>Bestäm \\(\\int_0^5 f(x)\\,dx\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Området under x-axeln bidrar med \\(-3\\) till integralen och området över x-axeln med \\(+5\\).</p></li><li><div class=\"facit-matte\">\\[\\int_0^5 f(x)\\,dx=-3+5=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integralen räknar delar under x-axeln negativt</p><p>Delen mellan 0 och 2 ger \\(-3\\), delen mellan 2 och 5 ger \\(+5\\).</p></li><li><p class=\"facit-rubrik\">Summera med tecken</p><div class=\"facit-matte\">\\[\\int_0^5f(x)\\,dx=-3+5=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
         "ledtrad": "<p>En del under x-axeln räknas negativt i integralen men positivt när geometrisk area efterfrågas.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -39762,7 +39762,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Grafen till en funktion \\(f\\) ligger under x-axeln mellan \\(x=0\\) och \\(x=2\\). Området där har geometrisk area 3. Mellan \\(x=2\\) och \\(x=5\\) ligger grafen över x-axeln och området där har geometrisk area 5.</p><p>Bestäm den totala geometriska arean mellan grafen och x-axeln för \\(0\\le x\\le5\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Geometrisk area räknas utan tecken, så båda områdena räknas positivt:</p><div class=\"facit-matte\">\\[3+5=8\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\)</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Geometrisk area räknar alla delar positivt</p><div class=\"facit-matte\">\\[3+5=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
         "ledtrad": "<p>En del under x-axeln räknas negativt i integralen men positivt när geometrisk area efterfrågas.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -42712,7 +42712,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm med derivata x-koordinaten för maximipunkten och funktionens största värde.</p><p>\\[f(x)=-x^2+6x+1\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=6 - 2 x\\].</div></li><li><div class=\"facit-berakning\"><p>Sätt derivatan lika med noll:</p><div class=\"facit-matte\">\\[f^{\\prime}(x)=0\\Rightarrow x=3\\].</div></div><div class=\"facit-matte\">\\[f(3)=10\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> det största värdet är \\(\\boxed{10}\\) och extrempunkten är \\(\\boxed{(3; 10)}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=6-2x=0\\quad\\Rightarrow\\quad x=3\\]</div></li><li><p class=\"facit-rubrik\">Nedåtvänd parabel: största värdet</p><div class=\"facit-matte\">\\[f(3)=-9+18+1=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> x = 3, största värdet 10</p></div>",
     "familj": "Största och minsta värde på ett intervall",
     "geogebra": false,
     "miniräknare": false,
@@ -42758,7 +42758,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm med derivata x-koordinaten för minimipunkten och funktionens minsta värde.</p><p>\\[f(x)=x^2-8x+3\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f^{\\prime}(x)=2 x - 8\\].</div></li><li><div class=\"facit-berakning\"><p>Sätt derivatan lika med noll:</p><div class=\"facit-matte\">\\[f^{\\prime}(x)=0\\Rightarrow x=4\\].</div></div><div class=\"facit-matte\">\\[f(4)=-13\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> det minsta värdet är \\(\\boxed{-13}\\) och extrempunkten är \\(\\boxed{(4; -13)}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=2x-8=0\\quad\\Rightarrow\\quad x=4\\]</div></li><li><p class=\"facit-rubrik\">Uppåtvänd parabel: minsta värdet</p><div class=\"facit-matte\">\\[f(4)=16-32+3=-13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> x = 4, minsta värdet \\(-13\\)</p></div>",
     "familj": "Största och minsta värde på ett intervall",
     "geogebra": false,
     "miniräknare": false,
@@ -42873,7 +42873,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Bestäm funktionens största och minsta värde för \\(-2\\le x\\le2\\):</p><p>\\[f(x)=x^3-3x.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=3x^2-3=3(x-1)(x+1).\\]</p></li><li><p>Derivatans nollställen är \\(x=-1\\) och \\(x=1\\).</p></li><li><p>Eftersom \\(-2\\le x\\le2\\) måste också ändpunkterna kontrolleras:</p><p>\\[f(-2)=-2,\\quad f(-1)=2,\\quad f(1)=-2,\\quad f(2)=2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största värdet är \\(\\boxed{2}\\) och minsta värdet är \\(\\boxed{-2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)=3x^2-3\\)</p><div class=\"facit-matte\">\\[3(x-1)(x+1)=0\\quad\\Rightarrow\\quad x=\\pm1\\]</div></li><li><p class=\"facit-rubrik\">Slutet intervall: jämför derivatans nollställen med ändpunkterna</p><div class=\"facit-matte\">\\[f(-2)=-2,\\quad f(-1)=2,\\quad f(1)=-2,\\quad f(2)=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största värdet 2, minsta värdet \\(-2\\)</p></div>",
     "familj": "Största och minsta värde på ett intervall",
     "geogebra": false,
     "miniräknare": false,
@@ -44484,7 +44484,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm det minsta värdet av</p><p>\\[f(x)=x^2-14x+80.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f^{\\prime}(x)=2x-14.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatan är noll när</p><div class=\"facit-matte\">\\[x=7\\].</div></div></li><li><p>Eftersom koefficienten framför \\(x^2\\) är positiv har funktionen ett minimum där.</p><p>\\[f(7)=49-98+80=\\boxed{31}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(31\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=2x-14=0\\quad\\Rightarrow\\quad x=7\\]</div></li><li><p class=\"facit-rubrik\">Uppåtvänd parabel: minsta värdet</p><div class=\"facit-matte\">\\[f(7)=49-98+80=31\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 31</p></div>",
     "familj": "Största och minsta värde på ett intervall",
     "geogebra": false,
     "miniräknare": false,
@@ -44624,7 +44624,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bränsleförbrukningen i en modellstudie beskrivs av \\(B(x)=0{,}01x^2-1{,}6x+90\\), där \\(x\\) är hastigheten i km/h. Bestäm vid vilken hastighet modellen ger minst förbrukning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[B^{\\prime}(x)=0{,}02x-1{,}6.\\]</p><p>\\[B^{\\prime}(x)=0\\Rightarrow0{,}02x=1{,}6\\Rightarrow x=80.\\]</p></li><li><p>Eftersom parabeln är uppåtvänd ger detta ett minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> modellen ger minst förbrukning vid \\(\\boxed{80\\text{ km/h}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(B'(x)=0\\)</p><div class=\"facit-matte\">\\[B'(x)=0{,}02x-1{,}6=0\\quad\\Rightarrow\\quad x=80\\]</div></li><li><p class=\"facit-rubrik\">Uppåtvänd parabel ger minimum</p><p>Frågan gäller hastigheten, inte förbrukningen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 80 km/h</p></div>",
     "familj": "Största och minsta värde på ett intervall",
     "geogebra": false,
     "miniräknare": true,
@@ -46064,7 +46064,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Grafen visar en primitiv funktion \\(F\\) till \\(f\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" role=\"img\" aria-label=\"Graf till en primitiv funktion med maximum vid minus ett och minimum vid två\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"48\" y1=\"190\" x2=\"344\" y2=\"190\" stroke=\"#2B2527\"/><polygon points=\"350,190 341,186 341,194\" fill=\"#2B2527\"/><line x1=\"174\" y1=\"210\" x2=\"174\" y2=\"22\" stroke=\"#2B2527\"/><polygon points=\"174,16 170,25 178,25\" fill=\"#2B2527\"/><text x=\"352\" y=\"205\" font-size=\"11\">x</text><text x=\"181\" y=\"24\" font-size=\"11\">y</text><line x1=\"90\" y1=\"187\" x2=\"90\" y2=\"193\" stroke=\"#2B2527\"/><text x=\"90\" y=\"205\" font-size=\"10\" text-anchor=\"middle\" fill=\"#5C575E\">−2</text><line x1=\"132\" y1=\"187\" x2=\"132\" y2=\"193\" stroke=\"#2B2527\"/><text x=\"132\" y=\"205\" font-size=\"10\" text-anchor=\"middle\" fill=\"#5C575E\">−1</text><line x1=\"216\" y1=\"187\" x2=\"216\" y2=\"193\" stroke=\"#2B2527\"/><text x=\"216\" y=\"205\" font-size=\"10\" text-anchor=\"middle\" fill=\"#5C575E\">1</text><line x1=\"258\" y1=\"187\" x2=\"258\" y2=\"193\" stroke=\"#2B2527\"/><text x=\"258\" y=\"205\" font-size=\"10\" text-anchor=\"middle\" fill=\"#5C575E\">2</text><line x1=\"300\" y1=\"187\" x2=\"300\" y2=\"193\" stroke=\"#2B2527\"/><text x=\"300\" y=\"205\" font-size=\"10\" text-anchor=\"middle\" fill=\"#5C575E\">3</text><path d=\"M66.9 181.0 L69.0 171.3 L71.1 162.1 L73.2 153.3 L75.3 144.8 L77.4 136.8 L79.5 129.2 L81.6 121.9 L83.7 115.1 L85.8 108.6 L87.9 102.4 L90.0 96.7 L92.1 91.2 L94.2 86.2 L96.3 81.4 L98.4 77.0 L100.5 72.9 L102.6 69.1 L104.7 65.6 L106.8 62.5 L108.9 59.6 L111.0 57.0 L113.1 54.7 L115.2 52.7 L117.3 50.9 L119.4 49.4 L121.5 48.1 L123.6 47.1 L125.7 46.3 L127.8 45.8 L129.9 45.4 L132.0 45.3 L134.1 45.4 L136.2 45.7 L138.3 46.2 L140.4 46.9 L142.5 47.8 L144.6 48.9 L146.7 50.1 L148.8 51.5 L150.9 53.0 L153.0 54.7 L155.1 56.5 L157.2 58.4 L159.3 60.5 L161.4 62.7 L163.5 65.0 L165.6 67.4 L167.7 69.9 L169.8 72.5 L171.9 75.2 L174.0 78.0 L176.1 80.8 L178.2 83.7 L180.3 86.7 L182.4 89.7 L184.5 92.7 L186.6 95.8 L188.7 98.9 L190.8 102.0 L192.9 105.2 L195.0 108.3 L197.1 111.5 L199.2 114.6 L201.3 117.8 L203.4 120.9 L205.5 123.9 L207.6 127.0 L209.7 130.0 L211.8 132.9 L213.9 135.8 L216.0 138.7 L218.1 141.4 L220.2 144.1 L222.3 146.7 L224.4 149.2 L226.5 151.6 L228.6 154.0 L230.7 156.2 L232.8 158.2 L234.9 160.2 L237.0 162.0 L239.1 163.7 L241.2 165.2 L243.3 166.6 L245.4 167.8 L247.5 168.9 L249.6 169.7 L251.7 170.4 L253.8 170.9 L255.9 171.2 L258.0 171.3 L260.1 171.2 L262.2 170.9 L264.3 170.4 L266.4 169.6 L268.5 168.6 L270.6 167.3 L272.7 165.8 L274.8 164.0 L276.9 162.0 L279.0 159.7 L281.1 157.1 L283.2 154.2 L285.3 151.0 L287.4 147.6 L289.5 143.8 L291.6 139.7 L293.7 135.3 L295.8 130.5 L297.9 125.4 L300.0 120.0 L302.1 114.2 L304.2 108.1 L306.3 101.6 L308.4 94.7 L310.5 87.5 L312.6 79.8 L314.7 71.8 L316.8 63.4 L318.9 54.6\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.5\"/><circle cx=\"132.0\" cy=\"45.3\" r=\"4\" fill=\"#B43123\"/><circle cx=\"258.0\" cy=\"171.3\" r=\"4\" fill=\"#B43123\"/><text x=\"313\" y=\"72\" font-size=\"12\" fill=\"#2D70B3\">F</text></svg></span><p>a) Vid vilka x-värden är \\(f(x)=0\\)?<br>b) På vilka intervall är \\(f(x)&gt;0\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(F^{\\prime}=f\\) är \\(f(x)=0\\) där grafen till \\(F\\) har horisontell tangent.</p></li><li><p>Det sker vid \\(x=-1\\) och \\(x=2\\).</p></li><li><p>Vidare är \\(f(x)&gt;0\\) där \\(F\\) är växande: för \\(x&lt;-1\\) och \\(x&gt;2\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f=F'\\) är lutningen på grafen till F</p><p>a) \\(f(x)=0\\) där grafen till F har vågrät tangent: i toppen vid \\(x=-1\\) och i dalen vid \\(x=2\\).</p></li><li><p class=\"facit-rubrik\">b) \\(f\\gt0\\) där F växer</p><p>F stiger till vänster om −1 och till höger om 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(x=-1\\) och \\(x=2\\), b) \\(x\\lt-1\\) eller \\(x\\gt2\\)</p></div>",
     "familj": "Funktionens graf och derivatans graf",
     "geogebra": false,
     "miniräknare": true,
@@ -46471,7 +46471,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f(x)=x^3-4x\\) är udda.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"255\" viewBox=\"0 0 390 255\" role=\"img\" aria-label=\"Udda kubikfunktion på ett symmetriskt intervall\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"68.7\" y1=\"22\" x2=\"68.7\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"68.7\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"137.9\" y1=\"22\" x2=\"137.9\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"137.9\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-1</text><line x1=\"207.0\" y1=\"22\" x2=\"207.0\" y2=\"217\" stroke=\"#F0EFF2\"/><line x1=\"276.1\" y1=\"22\" x2=\"276.1\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"276.1\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"345.3\" y1=\"22\" x2=\"345.3\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"345.3\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"217.0\" x2=\"366\" y2=\"217.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"220.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-4</text><line x1=\"48\" y1=\"168.2\" x2=\"366\" y2=\"168.2\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"171.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"48\" y1=\"119.5\" x2=\"366\" y2=\"119.5\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"70.8\" x2=\"366\" y2=\"70.8\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"73.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"22.0\" x2=\"366\" y2=\"22.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"25.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"119.5\" x2=\"366\" y2=\"119.5\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"207.0\" y1=\"22\" x2=\"207.0\" y2=\"217\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M48.0 191.8 L49.8 184.5 L51.5 177.5 L53.3 170.6 L55.1 164.0 L56.8 157.5 L58.6 151.3 L60.4 145.3 L62.1 139.5 L63.9 133.9 L65.7 128.5 L67.4 123.2 L69.2 118.2 L71.0 113.4 L72.7 108.7 L74.5 104.3 L76.3 100.0 L78.0 95.9 L79.8 91.9 L81.6 88.2 L83.3 84.6 L85.1 81.2 L86.9 78.0 L88.6 74.9 L90.4 72.0 L92.2 69.3 L93.9 66.7 L95.7 64.2 L97.5 62.0 L99.2 59.8 L101.0 57.9 L102.8 56.0 L104.5 54.4 L106.3 52.8 L108.1 51.4 L109.8 50.1 L111.6 49.0 L113.4 48.0 L115.1 47.1 L116.9 46.4 L118.7 45.8 L120.4 45.3 L122.2 44.9 L124.0 44.6 L125.7 44.5 L127.5 44.4 L129.3 44.5 L131.0 44.7 L132.8 45.0 L134.6 45.4 L136.3 45.9 L138.1 46.5 L139.9 47.1 L141.6 47.9 L143.4 48.8 L145.2 49.7 L146.9 50.8 L148.7 51.9 L150.5 53.1 L152.2 54.4 L154.0 55.7 L155.8 57.2 L157.5 58.7 L159.3 60.2 L161.1 61.9 L162.8 63.6 L164.6 65.3 L166.4 67.1 L168.1 69.0 L169.9 70.9 L171.7 72.9 L173.4 74.9 L175.2 77.0 L177.0 79.1 L178.7 81.3 L180.5 83.5 L182.3 85.7 L184.0 88.0 L185.8 90.3 L187.6 92.6 L189.3 95.0 L191.1 97.4 L192.9 99.8 L194.6 102.2 L196.4 104.6 L198.2 107.1 L199.9 109.6 L201.7 112.0 L203.5 114.5 L205.2 117.0 L207.0 119.5 L208.8 122.0 L210.5 124.5 L212.3 127.0 L214.1 129.4 L215.8 131.9 L217.6 134.4 L219.4 136.8 L221.1 139.2 L222.9 141.6 L224.7 144.0 L226.4 146.4 L228.2 148.7 L230.0 151.0 L231.7 153.3 L233.5 155.5 L235.3 157.7 L237.0 159.9 L238.8 162.0 L240.6 164.1 L242.3 166.1 L244.1 168.1 L245.9 170.0 L247.6 171.9 L249.4 173.7 L251.2 175.4 L252.9 177.1 L254.7 178.8 L256.5 180.3 L258.2 181.8 L260.0 183.3 L261.8 184.6 L263.5 185.9 L265.3 187.1 L267.1 188.2 L268.8 189.3 L270.6 190.2 L272.4 191.1 L274.1 191.9 L275.9 192.5 L277.7 193.1 L279.4 193.6 L281.2 194.0 L283.0 194.3 L284.7 194.5 L286.5 194.6 L288.3 194.5 L290.0 194.4 L291.8 194.1 L293.6 193.7 L295.3 193.2 L297.1 192.6 L298.9 191.9 L300.6 191.0 L302.4 190.0 L304.2 188.9 L305.9 187.6 L307.7 186.2 L309.5 184.6 L311.2 183.0 L313.0 181.1 L314.8 179.2 L316.5 177.0 L318.3 174.8 L320.1 172.3 L321.8 169.7 L323.6 167.0 L325.4 164.1 L327.1 161.0 L328.9 157.8 L330.7 154.4 L332.4 150.8 L334.2 147.1 L336.0 143.1 L337.7 139.0 L339.5 134.7 L341.3 130.3 L343.0 125.6 L344.8 120.8 L346.6 115.8 L348.3 110.5 L350.1 105.1 L351.9 99.5 L353.6 93.7 L355.4 87.7 L357.2 81.5 L358.9 75.0 L360.7 68.4 L362.5 61.5 L364.2 54.5 L366.0 47.2\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.4\"/><text x=\"361\" y=\"37\" text-anchor=\"end\" font-size=\"11\" fill=\"#2D70B3\">f</text></svg></span><p>Bestäm \\(\\int_{-2}^{2}f(x)\\,dx\\) utan att först beräkna en primitiv funktion. Förklara.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För en udda funktion på ett symmetriskt intervall är areabidragen lika stora men har motsatt tecken.</p></li><li><p>Därför tar de ut varandra:</p><p>\\[\\int_{-2}^{2}f(x)\\,dx=\\boxed{0}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(0\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Udda funktion på symmetriskt intervall: bidragen tar ut varandra</p><p>\\(f(-x)=-f(x)\\): arean till vänster om origo är lika stor som till höger men med motsatt tecken.</p></li><li><p class=\"facit-rubrik\">Integralen blir 0</p><div class=\"facit-matte\">\\[\\int_{-2}^{2}(x^3-4x)\\,dx=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -46540,7 +46540,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Det är känt att</p><p>\\[\\int_0^4 f(x)\\,dx=7\\]</p><p>och</p><p>\\[\\int_4^9 f(x)\\,dx=-3.\\]</p><p>Bestäm \\(\\int_0^9 f(x)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integraler över intilliggande intervall kan adderas:</p><p>\\[\\int_0^9 f(x)\\,dx=\\int_0^4 f(x)\\,dx+\\int_4^9 f(x)\\,dx=7+(-3)=\\boxed{4}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additivitet: \\(\\int_a^b f\\,dx+\\int_b^c f\\,dx=\\int_a^c f\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_0^9f\\,dx=\\int_0^4f\\,dx+\\int_4^9f\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Sätt in värdena</p><div class=\"facit-matte\">\\[7+(-3)=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -46575,7 +46575,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Grafen till \\(f(x)=4-x^2\\) begränsar tillsammans med x-axeln ett område.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"255\" viewBox=\"0 0 390 255\" role=\"img\" aria-label=\"Skuggat område under parabeln fyra minus x kvadrat\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"79.8\" y1=\"22\" x2=\"79.8\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"79.8\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"143.4\" y1=\"22\" x2=\"143.4\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"143.4\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-1</text><line x1=\"207.0\" y1=\"22\" x2=\"207.0\" y2=\"217\" stroke=\"#F0EFF2\"/><line x1=\"270.6\" y1=\"22\" x2=\"270.6\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"270.6\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"334.2\" y1=\"22\" x2=\"334.2\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"334.2\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"217.0\" x2=\"366\" y2=\"217.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"220.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-1</text><line x1=\"48\" y1=\"184.5\" x2=\"366\" y2=\"184.5\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"152.0\" x2=\"366\" y2=\"152.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"155.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"119.5\" x2=\"366\" y2=\"119.5\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"122.5\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"87.0\" x2=\"366\" y2=\"87.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"90.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"54.5\" x2=\"366\" y2=\"54.5\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"57.5\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"22.0\" x2=\"366\" y2=\"22.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"25.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"48\" y1=\"184.5\" x2=\"366\" y2=\"184.5\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"207.0\" y1=\"22\" x2=\"207.0\" y2=\"217\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><polygon points=\"79.8,184.5 82.3,179.4 84.9,174.3 87.4,169.4 90.0,164.5 92.5,159.8 95.1,155.2 97.6,150.6 100.2,146.2 102.7,141.9 105.2,137.7 107.8,133.6 110.3,129.6 112.9,125.7 115.4,121.9 118.0,118.2 120.5,114.6 123.0,111.1 125.6,107.7 128.1,104.5 130.7,101.3 133.2,98.2 135.8,95.3 138.3,92.4 140.9,89.7 143.4,87.0 145.9,84.5 148.5,82.0 151.0,79.7 153.6,77.4 156.1,75.3 158.7,73.3 161.2,71.3 163.8,69.5 166.3,67.8 168.8,66.2 171.4,64.7 173.9,63.3 176.5,62.0 179.0,60.8 181.6,59.7 184.1,58.7 186.6,57.8 189.2,57.0 191.7,56.4 194.3,55.8 196.8,55.3 199.4,55.0 201.9,54.7 204.5,54.6 207.0,54.5 209.5,54.6 212.1,54.7 214.6,55.0 217.2,55.3 219.7,55.8 222.3,56.4 224.8,57.0 227.4,57.8 229.9,58.7 232.4,59.7 235.0,60.8 237.5,62.0 240.1,63.3 242.6,64.7 245.2,66.2 247.7,67.8 250.2,69.5 252.8,71.3 255.3,73.3 257.9,75.3 260.4,77.4 263.0,79.7 265.5,82.0 268.1,84.5 270.6,87.0 273.1,89.7 275.7,92.4 278.2,95.3 280.8,98.2 283.3,101.3 285.9,104.5 288.4,107.7 291.0,111.1 293.5,114.6 296.0,118.2 298.6,121.9 301.1,125.7 303.7,129.6 306.2,133.6 308.8,137.7 311.3,141.9 313.8,146.2 316.4,150.6 318.9,155.2 321.5,159.8 324.0,164.5 326.6,169.4 329.1,174.3 331.7,179.4 334.2,184.5 334.2,184.5 331.7,184.5 329.1,184.5 326.6,184.5 324.0,184.5 321.5,184.5 318.9,184.5 316.4,184.5 313.8,184.5 311.3,184.5 308.8,184.5 306.2,184.5 303.7,184.5 301.1,184.5 298.6,184.5 296.0,184.5 293.5,184.5 291.0,184.5 288.4,184.5 285.9,184.5 283.3,184.5 280.8,184.5 278.2,184.5 275.7,184.5 273.1,184.5 270.6,184.5 268.1,184.5 265.5,184.5 263.0,184.5 260.4,184.5 257.9,184.5 255.3,184.5 252.8,184.5 250.2,184.5 247.7,184.5 245.2,184.5 242.6,184.5 240.1,184.5 237.5,184.5 235.0,184.5 232.4,184.5 229.9,184.5 227.4,184.5 224.8,184.5 222.3,184.5 219.7,184.5 217.2,184.5 214.6,184.5 212.1,184.5 209.5,184.5 207.0,184.5 204.5,184.5 201.9,184.5 199.4,184.5 196.8,184.5 194.3,184.5 191.7,184.5 189.2,184.5 186.6,184.5 184.1,184.5 181.6,184.5 179.0,184.5 176.5,184.5 173.9,184.5 171.4,184.5 168.8,184.5 166.3,184.5 163.8,184.5 161.2,184.5 158.7,184.5 156.1,184.5 153.6,184.5 151.0,184.5 148.5,184.5 145.9,184.5 143.4,184.5 140.9,184.5 138.3,184.5 135.8,184.5 133.2,184.5 130.7,184.5 128.1,184.5 125.6,184.5 123.0,184.5 120.5,184.5 118.0,184.5 115.4,184.5 112.9,184.5 110.3,184.5 107.8,184.5 105.2,184.5 102.7,184.5 100.2,184.5 97.6,184.5 95.1,184.5 92.5,184.5 90.0,184.5 87.4,184.5 84.9,184.5 82.3,184.5 79.8,184.5\" fill=\"#E7F0FA\" fill-opacity=\"0.85\" stroke=\"none\"/><path d=\"M48.0 217.0 L49.8 217.0 L51.5 217.0 L53.3 217.0 L55.1 217.0 L56.8 217.0 L58.6 217.0 L60.4 217.0 L62.1 217.0 L63.9 217.0 L65.7 215.0 L67.4 211.0 L69.2 207.1 L71.0 203.2 L72.7 199.3 L74.5 195.6 L76.3 191.8 L78.0 188.1 L79.8 184.5 L81.6 180.9 L83.3 177.4 L85.1 173.9 L86.9 170.5 L88.6 167.1 L90.4 163.7 L92.2 160.5 L93.9 157.2 L95.7 154.0 L97.5 150.9 L99.2 147.8 L101.0 144.8 L102.8 141.8 L104.5 138.9 L106.3 136.0 L108.1 133.1 L109.8 130.4 L111.6 127.6 L113.4 124.9 L115.1 122.3 L116.9 119.7 L118.7 117.2 L120.4 114.7 L122.2 112.3 L124.0 109.9 L125.7 107.6 L127.5 105.3 L129.3 103.0 L131.0 100.9 L132.8 98.7 L134.6 96.7 L136.3 94.6 L138.1 92.6 L139.9 90.7 L141.6 88.8 L143.4 87.0 L145.2 85.2 L146.9 83.5 L148.7 81.8 L150.5 80.2 L152.2 78.6 L154.0 77.1 L155.8 75.6 L157.5 74.2 L159.3 72.8 L161.1 71.5 L162.8 70.2 L164.6 68.9 L166.4 67.8 L168.1 66.6 L169.9 65.6 L171.7 64.5 L173.4 63.6 L175.2 62.6 L177.0 61.7 L178.7 60.9 L180.5 60.1 L182.3 59.4 L184.0 58.7 L185.8 58.1 L187.6 57.5 L189.3 57.0 L191.1 56.5 L192.9 56.1 L194.6 55.7 L196.4 55.4 L198.2 55.1 L199.9 54.9 L201.7 54.7 L203.5 54.6 L205.2 54.5 L207.0 54.5 L208.8 54.5 L210.5 54.6 L212.3 54.7 L214.1 54.9 L215.8 55.1 L217.6 55.4 L219.4 55.7 L221.1 56.1 L222.9 56.5 L224.7 57.0 L226.4 57.5 L228.2 58.1 L230.0 58.7 L231.7 59.4 L233.5 60.1 L235.3 60.9 L237.0 61.7 L238.8 62.6 L240.6 63.6 L242.3 64.5 L244.1 65.6 L245.9 66.6 L247.6 67.8 L249.4 68.9 L251.2 70.2 L252.9 71.5 L254.7 72.8 L256.5 74.2 L258.2 75.6 L260.0 77.1 L261.8 78.6 L263.5 80.2 L265.3 81.8 L267.1 83.5 L268.8 85.2 L270.6 87.0 L272.4 88.8 L274.1 90.7 L275.9 92.6 L277.7 94.6 L279.4 96.7 L281.2 98.7 L283.0 100.9 L284.7 103.0 L286.5 105.3 L288.3 107.6 L290.0 109.9 L291.8 112.3 L293.6 114.7 L295.3 117.2 L297.1 119.7 L298.9 122.3 L300.6 124.9 L302.4 127.6 L304.2 130.4 L305.9 133.1 L307.7 136.0 L309.5 138.9 L311.2 141.8 L313.0 144.8 L314.8 147.8 L316.5 150.9 L318.3 154.0 L320.1 157.2 L321.8 160.5 L323.6 163.7 L325.4 167.1 L327.1 170.5 L328.9 173.9 L330.7 177.4 L332.4 180.9 L334.2 184.5 L336.0 188.1 L337.7 191.8 L339.5 195.6 L341.3 199.3 L343.0 203.2 L344.8 207.1 L346.6 211.0 L348.3 215.0 L350.1 217.0 L351.9 217.0 L353.6 217.0 L355.4 217.0 L357.2 217.0 L358.9 217.0 L360.7 217.0 L362.5 217.0 L364.2 217.0 L366.0 217.0\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.4\"/><text x=\"361\" y=\"37\" text-anchor=\"end\" font-size=\"11\" fill=\"#2D70B3\">4-x²</text></svg></span><p>Bestäm områdets area exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nollställena är \\(x=-2\\) och \\(x=2\\).</p></li><li><div class=\"facit-berakning\"><p>Arean blir</p><div class=\"facit-matte\">\\[\\int_{-2}^{2}(4-x^2)\\,dx=\\boxed{\\frac{32}{3}\\approx10{,}67}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\dfrac{32}{3}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen: \\(4-x^2=0\\)</p><div class=\"facit-matte\">\\[x=\\pm2\\]</div></li><li><p class=\"facit-rubrik\">Arean mellan nollställena</p><div class=\"facit-matte\">\\[\\int_{-2}^{2}(4-x^2)\\,dx=\\left[4x-\\frac{x^3}{3}\\right]_{-2}^{2}\\]</div><div class=\"facit-matte\">\\[=\\frac{16}{3}+\\frac{16}{3}=\\frac{32}{3}\\approx10{,}67\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{32}{3}\\)</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
@@ -47376,7 +47376,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En kostnadsmodell är</p><p>\\[K(x)=x^3-15x^2+48x+500,\\qquad 0\\le x\\le10.\\]</p><p>a) Vid vilket \\(x\\)-värde är kostnaden minst?<br>b) Bestäm den minsta kostnaden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är</p><p>\\[K^{\\prime}(x)=3x^2-30x+48=3(x-2)(x-8).\\]</p></li><li><div class=\"facit-berakning\"><p>Kandidaterna på det slutna intervallet är därför</p><div class=\"facit-matte\">\\[x=0,2,8,10\\].</div></div><p>\\[K(0)=500,\\quad K(2)=544,\\quad K(8)=436,\\quad K(10)=480.\\]</p></li><li><p>Det minsta värdet är alltså \\(436\\), och det fås vid \\(x=8\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=8}\\) och \\(\\boxed{K_{\\min}=436}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(K'(x)=0\\) med pq-formeln</p><div class=\"facit-matte\">\\[3x^2-30x+48=0\\quad\\Leftrightarrow\\quad x^2-10x+16=0\\]</div><div class=\"facit-matte\">\\[x=5\\pm\\sqrt{25-16}=5\\pm3\\quad\\Rightarrow\\quad x=2,\\ x=8\\]</div></li><li><p class=\"facit-rubrik\">Slutet intervall: jämför derivatans nollställen med ändpunkterna</p><div class=\"facit-matte\">\\[K(0)=500,\\quad K(2)=544\\]</div><div class=\"facit-matte\">\\[K(8)=436,\\quad K(10)=480\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(x=8\\), b) 436</p></div>",
     "familj": "Största och minsta värde på ett intervall",
     "geogebra": false,
     "miniräknare": true,
@@ -47860,7 +47860,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Grafen till \\(y=\\sqrt{4-x^2}\\) är en halvcirkel.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"255\" viewBox=\"0 0 390 255\" role=\"img\" aria-label=\"Övre halvan av en cirkel med radie två\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"68.7\" y1=\"22\" x2=\"68.7\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"68.7\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"137.9\" y1=\"22\" x2=\"137.9\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"137.9\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-1</text><line x1=\"207.0\" y1=\"22\" x2=\"207.0\" y2=\"217\" stroke=\"#F0EFF2\"/><line x1=\"276.1\" y1=\"22\" x2=\"276.1\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"276.1\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"345.3\" y1=\"22\" x2=\"345.3\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"345.3\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"217.0\" x2=\"366\" y2=\"217.0\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"139.0\" x2=\"366\" y2=\"139.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"142.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"61.0\" x2=\"366\" y2=\"61.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"64.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"217.0\" x2=\"366\" y2=\"217.0\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"207.0\" y1=\"22\" x2=\"207.0\" y2=\"217\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><polygon points=\"68.7,217.0 71.5,186.0 74.3,173.3 77.0,163.8 79.8,155.9 82.6,149.0 85.3,142.9 88.1,137.4 90.9,132.4 93.6,127.7 96.4,123.4 99.2,119.4 101.9,115.6 104.7,112.1 107.5,108.7 110.2,105.6 113.0,102.6 115.7,99.8 118.5,97.1 121.3,94.6 124.0,92.2 126.8,89.9 129.6,87.8 132.3,85.7 135.1,83.8 137.9,81.9 140.6,80.1 143.4,78.5 146.2,76.9 148.9,75.4 151.7,74.0 154.5,72.7 157.2,71.5 160.0,70.3 162.8,69.2 165.5,68.2 168.3,67.2 171.1,66.4 173.8,65.6 176.6,64.8 179.3,64.2 182.1,63.5 184.9,63.0 187.6,62.5 190.4,62.1 193.2,61.8 195.9,61.5 198.7,61.3 201.5,61.1 204.2,61.0 207.0,61.0 209.8,61.0 212.5,61.1 215.3,61.3 218.1,61.5 220.8,61.8 223.6,62.1 226.4,62.5 229.1,63.0 231.9,63.5 234.7,64.2 237.4,64.8 240.2,65.6 242.9,66.4 245.7,67.2 248.5,68.2 251.2,69.2 254.0,70.3 256.8,71.5 259.5,72.7 262.3,74.0 265.1,75.4 267.8,76.9 270.6,78.5 273.4,80.1 276.1,81.9 278.9,83.8 281.7,85.7 284.4,87.8 287.2,89.9 290.0,92.2 292.7,94.6 295.5,97.1 298.3,99.8 301.0,102.6 303.8,105.6 306.5,108.7 309.3,112.1 312.1,115.6 314.8,119.4 317.6,123.4 320.4,127.7 323.1,132.4 325.9,137.4 328.7,142.9 331.4,149.0 334.2,155.9 337.0,163.8 339.7,173.3 342.5,186.0 345.3,217.0 345.3,217.0 342.5,217.0 339.7,217.0 337.0,217.0 334.2,217.0 331.4,217.0 328.7,217.0 325.9,217.0 323.1,217.0 320.4,217.0 317.6,217.0 314.8,217.0 312.1,217.0 309.3,217.0 306.5,217.0 303.8,217.0 301.0,217.0 298.3,217.0 295.5,217.0 292.7,217.0 290.0,217.0 287.2,217.0 284.4,217.0 281.7,217.0 278.9,217.0 276.1,217.0 273.4,217.0 270.6,217.0 267.8,217.0 265.1,217.0 262.3,217.0 259.5,217.0 256.8,217.0 254.0,217.0 251.2,217.0 248.5,217.0 245.7,217.0 242.9,217.0 240.2,217.0 237.4,217.0 234.7,217.0 231.9,217.0 229.1,217.0 226.4,217.0 223.6,217.0 220.8,217.0 218.1,217.0 215.3,217.0 212.5,217.0 209.8,217.0 207.0,217.0 204.2,217.0 201.5,217.0 198.7,217.0 195.9,217.0 193.2,217.0 190.4,217.0 187.6,217.0 184.9,217.0 182.1,217.0 179.3,217.0 176.6,217.0 173.8,217.0 171.1,217.0 168.3,217.0 165.5,217.0 162.8,217.0 160.0,217.0 157.2,217.0 154.5,217.0 151.7,217.0 148.9,217.0 146.2,217.0 143.4,217.0 140.6,217.0 137.9,217.0 135.1,217.0 132.3,217.0 129.6,217.0 126.8,217.0 124.0,217.0 121.3,217.0 118.5,217.0 115.7,217.0 113.0,217.0 110.2,217.0 107.5,217.0 104.7,217.0 101.9,217.0 99.2,217.0 96.4,217.0 93.6,217.0 90.9,217.0 88.1,217.0 85.3,217.0 82.6,217.0 79.8,217.0 77.0,217.0 74.3,217.0 71.5,217.0 68.7,217.0\" fill=\"#E7F0FA\" fill-opacity=\"0.85\" stroke=\"none\"/><path d=\"M48.0 217.0 L49.8 217.0 L51.5 217.0 L53.3 217.0 L55.1 217.0 L56.8 217.0 L58.6 217.0 L60.4 217.0 L62.1 217.0 L63.9 217.0 L65.7 217.0 L67.4 217.0 L69.2 204.3 L71.0 189.1 L72.7 179.8 L74.5 172.4 L76.3 166.2 L78.0 160.8 L79.8 155.9 L81.6 151.4 L83.3 147.2 L85.1 143.4 L86.9 139.8 L88.6 136.4 L90.4 133.2 L92.2 130.1 L93.9 127.2 L95.7 124.4 L97.5 121.8 L99.2 119.3 L101.0 116.8 L102.8 114.5 L104.5 112.3 L106.3 110.1 L108.1 108.0 L109.8 106.0 L111.6 104.1 L113.4 102.2 L115.1 100.4 L116.9 98.7 L118.7 97.0 L120.4 95.4 L122.2 93.8 L124.0 92.3 L125.7 90.8 L127.5 89.4 L129.3 88.0 L131.0 86.7 L132.8 85.4 L134.6 84.1 L136.3 82.9 L138.1 81.8 L139.9 80.6 L141.6 79.5 L143.4 78.5 L145.2 77.5 L146.9 76.5 L148.7 75.5 L150.5 74.6 L152.2 73.8 L154.0 72.9 L155.8 72.1 L157.5 71.3 L159.3 70.6 L161.1 69.9 L162.8 69.2 L164.6 68.5 L166.4 67.9 L168.1 67.3 L169.9 66.7 L171.7 66.2 L173.4 65.7 L175.2 65.2 L177.0 64.7 L178.7 64.3 L180.5 63.9 L182.3 63.5 L184.0 63.2 L185.8 62.8 L187.6 62.5 L189.3 62.3 L191.1 62.0 L192.9 61.8 L194.6 61.6 L196.4 61.5 L198.2 61.3 L199.9 61.2 L201.7 61.1 L203.5 61.1 L205.2 61.0 L207.0 61.0 L208.8 61.0 L210.5 61.1 L212.3 61.1 L214.1 61.2 L215.8 61.3 L217.6 61.5 L219.4 61.6 L221.1 61.8 L222.9 62.0 L224.7 62.3 L226.4 62.5 L228.2 62.8 L230.0 63.2 L231.7 63.5 L233.5 63.9 L235.3 64.3 L237.0 64.7 L238.8 65.2 L240.6 65.7 L242.3 66.2 L244.1 66.7 L245.9 67.3 L247.6 67.9 L249.4 68.5 L251.2 69.2 L252.9 69.9 L254.7 70.6 L256.5 71.3 L258.2 72.1 L260.0 72.9 L261.8 73.8 L263.5 74.6 L265.3 75.5 L267.1 76.5 L268.8 77.5 L270.6 78.5 L272.4 79.5 L274.1 80.6 L275.9 81.8 L277.7 82.9 L279.4 84.1 L281.2 85.4 L283.0 86.7 L284.7 88.0 L286.5 89.4 L288.3 90.8 L290.0 92.3 L291.8 93.8 L293.6 95.4 L295.3 97.0 L297.1 98.7 L298.9 100.4 L300.6 102.2 L302.4 104.1 L304.2 106.0 L305.9 108.0 L307.7 110.1 L309.5 112.3 L311.2 114.5 L313.0 116.8 L314.8 119.3 L316.5 121.8 L318.3 124.4 L320.1 127.2 L321.8 130.1 L323.6 133.2 L325.4 136.4 L327.1 139.8 L328.9 143.4 L330.7 147.2 L332.4 151.4 L334.2 155.9 L336.0 160.8 L337.7 166.2 L339.5 172.4 L341.3 179.8 L343.0 189.1 L344.8 204.3 L346.6 217.0 L348.3 217.0 L350.1 217.0 L351.9 217.0 L353.6 217.0 L355.4 217.0 L357.2 217.0 L358.9 217.0 L360.7 217.0 L362.5 217.0 L364.2 217.0 L366.0 217.0\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.4\"/><text x=\"361\" y=\"37\" text-anchor=\"end\" font-size=\"11\" fill=\"#2D70B3\">y=√(4-x²)</text></svg></span><p>Bestäm integralen</p><p>\\[\\int_{-2}^{2}\\sqrt{4-x^2}\\,dx\\]</p><p>utan att använda någon primitiv funktion.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralen motsvarar arean av en halvcirkel med radien 2.</p><p>\\[A=\\frac12\\pi r^2=\\frac12\\pi\\cdot4=\\boxed{2\\pi}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2\\pi \\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(y=\\sqrt{4-x^2}\\) är övre halvan av cirkeln \\(x^2+y^2=4\\)</p><p>Radien är 2.</p></li><li><p class=\"facit-rubrik\">Halvcirkelns area: \\(\\tfrac12\\pi r^2\\) med \\(r=2\\)</p><div class=\"facit-matte\">\\[\\frac12\\pi r^2=\\frac12\\pi\\cdot4=2\\pi\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\pi\\)</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -48262,7 +48262,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Grafen till en icke-negativ funktion består av räta linjesegment genom punkterna \\((0,0)\\), \\((2,4)\\) och \\((5,4)\\).</p><p>Bestäm</p><p>\\[\\int_0^5 f(x)\\,dx\\]</p><p>utan att först bestämma ett funktionsuttryck.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralen är arean under grafen.</p></li><li><p>Från \\(x=0\\) till \\(x=2\\) fås en triangel med area</p><p>\\[\\frac{2\\cdot4}{2}=4.\\]</p></li><li><p>Från \\(x=2\\) till \\(x=5\\) fås en rektangel med area</p><p>\\[3\\cdot4=12.\\]</p></li><li><div class=\"facit-berakning\"><p>Totalt blir integralen</p><div class=\"facit-matte\">\\[4+12=\\boxed{16}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(16\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Triangel från 0 till 2</p><div class=\"facit-matte\">\\[\\frac{2\\cdot4}{2}=4\\]</div></li><li><p class=\"facit-rubrik\">Rektangel från 2 till 5</p><div class=\"facit-matte\">\\[3\\cdot4=12\\]</div></li><li><p class=\"facit-rubrik\">Integralen är den sammanlagda arean</p><div class=\"facit-matte\">\\[\\int_0^5f(x)\\,dx=4+12=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -48297,7 +48297,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion \\(f\\) gäller att \\(f(x)\\ge0\\) när \\(0\\le x\\le2\\) och \\(f(x)\\le0\\) när \\(2\\le x\\le5\\).</p><p>Dessutom är</p><p>\\[\\int_0^2 f(x)\\,dx=5\\qquad\\text{och}\\qquad\\int_2^5 f(x)\\,dx=-3.\\]</p><p>a) Bestäm \\(\\int_0^5 f(x)\\,dx\\).<br>b) Bestäm den geometriska arean mellan grafen och x-axeln för \\(0\\le x\\le5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralvärdena adderas med sina tecken:</p><p>\\[\\int_0^5f(x)\\,dx=5+(-3)=\\boxed{2}.\\]</p></li><li><p>Geometrisk area räknas alltid positivt.</p></li><li><p>Området under x-axeln bidrar därför med \\(3\\), inte \\(-3\\):</p><p>\\[A=5+3=\\boxed{8}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: a) \\(2\\), b) \\(8\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Integralen räknar delar under x-axeln negativt</p><div class=\"facit-matte\">\\[\\int_0^5f\\,dx=5+(-3)=2\\]</div></li><li><p class=\"facit-rubrik\">b) Geometrisk area räknar alla delar positivt</p><div class=\"facit-matte\">\\[A=5+3=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 2, b) 8</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -48431,7 +48431,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Det är känt att</p><p>\\[\\int_1^5 f(x)\\,dx=8.\\]</p><p>Bestäm \\(\\int_5^1 f(x)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När integrationsgränserna byter plats byter integralen tecken:</p><p>\\[\\int_5^1 f(x)\\,dx=-\\int_1^5 f(x)\\,dx=\\boxed{-8}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-8\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Byt plats på gränserna: \\(\\int_b^a f\\,dx=-\\int_a^b f\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_5^1f\\,dx=-\\int_1^5f\\,dx=-8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-8\\)</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -48465,7 +48465,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en kontinuerlig funktion \\(f\\) gäller</p><p>\\[\\int_0^2f(x)\\,dx=3\\qquad\\text{och}\\qquad\\int_0^2(2f(x)+1)\\,dx=K.\\]</p><p>Bestäm \\(K\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralens linearitet ger</p><p>\\[K=2\\int_0^2f(x)\\,dx+\\int_0^2 1\\,dx=2\\cdot3+2=\\boxed{8}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(8\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Linearitet: \\(\\int(af+bg)\\,dx=a\\int f\\,dx+b\\int g\\,dx\\)</p><div class=\"facit-matte\">\\[K=2\\int_0^2f\\,dx+\\int_0^21\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Sätt in värdena</p><div class=\"facit-matte\">\\[K=2\\cdot3+2=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -48500,7 +48500,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Grafen visar \\(f(x)=x^3-4x\\) för \\(-2\\le x\\le2\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"255\" viewBox=\"0 0 390 255\" role=\"img\" aria-label=\"Kubikfunktion med positiva och negativa areabidrag\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"62.5\" y1=\"22\" x2=\"62.5\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"62.5\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"134.7\" y1=\"22\" x2=\"134.7\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"134.7\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-1</text><line x1=\"207.0\" y1=\"22\" x2=\"207.0\" y2=\"217\" stroke=\"#F0EFF2\"/><line x1=\"279.3\" y1=\"22\" x2=\"279.3\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"279.3\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"351.5\" y1=\"22\" x2=\"351.5\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"351.5\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"217.0\" x2=\"366\" y2=\"217.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"220.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-4</text><line x1=\"48\" y1=\"168.2\" x2=\"366\" y2=\"168.2\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"171.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"48\" y1=\"119.5\" x2=\"366\" y2=\"119.5\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"70.8\" x2=\"366\" y2=\"70.8\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"73.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"22.0\" x2=\"366\" y2=\"22.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"25.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"119.5\" x2=\"366\" y2=\"119.5\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"207.0\" y1=\"22\" x2=\"207.0\" y2=\"217\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M48.0 164.5 L49.8 158.4 L51.5 152.4 L53.3 146.6 L55.1 141.0 L56.8 135.6 L58.6 130.3 L60.4 125.3 L62.1 120.4 L63.9 115.7 L65.7 111.1 L67.4 106.8 L69.2 102.6 L71.0 98.5 L72.7 94.7 L74.5 90.9 L76.3 87.4 L78.0 84.0 L79.8 80.8 L81.6 77.7 L83.3 74.8 L85.1 72.0 L86.9 69.4 L88.6 66.9 L90.4 64.6 L92.2 62.4 L93.9 60.3 L95.7 58.4 L97.5 56.6 L99.2 54.9 L101.0 53.4 L102.8 52.0 L104.5 50.7 L106.3 49.6 L108.1 48.6 L109.8 47.7 L111.6 46.9 L113.4 46.2 L115.1 45.6 L116.9 45.2 L118.7 44.8 L120.4 44.6 L122.2 44.5 L124.0 44.4 L125.7 44.5 L127.5 44.7 L129.3 45.0 L131.0 45.3 L132.8 45.8 L134.6 46.3 L136.3 47.0 L138.1 47.7 L139.9 48.5 L141.6 49.4 L143.4 50.3 L145.2 51.3 L146.9 52.5 L148.7 53.6 L150.5 54.9 L152.2 56.2 L154.0 57.6 L155.8 59.1 L157.5 60.6 L159.3 62.2 L161.1 63.8 L162.8 65.5 L164.6 67.2 L166.4 69.0 L168.1 70.9 L169.9 72.7 L171.7 74.7 L173.4 76.7 L175.2 78.7 L177.0 80.7 L178.7 82.8 L180.5 85.0 L182.3 87.1 L184.0 89.3 L185.8 91.5 L187.6 93.8 L189.3 96.0 L191.1 98.3 L192.9 100.6 L194.6 102.9 L196.4 105.3 L198.2 107.6 L199.9 110.0 L201.7 112.4 L203.5 114.7 L205.2 117.1 L207.0 119.5 L208.8 121.9 L210.5 124.3 L212.3 126.6 L214.1 129.0 L215.8 131.4 L217.6 133.7 L219.4 136.1 L221.1 138.4 L222.9 140.7 L224.7 143.0 L226.4 145.2 L228.2 147.5 L230.0 149.7 L231.7 151.9 L233.5 154.0 L235.3 156.2 L237.0 158.3 L238.8 160.3 L240.6 162.3 L242.3 164.3 L244.1 166.3 L245.9 168.1 L247.6 170.0 L249.4 171.8 L251.2 173.5 L252.9 175.2 L254.7 176.8 L256.5 178.4 L258.2 179.9 L260.0 181.4 L261.8 182.8 L263.5 184.1 L265.3 185.4 L267.1 186.5 L268.8 187.7 L270.6 188.7 L272.4 189.6 L274.1 190.5 L275.9 191.3 L277.7 192.0 L279.4 192.7 L281.2 193.2 L283.0 193.7 L284.7 194.0 L286.5 194.3 L288.3 194.5 L290.0 194.6 L291.8 194.5 L293.6 194.4 L295.3 194.2 L297.1 193.8 L298.9 193.4 L300.6 192.8 L302.4 192.1 L304.2 191.3 L305.9 190.4 L307.7 189.4 L309.5 188.3 L311.2 187.0 L313.0 185.6 L314.8 184.1 L316.5 182.4 L318.3 180.6 L320.1 178.7 L321.8 176.6 L323.6 174.4 L325.4 172.1 L327.1 169.6 L328.9 167.0 L330.7 164.2 L332.4 161.3 L334.2 158.2 L336.0 155.0 L337.7 151.6 L339.5 148.1 L341.3 144.3 L343.0 140.5 L344.8 136.4 L346.6 132.2 L348.3 127.9 L350.1 123.3 L351.9 118.6 L353.6 113.7 L355.4 108.7 L357.2 103.4 L358.9 98.0 L360.7 92.4 L362.5 86.6 L364.2 80.6 L366.0 74.5\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.4\"/><text x=\"361\" y=\"37\" text-anchor=\"end\" font-size=\"11\" fill=\"#2D70B3\">f</text></svg></span><p>Bestäm både \\(\\int_{-2}^{2}f(x)\\,dx\\) och den geometriska arean mellan grafen och x-axeln. Förklara varför svaren skiljer sig.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen är udda, så integralvärdet över det symmetriska intervallet är \\(0\\).</p></li><li><p>Nollställena är \\(-2,0,2\\).</p></li><li><p>Den geometriska arean blir</p><p>\\[2\\int_0^2(4x-x^3)\\,dx=2[2x^2-x^4/4]_0^2=\\boxed{8}.\\]</p></li><li><p>Skillnaden beror på att en bestämd integral räknar arean under x-axeln negativt, medan geometrisk area alltid är positiv.</p></li></ol><p class=\"facit-svar\"><strong>Svar: integralen är \\(0\\) och arean är \\(8\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Udda funktion på symmetriskt intervall: bidragen tar ut varandra</p><div class=\"facit-matte\">\\[\\int_{-2}^{2}(x^3-4x)\\,dx=0\\]</div></li><li><p class=\"facit-rubrik\">Geometrisk area: dela vid nollställena \\(-2,\\ 0,\\ 2\\)</p><div class=\"facit-matte\">\\[A=2\\int_0^2(4x-x^3)\\,dx\\]</div><p>Mellan 0 och 2 ligger grafen under x-axeln, så tecknet byts. Delarna är lika stora av symmetri.</p></li><li><p class=\"facit-rubrik\">Beräkna delen 0–2</p><div class=\"facit-matte\">\\[2\\left[2x^2-\\frac{x^4}{4}\\right]_0^2=2(8-4)=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> integralen är 0 och arean är 8</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -48580,7 +48580,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f\\) är jämn, alltså gäller \\(f(-x)=f(x)\\). Det är känt att</p><p>\\[\\int_0^3 f(x)\\,dx=4{,}5.\\]</p><p>Bestäm \\(\\int_{-3}^{3}f(x)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För en jämn funktion är bidragen på vänster och höger sida om y-axeln lika stora.</p></li><li><p>Därför</p><p>\\[\\int_{-3}^{3}f(x)\\,dx=2\\int_0^3f(x)\\,dx=2\\cdot4{,}5=\\boxed{9}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(9\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämn funktion: \\(\\int_{-a}^{a}f\\,dx=2\\int_0^af\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_{-3}^{3}f\\,dx=2\\cdot4{,}5=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -49466,7 +49466,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm integralens värde utan att använda en primitiv funktion. Använd geometrin i figuren:</p><p>\\[\\int_0^4(4-x)\\,dx\\]</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"255\" viewBox=\"0 0 390 255\" role=\"img\" aria-label=\"Graf till fyra minus x mellan 0 och 4\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"217\" stroke=\"#F0EFF2\"/><line x1=\"122.0\" y1=\"22\" x2=\"122.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"122.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"195.9\" y1=\"22\" x2=\"195.9\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"195.9\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"269.9\" y1=\"22\" x2=\"269.9\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"269.9\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"343.8\" y1=\"22\" x2=\"343.8\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"343.8\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"217.0\" x2=\"366\" y2=\"217.0\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"178.0\" x2=\"366\" y2=\"178.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"181.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"139.0\" x2=\"366\" y2=\"139.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"142.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"100.0\" x2=\"366\" y2=\"100.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"103.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"61.0\" x2=\"366\" y2=\"61.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"64.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"22.0\" x2=\"366\" y2=\"22.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"25.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"48\" y1=\"217.0\" x2=\"366\" y2=\"217.0\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"217\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M48.0 61.0 L49.8 61.9 L51.5 62.9 L53.3 63.8 L55.1 64.7 L56.8 65.7 L58.6 66.6 L60.4 67.5 L62.1 68.5 L63.9 69.4 L65.7 70.3 L67.4 71.2 L69.2 72.2 L71.0 73.1 L72.7 74.0 L74.5 75.0 L76.3 75.9 L78.0 76.8 L79.8 77.8 L81.6 78.7 L83.3 79.6 L85.1 80.6 L86.9 81.5 L88.6 82.4 L90.4 83.4 L92.2 84.3 L93.9 85.2 L95.7 86.2 L97.5 87.1 L99.2 88.0 L101.0 89.0 L102.8 89.9 L104.5 90.8 L106.3 91.7 L108.1 92.7 L109.8 93.6 L111.6 94.5 L113.4 95.5 L115.1 96.4 L116.9 97.3 L118.7 98.3 L120.4 99.2 L122.2 100.1 L124.0 101.1 L125.7 102.0 L127.5 102.9 L129.3 103.9 L131.0 104.8 L132.8 105.7 L134.6 106.7 L136.3 107.6 L138.1 108.5 L139.9 109.4 L141.6 110.4 L143.4 111.3 L145.2 112.2 L146.9 113.2 L148.7 114.1 L150.5 115.0 L152.2 116.0 L154.0 116.9 L155.8 117.8 L157.5 118.8 L159.3 119.7 L161.1 120.6 L162.8 121.6 L164.6 122.5 L166.4 123.4 L168.1 124.4 L169.9 125.3 L171.7 126.2 L173.4 127.1 L175.2 128.1 L177.0 129.0 L178.7 129.9 L180.5 130.9 L182.3 131.8 L184.0 132.7 L185.8 133.7 L187.6 134.6 L189.3 135.5 L191.1 136.5 L192.9 137.4 L194.6 138.3 L196.4 139.3 L198.2 140.2 L199.9 141.1 L201.7 142.1 L203.5 143.0 L205.2 143.9 L207.0 144.8 L208.8 145.8 L210.5 146.7 L212.3 147.6 L214.1 148.6 L215.8 149.5 L217.6 150.4 L219.4 151.4 L221.1 152.3 L222.9 153.2 L224.7 154.2 L226.4 155.1 L228.2 156.0 L230.0 157.0 L231.7 157.9 L233.5 158.8 L235.3 159.8 L237.0 160.7 L238.8 161.6 L240.6 162.6 L242.3 163.5 L244.1 164.4 L245.9 165.3 L247.6 166.3 L249.4 167.2 L251.2 168.1 L252.9 169.1 L254.7 170.0 L256.5 170.9 L258.2 171.9 L260.0 172.8 L261.8 173.7 L263.5 174.7 L265.3 175.6 L267.1 176.5 L268.8 177.5 L270.6 178.4 L272.4 179.3 L274.1 180.3 L275.9 181.2 L277.7 182.1 L279.4 183.0 L281.2 184.0 L283.0 184.9 L284.7 185.8 L286.5 186.8 L288.3 187.7 L290.0 188.6 L291.8 189.6 L293.6 190.5 L295.3 191.4 L297.1 192.4 L298.9 193.3 L300.6 194.2 L302.4 195.2 L304.2 196.1 L305.9 197.0 L307.7 198.0 L309.5 198.9 L311.2 199.8 L313.0 200.8 L314.8 201.7 L316.5 202.6 L318.3 203.5 L320.1 204.5 L321.8 205.4 L323.6 206.3 L325.4 207.3 L327.1 208.2 L328.9 209.1 L330.7 210.1 L332.4 211.0 L334.2 211.9 L336.0 212.9 L337.7 213.8 L339.5 214.7 L341.3 215.7 L343.0 216.6 L344.8 217.0 L346.6 217.0 L348.3 217.0 L350.1 217.0 L351.9 217.0 L353.6 217.0 L355.4 217.0 L357.2 217.0 L358.9 217.0 L360.7 217.0 L362.5 217.0 L364.2 217.0 L366.0 217.0\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.4\"/><line x1=\"48.0\" y1=\"26\" x2=\"48.0\" y2=\"217\" stroke=\"#8A858C\" stroke-dasharray=\"4 4\"/><text x=\"48.0\" y=\"35\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">0</text><line x1=\"343.8\" y1=\"26\" x2=\"343.8\" y2=\"217\" stroke=\"#8A858C\" stroke-dasharray=\"4 4\"/><text x=\"343.8\" y=\"35\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><text x=\"361\" y=\"37\" text-anchor=\"end\" font-size=\"11\" fill=\"#2D70B3\">4-x</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen och x-axeln bildar en triangel med bas 4 och höjd 4.</p><p>\\[\\int_0^4(4-x)\\,dx=\\frac{4\\cdot4}{2}=\\boxed{8}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(8\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Triangel med bas 4 och höjd 4</p><p>Linjen \\(4-x\\) går från 4 vid \\(x=0\\) till 0 vid \\(x=4\\).</p></li><li><p class=\"facit-rubrik\">Triangelns area: bas · höjd / 2</p><div class=\"facit-matte\">\\[\\int_0^4(4-x)\\,dx=\\frac{4\\cdot4}{2}=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -50895,7 +50895,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Styckvis linjär graf\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#F0EFF2\"/><line x1=\"106.9\" y1=\"18\" x2=\"106.9\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"106.9\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"165.8\" y1=\"18\" x2=\"165.8\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"165.8\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"224.7\" y1=\"18\" x2=\"224.7\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"224.7\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"283.6\" y1=\"18\" x2=\"283.6\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"283.6\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"342.5\" y1=\"18\" x2=\"342.5\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"342.5\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"188.1\" x2=\"372\" y2=\"188.1\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"191.1\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">0.5</text><line x1=\"48\" y1=\"169.2\" x2=\"372\" y2=\"169.2\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"172.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"150.3\" x2=\"372\" y2=\"150.3\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"153.3\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1.5</text><line x1=\"48\" y1=\"131.4\" x2=\"372\" y2=\"131.4\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"134.4\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"112.5\" x2=\"372\" y2=\"112.5\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"115.5\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2.5</text><line x1=\"48\" y1=\"93.6\" x2=\"372\" y2=\"93.6\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"96.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"74.7\" x2=\"372\" y2=\"74.7\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"77.7\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3.5</text><line x1=\"48\" y1=\"55.8\" x2=\"372\" y2=\"55.8\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"58.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"36.9\" x2=\"372\" y2=\"36.9\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"39.9\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4.5</text><line x1=\"48\" y1=\"18.0\" x2=\"372\" y2=\"18.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"21.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M 48.0 207.0 L 165.8 55.8 L 342.5 55.8\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.6\"/><text x=\"378\" y=\"223.0\" text-anchor=\"end\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"56.0\" y=\"13\" font-size=\"11\" fill=\"#2B2527\">y</text></svg></span><p>Grafen visar en icke-negativ funktion \\(f\\). Bestäm \\(\\int_0^5 f(x)\\,dx\\) genom att tolka integralen som area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från \\(x=0\\) till \\(x=2\\) bildas en triangel med area \\(\\frac12\\cdot2\\cdot4=4\\).</p></li><li><p>Från \\(x=2\\) till \\(x=5\\) bildas en rektangel med area \\(3\\cdot4=12\\).</p></li><li><div class=\"facit-berakning\"><p>Totalt:</p><div class=\"facit-matte\">\\[4+12=16\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Triangel från 0 till 2 (höjd 4)</p><div class=\"facit-matte\">\\[\\frac12\\cdot2\\cdot4=4\\]</div></li><li><p class=\"facit-rubrik\">Rektangel från 2 till 5</p><div class=\"facit-matte\">\\[3\\cdot4=12\\]</div></li><li><p class=\"facit-rubrik\">Integralen är den sammanlagda arean</p><div class=\"facit-matte\">\\[4+12=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -51267,7 +51267,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Arean av ett rektangulärt område beskrivs av \\(A(x)=-x^2+24x\\) m² för \\(0\\le x\\le24\\).</p><p>För vilket värde på \\(x\\) är arean störst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A'(x)=-2x+24.\\]</p></li><li><div class=\"facit-berakning\"><p>Maximum fås när</p><div class=\"facit-matte\">\\[A'(x)=0\\]:</div></div><p>\\[-2x+24=0\\Rightarrow x=12.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=12\\) m.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=-2x+24=0\\quad\\Rightarrow\\quad x=12\\]</div></li><li><p class=\"facit-rubrik\">\\(A'\\) går från + till −</p><p>Arean är störst när x = 12 m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=12\\) m</p></div>",
     "familj": "Största och minsta värde på ett intervall",
     "geogebra": false,
     "miniräknare": false,
@@ -51983,7 +51983,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Beräkna utan digitalt verktyg</p><p>\\[\\int_{-2}^{2}\\sqrt{4-x^2}\\,dx.\\]</p><p>Tolka integralen geometriskt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen \\(y=\\sqrt{4-x^2}\\) är den övre halvan av cirkeln \\(x^2+y^2=4\\), alltså en halvcirkel med radie 2.</p></li><li><p>Integralen är därför halvcirkelns area:</p><p>\\[\\frac{\\pi\\cdot2^2}{2}=\\boxed{2\\pi}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2\\pi \\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera: \\(y^2=4-x^2\\), alltså \\(x^2+y^2=4\\)</p><p>Grafen är den övre halvan av en cirkel med radien 2.</p></li><li><p class=\"facit-rubrik\">Halvcirkelns area med radien 2</p><div class=\"facit-matte\">\\[\\frac{\\pi\\cdot2^2}{2}=2\\pi\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\pi\\)</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
@@ -52122,7 +52122,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Du vet att</p><p>\\[\\int_0^2\\frac{1}{x^2+1}\\,dx\\approx1{,}107.\\]</p><p>Bestäm utan en ny digital beräkning</p><p>\\[\\int_{-2}^{2}\\frac{1}{x^2+1}\\,dx.\\]</p><p>Svara med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen \\(1/(x^2+1)\\) är jämn, så arean från \\(-2\\) till 0 är lika stor som arean från 0 till 2.</p><p>\\[\\int_{-2}^{2}\\frac{1}{x^2+1}\\,dx=2\\int_0^2\\frac{1}{x^2+1}\\,dx\\approx2\\cdot1{,}107=\\boxed{2{,}214}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2{,}214\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\tfrac1{x^2+1}\\) är jämn</p><p>Att byta x mot −x ger samma värde.</p></li><li><p class=\"facit-rubrik\">Jämn funktion: \\(\\int_{-a}^{a}f\\,dx=2\\int_0^af\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_{-2}^{2}\\frac1{x^2+1}\\,dx=2\\cdot1{,}107=2{,}214\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,214</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -53328,7 +53328,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Beräkna utan att först bestämma en primitiv funktion:</p><p>\\[\\int_{-1}^{1}4x^3\\,dx.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen \\(4x^3\\) är udda.</p></li><li><p>På ett symmetriskt intervall tar arean ovanför x-axeln och arean under x-axeln ut varandra.</p><p>\\[\\int_{-1}^{1}4x^3\\,dx=0.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(4x^3\\) är udda</p><p>\\(4(-x)^3=-4x^3\\).</p></li><li><p class=\"facit-rubrik\">Udda funktion på symmetriskt intervall: bidragen tar ut varandra</p><div class=\"facit-matte\">\\[\\int_{-1}^{1}4x^3\\,dx=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -53661,7 +53661,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en deriverbar funktion gäller</p><p>\\[f'(x)=-(x+1)(x-2).\\]</p><p>Var är \\(f\\) växande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mellan nollställena \\(-1\\) och \\(2\\) är \\((x+1)(x-2)\\) negativ.</p></li><li><p>Minustecknet framför gör därför \\(f'(x)\\) positiv där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\lt x\\lt2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=-(x+1)(x-2)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -1 &  & 2 & \\\\ \\hline f'(x) & - & 0 & + & 0 & -\\\\ f(x) & \\searrow & \\text{min} & \\nearrow & \\text{max} & \\searrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Växande där \\(f'\\gt0\\)</p><div class=\"facit-matte\">\\[-1\\lt x\\lt2\\]</div><p>Minustecknet gör derivatan positiv mellan nollställena.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\lt x\\lt2\\)</p></div>",
     "familj": "Växande och avtagande",
     "geogebra": false,
     "miniräknare": true,
@@ -53684,7 +53684,27 @@ window.BANKMATO1 = [
       "Bestämma växande och avtagande med derivata",
       "Deriverbarhet"
     ],
-    "alternativ": [{"txt": "\\(-1\\lt x\\lt2\\)", "ratt": true}, {"txt": "\\(x\\lt-1\\)", "ratt": false}, {"txt": "\\(x\\gt2\\)", "ratt": false}, {"txt": "\\(x\\lt-1\\) eller \\(x\\gt2\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(-1\\lt x\\lt2\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(x\\lt-1\\)",
+        "ratt": false,
+        "kommentar": "För \\(x\\lt-1\\) är derivatan negativ, så f avtar där."
+      },
+      {
+        "txt": "\\(x\\gt2\\)",
+        "ratt": false,
+        "kommentar": "För \\(x\\gt2\\) är derivatan negativ, så f avtar där."
+      },
+      {
+        "txt": "\\(x\\lt-1\\) eller \\(x\\gt2\\)",
+        "ratt": false,
+        "kommentar": "Det skulle gälla utan minustecknet framför produkten."
+      }
+    ]
   },
   {
     "id": "3.637",
@@ -53899,7 +53919,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Graf för areaberäkning\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#F0EFF2\"/><line x1=\"84.0\" y1=\"18\" x2=\"84.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"84.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">0.5</text><line x1=\"120.0\" y1=\"18\" x2=\"120.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"120.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"156.0\" y1=\"18\" x2=\"156.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"156.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1.5</text><line x1=\"192.0\" y1=\"18\" x2=\"192.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"192.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"228.0\" y1=\"18\" x2=\"228.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"228.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2.5</text><line x1=\"264.0\" y1=\"18\" x2=\"264.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"264.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"300.0\" y1=\"18\" x2=\"300.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"300.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3.5</text><line x1=\"336.0\" y1=\"18\" x2=\"336.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"336.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"372.0\" y1=\"18\" x2=\"372.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"372.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4.5</text><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"183.4\" x2=\"372\" y2=\"183.4\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"186.4\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">0.5</text><line x1=\"48\" y1=\"159.8\" x2=\"372\" y2=\"159.8\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"162.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"136.1\" x2=\"372\" y2=\"136.1\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"139.1\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1.5</text><line x1=\"48\" y1=\"112.5\" x2=\"372\" y2=\"112.5\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"115.5\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"88.9\" x2=\"372\" y2=\"88.9\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"91.9\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2.5</text><line x1=\"48\" y1=\"65.2\" x2=\"372\" y2=\"65.2\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"68.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"41.6\" x2=\"372\" y2=\"41.6\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"44.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3.5</text><line x1=\"48\" y1=\"18.0\" x2=\"372\" y2=\"18.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"21.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M 48.0 159.8 L 192.0 65.2 L 336.0 65.2\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.6\"/><text x=\"378\" y=\"223.0\" text-anchor=\"end\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"56.0\" y=\"13\" font-size=\"11\" fill=\"#2B2527\">y</text></svg></span><p>Grafen visar en funktion \\(f\\). Bestäm \\(\\int_0^4 f(x)\\,dx\\) genom geometrisk area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Från 0 till 2 bildas en trapets med area</p><div class=\"facit-matte\">\\[\\frac{1+3}{2}\\cdot2=4\\].</div></div></li><li><p>Från 2 till 4 bildas en rektangel med area 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parallelltrapets från 0 till 2 (sidorna 1 och 3)</p><div class=\"facit-matte\">\\[\\frac{1+3}{2}\\cdot2=4\\]</div></li><li><p class=\"facit-rubrik\">Rektangel från 2 till 4 (höjd 3)</p><div class=\"facit-matte\">\\[2\\cdot3=6\\]</div></li><li><p class=\"facit-rubrik\">Integralen är den sammanlagda arean</p><div class=\"facit-matte\">\\[4+6=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -53968,7 +53988,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Graf till derivatan\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"48.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-4</text><line x1=\"94.3\" y1=\"18\" x2=\"94.3\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"94.3\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-3</text><line x1=\"140.6\" y1=\"18\" x2=\"140.6\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"140.6\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"186.9\" y1=\"18\" x2=\"186.9\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"186.9\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-1</text><line x1=\"233.1\" y1=\"18\" x2=\"233.1\" y2=\"207\" stroke=\"#F0EFF2\"/><line x1=\"279.4\" y1=\"18\" x2=\"279.4\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"279.4\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"325.7\" y1=\"18\" x2=\"325.7\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"325.7\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"372.0\" y1=\"18\" x2=\"372.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"372.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"194.4\" x2=\"372\" y2=\"194.4\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"197.4\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-4</text><line x1=\"48\" y1=\"169.2\" x2=\"372\" y2=\"169.2\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"172.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"48\" y1=\"144.0\" x2=\"372\" y2=\"144.0\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"118.8\" x2=\"372\" y2=\"118.8\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"121.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"93.6\" x2=\"372\" y2=\"93.6\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"96.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"68.4\" x2=\"372\" y2=\"68.4\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"71.4\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"48\" y1=\"43.2\" x2=\"372\" y2=\"43.2\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"46.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">8</text><line x1=\"48\" y1=\"18.0\" x2=\"372\" y2=\"18.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"21.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">10</text><line x1=\"233.1\" y1=\"18\" x2=\"233.1\" y2=\"207\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48\" y1=\"144.0\" x2=\"372\" y2=\"144.0\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M 48.0 270.0 L 49.4 267.4 L 50.7 264.9 L 52.0 262.4 L 53.4 259.9 L 54.8 257.4 L 56.1 255.0 L 57.4 252.5 L 58.8 250.1 L 60.2 247.7 L 61.5 245.3 L 62.9 243.0 L 64.2 240.7 L 65.5 238.4 L 66.9 236.1 L 68.2 233.8 L 69.6 231.6 L 71.0 229.4 L 72.3 227.2 L 73.7 225.0 L 75.0 222.8 L 76.3 220.7 L 77.7 218.6 L 79.0 216.5 L 80.4 214.4 L 81.8 212.4 L 83.1 210.4 L 84.5 208.4 L 85.8 206.4 L 87.2 204.4 L 88.5 202.5 L 89.8 200.6 L 91.2 198.7 L 92.5 196.8 L 93.9 194.9 L 95.2 193.1 L 96.6 191.3 L 97.9 189.5 L 99.3 187.7 L 100.7 186.0 L 102.0 184.2 L 103.3 182.5 L 104.7 180.9 L 106.0 179.2 L 107.4 177.6 L 108.8 175.9 L 110.1 174.3 L 111.5 172.8 L 112.8 171.2 L 114.2 169.7 L 115.5 168.2 L 116.8 166.7 L 118.2 165.2 L 119.6 163.8 L 120.9 162.3 L 122.3 160.9 L 123.6 159.6 L 125.0 158.2 L 126.3 156.9 L 127.6 155.5 L 129.0 154.2 L 130.4 153.0 L 131.7 151.7 L 133.1 150.5 L 134.4 149.3 L 135.8 148.1 L 137.1 146.9 L 138.4 145.8 L 139.8 144.6 L 141.2 143.5 L 142.5 142.4 L 143.8 141.4 L 145.2 140.3 L 146.6 139.3 L 147.9 138.3 L 149.2 137.4 L 150.6 136.4 L 151.9 135.5 L 153.3 134.6 L 154.7 133.7 L 156.0 132.8 L 157.3 132.0 L 158.7 131.1 L 160.1 130.3 L 161.4 129.5 L 162.8 128.8 L 164.1 128.0 L 165.4 127.3 L 166.8 126.6 L 168.1 126.0 L 169.5 125.3 L 170.9 124.7 L 172.2 124.1 L 173.6 123.5 L 174.9 122.9 L 176.2 122.3 L 177.6 121.8 L 178.9 121.3 L 180.3 120.8 L 181.7 120.4 L 183.0 119.9 L 184.3 119.5 L 185.7 119.1 L 187.1 118.7 L 188.4 118.4 L 189.8 118.1 L 191.1 117.8 L 192.4 117.5 L 193.8 117.2 L 195.2 116.9 L 196.5 116.7 L 197.8 116.5 L 199.2 116.3 L 200.6 116.2 L 201.9 116.0 L 203.2 115.9 L 204.6 115.8 L 205.9 115.7 L 207.3 115.7 L 208.6 115.7 L 210.0 115.7 L 211.3 115.7 L 212.7 115.7 L 214.0 115.7 L 215.4 115.8 L 216.8 115.9 L 218.1 116.0 L 219.4 116.2 L 220.8 116.3 L 222.2 116.5 L 223.5 116.7 L 224.8 116.9 L 226.2 117.2 L 227.6 117.5 L 228.9 117.8 L 230.2 118.1 L 231.6 118.4 L 232.9 118.7 L 234.3 119.1 L 235.6 119.5 L 237.0 119.9 L 238.3 120.4 L 239.7 120.8 L 241.1 121.3 L 242.4 121.8 L 243.8 122.3 L 245.1 122.9 L 246.4 123.5 L 247.8 124.1 L 249.2 124.7 L 250.5 125.3 L 251.8 126.0 L 253.2 126.6 L 254.6 127.3 L 255.9 128.0 L 257.2 128.8 L 258.6 129.5 L 259.9 130.3 L 261.3 131.1 L 262.6 132.0 L 264.0 132.8 L 265.4 133.7 L 266.7 134.6 L 268.0 135.5 L 269.4 136.4 L 270.8 137.4 L 272.1 138.3 L 273.5 139.3 L 274.8 140.3 L 276.1 141.4 L 277.5 142.4 L 278.9 143.5 L 280.2 144.6 L 281.6 145.8 L 282.9 146.9 L 284.2 148.1 L 285.6 149.3 L 286.9 150.5 L 288.3 151.7 L 289.6 153.0 L 291.0 154.2 L 292.4 155.5 L 293.7 156.9 L 295.1 158.2 L 296.4 159.6 L 297.8 160.9 L 299.1 162.3 L 300.4 163.8 L 301.8 165.2 L 303.1 166.7 L 304.5 168.2 L 305.9 169.7 L 307.2 171.2 L 308.5 172.8 L 309.9 174.3 L 311.2 175.9 L 312.6 177.6 L 314.0 179.2 L 315.3 180.9 L 316.6 182.5 L 318.0 184.2 L 319.4 186.0 L 320.7 187.7 L 322.1 189.5 L 323.4 191.3 L 324.8 193.1 L 326.1 194.9 L 327.4 196.8 L 328.8 198.7 L 330.1 200.6 L 331.5 202.5 L 332.9 204.4 L 334.2 206.4 L 335.6 208.4 L 336.9 210.4 L 338.2 212.4 L 339.6 214.4 L 340.9 216.5 L 342.3 218.6 L 343.6 220.7 L 345.0 222.8 L 346.4 225.0 L 347.7 227.2 L 349.0 229.4 L 350.4 231.6 L 351.8 233.8 L 353.1 236.1 L 354.5 238.4 L 355.8 240.7 L 357.1 243.0 L 358.5 245.3 L 359.9 247.7 L 361.2 250.1 L 362.6 252.5 L 363.9 255.0 L 365.2 257.4 L 366.6 259.9 L 367.9 262.4 L 369.3 264.9 L 370.6 267.4 L 372.0 270.0\" fill=\"none\" stroke=\"#C74440\" stroke-width=\"2.6\"/><text x=\"378\" y=\"160.0\" text-anchor=\"end\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"241.1\" y=\"13\" font-size=\"11\" fill=\"#2B2527\">y</text></svg></span><p>Figuren visar \\(f'(x)\\). Vid vilket x-värde har \\(f\\) en lokal minimipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En minimipunkt uppstår där derivatan går från negativ till positiv.</p></li><li><div class=\"facit-berakning\"><p>Av grafen sker det vid</p><div class=\"facit-matte\">\\[x=-2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minimipunkt: \\(f'\\) går från − till +</p><p>Leta där grafen till \\(f'\\) passerar x-axeln nedifrån och upp.</p></li><li><p class=\"facit-rubrik\">Grafen går upp genom x-axeln vid \\(x=-2\\)</p><p>Det sker vid \\(x=-2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
     "familj": "Funktionens graf och derivatans graf",
     "geogebra": false,
     "miniräknare": true,
@@ -54119,7 +54139,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Arean av en rektangel kan beskrivas av \\(A(x)=20x-x^2\\), där \\(0\\lt x\\lt20\\).</p><p>Bestäm med derivata det x-värde som ger störst area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A'(x)=20-2x.\\]</p><p>\\[20-2x=0\\Rightarrow x=10.\\]</p></li><li><p>Eftersom grafen till \\(A\\) är en nedåtvänd parabel ger detta största arean.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(A'(x)=0\\)</p><div class=\"facit-matte\">\\[A'(x)=20-2x=0\\quad\\Rightarrow\\quad x=10\\]</div></li><li><p class=\"facit-rubrik\">Nedåtvänd parabel ger maximum</p><p>\\(A''(x)=-2\\lt0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\)</p></div>",
     "familj": "Största och minsta värde på ett intervall",
     "geogebra": false,
     "miniräknare": false,
@@ -54469,7 +54489,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Det gäller att</p><p>\\[\\int_0^2 3x^2\\,dx=8.\\]</p><p>Bestäm \\(\\int_2^0 3x^2\\,dx\\) utan att räkna om integralen från början.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När integrationsgränserna byter plats byter integralen tecken:</p><p>\\[\\int_2^0 3x^2\\,dx=-\\int_0^2 3x^2\\,dx=-8.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-8\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Byt plats på gränserna: \\(\\int_b^a f\\,dx=-\\int_a^b f\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_2^0 3x^2\\,dx=-\\int_0^2 3x^2\\,dx=-8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-8\\)</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -54711,7 +54731,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket påstående om en bestämd integral är korrekt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En bestämd integral är tecknad area.</p></li><li><p>Delar under x-axeln bidrar negativt, så integralens värde kan vara negativt.</p></li><li><p>Om integrationsgränserna byter plats byter integralen tecken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Integralen kan vara negativ eftersom delar under x-axeln bidrar negativt.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integralen är tecknad area</p><p>Delar under x-axeln bidrar negativt, så integralen kan bli negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Integralen kan vara negativ eftersom delar under x-axeln bidrar negativt.</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -54733,7 +54753,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Begrepp om bestämd integral"
     ],
-    "alternativ": [{"txt": "Integralen är alltid geometrisk area eftersom alla delar räknas positivt.", "ratt": false}, {"txt": "Integralen kan vara negativ eftersom delar under x-axeln bidrar negativt.", "ratt": true}, {"txt": "Om integranden är negativ blir integralen positiv eftersom area är positiv.", "ratt": false}, {"txt": "Om integrationsgränserna byter plats blir värdet oförändrat eftersom intervallet är detsamma.", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Integralen är alltid geometrisk area eftersom alla delar räknas positivt.",
+        "ratt": false,
+        "kommentar": "Integralen räknar delar under x-axeln negativt, så den är inte alltid lika med geometrisk area."
+      },
+      {
+        "txt": "Integralen kan vara negativ eftersom delar under x-axeln bidrar negativt.",
+        "ratt": true
+      },
+      {
+        "txt": "Om integranden är negativ blir integralen positiv eftersom area är positiv.",
+        "ratt": false,
+        "kommentar": "Negativ integrand ger negativ integral."
+      },
+      {
+        "txt": "Om integrationsgränserna byter plats blir värdet oförändrat eftersom intervallet är detsamma.",
+        "ratt": false,
+        "kommentar": "Att byta plats på gränserna byter integralens tecken."
+      }
+    ]
   },
   {
     "id": "3.710",
@@ -54801,7 +54841,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Det gäller att</p><p>\\[\\int_0^3 f(x)\\,dx=5\\qquad\\text{och}\\qquad \\int_0^3 g(x)\\,dx=-2.\\]</p><p>Bestäm</p><p>\\[\\int_0^3\\bigl(2f(x)+g(x)\\bigr)\\,dx.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralen är linjär:</p><p>\\[\\int_0^3(2f+g)\\,dx=2\\int_0^3f\\,dx+\\int_0^3g\\,dx=2\\cdot5+(-2)=8.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Linearitet: \\(\\int(af+bg)\\,dx=a\\int f\\,dx+b\\int g\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_0^3(2f+g)\\,dx=2\\cdot5+(-2)=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -55149,7 +55189,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För en funktion gäller \\(f'(x)=2x-6\\).</p><p>Vid vilket x-värde övergår funktionen från att vara avtagande till att vara växande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Övergången sker där derivatan är noll:</p><p>\\[2x-6=0\\Rightarrow x=3.\\]</p></li><li><p>För \\(x\\lt3\\) är derivatan negativ och för \\(x\\gt3\\) positiv, så funktionen går där från avtagande till växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(f'(x)=2x-6\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccc}x &  & 3 & \\\\ \\hline f'(x) & - & 0 & +\\\\ f(x) & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från avtagande till växande vid \\(x=3\\)</p><p>Derivatan går från − till +.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
     "familj": "Växande och avtagande",
     "geogebra": false,
     "miniräknare": true,
@@ -55185,7 +55225,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Derivatan är \\(g'(x)=3(x+2)(x-4)\\).</p><p>Vilket av derivatans nollställen är den punkt där \\(g\\) går från växande till avtagande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nollställena är \\(-2\\) och \\(4\\).</p></li><li><p>För \\(x\\lt-2\\) är derivatan positiv, mellan \\(-2\\) och \\(4\\) negativ och efter \\(4\\) positiv.</p></li><li><p>Vid \\(x=-2\\) går funktionen alltså från växande till avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckentabell för \\(g'(x)=3(x+2)(x-4)\\)</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x &  & -2 &  & 4 & \\\\ \\hline g'(x) & + & 0 & - & 0 & +\\\\ g(x) & \\nearrow & \\text{max} & \\searrow & \\text{min} & \\nearrow\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">Från växande till avtagande vid \\(x=-2\\)</p><p>Derivatan går från + till − där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
     "familj": "Växande och avtagande",
     "geogebra": false,
     "miniräknare": true,
@@ -55416,7 +55456,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Kubisk funktion på slutet intervall\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#F0EFF2\"/><line x1=\"88.5\" y1=\"18\" x2=\"88.5\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"88.5\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">0.5</text><line x1=\"129.0\" y1=\"18\" x2=\"129.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"129.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"169.5\" y1=\"18\" x2=\"169.5\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"169.5\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1.5</text><line x1=\"210.0\" y1=\"18\" x2=\"210.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"210.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"250.5\" y1=\"18\" x2=\"250.5\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"250.5\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2.5</text><line x1=\"291.0\" y1=\"18\" x2=\"291.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"291.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"331.5\" y1=\"18\" x2=\"331.5\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"331.5\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3.5</text><line x1=\"372.0\" y1=\"18\" x2=\"372.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"372.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"198.8\" x2=\"372\" y2=\"198.8\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"201.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"48\" y1=\"182.3\" x2=\"372\" y2=\"182.3\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"165.9\" x2=\"372\" y2=\"165.9\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"168.9\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"149.5\" x2=\"372\" y2=\"149.5\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"152.5\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"133.0\" x2=\"372\" y2=\"133.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"136.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"48\" y1=\"116.6\" x2=\"372\" y2=\"116.6\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"119.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">8</text><line x1=\"48\" y1=\"100.2\" x2=\"372\" y2=\"100.2\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"103.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">10</text><line x1=\"48\" y1=\"83.7\" x2=\"372\" y2=\"83.7\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"86.7\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">12</text><line x1=\"48\" y1=\"67.3\" x2=\"372\" y2=\"67.3\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"70.3\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">14</text><line x1=\"48\" y1=\"50.9\" x2=\"372\" y2=\"50.9\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"53.9\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">16</text><line x1=\"48\" y1=\"34.4\" x2=\"372\" y2=\"34.4\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"37.4\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">18</text><line x1=\"48\" y1=\"18.0\" x2=\"372\" y2=\"18.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"21.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">20</text><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48\" y1=\"182.3\" x2=\"372\" y2=\"182.3\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M 48.0 165.9 L 49.4 165.9 L 50.7 165.9 L 52.0 166.0 L 53.4 166.0 L 54.8 166.1 L 56.1 166.2 L 57.5 166.2 L 58.8 166.3 L 60.1 166.4 L 61.5 166.6 L 62.9 166.7 L 64.2 166.8 L 65.5 167.0 L 66.9 167.2 L 68.2 167.3 L 69.6 167.5 L 71.0 167.7 L 72.3 167.9 L 73.7 168.1 L 75.0 168.3 L 76.3 168.6 L 77.7 168.8 L 79.0 169.1 L 80.4 169.3 L 81.8 169.6 L 83.1 169.9 L 84.5 170.2 L 85.8 170.4 L 87.2 170.7 L 88.5 171.0 L 89.8 171.4 L 91.2 171.7 L 92.6 172.0 L 93.9 172.3 L 95.2 172.7 L 96.6 173.0 L 98.0 173.4 L 99.3 173.7 L 100.7 174.1 L 102.0 174.4 L 103.3 174.8 L 104.7 175.2 L 106.0 175.5 L 107.4 175.9 L 108.8 176.3 L 110.1 176.7 L 111.5 177.1 L 112.8 177.5 L 114.2 177.9 L 115.5 178.3 L 116.8 178.7 L 118.2 179.1 L 119.5 179.5 L 120.9 179.9 L 122.2 180.3 L 123.6 180.7 L 125.0 181.1 L 126.3 181.5 L 127.6 181.9 L 129.0 182.3 L 130.3 182.8 L 131.7 183.2 L 133.1 183.6 L 134.4 184.0 L 135.8 184.4 L 137.1 184.8 L 138.4 185.2 L 139.8 185.6 L 141.1 186.0 L 142.5 186.4 L 143.8 186.8 L 145.2 187.2 L 146.6 187.6 L 147.9 188.0 L 149.2 188.4 L 150.6 188.8 L 151.9 189.1 L 153.3 189.5 L 154.7 189.9 L 156.0 190.3 L 157.4 190.6 L 158.7 191.0 L 160.1 191.3 L 161.4 191.7 L 162.8 192.0 L 164.1 192.4 L 165.4 192.7 L 166.8 193.0 L 168.2 193.3 L 169.5 193.6 L 170.8 194.0 L 172.2 194.2 L 173.6 194.5 L 174.9 194.8 L 176.2 195.1 L 177.6 195.4 L 178.9 195.6 L 180.3 195.9 L 181.7 196.1 L 183.0 196.3 L 184.3 196.6 L 185.7 196.8 L 187.0 197.0 L 188.4 197.2 L 189.8 197.4 L 191.1 197.5 L 192.5 197.7 L 193.8 197.9 L 195.2 198.0 L 196.5 198.1 L 197.8 198.3 L 199.2 198.4 L 200.6 198.5 L 201.9 198.5 L 203.2 198.6 L 204.6 198.7 L 205.9 198.7 L 207.3 198.8 L 208.7 198.8 L 210.0 198.8 L 211.3 198.8 L 212.7 198.8 L 214.0 198.7 L 215.4 198.7 L 216.8 198.6 L 218.1 198.5 L 219.4 198.4 L 220.8 198.3 L 222.2 198.2 L 223.5 198.1 L 224.8 197.9 L 226.2 197.7 L 227.6 197.5 L 228.9 197.3 L 230.2 197.1 L 231.6 196.9 L 232.9 196.6 L 234.3 196.3 L 235.7 196.0 L 237.0 195.7 L 238.3 195.4 L 239.7 195.1 L 241.1 194.7 L 242.4 194.3 L 243.8 193.9 L 245.1 193.5 L 246.5 193.0 L 247.8 192.6 L 249.2 192.1 L 250.5 191.6 L 251.8 191.1 L 253.2 190.5 L 254.5 190.0 L 255.9 189.4 L 257.2 188.8 L 258.6 188.1 L 259.9 187.5 L 261.3 186.8 L 262.6 186.1 L 264.0 185.4 L 265.4 184.6 L 266.7 183.9 L 268.1 183.1 L 269.4 182.3 L 270.8 181.4 L 272.1 180.6 L 273.4 179.7 L 274.8 178.8 L 276.1 177.9 L 277.5 176.9 L 278.9 175.9 L 280.2 174.9 L 281.6 173.9 L 282.9 172.8 L 284.2 171.7 L 285.6 170.6 L 287.0 169.5 L 288.3 168.3 L 289.6 167.1 L 291.0 165.9 L 292.4 164.7 L 293.7 163.4 L 295.0 162.1 L 296.4 160.8 L 297.8 159.4 L 299.1 158.0 L 300.4 156.6 L 301.8 155.2 L 303.1 153.7 L 304.5 152.2 L 305.8 150.6 L 307.2 149.1 L 308.6 147.5 L 309.9 145.9 L 311.2 144.2 L 312.6 142.5 L 313.9 140.8 L 315.3 139.1 L 316.7 137.3 L 318.0 135.5 L 319.4 133.6 L 320.7 131.8 L 322.1 129.9 L 323.4 127.9 L 324.8 125.9 L 326.1 123.9 L 327.4 121.9 L 328.8 119.8 L 330.1 117.7 L 331.5 115.6 L 332.9 113.4 L 334.2 111.2 L 335.6 109.0 L 336.9 106.7 L 338.2 104.4 L 339.6 102.0 L 340.9 99.6 L 342.3 97.2 L 343.6 94.8 L 345.0 92.3 L 346.3 89.7 L 347.7 87.2 L 349.1 84.6 L 350.4 81.9 L 351.8 79.2 L 353.1 76.5 L 354.4 73.8 L 355.8 71.0 L 357.2 68.2 L 358.5 65.3 L 359.9 62.4 L 361.2 59.4 L 362.6 56.4 L 363.9 53.4 L 365.2 50.4 L 366.6 47.3 L 367.9 44.1 L 369.3 40.9 L 370.6 37.7 L 372.0 34.4\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.6\"/><text x=\"378\" y=\"198.3\" text-anchor=\"end\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"56.0\" y=\"13\" font-size=\"11\" fill=\"#2B2527\">y</text></svg></span><p>För funktionen</p><p>\\[f(x)=x^3-3x^2+2\\]</p><p>med definitionsintervallet \\(0\\le x\\le4\\), bestäm funktionens minsta och största värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=3x^2-6x=3x(x-2).\\]</p></li><li><p>Kandidater är ändpunkterna och den inre punkten där derivatan är noll:</p><p>\\[f(0)=2,\\quad f(2)=-2,\\quad f(4)=18.\\]</p></li></ol><p class=\"facit-svar\"><strong>Minsta värde: −2. Största värde: 18.</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställen till \\(f'(x)\\)</p><div class=\"facit-matte\">\\[f'(x)=3x^2-6x=3x(x-2)=0\\]</div><div class=\"facit-matte\">\\[\\Rightarrow x=0,\\ x=2\\]</div></li><li><p class=\"facit-rubrik\">Slutet intervall: jämför derivatans nollställen med ändpunkterna</p><div class=\"facit-matte\">\\[f(0)=2,\\quad f(2)=8-12+2=-2\\]</div><div class=\"facit-matte\">\\[f(4)=64-48+2=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta värdet \\(-2\\), största värdet 18</p></div>",
     "familj": "Största och minsta värde på ett intervall",
     "geogebra": false,
     "miniräknare": false,
@@ -55509,7 +55549,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Kvartscirkel med radie 4\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#F0EFF2\"/><line x1=\"84.0\" y1=\"18\" x2=\"84.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"84.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">0.5</text><line x1=\"120.0\" y1=\"18\" x2=\"120.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"120.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"156.0\" y1=\"18\" x2=\"156.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"156.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1.5</text><line x1=\"192.0\" y1=\"18\" x2=\"192.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"192.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"228.0\" y1=\"18\" x2=\"228.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"228.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2.5</text><line x1=\"264.0\" y1=\"18\" x2=\"264.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"264.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"300.0\" y1=\"18\" x2=\"300.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"300.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3.5</text><line x1=\"336.0\" y1=\"18\" x2=\"336.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"336.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"372.0\" y1=\"18\" x2=\"372.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"372.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4.5</text><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"186.0\" x2=\"372\" y2=\"186.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"189.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">0.5</text><line x1=\"48\" y1=\"165.0\" x2=\"372\" y2=\"165.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"168.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"144.0\" x2=\"372\" y2=\"144.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"147.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1.5</text><line x1=\"48\" y1=\"123.0\" x2=\"372\" y2=\"123.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"126.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"102.0\" x2=\"372\" y2=\"102.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"105.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2.5</text><line x1=\"48\" y1=\"81.0\" x2=\"372\" y2=\"81.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"84.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"60.0\" x2=\"372\" y2=\"60.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"63.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3.5</text><line x1=\"48\" y1=\"39.0\" x2=\"372\" y2=\"39.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"42.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"18.0\" x2=\"372\" y2=\"18.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"21.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4.5</text><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><polygon points=\"48.0,207.0 48.0,39.0 51.6,39.0 55.2,39.1 58.8,39.1 62.4,39.2 66.0,39.3 69.6,39.5 73.2,39.6 76.8,39.8 80.4,40.1 84.0,40.3 87.6,40.6 91.2,40.9 94.8,41.2 98.4,41.6 102.0,42.0 105.6,42.4 109.2,42.8 112.8,43.3 116.4,43.8 120.0,44.3 123.6,44.9 127.2,45.5 130.8,46.1 134.4,46.7 138.0,47.4 141.6,48.1 145.2,48.9 148.8,49.6 152.4,50.4 156.0,51.3 159.6,52.1 163.2,53.0 166.8,54.0 170.4,54.9 174.0,55.9 177.6,57.0 181.2,58.0 184.8,59.2 188.4,60.3 192.0,61.5 195.6,62.7 199.2,64.0 202.8,65.3 206.4,66.7 210.0,68.1 213.6,69.6 217.2,71.1 220.8,72.6 224.4,74.2 228.0,75.9 231.6,77.6 235.2,79.3 238.8,81.2 242.4,83.0 246.0,85.0 249.6,87.0 253.2,89.1 256.8,91.3 260.4,93.5 264.0,95.9 267.6,98.3 271.2,100.8 274.8,103.5 278.4,106.2 282.0,109.1 285.6,112.1 289.2,115.2 292.8,118.5 296.4,122.0 300.0,125.7 303.6,129.6 307.2,133.8 310.8,138.3 314.4,143.2 318.0,148.5 321.6,154.5 325.2,161.4 328.8,169.7 332.4,180.5 336.0,207.0 336.0,207.0\" fill=\"#DCE8F7\" opacity=\"0.8\"/><path d=\"M 48.0 39.0 L 49.4 39.0 L 50.7 39.0 L 52.0 39.0 L 53.4 39.0 L 54.8 39.0 L 56.1 39.1 L 57.5 39.1 L 58.8 39.1 L 60.2 39.1 L 61.5 39.2 L 62.9 39.2 L 64.2 39.3 L 65.5 39.3 L 66.9 39.4 L 68.2 39.4 L 69.6 39.5 L 71.0 39.5 L 72.3 39.6 L 73.7 39.7 L 75.0 39.7 L 76.3 39.8 L 77.7 39.9 L 79.0 40.0 L 80.4 40.1 L 81.8 40.2 L 83.1 40.3 L 84.4 40.4 L 85.8 40.5 L 87.2 40.6 L 88.5 40.7 L 89.8 40.8 L 91.2 40.9 L 92.6 41.0 L 93.9 41.1 L 95.2 41.3 L 96.6 41.4 L 98.0 41.5 L 99.3 41.7 L 100.6 41.8 L 102.0 42.0 L 103.3 42.1 L 104.7 42.3 L 106.0 42.4 L 107.4 42.6 L 108.8 42.8 L 110.1 43.0 L 111.5 43.1 L 112.8 43.3 L 114.2 43.5 L 115.5 43.7 L 116.9 43.9 L 118.2 44.1 L 119.5 44.3 L 120.9 44.5 L 122.2 44.7 L 123.6 44.9 L 125.0 45.1 L 126.3 45.3 L 127.6 45.6 L 129.0 45.8 L 130.3 46.0 L 131.7 46.3 L 133.0 46.5 L 134.4 46.7 L 135.8 47.0 L 137.1 47.2 L 138.4 47.5 L 139.8 47.8 L 141.1 48.0 L 142.5 48.3 L 143.8 48.6 L 145.2 48.9 L 146.6 49.1 L 147.9 49.4 L 149.2 49.7 L 150.6 50.0 L 151.9 50.3 L 153.3 50.6 L 154.7 50.9 L 156.0 51.3 L 157.4 51.6 L 158.7 51.9 L 160.1 52.2 L 161.4 52.6 L 162.8 52.9 L 164.1 53.3 L 165.5 53.6 L 166.8 54.0 L 168.2 54.3 L 169.5 54.7 L 170.8 55.1 L 172.2 55.4 L 173.5 55.8 L 174.9 56.2 L 176.2 56.6 L 177.6 57.0 L 178.9 57.4 L 180.3 57.8 L 181.7 58.2 L 183.0 58.6 L 184.3 59.0 L 185.7 59.4 L 187.0 59.9 L 188.4 60.3 L 189.8 60.8 L 191.1 61.2 L 192.5 61.7 L 193.8 62.1 L 195.2 62.6 L 196.5 63.1 L 197.8 63.5 L 199.2 64.0 L 200.6 64.5 L 201.9 65.0 L 203.2 65.5 L 204.6 66.0 L 206.0 66.5 L 207.3 67.0 L 208.7 67.6 L 210.0 68.1 L 211.3 68.6 L 212.7 69.2 L 214.0 69.7 L 215.4 70.3 L 216.8 70.9 L 218.1 71.4 L 219.4 72.0 L 220.8 72.6 L 222.2 73.2 L 223.5 73.8 L 224.8 74.4 L 226.2 75.0 L 227.6 75.6 L 228.9 76.3 L 230.2 76.9 L 231.6 77.6 L 232.9 78.2 L 234.3 78.9 L 235.7 79.6 L 237.0 80.2 L 238.3 80.9 L 239.7 81.6 L 241.1 82.3 L 242.4 83.0 L 243.8 83.8 L 245.1 84.5 L 246.5 85.3 L 247.8 86.0 L 249.2 86.8 L 250.5 87.5 L 251.8 88.3 L 253.2 89.1 L 254.5 89.9 L 255.9 90.7 L 257.2 91.6 L 258.6 92.4 L 259.9 93.3 L 261.3 94.1 L 262.7 95.0 L 264.0 95.9 L 265.4 96.8 L 266.7 97.7 L 268.1 98.6 L 269.4 99.6 L 270.8 100.5 L 272.1 101.5 L 273.4 102.5 L 274.8 103.5 L 276.1 104.5 L 277.5 105.5 L 278.8 106.6 L 280.2 107.6 L 281.6 108.7 L 282.9 109.8 L 284.2 110.9 L 285.6 112.1 L 287.0 113.2 L 288.3 114.4 L 289.6 115.6 L 291.0 116.8 L 292.4 118.1 L 293.7 119.4 L 295.0 120.7 L 296.4 122.0 L 297.8 123.3 L 299.1 124.7 L 300.4 126.1 L 301.8 127.6 L 303.2 129.1 L 304.5 130.6 L 305.8 132.2 L 307.2 133.8 L 308.6 135.4 L 309.9 137.1 L 311.2 138.9 L 312.6 140.7 L 313.9 142.5 L 315.3 144.5 L 316.7 146.5 L 318.0 148.5 L 319.3 150.7 L 320.7 153.0 L 322.1 155.3 L 323.4 157.9 L 324.8 160.5 L 326.1 163.3 L 327.4 166.4 L 328.8 169.7 L 330.1 173.3 L 331.5 177.4 L 332.9 182.2 L 334.2 188.2 L 335.6 197.6 L 336.9 207.0 L 338.2 207.0 L 339.6 207.0 L 340.9 207.0 L 342.3 207.0 L 343.7 207.0 L 345.0 207.0 L 346.3 207.0 L 347.7 207.0 L 349.1 207.0 L 350.4 207.0 L 351.8 207.0 L 353.1 207.0 L 354.4 207.0 L 355.8 207.0 L 357.2 207.0 L 358.5 207.0 L 359.8 207.0 L 361.2 207.0 L 362.6 207.0 L 363.9 207.0 L 365.2 207.0 L 366.6 207.0 L 367.9 207.0 L 369.3 207.0 L 370.6 207.0 L 372.0 207.0\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.6\"/><circle cx=\"48.0\" cy=\"39.0\" r=\"4\" fill=\"#fff\" stroke=\"#2D70B3\" stroke-width=\"2\"/><circle cx=\"336.0\" cy=\"207.0\" r=\"4\" fill=\"#fff\" stroke=\"#2D70B3\" stroke-width=\"2\"/><text x=\"378\" y=\"223.0\" text-anchor=\"end\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"56.0\" y=\"13\" font-size=\"11\" fill=\"#2B2527\">y</text></svg></span><p>Grafen till f bildar en kvartscirkel med radien 4 i första kvadranten, från \\((0,4)\\) till \\((4,0)\\).</p><p>Bestäm exakt</p><p>\\[\\int_0^4 f(x)\\,dx.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralen är arean av en fjärdedels cirkel med radien 4:</p><p>\\[\\frac14\\pi\\cdot4^2=4\\pi.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4\\pi\\).</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integralen är kvartscirkelns area</p><p>Radien är 4.</p></li><li><p class=\"facit-rubrik\">En fjärdedel av \\(\\pi r^2\\)</p><div class=\"facit-matte\">\\[\\frac14\\pi\\cdot4^2=4\\pi\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\pi\\)</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -55577,7 +55617,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/0/2",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Viktens ökningstakt\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#F0EFF2\"/><line x1=\"88.5\" y1=\"18\" x2=\"88.5\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"88.5\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"129.0\" y1=\"18\" x2=\"129.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"129.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"169.5\" y1=\"18\" x2=\"169.5\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"169.5\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"210.0\" y1=\"18\" x2=\"210.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"210.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"250.5\" y1=\"18\" x2=\"250.5\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"250.5\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"291.0\" y1=\"18\" x2=\"291.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"291.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"331.5\" y1=\"18\" x2=\"331.5\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"331.5\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">7</text><line x1=\"372.0\" y1=\"18\" x2=\"372.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"372.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">8</text><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"180.0\" x2=\"372\" y2=\"180.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"183.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"153.0\" x2=\"372\" y2=\"153.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"156.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"126.0\" x2=\"372\" y2=\"126.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"129.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"99.0\" x2=\"372\" y2=\"99.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"102.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"72.0\" x2=\"372\" y2=\"72.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"75.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"48\" y1=\"45.0\" x2=\"372\" y2=\"45.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"48.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"48\" y1=\"18.0\" x2=\"372\" y2=\"18.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"21.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">7</text><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M 48.0 31.2 L 49.4 33.4 L 50.7 35.6 L 52.0 37.8 L 53.4 39.9 L 54.8 42.1 L 56.1 44.2 L 57.5 46.3 L 58.8 48.4 L 60.1 50.4 L 61.5 52.5 L 62.9 54.5 L 64.2 56.5 L 65.5 58.5 L 66.9 60.5 L 68.2 62.4 L 69.6 64.3 L 71.0 66.3 L 72.3 68.2 L 73.7 70.0 L 75.0 71.9 L 76.3 73.8 L 77.7 75.6 L 79.0 77.4 L 80.4 79.2 L 81.8 81.0 L 83.1 82.7 L 84.5 84.4 L 85.8 86.2 L 87.2 87.9 L 88.5 89.6 L 89.8 91.2 L 91.2 92.9 L 92.6 94.5 L 93.9 96.1 L 95.2 97.7 L 96.6 99.3 L 98.0 100.8 L 99.3 102.4 L 100.7 103.9 L 102.0 105.4 L 103.3 106.9 L 104.7 108.3 L 106.0 109.8 L 107.4 111.2 L 108.8 112.6 L 110.1 114.0 L 111.5 115.4 L 112.8 116.8 L 114.2 118.1 L 115.5 119.4 L 116.8 120.7 L 118.2 122.0 L 119.5 123.3 L 120.9 124.5 L 122.2 125.8 L 123.6 127.0 L 125.0 128.2 L 126.3 129.4 L 127.6 130.5 L 129.0 131.7 L 130.3 132.8 L 131.7 133.9 L 133.1 135.0 L 134.4 136.1 L 135.8 137.1 L 137.1 138.2 L 138.4 139.2 L 139.8 140.2 L 141.1 141.1 L 142.5 142.1 L 143.8 143.1 L 145.2 144.0 L 146.6 144.9 L 147.9 145.8 L 149.2 146.7 L 150.6 147.5 L 151.9 148.3 L 153.3 149.2 L 154.7 150.0 L 156.0 150.8 L 157.4 151.5 L 158.7 152.3 L 160.1 153.0 L 161.4 153.7 L 162.8 154.4 L 164.1 155.1 L 165.4 155.7 L 166.8 156.4 L 168.2 157.0 L 169.5 157.6 L 170.8 158.2 L 172.2 158.7 L 173.6 159.3 L 174.9 159.8 L 176.2 160.3 L 177.6 160.8 L 178.9 161.3 L 180.3 161.8 L 181.7 162.2 L 183.0 162.6 L 184.3 163.0 L 185.7 163.4 L 187.0 163.8 L 188.4 164.1 L 189.8 164.5 L 191.1 164.8 L 192.5 165.1 L 193.8 165.4 L 195.2 165.6 L 196.5 165.9 L 197.8 166.1 L 199.2 166.3 L 200.6 166.5 L 201.9 166.7 L 203.2 166.8 L 204.6 167.0 L 205.9 167.1 L 207.3 167.2 L 208.7 167.2 L 210.0 167.3 L 211.3 167.4 L 212.7 167.4 L 214.0 167.4 L 215.4 167.4 L 216.8 167.4 L 218.1 167.3 L 219.4 167.2 L 220.8 167.2 L 222.2 167.1 L 223.5 166.9 L 224.8 166.8 L 226.2 166.7 L 227.6 166.5 L 228.9 166.3 L 230.2 166.1 L 231.6 165.9 L 232.9 165.6 L 234.3 165.4 L 235.7 165.1 L 237.0 164.8 L 238.3 164.5 L 239.7 164.1 L 241.1 163.8 L 242.4 163.4 L 243.8 163.0 L 245.1 162.6 L 246.5 162.2 L 247.8 161.8 L 249.2 161.3 L 250.5 160.8 L 251.8 160.3 L 253.2 159.8 L 254.5 159.3 L 255.9 158.7 L 257.2 158.2 L 258.6 157.6 L 259.9 157.0 L 261.3 156.4 L 262.6 155.7 L 264.0 155.1 L 265.4 154.4 L 266.7 153.7 L 268.1 153.0 L 269.4 152.3 L 270.8 151.5 L 272.1 150.8 L 273.4 150.0 L 274.8 149.2 L 276.1 148.3 L 277.5 147.5 L 278.9 146.7 L 280.2 145.8 L 281.6 144.9 L 282.9 144.0 L 284.2 143.1 L 285.6 142.1 L 287.0 141.1 L 288.3 140.2 L 289.6 139.2 L 291.0 138.2 L 292.4 137.1 L 293.7 136.1 L 295.0 135.0 L 296.4 133.9 L 297.8 132.8 L 299.1 131.7 L 300.4 130.5 L 301.8 129.4 L 303.1 128.2 L 304.5 127.0 L 305.8 125.8 L 307.2 124.5 L 308.6 123.3 L 309.9 122.0 L 311.2 120.7 L 312.6 119.4 L 313.9 118.1 L 315.3 116.8 L 316.7 115.4 L 318.0 114.0 L 319.4 112.6 L 320.7 111.2 L 322.1 109.8 L 323.4 108.3 L 324.8 106.9 L 326.1 105.4 L 327.4 103.9 L 328.8 102.4 L 330.1 100.8 L 331.5 99.3 L 332.9 97.7 L 334.2 96.1 L 335.6 94.5 L 336.9 92.9 L 338.2 91.2 L 339.6 89.5 L 340.9 87.9 L 342.3 86.2 L 343.6 84.4 L 345.0 82.7 L 346.3 81.0 L 347.7 79.2 L 349.1 77.4 L 350.4 75.6 L 351.8 73.8 L 353.1 71.9 L 354.4 70.0 L 355.8 68.2 L 357.2 66.3 L 358.5 64.3 L 359.9 62.4 L 361.2 60.5 L 362.6 58.5 L 363.9 56.5 L 365.2 54.5 L 366.6 52.5 L 367.9 50.4 L 369.3 48.4 L 370.6 46.3 L 372.0 44.2\" fill=\"none\" stroke=\"#C74440\" stroke-width=\"2.6\"/><text x=\"378\" y=\"223.0\" text-anchor=\"end\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"56.0\" y=\"13\" font-size=\"11\" fill=\"#2B2527\">y</text></svg></span><p>Albins vikt under de första åtta levnadsåren modelleras av</p><p>\\[V(t)=0{,}10t^3-1{,}23t^2+6{,}51t+3{,}72,\\qquad 0\\le t\\le8.\\]</p><p>Bestäm vilka värden hastigheten som Albins vikt ökar med kan anta under perioden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ökningstakten är</p><p>\\[V'(t)=0{,}30t^2-2{,}46t+6{,}51.\\]</p></li><li><p>Parabeln har minimum vid \\(t=2{,}46/0{,}60=4,1\\), där \\(V'(4,1)=1{,}467\\).</p></li><li><div class=\"facit-berakning\"><p>Vid ändpunkterna:</p><div class=\"facit-matte\">\\[V'(0)=6{,}51\\],</div></div><div class=\"facit-matte\">\\[V'(8)=6{,}03\\].</div></li></ol><p class=\"facit-svar\"><strong>Ökningstakten ligger alltså mellan cirka 1,467 och 6,51 kg/år.</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ökningstakten är \\(V'(t)\\)</p><div class=\"facit-matte\">\\[V'(t)=0{,}30t^2-2{,}46t+6{,}51\\]</div></li><li><p class=\"facit-rubrik\">Minsta ökningstakt där \\(V''(t)=0\\)</p><div class=\"facit-matte\">\\[V''(t)=0{,}60t-2{,}46=0\\quad\\Rightarrow\\quad t=4{,}1\\]</div><div class=\"facit-matte\">\\[V'(4{,}1)\\approx1{,}467\\]</div></li><li><p class=\"facit-rubrik\">Jämför med ändpunkterna</p><div class=\"facit-matte\">\\[V'(0)=6{,}51,\\qquad V'(8)=6{,}03\\]</div></li><li><p class=\"facit-rubrik\">Värdemängden för \\(V'\\)</p><div class=\"facit-matte\">\\[1{,}467\\le V'(t)\\le6{,}51\\ \\text{kg/år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> mellan cirka 1,467 och 6,51 kg/år</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": true,
@@ -55927,7 +55967,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "4/0/0",
     "t": "<p>Bestäm exakt. Endast svar krävs.</p><p>a) \\(\\sin30^\\circ\\)<br>b) \\(\\cos60^\\circ\\)<br>c) \\(\\sin45^\\circ\\)<br>d) \\(\\cos135^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är \\(\\cos v\\) punktens x-koordinat och \\(\\sin v\\) y-koordinat.</p></li><li><p>Referensvinkeln ger absolutvärdet och kvadranten bestämmer tecknet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(1/2\\), b) \\(1/2\\), c) \\(\\sqrt2/2\\), d) \\(-\\sqrt2/2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exakt värde för \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin30^\\circ=\\frac12\\]</div><p>y-koordinaten för punkten vid 30°.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exakt värde för \\(60^\\circ\\)</p><div class=\"facit-matte\">\\[\\cos60^\\circ=\\frac12\\]</div><p>x-koordinaten för punkten vid 60°.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac12\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exakt värde för \\(45^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin45^\\circ=\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac{\\sqrt2}{2}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(135^\\circ\\) ligger i andra kvadranten, referensvinkel \\(45^\\circ\\)</p><p>Där är x-koordinaten, alltså cosinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln ger beloppet</p><div class=\"facit-matte\">\\[\\cos135^\\circ=-\\cos45^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\tfrac{\\sqrt2}{2}\\)</p></div></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -55962,7 +56002,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Bestäm exakt. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(\\sin30^\\circ\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1/2\\)</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exakt värde för \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin30^\\circ=\\frac12\\]</div><p>y-koordinaten för punkten vid 30°.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac12\\)</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -55970,7 +56010,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Bestäm exakt. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(\\cos60^\\circ\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1/2\\)</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exakt värde för \\(60^\\circ\\)</p><div class=\"facit-matte\">\\[\\cos60^\\circ=\\frac12\\]</div><p>x-koordinaten för punkten vid 60°.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac12\\)</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -55978,7 +56018,7 @@ window.BANKMATO1 = [
       {
         "etikett": "c",
         "t": "<p>Bestäm exakt. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(\\sin45^\\circ\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt2/2\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exakt värde för \\(45^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin45^\\circ=\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac{\\sqrt2}{2}\\)</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -55986,7 +56026,7 @@ window.BANKMATO1 = [
       {
         "etikett": "d",
         "t": "<p>Bestäm exakt. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(\\cos135^\\circ\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-\\sqrt2/2\\]</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(135^\\circ\\) ligger i andra kvadranten, referensvinkel \\(45^\\circ\\)</p><p>Där är x-koordinaten, alltså cosinus, negativ.</p></li><li><p class=\"facit-rubrik\">Referensvinkeln ger beloppet</p><div class=\"facit-matte\">\\[\\cos135^\\circ=-\\cos45^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\tfrac{\\sqrt2}{2}\\)</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -56043,7 +56083,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två observationspunkter A och B ligger 120 m från varandra. Från A ses en mast i riktningen som bildar 48° med AB och från B bildar siktriktningen 67° med BA.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med markerade mått\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"79.1,220.0 310.9,220.0 236.6,45.0\" fill=\"#F7F8FA\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"65.1\" y=\"238.0\" font-size=\"13\">A</text><text x=\"318.9\" y=\"238.0\" font-size=\"13\">B</text><text x=\"232.6\" y=\"34.0\" font-size=\"13\">C</text><path d=\"M 93.8 203.7 L 94.7 204.5 L 95.5 205.4 L 96.3 206.3 L 97.1 207.3 L 97.7 208.3 L 98.4 209.4 L 98.9 210.5 L 99.4 211.6 L 99.8 212.8 L 100.2 213.9 L 100.5 215.1 L 100.8 216.3 L 100.9 217.5 L 101.0 218.8 L 101.1 220.0\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.4\" /><text x=\"113.8\" y=\"208.5\" text-anchor=\"middle\" font-size=\"12\">48°</text><path d=\"M 288.9 220.0 L 289.0 218.3 L 289.2 216.6 L 289.5 214.9 L 290.0 213.3 L 290.6 211.6 L 291.3 210.1 L 292.1 208.6 L 293.1 207.2 L 294.1 205.8 L 295.3 204.5 L 296.5 203.4 L 297.9 202.3 L 299.3 201.3 L 300.8 200.5 L 302.3 199.7\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.4\" /><text x=\"279.2\" y=\"203.0\" text-anchor=\"middle\" font-size=\"12\">67°</text><text x=\"195.0\" y=\"236.0\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#2A5D9E\">c = 120 m</text></svg></span><p>Bestäm avståndet från vardera observationspunkten till objektet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den tredje vinkeln är \\(65^\\circ\\).</p></li><li><p>Sidan 120 m ligger mot den vinkeln.</p></li><li><p>Sinussatsen ger</p><p>\\[a=120\\frac{\\sin48^\\circ}{\\sin65^\\circ}\\approx98{,}4\\text{ m},\\qquad b=120\\frac{\\sin67^\\circ}{\\sin65^\\circ}\\approx121{,}9\\text{ m}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: A till objektet (m): \\(121{,}9\\), B till objektet (m): \\(98{,}4\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkelsumman i en triangel är \\(180^\\circ\\)</p><div class=\"facit-matte\">\\[C=180^\\circ-48^\\circ-67^\\circ=65^\\circ\\]</div><p>Sidan 120 m ligger mittemot C.</p></li><li><p class=\"facit-rubrik\">Sinussatsen: \\(\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}\\) för avståndet från A (mittemot 67°)</p><div class=\"facit-matte\">\\[AC=120\\cdot\\frac{\\sin67^\\circ}{\\sin65^\\circ}\\approx121{,}9\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Avståndet från B ligger mittemot 48°</p><div class=\"facit-matte\">\\[BC=120\\cdot\\frac{\\sin48^\\circ}{\\sin65^\\circ}\\approx98{,}4\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A till masten 121,9 m, B till masten 98,4 m</p></div>",
     "familj": "Avstånd och triangulering",
     "geogebra": false,
     "miniräknare": true,
@@ -56091,7 +56131,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Det blå området visar det tillåtna området för variablerna \\(x\\) och \\(y\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"330\" viewBox=\"0 0 440 330\" role=\"img\" aria-label=\"Tillåtet område för linjär optimering\"><defs><marker id=\"lo0arr\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\"><path d=\"M0,0 L7,3.5 L0,7 z\" fill=\"#2B2527\" /></marker></defs><rect x=\"1\" y=\"1\" width=\"400\" height=\"328\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"100.0\" y1=\"25\" x2=\"100.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"145.0\" y1=\"25\" x2=\"145.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"190.0\" y1=\"25\" x2=\"190.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"235.0\" y1=\"25\" x2=\"235.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"280.0\" y1=\"25\" x2=\"280.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"325.0\" y1=\"25\" x2=\"325.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"370.0\" y1=\"25\" x2=\"370.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"415.0\" y1=\"25\" x2=\"415.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"285.0\" x2=\"415\" y2=\"285.0\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"252.5\" x2=\"415\" y2=\"252.5\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"220.0\" x2=\"415\" y2=\"220.0\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"187.5\" x2=\"415\" y2=\"187.5\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"155.0\" x2=\"415\" y2=\"155.0\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"122.5\" x2=\"415\" y2=\"122.5\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"90.0\" x2=\"415\" y2=\"90.0\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"57.5\" x2=\"415\" y2=\"57.5\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"25.0\" x2=\"415\" y2=\"25.0\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"285\" x2=\"425\" y2=\"285\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#lo0arr)\" /><line x1=\"55\" y1=\"285\" x2=\"55\" y2=\"15\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#lo0arr)\" /><polygon points=\"55.0,285.0 55.0,90.0 235.0,155.0 325.0,285.0\" fill=\"#D9E7F8\" fill-opacity=\"0.75\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" /><circle cx=\"55.0\" cy=\"285.0\" r=\"4\" fill=\"#B43123\" /><text x=\"61.0\" y=\"278.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\">(0,0)</text><circle cx=\"55.0\" cy=\"90.0\" r=\"4\" fill=\"#B43123\" /><text x=\"61.0\" y=\"83.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\">(0,6)</text><circle cx=\"235.0\" cy=\"155.0\" r=\"4\" fill=\"#B43123\" /><text x=\"241.0\" y=\"148.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\">(4,4)</text><circle cx=\"325.0\" cy=\"285.0\" r=\"4\" fill=\"#B43123\" /><text x=\"331.0\" y=\"278.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\">(6,0)</text></svg></span><p>Maximera målfunktionen \\(Z=30x+20y\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En linjär målfunktion behöver bara jämföras i områdets hörnpunkter:</p><p>\\[Z(0,0)=0,\\ Z(0,6)=120,\\ Z(4,4)=200,\\ Z(6,0)=180.\\]</p></li><li><p>Alltså fås maximum \\(Z=200\\) i \\((4,4)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=4\\), \\(y=4\\), \\(Z_{\\max}=200\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=30x+20y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\quad Z(0,6)=120\\]</div><div class=\"facit-matte\">\\[Z(4,4)=200,\\quad Z(6,0)=180\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((4,4)\\)</p><div class=\"facit-matte\">\\[Z_{\\max}=200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\), \\(y=4\\), \\(Z_{\\max}=200\\)</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -56170,7 +56210,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc406arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc406arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc406arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"119\" y2=\"65.3\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"119\" cy=\"65.3\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"109\" y=\"57.3\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2B2527\">P</text><path d=\"M 196 145 L 195.7 141 L 194.9 137 L 193.6 133.1 L 191.8 129.5 L 189.6 126.1 L 186.9 123.1 L 183.9 120.4 L 180.5 118.2 L 176.9 116.4 L 173 115.1 L 169 114.3 L 165 114 L 161 114.3 L 157 115.1 L 153.1 116.4 L 149.5 118.2\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"188.5\" y=\"108.3\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">120°</text></svg></span><p>Bestäm exakt a) \\(\\cos 120^\\circ\\), b) \\(\\sin 120^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(120^\\circ\\) ligger i andra kvadranten och har referensvinkeln \\(60^\\circ\\).</p></li><li><p>Därför</p><p>\\[\\cos120^\\circ=-\\frac12,\\qquad \\sin120^\\circ=\\frac{\\sqrt3}{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: a) \\(-\\dfrac{1}{2}\\), b) \\(\\dfrac{\\sqrt{3}}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(120^\\circ\\) ligger i andra kvadranten, referensvinkel \\(60^\\circ\\)</p><p>Där är x-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">\\(\\cos v\\) är x-koordinaten</p><div class=\"facit-matte\">\\[\\cos120^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\tfrac12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(120^\\circ\\) ligger i andra kvadranten, referensvinkel \\(60^\\circ\\)</p><p>Där är y-koordinaten positiv.</p></li><li><p class=\"facit-rubrik\">\\(\\sin v\\) är y-koordinaten</p><div class=\"facit-matte\">\\[\\sin120^\\circ=\\sin60^\\circ=\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac{\\sqrt3}{2}\\)</p></div></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -56199,7 +56239,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc406arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc406arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc406arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"119\" y1=\"145\" y2=\"65.3\"></line><circle cx=\"119\" cy=\"65.3\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" x=\"109\" y=\"57.3\">P</text><path d=\"M 196 145 L 195.7 141 L 194.9 137 L 193.6 133.1 L 191.8 129.5 L 189.6 126.1 L 186.9 123.1 L 183.9 120.4 L 180.5 118.2 L 176.9 116.4 L 173 115.1 L 169 114.3 L 165 114 L 161 114.3 L 157 115.1 L 153.1 116.4 L 149.5 118.2\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"188.5\" y=\"108.3\">120°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\cos 120^\\circ\\),</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{- \\frac{1}{2}}\\],</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(120^\\circ\\) ligger i andra kvadranten, referensvinkel \\(60^\\circ\\)</p><p>Där är x-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">\\(\\cos v\\) är x-koordinaten</p><div class=\"facit-matte\">\\[\\cos120^\\circ=-\\cos60^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\tfrac12\\)</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -56207,7 +56247,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc406arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc406arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc406arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"119\" y1=\"145\" y2=\"65.3\"></line><circle cx=\"119\" cy=\"65.3\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" x=\"109\" y=\"57.3\">P</text><path d=\"M 196 145 L 195.7 141 L 194.9 137 L 193.6 133.1 L 191.8 129.5 L 189.6 126.1 L 186.9 123.1 L 183.9 120.4 L 180.5 118.2 L 176.9 116.4 L 173 115.1 L 169 114.3 L 165 114 L 161 114.3 L 157 115.1 L 153.1 116.4 L 149.5 118.2\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"188.5\" y=\"108.3\">120°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\sin 120^\\circ\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{\\frac{\\sqrt{3}}{2}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(120^\\circ\\) ligger i andra kvadranten, referensvinkel \\(60^\\circ\\)</p><p>Där är y-koordinaten positiv.</p></li><li><p class=\"facit-rubrik\">\\(\\sin v\\) är y-koordinaten</p><div class=\"facit-matte\">\\[\\sin120^\\circ=\\sin60^\\circ=\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac{\\sqrt3}{2}\\)</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -56234,7 +56274,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En triangel har sidorna 5,5 cm, 8,2 cm och 10,0 cm. Bestäm vinkeln mittemot sidan 10,0 cm. Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(C\\) ligger mot sidan 10,0 cm.</p></li><li><p>Cosinussatsen ger</p><p>\\[10^2=5{,}5^2+8{,}2^2-2\\cdot5{,}5\\cdot8{,}2\\cos C.\\]</p><p>\\[\\cos C=\\frac{5{,}5^2+8{,}2^2-10^2}{2\\cdot5{,}5\\cdot8{,}2},\\]</p></li><li><p>så \\(C\\approx 91{,}6^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(91{,}6^\\circ\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln C ligger mittemot sidan 10,0 cm</p><div class=\"facit-matte\">\\[10^2=5{,}5^2+8{,}2^2-2\\cdot5{,}5\\cdot8{,}2\\cos C\\]</div></li><li><p class=\"facit-rubrik\">Cosinussatsen löst för vinkeln: \\(\\cos C=\\dfrac{a^2+b^2-c^2}{2ab}\\)</p><div class=\"facit-matte\">\\[\\cos C=\\frac{30{,}25+67{,}24-100}{90{,}2}\\approx-0{,}0278\\]</div></li><li><p class=\"facit-rubrik\">Invers cosinus: negativt värde ger trubbig vinkel</p><div class=\"facit-matte\">\\[C\\approx91{,}6^\\circ\\]</div><p>Negativt cosinusvärde ger en trubbig vinkel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(91{,}6^\\circ\\)</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -56264,7 +56304,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två bryggor ligger 85 m från varandra. En boj ses under vinklarna 55° respektive 72° mot linjen mellan bryggorna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med markerade mått\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"105.3,220.0 284.7,220.0 227.8,45.0\" fill=\"#F7F8FA\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"91.3\" y=\"238.0\" font-size=\"13\">A</text><text x=\"292.7\" y=\"238.0\" font-size=\"13\">B</text><text x=\"223.8\" y=\"34.0\" font-size=\"13\">C</text><path d=\"M 117.9 202.0 L 119.0 202.8 L 120.1 203.7 L 121.1 204.7 L 122.1 205.8 L 122.9 206.9 L 123.8 208.0 L 124.5 209.2 L 125.1 210.5 L 125.7 211.8 L 126.2 213.1 L 126.6 214.4 L 126.9 215.8 L 127.1 217.2 L 127.3 218.6 L 127.3 220.0\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.4\" /><text x=\"139.0\" y=\"206.5\" text-anchor=\"middle\" font-size=\"12\">55°</text><path d=\"M 262.7 220.0 L 262.8 218.2 L 263.0 216.3 L 263.4 214.5 L 263.9 212.8 L 264.6 211.1 L 265.4 209.4 L 266.4 207.8 L 267.5 206.3 L 268.7 204.9 L 270.0 203.7 L 271.4 202.5 L 272.9 201.4 L 274.5 200.5 L 276.2 199.7 L 277.9 199.1\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.4\" /><text x=\"254.0\" y=\"201.7\" text-anchor=\"middle\" font-size=\"12\">72°</text><text x=\"195.0\" y=\"236.0\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#2A5D9E\">c = 85 m</text></svg></span><p>Bestäm avståndet från vardera observationspunkten till objektet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den tredje vinkeln är \\(53^\\circ\\).</p></li><li><p>Sidan 85 m ligger mot den vinkeln.</p></li><li><p>Sinussatsen ger</p><p>\\[a=85\\frac{\\sin55^\\circ}{\\sin53^\\circ}\\approx87{,}2\\text{ m},\\]</p><p>\\[b=85\\frac{\\sin72^\\circ}{\\sin53^\\circ}\\approx101{,}2\\text{ m}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: A till bojen (m): \\(101{,}2\\), B till bojen (m): \\(87{,}2\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkelsumman i en triangel är \\(180^\\circ\\)</p><div class=\"facit-matte\">\\[C=180^\\circ-55^\\circ-72^\\circ=53^\\circ\\]</div><p>Sidan 85 m ligger mittemot C.</p></li><li><p class=\"facit-rubrik\">Sinussatsen: \\(\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}\\) för avståndet från A (mittemot 72°)</p><div class=\"facit-matte\">\\[AC=85\\cdot\\frac{\\sin72^\\circ}{\\sin53^\\circ}\\approx101{,}2\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Avståndet från B ligger mittemot 55°</p><div class=\"facit-matte\">\\[BC=85\\cdot\\frac{\\sin55^\\circ}{\\sin53^\\circ}\\approx87{,}2\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A till bojen 101,2 m, B till bojen 87,2 m</p></div>",
     "familj": "Avstånd och triangulering",
     "geogebra": false,
     "miniräknare": true,
@@ -56312,7 +56352,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Det blå området visar det tillåtna området för variablerna \\(x\\) och \\(y\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"330\" viewBox=\"0 0 440 330\" role=\"img\" aria-label=\"Tillåtet område för linjär optimering\"><defs><marker id=\"lo1arr\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\"><path d=\"M0,0 L7,3.5 L0,7 z\" fill=\"#2B2527\" /></marker></defs><rect x=\"1\" y=\"1\" width=\"400\" height=\"328\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"100.0\" y1=\"25\" x2=\"100.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"145.0\" y1=\"25\" x2=\"145.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"190.0\" y1=\"25\" x2=\"190.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"235.0\" y1=\"25\" x2=\"235.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"280.0\" y1=\"25\" x2=\"280.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"325.0\" y1=\"25\" x2=\"325.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"370.0\" y1=\"25\" x2=\"370.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"415.0\" y1=\"25\" x2=\"415.0\" y2=\"285\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"285.0\" x2=\"415\" y2=\"285.0\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"252.5\" x2=\"415\" y2=\"252.5\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"220.0\" x2=\"415\" y2=\"220.0\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"187.5\" x2=\"415\" y2=\"187.5\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"155.0\" x2=\"415\" y2=\"155.0\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"122.5\" x2=\"415\" y2=\"122.5\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"90.0\" x2=\"415\" y2=\"90.0\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"57.5\" x2=\"415\" y2=\"57.5\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"25.0\" x2=\"415\" y2=\"25.0\" stroke=\"#E9E8EB\" /><line x1=\"55\" y1=\"285\" x2=\"425\" y2=\"285\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#lo1arr)\" /><line x1=\"55\" y1=\"285\" x2=\"55\" y2=\"15\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#lo1arr)\" /><polygon points=\"55.0,285.0 55.0,122.5 190.0,122.5 370.0,252.5 370.0,285.0\" fill=\"#D9E7F8\" fill-opacity=\"0.75\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" /><circle cx=\"55.0\" cy=\"285.0\" r=\"4\" fill=\"#B43123\" /><text x=\"61.0\" y=\"278.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\">(0,0)</text><circle cx=\"55.0\" cy=\"122.5\" r=\"4\" fill=\"#B43123\" /><text x=\"61.0\" y=\"115.5\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\">(0,5)</text><circle cx=\"190.0\" cy=\"122.5\" r=\"4\" fill=\"#B43123\" /><text x=\"196.0\" y=\"115.5\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\">(3,5)</text><circle cx=\"370.0\" cy=\"252.5\" r=\"4\" fill=\"#B43123\" /><text x=\"376.0\" y=\"245.5\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\">(7,1)</text><circle cx=\"370.0\" cy=\"285.0\" r=\"4\" fill=\"#B43123\" /><text x=\"376.0\" y=\"278.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\">(7,0)</text></svg></span><p>Maximera målfunktionen \\(Z=25x-40y\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beräkna målfunktionen i hörnpunkterna:</p><p>\\[Z(0,0)=0,\\quad Z(0,5)=-200,\\quad Z(3,5)=-125,\\quad Z(7,1)=135,\\quad Z(7,0)=175.\\]</p></li><li><p>Största värdet är \\(175\\) i punkten \\((7,0)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=7\\), \\(y=0\\), \\(Z_{\\max}=175\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=25x-40y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\ Z(0,5)=-200,\\ Z(3,5)=-125\\]</div><div class=\"facit-matte\">\\[Z(7,1)=135,\\ Z(7,0)=175\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((7,0)\\)</p><p>Den negativa koefficienten för y gör att y = 0 lönar sig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\), \\(y=0\\), \\(Z_{\\max}=175\\)</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -56361,7 +56401,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna den geometriska summan</p><p>\\[5+2{,}5+1{,}25+\\cdots\\]</p><p>med totalt 5 termer och kvoten \\(k=0,5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[a=5\\],</div></div></li><li><p>\\(k=0,5\\) och \\(n=5\\):</p><p>\\[S_5=5\\frac{0{,}5^5-1}{0{,}5-1}=9{,}6875.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(9{,}6875\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av första term, kvot och antal termer</p><div class=\"facit-matte\">\\[a=5,\\quad k=0{,}5,\\quad n=5\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_5=5\\cdot\\frac{0{,}5^5-1}{0{,}5-1}=9{,}6875\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}6875\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -56391,7 +56431,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc411arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc411arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc411arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"85.3\" y2=\"191\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"85.3\" cy=\"191\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"75.3\" y=\"209\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2B2527\">P</text><path d=\"M 196 145 L 195.7 140.8 L 194.9 136.7 L 193.5 132.7 L 191.5 129 L 189.1 125.5 L 186.3 122.5 L 183 119.8 L 179.4 117.6 L 175.6 115.9 L 171.6 114.7 L 167.4 114.1 L 163.2 114.1 L 159 114.6 L 155 115.7 L 151.1 117.3 L 147.5 119.4 L 144.2 122 L 141.3 125.1 L 138.8 128.5 L 136.8 132.2 L 135.3 136.1 L 134.4 140.2 L 134 144.4 L 134.2 148.6 L 135 152.7 L 136.3 156.7 L 138.2 160.5\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"152.8\" y=\"103.6\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">210°</text></svg></span><p>Bestäm exakt a) \\(\\cos 210^\\circ\\), b) \\(\\sin 210^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(210^\\circ\\) ligger i tredje kvadranten och har referensvinkeln \\(30^\\circ\\).</p></li><li><p>Därför</p><p>\\[\\cos210^\\circ=-\\frac{\\sqrt3}{2},\\qquad \\sin210^\\circ=-\\frac12.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: a) \\(-\\dfrac{\\sqrt{3}}{2}\\), b) \\(-\\dfrac{1}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ\\) ligger i tredje kvadranten, referensvinkel \\(30^\\circ\\)</p><p>Där är både x- och y-koordinaten negativa.</p></li><li><p class=\"facit-rubrik\">\\(\\cos v\\) är x-koordinaten</p><div class=\"facit-matte\">\\[\\cos210^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\tfrac{\\sqrt3}{2}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ\\) ligger i tredje kvadranten, referensvinkel \\(30^\\circ\\)</p><p>Där är y-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">\\(\\sin v\\) är y-koordinaten</p><div class=\"facit-matte\">\\[\\sin210^\\circ=-\\sin30^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\tfrac12\\)</p></div></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -56420,7 +56460,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc411arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc411arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc411arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"85.3\" y1=\"145\" y2=\"191\"></line><circle cx=\"85.3\" cy=\"191\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" x=\"75.3\" y=\"209\">P</text><path d=\"M 196 145 L 195.7 140.8 L 194.9 136.7 L 193.5 132.7 L 191.5 129 L 189.1 125.5 L 186.3 122.5 L 183 119.8 L 179.4 117.6 L 175.6 115.9 L 171.6 114.7 L 167.4 114.1 L 163.2 114.1 L 159 114.6 L 155 115.7 L 151.1 117.3 L 147.5 119.4 L 144.2 122 L 141.3 125.1 L 138.8 128.5 L 136.8 132.2 L 135.3 136.1 L 134.4 140.2 L 134 144.4 L 134.2 148.6 L 135 152.7 L 136.3 156.7 L 138.2 160.5\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"152.8\" y=\"103.6\">210°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\cos 210^\\circ\\),</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{- \\frac{\\sqrt{3}}{2}}\\],</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ\\) ligger i tredje kvadranten, referensvinkel \\(30^\\circ\\)</p><p>Där är både x- och y-koordinaten negativa.</p></li><li><p class=\"facit-rubrik\">\\(\\cos v\\) är x-koordinaten</p><div class=\"facit-matte\">\\[\\cos210^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\tfrac{\\sqrt3}{2}\\)</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -56428,7 +56468,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc411arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc411arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc411arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"85.3\" y1=\"145\" y2=\"191\"></line><circle cx=\"85.3\" cy=\"191\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" x=\"75.3\" y=\"209\">P</text><path d=\"M 196 145 L 195.7 140.8 L 194.9 136.7 L 193.5 132.7 L 191.5 129 L 189.1 125.5 L 186.3 122.5 L 183 119.8 L 179.4 117.6 L 175.6 115.9 L 171.6 114.7 L 167.4 114.1 L 163.2 114.1 L 159 114.6 L 155 115.7 L 151.1 117.3 L 147.5 119.4 L 144.2 122 L 141.3 125.1 L 138.8 128.5 L 136.8 132.2 L 135.3 136.1 L 134.4 140.2 L 134 144.4 L 134.2 148.6 L 135 152.7 L 136.3 156.7 L 138.2 160.5\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"152.8\" y=\"103.6\">210°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\sin 210^\\circ\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{- \\frac{1}{2}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ\\) ligger i tredje kvadranten, referensvinkel \\(30^\\circ\\)</p><p>Där är y-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">\\(\\sin v\\) är y-koordinaten</p><div class=\"facit-matte\">\\[\\sin210^\\circ=-\\sin30^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\tfrac12\\)</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -56455,7 +56495,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två sidor i en triangel är 12 cm och 15 cm och vinkeln mellan dem är \\(35^\\circ\\). Bestäm triangelns omkrets. Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bestäm först den tredje sidan med cosinussatsen:</p><p>\\[c=\\sqrt{12^2+15^2-2\\cdot12\\cdot15\\cos35^\\circ}\\approx 8{,}6\\text{ cm}.\\]</p></li><li><p>Omkretsen blir</p><p>\\[12+15+8{,}6\\approx 35{,}6\\text{ cm}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(35{,}6\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två sidor och mellanliggande vinkel: cosinussatsen ger tredje sidan</p><div class=\"facit-matte\">\\[c^2=12^2+15^2-2\\cdot12\\cdot15\\cos35^\\circ\\approx74{,}1\\]</div><div class=\"facit-matte\">\\[c\\approx8{,}61\\ \\text{cm}\\]</div></li><li><p class=\"facit-rubrik\">Omkretsen är summan av sidorna</p><div class=\"facit-matte\">\\[12+15+8{,}61\\approx35{,}6\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 35,6 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -56485,7 +56525,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En triangelformad del av ett tak har två kantlängder 6 m och 8 m. Vinkeln mellan kanterna är 110°.</p><p>Bestäm takdelens area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De två kända sidorna omsluter vinkeln \\(110^\\circ\\).</p></li><li><p>Areasatsen ger</p><p>\\[T=\\frac{6\\cdot8\\sin110^\\circ}{2}\\approx22{,}55\\text{ m}^2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(22{,}55\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Areasatsen: \\(T=\\tfrac12ab\\sin C\\) med vinkeln 110° mellan kanterna</p><div class=\"facit-matte\">\\[T=\\frac{6\\cdot8\\cdot\\sin110^\\circ}{2}\\approx22{,}55\\ \\text{m}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 22,55 m²</p></div>",
     "familj": "Areor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -56550,7 +56590,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna den geometriska summan</p><p>\\[120+124{,}8+129{,}792+\\cdots\\]</p><p>med totalt 8 termer och kvoten \\(k=1{,}04\\). Svara med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Med</p><div class=\"facit-matte\">\\[a=120\\],</div></div></li><li><p>\\(k=1{,}04\\) och \\(n=8\\):</p><p>\\[S_8=120\\frac{1{,}04^8-1}{1{,}04-1}\\approx1105{,}707.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(1105{,}707\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av första term, kvot och antal termer</p><div class=\"facit-matte\">\\[a=120,\\quad k=1{,}04,\\quad n=8\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_8=120\\cdot\\frac{1{,}04^8-1}{1{,}04-1}\\]</div><div class=\"facit-matte\">\\[\\approx1105{,}707\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1105{,}707\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -56580,7 +56620,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc416arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc416arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc416arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"211\" y2=\"224.7\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"211\" cy=\"224.7\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"221\" y=\"242.7\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2B2527\">P</text><path d=\"M 196 145 L 195.7 140.7 L 194.8 136.6 L 193.4 132.5 L 191.4 128.8 L 188.9 125.3 L 186 122.2 L 182.7 119.5 L 179 117.3 L 175.1 115.7 L 170.9 114.6 L 166.7 114 L 162.4 114.1 L 158.2 114.8 L 154.1 116 L 150.2 117.7 L 146.6 120 L 143.4 122.8 L 140.5 126 L 138.2 129.5 L 136.3 133.3 L 134.9 137.4 L 134.2 141.6 L 134 145.9 L 134.4 150.1 L 135.4 154.3 L 137 158.2 L 139 162 L 141.6 165.4 L 144.6 168.4 L 148 171 L 151.8 173 L 155.7 174.6 L 159.9 175.6 L 164.1 176 L 168.4 175.8 L 172.6 175.1 L 176.7 173.7 L 180.5 171.8\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"124.3\" y=\"125.5\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">300°</text></svg></span><p>Bestäm exakt a) \\(\\cos 300^\\circ\\), b) \\(\\sin 300^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(300^\\circ\\) ligger i fjärde kvadranten och har referensvinkeln \\(60^\\circ\\).</p></li><li><p>Därför</p><p>\\[\\cos300^\\circ=\\frac12,\\qquad \\sin300^\\circ=-\\frac{\\sqrt3}{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: a) \\(\\dfrac{1}{2}\\), b) \\(-\\dfrac{\\sqrt{3}}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(300^\\circ\\) ligger i fjärde kvadranten, referensvinkel \\(60^\\circ\\)</p><p>Där är x-koordinaten positiv.</p></li><li><p class=\"facit-rubrik\">\\(\\cos v\\) är x-koordinaten</p><div class=\"facit-matte\">\\[\\cos300^\\circ=\\cos60^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac12\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(300^\\circ\\) ligger i fjärde kvadranten, referensvinkel \\(60^\\circ\\)</p><p>Där är y-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">\\(\\sin v\\) är y-koordinaten</p><div class=\"facit-matte\">\\[\\sin300^\\circ=-\\sin60^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\tfrac{\\sqrt3}{2}\\)</p></div></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -56613,7 +56653,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc416arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc416arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc416arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"211\" y1=\"145\" y2=\"224.7\"></line><circle cx=\"211\" cy=\"224.7\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" x=\"221\" y=\"242.7\">P</text><path d=\"M 196 145 L 195.7 140.7 L 194.8 136.6 L 193.4 132.5 L 191.4 128.8 L 188.9 125.3 L 186 122.2 L 182.7 119.5 L 179 117.3 L 175.1 115.7 L 170.9 114.6 L 166.7 114 L 162.4 114.1 L 158.2 114.8 L 154.1 116 L 150.2 117.7 L 146.6 120 L 143.4 122.8 L 140.5 126 L 138.2 129.5 L 136.3 133.3 L 134.9 137.4 L 134.2 141.6 L 134 145.9 L 134.4 150.1 L 135.4 154.3 L 137 158.2 L 139 162 L 141.6 165.4 L 144.6 168.4 L 148 171 L 151.8 173 L 155.7 174.6 L 159.9 175.6 L 164.1 176 L 168.4 175.8 L 172.6 175.1 L 176.7 173.7 L 180.5 171.8\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"124.3\" y=\"125.5\">300°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\cos 300^\\circ\\),</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{\\frac{1}{2}}\\],</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(300^\\circ\\) ligger i fjärde kvadranten, referensvinkel \\(60^\\circ\\)</p><p>Där är x-koordinaten positiv.</p></li><li><p class=\"facit-rubrik\">\\(\\cos v\\) är x-koordinaten</p><div class=\"facit-matte\">\\[\\cos300^\\circ=\\cos60^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\tfrac12\\)</p></div>",
         "ledtrad": "<p>Referensvinkeln är \\(60^\\circ\\). I fjärde kvadranten är cosinus positivt och sinus negativt.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -56621,7 +56661,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc416arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc416arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc416arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"211\" y1=\"145\" y2=\"224.7\"></line><circle cx=\"211\" cy=\"224.7\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" x=\"221\" y=\"242.7\">P</text><path d=\"M 196 145 L 195.7 140.7 L 194.8 136.6 L 193.4 132.5 L 191.4 128.8 L 188.9 125.3 L 186 122.2 L 182.7 119.5 L 179 117.3 L 175.1 115.7 L 170.9 114.6 L 166.7 114 L 162.4 114.1 L 158.2 114.8 L 154.1 116 L 150.2 117.7 L 146.6 120 L 143.4 122.8 L 140.5 126 L 138.2 129.5 L 136.3 133.3 L 134.9 137.4 L 134.2 141.6 L 134 145.9 L 134.4 150.1 L 135.4 154.3 L 137 158.2 L 139 162 L 141.6 165.4 L 144.6 168.4 L 148 171 L 151.8 173 L 155.7 174.6 L 159.9 175.6 L 164.1 176 L 168.4 175.8 L 172.6 175.1 L 176.7 173.7 L 180.5 171.8\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"124.3\" y=\"125.5\">300°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\sin 300^\\circ\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\boxed{- \\frac{\\sqrt{3}}{2}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(300^\\circ\\) ligger i fjärde kvadranten, referensvinkel \\(60^\\circ\\)</p><p>Där är y-koordinaten negativ.</p></li><li><p class=\"facit-rubrik\">\\(\\sin v\\) är y-koordinaten</p><div class=\"facit-matte\">\\[\\sin300^\\circ=-\\sin60^\\circ=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\tfrac{\\sqrt3}{2}\\)</p></div>",
         "ledtrad": "<p>Referensvinkeln är \\(60^\\circ\\). I fjärde kvadranten är cosinus positivt och sinus negativt.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -56742,7 +56782,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna den geometriska summan</p><p>\\[2-1+0{,}5-0{,}25+\\cdots\\]</p><p>med totalt 6 termer och kvoten \\(k=-0,5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[a=2\\],</div></div></li><li><p>\\(k=-0,5\\) och \\(n=6\\):</p><p>\\[S_6=2\\frac{(-0,5)^6-1}{-0{,}5-1}=1{,}3125.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(1{,}3125\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av första term, kvot och antal termer</p><div class=\"facit-matte\">\\[a=2,\\quad k=-0{,}5,\\quad n=6\\]</div><p>Termerna byter tecken, så kvoten är negativ.</p></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med parentes kring den negativa kvoten</p><div class=\"facit-matte\">\\[S_6=2\\cdot\\frac{(-0{,}5)^6-1}{-0{,}5-1}=1{,}3125\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3125\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -56772,7 +56812,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Punkten \\(P=(\\frac{\\sqrt2}{2},-\\frac{\\sqrt2}{2})\\) ligger på enhetscirkeln. Bestäm vinkeln \\(v\\) om \\(0^\\circ\\le v\\lt360^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda koordinaterna har absolutvärdet \\(\\sqrt2/2\\), så referensvinkeln är \\(45^\\circ\\).</p></li><li><p>Punkten ligger i fjärde kvadranten.</p><p>\\[v=360^\\circ-45^\\circ=315^\\circ.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(315^\\circ\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Båda koordinaterna har beloppet \\(\\tfrac{\\sqrt2}{2}\\)</p><p>Referensvinkeln är 45°.</p></li><li><p class=\"facit-rubrik\">x positiv, y negativ: fjärde kvadranten</p><div class=\"facit-matte\">\\[v=360^\\circ-45^\\circ=315^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(315^\\circ\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -56839,7 +56879,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>Ett fartyg seglar 18 km österut och därefter 25 km i en riktning som ligger 60° norr om öst. Hur långt är fartyget då från startpunkten?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 245\" role=\"img\" aria-label=\"Fartyget seglar 18 kilometer österut, sedan 25 kilometer 60 grader norr om öst. En streckad linje förenar start och slut.\" style=\"width:100%;max-width:390px\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"8\" fill=\"#fff\" stroke=\"#e4e3e6\"/><line x1=\"48\" y1=\"198\" x2=\"183\" y2=\"198\" stroke=\"#2a5d9e\" stroke-width=\"4\"/><line x1=\"183\" y1=\"198\" x2=\"276.75\" y2=\"35.62\" stroke=\"#0f6b4f\" stroke-width=\"4\"/><line x1=\"48\" y1=\"198\" x2=\"276.75\" y2=\"35.62\" stroke=\"#b43123\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"183\" y1=\"198\" x2=\"238\" y2=\"198\" stroke=\"#64748b\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><path d=\"M213 198 A30 30 0 0 0 198 172.02\" fill=\"none\" stroke=\"#2b2527\" stroke-width=\"1.6\"/><g font-family=\"Arial,sans-serif\" font-size=\"14\"><text x=\"101\" y=\"220\" fill=\"#2a5d9e\">18 km</text><text x=\"241\" y=\"108\" fill=\"#0f6b4f\">25 km</text><text x=\"215\" y=\"176\" fill=\"#172b3a\">60°</text><text x=\"241\" y=\"205\" fill=\"#475569\">öst</text><text x=\"34\" y=\"187\" fill=\"#172b3a\">start</text><text x=\"282\" y=\"36\" fill=\"#172b3a\">slut</text></g></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De två förflyttningarna bildar vinkeln 60°.</p></li><li><p>Resultantens längd kan bestämmas med cosinussatsen (med plus eftersom trianglens inre vinkel motsvarande blir 120°):</p><p>\\[d^2=18^2+25^2+2\\cdot18\\cdot25\\cos60^\\circ.\\]</p><p>\\[d\\approx 37{,}4\\text{ km}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(37{,}4\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre vinkeln vid vändpunkten</p><div class=\"facit-matte\">\\[180^\\circ-60^\\circ=120^\\circ\\]</div><p>Kursändringen 60° är yttervinkeln.</p></li><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 120°</p><div class=\"facit-matte\">\\[d^2=18^2+25^2-2\\cdot18\\cdot25\\cos120^\\circ\\]</div><div class=\"facit-matte\">\\[=324+625+450=1399\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten ur 1399</p><div class=\"facit-matte\">\\[d=\\sqrt{1399}\\approx37{,}4\\ \\text{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 37,4 km</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": true,
@@ -56873,7 +56913,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Det tillåtna området bestäms av</p><p>\\[2x+y\\le40,\\qquad x+3y\\le45,\\qquad x\\ge0,\\ y\\ge0.\\]</p><p>Vilken punkt ligger i det tillåtna området?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Pröva punkterna i båda olikheterna.</p></li><li><p>För \\((10,10)\\) fås</p><p>\\[2\\cdot10+10=30\\le40,\\qquad10+3\\cdot10=40\\le45.\\]</p></li><li><p>De övriga punkterna bryter mot minst ett villkor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((10,10)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva punkterna i båda olikheterna</p><div class=\"facit-matte\">\\[(10,10):\\quad 2\\cdot10+10=30\\le40\\]</div><div class=\"facit-matte\">\\[10+3\\cdot10=40\\le45\\]</div></li><li><p class=\"facit-rubrik\">Alla villkor uppfylls bara av \\((10,10)\\)</p><p>Varje annan punkt bryter mot minst ett villkor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((10,10)\\)</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -56893,7 +56933,27 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "alternativ": [{"txt": "\\((18,6)\\)", "ratt": false}, {"txt": "\\((20,10)\\)", "ratt": false}, {"txt": "\\((5,15)\\)", "ratt": false}, {"txt": "\\((10,10)\\)", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "\\((18,6)\\)",
+        "ratt": false,
+        "kommentar": "\\(2\\cdot18+6=42\\gt40\\): första villkoret bryts."
+      },
+      {
+        "txt": "\\((20,10)\\)",
+        "ratt": false,
+        "kommentar": "\\(2\\cdot20+10=50\\gt40\\): första villkoret bryts."
+      },
+      {
+        "txt": "\\((5,15)\\)",
+        "ratt": false,
+        "kommentar": "\\(5+3\\cdot15=50\\gt45\\): andra villkoret bryts."
+      },
+      {
+        "txt": "\\((10,10)\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "4.25",
@@ -56905,7 +56965,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En geometrisk talföljd börjar \\(4,12,36,108,\\ldots\\). Beräkna summan av de första 7 termerna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kvoten är</p><div class=\"facit-matte\">\\[k=12/4=3\\].</div></div></li><li><p>Med \\(a=4\\) och \\(n=7\\):</p><p>\\[S_7=4\\frac{3^7-1}{3-1}=4372.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4372\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten = en term delad med termen före</p><div class=\"facit-matte\">\\[k=\\frac{12}{4}=3\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(a=4\\) och \\(n=7\\)</p><div class=\"facit-matte\">\\[S_7=4\\cdot\\frac{3^7-1}{3-1}=4\\cdot\\frac{2186}{2}=4372\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4372\\)</p></div>",
     "familj": "Geometriska talföljder",
     "geogebra": false,
     "miniräknare": true,
@@ -56935,7 +56995,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En vinkel \\(v\\) ligger i tredje kvadranten och \\(\\cos v=-\\frac12\\). Bestäm \\(\\sin v\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Referensvinkeln är \\(60^\\circ\\), eftersom \\(|\\cos v|=1/2\\).</p></li><li><p>I tredje kvadranten är sinus negativt.</p><p>\\[\\sin v=-\\frac{\\sqrt3}{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-\\dfrac{\\sqrt{3}}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(|\\cos v|=\\tfrac12\\) ger referensvinkeln \\(60^\\circ\\)</p><div class=\"facit-matte\">\\[|\\sin v|=\\sin60^\\circ=\\frac{\\sqrt3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Sinus är negativ i tredje kvadranten</p><div class=\"facit-matte\">\\[\\sin v=-\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac{\\sqrt3}{2}\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -57036,7 +57096,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Målfunktionen i ett linjärt optimeringsproblem är \\(Z=3x+2y\\). Linjer med samma värde på \\(Z\\) kan skrivas \\(3x+2y=c\\). Bestäm dessa linjers lutning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lös ut \\(y\\):</p><p>\\[2y=-3x+c\\Rightarrow y=-\\frac32x+\\frac c2.\\]</p></li><li><p>Lutningen är därför \\(\\boxed{-3/2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-\\dfrac{3}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut y ur \\(3x+2y=c\\)</p><div class=\"facit-matte\">\\[2y=-3x+c\\quad\\Rightarrow\\quad y=-\\frac32x+\\frac c2\\]</div></li><li><p class=\"facit-rubrik\">Lutningen är koefficienten framför x</p><div class=\"facit-matte\">\\[k=-\\frac32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac{3}{2}\\)</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -57067,7 +57127,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En person sätter in 1000 kr i slutet av varje år på ett konto med 3 % ränta. Hur mycket finns direkt efter den femte insättningen, om varje tidigare insättning har hunnit få ränta?</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"180\" viewBox=\"0 0 390 180\" role=\"img\" aria-label=\"Tidslinje för fem årliga insättningar\"><line x1=\"40\" y1=\"100\" x2=\"345\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"55\" y1=\"92\" x2=\"55\" y2=\"108\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"55\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">år 1</text><text x=\"55\" y=\"73\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"currentColor\">1000 kr</text><line x1=\"120\" y1=\"92\" x2=\"120\" y2=\"108\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"120\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">år 2</text><text x=\"120\" y=\"73\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"currentColor\">1000 kr</text><line x1=\"185\" y1=\"92\" x2=\"185\" y2=\"108\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"185\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">år 3</text><text x=\"185\" y=\"73\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"currentColor\">1000 kr</text><line x1=\"250\" y1=\"92\" x2=\"250\" y2=\"108\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"250\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">år 4</text><text x=\"250\" y=\"73\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"currentColor\">1000 kr</text><line x1=\"315\" y1=\"92\" x2=\"315\" y2=\"108\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"315\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">år 5</text><text x=\"315\" y=\"73\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"currentColor\">1000 kr</text><text x=\"195\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">3 % ränta per år</text></svg>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Direkt efter den femte insättningen är de fem insättningarna värda</p><p>\\[1000\\cdot1{,}03^4+1000\\cdot1{,}03^3+\\cdots+1000.\\]</p></li><li><p>Det är en geometrisk summa med fem termer:</p><p>\\[S=1000\\frac{1{,}03^5-1}{1{,}03-1}\\approx5309{,}14\\text{ kr}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(5309\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värdet av varje insättning efter den femte</p><p>Den första har fått ränta 4 gånger, den andra 3 gånger och den sista ingen gång.</p><div class=\"facit-matte\">\\[1000+1000\\cdot1{,}03+\\ldots+1000\\cdot1{,}03^4\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(a=1000\\), \\(k=1{,}03\\), \\(n=5\\)</p><div class=\"facit-matte\">\\[S_5=1000\\cdot\\frac{1{,}03^5-1}{1{,}03-1}\\]</div><div class=\"facit-matte\">\\[\\approx5309{,}14\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(5309{,}14\\) kr</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -57233,7 +57293,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En förening ökar sitt årliga bidrag från en sponsor med 5 % varje år. Första året är bidraget 20 000 kr. Hur mycket bidrag får föreningen sammanlagt under 8 år?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Bidragen bildar en geometrisk följd med</p><div class=\"facit-matte\">\\[a=20000\\],</div></div></li><li><p>\\(k=1{,}05\\) och 8 termer:</p><p>\\[S_8=20000\\frac{1{,}05^8-1}{1{,}05-1}\\approx190982{,}18\\text{ kr}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(190\\,982\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ökning med 5 % ger kvoten 1,05</p><div class=\"facit-matte\">\\[a=20\\,000,\\quad k=1{,}05,\\quad n=8\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_8=20\\,000\\cdot\\frac{1{,}05^8-1}{1{,}05-1}\\]</div><div class=\"facit-matte\">\\[\\approx190\\,982{,}18\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(190\\,982{,}18\\) kr</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -57568,7 +57628,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>En geometrisk summa har första termen 50 och kvoten 1,2. Hur många termer behövs minst för att summan ska överstiga 500?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[S_n=50\\frac{1{,}2^n-1}{1{,}2-1}.\\]</p></li><li><p>Runt gränsen fås \\(S_6\\approx496{,}5\\) och \\(S_7\\approx645{,}8\\).</p></li><li><p>Alltså behövs minst \\(\\boxed{7}\\) termer.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(7\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(a=50\\) och \\(k=1{,}2\\)</p><div class=\"facit-matte\">\\[S_n=50\\cdot\\frac{1{,}2^n-1}{1{,}2-1}\\]</div></li><li><p class=\"facit-rubrik\">Pröva heltal nära gränsen 500</p><div class=\"facit-matte\">\\[S_6\\approx496{,}5\\lt500\\]</div><div class=\"facit-matte\">\\[S_7\\approx645{,}8\\gt500\\]</div></li><li><p class=\"facit-rubrik\">Minsta antal termer som räcker</p><p>Sex termer räcker inte, men sju gör det.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(7\\) termer</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -57706,7 +57766,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Det tillåtna området har hörnpunkterna \\((0,0)\\), \\((0,7)\\), \\((5,4)\\) och \\((9,0)\\). Målfunktionen är \\(Z=-2x+5y\\). Bestäm största möjliga värde på \\(Z\\) och var det antas.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beräkna i hörnpunkterna:</p><p>\\[Z(0,0)=0,\\quad Z(0,7)=35,\\quad Z(5,4)=10,\\quad Z(9,0)=-18.\\]</p></li><li><p>Maximum är \\(35\\) i \\((0,7)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=0\\), \\(y=7\\), \\(Z_{\\max}=35\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=-2x+5y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\quad Z(0,7)=35\\]</div><div class=\"facit-matte\">\\[Z(5,4)=10,\\quad Z(9,0)=-18\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((0,7)\\)</p><div class=\"facit-matte\">\\[Z_{\\max}=35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\), \\(y=7\\), \\(Z_{\\max}=35\\)</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -57901,7 +57961,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Det tillåtna området i ett linjärt optimeringsproblem har hörnpunkterna \\((0,0)\\), \\((0,8)\\), \\((4,4)\\) och \\((10,0)\\). Målfunktionen är \\(Z=2x-3y\\).</p><p>Bestäm minsta möjliga värde på \\(Z\\) och ange i vilken hörnpunkt det antas.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beräkna målfunktionen i hörnpunkterna:</p><p>\\[Z(0,0)=0,\\quad Z(0,8)=-24,\\quad Z(4,4)=-4,\\quad Z(10,0)=20.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta värdet är \\(\\boxed{-24}\\) i punkten \\(\\boxed{(0,8)}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=2x-3y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\quad Z(0,8)=-24\\]</div><div class=\"facit-matte\">\\[Z(4,4)=-4,\\quad Z(10,0)=20\\]</div></li><li><p class=\"facit-rubrik\">Minst i \\((0,8)\\)</p><div class=\"facit-matte\">\\[Z_{\\min}=-24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta värdet \\(-24\\) i punkten \\((0,8)\\)</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -57950,7 +58010,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Den geometriska talföljden börjar \\(3,6,12,24,\\ldots\\). Bestäm den sjätte termen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kvoten är</p><div class=\"facit-matte\">\\[k=2\\].</div></div></li><li><p>Den sjätte termen är</p><p>\\[a_6=3\\cdot2^5=96.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(96\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten = en term delad med termen före</p><div class=\"facit-matte\">\\[k=\\frac63=2\\]</div></li><li><p class=\"facit-rubrik\">Termformeln: \\(a_n=a\\cdot k^{n-1}\\) med \\(a=3\\) och \\(n=6\\)</p><div class=\"facit-matte\">\\[a_6=3\\cdot2^5=3\\cdot32=96\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(96\\)</p></div>",
     "familj": "Geometriska talföljder",
     "geogebra": false,
     "miniräknare": false,
@@ -58061,7 +58121,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två fyrar A och B ligger 4,8 km från varandra. Från en båt mäts vinklarna mot A och B så att triangeln båt-A-B har vinklarna 38° vid A och 67° vid B.</p><p>Bestäm båtens avstånd till fyr A.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Den tredje vinkeln är</p><div class=\"facit-matte\">\\[180^\\circ-38^\\circ-67^\\circ=75^\\circ\\].</div></div></li><li><p>Sidan AB=4,8 km ligger mot 75°.</p></li><li><p>Avståndet från båten till A ligger mot 67°.</p></li><li><p>Sinussatsen ger</p><p>\\[\\frac{AP}{\\sin67^\\circ}=\\frac{4{,}8}{\\sin75^\\circ}.\\]</p><p>\\[AP\\approx4{,}57\\text{ km}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{4{,}57\\text{ km}}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkelsumman i en triangel är \\(180^\\circ\\)</p><div class=\"facit-matte\">\\[\\text{vinkeln vid båten}=180^\\circ-38^\\circ-67^\\circ=75^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sinussatsen: \\(\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}\\): AP ligger mittemot 67°</p><div class=\"facit-matte\">\\[\\frac{AP}{\\sin67^\\circ}=\\frac{4{,}8}{\\sin75^\\circ}\\quad\\Rightarrow\\quad AP\\approx4{,}57\\ \\text{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,57 km</p></div>",
     "familj": "Avstånd och triangulering",
     "geogebra": false,
     "miniräknare": true,
@@ -58117,71 +58177,71 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "4.60",
-  "kap": 4,
-  "omr": "geometriska_summor",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>En geometrisk talföljd har första termen 4 och kvoten 3.</p><p>a) Bestäm den fjärde termen.<br>b) Bestäm summan av de fyra första termerna.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[a_4=4\\cdot3^3=108.\\]</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Termerna är \\(4,12,36,108\\), så</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[S_4=160.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: a) \\(108\\), b) \\(160\\)</strong></p></div>",
-  "familj": "Beräkna geometriska summor",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    108,
-    160
-  ],
-  "tolerans": [
-    0,
-    0
-  ],
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "ledtrad": "<p>Skilj på en enskild term \\(a_n\\) och summan \\(S_n\\). Båda bygger på samma första term och kvot.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarsstruktur": "ordnad",
-  "svarEtiketter": [
-    "a",
-    "b"
-  ],
-  "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "etikett": "a",
-      "t": "<p>En geometrisk talföljd har första termen 4 och kvoten 3.</p><p><div class=\"spel-en-del\">Bestäm den fjärde termen.</div></p>",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[a_4=4\\cdot3^3=108.\\]</p></li></ol></div></div>",
-      "ledtrad": "<p>Från första till fjärde termen sker tre multiplikationer med kvoten 3.</p>",
-      "niva": "E",
-      "poang": "1/0/0",
-      "miniräknare": true
-    },
-    {
-      "etikett": "b",
-      "t": "<p>En geometrisk talföljd har första termen 4 och kvoten 3.</p><p><div class=\"spel-en-del\">Bestäm summan av de fyra första termerna.</div></p>",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Termerna är \\(4,12,36,108\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[S_4=160.\\]</p></li></ol></div></div>",
-      "ledtrad": "<p>Frågan gäller summan \\(S_4\\), inte bara den fjärde termen.</p>",
-      "niva": "E",
-      "poang": "1/0/0",
-      "miniräknare": true
-    }
-  ],
-  "familjTidigare": [
-    "Beräkna och analysera geometriska summor"
-  ]
-},
+    "id": "4.60",
+    "kap": 4,
+    "omr": "geometriska_summor",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En geometrisk talföljd har första termen 4 och kvoten 3.</p><p>a) Bestäm den fjärde termen.<br>b) Bestäm summan av de fyra första termerna.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Termformeln: \\(a_n=a\\cdot k^{n-1}\\) med \\(a=4\\), \\(k=3\\), \\(n=4\\)</p><div class=\"facit-matte\">\\[a_4=4\\cdot3^3=4\\cdot27=108\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(108\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De fyra första termerna</p><div class=\"facit-matte\">\\[4,\\ 12,\\ 36,\\ 108\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) (eller addera termerna)</p><div class=\"facit-matte\">\\[S_4=4\\cdot\\frac{3^4-1}{3-1}=4\\cdot40=160\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(160\\)</p></div></div>",
+    "familj": "Beräkna geometriska summor",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      108,
+      160
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Skilj på en enskild term \\(a_n\\) och summan \\(S_n\\). Båda bygger på samma första term och kvot.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>En geometrisk talföljd har första termen 4 och kvoten 3.</p><p><div class=\"spel-en-del\">Bestäm den fjärde termen.</div></p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Termformeln: \\(a_n=a\\cdot k^{n-1}\\) med \\(a=4\\), \\(k=3\\), \\(n=4\\)</p><div class=\"facit-matte\">\\[a_4=4\\cdot3^3=4\\cdot27=108\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(108\\)</p></div>",
+        "ledtrad": "<p>Från första till fjärde termen sker tre multiplikationer med kvoten 3.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En geometrisk talföljd har första termen 4 och kvoten 3.</p><p><div class=\"spel-en-del\">Bestäm summan av de fyra första termerna.</div></p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De fyra första termerna</p><div class=\"facit-matte\">\\[4,\\ 12,\\ 36,\\ 108\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) (eller addera termerna)</p><div class=\"facit-matte\">\\[S_4=4\\cdot\\frac{3^4-1}{3-1}=4\\cdot40=160\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(160\\)</p></div>",
+        "ledtrad": "<p>Frågan gäller summan \\(S_4\\), inte bara den fjärde termen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true
+      }
+    ],
+    "familjTidigare": [
+      "Beräkna och analysera geometriska summor"
+    ]
+  },
   {
     "id": "4.61",
     "kap": 4,
@@ -58255,7 +58315,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En fotbollsspelare passar bollen 28 m till en lagkamrat. Därifrån går nästa passning 34 m. Efter den andra passningen är bollen 40 m från den första spelaren. Bestäm vinkeln mellan riktningen tillbaka mot den första spelaren och den andra passningen. Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De tre avstånden bildar en triangel.</p></li><li><p>Låt \\(C\\) vara vinkeln vid lagkamraten.</p></li><li><p>Cosinussatsen ger</p><p>\\[40^2=28^2+34^2-2\\cdot28\\cdot34\\cos C.\\]</p></li><li><p>Alltså \\(C\\approx 79{,}7^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(79{,}7^\\circ\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln vid lagkamraten ligger mittemot 40 m</p><div class=\"facit-matte\">\\[40^2=28^2+34^2-2\\cdot28\\cdot34\\cos C\\]</div></li><li><p class=\"facit-rubrik\">Cosinussatsen löst för vinkeln</p><div class=\"facit-matte\">\\[\\cos C=\\frac{784+1156-1600}{1904}\\approx0{,}179\\]</div><div class=\"facit-matte\">\\[\\Rightarrow C\\approx79{,}7^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(79{,}7^\\circ\\)</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": true,
@@ -58289,7 +58349,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Figuren visar det tillåtna området för ett linjärt optimeringsproblem. Hörnpunkterna är \\((0,0)\\), \\((0,8)\\), \\((4,4)\\) och \\((6,0)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"260\" viewBox=\"0 0 390 260\" role=\"img\" aria-label=\"Tillåtet område i ett linjärt optimeringsproblem\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"258\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"45.0\" y1=\"20\" x2=\"45.0\" y2=\"220\" stroke=\"#EEEDEF\" /><line x1=\"109.0\" y1=\"20\" x2=\"109.0\" y2=\"220\" stroke=\"#EEEDEF\" /><line x1=\"173.0\" y1=\"20\" x2=\"173.0\" y2=\"220\" stroke=\"#EEEDEF\" /><line x1=\"237.0\" y1=\"20\" x2=\"237.0\" y2=\"220\" stroke=\"#EEEDEF\" /><line x1=\"301.0\" y1=\"20\" x2=\"301.0\" y2=\"220\" stroke=\"#EEEDEF\" /><line x1=\"365.0\" y1=\"20\" x2=\"365.0\" y2=\"220\" stroke=\"#EEEDEF\" /><line x1=\"45\" y1=\"220.0\" x2=\"365\" y2=\"220.0\" stroke=\"#EEEDEF\" /><line x1=\"45\" y1=\"180.0\" x2=\"365\" y2=\"180.0\" stroke=\"#EEEDEF\" /><line x1=\"45\" y1=\"140.0\" x2=\"365\" y2=\"140.0\" stroke=\"#EEEDEF\" /><line x1=\"45\" y1=\"100.0\" x2=\"365\" y2=\"100.0\" stroke=\"#EEEDEF\" /><line x1=\"45\" y1=\"60.0\" x2=\"365\" y2=\"60.0\" stroke=\"#EEEDEF\" /><line x1=\"45\" y1=\"20.0\" x2=\"365\" y2=\"20.0\" stroke=\"#EEEDEF\" /><line x1=\"45\" y1=\"220\" x2=\"365\" y2=\"220\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><line x1=\"45\" y1=\"220\" x2=\"45\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><polygon points=\"45.0,220.0 237.0,220.0 173.0,140.0 45.0,60.0\" fill=\"#EAF0F8\" stroke=\"#2A5D9E\" stroke-width=\"2\" opacity=\"0.9\" /><text x=\"365\" y=\"240\" font-size=\"11\">x</text><text x=\"51\" y=\"30\" font-size=\"11\">y</text></svg></span><p>Målfunktionen är \\(Z=3x+5y\\). Bestäm största värdet på \\(Z\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det räcker att pröva hörnpunkterna i det tillåtna området: \\((0,0),(0,8),(4,4),(6,0)\\).</p><p>\\[Z=0,40,32,18.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största värdet är \\(\\boxed{40}\\) i punkten \\((0,8)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=3x+5y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\quad Z(0,8)=40\\]</div><div class=\"facit-matte\">\\[Z(4,4)=32,\\quad Z(6,0)=18\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((0,8)\\)</p><div class=\"facit-matte\">\\[Z_{\\max}=40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -58320,7 +58380,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En geometrisk summa har tre termer och kvoten \\(k=2\\). Summan är 21. Bestäm den första termen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om första termen är \\(a\\) är de tre termerna \\(a,2a,4a\\).</p><p>\\[a+2a+4a=7a=21,\\]</p></li><li><div class=\"facit-berakning\"><p>så</p><div class=\"facit-matte\">\\[a=3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(3\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv termerna med första termen a och kvoten 2</p><div class=\"facit-matte\">\\[a,\\quad 2a,\\quad 4a\\]</div></li><li><p class=\"facit-rubrik\">Summan av de tre termerna är 21</p><div class=\"facit-matte\">\\[a+2a+4a=7a=21\\]</div></li><li><p class=\"facit-rubrik\">Dela båda leden med 7</p><div class=\"facit-matte\">\\[a=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -58351,7 +58411,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Punkten \\(P=(-\\frac12,\\frac{\\sqrt3}{2})\\) ligger på enhetscirkeln.</p><p>Bestäm alla vinklar \\(v\\) i intervallet \\(0^\\circ\\le v&lt;360^\\circ\\) som har denna punkt som ändpunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ligger i andra kvadranten.</p></li><li><p>Referensvinkeln är \\(60^\\circ\\), eftersom koordinaternas absolutvärden är \\(1/2\\) och \\(\\sqrt3/2\\).</p><p>\\[v=180^\\circ-60^\\circ=120^\\circ.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(120^\\circ\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">x negativ, y positiv: andra kvadranten</p><p>Beloppen \\(\\tfrac12\\) och \\(\\tfrac{\\sqrt3}{2}\\) ger referensvinkeln 60°.</p></li><li><p class=\"facit-rubrik\">Vinkeln i andra kvadranten</p><div class=\"facit-matte\">\\[v=180^\\circ-60^\\circ=120^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(120^\\circ\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -58449,7 +58509,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Ett djurfoder blandas av råvarorna X och Y. Minst 20 enheter protein och minst 18 enheter mineral krävs. Ett kg X ger 4 protein och 2 mineral och kostar 12 kr. Ett kg Y ger 2 protein och 3 mineral och kostar 10 kr.</p><p>Bestäm mängden av X och Y i den billigaste blandningen och ange den minsta kostnaden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(x,y\\ge0\\) vara kilogram X och Y.</p></li><li><p>Kraven blir</p><p>\\[4x+2y\\ge20,\\qquad2x+3y\\ge18.\\]</p></li><li><div class=\"facit-berakning\"><p>Kostnaden är</p><div class=\"facit-matte\">\\[K=12x+10y\\].</div></div></li><li><p>Minimum fås i en hörnpunkt nära origo.</p></li><li><p>Skärningen mellan begränsningslinjerna ges av</p><p>\\[2x+y=10,\\quad2x+3y=18.\\]</p></li><li><p>Subtraktion ger \\(2y=8\\Rightarrow y=4\\), och då \\(x=3\\).</p></li><li><p>Kostnaden blir \\(12\\cdot3+10\\cdot4=76\\) kr, vilket är lägre än hörnpunkterna på koordinataxlarna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=3,\\ y=4}\\), kostnad 76 kr.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Variabler, villkor och kostnad</p><div class=\"facit-matte\">\\[4x+2y\\ge20,\\qquad 2x+3y\\ge18,\\qquad x,y\\ge0\\]</div><div class=\"facit-matte\">\\[K=12x+10y\\]</div></li><li><p class=\"facit-rubrik\">Skärningen mellan gränslinjerna</p><div class=\"facit-matte\">\\[2x+y=10,\\quad 2x+3y=18\\]</div><div class=\"facit-matte\">\\[\\Rightarrow 2y=8,\\ y=4,\\ x=3\\]</div></li><li><p class=\"facit-rubrik\">Jämför kostnaden i de nedre hörnen</p><div class=\"facit-matte\">\\[K(0,10)=100,\\quad K(3,4)=76,\\quad K(9,0)=108\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> x = 3 kg, y = 4 kg, kostnad 76 kr</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -58561,7 +58621,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Från två punkter A och B på samma raka strand, 80 m från varandra, observeras en boj. Vinkeln mellan AB och siktlinjen till bojen är 51° från A och 68° från B.</p><p>Bestäm bojens kortaste avstånd till stranden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Triangelns tredje vinkel vid bojen är \\(61^\\circ\\).</p></li><li><p>Sinussatsen ger avståndet från A till bojen:</p><p>\\[\\frac{AP}{\\sin68^\\circ}=\\frac{80}{\\sin61^\\circ}\\Rightarrow AP\\approx84{,}8\\text{ m}.\\]</p></li><li><p>Det kortaste avståndet till stranden är höjden mot AB:</p><p>\\[h=AP\\sin51^\\circ\\approx65{,}9\\text{ m}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{65{,}9\\text{ m}}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkelsumman i en triangel är \\(180^\\circ\\)</p><div class=\"facit-matte\">\\[\\text{vinkeln vid bojen}=180^\\circ-51^\\circ-68^\\circ=61^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sinussatsen: \\(\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}\\): AP ligger mittemot 68°</p><div class=\"facit-matte\">\\[AP=80\\cdot\\frac{\\sin68^\\circ}{\\sin61^\\circ}\\approx84{,}8\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Kortaste avståndet är höjden mot stranden</p><div class=\"facit-matte\">\\[h=AP\\cdot\\sin51^\\circ\\approx84{,}8\\cdot0{,}777\\approx65{,}9\\ \\text{m}\\]</div><p>AP är hypotenusa i den rätvinkliga triangeln vid A.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 65,9 m</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": true,
@@ -58595,7 +58655,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Det tillåtna området i ett linjärt optimeringsproblem har hörnpunkterna (0,0), (0,6), (4,4), (8,0). Målfunktionen är \\(Z=3x+6y\\).</p><p>Bestäm största möjliga värde på \\(Z\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beräkna målfunktionen i hörnpunkterna:</p><p>\\[Z(0,0)=0,\\quad Z(0,6)=36,\\quad Z(4,4)=36,\\quad Z(8,0)=24.\\]</p></li><li><p>Två intilliggande hörnpunkter på samma kant ger alltså samma maximivärde.</p></li><li><p>Eftersom målfunktionen är linjär är den då konstant längs hela kanten mellan \\((0,6)\\) och \\((4,4)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största värdet är \\(\\boxed{36}\\), och det antas i <strong>alla punkter på kanten</strong> mellan \\((0,6)\\) och \\((4,4)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=3x+6y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\quad Z(0,6)=36\\]</div><div class=\"facit-matte\">\\[Z(4,4)=36,\\quad Z(8,0)=24\\]</div></li><li><p class=\"facit-rubrik\">Två grannhörn ger samma maximum</p><p>Målfunktionen är då konstant längs hela kanten mellan \\((0,6)\\) och \\((4,4)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 36, i alla punkter på kanten mellan (0,6) och (4,4)</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -58626,7 +58686,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En boll släpps från 2,0 m höjd. Efter varje studs når den 70 % av föregående maxhöjd.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"250\" viewBox=\"0 0 460 250\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Boll faller och studsar ovanför marken med avtagande maxhöjd\"><g font-family=\"Arial,sans-serif\"><line x1=\"25\" y1=\"210\" x2=\"435\" y2=\"210\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"currentColor\"/><path d=\"M50 58 V210\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"4 4\"/><text x=\"18\" y=\"128\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"currentColor\">2,0 m</text><path d=\"M50 210 Q99 -14 148 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"50\" cy=\"210\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M148 210 Q188.996 53.2 229.993 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"148\" cy=\"210\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M229.993 210 Q264.293 100.24 298.593 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"229.993\" cy=\"210\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M298.593 210 Q327.29 133.168 355.988 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"298.593\" cy=\"210\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M355.988 210 Q379.998 156.218 404.008 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"355.988\" cy=\"210\" r=\"2.5\" fill=\"currentColor\"/><text x=\"120\" y=\"70\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"currentColor\">70 % av föregående höjd</text></g></svg><p>Hur stor är summan av de fem första maxhöjderna efter studsar? Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Höjderna bildar en geometrisk följd med första term \\(a=2{,}0\\cdot0{,}70=1,4\\) och kvot \\(k=0{,}70\\).</p><p>\\[S_5=\\frac{1{,}4((0,7^5)-1)}{(0,7)-1}\\approx3{,}88\\text{ m}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{3{,}88\\text{ m}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Första maxhöjden efter en studs</p><div class=\"facit-matte\">\\[a=2{,}0\\cdot0{,}70=1{,}4\\ \\text{m}\\]</div><p>Varje ny höjd är 70 %, så kvoten är \\(k=0{,}70\\).</p></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(n=5\\)</p><div class=\"facit-matte\">\\[S_5=1{,}4\\cdot\\frac{0{,}7^5-1}{0{,}7-1}\\]</div><div class=\"facit-matte\">\\[\\approx3{,}88\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}88\\) m</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -58722,7 +58782,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>En vandringsled går först 6,0 km norrut och sedan 8,0 km i riktningen \\(35^\\circ\\) öster om norr. Start- och slutpunkten förbinds med en rak sträcka. Hur stor area omsluts av de tre sträckorna? Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>I triangeln är vinkeln vid vändpunkten</p><div class=\"facit-matte\">\\[180^\\circ-35^\\circ=145^\\circ\\].</div></div></li><li><p>Areasatsen ger</p><p>\\[T=\\frac{6{,}0\\cdot8{,}0\\sin145^\\circ}{2}\\approx 13{,}8\\text{ km}^2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(13{,}8\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre vinkeln vid vändpunkten</p><div class=\"facit-matte\">\\[180^\\circ-35^\\circ=145^\\circ\\]</div><p>Riktningsändringen 35° är yttervinkeln.</p></li><li><p class=\"facit-rubrik\">Areasatsen: \\(T=\\tfrac12ab\\sin C\\) med vinkeln 145°</p><div class=\"facit-matte\">\\[T=\\frac{6{,}0\\cdot8{,}0\\cdot\\sin145^\\circ}{2}\\approx13{,}8\\ \\text{km}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13,8 km²</p></div>",
     "familj": "Areor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -58756,7 +58816,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Vid en möjlig produktionsplan används \\(x=5\\) och \\(y=8\\). Två resursvillkor är</p><p>\\[2x+y\\le20,\\qquad x+3y\\le35.\\]</p><p>Hur mycket av respektive resurs återstår vid denna plan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Första resursen: \\(2\\cdot5+8=18\\), så \\(20-18=2\\) enheter återstår.</p></li><li><p>Andra resursen: \\(5+3\\cdot8=29\\), så \\(35-29=6\\) enheter återstår.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 respektive 6 enheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Första resursen: högerled minus förbrukning</p><div class=\"facit-matte\">\\[2\\cdot5+8=18\\quad\\Rightarrow\\quad20-18=2\\]</div></li><li><p class=\"facit-rubrik\">Andra resursen: högerled minus förbrukning</p><div class=\"facit-matte\">\\[5+3\\cdot8=29\\quad\\Rightarrow\\quad35-29=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 respektive 6 enheter</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -58801,7 +58861,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>I ett bildmönster består första figuren av 6 små trianglar. I varje ny figur blir antalet trianglar tre gånger så stort.</p><p>Hur många små trianglar har använts totalt när figur 1 till och med figur 7 har byggts?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Antalet trianglar i figurerna blir</p><p>\\[6,18,54,\\ldots\\]</p></li><li><div class=\"facit-berakning\"><p>Det är en geometrisk följd med</p><div class=\"facit-matte\">\\[a=6\\],</div></div></li><li><p>\\(k=3\\) och 7 termer.</p></li><li><p>Därför</p><p>\\[S_7=6\\frac{3^7-1}{3-1}=6558.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> totalt \\(6558\\) små trianglar.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal trianglar i figur 1, 2, 3, …</p><div class=\"facit-matte\">\\[6,\\ 18,\\ 54,\\ \\ldots\\]</div><p>Det är en geometrisk följd med \\(a=6\\) och \\(k=3\\).</p></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) för figur 1–7</p><div class=\"facit-matte\">\\[S_7=6\\cdot\\frac{3^7-1}{3-1}=6\\cdot1093=6558\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> totalt \\(6558\\) små trianglar</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -58832,7 +58892,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Punkten \\(P\\) på enhetscirkeln motsvarar vinkeln \\(30^\\circ\\). Ange punktens koordinater exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är koordinaterna \\((\\cos v,\\sin v)\\).</p></li><li><p>För \\(v=30^\\circ\\) fås</p><p>\\[P=\\left(\\frac{\\sqrt3}{2},\\frac12\\right).\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=\\dfrac{\\sqrt{3}}{2}\\), \\(y=\\dfrac{1}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">På enhetscirkeln: \\(P=(\\cos v,\\ \\sin v)\\) med \\(v=30^\\circ\\)</p><div class=\"facit-matte\">\\[P=\\left(\\cos30^\\circ,\\ \\sin30^\\circ\\right)=\\left(\\frac{\\sqrt3}{2},\\ \\frac12\\right)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\tfrac{\\sqrt3}{2}\\), \\(y=\\tfrac12\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -58877,7 +58937,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en triangel känner du två sidor, 8 cm och 10 cm, samt den mellanliggande vinkeln \\(50^\\circ\\). Vilken metod är lämpligast för att direkt bestämma den tredje sidan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två sidor och den mellanliggande vinkeln är kända.</p></li><li><p>Då kan den tredje sidan bestämmas direkt med cosinussatsen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cosinussatsen.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två sidor och mellanliggande vinkel</p><p>Det är precis de uppgifter som cosinussatsen använder för att ge den tredje sidan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cosinussatsen</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": true,
@@ -58898,7 +58958,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Välja triangelsats"
     ],
-    "alternativ": [{"txt": "Sinussatsen", "ratt": false}, {"txt": "Pythagoras sats", "ratt": false}, {"txt": "Areasatsen", "ratt": false}, {"txt": "Cosinussatsen", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "Sinussatsen",
+        "ratt": false,
+        "kommentar": "Sinussatsen kräver ett känt par av sida och motstående vinkel."
+      },
+      {
+        "txt": "Pythagoras sats",
+        "ratt": false,
+        "kommentar": "Pythagoras sats gäller bara om vinkeln är 90°, men den är 50°."
+      },
+      {
+        "txt": "Areasatsen",
+        "ratt": false,
+        "kommentar": "Areasatsen ger arean, inte den tredje sidan."
+      },
+      {
+        "txt": "Cosinussatsen",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "4.83",
@@ -59006,7 +59086,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Punkten \\(P\\) ligger på enhetscirkeln i andra kvadranten och har y-koordinaten \\(3/5\\). Låt \\(v\\) vara punktens vinkel från positiva x-axeln. Bestäm \\(\\cos v\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[x^2+y^2=1\\].</div></div></li><li><div class=\"facit-berakning\"><p>Med</p><div class=\"facit-matte\">\\[y=3/5\\]:</div></div><p>\\[x^2=1-\\frac9{25}=\\frac{16}{25}.\\]</p></li><li><div class=\"facit-berakning\"><p>I andra kvadranten är x-koordinaten negativ, så</p><div class=\"facit-matte\">\\[x=-4/5\\].</div></div></li><li><p>Eftersom \\(\\cos v=x\\) får vi</p><p>\\[\\boxed{\\cos v=-\\frac45}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-\\dfrac{4}{5}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten ligger på enhetscirkeln: \\(x^2+y^2=1\\)</p><div class=\"facit-matte\">\\[x^2=1-\\frac{9}{25}=\\frac{16}{25}\\quad\\Rightarrow\\quad x=\\pm\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: x är negativ</p><div class=\"facit-matte\">\\[\\cos v=x=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac45\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -59176,7 +59256,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>En vinkel \\(v\\) ligger i andra kvadranten och \\(\\sin v=0,8\\).</p><p>Bestäm exakt \\(\\cos(180^\\circ-v)\\) utan att först bestämma vinkeln \\(v\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[\\sin^2v+\\cos^2v=1\\].</div></div></li><li><p>Därför</p><p>\\[\\cos^2v=1-0{,}8^2=0{,}36.\\]</p></li><li><div class=\"facit-berakning\"><p>I andra kvadranten är cosinus negativ, alltså</p><div class=\"facit-matte\">\\[\\cos v=-0{,}6=-3/5\\].</div></div></li><li><p>Vinkeln \\(180^\\circ-v\\) ligger speglad i första kvadranten och får motsatt x-koordinat.</p></li><li><p>Därför</p><p>\\[\\cos(180^\\circ-v)=\\frac35.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{3/5}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pythagoras sats i enhetscirkeln: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-0{,}8^2=0{,}36\\quad\\Rightarrow\\quad\\cos v=\\pm0{,}6\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: cosinus negativ</p><div class=\"facit-matte\">\\[\\cos v=-\\frac35\\]</div></li><li><p class=\"facit-rubrik\">\\(180^\\circ-v\\) är speglingen i y-axeln</p><div class=\"facit-matte\">\\[\\cos(180^\\circ-v)=-\\cos v=\\frac35\\]</div><p>Spegling i y-axeln byter tecken på x-koordinaten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac35\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -59305,7 +59385,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En maskin tappar 8 % av sin produktionskapacitet för varje år den används. Första året producerar den 12 000 enheter.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" role=\"img\" aria-label=\"Staplar som visar minskande produktionskapacitet\"><line x1=\"45\" y1=\"175\" x2=\"395\" y2=\"175\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"55\" y=\"60.0\" width=\"38\" height=\"115.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"74\" y=\"195\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"currentColor\">år 1</text><rect x=\"120\" y=\"69.2\" width=\"38\" height=\"105.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"139\" y=\"195\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"currentColor\">år 2</text><rect x=\"185\" y=\"77.7\" width=\"38\" height=\"97.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"204\" y=\"195\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"currentColor\">år 3</text><rect x=\"250\" y=\"85.5\" width=\"38\" height=\"89.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"269\" y=\"195\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"currentColor\">år 4</text><rect x=\"315\" y=\"92.6\" width=\"38\" height=\"82.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"334\" y=\"195\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"currentColor\">år 5</text><text x=\"220\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">varje år: 92 % av föregående år</text></svg><p>Hur många enheter producerar den sammanlagt under de första 10 åren enligt modellen? Avrunda till närmaste hundratal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En minskning med 8 % ger kvoten \\(0{,}92\\).</p></li><li><div class=\"facit-berakning\"><p>Årsproduktionen bildar därför en geometrisk följd med</p><div class=\"facit-matte\">\\[a=12000\\].</div></div><p>\\[S_{10}=12000\\frac{0{,}92^{10}-1}{0{,}92-1}\\approx84841{,}7.\\]</p></li><li><p>Avrundat till närmaste hundratal: \\(\\boxed{84\\,800}\\) enheter.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(84\\,800\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minskning med 8 % ger kvoten 0,92</p><div class=\"facit-matte\">\\[a=12\\,000,\\quad k=0{,}92,\\quad n=10\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_{10}=12\\,000\\cdot\\frac{0{,}92^{10}-1}{0{,}92-1}\\]</div><div class=\"facit-matte\">\\[\\approx84\\,841{,}7\\]</div></li><li><p class=\"facit-rubrik\">Avrunda till närmaste hundratal</p><div class=\"facit-matte\">\\[84\\,841{,}7\\approx84\\,800\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(84\\,800\\) enheter</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -59336,7 +59416,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En punkt \\(P=(x,y)\\) ligger på enhetscirkeln i andra kvadranten. Dessutom gäller</p><p>\\[x+y=\\frac15.\\]</p><p>Bestäm koordinaterna för \\(P\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln gäller</p><p>\\[x^2+y^2=1.\\]</p></li><li><p>Från \\(x+y=1/5\\) fås \\(y=1/5-x\\).</p></li><li><p>Sätt in:</p><p>\\[x^2+\\left(\\frac15-x\\right)^2=1.\\]</p><p>\\[25x^2-5x-12=0=(5x+3)(5x-4).\\]</p></li><li><p>Alltså är \\(x=-3/5\\) eller \\(x=4/5\\).</p></li><li><p>Eftersom punkten ligger i andra kvadranten måste \\(x\\lt0\\), så</p><p>\\[x=-\\frac35,\\qquad y=\\frac45.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{P=(-3/5;\\,4/5)}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt \\(y=\\tfrac15-x\\) i \\(x^2+y^2=1\\)</p><div class=\"facit-matte\">\\[x^2+\\left(\\frac15-x\\right)^2=1\\quad\\Rightarrow\\quad 2x^2-\\frac25x-\\frac{24}{25}=0\\]</div></li><li><p class=\"facit-rubrik\">Dela med 2 och använd pq-formeln</p><div class=\"facit-matte\">\\[x^2-\\frac15x-\\frac{12}{25}=0\\]</div><div class=\"facit-matte\">\\[\\Rightarrow x=\\frac1{10}\\pm\\sqrt{\\frac1{100}+\\frac{48}{100}}=\\frac1{10}\\pm\\frac7{10}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: x negativ</p><div class=\"facit-matte\">\\[x=-\\frac35,\\qquad y=\\frac15+\\frac35=\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-\\tfrac35\\), \\(y=\\tfrac45\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -59573,7 +59653,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En triangel har sidorna 5,5 cm, 8,2 cm och 7,5 cm.</p><p>Bestäm vinkeln mellan sidorna 5,5 cm och 8,2 cm.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den sökta vinkeln ligger mellan sidorna 5,5 cm och 8,2 cm.</p></li><li><p>Motstående sida är 7,5 cm.</p><p>\\[7{,}5^2=5{,}5^2+8{,}2^2-2\\cdot5{,}5\\cdot8{,}2\\cos C.\\]</p><p>\\[\\cos C=\\frac{5{,}5^2+8{,}2^2-7{,}5^2}{2\\cdot5{,}5\\cdot8{,}2}\\approx0{,}457.\\]</p><p>\\[C\\approx62{,}8^\\circ.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{62{,}8^\\circ}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln mellan 5,5 och 8,2 ligger mittemot 7,5</p><div class=\"facit-matte\">\\[7{,}5^2=5{,}5^2+8{,}2^2-2\\cdot5{,}5\\cdot8{,}2\\cos C\\]</div></li><li><p class=\"facit-rubrik\">Cosinussatsen löst för vinkeln: \\(\\cos C=\\dfrac{a^2+b^2-c^2}{2ab}\\)</p><div class=\"facit-matte\">\\[\\cos C=\\frac{30{,}25+67{,}24-56{,}25}{90{,}2}\\approx0{,}457\\]</div></li><li><p class=\"facit-rubrik\">Invers cosinus ger vinkeln C</p><div class=\"facit-matte\">\\[C\\approx62{,}8^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(62{,}8^\\circ\\)</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -59669,7 +59749,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>Två observationspunkter A och B ligger 80 m från varandra längs en rak strand. Vinklarna mot en boj är 51° respektive 68°. Bestäm bojens kortaste avstånd till stranden.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med markerade mått\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"88.8,220.0 301.2,220.0 230.5,45.0\" fill=\"#F7F8FA\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"74.8\" y=\"238.0\" font-size=\"13\">A</text><text x=\"309.2\" y=\"238.0\" font-size=\"13\">B</text><text x=\"226.5\" y=\"34.0\" font-size=\"13\">C</text><path d=\"M 102.6 202.9 L 103.6 203.8 L 104.6 204.7 L 105.4 205.6 L 106.3 206.6 L 107.0 207.7 L 107.7 208.8 L 108.4 209.9 L 108.9 211.1 L 109.4 212.3 L 109.8 213.6 L 110.2 214.8 L 110.4 216.1 L 110.6 217.4 L 110.8 218.7 L 110.8 220.0\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.4\" /><text x=\"123.1\" y=\"207.6\" text-anchor=\"middle\" font-size=\"12\">51°</text><path d=\"M 279.2 220.0 L 279.3 218.3 L 279.5 216.5 L 279.8 214.8 L 280.3 213.2 L 280.9 211.5 L 281.6 209.9 L 282.5 208.4 L 283.5 207.0 L 284.6 205.6 L 285.7 204.4 L 287.0 203.2 L 288.4 202.1 L 289.9 201.2 L 291.4 200.3 L 293.0 199.6\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.4\" /><text x=\"269.7\" y=\"202.8\" text-anchor=\"middle\" font-size=\"12\">68°</text><text x=\"195.0\" y=\"236.0\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#2A5D9E\">c = 80 m</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Triangelns tredje vinkel är</p><p>\\[180^\\circ-51^\\circ-68^\\circ=61^\\circ.\\]</p></li><li><p>Sinussatsen ger avståndet från A till bojen:</p><p>\\[AP=80\\frac{\\sin68^\\circ}{\\sin61^\\circ}\\approx84{,}8\\text{ m}.\\]</p></li><li><p>Det kortaste avståndet till stranden är höjden mot \\(AB\\):</p><p>\\[h=AP\\sin51^\\circ\\approx65{,}9\\text{ m}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(\\boxed{65{,}9\\text{ m}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkelsumman i en triangel är \\(180^\\circ\\)</p><div class=\"facit-matte\">\\[\\text{vinkeln vid bojen}=180^\\circ-51^\\circ-68^\\circ=61^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sinussatsen: \\(\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}\\): AP ligger mittemot 68°</p><div class=\"facit-matte\">\\[AP=80\\cdot\\frac{\\sin68^\\circ}{\\sin61^\\circ}\\approx84{,}8\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Kortaste avståndet är höjden mot stranden</p><div class=\"facit-matte\">\\[h=AP\\cdot\\sin51^\\circ\\approx84{,}8\\cdot0{,}777\\approx65{,}9\\ \\text{m}\\]</div><p>AP är hypotenusa i den rätvinkliga triangeln vid A.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 65,9 m</p></div>",
     "familj": "Avstånd och triangulering",
     "geogebra": false,
     "miniräknare": true,
@@ -59736,7 +59816,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>Ett fartyg seglar 18 km österut och sedan 25 km i riktning 60° norr om öst. Bestäm avståndet från startpunkten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 245\" role=\"img\" aria-label=\"Fartyget seglar 18 kilometer österut, sedan 25 kilometer 60 grader norr om öst. En streckad linje förenar start och slut.\" style=\"width:100%;max-width:390px\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"8\" fill=\"#fff\" stroke=\"#e4e3e6\"/><line x1=\"48\" y1=\"198\" x2=\"183\" y2=\"198\" stroke=\"#2a5d9e\" stroke-width=\"4\"/><line x1=\"183\" y1=\"198\" x2=\"276.75\" y2=\"35.62\" stroke=\"#0f6b4f\" stroke-width=\"4\"/><line x1=\"48\" y1=\"198\" x2=\"276.75\" y2=\"35.62\" stroke=\"#b43123\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"183\" y1=\"198\" x2=\"238\" y2=\"198\" stroke=\"#64748b\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><path d=\"M213 198 A30 30 0 0 0 198 172.02\" fill=\"none\" stroke=\"#2b2527\" stroke-width=\"1.6\"/><g font-family=\"Arial,sans-serif\" font-size=\"14\"><text x=\"101\" y=\"220\" fill=\"#2a5d9e\">18 km</text><text x=\"241\" y=\"108\" fill=\"#0f6b4f\">25 km</text><text x=\"215\" y=\"176\" fill=\"#172b3a\">60°</text><text x=\"241\" y=\"205\" fill=\"#475569\">öst</text><text x=\"34\" y=\"187\" fill=\"#172b3a\">start</text><text x=\"282\" y=\"36\" fill=\"#172b3a\">slut</text></g></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>I triangeln mellan startpunkten, vändpunkten och slutpunkten är den inre vinkeln vid vändpunkten</p><div class=\"facit-matte\">\\[180^\\circ-60^\\circ=120^\\circ\\].</div></div></li><li><p>Cosinussatsen ger</p><p>\\[d^2=18^2+25^2-2\\cdot18\\cdot25\\cos120^\\circ.\\]</p><p>\\[d\\approx37{,}4\\text{ km}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(\\boxed{37{,}4\\text{ km}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Triangeln start–vändpunkt–slut: inre vinkeln vid vändpunkten</p><div class=\"facit-matte\">\\[180^\\circ-60^\\circ=120^\\circ\\]</div><p>Vinkeln 60° i färdriktningen är inte triangelns inre vinkel.</p></li><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 120°</p><div class=\"facit-matte\">\\[d^2=18^2+25^2-2\\cdot18\\cdot25\\cos120^\\circ\\]</div><div class=\"facit-matte\">\\[=949+450=1399\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten ur 1399</p><div class=\"facit-matte\">\\[d\\approx37{,}4\\ \\text{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 37,4 km</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": true,
@@ -59799,7 +59879,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En triangelformad tomt har sidor 42 m, 55 m och 63 m. Bestäm arean.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"250\" viewBox=\"0 0 390 250\" role=\"img\" aria-label=\"Triangel med markerade mått\"><rect x=\"0\" y=\"0\" width=\"390\" height=\"250\" fill=\"#fff\" /><rect x=\"1\" y=\"1\" width=\"388\" height=\"248\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"55,205 335,205 150,55\" fill=\"#F5F8FC\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"39\" y=\"223\" font-size=\"12\">A</text><text x=\"342\" y=\"223\" font-size=\"12\">B</text><text x=\"145\" y=\"45\" font-size=\"12\">C</text><text x=\"195.0\" y=\"223.0\" font-size=\"12\" fill=\"#2A5D9E\">a</text><text x=\"252.5\" y=\"130.0\" font-size=\"12\" fill=\"#2A5D9E\">b</text><text x=\"78.5\" y=\"130.0\" font-size=\"12\" fill=\"#2A5D9E\">c</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bestäm först vinkeln mellan sidorna 42 m och 55 m.</p></li><li><p>Cosinussatsen ger</p><p>\\[\\cos C=\\frac{42^2+55^2-63^2}{2\\cdot42\\cdot55},\\]</p></li><li><p>så \\(C\\approx79{,}8^\\circ\\).</p></li><li><p>Areasatsen ger sedan</p><p>\\[T=\\frac12\\cdot42\\cdot55\\sin79{,}8^\\circ\\approx1136{,}7\\text{ m}^2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(\\boxed{1137\\text{ m}^2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tre sidor kända: cosinussatsen ger en vinkel</p><div class=\"facit-matte\">\\[\\cos C=\\frac{42^2+55^2-63^2}{2\\cdot42\\cdot55}=\\frac{820}{4620}\\approx0{,}177\\]</div><div class=\"facit-matte\">\\[\\Rightarrow C\\approx79{,}8^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Areasatsen: \\(T=\\tfrac12ab\\sin C\\) med sidorna 42 och 55</p><div class=\"facit-matte\">\\[T=\\frac12\\cdot42\\cdot55\\cdot\\sin79{,}8^\\circ\\approx1137\\ \\text{m}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 1137 m²</p></div>",
     "familj": "Areor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -59833,7 +59913,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>I triangeln är två sidor 13 cm och 7 cm och den mellanliggande vinkeln 28°.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med markerade mått\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"165.3,210.0 224.7,138.5 203.9,55.0\" fill=\"#F7F8FA\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"152.3\" y=\"228.0\" font-size=\"13\" fill=\"#2B2527\">A</text><text x=\"232.7\" y=\"156.5\" font-size=\"13\" fill=\"#2B2527\">B</text><text x=\"199.9\" y=\"43.0\" font-size=\"13\" fill=\"#2B2527\">C</text><text x=\"169.1\" y=\"128.6\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#2A5D9E\">13 cm</text><text x=\"229.8\" y=\"92.9\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#2A5D9E\">7 cm</text><text x=\"207.3\" y=\"184.5\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2A5D9E\">?</text><path d=\"M 209.7 78.3 L 209.0 78.5 L 208.2 78.6 L 207.4 78.7 L 206.6 78.8 L 205.9 78.9 L 205.1 79.0 L 204.3 79.0 L 203.5 79.0 L 202.7 79.0 L 202.0 78.9 L 201.2 78.8 L 200.4 78.7 L 199.6 78.6 L 198.9 78.5 L 198.1 78.3\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><text x=\"203.9\" y=\"99.0\" text-anchor=\"middle\" font-size=\"12.5\">28°</text></svg></span><p>Bestäm den tredje sidan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två sidor och den mellanliggande vinkeln är kända, så cosinussatsen används:</p><p>\\[c^2=13^2+7^2-2\\cdot13\\cdot7\\cos 28^\\circ.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c\\approx 7{,}57\\) cm.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 28°</p><div class=\"facit-matte\">\\[c^2=13^2+7^2-2\\cdot13\\cdot7\\cos28^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Beräkna med räknare</p><div class=\"facit-matte\">\\[c^2\\approx218-160{,}70=57{,}30\\quad\\Rightarrow\\quad c\\approx7{,}57\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c\\approx7{,}57\\) cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -59961,7 +60041,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>I triangeln är två sidor 6,5 cm och 9,2 cm och den mellanliggande vinkeln 75°.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med markerade mått\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"93.5,164.5 296.5,210.0 177.5,55.0\" fill=\"#F7F8FA\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"80.5\" y=\"182.5\" font-size=\"13\" fill=\"#2B2527\">A</text><text x=\"304.5\" y=\"228.0\" font-size=\"13\" fill=\"#2B2527\">B</text><text x=\"173.5\" y=\"43.0\" font-size=\"13\" fill=\"#2B2527\">C</text><text x=\"122.8\" y=\"100.0\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#2A5D9E\">6,5 cm</text><text x=\"249.7\" y=\"122.8\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#2A5D9E\">9,2 cm</text><text x=\"191.5\" y=\"202.9\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2A5D9E\">?</text><path d=\"M 192.2 74.0 L 190.4 75.2 L 188.6 76.3 L 186.7 77.2 L 184.8 77.9 L 182.7 78.4 L 180.7 78.8 L 178.6 79.0 L 176.5 79.0 L 174.4 78.8 L 172.4 78.4 L 170.3 77.9 L 168.4 77.2 L 166.5 76.3 L 164.7 75.2 L 162.9 74.0\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><text x=\"177.5\" y=\"99.0\" text-anchor=\"middle\" font-size=\"12.5\">75°</text></svg></span><p>Bestäm den tredje sidan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två sidor och den mellanliggande vinkeln är kända, så cosinussatsen används:</p><p>\\[c^2=6{,}5^2+9{,}2^2-2\\cdot6{,}5\\cdot9{,}2\\cos 75^\\circ.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c\\approx 9{,}79\\) cm.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 75°</p><div class=\"facit-matte\">\\[c^2=6{,}5^2+9{,}2^2-2\\cdot6{,}5\\cdot9{,}2\\cos75^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Beräkna med räknare</p><div class=\"facit-matte\">\\[c^2\\approx126{,}89-30{,}96=95{,}93\\quad\\Rightarrow\\quad c\\approx9{,}79\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c\\approx9{,}79\\) cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -59991,7 +60071,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Två vägar möts med vinkeln 72°. Från korsningen kör bil A 8 km längs den ena vägen och bil B 11 km längs den andra. Bestäm avståndet mellan bilarna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med markerade mått\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"97.7,167.7 292.3,210.0 179.6,55.0\" fill=\"#F7F8FA\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"84.7\" y=\"185.7\" font-size=\"13\" fill=\"#2B2527\">A</text><text x=\"300.3\" y=\"228.0\" font-size=\"13\" fill=\"#2B2527\">B</text><text x=\"175.6\" y=\"43.0\" font-size=\"13\" fill=\"#2B2527\">C</text><text x=\"125.7\" y=\"102.0\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#2A5D9E\">8 km</text><text x=\"248.9\" y=\"123.1\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#2A5D9E\">11 km</text><text x=\"191.6\" y=\"204.5\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2A5D9E\">?</text><path d=\"M 193.8 74.4 L 192.1 75.5 L 190.3 76.5 L 188.5 77.3 L 186.6 78.0 L 184.6 78.5 L 182.7 78.8 L 180.6 79.0 L 178.6 79.0 L 176.6 78.8 L 174.7 78.5 L 172.7 78.0 L 170.8 77.3 L 169.0 76.5 L 167.2 75.5 L 165.5 74.4\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><text x=\"179.6\" y=\"99.0\" text-anchor=\"middle\" font-size=\"12.5\">72°</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De två körsträckorna och vinkeln mellan vägarna bildar en triangel.</p></li><li><p>Cosinussatsen ger</p><p>\\[d^2=8^2+11^2-2\\cdot8\\cdot11\\cos72^\\circ.\\]</p><p>\\[d\\approx11{,}43\\text{ km}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(\\boxed{11{,}43\\text{ km}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 72°</p><div class=\"facit-matte\">\\[d^2=8^2+11^2-2\\cdot8\\cdot11\\cos72^\\circ\\approx185-54{,}4\\]</div><div class=\"facit-matte\">\\[=130{,}6\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten</p><div class=\"facit-matte\">\\[d\\approx11{,}43\\ \\text{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 11,43 km</p></div>",
     "familj": "Avstånd och triangulering",
     "geogebra": false,
     "miniräknare": true,
@@ -60231,7 +60311,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En triangel har sidorna 5, 7 och 10 cm. Bestäm den största vinkeln.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med tre givna sidor\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"65.0,220.0 325.0,220.0 226.2,135.5\" fill=\"#F8F3EC\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"51.0\" y=\"238.0\" font-size=\"13\">A</text><text x=\"333.0\" y=\"238.0\" font-size=\"13\">B</text><text x=\"222.2\" y=\"124.5\" font-size=\"13\">C</text><text x=\"285.3\" y=\"166.4\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#2A5D9E\">5 cm</text><text x=\"138.6\" y=\"164.5\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#2A5D9E\">7 cm</text><text x=\"195.0\" y=\"235.0\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#2A5D9E\">10 cm</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den största vinkeln ligger mittemot den längsta sidan, 10 cm.</p></li><li><p>Låt den vinkeln vara \\(C\\).</p><p>\\[\\cos C=\\frac{5^2+7^2-10^2}{2\\cdot5\\cdot7}=-\\frac{13}{35}.\\]</p><p>\\[C\\approx111{,}8^\\circ.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(\\boxed{111{,}8^\\circ}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största vinkeln ligger mittemot längsta sidan, 10 cm</p><div class=\"facit-matte\">\\[10^2=5^2+7^2-2\\cdot5\\cdot7\\cos C\\]</div></li><li><p class=\"facit-rubrik\">Cosinussatsen löst för vinkeln: \\(\\cos C=\\dfrac{a^2+b^2-c^2}{2ab}\\)</p><div class=\"facit-matte\">\\[\\cos C=\\frac{25+49-100}{70}=-\\frac{13}{35}\\]</div></li><li><p class=\"facit-rubrik\">Invers cosinus ger den trubbiga vinkeln</p><div class=\"facit-matte\">\\[C\\approx111{,}8^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(111{,}8^\\circ\\)</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -60326,7 +60406,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>Två punkter A och B ligger 100 m från varandra. Ett objekt observeras med vinklarna 40° från A och 65° från B på samma sida av AB. Bestäm avståndet från A till objektet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med markerade mått\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"65.0,220.0 325.0,220.0 251.9,63.2\" fill=\"#F7F8FA\" stroke=\"#2B2527\" stroke-width=\"2\" /><text x=\"51.0\" y=\"238.0\" font-size=\"13\">A</text><text x=\"333.0\" y=\"238.0\" font-size=\"13\">B</text><text x=\"247.9\" y=\"52.2\" font-size=\"13\">C</text><path d=\"M 81.9 205.9 L 82.5 206.7 L 83.1 207.5 L 83.7 208.3 L 84.2 209.2 L 84.7 210.1 L 85.1 211.1 L 85.5 212.0 L 85.8 213.0 L 86.1 213.9 L 86.4 214.9 L 86.6 215.9 L 86.8 216.9 L 86.9 218.0 L 87.0 219.0 L 87.0 220.0\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.4\" /><text x=\"100.7\" y=\"211.0\" text-anchor=\"middle\" font-size=\"12\">40°</text><path d=\"M 303.0 220.0 L 303.1 218.3 L 303.3 216.7 L 303.6 215.1 L 304.0 213.4 L 304.6 211.9 L 305.2 210.4 L 306.0 208.9 L 306.9 207.5 L 307.9 206.2 L 309.0 204.9 L 310.2 203.7 L 311.5 202.7 L 312.8 201.7 L 314.2 200.8 L 315.7 200.1\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.4\" /><text x=\"293.0\" y=\"203.6\" text-anchor=\"middle\" font-size=\"12\">65°</text><text x=\"195.0\" y=\"236.0\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#2A5D9E\">c = 100 m</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Triangelns tredje vinkel är</p><p>\\[C=180^\\circ-40^\\circ-65^\\circ=75^\\circ.\\]</p></li><li><p>Sidan 100 m ligger mot 75°, medan avståndet från A till objektet ligger mot 65°.</p></li><li><p>Sinussatsen ger</p><p>\\[AP=100\\frac{\\sin65^\\circ}{\\sin75^\\circ}\\approx93{,}8\\text{ m}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(\\boxed{93{,}8\\text{ m}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkelsumman i en triangel är \\(180^\\circ\\)</p><div class=\"facit-matte\">\\[C=180^\\circ-40^\\circ-65^\\circ=75^\\circ\\]</div><p>Sidan 100 m ligger mittemot C.</p></li><li><p class=\"facit-rubrik\">Sinussatsen: \\(\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}\\): AP ligger mittemot 65°</p><div class=\"facit-matte\">\\[AP=100\\cdot\\frac{\\sin65^\\circ}{\\sin75^\\circ}\\approx93{,}8\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 93,8 m</p></div>",
     "familj": "Avstånd och triangulering",
     "geogebra": false,
     "miniräknare": true,
@@ -60652,7 +60732,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En triangel har sidor 6 och 9 och den tredje sidan c. Bestäm för vilket c den mellanliggande vinkeln mellan sidorna 6 och 9 är 90°.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"260\" viewBox=\"0 0 390 260\" role=\"img\" aria-label=\"Rätvinklig triangel med kateterna 6 och 9\"><rect x=\"0\" y=\"0\" width=\"390\" height=\"260\" fill=\"#fff\" /><polygon points=\"105,220 330,60 105,60\" fill=\"#F7F8FA\" stroke=\"#2B2527\" stroke-width=\"2\" /><path d=\"M105 75 L120 75 L120 60\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.3\" /><text x=\"88\" y=\"144\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12.5\" fill=\"#2A5D9E\">6</text><text x=\"217.5\" y=\"47\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12.5\" fill=\"#2A5D9E\">9</text><text x=\"227.4\" y=\"157.9\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12.5\" fill=\"#2A5D9E\">c = ?</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med 90° mellan sidorna 6 och 9 blir cosinussatsen Pythagoras sats:</p><p>\\[c^2=6^2+9^2=117.\\]</p><p>\\[c=\\sqrt{117}=3\\sqrt{13}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{3\\sqrt{13}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med \\(\\cos90^\\circ=0\\)</p><div class=\"facit-matte\">\\[c^2=6^2+9^2=117\\]</div><p>Cosinussatsen blir Pythagoras sats.</p></li><li><p class=\"facit-rubrik\">Förenkla roten</p><div class=\"facit-matte\">\\[c=\\sqrt{117}=\\sqrt{9\\cdot13}=3\\sqrt{13}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\sqrt{13}\\)</p></div>",
     "familj": "Avstånd och triangulering",
     "geogebra": false,
     "miniräknare": true,
@@ -60813,7 +60893,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar vinkeln \\(150^\\circ\\) i enhetscirkeln.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4141arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4141arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4141arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"85.3\" y2=\"99\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"85.3\" cy=\"99\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"75.3\" y=\"91\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2B2527\">P</text><path d=\"M 196 145 L 195.7 140.7 L 194.8 136.6 L 193.4 132.5 L 191.4 128.8 L 188.9 125.3 L 186 122.2 L 182.7 119.5 L 179 117.3 L 175.1 115.7 L 170.9 114.6 L 166.7 114 L 162.4 114.1 L 158.2 114.8 L 154.1 116 L 150.2 117.7 L 146.6 120 L 143.4 122.8 L 140.5 126 L 138.2 129.5\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"177.2\" y=\"103.6\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">150°</text></svg></span><p>Bestäm exakt \\(\\cos 150^\\circ\\) och \\(\\sin 150^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(150^\\circ\\) ligger i andra kvadranten.</p></li><li><p>Den har samma y-koordinat som \\(30^\\circ\\), men motsatt x-koordinat.</p></li><li><p>På formelbladet är \\(\\cos30^\\circ=\\frac{\\sqrt3}{2}\\) och \\(\\sin30^\\circ=\\frac12\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\cos150^\\circ=-\\frac{\\sqrt3}{2},\\ \\sin150^\\circ=\\frac12}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(150^\\circ\\) ligger i andra kvadranten, referensvinkel \\(30^\\circ\\)</p><p>Samma y-koordinat som 30°, motsatt x-koordinat.</p></li><li><p class=\"facit-rubrik\">Värdena för \\(30^\\circ\\) med rätt tecken</p><div class=\"facit-matte\">\\[\\cos150^\\circ=-\\frac{\\sqrt3}{2},\\qquad\\sin150^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos150^\\circ=-\\tfrac{\\sqrt3}{2}\\), \\(\\sin150^\\circ=\\tfrac12\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -60861,7 +60941,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar ett tillåtet område.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"44.0\" y1=\"20\" x2=\"44.0\" y2=\"236\" stroke=\"#EEEDEF\" /><line x1=\"84.8\" y1=\"20\" x2=\"84.8\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"84.8\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">1</text><line x1=\"125.5\" y1=\"20\" x2=\"125.5\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"125.5\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">2</text><line x1=\"166.2\" y1=\"20\" x2=\"166.2\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"166.2\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">3</text><line x1=\"207.0\" y1=\"20\" x2=\"207.0\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"207.0\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">4</text><line x1=\"247.8\" y1=\"20\" x2=\"247.8\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"247.8\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">5</text><line x1=\"288.5\" y1=\"20\" x2=\"288.5\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"288.5\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">6</text><line x1=\"329.2\" y1=\"20\" x2=\"329.2\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"329.2\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">7</text><line x1=\"370.0\" y1=\"20\" x2=\"370.0\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"370.0\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">8</text><line x1=\"44\" y1=\"236.0\" x2=\"370\" y2=\"236.0\" stroke=\"#EEEDEF\" /><line x1=\"44\" y1=\"209.0\" x2=\"370\" y2=\"209.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"212.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">1</text><line x1=\"44\" y1=\"182.0\" x2=\"370\" y2=\"182.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"185.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">2</text><line x1=\"44\" y1=\"155.0\" x2=\"370\" y2=\"155.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"158.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">3</text><line x1=\"44\" y1=\"128.0\" x2=\"370\" y2=\"128.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"131.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">4</text><line x1=\"44\" y1=\"101.0\" x2=\"370\" y2=\"101.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"104.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">5</text><line x1=\"44\" y1=\"74.0\" x2=\"370\" y2=\"74.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"77.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">6</text><line x1=\"44\" y1=\"47.0\" x2=\"370\" y2=\"47.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"50.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">7</text><line x1=\"44\" y1=\"20.0\" x2=\"370\" y2=\"20.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"23.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">8</text><line x1=\"44.0\" y1=\"20\" x2=\"44.0\" y2=\"236\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><line x1=\"44\" y1=\"236.0\" x2=\"370\" y2=\"236.0\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><polygon points=\"44.0,236.0 44.0,101.0 166.2,101.0 288.5,182.0 288.5,236.0\" fill=\"#D9E7F8\" fill-opacity=\"0.78\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" /><circle cx=\"44.0\" cy=\"236.0\" r=\"4\" fill=\"#B43123\" /><text x=\"50.0\" y=\"229.0\" font-size=\"10.5\">(0; 0)</text><circle cx=\"44.0\" cy=\"101.0\" r=\"4\" fill=\"#B43123\" /><text x=\"50.0\" y=\"94.0\" font-size=\"10.5\">(0; 5)</text><circle cx=\"166.2\" cy=\"101.0\" r=\"4\" fill=\"#B43123\" /><text x=\"172.2\" y=\"94.0\" font-size=\"10.5\">(3; 5)</text><circle cx=\"288.5\" cy=\"182.0\" r=\"4\" fill=\"#B43123\" /><text x=\"294.5\" y=\"175.0\" font-size=\"10.5\">(6; 2)</text><circle cx=\"288.5\" cy=\"236.0\" r=\"4\" fill=\"#B43123\" /><text x=\"294.5\" y=\"229.0\" font-size=\"10.5\">(6; 0)</text></svg></span><p>Bestäm största värdet av \\(Z=4x+3y\\) och ange koordinaterna \\((x,y)\\) där det antas.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beräkna \\(Z\\) i hörnpunkterna:</p><p>\\[Z(0,0)=0,\\quad Z(0,5)=15,\\quad Z(3,5)=27,\\quad Z(6,2)=30,\\quad Z(6,0)=24.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största värdet är \\(\\boxed{30}\\) i punkten \\(\\boxed{(6,2)}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=4x+3y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\ Z(0,5)=15,\\ Z(3,5)=27\\]</div><div class=\"facit-matte\">\\[Z(6,2)=30,\\ Z(6,0)=24\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((6,2)\\)</p><div class=\"facit-matte\">\\[Z_{\\max}=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största värdet 30 i \\((6,2)\\)</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -60903,7 +60983,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Beräkna summan av de första \\(7\\) termerna i en geometrisk talföljd med första termen \\(3\\) och kvoten \\(2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Första termen är \\(a=3\\), kvoten \\(k=2\\) och antalet termer \\(n=7\\).</p><p>\\[S_7=3\\frac{2^7-1}{2-1}=3\\cdot127=381.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{381}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av första term, kvot och antal termer</p><div class=\"facit-matte\">\\[a=3,\\quad k=2,\\quad n=7\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_7=3\\cdot\\frac{2^7-1}{2-1}=3\\cdot127=381\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(381\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -60933,7 +61013,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar vinkeln \\(225^\\circ\\) i enhetscirkeln.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4144arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4144arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4144arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"99.9\" y2=\"210.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"99.9\" cy=\"210.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"89.9\" y=\"228.1\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2B2527\">P</text><path d=\"M 196 145 L 195.7 140.8 L 194.9 136.7 L 193.5 132.8 L 191.6 129 L 189.2 125.6 L 186.3 122.5 L 183.1 119.8 L 179.5 117.6 L 175.7 115.9 L 171.7 114.7 L 167.5 114.1 L 163.3 114 L 159.2 114.6 L 155.1 115.6 L 151.2 117.2 L 147.6 119.3 L 144.3 121.9 L 141.4 124.9 L 138.9 128.3 L 136.9 132 L 135.4 135.9 L 134.4 140 L 134 144.2 L 134.2 148.4 L 134.9 152.5 L 136.2 156.5 L 138 160.3 L 140.3 163.8 L 143.1 166.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"147\" y=\"105.6\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">225°</text></svg></span><p>Bestäm exakt \\(\\cos 225^\\circ\\) och \\(\\sin 225^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(225^\\circ=180^\\circ+45^\\circ\\) ligger i tredje kvadranten, där både x- och y-koordinaten är negativa.</p></li><li><div class=\"facit-berakning\"><p>På formelbladet är</p><div class=\"facit-matte\">\\[\\cos45^\\circ=\\sin45^\\circ=\\frac{\\sqrt2}{2}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\cos225^\\circ=-\\frac{\\sqrt2}{2},\\ \\sin225^\\circ=-\\frac{\\sqrt2}{2}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(225^\\circ\\) ligger i tredje kvadranten, referensvinkel \\(45^\\circ\\)</p><p>Båda koordinaterna är negativa.</p></li><li><p class=\"facit-rubrik\">Värdena för \\(45^\\circ\\) med minustecken</p><div class=\"facit-matte\">\\[\\cos225^\\circ=\\sin225^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos225^\\circ=-\\tfrac{\\sqrt2}{2}\\), \\(\\sin225^\\circ=-\\tfrac{\\sqrt2}{2}\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -60981,7 +61061,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Figuren visar ett tillåtet område.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"44.0\" y1=\"20\" x2=\"44.0\" y2=\"236\" stroke=\"#EEEDEF\" /><line x1=\"84.8\" y1=\"20\" x2=\"84.8\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"84.8\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">1</text><line x1=\"125.5\" y1=\"20\" x2=\"125.5\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"125.5\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">2</text><line x1=\"166.2\" y1=\"20\" x2=\"166.2\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"166.2\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">3</text><line x1=\"207.0\" y1=\"20\" x2=\"207.0\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"207.0\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">4</text><line x1=\"247.8\" y1=\"20\" x2=\"247.8\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"247.8\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">5</text><line x1=\"288.5\" y1=\"20\" x2=\"288.5\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"288.5\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">6</text><line x1=\"329.2\" y1=\"20\" x2=\"329.2\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"329.2\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">7</text><line x1=\"370.0\" y1=\"20\" x2=\"370.0\" y2=\"236\" stroke=\"#EEEDEF\" /><text x=\"370.0\" y=\"253\" text-anchor=\"middle\" font-size=\"10\" fill=\"#77727A\">8</text><line x1=\"44\" y1=\"236.0\" x2=\"370\" y2=\"236.0\" stroke=\"#EEEDEF\" /><line x1=\"44\" y1=\"209.0\" x2=\"370\" y2=\"209.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"212.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">1</text><line x1=\"44\" y1=\"182.0\" x2=\"370\" y2=\"182.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"185.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">2</text><line x1=\"44\" y1=\"155.0\" x2=\"370\" y2=\"155.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"158.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">3</text><line x1=\"44\" y1=\"128.0\" x2=\"370\" y2=\"128.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"131.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">4</text><line x1=\"44\" y1=\"101.0\" x2=\"370\" y2=\"101.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"104.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">5</text><line x1=\"44\" y1=\"74.0\" x2=\"370\" y2=\"74.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"77.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">6</text><line x1=\"44\" y1=\"47.0\" x2=\"370\" y2=\"47.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"50.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">7</text><line x1=\"44\" y1=\"20.0\" x2=\"370\" y2=\"20.0\" stroke=\"#EEEDEF\" /><text x=\"37\" y=\"23.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#77727A\">8</text><line x1=\"44.0\" y1=\"20\" x2=\"44.0\" y2=\"236\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><line x1=\"44\" y1=\"236.0\" x2=\"370\" y2=\"236.0\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><polygon points=\"44.0,236.0 44.0,128.0 125.5,74.0 288.5,182.0 329.2,236.0\" fill=\"#D9E7F8\" fill-opacity=\"0.78\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" /><circle cx=\"44.0\" cy=\"236.0\" r=\"4\" fill=\"#B43123\" /><text x=\"50.0\" y=\"229.0\" font-size=\"10.5\">(0; 0)</text><circle cx=\"44.0\" cy=\"128.0\" r=\"4\" fill=\"#B43123\" /><text x=\"50.0\" y=\"121.0\" font-size=\"10.5\">(0; 4)</text><circle cx=\"125.5\" cy=\"74.0\" r=\"4\" fill=\"#B43123\" /><text x=\"131.5\" y=\"67.0\" font-size=\"10.5\">(2; 6)</text><circle cx=\"288.5\" cy=\"182.0\" r=\"4\" fill=\"#B43123\" /><text x=\"294.5\" y=\"175.0\" font-size=\"10.5\">(6; 2)</text><circle cx=\"329.2\" cy=\"236.0\" r=\"4\" fill=\"#B43123\" /><text x=\"335.2\" y=\"229.0\" font-size=\"10.5\">(7; 0)</text></svg></span><p>Målfunktionen är \\(Z=px+2y\\), där \\(p&gt;0\\). För vilka värden på \\(p\\) är hörnpunkten \\((2;6)\\) den enda punkt som ger största värdet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I de relevanta hörnpunkterna blir målfunktionens värden</p><p>\\[(0,4):8,\\qquad(2,6):2p+12,\\qquad(6,2):6p+4,\\qquad(7,0):7p.\\]</p></li><li><p>För att \\((2,6)\\) ska vara unik maximipunkt måste</p><p>\\[2p+12&gt;6p+4\\quad\\Rightarrow\\quad p&lt;2\\]</p></li><li><p>och \\[2p+12&gt;7p\\quad\\Rightarrow\\quad p&lt;\\frac{12}{5}.\\]</p></li><li><p>Jämförelsen med \\((0,4)\\) ger bara \\(p&gt;-2\\), vilket redan följer av \\(p&gt;0\\).</p></li><li><p>Det strängaste villkoret är därför</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{0&lt;p&lt;2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Z i hörnen uttryckt i p</p><div class=\"facit-matte\">\\[(0,4):8,\\quad(2,6):2p+12\\]</div><div class=\"facit-matte\">\\[(6,2):6p+4,\\quad(7,0):7p\\]</div></li><li><p class=\"facit-rubrik\">\\((2,6)\\) ska vara strikt störst</p><div class=\"facit-matte\">\\[2p+12\\gt6p+4\\ \\Rightarrow\\ p\\lt2\\]</div><div class=\"facit-matte\">\\[2p+12\\gt7p\\ \\Rightarrow\\ p\\lt\\frac{12}{5}\\]</div><p>Mot \\((0,4)\\) får man \\(p\\gt-2\\), som redan gäller.</p></li><li><p class=\"facit-rubrik\">Det strängaste villkoret</p><div class=\"facit-matte\">\\[0\\lt p\\lt2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\lt p\\lt2\\)</p></div>",
     "familj": "Fördjupad linjär optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -61011,7 +61091,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En geometrisk talföljd har första termen \\(5\\) och kvoten \\(\\frac12\\).</p><p>a) Bestäm den sjätte termen.<br>b) Bestäm summan av de första sex termerna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den sjätte termen är</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[a_6=5\\left(\\frac12\\right)^5=\\frac5{32}.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Summan är</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[S_6=5\\frac{(\\frac12)^6-1}{\\frac12-1}=\\frac{315}{32}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{a_6=\\frac5{32},\\quad S_6=\\frac{315}{32}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Termformeln: \\(a_n=a\\cdot k^{n-1}\\) med \\(n=6\\)</p><div class=\"facit-matte\">\\[a_6=5\\cdot\\left(\\tfrac12\\right)^5=\\frac{5}{32}\\]</div></li><li><p class=\"facit-rubrik\">b) Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(k=\\tfrac12\\)</p><div class=\"facit-matte\">\\[S_6=5\\cdot\\frac{\\left(\\frac12\\right)^6-1}{\\frac12-1}=5\\cdot\\frac{-\\frac{63}{64}}{-\\frac12}\\]</div></li><li><p class=\"facit-rubrik\">Dela med \\(-\\tfrac12\\) genom att multiplicera med \\(-2\\)</p><div class=\"facit-matte\">\\[S_6=5\\cdot\\frac{63}{32}=\\frac{315}{32}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(a_6=\\dfrac{5}{32}\\), b) \\(S_6=\\dfrac{315}{32}\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": false,
@@ -61050,7 +61130,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar vinkeln \\(315^\\circ\\) i enhetscirkeln.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4147arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4147arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4147arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"230.1\" y2=\"210.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"230.1\" cy=\"210.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"240.1\" y=\"228.1\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2B2527\">P</text><path d=\"M 196 145 L 195.7 140.8 L 194.8 136.6 L 193.4 132.6 L 191.4 128.8 L 189 125.3 L 186 122.2 L 182.7 119.6 L 179.1 117.4 L 175.2 115.7 L 171 114.6 L 166.8 114.1 L 162.6 114.1 L 158.4 114.7 L 154.3 115.9 L 150.4 117.7 L 146.8 119.9 L 143.5 122.7 L 140.7 125.8 L 138.3 129.3 L 136.4 133.1 L 135 137.2 L 134.2 141.4 L 134 145.6 L 134.4 149.8 L 135.3 154 L 136.8 158 L 138.9 161.7 L 141.4 165.1 L 144.4 168.2 L 147.8 170.8 L 151.5 172.9 L 155.4 174.5 L 159.6 175.5 L 163.8 176 L 168 175.9 L 172.2 175.1 L 176.3 173.9 L 180.1 172 L 183.7 169.7 L 186.9 166.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"121.6\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">315°</text></svg></span><p>Bestäm exakt \\(\\cos 315^\\circ\\) och \\(\\sin 315^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(315^\\circ=360^\\circ-45^\\circ\\) ligger i fjärde kvadranten.</p></li><li><p>Där är cosinus positivt och sinus negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\cos315^\\circ=\\frac{\\sqrt2}{2},\\ \\sin315^\\circ=-\\frac{\\sqrt2}{2}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(315^\\circ\\) ligger i fjärde kvadranten, referensvinkel \\(45^\\circ\\)</p><p>Cosinus positiv, sinus negativ.</p></li><li><p class=\"facit-rubrik\">Värdena för \\(45^\\circ\\) med rätt tecken</p><div class=\"facit-matte\">\\[\\cos315^\\circ=\\frac{\\sqrt2}{2},\\qquad\\sin315^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos315^\\circ=\\tfrac{\\sqrt2}{2}\\), \\(\\sin315^\\circ=-\\tfrac{\\sqrt2}{2}\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -61129,7 +61209,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>En geometrisk summa har kvoten \\(k=1{,}10\\). Summan av de första fem termerna är \\(488{,}408\\).</p><p>Bestäm den första termen \\(a\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Summaformeln är</p><p>\\[S_5=a\\frac{k^5-1}{k-1}.\\]</p></li><li><p>Sätt in \\(S_5=488{,}408\\) och \\(k=1{,}10\\):</p><p>\\[488{,}408=a\\frac{1{,}1^5-1}{0{,}1}.\\]</p></li><li><p>Faktorn är \\(6{,}1051\\), så</p><p>\\[a=\\frac{488{,}408}{6{,}1051}=80.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=80\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med känd summa</p><div class=\"facit-matte\">\\[488{,}408=a\\cdot\\frac{1{,}1^5-1}{1{,}1-1}\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut bråket</p><div class=\"facit-matte\">\\[\\frac{1{,}1^5-1}{0{,}1}=6{,}1051\\]</div><div class=\"facit-matte\">\\[488{,}408=6{,}1051a\\]</div></li><li><p class=\"facit-rubrik\">Dela båda leden med 6,1051</p><div class=\"facit-matte\">\\[a=\\frac{488{,}408}{6{,}1051}=80\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=80\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -61158,7 +61238,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar vinkeln \\(330^\\circ\\) i enhetscirkeln.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4150arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4150arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4150arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"244.7\" y2=\"191\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"244.7\" cy=\"191\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"254.7\" y=\"209\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2B2527\">P</text><path d=\"M 196 145 L 195.7 140.8 L 194.8 136.6 L 193.4 132.6 L 191.5 128.8 L 189 125.4 L 186.1 122.3 L 182.8 119.6 L 179.1 117.4 L 175.2 115.7 L 171.1 114.6 L 166.9 114.1 L 162.7 114.1 L 158.5 114.7 L 154.4 115.9 L 150.5 117.6 L 146.9 119.8 L 143.6 122.5 L 140.8 125.7 L 138.3 129.2 L 136.4 133 L 135.1 137 L 134.2 141.1 L 134 145.4 L 134.3 149.6 L 135.3 153.8 L 136.7 157.7 L 138.8 161.5 L 141.3 164.9 L 144.2 168 L 147.5 170.6 L 151.2 172.8 L 155.1 174.4 L 159.2 175.5 L 163.5 176 L 167.7 175.9 L 171.9 175.2 L 176 174 L 179.8 172.2 L 183.4 169.9 L 186.6 167.2 L 189.5 164 L 191.8 160.5\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"119.6\" y=\"136.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">330°</text></svg></span><p>Bestäm exakt \\(\\cos 330^\\circ\\) och \\(\\sin 330^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(330^\\circ=360^\\circ-30^\\circ\\) ligger i fjärde kvadranten.</p></li><li><p>På formelbladet är \\(\\cos30^\\circ=\\frac{\\sqrt3}{2}\\) och \\(\\sin30^\\circ=\\frac12\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\cos330^\\circ=\\frac{\\sqrt3}{2},\\ \\sin330^\\circ=-\\frac12}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(330^\\circ\\) ligger i fjärde kvadranten, referensvinkel \\(30^\\circ\\)</p><p>Cosinus positiv, sinus negativ.</p></li><li><p class=\"facit-rubrik\">Värdena för \\(30^\\circ\\) med rätt tecken</p><div class=\"facit-matte\">\\[\\cos330^\\circ=\\frac{\\sqrt3}{2},\\qquad\\sin330^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos330^\\circ=\\tfrac{\\sqrt3}{2}\\), \\(\\sin330^\\circ=-\\tfrac12\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -61206,7 +61286,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Vilket alternativ anger alla punkter som uppfyller båda villkoren</p><p>\\[x+y\\le7,\\qquad2x+y\\le10?\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\((2,3)\\): \\(2+3=5\\le7\\) och \\(2\\cdot2+3=7\\le10\\).</p></li><li><p>\\((4,4)\\) bryter mot \\(x+y\\le7\\), och \\((6,1)\\) bryter mot \\(2x+y\\le10\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Endast \\((2,3)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva varje punkt i båda villkoren</p><div class=\"facit-matte\">\\[(2,3):\\ 5\\le7,\\ 7\\le10\\]</div><p>\\((4,4)\\): \\(8\\gt7\\). \\((6,1)\\): \\(13\\gt10\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Endast \\((2,3)\\)</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -61224,7 +61304,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Formulera bivillkor i linjär optimering"
     ],
-    "alternativ": [{"txt": "Endast \\((2,3)\\)", "ratt": true}, {"txt": "Endast \\((4,4)\\)", "ratt": false}, {"txt": "Endast \\((6,1)\\)", "ratt": false}, {"txt": "\\((2,3)\\) och \\((6,1)\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Endast \\((2,3)\\)",
+        "ratt": true
+      },
+      {
+        "txt": "Endast \\((4,4)\\)",
+        "ratt": false,
+        "kommentar": "\\(4+4=8\\gt7\\): första villkoret bryts."
+      },
+      {
+        "txt": "Endast \\((6,1)\\)",
+        "ratt": false,
+        "kommentar": "\\(2\\cdot6+1=13\\gt10\\): andra villkoret bryts."
+      },
+      {
+        "txt": "\\((2,3)\\) och \\((6,1)\\)",
+        "ratt": false,
+        "kommentar": "\\((6,1)\\) bryter mot \\(2x+y\\le10\\)."
+      }
+    ]
   },
   {
     "id": "4.152",
@@ -61236,7 +61336,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Beräkna summan av de första \\(5\\) termerna i en geometrisk talföljd med första termen \\(4\\) och kvoten \\(-2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[a=4\\],</div></div></li><li><p>\\(k=-2\\) och \\(n=5\\):</p><p>\\[S_5=4\\frac{(-2)^5-1}{-2-1}=4\\frac{-33}{-3}=44.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{44}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av första term, kvot och antal termer</p><div class=\"facit-matte\">\\[a=4,\\quad k=-2,\\quad n=5\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med parentes kring \\(-2\\)</p><div class=\"facit-matte\">\\[S_5=4\\cdot\\frac{(-2)^5-1}{-2-1}=4\\cdot\\frac{-33}{-3}\\]</div></li><li><p class=\"facit-rubrik\">Minus delat med minus blir plus</p><div class=\"facit-matte\">\\[S_5=4\\cdot11=44\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(44\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": false,
@@ -61266,7 +61366,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En punkt på enhetscirkeln har koordinaterna \\(P=(0,-1)\\).</p><p>a) Ange vinkeln \\(v\\) i intervallet \\(0^\\circ\\le v&lt;360^\\circ\\).<br>b) Bestäm \\(\\sin v\\) och \\(\\cos v\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel med punkten 0 minus 1\"><circle cx=\"175\" cy=\"145\" r=\"96\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"38\" y1=\"145\" x2=\"320\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"265\" x2=\"175\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"325\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"182\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">y</text><line x1=\"175\" y1=\"145\" x2=\"175.0\" y2=\"241.0\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"175.0\" cy=\"241.0\" r=\"4.5\" fill=\"currentColor\"/><text x=\"183.0\" y=\"234.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">P</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten \\((0,-1)\\) ligger längst ned på enhetscirkeln, vilket motsvarar</p><p>\\[v=270^\\circ.\\]</p></li><li><p>På enhetscirkeln är \\(P=(\\cos v,\\sin v)\\), så</p><p>\\[\\sin v=-1,\\qquad\\cos v=0.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{270^\\circ,\\ -1,\\ 0}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\((0,-1)\\) ligger längst ned på cirkeln</p><div class=\"facit-matte\">\\[v=270^\\circ\\]</div></li><li><p class=\"facit-rubrik\">På enhetscirkeln: \\(P=(\\cos v,\\ \\sin v)\\)</p><div class=\"facit-matte\">\\[\\cos270^\\circ=0,\\qquad\\sin270^\\circ=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(270^\\circ\\), b) \\(\\sin v=-1\\), \\(\\cos v=0\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -61312,7 +61412,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett tillåtet område har hörnpunkterna \\((0,0),(0,8),(5,3),(7,0)\\). Målfunktionen är \\(Z=3x-2y\\).</p><p>Bestäm minsta värdet och var det antas.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"290\" viewBox=\"0 0 400 290\" role=\"img\" aria-label=\"Tillåtet område med fyra hörnpunkter\"><line x1=\"50\" y1=\"245\" x2=\"376\" y2=\"245\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"50\" y1=\"245\" x2=\"50\" y2=\"19\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"50.0,245.0 50.0,49.4 250.0,171.7 330.0,245.0\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"50.0\" cy=\"245.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"55.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(0; 0)</text><circle cx=\"50.0\" cy=\"49.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"55.0\" y=\"42.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(0; 8)</text><circle cx=\"250.0\" cy=\"171.7\" r=\"3.5\" fill=\"currentColor\"/><text x=\"255.0\" y=\"164.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(5; 3)</text><circle cx=\"330.0\" cy=\"245.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"335.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(7; 0)</text><text x=\"380\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">x</text><text x=\"56\" y=\"17\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beräkna \\(Z=3x-2y\\) i hörnen:</p><p>\\[Z(0,0)=0,\\quad Z(0,8)=-16,\\quad Z(5,3)=9,\\quad Z(7,0)=21.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta värdet är \\(\\boxed{-16}\\) i \\(\\boxed{(0,8)}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=3x-2y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\quad Z(0,8)=-16\\]</div><div class=\"facit-matte\">\\[Z(5,3)=9,\\quad Z(7,0)=21\\]</div></li><li><p class=\"facit-rubrik\">Minst i \\((0,8)\\)</p><div class=\"facit-matte\">\\[Z_{\\min}=-16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta värdet \\(-16\\) i \\((0,8)\\)</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -61354,7 +61454,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Beräkna summan av de första \\(6\\) termerna i en geometrisk talföljd med första termen \\(120\\) och kvoten \\(0{,}8\\). Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[S_6=120\\frac{0{,}8^6-1}{0{,}8-1}=442{,}7136.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{442{,}71}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av första term, kvot och antal termer</p><div class=\"facit-matte\">\\[a=120,\\quad k=0{,}8,\\quad n=6\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_6=120\\cdot\\frac{0{,}8^6-1}{0{,}8-1}\\]</div><div class=\"facit-matte\">\\[=442{,}7136\\approx442{,}71\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(442{,}71\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -61384,7 +61484,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En vinkel \\(v\\) ligger i tredje kvadranten. Vilket alternativ beskriver tecknen på \\(\\sin v\\) och \\(\\cos v\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I tredje kvadranten är både x- och y-koordinaten negativa.</p></li><li><p>Eftersom \\(\\cos v\\) är x-koordinaten och \\(\\sin v\\) är y-koordinaten är båda negativa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin v\\lt0\\) och \\(\\cos v\\lt0\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tredje kvadranten: x och y negativa</p><p>Cosinus är x-koordinaten och sinus y-koordinaten.</p></li><li><p class=\"facit-rubrik\">Båda är negativa</p><div class=\"facit-matte\">\\[\\sin v\\lt0,\\qquad\\cos v\\lt0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin v\\lt0\\) och \\(\\cos v\\lt0\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -61405,7 +61505,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Exakta trigonometriska värden och symmetri i enhetscirkeln"
     ],
-    "alternativ": [{"txt": "\\(\\sin v\\gt0\\) och \\(\\cos v\\gt0\\)", "ratt": false}, {"txt": "\\(\\sin v\\lt0\\) och \\(\\cos v\\lt0\\)", "ratt": true}, {"txt": "\\(\\sin v\\gt0\\) och \\(\\cos v\\lt0\\)", "ratt": false}, {"txt": "\\(\\sin v\\lt0\\) och \\(\\cos v\\gt0\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(\\sin v\\gt0\\) och \\(\\cos v\\gt0\\)",
+        "ratt": false,
+        "kommentar": "Båda är positiva i första kvadranten, inte i tredje."
+      },
+      {
+        "txt": "\\(\\sin v\\lt0\\) och \\(\\cos v\\lt0\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(\\sin v\\gt0\\) och \\(\\cos v\\lt0\\)",
+        "ratt": false,
+        "kommentar": "Så är det i andra kvadranten."
+      },
+      {
+        "txt": "\\(\\sin v\\lt0\\) och \\(\\cos v\\gt0\\)",
+        "ratt": false,
+        "kommentar": "Så är det i fjärde kvadranten."
+      }
+    ]
   },
   {
     "id": "4.157",
@@ -61417,7 +61537,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En fabrik tillverkar produkter A och B. Varje A ger 30 kr i vinst och varje B ger 45 kr i vinst.</p><p>Skriv en målfunktion \\(Z\\) om \\(x\\) och \\(y\\) är antalet A respektive B.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje produkt A bidrar med 30 kr och varje produkt B med 45 kr.</p></li><li><p>Därför blir den totala vinsten</p><p>\\[\\boxed{Z=30x+45y}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(Z=30x+45y\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinst per styck gånger antal, för båda produkterna</p><div class=\"facit-matte\">\\[Z=30x+45y\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(Z=30x+45y\\)</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -61439,68 +61559,68 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "4.158",
-  "kap": 4,
-  "omr": "geometriska_summor",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p>a) Bestäm kvoten.<br>b) Skriv den sjätte termen.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kvoten är</p><div class=\"facit-matte\">\\[k=6/2=3\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a_6=2\\cdot3^5=486\\].</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(3\\), b) \\(486\\)</strong></p></div>",
-  "familj": "Geometriska talföljder",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    3,
-    486
-  ],
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarsstruktur": "ordnad",
-  "svarEtiketter": [
-    "a",
-    "b"
-  ],
-  "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "etikett": "a",
-      "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p><div class=\"spel-en-del\">Bestäm kvoten.</div></p>",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kvoten är</p><div class=\"facit-matte\">\\[k=6/2=3\\].</div></div></li></ol></div></div>",
-      "ledtrad": "<p>Beräkna kvoten mellan två följande termer. Om samma kvot återkommer är följden geometrisk; använd den för att skriva nästa term eller den allmänna termen.</p>",
-      "niva": "E",
-      "poang": "1/0/0",
-      "miniräknare": false
-    },
-    {
-      "etikett": "b",
-      "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p><div class=\"spel-en-del\">Skriv den sjätte termen.</div></p>",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a_6=2\\cdot3^5=486\\].</div></li></ol></div></div>",
-      "ledtrad": "<p>Beräkna kvoten mellan två följande termer. Om samma kvot återkommer är följden geometrisk; använd den för att skriva nästa term eller den allmänna termen.</p>",
-      "niva": "E",
-      "poang": "1/0/0",
-      "miniräknare": true
-    }
-  ],
-  "ledtrad": "<p>Identifiera första termen a och den konstanta kvoten k innan någon formel används. Om flera termer ska läggas ihop är det summaformeln som behövs; om en enskild framtida term efterfrågas används följdformeln.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "familjTidigare": [
-    "Identifiera och beskriva geometriska talföljder"
-  ]
-},
+    "id": "4.158",
+    "kap": 4,
+    "omr": "geometriska_summor",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p>a) Bestäm kvoten.<br>b) Skriv den sjätte termen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten = en term delad med termen före</p><div class=\"facit-matte\">\\[k=\\frac62=3\\]</div><p>Kontroll: \\(18/6=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Termformeln: \\(a_n=a\\cdot k^{n-1}\\) med \\(a=2\\), \\(k=3\\), \\(n=6\\)</p><div class=\"facit-matte\">\\[a_6=2\\cdot3^5=2\\cdot243=486\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(486\\)</p></div></div>",
+    "familj": "Geometriska talföljder",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      486
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p><div class=\"spel-en-del\">Bestäm kvoten.</div></p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten = en term delad med termen före</p><div class=\"facit-matte\">\\[k=\\frac62=3\\]</div><p>Kontroll: \\(18/6=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\)</p></div>",
+        "ledtrad": "<p>Beräkna kvoten mellan två följande termer. Om samma kvot återkommer är följden geometrisk; använd den för att skriva nästa term eller den allmänna termen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": false
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p><div class=\"spel-en-del\">Skriv den sjätte termen.</div></p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Termformeln: \\(a_n=a\\cdot k^{n-1}\\) med \\(a=2\\), \\(k=3\\), \\(n=6\\)</p><div class=\"facit-matte\">\\[a_6=2\\cdot3^5=2\\cdot243=486\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(486\\)</p></div>",
+        "ledtrad": "<p>Beräkna kvoten mellan två följande termer. Om samma kvot återkommer är följden geometrisk; använd den för att skriva nästa term eller den allmänna termen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true
+      }
+    ],
+    "ledtrad": "<p>Kvoten får du genom att dela en term med termen före. Från första till sjätte termen multiplicerar du med kvoten fem gånger.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "familjTidigare": [
+      "Identifiera och beskriva geometriska talföljder"
+    ]
+  },
   {
     "id": "4.159",
     "kap": 4,
@@ -61551,7 +61671,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Produkt A kräver 3 arbetstimmar och produkt B kräver 2 arbetstimmar. Totalt finns högst 60 arbetstimmar. Vilket alternativ beskriver arbetstidsvillkoret och att antalen \\(x\\) och \\(y\\) inte kan vara negativa?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\"Högst 60 timmar\" ger \\(3x+2y\\le60\\).</p></li><li><p>Antal produkter kan inte vara negativa, så \\(x\\ge0\\) och \\(y\\ge0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x+2y\\le60,\\ x\\ge0,\\ y\\ge0\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">”Högst 60 timmar” ger \\(\\le\\)</p><div class=\"facit-matte\">\\[3x+2y\\le60\\]</div></li><li><p class=\"facit-rubrik\">Antal kan inte vara negativa</p><div class=\"facit-matte\">\\[x\\ge0,\\qquad y\\ge0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x+2y\\le60,\\ x\\ge0,\\ y\\ge0\\)</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -61570,7 +61690,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Formulera bivillkor i linjär optimering"
     ],
-    "alternativ": [{"txt": "\\(3x+2y\\ge60,\\ x\\ge0,\\ y\\ge0\\)", "ratt": false}, {"txt": "\\(3x+2y\\le60,\\ x\\ge0,\\ y\\ge0\\)", "ratt": true}, {"txt": "\\(2x+3y\\le60,\\ x\\ge0,\\ y\\ge0\\)", "ratt": false}, {"txt": "\\(3x+2y\\le60,\\ x\\le0,\\ y\\le0\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(3x+2y\\ge60,\\ x\\ge0,\\ y\\ge0\\)",
+        "ratt": false,
+        "kommentar": "”Högst” betyder \\(\\le\\), inte \\(\\ge\\)."
+      },
+      {
+        "txt": "\\(3x+2y\\le60,\\ x\\ge0,\\ y\\ge0\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(2x+3y\\le60,\\ x\\ge0,\\ y\\ge0\\)",
+        "ratt": false,
+        "kommentar": "A kräver 3 timmar och B 2 timmar, inte tvärtom."
+      },
+      {
+        "txt": "\\(3x+2y\\le60,\\ x\\le0,\\ y\\le0\\)",
+        "ratt": false,
+        "kommentar": "Antalen ska vara \\(\\ge0\\), inte \\(\\le0\\)."
+      }
+    ]
   },
   {
     "id": "4.161",
@@ -61582,7 +61722,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Vilket alternativ beskriver korrekt vilken följd som är geometrisk?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en geometrisk följd ska kvoten mellan två efterföljande termer vara konstant.</p></li><li><p>För följd A är kvoterna exempelvis \\(8/4=2\\) och \\(12/8=1,5\\), alltså inte lika.</p></li><li><div class=\"facit-berakning\"><p>För följd B är</p><div class=\"facit-matte\">\\[27/81=9/27=3/9=1/3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Följd B: \\(81,27,9,3,\\ldots\\), med \\(k=\\frac13\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Följd A: kvoten mellan termerna</p><div class=\"facit-matte\">\\[\\frac84=2,\\qquad\\frac{12}{8}=1{,}5\\]</div><p>Kvoterna är olika, så A är inte geometrisk.</p></li><li><p class=\"facit-rubrik\">Följd B: kvoten mellan termerna</p><div class=\"facit-matte\">\\[\\frac{27}{81}=\\frac{9}{27}=\\frac39=\\frac13\\]</div><p>Kvoten är konstant, så B är geometrisk med \\(k=\\tfrac13\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Följd B: \\(81,27,9,3,\\ldots\\), med \\(k=\\frac13\\)</p></div>",
     "familj": "Geometriska talföljder",
     "geogebra": false,
     "miniräknare": true,
@@ -61601,7 +61741,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Identifiera och beskriva geometriska talföljder"
     ],
-    "alternativ": [{"txt": "Följd A: \\(4,8,12,16,\\ldots\\), med \\(k=2\\)", "ratt": false}, {"txt": "Följd A: \\(4,8,12,16,\\ldots\\), med \\(k=4\\)", "ratt": false}, {"txt": "Följd B: \\(81,27,9,3,\\ldots\\), med \\(k=\\frac13\\)", "ratt": true}, {"txt": "Följd B: \\(81,27,9,3,\\ldots\\), med \\(k=3\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Följd A: \\(4,8,12,16,\\ldots\\), med \\(k=2\\)",
+        "ratt": false,
+        "kommentar": "Följd A ökar med 4 varje gång. Kvoterna \\(8/4=2\\) och \\(12/8=1{,}5\\) är olika, så följden är inte geometrisk."
+      },
+      {
+        "txt": "Följd A: \\(4,8,12,16,\\ldots\\), med \\(k=4\\)",
+        "ratt": false,
+        "kommentar": "Följd A ökar med 4 i varje steg. Det är en differens, inte en kvot, och följden är inte geometrisk."
+      },
+      {
+        "txt": "Följd B: \\(81,27,9,3,\\ldots\\), med \\(k=\\frac13\\)",
+        "ratt": true
+      },
+      {
+        "txt": "Följd B: \\(81,27,9,3,\\ldots\\), med \\(k=3\\)",
+        "ratt": false,
+        "kommentar": "Kvoten är termen delad med termen före: \\(27/81=\\tfrac13\\). Termerna blir mindre, så kvoten är mindre än 1."
+      }
+    ]
   },
   {
     "id": "4.162",
@@ -61683,7 +61843,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Första dagen läser en elev 20 sidor. Varje följande dag läser eleven 10 % fler sidor än dagen före.</p><p>Skriv de fyra första termerna i den geometriska följden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En ökning med 10 % motsvarar kvoten \\(1{,}10\\).</p></li><li><p>Termerna blir</p><p>\\[20;\\quad20\\cdot1{,}10=22;\\quad22\\cdot1{,}10=24,2;\\quad24{,}2\\cdot1{,}10=26{,}62.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{20;\\ 22;\\ 24{,}2;\\ 26{,}62}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">10 % fler sidor ger kvoten 1,10</p><div class=\"facit-matte\">\\[k=1{,}10\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med 1,10 för varje ny dag</p><div class=\"facit-matte\">\\[20\\cdot1{,}10=22\\]</div><div class=\"facit-matte\">\\[22\\cdot1{,}10=24{,}2\\]</div><div class=\"facit-matte\">\\[24{,}2\\cdot1{,}10=26{,}62\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(20;\\ 22;\\ 24{,}2;\\ 26{,}62\\)</p></div>",
     "familj": "Geometriska talföljder",
     "geogebra": false,
     "miniräknare": true,
@@ -61735,7 +61895,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Punkten \\(P=(\\frac35,\\frac45)\\) ligger på enhetscirkeln i första kvadranten.</p><p>Bestäm \\(\\cos v\\) och \\(\\sin v\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel med punkten tre femtedelar fyra femtedelar\"><circle cx=\"175\" cy=\"145\" r=\"96\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"38\" y1=\"145\" x2=\"320\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"265\" x2=\"175\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"325\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"182\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">y</text><line x1=\"175\" y1=\"145\" x2=\"232.6\" y2=\"68.2\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"232.6\" cy=\"68.2\" r=\"4.5\" fill=\"currentColor\"/><text x=\"240.6\" y=\"61.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">P</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[P=(\\cos v,\\sin v)\\].</div></div></li><li><p>Därför</p><p>\\[\\cos v=\\frac35,\\qquad\\sin v=\\frac45.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\cos v=\\dfrac{3}{5}\\), \\(\\sin v=\\dfrac{4}{5}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">På enhetscirkeln: \\(P=(\\cos v,\\ \\sin v)\\)</p><div class=\"facit-matte\">\\[\\cos v=\\frac35,\\qquad\\sin v=\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos v=\\dfrac{3}{5}\\), \\(\\sin v=\\dfrac{4}{5}\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -61808,7 +61968,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En geometrisk summa är \\(10+15+22{,}5+\\cdots\\). Bestäm första termen och kvoten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Den första termen är direkt</p><div class=\"facit-matte\">\\[a=10\\].</div></div></li><li><div class=\"facit-berakning\"><p>Kvoten är</p><div class=\"facit-matte\">\\[k=15/10=1,5\\].</div></div></li><li><div class=\"facit-berakning\"><p>Kontroll:</p><div class=\"facit-matte\">\\[22{,}5/15=1,5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{a=10,\\ k=1{,}5}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Första termen läses av direkt</p><div class=\"facit-matte\">\\[a=10\\]</div></li><li><p class=\"facit-rubrik\">Kvoten = en term delad med termen före</p><div class=\"facit-matte\">\\[k=\\frac{15}{10}=1{,}5\\]</div><p>Kontroll: \\(22{,}5/15=1{,}5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=10\\), \\(k=1{,}5\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -61910,7 +62070,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>En person sätter in 2000 kr i slutet av varje år. Kontot ger 4 % ränta per år. Hur mycket finns på kontot direkt efter den sjätte insättningen, om den första insättningen har hunnit få ränta fem gånger?</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"430\" height=\"175\" viewBox=\"0 0 430 175\" role=\"img\" aria-label=\"Tidslinje för årliga insättningar\"><line x1=\"35\" y1=\"98\" x2=\"395\" y2=\"98\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"215\" y=\"25\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">4 % ränta per år</text><line x1=\"45.0\" y1=\"90\" x2=\"45.0\" y2=\"106\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"45.0\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">år 1</text><line x1=\"45.0\" y1=\"82\" x2=\"45.0\" y2=\"52\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"45.0\" y=\"43\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10.5\" fill=\"currentColor\">2000 kr</text><line x1=\"113.0\" y1=\"90\" x2=\"113.0\" y2=\"106\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"113.0\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">år 2</text><line x1=\"113.0\" y1=\"82\" x2=\"113.0\" y2=\"52\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"113.0\" y=\"43\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10.5\" fill=\"currentColor\">2000 kr</text><line x1=\"181.0\" y1=\"90\" x2=\"181.0\" y2=\"106\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"181.0\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">år 3</text><line x1=\"181.0\" y1=\"82\" x2=\"181.0\" y2=\"52\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"181.0\" y=\"43\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10.5\" fill=\"currentColor\">2000 kr</text><line x1=\"249.0\" y1=\"90\" x2=\"249.0\" y2=\"106\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"249.0\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">år 4</text><line x1=\"249.0\" y1=\"82\" x2=\"249.0\" y2=\"52\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"249.0\" y=\"43\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10.5\" fill=\"currentColor\">2000 kr</text><line x1=\"317.0\" y1=\"90\" x2=\"317.0\" y2=\"106\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"317.0\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">år 5</text><line x1=\"317.0\" y1=\"82\" x2=\"317.0\" y2=\"52\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"317.0\" y=\"43\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10.5\" fill=\"currentColor\">2000 kr</text><line x1=\"385.0\" y1=\"90\" x2=\"385.0\" y2=\"106\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"385.0\" y=\"126\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">år 6</text><line x1=\"385.0\" y1=\"82\" x2=\"385.0\" y2=\"52\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"385.0\" y=\"43\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10.5\" fill=\"currentColor\">2000 kr</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beloppen har vid denna tidpunkt värdena \\(2000\\cdot1{,}04^5,2000\\cdot1{,}04^4,\\ldots,2000\\).</p></li><li><p>Det är en geometrisk summa:</p><p>\\[S=2000\\frac{1{,}04^6-1}{1{,}04-1}\\approx13265{,}95.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(\\boxed{13\\,266\\text{ kr}}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värdet av varje insättning efter den sjätte</p><p>Den första har fått ränta 5 gånger, nästa 4 gånger och den sista ingen gång.</p><div class=\"facit-matte\">\\[2000+2000\\cdot1{,}04+\\ldots+2000\\cdot1{,}04^5\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(a=2000\\), \\(k=1{,}04\\), \\(n=6\\)</p><div class=\"facit-matte\">\\[S_6=2000\\cdot\\frac{1{,}04^6-1}{1{,}04-1}\\]</div><div class=\"facit-matte\">\\[\\approx13\\,265{,}95\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(13\\,266\\) kr</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -61941,7 +62101,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>En vinkel \\(v\\) ligger i andra kvadranten och \\(\\sin v=\\frac5{13}\\). Bestäm \\(\\cos v\\) exakt.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punkt i andra kvadranten med sinus fem trettondelar\"><circle cx=\"175\" cy=\"145\" r=\"96\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"38\" y1=\"145\" x2=\"320\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"265\" x2=\"175\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"325\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"182\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">y</text><line x1=\"175\" y1=\"145\" x2=\"86.4\" y2=\"108.1\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"86.4\" cy=\"108.1\" r=\"4.5\" fill=\"currentColor\"/><text x=\"94.4\" y=\"101.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">P</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[\\cos^2v+\\sin^2v=1\\].</div></div></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[\\cos^2v=1-25/169=144/169\\].</div></div></li><li><div class=\"facit-berakning\"><p>I andra kvadranten är cosinus negativ, så</p><div class=\"facit-matte\">\\[\\boxed{\\cos v=-12/13}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-\\dfrac{12}{13}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pythagoras sats i enhetscirkeln: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-\\frac{25}{169}=\\frac{144}{169}\\quad\\Rightarrow\\quad\\cos v=\\pm\\frac{12}{13}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: cosinus negativ</p><div class=\"facit-matte\">\\[\\cos v=-\\frac{12}{13}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac{12}{13}\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -62005,7 +62165,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>En maskin producerar 5000 detaljer första året. Produktionen minskar med 6 % varje år.</p><p>Hur många detaljer produceras sammanlagt under de första 8 åren enligt modellen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Första årets produktion är</p><div class=\"facit-matte\">\\[a=5000\\].</div></div></li><li><div class=\"facit-berakning\"><p>En minskning med 6 % ger kvoten</p><div class=\"facit-matte\">\\[k=0{,}94\\].</div></div><p>\\[S_8=5000\\frac{0{,}94^8-1}{0{,}94-1}\\approx32\\,535,92.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(\\boxed{32\\,536}\\) detaljer.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minskning med 6 % ger kvoten 0,94</p><div class=\"facit-matte\">\\[a=5000,\\quad k=0{,}94,\\quad n=8\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_8=5000\\cdot\\frac{0{,}94^8-1}{0{,}94-1}\\]</div><div class=\"facit-matte\">\\[\\approx32\\,535{,}9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(32\\,536\\) detaljer</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -62036,7 +62196,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>En vinkel \\(v\\) ligger i fjärde kvadranten och \\(\\cos v=0,6\\). Bestäm \\(\\sin v\\) exakt.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punkt i fjärde kvadranten\"><circle cx=\"175\" cy=\"145\" r=\"96\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"38\" y1=\"145\" x2=\"320\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"265\" x2=\"175\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"325\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"182\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">y</text><line x1=\"175\" y1=\"145\" x2=\"232.6\" y2=\"221.8\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"232.6\" cy=\"221.8\" r=\"4.5\" fill=\"currentColor\"/><text x=\"240.6\" y=\"214.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">P</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin^2v=1-0{,}6^2=0{,}64\\), alltså \\(|\\sin v|=0,8\\).</p></li><li><div class=\"facit-berakning\"><p>I fjärde kvadranten är sinus negativ, så</p><div class=\"facit-matte\">\\[\\boxed{\\sin v=-0{,}8=-4/5}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-\\dfrac{4}{5}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pythagoras sats i enhetscirkeln: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-0{,}6^2=0{,}64\\quad\\Rightarrow\\quad\\sin v=\\pm0{,}8\\]</div></li><li><p class=\"facit-rubrik\">Fjärde kvadranten: sinus negativ</p><div class=\"facit-matte\">\\[\\sin v=-0{,}8=-\\frac45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac45\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -62101,7 +62261,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En geometrisk summa har första termen 12 och kvoten 1,5. Hur många termer behövs minst för att summan ska överstiga 1000?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[S_n=12\\frac{1{,}5^n-1}{0{,}5}=24(1,5^n-1).\\]</p></li><li><p>Kravet \\(S_n&gt;1000\\) ger \\(1{,}5^n&gt;42{,}666\\ldots\\).</p></li><li><p>Logaritmering ger \\(n&gt;\\ln(42,666\\ldots)/\\ln1{,}5\\approx9{,}26\\).</p></li><li><div class=\"facit-berakning\"><p>Minsta heltal är därför</p><div class=\"facit-matte\">\\[\\boxed{n=10}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(a=12\\) och \\(k=1{,}5\\)</p><div class=\"facit-matte\">\\[S_n=12\\cdot\\frac{1{,}5^n-1}{1{,}5-1}=24(1{,}5^n-1)\\]</div></li><li><p class=\"facit-rubrik\">Summan ska vara större än 1000</p><div class=\"facit-matte\">\\[24(1{,}5^n-1)\\gt1000\\]</div><div class=\"facit-matte\">\\[1{,}5^n\\gt42{,}67\\]</div></li><li><p class=\"facit-rubrik\">Logaritmera båda leden</p><div class=\"facit-matte\">\\[n\\gt\\frac{\\lg42{,}67}{\\lg1{,}5}\\approx9{,}26\\]</div></li><li><p class=\"facit-rubrik\">Minsta heltal som är större än 9,26</p><div class=\"facit-matte\">\\[n=10\\]</div><p>Kontroll: \\(S_9\\approx899\\) och \\(S_{10}\\approx1360\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\) termer</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -62153,37 +62313,37 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "4.179",
-  "kap": 4,
-  "omr": "geometriska_summor",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "C",
-  "poang": "1/2/0",
-  "t": "<p>En boll släpps från 3,0 m. Varje studs når 60 % av föregående höjd. Hur lång vertikal sträcka har bollen färdats från släppet tills den når marken efter den fjärde studsen? Svara med två decimaler.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"430\" height=\"240\" viewBox=\"0 0 430 240\" role=\"img\" aria-label=\"Schematisk bild av första fallet och 4 hela studsar\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><line x1=\"25\" y1=\"190\" x2=\"405\" y2=\"190\" stroke=\"currentColor\"/><path d=\"M50 40 L50 190 Q90.00 10.00 130.00 190 Q170.00 82.00 210.00 190 Q250.00 125.20 290.00 190 Q330.00 151.12 370.00 190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"50\" cy=\"40\" r=\"5\" fill=\"currentColor\"/><text x=\"60\" y=\"35\" font-size=\"13\">3,0 m</text><text x=\"150\" y=\"25\" font-size=\"13\">Ny höjd: 60 % av föregående</text><text x=\"25\" y=\"224\" font-size=\"12\">Schematisk bild – vågrät placering skiljer studsar åt.</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Först faller bollen 3,0 m till marken. Under de fyra studsar som sedan genomförs når den höjderna 1,8 m, 1,08 m, 0,648 m och 0,3888 m.</p></li><li><p>Varje studshöjd räknas två gånger, eftersom bollen både stiger och faller:</p><div class=\"facit-matte\">\\[\\begin{aligned}S&=3+2(1{,}8+1{,}08\\\\&\\qquad+0{,}648+0{,}3888)\\\\&=10{,}8336\\,\\mathrm{m}.\\end{aligned}\\]</div></li><li><p>Sträckan är cirka <strong>10,83 m</strong>.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(10{,}83\\) m</strong></p></div>",
-  "familj": "Geometriska summor i tillämpningar",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 10.8336,
-  "tolerans": 0.005,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Skriv först upp höjden efter varje studs. Tänk sedan på att den första sträckan bara går nedåt, medan varje studshöjd därefter passeras en gång uppåt och en gång nedåt.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 3,
-  "spel": true,
-  "familjTidigare": [
-    "Använda geometriska summor i tillämpningar"
-  ],
-  "svarEnhet": "m"
-},
+    "id": "4.179",
+    "kap": 4,
+    "omr": "geometriska_summor",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "1/2/0",
+    "t": "<p>En boll släpps från 3,0 m. Varje studs når 60 % av föregående höjd. Hur lång vertikal sträcka har bollen färdats från släppet tills den når marken efter den fjärde studsen? Svara med två decimaler.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"430\" height=\"240\" viewBox=\"0 0 430 240\" role=\"img\" aria-label=\"Schematisk bild av första fallet och 4 hela studsar\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><line x1=\"25\" y1=\"190\" x2=\"405\" y2=\"190\" stroke=\"currentColor\"/><path d=\"M50 40 L50 190 Q90.00 10.00 130.00 190 Q170.00 82.00 210.00 190 Q250.00 125.20 290.00 190 Q330.00 151.12 370.00 190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"50\" cy=\"40\" r=\"5\" fill=\"currentColor\"/><text x=\"60\" y=\"35\" font-size=\"13\">3,0 m</text><text x=\"150\" y=\"25\" font-size=\"13\">Ny höjd: 60 % av föregående</text><text x=\"25\" y=\"224\" font-size=\"12\">Schematisk bild – vågrät placering skiljer studsar åt.</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje studshöjd är 60 % av den förra</p><div class=\"facit-matte\">\\[1{,}8;\\ 1{,}08;\\ 0{,}648;\\ 0{,}3888\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Första fallet en gång, varje studshöjd två gånger</p><p>Bollen går både upp och ner för varje studs.</p><div class=\"facit-matte\">\\[S=3+2(1{,}8+1{,}08+0{,}648+0{,}3888)\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut summan</p><div class=\"facit-matte\">\\[S=3+2\\cdot3{,}9168=10{,}8336\\approx10{,}83\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10{,}83\\) m</p></div>",
+    "familj": "Geometriska summor i tillämpningar",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.8336,
+    "tolerans": 0.005,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först upp höjden efter varje studs. Tänk sedan på att den första sträckan bara går nedåt, medan varje studshöjd därefter passeras en gång uppåt och en gång nedåt.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true,
+    "familjTidigare": [
+      "Använda geometriska summor i tillämpningar"
+    ],
+    "svarEnhet": "m"
+  },
   {
     "id": "4.180",
     "kap": 4,
@@ -62194,7 +62354,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Punkten \\(P=(x,y)\\) ligger på enhetscirkeln i tredje kvadranten och \\(y=-\\frac45\\). Bestäm \\(x\\) exakt.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punkt i tredje kvadranten med y lika med minus fyra femtedelar\"><circle cx=\"175\" cy=\"145\" r=\"96\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"38\" y1=\"145\" x2=\"320\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"265\" x2=\"175\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"325\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"182\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">y</text><line x1=\"175\" y1=\"145\" x2=\"117.4\" y2=\"221.8\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"117.4\" cy=\"221.8\" r=\"4.5\" fill=\"currentColor\"/><text x=\"125.4\" y=\"214.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">P</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x^2+y^2=1\\) ger \\(x^2=1-16/25=9/25\\), så \\(x=\\pm3/5\\).</p></li><li><p>I tredje kvadranten är x-koordinaten negativ.</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[\\boxed{x=-3/5}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-\\dfrac{3}{5}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten ligger på enhetscirkeln: \\(x^2+y^2=1\\)</p><div class=\"facit-matte\">\\[x^2=1-\\frac{16}{25}=\\frac{9}{25}\\quad\\Rightarrow\\quad x=\\pm\\frac35\\]</div></li><li><p class=\"facit-rubrik\">Tredje kvadranten: x negativ</p><div class=\"facit-matte\">\\[x=-\\frac35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac35\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -62228,7 +62388,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>En modell har villkoren \\(x+2y\\le20\\), \\(3x+y\\le24\\), \\(x,y\\ge0\\) och vinsten \\(V=80x+50y\\).</p><p>Vilket alternativ anger den bästa av de relevanta hörnpunkterna och dess vinst?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skärningen mellan resurslinjerna är</p><div class=\"facit-matte\">\\[x=5,6\\],</div></div><div class=\"facit-matte\">\\[y=7,2\\].</div></li><li><p>De relevanta hörnen ger</p><p>\\[V(0,10)=500,\\qquad V(8,0)=640,\\qquad V(5,6;7,2)=808.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((5,6;7,2)\\), \\(V=808\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärningen mellan resurslinjerna</p><div class=\"facit-matte\">\\[x+2y=20,\\quad 3x+y=24\\quad\\Rightarrow\\quad x=5{,}6,\\ y=7{,}2\\]</div></li><li><p class=\"facit-rubrik\">Jämför vinsten i hörnen</p><div class=\"facit-matte\">\\[V(0,10)=500,\\quad V(8,0)=640\\]</div><div class=\"facit-matte\">\\[V(5{,}6;\\ 7{,}2)=448+360=808\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((5,6;7,2)\\), \\(V=808\\)</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -62247,7 +62407,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Formulera bivillkor i linjär optimering"
     ],
-    "alternativ": [{"txt": "\\((5,6;7,2)\\), \\(V=808\\)", "ratt": true}, {"txt": "\\((8;0)\\), \\(V=640\\)", "ratt": false}, {"txt": "\\((0;10)\\), \\(V=500\\)", "ratt": false}, {"txt": "\\((5,6;7,2)\\), \\(V=640\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\((5,6;7,2)\\), \\(V=808\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\((8;0)\\), \\(V=640\\)",
+        "ratt": false,
+        "kommentar": "\\((8;0)\\) ger 640, men skärningspunkten ger mer."
+      },
+      {
+        "txt": "\\((0;10)\\), \\(V=500\\)",
+        "ratt": false,
+        "kommentar": "\\((0;10)\\) ger bara 500."
+      },
+      {
+        "txt": "\\((5,6;7,2)\\), \\(V=640\\)",
+        "ratt": false,
+        "kommentar": "Punkten är rätt, men vinsten där är 808, inte 640."
+      }
+    ]
   },
   {
     "id": "4.182",
@@ -62259,7 +62439,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>För en geometrisk talföljd gäller att \\(S_5=93\\) och \\(S_6=189\\), där \\(S_n\\) är summan av de \\(n\\) första termerna. Den första termen är \\(3\\) och kvoten är positiv.</p><p>a) Bestäm den sjätte termen.<br>b) Bestäm kvoten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skillnaden mellan två på varandra följande delsummor är den nya termen:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[a_6=S_6-S_5=189-93=96.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(a_1=3\\) gäller</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[a_6=3k^5=96\\Rightarrow k^5=32\\Rightarrow k=2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{a_6=96,\\ k=2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Skillnaden mellan två delsummor är den nya termen</p><div class=\"facit-matte\">\\[a_6=S_6-S_5=189-93=96\\]</div></li><li><p class=\"facit-rubrik\">b) Termformeln: \\(a_n=a\\cdot k^{n-1}\\) med \\(a=3\\)</p><div class=\"facit-matte\">\\[3k^5=96\\]</div></li><li><p class=\"facit-rubrik\">Dela med 3 och dra femte roten</p><div class=\"facit-matte\">\\[k^5=32\\quad\\Rightarrow\\quad k=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(a_6=96\\), b) \\(k=2\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -62290,39 +62470,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "4.183",
-  "kap": 4,
-  "omr": "enhetscirkeln",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "1/2/0",
-  "t": "<p>En vinkel \\(v\\) ligger i andra kvadranten och \\(\\cos v=-\\frac7{25}\\). Bestäm \\(\\sin(180^\\circ-v)\\) exakt utan att bestämma \\(v\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punkt i andra kvadranten\"><circle cx=\"175\" cy=\"145\" r=\"96\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"38\" y1=\"145\" x2=\"320\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"265\" x2=\"175\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"325\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"182\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">y</text><line x1=\"175\" y1=\"145\" x2=\"148.1\" y2=\"52.8\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"148.1\" cy=\"52.8\" r=\"4.5\" fill=\"currentColor\"/><text x=\"156.1\" y=\"45.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">P</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enhetscirkeln ger</p><p>\\[\\sin^2v=1-\\cos^2v=1-\\frac{49}{625}=\\frac{576}{625}.\\]</p></li><li><div class=\"facit-berakning\"><p>I andra kvadranten är sinus positiv, alltså</p><div class=\"facit-matte\">\\[\\sin v=24/25\\].</div></div></li><li><div class=\"facit-berakning\"><p>Dessutom gäller</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-v)=\\sin v\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{24/25}\\).</p></div>",
-  "familj": "Symmetri och exakta värden i enhetscirkeln",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "uttryck",
-  "rättSvar": "24/25",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "uttryck",
-  "ledtrad": "<p>Bestäm först \\(\\sin v\\) med enhetscirkeln. Fundera sedan på hur vinklarna \\(v\\) och \\(180^\\circ-v\\) ligger symmetriskt.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 3,
-  "spel": true,
-  "omrTidigare": [
-    "enhetscirkeln_trig"
-  ],
-  "familjTidigare": [
-    "Exakta trigonometriska värden och symmetri i enhetscirkeln"
-  ]
-},
+    "id": "4.183",
+    "kap": 4,
+    "omr": "enhetscirkeln",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "1/2/0",
+    "t": "<p>En vinkel \\(v\\) ligger i andra kvadranten och \\(\\cos v=-\\frac7{25}\\). Bestäm \\(\\sin(180^\\circ-v)\\) exakt utan att bestämma \\(v\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punkt i andra kvadranten\"><circle cx=\"175\" cy=\"145\" r=\"96\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"38\" y1=\"145\" x2=\"320\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"265\" x2=\"175\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"325\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"182\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">y</text><line x1=\"175\" y1=\"145\" x2=\"148.1\" y2=\"52.8\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"148.1\" cy=\"52.8\" r=\"4.5\" fill=\"currentColor\"/><text x=\"156.1\" y=\"45.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">P</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pythagoras sats i enhetscirkeln: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\frac{49}{625}=\\frac{576}{625}\\quad\\Rightarrow\\quad\\sin v=\\pm\\frac{24}{25}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: sinus positiv</p><div class=\"facit-matte\">\\[\\sin v=\\frac{24}{25}\\]</div></li><li><p class=\"facit-rubrik\">\\(180^\\circ-v\\) är speglingen i y-axeln</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-v)=\\sin v=\\frac{24}{25}\\]</div><p>Spegling i y-axeln behåller y-koordinaten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{24}{25}\\)</p></div>",
+    "familj": "Symmetri och exakta värden i enhetscirkeln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "uttryck",
+    "rättSvar": "24/25",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först \\(\\sin v\\) med enhetscirkeln. Fundera sedan på hur vinklarna \\(v\\) och \\(180^\\circ-v\\) ligger symmetriskt.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true,
+    "omrTidigare": [
+      "enhetscirkeln_trig"
+    ],
+    "familjTidigare": [
+      "Exakta trigonometriska värden och symmetri i enhetscirkeln"
+    ]
+  },
   {
     "id": "4.184",
     "kap": 4,
@@ -62333,7 +62513,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Ett företag vill minimera kostnaden \\(K=4x+7y\\) under villkoren</p><p>\\[2x+y\\ge10,\\qquad x+3y\\ge12,\\qquad x,y\\ge0.\\]</p><p>Bestäm den punkt där den minsta kostnaden fås och ange minimikostnaden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det tillåtna området ligger ovanför båda begränsningslinjerna.</p></li><li><p>De relevanta hörnpunkterna på den nedre gränsen är \\((0,10)\\), skärningen mellan linjerna och \\((12,0)\\).</p></li><li><p>Skärningen fås ur</p><p>\\[2x+y=10,\\qquad x+3y=12,\\]</p></li><li><div class=\"facit-berakning\"><p>vilket ger</p><div class=\"facit-matte\">\\[x=3,6\\],</div></div><div class=\"facit-matte\">\\[y=2,8\\].</div></li><li><p>Kostnaderna blir</p><p>\\[K(0,10)=70,\\quad K(3,6;2,8)=34,\\quad K(12,0)=48.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta kostnaden är \\(\\boxed{34}\\) vid \\(\\boxed{(3,6;2,8)}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärningen mellan gränslinjerna</p><div class=\"facit-matte\">\\[2x+y=10,\\quad x+3y=12\\quad\\Rightarrow\\quad x=3{,}6,\\ y=2{,}8\\]</div></li><li><p class=\"facit-rubrik\">Jämför kostnaden i de nedre hörnen</p><div class=\"facit-matte\">\\[K(0,10)=70,\\quad K(3{,}6;\\ 2{,}8)=14{,}4+19{,}6=34\\]</div><div class=\"facit-matte\">\\[K(12,0)=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta kostnaden 34 vid \\((3{,}6;\\ 2{,}8)\\)</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -62376,7 +62556,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En geometrisk följd har första termen 5 och den fjärde termen 40. Kvoten är positiv.</p><p>Bestäm kvoten och summan av de första sex termerna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om första termen är \\(a=5\\), så är den fjärde termen \\(ak^3\\).</p></li><li><p>Därför</p><p>\\[40=5k^3\\Rightarrow k^3=8\\Rightarrow k=2.\\]</p></li><li><p>Använd formeln från formelbladet:</p><p>\\[S_6=\\frac{5(2^6-1)}{2-1}=315.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{k=2,\\ S_6=315}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Termformeln: \\(a_n=a\\cdot k^{n-1}\\): fjärde termen är \\(a\\cdot k^3\\)</p><div class=\"facit-matte\">\\[5k^3=40\\]</div></li><li><p class=\"facit-rubrik\">Dela med 5 och dra tredje roten</p><div class=\"facit-matte\">\\[k^3=8\\quad\\Rightarrow\\quad k=2\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(n=6\\)</p><div class=\"facit-matte\">\\[S_6=5\\cdot\\frac{2^6-1}{2-1}=5\\cdot63=315\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=2\\), \\(S_6=315\\)</p></div>",
     "familj": "Geometriska talföljder",
     "geogebra": false,
     "miniräknare": true,
@@ -62557,7 +62737,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "1/1/2",
     "t": "<p>Det tillåtna området har hörnpunkterna \\((0,0),(0,6),(4,4),(8,0)\\). Målfunktionen är \\(Z=px+4y\\), där \\(p\\gt 0\\).</p><p>Bestäm de värden på \\(p\\) för vilka fler än en punkt i det tillåtna området ger samma största värde.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"290\" viewBox=\"0 0 400 290\" role=\"img\" aria-label=\"Tillåtet område för parameteroptimering\"><line x1=\"50\" y1=\"245\" x2=\"376\" y2=\"245\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"50\" y1=\"245\" x2=\"50\" y2=\"19\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"50.0,245.0 50.0,56.4 192.2,119.3 334.4,245.0\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"50.0\" cy=\"245.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"55.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(0; 0)</text><circle cx=\"50.0\" cy=\"56.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"55.0\" y=\"49.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(0; 6)</text><circle cx=\"192.2\" cy=\"119.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"197.2\" y=\"112.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(4; 4)</text><circle cx=\"334.4\" cy=\"245.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"339.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(8; 0)</text><text x=\"380\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">x</text><text x=\"56\" y=\"17\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Flera punkter ger samma största värde när linjen \\(px+4y=Z\\) är parallell med ett kantsegment som ligger längst i riktningen mot större \\(Z\\).</p></li><li><p>Kantsegmentet mellan \\((0,6)\\) och \\((4,4)\\) har lutningen \\(-1/2\\).</p></li><li><p>Linjen \\(px+4y=Z\\) har lutningen \\(-p/4\\).</p><p>\\[-p/4=-1/2\\Rightarrow p=2.\\]</p></li><li><p>Kantsegmentet mellan \\((4,4)\\) och \\((8,0)\\) har lutningen \\(-1\\), vilket ger \\(p=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{p=2\\text{ eller }p=4}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nivålinjerna \\(Z=c\\) är parallella linjer med lutningen \\(-\\tfrac p4\\)</p><p>Flera punkter är optimala när nivålinjen är parallell med en yttre kant.</p></li><li><p class=\"facit-rubrik\">Kanten \\((0,6)\\)–\\((4,4)\\) har lutningen \\(-\\tfrac12\\)</p><div class=\"facit-matte\">\\[-\\frac p4=-\\frac12\\quad\\Rightarrow\\quad p=2\\]</div></li><li><p class=\"facit-rubrik\">Kanten \\((4,4)\\)–\\((8,0)\\) har lutningen \\(-1\\)</p><div class=\"facit-matte\">\\[-\\frac p4=-1\\quad\\Rightarrow\\quad p=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(p=2\\) eller \\(p=4\\)</p></div>",
     "familj": "Fördjupad linjär optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -62597,7 +62777,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "1/1/2",
     "t": "<p>En geometrisk summa har positiva termer. Summan av de första 3 termerna är 21 och summan av de första 6 termerna är 189.</p><p>Bestäm första termen och kvoten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Låt</p><div class=\"facit-matte\">\\[S_3=a(1+k+k^2)=21\\].</div></div></li><li><p>De följande tre termerna är \\(k^3\\) gånger de första tre, så \\(S_6=S_3+k^3S_3=21(1+k^3)=189\\).</p></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[1+k^3=9\\Rightarrow k=2\\].</div></div></li><li><div class=\"facit-berakning\"><p>Då</p><div class=\"facit-matte\">\\[a(1+2+4)=21\\Rightarrow7a=21\\Rightarrow a=3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{a=3,k=2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summan av de tre första termerna</p><div class=\"facit-matte\">\\[S_3=a(1+k+k^2)=21\\]</div></li><li><p class=\"facit-rubrik\">Termerna 4–6 är \\(k^3\\) gånger termerna 1–3</p><div class=\"facit-matte\">\\[S_6=S_3+k^3\\cdot S_3=21(1+k^3)\\]</div></li><li><p class=\"facit-rubrik\">Sätt \\(S_6=189\\) och lös ut \\(k\\)</p><div class=\"facit-matte\">\\[21(1+k^3)=189\\quad\\Rightarrow\\quad k^3=8\\quad\\Rightarrow\\quad k=2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(k=2\\) i \\(S_3\\)</p><div class=\"facit-matte\">\\[a(1+2+4)=21\\quad\\Rightarrow\\quad a=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\), \\(k=2\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -62642,7 +62822,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En punkt \\(P=(x,y)\\) ligger på enhetscirkeln i andra kvadranten och uppfyller \\(2x+y=0\\). Bestäm koordinaterna exakt.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Linje genom origo som skär enhetscirkeln i andra kvadranten\"><circle cx=\"175\" cy=\"145\" r=\"96\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"38\" y1=\"145\" x2=\"320\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"265\" x2=\"175\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"325\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"182\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">y</text><line x1=\"175\" y1=\"145\" x2=\"132.1\" y2=\"59.1\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"132.1\" cy=\"59.1\" r=\"4.5\" fill=\"currentColor\"/><text x=\"140.1\" y=\"52.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">P</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Villkoret ger</p><div class=\"facit-matte\">\\[y=-2x\\].</div></div></li><li><p>Enhetscirkeln ger \\(x^2+y^2=1\\), alltså \\(x^2+4x^2=1\\Rightarrow x^2=1/5\\).</p></li><li><p>I andra kvadranten är \\(x&lt;0\\), så \\(x=-1/\\sqrt5=-\\sqrt5/5\\).</p></li><li><div class=\"facit-berakning\"><p>Då</p><div class=\"facit-matte\">\\[y=2/\\sqrt5=2\\sqrt5/5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{P=(-\\frac{\\sqrt5}{5},\\frac{2\\sqrt5}{5})}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Villkoret ger \\(y=-2x\\)</p><div class=\"facit-matte\">\\[x^2+(-2x)^2=1\\quad\\Rightarrow\\quad5x^2=1\\quad\\Rightarrow\\quad x=\\pm\\frac1{\\sqrt5}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: x negativ</p><div class=\"facit-matte\">\\[x=-\\frac{1}{\\sqrt5}=-\\frac{\\sqrt5}{5},\\qquad y=-2x=\\frac{2\\sqrt5}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-\\tfrac{\\sqrt5}{5}\\), \\(y=\\tfrac{2\\sqrt5}{5}\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -62845,7 +63025,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "1/1/2",
     "t": "<p>För vilka reella tal \\(a\\) finns det en punkt \\(P=(x,y)\\) på enhetscirkeln i första kvadranten som uppfyller \\(x+y=a\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I första kvadranten är \\(x,y&gt;0\\) och \\(x^2+y^2=1\\).</p></li><li><p>Summan närmar sig 1 nära axlarna men är större än 1 inne i kvadranten.</p></li><li><p>Max fås när \\(x=y\\), eftersom \\((x+y)^2=1+2xy\\) och produkten \\(xy\\) maximeras vid \\(x=y=1/\\sqrt2\\).</p></li><li><p>Då är maxsumman \\(\\sqrt2\\).</p></li><li><p>Eftersom axlarna inte ingår i den öppna första kvadranten antas inte värdet 1, medan \\(\\sqrt2\\) antas vid 45°.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{1&lt;a\\le\\sqrt2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera summan och använd \\(x^2+y^2=1\\)</p><div class=\"facit-matte\">\\[(x+y)^2=x^2+y^2+2xy=1+2xy\\]</div></li><li><p class=\"facit-rubrik\">Största värdet när \\(x=y=\\tfrac1{\\sqrt2}\\)</p><div class=\"facit-matte\">\\[(x+y)^2=1+2\\cdot\\frac12=2\\quad\\Rightarrow\\quad x+y=\\sqrt2\\]</div><p>Det antas vid 45°.</p></li><li><p class=\"facit-rubrik\">Nära axlarna går summan mot 1</p><p>\\(xy\\gt0\\) inne i första kvadranten, så \\(x+y\\gt1\\). Axlarna ingår inte, så 1 antas aldrig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\lt a\\le\\sqrt2\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -62879,7 +63059,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "1/1/2",
     "t": "<p>Ett företag har modellen \\(2x+y\\le18\\), \\(x+2y\\le18\\), \\(x,y\\ge0\\) och målfunktionen \\(Z=px+y\\), där \\(p&gt;0\\).</p><p>Bestäm för vilka \\(p\\) skärningspunkten mellan de två resurslinjerna ger största värdet.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"290\" viewBox=\"0 0 400 290\" role=\"img\" aria-label=\"Tillåtet område med skärningspunkten 6 6\"><line x1=\"50\" y1=\"245\" x2=\"376\" y2=\"245\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"50\" y1=\"245\" x2=\"50\" y2=\"19\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"50.0,245.0 50.0,47.0 242.0,113.0 338.0,245.0\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"50.0\" cy=\"245.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"55.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(0; 0)</text><circle cx=\"50.0\" cy=\"47.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"55.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(0; 9)</text><circle cx=\"242.0\" cy=\"113.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"247.0\" y=\"106.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(6; 6)</text><circle cx=\"338.0\" cy=\"245.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"343.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(9; 0)</text><circle cx=\"242.0\" cy=\"113.0\" r=\"7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"380\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">x</text><text x=\"56\" y=\"17\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skärningspunkten är \\((6,6)\\).</p></li><li><p>De relevanta hörnpunkterna på koordinataxlarna är \\((9,0)\\) och \\((0,9)\\).</p></li><li><p>För att \\((6,6)\\) ska vara minst lika bra som \\((9,0)\\): \\(6p+6\\ge9p\\Rightarrow p\\le2\\).</p></li><li><p>Jämfört med \\((0,9)\\): \\(6p+6\\ge9\\Rightarrow p\\ge\\frac12\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\frac12\\le p\\le2}\\). Vid ändvärdena finns fler än en punkt som ger samma största värde.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Z i hörnen</p><div class=\"facit-matte\">\\[Z(6,6)=6p+6,\\quad Z(9,0)=9p,\\quad Z(0,9)=9\\]</div></li><li><p class=\"facit-rubrik\">\\((6,6)\\) minst lika bra som axelhörnen</p><div class=\"facit-matte\">\\[6p+6\\ge9p\\ \\Rightarrow\\ p\\le2,\\qquad 6p+6\\ge9\\ \\Rightarrow\\ p\\ge\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1/2\\le p\\le2\\)</p></div>",
     "familj": "Fördjupad linjär optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -63010,7 +63190,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En punkt \\(P\\) på enhetscirkeln har x-koordinaten \\(-3/5\\) och ligger i tredje kvadranten.</p><p>Bestäm exakt \\(\\sin v\\) och \\(\\tan v\\), där \\(v\\) är punktens vinkel räknad från positiva x-axeln.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4203arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4203arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4203arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"109.8\" y2=\"218.6\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"109.8\" cy=\"218.6\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"99.8\" y=\"236.6\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2B2527\">P</text><line x1=\"109.8\" y1=\"218.6\" x2=\"109.8\" y2=\"145\" stroke=\"#7A747A\" stroke-width=\"1.1\" stroke-dasharray=\"4 4\" /><text x=\"109.8\" y=\"139\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#5C575E\">−3/5</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[\\cos v=-3/5\\].</div></div></li><li><div class=\"facit-berakning\"><p>På enhetscirkeln gäller</p><div class=\"facit-matte\">\\[\\sin^2v+\\cos^2v=1\\]:</div></div><p>\\[\\sin^2v=1-9/25=16/25.\\]</p></li><li><div class=\"facit-berakning\"><p>I tredje kvadranten är sinus negativ, alltså</p><div class=\"facit-matte\">\\[\\sin v=-4/5\\].</div></div><p>\\[\\tan v=\\frac{\\sin v}{\\cos v}=\\frac{-4/5}{-3/5}=\\frac43.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\sin v=-\\frac45,\\ \\tan v=\\frac43}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pythagoras sats i enhetscirkeln: \\(\\sin^2v+\\cos^2v=1\\) med \\(\\cos v=-\\tfrac35\\)</p><div class=\"facit-matte\">\\[\\sin^2v=1-\\frac{9}{25}=\\frac{16}{25}\\]</div></li><li><p class=\"facit-rubrik\">Tredje kvadranten: sinus negativ</p><div class=\"facit-matte\">\\[\\sin v=-\\frac45\\]</div></li><li><p class=\"facit-rubrik\">Tangens: \\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan v=\\frac{-4/5}{-3/5}=\\frac43\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin v=-\\tfrac45\\), \\(\\tan v=\\tfrac43\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -63219,7 +63399,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(40^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4209arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4209arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4209arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"235.5\" y2=\"85.9\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"235.5\" cy=\"85.9\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"247.5\" y=\"76.9\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,77; 0,64)</text><path d=\"M 196 145 L 195.9 142.3 L 195.5 139.6 L 194.9 137 L 194.1 134.4 L 193.1 131.9 L 191.8 129.5 L 190.4 127.2 L 188.7 125.1\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"209.2\" y=\"132.9\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">40°</text></svg></span><p>Använd figuren och bestäm värdet av</p><p>a) \\(\\sin 40^\\circ\\)<br>b) \\(\\cos 220^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en enhetscirkel är punktens x-koordinat \\(\\cos 40^\\circ\\) och y-koordinaten \\(\\sin 40^\\circ\\).</p></li><li><p>Av figuren avläses därför ungefär \\(\\cos 40^\\circ\\approx 0{,}77\\) och \\(\\sin 40^\\circ\\approx 0{,}64\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin 40^\\circ\\approx 0{,}64\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos 220^\\circ\\approx -0{,}77\\].</div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Förklaring:</strong> Använd punktens koordinater och symmetrin i enhetscirkeln.</p></li><li><p>Tecknet bestäms av vilken kvadrant vinkeln ligger i.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a) \\(0{,}64\\), b) \\(-0{,}77\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\sin v\\) är y-koordinaten</p><div class=\"facit-matte\">\\[\\sin40^\\circ\\approx0{,}64\\]</div><p>Punkten är ungefär \\((0{,}77;\\ 0{,}64)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,64</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(220^\\circ=180^\\circ+40^\\circ\\): punkten mitt emot</p><p>Ett halvt varv byter tecken på båda koordinaterna.</p></li><li><p class=\"facit-rubrik\">x-koordinaten med motsatt tecken</p><div class=\"facit-matte\">\\[\\cos220^\\circ=-\\cos40^\\circ\\approx-0{,}77\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}77\\)</p></div></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -63248,7 +63428,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(40^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4209arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4209arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4209arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"235.5\" y2=\"85.9\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"235.5\" cy=\"85.9\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"247.5\" y=\"76.9\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,77; 0,64)</text><path d=\"M 196 145 L 195.9 142.3 L 195.5 139.6 L 194.9 137 L 194.1 134.4 L 193.1 131.9 L 191.8 129.5 L 190.4 127.2 L 188.7 125.1\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"209.2\" y=\"132.9\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">40°</text></svg></span><p>Använd figuren och bestäm värdet av</p><p><div class=\"spel-en-del\">\\(\\sin 40^\\circ\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> 0,64</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\sin v\\) är y-koordinaten</p><div class=\"facit-matte\">\\[\\sin40^\\circ\\approx0{,}64\\]</div><p>Punkten är ungefär \\((0{,}77;\\ 0{,}64)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,64</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -63257,7 +63437,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(40^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4209arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4209arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4209arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"235.5\" y2=\"85.9\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"235.5\" cy=\"85.9\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"247.5\" y=\"76.9\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,77; 0,64)</text><path d=\"M 196 145 L 195.9 142.3 L 195.5 139.6 L 194.9 137 L 194.1 134.4 L 193.1 131.9 L 191.8 129.5 L 190.4 127.2 L 188.7 125.1\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"209.2\" y=\"132.9\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">40°</text></svg></span><p>Använd figuren och bestäm värdet av</p><p><div class=\"spel-en-del\">\\(\\cos 220^\\circ\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> -0,77</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(220^\\circ=180^\\circ+40^\\circ\\): punkten mitt emot</p><p>Ett halvt varv byter tecken på båda koordinaterna.</p></li><li><p class=\"facit-rubrik\">x-koordinaten med motsatt tecken</p><div class=\"facit-matte\">\\[\\cos220^\\circ=-\\cos40^\\circ\\approx-0{,}77\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}77\\)</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -63285,7 +63465,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(50^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4210arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4210arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4210arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"224.1\" y2=\"74.5\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"224.1\" cy=\"74.5\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"236.1\" y=\"65.5\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,64; 0,77)</text><path d=\"M 196 145 L 195.8 141.6 L 195.3 138.3 L 194.4 135 L 193.1 131.9 L 191.5 128.9 L 189.6 126.1 L 187.4 123.6 L 184.9 121.3\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"207.6\" y=\"129.1\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">50°</text></svg></span><p>Använd figuren och bestäm värdet av</p><p>a) \\(\\cos 50^\\circ\\)<br>b) \\(\\sin 230^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en enhetscirkel är punktens x-koordinat \\(\\cos 50^\\circ\\) och y-koordinaten \\(\\sin 50^\\circ\\).</p></li><li><p>Av figuren avläses därför ungefär \\(\\cos 50^\\circ\\approx 0{,}64\\) och \\(\\sin 50^\\circ\\approx 0{,}77\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos 50^\\circ\\approx 0{,}64\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin 230^\\circ\\approx -0{,}77\\].</div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Förklaring:</strong> Använd punktens koordinater och symmetrin i enhetscirkeln.</p></li><li><p>Tecknet bestäms av vilken kvadrant vinkeln ligger i.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a) \\(0{,}64\\), b) \\(-0{,}77\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\cos v\\) är x-koordinaten</p><div class=\"facit-matte\">\\[\\cos50^\\circ\\approx0{,}64\\]</div><p>Punkten är ungefär \\((0{,}64;\\ 0{,}77)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,64</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(230^\\circ=180^\\circ+50^\\circ\\): punkten mitt emot</p><p>Ett halvt varv byter tecken på båda koordinaterna.</p></li><li><p class=\"facit-rubrik\">y-koordinaten med motsatt tecken</p><div class=\"facit-matte\">\\[\\sin230^\\circ=-\\sin50^\\circ\\approx-0{,}77\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}77\\)</p></div></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -63314,7 +63494,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(50^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4210arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4210arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4210arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"224.1\" y2=\"74.5\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"224.1\" cy=\"74.5\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"236.1\" y=\"65.5\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,64; 0,77)</text><path d=\"M 196 145 L 195.8 141.6 L 195.3 138.3 L 194.4 135 L 193.1 131.9 L 191.5 128.9 L 189.6 126.1 L 187.4 123.6 L 184.9 121.3\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"207.6\" y=\"129.1\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">50°</text></svg></span><p>Använd figuren och bestäm värdet av</p><p><div class=\"spel-en-del\">\\(\\cos 50^\\circ\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> 0,64</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\cos v\\) är x-koordinaten</p><div class=\"facit-matte\">\\[\\cos50^\\circ\\approx0{,}64\\]</div><p>Punkten är ungefär \\((0{,}64;\\ 0{,}77)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,64</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -63323,7 +63503,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(50^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4210arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4210arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4210arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"224.1\" y2=\"74.5\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"224.1\" cy=\"74.5\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"236.1\" y=\"65.5\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,64; 0,77)</text><path d=\"M 196 145 L 195.8 141.6 L 195.3 138.3 L 194.4 135 L 193.1 131.9 L 191.5 128.9 L 189.6 126.1 L 187.4 123.6 L 184.9 121.3\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"207.6\" y=\"129.1\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">50°</text></svg></span><p>Använd figuren och bestäm värdet av</p><p><div class=\"spel-en-del\">\\(\\sin 230^\\circ\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> -0,77</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(230^\\circ=180^\\circ+50^\\circ\\): punkten mitt emot</p><p>Ett halvt varv byter tecken på båda koordinaterna.</p></li><li><p class=\"facit-rubrik\">y-koordinaten med motsatt tecken</p><div class=\"facit-matte\">\\[\\sin230^\\circ=-\\sin50^\\circ\\approx-0{,}77\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}77\\)</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -63351,7 +63531,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(35^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4211arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4211arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4211arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"240.4\" y2=\"92.2\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"240.4\" cy=\"92.2\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"252.4\" y=\"83.2\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,82; 0,57)</text><path d=\"M 196 145 L 195.9 142.6 L 195.6 140.3 L 195.2 138 L 194.6 135.7 L 193.8 133.4 L 192.8 131.3 L 191.7 129.2 L 190.4 127.2\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"209.8\" y=\"134.9\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">35°</text></svg></span><p>Använd figuren och bestäm värdet av</p><p>a) \\(\\sin 35^\\circ\\)<br>b) \\(\\cos 215^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en enhetscirkel är punktens x-koordinat \\(\\cos 35^\\circ\\) och y-koordinaten \\(\\sin 35^\\circ\\).</p></li><li><p>Av figuren avläses därför ungefär \\(\\cos 35^\\circ\\approx 0{,}82\\) och \\(\\sin 35^\\circ\\approx 0{,}57\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin 35^\\circ\\approx 0{,}57\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos 215^\\circ\\approx -0{,}82\\].</div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Förklaring:</strong> Använd punktens koordinater och symmetrin i enhetscirkeln.</p></li><li><p>Tecknet bestäms av vilken kvadrant vinkeln ligger i.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a) \\(0{,}57\\), b) \\(-0{,}82\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\sin v\\) är y-koordinaten</p><div class=\"facit-matte\">\\[\\sin35^\\circ\\approx0{,}57\\]</div><p>Punkten är ungefär \\((0{,}82;\\ 0{,}57)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,57</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(215^\\circ=180^\\circ+35^\\circ\\): punkten mitt emot</p><p>Ett halvt varv byter tecken på båda koordinaterna.</p></li><li><p class=\"facit-rubrik\">x-koordinaten med motsatt tecken</p><div class=\"facit-matte\">\\[\\cos215^\\circ=-\\cos35^\\circ\\approx-0{,}82\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}82\\)</p></div></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -63380,7 +63560,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(35^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4211arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4211arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4211arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"240.4\" y2=\"92.2\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"240.4\" cy=\"92.2\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"252.4\" y=\"83.2\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,82; 0,57)</text><path d=\"M 196 145 L 195.9 142.6 L 195.6 140.3 L 195.2 138 L 194.6 135.7 L 193.8 133.4 L 192.8 131.3 L 191.7 129.2 L 190.4 127.2\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"209.8\" y=\"134.9\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">35°</text></svg></span><p>Använd figuren och bestäm värdet av</p><p><div class=\"spel-en-del\">\\(\\sin 35^\\circ\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> 0,57</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\sin v\\) är y-koordinaten</p><div class=\"facit-matte\">\\[\\sin35^\\circ\\approx0{,}57\\]</div><p>Punkten är ungefär \\((0{,}82;\\ 0{,}57)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,57</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -63389,7 +63569,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(35^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4211arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4211arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4211arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"240.4\" y2=\"92.2\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"240.4\" cy=\"92.2\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"252.4\" y=\"83.2\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,82; 0,57)</text><path d=\"M 196 145 L 195.9 142.6 L 195.6 140.3 L 195.2 138 L 194.6 135.7 L 193.8 133.4 L 192.8 131.3 L 191.7 129.2 L 190.4 127.2\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"209.8\" y=\"134.9\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">35°</text></svg></span><p>Använd figuren och bestäm värdet av</p><p><div class=\"spel-en-del\">\\(\\cos 215^\\circ\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> -0,82</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(215^\\circ=180^\\circ+35^\\circ\\): punkten mitt emot</p><p>Ett halvt varv byter tecken på båda koordinaterna.</p></li><li><p class=\"facit-rubrik\">x-koordinaten med motsatt tecken</p><div class=\"facit-matte\">\\[\\cos215^\\circ=-\\cos35^\\circ\\approx-0{,}82\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}82\\)</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "traningsniva": 2,
@@ -63472,71 +63652,71 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "4.213",
-  "kap": 4,
-  "omr": "enhetscirkeln",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(25^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4213arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"248.4\" y2=\"106.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"248.4\" cy=\"106.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"260.4\" y=\"97.1\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,91; 0,42)</text><path d=\"M 196 145 L 196 143.3 L 195.8 141.6 L 195.6 140 L 195.3 138.3 L 194.9 136.7 L 194.4 135 L 193.8 133.4 L 193.1 131.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"210.9\" y=\"138.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">25°</text></svg></span><p>Av figuren kan du läsa att \\(\\cos25^\\circ\\approx0{,}91\\) och \\(\\sin25^\\circ\\approx0{,}42\\). Bestäm ungefär a) \\(\\tan25^\\circ\\), b) \\(\\tan205^\\circ\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\tan25^\\circ=\\frac{\\sin25^\\circ}{\\cos25^\\circ}\\approx\\frac{0{,}42}{0{,}91}\\approx0{,}46.\\]</p></li><li><p>Efter ett halvt varv byter både sinus och cosinus tecken, så kvoten är oförändrad:</p><p>\\[\\tan205^\\circ\\approx0{,}46.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(0{,}46\\), b) \\(0{,}46\\).</p></div>",
-  "familj": "Symmetri och exakta värden i enhetscirkeln",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    0.46,
-    0.46
-  ],
-  "tolerans": [
-    0.02,
-    0.02
-  ],
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "flera_delar",
-  "svarsstruktur": "ordnad",
-  "svarEtiketter": [
-    "a",
-    "b"
-  ],
-  "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "etikett": "a",
-      "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(25^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4213arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"248.4\" y2=\"106.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"248.4\" cy=\"106.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"260.4\" y=\"97.1\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,91; 0,42)</text><path d=\"M 196 145 L 196 143.3 L 195.8 141.6 L 195.6 140 L 195.3 138.3 L 194.9 136.7 L 194.4 135 L 193.8 133.4 L 193.1 131.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"210.9\" y=\"138.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">25°</text></svg></span><p>Av figuren kan du läsa att \\(\\cos25^\\circ\\approx0{,}91\\) och \\(\\sin25^\\circ\\approx0{,}42\\). Bestäm ungefär \\(\\tan25^\\circ\\).</p>",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan25^\\circ=\\dfrac{\\sin25^\\circ}{\\cos25^\\circ}\\approx\\dfrac{0{,}42}{0{,}91}\\approx0{,}46\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}46\\)</p></div>",
-      "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
-      "niva": "E",
-      "poang": "1/0/0",
-      "miniräknare": true
-    },
-    {
-      "etikett": "b",
-      "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(25^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4213arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"248.4\" y2=\"106.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"248.4\" cy=\"106.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"260.4\" y=\"97.1\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,91; 0,42)</text><path d=\"M 196 145 L 196 143.3 L 195.8 141.6 L 195.6 140 L 195.3 138.3 L 194.9 136.7 L 194.4 135 L 193.8 133.4 L 193.1 131.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"210.9\" y=\"138.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">25°</text></svg></span><p>Av figuren kan du läsa att \\(\\cos25^\\circ\\approx0{,}91\\) och \\(\\sin25^\\circ\\approx0{,}42\\). Bestäm ungefär \\(\\tan205^\\circ\\).</p>",
-      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[205^\\circ=180^\\circ+25^\\circ\\].</div></li><li><div class=\"facit-berakning\"><p>Efter ett halvt varv byter både sinus och cosinus tecken, så kvoten blir densamma:</p><div class=\"facit-matte\">\\[\\tan205^\\circ=\\tan25^\\circ\\approx\\dfrac{0{,}42}{0{,}91}\\approx0{,}46\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}46\\)</p></div>",
-      "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
-      "niva": "C",
-      "poang": "0/1/0",
-      "miniräknare": true
-    }
-  ],
-  "ledtrad": "<p>Använd \\(\\tan v=\\sin v/\\cos v\\). Jämför sedan tecknen för sinus och cosinus efter ett halvt varv.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "omrTidigare": [
-    "enhetscirkeln_trig"
-  ],
-  "familjTidigare": [
-    "Beräkna tangens med enhetscirkeln"
-  ]
-},
+    "id": "4.213",
+    "kap": 4,
+    "omr": "enhetscirkeln",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(25^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4213arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"248.4\" y2=\"106.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"248.4\" cy=\"106.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"260.4\" y=\"97.1\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,91; 0,42)</text><path d=\"M 196 145 L 196 143.3 L 195.8 141.6 L 195.6 140 L 195.3 138.3 L 194.9 136.7 L 194.4 135 L 193.8 133.4 L 193.1 131.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"210.9\" y=\"138.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">25°</text></svg></span><p>Av figuren kan du läsa att \\(\\cos25^\\circ\\approx0{,}91\\) och \\(\\sin25^\\circ\\approx0{,}42\\). Bestäm ungefär a) \\(\\tan25^\\circ\\), b) \\(\\tan205^\\circ\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan25^\\circ\\approx\\frac{0{,}42}{0{,}91}\\approx0{,}46\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,46</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(205^\\circ=180^\\circ+25^\\circ\\): båda koordinaterna byter tecken</p><div class=\"facit-matte\">\\[\\tan205^\\circ=\\frac{-\\sin25^\\circ}{-\\cos25^\\circ}=\\tan25^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Samma kvot som för \\(25^\\circ\\)</p><div class=\"facit-matte\">\\[\\tan205^\\circ\\approx0{,}46\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,46</p></div></div>",
+    "familj": "Symmetri och exakta värden i enhetscirkeln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.46,
+      0.46
+    ],
+    "tolerans": [
+      0.02,
+      0.02
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(25^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4213arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"248.4\" y2=\"106.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"248.4\" cy=\"106.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"260.4\" y=\"97.1\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,91; 0,42)</text><path d=\"M 196 145 L 196 143.3 L 195.8 141.6 L 195.6 140 L 195.3 138.3 L 194.9 136.7 L 194.4 135 L 193.8 133.4 L 193.1 131.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"210.9\" y=\"138.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">25°</text></svg></span><p>Av figuren kan du läsa att \\(\\cos25^\\circ\\approx0{,}91\\) och \\(\\sin25^\\circ\\approx0{,}42\\). Bestäm ungefär \\(\\tan25^\\circ\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\tan v=\\dfrac{\\sin v}{\\cos v}\\)</p><div class=\"facit-matte\">\\[\\tan25^\\circ\\approx\\frac{0{,}42}{0{,}91}\\approx0{,}46\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,46</p></div>",
+        "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "miniräknare": true
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(25^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4213arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"248.4\" y2=\"106.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"248.4\" cy=\"106.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"260.4\" y=\"97.1\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,91; 0,42)</text><path d=\"M 196 145 L 196 143.3 L 195.8 141.6 L 195.6 140 L 195.3 138.3 L 194.9 136.7 L 194.4 135 L 193.8 133.4 L 193.1 131.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"210.9\" y=\"138.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">25°</text></svg></span><p>Av figuren kan du läsa att \\(\\cos25^\\circ\\approx0{,}91\\) och \\(\\sin25^\\circ\\approx0{,}42\\). Bestäm ungefär \\(\\tan205^\\circ\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(205^\\circ=180^\\circ+25^\\circ\\): båda koordinaterna byter tecken</p><div class=\"facit-matte\">\\[\\tan205^\\circ=\\frac{-\\sin25^\\circ}{-\\cos25^\\circ}=\\tan25^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Samma kvot som för \\(25^\\circ\\)</p><div class=\"facit-matte\">\\[\\tan205^\\circ\\approx0{,}46\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,46</p></div>",
+        "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "miniräknare": true
+      }
+    ],
+    "ledtrad": "<p>Använd \\(\\tan v=\\sin v/\\cos v\\). Jämför sedan tecknen för sinus och cosinus efter ett halvt varv.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "omrTidigare": [
+      "enhetscirkeln_trig"
+    ],
+    "familjTidigare": [
+      "Beräkna tangens med enhetscirkeln"
+    ]
+  },
   {
     "id": "4.214",
     "kap": 4,
@@ -63611,7 +63791,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(140^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4215arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4215arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4215arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"94.5\" y2=\"85.9\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"94.5\" cy=\"85.9\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"105\" y=\"73\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(-0,77; 0,64)</text><path d=\"M 196 145 L 195.7 140.8 L 194.9 136.7 L 193.5 132.7 L 191.5 129 L 189.1 125.5 L 186.3 122.5 L 183 119.8 L 179.4 117.6 L 175.6 115.9 L 171.6 114.7 L 167.4 114.1 L 163.2 114.1 L 159 114.6 L 155 115.7 L 151.1 117.3 L 147.5 119.4 L 144.2 122 L 141.3 125.1\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"181.1\" y=\"104.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">140°</text></svg></span><p>Använd figuren och bestäm värdet av</p><p>a) \\(\\sin 140^\\circ\\)<br>b) \\(\\cos 140^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en enhetscirkel är punktens x-koordinat \\(\\cos 140^\\circ\\) och y-koordinaten \\(\\sin 140^\\circ\\).</p></li><li><p>Av figuren avläses därför ungefär \\(\\cos 140^\\circ\\approx -0{,}77\\) och \\(\\sin 140^\\circ\\approx 0{,}64\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin 140^\\circ\\approx 0{,}64\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos 140^\\circ\\approx -0{,}77\\].</div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Förklaring:</strong> Använd punktens koordinater och symmetrin i enhetscirkeln.</p></li><li><p>Tecknet bestäms av vilken kvadrant vinkeln ligger i.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a) \\(0{,}64\\), b) \\(-0{,}77\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\sin v\\) är y-koordinaten</p><div class=\"facit-matte\">\\[\\sin140^\\circ\\approx0{,}64\\]</div><p>Punkten är ungefär \\((-0{,}77;\\ 0{,}64)\\) i andra kvadranten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,64</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\cos v\\) är x-koordinaten</p><div class=\"facit-matte\">\\[\\cos140^\\circ\\approx-0{,}77\\]</div><p>x är negativ i andra kvadranten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}77\\)</p></div></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -63640,7 +63820,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(140^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4215arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4215arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4215arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"94.5\" y2=\"85.9\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"94.5\" cy=\"85.9\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"105\" y=\"73\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(-0,77; 0,64)</text><path d=\"M 196 145 L 195.7 140.8 L 194.9 136.7 L 193.5 132.7 L 191.5 129 L 189.1 125.5 L 186.3 122.5 L 183 119.8 L 179.4 117.6 L 175.6 115.9 L 171.6 114.7 L 167.4 114.1 L 163.2 114.1 L 159 114.6 L 155 115.7 L 151.1 117.3 L 147.5 119.4 L 144.2 122 L 141.3 125.1\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"181.1\" y=\"104.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">140°</text></svg></span><p>Använd figuren och bestäm värdet av</p><p><div class=\"spel-en-del\">\\(\\sin 140^\\circ\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> 0,64</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\sin v\\) är y-koordinaten</p><div class=\"facit-matte\">\\[\\sin140^\\circ\\approx0{,}64\\]</div><p>Punkten är ungefär \\((-0{,}77;\\ 0{,}64)\\) i andra kvadranten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,64</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -63648,7 +63828,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(140^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4215arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4215arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4215arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"94.5\" y2=\"85.9\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"94.5\" cy=\"85.9\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"105\" y=\"73\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(-0,77; 0,64)</text><path d=\"M 196 145 L 195.7 140.8 L 194.9 136.7 L 193.5 132.7 L 191.5 129 L 189.1 125.5 L 186.3 122.5 L 183 119.8 L 179.4 117.6 L 175.6 115.9 L 171.6 114.7 L 167.4 114.1 L 163.2 114.1 L 159 114.6 L 155 115.7 L 151.1 117.3 L 147.5 119.4 L 144.2 122 L 141.3 125.1\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"181.1\" y=\"104.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">140°</text></svg></span><p>Använd figuren och bestäm värdet av</p><p><div class=\"spel-en-del\">\\(\\cos 140^\\circ\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> -0,77</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\cos v\\) är x-koordinaten</p><div class=\"facit-matte\">\\[\\cos140^\\circ\\approx-0{,}77\\]</div><p>x är negativ i andra kvadranten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}77\\)</p></div>",
         "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -63708,7 +63888,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>I figuren visas ett tillåtet område.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" role=\"img\" aria-label=\"Tillåtet område\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"44.0\" y1=\"18\" x2=\"44.0\" y2=\"236\" stroke=\"#F0EFF2\" /><line x1=\"88.9\" y1=\"18\" x2=\"88.9\" y2=\"236\" stroke=\"#F0EFF2\" /><text x=\"88.9\" y=\"257\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">1</text><line x1=\"133.7\" y1=\"18\" x2=\"133.7\" y2=\"236\" stroke=\"#F0EFF2\" /><text x=\"133.7\" y=\"257\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">2</text><line x1=\"178.6\" y1=\"18\" x2=\"178.6\" y2=\"236\" stroke=\"#F0EFF2\" /><text x=\"178.6\" y=\"257\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">3</text><line x1=\"223.4\" y1=\"18\" x2=\"223.4\" y2=\"236\" stroke=\"#F0EFF2\" /><text x=\"223.4\" y=\"257\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">4</text><line x1=\"268.3\" y1=\"18\" x2=\"268.3\" y2=\"236\" stroke=\"#F0EFF2\" /><text x=\"268.3\" y=\"257\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">5</text><line x1=\"313.1\" y1=\"18\" x2=\"313.1\" y2=\"236\" stroke=\"#F0EFF2\" /><text x=\"313.1\" y=\"257\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">6</text><line x1=\"358.0\" y1=\"18\" x2=\"358.0\" y2=\"236\" stroke=\"#F0EFF2\" /><text x=\"358.0\" y=\"257\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">7</text><line x1=\"44\" y1=\"236.0\" x2=\"360\" y2=\"236.0\" stroke=\"#F0EFF2\" /><line x1=\"44\" y1=\"207.1\" x2=\"360\" y2=\"207.1\" stroke=\"#F0EFF2\" /><text x=\"34\" y=\"211.1\" text-anchor=\"end\" font-size=\"12\" fill=\"#5B5560\">1</text><line x1=\"44\" y1=\"178.3\" x2=\"360\" y2=\"178.3\" stroke=\"#F0EFF2\" /><text x=\"34\" y=\"182.3\" text-anchor=\"end\" font-size=\"12\" fill=\"#5B5560\">2</text><line x1=\"44\" y1=\"149.4\" x2=\"360\" y2=\"149.4\" stroke=\"#F0EFF2\" /><text x=\"34\" y=\"153.4\" text-anchor=\"end\" font-size=\"12\" fill=\"#5B5560\">3</text><line x1=\"44\" y1=\"120.6\" x2=\"360\" y2=\"120.6\" stroke=\"#F0EFF2\" /><text x=\"34\" y=\"124.6\" text-anchor=\"end\" font-size=\"12\" fill=\"#5B5560\">4</text><line x1=\"44\" y1=\"91.7\" x2=\"360\" y2=\"91.7\" stroke=\"#F0EFF2\" /><text x=\"34\" y=\"95.7\" text-anchor=\"end\" font-size=\"12\" fill=\"#5B5560\">5</text><line x1=\"44\" y1=\"62.9\" x2=\"360\" y2=\"62.9\" stroke=\"#F0EFF2\" /><text x=\"34\" y=\"66.9\" text-anchor=\"end\" font-size=\"12\" fill=\"#5B5560\">6</text><line x1=\"44\" y1=\"34.0\" x2=\"360\" y2=\"34.0\" stroke=\"#F0EFF2\" /><text x=\"34\" y=\"38.0\" text-anchor=\"end\" font-size=\"12\" fill=\"#5B5560\">7</text><line x1=\"44\" y1=\"236\" x2=\"362\" y2=\"236\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><line x1=\"44\" y1=\"18\" x2=\"44\" y2=\"236\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><polygon points=\"44.0,236.0 44.0,62.9 223.4,120.6 313.1,236.0\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" stroke-width=\"2\" /><circle cx=\"44.0\" cy=\"236.0\" r=\"3.8\" fill=\"#2D70B3\" /><text x=\"49.0\" y=\"230.0\" font-size=\"11\" fill=\"#2D70B3\">(0; 0)</text><circle cx=\"44.0\" cy=\"62.9\" r=\"3.8\" fill=\"#2D70B3\" /><text x=\"49.0\" y=\"56.9\" font-size=\"11\" fill=\"#2D70B3\">(0; 6)</text><circle cx=\"223.4\" cy=\"120.6\" r=\"3.8\" fill=\"#2D70B3\" /><text x=\"228.4\" y=\"114.6\" font-size=\"11\" fill=\"#2D70B3\">(4; 4)</text><circle cx=\"313.1\" cy=\"236.0\" r=\"3.8\" fill=\"#2D70B3\" /><text x=\"318.1\" y=\"230.0\" font-size=\"11\" fill=\"#2D70B3\">(6; 0)</text></svg></span><p>Bestäm största värdet av \\(Z=4x+3y\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I hörnpunkterna fås</p><p>\\[(0,0):0,\\quad(0,6):18,\\quad(4,4):28,\\quad(6,0):24.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största värdet är \\(\\boxed{28}\\), vid \\((4;4)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=4x+3y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\quad Z(0,6)=18\\]</div><div class=\"facit-matte\">\\[Z(4,4)=28,\\quad Z(6,0)=24\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((4;4)\\)</p><div class=\"facit-matte\">\\[Z_{\\max}=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -63738,7 +63918,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>I figuren visas ett tillåtet område.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" role=\"img\" aria-label=\"Tillåtet område\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"44.0\" y1=\"18\" x2=\"44.0\" y2=\"236\" stroke=\"#F0EFF2\" /><line x1=\"96.3\" y1=\"18\" x2=\"96.3\" y2=\"236\" stroke=\"#F0EFF2\" /><text x=\"96.3\" y=\"257\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">1</text><line x1=\"148.7\" y1=\"18\" x2=\"148.7\" y2=\"236\" stroke=\"#F0EFF2\" /><text x=\"148.7\" y=\"257\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">2</text><line x1=\"201.0\" y1=\"18\" x2=\"201.0\" y2=\"236\" stroke=\"#F0EFF2\" /><text x=\"201.0\" y=\"257\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">3</text><line x1=\"253.3\" y1=\"18\" x2=\"253.3\" y2=\"236\" stroke=\"#F0EFF2\" /><text x=\"253.3\" y=\"257\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">4</text><line x1=\"305.7\" y1=\"18\" x2=\"305.7\" y2=\"236\" stroke=\"#F0EFF2\" /><text x=\"305.7\" y=\"257\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">5</text><line x1=\"358.0\" y1=\"18\" x2=\"358.0\" y2=\"236\" stroke=\"#F0EFF2\" /><text x=\"358.0\" y=\"257\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5B5560\">6</text><line x1=\"44\" y1=\"236.0\" x2=\"360\" y2=\"236.0\" stroke=\"#F0EFF2\" /><line x1=\"44\" y1=\"202.3\" x2=\"360\" y2=\"202.3\" stroke=\"#F0EFF2\" /><text x=\"34\" y=\"206.3\" text-anchor=\"end\" font-size=\"12\" fill=\"#5B5560\">1</text><line x1=\"44\" y1=\"168.7\" x2=\"360\" y2=\"168.7\" stroke=\"#F0EFF2\" /><text x=\"34\" y=\"172.7\" text-anchor=\"end\" font-size=\"12\" fill=\"#5B5560\">2</text><line x1=\"44\" y1=\"135.0\" x2=\"360\" y2=\"135.0\" stroke=\"#F0EFF2\" /><text x=\"34\" y=\"139.0\" text-anchor=\"end\" font-size=\"12\" fill=\"#5B5560\">3</text><line x1=\"44\" y1=\"101.3\" x2=\"360\" y2=\"101.3\" stroke=\"#F0EFF2\" /><text x=\"34\" y=\"105.3\" text-anchor=\"end\" font-size=\"12\" fill=\"#5B5560\">4</text><line x1=\"44\" y1=\"67.7\" x2=\"360\" y2=\"67.7\" stroke=\"#F0EFF2\" /><text x=\"34\" y=\"71.7\" text-anchor=\"end\" font-size=\"12\" fill=\"#5B5560\">5</text><line x1=\"44\" y1=\"34.0\" x2=\"360\" y2=\"34.0\" stroke=\"#F0EFF2\" /><text x=\"34\" y=\"38.0\" text-anchor=\"end\" font-size=\"12\" fill=\"#5B5560\">6</text><line x1=\"44\" y1=\"236\" x2=\"362\" y2=\"236\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><line x1=\"44\" y1=\"18\" x2=\"44\" y2=\"236\" stroke=\"#2B2527\" stroke-width=\"1.5\" /><polygon points=\"44.0,236.0 44.0,67.7 201.0,67.7 305.7,202.3 305.7,236.0\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" stroke-width=\"2\" /><circle cx=\"44.0\" cy=\"236.0\" r=\"3.8\" fill=\"#2D70B3\" /><text x=\"49.0\" y=\"230.0\" font-size=\"11\" fill=\"#2D70B3\">(0; 0)</text><circle cx=\"44.0\" cy=\"67.7\" r=\"3.8\" fill=\"#2D70B3\" /><text x=\"49.0\" y=\"61.7\" font-size=\"11\" fill=\"#2D70B3\">(0; 5)</text><circle cx=\"201.0\" cy=\"67.7\" r=\"3.8\" fill=\"#2D70B3\" /><text x=\"206.0\" y=\"61.7\" font-size=\"11\" fill=\"#2D70B3\">(3; 5)</text><circle cx=\"305.7\" cy=\"202.3\" r=\"3.8\" fill=\"#2D70B3\" /><text x=\"310.7\" y=\"196.3\" font-size=\"11\" fill=\"#2D70B3\">(5; 1)</text><circle cx=\"305.7\" cy=\"236.0\" r=\"3.8\" fill=\"#2D70B3\" /><text x=\"310.7\" y=\"230.0\" font-size=\"11\" fill=\"#2D70B3\">(5; 0)</text></svg></span><p>Bestäm största värdet av \\(Z=5x+2y\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I hörnpunkterna blir målfunktionen</p><p>\\[(0,0):0,\\quad(0,5):10,\\quad(3,5):25,\\quad(5,1):27,\\quad(5,0):25.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största värdet är \\(\\boxed{27}\\), vid \\((5;1)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=5x+2y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\ Z(0,5)=10,\\ Z(3,5)=25\\]</div><div class=\"facit-matte\">\\[Z(5,1)=27,\\ Z(5,0)=25\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((5;1)\\)</p><div class=\"facit-matte\">\\[Z_{\\max}=27\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 27</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -63798,7 +63978,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett bageri bakar bullar \\(x\\) och kakor \\(y\\). Varje bulle ger 8 kr i vinst och varje kaka 5 kr. Produktionen begränsas av \\(x+y\\le 20\\), \\(2x+y\\le 30\\), \\(x\\ge 0\\), \\(y\\ge 0\\). Bestäm största möjliga vinst.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"290\" viewBox=\"0 0 400 290\" role=\"img\" aria-label=\"Tillåtet område för bageriet\"><line x1=\"50\" y1=\"245\" x2=\"376\" y2=\"245\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"50\" y1=\"245\" x2=\"50\" y2=\"19\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"50.0,245.0 50.0,45.0 238.2,145.0 332.4,245.0\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"50.0\" cy=\"245.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"55.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(0; 0)</text><circle cx=\"50.0\" cy=\"45.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"55.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(0; 20)</text><circle cx=\"238.2\" cy=\"145.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"243.2\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(10; 10)</text><circle cx=\"332.4\" cy=\"245.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"337.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(15; 0)</text><text x=\"380\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">x</text><text x=\"56\" y=\"17\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hörnpunkterna i det tillåtna området är \\((0,0)\\),</p><p>\\((0,20)\\),</p></li><li><p>\\((10,10)\\) och \\((15,0)\\).</p></li><li><p>Beräkna \\(V=8x+5y\\) i dessa punkter: \\(0,100,130,120\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största möjliga vinst är \\(\\boxed{130\\text{ kr}}\\), vilket fås för \\((x,y)=(10,10)\\).</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinsten \\(V=8x+5y\\) i hörnen</p><div class=\"facit-matte\">\\[V(0,0)=0,\\quad V(0,20)=100\\]</div><div class=\"facit-matte\">\\[V(10,10)=130,\\quad V(15,0)=120\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((10,10)\\)</p><div class=\"facit-matte\">\\[V_{\\max}=130\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 130 kr</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -63829,7 +64009,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Bestäm alla värden på \\(k\\) för vilka uttrycket \\(Z=2x+ky\\) får sitt största värde i både \\((0,6)\\) och \\((4,4)\\) på det tillåtna området med hörnpunkter \\((0,0)\\), \\((0,6)\\), \\((4,4)\\), \\((6,0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I punkten \\((0,6)\\) är \\(Z=6k\\), och i \\((4,4)\\) är \\(Z=8+4k\\).</p></li><li><p>För samma värde krävs</p><p>\\[6k=8+4k\\Rightarrow k=4.\\]</p></li><li><p>För \\(k=4\\) blir \\(Z=2x+4y\\).</p></li><li><p>I hörnen fås värdena \\(0,24,24,12\\), så \\((0,6)\\) och \\((4,4)\\) ligger båda på den optimala kanten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{k=4}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lika värde i \\((0,6)\\) och \\((4,4)\\)</p><div class=\"facit-matte\">\\[6k=8+4k\\quad\\Rightarrow\\quad k=4\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med \\(Z=2x+4y\\)</p><div class=\"facit-matte\">\\[Z=0,\\ 24,\\ 24,\\ 12\\]</div><p>Båda punkterna ger det största värdet 24.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=4\\)</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -63860,7 +64040,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>Ett företag tillverkar två produkter. Vinsten är \\(V=40x+30y\\). Begränsningarna är \\(x+2y\\le 14\\), \\(3x+y\\le 18\\), \\(x\\ge 0\\), \\(y\\ge 0\\). Bestäm största möjliga vinst.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"290\" viewBox=\"0 0 400 290\" role=\"img\" aria-label=\"Tillåtet område för två produkter\"><line x1=\"50\" y1=\"245\" x2=\"376\" y2=\"245\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"50\" y1=\"245\" x2=\"50\" y2=\"19\" stroke=\"currentColor\" stroke-width=\"1.6\"/><polygon points=\"50.0,245.0 50.0,52.5 251.1,113.0 324.3,245.0\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"50.0\" cy=\"245.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"55.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(0; 0)</text><circle cx=\"50.0\" cy=\"52.5\" r=\"3.5\" fill=\"currentColor\"/><text x=\"55.0\" y=\"45.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(0; 7)</text><circle cx=\"251.1\" cy=\"113.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"256.1\" y=\"106.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(4,4; 4,8)</text><circle cx=\"324.3\" cy=\"245.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"329.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" fill=\"currentColor\">(6; 0)</text><text x=\"380\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">x</text><text x=\"56\" y=\"17\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hörnpunkterna är \\((0,0)\\),</p><p>\\((0,7)\\),</p></li><li><p>\\((6,0)\\) och skärningen mellan resurslinjerna.</p><p>\\[x+2y=14,\\qquad3x+y=18\\]</p></li><li><div class=\"facit-berakning\"><p>ger</p><div class=\"facit-matte\">\\[(x,y)=(22/5,24/5)\\].</div></div></li><li><p>Vinstvärdena blir \\(0,210,240,320\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största vinsten är \\(\\boxed{320\\text{ kr}}\\) vid \\((22/5,24/5)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärningen mellan resurslinjerna</p><div class=\"facit-matte\">\\[x+2y=14,\\quad 3x+y=18\\quad\\Rightarrow\\quad x=\\frac{22}{5},\\ y=\\frac{24}{5}\\]</div></li><li><p class=\"facit-rubrik\">Vinsten i hörnen</p><div class=\"facit-matte\">\\[V(0,7)=210,\\quad V(6,0)=240\\]</div><div class=\"facit-matte\">\\[V\\!\\left(\\tfrac{22}{5},\\tfrac{24}{5}\\right)=176+144=320\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 320 kr</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -63891,7 +64071,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En geometrisk summa har första termen \\(a=2000\\), kvoten \\(k=1{,}05\\) och \\(n=6\\) termer. Bestäm summan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vi använder formeln</p><p>\\[S_n=a\\,\\frac{k^n-1}{k-1}.\\]</p></li><li><p>Insättning ger \\(S_6 \\approx 13603{,}83\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(13\\,604\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(a=2000\\), \\(k=1{,}05\\), \\(n=6\\)</p><div class=\"facit-matte\">\\[S_6=2000\\cdot\\frac{1{,}05^6-1}{1{,}05-1}\\]</div><div class=\"facit-matte\">\\[\\approx13\\,603{,}83\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(13\\,603{,}83\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -63921,7 +64101,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En geometrisk summa har första termen \\(a=500\\), kvoten \\(k=1{,}08\\) och \\(n=4\\) termer. Bestäm summan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vi använder formeln</p><p>\\[S_n=a\\,\\frac{k^n-1}{k-1}.\\]</p></li><li><p>Insättning ger \\(S_4 \\approx 2253{,}06\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2253\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(a=500\\), \\(k=1{,}08\\), \\(n=4\\)</p><div class=\"facit-matte\">\\[S_4=500\\cdot\\frac{1{,}08^4-1}{1{,}08-1}\\]</div><div class=\"facit-matte\">\\[\\approx2253{,}06\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2253{,}06\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -63951,7 +64131,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En geometrisk talföljd har första termen \\(1200\\) och kvoten \\(0{,}9\\).</p><p>a) Bestäm den femte termen.</p><p>b) Bestäm summan av de fem första termerna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den femte termen är</p><p>\\[a_5=1200\\cdot0{,}9^4=787{,}32.\\]</p></li><li><p>Summan är</p><p>\\[S_5=1200\\frac{0{,}9^5-1}{0{,}9-1}=4914{,}12.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(787{,}32\\), b) \\(4914{,}12\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Termformeln: \\(a_n=a\\cdot k^{n-1}\\) med \\(n=5\\)</p><div class=\"facit-matte\">\\[a_5=1200\\cdot0{,}9^4=787{,}32\\]</div></li><li><p class=\"facit-rubrik\">b) Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(n=5\\)</p><div class=\"facit-matte\">\\[S_5=1200\\cdot\\frac{0{,}9^5-1}{0{,}9-1}\\]</div><div class=\"facit-matte\">\\[=4914{,}12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(787{,}32\\), b) \\(4914{,}12\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -63988,7 +64168,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En geometrisk summa har första termen 3 och kvoten 2. Hur många termer behövs för att summan ska bli 189?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Formeln ger</p><div class=\"facit-matte\">\\[S_n=3\\frac{2^n-1}{2-1}=3(2^n-1)\\].</div></div></li><li><p>Ekvationen \\(3(2^n-1)=189\\) ger \\(2^n-1=63\\), alltså \\(2^n=64\\) och \\(\\boxed{n=6}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(6\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(a=3\\) och \\(k=2\\)</p><div class=\"facit-matte\">\\[S_n=3\\cdot\\frac{2^n-1}{2-1}=3(2^n-1)\\]</div></li><li><p class=\"facit-rubrik\">Summan ska vara 189</p><div class=\"facit-matte\">\\[3(2^n-1)=189\\]</div></li><li><p class=\"facit-rubrik\">Dela med 3 och addera 1</p><div class=\"facit-matte\">\\[2^n=64\\]</div></li><li><p class=\"facit-rubrik\">64 är 2 upphöjt till 6</p><div class=\"facit-matte\">\\[n=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\) termer</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -64018,7 +64198,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>För en geometrisk summa gäller att första termen är 5 och summan av de fyra första termerna är 75. Bestäm kvoten om den är positiv.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Formeln ger</p><div class=\"facit-matte\">\\[75=5\\frac{k^4-1}{k-1}\\].</div></div></li><li><p>Dividera med 5:</p><p>\\[15=\\frac{k^4-1}{k-1}=k^3+k^2+k+1.\\]</p></li><li><p>Prövning ger \\(k=2\\), eftersom \\(8+4+2+1=15\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{k=2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv de fyra termerna med kvoten k</p><div class=\"facit-matte\">\\[5+5k+5k^2+5k^3=75\\]</div></li><li><p class=\"facit-rubrik\">Dela med 5 och subtrahera 1</p><div class=\"facit-matte\">\\[k^3+k^2+k=14\\]</div></li><li><p class=\"facit-rubrik\">Pröva positiva heltal</p><div class=\"facit-matte\">\\[k=2:\\quad8+4+2=14\\]</div><p>Vänsterledet växer när k växer, så det finns ingen annan positiv lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=2\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -64049,7 +64229,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En teater har 12 rader i en sektion. På första raden finns 8 lampor och på varje ny rad finns 25 % fler lampor än på raden före enligt en modell.</p><p>Hur många lampor ger modellen sammanlagt för de 12 raderna? Svara avrundat till närmaste heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Antalet lampor per rad modelleras geometriskt med</p><div class=\"facit-matte\">\\[a=8\\],</div></div></li><li><p>\\(k=1{,}25\\) och \\(n=12\\).</p><p>\\[S_{12}=8\\frac{1{,}25^{12}-1}{1{,}25-1}\\approx 433{,}7.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> modellen ger cirka \\(\\boxed{434}\\) lampor.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">25 % fler ger kvoten 1,25</p><div class=\"facit-matte\">\\[a=8,\\quad k=1{,}25,\\quad n=12\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_{12}=8\\cdot\\frac{1{,}25^{12}-1}{1{,}25-1}\\]</div><div class=\"facit-matte\">\\[\\approx433{,}7\\]</div></li><li><p class=\"facit-rubrik\">Avrunda till närmaste heltal</p><div class=\"facit-matte\">\\[433{,}7\\approx434\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(434\\) lampor</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -64071,37 +64251,37 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "4.229",
-  "kap": 4,
-  "omr": "geometriska_summor",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "C",
-  "poang": "1/2/0",
-  "t": "<p>En boll studsar så att den når 80 % av föregående höjd. Den släpps från 2,5 m. Hur lång sammanlagd sträcka har bollen färdats när den träffar marken för fjärde gången? Svara med två decimaler.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"430\" height=\"240\" viewBox=\"0 0 430 240\" role=\"img\" aria-label=\"Schematisk bild av första fallet och 3 hela studsar\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><line x1=\"25\" y1=\"190\" x2=\"405\" y2=\"190\" stroke=\"currentColor\"/><path d=\"M50 40 L50 190 Q103.33 -50.00 156.67 190 Q210.00 -2.00 263.33 190 Q316.67 36.40 370.00 190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"50\" cy=\"40\" r=\"5\" fill=\"currentColor\"/><text x=\"60\" y=\"35\" font-size=\"13\">2,5 m</text><text x=\"150\" y=\"25\" font-size=\"13\">Ny höjd: 80 % av föregående</text><text x=\"25\" y=\"224\" font-size=\"12\">Schematisk bild – vågrät placering skiljer studsar åt.</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den första markträffen kommer efter fallet på 2,5 m. Före den fjärde markträffen hinner bollen sedan genomföra tre hela studsar.</p></li><li><p>Studshöjderna är 2,5 gånger 0,8, 0,8² respektive 0,8³. Varje höjd bidrar med en väg upp och en väg ned:</p><div class=\"facit-matte\">\\[\\begin{aligned}S&=2{,}5+2\\cdot2{,}5(0{,}8\\\\&\\qquad+0{,}8^2+0{,}8^3)\\\\&=2{,}5+5\\cdot1{,}952\\\\&=12{,}26\\,\\mathrm{m}.\\end{aligned}\\]</div></li><li><p>Den sammanlagda sträckan är <strong>12,26 m</strong>.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(12{,}26\\) m</strong></p></div>",
-  "familj": "Geometriska summor i tillämpningar",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 12.260000000000002,
-  "tolerans": 0.005,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Det första fallet räknas en gång. Därefter räknas varje studshöjd både uppåt och nedåt innan nästa markträff.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 3,
-  "spel": true,
-  "familjTidigare": [
-    "Använda geometriska summor i tillämpningar"
-  ],
-  "svarEnhet": "m"
-},
+    "id": "4.229",
+    "kap": 4,
+    "omr": "geometriska_summor",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "1/2/0",
+    "t": "<p>En boll studsar så att den når 80 % av föregående höjd. Den släpps från 2,5 m. Hur lång sammanlagd sträcka har bollen färdats när den träffar marken för fjärde gången? Svara med två decimaler.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"430\" height=\"240\" viewBox=\"0 0 430 240\" role=\"img\" aria-label=\"Schematisk bild av första fallet och 3 hela studsar\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><line x1=\"25\" y1=\"190\" x2=\"405\" y2=\"190\" stroke=\"currentColor\"/><path d=\"M50 40 L50 190 Q103.33 -50.00 156.67 190 Q210.00 -2.00 263.33 190 Q316.67 36.40 370.00 190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"50\" cy=\"40\" r=\"5\" fill=\"currentColor\"/><text x=\"60\" y=\"35\" font-size=\"13\">2,5 m</text><text x=\"150\" y=\"25\" font-size=\"13\">Ny höjd: 80 % av föregående</text><text x=\"25\" y=\"224\" font-size=\"12\">Schematisk bild – vågrät placering skiljer studsar åt.</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyra markträffar: första fallet och tre hela studsar</p><p>Studshöjderna är \\(2{,}5\\cdot0{,}8\\), \\(2{,}5\\cdot0{,}8^2\\) och \\(2{,}5\\cdot0{,}8^3\\).</p></li><li><p class=\"facit-rubrik\">Varje studshöjd räknas upp och ner</p><div class=\"facit-matte\">\\[S=2{,}5+2\\cdot2{,}5(0{,}8+0{,}8^2+0{,}8^3)\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut summan i parentesen</p><div class=\"facit-matte\">\\[0{,}8+0{,}64+0{,}512=1{,}952\\]</div><div class=\"facit-matte\">\\[S=2{,}5+5\\cdot1{,}952=12{,}26\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}26\\) m</p></div>",
+    "familj": "Geometriska summor i tillämpningar",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.260000000000002,
+    "tolerans": 0.005,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Det första fallet räknas en gång. Därefter räknas varje studshöjd både uppåt och nedåt innan nästa markträff.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true,
+    "familjTidigare": [
+      "Använda geometriska summor i tillämpningar"
+    ],
+    "svarEnhet": "m"
+  },
   {
     "id": "4.230",
     "kap": 4,
@@ -64112,7 +64292,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En person sätter in 1000 kr i slutet av varje år. Räntan är 4 %.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"410\" height=\"190\" viewBox=\"0 0 410 190\" role=\"img\" aria-label=\"Tidslinje med fem insättningar\"><rect x=\"1\" y=\"1\" width=\"408\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"45\" y1=\"98\" x2=\"365\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"1.7\" /><line x1=\"65\" y1=\"89\" x2=\"65\" y2=\"107\" stroke=\"#2B2527\" /><text x=\"65\" y=\"125\" text-anchor=\"middle\" font-size=\"11\">år 1</text><line x1=\"65\" y1=\"81\" x2=\"65\" y2=\"50\" stroke=\"#2D70B3\" stroke-width=\"2\" /><path d=\"M 60 56 L 65 48 L 70 56\" fill=\"#2D70B3\" /><text x=\"65\" y=\"39\" text-anchor=\"middle\" font-size=\"11\">1000 kr</text><line x1=\"135\" y1=\"89\" x2=\"135\" y2=\"107\" stroke=\"#2B2527\" /><text x=\"135\" y=\"125\" text-anchor=\"middle\" font-size=\"11\">år 2</text><line x1=\"135\" y1=\"81\" x2=\"135\" y2=\"50\" stroke=\"#2D70B3\" stroke-width=\"2\" /><path d=\"M 130 56 L 135 48 L 140 56\" fill=\"#2D70B3\" /><text x=\"135\" y=\"39\" text-anchor=\"middle\" font-size=\"11\">1000 kr</text><line x1=\"205\" y1=\"89\" x2=\"205\" y2=\"107\" stroke=\"#2B2527\" /><text x=\"205\" y=\"125\" text-anchor=\"middle\" font-size=\"11\">år 3</text><line x1=\"205\" y1=\"81\" x2=\"205\" y2=\"50\" stroke=\"#2D70B3\" stroke-width=\"2\" /><path d=\"M 200 56 L 205 48 L 210 56\" fill=\"#2D70B3\" /><text x=\"205\" y=\"39\" text-anchor=\"middle\" font-size=\"11\">1000 kr</text><line x1=\"275\" y1=\"89\" x2=\"275\" y2=\"107\" stroke=\"#2B2527\" /><text x=\"275\" y=\"125\" text-anchor=\"middle\" font-size=\"11\">år 4</text><line x1=\"275\" y1=\"81\" x2=\"275\" y2=\"50\" stroke=\"#2D70B3\" stroke-width=\"2\" /><path d=\"M 270 56 L 275 48 L 280 56\" fill=\"#2D70B3\" /><text x=\"275\" y=\"39\" text-anchor=\"middle\" font-size=\"11\">1000 kr</text><line x1=\"345\" y1=\"89\" x2=\"345\" y2=\"107\" stroke=\"#2B2527\" /><text x=\"345\" y=\"125\" text-anchor=\"middle\" font-size=\"11\">år 5</text><line x1=\"345\" y1=\"81\" x2=\"345\" y2=\"50\" stroke=\"#2D70B3\" stroke-width=\"2\" /><path d=\"M 340 56 L 345 48 L 350 56\" fill=\"#2D70B3\" /><text x=\"345\" y=\"39\" text-anchor=\"middle\" font-size=\"11\">1000 kr</text></svg></span><p>Hur mycket finns på kontot direkt efter den femte insättningen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid den femte insättningen har den första insättningen vuxit i fyra år, den andra i tre år och så vidare.</p></li><li><p>Beloppet är därför</p><p>\\[1000(1+1,04+1,04^2+1,04^3+1,04^4).\\]</p></li><li><p>Detta är en geometrisk summa:</p><p>\\[1000\\frac{1{,}04^5-1}{1{,}04-1}\\approx 5416{,}32.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(\\boxed{5416\\text{ kr}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värdet av varje insättning efter den femte</p><p>Den första har fått ränta 4 gånger och den sista ingen gång.</p><div class=\"facit-matte\">\\[1000(1+1{,}04+\\ldots+1{,}04^4)\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(k=1{,}04\\) och \\(n=5\\)</p><div class=\"facit-matte\">\\[S_5=1000\\cdot\\frac{1{,}04^5-1}{1{,}04-1}\\]</div><div class=\"facit-matte\">\\[\\approx5416{,}32\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(5416\\) kr</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -64143,7 +64323,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En boll släpps från 2,0 m och når efter varje studs 70 % av föregående höjd.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"250\" viewBox=\"0 0 460 250\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Boll faller och studsar ovanför marken med avtagande maxhöjd\"><g font-family=\"Arial,sans-serif\"><line x1=\"25\" y1=\"210\" x2=\"435\" y2=\"210\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"currentColor\"/><path d=\"M50 58 V210\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"4 4\"/><text x=\"18\" y=\"128\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"currentColor\">2,0 m</text><path d=\"M50 210 Q99 -14 148 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"50\" cy=\"210\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M148 210 Q188.996 53.2 229.993 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"148\" cy=\"210\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M229.993 210 Q264.293 100.24 298.593 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"229.993\" cy=\"210\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M298.593 210 Q327.29 133.168 355.988 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"298.593\" cy=\"210\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M355.988 210 Q379.998 156.218 404.008 210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"/><circle cx=\"355.988\" cy=\"210\" r=\"2.5\" fill=\"currentColor\"/><text x=\"120\" y=\"70\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"currentColor\">70 % av föregående höjd</text></g></svg></span><p>Bestäm höjden efter den fjärde studsen. Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Studshöjderna bildar en geometrisk talföljd med första studshöjden \\(1{,}4\\) m och kvoten \\(0{,}7\\).</p></li><li><p>Efter den fjärde studsen är höjden</p><p>\\[1{,}4\\cdot0{,}7^3=0{,}4802\\text{ m}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(\\boxed{0{,}48\\text{ m}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Första studshöjden är 70 % av 2,0 m</p><div class=\"facit-matte\">\\[2{,}0\\cdot0{,}7=1{,}4\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Termformeln: \\(a_n=a\\cdot k^{n-1}\\) med \\(a=1{,}4\\), \\(k=0{,}7\\), \\(n=4\\)</p><div class=\"facit-matte\">\\[a_4=1{,}4\\cdot0{,}7^3=0{,}4802\\approx0{,}48\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(0{,}48\\) m</p></div>",
     "familj": "Geometriska talföljder",
     "geogebra": false,
     "miniräknare": true,
@@ -64176,7 +64356,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>I ett mönster fördubblas antalet rutor i varje steg.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"225\" viewBox=\"0 0 400 225\" role=\"img\" aria-label=\"Fyra steg med dubbelt så många rutor för varje steg\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"223\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"35\" y=\"125\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><text x=\"63\" y=\"175\" text-anchor=\"middle\" font-size=\"11\">steg 1</text><text x=\"63\" y=\"193\" text-anchor=\"middle\" font-size=\"11\">1 ruta</text><rect x=\"115\" y=\"125\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><rect x=\"133\" y=\"125\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><text x=\"143\" y=\"175\" text-anchor=\"middle\" font-size=\"11\">steg 2</text><text x=\"143\" y=\"193\" text-anchor=\"middle\" font-size=\"11\">2 rutor</text><rect x=\"205\" y=\"125\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><rect x=\"223\" y=\"125\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><rect x=\"241\" y=\"125\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><rect x=\"259\" y=\"125\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><text x=\"233\" y=\"175\" text-anchor=\"middle\" font-size=\"11\">steg 3</text><text x=\"233\" y=\"193\" text-anchor=\"middle\" font-size=\"11\">4 rutor</text><rect x=\"290\" y=\"125\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><rect x=\"308\" y=\"125\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><rect x=\"326\" y=\"125\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><rect x=\"344\" y=\"125\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><rect x=\"290\" y=\"107\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><rect x=\"308\" y=\"107\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><rect x=\"326\" y=\"107\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><rect x=\"344\" y=\"107\" width=\"15\" height=\"15\" fill=\"#E8F0FB\" stroke=\"#2D70B3\" /><text x=\"318\" y=\"175\" text-anchor=\"middle\" font-size=\"11\">steg 4</text><text x=\"318\" y=\"193\" text-anchor=\"middle\" font-size=\"11\">8 rutor</text></svg></span><p>Hur många rutor används sammanlagt i steg 1–8?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Antalen bildar den geometriska summan</p><p>\\[1+2+4+\\cdots+2^7.\\]</p></li><li><div class=\"facit-berakning\"><p>Med</p><div class=\"facit-matte\">\\[a=1\\],</div></div></li><li><p>\\(k=2\\) och \\(n=8\\) fås</p><p>\\[S_8=\\frac{2^8-1}{2-1}=255.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{255}\\) rutor.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor i steg 1–8</p><div class=\"facit-matte\">\\[1+2+4+\\ldots+2^7\\]</div><p>Geometrisk summa med \\(a=1\\), \\(k=2\\) och \\(n=8\\).</p></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_8=1\\cdot\\frac{2^8-1}{2-1}=255\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(255\\) rutor</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -64237,7 +64417,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En maskin producerar 800 detaljer första veckan. Produktionen ökar med 5 % per vecka. Hur många detaljer produceras sammanlagt under de första 6 veckorna?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Första termen är \\(800\\), kvoten \\(1{,}05\\) och antalet termer \\(6\\).</p><p>\\[S_6=800\\frac{1{,}05^6-1}{1{,}05-1}\\approx5441{,}53.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(\\boxed{5442}\\) detaljer.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ökning med 5 % ger kvoten 1,05</p><div class=\"facit-matte\">\\[a=800,\\quad k=1{,}05,\\quad n=6\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_6=800\\cdot\\frac{1{,}05^6-1}{1{,}05-1}\\]</div><div class=\"facit-matte\">\\[\\approx5441{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(5442\\) detaljer</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -64268,7 +64448,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En maskin producerar 100 detaljer under den första timmen. Därefter producerar den 12 % färre detaljer för varje ny timme enligt en modell. Hur många detaljer producerar modellen sammanlagt under de första fem timmarna?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Produktionen per timme bildar en geometrisk följd med</p><div class=\"facit-matte\">\\[a=100\\],</div></div></li><li><p>\\(k=0{,}88\\) och fem termer.</p><p>\\[S_5=100\\frac{0{,}88^5-1}{0{,}88-1}\\approx393{,}56.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> modellen ger cirka \\(\\boxed{394}\\) detaljer.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">12 % färre ger kvoten 0,88</p><div class=\"facit-matte\">\\[a=100,\\quad k=0{,}88,\\quad n=5\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_5=100\\cdot\\frac{0{,}88^5-1}{0{,}88-1}\\]</div><div class=\"facit-matte\">\\[\\approx393{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(394\\) detaljer</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -64299,7 +64479,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En förening får 5000 kr första året och bidraget minskar med 4 % varje år. Hur mycket får föreningen sammanlagt under 7 år?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Första termen är \\(5000\\), kvoten \\(0{,}96\\) och antalet termer \\(7\\).</p><p>\\[S_7=5000\\frac{0{,}96^7-1}{0{,}96-1}\\approx31069{,}07.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(\\boxed{31\\,069\\text{ kr}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minskning med 4 % ger kvoten 0,96</p><div class=\"facit-matte\">\\[a=5000,\\quad k=0{,}96,\\quad n=7\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_7=5000\\cdot\\frac{0{,}96^7-1}{0{,}96-1}\\]</div><div class=\"facit-matte\">\\[\\approx31\\,069{,}07\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(31\\,069\\) kr</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -64321,35 +64501,35 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "4.237",
-  "kap": 4,
-  "omr": "geometriska_summor",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Beräkna den geometriska summan</p><p>\\[4+12+36+108+324.\\]</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[a=4\\],</div></div></li><li><p>\\(k=3\\) och \\(n=5\\).</p><p>\\[S_5=4\\frac{3^5-1}{3-1}=484.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{484}\\).</p></div>",
-  "familj": "Beräkna geometriska summor",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 484,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "ledtrad": "<p>Kvoten mellan två intilliggande termer är 3. Använd summaformeln eller addera de fem termerna.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": "numeriskt",
-  "familjTidigare": [
-    "Beräkna och analysera geometriska summor"
-  ]
-},
+    "id": "4.237",
+    "kap": 4,
+    "omr": "geometriska_summor",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna den geometriska summan</p><p>\\[4+12+36+108+324.\\]</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten = en term delad med termen före</p><div class=\"facit-matte\">\\[k=\\frac{12}{4}=3\\]</div><p>Summan har fem termer och första termen 4.</p></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_5=4\\cdot\\frac{3^5-1}{3-1}=4\\cdot121=484\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(484\\)</p></div>",
+    "familj": "Beräkna geometriska summor",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 484,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Kvoten mellan två intilliggande termer är 3. Använd summaformeln eller addera de fem termerna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjTidigare": [
+      "Beräkna och analysera geometriska summor"
+    ]
+  },
   {
     "id": "4.238",
     "kap": 4,
@@ -64440,7 +64620,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>På enhetscirkeln motsvarar en punkt vinkeln \\(37^\\circ\\). Bestäm punktens koordinater med tre decimaler och ange därmed \\(\\cos37^\\circ\\) och \\(\\sin37^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punktens koordinater är ungefär \\((0,799;0,602)\\).</p></li><li><p>Alltså \\(\\cos37^\\circ\\approx0{,}799\\) och \\(\\sin37^\\circ\\approx0{,}602\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\cos37^\\circ=0{,}799\\), \\(\\sin37^\\circ=0{,}602\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">På enhetscirkeln: \\(P=(\\cos v,\\ \\sin v)\\) med räknare</p><div class=\"facit-matte\">\\[\\cos37^\\circ\\approx0{,}7986\\approx0{,}799\\]</div><div class=\"facit-matte\">\\[\\sin37^\\circ\\approx0{,}6018\\approx0{,}602\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos37^\\circ\\approx0{,}799\\), \\(\\sin37^\\circ\\approx0{,}602\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": true,
@@ -64471,45 +64651,45 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "4.241",
-  "kap": 4,
-  "omr": "enhetscirkeln",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Undersök graferna till \\(y=\\sin v\\) och \\(y=\\cos v\\) för \\(0^\\circ\\le v\\le360^\\circ\\). Bestäm de vinklar där funktionerna har samma värde.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rita sinus- och cosinuskurvan med grader som vinkelmått i intervallet \\(0^\\circ\\le v\\le360^\\circ\\). De har samma funktionsvärde där graferna skär varandra.</p></li><li><p>Skärningarna ligger vid \\(v=45^\\circ\\) och \\(v=225^\\circ\\). I första fallet är båda värdena \\(\\sqrt2/2\\), i det andra \\(-\\sqrt2/2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(45^\\circ\\) och \\(225^\\circ\\).</p></div>",
-  "familj": "Symmetri och exakta värden i enhetscirkeln",
-  "geogebra": true,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    45,
-    225
-  ],
-  "tolerans": [
-    0,
-    0
-  ],
-  "självrättning": true,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "ledtrad": "<p>På enhetscirkeln betyder \\(\\sin v=\\cos v\\) att punktens x- och y-koordinat är lika.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": "flera_delar",
-  "omrTidigare": [
-    "enhetscirkeln_trig"
-  ],
-  "familjTidigare": [
-    "Exakta trigonometriska värden och symmetri i enhetscirkeln"
-  ]
-},
+    "id": "4.241",
+    "kap": 4,
+    "omr": "enhetscirkeln",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Undersök graferna till \\(y=\\sin v\\) och \\(y=\\cos v\\) för \\(0^\\circ\\le v\\le360^\\circ\\). Bestäm de vinklar där funktionerna har samma värde.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rita \\(\\sin v\\) och \\(\\cos v\\) och läs av skärningarna</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"260\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"Graferna till y = sin v och y = cos v för 0° ≤ v ≤ 360°. De skär varandra vid 45° och 225°.\"><title>Graferna till y = sin v och y = cos v för 0° ≤ v ≤ 360°. De skär varandra vid 45° och 225°.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"34.0\" y1=\"18\" x2=\"34.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"111.5\" y1=\"18\" x2=\"111.5\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"111.5\" y=\"140.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">90</text><line x1=\"189.0\" y1=\"18\" x2=\"189.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"189.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">180</text><line x1=\"266.5\" y1=\"18\" x2=\"266.5\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"266.5\" y=\"140.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">270</text><line x1=\"344.0\" y1=\"18\" x2=\"344.0\" y2=\"234\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"344.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">360</text><line x1=\"34\" y1=\"216.0\" x2=\"344\" y2=\"216.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"220.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">−1</text><line x1=\"34\" y1=\"171.0\" x2=\"344\" y2=\"171.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"175.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">−0,5</text><line x1=\"34\" y1=\"126.0\" x2=\"344\" y2=\"126.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"34\" y1=\"81.0\" x2=\"344\" y2=\"81.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"85.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">0,5</text><line x1=\"34\" y1=\"36.0\" x2=\"344\" y2=\"36.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"29.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"3\">1</text><line x1=\"34\" y1=\"126.0\" x2=\"350\" y2=\"126.0\" stroke=\"#243447\" stroke-width=\"1.5\"/><line x1=\"34.0\" y1=\"234\" x2=\"34.0\" y2=\"10\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"356\" y=\"121.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" text-anchor=\"end\">v (°)</text><text x=\"40.0\" y=\"12\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\">y</text><text x=\"29.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"11\" text-anchor=\"end\">0</text><polyline points=\"34.0,126.0 34.8,124.6 35.5,123.2 36.3,121.8 37.1,120.3 37.9,118.9 38.6,117.5 39.4,116.1 40.2,114.7 41.0,113.3 41.8,111.9 42.5,110.5 43.3,109.1 44.1,107.7 44.9,106.4 45.6,105.0 46.4,103.6 47.2,102.3 48.0,100.9 48.7,99.5 49.5,98.2 50.3,96.8 51.0,95.5 51.8,94.2 52.6,92.9 53.4,91.6 54.2,90.3 54.9,89.0 55.7,87.7 56.5,86.4 57.2,85.1 58.0,83.9 58.8,82.6 59.6,81.4 60.4,80.2 61.1,79.0 61.9,77.8 62.7,76.6 63.5,75.4 64.2,74.2 65.0,73.1 65.8,72.0 66.5,70.8 67.3,69.7 68.1,68.6 68.9,67.5 69.7,66.5 70.4,65.4 71.2,64.4 72.0,63.4 72.8,62.4 73.5,61.4 74.3,60.4 75.1,59.4 75.8,58.5 76.6,57.6 77.4,56.7 78.2,55.8 79.0,54.9 79.7,54.0 80.5,53.2 81.3,52.4 82.0,51.6 82.8,50.8 83.6,50.0 84.4,49.3 85.2,48.5 85.9,47.8 86.7,47.1 87.5,46.5 88.2,45.8 89.0,45.2 89.8,44.6 90.6,44.0 91.3,43.4 92.1,42.9 92.9,42.3 93.7,41.8 94.5,41.3 95.2,40.9 96.0,40.4 96.8,40.0 97.5,39.6 98.3,39.2 99.1,38.8 99.9,38.5 100.7,38.2 101.4,37.9 102.2,37.6 103.0,37.3 103.8,37.1 104.5,36.9 105.3,36.7 106.1,36.5 106.8,36.4 107.6,36.3 108.4,36.2 109.2,36.1 110.0,36.0 110.7,36.0 111.5,36.0 112.3,36.0 113.0,36.0 113.8,36.1 114.6,36.2 115.4,36.3 116.2,36.4 116.9,36.5 117.7,36.7 118.5,36.9 119.2,37.1 120.0,37.3 120.8,37.6 121.6,37.9 122.3,38.2 123.1,38.5 123.9,38.8 124.7,39.2 125.4,39.6 126.2,40.0 127.0,40.4 127.8,40.9 128.6,41.3 129.3,41.8 130.1,42.3 130.9,42.9 131.7,43.4 132.4,44.0 133.2,44.6 134.0,45.2 134.8,45.8 135.5,46.5 136.3,47.1 137.1,47.8 137.8,48.5 138.6,49.3 139.4,50.0 140.2,50.8 140.9,51.6 141.7,52.4 142.5,53.2 143.3,54.0 144.1,54.9 144.8,55.8 145.6,56.7 146.4,57.6 147.1,58.5 147.9,59.4 148.7,60.4 149.5,61.4 150.2,62.4 151.0,63.4 151.8,64.4 152.6,65.4 153.4,66.5 154.1,67.5 154.9,68.6 155.7,69.7 156.4,70.8 157.2,72.0 158.0,73.1 158.8,74.2 159.6,75.4 160.3,76.6 161.1,77.8 161.9,79.0 162.7,80.2 163.4,81.4 164.2,82.6 165.0,83.9 165.8,85.1 166.5,86.4 167.3,87.7 168.1,89.0 168.8,90.3 169.6,91.6 170.4,92.9 171.2,94.2 171.9,95.5 172.7,96.8 173.5,98.2 174.3,99.5 175.1,100.9 175.8,102.3 176.6,103.6 177.4,105.0 178.2,106.4 178.9,107.7 179.7,109.1 180.5,110.5 181.2,111.9 182.0,113.3 182.8,114.7 183.6,116.1 184.3,117.5 185.1,118.9 185.9,120.3 186.7,121.8 187.4,123.2 188.2,124.6 189.0,126.0 189.8,127.4 190.6,128.8 191.3,130.2 192.1,131.7 192.9,133.1 193.7,134.5 194.4,135.9 195.2,137.3 196.0,138.7 196.8,140.1 197.5,141.5 198.3,142.9 199.1,144.3 199.9,145.6 200.6,147.0 201.4,148.4 202.2,149.7 202.9,151.1 203.7,152.5 204.5,153.8 205.3,155.2 206.1,156.5 206.8,157.8 207.6,159.1 208.4,160.4 209.2,161.7 209.9,163.0 210.7,164.3 211.5,165.6 212.2,166.9 213.0,168.1 213.8,169.4 214.6,170.6 215.3,171.8 216.1,173.0 216.9,174.2 217.7,175.4 218.4,176.6 219.2,177.8 220.0,178.9 220.8,180.0 221.5,181.2 222.3,182.3 223.1,183.4 223.9,184.5 224.7,185.5 225.4,186.6 226.2,187.6 227.0,188.6 227.8,189.6 228.5,190.6 229.3,191.6 230.1,192.6 230.8,193.5 231.6,194.4 232.4,195.3 233.2,196.2 234.0,197.1 234.7,198.0 235.5,198.8 236.3,199.6 237.1,200.4 237.8,201.2 238.6,202.0 239.4,202.7 240.2,203.5 240.9,204.2 241.7,204.9 242.5,205.5 243.2,206.2 244.0,206.8 244.8,207.4 245.6,208.0 246.3,208.6 247.1,209.1 247.9,209.7 248.7,210.2 249.4,210.7 250.2,211.1 251.0,211.6 251.8,212.0 252.6,212.4 253.3,212.8 254.1,213.2 254.9,213.5 255.6,213.8 256.4,214.1 257.2,214.4 258.0,214.7 258.8,214.9 259.5,215.1 260.3,215.3 261.1,215.5 261.9,215.6 262.6,215.7 263.4,215.8 264.2,215.9 264.9,216.0 265.7,216.0 266.5,216.0 267.3,216.0 268.1,216.0 268.8,215.9 269.6,215.8 270.4,215.7 271.1,215.6 271.9,215.5 272.7,215.3 273.5,215.1 274.2,214.9 275.0,214.7 275.8,214.4 276.6,214.1 277.4,213.8 278.1,213.5 278.9,213.2 279.7,212.8 280.4,212.4 281.2,212.0 282.0,211.6 282.8,211.1 283.6,210.7 284.3,210.2 285.1,209.7 285.9,209.1 286.6,208.6 287.4,208.0 288.2,207.4 289.0,206.8 289.8,206.2 290.5,205.5 291.3,204.9 292.1,204.2 292.9,203.5 293.6,202.7 294.4,202.0 295.2,201.2 295.9,200.4 296.7,199.6 297.5,198.8 298.3,198.0 299.1,197.1 299.8,196.2 300.6,195.3 301.4,194.4 302.1,193.5 302.9,192.6 303.7,191.6 304.5,190.6 305.2,189.6 306.0,188.6 306.8,187.6 307.6,186.6 308.4,185.5 309.1,184.5 309.9,183.4 310.7,182.3 311.4,181.2 312.2,180.0 313.0,178.9 313.8,177.8 314.6,176.6 315.3,175.4 316.1,174.2 316.9,173.0 317.6,171.8 318.4,170.6 319.2,169.4 320.0,168.1 320.8,166.9 321.5,165.6 322.3,164.3 323.1,163.0 323.9,161.7 324.6,160.4 325.4,159.1 326.2,157.8 326.9,156.5 327.7,155.2 328.5,153.8 329.3,152.5 330.1,151.1 330.8,149.7 331.6,148.4 332.4,147.0 333.1,145.6 333.9,144.3 334.7,142.9 335.5,141.5 336.2,140.1 337.0,138.7 337.8,137.3 338.6,135.9 339.4,134.5 340.1,133.1 340.9,131.7 341.7,130.2 342.4,128.8 343.2,127.4 344.0,126.0\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.4\"/><text x=\"120.1\" y=\"29.4\" font-family=\"Arial,sans-serif\" fill=\"#c0392b\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">sin</text><polyline points=\"34.0,36.0 34.8,36.0 35.5,36.0 36.3,36.1 37.1,36.2 37.9,36.3 38.6,36.4 39.4,36.5 40.2,36.7 41.0,36.9 41.8,37.1 42.5,37.3 43.3,37.6 44.1,37.9 44.9,38.2 45.6,38.5 46.4,38.8 47.2,39.2 48.0,39.6 48.7,40.0 49.5,40.4 50.3,40.9 51.0,41.3 51.8,41.8 52.6,42.3 53.4,42.9 54.2,43.4 54.9,44.0 55.7,44.6 56.5,45.2 57.2,45.8 58.0,46.5 58.8,47.1 59.6,47.8 60.4,48.5 61.1,49.3 61.9,50.0 62.7,50.8 63.5,51.6 64.2,52.4 65.0,53.2 65.8,54.0 66.5,54.9 67.3,55.8 68.1,56.7 68.9,57.6 69.7,58.5 70.4,59.4 71.2,60.4 72.0,61.4 72.8,62.4 73.5,63.4 74.3,64.4 75.1,65.4 75.8,66.5 76.6,67.5 77.4,68.6 78.2,69.7 79.0,70.8 79.7,72.0 80.5,73.1 81.3,74.2 82.0,75.4 82.8,76.6 83.6,77.8 84.4,79.0 85.2,80.2 85.9,81.4 86.7,82.6 87.5,83.9 88.2,85.1 89.0,86.4 89.8,87.7 90.6,89.0 91.3,90.3 92.1,91.6 92.9,92.9 93.7,94.2 94.5,95.5 95.2,96.8 96.0,98.2 96.8,99.5 97.5,100.9 98.3,102.3 99.1,103.6 99.9,105.0 100.7,106.4 101.4,107.7 102.2,109.1 103.0,110.5 103.8,111.9 104.5,113.3 105.3,114.7 106.1,116.1 106.8,117.5 107.6,118.9 108.4,120.3 109.2,121.8 110.0,123.2 110.7,124.6 111.5,126.0 112.3,127.4 113.0,128.8 113.8,130.2 114.6,131.7 115.4,133.1 116.2,134.5 116.9,135.9 117.7,137.3 118.5,138.7 119.2,140.1 120.0,141.5 120.8,142.9 121.6,144.3 122.3,145.6 123.1,147.0 123.9,148.4 124.7,149.7 125.4,151.1 126.2,152.5 127.0,153.8 127.8,155.2 128.6,156.5 129.3,157.8 130.1,159.1 130.9,160.4 131.7,161.7 132.4,163.0 133.2,164.3 134.0,165.6 134.8,166.9 135.5,168.1 136.3,169.4 137.1,170.6 137.8,171.8 138.6,173.0 139.4,174.2 140.2,175.4 140.9,176.6 141.7,177.8 142.5,178.9 143.3,180.0 144.1,181.2 144.8,182.3 145.6,183.4 146.4,184.5 147.1,185.5 147.9,186.6 148.7,187.6 149.5,188.6 150.2,189.6 151.0,190.6 151.8,191.6 152.6,192.6 153.4,193.5 154.1,194.4 154.9,195.3 155.7,196.2 156.4,197.1 157.2,198.0 158.0,198.8 158.8,199.6 159.6,200.4 160.3,201.2 161.1,202.0 161.9,202.7 162.7,203.5 163.4,204.2 164.2,204.9 165.0,205.5 165.8,206.2 166.5,206.8 167.3,207.4 168.1,208.0 168.8,208.6 169.6,209.1 170.4,209.7 171.2,210.2 171.9,210.7 172.7,211.1 173.5,211.6 174.3,212.0 175.1,212.4 175.8,212.8 176.6,213.2 177.4,213.5 178.2,213.8 178.9,214.1 179.7,214.4 180.5,214.7 181.2,214.9 182.0,215.1 182.8,215.3 183.6,215.5 184.3,215.6 185.1,215.7 185.9,215.8 186.7,215.9 187.4,216.0 188.2,216.0 189.0,216.0 189.8,216.0 190.6,216.0 191.3,215.9 192.1,215.8 192.9,215.7 193.7,215.6 194.4,215.5 195.2,215.3 196.0,215.1 196.8,214.9 197.5,214.7 198.3,214.4 199.1,214.1 199.9,213.8 200.6,213.5 201.4,213.2 202.2,212.8 202.9,212.4 203.7,212.0 204.5,211.6 205.3,211.1 206.1,210.7 206.8,210.2 207.6,209.7 208.4,209.1 209.2,208.6 209.9,208.0 210.7,207.4 211.5,206.8 212.2,206.2 213.0,205.5 213.8,204.9 214.6,204.2 215.3,203.5 216.1,202.7 216.9,202.0 217.7,201.2 218.4,200.4 219.2,199.6 220.0,198.8 220.8,198.0 221.5,197.1 222.3,196.2 223.1,195.3 223.9,194.4 224.7,193.5 225.4,192.6 226.2,191.6 227.0,190.6 227.8,189.6 228.5,188.6 229.3,187.6 230.1,186.6 230.8,185.5 231.6,184.5 232.4,183.4 233.2,182.3 234.0,181.2 234.7,180.0 235.5,178.9 236.3,177.8 237.1,176.6 237.8,175.4 238.6,174.2 239.4,173.0 240.2,171.8 240.9,170.6 241.7,169.4 242.5,168.1 243.2,166.9 244.0,165.6 244.8,164.3 245.6,163.0 246.3,161.7 247.1,160.4 247.9,159.1 248.7,157.8 249.4,156.5 250.2,155.2 251.0,153.8 251.8,152.5 252.6,151.1 253.3,149.7 254.1,148.4 254.9,147.0 255.6,145.6 256.4,144.3 257.2,142.9 258.0,141.5 258.8,140.1 259.5,138.7 260.3,137.3 261.1,135.9 261.9,134.5 262.6,133.1 263.4,131.7 264.2,130.2 264.9,128.8 265.7,127.4 266.5,126.0 267.3,124.6 268.1,123.2 268.8,121.8 269.6,120.3 270.4,118.9 271.1,117.5 271.9,116.1 272.7,114.7 273.5,113.3 274.2,111.9 275.0,110.5 275.8,109.1 276.6,107.7 277.4,106.4 278.1,105.0 278.9,103.6 279.7,102.3 280.4,100.9 281.2,99.5 282.0,98.2 282.8,96.8 283.6,95.5 284.3,94.2 285.1,92.9 285.9,91.6 286.6,90.3 287.4,89.0 288.2,87.7 289.0,86.4 289.8,85.1 290.5,83.9 291.3,82.6 292.1,81.4 292.9,80.2 293.6,79.0 294.4,77.8 295.2,76.6 295.9,75.4 296.7,74.2 297.5,73.1 298.3,72.0 299.1,70.8 299.8,69.7 300.6,68.6 301.4,67.5 302.1,66.5 302.9,65.4 303.7,64.4 304.5,63.4 305.2,62.4 306.0,61.4 306.8,60.4 307.6,59.4 308.4,58.5 309.1,57.6 309.9,56.7 310.7,55.8 311.4,54.9 312.2,54.0 313.0,53.2 313.8,52.4 314.6,51.6 315.3,50.8 316.1,50.0 316.9,49.3 317.6,48.5 318.4,47.8 319.2,47.1 320.0,46.5 320.8,45.8 321.5,45.2 322.3,44.6 323.1,44.0 323.9,43.4 324.6,42.9 325.4,42.3 326.2,41.8 326.9,41.3 327.7,40.9 328.5,40.4 329.3,40.0 330.1,39.6 330.8,39.2 331.6,38.8 332.4,38.5 333.1,38.2 333.9,37.9 334.7,37.6 335.5,37.3 336.2,37.1 337.0,36.9 337.8,36.7 338.6,36.5 339.4,36.4 340.1,36.3 340.9,36.2 341.7,36.1 342.4,36.0 343.2,36.0 344.0,36.0\" fill=\"none\" stroke=\"#1f6fb2\" stroke-width=\"2.4\"/><text x=\"309.6\" y=\"49.1\" font-family=\"Arial,sans-serif\" fill=\"#1f6fb2\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">cos</text><line x1=\"72.8\" y1=\"62.4\" x2=\"72.8\" y2=\"126.0\" stroke=\"#243447\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><circle cx=\"72.8\" cy=\"62.4\" r=\"4.5\" fill=\"#f1c40f\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"79.8\" y=\"54.4\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"start\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">45°</text><line x1=\"227.8\" y1=\"189.6\" x2=\"227.8\" y2=\"126.0\" stroke=\"#243447\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><circle cx=\"227.8\" cy=\"189.6\" r=\"4.5\" fill=\"#f1c40f\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"234.8\" y=\"205.6\" font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"start\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">225°</text></svg></div></li><li><p class=\"facit-rubrik\">Kontroll på enhetscirkeln: x och y lika</p><p>\\(\\sin v=\\cos v\\) när punkten ligger på linjen \\(y=x\\): vid 45° (båda \\(\\tfrac{\\sqrt2}{2}\\)) och vid 225° (båda \\(-\\tfrac{\\sqrt2}{2}\\)).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(45^\\circ\\) och \\(225^\\circ\\)</p></div>",
+    "familj": "Symmetri och exakta värden i enhetscirkeln",
+    "geogebra": true,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      45,
+      225
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>På enhetscirkeln betyder \\(\\sin v=\\cos v\\) att punktens x- och y-koordinat är lika.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "flera_delar",
+    "omrTidigare": [
+      "enhetscirkeln_trig"
+    ],
+    "familjTidigare": [
+      "Exakta trigonometriska värden och symmetri i enhetscirkeln"
+    ]
+  },
   {
     "id": "4.242",
     "kap": 4,
@@ -64933,7 +65113,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>En odlare planterar två grödor, \\(x\\) och \\(y\\). Villkoren är \\(2x+y\\le50\\), \\(x+2y\\le56\\), \\(x,y\\ge0\\). Intäkten är \\(I=400x+500y\\). Bestäm maximum.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rita begränsningslinjerna och markera det gemensamma tillåtna området.</p></li><li><p>Den inre skärningspunkten är \\(\\left(\\frac{44}{3};\\frac{62}{3}\\right)\\).</p></li><li><p>Intäkten \\(I=400x+500y\\) blir störst där och är \\(\\boxed{I=16200}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16200.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärningen mellan begränsningslinjerna</p><div class=\"facit-matte\">\\[2x+y=50,\\quad x+2y=56\\quad\\Rightarrow\\quad x=\\frac{44}{3},\\ y=\\frac{62}{3}\\]</div></li><li><p class=\"facit-rubrik\">Intäkten i hörnen</p><div class=\"facit-matte\">\\[I(25,0)=10\\,000,\\quad I(0,28)=14\\,000\\]</div><div class=\"facit-matte\">\\[I\\!\\left(\\tfrac{44}{3},\\tfrac{62}{3}\\right)=\\frac{17\\,600+31\\,000}{3}=16\\,200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 200</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -64964,7 +65144,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Det tillåtna området ges av \\(x+y\\le10\\), \\(2x+y\\le14\\), \\(x\\ge0\\) och \\(y\\ge0\\). För uttrycket \\(Z=3x+ky\\), bestäm det värde på \\(k\\) där hela kanten mellan \\((4,6)\\) och \\((0,10)\\) ger samma värde på \\(Z\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På kanten gäller \\(x+y=10\\), vars lutning är \\(-1\\).</p></li><li><p>Linjerna \\(3x+ky=c\\), där \\(c\\) är ett konstant värde, har lutningen \\(-3/k\\).</p></li><li><div class=\"facit-berakning\"><p>För att en sådan linje ska vara parallell med kanten krävs</p><div class=\"facit-matte\">\\[-3/k=-1\\].</div></div></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[\\boxed{k=3}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kanten ligger på \\(x+y=10\\) med lutningen \\(-1\\)</p><p>Nivålinjerna \\(3x+ky=c\\) har lutningen \\(-\\tfrac3k\\).</p></li><li><p class=\"facit-rubrik\">Parallella linjer: lika lutning</p><div class=\"facit-matte\">\\[-\\frac3k=-1\\quad\\Rightarrow\\quad k=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -64994,7 +65174,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>Bestäm den minsta kostnaden \\(K=4x+5y\\) när <strong>alla följande villkor gäller samtidigt</strong>:</p><p>\\(x+2y\\ge12\\), \\(3x+y\\ge15\\), \\(x\\ge0\\) och \\(y\\ge0\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Tillåtet område ovanför båda begränsningslinjerna\"><g font-family=\"Arial,sans-serif\"><polygon points=\"65,75 65,36 371,36 371,270 269,270 126.2,215.4\" fill=\"currentColor\" fill-opacity=\".08\"/><line x1=\"65\" y1=\"270\" x2=\"392\" y2=\"270\" stroke=\"currentColor\"/><line x1=\"65\" y1=\"270\" x2=\"65\" y2=\"27\" stroke=\"currentColor\"/><text x=\"405\" y=\"270\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"65\" y=\"18\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">y</text><text x=\"51\" y=\"281\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"currentColor\">0</text><line x1=\"65\" y1=\"192\" x2=\"269\" y2=\"270\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-dasharray=\"4 3\"/><line x1=\"65\" y1=\"75\" x2=\"150\" y2=\"270\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-dasharray=\"4 3\"/><polyline points=\"65,75 126.2,215.4 269,270\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"235\" y=\"53\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"currentColor\">Tillåtet område</text><text x=\"235\" y=\"73\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"currentColor\">fortsätter uppåt och åt höger</text><circle cx=\"65\" cy=\"75\" r=\"3\" fill=\"currentColor\"/><text x=\"73\" y=\"60\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"currentColor\">(0; 15)</text><circle cx=\"126.2\" cy=\"215.4\" r=\"3\" fill=\"currentColor\"/><text x=\"134.2\" y=\"200.4\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"currentColor\">(3,6; 4,2)</text><circle cx=\"269\" cy=\"270\" r=\"3\" fill=\"currentColor\"/><text x=\"277\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"currentColor\">(12; 0)</text></g></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Villkoret \\(x,y\\ge0\\) anger bara att variablerna inte får vara negativa. Även de två andra olikheterna måste vara uppfyllda.</p></li><li><p>Origo \\((0,0)\\) är därför <strong>inte tillåtet</strong>: vänsterleden blir 0, vilket inte når kraven 12 och 15.</p></li><li><p>För en linjär kostnad räcker det här att jämföra de tre nedre hörnpunkterna. Området fortsätter uppåt och åt höger, där kostnaden ökar.</p></li><li><p>I \\((0;15)\\) blir kostnaden \\(75\\).</p></li><li><p>I \\((3,6;4,2)\\) blir kostnaden \\(35,4\\).</p></li><li><p>I \\((12;0)\\) blir kostnaden \\(48\\).</p></li><li><p>Den minsta kostnaden är alltså <strong>35,4</strong>, i punkten \\((3,6;4,2)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(35{,}4\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\ge\\)-villkor: området ligger ovanför linjerna</p><p>Det är inte tillåtet att välja origo, eftersom origo inte uppfyller villkoren. Kostnaden ökar uppåt och åt höger, så de nedre hörnen är kandidater.</p></li><li><p class=\"facit-rubrik\">Skärningen mellan gränslinjerna</p><div class=\"facit-matte\">\\[x+2y=12,\\quad 3x+y=15\\quad\\Rightarrow\\quad x=3{,}6,\\ y=4{,}2\\]</div></li><li><p class=\"facit-rubrik\">Kostnaden \\(K=4x+5y\\) i de nedre hörnen</p><div class=\"facit-matte\">\\[K(0;15)=75,\\quad K(3{,}6;\\ 4{,}2)=35{,}4\\]</div><div class=\"facit-matte\">\\[K(12;0)=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 35,4</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -65025,7 +65205,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>Ett snickeri tillverkar bord \\(x\\) och hyllor \\(y\\). Begränsningarna är \\(2x+y\\le40\\), \\(x+2y\\le50\\), \\(x\\ge0\\), \\(y\\ge0\\). Vinsten är \\(V=700x+500y\\). Bestäm största möjliga vinst.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hörnpunkterna är \\((0,0)\\),</p><p>\\((20,0)\\),</p></li><li><p>\\((10,20)\\) och \\((0,25)\\).</p></li><li><p>Största värdet fås i \\((10,20)\\): \\(V=17\\,000\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(17\\,000\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärningen mellan resurslinjerna</p><div class=\"facit-matte\">\\[2x+y=40,\\quad x+2y=50\\quad\\Rightarrow\\quad x=10,\\ y=20\\]</div></li><li><p class=\"facit-rubrik\">Vinsten i hörnen</p><div class=\"facit-matte\">\\[V(20,0)=14\\,000,\\quad V(10,20)=17\\,000\\]</div><div class=\"facit-matte\">\\[V(0,25)=12\\,500\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17 000 kr</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -65056,7 +65236,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>En fabrik producerar två varor. Villkoren är \\(3x+y\\le54\\), \\(x+3y\\le42\\), \\(x,y\\ge0\\). Resursutnyttjandet ska maximeras enligt \\(Z=5x+4y\\). Bestäm maximal nivå.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Begränsningslinjerna skär varandra där \\(3x+y=54\\) och \\(x+3y=42\\).</p></li><li><div class=\"facit-berakning\"><p>Lösning ger</p><div class=\"facit-matte\">\\[x=15\\],</div></div><div class=\"facit-matte\">\\[y=9\\].</div></li><li><div class=\"facit-berakning\"><p>Där blir</p><div class=\"facit-matte\">\\[Z=5\\cdot15+4\\cdot9=111\\].</div></div></li><li><p>Jämförelse med övriga hörnpunkter visar att \\(\\boxed{111}\\) är största värdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 111.</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärningen mellan begränsningslinjerna</p><div class=\"facit-matte\">\\[3x+y=54,\\quad x+3y=42\\quad\\Rightarrow\\quad x=15,\\ y=9\\]</div></li><li><p class=\"facit-rubrik\">Z i hörnen</p><div class=\"facit-matte\">\\[Z(18,0)=90,\\quad Z(15,9)=75+36=111\\]</div><div class=\"facit-matte\">\\[Z(0,14)=56\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 111</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -65087,7 +65267,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>Låt x och y vara antalet portioner av sort A respektive B. Även delar av portioner får användas. Bestäm den minsta kostnaden \\(K=28x+24y\\) när <strong>alla följande villkor gäller samtidigt</strong>:</p><p>\\(2x+y\\ge12\\), \\(x+3y\\ge15\\), \\(x\\ge0\\) och \\(y\\ge0\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Tillåtet område ovanför båda begränsningslinjerna\"><g font-family=\"Arial,sans-serif\"><polygon points=\"65,114 65,36 371,36 371,270 320,270 136.4,223.2\" fill=\"currentColor\" fill-opacity=\".08\"/><line x1=\"65\" y1=\"270\" x2=\"392\" y2=\"270\" stroke=\"currentColor\"/><line x1=\"65\" y1=\"270\" x2=\"65\" y2=\"27\" stroke=\"currentColor\"/><text x=\"405\" y=\"270\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"65\" y=\"18\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">y</text><text x=\"51\" y=\"281\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"currentColor\">0</text><line x1=\"65\" y1=\"114\" x2=\"167\" y2=\"270\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-dasharray=\"4 3\"/><line x1=\"65\" y1=\"205\" x2=\"320\" y2=\"270\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-dasharray=\"4 3\"/><polyline points=\"65,114 136.4,223.2 320,270\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><text x=\"235\" y=\"53\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"currentColor\">Tillåtet område</text><text x=\"235\" y=\"73\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"11\" fill=\"currentColor\">fortsätter uppåt och åt höger</text><circle cx=\"65\" cy=\"114\" r=\"3\" fill=\"currentColor\"/><text x=\"73\" y=\"99\" text-anchor=\"start\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"currentColor\">(0; 12)</text><circle cx=\"136.4\" cy=\"223.2\" r=\"3\" fill=\"currentColor\"/><text x=\"144.4\" y=\"208.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"currentColor\">(4,2; 3,6)</text><circle cx=\"320\" cy=\"270\" r=\"3\" fill=\"currentColor\"/><text x=\"328\" y=\"255\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"12\" fill=\"currentColor\">(15; 0)</text></g></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Villkoret \\(x,y\\ge0\\) anger bara att variablerna inte får vara negativa. Även de två andra olikheterna måste vara uppfyllda.</p></li><li><p>Origo \\((0,0)\\) är därför <strong>inte tillåtet</strong>: vänsterleden blir 0, vilket inte når kraven 12 och 15.</p></li><li><p>För en linjär kostnad räcker det här att jämföra de tre nedre hörnpunkterna. Området fortsätter uppåt och åt höger, där kostnaden ökar.</p></li><li><p>I \\((0;12)\\) blir kostnaden \\(288\\).</p></li><li><p>I \\((4,2;3,6)\\) blir kostnaden \\(204\\).</p></li><li><p>I \\((15;0)\\) blir kostnaden \\(420\\).</p></li><li><p>Den minsta kostnaden är alltså <strong>204</strong>, i punkten \\((4,2;3,6)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(204\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\ge\\)-villkor: området ligger ovanför linjerna</p><p>Det är inte tillåtet att välja origo, eftersom origo inte uppfyller villkoren. Kostnaden ökar uppåt och åt höger, så de nedre hörnen är kandidater.</p></li><li><p class=\"facit-rubrik\">Skärningen mellan gränslinjerna</p><div class=\"facit-matte\">\\[2x+y=12,\\quad x+3y=15\\quad\\Rightarrow\\quad x=4{,}2,\\ y=3{,}6\\]</div></li><li><p class=\"facit-rubrik\">Kostnaden \\(K=28x+24y\\) i de nedre hörnen</p><div class=\"facit-matte\">\\[K(0;12)=288,\\quad K(4{,}2;\\ 3{,}6)=204\\]</div><div class=\"facit-matte\">\\[K(15;0)=420\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 204</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -65118,7 +65298,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För vilket värde på \\(k\\) får \\(Z=3x+ky\\) samma värde i punkterna \\((2,6)\\) och \\((8,2)\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in punkterna i målfunktionen:</p><p>\\[\\begin{aligned}(2,6):\\quad Z&=6+6k,\\\\(8,2):\\quad Z&=24+2k.\\end{aligned}\\]</p></li><li><p>Samma värde kräver</p><p>\\[\\begin{aligned}6+6k&=24+2k,\\\\4k&=18,\\\\k&=4{,}5.\\end{aligned}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{k=4{,}5}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Z i båda punkterna</p><div class=\"facit-matte\">\\[Z(2,6)=6+6k,\\qquad Z(8,2)=24+2k\\]</div></li><li><p class=\"facit-rubrik\">Sätt värdena lika</p><div class=\"facit-matte\">\\[6+6k=24+2k\\quad\\Rightarrow\\quad4k=18\\quad\\Rightarrow\\quad k=4{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=4{,}5\\)</p></div>",
     "familj": "Fördjupad linjär optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -65149,7 +65329,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett tillåtet område har hörnpunkterna (0; 0), (0; 4), (3; 4), (5; 0). Bestäm största värdet av \\(Z=3x+2y\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Värdena i hörnpunkterna är</p><p>\\[0,\\;8,\\;17,\\;15.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största värdet är \\(\\boxed{17}\\), vid \\((3;4)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=3x+2y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0;0)=0,\\quad Z(0;4)=8\\]</div><div class=\"facit-matte\">\\[Z(3;4)=17,\\quad Z(5;0)=15\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((3;4)\\)</p><div class=\"facit-matte\">\\[Z_{\\max}=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -65179,7 +65359,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett tillåtet område har hörnpunkterna (0; 0), (0; 6), (2; 6), (6; 0). Bestäm största värdet av \\(Z=4x+y\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Värdena i hörnpunkterna är</p><p>\\[0,\\;6,\\;14,\\;24.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största värdet är \\(\\boxed{24}\\), vid \\((6;0)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=4x+y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0;0)=0,\\quad Z(0;6)=6\\]</div><div class=\"facit-matte\">\\[Z(2;6)=14,\\quad Z(6;0)=24\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((6;0)\\)</p><div class=\"facit-matte\">\\[Z_{\\max}=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -65209,7 +65389,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett tillåtet område har hörnpunkterna \\((0;0)\\), \\((0;5)\\), \\((4;3)\\) och \\((5;0)\\). I vilken hörnpunkt får \\(Z=2x+5y\\) sitt största värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Värdena blir \\(0\\),</p><p>\\(25\\),</p></li><li><p>\\(23\\) och \\(10\\).</p></li><li><p>Största värdet fås alltså i \\(\\boxed{(0;5)}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\((0;5)\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=2x+5y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0;0)=0,\\quad Z(0;5)=25\\]</div><div class=\"facit-matte\">\\[Z(4;3)=23,\\quad Z(5;0)=10\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((0;5)\\)</p><p>Värdet där är 25.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((0;5)\\)</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -65245,7 +65425,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett tillåtet område har hörnpunkterna \\((0;0)\\), \\((0;3)\\), \\((5;3)\\) och \\((7;0)\\). För \\(Z=5x+2y\\), bestäm a) största värdet av \\(Z\\), b) x-koordinaten för en optimal hörnpunkt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>I hörnpunkterna blir</p><div class=\"facit-matte\">\\[Z=0,6,31,35\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(\\boxed{35}\\), b) \\(\\boxed{x=7}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=5x+2y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0;0)=0,\\quad Z(0;3)=6\\]</div><div class=\"facit-matte\">\\[Z(5;3)=31,\\quad Z(7;0)=35\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((7;0)\\)</p><p>Maximum är 35 och x-koordinaten är 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 35, b) x = 7</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -65281,7 +65461,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett café säljer smörgåsar \\(x\\) och sallader \\(y\\). Vinsten är \\(35x+45y\\) kr. Villkoren är \\(x+y\\le40\\), \\(2x+y\\le60\\), \\(x,y\\ge0\\). Bestäm största möjliga vinst.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hörnpunkterna är \\((0,0)\\),</p><p>\\((30,0)\\),</p></li><li><p>\\((20,20)\\) och \\((0,40)\\).</p></li><li><p>Vinsten \\(35x+45y\\) blir då</p><p>\\[0,\\;1050,\\;1600,\\;1800.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största möjliga vinst är \\(\\boxed{1800\\text{ kr}}\\), vid \\((0;40)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hörnen: skärningen mellan resurslinjerna</p><div class=\"facit-matte\">\\[x+y=40,\\quad 2x+y=60\\quad\\Rightarrow\\quad(20,20)\\]</div><p>Övriga hörn: \\((0,0)\\), \\((30,0)\\) och \\((0,40)\\).</p></li><li><p class=\"facit-rubrik\">Vinsten \\(35x+45y\\) i hörnen</p><div class=\"facit-matte\">\\[0,\\quad1050,\\quad1600,\\quad1800\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((0;40)\\)</p><p>Salladerna ger mest vinst per enhet resurs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1800 kr</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -65312,7 +65492,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Ett snickeri tillverkar bord \\(x\\) och stolar \\(y\\). Vinsten är \\(500x+180y\\) kr. Villkoren är \\(4x+y\\le80\\), \\(2x+3y\\le90\\), \\(x,y\\ge0\\). Bestäm a) hur många bord och stolar som ska tillverkas, b) största möjliga vinst.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Begränsningslinjerna skär varandra när</p><p>\\[4x+y=80,\\qquad2x+3y=90.\\]</p></li><li><div class=\"facit-berakning\"><p>Det ger</p><div class=\"facit-matte\">\\[(x,y)=(15,20)\\].</div></div></li><li><p>De relevanta hörnpunkterna är \\((0,0)\\),</p><p>\\((20,0)\\),</p></li><li><p>\\((15,20)\\) och \\((0,30)\\).</p></li><li><p>Vinsterna blir \\(0\\),</p><p>\\(10\\,000\\),</p></li><li><p>\\(11\\,100\\) och \\(5\\,400\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(15\\) bord och \\(20\\) stolar, b) \\(\\boxed{11\\,100\\text{ kr}}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärningen mellan resurslinjerna</p><div class=\"facit-matte\">\\[4x+y=80,\\quad 2x+3y=90\\quad\\Rightarrow\\quad x=15,\\ y=20\\]</div></li><li><p class=\"facit-rubrik\">Vinsten i hörnen</p><div class=\"facit-matte\">\\[V(20,0)=10\\,000,\\quad V(15,20)=11\\,100\\]</div><div class=\"facit-matte\">\\[V(0,30)=5\\,400\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 15 bord och 20 stolar, b) 11 100 kr</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -65351,7 +65531,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>En odling använder två grödor \\(x\\) och \\(y\\). Intäkten är \\(8x+6y\\). Villkoren är \\(x+2y\\le24\\), \\(3x+y\\le30\\), \\(x,y\\ge0\\). Bestäm största intäkten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Begränsningslinjerna skär varandra i</p><p>\\[x+2y=24,\\qquad3x+y=30\\Rightarrow(x,y)=(7,2;8,4).\\]</p></li><li><p>I de relevanta hörnpunkterna blir intäkten \\(0\\),</p><p>\\(72\\),</p></li><li><p>\\(80\\) respektive \\(108\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största intäkten är \\(\\boxed{108}\\), vid \\((7,2;8,4)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärningen mellan resurslinjerna</p><div class=\"facit-matte\">\\[x+2y=24,\\quad 3x+y=30\\quad\\Rightarrow\\quad x=7{,}2,\\ y=8{,}4\\]</div></li><li><p class=\"facit-rubrik\">Intäkten i hörnen</p><div class=\"facit-matte\">\\[I(10,0)=80,\\quad I(0,12)=72\\]</div><div class=\"facit-matte\">\\[I(7{,}2;\\ 8{,}4)=57{,}6+50{,}4=108\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 108</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -65382,7 +65562,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Ett företag kan producera produkter A och B. Bidraget är \\(70x+50y\\). Begränsningarna är \\(x+y\\le30\\), \\(2x+y\\le45\\), \\(x+3y\\le60\\), \\(x,y\\ge0\\). Bestäm största bidraget.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De tre begränsningslinjerna måste kontrolleras tillsammans.</p></li><li><p>Punkten \\((15,15)\\) uppfyller alla tre med likhet:</p><p>\\[15+15=30,\\quad2\\cdot15+15=45,\\quad15+3\\cdot15=60.\\]</p></li><li><p>Målfunktionen ger där</p><p>\\[70\\cdot15+50\\cdot15=1800.\\]</p></li><li><p>Övriga hörnpunkter ger lägre värden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största bidraget är \\(\\boxed{1800}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla tre gränslinjerna går genom \\((15,15)\\)</p><div class=\"facit-matte\">\\[15+15=30,\\quad2\\cdot15+15=45,\\quad15+3\\cdot15=60\\]</div></li><li><p class=\"facit-rubrik\">Bidraget i hörnen</p><div class=\"facit-matte\">\\[(22{,}5;\\ 0):1575,\\quad(15,15):1800,\\quad(0,20):1000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1800</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
@@ -65413,7 +65593,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med två sidor och mellanliggande vinkel\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"55,220 266.5,220 287.2,45.0\" fill=\"#F8F3EC\" stroke=\"#2B2527\" stroke-width=\"2\" /><path d=\"M 73.4 206.2 L 73.9 207.0 L 74.5 207.8 L 75.0 208.6 L 75.5 209.5 L 75.9 210.4 L 76.3 211.3 L 76.6 212.2 L 77.0 213.2 L 77.2 214.1 L 77.5 215.1 L 77.7 216.1 L 77.8 217.0 L 77.9 218.0 L 78.0 219.0 L 78.0 220.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.5\"/><text x=\"92.0\" y=\"211.6\" text-anchor=\"middle\" font-size=\"12\" fill=\"#B43123\">37°</text><text x=\"160.7\" y=\"235.0\" text-anchor=\"middle\" font-size=\"12.5\">8 cm</text><text x=\"162.1\" y=\"120.5\" text-anchor=\"middle\" font-size=\"12.5\">11 cm</text></svg></span><p>Två sidor och den mellanliggande vinkeln är markerade i triangeln. Bestäm den tredje sidan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Cosinussatsen ger</p><div class=\"facit-matte\">\\[c^2=8^2+11^2-2\\cdot 8\\cdot 11\\cos 37^\\circ\\].</div></div></li><li><p>Alltså \\(c\\approx 6{,}67\\) cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(6{,}67\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 37°</p><div class=\"facit-matte\">\\[c^2=8^2+11^2-2\\cdot8\\cdot11\\cos37^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Beräkna med räknare</p><div class=\"facit-matte\">\\[c^2\\approx185-140{,}56=44{,}44\\quad\\Rightarrow\\quad c\\approx6{,}67\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,67 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -65443,7 +65623,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med två sidor och mellanliggande vinkel\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"55,220 210.5,220 191.7,45.0\" fill=\"#F8F3EC\" stroke=\"#2B2527\" stroke-width=\"2\" /><path d=\"M 69.2 201.9 L 70.2 202.8 L 71.2 203.7 L 72.2 204.7 L 73.1 205.8 L 73.9 206.9 L 74.7 208.1 L 75.4 209.3 L 76.0 210.5 L 76.5 211.8 L 77.0 213.1 L 77.3 214.5 L 77.6 215.8 L 77.8 217.2 L 78.0 218.6 L 78.0 220.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.5\"/><text x=\"90.1\" y=\"206.9\" text-anchor=\"middle\" font-size=\"12\" fill=\"#B43123\">52°</text><text x=\"132.7\" y=\"235.0\" text-anchor=\"middle\" font-size=\"12.5\">7 cm</text><text x=\"111.5\" y=\"123.3\" text-anchor=\"middle\" font-size=\"12.5\">10 cm</text></svg></span><p>Beräkna den okända tredje sidan i triangeln. Ange svaret med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Cosinussatsen ger</p><div class=\"facit-matte\">\\[c^2=7^2+10^2-2\\cdot 7\\cdot 10\\cos 52^\\circ\\].</div></div></li><li><p>Alltså \\(c\\approx 7{,}93\\) cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(7{,}93\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 52°</p><div class=\"facit-matte\">\\[c^2=7^2+10^2-2\\cdot7\\cdot10\\cos52^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Beräkna med räknare</p><div class=\"facit-matte\">\\[c^2\\approx149-86{,}19=62{,}81\\quad\\Rightarrow\\quad c\\approx7{,}93\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,93 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -65473,7 +65653,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med två sidor och mellanliggande vinkel\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><polygon points=\"55,220 180.8,220 125.7,45.0\" fill=\"#F8F3EC\" stroke=\"#2B2527\" stroke-width=\"2\" /><path d=\"M 63.6 198.7 L 65.3 199.4 L 66.9 200.3 L 68.4 201.3 L 69.8 202.4 L 71.2 203.6 L 72.4 205.0 L 73.5 206.4 L 74.6 207.9 L 75.5 209.5 L 76.2 211.1 L 76.9 212.8 L 77.4 214.6 L 77.7 216.4 L 77.9 218.2 L 78.0 220.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.5\"/><text x=\"87.3\" y=\"202.2\" text-anchor=\"middle\" font-size=\"12\" fill=\"#B43123\">68°</text><text x=\"117.9\" y=\"235.0\" text-anchor=\"middle\" font-size=\"12.5\">6 cm</text><text x=\"76.4\" y=\"126.9\" text-anchor=\"middle\" font-size=\"12.5\">9 cm</text></svg></span><p>Bestäm avståndet mellan de två markerade hörnen, alltså triangelns tredje sida.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Cosinussatsen ger</p><div class=\"facit-matte\">\\[c^2=6^2+9^2-2\\cdot 6\\cdot 9\\cos 68^\\circ\\].</div></div></li><li><p>Alltså \\(c\\approx 8{,}75\\) cm.</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: \\(8{,}75\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 68°</p><div class=\"facit-matte\">\\[c^2=6^2+9^2-2\\cdot6\\cdot9\\cos68^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Beräkna med räknare</p><div class=\"facit-matte\">\\[c^2\\approx117-40{,}46=76{,}54\\quad\\Rightarrow\\quad c\\approx8{,}75\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,75 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -65534,7 +65714,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En triangulär tomt har två sidor som är 42 m och 57 m. Vinkeln mellan dem är \\(63^\\circ\\). Bestäm tomtens area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Använd areasatsen</strong></p><p>Två sidor och vinkeln mellan dem är kända, så \\(T=ab\\sin C/2\\).</p><div class=\"facit-matte\">\\[T=\\frac{42\\cdot57\\cdot\\sin63^\\circ}{2}\\approx1066{,}5348\\ \\mathrm{m}^2.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 1 066,5 m².</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Areasatsen: \\(T=\\tfrac12ab\\sin C\\) med vinkeln 63°</p><div class=\"facit-matte\">\\[T=\\frac{42\\cdot57\\cdot\\sin63^\\circ}{2}\\approx1066{,}5\\ \\text{m}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 1066,5 m²</p></div>",
     "familj": "Areor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -65568,7 +65748,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två segelbåtar lämnar samma hamn i riktningar som bildar vinkeln \\(58^\\circ\\). Den ena seglar 4,8 km och den andra 6,2 km. Bestäm avståndet mellan båtarna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet mellan båtarna är den tredje sidan i en triangel med sidorna 4,8 km och 6,2 km och mellanliggande vinkel \\(58^\\circ\\).</p></li><li><p>Cosinussatsen ger</p><p>\\[d^2=4{,}8^2+6{,}2^2-2\\cdot4{,}8\\cdot6{,}2\\cos58^\\circ.\\]</p></li><li><p>Alltså \\(d\\approx5{,}47\\) km.</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: \\(5{,}47\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 58°</p><div class=\"facit-matte\">\\[d^2=4{,}8^2+6{,}2^2-2\\cdot4{,}8\\cdot6{,}2\\cos58^\\circ\\approx29{,}94\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten</p><div class=\"facit-matte\">\\[d\\approx5{,}47\\ \\text{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,47 km</p></div>",
     "familj": "Avstånd och triangulering",
     "geogebra": false,
     "miniräknare": true,
@@ -65602,7 +65782,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar en punkt på enhetscirkeln.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"370\" height=\"310\" viewBox=\"0 0 370 310\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Enhetscirkel med vinkeln 30 grader\"><rect x=\"1\" y=\"1\" width=\"368\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#e4e3e6\" /><line x1=\"45\" y1=\"155\" x2=\"330\" y2=\"155\" stroke=\"#222\" stroke-width=\"2\" /><polygon points=\"330,155 319,150 319,160\" fill=\"#222\" /><line x1=\"175\" y1=\"285\" x2=\"175\" y2=\"35\" stroke=\"#222\" stroke-width=\"2\" /><polygon points=\"175,35 170,46 180,46\" fill=\"#222\" /><circle cx=\"175\" cy=\"155\" r=\"105\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\" /><line x1=\"175\" y1=\"155\" x2=\"265.9\" y2=\"102.5\" stroke=\"#555\" stroke-width=\"2\" /><circle cx=\"265.9\" cy=\"102.5\" r=\"5\" fill=\"#222\" /><path d=\"M 213.0 155.0 L 212.9 152.5 L 212.7 150.0 L 212.3 147.6 L 211.7 145.2 L 211.0 142.8 L 210.1 140.5 L 209.1 138.2 L 207.9 136.0\" fill=\"none\" stroke=\"#555\" stroke-width=\"1.8\" /><text x=\"223.3\" y=\"147.1\" font-size=\"14\">30°</text><text x=\"337\" y=\"161\" font-size=\"14\" font-style=\"italic\">x</text><text x=\"164\" y=\"28\" font-size=\"14\" font-style=\"italic\">y</text></svg></span><p>Bestäm \\(\\cos 30^\\circ\\) och \\(\\sin 30^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är punktens \\(x\\)-koordinat \\(\\cos v\\) och \\(y\\)-koordinaten \\(\\sin v\\).</p><p>\\[\\cos 30^\\circ=\\frac{\\sqrt{3}}{2},\\qquad \\sin 30^\\circ=\\frac{1}{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\cos 30^\\circ=\\dfrac{\\sqrt{3}}{2}\\), \\(\\sin 30^\\circ=\\dfrac{1}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">På enhetscirkeln: \\(P=(\\cos v,\\ \\sin v)\\) med \\(v=30^\\circ\\)</p><div class=\"facit-matte\">\\[\\cos30^\\circ=\\frac{\\sqrt3}{2},\\qquad\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos30^\\circ=\\tfrac{\\sqrt3}{2}\\), \\(\\sin30^\\circ=\\tfrac12\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -65642,7 +65822,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar en punkt på enhetscirkeln.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"370\" height=\"310\" viewBox=\"0 0 370 310\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Enhetscirkel med vinkeln 120 grader\"><rect x=\"1\" y=\"1\" width=\"368\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#e4e3e6\" /><line x1=\"45\" y1=\"155\" x2=\"330\" y2=\"155\" stroke=\"#222\" stroke-width=\"2\" /><polygon points=\"330,155 319,150 319,160\" fill=\"#222\" /><line x1=\"175\" y1=\"285\" x2=\"175\" y2=\"35\" stroke=\"#222\" stroke-width=\"2\" /><polygon points=\"175,35 170,46 180,46\" fill=\"#222\" /><circle cx=\"175\" cy=\"155\" r=\"105\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\" /><line x1=\"175\" y1=\"155\" x2=\"122.5\" y2=\"64.1\" stroke=\"#555\" stroke-width=\"2\" /><circle cx=\"122.5\" cy=\"64.1\" r=\"5\" fill=\"#222\" /><path d=\"M 213.0 155.0 L 212.9 151.7 L 212.4 148.4 L 211.7 145.2 L 210.7 142.0 L 209.4 138.9 L 207.9 136.0 L 206.1 133.2 L 204.1 130.6 L 201.9 128.1 L 199.4 125.9 L 196.8 123.9 L 194.0 122.1 L 191.1 120.6 L 188.0 119.3 L 184.8 118.3 L 181.6 117.6 L 178.3 117.1 L 175.0 117.0 L 171.7 117.1 L 168.4 117.6 L 165.2 118.3 L 162.0 119.3 L 158.9 120.6 L 156.0 122.1\" fill=\"none\" stroke=\"#555\" stroke-width=\"1.8\" /><text x=\"200.0\" y=\"116.7\" font-size=\"14\">120°</text><text x=\"337\" y=\"161\" font-size=\"14\" font-style=\"italic\">x</text><text x=\"164\" y=\"28\" font-size=\"14\" font-style=\"italic\">y</text></svg></span><p>Bestäm \\(\\cos 120^\\circ\\) och \\(\\sin 120^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är punktens \\(x\\)-koordinat \\(\\cos v\\) och \\(y\\)-koordinaten \\(\\sin v\\).</p><p>\\[\\cos 120^\\circ=- \\frac{1}{2},\\qquad \\sin 120^\\circ=\\frac{\\sqrt{3}}{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\cos 120^\\circ=-\\dfrac{1}{2}\\), \\(\\sin 120^\\circ=\\dfrac{\\sqrt{3}}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(120^\\circ\\) ligger i andra kvadranten, referensvinkel \\(60^\\circ\\)</p><p>x negativ, y positiv.</p></li><li><p class=\"facit-rubrik\">Värdena för \\(60^\\circ\\) med rätt tecken</p><div class=\"facit-matte\">\\[\\cos120^\\circ=-\\frac12,\\qquad\\sin120^\\circ=\\frac{\\sqrt3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos120^\\circ=-\\tfrac12\\), \\(\\sin120^\\circ=\\tfrac{\\sqrt3}{2}\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -65682,7 +65862,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar en punkt på enhetscirkeln.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"370\" height=\"310\" viewBox=\"0 0 370 310\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Enhetscirkel med vinkeln 225 grader\"><rect x=\"1\" y=\"1\" width=\"368\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#e4e3e6\" /><line x1=\"45\" y1=\"155\" x2=\"330\" y2=\"155\" stroke=\"#222\" stroke-width=\"2\" /><polygon points=\"330,155 319,150 319,160\" fill=\"#222\" /><line x1=\"175\" y1=\"285\" x2=\"175\" y2=\"35\" stroke=\"#222\" stroke-width=\"2\" /><polygon points=\"175,35 170,46 180,46\" fill=\"#222\" /><circle cx=\"175\" cy=\"155\" r=\"105\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\" /><line x1=\"175\" y1=\"155\" x2=\"100.8\" y2=\"229.2\" stroke=\"#555\" stroke-width=\"2\" /><circle cx=\"100.8\" cy=\"229.2\" r=\"5\" fill=\"#222\" /><path d=\"M 213.0 155.0 L 212.9 151.7 L 212.4 148.4 L 211.7 145.2 L 210.7 142.0 L 209.4 138.9 L 207.9 136.0 L 206.1 133.2 L 204.1 130.6 L 201.9 128.1 L 199.4 125.9 L 196.8 123.9 L 194.0 122.1 L 191.1 120.6 L 188.0 119.3 L 184.8 118.3 L 181.6 117.6 L 178.3 117.1 L 175.0 117.0 L 171.7 117.1 L 168.4 117.6 L 165.2 118.3 L 162.0 119.3 L 158.9 120.6 L 156.0 122.1 L 153.2 123.9 L 150.6 125.9 L 148.1 128.1 L 145.9 130.6 L 143.9 133.2 L 142.1 136.0 L 140.6 138.9 L 139.3 142.0 L 138.3 145.2 L 137.6 148.4 L 137.1 151.7 L 137.0 155.0 L 137.1 158.3 L 137.6 161.6 L 138.3 164.8 L 139.3 168.0 L 140.6 171.1 L 142.1 174.0 L 143.9 176.8 L 145.9 179.4 L 148.1 181.9\" fill=\"none\" stroke=\"#555\" stroke-width=\"1.8\" /><text x=\"155.9\" y=\"113.8\" font-size=\"14\">225°</text><text x=\"337\" y=\"161\" font-size=\"14\" font-style=\"italic\">x</text><text x=\"164\" y=\"28\" font-size=\"14\" font-style=\"italic\">y</text></svg></span><p>Bestäm \\(\\cos 225^\\circ\\) och \\(\\sin 225^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är punktens \\(x\\)-koordinat \\(\\cos v\\) och \\(y\\)-koordinaten \\(\\sin v\\).</p><p>\\[\\cos 225^\\circ=- \\frac{\\sqrt{2}}{2},\\qquad \\sin 225^\\circ=- \\frac{\\sqrt{2}}{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\cos 225^\\circ=-\\dfrac{\\sqrt{2}}{2}\\), \\(\\sin 225^\\circ=-\\dfrac{\\sqrt{2}}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(225^\\circ\\) ligger i tredje kvadranten, referensvinkel \\(45^\\circ\\)</p><p>Både x och y negativa.</p></li><li><p class=\"facit-rubrik\">Värdena för \\(45^\\circ\\) med minustecken</p><div class=\"facit-matte\">\\[\\cos225^\\circ=\\sin225^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos225^\\circ=-\\tfrac{\\sqrt2}{2}\\), \\(\\sin225^\\circ=-\\tfrac{\\sqrt2}{2}\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -65722,7 +65902,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar en punkt på enhetscirkeln.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"370\" height=\"310\" viewBox=\"0 0 370 310\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Enhetscirkel med vinkeln 330 grader\"><rect x=\"1\" y=\"1\" width=\"368\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#e4e3e6\" /><line x1=\"45\" y1=\"155\" x2=\"330\" y2=\"155\" stroke=\"#222\" stroke-width=\"2\" /><polygon points=\"330,155 319,150 319,160\" fill=\"#222\" /><line x1=\"175\" y1=\"285\" x2=\"175\" y2=\"35\" stroke=\"#222\" stroke-width=\"2\" /><polygon points=\"175,35 170,46 180,46\" fill=\"#222\" /><circle cx=\"175\" cy=\"155\" r=\"105\" fill=\"none\" stroke=\"#333\" stroke-width=\"2\" /><line x1=\"175\" y1=\"155\" x2=\"265.9\" y2=\"207.5\" stroke=\"#555\" stroke-width=\"2\" /><circle cx=\"265.9\" cy=\"207.5\" r=\"5\" fill=\"#222\" /><path d=\"M 213.0 155.0 L 212.9 151.7 L 212.4 148.4 L 211.7 145.2 L 210.7 142.0 L 209.4 138.9 L 207.9 136.0 L 206.1 133.2 L 204.1 130.6 L 201.9 128.1 L 199.4 125.9 L 196.8 123.9 L 194.0 122.1 L 191.1 120.6 L 188.0 119.3 L 184.8 118.3 L 181.6 117.6 L 178.3 117.1 L 175.0 117.0 L 171.7 117.1 L 168.4 117.6 L 165.2 118.3 L 162.0 119.3 L 158.9 120.6 L 156.0 122.1 L 153.2 123.9 L 150.6 125.9 L 148.1 128.1 L 145.9 130.6 L 143.9 133.2 L 142.1 136.0 L 140.6 138.9 L 139.3 142.0 L 138.3 145.2 L 137.6 148.4 L 137.1 151.7 L 137.0 155.0 L 137.1 158.3 L 137.6 161.6 L 138.3 164.8 L 139.3 168.0 L 140.6 171.1 L 142.1 174.0 L 143.9 176.8 L 145.9 179.4 L 148.1 181.9 L 150.6 184.1 L 153.2 186.1 L 156.0 187.9 L 158.9 189.4 L 162.0 190.7 L 165.2 191.7 L 168.4 192.4 L 171.7 192.9 L 175.0 193.0 L 178.3 192.9 L 181.6 192.4 L 184.8 191.7 L 188.0 190.7 L 191.1 189.4 L 194.0 187.9 L 196.8 186.1 L 199.4 184.1 L 201.9 181.9 L 204.1 179.4 L 206.1 176.8 L 207.9 174.0\" fill=\"none\" stroke=\"#555\" stroke-width=\"1.8\" /><text x=\"126.7\" y=\"147.1\" font-size=\"14\">330°</text><text x=\"337\" y=\"161\" font-size=\"14\" font-style=\"italic\">x</text><text x=\"164\" y=\"28\" font-size=\"14\" font-style=\"italic\">y</text></svg></span><p>Bestäm \\(\\cos 330^\\circ\\) och \\(\\sin 330^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På enhetscirkeln är punktens \\(x\\)-koordinat \\(\\cos v\\) och \\(y\\)-koordinaten \\(\\sin v\\).</p><p>\\[\\cos 330^\\circ=\\frac{\\sqrt{3}}{2},\\qquad \\sin 330^\\circ=- \\frac{1}{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\cos 330^\\circ=\\dfrac{\\sqrt{3}}{2}\\), \\(\\sin 330^\\circ=-\\dfrac{1}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(330^\\circ\\) ligger i fjärde kvadranten, referensvinkel \\(30^\\circ\\)</p><p>x positiv, y negativ.</p></li><li><p class=\"facit-rubrik\">Värdena för \\(30^\\circ\\) med rätt tecken</p><div class=\"facit-matte\">\\[\\cos330^\\circ=\\frac{\\sqrt3}{2},\\qquad\\sin330^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos330^\\circ=\\tfrac{\\sqrt3}{2}\\), \\(\\sin330^\\circ=-\\tfrac12\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -65762,7 +65942,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm exakt med hjälp av enhetscirkeln:</p><p>\\[\\sin 150^\\circ.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(150^\\circ\\) ligger i kvadrant 2.</p></li><li><p>På enhetscirkeln fås</p><p>\\[\\sin 150^\\circ=\\frac{1}{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\dfrac{1}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(150^\\circ\\) ligger i andra kvadranten, referensvinkel \\(30^\\circ\\)</p><p>Sinus (y-koordinaten) är positiv.</p></li><li><p class=\"facit-rubrik\">Samma sinus som \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin150^\\circ=\\sin30^\\circ=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac12\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -65796,7 +65976,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm exakt med hjälp av enhetscirkeln:</p><p>\\[\\cos 135^\\circ.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(135^\\circ\\) ligger i kvadrant 2.</p></li><li><p>På enhetscirkeln fås</p><p>\\[\\cos 135^\\circ=- \\frac{\\sqrt{2}}{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-\\dfrac{\\sqrt{2}}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(135^\\circ\\) ligger i andra kvadranten, referensvinkel \\(45^\\circ\\)</p><p>Cosinus (x-koordinaten) är negativ.</p></li><li><p class=\"facit-rubrik\">Cosinus för \\(45^\\circ\\) med minustecken</p><div class=\"facit-matte\">\\[\\cos135^\\circ=-\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac{\\sqrt2}{2}\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -65830,7 +66010,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm exakt med hjälp av enhetscirkeln:</p><p>\\[\\sin 210^\\circ.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(210^\\circ\\) ligger i kvadrant 3.</p></li><li><p>På enhetscirkeln fås</p><p>\\[\\sin 210^\\circ=- \\frac{1}{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-\\dfrac{1}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(210^\\circ\\) ligger i tredje kvadranten, referensvinkel \\(30^\\circ\\)</p><p>Sinus (y-koordinaten) är negativ.</p></li><li><p class=\"facit-rubrik\">Sinus för \\(30^\\circ\\) med minustecken</p><div class=\"facit-matte\">\\[\\sin210^\\circ=-\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac12\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -65864,7 +66044,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm exakt med hjälp av enhetscirkeln:</p><p>\\[\\cos 315^\\circ.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(315^\\circ\\) ligger i kvadrant 4.</p></li><li><p>På enhetscirkeln fås</p><p>\\[\\cos 315^\\circ=\\frac{\\sqrt{2}}{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\dfrac{\\sqrt{2}}{2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(315^\\circ\\) ligger i fjärde kvadranten, referensvinkel \\(45^\\circ\\)</p><p>Cosinus (x-koordinaten) är positiv.</p></li><li><p class=\"facit-rubrik\">Samma cosinus som \\(45^\\circ\\)</p><div class=\"facit-matte\">\\[\\cos315^\\circ=\\frac{\\sqrt2}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{\\sqrt2}{2}\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -65898,7 +66078,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med markerade mått\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#e4e3e6\" /><polygon points=\"70.0,220.0 320.0,220.0 187.5,89.4\" fill=\"#f8f4e9\" stroke=\"#745637\" stroke-width=\"2\" /><text x=\"55.0\" y=\"238.0\" font-size=\"13\">A</text><text x=\"327.0\" y=\"238.0\" font-size=\"13\">B</text><text x=\"187.5\" y=\"79.4\" font-size=\"13\">C</text><text x=\"268.9\" y=\"149.4\" text-anchor=\"middle\" font-size=\"13\">x</text><text x=\"113.6\" y=\"149.6\" text-anchor=\"middle\" font-size=\"13\">5,2 cm</text><text x=\"195.9\" y=\"236.0\" text-anchor=\"middle\" font-size=\"13\">7,4 cm</text><path d=\"M 88.7 199.2 L 90.1 200.5 L 91.4 202.0 L 92.7 203.5 L 93.7 205.2 L 94.7 206.9 L 95.6 208.6 L 96.3 210.4 L 96.9 212.3 L 97.4 214.2 L 97.7 216.1 L 97.9 218.0 L 98.0 220.0\" fill=\"none\" stroke=\"#B63D38\" stroke-width=\"1.8\" /><text x=\"111.1\" y=\"205.7\" text-anchor=\"middle\" font-size=\"12\" fill=\"#8F302D\">48°</text></svg></span><p>Bestäm sidan \\(x\\) med en lämplig triangelsats.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cosinussatsen ger</p><p>\\[x^2=5{,}2^2+7{,}4^2-2\\cdot5{,}2\\cdot7{,}4\\cos 48^\\circ.\\]</p><p>\\[x\\approx 5{,}5\\text{ cm}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(5{,}5\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två sidor och mellanliggande vinkel: cosinussatsen</p><div class=\"facit-matte\">\\[x^2=5{,}2^2+7{,}4^2-2\\cdot5{,}2\\cdot7{,}4\\cos48^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Beräkna med räknare</p><div class=\"facit-matte\">\\[x^2\\approx81{,}80-51{,}50=30{,}30\\quad\\Rightarrow\\quad x\\approx5{,}5\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,5 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -65928,7 +66108,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med markerade mått\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#e4e3e6\" /><polygon points=\"70.0,220.0 293.4,220.0 118.7,70.0\" fill=\"#f8f4e9\" stroke=\"#745637\" stroke-width=\"2\" /><text x=\"55.0\" y=\"238.0\" font-size=\"13\">A</text><text x=\"300.4\" y=\"238.0\" font-size=\"13\">B</text><text x=\"118.7\" y=\"60.0\" font-size=\"13\">C</text><text x=\"220.1\" y=\"137.3\" text-anchor=\"middle\" font-size=\"13\">x</text><text x=\"79.4\" y=\"139.4\" text-anchor=\"middle\" font-size=\"13\">6 cm</text><text x=\"187.9\" y=\"234.8\" text-anchor=\"middle\" font-size=\"13\">8,5 cm</text><path d=\"M 78.7 193.4 L 81.4 194.4 L 84.0 195.8 L 86.5 197.3 L 88.7 199.2 L 90.8 201.3 L 92.7 203.5 L 94.2 206.0 L 95.6 208.6 L 96.6 211.3 L 97.4 214.2 L 97.8 217.1 L 98.0 220.0\" fill=\"none\" stroke=\"#B63D38\" stroke-width=\"1.8\" /><text x=\"106.4\" y=\"197.5\" text-anchor=\"middle\" font-size=\"12\" fill=\"#8F302D\">72°</text></svg></span><p>Beräkna den okända sidan \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cosinussatsen ger</p><p>\\[x^2=6^2+8{,}5^2-2\\cdot6\\cdot8{,}5\\cos 72^\\circ.\\]</p><p>\\[x\\approx 8{,}76\\text{ cm}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(8{,}76\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två sidor och mellanliggande vinkel: cosinussatsen</p><div class=\"facit-matte\">\\[x^2=6^2+8{,}5^2-2\\cdot6\\cdot8{,}5\\cos72^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Beräkna med räknare</p><div class=\"facit-matte\">\\[x^2\\approx108{,}25-31{,}52=76{,}73\\quad\\Rightarrow\\quad x\\approx8{,}76\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,76 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -65958,7 +66138,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med markerade mått\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#e4e3e6\" /><polygon points=\"70.0,220.0 320.0,220.0 178.0,144.4\" fill=\"#f8f4e9\" stroke=\"#745637\" stroke-width=\"2\" /><text x=\"55.0\" y=\"238.0\" font-size=\"13\">A</text><text x=\"327.0\" y=\"238.0\" font-size=\"13\">B</text><text x=\"178.0\" y=\"134.4\" font-size=\"13\">C</text><text x=\"264.7\" y=\"178.9\" text-anchor=\"middle\" font-size=\"13\">x</text><text x=\"108.3\" y=\"179.2\" text-anchor=\"middle\" font-size=\"13\">4,8 cm</text><text x=\"198.5\" y=\"235.6\" text-anchor=\"middle\" font-size=\"13\">9,1 cm</text><path d=\"M 92.9 203.9 L 93.7 205.1 L 94.4 206.4 L 95.1 207.6 L 95.7 208.9 L 96.2 210.2 L 96.7 211.6 L 97.1 212.9 L 97.4 214.3 L 97.7 215.7 L 97.9 217.2 L 98.0 218.6 L 98.0 220.0\" fill=\"none\" stroke=\"#B63D38\" stroke-width=\"1.8\" /><text x=\"112.9\" y=\"210.5\" text-anchor=\"middle\" font-size=\"12\" fill=\"#8F302D\">35°</text></svg></span><p>Två sidor och en vinkel är givna. Bestäm sidan \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cosinussatsen ger</p><p>\\[x^2=4{,}8^2+9{,}1^2-2\\cdot4{,}8\\cdot9{,}1\\cos 35^\\circ.\\]</p><p>\\[x\\approx 5{,}86\\text{ cm}.\\]</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: \\(5{,}86\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två sidor och mellanliggande vinkel: cosinussatsen</p><div class=\"facit-matte\">\\[x^2=4{,}8^2+9{,}1^2-2\\cdot4{,}8\\cdot9{,}1\\cos35^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Beräkna med räknare</p><div class=\"facit-matte\">\\[x^2\\approx105{,}85-71{,}56=34{,}29\\quad\\Rightarrow\\quad x\\approx5{,}86\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,86 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -65988,7 +66168,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Triangel med givna sidor och korrekt placerade vinklar\"><g font-family=\"Arial,sans-serif\"><polygon points=\"75,245 385,245 230,136.468\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"55.523\" y=\"249.546\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">A</text><text x=\"404.477\" y=\"249.546\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">B</text><text x=\"230\" y=\"116.468\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">C</text><text x=\"326.772\" y=\"163.21\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">7,2 cm</text><text x=\"133.228\" y=\"163.21\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">7,2 cm</text><text x=\"230\" y=\"271\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">x</text><polyline points=\"205.425,153.675 207.188,155.951 209.16,158.048 211.325,159.946 213.661,161.628 216.148,163.078 218.762,164.283 221.48,165.232 224.276,165.917 227.125,166.33 230,166.468 232.875,166.33 235.724,165.917 238.52,165.232 241.238,164.283 243.852,163.078 246.339,161.628 248.675,159.946 250.84,158.048 252.812,155.951 254.575,153.675\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"230\" y=\"184.468\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"currentColor\">110°</text></g></svg></span><p>Bestäm längden \\(x\\) i triangeln. Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cosinussatsen ger</p><p>\\[\\begin{aligned}x^2&=7{,}2^2+7{,}2^2\\\\&\\quad-2\\cdot7{,}2\\cdot7{,}2\\cos110^\\circ.\\end{aligned}\\]</p><p>\\[x\\approx 11{,}8\\text{ cm}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(11{,}8\\) cm</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 110°</p><div class=\"facit-matte\">\\[x^2=7{,}2^2+7{,}2^2-2\\cdot7{,}2\\cdot7{,}2\\cos110^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos110^\\circ\\lt0\\): sista termen blir positiv</p><div class=\"facit-matte\">\\[x^2\\approx103{,}68+35{,}46=139{,}14\\quad\\Rightarrow\\quad x\\approx11{,}8\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11,8 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -66019,7 +66199,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med markerade mått\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#e4e3e6\" /><polygon points=\"70.0,220.0 320.0,220.0 148.1,84.7\" fill=\"#f8f4e9\" stroke=\"#745637\" stroke-width=\"2\" /><text x=\"55.0\" y=\"238.0\" font-size=\"13\">A</text><text x=\"327.0\" y=\"238.0\" font-size=\"13\">B</text><text x=\"148.1\" y=\"74.7\" font-size=\"13\">C</text><text x=\"248.9\" y=\"146.2\" text-anchor=\"middle\" font-size=\"13\">7 cm</text><text x=\"93.8\" y=\"147.5\" text-anchor=\"middle\" font-size=\"13\">5 cm</text><text x=\"200.2\" y=\"235.1\" text-anchor=\"middle\" font-size=\"13\">8 cm</text><path d=\"M 84.0 195.8 L 86.1 197.1 L 88.0 198.6 L 89.8 200.2 L 91.4 202.0 L 92.9 203.9 L 94.2 206.0 L 95.4 208.2 L 96.3 210.4 L 97.0 212.8 L 97.6 215.1 L 97.9 217.6 L 98.0 220.0\" fill=\"none\" stroke=\"#B63D38\" stroke-width=\"1.8\" /><text x=\"109.0\" y=\"201.5\" text-anchor=\"middle\" font-size=\"12\" fill=\"#8F302D\">v</text></svg></span><p>Bestäm vinkeln \\(v\\) och ange vilken triangelsats som passar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cosinussatsen ger</p><p>\\[7^2=5^2+8^2-2\\cdot5\\cdot8\\cos v.\\]</p><p>\\[\\cos v=\\frac{5^2+8^2-7^2}{2\\cdot5\\cdot8}.\\]</p><p>\\[v\\approx 60^\\circ.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(60\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alla tre sidor kända: cosinussatsen för vinkeln mot 7 cm</p><div class=\"facit-matte\">\\[7^2=5^2+8^2-2\\cdot5\\cdot8\\cos v\\]</div></li><li><p class=\"facit-rubrik\">Cosinussatsen löst för vinkeln: \\(\\cos C=\\dfrac{a^2+b^2-c^2}{2ab}\\)</p><div class=\"facit-matte\">\\[\\cos v=\\frac{25+64-49}{80}=\\frac12\\quad\\Rightarrow\\quad v=60^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(60^\\circ\\)</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -66049,7 +66229,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Triangel med markerade mått\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#e4e3e6\" /><polygon points=\"70.0,220.0 245.9,220.0 97.4,70.0\" fill=\"#f8f4e9\" stroke=\"#745637\" stroke-width=\"2\" /><text x=\"55.0\" y=\"238.0\" font-size=\"13\">A</text><text x=\"252.9\" y=\"238.0\" font-size=\"13\">B</text><text x=\"97.4\" y=\"60.0\" font-size=\"13\">C</text><text x=\"184.5\" y=\"135.5\" text-anchor=\"middle\" font-size=\"13\">9 cm</text><text x=\"69.2\" y=\"138.3\" text-anchor=\"middle\" font-size=\"13\">6,5 cm</text><text x=\"164.0\" y=\"234.8\" text-anchor=\"middle\" font-size=\"13\">7,5 cm</text><path d=\"M 75.0 192.5 L 78.2 193.2 L 81.2 194.3 L 84.1 195.8 L 86.8 197.6 L 89.3 199.7 L 91.5 202.1 L 93.4 204.7 L 95.0 207.5 L 96.3 210.5 L 97.3 213.6 L 97.8 216.8 L 98.0 220.0\" fill=\"none\" stroke=\"#B63D38\" stroke-width=\"1.8\" /><text x=\"104.6\" y=\"195.2\" text-anchor=\"middle\" font-size=\"12\" fill=\"#8F302D\">v</text></svg></span><p>Beräkna den markerade vinkeln \\(v\\). Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cosinussatsen ger</p><p>\\[9^2=6{,}5^2+7{,}5^2-2\\cdot6{,}5\\cdot7{,}5\\cos v.\\]</p><p>\\[\\cos v=\\frac{6{,}5^2+7{,}5^2-9^2}{2\\cdot6{,}5\\cdot7{,}5}.\\]</p><p>\\[v\\approx 79{,}7^\\circ.\\]</p></li></ol></div><p class=\"facit-svar\"><strong>Svar: \\(79{,}7\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln v ligger mittemot sidan 9 cm</p><div class=\"facit-matte\">\\[9^2=6{,}5^2+7{,}5^2-2\\cdot6{,}5\\cdot7{,}5\\cos v\\]</div></li><li><p class=\"facit-rubrik\">Cosinussatsen löst för vinkeln: \\(\\cos C=\\dfrac{a^2+b^2-c^2}{2ab}\\)</p><div class=\"facit-matte\">\\[\\cos v=\\frac{42{,}25+56{,}25-81}{97{,}5}\\approx0{,}179\\]</div><div class=\"facit-matte\">\\[\\Rightarrow v\\approx79{,}7^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(79{,}7^\\circ\\)</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -66205,7 +66385,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm summan</p><p>\\[3+6+12+24+48.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Detta är en geometrisk summa med</p><div class=\"facit-matte\">\\[a=3\\],</div></div></li><li><p>\\(k=2\\) och \\(n=5\\).</p><p>\\[S_5=3\\frac{2^5-1}{2-1}=3\\cdot31=93.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{93}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten = en term delad med termen före</p><div class=\"facit-matte\">\\[k=\\frac63=2\\]</div><p>Summan har fem termer och första termen 3.</p></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\)</p><div class=\"facit-matte\">\\[S_5=3\\cdot\\frac{2^5-1}{2-1}=3\\cdot31=93\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(93\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": false,
@@ -66235,7 +66415,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I den geometriska summan</p><p>\\[5+15+45+135+\\ldots\\]</p><p>ange första termen \\(a\\) och kvoten \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Första termen är</p><div class=\"facit-matte\">\\[a=5\\].</div></div></li><li><div class=\"facit-berakning\"><p>Varje term fås genom att multiplicera föregående term med 3, alltså är</p><div class=\"facit-matte\">\\[k=3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(a=5\\), \\(k=3\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Första termen läses av direkt</p><div class=\"facit-matte\">\\[a=5\\]</div></li><li><p class=\"facit-rubrik\">Kvoten = en term delad med termen före</p><div class=\"facit-matte\">\\[k=\\frac{15}{5}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\), \\(k=3\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": true,
@@ -66271,7 +66451,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar de fyra första stegen i ett mönster.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"205\" viewBox=\"0 0 400 205\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Mönster med antal rutor som förändras geometriskt\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"203\" rx=\"10\" fill=\"#fff\" stroke=\"#e4e3e6\" /><rect x=\"32\" y=\"55\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><text x=\"60\" y=\"35\" text-anchor=\"middle\" font-size=\"12\">Steg 1</text><text x=\"60\" y=\"180\" text-anchor=\"middle\" font-size=\"12\">1 ruta</text><rect x=\"122\" y=\"55\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><rect x=\"136\" y=\"55\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><text x=\"150\" y=\"35\" text-anchor=\"middle\" font-size=\"12\">Steg 2</text><text x=\"150\" y=\"180\" text-anchor=\"middle\" font-size=\"12\">2 rutor</text><rect x=\"212\" y=\"55\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><rect x=\"226\" y=\"55\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><rect x=\"240\" y=\"55\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><rect x=\"254\" y=\"55\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><text x=\"240\" y=\"35\" text-anchor=\"middle\" font-size=\"12\">Steg 3</text><text x=\"240\" y=\"180\" text-anchor=\"middle\" font-size=\"12\">4 rutor</text><rect x=\"302\" y=\"55\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><rect x=\"316\" y=\"55\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><rect x=\"330\" y=\"55\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><rect x=\"344\" y=\"55\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><rect x=\"358\" y=\"55\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><rect x=\"372\" y=\"55\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><rect x=\"302\" y=\"69\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><rect x=\"316\" y=\"69\" width=\"12\" height=\"12\" fill=\"#e8f0fb\" stroke=\"#2D70B3\" /><text x=\"330\" y=\"35\" text-anchor=\"middle\" font-size=\"12\">Steg 4</text><text x=\"330\" y=\"180\" text-anchor=\"middle\" font-size=\"12\">8 rutor</text></svg></span><p>a) Ange kvoten mellan antalet rutor i två på varandra följande steg.<br>b) Hur många rutor finns i steg 6?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Antalet rutor fördubblas, så kvoten är</p><div class=\"facit-matte\">\\[k=2\\].</div></div></li><li><p>Steg 6 har \\(1\\cdot2^5=32\\) rutor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(2\\), b) \\(32\\) rutor.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor fördubblas från steg till steg</p><div class=\"facit-matte\">\\[k=\\frac21=\\frac42=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Termformeln: \\(a_n=a\\cdot k^{n-1}\\) med \\(a=1\\), \\(k=2\\), \\(n=6\\)</p><div class=\"facit-matte\">\\[a_6=1\\cdot2^5=32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(32\\) rutor</p></div></div>",
     "familj": "Geometriska talföljder",
     "geogebra": false,
     "miniräknare": true,
@@ -66299,7 +66479,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Figuren visar de fyra första stegen i ett mönster.</p><span class=\"fig\"><svg aria-label=\"Mönster med antal rutor som förändras geometriskt\" height=\"205\" role=\"img\" style=\"max-width:100%;height:auto\" viewbox=\"0 0 400 205\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"203\" rx=\"10\" stroke=\"#e4e3e6\" width=\"398\" x=\"1\" y=\"1\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"32\" y=\"55\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"60\" y=\"35\">Steg 1</text><text font-size=\"12\" text-anchor=\"middle\" x=\"60\" y=\"180\">1 ruta</text><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"122\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"136\" y=\"55\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"150\" y=\"35\">Steg 2</text><text font-size=\"12\" text-anchor=\"middle\" x=\"150\" y=\"180\">2 rutor</text><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"212\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"226\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"240\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"254\" y=\"55\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"240\" y=\"35\">Steg 3</text><text font-size=\"12\" text-anchor=\"middle\" x=\"240\" y=\"180\">4 rutor</text><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"302\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"316\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"330\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"344\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"358\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"372\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"302\" y=\"69\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"316\" y=\"69\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"330\" y=\"35\">Steg 4</text><text font-size=\"12\" text-anchor=\"middle\" x=\"330\" y=\"180\">8 rutor</text></svg></span><p><div class=\"spel-en-del\">Ange kvoten mellan antalet rutor i två på varandra följande steg.</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Antalet rutor fördubblas, så kvoten är</p><div class=\"facit-matte\">\\[k=2\\].</div></div></li><li><p>Steg 6 har \\(1\\cdot2^5=32\\) rutor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(2\\),</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor fördubblas från steg till steg</p><div class=\"facit-matte\">\\[k=\\frac21=\\frac42=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div>",
         "ledtrad": "<p>Beräkna kvoten mellan två följande termer. Om samma kvot återkommer är följden geometrisk; använd den för att skriva nästa term eller den allmänna termen.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -66307,7 +66487,7 @@ window.BANKMATO1 = [
       {
         "etikett": "b",
         "t": "<p>Figuren visar de fyra första stegen i ett mönster.</p><span class=\"fig\"><svg aria-label=\"Mönster med antal rutor som förändras geometriskt\" height=\"205\" role=\"img\" style=\"max-width:100%;height:auto\" viewbox=\"0 0 400 205\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"203\" rx=\"10\" stroke=\"#e4e3e6\" width=\"398\" x=\"1\" y=\"1\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"32\" y=\"55\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"60\" y=\"35\">Steg 1</text><text font-size=\"12\" text-anchor=\"middle\" x=\"60\" y=\"180\">1 ruta</text><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"122\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"136\" y=\"55\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"150\" y=\"35\">Steg 2</text><text font-size=\"12\" text-anchor=\"middle\" x=\"150\" y=\"180\">2 rutor</text><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"212\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"226\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"240\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"254\" y=\"55\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"240\" y=\"35\">Steg 3</text><text font-size=\"12\" text-anchor=\"middle\" x=\"240\" y=\"180\">4 rutor</text><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"302\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"316\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"330\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"344\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"358\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"372\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"302\" y=\"69\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"316\" y=\"69\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"330\" y=\"35\">Steg 4</text><text font-size=\"12\" text-anchor=\"middle\" x=\"330\" y=\"180\">8 rutor</text></svg></span><p><div class=\"spel-en-del\">Hur många rutor finns i steg 6?</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Antalet rutor fördubblas, så kvoten är</p><div class=\"facit-matte\">\\[k=2\\].</div></div></li><li><p>Steg 6 har \\(1\\cdot2^5=32\\) rutor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(32\\) rutor.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Termformeln: \\(a_n=a\\cdot k^{n-1}\\) med \\(a=1\\), \\(k=2\\), \\(n=6\\)</p><div class=\"facit-matte\">\\[a_6=1\\cdot2^5=32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(32\\) rutor</p></div>",
         "ledtrad": "<p>Beräkna kvoten mellan två följande termer. Om samma kvot återkommer är följden geometrisk; använd den för att skriva nästa term eller den allmänna termen.</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -66322,35 +66502,35 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "4.297",
-  "kap": 4,
-  "omr": "geometriska_summor",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>En geometrisk summa har första termen \\(a=4\\), kvoten \\(k=2\\) och \\(n=6\\) termer. Bestäm summan.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[S_6=4\\frac{2^6-1}{2-1}=4(64-1)=252.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{252}\\).</p></div>",
-  "familj": "Beräkna geometriska summor",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 252,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Sätt \\(a=4\\), \\(k=2\\) och \\(n=6\\) i summaformeln.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "familjTidigare": [
-    "Beräkna och analysera geometriska summor"
-  ]
-},
+    "id": "4.297",
+    "kap": 4,
+    "omr": "geometriska_summor",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En geometrisk summa har första termen \\(a=4\\), kvoten \\(k=2\\) och \\(n=6\\) termer. Bestäm summan.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) med \\(a=4\\), \\(k=2\\), \\(n=6\\)</p><div class=\"facit-matte\">\\[S_6=4\\cdot\\frac{2^6-1}{2-1}=4\\cdot63=252\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(252\\)</p></div>",
+    "familj": "Beräkna geometriska summor",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 252,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt \\(a=4\\), \\(k=2\\) och \\(n=6\\) i summaformeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "familjTidigare": [
+      "Beräkna och analysera geometriska summor"
+    ]
+  },
   {
     "id": "4.298",
     "kap": 4,
@@ -66361,7 +66541,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Första termen i en geometrisk talföljd är 80 och kvoten är \\(0{,}5\\). Bestäm den femte termen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den femte termen är</p><p>\\[80\\cdot0{,}5^4=80\\cdot\\frac1{16}=5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{5}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Termformeln: \\(a_n=a\\cdot k^{n-1}\\) med \\(a=80\\), \\(k=0{,}5\\), \\(n=5\\)</p><div class=\"facit-matte\">\\[a_5=80\\cdot0{,}5^4=80\\cdot\\frac1{16}=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\)</p></div>",
     "familj": "Geometriska talföljder",
     "geogebra": false,
     "miniräknare": true,
@@ -66391,7 +66571,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En boll når efter första studsen 120 cm, efter andra 60 cm och efter tredje 30 cm. Anta att höjderna fortsätter på samma sätt.</p><p>a) Vilken är kvoten?<br>b) Hur högt når bollen efter den femte studsen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Höjden halveras för varje studs, alltså är</p><div class=\"facit-matte\">\\[k=0,5\\].</div></div></li><li><p>Femte studsen ger</p><p>\\[120\\cdot0{,}5^4=7,5\\text{ cm}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(0{,}5\\), b) \\(7{,}5\\) cm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Kvoten = en term delad med termen före</p><div class=\"facit-matte\">\\[k=\\frac{60}{120}=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">b) Termformeln: \\(a_n=a\\cdot k^{n-1}\\): femte studsen är fyra steg efter den första</p><div class=\"facit-matte\">\\[a_5=120\\cdot0{,}5^4=7{,}5\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(0{,}5\\), b) \\(7{,}5\\) cm</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -66433,7 +66613,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med hörnpunkter\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"116.4\" y1=\"18\" x2=\"116.4\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"184.9\" y1=\"18\" x2=\"184.9\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"253.3\" y1=\"18\" x2=\"253.3\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"321.8\" y1=\"18\" x2=\"321.8\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"165.1\" x2=\"356\" y2=\"165.1\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"106.3\" x2=\"356\" y2=\"106.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"47.4\" x2=\"356\" y2=\"47.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,47.4 184.9,106.3 321.8,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"47.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"41.4\" font-size=\"10\" fill=\"currentColor\">(0,6)</text><circle cx=\"184.9\" cy=\"106.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"190.9\" y=\"100.3\" font-size=\"10\" fill=\"currentColor\">(4,4)</text><circle cx=\"321.8\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"327.8\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(8,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Ett tillåtet område har hörnpunkterna \\((0,0)\\), \\((0,6)\\), \\((4,4)\\), \\((8,0)\\). Målfunktionen är \\(Z=3x+2y\\). Bestäm det största värdet av \\(Z\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beräkna målfunktionen i hörnpunkterna:</p><p>\\[Z(0,0)=0,\\quad Z(0,6)=12,\\quad Z(4,4)=20,\\quad Z(8,0)=24.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det största värdet är \\(24\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=3x+2y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\quad Z(0,6)=12\\]</div><div class=\"facit-matte\">\\[Z(4,4)=20,\\quad Z(8,0)=24\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((8,0)\\)</p><div class=\"facit-matte\">\\[Z_{\\max}=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -66464,7 +66644,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med hörnpunkter\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"155.3\" x2=\"356\" y2=\"155.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"86.7\" x2=\"356\" y2=\"86.7\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"18.0\" x2=\"356\" y2=\"18.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,52.3 163.5,52.3 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"52.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"46.3\" font-size=\"10\" fill=\"currentColor\">(0,5)</text><circle cx=\"163.5\" cy=\"52.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"169.5\" y=\"46.3\" font-size=\"10\" fill=\"currentColor\">(3,5)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Det tillåtna området har hörnpunkterna \\((0,0)\\), \\((0,5)\\), \\((3,5)\\) och \\((7,0)\\). Målfunktionen är \\(Z=4x+y\\).</p><p>Bestäm koordinaterna för den hörnpunkt där \\(Z\\) blir störst.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Jämför målfunktionen i hörnpunkterna:</p><p>\\[Z(0,0)=0,\\quad Z(0,5)=5,\\quad Z(3,5)=17,\\quad Z(7,0)=28.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Maximum fås i \\((7,0)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=4x+y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\quad Z(0,5)=5\\]</div><div class=\"facit-matte\">\\[Z(3,5)=17,\\quad Z(7,0)=28\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((7,0)\\)</p><p>Värdet där är 28.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((7,0)\\)</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -66509,7 +66689,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med hörnpunkter\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"165.1\" x2=\"356\" y2=\"165.1\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"106.3\" x2=\"356\" y2=\"106.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"47.4\" x2=\"356\" y2=\"47.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,106.3 125.0,47.4 279.0,165.1 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"106.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"100.3\" font-size=\"10\" fill=\"currentColor\">(0,4)</text><circle cx=\"125.0\" cy=\"47.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"131.0\" y=\"41.4\" font-size=\"10\" fill=\"currentColor\">(2,6)</text><circle cx=\"279.0\" cy=\"165.1\" r=\"3.5\" fill=\"currentColor\"/><text x=\"285.0\" y=\"159.1\" font-size=\"10\" fill=\"currentColor\">(6,2)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>För två av hörnpunkterna i det tillåtna området gäller \\((2,6)\\) och \\((6,2)\\). Målfunktionen är \\(Z=2x+5y\\).</p><p>Hur mycket större är värdet av \\(Z\\) i \\((2,6)\\) än i \\((6,2)\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[Z(2,6)=2\\cdot2+5\\cdot6=34\\]</p></li><li><p>och</p><p>\\[Z(6,2)=2\\cdot6+5\\cdot2=22.\\]</p></li><li><div class=\"facit-berakning\"><p>Skillnaden är</p><div class=\"facit-matte\">\\[34-22=12\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Z i båda punkterna</p><div class=\"facit-matte\">\\[Z(2,6)=4+30=34,\\qquad Z(6,2)=12+10=22\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden mellan värdena</p><div class=\"facit-matte\">\\[34-22=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
     "familj": "Fördjupad linjär optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -66539,7 +66719,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med hörnpunkter\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"178.2\" x2=\"356\" y2=\"178.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"132.4\" x2=\"356\" y2=\"132.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"86.7\" x2=\"356\" y2=\"86.7\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"40.9\" x2=\"356\" y2=\"40.9\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,40.9 240.5,155.3 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"40.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"34.9\" font-size=\"10\" fill=\"currentColor\">(0,8)</text><circle cx=\"240.5\" cy=\"155.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"246.5\" y=\"149.3\" font-size=\"10\" fill=\"currentColor\">(5,3)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Målfunktionen är \\(Z=2x+5y\\). Hörnpunkten \\((0,8)\\) ger värdet \\(Z=40\\).</p><p>Vilken ekvation beskriver den nivålinje för \\(Z\\) som går genom \\((0,8)\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En nivålinje fås genom att sätta målfunktionen lika med ett bestämt värde.</p></li><li><p>Här är värdet 40, alltså</p><p>\\[2x+5y=40.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x+5y=40\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En nivålinje: alla punkter med samma Z</p><p>Här ska värdet vara 40.</p></li><li><p class=\"facit-rubrik\">Sätt målfunktionen lika med 40</p><div class=\"facit-matte\">\\[2x+5y=40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x+5y=40\\)</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -66557,7 +66737,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Tolka nivålinjer i linjär optimering"
     ],
-    "alternativ": [{"txt": "\\(2x+5y=8\\)", "ratt": false}, {"txt": "\\(2x-5y=40\\)", "ratt": false}, {"txt": "\\(5x+2y=40\\)", "ratt": false}, {"txt": "\\(2x+5y=40\\)", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "\\(2x+5y=8\\)",
+        "ratt": false,
+        "kommentar": "Det är y-koordinaten 8, inte värdet 40, som har skrivits i högerledet."
+      },
+      {
+        "txt": "\\(2x-5y=40\\)",
+        "ratt": false,
+        "kommentar": "Tecknet framför 5y ska vara plus, som i målfunktionen."
+      },
+      {
+        "txt": "\\(5x+2y=40\\)",
+        "ratt": false,
+        "kommentar": "Koefficienterna har bytt plats."
+      },
+      {
+        "txt": "\\(2x+5y=40\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "4.304",
@@ -66569,7 +66769,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"182.8\" x2=\"356\" y2=\"182.8\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"141.6\" x2=\"356\" y2=\"141.6\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"100.4\" x2=\"356\" y2=\"100.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"59.2\" x2=\"356\" y2=\"59.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"18.0\" x2=\"356\" y2=\"18.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,38.6 240.5,141.6 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"38.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"32.6\" font-size=\"10\" fill=\"currentColor\">(0,9)</text><circle cx=\"240.5\" cy=\"141.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"246.5\" y=\"135.6\" font-size=\"10\" fill=\"currentColor\">(5,4)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Det tillåtna området bestäms av</p><p>\\[x\\ge0,\\qquad y\\ge0,\\qquad x+y\\le9,\\qquad 2x+y\\le14.\\]</p><p>Målfunktionen är \\(Z=5x+3y\\). Bestäm den hörnpunkt där \\(Z\\) blir störst och ange det största värdet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skärningen mellan \\(x+y=9\\) och \\(2x+y=14\\) är \\((5,4)\\).</p></li><li><p>Hörnpunkterna är \\((0,0)\\),</p><p>\\((0,9)\\),</p></li><li><p>\\((5,4)\\) och \\((7,0)\\).</p><p>\\[Z=0,\\ 27,\\ 37,\\ 35.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Maximum är \\(37\\) och fås i \\((5,4)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärningen mellan randlinjerna</p><div class=\"facit-matte\">\\[x+y=9,\\quad 2x+y=14\\quad\\Rightarrow\\quad x=5,\\ y=4\\]</div></li><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=5x+3y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\quad Z(0,9)=27\\]</div><div class=\"facit-matte\">\\[Z(5,4)=37,\\quad Z(7,0)=35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> maximum 37 i \\((5,4)\\)</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -66618,7 +66818,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Möjliga produktionskombinationer\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"136.0\" y1=\"18\" x2=\"136.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"224.0\" y1=\"18\" x2=\"224.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"312.0\" y1=\"18\" x2=\"312.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"165.1\" x2=\"356\" y2=\"165.1\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"106.3\" x2=\"356\" y2=\"106.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"47.4\" x2=\"356\" y2=\"47.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,47.4 224.0,106.3 312.0,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"47.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"41.4\" font-size=\"10\" fill=\"currentColor\">(0,6)</text><circle cx=\"224.0\" cy=\"106.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"230.0\" y=\"100.3\" font-size=\"10\" fill=\"currentColor\">(4,4)</text><circle cx=\"312.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"318.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(6,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>En verkstad tillverkar två produkter, A och B. Om \\(x\\) är antalet A och \\(y\\) antalet B gäller</p><p>\\[x+2y\\le12,\\qquad 2x+y\\le12,\\qquad x\\ge0,\\quad y\\ge0.\\]</p><p>Vinsten är 300 kr per A och 400 kr per B. Bestäm hur många av varje produkt som ska tillverkas för att vinsten ska bli så stor som möjligt, och ange den maximala vinsten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Vinstfunktionen är</p><div class=\"facit-matte\">\\[V=300x+400y\\].</div></div></li><li><p>Hörnpunkterna är \\((0,0)\\),</p><p>\\((0,6)\\),</p></li><li><p>\\((4,4)\\) och \\((6,0)\\).</p></li><li><p>Vinsterna blir 0 kr, 2400 kr, 2800 kr och 1800 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 av A och 4 av B ger maximal vinst, 2800 kr.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinst per styck gånger antal</p><div class=\"facit-matte\">\\[V=300x+400y\\]</div></li><li><p class=\"facit-rubrik\">Vinsten i hörnen</p><div class=\"facit-matte\">\\[V(0,6)=2400,\\quad V(4,4)=2800,\\quad V(6,0)=1800\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 av A och 4 av B, maximal vinst 2800 kr</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -66667,7 +66867,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med ett markerat randsegment\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"136.0\" y1=\"18\" x2=\"136.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"224.0\" y1=\"18\" x2=\"224.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"312.0\" y1=\"18\" x2=\"312.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"141.6\" x2=\"356\" y2=\"141.6\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"59.2\" x2=\"356\" y2=\"59.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,59.2 224.0,141.6 312.0,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"59.2\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"53.2\" font-size=\"10\" fill=\"currentColor\">(0,4)</text><circle cx=\"224.0\" cy=\"141.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"230.0\" y=\"135.6\" font-size=\"10\" fill=\"currentColor\">(4,2)</text><circle cx=\"312.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"318.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(6,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>För det markerade tillåtna området används målfunktionen \\(Z=ax+2y\\).</p><p>Bestäm \\(a\\) så att <strong>alla</strong> punkter på randsegmentet mellan \\((0,4)\\) och \\((4,2)\\) ger samma värde på \\(Z\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Randsegmentets lutning är</p><p>\\[\\frac{2-4}{4-0}=-\\frac12.\\]</p></li><li><p>Nivålinjen \\(ax+2y=c\\) kan skrivas</p><p>\\[y=-\\frac a2x+\\frac c2,\\]</p></li><li><p>så dess lutning är \\(-a/2\\).</p></li><li><p>För att nivålinjen ska vara parallell med segmentet krävs</p><p>\\[-\\frac a2=-\\frac12,\\]</p></li><li><div class=\"facit-berakning\"><p>vilket ger</p><div class=\"facit-matte\">\\[a=1\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=1\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Randsegmentets lutning</p><div class=\"facit-matte\">\\[k=\\frac{2-4}{4-0}=-\\frac12\\]</div></li><li><p class=\"facit-rubrik\">Nivålinjen \\(ax+2y=c\\) har lutningen \\(-\\tfrac a2\\)</p><div class=\"facit-matte\">\\[-\\frac a2=-\\frac12\\quad\\Rightarrow\\quad a=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=1\\)</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -66698,7 +66898,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Del av tillåtet område för ett minimiproblem\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"104.0\" y1=\"18\" x2=\"104.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"160.0\" y1=\"18\" x2=\"160.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"216.0\" y1=\"18\" x2=\"216.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"272.0\" y1=\"18\" x2=\"272.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"328.0\" y1=\"18\" x2=\"328.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"178.2\" x2=\"356\" y2=\"178.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"132.4\" x2=\"356\" y2=\"132.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"86.7\" x2=\"356\" y2=\"86.7\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"40.9\" x2=\"356\" y2=\"40.9\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,40.9 104.0,132.4 216.0,224.0 328.0,224.0 328.0,40.9\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"40.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"34.9\" font-size=\"10\" fill=\"currentColor\">(0,8)</text><circle cx=\"104.0\" cy=\"132.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"110.0\" y=\"126.4\" font-size=\"10\" fill=\"currentColor\">(2,4)</text><circle cx=\"216.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"222.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(6,0)</text><circle cx=\"328.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"334.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(10,0)</text><circle cx=\"328.0\" cy=\"40.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"334.0\" y=\"34.9\" font-size=\"10\" fill=\"currentColor\">(10,8)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>En leverans ska innehålla \\(x\\) enheter av vara A och \\(y\\) enheter av vara B. Kraven är</p><p>\\[x+y\\ge6,\\qquad 2x+y\\ge8,\\qquad x\\ge0,\\quad y\\ge0.\\]</p><p>Kostnaden är \\(K=3x+4y\\). Bestäm den minsta möjliga kostnaden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För minimiproblemet behöver vi jämföra hörnpunkterna på den nedre randen: \\((0,8)\\),</p></li><li><p>\\((2,4)\\) och \\((6,0)\\).</p><p>\\[K(0,8)=32,\\quad K(2,4)=22,\\quad K(6,0)=18.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den minsta kostnaden är 18 och fås vid \\((6,0)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\ge\\)-villkor: jämför de nedre hörnen</p><p>Skärningen mellan \\(x+y=6\\) och \\(2x+y=8\\) är \\((2,4)\\).</p></li><li><p class=\"facit-rubrik\">Kostnaden \\(K=3x+4y\\)</p><div class=\"facit-matte\">\\[K(0,8)=32,\\quad K(2,4)=22,\\quad K(6,0)=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -66764,7 +66964,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Triangel med givna sidor och korrekt placerade vinklar\"><g font-family=\"Arial,sans-serif\"><polygon points=\"75,245 342.148,245 122.343,40\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"58.245\" y=\"255.922\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">A</text><text x=\"360.581\" y=\"252.76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">B</text><text x=\"114.588\" y=\"21.565\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">C</text><text x=\"257.618\" y=\"115.295\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">10,0 cm</text><text x=\"65.933\" y=\"134.939\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">7,0 cm</text><text x=\"208.574\" y=\"275\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">c = ?</text><polyline points=\"115.592,69.231 117.131,69.544 118.685,69.776 120.248,69.927 121.817,69.995 123.388,69.982 124.955,69.886 126.516,69.708 128.065,69.449 129.598,69.109 131.112,68.69 132.601,68.191 134.063,67.616 135.492,66.965 136.885,66.24 138.239,65.443 139.548,64.576 140.811,63.642 142.023,62.643 143.181,61.582 144.282,60.461\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"136.373\" y=\"85.904\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"currentColor\">60°</text></g></svg></span><p>Två sidor i en triangel är 7,0 cm och 10,0 cm och vinkeln mellan dem är 60°. Bestäm den tredje sidan. Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cosinussatsen ger</p><p>\\[\\begin{aligned}c^2&=7^2+10^2\\\\&\\quad-2\\cdot7\\cdot10\\cos60^\\circ\\\\&=79.\\end{aligned}\\]</p><p>\\[c=\\sqrt{79}\\approx8{,}89\\text{ cm}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 8,9 cm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 60°</p><div class=\"facit-matte\">\\[c^2=7^2+10^2-2\\cdot7\\cdot10\\cos60^\\circ=149-70=79\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos60^\\circ=\\tfrac12\\) ger ett exakt värde</p><div class=\"facit-matte\">\\[c=\\sqrt{79}\\approx8{,}9\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 8,9 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -66863,7 +67063,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Triangel med givna sidor och korrekt placerade vinklar\"><g font-family=\"Arial,sans-serif\"><polygon points=\"75,245 385,245 288.125,77.208\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"55.956\" y=\"251.108\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">A</text><text x=\"403.489\" y=\"252.625\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">B</text><text x=\"294.672\" y=\"58.309\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">C</text><text x=\"365.661\" y=\"144.304\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">5,0 cm</text><text x=\"160.778\" y=\"134.704\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">7,0 cm</text><text x=\"230\" y=\"278.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">8,0 cm</text><polyline points=\"264.554,95.765 265.937,97.399 267.433,98.93 269.035,100.35 270.734,101.652 272.521,102.83 274.388,103.878 276.325,104.79 278.322,105.561 280.369,106.188 282.456,106.667 284.571,106.996 286.704,107.174 288.845,107.199 290.982,107.071 293.104,106.792 295.201,106.361 297.262,105.782 299.276,105.058 301.234,104.192 303.125,103.188\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"279.054\" y=\"124.343\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"currentColor\">v</text></g></svg></span><p>En triangel har sidlängderna 5,0 cm, 7,0 cm och 8,0 cm. Bestäm vinkeln mellan sidorna 5,0 cm och 7,0 cm. Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(v\\) ligger mot sidan 8,0 cm.</p></li><li><p>Med cosinussatsen:</p><p>\\[8^2=5^2+7^2-2\\cdot5\\cdot7\\cos v.\\]</p><p>\\[\\cos v=\\frac{25+49-64}{70}=\\frac17.\\]</p><p>\\[v\\approx81{,}8^\\circ.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 81,8°.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln v ligger mittemot sidan 8,0 cm</p><div class=\"facit-matte\">\\[8^2=5^2+7^2-2\\cdot5\\cdot7\\cos v\\]</div></li><li><p class=\"facit-rubrik\">Cosinussatsen löst för vinkeln: \\(\\cos C=\\dfrac{a^2+b^2-c^2}{2ab}\\)</p><div class=\"facit-matte\">\\[\\cos v=\\frac{25+49-64}{70}=\\frac17\\quad\\Rightarrow\\quad v\\approx81{,}8^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(81{,}8^\\circ\\)</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -66930,7 +67130,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Två vägar med vinkel\"><circle cx=\"75\" cy=\"205\" r=\"4\" fill=\"currentColor\"/><line x1=\"75\" y1=\"205\" x2=\"330\" y2=\"205\" stroke=\"currentColor\" stroke-width=\"5\" opacity=\".55\"/><line x1=\"75\" y1=\"205\" x2=\"170\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"5\" opacity=\".55\"/><circle cx=\"285\" cy=\"205\" r=\"7\" fill=\"currentColor\"/><circle cx=\"145\" cy=\"95\" r=\"7\" fill=\"currentColor\"/><text x=\"190\" y=\"226\" font-size=\"12\" fill=\"currentColor\">12 km</text><text x=\"92\" y=\"116\" font-size=\"12\" fill=\"currentColor\">9 km</text><path d=\"M118 205 A43 43 0 0 0 98 169\" fill=\"none\" stroke=\"currentColor\"/><text x=\"115\" y=\"180\" font-size=\"12\" fill=\"currentColor\">68°</text></svg></span><p>Två vägar lämnar en korsning med vinkeln 68° mellan sig. En bil kör 12 km på den ena vägen och en annan 9 km på den andra. Hur långt är det mellan bilarna?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet \\(d\\) mellan bilarna ligger mot vinkeln 68°.</p></li><li><p>Cosinussatsen ger</p><p>\\[d^2=12^2+9^2-2\\cdot12\\cdot9\\cos68^\\circ.\\]</p><p>\\[d\\approx12{,}0\\text{ km}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 12,0 km.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avståndet ligger mittemot vinkeln 68°: Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\)</p><div class=\"facit-matte\">\\[d^2=12^2+9^2-2\\cdot12\\cdot9\\cos68^\\circ\\approx144{,}1\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten</p><div class=\"facit-matte\">\\[d\\approx12{,}0\\ \\text{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 12,0 km</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": true,
@@ -66965,7 +67165,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Triangel med givna sidor och korrekt placerade vinklar\"><g font-family=\"Arial,sans-serif\"><polygon points=\"75,245 385,245 173.153,45.826\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"57.026\" y=\"253.771\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">A</text><text x=\"403.685\" y=\"252.132\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">B</text><text x=\"167.664\" y=\"26.594\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">C</text><text x=\"297.16\" y=\"126.179\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">55 m</text><text x=\"100.396\" y=\"133.743\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">42 m</text><polyline points=\"159.892,72.736 161.632,73.525 163.418,74.202 165.245,74.765 167.103,75.209 168.986,75.535 170.886,75.74 172.795,75.823 174.705,75.785 176.609,75.626 178.499,75.345 180.368,74.945 182.207,74.427 184.009,73.792 185.768,73.044 187.475,72.186 189.124,71.221 190.708,70.153 192.221,68.986 193.657,67.725 195.01,66.375\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"181.707\" y=\"93.057\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"currentColor\">73°</text></g></svg></span><p>Två sidor i en triangelformad tomt är 42 m och 55 m. Vinkeln mellan sidorna är 73°. Bestäm tomtens area. Avrunda till hela kvadratmeter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Areasatsen ger</p><p>\\[\\begin{aligned}A&=\\frac{42\\cdot55\\sin73^\\circ}{2}\\\\&\\approx1105\\,\\text{m}^2.\\end{aligned}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 1105 m².</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Areasatsen: \\(T=\\tfrac12ab\\sin C\\) med vinkeln 73°</p><div class=\"facit-matte\">\\[A=\\frac{42\\cdot55\\cdot\\sin73^\\circ}{2}\\approx1104{,}5\\ \\text{m}^2\\]</div></li><li><p class=\"facit-rubrik\">Avrunda till hela kvadratmeter</p><div class=\"facit-matte\">\\[A\\approx1105\\ \\text{m}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1104,5 m², avrundat 1105 m²</p></div>",
     "familj": "Areor i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -67034,7 +67234,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Triangel med givna sidor och korrekt placerade vinklar\"><g font-family=\"Arial,sans-serif\"><polygon points=\"75,245 385,245 297.817,58.035\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"56.128\" y=\"251.622\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">A</text><text x=\"403.095\" y=\"253.518\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">B</text><text x=\"304.636\" y=\"39.233\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">C</text><text x=\"381.648\" y=\"132.753\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">a = 12 cm</text><text x=\"167.125\" y=\"128.536\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">b = ?</text><polyline points=\"105,245 104.982,243.953 104.927,242.907 104.836,241.864 104.708,240.825 104.544,239.791 104.344,238.763 104.109,237.742 103.838,236.731 103.532,235.729 103.191,234.739 102.816,233.762 102.406,232.798 101.964,231.849 101.488,230.916 100.981,230 100.441,229.102 99.871,228.224 99.271,227.366 98.64,226.53 97.981,225.716\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"120.105\" y=\"228.583\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"currentColor\">40°</text><polyline points=\"372.321,217.811 370.8,218.573 369.325,219.421 367.9,220.351 366.53,221.36 365.22,222.445 363.973,223.602 362.793,224.829 361.686,226.12 360.653,227.473 359.698,228.881 358.825,230.341 358.036,231.849 357.334,233.399 356.721,234.986 356.199,236.605 355.769,238.251 355.433,239.92 355.193,241.604 355.048,243.299 355,245\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"344.517\" y=\"219.21\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"currentColor\">65°</text></g></svg></span><p>I en triangel är \\(A=40^\\circ\\), \\(B=65^\\circ\\) och sidan \\(a=12\\) cm. Bestäm sidan \\(b\\). Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen kopplar en sida till dess motstående vinkel:</p><p>\\[\\frac{b}{\\sin65^\\circ}=\\frac{12}{\\sin40^\\circ}.\\]</p><p>\\[b=12\\frac{\\sin65^\\circ}{\\sin40^\\circ}\\approx16{,}92\\text{ cm}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 16,9 cm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinussatsen: \\(\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}\\) med paret \\((a,A)\\)</p><div class=\"facit-matte\">\\[\\frac{b}{\\sin65^\\circ}=\\frac{12}{\\sin40^\\circ}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut b</p><div class=\"facit-matte\">\\[b=12\\cdot\\frac{\\sin65^\\circ}{\\sin40^\\circ}\\approx16{,}9\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 16,9 cm</p></div>",
     "familj": "Avstånd och triangulering",
     "geogebra": false,
     "miniräknare": true,
@@ -67068,7 +67268,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två sträckor är 5,0 km och 8,0 km och vinkeln mellan dem är 120°. Bestäm avståndet mellan deras ändpunkter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet mellan ändpunkterna är sidan mittemot vinkeln 120°.</p></li><li><p>Cosinussatsen ger</p><p>\\[c^2=5^2+8^2-2\\cdot5\\cdot8\\cos120^\\circ.\\]</p></li><li><p>Eftersom \\(\\cos120^\\circ=-1/2\\) fås</p><p>\\[c^2=129,\\qquad c=\\sqrt{129}\\approx11{,}36.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 11,4 km.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avståndet ligger mittemot 120°: Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\)</p><div class=\"facit-matte\">\\[c^2=5^2+8^2-2\\cdot5\\cdot8\\cos120^\\circ=25+64+40=129\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten</p><div class=\"facit-matte\">\\[c=\\sqrt{129}\\approx11{,}4\\ \\text{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 11,4 km</p></div>",
     "familj": "Avstånd och triangulering",
     "geogebra": false,
     "miniräknare": true,
@@ -67101,7 +67301,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Du känner två sidor och den mellanliggande vinkeln i en godtycklig triangel och söker den tredje sidan. Vilken metod är mest direkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cosinussatsen använder direkt två sidor och vinkeln mellan dem.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cosinussatsen.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två sidor och mellanliggande vinkel ger tredje sidan</p><p>Cosinussatsen använder precis dessa tre uppgifter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cosinussatsen</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": true,
@@ -67122,7 +67322,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Trigonometrisk problemlösning och metodval"
     ],
-    "alternativ": [{"txt": "Sinussatsen", "ratt": false}, {"txt": "Cosinussatsen", "ratt": true}, {"txt": "Areasatsen", "ratt": false}, {"txt": "Pythagoras sats", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Sinussatsen",
+        "ratt": false,
+        "kommentar": "Sinussatsen kräver en sida och dess motstående vinkel."
+      },
+      {
+        "txt": "Cosinussatsen",
+        "ratt": true
+      },
+      {
+        "txt": "Areasatsen",
+        "ratt": false,
+        "kommentar": "Areasatsen ger arean, inte sidan."
+      },
+      {
+        "txt": "Pythagoras sats",
+        "ratt": false,
+        "kommentar": "Pythagoras sats gäller bara rätvinkliga trianglar."
+      }
+    ]
   },
   {
     "id": "4.405",
@@ -67134,7 +67354,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Du känner en sida och dess motstående vinkel samt ytterligare en vinkel i en godtycklig triangel. Vilken metod är mest direkt för att bestämma en annan sida?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen kopplar samman varje sida med sinus för dess motstående vinkel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sinussatsen.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En sida med motstående vinkel finns</p><p>Sinussatsen kopplar varje sida till sinus för vinkeln mittemot.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sinussatsen</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": true,
@@ -67155,7 +67375,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Trigonometrisk problemlösning och metodval"
     ],
-    "alternativ": [{"txt": "Sinussatsen", "ratt": true}, {"txt": "Cosinussatsen", "ratt": false}, {"txt": "Areasatsen", "ratt": false}, {"txt": "Pythagoras sats", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Sinussatsen",
+        "ratt": true
+      },
+      {
+        "txt": "Cosinussatsen",
+        "ratt": false,
+        "kommentar": "Cosinussatsen behövs när inget komplett par av sida och motstående vinkel finns."
+      },
+      {
+        "txt": "Areasatsen",
+        "ratt": false,
+        "kommentar": "Areasatsen ger arean, inte en sida."
+      },
+      {
+        "txt": "Pythagoras sats",
+        "ratt": false,
+        "kommentar": "Pythagoras sats gäller bara rätvinkliga trianglar."
+      }
+    ]
   },
   {
     "id": "4.406",
@@ -67167,7 +67407,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel känner du den närliggande och den motstående kateten till en vinkel. Vilket trigonometriskt samband ger vinkeln direkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens är kvoten mellan motstående och närliggande katet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tangens.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens = motstående katet / närliggande katet</p><p>Båda kateterna är kända, så tangens ger vinkeln direkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tangens</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": true,
@@ -67188,7 +67428,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Trigonometrisk problemlösning och metodval"
     ],
-    "alternativ": [{"txt": "Sinus", "ratt": false}, {"txt": "Cosinus", "ratt": false}, {"txt": "Tangens", "ratt": true}, {"txt": "Pythagoras sats", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Sinus",
+        "ratt": false,
+        "kommentar": "Sinus behöver hypotenusan, som inte är given."
+      },
+      {
+        "txt": "Cosinus",
+        "ratt": false,
+        "kommentar": "Cosinus behöver hypotenusan, som inte är given."
+      },
+      {
+        "txt": "Tangens",
+        "ratt": true
+      },
+      {
+        "txt": "Pythagoras sats",
+        "ratt": false,
+        "kommentar": "Pythagoras sats ger en sida, inte en vinkel."
+      }
+    ]
   },
   {
     "id": "4.407",
@@ -67200,7 +67460,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"171.2\" y1=\"18\" x2=\"171.2\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"294.4\" y1=\"18\" x2=\"294.4\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"165.1\" x2=\"356\" y2=\"165.1\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"106.3\" x2=\"356\" y2=\"106.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"47.4\" x2=\"356\" y2=\"47.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,47.4 171.2,106.3 294.4,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"47.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"41.4\" font-size=\"10\" fill=\"currentColor\">(0,6)</text><circle cx=\"171.2\" cy=\"106.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"177.2\" y=\"100.3\" font-size=\"10\" fill=\"currentColor\">(2,4)</text><circle cx=\"294.4\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"300.4\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(4,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Ett tillåtet område har hörnen \\((0,0)\\), \\((0,6)\\), \\((2,4)\\) och \\((4,0)\\). Målfunktionen är \\(Z=3x+2y\\).</p><p>Bestäm hörnpunkten där \\(Z\\) blir störst och ange det största värdet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[Z(0,0)=0,\\quad Z(0,6)=12,\\quad Z(2,4)=14,\\quad Z(4,0)=12.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Maximum är 14 och fås i \\((2,4)\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=3x+2y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\quad Z(0,6)=12\\]</div><div class=\"facit-matte\">\\[Z(2,4)=14,\\quad Z(4,0)=12\\]</div></li><li><p class=\"facit-rubrik\">Störst i \\((2,4)\\)</p><div class=\"facit-matte\">\\[Z_{\\max}=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> maximum 14 i \\((2,4)\\)</p></div>",
     "familj": "Fördjupad linjär optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -67249,7 +67509,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med randsegment\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"150.7\" y1=\"18\" x2=\"150.7\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"253.3\" y1=\"18\" x2=\"253.3\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"141.6\" x2=\"356\" y2=\"141.6\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"59.2\" x2=\"356\" y2=\"59.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,59.2 202.0,141.6 304.7,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"59.2\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"53.2\" font-size=\"10\" fill=\"currentColor\">(0,4)</text><circle cx=\"202.0\" cy=\"141.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"208.0\" y=\"135.6\" font-size=\"10\" fill=\"currentColor\">(3,2)</text><circle cx=\"304.7\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"310.7\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(5,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Ett kantsegment i det tillåtna området går mellan \\((0,4)\\) och \\((3,2)\\). Målfunktionen är \\(Z=2x+3y\\). Anta att inget annat hörn ger större värde. Vilket största värde får \\(Z\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[Z(0,4)=12,\\qquad Z(3,2)=12.\\]</p></li><li><p>Eftersom \\(Z\\) är linjär och har samma värde i segmentets båda ändpunkter är \\(Z=12\\) längs hela segmentet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det största värdet är 12 och antas i alla punkter på segmentet.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Z i segmentets ändpunkter</p><div class=\"facit-matte\">\\[Z(0,4)=12,\\qquad Z(3,2)=6+6=12\\]</div></li><li><p class=\"facit-rubrik\">Lika värden: Z är 12 längs hela segmentet</p><p>En linjär funktion är konstant längs en sträcka där ändpunkterna ger samma värde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
     "familj": "Fördjupad linjär optimering",
     "geogebra": false,
     "miniräknare": true,
@@ -67322,7 +67582,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"250\" viewBox=\"0 0 300 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Enhetscirkel\"><circle cx=\"150\" cy=\"125\" r=\"88\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"35\" y1=\"125\" x2=\"265\" y2=\"125\" stroke=\"currentColor\" opacity=\".6\"/><line x1=\"150\" y1=\"225\" x2=\"150\" y2=\"25\" stroke=\"currentColor\" opacity=\".6\"/><line x1=\"150\" y1=\"125\" x2=\"73.8\" y2=\"81.0\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"73.8\" cy=\"81.0\" r=\"4\" fill=\"currentColor\"/><text x=\"81.8\" y=\"74.0\" font-size=\"12\" fill=\"currentColor\">150°</text></svg></span><p>Bestäm värdet av \\(\\sin(150^\\circ)\\).</p><p>Skriv svaret numeriskt om det innehåller en rot.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Referensvinkeln är \\(30^\\circ\\).</p></li><li><p>Vinkeln \\(150^\\circ\\) ligger i andra kvadranten, där sinus är positiv:</p><p>\\[\\sin150^\\circ=\\sin30^\\circ=\\frac12=0{,}5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}5\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(150^\\circ\\) ligger i andra kvadranten, referensvinkel \\(30^\\circ\\)</p><p>Sinus är positiv där.</p></li><li><p class=\"facit-rubrik\">Samma sinus som \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin150^\\circ=\\frac12=0{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -67355,7 +67615,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"250\" viewBox=\"0 0 300 250\" style=\"max-width:100%;height:auto;color:#334155\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"250\" rx=\"10\" fill=\"#fff\"/><circle cx=\"150\" cy=\"125\" r=\"88\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"35\" y1=\"125\" x2=\"265\" y2=\"125\" stroke=\"#334155\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"225\" x2=\"150\" y2=\"25\" stroke=\"#334155\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"125\" x2=\"87.8\" y2=\"187.2\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><circle cx=\"87.8\" cy=\"187.2\" r=\"4\" fill=\"#1d4ed8\"/><text x=\"79\" y=\"211\" font-size=\"14\" fill=\"#334155\">225°</text></svg></span><p>Bestäm värdet av \\(\\cos(225^\\circ)\\).</p><p>Skriv svaret numeriskt om det innehåller en rot.</p>",
-    "s": "<div class=\"facit-v2\"><p>\\(225^\\circ=180^\\circ+45^\\circ\\). Punkten ligger i tredje kvadranten, där x-koordinaten och därmed cosinus är negativ.</p>\\[\\begin{gathered}\\cos225^\\circ=-\\cos45^\\circ\\\\=-\\frac{\\sqrt2}{2}\\approx-0{,}707107.\\end{gathered}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}707107\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(225^\\circ\\) ligger i tredje kvadranten, referensvinkel \\(45^\\circ\\)</p><p>Cosinus är negativ där.</p></li><li><p class=\"facit-rubrik\">Cosinus för \\(45^\\circ\\) med minustecken</p><div class=\"facit-matte\">\\[\\cos225^\\circ=-\\frac{\\sqrt2}{2}\\approx-0{,}707107\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}707107\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": true,
@@ -67388,7 +67648,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm det exakta värdet av \\(\\tan330^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Referensvinkeln är \\(30^\\circ\\).</p></li><li><p>I fjärde kvadranten är tangens negativ:</p><p>\\[\\tan330^\\circ=-\\tan30^\\circ=-\\frac1{\\sqrt3}=-\\frac{\\sqrt3}{3}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\sqrt3/3\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(330^\\circ\\) ligger i fjärde kvadranten, referensvinkel \\(30^\\circ\\)</p><p>Sinus negativ, cosinus positiv, så tangens är negativ.</p></li><li><p class=\"facit-rubrik\">Tangens för \\(30^\\circ\\) med minustecken</p><div class=\"facit-matte\">\\[\\tan330^\\circ=-\\tan30^\\circ=-\\frac1{\\sqrt3}=-\\frac{\\sqrt3}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac{\\sqrt3}{3}\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -67421,7 +67681,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Punkten på enhetscirkeln som motsvarar \\(120^\\circ\\) har koordinaterna \\((x,y)\\).</p><p>Bestäm \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>x-koordinaten är cosinusvärdet:</p><p>\\[x=\\cos120^\\circ=-\\frac12=-0{,}5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}5\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">x-koordinaten är \\(\\cos120^\\circ\\)</p><div class=\"facit-matte\">\\[x=\\cos120^\\circ=-\\frac12=-0{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}5\\)</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -67455,7 +67715,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"250\" viewBox=\"0 0 300 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Enhetscirkel\"><circle cx=\"150\" cy=\"125\" r=\"88\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"35\" y1=\"125\" x2=\"265\" y2=\"125\" stroke=\"currentColor\" opacity=\".6\"/><line x1=\"150\" y1=\"225\" x2=\"150\" y2=\"25\" stroke=\"currentColor\" opacity=\".6\"/><line x1=\"150\" y1=\"125\" x2=\"212.2\" y2=\"187.2\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"212.2\" cy=\"187.2\" r=\"4\" fill=\"currentColor\"/><text x=\"220.2\" y=\"180.2\" font-size=\"12\" fill=\"currentColor\">315°</text></svg></span><p>Bestäm värdet av \\(\\sin(315^\\circ)\\).</p><p>Skriv svaret numeriskt om det innehåller en rot.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(315^\\circ=360^\\circ-45^\\circ\\) ligger i fjärde kvadranten, där sinus är negativ:</p><p>\\[\\sin315^\\circ=-\\sin45^\\circ=-\\frac{\\sqrt2}{2}\\approx-0{,}707107.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}707107\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(315^\\circ\\) ligger i fjärde kvadranten, referensvinkel \\(45^\\circ\\)</p><p>Sinus är negativ där.</p></li><li><p class=\"facit-rubrik\">Sinus för \\(45^\\circ\\) med minustecken</p><div class=\"facit-matte\">\\[\\sin315^\\circ=-\\frac{\\sqrt2}{2}\\approx-0{,}707107\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}707107\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": true,
@@ -67488,7 +67748,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Triangel med givna sidor och korrekt placerade vinklar\"><g font-family=\"Arial,sans-serif\"><polygon points=\"75,245 385,245 193.891,130.18\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"55.68\" y=\"250.172\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">A</text><text x=\"404.495\" y=\"249.467\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">B</text><text x=\"187.891\" y=\"111.101\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">C</text><text x=\"308.604\" y=\"155.703\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">13,30 m</text><text x=\"111.104\" y=\"163.421\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">9,86 m</text><text x=\"230\" y=\"275\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">c = ?</text><polyline points=\"172.312,151.02 174.309,152.907 176.471,154.604 178.779,156.095 181.214,157.369 183.755,158.415 186.381,159.224 189.07,159.79 191.8,160.107 194.547,160.173 197.288,159.987 200.002,159.551 202.663,158.869 205.252,157.946 207.745,156.79 210.121,155.41 212.362,153.819 214.447,152.03 216.361,150.058 218.085,147.918 219.607,145.63\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"199.327\" y=\"177.871\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"currentColor\">105°</text></g></svg></span><p>I en triangel är två sidor 13,30 m och 9,86 m. De två övriga vinklarna är 31° och 44°, så vinkeln mellan de givna sidorna är 105°.</p><p>Beräkna längden av den tredje sidan. Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd cosinussatsen:</p><p>\\[\\begin{aligned}c^2&=13{,}30^2+9{,}86^2\\\\&\\quad-2\\cdot13{,}30\\cdot9{,}86\\cos105^\\circ.\\end{aligned}\\]</p><p>\\[c\\approx18{,}49.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: cirka 18,49 m.</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 105°</p><div class=\"facit-matte\">\\[c^2=13{,}30^2+9{,}86^2-2\\cdot13{,}30\\cdot9{,}86\\cos105^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos105^\\circ\\lt0\\): sista termen blir positiv</p><div class=\"facit-matte\">\\[c^2\\approx274{,}11+67{,}88=341{,}99\\quad\\Rightarrow\\quad c\\approx18{,}49\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 18,49 m</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -67553,7 +67813,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"250\" viewBox=\"0 0 400 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Triangulering med punkterna C D B på en rät linje\"><line x1=\"35\" y1=\"205\" x2=\"365\" y2=\"205\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"205\" r=\"4\" fill=\"currentColor\"/><circle cx=\"215\" cy=\"205\" r=\"4\" fill=\"currentColor\"/><circle cx=\"355\" cy=\"205\" r=\"4\" fill=\"currentColor\"/><circle cx=\"150\" cy=\"55\" r=\"4\" fill=\"currentColor\"/><line x1=\"150\" y1=\"55\" x2=\"70\" y2=\"205\" stroke=\"currentColor\"/><line x1=\"150\" y1=\"55\" x2=\"215\" y2=\"205\" stroke=\"currentColor\"/><line x1=\"150\" y1=\"55\" x2=\"355\" y2=\"205\" stroke=\"currentColor\" stroke-dasharray=\"6 4\"/><text x=\"58\" y=\"224\" font-size=\"12\" fill=\"currentColor\">C</text><text x=\"207\" y=\"224\" font-size=\"12\" fill=\"currentColor\">D</text><text x=\"350\" y=\"224\" font-size=\"12\" fill=\"currentColor\">B</text><text x=\"143\" y=\"45\" font-size=\"12\" fill=\"currentColor\">A</text><text x=\"91\" y=\"125\" font-size=\"11\" fill=\"currentColor\">90 m</text><text x=\"178\" y=\"125\" font-size=\"11\" fill=\"currentColor\">70 m</text><text x=\"132\" y=\"223\" font-size=\"11\" fill=\"currentColor\">110 m</text><text x=\"268\" y=\"223\" font-size=\"11\" fill=\"currentColor\">130 m</text></svg></span><p>Platserna C, D och B ligger på en rät linje i den ordningen. Dessutom gäller \\(AC=90\\) m, \\(AD=70\\) m, \\(CD=110\\) m och \\(DB=130\\) m.</p><p>Beräkna avståndet \\(AB\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I triangeln ACD ger cosinussatsen vinkeln vid D:</p><p>\\[\\cos D=\\frac{70^2+110^2-90^2}{2\\cdot70\\cdot110},\\]</p></li><li><p>så \\(D\\approx54{,}70^\\circ\\).</p></li><li><p>Eftersom C-D-B ligger på en linje är \\(\\angle ADB\\approx125{,}30^\\circ\\).</p></li><li><p>I triangeln ADB:</p><p>\\[AB^2=70^2+130^2-2\\cdot70\\cdot130\\cos125{,}30^\\circ.\\]</p><p>\\[AB\\approx179{,}77\\text{ m}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(180\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Triangeln ACD: cosinussatsen ger vinkeln vid D</p><div class=\"facit-matte\">\\[\\cos D=\\frac{70^2+110^2-90^2}{2\\cdot70\\cdot110}=\\frac{8900}{15\\,400}\\approx0{,}578\\]</div><div class=\"facit-matte\">\\[\\Rightarrow D\\approx54{,}7^\\circ\\]</div></li><li><p class=\"facit-rubrik\">C, D och B ligger på en linje</p><div class=\"facit-matte\">\\[\\angle ADB=180^\\circ-54{,}7^\\circ\\approx125{,}3^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) i triangeln ADB</p><div class=\"facit-matte\">\\[AB^2=70^2+130^2-2\\cdot70\\cdot130\\cos125{,}3^\\circ\\approx32\\,318\\]</div><div class=\"facit-matte\">\\[AB\\approx179{,}8\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 179,8 m</p></div>",
     "familj": "Avstånd och triangulering",
     "geogebra": false,
     "miniräknare": true,
@@ -67587,7 +67847,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"250\" viewBox=\"0 0 300 250\" style=\"max-width:100%;height:auto;color:#334155\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"250\" rx=\"10\" fill=\"#fff\"/><circle cx=\"150\" cy=\"125\" r=\"88\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"35\" y1=\"125\" x2=\"265\" y2=\"125\" stroke=\"#334155\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"225\" x2=\"150\" y2=\"25\" stroke=\"#334155\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"125\" x2=\"206.6\" y2=\"57.6\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><circle cx=\"206.6\" cy=\"57.6\" r=\"4\" fill=\"#1d4ed8\"/><text x=\"214.6\" y=\"50.6\" font-size=\"14\" fill=\"#334155\">50°</text></svg></span><p>I enhetscirkeln ligger punkten som motsvarar vinkeln \\(50^\\circ\\) ungefär i \\((0,64;0,77)\\).</p><p>Bestäm \\(\\sin 50^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I enhetscirkeln är sinus y-koordinaten.</p></li><li><p>Alltså är \\(\\sin50^\\circ\\approx0{,}77\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(0{,}77\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\sin v\\) är y-koordinaten</p><div class=\"facit-matte\">\\[\\sin50^\\circ\\approx0{,}77\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,77</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -67621,7 +67881,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"250\" viewBox=\"0 0 300 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Enhetscirkel\"><circle cx=\"150\" cy=\"125\" r=\"88\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"35\" y1=\"125\" x2=\"265\" y2=\"125\" stroke=\"currentColor\" opacity=\".6\"/><line x1=\"150\" y1=\"225\" x2=\"150\" y2=\"25\" stroke=\"currentColor\" opacity=\".6\"/><line x1=\"150\" y1=\"125\" x2=\"93.4\" y2=\"192.4\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"93.4\" cy=\"192.4\" r=\"4\" fill=\"currentColor\"/><text x=\"101.4\" y=\"185.4\" font-size=\"12\" fill=\"currentColor\">230°</text></svg></span><p>I enhetscirkeln ligger punkten som motsvarar \\(50^\\circ\\) ungefär i \\((0,64;0,77)\\).</p><p>Bestäm \\(\\cos230^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln \\(230^\\circ=180^\\circ+50^\\circ\\) ligger mitt emot punkten för \\(50^\\circ\\).</p></li><li><p>Därför byter x-koordinaten tecken:</p><p>\\[\\cos230^\\circ\\approx-0{,}64.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-0{,}64\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(230^\\circ=180^\\circ+50^\\circ\\): punkten mitt emot</p><p>Båda koordinaterna byter tecken.</p></li><li><p class=\"facit-rubrik\">x-koordinaten med motsatt tecken</p><div class=\"facit-matte\">\\[\\cos230^\\circ=-\\cos50^\\circ\\approx-0{,}64\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}64\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -68973,7 +69233,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Vinkeln \\(v\\) ligger i första kvadranten och \\(\\sin v=0,8\\).</p><p>Bestäm exakt \\(\\cos(180^\\circ-v)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(\\sin v=4/5\\) och \\(v\\) ligger i första kvadranten är \\(\\cos v=3/5\\).</p></li><li><p>Vinkeln \\(180^\\circ-v\\) ligger i andra kvadranten, där cosinus är negativ:</p><p>\\[\\cos(180^\\circ-v)=-\\cos v=-\\frac35.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3/5\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pythagoras sats i enhetscirkeln: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-0{,}64=0{,}36\\quad\\Rightarrow\\quad\\cos v=\\frac35\\]</div><p>Första kvadranten: cosinus positiv.</p></li><li><p class=\"facit-rubrik\">\\(180^\\circ-v\\) ligger i andra kvadranten</p><div class=\"facit-matte\">\\[\\cos(180^\\circ-v)=-\\cos v=-\\frac35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac35\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -69262,7 +69522,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "2/1/0",
     "t": "<p>Funktionen \\(f(x)=-0{,}75x^2+3\\) ligger i rektangeln som bestäms av \\(-2\\le x\\le2\\) och \\(0\\le y\\le5\\).</p><p>Bestäm arean av den del av rektangeln som ligger ovanför grafen till \\(f\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rektangelns area är</p><p>\\[4\\cdot5=20.\\]</p></li><li><p>Arean under grafen är</p><p>\\[\\int_{-2}^{2}(-0,75x^2+3)\\,dx=8.\\]</p></li><li><p>Den sökta arean blir</p><p>\\[20-8=12.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 areaenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rektangelns area: bredd 4, höjd 5</p><div class=\"facit-matte\">\\[4\\cdot5=20\\]</div></li><li><p class=\"facit-rubrik\">Arean under grafen med en primitiv funktion</p><div class=\"facit-matte\">\\[\\int_{-2}^{2}\\left(-0{,}75x^2+3\\right)dx=\\left[-0{,}25x^3+3x\\right]_{-2}^{2}\\]</div><div class=\"facit-matte\">\\[=4-(-4)=8\\]</div></li><li><p class=\"facit-rubrik\">Ta bort arean under grafen</p><div class=\"facit-matte\">\\[20-8=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 areaenheter</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -69401,7 +69661,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Punkten \\(P\\) ligger i andra kvadranten på enhetscirkeln och har y-koordinaten \\(\\sqrt3/2\\).</p><p>Bestäm vinkeln \\(v\\) i grader, mätt från positiva x-axeln till \\(P\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin v=\\sqrt3/2\\].</div></li><li><p>Referensvinkeln är \\(60^\\circ\\).</p></li><li><p>I andra kvadranten blir</p><p>\\[v=180^\\circ-60^\\circ=120^\\circ.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(120\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\sin v=\\tfrac{\\sqrt3}{2}\\) ger referensvinkeln \\(60^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin60^\\circ=\\frac{\\sqrt3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Andra kvadranten: \\(v=180^\\circ-60^\\circ\\)</p><div class=\"facit-matte\">\\[v=180^\\circ-60^\\circ=120^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 120</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -70608,7 +70868,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Grafen till \\(f\\) består av räta linjesegment och visas i figuren.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"255\" viewBox=\"0 0 390 255\" role=\"img\" aria-label=\"Styckvis linjär graf till f\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"217\" stroke=\"#F0EFF2\"/><line x1=\"101.0\" y1=\"22\" x2=\"101.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"101.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"154.0\" y1=\"22\" x2=\"154.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"154.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"207.0\" y1=\"22\" x2=\"207.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"207.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"260.0\" y1=\"22\" x2=\"260.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"260.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"313.0\" y1=\"22\" x2=\"313.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"313.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"366.0\" y1=\"22\" x2=\"366.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"366.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"48\" y1=\"203.1\" x2=\"366\" y2=\"203.1\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"206.1\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"48\" y1=\"147.4\" x2=\"366\" y2=\"147.4\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"91.6\" x2=\"366\" y2=\"91.6\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"94.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"35.9\" x2=\"366\" y2=\"35.9\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"38.9\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"147.4\" x2=\"366\" y2=\"147.4\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"217\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M48.0 147.4 L49.8 145.5 L51.5 143.6 L53.3 141.8 L55.1 139.9 L56.8 138.1 L58.6 136.2 L60.4 134.4 L62.1 132.5 L63.9 130.6 L65.7 128.8 L67.4 126.9 L69.2 125.1 L71.0 123.2 L72.7 121.4 L74.5 119.5 L76.3 117.6 L78.0 115.8 L79.8 113.9 L81.6 112.1 L83.3 110.2 L85.1 108.4 L86.9 106.5 L88.6 104.6 L90.4 102.8 L92.2 100.9 L93.9 99.1 L95.7 97.2 L97.5 95.4 L99.2 93.5 L101.0 91.6 L102.8 89.8 L104.5 87.9 L106.3 86.1 L108.1 84.2 L109.8 82.4 L111.6 80.5 L113.4 78.6 L115.1 76.8 L116.9 74.9 L118.7 73.1 L120.4 71.2 L122.2 69.4 L124.0 67.5 L125.7 65.6 L127.5 63.8 L129.3 61.9 L131.0 60.1 L132.8 58.2 L134.6 56.4 L136.3 54.5 L138.1 52.6 L139.9 50.8 L141.6 48.9 L143.4 47.1 L145.2 45.2 L146.9 43.4 L148.7 41.5 L150.5 39.6 L152.2 37.8 L154.0 35.9 L155.8 37.8 L157.5 39.6 L159.3 41.5 L161.1 43.4 L162.8 45.2 L164.6 47.1 L166.4 48.9 L168.1 50.8 L169.9 52.6 L171.7 54.5 L173.4 56.4 L175.2 58.2 L177.0 60.1 L178.7 61.9 L180.5 63.8 L182.3 65.6 L184.0 67.5 L185.8 69.4 L187.6 71.2 L189.3 73.1 L191.1 74.9 L192.9 76.8 L194.6 78.6 L196.4 80.5 L198.2 82.4 L199.9 84.2 L201.7 86.1 L203.5 87.9 L205.2 89.8 L207.0 91.6 L208.8 93.5 L210.5 95.4 L212.3 97.2 L214.1 99.1 L215.8 100.9 L217.6 102.8 L219.4 104.6 L221.1 106.5 L222.9 108.4 L224.7 110.2 L226.4 112.1 L228.2 113.9 L230.0 115.8 L231.7 117.6 L233.5 119.5 L235.3 121.4 L237.0 123.2 L238.8 125.1 L240.6 126.9 L242.3 128.8 L244.1 130.6 L245.9 132.5 L247.6 134.4 L249.4 136.2 L251.2 138.1 L252.9 139.9 L254.7 141.8 L256.5 143.6 L258.2 145.5 L260.0 147.4 L261.8 148.3 L263.5 149.2 L265.3 150.1 L267.1 151.1 L268.8 152.0 L270.6 152.9 L272.4 153.9 L274.1 154.8 L275.9 155.7 L277.7 156.6 L279.4 157.6 L281.2 158.5 L283.0 159.4 L284.7 160.4 L286.5 161.3 L288.3 162.2 L290.0 163.1 L291.8 164.1 L293.6 165.0 L295.3 165.9 L297.1 166.9 L298.9 167.8 L300.6 168.7 L302.4 169.6 L304.2 170.6 L305.9 171.5 L307.7 172.4 L309.5 173.4 L311.2 174.3 L313.0 175.2 L314.8 176.1 L316.5 177.1 L318.3 178.0 L320.1 178.9 L321.8 179.9 L323.6 180.8 L325.4 181.7 L327.1 182.6 L328.9 183.6 L330.7 184.5 L332.4 185.4 L334.2 186.4 L336.0 187.3 L337.7 188.2 L339.5 189.1 L341.3 190.1 L343.0 191.0 L344.8 191.9 L346.6 192.9 L348.3 193.8 L350.1 194.7 L351.9 195.6 L353.6 196.6 L355.4 197.5 L357.2 198.4 L358.9 199.4 L360.7 200.3 L362.5 201.2 L364.2 202.1 L366.0 203.1\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.4\"/><circle cx=\"48.0\" cy=\"147.4\" r=\"4\" fill=\"#B43123\"/><text x=\"55.0\" y=\"140.4\" font-size=\"11\"></text><circle cx=\"154.0\" cy=\"35.9\" r=\"4\" fill=\"#B43123\"/><text x=\"161.0\" y=\"28.9\" font-size=\"11\"></text><circle cx=\"260.0\" cy=\"147.4\" r=\"4\" fill=\"#B43123\"/><text x=\"267.0\" y=\"140.4\" font-size=\"11\"></text><circle cx=\"366.0\" cy=\"203.1\" r=\"4\" fill=\"#B43123\"/><text x=\"373.0\" y=\"196.1\" font-size=\"11\"></text><text x=\"361\" y=\"37\" text-anchor=\"end\" font-size=\"11\" fill=\"#2D70B3\">f</text></svg></span><p>Bestäm \\(\\int_0^6f(x)\\,dx\\) genom geometriska areor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från \\(0\\) till \\(4\\) bildas en triangel med bas 4 och höjd 4, alltså area 8.</p></li><li><p>Från \\(4\\) till \\(6\\) ligger grafen under x-axeln och bildar en triangel med bas 2 och höjd 2, vilket bidrar med \\(-2\\).</p><p>\\[\\int_0^6f(x)dx=8-2=\\boxed{6}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(6\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Triangel ovanför x-axeln (0–4)</p><div class=\"facit-matte\">\\[\\frac{4\\cdot4}{2}=8\\]</div></li><li><p class=\"facit-rubrik\">Triangel under x-axeln (4–6) räknas negativt</p><div class=\"facit-matte\">\\[-\\frac{2\\cdot2}{2}=-2\\]</div></li><li><p class=\"facit-rubrik\">Summera med tecken</p><div class=\"facit-matte\">\\[\\int_0^6f(x)\\,dx=8-2=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -74078,7 +74338,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar grafen till \\(f'\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"210\" viewBox=\"0 0 360 210\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Graf till derivatan f prim\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#cbd5e1\"/><line x1=\"42\" y1=\"112.8\" x2=\"342\" y2=\"112.8\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"175.3\" y1=\"176\" x2=\"175.3\" y2=\"18\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"242.0\" y1=\"108.8\" x2=\"242.0\" y2=\"116.8\" stroke=\"#334155\" stroke-width=\"1.7\"/><text x=\"242.0\" y=\"130.8\" text-anchor=\"middle\" font-size=\"13\" fill=\"#334155\">2</text><polyline points=\"75.3,191.8 77.0,191.0 78.7,190.2 80.3,189.4 82.0,188.6 83.7,187.8 85.3,187.1 87.0,186.3 88.7,185.5 90.3,184.7 92.0,183.9 93.7,183.1 95.3,182.3 97.0,181.5 98.7,180.7 100.3,179.9 102.0,179.2 103.7,178.4 105.3,177.6 107.0,176.8 108.7,176.0 110.3,175.2 112.0,174.4 113.7,173.6 115.3,172.8 117.0,172.0 118.7,171.3 120.3,170.5 122.0,169.7 123.7,168.9 125.3,168.1 127.0,167.3 128.7,166.5 130.3,165.7 132.0,164.9 133.7,164.2 135.3,163.4 137.0,162.6 138.7,161.8 140.3,161.0 142.0,160.2 143.7,159.4 145.3,158.6 147.0,157.8 148.7,157.0 150.3,156.2 152.0,155.5 153.7,154.7 155.3,153.9 157.0,153.1 158.7,152.3 160.3,151.5 162.0,150.7 163.7,149.9 165.3,149.1 167.0,148.3 168.7,147.6 170.3,146.8 172.0,146.0 173.7,145.2 175.3,144.4 177.0,143.6 178.7,142.8 180.3,142.0 182.0,141.2 183.7,140.4 185.3,139.7 187.0,138.9 188.7,138.1 190.3,137.3 192.0,136.5 193.7,135.7 195.3,134.9 197.0,134.1 198.7,133.3 200.3,132.6 202.0,131.8 203.7,131.0 205.3,130.2 207.0,129.4 208.7,128.6 210.3,127.8 212.0,127.0 213.7,126.2 215.3,125.4 217.0,124.7 218.7,123.9 220.3,123.1 222.0,122.3 223.7,121.5 225.3,120.7 227.0,119.9 228.7,119.1 230.3,118.3 232.0,117.5 233.7,116.8 235.3,116.0 237.0,115.2 238.7,114.4 240.3,113.6 242.0,112.8 243.7,112.0 245.3,111.2 247.0,110.4 248.7,109.6 250.3,108.8 252.0,108.1 253.7,107.3 255.3,106.5 257.0,105.7 258.7,104.9 260.3,104.1 262.0,103.3 263.7,102.5 265.3,101.7 267.0,101.0 268.7,100.2 270.3,99.4 272.0,98.6 273.7,97.8 275.3,97.0 277.0,96.2 278.7,95.4 280.3,94.6 282.0,93.8 283.7,93.0 285.3,92.3 287.0,91.5 288.7,90.7 290.3,89.9 292.0,89.1 293.7,88.3 295.3,87.5 297.0,86.7 298.7,85.9 300.3,85.1 302.0,84.4 303.7,83.6 305.3,82.8 307.0,82.0 308.7,81.2 310.3,80.4 312.0,79.6 313.7,78.8 315.3,78.0 317.0,77.2 318.7,76.5 320.3,75.7 322.0,74.9 323.7,74.1 325.3,73.3 327.0,72.5 328.7,71.7 330.3,70.9 332.0,70.1 333.7,69.3 335.3,68.6 337.0,67.8 338.7,67.0 340.3,66.2 342.0,65.4\" fill=\"none\" stroke=\"#1d4ed8\" stroke-width=\"3\"/><text x=\"304\" y=\"32\" font-size=\"13\" fill=\"#334155\">f&#8242;(x)</text><text x=\"346\" y=\"116.8\" font-size=\"13\" fill=\"#334155\">x</text></svg></span><p>Vid vilket \\(x\\)-värde har \\(f\\) en lokal minimipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen visar att \\(f'(x)\\) är negativ före \\(x=2\\) och positiv efter \\(x=2\\).</p></li><li><p>Därför går \\(f\\) från att avta till att växa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minimipunkt: \\(f'\\) går från − till +</p><p>\\(f'\\) är negativ före \\(x=2\\) och positiv efter.</p></li><li><p class=\"facit-rubrik\">Funktionen går från att avta till att växa</p><div class=\"facit-matte\">\\[x=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
     "familj": "Funktionens graf och derivatans graf",
     "geogebra": false,
     "miniräknare": true,
@@ -74318,7 +74578,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar grafen till \\(f'\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"210\" viewBox=\"0 0 360 210\" role=\"img\" aria-label=\"Graf till derivatan f prim\"><line x1=\"42\" y1=\"112.8\" x2=\"342\" y2=\"112.8\" stroke=\"currentColor\"/><line x1=\"175.3\" y1=\"176\" x2=\"175.3\" y2=\"18\" stroke=\"currentColor\"/><line x1=\"108.7\" y1=\"108.8\" x2=\"108.7\" y2=\"116.8\" stroke=\"currentColor\"/><text x=\"108.7\" y=\"130.8\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">-2</text><line x1=\"275.3\" y1=\"108.8\" x2=\"275.3\" y2=\"116.8\" stroke=\"currentColor\"/><text x=\"275.3\" y=\"130.8\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">3</text><polyline points=\"42.0,13.3 43.7,16.4 45.3,19.6 47.0,22.7 48.7,25.8 50.3,28.8 52.0,31.8 53.7,34.8 55.3,37.7 57.0,40.6 58.7,43.5 60.3,46.3 62.0,49.1 63.7,51.8 65.3,54.6 67.0,57.3 68.7,59.9 70.3,62.5 72.0,65.1 73.7,67.6 75.3,70.1 77.0,72.6 78.7,75.0 80.3,77.4 82.0,79.8 83.7,82.1 85.3,84.4 87.0,86.7 88.7,88.9 90.3,91.1 92.0,93.2 93.7,95.4 95.3,97.4 97.0,99.5 98.7,101.5 100.3,103.5 102.0,105.4 103.7,107.3 105.3,109.2 107.0,111.0 108.7,112.8 110.3,114.6 112.0,116.3 113.7,118.0 115.3,119.6 117.0,121.2 118.7,122.8 120.3,124.4 122.0,125.9 123.7,127.4 125.3,128.8 127.0,130.2 128.7,131.6 130.3,132.9 132.0,134.2 133.7,135.5 135.3,136.7 137.0,137.9 138.7,139.0 140.3,140.2 142.0,141.2 143.7,142.3 145.3,143.3 147.0,144.3 148.7,145.2 150.3,146.1 152.0,147.0 153.7,147.8 155.3,148.6 157.0,149.4 158.7,150.1 160.3,150.8 162.0,151.5 163.7,152.1 165.3,152.7 167.0,153.2 168.7,153.8 170.3,154.2 172.0,154.7 173.7,155.1 175.3,155.5 177.0,155.8 178.7,156.1 180.3,156.4 182.0,156.6 183.7,156.8 185.3,157.0 187.0,157.1 188.7,157.2 190.3,157.2 192.0,157.2 193.7,157.2 195.3,157.2 197.0,157.1 198.7,157.0 200.3,156.8 202.0,156.6 203.7,156.4 205.3,156.1 207.0,155.8 208.7,155.5 210.3,155.1 212.0,154.7 213.7,154.2 215.3,153.8 217.0,153.2 218.7,152.7 220.3,152.1 222.0,151.5 223.7,150.8 225.3,150.1 227.0,149.4 228.7,148.6 230.3,147.8 232.0,147.0 233.7,146.1 235.3,145.2 237.0,144.3 238.7,143.3 240.3,142.3 242.0,141.2 243.7,140.2 245.3,139.0 247.0,137.9 248.7,136.7 250.3,135.5 252.0,134.2 253.7,132.9 255.3,131.6 257.0,130.2 258.7,128.8 260.3,127.4 262.0,125.9 263.7,124.4 265.3,122.8 267.0,121.2 268.7,119.6 270.3,118.0 272.0,116.3 273.7,114.6 275.3,112.8 277.0,111.0 278.7,109.2 280.3,107.3 282.0,105.4 283.7,103.5 285.3,101.5 287.0,99.5 288.7,97.4 290.3,95.4 292.0,93.2 293.7,91.1 295.3,88.9 297.0,86.7 298.7,84.4 300.3,82.1 302.0,79.8 303.7,77.4 305.3,75.0 307.0,72.6 308.7,70.1 310.3,67.6 312.0,65.1 313.7,62.5 315.3,59.9 317.0,57.3 318.7,54.6 320.3,51.8 322.0,49.1 323.7,46.3 325.3,43.5 327.0,40.6 328.7,37.7 330.3,34.8 332.0,31.8 333.7,28.8 335.3,25.8 337.0,22.7 338.7,19.6 340.3,16.4 342.0,13.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\"/><text x=\"304\" y=\"32\" font-size=\"12\" fill=\"currentColor\">f&#8242;(x)</text><text x=\"346\" y=\"116.8\" font-size=\"11\" fill=\"currentColor\">x</text></svg></span><p>Vid vilket \\(x\\)-värde har \\(f\\) en lokal maximipunkt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=-2\\) går \\(f'\\) från positivt till negativt.</p></li><li><p>Därför har \\(f\\) en lokal maximipunkt där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Maximipunkt: \\(f'\\) går från + till −</p><p>\\(f'\\) är positiv före \\(x=-2\\) och negativ efter.</p></li><li><p class=\"facit-rubrik\">Funktionen går från att växa till att avta</p><div class=\"facit-matte\">\\[x=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
     "familj": "Funktionens graf och derivatans graf",
     "geogebra": false,
     "miniräknare": true,
@@ -75360,7 +75620,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar grafen till \\(f'\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"210\" viewBox=\"0 0 360 210\" role=\"img\" aria-label=\"Graf till derivatan f prim\"><line x1=\"42\" y1=\"112.8\" x2=\"342\" y2=\"112.8\" stroke=\"currentColor\"/><line x1=\"175.3\" y1=\"176\" x2=\"175.3\" y2=\"18\" stroke=\"currentColor\"/><line x1=\"208.7\" y1=\"108.8\" x2=\"208.7\" y2=\"116.8\" stroke=\"currentColor\"/><text x=\"208.7\" y=\"130.8\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">1</text><polyline points=\"77.0,2.2 78.7,4.7 80.3,7.4 82.0,10.1 83.7,12.8 85.3,15.5 87.0,18.1 88.7,20.7 90.3,23.2 92.0,25.7 93.7,28.2 95.3,30.6 97.0,33.0 98.7,35.4 100.3,37.7 102.0,40.0 103.7,42.3 105.3,44.5 107.0,46.7 108.7,48.8 110.3,50.9 112.0,53.0 113.7,55.0 115.3,57.1 117.0,59.0 118.7,61.0 120.3,62.9 122.0,64.7 123.7,66.6 125.3,68.4 127.0,70.1 128.7,71.8 130.3,73.5 132.0,75.2 133.7,76.8 135.3,78.4 137.0,79.9 138.7,81.4 140.3,82.9 142.0,84.4 143.7,85.8 145.3,87.1 147.0,88.5 148.7,89.8 150.3,91.0 152.0,92.3 153.7,93.4 155.3,94.6 157.0,95.7 158.7,96.8 160.3,97.9 162.0,98.9 163.7,99.8 165.3,100.8 167.0,101.7 168.7,102.6 170.3,103.4 172.0,104.2 173.7,105.0 175.3,105.7 177.0,106.4 178.7,107.0 180.3,107.7 182.0,108.2 183.7,108.8 185.3,109.3 187.0,109.8 188.7,110.2 190.3,110.6 192.0,111.0 193.7,111.4 195.3,111.7 197.0,111.9 198.7,112.2 200.3,112.4 202.0,112.5 203.7,112.6 205.3,112.7 207.0,112.8 208.7,112.8 210.3,112.8 212.0,112.7 213.7,112.6 215.3,112.5 217.0,112.4 218.7,112.2 220.3,111.9 222.0,111.7 223.7,111.4 225.3,111.0 227.0,110.6 228.7,110.2 230.3,109.8 232.0,109.3 233.7,108.8 235.3,108.2 237.0,107.7 238.7,107.0 240.3,106.4 242.0,105.7 243.7,105.0 245.3,104.2 247.0,103.4 248.7,102.6 250.3,101.7 252.0,100.8 253.7,99.8 255.3,98.9 257.0,97.9 258.7,96.8 260.3,95.7 262.0,94.6 263.7,93.4 265.3,92.3 267.0,91.0 268.7,89.8 270.3,88.5 272.0,87.1 273.7,85.8 275.3,84.4 277.0,82.9 278.7,81.4 280.3,79.9 282.0,78.4 283.7,76.8 285.3,75.2 287.0,73.5 288.7,71.8 290.3,70.1 292.0,68.4 293.7,66.6 295.3,64.7 297.0,62.9 298.7,61.0 300.3,59.0 302.0,57.1 303.7,55.0 305.3,53.0 307.0,50.9 308.7,48.8 310.3,46.7 312.0,44.5 313.7,42.3 315.3,40.0 317.0,37.7 318.7,35.4 320.3,33.0 322.0,30.6 323.7,28.2 325.3,25.7 327.0,23.2 328.7,20.7 330.3,18.1 332.0,15.5 333.7,12.8 335.3,10.1 337.0,7.4 338.7,4.7 340.3,2.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\"/><text x=\"304\" y=\"32\" font-size=\"12\" fill=\"currentColor\">f&#8242;(x)</text><text x=\"346\" y=\"116.8\" font-size=\"11\" fill=\"currentColor\">x</text></svg></span><p>Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv på båda sidor om \\(x=1\\) och bara 0 i själva punkten.</p></li><li><p>Den byter alltså inte tecken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0 extrempunkter</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f'\\) nuddar x-axeln vid \\(x=1\\) utan att byta tecken</p><p>Derivatan är positiv på båda sidor.</p></li><li><p class=\"facit-rubrik\">Inget teckenbyte – ingen extrempunkt</p><p>Punkten är en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Funktionens graf och derivatans graf",
     "geogebra": false,
     "miniräknare": true,
@@ -75633,7 +75893,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar grafen till \\(f'\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"210\" viewBox=\"0 0 360 210\" role=\"img\" aria-label=\"Graf till derivatan f prim\"><line x1=\"42\" y1=\"112.8\" x2=\"342\" y2=\"112.8\" stroke=\"currentColor\"/><line x1=\"175.3\" y1=\"176\" x2=\"175.3\" y2=\"18\" stroke=\"currentColor\"/><line x1=\"108.7\" y1=\"108.8\" x2=\"108.7\" y2=\"116.8\" stroke=\"currentColor\"/><text x=\"108.7\" y=\"130.8\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">-2</text><line x1=\"175.3\" y1=\"108.8\" x2=\"175.3\" y2=\"116.8\" stroke=\"currentColor\"/><text x=\"175.3\" y=\"130.8\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">0</text><line x1=\"275.3\" y1=\"108.8\" x2=\"275.3\" y2=\"116.8\" stroke=\"currentColor\"/><text x=\"275.3\" y=\"130.8\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">3</text><polyline points=\"45.3,191.8 47.0,189.9 48.7,186.3 50.3,182.8 52.0,179.4 53.7,176.1 55.3,172.9 57.0,169.7 58.7,166.7 60.3,163.8 62.0,160.9 63.7,158.2 65.3,155.5 67.0,152.9 68.7,150.4 70.3,148.0 72.0,145.7 73.7,143.4 75.3,141.2 77.0,139.1 78.7,137.1 80.3,135.2 82.0,133.3 83.7,131.5 85.3,129.8 87.0,128.2 88.7,126.6 90.3,125.1 92.0,123.7 93.7,122.3 95.3,121.0 97.0,119.8 98.7,118.6 100.3,117.5 102.0,116.4 103.7,115.4 105.3,114.5 107.0,113.6 108.7,112.8 110.3,112.0 112.0,111.3 113.7,110.7 115.3,110.1 117.0,109.5 118.7,109.0 120.3,108.6 122.0,108.1 123.7,107.8 125.3,107.5 127.0,107.2 128.7,107.0 130.3,106.8 132.0,106.6 133.7,106.5 135.3,106.4 137.0,106.4 138.7,106.4 140.3,106.4 142.0,106.5 143.7,106.6 145.3,106.7 147.0,106.9 148.7,107.0 150.3,107.2 152.0,107.5 153.7,107.7 155.3,108.0 157.0,108.3 158.7,108.7 160.3,109.0 162.0,109.4 163.7,109.7 165.3,110.1 167.0,110.6 168.7,111.0 170.3,111.4 172.0,111.9 173.7,112.3 175.3,112.8 177.0,113.3 178.7,113.8 180.3,114.3 182.0,114.7 183.7,115.2 185.3,115.7 187.0,116.2 188.7,116.7 190.3,117.2 192.0,117.7 193.7,118.2 195.3,118.7 197.0,119.2 198.7,119.7 200.3,120.1 202.0,120.6 203.7,121.0 205.3,121.5 207.0,121.9 208.7,122.3 210.3,122.7 212.0,123.0 213.7,123.4 215.3,123.7 217.0,124.0 218.7,124.3 220.3,124.6 222.0,124.8 223.7,125.1 225.3,125.2 227.0,125.4 228.7,125.5 230.3,125.6 232.0,125.7 233.7,125.8 235.3,125.8 237.0,125.7 238.7,125.7 240.3,125.6 242.0,125.4 243.7,125.3 245.3,125.0 247.0,124.8 248.7,124.5 250.3,124.1 252.0,123.7 253.7,123.3 255.3,122.8 257.0,122.3 258.7,121.7 260.3,121.0 262.0,120.4 263.7,119.6 265.3,118.8 267.0,118.0 268.7,117.0 270.3,116.1 272.0,115.0 273.7,114.0 275.3,112.8 277.0,111.6 278.7,110.3 280.3,109.0 282.0,107.5 283.7,106.1 285.3,104.5 287.0,102.9 288.7,101.2 290.3,99.4 292.0,97.6 293.7,95.7 295.3,93.7 297.0,91.6 298.7,89.5 300.3,87.2 302.0,84.9 303.7,82.6 305.3,80.1 307.0,77.5 308.7,74.9 310.3,72.2 312.0,69.3 313.7,66.4 315.3,63.4 317.0,60.3 318.7,57.2 320.3,53.9 322.0,50.5 323.7,47.0 325.3,43.5 327.0,39.8 328.7,36.0 330.3,32.2 332.0,28.2 333.7,24.1 335.3,20.0 337.0,15.7 338.7,11.3 340.3,6.8 342.0,2.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\"/><text x=\"304\" y=\"32\" font-size=\"12\" fill=\"currentColor\">f&#8242;(x)</text><text x=\"346\" y=\"116.8\" font-size=\"11\" fill=\"currentColor\">x</text></svg></span><p>Hur många lokala extrempunkter har \\(f\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen till \\(f'\\) passerar x-axeln vid tre olika x-värden och byter tecken varje gång.</p></li><li><p>Varje teckenbyte ger en lokal extrempunkt för \\(f\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f'\\) skär x-axeln vid \\(x=-2,\\ 0,\\ 3\\)</p><p>Vid varje skärning byter derivatan tecken.</p></li><li><p class=\"facit-rubrik\">Varje teckenbyte ger en extrempunkt</p><div class=\"facit-matte\">\\[3\\ \\text{extrempunkter}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Funktionens graf och derivatans graf",
     "geogebra": false,
     "miniräknare": true,
@@ -75806,7 +76066,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=1/x\\). På hur många separata x-områden är funktionen avtagande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=-1/x^2&lt;0\\) för alla \\(x\\neq0\\).</p></li><li><p>Eftersom funktionen inte är definierad vid \\(x=0\\) delas definitionsmängden i två separata områden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(x^{-1}\\)</p><div class=\"facit-matte\">\\[f'(x)=-x^{-2}=-\\frac1{x^2}\\lt0\\quad\\text{för }x\\ne0\\]</div></li><li><p class=\"facit-rubrik\">\\(x=0\\) delar definitionsmängden</p><p>f är avtagande för \\(x\\lt0\\) och för \\(x\\gt0\\), två skilda områden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Växande och avtagande",
     "geogebra": false,
     "miniräknare": true,
@@ -75840,7 +76100,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=x+1/x\\). På hur många separata x-områden är funktionen avtagande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=1-1/x^2=(x^2-1)/x^2\\].</div></li><li><p>Nämnaren är positiv för \\(x\\neq0\\), så derivatan är negativ när \\(x^2-1&lt;0\\), alltså när \\(-1&lt;x&lt;1\\).</p></li><li><p>Punkten \\(x=0\\) saknas i definitionsmängden och delar detta i två separata områden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(x+x^{-1}\\) på gemensam nämnare</p><div class=\"facit-matte\">\\[f'(x)=1-\\frac1{x^2}=\\frac{x^2-1}{x^2}\\]</div></li><li><p class=\"facit-rubrik\">Negativ när \\(x^2\\lt1\\)</p><div class=\"facit-matte\">\\[-1\\lt x\\lt1,\\qquad x\\ne0\\]</div></li><li><p class=\"facit-rubrik\">\\(x=0\\) delar intervallet i två</p><p>f avtar för \\(-1\\lt x\\lt0\\) och för \\(0\\lt x\\lt1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Växande och avtagande",
     "geogebra": false,
     "miniräknare": true,
@@ -76865,7 +77125,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=2-(x+3)^2\\). Bestäm funktionens största värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\((x+3)^2\\ge0\\) blir uttrycket \\(2-(x+3)^2\\) som störst när kvadraten är 0.</p></li><li><p>Det största funktionsvärdet är då 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är minst 0: \\((x+3)^2\\ge0\\)</p><p>Uttrycket \\(2-(x+3)^2\\) blir störst när kvadraten är 0, alltså vid \\(x=-3\\).</p></li><li><p class=\"facit-rubrik\">Största värdet när \\(x=-3\\)</p><div class=\"facit-matte\">\\[f(-3)=2-0=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Största och minsta värde på ett intervall",
     "geogebra": false,
     "miniräknare": false,
@@ -77167,7 +77427,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Grafen visar derivatan \\(f'\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" role=\"img\" aria-label=\"Grafen till derivatan f prim, en uppåtvänd parabel som skär x-axeln vid minus 2 och 2\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"250\" fill=\"white\"/><line x1=\"35\" y1=\"125\" x2=\"390\" y2=\"125\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"210\" y1=\"228\" x2=\"210\" y2=\"18\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"120\" x2=\"130\" y2=\"130\" stroke=\"#2B2527\"/><line x1=\"290\" y1=\"120\" x2=\"290\" y2=\"130\" stroke=\"#2B2527\"/><text x=\"124\" y=\"145\" font-size=\"13\" fill=\"#2B2527\">-2</text><text x=\"286\" y=\"145\" font-size=\"13\" fill=\"#2B2527\">2</text><text x=\"394\" y=\"121\" font-size=\"13\" fill=\"#2B2527\">x</text><text x=\"218\" y=\"22\" font-size=\"13\" fill=\"#2B2527\">f′(x)</text><polyline points=\"90.0,25.0 94.0,36.8 98.0,48.2 102.0,59.2 106.0,69.8 110.0,80.0 114.0,89.8 118.0,99.2 122.0,108.2 126.0,116.8 130.0,125.0 134.0,132.8 138.0,140.2 142.0,147.2 146.0,153.8 150.0,160.0 154.0,165.8 158.0,171.2 162.0,176.2 166.0,180.8 170.0,185.0 174.0,188.8 178.0,192.2 182.0,195.2 186.0,197.8 190.0,200.0 194.0,201.8 198.0,203.2 202.0,204.2 206.0,204.8 210.0,205.0 214.0,204.8 218.0,204.2 222.0,203.2 226.0,201.8 230.0,200.0 234.0,197.8 238.0,195.2 242.0,192.2 246.0,188.8 250.0,185.0 254.0,180.8 258.0,176.2 262.0,171.2 266.0,165.8 270.0,160.0 274.0,153.8 278.0,147.2 282.0,140.2 286.0,132.8 290.0,125.0 294.0,116.8 298.0,108.2 302.0,99.2 306.0,89.8 310.0,80.0 314.0,69.8 318.0,59.2 322.0,48.2 326.0,36.8 330.0,25.0\" fill=\"none\" stroke=\"#4E6E8E\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><p>För vilka x-värden är \\(f\\) avtagande?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen \\(f\\) är avtagande där derivatan ligger under x-axeln, alltså där \\(f'(x)&lt;0\\).</p></li><li><p>Av grafen ser man att det gäller för \\(-2&lt;x&lt;2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2&lt;x&lt;2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avtagande där \\(f'\\lt0\\)</p><p>Derivatagrafen ligger under x-axeln mellan nollställena −2 och 2.</p></li><li><p class=\"facit-rubrik\">Parabeln är under axeln mellan −2 och 2</p><div class=\"facit-matte\">\\[-2\\lt x\\lt2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2&lt;x&lt;2\\)</p></div>",
     "familj": "Funktionens graf och derivatans graf",
     "geogebra": false,
     "miniräknare": true,
@@ -77188,7 +77448,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Koppla samman funktionens graf och derivatans graf"
     ],
-    "alternativ": [{"txt": "\\(x&lt;-2\\) eller \\(x&gt;2\\)", "ratt": false}, {"txt": "\\(x&gt;2\\)", "ratt": false}, {"txt": "\\(x&lt;-2\\)", "ratt": false}, {"txt": "\\(-2&lt;x&lt;2\\)", "ratt": true}]
+    "alternativ": [
+      {
+        "txt": "\\(x&lt;-2\\) eller \\(x&gt;2\\)",
+        "ratt": false,
+        "kommentar": "Där ligger derivatagrafen över x-axeln, så f växer."
+      },
+      {
+        "txt": "\\(x&gt;2\\)",
+        "ratt": false,
+        "kommentar": "För \\(x\\gt2\\) är derivatan positiv."
+      },
+      {
+        "txt": "\\(x&lt;-2\\)",
+        "ratt": false,
+        "kommentar": "För \\(x\\lt-2\\) är derivatan positiv."
+      },
+      {
+        "txt": "\\(-2&lt;x&lt;2\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "2.696",
@@ -80310,7 +80590,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f(x)=-(x-4)^2+9\\) studeras endast för \\(0\\le x\\le3\\). Vid vilket x-värde antar funktionen sitt största värde på detta område?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Parabelns vertex ligger vid \\(x=4\\), utanför det tillåtna området.</p></li><li><p>På \\(0\\le x\\le3\\) är funktionen växande, så det största värdet antas vid höger ändpunkt \\(x=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vertex vid \\(x=4\\) ligger utanför \\(0\\le x\\le3\\)</p><p>Till vänster om vertex är parabeln växande.</p></li><li><p class=\"facit-rubrik\">Största värdet i högra ändpunkten</p><div class=\"facit-matte\">\\[x=3:\\quad f(3)=-1+9=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Största och minsta värde på ett intervall",
     "geogebra": false,
     "miniräknare": false,
@@ -80603,7 +80883,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna  \\(\\int_0^6 9\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Arean är en rektangel med bredd 6 och höjd 9:</p><div class=\"facit-matte\">\\[9\\cdot6=54\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 54</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstant integrand: rektangel med höjd · bredd</p><div class=\"facit-matte\">\\[\\int_0^69\\,dx=9\\cdot6=54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 54</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
@@ -80637,7 +80917,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Beräkna  \\(\\int_0^{10} 3x\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{3}2x^2\\).</p></li><li><div class=\"facit-berakning\"><p>Värdet blir</p><div class=\"facit-matte\">\\[3\\cdot 10^2/2=150\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 150</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(x^n\\): \\(\\dfrac{x^{n+1}}{n+1}\\)</p><div class=\"facit-matte\">\\[\\int_0^{10}3x\\,dx=\\left[\\frac{3x^2}{2}\\right]_0^{10}=\\frac{300}{2}=150\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 150</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
@@ -81113,7 +81393,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=-(x-18)^2+5\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=18\\), och eftersom minustecknet står framför blir detta maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ, så \\(-(x-h)^2\\le0\\)</p><p>\\(-(x-18)^2\\) är 0 när \\(x=18\\) och negativ annars.</p></li><li><p class=\"facit-rubrik\">Största värdet vid \\(x=18\\)</p><div class=\"facit-matte\">\\[f(18)=0+5=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -81215,7 +81495,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=-(x-16)^2+17\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=16\\), och eftersom minustecknet står framför blir detta maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ, så \\(-(x-h)^2\\le0\\)</p><p>\\(-(x-16)^2\\) är 0 när \\(x=16\\) och negativ annars.</p></li><li><p class=\"facit-rubrik\">Största värdet vid \\(x=16\\)</p><div class=\"facit-matte\">\\[f(16)=0+17=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -81870,7 +82150,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=-(x-10)^2+8\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=10\\), och eftersom minustecknet står framför blir detta maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ, så \\(-(x-h)^2\\le0\\)</p><p>\\(-(x-10)^2\\) är 0 när \\(x=10\\) och negativ annars.</p></li><li><p class=\"facit-rubrik\">Största värdet vid \\(x=10\\)</p><div class=\"facit-matte\">\\[f(10)=0+8=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -82283,7 +82563,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=-(x-4)^2+5\\). Vilket är funktionens största värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvadraten är minst 0, så \\(f(x)\\le 5\\).</p></li><li><div class=\"facit-berakning\"><p>Värdet 5 antas när</p><div class=\"facit-matte\">\\[x=4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ, så \\(-(x-h)^2\\le0\\): \\(f(x)\\le5\\)</p><p>Likhet när kvadraten är 0, alltså vid \\(x=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -82434,7 +82714,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm det x-värde där \\(f(x)=-x^2+4x+1\\) har sitt största värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=-2x+4=0\\Rightarrow x=2\\].</div></li><li><p>Andragradstermen är negativ, så det är ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=-2x+4=0\\quad\\Rightarrow\\quad x=2\\]</div></li><li><p class=\"facit-rubrik\">Nedåtvänd parabel ger maximum</p><p>Koefficienten framför \\(x^2\\) är negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -82502,7 +82782,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Funktionen \\(f(x)=-(x-3)^2+10\\) används bara för \\(-1\\le x\\le2\\). Bestäm funktionens största värde i intervallet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Maximipunkten \\(x=3\\) ligger utanför intervallet.</p></li><li><p>Funktionen är växande i hela intervallet,</p></li><li><div class=\"facit-berakning\"><p>så det största värdet antas i den högra ändpunkten:</p><div class=\"facit-matte\">\\[f(2)=9\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Maximipunkten \\(x=3\\) ligger utanför \\(-1\\le x\\le2\\)</p><p>f är växande i hela intervallet.</p></li><li><p class=\"facit-rubrik\">Största värdet i högra ändpunkten</p><div class=\"facit-matte\">\\[f(2)=-1+10=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -82780,7 +83060,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En boll kastas rakt upp. Höjden över marken är \\(h(t)=-5t^2+30t+2\\) meter efter \\(t\\) sekunder. Hur högt når bollen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h'(t)=-10t+30=0\\Rightarrow t=3\\].</div><div class=\"facit-matte\">\\[h(3)=47\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 47 m</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bollen är som högst när \\(h'(t)=0\\)</p><div class=\"facit-matte\">\\[h'(t)=-10t+30=0\\quad\\Rightarrow\\quad t=3\\]</div></li><li><p class=\"facit-rubrik\">Höjden efter 3 s</p><div class=\"facit-matte\">\\[h(3)=-45+90+2=47\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 47 m</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -82816,7 +83096,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=(x-2)^2+6\\). Vid vilket x-värde får funktionen sitt minsta värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Kvadraten är minst när den är 0, alltså när</p><div class=\"facit-matte\">\\[x=2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är minst 0: \\((x-2)^2\\ge0\\)</p><p>Kvadraten är 0 när \\(x=2\\), och då är f minst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -82850,7 +83130,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ange värdemängden till \\(f(x)=-(x-6)^2+7\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen har största värdet 7 och kan bli hur liten som helst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\le 7\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största värdet 7 vid \\(x=6\\)</p><p>\\(-(x-6)^2\\le0\\), så \\(f(x)\\le7\\).</p></li><li><p class=\"facit-rubrik\">Inget minsta värde</p><p>När x går långt från 6 blir f hur negativ som helst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\le 7\\)</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": true,
@@ -82878,15 +83158,18 @@ window.BANKMATO1 = [
       },
       {
         "txt": "\\(y\\ge 7\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Parabeln vänder nedåt, så 7 är det största värdet, inte det minsta."
       },
       {
         "txt": "\\(y\\le 6\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "6 är x-värdet för toppen, inte funktionsvärdet."
       },
       {
         "txt": "Alla reella tal",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "f kan aldrig bli större än 7."
       }
     ]
   },
@@ -82925,41 +83208,41 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt"
   },
   {
-  "id": "3.896",
-  "kap": 3,
-  "omr": "storsta_minsta",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Ett företags vinst per dag är \\(V(x)=-2x^2+40x-50\\) kr när \\(x\\) varor tillverkas. Bestäm den största möjliga vinsten.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera och sätt derivatan lika med noll.</p><div class=\"facit-matte\">\\[V'(x)=-4x+40=0\\]</div><p>Det ger x = 10. Parabeln är nedåtvänd, så där finns dess största värde.</p></li><li><p>Beräkna vinsten vid detta antal varor.</p><div class=\"facit-matte\">\\[V(10)=-2\\cdot10^2+40\\cdot10-50\\]</div><div class=\"facit-matte\">\\[=150\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 150 kr.</strong></p></div>",
-  "familj": "Extremvärden och värdemängd",
-  "geogebra": false,
-  "miniräknare": true,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "ledtrad": "<p>Bestäm först det antal varor som ger störst vinst.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 1,
-  "spel": true,
-  "omrTidigare": [
-    "extremvardesproblem"
-  ],
-  "familjTidigare": [
-    "Geometrisk optimering med sammansatt figur"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 150,
-  "tolerans": null,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "kr"
-},
+    "id": "3.896",
+    "kap": 3,
+    "omr": "storsta_minsta",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett företags vinst per dag är \\(V(x)=-2x^2+40x-50\\) kr när \\(x\\) varor tillverkas. Bestäm den största möjliga vinsten.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(V'(x)=0\\)</p><div class=\"facit-matte\">\\[V'(x)=-4x+40=0\\quad\\Rightarrow\\quad x=10\\]</div></li><li><p class=\"facit-rubrik\">Största vinsten vid 10 varor</p><div class=\"facit-matte\">\\[V(10)=-200+400-50=150\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 150 kr</p></div>",
+    "familj": "Extremvärden och värdemängd",
+    "geogebra": false,
+    "miniräknare": true,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Bestäm först det antal varor som ger störst vinst.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "omrTidigare": [
+      "extremvardesproblem"
+    ],
+    "familjTidigare": [
+      "Geometrisk optimering med sammansatt figur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 150,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr"
+  },
   {
     "id": "3.897",
     "kap": 3,
@@ -83249,7 +83532,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=-(x-3)^2+12\\). Vilket är funktionens största värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvadraten är minst 0, så \\(f(x)\\le 12\\).</p></li><li><div class=\"facit-berakning\"><p>Värdet 12 antas när</p><div class=\"facit-matte\">\\[x=3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ, så \\(-(x-h)^2\\le0\\): \\(f(x)\\le12\\)</p><p>Likhet när \\(x=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -83352,7 +83635,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm det x-värde där \\(f(x)=-x^2+4x-1\\) har sitt största värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=-2x+4=0\\Rightarrow x=2\\].</div></li><li><p>Andragradstermen är negativ, så det är ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=-2x+4=0\\quad\\Rightarrow\\quad x=2\\]</div></li><li><p class=\"facit-rubrik\">Konstanten −1 påverkar inte läget</p><p>Bara höjden ändras, inte var maximum ligger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -83422,7 +83705,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Funktionen \\(f(x)=-(x-6)^2+8\\) används bara för \\(1\\le x\\le4\\). Bestäm funktionens största värde i intervallet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Maximipunkten \\(x=6\\) ligger utanför intervallet.</p></li><li><p>Funktionen är växande i hela intervallet,</p></li><li><div class=\"facit-berakning\"><p>så det största värdet antas i den högra ändpunkten:</p><div class=\"facit-matte\">\\[f(4)=4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Maximipunkten \\(x=6\\) ligger utanför \\(1\\le x\\le4\\)</p><p>f är växande i hela intervallet.</p></li><li><p class=\"facit-rubrik\">Största värdet i högra ändpunkten</p><div class=\"facit-matte\">\\[f(4)=-4+8=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -83492,7 +83775,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En boll kastas rakt upp. Höjden över marken är \\(h(t)=-5t^2+30t+2\\) meter efter \\(t\\) sekunder. Hur högt når bollen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h'(t)=-10t+30=0\\Rightarrow t=3\\].</div><div class=\"facit-matte\">\\[h(3)=47\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 47 m</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bollen är som högst när \\(h'(t)=0\\)</p><div class=\"facit-matte\">\\[h'(t)=-10t+30=0\\quad\\Rightarrow\\quad t=3\\]</div></li><li><p class=\"facit-rubrik\">Höjden efter 3 s</p><div class=\"facit-matte\">\\[h(3)=-45+90+2=47\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 47 m</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -83630,7 +83913,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ange värdemängden till \\(f(x)=-(x-5)^2+5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen har största värdet 5 och kan bli hur liten som helst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\le 5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största värdet 5 vid \\(x=5\\)</p><p>\\(-(x-5)^2\\le0\\), så \\(f(x)\\le5\\).</p></li><li><p class=\"facit-rubrik\">Inget minsta värde</p><p>f kan bli hur negativ som helst, och värdet 5 antas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\le 5\\)</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": true,
@@ -83658,54 +83941,57 @@ window.BANKMATO1 = [
       },
       {
         "txt": "\\(y\\ge 5\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Parabeln vänder nedåt, så 5 är det största värdet, inte det minsta."
       },
       {
         "txt": "\\(y\\lt 5\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Värdet 5 antas när \\(x=5\\), så det ska ingå."
       },
       {
         "txt": "Alla reella tal",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "f kan aldrig bli större än 5."
       }
     ]
   },
   {
-  "id": "3.917",
-  "kap": 3,
-  "omr": "storsta_minsta",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Ett företags vinst per dag är \\(V(x)=-2x^2+60x-50\\) kr när \\(x\\) varor tillverkas. Bestäm den största möjliga vinsten.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera och sätt derivatan lika med noll.</p><div class=\"facit-matte\">\\[V'(x)=-4x+60=0\\]</div><p>Det ger x = 15. Parabeln är nedåtvänd, så där finns dess största värde.</p></li><li><p>Beräkna vinsten vid detta antal varor.</p><div class=\"facit-matte\">\\[V(15)=-2\\cdot15^2+60\\cdot15-50\\]</div><div class=\"facit-matte\">\\[=400\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 400 kr.</strong></p></div>",
-  "familj": "Extremvärden och värdemängd",
-  "geogebra": false,
-  "miniräknare": true,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "ledtrad": "<p>Bestäm först det antal varor som ger störst vinst.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 1,
-  "spel": true,
-  "omrTidigare": [
-    "extremvardesproblem"
-  ],
-  "familjTidigare": [
-    "Två hagar mot vägg"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 400,
-  "tolerans": null,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "kr"
-},
+    "id": "3.917",
+    "kap": 3,
+    "omr": "storsta_minsta",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett företags vinst per dag är \\(V(x)=-2x^2+60x-50\\) kr när \\(x\\) varor tillverkas. Bestäm den största möjliga vinsten.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(V'(x)=0\\)</p><div class=\"facit-matte\">\\[V'(x)=-4x+60=0\\quad\\Rightarrow\\quad x=15\\]</div></li><li><p class=\"facit-rubrik\">Största vinsten vid 15 varor</p><div class=\"facit-matte\">\\[V(15)=-450+900-50=400\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 400 kr</p></div>",
+    "familj": "Extremvärden och värdemängd",
+    "geogebra": false,
+    "miniräknare": true,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Bestäm först det antal varor som ger störst vinst.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "omrTidigare": [
+      "extremvardesproblem"
+    ],
+    "familjTidigare": [
+      "Två hagar mot vägg"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 400,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr"
+  },
   {
     "id": "3.918",
     "kap": 3,
@@ -83752,7 +84038,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=(x-3)^2+6\\). Vid vilket x-värde får funktionen sitt minsta värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Kvadraten är minst när den är 0, alltså när</p><div class=\"facit-matte\">\\[x=3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är minst 0: \\((x-3)^2\\ge0\\)</p><p>Kvadraten är 0 när \\(x=3\\), och då är f minst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -83786,7 +84072,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=(x-12)^2+29\\). Vid vilket x-värde får funktionen sitt minsta värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Kvadraten är minst när den är 0, alltså när</p><div class=\"facit-matte\">\\[x=12\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är minst 0: \\((x-12)^2\\ge0\\)</p><p>Kvadraten är 0 när \\(x=12\\), och då är f minst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -84249,7 +84535,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=-(x-6)^2+12\\). Vilket är funktionens största värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvadraten är minst 0, så \\(f(x)\\le 12\\).</p></li><li><div class=\"facit-berakning\"><p>Värdet 12 antas när</p><div class=\"facit-matte\">\\[x=6\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ, så \\(-(x-h)^2\\le0\\): \\(f(x)\\le12\\)</p><p>Likhet när \\(x=6\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -84317,7 +84603,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm det x-värde där \\(f(x)=-x^2+10x-13\\) har sitt största värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=-2x+10=0\\Rightarrow x=5\\].</div></li><li><p>Andragradstermen är negativ, så det är ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=-2x+10=0\\quad\\Rightarrow\\quad x=5\\]</div></li><li><p class=\"facit-rubrik\">Nedåtvänd parabel ger maximum</p><p>Koefficienten framför \\(x^2\\) är negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -84385,7 +84671,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=-(x-4)^2+3\\). Vilket är funktionens största värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvadraten är minst 0, så \\(f(x)\\le 3\\).</p></li><li><div class=\"facit-berakning\"><p>Värdet 3 antas när</p><div class=\"facit-matte\">\\[x=4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ, så \\(-(x-h)^2\\le0\\): \\(f(x)\\le3\\)</p><p>Likhet när \\(x=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -84419,7 +84705,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm det x-värde där \\(f(x)=-x^2+10x-20\\) har sitt största värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=-2x+10=0\\Rightarrow x=5\\].</div></li><li><p>Andragradstermen är negativ, så det är ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=-2x+10=0\\quad\\Rightarrow\\quad x=5\\]</div></li><li><p class=\"facit-rubrik\">Konstanten −20 påverkar inte läget</p><p>Maximum ligger där derivatan är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -84453,7 +84739,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Funktionen \\(f(x)=-(x-5)^2+3\\) används bara för \\(0\\le x\\le3\\). Bestäm funktionens största värde i intervallet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Maximipunkten \\(x=5\\) ligger utanför intervallet.</p></li><li><p>Funktionen är växande i hela intervallet,</p></li><li><div class=\"facit-berakning\"><p>så det största värdet antas i den högra ändpunkten:</p><div class=\"facit-matte\">\\[f(3)=-1\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Maximipunkten \\(x=5\\) ligger utanför \\(0\\le x\\le3\\)</p><p>f är växande i hela intervallet.</p></li><li><p class=\"facit-rubrik\">Största värdet i högra ändpunkten</p><div class=\"facit-matte\">\\[f(3)=-4+3=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -84865,7 +85151,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\int_1^3 3x^2\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är \\(x^3\\).</p><div class=\"facit-matte\">\\[3^3-1^3=26\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 26</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(x^n\\): \\(\\dfrac{x^{n+1}}{n+1}\\)</p><div class=\"facit-matte\">\\[F(x)=x^3\\]</div></li><li><p class=\"facit-rubrik\">Integralkalkylens huvudsats: \\(F(b)-F(a)\\)</p><div class=\"facit-matte\">\\[3^3-1^3=26\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 26</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
@@ -84899,7 +85185,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Integralen \\(\\int_0^4 6x\\,dx\\) kan tolkas som arean av en triangel. Bestäm integralens värde genom att beräkna triangelns area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Triangeln har basen 4 och höjden</p><div class=\"facit-matte\">\\[6\\cdot4=24\\].</div></div></li><li><div class=\"facit-berakning\"><p>Area:</p><div class=\"facit-matte\">\\[\\frac{4\\cdot24}{2}=48\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 48</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Under \\(y=6x\\) bildas en triangel</p><p>Basen är 4 och höjden \\(6\\cdot4=24\\).</p></li><li><p class=\"facit-rubrik\">Triangelns area: bas · höjd / 2</p><div class=\"facit-matte\">\\[\\frac{4\\cdot24}{2}=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 48</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -85211,7 +85497,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\int_0^5 (-3)\\,dx\\) och förklara varför svaret blir negativt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Integranden är konstant:</p><div class=\"facit-matte\">\\[-3\\cdot(5-0)=-15\\].</div></div></li><li><p>Grafen ligger under x-axeln, så integralen blir negativ trots att arean är positiv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −15</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstant integrand: rektangel med höjd · bredd – under x-axeln</p><div class=\"facit-matte\">\\[\\int_0^5(-3)\\,dx=-3\\cdot5=-15\\]</div></li><li><p class=\"facit-rubrik\">Grafen ligger under x-axeln</p><p>Grafen \\(y=-3\\) ligger under x-axeln, så integralen räknar arean med minustecken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-15\\)</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -85246,7 +85532,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Tolka \\(\\int_1^4 4x\\,dx\\) som en area och bestäm integralens värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Området är ett parallelltrapets med de parallella sidorna \\(4\\) och \\(16\\) och höjden \\(3\\).</p></li><li><div class=\"facit-berakning\"><p>Area:</p><div class=\"facit-matte\">\\[\\frac{(4+16)\\cdot3}{2}=30\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Under \\(y=4x\\) från 1 till 4 bildas ett parallelltrapets</p><p>Sidorna är \\(4\\cdot1=4\\) och \\(4\\cdot4=16\\), höjden \\(4-1=3\\).</p></li><li><p class=\"facit-rubrik\">Parallelltrapetsets area: \\(\\tfrac{(a+b)h}{2}\\)</p><div class=\"facit-matte\">\\[\\frac{(4+16)\\cdot3}{2}=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -85419,7 +85705,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\int_0^4(4x+5)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En primitiv funktion är</p><div class=\"facit-matte\">\\[F(x)=2x^2+5x\\].</div></div><div class=\"facit-matte\">\\[F(4)-F(0)=52\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 52</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion term för term</p><div class=\"facit-matte\">\\[F(x)=2x^2+5x\\]</div></li><li><p class=\"facit-rubrik\">Integralkalkylens huvudsats: \\(F(b)-F(a)\\)</p><div class=\"facit-matte\">\\[F(4)-F(0)=32+20=52\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 52</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
@@ -85453,7 +85739,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\int_0^6 x^2\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är \\(\\frac{x^3}{3}\\).</p><div class=\"facit-matte\">\\[\\frac{6^3}{3}-0=72\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 72</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(x^n\\): \\(\\dfrac{x^{n+1}}{n+1}\\)</p><div class=\"facit-matte\">\\[F(x)=\\frac{x^3}{3}\\]</div></li><li><p class=\"facit-rubrik\">Integralkalkylens huvudsats: \\(F(b)-F(a)\\)</p><div class=\"facit-matte\">\\[\\frac{216}{3}-0=72\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 72</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
@@ -85487,7 +85773,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Beräkna  \\(\\int_0^4 x\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{1}2x^2\\).</p></li><li><div class=\"facit-berakning\"><p>Värdet blir</p><div class=\"facit-matte\">\\[1\\cdot 4^2/2=8\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(x^n\\): \\(\\dfrac{x^{n+1}}{n+1}\\)</p><div class=\"facit-matte\">\\[F(x)=\\frac{x^2}{2}\\]</div></li><li><p class=\"facit-rubrik\">Integralkalkylens huvudsats: \\(F(b)-F(a)\\)</p><div class=\"facit-matte\">\\[\\frac{16}{2}-0=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
@@ -86575,7 +86861,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\int_2^3 3x^2\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är \\(x^3\\).</p><div class=\"facit-matte\">\\[3^3-2^3=19\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(x^n\\): \\(\\dfrac{x^{n+1}}{n+1}\\)</p><div class=\"facit-matte\">\\[F(x)=x^3\\]</div></li><li><p class=\"facit-rubrik\">Integralkalkylens huvudsats: \\(F(b)-F(a)\\)</p><div class=\"facit-matte\">\\[3^3-2^3=27-8=19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
@@ -86717,7 +87003,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En boll kastas rakt upp. Höjden över marken är \\(h(t)=-5t^2+10t+1\\) meter efter \\(t\\) sekunder. Hur högt når bollen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h'(t)=-10t+10=0\\Rightarrow t=1\\].</div><div class=\"facit-matte\">\\[h(1)=6\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 m</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bollen är som högst när \\(h'(t)=0\\)</p><div class=\"facit-matte\">\\[h'(t)=-10t+10=0\\quad\\Rightarrow\\quad t=1\\]</div></li><li><p class=\"facit-rubrik\">Höjden efter 1 s</p><div class=\"facit-matte\">\\[h(1)=-5+10+1=6\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 m</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -87268,7 +87554,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\int_0^4 (-4)\\,dx\\) och förklara varför svaret blir negativt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Integranden är konstant:</p><div class=\"facit-matte\">\\[-4\\cdot(4-0)=-16\\].</div></div></li><li><p>Grafen ligger under x-axeln, så integralen blir negativ trots att arean är positiv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −16</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstant integrand: rektangel med höjd · bredd – under x-axeln</p><div class=\"facit-matte\">\\[\\int_0^4(-4)\\,dx=-4\\cdot4=-16\\]</div></li><li><p class=\"facit-rubrik\">Grafen ligger under x-axeln</p><p>Integralen räknar arean 16 med minustecken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-16\\)</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -87541,7 +87827,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ange värdemängden till \\(f(x)=-(x-2)^2+8\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen har största värdet 8 och kan bli hur liten som helst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\le 8\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största värdet 8 vid \\(x=2\\)</p><p>\\(-(x-2)^2\\le0\\), så \\(f(x)\\le8\\).</p></li><li><p class=\"facit-rubrik\">Inget minsta värde</p><p>f kan bli hur negativ som helst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\le 8\\)</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": true,
@@ -87569,15 +87855,18 @@ window.BANKMATO1 = [
       },
       {
         "txt": "\\(y\\ge 8\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Parabeln vänder nedåt, så 8 är det största värdet, inte det minsta."
       },
       {
         "txt": "\\(y\\le 2\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "2 är x-värdet för toppen, inte funktionsvärdet."
       },
       {
         "txt": "Alla reella tal",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "f kan aldrig bli större än 8."
       }
     ]
   },
@@ -87592,7 +87881,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\int_0^3 4x^3\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är \\(x^4\\).</p><div class=\"facit-matte\">\\[3^4-0=81\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 81</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(x^n\\): \\(\\dfrac{x^{n+1}}{n+1}\\)</p><div class=\"facit-matte\">\\[F(x)=x^4\\]</div></li><li><p class=\"facit-rubrik\">Integralkalkylens huvudsats: \\(F(b)-F(a)\\)</p><div class=\"facit-matte\">\\[3^4-0=81\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 81</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
@@ -87626,7 +87915,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Integralen \\(\\int_0^5 2x\\,dx\\) kan tolkas som arean av en triangel. Bestäm integralens värde genom att beräkna triangelns area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Triangeln har basen 5 och höjden</p><div class=\"facit-matte\">\\[2\\cdot5=10\\].</div></div></li><li><div class=\"facit-berakning\"><p>Area:</p><div class=\"facit-matte\">\\[\\frac{5\\cdot10}{2}=25\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Under \\(y=2x\\) bildas en triangel</p><p>Basen är 5 och höjden \\(2\\cdot5=10\\).</p></li><li><p class=\"facit-rubrik\">Triangelns area: bas · höjd / 2</p><div class=\"facit-matte\">\\[\\frac{5\\cdot10}{2}=25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -88365,7 +88654,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett företags vinst per dag är \\(V(x)=-2x^2+60x-50\\) kr när \\(x\\) varor tillverkas. Bestäm den största möjliga vinsten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V'(x)=-4x+60=0\\Rightarrow x=15\\].</div></li><li><p>\\(V(15)=-2\\cdot15^2+60\\cdot15-50=400\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 400 kr</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(V'(x)=0\\)</p><div class=\"facit-matte\">\\[V'(x)=-4x+60=0\\quad\\Rightarrow\\quad x=15\\]</div></li><li><p class=\"facit-rubrik\">Största vinsten vid 15 varor</p><div class=\"facit-matte\">\\[V(15)=-450+900-50=400\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 400 kr</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": true,
@@ -88539,7 +88828,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=-(x-5)^2+10\\). Vilket är funktionens största värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvadraten är minst 0, så \\(f(x)\\le 10\\).</p></li><li><div class=\"facit-berakning\"><p>Värdet 10 antas när</p><div class=\"facit-matte\">\\[x=5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är aldrig negativ, så \\(-(x-h)^2\\le0\\): \\(f(x)\\le10\\)</p><p>Likhet när \\(x=5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -88779,7 +89068,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm det exakta värdet av \\(\\cos 120^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"#243447\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"#243447\"/><line x1=\"160\" y1=\"95\" x2=\"125.0\" y2=\"34.4\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"125.0\" cy=\"34.4\" r=\"4\" fill=\"#243447\"/><text x=\"250\" y=\"91\" fill=\"#243447\" font-size=\"12\">x</text><text x=\"166\" y=\"18\" fill=\"#243447\" font-size=\"12\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> I enhetscirkeln är</p><div class=\"facit-matte\">\\[\\cos 120^\\circ=-0,5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> -0.5</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(120^\\circ\\) ligger i andra kvadranten, referensvinkel \\(60^\\circ\\)</p><p>x-koordinaten är negativ.</p></li><li><p class=\"facit-rubrik\">Cosinus för \\(60^\\circ\\) med minustecken</p><div class=\"facit-matte\">\\[\\cos120^\\circ=-\\cos60^\\circ=-\\frac12=-0{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}5\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -88812,7 +89101,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Två sidor i en triangel är 9 cm och 12 cm och vinkeln mellan dem är \\(90^\\circ\\). Bestäm den tredje sidan med cosinussatsen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Triangel med givna sidor och korrekt placerade vinklar\"><g font-family=\"Arial,sans-serif\"><polygon points=\"75,245 385,245 273.4,96.2\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"350.32\" y=\"154.76\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">9 cm</text><text x=\"156.2\" y=\"146.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">12 cm</text><text x=\"230\" y=\"275\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">c = ?</text><polyline points=\"263,104 270.8,114.4 281.2,106.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></g></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[\\begin{aligned}c^2&=9^2+12^2\\\\&\\quad-2\\cdot9\\cdot12\\cos90^\\circ\\\\&=225.\\end{aligned}\\].</div></div></li><li><p>Alltså \\(c=15\\) cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med \\(\\cos90^\\circ=0\\)</p><div class=\"facit-matte\">\\[c^2=9^2+12^2-0=225\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten ur 225</p><div class=\"facit-matte\">\\[c=\\sqrt{225}=15\\ \\text{cm}\\]</div><p>Samma resultat som Pythagoras sats.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -88866,35 +89155,35 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "4.432",
-  "kap": 4,
-  "omr": "linjar_optimering",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Målfunktionen är \\(Z=2x+y\\). Bestäm \\(Z\\) i punkten \\((1,2)\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[Z=2\\cdot1+1\\cdot2=4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
-  "familj": "Grafisk optimering",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 4,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
-  "traningsniva": 1,
-  "arbetsinsats": 1,
-  "spel": true,
-  "svarFormat": "numeriskt",
-  "familjTidigare": [
-    "Optimera en målfunktion grafiskt"
-  ]
-},
+    "id": "4.432",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Målfunktionen är \\(Z=2x+y\\). Bestäm \\(Z\\) i punkten \\((1,2)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\((1,2)\\) i \\(Z=2x+y\\)</p><div class=\"facit-matte\">\\[Z=2\\cdot1+2=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
+    "familj": "Grafisk optimering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjTidigare": [
+      "Optimera en målfunktion grafiskt"
+    ]
+  },
   {
     "id": "4.433",
     "kap": 4,
@@ -88905,7 +89194,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna summan av de tre första termerna i följden \\(2, 4, 8,\\ldots\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[2+4+8=14\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De tre första termerna</p><div class=\"facit-matte\">\\[2,\\ 4,\\ 8\\]</div></li><li><p class=\"facit-rubrik\">Addera termerna</p><div class=\"facit-matte\">\\[2+4+8=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": false,
@@ -88968,7 +89257,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel är sidan mittemot vinkeln \\(v\\) 6 cm och hypotenusan 10 cm. Bestäm \\(\\sin v\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Triangel med givna sidor och korrekt placerade vinklar\"><g font-family=\"Arial,sans-serif\"><polygon points=\"75,245 348.333,245 348.333,40\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"374.733\" y=\"142.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">6 cm</text><text x=\"193.667\" y=\"118.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">10 cm</text><polyline points=\"105,245 104.984,244.035 104.938,243.071 104.86,242.109 104.752,241.15 104.613,240.195 104.443,239.244 104.242,238.3 104.012,237.363 103.751,236.434 103.46,235.513 103.141,234.603 102.792,233.703 102.414,232.814 102.008,231.939 101.573,231.077 101.112,230.229 100.623,229.397 100.108,228.581 99.567,227.781 99,227\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"120.537\" y=\"229.821\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"currentColor\">v</text><polyline points=\"348.333,232 335.333,232 335.333,245\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></g></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[\\begin{aligned}\\sin v&=\\frac{\\text{motstående}}{\\text{hypotenusa}}\\\\&=\\frac{6}{10}=0{,}6.\\end{aligned}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,6</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinus = motstående katet / hypotenusa</p><div class=\"facit-matte\">\\[\\sin v=\\frac{6}{10}=0{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,6</p></div>",
     "familj": "Avstånd och triangulering",
     "geogebra": false,
     "miniräknare": false,
@@ -89025,35 +89314,35 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "4.437",
-  "kap": 4,
-  "omr": "linjar_optimering",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Målfunktionen är \\(Z=2x+5y\\). Bestäm \\(Z\\) i punkten \\((1,1)\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[Z=2\\cdot1+5\\cdot1=7\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
-  "familj": "Ställa upp optimeringsproblem",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 7,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
-  "traningsniva": 1,
-  "arbetsinsats": 1,
-  "spel": true,
-  "svarFormat": "numeriskt",
-  "familjTidigare": [
-    "Ställa upp och lösa linjära optimeringsproblem"
-  ]
-},
+    "id": "4.437",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Målfunktionen är \\(Z=2x+5y\\). Bestäm \\(Z\\) i punkten \\((1,1)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\((1,1)\\) i \\(Z=2x+5y\\)</p><div class=\"facit-matte\">\\[Z=2+5=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
+    "familj": "Ställa upp optimeringsproblem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjTidigare": [
+      "Ställa upp och lösa linjära optimeringsproblem"
+    ]
+  },
   {
     "id": "4.438",
     "kap": 4,
@@ -89098,7 +89387,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En stolpe är 4 m hög. Från en punkt på marken ses toppen med höjdvinkeln \\(45^\\circ\\). Hur långt är det horisontella avståndet till stolpen?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Triangel med givna sidor och korrekt placerade vinklar\"><g font-family=\"Arial,sans-serif\"><polygon points=\"75,245 280,245 280,40\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"306\" y=\"142.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">4 m</text><text x=\"177.5\" y=\"271\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">x</text><polyline points=\"105,245 104.977,243.822 104.908,242.646 104.792,241.474 104.631,240.307 104.424,239.147 104.171,237.997 103.874,236.857 103.532,235.729 103.146,234.616 102.716,233.519 102.244,232.44 101.73,231.38 101.175,230.341 100.579,229.325 99.944,228.333 99.271,227.366 98.56,226.427 97.812,225.517 97.03,224.636 96.213,223.787\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"119.346\" y=\"226.631\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"currentColor\">45°</text><polyline points=\"280,232 267,232 267,245\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"280\" y1=\"245\" x2=\"280\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"5\"/></g></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> \\(\\tan45^\\circ=\\frac{4}{x}=1\\), så \\(x=4\\) m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangens = motstående katet / närliggande katet</p><div class=\"facit-matte\">\\[\\tan45^\\circ=\\frac4x=1\\]</div></li><li><p class=\"facit-rubrik\">Lös ut x</p><div class=\"facit-matte\">\\[x=4\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 m</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": false,
@@ -89131,7 +89420,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Två lantmätare står i punkterna \\(A\\) och \\(B\\), 500 m från varandra. De siktar mot ett torn \\(T\\) på andra sidan en flod. Vinkeln \\(TAB\\) är \\(62^\\circ\\) och vinkeln \\(TBA\\) är \\(71^\\circ\\).</p><p>Bestäm avståndet \\(AT\\) och det kortaste avståndet från tornet till linjen \\(AB\\). Svara i meter med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Vinkeln vid tornet:</p><div class=\"facit-matte\">\\[180^\\circ-62^\\circ-71^\\circ=47^\\circ\\].</div></div></li><li><p>Sinussatsen: \\(\\dfrac{AT}{\\sin71^\\circ}=\\dfrac{500}{\\sin47^\\circ}\\), alltså \\(AT=\\dfrac{500\\sin71^\\circ}{\\sin47^\\circ}\\approx646{,}4\\) m.</p></li><li><p>Kortaste avståndet till linjen är höjden från \\(T\\): \\(h=AT\\cdot\\sin62^\\circ\\approx570{,}8\\) m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(AT\\approx646{,}4\\) m och avståndet till linjen är cirka 570,8 m</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkelsumman i en triangel är \\(180^\\circ\\)</p><div class=\"facit-matte\">\\[\\text{vinkeln vid tornet}=180^\\circ-62^\\circ-71^\\circ=47^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sinussatsen: \\(\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}\\): AT ligger mittemot 71°</p><div class=\"facit-matte\">\\[AT=\\frac{500\\cdot\\sin71^\\circ}{\\sin47^\\circ}\\approx646{,}4\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Kortaste avståndet är höjden från T</p><div class=\"facit-matte\">\\[h=AT\\cdot\\sin62^\\circ\\approx646{,}4\\cdot0{,}883\\approx570{,}8\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> AT ≈ 646,4 m, avståndet till linjen ≈ 570,8 m</p></div>",
     "familj": "Avstånd och triangulering",
     "formaga": [
       "problemlösning",
@@ -89173,7 +89462,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En geometrisk talföljd börjar \\(4, 8, 16,\\ldots\\). Bestäm kvoten \\(q\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Dela en term med föregående term:</p><div class=\"facit-matte\">\\[8/4=2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten = en term delad med termen före</p><div class=\"facit-matte\">\\[q=\\frac84=2\\]</div><p>Kontroll: \\(16/8=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div>",
     "familj": "Geometriska talföljder",
     "geogebra": false,
     "miniräknare": false,
@@ -89203,7 +89492,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna summan av de tre första termerna i följden \\(2, 6, 18,\\ldots\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[2+6+18=26\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 26</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De tre första termerna</p><div class=\"facit-matte\">\\[2,\\ 6,\\ 18\\]</div></li><li><p class=\"facit-rubrik\">Addera termerna</p><div class=\"facit-matte\">\\[2+6+18=26\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\)</p></div>",
     "familj": "Geometriska summor i tillämpningar",
     "geogebra": false,
     "miniräknare": false,
@@ -89315,35 +89604,35 @@ window.BANKMATO1 = [
     "svarEnhet": "°"
   },
   {
-  "id": "4.444",
-  "kap": 4,
-  "omr": "linjar_optimering",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Målfunktionen är \\(Z=3x+y\\). Bestäm \\(Z\\) i punkten \\((3,1)\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[Z=3\\cdot3+1\\cdot1=10\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
-  "familj": "Fördjupad linjär optimering",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 10,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
-  "traningsniva": 1,
-  "arbetsinsats": 1,
-  "spel": true,
-  "svarFormat": "numeriskt",
-  "familjTidigare": [
-    "Fördjupad linjär optimering och modellanalys"
-  ]
-},
+    "id": "4.444",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Målfunktionen är \\(Z=3x+y\\). Bestäm \\(Z\\) i punkten \\((3,1)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\((3,1)\\) i \\(Z=3x+y\\)</p><div class=\"facit-matte\">\\[Z=9+1=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
+    "familj": "Fördjupad linjär optimering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjTidigare": [
+      "Fördjupad linjär optimering och modellanalys"
+    ]
+  },
   {
     "id": "4.445",
     "kap": 4,
@@ -89354,7 +89643,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm det exakta värdet av \\(\\sin 180^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"190\" rx=\"10\" fill=\"#fff\"/><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"#334155\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"#334155\"/><line x1=\"160\" y1=\"95\" x2=\"90.0\" y2=\"95.0\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><circle cx=\"90.0\" cy=\"95.0\" r=\"4\" fill=\"#1d4ed8\"/><text x=\"250\" y=\"91\" fill=\"#334155\" font-size=\"14\">x</text><text x=\"166\" y=\"18\" fill=\"#334155\" font-size=\"14\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> I enhetscirkeln är</p><div class=\"facit-matte\">\\[\\sin 180^\\circ=0\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(180^\\circ\\) ger punkten \\((-1,0)\\)</p><div class=\"facit-matte\">\\[\\sin180^\\circ=0\\]</div><p>Sinus är y-koordinaten, som är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -89387,7 +89676,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Två sidor i en triangel är 6 cm och 8 cm. Vinkeln mellan dem är \\(90^\\circ\\). Bestäm den tredje sidan med cosinussatsen. Svara i cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Rätvinklig triangel med kateterna 6 cm och 8 cm. Sidan c mittemot den räta vinkeln är okänd.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><line x1=\"100\" y1=\"210\" x2=\"197.5\" y2=\"210\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"100\" y1=\"210\" x2=\"100\" y2=\"80\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"100\" y1=\"80\" x2=\"197.5\" y2=\"210\" stroke=\"#172033\" stroke-width=\"2\"/><path d=\"M100 194 h16 v16\" fill=\"none\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"148.75\" y=\"240\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">6 cm</text><text x=\"80\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172033\">8 cm</text><text x=\"178.75\" y=\"133\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">c = ?</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I cosinussatsen försvinner den sista termen eftersom cos 90° = 0. Då får du samma samband som i Pythagoras sats.</p><div class=\"facit-matte\">\\[c^2=6^2+8^2-2\\cdot6\\cdot8\\cos90^\\circ=100,\\qquad c=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 cm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med \\(\\cos90^\\circ=0\\)</p><div class=\"facit-matte\">\\[c^2=6^2+8^2-0=100\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten ur 100</p><div class=\"facit-matte\">\\[c=10\\ \\text{cm}\\]</div><p>Cosinussatsen blir Pythagoras sats när vinkeln är rät.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": false,
@@ -89421,7 +89710,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två sidor i en triangel är 3 cm och 4 cm. Vinkeln mellan dem är \\(90^\\circ\\). Bestäm den tredje sidan med cosinussatsen. Svara i cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Rätvinklig triangel med kateterna 3 cm och 4 cm. Sidan c mittemot den räta vinkeln är okänd.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><line x1=\"100\" y1=\"210\" x2=\"197.5\" y2=\"210\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"100\" y1=\"210\" x2=\"100\" y2=\"80\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"100\" y1=\"80\" x2=\"197.5\" y2=\"210\" stroke=\"#172033\" stroke-width=\"2\"/><path d=\"M100 194 h16 v16\" fill=\"none\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"148.75\" y=\"240\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">3 cm</text><text x=\"80\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172033\">4 cm</text><text x=\"178.75\" y=\"133\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">c = ?</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I cosinussatsen försvinner den sista termen eftersom cos 90° = 0. Då får du samma samband som i Pythagoras sats.</p><div class=\"facit-matte\">\\[c^2=3^2+4^2-2\\cdot3\\cdot4\\cos90^\\circ=25,\\qquad c=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 cm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med \\(\\cos90^\\circ=0\\)</p><div class=\"facit-matte\">\\[c^2=3^2+4^2-0=25\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten ur 25</p><div class=\"facit-matte\">\\[c=5\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": false,
@@ -89623,125 +89912,125 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "4.452",
-  "kap": 4,
-  "omr": "linjar_optimering",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Målfunktionen är \\(Z=2x+2y\\). Vid en viss punkt är \\(Z=8\\) och \\(y=1\\). Bestäm punktens x-koordinat.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in de kända värdena: \\(8=2x+2\\cdot1\\). Då är \\(2x=6\\), alltså \\(x=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(3\\)</strong></p></div>",
-  "familj": "Fördjupad linjär optimering",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 3,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "ledtrad": "<p>Sätt in \\(Z=8\\) och \\(y=1\\). Vilken ekvation får du för \\(x\\)?</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": "numeriskt",
-  "familjTidigare": [
-    "Analysera parameter i linjär optimering"
-  ]
-},
+    "id": "4.452",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Målfunktionen är \\(Z=2x+2y\\). Vid en viss punkt är \\(Z=8\\) och \\(y=1\\). Bestäm punktens x-koordinat.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(Z=8\\) och \\(y=1\\)</p><div class=\"facit-matte\">\\[8=2x+2\\quad\\Rightarrow\\quad 2x=6\\quad\\Rightarrow\\quad x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
+    "familj": "Fördjupad linjär optimering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in \\(Z=8\\) och \\(y=1\\). Vilken ekvation får du för \\(x\\)?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjTidigare": [
+      "Analysera parameter i linjär optimering"
+    ]
+  },
   {
-  "id": "4.453",
-  "kap": 4,
-  "omr": "linjar_optimering",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Målfunktionen är \\(Z=2x+2y\\). Det tillåtna området har hörnpunkterna \\((0,0)\\), \\((0, 3)\\) och \\((5, 0)\\). Vilket är det största värdet av \\(Z\\) i dessa hörnpunkter?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"230\" viewBox=\"0 0 340 230\" role=\"img\" aria-label=\"Triangulärt tillåtet område\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><polygon points=\"55,185 55,80 230,185\" fill=\"#2D70B3\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M35 185 H310 M55 205 V35\" fill=\"none\" stroke=\"currentColor\"/><text x=\"313\" y=\"190\" font-size=\"14\">x</text><text x=\"60\" y=\"30\" font-size=\"14\">y</text><text x=\"15\" y=\"203\" font-size=\"13\">(0, 0)</text><text x=\"12\" y=\"70\" font-size=\"13\">(0, 3)</text><text x=\"230\" y=\"205\" text-anchor=\"middle\" font-size=\"13\">(5, 0)</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Beräkna målfunktionen i hörnpunkterna: Z(0, 0)=0; Z(0, 3)=6; Z(5, 0)=10.</p></li><li><p>Största värdet är 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
-  "familj": "Fördjupad linjär optimering",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 10,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "ledtrad": "<p>I linjär optimering räcker det att jämföra målfunktionen i hörnpunkterna.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": "numeriskt",
-  "familjTidigare": [
-    "Analysera parameter i linjär optimering"
-  ]
-},
+    "id": "4.453",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Målfunktionen är \\(Z=2x+2y\\). Det tillåtna området har hörnpunkterna \\((0,0)\\), \\((0, 3)\\) och \\((5, 0)\\). Vilket är det största värdet av \\(Z\\) i dessa hörnpunkter?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"230\" viewBox=\"0 0 340 230\" role=\"img\" aria-label=\"Triangulärt tillåtet område\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><polygon points=\"55,185 55,80 230,185\" fill=\"#2D70B3\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M35 185 H310 M55 205 V35\" fill=\"none\" stroke=\"currentColor\"/><text x=\"313\" y=\"190\" font-size=\"14\">x</text><text x=\"60\" y=\"30\" font-size=\"14\">y</text><text x=\"15\" y=\"203\" font-size=\"13\">(0, 0)</text><text x=\"12\" y=\"70\" font-size=\"13\">(0, 3)</text><text x=\"230\" y=\"205\" text-anchor=\"middle\" font-size=\"13\">(5, 0)</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=2x+2y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\quad Z(0,3)=6,\\quad Z(5,0)=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
+    "familj": "Fördjupad linjär optimering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I linjär optimering räcker det att jämföra målfunktionen i hörnpunkterna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjTidigare": [
+      "Analysera parameter i linjär optimering"
+    ]
+  },
   {
-  "id": "4.454",
-  "kap": 4,
-  "omr": "linjar_optimering",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Målfunktionen är \\(Z=4x+y\\). Hur mycket större är målfunktionens värde i punkten \\((3,3)\\) än i punkten \\((2,6)\\)?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I den första punkten är värdet \\(4\\cdot3+3=15\\). I den andra är det \\(4\\cdot2+6=14\\).</p></li><li><p>Skillnaden är \\(15-14=1\\). Det större y-värdet ger alltså inte automatiskt det större målfunktionsvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(1\\)</strong></p></div>",
-  "familj": "Fördjupad linjär optimering",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 1,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "ledtrad": "<p>Beräkna målfunktionens värde i båda punkterna och jämför.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": "numeriskt",
-  "familjTidigare": [
-    "Jämföra målfunktioner i linjär optimering"
-  ]
-},
+    "id": "4.454",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Målfunktionen är \\(Z=4x+y\\). Hur mycket större är målfunktionens värde i punkten \\((3,3)\\) än i punkten \\((2,6)\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Z i båda punkterna</p><div class=\"facit-matte\">\\[Z(3,3)=12+3=15,\\qquad Z(2,6)=8+6=14\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden mellan värdena</p><div class=\"facit-matte\">\\[15-14=1\\]</div><p>Större y-värde ger inte automatiskt större Z.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+    "familj": "Fördjupad linjär optimering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Beräkna målfunktionens värde i båda punkterna och jämför.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjTidigare": [
+      "Jämföra målfunktioner i linjär optimering"
+    ]
+  },
   {
-  "id": "4.455",
-  "kap": 4,
-  "omr": "linjar_optimering",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "2/0/0",
-  "t": "<p>Målfunktionen är \\(Z=4x+5y\\). Det tillåtna området har hörnpunkterna \\((0,0)\\), \\((0, 3)\\) och \\((6, 0)\\). Vilket är det största värdet av \\(Z\\) i dessa hörnpunkter?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"230\" viewBox=\"0 0 340 230\" role=\"img\" aria-label=\"Triangulärt tillåtet område\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><polygon points=\"55,185 55,80 265,185\" fill=\"#2D70B3\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M35 185 H310 M55 205 V35\" fill=\"none\" stroke=\"currentColor\"/><text x=\"313\" y=\"190\" font-size=\"14\">x</text><text x=\"60\" y=\"30\" font-size=\"14\">y</text><text x=\"15\" y=\"203\" font-size=\"13\">(0, 0)</text><text x=\"12\" y=\"70\" font-size=\"13\">(0, 3)</text><text x=\"265\" y=\"205\" text-anchor=\"middle\" font-size=\"13\">(6, 0)</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Beräkna målfunktionen i hörnpunkterna: Z(0, 0)=0; Z(0, 3)=15; Z(6, 0)=24.</p></li><li><p>Största värdet är 24.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24</p></div>",
-  "familj": "Fördjupad linjär optimering",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 24,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "ledtrad": "<p>I linjär optimering räcker det att jämföra målfunktionen i hörnpunkterna.</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": "numeriskt",
-  "familjTidigare": [
-    "Jämföra målfunktioner i linjär optimering"
-  ]
-},
+    "id": "4.455",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Målfunktionen är \\(Z=4x+5y\\). Det tillåtna området har hörnpunkterna \\((0,0)\\), \\((0, 3)\\) och \\((6, 0)\\). Vilket är det största värdet av \\(Z\\) i dessa hörnpunkter?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"230\" viewBox=\"0 0 340 230\" role=\"img\" aria-label=\"Triangulärt tillåtet område\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><polygon points=\"55,185 55,80 265,185\" fill=\"#2D70B3\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M35 185 H310 M55 205 V35\" fill=\"none\" stroke=\"currentColor\"/><text x=\"313\" y=\"190\" font-size=\"14\">x</text><text x=\"60\" y=\"30\" font-size=\"14\">y</text><text x=\"15\" y=\"203\" font-size=\"13\">(0, 0)</text><text x=\"12\" y=\"70\" font-size=\"13\">(0, 3)</text><text x=\"265\" y=\"205\" text-anchor=\"middle\" font-size=\"13\">(6, 0)</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En linjär målfunktion får sitt största och minsta värde i ett hörn: beräkna \\(Z=4x+5y\\) i hörnen</p><div class=\"facit-matte\">\\[Z(0,0)=0,\\quad Z(0,3)=15,\\quad Z(6,0)=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24</p></div>",
+    "familj": "Fördjupad linjär optimering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I linjär optimering räcker det att jämföra målfunktionen i hörnpunkterna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjTidigare": [
+      "Jämföra målfunktioner i linjär optimering"
+    ]
+  },
   {
     "id": "4.456",
     "kap": 4,
@@ -89752,7 +90041,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna summan av de tre första termerna i följden \\(3, 6, 12,\\ldots\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[3+6+12=21\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De tre första termerna</p><div class=\"facit-matte\">\\[3,\\ 6,\\ 12\\]</div></li><li><p class=\"facit-rubrik\">Addera termerna</p><div class=\"facit-matte\">\\[3+6+12=21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(21\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": false,
@@ -89782,7 +90071,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En geometrisk talföljd har första termen 3 och kvoten 3. Bestäm summan av de första 4 termerna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Termerna är 3, 9, 27, 81.</p></li><li><p>Summan är 120.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 120</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera med kvoten 3 för varje ny term</p><div class=\"facit-matte\">\\[3,\\ 9,\\ 27,\\ 81\\]</div></li><li><p class=\"facit-rubrik\">Addera de fyra termerna</p><div class=\"facit-matte\">\\[3+9+27+81=120\\]</div><p>Summaformeln ger samma sak: \\(3\\cdot\\frac{3^4-1}{3-1}=120\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\)</p></div>",
     "familj": "Beräkna geometriska summor",
     "geogebra": false,
     "miniräknare": false,
@@ -89803,35 +90092,35 @@ window.BANKMATO1 = [
     ]
   },
   {
-  "id": "4.458",
-  "kap": 4,
-  "omr": "linjar_optimering",
-  "kurs": [
-    "1b"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Målfunktionen är \\(Z=3x+5y\\). När \\(x\\) ökar med 1 minskar samtidigt \\(y\\) med 1. Bestäm förändringen i \\(Z\\), det vill säga det nya värdet minus det gamla.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ökningen av \\(x\\) bidrar med \\(+3\\) till målfunktionen. Minskningen av \\(y\\) bidrar med \\(-5\\).</p></li><li><p>Den sammanlagda förändringen är \\(3-5=-2\\). Målfunktionen minskar alltså med 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-2\\)</strong></p></div>",
-  "familj": "Ställa upp optimeringsproblem",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": -2,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "ledtrad": "<p>Hur mycket bidrar var och en av förändringarna med till \\(3x+5y\\)?</p>",
-  "traningsniva": 2,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": "numeriskt",
-  "familjTidigare": [
-    "Formulera bivillkor i linjär optimering"
-  ]
-},
+    "id": "4.458",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Målfunktionen är \\(Z=3x+5y\\). När \\(x\\) ökar med 1 minskar samtidigt \\(y\\) med 1. Bestäm förändringen i \\(Z\\), det vill säga det nya värdet minus det gamla.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bidraget från ändringen i x</p><div class=\"facit-matte\">\\[3\\cdot(+1)=+3\\]</div></li><li><p class=\"facit-rubrik\">Bidraget från ändringen i y</p><div class=\"facit-matte\">\\[5\\cdot(-1)=-5\\]</div></li><li><p class=\"facit-rubrik\">Summera bidragen</p><div class=\"facit-matte\">\\[3-5=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\)</p></div>",
+    "familj": "Ställa upp optimeringsproblem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur mycket bidrar var och en av förändringarna med till \\(3x+5y\\)?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjTidigare": [
+      "Formulera bivillkor i linjär optimering"
+    ]
+  },
   {
     "id": "4.461",
     "kap": 4,
@@ -89842,7 +90131,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Två sidor i en triangel är 8 cm och 15 cm. Vinkeln mellan dem är \\(90^\\circ\\). Bestäm den tredje sidan med cosinussatsen. Svara i cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Rätvinklig triangel med kateterna 8 cm och 15 cm. Sidan c mittemot den räta vinkeln är okänd.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><line x1=\"100\" y1=\"210\" x2=\"169.333\" y2=\"210\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"100\" y1=\"210\" x2=\"100\" y2=\"80\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"100\" y1=\"80\" x2=\"169.333\" y2=\"210\" stroke=\"#172033\" stroke-width=\"2\"/><path d=\"M100 194 h16 v16\" fill=\"none\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"134.667\" y=\"240\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">8 cm</text><text x=\"80\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172033\">15 cm</text><text x=\"164.667\" y=\"133\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">c = ?</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I cosinussatsen försvinner den sista termen eftersom cos 90° = 0. Då får du samma samband som i Pythagoras sats.</p><div class=\"facit-matte\">\\[c^2=8^2+15^2-2\\cdot8\\cdot15\\cos90^\\circ=289,\\qquad c=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17 cm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med \\(\\cos90^\\circ=0\\)</p><div class=\"facit-matte\">\\[c^2=8^2+15^2-0=289\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten ur 289</p><div class=\"facit-matte\">\\[c=17\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": false,
@@ -89907,7 +90196,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Två sidor i en triangel är 9 cm och 12 cm och vinkeln mellan dem är \\(60^\\circ\\). Bestäm den tredje sidan med cosinussatsen. Svara med en decimal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" style=\"max-width:100%;height:auto;color:#243247\" role=\"img\" aria-label=\"Triangel med givna sidor och korrekt placerade vinklar\"><g font-family=\"Arial,sans-serif\"><polygon points=\"75,245 331.44,245 272.261,40\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2.2\"/><text x=\"327.215\" y=\"135.178\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">9 cm</text><text x=\"152.013\" y=\"121.699\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">12 cm</text><text x=\"203.22\" y=\"275\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"14\" fill=\"currentColor\">c = ?</text><polyline points=\"251.46,61.617 252.62,62.676 253.834,63.673 255.098,64.605 256.409,65.47 257.764,66.264 259.158,66.987 260.589,67.636 262.051,68.209 263.541,68.705 265.056,69.122 266.59,69.459 268.139,69.715 269.7,69.89 271.268,69.984 272.838,69.994 274.407,69.923 275.97,69.77 277.523,69.535 279.062,69.219 280.582,68.823\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><text x=\"260.732\" y=\"86.595\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-size=\"13\" fill=\"currentColor\">60°</text></g></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cosinussatsen använder de två givna sidorna och vinkeln mellan dem:</p><div class=\"facit-matte\">\\[\\begin{aligned}c^2&=9^2+12^2\\\\&\\quad-2\\cdot9\\cdot12\\cos60^\\circ\\\\&=117.\\end{aligned}\\]</div></li><li><p>Ta den positiva kvadratroten eftersom en längd är positiv:</p><div class=\"facit-matte\">\\[c=\\sqrt{117}\\approx10{,}8\\,\\mathrm{cm}.\\]</div></li><li><p>Den tredje sidan är cirka <strong>10,8 cm</strong>.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(10{,}8\\) cm</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 60°</p><div class=\"facit-matte\">\\[c^2=9^2+12^2-2\\cdot9\\cdot12\\cdot\\frac12=225-108=117\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten ur 117</p><div class=\"facit-matte\">\\[c=\\sqrt{117}\\approx10{,}8\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10,8 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -89941,7 +90230,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två sidor i en triangel är 5 cm och 12 cm. Vinkeln mellan dem är \\(90^\\circ\\). Bestäm den tredje sidan med cosinussatsen. Svara i cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Rätvinklig triangel med kateterna 5 cm och 12 cm. Sidan c mittemot den räta vinkeln är okänd.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><line x1=\"100\" y1=\"210\" x2=\"154.167\" y2=\"210\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"100\" y1=\"210\" x2=\"100\" y2=\"80\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"100\" y1=\"80\" x2=\"154.167\" y2=\"210\" stroke=\"#172033\" stroke-width=\"2\"/><path d=\"M100 194 h16 v16\" fill=\"none\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"127.083\" y=\"240\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">5 cm</text><text x=\"80\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172033\">12 cm</text><text x=\"157.083\" y=\"133\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">c = ?</text></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I cosinussatsen försvinner den sista termen eftersom cos 90° = 0. Då får du samma samband som i Pythagoras sats.</p><div class=\"facit-matte\">\\[c^2=5^2+12^2-2\\cdot5\\cdot12\\cos90^\\circ=169,\\qquad c=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13 cm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med \\(\\cos90^\\circ=0\\)</p><div class=\"facit-matte\">\\[c^2=5^2+12^2-0=169\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten ur 169</p><div class=\"facit-matte\">\\[c=13\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": false,
@@ -89975,7 +90264,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>En parallellogram har sidorna 5 cm och 8 cm. Den spetsiga vinkeln är \\(60^\\circ\\).</p><p>Bestäm längden av båda diagonalerna. Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den korta diagonalen ligger mitt emot den spetsiga vinkeln \\(60^\\circ\\):</p><p>\\[d_1^2=5^2+8^2-2\\cdot5\\cdot8\\cos60^\\circ=89-40=49\\;\\Rightarrow\\;d_1=7\\text{ cm}.\\]</p></li><li><p>Den långa diagonalen ligger mitt emot den trubbiga vinkeln \\(120^\\circ\\), och \\(\\cos120^\\circ=-\\frac12\\):</p><p>\\[d_2^2=89+40=129\\;\\Rightarrow\\;d_2=\\sqrt{129}\\approx11{,}36\\text{ cm}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,00 cm och cirka 11,36 cm</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Korta diagonalen ligger mittemot vinkeln 60°</p><div class=\"facit-matte\">\\[d_1^2=5^2+8^2-2\\cdot5\\cdot8\\cos60^\\circ=89-40=49\\]</div><div class=\"facit-matte\">\\[\\Rightarrow d_1=7\\]</div></li><li><p class=\"facit-rubrik\">Långa diagonalen mittemot vinkeln 120°</p><div class=\"facit-matte\">\\[d_2^2=89-2\\cdot5\\cdot8\\cos120^\\circ=89+40=129\\]</div><div class=\"facit-matte\">\\[d_2=\\sqrt{129}\\approx11{,}36\\]</div><p>Grannvinklarna i en parallellogram är tillsammans 180°.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,00 cm och cirka 11,36 cm</p></div>",
     "familj": "Använda cosinussatsen",
     "formaga": [
       "problemlösning",
@@ -90017,7 +90306,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm det exakta värdet av \\(\\sin 150^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"#243447\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"#243447\"/><line x1=\"160\" y1=\"95\" x2=\"99.4\" y2=\"60.0\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"99.4\" cy=\"60.0\" r=\"4\" fill=\"#243447\"/><text x=\"250\" y=\"91\" fill=\"#243447\" font-size=\"12\">x</text><text x=\"166\" y=\"18\" fill=\"#243447\" font-size=\"12\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> I enhetscirkeln är</p><div class=\"facit-matte\">\\[\\sin 150^\\circ=0,5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(150^\\circ\\) ligger i andra kvadranten, referensvinkel \\(30^\\circ\\)</p><p>y-koordinaten är positiv.</p></li><li><p class=\"facit-rubrik\">Samma sinus som \\(30^\\circ\\)</p><div class=\"facit-matte\">\\[\\sin150^\\circ=\\sin30^\\circ=0{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5</p></div>",
     "familj": "Koordinater och vinklar i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -91255,7 +91544,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm det x-värde där \\(f(x)=-x^2+2x+11\\) har sitt största värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=-2x+2=0\\Rightarrow x=1\\].</div></li><li><p>Andragradstermen är negativ, så det är ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[f'(x)=-2x+2=0\\quad\\Rightarrow\\quad x=1\\]</div></li><li><p class=\"facit-rubrik\">Nedåtvänd parabel ger maximum</p><p>Koefficienten framför \\(x^2\\) är negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -92668,7 +92957,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Du vet att \\(\\int_0^2 f(x)\\,dx=18\\) och \\(\\int_2^5 f(x)\\,dx=9\\). Bestäm \\(\\int_0^5 f(x)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Integraler över intilliggande intervall adderas:</p><div class=\"facit-matte\">\\[18+9=27\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 27</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additivitet: \\(\\int_a^b f\\,dx+\\int_b^c f\\,dx=\\int_a^c f\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_0^5f\\,dx=18+9=27\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 27</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -92702,7 +92991,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Du vet att \\(\\int_0^2 f(x)\\,dx=18\\) och \\(\\int_2^5 f(x)\\,dx=11\\). Bestäm \\(\\int_0^5 f(x)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Integraler över intilliggande intervall adderas:</p><div class=\"facit-matte\">\\[18+11=29\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 29</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additivitet: \\(\\int_a^b f\\,dx+\\int_b^c f\\,dx=\\int_a^c f\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_0^5f\\,dx=18+11=29\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 29</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -92736,7 +93025,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\int_0^3 4x^3\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är \\(x^4\\).</p><div class=\"facit-matte\">\\[3^4-0=81\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 81</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vilken funktion har derivatan \\(4x^3\\)?</p><div class=\"facit-matte\">\\[F(x)=x^4\\]</div></li><li><p class=\"facit-rubrik\">Övre minus undre gräns</p><div class=\"facit-matte\">\\[3^4-0^4=81\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 81</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
@@ -92770,7 +93059,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Beräkna  \\(\\int_0^2 x\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{1}2x^2\\).</p></li><li><div class=\"facit-berakning\"><p>Värdet blir</p><div class=\"facit-matte\">\\[1\\cdot 2^2/2=2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(x^n\\): \\(\\dfrac{x^{n+1}}{n+1}\\)</p><div class=\"facit-matte\">\\[F(x)=\\frac{x^2}{2}\\]</div></li><li><p class=\"facit-rubrik\">Integralkalkylens huvudsats: \\(F(b)-F(a)\\)</p><div class=\"facit-matte\">\\[\\frac{4}{2}-0=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
@@ -93003,7 +93292,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm det exakta värdet av \\(\\cos 180^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"#243447\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"#243447\"/><line x1=\"160\" y1=\"95\" x2=\"90.0\" y2=\"95.0\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"90.0\" cy=\"95.0\" r=\"4\" fill=\"#243447\"/><text x=\"250\" y=\"91\" fill=\"#243447\" font-size=\"12\">x</text><text x=\"166\" y=\"18\" fill=\"#243447\" font-size=\"12\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> I enhetscirkeln är</p><div class=\"facit-matte\">\\[\\cos 180^\\circ=-1\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> -1</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(180^\\circ\\) ger punkten \\((-1,0)\\)</p><div class=\"facit-matte\">\\[\\cos180^\\circ=-1\\]</div><p>Cosinus är x-koordinaten, som är −1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
@@ -93036,7 +93325,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Det gäller att \\(\\sin v=0{,}6\\) och \\(90^\\circ&lt;v&lt;180^\\circ\\).</p><p>Bestäm utan att bestämma \\(v\\):</p><p><strong>a)</strong> \\(\\cos v\\) &nbsp; <strong>b)</strong> \\(\\sin(180^\\circ-v)\\) &nbsp; <strong>c)</strong> \\(\\cos(180^\\circ+v)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Punkten \\((\\cos v,\\ \\sin v)\\) ligger på enhetscirkeln, så Pythagoras sats ger</p><div class=\"facit-matte\">\\[\\cos^2v=1-0{,}36=0{,}64\\].</div></div></li><li><p>Eftersom \\(v\\) ligger i andra kvadranten är \\(\\cos v\\) negativ: \\(\\cos v=-0{,}8\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Spegling i \\(y\\)-axeln: \\(\\sin(180^\\circ-v)=\\sin v=0{,}6\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Spegling i origo:</p><div class=\"facit-matte\">\\[\\cos(180^\\circ+v)=-\\cos v=0{,}8\\].</div></div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(-0{,}8\\) &nbsp; b) 0,6 &nbsp; c) 0,8</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Pythagoras sats i enhetscirkeln: \\(\\sin^2v+\\cos^2v=1\\)</p><div class=\"facit-matte\">\\[\\cos^2v=1-0{,}36=0{,}64\\]</div><p>Andra kvadranten: \\(\\cos v=-0{,}8\\).</p></li><li><p class=\"facit-rubrik\">b) \\(180^\\circ-v\\): spegling i y-axeln behåller y</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-v)=\\sin v=0{,}6\\]</div></li><li><p class=\"facit-rubrik\">c) \\(180^\\circ+v\\): spegling i origo byter båda tecknen</p><div class=\"facit-matte\">\\[\\cos(180^\\circ+v)=-\\cos v=0{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(-0{,}8\\), b) 0,6, c) 0,8</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "formaga": [
       "begrepp",
@@ -93146,7 +93435,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\int_0^3(2x+3)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En primitiv funktion är</p><div class=\"facit-matte\">\\[F(x)=1x^2+3x\\].</div></div><div class=\"facit-matte\">\\[F(3)-F(0)=18\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion term för term</p><div class=\"facit-matte\">\\[F(x)=x^2+3x\\]</div></li><li><p class=\"facit-rubrik\">Integralkalkylens huvudsats: \\(F(b)-F(a)\\)</p><div class=\"facit-matte\">\\[F(3)-F(0)=9+9=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
@@ -93180,7 +93469,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Beräkna arean av området som begränsas av linjen \\(y=5x\\), x-axeln och linjen \\(x=4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\int_0^45x\\,dx=\\left[\\frac{5x^2}{2}\\right]_0^4=40\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40 areaenheter</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean som integral från 0 till 4</p><div class=\"facit-matte\">\\[A=\\int_0^45x\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Primitiv funktion till \\(x^n\\): \\(\\dfrac{x^{n+1}}{n+1}\\)</p><div class=\"facit-matte\">\\[\\left[\\frac{5x^2}{2}\\right]_0^4=40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40 areaenheter</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
@@ -94008,7 +94297,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Funktionen \\(f(x)=-(x-4)^2+10\\) används bara för \\(0\\le x\\le3\\). Bestäm funktionens största värde i intervallet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Maximipunkten \\(x=4\\) ligger utanför intervallet.</p></li><li><p>Funktionen är växande i hela intervallet,</p></li><li><div class=\"facit-berakning\"><p>så det största värdet antas i den högra ändpunkten:</p><div class=\"facit-matte\">\\[f(3)=9\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Maximipunkten \\(x=4\\) ligger utanför \\(0\\le x\\le3\\)</p><p>f är växande i hela intervallet.</p></li><li><p class=\"facit-rubrik\">Största värdet i högra ändpunkten</p><div class=\"facit-matte\">\\[f(3)=-1+10=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -94690,7 +94979,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En boll kastas rakt upp. Höjden över marken är \\(h(t)=-5t^2+30t+2\\) meter efter \\(t\\) sekunder. Hur högt når bollen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h'(t)=-10t+30=0\\Rightarrow t=3\\].</div><div class=\"facit-matte\">\\[h(3)=47\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 47 m</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bollen är som högst när \\(h'(t)=0\\)</p><div class=\"facit-matte\">\\[h'(t)=-10t+30=0\\quad\\Rightarrow\\quad t=3\\]</div></li><li><p class=\"facit-rubrik\">Höjden efter 3 s</p><div class=\"facit-matte\">\\[h(3)=-45+90+2=47\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 47 m</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -95123,7 +95412,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\int_0^2 3x^2\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är \\(x^3\\).</p><div class=\"facit-matte\">\\[2^3-0^3=8\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Primitiv funktion till \\(x^n\\): \\(\\dfrac{x^{n+1}}{n+1}\\)</p><div class=\"facit-matte\">\\[F(x)=x^3\\]</div></li><li><p class=\"facit-rubrik\">Integralkalkylens huvudsats: \\(F(b)-F(a)\\)</p><div class=\"facit-matte\">\\[2^3-0^3=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
@@ -95157,7 +95446,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Tolka \\(\\int_1^5 2x\\,dx\\) som en area och bestäm integralens värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Området är ett parallelltrapets med de parallella sidorna \\(2\\) och \\(10\\) och höjden \\(4\\).</p></li><li><div class=\"facit-berakning\"><p>Area:</p><div class=\"facit-matte\">\\[\\frac{(2+10)\\cdot4}{2}=24\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Under \\(y=2x\\) från 1 till 5 bildas ett parallelltrapets</p><p>Sidorna är \\(2\\) och \\(10\\), höjden 4.</p></li><li><p class=\"facit-rubrik\">Parallelltrapetsets area: \\(\\tfrac{(a+b)h}{2}\\)</p><div class=\"facit-matte\">\\[\\frac{(2+10)\\cdot4}{2}=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -95573,7 +95862,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ange värdemängden till \\(f(x)=-(x-6)^2+8\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen har största värdet 8 och kan bli hur liten som helst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\le 8\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största värdet 8 vid \\(x=6\\)</p><p>\\(-(x-6)^2\\le0\\), så \\(f(x)\\le8\\).</p></li><li><p class=\"facit-rubrik\">Inget minsta värde</p><p>f kan bli hur negativ som helst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\le 8\\)</p></div>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": true,
@@ -95601,15 +95890,18 @@ window.BANKMATO1 = [
       },
       {
         "txt": "\\(y\\ge 8\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Parabeln vänder nedåt, så 8 är det största värdet, inte det minsta."
       },
       {
         "txt": "\\(y\\le 6\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "6 är x-värdet för toppen, inte funktionsvärdet."
       },
       {
         "txt": "Alla reella tal",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "f kan aldrig bli större än 8."
       }
     ]
   },
@@ -95624,7 +95916,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/3",
     "t": "<p>Funktionen \\(f(x)=x^3-3x\\) betraktas på intervallet \\(-2\\le x\\le a\\), där \\(a&gt;-1\\).</p><p>Bestäm det största värde på \\(a\\) som gör att funktionens största värde på intervallet är 2.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=3x^2-3=0\\) ger \\(x=\\pm1\\).</p></li><li><p>\\(f(-1)=2\\) är ett lokalt maximum och \\(f(1)=-2\\) ett lokalt minimum.</p></li><li><div class=\"facit-berakning\"><p>I vänstra ändpunkten är</p><div class=\"facit-matte\">\\[f(-2)=-2\\].</div></div></li><li><p>När \\(a&gt;-1\\) ingår \\(x=-1\\), så det största värdet är minst 2.</p></li><li><p>Det blir större än 2 först när \\(f(a)&gt;2\\).</p><div class=\"facit-matte\">\\[f(x)=2\\Leftrightarrow x^3-3x-2=0\\Leftrightarrow(x+1)^2(x-2)=0\\].</div></li><li><p>Alltså är \\(f(x)\\le2\\) för alla \\(x\\le2\\), och \\(f(x)&gt;2\\) för \\(x&gt;2\\).</p></li><li><p>Det största värdet är 2 så länge \\(-1&lt;a\\le2\\), och det största \\(a\\) är 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lokalt max och min</p><div class=\"facit-matte\">\\[f'(x)=3x^2-3=0\\]</div><div class=\"facit-matte\">\\[\\Rightarrow x=\\pm1,\\qquad f(-1)=2,\\quad f(1)=-2\\]</div></li><li><p class=\"facit-rubrik\">När \\(a\\gt-1\\) ingår \\(x=-1\\)</p><p>Största värdet är alltså minst 2. Det blir större först om \\(f(a)\\gt2\\).</p></li><li><p class=\"facit-rubrik\">När är \\(f(x)=2\\)? Faktorisera med nollstället \\(-1\\)</p><div class=\"facit-matte\">\\[x^3-3x-2=(x+1)^2(x-2)=0\\]</div><p>För \\(x\\le2\\) är \\(f(x)\\le2\\), och för \\(x\\gt2\\) är \\(f(x)\\gt2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2\\)</p></div>",
     "familj": "Största och minsta värde på ett intervall",
     "formaga": [
       "problemlösning",
@@ -95826,7 +96118,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm värdet av</p><p>\\[\\int_2^2 f(x)\\,dx.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrationsintervallet har längden 0.</p></li><li><p>Därför är integralen 0, oavsett vilken funktion \\(f\\) är.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Intervallet har längden 0</p><div class=\"facit-matte\">\\[\\int_2^2f\\,dx=F(2)-F(2)=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -95860,7 +96152,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Du vet att</p><p>\\[\\int_1^4 f(x)\\,dx=7.\\]</p><p>Bestäm \\(\\int_4^1 f(x)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När integrationsgränserna byter plats byter integralen tecken:</p><p>\\[\\int_4^1 f(x)\\,dx=-7.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-7\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Byt plats på gränserna: \\(\\int_b^a f\\,dx=-\\int_a^b f\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_4^1f\\,dx=-\\int_1^4f\\,dx=-7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-7\\)</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -95895,7 +96187,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Du vet att \\(\\int_0^3 f(x)\\,dx=5\\). Bestäm</p><p>\\[\\int_0^3 2f(x)\\,dx.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Konstanten kan flyttas ut ur integralen:</p><p>\\[\\int_0^3 2f(x)\\,dx=2\\int_0^3 f(x)\\,dx=2\\cdot5=10.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(10\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En konstant faktor kan flyttas ut</p><div class=\"facit-matte\">\\[\\int_0^32f\\,dx=2\\int_0^3f\\,dx=2\\cdot5=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -95930,7 +96222,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Du vet att</p><p>\\[\\int_1^3 f(x)\\,dx=3\\quad\\text{och}\\quad\\int_1^3 g(x)\\,dx=-1.\\]</p><p>Bestäm \\(\\int_1^3(f(x)+g(x))\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralen av en summa är summan av integralerna:</p><p>\\[3+(-1)=2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integralen av en summa är summan av integralerna</p><div class=\"facit-matte\">\\[\\int_1^3(f+g)\\,dx=3+(-1)=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -95965,7 +96257,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Du vet att</p><p>\\[\\int_0^5 f(x)\\,dx=10\\quad\\text{och}\\quad\\int_0^2 f(x)\\,dx=4.\\]</p><p>Bestäm \\(\\int_2^5 f(x)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralen över hela intervallet är summan av de två delarna:</p><p>\\[10=4+\\int_2^5 f(x)\\,dx.\\]</p></li><li><p>Alltså är integralen 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(6\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additivitet: \\(\\int_a^b f\\,dx+\\int_b^c f\\,dx=\\int_a^c f\\,dx\\)</p><div class=\"facit-matte\">\\[10=4+\\int_2^5f\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Lös ut den sökta integralen</p><div class=\"facit-matte\">\\[\\int_2^5f\\,dx=10-4=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -95999,7 +96291,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f\\) är jämn och</p><p>\\[\\int_0^3 f(x)\\,dx=5.\\]</p><p>Bestäm \\(\\int_{-3}^{3}f(x)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För en jämn funktion är bidragen på båda sidor om y-axeln lika stora:</p><p>\\[\\int_{-3}^{3}f(x)\\,dx=2\\int_0^3 f(x)\\,dx=10.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(10\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämn funktion: \\(\\int_{-a}^{a}f\\,dx=2\\int_0^af\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_{-3}^{3}f\\,dx=2\\cdot5=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -96034,7 +96326,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) är udda. Bestäm</p><p>\\[\\int_{-4}^{4}f(x)\\,dx.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För en udda funktion tar bidragen på symmetriska intervall ut varandra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Udda funktion på symmetriskt intervall: bidragen tar ut varandra</p><p>En udda funktion är punktsymmetrisk kring origo.</p><div class=\"facit-matte\">\\[\\int_{-4}^{4}f\\,dx=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -96068,7 +96360,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Du vet att \\(\\int_0^2 f(x)\\,dx=4\\). Bestäm</p><p>\\[\\int_0^2(f(x)+3)\\,dx.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\int_0^2(f(x)+3)\\,dx=\\int_0^2 f(x)\\,dx+\\int_0^2 3\\,dx=4+6=10.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Linearitet: \\(\\int(af+bg)\\,dx=a\\int f\\,dx+b\\int g\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_0^2(f+3)\\,dx=\\int_0^2f\\,dx+\\int_0^23\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Konstanten 3 över intervallet med längd 2</p><div class=\"facit-matte\">\\[4+3\\cdot2=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -96103,7 +96395,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Det gäller att \\(f(x)\\ge0\\) för alla \\(x\\) med \\(1\\le x\\le4\\). Vilket påstående måste vara sant?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom funktionen aldrig ligger under x-axeln kan den bestämda integralen inte bli negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\int_1^4 f(x)\\,dx\\ge0\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f\\ge0\\): grafen ligger aldrig under x-axeln</p><p>Då kan integralen inte bli negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\int_1^4 f(x)\\,dx\\ge0\\)</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -96125,7 +96417,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Integralens tecken"
     ],
-    "alternativ": [{"txt": "\\(\\int_1^4 f(x)\\,dx\\ge0\\)", "ratt": true}, {"txt": "\\(\\int_1^4 f(x)\\,dx=0\\) alltid", "ratt": false}, {"txt": "\\(\\int_1^4 f(x)\\,dx&lt;0\\)", "ratt": false}, {"txt": "Integralens tecken går inte att avgöra", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(\\int_1^4 f(x)\\,dx\\ge0\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(\\int_1^4 f(x)\\,dx=0\\) alltid",
+        "ratt": false,
+        "kommentar": "Integralen är 0 bara om f är 0 på hela intervallet."
+      },
+      {
+        "txt": "\\(\\int_1^4 f(x)\\,dx&lt;0\\)",
+        "ratt": false,
+        "kommentar": "Integralen kan inte bli negativ när f aldrig är negativ."
+      },
+      {
+        "txt": "Integralens tecken går inte att avgöra",
+        "ratt": false,
+        "kommentar": "Tecknet går att avgöra: f ≥ 0 ger en integral ≥ 0."
+      }
+    ]
   },
   {
     "id": "3.1128",
@@ -96138,7 +96450,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm arean mellan grafen till \\(f(x)=x\\), x-axeln och linjerna \\(x=0\\) och \\(x=2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A=\\int_0^2x\\,dx=\\left[\\frac{x^2}{2}\\right]_0^2=2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 areaenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grafen ligger ovanför x-axeln</p><div class=\"facit-matte\">\\[A=\\int_0^2x\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Primitiv funktion till \\(x^n\\): \\(\\dfrac{x^{n+1}}{n+1}\\)</p><div class=\"facit-matte\">\\[\\left[\\frac{x^2}{2}\\right]_0^2=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 areaenheter</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
@@ -96172,7 +96484,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Grafen till \\(f(x)=4-x\\) ligger ovanför x-axeln för \\(0\\le x\\le4\\). Bestäm arean mellan grafen och x-axeln.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A=\\int_0^4(4-x)\\,dx=\\left[4x-\\frac{x^2}{2}\\right]_0^4=8.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 areaenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grafen ligger ovanför x-axeln</p><div class=\"facit-matte\">\\[A=\\int_0^4(4-x)\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Primitiv funktion och gränserna</p><div class=\"facit-matte\">\\[\\left[4x-\\frac{x^2}{2}\\right]_0^4=16-8=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 areaenheter</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
@@ -96206,7 +96518,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm exakt arean mellan grafen till \\(f(x)=x^2\\), x-axeln och linjerna \\(x=0\\) och \\(x=1\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A=\\int_0^1x^2\\,dx=\\left[\\frac{x^3}{3}\\right]_0^1=\\frac13.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1/3\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x^2\\ge0\\): arean är integralen</p><div class=\"facit-matte\">\\[A=\\int_0^1x^2\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Primitiv funktion till \\(x^n\\): \\(\\dfrac{x^{n+1}}{n+1}\\)</p><div class=\"facit-matte\">\\[\\left[\\frac{x^3}{3}\\right]_0^1=\\frac13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac13\\)</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
@@ -96240,7 +96552,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm arean mellan grafen till \\(f(x)=x+2\\), x-axeln och linjerna \\(x=0\\) och \\(x=3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A=\\int_0^3(x+2)\\,dx=\\left[\\frac{x^2}{2}+2x\\right]_0^3=10,5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10,5 areaenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x+2\\gt0\\): arean är integralen</p><div class=\"facit-matte\">\\[A=\\int_0^3(x+2)\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Primitiv funktion och gränserna</p><div class=\"facit-matte\">\\[\\left[\\frac{x^2}{2}+2x\\right]_0^3=4{,}5+6=10{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10,5 areaenheter</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
@@ -96274,7 +96586,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=-2\\). Bestäm den geometriska arean mellan grafen, x-axeln och linjerna \\(x=0\\) och \\(x=3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen ligger 2 enheter under x-axeln.</p></li><li><p>Den geometriska arean är därför</p><p>\\[3\\cdot2=6.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 areaenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Geometrisk area räknar alla delar positivt</p><p>Grafen ligger 2 enheter under x-axeln på ett intervall med längden 3.</p></li><li><p class=\"facit-rubrik\">Rektangel med bredd 3 och höjd 2</p><div class=\"facit-matte\">\\[3\\cdot2=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 areaenheter</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
@@ -96308,7 +96620,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Grafen till \\(f(x)=x-1\\) skär x-axeln vid \\(x=1\\). Bestäm den geometriska arean mellan grafen och x-axeln då \\(0\\le x\\le2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På \\(0\\le x\\le1\\) ligger grafen under x-axeln och på \\(1\\le x\\le2\\) över.</p></li><li><p>De två trianglarna har vardera area \\(1/2\\).</p><p>\\[A=\\frac12+\\frac12=1.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 areaenhet.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela vid nollstället \\(x=1\\)</p><p>Under x-axeln mellan 0 och 1, över mellan 1 och 2.</p></li><li><p class=\"facit-rubrik\">Två trianglar, båda räknas positiva</p><div class=\"facit-matte\">\\[A=\\frac{1\\cdot1}{2}+\\frac{1\\cdot1}{2}=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 areaenhet</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
@@ -96407,7 +96719,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) är icke-negativ då \\(1\\le x\\le4\\), och</p><p>\\[\\int_1^4f(x)\\,dx=7.\\]</p><p>Hur stor är arean mellan grafen och x-axeln på detta område?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(f(x)\\ge0\\) är den geometriska arean lika med integralen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 areaenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f\\ge0\\): arean är lika med integralen</p><div class=\"facit-matte\">\\[A=\\int_1^4f\\,dx=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 areaenheter</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -96441,7 +96753,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken integral ger arean mellan grafen till \\(f(x)=5-x^2\\), x-axeln och linjerna \\(x=0\\) och \\(x=2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På \\(0\\le x\\le2\\) är \\(5-x^2&gt;0\\), så arean fås direkt av</p><p>\\[\\int_0^2(5-x^2)\\,dx.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\int_0^2(5-x^2)\\,dx\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(5-x^2\\gt0\\) mellan 0 och 2</p><p>Arean är integralen av funktionen mellan de två lodräta linjerna.</p></li><li><p class=\"facit-rubrik\">Gränserna är linjerna \\(x=0\\) och \\(x=2\\)</p><div class=\"facit-matte\">\\[\\int_0^2(5-x^2)\\,dx\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\int_0^2(5-x^2)\\,dx\\)</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -96462,7 +96774,27 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Ställa upp area med integral"
     ],
-    "alternativ": [{"txt": "\\(\\int_2^5(5-x^2)\\,dx\\)", "ratt": false}, {"txt": "\\(\\int_0^2(x^2-5)\\,dx\\)", "ratt": false}, {"txt": "\\(\\int_0^2(5-x^2)\\,dx\\)", "ratt": true}, {"txt": "\\(\\int_0^5(2-x^2)\\,dx\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(\\int_2^5(5-x^2)\\,dx\\)",
+        "ratt": false,
+        "kommentar": "Gränserna ska vara 0 och 2, linjernas x-värden."
+      },
+      {
+        "txt": "\\(\\int_0^2(x^2-5)\\,dx\\)",
+        "ratt": false,
+        "kommentar": "Funktionen är \\(5-x^2\\), inte \\(x^2-5\\); den här integralen blir negativ."
+      },
+      {
+        "txt": "\\(\\int_0^2(5-x^2)\\,dx\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(\\int_0^5(2-x^2)\\,dx\\)",
+        "ratt": false,
+        "kommentar": "Både gränser och integrand är fel; funktionen är \\(5-x^2\\)."
+      }
+    ]
   },
   {
     "id": "3.1138",
@@ -96475,7 +96807,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Rektangeln bestäms av \\(0\\le x\\le2\\) och \\(0\\le y\\le3\\). Inuti rektangeln finns grafen \\(y=x\\). Bestäm arean av den del av rektangeln som ligger ovanför grafen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Rektangelns area är</p><div class=\"facit-matte\">\\[2\\cdot3=6\\].</div></div></li><li><p>Arean under grafen är</p><p>\\[\\int_0^2x\\,dx=2.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså är arean ovanför grafen</p><div class=\"facit-matte\">\\[6-2=4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 areaenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rektangelns area: bredd 2, höjd 3</p><div class=\"facit-matte\">\\[2\\cdot3=6\\]</div></li><li><p class=\"facit-rubrik\">Arean under \\(y=x\\)</p><div class=\"facit-matte\">\\[\\int_0^2x\\,dx=2\\]</div></li><li><p class=\"facit-rubrik\">Arean ovanför grafen</p><div class=\"facit-matte\">\\[6-2=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 areaenheter</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -96573,7 +96905,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Det gäller att</p><p>\\[\\int_0^4 f(x)\\,dx=9\\quad\\text{och}\\quad\\int_0^4 g(x)\\,dx=2.\\]</p><p>Bestäm \\(\\int_0^4\\bigl(f(x)-3g(x)\\bigr)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralens linearitet ger</p><p>\\[\\int_0^4(f-3g)\\,dx=\\int_0^4f\\,dx-3\\int_0^4g\\,dx=9-3\\cdot2=3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Linearitet: \\(\\int(af+bg)\\,dx=a\\int f\\,dx+b\\int g\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_0^4(f-3g)\\,dx=9-3\\cdot2=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -96608,7 +96940,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) är jämn och</p><p>\\[\\int_{-3}^{3}f(x)\\,dx=12.\\]</p><p>Bestäm \\(\\int_0^3f(x)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För en jämn funktion är integralbidragen lika stora på båda sidor om y-axeln:</p><p>\\[\\int_{-3}^{3}f(x)\\,dx=2\\int_0^3f(x)\\,dx.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså är</p><div class=\"facit-matte\">\\[\\int_0^3f(x)\\,dx=6\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämn funktion: \\(\\int_{-a}^{a}f\\,dx=2\\int_0^af\\,dx\\)</p><div class=\"facit-matte\">\\[12=2\\int_0^3f\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Dela med 2</p><div class=\"facit-matte\">\\[\\int_0^3f\\,dx=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
@@ -96643,7 +96975,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) ligger under x-axeln för \\(0\\le x\\le4\\) och</p><p>\\[\\int_0^4 f(x)\\,dx=-7.\\]</p><p>Hur stor är arean mellan grafen och x-axeln på detta intervall?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralen är negativ eftersom grafen ligger under x-axeln.</p></li><li><p>Geometrisk area är däremot positiv, så</p><p>\\[A=|-7|=7.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 areaenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Integralen är negativ eftersom grafen ligger under x-axeln</p><p>Den geometriska arean är positiv.</p></li><li><p class=\"facit-rubrik\">Geometrisk area räknar alla delar positivt</p><div class=\"facit-matte\">\\[A=|-7|=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 areaenheter</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
@@ -96677,7 +97009,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>För en funktion \\(f\\) gäller att</p><p>\\[\\int_0^3f(x)\\,dx=7\\quad\\text{och}\\quad\\int_0^5f(x)\\,dx=12.\\]</p><p>Beräkna \\(\\displaystyle\\int_3^5\\big(2f(x)+1\\big)\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\int_3^5f(x)\\,dx=\\int_0^5f(x)\\,dx-\\int_0^3f(x)\\,dx=12-7=5\\].</div></li><li><p>Integralen är linjär:</p><p>\\[\\int_3^5\\big(2f(x)+1\\big)\\,dx=2\\int_3^5f(x)\\,dx+\\int_3^51\\,dx=2\\cdot5+2=12.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Additivitet: \\(\\int_a^b f\\,dx+\\int_b^c f\\,dx=\\int_a^c f\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_3^5f\\,dx=\\int_0^5f\\,dx-\\int_0^3f\\,dx=12-7=5\\]</div></li><li><p class=\"facit-rubrik\">Linearitet: \\(\\int(af+bg)\\,dx=a\\int f\\,dx+b\\int g\\,dx\\)</p><div class=\"facit-matte\">\\[\\int_3^5(2f+1)\\,dx=2\\cdot5+\\int_3^51\\,dx=10+2=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
     "familj": "Integralens egenskaper",
     "formaga": [
       "procedur",
@@ -96705,7 +97037,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Beräkna \\(\\displaystyle\\int_0^5|x-2|\\,dx\\) genom att tolka integralen som en area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen till \\(y=|x-2|\\) är ett ”V” med spetsen i \\((2,\\,0)\\).</p></li><li><p>Området mellan grafen och \\(x\\)-axeln från 0 till 5 består av två trianglar:</p></li></ol><ul><li>från 0 till 2: bas 2 och höjd \\(|0-2|=2\\), area \\(\\frac{2\\cdot2}{2}=2\\)</li><li>från 2 till 5: bas 3 och höjd \\(|5-2|=3\\), area \\(\\frac{3\\cdot3}{2}=4{,}5\\)</li></ul><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Integralen är</p><div class=\"facit-matte\">\\[2+4{,}5=6{,}5\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,5</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grafen till \\(|x-2|\\) är ett V med spetsen i \\((2,0)\\)</p><p>Området under grafen består av två trianglar.</p></li><li><p class=\"facit-rubrik\">Triangel från 0 till 2 och från 2 till 5</p><div class=\"facit-matte\">\\[\\frac{2\\cdot2}{2}+\\frac{3\\cdot3}{2}=2+4{,}5=6{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,5</p></div>",
     "familj": "Integral som area under en graf",
     "formaga": [
       "problemlösning",
@@ -99187,7 +99519,7 @@ window.BANKMATO1 = [
     "poang": "(1/0/0)",
     "typ": "positiv derivata ger växande funktion",
     "t": "<p>Figuren visar derivatan \\(f^{\\prime}(x)=2\\) för \\(0\\lt x\\lt 3\\). Vad säger detta om grafen till \\(f\\) på intervallet? Välj ett alternativ.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"Derivatans graf är en vågrät linje på höjden 2 mellan x = 0 och x = 3.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" fill=\"white\"/><text x=\"35\" y=\"28\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">f′(x)</text><text x=\"230\" y=\"28\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172033\">f′(x) = 2</text><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"215\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"65\" y=\"245\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">0</text><line x1=\"185\" y1=\"45\" x2=\"185\" y2=\"215\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"185\" y=\"245\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">1</text><line x1=\"305\" y1=\"45\" x2=\"305\" y2=\"215\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"305\" y=\"245\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">2</text><line x1=\"425\" y1=\"45\" x2=\"425\" y2=\"215\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"425\" y=\"245\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172033\">3</text><line x1=\"65\" y1=\"215\" x2=\"425\" y2=\"215\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"54\" y=\"220\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">-1</text><line x1=\"65\" y1=\"181\" x2=\"425\" y2=\"181\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"54\" y=\"186\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">0</text><line x1=\"65\" y1=\"147\" x2=\"425\" y2=\"147\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"54\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">1</text><line x1=\"65\" y1=\"113\" x2=\"425\" y2=\"113\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"54\" y=\"118\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">2</text><line x1=\"65\" y1=\"79\" x2=\"425\" y2=\"79\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"54\" y=\"84\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">3</text><line x1=\"65\" y1=\"45\" x2=\"425\" y2=\"45\" stroke=\"#d8dee8\" stroke-width=\"1\"/><text x=\"54\" y=\"50\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#172033\">4</text><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"215\" stroke=\"#172033\" stroke-width=\"2\"/><line x1=\"65\" y1=\"181\" x2=\"425\" y2=\"181\" stroke=\"#172033\" stroke-width=\"2\"/><text x=\"425\" y=\"278\" font-family=\"Arial, sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172033\">x</text><line x1=\"65\" y1=\"113\" x2=\"425\" y2=\"113\" stroke=\"#2563eb\" stroke-width=\"3\"/></svg></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv på hela intervallet. Då växer funktionen: dess graf stiger från vänster till höger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Grafen stiger från vänster till höger.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f'(x)=2\\gt0\\) på hela intervallet</p><p>Positiv derivata betyder att f växer.</p></li><li><p class=\"facit-rubrik\">Grafen stiger med lutningen 2</p><p>Lutningen är 2 överallt, så grafen stiger från vänster till höger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Grafen stiger från vänster till höger.</p></div>",
     "ledtrad": "<p>Ligger derivatans graf över, under eller på x-axeln?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -99210,17 +99542,17 @@ window.BANKMATO1 = [
       {
         "txt": "Grafen sjunker från vänster till höger.",
         "ratt": false,
-        "kommentar": ""
+        "kommentar": "Det skulle kräva negativ derivata."
       },
       {
         "txt": "Grafen är vågrät.",
         "ratt": false,
-        "kommentar": ""
+        "kommentar": "Det skulle kräva derivatan 0."
       },
       {
         "txt": "Grafen ligger alltid på höjden 2.",
         "ratt": false,
-        "kommentar": ""
+        "kommentar": "Derivatans värde 2 är lutningen, inte grafens höjd."
       }
     ]
   },
@@ -99237,7 +99569,7 @@ window.BANKMATO1 = [
     "poang": "(1/0/0)",
     "typ": "noll derivata ger vågrät tangent",
     "t": "<p>För en funktion gäller \\(f^{\\prime}(2)=0\\). Vilken lutning har tangenten till grafen där \\(x=2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan i punkten är tangentens lutning.</p><div class=\"facit-matte\">\\[k=f^{\\prime}(2)=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tangentens lutning är \\(f'(2)\\)</p><div class=\"facit-matte\">\\[k=f'(2)=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "ledtrad": "<p>Vilket samband finns mellan derivatan och tangentens lutning?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -101746,7 +102078,7 @@ window.BANKMATO1 = [
   "poang": "1/0/0",
   "typ": "vilken kurva är derivatan",
   "t": "<p>Figuren visar grafen till en funktion \\(f\\) och grafen till dess derivata \\(f^{\\prime}\\). Vilken kurva är \\(f^{\\prime}\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 380\" role=\"img\" aria-label=\"Två kurvor, A och B. A är en tredjegradskurva med en topp vid x = −1 och en dal vid x = 1. B är en parabel med nollställen i x = −1 och x = 1.\" style=\"width:100%;max-width:430px\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"378\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"78.0\" y1=\"22\" x2=\"78.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"108.0\" y1=\"22\" x2=\"108.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"138.0\" y1=\"22\" x2=\"138.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"168.0\" y1=\"22\" x2=\"168.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"198.0\" y1=\"22\" x2=\"198.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"228.0\" y1=\"22\" x2=\"228.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"258.0\" y1=\"22\" x2=\"258.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"288.0\" y1=\"22\" x2=\"288.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"318.0\" y1=\"22\" x2=\"318.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"348.0\" y1=\"22\" x2=\"348.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"408.0\" y1=\"22\" x2=\"408.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"338.0\" x2=\"408\" y2=\"338.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"309.3\" x2=\"408\" y2=\"309.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"280.5\" x2=\"408\" y2=\"280.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"251.8\" x2=\"408\" y2=\"251.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"223.1\" x2=\"408\" y2=\"223.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"194.4\" x2=\"408\" y2=\"194.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"165.6\" x2=\"408\" y2=\"165.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"136.9\" x2=\"408\" y2=\"136.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"108.2\" x2=\"408\" y2=\"108.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"79.5\" x2=\"408\" y2=\"79.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"50.7\" x2=\"408\" y2=\"50.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"408\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"223.1\" x2=\"418\" y2=\"223.1\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"422,223.1 412,218.1 412,228.1\" fill=\"#172b3a\"/><line x1=\"228.0\" y1=\"338\" x2=\"228.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"228.0,8 223.0,18 233.0,18\" fill=\"#172b3a\"/><text x=\"420\" y=\"214.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"236.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"48.0\" y=\"240.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"108.0\" y=\"240.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"168.0\" y=\"240.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"288.0\" y=\"240.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"348.0\" y=\"240.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"408.0\" y=\"240.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"222.0\" y=\"342.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"222.0\" y=\"284.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"222.0\" y=\"169.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"222.0\" y=\"112.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"222.0\" y=\"54.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"222.0\" y=\"240.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kf5f712d2\"><rect x=\"48\" y=\"22\" width=\"360\" height=\"316\"/></clipPath><polyline clip-path=\"url(#kf5f712d2)\" points=\"48.0,654.0 48.9,654.0 49.8,654.0 50.7,654.0 51.6,654.0 52.5,654.0 53.4,654.0 54.3,654.0 55.2,654.0 56.1,651.7 57.0,642.5 57.9,633.3 58.8,624.3 59.7,615.4 60.6,606.5 61.5,597.8 62.4,589.2 63.3,580.7 64.2,572.3 65.1,564.0 66.0,555.8 66.9,547.8 67.8,539.8 68.7,531.9 69.6,524.1 70.5,516.5 71.4,508.9 72.3,501.5 73.2,494.1 74.1,486.8 75.0,479.7 75.9,472.6 76.8,465.6 77.7,458.8 78.6,452.0 79.5,445.3 80.4,438.7 81.3,432.3 82.2,425.9 83.1,419.6 84.0,413.4 84.9,407.3 85.8,401.3 86.7,395.3 87.6,389.5 88.5,383.8 89.4,378.1 90.3,372.6 91.2,367.1 92.1,361.7 93.0,356.4 93.9,351.2 94.8,346.1 95.7,341.0 96.6,336.1 97.5,331.2 98.4,326.4 99.3,321.7 100.2,317.1 101.1,312.6 102.0,308.2 102.9,303.8 103.8,299.5 104.7,295.3 105.6,291.2 106.5,287.1 107.4,283.1 108.3,279.3 109.2,275.4 110.1,271.7 111.0,268.0 111.9,264.5 112.8,261.0 113.7,257.5 114.6,254.2 115.5,250.9 116.4,247.6 117.3,244.5 118.2,241.4 119.1,238.4 120.0,235.5 120.9,232.6 121.8,229.8 122.7,227.1 123.6,224.5 124.5,221.9 125.4,219.4 126.3,216.9 127.2,214.5 128.1,212.2 129.0,209.9 129.9,207.7 130.8,205.6 131.7,203.5 132.6,201.5 133.5,199.6 134.4,197.7 135.3,195.9 136.2,194.1 137.1,192.4 138.0,190.8 138.9,189.2 139.8,187.7 140.7,186.2 141.6,184.8 142.5,183.4 143.4,182.1 144.3,180.9 145.2,179.7 146.1,178.5 147.0,177.4 147.9,176.4 148.8,175.4 149.7,174.5 150.6,173.6 151.5,172.8 152.4,172.0 153.3,171.2 154.2,170.5 155.1,169.9 156.0,169.3 156.9,168.8 157.8,168.3 158.7,167.8 159.6,167.4 160.5,167.0 161.4,166.7 162.3,166.4 163.2,166.2 164.1,166.0 165.0,165.9 165.9,165.7 166.8,165.7 167.7,165.6 168.6,165.6 169.5,165.7 170.4,165.8 171.3,165.9 172.2,166.0 173.1,166.2 174.0,166.5 174.9,166.7 175.8,167.0 176.7,167.4 177.6,167.7 178.5,168.1 179.4,168.6 180.3,169.0 181.2,169.5 182.1,170.0 183.0,170.6 183.9,171.2 184.8,171.8 185.7,172.4 186.6,173.1 187.5,173.8 188.4,174.5 189.3,175.2 190.2,176.0 191.1,176.8 192.0,177.6 192.9,178.4 193.8,179.3 194.7,180.2 195.6,181.1 196.5,182.0 197.4,182.9 198.3,183.9 199.2,184.9 200.1,185.9 201.0,186.9 201.9,188.0 202.8,189.0 203.7,190.1 204.6,191.2 205.5,192.3 206.4,193.4 207.3,194.5 208.2,195.7 209.1,196.8 210.0,198.0 210.9,199.2 211.8,200.4 212.7,201.6 213.6,202.8 214.5,204.0 215.4,205.3 216.3,206.5 217.2,207.7 218.1,209.0 219.0,210.3 219.9,211.5 220.8,212.8 221.7,214.1 222.6,215.4 223.5,216.6 224.4,217.9 225.3,219.2 226.2,220.5 227.1,221.8 228.0,223.1 228.9,224.4 229.8,225.7 230.7,227.0 231.6,228.3 232.5,229.5 233.4,230.8 234.3,232.1 235.2,233.4 236.1,234.7 237.0,235.9 237.9,237.2 238.8,238.4 239.7,239.7 240.6,240.9 241.5,242.2 242.4,243.4 243.3,244.6 244.2,245.8 245.1,247.0 246.0,248.2 246.9,249.3 247.8,250.5 248.7,251.6 249.6,252.8 250.5,253.9 251.4,255.0 252.3,256.1 253.2,257.2 254.1,258.2 255.0,259.3 255.9,260.3 256.8,261.3 257.7,262.3 258.6,263.2 259.5,264.2 260.4,265.1 261.3,266.0 262.2,266.9 263.1,267.8 264.0,268.6 264.9,269.4 265.8,270.2 266.7,271.0 267.6,271.7 268.5,272.4 269.4,273.1 270.3,273.8 271.2,274.4 272.1,275.0 273.0,275.6 273.9,276.2 274.8,276.7 275.7,277.2 276.6,277.6 277.5,278.1 278.4,278.5 279.3,278.8 280.2,279.2 281.1,279.4 282.0,279.7 282.9,279.9 283.8,280.1 284.7,280.3 285.6,280.4 286.5,280.5 287.4,280.5 288.3,280.5 289.2,280.5 290.1,280.4 291.0,280.3 291.9,280.2 292.8,280.0 293.7,279.7 294.6,279.5 295.5,279.1 296.4,278.8 297.3,278.4 298.2,277.9 299.1,277.4 300.0,276.9 300.9,276.3 301.8,275.6 302.7,274.9 303.6,274.2 304.5,273.4 305.4,272.6 306.3,271.7 307.2,270.8 308.1,269.8 309.0,268.8 309.9,267.7 310.8,266.5 311.7,265.3 312.6,264.1 313.5,262.8 314.4,261.4 315.3,260.0 316.2,258.5 317.1,257.0 318.0,255.4 318.9,253.8 319.8,252.1 320.7,250.3 321.6,248.5 322.5,246.6 323.4,244.6 324.3,242.6 325.2,240.6 326.1,238.4 327.0,236.2 327.9,234.0 328.8,231.7 329.7,229.3 330.6,226.8 331.5,224.3 332.4,221.7 333.3,219.1 334.2,216.3 335.1,213.5 336.0,210.7 336.9,207.8 337.8,204.7 338.7,201.7 339.6,198.5 340.5,195.3 341.4,192.0 342.3,188.7 343.2,185.2 344.1,181.7 345.0,178.1 345.9,174.5 346.8,170.7 347.7,166.9 348.6,163.0 349.5,159.1 350.4,155.0 351.3,150.9 352.2,146.7 353.1,142.4 354.0,138.0 354.9,133.6 355.8,129.0 356.7,124.4 357.6,119.7 358.5,115.0 359.4,110.1 360.3,105.1 361.2,100.1 362.1,95.0 363.0,89.8 363.9,84.5 364.8,79.1 365.7,73.6 366.6,68.1 367.5,62.4 368.4,56.7 369.3,50.8 370.2,44.9 371.1,38.9 372.0,32.8 372.9,26.6 373.8,20.3 374.7,13.9 375.6,7.4 376.5,0.9 377.4,-5.8 378.3,-12.6 379.2,-19.5 380.1,-26.4 381.0,-33.5 381.9,-40.6 382.8,-47.9 383.7,-55.3 384.6,-62.7 385.5,-70.3 386.4,-78.0 387.3,-85.7 388.2,-93.6 389.1,-101.6 390.0,-109.7 390.9,-117.8 391.8,-126.1 392.7,-134.5 393.6,-143.0 394.5,-151.6 395.4,-160.4 396.3,-169.2 397.2,-178.1 398.1,-187.1 399.0,-196.3 399.9,-205.6 400.8,-214.9 401.7,-224.4 402.6,-234.0 403.5,-243.7 404.4,-253.6 405.3,-263.5 406.2,-273.5 407.1,-283.7 408.0,-294.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"63.0\" y=\"317.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">A</text><polyline clip-path=\"url(#kf5f712d2)\" points=\"48.0,-294.0 48.9,-294.0 49.8,-294.0 50.7,-294.0 51.6,-294.0 52.5,-294.0 53.4,-294.0 54.3,-294.0 55.2,-294.0 56.1,-294.0 57.0,-294.0 57.9,-294.0 58.8,-294.0 59.7,-294.0 60.6,-294.0 61.5,-294.0 62.4,-294.0 63.3,-294.0 64.2,-294.0 65.1,-294.0 66.0,-294.0 66.9,-294.0 67.8,-294.0 68.7,-294.0 69.6,-291.4 70.5,-284.6 71.4,-277.8 72.3,-271.1 73.2,-264.4 74.1,-257.7 75.0,-251.1 75.9,-244.6 76.8,-238.0 77.7,-231.5 78.6,-225.1 79.5,-218.6 80.4,-212.3 81.3,-205.9 82.2,-199.6 83.1,-193.4 84.0,-187.1 84.9,-180.9 85.8,-174.8 86.7,-168.7 87.6,-162.6 88.5,-156.6 89.4,-150.6 90.3,-144.6 91.2,-138.7 92.1,-132.9 93.0,-127.0 93.9,-121.2 94.8,-115.5 95.7,-109.7 96.6,-104.1 97.5,-98.4 98.4,-92.8 99.3,-87.3 100.2,-81.7 101.1,-76.2 102.0,-70.8 102.9,-65.4 103.8,-60.0 104.7,-54.7 105.6,-49.4 106.5,-44.1 107.4,-38.9 108.3,-33.7 109.2,-28.6 110.1,-23.5 111.0,-18.4 111.9,-13.4 112.8,-8.4 113.7,-3.5 114.6,1.4 115.5,6.3 116.4,11.1 117.3,15.9 118.2,20.7 119.1,25.4 120.0,30.0 120.9,34.7 121.8,39.3 122.7,43.8 123.6,48.3 124.5,52.8 125.4,57.3 126.3,61.7 127.2,66.0 128.1,70.4 129.0,74.6 129.9,78.9 130.8,83.1 131.7,87.3 132.6,91.4 133.5,95.5 134.4,99.5 135.3,103.6 136.2,107.5 137.1,111.5 138.0,115.4 138.9,119.2 139.8,123.0 140.7,126.8 141.6,130.6 142.5,134.3 143.4,137.9 144.3,141.6 145.2,145.1 146.1,148.7 147.0,152.2 147.9,155.7 148.8,159.1 149.7,162.5 150.6,165.9 151.5,169.2 152.4,172.5 153.3,175.7 154.2,178.9 155.1,182.0 156.0,185.2 156.9,188.3 157.8,191.3 158.7,194.3 159.6,197.3 160.5,200.2 161.4,203.1 162.3,205.9 163.2,208.8 164.1,211.5 165.0,214.3 165.9,217.0 166.8,219.6 167.7,222.2 168.6,224.8 169.5,227.3 170.4,229.8 171.3,232.3 172.2,234.7 173.1,237.1 174.0,239.5 174.9,241.8 175.8,244.0 176.7,246.3 177.6,248.5 178.5,250.6 179.4,252.7 180.3,254.8 181.2,256.8 182.1,258.8 183.0,260.8 183.9,262.7 184.8,264.6 185.7,266.4 186.6,268.2 187.5,270.0 188.4,271.7 189.3,273.4 190.2,275.1 191.1,276.7 192.0,278.2 192.9,279.8 193.8,281.3 194.7,282.7 195.6,284.1 196.5,285.5 197.4,286.9 198.3,288.2 199.2,289.4 200.1,290.6 201.0,291.8 201.9,293.0 202.8,294.1 203.7,295.1 204.6,296.2 205.5,297.2 206.4,298.1 207.3,299.0 208.2,299.9 209.1,300.7 210.0,301.5 210.9,302.3 211.8,303.0 212.7,303.7 213.6,304.3 214.5,304.9 215.4,305.5 216.3,306.0 217.2,306.5 218.1,306.9 219.0,307.3 219.9,307.7 220.8,308.0 221.7,308.3 222.6,308.6 223.5,308.8 224.4,309.0 225.3,309.1 226.2,309.2 227.1,309.3 228.0,309.3 228.9,309.3 229.8,309.2 230.7,309.1 231.6,309.0 232.5,308.8 233.4,308.6 234.3,308.3 235.2,308.0 236.1,307.7 237.0,307.3 237.9,306.9 238.8,306.5 239.7,306.0 240.6,305.5 241.5,304.9 242.4,304.3 243.3,303.7 244.2,303.0 245.1,302.3 246.0,301.5 246.9,300.7 247.8,299.9 248.7,299.0 249.6,298.1 250.5,297.2 251.4,296.2 252.3,295.1 253.2,294.1 254.1,293.0 255.0,291.8 255.9,290.6 256.8,289.4 257.7,288.2 258.6,286.9 259.5,285.5 260.4,284.1 261.3,282.7 262.2,281.3 263.1,279.8 264.0,278.2 264.9,276.7 265.8,275.1 266.7,273.4 267.6,271.7 268.5,270.0 269.4,268.2 270.3,266.4 271.2,264.6 272.1,262.7 273.0,260.8 273.9,258.8 274.8,256.8 275.7,254.8 276.6,252.7 277.5,250.6 278.4,248.5 279.3,246.3 280.2,244.0 281.1,241.8 282.0,239.5 282.9,237.1 283.8,234.7 284.7,232.3 285.6,229.8 286.5,227.3 287.4,224.8 288.3,222.2 289.2,219.6 290.1,217.0 291.0,214.3 291.9,211.5 292.8,208.8 293.7,205.9 294.6,203.1 295.5,200.2 296.4,197.3 297.3,194.3 298.2,191.3 299.1,188.3 300.0,185.2 300.9,182.0 301.8,178.9 302.7,175.7 303.6,172.5 304.5,169.2 305.4,165.9 306.3,162.5 307.2,159.1 308.1,155.7 309.0,152.2 309.9,148.7 310.8,145.1 311.7,141.6 312.6,137.9 313.5,134.3 314.4,130.6 315.3,126.8 316.2,123.0 317.1,119.2 318.0,115.4 318.9,111.5 319.8,107.5 320.7,103.6 321.6,99.5 322.5,95.5 323.4,91.4 324.3,87.3 325.2,83.1 326.1,78.9 327.0,74.6 327.9,70.4 328.8,66.0 329.7,61.7 330.6,57.3 331.5,52.8 332.4,48.3 333.3,43.8 334.2,39.3 335.1,34.7 336.0,30.0 336.9,25.4 337.8,20.7 338.7,15.9 339.6,11.1 340.5,6.3 341.4,1.4 342.3,-3.5 343.2,-8.4 344.1,-13.4 345.0,-18.4 345.9,-23.5 346.8,-28.6 347.7,-33.7 348.6,-38.9 349.5,-44.1 350.4,-49.4 351.3,-54.7 352.2,-60.0 353.1,-65.4 354.0,-70.8 354.9,-76.2 355.8,-81.7 356.7,-87.3 357.6,-92.8 358.5,-98.4 359.4,-104.1 360.3,-109.7 361.2,-115.5 362.1,-121.2 363.0,-127.0 363.9,-132.9 364.8,-138.7 365.7,-144.6 366.6,-150.6 367.5,-156.6 368.4,-162.6 369.3,-168.7 370.2,-174.8 371.1,-180.9 372.0,-187.1 372.9,-193.4 373.8,-199.6 374.7,-205.9 375.6,-212.3 376.5,-218.6 377.4,-225.1 378.3,-231.5 379.2,-238.0 380.1,-244.6 381.0,-251.1 381.9,-257.7 382.8,-264.4 383.7,-271.1 384.6,-277.8 385.5,-284.6 386.4,-291.4 387.3,-294.0 388.2,-294.0 389.1,-294.0 390.0,-294.0 390.9,-294.0 391.8,-294.0 392.7,-294.0 393.6,-294.0 394.5,-294.0 395.4,-294.0 396.3,-294.0 397.2,-294.0 398.1,-294.0 399.0,-294.0 399.9,-294.0 400.8,-294.0 401.7,-294.0 402.6,-294.0 403.5,-294.0 404.4,-294.0 405.3,-294.0 406.2,-294.0 407.1,-294.0 408.0,-294.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"3\"/><text x=\"345.0\" y=\"45.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#d9622b\">B</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kurva A har en maximipunkt vid \\(x=-1\\) och en minimipunkt vid \\(x=1\\). Där är lutningen 0, och precis där har B sina nollställen.</p></li><li><p>B är också positiv där A växer (\\(x\\lt-1\\) och \\(x\\gt1\\)) och negativ där A avtar. Alltså är B derivatan: \\(f(x)=x^3-3x\\) och \\(f^{\\prime}(x)=3x^2-3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: B</strong></p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Där A har vågrät tangent ska \\(f'\\) vara 0</p><p>A har topp vid \\(x=-1\\) och dal vid \\(x=1\\), och där har B sina nollställen.</p></li><li><p class=\"facit-rubrik\">B:s tecken följer A:s lutning</p><p>B är positiv där A växer och negativ där A avtar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B</p></div>",
   "familj": "Funktionens graf och derivatans graf",
   "formaga": [
     "begrepp",
@@ -101787,7 +102119,7 @@ window.BANKMATO1 = [
   "poang": "1/0/0",
   "typ": "tecken på derivatan i punkter på grafen",
   "t": "<p>Figuren visar grafen till \\(f\\). I vilken av punkterna är \\(f^{\\prime}(x)\\lt0\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 360\" role=\"img\" aria-label=\"Grafen till f med fyra markerade punkter: A på y-axeln där grafen stiger, B i toppen, C där grafen sjunker och D längst till höger där grafen stiger brant.\" style=\"width:100%;max-width:430px\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"78.0\" y1=\"22\" x2=\"78.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"108.0\" y1=\"22\" x2=\"108.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"138.0\" y1=\"22\" x2=\"138.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"168.0\" y1=\"22\" x2=\"168.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"198.0\" y1=\"22\" x2=\"198.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"228.0\" y1=\"22\" x2=\"228.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"258.0\" y1=\"22\" x2=\"258.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"288.0\" y1=\"22\" x2=\"288.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"318.0\" y1=\"22\" x2=\"318.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"348.0\" y1=\"22\" x2=\"348.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"408.0\" y1=\"22\" x2=\"408.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"318.0\" x2=\"408\" y2=\"318.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"285.1\" x2=\"408\" y2=\"285.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"252.2\" x2=\"408\" y2=\"252.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"219.3\" x2=\"408\" y2=\"219.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"186.4\" x2=\"408\" y2=\"186.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"153.6\" x2=\"408\" y2=\"153.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"120.7\" x2=\"408\" y2=\"120.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"87.8\" x2=\"408\" y2=\"87.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"54.9\" x2=\"408\" y2=\"54.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"408\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"219.3\" x2=\"418\" y2=\"219.3\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"422,219.3 412,214.3 412,224.3\" fill=\"#172b3a\"/><line x1=\"108.0\" y1=\"318\" x2=\"108.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"108.0,8 103.0,18 113.0,18\" fill=\"#172b3a\"/><text x=\"420\" y=\"210.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"116.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"48.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"168.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"228.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"288.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"348.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"408.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"102.0\" y=\"322.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"102.0\" y=\"289.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"102.0\" y=\"256.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"102.0\" y=\"190.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"102.0\" y=\"157.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"102.0\" y=\"124.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"102.0\" y=\"91.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"102.0\" y=\"58.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"102.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"102.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k84b7f064\"><rect x=\"48\" y=\"22\" width=\"360\" height=\"296\"/></clipPath><polyline clip-path=\"url(#k84b7f064)\" points=\"48.0,433.1 48.9,427.5 49.8,421.9 50.7,416.4 51.6,410.9 52.5,405.6 53.4,400.3 54.3,395.0 55.2,389.8 56.1,384.7 57.0,379.7 57.9,374.7 58.8,369.7 59.7,364.9 60.6,360.1 61.5,355.3 62.4,350.6 63.3,346.0 64.2,341.5 65.1,337.0 66.0,332.5 66.9,328.1 67.8,323.8 68.7,319.6 69.6,315.4 70.5,311.2 71.4,307.1 72.3,303.1 73.2,299.1 74.1,295.2 75.0,291.4 75.9,287.6 76.8,283.8 77.7,280.2 78.6,276.5 79.5,273.0 80.4,269.4 81.3,266.0 82.2,262.6 83.1,259.2 84.0,255.9 84.9,252.7 85.8,249.5 86.7,246.3 87.6,243.2 88.5,240.2 89.4,237.2 90.3,234.3 91.2,231.4 92.1,228.5 93.0,225.8 93.9,223.0 94.8,220.3 95.7,217.7 96.6,215.1 97.5,212.6 98.4,210.1 99.3,207.6 100.2,205.3 101.1,202.9 102.0,200.6 102.9,198.3 103.8,196.1 104.7,194.0 105.6,191.9 106.5,189.8 107.4,187.8 108.3,185.8 109.2,183.9 110.1,182.0 111.0,180.1 111.9,178.3 112.8,176.5 113.7,174.8 114.6,173.1 115.5,171.5 116.4,169.9 117.3,168.4 118.2,166.9 119.1,165.4 120.0,163.9 120.9,162.6 121.8,161.2 122.7,159.9 123.6,158.6 124.5,157.4 125.4,156.2 126.3,155.0 127.2,153.9 128.1,152.8 129.0,151.8 129.9,150.8 130.8,149.8 131.7,148.9 132.6,148.0 133.5,147.1 134.4,146.3 135.3,145.5 136.2,144.7 137.1,144.0 138.0,143.3 138.9,142.6 139.8,142.0 140.7,141.4 141.6,140.8 142.5,140.3 143.4,139.8 144.3,139.3 145.2,138.9 146.1,138.5 147.0,138.1 147.9,137.8 148.8,137.4 149.7,137.2 150.6,136.9 151.5,136.7 152.4,136.5 153.3,136.3 154.2,136.1 155.1,136.0 156.0,135.9 156.9,135.9 157.8,135.8 158.7,135.8 159.6,135.8 160.5,135.9 161.4,135.9 162.3,136.0 163.2,136.1 164.1,136.3 165.0,136.4 165.9,136.6 166.8,136.8 167.7,137.0 168.6,137.3 169.5,137.6 170.4,137.8 171.3,138.2 172.2,138.5 173.1,138.9 174.0,139.2 174.9,139.6 175.8,140.0 176.7,140.5 177.6,140.9 178.5,141.4 179.4,141.9 180.3,142.4 181.2,142.9 182.1,143.5 183.0,144.0 183.9,144.6 184.8,145.2 185.7,145.8 186.6,146.5 187.5,147.1 188.4,147.8 189.3,148.4 190.2,149.1 191.1,149.8 192.0,150.5 192.9,151.3 193.8,152.0 194.7,152.7 195.6,153.5 196.5,154.3 197.4,155.1 198.3,155.9 199.2,156.7 200.1,157.5 201.0,158.3 201.9,159.2 202.8,160.0 203.7,160.9 204.6,161.8 205.5,162.6 206.4,163.5 207.3,164.4 208.2,165.3 209.1,166.2 210.0,167.2 210.9,168.1 211.8,169.0 212.7,169.9 213.6,170.9 214.5,171.8 215.4,172.8 216.3,173.7 217.2,174.7 218.1,175.7 219.0,176.6 219.9,177.6 220.8,178.6 221.7,179.6 222.6,180.5 223.5,181.5 224.4,182.5 225.3,183.5 226.2,184.5 227.1,185.5 228.0,186.4 228.9,187.4 229.8,188.4 230.7,189.4 231.6,190.4 232.5,191.4 233.4,192.4 234.3,193.3 235.2,194.3 236.1,195.3 237.0,196.3 237.9,197.2 238.8,198.2 239.7,199.1 240.6,200.1 241.5,201.1 242.4,202.0 243.3,202.9 244.2,203.9 245.1,204.8 246.0,205.7 246.9,206.7 247.8,207.6 248.7,208.5 249.6,209.4 250.5,210.2 251.4,211.1 252.3,212.0 253.2,212.9 254.1,213.7 255.0,214.5 255.9,215.4 256.8,216.2 257.7,217.0 258.6,217.8 259.5,218.6 260.4,219.4 261.3,220.1 262.2,220.9 263.1,221.6 264.0,222.4 264.9,223.1 265.8,223.8 266.7,224.5 267.6,225.1 268.5,225.8 269.4,226.4 270.3,227.1 271.2,227.7 272.1,228.3 273.0,228.8 273.9,229.4 274.8,229.9 275.7,230.5 276.6,231.0 277.5,231.5 278.4,232.0 279.3,232.4 280.2,232.8 281.1,233.3 282.0,233.7 282.9,234.0 283.8,234.4 284.7,234.7 285.6,235.0 286.5,235.3 287.4,235.6 288.3,235.9 289.2,236.1 290.1,236.3 291.0,236.5 291.9,236.6 292.8,236.8 293.7,236.9 294.6,237.0 295.5,237.0 296.4,237.1 297.3,237.1 298.2,237.1 299.1,237.0 300.0,237.0 300.9,236.9 301.8,236.8 302.7,236.6 303.6,236.4 304.5,236.2 305.4,236.0 306.3,235.7 307.2,235.4 308.1,235.1 309.0,234.8 309.9,234.4 310.8,234.0 311.7,233.6 312.6,233.1 313.5,232.6 314.4,232.1 315.3,231.5 316.2,230.9 317.1,230.3 318.0,229.6 318.9,228.9 319.8,228.2 320.7,227.4 321.6,226.6 322.5,225.8 323.4,224.9 324.3,224.0 325.2,223.1 326.1,222.1 327.0,221.1 327.9,220.1 328.8,219.0 329.7,217.9 330.6,216.7 331.5,215.5 332.4,214.3 333.3,213.0 334.2,211.7 335.1,210.3 336.0,208.9 336.9,207.5 337.8,206.0 338.7,204.5 339.6,203.0 340.5,201.4 341.4,199.7 342.3,198.1 343.2,196.3 344.1,194.6 345.0,192.8 345.9,190.9 346.8,189.0 347.7,187.1 348.6,185.1 349.5,183.1 350.4,181.0 351.3,178.9 352.2,176.7 353.1,174.5 354.0,172.3 354.9,170.0 355.8,167.6 356.7,165.2 357.6,162.8 358.5,160.3 359.4,157.8 360.3,155.2 361.2,152.6 362.1,149.9 363.0,147.1 363.9,144.3 364.8,141.5 365.7,138.6 366.6,135.7 367.5,132.7 368.4,129.7 369.3,126.6 370.2,123.4 371.1,120.2 372.0,117.0 372.9,113.7 373.8,110.3 374.7,106.9 375.6,103.5 376.5,99.9 377.4,96.4 378.3,92.7 379.2,89.0 380.1,85.3 381.0,81.5 381.9,77.7 382.8,73.7 383.7,69.8 384.6,65.7 385.5,61.7 386.4,57.5 387.3,53.3 388.2,49.1 389.1,44.7 390.0,40.4 390.9,35.9 391.8,31.4 392.7,26.9 393.6,22.3 394.5,17.6 395.4,12.8 396.3,8.0 397.2,3.2 398.1,-1.8 399.0,-6.8 399.9,-11.8 400.8,-16.9 401.7,-22.1 402.6,-27.4 403.5,-32.7 404.4,-38.1 405.3,-43.5 406.2,-49.0 407.1,-54.6 408.0,-60.2\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><circle cx=\"108.0\" cy=\"186.4\" r=\"5\" fill=\"#172b3a\"/><text x=\"118.0\" y=\"204.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">A</text><circle cx=\"158.7\" cy=\"135.8\" r=\"5\" fill=\"#172b3a\"/><text x=\"166.7\" y=\"125.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">B</text><circle cx=\"228.0\" cy=\"186.4\" r=\"5\" fill=\"#172b3a\"/><text x=\"236.0\" y=\"176.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">C</text><circle cx=\"384.0\" cy=\"68.4\" r=\"5\" fill=\"#172b3a\"/><text x=\"392.0\" y=\"58.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">D</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f^{\\prime}(x)\\lt0\\) betyder att grafen lutar nedåt (funktionen avtar). Det gäller bara i C.</p></li><li><p>I A och D stiger grafen (\\(f^{\\prime}\\gt0\\)), och i toppen B är tangenten vågrät (\\(f^{\\prime}=0\\)).</p></li></ol><p class=\"facit-svar\"><strong>Svar: C</strong></p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f'\\lt0\\): grafen lutar nedåt</p><p>I A och D stiger grafen, och i B är tangenten vågrät.</p></li><li><p class=\"facit-rubrik\">Bara i C går grafen nedåt</p><p>Där är derivatan negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C</p></div>",
   "familj": "Funktionens graf och derivatans graf",
   "formaga": [
     "begrepp"
@@ -101837,7 +102169,7 @@ window.BANKMATO1 = [
   "poang": "1/0/0",
   "typ": "jämföra derivatans värde i punkter",
   "t": "<p>Figuren visar grafen till \\(f\\). I vilken av punkterna är \\(f^{\\prime}(x)\\) störst? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 360\" role=\"img\" aria-label=\"Grafen till f med fyra markerade punkter: A på y-axeln där grafen stiger, B i toppen, C där grafen sjunker och D längst till höger där grafen stiger brant.\" style=\"width:100%;max-width:430px\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"78.0\" y1=\"22\" x2=\"78.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"108.0\" y1=\"22\" x2=\"108.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"138.0\" y1=\"22\" x2=\"138.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"168.0\" y1=\"22\" x2=\"168.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"198.0\" y1=\"22\" x2=\"198.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"228.0\" y1=\"22\" x2=\"228.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"258.0\" y1=\"22\" x2=\"258.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"288.0\" y1=\"22\" x2=\"288.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"318.0\" y1=\"22\" x2=\"318.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"348.0\" y1=\"22\" x2=\"348.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"408.0\" y1=\"22\" x2=\"408.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"318.0\" x2=\"408\" y2=\"318.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"285.1\" x2=\"408\" y2=\"285.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"252.2\" x2=\"408\" y2=\"252.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"219.3\" x2=\"408\" y2=\"219.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"186.4\" x2=\"408\" y2=\"186.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"153.6\" x2=\"408\" y2=\"153.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"120.7\" x2=\"408\" y2=\"120.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"87.8\" x2=\"408\" y2=\"87.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"54.9\" x2=\"408\" y2=\"54.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"408\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"219.3\" x2=\"418\" y2=\"219.3\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"422,219.3 412,214.3 412,224.3\" fill=\"#172b3a\"/><line x1=\"108.0\" y1=\"318\" x2=\"108.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"108.0,8 103.0,18 113.0,18\" fill=\"#172b3a\"/><text x=\"420\" y=\"210.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"116.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"48.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"168.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"228.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"288.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"348.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"408.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"102.0\" y=\"322.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"102.0\" y=\"289.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"102.0\" y=\"256.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"102.0\" y=\"190.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"102.0\" y=\"157.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"102.0\" y=\"124.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"102.0\" y=\"91.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"102.0\" y=\"58.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"102.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"102.0\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k84b7f064\"><rect x=\"48\" y=\"22\" width=\"360\" height=\"296\"/></clipPath><polyline clip-path=\"url(#k84b7f064)\" points=\"48.0,433.1 48.9,427.5 49.8,421.9 50.7,416.4 51.6,410.9 52.5,405.6 53.4,400.3 54.3,395.0 55.2,389.8 56.1,384.7 57.0,379.7 57.9,374.7 58.8,369.7 59.7,364.9 60.6,360.1 61.5,355.3 62.4,350.6 63.3,346.0 64.2,341.5 65.1,337.0 66.0,332.5 66.9,328.1 67.8,323.8 68.7,319.6 69.6,315.4 70.5,311.2 71.4,307.1 72.3,303.1 73.2,299.1 74.1,295.2 75.0,291.4 75.9,287.6 76.8,283.8 77.7,280.2 78.6,276.5 79.5,273.0 80.4,269.4 81.3,266.0 82.2,262.6 83.1,259.2 84.0,255.9 84.9,252.7 85.8,249.5 86.7,246.3 87.6,243.2 88.5,240.2 89.4,237.2 90.3,234.3 91.2,231.4 92.1,228.5 93.0,225.8 93.9,223.0 94.8,220.3 95.7,217.7 96.6,215.1 97.5,212.6 98.4,210.1 99.3,207.6 100.2,205.3 101.1,202.9 102.0,200.6 102.9,198.3 103.8,196.1 104.7,194.0 105.6,191.9 106.5,189.8 107.4,187.8 108.3,185.8 109.2,183.9 110.1,182.0 111.0,180.1 111.9,178.3 112.8,176.5 113.7,174.8 114.6,173.1 115.5,171.5 116.4,169.9 117.3,168.4 118.2,166.9 119.1,165.4 120.0,163.9 120.9,162.6 121.8,161.2 122.7,159.9 123.6,158.6 124.5,157.4 125.4,156.2 126.3,155.0 127.2,153.9 128.1,152.8 129.0,151.8 129.9,150.8 130.8,149.8 131.7,148.9 132.6,148.0 133.5,147.1 134.4,146.3 135.3,145.5 136.2,144.7 137.1,144.0 138.0,143.3 138.9,142.6 139.8,142.0 140.7,141.4 141.6,140.8 142.5,140.3 143.4,139.8 144.3,139.3 145.2,138.9 146.1,138.5 147.0,138.1 147.9,137.8 148.8,137.4 149.7,137.2 150.6,136.9 151.5,136.7 152.4,136.5 153.3,136.3 154.2,136.1 155.1,136.0 156.0,135.9 156.9,135.9 157.8,135.8 158.7,135.8 159.6,135.8 160.5,135.9 161.4,135.9 162.3,136.0 163.2,136.1 164.1,136.3 165.0,136.4 165.9,136.6 166.8,136.8 167.7,137.0 168.6,137.3 169.5,137.6 170.4,137.8 171.3,138.2 172.2,138.5 173.1,138.9 174.0,139.2 174.9,139.6 175.8,140.0 176.7,140.5 177.6,140.9 178.5,141.4 179.4,141.9 180.3,142.4 181.2,142.9 182.1,143.5 183.0,144.0 183.9,144.6 184.8,145.2 185.7,145.8 186.6,146.5 187.5,147.1 188.4,147.8 189.3,148.4 190.2,149.1 191.1,149.8 192.0,150.5 192.9,151.3 193.8,152.0 194.7,152.7 195.6,153.5 196.5,154.3 197.4,155.1 198.3,155.9 199.2,156.7 200.1,157.5 201.0,158.3 201.9,159.2 202.8,160.0 203.7,160.9 204.6,161.8 205.5,162.6 206.4,163.5 207.3,164.4 208.2,165.3 209.1,166.2 210.0,167.2 210.9,168.1 211.8,169.0 212.7,169.9 213.6,170.9 214.5,171.8 215.4,172.8 216.3,173.7 217.2,174.7 218.1,175.7 219.0,176.6 219.9,177.6 220.8,178.6 221.7,179.6 222.6,180.5 223.5,181.5 224.4,182.5 225.3,183.5 226.2,184.5 227.1,185.5 228.0,186.4 228.9,187.4 229.8,188.4 230.7,189.4 231.6,190.4 232.5,191.4 233.4,192.4 234.3,193.3 235.2,194.3 236.1,195.3 237.0,196.3 237.9,197.2 238.8,198.2 239.7,199.1 240.6,200.1 241.5,201.1 242.4,202.0 243.3,202.9 244.2,203.9 245.1,204.8 246.0,205.7 246.9,206.7 247.8,207.6 248.7,208.5 249.6,209.4 250.5,210.2 251.4,211.1 252.3,212.0 253.2,212.9 254.1,213.7 255.0,214.5 255.9,215.4 256.8,216.2 257.7,217.0 258.6,217.8 259.5,218.6 260.4,219.4 261.3,220.1 262.2,220.9 263.1,221.6 264.0,222.4 264.9,223.1 265.8,223.8 266.7,224.5 267.6,225.1 268.5,225.8 269.4,226.4 270.3,227.1 271.2,227.7 272.1,228.3 273.0,228.8 273.9,229.4 274.8,229.9 275.7,230.5 276.6,231.0 277.5,231.5 278.4,232.0 279.3,232.4 280.2,232.8 281.1,233.3 282.0,233.7 282.9,234.0 283.8,234.4 284.7,234.7 285.6,235.0 286.5,235.3 287.4,235.6 288.3,235.9 289.2,236.1 290.1,236.3 291.0,236.5 291.9,236.6 292.8,236.8 293.7,236.9 294.6,237.0 295.5,237.0 296.4,237.1 297.3,237.1 298.2,237.1 299.1,237.0 300.0,237.0 300.9,236.9 301.8,236.8 302.7,236.6 303.6,236.4 304.5,236.2 305.4,236.0 306.3,235.7 307.2,235.4 308.1,235.1 309.0,234.8 309.9,234.4 310.8,234.0 311.7,233.6 312.6,233.1 313.5,232.6 314.4,232.1 315.3,231.5 316.2,230.9 317.1,230.3 318.0,229.6 318.9,228.9 319.8,228.2 320.7,227.4 321.6,226.6 322.5,225.8 323.4,224.9 324.3,224.0 325.2,223.1 326.1,222.1 327.0,221.1 327.9,220.1 328.8,219.0 329.7,217.9 330.6,216.7 331.5,215.5 332.4,214.3 333.3,213.0 334.2,211.7 335.1,210.3 336.0,208.9 336.9,207.5 337.8,206.0 338.7,204.5 339.6,203.0 340.5,201.4 341.4,199.7 342.3,198.1 343.2,196.3 344.1,194.6 345.0,192.8 345.9,190.9 346.8,189.0 347.7,187.1 348.6,185.1 349.5,183.1 350.4,181.0 351.3,178.9 352.2,176.7 353.1,174.5 354.0,172.3 354.9,170.0 355.8,167.6 356.7,165.2 357.6,162.8 358.5,160.3 359.4,157.8 360.3,155.2 361.2,152.6 362.1,149.9 363.0,147.1 363.9,144.3 364.8,141.5 365.7,138.6 366.6,135.7 367.5,132.7 368.4,129.7 369.3,126.6 370.2,123.4 371.1,120.2 372.0,117.0 372.9,113.7 373.8,110.3 374.7,106.9 375.6,103.5 376.5,99.9 377.4,96.4 378.3,92.7 379.2,89.0 380.1,85.3 381.0,81.5 381.9,77.7 382.8,73.7 383.7,69.8 384.6,65.7 385.5,61.7 386.4,57.5 387.3,53.3 388.2,49.1 389.1,44.7 390.0,40.4 390.9,35.9 391.8,31.4 392.7,26.9 393.6,22.3 394.5,17.6 395.4,12.8 396.3,8.0 397.2,3.2 398.1,-1.8 399.0,-6.8 399.9,-11.8 400.8,-16.9 401.7,-22.1 402.6,-27.4 403.5,-32.7 404.4,-38.1 405.3,-43.5 406.2,-49.0 407.1,-54.6 408.0,-60.2\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><circle cx=\"108.0\" cy=\"186.4\" r=\"5\" fill=\"#172b3a\"/><text x=\"118.0\" y=\"204.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">A</text><circle cx=\"158.7\" cy=\"135.8\" r=\"5\" fill=\"#172b3a\"/><text x=\"166.7\" y=\"125.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">B</text><circle cx=\"228.0\" cy=\"186.4\" r=\"5\" fill=\"#172b3a\"/><text x=\"236.0\" y=\"176.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">C</text><circle cx=\"384.0\" cy=\"68.4\" r=\"5\" fill=\"#172b3a\"/><text x=\"392.0\" y=\"58.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">D</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är tangentens lutning. Grafen är brantast uppåt i D.</p></li><li><p>Med \\(f(x)=0{,}5x^3-3x^2+4x+1\\) är \\(f^{\\prime}(0)=4\\), \\(f^{\\prime}\\) är 0 i B, \\(f^{\\prime}(2)=-2\\) och \\(f^{\\prime}(4{,}6)\\approx8{,}1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: D</strong></p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f'\\) är tangentens lutning</p><p>Störst derivata där grafen är brantast uppåt.</p></li><li><p class=\"facit-rubrik\">Brantast uppåt i D</p><div class=\"facit-matte\">\\[f'(4{,}6)\\approx8{,}1\\gt f'(0)=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D</p></div>",
   "familj": "Funktionens graf och derivatans graf",
   "formaga": [
     "begrepp"
@@ -101887,7 +102219,7 @@ window.BANKMATO1 = [
   "poang": "1/0/0",
   "typ": "terrasspunkt ur teckentabell",
   "t": "<p>Teckentabellen visar tecknet på derivatan till en funktion \\(f\\). Vid vilket \\(x\\)-värde har \\(f\\) en terrasspunkt?</p><table class=\"data\" style=\"width:100%;max-width:440px;text-align:center\"><thead><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\"></th><th scope=\"col\">0</th><th scope=\"col\"></th><th scope=\"col\">2</th><th scope=\"col\"></th></tr></thead><tbody><tr><td>\\(f^{\\prime}(x)\\)</td><td>−</td><td>0</td><td>−</td><td>0</td><td>+</td></tr></tbody></table>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=0\\) är derivatan 0, men den är negativ både före och efter. Funktionen fortsätter att avta, så det är en terrasspunkt.</p></li><li><p>Vid \\(x=2\\) byter derivatan tecken från − till +, så där finns en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(0\\)</strong></p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Terrasspunkt: derivatan är 0 utan teckenbyte</p><p>Vid \\(x=0\\) är derivatan negativ på båda sidor.</p></li><li><p class=\"facit-rubrik\">Vid \\(x=2\\) byts tecknet</p><p>Från − till +: där finns en minimipunkt, ingen terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
   "familj": "Växande och avtagande",
   "formaga": [
     "begrepp"
@@ -101916,7 +102248,7 @@ window.BANKMATO1 = [
   "poang": "0/1/0",
   "typ": "parameter så att funktionen alltid växer",
   "t": "<p>Funktionen \\(f(x)=x^3-6x^2+ax\\) ska vara växande för alla \\(x\\). Bestäm det minsta värdet på konstanten \\(a\\) som fungerar.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f^{\\prime}(x)=3x^2-12x+a\\). Funktionen är växande för alla \\(x\\) om \\(f^{\\prime}(x)\\ge0\\) överallt, med \\(f^{\\prime}=0\\) bara i enstaka punkter.</p></li><li><p>Derivatan har sitt minsta värde i \\(x=2\\): \\(f^{\\prime}(2)=12-24+a=a-12\\). Villkoret \\(a-12\\ge0\\) ger \\(a\\ge12\\).</p></li><li><p>För \\(a=12\\) är \\(f^{\\prime}(x)=3(x-2)^2\\), som bara är 0 i \\(x=2\\) (en terrasspunkt), så \\(f\\) är fortfarande växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(12\\)</strong></p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Växande för alla x kräver \\(f'(x)\\ge0\\)</p><div class=\"facit-matte\">\\[f'(x)=3x^2-12x+a\\]</div></li><li><p class=\"facit-rubrik\">Kvadratkomplettera derivatan</p><div class=\"facit-matte\">\\[f'(x)=3(x-2)^2-12+a\\]</div><p>Minsta värdet \\(a-12\\) antas vid \\(x=2\\).</p></li><li><p class=\"facit-rubrik\">Derivatans minsta värde får inte vara negativt</p><div class=\"facit-matte\">\\[a-12\\ge0\\quad\\Rightarrow\\quad a\\ge12\\]</div><p>För \\(a=12\\) är \\(f'(x)=3(x-2)^2\\), bara 0 i en punkt (terrasspunkt). f är ändå växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
   "familj": "Växande och avtagande",
   "formaga": [
     "problemlösning",
@@ -101946,7 +102278,7 @@ window.BANKMATO1 = [
   "poang": "1/0/0",
   "typ": "där funktionen växer snabbast",
   "t": "<p>Figuren visar grafen till derivatan \\(f^{\\prime}\\) för \\(0\\le x\\le5\\). För vilket \\(x\\) växer \\(f\\) snabbast?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 360\" role=\"img\" aria-label=\"Grafen till derivatan f′ för x mellan 0 och 5. Den är en parabel som börjar i 0, har maximum 4 vid x = 2 och är negativ efter x = 4.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"83.0\" y1=\"22\" x2=\"83.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"118.0\" y1=\"22\" x2=\"118.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"153.0\" y1=\"22\" x2=\"153.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"188.0\" y1=\"22\" x2=\"188.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"258.0\" y1=\"22\" x2=\"258.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"293.0\" y1=\"22\" x2=\"293.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"328.0\" y1=\"22\" x2=\"328.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"363.0\" y1=\"22\" x2=\"363.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"318.0\" x2=\"398\" y2=\"318.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"291.1\" x2=\"398\" y2=\"291.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"264.2\" x2=\"398\" y2=\"264.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"237.3\" x2=\"398\" y2=\"237.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"210.4\" x2=\"398\" y2=\"210.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"183.5\" x2=\"398\" y2=\"183.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"156.5\" x2=\"398\" y2=\"156.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"129.6\" x2=\"398\" y2=\"129.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"102.7\" x2=\"398\" y2=\"102.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"75.8\" x2=\"398\" y2=\"75.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"48.9\" x2=\"398\" y2=\"48.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"156.5\" x2=\"408\" y2=\"156.5\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,156.5 402,151.5 402,161.5\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"318\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"147.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"118.0\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"188.0\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"258.0\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"328.0\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"398.0\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"42.0\" y=\"322.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−6</text><text x=\"42.0\" y=\"268.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"42.0\" y=\"214.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"42.0\" y=\"106.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"52.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k6e89426a\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"296\"/></clipPath><polyline clip-path=\"url(#k6e89426a)\" points=\"48.0,156.5 48.9,155.2 49.8,153.9 50.6,152.5 51.5,151.2 52.4,149.9 53.2,148.6 54.1,147.3 55.0,146.1 55.9,144.8 56.8,143.5 57.6,142.3 58.5,141.0 59.4,139.8 60.2,138.5 61.1,137.3 62.0,136.1 62.9,134.9 63.8,133.7 64.6,132.5 65.5,131.3 66.4,130.1 67.2,129.0 68.1,127.8 69.0,126.7 69.9,125.5 70.8,124.4 71.6,123.3 72.5,122.2 73.4,121.1 74.2,120.0 75.1,118.9 76.0,117.8 76.9,116.7 77.8,115.7 78.6,114.6 79.5,113.6 80.4,112.5 81.2,111.5 82.1,110.5 83.0,109.5 83.9,108.4 84.8,107.5 85.6,106.5 86.5,105.5 87.4,104.5 88.2,103.6 89.1,102.6 90.0,101.7 90.9,100.7 91.8,99.8 92.6,98.9 93.5,98.0 94.4,97.0 95.2,96.2 96.1,95.3 97.0,94.4 97.9,93.5 98.8,92.7 99.6,91.8 100.5,91.0 101.4,90.1 102.2,89.3 103.1,88.5 104.0,87.7 104.9,86.9 105.8,86.1 106.6,85.3 107.5,84.5 108.4,83.7 109.2,83.0 110.1,82.2 111.0,81.5 111.9,80.7 112.8,80.0 113.6,79.3 114.5,78.6 115.4,77.9 116.2,77.2 117.1,76.5 118.0,75.8 118.9,75.1 119.8,74.5 120.6,73.8 121.5,73.2 122.4,72.6 123.2,71.9 124.1,71.3 125.0,70.7 125.9,70.1 126.8,69.5 127.6,68.9 128.5,68.4 129.4,67.8 130.2,67.2 131.1,66.7 132.0,66.1 132.9,65.6 133.8,65.1 134.6,64.6 135.5,64.0 136.4,63.5 137.2,63.1 138.1,62.6 139.0,62.1 139.9,61.6 140.8,61.2 141.6,60.7 142.5,60.3 143.4,59.8 144.2,59.4 145.1,59.0 146.0,58.6 146.9,58.2 147.8,57.8 148.6,57.4 149.5,57.0 150.4,56.7 151.2,56.3 152.1,56.0 153.0,55.6 153.9,55.3 154.8,55.0 155.6,54.7 156.5,54.4 157.4,54.1 158.2,53.8 159.1,53.5 160.0,53.2 160.9,52.9 161.8,52.7 162.6,52.4 163.5,52.2 164.4,52.0 165.2,51.8 166.1,51.5 167.0,51.3 167.9,51.1 168.8,50.9 169.6,50.8 170.5,50.6 171.4,50.4 172.2,50.3 173.1,50.1 174.0,50.0 174.9,49.9 175.8,49.7 176.6,49.6 177.5,49.5 178.4,49.4 179.2,49.3 180.1,49.2 181.0,49.2 181.9,49.1 182.8,49.1 183.6,49.0 184.5,49.0 185.4,48.9 186.2,48.9 187.1,48.9 188.0,48.9 188.9,48.9 189.8,48.9 190.6,48.9 191.5,49.0 192.4,49.0 193.2,49.1 194.1,49.1 195.0,49.2 195.9,49.2 196.8,49.3 197.6,49.4 198.5,49.5 199.4,49.6 200.2,49.7 201.1,49.9 202.0,50.0 202.9,50.1 203.8,50.3 204.6,50.4 205.5,50.6 206.4,50.8 207.2,50.9 208.1,51.1 209.0,51.3 209.9,51.5 210.8,51.8 211.6,52.0 212.5,52.2 213.4,52.4 214.2,52.7 215.1,52.9 216.0,53.2 216.9,53.5 217.8,53.8 218.6,54.1 219.5,54.4 220.4,54.7 221.2,55.0 222.1,55.3 223.0,55.6 223.9,56.0 224.8,56.3 225.6,56.7 226.5,57.0 227.4,57.4 228.2,57.8 229.1,58.2 230.0,58.6 230.9,59.0 231.8,59.4 232.6,59.8 233.5,60.3 234.4,60.7 235.2,61.2 236.1,61.6 237.0,62.1 237.9,62.6 238.8,63.1 239.6,63.5 240.5,64.0 241.4,64.6 242.2,65.1 243.1,65.6 244.0,66.1 244.9,66.7 245.8,67.2 246.6,67.8 247.5,68.4 248.4,68.9 249.2,69.5 250.1,70.1 251.0,70.7 251.9,71.3 252.8,71.9 253.6,72.6 254.5,73.2 255.4,73.8 256.2,74.5 257.1,75.1 258.0,75.8 258.9,76.5 259.8,77.2 260.6,77.9 261.5,78.6 262.4,79.3 263.2,80.0 264.1,80.7 265.0,81.5 265.9,82.2 266.8,83.0 267.6,83.7 268.5,84.5 269.4,85.3 270.2,86.1 271.1,86.9 272.0,87.7 272.9,88.5 273.8,89.3 274.6,90.1 275.5,91.0 276.4,91.8 277.2,92.7 278.1,93.5 279.0,94.4 279.9,95.3 280.8,96.2 281.6,97.0 282.5,98.0 283.4,98.9 284.2,99.8 285.1,100.7 286.0,101.7 286.9,102.6 287.8,103.6 288.6,104.5 289.5,105.5 290.4,106.5 291.2,107.5 292.1,108.4 293.0,109.5 293.9,110.5 294.8,111.5 295.6,112.5 296.5,113.6 297.4,114.6 298.2,115.7 299.1,116.7 300.0,117.8 300.9,118.9 301.8,120.0 302.6,121.1 303.5,122.2 304.4,123.3 305.2,124.4 306.1,125.5 307.0,126.7 307.9,127.8 308.8,129.0 309.6,130.1 310.5,131.3 311.4,132.5 312.2,133.7 313.1,134.9 314.0,136.1 314.9,137.3 315.8,138.5 316.6,139.8 317.5,141.0 318.4,142.3 319.2,143.5 320.1,144.8 321.0,146.1 321.9,147.3 322.8,148.6 323.6,149.9 324.5,151.2 325.4,152.5 326.2,153.9 327.1,155.2 328.0,156.5 328.9,157.9 329.8,159.3 330.6,160.6 331.5,162.0 332.4,163.4 333.2,164.8 334.1,166.2 335.0,167.6 335.9,169.0 336.8,170.4 337.6,171.9 338.5,173.3 339.4,174.7 340.2,176.2 341.1,177.7 342.0,179.1 342.9,180.6 343.8,182.1 344.6,183.6 345.5,185.1 346.4,186.7 347.3,188.2 348.1,189.7 349.0,191.3 349.9,192.8 350.8,194.4 351.6,195.9 352.5,197.5 353.4,199.1 354.2,200.7 355.1,202.3 356.0,203.9 356.9,205.5 357.8,207.2 358.6,208.8 359.5,210.4 360.4,212.1 361.2,213.7 362.1,215.4 363.0,217.1 363.9,218.8 364.8,220.5 365.6,222.2 366.5,223.9 367.4,225.6 368.2,227.3 369.1,229.1 370.0,230.8 370.9,232.6 371.8,234.3 372.6,236.1 373.5,237.9 374.4,239.7 375.2,241.5 376.1,243.3 377.0,245.1 377.9,246.9 378.8,248.7 379.6,250.6 380.5,252.4 381.4,254.3 382.2,256.1 383.1,258.0 384.0,259.9 384.9,261.8 385.8,263.7 386.6,265.6 387.5,267.5 388.4,269.4 389.2,271.3 390.1,273.3 391.0,275.2 391.9,277.2 392.8,279.1 393.6,281.1 394.5,283.1 395.4,285.1 396.2,287.1 397.1,289.1 398.0,291.1\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"293.0\" y=\"59.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">y = f′(x)</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan anger hur snabbt \\(f\\) ändras. \\(f\\) växer snabbast där \\(f^{\\prime}\\) är som störst, alltså i derivatagrafens topp: \\(x=2\\).</p></li><li><p>Observera att \\(f\\) själv har sitt största värde i \\(x=4\\), där \\(f^{\\prime}\\) byter tecken från + till −. Det är en annan fråga.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2\\)</strong></p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">f växer snabbast där \\(f'\\) är störst</p><p>Leta efter toppen på derivatagrafen.</p></li><li><p class=\"facit-rubrik\">Toppen vid \\(x=2\\)</p><p>f har sitt största värde vid \\(x=4\\), där \\(f'\\) byter tecken, men det är en annan fråga.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
   "familj": "Funktionens graf och derivatans graf",
   "formaga": [
     "begrepp"
@@ -101975,7 +102307,7 @@ window.BANKMATO1 = [
   "poang": "1/0/0",
   "typ": "högsta värde ur derivatans graf i en tillämpning",
   "t": "<p>Under ett regnoväder mättes hur snabbt vattennivån i en damm ändrades. Figuren visar \\(h^{\\prime}(t)\\) i cm per timme, där \\(t\\) är tiden i timmar. Vid vilken tidpunkt var vattennivån som högst under de 10 timmarna?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 320\" role=\"img\" aria-label=\"Grafen till h′(t), hur snabbt vattennivån ändras i cm per timme. Den är positiv fram till t = 6 och negativ därefter.\" style=\"width:100%;max-width:430px\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"84.0\" y1=\"22\" x2=\"84.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"120.0\" y1=\"22\" x2=\"120.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"156.0\" y1=\"22\" x2=\"156.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"192.0\" y1=\"22\" x2=\"192.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"228.0\" y1=\"22\" x2=\"228.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"264.0\" y1=\"22\" x2=\"264.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"22\" x2=\"300.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"336.0\" y1=\"22\" x2=\"336.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"372.0\" y1=\"22\" x2=\"372.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"408.0\" y1=\"22\" x2=\"408.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"408\" y2=\"278.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"241.4\" x2=\"408\" y2=\"241.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"204.9\" x2=\"408\" y2=\"204.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"168.3\" x2=\"408\" y2=\"168.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"131.7\" x2=\"408\" y2=\"131.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"95.1\" x2=\"408\" y2=\"95.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"58.6\" x2=\"408\" y2=\"58.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"408\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"95.1\" x2=\"418\" y2=\"95.1\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"422,95.1 412,90.1 412,100.1\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"278\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"420\" y=\"86.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">t (h)</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">cm/h</text><text x=\"84.0\" y=\"112.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"120.0\" y=\"112.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"156.0\" y=\"112.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"192.0\" y=\"112.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"228.0\" y=\"112.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"264.0\" y=\"112.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"300.0\" y=\"112.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><text x=\"336.0\" y=\"112.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"372.0\" y=\"112.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">9</text><text x=\"408.0\" y=\"112.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"42.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−5</text><text x=\"42.0\" y=\"245.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"42.0\" y=\"208.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"42.0\" y=\"172.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"42.0\" y=\"135.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"42.0\" y=\"62.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"112.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k86bd13a8\"><rect x=\"48\" y=\"22\" width=\"360\" height=\"256\"/></clipPath><polyline clip-path=\"url(#k86bd13a8)\" points=\"48.0,51.3 48.9,50.9 49.8,50.5 50.7,50.2 51.6,49.8 52.5,49.5 53.4,49.1 54.3,48.8 55.2,48.5 56.1,48.2 57.0,47.8 57.9,47.5 58.8,47.2 59.7,46.9 60.6,46.6 61.5,46.3 62.4,46.0 63.3,45.7 64.2,45.4 65.1,45.1 66.0,44.9 66.9,44.6 67.8,44.3 68.7,44.1 69.6,43.8 70.5,43.5 71.4,43.3 72.3,43.0 73.2,42.8 74.1,42.6 75.0,42.3 75.9,42.1 76.8,41.9 77.7,41.7 78.6,41.5 79.5,41.3 80.4,41.1 81.3,40.9 82.2,40.7 83.1,40.5 84.0,40.3 84.9,40.1 85.8,39.9 86.7,39.8 87.6,39.6 88.5,39.4 89.4,39.3 90.3,39.1 91.2,39.0 92.1,38.8 93.0,38.7 93.9,38.6 94.8,38.4 95.7,38.3 96.6,38.2 97.5,38.1 98.4,37.9 99.3,37.8 100.2,37.7 101.1,37.6 102.0,37.5 102.9,37.5 103.8,37.4 104.7,37.3 105.6,37.2 106.5,37.1 107.4,37.1 108.3,37.0 109.2,37.0 110.1,36.9 111.0,36.9 111.9,36.8 112.8,36.8 113.7,36.7 114.6,36.7 115.5,36.7 116.4,36.7 117.3,36.6 118.2,36.6 119.1,36.6 120.0,36.6 120.9,36.6 121.8,36.6 122.7,36.6 123.6,36.7 124.5,36.7 125.4,36.7 126.3,36.7 127.2,36.8 128.1,36.8 129.0,36.9 129.9,36.9 130.8,37.0 131.7,37.0 132.6,37.1 133.5,37.1 134.4,37.2 135.3,37.3 136.2,37.4 137.1,37.5 138.0,37.5 138.9,37.6 139.8,37.7 140.7,37.8 141.6,37.9 142.5,38.1 143.4,38.2 144.3,38.3 145.2,38.4 146.1,38.6 147.0,38.7 147.9,38.8 148.8,39.0 149.7,39.1 150.6,39.3 151.5,39.4 152.4,39.6 153.3,39.8 154.2,39.9 155.1,40.1 156.0,40.3 156.9,40.5 157.8,40.7 158.7,40.9 159.6,41.1 160.5,41.3 161.4,41.5 162.3,41.7 163.2,41.9 164.1,42.1 165.0,42.3 165.9,42.6 166.8,42.8 167.7,43.0 168.6,43.3 169.5,43.5 170.4,43.8 171.3,44.1 172.2,44.3 173.1,44.6 174.0,44.9 174.9,45.1 175.8,45.4 176.7,45.7 177.6,46.0 178.5,46.3 179.4,46.6 180.3,46.9 181.2,47.2 182.1,47.5 183.0,47.8 183.9,48.2 184.8,48.5 185.7,48.8 186.6,49.1 187.5,49.5 188.4,49.8 189.3,50.2 190.2,50.5 191.1,50.9 192.0,51.3 192.9,51.6 193.8,52.0 194.7,52.4 195.6,52.8 196.5,53.1 197.4,53.5 198.3,53.9 199.2,54.3 200.1,54.7 201.0,55.1 201.9,55.6 202.8,56.0 203.7,56.4 204.6,56.8 205.5,57.3 206.4,57.7 207.3,58.1 208.2,58.6 209.1,59.0 210.0,59.5 210.9,59.9 211.8,60.4 212.7,60.9 213.6,61.4 214.5,61.8 215.4,62.3 216.3,62.8 217.2,63.3 218.1,63.8 219.0,64.3 219.9,64.8 220.8,65.3 221.7,65.8 222.6,66.3 223.5,66.9 224.4,67.4 225.3,67.9 226.2,68.5 227.1,69.0 228.0,69.5 228.9,70.1 229.8,70.6 230.7,71.2 231.6,71.8 232.5,72.3 233.4,72.9 234.3,73.5 235.2,74.1 236.1,74.7 237.0,75.3 237.9,75.9 238.8,76.5 239.7,77.1 240.6,77.7 241.5,78.3 242.4,78.9 243.3,79.5 244.2,80.2 245.1,80.8 246.0,81.4 246.9,82.1 247.8,82.7 248.7,83.4 249.6,84.0 250.5,84.7 251.4,85.4 252.3,86.0 253.2,86.7 254.1,87.4 255.0,88.1 255.9,88.7 256.8,89.4 257.7,90.1 258.6,90.8 259.5,91.5 260.4,92.3 261.3,93.0 262.2,93.7 263.1,94.4 264.0,95.1 264.9,95.9 265.8,96.6 266.7,97.4 267.6,98.1 268.5,98.9 269.4,99.6 270.3,100.4 271.2,101.1 272.1,101.9 273.0,102.7 273.9,103.5 274.8,104.2 275.7,105.0 276.6,105.8 277.5,106.6 278.4,107.4 279.3,108.2 280.2,109.0 281.1,109.9 282.0,110.7 282.9,111.5 283.8,112.3 284.7,113.2 285.6,114.0 286.5,114.9 287.4,115.7 288.3,116.6 289.2,117.4 290.1,118.3 291.0,119.1 291.9,120.0 292.8,120.9 293.7,121.8 294.6,122.7 295.5,123.5 296.4,124.4 297.3,125.3 298.2,126.2 299.1,127.1 300.0,128.1 300.9,129.0 301.8,129.9 302.7,130.8 303.6,131.8 304.5,132.7 305.4,133.6 306.3,134.6 307.2,135.5 308.1,136.5 309.0,137.4 309.9,138.4 310.8,139.4 311.7,140.3 312.6,141.3 313.5,142.3 314.4,143.3 315.3,144.3 316.2,145.3 317.1,146.3 318.0,147.3 318.9,148.3 319.8,149.3 320.7,150.3 321.6,151.3 322.5,152.3 323.4,153.4 324.3,154.4 325.2,155.4 326.1,156.5 327.0,157.5 327.9,158.6 328.8,159.7 329.7,160.7 330.6,161.8 331.5,162.9 332.4,163.9 333.3,165.0 334.2,166.1 335.1,167.2 336.0,168.3 336.9,169.4 337.8,170.5 338.7,171.6 339.6,172.7 340.5,173.8 341.4,175.0 342.3,176.1 343.2,177.2 344.1,178.3 345.0,179.5 345.9,180.6 346.8,181.8 347.7,182.9 348.6,184.1 349.5,185.3 350.4,186.4 351.3,187.6 352.2,188.8 353.1,190.0 354.0,191.1 354.9,192.3 355.8,193.5 356.7,194.7 357.6,195.9 358.5,197.1 359.4,198.4 360.3,199.6 361.2,200.8 362.1,202.0 363.0,203.3 363.9,204.5 364.8,205.7 365.7,207.0 366.6,208.2 367.5,209.5 368.4,210.7 369.3,212.0 370.2,213.3 371.1,214.6 372.0,215.8 372.9,217.1 373.8,218.4 374.7,219.7 375.6,221.0 376.5,222.3 377.4,223.6 378.3,224.9 379.2,226.2 380.1,227.5 381.0,228.9 381.9,230.2 382.8,231.5 383.7,232.9 384.6,234.2 385.5,235.5 386.4,236.9 387.3,238.2 388.2,239.6 389.1,241.0 390.0,242.3 390.9,243.7 391.8,245.1 392.7,246.5 393.6,247.9 394.5,249.3 395.4,250.7 396.3,252.1 397.2,253.5 398.1,254.9 399.0,256.3 399.9,257.7 400.8,259.1 401.7,260.6 402.6,262.0 403.5,263.4 404.4,264.9 405.3,266.3 406.2,267.8 407.1,269.2 408.0,270.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"130.8\" y=\"73.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">h′(t)</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Så länge \\(h^{\\prime}(t)\\gt0\\) stiger vattennivån, och när \\(h^{\\prime}(t)\\lt0\\) sjunker den.</p></li><li><p>Derivatan byter tecken från + till − vid \\(t=6\\). Där slutar nivån att stiga och börjar sjunka, så nivån är som högst efter 6 timmar.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(6\\)</strong></p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nivån stiger när \\(h'(t)\\gt0\\) och sjunker när \\(h'(t)\\lt0\\)</p><p>Derivatan byter tecken från + till − vid \\(t=6\\).</p></li><li><p class=\"facit-rubrik\">Nivån är högst när den slutar stiga</p><div class=\"facit-matte\">\\[t=6\\ \\text{h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
   "familj": "Funktionens graf och derivatans graf",
   "formaga": [
     "begrepp",
@@ -102005,7 +102337,7 @@ window.BANKMATO1 = [
   "poang": "1/0/0",
   "typ": "slutsats om funktionsvärden från derivatans tecken",
   "t": "<p>För en funktion gäller att \\(f(2)=5\\) och att \\(f^{\\prime}(x)\\gt0\\) för alla \\(x\\). Vilket värde kan \\(f(4)\\) ha? (Välj ett alternativ.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom derivatan är positiv överallt är \\(f\\) strängt växande. Då måste \\(f(4)\\gt f(2)=5\\). Bara 8 är möjligt.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 8</strong></p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f'\\gt0\\) överallt: f är strängt växande</p><div class=\"facit-matte\">\\[f(4)\\gt f(2)=5\\]</div></li><li><p class=\"facit-rubrik\">Bara ett alternativ är större än 5</p><div class=\"facit-matte\">\\[f(4)=8\\ \\text{är möjligt}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
   "familj": "Växande och avtagande",
   "formaga": [
     "begrepp",
@@ -107204,7 +107536,7 @@ window.BANKMATO1 = [
   "typ": "välja cosinussatsens samband från en figur",
   "poang": "1/0/0",
   "t": "<p>Vilket samband stämmer för längden \\(x\\) i figuren? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 305\" role=\"img\" aria-label=\"Triangel med sidorna 7 cm och 4 cm, vinkeln 60 grader mellan dem och den motstående sidan x cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"305\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"7\" data-side-b=\"4\" data-angle=\"60\" points=\"80.0,245.0 400.0,245.0 171.42857142857144,86.64106902227408\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"240.0\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">7 cm</text><text x=\"100.59954900453701\" y=\"156.32053451113705\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">4 cm</text><text x=\"302.2296348403792\" y=\"146.98268135186024\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">x cm</text><path data-angle-arc=\"60\" d=\"M107.0 245.0 A27 27 0 0 0 93.5 221.61731409782016\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"138.0237020535574\" y=\"216.5\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">60°</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sidan x ligger mittemot den kända vinkeln. Cosinussatsen kopplar den till de två sidor som möts i vinkeln.</p><div class=\"facit-matte\">\\[x^2=7^2+4^2-2\\cdot7\\cdot4\\cos60^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^2=7^2+4^2-2\\cdot7\\cdot4\\cos60^\\circ\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">x ligger mittemot vinkeln 60°</p><p>Vinkeln ligger mellan sidorna 7 och 4.</p></li><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\)</p><div class=\"facit-matte\">\\[x^2=7^2+4^2-2\\cdot7\\cdot4\\cos60^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^2=7^2+4^2-2\\cdot7\\cdot4\\cos60^\\circ\\)</p></div>",
   "familj": "Använda cosinussatsen",
   "formaga": [
     "begrepp",
@@ -107254,7 +107586,7 @@ window.BANKMATO1 = [
   "typ": "genväg över ett trubbigt hörn",
   "poang": "1/0/0",
   "t": "<p>Två stigar möts i vinkeln 120°. En person står 5 m från korsningen på den ena stigen och en annan står 3 m från korsningen på den andra. Hur långt är det rakt mellan personerna? (Svara i m.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 305\" role=\"img\" aria-label=\"Två sträckor från en korsning, 5 m och 3 m, bildar vinkeln 120 grader. Avståndet mellan deras ändpunkter är x.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"305\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"5\" data-side-b=\"3\" data-angle=\"120\" points=\"153.8461538461538,245.0 400.0,245.0 79.99999999999997,117.09470959491365\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"276.9230769230769\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">5 m</text><text x=\"91.80834021332817\" y=\"200.54735479745682\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">3 m</text><text x=\"250.7634585898923\" y=\"159.1187833688854\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">x</text><path data-angle-arc=\"120\" d=\"M180.8461538461538 245.0 A27 27 0 0 0 140.3461538461538 221.61731409782016\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"177.8461538461538\" y=\"208.43078061834694\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">120°</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet mellan personerna är sidan mittemot vinkeln 120°. Cosinusvärdet är negativt, så den sista termen ökar x².</p><div class=\"facit-matte\">\\[\\begin{aligned}x^2&=5^2+3^2-2\\cdot5\\cdot3\\cos120^\\circ\\\\&=25+9+15=49\\\\x&=\\sqrt{49}=7\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 m.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avståndet ligger mittemot vinkeln 120°</p><div class=\"facit-matte\">\\[x^2=5^2+3^2-2\\cdot5\\cdot3\\cos120^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos120^\\circ=-\\tfrac12\\) ger plustecken</p><div class=\"facit-matte\">\\[x^2=25+9+15=49\\quad\\Rightarrow\\quad x=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 m</p></div>",
   "familj": "Använda cosinussatsen",
   "formaga": [
     "procedur"
@@ -107283,7 +107615,7 @@ window.BANKMATO1 = [
   "typ": "öppna en vinkel mellan fasta sidor",
   "poang": "1/0/0",
   "t": "<p>Trianglarna har två sidor som är 5 cm. Vinkeln mellan dem är större i triangel II. Jämför de motstående sidorna \\(x\\) och \\(y\\). (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 580\" role=\"img\" aria-label=\"Två trianglar i samma skala. Båda har två sidor 5 cm. Mellanliggande vinkel är 40 grader i I och 100 grader i II. Motstående sidor är x och y.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"580\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"5\" data-side-b=\"5\" data-angle=\"40\" points=\"152.5,245 327.5,245 286.5577775458211,132.51216830485563\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"240.0\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">5 cm</text><text x=\"200.88804809200093\" y=\"171.54079530197748\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">5 cm</text><text x=\"334.27997477570193\" y=\"183.83749999598342\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">x</text><path data-angle-arc=\"40\" d=\"M179.5 245 A27 27 0 0 0 173.1831999642124 227.64473453846344\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"215.45940559265586\" y=\"227.0846503971802\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">40°</text><text x=\"240\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">I</text><polygon data-geometry=\"triangle\" data-side-a=\"5\" data-side-b=\"5\" data-angle=\"100\" points=\"167.6942155458564,520 342.6942155458564,520 137.30578445414358,347.6586432228636\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"255.19421554585642\" y=\"554.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">5 cm</text><text x=\"123.94057516264597\" y=\"443.8651187637728\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">5 cm</text><text x=\"258.64084068090966\" y=\"416.61403276098144\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">y</text><path data-angle-arc=\"100\" d=\"M194.6942155458564 520 A27 27 0 0 0 163.00571474884927 493.4101906686704\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"198.54802081081027\" y=\"488.2298667302891\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">100°</text><text x=\"240\" y=\"320\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">II</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När två sidlängder hålls fasta blir den motstående sidan längre när vinkeln mellan sidorna ökar. I cosinussatsen minskar cosinusvärdet när vinkeln ökar från 40° till 100°, vilket gör den tredje sidans kvadrat större.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\gt x\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma två sidor, större vinkel</p><p>I cosinussatsen \\(c^2=5^2+5^2-50\\cos v\\) minskar \\(\\cos v\\) när v ökar.</p></li><li><p class=\"facit-rubrik\">Mindre cosinus ger större \\(c^2\\)</p><div class=\"facit-matte\">\\[\\cos100^\\circ\\lt\\cos40^\\circ\\quad\\Rightarrow\\quad y\\gt x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\gt x\\)</p></div>",
   "familj": "Använda cosinussatsen",
   "formaga": [
     "begrepp",
@@ -107333,7 +107665,7 @@ window.BANKMATO1 = [
   "typ": "bestämma en trubbig vinkel från tre sidlängder",
   "poang": "1/0/0",
   "t": "<p>Beräkna den markerade vinkeln \\(v\\). (Svara i grader med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 305\" role=\"img\" aria-label=\"Triangel med sidor 7 cm, 5 cm och 10 cm. Vinkeln v ligger mellan sidorna 7 och 5 cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"305\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"7\" data-side-b=\"5\" data-angle=\"111.80374798938259\" points=\"147.0967741935484,245.0 400.0,245.0 80.0,77.27791680751568\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"273.5483870967742\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">7 cm</text><text x=\"86.62300266998074\" y=\"176.9103869751864\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">5 cm</text><text x=\"253.46269221339674\" y=\"140.45324411804356\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">10 cm</text><path data-angle-arc=\"111.80374798938259\" d=\"M174.0967741935484 245.0 A27 27 0 0 0 137.06820276497697 219.9315386371233\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"174.00614590145503\" y=\"210.2522237818804\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">v</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sidan 10 cm ligger mittemot v. Lös ut cos v ur cosinussatsen och använd sedan invers cosinus.</p><div class=\"facit-matte\">\\[\\begin{aligned}10^2&=7^2+5^2-2\\cdot7\\cdot5\\cos v\\\\\\cos v&=\\frac{49+25-100}{70}=-\\frac{13}{35}\\\\v&=\\arccos\\!\\left(-\\frac{13}{35}\\right)\\approx111{,}8^\\circ\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v\\approx111{,}8^\\circ\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sidan 10 cm ligger mittemot v</p><div class=\"facit-matte\">\\[10^2=7^2+5^2-2\\cdot7\\cdot5\\cos v\\]</div></li><li><p class=\"facit-rubrik\">Cosinussatsen löst för vinkeln: \\(\\cos C=\\dfrac{a^2+b^2-c^2}{2ab}\\)</p><div class=\"facit-matte\">\\[\\cos v=\\frac{49+25-100}{70}=-\\frac{13}{35}\\]</div></li><li><p class=\"facit-rubrik\">Invers cosinus ger den trubbiga vinkeln v</p><div class=\"facit-matte\">\\[v\\approx111{,}8^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v\\approx111{,}8^\\circ\\)</p></div>",
   "familj": "Använda cosinussatsen",
   "formaga": [
     "procedur"
@@ -107362,7 +107694,7 @@ window.BANKMATO1 = [
   "typ": "bestämma en parallellograms sida från båda diagonalerna",
   "poang": "0/1/0",
   "t": "<p>Parallellogrammens diagonaler är 8 cm och 10 cm. En av sidlängderna är 6 cm.</p><p>Bestäm den andra sidlängden \\(x\\). (Svara i cm med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 335\" role=\"img\" aria-label=\"Parallellogram med diagonalerna 8 cm och 10 cm. En sida är 6 cm och en angränsande sida är x cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"335\" fill=\"white\"/><polygon data-geometry=\"parallelogram\" points=\"90,270 270,270 315,71.5686516701557 135,71.5686516701557\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><path d=\"M90 270L315 71.5686516701557\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2.5\"/><path d=\"M270 270L135 71.5686516701557\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"2.5\"/><text x=\"180\" y=\"301\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">6 cm</text><text x=\"79\" y=\"174\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">x cm</text><text x=\"264\" y=\"174\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">10 cm</text><text x=\"202\" y=\"116\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">8 cm</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt vinkeln mellan sidorna 6 och x vara v. Vinkeln i nästa hörn är 180°−v. Cosinusvärdena har motsatta tecken. Skriv cosinussatsen för båda diagonalerna och addera ekvationerna så att cosinustermerna försvinner.</p><div class=\"facit-matte\">\\[\\begin{aligned}8^2&=6^2+x^2-12x\\cos v\\\\10^2&=6^2+x^2+12x\\cos v\\\\164&=72+2x^2\\\\x^2&=46\\\\x&=\\sqrt{46}\\approx6{,}78\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx6{,}78\\) cm.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen för båda diagonalerna</p><div class=\"facit-matte\">\\[8^2=6^2+x^2-12x\\cos v\\]</div><div class=\"facit-matte\">\\[10^2=6^2+x^2+12x\\cos v\\]</div><p>Vinklarna v och \\(180^\\circ-v\\) har motsatta cosinusvärden.</p></li><li><p class=\"facit-rubrik\">Addera – cosinustermerna tar ut varandra</p><div class=\"facit-matte\">\\[164=72+2x^2\\quad\\Rightarrow\\quad x^2=46\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten ur 46</p><div class=\"facit-matte\">\\[x=\\sqrt{46}\\approx6{,}78\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx6{,}78\\) cm</p></div>",
   "familj": "Använda cosinussatsen",
   "formaga": [
     "problemlösning",
@@ -107392,7 +107724,7 @@ window.BANKMATO1 = [
   "typ": "två okända lika sidor i samma cosinussamband",
   "poang": "0/1/0",
   "t": "<p>En likbent triangel har två lika långa sidor, båda \\(x\\) cm. Vinkeln mellan dem är 120° och den tredje sidan är 12 cm.</p><p>Bestäm \\(x\\). (Svara i cm med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 305\" role=\"img\" aria-label=\"Likbent triangel med två sidor x cm, vinkeln 120 grader mellan dem och motstående sida 12 cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"305\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"6.928203230275509\" data-side-b=\"6.928203230275509\" data-angle=\"120\" points=\"188.03847577293368,245.0 395.88457268119896,245.0 84.11542731880107,65.0\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"291.9615242270663\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">x cm</text><text x=\"110.96221483611863\" y=\"174.5\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">x cm</text><text x=\"254.5\" y=\"134.8852632902513\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">12 cm</text><path data-angle-arc=\"120\" d=\"M215.03847577293368 245.0 A27 27 0 0 0 174.53847577293368 221.61731409782016\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"212.03847577293368\" y=\"208.43078061834694\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">120°</text></svg></span>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda sidorna intill vinkeln är x, så de ska båda ersättas med x i cosinussatsen. Eftersom cos 120°=−1/2 blir den sista termen positiv.</p><div class=\"facit-matte\">\\[\\begin{aligned}12^2&=x^2+x^2-2x^2\\cos120^\\circ\\\\144&=2x^2+x^2=3x^2\\\\x^2&=48\\\\x&=\\sqrt{48}\\approx6{,}93\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx6{,}93\\) cm.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med båda sidorna x</p><div class=\"facit-matte\">\\[12^2=x^2+x^2-2x^2\\cos120^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos120^\\circ=-\\tfrac12\\)</p><div class=\"facit-matte\">\\[144=2x^2+x^2=3x^2\\quad\\Rightarrow\\quad x^2=48\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten ur 48</p><div class=\"facit-matte\">\\[x=\\sqrt{48}\\approx6{,}93\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx6{,}93\\) cm</p></div>",
   "familj": "Använda cosinussatsen",
   "formaga": [
     "problemlösning",
@@ -109009,7 +109341,7 @@ window.BANKMATO1 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Bestäm den sammanlagda arean mellan linjen \\(y=x-1\\) och x-axeln på intervallet \\(0\\le x\\le3\\). (Svara i areaenheter.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Linje som skär x-axeln inom intervallet\" style=\"width:100%;max-width:500px\"><title>Linje som skär x-axeln inom intervallet</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"188.333\" y1=\"45\" x2=\"188.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"188.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"311.667\" y1=\"45\" x2=\"311.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"311.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"65\" y1=\"245\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"250\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-2</text><line x1=\"65\" y1=\"205\" x2=\"435\" y2=\"205\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"210\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-1</text><line x1=\"65\" y1=\"165\" x2=\"435\" y2=\"165\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"170\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"125\" x2=\"435\" y2=\"125\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"130\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"65\" y1=\"85\" x2=\"435\" y2=\"85\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"90\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"45\" x2=\"435\" y2=\"45\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"50\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"65\" y1=\"165\" x2=\"445\" y2=\"165\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"65\" y1=\"245\" x2=\"65\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y</text><path d=\"M65.000 205.000 L66.542 204.500 L68.083 204.000 L69.625 203.500 L71.167 203.000 L72.708 202.500 L74.250 202.000 L75.792 201.500 L77.333 201.000 L78.875 200.500 L80.417 200.000 L81.958 199.500 L83.500 199.000 L85.042 198.500 L86.583 198.000 L88.125 197.500 L89.667 197.000 L91.208 196.500 L92.750 196.000 L94.292 195.500 L95.833 195.000 L97.375 194.500 L98.917 194.000 L100.458 193.500 L102.000 193.000 L103.542 192.500 L105.083 192.000 L106.625 191.500 L108.167 191.000 L109.708 190.500 L111.250 190.000 L112.792 189.500 L114.333 189.000 L115.875 188.500 L117.417 188.000 L118.958 187.500 L120.500 187.000 L122.042 186.500 L123.583 186.000 L125.125 185.500 L126.667 185.000 L128.208 184.500 L129.750 184.000 L131.292 183.500 L132.833 183.000 L134.375 182.500 L135.917 182.000 L137.458 181.500 L139.000 181.000 L140.542 180.500 L142.083 180.000 L143.625 179.500 L145.167 179.000 L146.708 178.500 L148.250 178.000 L149.792 177.500 L151.333 177.000 L152.875 176.500 L154.417 176.000 L155.958 175.500 L157.500 175.000 L159.042 174.500 L160.583 174.000 L162.125 173.500 L163.667 173.000 L165.208 172.500 L166.750 172.000 L168.292 171.500 L169.833 171.000 L171.375 170.500 L172.917 170.000 L174.458 169.500 L176.000 169.000 L177.542 168.500 L179.083 168.000 L180.625 167.500 L182.167 167.000 L183.708 166.500 L185.250 166.000 L186.792 165.500 L188.333 165.000 L189.875 164.500 L191.417 164.000 L192.958 163.500 L194.500 163.000 L196.042 162.500 L197.583 162.000 L199.125 161.500 L200.667 161.000 L202.208 160.500 L203.750 160.000 L205.292 159.500 L206.833 159.000 L208.375 158.500 L209.917 158.000 L211.458 157.500 L213.000 157.000 L214.542 156.500 L216.083 156.000 L217.625 155.500 L219.167 155.000 L220.708 154.500 L222.250 154.000 L223.792 153.500 L225.333 153.000 L226.875 152.500 L228.417 152.000 L229.958 151.500 L231.500 151.000 L233.042 150.500 L234.583 150.000 L236.125 149.500 L237.667 149.000 L239.208 148.500 L240.750 148.000 L242.292 147.500 L243.833 147.000 L245.375 146.500 L246.917 146.000 L248.458 145.500 L250.000 145.000 L251.542 144.500 L253.083 144.000 L254.625 143.500 L256.167 143.000 L257.708 142.500 L259.250 142.000 L260.792 141.500 L262.333 141.000 L263.875 140.500 L265.417 140.000 L266.958 139.500 L268.500 139.000 L270.042 138.500 L271.583 138.000 L273.125 137.500 L274.667 137.000 L276.208 136.500 L277.750 136.000 L279.292 135.500 L280.833 135.000 L282.375 134.500 L283.917 134.000 L285.458 133.500 L287.000 133.000 L288.542 132.500 L290.083 132.000 L291.625 131.500 L293.167 131.000 L294.708 130.500 L296.250 130.000 L297.792 129.500 L299.333 129.000 L300.875 128.500 L302.417 128.000 L303.958 127.500 L305.500 127.000 L307.042 126.500 L308.583 126.000 L310.125 125.500 L311.667 125.000 L313.208 124.500 L314.750 124.000 L316.292 123.500 L317.833 123.000 L319.375 122.500 L320.917 122.000 L322.458 121.500 L324.000 121.000 L325.542 120.500 L327.083 120.000 L328.625 119.500 L330.167 119.000 L331.708 118.500 L333.250 118.000 L334.792 117.500 L336.333 117.000 L337.875 116.500 L339.417 116.000 L340.958 115.500 L342.500 115.000 L344.042 114.500 L345.583 114.000 L347.125 113.500 L348.667 113.000 L350.208 112.500 L351.750 112.000 L353.292 111.500 L354.833 111.000 L356.375 110.500 L357.917 110.000 L359.458 109.500 L361.000 109.000 L362.542 108.500 L364.083 108.000 L365.625 107.500 L367.167 107.000 L368.708 106.500 L370.250 106.000 L371.792 105.500 L373.333 105.000 L374.875 104.500 L376.417 104.000 L377.958 103.500 L379.500 103.000 L381.042 102.500 L382.583 102.000 L384.125 101.500 L385.667 101.000 L387.208 100.500 L388.750 100.000 L390.292 99.500 L391.833 99.000 L393.375 98.500 L394.917 98.000 L396.458 97.500 L398.000 97.000 L399.542 96.500 L401.083 96.000 L402.625 95.500 L404.167 95.000 L405.708 94.500 L407.250 94.000 L408.792 93.500 L410.333 93.000 L411.875 92.500 L413.417 92.000 L414.958 91.500 L416.500 91.000 L418.042 90.500 L419.583 90.000 L421.125 89.500 L422.667 89.000 L424.208 88.500 L425.750 88.000 L427.292 87.500 L428.833 87.000 L430.375 86.500 L431.917 86.000 L433.458 85.500 L435.000 85.000\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/></svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Dela vid nollstället; båda delareorna är positiva.</strong></p><p>Linjen skär x-axeln vid x = 1. De två områdena är trianglar.</p><div class=\"facit-matte\">\\[A=\\frac{1\\cdot1}{2}+\\frac{2\\cdot2}{2}\\]</div><div class=\"facit-matte\">\\[=0{,}5+2=2{,}5\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 areaenheter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela vid nollstället \\(x=1\\)</p><p>Linjen ligger under x-axeln mellan 0 och 1 och över mellan 1 och 3.</p></li><li><p class=\"facit-rubrik\">Två trianglar, båda räknas positiva</p><div class=\"facit-matte\">\\[A=\\frac{1\\cdot1}{2}+\\frac{2\\cdot2}{2}=0{,}5+2=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 areaenheter</p></div>",
     "ledtrad": "<p>En integral med tecken är inte alltid samma sak som sammanlagd area.</p>",
     "rättSvar": 2.5,
     "svarFormat": "numeriskt",
@@ -109044,7 +109376,7 @@ window.BANKMATO1 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Två sidor i en triangel är 6,0 cm och 8,0 cm. Vinkeln mellan dem är 60°. Hur lång är den tredje sidan? (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Två sidor i en triangel och mellanliggande vinkel\" style=\"width:100%;max-width:500px\"><title>Två sidor i en triangel och mellanliggande vinkel</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><path d=\"M80 235L400 235L200 27.154Z\" fill=\"#e8f3f8\" stroke=\"#24435e\" stroke-width=\"3\"/><text x=\"240\" y=\"266\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8,0 cm</text><text x=\"115\" y=\"121\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6,0 cm</text><text x=\"327\" y=\"117\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">c</text><path d=\"M120 235A40 40 0 0 0 100 200.359\" fill=\"none\" stroke=\"#b65d14\" stroke-width=\"2\"/><text x=\"143\" y=\"213\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">60°</text></svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Cosinussatsen använder vinkeln mellan de kända sidorna.</strong></p><div class=\"facit-matte\">\\[c^2=6^2+8^2-2\\cdot6\\cdot8\\cos60^\\circ\\]</div><div class=\"facit-matte\">\\[c=\\sqrt{52}\\approx7{,}21\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 7,21 cm.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med vinkeln 60°</p><div class=\"facit-matte\">\\[c^2=6^2+8^2-2\\cdot6\\cdot8\\cdot\\frac12=100-48=52\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten ur 52</p><div class=\"facit-matte\">\\[c=\\sqrt{52}\\approx7{,}21\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär 7,21 cm</p></div>",
     "ledtrad": "<p>Triangeln är inte rätvinklig.</p>",
     "rättSvar": 7.211102550927978,
     "svarFormat": "numeriskt",
@@ -109115,7 +109447,7 @@ window.BANKMATO1 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>Vid slutet av varje år sätts 3 000 kr in på ett konto med 4 % årsränta. Hur mycket finns direkt efter den tredje insättningen? (Svara i kr.)</p><table style=\"border-collapse:collapse;width:100%;max-width:420px\"><thead><tr><th style=\"padding:7px;border:1px solid #8192a3\">Insättning</th><th style=\"padding:7px;border:1px solid #8192a3\">Tid med ränta</th></tr></thead><tbody><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">Första</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">2 år</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">Andra</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">1 år</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">Tredje</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">0 år</td></tr></tbody></table>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Insättningarna får ränta olika länge.</strong></p><p>Den första får ränta i två år, den andra i ett år och den tredje har just satts in.</p><div class=\"facit-matte\">\\[3000\\cdot1{,}04^2+3000\\cdot1{,}04+3000\\]</div><div class=\"facit-matte\">\\[=9364{,}8\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 9 364,80 kr.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värdet av varje insättning efter den tredje</p><p>Den första har fått ränta 2 år, den andra 1 år och den tredje har just satts in.</p><div class=\"facit-matte\">\\[3000\\cdot1{,}04^2+3000\\cdot1{,}04+3000\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut varje term</p><div class=\"facit-matte\">\\[3244{,}8+3120+3000=9364{,}8\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln: \\(S_n=a\\cdot\\dfrac{k^n-1}{k-1}\\) ger samma sak</p><div class=\"facit-matte\">\\[3000\\cdot\\frac{1{,}04^3-1}{1{,}04-1}=9364{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9364{,}80\\) kr</p></div>",
     "ledtrad": "<p>Rita en tidslinje och räkna antalet ränteperioder för varje insättning.</p>",
     "rättSvar": 9364.8,
     "svarFormat": "numeriskt",
@@ -109151,7 +109483,7 @@ window.BANKMATO1 = [
     "spel": true,
     "självrättning": true,
     "t": "<p>En verkstad gör \\(x\\) små och \\(y\\) stora skyltar per dag. Villkoren är \\(x+y\\le10\\), \\(2x+y\\le14\\) och \\(x,y\\ge0\\). Vinsten är \\(40x+25y\\) kr. Vilken är den största möjliga dagsvinsten? (Svara i kr.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Gränslinjerna x + y = 10 och 2x + y = 14\" style=\"width:100%;max-width:500px\"><title>Gränslinjerna x + y = 10 och 2x + y = 14</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"139\" y1=\"45\" x2=\"139\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"139\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"213\" y1=\"45\" x2=\"213\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"213\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"287\" y1=\"45\" x2=\"287\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"287\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"361\" y1=\"45\" x2=\"361\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"361\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><line x1=\"65\" y1=\"245\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"250\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"216.429\" x2=\"435\" y2=\"216.429\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"221.429\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"187.857\" x2=\"435\" y2=\"187.857\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"192.857\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"65\" y1=\"159.286\" x2=\"435\" y2=\"159.286\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"164.286\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"65\" y1=\"130.714\" x2=\"435\" y2=\"130.714\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"135.714\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><line x1=\"65\" y1=\"102.143\" x2=\"435\" y2=\"102.143\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"107.143\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><line x1=\"65\" y1=\"73.5714\" x2=\"435\" y2=\"73.5714\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"78.5714\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">12</text><line x1=\"65\" y1=\"45\" x2=\"435\" y2=\"45\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"50\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">14</text><line x1=\"65\" y1=\"245\" x2=\"445\" y2=\"245\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"65\" y1=\"245\" x2=\"65\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y</text><path d=\"M65.000 102.143 L66.542 102.738 L68.083 103.333 L69.625 103.929 L71.167 104.524 L72.708 105.119 L74.250 105.714 L75.792 106.310 L77.333 106.905 L78.875 107.500 L80.417 108.095 L81.958 108.690 L83.500 109.286 L85.042 109.881 L86.583 110.476 L88.125 111.071 L89.667 111.667 L91.208 112.262 L92.750 112.857 L94.292 113.452 L95.833 114.048 L97.375 114.643 L98.917 115.238 L100.458 115.833 L102.000 116.429 L103.542 117.024 L105.083 117.619 L106.625 118.214 L108.167 118.810 L109.708 119.405 L111.250 120.000 L112.792 120.595 L114.333 121.190 L115.875 121.786 L117.417 122.381 L118.958 122.976 L120.500 123.571 L122.042 124.167 L123.583 124.762 L125.125 125.357 L126.667 125.952 L128.208 126.548 L129.750 127.143 L131.292 127.738 L132.833 128.333 L134.375 128.929 L135.917 129.524 L137.458 130.119 L139.000 130.714 L140.542 131.310 L142.083 131.905 L143.625 132.500 L145.167 133.095 L146.708 133.690 L148.250 134.286 L149.792 134.881 L151.333 135.476 L152.875 136.071 L154.417 136.667 L155.958 137.262 L157.500 137.857 L159.042 138.452 L160.583 139.048 L162.125 139.643 L163.667 140.238 L165.208 140.833 L166.750 141.429 L168.292 142.024 L169.833 142.619 L171.375 143.214 L172.917 143.810 L174.458 144.405 L176.000 145.000 L177.542 145.595 L179.083 146.190 L180.625 146.786 L182.167 147.381 L183.708 147.976 L185.250 148.571 L186.792 149.167 L188.333 149.762 L189.875 150.357 L191.417 150.952 L192.958 151.548 L194.500 152.143 L196.042 152.738 L197.583 153.333 L199.125 153.929 L200.667 154.524 L202.208 155.119 L203.750 155.714 L205.292 156.310 L206.833 156.905 L208.375 157.500 L209.917 158.095 L211.458 158.690 L213.000 159.286 L214.542 159.881 L216.083 160.476 L217.625 161.071 L219.167 161.667 L220.708 162.262 L222.250 162.857 L223.792 163.452 L225.333 164.048 L226.875 164.643 L228.417 165.238 L229.958 165.833 L231.500 166.429 L233.042 167.024 L234.583 167.619 L236.125 168.214 L237.667 168.810 L239.208 169.405 L240.750 170.000 L242.292 170.595 L243.833 171.190 L245.375 171.786 L246.917 172.381 L248.458 172.976 L250.000 173.571 L251.542 174.167 L253.083 174.762 L254.625 175.357 L256.167 175.952 L257.708 176.548 L259.250 177.143 L260.792 177.738 L262.333 178.333 L263.875 178.929 L265.417 179.524 L266.958 180.119 L268.500 180.714 L270.042 181.310 L271.583 181.905 L273.125 182.500 L274.667 183.095 L276.208 183.690 L277.750 184.286 L279.292 184.881 L280.833 185.476 L282.375 186.071 L283.917 186.667 L285.458 187.262 L287.000 187.857 L288.542 188.452 L290.083 189.048 L291.625 189.643 L293.167 190.238 L294.708 190.833 L296.250 191.429 L297.792 192.024 L299.333 192.619 L300.875 193.214 L302.417 193.810 L303.958 194.405 L305.500 195.000 L307.042 195.595 L308.583 196.190 L310.125 196.786 L311.667 197.381 L313.208 197.976 L314.750 198.571 L316.292 199.167 L317.833 199.762 L319.375 200.357 L320.917 200.952 L322.458 201.548 L324.000 202.143 L325.542 202.738 L327.083 203.333 L328.625 203.929 L330.167 204.524 L331.708 205.119 L333.250 205.714 L334.792 206.310 L336.333 206.905 L337.875 207.500 L339.417 208.095 L340.958 208.690 L342.500 209.286 L344.042 209.881 L345.583 210.476 L347.125 211.071 L348.667 211.667 L350.208 212.262 L351.750 212.857 L353.292 213.452 L354.833 214.048 L356.375 214.643 L357.917 215.238 L359.458 215.833 L361.000 216.429 L362.542 217.024 L364.083 217.619 L365.625 218.214 L367.167 218.810 L368.708 219.405 L370.250 220.000 L371.792 220.595 L373.333 221.190 L374.875 221.786 L376.417 222.381 L377.958 222.976 L379.500 223.571 L381.042 224.167 L382.583 224.762 L384.125 225.357 L385.667 225.952 L387.208 226.548 L388.750 227.143 L390.292 227.738 L391.833 228.333 L393.375 228.929 L394.917 229.524 L396.458 230.119 L398.000 230.714 L399.542 231.310 L401.083 231.905 L402.625 232.500 L404.167 233.095 L405.708 233.690 L407.250 234.286 L408.792 234.881 L410.333 235.476 L411.875 236.071 L413.417 236.667 L414.958 237.262 L416.500 237.857 L418.042 238.452 L419.583 239.048 L421.125 239.643 L422.667 240.238 L424.208 240.833 L425.750 241.429 L427.292 242.024 L428.833 242.619 L430.375 243.214 L431.917 243.810 L433.458 244.405 L435.000 245.000\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/><path d=\"M65.000 45.000 L66.542 46.190 L68.083 47.381 L69.625 48.571 L71.167 49.762 L72.708 50.952 L74.250 52.143 L75.792 53.333 L77.333 54.524 L78.875 55.714 L80.417 56.905 L81.958 58.095 L83.500 59.286 L85.042 60.476 L86.583 61.667 L88.125 62.857 L89.667 64.048 L91.208 65.238 L92.750 66.429 L94.292 67.619 L95.833 68.810 L97.375 70.000 L98.917 71.190 L100.458 72.381 L102.000 73.571 L103.542 74.762 L105.083 75.952 L106.625 77.143 L108.167 78.333 L109.708 79.524 L111.250 80.714 L112.792 81.905 L114.333 83.095 L115.875 84.286 L117.417 85.476 L118.958 86.667 L120.500 87.857 L122.042 89.048 L123.583 90.238 L125.125 91.429 L126.667 92.619 L128.208 93.810 L129.750 95.000 L131.292 96.190 L132.833 97.381 L134.375 98.571 L135.917 99.762 L137.458 100.952 L139.000 102.143 L140.542 103.333 L142.083 104.524 L143.625 105.714 L145.167 106.905 L146.708 108.095 L148.250 109.286 L149.792 110.476 L151.333 111.667 L152.875 112.857 L154.417 114.048 L155.958 115.238 L157.500 116.429 L159.042 117.619 L160.583 118.810 L162.125 120.000 L163.667 121.190 L165.208 122.381 L166.750 123.571 L168.292 124.762 L169.833 125.952 L171.375 127.143 L172.917 128.333 L174.458 129.524 L176.000 130.714 L177.542 131.905 L179.083 133.095 L180.625 134.286 L182.167 135.476 L183.708 136.667 L185.250 137.857 L186.792 139.048 L188.333 140.238 L189.875 141.429 L191.417 142.619 L192.958 143.810 L194.500 145.000 L196.042 146.190 L197.583 147.381 L199.125 148.571 L200.667 149.762 L202.208 150.952 L203.750 152.143 L205.292 153.333 L206.833 154.524 L208.375 155.714 L209.917 156.905 L211.458 158.095 L213.000 159.286 L214.542 160.476 L216.083 161.667 L217.625 162.857 L219.167 164.048 L220.708 165.238 L222.250 166.429 L223.792 167.619 L225.333 168.810 L226.875 170.000 L228.417 171.190 L229.958 172.381 L231.500 173.571 L233.042 174.762 L234.583 175.952 L236.125 177.143 L237.667 178.333 L239.208 179.524 L240.750 180.714 L242.292 181.905 L243.833 183.095 L245.375 184.286 L246.917 185.476 L248.458 186.667 L250.000 187.857 L251.542 189.048 L253.083 190.238 L254.625 191.429 L256.167 192.619 L257.708 193.810 L259.250 195.000 L260.792 196.190 L262.333 197.381 L263.875 198.571 L265.417 199.762 L266.958 200.952 L268.500 202.143 L270.042 203.333 L271.583 204.524 L273.125 205.714 L274.667 206.905 L276.208 208.095 L277.750 209.286 L279.292 210.476 L280.833 211.667 L282.375 212.857 L283.917 214.048 L285.458 215.238 L287.000 216.429 L288.542 217.619 L290.083 218.810 L291.625 220.000 L293.167 221.190 L294.708 222.381 L296.250 223.571 L297.792 224.762 L299.333 225.952 L300.875 227.143 L302.417 228.333 L303.958 229.524 L305.500 230.714 L307.042 231.905 L308.583 233.095 L310.125 234.286 L311.667 235.476 L313.208 236.667 L314.750 237.857 L316.292 239.048 L317.833 240.238 L319.375 241.429 L320.917 242.619 L322.458 243.810 L324.000 245.000\" fill=\"none\" stroke=\"#b65d14\" stroke-width=\"3\"/></svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Jämför vinsten i det tillåtna områdets hörn.</strong></p><p>Hörnen är (0,0), (0,10), (4,6) och (7,0). Skärningen (4,6) fås genom att lösa de två gränsekvationerna.</p><p>Vinsterna är 0, 250, 310 respektive 280 kr. Störst vinst fås av fyra små och sex stora skyltar.</p><p class=\"facit-svar\"><strong>Svar:</strong> 310 kr.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hörnen: skärningen mellan gränslinjerna</p><div class=\"facit-matte\">\\[x+y=10,\\quad 2x+y=14\\quad\\Rightarrow\\quad x=4,\\ y=6\\]</div><p>Övriga hörn: \\((0,0)\\), \\((0,10)\\) och \\((7,0)\\).</p></li><li><p class=\"facit-rubrik\">Vinsten \\(40x+25y\\) i hörnen</p><div class=\"facit-matte\">\\[0,\\quad250,\\quad310,\\quad280\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 310 kr</p></div>",
     "ledtrad": "<p>En linjär målfunktion når ett maximum i ett hörn av det tillåtna området.</p>",
     "rättSvar": 310,
     "svarFormat": "numeriskt",

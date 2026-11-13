@@ -17313,27 +17313,27 @@ window.BANKMATF1 = [
   {
     "kap": 2,
     "omr": "rekursionsformler",
-    "niva": "C",
-    "typ": "bestämma explicit formel från linjär rekursion",
-    "poang": "0/2/0",
-    "t": "<p>En följd definieras av \\(a_0=35\\) och \\(a_{n+1}=\\frac23a_n+\\frac{20}3\\).</p><p>Bestäm en explicit formel för \\(a_n\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Följ rekursionen steg för steg eller sök ett jämviktsvärde som gör att avvikelsen får en enkel geometrisk utveckling.</p></li><li><p>Kontrollera alltid vilket startindex som används.</p></li><li><p>Jämvikten fås ur \\(L=\\frac23L+\\frac{20}3\\), alltså är jämviktsvärdet 20.</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[b_n=a_n-20\\].</div></div></li><li><p>Då</p></li><li><p>\\[b_{n+1}=\\frac23b_n,\\qquad b_0=15.\\]</p></li><li><p>Alltså</p></li></ol><p class=\"facit-svar\"><strong>\\[a_n=20+15\\left(\\frac23\\right)^n.\\]</strong></p></div>",
+    "niva": "E",
+    "typ": "gränsvärde för talföljd ur given explicit formel",
+    "poang": "2/0/0",
+    "t": "<p>En följd definieras av \\(a_0=35\\) och \\(a_{n+1}=\\frac23a_n+\\frac{20}3\\).</p><p>Det kan visas att \\(a_n=20+15\\left(\\frac23\\right)^n\\). Vilket värde närmar sig \\(a_n\\) när \\(n\\) blir mycket stort?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontrollera formeln för de första termerna</p><p>Formeln ger \\(a_0=20+15=35\\). Rekursionen ger \\(a_1=\\frac23\\cdot35+\\frac{20}3=\\frac{90}3=30\\), och formeln ger \\(a_1=20+15\\cdot\\frac23=30\\).</p></li><li><p class=\"facit-rubrik\">Potensen \\(\\left(\\frac23\\right)^n\\) går mot 0</p><p>Eftersom \\(0<\\frac23<1\\) blir \\(\\left(\\frac23\\right)^n\\) allt mindre när \\(n\\) växer, till exempel \\(\\left(\\frac23\\right)^{20}\\approx0{,}0003\\).</p></li><li><p class=\"facit-rubrik\">Gränsvärdet</p><p>\\[a_n\\to20+15\\cdot0=20\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a_n\\) närmar sig \\(20\\).</p></div>",
     "id": "2.468",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Rekursiva talföljder och modeller",
-    "svarstyp": "uttryck",
-    "rättSvar": "20+15*(2/3)^n",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Hitta först ett jämviktsvärde \\(L\\) ur \\(L=\\frac23L+\\frac{20}{3}\\). Studera sedan följden \\(a_n-L\\).</p>",
-    "traningsniva": 4,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vad händer med \\(\\left(\\frac23\\right)^n\\) när \\(n\\) blir stort?</p>",
+    "traningsniva": 2,
     "omrTidigare": [
       "rekursiva_talfoljder"
     ]
@@ -17395,10 +17395,10 @@ window.BANKMATF1 = [
     "kap": 2,
     "omr": "rekursionsformler",
     "niva": "A",
-    "typ": "sluten formel för linjär rekursion med konstant tillskott",
+    "typ": "beräkna termer, verifiera given explicit formel för rekursion och bestämma gränsvärde",
     "poang": "0/0/2",
-    "t": "<p>En population beskrivs rekursivt av \\(a_0=12000\\) och \\(a_{n+1}=0{,}78a_n+2400\\). Bestäm en explicit formel för \\(a_n\\) och populationens gränsvärde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Idé:</strong> För en rekursion av typen \\(a_{n+1}=qa_n+c\\) är det användbart att först hitta ett jämviktsvärde \\(L\\).</p></li><li><p>Jämvikten uppfyller</p></li><li><p>\\[L=0{,}78L+2400\\Rightarrow0{,}22L=2400\\Rightarrow L=\\frac{120000}{11}.\\]</p></li><li><p>Subtrahera \\(L\\) från rekursionen:</p></li><li><p>\\[a_{n+1}-L=0{,}78(a_n-L).\\]</p></li><li><p>Avvikelsen från jämvikten är alltså geometrisk.</p></li><li><p>Eftersom</p></li><li><p>\\[a_0-L=12000-\\frac{120000}{11}=\\frac{12000}{11}\\]</p></li><li><p>får vi</p></li><li><p>\\[a_n=\\frac{120000}{11}+\\frac{12000}{11}\\cdot0{,}78^n.\\]</p></li><li><p>Eftersom \\(0{,}78^n\\to0\\) blir gränsvärdet</p></li><li><p>\\[\\lim_{n\\to\\infty}a_n=\\frac{120000}{11}\\approx10909.\\]</p></li></ol></div>",
+    "t": "<p>En population beskrivs rekursivt av \\(a_0=12000\\) och \\(a_{n+1}=0{,}78a_n+2400\\).</p><p>a) Beräkna \\(a_1\\) och \\(a_2\\).</p><p>b) Visa att den explicita formeln \\(a_n=\\frac{120000}{11}+\\frac{12000}{11}\\cdot0{,}78^n\\) ger rätt startvärde och uppfyller rekursionsformeln.</p><p>c) Vilket värde närmar sig populationen på lång sikt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd rekursionsformeln två gånger</p><p>\\[a_1=0{,}78\\cdot12000+2400=11760\\]</p><p>\\[a_2=0{,}78\\cdot11760+2400=11572{,}8\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a_1=11760\\) och \\(a_2\\approx11573\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Startvärdet: sätt in \\(n=0\\)</p><p>\\[\\frac{120000}{11}+\\frac{12000}{11}\\cdot1=\\frac{132000}{11}=12000=a_0\\]</p></li><li><p class=\"facit-rubrik\">Sätt in formeln i högerledet \\(0{,}78a_n+2400\\) och skriv \\(2400=\\frac{26400}{11}\\)</p><p>Termerna blir \\(0{,}78\\cdot\\frac{120000}{11}=\\frac{93600}{11}\\) och \\(0{,}78\\cdot\\frac{12000}{11}\\cdot0{,}78^n=\\frac{12000}{11}\\cdot0{,}78^{n+1}\\).</p><p>\\[\\frac{93600}{11}+\\frac{26400}{11}+\\frac{12000}{11}\\cdot0{,}78^{n+1}\\]</p><p>\\[=\\frac{120000}{11}+\\frac{12000}{11}\\cdot0{,}78^{n+1}\\]</p></li><li><p class=\"facit-rubrik\">Jämför med formeln för \\(a_{n+1}\\)</p><p>\\[\\frac{120000}{11}+\\frac{12000}{11}\\cdot0{,}78^{n+1}=a_{n+1}\\]</p><p>Högerledet blir precis formeln för nästa term, så formeln uppfyller rekursionen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Formeln ger rätt startvärde och uppfyller rekursionen.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(0{,}78^n\\) går mot 0 när \\(n\\) växer</p><p>\\[a_n\\to\\frac{120000}{11}\\approx10909\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Populationen närmar sig ungefär 10 900 individer.</p></div></div></div>",
     "id": "2.15",
     "miniräknare": true,
     "geogebra": false,
@@ -17413,7 +17413,7 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Hitta ett värde \\(L\\) som uppfyller \\(L=0{,}78L+2400\\). Studera sedan skillnaden \\(a_n-L\\).</p>",
+    "ledtrad": "<p>I b: sätt in formeln för \\(a_n\\) i högerledet och förenkla. Skriv 2400 som ett bråk med nämnaren 11.</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "rekursiva_talfoljder"
@@ -17484,10 +17484,10 @@ window.BANKMATF1 = [
     "kap": 2,
     "omr": "rekursionsformler",
     "niva": "C",
-    "typ": "från rekursiv till explicit formel",
+    "typ": "hitta explicit formel ur rekursion genom ett givet mönster",
     "poang": "0/2/0",
-    "t": "<p>En talföljd definieras av \\(a_1=3\\) och</p><p>\\[a_{n+1}=2a_n+1.\\]</p><p>Bestäm en explicit formel för \\(a_n\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beräkna några termer: \\(3,7,15,31,\\ldots\\).</p></li><li><p>Om vi adderar 1 får vi \\(4,8,16,32,\\ldots\\), alltså potenser av 2.</p></li><li><p>\\[a_n+1=2^{n+1}\\]</p></li><li><p>och därmed <strong>\\(a_n=2^{n+1}-1\\)</strong>.</p></li><li><div class=\"facit-berakning\"><p>Kontroll i rekursionen:</p><div class=\"facit-matte\">\\[2(2^{n+1}-1)+1=2^{n+2}-1=a_{n+1}\\].</div></div></li></ol></div>",
+    "t": "<p>En talföljd definieras av \\(a_1=3\\) och</p><p>\\[a_{n+1}=2a_n+1.\\]</p><p>Beräkna de fyra första termerna och lägg till 1 till varje term. Vilka tal får du? Använd mönstret för att bestämma en explicit formel för \\(a_n\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna de första termerna med rekursionen</p><p>\\(a_1=3\\), \\(a_2=2\\cdot3+1=7\\), \\(a_3=2\\cdot7+1=15\\), \\(a_4=2\\cdot15+1=31\\).</p></li><li><p class=\"facit-rubrik\">Lägg till 1 till varje term</p><p>\\(4,\\ 8,\\ 16,\\ 32\\), alltså \\(2^2,\\ 2^3,\\ 2^4,\\ 2^5\\). Term nummer \\(n\\) blir \\(2^{n+1}\\).</p></li><li><p class=\"facit-rubrik\">Skriv den explicita formeln</p><p>\\[a_n+1=2^{n+1}\\quad\\Rightarrow\\quad a_n=2^{n+1}-1\\]</p></li><li><p class=\"facit-rubrik\">Kontrollera i rekursionen</p><p>\\[2a_n+1=2\\left(2^{n+1}-1\\right)+1=2^{n+2}-1=a_{n+1}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a_n=2^{n+1}-1\\)</p></div>",
     "id": "2.56",
     "miniräknare": true,
     "geogebra": false,
@@ -17501,8 +17501,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Beräkna några termer och prova att addera 1 till varje term. Då framträder en enkel geometrisk följd.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Vilken känd talföljd får du när du lägger till 1 till termerna?</p>",
+    "traningsniva": 3,
     "omrTidigare": [
       "rekursiva_talfoljder"
     ]
@@ -18058,28 +18058,26 @@ window.BANKMATF1 = [
   {
     "kap": 2,
     "omr": "rekursionsformler",
-    "niva": "C",
-    "typ": "explicit formel från rekursion med jämviktsvärde",
-    "poang": "0/2/0",
-    "t": "<p>En talföljd definieras av \\(T_0=80\\) och</p><p>\\[T_{n+1}=0{,}75T_n+5.\\]</p><p>Bestäm en explicit formel för \\(T_n\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Leta först efter ett jämviktsvärde \\(L\\) som inte ändras av rekursionen:</p></li><li><p>\\[L=0{,}75L+5\\Rightarrow0{,}25L=5\\Rightarrow L=20.\\]</p></li><li><p>Studera avvikelsen från 20:</p></li><li><p>\\[T_{n+1}-20=0{,}75(T_n-20).\\]</p></li><li><p>Avvikelsen bildar alltså en geometrisk följd.</p></li><li><p>Eftersom \\(T_0-20=60\\) får vi</p></li></ol><p class=\"facit-svar\"><strong>\\[T_n=20+60\\cdot0{,}75^n.\\]</strong></p></div>",
+    "niva": "E",
+    "typ": "beräkna en term med given explicit formel och kontrollera formeln mot rekursionen",
+    "poang": "2/0/0",
+    "t": "<p>En talföljd definieras av \\(T_0=80\\) och</p><p>\\[T_{n+1}=0{,}75T_n+5.\\]</p><p>Följden kan också beskrivas med den explicita formeln \\(T_n=20+60\\cdot0{,}75^n\\). Beräkna \\(T_{10}\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontrollera formeln mot rekursionen för de första termerna</p><p>Rekursionen ger \\(T_1=0{,}75\\cdot80+5=65\\). Formeln ger \\(T_0=20+60=80\\) och \\(T_1=20+60\\cdot0{,}75=65\\). Värdena stämmer.</p></li><li><p class=\"facit-rubrik\">Sätt in \\(n=10\\) i den explicita formeln</p><p>\\[\\begin{gathered}T_{10}=20+60\\cdot0{,}75^{10}\\\\=20+60\\cdot0{,}0563\\ldots\\approx23{,}38\\end{gathered}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(T_{10}\\approx23{,}38\\)</p></div>",
     "id": "2.179",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Rekursiva talföljder och modeller",
-    "svarstyp": "uttryck",
-    "rättSvar": "20+60*0.75^n",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 23.37881088256836,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "resonemang",
-      "problemlösning"
+      "begrepp"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Hitta jämviktsvärdet \\(L\\). Då blir \\(T_n-L\\) en geometrisk följd med kvoten 0,75.</p>",
-    "traningsniva": 4,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Med den explicita formeln behöver du inte räkna fram alla tio termerna. Sätt in \\(n=10\\).</p>",
+    "traningsniva": 2,
     "omrTidigare": [
       "rekursiva_talfoljder"
     ]
@@ -18088,10 +18086,10 @@ window.BANKMATF1 = [
     "kap": 2,
     "omr": "rekursionsformler",
     "niva": "C",
-    "typ": "explicit formel från linjär rekursion",
+    "typ": "hitta explicit formel ur rekursion genom ett givet mönster",
     "poang": "0/2/0",
-    "t": "<p>En talföljd definieras av \\(a_1=5\\) och \\(a_{n+1}=3a_n-4\\).</p><p>Bestäm en explicit formel för \\(a_n\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Jämviktsvärdet \\(L\\) uppfyller</p></li><li><p>\\[L=3L-4\\Rightarrow L=2.\\]</p></li><li><p>Då</p></li><li><p>\\[a_{n+1}-2=3(a_n-2).\\]</p></li><li><p>Alltså är \\(a_n-2\\) geometrisk med kvoten 3.</p></li><li><p>Eftersom \\(a_1-2=3\\) får vi</p></li><li><p>\\[a_n-2=3\\cdot3^{n-1}=3^n.\\]</p></li></ol><p class=\"facit-svar\"><strong>\\[a_n=2+3^n.\\]</strong></p></div>",
+    "t": "<p>En talföljd definieras av \\(a_1=5\\) och \\(a_{n+1}=3a_n-4\\).</p><p>Beräkna de fyra första termerna och dra bort 2 från varje term. Vilka tal får du? Använd mönstret för att bestämma en explicit formel för \\(a_n\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna de första termerna med rekursionen</p><p>\\(a_1=5\\), \\(a_2=3\\cdot5-4=11\\), \\(a_3=3\\cdot11-4=29\\), \\(a_4=3\\cdot29-4=83\\).</p></li><li><p class=\"facit-rubrik\">Dra bort 2 från varje term</p><p>\\(3,\\ 9,\\ 27,\\ 81\\), alltså \\(3^1,\\ 3^2,\\ 3^3,\\ 3^4\\). Term nummer \\(n\\) blir \\(3^n\\).</p></li><li><p class=\"facit-rubrik\">Skriv den explicita formeln</p><p>\\[a_n-2=3^n\\quad\\Rightarrow\\quad a_n=2+3^n\\]</p></li><li><p class=\"facit-rubrik\">Kontrollera i rekursionen</p><p>\\[3a_n-4=3\\left(2+3^n\\right)-4=2+3^{n+1}=a_{n+1}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a_n=2+3^n\\)</p></div>",
     "id": "2.180",
     "miniräknare": true,
     "geogebra": false,
@@ -18106,8 +18104,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Hitta ett jämviktsvärde \\(L\\) ur \\(L=3L-4\\). Studera därefter \\(a_n-L\\).</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Vilken känd talföljd får du när du drar bort 2 från termerna?</p>",
+    "traningsniva": 3,
     "omrTidigare": [
       "rekursiva_talfoljder"
     ]
@@ -18171,17 +18169,17 @@ window.BANKMATF1 = [
     "kap": 2,
     "omr": "rekursionsformler",
     "niva": "C",
-    "typ": "rekursion med jämviktsvärde i dosmodell",
+    "typ": "använda given explicit formel i dosmodell, sökt antal doser",
     "poang": "0/2/0",
-    "t": "<p>En medicinmängd följer rekursionen</p><p>\\[M_0=0,\\qquad M_{n+1}=0{,}8M_n+10.\\]</p><p>Bestäm en explicit formel för \\(M_n\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Jämviktsvärdet \\(L\\) uppfyller</p></li><li><p>\\[L=0{,}8L+10\\Rightarrow0{,}2L=10\\Rightarrow L=50.\\]</p></li><li><p>Därför</p></li><li><p>\\[M_{n+1}-50=0{,}8(M_n-50).\\]</p></li><li><p>Eftersom \\(M_0-50=-50\\) får vi</p></li><li><p>\\[M_n-50=-50\\cdot0{,}8^n.\\]</p></li></ol><p class=\"facit-svar\"><strong>\\[M_n=50(1-0,8^n).\\]</strong></p></div>",
+    "t": "<p>En medicinmängd följer rekursionen</p><p>\\[M_0=0,\\qquad M_{n+1}=0{,}8M_n+10.\\]</p><p>Det kan visas att \\(M_n=50\\left(1-0{,}8^n\\right)\\). För vilket minsta \\(n\\) är medicinmängden större än 45?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontrollera formeln mot rekursionen</p><p>Rekursionen ger \\(M_1=0{,}8\\cdot0+10=10\\), och formeln ger \\(M_1=50(1-0{,}8)=10\\).</p></li><li><p class=\"facit-rubrik\">Ställ upp olikheten \\(50\\left(1-0{,}8^n\\right)>45\\)</p><p>\\[1-0{,}8^n>0{,}9\\quad\\Leftrightarrow\\quad0{,}8^n<0{,}1\\]</p></li><li><p class=\"facit-rubrik\">Lös med logaritmer</p><p>\\[n>\\frac{\\lg0{,}1}{\\lg0{,}8}\\approx10{,}3\\]</p><p>Olikheten vänder när man delar med \\(\\lg0{,}8\\), eftersom det talet är negativt.</p></li><li><p class=\"facit-rubrik\">Kontrollera med två värden</p><p>\\(M_{10}=50\\left(1-0{,}8^{10}\\right)\\approx44{,}6\\) och \\(M_{11}=50\\left(1-0{,}8^{11}\\right)\\approx45{,}7\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(n=11\\)</p></div>",
     "id": "2.203",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Rekursiva talföljder och modeller",
-    "svarstyp": "uttryck",
-    "rättSvar": "50*(1-0.8^n)",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -18190,9 +18188,9 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Hitta jämviktsvärdet genom \\(L=0{,}8L+10\\). Då får avvikelsen från \\(L\\) kvoten 0,8.</p>",
-    "traningsniva": 4,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös olikheten \\(50\\left(1-0{,}8^n\\right)>45\\). Du kan också göra en tabell på räknaren eller i GeoGebra.</p>",
+    "traningsniva": 3,
     "omrTidigare": [
       "rekursiva_talfoljder"
     ]
@@ -18201,10 +18199,10 @@ window.BANKMATF1 = [
     "kap": 2,
     "omr": "rekursionsformler",
     "niva": "C",
-    "typ": "rekursion med gränsvärde",
+    "typ": "rekursion med gränsvärde och given explicit formel",
     "poang": "0/2/0",
-    "t": "<p>En talföljd definieras av \\(a_0=20\\) och</p><p>\\[a_{n+1}=0{,}5a_n+6.\\]</p><ol type=\"a\"><li>Bestäm följdens gränsvärde.</li><li>Bestäm en explicit formel.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett gränsvärde \\(L\\) måste uppfylla</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[L=0{,}5L+6\\Rightarrow L=12.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avvikelsen från 12 uppfyller</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[a_{n+1}-12=0{,}5(a_n-12).\\]</p></li><li><p>Eftersom \\(a_0-12=8\\) får vi</p></li></ol><p class=\"facit-svar\"><strong>\\[a_n=12+8\\cdot0{,}5^n.\\]</strong></p></div>",
+    "t": "<p>En talföljd definieras av \\(a_0=20\\) och</p><p>\\[a_{n+1}=0{,}5a_n+6.\\]</p><ol type=\"a\"><li>Bestäm följdens gränsvärde.</li><li>Följden kan också skrivas \\(a_n=12+8\\cdot0{,}5^n\\). Beräkna \\(a_5\\) med formeln.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Om följden närmar sig ett gränsvärde \\(L\\) ändras termerna nästan inte längre</p><p>\\[L=0{,}5L+6\\quad\\Rightarrow\\quad0{,}5L=6\\quad\\Rightarrow\\quad L=12\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Gränsvärdet är 12.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontrollera formeln mot rekursionen</p><p>Rekursionen ger \\(a_1=0{,}5\\cdot20+6=16\\), och formeln ger \\(a_1=12+8\\cdot0{,}5=16\\).</p></li><li><p class=\"facit-rubrik\">Sätt in \\(n=5\\) i formeln</p><p>\\[a_5=12+8\\cdot0{,}5^5=12+\\frac8{32}=12{,}25\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a_5=12{,}25\\)</p></div></div></div>",
     "id": "2.204",
     "miniräknare": true,
     "geogebra": false,
@@ -18212,7 +18210,7 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       12,
-      "12+8*0.5^n"
+      12.25
     ],
     "tolerans": null,
     "självrättning": true,
@@ -18224,34 +18222,34 @@ window.BANKMATF1 = [
     ],
     "svarFormat": [
       "numeriskt",
-      "uttryck"
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "gränsvärde",
-      "explicit formel"
+      "a₅"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
         "t": "<p>En talföljd definieras av \\(a_0=20\\) och</p><p>\\[a_{n+1}=0{,}5a_n+6.\\]</p><div class=\"spel-en-del\">Bestäm följdens gränsvärde.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om följden närmar sig \\(L\\), så gäller \\(L=0{,}5L+6\\).</p></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[L=12\\].</div></div></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Om följden närmar sig ett gränsvärde \\(L\\) ändras termerna nästan inte längre</p><p>\\[L=0{,}5L+6\\quad\\Rightarrow\\quad0{,}5L=6\\quad\\Rightarrow\\quad L=12\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Gränsvärdet är 12.</p></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3
       },
       {
         "etikett": "b",
-        "t": "<p>En talföljd definieras av \\(a_0=20\\) och</p><p>\\[a_{n+1}=0{,}5a_n+6.\\]</p><div class=\"spel-en-del\">Bestäm en explicit formel.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(a_{n+1}-12=0{,}5(a_n-12)\\) och \\(a_0-12=8\\), fås \\(a_n=12+8\\cdot0{,}5^n\\).</p></li></ol></div>",
-        "niva": "C",
-        "poang": "0/1/0",
-        "traningsniva": 4
+        "t": "<p>En talföljd definieras av \\(a_0=20\\) och</p><p>\\[a_{n+1}=0{,}5a_n+6.\\]</p><div class=\"spel-en-del\">Följden kan också skrivas \\(a_n=12+8\\cdot0{,}5^n\\). Beräkna \\(a_5\\) med formeln.</div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontrollera formeln mot rekursionen</p><p>Rekursionen ger \\(a_1=0{,}5\\cdot20+6=16\\), och formeln ger \\(a_1=12+8\\cdot0{,}5=16\\).</p></li><li><p class=\"facit-rubrik\">Sätt in \\(n=5\\) i formeln</p><p>\\[a_5=12+8\\cdot0{,}5^5=12+\\frac8{32}=12{,}25\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a_5=12{,}25\\)</p></div>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
       }
     ],
-    "ledtrad": "<p>Bestäm först jämviktsvärdet. För den explicita formeln: studera avvikelsen från detta värde.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>I a: om följden har ett gränsvärde L är L = 0,5L + 6. I b: sätt in n = 5 i formeln.</p>",
+    "traningsniva": 3,
     "omrTidigare": [
       "rekursiva_talfoljder"
     ]
@@ -24827,25 +24825,25 @@ window.BANKMATF1 = [
   {
     "kap": 4,
     "omr": "homogena_forsta",
-    "niva": "C",
-    "typ": "lösa separabel differentialekvation",
-    "poang": "0/2/0",
-    "t": "<p>Lös den separabla differentialekvationen \\(y'=3xy\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Separera när y inte är noll</p>\\[\\frac{dy}{y}=3x\\,dx\\]</li><li><p class=\"facit-rubrik\">Integrera båda leden</p>\\[\\ln|y|=\\frac32x^2+K\\]</li><li><p class=\"facit-rubrik\">Skriv exponentialformen och ta med nollösningen</p><p>Exponentiering ger |y|=\\(e^K e^{3x^2/2}\\). Tecknet på y och den positiva faktorn eᴷ samlas i en konstant C.</p>\\[y=Ce^{3x^2/2}\\]<p>Separationen uteslöt y=0. Direkt insättning visar att även den är en lösning, så C får också vara 0.</p></li><li><p class=\"facit-rubrik\">Kontrollera med kedjeregeln</p>\\[y^{\\prime}=Ce^{3x^2/2}\\cdot3x=3xy\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=Ce^{3x^2/2}\\), där C är valfri reell konstant.</p></div>",
+    "niva": "E",
+    "typ": "bestämma konstanten i en given lösning och kontrollera genom derivering",
+    "poang": "2/0/0",
+    "t": "<p>Differentialekvationen \\(y'=3xy\\) har lösningar av formen \\(y=Ce^{3x^2/2}\\), där \\(C\\) är en konstant.</p><p>Bestäm den lösning som uppfyller \\(y(0)=4\\). Kontrollera genom derivering att den uppfyller differentialekvationen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=0\\) och \\(y=4\\) i lösningsformen</p><p>\\[4=Ce^{0}=C\\cdot1\\quad\\Rightarrow\\quad C=4\\]</p></li><li><p class=\"facit-rubrik\">Derivera \\(y=4e^{3x^2/2}\\) med kedjeregeln</p><p>Den inre funktionen \\(\\frac32x^2\\) har derivatan \\(3x\\).</p><p>\\[y^{\\prime}=4e^{3x^2/2}\\cdot3x\\]</p></li><li><p class=\"facit-rubrik\">Jämför med högerledet \\(3xy\\)</p><p>\\[3xy=3x\\cdot4e^{3x^2/2}=y^{\\prime}\\]</p><p>Båda leden är lika, så funktionen är en lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=4e^{3x^2/2}\\)</p></div>",
     "id": "4.358",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Lösa y' = ky och begynnelsevärdesproblem",
-    "svarstyp": "text",
-    "rättSvar": "C*e^(3*x^2/2)",
+    "svarstyp": "uttryck",
+    "rättSvar": "4*e^(3*x^2/2)",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Samla y och dy på ena sidan och x och dx på den andra. Kontrollera även lösningen som kan förloras när du dividerar med y.</p>",
-    "traningsniva": 3,
-    "svarFormat": "diffekv_losning",
+    "ledtrad": "<p>Sätt in \\(x=0\\) i lösningsformen. Vad blir \\(e^0\\)?</p>",
+    "traningsniva": 2,
+    "svarFormat": "uttryck",
     "omrTidigare": [
       "forsta_ordningen"
     ],

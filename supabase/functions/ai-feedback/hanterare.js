@@ -164,6 +164,18 @@ export function skapaHanterare({ env, fetchFn = fetch, logg = () => {} }) {
       const g = tolkaGranskning(res.data);
       if (!g) { await avrakna(res0.anrop, utfall(res), res, null); return fel(req, 'ogiltigt_svar'); }
       await avrakna(res0.anrop, tokenforbrukning(res.data) ? 'ok' : 'okand', res, kontextFranGranskning(g));
+      // Statistik utan elevtext: utfall, feltyper och var granskningen startades. Fel här stoppar inte svaret.
+      try {
+        await rpc('kg_ai_markera', {
+          p_granskning: res0.granskning,
+          p_utfall: g.status === 'granskad' ? g.svar_korrekt : 'oklar',
+          p_helt_korrekt: g.helt_korrekt,
+          p_feltyper: g.fel.map((f) => f.feltyp),
+          p_kalla: kropp.kalla === 'traning' ? 'traning' : 'egen',
+          p_kurs: typeof kropp.kurs === 'string' ? kropp.kurs.slice(0, 12) : null,
+          p_uppgift: typeof kropp.uppgiftId === 'string' ? kropp.uppgiftId.slice(0, 40) : null,
+        });
+      } catch (e) { logg('statistik kunde inte sparas', String(e)); }
       return svara(req, 200, { ok: true, granskningId: res0.granskning, feedback: g, foljdfragorKvar: res0.foljdfragor_kvar });
     }
     const f = tolkaFoljd(res.data);

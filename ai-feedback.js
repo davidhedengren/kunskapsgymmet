@@ -162,7 +162,9 @@
     const d=await anropa({typ:"granska",
       uppgiftText:S.uppgiftLage==="text"?S.uppgiftText.trim():"",
       uppgiftBilder:S.uppgiftLage==="bild"&&S.uppgiftBild?[S.uppgiftBild]:[],
-      losningsbilder:S.losning});
+      losningsbilder:S.losning,
+      // Bara för adminstatistiken: var granskningen startades och vilken uppgift (ingen elevtext).
+      kalla:S.fran?"traning":"egen", kurs:S.fran?.kurs||null, uppgiftId:S.fran?.id||null});
     S.laddar=false;
     if(d.ok){
       S.resultat=d.feedback; S.granskningId=d.granskningId; S.foljdKvar=0; S.samtal=[];
@@ -339,7 +341,9 @@
     k.querySelectorAll("svg,img,canvas,style,script").forEach(x=>x.remove());
     k.querySelectorAll("br,p,div,li,tr,h1,h2,h3,h4").forEach(x=>x.after(document.createTextNode("\n")));
     const text=k.textContent.replace(/[ \t ]+/g," ").replace(/\n\s*\n+/g,"\n").trim().slice(0,MAX_TEXT);
-    return text?{text,html,figur}:null;
+    const id=typeof state==="object"&&state.currentTask?.id!=null?String(state.currentTask.id):null;
+    const kurs=typeof state==="object"&&state.course?String(state.course):null;
+    return text?{text,html,figur,id,kurs}:null;
   }
   async function oppnaForUppgift(){
     const u=uppgiftFranSidan();
@@ -378,6 +382,7 @@
   }
 
   /* ---------------------------------------------------------------- adminöversikt */
+  let adminNamn={};   // user_id → namn, från befintliga kg_admin_anvandare()
   async function admin(){
     state.view="aifeedback-admin";
     app.innerHTML=topbar()+`<main class="shell view"><div class="aif aif-admin"><h1>AI-feedback – översikt</h1><div class="aif-laddar"><span class="aif-snurra"></span>Laddar …</div></div></main>`;
@@ -385,43 +390,88 @@
     let d=null, f="";
     try{
       if(!await giltigSession()) throw new Error("inloggning");
-      const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_ai_oversikt",{method:"POST",headers:sbHeaders(true),body:"{}"});
+      const [r,anv]=await Promise.all([
+        fetch(SUPABASE_URL+"/rest/v1/rpc/kg_ai_oversikt",{method:"POST",headers:sbHeaders(true),body:"{}"}),
+        (typeof kgAdminRpc==="function"?Promise.resolve().then(()=>kgAdminRpc("kg_admin_anvandare")):Promise.resolve([])).catch(()=>[])]);
       if(!r.ok) throw new Error(r.status===404?"Databasfunktionen saknas. Kör sql/2026-11-13-ai-feedback.sql.":"Ingen behörighet eller serverfel.");
       d=await r.json();
+      adminNamn={}; (Array.isArray(anv)?anv:[]).forEach(u=>{ if(u&&u.user_id) adminNamn[u.user_id]=u.namn||u.epost||""; });
     }catch(e){ f=e.message; }
     ritaAdmin(d,f);
   }
   function ritaAdmin(d,f){
     const kr=x=>(Math.round((Number(x)||0)*100)/100).toLocaleString("sv-SE",{minimumFractionDigits:2,maximumFractionDigits:2})+" kr";
+    const tal=x=>(Number(x)||0).toLocaleString("sv-SE");
+    const datum=x=>{ if(!x) return "–"; const t=new Date(x); return isNaN(t)?String(x):t.toLocaleDateString("sv-SE",{day:"numeric",month:"short"})+" "+t.toLocaleTimeString("sv-SE",{hour:"2-digit",minute:"2-digit"}); };
+    // Stapellista: [[etikett, antal, klass], …]
+    const staplar=(rader,tom)=>{
+      const synliga=rader.filter(r=>Number(r[1])>0);
+      const summa=synliga.reduce((a,r)=>a+Number(r[1]),0);
+      if(!summa) return `<p class="aif-info">${tom}</p>`;
+      const max=Math.max(...synliga.map(r=>Number(r[1])));
+      return `<div class="aif-staplar">${synliga.map(([t,n,kl])=>`<div class="aif-stapel ${kl||""}">
+        <span class="t">${esc(t)}</span><span class="b"><i style="width:${(100*n/max).toFixed(1)}%"></i></span>
+        <span class="n">${tal(n)} <small>(${Math.round(100*n/summa)} %)</small></span></div>`).join("")}</div>`;
+    };
     let inner;
     if(!d) inner=`<div class="aif-ruta fel">${esc(f||"Kunde inte hämta översikten.")}</div>`;
     else{
       const k=d.konfig||{}, m=d.manad||{reserverat:0,forbrukat:0,granskningar:0,foljdfragor:0,nekade:0,anrop:0};
+      const tot=d.totalt||{}, idag=d.idag||{}, u=d.utfall||{}, ft=d.feltyper||{}, kl=d.kalla||{};
       const anv=(Number(m.forbrukat)||0)+(Number(m.reserverat)||0), pct=Math.min(100,100*anv/(Number(k.manadsbudget_sek)||1));
+      const snitt=(Number(m.granskningar)||0)?Number(m.forbrukat)/Number(m.granskningar):0;
+      const hk=Number(d.helt_korrekt_manad)||0;
+      const kursNamn=id=>(typeof COURSES==="object"&&COURSES[id]?.name)||id||"";
+      const elevNamn=id=>adminNamn[id]||"Okänd elev";
+      const dagMax=Math.max(1,...(d.dagar||[]).map(x=>Number(x.granskningar)||0));
       inner=`<div class="aif-siffror">
-        <div><span>Förbrukat denna månad</span><b>${kr(m.forbrukat)}</b></div>
-        <div><span>Reserverat just nu</span><b>${kr(m.reserverat)}</b></div>
-        <div><span>Budget</span><b>${kr(k.manadsbudget_sek)}</b></div>
-        <div><span>Granskningar</span><b>${m.granskningar||0}</b></div>
-        <div><span>Följdfrågor</span><b>${m.foljdfragor||0}</b></div>
-        <div><span>Elever denna månad</span><b>${d.elever_manad||0}</b></div>
-        <div><span>Nekade (budget)</span><b>${m.nekade||0}</b></div></div>
+        <div><span>Idag</span><b>${tal(idag.granskningar)}</b><small>${tal(idag.elever)} elever</small></div>
+        <div><span>Denna månad</span><b>${tal(m.granskningar)}</b><small>${tal(d.elever_manad)} elever</small></div>
+        <div><span>Totalt sedan start</span><b>${tal(tot.granskningar)}</b><small>${tal(tot.elever)} elever</small></div>
+        <div><span>Förbrukat denna månad</span><b>${kr(m.forbrukat)}</b><small>av ${kr(k.manadsbudget_sek)}</small></div>
+        <div><span>Snitt per granskning</span><b>${kr(snitt)}</b><small>denna månad</small></div>
+        <div><span>Kostnad totalt</span><b>${kr(tot.kostnad_sek)}</b><small>sedan start</small></div>
+        <div><span>Misslyckade</span><b>${tal(d.misslyckade_manad)}</b><small>denna månad</small></div>
+        <div><span>Nekade (budget)</span><b>${tal(m.nekade)}</b><small>denna månad</small></div></div>
         <div class="aif-mätare" aria-label="Använd andel av budgeten"><i style="width:${pct.toFixed(1)}%"></i></div>
-        <p class="aif-info">Uppskattad kostnad enligt modellens listpris och växelkursen ${esc(String(k.usd_sek))} kr/USD i databasen (${esc(k.modell||"")}). Den faktiska fakturan från OpenAI kan avvika något.</p>
+        <p class="aif-info">Reserverat just nu: ${kr(m.reserverat)}. Uppskattad kostnad enligt modellens listpris och växelkursen ${esc(String(k.usd_sek))} kr/USD (${esc(k.modell||"")}). Den faktiska fakturan från OpenAI kan avvika något.</p>
+
+        <div class="aif-admin-grid">
+        <section class="aif-steg"><h2>AI:ns bedömning denna månad</h2>
+          ${staplar([["Helt rätt",hk,"bra"],["Rätt svar, redovisningen kan bli bättre",Math.max(0,(Number(u.ja)||0)-hk),"bra2"],["Delvis rätt",u.delvis,"mellan"],["Fel svar",u.nej,"fel"],["Svar saknas",u.saknas,"fel"],["Gick inte att tolka",u.oklar,"gra"],["Okänt (före statistiken)",u.okant,"gra"]],"Inga granskningar denna månad.")}</section>
+        <section class="aif-steg"><h2>Vanligaste feltyper</h2>
+          ${staplar(Object.entries(ft).sort((a,b)=>b[1]-a[1]).map(([t,n])=>[FELTYPNAMN[t]||t,n,"fel"]),"Inga fel registrerade denna månad.")}</section>
+        <section class="aif-steg"><h2>Var startas granskningen?</h2>
+          ${staplar([["Från en uppgift i träningen",kl.traning,"bra"],["Egen uppgift (fotad eller skriven)",kl.egen,"mellan"],["Okänt (före statistiken)",kl.okant,"gra"]],"Inga granskningar denna månad.")}</section>
+        </div>
+
+        <section class="aif-steg"><h2>Elever</h2>
+          ${(d.elever||[]).length?`<div class="aif-tabell"><table><thead><tr><th>Elev</th><th>Denna månad</th><th>Totalt</th><th>Senast</th><th>Kostnad</th></tr></thead><tbody>
+          ${d.elever.map(x=>`<tr><td>${esc(elevNamn(x.user_id))}</td><td>${tal(x.manad)}</td><td>${tal(x.totalt)}</td><td>${esc(datum(x.senast))}</td><td>${kr(x.kostnad_sek)}</td></tr>`).join("")}
+          </tbody></table></div>`:`<p class="aif-info">Ingen elev har fått feedback ännu.</p>`}</section>
+
+        <section class="aif-steg"><h2>Uppgifter som får mest feedback</h2><p class="aif-info">Från träningen, senaste 90 dagarna.</p>
+          ${(d.uppgifter||[]).length?`<div class="aif-tabell"><table><thead><tr><th>Kurs</th><th>Uppgift</th><th>Granskningar</th><th>Elever</th></tr></thead><tbody>
+          ${d.uppgifter.map(x=>`<tr><td>${esc(kursNamn(x.kurs))}</td><td>${esc(x.uppgift||"")}</td><td>${tal(x.n)}</td><td>${tal(x.elever)}</td></tr>`).join("")}
+          </tbody></table></div>`:`<p class="aif-info">Inga granskningar från träningen ännu.</p>`}</section>
+
+        <section class="aif-steg"><h2>Senaste 30 dagarna</h2>
+          ${(d.dagar||[]).length?`<div class="aif-tabell"><table><thead><tr><th>Dag</th><th>Granskningar</th><th></th><th>Elever</th><th>Kostnad</th></tr></thead><tbody>
+          ${d.dagar.map(x=>`<tr><td>${esc(String(x.dag))}</td><td>${tal(x.granskningar)}</td><td class="aif-minibar"><i style="width:${(100*x.granskningar/dagMax).toFixed(0)}%"></i></td><td>${tal(x.elever)}</td><td>${kr(x.kostnad_sek)}</td></tr>`).join("")}
+          </tbody></table></div>`:`<p class="aif-info">Inga granskningar de senaste 30 dagarna.</p>`}</section>
+
+        ${(d.tidigare||[]).length?`<section class="aif-steg"><h2>Tidigare månader</h2><div class="aif-tabell"><table><thead><tr><th>Månad</th><th>Granskningar</th><th>Nekade</th><th>Kostnad</th></tr></thead><tbody>${d.tidigare.map(x=>`<tr><td>${esc(String(x.manad).slice(0,7))}</td><td>${tal(x.granskningar)}</td><td>${tal(x.nekade)}</td><td>${kr(x.forbrukat)}</td></tr>`).join("")}</tbody></table></div></section>`:""}
+
         <section class="aif-steg"><h2>Inställningar</h2>
           <label><input type="checkbox" id="aifa-aktiv" ${k.aktiv?"checked":""}> Funktionen är påslagen för elever</label>
           <label>Månadsbudget (kr, under 200) <input type="number" id="aifa-budget" min="0" max="199" step="1" value="${esc(String(k.manadsbudget_sek))}"></label>
           <label>Granskningar per elev och dag <input type="number" id="aifa-dag" min="0" max="50" value="${esc(String(k.granskningar_per_dag))}"></label>
           <label>Följdfrågor per granskning <input type="number" id="aifa-foljd" min="0" max="10" value="${esc(String(k.foljdfragor_per_gransk))}"></label>
           <div class="aif-knapprad"><button type="button" class="btn primary" onclick="kgAi.sparaAdmin()">Spara</button></div>
-          <p class="aif-info">Edge Function måste också ha hemligheten AI_FEEDBACK_AKTIV=true. Se docs/AI_FEEDBACK.md.</p></section>
-        <section class="aif-steg"><h2>Per dag</h2><table><thead><tr><th>Dag</th><th>Granskningar</th><th>Elever</th><th>Kostnad</th></tr></thead><tbody>
-        ${(d.dagar||[]).map(x=>`<tr><td>${esc(String(x.dag))}</td><td>${x.granskningar}</td><td>${x.elever}</td><td>${kr(x.kostnad_sek)}</td></tr>`).join("")||'<tr><td colspan="4">Inga granskningar ännu.</td></tr>'}
-        </tbody></table></section>
-        ${(d.tidigare||[]).length?`<section class="aif-steg"><h2>Tidigare månader</h2><table><tbody>${d.tidigare.map(x=>`<tr><td>${esc(String(x.manad).slice(0,7))}</td><td>${x.granskningar} granskningar</td><td>${kr(x.forbrukat)}</td></tr>`).join("")}</tbody></table></section>`:""}`;
+          <p class="aif-info">Edge Function måste också ha hemligheten AI_FEEDBACK_AKTIV=true. Se docs/AI_FEEDBACK.md.</p></section>`;
     }
     app.innerHTML=topbar()+`<main class="shell view"><div class="aif aif-admin"><h1>AI-feedback – översikt</h1>${inner}
-      <div class="aif-knapprad"><button type="button" class="btn soft" onclick="kgAi.oppna()">Till Få feedback på din lösning</button></div></div></main>`;
+      <div class="aif-knapprad"><button type="button" class="btn soft" onclick="kgAi.admin()">Uppdatera</button><button type="button" class="btn soft" onclick="kgAi.oppna()">Till Få feedback på din lösning</button></div></div></main>`;
     afterRender();
   }
   async function sparaAdmin(){

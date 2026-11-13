@@ -46,6 +46,7 @@ function mock({ inloggad = true, reservation = { ok: true, anrop: 'a1', granskni
       if (rpcKastar) return new Response('err', { status: 500 });
       if (url.endsWith('kg_ai_reservera')) return new Response(JSON.stringify(reservation), { status: 200 });
       if (url.endsWith('kg_ai_avrakna')) return new Response(JSON.stringify({ ok: true }), { status: 200 });
+      if (url.endsWith('kg_ai_markera')) return new Response('null', { status: 200 });
     }
     if (url === 'https://api.openai.com/v1/responses') {
       if (openai === 'timeout') { const e = new Error('aborted'); e.name = 'AbortError'; throw e; }
@@ -110,6 +111,21 @@ test('lyckad granskning: reservation, OpenAI, avräkning med tokenförbrukning o
   assert.ok(!JSON.stringify(av.p_kontext).includes('data:image'), 'inga bilder i sparad kontext');
   assert.match(av.p_kontext.losning, /2x = 14/);
   assert.equal(r.headers.get('access-control-allow-origin'), 'https://kunskapsgymmet.se');
+  const mk = anrop(m, 'kg_ai_markera')[0].kropp;
+  assert.deepEqual([mk.p_granskning, mk.p_utfall, mk.p_helt_korrekt, mk.p_feltyper.join(), mk.p_kalla], ['g1', 'nej', false, 'teckenfel', 'egen']);
+});
+
+test('statistik: källa och uppgift från träningen sparas; fel i statistiken stoppar inte svaret', async () => {
+  const m = mock();
+  const r = await kor(m, { ...granskaKropp, kalla: 'traning', kurs: 'ma1', uppgiftId: '2.15' });
+  assert.equal(r.status, 200);
+  const mk = anrop(m, 'kg_ai_markera')[0].kropp;
+  assert.deepEqual([mk.p_kalla, mk.p_kurs, mk.p_uppgift], ['traning', 'ma1', '2.15']);
+  assert.ok(!JSON.stringify(mk).includes('Lös ekvationen'), 'ingen uppgiftstext i statistiken');
+  const m2 = mock(); const orig = m2.fetchFn;
+  m2.fetchFn = async (url, opt) => url.endsWith('kg_ai_markera') ? new Response('err', { status: 500 }) : orig(url, opt);
+  const r2 = await kor(m2, granskaKropp);
+  assert.equal(r2.status, 200); assert.equal(r2.data.ok, true);
 });
 
 test('budget slut och dagsgräns: tydligt meddelande och inget OpenAI-anrop', async () => {

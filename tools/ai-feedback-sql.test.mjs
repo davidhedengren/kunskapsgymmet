@@ -37,6 +37,7 @@ async function nyDb() {
       $$ SELECT coalesce(current_setting('test.admin', true), '') = 'ja' $$;
   `);
   await d.exec(fs.readFileSync(path.join(dir, '../sql/2026-11-13-ai-feedback.sql'), 'utf8'));
+  await d.exec(fs.readFileSync(path.join(dir, '../sql/2026-11-13-ai-feedback-statistik.sql'), 'utf8'));
   // Testerna prövar gränserna med små värden (standard i produktion: 10 per dag, 0 följdfrågor).
   await d.exec(`UPDATE kg_ai_konfig SET aktiv = true, granskningar_per_dag = 3, foljdfragor_per_gransk = 2`);
   return d;
@@ -167,4 +168,30 @@ test('adminöversikt och inställningar kräver admin', { skip: hoppa }, async (
   assert.equal(o.konfig.aktiv, false); assert.equal(Number(o.konfig.manadsbudget_sek), 120);
   await db.exec(`SET test.admin = ''`);
   await assert.rejects(db.query(`SELECT kg_ai_satt_konfig(true, 150, 3, 2)`), /ej_admin/);
+});
+
+test('statistik: utfall, feltyper, källa och uppgift sparas och summeras i adminöversikten', { skip: hoppa }, async () => {
+  db = await nyDb();
+  const markera = (g, utfall, helt, fel, kalla, kurs, upp) =>
+    db.query(`SELECT kg_ai_markera($1,$2,$3,$4,$5,$6,$7)`, [g, utfall, helt, fel, kalla, kurs, upp]);
+  const g1 = await reservera(U(20)); await avrakna(g1.anrop, 'ok');
+  await markera(g1.granskning, 'delvis', false, ['ofullstandigt', 'hackat'], 'traning', 'ma1', '2.15');
+  const g2 = await reservera(U(21)); await avrakna(g2.anrop, 'ok');
+  await markera(g2.granskning, 'ja', true, [], 'egen', 'DROP TABLE', "x'; --");
+  const g3 = await reservera(U(20)); await avrakna(g3.anrop, 'okand');           // misslyckad räknas inte
+  await markera(g3.granskning, 'ja', true, [], 'traning', 'ma1', '2.15');
+  await db.exec(`SET test.admin = 'ja'`);
+  const o = (await db.query(`SELECT kg_ai_oversikt() o`)).rows[0].o;
+  await db.exec(`SET test.admin = ''`);
+  assert.equal(o.totalt.granskningar, 2); assert.equal(o.totalt.elever, 2);
+  assert.deepEqual(o.utfall, { delvis: 1, ja: 1 });
+  assert.equal(o.helt_korrekt_manad, 1);
+  assert.deepEqual(o.feltyper, { ofullstandigt: 1 }, 'okända feltyper filtreras bort');
+  assert.deepEqual(o.kalla, { traning: 1, egen: 1 });
+  assert.deepEqual(o.uppgifter.map((u) => [u.kurs, u.uppgift, u.n]), [['ma1', '2.15', 1]], 'ogiltig kurs/uppgift sparas inte');
+  assert.equal(o.misslyckade_manad, 1);
+  assert.equal(o.elever.length, 2); assert.equal(o.idag.granskningar, 2);
+  await db.exec(`SET ROLE authenticated`);
+  try { await assert.rejects(db.query(`SELECT kg_ai_markera($1,'ja',true,'{}','egen',null,null)`, [g1.granskning])); }
+  finally { await db.exec(`RESET ROLE`); }
 });

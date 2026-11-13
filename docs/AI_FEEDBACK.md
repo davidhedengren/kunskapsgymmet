@@ -82,7 +82,7 @@ Postgres: kg_ai_konfig, kg_ai_manad, kg_ai_granskning, kg_ai_anrop
    - Aktivera **"Enforce a hard limit"** (eller motsvarande alternativ som stoppar anrop när budgeten är nådd).
    - Begränsa gärna projektet till modellen gpt-6.1-sol.
    - Skapa en API-nyckel **i det projektet**.
-2. **Kör SQL-migreringen** `sql/2026-11-13-ai-feedback.sql` i Supabase SQL Editor.
+2. **Kör SQL-migreringarna** `sql/2026-11-13-ai-feedback.sql` och sedan `sql/2026-11-13-ai-feedback-statistik.sql` i Supabase SQL Editor. Den andra ger adminvyns statistik: utfall (rätt/delvis/fel), feltyper, källa (träning eller egen uppgift), kurs och uppgifts-id per granskning. Ingen elevtext sparas.
    - Den förutsätter att `kg_ar_admin()` finns, vilket den redan gör i Kunskapsgymmets databas.
    - Funktionen startar avstängd (`aktiv = false`).
 3. **Sätt hemligheterna** (Supabase CLI, inloggad mot projektet):

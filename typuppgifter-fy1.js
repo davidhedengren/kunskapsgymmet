@@ -569,7 +569,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Resultanten är \\(10\\ \\mathrm N\\) åt höger.",
     "komihag": "Bestäm alltid både storlek och riktning. Addera inte bara alla tal: krafter åt motsatt håll ska ha motsatt tecken.",
-    "traningsfamilj": "Resultant längs en linje"
+    "traningsfamilj": "Resultantbestämning utan trigonometri"
   },
   "fy1-grund-4-v2": {
     "kap": 4,
@@ -598,7 +598,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Resultanten är \\(50\\ \\mathrm N\\) och pekar snett uppåt åt höger.",
     "komihag": "Lägg pilarna efter varandra, spets mot start. Ordningen spelar ingen roll. Resultanten går alltid från den första pilens start till den sista pilens spets.",
-    "traningsfamilj": "Addera krafter som vektorer"
+    "traningsfamilj": "Resultantbestämning utan trigonometri"
   },
   "fy1-grund-4-v3": {
     "kap": 4,
@@ -627,7 +627,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "\\(F_x=40\\ \\mathrm N\\), \\(F_y=-30\\ \\mathrm N\\) och \\(F=50\\ \\mathrm N\\).",
     "komihag": "Komposanternas tecken visar riktningen: plus är åt höger eller uppåt, minus är åt vänster eller nedåt. Storleken \\(F\\) är alltid positiv.",
-    "traningsfamilj": "Krafter i komposanter"
+    "traningsfamilj": "Komposantuppdelning"
   },
   "fy1-grund-4-v4": {
     "kap": 4,
@@ -660,7 +660,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Resultanten är ungefär \\(22\\ \\mathrm N\\) och pekar snett uppåt åt höger.",
     "komihag": "Summera x för sig och y för sig. Pythagoras sats ger storleken, och tecknen på komposanterna visar åt vilket håll resultanten pekar.",
-    "traningsfamilj": "Addera krafter som vektorer"
+    "traningsfamilj": "Resultantbestämning utan trigonometri"
   },
   "fy1-grund-4-01": {
     "kap": 4,
@@ -818,7 +818,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Ungefär \\(87\\ \\mathrm N\\) åt höger och \\(50\\ \\mathrm N\\) uppåt.",
     "komihag": "Välj sinus eller cosinus utifrån vilken vinkel som är markerad. Komposanterna är ett annat sätt att beskriva samma kraft, inte två extra krafter.",
-    "traningsfamilj": "Krafter i komposanter"
+    "traningsfamilj": "Komposantuppdelning"
   },
   "fy1-grund-4-08": {
     "kap": 4,

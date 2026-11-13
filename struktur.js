@@ -14,6 +14,7 @@ window.OMR = {
   "konstacc": "Rörelse med konstant acceleration"
  },
  "4": {
+  "kraftvektorer": "Vektorer",
   "newton1": "Newtons första lag",
   "newton2": "Newtons andra lag",
   "newton3": "Newtons tredje lag",

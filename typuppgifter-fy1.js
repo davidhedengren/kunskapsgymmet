@@ -543,6 +543,125 @@ window.TYPUPPGIFTER_FY1 = {
     "komihag": "Stoppsträcka = reaktionssträcka + bromssträcka. Här beräknar vi bara reaktionssträckan.",
     "traningsfamilj": "Reaktions- och bromssträcka"
   },
+  "fy1-grund-4-v1": {
+    "kap": 4,
+    "omr": "kraftvektorer",
+    "rubrik": "Resultant längs en linje",
+    "niva": "E",
+    "t": "<p>Två personer knuffar en låda åt höger med 30 N och 15 N. En tredje person håller emot åt vänster med 35 N. Bestäm resultanten.</p>",
+    "figur": "<svg class=\"dg\" viewBox=\"0 0 440 130\" width=\"440\" height=\"130\" role=\"img\" aria-label=\"En låda med två krafter åt höger, 30 N och 15 N, och en kraft åt vänster, 35 N.\"><path class=\"dg-axel\" d=\"M30 104H410\"/><rect class=\"dg-form\" x=\"175\" y=\"56\" width=\"90\" height=\"48\" rx=\"5\"/><text class=\"dg-txt\" x=\"220\" y=\"85\" text-anchor=\"middle\">låda</text><path class=\"dg-form\" d=\"M115.0 70.0L163.0 70.0\"/><path class=\"dg-pil\" d=\"M175.0 70.0L163.0 75.5L163.0 64.5z\"/><text class=\"dg-txt\" x=\"145\" y=\"62\" text-anchor=\"middle\" font-weight=\"700\">30 N</text><path class=\"dg-form\" d=\"M145.0 90.0L163.0 90.0\"/><path class=\"dg-pil\" d=\"M175.0 90.0L163.0 95.5L163.0 84.5z\"/><text class=\"dg-txt\" x=\"146\" y=\"86\" text-anchor=\"end\" font-weight=\"700\">15 N</text><path class=\"dg-form\" d=\"M335.0 78.0L277.0 78.0\"/><path class=\"dg-pil\" d=\"M265.0 78.0L277.0 72.5L277.0 83.5z\"/><text class=\"dg-txt\" x=\"300\" y=\"70\" text-anchor=\"middle\" font-weight=\"700\">35 N</text></svg>",
+    "ram": "Resultanten är den kraft som ensam har samma verkan som alla krafterna tillsammans. När krafterna ligger längs samma linje adderar du dem med tecken.",
+    "steg": [
+      {
+        "rubrik": "Välj en positiv riktning",
+        "text": "Vi väljer höger som positiv riktning. Krafter åt vänster får då minustecken.",
+        "matte": "\\[F_1=+30\\ \\mathrm N,\\quad F_2=+15\\ \\mathrm N,\\quad F_3=-35\\ \\mathrm N\\]"
+      },
+      {
+        "rubrik": "Addera krafterna med tecken: \\(F_R=F_1+F_2+F_3\\)",
+        "text": "Krafter åt samma håll förstärker varandra och krafter åt motsatt håll motverkar varandra.",
+        "matte": "\\[F_R=30+15+(-35)=10\\ \\mathrm N\\]"
+      },
+      {
+        "rubrik": "Tecknet visar riktningen",
+        "text": "Svaret är positivt, så resultanten pekar åt höger. Om summan hade blivit noll hade krafterna tagit ut varandra."
+      }
+    ],
+    "svar": "Resultanten är \\(10\\ \\mathrm N\\) åt höger.",
+    "komihag": "Bestäm alltid både storlek och riktning. Addera inte bara alla tal: krafter åt motsatt håll ska ha motsatt tecken.",
+    "traningsfamilj": "Resultant längs en linje"
+  },
+  "fy1-grund-4-v2": {
+    "kap": 4,
+    "omr": "kraftvektorer",
+    "rubrik": "Addera vektorer grafiskt",
+    "niva": "E",
+    "t": "<p>Två krafter \\(F_1\\) och \\(F_2\\) verkar på samma föremål. En ruta motsvarar 10 N. Bestäm resultanten genom att rita.</p>",
+    "figur": "<svg class=\"dg\" viewBox=\"0 0 328 288\" width=\"328\" height=\"288\" role=\"img\" aria-label=\"Två krafter i ett rutnät: F1 går 4 rutor åt höger och 1 uppåt, F2 går 1 ruta åt vänster och 3 uppåt.\"><path class=\"dg-rut\" d=\"M24 264V24M64 264V24M104 264V24M144 264V24M184 264V24M224 264V24M264 264V24M304 264V24M24 264H304M24 224H304M24 184H304M24 144H304M24 104H304M24 64H304M24 24H304\"/><path class=\"dg-form\" d=\"M104.0 224.0L252.4 186.9\"/><path class=\"dg-pil\" d=\"M264.0 184.0L253.7 192.2L251.0 181.6z\"/><text class=\"dg-txt\" x=\"270\" y=\"206\" text-anchor=\"start\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">1</tspan></text><path class=\"dg-form\" d=\"M104.0 224.0L67.8 115.4\"/><path class=\"dg-pil\" d=\"M64.0 104.0L73.0 113.6L62.6 117.1z\"/><text class=\"dg-txt\" x=\"60\" y=\"96\" text-anchor=\"end\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">2</tspan></text><circle class=\"dg-nod\" cx=\"104\" cy=\"224\" r=\"4\"/></svg>",
+    "ram": "En kraft är en vektor: den har både storlek och riktning. Därför kan du inte bara lägga ihop storlekarna. I stället lägger du pilarna efter varandra.",
+    "steg": [
+      {
+        "rubrik": "Flytta \\(F_2\\) så att den börjar där \\(F_1\\) slutar",
+        "text": "Pilen får flyttas om den behåller samma längd och riktning. Här går \\(F_2\\) fortfarande 1 ruta åt vänster och 3 rutor uppåt.",
+        "figur": "<svg class=\"dg\" viewBox=\"0 0 328 288\" width=\"328\" height=\"288\" role=\"img\" aria-label=\"F2 är flyttad så att den börjar där F1 slutar.\"><path class=\"dg-rut\" d=\"M24 264V24M64 264V24M104 264V24M144 264V24M184 264V24M224 264V24M264 264V24M304 264V24M24 264H304M24 224H304M24 184H304M24 144H304M24 104H304M24 64H304M24 24H304\"/><path class=\"dg-form\" d=\"M104.0 224.0L252.4 186.9\"/><path class=\"dg-pil\" d=\"M264.0 184.0L253.7 192.2L251.0 181.6z\"/><text class=\"dg-txt\" x=\"270\" y=\"206\" text-anchor=\"start\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">1</tspan></text><path class=\"dg-form\" d=\"M104.0 224.0L67.8 115.4\"/><path class=\"dg-pil\" d=\"M64.0 104.0L73.0 113.6L62.6 117.1z\"/><text class=\"dg-txt\" x=\"60\" y=\"96\" text-anchor=\"end\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">2</tspan></text><path class=\"dg-hjalp\" d=\"M264.0 184.0L227.8 75.4\"/><path class=\"dg-pil\" d=\"M224.0 64.0L233.0 73.6L222.6 77.1z\"/><text class=\"dg-txt\" x=\"250\" y=\"62\" text-anchor=\"middle\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">2</tspan></text><circle class=\"dg-nod\" cx=\"104\" cy=\"224\" r=\"4\"/></svg>"
+      },
+      {
+        "rubrik": "Rita resultanten från start till slut",
+        "text": "Resultanten \\(F_R\\) går från startpunkten till spetsen på den sista pilen.",
+        "figur": "<svg class=\"dg\" viewBox=\"0 0 328 288\" width=\"328\" height=\"288\" role=\"img\" aria-label=\"Resultanten går från startpunkten till spetsen på den flyttade F2: 3 rutor åt höger och 4 uppåt.\"><path class=\"dg-rut\" d=\"M24 264V24M64 264V24M104 264V24M144 264V24M184 264V24M224 264V24M264 264V24M304 264V24M24 264H304M24 224H304M24 184H304M24 144H304M24 104H304M24 64H304M24 24H304\"/><path class=\"dg-form\" d=\"M104.0 224.0L252.4 186.9\"/><path class=\"dg-pil\" d=\"M264.0 184.0L253.7 192.2L251.0 181.6z\"/><text class=\"dg-txt\" x=\"270\" y=\"206\" text-anchor=\"start\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">1</tspan></text><path class=\"dg-form\" d=\"M104.0 224.0L67.8 115.4\"/><path class=\"dg-pil\" d=\"M64.0 104.0L73.0 113.6L62.6 117.1z\"/><text class=\"dg-txt\" x=\"60\" y=\"96\" text-anchor=\"end\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">2</tspan></text><path class=\"dg-hjalp\" d=\"M264.0 184.0L227.8 75.4\"/><path class=\"dg-pil\" d=\"M224.0 64.0L233.0 73.6L222.6 77.1z\"/><text class=\"dg-txt\" x=\"250\" y=\"62\" text-anchor=\"middle\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">2</tspan></text><path class=\"dg-vek2\" d=\"M104.0 224.0L216.8 73.6\"/><path class=\"dg-spets2\" d=\"M224.0 64.0L221.2 76.9L212.4 70.3z\"/><text class=\"dg-txt dg-e2\" x=\"150\" y=\"138\" text-anchor=\"end\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">R</tspan></text><circle class=\"dg-nod\" cx=\"104\" cy=\"224\" r=\"4\"/></svg>"
+      },
+      {
+        "rubrik": "Läs av resultanten och använd Pythagoras sats: \\(F_R=\\sqrt{F_{Rx}^2+F_{Ry}^2}\\)",
+        "text": "Resultanten går 3 rutor åt höger och 4 rutor uppåt, alltså 30 N och 40 N.",
+        "matte": "\\[F_R=\\sqrt{30^2+40^2}=\\sqrt{2500}=50\\ \\mathrm N\\]"
+      }
+    ],
+    "svar": "Resultanten är \\(50\\ \\mathrm N\\) och pekar snett uppåt åt höger.",
+    "komihag": "Lägg pilarna efter varandra, spets mot start. Ordningen spelar ingen roll. Resultanten går alltid från den första pilens start till den sista pilens spets.",
+    "traningsfamilj": "Addera krafter som vektorer"
+  },
+  "fy1-grund-4-v3": {
+    "kap": 4,
+    "omr": "kraftvektorer",
+    "rubrik": "Komposanter i ett rutnät",
+    "niva": "E",
+    "t": "<p>En kraft \\(F\\) är ritad i ett rutnät där en ruta motsvarar 10 N. Höger och uppåt räknas som positiva riktningar. Bestäm kraftens komposanter och dess storlek.</p>",
+    "figur": "<svg class=\"dg\" viewBox=\"0 0 288 248\" width=\"288\" height=\"248\" role=\"img\" aria-label=\"En kraft F i ett rutnät som går 4 rutor åt höger och 3 rutor nedåt.\"><path class=\"dg-rut\" d=\"M24 224V24M64 224V24M104 224V24M144 224V24M184 224V24M224 224V24M264 224V24M24 224H264M24 184H264M24 144H264M24 104H264M24 64H264M24 24H264\"/><path class=\"dg-form\" d=\"M64.0 64.0L214.4 176.8\"/><path class=\"dg-pil\" d=\"M224.0 184.0L211.1 181.2L217.7 172.4z\"/><text class=\"dg-txt\" x=\"160\" y=\"118\" text-anchor=\"start\" font-weight=\"700\">F</text><circle class=\"dg-nod\" cx=\"64\" cy=\"64\" r=\"4\"/></svg>",
+    "ram": "En sned kraft kan delas upp i en vågrät komposant \\(F_x\\) och en lodrät komposant \\(F_y\\). Komposanterna har tillsammans samma verkan som kraften, så de ersätter den. De är inte två extra krafter.",
+    "steg": [
+      {
+        "rubrik": "Rita komposanterna längs rutnätets linjer",
+        "text": "Gå först vågrätt och sedan lodrätt från startpunkten till pilens spets.",
+        "figur": "<svg class=\"dg\" viewBox=\"0 0 288 248\" width=\"288\" height=\"248\" role=\"img\" aria-label=\"Kraften F delad i en vågrät komposant Fx, 4 rutor åt höger, och en lodrät komposant Fy, 3 rutor nedåt.\"><path class=\"dg-rut\" d=\"M24 224V24M64 224V24M104 224V24M144 224V24M184 224V24M224 224V24M264 224V24M24 224H264M24 184H264M24 144H264M24 104H264M24 64H264M24 24H264\"/><path class=\"dg-form\" d=\"M64.0 64.0L214.4 176.8\"/><path class=\"dg-pil\" d=\"M224.0 184.0L211.1 181.2L217.7 172.4z\"/><text class=\"dg-txt\" x=\"160\" y=\"118\" text-anchor=\"start\" font-weight=\"700\">F</text><path class=\"dg-vek3\" d=\"M64.0 64.0L212.0 64.0\"/><path class=\"dg-spets3\" d=\"M224.0 64.0L212.0 69.5L212.0 58.5z\"/><text class=\"dg-txt dg-e3\" x=\"224\" y=\"54\" text-anchor=\"middle\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">x</tspan></text><path class=\"dg-vek3\" d=\"M224.0 64.0L224.0 172.0\"/><path class=\"dg-spets3\" d=\"M224.0 184.0L218.5 172.0L229.5 172.0z\"/><text class=\"dg-txt dg-e3\" x=\"234\" y=\"128\" text-anchor=\"start\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">y</tspan></text><circle class=\"dg-nod\" cx=\"64\" cy=\"64\" r=\"4\"/></svg>"
+      },
+      {
+        "rubrik": "Räkna rutor och sätt tecken",
+        "text": "Kraften går 4 rutor åt höger och 3 rutor nedåt. Nedåt är negativ riktning.",
+        "matte": "\\[F_x=4\\cdot10=40\\ \\mathrm N,\\qquad F_y=-3\\cdot10=-30\\ \\mathrm N\\]"
+      },
+      {
+        "rubrik": "Kraftens storlek med Pythagoras sats: \\(F=\\sqrt{F_x^2+F_y^2}\\)",
+        "text": "Komposanterna är kateter och kraften är hypotenusan i en rätvinklig triangel.",
+        "matte": "\\[F=\\sqrt{40^2+(-30)^2}=\\sqrt{2500}=50\\ \\mathrm N\\]"
+      }
+    ],
+    "svar": "\\(F_x=40\\ \\mathrm N\\), \\(F_y=-30\\ \\mathrm N\\) och \\(F=50\\ \\mathrm N\\).",
+    "komihag": "Komposanternas tecken visar riktningen: plus är åt höger eller uppåt, minus är åt vänster eller nedåt. Storleken \\(F\\) är alltid positiv.",
+    "traningsfamilj": "Krafter i komposanter"
+  },
+  "fy1-grund-4-v4": {
+    "kap": 4,
+    "omr": "kraftvektorer",
+    "rubrik": "Addera krafter med komposanter",
+    "niva": "E",
+    "t": "<p>Tre krafter verkar på samma föremål. En ruta motsvarar 10 N, och höger och uppåt räknas som positiva riktningar. Bestäm resultantens storlek och riktning.</p>",
+    "figur": "<svg class=\"dg\" viewBox=\"0 0 288 328\" width=\"288\" height=\"328\" role=\"img\" aria-label=\"Tre krafter: F1 går 3 rutor åt höger och 2 uppåt, F2 går 1 ruta åt vänster och 2 uppåt, F3 går 3 rutor nedåt.\"><path class=\"dg-rut\" d=\"M24 304V24M64 304V24M104 304V24M144 304V24M184 304V24M224 304V24M264 304V24M24 304H264M24 264H264M24 224H264M24 184H264M24 144H264M24 104H264M24 64H264M24 24H264\"/><path class=\"dg-form\" d=\"M104.0 144.0L214.0 70.7\"/><path class=\"dg-pil\" d=\"M224.0 64.0L217.1 75.2L211.0 66.1z\"/><text class=\"dg-txt\" x=\"230\" y=\"58\" text-anchor=\"start\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">1</tspan></text><path class=\"dg-form\" d=\"M104.0 144.0L69.4 74.7\"/><path class=\"dg-pil\" d=\"M64.0 64.0L74.3 72.3L64.4 77.2z\"/><text class=\"dg-txt\" x=\"58\" y=\"58\" text-anchor=\"end\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">2</tspan></text><path class=\"dg-form\" d=\"M104.0 144.0L104.0 252.0\"/><path class=\"dg-pil\" d=\"M104.0 264.0L98.5 252.0L109.5 252.0z\"/><text class=\"dg-txt\" x=\"112\" y=\"268\" text-anchor=\"start\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">3</tspan></text><circle class=\"dg-nod\" cx=\"104\" cy=\"144\" r=\"4\"/></svg>",
+    "ram": "När det finns flera snea krafter är det säkrast att räkna med komposanter. Du adderar alla x-komposanter för sig och alla y-komposanter för sig.",
+    "steg": [
+      {
+        "rubrik": "Läs av varje krafts komposanter",
+        "text": "Räkna rutor från startpunkten. Åt vänster och nedåt får minustecken.",
+        "matte": "\\[\\begin{aligned}&F_1=(30;\\ 20)\\ \\mathrm N\\\\&F_2=(-10;\\ 20)\\ \\mathrm N\\\\&F_3=(0;\\ -30)\\ \\mathrm N\\end{aligned}\\]"
+      },
+      {
+        "rubrik": "Addera x-komposanterna och y-komposanterna var för sig",
+        "text": "Resultantens komposanter är summorna.",
+        "matte": "\\[\\begin{aligned}&F_{Rx}=30+(-10)+0=20\\ \\mathrm N\\\\&F_{Ry}=20+20+(-30)=10\\ \\mathrm N\\end{aligned}\\]"
+      },
+      {
+        "rubrik": "Resultantens storlek: \\(F_R=\\sqrt{F_{Rx}^2+F_{Ry}^2}\\)",
+        "matte": "\\[F_R=\\sqrt{20^2+10^2}=\\sqrt{500}\\approx22\\ \\mathrm N\\]"
+      },
+      {
+        "rubrik": "Tecknen ger riktningen",
+        "text": "\\(F_{Rx}\\) är positiv och \\(F_{Ry}\\) är positiv, så resultanten pekar snett uppåt åt höger. Du kan kontrollera genom att lägga pilarna efter varandra.",
+        "figur": "<svg class=\"dg\" viewBox=\"0 0 288 328\" width=\"288\" height=\"328\" role=\"img\" aria-label=\"Tre krafter: F1 går 3 rutor åt höger och 2 uppåt, F2 går 1 ruta åt vänster och 2 uppåt, F3 går 3 rutor nedåt. Krafterna lagda efter varandra ger resultanten 2 rutor åt höger och 1 uppåt.\"><path class=\"dg-rut\" d=\"M24 304V24M64 304V24M104 304V24M144 304V24M184 304V24M224 304V24M264 304V24M24 304H264M24 264H264M24 224H264M24 184H264M24 144H264M24 104H264M24 64H264M24 24H264\"/><path class=\"dg-form\" d=\"M104.0 144.0L214.0 70.7\"/><path class=\"dg-pil\" d=\"M224.0 64.0L217.1 75.2L211.0 66.1z\"/><text class=\"dg-txt\" x=\"230\" y=\"58\" text-anchor=\"start\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">1</tspan></text><path class=\"dg-form\" d=\"M104.0 144.0L69.4 74.7\"/><path class=\"dg-pil\" d=\"M64.0 64.0L74.3 72.3L64.4 77.2z\"/><text class=\"dg-txt\" x=\"58\" y=\"58\" text-anchor=\"end\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">2</tspan></text><path class=\"dg-form\" d=\"M104.0 144.0L104.0 252.0\"/><path class=\"dg-pil\" d=\"M104.0 264.0L98.5 252.0L109.5 252.0z\"/><text class=\"dg-txt\" x=\"112\" y=\"268\" text-anchor=\"start\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">3</tspan></text><path class=\"dg-hjalp\" d=\"M224.0 64.0L189.4 -5.3\"/><path class=\"dg-pil\" d=\"M184.0 -16.0L194.3 -7.7L184.4 -2.8z\"/><path class=\"dg-hjalp\" d=\"M184.0 -16.0L184.0 92.0\"/><path class=\"dg-pil\" d=\"M184.0 104.0L178.5 92.0L189.5 92.0z\"/><path class=\"dg-vek2\" d=\"M104.0 144.0L173.3 109.4\"/><path class=\"dg-spets2\" d=\"M184.0 104.0L175.7 114.3L170.8 104.4z\"/><text class=\"dg-txt dg-e2\" x=\"192\" y=\"118\" text-anchor=\"start\" font-weight=\"700\">F<tspan baseline-shift=\"sub\" font-size=\"9\">R</tspan></text><circle class=\"dg-nod\" cx=\"104\" cy=\"144\" r=\"4\"/></svg>"
+      }
+    ],
+    "svar": "Resultanten är ungefär \\(22\\ \\mathrm N\\) och pekar snett uppåt åt höger.",
+    "komihag": "Summera x för sig och y för sig. Pythagoras sats ger storleken, och tecknen på komposanterna visar åt vilket håll resultanten pekar.",
+    "traningsfamilj": "Addera krafter som vektorer"
+  },
   "fy1-grund-4-01": {
     "kap": 4,
     "omr": "newton1",
@@ -680,7 +799,7 @@ window.TYPUPPGIFTER_FY1 = {
   },
   "fy1-grund-4-07": {
     "kap": 4,
-    "omr": "newton1",
+    "omr": "kraftvektorer",
     "rubrik": "Dela upp en kraft i komposanter",
     "niva": "E",
     "t": "<p>En kraft är 100 N och bildar vinkeln 30° mot den vågräta riktningen. Bestäm den vågräta och den lodräta komposanten.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 215\" width=\"400\" height=\"215\" role=\"img\" aria-label=\"Kraft på 100 N riktad 30 grader över den positiva x-axeln.\" style=\"display:block;width:min(100%,400px);height:auto;margin:16px auto;color:inherit\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke=\"currentColor\" d=\"M70 170 L330 170 M321.90 166.09 L330 170 L321.90 173.91\"/><path stroke=\"currentColor\" d=\"M70 170 L70 25 M66.09 33.10 L70 25 L73.91 33.10\"/><path stroke=\"#36bfb0\" d=\"M70 170 L260 60 M251.03 60.67 L260 60 L254.95 67.45\"/><path d=\"M260 60 V170 M70 60 H260\" stroke-dasharray=\"5 5\"/><path d=\"M112 170 A42 42 0 0 0 106.3 149\"/><text x=\"121\" y=\"157\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">30°</text><text x=\"168\" y=\"88\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">100 N</text><text x=\"322\" y=\"195\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">x</text><text x=\"45\" y=\"30\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">y</text></g></svg>",
@@ -699,7 +818,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Ungefär \\(87\\ \\mathrm N\\) åt höger och \\(50\\ \\mathrm N\\) uppåt.",
     "komihag": "Välj sinus eller cosinus utifrån vilken vinkel som är markerad. Komposanterna är ett annat sätt att beskriva samma kraft, inte två extra krafter.",
-    "traningsfamilj": "Kraftresultant och kraftjämvikt"
+    "traningsfamilj": "Krafter i komposanter"
   },
   "fy1-grund-4-08": {
     "kap": 4,

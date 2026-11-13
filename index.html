@@ -4146,7 +4146,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-13-komposanter-fy2-1049";
+const BANK_VERSION="2026-11-13-fellogg-1830";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10240,6 +10240,7 @@ function kedjaAteruppta(t,sparad){
   }
 }
 function kedjaAktuell(t){
+  if(state.adminBlad) return null;
   const k=state.kedja;
   return k && t && k.ursprungsId===t.ursprungsId && k.delar[k.index]?.task.id===t.id ? k : null;
 }
@@ -10247,7 +10248,23 @@ function kedjaVisadEtikett(k,etikett){
   const i=k.delar.findIndex(d=>d.etikett===etikett);
   return i>=0 && i<26 ? String.fromCharCode(97+i) : etikett;
 }
+/* Bläddringsläget visar samma sammanhang som elevens kedja, men ändrar inte
+   kedjans tillstånd, passet eller vilken del som kan besvaras. */
+function adminBladDelarHtml(t){
+  if(!state.adminBlad || !arAdmin) return null;
+  const syskon=kedjaSyskon(t);
+  if(syskon.length<2) return null;
+  const foralder=state.data.bank.find(q=>String(q.id)===String(t.ursprungsId));
+  const delning=kedjaDelning(syskon,foralder);
+  return `<p class="hint kedja-sammanhang">Uppgift ${esc(String(t.ursprungsId))} · Alla deluppgifter</p>${delning.intro}`
+    +syskon.map((q,i)=>`<div class="kedja-del${q.id===t.id?" kedja-nu":""}">
+      <div class="kedja-rubrik">${esc(String.fromCharCode(97+i))})${q.id===t.id?" · Aktuell del":""}</div>
+      <div class="kedja-fraga">${i?delning.kort[i]:delning.delar[i]}</div>
+    </div>`).join("")
+    +`<p class="hint">Du svarar på del ${esc(String.fromCharCode(97+syskon.findIndex(q=>q.id===t.id)))}) nedan.</p>`;
+}
 function kedjaTbody(t){
+  if(state.adminBlad) return adminBladDelarHtml(t);
   const k=kedjaAktuell(t);
   if(!k) return null;
   const d=k.delar[k.index];
@@ -16027,8 +16044,12 @@ function klassListaHTML(svar,s){
       </li>`;
     }).join("")}</ol>
     <p class="toppfot">${TOPP_FLIKAR[s].fot}. ${svar.summa
-      ? `Poängen är klassens samlade XP, där varje elev räknas med högst ${Number(svar.tak)||0} XP. Ju fler som tränar, desto högre kommer klassen.`
-      : `Poängen är snitt-XP per elev i klassen, där varje elev räknas med högst ${Number(svar.tak)||0} XP. Alla som tränar lyfter klassen.`} Tryck på en klass för att se eleverna som valt att synas.${TOPP_FLIKAR[s].lag?` Klassen som leder när perioden är slut, med minst tre som tränat, ger medaljen ${TOPP_FLIKAR[s].lag} till alla i klassen som tränat under perioden.`:""}</p>`;
+      ? (svar.tak===null
+          ? "Poängen är klassens samlade XP sedan starten, utan tak per elev. Ju fler som tränar, desto högre kommer klassen."
+          : `Poängen är klassens samlade XP, där varje elev räknas med högst ${Number(svar.tak)||0} XP. Ju fler som tränar, desto högre kommer klassen.`)
+      : (svar.tak===null
+          ? "Poängen är snitt-XP per elev i klassen sedan starten, utan tak per elev. Alla som tränar lyfter klassen."
+          : `Poängen är snitt-XP per elev i klassen, där varje elev räknas med högst ${Number(svar.tak)||0} XP. Alla som tränar lyfter klassen.`)} Tryck på en klass för att se eleverna som valt att synas.${TOPP_FLIKAR[s].lag?` Klassen som leder när perioden är slut, med minst tre som tränat, ger medaljen ${TOPP_FLIKAR[s].lag} till alla i klassen som tränat under perioden.`:""}</p>`;
 }
 
 async function snabbVisa(pa){

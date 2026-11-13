@@ -25,13 +25,13 @@ function setup({admin=true}={}){
     arAdmin:admin,app,toast:t=>toasts.push(t),esc:x=>String(x),
     state:{view:'training',currentTask:tasks[0],focusOmr:['forenkla_uttryck'],focusFamily:'Uttryck med parenteser',
       answered:false,passReview:false,passIndex:0,noXp:false,partResults:[],altValda:new Set()},
-    availableTasks:()=>tasks,levelOf:t=>t.niva,getAreas:()=>[{key:'forenkla_uttryck'},{key:'multiplicera_uttryck'}],
+    NIVAER:['1','2','3','4','5'],areaName:x=>x,levelChip:()=>'',availableTasks:()=>tasks,levelOf:t=>t.niva,getAreas:()=>[{key:'forenkla_uttryck'},{key:'multiplicera_uttryck'}],
     PASS_SVAR_FALT:['currentTask','answered','solutionShown','partResults','partIndex','noXp','aktivRuta','hintUsed',
       'hintVisible','altValda','altMiss','altOrdning','altOrdningId','ggForslag'],
     renderTraining:()=>visade.push(c.state.currentTask.id),tchatStang:()=>{},stangKalla:()=>{},
     window:{scrollTo:()=>{}},nextTask:()=>visade.push('nextTask'),document:{getElementById:()=>null},
   });
-  load(c,['passSvarStatus','adminBladSortering','adminBladLista','adminBladStarta','adminBladVisa','adminBladGa',
+  load(c,['passSvarStatus','adminBladSortering','adminBladBas','adminBladNivaFilter','adminBladFordelning','adminBladUrvalNamn','adminBladNivaHtml','adminBladLista','adminBladStarta','adminBladVisa','adminBladGa',
     'adminBladGaTill','adminBladAvsluta','adminBladHtml']);
   return {c,visade,toasts,app};
 }

@@ -442,7 +442,7 @@
     if(!MOLN_PA()) return "";
     return `<button type="button" class="aif-hemkort" onclick="kgAi.oppna()">
       <span class="aif-ikon">${KAMERA}</span>
-      <span><b>Få feedback på din lösning</b><span class="aif-sub">Fota en uppgift och din lösning – få återkoppling som när en lärare rättar.</span></span>
+      <span><b>Få feedback på din lösning</b><span class="aif-sub">Fota en uppgift och din lösning och få återkoppling</span></span>
       <span class="aif-pil" aria-hidden="true">→</span></button>`;
   }
 

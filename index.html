@@ -1226,8 +1226,8 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .chapter.open .kdots{opacity:0}
 .kdots i{width:6px;height:6px;border-radius:50%;background:var(--d);box-shadow:0 0 0 2px var(--bg)}
 .chapter-body{padding:4px 0 2px}
-/* Genomgångar (2026-11-13, alternativ C): ett eget kort först i varje öppet kapitel
-   och en liten länk på varje områdeskort som har genomgångar. Kortet har samma form
+/* Genomgångar (2026-11-13, alternativ B): ett eget kort först i varje öppet kapitel.
+   Länkar på områdeskorten prövades men gjorde korten för trånga. Kortet har samma form
    som "Blandat" men accentfärg, så att det är det första eleven ser i kapitlet.
    Framsteget visas som stapel och kvot; lästa kapitel blir guldfärgade. */
 .kap-kunskap{
@@ -1251,19 +1251,6 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .kap-kunskap .gg-bar i{display:block;height:100%;width:var(--p,0%);border-radius:9px;background:var(--gg-tone);transition:width .4s var(--ease)}
 .kap-kunskap .kvot{flex:none;font-size:13px;font-weight:700;color:var(--gg-tone);font-variant-numeric:tabular-nums}
 .kap-kunskap .pil{flex:none;font-size:22px;color:var(--gg-tone)}
-/* Områden med egna genomgångar får en boksymbol bredvid punktträningsknappen (2026-11-13:
-   bara symbol, så att korten blir renare; framsteget syns på kapitlets genomgångskort).
-   Symbolen är en egen knapp ovanför kortets klickyta, så att ett klick öppnar genomgången och
-   inte startar träningen. Guld när områdets genomgångar är lästa. */
-.omr-gg{
-  position:relative;z-index:2;flex:none;width:34px;height:34px;border-radius:12px;display:grid;place-items:center;
-  color:var(--accInk);background:var(--accSoft);border:1px solid transparent;transition:.2s var(--ease);
-}
-.omr-gg svg{width:17px;height:17px;display:block}
-.omr-gg:hover{border-color:color-mix(in srgb,var(--acc) 40%,transparent)}
-.omr-gg:focus-visible{outline:2.5px solid var(--acc);outline-offset:2px}
-.omr-gg.klar{color:var(--gold);background:var(--goldSoft)}
-.omr-gg.klar:hover{border-color:color-mix(in srgb,var(--gold) 40%,transparent)}
 @media(max-width:820px){
   .chapter-row{flex-wrap:wrap;padding-bottom:8px}.chapter-head{flex-basis:100%;padding-bottom:5px}
   .kaptrana{margin-left:auto}
@@ -5254,17 +5241,6 @@ function chapterKnowledge(kap){
   </button>`;
 }
 
-/* Länken till ett områdes egna genomgångar på områdeskortet. */
-function omradeGenomgang(kort){
-  const steg=kunskapSteg(kort.kap,kort.key);
-  if(!steg.length) return "";
-  const n=steg.length, lasta=steg.filter(x=>ggLast(x.familj)).length, klart=lasta===n;
-  const titel=(n===1?"Genomgång":"Genomgångar")+" i "+kort.name+" · "+lasta+" av "+n+" lästa";
-  return `<button class="omr-gg${klart?" klar":""}" data-kap="${esc(String(kort.kap))}" data-kort="${esc(kort.key)}"
-    onclick="oppnaKunskap('${esc(String(kort.kap))}','${esc(kort.key)}')"
-    title="${esc(titel)}" aria-label="${esc(titel)}">${KUNSKAP_IKON}</button>`;
-}
-
 /* Det här behöver du kunna.
    Genomgångsfilen anger innehåll, kapitel och läsordning. Ett kort kan
    innehålla en egen typuppgift i t eller referera till banken via uppgift.
@@ -5580,11 +5556,6 @@ function uppdateraKunskapsindikator(kap){
     const tal=btn.querySelector(".kvot"); if(tal) tal.textContent=lasta+"/"+steg.length;
     const bar=btn.querySelector(".gg-bar i"); if(bar) bar.style.setProperty("--p",Math.round(100*lasta/steg.length)+"%");
     btn.setAttribute("aria-label","Genomgångar: det här behöver du kunna i "+chapterName(kap)+". "+lasta+" av "+steg.length+" lästa.");
-  });
-  document.querySelectorAll(".omr-gg").forEach(btn=>{
-    if(btn.dataset.kap!==String(kap)) return;
-    const kort=getCards().find(k=>String(k.key)===btn.dataset.kort);
-    if(kort) btn.outerHTML=omradeGenomgang(kort);
   });
 }
 document.addEventListener("visibilitychange",()=>{
@@ -8657,7 +8628,6 @@ function renderDashboard(){
         ${grouped[kap].map(a=>{
           const s=cardStatus(a);
           const harDelar=cardFamilies(a).length>0;
-          const gg=omradeGenomgang(a);
           return `<div class="area ${s.tone}">
             <button class="omr-oppna" onclick="startCard('${esc(a.key)}')">
               <span class="area-ring">
@@ -8669,7 +8639,6 @@ function renderDashboard(){
                 <span class="state">${s.label}</span>
               </span>
             </button>
-            ${gg}
             ${harDelar?`<button class="omr-punkt" onclick="oppnaPunkt('${esc(a.key)}')"
               aria-label="Punktträna delmoment i ${esc(a.name)}">${PUNKT_IKON}</button>`:""}
           </div>`;

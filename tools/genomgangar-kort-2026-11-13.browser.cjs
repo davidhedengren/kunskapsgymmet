@@ -1,10 +1,10 @@
-/* Genomgångarna i kursvyn (2026-11-13, alternativ C): ett eget kort först i varje öppet kapitel och en
-   boksymbol på varje områdeskort som har genomgångar (bara symbol sedan 2026-11-13). Kör mot en lokal server i repots rot
+/* Genomgångarna i kursvyn (2026-11-13, alternativ B): ett eget kort först i varje öppet kapitel, inga
+   länkar på områdeskorten. Kör mot en lokal server i repots rot
    (python3 -m http.server 8027). Ingen inloggning och ingen skrivning till Supabase.
-   Kontrollerar: kortet ligger först i kapitlet och inte i kapitelraden, länkarna visar rätt antal,
-   länken öppnar områdets genomgångar utan att starta träningen, läsningen uppdaterar kvot, stapel och
-   länkar, kapitelkortet öppnar hela kapitlet, resten av områdeskortet startar träningen, och sidan
-   rullar inte i sidled i dator, mobil och ljust tema. Skärmbilder sparas i REVIEW_OUT. */
+   Kontrollerar: kortet ligger först i kapitlet och inte i kapitelraden, områdeskorten har ingen
+   genomgångslänk, läsningen uppdaterar kvot och stapel och gör kortet guldfärgat, kapitelkortet
+   öppnar hela kapitlet, områdeskortet startar träningen, och sidan rullar inte i sidled i dator,
+   mobil och ljust tema. Skärmbilder sparas i REVIEW_OUT. */
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('fs');
 const out=process.env.REVIEW_OUT||'/tmp/genomgangar-kort';fs.mkdirSync(out,{recursive:true});
 const URL=process.env.REVIEW_URL||'http://localhost:8027';
@@ -23,23 +23,15 @@ async function sida(b,w,h,tema){
  const kap=await p.evaluate(()=>({rad:!!document.querySelector('.chapter-row .kap-kunskap'),kort:document.querySelectorAll('.chapter.open .area-grid > .kap-kunskap').length,
    forst:document.querySelector('.chapter.open .area-grid').firstElementChild.className,chips:[...document.querySelectorAll('.chapter.open .omr-gg')].map(c=>c.getAttribute('aria-label'))}));
  assert.equal(kap.rad,false,'ingen knapp kvar i kapitelraden');assert.equal(kap.kort,1);assert.match(kap.forst,/kap-kunskap/);
- assert.deepEqual(kap.chips.map(c=>c.match(/(\d+) av (\d+) lästa/).slice(1).join('/')),['0/3','0/2','0/5','0/6']);
- assert.equal(await p.evaluate(()=>document.querySelector('.chapter.open .omr-gg').textContent.trim()),'','bara boksymbol, ingen text');
- // Klick på länken öppnar områdets genomgång och startar inte träningen
- await p.click('.chapter.open .area:nth-of-type(1) .omr-gg');await p.waitForTimeout(300);
- const efter=await p.evaluate(()=>({modal:!!document.getElementById('kunskapsruta'),kort:state.kunskap?.kortNyckel,steg:state.kunskap?.steg.length,vy:state.view}));
- assert.equal(efter.modal,true);assert.equal(efter.steg,3);assert.equal(efter.vy,'dashboard');
- await p.screenshot({path:`${out}/c-modal.png`});
- await p.evaluate(()=>stangKunskap());
- // Läs två genomgångar i Densitet och uppdatera
+ assert.equal(kap.chips.length,0,'ingen genomgångslänk på områdeskorten');
+ // Läs två genomgångar och uppdatera kapitelkortet
  await p.evaluate(()=>{const kort=getCards().find(k=>k.name==='Densitet');const st=kunskapSteg(kort.kap,kort.key);
    profile.genomgangar ||= {};st.slice(0,2).forEach(x=>profile.genomgangar[ggNyckel(x.familj)]=Date.now());uppdateraKunskapsindikator(kort.kap);});
- const upp=await p.evaluate(()=>({kvot:document.querySelector('.chapter.open .kap-kunskap .kvot').textContent,bar:document.querySelector('.chapter.open .gg-bar i').style.getPropertyValue('--p'),
-   chips:[...document.querySelectorAll('.chapter.open .omr-gg')].map(c=>c.getAttribute('aria-label'))}));
- assert.equal(upp.kvot,'2/16');assert.equal(upp.bar,'13%');assert.match(upp.chips[2],/2 av 5 lästa/);
- // Läs alla i Måttenheter: guld
- await p.evaluate(()=>{const kort=getCards().find(k=>k.name==='Måttenheter och prefix');kunskapSteg(kort.kap,kort.key).forEach(x=>profile.genomgangar[ggNyckel(x.familj)]=Date.now());uppdateraKunskapsindikator(kort.kap);});
- assert.match(await p.evaluate(()=>document.querySelector('.chapter.open .omr-gg.klar')?.getAttribute('aria-label')),/Måttenheter och prefix · 3 av 3 lästa/);
+ const upp=await p.evaluate(()=>({kvot:document.querySelector('.chapter.open .kap-kunskap .kvot').textContent,bar:document.querySelector('.chapter.open .gg-bar i').style.getPropertyValue('--p')}));
+ assert.equal(upp.kvot,'2/16');assert.equal(upp.bar,'13%');
+ // Alla lästa: kortet blir guldfärgat
+ await p.evaluate(()=>{const kap=document.querySelector('.chapter.open .kap-kunskap').dataset.kap;kunskapSteg(kap).forEach(x=>profile.genomgangar[ggNyckel(x.familj)]=Date.now());uppdateraKunskapsindikator(kap);});
+ assert.equal(await p.evaluate(()=>document.querySelector('.chapter.open .kap-kunskap').classList.contains('klar')),true);
  // Klick på kapitelkortet öppnar hela kapitlets genomgångar
  await p.click('.chapter.open .kap-kunskap');await p.waitForTimeout(300);
  assert.equal(await p.evaluate(()=>state.kunskap?.steg.length),16);await p.evaluate(()=>stangKunskap());

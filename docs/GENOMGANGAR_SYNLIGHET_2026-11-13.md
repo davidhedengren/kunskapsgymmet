@@ -37,3 +37,10 @@ punktträningsknappen, placerad före den) i stället för texten ”3 genomgån
 Symbolen har accentfärg och blir guldfärgad när områdets genomgångar är lästa. Antalet lästa står i `title`
 och `aria-label`, till exempel ”Genomgångar i Densitet · 2 av 5 lästa”. Framsteget för hela kapitlet syns på
 genomgångskortet högst upp. Testet kontrollerar att symbolen inte har någon synlig text.
+
+## Slutligt val: B (samma dag)
+
+Med boksymbolen kändes områdeskorten för trånga. Användaren valde därför B: bara genomgångskortet högst upp
+i varje kapitel. Symbolen, dess stil (`omr-gg`) och funktionen `omradeGenomgang` är borttagna. Varje
+områdes egna genomgångar nås fortfarande från kapitelkortet och från tränarens förslag (`oppnaKunskap` med
+`kortNyckel`).

@@ -131,7 +131,7 @@ export function skapaHanterare({ env, fetchFn = fetch, logg = () => {} }) {
     if (!v.ok) return fel(req, v.fel);
 
     // Bygg anropet först med en platshållarmodell, så att reservationen kan räknas på exakt innehåll.
-    const modellUtkast = env.AI_FEEDBACK_MODELL || 'gpt-5.4-mini';
+    const modellUtkast = env.AI_FEEDBACK_MODELL || 'gpt-6.1-sol';
     let anrop = typ === 'granska' ? byggGranskningsanrop(modellUtkast, v) : byggFoljdanrop(modellUtkast, { samtal: [] }, v.fraga);
     // Följdfrågans kontext är okänd innan reservationen. Räkna med den största tillåtna kontexten.
     const extraTecken = typ === 'foljd' ? 12_000 : 0;

@@ -3621,7 +3621,7 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 .kurs-tidigare{display:block;margin-top:6px;font-size:16px;font-weight:500;line-height:1.4;letter-spacing:normal;}
 </style>
 <link rel="stylesheet" href="uppdragsbok.css?v=2026-10-14-progress">
-<link rel="stylesheet" href="ai-feedback.css?v=2026-11-13c">
+<link rel="stylesheet" href="ai-feedback.css?v=2026-11-13d">
 </head>
 
 <body>
@@ -4748,6 +4748,7 @@ function loadProfileFrom(p){
      för sig. */
   p.genomgangar ||= {}; p.ggKapKlara ||= {};
   p.ggTranat ||= 0;
+  p.aiFeedback ||= 0;
   p.ggForslagVisade ||= {};
   aterstallGenomgangsmedaljer(p);
   return p;
@@ -4925,7 +4926,8 @@ const MEDALJBANOR={
 
   betaflagga:'<path d="M5.4 21.4V3.4"/><path d="M5.4 4.6h10.2l-.7 2.3h5.7v7.5h-6.4l-.7-2.3H5.4"/>',
   felsokare: '<circle cx="10.6" cy="10.6" r="6.4"/><path d="M15.2 15.2l5 5"/><path d="M8.2 10.6h4.8"/>',
-  kvalitetsvakt:'<path d="M12 3.2l7.2 2.8v5.6c0 4.2-3 7.5-7.2 8.8-4.2-1.3-7.2-4.6-7.2-8.8V6z"/><path d="M8.9 11.6l2.2 2.2 4-4.4"/>'
+  kvalitetsvakt:'<path d="M12 3.2l7.2 2.8v5.6c0 4.2-3 7.5-7.2 8.8-4.2-1.3-7.2-4.6-7.2-8.8V6z"/><path d="M8.9 11.6l2.2 2.2 4-4.4"/>',
+  granskad:'<path d="M6 3.4h8.2l3.8 3.8v13.4H6z"/><path d="M14.2 3.4v3.8H18"/><path d="M9 13.4l2.2 2.2 4-4.4"/>'
 };
 
 function medaljIkon(namn){
@@ -4998,7 +5000,10 @@ const BADGES=[
      inte antalet skickade rapporter. Ignorerade rapporter ger ingenting. */
   {id:"beta1", icon:"betaflagga", name:"Betatestare",   desc:"Få ett fel du rapporterat åtgärdat",   max:1,  cur:()=>profile.felFynd},
   {id:"beta5", icon:"felsokare",  name:"Felsökare",     desc:"Få 5 fel du rapporterat åtgärdade",    max:5,  cur:()=>profile.felFynd},
-  {id:"beta10",icon:"kvalitetsvakt",name:"Kvalitetsvakt",desc:"Få 10 fel du rapporterat åtgärdade",  max:10, cur:()=>profile.felFynd}
+  {id:"beta10",icon:"kvalitetsvakt",name:"Kvalitetsvakt",desc:"Få 10 fel du rapporterat åtgärdade",  max:10, cur:()=>profile.felFynd},
+
+  /* Delas ut när eleven har fått AI-feedback på en egen handskriven lösning (ai-feedback.js). */
+  {id:"aifeedback",icon:"granskad",name:"Granskad",desc:"Få feedback på din egen lösning",max:1,cur:()=>profile.aiFeedback}
 ];
 
 /* Antalet lästa genomgångar räknas över alla kurser — den som läst i
@@ -19490,7 +19495,7 @@ function kvRita(snabb){
 }
 </script>
 <script src="admin-statistik.js?v=2026-10-11-analys"></script>
-<script src="ai-feedback.js?v=2026-11-13c"></script>
+<script src="ai-feedback.js?v=2026-11-13d"></script>
 <script src="onskemal.js?v=2026-10-13"></script>
 </body>
 </html>

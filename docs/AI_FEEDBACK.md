@@ -7,7 +7,7 @@ Eleven fotograferar en uppgift (eller skriver den som text) och sin egen handskr
 - **Här tänkte du fel**: steg, feltyp och förklaring av felet. Följdfel räknas inte som nya fel.
 - **För att få full poäng behöver du**: motiveringar, mellanled, enheter, svarsmening och liknande.
 
-Eleven kan ställa ett fåtal följdfrågor och starta en ny granskning. Funktionen är fristående från uppgiftsbankerna.
+Följdfrågor är avstängda (0 per granskning). Eleven kan starta en ny granskning. Efter Kontrollera i träningen finns knappen *Få feedback på din lösning*, som öppnar granskningen ovanpå uppgiften med uppgiftstexten ifylld. Första granskningen ger medaljen *Granskad*. Funktionen är fristående från uppgiftsbankerna.
 
 > **Status:** koden är testad mot mockat API och en riktig Postgres (PGlite). Livefunktionen är **inte verifierad** förrän stegen i *Installation* är gjorda och en riktig granskning har körts.
 
@@ -37,9 +37,9 @@ Postgres: kg_ai_konfig, kg_ai_manad, kg_ai_granskning, kg_ai_anrop
 | Inställning | Standard | Var |
 |---|---|---|
 | Månadsbudget | 150 kr (kan inte sättas till 200 kr eller mer) | `kg_ai_konfig.manadsbudget_sek` / adminvyn |
-| Granskningar per elev och dag | 3 | adminvyn |
-| Följdfrågor per granskning | 2 | adminvyn |
-| Modell och priser | gpt-5.4-mini, $0,75 / $0,075 / $4,50 per 1M token | `kg_ai_konfig` |
+| Granskningar per elev och dag | 10 | adminvyn |
+| Följdfrågor per granskning | 0 (avstängt) | adminvyn |
+| Modell och priser | gpt-6.1-sol, $2 / $0,10 / $10 per 1M token (in / cachad / ut) | `kg_ai_konfig` |
 | Växelkurs | 12 kr/USD (sätt gärna lite högre än aktuell kurs) | `kg_ai_konfig.usd_sek` |
 
 **Reservation och avräkning:**
@@ -52,7 +52,7 @@ Postgres: kg_ai_konfig, kg_ai_manad, kg_ai_granskning, kg_ai_anrop
 - Om budgetkontrollen inte går att göra (databasfel) nekas begäran.
 - En misslyckad granskning räknas inte mot elevens dagsgräns.
 
-**Kostnad:** en granskning reserverar cirka 0,4 kr och kostar i praktiken cirka 0,15–0,3 kr.
+**Kostnad:** en granskning reserverar högst cirka 1,5 kr och kostar i praktiken uppskattningsvis 0,5–1 kr. Med 150 kr räcker budgeten till ungefär 150–300 granskningar per månad.
 
 **Budgeten slut:** eleverna ser "AI-feedback är tillfälligt pausad eftersom månadens budget är förbrukad. Funktionen blir tillgänglig igen nästa månad."
 
@@ -80,7 +80,7 @@ Postgres: kg_ai_konfig, kg_ai_manad, kg_ai_granskning, kg_ai_anrop
 1. **Skapa ett separat OpenAI-projekt** för Kunskapsgymmet på platform.openai.com.
    - Under *Settings → Limits* (projektets budget), sätt en månadsbudget i USD som motsvarar under 200 kr, t.ex. **15 USD**.
    - Aktivera **"Enforce a hard limit"** (eller motsvarande alternativ som stoppar anrop när budgeten är nådd).
-   - Begränsa gärna projektet till modellen gpt-5.4-mini.
+   - Begränsa gärna projektet till modellen gpt-6.1-sol.
    - Skapa en API-nyckel **i det projektet**.
 2. **Kör SQL-migreringen** `sql/2026-11-13-ai-feedback.sql` i Supabase SQL Editor.
    - Den förutsätter att `kg_ar_admin()` finns, vilket den redan gör i Kunskapsgymmets databas.

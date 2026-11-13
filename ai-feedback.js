@@ -162,8 +162,13 @@
       losningsbilder:S.losning});
     S.laddar=false;
     if(d.ok){
-      S.resultat=d.feedback; S.granskningId=d.granskningId; S.foljdKvar=d.foljdfragorKvar||0; S.samtal=[];
+      S.resultat=d.feedback; S.granskningId=d.granskningId; S.foljdKvar=0; S.samtal=[];
       if(S.status) S.status.kvar_idag=Math.max(0,(S.status.kvar_idag||1)-1);
+      // Medaljen "Granskad" (index.html) räknar granskningar som gav återkoppling.
+      if(d.feedback?.status==="granskad" && typeof profile==="object" && profile){
+        profile.aiFeedback=(profile.aiFeedback||0)+1;
+        try{ saveProfile(); checkBadges(700); }catch(_){}
+      }
     }else{
       S.fel=d.meddelande||"Något gick fel."; if(d.fel==="budget_slut" && S.status) S.status.budget_slut=true;
     }
@@ -267,7 +272,7 @@
       ${sammanf}
       <div class="aif-del ratt"><h3>Det här har du gjort rätt</h3>${ratt}</div>
       ${fel}${redov}
-      ${tolkning}${foljd}
+      ${tolkning}
       <div class="aif-knapprad"><button type="button" class="btn soft" onclick="kgAi.nytt()">Ny granskning</button></div></div>`;
   }
 

@@ -37,7 +37,8 @@ async function nyDb() {
       $$ SELECT coalesce(current_setting('test.admin', true), '') = 'ja' $$;
   `);
   await d.exec(fs.readFileSync(path.join(dir, '../sql/2026-11-13-ai-feedback.sql'), 'utf8'));
-  await d.exec(`UPDATE kg_ai_konfig SET aktiv = true`);
+  // Testerna prövar gränserna med små värden (standard i produktion: 10 per dag, 0 följdfrågor).
+  await d.exec(`UPDATE kg_ai_konfig SET aktiv = true, granskningar_per_dag = 3, foljdfragor_per_gransk = 2`);
   return d;
 }
 const reservera = async (user, typ = 'granskning', g = null, bilder = 5, tecken = 8000, ut = 3500) =>
@@ -59,12 +60,12 @@ test('reservationen är en konservativ övre gräns och avräknas mot faktisk f�
   const r = await reservera(U(1));
   assert.equal(r.ok, true);
   // 5 bilder × 3000 + 4000 + 600 token in, 3500 ut, 12 kr/USD, faktor 1,25
-  const vantat = ((5 * 3000 + 4000 + 600) * 0.75 + 3500 * 4.5) / 1e6 * 12 * 1.25;
+  const vantat = ((5 * 3000 + 4000 + 600) * 2 + 3500 * 10) / 1e6 * 12 * 1.25;
   assert.ok(Math.abs(Number(r.reserverat_sek) - vantat) < 1e-9, `${r.reserverat_sek} ≠ ${vantat}`);
   let m = await manad();
   assert.ok(Math.abs(Number(m.reserverat) - vantat) < 1e-9);
   const a = await avrakna(r.anrop, 'ok', 12000, 1000, 1800);
-  const faktisk = ((11000 * 0.75 + 1000 * 0.075 + 1800 * 4.5) / 1e6) * 12 * 1.05;
+  const faktisk = ((11000 * 2 + 1000 * 0.1 + 1800 * 10) / 1e6) * 12 * 1.05;
   assert.ok(Math.abs(Number(a.kostnad_sek) - faktisk) < 1e-9);
   m = await manad();
   assert.equal(Number(m.reserverat), 0);

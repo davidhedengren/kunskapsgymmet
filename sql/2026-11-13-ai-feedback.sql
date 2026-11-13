@@ -18,17 +18,17 @@ CREATE TABLE IF NOT EXISTS public.kg_ai_konfig (
   aktiv                  boolean NOT NULL DEFAULT false,
   manadsbudget_sek       numeric NOT NULL DEFAULT 150 CHECK (manadsbudget_sek >= 0 AND manadsbudget_sek < 200),
   usd_sek                numeric NOT NULL DEFAULT 12.0 CHECK (usd_sek > 0),    -- medvetet högt (marginal för kurs)
-  granskningar_per_dag   integer NOT NULL DEFAULT 3 CHECK (granskningar_per_dag BETWEEN 0 AND 50),
-  foljdfragor_per_gransk integer NOT NULL DEFAULT 2 CHECK (foljdfragor_per_gransk BETWEEN 0 AND 10),
-  modell                 text    NOT NULL DEFAULT 'gpt-5.4-mini',
-  pris_in_usd_mtok       numeric NOT NULL DEFAULT 0.75,   -- standardpris per 1 miljon indatatoken
-  pris_cachad_usd_mtok   numeric NOT NULL DEFAULT 0.075,
-  pris_ut_usd_mtok       numeric NOT NULL DEFAULT 4.50,   -- utdata inklusive resonemangstoken
+  granskningar_per_dag   integer NOT NULL DEFAULT 10 CHECK (granskningar_per_dag BETWEEN 0 AND 50),
+  foljdfragor_per_gransk integer NOT NULL DEFAULT 0 CHECK (foljdfragor_per_gransk BETWEEN 0 AND 10),
+  modell                 text    NOT NULL DEFAULT 'gpt-6.1-sol',
+  pris_in_usd_mtok       numeric NOT NULL DEFAULT 2.00,   -- standardpris per 1 miljon indatatoken
+  pris_cachad_usd_mtok   numeric NOT NULL DEFAULT 0.10,
+  pris_ut_usd_mtok       numeric NOT NULL DEFAULT 10.00,  -- utdata inklusive resonemangstoken
   bild_tokens_max        integer NOT NULL DEFAULT 3000,   -- detail "high": högst 2 500 patchar × 1,2
   fasta_tokens           integer NOT NULL DEFAULT 600,    -- meddelandeformat, schema m.m.
   sakerhetsfaktor        numeric NOT NULL DEFAULT 1.25 CHECK (sakerhetsfaktor >= 1),
   avrakningsfaktor       numeric NOT NULL DEFAULT 1.05 CHECK (avrakningsfaktor >= 1),
-  max_reservation_sek    numeric NOT NULL DEFAULT 1.50,   -- enskilt anrop får aldrig reservera mer
+  max_reservation_sek    numeric NOT NULL DEFAULT 3.00,   -- enskilt anrop får aldrig reservera mer
   kontext_timmar         integer NOT NULL DEFAULT 24,     -- textkontext för följdfrågor sparas så länge
   uppdaterad             timestamptz NOT NULL DEFAULT now()
 );

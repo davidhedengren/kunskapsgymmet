@@ -7,10 +7,10 @@ export const GRANSER = {
   maxBildBytes: 1_500_000,        // efter avkodning; klienten komprimerar till ~0,2–0,6 MB
   maxUppgiftstext: 2000,
   maxFoljdfraga: 400,
-  maxUtGranskning: 3500,          // max_output_tokens inklusive resonemangstoken
+  maxUtGranskning: 6000,          // max_output_tokens inklusive resonemangstoken
   maxUtFoljd: 1200,
   timeoutMs: 90_000,
-  bildDetalj: 'high',             // gpt-5.4-mini: högst 2 500 patchar ≈ 3 000 token per bild
+  bildDetalj: 'high',             // högst 2 500 patchar ≈ 3 000 token per bild
 };
 
 export const FELTYPER = ['metodfel', 'raknefel', 'teckenfel', 'enhetsfel', 'missuppfattning', 'ofullstandigt', 'inget'];

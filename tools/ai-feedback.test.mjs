@@ -33,7 +33,7 @@ const oaSvar = (obj, usage = { input_tokens: 9000, output_tokens: 1200, input_to
   output: [{ type: 'reasoning' }, { type: 'message', content: [{ type: 'output_text', text: typeof obj === 'string' ? obj : JSON.stringify(obj) }] }],
 });
 
-function mock({ inloggad = true, reservation = { ok: true, anrop: 'a1', granskning: 'g1', modell: 'gpt-5.4-mini', foljdfragor_kvar: 2 },
+function mock({ inloggad = true, reservation = { ok: true, anrop: 'a1', granskning: 'g1', modell: 'gpt-6.1-sol', foljdfragor_kvar: 2 },
   openai = { status: 200, body: oaSvar(GOD) }, rpcKastar = false } = {}) {
   const logg = [];
   const fetchFn = async (url, opt = {}) => {
@@ -102,7 +102,7 @@ test('lyckad granskning: reservation, OpenAI, avräkning med tokenförbrukning o
   const oa = anrop(m, 'openai')[0];
   assert.equal(oa.headers.Authorization, 'Bearer sk-test');
   assert.equal(oa.kropp.store, false, 'inget sparas hos OpenAI');
-  assert.equal(oa.kropp.model, 'gpt-5.4-mini');
+  assert.equal(oa.kropp.model, 'gpt-6.1-sol');
   assert.equal(oa.kropp.text.format.strict, true);
   assert.ok(!JSON.stringify(oa.kropp).includes(ANV), 'användar-id skickas inte till OpenAI');
   const av = anrop(m, 'kg_ai_avrakna')[0].kropp;
@@ -175,7 +175,7 @@ test('ogiltiga bilder och för många bilder stoppas före budget och API', asyn
 
 test('följdfråga skickar bara text och sparad kontext, aldrig bilder', async () => {
   const kontext = { uppgift: 'Lös 2x+3=11', losning: '2x = 11 + 3', aterkoppling: 'Teckenfel', samtal: [] };
-  const m = mock({ reservation: { ok: true, anrop: 'a2', granskning: 'g1', modell: 'gpt-5.4-mini', kontext, foljdfragor_kvar: 1 },
+  const m = mock({ reservation: { ok: true, anrop: 'a2', granskning: 'g1', modell: 'gpt-6.1-sol', kontext, foljdfragor_kvar: 1 },
     openai: { status: 200, body: oaSvar({ svar: 'Tänk på att subtrahera 3 i båda leden.' }) } });
   const r = await kor(m, { typ: 'foljd', granskningId: '11111111-1111-1111-1111-111111111111', fraga: 'Varför är det steget fel?' });
   assert.equal(r.status, 200); assert.equal(r.data.foljdfragorKvar, 1);

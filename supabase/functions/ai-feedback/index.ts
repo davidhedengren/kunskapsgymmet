@@ -12,7 +12,7 @@ const env = {
   SUPABASE_SERVICE_ROLE_KEY: Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') ?? '',
   OPENAI_API_KEY: Deno.env.get('OPENAI_API_KEY') ?? '',
   AI_FEEDBACK_AKTIV: Deno.env.get('AI_FEEDBACK_AKTIV') ?? 'false',
-  AI_FEEDBACK_MODELL: Deno.env.get('AI_FEEDBACK_MODELL') ?? 'gpt-5.4-mini',
+  AI_FEEDBACK_MODELL: Deno.env.get('AI_FEEDBACK_MODELL') ?? 'gpt-6.1-sol',
   AI_FEEDBACK_ORIGINS: Deno.env.get('AI_FEEDBACK_ORIGINS') ?? '',
 };
 

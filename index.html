@@ -3621,6 +3621,7 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 .kurs-tidigare{display:block;margin-top:6px;font-size:16px;font-weight:500;line-height:1.4;letter-spacing:normal;}
 </style>
 <link rel="stylesheet" href="uppdragsbok.css?v=2026-10-14-progress">
+<link rel="stylesheet" href="ai-feedback.css?v=2026-11-13">
 </head>
 
 <body>
@@ -4681,6 +4682,7 @@ async function navRestore(st){
     oppnaTopplista(state.toppSort,false); return;
   }
   if(st && st.view==="larare"){ oppnaLarare(null,false); return; }
+  if(st && st.view==="aifeedback" && window.kgAi){ kgAi.oppna(false); return; }
   if(!st || !st.course){
     state.course=null;state.data=null;state.track=null;state.currentTask=null;
     state.openChapters=null;applyAccent();renderHome();return;
@@ -7005,6 +7007,7 @@ function renderHome(){
       </div>
       </div>
     </section>
+    ${window.kgAi?kgAi.hemkort():""}
     <div id="provbanner"></div>
     <h2 id="egen-traning-rubrik" hidden>Träna på egen hand</h2>
     <div class="kursgrupper" id="egna-kurser">
@@ -16311,6 +16314,8 @@ function render(){
   else if(state.view==="summary"&&state.course) renderSessionDone();
   else if(state.view==="topplista") oppnaTopplista(state.toppSort,false);
   else if(state.view==="larare") ritaLarare();
+  else if(state.view==="aifeedback" && window.kgAi) kgAi.oppna(false);
+  else if(state.view==="aifeedback-admin" && window.kgAi) kgAi.admin();
   else renderHome();
 }
 
@@ -19484,6 +19489,7 @@ function kvRita(snabb){
 }
 </script>
 <script src="admin-statistik.js?v=2026-10-11-analys"></script>
+<script src="ai-feedback.js?v=2026-11-13"></script>
 <script src="onskemal.js?v=2026-10-13"></script>
 </body>
 </html>

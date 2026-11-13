@@ -1,0 +1,81 @@
+/* Få feedback på din lösning (AI-feedback). Följer Kunskapsgymmets färgteman via CSS-variabler. */
+.aif-hemkort{display:flex;align-items:center;gap:16px;margin:18px 0 6px;padding:16px 18px;border-radius:18px;
+  border:1px solid var(--hair);background:var(--surface);color:var(--ink);text-align:left;cursor:pointer;width:100%;
+  font:inherit;transition:border-color .2s,transform .2s}
+.aif-hemkort:hover{border-color:var(--acc);transform:translateY(-1px)}
+.aif-hemkort .aif-ikon{flex:none;width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:var(--accSoft);color:var(--accInk)}
+.aif-hemkort b{display:block;font-family:var(--ui);font-size:16px}
+.aif-hemkort span.aif-sub{display:block;color:var(--ink2);font-size:14px;margin-top:2px}
+.aif-hemkort .aif-pil{margin-left:auto;color:var(--ink3)}
+
+.aif{max-width:760px;margin:0 auto;padding:8px 0 64px}
+.aif h1{font-family:var(--ui);font-size:clamp(24px,5vw,32px);margin:10px 0 4px}
+.aif .aif-ingress{color:var(--ink2);margin:0 0 18px;line-height:1.55}
+.aif-steg{border:1px solid var(--hair);background:var(--surface);border-radius:18px;padding:16px 18px;margin:14px 0}
+.aif-steg h2{display:flex;align-items:center;gap:10px;font-family:var(--ui);font-size:17px;margin:0 0 10px}
+.aif-steg h2 .nr{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--accSoft);color:var(--accInk);font-size:14px}
+.aif-val{display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap}
+.aif-val button[aria-pressed="true"]{background:var(--accSoft);color:var(--accInk);border-color:transparent}
+.aif-uppladd{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:110px;
+  border:2px dashed var(--hair2,var(--hair));border-radius:14px;background:var(--surface2);color:var(--ink2);
+  cursor:pointer;text-align:center;padding:14px;font:inherit;width:100%}
+.aif-uppladd:hover,.aif-uppladd:focus-visible{border-color:var(--acc);color:var(--ink)}
+.aif-uppladd b{color:var(--ink)}
+.aif textarea{width:100%;min-height:110px;resize:vertical;border:1px solid var(--hair2,var(--hair));border-radius:12px;
+  padding:10px 12px;background:var(--surface);color:var(--ink);font:15px/1.5 var(--read)}
+.aif-raknare{font-size:12px;color:var(--ink3);text-align:right;margin-top:2px}
+.aif-bilder{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px;margin-top:10px}
+.aif-bild{position:relative;border:1px solid var(--hair);border-radius:12px;overflow:hidden;background:var(--surface2)}
+.aif-bild img{display:block;width:100%;height:150px;object-fit:contain;background:#fff}
+.aif-bild .aif-bildrad{display:flex;flex-direction:column;align-items:flex-start;gap:2px;padding:5px 6px;font-size:12px;color:var(--ink2)}
+.aif-bild .aif-bildrad span:last-child{display:flex;gap:10px}
+.aif-bild .aif-bildrad button{border:0;background:none;color:var(--accInk);cursor:pointer;font:inherit;font-size:12px;padding:2px 4px}
+.aif-bild .aif-bildrad button.ta-bort{color:var(--bad)}
+.aif-knapprad{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:14px}
+.aif-info{font-size:13px;color:var(--ink2);margin:8px 0 0}
+.aif-ruta{border-radius:14px;padding:12px 14px;margin:12px 0;line-height:1.55}
+.aif-ruta.fel{background:var(--badSoft);color:var(--ink)}
+.aif-ruta.paus{background:var(--goldSoft);color:var(--ink)}
+.aif-ruta.info{background:var(--accSoft);color:var(--ink)}
+.aif-laddar{display:flex;align-items:center;gap:14px;padding:18px;border-radius:16px;background:var(--surface2);margin:14px 0}
+.aif-snurra{width:28px;height:28px;border-radius:50%;border:3px solid var(--accSoft);border-top-color:var(--acc);animation:aifsnurr 1s linear infinite;flex:none}
+@keyframes aifsnurr{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.aif-snurra{animation-duration:3s}}
+
+.aif-resultat{margin-top:6px}
+.aif-del{border-radius:16px;padding:14px 16px;margin:12px 0;border:1px solid var(--hair);background:var(--surface);font-family:var(--read);line-height:1.6}
+.aif-del h3{font-family:var(--ui);font-size:16px;margin:0 0 8px;display:flex;align-items:center;gap:8px}
+.aif-del.ratt{border-left:5px solid var(--good)}
+.aif-del.titta{border-left:5px solid var(--gold)}
+.aif-del.vidare{border-left:5px solid var(--acc)}
+.aif-del.oklar{border-left:5px solid var(--bad)}
+.aif-del ul{margin:6px 0 0;padding-left:20px}
+.aif-del li+li{margin-top:6px}
+.aif-del .aif-steg-citat{display:block;padding:6px 10px;margin:4px 0 6px;border-radius:8px;background:var(--surface2);overflow-x:auto}
+.aif-feltyp{display:inline-block;font-size:12px;font-weight:650;padding:2px 9px;border-radius:999px;background:var(--goldSoft);color:var(--gold);margin-left:4px}
+.aif-varning{font-size:14px;background:var(--goldSoft);border-radius:12px;padding:8px 12px;margin:10px 0}
+.aif details{margin:10px 0;border:1px solid var(--hair);border-radius:12px;padding:8px 12px;background:var(--surface)}
+.aif details summary{cursor:pointer;font-weight:600;color:var(--ink2)}
+.aif details .aif-tolkning{font-family:var(--read);line-height:1.6;margin-top:8px;overflow-x:auto}
+.aif-samtal{margin-top:10px}
+.aif-bubbla{border-radius:14px;padding:10px 13px;margin:8px 0;font-family:var(--read);line-height:1.6;overflow-x:auto}
+.aif-bubbla.elev{background:var(--accSoft);margin-left:18%}
+.aif-bubbla.ai{background:var(--surface2);margin-right:8%}
+.aif-forslag{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.aif-forslag button{font-size:13px}
+.aif .katex-display{overflow-x:auto;overflow-y:hidden;padding:2px 0}
+.aif-admin table{width:100%;border-collapse:collapse;font-size:14px}
+.aif-admin th,.aif-admin td{border-bottom:1px solid var(--hair);padding:6px 8px;text-align:left}
+.aif-admin .aif-siffror{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:12px 0}
+.aif-admin .aif-siffror div{background:var(--surface2);border-radius:12px;padding:10px 12px}
+.aif-admin .aif-siffror b{display:block;font-size:22px;font-family:var(--ui)}
+.aif-admin .aif-mätare{height:10px;border-radius:6px;background:var(--surface3);overflow:hidden;margin:8px 0}
+.aif-admin .aif-mätare i{display:block;height:100%;background:var(--acc)}
+.aif-admin label{display:flex;align-items:center;gap:8px;margin:6px 0;font-size:14px}
+.aif-admin input[type=number]{width:90px;padding:5px 8px;border:1px solid var(--hair2,var(--hair));border-radius:8px;background:var(--surface);color:var(--ink)}
+@media (max-width:560px){
+  .aif-steg{padding:14px 14px}
+  .aif-bubbla.elev{margin-left:8%}
+  .aif-bilder{grid-template-columns:repeat(2,1fr)}
+}
+.aif-del.sammanf{font-size:17px}

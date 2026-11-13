@@ -18,8 +18,9 @@
 .aif-val button[aria-pressed="true"]{background:var(--accSoft);color:var(--accInk);border-color:transparent}
 .aif-uppladd{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:110px;
   border:2px dashed var(--hair2,var(--hair));border-radius:14px;background:var(--surface2);color:var(--ink2);
-  cursor:pointer;text-align:center;padding:14px;font:inherit;width:100%}
-.aif-uppladd:hover,.aif-uppladd:focus-visible{border-color:var(--acc);color:var(--ink)}
+  text-align:center;padding:14px;font:inherit;width:100%;box-sizing:border-box}
+.aif-uppladd:hover,.aif-uppladd:focus-within{border-color:var(--acc);color:var(--ink)}
+.aif-uppladd-knappar{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:6px}
 .aif-uppladd b{color:var(--ink)}
 .aif textarea{width:100%;min-height:110px;resize:vertical;border:1px solid var(--hair2,var(--hair));border-radius:12px;
   padding:10px 12px;background:var(--surface);color:var(--ink);font:15px/1.5 var(--read)}
@@ -28,8 +29,8 @@
 .aif-bild{position:relative;border:1px solid var(--hair);border-radius:12px;overflow:hidden;background:var(--surface2)}
 .aif-bild img{display:block;width:100%;height:150px;object-fit:contain;background:#fff}
 .aif-bild .aif-bildrad{display:flex;flex-direction:column;align-items:flex-start;gap:2px;padding:5px 6px;font-size:12px;color:var(--ink2)}
-.aif-bild .aif-bildrad span:last-child{display:flex;gap:10px}
-.aif-bild .aif-bildrad button{border:0;background:none;color:var(--accInk);cursor:pointer;font:inherit;font-size:12px;padding:2px 4px}
+.aif-bild .aif-bildrad span:last-child{display:flex;gap:2px 6px;flex-wrap:wrap}
+.aif-bild .aif-bildrad button{border:0;background:none;color:var(--accInk);cursor:pointer;font:inherit;font-size:12px;padding:2px 4px;white-space:nowrap}
 .aif-bild .aif-bildrad button.ta-bort{color:var(--bad)}
 .aif-knapprad{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:14px}
 .aif-info{font-size:13px;color:var(--ink2);margin:8px 0 0}
@@ -79,3 +80,8 @@
   .aif-bilder{grid-template-columns:repeat(2,1fr)}
 }
 .aif-del.sammanf{font-size:17px}
+.aif-kamera{position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.72);display:grid;place-items:center;padding:16px}
+.aif-kamera-ruta{background:var(--surface);border-radius:18px;padding:14px;width:min(720px,100%);box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.aif-kamera video{display:block;width:100%;max-height:70vh;border-radius:12px;background:#000;object-fit:contain}
+.aif-kamera-tips{font-size:13px;color:var(--ink2);margin:8px 0 0;text-align:center}
+.aif-kamera .aif-knapprad{justify-content:center}

@@ -55,11 +55,78 @@
     }
     rita();
   }
-  function valjFil(mal,flera,ersattIndex){
+  function valjFil(mal,flera,ersattIndex,kamera){
     const inp=document.createElement("input");
     inp.type="file"; inp.accept="image/*"; if(flera) inp.multiple=true;
+    if(kamera) inp.setAttribute("capture","environment");   // mobil: öppnar kameran direkt
     inp.onchange=()=>laggTillBilder(inp.files,mal,ersattIndex);
     inp.click();
+  }
+
+  /* Ta foto: på mobil/surfplatta öppnas telefonens egen kamera (bäst bildkvalitet). På dator
+     öppnas webbkameran i en ruta på sidan. Saknas kamera eller nekas åtkomst visas ett meddelande. */
+  const pekskarm=()=>window.matchMedia?.("(pointer:coarse)").matches;
+  function fota(mal,ersattIndex){
+    if(pekskarm() || !navigator.mediaDevices?.getUserMedia) return valjFil(mal,false,ersattIndex,true);
+    kameraruta(mal,ersattIndex);
+  }
+  let kam=null;   // {strom, el, enheter, index}
+  function stangKamera(){
+    if(!kam) return;
+    kam.strom?.getTracks().forEach(t=>t.stop());
+    kam.el.remove(); document.removeEventListener("keydown",kam.tangent); kam=null;
+  }
+  async function startaStrom(){
+    kam.strom?.getTracks().forEach(t=>t.stop());
+    const enhet=kam.enheter[kam.index];
+    kam.strom=await navigator.mediaDevices.getUserMedia({audio:false,video:enhet
+      ?{deviceId:{exact:enhet.deviceId},width:{ideal:1920},height:{ideal:1080}}
+      :{facingMode:{ideal:"environment"},width:{ideal:1920},height:{ideal:1080}}});
+    const v=kam.el.querySelector("video"); v.srcObject=kam.strom; await v.play().catch(()=>{});
+  }
+  async function kameraruta(mal,ersattIndex){
+    stangKamera();
+    const el=document.createElement("div");
+    el.className="aif-kamera"; el.setAttribute("role","dialog"); el.setAttribute("aria-modal","true"); el.setAttribute("aria-label","Ta foto");
+    el.innerHTML=`<div class="aif-kamera-ruta">
+      <video playsinline muted autoplay></video>
+      <p class="aif-kamera-tips">Håll papperet rakt framför kameran i bra ljus.</p>
+      <div class="aif-knapprad">
+        <button type="button" class="btn primary" data-k="ta" disabled>Ta bild</button>
+        <button type="button" class="btn soft" data-k="byt" hidden>Byt kamera</button>
+        <button type="button" class="btn quiet" data-k="avbryt">Avbryt</button>
+      </div></div>`;
+    document.body.appendChild(el);
+    kam={el,strom:null,enheter:[],index:0,tangent:e=>{ if(e.key==="Escape") stangKamera(); }};
+    document.addEventListener("keydown",kam.tangent);
+    el.addEventListener("click",e=>{ if(e.target===el) stangKamera(); });
+    el.querySelector('[data-k="avbryt"]').onclick=stangKamera;
+    el.querySelector('[data-k="byt"]').onclick=async()=>{
+      if(!kam) return; kam.index=(kam.index+1)%kam.enheter.length;
+      try{ await startaStrom(); }catch(_){}
+    };
+    el.querySelector('[data-k="ta"]').onclick=()=>{
+      const v=el.querySelector("video"); if(!v.videoWidth) return;
+      const c=document.createElement("canvas"); c.width=v.videoWidth; c.height=v.videoHeight;
+      c.getContext("2d").drawImage(v,0,0);
+      c.toBlob(b=>{ stangKamera(); if(b) laggTillBilder([b],mal,ersattIndex); },"image/jpeg",0.92);
+    };
+    try{
+      await startaStrom();
+      if(!kam) return;   // stängd medan kameran startade
+      kam.enheter=(await navigator.mediaDevices.enumerateDevices()).filter(d=>d.kind==="videoinput");
+      const aktiv=kam.strom.getVideoTracks()[0]?.getSettings?.().deviceId;
+      kam.index=Math.max(0,kam.enheter.findIndex(d=>d.deviceId===aktiv));
+      el.querySelector('[data-k="byt"]').hidden=kam.enheter.length<2;
+      el.querySelector('[data-k="ta"]').disabled=false;
+      el.querySelector('[data-k="ta"]').focus();
+    }catch(e){
+      stangKamera();
+      S.fel=e&&e.name==="NotAllowedError"
+        ?"Kunde inte använda kameran eftersom åtkomst nekades. Tillåt kameran i webbläsaren eller välj en bild i stället."
+        :"Ingen kamera hittades. Välj en bild i stället.";
+      rita();
+    }
   }
 
   /* ---------------------------------------------------------------- server */
@@ -122,20 +189,31 @@
   function bildruta(src,etikett,mal,i){
     return `<div class="aif-bild"><img src="${src}" alt="${esc(etikett)}">
       <div class="aif-bildrad"><span>${esc(etikett)}</span><span>
+        <button type="button" onclick="kgAi.fota('${mal}',${i})">Fota om</button>
         <button type="button" onclick="kgAi.ersatt('${mal}',${i})">Byt</button>
         <button type="button" class="ta-bort" onclick="kgAi.taBort('${mal}',${i})" aria-label="Ta bort ${esc(etikett)}">Ta bort</button>
       </span></div></div>`;
+  }
+
+  // Uppladdningsyta: Ta foto (kameran) eller Välj bild (galleri/filer). Dra och släpp fungerar på dator.
+  function uppladdning(mal,rubrik,tips){
+    return `<div class="aif-uppladd" data-mal="${mal}"${mal==="losning"&&S.losning.length?' style="margin-top:10px"':""}>
+      ${KAMERA}<b>${esc(rubrik)}</b><span>${esc(tips)}</span>
+      <span class="aif-uppladd-knappar">
+        <button type="button" class="btn primary" onclick="kgAi.fota('${mal}')">Ta foto</button>
+        <button type="button" class="btn soft" onclick="kgAi.valj('${mal}')">Välj bild</button>
+      </span></div>`;
   }
 
   function stegHtml(){
     const st=S.status, lasa=S.laddar;
     const uppgift=S.uppgiftLage==="bild"
       ? (S.uppgiftBild?`<div class="aif-bilder">${bildruta(S.uppgiftBild,"Uppgiften","uppgift",0)}</div>`
-        :`<button type="button" class="aif-uppladd" onclick="kgAi.valj('uppgift')">${KAMERA}<b>Fotografera eller ladda upp uppgiften</b><span>En bild av uppgiften ur boken, bladet eller provet</span></button>`)
+        :uppladdning("uppgift","Fotografera uppgiften","En bild av uppgiften ur boken, bladet eller provet"))
       : `<textarea id="aif-uppgifttext" maxlength="${MAX_TEXT}" placeholder="Skriv eller klistra in uppgiften här" oninput="kgAi.text(this.value)">${esc(S.uppgiftText)}</textarea>
          <div class="aif-raknare">${S.uppgiftText.length}/${MAX_TEXT}</div>`;
     const losning=`${S.losning.length?`<div class="aif-bilder">${S.losning.map((b,i)=>bildruta(b,`Sida ${i+1}`,"losning",i)).join("")}</div>`:""}
-      ${S.losning.length<MAX_LOSNING?`<button type="button" class="aif-uppladd" style="margin-top:10px" onclick="kgAi.valj('losning')">${KAMERA}<b>${S.losning.length?"Lägg till en sida till":"Fotografera eller ladda upp din lösning"}</b><span>Högst ${MAX_LOSNING} bilder, i ordning. Fota rakt ovanifrån i bra ljus.</span></button>`:""}`;
+      ${S.losning.length<MAX_LOSNING?uppladdning("losning",S.losning.length?"Lägg till en sida till":"Fotografera din lösning",`Högst ${MAX_LOSNING} bilder, i ordning. Fota rakt ovanifrån i bra ljus.`):""}`;
     const kvar=st&&st.kvar_idag!=null?`Du har ${st.kvar_idag} av ${st.per_dag} granskningar kvar i dag.`:"";
     return `
     <section class="aif-steg"><h2><span class="nr">1</span>Visa uppgiften</h2>
@@ -210,7 +288,7 @@
     renderMath(app);
     // Dra och släpp bilder på uppladdningsytorna (dator).
     app.querySelectorAll(".aif-uppladd").forEach(el=>{
-      const mal=el.getAttribute("onclick").includes("'uppgift'")?"uppgift":"losning";
+      const mal=el.dataset.mal;
       el.addEventListener("dragover",e=>{ e.preventDefault(); el.style.borderColor="var(--acc)"; });
       el.addEventListener("dragleave",()=>{ el.style.borderColor=""; });
       el.addEventListener("drop",e=>{ e.preventDefault(); el.style.borderColor="";
@@ -294,13 +372,14 @@
     if(!MOLN_PA()) return "";
     return `<button type="button" class="aif-hemkort" onclick="kgAi.oppna()">
       <span class="aif-ikon">${KAMERA}</span>
-      <span><b>Få feedback på din lösning</b><span class="aif-sub">Fota en uppgift och din lösning – få hjälp att hitta felet själv.</span></span>
+      <span><b>Få feedback på din lösning</b><span class="aif-sub">Fota en uppgift och din lösning – få återkoppling som när en lärare rättar.</span></span>
       <span class="aif-pil" aria-hidden="true">→</span></button>`;
   }
 
   window.kgAi={
     oppna, hemkort, admin, sparaAdmin, granska, fraga, _fokusText:false,
     valj:(mal)=>valjFil(mal,mal==="losning"),
+    fota:(mal,i)=>fota(mal,mal==="losning"&&i!=null?i:null),
     ersatt:(mal,i)=>valjFil(mal,false,mal==="losning"?i:null),
     taBort:(mal,i)=>{ if(mal==="uppgift") S.uppgiftBild=null; else S.losning.splice(i,1); rita(); },
     lage:(l)=>{ S.uppgiftLage=l; S.fel=""; rita(); },

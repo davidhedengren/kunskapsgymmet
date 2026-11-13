@@ -29,3 +29,11 @@ områdeskorten.
 `tools/genomgangar-kort-2026-11-13.browser.cjs` testar Fy1 i dator, mobil och ljust tema. Kunskapsgymmets
 övriga testfiler (`tools/*.test.js`) ger samma resultat som före ändringen. Tio filer var röda redan före
 ändringen och berörs inte.
+
+## Ändring samma dag: bara boksymbol på områdeskorten
+
+Användaren ville ha renare kort. Områdeskortet visar nu bara en boksymbol (34 × 34 px, samma storlek som
+punktträningsknappen, placerad före den) i stället för texten ”3 genomgångar” eller ”2/5 genomgångar lästa”.
+Symbolen har accentfärg och blir guldfärgad när områdets genomgångar är lästa. Antalet lästa står i `title`
+och `aria-label`, till exempel ”Genomgångar i Densitet · 2 av 5 lästa”. Framsteget för hela kapitlet syns på
+genomgångskortet högst upp. Testet kontrollerar att symbolen inte har någon synlig text.

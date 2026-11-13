@@ -1,5 +1,5 @@
 /* Genomgångarna i kursvyn (2026-11-13, alternativ C): ett eget kort först i varje öppet kapitel och en
-   länk på varje områdeskort som har genomgångar. Kör mot en lokal server i repots rot
+   boksymbol på varje områdeskort som har genomgångar (bara symbol sedan 2026-11-13). Kör mot en lokal server i repots rot
    (python3 -m http.server 8027). Ingen inloggning och ingen skrivning till Supabase.
    Kontrollerar: kortet ligger först i kapitlet och inte i kapitelraden, länkarna visar rätt antal,
    länken öppnar områdets genomgångar utan att starta träningen, läsningen uppdaterar kvot, stapel och
@@ -21,9 +21,10 @@ async function sida(b,w,h,tema){
  // Funktion
  const {p,fel}=await sida(b,1280,1000);
  const kap=await p.evaluate(()=>({rad:!!document.querySelector('.chapter-row .kap-kunskap'),kort:document.querySelectorAll('.chapter.open .area-grid > .kap-kunskap').length,
-   forst:document.querySelector('.chapter.open .area-grid').firstElementChild.className,chips:[...document.querySelectorAll('.chapter.open .omr-gg')].map(c=>c.textContent.trim())}));
+   forst:document.querySelector('.chapter.open .area-grid').firstElementChild.className,chips:[...document.querySelectorAll('.chapter.open .omr-gg')].map(c=>c.getAttribute('aria-label'))}));
  assert.equal(kap.rad,false,'ingen knapp kvar i kapitelraden');assert.equal(kap.kort,1);assert.match(kap.forst,/kap-kunskap/);
- assert.deepEqual(kap.chips,['3 genomgångar','2 genomgångar','5 genomgångar','6 genomgångar']);
+ assert.deepEqual(kap.chips.map(c=>c.match(/(\d+) av (\d+) lästa/).slice(1).join('/')),['0/3','0/2','0/5','0/6']);
+ assert.equal(await p.evaluate(()=>document.querySelector('.chapter.open .omr-gg').textContent.trim()),'','bara boksymbol, ingen text');
  // Klick på länken öppnar områdets genomgång och startar inte träningen
  await p.click('.chapter.open .area:nth-of-type(1) .omr-gg');await p.waitForTimeout(300);
  const efter=await p.evaluate(()=>({modal:!!document.getElementById('kunskapsruta'),kort:state.kunskap?.kortNyckel,steg:state.kunskap?.steg.length,vy:state.view}));
@@ -34,11 +35,11 @@ async function sida(b,w,h,tema){
  await p.evaluate(()=>{const kort=getCards().find(k=>k.name==='Densitet');const st=kunskapSteg(kort.kap,kort.key);
    profile.genomgangar ||= {};st.slice(0,2).forEach(x=>profile.genomgangar[ggNyckel(x.familj)]=Date.now());uppdateraKunskapsindikator(kort.kap);});
  const upp=await p.evaluate(()=>({kvot:document.querySelector('.chapter.open .kap-kunskap .kvot').textContent,bar:document.querySelector('.chapter.open .gg-bar i').style.getPropertyValue('--p'),
-   chips:[...document.querySelectorAll('.chapter.open .omr-gg')].map(c=>c.textContent.trim())}));
- assert.equal(upp.kvot,'2/16');assert.equal(upp.bar,'13%');assert.equal(upp.chips[2],'2/5 genomgångar lästa');
+   chips:[...document.querySelectorAll('.chapter.open .omr-gg')].map(c=>c.getAttribute('aria-label'))}));
+ assert.equal(upp.kvot,'2/16');assert.equal(upp.bar,'13%');assert.match(upp.chips[2],/2 av 5 lästa/);
  // Läs alla i Måttenheter: guld
  await p.evaluate(()=>{const kort=getCards().find(k=>k.name==='Måttenheter och prefix');kunskapSteg(kort.kap,kort.key).forEach(x=>profile.genomgangar[ggNyckel(x.familj)]=Date.now());uppdateraKunskapsindikator(kort.kap);});
- assert.equal(await p.evaluate(()=>document.querySelector('.chapter.open .omr-gg.klar')?.textContent.trim()),'Genomgångarna lästa');
+ assert.match(await p.evaluate(()=>document.querySelector('.chapter.open .omr-gg.klar')?.getAttribute('aria-label')),/Måttenheter och prefix · 3 av 3 lästa/);
  // Klick på kapitelkortet öppnar hela kapitlets genomgångar
  await p.click('.chapter.open .kap-kunskap');await p.waitForTimeout(300);
  assert.equal(await p.evaluate(()=>state.kunskap?.steg.length),16);await p.evaluate(()=>stangKunskap());

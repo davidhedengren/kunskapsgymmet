@@ -641,7 +641,7 @@ window.TYPUPPGIFTER_FY1 = {
       {
         "rubrik": "Läs av varje krafts komposanter",
         "text": "Räkna rutor från startpunkten. Åt vänster och nedåt får minustecken.",
-        "matte": "\\[\\begin{aligned}&F_1=(30;\\ 20)\\ \\mathrm N\\\\&F_2=(-10;\\ 20)\\ \\mathrm N\\\\&F_3=(0;\\ -30)\\ \\mathrm N\\end{aligned}\\]"
+        "matte": "\\[\\begin{aligned}&F_1=(30,\\,20)\\ \\mathrm N\\\\&F_2=(-10,\\,20)\\ \\mathrm N\\\\&F_3=(0,\\,-30)\\ \\mathrm N\\end{aligned}\\]"
       },
       {
         "rubrik": "Addera x-komposanterna och y-komposanterna var för sig",

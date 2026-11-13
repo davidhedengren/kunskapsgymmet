@@ -65,7 +65,10 @@
 
   /* Ta foto: på mobil/surfplatta öppnas telefonens egen kamera (bäst bildkvalitet). På dator
      öppnas webbkameran i en ruta på sidan. Saknas kamera eller nekas åtkomst visas ett meddelande. */
-  const pekskarm=()=>window.matchMedia?.("(pointer:coarse)").matches;
+  /* Telefonens egen kamera används bara på mobiler och surfplattor. En dator med pekskärm
+     (vanligt på skoldatorer) räknas som dator och får webbkameran i en ruta. */
+  const pekskarm=()=>/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent||"")
+    || (/Macintosh/.test(navigator.userAgent||"") && navigator.maxTouchPoints>1);
   function fota(mal,ersattIndex){
     if(pekskarm() || !navigator.mediaDevices?.getUserMedia) return valjFil(mal,false,ersattIndex,true);
     kameraruta(mal,ersattIndex);
@@ -282,7 +285,7 @@
     let kropp;
     if(!MOLN_PA()) kropp=`<div class="aif-ruta info">AI-feedback finns bara i den inloggade versionen av Kunskapsgymmet.</div>`;
     else if(!session) kropp=`<div class="aif-ruta info"><b>Logga in för att få AI-feedback.</b><br>Du kan fortsätta träna i Kunskapsgymmet utan konto, men AI-granskningen kräver inloggning.</div>
-      <div class="aif-knapprad"><button type="button" class="btn primary" onclick="loggaIn()">Logga in</button></div>`;
+      <div class="aif-knapprad"><button type="button" class="btn primary" onclick="kgAi.stang();loggaIn()">Logga in</button></div>`;
     else if(S.statusFel) kropp=`<div class="aif-ruta fel">AI-feedback kunde inte nås just nu. Försök igen senare.</div>`;
     else if(!st) kropp=`<div class="aif-laddar"><span class="aif-snurra"></span>Laddar …</div>`;
     else if(!st.aktiv) kropp=`<div class="aif-ruta info">AI-feedback är inte påslagen ännu. Den öppnas när skolan har godkänt funktionen.</div>`;
@@ -455,7 +458,7 @@
       if(fran){ S.fran=fran; S.uppgiftLage="text"; S.uppgiftText=fran.text; }
       rita(); (ov||window).scrollTo({top:0,behavior:"smooth"}); },
     oppnaForUppgift, stang:stangOverlay,
-    knapp:()=>(typeof MOLN_PA==="function"&&MOLN_PA()&&session)
+    knapp:()=>(typeof MOLN_PA==="function"&&MOLN_PA())
       ?`<button type="button" class="btn aif-traningsknapp" onclick="kgAi.oppnaForUppgift()">${KAMERA.replace('width="26" height="26"','width="18" height="18"')} Få feedback på din lösning</button>`:"",
     rita, _state:()=>S, _laggTill:laggTillBilder,
   };

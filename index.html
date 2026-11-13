@@ -3621,7 +3621,7 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 .kurs-tidigare{display:block;margin-top:6px;font-size:16px;font-weight:500;line-height:1.4;letter-spacing:normal;}
 </style>
 <link rel="stylesheet" href="uppdragsbok.css?v=2026-10-14-progress">
-<link rel="stylesheet" href="ai-feedback.css?v=2026-11-13b">
+<link rel="stylesheet" href="ai-feedback.css?v=2026-11-13c">
 </head>
 
 <body>
@@ -15501,6 +15501,7 @@ function finishAttempt(resultat){
         ${(state.hintUsed && !state.noXp)?`<span class="xplapp">halverat · ledtråd</span>`:""}
         ${(arbetsfaktor(t)>1 && ratt>0 && !state.noXp)?`<span class="xplapp">extra XP för arbetsinsats</span>`:""}
       </div>
+      ${window.kgAi&&kgAi.knapp?`<div class="aif-traningsrad">${kgAi.knapp()}</div>`:""}
       ${delNasta?.extra?`<div class="kedja-extra">
         <span class="obs-svarare">OBS! Svårare nivå</span>
         <span>Nästa del, ${esc(delNasta.etikett)}), är svårare än din nuvarande nivå. Den är frivillig.</span>
@@ -19489,7 +19490,7 @@ function kvRita(snabb){
 }
 </script>
 <script src="admin-statistik.js?v=2026-10-11-analys"></script>
-<script src="ai-feedback.js?v=2026-11-13b"></script>
+<script src="ai-feedback.js?v=2026-11-13c"></script>
 <script src="onskemal.js?v=2026-10-13"></script>
 </body>
 </html>

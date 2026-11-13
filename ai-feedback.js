@@ -12,7 +12,7 @@
   const FELTYPNAMN={metodfel:"Metodfel",raknefel:"Räknefel",teckenfel:"Teckenfel",enhetsfel:"Enhetsfel",missuppfattning:"Missuppfattning",ofullstandigt:"Ofullständigt",inget:""};
   const FORSLAG=["Varför är det steget fel?","Kan du förklara det enklare?","Hur ska redovisningen se ut för full poäng?"];
 
-  const tom=()=>({uppgiftLage:"bild",uppgiftBild:null,uppgiftText:"",losning:[],laddar:false,fel:"",resultat:null,
+  const tom=()=>({fran:null,uppgiftLage:"bild",uppgiftBild:null,uppgiftText:"",losning:[],laddar:false,fel:"",resultat:null,
     granskningId:null,samtal:[],foljdKvar:0,fragar:false,status:null,statusFel:false});
   let S=tom();
 
@@ -215,12 +215,16 @@
     const losning=`${S.losning.length?`<div class="aif-bilder">${S.losning.map((b,i)=>bildruta(b,`Sida ${i+1}`,"losning",i)).join("")}</div>`:""}
       ${S.losning.length<MAX_LOSNING?uppladdning("losning",S.losning.length?"Lägg till en sida till":"Fotografera din lösning",`Högst ${MAX_LOSNING} bilder, i ordning. Fota rakt ovanifrån i bra ljus.`):""}`;
     const kvar=st&&st.kvar_idag!=null?`Du har ${st.kvar_idag} av ${st.per_dag} granskningar kvar i dag.`:"";
-    return `
-    <section class="aif-steg"><h2><span class="nr">1</span>Visa uppgiften</h2>
+    const steg1=S.fran
+      ? `<section class="aif-steg"><h2><span class="nr">1</span>Uppgiften</h2>
+          <div class="aif-franuppgift">${S.fran.html}</div>
+          ${S.fran.figur?`<p class="aif-info">Uppgiften har en figur som inte skickas till AI:n. Skriv gärna in värdena från figuren i din lösning.</p>`:""}</section>`
+      : `<section class="aif-steg"><h2><span class="nr">1</span>Visa uppgiften</h2>
       <div class="aif-val" role="group" aria-label="Hur vill du visa uppgiften?">
         <button type="button" class="btn sm" aria-pressed="${S.uppgiftLage==="bild"}" onclick="kgAi.lage('bild')">Bild</button>
         <button type="button" class="btn sm" aria-pressed="${S.uppgiftLage==="text"}" onclick="kgAi.lage('text')">Text</button>
-      </div>${uppgift}</section>
+      </div>${uppgift}</section>`;
+    return `${steg1}
     <section class="aif-steg"><h2><span class="nr">2</span>Visa din lösning</h2>${losning}</section>
     <section class="aif-steg"><h2><span class="nr">3</span>Få feedback</h2>
       ${lasa?`<div class="aif-laddar" role="status" aria-live="polite"><span class="aif-snurra" aria-hidden="true"></span><div><b>AI:n läser din lösning …</b><br><span class="aif-info">Det brukar ta 15–60 sekunder.</span></div></div>`
@@ -268,7 +272,7 @@
   }
 
   function rita(){
-    if(state.view!=="aifeedback") return;
+    if(!ov && state.view!=="aifeedback") return;
     const st=S.status;
     let kropp;
     if(!MOLN_PA()) kropp=`<div class="aif-ruta info">AI-feedback finns bara i den inloggade versionen av Kunskapsgymmet.</div>`;
@@ -279,15 +283,23 @@
     else if(!st.aktiv) kropp=`<div class="aif-ruta info">AI-feedback är inte påslagen ännu. Den öppnas när skolan har godkänt funktionen.</div>`;
     else if(st.budget_slut && !S.resultat) kropp=`<div class="aif-ruta paus">${BUDGETTEXT}</div>`;
     else kropp=(S.resultat?"":stegHtml())+(S.fel?`<div class="aif-ruta fel" role="alert">${esc(S.fel)}</div>`:"")+resultatHtml();
-    const admin=typeof arAdmin!=="undefined"&&arAdmin?`<p class="aif-info"><button type="button" class="btn sm quiet" onclick="kgAi.admin()">Adminöversikt för AI-feedback</button></p>`:"";
-    app.innerHTML=topbar()+`<main class="shell view"><div class="aif">
-      <h1>Få feedback på din lösning</h1>
-      <p class="aif-ingress">Fotografera en uppgift och din egen lösning. Du får återkoppling som när en lärare rättar: vad som är rätt, var du tänkte fel och vad som saknas i redovisningen för full poäng.</p>
-      ${kropp}${admin}</div></main>`;
-    afterRender();
-    renderMath(app);
+    let rot;
+    if(ov){
+      // Ovanpå träningsuppgiften: eleven kommer tillbaka till samma uppgift när rutan stängs.
+      rot=ov.querySelector(".aif-ov-kropp");
+      rot.innerHTML=`<div class="aif">${kropp}</div>`;
+    }else{
+      const admin=typeof arAdmin!=="undefined"&&arAdmin?`<p class="aif-info"><button type="button" class="btn sm quiet" onclick="kgAi.admin()">Adminöversikt för AI-feedback</button></p>`:"";
+      app.innerHTML=topbar()+`<main class="shell view"><div class="aif">
+        <h1>Få feedback på din lösning</h1>
+        <p class="aif-ingress">Fotografera en uppgift och din egen lösning. Du får återkoppling som när en lärare rättar: vad som är rätt, var du tänkte fel och vad som saknas i redovisningen för full poäng.</p>
+        ${kropp}${admin}</div></main>`;
+      afterRender();
+      rot=app;
+    }
+    renderMath(rot);
     // Dra och släpp bilder på uppladdningsytorna (dator).
-    app.querySelectorAll(".aif-uppladd").forEach(el=>{
+    rot.querySelectorAll(".aif-uppladd").forEach(el=>{
       const mal=el.dataset.mal;
       el.addEventListener("dragover",e=>{ e.preventDefault(); el.style.borderColor="var(--acc)"; });
       el.addEventListener("dragleave",()=>{ el.style.borderColor=""; });
@@ -299,7 +311,57 @@
     if(ta && kgAi._fokusText){ ta.focus(); ta.setSelectionRange(ta.value.length,ta.value.length); kgAi._fokusText=false; }
   }
 
+  /* ---------------------------------------------------------------- från en träningsuppgift
+     Uppgiftstexten hämtas från den visade uppgiften. KaTeX ersätts med sin LaTeX-källa så att
+     AI:n får exakt uppgift; figurer (SVG/bilder) skickas inte. */
+  let ov=null;
+  function uppgiftFranSidan(){
+    const kalla=document.querySelector(".task .tbody");
+    if(!kalla) return null;
+    const k=kalla.cloneNode(true);
+    k.querySelectorAll(".kedja-extra,button,.kedja-sammanhang").forEach(x=>x.remove());
+    const html=k.innerHTML;
+    const figur=!!k.querySelector("svg:not(.katex svg),img,canvas");
+    k.querySelectorAll(".katex-display,.katex").forEach(x=>{
+      if(!x.isConnected && !k.contains(x)) return;
+      const tex=x.querySelector('annotation[encoding="application/x-tex"]')?.textContent;
+      const disp=x.classList.contains("katex-display");
+      x.replaceWith(document.createTextNode(tex!=null?(disp?`\\[${tex}\\]`:`\\(${tex}\\)`):x.textContent));
+    });
+    k.querySelectorAll("svg,img,canvas,style,script").forEach(x=>x.remove());
+    k.querySelectorAll("br,p,div,li,tr,h1,h2,h3,h4").forEach(x=>x.after(document.createTextNode("\n")));
+    const text=k.textContent.replace(/[ \t ]+/g," ").replace(/\n\s*\n+/g,"\n").trim().slice(0,MAX_TEXT);
+    return text?{text,html,figur}:null;
+  }
+  async function oppnaForUppgift(){
+    const u=uppgiftFranSidan();
+    if(!u){ toast("Uppgiften kunde inte läsas."); return; }
+    stangOverlay();
+    S=tom(); S.uppgiftLage="text"; S.uppgiftText=u.text; S.fran=u;
+    ov=document.createElement("div");
+    ov.className="aif-overlay"; ov.setAttribute("role","dialog"); ov.setAttribute("aria-modal","true"); ov.setAttribute("aria-label","Få feedback på din lösning");
+    ov.innerHTML=`<div class="aif-ov-ruta"><div class="aif-ov-topp"><b>Få feedback på din lösning</b>
+      <button type="button" class="btn sm" onclick="kgAi.stang()">Tillbaka till uppgiften</button></div>
+      <p class="aif-ingress">Fotografera din lösning på papper. Du får återkoppling som när en lärare rättar: vad som är rätt, var du tänkte fel och vad som saknas för full poäng.</p>
+      <div class="aif-ov-kropp"></div></div>`;
+    document.body.appendChild(ov);
+    document.body.classList.add("aif-las");
+    ov.addEventListener("keydown",e=>{ if(e.key==="Escape" && !kam) stangOverlay(); });
+    rita();
+    ov.querySelector(".aif-ov-topp button").focus();
+    await status();
+    rita();
+  }
+  function stangOverlay(){
+    if(!ov) return;
+    stangKamera();
+    ov.remove(); ov=null; document.body.classList.remove("aif-las");
+    S=tom();
+    document.getElementById("kollaknapp")?.focus({preventScroll:true});
+  }
+
   async function oppna(record=true){
+    stangOverlay();
     state.view="aifeedback"; document.title="Få feedback på din lösning · Kunskapsgymmet";
     if(record) navRecord("aifeedback");
     rita();
@@ -384,7 +446,12 @@
     taBort:(mal,i)=>{ if(mal==="uppgift") S.uppgiftBild=null; else S.losning.splice(i,1); rita(); },
     lage:(l)=>{ S.uppgiftLage=l; S.fel=""; rita(); },
     text:(t)=>{ S.uppgiftText=String(t).slice(0,MAX_TEXT); const r=document.querySelector(".aif-raknare"); if(r) r.textContent=`${S.uppgiftText.length}/${MAX_TEXT}`; },
-    nytt:()=>{ const st=S.status; S=tom(); S.status=st; rita(); window.scrollTo({top:0,behavior:"smooth"}); },
+    nytt:()=>{ const st=S.status, fran=S.fran; S=tom(); S.status=st;
+      if(fran){ S.fran=fran; S.uppgiftLage="text"; S.uppgiftText=fran.text; }
+      rita(); (ov||window).scrollTo({top:0,behavior:"smooth"}); },
+    oppnaForUppgift, stang:stangOverlay,
+    knapp:()=>(typeof MOLN_PA==="function"&&MOLN_PA()&&session)
+      ?`<button type="button" class="btn aif-traningsknapp" onclick="kgAi.oppnaForUppgift()">${KAMERA.replace('width="26" height="26"','width="18" height="18"')} Få feedback på din lösning</button>`:"",
     rita, _state:()=>S, _laggTill:laggTillBilder,
   };
 })();

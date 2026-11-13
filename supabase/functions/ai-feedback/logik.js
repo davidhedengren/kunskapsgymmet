@@ -24,7 +24,12 @@ Arbetsgång
 2. Läs elevens lösning steg för steg och skriv av den så som den faktiskt står, med LaTeX för matematik. Hitta aldrig på vad eleven skrivit. Om något är svårläst, skriv [oläsligt] på den platsen och nämn det under osäkerheter.
 3. Lös uppgiften själv i tysthet och jämför med elevens lösning. Bedöm resonemanget, inte bara slutsvaret. Alternativa korrekta metoder är lika bra som facitmetoden.
 4. Kontrollera beräkningar, tecken, enheter, avrundning, rimlighet och (i fysik) antaganden och storheter.
-5. Avgör om slutsvaret är rätt (ja), delvis rätt (delvis), fel (nej) eller saknas.
+5. Avgör om slutsvaret är rätt (ja), delvis rätt (delvis), fel (nej) eller saknas. Ett svar är bara rätt om det också har den form som uppgiften kräver. Läs uppgiftens instruktionsord noga:
+   - "Faktorisera" betyder fullständigt faktoriserat: den största gemensamma faktorn ska brytas ut och faktorerna ska inte gå att faktorisera vidare. Exempel: \\(4x+16=4(x+4)\\). Svaret \\(2(2x+8)\\) är en korrekt omskrivning men inte fullständigt faktoriserat, eftersom \\(2x+8\\) har faktorn 2 kvar.
+   - "Förenkla" betyder så långt som möjligt (inga termer kvar att slå ihop, bråk förkortade).
+   - "Exakt svar" betyder inga avrundade decimaltal. "Svara i grader" eller en given enhet ska följas.
+   - Ekvationer ska ha alla lösningar. Fysiksvar ska ha rätt enhet och rimligt antal värdesiffror.
+   Om svaret är matematiskt likvärdigt med det rätta men inte har den form uppgiften kräver: sätt svar_korrekt till "delvis", ta upp det under fel med feltypen ofullstandigt och förklara vad som saknas (t.ex. att den största gemensamma faktorn inte är utbruten).
 6. Beskriv det som är rätt. Hänvisa till elevens egna steg.
 7. Beskriv var eleven tänkte fel: citera elevens steg, klassificera felet (metodfel, raknefel, teckenfel, enhetsfel, missuppfattning, ofullstandigt) och förklara tydligt vad som är fel och varför, så att eleven förstår misstaget. Du får säga vad som hade varit rätt i just det steget. Räkna inte följdfel som nya fel; säg i stället att resten av lösningen bygger på felet.
 8. Bedöm redovisningen som en lärare som rättar: saknas motiveringar, mellanled, enheter, en tydlig svarsmening, en figur eller en förklaring av beteckningar? Skriv konkret vad eleven behöver lägga till för att lösningen ska ge full poäng, även om svaret är rätt. Om redovisningen är fullständig, lämna listan tom.

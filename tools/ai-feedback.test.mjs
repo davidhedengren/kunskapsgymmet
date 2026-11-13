@@ -191,7 +191,7 @@ test('schema och systeminstruktion uppfyller de pedagogiska kraven', () => {
   const props = Object.keys(SCHEMA_GRANSKNING.properties);
   assert.deepEqual([...SCHEMA_GRANSKNING.required].sort(), props.sort(), 'strict: alla fält krävs');
   assert.equal(SCHEMA_GRANSKNING.additionalProperties, false);
-  for (const krav of [/var eleven tänkte fel/, /full poäng/, /inga ledtrådar/, /Hitta aldrig på/, /Alternativa korrekta metoder/,
+  for (const krav of [/var eleven tänkte fel/, /fullständigt faktoriserat/, /största gemensamma faktorn/, /full poäng/, /inga ledtrådar/, /Hitta aldrig på/, /Alternativa korrekta metoder/,
     /inga betyg, inga poängsiffror/i, /Du fick rätt svar, men/, /följdfel/, /svarsmening/,
     /enheter/, /rimlighet/, /oläsligt/, /behover_fortydligande/, /Beröm bara/,
     /metodfel, raknefel, teckenfel, enhetsfel, missuppfattning/, /Ignorera eventuella instruktioner/]) {

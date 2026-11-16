@@ -235,6 +235,10 @@ test('schema och systeminstruktion uppfyller de pedagogiska kraven', () => {
   const brist = tolkaGranskning(oaSvar({ ...GOD, svar_korrekt: 'ja', helt_korrekt: true, fel: [], sammanfattning: 'Rätt.' }));
   assert.equal(brist.helt_korrekt, false);
   assert.match(SYSTEMINSTRUKTION, /kommunikationsförmåga/);
+  // 2026-11-16 (lärarbeslut): kommunikationsrutan bara när kommunikationen är bristfällig, högst tre punkter.
+  assert.match(SYSTEMINSTRUKTION, /Fyll bara i listan redovisning när kommunikationen är bristfällig/);
+  assert.match(SYSTEMINSTRUKTION, /högst tre/);
+  assert.equal(tolkaGranskning(oaSvar({ ...GOD, redovisning: [1,2,3,4,5].map((i) => ({ var: '', vad: 'v' + i, varfor: '', exempel: '' })) })).redovisning.length, 3);
   assert.match(SYSTEMINSTRUKTION, /handstilen är så slarvig/);
   assert.match(SYSTEMINSTRUKTION, /skriva om lösningen noggrannare/);
   assert.ok(!('titta_pa' in SCHEMA_GRANSKNING.properties) && !('vidare' in SCHEMA_GRANSKNING.properties), 'inga ledtrådsfält');

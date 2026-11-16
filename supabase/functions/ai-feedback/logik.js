@@ -37,16 +37,16 @@ Arbetsgång
    - Förklara vad eleven gjorde, varför det inte stämmer och vad som hade varit rätt i just det steget. Säg gärna uttryckligen vilka av elevens tidigare steg som fortfarande är korrekta (till exempel "din avståndsformel är rätt").
    - Om felet gör att resten av lösningen går åt fel håll (fel metod, fel antagande eller en missuppfattning): visa hur eleven ska tänka i stället och skriv ut de viktigaste stegen från felet fram till rätt svar, med formler på egna rader i LaTeX. Bygg vidare på elevens egna korrekta steg och beteckningar. Vid ett enstaka räkne- eller teckenfel räcker det att visa det rätta steget och säga vad det leder till.
    - Skriv regeln eller begreppet bakom felet som en kort, allmän mening eleven kan bära med sig till nästa uppgift (fältet regel). Exempel: "När en term flyttas till andra ledet byter den tecken." eller "Kraft och acceleration har samma riktning, så tecknet på kraften bestämmer tecknet på accelerationen." Om felet är en ren slarvräkning: skriv en kort kontrollvana i stället, till exempel "Sätt in svaret i ursprungsekvationen och kontrollera."
-8. Bedöm kommunikationen noggrant, som en lärare som rättar ett prov. Eleven ska träna sin kommunikationsförmåga: en lösning ska kunna följas av någon annan utan att hen behöver gissa eller fråga. Gå igenom lösningen steg för steg och leta efter:
+8. Bedöm kommunikationen, som en lärare som rättar ett prov. Eleven ska träna sin kommunikationsförmåga: en lösning ska kunna följas av någon annan utan att hen behöver gissa eller fråga. Fyll bara i listan redovisning när kommunikationen är bristfällig, alltså när en läsare inte kan följa lösningen eller en lärare skulle dra av poäng för redovisningen: motiveringar saknas för avgörande steg, lösningen är en lös samling uträkningar, beteckningar är oförklarade eller likhetstecken och enheter används slarvigt. Om lösningen i stort går att följa ska listan vara tom, även om småsaker kunde ha skrivits bättre; ta inte upp detaljer som ett ensamt saknat ord "Svar" när svaret ändå syns tydligt, en enstaka enhet i ett mellanled eller en motivering som är självklar på kursens nivå. Gå igenom lösningen steg för steg och leta efter:
    - steg som saknar motivering: varför eleven väljer en viss metod, formel eller regel (till exempel "eftersom farten är konstant är kraftsumman noll"), eller varför en slutsats följer;
    - mellanled som hoppats över så att läsaren inte kan följa räkningen;
    - beteckningar som inte är införda eller förklarade (vad x, t eller F står för), och en figur eller skiss när situationen kräver det;
    - fel användning av matematiskt språk, till exempel likhetstecken mellan sådant som inte är lika, saknade eller felaktiga implikationspilar, eller enheter som saknas i mellanled och slutsvar;
    - en tydlig svarsmening med enhet och rimlig avrundning, och vid behov en kommentar om rimlighet eller tolkning (till exempel varför en negativ rot inte gäller).
-   För varje brist: ange var i lösningen den finns (citera eller beskriv steget), vad eleven ska lägga till, varför en läsare behöver det, och ett kort exempel på hur en sådan motivering eller mening kan formuleras. Exemplet ska visa formuleringen, inte lösa uppgiften åt eleven eller avslöja ett svar eleven inte själv har kommit fram till. Gör detta även när svaret är rätt; en lösning med rätt svar men bristande motivering är inte fullständig och ger inte full poäng. Ta upp de viktigaste bristerna först (högst sex). Om kommunikationen är fullständig, lämna listan tom och säg i stället under rätt vad som gör redovisningen tydlig.
-9. Skriv en kort sammanfattning, en till två meningar, direkt till eleven. Nämn både det matematiska och kommunikationen. Exempel: "Du fick rätt svar, men du behöver förklara hur du kom fram till ekvationen." eller "Du har valt rätt metod, men du tänkte fel när du flyttade över termen, så svaret blev fel."
+   För varje brist: ange var i lösningen den finns (citera eller beskriv steget), vad eleven ska lägga till, varför en läsare behöver det, och ett kort exempel på hur en sådan motivering eller mening kan formuleras. Exemplet ska visa formuleringen, inte lösa uppgiften åt eleven eller avslöja ett svar eleven inte själv har kommit fram till. Gör detta även när svaret är rätt; en lösning med rätt svar men bristfällig kommunikation är inte fullständig och ger inte full poäng. Ta bara upp de viktigaste bristerna (högst tre), så att eleven läser och tar till sig dem. Om kommunikationen är tillräckligt tydlig, lämna listan tom.
+9. Skriv en kort sammanfattning, en till två meningar, direkt till eleven. Nämn kommunikationen bara om den är bristfällig. Exempel: "Du fick rätt svar, men du behöver förklara hur du kom fram till ekvationen." eller "Du har valt rätt metod, men du tänkte fel när du flyttade över termen, så svaret blev fel."
 
-Om hela lösningen är korrekt och fullständigt redovisad: säg det tydligt och förklara kort varför metoden fungerar. Sätt helt_korrekt till true och lämna fel och redovisning tomma. helt_korrekt får bara vara true när redovisning är tom.
+Om hela lösningen är korrekt och kommunikationen tillräckligt tydlig: säg det tydligt och förklara kort varför metoden fungerar. Sätt helt_korrekt till true och lämna fel och redovisning tomma. helt_korrekt får bara vara true när redovisning är tom.
 
 Om uppgiften eller lösningen inte går att tolka (bilden är för suddig, lösningen saknas, bilden visar något annat än matematik eller fysik): sätt status till "behover_fortydligande", förklara vad som saknas i fortydligande_fraga och gissa inte.
 
@@ -102,6 +102,7 @@ export const SCHEMA_GRANSKNING = {
     },
     redovisning: {
       type: 'array',
+      description: 'Bara när kommunikationen är bristfällig (högst tre punkter). Tom om lösningen går att följa.',
       items: {
         type: 'object', additionalProperties: false, required: ['var', 'vad', 'varfor', 'exempel'],
         properties: {
@@ -270,7 +271,7 @@ export function tolkaGranskning(svar) {
     .slice(0, 5).map((x) => ({ steg: kort(x.steg, 500), feltyp: x.feltyp, forklaring: kort(x.forklaring, 3000), regel: kort(arStrang(x.regel) ? x.regel.trim() : '', 400) }));
   // Redovisning: objekt {var, vad, varfor, exempel} sedan 2026-11-16 (kommunikationsförmåga); äldre svar var strängar.
   const redovisning = o.redovisning.map((r) => (arStrang(r) ? { var: '', vad: r, varfor: '', exempel: '' } : r))
-    .filter((r) => r && arStrang(r.vad) && r.vad.trim()).slice(0, 6)
+    .filter((r) => r && arStrang(r.vad) && r.vad.trim()).slice(0, 3)
     .map((r) => ({ var: kort(arStrang(r.var) ? r.var : '', 400), vad: kort(r.vad, 600), varfor: kort(arStrang(r.varfor) ? r.varfor : '', 600), exempel: kort(arStrang(r.exempel) ? r.exempel : '', 600) }));
   const granskad = o.status === 'granskad';
   // Motsägelser: kallas helt korrekt men har fel, eller fel svar utan att något fel pekas ut.

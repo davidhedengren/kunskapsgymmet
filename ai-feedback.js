@@ -519,10 +519,6 @@
         <span class="aif-steg-citat">${txt("\\(3(x-2)=3x-2\\)")}</span>
         ${txt("Talet 3 ska multipliceras med båda termerna i parentesen. Då fortsätter lösningen så här:\n\\[3x-6=2x+5\\]\\[x=11\\]")}
         <span class="aif-regel"><b>Kom ihåg:</b> ${txt("\\(a(b-c)=ab-ac\\)")}</span></div>
-      <div class="aif-del vidare"><h3>Träna din kommunikation</h3>
-        <span class="aif-steg-citat">${txt("Slutet av lösningen")}</span>
-        <span class="aif-redov-rad">Skriv en tydlig svarsmening och kontrollera svaret.</span>
-        <span class="aif-redov-rad"><b>Varför:</b> Läsaren ska direkt se vad du kommit fram till.</span></div>
     </div>`;
   }
 

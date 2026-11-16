@@ -254,3 +254,16 @@ test('ingen hemlig nyckel i klientkod eller repo, och övriga Kunskapsgymmet ber
   assert.match(html, /\$\{window\.kgAi\?kgAi\.hemkort\(\):""\}/);
   assert.match(html, /state\.view==="aifeedback" && window\.kgAi/);
 });
+
+test('nyhetsrutan visas en gång per elevkonto och bara när AI-feedback är påslagen (2026-11-16)', () => {
+  const html = fs.readFileSync(path.join(dir, '../index.html'), 'utf8');
+  const klient = fs.readFileSync(path.join(dir, '../ai-feedback.js'), 'utf8');
+  const f = html.slice(html.indexOf('async function visaNyhetAiFeedback'), html.indexOf('function stangNyhet'));
+  assert.match(f, /profile\.nyheter\?\.aiFeedback2026/);
+  assert.match(f, /await kgAi\.aktiv\(\)/);
+  assert.ok(f.indexOf('await kgAi.aktiv()') < f.indexOf('aiFeedback2026:Date.now()'), 'markeras som sedd först när funktionen är påslagen');
+  assert.match(f, /Nyhet i Kunskapsgymmet/);
+  assert.match(html, /!\(await visaNyhetKlasser\(\)\)\) visaNyhetAiFeedback\(\)/);
+  assert.match(klient, /exempelHtml,/);
+  assert.match(klient, /aktiv:async\(\)=>/);
+});

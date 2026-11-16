@@ -503,7 +503,33 @@
       <span class="aif-pil" aria-hidden="true">→</span></button>`;
   }
 
+  /* Påhittat exempel för nyhetsrutan (index.html, visaNyhetAiFeedback). Ingen AI anropas. */
+  function exempelHtml(){
+    const rader=["3(x − 2) = 2x + 5","3x − 2 = 2x + 5","3x − 2x = 5 + 2","x = 7"];
+    const losning=`<svg viewBox="0 0 320 168" role="img" aria-label="Exempel på en elevs handskrivna lösning i fyra rader" class="aif-nyhet-losning">
+      <rect x="0" y="0" width="320" height="168" rx="10" fill="#fbfaf3"/>
+      ${[38,78,118,158].map(y=>`<line x1="0" x2="320" y1="${y+4}" y2="${y+4}" stroke="#d6e4f1" stroke-width="1.2"/>`).join("")}
+      ${rader.map((r,i)=>`<text x="${22+(i%2)*3}" y="${32+i*40}" font-family="'Segoe Print','Bradley Hand','Comic Sans MS',cursive" font-size="21" fill="#1d2a6b">${esc(r)}</text>`).join("")}
+    </svg>`;
+    return `<div class="aif-nyhet-exempel">
+      <div class="aif-nyhet-rad"><span class="aif-nyhet-lbl">Exempel</span><span>Lös ekvationen ${txt("\\(3(x-2)=2x+5\\)")}</span></div>
+      ${losning}
+      <div class="aif-del titta"><h3>Här tänkte du fel</h3>
+        <span class="aif-feltyp">Missuppfattning</span>
+        <span class="aif-steg-citat">${txt("\\(3(x-2)=3x-2\\)")}</span>
+        ${txt("Talet 3 ska multipliceras med båda termerna i parentesen. Då fortsätter lösningen så här:\n\\[3x-6=2x+5\\]\\[x=11\\]")}
+        <span class="aif-regel"><b>Kom ihåg:</b> ${txt("\\(a(b-c)=ab-ac\\)")}</span></div>
+      <div class="aif-del vidare"><h3>Träna din kommunikation</h3>
+        <span class="aif-steg-citat">${txt("Slutet av lösningen")}</span>
+        <span class="aif-redov-rad">Skriv en tydlig svarsmening och kontrollera svaret.</span>
+        <span class="aif-redov-rad"><b>Varför:</b> Läsaren ska direkt se vad du kommit fram till.</span></div>
+    </div>`;
+  }
+
   window.kgAi={
+    exempelHtml,
+    /* true om AI-feedback är påslagen för den inloggade eleven (kg_ai_status). */
+    aktiv:async()=>{ if(!MOLN_PA() || !session) return false; await status(); return !!(S.status && S.status.aktiv); },
     oppna, hemkort, admin, sparaAdmin, granska, fraga, _fokusText:false,
     valj:(mal)=>valjFil(mal,mal==="losning"),
     fota:(mal,i)=>fota(mal,mal==="losning"&&i!=null?i:null),

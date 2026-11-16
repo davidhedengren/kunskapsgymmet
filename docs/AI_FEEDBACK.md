@@ -11,6 +11,8 @@ Eleven fotograferar en uppgift (eller skriver den som text) och sin egen handskr
 
 Ändrat 2026-11-16 (användarbeslut): återkopplingen ska vara pedagogisk och lärande. Eleven ska få veta *var* tanken gick fel utan att behöva fråga, och träna sin kommunikationsförmåga. Exempelbilder: `docs/ai-feedback-exempel.png` och `docs/ai-feedback-olaslig.png` (påhittade data, skapade utan AI-anrop).
 
+**Nyhetsruta (2026-11-16):** `visaNyhetAiFeedback()` i `index.html` visar ”Nyhet i Kunskapsgymmet: Få feedback på din lösning” en gång per elevkonto efter inloggning, med ett påhittat exempel (`kgAi.exempelHtml()`, inget AI-anrop) och knappen *Prova nu*. Rutan visas bara när `kg_ai_status` säger att funktionen är aktiv, och ”sett” sparas i `profile.nyheter.aiFeedback2026` först då. Den visas inte för lärare eller admin, och inte samma gång som klassnyheten. Bild: `docs/ai-feedback-nyhet.png`.
+
 **Efter ändringen behöver du:** köra `sql/2026-11-16-ai-feedback-foljdfragor.sql` och deploya funktionen igen, `supabase functions deploy ai-feedback`. Instruktionen och schemat ligger i Edge-funktionen.
 
 Efter Kontrollera i träningen finns knappen *Få feedback på din lösning*, som öppnar granskningen ovanpå uppgiften med uppgiftstexten ifylld. Första granskningen ger medaljen *Granskad*. Funktionen är fristående från uppgiftsbankerna.

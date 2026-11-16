@@ -3621,7 +3621,7 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 .kurs-tidigare{display:block;margin-top:6px;font-size:16px;font-weight:500;line-height:1.4;letter-spacing:normal;}
 </style>
 <link rel="stylesheet" href="uppdragsbok.css?v=2026-10-14-progress">
-<link rel="stylesheet" href="ai-feedback.css?v=2026-11-16a">
+<link rel="stylesheet" href="ai-feedback.css?v=2026-11-16b">
 </head>
 
 <body>
@@ -4553,6 +4553,46 @@ async function visaNyhetKlasser(){
   document.body.appendChild(el);
   el.addEventListener("click",e=>{ if(e.target===el) stangNyhet(); });
   requestAnimationFrame(()=>el.classList.add("visa"));
+  return true;
+}
+/* Nyhet 2026-11-16: "Få feedback på din lösning" (ai-feedback.js). Visas en gång per elevkonto,
+   men bara när AI-feedback är påslagen (kg_ai_status). Exemplet är påhittat och anropar ingen AI. */
+async function visaNyhetAiFeedback(){
+  if(!MOLN_PA() || !session || profile.nyheter?.aiFeedback2026 || !window.kgAi?.aktiv) return false;
+  if(!(await kgAi.aktiv())) return false;
+  if(document.querySelector(".modal.visa") || document.getElementById("nyhet")) return false;
+  profile.nyheter={...(profile.nyheter||{}),aiFeedback2026:Date.now()};
+  saveProfile();
+  const ikon=d=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+  const el=document.createElement("div");
+  el.className="modal"; el.id="nyhet";
+  el.innerHTML=`<div class="modal-kort nyhet-kort" role="dialog" aria-modal="true" aria-labelledby="nyhet-rubrik">
+      <div class="nyhet-topp">
+        <span class="nyhet-etikett">Nyhet i Kunskapsgymmet</span>
+        <button class="iconbtn" onclick="stangNyhet()" aria-label="Stäng">✕</button>
+      </div>
+      <h2 id="nyhet-rubrik">Få feedback på din lösning</h2>
+      <p class="nyhet-ingress">Fota en uppgift och din egen handskrivna lösning. Du får återkoppling som när en lärare rättar: vad som är rätt, var du tänkte fel och hur du kan motivera tydligare.</p>
+      ${kgAi.exempelHtml()}
+      <ul class="nyhet-lista">
+        <li><span class="nyhet-ikon">${ikon('<path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/>')}</span>
+          <span><b>Så hittar du den.</b> På startsidan finns knappen <i>Få feedback på din lösning</i>. I träningen finns den också under uppgiften efter att du tryckt på Kontrollera, med uppgiften redan ifylld.</span></li>
+        <li><span class="nyhet-ikon">${ikon('<path d="M4 5h16v10H9l-5 4z"/>')}</span>
+          <span><b>Fråga vidare.</b> Förstår du inte förklaringen kan du ställa följdfrågor, till exempel ”Hur ska jag motivera det steget?”.</span></li>
+        <li><span class="nyhet-ikon">${ikon('<path d="M4 19l4-1 10-10-3-3L5 15z"/><path d="M13 7l3 3"/>')}</span>
+          <span><b>Skriv tydligt.</b> AI:n läser din handstil. Skriv ett steg per rad och tydliga tecken, så blir återkopplingen bättre.</span></li>
+      </ul>
+      <div class="modal-fot">
+        <button class="btn quiet" onclick="stangNyhet()">Inte nu</button>
+        <span class="spacer"></span>
+        <button class="btn primary" onclick="stangNyhet();kgAi.oppna()">Prova nu</button>
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangNyhet(); });
+  renderMath(el);
+  requestAnimationFrame(()=>el.classList.add("visa"));
+  return true;
 }
 function stangNyhet(){
   const el=document.getElementById("nyhet"); if(!el) return;
@@ -16394,7 +16434,8 @@ window.addEventListener("load",async()=>{
     provAnslutVantande();
     setTimeout(async()=>{
       if(await visaRollval() || await visaSkolfraga()){ kravKlass(); return; }
-      if(!(await kravKlass()) && !arNagonLarare() && !arAdmin) visaNyhetKlasser();
+      // En nyhet per inloggning: klassnyheten först, AI-feedbacken vid nästa tillfälle.
+      if(!(await kravKlass()) && !arNagonLarare() && !arAdmin && !(await visaNyhetKlasser())) visaNyhetAiFeedback();
     },nyInloggning?1200:600);
   }
 
@@ -19516,7 +19557,7 @@ function kvRita(snabb){
 }
 </script>
 <script src="admin-statistik.js?v=2026-10-11-analys"></script>
-<script src="ai-feedback.js?v=2026-11-16a"></script>
+<script src="ai-feedback.js?v=2026-11-16b"></script>
 <script src="onskemal.js?v=2026-10-13"></script>
 </body>
 </html>

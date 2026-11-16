@@ -58,6 +58,12 @@
 .aif-redov-rad{display:block;margin-top:3px}
 .aif-redov-rad b{font-family:var(--ui);font-size:13px;color:var(--ink2)}
 .aif-exempel{display:block;margin-top:5px;padding:6px 10px;border-radius:8px;background:var(--accSoft);font-style:italic}
+.aif-nyhet-exempel{border:1px solid var(--hair);border-radius:16px;padding:12px;margin:0 0 16px;background:var(--surface2)}
+.aif-nyhet-exempel .aif-del{margin:10px 0 0;padding:10px 12px;font-size:14px;line-height:1.5}
+.aif-nyhet-exempel .aif-del h3{font-size:14px;margin-bottom:4px}
+.aif-nyhet-rad{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-family:var(--read);font-size:14px;color:var(--ink2);margin-bottom:8px}
+.aif-nyhet-lbl{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--ink3);border:1px solid var(--hair);border-radius:99px;padding:2px 8px}
+.aif-nyhet-losning{display:block;width:100%;max-width:360px;height:auto;border-radius:10px;border:1px solid var(--hair)}
 .aif-varning{font-size:14px;background:var(--goldSoft);border-radius:12px;padding:8px 12px;margin:10px 0}
 .aif details{margin:10px 0;border:1px solid var(--hair);border-radius:12px;padding:8px 12px;background:var(--surface)}
 .aif details summary{cursor:pointer;font-weight:600;color:var(--ink2)}

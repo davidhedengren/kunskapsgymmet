@@ -10,7 +10,7 @@
   const FUNKTION="/functions/v1/ai-feedback";
   const BUDGETTEXT="AI-feedback är tillfälligt pausad eftersom månadens budget är förbrukad. Funktionen blir tillgänglig igen nästa månad.";
   const FELTYPNAMN={metodfel:"Metodfel",raknefel:"Räknefel",teckenfel:"Teckenfel",enhetsfel:"Enhetsfel",missuppfattning:"Missuppfattning",ofullstandigt:"Ofullständigt",inget:""};
-  const FORSLAG=["Varför är det steget fel?","Kan du förklara det enklare?","Hur ska redovisningen se ut för full poäng?"];
+  const FORSLAG=["Varför är det steget fel?","Kan du förklara det enklare?","Hur ska jag motivera det steget?"];
 
   const tom=()=>({fran:null,uppgiftLage:"bild",uppgiftBild:null,uppgiftText:"",losning:[],laddar:false,fel:"",resultat:null,
     granskningId:null,samtal:[],foljdKvar:0,fragar:false,status:null,statusFel:false});
@@ -167,7 +167,7 @@
       kalla:S.fran?"traning":"egen", kurs:S.fran?.kurs||null, uppgiftId:S.fran?.id||null});
     S.laddar=false;
     if(d.ok){
-      S.resultat=d.feedback; S.granskningId=d.granskningId; S.foljdKvar=0; S.samtal=[];
+      S.resultat=d.feedback; S.granskningId=d.granskningId; S.foljdKvar=d.foljdfragorKvar||0; S.samtal=[];
       if(S.status) S.status.kvar_idag=Math.max(0,(S.status.kvar_idag||1)-1);
       // Medaljen "Granskad" (index.html) räknar granskningar som gav återkoppling.
       if(d.feedback?.status==="granskad" && typeof profile==="object" && profile){
@@ -193,7 +193,8 @@
 
   /* ---------------------------------------------------------------- rendering */
   // Modellens text: escapas och radbryts; KaTeX renderas efteråt med renderMath.
-  const txt=s=>esc(String(s||"")).replace(/\n/g,"<br>");
+  // Radbrytningar runt fristående formler \[ … \] tas bort: formeln blir ändå en egen rad, och <br> gav stora luckor.
+  const txt=s=>esc(String(s||"")).replace(/\s*\n\s*(?=\\\[)/g,"").replace(/(\\\])\s*\n\s*/g,"$1").replace(/\n/g,"<br>");
   const KAMERA='<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>';
 
   function bildruta(src,etikett,mal,i){
@@ -252,16 +253,21 @@
       <div class="aif-tolkning"><p><b>Uppgiften:</b> ${txt(g.tolkning_uppgift)}</p><p><b>Din lösning:</b><br>${txt(g.tolkning_losning)}</p></div></details>`;
     if(g.status==="behover_fortydligande"){
       return `<div class="aif-resultat" id="aif-resultat">
-        <div class="aif-del oklar"><h3>AI:n behöver mer information</h3>${txt(g.fortydligande_fraga||"Bilden eller uppgiften gick inte att tolka.")}
-        <p class="aif-info">Den här granskningen räknas mot dagens gräns. Ta en tydligare bild eller skriv uppgiften som text och försök igen.</p></div>${tolkning}</div>`;
+        <div class="aif-del oklar"><h3>${g.lasbarhet==="svarlast"?"Skriv lite tydligare":"AI:n behöver mer information"}</h3>${txt(g.fortydligande_fraga||"Bilden eller uppgiften gick inte att tolka.")}
+        <p class="aif-info">Den här granskningen räknas mot dagens gräns. Ta en tydligare bild, skriv lösningen noggrannare eller skriv uppgiften som text och försök igen.</p></div>${tolkning}</div>`;
     }
     const ratt=g.ratt.length?`<ul>${g.ratt.map(r=>`<li><span class="aif-steg-citat">${txt(r.steg)}</span>${txt(r.kommentar)}</li>`).join("")}</ul>`
       :`<p>${g.helt_korrekt?"Lösningen är korrekt.":"AI:n hittade inget steg som säkert är rätt. Det kan bero på att lösningen är kort eller svårläst."}</p>`;
     const fel=(g.fel||[]).length
       ? `<div class="aif-del titta"><h3>Här tänkte du fel</h3><ul>${g.fel.map(f=>`<li>${FELTYPNAMN[f.feltyp]?`<span class="aif-feltyp">${FELTYPNAMN[f.feltyp]}</span>`:""}
-          ${f.steg?`<span class="aif-steg-citat">${txt(f.steg)}</span>`:""}${txt(f.forklaring)}</li>`).join("")}</ul></div>`:"";
+          ${f.steg?`<span class="aif-steg-citat">${txt(f.steg)}</span>`:""}${txt(f.forklaring)}${f.regel?`<span class="aif-regel"><b>Kom ihåg:</b> ${txt(f.regel)}</span>`:""}</li>`).join("")}</ul></div>`:"";
+    // Redovisning: objekt {var, vad, varfor, exempel} sedan 2026-11-16; äldre svar var strängar.
+    const redovRad=r=>typeof r==="string"?txt(r)
+      :`${r.var?`<span class="aif-steg-citat">${txt(r.var)}</span>`:""}<span class="aif-redov-rad">${txt(r.vad)}</span>`
+       +(r.varfor?`<span class="aif-redov-rad"><b>Varför:</b> ${txt(r.varfor)}</span>`:"")
+       +(r.exempel?`<span class="aif-exempel"><b>Till exempel:</b> ${txt(r.exempel)}</span>`:"");
     const redov=(g.redovisning||[]).length
-      ? `<div class="aif-del vidare"><h3>För att få full poäng behöver du</h3><ul>${g.redovisning.map(r=>`<li>${txt(r)}</li>`).join("")}</ul></div>`:"";
+      ? `<div class="aif-del vidare"><h3>Träna din kommunikation: här behöver du motivera mer</h3><ul>${g.redovisning.map(r=>`<li>${redovRad(r)}</li>`).join("")}</ul></div>`:"";
     const SVARETIKETT={ja:"Rätt svar",delvis:"Delvis rätt svar",nej:"Fel svar",saknas:"Svar saknas"};
     const sammanf=`<div class="aif-del sammanf ${g.helt_korrekt?"ratt":g.svar_korrekt==="ja"?"vidare":"titta"}"><h3>${g.helt_korrekt?"Helt rätt!":esc(SVARETIKETT[g.svar_korrekt]||"Bedömning")}</h3>${txt(g.sammanfattning)}</div>`;
     const samtal=S.samtal.map(m=>`<div class="aif-bubbla ${m.roll}">${m.roll==="elev"?"<b>Du:</b> ":""}${txt(m.text)}</div>`).join("");
@@ -278,6 +284,7 @@
       <div class="aif-del ratt"><h3>Det här har du gjort rätt</h3>${ratt}</div>
       ${fel}${redov}
       ${tolkning}
+      ${foljd}
       <div class="aif-knapprad"><button type="button" class="btn soft" onclick="kgAi.nytt()">Ny granskning</button></div></div>`;
   }
 

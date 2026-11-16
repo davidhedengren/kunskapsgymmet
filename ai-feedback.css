@@ -54,6 +54,10 @@
 .aif-del li+li{margin-top:6px}
 .aif-del .aif-steg-citat{display:block;padding:6px 10px;margin:4px 0 6px;border-radius:8px;background:var(--surface2);overflow-x:auto}
 .aif-feltyp{display:inline-block;font-size:12px;font-weight:650;padding:2px 9px;border-radius:999px;background:var(--goldSoft);color:var(--gold);margin-left:4px}
+.aif-regel{display:block;margin-top:6px;padding:6px 10px;border-radius:8px;background:var(--goldSoft)}
+.aif-redov-rad{display:block;margin-top:3px}
+.aif-redov-rad b{font-family:var(--ui);font-size:13px;color:var(--ink2)}
+.aif-exempel{display:block;margin-top:5px;padding:6px 10px;border-radius:8px;background:var(--accSoft);font-style:italic}
 .aif-varning{font-size:14px;background:var(--goldSoft);border-radius:12px;padding:8px 12px;margin:10px 0}
 .aif details{margin:10px 0;border:1px solid var(--hair);border-radius:12px;padding:8px 12px;background:var(--surface)}
 .aif details summary{cursor:pointer;font-weight:600;color:var(--ink2)}

@@ -25,8 +25,10 @@ const GOD = {
   lasbarhet: 'tydlig', osakerheter: [], svar_korrekt: 'nej', helt_korrekt: false,
   sammanfattning: 'Du har valt rätt metod, men du tänkte fel när du flyttade över 3, så svaret blev fel.',
   ratt: [{ steg: '2x = 14 \\Rightarrow x = 7', kommentar: 'Divisionen med 2 är rätt gjord.' }],
-  fel: [{ steg: '2x = 11 + 3', feltyp: 'teckenfel', forklaring: 'När 3 flyttas över byter den tecken, så det ska vara \\(2x = 11 - 3\\).' }],
-  redovisning: ['Avsluta med en tydlig svarsmening.'], fortydligande_fraga: '',
+  fel: [{ steg: '2x = 11 + 3', feltyp: 'teckenfel', forklaring: 'När 3 flyttas över byter den tecken, så det ska vara \\(2x = 11 - 3\\).',
+          regel: 'När en term flyttas till andra ledet byter den tecken.' }],
+  redovisning: [{ var: 'Slutet av lösningen', vad: 'Avsluta med en tydlig svarsmening.', varfor: 'Läsaren ska direkt se vad du kommit fram till.',
+                  exempel: 'Svar: \\(x = 4\\).' }], fortydligande_fraga: '',
 };
 const oaSvar = (obj, usage = { input_tokens: 9000, output_tokens: 1200, input_tokens_details: { cached_tokens: 0 } }) => ({
   status: 'completed', usage,
@@ -222,6 +224,19 @@ test('schema och systeminstruktion uppfyller de pedagogiska kraven', () => {
   assert.equal(rattSvar.svar_korrekt, 'ja'); assert.equal(rattSvar.redovisning.length, 1); assert.equal(rattSvar.helt_korrekt, false);
   const helt = tolkaGranskning(oaSvar({ ...GOD, svar_korrekt: 'ja', helt_korrekt: true, fel: [], redovisning: [], sammanfattning: 'Helt rätt.' }));
   assert.equal(helt.helt_korrekt, true);
+  // 2026-11-16: regeln bakom felet och kommunikation (var, vad, varför, exempel). Äldre strängsvar tolkas fortfarande.
+  const g = tolkaGranskning(oaSvar(GOD));
+  assert.equal(g.fel[0].regel, 'När en term flyttas till andra ledet byter den tecken.');
+  assert.deepEqual(Object.keys(g.redovisning[0]).sort(), ['exempel', 'vad', 'var', 'varfor']);
+  assert.deepEqual(SCHEMA_GRANSKNING.properties.fel.items.required, ['steg', 'feltyp', 'forklaring', 'regel']);
+  assert.deepEqual(SCHEMA_GRANSKNING.properties.redovisning.items.required, ['var', 'vad', 'varfor', 'exempel']);
+  assert.equal(tolkaGranskning(oaSvar({ ...GOD, redovisning: ['Skriv en svarsmening.'] })).redovisning[0].vad, 'Skriv en svarsmening.');
+  // Helt korrekt men med brister i kommunikationen räknas inte som helt korrekt.
+  const brist = tolkaGranskning(oaSvar({ ...GOD, svar_korrekt: 'ja', helt_korrekt: true, fel: [], sammanfattning: 'Rätt.' }));
+  assert.equal(brist.helt_korrekt, false);
+  assert.match(SYSTEMINSTRUKTION, /kommunikationsförmåga/);
+  assert.match(SYSTEMINSTRUKTION, /handstilen är så slarvig/);
+  assert.match(SYSTEMINSTRUKTION, /skriva om lösningen noggrannare/);
   assert.ok(!('titta_pa' in SCHEMA_GRANSKNING.properties) && !('vidare' in SCHEMA_GRANSKNING.properties), 'inga ledtrådsfält');
 });
 

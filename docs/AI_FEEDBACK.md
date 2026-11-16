@@ -4,10 +4,16 @@ Eleven fotograferar en uppgift (eller skriver den som text) och sin egen handskr
 
 - **sammanfattning**, t.ex. "Du fick rätt svar, men du behöver förklara hur du kom fram till ekvationen."
 - **Det här har du gjort rätt**
-- **Här tänkte du fel**: steg, feltyp och förklaring av felet. Följdfel räknas inte som nya fel.
-- **För att få full poäng behöver du**: motiveringar, mellanled, enheter, svarsmening och liknande.
+- **Här tänkte du fel**: det felaktiga steget citeras, med feltyp och en förklaring av vad som är fel och varför. Följdfel räknas inte som nya fel. Vid fel metod eller fel antagande visas den rätta vägen från felet fram till svaret. Under varje fel står **Kom ihåg:** med regeln eller begreppet bakom felet (fältet `regel`).
+- **Träna din kommunikation: här behöver du motivera mer**: för varje brist anges var i lösningen den finns, vad som ska läggas till, varför en läsare behöver det och ett exempel på formulering (fälten `var`, `vad`, `varfor`, `exempel`). Det gäller även när svaret är rätt. `helt_korrekt` blir false så länge det finns brister i redovisningen.
+- **Svårläst handstil**: AI:n gissar inte. Rubriken blir *Skriv lite tydligare*, och eleven får veta vad som inte gick att läsa och får råd om hur lösningen ska skrivas.
+- **Fråga vidare**: följdfrågor om samma granskning, med förslagen *Varför är det steget fel?*, *Kan du förklara det enklare?* och *Hur ska jag motivera det steget?*. Antalet styrs av `kg_ai_konfig.foljdfragor_per_gransk`, satt till 2 i `sql/2026-11-16-ai-feedback-foljdfragor.sql`. Värdet kan ändras i adminöversikten.
 
-Följdfrågor är avstängda (0 per granskning). Eleven kan starta en ny granskning. Efter Kontrollera i träningen finns knappen *Få feedback på din lösning*, som öppnar granskningen ovanpå uppgiften med uppgiftstexten ifylld. Första granskningen ger medaljen *Granskad*. Funktionen är fristående från uppgiftsbankerna.
+Ändrat 2026-11-16 (användarbeslut): återkopplingen ska vara pedagogisk och lärande. Eleven ska få veta *var* tanken gick fel utan att behöva fråga, och träna sin kommunikationsförmåga. Exempelbilder: `docs/ai-feedback-exempel.png` och `docs/ai-feedback-olaslig.png` (påhittade data, skapade utan AI-anrop).
+
+**Efter ändringen behöver du:** köra `sql/2026-11-16-ai-feedback-foljdfragor.sql` och deploya funktionen igen, `supabase functions deploy ai-feedback`. Instruktionen och schemat ligger i Edge-funktionen.
+
+Efter Kontrollera i träningen finns knappen *Få feedback på din lösning*, som öppnar granskningen ovanpå uppgiften med uppgiftstexten ifylld. Första granskningen ger medaljen *Granskad*. Funktionen är fristående från uppgiftsbankerna.
 
 > **Status:** koden är testad mot mockat API och en riktig Postgres (PGlite). Livefunktionen är **inte verifierad** förrän stegen i *Installation* är gjorda och en riktig granskning har körts.
 

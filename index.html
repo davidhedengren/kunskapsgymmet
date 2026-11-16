@@ -16434,8 +16434,12 @@ window.addEventListener("load",async()=>{
     provAnslutVantande();
     setTimeout(async()=>{
       if(await visaRollval() || await visaSkolfraga()){ kravKlass(); return; }
-      // En nyhet per inloggning: klassnyheten först, AI-feedbacken vid nästa tillfälle.
-      if(!(await kravKlass()) && !arNagonLarare() && !arAdmin && !(await visaNyhetKlasser())) visaNyhetAiFeedback();
+      // En nyhet per inloggning: klassnyheten (bara elever) först, AI-feedbacken vid nästa tillfälle.
+      // AI-nyheten visas även för lärare och admin (lärarbeslut 2026-11-16).
+      if(!(await kravKlass())){
+        const elev=!arNagonLarare() && !arAdmin;
+        if(!(elev && await visaNyhetKlasser())) visaNyhetAiFeedback();
+      }
     },nyInloggning?1200:600);
   }
 

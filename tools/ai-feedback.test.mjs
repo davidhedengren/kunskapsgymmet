@@ -267,7 +267,8 @@ test('nyhetsrutan visas en gång per elevkonto och bara när AI-feedback är på
   assert.match(f, /await kgAi\.aktiv\(\)/);
   assert.ok(f.indexOf('await kgAi.aktiv()') < f.indexOf('aiFeedback2026:Date.now()'), 'markeras som sedd först när funktionen är påslagen');
   assert.match(f, /Nyhet i Kunskapsgymmet/);
-  assert.match(html, /!\(await visaNyhetKlasser\(\)\)\) visaNyhetAiFeedback\(\)/);
+  // Även lärare och admin får AI-nyheten (2026-11-16); klassnyheten är bara för elever.
+  assert.match(html, /if\(!\(elev && await visaNyhetKlasser\(\)\)\) visaNyhetAiFeedback\(\)/);
   assert.match(klient, /exempelHtml,/);
   assert.match(klient, /aktiv:async\(\)=>/);
 });

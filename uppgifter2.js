@@ -14899,7 +14899,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(1/2/0)",
     "typ": "bestämma ström ur kompassnålens vinkelfel med vektoraddition, ur figur, sökt ström",
-    "t": "<p>En rak ledning går i nord-sydlig riktning 5,0 cm rakt ovanför en kompass. När strömmen slås på vrider sig nålen 30° från nordriktningen. Jordens vågräta magnetfält på platsen är 17 μT. Hur stor är strömmen i ledningen?</p><span class=\"fig smal\"><svg viewBox=\"6.274 4.183 106.314 181.633\" width=\"380\" height=\"649\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kompass under en strömförande ledning, sett uppifrån.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Kompass under en strömförande ledning, sett uppifrån.</title><g transform=\"translate(-95,-15)\"><line x1=\"168\" y1=\"30\" x2=\"168\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"168\" y1=\"84\" x2=\"168\" y2=\"56.1\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"168,46 172.4,55.5 163.6,55.5\" fill=\"#B43123\"/><circle cx=\"168\" cy=\"116\" r=\"34\" fill=\"#FFFFFF\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 181 93.48 L 161 116 L 175 116 Z\" fill=\"#C4736B\" stroke=\"#2B2527\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><path d=\"M 155 138.52 L 161 116 L 175 116 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><circle cx=\"168\" cy=\"116\" r=\"3\" fill=\"#2B2527\"/><line x1=\"168\" y1=\"70\" x2=\"168\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-dasharray=\"4 3.5\"/><path d=\"M 168 90 A 26 26 0 0 0 181 93.48\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.3\"/><text x=\"178.35\" y=\"80.36\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">30°</text><line x1=\"110\" y1=\"132\" x2=\"110\" y2=\"108.1\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"110,98 114.4,107.5 105.6,107.5\" fill=\"#2A5D9E\"/></g></svg></span>",
+    "t": "<p>En rak ledning går i nord-sydlig riktning 5,0 cm rakt ovanför en kompass. När strömmen slås på vrider sig nålen 30° från nordriktningen. Jordens vågräta magnetfält på platsen är 17 μT. Hur stor är strömmen i ledningen?</p><span class=\"fig smal\"><svg viewBox=\"6.274 4.183 106.314 181.633\" width=\"380\" height=\"649\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kompass under en strömförande ledning, sett uppifrån.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Kompass under en strömförande ledning, sett uppifrån.</title><g transform=\"translate(-95,-15)\"><line x1=\"168\" y1=\"30\" x2=\"168\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"168\" y1=\"84\" x2=\"168\" y2=\"56.1\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"168,46 172.4,55.5 163.6,55.5\" fill=\"#B43123\"/><circle cx=\"168\" cy=\"116\" r=\"34\" fill=\"#FFFFFF\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 181 93.48 L 161 116 L 175 116 Z\" fill=\"#C4736B\" stroke=\"#2B2527\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><path d=\"M 155 138.52 L 161 116 L 175 116 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><circle cx=\"168\" cy=\"116\" r=\"3\" fill=\"#2B2527\"/><line x1=\"168\" y1=\"70\" x2=\"168\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-dasharray=\"4 3.5\"/><path d=\"M 168 90 A 26 26 0 0 1 181 93.48\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.3\"/><text x=\"178.35\" y=\"80.36\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">30°</text><line x1=\"110\" y1=\"132\" x2=\"110\" y2=\"108.1\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"110,98 114.4,107.5 105.6,107.5\" fill=\"#2A5D9E\"/></g></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Ledningens fält är vinkelrätt mot Jordens vågräta fält.</p></li><li><p class=\"facit-metod\">Kompassens vridning bestäms därför av hur stora de två fälten är i förhållande till varandra.</p></li><li><div class=\"facit-matte\">\\[\\tan30^\\circ=\\frac{B_{\\mathrm{ledning}}}{B_{\\mathrm{jord}}}\\Rightarrow B_{\\mathrm{ledning}}=17\\tan30^\\circ=9{,}81\\ \\mu\\mathrm T\\]</div></li><li><p class=\"facit-metod\">Lös ut strömmen ur fältet kring en lång rak ledare.</p></li><li><div class=\"facit-matte\">\\[I=\\frac{2\\pi rB}{\\mu_0}=\\frac{2\\pi\\cdot0{,}050\\cdot9{,}81\\cdot10^{-6}}{4\\pi\\cdot10^{-7}}=2{,}45\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen är cirka \\(2{,}5\\ \\mathrm A\\).</p></div>",
     "familj": "Jordens magnetfält som vektor",
     "formaga": [
@@ -19943,14 +19943,14 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
-    "ledtrad": "<p>Spänningens arbete blir elektronens rörelseenergi. Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>",
+    "ledtrad": "<p>Spänningens arbete blir elektronens rörelseenergi.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
         "t": "<p>Elektroner accelereras från vila genom spänningen 5,0 kV. Bortse från relativistiska effekter.</p><div class=\"spel-en-del\"><p>Bestäm elektronens kinetiska energi.</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[K=eU=1{,}602\\cdot10^{-19}\\cdot5{,}0\\cdot10^3=8{,}01\\cdot10^{-16}\\ \\mathrm J=5{,}0\\ \\mathrm{keV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den kinetiska energin är \\(8{,}01\\cdot10^{-16}\\ \\mathrm J=5{,}0\\ \\mathrm{keV}\\).</p></div></div>",
-        "ledtrad": "<p>Spänningens arbete blir elektronens rörelseenergi. Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>",
+        "ledtrad": "<p>Spänningens arbete blir elektronens rörelseenergi.</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
@@ -19958,7 +19958,7 @@ window.BANK2 = [
         "etikett": "b",
         "t": "<p>Elektroner accelereras från vila genom spänningen 5,0 kV. Bortse från relativistiska effekter.</p><div class=\"spel-en-del\"><p>Bestäm farten. Elektronmassan är \\(9{,}11\\cdot10^{-31}\\) kg.</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{2K}{m_e}}=\\sqrt{\\frac{2\\cdot8{,}01\\cdot10^{-16}}{9{,}11\\cdot10^{-31}}}=4{,}19\\cdot10^7\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten blir cirka \\(4{,}19\\cdot10^7\\ \\mathrm{m/s}\\).</p></div></div>",
-        "ledtrad": "<p>Spänningens arbete blir elektronens rörelseenergi. Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>",
+        "ledtrad": "<p>Spänningens arbete blir elektronens rörelseenergi.</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -19978,7 +19978,7 @@ window.BANK2 = [
     "typ": "beräkna fart och de Broglie-våglängd för accelererade protoner, ur text, sökt fart och våglängd",
     "poang": "(1/2/0)",
     "t": "<p>Protoner accelereras genom 2,0 MV och riktas sedan mot ett tunt mål. Bortse från relativistiska effekter.</p><ol><li>Bestäm protonernas fart.</li><li>Hur stor de Broglie-våglängd har protonerna?</li><li>Jämför våglängden med en typisk atomstorlek 0,10 nm.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Protonens rörelseenergi efter accelerationen är \\(eU\\).</p></li><li><div class=\"facit-matte\">\\[K=eU=1{,}602\\cdot10^{-19}\\cdot2{,}0\\cdot10^6=3{,}204\\cdot10^{-13}\\ \\mathrm J\\]\\[v=\\sqrt{\\frac{2K}{m_p}}=1{,}96\\cdot10^7\\ \\mathrm{m/s}\\]</div></li><li><div class=\"facit-berakning\"><p>de Broglie-våglängden fås av</p><div class=\"facit-matte\">\\[\\lambda=h/p=h/(mv)\\].</div></div></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{6{,}626\\cdot10^{-34}}{1{,}67\\cdot10^{-27}\\cdot1{,}96\\cdot10^7}=2{,}03\\cdot10^{-14}\\ \\mathrm m\\]\\[\\frac{0{,}10\\ \\mathrm{nm}}{\\lambda}\\approx4{,}9\\cdot10^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten är \\(1{,}96\\cdot10^7\\ \\mathrm{m/s}\\) och våglängden \\(2{,}0\\cdot10^{-14}\\ \\mathrm m\\), ungefär 5000 gånger mindre än en typisk atom.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Protonens rörelseenergi efter accelerationen är \\(eU\\).</p></li><li><div class=\"facit-matte\">\\[K=eU=1{,}602\\cdot10^{-19}\\cdot2{,}0\\cdot10^6=3{,}204\\cdot10^{-13}\\ \\mathrm J\\]\\[v=\\sqrt{\\frac{2K}{m_p}}=1{,}96\\cdot10^7\\ \\mathrm{m/s}\\]</div></li><li><div class=\"facit-berakning\"><p>de Broglie-våglängden fås av</p><div class=\"facit-matte\">\\[\\lambda=h/p=h/(mv)\\].</div></div></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{6{,}626\\cdot10^{-34}}{1{,}67\\cdot10^{-27}\\cdot1{,}96\\cdot10^7}=2{,}02\\cdot10^{-14}\\ \\mathrm m\\]\\[\\frac{0{,}10\\ \\mathrm{nm}}{\\lambda}\\approx5{,}0\\cdot10^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten är \\(1{,}96\\cdot10^7\\ \\mathrm{m/s}\\) och våglängden \\(2{,}0\\cdot10^{-14}\\ \\mathrm m\\), ungefär 5000 gånger mindre än en typisk atom.</p></div>",
     "familj": "Materievågor",
     "formaga": [
       "procedur",
@@ -19987,8 +19987,8 @@ window.BANK2 = [
     "familjNyckel": "partikelstralar__styrning_och_analys_av_partikelstralar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      19600000,
-      2e-14,
+      19573000,
+      2.02e-14,
       null
     ],
     "tolerans": [
@@ -20018,30 +20018,30 @@ window.BANK2 = [
       "c"
     ],
     "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
-    "ledtrad": "<p>Protonens rörelseenergi efter accelerationen är \\(eU\\). Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>",
+    "ledtrad": "<p>Protonens rörelseenergi efter accelerationen är \\(eU\\). Sätt den lika med \\(\\frac{m_pv^2}{2}\\) för att få farten, och använd sedan de Broglies samband \\(\\lambda=\\frac{h}{m_pv}\\).</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
         "t": "<p>Protoner accelereras genom 2,0 MV och riktas sedan mot ett tunt mål. Bortse från relativistiska effekter.</p><div class=\"spel-en-del\"><p>Bestäm protonernas fart.</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[K=eU=1{,}602\\cdot10^{-19}\\cdot2{,}0\\cdot10^6=3{,}204\\cdot10^{-13}\\ \\mathrm J\\]</div></li><li><div class=\"facit-matte\">\\[v=\\sqrt{\\frac{2K}{m_p}}=1{,}96\\cdot10^7\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Protonernas fart är cirka \\(1{,}96\\cdot10^7\\ \\mathrm{m/s}\\).</p></div></div>",
-        "ledtrad": "<p>Protonens rörelseenergi efter accelerationen är \\(eU\\). Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>",
+        "ledtrad": "<p>Protonens rörelseenergi efter accelerationen är \\(eU\\). Sätt \\(eU=\\frac{m_pv^2}{2}\\) och lös ut \\(v\\).</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "b",
         "t": "<p>Protoner accelereras genom 2,0 MV och riktas sedan mot ett tunt mål. Bortse från relativistiska effekter.</p><div class=\"spel-en-del\"><p>Hur stor de Broglie-våglängd har protonerna?</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Accelerationsspänningen ger protonen rörelseenergin</p><div class=\"facit-matte\">\\[K=eU\\].</div></div></li><li><div class=\"facit-matte\">\\[K=1{,}602\\cdot10^{-19}\\cdot2{,}0\\cdot10^6=3{,}204\\cdot10^{-13}\\ \\mathrm J\\]\\[v=\\sqrt{\\frac{2K}{m_p}}=1{,}96\\cdot10^7\\ \\mathrm{m/s}\\]</div></li><li><p>Använd sedan de Broglies samband.</p></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{h}{m_pv}=\\frac{6{,}626\\cdot10^{-34}}{1{,}67\\cdot10^{-27}\\cdot1{,}96\\cdot10^7}=2{,}03\\cdot10^{-14}\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> de Broglie-våglängden är cirka \\(2{,}03\\cdot10^{-14}\\ \\mathrm m\\).</p></div></div>",
-        "ledtrad": "<p>Protonens rörelseenergi efter accelerationen är \\(eU\\). Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Accelerationsspänningen ger protonen rörelseenergin</p><div class=\"facit-matte\">\\[K=eU\\].</div></div></li><li><div class=\"facit-matte\">\\[K=1{,}602\\cdot10^{-19}\\cdot2{,}0\\cdot10^6=3{,}204\\cdot10^{-13}\\ \\mathrm J\\]\\[v=\\sqrt{\\frac{2K}{m_p}}=1{,}96\\cdot10^7\\ \\mathrm{m/s}\\]</div></li><li><p>Använd sedan de Broglies samband.</p></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{h}{m_pv}=\\frac{6{,}626\\cdot10^{-34}}{1{,}67\\cdot10^{-27}\\cdot1{,}96\\cdot10^7}=2{,}02\\cdot10^{-14}\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> de Broglie-våglängden är cirka \\(2{,}02\\cdot10^{-14}\\ \\mathrm m\\).</p></div></div>",
+        "ledtrad": "<p>Bestäm först farten ur \\(eU=\\frac{m_pv^2}{2}\\). Använd sedan de Broglies samband \\(\\lambda=\\frac{h}{p}=\\frac{h}{m_pv}\\).</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Protoner accelereras genom 2,0 MV och riktas sedan mot ett tunt mål. Bortse från relativistiska effekter.</p><div class=\"spel-en-del\"><p>Protonernas de Broglie-våglängd är cirka \\(2{,}03\\cdot10^{-14}\\ \\mathrm m\\). Jämför den med en typisk atomstorlek \\(0{,}10\\ \\mathrm{nm}\\).</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv atomstorleken i meter:</p><div class=\"facit-matte\">\\[0{,}10\\ \\mathrm{nm}=1{,}0\\cdot10^{-10}\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{1{,}0\\cdot10^{-10}}{2{,}03\\cdot10^{-14}}\\approx4{,}9\\cdot10^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Atomstorleken är ungefär \\(4{,}9\\cdot10^3\\) gånger större. Protonens våglängd är alltså mycket mindre än en typisk atom.</p></div></div>",
-        "ledtrad": "<p>Protonens rörelseenergi efter accelerationen är \\(eU\\). Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>",
+        "t": "<p>Protoner accelereras genom 2,0 MV och riktas sedan mot ett tunt mål. Bortse från relativistiska effekter.</p><div class=\"spel-en-del\"><p>Protonernas de Broglie-våglängd är cirka \\(2{,}02\\cdot10^{-14}\\ \\mathrm m\\). Jämför den med en typisk atomstorlek \\(0{,}10\\ \\mathrm{nm}\\).</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv atomstorleken i meter:</p><div class=\"facit-matte\">\\[0{,}10\\ \\mathrm{nm}=1{,}0\\cdot10^{-10}\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{1{,}0\\cdot10^{-10}}{2{,}02\\cdot10^{-14}}\\approx5{,}0\\cdot10^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Atomstorleken är ungefär \\(5{,}0\\cdot10^3\\) gånger större. Protonens våglängd är alltså mycket mindre än en typisk atom.</p></div></div>",
+        "ledtrad": "<p>Skriv atomstorleken i meter och dividera den med våglängden.</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -20051,6 +20051,11 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Styrning och analys av partikelstrålar"
+    ],
+    "svarVardesiffror": [
+      2,
+      2,
+      null
     ]
   },
   {
@@ -20311,7 +20316,7 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
-    "ledtrad": "<p>de Broglies samband ger den rörelsemängd som krävs. Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>",
+    "ledtrad": "<p>de Broglies samband ger den rörelsemängd som krävs.</p>",
     "omrTidigare": [
       "partikelstralar"
     ],
@@ -31029,7 +31034,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "avgöra inducerad strömriktning i ledarslinga",
     "poang": "(1/2/0)",
-    "t": "<p>I en laboration ändras magnetfältet genom en ledarslinga. Magnetfältet genom slingan är riktat in i pappret och minskar i styrka.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Ledarslinga i förändrat magnetfält</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"68\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"5\"/><circle cx=\"154\" cy=\"96\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"147.2\" y1=\"89.2\" x2=\"160.8\" y2=\"102.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"160.8\" y1=\"89.2\" x2=\"147.2\" y2=\"102.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"206\" cy=\"96\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"199.2\" y1=\"89.2\" x2=\"212.8\" y2=\"102.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"212.8\" y1=\"89.2\" x2=\"199.2\" y2=\"102.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"154\" cy=\"140\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"147.2\" y1=\"133.2\" x2=\"160.8\" y2=\"146.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"160.8\" y1=\"133.2\" x2=\"147.2\" y2=\"146.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"206\" cy=\"140\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"199.2\" y1=\"133.2\" x2=\"212.8\" y2=\"146.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"212.8\" y1=\"133.2\" x2=\"199.2\" y2=\"146.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"180\" cy=\"118\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"173.2\" y1=\"111.2\" x2=\"186.8\" y2=\"124.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"186.8\" y1=\"111.2\" x2=\"173.2\" y2=\"124.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"296\" y1=\"60\" x2=\"296\" y2=\"180\" stroke=\"#A23B2A\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"296.0,180.0 302.0,170.0 290.0,170.0\" fill=\"#A23B2A\"/><text x=\"296\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"24\" font-weight=\"700\" fill=\"#A23B2A\">−</text></svg></span><p>Bestäm strömriktningen i slingan.</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
+    "t": "<p>I en laboration ändras magnetfältet genom en ledarslinga. Magnetfältet genom slingan är riktat in i pappret och minskar i styrka.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Ledarslinga i förändrat magnetfält</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"68\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"5\"/><circle cx=\"154\" cy=\"96\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"147.2\" y1=\"89.2\" x2=\"160.8\" y2=\"102.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"160.8\" y1=\"89.2\" x2=\"147.2\" y2=\"102.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"206\" cy=\"96\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"199.2\" y1=\"89.2\" x2=\"212.8\" y2=\"102.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"212.8\" y1=\"89.2\" x2=\"199.2\" y2=\"102.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"154\" cy=\"140\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"147.2\" y1=\"133.2\" x2=\"160.8\" y2=\"146.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"160.8\" y1=\"133.2\" x2=\"147.2\" y2=\"146.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"206\" cy=\"140\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"199.2\" y1=\"133.2\" x2=\"212.8\" y2=\"146.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"212.8\" y1=\"133.2\" x2=\"199.2\" y2=\"146.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"180\" cy=\"118\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"173.2\" y1=\"111.2\" x2=\"186.8\" y2=\"124.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"186.8\" y1=\"111.2\" x2=\"173.2\" y2=\"124.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/></svg></span><p>Bestäm strömriktningen i slingan.</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enligt Lenz lag måste den inducerade strömmen skapa ett magnetfält som motverkar förändringen av flödet.</p></li><li><p>Det betyder att slingan måste skapa ett fält in i pappret.</p></li><li><p>Med högerhandsregeln följer då att strömmen går medurs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> medurs.</p></div>",
     "familj": "Riktningen på inducerad ström",
     "familjNyckel": "induktion__riktningsfragor_inducerad_strom_enligt_lenz_lag",

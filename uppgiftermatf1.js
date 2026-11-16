@@ -29020,7 +29020,8 @@ window.BANKMATF1 = [
       "stabilitet"
     ],
     "ledtrad": "<p>Bestäm först var högerledet är 0. Undersök sedan om högerledet är positivt eller negativt mellan och utanför dessa värden.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "spel": false
   },
   {
     "kap": 4,
@@ -29354,8 +29355,8 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "jämföra numeriska lösningar och fel för olika steglängd",
     "poang": "0/3/0",
-    "t": "<p>För \\(y'=y,\\ y(0)=1\\) används Eulers metod till \\(x=1\\), dels med \\(h=0,2\\), dels med \\(h=0,1\\).</p><p>Beräkna båda approximationerna och jämför absolutfelen mot \\(e\\). Hur mycket mindre blir felet ungefär?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Översätt situationen till variabler, antaganden och ett matematiskt samband.</p></li><li><p>Efter beräkningen ska modellen tolkas: vad betyder parametrarna, och vilka antaganden begränsar resultatet?</p></li><li><p>Med \\(h=0,2\\) fås \\((1,2)^5=2{,}488320\\), med fel 0,229962.</p></li><li><p>Med \\(h=0,1\\) fås \\((1,1)^{10}=2{,}593742\\), med fel 0,124539.</p></li><li><p>Felkvoten är \\(1{,}85\\), så felet blir ungefär 1,8 gånger mindre när steglängden halveras i detta exempel.</p></li></ol></div>",
+    "t": "<p>För \\(y'=y,\\ y(0)=1\\) används Eulers metod till \\(x=1\\), dels med \\(h=0{,}2\\), dels med \\(h=0{,}1\\).</p><p>Beräkna båda approximationerna och jämför absolutfelen mot \\(e\\). Hur många gånger mindre blir felet när steglängden halveras? (Svara med kvoten mellan felen.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Eulers metod för \\(y'=y\\): \\(y_{n+1}=(1+h)\\,y_n\\)</p><p>Varje steg multiplicerar med \\(1+h\\). Till \\(x=1\\) behövs \\(1/h\\) steg, så \\(y(1)\\approx(1+h)^{1/h}\\).</p></li><li><p class=\"facit-rubrik\">Steglängd \\(h=0{,}2\\): fem steg</p><div class=\"facit-matte\">\\[y(1)\\approx1{,}2^5=2{,}488320\\]</div><div class=\"facit-matte\">\\[\\text{fel}=e-2{,}488320\\approx0{,}229962\\]</div></li><li><p class=\"facit-rubrik\">Steglängd \\(h=0{,}1\\): tio steg</p><div class=\"facit-matte\">\\[y(1)\\approx1{,}1^{10}\\approx2{,}593742\\]</div><div class=\"facit-matte\">\\[\\text{fel}=e-2{,}593742\\approx0{,}124540\\]</div></li><li><p class=\"facit-rubrik\">Hur många gånger mindre: kvoten mellan felen</p><div class=\"facit-matte\">\\[\\frac{0{,}229962}{0{,}124540}\\approx1{,}85\\]</div><p>Felet blir ungefär hälften så stort när steglängden halveras. Det stämmer med att felet i Eulers metod är ungefär proportionellt mot \\(h\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,85 gånger mindre.</p></div>",
     "id": "4.469",
     "miniräknare": true,
     "geogebra": true,
@@ -29370,7 +29371,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>För \\(y'=y\\) ger varje steg i Eulers metod \\(y_{n+1}=y_n+h\\cdot y_n=(1+h)\\,y_n\\). Hur många steg behövs till \\(x=1\\) med respektive steglängd?</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "modellering_digitalt"
@@ -52211,7 +52212,7 @@ window.BANKMATF1 = [
   ],
   "miniräknare": true,
   "geogebra": false,
-  "spel": true,
+  "spel": false,
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 2,

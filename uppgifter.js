@@ -6845,8 +6845,8 @@ window.BANK = [
     "omr": "enheter",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>a) En pendels period modelleras med T = Cℓᵃgᵇ. T mäts i s, ℓ i m och g i m/s². C saknar enhet. Bestäm a och b genom att jämföra enheterna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsvillkor: \\([T]=[\\ell]^a[g]^b\\)</p><p>C saknar enhet. Vänsterledet har enheten s; högerledets enheter måste bli desamma.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\mathrm s&=\\mathrm m^a(\\mathrm{m/s^2})^b\\\\&=\\mathrm m^{a+b}\\mathrm s^{-2b}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför exponenterna: \\(a+b=0\\) och \\(-2b=1\\)</p><p>På vänster sida är meterexponenten 0 och sekundexponenten 1.</p><div class=\"facit-matte\">\\[-2b=1\\ \\Rightarrow\\ b=-\\frac12\\]</div><div class=\"facit-matte\">\\[a=-b=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=\\frac12\\) och \\(b=-\\frac12\\).</p></div></div></div>",
+    "t": "<p>En pendels period modelleras med T = Cℓᵃgᵇ. T mäts i s, ℓ i m och g i m/s². C saknar enhet. Bestäm a och b genom att jämföra enheterna.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsvillkor: \\([T]=[\\ell]^a[g]^b\\)</p><p>C saknar enhet. Vänsterledet har enheten s; högerledets enheter måste bli desamma.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\mathrm s&=\\mathrm m^a(\\mathrm{m/s^2})^b\\\\&=\\mathrm m^{a+b}\\mathrm s^{-2b}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför exponenterna: \\(a+b=0\\) och \\(-2b=1\\)</p><p>På vänster sida är meterexponenten 0 och sekundexponenten 1.</p><div class=\"facit-matte\">\\[-2b=1\\ \\Rightarrow\\ b=-\\frac12\\]</div><div class=\"facit-matte\">\\[a=-b=\\frac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=\\frac12\\) och \\(b=-\\frac12\\).</p></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "procedur",
@@ -7089,8 +7089,8 @@ window.BANK = [
     "omr": "enheter",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>a) En längd x modelleras med x = Caᵖtᵠ. a är en acceleration i m/s² och t en tid i s. C saknar enhet. Bestäm p och q. Bestäm också faktorn som x multipliceras med om a fördubblas och t tredubblas.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsvillkor: \\([x]=[a]^p[t]^q\\)</p><p>C är enhetslös. Vänsterledet har enheten m.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\mathrm m&=(\\mathrm{m/s^2})^p\\mathrm s^q\\\\&=\\mathrm m^p\\mathrm s^{-2p+q}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför exponenterna: \\(p=1\\), \\(-2p+q=0\\)</p><p>Meterexponenten ska vara 1 och sekundexponenten 0.</p><div class=\"facit-matte\">\\[p=1,\\qquad q=2p=2\\]</div></li><li><p class=\"facit-rubrik\">Ändringsfaktor: \\(x_{\\text{ny}}/x_{\\text{gammal}}=2^p3^q\\)</p><p>Samma C används. Accelerationen ger en faktor 2 och tiden en faktor 3².</p><div class=\"facit-matte\">\\[\\frac{x_{\\text{ny}}}{x_{\\text{gammal}}}=2^1\\cdot3^2=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(p=1\\), \\(q=2\\) och längden multipliceras med 18.</p></div></div></div>",
+    "t": "<p>En längd x modelleras med x = Caᵖtᵠ. a är en acceleration i m/s² och t en tid i s. C saknar enhet. Bestäm p och q. Bestäm också faktorn som x multipliceras med om a fördubblas och t tredubblas.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsvillkor: \\([x]=[a]^p[t]^q\\)</p><p>C är enhetslös. Vänsterledet har enheten m.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\mathrm m&=(\\mathrm{m/s^2})^p\\mathrm s^q\\\\&=\\mathrm m^p\\mathrm s^{-2p+q}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämför exponenterna: \\(p=1\\), \\(-2p+q=0\\)</p><p>Meterexponenten ska vara 1 och sekundexponenten 0.</p><div class=\"facit-matte\">\\[p=1,\\qquad q=2p=2\\]</div></li><li><p class=\"facit-rubrik\">Ändringsfaktor: \\(x_{\\text{ny}}/x_{\\text{gammal}}=2^p3^q\\)</p><p>Samma C används. Accelerationen ger en faktor 2 och tiden en faktor 3².</p><div class=\"facit-matte\">\\[\\frac{x_{\\text{ny}}}{x_{\\text{gammal}}}=2^1\\cdot3^2=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(p=1\\), \\(q=2\\) och längden multipliceras med 18.</p></div>",
     "familj": "Rimlighet och enhetskontroll",
     "formaga": [
       "procedur",
@@ -79804,8 +79804,8 @@ window.BANK = [
     "omr": "kopplingar",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Mats ansluter en resistor på 0,10 Ω till ett verkligt 9,0 V-batteri. Han räknar ut strömmen som 9,0/0,10 = 90 A.</p><p>a) Förklara varför strömmen kan bli mindre än 90 A.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Batteriet bidrar också med resistans</p><p>Ett verkligt batteri kan beskrivas med ems och en inre resistans r. Den ligger i samma strömväg som den yttre resistorn.</p></li><li><p class=\"facit-rubrik\">Ström i hela kretsen: \\(I=\\mathcal E/(R+r)\\)</p><p>När r är positiv är nämnaren större än 0,10 Ω. Strömmen blir därför mindre än 90 A.</p><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{0{,}10+r}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Batteriets inre resistans begränsar också strömmen.</p></div></div></div>",
+    "t": "<p>Mats ansluter en resistor på 0,10 Ω till ett verkligt 9,0 V-batteri. Han räknar ut strömmen som 9,0/0,10 = 90 A.</p><p>Förklara varför strömmen kan bli mindre än 90 A.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Batteriet bidrar också med resistans</p><p>Ett verkligt batteri kan beskrivas med ems och en inre resistans r. Den ligger i samma strömväg som den yttre resistorn.</p></li><li><p class=\"facit-rubrik\">Ström i hela kretsen: \\(I=\\mathcal E/(R+r)\\)</p><p>När r är positiv är nämnaren större än 0,10 Ω. Strömmen blir därför mindre än 90 A.</p><div class=\"facit-matte\">\\[I=\\frac{9{,}0}{0{,}10+r}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Batteriets inre resistans begränsar också strömmen.</p></div>",
     "familj": "Ems, polspänning och inre resistans",
     "formaga": [
       "procedur"
@@ -110916,8 +110916,8 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Kol-14-metoden kan datera kolmaterial från något som tidigare levde. Halveringstiden är cirka 5 730 år.</p><p>a) Vilket av följande kan dateras: en träskål från 1600-talet, en järngryta från medeltiden, ett miljontals år gammalt dinosauriefossil eller en levande människa? Motivera.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Trädet tog upp kol medan det levde. Efter avverkningen slutade det ta upp nytt kol, och kol-14 började minska. Järn är inte organiskt kolmaterial. Dinosauriefossilet är för gammalt för mätbart kol-14, och en levande människa tar fortfarande upp kol.</p></div></div>",
+    "t": "<p>Kol-14-metoden kan datera kolmaterial från något som tidigare levde. Halveringstiden är cirka 5 730 år.</p><p>Vilket av följande kan dateras: en träskål från 1600-talet, en järngryta från medeltiden, ett miljontals år gammalt dinosauriefossil eller en levande människa? Motivera.</p>",
+    "s": "<div class=\"facit-v2\"><p>Trädet tog upp kol medan det levde. Efter avverkningen slutade det ta upp nytt kol, och kol-14 började minska. Järn är inte organiskt kolmaterial. Dinosauriefossilet är för gammalt för mätbart kol-14, och en levande människa tar fortfarande upp kol.</p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
       "procedur"
@@ -158510,8 +158510,8 @@ window.BANK = [
     "familj": "Alfasönderfall",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>a) Uran-238 med atomnummer 92 blir bly-206 med atomnummer 82 genom alfa- och beta-minus-sönderfall. Bestäm antalet alfa och antalet beta-minus, i den ordningen.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[238-4n_\\alpha=206\\]</p><p>\\[n_\\alpha=8\\]</p><p>\\[92-2\\cdot8+n_{\\beta^-}=82\\]</p><p>\\[n_{\\beta^-}=6\\]</p></div></div>",
+    "t": "<p>Uran-238 med atomnummer 92 blir bly-206 med atomnummer 82 genom alfa- och beta-minus-sönderfall. Bestäm antalet alfa och antalet beta-minus, i den ordningen.</p>",
+    "s": "<div class=\"facit-v2\"><p>\\[238-4n_\\alpha=206\\]</p><p>\\[n_\\alpha=8\\]</p><p>\\[92-2\\cdot8+n_{\\beta^-}=82\\]</p><p>\\[n_{\\beta^-}=6\\]</p></div>",
     "ledtrad": "<p>Använd först masstalen, sedan atomnumren.</p>",
     "formaga": [
       "procedur",
@@ -160200,7 +160200,7 @@ window.BANK = [
     "omr": "fission",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>a) En neutron klyver uran-235 till Sb-133 och Nb-98 samt x neutroner. Uranatomens massa är 235,0439231 u. Fragmentens atommassor är 132,91525 u och 97,910328 u. Bestäm x och sedan frigjord energi i MeV.</p>",
+    "t": "<p>En neutron klyver uran-235 till Sb-133 och Nb-98 samt x neutroner. Uranatomens massa är 235,0439231 u. Fragmentens atommassor är 132,91525 u och 97,910328 u. Bestäm x och sedan frigjord energi i MeV.</p>",
     "s": "<div class=\"facit-v2\"><p>\\[236=133+98+x\\quad\\Rightarrow\\quad x=5\\]</p><p><div class=\"facit-v2\"><p>\\[m_{före}=235{,}0439231+1{,}008665\\]</p><p>\\[m_{före}=236{,}0525881\\ \\mathrm u\\]</p><p>\\[m_{fragment}=132{,}91525+97{,}910328\\]</p><p>\\[m_{fragment}=230{,}825578\\ \\mathrm u\\]</p><p>\\[m_{neutroner}=5\\cdot1{,}008665\\]\\[m_{neutroner}=5{,}043325\\ \\mathrm u\\]</p><p>\\[m_{efter}=m_{fragment}+m_{neutroner}\\]</p><p>\\[m_{efter}=235{,}868903\\ \\mathrm u\\]</p><p>Behåll decimalerna tills masskillnaden har räknats.</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}1836851\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx171\\ \\mathrm{MeV}\\]</p></div></p></div></p></div>",
     "id": "9.402",
     "miniräknare": true,

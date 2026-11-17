@@ -309,7 +309,7 @@
       const admin=typeof arAdmin!=="undefined"&&arAdmin?`<p class="aif-info"><button type="button" class="btn sm quiet" onclick="kgAi.admin()">Adminöversikt för AI-feedback</button></p>`:"";
       app.innerHTML=topbar()+`<main class="shell view"><div class="aif">
         <h1>Få feedback på din lösning</h1>
-        <p class="aif-ingress">Fotografera din lösning för att se vad som blev fel, eller vad du behöver tänka på när du redovisar.</p>
+        <p class="aif-ingress">Fotografera din lösning och se var det blev fel, eller hur du kan redovisa tydligare.</p>
         ${kropp}${admin}</div></main>`;
       afterRender();
       rot=app;
@@ -361,7 +361,7 @@
     ov.className="aif-overlay"; ov.setAttribute("role","dialog"); ov.setAttribute("aria-modal","true"); ov.setAttribute("aria-label","Få feedback på din lösning");
     ov.innerHTML=`<div class="aif-ov-ruta"><div class="aif-ov-topp"><b>Få feedback på din lösning</b>
       <button type="button" class="btn sm" onclick="kgAi.stang()">Tillbaka till uppgiften</button></div>
-      <p class="aif-ingress">Fotografera din lösning för att se vad som blev fel, eller vad du behöver tänka på när du redovisar.</p>
+      <p class="aif-ingress">Fotografera din lösning och se var det blev fel, eller hur du kan redovisa tydligare.</p>
       <div class="aif-ov-kropp"></div></div>`;
     document.body.appendChild(ov);
     document.body.classList.add("aif-las");
@@ -499,7 +499,7 @@
     if(!MOLN_PA()) return "";
     return `<button type="button" class="aif-hemkort" onclick="kgAi.oppna()">
       <span class="aif-ikon">${KAMERA}</span>
-      <span><b>Få feedback på din lösning</b><span class="aif-sub">Fotografera din lösning och se vad som blev fel</span></span>
+      <span><b>Få feedback på din lösning</b><span class="aif-sub">Fotografera din lösning och se vad som blev fel eller kan redovisas bättre</span></span>
       <span class="aif-pil" aria-hidden="true">→</span></button>`;
   }
 

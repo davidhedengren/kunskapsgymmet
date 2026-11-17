@@ -103110,7 +103110,7 @@ window.BANK = [
     "niva": "E",
     "typ": "aktivitet efter två halveringstider",
     "poang": "(1/0/0)",
-    "t": "<p>Ett preparat har aktiviteten \\(960\\,\\mathrm{Bq}\\). Efter två halveringstider, vilken aktivitet återstår?</p>",
+    "t": "<p>Ett preparat har aktiviteten \\(960\\,\\mathrm{Bq}\\). Vilken aktivitet återstår efter två halveringstider?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktiviteten halveras två gånger.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\frac{960}{2^2}=240\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\ \\mathrm{Bq}\\).</p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
@@ -104252,7 +104252,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Diagrammet visar aktiviteten hos ett radioaktivt preparat.</p><div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"147.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"235.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"410.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"497.5\" y1=\"30\" x2=\"497.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"497.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"228.75\" x2=\"585\" y2=\"228.75\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"233.75\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"96.25\" x2=\"585\" y2=\"96.25\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"101.25\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">800</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (min)</text><polyline points=\"60.00,30.00 63.28,33.42 66.56,36.80 69.84,40.13 73.12,43.42 76.41,46.67 79.69,49.88 82.97,53.04 86.25,56.17 89.53,59.25 92.81,62.30 96.09,65.30 99.38,68.27 102.66,71.19 105.94,74.08 109.22,76.94 112.50,79.75 115.78,82.53 119.06,85.28 122.34,87.98 125.62,90.66 128.91,93.30 132.19,95.90 135.47,98.47 138.75,101.01 142.03,103.51 145.31,105.99 148.59,108.43 151.88,110.84 155.16,113.21 158.44,115.56 161.72,117.88 165.00,120.17 168.28,122.42 171.56,124.65 174.84,126.85 178.12,129.02 181.41,131.17 184.69,133.28 187.97,135.37 191.25,137.43 194.53,139.46 197.81,141.47 201.09,143.46 204.38,145.41 207.66,147.34 210.94,149.25 214.22,151.13 217.50,152.99 220.78,154.82 224.06,156.63 227.34,158.42 230.62,160.18 233.91,161.92 237.19,163.64 240.47,165.34 243.75,167.01 247.03,168.67 250.31,170.30 253.59,171.91 256.88,173.50 260.16,175.07 263.44,176.61 266.72,178.14 270.00,179.65 273.28,181.14 276.56,182.61 279.84,184.06 283.12,185.50 286.41,186.91 289.69,188.31 292.97,189.68 296.25,191.04 299.53,192.38 302.81,193.71 306.09,195.02 309.38,196.31 312.66,197.58 315.94,198.84 319.22,200.08 322.50,201.31 325.78,202.52 329.06,203.71 332.34,204.89 335.62,206.05 338.91,207.20 342.19,208.34 345.47,209.46 348.75,210.56 352.03,211.65 355.31,212.73 358.59,213.79 361.88,214.84 365.16,215.87 368.44,216.89 371.72,217.90 375.00,218.90 378.28,219.88 381.56,220.85 384.84,221.81 388.12,222.75 391.41,223.69 394.69,224.61 397.97,225.52 401.25,226.41 404.53,227.30 407.81,228.17 411.09,229.04 414.38,229.89 417.66,230.73 420.94,231.56 424.22,232.38 427.50,233.19 430.78,233.98 434.06,234.77 437.34,235.55 440.62,236.32 443.91,237.08 447.19,237.82 450.47,238.56 453.75,239.29 457.03,240.01 460.31,240.72 463.59,241.42 466.88,242.11 470.16,242.80 473.44,243.47 476.72,244.14 480.00,244.79 483.28,245.44 486.56,246.08 489.84,246.71 493.12,247.34 496.41,247.95 499.69,248.56 502.97,249.16 506.25,249.75 509.53,250.33 512.81,250.91 516.09,251.48 519.38,252.04 522.66,252.60 525.94,253.14 529.22,253.68 532.50,254.22 535.78,254.74 539.06,255.26 542.34,255.78 545.62,256.28 548.91,256.78 552.19,257.28 555.47,257.76 558.75,258.25 562.03,258.72 565.31,259.19 568.59,259.65 571.88,260.11 575.16,260.56 578.44,261.00 581.72,261.44 585.00,261.88\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/></svg></div><p>a) Bestäm halveringstiden i minuter.</p><p>b) Beräkna aktiviteten efter 80 minuter.</p><p>c) Varför når den matematiska kurvan aldrig exakt noll?</p>",
+    "t": "<p>Diagrammet visar aktiviteten hos ett radioaktivt preparat.</p><div class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"355\" viewBox=\"0 0 620 355\" role=\"img\" aria-label=\"Aktivitet som funktion av tid\" style=\"font-family:Arial,sans-serif\"><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"60.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"147.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">10</text><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"235.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">20</text><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"322.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">30</text><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"410.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">40</text><line x1=\"497.5\" y1=\"30\" x2=\"497.5\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"497.5\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">50</text><line x1=\"585.0\" y1=\"30\" x2=\"585.0\" y2=\"295\" stroke=\"#d3dae1\"/><text x=\"585.0\" y=\"319\" text-anchor=\"middle\" font-size=\"16\" fill=\"#25384a\">60</text><line x1=\"60\" y1=\"295.0\" x2=\"585\" y2=\"295.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"300.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">0</text><line x1=\"60\" y1=\"228.75\" x2=\"585\" y2=\"228.75\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"233.75\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">200</text><line x1=\"60\" y1=\"162.5\" x2=\"585\" y2=\"162.5\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"167.5\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">400</text><line x1=\"60\" y1=\"96.25\" x2=\"585\" y2=\"96.25\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"101.25\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">600</text><line x1=\"60\" y1=\"30.0\" x2=\"585\" y2=\"30.0\" stroke=\"#d3dae1\"/><text x=\"48\" y=\"35.0\" text-anchor=\"end\" font-size=\"16\" fill=\"#25384a\">800</text><path d=\"M60,30V295H585\" fill=\"none\" stroke=\"#25384a\" stroke-width=\"2\"/><text x=\"80\" y=\"19\" font-size=\"18\" fill=\"#25384a\">A (Bq)</text><text x=\"585\" y=\"347\" text-anchor=\"end\" font-size=\"18\" fill=\"#25384a\">t (min)</text><polyline points=\"60.00,30.00 63.28,33.42 66.56,36.80 69.84,40.13 73.12,43.42 76.41,46.67 79.69,49.88 82.97,53.04 86.25,56.17 89.53,59.25 92.81,62.30 96.09,65.30 99.38,68.27 102.66,71.19 105.94,74.08 109.22,76.94 112.50,79.75 115.78,82.53 119.06,85.28 122.34,87.98 125.62,90.66 128.91,93.30 132.19,95.90 135.47,98.47 138.75,101.01 142.03,103.51 145.31,105.99 148.59,108.43 151.88,110.84 155.16,113.21 158.44,115.56 161.72,117.88 165.00,120.17 168.28,122.42 171.56,124.65 174.84,126.85 178.12,129.02 181.41,131.17 184.69,133.28 187.97,135.37 191.25,137.43 194.53,139.46 197.81,141.47 201.09,143.46 204.38,145.41 207.66,147.34 210.94,149.25 214.22,151.13 217.50,152.99 220.78,154.82 224.06,156.63 227.34,158.42 230.62,160.18 233.91,161.92 237.19,163.64 240.47,165.34 243.75,167.01 247.03,168.67 250.31,170.30 253.59,171.91 256.88,173.50 260.16,175.07 263.44,176.61 266.72,178.14 270.00,179.65 273.28,181.14 276.56,182.61 279.84,184.06 283.12,185.50 286.41,186.91 289.69,188.31 292.97,189.68 296.25,191.04 299.53,192.38 302.81,193.71 306.09,195.02 309.38,196.31 312.66,197.58 315.94,198.84 319.22,200.08 322.50,201.31 325.78,202.52 329.06,203.71 332.34,204.89 335.62,206.05 338.91,207.20 342.19,208.34 345.47,209.46 348.75,210.56 352.03,211.65 355.31,212.73 358.59,213.79 361.88,214.84 365.16,215.87 368.44,216.89 371.72,217.90 375.00,218.90 378.28,219.88 381.56,220.85 384.84,221.81 388.12,222.75 391.41,223.69 394.69,224.61 397.97,225.52 401.25,226.41 404.53,227.30 407.81,228.17 411.09,229.04 414.38,229.89 417.66,230.73 420.94,231.56 424.22,232.38 427.50,233.19 430.78,233.98 434.06,234.77 437.34,235.55 440.62,236.32 443.91,237.08 447.19,237.82 450.47,238.56 453.75,239.29 457.03,240.01 460.31,240.72 463.59,241.42 466.88,242.11 470.16,242.80 473.44,243.47 476.72,244.14 480.00,244.79 483.28,245.44 486.56,246.08 489.84,246.71 493.12,247.34 496.41,247.95 499.69,248.56 502.97,249.16 506.25,249.75 509.53,250.33 512.81,250.91 516.09,251.48 519.38,252.04 522.66,252.60 525.94,253.14 529.22,253.68 532.50,254.22 535.78,254.74 539.06,255.26 542.34,255.78 545.62,256.28 548.91,256.78 552.19,257.28 555.47,257.76 558.75,258.25 562.03,258.72 565.31,259.19 568.59,259.65 571.88,260.11 575.16,260.56 578.44,261.00 581.72,261.44 585.00,261.88\" fill=\"none\" stroke=\"#bc3f34\" stroke-width=\"3\"/></svg></div><p>a) Bestäm halveringstiden i minuter.</p><p>b) Beräkna aktiviteten efter 80 minuter.</p><p>c) Varför når kurvan aldrig exakt noll?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Aktiviteten minskar från 800 till 400 Bq på 20 minuter.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[80/20=4\\]</p><p>\\[A=800/2^4=50\\ \\mathrm{Bq}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>En positiv startaktivitet förblir positiv i modellen. I ett riktigt prov finns ett ändligt antal kärnor; den sista kan till slut sönderfalla.</p></div></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
@@ -104336,7 +104336,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Den matematiska sönderfallsmodellen är A(t) = A₀·2^(−t/T). Varför når kurvan aldrig exakt noll?",
+        "fraga": "Aktiviteten halveras under varje halveringstid. Varför når kurvan aldrig exakt noll?",
         "s": "<div class=\"facit-v2\"><p>En positiv startaktivitet förblir positiv i modellen. I ett riktigt prov finns ett ändligt antal kärnor; den sista kan till slut sönderfalla.</p></div>",
         "svarstyp": "alternativ",
         "rättSvar": "Varje halvering lämnar hälften av det som fortfarande återstår.",
@@ -104366,7 +104366,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Den matematiska sönderfallsmodellen är A(t) = A₀·2^(−t/T). Varför når kurvan aldrig exakt noll?</p>",
+        "t": "<p>Aktiviteten halveras under varje halveringstid. Varför når kurvan aldrig exakt noll?</p>",
         "miniräknare": true
       }
     ],
@@ -105589,7 +105589,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Järnets molmassa är 55,85 g/mol.</p><p>a) Beräkna antalet atomer i 1,0 g järn och visa hur Avogadros konstant används.</p><p>b) Beräkna antalet atomer i en järnspik med massan 3,5 g.</p>",
+    "t": "<p>Järnets molmassa är 55,85 g/mol.</p><p>a) Hur många atomer finns i 1,0 g järn?</p><p>b) Hur många atomer finns i en järnspik med massan 3,5 g?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}n&=1{,}0/55{,}85\\\\&\\approx0{,}01791\\ \\mathrm{mol}\\end{aligned}\\]</p><p>\\[\\begin{aligned}N&=nN_A\\\\&\\approx1{,}078\\cdot10^{22}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}N&=3{,}5\\cdot N_{1g}\\\\&\\approx3{,}77\\cdot10^{22}\\end{aligned}\\]</p></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
@@ -105742,7 +105742,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En atom av helium-4 har 2 protoner, 2 neutroner och atommassan 4,002603 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u.</p><p>a) Bestäm massdefekten i u.</p><p>b) Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "t": "<p>En atom av helium-4 har 2 protoner, 2 neutroner och atommassan 4,002603 u.</p><p>a) Bestäm massdefekten i u.</p><p>b) Bestäm bindningsenergin per nukleon i MeV.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=2\\cdot1{,}007825+2\\cdot1{,}008665\\\\&\\approx4{,}032980\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=4{,}03298-4{,}002603\\\\&\\approx0{,}030377\\ \\mathrm{u}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}030377\\cdot931{,}5\\\\&\\approx28{,}296\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=28{,}296176/4\\\\&\\approx7{,}074\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -105773,7 +105773,7 @@ window.BANK = [
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
     ],
-    "spelIntro": "<p>En atom av helium-4 har 2 protoner, 2 neutroner och atommassan 4,002603 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u.</p>",
+    "spelIntro": "<p>En atom av helium-4 har 2 protoner, 2 neutroner och atommassan 4,002603 u.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -105791,13 +105791,13 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
-        "t": "<p>En atom av helium-4 har 2 protoner, 2 neutroner och atommassan 4,002603 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. Bestäm massdefekten i u.</p>",
+        "t": "<p>En atom av helium-4 har 2 protoner, 2 neutroner och atommassan 4,002603 u. Bestäm massdefekten i u.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "En kärna har 4 nukleoner och massdefekten 0.030377 u. Bestäm bindningsenergin per nukleon i MeV.",
+        "fraga": "En kärna har 4 nukleoner och massdefekten 0,030377 u. Bestäm bindningsenergin per nukleon i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}030377\\cdot931{,}5\\\\&\\approx28{,}296\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=28{,}296176/4\\\\&\\approx7{,}074\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 7.074043875,
@@ -105810,7 +105810,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Beräkna total bindningsenergi och dela med antalet nukleoner.</p>",
-        "t": "<p>En kärna har 4 nukleoner och massdefekten 0.030377 u. Bestäm bindningsenergin per nukleon i MeV.</p>",
+        "t": "<p>En kärna har 4 nukleoner och massdefekten 0,030377 u. Bestäm bindningsenergin per nukleon i MeV.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -106090,7 +106090,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>a) Omvandla 1,000000 u till kg och motsvarande energi i MeV.</p><p>b) Omvandla 0,030000 u till kg och motsvarande energi i MeV.</p><p>c) Omvandla 4,002602 u till kg och motsvarande energi i MeV.</p>",
+    "t": "<p>a) Hur många kg är 1,000000 u, och vilken energi i MeV motsvarar massan?</p><p>b) Hur många kg är 0,030000 u, och vilken energi i MeV motsvarar massan?</p><p>c) Hur många kg är 4,002602 u, och vilken energi i MeV motsvarar massan?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=1\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx1{,}66054\\cdot10^{-27}\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=1\\cdot931{,}5\\\\&\\approx931{,}50\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=0{,}03\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx4{,}98162\\cdot10^{-29}\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}03\\cdot931{,}5\\\\&\\approx27{,}95\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=4{,}002602\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx6{,}6464807\\cdot10^{-27}\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=4{,}002602\\cdot931{,}5\\\\&\\approx3728{,}42\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
@@ -106147,7 +106147,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En massa är 1 u.  Bestäm massan i kg och motsvarande energi i MeV.",
+        "fraga": "En massa är 1 u. Bestäm massan i kg och motsvarande energi i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=1\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx1{,}66054\\cdot10^{-27}\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=1\\cdot931{,}5\\\\&\\approx931{,}50\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -106169,7 +106169,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Multiplicera massan i u med respektive omvandlingsfaktor.</p>",
-        "t": "<p>En massa är 1 u.  Bestäm massan i kg och motsvarande energi i MeV.</p>",
+        "t": "<p>En massa är 1 u. Bestäm massan i kg och motsvarande energi i MeV.</p>",
         "arbetsinsats": 1,
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
@@ -106180,7 +106180,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En massa är 0,03 u.  Bestäm massan i kg och motsvarande energi i MeV.",
+        "fraga": "En massa är 0,03 u. Bestäm massan i kg och motsvarande energi i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=0{,}03\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx4{,}98162\\cdot10^{-29}\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}03\\cdot931{,}5\\\\&\\approx27{,}95\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -106202,7 +106202,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Multiplicera massan i u med respektive omvandlingsfaktor.</p>",
-        "t": "<p>En massa är 0,03 u.  Bestäm massan i kg och motsvarande energi i MeV.</p>",
+        "t": "<p>En massa är 0,03 u. Bestäm massan i kg och motsvarande energi i MeV.</p>",
         "arbetsinsats": 1,
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
@@ -106213,7 +106213,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En massa är 4,002602 u.  Bestäm massan i kg och motsvarande energi i MeV.",
+        "fraga": "En massa är 4,002602 u. Bestäm massan i kg och motsvarande energi i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=4{,}002602\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx6{,}6464807\\cdot10^{-27}\\ \\mathrm{kg}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=4{,}002602\\cdot931{,}5\\\\&\\approx3728{,}42\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -106235,7 +106235,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Multiplicera massan i u med respektive omvandlingsfaktor.</p>",
-        "t": "<p>En massa är 4,002602 u.  Bestäm massan i kg och motsvarande energi i MeV.</p>",
+        "t": "<p>En massa är 4,002602 u. Bestäm massan i kg och motsvarande energi i MeV.</p>",
         "arbetsinsats": 1,
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
@@ -106994,7 +106994,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Ett preparat har 3,0·10¹⁸ radioaktiva kärnor. Halveringstiden är 30 år. Bestäm aktiviteten. Ett år är 3,156·10⁷ s.</p>",
+    "t": "<p>Ett preparat har 3,0·10¹⁸ radioaktiva kärnor. Halveringstiden är 30 år. Ett år är 3,156·10⁷ s. Bestäm aktiviteten.</p>",
     "s": "<div class=\"facit-v2\"><p>\\[T=30\\cdot3{,}156\\cdot10^7=9{,}468\\cdot10^8\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx7{,}32\\cdot10^{-10}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda\\cdot3{,}0\\cdot10^{18}\\]</p><p>\\[A\\approx2200000000\\ \\mathrm{Bq}\\]</p></div></p></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
@@ -107055,7 +107055,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ett preparat har 5,0 miljoner radioaktiva kärnor. Halveringstiden är 2,4 minuter.</p><p>a) Bestäm sönderfallskonstanten i s⁻¹.</p><p>b) Bestäm aktiviteten i kBq.</p>",
+    "t": "<p>Ett preparat har 5,0 miljoner radioaktiva kärnor. Halveringstiden är 2,4 minuter.</p><p>a) Bestäm sönderfallskonstanten i s⁻¹.</p><p>b) Bestäm aktiviteten.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[T=2{,}4\\cdot60=144\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/144\\]</p><p>\\[\\lambda\\approx0{,}00481\\ \\mathrm{s^{-1}}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[5{,}0\\ \\text{miljoner}=5{,}0\\cdot10^6\\]</p><p><div class=\"facit-v2\"><p>\\[A=0{,}004814\\cdot5{,}0\\cdot10^6\\]</p><p>\\[A\\approx24100\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=24070/1000\\]</p><p>\\[A\\approx24{,}1\\ \\mathrm{kBq}\\]</p></div></p></div></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
@@ -107111,7 +107111,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Ett preparat har 5,0 miljoner radioaktiva kärnor och sönderfallskonstanten 0,004814 s⁻¹. Bestäm aktiviteten i kBq.",
+        "fraga": "Ett preparat har 5,0 miljoner radioaktiva kärnor och sönderfallskonstanten 0,004814 s⁻¹. Bestäm aktiviteten.",
         "s": "<div class=\"facit-v2\"><p>\\[5{,}0\\ \\text{miljoner}=5{,}0\\cdot10^6\\]</p><p><div class=\"facit-v2\"><p>\\[A=0{,}004814\\cdot5{,}0\\cdot10^6\\]</p><p>\\[A\\approx24100\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=24070/1000\\]</p><p>\\[A\\approx24{,}1\\ \\mathrm{kBq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 24.07,
@@ -107124,7 +107124,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
-        "t": "<p>Ett preparat har 5,0 miljoner radioaktiva kärnor och sönderfallskonstanten 0,004814 s⁻¹. Bestäm aktiviteten i kBq.</p>",
+        "t": "<p>Ett preparat har 5,0 miljoner radioaktiva kärnor och sönderfallskonstanten 0,004814 s⁻¹. Bestäm aktiviteten.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -107149,7 +107149,7 @@ window.BANK = [
     "niva": "E",
     "typ": "direkt halvering av aktivitet",
     "poang": "(1/0/0)",
-    "t": "<p>Ett preparat har aktiviteten \\(500\\,\\mathrm{Bq}\\). Efter en halveringstid återstår vilken aktivitet?</p>",
+    "t": "<p>Ett preparat har aktiviteten \\(500\\,\\mathrm{Bq}\\). Vilken aktivitet återstår efter en halveringstid?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En halveringstid halverar aktiviteten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\frac{500}{2}=250\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\ \\mathrm{Bq}\\).</p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
@@ -107178,7 +107178,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(4/0/0)",
-    "t": "<p>En deuteriumatom, ²₁H, har massan 2,014102 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u.</p><p>a) Hur stor massa har en fri väteatom och en fri neutron tillsammans?</p><p>b) Bestäm deuteriums massdefekt i u.</p><p>c) Bestäm bindningsenergin i MeV.</p><p>d) Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "t": "<p>En deuteriumatom, ²₁H, har massan 2,014102 u.</p><p>a) Hur stor massa har en fri väteatom och en fri neutron tillsammans?</p><p>b) Bestäm deuteriums massdefekt i u.</p><p>c) Bestäm bindningsenergin i MeV.</p><p>d) Bestäm bindningsenergin per nukleon i MeV.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Väteatomen räknar både protonen och elektronen.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=1{,}007825+1{,}008665\\\\&=2{,}016490\\ \\mathrm u\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=2{,}016490-2{,}014102\\\\&=0{,}002388\\ \\mathrm u\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}002388\\cdot931{,}5\\\\&\\approx2{,}224\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b/A&=2{,}224422/2\\\\&\\approx1{,}112\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -107227,7 +107227,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En deuteriumatom består av en proton, en neutron och en elektron. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. Hur stor massa har en fri väteatom och en fri neutron tillsammans?",
+        "fraga": "En deuteriumatom består av en proton, en neutron och en elektron. Hur stor massa har en fri väteatom och en fri neutron tillsammans?",
         "s": "<div class=\"facit-v2\"><p>Väteatomen räknar både protonen och elektronen.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=1{,}007825+1{,}008665\\\\&=2{,}016490\\ \\mathrm u\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2.01649,
@@ -107240,7 +107240,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p>",
-        "t": "<p>En deuteriumatom består av en proton, en neutron och en elektron. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. Hur stor massa har en fri väteatom och en fri neutron tillsammans?</p>",
+        "t": "<p>En deuteriumatom består av en proton, en neutron och en elektron. Hur stor massa har en fri väteatom och en fri neutron tillsammans?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -107312,7 +107312,7 @@ window.BANK = [
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
     ],
-    "spelIntro": "<p>En deuteriumatom, ²₁H, har massan 2,014102 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u.</p>",
+    "spelIntro": "<p>En deuteriumatom, ²₁H, har massan 2,014102 u.</p>",
     "manuellKomplettering": false
   },
   {
@@ -107402,7 +107402,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Järn-56 har bindningsenergin 492 MeV och består av 56 nukleoner.</p><p>a) Bestäm massdefekten i u.</p><p>b) Bestäm massdefekten.</p><p>c) Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "t": "<p>Järn-56 har bindningsenergin 492 MeV och består av 56 nukleoner.</p><p>a) Bestäm massdefekten i u.</p><p>b) Bestäm massdefekten i kg.</p><p>c) Bestäm bindningsenergin per nukleon i MeV.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=492/931{,}5\\\\&\\approx0{,}5282\\ \\mathrm{u}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=0{,}52818035\\cdot1{,}66054\\cdot10^{-27}\\\\&\\approx8{,}7706461\\cdot10^{-28}\\ \\mathrm{kg}\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b/A&=492/56\\\\&\\approx8{,}79\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -107521,7 +107521,7 @@ window.BANK = [
     "niva": "E",
     "typ": "neutronantal i klor-37",
     "poang": "(1/0/0)",
-    "t": "<p>För nukliden \\(^{37}_{17}\\mathrm{Cl}\\), bestäm antalet neutroner.</p>",
+    "t": "<p>Hur många neutroner har nukliden \\(^{37}_{17}\\mathrm{Cl}\\)?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Subtrahera atomnumret från masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=37-17=20\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 20 neutroner.</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
@@ -107801,7 +107801,7 @@ window.BANK = [
     "niva": "E",
     "typ": "neutronantal i uran-238",
     "poang": "(1/0/0)",
-    "t": "<p>Uran-238 har atomnummer 92. Hur många neutroner har kärnan?</p>",
+    "t": "<p>Uran-238 har atomnumret 92. Hur många neutroner har kärnan?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutronantalet är masstal minus atomnummer.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=238-92=146\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 146 neutroner.</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
@@ -108180,7 +108180,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Helium-4 har atommassan 4,002602 u och uran-238 har 238,050788 u.</p><p>a) Bestäm bindningsenergin per nukleon för helium-4 i MeV.</p><p>b) Bestäm bindningsenergin per nukleon för uran-238 i MeV. Jämför värdena: vilken kärna är hårdare bunden per nukleon?</p>",
+    "t": "<p>Helium-4 har atommassan 4,002602 u och uran-238 har atommassan 238,050788 u.</p><p>a) Bestäm bindningsenergin per nukleon för helium-4 i MeV.</p><p>b) Bestäm bindningsenergin per nukleon för uran-238 i MeV. Vilken av kärnorna har störst bindningsenergi per nukleon?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=2\\cdot1{,}007825\\\\&\\quad+2\\cdot1{,}008665\\\\&\\quad-4{,}002602\\\\&\\approx0{,}030378\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=0{,}030378\\cdot931{,}5/4\\\\&\\approx7{,}07\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=92\\cdot1{,}007825\\\\&\\quad+146\\cdot1{,}008665\\\\&\\quad-238{,}050788\\\\&\\approx1{,}934202\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=1{,}934202\\cdot931{,}5/238\\\\&\\approx7{,}57\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p>Uran-238 är hårdare bundet per nukleon: cirka 7,57 MeV jämfört med heliums 7,07 MeV.</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -108211,7 +108211,7 @@ window.BANK = [
     "familjTidigare": [
       "Nuklider, isotoper och bindningsenergi"
     ],
-    "spelIntro": "<p>Helium-4 har atommassan 4,002602 u och uran-238 har 238,050788 u.</p>",
+    "spelIntro": "<p>Helium-4 har atommassan 4,002602 u och uran-238 har atommassan 238,050788 u.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -108303,7 +108303,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna av kol-12 består av 12 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 92,16 MeV. Hur stor är bindningsenergin per nukleon?</p>",
+    "t": "<p>En kol-12-kärna har 12 nukleoner och bindningsenergin 92,16 MeV. Hur stor är bindningsenergin per nukleon?</p>",
     "s": "<div class=\"facit-v2\"><p>Fördela den totala bindningsenergin på kärnans nukleoner.</p><p>\\[E_b/A=92{,}16/12\\approx7{,}68\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -108566,7 +108566,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna av järn-56 består av 56 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 492,2 MeV. Hur stor är bindningsenergin per nukleon?</p>",
+    "t": "<p>En järn-56-kärna har 56 nukleoner och bindningsenergin 492,2 MeV. Hur stor är bindningsenergin per nukleon?</p>",
     "s": "<div class=\"facit-v2\"><p>Fördela den totala bindningsenergin på kärnans nukleoner.</p><p>\\[E_b/A=492{,}2/56\\approx8{,}79\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -108820,7 +108820,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(4/0/0)",
-    "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter.</p><p>a) Bestäm tid (min), andel kvar (%) och aktivitet (Bq) efter 1 halveringstider.</p><p>b) Bestäm tid (min), andel kvar (%) och aktivitet (Bq) efter 2 halveringstider.</p><p>c) Bestäm tid (min), andel kvar (%) och aktivitet (Bq) efter 3 halveringstider.</p><p>d) Bestäm tid (min), andel kvar (%) och aktivitet (Bq) efter 4 halveringstider.</p>",
+    "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter.</p><p>a) Bestäm tiden, andelen kvar och aktiviteten efter 1 halveringstid.</p><p>b) Bestäm tiden, andelen kvar och aktiviteten efter 2 halveringstider.</p><p>c) Bestäm tiden, andelen kvar och aktiviteten efter 3 halveringstider.</p><p>d) Bestäm tiden, andelen kvar och aktiviteten efter 4 halveringstider.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[t=1\\cdot15=15\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^1\\]</p><p>\\[p\\approx50\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^1\\]</p><p>\\[A\\approx320\\ \\mathrm{Bq}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[t=2\\cdot15=30\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^2\\]</p><p>\\[p\\approx25\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^2\\]</p><p>\\[A\\approx160\\ \\mathrm{Bq}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[t=3\\cdot15=45\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^3\\]</p><p>\\[p\\approx12{,}5\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^3\\]</p><p>\\[A\\approx80\\ \\mathrm{Bq}\\]</p></div></p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[t=4\\cdot15=60\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^4\\]</p><p>\\[p\\approx6{,}25\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^4\\]</p><p>\\[A\\approx40\\ \\mathrm{Bq}\\]</p></div></p></div></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
@@ -108894,7 +108894,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 1 halveringstider.",
+        "fraga": "Bestäm tiden, andelen kvar och aktiviteten efter 1 halveringstid.",
         "s": "<div class=\"facit-v2\"><p>\\[t=1\\cdot15=15\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^1\\]</p><p>\\[p\\approx50\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^1\\]</p><p>\\[A\\approx320\\ \\mathrm{Bq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -108919,7 +108919,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 1 halveringstider.</p>",
+        "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden, andelen kvar och aktiviteten efter 1 halveringstid.</p>",
         "arbetsinsats": 1,
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
@@ -108931,7 +108931,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 2 halveringstider.",
+        "fraga": "Bestäm tiden, andelen kvar och aktiviteten efter 2 halveringstider.",
         "s": "<div class=\"facit-v2\"><p>\\[t=2\\cdot15=30\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^2\\]</p><p>\\[p\\approx25\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^2\\]</p><p>\\[A\\approx160\\ \\mathrm{Bq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -108956,7 +108956,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 2 halveringstider.</p>",
+        "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden, andelen kvar och aktiviteten efter 2 halveringstider.</p>",
         "arbetsinsats": 1,
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
@@ -108968,7 +108968,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 3 halveringstider.",
+        "fraga": "Bestäm tiden, andelen kvar och aktiviteten efter 3 halveringstider.",
         "s": "<div class=\"facit-v2\"><p>\\[t=3\\cdot15=45\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^3\\]</p><p>\\[p\\approx12{,}5\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^3\\]</p><p>\\[A\\approx80\\ \\mathrm{Bq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -108993,7 +108993,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 3 halveringstider.</p>",
+        "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden, andelen kvar och aktiviteten efter 3 halveringstider.</p>",
         "arbetsinsats": 1,
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
@@ -109005,7 +109005,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 4 halveringstider.",
+        "fraga": "Bestäm tiden, andelen kvar och aktiviteten efter 4 halveringstider.",
         "s": "<div class=\"facit-v2\"><p>\\[t=4\\cdot15=60\\ \\mathrm{min}\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/2^4\\]</p><p>\\[p\\approx6{,}25\\ \\%\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=640/2^4\\]</p><p>\\[A\\approx40\\ \\mathrm{Bq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -109030,7 +109030,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden i minuter, andelen kvar i procent och aktiviteten i Bq efter 4 halveringstider.</p>",
+        "t": "<p>Startaktiviteten är 640 Bq och halveringstiden är 15 minuter. Bestäm tiden, andelen kvar och aktiviteten efter 4 halveringstider.</p>",
         "arbetsinsats": 1,
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
@@ -109352,7 +109352,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna av helium-4 består av 4 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 28,28 MeV. Hur stor är bindningsenergin per nukleon?</p>",
+    "t": "<p>En helium-4-kärna har 4 nukleoner och bindningsenergin 28,28 MeV. Hur stor är bindningsenergin per nukleon?</p>",
     "s": "<div class=\"facit-v2\"><p>Fördela den totala bindningsenergin på kärnans nukleoner.</p><p>\\[E_b/A=28{,}28/4\\approx7{,}07\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -109382,7 +109382,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Kobolt-60 har halveringstiden 5,27 år och startaktiviteten är 40 kBq.</p><p>a) Bestäm aktiviteten efter 5,27 år i kBq.</p><p>b) Bestäm aktiviteten efter 10,5 år i kBq.</p><p>c) Bestäm aktiviteten efter 15,8 år i kBq.</p>",
+    "t": "<p>Kobolt-60 har halveringstiden 5,27 år och startaktiviteten är 40 kBq.</p><p>a) Bestäm aktiviteten efter 5,27 år.</p><p>b) Bestäm aktiviteten efter 10,5 år.</p><p>c) Bestäm aktiviteten efter 15,8 år.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[A=40\\cdot2^{-5{,}27/5{,}27}\\]</p><p>\\[A\\approx20\\ \\mathrm{kBq}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[A=40\\cdot2^{-10{,}5/5{,}27}\\]</p><p>\\[A\\approx10{,}1\\ \\mathrm{kBq}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[A=40\\cdot2^{-15{,}8/5{,}27}\\]</p><p>\\[A\\approx5{,}01\\ \\mathrm{kBq}\\]</p></div></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
@@ -109412,7 +109412,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 5,27 år i kBq.",
+        "fraga": "Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 5,27 år.",
         "s": "<div class=\"facit-v2\"><p>\\[A=40\\cdot2^{-5{,}27/5{,}27}\\]</p><p>\\[A\\approx20\\ \\mathrm{kBq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 20.0,
@@ -109425,13 +109425,13 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 5,27 år i kBq.</p>",
+        "t": "<p>Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 5,27 år.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 10,5 år i kBq.",
+        "fraga": "Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 10,5 år.",
         "s": "<div class=\"facit-v2\"><p>\\[A=40\\cdot2^{-10{,}5/5{,}27}\\]</p><p>\\[A\\approx10{,}1\\ \\mathrm{kBq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 10.052749429484983,
@@ -109444,13 +109444,13 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 10,5 år i kBq.</p>",
+        "t": "<p>Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 10,5 år.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 15,8 år i kBq.",
+        "fraga": "Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 15,8 år.",
         "s": "<div class=\"facit-v2\"><p>\\[A=40\\cdot2^{-15{,}8/5{,}27}\\]</p><p>\\[A\\approx5{,}01\\ \\mathrm{kBq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5.006580675694967,
@@ -109463,7 +109463,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 15,8 år i kBq.</p>",
+        "t": "<p>Kobolt-60 har halveringstiden 5,27 år. Ett preparat har aktiviteten 40 kBq från början. Bestäm aktiviteten efter 15,8 år.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -109764,7 +109764,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
-        "t": "<p>En banan har aktiviteten 15 Bq från kalium-40. Aktiviteten ändras mycket lite på ett år. Hur många sönderfall sker i genomsnitt under ett år? Ett år är 3,156·10⁷ s.</p>",
+        "t": "<p>En banan har aktiviteten 15 Bq från kalium-40. Aktiviteten ändras mycket lite på ett år. Ett år är 3,156·10⁷ s. Hur många sönderfall sker i genomsnitt under ett år?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -109991,7 +109991,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En liten strålkälla ger 100 µSv per timme på avståndet 1 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är den på avståndet 2,2 m?</p>",
+    "t": "<p>En liten strålkälla ger 100 µSv per timme på avståndet 1 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är dosen per timme på avståndet 2,2 m?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[\\dot H_2=\\dot H_1(r_1/r_2)^2\\]</p><p><div class=\"facit-v2\"><p>\\[\\dot H_2=100(1/2{,}2)^2\\]</p><p>\\[\\dot H_2\\approx20{,}7\\ \\mathrm{\\mu Sv/h}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -111626,7 +111626,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna av kväve-14 består av 14 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 104,7 MeV. Hur stor är bindningsenergin per nukleon?</p>",
+    "t": "<p>En kväve-14-kärna har 14 nukleoner och bindningsenergin 104,7 MeV. Hur stor är bindningsenergin per nukleon?</p>",
     "s": "<div class=\"facit-v2\"><p>Fördela den totala bindningsenergin på kärnans nukleoner.</p><p>\\[E_b/A=104{,}7/14\\approx7{,}48\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -111865,7 +111865,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En atom av litium-7 har 3 protoner, 4 neutroner och atommassan 7,016003 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u.</p><p>a) Hur många protoner och neutroner har kärnan?</p><p>b) Bestäm massdefekten i u.</p><p>c) Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "t": "<p>En atom av litium-7 har 3 protoner, 4 neutroner och atommassan 7,016003 u.</p><p>a) Hur många protoner och neutroner har kärnan?</p><p>b) Bestäm massdefekten i u.</p><p>c) Bestäm bindningsenergin per nukleon i MeV.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}N_n&=7-3\\\\&=4\\end{aligned}\\]</p><p>Kärnan har 3 protoner och 4 neutroner.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=3\\cdot1{,}007825+4\\cdot1{,}008665\\\\&\\approx7{,}058135\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=7{,}058135-7{,}016003\\\\&\\approx0{,}042132\\ \\mathrm{u}\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}042132\\cdot931{,}5\\\\&\\approx39{,}246\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=39{,}245958/7\\\\&\\approx5{,}607\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -111916,7 +111916,7 @@ window.BANK = [
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
     "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En atom av litium-7 har 3 protoner, 4 neutroner och atommassan 7,016003 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u.</p>",
+    "spelIntro": "<p>En atom av litium-7 har 3 protoner, 4 neutroner och atommassan 7,016003 u.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -111966,13 +111966,13 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
-        "t": "<p>En atom av litium-7 har 3 protoner, 4 neutroner och atommassan 7,016003 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. Bestäm massdefekten i u.</p>",
+        "t": "<p>En atom av litium-7 har 3 protoner, 4 neutroner och atommassan 7,016003 u. Bestäm massdefekten i u.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "En kärna har 7 nukleoner och massdefekten 0.042132 u. Bestäm bindningsenergin per nukleon i MeV.",
+        "fraga": "En kärna har 7 nukleoner och massdefekten 0,042132 u. Bestäm bindningsenergin per nukleon i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}042132\\cdot931{,}5\\\\&\\approx39{,}246\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=39{,}245958/7\\\\&\\approx5{,}607\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5.606565428571429,
@@ -111985,7 +111985,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Beräkna total bindningsenergi och dela med antalet nukleoner.</p>",
-        "t": "<p>En kärna har 7 nukleoner och massdefekten 0.042132 u. Bestäm bindningsenergin per nukleon i MeV.</p>",
+        "t": "<p>En kärna har 7 nukleoner och massdefekten 0,042132 u. Bestäm bindningsenergin per nukleon i MeV.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -112066,7 +112066,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,934936 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u.</p><p>a) Hur många neutroner har kärnan?</p><p>b) Bestäm massdefekten i u.</p><p>c) Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "t": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,934936 u.</p><p>a) Hur många neutroner har kärnan?</p><p>b) Bestäm massdefekten i u.</p><p>c) Bestäm bindningsenergin per nukleon i MeV.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}N_n&=56-26\\\\&=30\\end{aligned}\\]</p><p>Kärnan har 26 protoner och 30 neutroner.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=26\\cdot1{,}007825+30\\cdot1{,}008665\\\\&\\approx56{,}463400\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=56{,}4634-55{,}934936\\\\&\\approx0{,}528464\\ \\mathrm{u}\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}528464\\cdot931{,}5\\\\&\\approx492{,}264\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=492{,}26422/56\\\\&\\approx8{,}790\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -112108,7 +112108,7 @@ window.BANK = [
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
     "ledtrad": "<p>Atomnumret är protonantalet. Masstalet är antalet protoner och neutroner tillsammans.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,934936 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u.</p>",
+    "spelIntro": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,934936 u.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -112144,13 +112144,13 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
-        "t": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,934936 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. Bestäm massdefekten i u.</p>",
+        "t": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,934936 u. Bestäm massdefekten i u.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "En kärna har 56 nukleoner och massdefekten 0.528464 u. Bestäm bindningsenergin per nukleon i MeV.",
+        "fraga": "En kärna har 56 nukleoner och massdefekten 0,528464 u. Bestäm bindningsenergin per nukleon i MeV.",
         "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}528464\\cdot931{,}5\\\\&\\approx492{,}264\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=492{,}26422/56\\\\&\\approx8{,}790\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 8.79043242857143,
@@ -112163,7 +112163,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Beräkna total bindningsenergi och dela med antalet nukleoner.</p>",
-        "t": "<p>En kärna har 56 nukleoner och massdefekten 0.528464 u. Bestäm bindningsenergin per nukleon i MeV.</p>",
+        "t": "<p>En kärna har 56 nukleoner och massdefekten 0,528464 u. Bestäm bindningsenergin per nukleon i MeV.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -112394,7 +112394,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Två kärnor har bindningsenergin 7,65 respektive 8,55 MeV per nukleon. Hur mycket större är den högre energin per nukleon?</p>",
+    "t": "<p>Två kärnor har bindningsenergin 7,65 respektive 8,55 MeV per nukleon. Hur stor är skillnaden?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[8{,}55-7{,}65=0{,}90\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -112620,7 +112620,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna har 1 protoner och 1 neutroner. Kärnans massa är 2,013553 u. Massan hos en fri proton är 1,007276 u och hos en fri neutron 1,008665 u.</p><p>Bestäm bindningsenergin.</p>",
+    "t": "<p>En kärna har en proton och en neutron. Kärnans massa är 2,013553 u. Bestäm bindningsenergin.</p>",
     "s": "<div class=\"facit-v2\"><p>Jämför kärnmassan med samma protoner och neutroner fria.</p><p>\\[\\begin{aligned}\\Delta m&=1\\cdot1{,}007276\\\\&\\quad+1\\cdot1{,}008665\\\\&\\quad-2{,}013553\\\\&\\approx0{,}002388\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}002388\\cdot931{,}5\\\\&\\approx2{,}224\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -112647,7 +112647,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En deuteriumkärna har 2 nukleoner och bindningsenergin 1,11 MeV per nukleon. Helium-4 har 7,07 MeV per nukleon. Uran-238 har 7,57 MeV per nukleon.</p><p>a) Två deuteriumkärnor bildar helium-4. Beräkna den frigjorda energin i MeV.</p><p>b) I en förenklad fissionsmodell ger en uran-238-kärna produkter med 8,50 MeV per nukleon. Beräkna den frigjorda energin i MeV.</p><p>c) Förklara varför båda processerna kan frigöra energi.</p>",
+    "t": "<p>En deuteriumkärna har 2 nukleoner och bindningsenergin 1,11 MeV per nukleon. Helium-4 har 7,07 MeV per nukleon. Uran-238 har 7,57 MeV per nukleon.</p><p>a) Två deuteriumkärnor bildar helium-4. Beräkna den frigjorda energin i MeV.</p><p>b) Antag att en uran-238-kärna klyvs och att produkterna har 8,50 MeV per nukleon. Beräkna den frigjorda energin i MeV.</p><p>c) Förklara varför båda processerna kan frigöra energi.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[Q=4\\cdot7{,}07-4\\cdot1{,}11=23{,}84\\ \\mathrm{MeV}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[Q=238(8{,}50-7{,}57)=221{,}34\\ \\mathrm{MeV}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Både fusion och fission kan ge mer hårt bundna produkter. När total bindningsenergi ökar frigörs energiskillnaden. Processernas riktning ensam avgör inte om energi frigörs.</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -112713,7 +112713,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En uran-238-kärna har bindningsenergin 7,57 MeV per nukleon. I en förenklad fissionsmodell har alla 238 nukleoner efteråt bindningsenergin 8,50 MeV per nukleon. Hur mycket energi frigörs?",
+        "fraga": "En uran-238-kärna har bindningsenergin 7,57 MeV per nukleon. Antag att kärnan klyvs och att produkterna har bindningsenergin 8,50 MeV per nukleon. Hur mycket energi frigörs?",
         "s": "<div class=\"facit-v2\"><p>\\[Q=238(8{,}50-7{,}57)=221{,}34\\ \\mathrm{MeV}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 221.33999999999992,
@@ -112726,7 +112726,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Multiplicera ökningen per nukleon med antalet nukleoner.</p>",
-        "t": "<p>En uran-238-kärna har bindningsenergin 7,57 MeV per nukleon. I en förenklad fissionsmodell har alla 238 nukleoner efteråt bindningsenergin 8,50 MeV per nukleon. Hur mycket energi frigörs?</p>",
+        "t": "<p>En uran-238-kärna har bindningsenergin 7,57 MeV per nukleon. Antag att kärnan klyvs och att produkterna har bindningsenergin 8,50 MeV per nukleon. Hur mycket energi frigörs?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -112783,7 +112783,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>I en modell ökar bindningsenergin med 0,85 MeV per nukleon. Varje kärna har 56 nukleoner. Hur mycket energi frigörs när 1,00 mol sådana kärnor genomgår processen?</p>",
+    "t": "<p>I en kärnreaktion ökar bindningsenergin med 0,85 MeV per nukleon. Varje kärna har 56 nukleoner. Hur mycket energi frigörs när 1,00 mol kärnor reagerar?</p>",
     "s": "<div class=\"facit-v2\"><p>Energin per kärna är 56 · 0,85 = 47,6 MeV.</p><p>\\[E_{\\text{kärna}}=47{,}6\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_{\\text{kärna}}=7{,}62552\\cdot10^{-12}\\ \\mathrm J\\]</p><p>En mol innehåller 6,022·10²³ kärnor.</p><p>\\[E=E_{\\text{kärna}}\\cdot N_A\\approx4{,}59\\cdot10^{12}\\ \\mathrm J\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -112811,7 +112811,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>Järn-56 har masstalet 56. Kärnradien uppskattas med r = 1,2·A^(1/3) fm. Modellera kärnan som ett klot och uppskatta kärnmassan till atommassan 55,935 u. Fast järn har densiteten 7 870 kg/m³.</p><div class=\"fig smal\"><svg width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En klotformad atomkärna med radien r markerad från centrum till kanten\"><circle cx=\"210\" cy=\"110\" r=\"78\" fill=\"#e1edf8\" stroke=\"#315775\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"110\" r=\"3\" fill=\"#315775\"/><line x1=\"210\" y1=\"110\" x2=\"288\" y2=\"110\" stroke=\"#315775\" stroke-width=\"2\"/><text x=\"249\" y=\"98\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243747\">r</text><text x=\"210\" y=\"208\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243747\">atomkärna</text></svg></div><p>a) Bestäm kärnans radie i fm och volym.</p><p>b) Bestäm kärnans massa i kg och densitet.</p><p>c) Hur många gånger större är kärnans densitet än det fasta järnets? Vad säger det om var atomens massa finns?</p>",
+    "t": "<p>Järn-56 har masstalet 56. Kärnradien uppskattas med r = 1,2·A^(1/3) fm. Antag att kärnan är ett klot med massan 55,935 u. Fast järn har densiteten 7 870 kg/m³.</p><div class=\"fig smal\"><svg width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En klotformad atomkärna med radien r markerad från centrum till kanten\"><circle cx=\"210\" cy=\"110\" r=\"78\" fill=\"#e1edf8\" stroke=\"#315775\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"110\" r=\"3\" fill=\"#315775\"/><line x1=\"210\" y1=\"110\" x2=\"288\" y2=\"110\" stroke=\"#315775\" stroke-width=\"2\"/><text x=\"249\" y=\"98\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243747\">r</text><text x=\"210\" y=\"208\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243747\">atomkärna</text></svg></div><p>a) Bestäm kärnans radie i fm och volym.</p><p>b) Bestäm kärnans massa i kg och densitet.</p><p>c) Hur många gånger större är kärnans densitet än det fasta järnets? Vad säger det om var atomens massa finns?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[r=1{,}2\\cdot56^{1/3}\\approx4{,}59\\ \\mathrm{fm}\\]</p><p>Radien i meter är cirka 4,59·10⁻¹⁵ m.</p><p>\\[V=4\\pi r^3/3\\approx4{,}05\\cdot10^{-43}\\ \\mathrm{m^3}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[m=55{,}935\\cdot1{,}66054\\cdot10^{-27}\\]</p><p>\\[m\\approx9{,}29\\cdot10^{-26}\\ \\mathrm{kg}\\]</p><p>\\[\\rho=m/V\\approx2{,}29\\cdot10^{17}\\ \\mathrm{kg/m^3}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\rho/7870\\approx2{,}91\\cdot10^{13}\\]</p><p>Nästan all atomens massa finns i den mycket lilla kärnan. Den större volymen utanför kärnan innehåller bara elektronernas lilla massa.</p></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
@@ -112850,7 +112850,7 @@ window.BANK = [
     "familjNyckelTidigare": "nuklider__nuklidnotation_och_karnans_sammansattning",
     "ledtrad": "<p>Beräkna radien och skriv den i meter innan du räknar volymen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Järn-56 har masstalet 56. Kärnradien uppskattas med r = 1,2·A^(1/3) fm. Modellera kärnan som ett klot och uppskatta kärnmassan till atommassan 55,935 u. Fast järn har densiteten 7 870 kg/m³.</p><div class=\"fig smal\"><svg width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En klotformad atomkärna med radien r markerad från centrum till kanten\"><circle cx=\"210\" cy=\"110\" r=\"78\" fill=\"#e1edf8\" stroke=\"#315775\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"110\" r=\"3\" fill=\"#315775\"/><line x1=\"210\" y1=\"110\" x2=\"288\" y2=\"110\" stroke=\"#315775\" stroke-width=\"2\"/><text x=\"249\" y=\"98\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243747\">r</text><text x=\"210\" y=\"208\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243747\">atomkärna</text></svg></div>",
+    "spelIntro": "<p>Järn-56 har masstalet 56. Kärnradien uppskattas med r = 1,2·A^(1/3) fm. Antag att kärnan är ett klot med massan 55,935 u. Fast järn har densiteten 7 870 kg/m³.</p><div class=\"fig smal\"><svg width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En klotformad atomkärna med radien r markerad från centrum till kanten\"><circle cx=\"210\" cy=\"110\" r=\"78\" fill=\"#e1edf8\" stroke=\"#315775\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"110\" r=\"3\" fill=\"#315775\"/><line x1=\"210\" y1=\"110\" x2=\"288\" y2=\"110\" stroke=\"#315775\" stroke-width=\"2\"/><text x=\"249\" y=\"98\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243747\">r</text><text x=\"210\" y=\"208\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243747\">atomkärna</text></svg></div>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -112876,7 +112876,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Beräkna radien och skriv den i meter innan du räknar volymen.</p>",
-        "t": "<p>Järn-56 har masstalet 56. Kärnradien uppskattas med r = 1,2·A^(1/3) fm, där A är masstalet. Modellera kärnan som ett klot. Bestäm radien i fm och volymen i m³.<div class=\"fig smal\"><svg width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En klotformad atomkärna med radien r markerad från centrum till kanten\"><circle cx=\"210\" cy=\"110\" r=\"78\" fill=\"#e1edf8\" stroke=\"#315775\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"110\" r=\"3\" fill=\"#315775\"/><line x1=\"210\" y1=\"110\" x2=\"288\" y2=\"110\" stroke=\"#315775\" stroke-width=\"2\"/><text x=\"249\" y=\"98\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243747\">r</text><text x=\"210\" y=\"208\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243747\">atomkärna</text></svg></div></p>",
+        "t": "<p>Järn-56 har masstalet 56. Kärnradien uppskattas med r = 1,2·A^(1/3) fm, där A är masstalet. Antag att kärnan är ett klot. Bestäm radien i fm och volymen i m³.<div class=\"fig smal\"><svg width=\"440\" height=\"220\" viewBox=\"0 0 440 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En klotformad atomkärna med radien r markerad från centrum till kanten\"><circle cx=\"210\" cy=\"110\" r=\"78\" fill=\"#e1edf8\" stroke=\"#315775\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"110\" r=\"3\" fill=\"#315775\"/><line x1=\"210\" y1=\"110\" x2=\"288\" y2=\"110\" stroke=\"#315775\" stroke-width=\"2\"/><text x=\"249\" y=\"98\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243747\">r</text><text x=\"210\" y=\"208\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243747\">atomkärna</text></svg></div></p>",
         "arbetsinsats": 2,
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
@@ -112887,7 +112887,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En järnkärnas massa uppskattas till 55,935 u och volymen är 4,05·10⁻⁴³ m³.  Bestäm massan i kg och densiteten i kg/m³.",
+        "fraga": "En järnkärnas massa uppskattas till 55,935 u och volymen är 4,05·10⁻⁴³ m³. Bestäm massan i kg och densiteten i kg/m³.",
         "s": "<div class=\"facit-v2\"><p>\\[m=55{,}935\\cdot1{,}66054\\cdot10^{-27}\\]</p><p>\\[m\\approx9{,}29\\cdot10^{-26}\\ \\mathrm{kg}\\]</p><p>\\[\\rho=m/V\\approx2{,}29\\cdot10^{17}\\ \\mathrm{kg/m^3}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -112909,7 +112909,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Omvandla massan till kg och använd densitet = massa/volym.</p>",
-        "t": "<p>En järnkärnas massa uppskattas till 55,935 u och volymen är 4,05·10⁻⁴³ m³.  Bestäm massan i kg och densiteten i kg/m³.</p>",
+        "t": "<p>En järnkärnas massa uppskattas till 55,935 u och volymen är 4,05·10⁻⁴³ m³. Bestäm massan i kg och densiteten i kg/m³.</p>",
         "arbetsinsats": 1,
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
@@ -112976,7 +112976,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>En kol-12-kärna består av 6 protoner och 6 neutroner. Bindningsenergin är 7,68 MeV per nukleon. En fri proton har massan 1,007276 u och en fri neutron 1,008665 u. Bestäm kärnans massa i u.<br>(Ange svaret med fem decimaler.)</p>",
+    "t": "<p>En kol-12-kärna består av 6 protoner och 6 neutroner. Bindningsenergin är 7,68 MeV per nukleon. Bestäm kärnans massa i u.</p>",
     "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=12\\cdot7{,}68\\\\&=92{,}16\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=92{,}16/931{,}5\\\\&\\approx0{,}09894\\ \\mathrm u\\end{aligned}\\]</p><p>\\[\\begin{aligned}m&=6\\cdot1{,}007276\\\\&\\quad+6\\cdot1{,}008665\\\\&\\quad-\\Delta m\\end{aligned}\\]</p><p>\\[\\begin{aligned}m\\approx11{,}99671\\ \\mathrm u\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -113004,7 +113004,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna har 2 protoner och 2 neutroner. Kärnans massa är 4,001506 u. Massan hos en fri proton är 1,007276 u och hos en fri neutron 1,008665 u.</p><p>Bestäm bindningsenergin per nukleon.</p>",
+    "t": "<p>En kärna har 2 protoner och 2 neutroner. Kärnans massa är 4,001506 u. Bestäm bindningsenergin per nukleon.</p>",
     "s": "<div class=\"facit-v2\"><p>Jämför kärnmassan med samma protoner och neutroner fria.</p><p>\\[\\begin{aligned}\\Delta m&=2\\cdot1{,}007276\\\\&\\quad+2\\cdot1{,}008665\\\\&\\quad-4{,}001506\\\\&\\approx0{,}030376\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}030376\\cdot931{,}5\\\\&\\approx28{,}295\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=28{,}295244/4\\\\&\\approx7{,}074\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -113237,7 +113237,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En atom av kol-12 har 6 protoner, 6 neutroner och atommassan 12,0 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u.</p><p>Bestäm bindningsenergin per nukleon.</p>",
+    "t": "<p>En atom av kol-12 har 6 protoner, 6 neutroner och atommassan 12,0 u. Bestäm bindningsenergin per nukleon.</p>",
     "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}N_p&=6,\\quad N_n\\\\&=6\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=6\\cdot1{,}007825\\\\&\\quad+6\\cdot1{,}008665\\\\&\\quad-12\\\\&\\approx0{,}098940\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}09894\\cdot931{,}5\\\\&\\approx92{,}163\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=92{,}16261/12\\\\&\\approx7{,}680\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -113268,7 +113268,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna har 92 protoner och 146 neutroner. Kärnans massa är 238,00028 u. Massan hos en fri proton är 1,007276 u och hos en fri neutron 1,008665 u.</p><p>Bestäm bindningsenergin per nukleon.</p>",
+    "t": "<p>En kärna har 92 protoner och 146 neutroner. Kärnans massa är 238,00028 u. Bestäm bindningsenergin per nukleon.</p>",
     "s": "<div class=\"facit-v2\"><p>Jämför kärnmassan med samma protoner och neutroner fria.</p><p>\\[\\begin{aligned}\\Delta m&=92\\cdot1{,}007276\\\\&\\quad+146\\cdot1{,}008665\\\\&\\quad-238{,}00028\\\\&\\approx1{,}934202\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=1{,}934202\\cdot931{,}5\\\\&\\approx1801{,}709\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=1801{,}7092/238\\\\&\\approx7{,}570\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -114296,7 +114296,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år.</p><p>a) Bestäm aktiviteten efter 10 år i kBq.</p><p>b) Bestäm aktiviteten efter 100 år i kBq.</p><p>c) Varför är den långa halveringstiden användbar?</p>",
+    "t": "<p>En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år.</p><p>a) Bestäm aktiviteten efter 10 år.</p><p>b) Bestäm aktiviteten efter 100 år.</p><p>c) Varför är den långa halveringstiden användbar?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[A=37\\cdot2^{-10/432}\\]</p><p>\\[A\\approx36{,}4\\ \\mathrm{kBq}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[A=37\\cdot2^{-100/432}\\]</p><p>\\[A\\approx31{,}5\\ \\mathrm{kBq}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>En mycket längre halveringstid än brukstiden ger en aktivitet som ändras långsamt. Det hjälper brandvarnaren att fungera stabilt.</p></div></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
@@ -114342,7 +114342,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm aktiviteten efter 10 år i kBq.",
+        "fraga": "Bestäm aktiviteten efter 10 år.",
         "s": "<div class=\"facit-v2\"><p>\\[A=37\\cdot2^{-10/432}\\]</p><p>\\[A\\approx36{,}4\\ \\mathrm{kBq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 36.41106962619364,
@@ -114355,13 +114355,13 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år. Bestäm aktiviteten efter 10 år i kBq.</p>",
+        "t": "<p>En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år. Bestäm aktiviteten efter 10 år.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm aktiviteten efter 100 år i kBq.",
+        "fraga": "Bestäm aktiviteten efter 100 år.",
         "s": "<div class=\"facit-v2\"><p>\\[A=37\\cdot2^{-100/432}\\]</p><p>\\[A\\approx31{,}5\\ \\mathrm{kBq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 31.515111986810865,
@@ -114374,7 +114374,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år. Bestäm aktiviteten efter 100 år i kBq.</p>",
+        "t": "<p>En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år. Bestäm aktiviteten efter 100 år.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -114626,7 +114626,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En nuklid har halveringstiden 8 dygn. Ett preparat innehåller 4,2·10¹⁵ radioaktiva kärnor.</p><p>a) Bestäm sönderfallskonstanten i s⁻¹.</p><p>b) Bestäm preparatets aktivitet i GBq.</p><p>c) Bestäm aktiviteten efter 24 dygn i GBq.</p>",
+    "t": "<p>En nuklid har halveringstiden 8 dygn. Ett preparat innehåller 4,2·10¹⁵ radioaktiva kärnor.</p><p>a) Bestäm sönderfallskonstanten i s⁻¹.</p><p>b) Bestäm preparatets aktivitet.</p><p>c) Bestäm aktiviteten efter 24 dygn.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=8\\cdot86400\\]</p><p>\\[T\\approx691000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/691200\\]</p><p>\\[\\lambda\\approx1\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx4{,}21\\ \\mathrm{GBq}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[A=A_0/2^3\\]</p><p>\\[A\\approx0{,}526\\ \\mathrm{GBq}\\]</p></div></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
@@ -114688,7 +114688,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Sönderfallskonstanten är 1,003·10⁻⁶ s⁻¹. Bestäm aktiviteten i GBq.",
+        "fraga": "Sönderfallskonstanten är 1,003·10⁻⁶ s⁻¹. Bestäm aktiviteten.",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[A=1{,}003\\cdot10^{-6}\\cdot4{,}2\\cdot10^{15}\\]</p><p>\\[A\\approx4210000000\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=4212600000/10^9\\]</p><p>\\[A\\approx4{,}21\\ \\mathrm{GBq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.2126,
@@ -114701,13 +114701,13 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
-        "t": "<p>Ett preparat innehåller 4,2·10¹⁵ radioaktiva kärnor. Sönderfallskonstanten är 1,003·10⁻⁶ s⁻¹. Bestäm aktiviteten i GBq.</p>",
+        "t": "<p>Ett preparat innehåller 4,2·10¹⁵ radioaktiva kärnor. Sönderfallskonstanten är 1,003·10⁻⁶ s⁻¹. Bestäm aktiviteten.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Aktiviteten är från början 4,21 GBq. Halveringstiden är 8,0 dygn. Bestäm aktiviteten efter 24 dygn i GBq.",
+        "fraga": "Aktiviteten är från början 4,21 GBq. Halveringstiden är 8,0 dygn. Bestäm aktiviteten efter 24 dygn.",
         "s": "<div class=\"facit-v2\"><p>\\[24/8=3\\ \\text{halveringstider}\\]</p><p>\\[A=4{,}21/2^3=0{,}52625\\ \\mathrm{GBq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.52625,
@@ -114720,7 +114720,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Aktiviteten är från början 4,21 GBq. Halveringstiden är 8,0 dygn. Bestäm aktiviteten efter 24 dygn i GBq.</p>",
+        "t": "<p>Aktiviteten är från början 4,21 GBq. Halveringstiden är 8,0 dygn. Bestäm aktiviteten efter 24 dygn.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -115392,7 +115392,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ett preparat har startaktiviteten 6,4 kBq och halveringstiden 3,0 timmar.</p><p>a) Hur många halveringstider är 12 timmar?</p><p>b) Bestäm aktiviteten efter 12 timmar i kBq.</p>",
+    "t": "<p>Ett preparat har startaktiviteten 6,4 kBq och halveringstiden 3,0 timmar.</p><p>a) Hur många halveringstider är 12 timmar?</p><p>b) Bestäm aktiviteten efter 12 timmar.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[n=12/3{,}0=4\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[12/3{,}0=4\\]</p><p>\\[A=6{,}4/2^4=0{,}40\\ \\mathrm{kBq}\\]</p></div></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
@@ -115438,7 +115438,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Ett preparat har aktiviteten 6,4 kBq från början och halveringstiden 3,0 timmar. Bestäm aktiviteten efter 12 timmar i kBq.",
+        "fraga": "Ett preparat har aktiviteten 6,4 kBq från början och halveringstiden 3,0 timmar. Bestäm aktiviteten efter 12 timmar.",
         "s": "<div class=\"facit-v2\"><p>\\[12/3{,}0=4\\]</p><p>\\[A=6{,}4/2^4=0{,}40\\ \\mathrm{kBq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.4,
@@ -115451,7 +115451,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Ett preparat har aktiviteten 6,4 kBq från början och halveringstiden 3,0 timmar. Bestäm aktiviteten efter 12 timmar i kBq.</p>",
+        "t": "<p>Ett preparat har aktiviteten 6,4 kBq från början och halveringstiden 3,0 timmar. Bestäm aktiviteten efter 12 timmar.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -115790,7 +115790,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Gamma, neutroner och alfa har i en uppgift viktfaktorerna 1, 10 respektive 20. Vilket strålslag ger störst ekvivalent dos om alla ger samma absorberade dos?",
+        "fraga": "Gamma, neutroner och alfa har viktfaktorerna 1, 10 respektive 20. Vilket strålslag ger störst ekvivalent dos om alla ger samma absorberade dos?",
         "s": "<div class=\"facit-v2\"><p>Störst viktfaktor ger störst ekvivalent dos när den absorberade dosen är samma.</p></div>",
         "svarstyp": "alternativ",
         "rättSvar": "Alfastrålning.",
@@ -115820,7 +115820,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
-        "t": "<p>Gamma, neutroner och alfa har i en uppgift viktfaktorerna 1, 10 respektive 20. Vilket strålslag ger störst ekvivalent dos om alla ger samma absorberade dos?</p>",
+        "t": "<p>Gamma, neutroner och alfa har viktfaktorerna 1, 10 respektive 20. Vilket strålslag ger störst ekvivalent dos om alla ger samma absorberade dos?</p>",
         "miniräknare": true
       }
     ],
@@ -115868,7 +115868,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En liten strålkälla ger 100 µSv per timme på avståndet 1 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är den på avståndet 3,5 m?</p>",
+    "t": "<p>En liten strålkälla ger 100 µSv per timme på avståndet 1 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är dosen per timme på avståndet 3,5 m?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[\\dot H_2=\\dot H_1(r_1/r_2)^2\\]</p><p><div class=\"facit-v2\"><p>\\[\\dot H_2=100(1/3{,}5)^2\\]</p><p>\\[\\dot H_2\\approx8{,}16\\ \\mathrm{\\mu Sv/h}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -116194,7 +116194,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
-        "t": "<p>En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 3,0 m.</p>",
+        "t": "<p>En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm dosen per timme på 3,0 m.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -116213,7 +116213,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
-        "t": "<p>En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 5,0 µSv/h?</p>",
+        "t": "<p>En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är dosen per timme 5,0 µSv/h?</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       },
@@ -116270,7 +116270,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En liten strålkälla ger 120 µSv per timme på avståndet 0,8 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är den på avståndet 2,4 m?</p>",
+    "t": "<p>En liten strålkälla ger 120 µSv per timme på avståndet 0,8 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är dosen per timme på avståndet 2,4 m?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[\\dot H_2=\\dot H_1(r_1/r_2)^2\\]</p><p><div class=\"facit-v2\"><p>\\[\\dot H_2=120(0{,}8/2{,}4)^2\\]</p><p>\\[\\dot H_2\\approx13{,}3\\ \\mathrm{\\mu Sv/h}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -116652,7 +116652,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Räkna med bakgrundsdosen 2,4 mSv per år och 365 dygn per år.</p><p>a) Vilken dos blir det på 40 år?</p><p>b) Vilken dos blir det per dygn?</p><p>c) En flygresa ger 30 µSv. Hur många dygns bakgrundsdos motsvarar det?</p>",
+    "t": "<p>Bakgrundsdosen är 2,4 mSv per år. Ett år är 365 dygn.</p><p>a) Vilken dos blir det på 40 år?</p><p>b) Vilken dos blir det per dygn?</p><p>c) En flygresa ger 30 µSv. Hur många dygns bakgrundsdos motsvarar det?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[H=2{,}4\\cdot40=96\\ \\mathrm{mSv}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[2{,}4\\ \\mathrm{mSv}=2400\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[H_d=2400/365\\]</p><p>\\[H_d\\approx6{,}58\\ \\mathrm{\\mu Sv}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[t=30/(2400/365)\\]</p><p>\\[t\\approx4{,}56\\ \\mathrm{dygn}\\]</p></div></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -116693,11 +116693,11 @@ window.BANK = [
     ],
     "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Räkna med bakgrundsdosen 2,4 mSv per år och 365 dygn per år.</p>",
+    "spelIntro": "<p>Bakgrundsdosen är 2,4 mSv per år. Ett år är 365 dygn.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det på 40 år?",
+        "fraga": "Bakgrundsdosen är 2,4 mSv per år. Vilken dos blir det på 40 år?",
         "s": "<div class=\"facit-v2\"><p>\\[H=2{,}4\\cdot40=96\\ \\mathrm{mSv}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 96,
@@ -116710,13 +116710,13 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
-        "t": "<p>Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det på 40 år?</p>",
+        "t": "<p>Bakgrundsdosen är 2,4 mSv per år. Vilken dos blir det på 40 år?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn.",
+        "fraga": "Bakgrundsdosen är 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn.",
         "s": "<div class=\"facit-v2\"><p>\\[2{,}4\\ \\mathrm{mSv}=2400\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[H_d=2400/365\\]</p><p>\\[H_d\\approx6{,}58\\ \\mathrm{\\mu Sv}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 6.575342465753424,
@@ -116729,7 +116729,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
-        "t": "<p>Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn.</p>",
+        "t": "<p>Bakgrundsdosen är 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -117059,7 +117059,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat.</p><span class=\"fig bred\"><svg style=\"width:100%;max-width:560px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 210\" role=\"img\" aria-label=\"Avstånd från strålkällan: en, två, tre och fyra meter\"><title>Avstånd från en liten strålkälla</title><rect width=\"560\" height=\"210\" rx=\"14\" fill=\"#f3f7fa\"/><line x1=\"70\" y1=\"110\" x2=\"470\" y2=\"110\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"110\" r=\"9\" fill=\"#dc6b28\"/><text x=\"70\" y=\"62\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#334155\">strålkälla</text><text x=\"70\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">0 m</text><line x1=\"170\" y1=\"102\" x2=\"170\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"170\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">1 m</text><line x1=\"270\" y1=\"102\" x2=\"270\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"270\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">2 m</text><line x1=\"370\" y1=\"102\" x2=\"370\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"370\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">3 m</text><line x1=\"470\" y1=\"102\" x2=\"470\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"470\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">4 m</text><text x=\"300\" y=\"184\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Avståndet mäts från källan.</text></svg></span><p>a) Bestäm dosen per timme på 2,0 m i µSv/h.</p><p>b) Bestäm dosen per timme på 4,0 m i µSv/h.</p><p>c) På vilket avstånd är dosen per timme 8,0 µSv/h?</p>",
+    "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat.</p><span class=\"fig bred\"><svg style=\"width:100%;max-width:560px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 210\" role=\"img\" aria-label=\"Avstånd från strålkällan: en, två, tre och fyra meter\"><title>Avstånd från en liten strålkälla</title><rect width=\"560\" height=\"210\" rx=\"14\" fill=\"#f3f7fa\"/><line x1=\"70\" y1=\"110\" x2=\"470\" y2=\"110\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"110\" r=\"9\" fill=\"#dc6b28\"/><text x=\"70\" y=\"62\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#334155\">strålkälla</text><text x=\"70\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">0 m</text><line x1=\"170\" y1=\"102\" x2=\"170\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"170\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">1 m</text><line x1=\"270\" y1=\"102\" x2=\"270\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"270\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">2 m</text><line x1=\"370\" y1=\"102\" x2=\"370\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"370\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">3 m</text><line x1=\"470\" y1=\"102\" x2=\"470\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"470\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">4 m</text><text x=\"300\" y=\"184\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Avståndet mäts från källan.</text></svg></span><p>a) Bestäm dosen per timme på 2,0 m.</p><p>b) Bestäm dosen per timme på 4,0 m.</p><p>c) På vilket avstånd är dosen per timme 8,0 µSv/h?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\dot H=200(1/2)^2\\]</p><p>\\[\\dot H\\approx50\\ \\mathrm{\\mu Sv/h}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\dot H=200(1/4)^2\\]</p><p>\\[\\dot H\\approx12{,}5\\ \\mathrm{\\mu Sv/h}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[8=200/r^2\\]</p><p>\\[r^2=200/8=25\\]</p><p>\\[r=\\sqrt{25}=5{,}0\\ \\mathrm m\\]</p></div></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -117102,7 +117102,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
-        "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 2,0 m.</p><span class=\"fig bred\"><svg style=\"width:100%;max-width:560px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 210\" role=\"img\" aria-label=\"Avstånd från strålkällan: en, två, tre och fyra meter\"><title>Avstånd från en liten strålkälla</title><rect width=\"560\" height=\"210\" rx=\"14\" fill=\"#f3f7fa\"/><line x1=\"70\" y1=\"110\" x2=\"470\" y2=\"110\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"110\" r=\"9\" fill=\"#dc6b28\"/><text x=\"70\" y=\"62\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#334155\">strålkälla</text><text x=\"70\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">0 m</text><line x1=\"170\" y1=\"102\" x2=\"170\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"170\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">1 m</text><line x1=\"270\" y1=\"102\" x2=\"270\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"270\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">2 m</text><line x1=\"370\" y1=\"102\" x2=\"370\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"370\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">3 m</text><line x1=\"470\" y1=\"102\" x2=\"470\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"470\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">4 m</text><text x=\"300\" y=\"184\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Avståndet mäts från källan.</text></svg></span>",
+        "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm dosen per timme på 2,0 m.</p><span class=\"fig bred\"><svg style=\"width:100%;max-width:560px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 210\" role=\"img\" aria-label=\"Avstånd från strålkällan: en, två, tre och fyra meter\"><title>Avstånd från en liten strålkälla</title><rect width=\"560\" height=\"210\" rx=\"14\" fill=\"#f3f7fa\"/><line x1=\"70\" y1=\"110\" x2=\"470\" y2=\"110\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"110\" r=\"9\" fill=\"#dc6b28\"/><text x=\"70\" y=\"62\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#334155\">strålkälla</text><text x=\"70\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">0 m</text><line x1=\"170\" y1=\"102\" x2=\"170\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"170\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">1 m</text><line x1=\"270\" y1=\"102\" x2=\"270\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"270\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">2 m</text><line x1=\"370\" y1=\"102\" x2=\"370\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"370\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">3 m</text><line x1=\"470\" y1=\"102\" x2=\"470\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"470\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">4 m</text><text x=\"300\" y=\"184\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Avståndet mäts från källan.</text></svg></span>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -117121,7 +117121,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
-        "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 4,0 m.</p>",
+        "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm dosen per timme på 4,0 m.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -117140,7 +117140,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
-        "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 8,0 µSv/h?</p>",
+        "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är dosen per timme 8,0 µSv/h?</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       }
@@ -117426,7 +117426,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Räkna med bakgrundsdosen 2,4 mSv per år och 365 dygn per år.</p><p>a) Vilken dos blir det per dygn?</p><p>b) En röntgenundersökning ger 100 µSv. Hur många dygns bakgrundsdos motsvarar det?</p><p>c) En flygresa ger 50 µSv. Hur många dygns bakgrundsdos motsvarar det? Jämför med ett års bakgrundsdos.</p>",
+    "t": "<p>Bakgrundsdosen är 2,4 mSv per år. Ett år är 365 dygn.</p><p>a) Vilken dos blir det per dygn?</p><p>b) En röntgenundersökning ger 100 µSv. Hur många dygns bakgrundsdos motsvarar det?</p><p>c) En flygresa ger 50 µSv. Hur många dygns bakgrundsdos motsvarar det? Jämför med ett års bakgrundsdos.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[2{,}4\\ \\mathrm{mSv}=2400\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[H_d=2400/365\\]</p><p>\\[H_d\\approx6{,}58\\ \\mathrm{\\mu Sv}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[t=100/(2400/365)\\]</p><p>\\[t\\approx15{,}2\\ \\mathrm{dygn}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[t=50/(2400/365)\\]</p><p>\\[t\\approx7{,}6\\ \\mathrm{dygn}\\]</p></div></div><p>Flygresan ger ungefär 7,6 dygns bakgrundsdos, alltså betydligt mindre än 365 dygns bakgrundsdos.</p>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -117467,11 +117467,11 @@ window.BANK = [
     ],
     "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Räkna med bakgrundsdosen 2,4 mSv per år och 365 dygn per år.</p>",
+    "spelIntro": "<p>Bakgrundsdosen är 2,4 mSv per år. Ett år är 365 dygn.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn.",
+        "fraga": "Bakgrundsdosen är 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn.",
         "s": "<div class=\"facit-v2\"><p>\\[2{,}4\\ \\mathrm{mSv}=2400\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[H_d=2400/365\\]</p><p>\\[H_d\\approx6{,}58\\ \\mathrm{\\mu Sv}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 6.575342465753424,
@@ -117484,7 +117484,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
-        "t": "<p>Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn.</p>",
+        "t": "<p>Bakgrundsdosen är 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -159040,7 +159040,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>För \\(^{14}_{6}\\mathrm C\\), vilket är masstalet?</p>",
+    "t": "<p>Vilket masstal har \\(^{14}_{6}\\mathrm C\\)?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det övre talet i nuklidnotationen är masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=14\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 14.</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "familjNyckel": "nuklider__nuklider_och_isotoper",
@@ -159336,7 +159336,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En fri väteatom har massan 1,0078250 u och en fri neutron 1,0086649 u. Bestäm den totala massan hos fyra väteatomer och tre neutroner.",
+        "fraga": "Bestäm den totala massan hos fyra väteatomer och tre neutroner.",
         "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=4\\cdot1{,}0078250+3\\cdot1{,}0086649\\\\&\\approx7{,}0573\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 7.0572947,
@@ -159349,7 +159349,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Addera de fria beståndsdelarnas massor.</p>",
-        "t": "<p>En fri väteatom har massan 1,0078250 u och en fri neutron 1,0086649 u. Bestäm den totala massan hos fyra väteatomer och tre neutroner.</p>",
+        "t": "<p>Bestäm den totala massan hos fyra väteatomer och tre neutroner.</p>",
         "arbetsinsats": 1,
         "miniräknare": true,
         "svarVardesiffror": 5
@@ -159410,7 +159410,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En atom av bor-12 har 5 protoner, 7 neutroner och atommassan 12,0143527 u.</p><p>Bestäm bindningsenergin.</p>",
+    "t": "<p>En atom av bor-12 har 5 protoner, 7 neutroner och atommassan 12,0143527 u. Bestäm bindningsenergin.</p>",
     "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=5\\cdot1{,}0078250\\\\&\\quad+7\\cdot1{,}0086649\\\\&\\quad-12{,}0143527\\\\&\\approx0{,}0854266\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}0854266\\cdot931{,}49\\\\&\\approx79{,}574\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "id": "9.390",
     "miniräknare": true,
@@ -159437,7 +159437,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>a) En atom av helium-3 har 2 protoner, 1 neutroner och atommassan 3,0160293 u. Bestäm massdefekten i u.</p><p>b) En atom av väte-3 har 1 protoner, 2 neutroner och atommassan 3,0160493 u. Bestäm massdefekten i u.</p>",
+    "t": "<p>a) En atom av helium-3 har 2 protoner, 1 neutron och atommassan 3,0160293 u. Bestäm massdefekten i u.</p><p>b) En atom av väte-3 har 1 proton, 2 neutroner och atommassan 3,0160493 u. Bestäm massdefekten i u.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=2\\cdot1{,}0078250\\\\&\\quad+1\\cdot1{,}0086649\\\\&\\quad-3{,}0160293\\\\&\\approx0{,}0082856\\ \\mathrm{u}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=1\\cdot1{,}0078250\\\\&\\quad+2\\cdot1{,}0086649\\\\&\\quad-3{,}0160493\\\\&\\approx0{,}0091055\\ \\mathrm{u}\\end{aligned}\\]</p></div></div>",
     "id": "9.391",
     "miniräknare": true,
@@ -159477,7 +159477,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En atom av helium-3 har 2 protoner, 1 neutroner och atommassan 3,0160293 u. Bestäm massdefekten i u.",
+        "fraga": "En atom av helium-3 har 2 protoner, 1 neutron och atommassan 3,0160293 u. Bestäm massdefekten i u.",
         "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=2\\cdot1{,}0078250\\\\&\\quad+1\\cdot1{,}0086649\\\\&\\quad-3{,}0160293\\\\&\\approx0{,}0082856\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.008285600000000226,
@@ -159490,13 +159490,13 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
-        "t": "<p>En atom av helium-3 har 2 protoner, 1 neutroner och atommassan 3,0160293 u. Bestäm massdefekten i u.</p>",
+        "t": "<p>En atom av helium-3 har 2 protoner, 1 neutron och atommassan 3,0160293 u. Bestäm massdefekten i u.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "En atom av väte-3 har 1 protoner, 2 neutroner och atommassan 3,0160493 u. Bestäm massdefekten i u.",
+        "fraga": "En atom av väte-3 har 1 proton, 2 neutroner och atommassan 3,0160493 u. Bestäm massdefekten i u.",
         "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=1\\cdot1{,}0078250\\\\&\\quad+2\\cdot1{,}0086649\\\\&\\quad-3{,}0160493\\\\&\\approx0{,}0091055\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.009105499999999989,
@@ -159509,7 +159509,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Massdefekten är massan hos fria beståndsdelar minus den bundna atomens eller kärnans massa.</p>",
-        "t": "<p>En atom av väte-3 har 1 protoner, 2 neutroner och atommassan 3,0160493 u. Bestäm massdefekten i u.</p>",
+        "t": "<p>En atom av väte-3 har 1 proton, 2 neutroner och atommassan 3,0160493 u. Bestäm massdefekten i u.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -159526,7 +159526,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Natrium-21 har 11 protoner och 10 neutroner.</p><p>Massdefekten är 0,17507 u. Bestäm atommassan i u.</p>",
+    "t": "<p>Natrium-21 har 11 protoner och 10 neutroner. Massdefekten är 0,17507 u. Bestäm atommassan i u.</p>",
     "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}m_{\\text{fria}}&=11\\cdot1{,}0078250\\\\&\\quad+10\\cdot1{,}0086649\\\\&\\approx21{,}1727240\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}m_{\\text{atom}}&=21{,}172724\\\\&\\quad-0{,}17507\\\\&\\approx20{,}9977\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
     "id": "9.392",
     "miniräknare": true,
@@ -159821,7 +159821,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,9349363 u. </p><p>Bestäm bindningsenergin per nukleon.</p>",
+    "t": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,9349363 u. Bestäm bindningsenergin per nukleon.</p>",
     "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=26\\cdot1{,}0078250\\\\&\\quad+30\\cdot1{,}0086649\\\\&\\quad-55{,}9349363\\\\&\\approx0{,}5284607\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}5284607\\cdot931{,}49\\\\&\\approx492{,}256\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=492{,}25586/56\\\\&\\approx8{,}790\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "id": "9.396",
     "miniräknare": true,
@@ -159848,7 +159848,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>Xenon-133 har 54 protoner och 79 neutroner.</p><p>Bindningsenergin är 1,118 GeV. Bestäm atommassan i u.</p>",
+    "t": "<p>Xenon-133 har 54 protoner och 79 neutroner. Bindningsenergin är 1,118 GeV. Bestäm atommassan i u.</p>",
     "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=1{,}118\\ \\mathrm{GeV}\\\\&=1118\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=1118/931{,}49\\\\&\\approx1{,}200228\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=54\\cdot1{,}0078250\\\\&\\quad+79\\cdot1{,}0086649\\\\&\\approx134{,}1070771\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}m_{\\text{atom}}&=134{,}10708\\\\&\\quad-1{,}2002276\\\\&\\approx132{,}907\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
     "id": "9.397",
     "miniräknare": true,
@@ -159877,7 +159877,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>a) En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u och en neutron 1,0086649 u. Hur mycket energi krävs för att slå loss en neutron ur kväve-14?</p><p>b) En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u och en väteatom 1,0078250 u. Hur mycket energi krävs för att slå loss en proton ur kväve-14?</p>",
+    "t": "<p>a) En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u. Hur mycket energi krävs för att slå loss en neutron ur kväve-14?</p><p>b) En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u. Hur mycket energi krävs för att slå loss en proton ur kväve-14?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>De fria slutprodukterna har större massa än startatomen. Därför måste energi tillföras.</p><p>\\[\\begin{aligned}\\Delta m&=13{,}0057386\\\\&\\quad+1{,}0086649\\\\&\\quad-14{,}003074\\\\&\\approx0{,}0113295\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0113295\\cdot931{,}49\\\\&\\approx10{,}55\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>De fria slutprodukterna har större massa än startatomen. Därför måste energi tillföras.</p><p>\\[\\begin{aligned}\\Delta m&=13{,}0033548\\\\&\\quad+1{,}007825\\\\&\\quad-14{,}003074\\\\&\\approx0{,}0081058\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0081058\\cdot931{,}49\\\\&\\approx7{,}55\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>Väteatomens massa används för protonen så att elektronbidragen är lika många på båda sidor.</p></div></div>",
     "id": "9.398",
     "miniräknare": true,
@@ -159918,7 +159918,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u och en neutron 1,0086649 u. Hur mycket energi krävs för att slå loss en neutron ur kväve-14?",
+        "fraga": "En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u. Hur mycket energi krävs för att slå loss en neutron ur kväve-14?",
         "s": "<div class=\"facit-v2\"><p>De fria slutprodukterna har större massa än startatomen. Därför måste energi tillföras.</p><p>\\[\\begin{aligned}\\Delta m&=13{,}0057386\\\\&\\quad+1{,}0086649\\\\&\\quad-14{,}003074\\\\&\\approx0{,}0113295\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0113295\\cdot931{,}49\\\\&\\approx10{,}55\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 10.553315955000407,
@@ -159931,13 +159931,13 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Jämför slutprodukternas sammanlagda massa med startatomens massa.</p>",
-        "t": "<p>En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u och en neutron 1,0086649 u. Hur mycket energi krävs för att slå loss en neutron ur kväve-14?</p>",
+        "t": "<p>En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u. Hur mycket energi krävs för att slå loss en neutron ur kväve-14?</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u och en väteatom 1,0078250 u. Hur mycket energi krävs för att slå loss en proton ur kväve-14?",
+        "fraga": "En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u. Hur mycket energi krävs för att slå loss en proton ur kväve-14?",
         "s": "<div class=\"facit-v2\"><p>De fria slutprodukterna har större massa än startatomen. Därför måste energi tillföras.</p><p>\\[\\begin{aligned}\\Delta m&=13{,}0033548\\\\&\\quad+1{,}007825\\\\&\\quad-14{,}003074\\\\&\\approx0{,}0081058\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0081058\\cdot931{,}49\\\\&\\approx7{,}55\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>Väteatomens massa används för protonen så att elektronbidragen är lika många på båda sidor.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 7.5504716420008755,
@@ -159950,7 +159950,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Jämför slutprodukternas sammanlagda massa med startatomens massa.</p>",
-        "t": "<p>En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u och en väteatom 1,0078250 u. Hur mycket energi krävs för att slå loss en proton ur kväve-14?</p>",
+        "t": "<p>En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u. Hur mycket energi krävs för att slå loss en proton ur kväve-14?</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       }
@@ -161592,7 +161592,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>a) Uran-238 har halveringstiden 4,5·10⁹ år. Bestäm sönderfallskonstanten i s⁻¹. Ett år är 3,156·10⁷ s.</p><p>b) En nuklid har sönderfallskonstanten 3,2·10⁻⁵ s⁻¹. Bestäm halveringstiden i timmar.</p>",
+    "t": "<p>a) Uran-238 har halveringstiden 4,5·10⁹ år. Ett år är 3,156·10⁷ s. Bestäm sönderfallskonstanten i s⁻¹.</p><p>b) En nuklid har sönderfallskonstanten 3,2·10⁻⁵ s⁻¹. Bestäm halveringstiden i timmar.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=4{,}5\\cdot10^9\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx1{,}42\\cdot10^{17}\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx4{,}88\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=\\ln2/(3{,}2\\cdot10^{-5})\\]</p><p>\\[T\\approx21700\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=(\\ln2/(3{,}2\\cdot10^{-5}))/3600\\]</p><p>\\[T\\approx6{,}02\\ \\mathrm{h}\\]</p></div></p></div></div>",
     "id": "9.335",
     "miniräknare": true,
@@ -161632,7 +161632,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Uran-238 har halveringstiden 4,5·10⁹ år. Bestäm sönderfallskonstanten i s⁻¹. Ett år är 3,156·10⁷ s.",
+        "fraga": "Uran-238 har halveringstiden 4,5·10⁹ år. Ett år är 3,156·10⁷ s. Bestäm sönderfallskonstanten i s⁻¹.",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=4{,}5\\cdot10^9\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx1{,}42\\cdot10^{17}\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx4{,}88\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.880630760174238e-18,
@@ -161645,7 +161645,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
-        "t": "<p>Uran-238 har halveringstiden 4,5·10⁹ år. Bestäm sönderfallskonstanten i s⁻¹. Ett år är 3,156·10⁷ s.</p>",
+        "t": "<p>Uran-238 har halveringstiden 4,5·10⁹ år. Ett år är 3,156·10⁷ s. Bestäm sönderfallskonstanten i s⁻¹.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -161736,7 +161736,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>a) Ett preparat har 6,5·10²⁰ kol-14-kärnor. Halveringstiden är 5 730 år. Bestäm aktiviteten. Ett år är 3,156·10⁷ s.</p><p>b) Ett mineral har aktiviteten 420 Bq från uran-238. Halveringstiden är 4,47·10⁹ år. Hur många uran-238-kärnor finns i mineralet? Ett år är 3,156·10⁷ s.</p>",
+    "t": "<p>a) Ett preparat har 6,5·10²⁰ kol-14-kärnor. Halveringstiden är 5 730 år. Ett år är 3,156·10⁷ s. Bestäm aktiviteten.</p><p>b) Ett mineral har aktiviteten 420 Bq från uran-238. Halveringstiden är 4,47·10⁹ år. Ett år är 3,156·10⁷ s. Hur många uran-238-kärnor finns i mineralet?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(5730\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx3{,}83\\cdot10^{-12}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda\\cdot6{,}5\\cdot10^{20}\\]</p><p>\\[A\\approx2490000000\\ \\mathrm{Bq}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(4{,}47\\cdot10^9\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx4{,}91\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=420/\\lambda\\]</p><p>\\[N\\approx8{,}55\\cdot10^{19}\\]</p></div></p></div></div>",
     "id": "9.338",
     "miniräknare": true,
@@ -161776,7 +161776,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett preparat har 6,5·10²⁰ kol-14-kärnor. Halveringstiden är 5 730 år. Bestäm aktiviteten. Ett år är 3,156·10⁷ s.",
+        "fraga": "Ett preparat har 6,5·10²⁰ kol-14-kärnor. Halveringstiden är 5 730 år. Ett år är 3,156·10⁷ s. Bestäm aktiviteten.",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(5730\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx3{,}83\\cdot10^{-12}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda\\cdot6{,}5\\cdot10^{20}\\]</p><p>\\[A\\approx2490000000\\ \\mathrm{Bq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2491421461.345488,
@@ -161789,13 +161789,13 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
-        "t": "<p>Ett preparat har 6,5·10²⁰ kol-14-kärnor. Halveringstiden är 5 730 år. Bestäm aktiviteten. Ett år är 3,156·10⁷ s.</p>",
+        "t": "<p>Ett preparat har 6,5·10²⁰ kol-14-kärnor. Halveringstiden är 5 730 år. Ett år är 3,156·10⁷ s. Bestäm aktiviteten.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Ett mineral har aktiviteten 420 Bq från uran-238. Halveringstiden är 4,47·10⁹ år. Hur många uran-238-kärnor finns i mineralet? Ett år är 3,156·10⁷ s.",
+        "fraga": "Ett mineral har aktiviteten 420 Bq från uran-238. Halveringstiden är 4,47·10⁹ år. Ett år är 3,156·10⁷ s. Hur många uran-238-kärnor finns i mineralet?",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(4{,}47\\cdot10^9\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx4{,}91\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=420/\\lambda\\]</p><p>\\[N\\approx8{,}55\\cdot10^{19}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 85480754537781510000,
@@ -161808,7 +161808,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
-        "t": "<p>Ett mineral har aktiviteten 420 Bq från uran-238. Halveringstiden är 4,47·10⁹ år. Hur många uran-238-kärnor finns i mineralet? Ett år är 3,156·10⁷ s.</p>",
+        "t": "<p>Ett mineral har aktiviteten 420 Bq från uran-238. Halveringstiden är 4,47·10⁹ år. Ett år är 3,156·10⁷ s. Hur många uran-238-kärnor finns i mineralet?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -162219,7 +162219,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vår matematiska modell för ett vismut-210-prov är A(t) = A₀·2^(−t/T), där A₀ = 0,37 GBq och T = 5,01 dygn. Vilken aktivitet ger modellen efter 365 dygn?</p>",
+    "t": "<p>Ett vismut-210-prov har aktiviteten 0,37 GBq. Halveringstiden är 5,01 dygn. Vilken aktivitet har provet efter 365 dygn?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[t/T=365/5{,}01\\]</p><p><div class=\"facit-v2\"><p>\\[A=370000000\\cdot2^{-365/5{,}01}\\]</p><p>\\[A\\approx4{,}33\\cdot10^{-14}\\ \\mathrm{Bq}\\]</p></div></p><p><p>Modellen ger ett extremt litet medelvärde. Det betyder inte att provet faktiskt innehåller en bråkdel av en kärna.</p></p></div>",
     "id": "9.346",
     "miniräknare": true,
@@ -162274,7 +162274,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>Ett prov innehåller strontium-90 och cesium-134. Halveringstiderna är 29,1 respektive 2,06 år. Från början är antalet Sr-90-kärnor dividerat med antalet Cs-134-kärnor 0,0078. Vad blir samma kvot efter 15 år?</p>",
+    "t": "<p>Ett prov innehåller strontium-90 och cesium-134. Halveringstiderna är 29,1 respektive 2,06 år. Från början är kvoten mellan antalet Sr-90-kärnor och antalet Cs-134-kärnor 0,0078. Vad är kvoten efter 15 år?</p>",
     "s": "<div class=\"facit-v2\"><p>Räkna hur stor andel som finns kvar av varje isotop.</p><p><div class=\"facit-v2\"><p>\\[f_{Sr}=2^{-15/29{,}1}\\]</p><p>\\[f_{Sr}\\approx0{,}7\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[f_{Cs}=2^{-15/2{,}06}\\]</p><p>\\[f_{Cs}\\approx0{,}00643\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_{Sr}/N_{Cs}=0{,}0078\\cdot f_{Sr}/f_{Cs}\\]</p><p>\\[N_{Sr}/N_{Cs}\\approx0{,}849\\]</p></div></p><p>Kvoten ökar eftersom Cs-134 sönderfaller snabbare.</p></div>",
     "id": "9.348",
     "miniräknare": true,
@@ -162357,7 +162357,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>En neutronstråle har rörelseenergin 0,0050 eV per neutron. Fria neutroner har halveringstiden 10,4 minuter. Hur långt har strålen färdats när 25 % av neutronerna har sönderfallit? Räkna med konstant fart.</p>",
+    "t": "<p>En neutronstråle har rörelseenergin 0,0050 eV per neutron. Fria neutroner har halveringstiden 10,4 minuter. Hur långt har strålen färdats när 25 % av neutronerna har sönderfallit? Antag att farten är konstant.</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=0{,}0050\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E\\approx8{,}01\\cdot10^{-22}\\ \\mathrm{J}\\]</p></div></p><p>\\[E=mv^2/2\\]</p><p><div class=\"facit-v2\"><p>\\[v=\\sqrt{2E/m}\\]</p><p>\\[v\\approx978\\ \\mathrm{m/s}\\]</p></div></p><p>25 % sönderfallna betyder 75 % kvar.</p><p>\\[0{,}75=2^{-t/624}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-624\\ln(0{,}75)/\\ln2\\]</p><p>\\[t\\approx259\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[s=vt\\]</p><p>\\[s\\approx253000\\ \\mathrm{m}\\]</p></div></p></div>",
     "id": "9.351",
     "miniräknare": true,
@@ -162587,7 +162587,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>Av uranatomerna i ett prov är i dag 0,720 % U-235 och 99,275 % U-238. Halveringstiderna är 7,04·10⁸ respektive 4,468·10⁹ år. Uppskatta hur många procent av uranatomerna som var U-235 för 4,5·10⁹ år sedan. Räkna bara med dessa två isotoper.</p>",
+    "t": "<p>Av uranatomerna i ett prov är i dag 0,720 % U-235 och 99,275 % U-238. Halveringstiderna är 7,04·10⁸ respektive 4,468·10⁹ år. Uppskatta hur många procent av uranatomerna som var U-235 för 4,5·10⁹ år sedan. Antag att provet bara innehåller dessa två isotoper.</p>",
     "s": "<div class=\"facit-v2\"><p>Räkna bakåt för varje isotop. De behöver inte ha ökat med samma faktor.</p><p><div class=\"facit-v2\"><p>\\[N_{235}=0{,}720\\cdot2^{(4{,}5\\cdot10^9)/(7{,}04\\cdot10^8)}\\]</p><p>\\[N_{235}\\approx60{,}5\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_{238}=99{,}275\\cdot2^{4{,}5/4{,}468}\\]</p><p>\\[N_{238}\\approx200\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[p=100N_{235}/(N_{235}+N_{238})\\]</p><p>\\[p\\approx23{,}3\\ \\%\\]</p></div></p></div>",
     "id": "9.357",
     "miniräknare": true,
@@ -162643,7 +162643,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En uran-glaserad tallrik innehåller 50,0 mg uran-238. En atom har massan 238,05 u och halveringstiden är 4468000000,0 år. Varje sönderfall frigör 4,27 MeV.</p><p>a) Bestäm aktiviteten från isotopen.</p><p>b) Bestäm värmeeffekten i W om all frigjord energi blir värme.</p><p>c) Hur mycket energi frigörs under 40 år?</p>",
+    "t": "<p>En uran-glaserad tallrik innehåller 50,0 mg uran-238. En atom har massan 238,05 u och halveringstiden är 4,468·10⁹ år. Varje sönderfall frigör 4,27 MeV.</p><p>a) Bestäm aktiviteten från isotopen.</p><p>b) Hur stor blir värmeeffekten om all frigjord energi blir värme?</p><p>c) Hur mycket energi frigörs under 40 år?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=5\\cdot10^{-5}\\]</p><p>\\[m\\approx5\\cdot10^{-5}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=5\\cdot10^{-5}/(238{,}05\\cdot1{,}6605\\cdot10^{-27})\\]</p><p>\\[N\\approx1{,}26\\cdot10^{20}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(4468000000\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx4{,}92\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx622\\ \\mathrm{Bq}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{\\text{sönderfall}}=4{,}27\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_{\\text{sönderfall}}\\approx6{,}84\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=A E_{\\text{sönderfall}}\\]</p><p>\\[P\\approx4{,}25\\cdot10^{-10}\\ \\mathrm{W}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[E=P\\cdot40\\cdot3{,}156\\cdot10^7\\]</p><p>\\[E\\approx0{,}537\\ \\mathrm{J}\\]</p></div></div>",
     "id": "9.359",
     "miniräknare": true,
@@ -162686,11 +162686,11 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En uran-glaserad tallrik innehåller 50,0 mg uran-238. En atom har massan 238,05 u och halveringstiden är 4468000000,0 år. Varje sönderfall frigör 4,27 MeV.</p>",
+    "spelIntro": "<p>En uran-glaserad tallrik innehåller 50,0 mg uran-238. En atom har massan 238,05 u och halveringstiden är 4,468·10⁹ år. Varje sönderfall frigör 4,27 MeV.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En tallrik innehåller 50,0 mg uran-238. Halveringstiden är 4468000000,0 år och en atom har massan 238,05 u. Bestäm aktiviteten från isotopen. ",
+        "fraga": "En tallrik innehåller 50,0 mg uran-238. Halveringstiden är 4,468·10⁹ år och en atom har massan 238,05 u. Bestäm aktiviteten från isotopen. ",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=5\\cdot10^{-5}\\]</p><p>\\[m\\approx5\\cdot10^{-5}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=5\\cdot10^{-5}/(238{,}05\\cdot1{,}6605\\cdot10^{-27})\\]</p><p>\\[N\\approx1{,}26\\cdot10^{20}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(4468000000\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx4{,}92\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx622\\ \\mathrm{Bq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 621.7821362698517,
@@ -162703,13 +162703,13 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Aktiviteten är sönderfallskonstanten gånger antalet radioaktiva kärnor: A = λN.</p>",
-        "t": "<p>En tallrik innehåller 50,0 mg uran-238. Halveringstiden är 4468000000,0 år och en atom har massan 238,05 u. Bestäm aktiviteten från isotopen.</p>",
+        "t": "<p>En tallrik innehåller 50,0 mg uran-238. Halveringstiden är 4,468·10⁹ år och en atom har massan 238,05 u. Bestäm aktiviteten från isotopen.</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "En källa har aktiviteten 622 Bq. Varje sönderfall frigör 4,27 MeV. Bestäm värmeeffekten i W om all denna energi blir värme. ",
+        "fraga": "En källa har aktiviteten 622 Bq. Varje sönderfall frigör 4,27 MeV. Hur stor blir värmeeffekten om all denna energi blir värme? ",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{\\text{sönderfall}}=4{,}27\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_{\\text{sönderfall}}\\approx6{,}84\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=A\\cdot E_{\\text{sönderfall}}\\]</p><p>\\[P\\approx4{,}25\\cdot10^{-10}\\ \\mathrm{W}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.2548158799999997e-10,
@@ -162722,7 +162722,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Effekt är energi per sekund. Multiplicera sönderfall per sekund med energin per sönderfall.</p>",
-        "t": "<p>En källa har aktiviteten 622 Bq. Varje sönderfall frigör 4,27 MeV. Bestäm värmeeffekten i W om all denna energi blir värme.</p>",
+        "t": "<p>En källa har aktiviteten 622 Bq. Varje sönderfall frigör 4,27 MeV. Hur stor blir värmeeffekten om all denna energi blir värme?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -162758,7 +162758,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En rymdsond använder 11,0 kg plutonium-238 som värmekälla. En atom har massan 238,05 u och halveringstiden är 87,7 år. Varje sönderfall frigör 5,59 MeV.</p><p>a) Bestäm aktiviteten från isotopen.</p><p>b) Bestäm värmeeffekten i W om all frigjord energi blir värme.</p><p>c) Hur stor är värmeeffekten efter 12,0 år?</p>",
+    "t": "<p>En rymdsond använder 11,0 kg plutonium-238 som värmekälla. En atom har massan 238,05 u och halveringstiden är 87,7 år. Varje sönderfall frigör 5,59 MeV.</p><p>a) Bestäm aktiviteten från isotopen.</p><p>b) Hur stor blir värmeeffekten om all frigjord energi blir värme?</p><p>c) Hur stor är värmeeffekten efter 12,0 år?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=11\\]</p><p>\\[m\\approx11\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=11/(238{,}05\\cdot1{,}6605\\cdot10^{-27})\\]</p><p>\\[N\\approx2{,}78\\cdot10^{25}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(87{,}7\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx2{,}5\\cdot10^{-10}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx6{,}97\\cdot10^{15}\\ \\mathrm{Bq}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{\\text{sönderfall}}=5{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_{\\text{sönderfall}}\\approx8{,}96\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=A E_{\\text{sönderfall}}\\]</p><p>\\[P\\approx6240\\ \\mathrm{W}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[P_{12}=P_0\\cdot2^{-12/87{,}7}\\]</p><p>\\[P_{12}\\approx5680\\ \\mathrm{W}\\]</p></div></div>",
     "id": "9.360",
     "miniräknare": true,
@@ -162824,7 +162824,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En källa har aktiviteten 7·10¹⁵ Bq. Varje sönderfall frigör 5,59 MeV. Bestäm värmeeffekten i W om all denna energi blir värme. ",
+        "fraga": "En källa har aktiviteten 7·10¹⁵ Bq. Varje sönderfall frigör 5,59 MeV. Hur stor blir värmeeffekten om all denna energi blir värme? ",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{\\text{sönderfall}}=5{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_{\\text{sönderfall}}\\approx8{,}96\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=A\\cdot E_{\\text{sönderfall}}\\]</p><p>\\[P\\approx6270\\ \\mathrm{W}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 6268.625999999999,
@@ -162837,7 +162837,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Effekt är energi per sekund. Multiplicera sönderfall per sekund med energin per sönderfall.</p>",
-        "t": "<p>En källa har aktiviteten 7·10¹⁵ Bq. Varje sönderfall frigör 5,59 MeV. Bestäm värmeeffekten i W om all denna energi blir värme.</p>",
+        "t": "<p>En källa har aktiviteten 7·10¹⁵ Bq. Varje sönderfall frigör 5,59 MeV. Hur stor blir värmeeffekten om all denna energi blir värme?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -162957,7 +162957,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Ett kolprov har kol-14-aktiviteten 0,23 Bq. Kol-14 har halveringstiden 5 730 år. Hur många kol-14-kärnor finns i provet? Ett år är 3,156·10⁷ s.</p>",
+    "t": "<p>Ett kolprov har kol-14-aktiviteten 0,23 Bq. Kol-14 har halveringstiden 5 730 år. Ett år är 3,156·10⁷ s. Hur många kol-14-kärnor finns i provet?</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=5730\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx181000000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/180838800000\\]</p><p>\\[\\lambda\\approx3{,}83\\cdot10^{-12}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=0{,}23/\\lambda\\]</p><p>\\[N\\approx60000000000\\]</p></div></p></div>",
     "id": "9.423",
     "miniräknare": true,
@@ -163292,7 +163292,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>I en modell finns lika många U-235- och U-238-kärnor från början. Halveringstiderna är 7,04·10⁸ respektive 4,468·10⁹ år. I dag är antalet U-235-kärnor dividerat med antalet U-238-kärnor 0,0072. Hur lång tid har gått enligt modellen?</p>",
+    "t": "<p>Antag att det från början fanns lika många U-235- och U-238-kärnor. Halveringstiderna är 7,04·10⁸ respektive 4,468·10⁹ år. I dag är kvoten mellan antalet U-235-kärnor och antalet U-238-kärnor 0,0072. Hur lång tid har gått?</p>",
     "s": "<div class=\"facit-v2\"><p>Startkvoten är 1. Efter tiden t blir kvoten</p><p>\\[0{,}0072=2^{-t/T_{235}}/2^{-t/T_{238}}\\]</p><p>\\[\\ln(0{,}0072)=-t\\ln2(1/T_{235}-1/T_{238})\\]</p><p><div class=\"facit-v2\"><p>\\[t=\\frac{-\\ln(0{,}0072)}{\\ln2(1/T_{235}-1/T_{238})}\\]</p><p>\\[t\\approx5950000000\\ \\mathrm{år}\\]</p></div></p><p>Detta är tiden i den angivna modellen. Antagandet om lika startantal gör den inte till en säker bestämning av solsystemets verkliga ålder.</p></div>",
     "id": "9.427",
     "miniräknare": true,
@@ -163679,7 +163679,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>En tumör med massan 3,82 g absorberar 1,16·10¹² protoner. Varje proton har energin 950 keV. Räkna med viktfaktorn 3,0. Bestäm den ekvivalenta dosen.</p>",
+    "t": "<p>En tumör med massan 3,82 g absorberar 1,16·10¹² protoner. Varje proton har energin 950 keV. Viktfaktorn är 3,0. Bestäm den ekvivalenta dosen.</p>",
     "s": "<div class=\"facit-v2\"><p>\\[m=3{,}82\\ \\mathrm g=0{,}00382\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[E_p=950\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx1{,}52\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=1{,}16\\cdot10^{12}E_p\\]</p><p>\\[E\\approx0{,}177\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/0{,}00382\\]</p><p>\\[D\\approx46{,}2\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=3{,}0D\\]</p><p>\\[H\\approx139\\ \\mathrm{Sv}\\]</p></div></p></div>",
     "id": "9.366",
     "miniräknare": true,
@@ -163707,7 +163707,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>I en modell får 1 kg vävnad den ekvivalenta dosen 1,0 mSv under ett år från radon-222. Strålningens viktfaktor är 20 och varje sönderfall ger 5,59 MeV som tas upp i vävnaden. Mängden radon är konstant. Halveringstiden är 3,8 dygn och en atom har massan 222 u. Uppskatta isotopens massa i kg. Räkna bara med dess egna sönderfall.</p>",
+    "t": "<p>Antag att 1 kg vävnad får den ekvivalenta dosen 1,0 mSv under ett år från radon-222. Strålningens viktfaktor är 20 och varje sönderfall ger 5,59 MeV som tas upp i vävnaden. Mängden radon är konstant. Halveringstiden är 3,8 dygn och en atom har massan 222 u. Uppskatta isotopens massa i kg. Bortse från sönderfallen hos dotterkärnorna.</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[D=0{,}001/20\\]</p><p>\\[D\\approx5\\cdot10^{-5}\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=1D\\]</p><p>\\[E\\approx5\\cdot10^{-5}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=5{,}59\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx8{,}96\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=E/(E_p\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[A\\approx1{,}77\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/328320\\]</p><p>\\[\\lambda\\approx2{,}11\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx838000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot222\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx3{,}09\\cdot10^{-19}\\ \\mathrm{kg}\\]</p></div></p></div>",
     "id": "9.367",
     "miniräknare": true,
@@ -163735,7 +163735,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>En kropp med massan 65 kg absorberar hälften av gammafotonerna från en kobolt-57-källa med aktiviteten 57,4 kBq. Varje sönderfall ger en foton med energin 122 keV. Bestäm den absorberade dosen under ett dygn. Räkna med konstant aktivitet under tiden.</p>",
+    "t": "<p>En kropp med massan 65 kg absorberar hälften av gammafotonerna från en kobolt-57-källa med aktiviteten 57,4 kBq. Varje sönderfall ger en foton med energin 122 keV. Bestäm den absorberade dosen under ett dygn. Antag att aktiviteten är konstant.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tid i sekunder och aktivitet i Bq</p><div class=\"facit-matte\">\\[\\begin{aligned}t&=24\\cdot60\\cdot60\\,\\mathrm s=86400\\,\\mathrm s\\\\A&=57{,}4\\cdot10^3\\,\\mathrm{s^{-1}}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Absorberade fotoner: \\(N=0{,}5At\\)</p><p>Aktiviteten är konstant enligt modellen. Varje sönderfall ger en foton och hälften absorberas.</p><div class=\"facit-matte\">\\[N=0{,}5\\cdot57400\\cdot86400=2{,}47968\\cdot10^9\\]</div></li><li><p class=\"facit-rubrik\">Elektronvolt till joule: \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_p&=122\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\,\\mathrm J\\\\&=1{,}95444\\cdot10^{-14}\\,\\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Absorberad energi: \\(E=NE_p\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=(2{,}47968\\cdot10^9)\\\\&\\quad\\cdot(1{,}95444\\cdot10^{-14})\\,\\mathrm J\\\\&=4{,}8463857792\\cdot10^{-5}\\,\\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}D&=\\frac{4{,}8463857792\\cdot10^{-5}}{65}\\,\\mathrm{Gy}\\\\&\\approx7{,}46\\cdot10^{-7}\\,\\mathrm{Gy}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(7{,}46\\cdot10^{-7}\\,\\mathrm{Gy}\\) (0,746 µGy).</p></div>",
     "id": "9.368",
     "miniräknare": true,
@@ -163819,7 +163819,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(1/1/0)",
-    "t": "<p>En tumör har massan 0,20 kg och får den ekvivalenta dosen 10 mSv av protoner med energin 1,2 MeV. Räkna med viktfaktorn 1.</p><p>a) Bestäm absorberad dos.</p><p>b) Hur många protoner absorberas?</p>",
+    "t": "<p>En tumör har massan 0,20 kg och får den ekvivalenta dosen 10 mSv av protoner med energin 1,2 MeV. Viktfaktorn är 1.</p><p>a) Bestäm absorberad dos.</p><p>b) Hur många protoner absorberas?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[H=10\\ \\mathrm{mSv}=0{,}010\\ \\mathrm{Sv}\\]</p><p>\\[D=H/w=0{,}010/1=0{,}010\\ \\mathrm{Gy}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[D=10\\ \\mathrm{mGy}=0{,}010\\ \\mathrm{Gy}\\]</p><p>\\[E=Dm=0{,}010\\cdot0{,}20=0{,}0020\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[E_p=1{,}2\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx1{,}92\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=E/E_p\\]</p><p>\\[N\\approx10400000000\\]</p></div></p></div></div>",
     "id": "9.371",
     "miniräknare": true,
@@ -163856,7 +163856,7 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En tumör har massan 0,20 kg och får den ekvivalenta dosen 10 mSv av protoner med energin 1,2 MeV. Räkna med viktfaktorn 1.</p>",
+    "spelIntro": "<p>En tumör har massan 0,20 kg och får den ekvivalenta dosen 10 mSv av protoner med energin 1,2 MeV. Viktfaktorn är 1.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -164051,7 +164051,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(1/1/0)",
-    "t": "<p>a) En gammakälla ger den absorberade dosen 1,25 mGy per timme vid ett visst avstånd. Viktfaktorn är 1. Hur lång tid tar det att få den ekvivalenta dosen 12 mSv?</p><p>b) En liten strålkälla ger 1,25 mGy per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 0,150 mGy/h?</p>",
+    "t": "<p>a) En gammakälla ger den absorberade dosen 1,25 mGy per timme vid ett visst avstånd. Viktfaktorn är 1. Hur lång tid tar det att få den ekvivalenta dosen 12 mSv?</p><p>b) En liten strålkälla ger 1,25 mGy per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är dosen per timme 0,150 mGy/h?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Med viktfaktor 1 ger 1,25 mGy per timme också 1,25 mSv per timme.</p><p>\\[t=12/1{,}25=9{,}6\\ \\mathrm h\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[0{,}150=1{,}25/r^2\\]</p><p><div class=\"facit-v2\"><p>\\[r=\\sqrt{1{,}25/0{,}150}\\]</p><p>\\[r\\approx2{,}89\\ \\mathrm{m}\\]</p></div></p></div></div>",
     "id": "9.374",
     "miniräknare": true,
@@ -164111,7 +164111,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En liten strålkälla ger 1,25 mGy per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 0,150 mGy/h?",
+        "fraga": "En liten strålkälla ger 1,25 mGy per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är dosen per timme 0,150 mGy/h?",
         "s": "<div class=\"facit-v2\"><p>\\[0{,}150=1{,}25/r^2\\]</p><p><div class=\"facit-v2\"><p>\\[r=\\sqrt{1{,}25/0{,}150}\\]</p><p>\\[r\\approx2{,}89\\ \\mathrm{m}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2.886751345948129,
@@ -164124,7 +164124,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
-        "t": "<p>En liten strålkälla ger 1,25 mGy per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 0,150 mGy/h?</p>",
+        "t": "<p>En liten strålkälla ger 1,25 mGy per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är dosen per timme 0,150 mGy/h?</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       }
@@ -164141,7 +164141,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>a) Ett plutonium-239-prov har aktiviteten 37 kBq och halveringstiden 24 100 år. En atom har massan 239,05 u. Bestäm isotopens massa i kg.</p><p>b) 2,0 kg lungvävnad absorberar alfastrålning från plutonium-239 med aktiviteten 37 kBq. Varje sönderfall ger 5,23 MeV som tas upp i vävnaden. Viktfaktorn är 20. Bestäm den ekvivalenta dosen under ett år. Ett år är 3,156·10⁷ s. Räkna med konstant aktivitet.</p>",
+    "t": "<p>a) Ett plutonium-239-prov har aktiviteten 37 kBq och halveringstiden 24 100 år. En atom har massan 239,05 u. Bestäm isotopens massa i kg.</p><p>b) 2,0 kg lungvävnad absorberar alfastrålning från plutonium-239 med aktiviteten 37 kBq. Varje sönderfall ger 5,23 MeV som tas upp i vävnaden. Viktfaktorn är 20. Bestäm den ekvivalenta dosen under ett år. Ett år är 3,156·10⁷ s. Antag att aktiviteten är konstant.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=760596000000\\]</p><p>\\[T\\approx761000000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx9{,}11\\cdot10^{-13}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=37000/\\lambda\\]</p><p>\\[N\\approx4{,}06\\cdot10^{16}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot239{,}05\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx1{,}61\\cdot10^{-8}\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[N_{\\text{absorberade}}=37000\\cdot31560000\\cdot1\\]</p><p>\\[N_{\\text{absorberade}}\\approx1{,}17\\cdot10^{12}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=5{,}23\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx8{,}38\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx0{,}978\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/2\\]</p><p>\\[D\\approx0{,}489\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=20D\\]</p><p>\\[H\\approx9{,}78\\ \\mathrm{Sv}\\]</p></div></p></div></div>",
     "id": "9.375",
     "miniräknare": true,
@@ -164201,7 +164201,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "2,0 kg lungvävnad absorberar alfastrålning från plutonium-239 med aktiviteten 37 kBq. Varje sönderfall ger 5,23 MeV som tas upp i vävnaden. Viktfaktorn är 20. Bestäm den ekvivalenta dosen under ett år. Ett år är 3,156·10⁷ s. Räkna med konstant aktivitet. ",
+        "fraga": "2,0 kg lungvävnad absorberar alfastrålning från plutonium-239 med aktiviteten 37 kBq. Varje sönderfall ger 5,23 MeV som tas upp i vävnaden. Viktfaktorn är 20. Bestäm den ekvivalenta dosen under ett år. Ett år är 3,156·10⁷ s. Antag att aktiviteten är konstant. ",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[N_{\\text{absorberade}}=37000\\cdot31560000\\cdot1\\]</p><p>\\[N_{\\text{absorberade}}\\approx1{,}17\\cdot10^{12}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=5{,}23\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx8{,}38\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx0{,}978\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/2\\]</p><p>\\[D\\approx0{,}489\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=20D\\]</p><p>\\[H\\approx9{,}78\\ \\mathrm{Sv}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 9.7836953112,
@@ -164214,7 +164214,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Aktivitet och tid ger antal sönderfall. Räkna bara med den energi som vävnaden absorberar.</p>",
-        "t": "<p>2,0 kg lungvävnad absorberar alfastrålning från plutonium-239 med aktiviteten 37 kBq. Varje sönderfall ger 5,23 MeV som tas upp i vävnaden. Viktfaktorn är 20. Bestäm den ekvivalenta dosen under ett år. Ett år är 3,156·10⁷ s. Räkna med konstant aktivitet.</p>",
+        "t": "<p>2,0 kg lungvävnad absorberar alfastrålning från plutonium-239 med aktiviteten 37 kBq. Varje sönderfall ger 5,23 MeV som tas upp i vävnaden. Viktfaktorn är 20. Bestäm den ekvivalenta dosen under ett år. Ett år är 3,156·10⁷ s. Antag att aktiviteten är konstant.</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       }
@@ -164287,7 +164287,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>a) En kobolt-60-källa har aktiviteten 185 GBq och halveringstiden 5,27 år. En atom har massan 59,93 u. Bestäm isotopens massa i kg.</p><p>b) En strålkälla har aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. 1,00 % av fotonerna riktas mot en tumör och 20,0 % av dessa absorberas. Tumören har massan 1,50 kg och bestrålas i 32,0 s. Viktfaktorn är 1. Bestäm den ekvivalenta dosen.</p>",
+    "t": "<p>a) En kobolt-60-källa har aktiviteten 185 GBq och halveringstiden 5,27 år. En atom har massan 59,93 u. Bestäm isotopens massa i kg.</p><p>b) En strålkälla har aktiviteten 185 GBq. Varje sönderfall ger en gammafoton på 1,25 MeV. 1,00 % av fotonerna riktas mot en tumör och 20,0 % av dessa absorberas. Tumören har massan 1,50 kg och bestrålas i 32,0 s. Viktfaktorn är 1. Bestäm den ekvivalenta dosen.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=166321200\\]</p><p>\\[T\\approx166000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx4{,}17\\cdot10^{-9}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=185000000000/\\lambda\\]</p><p>\\[N\\approx4{,}44\\cdot10^{19}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot59{,}93\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx4{,}42\\cdot10^{-6}\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[N_{\\text{abs}}=185\\cdot10^9\\cdot32\\cdot0{,}002\\]</p><p>\\[N_{\\text{abs}}\\approx11800000000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=1{,}25\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx2\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx0{,}00237\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/1{,}5\\]</p><p>\\[D\\approx0{,}00158\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=1D\\]</p><p>\\[H\\approx0{,}00158\\ \\mathrm{Sv}\\]</p></div></p></div></div>",
     "id": "9.378",
     "miniräknare": true,
@@ -164347,7 +164347,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En strålkälla har aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. 1,00 % av fotonerna riktas mot en tumör och 20,0 % av dessa absorberas. Tumören har massan 1,50 kg och bestrålas i 32,0 s. Viktfaktorn är 1. Bestäm den ekvivalenta dosen. ",
+        "fraga": "En strålkälla har aktiviteten 185 GBq. Varje sönderfall ger en gammafoton på 1,25 MeV. 1,00 % av fotonerna riktas mot en tumör och 20,0 % av dessa absorberas. Tumören har massan 1,50 kg och bestrålas i 32,0 s. Viktfaktorn är 1. Bestäm den ekvivalenta dosen. ",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[N_{\\text{abs}}=185\\cdot10^9\\cdot32\\cdot0{,}002\\]</p><p>\\[N_{\\text{abs}}\\approx11800000000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=1{,}25\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx2\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx0{,}00237\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/1{,}5\\]</p><p>\\[D\\approx0{,}00158\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=1D\\]</p><p>\\[H\\approx0{,}00158\\ \\mathrm{Sv}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.0015806400000000001,
@@ -164360,7 +164360,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Aktivitet och tid ger antal sönderfall. Räkna bara med den energi som vävnaden absorberar.</p>",
-        "t": "<p>En strålkälla har aktiviteten 185 GBq. Räkna med en gammafoton på 1,25 MeV per sönderfall. 1,00 % av fotonerna riktas mot en tumör och 20,0 % av dessa absorberas. Tumören har massan 1,50 kg och bestrålas i 32,0 s. Viktfaktorn är 1. Bestäm den ekvivalenta dosen.</p>",
+        "t": "<p>En strålkälla har aktiviteten 185 GBq. Varje sönderfall ger en gammafoton på 1,25 MeV. 1,00 % av fotonerna riktas mot en tumör och 20,0 % av dessa absorberas. Tumören har massan 1,50 kg och bestrålas i 32,0 s. Viktfaktorn är 1. Bestäm den ekvivalenta dosen.</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       }
@@ -164377,7 +164377,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>En kropp med massan 75 kg absorberar 40 % av gammafotonerna från zink-65 med aktiviteten 1,85 MBq. Varje sönderfall ger en foton med energin 0,550 MeV. Viktfaktorn är 1. Bestäm den ekvivalenta dosen under ett dygn. Räkna med konstant aktivitet under tiden.</p>",
+    "t": "<p>En kropp med massan 75 kg absorberar 40 % av gammafotonerna från zink-65 med aktiviteten 1,85 MBq. Varje sönderfall ger en foton med energin 0,550 MeV. Viktfaktorn är 1. Bestäm den ekvivalenta dosen under ett dygn. Antag att aktiviteten är konstant.</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[t=86400\\]</p><p>\\[t\\approx86400\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_{\\text{absorberade}}=1850000\\cdot86400\\cdot0{,}4\\]</p><p>\\[N_{\\text{absorberade}}\\approx63900000000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=550000\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx8{,}81\\cdot10^{-14}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx0{,}00563\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/75\\]</p><p>\\[D\\approx7{,}51\\cdot10^{-5}\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=1D\\]</p><p>\\[H\\approx7{,}51\\cdot10^{-5}\\ \\mathrm{Sv}\\]</p></div></p></div>",
     "id": "9.379",
     "miniräknare": true,
@@ -164405,7 +164405,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Två tumörer får samma absorberade dos. Den ena har massan 0,12 kg och absorberar 1,7 J; den andra har massan 0,15 kg.</p><p>a) Bestäm den gemensamma absorberade dosen.</p><p>b) Hur mycket energi absorberar den andra tumören?</p>",
+    "t": "<p>Två tumörer får samma absorberade dos. Den ena har massan 0,12 kg och absorberar 1,7 J. Den andra har massan 0,15 kg.</p><p>a) Bestäm den gemensamma absorberade dosen.</p><p>b) Hur mycket energi absorberar den andra tumören?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><div class=\"facit-matte\">\\[D=\\frac{1{,}7\\,\\mathrm J}{0{,}12\\,\\mathrm{kg}}\\approx14{,}2\\,\\mathrm{Gy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14,2 Gy.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut energin: \\(E=Dm\\)</p><p>Samma dos betyder samma energi per kilogram. Använd den oavrundade dosen från a).</p><div class=\"facit-matte\">\\[E_2=\\frac{1{,}7}{0{,}12}\\cdot0{,}15\\,\\mathrm J=2{,}125\\,\\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,125 J (cirka 2,13 J).</p></div></div></div>",
     "id": "9.380",
     "miniräknare": true,
@@ -164441,7 +164441,7 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två tumörer får samma absorberade dos. Den ena har massan 0,12 kg och absorberar 1,7 J; den andra har massan 0,15 kg.</p>",
+    "spelIntro": "<p>Två tumörer får samma absorberade dos. Den ena har massan 0,12 kg och absorberar 1,7 J. Den andra har massan 0,15 kg.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -164494,7 +164494,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Under ett år absorberar en kropp 1,9 mJ från kosmisk strålning och får den ekvivalenta dosen 0,24 mSv. Räkna med viktfaktorn 10. Hur stor är kroppens massa?</p>",
+    "t": "<p>Under ett år absorberar en kropp 1,9 mJ från kosmisk strålning och får den ekvivalenta dosen 0,24 mSv. Viktfaktorn är 10. Hur stor är kroppens massa?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[H=0{,}24\\ \\mathrm{mSv}=0{,}00024\\ \\mathrm{Sv}\\]</p><p>\\[D=H/w\\]\\[D=0{,}00024/10=0{,}000024\\ \\mathrm{Gy}\\]</p><p>\\[E=1{,}9\\ \\mathrm{mJ}=0{,}0019\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[m=0{,}0019/0{,}000024\\]</p><p>\\[m\\approx79{,}2\\ \\mathrm{kg}\\]</p></div></p></div>",
     "id": "9.381",
     "miniräknare": true,
@@ -164577,7 +164577,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>I en modell får 2 kg vävnad den ekvivalenta dosen 2,5 mSv under ett år från radium-226. Strålningens viktfaktor är 20 och varje sönderfall ger 4,8 MeV som tas upp i vävnaden. Halveringstiden är 1 600 år och en atom har massan 226 u. Uppskatta isotopens massa i kg. Räkna bara med dess egna sönderfall.</p>",
+    "t": "<p>Antag att 2 kg vävnad får den ekvivalenta dosen 2,5 mSv under ett år från radium-226. Strålningens viktfaktor är 20 och varje sönderfall ger 4,8 MeV som tas upp i vävnaden. Halveringstiden är 1 600 år och en atom har massan 226 u. Uppskatta isotopens massa i kg. Bortse från sönderfallen hos dotterkärnorna.</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[D=0{,}0025/20\\]</p><p>\\[D\\approx0{,}000125\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=2D\\]</p><p>\\[E\\approx0{,}00025\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=4{,}8\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx7{,}69\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=E/(E_p\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[A\\approx10{,}3\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/50496000000\\]</p><p>\\[\\lambda\\approx1{,}37\\cdot10^{-11}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx750000000000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot226\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx2{,}82\\cdot10^{-13}\\ \\mathrm{kg}\\]</p></div></p></div>",
     "id": "9.384",
     "miniräknare": true,
@@ -164605,7 +164605,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En tumör med massan 0,015 kg behöver ekvivalent dos 240 Sv. Strålen ger 1,8·10¹⁰ protoner per sekund med energin 4,0 MeV per proton. Alla protonerna absorberas. Strålningens viktfaktor är 14.</p><p>a) Bestäm absorberad dos.</p><p>b) Bestäm absorberad energi i J.</p><p>c) Bestäm bestrålningstiden.</p>",
+    "t": "<p>En tumör med massan 0,015 kg behöver ekvivalent dos 240 Sv. Strålen ger 1,8·10¹⁰ protoner per sekund med energin 4,0 MeV per proton. Alla protonerna absorberas. Strålningens viktfaktor är 14.</p><p>a) Bestäm absorberad dos.</p><p>b) Bestäm den absorberade energin.</p><p>c) Bestäm bestrålningstiden.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[D=240/14\\]</p><p>\\[D\\approx17{,}1\\ \\mathrm{Gy}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=D\\cdot0{,}015\\]</p><p>\\[E\\approx0{,}257\\ \\mathrm{J}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[P=1{,}8\\cdot10^{10}\\cdot4{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[P\\approx0{,}0115\\ \\mathrm{W}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[t=E/P\\]</p><p>\\[t\\approx22{,}3\\ \\mathrm{s}\\]</p></div></p></div></div>",
     "id": "9.385",
     "miniräknare": true,
@@ -164652,7 +164652,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En tumör ska få den ekvivalenta dosen 240 Sv. Räkna med viktfaktorn 14. Hur stor absorberad dos krävs i Gy?",
+        "fraga": "En tumör ska få den ekvivalenta dosen 240 Sv. Viktfaktorn är 14. Hur stor absorberad dos krävs?",
         "s": "<div class=\"facit-v2\"><p>\\[D=240/14\\]</p><p>\\[D\\approx17{,}1\\ \\mathrm{Gy}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 17.142857142857142,
@@ -164665,7 +164665,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
-        "t": "<p>En tumör ska få den ekvivalenta dosen 240 Sv. Räkna med viktfaktorn 14. Hur stor absorberad dos krävs i Gy?</p>",
+        "t": "<p>En tumör ska få den ekvivalenta dosen 240 Sv. Viktfaktorn är 14. Hur stor absorberad dos krävs?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -164810,7 +164810,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>Kalium-40 i en kropp med massan 70 kg har aktiviteten 4,9 kBq. Räkna med att varje sönderfall i genomsnitt ger 1,4 MeV som tas upp av kroppen. Viktfaktorn är 1. Bestäm den ekvivalenta dosen under ett år. Ett år är 3,156·10⁷ s. Räkna med konstant aktivitet under tiden.</p>",
+    "t": "<p>Kalium-40 i en kropp med massan 70 kg har aktiviteten 4,9 kBq. Varje sönderfall ger i genomsnitt 1,4 MeV som tas upp av kroppen. Viktfaktorn är 1. Bestäm den ekvivalenta dosen under ett år. Ett år är 3,156·10⁷ s. Antag att aktiviteten är konstant.</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[t=31560000\\]</p><p>\\[t\\approx31600000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_{\\text{absorberade}}=4900\\cdot31560000\\cdot1\\]</p><p>\\[N_{\\text{absorberade}}\\approx155000000000\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_p=1400000\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_p\\approx2{,}24\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_p\\]</p><p>\\[E\\approx0{,}0347\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[D=E/70\\]</p><p>\\[D\\approx0{,}000495\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=1D\\]</p><p>\\[H\\approx0{,}000495\\ \\mathrm{Sv}\\]</p></div></p></div>",
     "id": "9.387",
     "miniräknare": true,
@@ -217451,7 +217451,7 @@ window.BANK = [
   "niva": "C",
   "typ": "bindningsenergi per nukleon i litium-7",
   "poang": "(0/1/0)",
-  "t": "<p>En litium-7-atom har 3 protoner, 4 neutroner och atommassan 7,016004 u. En väteatom har massan 1,007825 u och en neutron 1,008665 u. Bestäm bindningsenergin per nukleon.</p>",
+  "t": "<p>En litium-7-atom har 3 protoner, 4 neutroner och atommassan 7,016004 u. Bestäm bindningsenergin per nukleon.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekten är massan av 3 väteatomer och 4 neutroner minus litiumatomens massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m\\\\=3\\cdot1{,}007825+4\\cdot1{,}008665\\\\-7{,}016004\\\\=0{,}042131\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_b =0{,}042131\\cdot931{,}5\\ \\mathrm{MeV}\\\\\\approx39{,}2\\ \\mathrm{MeV}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{39{,}2}{7}\\ \\mathrm{MeV}\\approx5{,}61\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 5,61 MeV per nukleon.</p></div>",
   "familj": "Massdefekt och bindningsenergi",
   "formaga": [
@@ -217479,7 +217479,7 @@ window.BANK = [
   "niva": "C",
   "typ": "total bindningsenergi i syre-16",
   "poang": "(0/1/0)",
-  "t": "<p>En syre-16-atom har 8 protoner, 8 neutroner och atommassan 15,994915 u. En väteatom har massan 1,007825 u och en neutron 1,008665 u. Bestäm kärnans totala bindningsenergi.</p>",
+  "t": "<p>En syre-16-atom har 8 protoner, 8 neutroner och atommassan 15,994915 u. Bestäm kärnans totala bindningsenergi.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekten är massan av 8 väteatomer och 8 neutroner minus syreatomens massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m\\\\=8\\cdot1{,}007825+8\\cdot1{,}008665\\\\-15{,}994915\\\\=0{,}137005\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_b =0{,}137005\\cdot931{,}5\\ \\mathrm{MeV}\\\\\\approx128\\ \\mathrm{MeV}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 128 MeV.</p></div>",
   "familj": "Massdefekt och bindningsenergi",
   "formaga": [
@@ -217507,7 +217507,7 @@ window.BANK = [
   "niva": "C",
   "typ": "atommassa ur bindningsenergi per nukleon",
   "poang": "(0/1/0)",
-  "t": "<p>Neon-20 har 10 protoner, 10 neutroner och bindningsenergin 8,03 MeV per nukleon. En väteatom har massan 1,007825 u och en neutron 1,008665 u. Bestäm neonatomens massa.</p>",
+  "t": "<p>Neon-20 har 10 protoner, 10 neutroner och bindningsenergin 8,03 MeV per nukleon. Bestäm neonatomens massa.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den totala bindningsenergin är \\(20\\cdot8{,}03=160{,}6\\) MeV. Gör om till u och dra bort från massan av de fria beståndsdelarna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=\\frac{160{,}6}{931{,}5}\\ \\mathrm u=0{,}1724\\ \\mathrm u\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}m\\\\=10\\cdot1{,}007825+10\\cdot1{,}008665\\\\-0{,}1724\\ \\mathrm u\\\\\\approx19{,}992\\ \\mathrm u\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 19,992 u.</p></div>",
   "familj": "Massdefekt och bindningsenergi",
   "formaga": [
@@ -217563,7 +217563,7 @@ window.BANK = [
   "niva": "C",
   "typ": "energi för att ta loss en neutron",
   "poang": "(0/1/0)",
-  "t": "<p>Hur mycket energi krävs för att ta loss en neutron från kol-13, så att kol-12 och en fri neutron bildas? Atommassorna är 13,003355 u för kol-13 och 12,000000 u för kol-12. En neutron har massan 1,008665 u.</p>",
+  "t": "<p>Hur mycket energi krävs för att ta loss en neutron från kol-13, så att kol-12 och en fri neutron bildas? Atommassorna är 13,003355 u för kol-13 och 12,000000 u för kol-12.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin som krävs motsvarar massökningen när neutronen tas loss.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m\\\\=12{,}000000+1{,}008665-13{,}003355\\\\=0{,}005310\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}005310\\cdot931{,}5\\ \\mathrm{MeV}\\approx4{,}9\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4,9 MeV.</p></div>",
   "familj": "Massdefekt och bindningsenergi",
   "formaga": [

@@ -15073,6 +15073,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Sidan i en kvadrat skrivs om från meter till centimeter, och arean skrivs i kvadratcentimeter i stället för kvadratmeter. Vilket påstående om arean stämmer?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: Arean är oförändrad och talvärdet ökar 10 000 gånger. Kvadraten ändras inte. En kvadratmeter innehåller 100 · 100 kvadratcentimeter, så areans talvärde blir 10 000 gånger större.</p></div>",
     "ledtrad": "<p>Skilj mellan själva ytan och talet som beskriver den.</p>",
     "niva": "E",

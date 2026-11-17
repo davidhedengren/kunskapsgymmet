@@ -102870,7 +102870,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En vävnad har massan 2,4 kg och får den absorberade dosen 3,5 mGy. Hur mycket strålningsenergi tar den upp? (Svara i mJ.)</p>",
+    "t": "<p>En vävnad har massan 2,4 kg och får den absorberade dosen 3,5 mGy. Hur mycket strålningsenergi tar den upp?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dosens enhet: \\(1\\,\\mathrm{mGy}=1\\,\\mathrm{mJ/kg}\\)</p><p>Dosen anger hur mycket energi varje kilogram tar upp.</p><div class=\"facit-matte\">\\[D=3{,}5\\,\\mathrm{mJ/kg}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut energin: \\(E=Dm\\)</p><div class=\"facit-matte\">\\[E=3{,}5\\,\\mathrm{mJ/kg}\\cdot2{,}4\\,\\mathrm{kg}=8{,}4\\,\\mathrm{mJ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,4 mJ absorberas.</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
@@ -103215,7 +103215,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Hur många procent av den ursprungliga mängden radioaktiva kärnor återstår efter 3 halveringstider? (Svara i procent.)</p>",
+    "t": "<p>Hur många procent av den ursprungliga mängden radioaktiva kärnor återstår efter 3 halveringstider?</p>",
     "s": "<div class=\"facit-v2\"><p>Halvera den ursprungliga mängden en gång för varje halveringstid.</p><p>\\[f=(1/2)^{3}=1/8\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/8\\]</p><p>\\[p\\approx12{,}5\\ \\%\\]</p></div></p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
@@ -103671,7 +103671,8 @@ window.BANK = [
     "niva": "E",
     "typ": "enheten gray",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken enhet används för absorberad dos?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken enhet används för absorberad dos?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><p>Absorberad dos beskriver absorberad energi per kilogram. Den säger inte hur många kärnor som sönderfaller.</p></li><li><p class=\"facit-rubrik\">Enhetssamband: \\(1\\,\\mathrm{Gy}=1\\,\\mathrm{J/kg}\\)</p><p>Enheten kallas gray och förkortas Gy.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> gray (Gy).</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
@@ -103722,7 +103723,8 @@ window.BANK = [
     "niva": "E",
     "typ": "definition av gray",
     "poang": "(1/0/0)",
-    "t": "<p>Vad betyder \\(1\\,\\mathrm{Gy}\\)?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vad betyder \\(1\\,\\mathrm{Gy}\\)?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Definitionen av gray: \\(1\\,\\mathrm{Gy}=1\\,\\mathrm{J/kg}\\)</p><p>En absorberad dos på 1 Gy betyder att varje kilogram i medeltal har tagit upp 1 J strålningsenergi. Det är energi per massa, inte energi per sekund.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\,\\mathrm{J/kg}\\).</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
@@ -103772,7 +103774,7 @@ window.BANK = [
     "omr": "sonderfall",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Vid ett sönderfall är produkternas sammanlagda vilomassa 0,002815 u lägre än före sönderfallet.</p><p>a) Vad motsvarar masskillnaden? Förklara.</p><p>b) Bestäm frigjord energi i MeV.</p><p>c) Omvandla energin till J.</p>",
+    "t": "<p>Vid ett sönderfall är produkternas totala vilomassa 0,002815 u lägre än före sönderfallet.</p><p>a) Vad motsvarar masskillnaden? Förklara.</p><p>b) Bestäm frigjord energi i MeV.</p><p>c) Omvandla energin till J.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Den lägre vilomassan motsvarar frigjord energi enligt E = Δmc². Energin kan bli rörelseenergi hos produkterna och strålning.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=0{,}002815\\cdot931{,}5\\]</p><p>\\[E\\approx2{,}62\\ \\mathrm{MeV}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[E=Q_{\\mathrm{MeV}}\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E\\approx4{,}2\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></div>",
     "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
     "formaga": [
@@ -103814,11 +103816,11 @@ window.BANK = [
     "familjNyckelTidigare": "karnreaktioner__karnreaktioner_och_energi",
     "ledtrad": "<p>Tänk på E = mc².</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Vid ett sönderfall är produkternas sammanlagda vilomassa 0,002815 u lägre än före sönderfallet.</p>",
+    "spelIntro": "<p>Vid ett sönderfall är produkternas totala vilomassa 0,002815 u lägre än före sönderfallet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Produkternas sammanlagda vilomassa är lägre efter ett sönderfall. Vad motsvarar masskillnaden?",
+        "fraga": "Produkternas totala vilomassa är lägre efter ett sönderfall. Vad motsvarar masskillnaden?",
         "s": "<div class=\"facit-v2\"><p>Den lägre vilomassan motsvarar frigjord energi enligt E = Δmc². Energin kan bli rörelseenergi hos produkterna och strålning.</p></div>",
         "svarstyp": "alternativ",
         "rättSvar": "Energi som frigörs vid sönderfallet.",
@@ -103848,7 +103850,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Tänk på E = mc².</p>",
-        "t": "<p>Produkternas sammanlagda vilomassa är lägre efter ett sönderfall. Vad motsvarar masskillnaden?</p>",
+        "t": "<p>Produkternas totala vilomassa är lägre efter ett sönderfall. Vad motsvarar masskillnaden?</p>",
         "miniräknare": true
       },
       {
@@ -103866,7 +103868,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Massan före minus massan efter ger massdefekten. Omvandla den till energi med den givna faktorn.</p>",
-        "t": "<p>Vid ett sönderfall är produkternas sammanlagda vilomassa 0,002815 u lägre än före sönderfallet. Hur mycket energi frigörs i MeV?</p>",
+        "t": "<p>Vid ett sönderfall är produkternas totala vilomassa 0,002815 u lägre än före sönderfallet. Hur mycket energi frigörs i MeV?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -103907,7 +103909,7 @@ window.BANK = [
     "omr": "fission",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Varje klyvning av uran-235 ger 200 MeV. Ett gram innehåller 2,56·10²¹ kärnor.</p><p>a) Omvandla energin per klyvning till J.</p><p>b) Hur många klyvningar ger 1,0 J?</p><p>c) Hur mycket energi frigörs om alla kärnor i ett gram klyvs? (Svara i J.)</p>",
+    "t": "<p>Varje klyvning av uran-235 ger 200 MeV. Ett gram innehåller 2,56·10²¹ kärnor.</p><p>a) Omvandla energin per klyvning till J.</p><p>b) Hur många klyvningar ger 1,0 J?</p><p>c) Hur mycket energi frigörs om alla kärnor i ett gram klyvs?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[N=1/E_f\\]</p><p>\\[N\\approx31200000000\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[E=2{,}56\\cdot10^{21}E_f\\]</p><p>\\[E\\approx82000000000\\ \\mathrm{J}\\]</p></div></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
@@ -104022,7 +104024,7 @@ window.BANK = [
     "omr": "karnreaktioner",
     "niva": "E",
     "poang": "(4/0/0)",
-    "t": "<p>Radium-226, atomnummer 88, alfasönderfaller till radon-222, atomnummer 86. Atommassorna är 226,025410 u, 222,017578 u och 4,002602 u för radium, radon och helium.</p><p>a) Skriv reaktionsformeln.</p><p>b) Bestäm produkternas sammanlagda massa i u med sex decimaler.</p><p>c) Bestäm massminskningen i u.</p><p>d) Bestäm frigjord energi i MeV.</p>",
+    "t": "<p>Radium-226, atomnummer 88, alfasönderfaller till radon-222, atomnummer 86. Atommassorna är 226,025410 u, 222,017578 u och 4,002602 u för radium, radon och helium.</p><p>a) Skriv reaktionsformeln.</p><p>b) Bestäm produkternas totala massa i u med sex decimaler.</p><p>c) Bestäm massminskningen i u.</p><p>d) Bestäm frigjord energi i MeV.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[{}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^4_2\\mathrm{He}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[m_{efter}=222{,}017578+4{,}002602\\]</p><p>\\[m_{efter}=226{,}020180\\ \\mathrm u\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}005230\\ \\mathrm u\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[Q=0{,}005230\\cdot931{,}5\\]</p><p>\\[Q\\approx4{,}87\\ \\mathrm{MeV}\\]</p></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
@@ -104109,7 +104111,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Radium-226 alfasönderfaller till radon-222 och helium-4. Atommassorna är 222,017578 u och 4,002602 u. Bestäm produkternas sammanlagda massa i u med sex decimaler.",
+        "fraga": "Radium-226 alfasönderfaller till radon-222 och helium-4. Atommassorna är 222,017578 u och 4,002602 u. Bestäm produkternas totala massa i u med sex decimaler.",
         "s": "<div class=\"facit-v2\"><p>\\[m_{efter}=222{,}017578+4{,}002602\\]</p><p>\\[m_{efter}=226{,}020180\\ \\mathrm u\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 226.02017999999998,
@@ -104122,13 +104124,13 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Addera de två produktmassorna.</p>",
-        "t": "<p>Radium-226 alfasönderfaller till radon-222 och helium-4. Atommassorna är 222,017578 u och 4,002602 u. Bestäm produkternas sammanlagda massa i u med sex decimaler.</p>",
+        "t": "<p>Radium-226 alfasönderfaller till radon-222 och helium-4. Atommassorna är 222,017578 u och 4,002602 u. Bestäm produkternas totala massa i u med sex decimaler.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "c",
-        "fraga": "Vid ett radiumsönderfall är atommassan före 226,025410 u och den sammanlagda massan efter 226,020180 u. Bestäm massminskningen i u.",
+        "fraga": "Vid ett radiumsönderfall är atommassan före 226,025410 u och den totala massan efter 226,020180 u. Bestäm massminskningen i u.",
         "s": "<div class=\"facit-v2\"><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}005230\\ \\mathrm u\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.005230000000011614,
@@ -104141,7 +104143,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Dra massan efter från massan före.</p>",
-        "t": "<p>Vid ett radiumsönderfall är atommassan före 226,025410 u och den sammanlagda massan efter 226,020180 u. Bestäm massminskningen i u.</p>",
+        "t": "<p>Vid ett radiumsönderfall är atommassan före 226,025410 u och den totala massan efter 226,020180 u. Bestäm massminskningen i u.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -104401,7 +104403,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Elektroner accelereras genom spänningen 60 kV i ett röntgenrör. Vilken är den högsta energi en röntgenfoton kan få? (Svara i keV.)",
+        "fraga": "Elektroner accelereras genom spänningen 60 kV i ett röntgenrör. Vilken är den högsta energi en röntgenfoton kan få?",
         "s": "<div class=\"facit-v2\"><p>En elektron som accelereras genom 1 V får energin 1 eV. Vid 60 kV får den 60 keV. En foton kan som mest få hela denna energi.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 60,
@@ -104414,7 +104416,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Vad betyder en elektronvolt?</p>",
-        "t": "<p>Elektroner accelereras genom spänningen 60 kV i ett röntgenrör. Vilken är den högsta energi en röntgenfoton kan få? (Svara i keV.)</p>",
+        "t": "<p>Elektroner accelereras genom spänningen 60 kV i ett röntgenrör. Vilken är den högsta energi en röntgenfoton kan få?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -104599,7 +104601,7 @@ window.BANK = [
     "omr": "stralning_materia",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>Gammastrålningen halveras för varje 1,2 cm bly den passerar. Detta kallas halveringstjocklek.</p><p>a) Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 2,4 cm tjockt blyskikt?</p><p>b) Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 6 cm tjockt blyskikt?</p><p>c) Gammastrålningen halveras för varje 1,2 cm bly. Hur tjockt blyskikt behövs för att bara 1,0 % ska passera? (Svara i cm.)</p>",
+    "t": "<p>Gammastrålningen halveras för varje 1,2 cm bly den passerar. Detta kallas halveringstjocklek.</p><p>a) Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 2,4 cm tjockt blyskikt?</p><p>b) Gammastrålningen halveras för varje 1,2 cm bly. Hur många procent passerar ett 6 cm tjockt blyskikt?</p><p>c) Gammastrålningen halveras för varje 1,2 cm bly. Hur tjockt blyskikt behövs för att bara 1,0 % ska passera?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[n=2{,}4/1{,}2=2\\]</p><p>\\[p=100\\cdot2^{-2}=25\\ \\%\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[n=6/1{,}2=5\\]</p><p>\\[p=100\\cdot2^{-5}=3{,}125\\ \\%\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[0{,}010=2^{-x/1{,}2}\\]</p><p>\\[\\ln(0{,}010)=-(x/1{,}2)\\ln2\\]</p><p><div class=\"facit-v2\"><p>\\[x=-1{,}2\\ln(0{,}010)/\\ln2\\]</p><p>\\[x\\approx7{,}97\\ \\mathrm{cm}\\]</p></div></p></div></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
@@ -104683,7 +104685,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Gammastrålningen halveras för varje 1,2 cm bly. Hur tjockt blyskikt behövs för att bara 1,0 % ska passera? (Svara i cm.)",
+        "fraga": "Gammastrålningen halveras för varje 1,2 cm bly. Hur tjockt blyskikt behövs för att bara 1,0 % ska passera?",
         "s": "<div class=\"facit-v2\"><p>\\[0{,}010=2^{-x/1{,}2}\\]</p><p>\\[\\ln(0{,}010)=-(x/1{,}2)\\ln2\\]</p><p><div class=\"facit-v2\"><p>\\[x=-1{,}2\\ln(0{,}010)/\\ln2\\]</p><p>\\[x\\approx7{,}97\\ \\mathrm{cm}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 7.972627427729669,
@@ -104696,7 +104698,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Skriv kvarvarande andel som 2 upphöjt till −x/1,2 och ta logaritmen.</p>",
-        "t": "<p>Gammastrålningen halveras för varje 1,2 cm bly. Hur tjockt blyskikt behövs för att bara 1,0 % ska passera? (Svara i cm.)</p>",
+        "t": "<p>Gammastrålningen halveras för varje 1,2 cm bly. Hur tjockt blyskikt behövs för att bara 1,0 % ska passera?</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       }
@@ -104780,7 +104782,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>En liten strålkälla ger 480 µSv per timme på avståndet 1,0 m. Dosen per timme avtar med avståndet i kvadrat. Hur länge tar det att få dosen 1,0 mSv på avståndet 3,0 m? (Svara i timmar.)</p>",
+    "t": "<p>En liten strålkälla ger 480 µSv per timme på avståndet 1,0 m. Dosen per timme avtar med avståndet i kvadrat. Hur länge tar det att få dosen 1,0 mSv på avståndet 3,0 m?</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\dot H=480(1/3)^2\\]</p><p>\\[\\dot H\\approx53{,}3\\ \\mathrm{\\mu Sv/h}\\]</p></div></p><p>\\[1{,}0\\ \\mathrm{mSv}=1000\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[t=1000/(480/9)\\]</p><p>\\[t\\approx18{,}8\\ \\mathrm{h}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -104844,7 +104846,8 @@ window.BANK = [
     "niva": "E",
     "typ": "jämföra ekvivalent dos för olika strålslag",
     "poang": "(1/0/0)",
-    "t": "<p>Två vävnader absorberar samma dos i mGy. Den ena bestrålas med gamma och den andra med alfa. Vilken får störst ekvivalent dos om alfastrålningens viktfaktor är större?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Två vävnader absorberar samma dos i mGy. Den ena bestrålas med gamma och den andra med alfa. Vilken får störst ekvivalent dos om alfastrålningens viktfaktor är större?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos tar hänsyn till strålslagets biologiska verkan genom viktfaktorn.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vävnaden som bestrålas med alfa.</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
@@ -104895,7 +104898,8 @@ window.BANK = [
     "niva": "E",
     "typ": "enheten sievert",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken enhet används för ekvivalent dos?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken enhet används för ekvivalent dos?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos mäts i sievert.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> sievert (Sv).</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
@@ -104945,7 +104949,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Lungvävnad får 0,80 mGy gammastrålning och 0,15 mGy alfastrålning. Viktfaktorerna är 1 för gamma och 20 för alfa.</p><p>a) Bestäm den ekvivalenta dosen från varje strålslag i mSv.</p><p>b) Bestäm den sammanlagda ekvivalenta dosen i lungvävnaden.</p><p>c) Varför kan alfastrålning vara skadlig när ett alfastrålande ämne andas in?</p>",
+    "t": "<p>Lungvävnad får 0,80 mGy gammastrålning och 0,15 mGy alfastrålning. Viktfaktorerna är 1 för gamma och 20 för alfa.</p><p>a) Bestäm den ekvivalenta dosen från varje strålslag i mSv.</p><p>b) Bestäm den totala ekvivalenta dosen i lungvävnaden.</p><p>c) Varför kan alfastrålning vara skadlig när ett alfastrålande ämne andas in?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[H_\\gamma=1\\cdot0{,}80=0{,}80\\ \\mathrm{mSv}\\]</p><p>\\[H_\\alpha=20\\cdot0{,}15=3{,}0\\ \\mathrm{mSv}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[H=0{,}80+3{,}0=3{,}8\\ \\mathrm{mSv}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>När ämnet finns inne i kroppen når alfapartiklarna vävnaden direkt. Energin avges på en kort sträcka och kan orsaka stor skada i cellerna.</p></div></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
@@ -105013,7 +105017,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Samma lungvävnad får de ekvivalenta doserna 0,80 mSv från gamma och 3,0 mSv från alfa. Bestäm den sammanlagda ekvivalenta dosen i vävnaden.",
+        "fraga": "Samma lungvävnad får de ekvivalenta doserna 0,80 mSv från gamma och 3,0 mSv från alfa. Bestäm den totala ekvivalenta dosen i vävnaden.",
         "s": "<div class=\"facit-v2\"><p>\\[H=0{,}80+3{,}0=3{,}8\\ \\mathrm{mSv}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 3.8,
@@ -105026,7 +105030,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
-        "t": "<p>Samma lungvävnad får de ekvivalenta doserna 0,80 mSv från gamma och 3,0 mSv från alfa. Bestäm den sammanlagda ekvivalenta dosen i vävnaden.</p>",
+        "t": "<p>Samma lungvävnad får de ekvivalenta doserna 0,80 mSv från gamma och 3,0 mSv från alfa. Bestäm den totala ekvivalenta dosen i vävnaden.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -105102,7 +105106,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Dosen per timme är 20 µSv. Hur stor dos får en person på 3 timmar? (Svara i µSv.)</p>",
+    "t": "<p>Dosen per timme är 20 µSv. Hur stor dos får en person på 3 timmar?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[H=20\\cdot3\\]</p><p>\\[H\\approx60\\ \\mathrm{\\mu Sv}\\]</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -105133,7 +105137,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En person får dosen 75 µSv på 3,5 timmar. Hur stor är dosen per timme? (Svara i µSv/h.)</p>",
+    "t": "<p>En person får dosen 75 µSv på 3,5 timmar. Hur stor är dosen per timme?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[\\dot H=75/3{,}5\\]</p><p>\\[\\dot H\\approx21{,}4\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -105164,7 +105168,7 @@ window.BANK = [
     "omr": "fission",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Ett gram uran-235 ger 8,20·10¹⁰ J vid klyvning. En liter bensin ger 32 MJ. En bil drar 0,60 liter bensin per mil.</p><p>a) Hur många liter bensin motsvarar samma energi?</p><p>b) Hur långt räcker den bensinmängden? (Svara i mil.)</p><p>c) Vad säger jämförelsen om mängden bränsle som behövs? Förklara.</p>",
+    "t": "<p>Ett gram uran-235 ger 8,20·10¹⁰ J vid klyvning. En liter bensin ger 32 MJ. En bil drar 0,60 liter bensin per mil.</p><p>a) Hur många liter bensin motsvarar samma energi?</p><p>b) Hur långt räcker den bensinmängden?</p><p>c) Vad säger jämförelsen om mängden bränsle som behövs? Förklara.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[32\\ \\mathrm{MJ}=32\\cdot10^6\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[V=8{,}20\\cdot10^{10}/(32\\cdot10^6)\\]</p><p>\\[V\\approx2560\\ \\mathrm{L}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[s=V/0{,}60\\]</p><p>\\[s\\approx4270\\ \\mathrm{mil}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Uran-235 ger mycket energi per gram. Därför kan en liten mängd bränsle ge mycket energi. Den verkliga bränsleförbrukningen beror också på verkningsgrad och hur stor andel av bränslet som klyvs.</p></div></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
@@ -105228,7 +105232,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En energimängd motsvarar 2 560 liter bensin. En bil drar 0,60 liter per mil. Hur långt räcker bensinen? (Svara i mil.)",
+        "fraga": "En energimängd motsvarar 2 560 liter bensin. En bil drar 0,60 liter per mil. Hur långt räcker bensinen?",
         "s": "<div class=\"facit-v2\"><p>\\[s=2560/0{,}60\\]</p><p>\\[s\\approx4270\\ \\mathrm{mil}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4266.666666666667,
@@ -105241,7 +105245,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Dela antalet liter med liter per mil.</p>",
-        "t": "<p>En energimängd motsvarar 2 560 liter bensin. En bil drar 0,60 liter per mil. Hur långt räcker bensinen? (Svara i mil.)</p>",
+        "t": "<p>En energimängd motsvarar 2 560 liter bensin. En bil drar 0,60 liter per mil. Hur långt räcker bensinen?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -105493,7 +105497,8 @@ window.BANK = [
     "niva": "E",
     "typ": "betydelsen av becquerel",
     "poang": "(1/0/0)",
-    "t": "<p>Vad betyder att ett preparat har aktiviteten \\(25\\,\\mathrm{Bq}\\)?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vad betyder att ett preparat har aktiviteten \\(25\\,\\mathrm{Bq}\\)?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Becquerel anger antal radioaktiva sönderfall per sekund.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> I genomsnitt sker 25 sönderfall per sekund.</p></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
@@ -105848,7 +105853,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En neutral syre-16-atom har 8 protoner. Den förlorar två elektroner och blir en jon.</p><p>a) Hur många elektroner har jonen?</p><p>b) Vilken laddning får jonen? (Svara i C med rätt tecken.)</p><p>c) Har kärnan förändrats? Motivera.</p>",
+    "t": "<p>En neutral syre-16-atom har 8 protoner. Den förlorar två elektroner och blir en jon.</p><p>a) Hur många elektroner har jonen?</p><p>b) Vilken laddning får jonen?</p><p>c) Har kärnan förändrats? Motivera.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>En neutral syreatom har lika många elektroner som protoner. Två elektroner lämnar: 8 − 2 = 6 elektroner återstår.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Varje förlorad elektron gör jonen en elementarladdning mer positiv.</p><p>\\[Q=+2e=+2\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm C\\]</p><p>\\[Q=+3{,}204\\cdot10^{-19}\\ \\mathrm C\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Kärnan ändras inte när elektroner lämnar atomen. Den innehåller fortfarande 8 protoner och 8 neutroner. Atomen är fortfarande syre-16, men den är nu en positiv jon.</p></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
@@ -105913,7 +105918,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En neutral atom förlorar två elektroner. Vilken laddning får jonen? (Svara i C med rätt tecken.)",
+        "fraga": "En neutral atom förlorar två elektroner. Vilken laddning får jonen?",
         "s": "<div class=\"facit-v2\"><p>Varje förlorad elektron gör jonen en elementarladdning mer positiv.</p><p>\\[Q=+2e=+2\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm C\\]</p><p>\\[Q=+3{,}204\\cdot10^{-19}\\ \\mathrm C\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 3.204e-19,
@@ -105926,7 +105931,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>En elektron har laddningen −e. Vad händer när två negativa laddningar tas bort?</p>",
-        "t": "<p>En neutral atom förlorar två elektroner. Vilken laddning får jonen? (Svara i C med rätt tecken.)</p>",
+        "t": "<p>En neutral atom förlorar två elektroner. Vilken laddning får jonen?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -106231,7 +106236,8 @@ window.BANK = [
     "niva": "E",
     "typ": "identifiera isotoper",
     "poang": "(1/0/0)",
-    "t": "<p>Vilka två nuklider är isotoper av samma grundämne?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilka två nuklider är isotoper av samma grundämne?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Isotoper har samma atomnummer men olika masstal.</p></div></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
@@ -106657,7 +106663,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ett prov innehåller 18 µg av en radioaktiv isotop med halveringstiden 15 minuter.</p><p>a) Hur mycket av isotopen återstår efter 30 minuter? (Svara i µg.)</p><p>b) Hur mycket av isotopen återstår efter 45 minuter? (Svara i µg.)</p>",
+    "t": "<p>Ett prov innehåller 18 µg av en radioaktiv isotop med halveringstiden 15 minuter.</p><p>a) Hur mycket av isotopen återstår efter 30 minuter?</p><p>b) Hur mycket av isotopen återstår efter 45 minuter?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[30/15=2\\ \\text{halveringstider}\\]</p><p><div class=\"facit-v2\"><p>\\[m=18/2^{2}\\]</p><p>\\[m\\approx4{,}5\\ \\mathrm{\\mu g}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[45/15=3\\ \\text{halveringstider}\\]</p><p><div class=\"facit-v2\"><p>\\[m=18/2^{3}\\]</p><p>\\[m\\approx2{,}25\\ \\mathrm{\\mu g}\\]</p></div></p></div></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
@@ -106694,7 +106700,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett prov innehåller från början 18 µg av en radioaktiv isotop med halveringstiden 15 minuter. Hur mycket av denna isotop återstår efter 30 minuter? (Svara i µg.)",
+        "fraga": "Ett prov innehåller från början 18 µg av en radioaktiv isotop med halveringstiden 15 minuter. Hur mycket av denna isotop återstår efter 30 minuter?",
         "s": "<div class=\"facit-v2\"><p>\\[30/15=2\\ \\text{halveringstider}\\]</p><p><div class=\"facit-v2\"><p>\\[m=18/2^{2}\\]</p><p>\\[m\\approx4{,}5\\ \\mathrm{\\mu g}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.5,
@@ -106707,13 +106713,13 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Ett prov innehåller från början 18 µg av en radioaktiv isotop med halveringstiden 15 minuter. Hur mycket av denna isotop återstår efter 30 minuter? (Svara i µg.)</p>",
+        "t": "<p>Ett prov innehåller från början 18 µg av en radioaktiv isotop med halveringstiden 15 minuter. Hur mycket av denna isotop återstår efter 30 minuter?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Ett prov innehåller från början 18 µg av en radioaktiv isotop med halveringstiden 15 minuter. Hur mycket av denna isotop återstår efter 45 minuter? (Svara i µg.)",
+        "fraga": "Ett prov innehåller från början 18 µg av en radioaktiv isotop med halveringstiden 15 minuter. Hur mycket av denna isotop återstår efter 45 minuter?",
         "s": "<div class=\"facit-v2\"><p>\\[45/15=3\\ \\text{halveringstider}\\]</p><p><div class=\"facit-v2\"><p>\\[m=18/2^{3}\\]</p><p>\\[m\\approx2{,}25\\ \\mathrm{\\mu g}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2.25,
@@ -106726,7 +106732,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Ett prov innehåller från början 18 µg av en radioaktiv isotop med halveringstiden 15 minuter. Hur mycket av denna isotop återstår efter 45 minuter? (Svara i µg.)</p>",
+        "t": "<p>Ett prov innehåller från början 18 µg av en radioaktiv isotop med halveringstiden 15 minuter. Hur mycket av denna isotop återstår efter 45 minuter?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -106916,7 +106922,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Halveringstiden är 10 minuter. Hur lång tid tar det för aktiviteten att minska till en åttondel? (Svara i minuter.)</p>",
+    "t": "<p>Halveringstiden är 10 minuter. Hur lång tid tar det för aktiviteten att minska till en åttondel?</p>",
     "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[t=3\\cdot10=30\\ \\mathrm{min}\\]</p><p>En åttondel är tre halveringar: 1 → 1/2 → 1/4 → 1/8.</p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
@@ -107130,7 +107136,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(4/0/0)",
-    "t": "<p>En deuteriumatom, ²₁H, har massan 2,014102 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u.</p><p>a) Vilken sammanlagd massa har en fri väteatom och en fri neutron? (Svara i u.)</p><p>b) Bestäm deuteriums massdefekt i u.</p><p>c) Bestäm bindningsenergin i MeV.</p><p>d) Bestäm bindningsenergin per nukleon i MeV.</p>",
+    "t": "<p>En deuteriumatom, ²₁H, har massan 2,014102 u. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u.</p><p>a) Hur stor massa har en fri väteatom och en fri neutron tillsammans?</p><p>b) Bestäm deuteriums massdefekt i u.</p><p>c) Bestäm bindningsenergin i MeV.</p><p>d) Bestäm bindningsenergin per nukleon i MeV.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Väteatomen räknar både protonen och elektronen.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=1{,}007825+1{,}008665\\\\&=2{,}016490\\ \\mathrm u\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=2{,}016490-2{,}014102\\\\&=0{,}002388\\ \\mathrm u\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}002388\\cdot931{,}5\\\\&\\approx2{,}224\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b/A&=2{,}224422/2\\\\&\\approx1{,}112\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -107179,7 +107185,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En deuteriumatom består av en proton, en neutron och en elektron. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. Vilken sammanlagd massa har en fri väteatom och en fri neutron? (Svara i u.)",
+        "fraga": "En deuteriumatom består av en proton, en neutron och en elektron. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. Hur stor massa har en fri väteatom och en fri neutron tillsammans?",
         "s": "<div class=\"facit-v2\"><p>Väteatomen räknar både protonen och elektronen.</p><p>\\[\\begin{aligned}m_{\\text{fria}}&=1{,}007825+1{,}008665\\\\&=2{,}016490\\ \\mathrm u\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2.01649,
@@ -107192,7 +107198,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p>",
-        "t": "<p>En deuteriumatom består av en proton, en neutron och en elektron. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. Vilken sammanlagd massa har en fri väteatom och en fri neutron? (Svara i u.)</p>",
+        "t": "<p>En deuteriumatom består av en proton, en neutron och en elektron. Väteatomens massa är 1,007825 u och neutronens massa 1,008665 u. Hur stor massa har en fri väteatom och en fri neutron tillsammans?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -107304,7 +107310,8 @@ window.BANK = [
     "niva": "E",
     "typ": "atomnumrets betydelse",
     "poang": "(1/0/0)",
-    "t": "<p>Vad bestämmer vilket grundämne en atom tillhör?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vad bestämmer vilket grundämne en atom tillhör?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grundämnet bestäms av antalet protoner i kärnan, alltså atomnumret.</p></div></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
@@ -107701,7 +107708,8 @@ window.BANK = [
     "niva": "E",
     "typ": "begreppet nukleon",
     "poang": "(1/0/0)",
-    "t": "<p>Vad är en nukleon?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vad är en nukleon?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Protoner och neutroner kallas gemensamt nukleoner.</p></div></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
@@ -108080,7 +108088,8 @@ window.BANK = [
     "niva": "E",
     "typ": "skillnaden mellan isotoper",
     "poang": "(1/0/0)",
-    "t": "<p>Två isotoper av samma grundämne skiljer sig åt i...</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Två isotoper av samma grundämne skiljer sig åt i...</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Isotoper har samma antal protoner men olika antal neutroner.</p></div></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
@@ -108252,7 +108261,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna av kol-12 består av 12 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 92,16 MeV. Hur stor är bindningsenergin per nukleon? (Svara i MeV.)</p>",
+    "t": "<p>En kärna av kol-12 består av 12 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 92,16 MeV. Hur stor är bindningsenergin per nukleon?</p>",
     "s": "<div class=\"facit-v2\"><p>Fördela den totala bindningsenergin på kärnans nukleoner.</p><p>\\[E_b/A=92{,}16/12\\approx7{,}68\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -108515,7 +108524,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna av järn-56 består av 56 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 492,2 MeV. Hur stor är bindningsenergin per nukleon? (Svara i MeV.)</p>",
+    "t": "<p>En kärna av järn-56 består av 56 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 492,2 MeV. Hur stor är bindningsenergin per nukleon?</p>",
     "s": "<div class=\"facit-v2\"><p>Fördela den totala bindningsenergin på kärnans nukleoner.</p><p>\\[E_b/A=492{,}2/56\\approx8{,}79\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -108689,7 +108698,8 @@ window.BANK = [
     "niva": "E",
     "typ": "begreppet halveringstid",
     "poang": "(1/0/0)",
-    "t": "<p>Vilket påstående om halveringstid är korrekt?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilket påstående om halveringstid är korrekt?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Halveringstiden är den tid det tar innan antalet radioaktiva kärnor, och därmed aktiviteten för ett rent preparat, har halverats.</p></div></div></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
@@ -108738,7 +108748,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Hur många procent av den ursprungliga mängden radioaktiva kärnor återstår efter 4 halveringstider? (Svara i procent.)</p>",
+    "t": "<p>Hur många procent av den ursprungliga mängden radioaktiva kärnor återstår efter 4 halveringstider?</p>",
     "s": "<div class=\"facit-v2\"><p>Halvera den ursprungliga mängden en gång för varje halveringstid.</p><p>\\[f=(1/2)^{4}=1/16\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/16\\]</p><p>\\[p\\approx6{,}25\\ \\%\\]</p></div></p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
@@ -109300,7 +109310,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna av helium-4 består av 4 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 28,28 MeV. Hur stor är bindningsenergin per nukleon? (Svara i MeV.)</p>",
+    "t": "<p>En kärna av helium-4 består av 4 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 28,28 MeV. Hur stor är bindningsenergin per nukleon?</p>",
     "s": "<div class=\"facit-v2\"><p>Fördela den totala bindningsenergin på kärnans nukleoner.</p><p>\\[E_b/A=28{,}28/4\\approx7{,}07\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -109522,7 +109532,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett kärnkraftverk ger 1 000 MW el med verkningsgraden 33 %. Vilken värmeeffekt utvecklas i reaktorn? (Svara i MW.)",
+        "fraga": "Ett kärnkraftverk ger 1 000 MW el med verkningsgraden 33 %. Vilken värmeeffekt utvecklas i reaktorn?",
         "s": "<div class=\"facit-v2\"><p>\\[P_{värme}=1000/0{,}33\\]</p><p>\\[P_{värme}\\approx3030\\ \\mathrm{MW}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 3030.30303030303,
@@ -109535,7 +109545,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>El är 33 % av reaktorns värmeeffekt.</p>",
-        "t": "<p>Ett kärnkraftverk ger 1 000 MW el med verkningsgraden 33 %. Vilken värmeeffekt utvecklas i reaktorn? (Svara i MW.)</p>",
+        "t": "<p>Ett kärnkraftverk ger 1 000 MW el med verkningsgraden 33 %. Vilken värmeeffekt utvecklas i reaktorn?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -109857,7 +109867,8 @@ window.BANK = [
     "niva": "E",
     "typ": "skilja aktivitet från absorberad dos",
     "poang": "(1/0/0)",
-    "t": "<p>Vilket av följande beskriver bäst skillnaden mellan Bq och Gy?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilket av följande beskriver bäst skillnaden mellan Bq och Gy?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Aktivitetens enhet: \\(1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}}\\)</p><p>Becquerel anger antalet kärnsönderfall per sekund i en strålkälla.</p></li><li><p class=\"facit-rubrik\">Dosens enhet: \\(1\\,\\mathrm{Gy}=1\\,\\mathrm{J/kg}\\)</p><p>Gray anger absorberad energi per kilogram i det som träffas av strålningen. Samma aktivitet behöver inte ge samma dos: bland annat partikelenergi och absorberad andel spelar roll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bq mäter sönderfall per sekund; Gy mäter absorberad energi per kilogram.</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
@@ -109907,7 +109918,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En vävnad har massan 4,2 kg och får den absorberade dosen 1,5 mGy. Hur mycket strålningsenergi tar den upp? (Svara i mJ.)</p>",
+    "t": "<p>En vävnad har massan 4,2 kg och får den absorberade dosen 1,5 mGy. Hur mycket strålningsenergi tar den upp?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dosens enhet: \\(1\\,\\mathrm{mGy}=1\\,\\mathrm{mJ/kg}\\)</p><div class=\"facit-matte\">\\[D=1{,}5\\,\\mathrm{mJ/kg}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut energin: \\(E=Dm\\)</p><p>Multiplicera energin per kilogram med vävnadens massa.</p><div class=\"facit-matte\">\\[E=1{,}5\\,\\mathrm{mJ/kg}\\cdot4{,}2\\,\\mathrm{kg}=6{,}3\\,\\mathrm{mJ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,3 mJ absorberas.</p></div>",
     "familj": "Absorberad dos (Gy)",
     "formaga": [
@@ -109938,7 +109949,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En liten strålkälla ger 100 µSv per timme på avståndet 1 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är den på avståndet 2,2 m? (Svara i µSv/h.)</p>",
+    "t": "<p>En liten strålkälla ger 100 µSv per timme på avståndet 1 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är den på avståndet 2,2 m?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[\\dot H_2=\\dot H_1(r_1/r_2)^2\\]</p><p><div class=\"facit-v2\"><p>\\[\\dot H_2=100(1/2{,}2)^2\\]</p><p>\\[\\dot H_2\\approx20{,}7\\ \\mathrm{\\mu Sv/h}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -110001,7 +110012,7 @@ window.BANK = [
     "omr": "fusion",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Solen strålar ut 3,85·10²⁶ W och har massan 1,989·10³⁰ kg. Ett år är 3,156·10⁷ s. Räkna i denna modell med samma effekt under 4,6 miljarder år.</p><p>a) Hur mycket massa omvandlas till energi per sekund? (Svara i kg/s.)</p><p>b) Hur mycket blir det på ett år?</p><p>c) Hur många procent av solens massa omvandlas under 4,6 miljarder år?</p>",
+    "t": "<p>Solen strålar ut 3,85·10²⁶ W och har massan 1,989·10³⁰ kg. Ett år är 3,156·10⁷ s. Räkna i denna modell med samma effekt under 4,6 miljarder år.</p><p>a) Hur mycket massa omvandlas till energi per sekund?</p><p>b) Hur mycket blir det på ett år?</p><p>c) Hur många procent av solens massa omvandlas under 4,6 miljarder år?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Effekt är energi per sekund. Därför ger E = mc² massan per sekund.</p><p><div class=\"facit-v2\"><p>\\[\\dot m=P/c^2\\]</p><p>\\[\\dot m\\approx4280000000\\ \\mathrm{kg/s}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[m=\\dot m\\cdot3{,}156\\cdot10^7\\]</p><p>\\[m\\approx1{,}35\\cdot10^{17}\\ \\mathrm{kg}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=m_{år}\\cdot4{,}6\\cdot10^9\\]</p><p>\\[m\\approx6{,}22\\cdot10^{26}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[andel=m/M\\cdot100\\]</p><p>\\[andel\\approx0{,}0313\\ \\%\\]</p></div></p></div></div>",
     "familj": "Fusion och energi",
     "formaga": [
@@ -110047,7 +110058,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Solen strålar ut 3,85·10²⁶ W. Hur mycket massa omvandlas till energi per sekund? (Svara i kg/s.)",
+        "fraga": "Solen strålar ut 3,85·10²⁶ W. Hur mycket massa omvandlas till energi per sekund?",
         "s": "<div class=\"facit-v2\"><p>Effekt är energi per sekund. Därför ger E = mc² massan per sekund.</p><p><div class=\"facit-v2\"><p>\\[\\dot m=P/c^2\\]</p><p>\\[\\dot m\\approx4280000000\\ \\mathrm{kg/s}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4283487190.259372,
@@ -110060,7 +110071,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Effekt är energi per sekund. Dela effekten med c².</p>",
-        "t": "<p>Solen strålar ut 3,85·10²⁶ W. Hur mycket massa omvandlas till energi per sekund? (Svara i kg/s.)</p>",
+        "t": "<p>Solen strålar ut 3,85·10²⁶ W. Hur mycket massa omvandlas till energi per sekund?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -110409,6 +110420,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(2/1/0)",
     "t": "<p>Polonium-210 alfasönderfaller till bly-206. Atommassorna är 209,982874 u, 205,974465 u och 4,002602 u för polonium, bly och helium. Kärnan är från början i vila.</p><span class=\"fig bred\"><svg height=\"204\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.600 24.000 460.000 151.200\"><text x=\"150\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">före sönderfallet</text><line x1=\"205\" y1=\"52\" x2=\"205\" y2=\"168\" stroke=\"#C9C8CC\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><circle cx=\"150\" cy=\"110\" r=\"40\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">²¹⁰Po</text><text x=\"370\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">efter sönderfallet</text><circle cx=\"300\" cy=\"130\" r=\"34\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"300\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">²⁰⁶Pb</text><circle cx=\"430\" cy=\"130\" r=\"16\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"430\" y=\"135\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">α</text><line x1=\"266\" y1=\"130\" x2=\"226\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"216.00,130.00 226.00,125.40 226.00,134.60\" fill=\"#2A5D9E\"/><text x=\"240\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">rekyl</text><line x1=\"452\" y1=\"130\" x2=\"502\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"512.00,130.00 502.00,134.60 502.00,125.40\" fill=\"#2A5D9E\"/><text x=\"520\" y=\"126\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></svg></span><p>a) Bestäm totalt frigjord energi i MeV.</p><p>b) Visa att produkternas rörelseenergier är omvänt proportionella mot massorna.</p><p>c) Hur många procent av den totala rörelseenergin får alfapartikeln respektive blykärnan? Använd atommassorna som ungefärliga kärnmassor.</p>",
+    "kgInstruktion": "Svara i den ordningen.",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=209{,}982874\\ \\mathrm u\\]</p><p>\\[m_{efter}=209{,}977067\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}005807\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}41\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Kärnan är från början i vila, så den sammanlagda rörelsemängden är noll. Produkterna måste få lika stora rörelsemängder åt motsatta håll.</p><p>\\[p_\\alpha+p_{Pb}=0\\]</p><p>\\[|p_\\alpha|=|p_{Pb}|\\]</p><p>Med Eₖ = p²/(2m) får den lättare partikeln större rörelseenergi.</p><p>\\[\\frac{E_\\alpha}{E_{Pb}}=\\frac{m_{Pb}}{m_\\alpha}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Energiandelarna blir massan av den andra produkten delad med massornas summa. Använd de givna atommassorna som ungefärliga kärnmassor.</p><p><div class=\"facit-v2\"><p>\\[f_\\alpha=m_{Pb}/(m_{Pb}+m_\\alpha)\\cdot100\\]</p><p>\\[f_\\alpha\\approx98{,}1\\ \\mathrm{\\%}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[f_{Pb}=100-f_\\alpha\\]</p><p>\\[f_{Pb}\\approx1{,}91\\ \\mathrm{\\%}\\]</p></div></p></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
@@ -110499,7 +110511,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En alfapartikel har massan 4 u och en blykärna 206 u. De får lika stora rörelsemängder åt motsatta håll. Hur många procent av den totala rörelseenergin får alfapartikeln respektive blykärnan? (Svara i den ordningen.)",
+        "fraga": "En alfapartikel har massan 4 u och en blykärna 206 u. De får lika stora rörelsemängder åt motsatta håll. Hur många procent av den totala rörelseenergin får alfapartikeln respektive blykärnan?",
         "s": "<div class=\"facit-v2\"><p>Eₖ = p²/(2m). Vid lika stora rörelsemängder är energin omvänt proportionell mot massan.</p><p><div class=\"facit-v2\"><p>\\[f_\\alpha=206/(206+4)\\cdot100\\]</p><p>\\[f_\\alpha\\approx98{,}1\\ \\mathrm{\\%}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[f_{Pb}=4/(206+4)\\cdot100\\]</p><p>\\[f_{Pb}\\approx1{,}9\\ \\mathrm{\\%}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -110521,7 +110533,8 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Använd Eₖ = p²/(2m) och energins bevarande.</p>",
-        "t": "<p>En alfapartikel har massan 4 u och en blykärna 206 u. De får lika stora rörelsemängder åt motsatta håll. Hur många procent av den totala rörelseenergin får alfapartikeln respektive blykärnan? (Svara i den ordningen.)</p>",
+        "t": "<p>En alfapartikel har massan 4 u och en blykärna 206 u. De får lika stora rörelsemängder åt motsatta håll. Hur många procent av den totala rörelseenergin får alfapartikeln respektive blykärnan?</p>",
+        "kgInstruktion": "Svara i den ordningen.",
         "arbetsinsats": 2,
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
@@ -110679,7 +110692,8 @@ window.BANK = [
     "niva": "E",
     "typ": "alternativ",
     "poang": "(1/0/0)",
-    "t": "<p>I reaktionen \\({}^{27}_{13}\\mathrm{Al}+{}^4_2\\mathrm{He}\\rightarrow{}^{30}_{15}\\mathrm P+X\\) ska X bestämmas. Vilken partikel är X? Markera det korrekta alternativet.</p>",
+    "t": "<p>I reaktionen \\({}^{27}_{13}\\mathrm{Al}+{}^4_2\\mathrm{He}\\rightarrow{}^{30}_{15}\\mathrm P+X\\) ska X bestämmas. Vilken partikel är X?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2\"><p>\\[27+4=30+A\\]</p><p>\\[A=1\\]</p><p>\\[13+2=15+Z\\]</p><p>\\[Z=0\\]</p><p>Masstal 1 och atomnummer 0 innebär en neutron.</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
     "formaga": [
@@ -111093,7 +111107,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett fluor-18-parti har aktiviteten 20 GBq klockan 09:00 och halveringstiden 110 minuter. Vilken aktivitet återstår klockan 12:30? (Svara i GBq.)",
+        "fraga": "Ett fluor-18-parti har aktiviteten 20 GBq klockan 09:00 och halveringstiden 110 minuter. Vilken aktivitet återstår klockan 12:30?",
         "s": "<div class=\"facit-v2\"><p>Från 09:00 till 12:30 går 210 minuter.</p><p><div class=\"facit-v2\"><p>\\[A=20\\cdot2^{-210/110}\\]</p><p>\\[A\\approx5{,}33\\ \\mathrm{GBq}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5.325205447199814,
@@ -111106,7 +111120,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Räkna tiden i minuter och använd halveringsformeln.</p>",
-        "t": "<p>Ett fluor-18-parti har aktiviteten 20 GBq klockan 09:00 och halveringstiden 110 minuter. Vilken aktivitet återstår klockan 12:30? (Svara i GBq.)</p>",
+        "t": "<p>Ett fluor-18-parti har aktiviteten 20 GBq klockan 09:00 och halveringstiden 110 minuter. Vilken aktivitet återstår klockan 12:30?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -111245,7 +111259,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Ett preparat har aktiviteten 12 kBq från början och halveringstiden 8 dygn. Bestäm aktiviteten efter 20 dygn. (Svara i kBq.)</p>",
+    "t": "<p>Ett preparat har aktiviteten 12 kBq från början och halveringstiden 8 dygn. Bestäm aktiviteten efter 20 dygn.</p>",
     "s": "<div class=\"facit-v2\"><p>\\[t/T=20/8\\]</p><p><div class=\"facit-v2\"><p>\\[A=12\\cdot2^{-20/8}\\]</p><p>\\[A\\approx2{,}12\\ \\mathrm{kBq}\\]</p></div></p><p></p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
@@ -111306,7 +111320,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ett preparat har aktiviteten 4,0 kBq nu. Halveringstiden är 20 minuter.</p><p>a) Vilken aktivitet hade preparatet 60 minuter tidigare? (Svara i kBq.)</p><p>b) Hur lång tid från nu tar det innan aktiviteten är 500 Bq? (Svara i minuter.)</p>",
+    "t": "<p>Ett preparat har aktiviteten 4,0 kBq nu. Halveringstiden är 20 minuter.</p><p>a) Vilken aktivitet hade preparatet 60 minuter tidigare?</p><p>b) Hur lång tid från nu tar det innan aktiviteten är 500 Bq?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Bakåt i tiden fördubblas aktiviteten för varje halveringstid.</p><p>\\[60/20=3\\]</p><p>\\[A=4{,}0\\cdot2^3=32\\ \\mathrm{kBq}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[500\\ \\mathrm{Bq}=0{,}50\\ \\mathrm{kBq}\\]</p><p>\\[4{,}0\\to2{,}0\\to1{,}0\\to0{,}50\\]</p><p>\\[t=3\\cdot20=60\\ \\mathrm{min}\\]</p></div></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
@@ -111343,7 +111357,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken aktivitet hade det 60 minuter tidigare? (Svara i kBq.)",
+        "fraga": "Vilken aktivitet hade det 60 minuter tidigare?",
         "s": "<div class=\"facit-v2\"><p>Bakåt i tiden fördubblas aktiviteten för varje halveringstid.</p><p>\\[60/20=3\\]</p><p>\\[A=4{,}0\\cdot2^3=32\\ \\mathrm{kBq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 32,
@@ -111356,13 +111370,13 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Ett preparat har aktiviteten 4,0 kBq nu. Halveringstiden är 20 minuter. Vilken aktivitet hade det 60 minuter tidigare? (Svara i kBq.)</p>",
+        "t": "<p>Ett preparat har aktiviteten 4,0 kBq nu. Halveringstiden är 20 minuter. Vilken aktivitet hade det 60 minuter tidigare?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Ett preparat har aktiviteten 4,0 kBq nu och halveringstiden 20 minuter. Hur lång tid från nu tar det innan aktiviteten är 500 Bq? (Svara i minuter.)",
+        "fraga": "Ett preparat har aktiviteten 4,0 kBq nu och halveringstiden 20 minuter. Hur lång tid från nu tar det innan aktiviteten är 500 Bq?",
         "s": "<div class=\"facit-v2\"><p>\\[500\\ \\mathrm{Bq}=0{,}50\\ \\mathrm{kBq}\\]</p><p>\\[4{,}0\\to2{,}0\\to1{,}0\\to0{,}50\\]</p><p>\\[t=3\\cdot20=60\\ \\mathrm{min}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 60,
@@ -111375,7 +111389,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Ett preparat har aktiviteten 4,0 kBq nu och halveringstiden 20 minuter. Hur lång tid från nu tar det innan aktiviteten är 500 Bq? (Svara i minuter.)</p>",
+        "t": "<p>Ett preparat har aktiviteten 4,0 kBq nu och halveringstiden 20 minuter. Hur lång tid från nu tar det innan aktiviteten är 500 Bq?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -111429,7 +111443,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>Halveringstiden är 12 timmar. Hur lång tid tar det innan aktiviteten är 10 % av startvärdet? (Svara i timmar.)</p>",
+    "t": "<p>Halveringstiden är 12 timmar. Hur lång tid tar det innan aktiviteten är 10 % av startvärdet?</p>",
     "s": "<div class=\"facit-v2\"><p>Aktiviteten är proportionell mot mängden radioaktiva kärnor som återstår.</p><p>\\[f=2^{-t/T}\\]</p><p>\\[\\ln f=-\\frac{t}{T}\\ln2\\]</p><p>\\[t=-T\\frac{\\ln f}{\\ln2}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-12\\cdot\\ln(0{,}1)/\\ln2\\]</p><p>\\[t\\approx39{,}9\\ \\mathrm{h}\\]</p></div></p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
@@ -111570,7 +111584,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna av kväve-14 består av 14 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 104,7 MeV. Hur stor är bindningsenergin per nukleon? (Svara i MeV.)</p>",
+    "t": "<p>En kärna av kväve-14 består av 14 nukleoner, alltså protoner och neutroner. Dess totala bindningsenergi är 104,7 MeV. Hur stor är bindningsenergin per nukleon?</p>",
     "s": "<div class=\"facit-v2\"><p>Fördela den totala bindningsenergin på kärnans nukleoner.</p><p>\\[E_b/A=104{,}7/14\\approx7{,}48\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -111980,7 +111994,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Kalcium-40 har bindningsenergin 8,55 MeV per nukleon och helium-4 har 7,07 MeV per nukleon. Hur mycket större är kalciums bindningsenergi per nukleon? (Svara i MeV.)</p>",
+    "t": "<p>Kalcium-40 har bindningsenergin 8,55 MeV per nukleon och helium-4 har 7,07 MeV per nukleon. Hur mycket större är kalciums bindningsenergi per nukleon?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[\\Delta E=8{,}55-7{,}07\\approx1{,}48\\ \\mathrm{MeV}\\]</p><p>Det krävs mer energi per nukleon för att dela upp kalciumkärnan helt.</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -112338,7 +112352,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Två kärnor har bindningsenergin 7,65 respektive 8,55 MeV per nukleon. Hur mycket större är den högre energin per nukleon? (Svara i MeV.)</p>",
+    "t": "<p>Två kärnor har bindningsenergin 7,65 respektive 8,55 MeV per nukleon. Hur mycket större är den högre energin per nukleon?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[8{,}55-7{,}65=0{,}90\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -112564,7 +112578,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna har 1 protoner och 1 neutroner. Kärnans massa är 2,013553 u. Massan hos en fri proton är 1,007276 u och hos en fri neutron 1,008665 u.</p><p>Bestäm bindningsenergin. (Svara i MeV.)</p>",
+    "t": "<p>En kärna har 1 protoner och 1 neutroner. Kärnans massa är 2,013553 u. Massan hos en fri proton är 1,007276 u och hos en fri neutron 1,008665 u.</p><p>Bestäm bindningsenergin.</p>",
     "s": "<div class=\"facit-v2\"><p>Jämför kärnmassan med samma protoner och neutroner fria.</p><p>\\[\\begin{aligned}\\Delta m&=1\\cdot1{,}007276\\\\&\\quad+1\\cdot1{,}008665\\\\&\\quad-2{,}013553\\\\&\\approx0{,}002388\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}002388\\cdot931{,}5\\\\&\\approx2{,}224\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -112638,7 +112652,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Två deuteriumkärnor, vardera med 2 nukleoner och 1,11 MeV bindningsenergi per nukleon, bildar helium-4 med 7,07 MeV per nukleon. Hur mycket energi frigörs? (Svara i MeV.)",
+        "fraga": "Två deuteriumkärnor, vardera med 2 nukleoner och 1,11 MeV bindningsenergi per nukleon, bildar helium-4 med 7,07 MeV per nukleon. Hur mycket energi frigörs?",
         "s": "<div class=\"facit-v2\"><p>\\[Q=4\\cdot7{,}07-4\\cdot1{,}11=23{,}84\\ \\mathrm{MeV}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 23.84,
@@ -112651,13 +112665,13 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Jämför den totala bindningsenergin för samma fyra nukleoner före och efter.</p>",
-        "t": "<p>Två deuteriumkärnor, vardera med 2 nukleoner och 1,11 MeV bindningsenergi per nukleon, bildar helium-4 med 7,07 MeV per nukleon. Hur mycket energi frigörs? (Svara i MeV.)</p>",
+        "t": "<p>Två deuteriumkärnor, vardera med 2 nukleoner och 1,11 MeV bindningsenergi per nukleon, bildar helium-4 med 7,07 MeV per nukleon. Hur mycket energi frigörs?</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "En uran-238-kärna har bindningsenergin 7,57 MeV per nukleon. I en förenklad fissionsmodell har alla 238 nukleoner efteråt bindningsenergin 8,50 MeV per nukleon. Hur mycket energi frigörs? (Svara i MeV.)",
+        "fraga": "En uran-238-kärna har bindningsenergin 7,57 MeV per nukleon. I en förenklad fissionsmodell har alla 238 nukleoner efteråt bindningsenergin 8,50 MeV per nukleon. Hur mycket energi frigörs?",
         "s": "<div class=\"facit-v2\"><p>\\[Q=238(8{,}50-7{,}57)=221{,}34\\ \\mathrm{MeV}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 221.33999999999992,
@@ -112670,7 +112684,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Multiplicera ökningen per nukleon med antalet nukleoner.</p>",
-        "t": "<p>En uran-238-kärna har bindningsenergin 7,57 MeV per nukleon. I en förenklad fissionsmodell har alla 238 nukleoner efteråt bindningsenergin 8,50 MeV per nukleon. Hur mycket energi frigörs? (Svara i MeV.)</p>",
+        "t": "<p>En uran-238-kärna har bindningsenergin 7,57 MeV per nukleon. I en förenklad fissionsmodell har alla 238 nukleoner efteråt bindningsenergin 8,50 MeV per nukleon. Hur mycket energi frigörs?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -112727,7 +112741,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>I en modell ökar bindningsenergin med 0,85 MeV per nukleon. Varje kärna har 56 nukleoner. Hur mycket energi frigörs när 1,00 mol sådana kärnor genomgår processen? (Svara i J.)</p>",
+    "t": "<p>I en modell ökar bindningsenergin med 0,85 MeV per nukleon. Varje kärna har 56 nukleoner. Hur mycket energi frigörs när 1,00 mol sådana kärnor genomgår processen?</p>",
     "s": "<div class=\"facit-v2\"><p>Energin per kärna är 56 · 0,85 = 47,6 MeV.</p><p>\\[E_{\\text{kärna}}=47{,}6\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_{\\text{kärna}}=7{,}62552\\cdot10^{-12}\\ \\mathrm J\\]</p><p>En mol innehåller 6,022·10²³ kärnor.</p><p>\\[E=E_{\\text{kärna}}\\cdot N_A\\approx4{,}59\\cdot10^{12}\\ \\mathrm J\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -112948,7 +112962,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna har 2 protoner och 2 neutroner. Kärnans massa är 4,001506 u. Massan hos en fri proton är 1,007276 u och hos en fri neutron 1,008665 u.</p><p>Bestäm bindningsenergin per nukleon. (Svara i MeV.)</p>",
+    "t": "<p>En kärna har 2 protoner och 2 neutroner. Kärnans massa är 4,001506 u. Massan hos en fri proton är 1,007276 u och hos en fri neutron 1,008665 u.</p><p>Bestäm bindningsenergin per nukleon.</p>",
     "s": "<div class=\"facit-v2\"><p>Jämför kärnmassan med samma protoner och neutroner fria.</p><p>\\[\\begin{aligned}\\Delta m&=2\\cdot1{,}007276\\\\&\\quad+2\\cdot1{,}008665\\\\&\\quad-4{,}001506\\\\&\\approx0{,}030376\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}030376\\cdot931{,}5\\\\&\\approx28{,}295\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=28{,}295244/4\\\\&\\approx7{,}074\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -113127,7 +113141,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Kärna X har 20 nukleoner och bindningsenergin 7,9 MeV per nukleon. Kärna Y har 56 nukleoner och 8,7 MeV per nukleon. Hur mycket större är Y:s totala bindningsenergi? (Svara i MeV.)</p>",
+    "t": "<p>Kärna X har 20 nukleoner och bindningsenergin 7,9 MeV per nukleon. Kärna Y har 56 nukleoner och 8,7 MeV per nukleon. Hur mycket större är Y:s totala bindningsenergi?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[E_X=20\\cdot7{,}9=158\\ \\mathrm{MeV}\\]</p><p>\\[E_Y=56\\cdot8{,}7=487{,}2\\ \\mathrm{MeV}\\]</p><p>\\[E_Y-E_X=487{,}2-158=329{,}2\\ \\mathrm{MeV}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -113181,7 +113195,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En atom av kol-12 har 6 protoner, 6 neutroner och atommassan 12,0 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u.</p><p>Bestäm bindningsenergin per nukleon. (Svara i MeV.)</p>",
+    "t": "<p>En atom av kol-12 har 6 protoner, 6 neutroner och atommassan 12,0 u. Väteatomens massa är 1,007825 u och en fri neutrons massa 1,008665 u.</p><p>Bestäm bindningsenergin per nukleon.</p>",
     "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}N_p&=6,\\quad N_n\\\\&=6\\end{aligned}\\]</p><p>\\[\\begin{aligned}\\Delta m&=6\\cdot1{,}007825\\\\&\\quad+6\\cdot1{,}008665\\\\&\\quad-12\\\\&\\approx0{,}098940\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}09894\\cdot931{,}5\\\\&\\approx92{,}163\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=92{,}16261/12\\\\&\\approx7{,}680\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -113212,7 +113226,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En kärna har 92 protoner och 146 neutroner. Kärnans massa är 238,00028 u. Massan hos en fri proton är 1,007276 u och hos en fri neutron 1,008665 u.</p><p>Bestäm bindningsenergin per nukleon. (Svara i MeV.)</p>",
+    "t": "<p>En kärna har 92 protoner och 146 neutroner. Kärnans massa är 238,00028 u. Massan hos en fri proton är 1,007276 u och hos en fri neutron 1,008665 u.</p><p>Bestäm bindningsenergin per nukleon.</p>",
     "s": "<div class=\"facit-v2\"><p>Jämför kärnmassan med samma protoner och neutroner fria.</p><p>\\[\\begin{aligned}\\Delta m&=92\\cdot1{,}007276\\\\&\\quad+146\\cdot1{,}008665\\\\&\\quad-238{,}00028\\\\&\\approx1{,}934202\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=1{,}934202\\cdot931{,}5\\\\&\\approx1801{,}709\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=1801{,}7092/238\\\\&\\approx7{,}570\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
@@ -114405,7 +114419,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(3/0/0)",
-    "t": "<p>Kalium-40 har halveringstiden 1,25 miljarder år. En fjärdedel av den ursprungliga mängden finns kvar i ett bergprov. En del av sönderfallen bildar argon-40.</p><p>a) Hur många halveringstider har gått?</p><p>b) Hur gammalt är provet? (Svara i miljarder år.)</p><p>c) Vilka antaganden om argonet behövs för kalium–argon-datering?</p>",
+    "t": "<p>Kalium-40 har halveringstiden 1,25 miljarder år. En fjärdedel av den ursprungliga mängden finns kvar i ett bergprov. En del av sönderfallen bildar argon-40.</p><p>a) Hur många halveringstider har gått?</p><p>b) Hur gammalt är provet?</p><p>c) Vilka antaganden om argonet behövs för kalium–argon-datering?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[1\\to1/2\\to1/4\\]</p><p>Två halveringar.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>En fjärdedel återstår efter två halveringstider.</p><p>\\[t=2\\cdot1{,}25=2{,}50\\ \\text{miljarder år}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Man måste kunna skilja startargon från bildat argon. Senare tillförsel eller förlust av kalium eller argon kan ändra den beräknade åldern. I riktig datering räknar man också med att bara en del av K-40-sönderfallen bildar argon.</p></div></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
@@ -114471,7 +114485,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En fjärdedel av det ursprungliga kalium-40 finns kvar i ett bergprov. Halveringstiden är 1,25 miljarder år. Hur gammalt är provet? (Svara i miljarder år.)",
+        "fraga": "En fjärdedel av det ursprungliga kalium-40 finns kvar i ett bergprov. Halveringstiden är 1,25 miljarder år. Hur gammalt är provet?",
         "s": "<div class=\"facit-v2\"><p>En fjärdedel återstår efter två halveringstider.</p><p>\\[t=2\\cdot1{,}25=2{,}50\\ \\text{miljarder år}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2.5,
@@ -114484,7 +114498,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>En fjärdedel av det ursprungliga kalium-40 finns kvar i ett bergprov. Halveringstiden är 1,25 miljarder år. Hur gammalt är provet? (Svara i miljarder år.)</p>",
+        "t": "<p>En fjärdedel av det ursprungliga kalium-40 finns kvar i ett bergprov. Halveringstiden är 1,25 miljarder år. Hur gammalt är provet?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -115002,7 +115016,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Ett preparat har aktiviteten 1 600 Bq och halveringstiden 6 timmar. Efter hur lång tid är aktiviteten 100 Bq? (Svara i timmar.)</p>",
+    "t": "<p>Ett preparat har aktiviteten 1 600 Bq och halveringstiden 6 timmar. Efter hur lång tid är aktiviteten 100 Bq?</p>",
     "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[1600\\to800\\to400\\to200\\to100\\]</p><p>Fyra halveringar tar 4 · 6 = 24 timmar.</p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
@@ -115492,7 +115506,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>Ett prov innehåller två radioaktiva ämnen med halveringstiderna 4 respektive 10 timmar. Efter 16 timmar är deras sammanlagda aktivitet 227,44 Bq. Det första ämnet hade aktiviteten 1 000 Bq från början. Vilken var det andra ämnets startaktivitet?</p>",
+    "t": "<p>Ett prov innehåller två radioaktiva ämnen med halveringstiderna 4 respektive 10 timmar. Efter 16 timmar är deras totala aktivitet 227,44 Bq. Det första ämnet hade aktiviteten 1 000 Bq från början. Vilken var det andra ämnets startaktivitet?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[A_1=1000\\cdot2^{-16/4}=62{,}5\\ \\mathrm{Bq}\\]</p><p>\\[A_2=227{,}44-62{,}5=164{,}94\\ \\mathrm{Bq}\\]</p><p><div class=\"facit-v2\"><p>\\[A_{2,0}=164{,}94/2^{-16/10}\\]</p><p>\\[A_{2,0}\\approx500\\ \\mathrm{Bq}\\]</p></div></p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
@@ -115523,7 +115537,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Aktiviteten minskar från 800 Bq till 50 Bq. Halveringstiden är 20 minuter.</p><p>a) Med vilken faktor har aktiviteten minskat?</p><p>b) Hur många halveringstider har gått?</p><p>c) Hur lång tid har gått? (Svara i minuter.)</p>",
+    "t": "<p>Aktiviteten minskar från 800 Bq till 50 Bq. Halveringstiden är 20 minuter.</p><p>a) Med vilken faktor har aktiviteten minskat?</p><p>b) Hur många halveringstider har gått?</p><p>c) Hur lång tid har gått?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[800/50=16\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[800\\to400\\to200\\to100\\to50\\]</p><p>Fyra halveringar.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Fyra halveringar ger 800 → 400 → 200 → 100 → 50 Bq.</p><p>\\[t=4\\cdot20=80\\ \\mathrm{min}\\]</p></div></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
@@ -115607,7 +115621,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hur lång tid har gått? (Svara i minuter.)",
+        "fraga": "Hur lång tid har gått?",
         "s": "<div class=\"facit-v2\"><p>Fyra halveringar ger 800 → 400 → 200 → 100 → 50 Bq.</p><p>\\[t=4\\cdot20=80\\ \\mathrm{min}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 80,
@@ -115620,7 +115634,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Aktiviteten minskar från 800 Bq till 50 Bq. Halveringstiden är 20 minuter. Hur lång tid har gått? (Svara i minuter.)</p>",
+        "t": "<p>Aktiviteten minskar från 800 Bq till 50 Bq. Halveringstiden är 20 minuter. Hur lång tid har gått?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -115672,7 +115686,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>a) Samma vävnad får 1,5 mGy från gamma, 0,20 mGy från neutroner och 0,050 mGy från alfa. Viktfaktorerna är 1, 10 respektive 20. Bestäm den sammanlagda ekvivalenta dosen i mSv.</p><p>b) Vilket strålslag ger störst ekvivalent dos per absorberad dos? Motivera.</p>",
+    "t": "<p>a) Samma vävnad får 1,5 mGy från gamma, 0,20 mGy från neutroner och 0,050 mGy från alfa. Viktfaktorerna är 1, 10 respektive 20. Hur stor är den totala ekvivalenta dosen?</p><p>b) Vilket strålslag ger störst ekvivalent dos per absorberad dos? Motivera.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[H_\\gamma=1\\cdot1{,}5=1{,}5\\ \\mathrm{mSv}\\]</p><p>\\[H_n=10\\cdot0{,}20=2{,}0\\ \\mathrm{mSv}\\]</p><p>\\[H_\\alpha=20\\cdot0{,}050=1{,}0\\ \\mathrm{mSv}\\]</p><p>\\[H=1{,}5+2{,}0+1{,}0=4{,}5\\ \\mathrm{mSv}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Störst viktfaktor ger störst ekvivalent dos när den absorberade dosen är samma.</p></div></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
@@ -115715,7 +115729,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Samma vävnad får 1,5 mGy från gamma, 0,20 mGy från neutroner och 0,050 mGy från alfa. Viktfaktorerna är 1, 10 respektive 20. Bestäm den sammanlagda ekvivalenta dosen i mSv.",
+        "fraga": "Samma vävnad får 1,5 mGy från gamma, 0,20 mGy från neutroner och 0,050 mGy från alfa. Viktfaktorerna är 1, 10 respektive 20. Hur stor är den totala ekvivalenta dosen?",
         "s": "<div class=\"facit-v2\"><p>\\[H_\\gamma=1\\cdot1{,}5=1{,}5\\ \\mathrm{mSv}\\]</p><p>\\[H_n=10\\cdot0{,}20=2{,}0\\ \\mathrm{mSv}\\]</p><p>\\[H_\\alpha=20\\cdot0{,}050=1{,}0\\ \\mathrm{mSv}\\]</p><p>\\[H=1{,}5+2{,}0+1{,}0=4{,}5\\ \\mathrm{mSv}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.5,
@@ -115728,7 +115742,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Ekvivalent dos är absorberad dos multiplicerad med strålningens viktfaktor: H = wD.</p>",
-        "t": "<p>Samma vävnad får 1,5 mGy från gamma, 0,20 mGy från neutroner och 0,050 mGy från alfa. Viktfaktorerna är 1, 10 respektive 20. Bestäm den sammanlagda ekvivalenta dosen i mSv.</p>",
+        "t": "<p>Samma vävnad får 1,5 mGy från gamma, 0,20 mGy från neutroner och 0,050 mGy från alfa. Viktfaktorerna är 1, 10 respektive 20. Hur stor är den totala ekvivalenta dosen?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -115812,7 +115826,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En liten strålkälla ger 100 µSv per timme på avståndet 1 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är den på avståndet 3,5 m? (Svara i µSv/h.)</p>",
+    "t": "<p>En liten strålkälla ger 100 µSv per timme på avståndet 1 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är den på avståndet 3,5 m?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[\\dot H_2=\\dot H_1(r_1/r_2)^2\\]</p><p><div class=\"facit-v2\"><p>\\[\\dot H_2=100(1/3{,}5)^2\\]</p><p>\\[\\dot H_2\\approx8{,}16\\ \\mathrm{\\mu Sv/h}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -116079,7 +116093,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat.</p><p>a) Bestäm dosen per timme på 3,0 m. (Svara i µSv/h.)</p><p>b) På vilket avstånd är dosen per timme 5,0 µSv/h?</p><p>c) Hur kan tid, avstånd och skyddsskärm minska dosen?</p>",
+    "t": "<p>En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat.</p><p>a) Bestäm dosen per timme på 3,0 m.</p><p>b) På vilket avstånd är dosen per timme 5,0 µSv/h?</p><p>c) Hur kan tid, avstånd och skyddsskärm minska dosen?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\dot H=120(1/3)^2\\]</p><p>\\[\\dot H\\approx13{,}3\\ \\mathrm{\\mu Sv/h}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[5{,}0=120(1/r)^2\\]</p><p>\\[r^2=120/5=24\\]</p><p><div class=\"facit-v2\"><p>\\[r=\\sqrt{24}\\]</p><p>\\[r\\approx4{,}9\\ \\mathrm{m}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Kortare tid minskar den tid man utsätts. Större avstånd minskar strålningen per yta. En lämplig skärm stoppar en del av strålningen.</p></div></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -116125,7 +116139,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm dosen per timme på 3,0 m avstånd. (Svara i µSv/h.)",
+        "fraga": "Bestäm dosen per timme på 3,0 m avstånd.",
         "s": "<div class=\"facit-v2\"><p>\\[\\dot H=120(1/3)^2\\]</p><p>\\[\\dot H\\approx13{,}3\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 13.333333333333334,
@@ -116138,7 +116152,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
-        "t": "<p>En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 3,0 m. (Svara i µSv/h.)</p>",
+        "t": "<p>En liten strålkälla ger 120 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 3,0 m.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -116214,7 +116228,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En liten strålkälla ger 120 µSv per timme på avståndet 0,8 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är den på avståndet 2,4 m? (Svara i µSv/h.)</p>",
+    "t": "<p>En liten strålkälla ger 120 µSv per timme på avståndet 0,8 m. Dosen per timme avtar med avståndet i kvadrat. Hur stor är den på avståndet 2,4 m?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[\\dot H_2=\\dot H_1(r_1/r_2)^2\\]</p><p><div class=\"facit-v2\"><p>\\[\\dot H_2=120(0{,}8/2{,}4)^2\\]</p><p>\\[\\dot H_2\\approx13{,}3\\ \\mathrm{\\mu Sv/h}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -116441,7 +116455,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Samma vävnad får gammastrålning vid två undersökningar. De absorberade doserna är 1,2 mGy och 1,3 mGy. Viktfaktorn är 1. Bestäm den sammanlagda ekvivalenta dosen i mSv.</p>",
+    "t": "<p>Samma vävnad får gammastrålning vid två undersökningar. De absorberade doserna är 1,2 mGy och 1,3 mGy. Viktfaktorn är 1. Hur stor är den totala ekvivalenta dosen?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[D=1{,}2+1{,}3=2{,}5\\ \\mathrm{mGy}\\]</p><p>\\[H=wD=1\\cdot2{,}5=2{,}5\\ \\mathrm{mSv}\\]</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
@@ -116472,7 +116486,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Dosen per timme är 35 µSv. Hur stor dos får en person på 2,5 timmar? (Svara i µSv.)</p>",
+    "t": "<p>Dosen per timme är 35 µSv. Hur stor dos får en person på 2,5 timmar?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[H=35\\cdot2{,}5\\]</p><p>\\[H\\approx87{,}5\\ \\mathrm{\\mu Sv}\\]</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -116503,7 +116517,7 @@ window.BANK = [
     "omr": "stralning_materia",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Strålningen ger 640 µSv per timme utan blyskärm. Varje 1,2 cm bly halverar strålningen. Hur tjockt blyskikt behövs för att sänka dosen per timme till 20 µSv? (Svara i cm.)</p>",
+    "t": "<p>Strålningen ger 640 µSv per timme utan blyskärm. Varje 1,2 cm bly halverar strålningen. Hur tjockt blyskikt behövs för att sänka dosen per timme till 20 µSv?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[640\\to320\\to160\\to80\\to40\\to20\\]</p><p>Det behövs fem halveringar.</p><p>\\[x=5\\cdot1{,}2=6{,}0\\ \\mathrm{cm}\\]</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
@@ -116596,7 +116610,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Räkna med bakgrundsdosen 2,4 mSv per år och 365 dygn per år.</p><p>a) Vilken dos blir det på 40 år? (Svara i mSv.)</p><p>b) Vilken dos blir det per dygn? (Svara i µSv.)</p><p>c) En flygresa ger 30 µSv. Hur många dygns bakgrundsdos motsvarar det?</p>",
+    "t": "<p>Räkna med bakgrundsdosen 2,4 mSv per år och 365 dygn per år.</p><p>a) Vilken dos blir det på 40 år?</p><p>b) Vilken dos blir det per dygn?</p><p>c) En flygresa ger 30 µSv. Hur många dygns bakgrundsdos motsvarar det?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[H=2{,}4\\cdot40=96\\ \\mathrm{mSv}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[2{,}4\\ \\mathrm{mSv}=2400\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[H_d=2400/365\\]</p><p>\\[H_d\\approx6{,}58\\ \\mathrm{\\mu Sv}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[t=30/(2400/365)\\]</p><p>\\[t\\approx4{,}56\\ \\mathrm{dygn}\\]</p></div></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -116641,7 +116655,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det på 40 år? (Svara i mSv.)",
+        "fraga": "Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det på 40 år?",
         "s": "<div class=\"facit-v2\"><p>\\[H=2{,}4\\cdot40=96\\ \\mathrm{mSv}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 96,
@@ -116654,13 +116668,13 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
-        "t": "<p>Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det på 40 år? (Svara i mSv.)</p>",
+        "t": "<p>Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det på 40 år?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn. (Svara i µSv.)",
+        "fraga": "Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn.",
         "s": "<div class=\"facit-v2\"><p>\\[2{,}4\\ \\mathrm{mSv}=2400\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[H_d=2400/365\\]</p><p>\\[H_d\\approx6{,}58\\ \\mathrm{\\mu Sv}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 6.575342465753424,
@@ -116673,7 +116687,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
-        "t": "<p>Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn. (Svara i µSv.)</p>",
+        "t": "<p>Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -116745,7 +116759,7 @@ window.BANK = [
     "omr": "stralning_materia",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En skärm släpper igenom 12 % av strålningen. Utan skärmen är dosen per timme 250 µSv. Hur stor är den bakom skärmen? (Svara i µSv/h.)</p>",
+    "t": "<p>En skärm släpper igenom 12 % av strålningen. Utan skärmen är dosen per timme 250 µSv. Hur stor är den bakom skärmen?</p>",
     "s": "<div class=\"facit-v2\"><p>12 % motsvarar andelen 0,12.</p><p>\\[\\dot H=0{,}12\\cdot250=30\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
@@ -116776,7 +116790,7 @@ window.BANK = [
     "omr": "stralning_materia",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>För en viss gammastrålning halveras intensiteten för varje 0,60 cm skärmmaterial. Hur tjock skärm behövs för att 3,125 % ska passera? (Svara i cm.)</p>",
+    "t": "<p>För en viss gammastrålning halveras intensiteten för varje 0,60 cm skärmmaterial. Hur tjock skärm behövs för att 3,125 % ska passera?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[100\\to50\\to25\\to12{,}5\\ \\%\\]\\[12{,}5\\to6{,}25\\to3{,}125\\ \\%\\]</p><p>Fem halveringar behövs.</p><p>\\[x=5\\cdot0{,}60=3{,}0\\ \\mathrm{cm}\\]</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
@@ -116941,7 +116955,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Utan skyddsskärm är dosen per timme 90 µSv. Skärmen släpper igenom 25 % av strålningen. Vilken dos får en person bakom skärmen på 0,75 timmar? (Svara i µSv.)</p>",
+    "t": "<p>Utan skyddsskärm är dosen per timme 90 µSv. Skärmen släpper igenom 25 % av strålningen. Vilken dos får en person bakom skärmen på 0,75 timmar?</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\dot H=90\\cdot0{,}25\\]</p><p>\\[\\dot H\\approx22{,}5\\ \\mathrm{\\mu Sv/h}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=22{,}5\\cdot0{,}75\\]</p><p>\\[H\\approx16{,}9\\ \\mathrm{\\mu Sv}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -116972,7 +116986,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Samma vävnad får 1 mGy alfastrålning och 4 mGy gammastrålning. Viktfaktorerna är 20 för alfa och 1 för gamma. Bestäm den sammanlagda ekvivalenta dosen i mSv.</p>",
+    "t": "<p>Samma vävnad får 1 mGy alfastrålning och 4 mGy gammastrålning. Viktfaktorerna är 20 för alfa och 1 för gamma. Hur stor är den totala ekvivalenta dosen?</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[H_\\alpha=20\\cdot1\\]</p><p>\\[H_\\alpha\\approx20\\ \\mathrm{mSv}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H_\\gamma=1\\cdot4\\]</p><p>\\[H_\\gamma\\approx4\\ \\mathrm{mSv}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=H_\\alpha+H_\\gamma\\]</p><p>\\[H\\approx24\\ \\mathrm{mSv}\\]</p></div></p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
@@ -117033,7 +117047,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm dosen per timme på 2,0 m avstånd. (Svara i µSv/h.)",
+        "fraga": "Bestäm dosen per timme på 2,0 m avstånd.",
         "s": "<div class=\"facit-v2\"><p>\\[\\dot H=200(1/2)^2\\]</p><p>\\[\\dot H\\approx50\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 50,
@@ -117046,13 +117060,13 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
-        "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 2,0 m. (Svara i µSv/h.)</p><span class=\"fig bred\"><svg style=\"width:100%;max-width:560px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 210\" role=\"img\" aria-label=\"Avstånd från strålkällan: en, två, tre och fyra meter\"><title>Avstånd från en liten strålkälla</title><rect width=\"560\" height=\"210\" rx=\"14\" fill=\"#f3f7fa\"/><line x1=\"70\" y1=\"110\" x2=\"470\" y2=\"110\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"110\" r=\"9\" fill=\"#dc6b28\"/><text x=\"70\" y=\"62\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#334155\">strålkälla</text><text x=\"70\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">0 m</text><line x1=\"170\" y1=\"102\" x2=\"170\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"170\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">1 m</text><line x1=\"270\" y1=\"102\" x2=\"270\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"270\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">2 m</text><line x1=\"370\" y1=\"102\" x2=\"370\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"370\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">3 m</text><line x1=\"470\" y1=\"102\" x2=\"470\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"470\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">4 m</text><text x=\"300\" y=\"184\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Avståndet mäts från källan.</text></svg></span>",
+        "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 2,0 m.</p><span class=\"fig bred\"><svg style=\"width:100%;max-width:560px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 210\" role=\"img\" aria-label=\"Avstånd från strålkällan: en, två, tre och fyra meter\"><title>Avstånd från en liten strålkälla</title><rect width=\"560\" height=\"210\" rx=\"14\" fill=\"#f3f7fa\"/><line x1=\"70\" y1=\"110\" x2=\"470\" y2=\"110\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"110\" r=\"9\" fill=\"#dc6b28\"/><text x=\"70\" y=\"62\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#334155\">strålkälla</text><text x=\"70\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">0 m</text><line x1=\"170\" y1=\"102\" x2=\"170\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"170\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">1 m</text><line x1=\"270\" y1=\"102\" x2=\"270\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"270\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">2 m</text><line x1=\"370\" y1=\"102\" x2=\"370\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"370\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">3 m</text><line x1=\"470\" y1=\"102\" x2=\"470\" y2=\"118\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"470\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">4 m</text><text x=\"300\" y=\"184\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Avståndet mäts från källan.</text></svg></span>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm dosen per timme på 4,0 m avstånd. (Svara i µSv/h.)",
+        "fraga": "Bestäm dosen per timme på 4,0 m avstånd.",
         "s": "<div class=\"facit-v2\"><p>\\[\\dot H=200(1/4)^2\\]</p><p>\\[\\dot H\\approx12{,}5\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 12.5,
@@ -117065,7 +117079,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>När avståndet dubbleras blir dosen per timme en fjärdedel.</p>",
-        "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 4,0 m. (Svara i µSv/h.)</p>",
+        "t": "<p>En liten strålkälla ger 200 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. Bestäm den på 4,0 m.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -117153,7 +117167,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Utan skyddsskärm är dosen per timme 70 µSv. Skärmen släpper igenom 40 % av strålningen. Hur länge tar det att få dosen 12,6 µSv bakom skärmen? (Svara i timmar.)</p>",
+    "t": "<p>Utan skyddsskärm är dosen per timme 70 µSv. Skärmen släpper igenom 40 % av strålningen. Hur länge tar det att få dosen 12,6 µSv bakom skärmen?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[\\dot H=70\\cdot0{,}40=28\\ \\mathrm{\\mu Sv/h}\\]</p><p><div class=\"facit-v2\"><p>\\[t=12{,}6/28\\]</p><p>\\[t\\approx0{,}45\\ \\mathrm{h}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -117184,7 +117198,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Samma vävnad får 0,45 mGy alfastrålning och 2,6 mGy gammastrålning. Viktfaktorerna är 20 för alfa och 1 för gamma. Bestäm den sammanlagda ekvivalenta dosen i mSv.</p>",
+    "t": "<p>Samma vävnad får 0,45 mGy alfastrålning och 2,6 mGy gammastrålning. Viktfaktorerna är 20 för alfa och 1 för gamma. Hur stor är den totala ekvivalenta dosen?</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[H_\\alpha=20\\cdot0{,}45\\]</p><p>\\[H_\\alpha\\approx9\\ \\mathrm{mSv}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H_\\gamma=1\\cdot2{,}6\\]</p><p>\\[H_\\gamma\\approx2{,}6\\ \\mathrm{mSv}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=H_\\alpha+H_\\gamma\\]</p><p>\\[H\\approx11{,}6\\ \\mathrm{mSv}\\]</p></div></p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
@@ -117339,7 +117353,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Utan skyddsskärm är dosen per timme 110 µSv. Skärmen släpper igenom 25 % av strålningen. Vilken dos får en person bakom skärmen på 1,25 timmar? (Svara i µSv.)</p>",
+    "t": "<p>Utan skyddsskärm är dosen per timme 110 µSv. Skärmen släpper igenom 25 % av strålningen. Vilken dos får en person bakom skärmen på 1,25 timmar?</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\dot H=110\\cdot0{,}25\\]</p><p>\\[\\dot H\\approx27{,}5\\ \\mathrm{\\mu Sv/h}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=27{,}5\\cdot1{,}25\\]</p><p>\\[H\\approx34{,}4\\ \\mathrm{\\mu Sv}\\]</p></div></p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -117370,7 +117384,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Räkna med bakgrundsdosen 2,4 mSv per år och 365 dygn per år.</p><p>a) Vilken dos blir det per dygn? (Svara i µSv.)</p><p>b) En röntgenundersökning ger 100 µSv. Hur många dygns bakgrundsdos motsvarar det?</p><p>c) En flygresa ger 50 µSv. Hur många dygns bakgrundsdos motsvarar det? Jämför med ett års bakgrundsdos.</p>",
+    "t": "<p>Räkna med bakgrundsdosen 2,4 mSv per år och 365 dygn per år.</p><p>a) Vilken dos blir det per dygn?</p><p>b) En röntgenundersökning ger 100 µSv. Hur många dygns bakgrundsdos motsvarar det?</p><p>c) En flygresa ger 50 µSv. Hur många dygns bakgrundsdos motsvarar det? Jämför med ett års bakgrundsdos.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[2{,}4\\ \\mathrm{mSv}=2400\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[H_d=2400/365\\]</p><p>\\[H_d\\approx6{,}58\\ \\mathrm{\\mu Sv}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[t=100/(2400/365)\\]</p><p>\\[t\\approx15{,}2\\ \\mathrm{dygn}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[t=50/(2400/365)\\]</p><p>\\[t\\approx7{,}6\\ \\mathrm{dygn}\\]</p></div></div><p>Flygresan ger ungefär 7,6 dygns bakgrundsdos, alltså betydligt mindre än 365 dygns bakgrundsdos.</p>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -117415,7 +117429,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn. (Svara i µSv.)",
+        "fraga": "Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn.",
         "s": "<div class=\"facit-v2\"><p>\\[2{,}4\\ \\mathrm{mSv}=2400\\ \\mathrm{\\mu Sv}\\]</p><p><div class=\"facit-v2\"><p>\\[H_d=2400/365\\]</p><p>\\[H_d\\approx6{,}58\\ \\mathrm{\\mu Sv}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 6.575342465753424,
@@ -117428,7 +117442,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
-        "t": "<p>Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn. (Svara i µSv.)</p>",
+        "t": "<p>Räkna med en bakgrundsdos på 2,4 mSv per år. Vilken dos blir det per dygn? Ett år är 365 dygn.</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -117488,7 +117502,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>En liten strålkälla ger 180 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. En person står 2,5 m bort bakom en skärm som släpper igenom 30 % av strålningen. Vilken dos får personen på 1,5 timmar? (Svara i µSv.)</p>",
+    "t": "<p>En liten strålkälla ger 180 µSv per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. En person står 2,5 m bort bakom en skärm som släpper igenom 30 % av strålningen. Vilken dos får personen på 1,5 timmar?</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[\\dot H_{\\text{utan skärm}}=180(1/2{,}5)^2\\]</p><p>\\[\\dot H_{\\text{utan skärm}}\\approx28{,}8\\ \\mathrm{\\mu Sv/h}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot H=28{,}8\\cdot0{,}30\\]</p><p>\\[\\dot H\\approx8{,}64\\ \\mathrm{\\mu Sv/h}\\]</p></div></p><p>\\[H=8{,}64\\cdot1{,}5=12{,}96\\ \\mathrm{\\mu Sv}\\]</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
@@ -121501,7 +121515,7 @@ window.BANK = [
     "omr": "fission",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En reaktor utvecklar värmeeffekten 3 000 MW. Verkningsgraden till el är 34 %. Hur mycket elektrisk energi levereras under 18 timmar? (Svara i MWh.)</p>",
+    "t": "<p>En reaktor utvecklar värmeeffekten 3 000 MW. Verkningsgraden till el är 34 %. Hur mycket elektrisk energi levereras under 18 timmar?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[P_{el}=0{,}34\\cdot3000=1020\\ \\mathrm{MW}\\]</p><p>\\[E=P_{el}t=1020\\cdot18=18360\\ \\mathrm{MWh}\\]</p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
@@ -121529,7 +121543,7 @@ window.BANK = [
     "omr": "fission",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>Ett kärnkraftverk levererar 900 MWh el med verkningsgraden 30 %. Hur stor massa har omvandlats till energi? (Svara i mg.)</p>",
+    "t": "<p>Ett kärnkraftverk levererar 900 MWh el med verkningsgraden 30 %. Hur stor massa har omvandlats till energi?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[E_{el}=900\\cdot3{,}6\\cdot10^9\\ \\mathrm J\\]</p><p><div class=\"facit-v2\"><p>\\[E=E_{el}/0{,}30\\]</p><p>\\[E\\approx1{,}08\\cdot10^{13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=E/(3{,}00\\cdot10^8)^2\\]</p><p>\\[m\\approx0{,}00012\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=m_{\\mathrm{kg}}\\cdot10^6\\]</p><p>\\[m\\approx120\\ \\mathrm{mg}\\]</p></div></p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
@@ -138840,7 +138854,7 @@ window.BANK = [
     "omr": "karnreaktioner",
     "niva": "C",
     "poang": "(3/2/0)",
-    "t": "<p>Plutonium-239 alfasönderfaller från vila till uran-235 och helium-4. Atommassorna är 239,052163 u, 235,043930 u och 4,002603 u i samma ordning. All frigjord energi blir produkternas rörelseenergi.</p><p>a) Skriv reaktionsformeln.</p><p>b) Bestäm frigjord energi i MeV.</p><p>c) Förklara varför produkterna rör sig åt motsatta håll.</p><p>d) Hur många procent av energin får alfapartikeln? Fragmentens massor är 4 u och 235 u.</p><p>e) Bestäm produkternas farter i m/s, först alfapartikeln och sedan urankärnan. Fragmentens massor är 4 u och 235 u.</p>",
+    "t": "<p>En stillastående plutonium-239-kärna alfasönderfaller till uran-235 och helium-4. Atommassorna är 239,052163 u, 235,043930 u och 4,002603 u i samma ordning. All frigjord energi blir produkternas rörelseenergi.</p><p>a) Skriv reaktionsformeln.</p><p>b) Bestäm frigjord energi i MeV.</p><p>c) Förklara varför produkterna rör sig åt motsatta håll.</p><p>d) Hur många procent av energin får alfapartikeln? Fragmentens massor är 4 u och 235 u.</p><p>e) Bestäm produkternas farter i m/s, först alfapartikeln och sedan urankärnan. Fragmentens massor är 4 u och 235 u.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[{}^{239}_{94}\\mathrm{Pu}\\rightarrow{}^{235}_{92}\\mathrm U+{}^4_2\\mathrm{He}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=239{,}052163\\ \\mathrm u\\]</p><p>\\[m_{efter}=239{,}046533\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}00563000000002\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}5\\]</p><p>\\[Q\\approx5{,}24\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Kärnan är från början i vila, så den sammanlagda rörelsemängden är noll. Produkterna måste få lika stora rörelsemängder åt motsatta håll.</p><p>\\[p_\\alpha+p_{Pb}=0\\]</p><p>\\[|p_\\alpha|=|p_{Pb}|\\]</p><p>Med Eₖ = p²/(2m) får den lättare partikeln större rörelseenergi.</p><p>\\[\\frac{E_\\alpha}{E_{Pb}}=\\frac{m_{Pb}}{m_\\alpha}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>Vid lika stora rörelsemängder gäller Eₖ = p²/(2m).</p><p><div class=\"facit-v2\"><p>\\[andel=235/(235+4)\\cdot100\\]</p><p>\\[andel\\approx98{,}3\\ \\mathrm{\\%}\\]</p></div></p></div><p><strong>e)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=5{,}24434500002\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx8{,}4\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_\\alpha=E_r\\cdot235/239\\]</p><p>\\[E_\\alpha\\approx8{,}26\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_U=E_r\\cdot4/239\\]</p><p>\\[E_U\\approx1{,}41\\cdot10^{-14}\\ \\mathrm{J}\\]</p></div></p><p>\\[m_\\alpha=4\\cdot1{,}6605\\cdot10^{-27}\\ \\mathrm{kg}\\]</p><p>\\[m_U=235\\cdot1{,}6605\\cdot10^{-27}\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[v_\\alpha=\\sqrt{2E_\\alpha/m_\\alpha}\\]</p><p>\\[v_\\alpha\\approx15800000\\ \\mathrm{m/s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[v_U=\\sqrt{2E_U/m_U}\\]</p><p>\\[v_U\\approx268000\\ \\mathrm{m/s}\\]</p></div></p></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
@@ -138880,7 +138894,7 @@ window.BANK = [
     "geogebra": false,
     "ledtrad": "<p>Alfa tar bort två protoner och två neutroner: A minskar med 4 och Z med 2.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Plutonium-239 alfasönderfaller från vila till uran-235 och helium-4. Atommassorna är 239,052163 u, 235,043930 u och 4,002603 u i samma ordning. All frigjord energi blir produkternas rörelseenergi.</p>",
+    "spelIntro": "<p>En stillastående plutonium-239-kärna alfasönderfaller till uran-235 och helium-4. Atommassorna är 239,052163 u, 235,043930 u och 4,002603 u i samma ordning. All frigjord energi blir produkternas rörelseenergi.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -138938,7 +138952,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En kärna sönderfaller från vila i två partiklar. Varför rör de sig åt motsatta håll?",
+        "fraga": "En stillastående kärna sönderfaller i två partiklar. Varför rör de sig åt motsatta håll?",
         "s": "<div class=\"facit-v2\"><p>Kärnan är från början i vila, så den sammanlagda rörelsemängden är noll. Produkterna måste få lika stora rörelsemängder åt motsatta håll.</p><p>\\[p_\\alpha+p_{Pb}=0\\]</p><p>\\[|p_\\alpha|=|p_{Pb}|\\]</p><p>Med Eₖ = p²/(2m) får den lättare partikeln större rörelseenergi.</p><p>\\[\\frac{E_\\alpha}{E_{Pb}}=\\frac{m_{Pb}}{m_\\alpha}\\]</p></div>",
         "svarstyp": "alternativ",
         "rättSvar": "Deras sammanlagda rörelsemängd måste vara noll.",
@@ -138968,7 +138982,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Rörelsemängden är noll från början och bevaras.</p>",
-        "t": "<p>En kärna sönderfaller från vila i två partiklar. Varför rör de sig åt motsatta håll?</p>",
+        "t": "<p>En stillastående kärna sönderfaller i två partiklar. Varför rör de sig åt motsatta håll?</p>",
         "miniräknare": true
       },
       {
@@ -138992,7 +139006,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "fraga": "Plutonium-239 alfasönderfaller från vila. Totalt frigörs 5,24 MeV som rörelseenergi. Alfapartikeln och urankärnan har massorna 4 u och 235 u. Bestäm deras farter i m/s, först alfapartikeln och sedan urankärnan.  ",
+        "fraga": "En stillastående plutonium-239-kärna alfasönderfaller. Totalt frigörs 5,24 MeV som rörelseenergi. Alfapartikeln och urankärnan har massorna 4 u och 235 u. Bestäm deras farter i m/s, först alfapartikeln och sedan urankärnan.  ",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=5{,}24\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx8{,}39\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_\\alpha=E_r\\cdot235/239\\]</p><p>\\[E_\\alpha\\approx8{,}25\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_U=E_r\\cdot4/239\\]</p><p>\\[E_U\\approx1{,}4\\cdot10^{-14}\\ \\mathrm{J}\\]</p></div></p><p>\\[m_\\alpha=4\\cdot1{,}6605\\cdot10^{-27}\\ \\mathrm{kg}\\]</p><p>\\[m_U=235\\cdot1{,}6605\\cdot10^{-27}\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[v_\\alpha=\\sqrt{2E_\\alpha/m_\\alpha}\\]</p><p>\\[v_\\alpha\\approx15800000\\ \\mathrm{m/s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[v_U=\\sqrt{2E_U/m_U}\\]</p><p>\\[v_U\\approx268000\\ \\mathrm{m/s}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
@@ -139014,7 +139028,7 @@ window.BANK = [
         "traningsniva": 4,
         "poang": "0/1/0",
         "ledtrad": "<p>Dela energin med hjälp av lika stora rörelsemängder. Använd sedan Eₖ = mv²/2.</p>",
-        "t": "<p>Plutonium-239 alfasönderfaller från vila. Totalt frigörs 5,24 MeV som rörelseenergi. Alfapartikeln och urankärnan har massorna 4 u och 235 u. Bestäm deras farter i m/s, först alfapartikeln och sedan urankärnan. </p>",
+        "t": "<p>En stillastående plutonium-239-kärna alfasönderfaller. Totalt frigörs 5,24 MeV som rörelseenergi. Alfapartikeln och urankärnan har massorna 4 u och 235 u. Bestäm deras farter i m/s, först alfapartikeln och sedan urankärnan. </p>",
         "arbetsinsats": 2,
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
@@ -139246,7 +139260,7 @@ window.BANK = [
     "omr": "fission",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Uran-235 frigör 5,75·10¹³ J på ett dygn genom fullständig klyvning. Hur stor är den genomsnittliga effekten? (Svara i MW.)</p>",
+    "t": "<p>Uran-235 frigör 5,75·10¹³ J på ett dygn genom fullständig klyvning. Hur stor är den genomsnittliga effekten?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[t=24\\cdot3600=86400\\ \\mathrm s\\]</p><p><div class=\"facit-v2\"><p>\\[P=5{,}75\\cdot10^{13}/86400\\]</p><p>\\[P\\approx666000000\\ \\mathrm{W}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=P_{\\mathrm W}/10^6\\]</p><p>\\[P\\approx666\\ \\mathrm{MW}\\]</p></div></p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
@@ -140041,7 +140055,7 @@ window.BANK = [
     "omr": "karnreaktioner",
     "niva": "C",
     "poang": "(3/1/0)",
-    "t": "<p>Schemat visar två alfagrenar i radium-226. Siffrorna vid pilarna är alfapartiklarnas rörelseenergier. Kärnan är från början i vila. Massorna är 4 u för alfa och 222 u för radon.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 330\" width=\"600\" height=\"330\" role=\"img\" aria-label=\"Radium-226: två alfagrenar med alfaenergierna 4,785 och 4,602 MeV, den senare följs av gamma\"><rect width=\"600\" height=\"330\" fill=\"#fff\"/><defs><marker id=\"raarr\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M90 55H450 M90 260H450 M250 225H450\" fill=\"none\" stroke=\"#243747\" stroke-width=\"3\"/><text x=\"90\" y=\"35\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"20\" fill=\"#172a3a\">²²⁶Ra</text><text x=\"90\" y=\"287\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">²²²Rn, grundtillstånd</text><text x=\"460\" y=\"225\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Exciterat</text><text x=\"460\" y=\"245\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">tillstånd</text><line x1=\"130\" y1=\"64\" x2=\"130\" y2=\"252\" stroke=\"#28618a\" stroke-width=\"3\" marker-end=\"url(#raarr)\"/><text x=\"145\" y=\"130\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Alfa: 4,785 MeV</text><text x=\"145\" y=\"154\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">94,4 %</text><line x1=\"345\" y1=\"64\" x2=\"345\" y2=\"217\" stroke=\"#28618a\" stroke-width=\"3\" marker-end=\"url(#raarr)\"/><text x=\"360\" y=\"130\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Alfa: 4,602 MeV</text><text x=\"360\" y=\"154\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">5,5 %</text><line x1=\"425\" y1=\"225\" x2=\"425\" y2=\"252\" stroke=\"#a72e36\" stroke-width=\"3\" marker-end=\"url(#raarr)\"/><text x=\"439\" y=\"253\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#a72e36\">γ</text><text x=\"300\" y=\"318\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#172a3a\">Schemat är inte skalenligt.</text></svg></span><p>a) Skriv reaktionsformeln.</p><p>b) Bestäm den sammanlagda rörelseenergin i direktgrenen. (Svara i MeV.)</p><p>c) Bestäm gammaenergin. (Svara i MeV.)</p><p>d) På en minut sker 5 300 sönderfall. Ungefär hur många gammafotoner avges?</p>",
+    "t": "<p>Schemat visar två alfagrenar i radium-226. Siffrorna vid pilarna är alfapartiklarnas rörelseenergier. Kärnan är från början i vila. Massorna är 4 u för alfa och 222 u för radon.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 330\" width=\"600\" height=\"330\" role=\"img\" aria-label=\"Radium-226: två alfagrenar med alfaenergierna 4,785 och 4,602 MeV, den senare följs av gamma\"><rect width=\"600\" height=\"330\" fill=\"#fff\"/><defs><marker id=\"raarr\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0L10 5L0 10Z\" fill=\"context-stroke\"/></marker></defs><path d=\"M90 55H450 M90 260H450 M250 225H450\" fill=\"none\" stroke=\"#243747\" stroke-width=\"3\"/><text x=\"90\" y=\"35\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"20\" fill=\"#172a3a\">²²⁶Ra</text><text x=\"90\" y=\"287\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#172a3a\">²²²Rn, grundtillstånd</text><text x=\"460\" y=\"225\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Exciterat</text><text x=\"460\" y=\"245\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">tillstånd</text><line x1=\"130\" y1=\"64\" x2=\"130\" y2=\"252\" stroke=\"#28618a\" stroke-width=\"3\" marker-end=\"url(#raarr)\"/><text x=\"145\" y=\"130\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Alfa: 4,785 MeV</text><text x=\"145\" y=\"154\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">94,4 %</text><line x1=\"345\" y1=\"64\" x2=\"345\" y2=\"217\" stroke=\"#28618a\" stroke-width=\"3\" marker-end=\"url(#raarr)\"/><text x=\"360\" y=\"130\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">Alfa: 4,602 MeV</text><text x=\"360\" y=\"154\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#172a3a\">5,5 %</text><line x1=\"425\" y1=\"225\" x2=\"425\" y2=\"252\" stroke=\"#a72e36\" stroke-width=\"3\" marker-end=\"url(#raarr)\"/><text x=\"439\" y=\"253\" text-anchor=\"start\" font-family=\"Arial, sans-serif\" font-size=\"18\" fill=\"#a72e36\">γ</text><text x=\"300\" y=\"318\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#172a3a\">Schemat är inte skalenligt.</text></svg></span><p>a) Skriv reaktionsformeln.</p><p>b) Bestäm den totala rörelseenergin i direktgrenen.</p><p>c) Bestäm gammaenergin.</p><p>d) På en minut sker 5 300 sönderfall. Ungefär hur många gammafotoner avges?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[{}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^4_2\\mathrm{He}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Även radonkärnan får rörelseenergi. Produkterna har lika stora rörelsemängder, så E_Rn/E_α = m_α/m_Rn.</p><p>\\[E_{Rn}=E_\\alpha\\cdot4/222\\]</p><p><div class=\"facit-v2\"><p>\\[Q=4{,}785(1+4/222)\\]</p><p>\\[Q\\approx4{,}87\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Skillnaden mellan alfaenergierna behöver också korrigeras för radonkärnans rörelseenergi.</p><p>\\[\\Delta E_\\alpha=4{,}785-4{,}602=0{,}183\\ \\mathrm{MeV}\\]</p><p><div class=\"facit-v2\"><p>\\[E_\\gamma=0{,}183(1+4/222)\\]</p><p>\\[E_\\gamma\\approx0{,}186\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[N_\\gamma=0{,}055\\cdot5300=291{,}5\\]</p><p>Det förväntade antalet är ungefär 292 gammafotoner.</p></div></div>",
     "familj": "Alfasönderfall",
     "formaga": [
@@ -140111,7 +140125,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Radium-226 alfasönderfaller från vila. Alfapartikeln får rörelseenergin 4,785 MeV. Radonkärnan och alfapartikeln har massorna 222 u och 4 u. Bestäm deras sammanlagda rörelseenergi i MeV.",
+        "fraga": "En stillastående radium-226-kärna alfasönderfaller. Alfapartikeln får rörelseenergin 4,785 MeV. Radonkärnan och alfapartikeln har massorna 222 u och 4 u. Bestäm deras totala rörelseenergi.",
         "s": "<div class=\"facit-v2\"><p>Även radonkärnan får rörelseenergi. Produkterna har lika stora rörelsemängder, så E_Rn/E_α = m_α/m_Rn.</p><p>\\[E_{Rn}=E_\\alpha\\cdot4/222\\]</p><p><div class=\"facit-v2\"><p>\\[Q=4{,}785(1+4/222)\\]</p><p>\\[Q\\approx4{,}87\\ \\mathrm{MeV}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.871216216216217,
@@ -140124,7 +140138,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Lika stora rörelsemängder ger E_Rn/E_α = m_α/m_Rn.</p>",
-        "t": "<p>Radium-226 alfasönderfaller från vila. Alfapartikeln får rörelseenergin 4,785 MeV. Radonkärnan och alfapartikeln har massorna 222 u och 4 u. Bestäm deras sammanlagda rörelseenergi i MeV.</p>",
+        "t": "<p>En stillastående radium-226-kärna alfasönderfaller. Alfapartikeln får rörelseenergin 4,785 MeV. Radonkärnan och alfapartikeln har massorna 222 u och 4 u. Bestäm deras totala rörelseenergi.</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       },
@@ -149923,7 +149937,7 @@ window.BANK = [
     "omr": "standardmodellen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En proton består av två uppkvarkar och en nedkvark. Visa att deras sammanlagda laddning blir +e.</p>",
+    "t": "<p>En proton består av två uppkvarkar och en nedkvark. Visa att deras totala laddning blir +e.</p>",
     "s": "<div class=\"facit-v2\"><p>Lägg ihop de två uppkvarkarnas och nedkvarkens laddningar.</p><p>\\[Q=(2/3+2/3-1/3)e=+e\\]</p></div>",
     "familj": "Elementarpartiklar och kvarkar",
     "formaga": [
@@ -158446,7 +158460,7 @@ window.BANK = [
     "omr": "stralning_materia",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>Två grupper mäter bakgrundsstrålning. Grupp A mäter under 10 sekunder och får 3 pulser. Grupp B mäter under 10 minuter och får 180 pulser. En elev säger att B:s plats är 60 gånger farligare. Granska resonemanget.</p>",
+    "t": "<p>Två grupper mäter bakgrundsstrålning. Grupp A mäter under 10 sekunder och får 3 pulser. Grupp B mäter under 10 minuter och får 180 pulser. Ali säger att B:s plats är 60 gånger farligare. Granska resonemanget.</p>",
     "s": "<div class=\"facit-v2\"><p>Jämför pulser per sekund, eftersom mättiderna skiljer sig.</p><p>\\[A:3/10=0{,}30\\ \\mathrm{s^{-1}}\\]</p><p>\\[B:180/600=0{,}30\\ \\mathrm{s^{-1}}\\]</p><p>Mätningarna ger samma medelantal pulser per sekund. Den korta mätningen har större slumpvariation. Antalet pulser räcker inte för att jämföra risk: även strålslag, energi, dos och tid spelar roll.</p></div>",
     "familj": "Joniserande strålning och genomträngning",
     "formaga": [
@@ -159040,7 +159054,8 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken del av en atom innehåller protoner och neutroner?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken del av en atom innehåller protoner och neutroner?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Protoner och neutroner finns i atomkärnan.</p></div></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "familjNyckel": "nuklider__nuklider_och_isotoper",
@@ -159090,7 +159105,8 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vilket påstående om en neutral atom är korrekt?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilket påstående om en neutral atom är korrekt?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I en neutral atom tar protonernas positiva och elektronernas negativa laddningar ut varandra.</p></div></div></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "familjNyckel": "nuklider__nuklider_och_isotoper",
@@ -159228,7 +159244,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Beryllium-7 har 4 protoner, 3 neutroner och atommassan 7,0169287 u.</p><p>a) Bestäm den sammanlagda massan hos fyra fria väteatomer och tre fria neutroner. (Svara i u.)</p><p>b) Bestäm atomens massdefekt i u.</p><p>c) Bestäm bindningsenergin i MeV.</p>",
+    "t": "<p>Beryllium-7 har 4 protoner, 3 neutroner och atommassan 7,0169287 u.</p><p>a) Bestäm den totala massan hos fyra fria väteatomer och tre fria neutroner.</p><p>b) Bestäm atomens massdefekt i u.</p><p>c) Bestäm bindningsenergin i MeV.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=4\\cdot1{,}0078250+3\\cdot1{,}0086649\\\\&\\approx7{,}0573\\ \\mathrm{u}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}\\Delta m&=7{,}0572947-7{,}0169287\\\\&=0{,}0403660\\ \\mathrm u\\end{aligned}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[\\begin{aligned}E_b&=0{,}040366\\cdot931{,}49\\\\&\\approx37{,}6\\ \\mathrm{MeV}\\end{aligned}\\]</p></div></div>",
     "id": "9.389",
     "miniräknare": true,
@@ -159274,7 +159290,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En fri väteatom har massan 1,0078250 u och en fri neutron 1,0086649 u. Bestäm den sammanlagda massan hos fyra väteatomer och tre neutroner. (Svara i u.)",
+        "fraga": "En fri väteatom har massan 1,0078250 u och en fri neutron 1,0086649 u. Bestäm den totala massan hos fyra väteatomer och tre neutroner.",
         "s": "<div class=\"facit-v2\"><p>\\[\\begin{aligned}m&=4\\cdot1{,}0078250+3\\cdot1{,}0086649\\\\&\\approx7{,}0573\\ \\mathrm{u}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 7.0572947,
@@ -159287,7 +159303,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Addera de fria beståndsdelarnas massor.</p>",
-        "t": "<p>En fri väteatom har massan 1,0078250 u och en fri neutron 1,0086649 u. Bestäm den sammanlagda massan hos fyra väteatomer och tre neutroner. (Svara i u.)</p>",
+        "t": "<p>En fri väteatom har massan 1,0078250 u och en fri neutron 1,0086649 u. Bestäm den totala massan hos fyra väteatomer och tre neutroner.</p>",
         "arbetsinsats": 1,
         "miniräknare": true,
         "svarVardesiffror": 5
@@ -159348,7 +159364,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En atom av bor-12 har 5 protoner, 7 neutroner och atommassan 12,0143527 u.</p><p>Bestäm bindningsenergin. (Svara i MeV.)</p>",
+    "t": "<p>En atom av bor-12 har 5 protoner, 7 neutroner och atommassan 12,0143527 u.</p><p>Bestäm bindningsenergin.</p>",
     "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=5\\cdot1{,}0078250\\\\&\\quad+7\\cdot1{,}0086649\\\\&\\quad-12{,}0143527\\\\&\\approx0{,}0854266\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}0854266\\cdot931{,}49\\\\&\\approx79{,}574\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "id": "9.390",
     "miniräknare": true,
@@ -159759,7 +159775,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,9349363 u. </p><p>Bestäm bindningsenergin per nukleon. (Svara i MeV.)</p>",
+    "t": "<p>En atom av järn-56 har 26 protoner, 30 neutroner och atommassan 55,9349363 u. </p><p>Bestäm bindningsenergin per nukleon.</p>",
     "s": "<div class=\"facit-v2\"><p>Om båda sidor jämförs med atommassor kan varje proton räknas tillsammans med en elektron som en väteatom.</p><p>\\[\\begin{aligned}\\Delta m&=26\\cdot1{,}0078250\\\\&\\quad+30\\cdot1{,}0086649\\\\&\\quad-55{,}9349363\\\\&\\approx0{,}5284607\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b&=0{,}5284607\\cdot931{,}49\\\\&\\approx492{,}256\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E_b/A&=492{,}25586/56\\\\&\\approx8{,}790\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
     "id": "9.396",
     "miniräknare": true,
@@ -159815,7 +159831,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>a) En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u och en neutron 1,0086649 u. Hur mycket energi krävs för att slå loss en neutron ur kväve-14? (Svara i MeV.)</p><p>b) En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u och en väteatom 1,0078250 u. Hur mycket energi krävs för att slå loss en proton ur kväve-14? (Svara i MeV.)</p>",
+    "t": "<p>a) En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u och en neutron 1,0086649 u. Hur mycket energi krävs för att slå loss en neutron ur kväve-14?</p><p>b) En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u och en väteatom 1,0078250 u. Hur mycket energi krävs för att slå loss en proton ur kväve-14?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>De fria slutprodukterna har större massa än startatomen. Därför måste energi tillföras.</p><p>\\[\\begin{aligned}\\Delta m&=13{,}0057386\\\\&\\quad+1{,}0086649\\\\&\\quad-14{,}003074\\\\&\\approx0{,}0113295\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0113295\\cdot931{,}49\\\\&\\approx10{,}55\\ \\mathrm{MeV}\\end{aligned}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>De fria slutprodukterna har större massa än startatomen. Därför måste energi tillföras.</p><p>\\[\\begin{aligned}\\Delta m&=13{,}0033548\\\\&\\quad+1{,}007825\\\\&\\quad-14{,}003074\\\\&\\approx0{,}0081058\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0081058\\cdot931{,}49\\\\&\\approx7{,}55\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>Väteatomens massa används för protonen så att elektronbidragen är lika många på båda sidor.</p></div></div>",
     "id": "9.398",
     "miniräknare": true,
@@ -159856,7 +159872,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u och en neutron 1,0086649 u. Hur mycket energi krävs för att slå loss en neutron ur kväve-14? (Svara i MeV.)",
+        "fraga": "En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u och en neutron 1,0086649 u. Hur mycket energi krävs för att slå loss en neutron ur kväve-14?",
         "s": "<div class=\"facit-v2\"><p>De fria slutprodukterna har större massa än startatomen. Därför måste energi tillföras.</p><p>\\[\\begin{aligned}\\Delta m&=13{,}0057386\\\\&\\quad+1{,}0086649\\\\&\\quad-14{,}003074\\\\&\\approx0{,}0113295\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0113295\\cdot931{,}49\\\\&\\approx10{,}55\\ \\mathrm{MeV}\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 10.553315955000407,
@@ -159869,13 +159885,13 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Jämför slutprodukternas sammanlagda massa med startatomens massa.</p>",
-        "t": "<p>En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u och en neutron 1,0086649 u. Hur mycket energi krävs för att slå loss en neutron ur kväve-14? (Svara i MeV.)</p>",
+        "t": "<p>En kväve-14-atom har massan 14,0030740 u. Kväve-13 har massan 13,0057386 u och en neutron 1,0086649 u. Hur mycket energi krävs för att slå loss en neutron ur kväve-14?</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u och en väteatom 1,0078250 u. Hur mycket energi krävs för att slå loss en proton ur kväve-14? (Svara i MeV.)",
+        "fraga": "En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u och en väteatom 1,0078250 u. Hur mycket energi krävs för att slå loss en proton ur kväve-14?",
         "s": "<div class=\"facit-v2\"><p>De fria slutprodukterna har större massa än startatomen. Därför måste energi tillföras.</p><p>\\[\\begin{aligned}\\Delta m&=13{,}0033548\\\\&\\quad+1{,}007825\\\\&\\quad-14{,}003074\\\\&\\approx0{,}0081058\\ \\mathrm{u}\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0081058\\cdot931{,}49\\\\&\\approx7{,}55\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>Väteatomens massa används för protonen så att elektronbidragen är lika många på båda sidor.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 7.5504716420008755,
@@ -159888,7 +159904,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Jämför slutprodukternas sammanlagda massa med startatomens massa.</p>",
-        "t": "<p>En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u och en väteatom 1,0078250 u. Hur mycket energi krävs för att slå loss en proton ur kväve-14? (Svara i MeV.)</p>",
+        "t": "<p>En kväve-14-atom har massan 14,0030740 u. Kol-13 har massan 13,0033548 u och en väteatom 1,0078250 u. Hur mycket energi krävs för att slå loss en proton ur kväve-14?</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       }
@@ -159994,7 +160010,7 @@ window.BANK = [
     "omr": "nuklider",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>En kol-14-atom har massan 14,0032420 u. En litium-7-atom har massan 7,0160034 u. Hur mycket energi krävs för att dela kol-14 i två litium-7-kärnor? (Svara i MeV.)</p>",
+    "t": "<p>En kol-14-atom har massan 14,0032420 u. En litium-7-atom har massan 7,0160034 u. Hur mycket energi krävs för att dela kol-14 i två litium-7-kärnor?</p>",
     "s": "<div class=\"facit-v2\"><p>Två litiumatomer har samma sammanlagda antal elektroner som kolatomen, så atommassorna kan jämföras.</p><p>\\[\\begin{aligned}\\Delta m&=2\\cdot7{,}0160034-14{,}0032420\\\\&=0{,}0287648\\ \\mathrm u\\end{aligned}\\]</p><p>\\[\\begin{aligned}E&=0{,}0287648\\cdot931{,}49\\\\&\\approx26{,}79\\ \\mathrm{MeV}\\end{aligned}\\]</p><p>Produkterna har större massa. Energin måste därför tillföras.</p></div>",
     "id": "9.400",
     "miniräknare": true,
@@ -160114,7 +160130,8 @@ window.BANK = [
     "omr": "sonderfall",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vad händer med masstal och atomnummer vid gammasönderfall?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vad händer med masstal och atomnummer vid gammasönderfall?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gammastrålning innebär att kärnan avger energi utan att antalet protoner eller neutroner ändras.</p></div></div></div>",
     "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
     "familjNyckel": "karnreaktioner__radioaktiva_sonderfall_och_karnreaktioner",
@@ -160165,7 +160182,8 @@ window.BANK = [
     "omr": "fission",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken beskrivning passar bäst på fission?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken beskrivning passar bäst på fission?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid fission delas en tung kärna i mindre kärnor och energi frigörs.</p></div></div></div>",
     "familj": "Fission och energiutvinning",
     "familjNyckel": "karnreaktioner__radioaktiva_sonderfall_och_karnreaktioner",
@@ -160330,7 +160348,7 @@ window.BANK = [
     "omr": "fission",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>En neutron klyver en uran-235-atom till två fragment och tre neutroner. Energin som frigörs är 225,0 MeV. Uranatomens massa är 235,0439231 u och neutronens 1,008665 u. Bestäm fragmentens sammanlagda atommassa i u.</p>",
+    "t": "<p>En neutron klyver en uran-235-atom till två fragment och tre neutroner. Energin som frigörs är 225,0 MeV. Uranatomens massa är 235,0439231 u och neutronens 1,008665 u. Hur stor är fragmentens totala atommassa?</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{före}=235{,}0439231+1{,}008665\\]</p><p>\\[m_{före}\\approx236\\ \\mathrm{u}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\Delta m=225{,}0/931{,}49\\]</p><p>\\[\\Delta m\\approx0{,}242\\ \\mathrm{u}\\]</p></div></p><p>\\[m_{fragment}=m_{före}-3m_n-\\Delta m\\]</p><p>\\[m_{fragment}\\approx232{,}79\\ \\mathrm u\\]</p></div>",
     "id": "9.403",
     "miniräknare": true,
@@ -160504,7 +160522,7 @@ window.BANK = [
     "omr": "fission",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En uran-235-atom har massan 235,0439231 u och varje klyvning ger 200 MeV. Naturligt uran innehåller 0,70 % uran-235.</p><p>a) Hur många atomer finns i 1,0 g uran-235?</p><p>b) Hur mycket energi frigörs om alla dessa kärnor klyvs? (Svara i J.)</p><p>c) Hur många kg naturligt uran innehåller 1,0 g uran-235?</p>",
+    "t": "<p>En uran-235-atom har massan 235,0439231 u och varje klyvning ger 200 MeV. Naturligt uran innehåller 0,70 % uran-235.</p><p>a) Hur många atomer finns i 1,0 g uran-235?</p><p>b) Hur mycket energi frigörs om alla dessa kärnor klyvs?</p><p>c) Hur många kg naturligt uran innehåller 1,0 g uran-235?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m=1{,}0\\cdot10^{-3}\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}0439231\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=m/m_{atom}\\]</p><p>\\[N\\approx2{,}56\\cdot10^{21}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=N E_f\\]</p><p>\\[E\\approx82100000000\\ \\mathrm{J}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[m_{235}=0{,}0010\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[m_U=0{,}0010/0{,}0070\\]</p><p>\\[m_U\\approx0{,}143\\ \\mathrm{kg}\\]</p></div></p></div></div>",
     "id": "9.407",
     "miniräknare": true,
@@ -160618,7 +160636,7 @@ window.BANK = [
     "omr": "fission",
     "niva": "C",
     "poang": "(4/0/0)",
-    "t": "<p>En reaktor utvecklar värmeeffekten 240 MW genom klyvning av uran-235. En atom har massan 235,04 u och varje klyvning ger 200 MeV. Naturligt uran innehåller 0,70 % uran-235. Ett år är 3,156·10⁷ s.</p><p>a) Hur många klyvningar sker per sekund?</p><p>b) Hur många kg uran-235 klyvs per sekund?</p><p>c) Hur många kg uran-235 klyvs under ett år med konstant effekt?</p><p>d) Hur mycket naturligt uran innehåller denna mängd uran-235? (Svara i kg.)</p>",
+    "t": "<p>En reaktor utvecklar värmeeffekten 240 MW genom klyvning av uran-235. En atom har massan 235,04 u och varje klyvning ger 200 MeV. Naturligt uran innehåller 0,70 % uran-235. Ett år är 3,156·10⁷ s.</p><p>a) Hur många klyvningar sker per sekund?</p><p>b) Hur många kg uran-235 klyvs per sekund?</p><p>c) Hur många kg uran-235 klyvs under ett år med konstant effekt?</p><p>d) Hur mycket naturligt uran innehåller denna mängd uran-235?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[n=240\\cdot10^6/E_f\\]</p><p>\\[n\\approx7{,}49\\cdot10^{18}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_{atom}\\]</p><p>\\[m\\approx2{,}92\\cdot10^{-6}\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[m=m_{sekund}\\cdot3{,}156\\cdot10^7\\]</p><p>\\[m\\approx92{,}3\\ \\mathrm{kg}\\]</p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[m_U=m_{år}/0{,}0070\\]</p><p>\\[m_U\\approx13200\\ \\mathrm{kg}\\]</p></div></div>",
     "id": "9.408",
     "miniräknare": true,
@@ -160758,7 +160776,7 @@ window.BANK = [
     "omr": "fission",
     "niva": "C",
     "poang": "(1/1/0)",
-    "t": "<p>I en modell frigör fullständig klyvning av uran-235 energin 1,0·10¹⁴ J. Varje klyvning ger 200 MeV och en atom har massan 235,04 u.</p><p>a) Uranklyvning frigör 1,0·10¹⁴ J. Varje klyvning ger 200 MeV och en uranatom har massan 235,04 u. Hur många kg uran klyvs?</p><p>b) Energin 1,0·10¹⁴ J frigörs. Hur stor massa motsvarar energin enligt E = mc²? (Svara i kg.)</p>",
+    "t": "<p>I en modell frigör fullständig klyvning av uran-235 energin 1,0·10¹⁴ J. Varje klyvning ger 200 MeV och en atom har massan 235,04 u.</p><p>a) Uranklyvning frigör 1,0·10¹⁴ J. Varje klyvning ger 200 MeV och en uranatom har massan 235,04 u. Hur många kg uran klyvs?</p><p>b) Energin 1,0·10¹⁴ J frigörs. Hur stor massa motsvarar energin enligt E = mc²?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=1{,}0\\cdot10^{14}/E_f\\]</p><p>\\[N\\approx3{,}12\\cdot10^{24}\\]</p></div></p><p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N m_{atom}\\]</p><p>\\[m\\approx1{,}22\\ \\mathrm{kg}\\]</p></div></p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[\\Delta m=1{,}0\\cdot10^{14}/(3{,}00\\cdot10^8)^2\\]</p><p>\\[\\Delta m\\approx0{,}00111\\ \\mathrm{kg}\\]</p></div></div>",
     "id": "9.409",
     "miniräknare": true,
@@ -160988,7 +161006,7 @@ window.BANK = [
     "omr": "fission",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En uranreserv innehåller 4,4·10⁶ ton naturligt uran, med 0,700 % uran-235. En uran-235-atom har massan 235,04 u och varje klyvning ger 200 MeV. Jämför med en konstant effekt på 1,5·10¹³ W. Ett år är 3,156·10⁷ s.</p><p>a) En uranreserv innehåller 4,4·10⁶ ton naturligt uran. Av massan är 0,700 % uran-235. Hur många kg uran-235 finns i reserven?</p><p>b) En reserv innehåller 3,08·10⁷ kg uran-235. En atom har massan 235,04 u och varje klyvning ger 200 MeV. Hur mycket energi frigörs om allt klyvs? (Svara i J.)</p><p>c) En energireserv är 2,5·10²¹ J. Hur många år räcker den vid den konstanta effekten 1,5·10¹³ W? Ett år är 3,156·10⁷ s.</p>",
+    "t": "<p>En uranreserv innehåller 4,4·10⁶ ton naturligt uran, med 0,700 % uran-235. En uran-235-atom har massan 235,04 u och varje klyvning ger 200 MeV. Jämför med en konstant effekt på 1,5·10¹³ W. Ett år är 3,156·10⁷ s.</p><p>a) En uranreserv innehåller 4,4·10⁶ ton naturligt uran. Av massan är 0,700 % uran-235. Hur många kg uran-235 finns i reserven?</p><p>b) En reserv innehåller 3,08·10⁷ kg uran-235. En atom har massan 235,04 u och varje klyvning ger 200 MeV. Hur mycket energi frigörs om allt klyvs?</p><p>c) En energireserv är 2,5·10²¹ J. Hur många år räcker den vid den konstanta effekten 1,5·10¹³ W? Ett år är 3,156·10⁷ s.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m_U=4{,}4\\cdot10^9\\ \\mathrm{kg}\\]</p><p><div class=\"facit-v2\"><p>\\[m_{235}=4{,}4\\cdot10^9\\cdot0{,}00700\\]</p><p>\\[m_{235}\\approx30800000\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=3{,}08\\cdot10^7/m_{atom}\\]</p><p>\\[N\\approx7{,}89\\cdot10^{31}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_f\\]</p><p>\\[E\\approx2{,}53\\cdot10^{21}\\ \\mathrm{J}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[t=E/P\\]</p><p>\\[t\\approx169000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[t=t_{\\mathrm s}/(3{,}156\\cdot10^7)\\]</p><p>\\[t\\approx5{,}34\\ \\mathrm{år}\\]</p></div></p></div></div>",
     "id": "9.411",
     "miniräknare": true,
@@ -161054,7 +161072,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En reserv innehåller 3,08·10⁷ kg uran-235. En atom har massan 235,04 u och varje klyvning ger 200 MeV. Hur mycket energi frigörs om allt klyvs? (Svara i J.)",
+        "fraga": "En reserv innehåller 3,08·10⁷ kg uran-235. En atom har massan 235,04 u och varje klyvning ger 200 MeV. Hur mycket energi frigörs om allt klyvs?",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_{atom}=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_{atom}\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=3{,}08\\cdot10^7/m_{atom}\\]</p><p>\\[N\\approx7{,}89\\cdot10^{31}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_f\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_f\\]</p><p>\\[E\\approx2{,}53\\cdot10^{21}\\ \\mathrm{J}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2.528497715201795e+21,
@@ -161067,7 +161085,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Antalet atomer är provets massa delad med en atoms massa.</p>",
-        "t": "<p>En reserv innehåller 3,08·10⁷ kg uran-235. En atom har massan 235,04 u och varje klyvning ger 200 MeV. Hur mycket energi frigörs om allt klyvs? (Svara i J.)</p>",
+        "t": "<p>En reserv innehåller 3,08·10⁷ kg uran-235. En atom har massan 235,04 u och varje klyvning ger 200 MeV. Hur mycket energi frigörs om allt klyvs?</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       },
@@ -161130,7 +161148,7 @@ window.BANK = [
     "omr": "fission",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>I en reaktormodell börjar effekten på 25 kW och ökar med faktorn 1,01 per generation. En generation tar 12 ns. Hur lång tid tar det att nå effekten 3 300 MW? (Svara i s.)</p>",
+    "t": "<p>I en reaktormodell börjar effekten på 25 kW och ökar med faktorn 1,01 per generation. En generation tar 12 ns. Hur lång tid tar det att nå effekten 3 300 MW?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[1{,}01^n=3300\\cdot10^6/(25\\cdot10^3)\\]</p><p>\\[1{,}01^n=132000\\]</p><p><div class=\"facit-v2\"><p>\\[n=\\ln132000/\\ln1{,}01\\]</p><p>\\[n\\approx1180\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[t=n\\cdot12\\cdot10^{-9}\\]</p><p>\\[t\\approx1{,}42\\cdot10^{-5}\\ \\mathrm{s}\\]</p></div></p></div>",
     "id": "9.413",
     "miniräknare": true,
@@ -161159,7 +161177,8 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken enhet används för radioaktiv aktivitet?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken enhet används för radioaktiv aktivitet?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktivitet mäts i becquerel, Bq.</p></div></div></div>",
     "familj": "Aktivitet och antal kärnor",
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
@@ -161239,7 +161258,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Halveringstiden är 8 minuter. Hur lång tid tar två halveringstider? (Svara i minuter.)</p>",
+    "t": "<p>Halveringstiden är 8 minuter. Hur lång tid tar två halveringstider?</p>",
     "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[t=2\\cdot8=16\\ \\mathrm{min}\\]</p><p></p></div>",
     "familj": "Halveringstid i hela steg",
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
@@ -161299,7 +161318,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Hur många procent av den ursprungliga mängden radioaktiva kärnor återstår efter 2 halveringstider? (Svara i procent.)</p>",
+    "t": "<p>Hur många procent av den ursprungliga mängden radioaktiva kärnor återstår efter 2 halveringstider?</p>",
     "s": "<div class=\"facit-v2\"><p>Halvera den ursprungliga mängden en gång för varje halveringstid.</p><p>\\[f=(1/2)^{2}=1/4\\]</p><p><div class=\"facit-v2\"><p>\\[p=100/4\\]</p><p>\\[p\\approx25\\ \\%\\]</p></div></p></div>",
     "familj": "Halveringstid i hela steg",
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
@@ -161444,7 +161463,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Tritium har halveringstiden 12,3 år. Ett prov innehåller från början 5 000 tritiumkärnor. Efter hur lång tid återstår i genomsnitt 625 kärnor? (Svara i år.)</p>",
+    "t": "<p>Tritium har halveringstiden 12,3 år. Ett prov innehåller från början 5 000 tritiumkärnor. Efter hur lång tid återstår i genomsnitt 625 kärnor?</p>",
     "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[5000\\to2500\\to1250\\to625\\]</p><p>Tre halveringar tar 3 · 12,3 = 36,9 år.</p></div>",
     "id": "9.332",
     "miniräknare": true,
@@ -161471,7 +161490,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>Kol-11 har halveringstiden 20,39 minuter. Ett prov innehåller 1,000 g kol-11 från början. Efter hur lång tid återstår 0,723 g kol-11? (Svara i minuter.)</p>",
+    "t": "<p>Kol-11 har halveringstiden 20,39 minuter. Ett prov innehåller 1,000 g kol-11 från början. Efter hur lång tid återstår 0,723 g kol-11?</p>",
     "s": "<div class=\"facit-v2\"><p>Aktiviteten är proportionell mot mängden radioaktiva kärnor som återstår.</p><p>\\[f=2^{-t/T}\\]</p><p>\\[\\ln f=-\\frac{t}{T}\\ln2\\]</p><p>\\[t=-T\\frac{\\ln f}{\\ln2}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-20{,}39\\cdot\\ln(0{,}723)/\\ln2\\]</p><p>\\[t\\approx9{,}54\\ \\mathrm{min}\\]</p></div></p></div>",
     "id": "9.333",
     "miniräknare": true,
@@ -161643,7 +161662,8 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Skandium-46 har halveringstiden 83,8 dygn. Hur stor andel återstår efter 2,5 år? Ett år är 365,25 dygn. (Svara som decimaltal.)</p>",
+    "t": "<p>Skandium-46 har halveringstiden 83,8 dygn. Hur stor andel återstår efter 2,5 år? Ett år är 365,25 dygn.</p>",
+    "kgInstruktion": "Svara i decimalform.",
     "s": "<div class=\"facit-v2\"><p>\\[t=2{,}5\\cdot365{,}25=913{,}125\\ \\mathrm{dygn}\\]</p><p><div class=\"facit-v2\"><p>\\[f=2^{-913{,}125/83{,}8}\\]</p><p>\\[f\\approx0{,}000525\\]</p></div></p></div>",
     "id": "9.337",
     "miniräknare": true,
@@ -161759,7 +161779,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>Vid tiden 0 är aktiviteten 2100 Bq. Efter 22 timmar är den 135 Bq. Uppskatta halveringstiden utifrån dessa två mätningar. (Svara i timmar.)</p>",
+    "t": "<p>Vid tiden 0 är aktiviteten 2100 Bq. Efter 22 timmar är den 135 Bq. Uppskatta halveringstiden utifrån dessa två mätningar.</p>",
     "s": "<div class=\"facit-v2\"><p>\\[135/2100=2^{-22/T}\\]</p><p>\\[\\ln(A/A_0)=-(t/T)\\ln2\\]</p><p><div class=\"facit-v2\"><p>\\[T=22\\cdot\\ln2/\\ln(2100/135)\\]</p><p>\\[T\\approx5{,}56\\ \\mathrm{h}\\]</p></div></p></div>",
     "id": "9.339",
     "miniräknare": true,
@@ -161787,7 +161807,8 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Hur stor andel av den ursprungliga mängden radioaktiva kärnor återstår efter 5 halveringstider? (Svara som bråk eller decimaltal.)</p>",
+    "t": "<p>Hur stor andel av den ursprungliga mängden radioaktiva kärnor återstår efter 5 halveringstider?</p>",
+    "kgInstruktion": "Svara med bråk eller decimaltal.",
     "s": "<div class=\"facit-v2\"><p>Halvera den ursprungliga mängden en gång för varje halveringstid.</p><p>\\[f=(1/2)^{5}=1/32\\]</p><p><p>Andelen är 0,03125.</p></p></div>",
     "id": "9.340",
     "miniräknare": true,
@@ -161814,7 +161835,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>a) Ett preparat av kobolt-60 har aktiviteten 8,0 PBq. Halveringstiden är 5,27 år och en atom har massan 59,93 u. Bestäm isotopens massa i kg.</p><p>b) Ett preparat av radium-226 har aktiviteten 150 kBq. Halveringstiden är 1 600 år och en atom har massan 226,03 u. Bestäm isotopens massa i kg.</p><p>c) En instrumentbräda hade aktiviteten 150 kBq från radium-226 som ny. Halveringstiden är 1 600 år. Vilken aktivitet från radium-226 har den efter 75 år? (Svara i Bq.)</p>",
+    "t": "<p>a) Ett preparat av kobolt-60 har aktiviteten 8,0 PBq. Halveringstiden är 5,27 år och en atom har massan 59,93 u. Bestäm isotopens massa i kg.</p><p>b) Ett preparat av radium-226 har aktiviteten 150 kBq. Halveringstiden är 1 600 år och en atom har massan 226,03 u. Bestäm isotopens massa i kg.</p><p>c) En instrumentbräda hade aktiviteten 150 kBq från radium-226 som ny. Halveringstiden är 1 600 år. Vilken aktivitet från radium-226 har den efter 75 år?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[A=8{,}0\\cdot10^{15}\\]</p><p>\\[A\\approx8\\cdot10^{15}\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=5{,}27\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx166000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx4{,}17\\cdot10^{-9}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx1{,}92\\cdot10^{24}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot59{,}93\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx0{,}191\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[A=150\\cdot10^3\\]</p><p>\\[A\\approx150000\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=1600\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx50500000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx1{,}37\\cdot10^{-11}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx1{,}09\\cdot10^{16}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot226{,}03\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx4{,}1\\cdot10^{-9}\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[A=150000\\cdot2^{-75/1600}\\]</p><p>\\[A\\approx145000\\ \\mathrm{Bq}\\]</p></div></div>",
     "id": "9.341",
     "miniräknare": true,
@@ -161899,7 +161920,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En instrumentbräda hade aktiviteten 150 kBq från radium-226 som ny. Halveringstiden är 1 600 år. Vilken aktivitet från radium-226 har den efter 75 år? (Svara i Bq.)",
+        "fraga": "En instrumentbräda hade aktiviteten 150 kBq från radium-226 som ny. Halveringstiden är 1 600 år. Vilken aktivitet från radium-226 har den efter 75 år?",
         "s": "<div class=\"facit-v2\"><p>\\[A=150000\\cdot2^{-75/1600}\\]</p><p>\\[A\\approx145000\\ \\mathrm{Bq}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 145204.63451192208,
@@ -161912,7 +161933,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>En instrumentbräda hade aktiviteten 150 kBq från radium-226 som ny. Halveringstiden är 1 600 år. Vilken aktivitet från radium-226 har den efter 75 år? (Svara i Bq.)</p>",
+        "t": "<p>En instrumentbräda hade aktiviteten 150 kBq från radium-226 som ny. Halveringstiden är 1 600 år. Vilken aktivitet från radium-226 har den efter 75 år?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -162152,7 +162173,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vår matematiska modell för ett vismut-210-prov är A(t) = A₀·2^(−t/T), där A₀ = 0,37 GBq och T = 5,01 dygn. Vilken aktivitet ger modellen efter 365 dygn? (Svara i Bq.)</p>",
+    "t": "<p>Vår matematiska modell för ett vismut-210-prov är A(t) = A₀·2^(−t/T), där A₀ = 0,37 GBq och T = 5,01 dygn. Vilken aktivitet ger modellen efter 365 dygn?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[t/T=365/5{,}01\\]</p><p><div class=\"facit-v2\"><p>\\[A=370000000\\cdot2^{-365/5{,}01}\\]</p><p>\\[A\\approx4{,}33\\cdot10^{-14}\\ \\mathrm{Bq}\\]</p></div></p><p><p>Modellen ger ett extremt litet medelvärde. Det betyder inte att provet faktiskt innehåller en bråkdel av en kärna.</p></p></div>",
     "id": "9.346",
     "miniräknare": true,
@@ -162262,7 +162283,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>Guld-198 har halveringstiden 2,69 dygn och en atom har massan 197,968 u. Hur stor massa guld-198 behövs för aktiviteten 315 Ci? (Svara i kg.)</p>",
+    "t": "<p>Guld-198 har halveringstiden 2,69 dygn och en atom har massan 197,968 u. Hur stor massa guld-198 behövs för aktiviteten 315 Ci?</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[A=315\\cdot3{,}7\\cdot10^{10}\\]</p><p>\\[A\\approx1{,}17\\cdot10^{13}\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=2{,}69\\cdot86400\\]</p><p>\\[T\\approx232000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx2{,}98\\cdot10^{-6}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx3{,}91\\cdot10^{18}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot197{,}968\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx1{,}28\\cdot10^{-6}\\ \\mathrm{kg}\\]</p></div></p></div>",
     "id": "9.350",
     "miniräknare": true,
@@ -162346,7 +162367,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>Ett mjölkprov på 1,0 liter har aktiviteten 1,00 pCi från jod-131. Halveringstiden är 8,04 dygn och en jod-131-atom har massan 131 u. Hur stor massa jod-131 finns i provet? (Svara i kg.)</p>",
+    "t": "<p>Ett mjölkprov på 1,0 liter har aktiviteten 1,00 pCi från jod-131. Halveringstiden är 8,04 dygn och en jod-131-atom har massan 131 u. Hur stor massa jod-131 finns i provet?</p>",
     "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[A=10^{-12}\\cdot3{,}7\\cdot10^{10}\\]</p><p>\\[A\\approx0{,}037\\ \\mathrm{Bq}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[T=8{,}04\\cdot86400\\]</p><p>\\[T\\approx695000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx9{,}98\\cdot10^{-7}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=A/\\lambda\\]</p><p>\\[N\\approx37100\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=N\\cdot131\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m\\approx8{,}07\\cdot10^{-21}\\ \\mathrm{kg}\\]</p></div></p></div>",
     "id": "9.353",
     "miniräknare": true,
@@ -162576,7 +162597,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En uran-glaserad tallrik innehåller 50,0 mg uran-238. En atom har massan 238,05 u och halveringstiden är 4468000000,0 år. Varje sönderfall frigör 4,27 MeV.</p><p>a) Bestäm aktiviteten från isotopen.</p><p>b) Bestäm värmeeffekten i W om all frigjord energi blir värme.</p><p>c) Hur mycket energi frigörs under 40 år? (Svara i J.)</p>",
+    "t": "<p>En uran-glaserad tallrik innehåller 50,0 mg uran-238. En atom har massan 238,05 u och halveringstiden är 4468000000,0 år. Varje sönderfall frigör 4,27 MeV.</p><p>a) Bestäm aktiviteten från isotopen.</p><p>b) Bestäm värmeeffekten i W om all frigjord energi blir värme.</p><p>c) Hur mycket energi frigörs under 40 år?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m=5\\cdot10^{-5}\\]</p><p>\\[m\\approx5\\cdot10^{-5}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=5\\cdot10^{-5}/(238{,}05\\cdot1{,}6605\\cdot10^{-27})\\]</p><p>\\[N\\approx1{,}26\\cdot10^{20}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(4468000000\\cdot3{,}156\\cdot10^7)\\]</p><p>\\[\\lambda\\approx4{,}92\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[A=\\lambda N\\]</p><p>\\[A\\approx622\\ \\mathrm{Bq}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{\\text{sönderfall}}=4{,}27\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[E_{\\text{sönderfall}}\\approx6{,}84\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[P=A E_{\\text{sönderfall}}\\]</p><p>\\[P\\approx4{,}25\\cdot10^{-10}\\ \\mathrm{W}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[E=P\\cdot40\\cdot3{,}156\\cdot10^7\\]</p><p>\\[E\\approx0{,}537\\ \\mathrm{J}\\]</p></div></div>",
     "id": "9.359",
     "miniräknare": true,
@@ -162776,7 +162797,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En värmekälla med plutonium-238 ger från början värmeeffekten 6,2 kW. Halveringstiden är 87,7 år. Hur stor är värmeeffekten efter 12,0 år? (Svara i W.)",
+        "fraga": "En värmekälla med plutonium-238 ger från början värmeeffekten 6,2 kW. Halveringstiden är 87,7 år. Hur stor är värmeeffekten efter 12,0 år?",
         "s": "<div class=\"facit-v2\"><p>\\[6{,}2\\ \\mathrm{kW}=6200\\ \\mathrm W\\]</p><p><div class=\"facit-v2\"><p>\\[P=6200\\cdot2^{-12/87{,}7}\\]</p><p>\\[P\\approx5640\\ \\mathrm{W}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5638.995192063398,
@@ -162789,7 +162810,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>En värmekälla med plutonium-238 ger från början värmeeffekten 6,2 kW. Halveringstiden är 87,7 år. Hur stor är värmeeffekten efter 12,0 år? (Svara i W.)</p>",
+        "t": "<p>En värmekälla med plutonium-238 ger från början värmeeffekten 6,2 kW. Halveringstiden är 87,7 år. Hur stor är värmeeffekten efter 12,0 år?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -162917,7 +162938,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(0/4/0)",
-    "t": "<p>a) Ett skelett har C-14/C-12-kvoten 4,34·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p><p>b) Ismannen Ötzis kvarlevor har kol-14-aktiviteten 0,121 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p><p>c) Ett prov har kol-14-aktiviteten 0,0061 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p><p>d) En tygbit hade vid mätningen 1988 kol-14-halten 92 % av halten i levande material. Hur gammal var den vid mätningen? Halveringstiden är 5 730 år. (Svara i år.)</p>",
+    "t": "<p>a) Ett skelett har C-14/C-12-kvoten 4,34·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p><p>b) Ismannen Ötzis kvarlevor har kol-14-aktiviteten 0,121 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p><p>c) Ett prov har kol-14-aktiviteten 0,0061 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p><p>d) En tygbit hade vid mätningen 1988 kol-14-halten 92 % av halten i levande material. Hur gammal var den vid mätningen? Halveringstiden är 5 730 år.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[f=0{,}333846153846\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}333846153846)/\\ln2\\]</p><p>\\[t\\approx9070\\ \\mathrm{år}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[f=0{,}526086956522\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}526086956522)/\\ln2\\]</p><p>\\[t\\approx5310\\ \\mathrm{år}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>\\[f=0{,}0265217391304\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}0265217391304)/\\ln2\\]</p><p>\\[t\\approx30000\\ \\mathrm{år}\\]</p></div></p></div><p><strong>d)</strong></p><div class=\"facit-v2\"><p>\\[f=0{,}92\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}92)/\\ln2\\]</p><p>\\[t\\approx689\\ \\mathrm{år}\\]</p></div></p></div></div>",
     "id": "9.424",
     "miniräknare": true,
@@ -163027,7 +163048,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "En tygbit hade vid mätningen 1988 kol-14-halten 92 % av halten i levande material. Hur gammal var den vid mätningen? Halveringstiden är 5 730 år. (Svara i år.)",
+        "fraga": "En tygbit hade vid mätningen 1988 kol-14-halten 92 % av halten i levande material. Hur gammal var den vid mätningen? Halveringstiden är 5 730 år.",
         "s": "<div class=\"facit-v2\"><p>\\[f=0{,}92\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}92)/\\ln2\\]</p><p>\\[t\\approx689\\ \\mathrm{år}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 689.2859592024884,
@@ -163040,7 +163061,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
-        "t": "<p>En tygbit hade vid mätningen 1988 kol-14-halten 92 % av halten i levande material. Hur gammal var den vid mätningen? Halveringstiden är 5 730 år. (Svara i år.)</p>",
+        "t": "<p>En tygbit hade vid mätningen 1988 kol-14-halten 92 % av halten i levande material. Hur gammal var den vid mätningen? Halveringstiden är 5 730 år.</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       }
@@ -163225,7 +163246,7 @@ window.BANK = [
     "omr": "aktivitet",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>I en modell finns lika många U-235- och U-238-kärnor från början. Halveringstiderna är 7,04·10⁸ respektive 4,468·10⁹ år. I dag är antalet U-235-kärnor dividerat med antalet U-238-kärnor 0,0072. Hur lång tid har gått enligt modellen? (Svara i år.)</p>",
+    "t": "<p>I en modell finns lika många U-235- och U-238-kärnor från början. Halveringstiderna är 7,04·10⁸ respektive 4,468·10⁹ år. I dag är antalet U-235-kärnor dividerat med antalet U-238-kärnor 0,0072. Hur lång tid har gått enligt modellen?</p>",
     "s": "<div class=\"facit-v2\"><p>Startkvoten är 1. Efter tiden t blir kvoten</p><p>\\[0{,}0072=2^{-t/T_{235}}/2^{-t/T_{238}}\\]</p><p>\\[\\ln(0{,}0072)=-t\\ln2(1/T_{235}-1/T_{238})\\]</p><p><div class=\"facit-v2\"><p>\\[t=\\frac{-\\ln(0{,}0072)}{\\ln2(1/T_{235}-1/T_{238})}\\]</p><p>\\[t\\approx5950000000\\ \\mathrm{år}\\]</p></div></p><p>Detta är tiden i den angivna modellen. Antagandet om lika startantal gör den inte till en säker bestämning av solsystemets verkliga ålder.</p></div>",
     "id": "9.427",
     "miniräknare": true,
@@ -163254,7 +163275,8 @@ window.BANK = [
     "omr": "stralning_materia",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vilket strålslag stoppas lättast av ett tunt papper?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilket strålslag stoppas lättast av ett tunt papper?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfastrålning har mycket kort räckvidd i materia och stoppas av papper.</p></div></div></div>",
     "familj": "Joniserande strålning och genomträngning",
     "familjNyckel": "stralning__joniserande_stralning_och_stralskydd",
@@ -163305,7 +163327,8 @@ window.BANK = [
     "omr": "stralning_materia",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vilket av alfa, beta och gamma är normalt mest genomträngande?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilket av alfa, beta och gamma är normalt mest genomträngande?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gammastrålning är normalt mest genomträngande av de tre.</p></div></div></div>",
     "familj": "Joniserande strålning och genomträngning",
     "familjNyckel": "stralning__joniserande_stralning_och_stralskydd",
@@ -163356,7 +163379,8 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken åtgärd minskar normalt dosen från en liten extern strålkälla?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken åtgärd minskar normalt dosen från en liten extern strålkälla?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Större avstånd minskar normalt dosraten från en liten källa.</p></div></div></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "familjNyckel": "stralning__joniserande_stralning_och_stralskydd",
@@ -163407,7 +163431,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Dosen per timme är 15 µSv. Hur stor dos får en person på 2 timmar? (Svara i µSv.)</p>",
+    "t": "<p>Dosen per timme är 15 µSv. Hur stor dos får en person på 2 timmar?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[H=15\\cdot2\\]</p><p>\\[H\\approx30\\ \\mathrm{\\mu Sv}\\]</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "familjNyckel": "stralning__joniserande_stralning_och_stralskydd",
@@ -163464,7 +163488,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En vävnad får den absorberade dosen 2,00 Gy. All absorberad strålningsenergi blir värme. Vävnadens specifika värmekapacitet är 4 180 J/(kg·K). Hur mycket stiger temperaturen? (Svara i K.)</p>",
+    "t": "<p>En vävnad får den absorberade dosen 2,00 Gy. All absorberad strålningsenergi blir värme. Vävnadens specifika värmekapacitet är 4 180 J/(kg·K). Hur mycket stiger temperaturen?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värmeenergi: \\(E=mc\\Delta T\\)</p><p>All den absorberade energin blir värme enligt uppgiften.</p></li><li><p class=\"facit-rubrik\">Kombinera med \\(D=E/m\\)</p><p>Massan förkortas bort. Dosen anger redan energi per kilogram.</p><div class=\"facit-matte\">\\[D=\\frac{mc\\Delta T}{m}=c\\Delta T\\]</div></li><li><p class=\"facit-rubrik\">Lös ut temperaturökningen: \\(\\Delta T=D/c\\)</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{2{,}00}{4180}\\,\\mathrm K\\approx4{,}78\\cdot10^{-4}\\,\\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}78\\cdot10^{-4}\\,\\mathrm K\\) (cirka 0,000478 K).</p></div>",
     "id": "9.363",
     "miniräknare": true,
@@ -163721,7 +163745,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "A",
     "poang": "(0/0/1)",
-    "t": "<p>Ett fosfor-32-preparat har startaktiviteten 59,2 MBq och halveringstiden 14,3 dygn. Vid aktiviteten 37 MBq får en tumör dosen 10 mGy per minut. Hur lång tid tar det att ge tumören den absorberade dosen 32 Gy när aktiviteten minskar genom sönderfall? (Svara i dygn.)</p>",
+    "t": "<p>Ett fosfor-32-preparat har startaktiviteten 59,2 MBq och halveringstiden 14,3 dygn. Vid aktiviteten 37 MBq får en tumör dosen 10 mGy per minut. Hur lång tid tar det att ge tumören den absorberade dosen 32 Gy när aktiviteten minskar genom sönderfall?</p>",
     "s": "<div class=\"facit-v2\"><p>Dos per sönderfall fås från den kända dosen per minut och antalet sönderfall per minut.</p><p><div class=\"facit-v2\"><p>\\[d=0{,}010/(60\\cdot37\\cdot10^6)\\]</p><p>\\[d\\approx4{,}5\\cdot10^{-12}\\ \\mathrm{Gy}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_{\\text{behövs}}=32/d\\]</p><p>\\[N_{\\text{behövs}}\\approx7{,}1\\cdot10^{12}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/(14{,}3\\cdot86400)\\]</p><p>\\[\\lambda\\approx5{,}61\\cdot10^{-7}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N_0=59{,}2\\cdot10^6/\\lambda\\]</p><p>\\[N_0\\approx1{,}06\\cdot10^{14}\\]</p></div></p><p>Efter behandlingen återstår N₀ minus de kärnor som har sönderfallit.</p><p><div class=\"facit-v2\"><p>\\[f=1-N_{\\text{behövs}}/N_0\\]</p><p>\\[f\\approx0{,}933\\]</p></div></p><p>\\[f=2^{-t/14{,}3}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-14{,}3\\ln(f)/\\ln2\\]</p><p>\\[t\\approx1{,}44\\ \\mathrm{dygn}\\]</p></div></p></div>",
     "id": "9.370",
     "miniräknare": true,
@@ -163839,7 +163863,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En person arbetar 5 dagar i veckan under 50 veckor och gör 8 röntgenundersökningar per arbetsdag. Den sammanlagda dosen under året är 50 mSv. Vilken dos per undersökning motsvarar det? (Svara i µSv.)</p>",
+    "t": "<p>En person arbetar 5 dagar i veckan under 50 veckor och gör 8 röntgenundersökningar per arbetsdag. Den totala dosen under året är 50 mSv. Vilken dos per undersökning motsvarar det?</p>",
     "s": "<div class=\"facit-v2\"><p>\\[n=5\\cdot50\\cdot8=2000\\ \\text{undersökningar}\\]</p><p>\\[50\\ \\mathrm{mSv}=50000\\ \\mathrm{\\mu Sv}\\]</p><p>\\[H=50000/2000=25\\ \\mathrm{\\mu Sv}\\]</p></div>",
     "id": "9.372",
     "miniräknare": true,
@@ -163866,7 +163890,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>Ett fosfor-32-preparat har startaktiviteten 1,31 MBq och halveringstiden 14,3 dygn. Varje sönderfall ger en betapartikel med medelenergin 700 keV. All denna energi absorberas av 100 g vävnad.</p><p>a) Hur många betapartiklar sänds ut under de första 10 dygnen?</p><p>b) Hur stor sammanlagd energi avges under dessa 10 dygn? (Svara i J.)</p><p>c) Bestäm absorberad dos i vävnaden.</p>",
+    "t": "<p>Ett fosfor-32-preparat har startaktiviteten 1,31 MBq och halveringstiden 14,3 dygn. Varje sönderfall ger en betapartikel med medelenergin 700 keV. All denna energi absorberas av 100 g vävnad.</p><p>a) Hur många betapartiklar sänds ut under de första 10 dygnen?</p><p>b) Hur stor energi avges totalt under dessa 10 dygn?</p><p>c) Bestäm absorberad dos i vävnaden.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sönderfallskonstant: \\(\\lambda=\\ln 2/T_{1/2}\\)</p><p>Aktiviteten är given per sekund, så halveringstiden behöver uttryckas i sekunder.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\lambda&=\\frac{\\ln2}{14{,}3\\cdot86400}\\,\\mathrm{s^{-1}}\\\\&\\approx5{,}61\\cdot10^{-7}\\,\\mathrm{s^{-1}}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Startantal från aktiviteten: \\(A_0=\\lambda N_0\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}N_0&=\\frac{1{,}31\\cdot10^6}{\\ln2/(14{,}3\\cdot86400)}\\\\&\\approx2{,}34\\cdot10^{12}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Sönderfallna kärnor: \\(\\Delta N=N_0-N(t)\\)</p><p>Antalet kvarvarande kärnor minskar under tiden. Använd startantalet utan mellanavrundning. Ett sönderfall ger en betapartikel; startaktiviteten gånger tiden skulle överskatta antalet.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta N&=N_0\\left(1-2^{-10/14{,}3}\\right)\\\\&\\approx8{,}97\\cdot10^{11}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(8{,}97\\cdot10^{11}\\) betapartiklar.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektronvolt till joule: \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_p&=700\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\,\\mathrm J\\\\&=1{,}1214\\cdot10^{-13}\\,\\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Sammanlagd energi: \\(E=\\Delta N E_p\\)</p><p>Använd det oavrundade antalet från a). Här visas extra siffror för att göra mellanledet tydligt.</p><div class=\"facit-matte\">\\[\\begin{aligned}E&\\approx(8{,}969600427\\cdot10^{11})\\\\&\\quad\\cdot(1{,}1214\\cdot10^{-13})\\,\\mathrm J\\\\&\\approx0{,}100585\\,\\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,101 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Omvandla vävnadens massa</p><div class=\"facit-matte\">\\[m=100\\,\\mathrm g=0{,}100\\,\\mathrm{kg}\\]</div></li><li><p class=\"facit-rubrik\">Absorberad dos: \\(D=\\dfrac{E}{m}\\)</p><p>All avgiven energi absorberas enligt uppgiften. Använd energin från b) utan mellanavrundning.</p><div class=\"facit-matte\">\\[D\\approx\\frac{0{,}100585}{0{,}100}\\,\\mathrm{Gy}\\approx1{,}01\\,\\mathrm{Gy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,01 Gy.</p></div></div></div>",
     "id": "9.373",
     "miniräknare": true,
@@ -163932,7 +163956,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "8,97·10¹¹ betapartiklar sänds ut med medelenergin 700 keV. Hur stor sammanlagd energi avges? (Svara i J.)",
+        "fraga": "8,97·10¹¹ betapartiklar sänds ut med medelenergin 700 keV. Hur stor energi avges totalt?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Elektronvolt till joule: \\(1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm J\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_p&=700\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\,\\mathrm J\\\\&=1{,}1214\\cdot10^{-13}\\,\\mathrm J\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Sammanlagd energi: \\(E=NE_p\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E&=8{,}97\\cdot10^{11}\\cdot1{,}1214\\cdot10^{-13}\\,\\mathrm J\\\\&=0{,}10058958\\,\\mathrm J\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,101 J.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.10058958,
@@ -163945,7 +163969,7 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Uttryck energin per partikel i joule och multiplicera med antalet partiklar.</p>",
-        "t": "<p>8,97·10¹¹ betapartiklar sänds ut med medelenergin 700 keV. Hur stor sammanlagd energi avges? (Svara i J.)</p>",
+        "t": "<p>8,97·10¹¹ betapartiklar sänds ut med medelenergin 700 keV. Hur stor energi avges totalt?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -163981,7 +164005,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(1/1/0)",
-    "t": "<p>a) En gammakälla ger den absorberade dosen 1,25 mGy per timme vid ett visst avstånd. Viktfaktorn är 1. Hur lång tid tar det att få den ekvivalenta dosen 12 mSv? (Svara i timmar.)</p><p>b) En liten strålkälla ger 1,25 mGy per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 0,150 mGy/h?</p>",
+    "t": "<p>a) En gammakälla ger den absorberade dosen 1,25 mGy per timme vid ett visst avstånd. Viktfaktorn är 1. Hur lång tid tar det att få den ekvivalenta dosen 12 mSv?</p><p>b) En liten strålkälla ger 1,25 mGy per timme på 1,0 m avstånd. Dosen per timme avtar med avståndet i kvadrat. På vilket avstånd är den 0,150 mGy/h?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Med viktfaktor 1 ger 1,25 mGy per timme också 1,25 mSv per timme.</p><p>\\[t=12/1{,}25=9{,}6\\ \\mathrm h\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[0{,}150=1{,}25/r^2\\]</p><p><div class=\"facit-v2\"><p>\\[r=\\sqrt{1{,}25/0{,}150}\\]</p><p>\\[r\\approx2{,}89\\ \\mathrm{m}\\]</p></div></p></div></div>",
     "id": "9.374",
     "miniräknare": true,
@@ -164022,7 +164046,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En gammakälla ger den absorberade dosen 1,25 mGy per timme vid ett visst avstånd. Viktfaktorn är 1. Hur lång tid tar det att få den ekvivalenta dosen 12 mSv? (Svara i timmar.)",
+        "fraga": "En gammakälla ger den absorberade dosen 1,25 mGy per timme vid ett visst avstånd. Viktfaktorn är 1. Hur lång tid tar det att få den ekvivalenta dosen 12 mSv?",
         "s": "<div class=\"facit-v2\"><p>Med viktfaktor 1 ger 1,25 mGy per timme också 1,25 mSv per timme.</p><p>\\[t=12/1{,}25=9{,}6\\ \\mathrm h\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 9.6,
@@ -164035,7 +164059,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Dos är dos per timme multiplicerad med tiden i timmar.</p>",
-        "t": "<p>En gammakälla ger den absorberade dosen 1,25 mGy per timme vid ett visst avstånd. Viktfaktorn är 1. Hur lång tid tar det att få den ekvivalenta dosen 12 mSv? (Svara i timmar.)</p>",
+        "t": "<p>En gammakälla ger den absorberade dosen 1,25 mGy per timme vid ett visst avstånd. Viktfaktorn är 1. Hur lång tid tar det att få den ekvivalenta dosen 12 mSv?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       },
@@ -164535,7 +164559,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>En tumör på 0,015 kg behöver ekvivalent dos 240 Sv. Strålen ger 1,8·10¹⁰ protoner per sekund med energin 4,0 MeV per proton. Alla protonerna absorberas. Strålningens viktfaktor är 14.</p><p>a) Bestäm absorberad dos.</p><p>b) Bestäm absorberad energi i J.</p><p>c) Bestäm bestrålningstiden.</p>",
+    "t": "<p>En tumör med massan 0,015 kg behöver ekvivalent dos 240 Sv. Strålen ger 1,8·10¹⁰ protoner per sekund med energin 4,0 MeV per proton. Alla protonerna absorberas. Strålningens viktfaktor är 14.</p><p>a) Bestäm absorberad dos.</p><p>b) Bestäm absorberad energi i J.</p><p>c) Bestäm bestrålningstiden.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[D=240/14\\]</p><p>\\[D\\approx17{,}1\\ \\mathrm{Gy}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[E=D\\cdot0{,}015\\]</p><p>\\[E\\approx0{,}257\\ \\mathrm{J}\\]</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[P=1{,}8\\cdot10^{10}\\cdot4{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[P\\approx0{,}0115\\ \\mathrm{W}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[t=E/P\\]</p><p>\\[t\\approx22{,}3\\ \\mathrm{s}\\]</p></div></p></div></div>",
     "id": "9.385",
     "miniräknare": true,
@@ -164578,7 +164602,7 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En tumör på 0,015 kg behöver ekvivalent dos 240 Sv. Strålen ger 1,8·10¹⁰ protoner per sekund med energin 4,0 MeV per proton. Alla protonerna absorberas. Strålningens viktfaktor är 14.</p>",
+    "spelIntro": "<p>En tumör med massan 0,015 kg behöver ekvivalent dos 240 Sv. Strålen ger 1,8·10¹⁰ protoner per sekund med energin 4,0 MeV per proton. Alla protonerna absorberas. Strålningens viktfaktor är 14.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -164650,7 +164674,7 @@ window.BANK = [
     "omr": "straldoser",
     "niva": "C",
     "poang": "(2/0/0)",
-    "t": "<p>En källa har aktiviteten 45 MBq och avger i genomsnitt 850 keV per sönderfall. En kropp på 62 kg absorberar all denna strålningsenergi under 1,4 timmar. Viktfaktorn är 1.</p><p>a) Bestäm effekten.</p><p>b) Bestäm kroppens ekvivalenta dos.</p>",
+    "t": "<p>En källa har aktiviteten 45 MBq och avger i genomsnitt 850 keV per sönderfall. En person som väger 62 kg absorberar all denna strålningsenergi under 1,4 timmar. Viktfaktorn är 1.</p><p>a) Bestäm effekten.</p><p>b) Bestäm kroppens ekvivalenta dos.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[P=45\\cdot10^6\\cdot850\\cdot10^3\\cdot1{,}602\\cdot10^{-19}\\]</p><p>\\[P\\approx6{,}13\\cdot10^{-6}\\ \\mathrm{W}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=P\\cdot5040\\]</p><p>\\[E\\approx0{,}0309\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[H=E/62\\]</p><p>\\[H\\approx0{,}000498\\ \\mathrm{Sv}\\]</p></div></p></div></div>",
     "id": "9.386",
     "miniräknare": true,
@@ -164687,7 +164711,7 @@ window.BANK = [
       "Sv"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En källa har aktiviteten 45 MBq och avger i genomsnitt 850 keV per sönderfall. En kropp på 62 kg absorberar all denna strålningsenergi under 1,4 timmar. Viktfaktorn är 1.</p>",
+    "spelIntro": "<p>En källa har aktiviteten 45 MBq och avger i genomsnitt 850 keV per sönderfall. En person som väger 62 kg absorberar all denna strålningsenergi under 1,4 timmar. Viktfaktorn är 1.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -164769,7 +164793,8 @@ window.BANK = [
     "omr": "stralning_materia",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vilket påstående om joniserande strålning är korrekt?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilket påstående om joniserande strålning är korrekt?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Joniserande strålning har tillräckligt hög energi för att slå loss elektroner från atomer eller molekyler.</p></div></div></div>",
     "familj": "Joniserande strålning och genomträngning",
     "familjNyckel": "stralning__joniserande_stralning_och_stralskydd",
@@ -184438,7 +184463,7 @@ window.BANK = [
     "omr": "standardmodellen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En proton består av två uppkvarkar och en nedkvark. Bestäm protonens laddning. (Svara i enheten e.)</p>",
+    "t": "<p>En proton består av två uppkvarkar och en nedkvark. Bestäm protonens laddning.</p>",
     "s": "<div class=\"facit-v2\"><p>Summera laddningarna.</p><p>\\[Q/e=2/3+2/3-1/3=1\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
@@ -184464,7 +184489,7 @@ window.BANK = [
     "omr": "standardmodellen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En neutron består av en uppkvark och två nedkvarkar. Bestäm neutronens laddning. (Svara i enheten e.)</p>",
+    "t": "<p>En neutron består av en uppkvark och två nedkvarkar. Bestäm neutronens laddning.</p>",
     "s": "<div class=\"facit-v2\"><p>Summera laddningarna.</p><p>\\[Q/e=2/3-1/3-1/3=0\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
@@ -184490,7 +184515,7 @@ window.BANK = [
     "omr": "standardmodellen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En partikel består av tre uppkvarkar. Bestäm partikelns laddning. (Svara i enheten e.)</p>",
+    "t": "<p>En partikel består av tre uppkvarkar. Bestäm partikelns laddning.</p>",
     "s": "<div class=\"facit-v2\"><p>Summera laddningarna.</p><p>\\[Q/e=3\\cdot2/3=2\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
@@ -184516,7 +184541,7 @@ window.BANK = [
     "omr": "standardmodellen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En antiproton består av två anti-uppkvarkar och en anti-nedkvark. Bestäm antiprotonens laddning. (Svara i enheten e.)</p>",
+    "t": "<p>En antiproton består av två anti-uppkvarkar och en anti-nedkvark. Bestäm antiprotonens laddning.</p>",
     "s": "<div class=\"facit-v2\"><p>Byt först tecken för antikvarkarna och summera sedan.</p><p>\\[Q/e=-2/3-2/3+1/3=-1\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
@@ -184542,7 +184567,7 @@ window.BANK = [
     "omr": "standardmodellen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En positiv pion består av en uppkvark och en anti-nedkvark. Bestäm pionens laddning. (Svara i enheten e.)</p>",
+    "t": "<p>En positiv pion består av en uppkvark och en anti-nedkvark. Bestäm pionens laddning.</p>",
     "s": "<div class=\"facit-v2\"><p>Byt först tecken för antikvarkarna och summera sedan.</p><p>\\[Q/e=2/3+1/3=1\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
@@ -184569,7 +184594,8 @@ window.BANK = [
     "niva": "E",
     "typ": "identifiera lepton",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken av partiklarna är en lepton?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken av partiklarna är en lepton?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Standardmodellens materiepartiklar delas in i kvarkar och leptoner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronen och neutrinerna är leptoner.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Elektronen.</p></div>",
     "familj": "Elementarpartiklar och kvarkar",
     "formaga": [
@@ -184615,7 +184641,8 @@ window.BANK = [
     "niva": "E",
     "typ": "sammansatt partikel",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken av partiklarna är <em>inte</em> en elementarpartikel?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken av partiklarna är <em>inte</em> en elementarpartikel?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En elementarpartikel består inte av mindre delar.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Protonen består av två uppkvarkar och en nedkvark.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Protonen.</p></div>",
     "familj": "Elementarpartiklar och kvarkar",
     "formaga": [
@@ -184661,7 +184688,8 @@ window.BANK = [
     "niva": "E",
     "typ": "partikel och antipartikel",
     "poang": "(1/0/0)",
-    "t": "<p>Positronen är elektronens antipartikel.</p><p>Vad har positronen och elektronen gemensamt?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Positronen är elektronens antipartikel.</p><p>Vad har positronen och elektronen gemensamt?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En antipartikel har samma massa som partikeln men motsatt laddning.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronen har laddningen −e och positronen +e.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Samma massa.</p></div>",
     "familj": "Elementarpartiklar och kvarkar",
     "formaga": [
@@ -184707,7 +184735,8 @@ window.BANK = [
     "niva": "E",
     "typ": "nukleonernas byggstenar",
     "poang": "(1/0/0)",
-    "t": "<p>Vilka partiklar bygger upp protoner och neutroner?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilka partiklar bygger upp protoner och neutroner?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Både protonen och neutronen består av tre kvarkar: protonen av två upp och en ned, neutronen av en upp och två ned.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Upp- och nedkvarkar.</p></div>",
     "familj": "Elementarpartiklar och kvarkar",
     "formaga": [
@@ -184867,7 +184896,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kraften som håller ihop kärnan",
     "poang": "(1/0/0)",
-    "t": "<p>Protonerna i en atomkärna stöter bort varandra elektriskt.</p><p>Vilken kraft håller ändå ihop kärnan?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Protonerna i en atomkärna stöter bort varandra elektriskt.</p><p>Vilken kraft håller ändå ihop kärnan?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den starka kraften attraherar nukleoner på avstånd som motsvarar kärnans storlek.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Där är den starkare än den elektriska repulsionen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den starka kraften.</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
@@ -184913,7 +184943,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kraften i atomens elektronhölje",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken kraft håller elektronerna kvar i atomen?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken kraft håller elektronerna kvar i atomen?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronerna är negativa och kärnan positiv.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska attraktionen håller kvar elektronerna.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den elektromagnetiska kraften.</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
@@ -184959,7 +184990,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kraften vid betasönderfall",
     "poang": "(1/0/0)",
-    "t": "<p>Vid beta-minus-sönderfall omvandlas en neutron till en proton.</p><p>Vilken kraft är ansvarig för omvandlingen?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vid beta-minus-sönderfall omvandlas en neutron till en proton.</p><p>Vilken kraft är ansvarig för omvandlingen?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2\"><p>Den svaga kraften kan omvandla en neutron till en proton vid beta-minus-sönderfall. I kvarkmodellen blir en nedkvark då en uppkvark.</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
@@ -185005,7 +185037,8 @@ window.BANK = [
     "niva": "E",
     "typ": "svagaste kraften",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken av de fyra fundamentala krafterna är svagast?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken av de fyra fundamentala krafterna är svagast?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mellan två protoner är den elektriska kraften ungefär 10³⁶ gånger starkare än gravitationen.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Gravitationen är den svagaste kraften.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gravitationen.</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
@@ -185051,7 +185084,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kraftpartikel för elektromagnetism",
     "poang": "(1/0/0)",
-    "t": "<p>I standardmodellen förmedlas krafter av partiklar.</p><p>Vilken partikel förmedlar den elektromagnetiska kraften?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>I standardmodellen förmedlas krafter av partiklar.</p><p>Vilken partikel förmedlar den elektromagnetiska kraften?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektromagnetiska kraften förmedlas av fotoner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Ljus är också fotoner.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fotonen.</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
@@ -185097,7 +185131,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kraftpartikel för stark kraft",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken partikel förmedlar den starka kraften mellan kvarkar?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken partikel förmedlar den starka kraften mellan kvarkar?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den starka kraften mellan kvarkar förmedlas av gluoner, som limmar ihop kvarkarna i protoner och neutroner.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gluonen.</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
@@ -185143,7 +185178,8 @@ window.BANK = [
     "niva": "E",
     "typ": "krafternas räckvidd",
     "poang": "(1/0/0)",
-    "t": "<p>Vilka av de fyra krafterna har obegränsad räckvidd?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilka av de fyra krafterna har obegränsad räckvidd?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2\"><p>Gravitationen och den elektromagnetiska kraften kan verka på mycket stora avstånd. De blir svagare med avståndet, men har ingen bestämd gräns där de slutar verka. Kärnkrafterna har däremot mycket kort räckvidd.</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
@@ -185189,7 +185225,8 @@ window.BANK = [
     "niva": "E",
     "typ": "varför gravitationen dominerar",
     "poang": "(1/0/0)",
-    "t": "<p>Gravitationen är den svagaste av de fyra krafterna. Ändå är det gravitationen som styr planeternas banor.</p><p>Vad är den viktigaste förklaringen?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Gravitationen är den svagaste av de fyra krafterna. Ändå är det gravitationen som styr planeternas banor.</p><p>Vad är den viktigaste förklaringen?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alla massor attraherar varandra, så gravitationen från enorma mängder materia adderas.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Planeter innehåller lika mycket positiv som negativ laddning, så de elektriska krafterna tar i stort sett ut varandra.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gravitationen är alltid attraktiv och stora kroppar är nästan neutrala.</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
@@ -185236,7 +185273,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kraftpartiklar för svag kraft",
     "poang": "(1/0/0)",
-    "t": "<p>Vilka partiklar förmedlar den svaga kraften?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilka partiklar förmedlar den svaga kraften?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den svaga kraften förmedlas av W⁺-, W⁻- och Z⁰-bosonerna.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> W- och Z-bosonerna.</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
@@ -185282,7 +185320,8 @@ window.BANK = [
     "niva": "E",
     "typ": "neutronernas roll i kärnan",
     "poang": "(1/0/0)",
-    "t": "<p>En heliumkärna har två protoner och två neutroner. Neutronerna har ingen laddning.</p><p>Varför bidrar neutronerna ändå till att hålla ihop kärnan?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>En heliumkärna har två protoner och två neutroner. Neutronerna har ingen laddning.</p><p>Varför bidrar neutronerna ändå till att hålla ihop kärnan?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den starka kraften verkar mellan alla nukleoner oavsett laddning.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutronerna ger alltså extra attraktion utan att öka den elektriska repulsionen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De påverkas av den starka kraften och attraherar övriga nukleoner.</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
@@ -185383,7 +185422,8 @@ window.BANK = [
     "niva": "E",
     "typ": "begreppet joniserande",
     "poang": "(1/0/0)",
-    "t": "<p>Vad menas med att strålning är joniserande?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vad menas med att strålning är joniserande?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Joniserande strålning har så hög energi att den kan slå loss elektroner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Atomerna blir då joner och kemiska bindningar kan brytas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den kan slå loss elektroner från atomer och molekyler.</p></div>",
     "familj": "Joniserande strålning och genomträngning",
     "formaga": [
@@ -185429,7 +185469,8 @@ window.BANK = [
     "niva": "E",
     "typ": "skärmning av gamma",
     "poang": "(1/0/0)",
-    "t": "<p>Ett laboratorium ska förvara en stark gammastrålande källa.</p><p>Vilket skärmningsmaterial är mest effektivt per centimeter?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Ett laboratorium ska förvara en stark gammastrålande källa.</p><p>Vilket skärmningsmaterial är mest effektivt per centimeter?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2\"><p>Av materialen i alternativen dämpar bly gammastrålningen mest för samma tjocklek. Bly har hög densitet och är därför ett vanligt strålskydd.</p></div>",
     "familj": "Joniserande strålning och genomträngning",
     "formaga": [
@@ -185601,7 +185642,8 @@ window.BANK = [
     "niva": "E",
     "typ": "begreppet fusion",
     "poang": "(1/0/0)",
-    "t": "<p>Vad menas med fusion?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vad menas med fusion?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid fusion förenas lätta kärnor, till exempel väteisotoper, till en tyngre kärna som helium.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lätta kärnor slås samman.</p></div>",
     "familj": "Fusion och energi",
     "formaga": [
@@ -185647,7 +185689,8 @@ window.BANK = [
     "niva": "E",
     "typ": "varför fusion kräver hög temperatur",
     "poang": "(1/0/0)",
-    "t": "<p>Bränslet i en D–T-fusionsreaktor behöver vara mycket varmt. Varför hjälper hög temperatur kärnorna att reagera?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Bränslet i en D–T-fusionsreaktor behöver vara mycket varmt. Varför hjälper hög temperatur kärnorna att reagera?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2\"><p>Kärnorna är positivt laddade och stöter bort varandra. Vid hög temperatur rör de sig snabbare. Då ökar chansen att de kommer tillräckligt nära för att fusion ska ske.</p></div>",
     "familj": "Fusion och energi",
     "formaga": [
@@ -185798,7 +185841,8 @@ window.BANK = [
     "niva": "E",
     "typ": "varför fusion frigör energi",
     "poang": "(1/0/0)",
-    "t": "<p>Varför frigörs energi när två väteisotoper fusionerar till helium?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Varför frigörs energi när två väteisotoper fusionerar till helium?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bindningsenergin per nukleon ökar kraftigt från de lättaste kärnorna till helium.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När kärnorna binds hårdare minskar den totala massan, och massminskningen frigörs som energi.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Heliumkärnan är hårdare bunden, alltså har högre bindningsenergi per nukleon.</p></div>",
     "familj": "Fusion och energi",
     "formaga": [
@@ -185871,7 +185915,8 @@ window.BANK = [
     "niva": "E",
     "typ": "fusion jämfört med fission",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken fördel har deuterium som fusionsbränsle?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken fördel har deuterium som fusionsbränsle?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2\"><p>Deuterium finns naturligt i vatten. Därför finns en stor tillgång på denna del av D–T-bränslet. Tritium, den andra delen, behöver däremot framställas.</p></div>",
     "familj": "Fusion och energi",
     "formaga": [
@@ -186239,7 +186284,7 @@ window.BANK = [
     "omr": "fusion",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Reaktionen är ²H + ²H → ³He + n. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160293 u och 1,0086649 u.</p><p>a) Bestäm frigjord energi per reaktion i MeV.</p><p>b) Vilket massflöde deuterium krävs för värmeeffekten 1 500 MW? (Svara i kg/s.)</p><p>c) Uran-235 har atommassan 235,04 u och ger 200 MeV per klyvning. Vilket massflöde krävs för samma värmeeffekt? (Svara i kg/s.)</p>",
+    "t": "<p>Reaktionen är ²H + ²H → ³He + n. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160293 u och 1,0086649 u.</p><p>a) Bestäm frigjord energi per reaktion i MeV.</p><p>b) Vilket massflöde deuterium krävs för värmeeffekten 1 500 MW?</p><p>c) Uran-235 har atommassan 235,04 u och ger 200 MeV per klyvning. Vilket massflöde krävs för samma värmeeffekt?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=4{,}0282036\\ \\mathrm u\\]</p><p>\\[m_{efter}=4{,}0246942\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0035094\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx3{,}27\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=3{,}268971006\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx5{,}24\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot N=P/E_r\\]</p><p>\\[\\dot N\\approx2{,}86\\cdot10^{21}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m_r=4{,}0282036\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx6{,}69\\cdot10^{-27}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot m=\\dot N m_r\\]</p><p>\\[\\dot m\\approx1{,}92\\cdot10^{-5}\\ \\mathrm{kg/s}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_r=200\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx3{,}2\\cdot10^{-11}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot N=P/E_r\\]</p><p>\\[\\dot N\\approx4{,}68\\cdot10^{19}\\ \\mathrm{s^{-1}}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m_r=235{,}04\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx3{,}9\\cdot10^{-25}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\dot m=\\dot N m_r\\]</p><p>\\[\\dot m\\approx1{,}83\\cdot10^{-5}\\ \\mathrm{kg/s}\\]</p></div></p></div></div>",
     "id": "9.417",
     "miniräknare": true,
@@ -186354,7 +186399,7 @@ window.BANK = [
     "omr": "fusion",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Reaktionen är ²H + ²H → ³H + ¹H. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160493 u och 1,007825 u.</p><p>a) Bestäm frigjord energi per reaktion i MeV.</p><p>b) Hur mycket energi frigörs när 1,0 kg deuterium reagerar helt? (Svara i J.)</p><p>c) Hur många kg deuterium krävs för 140 TWh el med verkningsgraden 40 %? 1 TWh = 3,6·10¹⁵ J.</p>",
+    "t": "<p>Reaktionen är ²H + ²H → ³H + ¹H. Atommassorna före är 2,0141018 u och 2,0141018 u. Atommassorna efter är 3,0160493 u och 1,007825 u.</p><p>a) Bestäm frigjord energi per reaktion i MeV.</p><p>b) Hur mycket energi frigörs när 1,0 kg deuterium reagerar helt?</p><p>c) Hur många kg deuterium krävs för 140 TWh el med verkningsgraden 40 %? 1 TWh = 3,6·10¹⁵ J.</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[m_{före}=4{,}0282036\\ \\mathrm u\\]</p><p>\\[m_{efter}=4{,}0238743\\ \\mathrm u\\]</p><p>\\[\\Delta m=m_{före}-m_{efter}\\]</p><p>\\[\\Delta m=0{,}0043293\\ \\mathrm u\\]</p><p><div class=\"facit-v2\"><p>\\[Q=\\Delta m\\cdot931{,}49\\]</p><p>\\[Q\\approx4{,}03\\ \\mathrm{MeV}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_r=4{,}0282036\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx6{,}69\\cdot10^{-27}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=m/m_r\\]</p><p>\\[N\\approx1{,}5\\cdot10^{26}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_r=4{,}032699657\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx6{,}46\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_r\\]</p><p>\\[E\\approx9{,}66\\cdot10^{13}\\ \\mathrm{J}\\]</p></div></p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E_{el}=140\\cdot3{,}6\\cdot10^{15}\\]</p><p>\\[E_{el}\\approx5{,}04\\cdot10^{17}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=E_{el}/0{,}40\\]</p><p>\\[E\\approx1{,}26\\cdot10^{18}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=E/E_{per\\ kg}\\]</p><p>\\[m\\approx13000\\ \\mathrm{kg}\\]</p></div></p></div></div>",
     "id": "9.418",
     "miniräknare": true,
@@ -186420,7 +186465,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "D–D-fusion förbrukar två deuteriumatomer per reaktion. Varje atom väger 2,0141018 u och varje reaktion ger 4,03 MeV. Hur mycket energi frigörs när 1,0 kg deuterium reagerar helt? (Svara i J.)",
+        "fraga": "D–D-fusion förbrukar två deuteriumatomer per reaktion. Varje atom väger 2,0141018 u och varje reaktion ger 4,03 MeV. Hur mycket energi frigörs när 1,0 kg deuterium reagerar helt?",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[m_r=4{,}0282036\\cdot1{,}6605\\cdot10^{-27}\\]</p><p>\\[m_r\\approx6{,}69\\cdot10^{-27}\\ \\mathrm{kg}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[N=m/m_r\\]</p><p>\\[N\\approx1{,}5\\cdot10^{26}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E_r=4{,}03\\cdot1{,}602\\cdot10^{-13}\\]</p><p>\\[E_r\\approx6{,}46\\cdot10^{-13}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[E=N E_r\\]</p><p>\\[E\\approx9{,}65\\cdot10^{13}\\ \\mathrm{J}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 96519989213474.77,
@@ -186433,7 +186478,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>En reaktion förbrukar två atomer. Dela bränslemassan med massan av ett atompar.</p>",
-        "t": "<p>D–D-fusion förbrukar två deuteriumatomer per reaktion. Varje atom väger 2,0141018 u och varje reaktion ger 4,03 MeV. Hur mycket energi frigörs när 1,0 kg deuterium reagerar helt? (Svara i J.)</p>",
+        "t": "<p>D–D-fusion förbrukar två deuteriumatomer per reaktion. Varje atom väger 2,0141018 u och varje reaktion ger 4,03 MeV. Hur mycket energi frigörs när 1,0 kg deuterium reagerar helt?</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       },
@@ -186584,7 +186629,7 @@ window.BANK = [
     "omr": "fusion",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Solen strålar ut 4,0·10²⁶ W och har massan 2,0·10³⁰ kg. Ett år är 3,156·10⁷ s.</p><p>a) Hur mycket massa omvandlas till energi på ett år?</p><p>b) Hur stor andel av solens massa är det? (Svara som en kvot.)</p>",
+    "t": "<p>Solen strålar ut 4,0·10²⁶ W och har massan 2,0·10³⁰ kg. Ett år är 3,156·10⁷ s.</p><p>a) Hur mycket massa omvandlas till energi på ett år?</p><p>b) Hur stor andel av solens massa är det?</p>",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[E=4{,}0\\cdot10^{26}\\cdot3{,}156\\cdot10^7\\]</p><p>\\[E\\approx1{,}26\\cdot10^{34}\\ \\mathrm{J}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[m=E/c^2\\]</p><p>\\[m\\approx1{,}4\\cdot10^{17}\\ \\mathrm{kg}\\]</p></div></p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[andel=m/M\\]</p><p>\\[andel\\approx7{,}01\\cdot10^{-14}\\]</p></div></div>",
     "id": "9.420",
     "miniräknare": true,
@@ -186643,7 +186688,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Solens massa är 2,0·10³⁰ kg. Den omvandlar 1,4·10¹⁷ kg till energi på ett år. Hur stor andel är det? (Svara som en kvot.)",
+        "fraga": "Solens massa är 2,0·10³⁰ kg. Den omvandlar 1,4·10¹⁷ kg till energi på ett år. Hur stor andel är det?",
         "s": "<div class=\"facit-v2\"><p>\\[andel=1{,}4\\cdot10^{17}/(2{,}0\\cdot10^{30})\\]</p><p>\\[andel\\approx7\\cdot10^{-14}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 7e-14,
@@ -186656,7 +186701,7 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Dela den omvandlade massan med hela massan.</p>",
-        "t": "<p>Solens massa är 2,0·10³⁰ kg. Den omvandlar 1,4·10¹⁷ kg till energi på ett år. Hur stor andel är det? (Svara som en kvot.)</p>",
+        "t": "<p>Solens massa är 2,0·10³⁰ kg. Den omvandlar 1,4·10¹⁷ kg till energi på ett år. Hur stor andel är det?</p>",
         "arbetsinsats": 1,
         "miniräknare": true
       }
@@ -186675,7 +186720,7 @@ window.BANK = [
     "niva": "E",
     "typ": "aktivitet hos spårämne",
     "poang": "(1/0/0)",
-    "t": "<p>Teknetium-99m används som spårämne vid skelettundersökningar och har halveringstiden 6,0 h. En patient får en dos med aktiviteten 800 MBq.</p><p>Hur stor är aktiviteten efter ett dygn? (Svara i MBq.)</p><p>Räkna bara med radioaktivt sönderfall.</p>",
+    "t": "<p>Teknetium-99m används som spårämne vid skelettundersökningar och har halveringstiden 6,0 h. En patient får en dos med aktiviteten 800 MBq.</p><p>Hur stor är aktiviteten efter ett dygn?</p><p>Bortse från att kroppen gör sig av med ämnet på andra sätt.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ett dygn är 24 h, alltså fyra halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=800\\cdot\\left(\\tfrac12\\right)^4=50\\ \\mathrm{MBq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{MBq}\\).</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
@@ -186701,7 +186746,8 @@ window.BANK = [
     "niva": "E",
     "typ": "varför gammastrålare som spårämne",
     "poang": "(1/0/0)",
-    "t": "<p>Vid nuklearmedicinska undersökningar används ofta gammastrålande spårämnen.</p><p>Varför väljs gammastrålare?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vid nuklearmedicinska undersökningar används ofta gammastrålande spårämnen.</p><p>Varför väljs gammastrålare?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2\"><p>Gammastrålningen kan ta sig ut ur kroppen och registreras av en kamera. Då kan man se var spårämnet finns. Dos per sönderfall beror också på energin och hur mycket som absorberas.</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
@@ -186748,7 +186794,7 @@ window.BANK = [
     "niva": "E",
     "typ": "annihilation vid PET",
     "poang": "(1/0/0)",
-    "t": "<p>Vid PET-undersökning möter en positron en elektron. Elektronen och positronen försvinner och deras energi bildar två fotoner (ljuspartiklar). Varje foton har energin 511 keV.</p><p>Hur stor är den sammanlagda energin hos fotonerna? (Svara i keV.)</p>",
+    "t": "<p>Vid PET-undersökning möter en positron en elektron. Elektronen och positronen försvinner och deras energi bildar två fotoner (ljuspartiklar). Varje foton har energin 511 keV.</p><p>Hur stor är fotonernas totala energi?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda fotonerna har samma energi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=2\\cdot511=1022\\ \\mathrm{keV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1022\\ \\mathrm{keV}\\).</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
@@ -186774,7 +186820,8 @@ window.BANK = [
     "niva": "E",
     "typ": "kort halveringstid hos spårämnen",
     "poang": "(1/0/0)",
-    "t": "<p>Spårämnen inom sjukvården har ofta halveringstider på några timmar.</p><p>Vad är fördelen med en kort halveringstid?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Spårämnen inom sjukvården har ofta halveringstider på några timmar.</p><p>Vad är fördelen med en kort halveringstid?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2\"><p>Kort halveringstid gör att aktiviteten minskar snabbt efter undersökningen. Med samma startaktivitet och i övrigt samma förhållanden minskar det den långvariga bestrålningen av patienten.</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
@@ -186820,7 +186867,7 @@ window.BANK = [
     "niva": "E",
     "typ": "andel kvar efter transport",
     "poang": "(1/0/0)",
-    "t": "<p>Fluor-18, som används vid PET, har halveringstiden 110 min. Dosen framställs på ett sjukhus och transporteras till ett annat. Transporten tar 330 min.</p><p>Hur stor andel av den ursprungliga aktiviteten finns kvar vid ankomsten? (Svara i procent.)</p>",
+    "t": "<p>Fluor-18, som används vid PET, har halveringstiden 110 min. Dosen framställs på ett sjukhus och transporteras till ett annat. Transporten tar 330 min.</p><p>Hur stor andel av den ursprungliga aktiviteten finns kvar vid ankomsten?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">330 min är tre halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\left(\\tfrac12\\right)^3=\\tfrac18=12{,}5\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}5\\,\\%\\).</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
@@ -186846,7 +186893,8 @@ window.BANK = [
     "niva": "E",
     "typ": "strålbehandling från flera håll",
     "poang": "(1/0/0)",
-    "t": "<p>Vid strålbehandling av en tumör riktas strålning in från flera olika håll mot samma punkt.</p><p>Varför gör man så?</p><p>Markera det korrekta alternativet.</p><div class=\"fig smal\"><svg style=\"width:100%;max-width:500px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Tre strålar från olika håll möts i tumören\"><title>Strålbehandling från olika håll</title><ellipse cx=\"250\" cy=\"145\" rx=\"145\" ry=\"105\" fill=\"#e9f0f4\" stroke=\"#5b7081\" stroke-width=\"2\"/><path d=\"M35 145H405 M250 15V270 M90 25L410 265\" stroke=\"#2197af\" stroke-width=\"14\" opacity=\"0.32\"/><circle cx=\"250\" cy=\"145\" r=\"20\" fill=\"#c75745\" stroke=\"#8b382d\" stroke-width=\"2\"/><path d=\"M268 155L405 225\" fill=\"none\" stroke=\"#334155\" stroke-width=\"1.5\"/><text x=\"415\" y=\"234\" font-family=\"Arial\" font-size=\"18\" fill=\"#334155\">tumör</text><text x=\"250\" y=\"294\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Flera strålar ger hög sammanlagd dos i tumören.</text></svg></div>",
+    "t": "<p>Vid strålbehandling av en tumör riktas strålning in från flera olika håll mot samma punkt.</p><p>Varför gör man så?</p><div class=\"fig smal\"><svg style=\"width:100%;max-width:500px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Tre strålar från olika håll möts i tumören\"><title>Strålbehandling från olika håll</title><ellipse cx=\"250\" cy=\"145\" rx=\"145\" ry=\"105\" fill=\"#e9f0f4\" stroke=\"#5b7081\" stroke-width=\"2\"/><path d=\"M35 145H405 M250 15V270 M90 25L410 265\" stroke=\"#2197af\" stroke-width=\"14\" opacity=\"0.32\"/><circle cx=\"250\" cy=\"145\" r=\"20\" fill=\"#c75745\" stroke=\"#8b382d\" stroke-width=\"2\"/><path d=\"M268 155L405 225\" fill=\"none\" stroke=\"#334155\" stroke-width=\"1.5\"/><text x=\"415\" y=\"234\" font-family=\"Arial\" font-size=\"18\" fill=\"#334155\">tumör</text><text x=\"250\" y=\"294\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\" fill=\"#334155\">Flera strålar ger hög sammanlagd dos i tumören.</text></svg></div>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2\"><p>Flera strålar möts i tumören, där deras dosbidrag ger en hög sammanlagd dos. Den friska vävnaden på vägen träffas normalt av färre strålar och får lägre dos.</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
@@ -186893,7 +186941,7 @@ window.BANK = [
     "niva": "E",
     "typ": "jod-131 vid behandling",
     "poang": "(1/0/0)",
-    "t": "<p>Vid behandling av sköldkörteln får en patient jod-131 med aktiviteten 500 MBq. Halveringstiden är 8,0 dygn.</p><p>Hur stor aktivitet finns kvar efter 20 dygn? Bortse från att kroppen gör sig av med jod. (Svara i MBq.)</p>",
+    "t": "<p>Vid behandling av sköldkörteln får en patient jod-131 med aktiviteten 500 MBq. Halveringstiden är 8,0 dygn.</p><p>Hur stor aktivitet finns kvar efter 20 dygn? Bortse från att kroppen gör sig av med jod.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">20 dygn är 2,5 halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=500\\cdot\\left(\\tfrac12\\right)^{2{,}5}\\approx88\\ \\mathrm{MBq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(88\\ \\mathrm{MBq}\\).</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
@@ -186919,7 +186967,8 @@ window.BANK = [
     "niva": "E",
     "typ": "strålning vid röntgen",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken typ av strålning används vid en vanlig röntgenbild av ett brutet ben?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken typ av strålning används vid en vanlig röntgenbild av ett brutet ben?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Röntgenstrålning är elektromagnetisk strålning.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Skelettet absorberar mer än mjukdelarna och syns därför som ljusa partier på bilden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Röntgenstrålning.</p></div>",
     "familj": "Strålning i medicin",
     "formaga": [
@@ -187043,7 +187092,8 @@ window.BANK = [
     "niva": "E",
     "typ": "längst våglängd",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken typ av elektromagnetisk strålning har längst våglängd?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken typ av elektromagnetisk strålning har längst våglängd?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ordningen från lång till kort våglängd är radio, mikrovågor, IR, synligt ljus, UV, röntgen och gamma.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Radiovågor.</p></div>",
     "familj": "Det elektromagnetiska spektrumet",
     "formaga": [
@@ -187089,7 +187139,8 @@ window.BANK = [
     "niva": "E",
     "typ": "högst frekvens",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken typ av elektromagnetisk strålning har högst frekvens?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilken typ av elektromagnetisk strålning har högst frekvens?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alla elektromagnetiska vågor har samma fart i vakuum, så kortast våglängd ger högst frekvens.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det är gammastrålning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gammastrålning.</p></div>",
     "familj": "Det elektromagnetiska spektrumet",
     "formaga": [
@@ -187135,7 +187186,8 @@ window.BANK = [
     "niva": "E",
     "typ": "joniserande delar av spektrumet",
     "poang": "(1/0/0)",
-    "t": "<p>Vilka delar av det elektromagnetiska spektrumet räknas som joniserande?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vilka delar av det elektromagnetiska spektrumet räknas som joniserande?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det är energin per foton som avgör.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kortvågig UV-strålning, röntgen och gamma har så hög fotonenergi att de kan slå loss elektroner.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kortvågig UV, röntgen och gamma.</p></div>",
     "familj": "Det elektromagnetiska spektrumet",
     "formaga": [
@@ -187233,7 +187285,8 @@ window.BANK = [
     "niva": "E",
     "typ": "gemensamt för EM-vågor",
     "poang": "(1/0/0)",
-    "t": "<p>Röntgenstrålning, ljus och radiovågor skiljer sig mycket åt.</p><p>Vad har de gemensamt i vakuum?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Röntgenstrålning, ljus och radiovågor skiljer sig mycket åt.</p><p>Vad har de gemensamt i vakuum?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">All elektromagnetisk strålning rör sig med farten c ≈ 3,00·10⁸ m/s i vakuum.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det som skiljer är frekvens och våglängd.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Samma utbredningsfart.</p></div>",
     "familj": "Det elektromagnetiska spektrumet",
     "formaga": [
@@ -187401,7 +187454,8 @@ window.BANK = [
     "niva": "E",
     "typ": "antineutrino vid beta-minus",
     "poang": "(1/0/0)",
-    "t": "<p>Vid beta-minus-sönderfall skickas en elektron ut ur kärnan.</p><p>Vilken ytterligare partikel skickas ut?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vid beta-minus-sönderfall skickas en elektron ut ur kärnan.</p><p>Vilken ytterligare partikel skickas ut?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2\"><p>Vid beta-minus bildas en proton, en elektron och en antineutrino när en neutron omvandlas. Antineutrinon tar med sig en del av energin.</p></div>",
     "familj": "Beta-minus-sönderfall",
     "formaga": [
@@ -187447,7 +187501,8 @@ window.BANK = [
     "niva": "E",
     "typ": "beta-minus på nukleonnivå",
     "poang": "(1/0/0)",
-    "t": "<p>Vad händer inne i kärnan vid beta-minus-sönderfall?</p><p>Markera det korrekta alternativet.</p>",
+    "t": "<p>Vad händer inne i kärnan vid beta-minus-sönderfall?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronen som sänds ut fanns inte i kärnan från början.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den bildas när en neutron omvandlas till en proton.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En neutron blir en proton, en elektron och en antineutrino.</p></div>",
     "familj": "Beta-minus-sönderfall",
     "formaga": [
@@ -198509,7 +198564,8 @@ window.BANK = [
   "omr": "fyra_krafterna",
   "niva": "E",
   "poang": "(1/0/0)",
-  "t": "<p>Vilken kraft håller månen kvar i sin bana runt jorden?</p><p>Markera det korrekta alternativet.</p>",
+  "t": "<p>Vilken kraft håller månen kvar i sin bana runt jorden?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jorden och månen attraherar varandra med gravitationen. Den har obegränsad räckvidd och verkar mellan alla massor.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Jorden och månen är i stort sett elektriskt neutrala, så den elektromagnetiska kraften mellan dem är försumbar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gravitationen.</p></div>",
   "familj": "De fyra fundamentala krafterna",
   "formaga": [
@@ -198552,7 +198608,8 @@ window.BANK = [
   "omr": "fyra_krafterna",
   "niva": "E",
   "poang": "(1/0/0)",
-  "t": "<p>Du står på ett golv. Golvet trycker uppåt på dina fötter, så att du inte sjunker igenom.</p><p>Vilken av de fyra fundamentala krafterna ligger bakom golvets kraft på dig?</p><p>Markera det korrekta alternativet.</p>",
+  "t": "<p>Du står på ett golv. Golvet trycker uppåt på dina fötter, så att du inte sjunker igenom.</p><p>Vilken av de fyra fundamentala krafterna ligger bakom golvets kraft på dig?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Normalkraften uppstår när elektronskalen i fötternas och golvets atomer kommer nära varandra och stöter bort varandra.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vardagens kontaktkrafter, som normalkraft och friktion, är elektromagnetiska krafter mellan atomer.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den elektromagnetiska kraften.</p></div>",
   "familj": "De fyra fundamentala krafterna",
   "formaga": [
@@ -198596,7 +198653,8 @@ window.BANK = [
   "omr": "fyra_krafterna",
   "niva": "E",
   "poang": "(1/0/0)",
-  "t": "<p>I solens kärna omvandlas en del protoner till neutroner när vätekärnor fusioneras till helium.</p><p>Vilken kraft gör det möjligt för en proton att omvandlas till en neutron?</p><p>Markera det korrekta alternativet.</p>",
+  "t": "<p>I solens kärna omvandlas en del protoner till neutroner när vätekärnor fusioneras till helium.</p><p>Vilken kraft gör det möjligt för en proton att omvandlas till en neutron?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandlingar mellan protoner och neutroner, som vid betasönderfall, sker genom den svaga kraften.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den svaga kraften förmedlas av W- och Z-bosoner och kan ändra en kvarks typ, till exempel en uppkvark till en nedkvark.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den svaga kraften.</p></div>",
   "familj": "De fyra fundamentala krafterna",
   "formaga": [
@@ -198690,7 +198748,8 @@ window.BANK = [
   "omr": "fyra_krafterna",
   "niva": "E",
   "poang": "(1/0/0)",
-  "t": "<p>När du drar en låda över ett golv bromsas den av friktion.</p><p>Vilken av de fyra fundamentala krafterna ligger bakom friktionen?</p><p>Markera det korrekta alternativet.</p>",
+  "t": "<p>När du drar en låda över ett golv bromsas den av friktion.</p><p>Vilken av de fyra fundamentala krafterna ligger bakom friktionen?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Friktion uppstår när atomerna i lådans och golvets ytor växelverkar elektriskt där ytorna är i kontakt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den elektromagnetiska kraften.</p></div>",
   "familj": "De fyra fundamentala krafterna",
   "formaga": [
@@ -198732,7 +198791,8 @@ window.BANK = [
   "omr": "fyra_krafterna",
   "niva": "E",
   "poang": "(1/0/0)",
-  "t": "<p>Diagrammet visar ungefär hur starka de fyra fundamentala krafterna är i förhållande till varandra. Skalan är logaritmisk.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"290\" viewBox=\"0 0 480 290\" role=\"img\" aria-label=\"Stapeldiagram med logaritmisk skala över de fyra krafternas relativa styrka. Stapel A har styrkan 1, B ungefär 10 upphöjt till minus 2, C ungefär 10 upphöjt till minus 6 och D ungefär 10 upphöjt till minus 38.\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"80\" y1=\"40\" x2=\"80\" y2=\"250\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"80\" y1=\"250\" x2=\"450\" y2=\"250\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"76\" y1=\"50.0\" x2=\"450\" y2=\"50.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><line x1=\"76\" y1=\"100.0\" x2=\"450\" y2=\"100.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10<tspan dy=\"−6\" font−size=\"10\">−10</tspan></text><line x1=\"76\" y1=\"150.0\" x2=\"450\" y2=\"150.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10<tspan dy=\"−6\" font−size=\"10\">−20</tspan></text><line x1=\"76\" y1=\"200.0\" x2=\"450\" y2=\"200.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10<tspan dy=\"−6\" font−size=\"10\">−30</tspan></text><line x1=\"76\" y1=\"250.0\" x2=\"450\" y2=\"250.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10<tspan dy=\"−6\" font−size=\"10\">−40</tspan></text><rect x=\"120\" y=\"50.0\" width=\"50\" height=\"200.0\" fill=\"#216d87\"/><text x=\"145.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><rect x=\"205\" y=\"60.0\" width=\"50\" height=\"190.0\" fill=\"#3f8fb0\"/><text x=\"230.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><rect x=\"290\" y=\"80.0\" width=\"50\" height=\"170.0\" fill=\"#7fb3c9\"/><text x=\"315.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><rect x=\"375\" y=\"240.0\" width=\"50\" height=\"10.0\" fill=\"#c2410c\"/><text x=\"400.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"265.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">Relativ styrka mellan två protoner på kort avstånd</text></svg></div><p>Vilken stapel visar gravitationen?</p><p>Markera det korrekta alternativet.</p>",
+  "t": "<p>Diagrammet visar ungefär hur starka de fyra fundamentala krafterna är i förhållande till varandra. Skalan är logaritmisk.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"290\" viewBox=\"0 0 480 290\" role=\"img\" aria-label=\"Stapeldiagram med logaritmisk skala över de fyra krafternas relativa styrka. Stapel A har styrkan 1, B ungefär 10 upphöjt till minus 2, C ungefär 10 upphöjt till minus 6 och D ungefär 10 upphöjt till minus 38.\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"80\" y1=\"40\" x2=\"80\" y2=\"250\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"80\" y1=\"250\" x2=\"450\" y2=\"250\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"76\" y1=\"50.0\" x2=\"450\" y2=\"50.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><line x1=\"76\" y1=\"100.0\" x2=\"450\" y2=\"100.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10<tspan dy=\"−6\" font−size=\"10\">−10</tspan></text><line x1=\"76\" y1=\"150.0\" x2=\"450\" y2=\"150.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10<tspan dy=\"−6\" font−size=\"10\">−20</tspan></text><line x1=\"76\" y1=\"200.0\" x2=\"450\" y2=\"200.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10<tspan dy=\"−6\" font−size=\"10\">−30</tspan></text><line x1=\"76\" y1=\"250.0\" x2=\"450\" y2=\"250.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10<tspan dy=\"−6\" font−size=\"10\">−40</tspan></text><rect x=\"120\" y=\"50.0\" width=\"50\" height=\"200.0\" fill=\"#216d87\"/><text x=\"145.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><rect x=\"205\" y=\"60.0\" width=\"50\" height=\"190.0\" fill=\"#3f8fb0\"/><text x=\"230.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><rect x=\"290\" y=\"80.0\" width=\"50\" height=\"170.0\" fill=\"#7fb3c9\"/><text x=\"315.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><rect x=\"375\" y=\"240.0\" width=\"50\" height=\"10.0\" fill=\"#c2410c\"/><text x=\"400.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"265.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">Relativ styrka mellan två protoner på kort avstånd</text></svg></div><p>Vilken stapel visar gravitationen?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gravitationen är den överlägset svagaste kraften, ungefär 10⁻³⁸ gånger den starka kraften. Det är den lägsta stapeln, D.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">A är den starka kraften, B den elektromagnetiska och C den svaga.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Stapel D.</p></div>",
   "familj": "De fyra fundamentala krafterna",
   "formaga": [
@@ -201496,7 +201556,8 @@ window.BANK = [
   "niva": "E",
   "typ": "spårämne inuti kroppen",
   "poang": "(1/0/0)",
-  "t": "<p>Vilken bild visar en undersökning där patienten har fått ett radioaktivt spårämne? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 240\" role=\"img\" aria-label=\"Bild A: strålkälla utanför patienten och detektor på andra sidan. Bild B: strålkälla inuti patienten och detektor utanför.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"240\" fill=\"white\"/><text x=\"120\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Bild A</text><text x=\"355\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Bild B</text><circle cx=\"120\" cy=\"77\" r=\"14\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"95\" y=\"94\" width=\"50\" height=\"80\" rx=\"12\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M105 174L100 201\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M135 174L140 201\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"345\" cy=\"77\" r=\"14\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"320\" y=\"94\" width=\"50\" height=\"80\" rx=\"12\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M330 174L325 201\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M360 174L365 201\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"18\" y=\"112\" width=\"32\" height=\"36\" rx=\"5\" fill=\"#dbeaf7\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"35\" y=\"173\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">källa</text><rect x=\"195\" y=\"91\" width=\"12\" height=\"100\" rx=\"0\" fill=\"#d8e2ec\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"197\" y=\"220\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">detektor</text><path d=\"M53 130L91 130\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M83.02 134.16L91 130L83.02 125.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M150 130L188 130\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M180.02 134.16L188 130L180.02 125.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><circle cx=\"345\" cy=\"130\" r=\"7\" fill=\"#dc8151\" stroke=\"#985027\" stroke-width=\"2\"/><text x=\"345\" y=\"156\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\">källa</text><path d=\"M358 130L422 130\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M414.02 134.16L422 130L414.02 125.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"430\" y=\"91\" width=\"12\" height=\"100\" rx=\"0\" fill=\"#d8e2ec\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"432\" y=\"220\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">detektor</text></svg></span>",
+  "t": "<p>Vilken bild visar en undersökning där patienten har fått ett radioaktivt spårämne?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 240\" role=\"img\" aria-label=\"Bild A: strålkälla utanför patienten och detektor på andra sidan. Bild B: strålkälla inuti patienten och detektor utanför.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"240\" fill=\"white\"/><text x=\"120\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Bild A</text><text x=\"355\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Bild B</text><circle cx=\"120\" cy=\"77\" r=\"14\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"95\" y=\"94\" width=\"50\" height=\"80\" rx=\"12\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M105 174L100 201\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M135 174L140 201\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"345\" cy=\"77\" r=\"14\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"320\" y=\"94\" width=\"50\" height=\"80\" rx=\"12\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M330 174L325 201\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M360 174L365 201\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"18\" y=\"112\" width=\"32\" height=\"36\" rx=\"5\" fill=\"#dbeaf7\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"35\" y=\"173\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">källa</text><rect x=\"195\" y=\"91\" width=\"12\" height=\"100\" rx=\"0\" fill=\"#d8e2ec\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"197\" y=\"220\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">detektor</text><path d=\"M53 130L91 130\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M83.02 134.16L91 130L83.02 125.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M150 130L188 130\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M180.02 134.16L188 130L180.02 125.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><circle cx=\"345\" cy=\"130\" r=\"7\" fill=\"#dc8151\" stroke=\"#985027\" stroke-width=\"2\"/><text x=\"345\" y=\"156\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\">källa</text><path d=\"M358 130L422 130\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M414.02 134.16L422 130L414.02 125.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"430\" y=\"91\" width=\"12\" height=\"100\" rx=\"0\" fill=\"#d8e2ec\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"432\" y=\"220\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">detektor</text></svg></span>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2\"><p><strong>Bild B.</strong> Spårämnet finns inne i kroppen. En del av strålningen tar sig ut och registreras av en detektor.</p><p>I A kommer strålningen från en källa utanför kroppen, som vid en röntgenundersökning.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -201543,7 +201604,7 @@ window.BANK = [
   "niva": "E",
   "typ": "kontrast och minskad transmission",
   "poang": "(1/0/0)",
-  "t": "<p>Diagrammet visar hur många röntgenfotoner som når en detektor före och efter att ett kontrastmedel har tillförts. Hur många procent minskar antalet? (Svara i procent.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 285\" role=\"img\" aria-label=\"Antal registrerade fotoner: Före 800, Efter 300\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"285\" fill=\"white\"/><text x=\"65\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Antal registrerade fotoner</text><path d=\"M65 230.0L450 230.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M65 193.0L450 193.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"198.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">200</text><path d=\"M65 156.0L450 156.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">400</text><path d=\"M65 119.0L450 119.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"124.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">600</text><path d=\"M65 82.0L450 82.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"87.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">800</text><path d=\"M65 45.0L450 45.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">1000</text><path d=\"M65 45L65 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 230L450 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"119.25\" y=\"82.0\" width=\"84\" height=\"148.0\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"161.25\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">800</text><text x=\"161.25\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Före</text><rect x=\"311.75\" y=\"174.5\" width=\"84\" height=\"55.5\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"353.75\" y=\"164.5\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">300</text><text x=\"353.75\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Efter</text></svg></span>",
+  "t": "<p>Diagrammet visar hur många röntgenfotoner som når en detektor före och efter att ett kontrastmedel har tillförts. Hur många procent minskar antalet?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 285\" role=\"img\" aria-label=\"Antal registrerade fotoner: Före 800, Efter 300\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"285\" fill=\"white\"/><text x=\"65\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Antal registrerade fotoner</text><path d=\"M65 230.0L450 230.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M65 193.0L450 193.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"198.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">200</text><path d=\"M65 156.0L450 156.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">400</text><path d=\"M65 119.0L450 119.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"124.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">600</text><path d=\"M65 82.0L450 82.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"87.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">800</text><path d=\"M65 45.0L450 45.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">1000</text><path d=\"M65 45L65 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 230L450 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"119.25\" y=\"82.0\" width=\"84\" height=\"148.0\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"161.25\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">800</text><text x=\"161.25\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Före</text><rect x=\"311.75\" y=\"174.5\" width=\"84\" height=\"55.5\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"353.75\" y=\"164.5\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">300</text><text x=\"353.75\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Efter</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Antalet minskar med \\(800-300=500\\) fotoner. Minskningen jämförs med antalet före:</p>\\[\\frac{500}{800}\\cdot100=62{,}5\\,\\%.\\]<p><strong>Minskningen är 62,5 %.</strong> Kontrastmedlet gör att mindre röntgenstrålning når detektorn i detta område.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -201569,7 +201630,7 @@ window.BANK = [
   "niva": "E",
   "typ": "dosbidrag från fyra strålar",
   "poang": "(1/0/0)",
-  "t": "<p>En tumör bestrålas från fyra håll. Varje stråle ger dosen 0,8 Gy i tumören. Hur stor blir den sammanlagda dosen där?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Fyra strålar, numrerade 1 till 4, riktas mot samma tumör.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><ellipse cx=\"240\" cy=\"150\" rx=\"135\" ry=\"100\" fill=\"#eff4f7\" stroke=\"#596b7c\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"150\" r=\"25\" fill=\"#f8d6cc\" stroke=\"#b74738\" stroke-width=\"2\"/><text x=\"240\" y=\"155\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">tumör</text><path d=\"M35 150L209 150\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M201.02 154.16L209 150L201.02 145.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"45\" y=\"132\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M240 15L240 118\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M235.84 110.02L240 118L244.16 110.02\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"307\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M445 150L272 150\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M279.98 145.84L272 150L279.98 154.16\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"433\" y=\"132\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M240 285L240 182\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M244.16 189.98L240 182L235.84 189.98\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"306\" y=\"283\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">4</text></svg></span>",
+  "t": "<p>En tumör bestrålas från fyra håll. Varje stråle ger dosen 0,8 Gy i tumören. Hur stor blir den totala dosen där?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Fyra strålar, numrerade 1 till 4, riktas mot samma tumör.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><ellipse cx=\"240\" cy=\"150\" rx=\"135\" ry=\"100\" fill=\"#eff4f7\" stroke=\"#596b7c\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"150\" r=\"25\" fill=\"#f8d6cc\" stroke=\"#b74738\" stroke-width=\"2\"/><text x=\"240\" y=\"155\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">tumör</text><path d=\"M35 150L209 150\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M201.02 154.16L209 150L201.02 145.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"45\" y=\"132\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M240 15L240 118\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M235.84 110.02L240 118L244.16 110.02\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"307\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M445 150L272 150\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M279.98 145.84L272 150L279.98 154.16\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"433\" y=\"132\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M240 285L240 182\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M244.16 189.98L240 182L235.84 189.98\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"306\" y=\"283\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">4</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Alla fyra strålarna träffar tumören. Deras dosbidrag adderas:</p>\\[D=4\\cdot0{,}8=3{,}2\\ \\mathrm{Gy}.\\]<p><strong>Tumören får 3,2 Gy.</strong></p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -201595,7 +201656,7 @@ window.BANK = [
   "niva": "E",
   "typ": "halveringstid ur medicinsk aktivitetsgraf",
   "poang": "(1/0/0)",
-  "t": "<p>Diagrammet visar aktiviteten hos ett spårämne. Hur lång är halveringstiden? (Svara i h.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Aktiviteten är 160 MBq vid 0 h, 80 MBq vid 3 h, 40 MBq vid 6 h och 20 MBq vid 9 h.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><text x=\"65\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Aktivitet (MBq)</text><path d=\"M70 240.0L430 240.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M70 195.0L430 195.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">40</text><path d=\"M70 150.0L430 150.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">80</text><path d=\"M70 105.0L430 105.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">120</text><path d=\"M70 60.0L430 60.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">160</text><path d=\"M70 60L70 240\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"70\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M190 60L190 240\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"190\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M310 60L310 240\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"310\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">6</text><path d=\"M430 60L430 240\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"430\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">9</text><path d=\"M70 45L70 240\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M70 240L440 240\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"438\" y=\"291\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">Tid (h)</text><path d=\"M70.00 60.00 L73.00 63.09 L76.00 66.13 L79.00 69.12 L82.00 72.05 L85.00 74.94 L88.00 77.77 L91.00 80.56 L94.00 83.30 L97.00 85.99 L100.00 88.64 L103.00 91.24 L106.00 93.79 L109.00 96.31 L112.00 98.77 L115.00 101.20 L118.00 103.59 L121.00 105.93 L124.00 108.23 L127.00 110.50 L130.00 112.72 L133.00 114.91 L136.00 117.06 L139.00 119.17 L142.00 121.24 L145.00 123.28 L148.00 125.29 L151.00 127.26 L154.00 129.20 L157.00 131.10 L160.00 132.97 L163.00 134.81 L166.00 136.62 L169.00 138.39 L172.00 140.14 L175.00 141.85 L178.00 143.54 L181.00 145.20 L184.00 146.83 L187.00 148.43 L190.00 150.00 L193.00 151.55 L196.00 153.07 L199.00 154.56 L202.00 156.03 L205.00 157.47 L208.00 158.89 L211.00 160.28 L214.00 161.65 L217.00 163.00 L220.00 164.32 L223.00 165.62 L226.00 166.90 L229.00 168.15 L232.00 169.39 L235.00 170.60 L238.00 171.79 L241.00 172.96 L244.00 174.12 L247.00 175.25 L250.00 176.36 L253.00 177.45 L256.00 178.53 L259.00 179.58 L262.00 180.62 L265.00 181.64 L268.00 182.64 L271.00 183.63 L274.00 184.60 L277.00 185.55 L280.00 186.49 L283.00 187.41 L286.00 188.31 L289.00 189.20 L292.00 190.07 L295.00 190.93 L298.00 191.77 L301.00 192.60 L304.00 193.41 L307.00 194.21 L310.00 195.00 L313.00 195.77 L316.00 196.53 L319.00 197.28 L322.00 198.01 L325.00 198.73 L328.00 199.44 L331.00 200.14 L334.00 200.83 L337.00 201.50 L340.00 202.16 L343.00 202.81 L346.00 203.45 L349.00 204.08 L352.00 204.69 L355.00 205.30 L358.00 205.90 L361.00 206.48 L364.00 207.06 L367.00 207.62 L370.00 208.18 L373.00 208.73 L376.00 209.26 L379.00 209.79 L382.00 210.31 L385.00 210.82 L388.00 211.32 L391.00 211.82 L394.00 212.30 L397.00 212.78 L400.00 213.24 L403.00 213.70 L406.00 214.15 L409.00 214.60 L412.00 215.03 L415.00 215.46 L418.00 215.89 L421.00 216.30 L424.00 216.71 L427.00 217.11 L430.00 217.50\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><circle cx=\"190\" cy=\"150\" r=\"4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/></svg></span>",
+  "t": "<p>Diagrammet visar aktiviteten hos ett spårämne. Hur lång är halveringstiden?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Aktiviteten är 160 MBq vid 0 h, 80 MBq vid 3 h, 40 MBq vid 6 h och 20 MBq vid 9 h.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><text x=\"65\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Aktivitet (MBq)</text><path d=\"M70 240.0L430 240.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M70 195.0L430 195.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">40</text><path d=\"M70 150.0L430 150.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">80</text><path d=\"M70 105.0L430 105.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">120</text><path d=\"M70 60.0L430 60.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">160</text><path d=\"M70 60L70 240\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"70\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M190 60L190 240\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"190\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M310 60L310 240\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"310\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">6</text><path d=\"M430 60L430 240\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"430\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">9</text><path d=\"M70 45L70 240\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M70 240L440 240\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"438\" y=\"291\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">Tid (h)</text><path d=\"M70.00 60.00 L73.00 63.09 L76.00 66.13 L79.00 69.12 L82.00 72.05 L85.00 74.94 L88.00 77.77 L91.00 80.56 L94.00 83.30 L97.00 85.99 L100.00 88.64 L103.00 91.24 L106.00 93.79 L109.00 96.31 L112.00 98.77 L115.00 101.20 L118.00 103.59 L121.00 105.93 L124.00 108.23 L127.00 110.50 L130.00 112.72 L133.00 114.91 L136.00 117.06 L139.00 119.17 L142.00 121.24 L145.00 123.28 L148.00 125.29 L151.00 127.26 L154.00 129.20 L157.00 131.10 L160.00 132.97 L163.00 134.81 L166.00 136.62 L169.00 138.39 L172.00 140.14 L175.00 141.85 L178.00 143.54 L181.00 145.20 L184.00 146.83 L187.00 148.43 L190.00 150.00 L193.00 151.55 L196.00 153.07 L199.00 154.56 L202.00 156.03 L205.00 157.47 L208.00 158.89 L211.00 160.28 L214.00 161.65 L217.00 163.00 L220.00 164.32 L223.00 165.62 L226.00 166.90 L229.00 168.15 L232.00 169.39 L235.00 170.60 L238.00 171.79 L241.00 172.96 L244.00 174.12 L247.00 175.25 L250.00 176.36 L253.00 177.45 L256.00 178.53 L259.00 179.58 L262.00 180.62 L265.00 181.64 L268.00 182.64 L271.00 183.63 L274.00 184.60 L277.00 185.55 L280.00 186.49 L283.00 187.41 L286.00 188.31 L289.00 189.20 L292.00 190.07 L295.00 190.93 L298.00 191.77 L301.00 192.60 L304.00 193.41 L307.00 194.21 L310.00 195.00 L313.00 195.77 L316.00 196.53 L319.00 197.28 L322.00 198.01 L325.00 198.73 L328.00 199.44 L331.00 200.14 L334.00 200.83 L337.00 201.50 L340.00 202.16 L343.00 202.81 L346.00 203.45 L349.00 204.08 L352.00 204.69 L355.00 205.30 L358.00 205.90 L361.00 206.48 L364.00 207.06 L367.00 207.62 L370.00 208.18 L373.00 208.73 L376.00 209.26 L379.00 209.79 L382.00 210.31 L385.00 210.82 L388.00 211.32 L391.00 211.82 L394.00 212.30 L397.00 212.78 L400.00 213.24 L403.00 213.70 L406.00 214.15 L409.00 214.60 L412.00 215.03 L415.00 215.46 L418.00 215.89 L421.00 216.30 L424.00 216.71 L427.00 217.11 L430.00 217.50\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><circle cx=\"190\" cy=\"150\" r=\"4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Startaktiviteten är 160 MBq. Hälften är 80 MBq.</p><p>Kurvan når 80 MBq efter 3 h. <strong>Halveringstiden är därför 3 h.</strong> Samma tid går mellan 80 och 40 MBq.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -201621,7 +201682,7 @@ window.BANK = [
   "niva": "E",
   "typ": "startaktivitet inför transport",
   "poang": "(1/0/0)",
-  "t": "<p>Ett parti fluor-18 ska ha aktiviteten 180 MBq när det kommer fram efter 220 min. Halveringstiden är 110 min. Hur stor ska aktiviteten vara från början? Räkna bara med radioaktivt sönderfall. (Svara i MBq.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 185\" role=\"img\" aria-label=\"Ett preparat lämnar klockan 08:00 och kommer fram 11:40 efter 220 min. Startaktivitet okänd, slutaktivitet 180 MBq.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"185\" fill=\"white\"/><rect x=\"38\" y=\"61\" width=\"63\" height=\"75\" rx=\"9\" fill=\"#e4edf5\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"53\" y=\"48\" width=\"33\" height=\"13\" rx=\"0\" fill=\"#c5d4e0\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"70\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">? MBq</text><text x=\"70\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">08:00</text><rect x=\"379\" y=\"61\" width=\"63\" height=\"75\" rx=\"9\" fill=\"#e4edf5\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"394\" y=\"48\" width=\"33\" height=\"13\" rx=\"0\" fill=\"#c5d4e0\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"410\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">180 MBq</text><text x=\"410\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">11:40</text><path d=\"M125 96L355 96\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M347.02 100.16L355 96L347.02 91.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"240\" y=\"76\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">220 min</text></svg></span>",
+  "t": "<p>Ett parti fluor-18 ska ha aktiviteten 180 MBq när det kommer fram efter 220 min. Halveringstiden är 110 min. Hur stor ska aktiviteten vara från början?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 185\" role=\"img\" aria-label=\"Ett preparat lämnar klockan 08:00 och kommer fram 11:40 efter 220 min. Startaktivitet okänd, slutaktivitet 180 MBq.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"185\" fill=\"white\"/><rect x=\"38\" y=\"61\" width=\"63\" height=\"75\" rx=\"9\" fill=\"#e4edf5\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"53\" y=\"48\" width=\"33\" height=\"13\" rx=\"0\" fill=\"#c5d4e0\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"70\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">? MBq</text><text x=\"70\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">08:00</text><rect x=\"379\" y=\"61\" width=\"63\" height=\"75\" rx=\"9\" fill=\"#e4edf5\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"394\" y=\"48\" width=\"33\" height=\"13\" rx=\"0\" fill=\"#c5d4e0\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"410\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">180 MBq</text><text x=\"410\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">11:40</text><path d=\"M125 96L355 96\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M347.02 100.16L355 96L347.02 91.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"240\" y=\"76\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">220 min</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Transporten tar \\(220/110=2\\) halveringstider. Då återstår \\(1/4\\) av startaktiviteten.</p><p>För att en fjärdedel ska vara 180 MBq måste startaktiviteten vara</p>\\[A_0=4\\cdot180=720\\ \\mathrm{MBq}.\\]<p><strong>Startaktiviteten ska vara 720 MBq.</strong></p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -201647,7 +201708,7 @@ window.BANK = [
   "niva": "E",
   "typ": "bakgrund i kamerans mätning",
   "poang": "(1/0/0)",
-  "t": "<p>Kameran registrerar 180 pulser på 30 s med spårämnet på plats. Utan spårämnet registreras i genomsnitt 60 pulser på samma tid. Hur många av de 180 pulserna uppskattas komma från spårämnet? (Svara med ett antal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 285\" role=\"img\" aria-label=\"Antal pulser under 30 s: Med spårämne 180, Utan spårämne 60\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"285\" fill=\"white\"/><text x=\"65\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Antal pulser under 30 s</text><path d=\"M65 230.0L450 230.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M65 183.75L450 183.75\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"188.75\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">50</text><path d=\"M65 137.5L450 137.5\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"142.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">100</text><path d=\"M65 91.25L450 91.25\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"96.25\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">150</text><path d=\"M65 45.0L450 45.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">200</text><path d=\"M65 45L65 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 230L450 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"119.25\" y=\"63.5\" width=\"84\" height=\"166.5\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"161.25\" y=\"53.5\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">180</text><text x=\"161.25\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Med spårämne</text><rect x=\"311.75\" y=\"174.5\" width=\"84\" height=\"55.5\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"353.75\" y=\"164.5\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">60</text><text x=\"353.75\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Utan spårämne</text></svg></span>",
+  "t": "<p>Kameran registrerar 180 pulser på 30 s med spårämnet på plats. Utan spårämnet registreras i genomsnitt 60 pulser på samma tid. Hur många av de 180 pulserna uppskattas komma från spårämnet?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 285\" role=\"img\" aria-label=\"Antal pulser under 30 s: Med spårämne 180, Utan spårämne 60\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"285\" fill=\"white\"/><text x=\"65\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Antal pulser under 30 s</text><path d=\"M65 230.0L450 230.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M65 183.75L450 183.75\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"188.75\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">50</text><path d=\"M65 137.5L450 137.5\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"142.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">100</text><path d=\"M65 91.25L450 91.25\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"96.25\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">150</text><path d=\"M65 45.0L450 45.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">200</text><path d=\"M65 45L65 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 230L450 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"119.25\" y=\"63.5\" width=\"84\" height=\"166.5\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"161.25\" y=\"53.5\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">180</text><text x=\"161.25\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Med spårämne</text><rect x=\"311.75\" y=\"174.5\" width=\"84\" height=\"55.5\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"353.75\" y=\"164.5\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">60</text><text x=\"353.75\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Utan spårämne</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Mätningen med spårämnet innehåller även pulser från bakgrunden. Dra därför bort bakgrundens bidrag för samma mättid:</p>\\[180-60=120.\\]<p><strong>Ungefär 120 pulser kommer från spårämnet.</strong> Detta är antalet registrerade pulser, inte spårämnets aktivitet.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -201673,7 +201734,8 @@ window.BANK = [
   "niva": "E",
   "typ": "samma energi men olika stråldos",
   "poang": "(1/0/0)",
-  "t": "<p>Två vävnadsprover absorberar lika mycket strålningsenergi. Vilket prov får störst absorberad dos? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 225\" role=\"img\" aria-label=\"Prov A har massan 10 g och absorberar 2 mJ. Prov B har massan 20 g och absorberar 2 mJ.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"225\" fill=\"white\"/><text x=\"120\" y=\"26\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Prov A</text><text x=\"360\" y=\"26\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Prov B</text><text x=\"120\" y=\"66\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">2 mJ absorberas</text><text x=\"360\" y=\"66\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">2 mJ absorberas</text><path d=\"M120 83L120 119\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M115.84 111.02L120 119L124.16 111.02\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M360 83L360 119\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M355.84 111.02L360 119L364.16 111.02\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"80\" y=\"130\" width=\"80\" height=\"65\" rx=\"5\" fill=\"#e6eff7\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"285\" y=\"130\" width=\"150\" height=\"65\" rx=\"5\" fill=\"#e6eff7\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"120\" y=\"170\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">10 g</text><text x=\"360\" y=\"170\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">20 g</text></svg></span>",
+  "t": "<p>Två vävnadsprover absorberar lika mycket strålningsenergi. Vilket prov får störst absorberad dos?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 225\" role=\"img\" aria-label=\"Prov A har massan 10 g och absorberar 2 mJ. Prov B har massan 20 g och absorberar 2 mJ.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"225\" fill=\"white\"/><text x=\"120\" y=\"26\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Prov A</text><text x=\"360\" y=\"26\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Prov B</text><text x=\"120\" y=\"66\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">2 mJ absorberas</text><text x=\"360\" y=\"66\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">2 mJ absorberas</text><path d=\"M120 83L120 119\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M115.84 111.02L120 119L124.16 111.02\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M360 83L360 119\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M355.84 111.02L360 119L364.16 111.02\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"80\" y=\"130\" width=\"80\" height=\"65\" rx=\"5\" fill=\"#e6eff7\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"285\" y=\"130\" width=\"150\" height=\"65\" rx=\"5\" fill=\"#e6eff7\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"120\" y=\"170\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">10 g</text><text x=\"360\" y=\"170\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">20 g</text></svg></span>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2\"><p><strong>Prov A får störst dos.</strong> Dosen är absorberad energi per kilogram.</p>\\[D_A=\\frac{0{,}002}{0{,}010}=0{,}20\\ \\mathrm{Gy},\\qquad D_B=\\frac{0{,}002}{0{,}020}=0{,}10\\ \\mathrm{Gy}.\\]<p>Samma energi i halva massan ger dubbelt så stor dos.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -201720,7 +201782,8 @@ window.BANK = [
   "niva": "C",
   "typ": "välja halveringstid med två krav",
   "poang": "(0/1/0)",
-  "t": "<p>Tre spårämnen har halveringstiderna i tabellen. Efter 2 h ska minst 25 % av startaktiviteten finnas kvar. Efter 24 h ska högst 1 % finnas kvar. Vilket ämne uppfyller båda kraven? Räkna bara med radioaktivt sönderfall. (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 240\" role=\"img\" aria-label=\"Tabell: ämne A halveringstid 20 min, B 2 h och C 10 dygn.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"240\" fill=\"white\"/><text x=\"105\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Ämne</text><text x=\"315\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Halveringstid</text><rect x=\"45\" y=\"52\" width=\"390\" height=\"52\" rx=\"4\" fill=\"#edf3f8\" stroke=\"#cbd7e3\" stroke-width=\"2\"/><text x=\"105\" y=\"85\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"315\" y=\"85\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">20 min</text><rect x=\"45\" y=\"109\" width=\"390\" height=\"52\" rx=\"4\" fill=\"white\" stroke=\"#cbd7e3\" stroke-width=\"2\"/><text x=\"105\" y=\"142\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">B</text><text x=\"315\" y=\"142\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">2 h</text><rect x=\"45\" y=\"166\" width=\"390\" height=\"52\" rx=\"4\" fill=\"#edf3f8\" stroke=\"#cbd7e3\" stroke-width=\"2\"/><text x=\"105\" y=\"199\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">C</text><text x=\"315\" y=\"199\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">10 dygn</text></svg></span>",
+  "t": "<p>Tre spårämnen har halveringstiderna i tabellen. Efter 2 h ska minst 25 % av startaktiviteten finnas kvar. Efter 24 h ska högst 1 % finnas kvar. Vilket ämne uppfyller båda kraven?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 240\" role=\"img\" aria-label=\"Tabell: ämne A halveringstid 20 min, B 2 h och C 10 dygn.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"240\" fill=\"white\"/><text x=\"105\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Ämne</text><text x=\"315\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Halveringstid</text><rect x=\"45\" y=\"52\" width=\"390\" height=\"52\" rx=\"4\" fill=\"#edf3f8\" stroke=\"#cbd7e3\" stroke-width=\"2\"/><text x=\"105\" y=\"85\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"315\" y=\"85\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">20 min</text><rect x=\"45\" y=\"109\" width=\"390\" height=\"52\" rx=\"4\" fill=\"white\" stroke=\"#cbd7e3\" stroke-width=\"2\"/><text x=\"105\" y=\"142\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">B</text><text x=\"315\" y=\"142\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">2 h</text><rect x=\"45\" y=\"166\" width=\"390\" height=\"52\" rx=\"4\" fill=\"#edf3f8\" stroke=\"#cbd7e3\" stroke-width=\"2\"/><text x=\"105\" y=\"199\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">C</text><text x=\"315\" y=\"199\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">10 dygn</text></svg></span>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2\"><p><strong>Ämne B uppfyller båda kraven.</strong> Efter 2 h har en halveringstid gått: 50 % finns kvar. Efter 24 h har tolv halveringstider gått:</p>\\[100\\cdot2^{-12}\\approx0{,}0244\\,\\%.\\]<p>A klarar inte det första kravet: efter sex halveringar återstår bara \\(100/64\\approx1{,}56\\,\\%\\).</p><p>C klarar inte det andra: efter ett dygn återstår \\(100\\cdot2^{-1/10}\\approx93{,}3\\,\\%\\).</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -201767,7 +201830,7 @@ window.BANK = [
   "niva": "E",
   "typ": "Elementarpartikel i en atommodell",
   "poang": "(1/0/0)",
-  "t": "<p>Vilken markerad del i atommodellen är en elementarpartikel? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"A pekar på elektronen, B på protonen, C på atomkärnan. D är hela atomen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><ellipse cx=\"240\" cy=\"150\" rx=\"140\" ry=\"100\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"150\" r=\"43\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"222\" cy=\"150\" r=\"15\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"222\" y=\"156\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><circle cx=\"258\" cy=\"150\" r=\"15\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"258\" y=\"156\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"380\" cy=\"150\" r=\"16\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"380\" y=\"156\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">e−</text><path d=\"M403 123L391 139\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"421\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">A</text><path d=\"M155 131L206 145\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"139\" y=\"128\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">B</text><path d=\"M240 79L240 107\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"67\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">C</text><text x=\"240\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">D = hela atomen</text><text x=\"240\" y=\"306\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">Förenklad atommodell</text></svg></span>",
+  "t": "<p>Vilken markerad del i atommodellen är en elementarpartikel?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"A pekar på elektronen, B på protonen, C på atomkärnan. D är hela atomen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><ellipse cx=\"240\" cy=\"150\" rx=\"140\" ry=\"100\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"150\" r=\"43\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"222\" cy=\"150\" r=\"15\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"222\" y=\"156\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><circle cx=\"258\" cy=\"150\" r=\"15\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"258\" y=\"156\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"380\" cy=\"150\" r=\"16\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"380\" y=\"156\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">e−</text><path d=\"M403 123L391 139\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"421\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">A</text><path d=\"M155 131L206 145\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"139\" y=\"128\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">B</text><path d=\"M240 79L240 107\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"67\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">C</text><text x=\"240\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">D = hela atomen</text><text x=\"240\" y=\"306\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">Förenklad atommodell</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p><strong>A, elektronen, är en elementarpartikel.</strong> Den är inte uppbyggd av mindre partiklar enligt standardmodellen.</p><p>Protonen består av kvarkar. Atomkärnan består här av en proton och en neutron, och hela atomen innehåller dessutom en elektron.</p></div>",
   "familj": "Elementarpartiklar och kvarkar",
   "formaga": [
@@ -201814,7 +201877,8 @@ window.BANK = [
   "niva": "E",
   "typ": "Neutronens kvarkinnehåll",
   "poang": "(1/0/0)",
-  "t": "<p>Vilken bild visar kvarkinnehållet i en neutron? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 225\" role=\"img\" aria-label=\"Bild A: u, u, d. Bild B: u, d, d.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"225\" fill=\"white\"/><text x=\"130\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">Bild A</text><text x=\"350\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">Bild B</text><circle cx=\"130\" cy=\"133\" r=\"59\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"107\" cy=\"119\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"107\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"153\" cy=\"119\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"153\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"130\" cy=\"160\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"130\" y=\"166\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><circle cx=\"350\" cy=\"133\" r=\"59\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"327\" cy=\"119\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"327\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"373\" cy=\"119\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"373\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><circle cx=\"350\" cy=\"160\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"350\" y=\"166\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text></svg></span>",
+  "t": "<p>Vilken bild visar kvarkinnehållet i en neutron?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 225\" role=\"img\" aria-label=\"Bild A: u, u, d. Bild B: u, d, d.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"225\" fill=\"white\"/><text x=\"130\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">Bild A</text><text x=\"350\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">Bild B</text><circle cx=\"130\" cy=\"133\" r=\"59\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"107\" cy=\"119\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"107\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"153\" cy=\"119\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"153\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"130\" cy=\"160\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"130\" y=\"166\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><circle cx=\"350\" cy=\"133\" r=\"59\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"327\" cy=\"119\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"327\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"373\" cy=\"119\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"373\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><circle cx=\"350\" cy=\"160\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"350\" y=\"166\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text></svg></span>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2\"><p><strong>Bild B.</strong> En neutron innehåller en u-kvark och två d-kvarkar: udd.</p><p>Deras laddningar tar ut varandra: \\(\\frac{2}{3}e-\\frac{1}{3}e-\\frac{1}{3}e=0\\). Bild A visar protonens kvarkinnehåll, uud.</p></div>",
   "familj": "Elementarpartiklar och kvarkar",
   "formaga": [
@@ -201861,7 +201925,8 @@ window.BANK = [
   "niva": "E",
   "typ": "Kvarkbyte vid beta-minus-sönderfall",
   "poang": "(1/0/0)",
-  "t": "<p>En neutron omvandlas till en proton. En elektron och en antineutrino avges. Vilken förändring sker bland kvarkarna i neutronen? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 250\" role=\"img\" aria-label=\"Neutron med udd omvandlas till proton med uud. En elektron och en antineutrino avges.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"250\" fill=\"white\"/><text x=\"100\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Neutron</text><text x=\"310\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Proton</text><circle cx=\"100\" cy=\"120\" r=\"59\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"77\" cy=\"106\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"77\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"123\" cy=\"106\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"123\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><circle cx=\"100\" cy=\"147\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"100\" y=\"153\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><circle cx=\"310\" cy=\"120\" r=\"59\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"287\" cy=\"106\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"287\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"333\" cy=\"106\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"333\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"310\" cy=\"147\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"310\" y=\"153\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><path d=\"M171 118L238 118\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M230.02 122.16L238 118L230.02 113.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"240\" y=\"222\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">En elektron och en antineutrino avges.</text></svg></span>",
+  "t": "<p>En neutron omvandlas till en proton. En elektron och en antineutrino avges. Vilken förändring sker bland kvarkarna i neutronen?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 250\" role=\"img\" aria-label=\"Neutron med udd omvandlas till proton med uud. En elektron och en antineutrino avges.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"250\" fill=\"white\"/><text x=\"100\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Neutron</text><text x=\"310\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Proton</text><circle cx=\"100\" cy=\"120\" r=\"59\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"77\" cy=\"106\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"77\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"123\" cy=\"106\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"123\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><circle cx=\"100\" cy=\"147\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"100\" y=\"153\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><circle cx=\"310\" cy=\"120\" r=\"59\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"287\" cy=\"106\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"287\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"333\" cy=\"106\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"333\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"310\" cy=\"147\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"310\" y=\"153\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><path d=\"M171 118L238 118\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M230.02 122.16L238 118L230.02 113.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"240\" y=\"222\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">En elektron och en antineutrino avges.</text></svg></span>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2\"><p><strong>En d-kvark omvandlas till en u-kvark.</strong> Då ändras udd till uud.</p><p>Nukleonens laddning ökar från 0 till +e. Den avgivna elektronen har laddningen −e, så den sammanlagda laddningen är fortfarande noll. Antineutrinon är oladdad.</p></div>",
   "familj": "Kvarkarnas laddning",
   "formaga": [
@@ -201908,7 +201973,8 @@ window.BANK = [
   "niva": "E",
   "typ": "Neutral antipartikel",
   "poang": "(1/0/0)",
-  "t": "<p>Figuren visar kvarkinnehållet i en neutron och en antineutron. Vilket påstående om antineutronen stämmer? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 245\" role=\"img\" aria-label=\"Neutron: u d d. Antineutron: anti-u anti-d anti-d.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"245\" fill=\"white\"/><rect x=\"20\" y=\"55\" width=\"200\" height=\"160\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"260\" y=\"55\" width=\"200\" height=\"160\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"120\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">Neutron</text><text x=\"360\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">Antineutron</text><text x=\"120\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">u</text><text x=\"120\" y=\"140\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">d</text><text x=\"120\" y=\"185\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">d</text><text x=\"360\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">anti-u</text><text x=\"360\" y=\"140\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">anti-d</text><text x=\"360\" y=\"185\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">anti-d</text></svg></span>",
+  "t": "<p>Figuren visar kvarkinnehållet i en neutron och en antineutron. Vilket påstående om antineutronen stämmer?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 245\" role=\"img\" aria-label=\"Neutron: u d d. Antineutron: anti-u anti-d anti-d.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"245\" fill=\"white\"/><rect x=\"20\" y=\"55\" width=\"200\" height=\"160\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"260\" y=\"55\" width=\"200\" height=\"160\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"120\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">Neutron</text><text x=\"360\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">Antineutron</text><text x=\"120\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">u</text><text x=\"120\" y=\"140\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">d</text><text x=\"120\" y=\"185\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">d</text><text x=\"360\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">anti-u</text><text x=\"360\" y=\"140\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">anti-d</text><text x=\"360\" y=\"185\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">anti-d</text></svg></span>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2\"><p><strong>Antineutronen är oladdad och består av antikvarkar.</strong> Antikvarkarna har motsatta laddningar mot motsvarande kvarkar.</p><p>Summan blir \\(-\\frac{2}{3}e+\\frac{1}{3}e+\\frac{1}{3}e=0\\). Noll laddning betyder alltså inte att neutronen och antineutronen är samma partikel.</p></div>",
   "familj": "Elementarpartiklar och kvarkar",
   "formaga": [
@@ -201955,7 +202021,7 @@ window.BANK = [
   "niva": "E",
   "typ": "Räkna kvarkar i en atomkärna",
   "poang": "(1/0/0)",
-  "t": "<p>Figuren visar en förenklad modell av en atom. Hur många kvarkar finns sammanlagt i atomkärnan? (Svara med ett heltal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Atomkärnan innehåller tre protoner och fyra neutroner. Tre elektroner finns utanför kärnan.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><ellipse cx=\"240\" cy=\"150\" rx=\"173\" ry=\"112\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"2\"/><ellipse cx=\"240\" cy=\"150\" rx=\"109\" ry=\"62\" fill=\"#f1f5fa\" stroke=\"#94a7b9\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"125\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"131\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><circle cx=\"240\" cy=\"125\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"131\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><circle cx=\"280\" cy=\"125\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"280\" y=\"131\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><circle cx=\"180\" cy=\"170\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"180\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"220\" cy=\"170\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"220\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"260\" cy=\"170\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"260\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"300\" cy=\"170\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"300\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"413.0\" cy=\"150.0\" r=\"16\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"413.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">e−</text><circle cx=\"153.5\" cy=\"246.99\" r=\"16\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"153.5\" y=\"252.99\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">e−</text><circle cx=\"153.5\" cy=\"53.01\" r=\"16\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"153.5\" y=\"59.01\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">e−</text><text x=\"240\" y=\"299\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p = proton     n = neutron</text></svg></span>",
+  "t": "<p>Figuren visar en förenklad modell av en atom. Hur många kvarkar finns sammanlagt i atomkärnan?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Atomkärnan innehåller tre protoner och fyra neutroner. Tre elektroner finns utanför kärnan.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><ellipse cx=\"240\" cy=\"150\" rx=\"173\" ry=\"112\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"2\"/><ellipse cx=\"240\" cy=\"150\" rx=\"109\" ry=\"62\" fill=\"#f1f5fa\" stroke=\"#94a7b9\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"125\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"131\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><circle cx=\"240\" cy=\"125\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"131\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><circle cx=\"280\" cy=\"125\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"280\" y=\"131\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><circle cx=\"180\" cy=\"170\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"180\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"220\" cy=\"170\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"220\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"260\" cy=\"170\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"260\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"300\" cy=\"170\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"300\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"413.0\" cy=\"150.0\" r=\"16\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"413.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">e−</text><circle cx=\"153.5\" cy=\"246.99\" r=\"16\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"153.5\" y=\"252.99\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">e−</text><circle cx=\"153.5\" cy=\"53.01\" r=\"16\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"153.5\" y=\"59.01\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">e−</text><text x=\"240\" y=\"299\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p = proton     n = neutron</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Kärnan innehåller 3 protoner och 4 neutroner, alltså \\(3+4=7\\) partiklar.</p><p>Varje proton och neutron innehåller tre kvarkar. Antalet blir därför \\(7\\cdot3=\\mathbf{21}\\).</p><p>Elektronerna utanför kärnan består inte av kvarkar och räknas inte med.</p></div>",
   "familj": "Elementarpartiklar och kvarkar",
   "formaga": [
@@ -201981,7 +202047,8 @@ window.BANK = [
   "niva": "E",
   "typ": "Laddning avgör inte om en partikel är elementar",
   "poang": "(1/0/0)",
-  "t": "<p>En elev säger: ”Alla oladdade partiklar är elementarpartiklar.” Vilken partikel i figuren visar att det är fel? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 230\" role=\"img\" aria-label=\"Neutron, foton och neutrino har alla laddningen noll.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"230\" fill=\"white\"/><rect x=\"20\" y=\"50\" width=\"130\" height=\"150\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"85\" y=\"32\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Neutron</text><circle cx=\"85\" cy=\"105\" r=\"27\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"85\" y=\"113\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">n</text><text x=\"85\" y=\"175\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Laddning 0</text><rect x=\"175\" y=\"50\" width=\"130\" height=\"150\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"32\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Foton</text><circle cx=\"240\" cy=\"105\" r=\"27\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"113\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">γ</text><text x=\"240\" y=\"175\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Laddning 0</text><rect x=\"330\" y=\"50\" width=\"130\" height=\"150\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"395\" y=\"32\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Neutrino</text><circle cx=\"395\" cy=\"105\" r=\"27\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"395\" y=\"113\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">ν</text><text x=\"395\" y=\"175\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Laddning 0</text></svg></span>",
+  "t": "<p>Saga säger: ”Alla oladdade partiklar är elementarpartiklar.” Vilken partikel i figuren visar att det är fel?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 230\" role=\"img\" aria-label=\"Neutron, foton och neutrino har alla laddningen noll.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"230\" fill=\"white\"/><rect x=\"20\" y=\"50\" width=\"130\" height=\"150\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"85\" y=\"32\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Neutron</text><circle cx=\"85\" cy=\"105\" r=\"27\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"85\" y=\"113\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">n</text><text x=\"85\" y=\"175\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Laddning 0</text><rect x=\"175\" y=\"50\" width=\"130\" height=\"150\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"32\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Foton</text><circle cx=\"240\" cy=\"105\" r=\"27\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"113\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">γ</text><text x=\"240\" y=\"175\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Laddning 0</text><rect x=\"330\" y=\"50\" width=\"130\" height=\"150\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"395\" y=\"32\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Neutrino</text><circle cx=\"395\" cy=\"105\" r=\"27\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"395\" y=\"113\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">ν</text><text x=\"395\" y=\"175\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Laddning 0</text></svg></span>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2\"><p><strong>Neutronen.</strong> Den är oladdad men består av tre kvarkar. Den är därför ingen elementarpartikel.</p><p>Fotonen och neutrinon är elementarpartiklar enligt standardmodellen. Laddningen ensam avgör alltså inte om en partikel är elementar.</p></div>",
   "familj": "Elementarpartiklar och kvarkar",
   "formaga": [
@@ -202028,7 +202095,8 @@ window.BANK = [
   "niva": "E",
   "typ": "Bevara laddning vid beta-plus-sönderfall",
   "poang": "(1/0/0)",
-  "t": "<p>En proton i en atomkärna omvandlas till en neutron. Samtidigt avges partikeln X och en oladdad neutrino. Vilken partikel kan X vara? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 245\" role=\"img\" aria-label=\"I en atomkärna: proton blir neutron plus X plus neutrino.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"245\" fill=\"white\"/><text x=\"75\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"start\" fill=\"#243447\">I en atomkärna</text><circle cx=\"65\" cy=\"120\" r=\"27\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"65\" y=\"126\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><path d=\"M110 120L161 120\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M153.02 124.16L161 120L153.02 115.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><circle cx=\"210\" cy=\"120\" r=\"27\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"210\" y=\"126\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><text x=\"257\" y=\"129\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">+</text><circle cx=\"305\" cy=\"120\" r=\"27\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"305\" y=\"126\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">X</text><text x=\"351\" y=\"129\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">+</text><circle cx=\"404\" cy=\"120\" r=\"27\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"404\" y=\"126\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">ν</text><text x=\"305\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">okänd partikel</text><text x=\"404\" y=\"216\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">neutrino</text></svg></span>",
+  "t": "<p>En proton i en atomkärna omvandlas till en neutron. Samtidigt avges partikeln X och en oladdad neutrino. Vilken partikel kan X vara?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 245\" role=\"img\" aria-label=\"I en atomkärna: proton blir neutron plus X plus neutrino.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"245\" fill=\"white\"/><text x=\"75\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"start\" fill=\"#243447\">I en atomkärna</text><circle cx=\"65\" cy=\"120\" r=\"27\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"65\" y=\"126\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><path d=\"M110 120L161 120\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M153.02 124.16L161 120L153.02 115.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><circle cx=\"210\" cy=\"120\" r=\"27\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"210\" y=\"126\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><text x=\"257\" y=\"129\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">+</text><circle cx=\"305\" cy=\"120\" r=\"27\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"305\" y=\"126\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">X</text><text x=\"351\" y=\"129\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">+</text><circle cx=\"404\" cy=\"120\" r=\"27\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"404\" y=\"126\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">ν</text><text x=\"305\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">okänd partikel</text><text x=\"404\" y=\"216\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">neutrino</text></svg></span>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2\"><p>Laddningen måste vara lika stor före och efter omvandlingen.</p><p>Protonens laddning är +e. Neutronen och neutrinon är oladdade, så X måste bära hela laddningen +e.</p><p><strong>X är en positron</strong>, elektronens antipartikel med positiv laddning. Detta sker vid beta-plus-sönderfall i en atomkärna.</p></div>",
   "familj": "Elementarpartiklar och kvarkar",
   "formaga": [
@@ -202075,7 +202143,8 @@ window.BANK = [
   "niva": "C",
   "typ": "Laddning hos ett partikelpar",
   "poang": "(0/1/0)",
-  "t": "<p>Tabellen visar fyra partikelpar och deras kvarkinnehåll. Vilket par har den sammanlagda elektriska laddningen noll? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"A: uud och uud. B: udd och uud. C: uud och anti-u anti-u anti-d. D: udd och anti-u anti-u anti-d.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><rect x=\"15\" y=\"15\" width=\"450\" height=\"265\" rx=\"0\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"15\" y=\"15\" width=\"450\" height=\"45\" rx=\"0\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"50\" y=\"44\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Par</text><text x=\"160\" y=\"44\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Partikel 1</text><text x=\"345\" y=\"44\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Partikel 2</text><path d=\"M15 60L465 60\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"50\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"160\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">uud</text><text x=\"345\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">uud</text><path d=\"M15 115L465 115\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"50\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">B</text><text x=\"160\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">udd</text><text x=\"345\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">uud</text><path d=\"M15 170L465 170\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"50\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">C</text><text x=\"160\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">uud</text><text x=\"345\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">anti-u anti-u anti-d</text><path d=\"M15 225L465 225\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"50\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">D</text><text x=\"160\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">udd</text><text x=\"345\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">anti-u anti-u anti-d</text></svg></span>",
+  "t": "<p>Tabellen visar fyra partikelpar och deras kvarkinnehåll. Vilket par har den totala elektriska laddningen noll?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"A: uud och uud. B: udd och uud. C: uud och anti-u anti-u anti-d. D: udd och anti-u anti-u anti-d.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><rect x=\"15\" y=\"15\" width=\"450\" height=\"265\" rx=\"0\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"15\" y=\"15\" width=\"450\" height=\"45\" rx=\"0\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"50\" y=\"44\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Par</text><text x=\"160\" y=\"44\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Partikel 1</text><text x=\"345\" y=\"44\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Partikel 2</text><path d=\"M15 60L465 60\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"50\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"160\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">uud</text><text x=\"345\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">uud</text><path d=\"M15 115L465 115\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"50\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">B</text><text x=\"160\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">udd</text><text x=\"345\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">uud</text><path d=\"M15 170L465 170\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"50\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">C</text><text x=\"160\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">uud</text><text x=\"345\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">anti-u anti-u anti-d</text><path d=\"M15 225L465 225\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"50\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">D</text><text x=\"160\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">udd</text><text x=\"345\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">anti-u anti-u anti-d</text></svg></span>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2\"><p>För uud blir laddningen \\(\\frac23e+\\frac23e-\\frac13e=+e\\). För udd är summan 0.</p><p>Antikvarkar har motsatta laddningar. För anti-u anti-u anti-d blir summan \\(-\\frac23e-\\frac23e+\\frac13e=-e\\).</p><p><strong>Par C</strong> har därför \\(+e-e=0\\). De andra parens laddningar är A: +2e, B: +e och D: −e.</p></div>",
   "familj": "Kvarkarnas laddning",
   "formaga": [
@@ -213260,7 +213329,8 @@ window.BANK = [
   "niva": "E",
   "typ": "vad som startar en klyvning",
   "poang": "(1/0/0)",
-  "t": "<p>Vad krävs för att en uran-235-kärna ska klyvas i en kärnreaktor? (Välj ett alternativ.)</p>",
+  "t": "<p>Vad krävs för att en uran-235-kärna ska klyvas i en kärnreaktor?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnan fångar in en långsam neutron. Då blir den instabil och delas i två mindre kärnor och några neutroner.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Att kärnan fångar in en långsam neutron.</p></div>",
   "familj": "Fission och energiutvinning",
   "formaga": [
@@ -213359,7 +213429,8 @@ window.BANK = [
   "niva": "E",
   "typ": "kedjereaktion",
   "poang": "(1/0/0)",
-  "t": "<p>Varför kan klyvningen av uran-235 bli en kedjereaktion? (Välj ett alternativ.)</p>",
+  "t": "<p>Varför kan klyvningen av uran-235 bli en kedjereaktion?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje klyvning ger två eller tre nya neutroner. De kan i sin tur klyva nya urankärnor.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Varje klyvning frigör nya neutroner som kan klyva fler kärnor.</p></div>",
   "familj": "Fission och energiutvinning",
   "formaga": [
@@ -213406,7 +213477,8 @@ window.BANK = [
   "niva": "E",
   "typ": "moderatorns uppgift",
   "poang": "(1/0/0)",
-  "t": "<p>Vad har moderatorn, till exempel vatten, för uppgift i en kärnreaktor? (Välj ett alternativ.)</p>",
+  "t": "<p>Vad har moderatorn, till exempel vatten, för uppgift i en kärnreaktor?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutronerna från en klyvning är mycket snabba. Moderatorn bromsar dem, och långsamma neutroner fångas lättare in av uran-235.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Att bromsa neutronerna.</p></div>",
   "familj": "Fission och energiutvinning",
   "formaga": [
@@ -213453,7 +213525,8 @@ window.BANK = [
   "niva": "E",
   "typ": "styrstavar",
   "poang": "(1/0/0)",
-  "t": "<p>Vad händer när styrstavarna sänks längre ner i en kärnreaktor? (Välj ett alternativ.)</p>",
+  "t": "<p>Vad händer när styrstavarna sänks längre ner i en kärnreaktor?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Styrstavarna innehåller till exempel bor som fångar neutroner. Färre neutroner kan klyva uran, så antalet klyvningar per sekund minskar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Antalet klyvningar minskar.</p></div>",
   "familj": "Fission och energiutvinning",
   "formaga": [
@@ -213500,7 +213573,7 @@ window.BANK = [
   "niva": "E",
   "typ": "energi från många klyvningar",
   "poang": "(1/0/0)",
-  "t": "<p>Varje klyvning av uran-235 frigör 200 MeV. Hur mycket energi frigör 1 000 klyvningar? (Svara i GeV.)</p>",
+  "t": "<p>Varje klyvning av uran-235 frigör 200 MeV. Hur mycket energi frigör 1 000 klyvningar?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Multiplicera energin per klyvning med antalet klyvningar. 1 GeV = 1 000 MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=1000\\cdot200\\ \\mathrm{MeV}=200\\,000\\ \\mathrm{MeV}=200\\ \\mathrm{GeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 200 GeV.</p></div>",
   "familj": "Fission och energiutvinning",
   "formaga": [
@@ -213527,7 +213600,7 @@ window.BANK = [
   "niva": "E",
   "typ": "MeV till pJ",
   "poang": "(1/0/0)",
-  "t": "<p>En klyvning frigör 180 MeV. Hur stor är energin i pJ? (Svara i pJ.)</p>",
+  "t": "<p>En klyvning frigör 180 MeV. Hur stor är energin i pJ?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">1 eV = 1,602·10⁻¹⁹ J och 1 pJ = 10⁻¹² J.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=180\\cdot10^{6}\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm J=2{,}88\\cdot10^{-11}\\ \\mathrm J\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E\\approx28{,}8\\ \\mathrm{pJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 28,8 pJ.</p></div>",
   "familj": "Fission och energiutvinning",
   "formaga": [
@@ -213555,7 +213628,7 @@ window.BANK = [
   "niva": "E",
   "typ": "elektrisk effekt ur verkningsgrad",
   "poang": "(1/0/0)",
-  "t": "<p>En reaktor utvecklar värmeeffekten 3 000 MW. Verkningsgraden till el är 33 %. Hur stor elektrisk effekt ger kraftverket? (Svara i MW.)</p>",
+  "t": "<p>En reaktor utvecklar värmeeffekten 3 000 MW. Verkningsgraden till el är 33 %. Hur stor elektrisk effekt ger kraftverket?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska effekten är 33 % av värmeeffekten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=0{,}33\\cdot3000\\ \\mathrm{MW}=990\\ \\mathrm{MW}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 990 MW.</p></div>",
   "familj": "Fission och energiutvinning",
   "formaga": [
@@ -213582,7 +213655,7 @@ window.BANK = [
   "niva": "E",
   "typ": "energi ur massminskning",
   "poang": "(1/0/0)",
-  "t": "<p>Vid en klyvning minskar massan med 0,20 u. Hur mycket energi frigörs? (Svara i MeV.)</p>",
+  "t": "<p>Vid en klyvning minskar massan med 0,20 u. Hur mycket energi frigörs?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan 1 u motsvarar energin 931,5 MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}20\\cdot931{,}5\\ \\mathrm{MeV}=186{,}3\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 186,3 MeV.</p></div>",
   "familj": "Fission och energiutvinning",
   "formaga": [
@@ -213662,7 +213735,8 @@ window.BANK = [
   "niva": "E",
   "typ": "vilken partikel bildas",
   "poang": "(1/0/0)",
-  "t": "<p>I solen sker reaktionen \\[{}^{3}_{2}\\mathrm{He}+{}^{3}_{2}\\mathrm{He}\\rightarrow{}^{4}_{2}\\mathrm{He}+2X.\\] Vilken partikel är \\(X\\)? (Välj ett alternativ.)</p>",
+  "t": "<p>I solen sker reaktionen \\[{}^{3}_{2}\\mathrm{He}+{}^{3}_{2}\\mathrm{He}\\rightarrow{}^{4}_{2}\\mathrm{He}+2X.\\] Vilken partikel är \\(X\\)?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstal: \\(6=4+2A\\), så \\(A=1\\). Atomnummer: \\(4=2+2Z\\), så \\(Z=1\\). En partikel med masstal 1 och atomnummer 1 är en proton.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En proton.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -213710,7 +213784,8 @@ window.BANK = [
   "niva": "E",
   "typ": "var fusion sker",
   "poang": "(1/0/0)",
-  "t": "<p>Var sker fusion naturligt? (Välj ett alternativ.)</p>",
+  "t": "<p>Var sker fusion naturligt?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I stjärnornas inre är temperaturen och trycket så höga att lätta kärnor kan slås ihop.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> I stjärnornas inre.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -213757,7 +213832,8 @@ window.BANK = [
   "niva": "E",
   "typ": "vad väte blir i solen",
   "poang": "(1/0/0)",
-  "t": "<p>Vilket grundämne bildas när väte fusionerar i solen? (Välj ett alternativ.)</p>",
+  "t": "<p>Vilket grundämne bildas när väte fusionerar i solen?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I solen slås fyra vätekärnor (protoner) i flera steg ihop till en heliumkärna.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Helium.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -213804,7 +213880,7 @@ window.BANK = [
   "niva": "E",
   "typ": "energi ur liten massminskning",
   "poang": "(1/0/0)",
-  "t": "<p>Vid en fusionsreaktion minskar massan med 0,0034 u. Hur mycket energi frigörs? (Svara i MeV.)</p>",
+  "t": "<p>Vid en fusionsreaktion minskar massan med 0,0034 u. Hur mycket energi frigörs?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan 1 u motsvarar 931,5 MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}0034\\cdot931{,}5\\ \\mathrm{MeV}\\approx3{,}2\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,2 MeV.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -213832,7 +213908,7 @@ window.BANK = [
   "niva": "E",
   "typ": "E = mc² med milligram",
   "poang": "(1/0/0)",
-  "t": "<p>Vid fusion i en testreaktor omvandlas sammanlagt 2,0 mg massa till energi. Hur mycket energi frigörs? (Svara i GJ.)</p>",
+  "t": "<p>Vid fusion i en testreaktor omvandlas sammanlagt 2,0 mg massa till energi. Hur mycket energi frigörs?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(E=mc^2\\) med massan i kg: 2,0 mg = 2,0·10⁻⁶ kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=2{,}0\\cdot10^{-6}\\cdot(3{,}0\\cdot10^{8})^2\\ \\mathrm J=1{,}8\\cdot10^{11}\\ \\mathrm J=180\\ \\mathrm{GJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 180 GJ.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -213859,7 +213935,8 @@ window.BANK = [
   "niva": "E",
   "typ": "likhet mellan fission och fusion",
   "poang": "(1/0/0)",
-  "t": "<p>Vad har fission och fusion gemensamt? (Välj ett alternativ.)</p>",
+  "t": "<p>Vad har fission och fusion gemensamt?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I båda fallen har produkterna mindre massa än det man började med. Massminskningen motsvarar den energi som frigörs.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Massan minskar och energi frigörs.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -213906,7 +213983,7 @@ window.BANK = [
   "niva": "E",
   "typ": "energi från många D–T-reaktioner",
   "poang": "(1/0/0)",
-  "t": "<p>En D–T-reaktion frigör 17,6 MeV. Hur mycket energi frigör 2,0·10⁶ sådana reaktioner? (Svara i µJ.)</p>",
+  "t": "<p>En D–T-reaktion frigör 17,6 MeV. Hur mycket energi frigör 2,0·10⁶ sådana reaktioner?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gör om till joule med 1 eV = 1,602·10⁻¹⁹ J och multiplicera med antalet reaktioner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=2{,}0\\cdot10^{6}\\cdot17{,}6\\cdot10^{6}\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm J\\approx5{,}6\\cdot10^{-6}\\ \\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 5,6 µJ.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -213934,7 +214011,7 @@ window.BANK = [
   "niva": "E",
   "typ": "energi per nukleon",
   "poang": "(1/0/0)",
-  "t": "<p>En D–T-reaktion \\({}^{2}\\mathrm H+{}^{3}\\mathrm H\\) frigör 17,6 MeV. Hur mycket energi blir det per nukleon i bränslet? (Svara i MeV.)</p>",
+  "t": "<p>En D–T-reaktion \\({}^{2}\\mathrm H+{}^{3}\\mathrm H\\) frigör 17,6 MeV. Hur mycket energi blir det per nukleon i bränslet?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Deuterium har 2 nukleoner och tritium 3, sammanlagt 5.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{17{,}6}{5}\\ \\mathrm{MeV}\\approx3{,}5\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,5 MeV per nukleon.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -213962,7 +214039,8 @@ window.BANK = [
   "niva": "E",
   "typ": "svårt att bygga fusionsreaktor",
   "poang": "(1/0/0)",
-  "t": "<p>Varför är det svårt att bygga en fusionsreaktor som ger el? (Välj ett alternativ.)</p>",
+  "t": "<p>Varför är det svårt att bygga en fusionsreaktor som ger el?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnorna stöter bort varandra. För att de ska komma tillräckligt nära måste bränslet vara över hundra miljoner grader varmt, och det heta plasmat måste hållas på plats utan att röra väggarna.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bränslet måste vara extremt varmt och hållas inneslutet.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -214009,7 +214087,8 @@ window.BANK = [
   "niva": "E",
   "typ": "område mellan synligt och röntgen",
   "poang": "(1/0/0)",
-  "t": "<p>Vilken strålning ligger mellan synligt ljus och röntgenstrålning i det elektromagnetiska spektrumet? (Välj ett alternativ.)</p>",
+  "t": "<p>Vilken strålning ligger mellan synligt ljus och röntgenstrålning i det elektromagnetiska spektrumet?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ordningen efter ökande frekvens är radiovågor, mikrovågor, IR, synligt ljus, UV, röntgen och gamma.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ultraviolett strålning.</p></div>",
   "familj": "Det elektromagnetiska spektrumet",
   "formaga": [
@@ -214055,7 +214134,7 @@ window.BANK = [
   "niva": "E",
   "typ": "okänt område i spektrumet",
   "poang": "(1/0/0)",
-  "t": "<p>Figuren visar det elektromagnetiska spektrumet ordnat efter frekvens. Ett område är markerat med ett frågetecken.</p><span class=\"fig smal\"><svg viewBox=\"0 0 560.00 120.00\" width=\"560\" height=\"120\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Det elektromagnetiska spektrumet ordnat efter ökande frekvens: radiovågor, ett okänt område markerat med frågetecken, IR, synligt ljus, UV, röntgen och gamma.\"><rect x=\"0\" y=\"0\" width=\"560.00\" height=\"120.00\" fill=\"#FFFFFF\"/><rect x=\"18.0\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#DCE8F5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"55.4\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Radiovågor</text><rect x=\"92.8\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#FFF4D6\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"130.2\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">?</text><rect x=\"167.6\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#F7D9CF\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"205.0\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">IR</text><rect x=\"242.4\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#E3F1E6\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"279.8\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Synligt</text><rect x=\"317.2\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#E8DFF5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"354.6\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">UV</text><rect x=\"392.0\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#E4E3E6\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"429.4\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Röntgen</text><rect x=\"466.8\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#F2DCE4\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"504.2\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Gamma</text><line x1=\"18.0\" y1=\"98.0\" x2=\"533.6\" y2=\"98.0\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"541.6,98.0 531.6,102.5 531.6,93.5\" fill=\"#5C575E\"/><text x=\"279.8\" y=\"116.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">ökande frekvens</text></svg></span><p>Vilken typ av strålning ska stå där frågetecknet är? (Välj ett alternativ.)</p>",
+  "t": "<p>Figuren visar det elektromagnetiska spektrumet ordnat efter frekvens. Ett område är markerat med ett frågetecken.</p><span class=\"fig smal\"><svg viewBox=\"0 0 560.00 120.00\" width=\"560\" height=\"120\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Det elektromagnetiska spektrumet ordnat efter ökande frekvens: radiovågor, ett okänt område markerat med frågetecken, IR, synligt ljus, UV, röntgen och gamma.\"><rect x=\"0\" y=\"0\" width=\"560.00\" height=\"120.00\" fill=\"#FFFFFF\"/><rect x=\"18.0\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#DCE8F5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"55.4\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Radiovågor</text><rect x=\"92.8\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#FFF4D6\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"130.2\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">?</text><rect x=\"167.6\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#F7D9CF\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"205.0\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">IR</text><rect x=\"242.4\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#E3F1E6\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"279.8\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Synligt</text><rect x=\"317.2\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#E8DFF5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"354.6\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">UV</text><rect x=\"392.0\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#E4E3E6\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"429.4\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Röntgen</text><rect x=\"466.8\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#F2DCE4\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"504.2\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Gamma</text><line x1=\"18.0\" y1=\"98.0\" x2=\"533.6\" y2=\"98.0\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"541.6,98.0 531.6,102.5 531.6,93.5\" fill=\"#5C575E\"/><text x=\"279.8\" y=\"116.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">ökande frekvens</text></svg></span><p>Vilken typ av strålning ska stå där frågetecknet är?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mellan radiovågor och infraröd strålning ligger mikrovågor.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Mikrovågor.</p></div>",
   "familj": "Det elektromagnetiska spektrumet",
   "formaga": [
@@ -214101,7 +214180,7 @@ window.BANK = [
   "niva": "E",
   "typ": "frekvens ur våglängd",
   "poang": "(1/0/0)",
-  "t": "<p>En radiovåg har våglängden 2,0 m. Bestäm frekvensen. (Svara i MHz.)</p>",
+  "t": "<p>En radiovåg har våglängden 2,0 m. Bestäm frekvensen.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektromagnetisk strålning rör sig med ljusfarten \\(c=3{,}0\\cdot10^{8}\\) m/s, och \\(c=\\lambda f\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f=\\frac{3{,}0\\cdot10^{8}}{2{,}0}\\ \\mathrm{Hz}=1{,}5\\cdot10^{8}\\ \\mathrm{Hz}=150\\ \\mathrm{MHz}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 150 MHz.</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
@@ -214127,7 +214206,7 @@ window.BANK = [
   "niva": "E",
   "typ": "våglängd i mikrovågsugn",
   "poang": "(1/0/0)",
-  "t": "<p>En mikrovågsugn använder frekvensen 2,45 GHz. Bestäm våglängden. (Svara i cm.)</p>",
+  "t": "<p>En mikrovågsugn använder frekvensen 2,45 GHz. Bestäm våglängden.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(\\lambda=\\dfrac{c}{f}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\frac{3{,}0\\cdot10^{8}}{2{,}45\\cdot10^{9}}\\ \\mathrm m\\approx0{,}122\\ \\mathrm m=12{,}2\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 12,2 cm.</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
@@ -214154,7 +214233,7 @@ window.BANK = [
   "niva": "E",
   "typ": "fotonenergi ur frekvens",
   "poang": "(1/0/0)",
-  "t": "<p>Ultraviolett strålning har frekvensen 1,0·10¹⁵ Hz. Bestäm energin hos en foton. (Svara i eV.)</p>",
+  "t": "<p>Ultraviolett strålning har frekvensen 1,0·10¹⁵ Hz. Bestäm energin hos en foton.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fotonenergin är \\(E=hf\\). Dela med 1,602·10⁻¹⁹ J för att få eV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{6{,}63\\cdot10^{-34}\\cdot1{,}0\\cdot10^{15}}{1{,}602\\cdot10^{-19}}\\ \\mathrm{eV}\\approx4{,}1\\ \\mathrm{eV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4,1 eV.</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
@@ -214181,7 +214260,7 @@ window.BANK = [
   "niva": "E",
   "typ": "joule till elektronvolt",
   "poang": "(1/0/0)",
-  "t": "<p>En foton har energin 8,0·10⁻¹⁹ J. Hur stor är energin i eV? (Svara i eV.)</p>",
+  "t": "<p>En foton har energin 8,0·10⁻¹⁹ J. Hur stor är energin i eV?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">1 eV = 1,602·10⁻¹⁹ J.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{8{,}0\\cdot10^{-19}}{1{,}602\\cdot10^{-19}}\\ \\mathrm{eV}\\approx5{,}0\\ \\mathrm{eV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 5,0 eV.</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
@@ -214208,7 +214287,8 @@ window.BANK = [
   "niva": "E",
   "typ": "färg och fotonenergi",
   "poang": "(1/0/0)",
-  "t": "<p>Vilken av fotonerna har störst energi? (Välj ett alternativ.)</p>",
+  "t": "<p>Vilken av fotonerna har störst energi?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fotonenergin är \\(E=hf\\). Blått ljus har högst frekvens av alternativen och därmed störst fotonenergi.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En foton blått ljus.</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
@@ -214254,7 +214334,8 @@ window.BANK = [
   "niva": "E",
   "typ": "dubbel frekvens",
   "poang": "(1/0/0)",
-  "t": "<p>Frekvensen hos en foton fördubblas. Vad händer med fotonens energi? (Välj ett alternativ.)</p>",
+  "t": "<p>Frekvensen hos en foton fördubblas. Vad händer med fotonens energi?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">\\(E=hf\\), så energin är proportionell mot frekvensen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Energin fördubblas.</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
@@ -214300,7 +214381,7 @@ window.BANK = [
   "niva": "E",
   "typ": "röntgenfoton i keV",
   "poang": "(1/0/0)",
-  "t": "<p>Röntgenstrålning har våglängden 0,10 nm. Bestäm energin hos en foton. (Svara i keV.)</p>",
+  "t": "<p>Röntgenstrålning har våglängden 0,10 nm. Bestäm energin hos en foton.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(E=\\dfrac{hc}{\\lambda}\\) och dela med 1,602·10⁻¹⁹ J för att få eV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}0\\cdot10^{8}}{0{,}10\\cdot10^{-9}\\cdot1{,}602\\cdot10^{-19}}\\ \\mathrm{eV}\\approx12\\,400\\ \\mathrm{eV}=12{,}4\\ \\mathrm{keV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 12,4 keV.</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
@@ -214378,7 +214459,7 @@ window.BANK = [
   "niva": "E",
   "typ": "fem halveringstjocklekar",
   "poang": "(1/0/0)",
-  "t": "<p>För en viss gammastrålning är halveringstjockleken 0,4 cm bly. Hur många procent av strålningen passerar 2,0 cm bly? (Svara i procent.)</p>",
+  "t": "<p>För en viss gammastrålning är halveringstjockleken 0,4 cm bly. Hur många procent av strålningen passerar 2,0 cm bly?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">2,0 cm är fem halveringstjocklekar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[100\\,\\%\\cdot\\left(\\tfrac12\\right)^5\\approx3{,}1\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,1 %.</p></div>",
   "familj": "Skärmning och halveringstjocklek",
   "formaga": [
@@ -214405,7 +214486,7 @@ window.BANK = [
   "niva": "E",
   "typ": "tjocklek för en fjärdedel",
   "poang": "(1/0/0)",
-  "t": "<p>Bara 25 % av strålningen ska passera en blyskärm. Halveringstjockleken är 1,2 cm. Hur tjock ska skärmen vara? (Svara i cm.)</p>",
+  "t": "<p>Bara 25 % av strålningen ska passera en blyskärm. Halveringstjockleken är 1,2 cm. Hur tjock ska skärmen vara?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">25 % är en fjärdedel, alltså två halveringar: 100 % → 50 % → 25 %.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=2\\cdot1{,}2\\ \\mathrm{cm}=2{,}4\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2,4 cm.</p></div>",
   "familj": "Skärmning och halveringstjocklek",
   "formaga": [
@@ -214456,7 +214537,8 @@ window.BANK = [
   "niva": "E",
   "typ": "vad som stoppar beta",
   "poang": "(1/0/0)",
-  "t": "<p>Vad behövs för att stoppa betastrålning? (Välj ett alternativ.)</p>",
+  "t": "<p>Vad behövs för att stoppa betastrålning?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Betapartiklar är elektroner med stor fart. De går igenom papper men stoppas av några millimeter aluminium.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Några millimeter aluminium.</p></div>",
   "familj": "Joniserande strålning och genomträngning",
   "formaga": [
@@ -214502,7 +214584,8 @@ window.BANK = [
   "niva": "E",
   "typ": "mest joniserande per centimeter",
   "poang": "(1/0/0)",
-  "t": "<p>Vilken strålning joniserar flest atomer per centimeter längs sin väg? (Välj ett alternativ.)</p>",
+  "t": "<p>Vilken strålning joniserar flest atomer per centimeter längs sin väg?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfapartiklar har stor laddning och massa och växelverkar hela tiden med atomerna. De förlorar sin energi på en mycket kort sträcka.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Alfastrålning.</p></div>",
   "familj": "Joniserande strålning och genomträngning",
   "formaga": [
@@ -214548,7 +214631,8 @@ window.BANK = [
   "niva": "E",
   "typ": "gammas långa räckvidd",
   "poang": "(1/0/0)",
-  "t": "<p>Varför har gammastrålning så lång räckvidd i materia? (Välj ett alternativ.)</p>",
+  "t": "<p>Varför har gammastrålning så lång räckvidd i materia?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gammastrålning består av fotoner utan laddning och massa. De växelverkar sällan med atomerna och kan därför gå långt innan de absorberas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gammafotoner saknar laddning och växelverkar sällan.</p></div>",
   "familj": "Joniserande strålning och genomträngning",
   "formaga": [
@@ -214594,7 +214678,8 @@ window.BANK = [
   "niva": "E",
   "typ": "identifiera strålning ur försök",
   "poang": "(1/0/0)",
-  "t": "<p>En elev undersöker en strålkälla. Strålningen går igenom ett papper men stoppas helt av 5 mm aluminium.</p><span class=\"fig smal\"><svg viewBox=\"0 0 540.00 150.00\" width=\"540\" height=\"150\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Strålning från en källa passerar ett papper men stoppas av 5 mm aluminium. Detektorn bakom aluminiet registrerar 0 pulser.\"><rect x=\"0\" y=\"0\" width=\"540.00\" height=\"150.00\" fill=\"#FFFFFF\"/><rect x=\"16\" y=\"50\" width=\"70\" height=\"44\" rx=\"6\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.6\"/><text x=\"51.0\" y=\"77.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Källa</text><rect x=\"210\" y=\"30\" width=\"4\" height=\"84\" fill=\"#FFFFFF\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"212.0\" y=\"134.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">papper</text><rect x=\"340\" y=\"30\" width=\"16\" height=\"84\" fill=\"#C9CCD1\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"348.0\" y=\"134.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">5 mm aluminium</text><line x1=\"90.0\" y1=\"72.0\" x2=\"328.0\" y2=\"72.0\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"336.0,72.0 326.0,76.5 326.0,67.5\" fill=\"#2A5D9E\"/><rect x=\"440\" y=\"48\" width=\"84\" height=\"48\" rx=\"6\" fill=\"#FFFFFF\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"482.0\" y=\"70.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Detektor</text><text x=\"482.0\" y=\"86.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">0 pulser</text></svg></span><p>Vilken typ av strålning sänder källan ut? (Välj ett alternativ.)</p>",
+  "t": "<p>Oscar undersöker en strålkälla. Strålningen går igenom ett papper men stoppas helt av 5 mm aluminium.</p><span class=\"fig smal\"><svg viewBox=\"0 0 540.00 150.00\" width=\"540\" height=\"150\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Strålning från en källa passerar ett papper men stoppas av 5 mm aluminium. Detektorn bakom aluminiet registrerar 0 pulser.\"><rect x=\"0\" y=\"0\" width=\"540.00\" height=\"150.00\" fill=\"#FFFFFF\"/><rect x=\"16\" y=\"50\" width=\"70\" height=\"44\" rx=\"6\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.6\"/><text x=\"51.0\" y=\"77.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Källa</text><rect x=\"210\" y=\"30\" width=\"4\" height=\"84\" fill=\"#FFFFFF\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"212.0\" y=\"134.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">papper</text><rect x=\"340\" y=\"30\" width=\"16\" height=\"84\" fill=\"#C9CCD1\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"348.0\" y=\"134.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">5 mm aluminium</text><line x1=\"90.0\" y1=\"72.0\" x2=\"328.0\" y2=\"72.0\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"336.0,72.0 326.0,76.5 326.0,67.5\" fill=\"#2A5D9E\"/><rect x=\"440\" y=\"48\" width=\"84\" height=\"48\" rx=\"6\" fill=\"#FFFFFF\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"482.0\" y=\"70.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Detektor</text><text x=\"482.0\" y=\"86.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">0 pulser</text></svg></span><p>Vilken typ av strålning sänder källan ut?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfa hade stoppats av pappret. Gamma hade till stor del gått igenom 5 mm aluminium. Strålning som går igenom papper men stoppas av aluminium är beta.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Betastrålning.</p></div>",
   "familj": "Joniserande strålning och genomträngning",
   "formaga": [
@@ -214661,7 +214746,7 @@ window.BANK = [
   "niva": "E",
   "typ": "betongvägg för en fjärdedel",
   "poang": "(1/0/0)",
-  "t": "<p>Strålningen genom en betongvägg ska minska till en fjärdedel. Halveringstjockleken i betong är 4,5 cm. Hur tjock ska väggen vara? (Svara i cm.)</p>",
+  "t": "<p>Strålningen genom en betongvägg ska minska till en fjärdedel. Halveringstjockleken i betong är 4,5 cm. Hur tjock ska väggen vara?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En fjärdedel är två halveringar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=2\\cdot4{,}5\\ \\mathrm{cm}=9{,}0\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 9,0 cm.</p></div>",
   "familj": "Skärmning och halveringstjocklek",
   "formaga": [
@@ -214817,7 +214902,8 @@ window.BANK = [
   "niva": "E",
   "typ": "partiklar vid beta-plus",
   "poang": "(1/0/0)",
-  "t": "<p>Vilka partiklar sänds ut vid beta-plus-sönderfall? (Välj ett alternativ.)</p>",
+  "t": "<p>Vilka partiklar sänds ut vid beta-plus-sönderfall?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En proton blir en neutron. Samtidigt sänds en positron och en neutrino ut.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En positron och en neutrino.</p></div>",
   "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
   "formaga": [
@@ -214864,7 +214950,8 @@ window.BANK = [
   "niva": "E",
   "typ": "vad elektroninfångning är",
   "poang": "(1/0/0)",
-  "t": "<p>Vad händer vid elektroninfångning? (Välj ett alternativ.)</p>",
+  "t": "<p>Vad händer vid elektroninfångning?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En proton i kärnan fångar in en av atomens elektroner och blir en neutron. En neutrino sänds ut.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En proton fångar en elektron och blir en neutron.</p></div>",
   "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
   "formaga": [
@@ -214911,7 +214998,8 @@ window.BANK = [
   "niva": "E",
   "typ": "exciterad dotterkärna",
   "poang": "(1/0/0)",
-  "t": "<p>Efter ett betasönderfall är dotterkärnan ofta exciterad, alltså i ett tillstånd med för hög energi. Vad händer sedan? (Välj ett alternativ.)</p>",
+  "t": "<p>Efter ett betasönderfall är dotterkärnan ofta exciterad, alltså i ett tillstånd med för hög energi. Vad händer sedan?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnan gör sig av med överskottsenergin genom att sända ut en gammafoton. Masstal och atomnummer ändras inte.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den sänder ut gammastrålning.</p></div>",
   "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
   "formaga": [
@@ -214958,7 +215046,8 @@ window.BANK = [
   "niva": "E",
   "typ": "neutronöverskott ger beta-minus",
   "poang": "(1/0/0)",
-  "t": "<p>En kärna har för många neutroner jämfört med protoner för att vara stabil. Vilket sönderfall är troligast? (Välj ett alternativ.)</p>",
+  "t": "<p>En kärna har för många neutroner jämfört med protoner för att vara stabil. Vilket sönderfall är troligast?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus-sönderfall blir en neutron en proton. Då minskar neutronöverskottet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Beta-minus.</p></div>",
   "familj": "Beta-minus-sönderfall",
   "formaga": [
@@ -215005,7 +215094,8 @@ window.BANK = [
   "niva": "E",
   "typ": "sönderfall i N–Z-diagram",
   "poang": "(1/0/0)",
-  "t": "<p>Diagrammet visar antalet neutroner \\(N\\) och protoner \\(Z\\) i en kärna före och efter ett sönderfall.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 290.00\" width=\"340\" height=\"290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Diagram med antalet neutroner N vågrätt och antalet protoner Z lodrätt. En pil går från N = 8, Z = 6 (före) till N = 7, Z = 7 (efter).\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"290.00\" fill=\"#FFFFFF\"/><line x1=\"70\" y1=\"240\" x2=\"70\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"70.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">5</text><line x1=\"122\" y1=\"240\" x2=\"122\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"122.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">6</text><line x1=\"174\" y1=\"240\" x2=\"174\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"174.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">7</text><line x1=\"226\" y1=\"240\" x2=\"226\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"226.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">8</text><line x1=\"278\" y1=\"240\" x2=\"278\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"278.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">9</text><line x1=\"70\" y1=\"240\" x2=\"309\" y2=\"240\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"58.0\" y=\"244.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"end\">5</text><line x1=\"70\" y1=\"188\" x2=\"309\" y2=\"188\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"58.0\" y=\"192.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"end\">6</text><line x1=\"70\" y1=\"136\" x2=\"309\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"58.0\" y=\"140.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"end\">7</text><line x1=\"70\" y1=\"84\" x2=\"309\" y2=\"84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"58.0\" y=\"88.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"end\">8</text><line x1=\"70.0\" y1=\"240.0\" x2=\"307.2\" y2=\"240.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"315.2,240.0 305.2,244.5 305.2,235.5\" fill=\"#2B2527\"/><line x1=\"70.0\" y1=\"240.0\" x2=\"70.0\" y2=\"54.8\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"70.0,46.8 74.5,56.8 65.5,56.8\" fill=\"#2B2527\"/><text x=\"311.2\" y=\"230.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"end\">N</text><text x=\"78.0\" y=\"50.8\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"start\">Z</text><line x1=\"226.0\" y1=\"188.0\" x2=\"187.7\" y2=\"149.7\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"182.0,144.0 192.3,147.9 185.9,154.3\" fill=\"#B5532A\"/><circle cx=\"226\" cy=\"188\" r=\"7\" fill=\"#2A5D9E\"/><circle cx=\"174\" cy=\"136\" r=\"7\" fill=\"#2F7D4A\"/><rect x=\"237.1\" y=\"182.0\" width=\"37.8\" height=\"17\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"256.0\" y=\"193.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">före</text><rect x=\"121.4\" y=\"115.0\" width=\"45.2\" height=\"17\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"144.0\" y=\"126.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2F7D4A\" text-anchor=\"middle\">efter</text></svg></span><p>Vilket sönderfall visar pilen? (Välj ett alternativ.)</p>",
+  "t": "<p>Diagrammet visar antalet neutroner \\(N\\) och protoner \\(Z\\) i en kärna före och efter ett sönderfall.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 290.00\" width=\"340\" height=\"290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Diagram med antalet neutroner N vågrätt och antalet protoner Z lodrätt. En pil går från N = 8, Z = 6 (före) till N = 7, Z = 7 (efter).\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"290.00\" fill=\"#FFFFFF\"/><line x1=\"70\" y1=\"240\" x2=\"70\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"70.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">5</text><line x1=\"122\" y1=\"240\" x2=\"122\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"122.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">6</text><line x1=\"174\" y1=\"240\" x2=\"174\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"174.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">7</text><line x1=\"226\" y1=\"240\" x2=\"226\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"226.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">8</text><line x1=\"278\" y1=\"240\" x2=\"278\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"278.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">9</text><line x1=\"70\" y1=\"240\" x2=\"309\" y2=\"240\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"58.0\" y=\"244.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"end\">5</text><line x1=\"70\" y1=\"188\" x2=\"309\" y2=\"188\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"58.0\" y=\"192.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"end\">6</text><line x1=\"70\" y1=\"136\" x2=\"309\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"58.0\" y=\"140.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"end\">7</text><line x1=\"70\" y1=\"84\" x2=\"309\" y2=\"84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"58.0\" y=\"88.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"end\">8</text><line x1=\"70.0\" y1=\"240.0\" x2=\"307.2\" y2=\"240.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"315.2,240.0 305.2,244.5 305.2,235.5\" fill=\"#2B2527\"/><line x1=\"70.0\" y1=\"240.0\" x2=\"70.0\" y2=\"54.8\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"70.0,46.8 74.5,56.8 65.5,56.8\" fill=\"#2B2527\"/><text x=\"311.2\" y=\"230.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"end\">N</text><text x=\"78.0\" y=\"50.8\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"start\">Z</text><line x1=\"226.0\" y1=\"188.0\" x2=\"187.7\" y2=\"149.7\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"182.0,144.0 192.3,147.9 185.9,154.3\" fill=\"#B5532A\"/><circle cx=\"226\" cy=\"188\" r=\"7\" fill=\"#2A5D9E\"/><circle cx=\"174\" cy=\"136\" r=\"7\" fill=\"#2F7D4A\"/><rect x=\"237.1\" y=\"182.0\" width=\"37.8\" height=\"17\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"256.0\" y=\"193.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">före</text><rect x=\"121.4\" y=\"115.0\" width=\"45.2\" height=\"17\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"144.0\" y=\"126.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2F7D4A\" text-anchor=\"middle\">efter</text></svg></span><p>Vilket sönderfall visar pilen?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Pilen går från \\(N=8,\\ Z=6\\) till \\(N=7,\\ Z=7\\). En neutron har blivit en proton, och det är beta-minus-sönderfall.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Beta-minus.</p></div>",
   "familj": "Beta-minus-sönderfall",
   "formaga": [
@@ -215047,7 +215137,7 @@ window.BANK = [
   "niva": "E",
   "typ": "energi vid beta-minus",
   "poang": "(1/0/0)",
-  "t": "<p>Vid ett beta-minus-sönderfall minskar massan med 0,00060 u. Hur mycket energi frigörs? (Svara i MeV.)</p>",
+  "t": "<p>Vid ett beta-minus-sönderfall minskar massan med 0,00060 u. Hur mycket energi frigörs?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan 1 u motsvarar 931,5 MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}00060\\cdot931{,}5\\ \\mathrm{MeV}\\approx0{,}6\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,6 MeV.</p></div>",
   "familj": "Beta-minus-sönderfall",
   "formaga": [
@@ -215075,7 +215165,7 @@ window.BANK = [
   "niva": "E",
   "typ": "aktivitet efter två halveringstider",
   "poang": "(1/0/0)",
-  "t": "<p>Teknetium-99m har halveringstiden 6,0 h. En patient får ett spårämne med aktiviteten 800 MBq. Hur stor är aktiviteten efter 12 h, om man bara räknar med det radioaktiva sönderfallet? (Svara i MBq.)</p>",
+  "t": "<p>Teknetium-99m har halveringstiden 6,0 h. En patient får ett spårämne med aktiviteten 800 MBq. Hur stor är aktiviteten efter 12 h, om man bara räknar med det radioaktiva sönderfallet?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">12 h är två halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[800\\cdot\\left(\\tfrac12\\right)^2\\ \\mathrm{MBq}=200\\ \\mathrm{MBq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 200 MBq.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -215101,7 +215191,7 @@ window.BANK = [
   "niva": "E",
   "typ": "vinkeln mellan fotonerna vid PET",
   "poang": "(1/0/0)",
-  "t": "<p>Vid en PET-undersökning möter en positron en elektron. De förintas och bildar två fotoner som rör sig åt motsatta håll. Hur stor är vinkeln mellan fotonernas riktningar? (Svara i grader.)</p>",
+  "t": "<p>Vid en PET-undersökning möter en positron en elektron. De förintas och bildar två fotoner som rör sig åt motsatta håll. Hur stor är vinkeln mellan fotonernas riktningar?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fotonerna rör sig åt motsatta håll, längs samma linje. Det gör att kameran kan se var förintelsen skedde.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 180°.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -215127,7 +215217,8 @@ window.BANK = [
   "niva": "E",
   "typ": "varför skelettet syns på röntgen",
   "poang": "(1/0/0)",
-  "t": "<p>Varför syns skelettet ljust på en röntgenbild? (Välj ett alternativ.)</p>",
+  "t": "<p>Varför syns skelettet ljust på en röntgenbild?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skelettet absorberar mer röntgenstrålning än mjukvävnaden. Där når mindre strålning detektorn, och bilden blir ljus.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Skelettet absorberar mer röntgenstrålning.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -215173,7 +215264,8 @@ window.BANK = [
   "niva": "E",
   "typ": "hur en CT fungerar",
   "poang": "(1/0/0)",
-  "t": "<p>Vad använder en datortomograf (CT) för att göra snittbilder av kroppen? (Välj ett alternativ.)</p>",
+  "t": "<p>Vad använder en datortomograf (CT) för att göra snittbilder av kroppen?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid CT skickas röntgenstrålning genom kroppen från många olika vinklar. En dator räknar sedan fram snittbilder.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Röntgenstrålning från många olika vinklar.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -215219,7 +215311,7 @@ window.BANK = [
   "niva": "E",
   "typ": "total dos vid strålbehandling",
   "poang": "(1/0/0)",
-  "t": "<p>En tumör får dosen 2,0 Gy vid varje behandling. Patienten får 30 behandlingar. Hur stor blir den sammanlagda dosen i tumören?</p>",
+  "t": "<p>En tumör får dosen 2,0 Gy vid varje behandling. Patienten får 30 behandlingar. Hur stor blir den totala dosen i tumören?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Doserna från behandlingarna adderas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=30\\cdot2{,}0\\ \\mathrm{Gy}=60\\ \\mathrm{Gy}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 60 Gy.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -215245,7 +215337,7 @@ window.BANK = [
   "niva": "E",
   "typ": "halveringstid ur två mätningar",
   "poang": "(1/0/0)",
-  "t": "<p>Ett spårämne har aktiviteten 640 MBq. Efter 12 h har aktiviteten sjunkit till 160 MBq. Bestäm halveringstiden. (Svara i h.)</p>",
+  "t": "<p>Ett spårämne har aktiviteten 640 MBq. Efter 12 h har aktiviteten sjunkit till 160 MBq. Bestäm halveringstiden.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">640 → 320 → 160 MBq är två halveringar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=\\frac{12\\ \\mathrm h}{2}=6\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6 h.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -215271,7 +215363,8 @@ window.BANK = [
   "niva": "E",
   "typ": "lämplig halveringstid för spårämne",
   "poang": "(1/0/0)",
-  "t": "<p>Ett spårämne ska användas vid en undersökning som tar ungefär en timme. Vilken halveringstid är lämpligast? (Välj ett alternativ.)</p>",
+  "t": "<p>Ett spårämne ska användas vid en undersökning som tar ungefär en timme. Vilken halveringstid är lämpligast?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Halveringstiden ska vara så lång att ämnet räcker under undersökningen, men så kort att patienten inte bestrålas i onödan efteråt. 6 timmar passar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6 timmar.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -215313,7 +215406,8 @@ window.BANK = [
   "niva": "E",
   "typ": "varför alfa inte används vid bildtagning",
   "poang": "(1/0/0)",
-  "t": "<p>Varför används inte alfastrålande ämnen som spårämnen när man vill ta bilder av kroppen? (Välj ett alternativ.)</p>",
+  "t": "<p>Varför används inte alfastrålande ämnen som spårämnen när man vill ta bilder av kroppen?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfapartiklar stoppas efter någon tiondels millimeter i vävnaden. De når aldrig kameran utanför kroppen, men ger stor skada där de stoppas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Alfastrålningen tar sig inte ut ur kroppen.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -215385,7 +215479,7 @@ window.BANK = [
   "niva": "E",
   "typ": "tid tills en fjärdedel återstår",
   "poang": "(1/0/0)",
-  "t": "<p>Jod-131 har halveringstiden 8,0 dygn. Hur lång tid tar det innan bara 25 % av aktiviteten återstår? (Svara i dygn.)</p>",
+  "t": "<p>Jod-131 har halveringstiden 8,0 dygn. Hur lång tid tar det innan bara 25 % av aktiviteten återstår?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">25 % återstår efter två halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=2\\cdot8{,}0\\ \\text{dygn}=16\\ \\text{dygn}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 16 dygn.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -215436,7 +215530,8 @@ window.BANK = [
   "niva": "E",
   "typ": "okänd partikel ur neutroninfångning",
   "poang": "(1/0/0)",
-  "t": "<p>I atmosfären bildas kol-14 genom reaktionen \\[{}^{14}_{7}\\mathrm N+{}^{1}_{0}\\mathrm n\\rightarrow{}^{14}_{6}\\mathrm C+X.\\] Vilken partikel är \\(X\\)? (Välj ett alternativ.)</p>",
+  "t": "<p>I atmosfären bildas kol-14 genom reaktionen \\[{}^{14}_{7}\\mathrm N+{}^{1}_{0}\\mathrm n\\rightarrow{}^{14}_{6}\\mathrm C+X.\\] Vilken partikel är \\(X\\)?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstal: \\(14+1=14+A\\), så \\(A=1\\). Atomnummer: \\(7+0=6+Z\\), så \\(Z=1\\). Det är en proton.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En proton.</p></div>",
   "familj": "Reaktionsformler och bevarandelagar",
   "formaga": [
@@ -215483,7 +215578,8 @@ window.BANK = [
   "niva": "E",
   "typ": "litium klyvs av proton",
   "poang": "(1/0/0)",
-  "t": "<p>År 1932 sköts protoner mot litium: \\[{}^{7}_{3}\\mathrm{Li}+{}^{1}_{1}\\mathrm H\\rightarrow 2X.\\] Vilken partikel är \\(X\\)? (Välj ett alternativ.)</p>",
+  "t": "<p>År 1932 sköts protoner mot litium: \\[{}^{7}_{3}\\mathrm{Li}+{}^{1}_{1}\\mathrm H\\rightarrow 2X.\\] Vilken partikel är \\(X\\)?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstal: \\(7+1=2A\\), så \\(A=4\\). Atomnummer: \\(3+1=2Z\\), så \\(Z=2\\). Det är en heliumkärna, alltså en alfapartikel.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En alfapartikel.</p></div>",
   "familj": "Reaktionsformler och bevarandelagar",
   "formaga": [
@@ -215555,7 +215651,7 @@ window.BANK = [
   "niva": "E",
   "typ": "energi ur massminskning, sönderfall",
   "poang": "(1/0/0)",
-  "t": "<p>Vid en kärnreaktion minskar massan med 0,0050 u. Hur mycket energi frigörs? (Svara i MeV.)</p>",
+  "t": "<p>Vid en kärnreaktion minskar massan med 0,0050 u. Hur mycket energi frigörs?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan 1 u motsvarar 931,5 MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}0050\\cdot931{,}5\\ \\mathrm{MeV}\\approx4{,}7\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4,7 MeV.</p></div>",
   "familj": "Energi i kärnreaktioner",
   "formaga": [
@@ -215582,7 +215678,7 @@ window.BANK = [
   "niva": "E",
   "typ": "massminskning i milligram",
   "poang": "(1/0/0)",
-  "t": "<p>I en serie kärnreaktioner minskar massan totalt med 0,50 mg. Hur mycket energi har frigjorts? (Svara i GJ.)</p>",
+  "t": "<p>I en serie kärnreaktioner minskar massan totalt med 0,50 mg. Hur mycket energi har frigjorts?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(E=mc^2\\) med massan i kg: 0,50 mg = 5,0·10⁻⁷ kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=5{,}0\\cdot10^{-7}\\cdot(3{,}0\\cdot10^{8})^2\\ \\mathrm J=4{,}5\\cdot10^{10}\\ \\mathrm J=45\\ \\mathrm{GJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 45 GJ.</p></div>",
   "familj": "Energi i kärnreaktioner",
   "formaga": [
@@ -215608,7 +215704,8 @@ window.BANK = [
   "niva": "E",
   "typ": "vad som bevaras",
   "poang": "(1/0/0)",
-  "t": "<p>Vad bevaras alltid i en kärnreaktion? (Välj ett alternativ.)</p>",
+  "t": "<p>Vad bevaras alltid i en kärnreaktion?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Summan av masstalen och summan av laddningarna (atomnumren) är densamma före och efter. Massan i u minskar däremot lite när energi frigörs.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Både masstalet och laddningen.</p></div>",
   "familj": "Reaktionsformler och bevarandelagar",
   "formaga": [
@@ -215679,7 +215776,8 @@ window.BANK = [
   "niva": "E",
   "typ": "vad en alfapartikel är",
   "poang": "(1/0/0)",
-  "t": "<p>Vad är en alfapartikel? (Välj ett alternativ.)</p>",
+  "t": "<p>Vad är en alfapartikel?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En alfapartikel är en heliumkärna med två protoner och två neutroner.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En heliumkärna.</p></div>",
   "familj": "Alfasönderfall",
   "formaga": [
@@ -215725,7 +215823,7 @@ window.BANK = [
   "niva": "E",
   "typ": "massminskning ur massor",
   "poang": "(1/0/0)",
-  "t": "<p>Den sammanlagda massan före en kärnreaktion är 4,0280 u och efter reaktionen 4,0026 u. Hur stor är massminskningen? (Svara i u.)</p>",
+  "t": "<p>Den totala massan före en kärnreaktion är 4,0280 u och efter reaktionen 4,0026 u. Hur stor är massminskningen?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massminskningen är skillnaden mellan massan före och massan efter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=4{,}0280-4{,}0026=0{,}0254\\ \\mathrm u\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,0254 u.</p></div>",
   "familj": "Energi i kärnreaktioner",
   "formaga": [
@@ -215751,7 +215849,7 @@ window.BANK = [
   "niva": "E",
   "typ": "laddning hos antipartikel med tre antikvarkar",
   "poang": "(1/0/0)",
-  "t": "<p>Partikeln Δ⁺⁺ består av tre uppkvarkar. Dess antipartikel består av tre anti-uppkvarkar. Vilken laddning har antipartikeln? (Svara i enheten e.)</p>",
+  "t": "<p>Partikeln Δ⁺⁺ består av tre uppkvarkar. Dess antipartikel består av tre anti-uppkvarkar. Vilken laddning har antipartikeln?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En antikvark har motsatt laddning mot kvarken. En anti-uppkvark har laddningen \\(-\\tfrac23e\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[3\\cdot\\left(-\\tfrac23\\right)=-2\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2e\\).</p></div>",
   "familj": "Kvarkarnas laddning",
   "formaga": [
@@ -215777,7 +215875,7 @@ window.BANK = [
   "niva": "E",
   "typ": "kvarkarnas andel av protonens massa",
   "poang": "(1/0/0)",
-  "t": "<p>En proton har massan 938 MeV/c². Den består av två uppkvarkar med massan 2,2 MeV/c² var och en nedkvark med massan 4,7 MeV/c². Hur många procent av protonens massa utgörs av kvarkarnas egna massor? (Svara i procent.)</p>",
+  "t": "<p>En proton har massan 938 MeV/c². Den består av två uppkvarkar med massan 2,2 MeV/c² var och en nedkvark med massan 4,7 MeV/c². Hur många procent av protonens massa utgörs av kvarkarnas egna massor?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kvarkarnas sammanlagda massa är \\(2\\cdot2{,}2+4{,}7=9{,}1\\) MeV/c². Resten av protonens massa kommer från energin i den starka växelverkan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{9{,}1}{938}\\cdot100\\,\\%\\approx1{,}0\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,0 %.</p></div>",
   "familj": "Elementarpartiklar och kvarkar",
   "formaga": [
@@ -215805,7 +215903,7 @@ window.BANK = [
   "niva": "C",
   "typ": "fotoner från annihilation",
   "poang": "(0/1/0)",
-  "t": "<p>En elektron och en positron i vila förintar varandra och bildar två lika fotoner. Bestäm våglängden hos en av fotonerna. (Svara i pm.)</p>",
+  "t": "<p>En elektron och en positron i vila förintar varandra och bildar två lika fotoner. Bestäm våglängden hos en av fotonerna.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje foton får energin \\(m_ec^2\\), eftersom båda partiklarna har massan \\(m_e\\) och de två fotonerna delar lika.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =9{,}11\\cdot10^{-31}\\cdot(3{,}00\\cdot10^{8})^2\\ \\mathrm J\\\\=8{,}20\\cdot10^{-14}\\ \\mathrm J\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda =\\frac{hc}{E} =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{8{,}20\\cdot10^{-14}}\\ \\mathrm m\\\\\\approx2{,}43\\cdot10^{-12}\\ \\mathrm m\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2,43 pm.</p></div>",
   "familj": "Elementarpartiklar och kvarkar",
   "formaga": [
@@ -215833,7 +215931,7 @@ window.BANK = [
   "niva": "C",
   "typ": "längsta våglängd för parbildning",
   "poang": "(0/1/0)",
-  "t": "<p>En gammafoton kan omvandlas till ett elektron–positronpar. Vilken är den längsta våglängd fotonen kan ha för att detta ska vara möjligt? (Svara i pm.)</p>",
+  "t": "<p>En gammafoton kan omvandlas till ett elektron–positronpar. Vilken är den längsta våglängd fotonen kan ha för att detta ska vara möjligt?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fotonen måste minst ha energin för två elektronmassor: \\(2\\cdot0{,}511=1{,}022\\) MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =1{,}022\\cdot10^{6}\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm J\\\\=1{,}637\\cdot10^{-13}\\ \\mathrm J\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda =\\frac{hc}{E} =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{1{,}637\\cdot10^{-13}}\\ \\mathrm m\\\\\\approx1{,}21\\cdot10^{-12}\\ \\mathrm m\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,21 pm.</p></div>",
   "familj": "Elementarpartiklar och kvarkar",
   "formaga": [
@@ -215861,7 +215959,7 @@ window.BANK = [
   "niva": "E",
   "typ": "vilken kombination som inte är neutral",
   "poang": "(1/0/0)",
-  "t": "<p>Fyra baryoner består av kvarkarna i alternativen. Uppkvarken har laddningen \\(+\\tfrac23e\\), ned- och s-kvarken \\(-\\tfrac13e\\). Vilken av baryonerna är <em>inte</em> oladdad? (Välj ett alternativ.)</p>",
+  "t": "<p>Fyra baryoner består av kvarkarna i alternativen. Uppkvarken har laddningen \\(+\\tfrac23e\\), ned- och s-kvarken \\(-\\tfrac13e\\). Vilken av baryonerna är <em>inte</em> oladdad?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningarna blir: udd \\(\\tfrac23-\\tfrac13-\\tfrac13=0\\), uds \\(0\\), uss \\(\\tfrac23-\\tfrac23=0\\) och uud \\(\\tfrac43-\\tfrac13=+1\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> uud (protonen).</p></div>",
   "familj": "Kvarkarnas laddning",
   "formaga": [
@@ -215952,7 +216050,8 @@ window.BANK = [
   "niva": "C",
   "typ": "varför kvarkar inte kan isoleras",
   "poang": "(0/1/0)",
-  "t": "<p>Varför kan man aldrig observera en enskild fri kvark? (Välj ett alternativ.)</p>",
+  "t": "<p>Varför kan man aldrig observera en enskild fri kvark?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den starka kraften mellan kvarkar avtar inte med avståndet. När man försöker dra isär dem blir energin till slut så stor att nya kvark–antikvarkpar bildas, och man får nya sammansatta partiklar i stället för fria kvarkar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den starka kraften blir inte svagare med avståndet, och energin bildar nya kvarkpar.</p></div>",
   "familj": "Elementarpartiklar och kvarkar",
   "formaga": [
@@ -215999,7 +216098,7 @@ window.BANK = [
   "niva": "C",
   "typ": "kraft mellan proton och elektron i väteatom",
   "poang": "(0/1/0)",
-  "t": "<p>I en väteatom är avståndet mellan protonen och elektronen ungefär 5,3·10⁻¹¹ m. Hur stor är den elektriska kraften mellan dem? (Svara i nN.)</p>",
+  "t": "<p>I en väteatom är avståndet mellan protonen och elektronen ungefär 5,3·10⁻¹¹ m. Hur stor är den elektriska kraften mellan dem?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd Coulombs lag med \\(k=8{,}99\\cdot10^{9}\\) Nm²/C² och laddningen \\(e=1{,}602\\cdot10^{-19}\\) C.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}F =\\frac{8{,}99\\cdot10^{9}\\cdot(1{,}602\\cdot10^{-19})^2}{(5{,}3\\cdot10^{-11})^2}\\ \\mathrm N\\\\\\approx8{,}21\\cdot10^{-8}\\ \\mathrm N\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 82,1 nN.</p></div>",
   "familj": "De fyra fundamentala krafterna",
   "formaga": [
@@ -216054,7 +216153,8 @@ window.BANK = [
   "niva": "C",
   "typ": "varför stora kärnor är instabila",
   "poang": "(0/1/0)",
-  "t": "<p>Den starka kraften är mycket starkare än den elektriska. Varför är då mycket stora kärnor, som uran, instabila? (Välj ett alternativ.)</p>",
+  "t": "<p>Den starka kraften är mycket starkare än den elektriska. Varför är då mycket stora kärnor, som uran, instabila?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den starka kraften har mycket kort räckvidd och verkar bara mellan nukleoner som ligger nära varandra. Den elektriska repulsionen verkar mellan alla protoner i kärnan. I en stor kärna växer repulsionen därför snabbare än den sammanhållande starka kraften.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den starka kraften verkar bara mellan närliggande nukleoner, men repulsionen verkar mellan alla protoner.</p></div>",
   "familj": "De fyra fundamentala krafterna",
   "formaga": [
@@ -216101,7 +216201,8 @@ window.BANK = [
   "niva": "E",
   "typ": "kraften bakom en kompass",
   "poang": "(1/0/0)",
-  "t": "<p>Vilken av de fyra fundamentala krafterna får en kompassnål att peka mot norr? (Välj ett alternativ.)</p>",
+  "t": "<p>Vilken av de fyra fundamentala krafterna får en kompassnål att peka mot norr?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Magnetism är en del av den elektromagnetiska kraften.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den elektromagnetiska kraften.</p></div>",
   "familj": "De fyra fundamentala krafterna",
   "formaga": [
@@ -216147,7 +216248,8 @@ window.BANK = [
   "niva": "C",
   "typ": "neutriner genom jorden",
   "poang": "(0/1/0)",
-  "t": "<p>Neutriner påverkas bara av den svaga kraften och gravitationen. Vad följer av det? (Välj ett alternativ.)</p>",
+  "t": "<p>Neutriner påverkas bara av den svaga kraften och gravitationen. Vad följer av det?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den svaga kraften har extremt kort räckvidd och gravitationen är mycket svag. Neutriner växelverkar därför nästan aldrig med materia, och de flesta passerar rakt igenom hela jorden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De flesta neutriner passerar genom hela jorden utan att växelverka.</p></div>",
   "familj": "De fyra fundamentala krafterna",
   "formaga": [
@@ -216194,7 +216296,8 @@ window.BANK = [
   "niva": "E",
   "typ": "krafter när protoner närmar sig",
   "poang": "(1/0/0)",
-  "t": "<p>Vid fusion i solen ska två protoner komma tillräckligt nära varandra för att slås ihop. Vilka två krafter avgör om det lyckas? (Välj ett alternativ.)</p>",
+  "t": "<p>Vid fusion i solen ska två protoner komma tillräckligt nära varandra för att slås ihop. Vilka två krafter avgör om det lyckas?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska repulsionen trycker isär protonerna. Först när de är mycket nära varandra tar den starka kraften över och håller ihop dem.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den elektriska repulsionen och den starka kraften.</p></div>",
   "familj": "De fyra fundamentala krafterna",
   "formaga": [
@@ -216240,7 +216343,7 @@ window.BANK = [
   "niva": "C",
   "typ": "elektrisk lägesenergi mellan protoner",
   "poang": "(0/1/0)",
-  "t": "<p>Två protoner är 2,0 fm från varandra (1 fm = 10⁻¹⁵ m). Den elektriska lägesenergin är \\(E=\\dfrac{ke^2}{r}\\). Hur stor är den? (Svara i MeV.)</p>",
+  "t": "<p>Två protoner är 2,0 fm från varandra (1 fm = 10⁻¹⁵ m). Den elektriska lägesenergin är \\(E=\\dfrac{ke^2}{r}\\). Hur stor är den?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Beräkna energin i joule och dela med 1,602·10⁻¹³ J per MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =\\frac{8{,}99\\cdot10^{9}\\cdot(1{,}602\\cdot10^{-19})^2}{2{,}0\\cdot10^{-15}}\\ \\mathrm J\\\\\\approx1{,}15\\cdot10^{-13}\\ \\mathrm J \\approx0{,}72\\ \\mathrm{MeV}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Så mycket energi måste protonerna ha för att komma så nära varandra. Det är därför fusion kräver mycket hög temperatur.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,72 MeV.</p></div>",
   "familj": "De fyra fundamentala krafterna",
   "formaga": [
@@ -216295,7 +216398,7 @@ window.BANK = [
   "niva": "E",
   "typ": "våglängd ur fotonenergi",
   "poang": "(1/0/0)",
-  "t": "<p>En foton har energin 2,5 eV. Bestäm våglängden. (Svara i nm.)</p>",
+  "t": "<p>En foton har energin 2,5 eV. Bestäm våglängden.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gör om energin till joule och använd \\(\\lambda=\\dfrac{hc}{E}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{2{,}5\\cdot1{,}602\\cdot10^{-19}}\\ \\mathrm m\\\\\\approx4{,}97\\cdot10^{-7}\\ \\mathrm m\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">497 nm är blågrönt ljus.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 497 nm.</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
@@ -216348,7 +216451,7 @@ window.BANK = [
   "niva": "C",
   "typ": "längsta våglängd som bryter en bindning",
   "poang": "(0/1/0)",
-  "t": "<p>Det krävs 4,5 eV för att bryta en viss kemisk bindning. Vilken är den längsta våglängd en foton kan ha för att ensam bryta bindningen? (Svara i nm.)</p>",
+  "t": "<p>Det krävs 4,5 eV för att bryta en viss kemisk bindning. Vilken är den längsta våglängd en foton kan ha för att ensam bryta bindningen?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Längre våglängd ger lägre energi. Den längsta våglängden ger precis 4,5 eV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda =\\frac{hc}{E} =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{4{,}5\\cdot1{,}602\\cdot10^{-19}}\\ \\mathrm m\\\\\\approx2{,}76\\cdot10^{-7}\\ \\mathrm m\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">276 nm ligger i UV-området. Synligt ljus kan alltså inte bryta bindningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 276 nm.</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
@@ -216376,7 +216479,7 @@ window.BANK = [
   "niva": "E",
   "typ": "våglängd hos gammafoton",
   "poang": "(1/0/0)",
-  "t": "<p>Kobolt-60 sänder ut gammafotoner med energin 1,33 MeV. Bestäm våglängden. (Svara i pm.)</p>",
+  "t": "<p>Kobolt-60 sänder ut gammafotoner med energin 1,33 MeV. Bestäm våglängden.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(\\lambda=\\dfrac{hc}{E}\\) med energin i joule.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{1{,}33\\cdot10^{6}\\cdot1{,}602\\cdot10^{-19}}\\ \\mathrm m\\\\\\approx9{,}3\\cdot10^{-13}\\ \\mathrm m\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,93 pm.</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
@@ -216431,7 +216534,7 @@ window.BANK = [
   "niva": "C",
   "typ": "icke heltal antal halveringstjocklekar",
   "poang": "(0/1/0)",
-  "t": "<p>Halveringstjockleken i bly är 1,2 cm för en viss gammastrålning. Hur många procent av strålningen passerar 3,0 cm bly? (Svara i procent.)</p>",
+  "t": "<p>Halveringstjockleken i bly är 1,2 cm för en viss gammastrålning. Hur många procent av strålningen passerar 3,0 cm bly?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Intensiteten halveras för varje halveringstjocklek: \\(I=I_0\\cdot\\left(\\tfrac12\\right)^{d/d_{1/2}}\\), även när \\(d/d_{1/2}\\) inte är ett heltal.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">3,0 cm är \\(\\dfrac{3{,}0}{1{,}2}=2{,}5\\) halveringstjocklekar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[100\\,\\%\\cdot\\left(\\tfrac12\\right)^{2{,}5}\\approx17{,}7\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 17,7 %.</p></div>",
   "familj": "Skärmning och halveringstjocklek",
   "formaga": [
@@ -216458,7 +216561,7 @@ window.BANK = [
   "niva": "C",
   "typ": "tjocklek för en halv procent",
   "poang": "(0/1/0)",
-  "t": "<p>Halveringstjockleken för en gammastrålning är 0,50 cm i ett material. Hur tjock skärm behövs för att bara 0,5 % ska passera? (Svara i cm.)</p>",
+  "t": "<p>Halveringstjockleken för en gammastrålning är 0,50 cm i ett material. Hur tjock skärm behövs för att bara 0,5 % ska passera?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sök antalet halveringstjocklekar n så att \\(\\left(\\tfrac12\\right)^n=0{,}005\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[n=\\frac{\\lg(0{,}005)}{\\lg(0{,}5)}\\approx7{,}64\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=7{,}64\\cdot0{,}50\\ \\mathrm{cm}\\approx3{,}8\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,8 cm.</p></div>",
   "familj": "Skärmning och halveringstjocklek",
   "formaga": [
@@ -216486,7 +216589,7 @@ window.BANK = [
   "niva": "C",
   "typ": "två skärmar efter varandra",
   "poang": "(0/1/0)",
-  "t": "<p>Strålningen passerar först 3,6 cm bly och sedan 13,5 cm betong. Halveringstjockleken är 1,2 cm i bly och 4,5 cm i betong. Hur många procent av strålningen passerar båda? (Svara i procent.)</p>",
+  "t": "<p>Strålningen passerar först 3,6 cm bly och sedan 13,5 cm betong. Halveringstjockleken är 1,2 cm i bly och 4,5 cm i betong. Hur många procent av strålningen passerar båda?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje material halverar strålningen en gång per halveringstjocklek, och halveringarna i de två skikten läggs ihop.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Blyet ger \\(3{,}6/1{,}2=3\\) halveringar och betongen \\(13{,}5/4{,}5=3\\) halveringar, totalt 6.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[100\\,\\%\\cdot\\left(\\tfrac12\\right)^6\\approx1{,}6\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,6 %.</p></div>",
   "familj": "Skärmning och halveringstjocklek",
   "formaga": [
@@ -216540,7 +216643,8 @@ window.BANK = [
   "niva": "C",
   "typ": "gamma och beta bakom tjockare skärm",
   "poang": "(0/1/0)",
-  "t": "<p>En betakälla och en gammakälla ger lika många pulser bakom 1 mm aluminium. Vad händer om aluminiet byts mot 5 mm aluminium? (Välj ett alternativ.)</p>",
+  "t": "<p>En betakälla och en gammakälla ger lika många pulser bakom 1 mm aluminium. Vad händer om aluminiet byts mot 5 mm aluminium?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Betapartiklar stoppas av några millimeter aluminium, så betastrålningen minskar kraftigt. Gammastrålningen går nästan opåverkad igenom 5 mm aluminium.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Betastrålningen minskar kraftigt, men gammastrålningen ändras nästan inte.</p></div>",
   "familj": "Joniserande strålning och genomträngning",
   "formaga": [
@@ -216587,7 +216691,7 @@ window.BANK = [
   "niva": "E",
   "typ": "halveringstjocklek ur mätning",
   "poang": "(1/0/0)",
-  "t": "<p>Utan skärm registreras 960 pulser per minut från en gammakälla. Med en 6,0 cm tjock vägg emellan registreras 120 pulser per minut. Bakgrunden är försumbar. Bestäm väggens halveringstjocklek. (Svara i cm.)</p>",
+  "t": "<p>Utan skärm registreras 960 pulser per minut från en gammakälla. Med en 6,0 cm tjock vägg emellan registreras 120 pulser per minut. Bakgrunden är försumbar. Bestäm väggens halveringstjocklek.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje halveringstjocklek halverar antalet pulser, så antalet halveringar ger halveringstjockleken.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">960 → 480 → 240 → 120 är tre halveringar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d_{1/2}=\\frac{6{,}0\\ \\mathrm{cm}}{3}=2{,}0\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2,0 cm.</p></div>",
   "familj": "Skärmning och halveringstjocklek",
   "formaga": [
@@ -216613,7 +216717,7 @@ window.BANK = [
   "niva": "C",
   "typ": "aktivitet efter icke heltal halveringstider",
   "poang": "(0/1/0)",
-  "t": "<p>Ett teknetium-99m-preparat har aktiviteten 1 200 MBq klockan 06.00. Halveringstiden är 6,0 h. Hur stor är aktiviteten klockan 15.00? Räkna bara med det radioaktiva sönderfallet. (Svara i MBq.)</p>",
+  "t": "<p>Ett teknetium-99m-preparat har aktiviteten 1 200 MBq klockan 06.00. Halveringstiden är 6,0 h. Hur stor är aktiviteten klockan 15.00?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Från 06.00 till 15.00 är det 9 h, alltså 1,5 halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=1200\\cdot\\left(\\tfrac12\\right)^{1{,}5}\\ \\mathrm{MBq}\\approx424\\ \\mathrm{MBq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 424 MBq.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -216640,7 +216744,7 @@ window.BANK = [
   "niva": "C",
   "typ": "effektiv halveringstid",
   "poang": "(0/1/0)",
-  "t": "<p>Ett spårämne har den fysikaliska halveringstiden 6,0 h. Kroppen utsöndrar dessutom ämnet så att hälften är borta efter 24 h. Den effektiva halveringstiden ges av \\[\\frac{1}{T_{\\text{eff}}}=\\frac{1}{T_{\\text{fys}}}+\\frac{1}{T_{\\text{bio}}}.\\] Bestäm \\(T_{\\text{eff}}\\). (Svara i h.)</p>",
+  "t": "<p>Ett spårämne har den fysikaliska halveringstiden 6,0 h. Kroppen utsöndrar dessutom ämnet så att hälften är borta efter 24 h. Den effektiva halveringstiden ges av \\[\\frac{1}{T_{\\text{eff}}}=\\frac{1}{T_{\\text{fys}}}+\\frac{1}{T_{\\text{bio}}}.\\] Bestäm \\(T_{\\text{eff}}\\).</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt in de två halveringstiderna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{1}{T_{\\text{eff}}}=\\frac16+\\frac1{24}=\\frac{5}{24}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{\\text{eff}}=\\frac{24}{5}\\ \\mathrm h=4{,}8\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4,8 h.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -216668,7 +216772,7 @@ window.BANK = [
   "niva": "E",
   "typ": "aktivitet vid injektion",
   "poang": "(1/0/0)",
-  "t": "<p>Fluor-18 har halveringstiden 110 min. Ett parti med aktiviteten 2,0 GBq tillverkas klockan 08.00. Patienten får injektionen klockan 11.40. Hur stor är aktiviteten då? (Svara i MBq.)</p>",
+  "t": "<p>Fluor-18 har halveringstiden 110 min. Ett parti med aktiviteten 2,0 GBq tillverkas klockan 08.00. Patienten får injektionen klockan 11.40. Hur stor är aktiviteten då?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Från 08.00 till 11.40 är det 220 min, alltså två halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=2000\\cdot\\left(\\tfrac12\\right)^2\\ \\mathrm{MBq}=500\\ \\mathrm{MBq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 500 MBq.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -216694,7 +216798,7 @@ window.BANK = [
   "niva": "E",
   "typ": "ekvivalent dos från alfastrålning",
   "poang": "(1/0/0)",
-  "t": "<p>Vid en behandling absorberar 2,0 kg vävnad energin 0,0070 J från alfastrålning. Viktningsfaktorn för alfa är 20. Hur stor ekvivalent dos får vävnaden? (Svara i mSv.)</p>",
+  "t": "<p>Vid en behandling absorberar 2,0 kg vävnad energin 0,0070 J från alfastrålning. Viktningsfaktorn för alfa är 20. Hur stor ekvivalent dos får vävnaden?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Absorberad dos är energi per kilogram. Den ekvivalenta dosen får man genom att multiplicera med viktningsfaktorn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\frac{0{,}0070}{2{,}0}\\ \\mathrm{Gy}=0{,}0035\\ \\mathrm{Gy}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}H =20\\cdot0{,}0035\\ \\mathrm{Sv} =0{,}070\\ \\mathrm{Sv}\\\\=70\\ \\mathrm{mSv}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 70 mSv.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -216720,7 +216824,7 @@ window.BANK = [
   "niva": "C",
   "typ": "kortaste våglängd från röntgenrör",
   "poang": "(0/1/0)",
-  "t": "<p>Ett röntgenrör accelererar elektroner genom spänningen 120 kV. Bestäm den kortaste våglängden hos röntgenstrålningen. (Svara i pm.)</p>",
+  "t": "<p>Ett röntgenrör accelererar elektroner genom spänningen 120 kV. Bestäm den kortaste våglängden hos röntgenstrålningen.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den kortaste våglängden får en foton som får hela elektronens rörelseenergi, 120 keV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda =\\frac{hc}{eU}\\\\=\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{1{,}602\\cdot10^{-19}\\cdot120\\cdot10^{3}}\\ \\mathrm m\\\\\\approx1{,}03\\cdot10^{-11}\\ \\mathrm m\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 10,3 pm.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -216748,7 +216852,7 @@ window.BANK = [
   "niva": "C",
   "typ": "spänning för en viss våglängd",
   "poang": "(0/1/0)",
-  "t": "<p>Ett röntgenrör ska kunna ge fotoner med våglängden 0,050 nm. Vilken spänning behövs minst? (Svara i kV.)</p>",
+  "t": "<p>Ett röntgenrör ska kunna ge fotoner med våglängden 0,050 nm. Vilken spänning behövs minst?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektronens energi \\(eU\\) måste minst vara lika med fotonens energi \\(\\dfrac{hc}{\\lambda}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}U =\\frac{hc}{e\\lambda}\\\\=\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{1{,}602\\cdot10^{-19}\\cdot0{,}050\\cdot10^{-9}}\\ \\mathrm V\\\\\\approx24{,}8\\ \\mathrm{kV}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 24,8 kV.</p></div>",
   "familj": "Strålning i medicin",
   "formaga": [
@@ -216802,7 +216906,7 @@ window.BANK = [
   "niva": "C",
   "typ": "energi vid beta-plus med elektronkorrektion",
   "poang": "(0/1/0)",
-  "t": "<p>Kväve-13 beta-plus-sönderfaller till kol-13. De neutrala atommassorna är 13,005739 u och 13,003355 u. Hur mycket energi frigörs? (Svara i MeV.)</p>",
+  "t": "<p>Kväve-13 beta-plus-sönderfaller till kol-13. De neutrala atommassorna är 13,005739 u och 13,003355 u. Hur mycket energi frigörs?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-plus-sönderfall ska två elektronmassor dras bort när man räknar med atommassor. Dotteratomen har en elektron för mycket, och dessutom skapas en positron.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m\\\\=13{,}005739\\\\-13{,}003355-2\\cdot0{,}000549\\\\=0{,}001286\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =0{,}001286\\cdot931{,}5\\ \\mathrm{MeV}\\\\\\approx1{,}20\\ \\mathrm{MeV}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,20 MeV.</p></div>",
   "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
   "formaga": [
@@ -216831,7 +216935,7 @@ window.BANK = [
   "niva": "C",
   "typ": "energi vid beta-minus ur atommassor",
   "poang": "(0/1/0)",
-  "t": "<p>Kol-14 beta-minus-sönderfaller till kväve-14. De neutrala atommassorna är 14,003242 u och 14,003074 u. Hur mycket energi frigörs? (Svara i MeV.)</p>",
+  "t": "<p>Kol-14 beta-minus-sönderfaller till kväve-14. De neutrala atommassorna är 14,003242 u och 14,003074 u. Hur mycket energi frigörs?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus tar dotteratomens extra elektron ut den elektron som skickas ut. Därför kan man räkna direkt med skillnaden i atommassa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m =14{,}003242-14{,}003074\\\\=0{,}000168\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =0{,}000168\\cdot931{,}5\\ \\mathrm{MeV}\\\\\\approx0{,}16\\ \\mathrm{MeV}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,16 MeV.</p></div>",
   "familj": "Beta-minus-sönderfall",
   "formaga": [
@@ -216860,7 +216964,8 @@ window.BANK = [
   "niva": "C",
   "typ": "varför två elektronmassor vid beta-plus",
   "poang": "(0/1/0)",
-  "t": "<p>Vid beta-plus-sönderfall måste moderatomen ha minst två elektronmassor mer än dotteratomen för att sönderfallet ska kunna ske. Varför? (Välj ett alternativ.)</p>",
+  "t": "<p>Vid beta-plus-sönderfall måste moderatomen ha minst två elektronmassor mer än dotteratomen för att sönderfallet ska kunna ske. Varför?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnans laddning minskar med 1, så dotteratomen behöver en elektron mindre. Den elektronen blir över. Dessutom skapas en positron, som har samma massa som en elektron. Sammanlagt motsvarar det två elektronmassor.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En elektron blir över i atomen och en positron skapas.</p></div>",
   "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
   "formaga": [
@@ -216908,7 +217013,7 @@ window.BANK = [
   "niva": "E",
   "typ": "antineutrinons energi",
   "poang": "(1/0/0)",
-  "t": "<p>Vid ett beta-minus-sönderfall frigörs 1,31 MeV. Elektronen får rörelseenergin 0,52 MeV. Hur mycket energi får antineutrinon? Försumma dotterkärnans rekyl. (Svara i MeV.)</p>",
+  "t": "<p>Vid ett beta-minus-sönderfall frigörs 1,31 MeV. Elektronen får rörelseenergin 0,52 MeV. Hur mycket energi får antineutrinon? Försumma dotterkärnans rekyl.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin delas mellan elektronen och antineutrinon.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_{\\bar\\nu}=1{,}31-0{,}52=0{,}79\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,79 MeV.</p></div>",
   "familj": "Beta-minus-sönderfall",
   "formaga": [
@@ -217006,7 +217111,7 @@ window.BANK = [
   "niva": "C",
   "typ": "energi vid elektroninfångning",
   "poang": "(0/1/0)",
-  "t": "<p>Beryllium-7 sönderfaller genom elektroninfångning till litium-7. De neutrala atommassorna är 7,016929 u och 7,016004 u. Hur mycket energi frigörs? (Svara i MeV.)</p>",
+  "t": "<p>Beryllium-7 sönderfaller genom elektroninfångning till litium-7. De neutrala atommassorna är 7,016929 u och 7,016004 u. Hur mycket energi frigörs?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid elektroninfångning används en av atomens egna elektroner. Därför kan man räkna direkt med skillnaden i atommassa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m =7{,}016929-7{,}016004\\\\=0{,}000925\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =0{,}000925\\cdot931{,}5\\ \\mathrm{MeV}\\\\\\approx0{,}86\\ \\mathrm{MeV}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,86 MeV.</p></div>",
   "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
   "formaga": [
@@ -217035,7 +217140,7 @@ window.BANK = [
   "niva": "C",
   "typ": "energi per kilogram fusionsbränsle",
   "poang": "(0/1/0)",
-  "t": "<p>En D–T-reaktion frigör 17,6 MeV. Bränslet i varje reaktion har massan 5,0 u (1 u = 1,6605·10⁻²⁷ kg). Hur mycket energi frigörs per kilogram bränsle? (Svara i TJ.)</p>",
+  "t": "<p>En D–T-reaktion frigör 17,6 MeV. Bränslet i varje reaktion har massan 5,0 u (1 u = 1,6605·10⁻²⁷ kg). Hur mycket energi frigörs per kilogram bränsle?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela energin per reaktion med bränslets massa per reaktion.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{17{,}6\\cdot10^{6}\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm J}{5{,}0\\cdot1{,}6605\\cdot10^{-27}\\ \\mathrm{kg}}\\\\\\approx3{,}40\\cdot10^{14}\\ \\mathrm{J/kg}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det är ungefär tio miljoner gånger mer än vid förbränning av kol.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 340 TJ per kg.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -217092,7 +217197,7 @@ window.BANK = [
   "niva": "C",
   "typ": "energi när två helium-3 slås ihop",
   "poang": "(0/1/0)",
-  "t": "<p>I solen sker \\[{}^{3}\\mathrm{He}+{}^{3}\\mathrm{He}\\rightarrow{}^{4}\\mathrm{He}+2\\,{}^{1}\\mathrm H.\\] Atommassorna är 3,016029 u för helium-3, 4,002603 u för helium-4 och 1,007825 u för väte. Hur mycket energi frigörs? (Svara i MeV.)</p>",
+  "t": "<p>I solen sker \\[{}^{3}\\mathrm{He}+{}^{3}\\mathrm{He}\\rightarrow{}^{4}\\mathrm{He}+2\\,{}^{1}\\mathrm H.\\] Atommassorna är 3,016029 u för helium-3, 4,002603 u för helium-4 och 1,007825 u för väte. Hur mycket energi frigörs?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massminskningen är massan före minus massan efter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m\\\\=2\\cdot3{,}016029\\\\-4{,}002603-2\\cdot1{,}007825\\\\=0{,}013805\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =0{,}013805\\cdot931{,}5\\ \\mathrm{MeV}\\\\\\approx12{,}9\\ \\mathrm{MeV}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 12,9 MeV.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -217120,7 +217225,7 @@ window.BANK = [
   "niva": "C",
   "typ": "energi i D–³He-fusion",
   "poang": "(0/1/0)",
-  "t": "<p>I reaktionen \\[{}^{2}\\mathrm H+{}^{3}\\mathrm{He}\\rightarrow{}^{4}\\mathrm{He}+{}^{1}\\mathrm H\\] är atommassorna 2,014102 u, 3,016029 u, 4,002603 u och 1,007825 u i samma ordning. Hur mycket energi frigörs? (Svara i MeV.)</p>",
+  "t": "<p>I reaktionen \\[{}^{2}\\mathrm H+{}^{3}\\mathrm{He}\\rightarrow{}^{4}\\mathrm{He}+{}^{1}\\mathrm H\\] är atommassorna 2,014102 u, 3,016029 u, 4,002603 u och 1,007825 u i samma ordning. Hur mycket energi frigörs?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massminskningen är massan före minus massan efter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m\\\\=2{,}014102+3{,}016029\\\\-4{,}002603-1{,}007825\\\\=0{,}019703\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =0{,}019703\\cdot931{,}5\\ \\mathrm{MeV}\\\\\\approx18{,}4\\ \\mathrm{MeV}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 18,4 MeV.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -217148,7 +217253,7 @@ window.BANK = [
   "niva": "E",
   "typ": "andel av massan som blir energi",
   "poang": "(1/0/0)",
-  "t": "<p>Vid D–T-fusion är massan före reaktionen 5,030151 u och massminskningen 0,018883 u. Hur många procent av massan omvandlas till energi? (Svara i procent.)</p>",
+  "t": "<p>Vid D–T-fusion är massan före reaktionen 5,030151 u och massminskningen 0,018883 u. Hur många procent av massan omvandlas till energi?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför massminskningen med massan före.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{0{,}018883}{5{,}030151}\\cdot100\\,\\%\\approx0{,}38\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,38 %.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -217177,7 +217282,8 @@ window.BANK = [
   "niva": "C",
   "typ": "varför järn inte kan ge fusionsenergi",
   "poang": "(0/1/0)",
-  "t": "<p>I stora stjärnor bildas grundämnen genom fusion ända upp till järn. Varför kan fusion av järnkärnor inte frigöra energi? (Välj ett alternativ.)</p>",
+  "t": "<p>I stora stjärnor bildas grundämnen genom fusion ända upp till järn. Varför kan fusion av järnkärnor inte frigöra energi?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Järn-56 har nästan högst bindningsenergi per nukleon av alla kärnor. Om järnkärnor slås ihop till tyngre kärnor minskar bindningsenergin per nukleon, och då krävs energi i stället för att energi frigörs.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Järn har störst bindningsenergi per nukleon, så tyngre kärnor är mindre hårt bundna.</p></div>",
   "familj": "Fusion och energi",
   "formaga": [
@@ -217225,7 +217331,7 @@ window.BANK = [
   "niva": "C",
   "typ": "bindningsenergi per nukleon i litium-7",
   "poang": "(0/1/0)",
-  "t": "<p>En litium-7-atom har 3 protoner, 4 neutroner och atommassan 7,016004 u. En väteatom har massan 1,007825 u och en neutron 1,008665 u. Bestäm bindningsenergin per nukleon. (Svara i MeV med två decimaler.)</p>",
+  "t": "<p>En litium-7-atom har 3 protoner, 4 neutroner och atommassan 7,016004 u. En väteatom har massan 1,007825 u och en neutron 1,008665 u. Bestäm bindningsenergin per nukleon.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekten är massan av 3 väteatomer och 4 neutroner minus litiumatomens massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m\\\\=3\\cdot1{,}007825+4\\cdot1{,}008665\\\\-7{,}016004\\\\=0{,}042131\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_b =0{,}042131\\cdot931{,}5\\ \\mathrm{MeV}\\\\\\approx39{,}2\\ \\mathrm{MeV}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{39{,}2}{7}\\ \\mathrm{MeV}\\approx5{,}61\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 5,61 MeV per nukleon.</p></div>",
   "familj": "Massdefekt och bindningsenergi",
   "formaga": [
@@ -217253,7 +217359,7 @@ window.BANK = [
   "niva": "C",
   "typ": "total bindningsenergi i syre-16",
   "poang": "(0/1/0)",
-  "t": "<p>En syre-16-atom har 8 protoner, 8 neutroner och atommassan 15,994915 u. En väteatom har massan 1,007825 u och en neutron 1,008665 u. Bestäm kärnans totala bindningsenergi. (Svara i MeV.)</p>",
+  "t": "<p>En syre-16-atom har 8 protoner, 8 neutroner och atommassan 15,994915 u. En väteatom har massan 1,007825 u och en neutron 1,008665 u. Bestäm kärnans totala bindningsenergi.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massdefekten är massan av 8 väteatomer och 8 neutroner minus syreatomens massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m\\\\=8\\cdot1{,}007825+8\\cdot1{,}008665\\\\-15{,}994915\\\\=0{,}137005\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_b =0{,}137005\\cdot931{,}5\\ \\mathrm{MeV}\\\\\\approx128\\ \\mathrm{MeV}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 128 MeV.</p></div>",
   "familj": "Massdefekt och bindningsenergi",
   "formaga": [
@@ -217281,7 +217387,7 @@ window.BANK = [
   "niva": "C",
   "typ": "atommassa ur bindningsenergi per nukleon",
   "poang": "(0/1/0)",
-  "t": "<p>Neon-20 har 10 protoner, 10 neutroner och bindningsenergin 8,03 MeV per nukleon. En väteatom har massan 1,007825 u och en neutron 1,008665 u. Bestäm neonatomens massa. (Svara i u.)</p>",
+  "t": "<p>Neon-20 har 10 protoner, 10 neutroner och bindningsenergin 8,03 MeV per nukleon. En väteatom har massan 1,007825 u och en neutron 1,008665 u. Bestäm neonatomens massa.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den totala bindningsenergin är \\(20\\cdot8{,}03=160{,}6\\) MeV. Gör om till u och dra bort från massan av de fria beståndsdelarna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=\\frac{160{,}6}{931{,}5}\\ \\mathrm u=0{,}1724\\ \\mathrm u\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}m\\\\=10\\cdot1{,}007825+10\\cdot1{,}008665\\\\-0{,}1724\\ \\mathrm u\\\\\\approx19{,}992\\ \\mathrm u\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 19,992 u.</p></div>",
   "familj": "Massdefekt och bindningsenergi",
   "formaga": [
@@ -217337,7 +217443,7 @@ window.BANK = [
   "niva": "C",
   "typ": "energi för att ta loss en neutron",
   "poang": "(0/1/0)",
-  "t": "<p>Hur mycket energi krävs för att ta loss en neutron från kol-13, så att kol-12 och en fri neutron bildas? Atommassorna är 13,003355 u för kol-13 och 12,000000 u för kol-12. En neutron har massan 1,008665 u. (Svara i MeV.)</p>",
+  "t": "<p>Hur mycket energi krävs för att ta loss en neutron från kol-13, så att kol-12 och en fri neutron bildas? Atommassorna är 13,003355 u för kol-13 och 12,000000 u för kol-12. En neutron har massan 1,008665 u.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin som krävs motsvarar massökningen när neutronen tas loss.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m\\\\=12{,}000000+1{,}008665-13{,}003355\\\\=0{,}005310\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}005310\\cdot931{,}5\\ \\mathrm{MeV}\\approx4{,}9\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4,9 MeV.</p></div>",
   "familj": "Massdefekt och bindningsenergi",
   "formaga": [
@@ -217366,7 +217472,7 @@ window.BANK = [
   "niva": "C",
   "typ": "energi vid fission ur bindningsenergier",
   "poang": "(0/1/0)",
-  "t": "<p>Uran-235 har bindningsenergin 7,59 MeV per nukleon. När kärnan klyvs får fragmenten i genomsnitt 8,40 MeV per nukleon. Uppskatta hur mycket energi som frigörs vid en klyvning. (Svara i MeV.)</p>",
+  "t": "<p>Uran-235 har bindningsenergin 7,59 MeV per nukleon. När kärnan klyvs får fragmenten i genomsnitt 8,40 MeV per nukleon. Uppskatta hur mycket energi som frigörs vid en klyvning.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet nukleoner är detsamma, men varje nukleon blir 0,81 MeV hårdare bunden. Den ökade bindningsenergin frigörs.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E \\approx235\\cdot(8{,}40-7{,}59)\\ \\mathrm{MeV}\\\\\\approx190\\ \\mathrm{MeV}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 190 MeV.</p></div>",
   "familj": "Massdefekt och bindningsenergi",
   "formaga": [
@@ -219158,7 +219264,7 @@ window.BANK = [
   "niva": "C",
   "typ": "energin i en mol fotoner",
   "poang": "(0/1/0)",
-  "t": "<p>Hur stor energi har en mol fotoner av grönt ljus med våglängden 500 nm? (Svara i kJ.)</p>",
+  "t": "<p>Hur stor energi har en mol fotoner av grönt ljus med våglängden 500 nm?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm energin hos en foton med \\(E=\\dfrac{hc}{\\lambda}\\) och multiplicera med antalet fotoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_{\\text{foton}} =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{500\\cdot10^{-9}}\\ \\mathrm J\\\\\\approx3{,}98\\cdot10^{-19}\\ \\mathrm J\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =6{,}02\\cdot10^{23}\\cdot3{,}98\\cdot10^{-19}\\ \\mathrm J\\\\\\approx2{,}4\\cdot10^{5}\\ \\mathrm J =240\\ \\mathrm{kJ}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det är ungefär lika mycket energi som det krävs för att bryta de kemiska bindningarna i en mol av många ämnen. Därför kan ljus driva kemiska reaktioner, till exempel fotosyntes.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 240 kJ.</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
@@ -219186,7 +219292,7 @@ window.BANK = [
   "niva": "C",
   "typ": "våglängden när en radiostation byter frekvens",
   "poang": "(0/1/0)",
-  "t": "<p>En radiostation byter sändningsfrekvens från 90 MHz till 100 MHz. Hur mycket kortare blir våglängden? (Svara i cm.)</p>",
+  "t": "<p>En radiostation byter sändningsfrekvens från 90 MHz till 100 MHz. Hur mycket kortare blir våglängden?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Våglängden fås ur \\(c=f\\lambda\\). Högre frekvens ger kortare våglängd.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda_{90}=\\frac{3{,}00\\cdot10^{8}}{90\\cdot10^{6}}\\ \\mathrm m\\approx3{,}33\\ \\mathrm m,\\\\\\lambda_{100}=\\frac{3{,}00\\cdot10^{8}}{100\\cdot10^{6}}\\ \\mathrm m=3{,}00\\ \\mathrm m\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta\\lambda=3{,}33-3{,}00=0{,}33\\ \\mathrm m=33\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 33 cm kortare.</p></div>",
   "familj": "Det elektromagnetiska spektrumet",
   "formaga": [
@@ -219242,7 +219348,8 @@ window.BANK = [
   "niva": "C",
   "typ": "vilken sorts strålning en foton är",
   "poang": "(0/1/0)",
-  "t": "<p>En foton har energin 5,0 eV. Vilken typ av elektromagnetisk strålning är det? (Välj ett alternativ.)</p>",
+  "t": "<p>En foton har energin 5,0 eV. Vilken typ av elektromagnetisk strålning är det?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Räkna om energin till joule och bestäm våglängden med \\(\\lambda=\\dfrac{hc}{E}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{5{,}0\\cdot1{,}602\\cdot10^{-19}}\\ \\mathrm m\\\\\\approx2{,}5\\cdot10^{-7}\\ \\mathrm m =250\\ \\mathrm{nm}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Synligt ljus har våglängder från ungefär 400 nm till 700 nm. 250 nm är kortare än violett ljus, alltså ultraviolett strålning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ultraviolett strålning.</p></div>",
   "familj": "Det elektromagnetiska spektrumet",
   "formaga": [
@@ -219288,7 +219395,7 @@ window.BANK = [
   "niva": "C",
   "typ": "energiintervallet för synligt ljus",
   "poang": "(0/1/0)",
-  "t": "<p>Synligt ljus har våglängder från 400 nm till 700 nm. Mellan vilka energier ligger fotonerna i synligt ljus? (Svara i eV med en decimal.)</p>",
+  "t": "<p>Synligt ljus har våglängder från 400 nm till 700 nm. Mellan vilka energier ligger fotonerna i synligt ljus?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin är omvänt proportionell mot våglängden, \\(E=\\dfrac{hc}{\\lambda}\\). Den längsta våglängden, 700 nm, ger den lägsta energin.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_{700} =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{700\\cdot10^{-9}\\cdot1{,}602\\cdot10^{-19}}\\ \\mathrm{eV}\\\\\\approx1{,}8\\ \\mathrm{eV}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_{400} =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{400\\cdot10^{-9}\\cdot1{,}602\\cdot10^{-19}}\\ \\mathrm{eV}\\\\\\approx3{,}1\\ \\mathrm{eV}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Mellan ungefär 1,8 eV och 3,1 eV.</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
@@ -220578,7 +220685,8 @@ window.BANK = [
   "niva": "C",
   "typ": "antal alfa- och betasönderfall i en serie",
   "poang": "(0/1/0)",
-  "t": "<p>Torium-232 (atomnummer 90) sönderfaller i flera steg till den stabila kärnan bly-208 (atomnummer 82). I serien sker bara alfasönderfall och beta-minus-sönderfall.</p><p>Hur många alfasönderfall och hur många beta-minus-sönderfall sker? (Svara med två heltal.)</p>",
+  "t": "<p>Torium-232 (atomnummer 90) sönderfaller i flera steg till den stabila kärnan bly-208 (atomnummer 82). I serien sker bara alfasönderfall och beta-minus-sönderfall.</p><p>Hur många alfasönderfall och hur många beta-minus-sönderfall sker?</p>",
+  "kgInstruktion": "Svara med två heltal.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bara alfasönderfall ändrar masstalet, med 4 varje gång. Masstalet minskar från 232 till 208.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\text{antal alfa}=\\frac{232-208}{4}=6\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Sex alfasönderfall minskar atomnumret med \\(6\\cdot2=12\\), alltså till 78. Varje beta-minus-sönderfall ökar atomnumret med 1, och slutet ska vara 82.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\text{antal beta-minus}=82-78=4\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6 alfasönderfall och 4 beta-minus-sönderfall.</p></div>",
   "familj": "Beta-minus-sönderfall",
   "familjNyckel": "karnreaktioner__beta_minus_sonderfall",
@@ -220626,7 +220734,7 @@ window.BANK = [
   "niva": "C",
   "typ": "gammafotonens våglängd",
   "poang": "(0/1/0)",
-  "t": "<p>När cesium-137 har beta-sönderfallit hamnar dotterkärnan barium-137 i ett exciterat tillstånd. När kärnan går till grundtillståndet sänds en gammafoton ut med energin 0,662 MeV. Hur stor är fotonens våglängd? (Svara i pm.)</p>",
+  "t": "<p>När cesium-137 har beta-sönderfallit hamnar dotterkärnan barium-137 i ett exciterat tillstånd. När kärnan går till grundtillståndet sänds en gammafoton ut med energin 0,662 MeV. Hur stor är fotonens våglängd?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gammafotonen bär energiskillnaden mellan kärnans tillstånd. Gör om energin till joule och använd \\(\\lambda=\\dfrac{hc}{E}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =0{,}662\\cdot1{,}602\\cdot10^{-13}\\ \\mathrm J\\\\\\approx1{,}06\\cdot10^{-13}\\ \\mathrm J\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda =\\frac{6{,}626\\cdot10^{-34}\\cdot2{,}998\\cdot10^{8}}{1{,}06\\cdot10^{-13}}\\ \\mathrm m\\\\\\approx1{,}87\\cdot10^{-12}\\ \\mathrm m =1{,}87\\ \\mathrm{pm}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid gammastrålning ändras varken masstal eller atomnummer, bara kärnans energi.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,87 pm.</p></div>",
   "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
   "familjNyckel": "karnreaktioner__beta_plus_sonderfall",
@@ -220655,7 +220763,8 @@ window.BANK = [
   "niva": "C",
   "typ": "när bara elektroninfångning är möjlig",
   "poang": "(0/1/0)",
-  "t": "<p>En moderatom har en atommassa som bara är 0,00080 u större än dotteratomens. Moderkärnan har för få neutroner. Vilket sönderfall kan ske? (Välj ett alternativ.)</p>",
+  "t": "<p>En moderatom har en atommassa som bara är 0,00080 u större än dotteratomens. Moderkärnan har för få neutroner. Vilket sönderfall kan ske?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-plus-sönderfall måste moderatomen vara minst två elektronmassor tyngre än dotteratomen, eftersom en positron skapas och en elektron blir över i atomen. Två elektronmassor är ungefär 0,0011 u.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Här är skillnaden bara 0,00080 u, så beta-plus-sönderfall är omöjligt. Elektroninfångning kräver bara att moderatomen är tyngre, så den kan ske.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bara elektroninfångning.</p></div>",
   "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
   "familjNyckel": "karnreaktioner__beta_plus_sonderfall",
@@ -220702,7 +220811,7 @@ window.BANK = [
   "niva": "C",
   "typ": "tritiums sönderfallsenergi i keV",
   "poang": "(0/1/0)",
-  "t": "<p>Tritium (väte-3) beta-minus-sönderfaller till helium-3. De neutrala atommassorna är 3,016049 u och 3,016029 u. Hur mycket energi frigörs? (Svara i keV.)</p>",
+  "t": "<p>Tritium (väte-3) beta-minus-sönderfaller till helium-3. De neutrala atommassorna är 3,016049 u och 3,016029 u. Hur mycket energi frigörs?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus-sönderfall kan man räkna direkt med de neutrala atommassorna, eftersom elektronerna tar ut varandra. Massminskningen omvandlas till energi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m =3{,}016049-3{,}016029\\\\=0{,}000020\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =0{,}000020\\cdot931{,}5\\ \\mathrm{MeV}\\\\\\approx0{,}019\\ \\mathrm{MeV} =19\\ \\mathrm{keV}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin är mycket liten. Därför används tritium i självlysande skyltar och klockor, där strålningen inte ens tar sig ut genom glaset.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 19 keV.</p></div>",
   "familj": "Beta-minus-sönderfall",
   "familjNyckel": "karnreaktioner__beta_minus_sonderfall",
@@ -220731,7 +220840,8 @@ window.BANK = [
   "niva": "C",
   "typ": "sönderfallstyp ur ett N–Z-diagram",
   "poang": "(0/1/0)",
-  "t": "<p>Diagrammet visar var de stabila kärnorna ligger när antalet neutroner N avsätts mot antalet protoner Z. Kärnan X är instabil.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"320\" viewBox=\"0 0 470 320\" role=\"img\" aria-label=\"Diagram med antal neutroner mot antal protoner. Ett grönt band visar de stabila kärnorna, som ligger något ovanför linjen N = Z. Kärnan X med 30 protoner och 45 neutroner ligger klart ovanför bandet.\"><title>Diagram med antal neutroner mot antal protoner. Ett grönt band visar de stabila kärnorna, som ligger något ovanför linjen N = Z. Kärnan X med 30 protoner och 45 neutroner ligger klart ovanför bandet.</title><rect x=\"1\" y=\"1\" width=\"468\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"60.0\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><text x=\"121.7\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><text x=\"183.3\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">20</text><text x=\"245.0\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">30</text><text x=\"306.7\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">40</text><text x=\"368.3\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">50</text><text x=\"430.0\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">60</text><line x1=\"60\" y1=\"270.0\" x2=\"430\" y2=\"270.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"60\" y1=\"243.3\" x2=\"430\" y2=\"243.3\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"247.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"60\" y1=\"216.7\" x2=\"430\" y2=\"216.7\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"220.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"60\" y1=\"190.0\" x2=\"430\" y2=\"190.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">30</text><line x1=\"60\" y1=\"163.3\" x2=\"430\" y2=\"163.3\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"167.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">40</text><line x1=\"60\" y1=\"136.7\" x2=\"430\" y2=\"136.7\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"140.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">50</text><line x1=\"60\" y1=\"110.0\" x2=\"430\" y2=\"110.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"114.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">60</text><line x1=\"60\" y1=\"83.3\" x2=\"430\" y2=\"83.3\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"87.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">70</text><line x1=\"60\" y1=\"56.7\" x2=\"430\" y2=\"56.7\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"60.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">80</text><line x1=\"60\" y1=\"30.0\" x2=\"430\" y2=\"30.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"34.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">90</text><line x1=\"60\" y1=\"270\" x2=\"436\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"60\" y1=\"270\" x2=\"60\" y2=\"24\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"245.0\" y=\"308.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">antal protoner Z</text><text x=\"56.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#243447\" font-weight=\"bold\">antal neutroner N</text><polyline points=\"60.0,270.0 72.3,264.6 84.7,259.1 97.0,253.4 109.3,247.6 121.7,241.6 134.0,235.5 146.3,229.3 158.7,222.9 171.0,216.4 183.3,209.7 195.7,202.9 208.0,196.0 220.3,188.9 232.7,181.7 245.0,174.4 257.3,166.9 269.7,159.3 282.0,151.5 294.3,143.6 306.7,135.6 319.0,127.4 331.3,119.1 343.7,110.7 356.0,102.1 368.3,93.3 380.7,84.5 393.0,75.5 405.3,66.3 417.7,57.0 430.0,47.6\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"9\" opacity=\"0.35\" stroke-linecap=\"round\"/><line x1=\"60.0\" y1=\"270.0\" x2=\"430.0\" y2=\"110.0\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><text x=\"423.8\" y=\"155.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">N = Z</text><line x1=\"72.3\" y1=\"70.0\" x2=\"97.0\" y2=\"70.0\" stroke=\"#2f7d4a\" stroke-width=\"9\" opacity=\"0.35\" stroke-linecap=\"round\"/><text x=\"106.2\" y=\"74.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">stabila kärnor</text><circle cx=\"245.0\" cy=\"150.0\" r=\"6\" fill=\"#c2410c\"/><text x=\"233.0\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">X</text></svg></span><p>Vilket sönderfall är mest troligt för X? (Välj ett alternativ.)</p>",
+  "t": "<p>Diagrammet visar var de stabila kärnorna ligger när antalet neutroner N avsätts mot antalet protoner Z. Kärnan X är instabil.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"320\" viewBox=\"0 0 470 320\" role=\"img\" aria-label=\"Diagram med antal neutroner mot antal protoner. Ett grönt band visar de stabila kärnorna, som ligger något ovanför linjen N = Z. Kärnan X med 30 protoner och 45 neutroner ligger klart ovanför bandet.\"><title>Diagram med antal neutroner mot antal protoner. Ett grönt band visar de stabila kärnorna, som ligger något ovanför linjen N = Z. Kärnan X med 30 protoner och 45 neutroner ligger klart ovanför bandet.</title><rect x=\"1\" y=\"1\" width=\"468\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"60.0\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><text x=\"121.7\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><text x=\"183.3\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">20</text><text x=\"245.0\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">30</text><text x=\"306.7\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">40</text><text x=\"368.3\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">50</text><text x=\"430.0\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">60</text><line x1=\"60\" y1=\"270.0\" x2=\"430\" y2=\"270.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"60\" y1=\"243.3\" x2=\"430\" y2=\"243.3\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"247.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"60\" y1=\"216.7\" x2=\"430\" y2=\"216.7\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"220.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"60\" y1=\"190.0\" x2=\"430\" y2=\"190.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">30</text><line x1=\"60\" y1=\"163.3\" x2=\"430\" y2=\"163.3\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"167.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">40</text><line x1=\"60\" y1=\"136.7\" x2=\"430\" y2=\"136.7\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"140.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">50</text><line x1=\"60\" y1=\"110.0\" x2=\"430\" y2=\"110.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"114.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">60</text><line x1=\"60\" y1=\"83.3\" x2=\"430\" y2=\"83.3\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"87.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">70</text><line x1=\"60\" y1=\"56.7\" x2=\"430\" y2=\"56.7\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"60.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">80</text><line x1=\"60\" y1=\"30.0\" x2=\"430\" y2=\"30.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"34.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">90</text><line x1=\"60\" y1=\"270\" x2=\"436\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"60\" y1=\"270\" x2=\"60\" y2=\"24\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"245.0\" y=\"308.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">antal protoner Z</text><text x=\"56.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#243447\" font-weight=\"bold\">antal neutroner N</text><polyline points=\"60.0,270.0 72.3,264.6 84.7,259.1 97.0,253.4 109.3,247.6 121.7,241.6 134.0,235.5 146.3,229.3 158.7,222.9 171.0,216.4 183.3,209.7 195.7,202.9 208.0,196.0 220.3,188.9 232.7,181.7 245.0,174.4 257.3,166.9 269.7,159.3 282.0,151.5 294.3,143.6 306.7,135.6 319.0,127.4 331.3,119.1 343.7,110.7 356.0,102.1 368.3,93.3 380.7,84.5 393.0,75.5 405.3,66.3 417.7,57.0 430.0,47.6\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"9\" opacity=\"0.35\" stroke-linecap=\"round\"/><line x1=\"60.0\" y1=\"270.0\" x2=\"430.0\" y2=\"110.0\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><text x=\"423.8\" y=\"155.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">N = Z</text><line x1=\"72.3\" y1=\"70.0\" x2=\"97.0\" y2=\"70.0\" stroke=\"#2f7d4a\" stroke-width=\"9\" opacity=\"0.35\" stroke-linecap=\"round\"/><text x=\"106.2\" y=\"74.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">stabila kärnor</text><circle cx=\"245.0\" cy=\"150.0\" r=\"6\" fill=\"#c2410c\"/><text x=\"233.0\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">X</text></svg></span><p>Vilket sönderfall är mest troligt för X?</p>",
+  "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">X ligger ovanför stabilitetsbandet, alltså har den för många neutroner i förhållande till protonerna.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus-sönderfall omvandlas en neutron till en proton och en elektron. Då minskar N med 1 och Z ökar med 1, och kärnan flyttas mot bandet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Beta-minus-sönderfall.</p></div>",
   "familj": "Beta-minus-sönderfall",
   "familjNyckel": "karnreaktioner__beta_minus_sonderfall",

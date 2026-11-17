@@ -309,7 +309,7 @@
       const admin=typeof arAdmin!=="undefined"&&arAdmin?`<p class="aif-info"><button type="button" class="btn sm quiet" onclick="kgAi.admin()">Adminöversikt för AI-feedback</button></p>`:"";
       app.innerHTML=topbar()+`<main class="shell view"><div class="aif">
         <h1>Få feedback på din lösning</h1>
-        <p class="aif-ingress">Fotografera en uppgift och din egen lösning. Du får återkoppling som när en lärare rättar: vad som är rätt, var du tänkte fel och vad som saknas i redovisningen för full poäng.</p>
+        <p class="aif-ingress">Fotografera din lösning för att se vad som blev fel, eller vad du behöver tänka på när du redovisar.</p>
         ${kropp}${admin}</div></main>`;
       afterRender();
       rot=app;
@@ -361,7 +361,7 @@
     ov.className="aif-overlay"; ov.setAttribute("role","dialog"); ov.setAttribute("aria-modal","true"); ov.setAttribute("aria-label","Få feedback på din lösning");
     ov.innerHTML=`<div class="aif-ov-ruta"><div class="aif-ov-topp"><b>Få feedback på din lösning</b>
       <button type="button" class="btn sm" onclick="kgAi.stang()">Tillbaka till uppgiften</button></div>
-      <p class="aif-ingress">Fotografera din lösning på papper. Du får återkoppling som när en lärare rättar: vad som är rätt, var du tänkte fel och vad som saknas för full poäng.</p>
+      <p class="aif-ingress">Fotografera din lösning för att se vad som blev fel, eller vad du behöver tänka på när du redovisar.</p>
       <div class="aif-ov-kropp"></div></div>`;
     document.body.appendChild(ov);
     document.body.classList.add("aif-las");
@@ -499,7 +499,7 @@
     if(!MOLN_PA()) return "";
     return `<button type="button" class="aif-hemkort" onclick="kgAi.oppna()">
       <span class="aif-ikon">${KAMERA}</span>
-      <span><b>Få feedback på din lösning</b><span class="aif-sub">Fota en uppgift och din lösning och få återkoppling</span></span>
+      <span><b>Få feedback på din lösning</b><span class="aif-sub">Fotografera din lösning och se vad som blev fel</span></span>
       <span class="aif-pil" aria-hidden="true">→</span></button>`;
   }
 

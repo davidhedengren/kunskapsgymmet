@@ -1567,7 +1567,15 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .mu-pct b{font-size:38px;font-weight:700;letter-spacing:-.05em;line-height:1}
 .mu-pct span{font-size:16px;font-weight:600;color:var(--ink3);margin-left:2px}
 .mu-legend{grid-area:legend;list-style:none;margin:0;padding:0;display:grid;gap:16px}
-.mu-legend li{display:grid;grid-template-columns:12px minmax(0,1fr) auto;align-items:center;gap:12px}
+.mu-legend li{display:block}
+/* Raderna väljer vad talet i ringen visar (Grunderna som standard, 2026-11-17). */
+.mu-val{display:grid;grid-template-columns:12px minmax(0,1fr) auto;align-items:center;gap:12px;box-sizing:border-box;
+  width:calc(100% + 22px);margin:-7px -11px;padding:6px 10px;border:1px solid transparent;border-radius:12px;
+  background:none;font:inherit;color:inherit;text-align:left;cursor:pointer}
+.mu-val:hover{background:var(--surface2)}
+.mu-val.vald{border-color:var(--sc);background:color-mix(in srgb,var(--sc) 9%,transparent)}
+.mu-val:focus-visible{outline:2px solid var(--sc);outline-offset:2px}
+.mu-pct-namn{position:absolute;left:0;right:0;top:108px;text-align:center;font-size:11.5px;font-weight:600;color:var(--ink3)}
 .mu-prick{width:12px;height:12px;border-radius:50%;background:var(--sc)}
 .mu-steg{font-size:16px;font-weight:600;letter-spacing:-.02em}
 .mu-steg small{display:block;font-size:12.5px;font-weight:500;color:var(--ink3);letter-spacing:0;margin-top:1px}
@@ -9036,8 +9044,28 @@ const STEG=[
   {id:"utm",namn:"Utmaning",niv:["4","5"],kort:"nivå 4–5"}
 ];
 const STEG_MIN=4;
-/* Kursringen: grunderna i hela kursen ger 90 %, resten kommer från de högre stegen. */
-const STEG_VIKT={grund:90,till:7,utm:3};
+/* Talet i kursringen visar ett steg i taget (användarbeslut 2026-11-17): som standard
+   Grunderna, och eleven kan klicka fram Tillämpning eller Utmaning. Den tidigare
+   sammanvägningen 90/7/3 gav 96 % till en elev med 20 % på nivå 4–5 (felrapport). Valet
+   är en bekvämlighet per webbläsare och sparas därför i localStorage. */
+const KURSVY=["grund","till","utm"];
+function kursvyLas(){
+  try{ const v=localStorage.getItem("kg_kursvy"); return KURSVY.includes(v)?v:"grund"; }catch(e){ return "grund"; }
+}
+function valjKursvy(id){
+  if(!KURSVY.includes(id)) return;
+  try{ localStorage.setItem("kg_kursvy",id); }catch(e){}
+  const hero=document.querySelector(".mu-hero");
+  const knapp=hero?.querySelector(`.mu-val[data-steg="${id}"]`);
+  if(!knapp) return;
+  hero.querySelectorAll(".mu-val").forEach(b=>{
+    const vald=b===knapp;
+    b.classList.toggle("vald",vald);
+    b.setAttribute("aria-pressed",vald?"true":"false");
+  });
+  hero.querySelector(".mu-pct b").textContent=knapp.dataset.pct;
+  hero.querySelector(".mu-pct-namn").textContent=knapp.dataset.namn;
+}
 const STEG_GRANS={fran:.35,till:.65};
 function omradesNivaer(){
   const m={};
@@ -9076,9 +9104,6 @@ function stegLage(areor,finns=omradesNivaer()){
     const narmast=v.filter(x=>x.v>0 && x.v<.95).sort((x,y)=>y.v-x.v)[0]?.a||null;
     return {...steg,pct,klara,antal:v.length,narmast};
   });
-}
-function kursRing(lage){
-  return Math.round(lage.reduce((sum,x)=>sum+(STEG_VIKT[x.id]||0)*x.pct/100,0));
 }
 function stegStatus(lage,tranat){
   const [g,t,u]=lage;
@@ -16144,8 +16169,10 @@ function oppnaMatarhjalp(){
       </ul>
       <p>Ett steg är klart i ett område när du nått stegets läge där:
       <b>Behärskar grunderna</b> för grunderna, <b>Stark</b> för tillämpning
-      och <b>Mycket stark</b> för utmaning. Talet i mitten är ditt
-      kursläge: klara grunder i hela kursen ger 90 %.</p>
+      och <b>Mycket stark</b> för utmaning.</p>
+      <p>Talet i mitten visar hur stor del av kursen du klarar på grundnivå.
+      Tryck på <b>Tillämpning</b> eller <b>Utmaning</b> bredvid ringarna för
+      att se hur stor del av kursen du klarar på nivå 3 eller nivå 4–5.</p>
 
       <h3>Lägena i ett område</h3>
       <ul class="nivalista">
@@ -16203,7 +16230,7 @@ function showProgress(record){
   const st=currentStreak();
 
   const finns=omradesNivaer(), alla=getAreas();
-  const lage=stegLage(alla,finns), kursPct=kursRing(lage);
+  const lage=stegLage(alla,finns), vy=kursvyLas(), vald=lage.find(x=>x.id===vy)||lage[0];
   const kap=chapterProgress();
   const tranat=kap.some(c=>NIVAER.some(L=>c.stat[L].n));
   const stegStapel=(x,namn)=>`<span class="sbar s-${x.id}" role="meter" aria-valuemin="0" aria-valuemax="100"
@@ -16221,13 +16248,16 @@ function showProgress(record){
     <section class="card mu-hero" aria-label="Kursläge">
       <div class="mu-ringar">
         ${aktivitetsringar(lage)}
-        <div class="mu-pct"><b>${kursPct}</b><span>%</span></div>
+        <div class="mu-pct" aria-live="polite"><b>${vald.pct}</b><span>%</span><small class="mu-pct-namn">${vald.namn}</small></div>
       </div>
-      <ul class="mu-legend">
+      <ul class="mu-legend" aria-label="Välj vilket steg talet i ringen visar">
         ${lage.map(x=>`<li class="s-${x.id}">
-          <span class="mu-prick" aria-hidden="true"></span>
-          <span class="mu-steg">${x.namn}<small>${x.kort}</small></span>
-          <span class="mu-antal"><b>${x.pct}<small>%</small></b><span>${x.klara} av ${x.antal} klara</span></span>
+          <button type="button" class="mu-val${x===vald?" vald":""}" data-steg="${x.id}" data-pct="${x.pct}" data-namn="${x.namn}"
+            aria-pressed="${x===vald}" onclick="valjKursvy('${x.id}')" title="Visa ${x.namn.toLowerCase()} i ringen">
+            <span class="mu-prick" aria-hidden="true"></span>
+            <span class="mu-steg">${x.namn}<small>${x.kort}</small></span>
+            <span class="mu-antal"><b>${x.pct}<small>%</small></b><span>${x.klara} av ${x.antal} klara</span></span>
+          </button>
         </li>`).join("")}
       </ul>
       <dl class="mu-stats">

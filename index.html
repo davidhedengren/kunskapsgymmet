@@ -2538,6 +2538,7 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   .aacts:has(>.btn:nth-child(3))>.btn.primary{flex-basis:100%}
 }
 .hint{margin-top:10px;font-size:12px;color:var(--ink3);line-height:1.5}
+.tbody p.kg-instr{font-size:.88em;color:var(--ink2);margin:-6px 0 14px}
 
 
 .felruta{
@@ -4154,7 +4155,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-17-fellogg-0908";
+const BANK_VERSION="2026-11-17-sprak-fy1-rm";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -7248,7 +7249,7 @@ async function selectCourse(id,opts){
       try{ await loadScript(c.typfil); granskaGenomgangar(c); }
       catch(e){ console.warn("Genomgångar kunde inte läsas in:",c.typfil,e); }
     }
-    const bank=window[c.globals.bank];
+    const bank=kgInstruktionerIn(window[c.globals.bank]);
     const kap=window[c.globals.kap] || {};
 
     const kapSpar=window[c.globals.kapSpar] || null;
@@ -7297,6 +7298,26 @@ function isExcluded(t){
 
 function metadataForDel(varde,index,antal){
   return Array.isArray(varde) && varde.length===antal ? varde[index] : varde;
+}
+/* Rättningsinstruktioner som bara ska synas här (användarbeslut 2026-11-17, språkgranskningen).
+   Uppgiftslabbet visar t för papper och ignorerar fältet kgInstruktion. Här läggs instruktionen
+   sist i uppgiftens och delkortets text, en gång per inläst bank. Enheten behövs inte i fältet:
+   svarEnhet ger redan "Svara i …" vid svarsrutan. */
+function kgInstruktionerIn(bank){
+  if(!Array.isArray(bank) || bank.__kgInstr) return bank;
+  const rad=s=>`<p class="kg-instr">${s}</p>`;
+  for(const t of bank){
+    if(!t || typeof t!=="object") continue;
+    if(t.kgInstruktion && typeof t.t==="string") t.t+=rad(t.kgInstruktion);
+    if(Array.isArray(t.spelDelar)) for(const d of t.spelDelar){
+      if(!d?.kgInstruktion) continue;
+      if(typeof d.t==="string" && d.t) d.t+=rad(d.kgInstruktion);
+      else if(d.fraga!=null) d.fraga=String(d.fraga)+rad(d.kgInstruktion);
+      else if(typeof t.t==="string") d.t=t.t+rad(d.kgInstruktion);
+    }
+  }
+  try{ Object.defineProperty(bank,"__kgInstr",{value:true}); }catch(e){}
+  return bank;
 }
 function expandGameTask(t){
   if(t?.spelDelning!=="deluppgifter" || !Array.isArray(t.spelDelar)) return [t];
@@ -17011,7 +17032,7 @@ async function provVisaResultat(id){
 async function provKursData(id){
   const c=COURSES[id]; if(!c) throw new Error("okänd kurs");
   for(const f of c.files) await loadScript(f);
-  const bank=window[c.globals.bank]||[];
+  const bank=kgInstruktionerIn(window[c.globals.bank]||[]);
   const omr=window[c.globals.omr]||{};
   const kap=window[c.globals.kap]||{};
   const kapSpar=window[c.globals.kapSpar]||null;
@@ -19478,7 +19499,7 @@ function kvRaknare(t,kurs){
 async function kvLaddaKurs(kurs){
   const k=COURSES[kurs];
   for(const f of k.files) await loadScript(f);
-  return window[k.globals.bank]||[];
+  return kgInstruktionerIn(window[k.globals.bank]||[]);
 }
 async function kvKor(){
   if(kv.kor) return;

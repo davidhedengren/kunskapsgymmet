@@ -94739,7 +94739,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Mellan vilka två heltal ligger \\(\\sqrt{50}\\)?</p>",
+    "t": "<p>Mellan vilka två heltal som följer direkt på varandra ligger \\(\\sqrt{50}\\)?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">7² = 49 och</p><div class=\"facit-matte\">\\[8^{2}=64\\]</div></div></li><li><p>Eftersom 49 &lt; 50 &lt; 64 ligger √50 mellan 7 och 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 och 8.</p></div></div>",
     "familj": "Kvadratrötter",
     "geogebra": false,
@@ -94876,7 +94876,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\(x^2=20\\). Ange den positiva lösningen med två decimaler.</p>",
+    "t": "<p>Vilken är den positiva lösningen till \\(x^2=20\\)?</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[x=\\sqrt{20}\\approx4{,}47\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,4721</p></div></div>",
     "familj": "Ekvationen x² = a",
     "geogebra": false,
@@ -94903,7 +94904,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett kvadratiskt golv i ett förråd ska ha arean 30 m². Hur lång blir en sida? Svara med en decimal.</p>",
+    "t": "<p>Ett förråd ska få ett kvadratiskt golv med arean 30 m². Hur lång blir varje sida?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[s^2=30\\Rightarrow s=\\sqrt{30}\\approx5{,}5\\ \\mathrm m\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,4772 m</p></div></div>",
     "familj": "Ekvationen x² = a",
     "geogebra": false,
@@ -94931,7 +94932,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\(3x^2=75\\). Ange den positiva lösningen.</p>",
+    "t": "<p>Vilket positivt värde på \\(x\\) löser ekvationen \\(3x^2=75\\)?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[x^2=25\\]</p></li><li><p>\\[x=5\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div></div>",
     "familj": "Ekvationen x² = a",
     "geogebra": false,
@@ -94986,7 +94987,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\(x^2+11=60\\). Ange den positiva lösningen.</p>",
+    "t": "<p>Vilken är den positiva lösningen till \\(x^2+11=60\\)?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[x^2=49\\]</p></li><li><p>\\[x=7\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div></div>",
     "familj": "Ekvationen x² = a",
     "geogebra": false,
@@ -95013,7 +95014,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En kvadratisk tomt har arean 1 200 m². Hur lång är tomtens sida? Svara i meter med en decimal.</p>",
+    "t": "<p>En kvadratisk tomt har arean 1 200 m². Hur lång är en sida av tomten?</p>",
+    "kgInstruktion": "Avrunda till en decimal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om sidan är \\(x\\) m gäller \\(x^2=1200\\).</p></li><li><p>Sidan är positiv, så</p></li><li><p>\\[x=\\sqrt{1200}\\approx34{,}6\\text{ m}.\\]</p></li><li><p>Rimlighet: \\(35^2=1225\\), så sidan ska vara strax under 35 m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 34,6 m</p></div>",
     "familj": "Ekvationen x² = a",
     "formaga": [
@@ -95040,7 +95042,7 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Ett kvadratiskt golv har lagts med 400 kvadratiska plattor med sidan 30 cm, utan fogar.</p><p>Hur många plattor hade det gått åt om plattorna i stället hade haft sidan 20 cm?</p>",
+    "t": "<p>Ett kvadratiskt golv täcks av 400 kvadratiska plattor med sidan 30 cm. Hur många kvadratiska plattor med sidan 20 cm skulle behövas till samma golv? Bortse från fogarna.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Golvets area är \\(400\\cdot0{,}30^2=400\\cdot0{,}09=36\\) m².</p></li><li><p>Golvet är kvadratiskt, så sidan är \\(\\sqrt{36}=6\\) m.</p></li><li><p>Längs en sida får det plats \\(\\frac{6}{0{,}20}=30\\) plattor, så det går åt \\(30\\cdot30=900\\) plattor.</p></li><li><p>Snabbare: varje platta får \\(\\left(\\frac{20}{30}\\right)^2=\\frac49\\) av arean, så det går åt \\(400\\cdot\\frac94=900\\) plattor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 900 plattor</p></div>",
     "familj": "Kvadratrötter",
     "formaga": [
@@ -95066,7 +95068,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Beräkna</p><p><strong>a)</strong> \\(\\sqrt{16+9}\\) &nbsp;&nbsp; <strong>b)</strong> \\(\\sqrt{16}+\\sqrt9\\)</p>",
+    "t": "<p>Beräkna båda uttrycken.</p><p><strong>a)</strong> \\(\\sqrt{16+9}\\)</p><p><strong>b)</strong> \\(\\sqrt{16}+\\sqrt{9}\\)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{25}=5\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4+3=7\\].</div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>Svaren är olika.</p></li><li><p>Man kan alltså inte dra roten ur varje term i en summa för sig: \\(\\sqrt{a+b}\\ne\\sqrt a+\\sqrt b\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 5 &nbsp; b) 7</p></div>",
     "familj": "Kvadratrötter",
     "formaga": [
@@ -95101,7 +95103,7 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>En cirkelformad rabatt ska göras om så att arean blir dubbelt så stor. Med hur många procent måste radien öka? Svara med en decimal.</p>",
+    "t": "<p>En cirkelformad rabatt ska förstoras så att arean blir dubbelt så stor. Med hur många procent behöver radien öka?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Arean är \\(\\pi r^2\\).</p></li><li><p>Om den nya radien är \\(k\\cdot r\\) blir arean \\(\\pi k^2r^2\\).</p></li><li><p>Dubbel area kräver \\(k^2=2\\), alltså \\(k=\\sqrt2\\approx1{,}414\\).</p></li><li><p>Radien ska öka med cirka 41,4 %, inte med 100 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 41,4 %</p></div>",
     "familj": "Ekvationen x² = a",
     "formaga": [
@@ -148043,7 +148045,7 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "1/0/0",
   "typ": "stege mot en vägg",
-  "t": "<p>En 5,0 m lång stege står mot en lodrät vägg. Stegens fot står 1,4 m från väggen. Hur högt upp på väggen når stegen? (Svara i m med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" role=\"img\" aria-label=\"En stege lutad mot en lodrät vägg. Stegen är 5,0 m lång och dess fot står 1,4 m från väggen. Höjden h längs väggen är okänd.\" style=\"width:100%;max-width:320px\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"200\" y=\"20\" width=\"16\" height=\"190\" fill=\"#e6dccb\" stroke=\"#172b3a\"/><line x1=\"40\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"148\" y1=\"210\" x2=\"200\" y2=\"30\" stroke=\"#d9622b\" stroke-width=\"6\" stroke-linecap=\"round\"/><polyline points=\"188,210 188,198 200,198\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"170.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">1,4 m</text><text x=\"160.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#d9622b\" text-anchor=\"end\">5,0 m</text><text x=\"228.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"start\">h</text></svg></span>",
+  "t": "<p>En 5,0 m lång stege lutar mot en vertikal vägg. Stegens fot står 1,4 m från väggen. Hur högt upp på väggen når stegen?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" role=\"img\" aria-label=\"En stege lutad mot en lodrät vägg. Stegen är 5,0 m lång och dess fot står 1,4 m från väggen. Höjden h längs väggen är okänd.\" style=\"width:100%;max-width:320px\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"200\" y=\"20\" width=\"16\" height=\"190\" fill=\"#e6dccb\" stroke=\"#172b3a\"/><line x1=\"40\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"148\" y1=\"210\" x2=\"200\" y2=\"30\" stroke=\"#d9622b\" stroke-width=\"6\" stroke-linecap=\"round\"/><polyline points=\"188,210 188,198 200,198\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"170.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">1,4 m</text><text x=\"160.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#d9622b\" text-anchor=\"end\">5,0 m</text><text x=\"228.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"start\">h</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>Stegen, väggen och marken bildar en rätvinklig triangel där stegen är hypotenusan.</p><p>\\(h^2+1{,}4^2=5{,}0^2\\) ger \\(h^2=25-1{,}96=23{,}04\\) och \\(h=\\sqrt{23{,}04}=4{,}80\\) m.</p></div>",
   "familj": "Pythagoras och kvadratrötter i arbetslivet",
   "formaga": [
@@ -148073,7 +148075,7 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "1/0/0",
   "typ": "kontrollera rät vinkel på bygget",
-  "t": "<p>En snickare vill kontrollera att ett hörn är rätvinkligt. Hon mäter 1,2 m längs den ena väggen och 1,6 m längs den andra. Hur långt ska avståndet mellan mätpunkterna vara om hörnet är rätvinkligt? (Svara i m.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 240\" role=\"img\" aria-label=\"En rätvinklig triangel i ett hörn. Kateterna är 1,2 m och 1,6 m. Avståndet mellan ändpunkterna är okänt.\" style=\"width:100%;max-width:300px\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60,200 60,60 240,200\" fill=\"#f3ede2\" stroke=\"#172b3a\" stroke-width=\"2\"/><polyline points=\"74,200 74,186 60,186\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"52.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"end\">1,2 m</text><text x=\"150.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">1,6 m</text><text x=\"162.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#d9622b\" text-anchor=\"start\">?</text></svg></span>",
+  "t": "<p>En snickare mäter från ett hörn och gör ett märke 1,2 m ut på den ena väggen och ett annat 1,6 m ut på den andra. Hur långt ska det vara mellan märkena om hörnet är rätvinkligt?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 240\" role=\"img\" aria-label=\"En rätvinklig triangel i ett hörn. Kateterna är 1,2 m och 1,6 m. Avståndet mellan ändpunkterna är okänt.\" style=\"width:100%;max-width:300px\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60,200 60,60 240,200\" fill=\"#f3ede2\" stroke=\"#172b3a\" stroke-width=\"2\"/><polyline points=\"74,200 74,186 60,186\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"52.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"end\">1,2 m</text><text x=\"150.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">1,6 m</text><text x=\"162.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#d9622b\" text-anchor=\"start\">?</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>\\(\\sqrt{1{,}2^2+1{,}6^2}=\\sqrt{1{,}44+2{,}56}=\\sqrt{4}=2{,}0\\) m.</p><p>Det är samma sak som 3–4–5-regeln, skalad med 0,4.</p></div>",
   "familj": "Pythagoras och kvadratrötter i arbetslivet",
   "formaga": [
@@ -148103,7 +148105,7 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "1/0/0",
   "typ": "diagonal på en tv-skärm",
-  "t": "<p>En tv-skärm är 121 cm bred och 68 cm hög. Hur lång är diagonalen? (Svara i hela cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 200\" role=\"img\" aria-label=\"En rektangulär tv-skärm, 121 cm bred och 68 cm hög, med en streckad diagonal.\" style=\"width:100%;max-width:330px\"><rect x=\"1\" y=\"1\" width=\"328\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"50\" y=\"40\" width=\"220\" height=\"124\" rx=\"4\" fill=\"#2b3440\" stroke=\"#172b3a\" stroke-width=\"3\"/><line x1=\"50\" y1=\"164\" x2=\"270\" y2=\"40\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"160.0\" y=\"186.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">121 cm</text><text x=\"282.0\" y=\"106.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"start\">68 cm</text><text x=\"150.0\" y=\"92.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#d9622b\" text-anchor=\"middle\">diagonal</text></svg></span>",
+  "t": "<p>En tv-skärm är 121 cm bred och 68 cm hög. Hur lång är skärmens diagonal?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 200\" role=\"img\" aria-label=\"En rektangulär tv-skärm, 121 cm bred och 68 cm hög, med en streckad diagonal.\" style=\"width:100%;max-width:330px\"><rect x=\"1\" y=\"1\" width=\"328\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"50\" y=\"40\" width=\"220\" height=\"124\" rx=\"4\" fill=\"#2b3440\" stroke=\"#172b3a\" stroke-width=\"3\"/><line x1=\"50\" y1=\"164\" x2=\"270\" y2=\"40\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"160.0\" y=\"186.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">121 cm</text><text x=\"282.0\" y=\"106.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"start\">68 cm</text><text x=\"150.0\" y=\"92.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#d9622b\" text-anchor=\"middle\">diagonal</text></svg></span>",
   "s": "<div class=\"facit-v2\"><p>\\(d=\\sqrt{121^2+68^2}=\\sqrt{14\\,641+4\\,624}=\\sqrt{19\\,265}\\approx139\\) cm.</p><p>Det motsvarar ungefär 55 tum, eftersom 1 tum = 2,54 cm.</p></div>",
   "familj": "Pythagoras och kvadratrötter i arbetslivet",
   "formaga": [
@@ -148132,7 +148134,8 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "1/0/0",
   "typ": "takstolens längd",
-  "t": "<p>Ett hustak är 8,0 m brett och nocken ligger 1,5 m över takfoten (se figuren). Hur lång måste en takstol från takfoten till nocken vara? (Svara i m med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 205\" role=\"img\" aria-label=\"Ett tak i genomskärning: en likbent triangel som är 8,0 m bred. Från mitten går en streckad höjd på 1,5 m upp till nocken. Halva bredden, 4,0 m, är markerad.\" style=\"width:100%;max-width:340px\"><rect x=\"1\" y=\"1\" width=\"338\" height=\"203\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40,170 300,170 170,90\" fill=\"#f3e3cf\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"170\" y1=\"90\" x2=\"170\" y2=\"170\" stroke=\"#9aa7b4\" stroke-dasharray=\"5 4\"/><polyline points=\"180,170 180,160 170,160\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"105.0\" y=\"188.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">4,0 m</text><text x=\"178.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"start\">1,5 m</text><text x=\"96.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#d9622b\" text-anchor=\"end\">takstol</text><line x1=\"100\" y1=\"124\" x2=\"110\" y2=\"132\" stroke=\"#d9622b\"/></svg></span>",
+  "t": "<p>Ett tak är 8,0 m brett. Nocken ligger mitt över huset, 1,5 m högre än takfoten. Hur långt är det längs takets lutning från takfoten till nocken?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 205\" role=\"img\" aria-label=\"Ett tak i genomskärning: en likbent triangel som är 8,0 m bred. Från mitten går en streckad höjd på 1,5 m upp till nocken. Halva bredden, 4,0 m, är markerad.\" style=\"width:100%;max-width:340px\"><rect x=\"1\" y=\"1\" width=\"338\" height=\"203\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40,170 300,170 170,90\" fill=\"#f3e3cf\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"170\" y1=\"90\" x2=\"170\" y2=\"170\" stroke=\"#9aa7b4\" stroke-dasharray=\"5 4\"/><polyline points=\"180,170 180,160 170,160\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"105.0\" y=\"188.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">4,0 m</text><text x=\"178.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"start\">1,5 m</text><text x=\"96.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#d9622b\" text-anchor=\"end\">takstol</text><line x1=\"100\" y1=\"124\" x2=\"110\" y2=\"132\" stroke=\"#d9622b\"/></svg></span>",
+  "kgInstruktion": "Avrunda till två decimaler.",
   "s": "<div class=\"facit-v2\"><p>Takstolen är hypotenusan i en rätvinklig triangel med kateterna 4,0 m (halva bredden) och 1,5 m.</p><p>\\(\\sqrt{4{,}0^2+1{,}5^2}=\\sqrt{18{,}25}\\approx4{,}27\\) m.</p></div>",
   "familj": "Pythagoras och kvadratrötter i arbetslivet",
   "formaga": [
@@ -148162,7 +148165,8 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "1/0/0",
   "typ": "radie ur area",
-  "t": "<p>En rund bordsskiva ska ha arean 1,13 m². Vilken radie ska skivan ha? (Svara i m med två decimaler.)</p>",
+  "t": "<p>En rund bordsskiva ska ha arean 1,13 m². Vilken radie ska skivan ha?</p>",
+  "kgInstruktion": "Avrunda till två decimaler.",
   "s": "<div class=\"facit-v2\"><p>\\(\\pi r^2=1{,}13\\) ger \\(r^2=\\dfrac{1{,}13}{\\pi}\\approx0{,}360\\) och \\(r=\\sqrt{0{,}360}\\approx0{,}60\\) m.</p></div>",
   "familj": "Pythagoras och kvadratrötter i arbetslivet",
   "formaga": [
@@ -148191,7 +148195,7 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "1/0/0",
   "typ": "kvadratens sida ur diagonalen",
-  "t": "<p>Diagonalen i ett kvadratiskt golv är 8,5 m. Hur lång är en sida? (Svara i m med en decimal.)</p>",
+  "t": "<p>Diagonalen i ett kvadratiskt golv är 8,5 m. Hur lång är en sida av golvet?</p>",
   "s": "<div class=\"facit-v2\"><p>Med sidan \\(x\\) ger Pythagoras sats \\(x^2+x^2=8{,}5^2\\), alltså \\(2x^2=72{,}25\\).</p><p>\\(x^2=36{,}125\\) och \\(x=\\sqrt{36{,}125}\\approx6{,}0\\) m.</p></div>",
   "familj": "Pythagoras och kvadratrötter i arbetslivet",
   "formaga": [
@@ -156027,7 +156031,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En kvadratisk sandlåda har arean 64 m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"270\" height=\"235\" viewBox=\"0 0 270 235\" role=\"img\" aria-label=\"Kvadrat med arean 64 m² och okänd sida s.\"><title>Kvadrat med arean 64 m² och okänd sida s.</title><rect x=\"1\" y=\"1\" width=\"268\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"30\" width=\"150\" height=\"150\" fill=\"#f3e6c8\" stroke=\"#9a7b4f\" stroke-width=\"2.5\"/><rect x=\"87.8\" y=\"97.0\" width=\"94.4\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#9a7b4f\" font-weight=\"bold\">A = 64 m²</text><line x1=\"60.0\" y1=\"196.0\" x2=\"210.0\" y2=\"196.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"191.0\" x2=\"60.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"191.0\" x2=\"210.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"110.0\" y=\"203.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"216.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">s = ?</text></svg></span><p>Hur lång är en sida? (Svara i m.)</p>",
+    "t": "<p>En kvadratisk sandlåda har arean 64 m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"270\" height=\"235\" viewBox=\"0 0 270 235\" role=\"img\" aria-label=\"Kvadrat med arean 64 m² och okänd sida s.\"><title>Kvadrat med arean 64 m² och okänd sida s.</title><rect x=\"1\" y=\"1\" width=\"268\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"30\" width=\"150\" height=\"150\" fill=\"#f3e6c8\" stroke=\"#9a7b4f\" stroke-width=\"2.5\"/><rect x=\"87.8\" y=\"97.0\" width=\"94.4\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#9a7b4f\" font-weight=\"bold\">A = 64 m²</text><line x1=\"60.0\" y1=\"196.0\" x2=\"210.0\" y2=\"196.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"191.0\" x2=\"60.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"191.0\" x2=\"210.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"110.0\" y=\"203.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"216.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">s = ?</text></svg></span><p>Hur lång är en sida av sandlådan?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\sqrt{64}=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 m.</p></div>",
     "familj": "Kvadratrötter",
     "formaga": [
@@ -156103,7 +156107,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(\\sqrt{3\\,600}\\). (Svara med ett heltal.)</p>",
+    "t": "<p>Beräkna \\(\\sqrt{3\\,600}\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[60\\cdot60=3\\,600\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60</p></div>",
     "familj": "Kvadratrötter",
     "formaga": [
@@ -156130,7 +156134,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En kvadratisk gräsmatta har arean 200 m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"270\" height=\"235\" viewBox=\"0 0 270 235\" role=\"img\" aria-label=\"Kvadratisk gräsmatta med arean 200 m² och okänd sida s.\"><title>Kvadratisk gräsmatta med arean 200 m² och okänd sida s.</title><rect x=\"1\" y=\"1\" width=\"268\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"30\" width=\"150\" height=\"150\" fill=\"#d9efd2\" stroke=\"#2f7d4a\" stroke-width=\"2.5\"/><rect x=\"83.0\" y=\"97.0\" width=\"104.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">A = 200 m²</text><line x1=\"60.0\" y1=\"196.0\" x2=\"210.0\" y2=\"196.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"191.0\" x2=\"60.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"191.0\" x2=\"210.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"110.0\" y=\"203.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"216.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">s = ?</text></svg></span><p>Hur lång är en sida? (Svara i m med en decimal.)</p>",
+    "t": "<p>En kvadratisk gräsmatta har arean 200 m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"270\" height=\"235\" viewBox=\"0 0 270 235\" role=\"img\" aria-label=\"Kvadratisk gräsmatta med arean 200 m² och okänd sida s.\"><title>Kvadratisk gräsmatta med arean 200 m² och okänd sida s.</title><rect x=\"1\" y=\"1\" width=\"268\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"30\" width=\"150\" height=\"150\" fill=\"#d9efd2\" stroke=\"#2f7d4a\" stroke-width=\"2.5\"/><rect x=\"83.0\" y=\"97.0\" width=\"104.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">A = 200 m²</text><line x1=\"60.0\" y1=\"196.0\" x2=\"210.0\" y2=\"196.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"191.0\" x2=\"60.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"191.0\" x2=\"210.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"110.0\" y=\"203.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"216.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">s = ?</text></svg></span><p>Hur lång är en sida av gräsmattan?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\sqrt{200}\\approx14{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14,1 m.</p></div>",
     "familj": "Kvadratrötter",
     "formaga": [
@@ -156158,7 +156162,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\(x^2=1{,}44\\). Ange den positiva lösningen.</p>",
+    "t": "<p>Vilket positivt värde på \\(x\\) uppfyller \\(x^2=1{,}44\\)?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=\\sqrt{1{,}44}=1{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1{,}2\\)</p></div>",
     "familj": "Ekvationen x² = a",
     "formaga": [
@@ -156185,7 +156189,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Triangeln är rätvinklig.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"240\" viewBox=\"0 0 340 240\" role=\"img\" aria-label=\"Rätvinklig triangel med kateterna 12 cm och 5 cm och hypotenusan x.\"><title>Rätvinklig triangel med kateterna 12 cm och 5 cm och hypotenusan x.</title><rect x=\"1\" y=\"1\" width=\"338\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"72,117.5 282.0,117.5 72,30\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M86 117.5 V103.5 H72\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><rect x=\"152.0\" y=\"126.5\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"177.0\" y=\"139.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">12 cm</text><rect x=\"28.4\" y=\"65.8\" width=\"41.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"66.0\" y=\"78.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">5 cm</text><rect x=\"187.0\" y=\"56.8\" width=\"16.4\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"191.0\" y=\"69.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">x</text></svg></span><p>Hur lång är hypotenusan \\(x\\)? (Svara i cm.)</p>",
+    "t": "<p>Triangeln är rätvinklig.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"240\" viewBox=\"0 0 340 240\" role=\"img\" aria-label=\"Rätvinklig triangel med kateterna 12 cm och 5 cm och hypotenusan x.\"><title>Rätvinklig triangel med kateterna 12 cm och 5 cm och hypotenusan x.</title><rect x=\"1\" y=\"1\" width=\"338\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"72,117.5 282.0,117.5 72,30\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M86 117.5 V103.5 H72\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><rect x=\"152.0\" y=\"126.5\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"177.0\" y=\"139.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">12 cm</text><rect x=\"28.4\" y=\"65.8\" width=\"41.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"66.0\" y=\"78.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">5 cm</text><rect x=\"187.0\" y=\"56.8\" width=\"16.4\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"191.0\" y=\"69.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">x</text></svg></span><p>Hur lång är hypotenusan \\(x\\)?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2=12^2+5^2=144+25=169\\]</div></li><li><div class=\"facit-matte\">\\[x=\\sqrt{169}=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13 cm.</p></div>",
     "familj": "Pythagoras och kvadratrötter i arbetslivet",
     "formaga": [
@@ -156213,7 +156217,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En rullstolsramp ska gå från marken upp till en dörr. Rampen går 3,6 m i sidled och 1,5 m i höjdled.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"240\" viewBox=\"0 0 340 240\" role=\"img\" aria-label=\"Rätvinklig triangel: 3,6 m i sidled, 1,5 m i höjd och rampen som lutande sida.\"><title>Rätvinklig triangel: 3,6 m i sidled, 1,5 m i höjd och rampen som lutande sida.</title><rect x=\"1\" y=\"1\" width=\"338\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"72,117.5 282.0,117.5 72,30\" fill=\"#eadfcf\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M86 117.5 V103.5 H72\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><rect x=\"152.0\" y=\"126.5\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"177.0\" y=\"139.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3,6 m</text><rect x=\"20.0\" y=\"65.8\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"66.0\" y=\"78.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">1,5 m</text><rect x=\"187.0\" y=\"56.8\" width=\"58.4\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"191.0\" y=\"69.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">rampen</text></svg></span><p>Hur lång blir rampen? (Svara i m.)</p>",
+    "t": "<p>En rak ramp leder upp till en dörr som ligger 1,5 m över marken. Från rampens början till dörren är det 3,6 m mätt längs marken.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"240\" viewBox=\"0 0 340 240\" role=\"img\" aria-label=\"Rätvinklig triangel: 3,6 m i sidled, 1,5 m i höjd och rampen som lutande sida.\"><title>Rätvinklig triangel: 3,6 m i sidled, 1,5 m i höjd och rampen som lutande sida.</title><rect x=\"1\" y=\"1\" width=\"338\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"72,117.5 282.0,117.5 72,30\" fill=\"#eadfcf\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M86 117.5 V103.5 H72\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><rect x=\"152.0\" y=\"126.5\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"177.0\" y=\"139.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3,6 m</text><rect x=\"20.0\" y=\"65.8\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"66.0\" y=\"78.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">1,5 m</text><rect x=\"187.0\" y=\"56.8\" width=\"58.4\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"191.0\" y=\"69.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">rampen</text></svg></span><p>Hur lång är rampen?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2=3{,}6^2+1{,}5^2=12{,}96+2{,}25=15{,}21\\]</div></li><li><div class=\"facit-matte\">\\[x=\\sqrt{15{,}21}=3{,}9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,9 m.</p></div>",
     "familj": "Pythagoras och kvadratrötter i arbetslivet",
     "formaga": [
@@ -156241,7 +156245,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En kvadratisk duk ska ha arean 2,25 m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"270\" height=\"235\" viewBox=\"0 0 270 235\" role=\"img\" aria-label=\"Kvadratisk duk med arean 2,25 m² och okänd sida s.\"><title>Kvadratisk duk med arean 2,25 m² och okänd sida s.</title><rect x=\"1\" y=\"1\" width=\"268\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"30\" width=\"150\" height=\"150\" fill=\"#fbe3ef\" stroke=\"#b0417a\" stroke-width=\"2.5\"/><rect x=\"78.2\" y=\"97.0\" width=\"113.6\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#b0417a\" font-weight=\"bold\">A = 2,25 m²</text><line x1=\"60.0\" y1=\"196.0\" x2=\"210.0\" y2=\"196.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"191.0\" x2=\"60.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"191.0\" x2=\"210.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"110.0\" y=\"203.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"216.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">s = ?</text></svg></span><p>Hur lång ska en sida vara? (Svara i m.)</p>",
+    "t": "<p>En kvadratisk duk ska ha arean 2,25 m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"270\" height=\"235\" viewBox=\"0 0 270 235\" role=\"img\" aria-label=\"Kvadratisk duk med arean 2,25 m² och okänd sida s.\"><title>Kvadratisk duk med arean 2,25 m² och okänd sida s.</title><rect x=\"1\" y=\"1\" width=\"268\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"30\" width=\"150\" height=\"150\" fill=\"#fbe3ef\" stroke=\"#b0417a\" stroke-width=\"2.5\"/><rect x=\"78.2\" y=\"97.0\" width=\"113.6\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#b0417a\" font-weight=\"bold\">A = 2,25 m²</text><line x1=\"60.0\" y1=\"196.0\" x2=\"210.0\" y2=\"196.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"191.0\" x2=\"60.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"191.0\" x2=\"210.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"110.0\" y=\"203.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"216.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">s = ?</text></svg></span><p>Hur lång ska varje sida vara?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\sqrt{2{,}25}=1{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,5 m.</p></div>",
     "familj": "Kvadratrötter",
     "formaga": [
@@ -156269,7 +156273,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>En mobilskärm är 7,0 cm bred och 15,0 cm hög.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"240\" viewBox=\"0 0 300 240\" role=\"img\" aria-label=\"Mobilskärm 7,0 cm bred och 15,0 cm hög med den streckade diagonalen d.\"><title>Mobilskärm 7,0 cm bred och 15,0 cm hög med den streckade diagonalen d.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"110\" y=\"20\" width=\"84\" height=\"180\" rx=\"12\" fill=\"#1f2937\"/><rect x=\"116\" y=\"30\" width=\"72\" height=\"160\" rx=\"4\" fill=\"#cfe6f7\"/><line x1=\"116.0\" y1=\"190.0\" x2=\"188.0\" y2=\"30.0\" stroke=\"#c2410c\" stroke-width=\"2.2\" stroke-dasharray=\"5 4\"/><rect x=\"201.0\" y=\"97.0\" width=\"17.6\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"205.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">d</text><rect x=\"124.6\" y=\"210.0\" width=\"54.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"152.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">7,0 cm</text><rect x=\"41.4\" y=\"100.0\" width=\"62.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"100.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">15,0 cm</text></svg></span><p>Hur lång är skärmens diagonal \\(d\\)? (Svara i cm med en decimal.)</p>",
+    "t": "<p>En mobilskärm är 7,0 cm bred och 15,0 cm hög.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"240\" viewBox=\"0 0 300 240\" role=\"img\" aria-label=\"Mobilskärm 7,0 cm bred och 15,0 cm hög med den streckade diagonalen d.\"><title>Mobilskärm 7,0 cm bred och 15,0 cm hög med den streckade diagonalen d.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"110\" y=\"20\" width=\"84\" height=\"180\" rx=\"12\" fill=\"#1f2937\"/><rect x=\"116\" y=\"30\" width=\"72\" height=\"160\" rx=\"4\" fill=\"#cfe6f7\"/><line x1=\"116.0\" y1=\"190.0\" x2=\"188.0\" y2=\"30.0\" stroke=\"#c2410c\" stroke-width=\"2.2\" stroke-dasharray=\"5 4\"/><rect x=\"201.0\" y=\"97.0\" width=\"17.6\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"205.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">d</text><rect x=\"124.6\" y=\"210.0\" width=\"54.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"152.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">7,0 cm</text><rect x=\"41.4\" y=\"100.0\" width=\"62.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"100.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">15,0 cm</text></svg></span><p>Hur lång är skärmens diagonal \\(d\\)?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[d^2=7^2+15^2=49+225=274\\]</div></li><li><div class=\"facit-matte\">\\[d=\\sqrt{274}\\approx16{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 16,6 cm.</p></div>",
     "familj": "Pythagoras och kvadratrötter i arbetslivet",
     "formaga": [
@@ -156297,7 +156301,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>En cirkelformad rabatt ska ha arean 50 m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"270\" height=\"220\" viewBox=\"0 0 270 220\" role=\"img\" aria-label=\"Cirkel med arean 50 m² och okänd radie r.\"><title>Cirkel med arean 50 m² och okänd radie r.</title><rect x=\"1\" y=\"1\" width=\"268\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"130\" cy=\"110\" r=\"80\" fill=\"#d9efd2\" stroke=\"#2f7d4a\" stroke-width=\"2.5\"/><line x1=\"130.0\" y1=\"110.0\" x2=\"210.0\" y2=\"110.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"130\" cy=\"110\" r=\"3.5\" fill=\"#172b3a\"/><rect x=\"161.2\" y=\"87.0\" width=\"17.6\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"170.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">r</text><rect x=\"88.2\" y=\"137.0\" width=\"83.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"130.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">A = 50 m²</text></svg></span><p>Vilken radie ska rabatten ha? (Svara i m med en decimal.)</p>",
+    "t": "<p>En cirkelformad rabatt ska ha arean 50 m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"270\" height=\"220\" viewBox=\"0 0 270 220\" role=\"img\" aria-label=\"Cirkel med arean 50 m² och okänd radie r.\"><title>Cirkel med arean 50 m² och okänd radie r.</title><rect x=\"1\" y=\"1\" width=\"268\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"130\" cy=\"110\" r=\"80\" fill=\"#d9efd2\" stroke=\"#2f7d4a\" stroke-width=\"2.5\"/><line x1=\"130.0\" y1=\"110.0\" x2=\"210.0\" y2=\"110.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"130\" cy=\"110\" r=\"3.5\" fill=\"#172b3a\"/><rect x=\"161.2\" y=\"87.0\" width=\"17.6\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"170.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">r</text><rect x=\"88.2\" y=\"137.0\" width=\"83.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"130.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">A = 50 m²</text></svg></span><p>Vilken radie ska rabatten ha?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\pi r^2=50\\]</div></li><li><div class=\"facit-matte\">\\[r^2=\\frac{50}{\\pi}\\approx15{,}92\\]</div></li><li><div class=\"facit-matte\">\\[r=\\sqrt{15{,}92}\\approx4{,}0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 4,0 m.</p></div>",
     "familj": "Ekvationen x² = a",
     "formaga": [
@@ -156325,7 +156329,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket positivt tal gånger sig självt blir 196? (Svara med ett heltal.)</p>",
+    "t": "<p>Vilket positivt tal blir 196 när du multiplicerar det med sig självt?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[14\\cdot14=196\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14</p></div>",
     "familj": "Kvadratrötter",
     "formaga": [
@@ -156352,7 +156356,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket av uttrycken har samma värde som \\(\\sqrt{16\\cdot9}\\)?</p>",
+    "t": "<p>Vilket av uttrycken nedan har samma värde som \\(\\sqrt{16\\cdot9}\\)?</p>",
+    "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{16\\cdot9}=\\sqrt{16}\\cdot\\sqrt9=4\\cdot3=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\cdot3\\)</p></div>",
     "familj": "Kvadratrötter",
     "formaga": [
